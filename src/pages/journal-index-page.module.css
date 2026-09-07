@@ -5,44 +5,44 @@
    source). Only the #jmag/#jlib rules — the ones the markup really uses —
    are ported, verbatim from journal.html's own two <main>-scoped
    <style> blocks. */
-#jmag{background:var(--paper)}
-#jmag .jmag-head{padding:clamp(122px,16vh,176px) 0 clamp(8px,2vh,22px)}
-#jmag .jmag-head :global(.jk){font-family:var(--fr);font-weight:600;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--stone)}
-#jmag .jmag-head h1{font-family:var(--logo);font-weight:500;font-size:clamp(50px,8.4vw,108px);line-height:.96;letter-spacing:-.012em;margin:16px 0 0}
-#jmag .jmag-head p{font-size:18px;line-height:1.6;color:var(--ink-soft);max-width:54ch;margin:22px 0 0}
-#jmag .jmag-tabs{display:flex;flex-wrap:wrap;gap:6px 30px;margin:38px 0 0;border-bottom:1px solid var(--line)}
-#jmag .jmag-tabs button{font-family:var(--fr);font-weight:500;font-size:14px;color:var(--stone);background:none;border:0;border-bottom:2px solid transparent;padding:0 0 15px;margin-bottom:-1px;cursor:pointer;transition:color .2s var(--ease),border-color .2s var(--ease)}
-#jmag .jmag-tabs button:hover{color:var(--ink)}
-#jmag .jmag-tabs button[aria-pressed="true"]{color:var(--ink);border-bottom-color:var(--ink)}
-#jmag .jmag-feat{display:grid;grid-template-columns:1.12fr .88fr;gap:clamp(28px,4vw,68px);align-items:center;margin:clamp(40px,6vh,82px) 0 clamp(50px,7vh,96px)}
-#jmag :global(.pic){aspect-ratio:4/3;overflow:hidden;background:var(--paper-2)}
-#jmag :global(.pic) span{display:block;width:100%;height:100%;background-size:cover;background-position:center;transition:transform .85s var(--ease)}
-#jmag a:hover :global(.pic) span{transform:scale(1.045)}
-#jmag .jmag-feat :global(.jk){font-family:var(--fr);font-weight:600;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink)}
-#jmag .jmag-feat h2{font-family:var(--logo);font-weight:500;font-size:clamp(36px,4.6vw,64px);line-height:1.03;letter-spacing:-.01em;margin:16px 0 0}
-#jmag .jmag-feat p{font-size:17.5px;line-height:1.62;color:var(--ink-soft);max-width:42ch;margin:20px 0 0}
-#jmag .jmag-feat .jmeta{margin-top:22px;font-family:var(--fr);font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--stone)}
-@media(max-width:820px){#jmag .jmag-feat{grid-template-columns:1fr;gap:24px}}
-#jmag .jmag-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(40px,3.4vw,64px) clamp(24px,2.4vw,42px);padding-bottom:clamp(50px,7vh,96px)}
-@media(max-width:900px){#jmag .jmag-grid{grid-template-columns:1fr 1fr;gap:40px 28px}}
-@media(max-width:560px){#jmag .jmag-grid{grid-template-columns:1fr}}
-#jmag :global(.jcard){display:flex;flex-direction:column}
-#jmag :global(.jcard) :global(.jk){font-family:var(--fr);font-weight:600;font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--stone);margin-top:18px}
-#jmag :global(.jcard) h3{font-family:var(--logo);font-weight:500;font-size:clamp(23px,2vw,29px);line-height:1.1;margin:9px 0 0;transition:opacity .2s}
-#jmag :global(.jcard):hover h3{opacity:.62}
-#jmag :global(.jcard) .jmeta{margin-top:11px;font-family:var(--fr);font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:var(--stone)}
-#jmag :global(.jcard)[hidden]{display:none}
-#jlib{border-top:1px solid var(--line);padding-top:clamp(56px,7vh,104px);padding-bottom:clamp(60px,8vh,120px)}
-#jlib .jlib-head{max-width:56ch;margin-bottom:clamp(40px,5vh,72px)}
-#jlib .jlib-head h2{font-family:var(--serif);font-weight:500;font-size:clamp(30px,4.4vw,52px);line-height:1.04;letter-spacing:-.01em;margin:.24em 0 .5em}
-#jlib .jlib-head p{font-size:15px;line-height:1.66;color:var(--stone);max-width:46ch}
-#jlib .jlib-cols{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(32px,3.4vw,64px)}
-@media(max-width:860px){#jlib .jlib-cols{grid-template-columns:1fr;gap:44px}}
-#jlib .jlib-k{font-family:var(--fr);font-size:11px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--ink);padding-bottom:15px;margin-bottom:18px;border-bottom:1px solid var(--line)}
-#jlib .jlib-col a{display:block;font-size:14.5px;line-height:1.5;color:var(--stone);padding:7px 0;text-decoration:none;transition:color .3s var(--ease),padding-left .3s var(--ease)}
-#jlib .jlib-col a:hover{color:var(--ink);padding-left:6px}
-#jlib .jlib-col a:global(.lead){color:var(--ink);font-family:var(--serif);font-size:17px;padding-bottom:12px}
-#jlib .jlib-months{columns:2;column-gap:22px}
-#jlib .jlib-months a{padding:6px 0}
-#jlib .jlib-moods{columns:2;column-gap:22px}
-#jlib .jlib-moods a{padding:6px 0}
+:global(#jmag){background:var(--paper)}
+:global(#jmag) .jmag-head{padding:clamp(122px,16vh,176px) 0 clamp(8px,2vh,22px)}
+:global(#jmag) .jmag-head :global(.jk){font-family:var(--fr);font-weight:600;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--stone)}
+:global(#jmag) .jmag-head h1{font-family:var(--logo);font-weight:500;font-size:clamp(50px,8.4vw,108px);line-height:.96;letter-spacing:-.012em;margin:16px 0 0}
+:global(#jmag) .jmag-head p{font-size:18px;line-height:1.6;color:var(--ink-soft);max-width:54ch;margin:22px 0 0}
+:global(#jmag) .jmag-tabs{display:flex;flex-wrap:wrap;gap:6px 30px;margin:38px 0 0;border-bottom:1px solid var(--line)}
+:global(#jmag) .jmag-tabs button{font-family:var(--fr);font-weight:500;font-size:14px;color:var(--stone);background:none;border:0;border-bottom:2px solid transparent;padding:0 0 15px;margin-bottom:-1px;cursor:pointer;transition:color .2s var(--ease),border-color .2s var(--ease)}
+:global(#jmag) .jmag-tabs button:hover{color:var(--ink)}
+:global(#jmag) .jmag-tabs button[aria-pressed="true"]{color:var(--ink);border-bottom-color:var(--ink)}
+:global(#jmag) .jmag-feat{display:grid;grid-template-columns:1.12fr .88fr;gap:clamp(28px,4vw,68px);align-items:center;margin:clamp(40px,6vh,82px) 0 clamp(50px,7vh,96px)}
+:global(#jmag) :global(.pic){aspect-ratio:4/3;overflow:hidden;background:var(--paper-2)}
+:global(#jmag) :global(.pic) span{display:block;width:100%;height:100%;background-size:cover;background-position:center;transition:transform .85s var(--ease)}
+:global(#jmag) a:hover :global(.pic) span{transform:scale(1.045)}
+:global(#jmag) .jmag-feat :global(.jk){font-family:var(--fr);font-weight:600;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink)}
+:global(#jmag) .jmag-feat h2{font-family:var(--logo);font-weight:500;font-size:clamp(36px,4.6vw,64px);line-height:1.03;letter-spacing:-.01em;margin:16px 0 0}
+:global(#jmag) .jmag-feat p{font-size:17.5px;line-height:1.62;color:var(--ink-soft);max-width:42ch;margin:20px 0 0}
+:global(#jmag) .jmag-feat .jmeta{margin-top:22px;font-family:var(--fr);font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--stone)}
+@media(max-width:820px){:global(#jmag) .jmag-feat{grid-template-columns:1fr;gap:24px}}
+:global(#jmag) .jmag-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(40px,3.4vw,64px) clamp(24px,2.4vw,42px);padding-bottom:clamp(50px,7vh,96px)}
+@media(max-width:900px){:global(#jmag) .jmag-grid{grid-template-columns:1fr 1fr;gap:40px 28px}}
+@media(max-width:560px){:global(#jmag) .jmag-grid{grid-template-columns:1fr}}
+:global(#jmag) :global(.jcard){display:flex;flex-direction:column}
+:global(#jmag) :global(.jcard) :global(.jk){font-family:var(--fr);font-weight:600;font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--stone);margin-top:18px}
+:global(#jmag) :global(.jcard) h3{font-family:var(--logo);font-weight:500;font-size:clamp(23px,2vw,29px);line-height:1.1;margin:9px 0 0;transition:opacity .2s}
+:global(#jmag) :global(.jcard):hover h3{opacity:.62}
+:global(#jmag) :global(.jcard) .jmeta{margin-top:11px;font-family:var(--fr);font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:var(--stone)}
+:global(#jmag) :global(.jcard)[hidden]{display:none}
+:global(#jlib){border-top:1px solid var(--line);padding-top:clamp(56px,7vh,104px);padding-bottom:clamp(60px,8vh,120px)}
+:global(#jlib) .jlib-head{max-width:56ch;margin-bottom:clamp(40px,5vh,72px)}
+:global(#jlib) .jlib-head h2{font-family:var(--serif);font-weight:500;font-size:clamp(30px,4.4vw,52px);line-height:1.04;letter-spacing:-.01em;margin:.24em 0 .5em}
+:global(#jlib) .jlib-head p{font-size:15px;line-height:1.66;color:var(--stone);max-width:46ch}
+:global(#jlib) .jlib-cols{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(32px,3.4vw,64px)}
+@media(max-width:860px){:global(#jlib) .jlib-cols{grid-template-columns:1fr;gap:44px}}
+:global(#jlib) .jlib-k{font-family:var(--fr);font-size:11px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--ink);padding-bottom:15px;margin-bottom:18px;border-bottom:1px solid var(--line)}
+:global(#jlib) .jlib-col a{display:block;font-size:14.5px;line-height:1.5;color:var(--stone);padding:7px 0;text-decoration:none;transition:color .3s var(--ease),padding-left .3s var(--ease)}
+:global(#jlib) .jlib-col a:hover{color:var(--ink);padding-left:6px}
+:global(#jlib) .jlib-col a:global(.lead){color:var(--ink);font-family:var(--serif);font-size:17px;padding-bottom:12px}
+:global(#jlib) .jlib-months{columns:2;column-gap:22px}
+:global(#jlib) .jlib-months a{padding:6px 0}
+:global(#jlib) .jlib-moods{columns:2;column-gap:22px}
+:global(#jlib) .jlib-moods a{padding:6px 0}

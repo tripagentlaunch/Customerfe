@@ -1,6 +1,0 @@
-.cc-wrap{min-height:100svh;display:flex;align-items:center;justify-content:center;padding:120px var(--gutter,24px) 90px;text-align:center}
-.cc-panel{max-width:52ch}
-.cc-panel :global(.eyebrow){justify-content:center;display:flex}
-.cc-panel h1{font-family:var(--logo);font-weight:500;font-size:clamp(30px,4vw,46px);margin:16px 0 0}
-.cc-panel p{font-size:15px;color:var(--stone);line-height:1.6;margin:16px auto 0;max-width:44ch}
-.cc-panel :global(.btn){margin-top:30px}

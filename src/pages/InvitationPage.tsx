@@ -10,18 +10,26 @@ const data = invitationData as unknown as InvitationPageData;
 const EMAIL_CTA_HREF = "mailto:maison@tripsure.com";
 const EMAIL_CTA_LABEL = "Email your advisor";
 
-// TODO(backend): four endpoints need real wiring before this page goes
-// live. Each currently shows a visible "not live yet" message instead of
-// calling out — see the handleXxxSubmit functions below, each has a single
+// Same-origin in prod, VITE_API_BASE_URL for local dev — mirrors
+// EnquirePage.tsx's API_BASE convention (itself matching
+// concierge-chat/src/api.ts's PROD_DEFAULT_ENDPOINT pattern). Points at the
+// real, deployed backend/app/routers/invite_router.py.
+const API_BASE = (import.meta.env.VITE_API_BASE_URL as string | undefined) ?? "";
+
+type RedeemResponse = {
+  valid?: boolean;
+  used?: boolean;
+  error?: string;
+  months?: number;
+  memberId?: string | null;
+  advisorName?: string | null;
+};
+
+// TODO(backend): three endpoints still need real wiring before this page
+// goes fully live (redeem — item 1 below — is now wired). Each currently
+// shows a visible "not live yet" message instead of calling out — see the
+// handleXxxSubmit functions below, each has a single
 // `// TODO(backend): wire here` marking exactly where the real call goes.
-//
-//   1. redeem (TA_INVITE.redeem in the legacy source) — the real source
-//      hardcodes a loopback-address, non-standard-port URL to a local
-//      dev-only proxy (hotel-proxy/app/routers/invite_router.py) that
-//      cannot resolve from a deployed site. Needs a real deployed endpoint
-//      that validates a 16-char alphanumeric code server-side and returns
-//      { valid, months, memberId, advisorName }. Validity/free-months must
-//      stay backend-authoritative — never invent them client-side.
 //
 //   2. site-signup (TA_INVITE.capture) — attaches captured member details
 //      (name/phone/email/city) to the redeemed membership. The legacy
@@ -82,8 +90,16 @@ export default function InvitationPage() {
   const segRefs = useRef<(HTMLInputElement | null)[]>([null, null, null, null]);
   const [filled, setFilled] = useState([false, false, false, false]);
   const [ann, setAnn] = useState<{ text: string; kind: "hint" | "err" } | null>(null);
-  const [redeemDeferred, setRedeemDeferred] = useState(false);
-  const deferredRef = useRef<HTMLDivElement>(null);
+  const [redeeming, setRedeeming] = useState(false);
+  const [redemption, setRedemption] = useState<{
+    months: number;
+    memberId: string | null;
+    advisorName: string | null;
+  } | null>(null);
+  // Segment inputs (segRefs) unmount once step leaves "code" — the redeemed
+  // code has to be captured into state here so the capture step can still
+  // send it (the backend re-validates memberId against this exact code).
+  const [redeemedCode, setRedeemedCode] = useState<string | null>(null);
 
   function fullCode() {
     return segRefs.current.map((el) => el?.value ?? "").join("");
@@ -163,17 +179,19 @@ export default function InvitationPage() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
+  // Update the reveal step's <b id="revealMonths"> with the real,
+  // backend-authoritative month count once it's known — dangerouslySetInnerHTML
+  // can't take a dynamic child, so this mirrors the legacy source's direct
+  // DOM write (invitation.html: `document.getElementById('revealMonths').textContent = word`).
   useEffect(() => {
-    if (redeemDeferred) {
-      try {
-        deferredRef.current?.focus({ preventScroll: true });
-      } catch {
-        // no-op
-      }
-    }
-  }, [redeemDeferred]);
+    if (step !== "reveal" || !redemption) return;
+    const el = document.getElementById("revealMonths");
+    if (!el) return;
+    const m = redemption.months;
+    el.textContent = `${m} month${m === 1 ? "" : "s"}`;
+  }, [step, redemption]);
 
-  function handleKeySubmit(e: React.FormEvent) {
+  async function handleKeySubmit(e: React.FormEvent) {
     e.preventDefault();
     const code = fullCode();
     if (code.length < 16) {
@@ -182,14 +200,41 @@ export default function InvitationPage() {
       (firstIncomplete ?? segRefs.current[0])?.focus();
       return;
     }
-    // TODO(backend): wire here — replace this branch with the real
-    // TA_INVITE.redeem(code) call (see the file-header TODO, item 1) and
-    // keep the deliberate ceremonial seal/reveal beat the source has for a
-    // REAL response. Until then: no seal working-state, no fake delay — the
-    // deferred message shows immediately, because there's nothing to wait
-    // for.
-    setAnn(null);
-    setRedeemDeferred(true);
+    if (redeeming) return;
+    setAnn({ text: "Verifying your key…", kind: "hint" });
+    setRedeeming(true);
+    try {
+      const res = await fetch(`${API_BASE}/invite/${encodeURIComponent(code)}/redeem`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({}),
+      });
+      if (!res.ok) {
+        setAnn({ text: "We couldn't reach the door just now. Please try again in a moment.", kind: "err" });
+        return;
+      }
+      const data = (await res.json()) as RedeemResponse;
+      const months = Number(data.months);
+      // GUARDRAIL: validity + free-months are decided by the backend only —
+      // a "valid" response with no usable months is never trusted or
+      // defaulted client-side.
+      if (data.valid === true && Number.isFinite(months) && months >= 1 && months <= 24) {
+        setAnn(null);
+        setRedemption({ months, memberId: data.memberId ?? null, advisorName: data.advisorName ?? null });
+        setRedeemedCode(code);
+        show("reveal");
+        return;
+      }
+      if (data.used === true) {
+        setAnn({ text: "This invitation has already been opened.", kind: "err" });
+        return;
+      }
+      setAnn({ text: "That key isn't recognised.", kind: "err" });
+    } catch {
+      setAnn({ text: "We couldn't reach the door just now. Please try again in a moment.", kind: "err" });
+    } finally {
+      setRedeeming(false);
+    }
   }
 
   // ---------------- STEP 2 → 3 ----------------
@@ -198,29 +243,62 @@ export default function InvitationPage() {
   }
 
   // ---------------- STEP 3 — member capture ----------------
-  const [capDeferred, setCapDeferred] = useState(false);
-  const capDeferredRef = useRef<HTMLDivElement>(null);
+  // Attaches the captured details to the site_members row redeem() already
+  // created — NOT the separate, richer `members` table enquiry_router.py
+  // uses (that one keys off auth_user_id post-sign-in and has no bearing on
+  // an unauthenticated invite redemption). Confirmed against invite_service.py:
+  // redeem_invite()'s returned memberId is a site_members.id.
+  const [capturing, setCapturing] = useState(false);
+  const [capError, setCapError] = useState<string | null>(null);
+  const [member, setMember] = useState<{ name: string } | null>(null);
 
-  useEffect(() => {
-    if (capDeferred) {
-      try {
-        capDeferredRef.current?.focus({ preventScroll: true });
-      } catch {
-        // no-op
-      }
-    }
-  }, [capDeferred]);
-
-  function handleCapSubmit(e: React.FormEvent<HTMLFormElement>) {
+  async function handleCapSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    if (!e.currentTarget.checkValidity()) {
-      e.currentTarget.reportValidity();
+    const form = e.currentTarget;
+    if (!form.checkValidity()) {
+      form.reportValidity();
       return;
     }
-    // TODO(backend): wire here — replace this branch with the real
-    // TA_INVITE.capture(...) call (file-header TODO, item 2). Immediate
-    // deferred message, no "One moment…" busy-label beat first.
-    setCapDeferred(true);
+    if (capturing) return;
+    const fd = new FormData(form);
+    const payload = {
+      code: redeemedCode,
+      memberId: redemption?.memberId ?? null,
+      name: fd.get("name"),
+      phone: fd.get("phone"),
+      email: fd.get("email"),
+      city: fd.get("city"),
+    };
+    setCapError(null);
+    setCapturing(true);
+    try {
+      const res = await fetch(`${API_BASE}/invite/${encodeURIComponent(redeemedCode ?? "")}/capture`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+      if (!res.ok) {
+        setCapError("We couldn't reach the door just now. Please try again in a moment.");
+        return;
+      }
+      const data = (await res.json()) as { ok?: boolean; error?: string };
+      if (data.ok === true) {
+        setMember({ name: String(fd.get("name") ?? "") });
+        show("card");
+        return;
+      }
+      if (data.error === "bad_email") {
+        setCapError("Please enter a valid email.");
+      } else if (data.error === "email_taken") {
+        setCapError("That email is already attached to another membership. Please use a different one, or reach us on WhatsApp.");
+      } else {
+        setCapError("Something went wrong saving your details. Please try again, or reach us on WhatsApp.");
+      }
+    } catch {
+      setCapError("We couldn't reach the door just now. Please try again in a moment.");
+    } finally {
+      setCapturing(false);
+    }
   }
 
   // ---------------- STEP 4 — card on file ----------------
@@ -228,12 +306,6 @@ export default function InvitationPage() {
   // button — the real Razorpay mount, TODO item 4, only calls site-pay once
   // a person actually adds a card, which this stub can't do), so nothing to
   // defer here beyond the stub copy already being honest about it.
-  const [member, setMember] = useState<{ name: string } | null>(null);
-
-  function handleCapCapture(fd: FormData) {
-    setMember({ name: String(fd.get("name") ?? "") });
-  }
-
   function finishToWelcome() {
     show("welcome");
   }
@@ -318,23 +390,11 @@ export default function InvitationPage() {
                   {ann?.text}
                 </div>
                 <div className={styles.ctaRow}>
-                  <button type="submit" className="btn btn-gold">
-                    {data.step1.openLabel}
+                  <button type="submit" className="btn btn-gold" disabled={redeeming}>
+                    {redeeming ? "Verifying…" : data.step1.openLabel}
                   </button>
                 </div>
               </form>
-
-              {redeemDeferred && (
-                <div className={styles.deferredNote} role="status" aria-live="polite" tabIndex={-1} ref={deferredRef}>
-                  Invitation redemption isn't live on the site yet — no code is being checked. If someone has given you a
-                  key, write to your advisor directly and they'll open the door for you.
-                  <div style={{ marginTop: 14 }}>
-                    <a className="btn btn-gold" href={EMAIL_CTA_HREF}>
-                      {EMAIL_CTA_LABEL}
-                    </a>
-                  </div>
-                </div>
-              )}
 
               <div className={styles.byinv}>
                 {data.step1.requestPromptText}{" "}
@@ -390,9 +450,9 @@ export default function InvitationPage() {
               </div>
               <div className="eyebrow">{data.step2.eyebrow}</div>
               {/* headingHtml already carries the extracted <b id="revealMonths">—</b> —
-                  real months are backend-authoritative and never invented client-side,
-                  so this stays the placeholder em dash; this step is also unreachable
-                  today since redeem (step 1) defers instead of advancing here. */}
+                  real months are backend-authoritative and never invented client-side;
+                  the em dash placeholder is replaced with the real count by the
+                  useEffect above once redeem() succeeds. */}
               <h2 className={styles.gift} dangerouslySetInnerHTML={{ __html: data.step2.headingHtml ?? "" }} />
               <hr className={styles.hair} />
               <p className="lede">{data.step2.lede}</p>
@@ -409,45 +469,31 @@ export default function InvitationPage() {
             <div>
               <div className="eyebrow">{data.step3.eyebrow}</div>
               <h2 style={{ fontSize: "clamp(32px,4.4vw,54px)" }} dangerouslySetInnerHTML={{ __html: data.step3.headingHtml ?? "" }} />
-              {!capDeferred ? (
-                <form
-                  className={styles.capform}
-                  noValidate
-                  onSubmit={(e) => {
-                    handleCapSubmit(e);
-                    handleCapCapture(new FormData(e.currentTarget));
-                  }}
-                >
-                  {data.step3.fields.map((f) => (
-                    <div className={styles.fld} key={f.id}>
-                      <label htmlFor={f.id ?? undefined} dangerouslySetInnerHTML={{ __html: f.labelHtml ?? "" }} />
-                      <input
-                        id={f.id ?? undefined}
-                        name={f.name ?? undefined}
-                        type={f.type ?? "text"}
-                        required={f.required}
-                        placeholder={f.placeholder ?? undefined}
-                      />
-                      {f.sub && <div className={styles.fldSub}>{f.sub}</div>}
-                    </div>
-                  ))}
-                  <div className={styles.ctaRow}>
-                    <button type="submit" className="btn btn-gold" style={{ width: "100%" }}>
-                      {data.step3.submitLabel}
-                    </button>
+              <form className={styles.capform} noValidate onSubmit={handleCapSubmit}>
+                {data.step3.fields.map((f) => (
+                  <div className={styles.fld} key={f.id}>
+                    <label htmlFor={f.id ?? undefined} dangerouslySetInnerHTML={{ __html: f.labelHtml ?? "" }} />
+                    <input
+                      id={f.id ?? undefined}
+                      name={f.name ?? undefined}
+                      type={f.type ?? "text"}
+                      required={f.required}
+                      placeholder={f.placeholder ?? undefined}
+                    />
+                    {f.sub && <div className={styles.fldSub}>{f.sub}</div>}
                   </div>
-                </form>
-              ) : (
-                <div className={styles.deferredNote} role="status" aria-live="polite" tabIndex={-1} ref={capDeferredRef}>
-                  Not quite live yet — we can't attach your details to a membership until this is wired up. Please write
-                  to your advisor directly in the meantime.
-                  <div style={{ marginTop: 14 }}>
-                    <a className="btn btn-gold" href={EMAIL_CTA_HREF}>
-                      {EMAIL_CTA_LABEL}
-                    </a>
+                ))}
+                {capError && (
+                  <div className={`${styles.ann} ${styles.annErr}`} role="alert" aria-live="polite" style={{ marginBottom: 14 }}>
+                    {capError}
                   </div>
+                )}
+                <div className={styles.ctaRow}>
+                  <button type="submit" className="btn btn-gold" style={{ width: "100%" }} disabled={capturing}>
+                    {capturing ? "Saving…" : data.step3.submitLabel}
+                  </button>
                 </div>
-              )}
+              </form>
             </div>
           )}
 

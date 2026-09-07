@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import { Layout } from "./components/layout/Layout";
 import { AuthProvider } from "./lib/auth";
+import { ThemeProvider } from "./lib/theme";
 import PageRouter from "./pages/PageRouter";
 
 // AuthProvider is mounted here because Header.tsx calls useAuth()
@@ -17,13 +18,15 @@ import PageRouter from "./pages/PageRouter";
 // case — rather than duplicating the redirect/dispatch logic here.
 export default function App() {
   return (
-    <AuthProvider>
-      <Routes>
-        <Route element={<Layout />}>
-          <Route index element={<PageRouter />} />
-          <Route path=":pageSlug" element={<PageRouter />} />
-        </Route>
-      </Routes>
-    </AuthProvider>
+    <ThemeProvider>
+      <AuthProvider>
+        <Routes>
+          <Route element={<Layout />}>
+            <Route index element={<PageRouter />} />
+            <Route path=":pageSlug" element={<PageRouter />} />
+          </Route>
+        </Routes>
+      </AuthProvider>
+    </ThemeProvider>
   );
 }

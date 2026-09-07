@@ -11,6 +11,13 @@ type AuthContextValue = {
   member: SiteMemberRow | null;
   loading: boolean; // true until the first getSession()+site_members lookup resolves
   signedIn: boolean;
+  // Set when a session was established (typically via the magic-link click,
+  // which supabase-js's detectSessionInUrl completes with no code in this
+  // app ever seeing it) but no site_members row is linked — see hydrate()'s
+  // doc comment. Consumed by whichever UI wants to surface it (Header opens
+  // the sign-in modal with it), then cleared with clearAuthError().
+  authError: "not_invited" | null;
+  clearAuthError: () => void;
   requestLogin: (email: string) => Promise<LoginResult>;
   verifyLogin: (email: string, token: string) => Promise<LoginResult>;
   logout: () => Promise<void>;
@@ -23,17 +30,6 @@ const AuthContext = createContext<AuthContextValue | null>(null);
 // site_members row is linked yet — this is the invite gate, enforced the same
 // way js/account.js's verifyLogin does (a valid login with no linked
 // membership is not a member).
-//
-// DEPENDS ON A LIVE FIX NOT YET APPLIED: supabase/migrations/0002_site_auth_gate.sql
-// defines a trigger (tg_link_site_member) that sets site_members.auth_uid on
-// first real sign-in, matched by email/phone. Confirmed 2026-08-24 via a
-// direct RPC probe against the live project that this trigger function does
-// NOT exist there yet (PGRST202) — 0001's is_site_member() is live, 0002 is
-// not. Until 0002 is applied to the live project, EVERY first-time real OTP
-// login will resolve `member` to null here and be treated as not_invited,
-// even for a genuinely invited site_members row. This is not a bug in this
-// file — apply 0002 (branch-first, per its own header comment) before
-// expecting real logins to succeed end-to-end.
 async function loadMember(session: Session | null): Promise<SiteMemberRow | null> {
   if (!session) return null;
   const { data, error } = await supabase
@@ -53,13 +49,31 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   const [session, setSession] = useState<Session | null>(null);
   const [member, setMember] = useState<SiteMemberRow | null>(null);
   const [loading, setLoading] = useState(true);
+  const [authError, setAuthError] = useState<"not_invited" | null>(null);
 
   useEffect(() => {
     let cancelled = false;
 
+    // A session can arrive here two ways: verifyLogin() below (typed code —
+    // already gates itself and signs back out on no-member), or a magic-link
+    // click completing entirely inside supabase-js's own detectSessionInUrl
+    // handling before any of this app's code runs — that path has no other
+    // gate, so it's enforced here too. Without this, a non-member's session
+    // would sit signed-in-at-Supabase but member:null forever: signedIn
+    // reads false (so the UI looks unchanged/signed-out) while a live
+    // session lingers in storage — sign it back out and surface why.
     async function hydrate(nextSession: Session | null) {
       const m = await loadMember(nextSession);
       if (cancelled) return;
+      if (nextSession && !m) {
+        await supabase.auth.signOut();
+        if (cancelled) return;
+        setSession(null);
+        setMember(null);
+        setLoading(false);
+        setAuthError("not_invited");
+        return;
+      }
       setSession(nextSession);
       setMember(m);
       setLoading(false);
@@ -84,6 +98,8 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       member,
       loading,
       signedIn: !!session && !!member,
+      authError,
+      clearAuthError: () => setAuthError(null),
       async requestLogin(email) {
         const { error } = await supabase.auth.signInWithOtp({
           email: email.trim(),
@@ -123,7 +139,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         setMember(null);
       },
     }),
-    [session, member, loading]
+    [session, member, loading, authError]
   );
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;

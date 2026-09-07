@@ -1,0 +1,595 @@
+/* Aanya — self-contained chat widget styles.
+ *
+ * Restyled to match concierge-chat/reference/whatsapp-flows.html (team
+ * lead's WhatsApp design reference) — exact token values below are lifted
+ * from that file's :root, not approximated. Scoped entirely to .ta-cc so
+ * none of it leaks into the rest of the site: the main site's own --ink/
+ * --line/--signature globals (css/site.css) are untouched, and this widget's
+ * --gold/--parchment/--wa-* system only exists inside .ta-cc.
+ *
+ * What was intentionally NOT pulled from the reference: it also depicts a
+ * much bigger product (named human-advisor bubbles, Approve & Pay quote
+ * cards, document upload, status trackers, WhatsApp template banners) built
+ * for a real WhatsApp Business API integration this chat doesn't have. Only
+ * the visual chrome that applies to what this component actually does —
+ * bubble colors/shape, timestamp placement, the verified tick, the
+ * composer — was ported. See MessageBubble.tsx for the one deliberately
+ * cosmetic-only addition (the read-tick) and why.
+ */
+
+.ta-cc {
+  /* --- exact values from whatsapp-flows.html's :root --- */
+  --gold: #b8975a;
+  --gold-soft: #d8c79e;
+  --gold-deep: #9a7c43;
+  --parchment: #f6f1e7;
+  --ivory: #fbf8f1;
+  --ink: #2c2620;
+  --ink-soft: #5a5048;
+  --espresso: #3a2f25;
+  --line: #e3d9c6;
+  --wa-bg: #e9e2d6;
+  --wa-header: #f7f4ee;
+  --wa-in: #ffffff;
+  --wa-out: #e3f3d9;
+  --wa-meta: #8a8276;
+  --wa-green: #1f9d57;
+  --sys-card: #fffdf8;
+
+  /* Full-screen app, not a bounded card: this fills whatever it's given —
+     concierge.html sizes the containing #concierge-chat-root to 100dvh (the
+     dev harness's own index.html does the same). No border/shadow/height
+     cap — those belonged to the old "widget mid-page" look. */
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background: var(--ivory);
+  overflow: hidden;
+  font-family: var(--sans, "Plus Jakarta Sans", "Inter", system-ui, sans-serif);
+}
+
+/* --- top bar, restyled as a WhatsApp business header: avatar + verified
+   name + status line, on the warm --wa-header tint. Safe-area padding so it
+   clears the iOS notch/Dynamic-Island when the browser chrome is hidden
+   (viewport-fit=cover, set in concierge.html's <meta viewport>). --- */
+.ta-cc-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: max(9px, env(safe-area-inset-top)) 14px 9px;
+  border-bottom: 1px solid var(--line);
+  background: var(--wa-header);
+  flex: 0 0 auto;
+}
+.ta-cc-back {
+  flex: 0 0 auto;
+  font-size: 22px;
+  line-height: 1;
+  color: var(--gold-deep);
+  text-decoration: none;
+  padding: 2px 2px 2px 0;
+}
+.ta-cc-bar-avatar {
+  flex: 0 0 auto;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 30% 25%, var(--gold-soft), var(--gold-deep));
+  color: #fff;
+  font-family: var(--serif, "Cormorant Garamond", Georgia, serif);
+  font-weight: 700;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ta-cc-bar-id {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+.ta-cc-bar-who {
+  font-family: var(--sans, "Plus Jakarta Sans", "Inter", system-ui, sans-serif);
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--espresso);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  line-height: 1.2;
+}
+.ta-cc-bar-status {
+  font-size: 10.5px;
+  color: var(--wa-meta);
+}
+/* the WhatsApp verified-business tick — small green circle badge */
+.ta-cc-tick {
+  color: #fff;
+  background: var(--wa-green);
+  border-radius: 50%;
+  width: 13px;
+  height: 13px;
+  font-size: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+}
+.ta-cc-human {
+  flex: 0 0 auto;
+  font-family: var(--sans, "Plus Jakarta Sans", "Inter", system-ui, sans-serif);
+  font-size: 12px;
+  color: var(--gold-deep);
+  font-weight: 600;
+  white-space: nowrap;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+.ta-cc-human:hover {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* --- thread: the warm WhatsApp "wallpaper" tint behind the bubbles, not
+   stark white --- */
+.ta-cc-thread {
+  flex: 1 1 auto;
+  min-height: 0; /* required for overflow-y to actually clip/scroll inside a flex column */
+  overflow-y: auto;
+  padding: clamp(16px, 3vw, 26px);
+  background: var(--wa-bg);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  scroll-behavior: smooth;
+}
+.ta-cc-row {
+  display: flex;
+  gap: 10px;
+  max-width: 100%;
+}
+/* grouped = a consecutive message from the same sender (see ChatThread.tsx)
+   — WhatsApp tightens the gap and drops the repeated avatar/name */
+.ta-cc-row.ta-cc-grouped {
+  margin-top: -6px;
+}
+.ta-cc-me {
+  justify-content: flex-end;
+}
+.ta-cc-aanya {
+  align-items: flex-start;
+}
+.ta-cc-av {
+  flex: 0 0 30px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 30% 25%, var(--gold-soft), var(--gold-deep));
+  color: #fff;
+  font-family: var(--serif, "Cormorant Garamond", Georgia, serif);
+  font-weight: 700;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+}
+.ta-cc-col {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+  max-width: 84%;
+}
+.ta-cc-who {
+  font-family: var(--sans, "Plus Jakarta Sans", "Inter", system-ui, sans-serif);
+  font-size: 11.5px;
+  font-weight: 700;
+  color: var(--gold-deep);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* --- message bubbles: WhatsApp shape (rounded, one sharp "tail" corner),
+   incoming/outgoing distinguished by --wa-in / --wa-out, exactly as in the
+   reference's .bubble/.bubble.in/.bubble.out --- */
+.ta-cc-bubble {
+  position: relative;
+  font-family: var(--sans, "Plus Jakarta Sans", "Inter", system-ui, sans-serif);
+  font-size: 14.5px;
+  line-height: 1.48;
+  color: var(--ink);
+  background: var(--wa-in);
+  border-radius: 9px;
+  border-top-left-radius: 2px;
+  padding: 8px 10px 6px;
+  max-width: 100%;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+.ta-cc-mine {
+  background: var(--wa-out);
+  border-radius: 9px;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 2px;
+}
+
+/* --- timestamp: inline, trailing, floated into the bubble's last line —
+   the reference's .bubble .time pattern, not a separate block underneath --- */
+.ta-cc-timestamp {
+  float: right;
+  font-size: 10px;
+  color: var(--wa-meta);
+  margin: 6px 0 -2px 10px;
+  white-space: nowrap;
+}
+.ta-cc-tickread {
+  color: #34b7f1;
+  font-size: 10px;
+  margin-left: 3px;
+}
+
+/* --- typing indicator --- */
+.ta-cc-typing {
+  display: inline-flex;
+  gap: 5px;
+  align-items: center;
+  background: var(--wa-in);
+  border-radius: 9px;
+  border-top-left-radius: 2px;
+  padding: 9px 12px;
+}
+.ta-cc-typing span {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--wa-meta);
+  opacity: 0.5;
+  animation: ccblink 1.2s infinite;
+}
+.ta-cc-typing span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.ta-cc-typing span:nth-child(3) {
+  animation-delay: 0.4s;
+}
+@keyframes ccblink {
+  0%, 60%, 100% { opacity: 0.3; transform: translateY(0); }
+  30% { opacity: 1; transform: translateY(-3px); }
+}
+
+/* --- in-chat handoff card — gold/parchment system instead of the old
+   oxblood border, still deliberately not a link (see HandoffCard.tsx) --- */
+.ta-cc-handoff-card {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  background: var(--sys-card);
+  border: 1px solid var(--gold-soft);
+  border-radius: 9px;
+  padding: 10px 12px;
+  max-width: 100%;
+  box-shadow: 0 2px 5px rgba(154, 124, 67, 0.1);
+}
+.ta-cc-handoff-icon {
+  flex: 0 0 auto;
+  font-size: 17px;
+  line-height: 1;
+  color: var(--gold-deep);
+  margin-top: 1px;
+}
+.ta-cc-handoff-body {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+.ta-cc-handoff-title {
+  font-family: var(--sans, "Plus Jakarta Sans", "Inter", system-ui, sans-serif);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 10.5px;
+  font-weight: 700;
+  color: var(--gold-deep);
+}
+.ta-cc-handoff-summary {
+  font-family: var(--serif, "Cormorant Garamond", Georgia, serif);
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--espresso);
+}
+.ta-cc-handoff-note {
+  font-family: var(--sans, "Plus Jakarta Sans", "Inter", system-ui, sans-serif);
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--ink-soft);
+}
+
+/* --- failed-request retry (ErrorRetryCard.tsx) — deliberately NOT the
+   handoff card's gold/"notified" treatment: muted/neutral so a network
+   failure can never visually read as a completed hand-off. --- */
+.ta-cc-error-card {
+  display: flex;
+  max-width: 100%;
+}
+.ta-cc-error-retry {
+  font-family: var(--sans, "Plus Jakarta Sans", "Inter", system-ui, sans-serif);
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--ink-soft);
+  background: var(--sys-card);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 7px 13px;
+  cursor: pointer;
+  transition: border-color 0.2s, background 0.2s;
+}
+.ta-cc-error-retry:hover {
+  border-color: var(--ink-soft);
+  background: var(--wa-bg);
+}
+
+/* --- demo booking confirmation (DemoConfirmationCard.tsx) — a "success"
+   moment, so it gets the green WhatsApp accent instead of the handoff
+   card's gold, and a top border so it reads as a distinct, more final
+   state than a plain handoff notice. The DEMO badge and disclaimer are
+   part of the card's fixed layout, never conditionally hidden — this must
+   never look like an ordinary confirmed booking out of context. --- */
+.ta-cc-demo-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background: var(--sys-card);
+  border: 1px solid var(--wa-green);
+  border-top: 3px solid var(--wa-green);
+  border-radius: 9px;
+  padding: 12px 14px 10px;
+  max-width: 100%;
+  box-shadow: 0 2px 6px rgba(31, 157, 87, 0.12);
+}
+.ta-cc-demo-badge {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  font-family: var(--sans, "Plus Jakarta Sans", "Inter", system-ui, sans-serif);
+  font-size: 9.5px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  color: #fff;
+  background: var(--gold-deep);
+  border-radius: 4px;
+  padding: 2px 6px;
+}
+.ta-cc-demo-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-right: 46px; /* clears the DEMO badge */
+}
+.ta-cc-demo-icon {
+  font-size: 16px;
+  line-height: 1;
+  color: var(--wa-green);
+}
+.ta-cc-demo-title {
+  font-family: var(--sans, "Plus Jakarta Sans", "Inter", system-ui, sans-serif);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 10.5px;
+  font-weight: 700;
+  color: var(--wa-green);
+}
+.ta-cc-demo-name {
+  font-family: var(--serif, "Cormorant Garamond", Georgia, serif);
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--espresso);
+}
+.ta-cc-demo-rows {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.ta-cc-demo-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  font-family: var(--sans, "Plus Jakarta Sans", "Inter", system-ui, sans-serif);
+  font-size: 12.5px;
+}
+.ta-cc-demo-row span:first-child {
+  color: var(--wa-meta);
+}
+.ta-cc-demo-row span:last-child {
+  color: var(--ink);
+  font-weight: 600;
+  text-align: right;
+}
+.ta-cc-demo-confirmation {
+  font-family: var(--sans, "Plus Jakarta Sans", "Inter", system-ui, sans-serif);
+  font-size: 12px;
+  color: var(--ink-soft);
+  padding-top: 6px;
+  border-top: 1px dashed var(--line);
+}
+.ta-cc-demo-confirmation strong {
+  font-family: "SFMono-Regular", ui-monospace, Menlo, monospace;
+  color: var(--espresso);
+  letter-spacing: 0.02em;
+}
+.ta-cc-demo-disclaimer {
+  font-family: var(--sans, "Plus Jakarta Sans", "Inter", system-ui, sans-serif);
+  font-size: 10.5px;
+  line-height: 1.4;
+  color: var(--wa-meta);
+  font-style: italic;
+}
+
+/* --- search result cards (search_flights/search_hotels) — same sys-card
+   gold/parchment system as the handoff card, but a tappable list: tapping an
+   option sends "I'll take the X one" as if the member typed it, continuing
+   the normal conversational flow (see SearchResultsCard.tsx) rather than
+   linking anywhere. --- */
+.ta-cc-results {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 100%;
+}
+.ta-cc-result-card {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  text-align: left;
+  background: var(--sys-card);
+  border: 1px solid var(--gold-soft);
+  border-radius: 9px;
+  padding: 8px 10px;
+  max-width: 100%;
+  box-shadow: 0 2px 5px rgba(154, 124, 67, 0.1);
+  cursor: pointer;
+  font-family: inherit;
+  transition: border-color 0.2s, background 0.2s;
+}
+.ta-cc-result-card:hover {
+  border-color: var(--gold-deep);
+  background: var(--parchment);
+}
+.ta-cc-result-pic {
+  flex: 0 0 auto;
+  width: 48px;
+  height: 48px;
+  border-radius: 6px;
+  background-size: cover;
+  background-position: center;
+  background-color: var(--line);
+}
+.ta-cc-result-body {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+  flex: 1 1 auto;
+}
+.ta-cc-result-body h4 {
+  margin: 0;
+  font-family: var(--serif, "Cormorant Garamond", Georgia, serif);
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--espresso);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.ta-cc-result-meta {
+  margin: 0;
+  font-size: 12px;
+  color: var(--ink-soft);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.ta-cc-result-price {
+  margin: 2px 0 0;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--gold-deep);
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+}
+.ta-cc-result-price span {
+  font-size: 10.5px;
+  font-weight: 500;
+  color: var(--wa-meta);
+}
+
+/* --- starter chips (initial suggested prompts only — Aanya's per-turn
+   quick-reply chips were removed; see MessageBubble.tsx) --- */
+.ta-cc-starters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  flex: 0 0 auto;
+  padding: 2px clamp(16px, 3vw, 26px) 10px;
+  background: var(--wa-bg);
+}
+.ta-cc-chip {
+  font-family: var(--sans, "Plus Jakarta Sans", "Inter", system-ui, sans-serif);
+  font-size: 12.5px;
+  color: var(--gold-deep);
+  background: #fff;
+  border: 1px solid var(--gold-soft);
+  border-radius: 14px;
+  padding: 7px 13px;
+  cursor: pointer;
+  transition: border-color 0.2s, background 0.2s;
+}
+.ta-cc-chip:hover {
+  border-color: var(--gold-deep);
+  background: var(--parchment);
+}
+
+/* --- composer: WhatsApp's pill input + circular send button. Safe-area
+   padding clears the iOS home-indicator in full-screen mode. --- */
+.ta-cc-input {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+  padding: 8px 10px max(8px, env(safe-area-inset-bottom));
+  border-top: 1px solid var(--line);
+  background: var(--wa-header);
+  flex: 0 0 auto;
+}
+.ta-cc-input textarea {
+  flex: 1 1 auto;
+  border: 1px solid var(--line);
+  background: #fff;
+  border-radius: 18px;
+  padding: 10px 16px;
+  font-family: var(--sans, "Plus Jakarta Sans", "Inter", system-ui, sans-serif);
+  font-size: 15px;
+  color: var(--ink);
+  outline: none;
+  resize: none;
+  overflow-y: auto;
+  overflow-wrap: break-word;
+  white-space: pre-wrap;
+  max-height: 160px;
+  line-height: 1.4;
+}
+.ta-cc-input textarea::placeholder {
+  color: var(--wa-meta);
+}
+.ta-cc-send {
+  flex: 0 0 auto;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: none;
+  background: var(--wa-green);
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+.ta-cc-send:hover:not(:disabled) {
+  opacity: 0.85;
+}
+.ta-cc-send:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+@media (max-width: 640px) {
+  .ta-cc-col {
+    max-width: 100%;
+  }
+  .ta-cc-human {
+    font-size: 11px;
+  }
+}

@@ -9,7 +9,7 @@ import styles from "./city-page.module.css";
 
 const CITIES = cities as unknown as Record<string, CityData>;
 
-function GuidePanel({ panel }: { panel: CityGuidePanel }) {
+function GuidePanel({ panel, active }: { panel: CityGuidePanel; active: boolean }) {
   const [openTiers, setOpenTiers] = useState<Set<number>>(new Set());
 
   function toggle(i: number) {
@@ -22,7 +22,7 @@ function GuidePanel({ panel }: { panel: CityGuidePanel }) {
   }
 
   return (
-    <div className={`cg-panel${panel.key === "stay" ? " on" : ""}`} data-cg={panel.key}>
+    <div className={`cg-panel${active ? " on" : ""}`} data-cg={panel.key}>
       {panel.tiers.map((tier, i) => (
         <div className={`cg-tier${openTiers.has(i) ? " cg-more-open" : ""}`} key={i}>
           {tier.label && <div className="tl">{tier.label}</div>}
@@ -260,7 +260,7 @@ export default function CityPage() {
             </div>
             {guide.panels.map((p) => (
               <div key={p.key} style={{ display: activeTab === p.key ? undefined : "none" }}>
-                <GuidePanel panel={p} />
+                <GuidePanel panel={p} active={activeTab === p.key} />
               </div>
             ))}
             <div style={{ display: activeTab === "map" ? undefined : "none" }}>

@@ -1,56 +1,168 @@
-import { Link } from "react-router-dom";
+import { useEffect, useRef, useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "../../lib/auth";
-import { useNavVariantValue } from "../../lib/navVariant";
+import { useAdvisorHref } from "../../lib/advisor";
+import { useTripSummary } from "../../lib/tripState";
+import { useTripDrawer } from "../../lib/tripDrawer";
+import { useSignInModal } from "../../lib/signInModal";
+import { useNavMenu } from "../../lib/navMenu";
+import { DiscoverMega, PlanMega } from "./HeaderMegaMenus";
 
-// Extracted verbatim (same markup/classes) from index.html's <nav class="nav"
-// data-nav> so css/site.css applies with zero changes — see main.tsx for how
-// that stylesheet is imported. The mobile nav-toggle's open/close behavior
-// currently lives in js/shell.js on the static site; this component doesn't
-// reimplement it yet (nothing in Phase 1 exercises it — the placeholder
-// pages don't need a working mobile menu to prove routing/auth/layout).
+// Ported from js/shell.js's header build (~line 60-80) — the real,
+// currently-live header. The previous Header.tsx had extracted the empty
+// pre-shell.js <nav> skeleton from index.html's source, which shell.js
+// replaces at runtime on every page that loads it (416/436 static pages);
+// that markup was dead code, never actually seen by a visitor. This is the
+// structure real visitors get today. css/site.css's .ta-hd rules (added
+// 2026-07-07) apply with zero new CSS.
+const SEARCH_ICON = (
+  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth={1.6}>
+    <circle cx="11" cy="11" r="7" />
+    <line x1="20.5" y1="20.5" x2="16.5" y2="16.5" />
+  </svg>
+);
+
 export function Header() {
-  const { signedIn } = useAuth();
-  const navVariant = useNavVariantValue();
+  const { signedIn, authError, clearAuthError } = useAuth();
+  const advisor = useAdvisorHref();
+  const tripSummary = useTripSummary();
+  const tripDrawer = useTripDrawer();
+  const signInModal = useSignInModal();
+  const { menuOpen, openRoom, toggleMenu, closeMenu, toggleRoom } = useNavMenu();
+  const navigate = useNavigate();
+
+  const [query, setQuery] = useState("");
+  const headerRef = useRef<HTMLElement>(null);
+
+  // A magic-link click can complete a Supabase session with no linked
+  // site_members row (see auth.tsx's hydrate()) — that happens on a full
+  // page load with no modal open to show an inline error in, so surface it
+  // here by reopening the sign-in modal with the same copy the typed-code
+  // path shows inline.
+  useEffect(() => {
+    if (authError === "not_invited") {
+      signInModal.open("This email isn't on the invitation list — please speak to your advisor.");
+      clearAuthError();
+    }
+  }, [authError, clearAuthError, signInModal]);
+
+  useEffect(() => {
+    function onDocClick(e: MouseEvent) {
+      if (!(e.target instanceof Node)) return;
+      if (headerRef.current && !headerRef.current.contains(e.target)) toggleRoom(null);
+    }
+    function onKeyDown(e: KeyboardEvent) {
+      if (e.key === "Escape") {
+        toggleRoom(null);
+        tripDrawer.close();
+      }
+    }
+    document.addEventListener("click", onDocClick);
+    document.addEventListener("keydown", onKeyDown);
+    return () => {
+      document.removeEventListener("click", onDocClick);
+      document.removeEventListener("keydown", onKeyDown);
+    };
+  }, [tripDrawer, toggleRoom]);
+
+  useEffect(() => {
+    document.documentElement.style.overflow = menuOpen ? "hidden" : "";
+  }, [menuOpen]);
+
+  function submitSearch(e: React.FormEvent) {
+    e.preventDefault();
+    navigate(`/search${query ? `?q=${encodeURIComponent(query)}` : ""}`);
+  }
 
   return (
-    <nav className={`nav${navVariant ? " " + navVariant : ""}`} data-nav>
-      <Link className="brand" to="/">
-        <svg className="mk" width="26" height="26" viewBox="0 0 420 420" fill="none">
-          <g strokeWidth={26} strokeLinecap="round" strokeLinejoin="round">
-            <path d="M140,150 L280,150" />
-            <path d="M210,150 L210,212" />
-            <path d="M140,300 L210,212 L280,300" />
-            <path d="M174,256 L246,256" />
-          </g>
-        </svg>
-        TripAgent
-      </Link>
-      <div className="nav-links">
-        <Link to="/destinations">Destinations</Link>
-        <Link to="/journeys">Journeys</Link>
-        <Link to="/services">What we handle</Link>
-        <Link to="/journal">The Journal</Link>
-        <Link to="/membership">Membership</Link>
-        <Link to="/trip">Build a trip</Link>
-        <Link className="btn btn-gold nav-cta" to="/invitation">
+    <header ref={headerRef} className={`ta-hd${menuOpen ? " menu-open" : ""}`} data-shell>
+      <div className="ta-hd-top">
+        <Link className="ta-hd-brand" to="/">
+          <svg className="mk" width="24" height="24" viewBox="0 0 420 420" fill="none">
+            <g strokeWidth={26} strokeLinecap="round" strokeLinejoin="round">
+              <path d="M140,150 L280,150" />
+              <path d="M210,150 L210,212" />
+              <path d="M140,300 L210,212 L280,300" />
+              <path d="M174,256 L246,256" />
+            </g>
+          </svg>
+          <span>TripAgent</span>
+        </Link>
+
+        <form className="ta-hd-search" role="search" onSubmit={submitSearch}>
+          {SEARCH_ICON}
+          <input
+            type="search"
+            name="q"
+            className="ta-hd-q"
+            placeholder="Search a city, a hotel, a month…"
+            aria-label="Search"
+            autoComplete="off"
+            spellCheck={false}
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+          />
+        </form>
+
+        <div className="ta-hd-cluster">
+          {signedIn ? (
+            <Link className="ta-hd-year" to="/portal">
+              My Year
+            </Link>
+          ) : (
+            <button
+              type="button"
+              className="ta-hd-year"
+              style={{ background: "none", border: 0, padding: 0, fontFamily: "inherit", cursor: "pointer" }}
+              onClick={() => signInModal.open("Sign in to your year.")}
+            >
+              Sign in
+            </button>
+          )}
+          <button className="ta-hd-trip" type="button" onClick={() => tripDrawer.open()}>
+            <span className="dia">◆</span> <span className="lbl">My Trip</span>{" "}
+            <span className="ct" hidden={!tripSummary}>
+              {tripSummary?.count ?? 0}
+            </span>
+          </button>
+          <a className="ta-hd-adv" href={advisor.href} target={advisor.external ? "_blank" : undefined} rel={advisor.external ? "noopener" : undefined}>
+            Talk to your advisor
+          </a>
+        </div>
+
+        <button
+          type="button"
+          className="ta-hd-burger"
+          aria-label="Menu"
+          aria-expanded={menuOpen}
+          onClick={toggleMenu}
+        >
+          <span />
+          <span />
+          <span />
+        </button>
+      </div>
+
+      <nav className="ta-hd-nav" aria-label="Sections">
+        <div className={`ta-room ta-room-rich${openRoom === "discover" ? " pin" : ""}`}>
+          <button type="button" className="ta-room-t" onClick={() => toggleRoom("discover")}>
+            Discover <span className="car" />
+          </button>
+          <DiscoverMega />
+        </div>
+        <div className={`ta-room ta-room-rich${openRoom === "plan" ? " pin" : ""}`}>
+          <button type="button" className="ta-room-t" onClick={() => toggleRoom("plan")}>
+            Plan <span className="car" />
+          </button>
+          <PlanMega />
+        </div>
+        <Link className="ta-room-lnk" to="/membership" onClick={closeMenu}>
+          Membership
+        </Link>
+        <Link className="ta-hd-inv" to="/invitation" onClick={closeMenu}>
           By invitation
         </Link>
-        <Link className="ta-acct" to={signedIn ? "/portal" : "#"}>
-          {signedIn ? (
-            <>
-              <span className="ta-acct-dot" />
-              My year
-            </>
-          ) : (
-            "Sign in"
-          )}
-        </Link>
-      </div>
-      <button type="button" className="nav-toggle" aria-label="Menu">
-        <span />
-        <span />
-        <span />
-      </button>
-    </nav>
+      </nav>
+    </header>
   );
 }

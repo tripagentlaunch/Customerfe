@@ -97,22 +97,30 @@ export type Database = {
         Row: SiteMemberRow;
         Insert: Partial<SiteMemberRow>;
         Update: Partial<SiteMemberRow>;
+        Relationships: [];
       };
       site_saved_items: {
         Row: SiteSavedItemRow;
         Insert: SiteSavedItemInsert;
         Update: Partial<SiteSavedItemRow>;
+        Relationships: [];
       };
       site_member_events: {
         Row: SiteMemberEventRow;
         Insert: Omit<SiteMemberEventRow, "id" | "at"> & { at?: string };
         Update: Partial<SiteMemberEventRow>;
+        Relationships: [];
       };
       site_member_prefs: {
         Row: SiteMemberPrefsRow;
         Insert: SiteMemberPrefsRow;
         Update: Partial<SiteMemberPrefsRow>;
+        Relationships: [];
       };
     };
+    Views: Record<string, never>;
+    Functions: Record<string, never>;
+    Enums: Record<string, never>;
+    CompositeTypes: Record<string, never>;
   };
 };

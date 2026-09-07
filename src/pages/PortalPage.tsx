@@ -4,18 +4,21 @@ import portalData from "../data/portal-page.generated.json";
 import type { PortalPageData } from "../types/portal-page";
 import { useScrollReveal } from "../lib/useScrollReveal";
 import { toRoute } from "../lib/toRoute";
+import { useAuth } from "../lib/auth";
+import MyYearCalendar from "../components/MyYearCalendar";
 import styles from "./portal-page.module.css";
 
 const data = portalData as unknown as PortalPageData;
 
 // portal.html's first two <main> children — #my-year and #portal-member —
-// are real auth-gated widgets, filled at runtime by js/account.js's
-// renderMyYear()/renderPortalHome() only for a signed-in member. There is
-// no session/backend here, so the only state this port can represent is
-// "signed out" — which is exactly what the real site already shows for
-// both (portal-member even ships `hidden` by default). Faithfully omitting
-// them reproduces the real guest experience; everything below is the
-// static guest-marketing content that makes up the rest of the page.
+// were real auth-gated widgets, filled at runtime by js/account.js's
+// renderMyYear()/renderPortalHome(). #my-year is now a genuine, Supabase-
+// backed React port (MyYearCalendar, reading site_saved_items — see
+// docs/ACCOUNTS-CALENDAR-ARCH.md §4.3) rather than the omitted-for-guests
+// placeholder this page used to be: a signed-in member sees their real
+// calendar in place of the guest-marketing page below. #portal-member
+// (trip/preferences/documents) is still out of scope — signed-in visitors
+// just see the calendar on its own.
 export default function PortalPage() {
   useEffect(() => {
     if (data.seo.title) document.title = data.seo.title;
@@ -23,7 +26,13 @@ export default function PortalPage() {
 
   useScrollReveal([]);
 
+  const { signedIn, member } = useAuth();
+
   const { hero, intro, what, begins, sig, remembers, uses, inbuild, faq, cta } = data;
+
+  if (signedIn && member) {
+    return <MyYearCalendar member={member} />;
+  }
 
   return (
     <main>

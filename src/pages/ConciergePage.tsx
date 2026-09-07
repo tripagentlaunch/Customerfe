@@ -1,34 +1,26 @@
 import { useEffect } from "react";
-import { Link } from "react-router-dom";
 import conciergeData from "../data/concierge-page.generated.json";
 import type { ConciergePageData } from "../types/concierge-page";
-import { useNavVariant } from "../lib/navVariant";
-import styles from "./concierge-page.module.css";
+import ConciergeChatApp from "../concierge-chat/App";
+import "../concierge-chat/styles.css";
 
 const data = conciergeData as unknown as ConciergePageData;
 
-// concierge.html's #concierge-chat-root is self-mounted at runtime by a
-// separate React app (concierge-chat/) — Aanya, a real AI concierge with
-// tool-calling and a live draft-then-confirm booking flow against a
-// backend. Deferred per CLAUDE.md; this is a static placeholder that keeps
-// the CONVERT path alive (routes to /enquire), same pattern as TripPage.
+// Aanya, wired to the real, already-deployed concierge backend
+// (backend/app/routers/ai_router.py, on Render) via the concierge-chat/
+// app's own components — reused as-is (src/concierge-chat/), not rebuilt.
+// Layout.tsx hides the site-wide chrome (header/footer/tabbar/floating
+// buttons) and gives #content the full-screen flex layout on this route,
+// matching concierge.html's own full-screen "this page is the chat"
+// treatment.
 export default function ConciergePage() {
-  useNavVariant("solid");
-
   useEffect(() => {
     if (data.seo.title) document.title = data.seo.title;
   }, []);
 
   return (
-    <div className={styles.ccWrap}>
-      <div className={styles.ccPanel}>
-        <div className="eyebrow">The Concierge</div>
-        <h1>Aanya is on her way.</h1>
-        <p>Our AI concierge isn't quite live yet. In the meantime, tell your advisor what you're dreaming of and they'll help you decide where and when — flights, hotels and visas, all of it.</p>
-        <Link className="btn btn-gold" to="/enquire">
-          Talk to your advisor
-        </Link>
-      </div>
-    </div>
+    <section className="cc-stage" style={{ flex: "1 1 auto", display: "flex", minHeight: 0 }}>
+      <ConciergeChatApp />
+    </section>
   );
 }

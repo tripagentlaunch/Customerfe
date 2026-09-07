@@ -1,0 +1,552 @@
+{
+ "dubai": {
+  "name": "Dubai",
+  "country": "UAE",
+  "region": "me"
+ },
+ "abu-dhabi": {
+  "name": "Abu Dhabi",
+  "country": "UAE",
+  "region": "me"
+ },
+ "doha": {
+  "name": "Doha",
+  "country": "Qatar",
+  "region": "me"
+ },
+ "muscat": {
+  "name": "Muscat",
+  "country": "Oman",
+  "region": "me"
+ },
+ "amman-petra": {
+  "name": "Amman & Petra",
+  "country": "Jordan",
+  "region": "me"
+ },
+ "singapore-city": {
+  "name": "Singapore",
+  "country": "Singapore",
+  "region": "sea"
+ },
+ "bangkok": {
+  "name": "Bangkok",
+  "country": "Thailand",
+  "region": "sea"
+ },
+ "phuket": {
+  "name": "Phuket",
+  "country": "Thailand",
+  "region": "sea"
+ },
+ "krabi": {
+  "name": "Krabi",
+  "country": "Thailand",
+  "region": "sea"
+ },
+ "bali": {
+  "name": "Bali",
+  "country": "Indonesia",
+  "region": "sea"
+ },
+ "kuala-lumpur": {
+  "name": "Kuala Lumpur",
+  "country": "Malaysia",
+  "region": "sea"
+ },
+ "langkawi": {
+  "name": "Langkawi",
+  "country": "Malaysia",
+  "region": "sea"
+ },
+ "hanoi": {
+  "name": "Hanoi",
+  "country": "Vietnam",
+  "region": "sea"
+ },
+ "ho-chi-minh-city": {
+  "name": "Ho Chi Minh City",
+  "country": "Vietnam",
+  "region": "sea"
+ },
+ "hoi-an": {
+  "name": "Hoi An & Da Nang",
+  "country": "Vietnam",
+  "region": "sea"
+ },
+ "siem-reap": {
+  "name": "Siem Reap",
+  "country": "Cambodia",
+  "region": "sea"
+ },
+ "tokyo": {
+  "name": "Tokyo",
+  "country": "Japan",
+  "region": "ea"
+ },
+ "kyoto": {
+  "name": "Kyoto",
+  "country": "Japan",
+  "region": "ea"
+ },
+ "osaka": {
+  "name": "Osaka",
+  "country": "Japan",
+  "region": "ea"
+ },
+ "hong-kong": {
+  "name": "Hong Kong",
+  "country": "Hong Kong",
+  "region": "ea"
+ },
+ "seoul": {
+  "name": "Seoul",
+  "country": "South Korea",
+  "region": "ea"
+ },
+ "shanghai": {
+  "name": "Shanghai",
+  "country": "China",
+  "region": "ea"
+ },
+ "taipei": {
+  "name": "Taipei",
+  "country": "Taiwan",
+  "region": "ea"
+ },
+ "male-maldives": {
+  "name": "Malé & the Atolls",
+  "country": "Maldives",
+  "region": "io"
+ },
+ "colombo": {
+  "name": "Colombo",
+  "country": "Sri Lanka",
+  "region": "io"
+ },
+ "galle": {
+  "name": "Galle",
+  "country": "Sri Lanka",
+  "region": "io"
+ },
+ "kathmandu": {
+  "name": "Kathmandu",
+  "country": "Nepal",
+  "region": "io"
+ },
+ "paro": {
+  "name": "Paro & Thimphu",
+  "country": "Bhutan",
+  "region": "io"
+ },
+ "mauritius-city": {
+  "name": "Mauritius",
+  "country": "Mauritius",
+  "region": "io"
+ },
+ "mahe-seychelles": {
+  "name": "Mahé",
+  "country": "Seychelles",
+  "region": "io"
+ },
+ "london": {
+  "name": "London",
+  "country": "United Kingdom",
+  "region": "euw"
+ },
+ "paris": {
+  "name": "Paris",
+  "country": "France",
+  "region": "euw"
+ },
+ "nice-riviera": {
+  "name": "Nice & the Riviera",
+  "country": "France",
+  "region": "euw"
+ },
+ "amsterdam": {
+  "name": "Amsterdam",
+  "country": "Netherlands",
+  "region": "euw"
+ },
+ "rome": {
+  "name": "Rome",
+  "country": "Italy",
+  "region": "eus"
+ },
+ "milan": {
+  "name": "Milan",
+  "country": "Italy",
+  "region": "eus"
+ },
+ "venice": {
+  "name": "Venice",
+  "country": "Italy",
+  "region": "eus"
+ },
+ "florence": {
+  "name": "Florence",
+  "country": "Italy",
+  "region": "eus"
+ },
+ "amalfi-coast": {
+  "name": "The Amalfi Coast",
+  "country": "Italy",
+  "region": "eus"
+ },
+ "lake-como": {
+  "name": "Lake Como",
+  "country": "Italy",
+  "region": "eus"
+ },
+ "barcelona": {
+  "name": "Barcelona",
+  "country": "Spain",
+  "region": "eus"
+ },
+ "madrid": {
+  "name": "Madrid",
+  "country": "Spain",
+  "region": "eus"
+ },
+ "lisbon": {
+  "name": "Lisbon",
+  "country": "Portugal",
+  "region": "eus"
+ },
+ "porto": {
+  "name": "Porto",
+  "country": "Portugal",
+  "region": "eus"
+ },
+ "athens": {
+  "name": "Athens",
+  "country": "Greece",
+  "region": "eus"
+ },
+ "santorini": {
+  "name": "Santorini",
+  "country": "Greece",
+  "region": "eus"
+ },
+ "mykonos": {
+  "name": "Mykonos",
+  "country": "Greece",
+  "region": "eus"
+ },
+ "dubrovnik": {
+  "name": "Dubrovnik",
+  "country": "Croatia",
+  "region": "eus"
+ },
+ "zurich": {
+  "name": "Zurich",
+  "country": "Switzerland",
+  "region": "euc"
+ },
+ "geneva": {
+  "name": "Geneva",
+  "country": "Switzerland",
+  "region": "euc"
+ },
+ "zermatt": {
+  "name": "Zermatt",
+  "country": "Switzerland",
+  "region": "euc"
+ },
+ "st-moritz": {
+  "name": "St. Moritz",
+  "country": "Switzerland",
+  "region": "euc"
+ },
+ "vienna": {
+  "name": "Vienna",
+  "country": "Austria",
+  "region": "euc"
+ },
+ "salzburg": {
+  "name": "Salzburg",
+  "country": "Austria",
+  "region": "euc"
+ },
+ "munich": {
+  "name": "Munich",
+  "country": "Germany",
+  "region": "euc"
+ },
+ "prague": {
+  "name": "Prague",
+  "country": "Czechia",
+  "region": "euc"
+ },
+ "edinburgh": {
+  "name": "Edinburgh",
+  "country": "Scotland",
+  "region": "eun"
+ },
+ "dublin": {
+  "name": "Dublin",
+  "country": "Ireland",
+  "region": "eun"
+ },
+ "reykjavik": {
+  "name": "Reykjavik",
+  "country": "Iceland",
+  "region": "eun"
+ },
+ "copenhagen": {
+  "name": "Copenhagen",
+  "country": "Denmark",
+  "region": "eun"
+ },
+ "budapest": {
+  "name": "Budapest",
+  "country": "Hungary",
+  "region": "eun"
+ },
+ "istanbul": {
+  "name": "Istanbul",
+  "country": "Türkiye",
+  "region": "tr"
+ },
+ "cappadocia": {
+  "name": "Cappadocia",
+  "country": "Türkiye",
+  "region": "tr"
+ },
+ "cairo": {
+  "name": "Cairo",
+  "country": "Egypt",
+  "region": "af"
+ },
+ "marrakech": {
+  "name": "Marrakech",
+  "country": "Morocco",
+  "region": "af"
+ },
+ "cape-town": {
+  "name": "Cape Town",
+  "country": "South Africa",
+  "region": "af"
+ },
+ "nairobi-mara": {
+  "name": "Nairobi & the Mara",
+  "country": "Kenya",
+  "region": "af"
+ },
+ "zanzibar": {
+  "name": "Zanzibar",
+  "country": "Tanzania",
+  "region": "af"
+ },
+ "new-york": {
+  "name": "New York",
+  "country": "USA",
+  "region": "nam"
+ },
+ "los-angeles": {
+  "name": "Los Angeles",
+  "country": "USA",
+  "region": "nam"
+ },
+ "san-francisco": {
+  "name": "San Francisco",
+  "country": "USA",
+  "region": "nam"
+ },
+ "las-vegas": {
+  "name": "Las Vegas",
+  "country": "USA",
+  "region": "nam"
+ },
+ "miami": {
+  "name": "Miami",
+  "country": "USA",
+  "region": "nam"
+ },
+ "toronto": {
+  "name": "Toronto",
+  "country": "Canada",
+  "region": "nam"
+ },
+ "vancouver": {
+  "name": "Vancouver",
+  "country": "Canada",
+  "region": "nam"
+ },
+ "mexico-city": {
+  "name": "Mexico City",
+  "country": "Mexico",
+  "region": "nam"
+ },
+ "cancun": {
+  "name": "Cancún",
+  "country": "Mexico",
+  "region": "nam"
+ },
+ "rio-de-janeiro": {
+  "name": "Rio de Janeiro",
+  "country": "Brazil",
+  "region": "sam"
+ },
+ "buenos-aires": {
+  "name": "Buenos Aires",
+  "country": "Argentina",
+  "region": "sam"
+ },
+ "lima": {
+  "name": "Lima",
+  "country": "Peru",
+  "region": "sam"
+ },
+ "cusco": {
+  "name": "Cusco & Machu Picchu",
+  "country": "Peru",
+  "region": "sam"
+ },
+ "sydney": {
+  "name": "Sydney",
+  "country": "Australia",
+  "region": "oce"
+ },
+ "melbourne": {
+  "name": "Melbourne",
+  "country": "Australia",
+  "region": "oce"
+ },
+ "auckland": {
+  "name": "Auckland",
+  "country": "New Zealand",
+  "region": "oce"
+ },
+ "queenstown": {
+  "name": "Queenstown",
+  "country": "New Zealand",
+  "region": "oce"
+ },
+ "delhi": {
+  "name": "New Delhi",
+  "country": "India",
+  "region": "in1"
+ },
+ "mumbai": {
+  "name": "Mumbai",
+  "country": "India",
+  "region": "in1"
+ },
+ "bengaluru": {
+  "name": "Bengaluru",
+  "country": "India",
+  "region": "in1"
+ },
+ "goa": {
+  "name": "Goa",
+  "country": "India",
+  "region": "in1"
+ },
+ "jaipur": {
+  "name": "Jaipur",
+  "country": "India",
+  "region": "in1"
+ },
+ "udaipur": {
+  "name": "Udaipur",
+  "country": "India",
+  "region": "in1"
+ },
+ "agra": {
+  "name": "Agra",
+  "country": "India",
+  "region": "in1"
+ },
+ "jodhpur": {
+  "name": "Jodhpur",
+  "country": "India",
+  "region": "in1"
+ },
+ "jaisalmer": {
+  "name": "Jaisalmer",
+  "country": "India",
+  "region": "in2"
+ },
+ "ranthambore": {
+  "name": "Ranthambore",
+  "country": "India",
+  "region": "in2"
+ },
+ "varanasi": {
+  "name": "Varanasi",
+  "country": "India",
+  "region": "in2"
+ },
+ "rishikesh": {
+  "name": "Rishikesh",
+  "country": "India",
+  "region": "in2"
+ },
+ "amritsar": {
+  "name": "Amritsar",
+  "country": "India",
+  "region": "in2"
+ },
+ "kochi": {
+  "name": "Kochi",
+  "country": "India",
+  "region": "in2"
+ },
+ "munnar": {
+  "name": "Munnar",
+  "country": "India",
+  "region": "in2"
+ },
+ "alleppey": {
+  "name": "Alleppey",
+  "country": "India",
+  "region": "in2"
+ },
+ "shimla": {
+  "name": "Shimla",
+  "country": "India",
+  "region": "in3"
+ },
+ "manali": {
+  "name": "Manali",
+  "country": "India",
+  "region": "in3"
+ },
+ "leh-ladakh": {
+  "name": "Leh-Ladakh",
+  "country": "India",
+  "region": "in3"
+ },
+ "srinagar": {
+  "name": "Srinagar",
+  "country": "India",
+  "region": "in3"
+ },
+ "hyderabad": {
+  "name": "Hyderabad",
+  "country": "India",
+  "region": "in3"
+ },
+ "chennai": {
+  "name": "Chennai",
+  "country": "India",
+  "region": "in3"
+ },
+ "kolkata": {
+  "name": "Kolkata",
+  "country": "India",
+  "region": "in3"
+ },
+ "darjeeling": {
+  "name": "Darjeeling",
+  "country": "India",
+  "region": "in3"
+ },
+ "andaman": {
+  "name": "Andaman Islands",
+  "country": "India",
+  "region": "in3"
+ }
+}

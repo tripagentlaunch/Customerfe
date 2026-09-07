@@ -1,23 +1,46 @@
 import { useEffect, useRef, useState } from "react";
+import { useSearchParams } from "react-router-dom";
 import enquireData from "../data/enquire.generated.json";
 import type { EnquirePageData } from "../types/enquire";
 import { useScrollReveal } from "../lib/useScrollReveal";
 import { useNavVariant } from "../lib/navVariant";
+import { titleCase } from "../lib/tripState";
+import { useAuth } from "../lib/auth";
+import { useSignInModal } from "../lib/signInModal";
 import styles from "./enquire-page.module.css";
 
 const data = enquireData as unknown as EnquirePageData;
 
-// The real enquire.html form submits leads live via TA_API.post('site-lead',
-// ...) to the Supabase backend, and #ta-intent is populated by a separate
-// js/intent.js quick-open flow. Per the shell-only-defer-logic decision,
-// this ports the aside copy and form markup faithfully but does not wire
-// submission to the real backend (money/lead-wiring needs Amit's named OK,
-// per CLAUDE.md) — submitting shows a deferred note pointing at the
-// existing "Email your advisor" mailto CTA, which is a real, working link.
+// Same-origin in prod (mirrors concierge-chat/src/api.ts's
+// PROD_DEFAULT_ENDPOINT convention) — set VITE_API_BASE_URL for local dev,
+// where the backend runs on its own port.
+const API_BASE = (import.meta.env.VITE_API_BASE_URL as string | undefined) ?? "";
+
+// Phase A: gated behind sign-in (site_members already holds name/email/
+// phone — enquiries.member_id links to that row server-side, resolved from
+// the caller's session token, never duplicated onto the enquiry itself).
+// Submits into the real `enquiries` table via POST /enquiries
+// (backend/app/routers/enquiry_router.py). The "Not quite live yet" panel
+// now only shows on a genuine submission failure (network error, backend
+// down, session rejected) — not unconditionally.
 export default function EnquirePage() {
   useNavVariant("solid");
+  const { signedIn, session } = useAuth();
+  const signInModal = useSignInModal();
+  const [submitting, setSubmitting] = useState(false);
+  const [submitted, setSubmitted] = useState(false);
   const [notLive, setNotLive] = useState(false);
   const thanksRef = useRef<HTMLDivElement>(null);
+  const [searchParams] = useSearchParams();
+  const showThanks = submitted || notLive;
+
+  // Carries context from "Talk to your advisor" links/floating button/trip
+  // handoff (?dest=<city-slug> or ?shortlist=<slug,slug>) into the
+  // destination field — the fallback path when WhatsApp isn't configured
+  // still needs to arrive pre-filled, per the CONVERT KRA.
+  const dest = searchParams.get("dest");
+  const shortlist = searchParams.get("shortlist");
+  const destPrefill = dest ? titleCase(dest) : shortlist ? shortlist.split(",").map(titleCase).join(", ") : "";
 
   useEffect(() => {
     if (data.seo.title) document.title = data.seo.title;
@@ -26,14 +49,47 @@ export default function EnquirePage() {
   useScrollReveal([]);
 
   useEffect(() => {
-    if (!notLive) return;
+    if (!showThanks) return;
     window.scrollTo({ top: 0, behavior: "smooth" });
     try {
       thanksRef.current?.focus({ preventScroll: true });
     } catch {
       // no-op
     }
-  }, [notLive]);
+  }, [showThanks]);
+
+  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    if (!signedIn || !session) {
+      signInModal.open("Sign in to send your enquiry.");
+      return;
+    }
+    setSubmitting(true);
+    const fd = new FormData(e.currentTarget);
+    const travellersRaw = fd.get("travellers");
+    const body = {
+      destination: (fd.get("destination") as string) || undefined,
+      dates: (fd.get("dates") as string) || undefined,
+      travellers: travellersRaw ? Number(travellersRaw) : undefined,
+      trip_type: (fd.get("trip_type") as string) || undefined,
+      cabin: (fd.get("cabin") as string) || undefined,
+      budget: (fd.get("budget") as string) || undefined,
+      notes: (fd.get("notes") as string) || undefined,
+    };
+    try {
+      const res = await fetch(`${API_BASE}/enquiries`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Authorization: `Bearer ${session.access_token}` },
+        body: JSON.stringify(body),
+      });
+      if (!res.ok) throw new Error(`enquiry submit failed: ${res.status}`);
+      setSubmitted(true);
+    } catch {
+      setNotLive(true);
+    } finally {
+      setSubmitting(false);
+    }
+  }
 
   const { aside, form } = data;
 
@@ -64,20 +120,30 @@ export default function EnquirePage() {
           </div>
 
           <div className="reveal d2">
-            <div className={`${styles.form}${notLive ? ` ${styles.sent}` : ""}`} id="enquireForm">
+            <div className={`${styles.form}${showThanks ? ` ${styles.sent}` : ""}`} id="enquireForm">
+              {!signedIn ? (
+                <div className={styles.formBody}>
+                  <h3 style={{ fontSize: 26, marginBottom: 4 }}>Sign in to send your enquiry.</h3>
+                  <p className="muted" style={{ fontSize: 14, marginBottom: 22 }}>
+                    TripAgent is by invitation — sign in with the email on your invitation so your advisor knows
+                    exactly who's reaching out.
+                  </p>
+                  <button
+                    type="button"
+                    className="btn btn-gold"
+                    style={{ width: "100%", justifyContent: "center" }}
+                    onClick={() => signInModal.open("Sign in to send your enquiry.")}
+                  >
+                    Sign in
+                  </button>
+                </div>
+              ) : (
               <div className={styles.formBody}>
                 <h3 style={{ fontSize: 26, marginBottom: 4 }}>{form.heading}</h3>
                 <p className="muted" style={{ fontSize: 14, marginBottom: 22 }}>
                   {form.muted}
                 </p>
-                <form
-                  id="leadForm"
-                  noValidate
-                  onSubmit={(e) => {
-                    e.preventDefault();
-                    setNotLive(true);
-                  }}
-                >
+                <form id="leadForm" noValidate onSubmit={handleSubmit}>
                   {form.fields.map((f) => (
                     <div className="field" key={f.id}>
                       <label htmlFor={f.id ?? undefined} dangerouslySetInnerHTML={{ __html: f.labelHtml ?? "" }} />
@@ -96,6 +162,7 @@ export default function EnquirePage() {
                           name={f.name ?? undefined}
                           required={f.required}
                           placeholder={f.placeholder ?? undefined}
+                          defaultValue={f.id === "f-dest" && destPrefill ? destPrefill : undefined}
                         />
                       )}
                     </div>
@@ -103,8 +170,13 @@ export default function EnquirePage() {
                   <div className={styles.trust} style={{ margin: "2px 0 14px" }}>
                     {form.trust}
                   </div>
-                  <button type="submit" className="btn btn-gold" style={{ width: "100%", justifyContent: "center" }}>
-                    {form.submitLabel}
+                  <button
+                    type="submit"
+                    className="btn btn-gold"
+                    style={{ width: "100%", justifyContent: "center" }}
+                    disabled={submitting}
+                  >
+                    {submitting ? "Sending…" : form.submitLabel}
                   </button>
                 </form>
                 <div style={{ textAlign: "center", marginTop: 20, paddingTop: 18, borderTop: "1px solid var(--line-soft)" }}>
@@ -116,7 +188,8 @@ export default function EnquirePage() {
                   </a>
                 </div>
               </div>
-              <div className={`${styles.thanks}${notLive ? ` ${styles.show}` : ""}`} role="status" aria-live="polite" tabIndex={-1} ref={thanksRef}>
+              )}
+              <div className={`${styles.thanks}${showThanks ? ` ${styles.show}` : ""}`} role="status" aria-live="polite" tabIndex={-1} ref={thanksRef}>
                 <svg width={54} height={54} viewBox="0 0 420 420" fill="none" style={{ margin: "0 auto 18px" }}>
                   <g stroke="#785C12" strokeWidth={22} strokeLinecap="round" strokeLinejoin="round">
                     <path d="M140,150 L280,150" />
@@ -125,13 +198,24 @@ export default function EnquirePage() {
                     <path d="M174,256 L246,256" />
                   </g>
                 </svg>
-                <h3 style={{ fontSize: 30 }}>Not quite live yet.</h3>
-                <p className="lede" style={{ margin: "12px auto 8px", maxWidth: "40ch" }}>
-                  Enquiry submission is on its way. For now, please write to your advisor directly and they'll pick it up right away.
-                </p>
-                <a className="btn btn-gold" href={form.emailCta.href}>
-                  {form.emailCta.label}
-                </a>
+                {submitted ? (
+                  <>
+                    <h3 style={{ fontSize: 30 }}>Thank you — we've got it.</h3>
+                    <p className="lede" style={{ margin: "12px auto 8px", maxWidth: "40ch" }}>
+                      Your advisor will be in touch shortly to help shape this trip.
+                    </p>
+                  </>
+                ) : (
+                  <>
+                    <h3 style={{ fontSize: 30 }}>Not quite live yet.</h3>
+                    <p className="lede" style={{ margin: "12px auto 8px", maxWidth: "40ch" }}>
+                      Enquiry submission is on its way. For now, please write to your advisor directly and they'll pick it up right away.
+                    </p>
+                    <a className="btn btn-gold" href={form.emailCta.href}>
+                      {form.emailCta.label}
+                    </a>
+                  </>
+                )}
               </div>
             </div>
           </div>
