@@ -15,3 +15,4 @@ git reset --hard demo-v<N>
 
 | Version | Commit | Date | What changed |
 |---------|--------|------|--------------|
+| demo-v1 | f660155 | 2026-09-09 | Initial push of `demo` branch to GitHub (branched from `main`); added this version log |
