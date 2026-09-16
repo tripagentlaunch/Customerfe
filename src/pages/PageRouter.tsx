@@ -1,5 +1,6 @@
 import { Navigate, useParams } from "react-router-dom";
 import CityPage from "./CityPage";
+import ZonePage from "./ZonePage";
 import HealthPage from "./HealthPage";
 import RoutePage from "./RoutePage";
 import ItineraryPage from "./ItineraryPage";
@@ -259,6 +260,10 @@ export default function PageRouter() {
   if (REDIRECTS[pageSlug]) return <Navigate to={toRoute(REDIRECTS[pageSlug])} replace />;
   if (pageSlug && EXACT_SLUG_PAGES[pageSlug]) return EXACT_SLUG_PAGES[pageSlug]();
   if (pageSlug?.startsWith("city-")) return <CityPage />;
+  // Country/Zone template: a cluster of cities (a single country like
+  // Greece, or a genuine multi-country zone) — its own template, separate
+  // from the legacy destination-<country> pages below, which stay as-is.
+  if (pageSlug?.startsWith("zone-")) return <ZonePage />;
   if (pageSlug && HEALTH_PREFIXES.some((p) => pageSlug.startsWith(p))) return <HealthPage />;
   if (pageSlug && ROUTE_SLUGS.has(pageSlug)) return <RoutePage />;
   if (pageSlug?.startsWith("route-")) return <ItineraryPage />;

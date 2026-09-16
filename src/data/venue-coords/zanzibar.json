@@ -1,1 +1,618 @@
-{"center": [-6.099971, 39.320954], "venues": [{"n": "Zuri Zanzibar", "cat": "stay", "tier": "Grand", "a": "North coast (Kendwa)", "d": "A design-led garden village above a rare tide-free west-facing beach — the north-coast address with genuine architectural intent.", "lat": -6.221479, "lon": 39.221589, "p": "v"}, {"n": "Xanadu Luxury Villas & Retreat", "cat": "stay", "tier": "Grand", "a": "East coast (Dongwe)", "d": "An intimate, adults-leaning villa hideaway that trades scale for privacy and polish.", "lat": -6.264382, "lon": 39.532879, "p": "a"}, {"n": "The Residence Zanzibar", "cat": "stay", "tier": "Grand", "a": "South-west coast (Kizimkazi)", "d": "Sixty-six private villas, each with a plunge pool, spread through 32 hectares of garden on a mile-long beach — the grand family estate.", "lat": -6.410544, "lon": 39.452271, "p": "v"}, {"n": "Park Hyatt Zanzibar", "cat": "stay", "tier": "Grand", "a": "Stone Town (seafront)", "d": "The one true luxury address inside the UNESCO old town — a restored seafront palace where history is at the door and the beach at your feet.", "lat": -6.162459, "lon": 39.186106, "p": "v"}, {"n": "Baraza Resort & Spa", "cat": "stay", "tier": "Grand", "a": "East coast (Bwejuu / Dongwe)", "d": "Palatial Swahili-Persian-Omani architecture and all-inclusive ease — the most ornate house on the east coast.", "lat": -6.190769, "lon": 39.535043, "p": "v"}, {"n": "Zanzibar White Sand Luxury Villas & Spa", "cat": "stay", "tier": "Grand", "a": "East coast (Paje)", "d": "The island's Relais & Châteaux house — private villas, a serious spa and a beachfront on the kite-surfing coast.", "lat": -6.280765, "lon": 39.536164, "p": "v"}, {"n": "Elewana Kilindi Zanzibar", "cat": "stay", "tier": "Grand", "a": "North coast (Kendwa)", "d": "White-domed pavilions in 50 acres of garden — an eccentric, romantic hideaway originally conceived for an ABBA founder.", "lat": -5.762376, "lon": 39.291077, "p": "v"}, {"n": "Matemwe Lodge", "cat": "stay", "tier": "Luxury", "a": "East coast (Matemwe)", "d": "A relaxed, characterful lodge on the reef directly facing Mnemba — the closest mainland base to the island's best diving.", "lat": -5.820606, "lon": 39.359021, "p": "v"}, {"n": "Zawadi Hotel", "cat": "stay", "tier": "Luxury", "a": "South-east coast (Michamvi)", "d": "Nine cliff-top villas above an unspoiled beach — small, serene and thoroughly private.", "lat": -6.263407, "lon": 39.53632, "p": "v"}, {"n": "The Rock Restaurant", "cat": "eat", "tier": "Destination", "a": "East coast (Michamvi Pingwe)", "d": "A single dining room perched on a coral outcrop in the ocean, reached on foot at low tide or by boat at high — one of the most photographed tables on earth.", "lat": -5.851825, "lon": 39.356782, "p": "v"}, {"n": "Emerson Spice Rooftop Tea House", "cat": "eat", "tier": "Fine", "a": "Stone Town", "d": "A seven-course seafood tasting served cross-legged on cushions atop a restored merchant's mansion, with a 360° view over minarets, spires and the sea as the call to prayer rolls across the rooftops.", "lat": -6.162658, "lon": 39.190012, "p": "a"}, {"n": "Tea House Restaurant, Emerson on Hurumzi", "cat": "eat", "tier": "Fine", "a": "Stone Town", "d": "The highest rooftop in Stone Town — a set Zanzibari menu at sunset with live Taarab music from the Dhow Countries Music Academy.", "lat": -6.162658, "lon": 39.190012, "p": "a"}, {"n": "6 Degrees South Grill & Wine Bar", "cat": "eat", "tier": "Smart", "a": "Stone Town (Shangani)", "d": "Shangani's most reliably good table — Afro-Continental grill and a proper wine list across three sea-facing terraces.", "lat": -6.162459, "lon": 39.186106, "p": "a"}, {"n": "Forodhani Night Market", "cat": "eat", "tier": "Casual", "a": "Stone Town (Forodhani Gardens)", "d": "Every evening the seafront gardens become an open-air feast — grilled seafood, urojo (Zanzibar mix) and the famous 'Zanzibar pizza' — the living room of the old town.", "lat": -6.160466, "lon": 39.188846, "p": "v"}, {"n": "Zanzibar Serena Hotel — Rooftop & Swahili Nights", "cat": "eat", "tier": "Smart", "a": "Stone Town (seafront)", "d": "A rooftop over the Indian Ocean and a Friday poolside Swahili Nights buffet with live Taarab — dining inside two restored heritage seafront buildings.", "lat": -6.162658, "lon": 39.190012, "p": "a"}, {"n": "Resort signature tables", "cat": "eat", "tier": "Fine", "a": "Across the resorts", "d": "Zanzibar's most considered kitchens sit inside the maison resorts — private-beach dinners, dhow-deck lunches and spice-led Swahili menus arranged for house guests.", "lat": -6.302619, "lon": 39.542415, "p": "a"}, {"n": "The Stone Town heritage walk", "cat": "do", "tier": "", "a": "Stone Town", "d": "A slow morning through the coral-stone labyrinth of the old town, where Omani-Arab, Persian, Indian and Swahili worlds fused over a thousand years of Indian Ocean trade. For an Indian family the connection is intimate and immediate: Gujarati and Cutchi merchant houses, Hindu temples and Ismaili buildings sit among the mosques and the carved doors. A private cultural guide reads the layers street by street in the cool before the heat.", "lat": -6.165689, "lon": 39.191908, "p": "v"}, {"n": "The carved Zanzibari doors", "cat": "do", "tier": "", "a": "Stone Town", "d": "Hundreds of monumental hand-carved doors are the signature of Stone Town, each a statement of the family behind it — Arab doors ornamented with Quranic script, elegantly plain Swahili doors, and Indian doors studded with heavy brass bosses that once warded off elephants back home in the subcontinent. Walking with a guide who decodes the lotus, the fish and the frankincense-chain motifs turns a photo-stop into a genuine reading of the city's mixed soul.", "lat": -6.162658, "lon": 39.190012, "p": "a"}, {"n": "The House of Wonders (Beit-al-Ajaib)", "cat": "do", "tier": "", "a": "Stone Town", "d": "The grandest building on the seafront — the first in Zanzibar with electricity and a lift, built in 1883 for Sultan Barghash — its tiered verandahs and clock tower long the emblem of the town. Note: the facade and clock tower collapsed in 2020 and the building remains closed and under a slow UNESCO-supported restoration, so it is admired from Forodhani for now rather than entered. A guide gives the context that makes the shrouded shell legible.", "lat": -6.160909, "lon": 39.189625, "p": "v"}, {"n": "The Old Fort (Ngome Kongwe)", "cat": "do", "tier": "", "a": "Stone Town", "d": "The oldest standing building in Stone Town, raised by the Omanis around 1698-1701 on the ruins of a Portuguese chapel after they drove the Portuguese out. Its thick coral ramparts now enclose craft stalls, a café and an open-air amphitheatre that hosts the Sauti za Busara music festival and the Zanzibar film festival. An easy, shaded first stop that anchors the whole seafront cluster.", "lat": -6.162658, "lon": 39.190012, "p": "a"}, {"n": "The Sultan's Palace Museum (Beit el-Sahel)", "cat": "do", "tier": "", "a": "Stone Town", "d": "The former residence of the Sultans of Zanzibar, now a museum of the dynasty's daily life — the furniture, the portraits and the belongings of Princess Salme, the sultan's daughter who eloped to Germany and wrote the first memoir by an Arab woman. A short walk from the Old Fort, it gives the human, domestic side of the Omani court that ruled this Indian Ocean crossroads.", "lat": -6.162658, "lon": 39.190012, "p": "a"}, {"n": "Forodhani Gardens night food market", "cat": "do", "tier": "", "a": "Stone Town", "d": "Every evening the seafront gardens fill with grills and lanterns for East Africa's most famous street-food market — grilled seafood, Zanzibar pizza, urojo soup, sugar-cane juice pressed on the spot, all facing the water as the sun drops behind the dhows. Vegetarian and Jain guests do well here with the chapati, samosa, cassava and fresh-pressed juices, and a guide can steer the family to the cleanest, freshest stalls.", "lat": -6.160466, "lon": 39.188846, "p": "v"}, {"n": "The Anglican Cathedral & the former Slave Market", "cat": "do", "tier": "", "a": "Stone Town", "d": "Christ Church Cathedral was built from 1873 on the site of East Africa's largest slave market, its altar placed exactly where captives were once whipped, as a deliberate monument to abolition. The adjoining East Africa Slavery Museum and the surviving underground holding chambers make this the most moving and important hour in Stone Town — sober, well-told history that repays a private, unhurried guided visit.", "lat": -6.162658, "lon": 39.190012, "p": "a"}, {"n": "The Freddie Mercury Museum", "cat": "do", "tier": "", "a": "Stone Town", "d": "Freddie Mercury — born Farrokh Bulsara to a Parsi family from Gujarat — spent his early childhood in Zanzibar, and the museum near Kenyatta Road tells his story through photographs, memorabilia and the Zanzibari-Parsi world he came from. A quietly resonant stop for Indian visitors: the Indian-Ocean Parsi thread running straight from Bombay through Zanzibar to Queen. (His actual family home nearby remains a private residence.)", "lat": -6.162658, "lon": 39.190012, "p": "a"}, {"n": "Darajani Market", "cat": "do", "tier": "", "a": "Stone Town", "d": "The chaotic, sensory heart of everyday Zanzibar since 1904 — pyramids of cloves, cinnamon bark, vanilla and chillies, fish and fruit and bolts of kanga cloth. For a subcontinental palate the spice hall is instantly familiar yet wilder, and a guided early-morning walk (before the heat and the crowds) is the best way to understand why this is called the Spice Island.", "lat": -6.162211, "lon": 39.193731, "p": "v"}, {"n": "The Hamamni Persian Baths", "cat": "do", "tier": "", "a": "Stone Town", "d": "The first public baths in Zanzibar, built between 1870 and 1888 for Sultan Barghash and designed by Shirazi-Persian architects — the hot rooms, cold rooms and cisterns still trace the old hammam ritual though the water is long gone. A small, atmospheric, easily-missed stop that rewards the curious traveller and adds the Persian layer to the Arab-Indian-African story.", "lat": -6.162518, "lon": 39.190914, "p": "v"}, {"n": "The Old Dispensary (Ithnashiri Dispensary)", "cat": "do", "tier": "", "a": "Stone Town", "d": "The most exuberant building on the waterfront — a green-and-cream confection of carved wooden balconies and stained glass, built in the 1890s by Tharia Topan, a Gujarati Ismaili merchant and financier to the sultan, as a charitable dispensary. It is the single clearest monument to the Indian community that helped build and bank Zanzibar, and a natural, meaningful stop for Indian visitors.", "lat": -6.158266, "lon": 39.192633, "p": "v"}, {"n": "The Dhow Countries Music Academy", "cat": "do", "tier": "", "a": "Stone Town", "d": "The living heart of Zanzibar's music — the academy that preserves taarab, the swirling Arab-Indian-Swahili orchestral song of the islands, along with ngoma and kidumbak. An intimate evening concert or a private taarab session here is one of the most authentic cultural experiences in Stone Town, and the Indian melodic lineage in the music is unmistakable to a subcontinental ear.", "lat": -6.159152, "lon": 39.191312, "p": "v"}, {"n": "Dinner at the Emerson Spice rooftop tea house", "cat": "do", "tier": "", "a": "Stone Town", "d": "A single nightly sitting on the highest rooftop in Stone Town, in a restored merchant's palace, where a set Swahili-fusion seafood menu is served as the muezzin's call rolls across the coral rooftops at sunset, sometimes with live taarab. Reservation-only and quietly theatrical — the most romantic table in the old town, and a natural honeymoon dinner. Ask ahead and they will build a vegetarian menu.", "lat": -6.162658, "lon": 39.190012, "p": "a"}, {"n": "The Mtoni Palace ruins", "cat": "do", "tier": "", "a": "Near Stone Town", "d": "The oldest and largest of the sultans' palaces, built for Seyyid Said around 1828 just north of town — roofless coral halls and arabesque arches now open to the sea and the wild, once home to the sultan's wives and hundreds of children, including Princess Salme. Sunset here, with a candle-lit history talk, is a quiet, atmospheric antidote to the busier sights.", "lat": -6.135542, "lon": 39.213496, "p": "v"}, {"n": "The Maruhubi Palace ruins", "cat": "do", "tier": "", "a": "Near Stone Town", "d": "The romantic ruins of the palace Sultan Barghash built in 1882 for his large household, its stone pillars and lily-pad reservoir standing in a quiet garden beside a working dhow-building beach. Overlooked by most day-trippers, it makes a peaceful, photogenic pairing with Mtoni for those who want the sultans' story away from the crowds.", "lat": -6.162658, "lon": 39.190012, "p": "a"}, {"n": "Nungwi beach", "cat": "do", "tier": "", "a": "North", "d": "The island's headline beach on the far northern tip — powder sand, turquoise water and, crucially, minimal tide so you can actually swim at any hour, unlike the east coast. It is the hub of Zanzibar's grandest resorts and the working dhow-building village, and the west-facing angle delivers celebrated sunsets. The natural base for a first-timer or a family that wants dependable swimming.", "lat": -5.73396, "lon": 39.298275, "p": "v"}, {"n": "Kendwa beach", "cat": "do", "tier": "", "a": "North", "d": "Nungwi's calmer, softer sister a few kilometres south — a broad west-facing strand famous for the most spectacular sunsets on the island and, again, water deep enough to swim at all tides. Quieter and more laid-back than Nungwi by day, it is the classic spot for a sundowner dhow and a barefoot dinner on the sand.", "lat": -5.754416, "lon": 39.292008, "p": "v"}, {"n": "Matemwe beach", "cat": "do", "tier": "", "a": "Northeast", "d": "A long, quiet, authentic stretch of the northeast coast, still lined with fishing villages and seaweed plots, and the closest mainland beach to the Mnemba Atoll — the launch point for the island's best snorkelling and diving. It suits travellers who want serious marine life and genuine Swahili village texture rather than a resort strip, with a handful of superb boutique lodges strung along the shore.", "lat": -5.868634, "lon": 39.353344, "p": "v"}, {"n": "Paje beach", "cat": "do", "tier": "", "a": "East", "d": "The kitesurfing capital of the Indian Ocean — a wide, flat, reef-protected lagoon with steady trade winds that draws kiters from around the world, and a young, easy beach-shack scene. The east-coast tide pulls back nearly a kilometre twice a day, turning the shallows into a mirror-flat walkable flat; time your swims to the tide and enjoy the theatre of the water disappearing and returning.", "lat": -6.265954, "lon": 39.536394, "p": "v"}, {"n": "Jambiani beach", "cat": "do", "tier": "", "a": "East", "d": "The quietest, most traditional of the east-coast villages — a long ribbon of white sand where daily life still turns on fishing and seaweed farming, the women tending their green plots at low tide, wooden boats resting on the flats. For a couple wanting the real, unhurried Swahili coast rather than a resort, this is the most soulful choice on the island.", "lat": -6.31274, "lon": 39.545672, "p": "v"}, {"n": "The seaweed farms of the east coast", "cat": "do", "tier": "", "a": "East (Paje / Jambiani)", "d": "At low tide the shallows off Paje and Jambiani reveal neat green plots tended almost entirely by women — Zanzibar's seaweed is a major export and, increasingly, the base for artisanal soaps and cosmetics. A gentle guided walk out onto the flats with a seaweed farmer is a rare, grounding encounter with the island's real economy and its women's livelihoods, well away from the beach-club scene.", "lat": -6.264382, "lon": 39.532879, "p": "a"}, {"n": "Michamvi peninsula & Michamvi Kae", "cat": "do", "tier": "", "a": "Southeast", "d": "The narrow finger of land at the southern end of the east coast — the only place on the east coast where you can watch the sun set over the water, since the tip faces west across Chwaka Bay. Quiet, exclusive and home to some of the island's most private villas and beach clubs, it pairs an east-coast morning with a rare east-coast sunset. The Rock sits just off its shore.", "lat": -6.14453, "lon": 39.495521, "p": "v"}, {"n": "The Rock Restaurant", "cat": "do", "tier": "", "a": "Michamvi Pingwe (Southeast)", "d": "The single most photographed table in Zanzibar — a tiny seafood restaurant perched on a coral outcrop off Michamvi Pingwe beach, reached on foot at low tide and by short boat at high tide, with the Indian Ocean on every side. The Swahili-Italian menu is secondary to the setting; book the sunset sitting well ahead, and ask for the vegetarian pasta and grilled-vegetable options.", "lat": -5.851825, "lon": 39.356782, "p": "v"}, {"n": "Jozani Chwaka Bay National Park", "cat": "do", "tier": "", "a": "Central (southeast of Stone Town)", "d": "Zanzibar's only national park and the last refuge of the endangered Zanzibar red colobus monkey, found nowhere else on Earth — troops of thirty-plus are all but guaranteed on the short forest trail, unbothered by visitors. The park pairs the primate walk with an elevated boardwalk over a mangrove forest, a gentle, shaded, family-friendly slice of the island's wild interior.", "lat": -6.228119, "lon": 39.404153, "p": "v"}, {"n": "A spice-farm tour", "cat": "do", "tier": "", "a": "Central (near Stone Town)", "d": "This is why they call it the Spice Island — a walk through a working plantation where a guide cracks open cloves, nutmeg, cinnamon bark, cardamom, vanilla and lipstick-fruit, and you smell and taste each one straight from the tree. For an Indian visitor it is a vivid full circle: these are the spices the monsoon-trade dhows carried between Zanzibar and the subcontinent for centuries. Best done privately, with a Swahili lunch to follow.", "lat": -6.09275, "lon": 39.266355, "p": "v"}, {"n": "Prison Island (Changuu) & the giant tortoises", "cat": "do", "tier": "", "a": "Off Stone Town", "d": "A twenty-minute dhow ride from Stone Town to a small coral island whose sanctuary shelters a colony of Aldabra giant tortoises — a gift from the Seychelles in 1919, the oldest of them well over a century old, and gentle enough to hand-feed spinach. The old quarantine buildings and a house-reef for snorkelling round out an easy, delightful half-day, especially with children.", "lat": -6.162658, "lon": 39.190012, "p": "a"}, {"n": "The Nakupenda sandbank", "cat": "do", "tier": "", "a": "Off Stone Town", "d": "A pure white ribbon of sand that rises from the sea at low tide off Stone Town — its name means 'I love you' in Swahili — where the classic outing is a private dhow, a snorkel over the reef, and a fresh-seafood lunch laid out on the bare sandbank with nothing around you but turquoise water. As castaway-romantic as the island gets, and easily arranged as a private charter.", "lat": -6.162658, "lon": 39.190012, "p": "a"}, {"n": "The Safari Blue full-day dhow excursion", "cat": "do", "tier": "", "a": "Southwest (Menai Bay)", "d": "The island's classic full-day sail — a traditional dhow through the Menai Bay conservation area with snorkelling over coral, a swim in a mangrove lagoon, dolphin-spotting and a lavish seafood barbecue on a sandbank with tropical fruit and, for the brave, baobab-flavoured local spirit. Book it as a private charter rather than a group boat and it becomes an unhurried, genuinely luxurious day at sea.", "lat": -6.400775, "lon": 39.332368, "p": "a"}, {"n": "The Maalum natural swimming pool", "cat": "do", "tier": "", "a": "Paje (East)", "d": "A hidden cenote-like pool in a collapsed limestone cavern near Paje — cool, clear, jade-green water in a jungle-fringed grotto, with a limited number of timed slots each day to keep it serene. It is the island's most stylish swim, quietly exclusive and Instagram-famous, and a refreshing counterpoint to the salt water of the coast. Book ahead; slots sell out.", "lat": -6.143391, "lon": 39.489944, "p": "a"}, {"n": "The Kuza Cave", "cat": "do", "tier": "", "a": "Jambiani (East)", "d": "A turquoise freshwater pool inside a limestone cave near Jambiani, held sacred by the local Swahili community and open for a quiet swim in water hundreds of thousands of years in the making. It doubles as a small cultural centre teaching Swahili cooking, drumming and language, so a visit can pair a cool swim with a genuine, low-key cultural encounter.", "lat": -6.303591, "lon": 39.533704, "p": "v"}, {"n": "Kizimkazi dolphins", "cat": "do", "tier": "", "a": "South", "d": "The fishing village on the island's southern tip is the classic launch point for meeting the resident bottlenose and humpback dolphins of the Menai Bay conservation area. Go at dawn, with a responsible operator who keeps a respectful distance, and it becomes a magical rather than a chaotic encounter — best paired with the ancient mosque next door and a quiet southern lunch.", "lat": -6.450169, "lon": 39.471019, "p": "v"}, {"n": "The Kizimkazi (Dimbani) Mosque", "cat": "do", "tier": "", "a": "South", "d": "One of the oldest Islamic buildings in East Africa, its Kufic inscription dating the foundation to 1107 CE — a modest coral-stone mosque that marks the arrival of the Shirazi-Persian settlers who seeded Zanzibar's Islamic and Swahili culture. Understated and deeply historic, it gives real weight to a southern day out and is easily combined with the Kizimkazi dolphins.", "lat": -6.208375, "lon": 39.357963, "p": "a"}, {"n": "Swimming with rescued turtles at Nungwi", "cat": "do", "tier": "", "a": "Nungwi (North)", "d": "At the Mnarani Marine Turtle Conservation Pond in Nungwi you can snorkel alongside green turtles in a natural tidal lagoon — the more conservation-focused of the village's two lagoons, which rescues turtles injured in fishing nets, rears hatchlings and runs release programmes. Framed as a conservation visit rather than a petting-zoo, it is a gentle, meaningful encounter, especially with children; ask your advisor to route you to the rehabilitation-led pond.", "lat": -5.726473, "lon": 39.306444, "p": "a"}, {"n": "A sunset dhow cruise", "cat": "do", "tier": "", "a": "Nungwi / Kendwa (North)", "d": "The quintessential Zanzibar evening — a lateen-sailed wooden dhow slipping out from the west-facing north coast as the sky turns copper, a glass in hand and the crew easing the great triangular sail across the wind. On a private charter with sundowners and canapés it is the simplest, most romantic hour on the island, and the definitive honeymoon photograph.", "lat": -5.738443, "lon": 39.292812, "p": "a"}, {"n": "Deep-sea fishing off the north coast", "cat": "do", "tier": "", "a": "North (Nungwi)", "d": "The deep blue water off Zanzibar's northern shelf is prime big-game territory — sailfish, marlin, tuna, wahoo and dorado run here, best from the north-coast marinas. A private sport-fishing charter (catch-and-release for billfish) makes a thrilling half-day for the keen angler in the family, with the crew handling everything and the catch cooked back at the lodge.", "lat": -5.726473, "lon": 39.306444, "p": "a"}, {"n": "Cheetah's Rock", "cat": "do", "tier": "", "a": "North of Stone Town", "d": "A small, fiercely ethical wildlife rescue where a strictly capped number of guests each day meet rehabilitated big cats, lemurs, otters and more in intimate, welfare-first encounters led by the founder — a rare chance to be close to African wildlife without the safari drive. Book far ahead; the tiny daily quota is the point, and it makes a memorable land-based half-day for families.", "lat": -6.061776, "lon": 39.206826, "p": "v"}, {"n": "The bush-and-beach safari combination", "cat": "do", "tier": "", "a": "Mainland Tanzania + Zanzibar", "d": "Zanzibar's greatest role for the Indian traveller is as the beach half of Tanzania's classic 'bush and beach' — the Serengeti's great migration and the Ngorongoro Crater's dense game, then a short flight to unwind on the Indian Ocean. The lodges connect by private air with no long transfers, making it the definitive East African honeymoon and multi-generational trip. Your advisor sequences safari, flight and villa as one seamless journey.", "lat": -6.099971, "lon": 39.320954, "p": "a"}, {"n": "A stay at Zuri Zanzibar", "cat": "do", "tier": "", "a": "Kendwa (Northwest)", "d": "One of the island's most design-forward resorts — a village of thatched villas cascading down to a swimmable Kendwa beach, with a serious wellness and spa focus and a globally-minded kitchen. Its sunset-facing north-coast position, calm water and polished service make it a strong choice for couples and families who want contemporary luxury over colonial nostalgia. A natural coastal base after safari.", "lat": -6.119319, "lon": 39.2124, "p": "v"}, {"n": "A stay at The Residence Zanzibar", "cat": "do", "tier": "", "a": "Kizimkazi (South)", "d": "A serene 66-villa estate spread over palm-fringed grounds on the quiet south coast, every villa with its own pool and butler — the island's benchmark for a private-villa family holiday, with an unusually good, fully-supervised kids' club that frees parents for a spa day or a dhow. The gentle southern setting suits multi-generational groups who want space, privacy and calm over the busier north.", "lat": -6.168814, "lon": 39.21469, "p": "v"}, {"n": "A stay at Xanadu Villas & Retreat", "cat": "do", "tier": "", "a": "East coast", "d": "An adults-only collection of just nine private villas set in tropical gardens above a quiet east-coast beach — small, intensely personal and built around privacy, it is one of the island's most sought-after honeymoon addresses. The scale is the appeal: barely a handful of couples in residence at a time, with the attention and discretion an Indian UHNI honeymooner expects.", "lat": -6.264382, "lon": 39.532879, "p": "a"}, {"n": "The Zanzibar Butterfly Centre", "cat": "do", "tier": "", "a": "Near Jozani (Pete village)", "d": "A community-run tropical butterfly house beside Jozani Forest, where hundreds of native Zanzibari butterflies fly free through a netted garden and a guide walks you through the whole life cycle. Small, shaded and gentle, it is a lovely, low-key add-on to a Jozani morning and a particular hit with children, while its earnings support the surrounding village.", "lat": -6.285521, "lon": 39.415433, "p": "v"}, {"n": "A Stone Town cooking class & spice lunch", "cat": "do", "tier": "", "a": "Stone Town", "d": "The most delicious way into Swahili culture — a market visit for the day's fish and spices, then a hands-on lesson in the island's Indian-Ocean cooking: coconut curries, pilau, chapati and the clove-and-cardamom notes that a subcontinental cook will recognise at once. Easily made fully vegetarian or Jain, and a warm, hands-on afternoon that connects the family straight to the Spice Island's kitchen.", "lat": -6.162658, "lon": 39.190012, "p": "a"}, {"n": "Emerson Spice / Emerson on Hurumzi rooftops", "cat": "party", "tier": "Rooftops", "a": "Stone Town", "d": "Sunset cocktails on Stone Town's highest rooftops, with the old city's minarets and spires below and live Taarab in the air — the most atmospheric drink on the island.", "lat": -6.161015, "lon": 39.191008, "p": "v"}, {"n": "6 Degrees South Grill & Wine Bar", "cat": "party", "tier": "Cocktail bars", "a": "Stone Town (Shangani)", "d": "Three sea-facing terraces on the Shangani waterfront — the reliable spot for a sundowner and a proper glass of wine in the old town.", "lat": -6.162459, "lon": 39.186106, "p": "a"}, {"n": "Zanzibar Serena Hotel rooftop bar", "cat": "party", "tier": "Landmark bars", "a": "Stone Town (seafront)", "d": "A calm rooftop over the Indian Ocean inside a restored heritage landmark — sundowners with a Taarab soundtrack on Swahili Nights.", "lat": -5.809583, "lon": 39.357712, "p": "v"}]}
+{
+  "center": [
+    -6.099971,
+    39.320954
+  ],
+  "venues": [
+    {
+      "n": "Zuri Zanzibar",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "North coast (Kendwa)",
+      "d": "A design-led garden village above a rare tide-free west-facing beach \u2014 the north-coast address with genuine architectural intent.",
+      "lat": -6.221479,
+      "lon": 39.221589,
+      "photos": []
+    },
+    {
+      "n": "Xanadu Luxury Villas & Retreat",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "East coast (Dongwe)",
+      "d": "An intimate, adults-leaning villa hideaway that trades scale for privacy and polish.",
+      "lat": -6.264382,
+      "lon": 39.532879,
+      "photos": []
+    },
+    {
+      "n": "The Residence Zanzibar",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "South-west coast (Kizimkazi)",
+      "d": "Sixty-six private villas, each with a plunge pool, spread through 32 hectares of garden on a mile-long beach \u2014 the grand family estate.",
+      "lat": -6.410544,
+      "lon": 39.452271,
+      "photos": []
+    },
+    {
+      "n": "Park Hyatt Zanzibar",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Stone Town (seafront)",
+      "d": "The one true luxury address inside the UNESCO old town \u2014 a restored seafront palace where history is at the door and the beach at your feet.",
+      "lat": -6.162459,
+      "lon": 39.186106,
+      "photos": []
+    },
+    {
+      "n": "Baraza Resort & Spa",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "East coast (Bwejuu / Dongwe)",
+      "d": "Palatial Swahili-Persian-Omani architecture and all-inclusive ease \u2014 the most ornate house on the east coast.",
+      "lat": -6.190769,
+      "lon": 39.535043,
+      "photos": []
+    },
+    {
+      "n": "Zanzibar White Sand Luxury Villas & Spa",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "East coast (Paje)",
+      "d": "The island's Relais & Ch\u00e2teaux house \u2014 private villas, a serious spa and a beachfront on the kite-surfing coast.",
+      "lat": -6.280765,
+      "lon": 39.536164,
+      "photos": []
+    },
+    {
+      "n": "Elewana Kilindi Zanzibar",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "North coast (Kendwa)",
+      "d": "White-domed pavilions in 50 acres of garden \u2014 an eccentric, romantic hideaway originally conceived for an ABBA founder.",
+      "lat": -5.762376,
+      "lon": 39.291077,
+      "photos": []
+    },
+    {
+      "n": "Matemwe Lodge",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "East coast (Matemwe)",
+      "d": "A relaxed, characterful lodge on the reef directly facing Mnemba \u2014 the closest mainland base to the island's best diving.",
+      "lat": -5.820606,
+      "lon": 39.359021,
+      "photos": []
+    },
+    {
+      "n": "Zawadi Hotel",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "South-east coast (Michamvi)",
+      "d": "Nine cliff-top villas above an unspoiled beach \u2014 small, serene and thoroughly private.",
+      "lat": -6.263407,
+      "lon": 39.53632,
+      "photos": []
+    },
+    {
+      "n": "The Rock Restaurant",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "East coast (Michamvi Pingwe)",
+      "d": "A single dining room perched on a coral outcrop in the ocean, reached on foot at low tide or by boat at high \u2014 one of the most photographed tables on earth.",
+      "lat": -5.851825,
+      "lon": 39.356782,
+      "photos": []
+    },
+    {
+      "n": "Emerson Spice Rooftop Tea House",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Stone Town",
+      "d": "A seven-course seafood tasting served cross-legged on cushions atop a restored merchant's mansion, with a 360\u00b0 view over minarets, spires and the sea as the call to prayer rolls across the rooftops.",
+      "lat": -6.162658,
+      "lon": 39.190012,
+      "photos": []
+    },
+    {
+      "n": "Tea House Restaurant, Emerson on Hurumzi",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Stone Town",
+      "d": "The highest rooftop in Stone Town \u2014 a set Zanzibari menu at sunset with live Taarab music from the Dhow Countries Music Academy.",
+      "lat": -6.162658,
+      "lon": 39.190012,
+      "photos": []
+    },
+    {
+      "n": "6 Degrees South Grill & Wine Bar",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Stone Town (Shangani)",
+      "d": "Shangani's most reliably good table \u2014 Afro-Continental grill and a proper wine list across three sea-facing terraces.",
+      "lat": -6.162459,
+      "lon": 39.186106,
+      "photos": []
+    },
+    {
+      "n": "Forodhani Night Market",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Stone Town (Forodhani Gardens)",
+      "d": "Every evening the seafront gardens become an open-air feast \u2014 grilled seafood, urojo (Zanzibar mix) and the famous 'Zanzibar pizza' \u2014 the living room of the old town.",
+      "lat": -6.160466,
+      "lon": 39.188846,
+      "photos": []
+    },
+    {
+      "n": "Zanzibar Serena Hotel \u2014 Rooftop & Swahili Nights",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Stone Town (seafront)",
+      "d": "A rooftop over the Indian Ocean and a Friday poolside Swahili Nights buffet with live Taarab \u2014 dining inside two restored heritage seafront buildings.",
+      "lat": -6.162658,
+      "lon": 39.190012,
+      "photos": []
+    },
+    {
+      "n": "Resort signature tables",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Across the resorts",
+      "d": "Zanzibar's most considered kitchens sit inside the maison resorts \u2014 private-beach dinners, dhow-deck lunches and spice-led Swahili menus arranged for house guests.",
+      "lat": -6.302619,
+      "lon": 39.542415,
+      "photos": []
+    },
+    {
+      "n": "The Stone Town heritage walk",
+      "cat": "do",
+      "tier": "",
+      "a": "Stone Town",
+      "d": "A slow morning through the coral-stone labyrinth of the old town, where Omani-Arab, Persian, Indian and Swahili worlds fused over a thousand years of Indian Ocean trade. For an Indian family the connection is intimate and immediate: Gujarati and Cutchi merchant houses, Hindu temples and Ismaili buildings sit among the mosques and the carved doors. A private cultural guide reads the layers street by street in the cool before the heat.",
+      "lat": -6.165689,
+      "lon": 39.191908,
+      "photos": []
+    },
+    {
+      "n": "The carved Zanzibari doors",
+      "cat": "do",
+      "tier": "",
+      "a": "Stone Town",
+      "d": "Hundreds of monumental hand-carved doors are the signature of Stone Town, each a statement of the family behind it \u2014 Arab doors ornamented with Quranic script, elegantly plain Swahili doors, and Indian doors studded with heavy brass bosses that once warded off elephants back home in the subcontinent. Walking with a guide who decodes the lotus, the fish and the frankincense-chain motifs turns a photo-stop into a genuine reading of the city's mixed soul.",
+      "lat": -6.162658,
+      "lon": 39.190012,
+      "photos": []
+    },
+    {
+      "n": "The House of Wonders (Beit-al-Ajaib)",
+      "cat": "do",
+      "tier": "",
+      "a": "Stone Town",
+      "d": "The grandest building on the seafront \u2014 the first in Zanzibar with electricity and a lift, built in 1883 for Sultan Barghash \u2014 its tiered verandahs and clock tower long the emblem of the town. Note: the facade and clock tower collapsed in 2020 and the building remains closed and under a slow UNESCO-supported restoration, so it is admired from Forodhani for now rather than entered. A guide gives the context that makes the shrouded shell legible.",
+      "lat": -6.160909,
+      "lon": 39.189625,
+      "photos": []
+    },
+    {
+      "n": "The Old Fort (Ngome Kongwe)",
+      "cat": "do",
+      "tier": "",
+      "a": "Stone Town",
+      "d": "The oldest standing building in Stone Town, raised by the Omanis around 1698-1701 on the ruins of a Portuguese chapel after they drove the Portuguese out. Its thick coral ramparts now enclose craft stalls, a caf\u00e9 and an open-air amphitheatre that hosts the Sauti za Busara music festival and the Zanzibar film festival. An easy, shaded first stop that anchors the whole seafront cluster.",
+      "lat": -6.162658,
+      "lon": 39.190012,
+      "photos": []
+    },
+    {
+      "n": "The Sultan's Palace Museum (Beit el-Sahel)",
+      "cat": "do",
+      "tier": "",
+      "a": "Stone Town",
+      "d": "The former residence of the Sultans of Zanzibar, now a museum of the dynasty's daily life \u2014 the furniture, the portraits and the belongings of Princess Salme, the sultan's daughter who eloped to Germany and wrote the first memoir by an Arab woman. A short walk from the Old Fort, it gives the human, domestic side of the Omani court that ruled this Indian Ocean crossroads.",
+      "lat": -6.162658,
+      "lon": 39.190012,
+      "photos": []
+    },
+    {
+      "n": "Forodhani Gardens night food market",
+      "cat": "do",
+      "tier": "",
+      "a": "Stone Town",
+      "d": "Every evening the seafront gardens fill with grills and lanterns for East Africa's most famous street-food market \u2014 grilled seafood, Zanzibar pizza, urojo soup, sugar-cane juice pressed on the spot, all facing the water as the sun drops behind the dhows. Vegetarian and Jain guests do well here with the chapati, samosa, cassava and fresh-pressed juices, and a guide can steer the family to the cleanest, freshest stalls.",
+      "lat": -6.160466,
+      "lon": 39.188846,
+      "photos": []
+    },
+    {
+      "n": "The Anglican Cathedral & the former Slave Market",
+      "cat": "do",
+      "tier": "",
+      "a": "Stone Town",
+      "d": "Christ Church Cathedral was built from 1873 on the site of East Africa's largest slave market, its altar placed exactly where captives were once whipped, as a deliberate monument to abolition. The adjoining East Africa Slavery Museum and the surviving underground holding chambers make this the most moving and important hour in Stone Town \u2014 sober, well-told history that repays a private, unhurried guided visit.",
+      "lat": -6.162658,
+      "lon": 39.190012,
+      "photos": []
+    },
+    {
+      "n": "The Freddie Mercury Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Stone Town",
+      "d": "Freddie Mercury \u2014 born Farrokh Bulsara to a Parsi family from Gujarat \u2014 spent his early childhood in Zanzibar, and the museum near Kenyatta Road tells his story through photographs, memorabilia and the Zanzibari-Parsi world he came from. A quietly resonant stop for Indian visitors: the Indian-Ocean Parsi thread running straight from Bombay through Zanzibar to Queen. (His actual family home nearby remains a private residence.)",
+      "lat": -6.162658,
+      "lon": 39.190012,
+      "photos": []
+    },
+    {
+      "n": "Darajani Market",
+      "cat": "do",
+      "tier": "",
+      "a": "Stone Town",
+      "d": "The chaotic, sensory heart of everyday Zanzibar since 1904 \u2014 pyramids of cloves, cinnamon bark, vanilla and chillies, fish and fruit and bolts of kanga cloth. For a subcontinental palate the spice hall is instantly familiar yet wilder, and a guided early-morning walk (before the heat and the crowds) is the best way to understand why this is called the Spice Island.",
+      "lat": -6.162211,
+      "lon": 39.193731,
+      "photos": []
+    },
+    {
+      "n": "The Hamamni Persian Baths",
+      "cat": "do",
+      "tier": "",
+      "a": "Stone Town",
+      "d": "The first public baths in Zanzibar, built between 1870 and 1888 for Sultan Barghash and designed by Shirazi-Persian architects \u2014 the hot rooms, cold rooms and cisterns still trace the old hammam ritual though the water is long gone. A small, atmospheric, easily-missed stop that rewards the curious traveller and adds the Persian layer to the Arab-Indian-African story.",
+      "lat": -6.162518,
+      "lon": 39.190914,
+      "photos": []
+    },
+    {
+      "n": "The Old Dispensary (Ithnashiri Dispensary)",
+      "cat": "do",
+      "tier": "",
+      "a": "Stone Town",
+      "d": "The most exuberant building on the waterfront \u2014 a green-and-cream confection of carved wooden balconies and stained glass, built in the 1890s by Tharia Topan, a Gujarati Ismaili merchant and financier to the sultan, as a charitable dispensary. It is the single clearest monument to the Indian community that helped build and bank Zanzibar, and a natural, meaningful stop for Indian visitors.",
+      "lat": -6.158266,
+      "lon": 39.192633,
+      "photos": []
+    },
+    {
+      "n": "The Dhow Countries Music Academy",
+      "cat": "do",
+      "tier": "",
+      "a": "Stone Town",
+      "d": "The living heart of Zanzibar's music \u2014 the academy that preserves taarab, the swirling Arab-Indian-Swahili orchestral song of the islands, along with ngoma and kidumbak. An intimate evening concert or a private taarab session here is one of the most authentic cultural experiences in Stone Town, and the Indian melodic lineage in the music is unmistakable to a subcontinental ear.",
+      "lat": -6.159152,
+      "lon": 39.191312,
+      "photos": []
+    },
+    {
+      "n": "Dinner at the Emerson Spice rooftop tea house",
+      "cat": "do",
+      "tier": "",
+      "a": "Stone Town",
+      "d": "A single nightly sitting on the highest rooftop in Stone Town, in a restored merchant's palace, where a set Swahili-fusion seafood menu is served as the muezzin's call rolls across the coral rooftops at sunset, sometimes with live taarab. Reservation-only and quietly theatrical \u2014 the most romantic table in the old town, and a natural honeymoon dinner. Ask ahead and they will build a vegetarian menu.",
+      "lat": -6.162658,
+      "lon": 39.190012,
+      "photos": []
+    },
+    {
+      "n": "The Mtoni Palace ruins",
+      "cat": "do",
+      "tier": "",
+      "a": "Near Stone Town",
+      "d": "The oldest and largest of the sultans' palaces, built for Seyyid Said around 1828 just north of town \u2014 roofless coral halls and arabesque arches now open to the sea and the wild, once home to the sultan's wives and hundreds of children, including Princess Salme. Sunset here, with a candle-lit history talk, is a quiet, atmospheric antidote to the busier sights.",
+      "lat": -6.135542,
+      "lon": 39.213496,
+      "photos": []
+    },
+    {
+      "n": "The Maruhubi Palace ruins",
+      "cat": "do",
+      "tier": "",
+      "a": "Near Stone Town",
+      "d": "The romantic ruins of the palace Sultan Barghash built in 1882 for his large household, its stone pillars and lily-pad reservoir standing in a quiet garden beside a working dhow-building beach. Overlooked by most day-trippers, it makes a peaceful, photogenic pairing with Mtoni for those who want the sultans' story away from the crowds.",
+      "lat": -6.162658,
+      "lon": 39.190012,
+      "photos": []
+    },
+    {
+      "n": "Nungwi beach",
+      "cat": "do",
+      "tier": "",
+      "a": "North",
+      "d": "The island's headline beach on the far northern tip \u2014 powder sand, turquoise water and, crucially, minimal tide so you can actually swim at any hour, unlike the east coast. It is the hub of Zanzibar's grandest resorts and the working dhow-building village, and the west-facing angle delivers celebrated sunsets. The natural base for a first-timer or a family that wants dependable swimming.",
+      "lat": -5.73396,
+      "lon": 39.298275,
+      "photos": []
+    },
+    {
+      "n": "Kendwa beach",
+      "cat": "do",
+      "tier": "",
+      "a": "North",
+      "d": "Nungwi's calmer, softer sister a few kilometres south \u2014 a broad west-facing strand famous for the most spectacular sunsets on the island and, again, water deep enough to swim at all tides. Quieter and more laid-back than Nungwi by day, it is the classic spot for a sundowner dhow and a barefoot dinner on the sand.",
+      "lat": -5.754416,
+      "lon": 39.292008,
+      "photos": []
+    },
+    {
+      "n": "Matemwe beach",
+      "cat": "do",
+      "tier": "",
+      "a": "Northeast",
+      "d": "A long, quiet, authentic stretch of the northeast coast, still lined with fishing villages and seaweed plots, and the closest mainland beach to the Mnemba Atoll \u2014 the launch point for the island's best snorkelling and diving. It suits travellers who want serious marine life and genuine Swahili village texture rather than a resort strip, with a handful of superb boutique lodges strung along the shore.",
+      "lat": -5.868634,
+      "lon": 39.353344,
+      "photos": []
+    },
+    {
+      "n": "Paje beach",
+      "cat": "do",
+      "tier": "",
+      "a": "East",
+      "d": "The kitesurfing capital of the Indian Ocean \u2014 a wide, flat, reef-protected lagoon with steady trade winds that draws kiters from around the world, and a young, easy beach-shack scene. The east-coast tide pulls back nearly a kilometre twice a day, turning the shallows into a mirror-flat walkable flat; time your swims to the tide and enjoy the theatre of the water disappearing and returning.",
+      "lat": -6.265954,
+      "lon": 39.536394,
+      "photos": []
+    },
+    {
+      "n": "Jambiani beach",
+      "cat": "do",
+      "tier": "",
+      "a": "East",
+      "d": "The quietest, most traditional of the east-coast villages \u2014 a long ribbon of white sand where daily life still turns on fishing and seaweed farming, the women tending their green plots at low tide, wooden boats resting on the flats. For a couple wanting the real, unhurried Swahili coast rather than a resort, this is the most soulful choice on the island.",
+      "lat": -6.31274,
+      "lon": 39.545672,
+      "photos": []
+    },
+    {
+      "n": "The seaweed farms of the east coast",
+      "cat": "do",
+      "tier": "",
+      "a": "East (Paje / Jambiani)",
+      "d": "At low tide the shallows off Paje and Jambiani reveal neat green plots tended almost entirely by women \u2014 Zanzibar's seaweed is a major export and, increasingly, the base for artisanal soaps and cosmetics. A gentle guided walk out onto the flats with a seaweed farmer is a rare, grounding encounter with the island's real economy and its women's livelihoods, well away from the beach-club scene.",
+      "lat": -6.264382,
+      "lon": 39.532879,
+      "photos": []
+    },
+    {
+      "n": "Michamvi peninsula & Michamvi Kae",
+      "cat": "do",
+      "tier": "",
+      "a": "Southeast",
+      "d": "The narrow finger of land at the southern end of the east coast \u2014 the only place on the east coast where you can watch the sun set over the water, since the tip faces west across Chwaka Bay. Quiet, exclusive and home to some of the island's most private villas and beach clubs, it pairs an east-coast morning with a rare east-coast sunset. The Rock sits just off its shore.",
+      "lat": -6.14453,
+      "lon": 39.495521,
+      "photos": []
+    },
+    {
+      "n": "The Rock Restaurant",
+      "cat": "do",
+      "tier": "",
+      "a": "Michamvi Pingwe (Southeast)",
+      "d": "The single most photographed table in Zanzibar \u2014 a tiny seafood restaurant perched on a coral outcrop off Michamvi Pingwe beach, reached on foot at low tide and by short boat at high tide, with the Indian Ocean on every side. The Swahili-Italian menu is secondary to the setting; book the sunset sitting well ahead, and ask for the vegetarian pasta and grilled-vegetable options.",
+      "lat": -5.851825,
+      "lon": 39.356782,
+      "photos": []
+    },
+    {
+      "n": "Jozani Chwaka Bay National Park",
+      "cat": "do",
+      "tier": "",
+      "a": "Central (southeast of Stone Town)",
+      "d": "Zanzibar's only national park and the last refuge of the endangered Zanzibar red colobus monkey, found nowhere else on Earth \u2014 troops of thirty-plus are all but guaranteed on the short forest trail, unbothered by visitors. The park pairs the primate walk with an elevated boardwalk over a mangrove forest, a gentle, shaded, family-friendly slice of the island's wild interior.",
+      "lat": -6.228119,
+      "lon": 39.404153,
+      "photos": []
+    },
+    {
+      "n": "A spice-farm tour",
+      "cat": "do",
+      "tier": "",
+      "a": "Central (near Stone Town)",
+      "d": "This is why they call it the Spice Island \u2014 a walk through a working plantation where a guide cracks open cloves, nutmeg, cinnamon bark, cardamom, vanilla and lipstick-fruit, and you smell and taste each one straight from the tree. For an Indian visitor it is a vivid full circle: these are the spices the monsoon-trade dhows carried between Zanzibar and the subcontinent for centuries. Best done privately, with a Swahili lunch to follow.",
+      "lat": -6.09275,
+      "lon": 39.266355,
+      "photos": []
+    },
+    {
+      "n": "Prison Island (Changuu) & the giant tortoises",
+      "cat": "do",
+      "tier": "",
+      "a": "Off Stone Town",
+      "d": "A twenty-minute dhow ride from Stone Town to a small coral island whose sanctuary shelters a colony of Aldabra giant tortoises \u2014 a gift from the Seychelles in 1919, the oldest of them well over a century old, and gentle enough to hand-feed spinach. The old quarantine buildings and a house-reef for snorkelling round out an easy, delightful half-day, especially with children.",
+      "lat": -6.162658,
+      "lon": 39.190012,
+      "photos": []
+    },
+    {
+      "n": "The Nakupenda sandbank",
+      "cat": "do",
+      "tier": "",
+      "a": "Off Stone Town",
+      "d": "A pure white ribbon of sand that rises from the sea at low tide off Stone Town \u2014 its name means 'I love you' in Swahili \u2014 where the classic outing is a private dhow, a snorkel over the reef, and a fresh-seafood lunch laid out on the bare sandbank with nothing around you but turquoise water. As castaway-romantic as the island gets, and easily arranged as a private charter.",
+      "lat": -6.162658,
+      "lon": 39.190012,
+      "photos": []
+    },
+    {
+      "n": "The Safari Blue full-day dhow excursion",
+      "cat": "do",
+      "tier": "",
+      "a": "Southwest (Menai Bay)",
+      "d": "The island's classic full-day sail \u2014 a traditional dhow through the Menai Bay conservation area with snorkelling over coral, a swim in a mangrove lagoon, dolphin-spotting and a lavish seafood barbecue on a sandbank with tropical fruit and, for the brave, baobab-flavoured local spirit. Book it as a private charter rather than a group boat and it becomes an unhurried, genuinely luxurious day at sea.",
+      "lat": -6.400775,
+      "lon": 39.332368,
+      "photos": []
+    },
+    {
+      "n": "The Maalum natural swimming pool",
+      "cat": "do",
+      "tier": "",
+      "a": "Paje (East)",
+      "d": "A hidden cenote-like pool in a collapsed limestone cavern near Paje \u2014 cool, clear, jade-green water in a jungle-fringed grotto, with a limited number of timed slots each day to keep it serene. It is the island's most stylish swim, quietly exclusive and Instagram-famous, and a refreshing counterpoint to the salt water of the coast. Book ahead; slots sell out.",
+      "lat": -6.143391,
+      "lon": 39.489944,
+      "photos": []
+    },
+    {
+      "n": "The Kuza Cave",
+      "cat": "do",
+      "tier": "",
+      "a": "Jambiani (East)",
+      "d": "A turquoise freshwater pool inside a limestone cave near Jambiani, held sacred by the local Swahili community and open for a quiet swim in water hundreds of thousands of years in the making. It doubles as a small cultural centre teaching Swahili cooking, drumming and language, so a visit can pair a cool swim with a genuine, low-key cultural encounter.",
+      "lat": -6.303591,
+      "lon": 39.533704,
+      "photos": []
+    },
+    {
+      "n": "Kizimkazi dolphins",
+      "cat": "do",
+      "tier": "",
+      "a": "South",
+      "d": "The fishing village on the island's southern tip is the classic launch point for meeting the resident bottlenose and humpback dolphins of the Menai Bay conservation area. Go at dawn, with a responsible operator who keeps a respectful distance, and it becomes a magical rather than a chaotic encounter \u2014 best paired with the ancient mosque next door and a quiet southern lunch.",
+      "lat": -6.450169,
+      "lon": 39.471019,
+      "photos": []
+    },
+    {
+      "n": "The Kizimkazi (Dimbani) Mosque",
+      "cat": "do",
+      "tier": "",
+      "a": "South",
+      "d": "One of the oldest Islamic buildings in East Africa, its Kufic inscription dating the foundation to 1107 CE \u2014 a modest coral-stone mosque that marks the arrival of the Shirazi-Persian settlers who seeded Zanzibar's Islamic and Swahili culture. Understated and deeply historic, it gives real weight to a southern day out and is easily combined with the Kizimkazi dolphins.",
+      "lat": -6.208375,
+      "lon": 39.357963,
+      "photos": []
+    },
+    {
+      "n": "Swimming with rescued turtles at Nungwi",
+      "cat": "do",
+      "tier": "",
+      "a": "Nungwi (North)",
+      "d": "At the Mnarani Marine Turtle Conservation Pond in Nungwi you can snorkel alongside green turtles in a natural tidal lagoon \u2014 the more conservation-focused of the village's two lagoons, which rescues turtles injured in fishing nets, rears hatchlings and runs release programmes. Framed as a conservation visit rather than a petting-zoo, it is a gentle, meaningful encounter, especially with children; ask your advisor to route you to the rehabilitation-led pond.",
+      "lat": -5.726473,
+      "lon": 39.306444,
+      "photos": []
+    },
+    {
+      "n": "A sunset dhow cruise",
+      "cat": "do",
+      "tier": "",
+      "a": "Nungwi / Kendwa (North)",
+      "d": "The quintessential Zanzibar evening \u2014 a lateen-sailed wooden dhow slipping out from the west-facing north coast as the sky turns copper, a glass in hand and the crew easing the great triangular sail across the wind. On a private charter with sundowners and canap\u00e9s it is the simplest, most romantic hour on the island, and the definitive honeymoon photograph.",
+      "lat": -5.738443,
+      "lon": 39.292812,
+      "photos": []
+    },
+    {
+      "n": "Deep-sea fishing off the north coast",
+      "cat": "do",
+      "tier": "",
+      "a": "North (Nungwi)",
+      "d": "The deep blue water off Zanzibar's northern shelf is prime big-game territory \u2014 sailfish, marlin, tuna, wahoo and dorado run here, best from the north-coast marinas. A private sport-fishing charter (catch-and-release for billfish) makes a thrilling half-day for the keen angler in the family, with the crew handling everything and the catch cooked back at the lodge.",
+      "lat": -5.726473,
+      "lon": 39.306444,
+      "photos": []
+    },
+    {
+      "n": "Cheetah's Rock",
+      "cat": "do",
+      "tier": "",
+      "a": "North of Stone Town",
+      "d": "A small, fiercely ethical wildlife rescue where a strictly capped number of guests each day meet rehabilitated big cats, lemurs, otters and more in intimate, welfare-first encounters led by the founder \u2014 a rare chance to be close to African wildlife without the safari drive. Book far ahead; the tiny daily quota is the point, and it makes a memorable land-based half-day for families.",
+      "lat": -6.061776,
+      "lon": 39.206826,
+      "photos": []
+    },
+    {
+      "n": "The bush-and-beach safari combination",
+      "cat": "do",
+      "tier": "",
+      "a": "Mainland Tanzania + Zanzibar",
+      "d": "Zanzibar's greatest role for the Indian traveller is as the beach half of Tanzania's classic 'bush and beach' \u2014 the Serengeti's great migration and the Ngorongoro Crater's dense game, then a short flight to unwind on the Indian Ocean. The lodges connect by private air with no long transfers, making it the definitive East African honeymoon and multi-generational trip. Your advisor sequences safari, flight and villa as one seamless journey.",
+      "lat": -6.099971,
+      "lon": 39.320954,
+      "photos": []
+    },
+    {
+      "n": "A stay at Zuri Zanzibar",
+      "cat": "do",
+      "tier": "",
+      "a": "Kendwa (Northwest)",
+      "d": "One of the island's most design-forward resorts \u2014 a village of thatched villas cascading down to a swimmable Kendwa beach, with a serious wellness and spa focus and a globally-minded kitchen. Its sunset-facing north-coast position, calm water and polished service make it a strong choice for couples and families who want contemporary luxury over colonial nostalgia. A natural coastal base after safari.",
+      "lat": -6.119319,
+      "lon": 39.2124,
+      "photos": []
+    },
+    {
+      "n": "A stay at The Residence Zanzibar",
+      "cat": "do",
+      "tier": "",
+      "a": "Kizimkazi (South)",
+      "d": "A serene 66-villa estate spread over palm-fringed grounds on the quiet south coast, every villa with its own pool and butler \u2014 the island's benchmark for a private-villa family holiday, with an unusually good, fully-supervised kids' club that frees parents for a spa day or a dhow. The gentle southern setting suits multi-generational groups who want space, privacy and calm over the busier north.",
+      "lat": -6.168814,
+      "lon": 39.21469,
+      "photos": []
+    },
+    {
+      "n": "A stay at Xanadu Villas & Retreat",
+      "cat": "do",
+      "tier": "",
+      "a": "East coast",
+      "d": "An adults-only collection of just nine private villas set in tropical gardens above a quiet east-coast beach \u2014 small, intensely personal and built around privacy, it is one of the island's most sought-after honeymoon addresses. The scale is the appeal: barely a handful of couples in residence at a time, with the attention and discretion an Indian UHNI honeymooner expects.",
+      "lat": -6.264382,
+      "lon": 39.532879,
+      "photos": []
+    },
+    {
+      "n": "The Zanzibar Butterfly Centre",
+      "cat": "do",
+      "tier": "",
+      "a": "Near Jozani (Pete village)",
+      "d": "A community-run tropical butterfly house beside Jozani Forest, where hundreds of native Zanzibari butterflies fly free through a netted garden and a guide walks you through the whole life cycle. Small, shaded and gentle, it is a lovely, low-key add-on to a Jozani morning and a particular hit with children, while its earnings support the surrounding village.",
+      "lat": -6.285521,
+      "lon": 39.415433,
+      "photos": []
+    },
+    {
+      "n": "A Stone Town cooking class & spice lunch",
+      "cat": "do",
+      "tier": "",
+      "a": "Stone Town",
+      "d": "The most delicious way into Swahili culture \u2014 a market visit for the day's fish and spices, then a hands-on lesson in the island's Indian-Ocean cooking: coconut curries, pilau, chapati and the clove-and-cardamom notes that a subcontinental cook will recognise at once. Easily made fully vegetarian or Jain, and a warm, hands-on afternoon that connects the family straight to the Spice Island's kitchen.",
+      "lat": -6.162658,
+      "lon": 39.190012,
+      "photos": []
+    },
+    {
+      "n": "Emerson Spice / Emerson on Hurumzi rooftops",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "Stone Town",
+      "d": "Sunset cocktails on Stone Town's highest rooftops, with the old city's minarets and spires below and live Taarab in the air \u2014 the most atmospheric drink on the island.",
+      "lat": -6.161015,
+      "lon": 39.191008,
+      "photos": []
+    },
+    {
+      "n": "6 Degrees South Grill & Wine Bar",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Stone Town (Shangani)",
+      "d": "Three sea-facing terraces on the Shangani waterfront \u2014 the reliable spot for a sundowner and a proper glass of wine in the old town.",
+      "lat": -6.162459,
+      "lon": 39.186106,
+      "photos": []
+    },
+    {
+      "n": "Zanzibar Serena Hotel rooftop bar",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "Stone Town (seafront)",
+      "d": "A calm rooftop over the Indian Ocean inside a restored heritage landmark \u2014 sundowners with a Taarab soundtrack on Swahili Nights.",
+      "lat": -5.809583,
+      "lon": 39.357712,
+      "photos": []
+    }
+  ]
+}

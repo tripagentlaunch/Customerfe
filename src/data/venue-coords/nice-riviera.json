@@ -1,1 +1,708 @@
-{"center": [43.700193, 7.267508], "venues": [{"n": "Hôtel du Cap-Eden-Roc", "cat": "stay", "tier": "Ultra", "a": "Antibes (Cap d'Antibes)", "d": "The legend of the Riviera since 1870 — a white palace on its own cape, with the sea-cut Eden-Roc pool the coast's most famous set piece.", "lat": 43.593782, "lon": 7.119687, "p": "a"}, {"n": "Grand-Hôtel du Cap-Ferrat, A Four Seasons Hotel", "cat": "stay", "tier": "Ultra", "a": "Saint-Jean-Cap-Ferrat", "d": "A Belle Époque palace on seven hectares at the tip of the coast's most exclusive cape — private, forested and utterly serene.", "lat": 43.689965, "lon": 7.33274, "p": "a"}, {"n": "Château de la Chèvre d'Or", "cat": "stay", "tier": "Ultra", "a": "Èze", "d": "A medieval eyrie clinging to the cliff of Èze village, 400m above the sea — the Riviera's most romantic address, with two-starred dining in-house.", "lat": 43.700193, "lon": 7.267508, "p": "a"}, {"n": "La Réserve de Beaulieu & Spa", "cat": "stay", "tier": "Ultra", "a": "Beaulieu-sur-Mer", "d": "A rose-pink Italianate villa on its own harbour since 1880 — a hushed, aristocratic grande dame between Nice and Monaco.", "lat": 43.70573, "lon": 7.335323, "p": "v"}, {"n": "Le Negresco", "cat": "stay", "tier": "Grand", "a": "Nice", "d": "Nice's own pink-domed palace on the Promenade des Anglais — a private, family-owned house of art and theatre, a national monument since 1974.", "lat": 43.700193, "lon": 7.267508, "p": "a"}, {"n": "Anantara Plaza Nice Hotel", "cat": "stay", "tier": "Grand", "a": "Nice", "d": "An 1848 Belle Époque landmark off the Promenade, reborn by Anantara — Nice's most polished contemporary luxury, with a rooftop over the old town.", "lat": 43.700193, "lon": 7.267508, "p": "a"}, {"n": "Hôtel Martinez, Cannes (Hyatt Unbound Collection)", "cat": "stay", "tier": "Grand", "a": "Cannes", "d": "The Art Deco grande dame of the Croisette — the address of the Film Festival, with the largest private beach in Cannes and a starred kitchen.", "lat": 43.700193, "lon": 7.267508, "p": "a"}, {"n": "Cap Estel", "cat": "stay", "tier": "Ultra", "a": "Èze (Èze-Bord-de-Mer)", "d": "A private peninsula of five acres between Nice and Monaco — a villa hotel wrapped by the sea on three sides, screened from the world.", "lat": 43.756432, "lon": 7.443783, "p": "v"}, {"n": "Hôtel Barrière Le Majestic Cannes", "cat": "stay", "tier": "Grand", "a": "Cannes", "d": "A white 1926 palace at the head of the Croisette — grand, gracious and at the very centre of Cannes' glamour.", "lat": 43.700193, "lon": 7.267508, "p": "a"}, {"n": "Mirazur", "cat": "eat", "tier": "Destination", "a": "Menton", "d": "Mauro Colagreco's cliff-garden temple above the Italian border — seed-to-plate cooking from twelve acres of biodynamic terraces, once the best restaurant on earth.", "lat": 43.700193, "lon": 7.267508, "p": "v"}, {"n": "La Chèvre d'Or", "cat": "eat", "tier": "Destination", "a": "Èze", "d": "Two-starred cooking suspended on the cliff of Èze village, the whole coast falling away below — chef Tom Meyer, Meilleur Ouvrier de France.", "lat": 43.700193, "lon": 7.267508, "p": "v"}, {"n": "Flaveur", "cat": "eat", "tier": "Destination", "a": "Nice", "d": "The Tourteaux brothers' two-star in central Nice — bold, spice-laced Mediterranean cooking, with Indian notes woven through local seafood.", "lat": 43.700193, "lon": 7.267508, "p": "v"}, {"n": "La Palme d'Or", "cat": "eat", "tier": "Fine", "a": "Cannes", "d": "The Art Deco fine-dining room of the Hôtel Martinez, relaunched under Jean Imbert — the star table of the Croisette.", "lat": 43.700193, "lon": 7.267508, "p": "v"}, {"n": "Le Restaurant des Rois", "cat": "eat", "tier": "Fine", "a": "Beaulieu-sur-Mer", "d": "Julien Roucheteau's gastronomic room at La Réserve de Beaulieu — haute cuisine in a sumptuous seafront salon.", "lat": 43.7088, "lon": 7.33375, "p": "a"}, {"n": "Le Chantecler", "cat": "eat", "tier": "Fine", "a": "Nice", "d": "The starred dining room of Le Negresco — Virginie Basselot, Meilleur Ouvrier de France, cooking Mediterranean haute gastronomie in a wood-panelled salon.", "lat": 43.700193, "lon": 7.267508, "p": "a"}, {"n": "Louroc", "cat": "eat", "tier": "Fine", "a": "Antibes (Cap d'Antibes)", "d": "The starred restaurant of Hôtel du Cap-Eden-Roc — sea-facing Mediterranean cooking at the Riviera's most legendary address.", "lat": 43.700193, "lon": 7.267508, "p": "v"}, {"n": "JAN", "cat": "eat", "tier": "Fine", "a": "Nice", "d": "Jan Hendrik van der Westhuizen's intimate 20-seater near the port — French technique threaded with a South African soul.", "lat": 43.700193, "lon": 7.267508, "p": "v"}, {"n": "Pure & V", "cat": "eat", "tier": "Fine", "a": "Nice", "d": "Chef Pinja Paakkonen's Nordic-inflected kitchen in central Nice, with one of the coast's most characterful natural-wine lists.", "lat": 43.700193, "lon": 7.267508, "p": "v"}, {"n": "Racines - Bruno Cirino", "cat": "eat", "tier": "Fine", "a": "Nice", "d": "Bruno Cirino's 'kitchen-garden cuisine' — a single set menu of perfectly-ripe Mediterranean produce, largely vegetarian and farm-driven.", "lat": 43.700193, "lon": 7.267508, "p": "a"}, {"n": "L'Aromate", "cat": "eat", "tier": "Fine", "a": "Nice", "d": "Mickaël Gracieux's refined, produce-driven cooking in the heart of Nice — a quietly serious one-star.", "lat": 43.700193, "lon": 7.267508, "p": "v"}, {"n": "Peixes", "cat": "eat", "tier": "Smart", "a": "Nice", "d": "Fish and seafood served tapas-style in a blue-and-white tiled bistro near the opera — vibrant, Mediterranean-meets-South-American, and much loved.", "lat": 43.700193, "lon": 7.267508, "p": "v"}, {"n": "Le Bistrot de Jan", "cat": "eat", "tier": "Smart", "a": "Nice", "d": "The relaxed sibling of starred JAN — the same South African-French spirit at an easier, everyday pitch.", "lat": 43.699817, "lon": 7.284891, "p": "v"}, {"n": "Maison Barale", "cat": "eat", "tier": "Smart", "a": "Nice", "d": "A century-old Niçois family kitchen in Vieux Nice — the real ravioli, daube and socca of the old town.", "lat": 43.700193, "lon": 7.267508, "p": "a"}, {"n": "La Merenda", "cat": "eat", "tier": "Smart", "a": "Nice", "d": "Dominique Le Stanc's tiny, cash-only Niçoise counter — a former two-star chef cooking the humble classics of Nice by hand.", "lat": 43.700193, "lon": 7.267508, "p": "v"}, {"n": "Promenade des Anglais", "cat": "do", "tier": "", "a": "Nice — Seafront", "d": "The seven-kilometre Belle Époque seafront curving along the Baie des Anges, its blue chairs facing the water and the ochre Négresco dome behind. An unhurried morning stroll here, ice-cream in hand, is the Riviera at its most effortless — perfect for three generations moving at their own pace.", "lat": 43.685989, "lon": 7.237476, "p": "v"}, {"n": "Vieux Nice (Old Town)", "cat": "do", "tier": "", "a": "Nice — Old Town", "d": "A warren of ochre-and-terracotta lanes, baroque churches and shaded piazzas where laundry strings hang above artisan gelato shops. This is the emotional heart of Nice — small enough to wander with children, layered enough to reward a return each evening for aperitivo.", "lat": 43.700193, "lon": 7.267508, "p": "v"}, {"n": "Cours Saleya Market", "cat": "do", "tier": "", "a": "Nice — Old Town", "d": "The famous flower-and-produce market — cut peonies, Menton lemons, tapenade, socca fresh off the copper pan — with a Monday antiques market in place of flowers. A vivid morning for the family, and a generous window into Niçoise produce for veg-leaning palates.", "lat": 43.700193, "lon": 7.267508, "p": "a"}, {"n": "Colline du Château (Castle Hill)", "cat": "do", "tier": "", "a": "Nice — Old Town", "d": "The green headland between the old town and the port, crowned by a man-made waterfall and the definitive view down over the terracotta rooftops and the sweep of the Baie des Anges. Reachable by a discreet free lift for those who prefer not to climb.", "lat": 43.700193, "lon": 7.267508, "p": "a"}, {"n": "Musée Matisse", "cat": "do", "tier": "", "a": "Nice — Cimiez", "d": "A red-ochre Genoese villa set in an olive grove, holding one of the world's most complete Matisse collections — the artist lived and died in Nice and is buried nearby. Intimate, sunlit and rarely crowded, it pairs naturally with a picnic under the Cimiez olive trees.", "lat": 43.700193, "lon": 7.267508, "p": "a"}, {"n": "Musée National Marc Chagall", "cat": "do", "tier": "", "a": "Nice — Cimiez", "d": "Purpose-built to hold Chagall's luminous Biblical Message cycle — seventeen large canvases glowing in a calm, light-filled space he helped design. A short, deeply moving visit that lands equally with art lovers and first-timers.", "lat": 43.700193, "lon": 7.267508, "p": "a"}, {"n": "MAMAC — Museum of Modern and Contemporary Art", "cat": "do", "tier": "", "a": "Nice — City Centre", "d": "A striking marble-clad building holding Nice's own School (Yves Klein, Arman, the Nouveaux Réalistes) plus Warhol and Lichtenstein, with a rooftop terrace looking over the city. The contemporary counterweight to the city's Belle Époque grandeur.", "lat": 43.700193, "lon": 7.267508, "p": "a"}, {"n": "Cimiez Quarter & Roman Ruins", "cat": "do", "tier": "", "a": "Nice — Cimiez", "d": "The genteel hill district of grand winter-palace hotels turned apartments, with Roman baths, an amphitheatre and a Franciscan monastery garden overlooking the coast. The refined, residential Nice the aristocracy chose — best explored slowly.", "lat": 43.700193, "lon": 7.267508, "p": "a"}, {"n": "Port Lympia (Old Port)", "cat": "do", "tier": "", "a": "Nice — Port", "d": "The photogenic old harbour framed by tall Italianate façades, where fishing boats sit beside superyachts and the seafood restaurants of the quai spill onto the water. The natural place to board a private charter or dine facing the masts at dusk.", "lat": 43.700193, "lon": 7.267508, "p": "a"}, {"n": "Place Masséna & Promenade du Paillon", "cat": "do", "tier": "", "a": "Nice — City Centre", "d": "The grand red-arcaded square with its checkerboard paving and mirror-fountain, opening onto a long green park of water jets and lawns that runs to the sea. A cooling, kid-friendly spine through the city on hot afternoons.", "lat": 43.700193, "lon": 7.267508, "p": "a"}, {"n": "Monaco & Monte-Carlo", "cat": "do", "tier": "", "a": "Principality of Monaco", "d": "The gilded sovereign city-state fifteen minutes along the coast — palace, harbour of superyachts, Belle Époque casino and grand hotels stacked on a rock over the sea. The Riviera's concentrated shot of glamour, best done by private driver for a day.", "lat": 43.75126, "lon": 7.44421, "p": "v"}, {"n": "Casino de Monte-Carlo", "cat": "do", "tier": "", "a": "Principality of Monaco", "d": "Charles Garnier's Belle Époque temple of gaming, all gilt, marble and painted ceilings, facing the manicured casino gardens. Even without a chip on the table, the salons and the Café de Paris terrace opposite are pure theatre — jacket and passport advised.", "lat": 43.75126, "lon": 7.44421, "p": "v"}, {"n": "Prince's Palace of Monaco", "cat": "do", "tier": "", "a": "Principality of Monaco", "d": "The Grimaldi family's residence high on the Rock, with lavish State Apartments open in season and the daily changing of the guard at 11:55 in the square outside. History and pageantry with one of the best harbour views in the principality.", "lat": 43.700193, "lon": 7.267508, "p": "a"}, {"n": "Oceanographic Museum of Monaco", "cat": "do", "tier": "", "a": "Principality of Monaco", "d": "A monumental institution founded by Prince Albert I, clinging to the cliff eighty-five metres above the sea, with grand aquaria, a shark lagoon and a rooftop terrace. Genuinely spellbinding for children and a serene stop for adults.", "lat": 43.700193, "lon": 7.267508, "p": "a"}, {"n": "The Monaco Grand Prix Circuit", "cat": "do", "tier": "", "a": "Principality of Monaco", "d": "The legendary street circuit runs through the everyday town — the Casino square, the Fairmont hairpin, the tunnel, the harbour chicane. Trace it on foot any day of the year, or watch it come alive over the late-May race weekend from a harbourside berth.", "lat": 43.700193, "lon": 7.267508, "p": "a"}, {"n": "Jardin Exotique d'Èze", "cat": "do", "tier": "", "a": "Èze — Perched Village", "d": "A cascade of cacti and succulents crowning the ruined castle at the very top of Èze, opening onto a dizzying panorama that on clear days reaches to Corsica. Small, sculptural and quietly the finest view in the village.", "lat": 43.728199, "lon": 7.361245, "p": "v"}, {"n": "Villefranche-sur-Mer", "cat": "do", "tier": "", "a": "Villefranche-sur-Mer", "d": "A jewel-box fishing port on one of the Mediterranean's deepest natural harbours, with a rose-and-ochre old town, a Cocteau-painted chapel and a sheltered beach. Ten minutes from Nice yet a world softer — a favourite anchorage for private yachts.", "lat": 43.704232, "lon": 7.309969, "p": "v"}, {"n": "Saint-Jean-Cap-Ferrat", "cat": "do", "tier": "", "a": "Cap Ferrat", "d": "The discreet green peninsula of billionaires' villas and pine-shaded coastal paths, with a low-key port and some of the most exclusive addresses on the coast. Precisely the kind of quiet, moneyed seclusion the Riviera's oldest fortunes prize.", "lat": 43.689965, "lon": 7.33274, "p": "v"}, {"n": "Villa Ephrussi de Rothschild", "cat": "do", "tier": "", "a": "Cap Ferrat", "d": "Baroness Béatrice de Rothschild's rose-pink palace on the crest of Cap Ferrat, ringed by nine themed gardens — French, Spanish, Florentine, Japanese — around a musical fountain. The Riviera's most exquisite house-and-garden day, and candlelit on summer evenings.", "lat": 43.696604, "lon": 7.3285, "p": "v"}, {"n": "Villa Kérylos", "cat": "do", "tier": "", "a": "Beaulieu-sur-Mer", "d": "A faithful recreation of an ancient Greek villa built on a rocky point over the sea by archaeologist Théodore Reinach, complete with mosaics, frescoes and Antiquity-inspired furniture. A serene, scholarly counterpoint to the coast's Belle Époque excess.", "lat": 43.703306, "lon": 7.333807, "p": "v"}, {"n": "Antibes Old Town & Marché Provençal", "cat": "do", "tier": "", "a": "Antibes", "d": "Ramparts against the sea, cobbled lanes and a superb covered Provençal market of cheeses, olives, flowers and produce. Antibes wears its history lightly and dines beautifully — an easy, atmospheric half-day with the family.", "lat": 43.593782, "lon": 7.119687, "p": "a"}, {"n": "Musée Picasso, Antibes", "cat": "do", "tier": "", "a": "Antibes", "d": "Set in the seafront Château Grimaldi where Picasso worked for a joyous few months in 1946, holding the paintings and ceramics he left behind. Compact, sunlit and looking straight onto the Mediterranean that fills the canvases.", "lat": 43.593782, "lon": 7.119687, "p": "a"}, {"n": "Cap d'Antibes & Sentier du Littoral", "cat": "do", "tier": "", "a": "Cap d'Antibes", "d": "The legendary green cape of grand villas and the fabled Eden-Roc, ringed by a coastal footpath past secret coves and the so-called Billionaires' Bay. Old-money glamour at its most photographed — walk the path, then a private lunch behind the pines.", "lat": 43.700193, "lon": 7.267508, "p": "a"}, {"n": "Port Vauban & the Superyacht Quay", "cat": "do", "tier": "", "a": "Antibes", "d": "One of the Mediterranean's largest marinas, its 'Quai des Milliardaires' berthing the world's most extraordinary superyachts beneath the old fort. A striking evening walk, and the practical launch point for a day at sea.", "lat": 43.593782, "lon": 7.119687, "p": "a"}, {"n": "Cannes — La Croisette", "cat": "do", "tier": "", "a": "Cannes", "d": "The palm-lined boulevard of palace hotels, designer flagships and private beach clubs where the film festival unfurls its red carpet each May. Glamour worn openly — dress the part and take an evening promenade past the Carlton and Martinez.", "lat": 43.700193, "lon": 7.267508, "p": "v"}, {"n": "Le Suquet — Old Cannes", "cat": "do", "tier": "", "a": "Cannes", "d": "The steep original village above the port, its stepped lanes climbing to a watchtower and a panorama over the bay. A far quieter, more soulful Cannes than the Croisette — best at golden hour before dinner on the Rue Saint-Antoine.", "lat": 43.700193, "lon": 7.267508, "p": "a"}, {"n": "Saint-Paul-de-Vence", "cat": "do", "tier": "", "a": "Saint-Paul-de-Vence", "d": "A ravishing fortified hill village of galleries and stone ramparts that drew Chagall, Signac and half of mid-century Paris; Chagall is buried in its cemetery. Wander the lanes, then lunch at the storied La Colombe d'Or among its Picassos and Mirós.", "lat": 43.697167, "lon": 7.121795, "p": "v"}, {"n": "Fondation Maeght", "cat": "do", "tier": "", "a": "Saint-Paul-de-Vence", "d": "One of Europe's great private art foundations, a modernist building set in pine woods with a Giacometti courtyard, a Miró labyrinth and Braque pools — freshly expanded for its 60th anniversary. A pilgrimage for anyone serious about 20th-century art.", "lat": 43.697167, "lon": 7.121795, "p": "a"}, {"n": "Grasse — Perfume Capital", "cat": "do", "tier": "", "a": "Grasse", "d": "The inland town that has scented the world for centuries, where the historic houses of Fragonard, Galimard and Molinard open their workshops. Compose your own bespoke fragrance in a private atelier — an intimate, memorable family afternoon.", "lat": 43.700193, "lon": 7.267508, "p": "a"}, {"n": "Menton", "cat": "do", "tier": "", "a": "Menton", "d": "The last town before Italy, a pastel amphitheatre of lemon groves and gardens basking in the Riviera's mildest microclimate, host to the famous February Lemon Festival. Softly Italianate and blissfully unhurried — a gentle day for all generations.", "lat": 43.700193, "lon": 7.267508, "p": "v"}, {"n": "Jardin Serre de la Madone & Menton's Gardens", "cat": "do", "tier": "", "a": "Menton", "d": "Menton's exceptional climate nurtures a constellation of botanical gardens — the terraced Serre de la Madone, the exotic Val Rahmeh, the Fontana Rosa. A tranquil, fragrant counterpoint for garden lovers away from the beach crowds.", "lat": 43.700193, "lon": 7.267508, "p": "a"}, {"n": "Gorges du Verdon", "cat": "do", "tier": "", "a": "Verdon — Inland Provence", "d": "Europe's grandest canyon, where turquoise water winds between limestone walls hundreds of metres deep, opening onto the emerald Lac de Sainte-Croix. A dramatic full-day inland expedition of clifftop drives, kayaking and the lavender plateaux beyond.", "lat": 43.700193, "lon": 7.267508, "p": "a"}, {"n": "Roquebrune-Cap-Martin", "cat": "do", "tier": "", "a": "Roquebrune-Cap-Martin", "d": "A medieval hill village crowned by one of France's oldest castle keeps, with a coastal cape below of villas, pines and Le Corbusier's tiny Cabanon. Quiet, storied and perched between Monaco and Menton — a graceful hour or two off the main track.", "lat": 43.756432, "lon": 7.443783, "p": "v"}, {"n": "Beaches & Private Beach Clubs of Nice", "cat": "do", "tier": "", "a": "Nice — Seafront", "d": "Along the Baie des Anges, a run of managed beach clubs offer loungers, umbrellas and service on the famous pebble shore, from Blue Beach to the hotel-run establishments. Reserve a front-row set — the discreet way to enjoy the sea in comfort.", "lat": 43.700193, "lon": 7.267508, "p": "a"}, {"n": "Plage de Paloma & Cap Ferrat Coves", "cat": "do", "tier": "", "a": "Cap Ferrat", "d": "The elegant crescent of Paloma Beach on the tip of Cap Ferrat, with its long-loved beach restaurant and clear, sheltered water. The insiders' choice for a refined, uncrowded swim reached by coastal path or private tender.", "lat": 43.701991, "lon": 7.328845, "p": "a"}, {"n": "Pampelonne-style Days at Juan-les-Pins", "cat": "do", "tier": "", "a": "Juan-les-Pins", "d": "The lively pine-fringed bay next to Cap d'Antibes, birthplace of Riviera beach glamour in the Jazz Age and still lined with sandy beach clubs and evening bars. A more animated, youthful counterpoint for the family's beach day.", "lat": 43.702033, "lon": 7.247926, "p": "a"}, {"n": "Private Yacht Charter along the Coast", "cat": "do", "tier": "", "a": "Nice / Antibes / Cannes", "d": "The truest way to experience the Côte d'Azur — cast off from Nice, Antibes or Cannes to anchor off Cap Ferrat, the Lérins islands and the coves of Cap d'Antibes for a swim and lunch aboard. Privacy, freedom and the coast seen from its best angle.", "lat": 43.700193, "lon": 7.267508, "p": "a"}, {"n": "Socca & Niçoise Table", "cat": "do", "tier": "", "a": "Nice — Old Town", "d": "Nice has its own cuisine — chickpea socca hot off the griddle, pan bagnat, ratatouille, tender-veg tians and pissaladière — much of it naturally vegetable-led. Graze the old town's institutions, or arrange a private Niçoise tasting for the family.", "lat": 43.700193, "lon": 7.267508, "p": "a"}, {"n": "Vence & the Chapelle du Rosaire (Matisse Chapel)", "cat": "do", "tier": "", "a": "Vence", "d": "A walled town near Saint-Paul whose true treasure is the little Rosary Chapel that Matisse designed and considered his masterpiece — pure white walls lit by cobalt-and-gold glass. A quiet, luminous stop for those who love him.", "lat": 43.700193, "lon": 7.267508, "p": "a"}, {"n": "Mougins — Hilltop Village of Gastronomy", "cat": "do", "tier": "", "a": "Mougins", "d": "A pristine spiral village above Cannes where Picasso spent his last years, now a haven of galleries and celebrated tables. A polished, art-and-food afternoon away from the coast, easily paired with Grasse.", "lat": 43.700193, "lon": 7.267508, "p": "a"}, {"n": "Musée Jean Cocteau, Menton", "cat": "do", "tier": "", "a": "Menton", "d": "Menton's tribute to the poet-artist Jean Cocteau, spanning the little seafront Bastion he decorated himself and the collection he left the town. A charming, human-scaled museum to close a slow day near the Italian border.", "lat": 43.774775, "lon": 7.50846, "p": "v"}, {"n": "Le Relais", "cat": "party", "tier": "Landmark bars", "a": "Nice", "d": "Le Negresco's walnut-panelled bar since 1913 — a century of Riviera legend from Delon to the Beatles, hushed by day, jazz-lit by night.", "lat": 43.700193, "lon": 7.267508, "p": "a"}, {"n": "Le Bar du Ciel, Anantara Plaza Nice", "cat": "party", "tier": "Rooftops", "a": "Nice", "d": "A rooftop bar over the old town and the sea — cocktails at golden hour above the centre of Nice.", "lat": 43.700193, "lon": 7.267508, "p": "a"}, {"n": "Le Bar Churchill, Hôtel du Cap-Eden-Roc", "cat": "party", "tier": "Cocktail bars", "a": "Antibes (Cap d'Antibes)", "d": "The clubby bar of the Riviera's most legendary hotel — a Negroni among the pines, where the coast's glamour has gathered for a century.", "lat": 43.593782, "lon": 7.119687, "p": "a"}, {"n": "Bar du Cap, Grand-Hôtel du Cap-Ferrat", "cat": "party", "tier": "Cocktail bars", "a": "Saint-Jean-Cap-Ferrat", "d": "An elegant, low-lit bar in a Four Seasons palace on the cape — quiet, grown-up and framed by seven hectares of garden.", "lat": 43.689965, "lon": 7.33274, "p": "a"}, {"n": "Movida / Vieux Nice bar quarter", "cat": "party", "tier": "Late & loud", "a": "Nice", "d": "The lanes around the Cours Saleya and Rue de la Préfecture — where Nice's own late night gathers, spilling from bar to bar.", "lat": 43.700193, "lon": 7.267508, "p": "a"}]}
+{
+  "center": [
+    43.700193,
+    7.267508
+  ],
+  "venues": [
+    {
+      "n": "H\u00f4tel du Cap-Eden-Roc",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Antibes (Cap d'Antibes)",
+      "d": "The legend of the Riviera since 1870 \u2014 a white palace on its own cape, with the sea-cut Eden-Roc pool the coast's most famous set piece.",
+      "lat": 43.593782,
+      "lon": 7.119687,
+      "photos": []
+    },
+    {
+      "n": "Grand-H\u00f4tel du Cap-Ferrat, A Four Seasons Hotel",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Saint-Jean-Cap-Ferrat",
+      "d": "A Belle \u00c9poque palace on seven hectares at the tip of the coast's most exclusive cape \u2014 private, forested and utterly serene.",
+      "lat": 43.689965,
+      "lon": 7.33274,
+      "photos": []
+    },
+    {
+      "n": "Ch\u00e2teau de la Ch\u00e8vre d'Or",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "\u00c8ze",
+      "d": "A medieval eyrie clinging to the cliff of \u00c8ze village, 400m above the sea \u2014 the Riviera's most romantic address, with two-starred dining in-house.",
+      "lat": 43.700193,
+      "lon": 7.267508,
+      "photos": []
+    },
+    {
+      "n": "La R\u00e9serve de Beaulieu & Spa",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Beaulieu-sur-Mer",
+      "d": "A rose-pink Italianate villa on its own harbour since 1880 \u2014 a hushed, aristocratic grande dame between Nice and Monaco.",
+      "lat": 43.70573,
+      "lon": 7.335323,
+      "photos": []
+    },
+    {
+      "n": "Le Negresco",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Nice",
+      "d": "Nice's own pink-domed palace on the Promenade des Anglais \u2014 a private, family-owned house of art and theatre, a national monument since 1974.",
+      "lat": 43.700193,
+      "lon": 7.267508,
+      "photos": []
+    },
+    {
+      "n": "Anantara Plaza Nice Hotel",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Nice",
+      "d": "An 1848 Belle \u00c9poque landmark off the Promenade, reborn by Anantara \u2014 Nice's most polished contemporary luxury, with a rooftop over the old town.",
+      "lat": 43.700193,
+      "lon": 7.267508,
+      "photos": []
+    },
+    {
+      "n": "H\u00f4tel Martinez, Cannes (Hyatt Unbound Collection)",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Cannes",
+      "d": "The Art Deco grande dame of the Croisette \u2014 the address of the Film Festival, with the largest private beach in Cannes and a starred kitchen.",
+      "lat": 43.700193,
+      "lon": 7.267508,
+      "photos": []
+    },
+    {
+      "n": "Cap Estel",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "\u00c8ze (\u00c8ze-Bord-de-Mer)",
+      "d": "A private peninsula of five acres between Nice and Monaco \u2014 a villa hotel wrapped by the sea on three sides, screened from the world.",
+      "lat": 43.756432,
+      "lon": 7.443783,
+      "photos": []
+    },
+    {
+      "n": "H\u00f4tel Barri\u00e8re Le Majestic Cannes",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Cannes",
+      "d": "A white 1926 palace at the head of the Croisette \u2014 grand, gracious and at the very centre of Cannes' glamour.",
+      "lat": 43.700193,
+      "lon": 7.267508,
+      "photos": []
+    },
+    {
+      "n": "Mirazur",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Menton",
+      "d": "Mauro Colagreco's cliff-garden temple above the Italian border \u2014 seed-to-plate cooking from twelve acres of biodynamic terraces, once the best restaurant on earth.",
+      "lat": 43.700193,
+      "lon": 7.267508,
+      "photos": []
+    },
+    {
+      "n": "La Ch\u00e8vre d'Or",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "\u00c8ze",
+      "d": "Two-starred cooking suspended on the cliff of \u00c8ze village, the whole coast falling away below \u2014 chef Tom Meyer, Meilleur Ouvrier de France.",
+      "lat": 43.700193,
+      "lon": 7.267508,
+      "photos": []
+    },
+    {
+      "n": "Flaveur",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Nice",
+      "d": "The Tourteaux brothers' two-star in central Nice \u2014 bold, spice-laced Mediterranean cooking, with Indian notes woven through local seafood.",
+      "lat": 43.700193,
+      "lon": 7.267508,
+      "photos": []
+    },
+    {
+      "n": "La Palme d'Or",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Cannes",
+      "d": "The Art Deco fine-dining room of the H\u00f4tel Martinez, relaunched under Jean Imbert \u2014 the star table of the Croisette.",
+      "lat": 43.700193,
+      "lon": 7.267508,
+      "photos": []
+    },
+    {
+      "n": "Le Restaurant des Rois",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Beaulieu-sur-Mer",
+      "d": "Julien Roucheteau's gastronomic room at La R\u00e9serve de Beaulieu \u2014 haute cuisine in a sumptuous seafront salon.",
+      "lat": 43.7088,
+      "lon": 7.33375,
+      "photos": []
+    },
+    {
+      "n": "Le Chantecler",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Nice",
+      "d": "The starred dining room of Le Negresco \u2014 Virginie Basselot, Meilleur Ouvrier de France, cooking Mediterranean haute gastronomie in a wood-panelled salon.",
+      "lat": 43.700193,
+      "lon": 7.267508,
+      "photos": []
+    },
+    {
+      "n": "Louroc",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Antibes (Cap d'Antibes)",
+      "d": "The starred restaurant of H\u00f4tel du Cap-Eden-Roc \u2014 sea-facing Mediterranean cooking at the Riviera's most legendary address.",
+      "lat": 43.700193,
+      "lon": 7.267508,
+      "photos": []
+    },
+    {
+      "n": "JAN",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Nice",
+      "d": "Jan Hendrik van der Westhuizen's intimate 20-seater near the port \u2014 French technique threaded with a South African soul.",
+      "lat": 43.700193,
+      "lon": 7.267508,
+      "photos": []
+    },
+    {
+      "n": "Pure & V",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Nice",
+      "d": "Chef Pinja Paakkonen's Nordic-inflected kitchen in central Nice, with one of the coast's most characterful natural-wine lists.",
+      "lat": 43.700193,
+      "lon": 7.267508,
+      "photos": []
+    },
+    {
+      "n": "Racines - Bruno Cirino",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Nice",
+      "d": "Bruno Cirino's 'kitchen-garden cuisine' \u2014 a single set menu of perfectly-ripe Mediterranean produce, largely vegetarian and farm-driven.",
+      "lat": 43.700193,
+      "lon": 7.267508,
+      "photos": []
+    },
+    {
+      "n": "L'Aromate",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Nice",
+      "d": "Micka\u00ebl Gracieux's refined, produce-driven cooking in the heart of Nice \u2014 a quietly serious one-star.",
+      "lat": 43.700193,
+      "lon": 7.267508,
+      "photos": []
+    },
+    {
+      "n": "Peixes",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Nice",
+      "d": "Fish and seafood served tapas-style in a blue-and-white tiled bistro near the opera \u2014 vibrant, Mediterranean-meets-South-American, and much loved.",
+      "lat": 43.700193,
+      "lon": 7.267508,
+      "photos": []
+    },
+    {
+      "n": "Le Bistrot de Jan",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Nice",
+      "d": "The relaxed sibling of starred JAN \u2014 the same South African-French spirit at an easier, everyday pitch.",
+      "lat": 43.699817,
+      "lon": 7.284891,
+      "photos": []
+    },
+    {
+      "n": "Maison Barale",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Nice",
+      "d": "A century-old Ni\u00e7ois family kitchen in Vieux Nice \u2014 the real ravioli, daube and socca of the old town.",
+      "lat": 43.700193,
+      "lon": 7.267508,
+      "photos": []
+    },
+    {
+      "n": "La Merenda",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Nice",
+      "d": "Dominique Le Stanc's tiny, cash-only Ni\u00e7oise counter \u2014 a former two-star chef cooking the humble classics of Nice by hand.",
+      "lat": 43.700193,
+      "lon": 7.267508,
+      "photos": []
+    },
+    {
+      "n": "Promenade des Anglais",
+      "cat": "do",
+      "tier": "",
+      "a": "Nice \u2014 Seafront",
+      "d": "The seven-kilometre Belle \u00c9poque seafront curving along the Baie des Anges, its blue chairs facing the water and the ochre N\u00e9gresco dome behind. An unhurried morning stroll here, ice-cream in hand, is the Riviera at its most effortless \u2014 perfect for three generations moving at their own pace.",
+      "lat": 43.685989,
+      "lon": 7.237476,
+      "photos": []
+    },
+    {
+      "n": "Vieux Nice (Old Town)",
+      "cat": "do",
+      "tier": "",
+      "a": "Nice \u2014 Old Town",
+      "d": "A warren of ochre-and-terracotta lanes, baroque churches and shaded piazzas where laundry strings hang above artisan gelato shops. This is the emotional heart of Nice \u2014 small enough to wander with children, layered enough to reward a return each evening for aperitivo.",
+      "lat": 43.700193,
+      "lon": 7.267508,
+      "photos": []
+    },
+    {
+      "n": "Cours Saleya Market",
+      "cat": "do",
+      "tier": "",
+      "a": "Nice \u2014 Old Town",
+      "d": "The famous flower-and-produce market \u2014 cut peonies, Menton lemons, tapenade, socca fresh off the copper pan \u2014 with a Monday antiques market in place of flowers. A vivid morning for the family, and a generous window into Ni\u00e7oise produce for veg-leaning palates.",
+      "lat": 43.700193,
+      "lon": 7.267508,
+      "photos": []
+    },
+    {
+      "n": "Colline du Ch\u00e2teau (Castle Hill)",
+      "cat": "do",
+      "tier": "",
+      "a": "Nice \u2014 Old Town",
+      "d": "The green headland between the old town and the port, crowned by a man-made waterfall and the definitive view down over the terracotta rooftops and the sweep of the Baie des Anges. Reachable by a discreet free lift for those who prefer not to climb.",
+      "lat": 43.700193,
+      "lon": 7.267508,
+      "photos": []
+    },
+    {
+      "n": "Mus\u00e9e Matisse",
+      "cat": "do",
+      "tier": "",
+      "a": "Nice \u2014 Cimiez",
+      "d": "A red-ochre Genoese villa set in an olive grove, holding one of the world's most complete Matisse collections \u2014 the artist lived and died in Nice and is buried nearby. Intimate, sunlit and rarely crowded, it pairs naturally with a picnic under the Cimiez olive trees.",
+      "lat": 43.700193,
+      "lon": 7.267508,
+      "photos": []
+    },
+    {
+      "n": "Mus\u00e9e National Marc Chagall",
+      "cat": "do",
+      "tier": "",
+      "a": "Nice \u2014 Cimiez",
+      "d": "Purpose-built to hold Chagall's luminous Biblical Message cycle \u2014 seventeen large canvases glowing in a calm, light-filled space he helped design. A short, deeply moving visit that lands equally with art lovers and first-timers.",
+      "lat": 43.700193,
+      "lon": 7.267508,
+      "photos": []
+    },
+    {
+      "n": "MAMAC \u2014 Museum of Modern and Contemporary Art",
+      "cat": "do",
+      "tier": "",
+      "a": "Nice \u2014 City Centre",
+      "d": "A striking marble-clad building holding Nice's own School (Yves Klein, Arman, the Nouveaux R\u00e9alistes) plus Warhol and Lichtenstein, with a rooftop terrace looking over the city. The contemporary counterweight to the city's Belle \u00c9poque grandeur.",
+      "lat": 43.700193,
+      "lon": 7.267508,
+      "photos": []
+    },
+    {
+      "n": "Cimiez Quarter & Roman Ruins",
+      "cat": "do",
+      "tier": "",
+      "a": "Nice \u2014 Cimiez",
+      "d": "The genteel hill district of grand winter-palace hotels turned apartments, with Roman baths, an amphitheatre and a Franciscan monastery garden overlooking the coast. The refined, residential Nice the aristocracy chose \u2014 best explored slowly.",
+      "lat": 43.700193,
+      "lon": 7.267508,
+      "photos": []
+    },
+    {
+      "n": "Port Lympia (Old Port)",
+      "cat": "do",
+      "tier": "",
+      "a": "Nice \u2014 Port",
+      "d": "The photogenic old harbour framed by tall Italianate fa\u00e7ades, where fishing boats sit beside superyachts and the seafood restaurants of the quai spill onto the water. The natural place to board a private charter or dine facing the masts at dusk.",
+      "lat": 43.700193,
+      "lon": 7.267508,
+      "photos": []
+    },
+    {
+      "n": "Place Mass\u00e9na & Promenade du Paillon",
+      "cat": "do",
+      "tier": "",
+      "a": "Nice \u2014 City Centre",
+      "d": "The grand red-arcaded square with its checkerboard paving and mirror-fountain, opening onto a long green park of water jets and lawns that runs to the sea. A cooling, kid-friendly spine through the city on hot afternoons.",
+      "lat": 43.700193,
+      "lon": 7.267508,
+      "photos": []
+    },
+    {
+      "n": "Monaco & Monte-Carlo",
+      "cat": "do",
+      "tier": "",
+      "a": "Principality of Monaco",
+      "d": "The gilded sovereign city-state fifteen minutes along the coast \u2014 palace, harbour of superyachts, Belle \u00c9poque casino and grand hotels stacked on a rock over the sea. The Riviera's concentrated shot of glamour, best done by private driver for a day.",
+      "lat": 43.75126,
+      "lon": 7.44421,
+      "photos": []
+    },
+    {
+      "n": "Casino de Monte-Carlo",
+      "cat": "do",
+      "tier": "",
+      "a": "Principality of Monaco",
+      "d": "Charles Garnier's Belle \u00c9poque temple of gaming, all gilt, marble and painted ceilings, facing the manicured casino gardens. Even without a chip on the table, the salons and the Caf\u00e9 de Paris terrace opposite are pure theatre \u2014 jacket and passport advised.",
+      "lat": 43.75126,
+      "lon": 7.44421,
+      "photos": []
+    },
+    {
+      "n": "Prince's Palace of Monaco",
+      "cat": "do",
+      "tier": "",
+      "a": "Principality of Monaco",
+      "d": "The Grimaldi family's residence high on the Rock, with lavish State Apartments open in season and the daily changing of the guard at 11:55 in the square outside. History and pageantry with one of the best harbour views in the principality.",
+      "lat": 43.700193,
+      "lon": 7.267508,
+      "photos": []
+    },
+    {
+      "n": "Oceanographic Museum of Monaco",
+      "cat": "do",
+      "tier": "",
+      "a": "Principality of Monaco",
+      "d": "A monumental institution founded by Prince Albert I, clinging to the cliff eighty-five metres above the sea, with grand aquaria, a shark lagoon and a rooftop terrace. Genuinely spellbinding for children and a serene stop for adults.",
+      "lat": 43.700193,
+      "lon": 7.267508,
+      "photos": []
+    },
+    {
+      "n": "The Monaco Grand Prix Circuit",
+      "cat": "do",
+      "tier": "",
+      "a": "Principality of Monaco",
+      "d": "The legendary street circuit runs through the everyday town \u2014 the Casino square, the Fairmont hairpin, the tunnel, the harbour chicane. Trace it on foot any day of the year, or watch it come alive over the late-May race weekend from a harbourside berth.",
+      "lat": 43.700193,
+      "lon": 7.267508,
+      "photos": []
+    },
+    {
+      "n": "Jardin Exotique d'\u00c8ze",
+      "cat": "do",
+      "tier": "",
+      "a": "\u00c8ze \u2014 Perched Village",
+      "d": "A cascade of cacti and succulents crowning the ruined castle at the very top of \u00c8ze, opening onto a dizzying panorama that on clear days reaches to Corsica. Small, sculptural and quietly the finest view in the village.",
+      "lat": 43.728199,
+      "lon": 7.361245,
+      "photos": []
+    },
+    {
+      "n": "Villefranche-sur-Mer",
+      "cat": "do",
+      "tier": "",
+      "a": "Villefranche-sur-Mer",
+      "d": "A jewel-box fishing port on one of the Mediterranean's deepest natural harbours, with a rose-and-ochre old town, a Cocteau-painted chapel and a sheltered beach. Ten minutes from Nice yet a world softer \u2014 a favourite anchorage for private yachts.",
+      "lat": 43.704232,
+      "lon": 7.309969,
+      "photos": []
+    },
+    {
+      "n": "Saint-Jean-Cap-Ferrat",
+      "cat": "do",
+      "tier": "",
+      "a": "Cap Ferrat",
+      "d": "The discreet green peninsula of billionaires' villas and pine-shaded coastal paths, with a low-key port and some of the most exclusive addresses on the coast. Precisely the kind of quiet, moneyed seclusion the Riviera's oldest fortunes prize.",
+      "lat": 43.689965,
+      "lon": 7.33274,
+      "photos": []
+    },
+    {
+      "n": "Villa Ephrussi de Rothschild",
+      "cat": "do",
+      "tier": "",
+      "a": "Cap Ferrat",
+      "d": "Baroness B\u00e9atrice de Rothschild's rose-pink palace on the crest of Cap Ferrat, ringed by nine themed gardens \u2014 French, Spanish, Florentine, Japanese \u2014 around a musical fountain. The Riviera's most exquisite house-and-garden day, and candlelit on summer evenings.",
+      "lat": 43.696604,
+      "lon": 7.3285,
+      "photos": []
+    },
+    {
+      "n": "Villa K\u00e9rylos",
+      "cat": "do",
+      "tier": "",
+      "a": "Beaulieu-sur-Mer",
+      "d": "A faithful recreation of an ancient Greek villa built on a rocky point over the sea by archaeologist Th\u00e9odore Reinach, complete with mosaics, frescoes and Antiquity-inspired furniture. A serene, scholarly counterpoint to the coast's Belle \u00c9poque excess.",
+      "lat": 43.703306,
+      "lon": 7.333807,
+      "photos": []
+    },
+    {
+      "n": "Antibes Old Town & March\u00e9 Proven\u00e7al",
+      "cat": "do",
+      "tier": "",
+      "a": "Antibes",
+      "d": "Ramparts against the sea, cobbled lanes and a superb covered Proven\u00e7al market of cheeses, olives, flowers and produce. Antibes wears its history lightly and dines beautifully \u2014 an easy, atmospheric half-day with the family.",
+      "lat": 43.593782,
+      "lon": 7.119687,
+      "photos": []
+    },
+    {
+      "n": "Mus\u00e9e Picasso, Antibes",
+      "cat": "do",
+      "tier": "",
+      "a": "Antibes",
+      "d": "Set in the seafront Ch\u00e2teau Grimaldi where Picasso worked for a joyous few months in 1946, holding the paintings and ceramics he left behind. Compact, sunlit and looking straight onto the Mediterranean that fills the canvases.",
+      "lat": 43.593782,
+      "lon": 7.119687,
+      "photos": []
+    },
+    {
+      "n": "Cap d'Antibes & Sentier du Littoral",
+      "cat": "do",
+      "tier": "",
+      "a": "Cap d'Antibes",
+      "d": "The legendary green cape of grand villas and the fabled Eden-Roc, ringed by a coastal footpath past secret coves and the so-called Billionaires' Bay. Old-money glamour at its most photographed \u2014 walk the path, then a private lunch behind the pines.",
+      "lat": 43.700193,
+      "lon": 7.267508,
+      "photos": []
+    },
+    {
+      "n": "Port Vauban & the Superyacht Quay",
+      "cat": "do",
+      "tier": "",
+      "a": "Antibes",
+      "d": "One of the Mediterranean's largest marinas, its 'Quai des Milliardaires' berthing the world's most extraordinary superyachts beneath the old fort. A striking evening walk, and the practical launch point for a day at sea.",
+      "lat": 43.593782,
+      "lon": 7.119687,
+      "photos": []
+    },
+    {
+      "n": "Cannes \u2014 La Croisette",
+      "cat": "do",
+      "tier": "",
+      "a": "Cannes",
+      "d": "The palm-lined boulevard of palace hotels, designer flagships and private beach clubs where the film festival unfurls its red carpet each May. Glamour worn openly \u2014 dress the part and take an evening promenade past the Carlton and Martinez.",
+      "lat": 43.700193,
+      "lon": 7.267508,
+      "photos": []
+    },
+    {
+      "n": "Le Suquet \u2014 Old Cannes",
+      "cat": "do",
+      "tier": "",
+      "a": "Cannes",
+      "d": "The steep original village above the port, its stepped lanes climbing to a watchtower and a panorama over the bay. A far quieter, more soulful Cannes than the Croisette \u2014 best at golden hour before dinner on the Rue Saint-Antoine.",
+      "lat": 43.700193,
+      "lon": 7.267508,
+      "photos": []
+    },
+    {
+      "n": "Saint-Paul-de-Vence",
+      "cat": "do",
+      "tier": "",
+      "a": "Saint-Paul-de-Vence",
+      "d": "A ravishing fortified hill village of galleries and stone ramparts that drew Chagall, Signac and half of mid-century Paris; Chagall is buried in its cemetery. Wander the lanes, then lunch at the storied La Colombe d'Or among its Picassos and Mir\u00f3s.",
+      "lat": 43.697167,
+      "lon": 7.121795,
+      "photos": []
+    },
+    {
+      "n": "Fondation Maeght",
+      "cat": "do",
+      "tier": "",
+      "a": "Saint-Paul-de-Vence",
+      "d": "One of Europe's great private art foundations, a modernist building set in pine woods with a Giacometti courtyard, a Mir\u00f3 labyrinth and Braque pools \u2014 freshly expanded for its 60th anniversary. A pilgrimage for anyone serious about 20th-century art.",
+      "lat": 43.697167,
+      "lon": 7.121795,
+      "photos": []
+    },
+    {
+      "n": "Grasse \u2014 Perfume Capital",
+      "cat": "do",
+      "tier": "",
+      "a": "Grasse",
+      "d": "The inland town that has scented the world for centuries, where the historic houses of Fragonard, Galimard and Molinard open their workshops. Compose your own bespoke fragrance in a private atelier \u2014 an intimate, memorable family afternoon.",
+      "lat": 43.700193,
+      "lon": 7.267508,
+      "photos": []
+    },
+    {
+      "n": "Menton",
+      "cat": "do",
+      "tier": "",
+      "a": "Menton",
+      "d": "The last town before Italy, a pastel amphitheatre of lemon groves and gardens basking in the Riviera's mildest microclimate, host to the famous February Lemon Festival. Softly Italianate and blissfully unhurried \u2014 a gentle day for all generations.",
+      "lat": 43.700193,
+      "lon": 7.267508,
+      "photos": []
+    },
+    {
+      "n": "Jardin Serre de la Madone & Menton's Gardens",
+      "cat": "do",
+      "tier": "",
+      "a": "Menton",
+      "d": "Menton's exceptional climate nurtures a constellation of botanical gardens \u2014 the terraced Serre de la Madone, the exotic Val Rahmeh, the Fontana Rosa. A tranquil, fragrant counterpoint for garden lovers away from the beach crowds.",
+      "lat": 43.700193,
+      "lon": 7.267508,
+      "photos": []
+    },
+    {
+      "n": "Gorges du Verdon",
+      "cat": "do",
+      "tier": "",
+      "a": "Verdon \u2014 Inland Provence",
+      "d": "Europe's grandest canyon, where turquoise water winds between limestone walls hundreds of metres deep, opening onto the emerald Lac de Sainte-Croix. A dramatic full-day inland expedition of clifftop drives, kayaking and the lavender plateaux beyond.",
+      "lat": 43.700193,
+      "lon": 7.267508,
+      "photos": []
+    },
+    {
+      "n": "Roquebrune-Cap-Martin",
+      "cat": "do",
+      "tier": "",
+      "a": "Roquebrune-Cap-Martin",
+      "d": "A medieval hill village crowned by one of France's oldest castle keeps, with a coastal cape below of villas, pines and Le Corbusier's tiny Cabanon. Quiet, storied and perched between Monaco and Menton \u2014 a graceful hour or two off the main track.",
+      "lat": 43.756432,
+      "lon": 7.443783,
+      "photos": []
+    },
+    {
+      "n": "Beaches & Private Beach Clubs of Nice",
+      "cat": "do",
+      "tier": "",
+      "a": "Nice \u2014 Seafront",
+      "d": "Along the Baie des Anges, a run of managed beach clubs offer loungers, umbrellas and service on the famous pebble shore, from Blue Beach to the hotel-run establishments. Reserve a front-row set \u2014 the discreet way to enjoy the sea in comfort.",
+      "lat": 43.700193,
+      "lon": 7.267508,
+      "photos": []
+    },
+    {
+      "n": "Plage de Paloma & Cap Ferrat Coves",
+      "cat": "do",
+      "tier": "",
+      "a": "Cap Ferrat",
+      "d": "The elegant crescent of Paloma Beach on the tip of Cap Ferrat, with its long-loved beach restaurant and clear, sheltered water. The insiders' choice for a refined, uncrowded swim reached by coastal path or private tender.",
+      "lat": 43.701991,
+      "lon": 7.328845,
+      "photos": []
+    },
+    {
+      "n": "Pampelonne-style Days at Juan-les-Pins",
+      "cat": "do",
+      "tier": "",
+      "a": "Juan-les-Pins",
+      "d": "The lively pine-fringed bay next to Cap d'Antibes, birthplace of Riviera beach glamour in the Jazz Age and still lined with sandy beach clubs and evening bars. A more animated, youthful counterpoint for the family's beach day.",
+      "lat": 43.702033,
+      "lon": 7.247926,
+      "photos": []
+    },
+    {
+      "n": "Private Yacht Charter along the Coast",
+      "cat": "do",
+      "tier": "",
+      "a": "Nice / Antibes / Cannes",
+      "d": "The truest way to experience the C\u00f4te d'Azur \u2014 cast off from Nice, Antibes or Cannes to anchor off Cap Ferrat, the L\u00e9rins islands and the coves of Cap d'Antibes for a swim and lunch aboard. Privacy, freedom and the coast seen from its best angle.",
+      "lat": 43.700193,
+      "lon": 7.267508,
+      "photos": []
+    },
+    {
+      "n": "Socca & Ni\u00e7oise Table",
+      "cat": "do",
+      "tier": "",
+      "a": "Nice \u2014 Old Town",
+      "d": "Nice has its own cuisine \u2014 chickpea socca hot off the griddle, pan bagnat, ratatouille, tender-veg tians and pissaladi\u00e8re \u2014 much of it naturally vegetable-led. Graze the old town's institutions, or arrange a private Ni\u00e7oise tasting for the family.",
+      "lat": 43.700193,
+      "lon": 7.267508,
+      "photos": []
+    },
+    {
+      "n": "Vence & the Chapelle du Rosaire (Matisse Chapel)",
+      "cat": "do",
+      "tier": "",
+      "a": "Vence",
+      "d": "A walled town near Saint-Paul whose true treasure is the little Rosary Chapel that Matisse designed and considered his masterpiece \u2014 pure white walls lit by cobalt-and-gold glass. A quiet, luminous stop for those who love him.",
+      "lat": 43.700193,
+      "lon": 7.267508,
+      "photos": []
+    },
+    {
+      "n": "Mougins \u2014 Hilltop Village of Gastronomy",
+      "cat": "do",
+      "tier": "",
+      "a": "Mougins",
+      "d": "A pristine spiral village above Cannes where Picasso spent his last years, now a haven of galleries and celebrated tables. A polished, art-and-food afternoon away from the coast, easily paired with Grasse.",
+      "lat": 43.700193,
+      "lon": 7.267508,
+      "photos": []
+    },
+    {
+      "n": "Mus\u00e9e Jean Cocteau, Menton",
+      "cat": "do",
+      "tier": "",
+      "a": "Menton",
+      "d": "Menton's tribute to the poet-artist Jean Cocteau, spanning the little seafront Bastion he decorated himself and the collection he left the town. A charming, human-scaled museum to close a slow day near the Italian border.",
+      "lat": 43.774775,
+      "lon": 7.50846,
+      "photos": []
+    },
+    {
+      "n": "Le Relais",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "Nice",
+      "d": "Le Negresco's walnut-panelled bar since 1913 \u2014 a century of Riviera legend from Delon to the Beatles, hushed by day, jazz-lit by night.",
+      "lat": 43.700193,
+      "lon": 7.267508,
+      "photos": []
+    },
+    {
+      "n": "Le Bar du Ciel, Anantara Plaza Nice",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "Nice",
+      "d": "A rooftop bar over the old town and the sea \u2014 cocktails at golden hour above the centre of Nice.",
+      "lat": 43.700193,
+      "lon": 7.267508,
+      "photos": []
+    },
+    {
+      "n": "Le Bar Churchill, H\u00f4tel du Cap-Eden-Roc",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Antibes (Cap d'Antibes)",
+      "d": "The clubby bar of the Riviera's most legendary hotel \u2014 a Negroni among the pines, where the coast's glamour has gathered for a century.",
+      "lat": 43.593782,
+      "lon": 7.119687,
+      "photos": []
+    },
+    {
+      "n": "Bar du Cap, Grand-H\u00f4tel du Cap-Ferrat",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Saint-Jean-Cap-Ferrat",
+      "d": "An elegant, low-lit bar in a Four Seasons palace on the cape \u2014 quiet, grown-up and framed by seven hectares of garden.",
+      "lat": 43.689965,
+      "lon": 7.33274,
+      "photos": []
+    },
+    {
+      "n": "Movida / Vieux Nice bar quarter",
+      "cat": "party",
+      "tier": "Late & loud",
+      "a": "Nice",
+      "d": "The lanes around the Cours Saleya and Rue de la Pr\u00e9fecture \u2014 where Nice's own late night gathers, spilling from bar to bar.",
+      "lat": 43.700193,
+      "lon": 7.267508,
+      "photos": []
+    }
+  ]
+}

@@ -1,1 +1,678 @@
-{"center": [12.976794, 77.590082], "venues": [{"n": "The Oberoi, Bengaluru", "cat": "stay", "tier": "Ultra", "a": "Central Business District (MG Road)", "d": "A serene Oberoi in the heart of the city — rooms opening onto rain-tree gardens and a pool, a green pause off MG Road.", "lat": 12.973344, "lon": 77.618259, "p": "v"}, {"n": "Taj West End, Bengaluru", "cat": "stay", "tier": "Ultra", "a": "Diplomatic / leafy Bengaluru (Race Course Road)", "d": "The city's oldest hotel, from 1887 — twenty acres of heritage gardens, colonial gables and centuries-old rain trees.", "lat": 12.98543, "lon": 77.584515, "p": "v"}, {"n": "The Leela Palace Bengaluru", "cat": "stay", "tier": "Ultra", "a": "Old Airport Road", "d": "A grand modern palace on the airport road — copper domes, a lotus lagoon and one of the city's most opulent lobbies.", "lat": 12.961475, "lon": 77.648657, "p": "v"}, {"n": "The Ritz-Carlton, Bangalore", "cat": "stay", "tier": "Grand", "a": "Central Business District (Residency Road)", "d": "India's first Ritz-Carlton — among the largest rooms in the city, a rooftop pool and a seven-strong dining-and-bar floor.", "lat": 12.967731, "lon": 77.60164, "p": "v"}, {"n": "ITC Windsor, a Luxury Collection Hotel", "cat": "stay", "tier": "Grand", "a": "Diplomatic / leafy Bengaluru (Sankey Road)", "d": "A colonial-Bengaluru grande dame — and the first hotel in the world to earn LEED Zero Carbon certification.", "lat": 12.988007, "lon": 77.587296, "p": "a"}, {"n": "ITC Gardenia, a Luxury Collection Hotel", "cat": "stay", "tier": "Grand", "a": "Central Business District (Residency Road, near Cubbon Park)", "d": "A vertical garden rising above Cubbon Park — Asia's first LEED Platinum hotel, and a benchmark for responsible luxury.", "lat": 12.967108, "lon": 77.59586, "p": "v"}, {"n": "Four Seasons Hotel Bengaluru at Embassy ONE", "cat": "stay", "tier": "Luxury", "a": "Bellary Road (north CBD)", "d": "Sleek, contemporary Four Seasons service in a twin-tower address — home to Copitas, one of the city's most awarded bars.", "lat": 13.112299, "lon": 77.609179, "p": "a"}, {"n": "Conrad Bengaluru", "cat": "stay", "tier": "Luxury", "a": "Central Business District (Kensington Road, near Ulsoor Lake)", "d": "A bright, contemporary Hilton-Conrad above Ulsoor Lake — generous rooms, a lively rooftop and easy city-centre access.", "lat": 12.97534, "lon": 77.620707, "p": "v"}, {"n": "JW Marriott Bengaluru Prestige Golfshire Resort & Spa", "cat": "stay", "tier": "Luxury", "a": "North Bengaluru (Devanahalli, near the airport)", "d": "A resort-scale JW beside a lake and golf course near the airport — space, spa and countryside calm outside the city.", "lat": 13.307372, "lon": 77.692338, "p": "v"}, {"n": "Shangri-La Bengaluru", "cat": "stay", "tier": "Luxury", "a": "Central Business District (Palace Road, near Cubbon Park)", "d": "One of the city's largest luxury hotels — big rooms, a serious pool and Shangri-La's assured pan-Asian service.", "lat": 12.972895, "lon": 77.607099, "p": "v"}, {"n": "Farmlore", "cat": "eat", "tier": "Destination", "a": "North Bengaluru (Kanyanahalli farm)", "d": "An eighteen-seat farm-to-table table on a working farm outside the city — India's most talked-about new fine-dining experience.", "lat": 13.12752, "lon": 77.639262, "p": "v"}, {"n": "Naru Noodle Bar", "cat": "eat", "tier": "Fine", "a": "Central Business District (Sadashivanagar)", "d": "A tiny, chef-led ramen counter that feels lifted from a Tokyo backstreet — and sells out in seconds.", "lat": 12.958405, "lon": 77.59289, "p": "v"}, {"n": "Wabi Sabi", "cat": "eat", "tier": "Fine", "a": "Central Business District (The Oberoi, MG Road)", "d": "The Oberoi's polished Japanese-Nikkei room — sushi, sashimi and Peru-inflected plates in a hushed, grown-up setting.", "lat": 13.00994, "lon": 77.551136, "p": "v"}, {"n": "NĀVU", "cat": "eat", "tier": "Fine", "a": "Central Business District (MG Road)", "d": "A chef-led tasting-menu restaurant whose name means 'us' in Kannada — Karnataka roots reimagined with pan-Asian ideas.", "lat": 12.973136, "lon": 77.614475, "p": "v"}, {"n": "Lupa", "cat": "eat", "tier": "Fine", "a": "Central Business District (Church Street / MG Road)", "d": "Manu Chandra's Tuscan-villa dining room — seasonal European cooking and one of the city's best-looking rooms.", "lat": 12.975598, "lon": 77.604579, "p": "v"}, {"n": "Bengaluru Oota Company", "cat": "eat", "tier": "Fine", "a": "Ulsoor", "d": "A tiny tasting-room celebrating Gowda and Mangalorean home cooking — 'Karnataka on a plate', by reservation only.", "lat": 12.972187, "lon": 77.594908, "p": "v"}, {"n": "Karavalli", "cat": "eat", "tier": "Fine", "a": "Central Business District (Vivanta Bengaluru, Residency Road)", "d": "Since 1990 — the definitive South-West-coast kitchen, called 'the most famous South Indian restaurant in the world'.", "lat": 12.972069, "lon": 77.60891, "p": "v"}, {"n": "Dakshin", "cat": "eat", "tier": "Fine", "a": "Diplomatic / leafy Bengaluru (ITC Windsor, Sankey Road)", "d": "Regal South Indian dining since the 1980s — the four southern states on one grand, silver-service menu.", "lat": 13.006967, "lon": 77.57891, "p": "v"}, {"n": "Copitas", "cat": "eat", "tier": "Fine", "a": "Bellary Road (Four Seasons, Embassy ONE)", "d": "The Four Seasons rooftop that eats as well as it drinks — small, precise plates alongside one of India's most awarded bars.", "lat": 13.01917, "lon": 77.58528, "p": "v"}, {"n": "Bar Spirit Forward", "cat": "eat", "tier": "Smart", "a": "Central Business District (Lavelle Road, Hotel Southern Star)", "d": "A bar-led kitchen where the food is built around the drinks — seasonal, pan-Indian small plates that keep pace with the glasses.", "lat": 12.974672, "lon": 77.599344, "p": "v"}, {"n": "Lalbagh Botanical Garden", "cat": "do", "tier": "", "a": "Mavalli / South Bengaluru", "d": "The garden Hyder Ali laid out and Tipu Sultan filled with plants from Persia, Kabul and France — 240 acres of lawns, a Mughal spine and the 1889 Glass House modelled on London's Crystal Palace, which still hosts the biannual flower show. Come at dawn, before the walkers thin out, for the birdsong and the cool.", "lat": 12.948849, "lon": 77.586888, "p": "v"}, {"n": "The Lalbagh Rock & Kempegowda Tower", "cat": "do", "tier": "", "a": "Lalbagh, Mavalli", "d": "A vast open dome of peninsular gneiss inside the garden, dated by the Geological Survey of India to some 3,000 million years — among the oldest exposed rock on earth. One of the four watchtowers Kempegowda raised to mark the city's old boundary sits on top; the climb takes five unhurried minutes and the view opens over the whole garden.", "lat": 12.955039, "lon": 77.585428, "p": "a"}, {"n": "Cubbon Park", "cat": "do", "tier": "", "a": "Central Business District", "d": "The green lung at the heart of the old city — nearly 300 acres of bamboo, rain trees and shaded avenues, laid out in 1870. Sunday mornings the roads close to cars and it belongs to walkers, cyclists and readers. A discreet, easy hour between heavier sights.", "lat": 12.974253, "lon": 77.592191, "p": "v"}, {"n": "State Central Library (Seshadri Iyer Memorial Hall)", "cat": "do", "tier": "", "a": "Cubbon Park", "d": "The unmistakable brick-red neoclassical hall standing in the green of Cubbon Park, built in 1915 to honour a Dewan of Mysore. Behind the columns sits Karnataka's central library, which holds a copy of nearly every book published in the state. The exterior and the rose gardens in front are the draw.", "lat": 12.974347, "lon": 77.590586, "p": "v"}, {"n": "Attara Kacheri (Karnataka High Court)", "cat": "do", "tier": "", "a": "Cubbon Park", "d": "A two-storey stone building of intense red, Corinthian columns and Gothic lines from 1864, facing the Vidhana Soudha across the road. It still houses the High Court, so the interior is off-limits, but the facade — one of Colonel Sankey's set of red landmarks around Cubbon Park — is worth the pause.", "lat": 12.977885, "lon": 77.592673, "p": "v"}, {"n": "Vidhana Soudha", "cat": "do", "tier": "", "a": "Ambedkar Veedhi, CBD", "d": "The seat of Karnataka's legislature and the city's grandest building — a monumental Neo-Dravidian pile in Bangalore granite, finished in 1956, its domes and pillars floodlit on Sunday and holiday evenings. The interior is not open to casual visitors; this is a photograph-from-the-lawns and after-dark sight.", "lat": 12.979745, "lon": 77.590617, "p": "v"}, {"n": "Bangalore Palace", "cat": "do", "tier": "", "a": "Vasanth Nagar", "d": "The Wadiyar family's Tudor-revival residence of turrets, battlements and carved-wood interiors, begun in 1878 and inspired by Windsor. Still privately owned by the royal family, it opens as a museum — the ballroom, the hunting trophies and Art-Deco arches make an unhurried couple of hours. A private guide earns their fee here.", "lat": 12.998595, "lon": 77.592009, "p": "v"}, {"n": "Tipu Sultan's Summer Palace", "cat": "do", "tier": "", "a": "Chamrajpet / Old City", "d": "A two-storey pavilion built entirely of teak, all carved pillars, cusped arches and floral fresco, finished in 1791 as Tipu's summer retreat inside the old fort. Small, quiet and unusually intact — the kind of place a good guide brings alive with the story of the man who called it 'the envy of heaven'.", "lat": 12.959832, "lon": 77.574596, "p": "v"}, {"n": "Bangalore Fort & Delhi Gate", "cat": "do", "tier": "", "a": "K.R. Market / Old City", "d": "What survives of the mud fort Kempegowda raised and Hyder Ali rebuilt in stone — the Delhi Gate, a stretch of rampart and a small Ganesha temple, where the British breach of 1791 is still marked. A short, atmospheric stop paired naturally with Tipu's palace next door.", "lat": 12.954148, "lon": 77.585683, "p": "v"}, {"n": "Dodda Basavana Gudi (Bull Temple)", "cat": "do", "tier": "", "a": "Basavanagudi", "d": "One of the largest Nandi shrines anywhere — a single granite bull some 15 feet tall, dark and butter-smoothed, carved under Kempegowda in the 16th century. The Kadalekai Parishe groundnut fair each Kartika month floods the lanes around it. A living, unpolished temple, not a monument behind ropes.", "lat": 12.942868, "lon": 77.568212, "p": "v"}, {"n": "Bugle Rock Park", "cat": "do", "tier": "", "a": "Basavanagudi", "d": "A sheer outcrop of ancient rock beside the Bull Temple, named for the bugle once sounded from its top to warn the town. One of Kempegowda's watchtowers still stands here, and the gardens below are a shaded, local kind of quiet. Easily walked together with the temple.", "lat": 12.942139, "lon": 77.569255, "p": "v"}, {"n": "Gavi Gangadhareshwara Temple", "cat": "do", "tier": "", "a": "Gavipuram, Basavanagudi", "d": "A rare rock-cut cave shrine to Shiva, attributed to Kempegowda in the 16th century, with monolithic stone discs and trishuls in its forecourt. Its marvel is engineering: on Makar Sankranti in mid-January the setting sun's rays pass between Nandi's horns to light the lingam for a few minutes — a feat of deliberate alignment.", "lat": 12.948206, "lon": 77.562992, "p": "v"}, {"n": "Halasuru Someshwara Temple", "cat": "do", "tier": "", "a": "Ulsoor", "d": "The oldest temple in the city — a Shiva shrine whose sanctum is traced to Chola work of around a thousand years ago, expanded under Vijayanagara with an ornate pillared hall and gateway tower. Little visited by tourists, richly carved, and a window onto Bengaluru long before the Garden City.", "lat": 12.975598, "lon": 77.623903, "p": "v"}, {"n": "ISKCON Sri Radha Krishna Temple", "cat": "do", "tier": "", "a": "Rajajinagar / Hare Krishna Hill", "d": "One of the largest ISKCON temples in the world, opened in 1997 on a seven-acre hillock — a soaring glass-and-gold complex with a cow shelter, prasadam halls and long evening aartis. Immaculate, calm and easy to fold into a morning; pure-vegetarian throughout, as Karnataka tends to be.", "lat": 13.00994, "lon": 77.551136, "p": "v"}, {"n": "St Mary's Basilica", "cat": "do", "tier": "", "a": "Shivajinagar", "d": "Among the city's oldest churches and the first in Karnataka raised to minor basilica — a graceful Gothic hall of pointed arches, Corinthian columns and stained glass, elevated by Pope Paul VI in 1973. Its September feast draws half a million; on an ordinary day it is cool and unhurried.", "lat": 12.984403, "lon": 77.604273, "p": "v"}, {"n": "HAL Aerospace Museum & Heritage Centre", "cat": "do", "tier": "", "a": "Old Airport Road / Marathahalli", "d": "India's first aerospace museum, opened in 2001 on the Hindustan Aeronautics campus — decades of aircraft and helicopters, engine cutaways, a mock control tower and a flight simulator. A genuine treat for a multi-generational visit, and a nod to the aviation industry that helped make this a tech city.", "lat": 12.955609, "lon": 77.681279, "p": "v"}, {"n": "Visvesvaraya Industrial & Technological Museum", "cat": "do", "tier": "", "a": "Kasturba Road, CBD", "d": "The hands-on science museum named for the engineer-statesman Sir M. Visvesvaraya, packed with working exhibits on engines, electronics, space and biotechnology. Beside Cubbon Park and built for curious children — the reliable answer to a rainy afternoon with the family.", "lat": 12.975203, "lon": 77.596427, "p": "v"}, {"n": "National Gallery of Modern Art (NGMA Bengaluru)", "cat": "do", "tier": "", "a": "Palace Road, Vasanth Nagar", "d": "The southern outpost of the national modern-art collection, set in the restored Manikyavelu Mansion with a garden of old trees. Works by Tagore, Amrita Sher-Gil, Raja Ravi Varma and the moderns hang in cool, well-lit rooms — a serene, uncrowded hour of Indian art.", "lat": 12.989519, "lon": 77.588104, "p": "v"}, {"n": "Government Museum", "cat": "do", "tier": "", "a": "Kasturba Road, CBD", "d": "One of the oldest museums in India, opened in 1876 in a red neoclassical building near Cubbon Park. Vijayanagara and Halebidu sculpture, ancient coins and stone inscriptions thousands of years old sit inside; the architecture matches the High Court and library nearby. Modest in scale, deep in age.", "lat": 12.974874, "lon": 77.595774, "p": "v"}, {"n": "Jawaharlal Nehru Planetarium", "cat": "do", "tier": "", "a": "Sankey Road, High Grounds", "d": "A well-run planetarium with a Sky Theatre, science park and centre, opened in 1989 and popular with families for its dome shows. An easy, air-conditioned interlude that pairs neatly with an evening near the palace or Cubbon Park.", "lat": 12.984548, "lon": 77.58986, "p": "v"}, {"n": "Ulsoor Lake (Halasuru Lake)", "cat": "do", "tier": "", "a": "Ulsoor", "d": "One of the city's oldest and largest lakes, its origins in Kempegowda's time, dotted with little islands and ringed by a walking path. Row, pedal or motor across it in the cool of the evening — an easy, central pause rather than a destination in itself.", "lat": 12.982389, "lon": 77.619167, "p": "v"}, {"n": "Commercial Street", "cat": "do", "tier": "", "a": "Shivajinagar / Tasker Town", "d": "One of the oldest and most crowded shopping streets in the city — clothes, footwear, gold and fabric spilling from small shops, threaded with old eateries. Loud, tactile and best walked with a driver waiting; the heart of Bengaluru's bargaining tradition.", "lat": 12.982216, "lon": 77.608251, "p": "v"}, {"n": "MG Road & Brigade Road", "cat": "do", "tier": "", "a": "Central Business District", "d": "The old spine of modern Bengaluru — the tree-shaded MG Road promenade and the bustle of Brigade Road, lined with bookshops, silk houses, brands and cafes. The city's cosmopolitan face, and the natural place to feel its unhurried, English-speaking ease.", "lat": 12.97502, "lon": 77.60793, "p": "v"}, {"n": "Church Street", "cat": "do", "tier": "", "a": "Off MG Road, CBD", "d": "A short, cobbled street that is the city's most walkable stretch of cafes, bookshops, bars and small restaurants. Long the haunt of Bengaluru's readers and diners — pedestrianised at weekends, and the easiest way to taste the pub-and-cafe culture on foot.", "lat": 12.975486, "lon": 77.602676, "p": "v"}, {"n": "Chickpet", "cat": "do", "tier": "", "a": "Old City / K.R. Market", "d": "A four-century-old wholesale bazaar, the traditional home of the silk and sari trade — narrow lanes stacked with textiles that dressmakers across the city still swear by. Chaotic and authentic; go with a guide who knows which shop for what.", "lat": 12.969122, "lon": 77.576836, "p": "v"}, {"n": "UB City", "cat": "do", "tier": "", "a": "Vittal Mallya Road, CBD", "d": "The city's luxury address — a tower complex of international boutiques, jewellers and fine-dining rooftops around a marble concourse. When you want the polished, air-conditioned end of Bengaluru retail rather than the street bazaars, this is it.", "lat": 12.971859, "lon": 77.59567, "p": "v"}, {"n": "Cauvery Emporium", "cat": "do", "tier": "", "a": "MG Road, CBD", "d": "The Karnataka government's flagship handicrafts emporium — fixed-price, government-authorised, and the safe place to buy sandalwood carving, Channapatna lacquer toys, rosewood and silk without haggling or doubt over quality. The sensible first stop for gifts to carry home.", "lat": 12.974843, "lon": 77.608086, "p": "v"}, {"n": "KSIC / Mysore Silk showroom", "cat": "do", "tier": "", "a": "Multiple (Gupta Market / city)", "d": "The Karnataka Silk Industries counters where you buy the genuine article — Mysore silk, woven from pure mulberry with real gold zari, carrying its own GI protection and hologram. Demand runs so high that fresh stock is released only on set days; a private advisor can smooth the visit.", "lat": 12.984993, "lon": 77.605847, "p": "a"}, {"n": "The microbrewery & dining scene", "cat": "do", "tier": "", "a": "Indiranagar / Koramangala / CBD", "d": "Bengaluru is India's craft-beer capital — brewpubs opened here before anywhere else in the country, and the city now runs on garden restaurants, rooftop bars and a genuinely serious food scene. Karnataka vegetarian cooking is a highlight in its own right; a good concierge can line up the tables that matter.", "lat": 12.958124, "lon": 77.641316, "p": "a"}, {"n": "Bannerghatta Biological Park", "cat": "do", "tier": "", "a": "Bannerghatta, South Bengaluru", "d": "A large zoo and safari park about an hour out — a jeep safari past free-ranging lions, tigers and bears, plus a butterfly park and rescue centre. A reliable half-day with children, and the closest brush with wildlife you can have inside the city's limits.", "lat": 12.532906, "lon": 77.546191, "p": "v"}, {"n": "Dodda Alada Mara (Big Banyan Tree)", "cat": "do", "tier": "", "a": "Kethohalli, ~28 km west", "d": "A single banyan roughly four centuries old that has spread its aerial roots across some three acres — one of the largest trees in India, so wide it reads as a small forest. A short, quiet drive out of the city and a genuinely arresting natural sight.", "lat": 12.90943, "lon": 77.395669, "p": "v"}, {"n": "Nrityagram", "cat": "do", "tier": "", "a": "Hessaraghatta, ~30 km NW", "d": "A dance village built in mud and stone, founded in 1990 to keep Odissi and other classical forms alive as a living gurukula. Visits are structured and best arranged in advance — a serene, cultured half-day quite unlike anything else near the city.", "lat": 13.1634, "lon": 77.459703, "p": "v"}, {"n": "Nandi Hills sunrise", "cat": "do", "tier": "", "a": "~60 km north", "d": "The classic pre-dawn drive out of Bengaluru — up to a 1,400-metre hilltop where a sea of cloud lies below the sunrise, with Tipu's fort, a Shiva temple and the sheer cliff of Tipu's Drop at the summit. Leave the city very early; the light before six is the whole point.", "lat": 13.348398, "lon": 77.68219, "p": "v"}, {"n": "Ramanagara (the Sholay rocks)", "cat": "do", "tier": "", "a": "~50 km SW, Bengaluru-Mysore road", "d": "The dramatic granite hills where the film Sholay was shot — now a draw for rock-climbers and, at Ramadevarabetta, a vulture sanctuary. An easy detour on the road to Mysore for anyone drawn to raw rock and cinema history.", "lat": 12.962942, "lon": 77.584634, "p": "a"}, {"n": "Brindavan Gardens", "cat": "do", "tier": "", "a": "KRS Dam, near Mysuru (~125 km)", "d": "The terraced pleasure gardens below the Krishnaraja Sagar dam — symmetrical parterres, fountains and a musical-fountain show at dusk. Timeless, a touch old-fashioned, and a fine evening close to a Mysore day if you stay the night nearby.", "lat": 12.949601, "lon": 77.566801, "p": "v"}, {"n": "Shivanasamudra Falls", "cat": "do", "tier": "", "a": "~130 km SE, on the Cauvery", "d": "The Cauvery splitting into the twin cascades of Gaganachukki and Barachukki, thundering in the monsoon and after — beside one of Asia's earliest hydroelectric stations, built in 1902. Loveliest from July to about October; a scenic day out southeast of the city.", "lat": 12.922123, "lon": 77.681612, "p": "v"}, {"n": "Devanahalli Fort", "cat": "do", "tier": "", "a": "~35 km north, near the airport", "d": "A well-preserved 16th-century oval fort with rounded bastions and old temples inside — and the birthplace of Tipu Sultan, marked within the walls. Quiet, uncommercial and barely ten minutes off the airport road, so it slots into an arrival or departure day.", "lat": 13.24835, "lon": 77.713438, "p": "v"}, {"n": "Taj West End (the grounds)", "cat": "do", "tier": "", "a": "Race Course Road", "d": "A colonial-era hotel set in twenty acres of heritage garden — rain trees, orchids and low tiled bungalows that go back to 1887. Even for a garden lunch or high tea rather than a stay, it is the gentlest way to feel the old Garden City the name once promised.", "lat": 12.98543, "lon": 77.584515, "p": "v"}, {"n": "Sankey Tank", "cat": "do", "tier": "", "a": "Malleswaram / Sadashivanagar", "d": "A calm colonial-era tank built by Colonel Sankey in 1882, ringed by a leafy walking path in one of the city's oldest, most gracious neighbourhoods. A short, restful stop in Malleswaram, best combined with a wander through the old market lanes nearby.", "lat": 13.009995, "lon": 77.573793, "p": "v"}, {"n": "Malleswaram & the 8th Cross market", "cat": "do", "tier": "", "a": "Malleswaram", "d": "One of Bengaluru's oldest quarters, still steeped in old-city character — the 8th Cross flower-and-produce market, filter-coffee rooms, silver and silk shops and Sampige Road's temples. A walk here, ideally with a guide, is the city's living, un-touristed heart.", "lat": 12.998244, "lon": 77.571425, "p": "v"}, {"n": "Vishveshwarapura (VV Puram) food street", "cat": "do", "tier": "", "a": "VV Puram, near Basavanagudi", "d": "An evening lane given over entirely to Karnataka street food — obbattu, dosas, holige, sweets and sugarcane juice served from open stalls. Pure-vegetarian, boisterous and genuinely local; the tastiest hour in the old south of the city, best on foot after dark.", "lat": 12.951344, "lon": 77.57742, "p": "v"}, {"n": "Soka", "cat": "party", "tier": "Cocktail bars", "a": "Indiranagar", "d": "An intimate, art-filled cocktail room where local flavours meet Art Deco — Bengaluru's highest-ranked bar in Asia.", "lat": 12.965044, "lon": 77.638382, "p": "v"}, {"n": "ZLB 23", "cat": "party", "tier": "Cocktail bars", "a": "Old Airport Road (The Leela Palace Bengaluru)", "d": "A hidden Prohibition-era speakeasy behind the Leela's chocolate room — velvet, chandeliers and jazz, climbing the Asia list yearly.", "lat": 12.961772, "lon": 77.648808, "p": "v"}, {"n": "Bar Spirit Forward", "cat": "party", "tier": "Cocktail bars", "a": "Central Business District (Lavelle Road, Hotel Southern Star)", "d": "A drinks-first bar built on seasonality — yams and local produce turned into both cocktails and small plates.", "lat": 12.974672, "lon": 77.599344, "p": "v"}, {"n": "Copitas", "cat": "party", "tier": "Rooftops", "a": "Bellary Road (Four Seasons, Embassy ONE)", "d": "The Four Seasons' rooftop bar — city-light views, minimalist craft cocktails and the calm precision of the house.", "lat": 13.01917, "lon": 77.58528, "p": "v"}, {"n": "The Permit Room", "cat": "party", "tier": "Landmark bars", "a": "Central Business District (Church Street)", "d": "A retro South-Indian bar-diner in cheerful lime and cane — filter-coffee cocktails and dosa-batter nostalgia, done with real polish.", "lat": 12.976414, "lon": 77.601206, "p": "v"}, {"n": "Toit Brewpub", "cat": "party", "tier": "Late & loud", "a": "Indiranagar", "d": "The brewpub that defined Bengaluru's craft-beer era — three floors, house lagers and the city's most reliably buzzing room.", "lat": 12.979411, "lon": 77.640628, "p": "v"}]}
+{
+  "center": [
+    12.976794,
+    77.590082
+  ],
+  "venues": [
+    {
+      "n": "The Oberoi, Bengaluru",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Central Business District (MG Road)",
+      "d": "A serene Oberoi in the heart of the city \u2014 rooms opening onto rain-tree gardens and a pool, a green pause off MG Road.",
+      "lat": 12.973344,
+      "lon": 77.618259,
+      "photos": []
+    },
+    {
+      "n": "Taj West End, Bengaluru",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Diplomatic / leafy Bengaluru (Race Course Road)",
+      "d": "The city's oldest hotel, from 1887 \u2014 twenty acres of heritage gardens, colonial gables and centuries-old rain trees.",
+      "lat": 12.98543,
+      "lon": 77.584515,
+      "photos": []
+    },
+    {
+      "n": "The Leela Palace Bengaluru",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Old Airport Road",
+      "d": "A grand modern palace on the airport road \u2014 copper domes, a lotus lagoon and one of the city's most opulent lobbies.",
+      "lat": 12.961475,
+      "lon": 77.648657,
+      "photos": []
+    },
+    {
+      "n": "The Ritz-Carlton, Bangalore",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Central Business District (Residency Road)",
+      "d": "India's first Ritz-Carlton \u2014 among the largest rooms in the city, a rooftop pool and a seven-strong dining-and-bar floor.",
+      "lat": 12.967731,
+      "lon": 77.60164,
+      "photos": []
+    },
+    {
+      "n": "ITC Windsor, a Luxury Collection Hotel",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Diplomatic / leafy Bengaluru (Sankey Road)",
+      "d": "A colonial-Bengaluru grande dame \u2014 and the first hotel in the world to earn LEED Zero Carbon certification.",
+      "lat": 12.988007,
+      "lon": 77.587296,
+      "photos": []
+    },
+    {
+      "n": "ITC Gardenia, a Luxury Collection Hotel",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Central Business District (Residency Road, near Cubbon Park)",
+      "d": "A vertical garden rising above Cubbon Park \u2014 Asia's first LEED Platinum hotel, and a benchmark for responsible luxury.",
+      "lat": 12.967108,
+      "lon": 77.59586,
+      "photos": []
+    },
+    {
+      "n": "Four Seasons Hotel Bengaluru at Embassy ONE",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Bellary Road (north CBD)",
+      "d": "Sleek, contemporary Four Seasons service in a twin-tower address \u2014 home to Copitas, one of the city's most awarded bars.",
+      "lat": 13.112299,
+      "lon": 77.609179,
+      "photos": []
+    },
+    {
+      "n": "Conrad Bengaluru",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Central Business District (Kensington Road, near Ulsoor Lake)",
+      "d": "A bright, contemporary Hilton-Conrad above Ulsoor Lake \u2014 generous rooms, a lively rooftop and easy city-centre access.",
+      "lat": 12.97534,
+      "lon": 77.620707,
+      "photos": []
+    },
+    {
+      "n": "JW Marriott Bengaluru Prestige Golfshire Resort & Spa",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "North Bengaluru (Devanahalli, near the airport)",
+      "d": "A resort-scale JW beside a lake and golf course near the airport \u2014 space, spa and countryside calm outside the city.",
+      "lat": 13.307372,
+      "lon": 77.692338,
+      "photos": []
+    },
+    {
+      "n": "Shangri-La Bengaluru",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Central Business District (Palace Road, near Cubbon Park)",
+      "d": "One of the city's largest luxury hotels \u2014 big rooms, a serious pool and Shangri-La's assured pan-Asian service.",
+      "lat": 12.972895,
+      "lon": 77.607099,
+      "photos": []
+    },
+    {
+      "n": "Farmlore",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "North Bengaluru (Kanyanahalli farm)",
+      "d": "An eighteen-seat farm-to-table table on a working farm outside the city \u2014 India's most talked-about new fine-dining experience.",
+      "lat": 13.12752,
+      "lon": 77.639262,
+      "photos": []
+    },
+    {
+      "n": "Naru Noodle Bar",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Central Business District (Sadashivanagar)",
+      "d": "A tiny, chef-led ramen counter that feels lifted from a Tokyo backstreet \u2014 and sells out in seconds.",
+      "lat": 12.958405,
+      "lon": 77.59289,
+      "photos": []
+    },
+    {
+      "n": "Wabi Sabi",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Central Business District (The Oberoi, MG Road)",
+      "d": "The Oberoi's polished Japanese-Nikkei room \u2014 sushi, sashimi and Peru-inflected plates in a hushed, grown-up setting.",
+      "lat": 13.00994,
+      "lon": 77.551136,
+      "photos": []
+    },
+    {
+      "n": "N\u0100VU",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Central Business District (MG Road)",
+      "d": "A chef-led tasting-menu restaurant whose name means 'us' in Kannada \u2014 Karnataka roots reimagined with pan-Asian ideas.",
+      "lat": 12.973136,
+      "lon": 77.614475,
+      "photos": []
+    },
+    {
+      "n": "Lupa",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Central Business District (Church Street / MG Road)",
+      "d": "Manu Chandra's Tuscan-villa dining room \u2014 seasonal European cooking and one of the city's best-looking rooms.",
+      "lat": 12.975598,
+      "lon": 77.604579,
+      "photos": []
+    },
+    {
+      "n": "Bengaluru Oota Company",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Ulsoor",
+      "d": "A tiny tasting-room celebrating Gowda and Mangalorean home cooking \u2014 'Karnataka on a plate', by reservation only.",
+      "lat": 12.972187,
+      "lon": 77.594908,
+      "photos": []
+    },
+    {
+      "n": "Karavalli",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Central Business District (Vivanta Bengaluru, Residency Road)",
+      "d": "Since 1990 \u2014 the definitive South-West-coast kitchen, called 'the most famous South Indian restaurant in the world'.",
+      "lat": 12.972069,
+      "lon": 77.60891,
+      "photos": []
+    },
+    {
+      "n": "Dakshin",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Diplomatic / leafy Bengaluru (ITC Windsor, Sankey Road)",
+      "d": "Regal South Indian dining since the 1980s \u2014 the four southern states on one grand, silver-service menu.",
+      "lat": 13.006967,
+      "lon": 77.57891,
+      "photos": []
+    },
+    {
+      "n": "Copitas",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Bellary Road (Four Seasons, Embassy ONE)",
+      "d": "The Four Seasons rooftop that eats as well as it drinks \u2014 small, precise plates alongside one of India's most awarded bars.",
+      "lat": 13.01917,
+      "lon": 77.58528,
+      "photos": []
+    },
+    {
+      "n": "Bar Spirit Forward",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Central Business District (Lavelle Road, Hotel Southern Star)",
+      "d": "A bar-led kitchen where the food is built around the drinks \u2014 seasonal, pan-Indian small plates that keep pace with the glasses.",
+      "lat": 12.974672,
+      "lon": 77.599344,
+      "photos": []
+    },
+    {
+      "n": "Lalbagh Botanical Garden",
+      "cat": "do",
+      "tier": "",
+      "a": "Mavalli / South Bengaluru",
+      "d": "The garden Hyder Ali laid out and Tipu Sultan filled with plants from Persia, Kabul and France \u2014 240 acres of lawns, a Mughal spine and the 1889 Glass House modelled on London's Crystal Palace, which still hosts the biannual flower show. Come at dawn, before the walkers thin out, for the birdsong and the cool.",
+      "lat": 12.948849,
+      "lon": 77.586888,
+      "photos": []
+    },
+    {
+      "n": "The Lalbagh Rock & Kempegowda Tower",
+      "cat": "do",
+      "tier": "",
+      "a": "Lalbagh, Mavalli",
+      "d": "A vast open dome of peninsular gneiss inside the garden, dated by the Geological Survey of India to some 3,000 million years \u2014 among the oldest exposed rock on earth. One of the four watchtowers Kempegowda raised to mark the city's old boundary sits on top; the climb takes five unhurried minutes and the view opens over the whole garden.",
+      "lat": 12.955039,
+      "lon": 77.585428,
+      "photos": []
+    },
+    {
+      "n": "Cubbon Park",
+      "cat": "do",
+      "tier": "",
+      "a": "Central Business District",
+      "d": "The green lung at the heart of the old city \u2014 nearly 300 acres of bamboo, rain trees and shaded avenues, laid out in 1870. Sunday mornings the roads close to cars and it belongs to walkers, cyclists and readers. A discreet, easy hour between heavier sights.",
+      "lat": 12.974253,
+      "lon": 77.592191,
+      "photos": []
+    },
+    {
+      "n": "State Central Library (Seshadri Iyer Memorial Hall)",
+      "cat": "do",
+      "tier": "",
+      "a": "Cubbon Park",
+      "d": "The unmistakable brick-red neoclassical hall standing in the green of Cubbon Park, built in 1915 to honour a Dewan of Mysore. Behind the columns sits Karnataka's central library, which holds a copy of nearly every book published in the state. The exterior and the rose gardens in front are the draw.",
+      "lat": 12.974347,
+      "lon": 77.590586,
+      "photos": []
+    },
+    {
+      "n": "Attara Kacheri (Karnataka High Court)",
+      "cat": "do",
+      "tier": "",
+      "a": "Cubbon Park",
+      "d": "A two-storey stone building of intense red, Corinthian columns and Gothic lines from 1864, facing the Vidhana Soudha across the road. It still houses the High Court, so the interior is off-limits, but the facade \u2014 one of Colonel Sankey's set of red landmarks around Cubbon Park \u2014 is worth the pause.",
+      "lat": 12.977885,
+      "lon": 77.592673,
+      "photos": []
+    },
+    {
+      "n": "Vidhana Soudha",
+      "cat": "do",
+      "tier": "",
+      "a": "Ambedkar Veedhi, CBD",
+      "d": "The seat of Karnataka's legislature and the city's grandest building \u2014 a monumental Neo-Dravidian pile in Bangalore granite, finished in 1956, its domes and pillars floodlit on Sunday and holiday evenings. The interior is not open to casual visitors; this is a photograph-from-the-lawns and after-dark sight.",
+      "lat": 12.979745,
+      "lon": 77.590617,
+      "photos": []
+    },
+    {
+      "n": "Bangalore Palace",
+      "cat": "do",
+      "tier": "",
+      "a": "Vasanth Nagar",
+      "d": "The Wadiyar family's Tudor-revival residence of turrets, battlements and carved-wood interiors, begun in 1878 and inspired by Windsor. Still privately owned by the royal family, it opens as a museum \u2014 the ballroom, the hunting trophies and Art-Deco arches make an unhurried couple of hours. A private guide earns their fee here.",
+      "lat": 12.998595,
+      "lon": 77.592009,
+      "photos": []
+    },
+    {
+      "n": "Tipu Sultan's Summer Palace",
+      "cat": "do",
+      "tier": "",
+      "a": "Chamrajpet / Old City",
+      "d": "A two-storey pavilion built entirely of teak, all carved pillars, cusped arches and floral fresco, finished in 1791 as Tipu's summer retreat inside the old fort. Small, quiet and unusually intact \u2014 the kind of place a good guide brings alive with the story of the man who called it 'the envy of heaven'.",
+      "lat": 12.959832,
+      "lon": 77.574596,
+      "photos": []
+    },
+    {
+      "n": "Bangalore Fort & Delhi Gate",
+      "cat": "do",
+      "tier": "",
+      "a": "K.R. Market / Old City",
+      "d": "What survives of the mud fort Kempegowda raised and Hyder Ali rebuilt in stone \u2014 the Delhi Gate, a stretch of rampart and a small Ganesha temple, where the British breach of 1791 is still marked. A short, atmospheric stop paired naturally with Tipu's palace next door.",
+      "lat": 12.954148,
+      "lon": 77.585683,
+      "photos": []
+    },
+    {
+      "n": "Dodda Basavana Gudi (Bull Temple)",
+      "cat": "do",
+      "tier": "",
+      "a": "Basavanagudi",
+      "d": "One of the largest Nandi shrines anywhere \u2014 a single granite bull some 15 feet tall, dark and butter-smoothed, carved under Kempegowda in the 16th century. The Kadalekai Parishe groundnut fair each Kartika month floods the lanes around it. A living, unpolished temple, not a monument behind ropes.",
+      "lat": 12.942868,
+      "lon": 77.568212,
+      "photos": []
+    },
+    {
+      "n": "Bugle Rock Park",
+      "cat": "do",
+      "tier": "",
+      "a": "Basavanagudi",
+      "d": "A sheer outcrop of ancient rock beside the Bull Temple, named for the bugle once sounded from its top to warn the town. One of Kempegowda's watchtowers still stands here, and the gardens below are a shaded, local kind of quiet. Easily walked together with the temple.",
+      "lat": 12.942139,
+      "lon": 77.569255,
+      "photos": []
+    },
+    {
+      "n": "Gavi Gangadhareshwara Temple",
+      "cat": "do",
+      "tier": "",
+      "a": "Gavipuram, Basavanagudi",
+      "d": "A rare rock-cut cave shrine to Shiva, attributed to Kempegowda in the 16th century, with monolithic stone discs and trishuls in its forecourt. Its marvel is engineering: on Makar Sankranti in mid-January the setting sun's rays pass between Nandi's horns to light the lingam for a few minutes \u2014 a feat of deliberate alignment.",
+      "lat": 12.948206,
+      "lon": 77.562992,
+      "photos": []
+    },
+    {
+      "n": "Halasuru Someshwara Temple",
+      "cat": "do",
+      "tier": "",
+      "a": "Ulsoor",
+      "d": "The oldest temple in the city \u2014 a Shiva shrine whose sanctum is traced to Chola work of around a thousand years ago, expanded under Vijayanagara with an ornate pillared hall and gateway tower. Little visited by tourists, richly carved, and a window onto Bengaluru long before the Garden City.",
+      "lat": 12.975598,
+      "lon": 77.623903,
+      "photos": []
+    },
+    {
+      "n": "ISKCON Sri Radha Krishna Temple",
+      "cat": "do",
+      "tier": "",
+      "a": "Rajajinagar / Hare Krishna Hill",
+      "d": "One of the largest ISKCON temples in the world, opened in 1997 on a seven-acre hillock \u2014 a soaring glass-and-gold complex with a cow shelter, prasadam halls and long evening aartis. Immaculate, calm and easy to fold into a morning; pure-vegetarian throughout, as Karnataka tends to be.",
+      "lat": 13.00994,
+      "lon": 77.551136,
+      "photos": []
+    },
+    {
+      "n": "St Mary's Basilica",
+      "cat": "do",
+      "tier": "",
+      "a": "Shivajinagar",
+      "d": "Among the city's oldest churches and the first in Karnataka raised to minor basilica \u2014 a graceful Gothic hall of pointed arches, Corinthian columns and stained glass, elevated by Pope Paul VI in 1973. Its September feast draws half a million; on an ordinary day it is cool and unhurried.",
+      "lat": 12.984403,
+      "lon": 77.604273,
+      "photos": []
+    },
+    {
+      "n": "HAL Aerospace Museum & Heritage Centre",
+      "cat": "do",
+      "tier": "",
+      "a": "Old Airport Road / Marathahalli",
+      "d": "India's first aerospace museum, opened in 2001 on the Hindustan Aeronautics campus \u2014 decades of aircraft and helicopters, engine cutaways, a mock control tower and a flight simulator. A genuine treat for a multi-generational visit, and a nod to the aviation industry that helped make this a tech city.",
+      "lat": 12.955609,
+      "lon": 77.681279,
+      "photos": []
+    },
+    {
+      "n": "Visvesvaraya Industrial & Technological Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Kasturba Road, CBD",
+      "d": "The hands-on science museum named for the engineer-statesman Sir M. Visvesvaraya, packed with working exhibits on engines, electronics, space and biotechnology. Beside Cubbon Park and built for curious children \u2014 the reliable answer to a rainy afternoon with the family.",
+      "lat": 12.975203,
+      "lon": 77.596427,
+      "photos": []
+    },
+    {
+      "n": "National Gallery of Modern Art (NGMA Bengaluru)",
+      "cat": "do",
+      "tier": "",
+      "a": "Palace Road, Vasanth Nagar",
+      "d": "The southern outpost of the national modern-art collection, set in the restored Manikyavelu Mansion with a garden of old trees. Works by Tagore, Amrita Sher-Gil, Raja Ravi Varma and the moderns hang in cool, well-lit rooms \u2014 a serene, uncrowded hour of Indian art.",
+      "lat": 12.989519,
+      "lon": 77.588104,
+      "photos": []
+    },
+    {
+      "n": "Government Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Kasturba Road, CBD",
+      "d": "One of the oldest museums in India, opened in 1876 in a red neoclassical building near Cubbon Park. Vijayanagara and Halebidu sculpture, ancient coins and stone inscriptions thousands of years old sit inside; the architecture matches the High Court and library nearby. Modest in scale, deep in age.",
+      "lat": 12.974874,
+      "lon": 77.595774,
+      "photos": []
+    },
+    {
+      "n": "Jawaharlal Nehru Planetarium",
+      "cat": "do",
+      "tier": "",
+      "a": "Sankey Road, High Grounds",
+      "d": "A well-run planetarium with a Sky Theatre, science park and centre, opened in 1989 and popular with families for its dome shows. An easy, air-conditioned interlude that pairs neatly with an evening near the palace or Cubbon Park.",
+      "lat": 12.984548,
+      "lon": 77.58986,
+      "photos": []
+    },
+    {
+      "n": "Ulsoor Lake (Halasuru Lake)",
+      "cat": "do",
+      "tier": "",
+      "a": "Ulsoor",
+      "d": "One of the city's oldest and largest lakes, its origins in Kempegowda's time, dotted with little islands and ringed by a walking path. Row, pedal or motor across it in the cool of the evening \u2014 an easy, central pause rather than a destination in itself.",
+      "lat": 12.982389,
+      "lon": 77.619167,
+      "photos": []
+    },
+    {
+      "n": "Commercial Street",
+      "cat": "do",
+      "tier": "",
+      "a": "Shivajinagar / Tasker Town",
+      "d": "One of the oldest and most crowded shopping streets in the city \u2014 clothes, footwear, gold and fabric spilling from small shops, threaded with old eateries. Loud, tactile and best walked with a driver waiting; the heart of Bengaluru's bargaining tradition.",
+      "lat": 12.982216,
+      "lon": 77.608251,
+      "photos": []
+    },
+    {
+      "n": "MG Road & Brigade Road",
+      "cat": "do",
+      "tier": "",
+      "a": "Central Business District",
+      "d": "The old spine of modern Bengaluru \u2014 the tree-shaded MG Road promenade and the bustle of Brigade Road, lined with bookshops, silk houses, brands and cafes. The city's cosmopolitan face, and the natural place to feel its unhurried, English-speaking ease.",
+      "lat": 12.97502,
+      "lon": 77.60793,
+      "photos": []
+    },
+    {
+      "n": "Church Street",
+      "cat": "do",
+      "tier": "",
+      "a": "Off MG Road, CBD",
+      "d": "A short, cobbled street that is the city's most walkable stretch of cafes, bookshops, bars and small restaurants. Long the haunt of Bengaluru's readers and diners \u2014 pedestrianised at weekends, and the easiest way to taste the pub-and-cafe culture on foot.",
+      "lat": 12.975486,
+      "lon": 77.602676,
+      "photos": []
+    },
+    {
+      "n": "Chickpet",
+      "cat": "do",
+      "tier": "",
+      "a": "Old City / K.R. Market",
+      "d": "A four-century-old wholesale bazaar, the traditional home of the silk and sari trade \u2014 narrow lanes stacked with textiles that dressmakers across the city still swear by. Chaotic and authentic; go with a guide who knows which shop for what.",
+      "lat": 12.969122,
+      "lon": 77.576836,
+      "photos": []
+    },
+    {
+      "n": "UB City",
+      "cat": "do",
+      "tier": "",
+      "a": "Vittal Mallya Road, CBD",
+      "d": "The city's luxury address \u2014 a tower complex of international boutiques, jewellers and fine-dining rooftops around a marble concourse. When you want the polished, air-conditioned end of Bengaluru retail rather than the street bazaars, this is it.",
+      "lat": 12.971859,
+      "lon": 77.59567,
+      "photos": []
+    },
+    {
+      "n": "Cauvery Emporium",
+      "cat": "do",
+      "tier": "",
+      "a": "MG Road, CBD",
+      "d": "The Karnataka government's flagship handicrafts emporium \u2014 fixed-price, government-authorised, and the safe place to buy sandalwood carving, Channapatna lacquer toys, rosewood and silk without haggling or doubt over quality. The sensible first stop for gifts to carry home.",
+      "lat": 12.974843,
+      "lon": 77.608086,
+      "photos": []
+    },
+    {
+      "n": "KSIC / Mysore Silk showroom",
+      "cat": "do",
+      "tier": "",
+      "a": "Multiple (Gupta Market / city)",
+      "d": "The Karnataka Silk Industries counters where you buy the genuine article \u2014 Mysore silk, woven from pure mulberry with real gold zari, carrying its own GI protection and hologram. Demand runs so high that fresh stock is released only on set days; a private advisor can smooth the visit.",
+      "lat": 12.984993,
+      "lon": 77.605847,
+      "photos": []
+    },
+    {
+      "n": "The microbrewery & dining scene",
+      "cat": "do",
+      "tier": "",
+      "a": "Indiranagar / Koramangala / CBD",
+      "d": "Bengaluru is India's craft-beer capital \u2014 brewpubs opened here before anywhere else in the country, and the city now runs on garden restaurants, rooftop bars and a genuinely serious food scene. Karnataka vegetarian cooking is a highlight in its own right; a good concierge can line up the tables that matter.",
+      "lat": 12.958124,
+      "lon": 77.641316,
+      "photos": []
+    },
+    {
+      "n": "Bannerghatta Biological Park",
+      "cat": "do",
+      "tier": "",
+      "a": "Bannerghatta, South Bengaluru",
+      "d": "A large zoo and safari park about an hour out \u2014 a jeep safari past free-ranging lions, tigers and bears, plus a butterfly park and rescue centre. A reliable half-day with children, and the closest brush with wildlife you can have inside the city's limits.",
+      "lat": 12.532906,
+      "lon": 77.546191,
+      "photos": []
+    },
+    {
+      "n": "Dodda Alada Mara (Big Banyan Tree)",
+      "cat": "do",
+      "tier": "",
+      "a": "Kethohalli, ~28 km west",
+      "d": "A single banyan roughly four centuries old that has spread its aerial roots across some three acres \u2014 one of the largest trees in India, so wide it reads as a small forest. A short, quiet drive out of the city and a genuinely arresting natural sight.",
+      "lat": 12.90943,
+      "lon": 77.395669,
+      "photos": []
+    },
+    {
+      "n": "Nrityagram",
+      "cat": "do",
+      "tier": "",
+      "a": "Hessaraghatta, ~30 km NW",
+      "d": "A dance village built in mud and stone, founded in 1990 to keep Odissi and other classical forms alive as a living gurukula. Visits are structured and best arranged in advance \u2014 a serene, cultured half-day quite unlike anything else near the city.",
+      "lat": 13.1634,
+      "lon": 77.459703,
+      "photos": []
+    },
+    {
+      "n": "Nandi Hills sunrise",
+      "cat": "do",
+      "tier": "",
+      "a": "~60 km north",
+      "d": "The classic pre-dawn drive out of Bengaluru \u2014 up to a 1,400-metre hilltop where a sea of cloud lies below the sunrise, with Tipu's fort, a Shiva temple and the sheer cliff of Tipu's Drop at the summit. Leave the city very early; the light before six is the whole point.",
+      "lat": 13.348398,
+      "lon": 77.68219,
+      "photos": []
+    },
+    {
+      "n": "Ramanagara (the Sholay rocks)",
+      "cat": "do",
+      "tier": "",
+      "a": "~50 km SW, Bengaluru-Mysore road",
+      "d": "The dramatic granite hills where the film Sholay was shot \u2014 now a draw for rock-climbers and, at Ramadevarabetta, a vulture sanctuary. An easy detour on the road to Mysore for anyone drawn to raw rock and cinema history.",
+      "lat": 12.962942,
+      "lon": 77.584634,
+      "photos": []
+    },
+    {
+      "n": "Brindavan Gardens",
+      "cat": "do",
+      "tier": "",
+      "a": "KRS Dam, near Mysuru (~125 km)",
+      "d": "The terraced pleasure gardens below the Krishnaraja Sagar dam \u2014 symmetrical parterres, fountains and a musical-fountain show at dusk. Timeless, a touch old-fashioned, and a fine evening close to a Mysore day if you stay the night nearby.",
+      "lat": 12.949601,
+      "lon": 77.566801,
+      "photos": []
+    },
+    {
+      "n": "Shivanasamudra Falls",
+      "cat": "do",
+      "tier": "",
+      "a": "~130 km SE, on the Cauvery",
+      "d": "The Cauvery splitting into the twin cascades of Gaganachukki and Barachukki, thundering in the monsoon and after \u2014 beside one of Asia's earliest hydroelectric stations, built in 1902. Loveliest from July to about October; a scenic day out southeast of the city.",
+      "lat": 12.922123,
+      "lon": 77.681612,
+      "photos": []
+    },
+    {
+      "n": "Devanahalli Fort",
+      "cat": "do",
+      "tier": "",
+      "a": "~35 km north, near the airport",
+      "d": "A well-preserved 16th-century oval fort with rounded bastions and old temples inside \u2014 and the birthplace of Tipu Sultan, marked within the walls. Quiet, uncommercial and barely ten minutes off the airport road, so it slots into an arrival or departure day.",
+      "lat": 13.24835,
+      "lon": 77.713438,
+      "photos": []
+    },
+    {
+      "n": "Taj West End (the grounds)",
+      "cat": "do",
+      "tier": "",
+      "a": "Race Course Road",
+      "d": "A colonial-era hotel set in twenty acres of heritage garden \u2014 rain trees, orchids and low tiled bungalows that go back to 1887. Even for a garden lunch or high tea rather than a stay, it is the gentlest way to feel the old Garden City the name once promised.",
+      "lat": 12.98543,
+      "lon": 77.584515,
+      "photos": []
+    },
+    {
+      "n": "Sankey Tank",
+      "cat": "do",
+      "tier": "",
+      "a": "Malleswaram / Sadashivanagar",
+      "d": "A calm colonial-era tank built by Colonel Sankey in 1882, ringed by a leafy walking path in one of the city's oldest, most gracious neighbourhoods. A short, restful stop in Malleswaram, best combined with a wander through the old market lanes nearby.",
+      "lat": 13.009995,
+      "lon": 77.573793,
+      "photos": []
+    },
+    {
+      "n": "Malleswaram & the 8th Cross market",
+      "cat": "do",
+      "tier": "",
+      "a": "Malleswaram",
+      "d": "One of Bengaluru's oldest quarters, still steeped in old-city character \u2014 the 8th Cross flower-and-produce market, filter-coffee rooms, silver and silk shops and Sampige Road's temples. A walk here, ideally with a guide, is the city's living, un-touristed heart.",
+      "lat": 12.998244,
+      "lon": 77.571425,
+      "photos": []
+    },
+    {
+      "n": "Vishveshwarapura (VV Puram) food street",
+      "cat": "do",
+      "tier": "",
+      "a": "VV Puram, near Basavanagudi",
+      "d": "An evening lane given over entirely to Karnataka street food \u2014 obbattu, dosas, holige, sweets and sugarcane juice served from open stalls. Pure-vegetarian, boisterous and genuinely local; the tastiest hour in the old south of the city, best on foot after dark.",
+      "lat": 12.951344,
+      "lon": 77.57742,
+      "photos": []
+    },
+    {
+      "n": "Soka",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Indiranagar",
+      "d": "An intimate, art-filled cocktail room where local flavours meet Art Deco \u2014 Bengaluru's highest-ranked bar in Asia.",
+      "lat": 12.965044,
+      "lon": 77.638382,
+      "photos": []
+    },
+    {
+      "n": "ZLB 23",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Old Airport Road (The Leela Palace Bengaluru)",
+      "d": "A hidden Prohibition-era speakeasy behind the Leela's chocolate room \u2014 velvet, chandeliers and jazz, climbing the Asia list yearly.",
+      "lat": 12.961772,
+      "lon": 77.648808,
+      "photos": []
+    },
+    {
+      "n": "Bar Spirit Forward",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Central Business District (Lavelle Road, Hotel Southern Star)",
+      "d": "A drinks-first bar built on seasonality \u2014 yams and local produce turned into both cocktails and small plates.",
+      "lat": 12.974672,
+      "lon": 77.599344,
+      "photos": []
+    },
+    {
+      "n": "Copitas",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "Bellary Road (Four Seasons, Embassy ONE)",
+      "d": "The Four Seasons' rooftop bar \u2014 city-light views, minimalist craft cocktails and the calm precision of the house.",
+      "lat": 13.01917,
+      "lon": 77.58528,
+      "photos": []
+    },
+    {
+      "n": "The Permit Room",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "Central Business District (Church Street)",
+      "d": "A retro South-Indian bar-diner in cheerful lime and cane \u2014 filter-coffee cocktails and dosa-batter nostalgia, done with real polish.",
+      "lat": 12.976414,
+      "lon": 77.601206,
+      "photos": []
+    },
+    {
+      "n": "Toit Brewpub",
+      "cat": "party",
+      "tier": "Late & loud",
+      "a": "Indiranagar",
+      "d": "The brewpub that defined Bengaluru's craft-beer era \u2014 three floors, house lagers and the city's most reliably buzzing room.",
+      "lat": 12.979411,
+      "lon": 77.640628,
+      "photos": []
+    }
+  ]
+}

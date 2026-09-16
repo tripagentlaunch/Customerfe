@@ -1,1 +1,548 @@
-{"center": [9.967903, 76.244438], "venues": [{"n": "Brunton Boatyard", "cat": "stay", "tier": "Luxury", "a": "Fort Kochi (harbourfront)", "d": "CGH Earth's heritage flagship on a 19th-century colonial boatyard — every one of its 26 rooms faces the harbour and the Chinese fishing nets.", "lat": 9.968587, "lon": 76.245582, "p": "v"}, {"n": "The Malabar House", "cat": "stay", "tier": "Luxury", "a": "Fort Kochi (Parade Road)", "d": "The first Indian hotel accepted into Relais & Châteaux — an 18th-century mansion turned art-filled boutique of just 17 rooms.", "lat": 9.964437, "lon": 76.239488, "p": "v"}, {"n": "Taj Malabar Resort & Spa, Cochin", "cat": "stay", "tier": "Luxury", "a": "Willingdon Island", "d": "Cochin's grand harbour hotel since 1935 — a 2024-renovated Taj wrapping Ernakulam's waterfront, with an infinity pool over the backwaters.", "lat": 9.968901, "lon": 76.258013, "p": "v"}, {"n": "Grand Hyatt Kochi Bolgatty", "cat": "stay", "tier": "Luxury", "a": "Bolgatty Island", "d": "The city's largest luxury resort — 264 rooms on 26 waterfront acres of Bolgatty Island, with villas that have private plunge pools.", "lat": 9.987124, "lon": 76.265033, "p": "v"}, {"n": "Old Harbour Hotel", "cat": "stay", "tier": "Luxury", "a": "Fort Kochi (Tower Road)", "d": "A 300-year-old Dutch-Portuguese mansion, Fort Kochi's first hotel — 13 characterful rooms around a garden and pool.", "lat": 9.967342, "lon": 76.242484, "p": "v"}, {"n": "Xandari Harbour", "cat": "stay", "tier": "Luxury", "a": "Fort Kochi / Mattancherry", "d": "Two century-old spice warehouses reborn as a 16-room boutique — an infinity pool and courtyard opening straight onto the water.", "lat": 9.960295, "lon": 76.267619, "p": "v"}, {"n": "Forte Kochi", "cat": "stay", "tier": "Premium", "a": "Fort Kochi (Princess Street)", "d": "A Portuguese-era mansion on Princess Street, restored by Paul John into a 27-room heritage boutique in the heart of the fort.", "lat": 9.966827, "lon": 76.242621, "p": "v"}, {"n": "The Malabar Junction", "cat": "eat", "tier": "Fine", "a": "Fort Kochi (The Malabar House)", "d": "Fort Kochi's Relais & Châteaux table — Keralan produce and Mediterranean technique, served to courtyard music.", "lat": 9.964485, "lon": 76.239419, "p": "v"}, {"n": "Rice Boat", "cat": "eat", "tier": "Fine", "a": "Willingdon Island (Taj Malabar)", "d": "The Taj's celebrated Kerala seafood room, shaped like a traditional rice barge over the harbour water.", "lat": 9.967723, "lon": 76.252596, "p": "v"}, {"n": "History", "cat": "eat", "tier": "Fine", "a": "Fort Kochi (Brunton Boatyard)", "d": "CGH Earth's storytelling kitchen — dishes drawn from the 32 communities who made Fort Kochi, from Syrian Christian to Jewish to Dutch.", "lat": 9.968382, "lon": 76.245428, "p": "v"}, {"n": "Kashi Art Café", "cat": "eat", "tier": "Smart", "a": "Fort Kochi (Burgher Street)", "d": "The café that launched Fort Kochi's art scene in 1997 — coffee, cake and a gallery, a Biennale patron since the start.", "lat": 9.966641, "lon": 76.243026, "p": "v"}, {"n": "Dal Roti", "cat": "eat", "tier": "Casual", "a": "Fort Kochi (Lily Street)", "d": "A beloved heritage-house institution for North Indian rolls and thalis — Lonely Planet's Fort Kochi favourite.", "lat": 10.035452, "lon": 76.314082, "p": "v"}, {"n": "Fort House Restaurant", "cat": "eat", "tier": "Smart", "a": "Fort Kochi (Calvathy Road)", "d": "An open-air deck on the harbour pier — charcoal-grilled seafood with big ships passing on their way to sea.", "lat": 9.956742, "lon": 76.260912, "p": "v"}, {"n": "Qissa Café", "cat": "eat", "tier": "Casual", "a": "Fort Kochi (Fort Nagar)", "d": "A quiet, art-hung café in the fort — good coffee, breakfast and sandwiches, named for the Persian word for 'story'.", "lat": 9.967364, "lon": 76.244523, "p": "v"}, {"n": "The Chinese Fishing Nets (Cheena Vala)", "cat": "do", "tier": "", "a": "Fort Kochi", "d": "The cantilevered shore-operated nets along the Fort Kochi waterfront are the city's signature image — teak-and-bamboo frames worked by teams of fishermen, thought to have arrived with traders from Kublai Khan's court centuries ago. Come at dusk when the light drops behind the harbour mouth and the silhouettes are at their most cinematic; the freshest catch is grilled to order at the stalls right beside them.", "lat": 9.967569, "lon": 76.24219, "p": "a"}, {"n": "St Francis Church", "cat": "do", "tier": "", "a": "Fort Kochi", "d": "The oldest European-built church in India, put up by Portuguese friars in the early 1500s, and the spot where Vasco da Gama was first buried before his remains were taken to Lisbon — his gravestone is still set in the floor. A cool, spare, whitewashed interior with old punkah cloth-fans overhead; a quiet ten minutes of deep history off Fort Kochi's main green.", "lat": 9.965947, "lon": 76.241066, "p": "v"}, {"n": "Santa Cruz Cathedral Basilica", "cat": "do", "tier": "", "a": "Fort Kochi", "d": "One of only a handful of basilicas in Kerala — twin white spires outside, and inside a ceiling of pastel frescoes and Gothic arches that feel more Iberian than Indian. It stands beside St Francis Church, so the two make a natural pairing on a slow morning walk through the old quarter.", "lat": 9.96481, "lon": 76.242767, "p": "v"}, {"n": "A Fort Kochi Heritage Walk", "cat": "do", "tier": "", "a": "Fort Kochi", "d": "The whole peninsula is really an open-air museum of Portuguese, Dutch and British layers — bungalows with wooden verandahs, godowns, cemeteries and coir-scented lanes. A guided morning walk (or an unhurried self-led wander from Vasco da Gama Square down the parade ground) is the best way to read the town; heritage stays like Malabar House and Brunton Boatyard sit right in the thick of it.", "lat": 9.963314, "lon": 76.243437, "p": "v"}, {"n": "Vasco da Gama Square & the parade ground", "cat": "do", "tier": "", "a": "Fort Kochi", "d": "The narrow seafront promenade beside the fishing nets, lined with fresh-catch stalls, tender-coconut carts and ice-cream sellers, opening onto the old colonial parade ground. It is where Fort Kochi comes out to watch the sunset — an easy, atmospheric stroll before dinner at one of the heritage-hotel terraces.", "lat": 9.967569, "lon": 76.24219, "p": "a"}, {"n": "Princess Street & Loafer's Corner", "cat": "do", "tier": "", "a": "Fort Kochi", "d": "One of the oldest streets in Fort Kochi, a run of bronze-plastered European houses now given over to curio shops, cafes and small galleries, meeting at Loafer's Corner where Princess, Peter Celli and Bastion Streets converge under a balconied heritage building. The most walkable, photogenic stretch for browsing and a slow coffee.", "lat": 9.9659, "lon": 76.242071, "p": "v"}, {"n": "Indo-Portuguese Museum", "cat": "do", "tier": "", "a": "Fort Kochi", "d": "Set in the grounds of the Bishop's House, this small, well-kept museum gathers altarpieces, vestments, carved wood and silver from Kerala's Latin Catholic churches — the clearest single account of the Portuguese imprint on the coast. Quiet, air-conditioned and rarely crowded, an easy hour between the churches.", "lat": 9.962314, "lon": 76.240272, "p": "v"}, {"n": "The Mattancherry (Dutch) Palace & its murals", "cat": "do", "tier": "", "a": "Mattancherry", "d": "Built for the Kochi rajas in the mid-1500s and reworked by the Dutch, its plain exterior hides some of the finest temple murals in India — dense, glowing panels of the Ramayana and Mahabharata covering the royal chambers. Photography is barred inside, which only sharpens the attention; the coronation hall and palanquins evoke the old spice-port court.", "lat": 9.958351, "lon": 76.259181, "p": "a"}, {"n": "The Paradesi Synagogue", "cat": "do", "tier": "", "a": "Mattancherry (Jew Town)", "d": "India's oldest active synagogue, from 1568, its floor laid with hand-painted blue-and-white Chinese tiles no two of which are alike, hung with Belgian glass lamps and fronted by a Dutch clock tower whose four faces carry Hebrew, Roman, Malayalam and Arabic numerals. A moving relic of Kochi's near-vanished Malabari and Paradesi Jewish community. Closed Fridays, Saturdays and Jewish holidays.", "lat": 9.957483, "lon": 76.259302, "p": "v"}, {"n": "Jew Town & the antiques quarter", "cat": "do", "tier": "", "a": "Mattancherry", "d": "The lanes leading to the synagogue are a treasure hunt of dealers — rosewood cabinets, brass and bronze, old maps, temple lamps, nautical instruments and colonial curios, alongside spice-scented cafes. Serious collectors ship home genuine restored pieces; browsers get one of the most characterful shopping walks in India.", "lat": 9.957429, "lon": 76.260207, "p": "v"}, {"n": "The Mattancherry spice markets", "cat": "do", "tier": "", "a": "Mattancherry", "d": "The godowns and open shopfronts behind Jew Town still trade Kerala's pepper, cardamom, cloves, ginger and turmeric — the very commerce that drew the Portuguese and Dutch here five centuries ago. The air is thick with it; buy graded whole spices at source, far better than anything back home.", "lat": 9.958351, "lon": 76.259181, "p": "a"}, {"n": "A Kathakali performance", "cat": "do", "tier": "", "a": "Fort Kochi", "d": "Kerala's dance-drama of green-and-crimson painted faces, elaborate costume and a whole language of eye and hand gestures. The best centres let you arrive early to watch the hour-long make-up ritual, then narrate the story before the show so it never feels opaque — a genuinely spellbinding evening, and children are often riveted.", "lat": 9.967569, "lon": 76.24219, "p": "a"}, {"n": "A Kalaripayattu demonstration", "cat": "do", "tier": "", "a": "Fort Kochi", "d": "Kerala's ancient martial art — thought to be among the oldest in the world — all low stances, high leaps, and combat with staff, sword and shield, performed in a sunken earthen arena. Fast, athletic and thrilling to watch up close; several Fort Kochi venues stage an evening show alongside Kathakali.", "lat": 9.967569, "lon": 76.24219, "p": "a"}, {"n": "The Kerala Folklore Museum", "cat": "do", "tier": "", "a": "Thevara / Ernakulam", "d": "A private labour of love built by an antique dealer, its three floors reconstructed in Malabar, Kochi and Travancore styles from salvaged old buildings, holding thousands of masks, sculptures, jewellery, ritual objects and terracotta. The top-floor theatre, under an 18th-century carved wooden ceiling, is one of the most beautiful rooms in the city.", "lat": 9.93302, "lon": 76.299169, "p": "v"}, {"n": "The Hill Palace Museum", "cat": "do", "tier": "", "a": "Tripunithura", "d": "The former seat of the Cochin royal family — a cluster of buildings across a wooded hilltop, now Kerala's largest archaeological museum, with the royal crowns, jewellery, palanquins, weapons, coins and a family tree of the maharajas. Deer park and gardens make it an easy, uncrowded half-day slightly out of town.", "lat": 9.951694, "lon": 76.360497, "p": "a"}, {"n": "Marine Drive promenade", "cat": "do", "tier": "", "a": "Ernakulam", "d": "The mainland's breezy waterfront walkway facing the harbour and the islands, with the Rainbow and Chinese-net-shaped footbridges, ferry jetties and evening food carts. The go-to spot for sunset on the Ernakulam side and to catch a public ferry across to Fort Kochi or Vypin — cheap, breezy and local.", "lat": 9.978478, "lon": 76.275773, "p": "v"}, {"n": "A Kochi harbour & backwater sunset cruise", "cat": "do", "tier": "", "a": "Kochi harbour", "d": "A late-afternoon boat out across the harbour mouth, past Willingdon and Bolgatty islands, the naval ships and the fishing-net line, timed for the sun going down over the Arabian Sea. Public ferries do it for a few rupees; a chartered or houseboat sundowner does it in privacy with a drink in hand.", "lat": 9.960295, "lon": 76.267619, "p": "a"}, {"n": "The Ernakulathappan (Ernakulam Shiva) Temple", "cat": "do", "tier": "", "a": "Ernakulam", "d": "The city temple that gives Ernakulam its name, on Durbar Hall Road near the waterfront, its Shiva idol held to be swayambhu (self-manifested). A working temple at the centre of town, especially alive during the eight-day Utsavam festival with its caparisoned elephants. (Traditional dress; non-Hindus should check entry etiquette.)", "lat": 9.968516, "lon": 76.282043, "p": "v"}, {"n": "David Hall gallery & cafe", "cat": "do", "tier": "", "a": "Fort Kochi", "d": "A restored 17th-century Dutch bungalow on the Parade Ground, run as a contemporary art gallery with a leafy garden cafe — one of the anchors of Kochi's living art scene and a recurring Biennale venue. A civilised place to pause over coffee between exhibitions.", "lat": 9.967569, "lon": 76.24219, "p": "a"}, {"n": "Kashi Art Cafe & Gallery", "cat": "do", "tier": "", "a": "Fort Kochi", "d": "The artsy heart of Fort Kochi since the 1990s — a Dutch-era house that is equal parts gallery and much-loved cafe, a hub for the town's painters, curators and the Biennale crowd. Come for the rotating shows and stay for the courtyard breakfast.", "lat": 9.966641, "lon": 76.243026, "p": "v"}, {"n": "The Kochi-Muziris Biennale (seasonal)", "cat": "do", "tier": "", "a": "Fort Kochi & Mattancherry", "d": "India's largest contemporary-art event, held every couple of years across the old spice warehouses of Fort Kochi, Mattancherry and Willingdon Island — Aspinwall House, Pepper House, Anand Warehouse and more. The sixth edition, 'For The Time Being', runs December 2025 to March 2026; if your dates align it transforms the whole town into a walkable exhibition.", "lat": 9.965554, "lon": 76.244129, "p": "a"}, {"n": "Aspinwall House", "cat": "do", "tier": "", "a": "Fort Kochi", "d": "A sprawling waterfront former trading-company estate — coir godowns, a bungalow and a jetty right on the harbour — and the flagship venue of the Biennale. Even between editions the scale and the sea-facing grounds are worth the walk; in season it holds the headline installations.", "lat": 9.968611, "lon": 76.246546, "p": "v"}, {"n": "Bolgatty Palace & island", "cat": "do", "tier": "", "a": "Bolgatty Island", "d": "A 1744 Dutch garden mansion on its own island in the harbour — reckoned among the oldest surviving Dutch palaces outside the Netherlands — now a KTDC heritage hotel with a small golf course, pool and lawns running to the water. A short ferry hop for a lunch or a drink with a straight view back to the city skyline.", "lat": 9.987124, "lon": 76.265033, "p": "v"}, {"n": "Willingdon Island", "cat": "do", "tier": "", "a": "Kochi harbour", "d": "A British-era man-made island built from harbour dredgings, named for a viceroy, and still home to the port, the Southern Naval Command and grand old dame hotels. More a texture of Kochi than a ticked sight — but the waterside setting and the Taj Malabar's harbour-facing terrace make a fine, quiet sundowner.", "lat": 9.948042, "lon": 76.275394, "p": "v"}, {"n": "Vypin Island", "cat": "do", "tier": "", "a": "Vypin", "d": "One of the string of islands that make up Kochi, reached by a two-minute ferry from Fort Kochi and worth it for the drive out to Cherai, the old Portuguese Pallipuram Fort and the sea-and-backwater strip. Rural, breezy and a world away from the town in minutes.", "lat": 10.08322, "lon": 76.21662, "p": "v"}, {"n": "Cherai Beach", "cat": "do", "tier": "", "a": "Vypin Island", "d": "A long, calm golden strand on the northern tip of Vypin where the Arabian Sea and the backwaters run almost side by side — palm-fringed, good for a swim, with dolphins sometimes offshore. About an hour from the centre; the least touristed easy beach day from Kochi and lovely at sundown.", "lat": 10.143753, "lon": 76.177601, "p": "v"}, {"n": "Pallipuram Fort", "cat": "do", "tier": "", "a": "Vypin Island", "d": "The oldest surviving European fort in India, a small hexagonal Portuguese watchtower from 1503 on the northern tip of Vypin. It is a modest, off-the-map stop, but for anyone tracing the coast's colonial history it is the literal starting point — and it pairs naturally with Cherai just down the road.", "lat": 10.170012, "lon": 76.180945, "p": "v"}, {"n": "Mangalavanam Bird Sanctuary", "cat": "do", "tier": "", "a": "Ernakulam", "d": "A pocket of protected mangrove wetland tucked improbably behind the High Court in the middle of the city — the 'green lung of Kochi', with a walking trail and a watchtower for egrets, herons, cormorants and migratory waders. A surprising, cool, ten-minute escape from downtown for anyone who likes birds.", "lat": 9.988558, "lon": 76.272761, "p": "v"}, {"n": "An Ayurveda treatment", "cat": "do", "tier": "", "a": "Fort Kochi / Kochi", "d": "Kerala is the home of Ayurveda, and Kochi is where most trips begin it — from a single restorative abhyanga oil massage or shirodhara at a Fort Kochi spa to a multi-day panchakarma programme at a dedicated centre. A natural, unforced way to slow the pace, especially at the start or end of a wider Kerala loop.", "lat": 10.141113, "lon": 76.572853, "p": "v"}, {"n": "A spice-garden & plantation experience", "cat": "do", "tier": "", "a": "Kochi / outskirts", "d": "Hands-on visits to working spice gardens and cooking sessions let you follow pepper, cardamom, cinnamon and vanilla from vine to kitchen, then cook a Kerala meal — the coastal vegetarian and seafood layers, from appam and stew to the Syrian-Christian and Mappila kitchens. A rich, tactile afternoon and easy to arrange for a family.", "lat": 9.967903, "lon": 76.244438, "p": "a"}, {"n": "Fort Kochi's colonial cemeteries & Dutch Cemetery", "cat": "do", "tier": "", "a": "Fort Kochi", "d": "The walled Dutch Cemetery near the beach — consecrated in 1724, among the oldest European cemeteries in India — with weathered tombs of the traders and soldiers who died far from home. A quiet, atmospheric ten minutes for anyone drawn to the human side of the town's layered history.", "lat": 9.967569, "lon": 76.24219, "p": "a"}, {"n": "The Muziris Heritage Trail", "cat": "do", "tier": "", "a": "North Paravur / Kodungallur (day trip)", "d": "A cluster of sites around the lost 2,000-year-old Roman-trade port of Muziris — the Pattanam excavations, the Paravur synagogue and Jew Street, Kottappuram and Pallipuram forts, old churches and mosques, several turned into small museums. For the historically curious it is the deep back-story of the whole Malabar spice coast, an easy self-driven day north of the city.", "lat": 10.146875, "lon": 76.225266, "p": "a"}, {"n": "Thrissur & the Vadakkunnathan Temple (day trip)", "cat": "do", "tier": "", "a": "Thrissur (day trip)", "d": "Kerala's cultural capital, about 75 km north, built around the ancient hilltop Vadakkunnathan Shiva temple — a superb example of Kerala's tiered wooden temple architecture — and home to the spectacular Thrissur Pooram elephant festival each spring. The temple interior is open to Hindus only, but the mound, the grounds and the town's museums reward the trip.", "lat": 10.246366, "lon": 76.370106, "p": "a"}, {"n": "Broadway Market", "cat": "do", "tier": "", "a": "Ernakulam", "d": "Ernakulam's dense old bazaar street — spices, textiles, gold, provisions and Kerala snacks sold cheek by jowl, the mainland counterpoint to Fort Kochi's polish. A vivid, unvarnished slice of everyday Kochi commerce and the best place to pick up graded spices and coir on the city side.", "lat": 9.93361, "lon": 76.261659, "p": "v"}, {"n": "A Kerala cooking & appam breakfast experience", "cat": "do", "tier": "", "a": "Fort Kochi", "d": "Kochi is the gateway to Kerala's food — lace-edged appam with vegetable stew, Syrian-Christian and Mappila dishes, Fort Kochi's fish grilled fresh from the nets, and one of India's most vegetarian-friendly coastlines besides. A home-kitchen class or a guided food walk turns a meal into the trip's most memorable afternoon.", "lat": 9.967569, "lon": 76.24219, "p": "a"}, {"n": "A country-boat village backwater trip", "cat": "do", "tier": "", "a": "Kochi outskirts", "d": "For the backwaters without the drive south, small dugout canoes thread the narrow canals and coir-making villages just outside the city — quieter and more intimate than a big houseboat, gliding under low palms past paddy and toddy shops. A gentle half-day, especially good with children or grandparents.", "lat": 9.967903, "lon": 76.244438, "p": "a"}, {"n": "Cochin Club & the Fort Kochi green", "cat": "do", "tier": "", "a": "Fort Kochi", "d": "The old British-era Cochin Club and the wide parade-ground green behind the seafront — cricket on the grass, rain trees, and the genteel bones of colonial club life still intact. Not a ticketed sight but the calmest corner of Fort Kochi for a stroll and a sense of how the town once lived.", "lat": 9.965659, "lon": 76.239677, "p": "v"}, {"n": "The bar at Brunton Boatyard", "cat": "party", "tier": "Landmark bars", "a": "Fort Kochi (harbourfront)", "d": "A composed harbour-side drink at CGH Earth's heritage flagship — the most atmospheric evening in Fort Kochi.", "lat": 10.064758, "lon": 76.21295, "p": "v"}, {"n": "Mattancherry Bar, Taj Malabar", "cat": "party", "tier": "Cocktail bars", "a": "Willingdon Island (Taj Malabar)", "d": "The city's most polished cocktail room — Taj standards and harbour views on Willingdon Island.", "lat": 9.968972, "lon": 76.258053, "p": "v"}, {"n": "Fort Kochi rooftop cafés", "cat": "party", "tier": "Rooftops", "a": "Fort Kochi", "d": "Not bars but the fort's real evening — coffee or a sundowner on a heritage rooftop as the light goes over the harbour and the nets.", "lat": 9.96725, "lon": 76.244477, "p": "v"}]}
+{
+  "center": [
+    9.967903,
+    76.244438
+  ],
+  "venues": [
+    {
+      "n": "Brunton Boatyard",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Fort Kochi (harbourfront)",
+      "d": "CGH Earth's heritage flagship on a 19th-century colonial boatyard \u2014 every one of its 26 rooms faces the harbour and the Chinese fishing nets.",
+      "lat": 9.968587,
+      "lon": 76.245582,
+      "photos": []
+    },
+    {
+      "n": "The Malabar House",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Fort Kochi (Parade Road)",
+      "d": "The first Indian hotel accepted into Relais & Ch\u00e2teaux \u2014 an 18th-century mansion turned art-filled boutique of just 17 rooms.",
+      "lat": 9.964437,
+      "lon": 76.239488,
+      "photos": []
+    },
+    {
+      "n": "Taj Malabar Resort & Spa, Cochin",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Willingdon Island",
+      "d": "Cochin's grand harbour hotel since 1935 \u2014 a 2024-renovated Taj wrapping Ernakulam's waterfront, with an infinity pool over the backwaters.",
+      "lat": 9.968901,
+      "lon": 76.258013,
+      "photos": []
+    },
+    {
+      "n": "Grand Hyatt Kochi Bolgatty",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Bolgatty Island",
+      "d": "The city's largest luxury resort \u2014 264 rooms on 26 waterfront acres of Bolgatty Island, with villas that have private plunge pools.",
+      "lat": 9.987124,
+      "lon": 76.265033,
+      "photos": []
+    },
+    {
+      "n": "Old Harbour Hotel",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Fort Kochi (Tower Road)",
+      "d": "A 300-year-old Dutch-Portuguese mansion, Fort Kochi's first hotel \u2014 13 characterful rooms around a garden and pool.",
+      "lat": 9.967342,
+      "lon": 76.242484,
+      "photos": []
+    },
+    {
+      "n": "Xandari Harbour",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Fort Kochi / Mattancherry",
+      "d": "Two century-old spice warehouses reborn as a 16-room boutique \u2014 an infinity pool and courtyard opening straight onto the water.",
+      "lat": 9.960295,
+      "lon": 76.267619,
+      "photos": []
+    },
+    {
+      "n": "Forte Kochi",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Fort Kochi (Princess Street)",
+      "d": "A Portuguese-era mansion on Princess Street, restored by Paul John into a 27-room heritage boutique in the heart of the fort.",
+      "lat": 9.966827,
+      "lon": 76.242621,
+      "photos": []
+    },
+    {
+      "n": "The Malabar Junction",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Fort Kochi (The Malabar House)",
+      "d": "Fort Kochi's Relais & Ch\u00e2teaux table \u2014 Keralan produce and Mediterranean technique, served to courtyard music.",
+      "lat": 9.964485,
+      "lon": 76.239419,
+      "photos": []
+    },
+    {
+      "n": "Rice Boat",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Willingdon Island (Taj Malabar)",
+      "d": "The Taj's celebrated Kerala seafood room, shaped like a traditional rice barge over the harbour water.",
+      "lat": 9.967723,
+      "lon": 76.252596,
+      "photos": []
+    },
+    {
+      "n": "History",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Fort Kochi (Brunton Boatyard)",
+      "d": "CGH Earth's storytelling kitchen \u2014 dishes drawn from the 32 communities who made Fort Kochi, from Syrian Christian to Jewish to Dutch.",
+      "lat": 9.968382,
+      "lon": 76.245428,
+      "photos": []
+    },
+    {
+      "n": "Kashi Art Caf\u00e9",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Fort Kochi (Burgher Street)",
+      "d": "The caf\u00e9 that launched Fort Kochi's art scene in 1997 \u2014 coffee, cake and a gallery, a Biennale patron since the start.",
+      "lat": 9.966641,
+      "lon": 76.243026,
+      "photos": []
+    },
+    {
+      "n": "Dal Roti",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Fort Kochi (Lily Street)",
+      "d": "A beloved heritage-house institution for North Indian rolls and thalis \u2014 Lonely Planet's Fort Kochi favourite.",
+      "lat": 10.035452,
+      "lon": 76.314082,
+      "photos": []
+    },
+    {
+      "n": "Fort House Restaurant",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Fort Kochi (Calvathy Road)",
+      "d": "An open-air deck on the harbour pier \u2014 charcoal-grilled seafood with big ships passing on their way to sea.",
+      "lat": 9.956742,
+      "lon": 76.260912,
+      "photos": []
+    },
+    {
+      "n": "Qissa Caf\u00e9",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Fort Kochi (Fort Nagar)",
+      "d": "A quiet, art-hung caf\u00e9 in the fort \u2014 good coffee, breakfast and sandwiches, named for the Persian word for 'story'.",
+      "lat": 9.967364,
+      "lon": 76.244523,
+      "photos": []
+    },
+    {
+      "n": "The Chinese Fishing Nets (Cheena Vala)",
+      "cat": "do",
+      "tier": "",
+      "a": "Fort Kochi",
+      "d": "The cantilevered shore-operated nets along the Fort Kochi waterfront are the city's signature image \u2014 teak-and-bamboo frames worked by teams of fishermen, thought to have arrived with traders from Kublai Khan's court centuries ago. Come at dusk when the light drops behind the harbour mouth and the silhouettes are at their most cinematic; the freshest catch is grilled to order at the stalls right beside them.",
+      "lat": 9.967569,
+      "lon": 76.24219,
+      "photos": []
+    },
+    {
+      "n": "St Francis Church",
+      "cat": "do",
+      "tier": "",
+      "a": "Fort Kochi",
+      "d": "The oldest European-built church in India, put up by Portuguese friars in the early 1500s, and the spot where Vasco da Gama was first buried before his remains were taken to Lisbon \u2014 his gravestone is still set in the floor. A cool, spare, whitewashed interior with old punkah cloth-fans overhead; a quiet ten minutes of deep history off Fort Kochi's main green.",
+      "lat": 9.965947,
+      "lon": 76.241066,
+      "photos": []
+    },
+    {
+      "n": "Santa Cruz Cathedral Basilica",
+      "cat": "do",
+      "tier": "",
+      "a": "Fort Kochi",
+      "d": "One of only a handful of basilicas in Kerala \u2014 twin white spires outside, and inside a ceiling of pastel frescoes and Gothic arches that feel more Iberian than Indian. It stands beside St Francis Church, so the two make a natural pairing on a slow morning walk through the old quarter.",
+      "lat": 9.96481,
+      "lon": 76.242767,
+      "photos": []
+    },
+    {
+      "n": "A Fort Kochi Heritage Walk",
+      "cat": "do",
+      "tier": "",
+      "a": "Fort Kochi",
+      "d": "The whole peninsula is really an open-air museum of Portuguese, Dutch and British layers \u2014 bungalows with wooden verandahs, godowns, cemeteries and coir-scented lanes. A guided morning walk (or an unhurried self-led wander from Vasco da Gama Square down the parade ground) is the best way to read the town; heritage stays like Malabar House and Brunton Boatyard sit right in the thick of it.",
+      "lat": 9.963314,
+      "lon": 76.243437,
+      "photos": []
+    },
+    {
+      "n": "Vasco da Gama Square & the parade ground",
+      "cat": "do",
+      "tier": "",
+      "a": "Fort Kochi",
+      "d": "The narrow seafront promenade beside the fishing nets, lined with fresh-catch stalls, tender-coconut carts and ice-cream sellers, opening onto the old colonial parade ground. It is where Fort Kochi comes out to watch the sunset \u2014 an easy, atmospheric stroll before dinner at one of the heritage-hotel terraces.",
+      "lat": 9.967569,
+      "lon": 76.24219,
+      "photos": []
+    },
+    {
+      "n": "Princess Street & Loafer's Corner",
+      "cat": "do",
+      "tier": "",
+      "a": "Fort Kochi",
+      "d": "One of the oldest streets in Fort Kochi, a run of bronze-plastered European houses now given over to curio shops, cafes and small galleries, meeting at Loafer's Corner where Princess, Peter Celli and Bastion Streets converge under a balconied heritage building. The most walkable, photogenic stretch for browsing and a slow coffee.",
+      "lat": 9.9659,
+      "lon": 76.242071,
+      "photos": []
+    },
+    {
+      "n": "Indo-Portuguese Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Fort Kochi",
+      "d": "Set in the grounds of the Bishop's House, this small, well-kept museum gathers altarpieces, vestments, carved wood and silver from Kerala's Latin Catholic churches \u2014 the clearest single account of the Portuguese imprint on the coast. Quiet, air-conditioned and rarely crowded, an easy hour between the churches.",
+      "lat": 9.962314,
+      "lon": 76.240272,
+      "photos": []
+    },
+    {
+      "n": "The Mattancherry (Dutch) Palace & its murals",
+      "cat": "do",
+      "tier": "",
+      "a": "Mattancherry",
+      "d": "Built for the Kochi rajas in the mid-1500s and reworked by the Dutch, its plain exterior hides some of the finest temple murals in India \u2014 dense, glowing panels of the Ramayana and Mahabharata covering the royal chambers. Photography is barred inside, which only sharpens the attention; the coronation hall and palanquins evoke the old spice-port court.",
+      "lat": 9.958351,
+      "lon": 76.259181,
+      "photos": []
+    },
+    {
+      "n": "The Paradesi Synagogue",
+      "cat": "do",
+      "tier": "",
+      "a": "Mattancherry (Jew Town)",
+      "d": "India's oldest active synagogue, from 1568, its floor laid with hand-painted blue-and-white Chinese tiles no two of which are alike, hung with Belgian glass lamps and fronted by a Dutch clock tower whose four faces carry Hebrew, Roman, Malayalam and Arabic numerals. A moving relic of Kochi's near-vanished Malabari and Paradesi Jewish community. Closed Fridays, Saturdays and Jewish holidays.",
+      "lat": 9.957483,
+      "lon": 76.259302,
+      "photos": []
+    },
+    {
+      "n": "Jew Town & the antiques quarter",
+      "cat": "do",
+      "tier": "",
+      "a": "Mattancherry",
+      "d": "The lanes leading to the synagogue are a treasure hunt of dealers \u2014 rosewood cabinets, brass and bronze, old maps, temple lamps, nautical instruments and colonial curios, alongside spice-scented cafes. Serious collectors ship home genuine restored pieces; browsers get one of the most characterful shopping walks in India.",
+      "lat": 9.957429,
+      "lon": 76.260207,
+      "photos": []
+    },
+    {
+      "n": "The Mattancherry spice markets",
+      "cat": "do",
+      "tier": "",
+      "a": "Mattancherry",
+      "d": "The godowns and open shopfronts behind Jew Town still trade Kerala's pepper, cardamom, cloves, ginger and turmeric \u2014 the very commerce that drew the Portuguese and Dutch here five centuries ago. The air is thick with it; buy graded whole spices at source, far better than anything back home.",
+      "lat": 9.958351,
+      "lon": 76.259181,
+      "photos": []
+    },
+    {
+      "n": "A Kathakali performance",
+      "cat": "do",
+      "tier": "",
+      "a": "Fort Kochi",
+      "d": "Kerala's dance-drama of green-and-crimson painted faces, elaborate costume and a whole language of eye and hand gestures. The best centres let you arrive early to watch the hour-long make-up ritual, then narrate the story before the show so it never feels opaque \u2014 a genuinely spellbinding evening, and children are often riveted.",
+      "lat": 9.967569,
+      "lon": 76.24219,
+      "photos": []
+    },
+    {
+      "n": "A Kalaripayattu demonstration",
+      "cat": "do",
+      "tier": "",
+      "a": "Fort Kochi",
+      "d": "Kerala's ancient martial art \u2014 thought to be among the oldest in the world \u2014 all low stances, high leaps, and combat with staff, sword and shield, performed in a sunken earthen arena. Fast, athletic and thrilling to watch up close; several Fort Kochi venues stage an evening show alongside Kathakali.",
+      "lat": 9.967569,
+      "lon": 76.24219,
+      "photos": []
+    },
+    {
+      "n": "The Kerala Folklore Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Thevara / Ernakulam",
+      "d": "A private labour of love built by an antique dealer, its three floors reconstructed in Malabar, Kochi and Travancore styles from salvaged old buildings, holding thousands of masks, sculptures, jewellery, ritual objects and terracotta. The top-floor theatre, under an 18th-century carved wooden ceiling, is one of the most beautiful rooms in the city.",
+      "lat": 9.93302,
+      "lon": 76.299169,
+      "photos": []
+    },
+    {
+      "n": "The Hill Palace Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Tripunithura",
+      "d": "The former seat of the Cochin royal family \u2014 a cluster of buildings across a wooded hilltop, now Kerala's largest archaeological museum, with the royal crowns, jewellery, palanquins, weapons, coins and a family tree of the maharajas. Deer park and gardens make it an easy, uncrowded half-day slightly out of town.",
+      "lat": 9.951694,
+      "lon": 76.360497,
+      "photos": []
+    },
+    {
+      "n": "Marine Drive promenade",
+      "cat": "do",
+      "tier": "",
+      "a": "Ernakulam",
+      "d": "The mainland's breezy waterfront walkway facing the harbour and the islands, with the Rainbow and Chinese-net-shaped footbridges, ferry jetties and evening food carts. The go-to spot for sunset on the Ernakulam side and to catch a public ferry across to Fort Kochi or Vypin \u2014 cheap, breezy and local.",
+      "lat": 9.978478,
+      "lon": 76.275773,
+      "photos": []
+    },
+    {
+      "n": "A Kochi harbour & backwater sunset cruise",
+      "cat": "do",
+      "tier": "",
+      "a": "Kochi harbour",
+      "d": "A late-afternoon boat out across the harbour mouth, past Willingdon and Bolgatty islands, the naval ships and the fishing-net line, timed for the sun going down over the Arabian Sea. Public ferries do it for a few rupees; a chartered or houseboat sundowner does it in privacy with a drink in hand.",
+      "lat": 9.960295,
+      "lon": 76.267619,
+      "photos": []
+    },
+    {
+      "n": "The Ernakulathappan (Ernakulam Shiva) Temple",
+      "cat": "do",
+      "tier": "",
+      "a": "Ernakulam",
+      "d": "The city temple that gives Ernakulam its name, on Durbar Hall Road near the waterfront, its Shiva idol held to be swayambhu (self-manifested). A working temple at the centre of town, especially alive during the eight-day Utsavam festival with its caparisoned elephants. (Traditional dress; non-Hindus should check entry etiquette.)",
+      "lat": 9.968516,
+      "lon": 76.282043,
+      "photos": []
+    },
+    {
+      "n": "David Hall gallery & cafe",
+      "cat": "do",
+      "tier": "",
+      "a": "Fort Kochi",
+      "d": "A restored 17th-century Dutch bungalow on the Parade Ground, run as a contemporary art gallery with a leafy garden cafe \u2014 one of the anchors of Kochi's living art scene and a recurring Biennale venue. A civilised place to pause over coffee between exhibitions.",
+      "lat": 9.967569,
+      "lon": 76.24219,
+      "photos": []
+    },
+    {
+      "n": "Kashi Art Cafe & Gallery",
+      "cat": "do",
+      "tier": "",
+      "a": "Fort Kochi",
+      "d": "The artsy heart of Fort Kochi since the 1990s \u2014 a Dutch-era house that is equal parts gallery and much-loved cafe, a hub for the town's painters, curators and the Biennale crowd. Come for the rotating shows and stay for the courtyard breakfast.",
+      "lat": 9.966641,
+      "lon": 76.243026,
+      "photos": []
+    },
+    {
+      "n": "The Kochi-Muziris Biennale (seasonal)",
+      "cat": "do",
+      "tier": "",
+      "a": "Fort Kochi & Mattancherry",
+      "d": "India's largest contemporary-art event, held every couple of years across the old spice warehouses of Fort Kochi, Mattancherry and Willingdon Island \u2014 Aspinwall House, Pepper House, Anand Warehouse and more. The sixth edition, 'For The Time Being', runs December 2025 to March 2026; if your dates align it transforms the whole town into a walkable exhibition.",
+      "lat": 9.965554,
+      "lon": 76.244129,
+      "photos": []
+    },
+    {
+      "n": "Aspinwall House",
+      "cat": "do",
+      "tier": "",
+      "a": "Fort Kochi",
+      "d": "A sprawling waterfront former trading-company estate \u2014 coir godowns, a bungalow and a jetty right on the harbour \u2014 and the flagship venue of the Biennale. Even between editions the scale and the sea-facing grounds are worth the walk; in season it holds the headline installations.",
+      "lat": 9.968611,
+      "lon": 76.246546,
+      "photos": []
+    },
+    {
+      "n": "Bolgatty Palace & island",
+      "cat": "do",
+      "tier": "",
+      "a": "Bolgatty Island",
+      "d": "A 1744 Dutch garden mansion on its own island in the harbour \u2014 reckoned among the oldest surviving Dutch palaces outside the Netherlands \u2014 now a KTDC heritage hotel with a small golf course, pool and lawns running to the water. A short ferry hop for a lunch or a drink with a straight view back to the city skyline.",
+      "lat": 9.987124,
+      "lon": 76.265033,
+      "photos": []
+    },
+    {
+      "n": "Willingdon Island",
+      "cat": "do",
+      "tier": "",
+      "a": "Kochi harbour",
+      "d": "A British-era man-made island built from harbour dredgings, named for a viceroy, and still home to the port, the Southern Naval Command and grand old dame hotels. More a texture of Kochi than a ticked sight \u2014 but the waterside setting and the Taj Malabar's harbour-facing terrace make a fine, quiet sundowner.",
+      "lat": 9.948042,
+      "lon": 76.275394,
+      "photos": []
+    },
+    {
+      "n": "Vypin Island",
+      "cat": "do",
+      "tier": "",
+      "a": "Vypin",
+      "d": "One of the string of islands that make up Kochi, reached by a two-minute ferry from Fort Kochi and worth it for the drive out to Cherai, the old Portuguese Pallipuram Fort and the sea-and-backwater strip. Rural, breezy and a world away from the town in minutes.",
+      "lat": 10.08322,
+      "lon": 76.21662,
+      "photos": []
+    },
+    {
+      "n": "Cherai Beach",
+      "cat": "do",
+      "tier": "",
+      "a": "Vypin Island",
+      "d": "A long, calm golden strand on the northern tip of Vypin where the Arabian Sea and the backwaters run almost side by side \u2014 palm-fringed, good for a swim, with dolphins sometimes offshore. About an hour from the centre; the least touristed easy beach day from Kochi and lovely at sundown.",
+      "lat": 10.143753,
+      "lon": 76.177601,
+      "photos": []
+    },
+    {
+      "n": "Pallipuram Fort",
+      "cat": "do",
+      "tier": "",
+      "a": "Vypin Island",
+      "d": "The oldest surviving European fort in India, a small hexagonal Portuguese watchtower from 1503 on the northern tip of Vypin. It is a modest, off-the-map stop, but for anyone tracing the coast's colonial history it is the literal starting point \u2014 and it pairs naturally with Cherai just down the road.",
+      "lat": 10.170012,
+      "lon": 76.180945,
+      "photos": []
+    },
+    {
+      "n": "Mangalavanam Bird Sanctuary",
+      "cat": "do",
+      "tier": "",
+      "a": "Ernakulam",
+      "d": "A pocket of protected mangrove wetland tucked improbably behind the High Court in the middle of the city \u2014 the 'green lung of Kochi', with a walking trail and a watchtower for egrets, herons, cormorants and migratory waders. A surprising, cool, ten-minute escape from downtown for anyone who likes birds.",
+      "lat": 9.988558,
+      "lon": 76.272761,
+      "photos": []
+    },
+    {
+      "n": "An Ayurveda treatment",
+      "cat": "do",
+      "tier": "",
+      "a": "Fort Kochi / Kochi",
+      "d": "Kerala is the home of Ayurveda, and Kochi is where most trips begin it \u2014 from a single restorative abhyanga oil massage or shirodhara at a Fort Kochi spa to a multi-day panchakarma programme at a dedicated centre. A natural, unforced way to slow the pace, especially at the start or end of a wider Kerala loop.",
+      "lat": 10.141113,
+      "lon": 76.572853,
+      "photos": []
+    },
+    {
+      "n": "A spice-garden & plantation experience",
+      "cat": "do",
+      "tier": "",
+      "a": "Kochi / outskirts",
+      "d": "Hands-on visits to working spice gardens and cooking sessions let you follow pepper, cardamom, cinnamon and vanilla from vine to kitchen, then cook a Kerala meal \u2014 the coastal vegetarian and seafood layers, from appam and stew to the Syrian-Christian and Mappila kitchens. A rich, tactile afternoon and easy to arrange for a family.",
+      "lat": 9.967903,
+      "lon": 76.244438,
+      "photos": []
+    },
+    {
+      "n": "Fort Kochi's colonial cemeteries & Dutch Cemetery",
+      "cat": "do",
+      "tier": "",
+      "a": "Fort Kochi",
+      "d": "The walled Dutch Cemetery near the beach \u2014 consecrated in 1724, among the oldest European cemeteries in India \u2014 with weathered tombs of the traders and soldiers who died far from home. A quiet, atmospheric ten minutes for anyone drawn to the human side of the town's layered history.",
+      "lat": 9.967569,
+      "lon": 76.24219,
+      "photos": []
+    },
+    {
+      "n": "The Muziris Heritage Trail",
+      "cat": "do",
+      "tier": "",
+      "a": "North Paravur / Kodungallur (day trip)",
+      "d": "A cluster of sites around the lost 2,000-year-old Roman-trade port of Muziris \u2014 the Pattanam excavations, the Paravur synagogue and Jew Street, Kottappuram and Pallipuram forts, old churches and mosques, several turned into small museums. For the historically curious it is the deep back-story of the whole Malabar spice coast, an easy self-driven day north of the city.",
+      "lat": 10.146875,
+      "lon": 76.225266,
+      "photos": []
+    },
+    {
+      "n": "Thrissur & the Vadakkunnathan Temple (day trip)",
+      "cat": "do",
+      "tier": "",
+      "a": "Thrissur (day trip)",
+      "d": "Kerala's cultural capital, about 75 km north, built around the ancient hilltop Vadakkunnathan Shiva temple \u2014 a superb example of Kerala's tiered wooden temple architecture \u2014 and home to the spectacular Thrissur Pooram elephant festival each spring. The temple interior is open to Hindus only, but the mound, the grounds and the town's museums reward the trip.",
+      "lat": 10.246366,
+      "lon": 76.370106,
+      "photos": []
+    },
+    {
+      "n": "Broadway Market",
+      "cat": "do",
+      "tier": "",
+      "a": "Ernakulam",
+      "d": "Ernakulam's dense old bazaar street \u2014 spices, textiles, gold, provisions and Kerala snacks sold cheek by jowl, the mainland counterpoint to Fort Kochi's polish. A vivid, unvarnished slice of everyday Kochi commerce and the best place to pick up graded spices and coir on the city side.",
+      "lat": 9.93361,
+      "lon": 76.261659,
+      "photos": []
+    },
+    {
+      "n": "A Kerala cooking & appam breakfast experience",
+      "cat": "do",
+      "tier": "",
+      "a": "Fort Kochi",
+      "d": "Kochi is the gateway to Kerala's food \u2014 lace-edged appam with vegetable stew, Syrian-Christian and Mappila dishes, Fort Kochi's fish grilled fresh from the nets, and one of India's most vegetarian-friendly coastlines besides. A home-kitchen class or a guided food walk turns a meal into the trip's most memorable afternoon.",
+      "lat": 9.967569,
+      "lon": 76.24219,
+      "photos": []
+    },
+    {
+      "n": "A country-boat village backwater trip",
+      "cat": "do",
+      "tier": "",
+      "a": "Kochi outskirts",
+      "d": "For the backwaters without the drive south, small dugout canoes thread the narrow canals and coir-making villages just outside the city \u2014 quieter and more intimate than a big houseboat, gliding under low palms past paddy and toddy shops. A gentle half-day, especially good with children or grandparents.",
+      "lat": 9.967903,
+      "lon": 76.244438,
+      "photos": []
+    },
+    {
+      "n": "Cochin Club & the Fort Kochi green",
+      "cat": "do",
+      "tier": "",
+      "a": "Fort Kochi",
+      "d": "The old British-era Cochin Club and the wide parade-ground green behind the seafront \u2014 cricket on the grass, rain trees, and the genteel bones of colonial club life still intact. Not a ticketed sight but the calmest corner of Fort Kochi for a stroll and a sense of how the town once lived.",
+      "lat": 9.965659,
+      "lon": 76.239677,
+      "photos": []
+    },
+    {
+      "n": "The bar at Brunton Boatyard",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "Fort Kochi (harbourfront)",
+      "d": "A composed harbour-side drink at CGH Earth's heritage flagship \u2014 the most atmospheric evening in Fort Kochi.",
+      "lat": 10.064758,
+      "lon": 76.21295,
+      "photos": []
+    },
+    {
+      "n": "Mattancherry Bar, Taj Malabar",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Willingdon Island (Taj Malabar)",
+      "d": "The city's most polished cocktail room \u2014 Taj standards and harbour views on Willingdon Island.",
+      "lat": 9.968972,
+      "lon": 76.258053,
+      "photos": []
+    },
+    {
+      "n": "Fort Kochi rooftop caf\u00e9s",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "Fort Kochi",
+      "d": "Not bars but the fort's real evening \u2014 coffee or a sundowner on a heritage rooftop as the light goes over the harbour and the nets.",
+      "lat": 9.96725,
+      "lon": 76.244477,
+      "photos": []
+    }
+  ]
+}

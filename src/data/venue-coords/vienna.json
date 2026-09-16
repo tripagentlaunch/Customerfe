@@ -1,1 +1,1088 @@
-{"center": [48.208354, 16.372504], "venues": [{"n": "Hotel Sacher Wien", "cat": "stay", "tier": "Ultra", "a": "Innere Stadt (1st), behind the State Opera", "d": "The definitive Viennese address since 1876 — family-owned, opera-facing, and the birthplace of the Sachertorte.", "lat": 48.204043, "lon": 16.369771, "p": "v"}, {"n": "Rosewood Vienna", "cat": "stay", "tier": "Ultra", "a": "Innere Stadt (1st), Petersplatz", "d": "A restored 19th-century palace on Petersplatz where Mozart once lived — Rosewood's polished contemporary hand on the Old Town.", "lat": 48.20962, "lon": 16.369616, "p": "v"}, {"n": "Park Hyatt Vienna", "cat": "stay", "tier": "Ultra", "a": "Innere Stadt (1st), Am Hof / Goldenes Quartier", "d": "A former bank turned calm, contemporary grand hotel in the luxury-shopping quarter — the spa pool sits in the old vault.", "lat": 48.210434, "lon": 16.36841, "p": "v"}, {"n": "Hotel Imperial, a Luxury Collection Hotel", "cat": "stay", "tier": "Ultra", "a": "Ringstrasse (1st), Kärntner Ring", "d": "A private palace of 1863 on the Ring — the grande dame that has housed nearly every head of state to visit Vienna.", "lat": 48.204637, "lon": 16.370322, "p": "v"}, {"n": "The Ritz-Carlton, Vienna", "cat": "stay", "tier": "Grand", "a": "Ringstrasse (1st), Schubertring", "d": "Four linked 19th-century palaces on the Ring — Ritz-Carlton service behind a historic façade, with the city's best hotel rooftop bar.", "lat": 48.20225, "lon": 16.37607, "p": "v"}, {"n": "Anantara Palais Hansen Vienna", "cat": "stay", "tier": "Grand", "a": "Ringstrasse (1st), Schottenring", "d": "A Theophil Hansen palace on the Ring, reborn under Anantara — grand bones, a serious spa, a Michelin kitchen within.", "lat": 48.216345, "lon": 16.368435, "p": "v"}, {"n": "Hotel Bristol, a Luxury Collection Hotel", "cat": "stay", "tier": "Grand", "a": "Ringstrasse (1st), opposite the State Opera", "d": "A 1892 landmark facing the opera house — fin-de-siècle antiques, Austrian art, and a quietly grand sense of occasion.", "lat": 48.204637, "lon": 16.370322, "p": "v"}, {"n": "Almanac Palais Vienna", "cat": "stay", "tier": "Grand", "a": "Landstraße (3rd), facing the Stadtpark", "d": "Two neo-Baroque palaces across from the Stadtpark — suite-led, art-filled, with an original Klimt on the wall.", "lat": 48.216345, "lon": 16.368435, "p": "v"}, {"n": "The Amauris Vienna", "cat": "stay", "tier": "Grand", "a": "Ringstrasse (1st), near the State Opera", "d": "A small, discreet Relais & Châteaux townhouse a step from the opera — private, refined, all quiet luxury.", "lat": 48.201651, "lon": 16.371009, "p": "v"}, {"n": "Hotel Sans Souci Wien", "cat": "stay", "tier": "Grand", "a": "Neubau (7th), MuseumsQuartier", "d": "A design-led house beside the MuseumsQuartier — art on the walls, a fine spa, a younger sense of glamour.", "lat": 48.204591, "lon": 16.356506, "p": "v"}, {"n": "Grand Hotel Wien", "cat": "stay", "tier": "Grand", "a": "Ringstrasse (1st), Kärntner Ring", "d": "One of the four historic grand hotels of the Ring — classical grandeur and a celebrated rooftop dining room.", "lat": 48.202134, "lon": 16.371967, "p": "v"}, {"n": "Mandarin Oriental, Vienna", "cat": "stay", "tier": "Ultra", "a": "Innere Stadt (1st), Riemergasse", "d": "The group's first Austrian house — a former court building reborn with Mandarin Oriental precision and a landmark spa.", "lat": 48.207068, "lon": 16.377204, "p": "v"}, {"n": "Palais Coburg Residenz", "cat": "stay", "tier": "Ultra", "a": "Innere Stadt (1st), Coburgbastei", "d": "A suites-only palace with one of the world's great wine cellars — and a two-star kitchen behind its columns.", "lat": 48.205781, "lon": 16.376745, "p": "v"}, {"n": "Andaz Vienna Am Belvedere", "cat": "stay", "tier": "Luxury", "a": "Landstraße (3rd), Belvedere / main station", "d": "A Renzo Piano-designed tower by the Belvedere gardens — contemporary, light, with a rooftop pool over the city.", "lat": 48.184775, "lon": 16.382805, "p": "v"}, {"n": "Le Méridien Vienna", "cat": "stay", "tier": "Luxury", "a": "Ringstrasse (1st), Opernring", "d": "A design hotel on the Ring between the opera and the Hofburg — contemporary art and an easy, central polish.", "lat": 48.202645, "lon": 16.366188, "p": "v"}, {"n": "Hotel MOTTO, Vienna", "cat": "stay", "tier": "Luxury", "a": "Mariahilf (6th), Mariahilfer Straße", "d": "A theatrical, 1900s-Paris-inspired house with the city's most fashionable rooftop restaurant.", "lat": 48.198326, "lon": 16.350653, "p": "v"}, {"n": "The Guesthouse Vienna", "cat": "stay", "tier": "Luxury", "a": "Innere Stadt (1st), Albertinaplatz", "d": "A Terence Conran-designed boutique beside the Albertina — warm, residential, beautifully made.", "lat": 48.205173, "lon": 16.369009, "p": "v"}, {"n": "Hotel Josefine", "cat": "stay", "tier": "Premium", "a": "Alsergrund (9th), near the university", "d": "A characterful literary-themed townhouse just off the Ring — individual, well-priced, quietly charming.", "lat": 48.210801, "lon": 16.418995, "p": "v"}, {"n": "Hollmann Beletage Design & Boutique Hotel", "cat": "stay", "tier": "Premium", "a": "Innere Stadt (1st), near Schwedenplatz", "d": "A hidden design guesthouse on the first floor of a historic building — intimate, personal, central.", "lat": 48.210575, "lon": 16.376054, "p": "v"}, {"n": "Altstadt Vienna", "cat": "stay", "tier": "Premium", "a": "Neubau (7th), Spittelberg", "d": "An art-filled townhouse hotel in the bohemian Spittelberg lanes — every room individually designed.", "lat": 48.204818, "lon": 16.35134, "p": "v"}, {"n": "Steirereck im Stadtpark", "cat": "eat", "tier": "Destination", "a": "Landstraße (3rd), Stadtpark", "d": "Heinz and Birgit Reitbauer's temple of modern Austrian cooking — one of only two three-star tables in the country.", "lat": 48.20446, "lon": 16.381279, "p": "v"}, {"n": "Restaurant Amador", "cat": "eat", "tier": "Destination", "a": "Döbling (19th), Hajszan Neumann winery", "d": "Juan Amador's avant-garde cooking in the vaulted cellars of a Grinzing winery — Austria's other three-star.", "lat": 48.253918, "lon": 16.358592, "p": "v"}, {"n": "Silvio Nickol Gourmet Restaurant", "cat": "eat", "tier": "Destination", "a": "Innere Stadt (1st), Palais Coburg", "d": "Precise, contemporary cooking behind the columns of Palais Coburg — beside one of the world's great wine cellars.", "lat": 48.205781, "lon": 16.376745, "p": "a"}, {"n": "Konstantin Filippou", "cat": "eat", "tier": "Destination", "a": "Innere Stadt (1st), Dominikanerbastei", "d": "Greek-Austrian roots and purist modern technique in a dark, elegant room with the kitchen in full view.", "lat": 48.210762, "lon": 16.37978, "p": "v"}, {"n": "Mraz & Sohn", "cat": "eat", "tier": "Destination", "a": "Brigittenau (20th), Wallensteinstraße", "d": "Lukas and Markus Mraz's witty, wildly individual cooking — Austria's most talked-about kitchen, and Falstaff's Chef of the Year.", "lat": 48.231364, "lon": 16.376063, "p": "v"}, {"n": "Restaurant Doubek", "cat": "eat", "tier": "Destination", "a": "Josefstadt (8th)", "d": "Stefan Doubek won two stars before turning 32 — meticulous cooking over four live fires, with quiet Japanese influences.", "lat": 48.213166, "lon": 16.349407, "p": "v"}, {"n": "TIAN Restaurant Vienna", "cat": "eat", "tier": "Fine", "a": "Innere Stadt (1st), Himmelpfortgasse", "d": "Vegetarian fine dining that earned a star on its own terms — refined, seasonal, entirely meat-free.", "lat": 48.205263, "lon": 16.374529, "p": "v"}, {"n": "JOLA", "cat": "eat", "tier": "Fine", "a": "Innere Stadt (1st)", "d": "A rare starred vegan kitchen — inventive, produce-led cooking that never feels like it's going without.", "lat": 48.213191, "lon": 16.371313, "p": "v"}, {"n": "Glasswing by Alexandru Simon", "cat": "eat", "tier": "Fine", "a": "Wieden (4th)", "d": "French technique and quiet ambition — one of the city's brightest recent stars, and a Falstaff favourite.", "lat": 48.192314, "lon": 16.371367, "p": "a"}, {"n": "APRON", "cat": "eat", "tier": "Fine", "a": "Landstraße (3rd)", "d": "Creative, internationally-inflected tasting menus from a kitchen on a fast rise up the guides.", "lat": 48.208354, "lon": 16.372504, "p": "v"}, {"n": "Pramerl & the Wolf", "cat": "eat", "tier": "Fine", "a": "Alsergrund (9th)", "d": "A former corner tavern turned surprise-menu star — casual on the surface, seriously good beneath.", "lat": 48.222071, "lon": 16.364853, "p": "v"}, {"n": "Restaurant Edvard", "cat": "eat", "tier": "Fine", "a": "Ringstrasse (1st), Anantara Palais Hansen", "d": "Paul Gamauf's refined, produce-driven cooking inside the Palais Hansen on the Ring.", "lat": 48.185252, "lon": 16.313908, "p": "v"}, {"n": "Esszimmer", "cat": "eat", "tier": "Fine", "a": "Innere Stadt (1st)", "d": "Modern cooking with Italian and Asian threads — a quietly assured one-star in the Old Town.", "lat": 48.208354, "lon": 16.372504, "p": "v"}, {"n": "Herzig", "cat": "eat", "tier": "Fine", "a": "Rudolfsheim-Fünfhaus (15th)", "d": "Modern cooking and a deep wine list in a smart room away from the tourist centre.", "lat": 48.200155, "lon": 16.316856, "p": "v"}, {"n": "aend", "cat": "eat", "tier": "Fine", "a": "Mariahilf (6th)", "d": "An avant-garde, ingredient-led kitchen with a cult following — precise, minimal, quietly radical.", "lat": 48.202049, "lon": 16.385653, "p": "v"}, {"n": "Z'SOM", "cat": "eat", "tier": "Fine", "a": "Wieden (4th)", "d": "South American technique meets Central European produce — a fresh, surprising one-star.", "lat": 48.197536, "lon": 16.371992, "p": "v"}, {"n": "Le Ciel by Toni Mörwald", "cat": "eat", "tier": "Fine", "a": "Ringstrasse (1st), Grand Hotel Wien", "d": "Classical fine dining on the Grand Hotel's roof — a long-held favourite for a dressed-up Viennese evening.", "lat": 48.202147, "lon": 16.37206, "p": "v"}, {"n": "Fabios", "cat": "eat", "tier": "Fine", "a": "Innere Stadt (1st), Tuchlauben", "d": "The city's most enduringly fashionable Italian — a see-and-be-seen room off the Graben.", "lat": 48.209968, "lon": 16.36981, "p": "v"}, {"n": "Zum Schwarzen Kameel", "cat": "eat", "tier": "Smart", "a": "Innere Stadt (1st), Bognergasse", "d": "A 1618 institution of Jugendstil tiles and open sandwiches — Viennese classics where the city has always gathered.", "lat": 48.209995, "lon": 16.368317, "p": "v"}, {"n": "Skopik & Lohn", "cat": "eat", "tier": "Smart", "a": "Leopoldstadt (2nd), Leopoldsgasse", "d": "A buzzy, ink-ceilinged neighbourhood restaurant doing modern Viennese cooking with real flair.", "lat": 48.220165, "lon": 16.376648, "p": "v"}, {"n": "Mochi", "cat": "eat", "tier": "Smart", "a": "Leopoldstadt (2nd), Praterstraße", "d": "Lively, informal Japanese cooking with modern turns — one of the most-loved everyday tables in the city.", "lat": 48.213546, "lon": 16.381769, "p": "v"}, {"n": "Meierei im Stadtpark", "cat": "eat", "tier": "Smart", "a": "Landstraße (3rd), Stadtpark", "d": "Steirereck's relaxed little sister — a legendary goulash and a cheese counter to lose an afternoon to.", "lat": 48.20446, "lon": 16.381279, "p": "v"}, {"n": "Gasthaus Pöschl", "cat": "eat", "tier": "Smart", "a": "Innere Stadt (1st), Weihburggasse", "d": "A tiny, warm tavern doing Austrian home cooking properly — the kind of room Vienna does best.", "lat": 48.206657, "lon": 16.373858, "p": "v"}, {"n": "Plachutta Wollzeile", "cat": "eat", "tier": "Smart", "a": "Innere Stadt (1st), Wollzeile", "d": "The temple of Tafelspitz — boiled beef in copper pots, carved and served with real ceremony.", "lat": 48.207548, "lon": 16.378755, "p": "v"}, {"n": "Figlmüller", "cat": "eat", "tier": "Smart", "a": "Innere Stadt (1st), Wollzeile / Bäckerstraße", "d": "Home of the schnitzel that overhangs the plate — a Viennese rite of passage since 1905.", "lat": 48.209421, "lon": 16.374843, "p": "v"}, {"n": "Griechenbeisl", "cat": "eat", "tier": "Smart", "a": "Innere Stadt (1st), Fleischmarkt", "d": "Vienna's oldest inn, from 1447 — vaulted rooms where Beethoven, Schubert and Mark Twain all signed the wall.", "lat": 48.210746, "lon": 16.377265, "p": "v"}, {"n": "TIAN Bistro", "cat": "eat", "tier": "Casual", "a": "Neubau (7th), Spittelberg", "d": "TIAN's easy-going bistro — seasonal, regional vegetarian and vegan cooking at an everyday price.", "lat": 48.202962, "lon": 16.354853, "p": "v"}, {"n": "Café Central", "cat": "eat", "tier": "Casual", "a": "Innere Stadt (1st), Herrengasse", "d": "The grand literary coffee house of Loos, Trotsky and Freud — vaulted, marble, and gloriously Viennese.", "lat": 48.210367, "lon": 16.365387, "p": "v"}, {"n": "Café Landtmann", "cat": "eat", "tier": "Casual", "a": "Ringstrasse (1st), opposite the Burgtheater", "d": "Vienna's most sophisticated coffee house since 1873 — the Ring café of politicians, writers and families.", "lat": 48.211562, "lon": 16.36145, "p": "v"}, {"n": "Demel", "cat": "eat", "tier": "Casual", "a": "Innere Stadt (1st), Kohlmarkt", "d": "The former imperial court confectioner, founded 1786 — part patisserie, part museum, entirely Viennese.", "lat": 48.208605, "lon": 16.367211, "p": "v"}, {"n": "Café Sperl", "cat": "eat", "tier": "Casual", "a": "Mariahilf (6th), Gumpendorfer Straße", "d": "An 1880 coffee house barely changed in a century — billiard tables, newspapers, and the real, unhurried thing.", "lat": 48.199838, "lon": 16.36117, "p": "v"}, {"n": "Schönbrunn Palace", "cat": "do", "tier": "", "a": "Hietzing (13th district)", "d": "The Habsburgs' 1,441-room summer residence, all Rococo gilding and Maria Theresa yellow, with formal parterres climbing to the hilltop Gloriette. A private after-hours or Grand Tour guided visit spares multi-generational groups the queues, and the park's gravel walks are easy for elders and children alike.", "lat": 48.184989, "lon": 16.311568, "p": "v"}, {"n": "Tiergarten Schönbrunn (Vienna Zoo)", "cat": "do", "tier": "", "a": "Hietzing (13th district)", "d": "The world's oldest zoo still in operation, founded in 1752, with giant pandas and giraffes housed inside original Baroque pavilions. A reliable multi-generational win — grandparents and small children both delighted — set within the palace grounds.", "lat": 48.184064, "lon": 16.302137, "p": "v"}, {"n": "Hofburg Imperial Palace", "cat": "do", "tier": "", "a": "Innere Stadt (1st district)", "d": "Six centuries of Habsburg power in one sprawling complex of 18 wings and 19 courtyards, still the working seat of the Austrian president. The Imperial Apartments and Sisi Museum tell the real story of Empress Elisabeth beyond the films.", "lat": 48.206329, "lon": 16.365626, "p": "v"}, {"n": "Sisi Museum & Imperial Apartments", "cat": "do", "tier": "", "a": "Innere Stadt (1st district)", "d": "Empress Elisabeth's private world inside the Hofburg — her gymnastics equipment, death mask and the reconstructed court silver — laid out through Franz Joseph's living and audience rooms. A tightly curated hour that fascinates teenagers as much as elders.", "lat": 48.211512, "lon": 16.373819, "p": "a"}, {"n": "Spanish Riding School", "cat": "do", "tier": "", "a": "Innere Stadt (1st district)", "d": "The white Lipizzaner stallions performing haute école dressage in Fischer von Erlach's chandelier-lit Winter Riding School, a tradition unbroken since the 18th century. Book the gala performance, or the quieter morning training session with a private box for the family.", "lat": 48.207307, "lon": 16.366707, "p": "v"}, {"n": "Upper Belvedere", "cat": "do", "tier": "", "a": "Landstraße (3rd district)", "d": "Prince Eugene's Baroque summer palace holds the world's largest Klimt collection — including 'The Kiss' in its own gilded room — above formal gardens sweeping down to the Lower Belvedere. The palace terrace offers one of the loveliest framed views of the city skyline.", "lat": 48.191541, "lon": 16.380888, "p": "v"}, {"n": "Lower Belvedere & Orangery", "cat": "do", "tier": "", "a": "Landstraße (3rd district)", "d": "The quieter half of the Belvedere estate — Prince Eugene's private state rooms, the Marble Hall and the Hall of Grotesques — used for changing exhibitions. Combine with a stroll through the tiered French garden between the two palaces.", "lat": 48.196661, "lon": 16.379255, "p": "v"}, {"n": "Kunsthistorisches Museum", "cat": "do", "tier": "", "a": "Innere Stadt / Ringstrasse (1st district)", "d": "The Habsburgs' imperial art collection — the world's greatest holding of Bruegel, plus Vermeer, Velázquez, Raphael and Titian — under a domed staircase Klimt himself decorated. The palatial café beneath the cupola is a destination in itself.", "lat": 48.203739, "lon": 16.361782, "p": "v"}, {"n": "Albertina", "cat": "do", "tier": "", "a": "Innere Stadt (1st district)", "d": "A former Habsburg residence above the opera holding one of the world's foremost graphic collections — Dürer's 'Young Hare', Monet, Picasso — shown alongside the restored imperial state rooms. Central, compact and elegant, ideal for a focused morning.", "lat": 48.204636, "lon": 16.368261, "p": "v"}, {"n": "Leopold Museum", "cat": "do", "tier": "", "a": "Neubau / MuseumsQuartier (7th district)", "d": "The world's largest Egon Schiele collection alongside Klimt's 'Death and Life' and a definitive survey of Viennese Modernism, in a luminous white cube in the MuseumsQuartier. The clearest single window into Vienna 1900.", "lat": 48.20259, "lon": 16.359067, "p": "v"}, {"n": "mumok (Museum moderner Kunst)", "cat": "do", "tier": "", "a": "Neubau / MuseumsQuartier (7th district)", "d": "Austria's largest museum of modern and contemporary art — Warhol, Picasso, Viennese Actionism — inside a windowless basalt monolith in the MuseumsQuartier. For collectors and design-minded travellers rather than first-timers.", "lat": 48.20374, "lon": 16.357833, "p": "v"}, {"n": "MAK — Museum of Applied Arts", "cat": "do", "tier": "", "a": "Innere Stadt (1st district)", "d": "Vienna's temple of design and decorative arts, from Wiener Werkstätte silver and Thonet bentwood to Klimt's full-scale Stoclet Frieze cartoons. Essential for anyone furnishing a home or drawn to craft; its garden bar is a stylish evening spot.", "lat": 48.20742, "lon": 16.381507, "p": "v"}, {"n": "MuseumsQuartier", "cat": "do", "tier": "", "a": "Neubau (7th district)", "d": "One of the world's largest cultural complexes — Leopold, mumok, the Kunsthalle and Baroque courtyards filled with the signature painted 'Enzi' loungers. A relaxed base to graze between museums, with cafés for those who prefer to sit while others tour.", "lat": 48.203193, "lon": 16.359342, "p": "v"}, {"n": "St. Stephen's Cathedral (Stephansdom)", "cat": "do", "tier": "", "a": "Innere Stadt (1st district)", "d": "Vienna's soaring Gothic heart, its 136-metre south tower the tallest church in Austria and its zigzag tiled roof a city emblem. Climb the 343 steps of the tower, or take the lift to the north tower with elders, and tour the catacombs below.", "lat": 48.208492, "lon": 16.373127, "p": "v"}, {"n": "Karlskirche (St. Charles's Church)", "cat": "do", "tier": "", "a": "Wieden (4th district)", "d": "Fischer von Erlach's Baroque masterpiece, its green copper dome flanked by two Trajan-style columns, built as a vow after the 1713 plague. A panorama lift rises into the cupola for a close look at the frescoes — a rare vantage that thrills all ages.", "lat": 48.190788, "lon": 16.365872, "p": "a"}, {"n": "Peterskirche (St. Peter's Church)", "cat": "do", "tier": "", "a": "Innere Stadt (1st district)", "d": "A jewel-box Baroque oval tucked just off the Graben, with a gilded pulpit, trompe-l'oeil dome and free lunchtime organ recitals. A quiet, discreet pause in the middle of the shopping streets.", "lat": 48.209437, "lon": 16.370011, "p": "v"}, {"n": "Vienna State Opera (Staatsoper)", "cat": "do", "tier": "", "a": "Innere Stadt / Ringstrasse (1st district)", "d": "One of the world's leading opera houses, staging a different work almost every night with an orchestra drawn from the Vienna Philharmonic. Reserve a private box; the guided backstage tour and elegant intermission suppers suit families building an evening together.", "lat": 48.203286, "lon": 16.369194, "p": "v"}, {"n": "Musikverein (Golden Hall)", "cat": "do", "tier": "", "a": "Innere Stadt (1st district)", "d": "The 'Golden Hall', home of the Vienna Philharmonic since 1870 and stage for the televised New Year's Concert, prized for acoustics considered among the finest on earth. A gilt-and-caryatid room where hearing a concert is the whole point of the trip for many.", "lat": 48.211512, "lon": 16.373819, "p": "a"}, {"n": "Wiener Konzerthaus", "cat": "do", "tier": "", "a": "Landstraße (3rd district)", "d": "The city's other great hall, a 1913 building with four auditoriums whose programme ranges beyond classical into jazz and world music. The choice for a more adventurous evening, from September through June.", "lat": 48.200649, "lon": 16.377613, "p": "v"}, {"n": "Haus der Musik", "cat": "do", "tier": "", "a": "Innere Stadt (1st district)", "d": "An interactive sound museum in the former home of the Vienna Philharmonic, where you can 'conduct' a virtual orchestra and explore the physics of music. The rare cultural stop that genuinely absorbs children and grandparents at once.", "lat": 48.203792, "lon": 16.373155, "p": "v"}, {"n": "Vienna Boys' Choir at the Hofburgkapelle", "cat": "do", "tier": "", "a": "Innere Stadt (1st district)", "d": "The choir founded in 1498 sings Sunday Mass in the Hofburg's Imperial Chapel, an intimate and moving ritual, and performs full concerts at its own MuTh hall. Reserved seats spare families the scramble for the small chapel.", "lat": 48.198703, "lon": 16.374468, "p": "v"}, {"n": "The Ringstrasse", "cat": "do", "tier": "", "a": "Innere Stadt (1st district)", "d": "The 5.3-km grand boulevard Franz Joseph laid over the old city walls, lined with the Opera, Parliament, City Hall, university and twin museums — the finest ensemble of 19th-century monumental architecture in Europe. Best seen from a private car or the vintage tram that circles it.", "lat": 48.206168, "lon": 16.366691, "p": "v"}, {"n": "Austrian Parliament Building", "cat": "do", "tier": "", "a": "Innere Stadt / Ringstrasse (1st district)", "d": "Theophil Hansen's Greek-temple statement of democracy, fronted by the Pallas Athene fountain and newly restored throughout. Guided tours reveal the columned halls; the rooftop terrace and its restaurant offer a fresh angle on the Ring.", "lat": 48.208087, "lon": 16.358465, "p": "v"}, {"n": "Vienna City Hall (Rathaus) & Rathausplatz", "cat": "do", "tier": "", "a": "Innere Stadt / Ringstrasse (1st district)", "d": "A soaring neo-Gothic pile whose square hosts the year's great open-air events — the Christmas market, summer film festival and an ice-skating 'Dream on Ice' in winter. A lively family gathering point at every season.", "lat": 48.210826, "lon": 16.356573, "p": "v"}, {"n": "Stadtpark", "cat": "do", "tier": "", "a": "Innere Stadt / Landstraße (1st/3rd district)", "d": "Vienna's first public park along the river Wien, home to the gilded Johann Strauss II monument — the city's most photographed statue. A gentle, central green break with a pond and café, easy for every generation.", "lat": 48.202886, "lon": 16.379724, "p": "v"}, {"n": "Burggarten & Palm House", "cat": "do", "tier": "", "a": "Innere Stadt (1st district)", "d": "The former imperial private garden behind the Hofburg, with a Mozart monument in flowers and an Art Nouveau glass Palmenhaus sheltering a butterfly house and an elegant café-brasserie. A discreet, sheltered oasis a step from the Ring.", "lat": 48.184217, "lon": 16.302903, "p": "v"}, {"n": "Volksgarten Rose Garden", "cat": "do", "tier": "", "a": "Innere Stadt (1st district)", "d": "A formal French garden on the Ring with thousands of rose bushes framing the neoclassical Theseus Temple, best in June bloom. A romantic, quiet counterpoint to the grand buildings around it.", "lat": 48.208035, "lon": 16.361787, "p": "v"}, {"n": "Prater & Wiener Riesenrad", "cat": "do", "tier": "", "a": "Leopoldstadt (2nd district)", "d": "The great public park with its historic Giant Ferris Wheel of 1897, immortalised in 'The Third Man', turning slowly over the city. Hire a private gondola with dinner service, then let children loose in the funfair and adults walk the leafy central avenue.", "lat": 48.216741, "lon": 16.395909, "p": "v"}, {"n": "Hundertwasserhaus", "cat": "do", "tier": "", "a": "Landstraße (3rd district)", "d": "Friedensreich Hundertwasser's riotously colourful 1985 municipal apartment block, with undulating floors, onion domes and trees growing from the windows. A quick, joyful photo stop that breaks up the imperial grandeur — best paired with the museum nearby.", "lat": 48.207384, "lon": 16.393941, "p": "v"}, {"n": "Kunst Haus Wien — Museum Hundertwasser", "cat": "do", "tier": "", "a": "Landstraße (3rd district)", "d": "The artist's own museum in a rebuilt Thonet furniture factory, its wavy floors and green façade a full immersion in his ecological, anti-straight-line philosophy. The permanent Hundertwasser collection plus rotating photography shows, with a garden café.", "lat": 48.20742, "lon": 16.381507, "p": "v"}, {"n": "Naschmarkt", "cat": "do", "tier": "", "a": "Wieden / Mariahilf (4th/6th district)", "d": "Vienna's great 1.5-km market of 120-plus stalls — spices, cheeses, olives, and Middle Eastern and Asian produce that make vegetarian and Indian-friendly dining genuinely easy. Graze the mezze and falafel counters; the Saturday flea market is a cult ritual.", "lat": 48.19818, "lon": 16.362622, "p": "v"}, {"n": "Café Central", "cat": "do", "tier": "", "a": "Innere Stadt (1st district)", "d": "The vaulted, cathedral-like coffeehouse where Trotsky and Freud once sat, now serving Melange and towering pastries under marble columns. Grand and famous — arrive early or reserve to avoid the queue with a group.", "lat": 48.210367, "lon": 16.365387, "p": "v"}, {"n": "Café Landtmann", "cat": "do", "tier": "", "a": "Innere Stadt / Ringstrasse (1st district)", "d": "Freud's regular café on the Ring by the Burgtheater, a wood-panelled institution since 1873 with a broad terrace and a proper kitchen for lunch, not just cake. The most comfortable of the grand cafés for a leisurely multi-generational sit.", "lat": 48.211562, "lon": 16.36145, "p": "v"}, {"n": "Café Sacher & the Original Sachertorte", "cat": "do", "tier": "", "a": "Innere Stadt (1st district)", "d": "The plush café of the Hotel Sacher, home of the original 1832 Sachertorte, served behind the Opera in red-velvet rooms. The definitive Vienna cake ritual; the box of torte travels home well as a gift.", "lat": 48.211512, "lon": 16.373819, "p": "a"}, {"n": "Demel", "cat": "do", "tier": "", "a": "Innere Stadt (1st district)", "d": "The former imperial court confectioner on the Kohlmarkt, where white-gloved staff serve pastries beneath mirrored salons and you can watch the bakers at work. Old-world theatre and superb sweets, moments from the Hofburg.", "lat": 48.208605, "lon": 16.367211, "p": "v"}, {"n": "Café Sperl", "cat": "do", "tier": "", "a": "Mariahilf (6th district)", "d": "A near-untouched 1880 coffeehouse with billiard tables, newspaper racks and worn Thonet chairs — the archetype away from the tourist crush. The place to linger over an Einspänner and read, exactly as the Viennese do.", "lat": 48.199838, "lon": 16.36117, "p": "v"}, {"n": "The Graben & Kohlmarkt", "cat": "do", "tier": "", "a": "Innere Stadt (1st district)", "d": "The elegant pedestrian spine of the old city, from the Baroque Plague Column down to the luxury houses of the Kohlmarkt — Cartier, Louis Vuitton and the like — ending at the Hofburg gate. Vienna's discreet address for shopping and window-strolling.", "lat": 48.149548, "lon": 16.43735, "p": "v"}, {"n": "Spittelberg quarter", "cat": "do", "tier": "", "a": "Neubau (7th district)", "d": "A pocket of cobbled Biedermeier lanes behind the MuseumsQuartier, full of small galleries, artisan shops, wine bars and a beloved Advent market. The 7th district at its most walkable and characterful — good for an unhurried afternoon.", "lat": 48.203354, "lon": 16.355452, "p": "v"}, {"n": "Grinzing & the Heuriger wine taverns", "cat": "do", "tier": "", "a": "Döbling (19th district)", "d": "A wine-village on the city's northern edge where growers pour their own Grüner Veltliner in leafy courtyards beside Biedermeier villas. A relaxed, convivial evening of new wine and buffet food; a private car up and back suits a larger party.", "lat": 48.255998, "lon": 16.341806, "p": "v"}, {"n": "Kahlenberg viewpoint", "cat": "do", "tier": "", "a": "Döbling (19th district)", "d": "The Vienna Woods summit above the vineyards, with a sweeping terrace over the whole city and the Danube, plus a café for a gentle finish. The classic drive-up panorama — no exertion required, dazzling after dark.", "lat": 48.276342, "lon": 16.333068, "p": "v"}, {"n": "Nussberg vineyard walk", "cat": "do", "tier": "", "a": "Döbling (19th district)", "d": "Terraced vineyards on the city's edge where open-air wine taverns like Wieninger and Sirbu look straight down over Vienna at sunset. A quietly spectacular alternative to Grinzing for a glass with a view.", "lat": 48.242972, "lon": 16.355678, "p": "a"}, {"n": "Zentralfriedhof (Central Cemetery)", "cat": "do", "tier": "", "a": "Simmering (11th district)", "d": "One of Europe's largest cemeteries, with honorary graves of Beethoven, Brahms, Schubert and the Strauss family clustered near a monumental Art Nouveau church. A surprisingly serene, parkland pilgrimage for music lovers.", "lat": 48.149334, "lon": 16.438663, "p": "v"}, {"n": "Secession Building & Beethoven Frieze", "cat": "do", "tier": "", "a": "Innere Stadt / Wieden (1st district)", "d": "The gold-domed 1898 manifesto of the Vienna Secession — 'To every age its art' over the door — sheltering Klimt's monumental Beethoven Frieze in the basement. A compact, essential stop for the Vienna 1900 story.", "lat": 48.211512, "lon": 16.373819, "p": "a"}, {"n": "Wachau Valley (day trip)", "cat": "do", "tier": "", "a": "Lower Austria — about 1 hour west", "d": "A UNESCO-listed stretch of the Danube between Melk and Krems, terraced with apricot orchards and world-class Grüner Veltliner and Riesling vineyards, threaded with river villages. A private car or chartered boat makes for a superb, unhurried day out of the city.", "lat": 48.194846, "lon": 16.290388, "p": "a"}, {"n": "Melk Abbey", "cat": "do", "tier": "", "a": "Lower Austria — about 1 hour west (Wachau)", "d": "A vast ochre Benedictine abbey on a bluff over the Danube, its Baroque library and gilded church among Europe's great interiors. The natural anchor for a Wachau day, ideally reached before the tour coaches.", "lat": 48.212562, "lon": 16.363994, "p": "v"}, {"n": "Dürnstein", "cat": "do", "tier": "", "a": "Lower Austria — about 1 hour west (Wachau)", "d": "The blue-and-white Baroque abbey tower and the castle ruin where Richard the Lionheart was held make this the prettiest Wachau village. Walk its single lane, taste at a riverside cellar, then continue down the Danube.", "lat": 48.208354, "lon": 16.372504, "p": "v"}, {"n": "Bratislava (day trip)", "cat": "do", "tier": "", "a": "Slovakia — about 75 minutes east", "d": "The Slovak capital, its compact old town crowned by a hilltop castle, reached in 75 minutes by the fast Twin City Liner catamaran along the Danube. An easy second-country outing — carry passports, as it crosses a border.", "lat": 48.197381, "lon": 16.367324, "p": "v"}, {"n": "Klosterneuburg Monastery", "cat": "do", "tier": "", "a": "Lower Austria — about 20 minutes north", "d": "A grand Augustinian monastery just outside the city, with the priceless enamelled Verdun Altar of 1181, imperial state rooms and one of Austria's oldest wineries in its cellars. A short, rich half-day with a wine tasting to close.", "lat": 48.17788, "lon": 16.332372, "p": "v"}, {"n": "Schloss Hof", "cat": "do", "tier": "", "a": "Lower Austria — about 45 minutes east", "d": "Prince Eugene's restored country palace on the Marchfeld plain, with terraced Baroque gardens, a working estate farm and animals that charm younger visitors. A calmer, greener imperial day trip than the city palaces.", "lat": 48.258062, "lon": 16.399999, "p": "v"}, {"n": "Loos American Bar", "cat": "party", "tier": "Landmark bars", "a": "Innere Stadt (1st), Kärntner Durchgang", "d": "Adolf Loos's 1908 jewel-box in onyx and marble — the first cocktail bar in Vienna, and a landmark of modern design.", "lat": 48.207159, "lon": 16.369087, "p": "v"}, {"n": "Tür 7", "cat": "party", "tier": "Cocktail bars", "a": "Josefstadt (8th), Buchfeldgasse", "d": "A ring-the-bell speakeasy that tops the national bar rankings — inventive drinks and a warm, in-the-know room.", "lat": 48.210136, "lon": 16.353358, "p": "v"}, {"n": "Josef Cocktailbar", "cat": "party", "tier": "Cocktail bars", "a": "Innere Stadt (1st), Kleeblattgasse", "d": "A polished modern cocktail bar with a Styrian accent — one of the very best drinks addresses in the city.", "lat": 48.210358, "lon": 16.34564, "p": "v"}, {"n": "Kleinod", "cat": "party", "tier": "Cocktail bars", "a": "Innere Stadt (1st), Singerstraße", "d": "A backlit Old Town nook that has led Vienna's cocktail revival for a decade — clear, light spirits done beautifully.", "lat": 48.207591, "lon": 16.373302, "p": "v"}, {"n": "Barfly's Club", "cat": "party", "tier": "Late & loud", "a": "Neubau (7th), Esterházygasse", "d": "A legendary, encyclopaedic hotel bar — hundreds of spirits and a bartender who has seen it all.", "lat": 48.196915, "lon": 16.349071, "p": "v"}, {"n": "Dino's Apothecary Bar", "cat": "party", "tier": "Cocktail bars", "a": "Innere Stadt (1st)", "d": "An apothecary-themed cocktail bar mixing with precision and theatre — a favourite of the city's drinks crowd.", "lat": 48.213296, "lon": 16.370836, "p": "v"}, {"n": "Atmosphere Rooftop Bar", "cat": "party", "tier": "Rooftops", "a": "Ringstrasse (1st), The Ritz-Carlton", "d": "The city's best hotel rooftop — cocktails over the Ringstrasse rooftops, with St Stephen's spire in the distance.", "lat": 48.202382, "lon": 16.376422, "p": "v"}, {"n": "Das Loft Bar", "cat": "party", "tier": "Rooftops", "a": "Innere Stadt (1st), SO/ Vienna, Danube Canal", "d": "A glass-walled 18th-floor bar under a vast coloured-glass ceiling — the widest view over the city.", "lat": 48.21272, "lon": 16.37979, "p": "v"}]}
+{
+  "center": [
+    48.208354,
+    16.372504
+  ],
+  "venues": [
+    {
+      "n": "Hotel Sacher Wien",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Innere Stadt (1st), behind the State Opera",
+      "d": "The definitive Viennese address since 1876 \u2014 family-owned, opera-facing, and the birthplace of the Sachertorte.",
+      "lat": 48.204043,
+      "lon": 16.369771,
+      "photos": []
+    },
+    {
+      "n": "Rosewood Vienna",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Innere Stadt (1st), Petersplatz",
+      "d": "A restored 19th-century palace on Petersplatz where Mozart once lived \u2014 Rosewood's polished contemporary hand on the Old Town.",
+      "lat": 48.20962,
+      "lon": 16.369616,
+      "photos": []
+    },
+    {
+      "n": "Park Hyatt Vienna",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Innere Stadt (1st), Am Hof / Goldenes Quartier",
+      "d": "A former bank turned calm, contemporary grand hotel in the luxury-shopping quarter \u2014 the spa pool sits in the old vault.",
+      "lat": 48.210434,
+      "lon": 16.36841,
+      "photos": []
+    },
+    {
+      "n": "Hotel Imperial, a Luxury Collection Hotel",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Ringstrasse (1st), K\u00e4rntner Ring",
+      "d": "A private palace of 1863 on the Ring \u2014 the grande dame that has housed nearly every head of state to visit Vienna.",
+      "lat": 48.204637,
+      "lon": 16.370322,
+      "photos": []
+    },
+    {
+      "n": "The Ritz-Carlton, Vienna",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Ringstrasse (1st), Schubertring",
+      "d": "Four linked 19th-century palaces on the Ring \u2014 Ritz-Carlton service behind a historic fa\u00e7ade, with the city's best hotel rooftop bar.",
+      "lat": 48.20225,
+      "lon": 16.37607,
+      "photos": []
+    },
+    {
+      "n": "Anantara Palais Hansen Vienna",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Ringstrasse (1st), Schottenring",
+      "d": "A Theophil Hansen palace on the Ring, reborn under Anantara \u2014 grand bones, a serious spa, a Michelin kitchen within.",
+      "lat": 48.216345,
+      "lon": 16.368435,
+      "photos": []
+    },
+    {
+      "n": "Hotel Bristol, a Luxury Collection Hotel",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Ringstrasse (1st), opposite the State Opera",
+      "d": "A 1892 landmark facing the opera house \u2014 fin-de-si\u00e8cle antiques, Austrian art, and a quietly grand sense of occasion.",
+      "lat": 48.204637,
+      "lon": 16.370322,
+      "photos": []
+    },
+    {
+      "n": "Almanac Palais Vienna",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Landstra\u00dfe (3rd), facing the Stadtpark",
+      "d": "Two neo-Baroque palaces across from the Stadtpark \u2014 suite-led, art-filled, with an original Klimt on the wall.",
+      "lat": 48.216345,
+      "lon": 16.368435,
+      "photos": []
+    },
+    {
+      "n": "The Amauris Vienna",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Ringstrasse (1st), near the State Opera",
+      "d": "A small, discreet Relais & Ch\u00e2teaux townhouse a step from the opera \u2014 private, refined, all quiet luxury.",
+      "lat": 48.201651,
+      "lon": 16.371009,
+      "photos": []
+    },
+    {
+      "n": "Hotel Sans Souci Wien",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Neubau (7th), MuseumsQuartier",
+      "d": "A design-led house beside the MuseumsQuartier \u2014 art on the walls, a fine spa, a younger sense of glamour.",
+      "lat": 48.204591,
+      "lon": 16.356506,
+      "photos": []
+    },
+    {
+      "n": "Grand Hotel Wien",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Ringstrasse (1st), K\u00e4rntner Ring",
+      "d": "One of the four historic grand hotels of the Ring \u2014 classical grandeur and a celebrated rooftop dining room.",
+      "lat": 48.202134,
+      "lon": 16.371967,
+      "photos": []
+    },
+    {
+      "n": "Mandarin Oriental, Vienna",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Innere Stadt (1st), Riemergasse",
+      "d": "The group's first Austrian house \u2014 a former court building reborn with Mandarin Oriental precision and a landmark spa.",
+      "lat": 48.207068,
+      "lon": 16.377204,
+      "photos": []
+    },
+    {
+      "n": "Palais Coburg Residenz",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Innere Stadt (1st), Coburgbastei",
+      "d": "A suites-only palace with one of the world's great wine cellars \u2014 and a two-star kitchen behind its columns.",
+      "lat": 48.205781,
+      "lon": 16.376745,
+      "photos": []
+    },
+    {
+      "n": "Andaz Vienna Am Belvedere",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Landstra\u00dfe (3rd), Belvedere / main station",
+      "d": "A Renzo Piano-designed tower by the Belvedere gardens \u2014 contemporary, light, with a rooftop pool over the city.",
+      "lat": 48.184775,
+      "lon": 16.382805,
+      "photos": []
+    },
+    {
+      "n": "Le M\u00e9ridien Vienna",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Ringstrasse (1st), Opernring",
+      "d": "A design hotel on the Ring between the opera and the Hofburg \u2014 contemporary art and an easy, central polish.",
+      "lat": 48.202645,
+      "lon": 16.366188,
+      "photos": []
+    },
+    {
+      "n": "Hotel MOTTO, Vienna",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Mariahilf (6th), Mariahilfer Stra\u00dfe",
+      "d": "A theatrical, 1900s-Paris-inspired house with the city's most fashionable rooftop restaurant.",
+      "lat": 48.198326,
+      "lon": 16.350653,
+      "photos": []
+    },
+    {
+      "n": "The Guesthouse Vienna",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Innere Stadt (1st), Albertinaplatz",
+      "d": "A Terence Conran-designed boutique beside the Albertina \u2014 warm, residential, beautifully made.",
+      "lat": 48.205173,
+      "lon": 16.369009,
+      "photos": []
+    },
+    {
+      "n": "Hotel Josefine",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Alsergrund (9th), near the university",
+      "d": "A characterful literary-themed townhouse just off the Ring \u2014 individual, well-priced, quietly charming.",
+      "lat": 48.210801,
+      "lon": 16.418995,
+      "photos": []
+    },
+    {
+      "n": "Hollmann Beletage Design & Boutique Hotel",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Innere Stadt (1st), near Schwedenplatz",
+      "d": "A hidden design guesthouse on the first floor of a historic building \u2014 intimate, personal, central.",
+      "lat": 48.210575,
+      "lon": 16.376054,
+      "photos": []
+    },
+    {
+      "n": "Altstadt Vienna",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Neubau (7th), Spittelberg",
+      "d": "An art-filled townhouse hotel in the bohemian Spittelberg lanes \u2014 every room individually designed.",
+      "lat": 48.204818,
+      "lon": 16.35134,
+      "photos": []
+    },
+    {
+      "n": "Steirereck im Stadtpark",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Landstra\u00dfe (3rd), Stadtpark",
+      "d": "Heinz and Birgit Reitbauer's temple of modern Austrian cooking \u2014 one of only two three-star tables in the country.",
+      "lat": 48.20446,
+      "lon": 16.381279,
+      "photos": []
+    },
+    {
+      "n": "Restaurant Amador",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "D\u00f6bling (19th), Hajszan Neumann winery",
+      "d": "Juan Amador's avant-garde cooking in the vaulted cellars of a Grinzing winery \u2014 Austria's other three-star.",
+      "lat": 48.253918,
+      "lon": 16.358592,
+      "photos": []
+    },
+    {
+      "n": "Silvio Nickol Gourmet Restaurant",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Innere Stadt (1st), Palais Coburg",
+      "d": "Precise, contemporary cooking behind the columns of Palais Coburg \u2014 beside one of the world's great wine cellars.",
+      "lat": 48.205781,
+      "lon": 16.376745,
+      "photos": []
+    },
+    {
+      "n": "Konstantin Filippou",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Innere Stadt (1st), Dominikanerbastei",
+      "d": "Greek-Austrian roots and purist modern technique in a dark, elegant room with the kitchen in full view.",
+      "lat": 48.210762,
+      "lon": 16.37978,
+      "photos": []
+    },
+    {
+      "n": "Mraz & Sohn",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Brigittenau (20th), Wallensteinstra\u00dfe",
+      "d": "Lukas and Markus Mraz's witty, wildly individual cooking \u2014 Austria's most talked-about kitchen, and Falstaff's Chef of the Year.",
+      "lat": 48.231364,
+      "lon": 16.376063,
+      "photos": []
+    },
+    {
+      "n": "Restaurant Doubek",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Josefstadt (8th)",
+      "d": "Stefan Doubek won two stars before turning 32 \u2014 meticulous cooking over four live fires, with quiet Japanese influences.",
+      "lat": 48.213166,
+      "lon": 16.349407,
+      "photos": []
+    },
+    {
+      "n": "TIAN Restaurant Vienna",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Innere Stadt (1st), Himmelpfortgasse",
+      "d": "Vegetarian fine dining that earned a star on its own terms \u2014 refined, seasonal, entirely meat-free.",
+      "lat": 48.205263,
+      "lon": 16.374529,
+      "photos": []
+    },
+    {
+      "n": "JOLA",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Innere Stadt (1st)",
+      "d": "A rare starred vegan kitchen \u2014 inventive, produce-led cooking that never feels like it's going without.",
+      "lat": 48.213191,
+      "lon": 16.371313,
+      "photos": []
+    },
+    {
+      "n": "Glasswing by Alexandru Simon",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Wieden (4th)",
+      "d": "French technique and quiet ambition \u2014 one of the city's brightest recent stars, and a Falstaff favourite.",
+      "lat": 48.192314,
+      "lon": 16.371367,
+      "photos": []
+    },
+    {
+      "n": "APRON",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Landstra\u00dfe (3rd)",
+      "d": "Creative, internationally-inflected tasting menus from a kitchen on a fast rise up the guides.",
+      "lat": 48.208354,
+      "lon": 16.372504,
+      "photos": []
+    },
+    {
+      "n": "Pramerl & the Wolf",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Alsergrund (9th)",
+      "d": "A former corner tavern turned surprise-menu star \u2014 casual on the surface, seriously good beneath.",
+      "lat": 48.222071,
+      "lon": 16.364853,
+      "photos": []
+    },
+    {
+      "n": "Restaurant Edvard",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Ringstrasse (1st), Anantara Palais Hansen",
+      "d": "Paul Gamauf's refined, produce-driven cooking inside the Palais Hansen on the Ring.",
+      "lat": 48.185252,
+      "lon": 16.313908,
+      "photos": []
+    },
+    {
+      "n": "Esszimmer",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Innere Stadt (1st)",
+      "d": "Modern cooking with Italian and Asian threads \u2014 a quietly assured one-star in the Old Town.",
+      "lat": 48.208354,
+      "lon": 16.372504,
+      "photos": []
+    },
+    {
+      "n": "Herzig",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Rudolfsheim-F\u00fcnfhaus (15th)",
+      "d": "Modern cooking and a deep wine list in a smart room away from the tourist centre.",
+      "lat": 48.200155,
+      "lon": 16.316856,
+      "photos": []
+    },
+    {
+      "n": "aend",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Mariahilf (6th)",
+      "d": "An avant-garde, ingredient-led kitchen with a cult following \u2014 precise, minimal, quietly radical.",
+      "lat": 48.202049,
+      "lon": 16.385653,
+      "photos": []
+    },
+    {
+      "n": "Z'SOM",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Wieden (4th)",
+      "d": "South American technique meets Central European produce \u2014 a fresh, surprising one-star.",
+      "lat": 48.197536,
+      "lon": 16.371992,
+      "photos": []
+    },
+    {
+      "n": "Le Ciel by Toni M\u00f6rwald",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Ringstrasse (1st), Grand Hotel Wien",
+      "d": "Classical fine dining on the Grand Hotel's roof \u2014 a long-held favourite for a dressed-up Viennese evening.",
+      "lat": 48.202147,
+      "lon": 16.37206,
+      "photos": []
+    },
+    {
+      "n": "Fabios",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Innere Stadt (1st), Tuchlauben",
+      "d": "The city's most enduringly fashionable Italian \u2014 a see-and-be-seen room off the Graben.",
+      "lat": 48.209968,
+      "lon": 16.36981,
+      "photos": []
+    },
+    {
+      "n": "Zum Schwarzen Kameel",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Innere Stadt (1st), Bognergasse",
+      "d": "A 1618 institution of Jugendstil tiles and open sandwiches \u2014 Viennese classics where the city has always gathered.",
+      "lat": 48.209995,
+      "lon": 16.368317,
+      "photos": []
+    },
+    {
+      "n": "Skopik & Lohn",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Leopoldstadt (2nd), Leopoldsgasse",
+      "d": "A buzzy, ink-ceilinged neighbourhood restaurant doing modern Viennese cooking with real flair.",
+      "lat": 48.220165,
+      "lon": 16.376648,
+      "photos": []
+    },
+    {
+      "n": "Mochi",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Leopoldstadt (2nd), Praterstra\u00dfe",
+      "d": "Lively, informal Japanese cooking with modern turns \u2014 one of the most-loved everyday tables in the city.",
+      "lat": 48.213546,
+      "lon": 16.381769,
+      "photos": []
+    },
+    {
+      "n": "Meierei im Stadtpark",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Landstra\u00dfe (3rd), Stadtpark",
+      "d": "Steirereck's relaxed little sister \u2014 a legendary goulash and a cheese counter to lose an afternoon to.",
+      "lat": 48.20446,
+      "lon": 16.381279,
+      "photos": []
+    },
+    {
+      "n": "Gasthaus P\u00f6schl",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Innere Stadt (1st), Weihburggasse",
+      "d": "A tiny, warm tavern doing Austrian home cooking properly \u2014 the kind of room Vienna does best.",
+      "lat": 48.206657,
+      "lon": 16.373858,
+      "photos": []
+    },
+    {
+      "n": "Plachutta Wollzeile",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Innere Stadt (1st), Wollzeile",
+      "d": "The temple of Tafelspitz \u2014 boiled beef in copper pots, carved and served with real ceremony.",
+      "lat": 48.207548,
+      "lon": 16.378755,
+      "photos": []
+    },
+    {
+      "n": "Figlm\u00fcller",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Innere Stadt (1st), Wollzeile / B\u00e4ckerstra\u00dfe",
+      "d": "Home of the schnitzel that overhangs the plate \u2014 a Viennese rite of passage since 1905.",
+      "lat": 48.209421,
+      "lon": 16.374843,
+      "photos": []
+    },
+    {
+      "n": "Griechenbeisl",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Innere Stadt (1st), Fleischmarkt",
+      "d": "Vienna's oldest inn, from 1447 \u2014 vaulted rooms where Beethoven, Schubert and Mark Twain all signed the wall.",
+      "lat": 48.210746,
+      "lon": 16.377265,
+      "photos": []
+    },
+    {
+      "n": "TIAN Bistro",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Neubau (7th), Spittelberg",
+      "d": "TIAN's easy-going bistro \u2014 seasonal, regional vegetarian and vegan cooking at an everyday price.",
+      "lat": 48.202962,
+      "lon": 16.354853,
+      "photos": []
+    },
+    {
+      "n": "Caf\u00e9 Central",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Innere Stadt (1st), Herrengasse",
+      "d": "The grand literary coffee house of Loos, Trotsky and Freud \u2014 vaulted, marble, and gloriously Viennese.",
+      "lat": 48.210367,
+      "lon": 16.365387,
+      "photos": []
+    },
+    {
+      "n": "Caf\u00e9 Landtmann",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Ringstrasse (1st), opposite the Burgtheater",
+      "d": "Vienna's most sophisticated coffee house since 1873 \u2014 the Ring caf\u00e9 of politicians, writers and families.",
+      "lat": 48.211562,
+      "lon": 16.36145,
+      "photos": []
+    },
+    {
+      "n": "Demel",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Innere Stadt (1st), Kohlmarkt",
+      "d": "The former imperial court confectioner, founded 1786 \u2014 part patisserie, part museum, entirely Viennese.",
+      "lat": 48.208605,
+      "lon": 16.367211,
+      "photos": []
+    },
+    {
+      "n": "Caf\u00e9 Sperl",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Mariahilf (6th), Gumpendorfer Stra\u00dfe",
+      "d": "An 1880 coffee house barely changed in a century \u2014 billiard tables, newspapers, and the real, unhurried thing.",
+      "lat": 48.199838,
+      "lon": 16.36117,
+      "photos": []
+    },
+    {
+      "n": "Sch\u00f6nbrunn Palace",
+      "cat": "do",
+      "tier": "",
+      "a": "Hietzing (13th district)",
+      "d": "The Habsburgs' 1,441-room summer residence, all Rococo gilding and Maria Theresa yellow, with formal parterres climbing to the hilltop Gloriette. A private after-hours or Grand Tour guided visit spares multi-generational groups the queues, and the park's gravel walks are easy for elders and children alike.",
+      "lat": 48.184989,
+      "lon": 16.311568,
+      "photos": []
+    },
+    {
+      "n": "Tiergarten Sch\u00f6nbrunn (Vienna Zoo)",
+      "cat": "do",
+      "tier": "",
+      "a": "Hietzing (13th district)",
+      "d": "The world's oldest zoo still in operation, founded in 1752, with giant pandas and giraffes housed inside original Baroque pavilions. A reliable multi-generational win \u2014 grandparents and small children both delighted \u2014 set within the palace grounds.",
+      "lat": 48.184064,
+      "lon": 16.302137,
+      "photos": []
+    },
+    {
+      "n": "Hofburg Imperial Palace",
+      "cat": "do",
+      "tier": "",
+      "a": "Innere Stadt (1st district)",
+      "d": "Six centuries of Habsburg power in one sprawling complex of 18 wings and 19 courtyards, still the working seat of the Austrian president. The Imperial Apartments and Sisi Museum tell the real story of Empress Elisabeth beyond the films.",
+      "lat": 48.206329,
+      "lon": 16.365626,
+      "photos": []
+    },
+    {
+      "n": "Sisi Museum & Imperial Apartments",
+      "cat": "do",
+      "tier": "",
+      "a": "Innere Stadt (1st district)",
+      "d": "Empress Elisabeth's private world inside the Hofburg \u2014 her gymnastics equipment, death mask and the reconstructed court silver \u2014 laid out through Franz Joseph's living and audience rooms. A tightly curated hour that fascinates teenagers as much as elders.",
+      "lat": 48.211512,
+      "lon": 16.373819,
+      "photos": []
+    },
+    {
+      "n": "Spanish Riding School",
+      "cat": "do",
+      "tier": "",
+      "a": "Innere Stadt (1st district)",
+      "d": "The white Lipizzaner stallions performing haute \u00e9cole dressage in Fischer von Erlach's chandelier-lit Winter Riding School, a tradition unbroken since the 18th century. Book the gala performance, or the quieter morning training session with a private box for the family.",
+      "lat": 48.207307,
+      "lon": 16.366707,
+      "photos": []
+    },
+    {
+      "n": "Upper Belvedere",
+      "cat": "do",
+      "tier": "",
+      "a": "Landstra\u00dfe (3rd district)",
+      "d": "Prince Eugene's Baroque summer palace holds the world's largest Klimt collection \u2014 including 'The Kiss' in its own gilded room \u2014 above formal gardens sweeping down to the Lower Belvedere. The palace terrace offers one of the loveliest framed views of the city skyline.",
+      "lat": 48.191541,
+      "lon": 16.380888,
+      "photos": []
+    },
+    {
+      "n": "Lower Belvedere & Orangery",
+      "cat": "do",
+      "tier": "",
+      "a": "Landstra\u00dfe (3rd district)",
+      "d": "The quieter half of the Belvedere estate \u2014 Prince Eugene's private state rooms, the Marble Hall and the Hall of Grotesques \u2014 used for changing exhibitions. Combine with a stroll through the tiered French garden between the two palaces.",
+      "lat": 48.196661,
+      "lon": 16.379255,
+      "photos": []
+    },
+    {
+      "n": "Kunsthistorisches Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Innere Stadt / Ringstrasse (1st district)",
+      "d": "The Habsburgs' imperial art collection \u2014 the world's greatest holding of Bruegel, plus Vermeer, Vel\u00e1zquez, Raphael and Titian \u2014 under a domed staircase Klimt himself decorated. The palatial caf\u00e9 beneath the cupola is a destination in itself.",
+      "lat": 48.203739,
+      "lon": 16.361782,
+      "photos": []
+    },
+    {
+      "n": "Albertina",
+      "cat": "do",
+      "tier": "",
+      "a": "Innere Stadt (1st district)",
+      "d": "A former Habsburg residence above the opera holding one of the world's foremost graphic collections \u2014 D\u00fcrer's 'Young Hare', Monet, Picasso \u2014 shown alongside the restored imperial state rooms. Central, compact and elegant, ideal for a focused morning.",
+      "lat": 48.204636,
+      "lon": 16.368261,
+      "photos": []
+    },
+    {
+      "n": "Leopold Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Neubau / MuseumsQuartier (7th district)",
+      "d": "The world's largest Egon Schiele collection alongside Klimt's 'Death and Life' and a definitive survey of Viennese Modernism, in a luminous white cube in the MuseumsQuartier. The clearest single window into Vienna 1900.",
+      "lat": 48.20259,
+      "lon": 16.359067,
+      "photos": []
+    },
+    {
+      "n": "mumok (Museum moderner Kunst)",
+      "cat": "do",
+      "tier": "",
+      "a": "Neubau / MuseumsQuartier (7th district)",
+      "d": "Austria's largest museum of modern and contemporary art \u2014 Warhol, Picasso, Viennese Actionism \u2014 inside a windowless basalt monolith in the MuseumsQuartier. For collectors and design-minded travellers rather than first-timers.",
+      "lat": 48.20374,
+      "lon": 16.357833,
+      "photos": []
+    },
+    {
+      "n": "MAK \u2014 Museum of Applied Arts",
+      "cat": "do",
+      "tier": "",
+      "a": "Innere Stadt (1st district)",
+      "d": "Vienna's temple of design and decorative arts, from Wiener Werkst\u00e4tte silver and Thonet bentwood to Klimt's full-scale Stoclet Frieze cartoons. Essential for anyone furnishing a home or drawn to craft; its garden bar is a stylish evening spot.",
+      "lat": 48.20742,
+      "lon": 16.381507,
+      "photos": []
+    },
+    {
+      "n": "MuseumsQuartier",
+      "cat": "do",
+      "tier": "",
+      "a": "Neubau (7th district)",
+      "d": "One of the world's largest cultural complexes \u2014 Leopold, mumok, the Kunsthalle and Baroque courtyards filled with the signature painted 'Enzi' loungers. A relaxed base to graze between museums, with caf\u00e9s for those who prefer to sit while others tour.",
+      "lat": 48.203193,
+      "lon": 16.359342,
+      "photos": []
+    },
+    {
+      "n": "St. Stephen's Cathedral (Stephansdom)",
+      "cat": "do",
+      "tier": "",
+      "a": "Innere Stadt (1st district)",
+      "d": "Vienna's soaring Gothic heart, its 136-metre south tower the tallest church in Austria and its zigzag tiled roof a city emblem. Climb the 343 steps of the tower, or take the lift to the north tower with elders, and tour the catacombs below.",
+      "lat": 48.208492,
+      "lon": 16.373127,
+      "photos": []
+    },
+    {
+      "n": "Karlskirche (St. Charles's Church)",
+      "cat": "do",
+      "tier": "",
+      "a": "Wieden (4th district)",
+      "d": "Fischer von Erlach's Baroque masterpiece, its green copper dome flanked by two Trajan-style columns, built as a vow after the 1713 plague. A panorama lift rises into the cupola for a close look at the frescoes \u2014 a rare vantage that thrills all ages.",
+      "lat": 48.190788,
+      "lon": 16.365872,
+      "photos": []
+    },
+    {
+      "n": "Peterskirche (St. Peter's Church)",
+      "cat": "do",
+      "tier": "",
+      "a": "Innere Stadt (1st district)",
+      "d": "A jewel-box Baroque oval tucked just off the Graben, with a gilded pulpit, trompe-l'oeil dome and free lunchtime organ recitals. A quiet, discreet pause in the middle of the shopping streets.",
+      "lat": 48.209437,
+      "lon": 16.370011,
+      "photos": []
+    },
+    {
+      "n": "Vienna State Opera (Staatsoper)",
+      "cat": "do",
+      "tier": "",
+      "a": "Innere Stadt / Ringstrasse (1st district)",
+      "d": "One of the world's leading opera houses, staging a different work almost every night with an orchestra drawn from the Vienna Philharmonic. Reserve a private box; the guided backstage tour and elegant intermission suppers suit families building an evening together.",
+      "lat": 48.203286,
+      "lon": 16.369194,
+      "photos": []
+    },
+    {
+      "n": "Musikverein (Golden Hall)",
+      "cat": "do",
+      "tier": "",
+      "a": "Innere Stadt (1st district)",
+      "d": "The 'Golden Hall', home of the Vienna Philharmonic since 1870 and stage for the televised New Year's Concert, prized for acoustics considered among the finest on earth. A gilt-and-caryatid room where hearing a concert is the whole point of the trip for many.",
+      "lat": 48.211512,
+      "lon": 16.373819,
+      "photos": []
+    },
+    {
+      "n": "Wiener Konzerthaus",
+      "cat": "do",
+      "tier": "",
+      "a": "Landstra\u00dfe (3rd district)",
+      "d": "The city's other great hall, a 1913 building with four auditoriums whose programme ranges beyond classical into jazz and world music. The choice for a more adventurous evening, from September through June.",
+      "lat": 48.200649,
+      "lon": 16.377613,
+      "photos": []
+    },
+    {
+      "n": "Haus der Musik",
+      "cat": "do",
+      "tier": "",
+      "a": "Innere Stadt (1st district)",
+      "d": "An interactive sound museum in the former home of the Vienna Philharmonic, where you can 'conduct' a virtual orchestra and explore the physics of music. The rare cultural stop that genuinely absorbs children and grandparents at once.",
+      "lat": 48.203792,
+      "lon": 16.373155,
+      "photos": []
+    },
+    {
+      "n": "Vienna Boys' Choir at the Hofburgkapelle",
+      "cat": "do",
+      "tier": "",
+      "a": "Innere Stadt (1st district)",
+      "d": "The choir founded in 1498 sings Sunday Mass in the Hofburg's Imperial Chapel, an intimate and moving ritual, and performs full concerts at its own MuTh hall. Reserved seats spare families the scramble for the small chapel.",
+      "lat": 48.198703,
+      "lon": 16.374468,
+      "photos": []
+    },
+    {
+      "n": "The Ringstrasse",
+      "cat": "do",
+      "tier": "",
+      "a": "Innere Stadt (1st district)",
+      "d": "The 5.3-km grand boulevard Franz Joseph laid over the old city walls, lined with the Opera, Parliament, City Hall, university and twin museums \u2014 the finest ensemble of 19th-century monumental architecture in Europe. Best seen from a private car or the vintage tram that circles it.",
+      "lat": 48.206168,
+      "lon": 16.366691,
+      "photos": []
+    },
+    {
+      "n": "Austrian Parliament Building",
+      "cat": "do",
+      "tier": "",
+      "a": "Innere Stadt / Ringstrasse (1st district)",
+      "d": "Theophil Hansen's Greek-temple statement of democracy, fronted by the Pallas Athene fountain and newly restored throughout. Guided tours reveal the columned halls; the rooftop terrace and its restaurant offer a fresh angle on the Ring.",
+      "lat": 48.208087,
+      "lon": 16.358465,
+      "photos": []
+    },
+    {
+      "n": "Vienna City Hall (Rathaus) & Rathausplatz",
+      "cat": "do",
+      "tier": "",
+      "a": "Innere Stadt / Ringstrasse (1st district)",
+      "d": "A soaring neo-Gothic pile whose square hosts the year's great open-air events \u2014 the Christmas market, summer film festival and an ice-skating 'Dream on Ice' in winter. A lively family gathering point at every season.",
+      "lat": 48.210826,
+      "lon": 16.356573,
+      "photos": []
+    },
+    {
+      "n": "Stadtpark",
+      "cat": "do",
+      "tier": "",
+      "a": "Innere Stadt / Landstra\u00dfe (1st/3rd district)",
+      "d": "Vienna's first public park along the river Wien, home to the gilded Johann Strauss II monument \u2014 the city's most photographed statue. A gentle, central green break with a pond and caf\u00e9, easy for every generation.",
+      "lat": 48.202886,
+      "lon": 16.379724,
+      "photos": []
+    },
+    {
+      "n": "Burggarten & Palm House",
+      "cat": "do",
+      "tier": "",
+      "a": "Innere Stadt (1st district)",
+      "d": "The former imperial private garden behind the Hofburg, with a Mozart monument in flowers and an Art Nouveau glass Palmenhaus sheltering a butterfly house and an elegant caf\u00e9-brasserie. A discreet, sheltered oasis a step from the Ring.",
+      "lat": 48.184217,
+      "lon": 16.302903,
+      "photos": []
+    },
+    {
+      "n": "Volksgarten Rose Garden",
+      "cat": "do",
+      "tier": "",
+      "a": "Innere Stadt (1st district)",
+      "d": "A formal French garden on the Ring with thousands of rose bushes framing the neoclassical Theseus Temple, best in June bloom. A romantic, quiet counterpoint to the grand buildings around it.",
+      "lat": 48.208035,
+      "lon": 16.361787,
+      "photos": []
+    },
+    {
+      "n": "Prater & Wiener Riesenrad",
+      "cat": "do",
+      "tier": "",
+      "a": "Leopoldstadt (2nd district)",
+      "d": "The great public park with its historic Giant Ferris Wheel of 1897, immortalised in 'The Third Man', turning slowly over the city. Hire a private gondola with dinner service, then let children loose in the funfair and adults walk the leafy central avenue.",
+      "lat": 48.216741,
+      "lon": 16.395909,
+      "photos": []
+    },
+    {
+      "n": "Hundertwasserhaus",
+      "cat": "do",
+      "tier": "",
+      "a": "Landstra\u00dfe (3rd district)",
+      "d": "Friedensreich Hundertwasser's riotously colourful 1985 municipal apartment block, with undulating floors, onion domes and trees growing from the windows. A quick, joyful photo stop that breaks up the imperial grandeur \u2014 best paired with the museum nearby.",
+      "lat": 48.207384,
+      "lon": 16.393941,
+      "photos": []
+    },
+    {
+      "n": "Kunst Haus Wien \u2014 Museum Hundertwasser",
+      "cat": "do",
+      "tier": "",
+      "a": "Landstra\u00dfe (3rd district)",
+      "d": "The artist's own museum in a rebuilt Thonet furniture factory, its wavy floors and green fa\u00e7ade a full immersion in his ecological, anti-straight-line philosophy. The permanent Hundertwasser collection plus rotating photography shows, with a garden caf\u00e9.",
+      "lat": 48.20742,
+      "lon": 16.381507,
+      "photos": []
+    },
+    {
+      "n": "Naschmarkt",
+      "cat": "do",
+      "tier": "",
+      "a": "Wieden / Mariahilf (4th/6th district)",
+      "d": "Vienna's great 1.5-km market of 120-plus stalls \u2014 spices, cheeses, olives, and Middle Eastern and Asian produce that make vegetarian and Indian-friendly dining genuinely easy. Graze the mezze and falafel counters; the Saturday flea market is a cult ritual.",
+      "lat": 48.19818,
+      "lon": 16.362622,
+      "photos": []
+    },
+    {
+      "n": "Caf\u00e9 Central",
+      "cat": "do",
+      "tier": "",
+      "a": "Innere Stadt (1st district)",
+      "d": "The vaulted, cathedral-like coffeehouse where Trotsky and Freud once sat, now serving Melange and towering pastries under marble columns. Grand and famous \u2014 arrive early or reserve to avoid the queue with a group.",
+      "lat": 48.210367,
+      "lon": 16.365387,
+      "photos": []
+    },
+    {
+      "n": "Caf\u00e9 Landtmann",
+      "cat": "do",
+      "tier": "",
+      "a": "Innere Stadt / Ringstrasse (1st district)",
+      "d": "Freud's regular caf\u00e9 on the Ring by the Burgtheater, a wood-panelled institution since 1873 with a broad terrace and a proper kitchen for lunch, not just cake. The most comfortable of the grand caf\u00e9s for a leisurely multi-generational sit.",
+      "lat": 48.211562,
+      "lon": 16.36145,
+      "photos": []
+    },
+    {
+      "n": "Caf\u00e9 Sacher & the Original Sachertorte",
+      "cat": "do",
+      "tier": "",
+      "a": "Innere Stadt (1st district)",
+      "d": "The plush caf\u00e9 of the Hotel Sacher, home of the original 1832 Sachertorte, served behind the Opera in red-velvet rooms. The definitive Vienna cake ritual; the box of torte travels home well as a gift.",
+      "lat": 48.211512,
+      "lon": 16.373819,
+      "photos": []
+    },
+    {
+      "n": "Demel",
+      "cat": "do",
+      "tier": "",
+      "a": "Innere Stadt (1st district)",
+      "d": "The former imperial court confectioner on the Kohlmarkt, where white-gloved staff serve pastries beneath mirrored salons and you can watch the bakers at work. Old-world theatre and superb sweets, moments from the Hofburg.",
+      "lat": 48.208605,
+      "lon": 16.367211,
+      "photos": []
+    },
+    {
+      "n": "Caf\u00e9 Sperl",
+      "cat": "do",
+      "tier": "",
+      "a": "Mariahilf (6th district)",
+      "d": "A near-untouched 1880 coffeehouse with billiard tables, newspaper racks and worn Thonet chairs \u2014 the archetype away from the tourist crush. The place to linger over an Einsp\u00e4nner and read, exactly as the Viennese do.",
+      "lat": 48.199838,
+      "lon": 16.36117,
+      "photos": []
+    },
+    {
+      "n": "The Graben & Kohlmarkt",
+      "cat": "do",
+      "tier": "",
+      "a": "Innere Stadt (1st district)",
+      "d": "The elegant pedestrian spine of the old city, from the Baroque Plague Column down to the luxury houses of the Kohlmarkt \u2014 Cartier, Louis Vuitton and the like \u2014 ending at the Hofburg gate. Vienna's discreet address for shopping and window-strolling.",
+      "lat": 48.149548,
+      "lon": 16.43735,
+      "photos": []
+    },
+    {
+      "n": "Spittelberg quarter",
+      "cat": "do",
+      "tier": "",
+      "a": "Neubau (7th district)",
+      "d": "A pocket of cobbled Biedermeier lanes behind the MuseumsQuartier, full of small galleries, artisan shops, wine bars and a beloved Advent market. The 7th district at its most walkable and characterful \u2014 good for an unhurried afternoon.",
+      "lat": 48.203354,
+      "lon": 16.355452,
+      "photos": []
+    },
+    {
+      "n": "Grinzing & the Heuriger wine taverns",
+      "cat": "do",
+      "tier": "",
+      "a": "D\u00f6bling (19th district)",
+      "d": "A wine-village on the city's northern edge where growers pour their own Gr\u00fcner Veltliner in leafy courtyards beside Biedermeier villas. A relaxed, convivial evening of new wine and buffet food; a private car up and back suits a larger party.",
+      "lat": 48.255998,
+      "lon": 16.341806,
+      "photos": []
+    },
+    {
+      "n": "Kahlenberg viewpoint",
+      "cat": "do",
+      "tier": "",
+      "a": "D\u00f6bling (19th district)",
+      "d": "The Vienna Woods summit above the vineyards, with a sweeping terrace over the whole city and the Danube, plus a caf\u00e9 for a gentle finish. The classic drive-up panorama \u2014 no exertion required, dazzling after dark.",
+      "lat": 48.276342,
+      "lon": 16.333068,
+      "photos": []
+    },
+    {
+      "n": "Nussberg vineyard walk",
+      "cat": "do",
+      "tier": "",
+      "a": "D\u00f6bling (19th district)",
+      "d": "Terraced vineyards on the city's edge where open-air wine taverns like Wieninger and Sirbu look straight down over Vienna at sunset. A quietly spectacular alternative to Grinzing for a glass with a view.",
+      "lat": 48.242972,
+      "lon": 16.355678,
+      "photos": []
+    },
+    {
+      "n": "Zentralfriedhof (Central Cemetery)",
+      "cat": "do",
+      "tier": "",
+      "a": "Simmering (11th district)",
+      "d": "One of Europe's largest cemeteries, with honorary graves of Beethoven, Brahms, Schubert and the Strauss family clustered near a monumental Art Nouveau church. A surprisingly serene, parkland pilgrimage for music lovers.",
+      "lat": 48.149334,
+      "lon": 16.438663,
+      "photos": []
+    },
+    {
+      "n": "Secession Building & Beethoven Frieze",
+      "cat": "do",
+      "tier": "",
+      "a": "Innere Stadt / Wieden (1st district)",
+      "d": "The gold-domed 1898 manifesto of the Vienna Secession \u2014 'To every age its art' over the door \u2014 sheltering Klimt's monumental Beethoven Frieze in the basement. A compact, essential stop for the Vienna 1900 story.",
+      "lat": 48.211512,
+      "lon": 16.373819,
+      "photos": []
+    },
+    {
+      "n": "Wachau Valley (day trip)",
+      "cat": "do",
+      "tier": "",
+      "a": "Lower Austria \u2014 about 1 hour west",
+      "d": "A UNESCO-listed stretch of the Danube between Melk and Krems, terraced with apricot orchards and world-class Gr\u00fcner Veltliner and Riesling vineyards, threaded with river villages. A private car or chartered boat makes for a superb, unhurried day out of the city.",
+      "lat": 48.194846,
+      "lon": 16.290388,
+      "photos": []
+    },
+    {
+      "n": "Melk Abbey",
+      "cat": "do",
+      "tier": "",
+      "a": "Lower Austria \u2014 about 1 hour west (Wachau)",
+      "d": "A vast ochre Benedictine abbey on a bluff over the Danube, its Baroque library and gilded church among Europe's great interiors. The natural anchor for a Wachau day, ideally reached before the tour coaches.",
+      "lat": 48.212562,
+      "lon": 16.363994,
+      "photos": []
+    },
+    {
+      "n": "D\u00fcrnstein",
+      "cat": "do",
+      "tier": "",
+      "a": "Lower Austria \u2014 about 1 hour west (Wachau)",
+      "d": "The blue-and-white Baroque abbey tower and the castle ruin where Richard the Lionheart was held make this the prettiest Wachau village. Walk its single lane, taste at a riverside cellar, then continue down the Danube.",
+      "lat": 48.208354,
+      "lon": 16.372504,
+      "photos": []
+    },
+    {
+      "n": "Bratislava (day trip)",
+      "cat": "do",
+      "tier": "",
+      "a": "Slovakia \u2014 about 75 minutes east",
+      "d": "The Slovak capital, its compact old town crowned by a hilltop castle, reached in 75 minutes by the fast Twin City Liner catamaran along the Danube. An easy second-country outing \u2014 carry passports, as it crosses a border.",
+      "lat": 48.197381,
+      "lon": 16.367324,
+      "photos": []
+    },
+    {
+      "n": "Klosterneuburg Monastery",
+      "cat": "do",
+      "tier": "",
+      "a": "Lower Austria \u2014 about 20 minutes north",
+      "d": "A grand Augustinian monastery just outside the city, with the priceless enamelled Verdun Altar of 1181, imperial state rooms and one of Austria's oldest wineries in its cellars. A short, rich half-day with a wine tasting to close.",
+      "lat": 48.17788,
+      "lon": 16.332372,
+      "photos": []
+    },
+    {
+      "n": "Schloss Hof",
+      "cat": "do",
+      "tier": "",
+      "a": "Lower Austria \u2014 about 45 minutes east",
+      "d": "Prince Eugene's restored country palace on the Marchfeld plain, with terraced Baroque gardens, a working estate farm and animals that charm younger visitors. A calmer, greener imperial day trip than the city palaces.",
+      "lat": 48.258062,
+      "lon": 16.399999,
+      "photos": []
+    },
+    {
+      "n": "Loos American Bar",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "Innere Stadt (1st), K\u00e4rntner Durchgang",
+      "d": "Adolf Loos's 1908 jewel-box in onyx and marble \u2014 the first cocktail bar in Vienna, and a landmark of modern design.",
+      "lat": 48.207159,
+      "lon": 16.369087,
+      "photos": []
+    },
+    {
+      "n": "T\u00fcr 7",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Josefstadt (8th), Buchfeldgasse",
+      "d": "A ring-the-bell speakeasy that tops the national bar rankings \u2014 inventive drinks and a warm, in-the-know room.",
+      "lat": 48.210136,
+      "lon": 16.353358,
+      "photos": []
+    },
+    {
+      "n": "Josef Cocktailbar",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Innere Stadt (1st), Kleeblattgasse",
+      "d": "A polished modern cocktail bar with a Styrian accent \u2014 one of the very best drinks addresses in the city.",
+      "lat": 48.210358,
+      "lon": 16.34564,
+      "photos": []
+    },
+    {
+      "n": "Kleinod",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Innere Stadt (1st), Singerstra\u00dfe",
+      "d": "A backlit Old Town nook that has led Vienna's cocktail revival for a decade \u2014 clear, light spirits done beautifully.",
+      "lat": 48.207591,
+      "lon": 16.373302,
+      "photos": []
+    },
+    {
+      "n": "Barfly's Club",
+      "cat": "party",
+      "tier": "Late & loud",
+      "a": "Neubau (7th), Esterh\u00e1zygasse",
+      "d": "A legendary, encyclopaedic hotel bar \u2014 hundreds of spirits and a bartender who has seen it all.",
+      "lat": 48.196915,
+      "lon": 16.349071,
+      "photos": []
+    },
+    {
+      "n": "Dino's Apothecary Bar",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Innere Stadt (1st)",
+      "d": "An apothecary-themed cocktail bar mixing with precision and theatre \u2014 a favourite of the city's drinks crowd.",
+      "lat": 48.213296,
+      "lon": 16.370836,
+      "photos": []
+    },
+    {
+      "n": "Atmosphere Rooftop Bar",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "Ringstrasse (1st), The Ritz-Carlton",
+      "d": "The city's best hotel rooftop \u2014 cocktails over the Ringstrasse rooftops, with St Stephen's spire in the distance.",
+      "lat": 48.202382,
+      "lon": 16.376422,
+      "photos": []
+    },
+    {
+      "n": "Das Loft Bar",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "Innere Stadt (1st), SO/ Vienna, Danube Canal",
+      "d": "A glass-walled 18th-floor bar under a vast coloured-glass ceiling \u2014 the widest view over the city.",
+      "lat": 48.21272,
+      "lon": 16.37979,
+      "photos": []
+    }
+  ]
+}

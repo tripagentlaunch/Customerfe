@@ -1,1 +1,638 @@
-{"center": [22.572646, 88.363895], "venues": [{"n": "The Oberoi Grand, Kolkata", "cat": "stay", "tier": "Ultra", "a": "Chowringhee (Jawaharlal Nehru Road)", "d": "The 'Grande Dame of Chowringhee' — a colonnaded 1880s landmark and the definitive luxury address in the city for over a century.", "lat": 22.561444, "lon": 88.351277, "p": "v"}, {"n": "Taj Bengal, Kolkata", "cat": "stay", "tier": "Ultra", "a": "Alipore (near the Zoo & Belvedere)", "d": "The Taj's leafy Alipore flagship since 1989 — a grand atrium house in the city's most gracious residential quarter.", "lat": 22.537805, "lon": 88.334253, "p": "v"}, {"n": "ITC Royal Bengal, a Luxury Collection Hotel, Kolkata", "cat": "stay", "tier": "Grand", "a": "New Town / Rajarhat (near the CBD)", "d": "A vast LEED-Platinum modern palace and the newest apex hotel in the city — Bengal grandeur at scale.", "lat": 22.592253, "lon": 88.475212, "p": "a"}, {"n": "JW Marriott Hotel Kolkata", "cat": "stay", "tier": "Grand", "a": "CBD-adjacent (JBS Haldane Avenue, near Science City)", "d": "A polished contemporary JW with a striking infinity pool — the sharp business-and-wedding house on the eastern flank.", "lat": 22.548032, "lon": 88.399208, "p": "v"}, {"n": "The Park Kolkata", "cat": "stay", "tier": "Luxury", "a": "Park Street (17 Park Street)", "d": "India's original design hotel and the beating heart of Park Street nightlife — four bars and clubs under one roof.", "lat": 22.55405, "lon": 88.351867, "p": "v"}, {"n": "ITC Sonar, Kolkata", "cat": "stay", "tier": "Luxury", "a": "CBD / EM Bypass (near Science City)", "d": "A garden-and-water resort within the city — lagoon-set lawns, a celebrated spa, and one of India's greenest luxury hotels.", "lat": 22.544904, "lon": 88.397851, "p": "v"}, {"n": "Taj Taj City Centre New Town, Kolkata", "cat": "stay", "tier": "Premium", "a": "New Town / Rajarhat (near the airport & IT corridor)", "d": "A crisp, contemporary Taj beside the New Town business district — the practical modern-Taj option near the airport.", "lat": 22.62363, "lon": 88.45048, "p": "v"}, {"n": "Bohemian", "cat": "eat", "tier": "Fine", "a": "Ballygunge (Sarat Bose Road)", "d": "Chef Joymalya Banerjee's modern-Bengali table — traditional spices and ingredients pushed into unexpected, playful territory.", "lat": 22.529494, "lon": 88.368797, "p": "v"}, {"n": "Baan Thai", "cat": "eat", "tier": "Fine", "a": "Chowringhee (The Oberoi Grand)", "d": "The Oberoi Grand's long-loved Thai room — teak, silk and precise, refined cooking above Chowringhee.", "lat": 22.553018, "lon": 88.353341, "p": "v"}, {"n": "6 Ballygunge Place", "cat": "eat", "tier": "Fine", "a": "Ballygunge (6 Ballygunge Place)", "d": "Bengali fine dining in a restored 1930s mansion — slow-cooked royal-Bengal curries in the city's most gracious dining house.", "lat": 22.527799, "lon": 88.368637, "p": "v"}, {"n": "Oh! Calcutta", "cat": "eat", "tier": "Fine", "a": "Elgin / multiple (Forum Mall, Elgin Road)", "d": "The restaurant that carried Bengali cuisine across India — comforting fish curries and melt-in-the-mouth mutton in a warm room.", "lat": 22.538062, "lon": 88.351218, "p": "v"}, {"n": "Kewpie's Kitchen", "cat": "eat", "tier": "Smart", "a": "Elgin (Elgin Lane)", "d": "A family home turned dining room — authentic Bengali cooking from recipes handed down through the Dasgupta family.", "lat": 22.536589, "lon": 88.350951, "p": "v"}, {"n": "Peter Cat", "cat": "eat", "tier": "Smart", "a": "Park Street (18A Park Street)", "d": "The Park Street icon since 1975 — home of the Chelo Kebab, rice and kebabs under a poached egg, a Kolkata institution unto itself.", "lat": 22.552448, "lon": 88.352615, "p": "v"}, {"n": "Mocambo", "cat": "eat", "tier": "Smart", "a": "Park Street (25B Park Street)", "d": "A 1956 continental time-capsule — Devil Crab, sizzlers and Anglo-Italian classics under the same neon since the fifties.", "lat": 22.553247, "lon": 88.353177, "p": "v"}, {"n": "Kwality", "cat": "eat", "tier": "Smart", "a": "Park Street area (17 Park Street / Free School Street)", "d": "One of Park Street's grand old continental-and-Mughlai rooms — chelo, kebabs and dal that have fed the city for generations.", "lat": 22.553873, "lon": 88.352005, "p": "v"}, {"n": "Arsalan", "cat": "eat", "tier": "Smart", "a": "Park Circus (191 Park Street) & multiple", "d": "Kolkata's most famous biryani house — the fragrant, potato-and-egg Kolkata biryani that defines the city's Mughlai table.", "lat": 22.543872, "lon": 88.365952, "p": "v"}, {"n": "Flurys", "cat": "eat", "tier": "Casual", "a": "Park Street (18 Park Street)", "d": "The 1927 Park Street tearoom — a Raj-era confectionery of pastries, rum balls and English breakfasts, unchanged in spirit.", "lat": 22.552732, "lon": 88.35259, "p": "v"}, {"n": "Nizam's", "cat": "eat", "tier": "Casual", "a": "New Market (Hogg Street)", "d": "The birthplace of the Kathi Roll — kebabs rolled in a paratha, invented here in the 1930s and still served hot to order.", "lat": 22.562144, "lon": 88.353538, "p": "v"}, {"n": "West View", "cat": "eat", "tier": "Fine", "a": "CBD / EM Bypass (ITC Sonar)", "d": "ITC Sonar's grill-and-fine-dining room — a polished western table for members who want a hotel-standard dinner near the CBD.", "lat": 22.650587, "lon": 88.397627, "p": "v"}, {"n": "Victoria Memorial Hall", "cat": "do", "tier": "", "a": "Maidan / Central Kolkata", "d": "The great white Makrana-marble monument the British raised to their Empress, its Indo-Saracenic dome floating above the Maidan's lawns. Twenty-five galleries hold the finest collection of Raj-era paintings and Kolkata's own history; come at dusk when it glows and the reflecting pools double it.", "lat": 22.54508, "lon": 88.342643, "p": "v"}, {"n": "The Maidan", "cat": "do", "tier": "", "a": "Central Kolkata", "d": "Kolkata's vast green lung, a mile of parkland running from Fort William to Park Street where the whole city comes to breathe, jog, play cricket and fly kites. A morning walk here, past grazing horses and hand-pulled tea sellers, is the truest way to feel the city's rhythm.", "lat": 22.550349, "lon": 88.345713, "p": "v"}, {"n": "St Paul's Cathedral", "cat": "do", "tier": "", "a": "Cathedral Road / Central Kolkata", "d": "The first purpose-built Anglican cathedral in Asia, all soaring Gothic Revival white and stained glass by Burne-Jones. A cool, hushed contrast a two-minute walk from the Victoria Memorial, and a lovely place to sit for a moment away from the heat.", "lat": 22.544233, "lon": 88.346607, "p": "v"}, {"n": "Indian Museum", "cat": "do", "tier": "", "a": "Park Street / Chowringhee", "d": "The oldest and largest museum in India, founded in 1814, a colonnaded treasure house of Gandhara sculpture, the Bharhut stupa railings, Egyptian mummies and Mughal miniatures. The building itself, wrapped around a grand courtyard, is worth the visit for architecture lovers travelling with children.", "lat": 22.557586, "lon": 88.351027, "p": "v"}, {"n": "Howrah Bridge (Rabindra Setu)", "cat": "do", "tier": "", "a": "Howrah / Hooghly riverfront", "d": "The steel cantilever colossus that has carried Kolkata across the Hooghly since 1943, one of the busiest bridges on earth and the city's defining silhouette. Best seen at first light from the Mullick Ghat flower market beneath it, where garlands pile up in colour.", "lat": 22.585091, "lon": 88.346825, "p": "v"}, {"n": "Hooghly River cruise", "cat": "do", "tier": "", "a": "Hooghly riverfront", "d": "A slow boat down the Hooghly threads together the ghats, the two great bridges, Belur Math and the colonial river frontage in one unhurried afternoon. Sunset sailings with tea and Bengali snacks are the most civilised way to watch the city's skyline turn gold.", "lat": 22.734254, "lon": 88.356039, "p": "a"}, {"n": "Marble Palace", "cat": "do", "tier": "", "a": "Chorbagan / North Kolkata", "d": "A private 1835 mansion of a Bengali aristocrat, packed floor to ceiling with Italian marble, Belgian chandeliers, Rubens and Reynolds canvases and a menagerie in its garden. Still owned by the Mullick family; a permit and a guide are needed, which keeps it wonderfully untouristed.", "lat": 22.582127, "lon": 88.36021, "p": "v"}, {"n": "Kumartuli idol-makers' quarter", "cat": "do", "tier": "", "a": "North Kolkata", "d": "The warren of riverside workshops where generations of sculptors shape the clay Durga and Kali idols for the whole city's festivals. In the weeks before Durga Puja the lanes are thick with straw armatures and wet earth; a photographer's dream and a living craft, not a museum.", "lat": 22.671316, "lon": 88.390994, "p": "a"}, {"n": "Kalighat Kali Temple", "cat": "do", "tier": "", "a": "Kalighat / South Kolkata", "d": "The 19th-century shrine that gave Calcutta its name, one of the 51 Shakti Peethas and the spiritual heart of the city's devotion to the goddess. Intense, crowded and deeply alive; a guide will help you navigate the queues and understand what you are seeing.", "lat": 22.520211, "lon": 88.34206, "p": "v"}, {"n": "Dakshineswar Kali Temple", "cat": "do", "tier": "", "a": "Dakshineswar / North riverbank", "d": "Rani Rashmoni's grand nine-spired temple on the Hooghly, where the mystic Ramakrishna served as priest and had his visions. The riverside setting and the twelve Shiva shrines along the bank make it far more serene than Kalighat; note that phones and cameras are not allowed inside.", "lat": 22.654827, "lon": 88.357578, "p": "v"}, {"n": "Belur Math", "cat": "do", "tier": "", "a": "Belur / West bank of Hooghly", "d": "The riverside headquarters of the Ramakrishna Mission, whose extraordinary temple deliberately fuses Hindu, Islamic, Buddhist and Christian architecture into one form. The vast, calm gardens on the Hooghly are among the most peaceful spaces near the city; pair it by ferry with Dakshineswar opposite.", "lat": 22.624238, "lon": 88.353666, "p": "v"}, {"n": "Mother House (Missionaries of Charity)", "cat": "do", "tier": "", "a": "AJC Bose Road / Central Kolkata", "d": "The simple headquarters of Mother Teresa's order, where her plain tomb and small museum room draw quiet pilgrims from across the world. An unadorned, moving stop that puts the city's charitable spirit in front of you.", "lat": 22.553101, "lon": 88.363662, "p": "v"}, {"n": "College Street book bazaar (Boi Para)", "cat": "do", "tier": "", "a": "College Street / North Kolkata", "d": "A kilometre of pavement stacked with new, old and rare books, said to be the largest second-hand book market in the world and the intellectual soul of Bengal. Browse for a first edition, then do as the students do and disappear into the coffee house for adda.", "lat": 22.576261, "lon": 88.363836, "p": "v"}, {"n": "Indian Coffee House, College Street", "cat": "do", "tier": "", "a": "College Street / North Kolkata", "d": "The high-ceilinged, faded hall where poets, filmmakers and revolutionaries have argued over infinite cups since the 1940s, the very cradle of Bengali adda. The coffee is ordinary and the conversation is the point; sit under the fans and let time slow.", "lat": 22.576097, "lon": 88.363891, "p": "v"}, {"n": "Park Street", "cat": "do", "tier": "", "a": "Park Street / Central Kolkata", "d": "Kolkata's grand old boulevard of jazz, cabarets and legendary restaurants, still lined with institutions like Flurys, Trincas and Mocambo. It blazes with lights at Christmas and stays the city's most nostalgic address for a long, unhurried dinner.", "lat": 22.557586, "lon": 88.351027, "p": "v"}, {"n": "South Park Street Cemetery", "cat": "do", "tier": "", "a": "Park Street / Central Kolkata", "d": "A hauntingly beautiful garden of 1,600 crumbling Georgian tombs, obelisks and pyramids overgrown with roots, one of the oldest non-church European cemeteries anywhere. An atmospheric, photogenic hour reading the epitaphs of the young Britons who never made it home.", "lat": 22.546202, "lon": 88.360222, "p": "v"}, {"n": "BBD Bagh (Dalhousie Square) colonial core", "cat": "do", "tier": "", "a": "BBD Bagh / Central Kolkata", "d": "The old imperial heart, where the East India Company ran an empire from a square of magnificent buildings around a central tank. Walk it slowly to read Kolkata as the second city of the British Empire, block by grand block.", "lat": 22.576842, "lon": 88.346628, "p": "a"}, {"n": "Writers' Building", "cat": "do", "tier": "", "a": "BBD Bagh / Central Kolkata", "d": "The long red pile that housed the clerks ('writers') of the East India Company and later the seat of Bengal's government, its facade one of the most recognisable in the city. Best admired from the square outside, a monument to Company rule.", "lat": 22.573625, "lon": 88.349111, "p": "v"}, {"n": "General Post Office (GPO)", "cat": "do", "tier": "", "a": "BBD Bagh / Central Kolkata", "d": "A soaring domed rotunda on the site of the original Fort William, marking the very spot of the infamous Black Hole of Calcutta. Its Corinthian columns and philatelic museum make it a rewarding pause on any Dalhousie heritage walk.", "lat": 22.572958, "lon": 88.347753, "p": "v"}, {"n": "Town Hall (Kolkata)", "cat": "do", "tier": "", "a": "BBD Bagh / Esplanade", "d": "A restored Roman-Doric grand hall of 1813, now home to an engaging museum on the city's own story told through light, sound and models. A polished, air-conditioned introduction to Kolkata's history for a first-time or multi-generation visit.", "lat": 22.56802, "lon": 88.344965, "p": "v"}, {"n": "Prinsep Ghat", "cat": "do", "tier": "", "a": "Strand / Hooghly riverfront", "d": "A graceful Palladian riverside pavilion of 1841 beneath the Vidyasagar Setu cable-stayed bridge, and the prettiest stretch of Kolkata's waterfront. Come for the sunset, a short boat ride, and the promenade that fills with families in the cool of the evening.", "lat": 22.556593, "lon": 88.331407, "p": "v"}, {"n": "New Market (Hogg Market)", "cat": "do", "tier": "", "a": "Lindsay Street / Esplanade", "d": "The rambling Victorian covered bazaar of 1874, a labyrinth of over 2,000 stalls selling everything from cheese and cold cuts to fabric, flowers and silver. Nahoum's, the century-old Jewish bakery inside, is the reason many still make the pilgrimage.", "lat": 22.560152, "lon": 88.352956, "p": "v"}, {"n": "Tiretti Bazaar Chinese breakfast", "cat": "do", "tier": "", "a": "Old Chinatown / Central Kolkata", "d": "At dawn on the lanes of old Chinatown, the last families of Kolkata's Chinese community sell momos, pork buns, fish-ball soup and rice-noodle rolls from steaming carts. A vanishing ritual worth setting an early alarm for; go on a Sunday when it is busiest.", "lat": 22.574171, "lon": 88.356152, "p": "v"}, {"n": "Jorasanko Thakur Bari (Tagore House)", "cat": "do", "tier": "", "a": "Jorasanko / North Kolkata", "d": "The rambling ancestral mansion where Rabindranath Tagore was born, wrote much of his work and died, now a beautifully kept museum to the family that shaped modern Bengal. Essential for anyone who loves literature and the Bengal Renaissance, set in an evocative old-city quarter.", "lat": 22.585003, "lon": 88.359049, "p": "v"}, {"n": "Academy of Fine Arts", "cat": "do", "tier": "", "a": "Cathedral Road / Central Kolkata", "d": "Kolkata's leading gallery and theatre complex beside the Rabindra Sadan cultural district, home to changing exhibitions and a permanent Tagore collection. The best single stop to take the pulse of the city's contemporary art and stage life.", "lat": 22.542926, "lon": 88.345503, "p": "v"}, {"n": "Kolkata tram ride", "cat": "do", "tier": "", "a": "Central & North Kolkata", "d": "Asia's oldest operating tram network, running since 1902, still trundles a handful of heritage routes through the old city at a gloriously unhurried pace. A joyride on a wooden-slatted carriage past Esplanade is a nostalgic pleasure that is slowly disappearing.", "lat": 22.5253, "lon": 88.365438, "p": "v"}, {"n": "Durga Puja pandal-hopping", "cat": "do", "tier": "", "a": "Citywide (autumn)", "d": "For five days each autumn the whole city becomes an open-air gallery of themed pandals, some the size of cathedrals, each an artwork built to be dissolved in the river. It is Kolkata at its most joyous and unmissable; the festival is inscribed on UNESCO's list of intangible cultural heritage.", "lat": 22.634864, "lon": 88.415476, "p": "a"}, {"n": "Kalighat Pat painting & patuas", "cat": "do", "tier": "", "a": "Kalighat / South Kolkata", "d": "The bold, quick-brushed folk paintings born in the temple bazaars of the 19th century, a distinctly Kolkata art form now prized by collectors. Seek them out near the temple and in city galleries; an original pat is a meaningful thing to take home.", "lat": 22.512899, "lon": 88.348545, "p": "a"}, {"n": "Park Street kathi rolls & street food", "cat": "do", "tier": "", "a": "Park Street / Central Kolkata", "d": "The kathi roll, an egg-coated paratha wrapped around spiced kebab, was invented at Nizam's near New Market and is Kolkata's great gift to street food. Eating one hot off the griddle, then a phuchka from a roadside cart, is a rite of passage in this most food-obsessed of Indian cities.", "lat": 22.553542, "lon": 88.352266, "p": "v"}, {"n": "Bengali sweets crawl", "cat": "do", "tier": "", "a": "Bhowanipore, Shyambazar & beyond", "d": "The city that gave the world the rosogolla still treats sweet-making as high art, from the syrup-soaked chhena of Balaram Mullick to the nolen gur mishti doi of winter. A morning tasting your way through the century-old sweet shops is pure, delicious Bengal.", "lat": 22.533141, "lon": 88.347228, "p": "v"}, {"n": "Kolkata coffee-house adda", "cat": "do", "tier": "", "a": "Citywide", "d": "Adda, the unhurried art of conversation for its own sake, is Bengal's greatest institution, practised over endless cups in coffee houses and para rooftops. To be drawn into an adda is to be let into the real city; nowhere in India talks quite like Kolkata.", "lat": 22.576097, "lon": 88.363891, "p": "v"}, {"n": "Nakhoda Masjid & Zakaria Street", "cat": "do", "tier": "", "a": "Chitpur / Central Kolkata", "d": "The city's largest mosque, a red-sandstone echo of Akbar's tomb, presides over the fragrant Muslim quarter of Zakaria Street. In Ramadan the lanes below turn into one of India's great night food markets, heavy with haleem, kebabs and firni.", "lat": 22.601187, "lon": 88.384119, "p": "a"}, {"n": "Paresnath Jain Temple (Shitalnath)", "cat": "do", "tier": "", "a": "Maniktala / North Kolkata", "d": "A dazzling 1867 Jain temple encrusted with mirrors, Belgian glass, Venetian mosaics and coloured stones set in a fountain garden. One of the most ornate and least-visited jewels in the city, and a serene surprise in the busy north.", "lat": 22.591657, "lon": 88.37764, "p": "v"}, {"n": "Rabindra Sarobar & the Lakes", "cat": "do", "tier": "", "a": "South Kolkata", "d": "A tranquil man-made lake ringed by walking paths, rowing clubs and old trees, where south Kolkata comes to jog, row and do sunrise yoga. A green, breathable counterpoint to the crowded old city, and lovely early in the morning.", "lat": 22.546202, "lon": 88.360222, "p": "a"}, {"n": "Victoria Memorial sound-and-light show", "cat": "do", "tier": "", "a": "Maidan / Central Kolkata", "d": "As night falls, the monument's own history and that of the city are narrated across its lit facade in an evening spectacle in the gardens. A gentle, atmospheric way to end a day, especially with children in tow.", "lat": 22.550349, "lon": 88.345713, "p": "a"}, {"n": "Kumortuli to Sovabazar heritage walk", "cat": "do", "tier": "", "a": "North Kolkata", "d": "The lanes of old north Kolkata hide crumbling merchant mansions (rajbaris), hidden thakur-dalans and the courtyards where Durga Puja began. A guided morning walk here peels back the aristocratic Bengal that built the city, layer by layer.", "lat": 22.671316, "lon": 88.390994, "p": "a"}, {"n": "Mullick Ghat flower market", "cat": "do", "tier": "", "a": "Under Howrah Bridge / Riverfront", "d": "One of Asia's largest wholesale flower markets sprawls under the Howrah Bridge, a riot of marigold garlands, lotus and roses from before dawn. Arrive at sunrise for extraordinary photographs of colour, chaos and the great steel bridge above.", "lat": 22.583089, "lon": 88.348766, "p": "v"}, {"n": "Metropolitan Building & Esplanade colonial walk", "cat": "do", "tier": "", "a": "Esplanade / Central Kolkata", "d": "The restored, cream-and-red Metropolitan (Whiteaway Laidlaw) building anchors a stretch of grand old department stores and colonial facades around Chowringhee. A rewarding architecture stroll that ends naturally at New Market or the Grand.", "lat": 22.562563, "lon": 88.349801, "p": "a"}, {"n": "The Oberoi Grand high tea", "cat": "do", "tier": "", "a": "Chowringhee / Central Kolkata", "d": "The 'Grande Dame of Chowringhee', a colonial-era hotel whose colonnaded courtyard has hosted the city's grandest occasions for over a century. Even if you stay elsewhere, afternoon tea beneath its arches is a graceful way to touch old Calcutta.", "lat": 22.561444, "lon": 88.351277, "p": "v"}, {"n": "Sundarbans day trip", "cat": "do", "tier": "", "a": "Day trip (South 24 Parganas)", "d": "The world's largest mangrove forest and the tiger-haunted delta where the Ganges meets the sea, best explored slowly by launch through its tidal creeks. A UNESCO World Heritage Site and biosphere reserve; a night on a boat is far better than a rushed day, but even a day gives you the wild edge of Bengal.", "lat": 22.444097, "lon": 88.301715, "p": "a"}, {"n": "Trincas", "cat": "party", "tier": "Landmark bars", "a": "Park Street (17 Park Street)", "d": "Park Street's legendary listening room — live music every night since 1959, the stage that launched Usha Uthup.", "lat": 22.554139, "lon": 88.351587, "p": "v"}, {"n": "Someplace Else", "cat": "party", "tier": "Late & loud", "a": "Park Street (The Park Kolkata)", "d": "India's original live-band pub — the loud, joyful rock room that has defined Kolkata's pub culture for three decades.", "lat": 22.547704, "lon": 88.360819, "p": "a"}, {"n": "Roxy", "cat": "party", "tier": "Cocktail bars", "a": "Park Street (The Park Kolkata)", "d": "A witty, design-led cocktail-and-wine bar channelling the swinging sixties — the most stylish drinking room on Park Street.", "lat": 22.572646, "lon": 88.363895, "p": "v"}, {"n": "The Chowringhee Bar", "cat": "party", "tier": "Landmark bars", "a": "Chowringhee (The Oberoi Grand)", "d": "The Oberoi Grand's clubby colonial bar — dark wood, single malts and the quietest, most grown-up nightcap in the city.", "lat": 22.561444, "lon": 88.351277, "p": "v"}]}
+{
+  "center": [
+    22.572646,
+    88.363895
+  ],
+  "venues": [
+    {
+      "n": "The Oberoi Grand, Kolkata",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Chowringhee (Jawaharlal Nehru Road)",
+      "d": "The 'Grande Dame of Chowringhee' \u2014 a colonnaded 1880s landmark and the definitive luxury address in the city for over a century.",
+      "lat": 22.561444,
+      "lon": 88.351277,
+      "photos": []
+    },
+    {
+      "n": "Taj Bengal, Kolkata",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Alipore (near the Zoo & Belvedere)",
+      "d": "The Taj's leafy Alipore flagship since 1989 \u2014 a grand atrium house in the city's most gracious residential quarter.",
+      "lat": 22.537805,
+      "lon": 88.334253,
+      "photos": []
+    },
+    {
+      "n": "ITC Royal Bengal, a Luxury Collection Hotel, Kolkata",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "New Town / Rajarhat (near the CBD)",
+      "d": "A vast LEED-Platinum modern palace and the newest apex hotel in the city \u2014 Bengal grandeur at scale.",
+      "lat": 22.592253,
+      "lon": 88.475212,
+      "photos": []
+    },
+    {
+      "n": "JW Marriott Hotel Kolkata",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "CBD-adjacent (JBS Haldane Avenue, near Science City)",
+      "d": "A polished contemporary JW with a striking infinity pool \u2014 the sharp business-and-wedding house on the eastern flank.",
+      "lat": 22.548032,
+      "lon": 88.399208,
+      "photos": []
+    },
+    {
+      "n": "The Park Kolkata",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Park Street (17 Park Street)",
+      "d": "India's original design hotel and the beating heart of Park Street nightlife \u2014 four bars and clubs under one roof.",
+      "lat": 22.55405,
+      "lon": 88.351867,
+      "photos": []
+    },
+    {
+      "n": "ITC Sonar, Kolkata",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "CBD / EM Bypass (near Science City)",
+      "d": "A garden-and-water resort within the city \u2014 lagoon-set lawns, a celebrated spa, and one of India's greenest luxury hotels.",
+      "lat": 22.544904,
+      "lon": 88.397851,
+      "photos": []
+    },
+    {
+      "n": "Taj Taj City Centre New Town, Kolkata",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "New Town / Rajarhat (near the airport & IT corridor)",
+      "d": "A crisp, contemporary Taj beside the New Town business district \u2014 the practical modern-Taj option near the airport.",
+      "lat": 22.62363,
+      "lon": 88.45048,
+      "photos": []
+    },
+    {
+      "n": "Bohemian",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Ballygunge (Sarat Bose Road)",
+      "d": "Chef Joymalya Banerjee's modern-Bengali table \u2014 traditional spices and ingredients pushed into unexpected, playful territory.",
+      "lat": 22.529494,
+      "lon": 88.368797,
+      "photos": []
+    },
+    {
+      "n": "Baan Thai",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Chowringhee (The Oberoi Grand)",
+      "d": "The Oberoi Grand's long-loved Thai room \u2014 teak, silk and precise, refined cooking above Chowringhee.",
+      "lat": 22.553018,
+      "lon": 88.353341,
+      "photos": []
+    },
+    {
+      "n": "6 Ballygunge Place",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Ballygunge (6 Ballygunge Place)",
+      "d": "Bengali fine dining in a restored 1930s mansion \u2014 slow-cooked royal-Bengal curries in the city's most gracious dining house.",
+      "lat": 22.527799,
+      "lon": 88.368637,
+      "photos": []
+    },
+    {
+      "n": "Oh! Calcutta",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Elgin / multiple (Forum Mall, Elgin Road)",
+      "d": "The restaurant that carried Bengali cuisine across India \u2014 comforting fish curries and melt-in-the-mouth mutton in a warm room.",
+      "lat": 22.538062,
+      "lon": 88.351218,
+      "photos": []
+    },
+    {
+      "n": "Kewpie's Kitchen",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Elgin (Elgin Lane)",
+      "d": "A family home turned dining room \u2014 authentic Bengali cooking from recipes handed down through the Dasgupta family.",
+      "lat": 22.536589,
+      "lon": 88.350951,
+      "photos": []
+    },
+    {
+      "n": "Peter Cat",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Park Street (18A Park Street)",
+      "d": "The Park Street icon since 1975 \u2014 home of the Chelo Kebab, rice and kebabs under a poached egg, a Kolkata institution unto itself.",
+      "lat": 22.552448,
+      "lon": 88.352615,
+      "photos": []
+    },
+    {
+      "n": "Mocambo",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Park Street (25B Park Street)",
+      "d": "A 1956 continental time-capsule \u2014 Devil Crab, sizzlers and Anglo-Italian classics under the same neon since the fifties.",
+      "lat": 22.553247,
+      "lon": 88.353177,
+      "photos": []
+    },
+    {
+      "n": "Kwality",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Park Street area (17 Park Street / Free School Street)",
+      "d": "One of Park Street's grand old continental-and-Mughlai rooms \u2014 chelo, kebabs and dal that have fed the city for generations.",
+      "lat": 22.553873,
+      "lon": 88.352005,
+      "photos": []
+    },
+    {
+      "n": "Arsalan",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Park Circus (191 Park Street) & multiple",
+      "d": "Kolkata's most famous biryani house \u2014 the fragrant, potato-and-egg Kolkata biryani that defines the city's Mughlai table.",
+      "lat": 22.543872,
+      "lon": 88.365952,
+      "photos": []
+    },
+    {
+      "n": "Flurys",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Park Street (18 Park Street)",
+      "d": "The 1927 Park Street tearoom \u2014 a Raj-era confectionery of pastries, rum balls and English breakfasts, unchanged in spirit.",
+      "lat": 22.552732,
+      "lon": 88.35259,
+      "photos": []
+    },
+    {
+      "n": "Nizam's",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "New Market (Hogg Street)",
+      "d": "The birthplace of the Kathi Roll \u2014 kebabs rolled in a paratha, invented here in the 1930s and still served hot to order.",
+      "lat": 22.562144,
+      "lon": 88.353538,
+      "photos": []
+    },
+    {
+      "n": "West View",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "CBD / EM Bypass (ITC Sonar)",
+      "d": "ITC Sonar's grill-and-fine-dining room \u2014 a polished western table for members who want a hotel-standard dinner near the CBD.",
+      "lat": 22.650587,
+      "lon": 88.397627,
+      "photos": []
+    },
+    {
+      "n": "Victoria Memorial Hall",
+      "cat": "do",
+      "tier": "",
+      "a": "Maidan / Central Kolkata",
+      "d": "The great white Makrana-marble monument the British raised to their Empress, its Indo-Saracenic dome floating above the Maidan's lawns. Twenty-five galleries hold the finest collection of Raj-era paintings and Kolkata's own history; come at dusk when it glows and the reflecting pools double it.",
+      "lat": 22.54508,
+      "lon": 88.342643,
+      "photos": []
+    },
+    {
+      "n": "The Maidan",
+      "cat": "do",
+      "tier": "",
+      "a": "Central Kolkata",
+      "d": "Kolkata's vast green lung, a mile of parkland running from Fort William to Park Street where the whole city comes to breathe, jog, play cricket and fly kites. A morning walk here, past grazing horses and hand-pulled tea sellers, is the truest way to feel the city's rhythm.",
+      "lat": 22.550349,
+      "lon": 88.345713,
+      "photos": []
+    },
+    {
+      "n": "St Paul's Cathedral",
+      "cat": "do",
+      "tier": "",
+      "a": "Cathedral Road / Central Kolkata",
+      "d": "The first purpose-built Anglican cathedral in Asia, all soaring Gothic Revival white and stained glass by Burne-Jones. A cool, hushed contrast a two-minute walk from the Victoria Memorial, and a lovely place to sit for a moment away from the heat.",
+      "lat": 22.544233,
+      "lon": 88.346607,
+      "photos": []
+    },
+    {
+      "n": "Indian Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Park Street / Chowringhee",
+      "d": "The oldest and largest museum in India, founded in 1814, a colonnaded treasure house of Gandhara sculpture, the Bharhut stupa railings, Egyptian mummies and Mughal miniatures. The building itself, wrapped around a grand courtyard, is worth the visit for architecture lovers travelling with children.",
+      "lat": 22.557586,
+      "lon": 88.351027,
+      "photos": []
+    },
+    {
+      "n": "Howrah Bridge (Rabindra Setu)",
+      "cat": "do",
+      "tier": "",
+      "a": "Howrah / Hooghly riverfront",
+      "d": "The steel cantilever colossus that has carried Kolkata across the Hooghly since 1943, one of the busiest bridges on earth and the city's defining silhouette. Best seen at first light from the Mullick Ghat flower market beneath it, where garlands pile up in colour.",
+      "lat": 22.585091,
+      "lon": 88.346825,
+      "photos": []
+    },
+    {
+      "n": "Hooghly River cruise",
+      "cat": "do",
+      "tier": "",
+      "a": "Hooghly riverfront",
+      "d": "A slow boat down the Hooghly threads together the ghats, the two great bridges, Belur Math and the colonial river frontage in one unhurried afternoon. Sunset sailings with tea and Bengali snacks are the most civilised way to watch the city's skyline turn gold.",
+      "lat": 22.734254,
+      "lon": 88.356039,
+      "photos": []
+    },
+    {
+      "n": "Marble Palace",
+      "cat": "do",
+      "tier": "",
+      "a": "Chorbagan / North Kolkata",
+      "d": "A private 1835 mansion of a Bengali aristocrat, packed floor to ceiling with Italian marble, Belgian chandeliers, Rubens and Reynolds canvases and a menagerie in its garden. Still owned by the Mullick family; a permit and a guide are needed, which keeps it wonderfully untouristed.",
+      "lat": 22.582127,
+      "lon": 88.36021,
+      "photos": []
+    },
+    {
+      "n": "Kumartuli idol-makers' quarter",
+      "cat": "do",
+      "tier": "",
+      "a": "North Kolkata",
+      "d": "The warren of riverside workshops where generations of sculptors shape the clay Durga and Kali idols for the whole city's festivals. In the weeks before Durga Puja the lanes are thick with straw armatures and wet earth; a photographer's dream and a living craft, not a museum.",
+      "lat": 22.671316,
+      "lon": 88.390994,
+      "photos": []
+    },
+    {
+      "n": "Kalighat Kali Temple",
+      "cat": "do",
+      "tier": "",
+      "a": "Kalighat / South Kolkata",
+      "d": "The 19th-century shrine that gave Calcutta its name, one of the 51 Shakti Peethas and the spiritual heart of the city's devotion to the goddess. Intense, crowded and deeply alive; a guide will help you navigate the queues and understand what you are seeing.",
+      "lat": 22.520211,
+      "lon": 88.34206,
+      "photos": []
+    },
+    {
+      "n": "Dakshineswar Kali Temple",
+      "cat": "do",
+      "tier": "",
+      "a": "Dakshineswar / North riverbank",
+      "d": "Rani Rashmoni's grand nine-spired temple on the Hooghly, where the mystic Ramakrishna served as priest and had his visions. The riverside setting and the twelve Shiva shrines along the bank make it far more serene than Kalighat; note that phones and cameras are not allowed inside.",
+      "lat": 22.654827,
+      "lon": 88.357578,
+      "photos": []
+    },
+    {
+      "n": "Belur Math",
+      "cat": "do",
+      "tier": "",
+      "a": "Belur / West bank of Hooghly",
+      "d": "The riverside headquarters of the Ramakrishna Mission, whose extraordinary temple deliberately fuses Hindu, Islamic, Buddhist and Christian architecture into one form. The vast, calm gardens on the Hooghly are among the most peaceful spaces near the city; pair it by ferry with Dakshineswar opposite.",
+      "lat": 22.624238,
+      "lon": 88.353666,
+      "photos": []
+    },
+    {
+      "n": "Mother House (Missionaries of Charity)",
+      "cat": "do",
+      "tier": "",
+      "a": "AJC Bose Road / Central Kolkata",
+      "d": "The simple headquarters of Mother Teresa's order, where her plain tomb and small museum room draw quiet pilgrims from across the world. An unadorned, moving stop that puts the city's charitable spirit in front of you.",
+      "lat": 22.553101,
+      "lon": 88.363662,
+      "photos": []
+    },
+    {
+      "n": "College Street book bazaar (Boi Para)",
+      "cat": "do",
+      "tier": "",
+      "a": "College Street / North Kolkata",
+      "d": "A kilometre of pavement stacked with new, old and rare books, said to be the largest second-hand book market in the world and the intellectual soul of Bengal. Browse for a first edition, then do as the students do and disappear into the coffee house for adda.",
+      "lat": 22.576261,
+      "lon": 88.363836,
+      "photos": []
+    },
+    {
+      "n": "Indian Coffee House, College Street",
+      "cat": "do",
+      "tier": "",
+      "a": "College Street / North Kolkata",
+      "d": "The high-ceilinged, faded hall where poets, filmmakers and revolutionaries have argued over infinite cups since the 1940s, the very cradle of Bengali adda. The coffee is ordinary and the conversation is the point; sit under the fans and let time slow.",
+      "lat": 22.576097,
+      "lon": 88.363891,
+      "photos": []
+    },
+    {
+      "n": "Park Street",
+      "cat": "do",
+      "tier": "",
+      "a": "Park Street / Central Kolkata",
+      "d": "Kolkata's grand old boulevard of jazz, cabarets and legendary restaurants, still lined with institutions like Flurys, Trincas and Mocambo. It blazes with lights at Christmas and stays the city's most nostalgic address for a long, unhurried dinner.",
+      "lat": 22.557586,
+      "lon": 88.351027,
+      "photos": []
+    },
+    {
+      "n": "South Park Street Cemetery",
+      "cat": "do",
+      "tier": "",
+      "a": "Park Street / Central Kolkata",
+      "d": "A hauntingly beautiful garden of 1,600 crumbling Georgian tombs, obelisks and pyramids overgrown with roots, one of the oldest non-church European cemeteries anywhere. An atmospheric, photogenic hour reading the epitaphs of the young Britons who never made it home.",
+      "lat": 22.546202,
+      "lon": 88.360222,
+      "photos": []
+    },
+    {
+      "n": "BBD Bagh (Dalhousie Square) colonial core",
+      "cat": "do",
+      "tier": "",
+      "a": "BBD Bagh / Central Kolkata",
+      "d": "The old imperial heart, where the East India Company ran an empire from a square of magnificent buildings around a central tank. Walk it slowly to read Kolkata as the second city of the British Empire, block by grand block.",
+      "lat": 22.576842,
+      "lon": 88.346628,
+      "photos": []
+    },
+    {
+      "n": "Writers' Building",
+      "cat": "do",
+      "tier": "",
+      "a": "BBD Bagh / Central Kolkata",
+      "d": "The long red pile that housed the clerks ('writers') of the East India Company and later the seat of Bengal's government, its facade one of the most recognisable in the city. Best admired from the square outside, a monument to Company rule.",
+      "lat": 22.573625,
+      "lon": 88.349111,
+      "photos": []
+    },
+    {
+      "n": "General Post Office (GPO)",
+      "cat": "do",
+      "tier": "",
+      "a": "BBD Bagh / Central Kolkata",
+      "d": "A soaring domed rotunda on the site of the original Fort William, marking the very spot of the infamous Black Hole of Calcutta. Its Corinthian columns and philatelic museum make it a rewarding pause on any Dalhousie heritage walk.",
+      "lat": 22.572958,
+      "lon": 88.347753,
+      "photos": []
+    },
+    {
+      "n": "Town Hall (Kolkata)",
+      "cat": "do",
+      "tier": "",
+      "a": "BBD Bagh / Esplanade",
+      "d": "A restored Roman-Doric grand hall of 1813, now home to an engaging museum on the city's own story told through light, sound and models. A polished, air-conditioned introduction to Kolkata's history for a first-time or multi-generation visit.",
+      "lat": 22.56802,
+      "lon": 88.344965,
+      "photos": []
+    },
+    {
+      "n": "Prinsep Ghat",
+      "cat": "do",
+      "tier": "",
+      "a": "Strand / Hooghly riverfront",
+      "d": "A graceful Palladian riverside pavilion of 1841 beneath the Vidyasagar Setu cable-stayed bridge, and the prettiest stretch of Kolkata's waterfront. Come for the sunset, a short boat ride, and the promenade that fills with families in the cool of the evening.",
+      "lat": 22.556593,
+      "lon": 88.331407,
+      "photos": []
+    },
+    {
+      "n": "New Market (Hogg Market)",
+      "cat": "do",
+      "tier": "",
+      "a": "Lindsay Street / Esplanade",
+      "d": "The rambling Victorian covered bazaar of 1874, a labyrinth of over 2,000 stalls selling everything from cheese and cold cuts to fabric, flowers and silver. Nahoum's, the century-old Jewish bakery inside, is the reason many still make the pilgrimage.",
+      "lat": 22.560152,
+      "lon": 88.352956,
+      "photos": []
+    },
+    {
+      "n": "Tiretti Bazaar Chinese breakfast",
+      "cat": "do",
+      "tier": "",
+      "a": "Old Chinatown / Central Kolkata",
+      "d": "At dawn on the lanes of old Chinatown, the last families of Kolkata's Chinese community sell momos, pork buns, fish-ball soup and rice-noodle rolls from steaming carts. A vanishing ritual worth setting an early alarm for; go on a Sunday when it is busiest.",
+      "lat": 22.574171,
+      "lon": 88.356152,
+      "photos": []
+    },
+    {
+      "n": "Jorasanko Thakur Bari (Tagore House)",
+      "cat": "do",
+      "tier": "",
+      "a": "Jorasanko / North Kolkata",
+      "d": "The rambling ancestral mansion where Rabindranath Tagore was born, wrote much of his work and died, now a beautifully kept museum to the family that shaped modern Bengal. Essential for anyone who loves literature and the Bengal Renaissance, set in an evocative old-city quarter.",
+      "lat": 22.585003,
+      "lon": 88.359049,
+      "photos": []
+    },
+    {
+      "n": "Academy of Fine Arts",
+      "cat": "do",
+      "tier": "",
+      "a": "Cathedral Road / Central Kolkata",
+      "d": "Kolkata's leading gallery and theatre complex beside the Rabindra Sadan cultural district, home to changing exhibitions and a permanent Tagore collection. The best single stop to take the pulse of the city's contemporary art and stage life.",
+      "lat": 22.542926,
+      "lon": 88.345503,
+      "photos": []
+    },
+    {
+      "n": "Kolkata tram ride",
+      "cat": "do",
+      "tier": "",
+      "a": "Central & North Kolkata",
+      "d": "Asia's oldest operating tram network, running since 1902, still trundles a handful of heritage routes through the old city at a gloriously unhurried pace. A joyride on a wooden-slatted carriage past Esplanade is a nostalgic pleasure that is slowly disappearing.",
+      "lat": 22.5253,
+      "lon": 88.365438,
+      "photos": []
+    },
+    {
+      "n": "Durga Puja pandal-hopping",
+      "cat": "do",
+      "tier": "",
+      "a": "Citywide (autumn)",
+      "d": "For five days each autumn the whole city becomes an open-air gallery of themed pandals, some the size of cathedrals, each an artwork built to be dissolved in the river. It is Kolkata at its most joyous and unmissable; the festival is inscribed on UNESCO's list of intangible cultural heritage.",
+      "lat": 22.634864,
+      "lon": 88.415476,
+      "photos": []
+    },
+    {
+      "n": "Kalighat Pat painting & patuas",
+      "cat": "do",
+      "tier": "",
+      "a": "Kalighat / South Kolkata",
+      "d": "The bold, quick-brushed folk paintings born in the temple bazaars of the 19th century, a distinctly Kolkata art form now prized by collectors. Seek them out near the temple and in city galleries; an original pat is a meaningful thing to take home.",
+      "lat": 22.512899,
+      "lon": 88.348545,
+      "photos": []
+    },
+    {
+      "n": "Park Street kathi rolls & street food",
+      "cat": "do",
+      "tier": "",
+      "a": "Park Street / Central Kolkata",
+      "d": "The kathi roll, an egg-coated paratha wrapped around spiced kebab, was invented at Nizam's near New Market and is Kolkata's great gift to street food. Eating one hot off the griddle, then a phuchka from a roadside cart, is a rite of passage in this most food-obsessed of Indian cities.",
+      "lat": 22.553542,
+      "lon": 88.352266,
+      "photos": []
+    },
+    {
+      "n": "Bengali sweets crawl",
+      "cat": "do",
+      "tier": "",
+      "a": "Bhowanipore, Shyambazar & beyond",
+      "d": "The city that gave the world the rosogolla still treats sweet-making as high art, from the syrup-soaked chhena of Balaram Mullick to the nolen gur mishti doi of winter. A morning tasting your way through the century-old sweet shops is pure, delicious Bengal.",
+      "lat": 22.533141,
+      "lon": 88.347228,
+      "photos": []
+    },
+    {
+      "n": "Kolkata coffee-house adda",
+      "cat": "do",
+      "tier": "",
+      "a": "Citywide",
+      "d": "Adda, the unhurried art of conversation for its own sake, is Bengal's greatest institution, practised over endless cups in coffee houses and para rooftops. To be drawn into an adda is to be let into the real city; nowhere in India talks quite like Kolkata.",
+      "lat": 22.576097,
+      "lon": 88.363891,
+      "photos": []
+    },
+    {
+      "n": "Nakhoda Masjid & Zakaria Street",
+      "cat": "do",
+      "tier": "",
+      "a": "Chitpur / Central Kolkata",
+      "d": "The city's largest mosque, a red-sandstone echo of Akbar's tomb, presides over the fragrant Muslim quarter of Zakaria Street. In Ramadan the lanes below turn into one of India's great night food markets, heavy with haleem, kebabs and firni.",
+      "lat": 22.601187,
+      "lon": 88.384119,
+      "photos": []
+    },
+    {
+      "n": "Paresnath Jain Temple (Shitalnath)",
+      "cat": "do",
+      "tier": "",
+      "a": "Maniktala / North Kolkata",
+      "d": "A dazzling 1867 Jain temple encrusted with mirrors, Belgian glass, Venetian mosaics and coloured stones set in a fountain garden. One of the most ornate and least-visited jewels in the city, and a serene surprise in the busy north.",
+      "lat": 22.591657,
+      "lon": 88.37764,
+      "photos": []
+    },
+    {
+      "n": "Rabindra Sarobar & the Lakes",
+      "cat": "do",
+      "tier": "",
+      "a": "South Kolkata",
+      "d": "A tranquil man-made lake ringed by walking paths, rowing clubs and old trees, where south Kolkata comes to jog, row and do sunrise yoga. A green, breathable counterpoint to the crowded old city, and lovely early in the morning.",
+      "lat": 22.546202,
+      "lon": 88.360222,
+      "photos": []
+    },
+    {
+      "n": "Victoria Memorial sound-and-light show",
+      "cat": "do",
+      "tier": "",
+      "a": "Maidan / Central Kolkata",
+      "d": "As night falls, the monument's own history and that of the city are narrated across its lit facade in an evening spectacle in the gardens. A gentle, atmospheric way to end a day, especially with children in tow.",
+      "lat": 22.550349,
+      "lon": 88.345713,
+      "photos": []
+    },
+    {
+      "n": "Kumortuli to Sovabazar heritage walk",
+      "cat": "do",
+      "tier": "",
+      "a": "North Kolkata",
+      "d": "The lanes of old north Kolkata hide crumbling merchant mansions (rajbaris), hidden thakur-dalans and the courtyards where Durga Puja began. A guided morning walk here peels back the aristocratic Bengal that built the city, layer by layer.",
+      "lat": 22.671316,
+      "lon": 88.390994,
+      "photos": []
+    },
+    {
+      "n": "Mullick Ghat flower market",
+      "cat": "do",
+      "tier": "",
+      "a": "Under Howrah Bridge / Riverfront",
+      "d": "One of Asia's largest wholesale flower markets sprawls under the Howrah Bridge, a riot of marigold garlands, lotus and roses from before dawn. Arrive at sunrise for extraordinary photographs of colour, chaos and the great steel bridge above.",
+      "lat": 22.583089,
+      "lon": 88.348766,
+      "photos": []
+    },
+    {
+      "n": "Metropolitan Building & Esplanade colonial walk",
+      "cat": "do",
+      "tier": "",
+      "a": "Esplanade / Central Kolkata",
+      "d": "The restored, cream-and-red Metropolitan (Whiteaway Laidlaw) building anchors a stretch of grand old department stores and colonial facades around Chowringhee. A rewarding architecture stroll that ends naturally at New Market or the Grand.",
+      "lat": 22.562563,
+      "lon": 88.349801,
+      "photos": []
+    },
+    {
+      "n": "The Oberoi Grand high tea",
+      "cat": "do",
+      "tier": "",
+      "a": "Chowringhee / Central Kolkata",
+      "d": "The 'Grande Dame of Chowringhee', a colonial-era hotel whose colonnaded courtyard has hosted the city's grandest occasions for over a century. Even if you stay elsewhere, afternoon tea beneath its arches is a graceful way to touch old Calcutta.",
+      "lat": 22.561444,
+      "lon": 88.351277,
+      "photos": []
+    },
+    {
+      "n": "Sundarbans day trip",
+      "cat": "do",
+      "tier": "",
+      "a": "Day trip (South 24 Parganas)",
+      "d": "The world's largest mangrove forest and the tiger-haunted delta where the Ganges meets the sea, best explored slowly by launch through its tidal creeks. A UNESCO World Heritage Site and biosphere reserve; a night on a boat is far better than a rushed day, but even a day gives you the wild edge of Bengal.",
+      "lat": 22.444097,
+      "lon": 88.301715,
+      "photos": []
+    },
+    {
+      "n": "Trincas",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "Park Street (17 Park Street)",
+      "d": "Park Street's legendary listening room \u2014 live music every night since 1959, the stage that launched Usha Uthup.",
+      "lat": 22.554139,
+      "lon": 88.351587,
+      "photos": []
+    },
+    {
+      "n": "Someplace Else",
+      "cat": "party",
+      "tier": "Late & loud",
+      "a": "Park Street (The Park Kolkata)",
+      "d": "India's original live-band pub \u2014 the loud, joyful rock room that has defined Kolkata's pub culture for three decades.",
+      "lat": 22.547704,
+      "lon": 88.360819,
+      "photos": []
+    },
+    {
+      "n": "Roxy",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Park Street (The Park Kolkata)",
+      "d": "A witty, design-led cocktail-and-wine bar channelling the swinging sixties \u2014 the most stylish drinking room on Park Street.",
+      "lat": 22.572646,
+      "lon": 88.363895,
+      "photos": []
+    },
+    {
+      "n": "The Chowringhee Bar",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "Chowringhee (The Oberoi Grand)",
+      "d": "The Oberoi Grand's clubby colonial bar \u2014 dark wood, single malts and the quietest, most grown-up nightcap in the city.",
+      "lat": 22.561444,
+      "lon": 88.351277,
+      "photos": []
+    }
+  ]
+}

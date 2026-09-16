@@ -1,1 +1,938 @@
-{"center": [41.006381, 28.975872], "venues": [{"n": "Four Seasons Hotel Istanbul at Sultanahmet", "cat": "stay", "tier": "Ultra", "a": "Sultanahmet", "d": "A former Ottoman prison turned intimate icon, in the shadow of the Blue Mosque and Hagia Sophia.", "lat": 41.006538, "lon": 28.980211, "p": "v"}, {"n": "Four Seasons Hotel Istanbul at the Bosphorus", "cat": "stay", "tier": "Ultra", "a": "Beşiktaş / Bosphorus", "d": "A 19th-century Ottoman palace on the water's edge — the group's grander, waterfront Istanbul house.", "lat": 41.045486, "lon": 29.034387, "p": "a"}, {"n": "Çırağan Palace Kempinski Istanbul", "cat": "stay", "tier": "Ultra", "a": "Beşiktaş / Bosphorus", "d": "A restored imperial palace on the Bosphorus — the address the city reserves for its grandest occasions.", "lat": 41.044444, "lon": 29.016629, "p": "v"}, {"n": "The Peninsula Istanbul", "cat": "stay", "tier": "Ultra", "a": "Karaköy / Bosphorus", "d": "Four heritage buildings on the Galataport waterfront — the group's exacting Istanbul debut.", "lat": 41.02295, "lon": 28.978156, "p": "v"}, {"n": "Raffles Istanbul", "cat": "stay", "tier": "Ultra", "a": "Beşiktaş / Zorlu Center", "d": "Glamorous, art-filled and high above the city, with Raffles' signature service and a view to the strait.", "lat": 41.006381, "lon": 28.975872, "p": "v"}, {"n": "Mandarin Oriental Bosphorus, Istanbul", "cat": "stay", "tier": "Ultra", "a": "Kuruçeşme / Bosphorus", "d": "A calm seaside retreat on the European shore — the group's quiet precision, with the water at the door.", "lat": 41.057031, "lon": 29.035628, "p": "v"}, {"n": "The Ritz-Carlton, Istanbul", "cat": "stay", "tier": "Grand", "a": "Şişhane / Dolmabahçe", "d": "A polished city tower above Dolmabahçe with sweeping Bosphorus vistas from the upper floors.", "lat": 41.040288, "lon": 28.992178, "p": "v"}, {"n": "The St. Regis Istanbul", "cat": "stay", "tier": "Grand", "a": "Nişantaşı", "d": "Art Deco glamour in the middle of the city's smartest shopping district, with the signature butler on every stay.", "lat": 41.028904, "lon": 28.934293, "p": "v"}, {"n": "Shangri-La Bosphorus, Istanbul", "cat": "stay", "tier": "Grand", "a": "Beşiktaş / Bosphorus", "d": "Turkish hospitality with the group's Asian grace, on a quiet stretch of the European waterfront.", "lat": 41.040594, "lon": 29.005154, "p": "v"}, {"n": "Park Hyatt Istanbul – Maçka Palas", "cat": "stay", "tier": "Grand", "a": "Nişantaşı / Maçka", "d": "An updated 1920s Italianate palazzo — discreet, design-led and steps from the boutiques.", "lat": 41.047565, "lon": 28.993734, "p": "v"}, {"n": "JW Marriott Hotel Istanbul Marmara Sea", "cat": "stay", "tier": "Luxury", "a": "Ataköy / Marmara Sea", "d": "A stylish seaside skyscraper on the Marmara, with a marina and long sea views.", "lat": 41.02408, "lon": 28.979241, "p": "v"}, {"n": "Six Senses Kocataş Mansions Istanbul", "cat": "stay", "tier": "Grand", "a": "Sarıyer / Bosphorus", "d": "Two restored 19th-century mansions on the upper Bosphorus — a wellness-led urban resort away from the crowds.", "lat": 41.16532, "lon": 29.054594, "p": "v"}, {"n": "The Bank Hotel Istanbul", "cat": "stay", "tier": "Luxury", "a": "Karaköy / Galata", "d": "A grand old bank in Karaköy, reborn as a sharp, contemporary house in the city's most creative quarter.", "lat": 41.023584, "lon": 28.974439, "p": "v"}, {"n": "AJWA Sultanahmet", "cat": "stay", "tier": "Luxury", "a": "Sultanahmet", "d": "An Ottoman-Seljuk fantasy in the old city — richly detailed and warmly, traditionally run.", "lat": 41.006516, "lon": 28.975977, "p": "v"}, {"n": "Ecole St. Pierre Hotel", "cat": "stay", "tier": "Luxury", "a": "Karaköy / Galata", "d": "A restored historic school turned intimate design hotel, in the thick of Galata.", "lat": 41.020008, "lon": 28.973287, "p": "a"}, {"n": "Pera Palace Hotel", "cat": "stay", "tier": "Luxury", "a": "Beyoğlu / Pera", "d": "The Orient Express hotel of 1895 — Agatha Christie's rooms and a century of Istanbul history intact.", "lat": 41.031048, "lon": 28.973474, "p": "v"}, {"n": "Fairmont Quasar Istanbul", "cat": "stay", "tier": "Luxury", "a": "Şişli / Mecidiyeköy", "d": "A landmark tower on a restored heritage base — polished, central and generously scaled.", "lat": 41.109938, "lon": 29.032252, "p": "v"}, {"n": "Conrad Istanbul Bosphorus", "cat": "stay", "tier": "Luxury", "a": "Beşiktaş", "d": "A refreshed modern house above the strait — reliable, spacious and quietly capable.", "lat": 41.047134, "lon": 29.009458, "p": "v"}, {"n": "Bebek Hotel by The Stay", "cat": "stay", "tier": "Grand", "a": "Bebek / Bosphorus", "d": "A tiny waterfront boutique in the city's most fashionable village, right on the Bebek promenade.", "lat": 41.006383, "lon": 28.973344, "p": "v"}, {"n": "Address Istanbul", "cat": "stay", "tier": "Grand", "a": "Şişli / Bomonti", "d": "A contemporary high-rise with skyline views and the group's slick, service-led ease.", "lat": 41.038504, "lon": 28.912045, "p": "v"}, {"n": "Soho House Istanbul", "cat": "stay", "tier": "Luxury", "a": "Beyoğlu / Pera", "d": "A 19th-century Italianate palazzo turned members'-club-and-hotel — the address of the creative crowd.", "lat": 41.030289, "lon": 28.972993, "p": "v"}, {"n": "The Stay Bosphorus", "cat": "stay", "tier": "Luxury", "a": "Ortaköy / Bosphorus", "d": "A slim design house on the waterfront at Ortaköy, under the shadow of the bridge.", "lat": 41.029894, "lon": 28.987046, "p": "v"}, {"n": "TURK Fatih Tutak", "cat": "eat", "tier": "Destination", "a": "Bomonti / Şişli", "d": "The city's sole two-star — Fatih Tutak's radical, refined reimagining of Anatolian cooking.", "lat": 41.022857, "lon": 28.978053, "p": "v"}, {"n": "Mikla", "cat": "eat", "tier": "Destination", "a": "Beyoğlu / Pera", "d": "Turkish ingredients through a Scandinavian lens, on a rooftop with the whole old city laid out below.", "lat": 41.031087, "lon": 28.974017, "p": "v"}, {"n": "Neolokal", "cat": "eat", "tier": "Destination", "a": "Beyoğlu / Karaköy (SALT Galata)", "d": "Heritage Anatolian dishes reborn as contemporary art — tradition, plated for today.", "lat": 41.023782, "lon": 28.973476, "p": "v"}, {"n": "Nicole", "cat": "eat", "tier": "Destination", "a": "Beyoğlu / Pera", "d": "French-influenced Turkish refinement in a historic Pera mansion — elegant, exacting, personal.", "lat": 41.03023, "lon": 28.977828, "p": "v"}, {"n": "Araka", "cat": "eat", "tier": "Destination", "a": "Sarıyer / Emirgan", "d": "A garden restaurant on the upper Bosphorus where modern Turkish cooking feels both familiar and new.", "lat": 40.888823, "lon": 29.22044, "p": "v"}, {"n": "Arkestra", "cat": "eat", "tier": "Destination", "a": "Beşiktaş / Etiler", "d": "A progressive tasting menu that ranges the globe while staying rooted in Istanbul's energy.", "lat": 41.006381, "lon": 28.975872, "p": "v"}, {"n": "Sankai by Nagaya", "cat": "eat", "tier": "Destination", "a": "Beşiktaş", "d": "A minimalist Japanese haven and flawless omakase — a meditative break from the city's noise.", "lat": 41.042847, "lon": 29.007528, "p": "a"}, {"n": "Araf İstanbul", "cat": "eat", "tier": "Fine", "a": "Kadıköy (Asian shore)", "d": "A pocket-sized Asian-shore kitchen doing contemporary Turkish cooking over coals — newly starred.", "lat": 41.018507, "lon": 28.9531, "p": "v"}, {"n": "Alaf", "cat": "eat", "tier": "Fine", "a": "Beşiktaş / Kuruçeşme", "d": "Nomadic Anatolian traditions and wood-fired cooking, done with real intent.", "lat": 41.060357, "lon": 29.036665, "p": "v"}, {"n": "Aman da Bravo", "cat": "eat", "tier": "Fine", "a": "Beşiktaş", "d": "Refined Turkish cooking with a quiet gastronomic ambition, at a price that flatters it.", "lat": 41.042847, "lon": 29.007528, "p": "a"}, {"n": "Aheste", "cat": "eat", "tier": "Smart", "a": "Beyoğlu / Pera", "d": "Small plates of modern Turkish with a lightness of touch — a Pera favourite.", "lat": 41.029119, "lon": 28.973078, "p": "v"}, {"n": "Cuma", "cat": "eat", "tier": "Smart", "a": "Beyoğlu / Çukurcuma", "d": "A relaxed all-day room in antique-lined Çukurcuma — Mediterranean-Turkish cooking, done simply and well.", "lat": 41.049891, "lon": 28.921608, "p": "v"}, {"n": "Karaköy Lokantası", "cat": "eat", "tier": "Smart", "a": "Karaköy", "d": "A beloved tiled meyhane serving the classics of Istanbul cooking — meze by day, raki tables by night.", "lat": 41.024592, "lon": 28.980028, "p": "v"}, {"n": "Giritli", "cat": "eat", "tier": "Fine", "a": "Fatih / Ahırkapı (Sultanahmet)", "d": "A set-menu Cretan-Aegean seafood feast in a walled old-city garden — meze that keeps coming.", "lat": 41.003659, "lon": 28.980732, "p": "v"}, {"n": "Tersane", "cat": "eat", "tier": "Smart", "a": "Karaköy", "d": "Traditional meze and charcoal-grilled meats in the old shipyard quarter — honest and full-flavoured.", "lat": 40.861164, "lon": 29.273294, "p": "v"}, {"n": "Pandeli", "cat": "eat", "tier": "Smart", "a": "Eminönü (Spice Bazaar)", "d": "A turquoise-tiled institution above the Spice Bazaar, serving Ottoman classics since 1901.", "lat": 41.017145, "lon": 28.971179, "p": "v"}, {"n": "Sade Beş Denizler Mutfağı", "cat": "eat", "tier": "Fine", "a": "Nişantaşı", "d": "Anatolian cooking drawn from Türkiye's five seas — regional dishes rarely seen on a city menu.", "lat": 41.051687, "lon": 28.991696, "p": "a"}, {"n": "Calipso", "cat": "eat", "tier": "Smart", "a": "Küçükyalı (Asian shore)", "d": "Meze and Aegean seafood on the Anatolian side — a locals' favourite worth the crossing.", "lat": 40.96335, "lon": 28.659901, "p": "v"}, {"n": "Hagia Sophia (Ayasofya)", "cat": "do", "tier": "", "a": "Sultanahmet", "d": "The single building that explains Istanbul: a 6th-century Byzantine cathedral, then imperial mosque, then museum, now a working mosque again, its vast gold-flecked dome still floating over the nave. Go early to feel the scale before the crowds; the surviving Christian mosaics in the upper galleries are worth the climb.", "lat": 41.008505, "lon": 28.980011, "p": "v"}, {"n": "Blue Mosque (Sultan Ahmed Mosque)", "cat": "do", "tier": "", "a": "Sultanahmet", "d": "Facing Hagia Sophia across a garden, this is the great cascade of half-domes and six minarets, its interior sheathed in more than 20,000 hand-painted Iznik tiles that give it its blue glow. Freshly restored, it remains an active mosque — dress modestly and time your visit outside prayer hours.", "lat": 41.005384, "lon": 28.976853, "p": "v"}, {"n": "Topkapı Palace", "cat": "do", "tier": "", "a": "Sultanahmet", "d": "Home to the Ottoman sultans for nearly four centuries, a series of courtyards, tiled pavilions and treasuries that reward slow wandering. Buy the separate Harem ticket, see the Imperial Treasury and the sacred relics, and pause at the terrace above Seraglio Point for the Bosphorus view. A private guide makes the layered history land for a multi-generational family.", "lat": 41.01298, "lon": 28.984066, "p": "v"}, {"n": "Basilica Cistern (Yerebatan Sarnıcı)", "cat": "do", "tier": "", "a": "Sultanahmet", "d": "Descend into a cathedral-like underground reservoir built under Justinian, 336 columns rising from dark water with the famous carved Medusa heads at the base of two of them. Restored and atmospherically lit, it is cool, hushed and short — an easy, memorable stop between the big monuments.", "lat": 41.008479, "lon": 28.978383, "p": "v"}, {"n": "Süleymaniye Mosque", "cat": "do", "tier": "", "a": "Süleymaniye (Fatih)", "d": "The masterpiece of the great architect Sinan and the finest of Istanbul's imperial mosques — calmer and more crowd-free than the Blue Mosque, crowning a hill with a sweeping terrace over the Golden Horn. The tomb-garden holds Süleyman the Magnificent and his wife Roxelana; nearby lanes hide old teahouses.", "lat": 41.016229, "lon": 28.963955, "p": "v"}, {"n": "Grand Bazaar (Kapalı Çarşı)", "cat": "do", "tier": "", "a": "Beyazıt (Fatih)", "d": "One of the world's oldest and largest covered markets — thousands of shops under painted vaults, each lane once dedicated to a trade: gold, carpets, ceramics, antiques, leather. For serious buyers, the discreet dealers in the old Cevahir Bedesten (the inner hall) hold the finest antique jewellery and objects; a trusted guide gets you past the tourist stalls.", "lat": 41.010954, "lon": 28.968022, "p": "v"}, {"n": "Spice Bazaar (Mısır Çarşısı)", "cat": "do", "tier": "", "a": "Eminönü (Fatih)", "d": "The L-shaped 17th-century market by the waterfront, piled with saffron, dried fruit, nuts, teas, lokum and pyramids of spice. Smaller and more sensory than the Grand Bazaar — pick up pistachio baklava and Turkish delight, and slip into the surrounding streets for the city's best coffee and cheese merchants.", "lat": 41.016479, "lon": 28.970538, "p": "v"}, {"n": "Bosphorus by private yacht", "cat": "do", "tier": "", "a": "The Bosphorus", "d": "The essential Istanbul experience: gliding the strait that divides Europe and Asia, past Ottoman waterfront mansions (yalıs), the fortresses, Dolmabahçe and Ortaköy, under the suspension bridges. A chartered yacht at golden hour — with a discreet crew and a private table — is the version a discerning family remembers.", "lat": 41.029894, "lon": 28.987046, "p": "a"}, {"n": "Dolmabahçe Palace", "cat": "do", "tier": "", "a": "Beşiktaş", "d": "The Ottomans' answer to Versailles on the European shore — 285 rooms of crystal, gold leaf and the world's largest Bohemian chandelier, where the empire's last sultans lived and Atatürk died. The ceremonial halls and the waterfront gardens are the highlight; go by boat for the full effect.", "lat": 41.038961, "lon": 28.999773, "p": "v"}, {"n": "Chora Church / Kariye Mosque (Kariye Camii)", "cat": "do", "tier": "", "a": "Edirnekapı (Fatih)", "d": "A modest exterior hiding the greatest surviving Byzantine mosaics and frescoes in the world — luminous cycles of the life of Christ and the Virgin across every vault and dome. Out near the old land walls, it rewards the detour; recently reopened after long restoration.", "lat": 41.031214, "lon": 28.938955, "p": "v"}, {"n": "Galata Tower", "cat": "do", "tier": "", "a": "Galata / Karaköy (Beyoğlu)", "d": "The 14th-century Genoese watchtower that anchors the Galata skyline; the top balcony gives a full 360° sweep across the old city, the Golden Horn and the Bosphorus. Best at sunset — book ahead to skip the line, then wander down through the steep, gallery-lined streets below.", "lat": 41.025641, "lon": 28.974213, "p": "v"}, {"n": "İstiklal Avenue & Beyoğlu", "cat": "do", "tier": "", "a": "Beyoğlu", "d": "The grand pedestrian spine of modern Istanbul, running from Taksim to Galata past belle-époque arcades, patisseries, bookshops and the nostalgic red tram. Duck into the side streets — Asmalımescit, Çukurcuma, Cihangir — for the antique shops, wine bars and cafés where the city's creative class actually spends its evenings.", "lat": 41.033865, "lon": 28.978177, "p": "v"}, {"n": "Balat & Fener", "cat": "do", "tier": "", "a": "Balat / Fener (Fatih)", "d": "The photogenic old Greek and Jewish quarters on the Golden Horn — rainbow terraced houses on steep lanes, antique dealers, third-wave cafés and the Greek Orthodox Patriarchate. The most atmospheric neighbourhood in the city to simply wander a morning with a camera.", "lat": 41.029817, "lon": 28.950922, "p": "v"}, {"n": "Kadıköy (Asian side)", "cat": "do", "tier": "", "a": "Kadıköy", "d": "Take the ferry across for the real, unhurried Istanbul — the Kadıköy market quarter is one of the city's best food districts, dense with fishmongers, spice stalls, meze counters and meyhanes. Strong on vegetarian meze too; a food walk here beats any tourist restaurant across the water.", "lat": 40.991295, "lon": 29.024563, "p": "a"}, {"n": "Istanbul Archaeological Museums", "cat": "do", "tier": "", "a": "Sultanahmet (Gülhane)", "d": "A three-museum complex just below Topkapı holding treasures like the Alexander Sarcophagus, the Ishtar Gate tiles and antiquities from across the former Ottoman lands. Uncrowded and beautifully laid out — a serious hour for anyone who wants depth beyond the mosques.", "lat": 41.011648, "lon": 28.98173, "p": "v"}, {"n": "Istanbul Modern", "cat": "do", "tier": "", "a": "Karaköy / Tophane (Beyoğlu)", "d": "Türkiye's leading modern and contemporary art museum, reborn in a striking Renzo Piano building on the Bosphorus waterfront with a rooftop terrace and reflecting pool. Strong Turkish collection, ambitious temporary shows and one of the best design shops in the city.", "lat": 41.025911, "lon": 28.982812, "p": "v"}, {"n": "Pera Museum", "cat": "do", "tier": "", "a": "Tepebaşı (Beyoğlu)", "d": "An elegant private museum in a former grand hotel, best known for Osman Hamdi Bey's 'The Tortoise Trainer' and a fine collection of Orientalist painting, alongside Anatolian weights and Kütahya tiles. Manageable in size, thoughtfully curated, with a lovely café.", "lat": 41.031803, "lon": 28.975204, "p": "v"}, {"n": "Sakıp Sabancı Museum", "cat": "do", "tier": "", "a": "Emirgan (Sarıyer)", "d": "A waterfront mansion museum up the Bosphorus with world-class Ottoman calligraphy and painting, blockbuster travelling exhibitions, and gardens over the strait. Its restaurant, MSA, is a destination in itself — an easy, refined half-day for a family, paired with Emirgan Park next door.", "lat": 41.106019, "lon": 29.055629, "p": "v"}, {"n": "Museum of Innocence", "cat": "do", "tier": "", "a": "Çukurcuma (Beyoğlu)", "d": "Nobel laureate Orhan Pamuk's novel made physical — a townhouse of vitrines filled with the everyday objects of 1970s Istanbul, from cigarette stubs to hairpins, telling a love story object by object. Quietly moving and unlike any other museum in the world; bring the book's ticket page for free entry.", "lat": 41.030872, "lon": 28.979795, "p": "v"}, {"n": "Rüstem Paşa Mosque", "cat": "do", "tier": "", "a": "Eminönü (Fatih)", "d": "A hidden jewel above the Spice Bazaar's warehouses — a small Sinan mosque wrapped inside and out in the most exquisite Iznik tiles in the city, tomato-red and turquoise. Easy to miss and rarely crowded; a real connoisseur's stop between the bigger sights.", "lat": 41.016948, "lon": 28.972112, "p": "v"}, {"n": "Süleymaniye view & backstreets", "cat": "do", "tier": "", "a": "Süleymaniye (Fatih)", "d": "Beyond the mosque itself, the old quarter of wooden houses, ateliers and the classic çorba (bean-stew) houses is one of the last authentically Ottoman neighbourhoods — and the terrace beside the mosque is arguably the finest free viewpoint over the Golden Horn.", "lat": 41.013242, "lon": 28.963761, "p": "a"}, {"n": "Kılıç Ali Paşa Hamamı", "cat": "do", "tier": "", "a": "Tophane / Karaköy (Beyoğlu)", "d": "A 16th-century Sinan-built bath, meticulously restored, offering the classic marble-slab scrub-and-foam ritual in a soaring domed hall. Well-run and refined — the most tasteful introduction to the hammam for first-timers, with separate men's and women's sessions.", "lat": 41.026204, "lon": 28.980579, "p": "v"}, {"n": "Çağaloğlu Hamamı", "cat": "do", "tier": "", "a": "Cağaloğlu (Fatih)", "d": "One of the last great classical Ottoman baths, built in 1741, with a guest list running from Florence Nightingale to Kaiser Wilhelm II. Grand marble interiors and a full menu of scrubs and massages — an atmospheric, historic hammam a short walk from Hagia Sophia.", "lat": 41.010691, "lon": 28.975642, "p": "v"}, {"n": "Ortaköy waterfront & mosque", "cat": "do", "tier": "", "a": "Ortaköy (Beşiktaş)", "d": "The little baroque mosque on the water, framed dead-on by the great suspension bridge, is one of Istanbul's signature views — especially at sunset. The square behind it is a lively weekend scene of cafés, an antiques-and-crafts market and the famous stuffed-baked-potato (kumpir) stalls.", "lat": 41.047287, "lon": 29.026772, "p": "v"}, {"n": "Gülhane Park", "cat": "do", "tier": "", "a": "Sultanahmet (Fatih)", "d": "The oldest public park in the city, the former outer gardens of Topkapı, ablaze with tulips in spring and shaded by old planes year-round. A calm green pause between the monuments, with a cliff-top tea garden looking over the Bosphorus at the far end.", "lat": 41.013026, "lon": 28.980902, "p": "v"}, {"n": "Emirgan Park", "cat": "do", "tier": "", "a": "Emirgan (Sarıyer)", "d": "A hillside grove of restored Ottoman pavilions and formal gardens up the European shore, and the heart of the city's April Tulip Festival with millions of blooms. Genuinely family-friendly and unhurried — pair it with the Sabancı Museum next door.", "lat": 41.109012, "lon": 29.052517, "p": "v"}, {"n": "Galata Mevlevihanesi (Whirling Dervishes)", "cat": "do", "tier": "", "a": "Galata (Beyoğlu)", "d": "The city's oldest Mevlevi lodge, now a museum, where a genuine sema ceremony — the meditative whirling of the Sufi dervishes — is performed to live ney music. Small, ticketed and reverent; the real thing rather than the dinner-show imitations elsewhere.", "lat": 41.028015, "lon": 28.975116, "p": "v"}, {"n": "Çiçek Pasajı & Balık Pazarı", "cat": "do", "tier": "", "a": "Beyoğlu", "d": "A glass-roofed 19th-century arcade of historic meyhanes off İstiklal, spilling into the atmospheric fish market lanes behind — the classic setting for an evening of meze, grilled fish and raki with live fasıl music. Touristy but genuinely fun; the deeper backstreet meyhanes are where locals go.", "lat": 41.028423, "lon": 28.973681, "p": "a"}, {"n": "Rahmi M. Koç Museum", "cat": "do", "tier": "", "a": "Hasköy (Golden Horn)", "d": "Türkiye's great museum of industry and transport on the Golden Horn — restored trams, vintage cars, aircraft, a real submarine you can board, and hands-on exhibits. The most child- and grandchild-friendly museum in Istanbul, with a good waterside restaurant.", "lat": 41.041973, "lon": 28.948569, "p": "v"}, {"n": "Çamlıca Hill & Grand Çamlıca Mosque", "cat": "do", "tier": "", "a": "Üsküdar (Asian side)", "d": "The highest hill on the Asian side, with the classic panorama over the whole city, the Bosphorus and the Marmara — clear enough on a good day to see the Princes' Islands. Beside it stands the vast Grand Çamlıca Mosque, the largest in Türkiye, worth seeing for sheer scale.", "lat": 41.034528, "lon": 29.070587, "p": "v"}, {"n": "Pierre Loti Hill & Eyüp Sultan Mosque", "cat": "do", "tier": "", "a": "Eyüp (Golden Horn)", "d": "Ride the little cable car up to the café named for the French novelist for one of the loveliest views down the Golden Horn, then descend to Eyüp Sultan — one of Islam's holiest sites in Türkiye and a deeply local pilgrimage quarter far from the tourist trail.", "lat": 41.041155, "lon": 28.945785, "p": "a"}, {"n": "Maiden's Tower (Kız Kulesi)", "cat": "do", "tier": "", "a": "Üsküdar (Asian side)", "d": "The tiny islet tower marooned at the mouth of the Bosphorus, wrapped in legend and lately restored, reachable by a short boat hop from Üsküdar or Kabataş. More postcard than must-see, but the café terrace gives a rare view back at the old-city skyline from the water.", "lat": 41.021138, "lon": 29.004058, "p": "v"}, {"n": "Çukurcuma antique quarter", "cat": "do", "tier": "", "a": "Çukurcuma (Beyoğlu)", "d": "A steep warren of streets packed with antique dealers, vintage furniture, old maps, textiles and curiosities — the place serious collectors and interior people spend an afternoon. Cluster your browsing on Faik Paşa and Çukur Cuma streets, then coffee in Cihangir up the hill.", "lat": 41.031247, "lon": 28.980096, "p": "a"}, {"n": "Yıldız Park & pavilions", "cat": "do", "tier": "", "a": "Beşiktaş", "d": "A wooded royal park climbing the hillside above the Bosphorus, dotted with delicate late-Ottoman kiosks and greenhouses, once the private grounds of Sultan Abdülhamid II. Quiet, green and uncrowded — a good-weather escape with tea in a historic pavilion.", "lat": 41.048302, "lon": 29.015423, "p": "v"}, {"n": "Little Hagia Sophia (Küçük Ayasofya Camii)", "cat": "do", "tier": "", "a": "Kumkapı / Sultanahmet (Fatih)", "d": "A serene 6th-century Byzantine church-turned-mosque, once a model for its far larger namesake, with a beautiful two-storey colonnade and an intimate, worshipful calm. A short walk down from the Blue Mosque and blissfully free of crowds.", "lat": 41.002733, "lon": 28.972195, "p": "v"}, {"n": "Hippodrome / Sultanahmet Square", "cat": "do", "tier": "", "a": "Sultanahmet", "d": "The long public square that was the chariot-racing arena of Byzantine Constantinople, still marked by the Egyptian Obelisk, the bronze Serpent Column and the German Fountain. Walk it between Hagia Sophia and the Blue Mosque and the layers of two empires line up in a single open space.", "lat": 41.006516, "lon": 28.975977, "p": "v"}, {"n": "Arasta Bazaar", "cat": "do", "tier": "", "a": "Sultanahmet", "d": "The small, calm arcade of shops tucked behind the Blue Mosque, originally built to fund it — good-quality carpets, ceramics and textiles without the Grand Bazaar's hustle. The best place near the monuments to shop at a civilised pace; the little Mosaic Museum sits right alongside.", "lat": 41.004927, "lon": 28.977903, "p": "v"}, {"n": "Great Palace Mosaic Museum", "cat": "do", "tier": "", "a": "Sultanahmet", "d": "A single dazzling survival of Byzantine Constantinople — the vast floor mosaics of the vanished Great Palace of the emperors, teeming with hunting scenes and everyday life, displayed in situ. Small, extraordinary and overlooked, right off the Arasta Bazaar.", "lat": 41.004295, "lon": 28.977433, "p": "v"}, {"n": "Rumeli Fortress (Rumeli Hisarı)", "cat": "do", "tier": "", "a": "Sarıyer", "d": "The dramatic mid-15th-century fortress Mehmed the Conqueror threw up in four months to strangle Byzantine Constantinople, its towers climbing straight from the Bosphorus shore. Great ramparts to explore, and the surrounding waterfront of Bebek and Rumeli Hisarı is prime café territory.", "lat": 41.084917, "lon": 29.056712, "p": "v"}, {"n": "Bebek waterfront", "cat": "do", "tier": "", "a": "Bebek (Beşiktaş)", "d": "Istanbul's most moneyed shoreline — a curve of Bosphorus bay lined with mansions, moored yachts and the city society's favourite cafés and restaurants. Come for a long, unhurried breakfast or waterside coffee and watch the city's smart set at ease.", "lat": 41.079016, "lon": 29.043959, "p": "v"}, {"n": "Suna & İnan Kıraç Kadıköy / Nişantaşı shopping", "cat": "do", "tier": "", "a": "Nişantaşı (Şişli)", "d": "Istanbul's luxury retail district — Abdi İpekçi Caddesi and its side streets carry the international houses alongside the best Turkish designers, jewellers and concept stores. The natural base for discreet, appointment-led personal shopping, with elegant cafés between.", "lat": 41.051687, "lon": 28.991696, "p": "a"}, {"n": "Princes' Islands (Büyükada)", "cat": "do", "tier": "", "a": "Day trip — Sea of Marmara", "d": "A ferry hop out to a car-free island of pine woods, Belle Époque villas and sea views — you get around on foot, bicycle or electric cart. Lunch by the harbour, wander the mansion-lined lanes, and Istanbul suddenly feels a world away; an easy, gentle day for all ages.", "lat": 40.856355, "lon": 29.119037, "p": "v"}, {"n": "Polonezköy", "cat": "do", "tier": "", "a": "Day trip — Beykoz (Asian side)", "d": "A leafy village founded by 19th-century Polish émigrés in the forests north-east of the city — a rare pocket of quiet, walking trails and long country lunches of pork and homemade preserves. An unusual, restful escape from the metropolis, popular for weekend brunch.", "lat": 41.110036, "lon": 29.211811, "p": "v"}, {"n": "Edirne (Selimiye Mosque)", "cat": "do", "tier": "", "a": "Day trip — Thracian border", "d": "The former Ottoman capital near the Greek and Bulgarian borders, home to Sinan's crowning masterpiece, the Selimiye Mosque — the architect's own declared finest work, its dome engineered to rival Hagia Sophia's. A serious architectural pilgrimage for those who want the definitive Ottoman monument.", "lat": 41.009649, "lon": 29.016355, "p": "v"}, {"n": "Mikla (rooftop bar)", "cat": "party", "tier": "Rooftops", "a": "Beyoğlu / Pera", "d": "Sunset drinks above the whole old city, atop the Marmara Pera — the rooftop attached to one of Istanbul's great restaurants.", "lat": 41.026501, "lon": 28.974453, "p": "v"}, {"n": "Bebek Hotel rooftop bar", "cat": "party", "tier": "Rooftops", "a": "Bebek / Bosphorus", "d": "A mid-century landmark on the Bebek waterfront — cocktails at the water's edge in the city's most fashionable village.", "lat": 41.02385, "lon": 28.974981, "p": "v"}, {"n": "Alexandra Cocktail Bar", "cat": "party", "tier": "Cocktail bars", "a": "Arnavutköy / Bosphorus", "d": "A historic Bosphorus house turned serious cocktail address, with a rooftop over the strait and a bartender in the 50 Best Bars Academy.", "lat": 41.024397, "lon": 28.978783, "p": "v"}, {"n": "Fahri Konsolos", "cat": "party", "tier": "Cocktail bars", "a": "Kadıköy / Moda (Asian shore)", "d": "The Asian shore's most inventive bar — house liquors, bitters and infusions built on Anatolian ingredients like sumac and pomegranate molasses.", "lat": 41.050722, "lon": 29.03193, "p": "v"}, {"n": "360 Istanbul", "cat": "party", "tier": "Rooftops", "a": "Beyoğlu / Pera", "d": "The rooftop that named the genre — a full 360° sweep of Bosphorus, Golden Horn and Sultanahmet from one terrace.", "lat": 41.032744, "lon": 28.976723, "p": "v"}, {"n": "Asmalı Cavit", "cat": "party", "tier": "Late & loud", "a": "Beyoğlu / Asmalımescit", "d": "The meyhane other meyhanes are measured against — rakı, meze and long tables where strangers become regulars.", "lat": 41.030166, "lon": 28.974706, "p": "v"}, {"n": "Muuto", "cat": "party", "tier": "Late & loud", "a": "Beyoğlu", "d": "Chef Umut Karakuş's Anatolian small-plates bar — colourful meze made for sharing over a long, loud table.", "lat": 41.006381, "lon": 28.975872, "p": "v"}, {"n": "Çırağan Palace Kempinski — Bosphorus terrace bar", "cat": "party", "tier": "Landmark bars", "a": "Beşiktaş / Bosphorus", "d": "A drink on the terrace of a restored imperial palace, the Bosphorus lit and moving at your feet — the city's grandest nightcap.", "lat": 41.045486, "lon": 29.034387, "p": "a"}, {"n": "Pera Palace — Orient Bar", "cat": "party", "tier": "Landmark bars", "a": "Beyoğlu / Pera", "d": "A cocktail inside the 1895 Orient Express hotel — Agatha Christie's Istanbul, in wood, brass and low light.", "lat": 41.028423, "lon": 28.973681, "p": "a"}]}
+{
+  "center": [
+    41.006381,
+    28.975872
+  ],
+  "venues": [
+    {
+      "n": "Four Seasons Hotel Istanbul at Sultanahmet",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Sultanahmet",
+      "d": "A former Ottoman prison turned intimate icon, in the shadow of the Blue Mosque and Hagia Sophia.",
+      "lat": 41.006538,
+      "lon": 28.980211,
+      "photos": []
+    },
+    {
+      "n": "Four Seasons Hotel Istanbul at the Bosphorus",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Be\u015fikta\u015f / Bosphorus",
+      "d": "A 19th-century Ottoman palace on the water's edge \u2014 the group's grander, waterfront Istanbul house.",
+      "lat": 41.045486,
+      "lon": 29.034387,
+      "photos": []
+    },
+    {
+      "n": "\u00c7\u0131ra\u011fan Palace Kempinski Istanbul",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Be\u015fikta\u015f / Bosphorus",
+      "d": "A restored imperial palace on the Bosphorus \u2014 the address the city reserves for its grandest occasions.",
+      "lat": 41.044444,
+      "lon": 29.016629,
+      "photos": []
+    },
+    {
+      "n": "The Peninsula Istanbul",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Karak\u00f6y / Bosphorus",
+      "d": "Four heritage buildings on the Galataport waterfront \u2014 the group's exacting Istanbul debut.",
+      "lat": 41.02295,
+      "lon": 28.978156,
+      "photos": []
+    },
+    {
+      "n": "Raffles Istanbul",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Be\u015fikta\u015f / Zorlu Center",
+      "d": "Glamorous, art-filled and high above the city, with Raffles' signature service and a view to the strait.",
+      "lat": 41.006381,
+      "lon": 28.975872,
+      "photos": []
+    },
+    {
+      "n": "Mandarin Oriental Bosphorus, Istanbul",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Kuru\u00e7e\u015fme / Bosphorus",
+      "d": "A calm seaside retreat on the European shore \u2014 the group's quiet precision, with the water at the door.",
+      "lat": 41.057031,
+      "lon": 29.035628,
+      "photos": []
+    },
+    {
+      "n": "The Ritz-Carlton, Istanbul",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "\u015ei\u015fhane / Dolmabah\u00e7e",
+      "d": "A polished city tower above Dolmabah\u00e7e with sweeping Bosphorus vistas from the upper floors.",
+      "lat": 41.040288,
+      "lon": 28.992178,
+      "photos": []
+    },
+    {
+      "n": "The St. Regis Istanbul",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Ni\u015fanta\u015f\u0131",
+      "d": "Art Deco glamour in the middle of the city's smartest shopping district, with the signature butler on every stay.",
+      "lat": 41.028904,
+      "lon": 28.934293,
+      "photos": []
+    },
+    {
+      "n": "Shangri-La Bosphorus, Istanbul",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Be\u015fikta\u015f / Bosphorus",
+      "d": "Turkish hospitality with the group's Asian grace, on a quiet stretch of the European waterfront.",
+      "lat": 41.040594,
+      "lon": 29.005154,
+      "photos": []
+    },
+    {
+      "n": "Park Hyatt Istanbul \u2013 Ma\u00e7ka Palas",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Ni\u015fanta\u015f\u0131 / Ma\u00e7ka",
+      "d": "An updated 1920s Italianate palazzo \u2014 discreet, design-led and steps from the boutiques.",
+      "lat": 41.047565,
+      "lon": 28.993734,
+      "photos": []
+    },
+    {
+      "n": "JW Marriott Hotel Istanbul Marmara Sea",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Atak\u00f6y / Marmara Sea",
+      "d": "A stylish seaside skyscraper on the Marmara, with a marina and long sea views.",
+      "lat": 41.02408,
+      "lon": 28.979241,
+      "photos": []
+    },
+    {
+      "n": "Six Senses Kocata\u015f Mansions Istanbul",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Sar\u0131yer / Bosphorus",
+      "d": "Two restored 19th-century mansions on the upper Bosphorus \u2014 a wellness-led urban resort away from the crowds.",
+      "lat": 41.16532,
+      "lon": 29.054594,
+      "photos": []
+    },
+    {
+      "n": "The Bank Hotel Istanbul",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Karak\u00f6y / Galata",
+      "d": "A grand old bank in Karak\u00f6y, reborn as a sharp, contemporary house in the city's most creative quarter.",
+      "lat": 41.023584,
+      "lon": 28.974439,
+      "photos": []
+    },
+    {
+      "n": "AJWA Sultanahmet",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Sultanahmet",
+      "d": "An Ottoman-Seljuk fantasy in the old city \u2014 richly detailed and warmly, traditionally run.",
+      "lat": 41.006516,
+      "lon": 28.975977,
+      "photos": []
+    },
+    {
+      "n": "Ecole St. Pierre Hotel",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Karak\u00f6y / Galata",
+      "d": "A restored historic school turned intimate design hotel, in the thick of Galata.",
+      "lat": 41.020008,
+      "lon": 28.973287,
+      "photos": []
+    },
+    {
+      "n": "Pera Palace Hotel",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Beyo\u011flu / Pera",
+      "d": "The Orient Express hotel of 1895 \u2014 Agatha Christie's rooms and a century of Istanbul history intact.",
+      "lat": 41.031048,
+      "lon": 28.973474,
+      "photos": []
+    },
+    {
+      "n": "Fairmont Quasar Istanbul",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "\u015ei\u015fli / Mecidiyek\u00f6y",
+      "d": "A landmark tower on a restored heritage base \u2014 polished, central and generously scaled.",
+      "lat": 41.109938,
+      "lon": 29.032252,
+      "photos": []
+    },
+    {
+      "n": "Conrad Istanbul Bosphorus",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Be\u015fikta\u015f",
+      "d": "A refreshed modern house above the strait \u2014 reliable, spacious and quietly capable.",
+      "lat": 41.047134,
+      "lon": 29.009458,
+      "photos": []
+    },
+    {
+      "n": "Bebek Hotel by The Stay",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Bebek / Bosphorus",
+      "d": "A tiny waterfront boutique in the city's most fashionable village, right on the Bebek promenade.",
+      "lat": 41.006383,
+      "lon": 28.973344,
+      "photos": []
+    },
+    {
+      "n": "Address Istanbul",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "\u015ei\u015fli / Bomonti",
+      "d": "A contemporary high-rise with skyline views and the group's slick, service-led ease.",
+      "lat": 41.038504,
+      "lon": 28.912045,
+      "photos": []
+    },
+    {
+      "n": "Soho House Istanbul",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Beyo\u011flu / Pera",
+      "d": "A 19th-century Italianate palazzo turned members'-club-and-hotel \u2014 the address of the creative crowd.",
+      "lat": 41.030289,
+      "lon": 28.972993,
+      "photos": []
+    },
+    {
+      "n": "The Stay Bosphorus",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Ortak\u00f6y / Bosphorus",
+      "d": "A slim design house on the waterfront at Ortak\u00f6y, under the shadow of the bridge.",
+      "lat": 41.029894,
+      "lon": 28.987046,
+      "photos": []
+    },
+    {
+      "n": "TURK Fatih Tutak",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Bomonti / \u015ei\u015fli",
+      "d": "The city's sole two-star \u2014 Fatih Tutak's radical, refined reimagining of Anatolian cooking.",
+      "lat": 41.022857,
+      "lon": 28.978053,
+      "photos": []
+    },
+    {
+      "n": "Mikla",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Beyo\u011flu / Pera",
+      "d": "Turkish ingredients through a Scandinavian lens, on a rooftop with the whole old city laid out below.",
+      "lat": 41.031087,
+      "lon": 28.974017,
+      "photos": []
+    },
+    {
+      "n": "Neolokal",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Beyo\u011flu / Karak\u00f6y (SALT Galata)",
+      "d": "Heritage Anatolian dishes reborn as contemporary art \u2014 tradition, plated for today.",
+      "lat": 41.023782,
+      "lon": 28.973476,
+      "photos": []
+    },
+    {
+      "n": "Nicole",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Beyo\u011flu / Pera",
+      "d": "French-influenced Turkish refinement in a historic Pera mansion \u2014 elegant, exacting, personal.",
+      "lat": 41.03023,
+      "lon": 28.977828,
+      "photos": []
+    },
+    {
+      "n": "Araka",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Sar\u0131yer / Emirgan",
+      "d": "A garden restaurant on the upper Bosphorus where modern Turkish cooking feels both familiar and new.",
+      "lat": 40.888823,
+      "lon": 29.22044,
+      "photos": []
+    },
+    {
+      "n": "Arkestra",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Be\u015fikta\u015f / Etiler",
+      "d": "A progressive tasting menu that ranges the globe while staying rooted in Istanbul's energy.",
+      "lat": 41.006381,
+      "lon": 28.975872,
+      "photos": []
+    },
+    {
+      "n": "Sankai by Nagaya",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Be\u015fikta\u015f",
+      "d": "A minimalist Japanese haven and flawless omakase \u2014 a meditative break from the city's noise.",
+      "lat": 41.042847,
+      "lon": 29.007528,
+      "photos": []
+    },
+    {
+      "n": "Araf \u0130stanbul",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Kad\u0131k\u00f6y (Asian shore)",
+      "d": "A pocket-sized Asian-shore kitchen doing contemporary Turkish cooking over coals \u2014 newly starred.",
+      "lat": 41.018507,
+      "lon": 28.9531,
+      "photos": []
+    },
+    {
+      "n": "Alaf",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Be\u015fikta\u015f / Kuru\u00e7e\u015fme",
+      "d": "Nomadic Anatolian traditions and wood-fired cooking, done with real intent.",
+      "lat": 41.060357,
+      "lon": 29.036665,
+      "photos": []
+    },
+    {
+      "n": "Aman da Bravo",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Be\u015fikta\u015f",
+      "d": "Refined Turkish cooking with a quiet gastronomic ambition, at a price that flatters it.",
+      "lat": 41.042847,
+      "lon": 29.007528,
+      "photos": []
+    },
+    {
+      "n": "Aheste",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Beyo\u011flu / Pera",
+      "d": "Small plates of modern Turkish with a lightness of touch \u2014 a Pera favourite.",
+      "lat": 41.029119,
+      "lon": 28.973078,
+      "photos": []
+    },
+    {
+      "n": "Cuma",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Beyo\u011flu / \u00c7ukurcuma",
+      "d": "A relaxed all-day room in antique-lined \u00c7ukurcuma \u2014 Mediterranean-Turkish cooking, done simply and well.",
+      "lat": 41.049891,
+      "lon": 28.921608,
+      "photos": []
+    },
+    {
+      "n": "Karak\u00f6y Lokantas\u0131",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Karak\u00f6y",
+      "d": "A beloved tiled meyhane serving the classics of Istanbul cooking \u2014 meze by day, raki tables by night.",
+      "lat": 41.024592,
+      "lon": 28.980028,
+      "photos": []
+    },
+    {
+      "n": "Giritli",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Fatih / Ah\u0131rkap\u0131 (Sultanahmet)",
+      "d": "A set-menu Cretan-Aegean seafood feast in a walled old-city garden \u2014 meze that keeps coming.",
+      "lat": 41.003659,
+      "lon": 28.980732,
+      "photos": []
+    },
+    {
+      "n": "Tersane",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Karak\u00f6y",
+      "d": "Traditional meze and charcoal-grilled meats in the old shipyard quarter \u2014 honest and full-flavoured.",
+      "lat": 40.861164,
+      "lon": 29.273294,
+      "photos": []
+    },
+    {
+      "n": "Pandeli",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Emin\u00f6n\u00fc (Spice Bazaar)",
+      "d": "A turquoise-tiled institution above the Spice Bazaar, serving Ottoman classics since 1901.",
+      "lat": 41.017145,
+      "lon": 28.971179,
+      "photos": []
+    },
+    {
+      "n": "Sade Be\u015f Denizler Mutfa\u011f\u0131",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Ni\u015fanta\u015f\u0131",
+      "d": "Anatolian cooking drawn from T\u00fcrkiye's five seas \u2014 regional dishes rarely seen on a city menu.",
+      "lat": 41.051687,
+      "lon": 28.991696,
+      "photos": []
+    },
+    {
+      "n": "Calipso",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "K\u00fc\u00e7\u00fckyal\u0131 (Asian shore)",
+      "d": "Meze and Aegean seafood on the Anatolian side \u2014 a locals' favourite worth the crossing.",
+      "lat": 40.96335,
+      "lon": 28.659901,
+      "photos": []
+    },
+    {
+      "n": "Hagia Sophia (Ayasofya)",
+      "cat": "do",
+      "tier": "",
+      "a": "Sultanahmet",
+      "d": "The single building that explains Istanbul: a 6th-century Byzantine cathedral, then imperial mosque, then museum, now a working mosque again, its vast gold-flecked dome still floating over the nave. Go early to feel the scale before the crowds; the surviving Christian mosaics in the upper galleries are worth the climb.",
+      "lat": 41.008505,
+      "lon": 28.980011,
+      "photos": []
+    },
+    {
+      "n": "Blue Mosque (Sultan Ahmed Mosque)",
+      "cat": "do",
+      "tier": "",
+      "a": "Sultanahmet",
+      "d": "Facing Hagia Sophia across a garden, this is the great cascade of half-domes and six minarets, its interior sheathed in more than 20,000 hand-painted Iznik tiles that give it its blue glow. Freshly restored, it remains an active mosque \u2014 dress modestly and time your visit outside prayer hours.",
+      "lat": 41.005384,
+      "lon": 28.976853,
+      "photos": []
+    },
+    {
+      "n": "Topkap\u0131 Palace",
+      "cat": "do",
+      "tier": "",
+      "a": "Sultanahmet",
+      "d": "Home to the Ottoman sultans for nearly four centuries, a series of courtyards, tiled pavilions and treasuries that reward slow wandering. Buy the separate Harem ticket, see the Imperial Treasury and the sacred relics, and pause at the terrace above Seraglio Point for the Bosphorus view. A private guide makes the layered history land for a multi-generational family.",
+      "lat": 41.01298,
+      "lon": 28.984066,
+      "photos": []
+    },
+    {
+      "n": "Basilica Cistern (Yerebatan Sarn\u0131c\u0131)",
+      "cat": "do",
+      "tier": "",
+      "a": "Sultanahmet",
+      "d": "Descend into a cathedral-like underground reservoir built under Justinian, 336 columns rising from dark water with the famous carved Medusa heads at the base of two of them. Restored and atmospherically lit, it is cool, hushed and short \u2014 an easy, memorable stop between the big monuments.",
+      "lat": 41.008479,
+      "lon": 28.978383,
+      "photos": []
+    },
+    {
+      "n": "S\u00fcleymaniye Mosque",
+      "cat": "do",
+      "tier": "",
+      "a": "S\u00fcleymaniye (Fatih)",
+      "d": "The masterpiece of the great architect Sinan and the finest of Istanbul's imperial mosques \u2014 calmer and more crowd-free than the Blue Mosque, crowning a hill with a sweeping terrace over the Golden Horn. The tomb-garden holds S\u00fcleyman the Magnificent and his wife Roxelana; nearby lanes hide old teahouses.",
+      "lat": 41.016229,
+      "lon": 28.963955,
+      "photos": []
+    },
+    {
+      "n": "Grand Bazaar (Kapal\u0131 \u00c7ar\u015f\u0131)",
+      "cat": "do",
+      "tier": "",
+      "a": "Beyaz\u0131t (Fatih)",
+      "d": "One of the world's oldest and largest covered markets \u2014 thousands of shops under painted vaults, each lane once dedicated to a trade: gold, carpets, ceramics, antiques, leather. For serious buyers, the discreet dealers in the old Cevahir Bedesten (the inner hall) hold the finest antique jewellery and objects; a trusted guide gets you past the tourist stalls.",
+      "lat": 41.010954,
+      "lon": 28.968022,
+      "photos": []
+    },
+    {
+      "n": "Spice Bazaar (M\u0131s\u0131r \u00c7ar\u015f\u0131s\u0131)",
+      "cat": "do",
+      "tier": "",
+      "a": "Emin\u00f6n\u00fc (Fatih)",
+      "d": "The L-shaped 17th-century market by the waterfront, piled with saffron, dried fruit, nuts, teas, lokum and pyramids of spice. Smaller and more sensory than the Grand Bazaar \u2014 pick up pistachio baklava and Turkish delight, and slip into the surrounding streets for the city's best coffee and cheese merchants.",
+      "lat": 41.016479,
+      "lon": 28.970538,
+      "photos": []
+    },
+    {
+      "n": "Bosphorus by private yacht",
+      "cat": "do",
+      "tier": "",
+      "a": "The Bosphorus",
+      "d": "The essential Istanbul experience: gliding the strait that divides Europe and Asia, past Ottoman waterfront mansions (yal\u0131s), the fortresses, Dolmabah\u00e7e and Ortak\u00f6y, under the suspension bridges. A chartered yacht at golden hour \u2014 with a discreet crew and a private table \u2014 is the version a discerning family remembers.",
+      "lat": 41.029894,
+      "lon": 28.987046,
+      "photos": []
+    },
+    {
+      "n": "Dolmabah\u00e7e Palace",
+      "cat": "do",
+      "tier": "",
+      "a": "Be\u015fikta\u015f",
+      "d": "The Ottomans' answer to Versailles on the European shore \u2014 285 rooms of crystal, gold leaf and the world's largest Bohemian chandelier, where the empire's last sultans lived and Atat\u00fcrk died. The ceremonial halls and the waterfront gardens are the highlight; go by boat for the full effect.",
+      "lat": 41.038961,
+      "lon": 28.999773,
+      "photos": []
+    },
+    {
+      "n": "Chora Church / Kariye Mosque (Kariye Camii)",
+      "cat": "do",
+      "tier": "",
+      "a": "Edirnekap\u0131 (Fatih)",
+      "d": "A modest exterior hiding the greatest surviving Byzantine mosaics and frescoes in the world \u2014 luminous cycles of the life of Christ and the Virgin across every vault and dome. Out near the old land walls, it rewards the detour; recently reopened after long restoration.",
+      "lat": 41.031214,
+      "lon": 28.938955,
+      "photos": []
+    },
+    {
+      "n": "Galata Tower",
+      "cat": "do",
+      "tier": "",
+      "a": "Galata / Karak\u00f6y (Beyo\u011flu)",
+      "d": "The 14th-century Genoese watchtower that anchors the Galata skyline; the top balcony gives a full 360\u00b0 sweep across the old city, the Golden Horn and the Bosphorus. Best at sunset \u2014 book ahead to skip the line, then wander down through the steep, gallery-lined streets below.",
+      "lat": 41.025641,
+      "lon": 28.974213,
+      "photos": []
+    },
+    {
+      "n": "\u0130stiklal Avenue & Beyo\u011flu",
+      "cat": "do",
+      "tier": "",
+      "a": "Beyo\u011flu",
+      "d": "The grand pedestrian spine of modern Istanbul, running from Taksim to Galata past belle-\u00e9poque arcades, patisseries, bookshops and the nostalgic red tram. Duck into the side streets \u2014 Asmal\u0131mescit, \u00c7ukurcuma, Cihangir \u2014 for the antique shops, wine bars and caf\u00e9s where the city's creative class actually spends its evenings.",
+      "lat": 41.033865,
+      "lon": 28.978177,
+      "photos": []
+    },
+    {
+      "n": "Balat & Fener",
+      "cat": "do",
+      "tier": "",
+      "a": "Balat / Fener (Fatih)",
+      "d": "The photogenic old Greek and Jewish quarters on the Golden Horn \u2014 rainbow terraced houses on steep lanes, antique dealers, third-wave caf\u00e9s and the Greek Orthodox Patriarchate. The most atmospheric neighbourhood in the city to simply wander a morning with a camera.",
+      "lat": 41.029817,
+      "lon": 28.950922,
+      "photos": []
+    },
+    {
+      "n": "Kad\u0131k\u00f6y (Asian side)",
+      "cat": "do",
+      "tier": "",
+      "a": "Kad\u0131k\u00f6y",
+      "d": "Take the ferry across for the real, unhurried Istanbul \u2014 the Kad\u0131k\u00f6y market quarter is one of the city's best food districts, dense with fishmongers, spice stalls, meze counters and meyhanes. Strong on vegetarian meze too; a food walk here beats any tourist restaurant across the water.",
+      "lat": 40.991295,
+      "lon": 29.024563,
+      "photos": []
+    },
+    {
+      "n": "Istanbul Archaeological Museums",
+      "cat": "do",
+      "tier": "",
+      "a": "Sultanahmet (G\u00fclhane)",
+      "d": "A three-museum complex just below Topkap\u0131 holding treasures like the Alexander Sarcophagus, the Ishtar Gate tiles and antiquities from across the former Ottoman lands. Uncrowded and beautifully laid out \u2014 a serious hour for anyone who wants depth beyond the mosques.",
+      "lat": 41.011648,
+      "lon": 28.98173,
+      "photos": []
+    },
+    {
+      "n": "Istanbul Modern",
+      "cat": "do",
+      "tier": "",
+      "a": "Karak\u00f6y / Tophane (Beyo\u011flu)",
+      "d": "T\u00fcrkiye's leading modern and contemporary art museum, reborn in a striking Renzo Piano building on the Bosphorus waterfront with a rooftop terrace and reflecting pool. Strong Turkish collection, ambitious temporary shows and one of the best design shops in the city.",
+      "lat": 41.025911,
+      "lon": 28.982812,
+      "photos": []
+    },
+    {
+      "n": "Pera Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Tepeba\u015f\u0131 (Beyo\u011flu)",
+      "d": "An elegant private museum in a former grand hotel, best known for Osman Hamdi Bey's 'The Tortoise Trainer' and a fine collection of Orientalist painting, alongside Anatolian weights and K\u00fctahya tiles. Manageable in size, thoughtfully curated, with a lovely caf\u00e9.",
+      "lat": 41.031803,
+      "lon": 28.975204,
+      "photos": []
+    },
+    {
+      "n": "Sak\u0131p Sabanc\u0131 Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Emirgan (Sar\u0131yer)",
+      "d": "A waterfront mansion museum up the Bosphorus with world-class Ottoman calligraphy and painting, blockbuster travelling exhibitions, and gardens over the strait. Its restaurant, MSA, is a destination in itself \u2014 an easy, refined half-day for a family, paired with Emirgan Park next door.",
+      "lat": 41.106019,
+      "lon": 29.055629,
+      "photos": []
+    },
+    {
+      "n": "Museum of Innocence",
+      "cat": "do",
+      "tier": "",
+      "a": "\u00c7ukurcuma (Beyo\u011flu)",
+      "d": "Nobel laureate Orhan Pamuk's novel made physical \u2014 a townhouse of vitrines filled with the everyday objects of 1970s Istanbul, from cigarette stubs to hairpins, telling a love story object by object. Quietly moving and unlike any other museum in the world; bring the book's ticket page for free entry.",
+      "lat": 41.030872,
+      "lon": 28.979795,
+      "photos": []
+    },
+    {
+      "n": "R\u00fcstem Pa\u015fa Mosque",
+      "cat": "do",
+      "tier": "",
+      "a": "Emin\u00f6n\u00fc (Fatih)",
+      "d": "A hidden jewel above the Spice Bazaar's warehouses \u2014 a small Sinan mosque wrapped inside and out in the most exquisite Iznik tiles in the city, tomato-red and turquoise. Easy to miss and rarely crowded; a real connoisseur's stop between the bigger sights.",
+      "lat": 41.016948,
+      "lon": 28.972112,
+      "photos": []
+    },
+    {
+      "n": "S\u00fcleymaniye view & backstreets",
+      "cat": "do",
+      "tier": "",
+      "a": "S\u00fcleymaniye (Fatih)",
+      "d": "Beyond the mosque itself, the old quarter of wooden houses, ateliers and the classic \u00e7orba (bean-stew) houses is one of the last authentically Ottoman neighbourhoods \u2014 and the terrace beside the mosque is arguably the finest free viewpoint over the Golden Horn.",
+      "lat": 41.013242,
+      "lon": 28.963761,
+      "photos": []
+    },
+    {
+      "n": "K\u0131l\u0131\u00e7 Ali Pa\u015fa Hamam\u0131",
+      "cat": "do",
+      "tier": "",
+      "a": "Tophane / Karak\u00f6y (Beyo\u011flu)",
+      "d": "A 16th-century Sinan-built bath, meticulously restored, offering the classic marble-slab scrub-and-foam ritual in a soaring domed hall. Well-run and refined \u2014 the most tasteful introduction to the hammam for first-timers, with separate men's and women's sessions.",
+      "lat": 41.026204,
+      "lon": 28.980579,
+      "photos": []
+    },
+    {
+      "n": "\u00c7a\u011falo\u011flu Hamam\u0131",
+      "cat": "do",
+      "tier": "",
+      "a": "Ca\u011falo\u011flu (Fatih)",
+      "d": "One of the last great classical Ottoman baths, built in 1741, with a guest list running from Florence Nightingale to Kaiser Wilhelm II. Grand marble interiors and a full menu of scrubs and massages \u2014 an atmospheric, historic hammam a short walk from Hagia Sophia.",
+      "lat": 41.010691,
+      "lon": 28.975642,
+      "photos": []
+    },
+    {
+      "n": "Ortak\u00f6y waterfront & mosque",
+      "cat": "do",
+      "tier": "",
+      "a": "Ortak\u00f6y (Be\u015fikta\u015f)",
+      "d": "The little baroque mosque on the water, framed dead-on by the great suspension bridge, is one of Istanbul's signature views \u2014 especially at sunset. The square behind it is a lively weekend scene of caf\u00e9s, an antiques-and-crafts market and the famous stuffed-baked-potato (kumpir) stalls.",
+      "lat": 41.047287,
+      "lon": 29.026772,
+      "photos": []
+    },
+    {
+      "n": "G\u00fclhane Park",
+      "cat": "do",
+      "tier": "",
+      "a": "Sultanahmet (Fatih)",
+      "d": "The oldest public park in the city, the former outer gardens of Topkap\u0131, ablaze with tulips in spring and shaded by old planes year-round. A calm green pause between the monuments, with a cliff-top tea garden looking over the Bosphorus at the far end.",
+      "lat": 41.013026,
+      "lon": 28.980902,
+      "photos": []
+    },
+    {
+      "n": "Emirgan Park",
+      "cat": "do",
+      "tier": "",
+      "a": "Emirgan (Sar\u0131yer)",
+      "d": "A hillside grove of restored Ottoman pavilions and formal gardens up the European shore, and the heart of the city's April Tulip Festival with millions of blooms. Genuinely family-friendly and unhurried \u2014 pair it with the Sabanc\u0131 Museum next door.",
+      "lat": 41.109012,
+      "lon": 29.052517,
+      "photos": []
+    },
+    {
+      "n": "Galata Mevlevihanesi (Whirling Dervishes)",
+      "cat": "do",
+      "tier": "",
+      "a": "Galata (Beyo\u011flu)",
+      "d": "The city's oldest Mevlevi lodge, now a museum, where a genuine sema ceremony \u2014 the meditative whirling of the Sufi dervishes \u2014 is performed to live ney music. Small, ticketed and reverent; the real thing rather than the dinner-show imitations elsewhere.",
+      "lat": 41.028015,
+      "lon": 28.975116,
+      "photos": []
+    },
+    {
+      "n": "\u00c7i\u00e7ek Pasaj\u0131 & Bal\u0131k Pazar\u0131",
+      "cat": "do",
+      "tier": "",
+      "a": "Beyo\u011flu",
+      "d": "A glass-roofed 19th-century arcade of historic meyhanes off \u0130stiklal, spilling into the atmospheric fish market lanes behind \u2014 the classic setting for an evening of meze, grilled fish and raki with live fas\u0131l music. Touristy but genuinely fun; the deeper backstreet meyhanes are where locals go.",
+      "lat": 41.028423,
+      "lon": 28.973681,
+      "photos": []
+    },
+    {
+      "n": "Rahmi M. Ko\u00e7 Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Hask\u00f6y (Golden Horn)",
+      "d": "T\u00fcrkiye's great museum of industry and transport on the Golden Horn \u2014 restored trams, vintage cars, aircraft, a real submarine you can board, and hands-on exhibits. The most child- and grandchild-friendly museum in Istanbul, with a good waterside restaurant.",
+      "lat": 41.041973,
+      "lon": 28.948569,
+      "photos": []
+    },
+    {
+      "n": "\u00c7aml\u0131ca Hill & Grand \u00c7aml\u0131ca Mosque",
+      "cat": "do",
+      "tier": "",
+      "a": "\u00dcsk\u00fcdar (Asian side)",
+      "d": "The highest hill on the Asian side, with the classic panorama over the whole city, the Bosphorus and the Marmara \u2014 clear enough on a good day to see the Princes' Islands. Beside it stands the vast Grand \u00c7aml\u0131ca Mosque, the largest in T\u00fcrkiye, worth seeing for sheer scale.",
+      "lat": 41.034528,
+      "lon": 29.070587,
+      "photos": []
+    },
+    {
+      "n": "Pierre Loti Hill & Ey\u00fcp Sultan Mosque",
+      "cat": "do",
+      "tier": "",
+      "a": "Ey\u00fcp (Golden Horn)",
+      "d": "Ride the little cable car up to the caf\u00e9 named for the French novelist for one of the loveliest views down the Golden Horn, then descend to Ey\u00fcp Sultan \u2014 one of Islam's holiest sites in T\u00fcrkiye and a deeply local pilgrimage quarter far from the tourist trail.",
+      "lat": 41.041155,
+      "lon": 28.945785,
+      "photos": []
+    },
+    {
+      "n": "Maiden's Tower (K\u0131z Kulesi)",
+      "cat": "do",
+      "tier": "",
+      "a": "\u00dcsk\u00fcdar (Asian side)",
+      "d": "The tiny islet tower marooned at the mouth of the Bosphorus, wrapped in legend and lately restored, reachable by a short boat hop from \u00dcsk\u00fcdar or Kabata\u015f. More postcard than must-see, but the caf\u00e9 terrace gives a rare view back at the old-city skyline from the water.",
+      "lat": 41.021138,
+      "lon": 29.004058,
+      "photos": []
+    },
+    {
+      "n": "\u00c7ukurcuma antique quarter",
+      "cat": "do",
+      "tier": "",
+      "a": "\u00c7ukurcuma (Beyo\u011flu)",
+      "d": "A steep warren of streets packed with antique dealers, vintage furniture, old maps, textiles and curiosities \u2014 the place serious collectors and interior people spend an afternoon. Cluster your browsing on Faik Pa\u015fa and \u00c7ukur Cuma streets, then coffee in Cihangir up the hill.",
+      "lat": 41.031247,
+      "lon": 28.980096,
+      "photos": []
+    },
+    {
+      "n": "Y\u0131ld\u0131z Park & pavilions",
+      "cat": "do",
+      "tier": "",
+      "a": "Be\u015fikta\u015f",
+      "d": "A wooded royal park climbing the hillside above the Bosphorus, dotted with delicate late-Ottoman kiosks and greenhouses, once the private grounds of Sultan Abd\u00fclhamid II. Quiet, green and uncrowded \u2014 a good-weather escape with tea in a historic pavilion.",
+      "lat": 41.048302,
+      "lon": 29.015423,
+      "photos": []
+    },
+    {
+      "n": "Little Hagia Sophia (K\u00fc\u00e7\u00fck Ayasofya Camii)",
+      "cat": "do",
+      "tier": "",
+      "a": "Kumkap\u0131 / Sultanahmet (Fatih)",
+      "d": "A serene 6th-century Byzantine church-turned-mosque, once a model for its far larger namesake, with a beautiful two-storey colonnade and an intimate, worshipful calm. A short walk down from the Blue Mosque and blissfully free of crowds.",
+      "lat": 41.002733,
+      "lon": 28.972195,
+      "photos": []
+    },
+    {
+      "n": "Hippodrome / Sultanahmet Square",
+      "cat": "do",
+      "tier": "",
+      "a": "Sultanahmet",
+      "d": "The long public square that was the chariot-racing arena of Byzantine Constantinople, still marked by the Egyptian Obelisk, the bronze Serpent Column and the German Fountain. Walk it between Hagia Sophia and the Blue Mosque and the layers of two empires line up in a single open space.",
+      "lat": 41.006516,
+      "lon": 28.975977,
+      "photos": []
+    },
+    {
+      "n": "Arasta Bazaar",
+      "cat": "do",
+      "tier": "",
+      "a": "Sultanahmet",
+      "d": "The small, calm arcade of shops tucked behind the Blue Mosque, originally built to fund it \u2014 good-quality carpets, ceramics and textiles without the Grand Bazaar's hustle. The best place near the monuments to shop at a civilised pace; the little Mosaic Museum sits right alongside.",
+      "lat": 41.004927,
+      "lon": 28.977903,
+      "photos": []
+    },
+    {
+      "n": "Great Palace Mosaic Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Sultanahmet",
+      "d": "A single dazzling survival of Byzantine Constantinople \u2014 the vast floor mosaics of the vanished Great Palace of the emperors, teeming with hunting scenes and everyday life, displayed in situ. Small, extraordinary and overlooked, right off the Arasta Bazaar.",
+      "lat": 41.004295,
+      "lon": 28.977433,
+      "photos": []
+    },
+    {
+      "n": "Rumeli Fortress (Rumeli Hisar\u0131)",
+      "cat": "do",
+      "tier": "",
+      "a": "Sar\u0131yer",
+      "d": "The dramatic mid-15th-century fortress Mehmed the Conqueror threw up in four months to strangle Byzantine Constantinople, its towers climbing straight from the Bosphorus shore. Great ramparts to explore, and the surrounding waterfront of Bebek and Rumeli Hisar\u0131 is prime caf\u00e9 territory.",
+      "lat": 41.084917,
+      "lon": 29.056712,
+      "photos": []
+    },
+    {
+      "n": "Bebek waterfront",
+      "cat": "do",
+      "tier": "",
+      "a": "Bebek (Be\u015fikta\u015f)",
+      "d": "Istanbul's most moneyed shoreline \u2014 a curve of Bosphorus bay lined with mansions, moored yachts and the city society's favourite caf\u00e9s and restaurants. Come for a long, unhurried breakfast or waterside coffee and watch the city's smart set at ease.",
+      "lat": 41.079016,
+      "lon": 29.043959,
+      "photos": []
+    },
+    {
+      "n": "Suna & \u0130nan K\u0131ra\u00e7 Kad\u0131k\u00f6y / Ni\u015fanta\u015f\u0131 shopping",
+      "cat": "do",
+      "tier": "",
+      "a": "Ni\u015fanta\u015f\u0131 (\u015ei\u015fli)",
+      "d": "Istanbul's luxury retail district \u2014 Abdi \u0130pek\u00e7i Caddesi and its side streets carry the international houses alongside the best Turkish designers, jewellers and concept stores. The natural base for discreet, appointment-led personal shopping, with elegant caf\u00e9s between.",
+      "lat": 41.051687,
+      "lon": 28.991696,
+      "photos": []
+    },
+    {
+      "n": "Princes' Islands (B\u00fcy\u00fckada)",
+      "cat": "do",
+      "tier": "",
+      "a": "Day trip \u2014 Sea of Marmara",
+      "d": "A ferry hop out to a car-free island of pine woods, Belle \u00c9poque villas and sea views \u2014 you get around on foot, bicycle or electric cart. Lunch by the harbour, wander the mansion-lined lanes, and Istanbul suddenly feels a world away; an easy, gentle day for all ages.",
+      "lat": 40.856355,
+      "lon": 29.119037,
+      "photos": []
+    },
+    {
+      "n": "Polonezk\u00f6y",
+      "cat": "do",
+      "tier": "",
+      "a": "Day trip \u2014 Beykoz (Asian side)",
+      "d": "A leafy village founded by 19th-century Polish \u00e9migr\u00e9s in the forests north-east of the city \u2014 a rare pocket of quiet, walking trails and long country lunches of pork and homemade preserves. An unusual, restful escape from the metropolis, popular for weekend brunch.",
+      "lat": 41.110036,
+      "lon": 29.211811,
+      "photos": []
+    },
+    {
+      "n": "Edirne (Selimiye Mosque)",
+      "cat": "do",
+      "tier": "",
+      "a": "Day trip \u2014 Thracian border",
+      "d": "The former Ottoman capital near the Greek and Bulgarian borders, home to Sinan's crowning masterpiece, the Selimiye Mosque \u2014 the architect's own declared finest work, its dome engineered to rival Hagia Sophia's. A serious architectural pilgrimage for those who want the definitive Ottoman monument.",
+      "lat": 41.009649,
+      "lon": 29.016355,
+      "photos": []
+    },
+    {
+      "n": "Mikla (rooftop bar)",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "Beyo\u011flu / Pera",
+      "d": "Sunset drinks above the whole old city, atop the Marmara Pera \u2014 the rooftop attached to one of Istanbul's great restaurants.",
+      "lat": 41.026501,
+      "lon": 28.974453,
+      "photos": []
+    },
+    {
+      "n": "Bebek Hotel rooftop bar",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "Bebek / Bosphorus",
+      "d": "A mid-century landmark on the Bebek waterfront \u2014 cocktails at the water's edge in the city's most fashionable village.",
+      "lat": 41.02385,
+      "lon": 28.974981,
+      "photos": []
+    },
+    {
+      "n": "Alexandra Cocktail Bar",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Arnavutk\u00f6y / Bosphorus",
+      "d": "A historic Bosphorus house turned serious cocktail address, with a rooftop over the strait and a bartender in the 50 Best Bars Academy.",
+      "lat": 41.024397,
+      "lon": 28.978783,
+      "photos": []
+    },
+    {
+      "n": "Fahri Konsolos",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Kad\u0131k\u00f6y / Moda (Asian shore)",
+      "d": "The Asian shore's most inventive bar \u2014 house liquors, bitters and infusions built on Anatolian ingredients like sumac and pomegranate molasses.",
+      "lat": 41.050722,
+      "lon": 29.03193,
+      "photos": []
+    },
+    {
+      "n": "360 Istanbul",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "Beyo\u011flu / Pera",
+      "d": "The rooftop that named the genre \u2014 a full 360\u00b0 sweep of Bosphorus, Golden Horn and Sultanahmet from one terrace.",
+      "lat": 41.032744,
+      "lon": 28.976723,
+      "photos": []
+    },
+    {
+      "n": "Asmal\u0131 Cavit",
+      "cat": "party",
+      "tier": "Late & loud",
+      "a": "Beyo\u011flu / Asmal\u0131mescit",
+      "d": "The meyhane other meyhanes are measured against \u2014 rak\u0131, meze and long tables where strangers become regulars.",
+      "lat": 41.030166,
+      "lon": 28.974706,
+      "photos": []
+    },
+    {
+      "n": "Muuto",
+      "cat": "party",
+      "tier": "Late & loud",
+      "a": "Beyo\u011flu",
+      "d": "Chef Umut Karaku\u015f's Anatolian small-plates bar \u2014 colourful meze made for sharing over a long, loud table.",
+      "lat": 41.006381,
+      "lon": 28.975872,
+      "photos": []
+    },
+    {
+      "n": "\u00c7\u0131ra\u011fan Palace Kempinski \u2014 Bosphorus terrace bar",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "Be\u015fikta\u015f / Bosphorus",
+      "d": "A drink on the terrace of a restored imperial palace, the Bosphorus lit and moving at your feet \u2014 the city's grandest nightcap.",
+      "lat": 41.045486,
+      "lon": 29.034387,
+      "photos": []
+    },
+    {
+      "n": "Pera Palace \u2014 Orient Bar",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "Beyo\u011flu / Pera",
+      "d": "A cocktail inside the 1895 Orient Express hotel \u2014 Agatha Christie's Istanbul, in wood, brass and low light.",
+      "lat": 41.028423,
+      "lon": 28.973681,
+      "photos": []
+    }
+  ]
+}

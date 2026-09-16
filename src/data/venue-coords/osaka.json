@@ -1,1 +1,788 @@
-{"center": [34.693757, 135.501454], "venues": [{"n": "Four Seasons Hotel Osaka", "cat": "stay", "tier": "Ultra", "a": "Dojima / Kitahama", "d": "Four Seasons' Osaka debut, opened August 2024 — including Gensui, the city's first modern-ryokan floor, tatami and all, inside a luxury tower.", "lat": 34.695899, "lon": 135.49358, "p": "v"}, {"n": "The Ritz-Carlton, Osaka", "cat": "stay", "tier": "Ultra", "a": "Umeda (Kita)", "d": "The grande dame of Osaka luxury — a European-manor interior of antiques and oil paintings, above the Umeda business district.", "lat": 34.698389, "lon": 135.492556, "p": "v"}, {"n": "Conrad Osaka", "cat": "stay", "tier": "Grand", "a": "Nakanoshima", "d": "The top ten floors of the Nakanoshima Festival Tower — floor-to-ceiling glass over the Dojima River, and one of the great skyline bars in the city.", "lat": 34.693593, "lon": 135.495468, "p": "v"}, {"n": "The St. Regis Osaka", "cat": "stay", "tier": "Grand", "a": "Midosuji / Honmachi", "d": "A discreet, art-filled house on the Midosuji boulevard, with the signature St. Regis butler on every floor.", "lat": 34.70037, "lon": 135.493738, "p": "v"}, {"n": "InterContinental Osaka", "cat": "stay", "tier": "Grand", "a": "Umeda (Grand Front Osaka)", "d": "A polished flagship inside Grand Front Osaka, steps from the station — the practical luxury base for arriving and moving on by rail.", "lat": 34.706525, "lon": 135.494557, "p": "v"}, {"n": "W Osaka", "cat": "stay", "tier": "Luxury", "a": "Shinsaibashi (Midosuji)", "d": "Tadao Ando's monolithic black tower on Midosuji — the boldest design hotel in the city, at the heart of the shopping and nightlife.", "lat": 34.702213, "lon": 135.495573, "p": "v"}, {"n": "Patina Osaka", "cat": "stay", "tier": "Luxury", "a": "Umeda (Kita)", "d": "The first city hotel from Capella's Patina brand, opened 2025 — quiet, contemporary luxury with a strong wellness focus near Umeda.", "lat": 34.681892, "lon": 135.52475, "p": "v"}, {"n": "Waldorf Astoria Osaka", "cat": "stay", "tier": "Grand", "a": "Umekita (Grand Green Osaka)", "d": "The Waldorf Astoria's first house in Japan, opened 2025, crowning the new Grand Green Osaka park quarter beside the station.", "lat": 34.702777, "lon": 135.491491, "p": "v"}, {"n": "Hilton Osaka", "cat": "stay", "tier": "Premium", "a": "Umeda (Kita)", "d": "A large, capable and reliably run Hilton facing Osaka Station — easy, central and generous for a family on the move.", "lat": 34.700008, "lon": 135.49599, "p": "v"}, {"n": "Imperial Hotel, Osaka", "cat": "stay", "tier": "Luxury", "a": "Sakuranomiya (Okawa River)", "d": "The Osaka house of Japan's most storied hotel name, set on the cherry-lined Okawa river away from the crowds.", "lat": 34.700796, "lon": 135.5196, "p": "v"}, {"n": "La Cime", "cat": "eat", "tier": "Destination", "a": "Honmachi", "d": "Yusuke Takada's modern French read through Japanese ingredients — the finest table in Osaka, and among the very best in Asia.", "lat": 34.666443, "lon": 135.507041, "p": "v"}, {"n": "Hajime", "cat": "eat", "tier": "Destination", "a": "Higobashi", "d": "A former engineer's cosmos-on-a-plate — three stars won in a record 17 months, and the signature 'Chikyu' built from over a hundred ingredients.", "lat": 34.643941, "lon": 135.505381, "p": "v"}, {"n": "Taian", "cat": "eat", "tier": "Destination", "a": "Nagahoribashi", "d": "Exacting, restrained kaiseki that has held three stars for over fifteen years — mastery expressed as quiet.", "lat": 34.693757, "lon": 135.501454, "p": "v"}, {"n": "Kashiwaya Osaka Senriyama", "cat": "eat", "tier": "Destination", "a": "Senriyama (Suita)", "d": "A three-star kaiseki house in a serene garden setting on the city's northern edge — seasonal Japanese cooking of the highest order.", "lat": 34.772783, "lon": 135.510452, "p": "v"}, {"n": "Kahala", "cat": "eat", "tier": "Destination", "a": "Kitashinchi", "d": "Four decades of idiosyncratic, boundary-crossing kaiseki — a chef cooking exactly as he pleases, and celebrated for it.", "lat": 34.697563, "lon": 135.499699, "p": "v"}, {"n": "Koryu", "cat": "eat", "tier": "Destination", "a": "Kitahama", "d": "Pure, unshowy kaiseki devoted to tradition — one of Osaka's quiet two-star greats, relocated to a calm Kitahama room.", "lat": 34.454606, "lon": 135.560779, "p": "v"}, {"n": "Fujiya 1935", "cat": "eat", "tier": "Destination", "a": "Tanimachi 4-chome", "d": "A former udon shop turned two-star temple of contemporary cuisine — inventive, vegetable-forward and deeply personal.", "lat": 34.683003, "lon": 135.511887, "p": "v"}, {"n": "Numata", "cat": "eat", "tier": "Fine", "a": "Kitashinchi", "d": "A serene two-star tempura counter — course after course of impossibly light, precise frying.", "lat": 34.693757, "lon": 135.501454, "p": "v"}, {"n": "Sushi Harasho", "cat": "eat", "tier": "Destination", "a": "Uehonmachi", "d": "One of Osaka's most exacting sushi counters — classical technique and top fish, two stars in the guide.", "lat": 34.669938, "lon": 135.477956, "p": "v"}, {"n": "Yugen", "cat": "eat", "tier": "Destination", "a": "Uehonmachi", "d": "Refined, seasonal Japanese cooking of great poise — a two-star kaiseki room away from the Kitashinchi crush.", "lat": 34.693757, "lon": 135.501454, "p": "v"}, {"n": "Tenjinbashi Aoki", "cat": "eat", "tier": "Destination", "a": "Tenjinbashi-suji", "d": "Precise, seasonal Japanese cuisine on Osaka's great old shopping street — quiet excellence, two stars.", "lat": 34.709805, "lon": 135.510691, "p": "v"}, {"n": "Shunsai Ten Tsuchiya", "cat": "eat", "tier": "Fine", "a": "Esaka (Suita)", "d": "A two-star tempura house on the city's edge, worth the short trip for the lightness of the frying alone.", "lat": 34.760548, "lon": 135.490926, "p": "v"}, {"n": "Hiraishi", "cat": "eat", "tier": "Fine", "a": "Osaka", "d": "A refined one-star tempura counter that has held its star for years running — classical, exact and warmly run.", "lat": 34.496212, "lon": 135.659276, "p": "v"}, {"n": "Tenmabashi Fujikawa", "cat": "eat", "tier": "Fine", "a": "Tenmabashi", "d": "A long-standing one-star tempura kitchen — seasonal, unhurried, and a benchmark of the Osaka style.", "lat": 34.690264, "lon": 135.516073, "p": "v"}, {"n": "Mizuno", "cat": "eat", "tier": "Casual", "a": "Dotonbori", "d": "A 1945-founded okonomiyaki griddle that turned Osaka's soul food into a credentialed pilgrimage — the yamaimo-yaki is the order.", "lat": 34.668372, "lon": 135.50322, "p": "v"}, {"n": "Takohachi", "cat": "eat", "tier": "Casual", "a": "Dotonbori", "d": "A beloved 1945 Dotonbori institution for octopus and okonomiyaki, honoured by the guide for years running.", "lat": 34.668816, "lon": 135.503316, "p": "v"}, {"n": "Udondokoro Shigemi", "cat": "eat", "tier": "Casual", "a": "Osaka", "d": "Kansai-style udon done exactly right — the hiyakake, with its clear dashi and Kagawa-trained noodles, is the bowl to have.", "lat": 34.675897, "lon": 135.504481, "p": "v"}, {"n": "Osaka Castle (Osaka-jo)", "cat": "do", "tier": "", "a": "Chuo", "d": "Toyotomi Hideyoshi's golden fortress rises on colossal cut-stone ramparts above a moat, the reconstructed keep now a museum climbing to a top-floor view over the whole city. A private guide can walk multi-generational families through the history at their own pace, with the keep's lift making the upper floors easy for grandparents.", "lat": 34.686727, "lon": 135.52393, "p": "v"}, {"n": "Nishinomaru Garden", "cat": "do", "tier": "", "a": "Chuo", "d": "The manicured lawn garden inside the castle grounds frames the finest single view of the keep, with roughly 300 cherry trees that turn it into one of Osaka's great hanami spots and glow under illumination each spring. Quiet, flat and ticketed, so it stays calmer than the free parkland outside.", "lat": 34.687097, "lon": 135.523115, "p": "v"}, {"n": "Dotonbori & the Glico Sign", "cat": "do", "tier": "", "a": "Namba", "d": "Osaka's neon canyon of running-man billboards, giant mechanical crabs and canal-side food stalls, glowing since 1935 and best seen at dusk when the reflections hit the water. The full theatre of Osaka's kuidaore ('eat till you drop') spirit; a guide can steer veg and Jain travellers past the meat skewers to okonomiyaki and vegetable tempura options.", "lat": 34.668926, "lon": 135.501055, "p": "v"}, {"n": "Ebisu Bridge", "cat": "do", "tier": "", "a": "Namba", "d": "The little arched bridge over the Dotonbori canal is the classic photo spot, looking straight up at the Glico sign as crowds mill and pleasure boats slide beneath. Come early morning for the shot without the throng, or ride the Tombori River Cruise for a low-water view of the signboards.", "lat": 34.669067, "lon": 135.501305, "p": "v"}, {"n": "Kuromon Ichiba Market", "cat": "do", "tier": "", "a": "Nipponbashi", "d": "A 600-metre covered arcade of some 150 stalls, 'Osaka's Kitchen' since 1902, where chefs shop at dawn and visitors graze on grilled scallops, uni and fatty tuna by late morning. Seafood-heavy, so veg travellers should aim for the fruit, tamagoyaki and tempura vendors; a guide can pre-arrange stalls that plate to order.", "lat": 34.665328, "lon": 135.506979, "p": "v"}, {"n": "Shinsekai & Tsutenkaku Tower", "cat": "do", "tier": "", "a": "Naniwa", "d": "A gloriously retro 'New World' district of 1950s neon and hand-painted signboards under the 108-metre Tsutenkaku, an Eiffel-inspired tower crowned by the lucky Billiken statue whose feet you rub for fortune. This is the birthplace of kushikatsu deep-fried skewers, so flag ahead for vegetable-only sets.", "lat": 34.652541, "lon": 135.506541, "p": "v"}, {"n": "Umeda Sky Building — Floating Garden Observatory", "cat": "do", "tier": "", "a": "Umeda", "d": "Two 173-metre towers bridged at the summit by a doughnut-shaped rooftop deck (the Kuchu Teien), reached by a glass escalator suspended in mid-air and modelled on the Hanging Gardens of Babylon. The open-air ring gives a 360-degree Osaka panorama that is unforgettable at sunset.", "lat": 34.705419, "lon": 135.498372, "p": "a"}, {"n": "Abeno Harukas 300 Observatory", "cat": "do", "tier": "", "a": "Tennoji", "d": "At 300 metres, Abeno Harukas was Japan's tallest building until 2023, and its three-floor Harukas 300 deck wraps the top in floor-to-ceiling glass with a wooden inner courtyard and sky cafe. On a clear day the view runs to Awaji Island and Kobe; the tower sits atop a Kintetsu station and department store for effortless access.", "lat": 34.64598, "lon": 135.513523, "p": "v"}, {"n": "Sumiyoshi Taisha", "cat": "do", "tier": "", "a": "Sumiyoshi", "d": "One of Japan's oldest and most important shrines, said to date to the 3rd century, built in a pure native Sumiyoshi-zukuri style untouched by mainland influence and approached over the steep vermilion Sorihashi drum bridge. Serene and free of crowds, it rewards an early, unhurried visit with a private guide to read its rituals.", "lat": 34.613003, "lon": 135.493101, "p": "v"}, {"n": "Shitenno-ji", "cat": "do", "tier": "", "a": "Tennoji", "d": "Japan's first state-built Buddhist temple, founded in 593 by Prince Shotoku, its five-storey pagoda and central halls faithfully rebuilt to the original 6th-century layout. A calm, spacious complex with a fine treasure house and garden, and one of the most historically significant sites in the country.", "lat": 34.654719, "lon": 135.516798, "p": "v"}, {"n": "Osaka Museum of Housing and Living", "cat": "do", "tier": "", "a": "Tenma", "d": "On the ninth floor sits a full life-size street of 1830s Osaka, faithfully rebuilt with tenement houses, shops and shifting day-to-night lighting, complete with a rooftop cat and the sound of rain. Children can dress in kimono and wander the lanes; the one place in Japan that recreates a whole Edo townscape indoors.", "lat": 34.710466, "lon": 135.511433, "p": "v"}, {"n": "teamLab Botanical Garden Osaka", "cat": "do", "tier": "", "a": "Higashisumiyoshi", "d": "After dark, the trees, ponds and ecosystems of Nagai Botanical Garden become a vast open-air digital artwork that responds to wind, rain and the movement of visitors. An interactive night wander that lands with every generation; book timed entry and pair it with an early dinner.", "lat": 34.611119, "lon": 135.520557, "p": "v"}, {"n": "Osaka Aquarium Kaiyukan", "cat": "do", "tier": "", "a": "Minato", "d": "One of the world's largest aquariums, built as a descending spiral around a nine-metre-deep Pacific Ocean tank home to whale sharks, with 620 species across the Pacific Rim. The gentle downward ramp is stroller- and wheelchair-friendly, making it a reliable multi-gen half-day.", "lat": 34.654546, "lon": 135.428921, "p": "v"}, {"n": "Tempozan & the Giant Ferris Wheel", "cat": "do", "tier": "", "a": "Minato", "d": "The harbourside quarter beside the aquarium, crowned by a 112-metre Ferris wheel whose night lighting forecasts tomorrow's weather. Air-conditioned gondolas make a smooth 15-minute loop over Osaka Bay; a soft, scenic add-on for families with young children.", "lat": 34.656269, "lon": 135.430959, "p": "v"}, {"n": "Universal Studios Japan", "cat": "do", "tier": "", "a": "Konohana", "d": "The blockbuster theme park anchored by the playable, full-scale Super Nintendo World and the atmospheric Wizarding World of Harry Potter, with an expansion widening the magic. Express Passes and a VIP guided tour let a family skip the long queues and see the headline rides in a single day.", "lat": 34.665639, "lon": 135.432453, "p": "v"}, {"n": "Nakanoshima Museum of Art, Osaka", "cat": "do", "tier": "", "a": "Nakanoshima", "d": "A striking black cube opened in 2022 holding over 6,000 works of modern and contemporary art and design, from Modigliani to Yayoi Kusama's pumpkin at the entrance. The cultural heart of Nakanoshima island, walkable between two rivers and paired easily with the neighbouring museums.", "lat": 34.69238, "lon": 135.491368, "p": "v"}, {"n": "The Museum of Oriental Ceramics, Osaka", "cat": "do", "tier": "", "a": "Nakanoshima", "d": "Reopened in 2024 after renovation, this hushed museum holds the Sumitomo-gifted Ataka Collection of Chinese and Korean ceramics, including two National Treasures lit by natural light. A quiet, refined hour for connoisseurs, steps from the Nakanoshima rose garden.", "lat": 34.693421, "lon": 135.505487, "p": "v"}, {"n": "Nakanoshima Rose Garden", "cat": "do", "tier": "", "a": "Nakanoshima", "d": "At the eastern tip of Nakanoshima Park, riverside beds hold some 3,700 rose bushes across roughly 310 varieties, best in mid-spring and autumn against the old bridges and modern skyline. A free, flat, pretty stroll that stitches the island's museums together.", "lat": 34.692006, "lon": 135.508978, "p": "v"}, {"n": "Amerikamura", "cat": "do", "tier": "", "a": "Shinsaibashi", "d": "Osaka's youth-culture quarter of vintage stores, streetwear boutiques, murals and Triangle Park, born from 1970s warehouses filled with imported American goods. A lively, offbeat counterpoint to the luxury malls, best for an afternoon of thrifting and people-watching.", "lat": 34.671942, "lon": 135.498152, "p": "v"}, {"n": "Horie & Orange Street", "cat": "do", "tier": "", "a": "Horie", "d": "A calmer, more design-led neighbour to Amerikamura, where Tachibana-dori (Orange Street) lines up interiors showrooms, curated vintage, specialty coffee and quiet cafes. The place to slow down between shopping runs, with a grown-up sense of Osaka style.", "lat": 34.67109, "lon": 135.492888, "p": "v"}, {"n": "Namba Yasaka Shrine", "cat": "do", "tier": "", "a": "Namba", "d": "A small city shrine dominated by a 12-metre lion-head stage built in 1975, its huge open mouth said to swallow bad luck and grant success in study and business. A quick, striking stop near Namba and a favourite for a good-fortune photograph.", "lat": 34.661482, "lon": 135.496733, "p": "v"}, {"n": "Shinsaibashi-suji", "cat": "do", "tier": "", "a": "Shinsaibashi", "d": "Osaka's premier shopping spine, a long covered arcade running from the luxury flagships and the Daimaru department store down toward Dotonbori. Everything from global maisons to Japanese labels under one weatherproof roof; a personal shopper can arrange after-hours access at the top houses.", "lat": 34.669292, "lon": 135.501302, "p": "v"}, {"n": "Namba Parks", "cat": "do", "tier": "", "a": "Namba", "d": "A shopping and office complex whose real draw is an eight-level rooftop garden of 100,000 plants that rises like a terraced canyon above the city, open late and free to enter. A surprising pocket of green over Namba, lovely at golden hour.", "lat": 34.663904, "lon": 135.501507, "p": "v"}, {"n": "HEP Five Ferris Wheel", "cat": "do", "tier": "", "a": "Umeda", "d": "A bright-red wheel bolted to the roof of a Umeda shopping centre, its air-conditioned gondolas climbing to 106 metres for a quick, central skyline loop with Bluetooth to play your own soundtrack. A fun, low-commitment lift right in the heart of the Kita district.", "lat": 34.703996, "lon": 135.500092, "p": "v"}, {"n": "Grand Front Osaka & Umekita", "cat": "do", "tier": "", "a": "Umeda", "d": "The glossy twin-tower complex above Osaka Station, packed with design flagships, restaurants and the new Umekita greenspace that has transformed the north side of the station into a walkable urban park. The natural base for shopping, dining and easy transfers across the region.", "lat": 34.703377, "lon": 135.494215, "p": "v"}, {"n": "Tenjinbashi-suji Shopping Street", "cat": "do", "tier": "", "a": "Tenma", "d": "Japan's longest covered shopping street runs some 2.6 kilometres through the old merchant quarter, lined with local shops, standing bars and unpretentious eateries far from the tourist crush. A genuine slice of everyday Osaka; pair it with the neighbouring Museum of Housing and Living.", "lat": 34.698809, "lon": 135.511723, "p": "v"}, {"n": "Tenmangu Shrine & Tenjin Matsuri", "cat": "do", "tier": "", "a": "Tenma", "d": "Dedicated to the deity of learning, this shrine at the head of Tenjinbashi-suji hosts the Tenjin Matsuri each July, one of Japan's three great festivals, with a river procession of lantern-lit boats and fireworks. A discreet advisor can secure prime riverside vantage for the summer spectacle.", "lat": 34.69609, "lon": 135.512765, "p": "v"}, {"n": "Expo '70 Commemorative Park & Tower of the Sun", "cat": "do", "tier": "", "a": "Suita", "d": "The vast park left behind by the 1970 World Expo, still watched over by Taro Okamoto's monumental Tower of the Sun, whose restored interior you can now tour by reservation. Wide lawns, gardens and the fine national ethnology museum make it an easy green escape north of the city.", "lat": 34.692015, "lon": 135.518899, "p": "a"}, {"n": "Cup Noodles Museum, Ikeda", "cat": "do", "tier": "", "a": "Ikeda", "d": "On the very spot where Momofuku Ando invented instant ramen in 1958, this free museum lets you design and package your own original Cup Noodle to carry home. A genuinely charming, hands-on hour for children and adults; a short hop from Umeda on the Hankyu line.", "lat": 34.81811, "lon": 135.426683, "p": "v"}, {"n": "Nintoku-tenno-ryo Kofun (Daisen Kofun)", "cat": "do", "tier": "", "a": "Sakai", "d": "The keyhole-shaped mausoleum attributed to Emperor Nintoku is the largest tomb in Japan at 486 metres long, its scale rivalling the Great Pyramid and best grasped from the Sakai City observation deck or by air. The heart of the Mozu-Furuichi tomb cluster inscribed by UNESCO in 2019, it makes a thoughtful, uncrowded half-day.", "lat": 34.572216, "lon": 135.616196, "p": "v"}, {"n": "Minoo Park & Falls", "cat": "do", "tier": "", "a": "Minoo", "d": "A paved 2.8-kilometre forest trail leads to the 33-metre Minoo waterfall, famed for its blazing autumn maples and for momiji tempura, batter-fried maple leaves sold along the path. Thirty minutes from Umeda yet feeling deep in the mountains, an easy nature day for all ages.", "lat": 34.841175, "lon": 135.471532, "p": "v"}, {"n": "Katsuo-ji", "cat": "do", "tier": "", "a": "Minoo", "d": "A mountain 'temple of winner's luck' whose grounds are strewn with thousands of red daruma dolls tucked into every nook by pilgrims seeking success, framed by cherry blossom, hydrangea and autumn colour by season. Serene and photogenic; best reached by private car with the Minoo hills.", "lat": 34.705379, "lon": 135.495746, "p": "v"}, {"n": "Day Trip — Kyoto", "cat": "do", "tier": "", "a": "Day trip", "d": "Just 15 minutes by Shinkansen from Shin-Osaka, Japan's imperial capital lays out golden pavilions, torii tunnels, geisha lanes and Zen gardens across a single day. A private car and guide let a family cover Kinkaku-ji, Fushimi Inari and Gion without touching a crowded platform.", "lat": 34.749748, "lon": 135.578558, "p": "v"}, {"n": "Day Trip — Nara", "cat": "do", "tier": "", "a": "Day trip", "d": "Under 40 minutes from Osaka, Japan's first permanent capital offers Todai-ji's 15-metre bronze Great Buddha, the lantern corridors of Kasuga Taisha and over a thousand bowing sika deer roaming Nara Park. Flat, walkable and gentle; the biscuits sold for the deer delight children and grandparents alike.", "lat": 34.685671, "lon": 135.504509, "p": "v"}, {"n": "Day Trip — Himeji Castle", "cat": "do", "tier": "", "a": "Day trip", "d": "The 'White Heron Castle' is Japan's finest surviving feudal fortress, a dazzling white hilltop keep of interlocking baileys reachable in under an hour by Shinkansen from Shin-Osaka. Pair the climb with the adjacent Koko-en gardens; one of Japan's first UNESCO inscriptions and its most complete original castle.", "lat": 34.667362, "lon": 135.433551, "p": "a"}, {"n": "Day Trip — Koyasan (Mount Koya)", "cat": "do", "tier": "", "a": "Day trip", "d": "About two hours south by Nankai train and cablecar, this sacred mountain of Shingon Buddhism holds Okunoin, Japan's largest cemetery, cedar-shaded and lined with 200,000 tombs to Kobo Daishi's mausoleum, plus Kongobu-ji and the Danjo Garan temple complex. A temple-lodging shojin-ryori lunch is naturally vegan, ideal for veg and Jain travellers.", "lat": 34.667362, "lon": 135.433551, "p": "a"}, {"n": "Day Trip — Kobe", "cat": "do", "tier": "", "a": "Day trip", "d": "Barely 20 minutes by rapid train, this elegant port city offers the world-famous Kobe beef, the Western merchant mansions of Kitano-cho, the Nunobiki herb garden ropeway and, close by, the hot springs of Arima Onsen. A refined, easygoing day that mixes cuisine, views and heritage.", "lat": 34.865888, "lon": 135.490858, "p": "v"}, {"n": "Takoyaki — the octopus dumpling", "cat": "do", "tier": "", "a": "Namba", "d": "Osaka's signature street snack, molten balls of batter with a piece of octopus, brushed with sauce and dancing bonito flakes and invented in this city in the 1930s. Watching the swift turning of the griddles is half the fun; a guide can point veg travellers to cheese or plain-vegetable versions where offered.", "lat": 34.667248, "lon": 135.497787, "p": "a"}, {"n": "Okonomiyaki — the savoury pancake", "cat": "do", "tier": "", "a": "Dotonbori", "d": "The 'grill what you like' cabbage pancake cooked on a hotplate at your table is Osaka soul food, endlessly customisable and one of the easier local dishes to keep vegetarian. Book a private teppan counter for a hands-on family dinner where everyone cooks their own.", "lat": 34.668484, "lon": 135.50259, "p": "a"}, {"n": "Kushikatsu — the deep-fried skewer", "cat": "do", "tier": "", "a": "Shinsekai", "d": "Breadcrumbed skewers of vegetables, meat and seafood fried to order and dipped once (never twice) in communal sauce, born in the working-class Shinsekai district. A fun, informal Osaka ritual; vegetable-forward sets are easy to request at the better houses.", "lat": 34.65209, "lon": 135.506191, "p": "a"}, {"n": "Kappo & Kaiseki Fine Dining", "cat": "do", "tier": "", "a": "Kitashinchi", "d": "Osaka's discreet Kitashinchi district hides intimate kappo counters and Michelin-starred kaiseki rooms where a chef cooks a seasonal procession before your eyes. A concierge can secure the near-impossible reservations and brief chefs in advance on veg, Jain or dietary needs.", "lat": 34.698433, "lon": 135.497269, "p": "a"}, {"n": "Nakanoshima Central Public Hall", "cat": "do", "tier": "", "a": "Nakanoshima", "d": "A red-brick neo-Renaissance landmark of 1918 on the river island, its grand hall a rare survivor of Osaka's early-modern civic architecture, floodlit beautifully at night. Worth a slow exterior circuit as part of a Nakanoshima museum walk.", "lat": 34.69354, "lon": 135.504009, "p": "v"}, {"n": "Isshinji Temple", "cat": "do", "tier": "", "a": "Tennoji", "d": "Near Shitenno-ji, this temple is known for its avant-garde black gate guarded by muscular modern Nio statues and, more soberly, for its okotsubutsu, Buddha images made from the cremated remains of the faithful. A striking, little-visited counterpoint to the classical temples nearby.", "lat": 34.652643, "lon": 135.511833, "p": "v"}, {"n": "Nakazakicho", "cat": "do", "tier": "", "a": "Kita", "d": "A pocket of old wooden houses that survived the war, now quietly reborn as a warren of independent cafes, vintage shops and tiny galleries a short walk from Umeda's towers. The most atmospheric slow-morning neighbourhood in northern Osaka.", "lat": 34.707226, "lon": 135.505623, "p": "v"}, {"n": "Tombori River Cruise", "cat": "do", "tier": "", "a": "Dotonbori", "d": "A 20-minute open-boat glide along the Dotonbori canal delivers the neon signboards and the Glico man at eye level from the water, with a lively guide. A restful way to see the district's spectacle without the crowded bridge, and a hit with children.", "lat": 34.669136, "lon": 135.502705, "p": "v"}, {"n": "Craftroom", "cat": "party", "tier": "Cocktail bars", "a": "Kitashinchi", "d": "Ryu Fujii's six-seat counter tucked into a station building — seasonal twists on the classics, freshly baked pies, and a jazz soundtrack.", "lat": 34.69872, "lon": 135.496084, "p": "v"}, {"n": "Bar Nayuta", "cat": "party", "tier": "Cocktail bars", "a": "Amerikamura (Minami)", "d": "A whimsical, no-menu speakeasy behind a hidden door near Triangle Park — bespoke cocktails built to each guest's spirit and mood.", "lat": 34.672043, "lon": 135.498346, "p": "v"}, {"n": "Bar K", "cat": "party", "tier": "Landmark bars", "a": "Kitashinchi", "d": "A revered Kitashinchi institution with one of Japan's deepest whisky backbars and the classical, ice-carving craft Osaka is known for.", "lat": 34.666232, "lon": 135.528384, "p": "v"}, {"n": "Atmos", "cat": "party", "tier": "Rooftops", "a": "Nakanoshima (Conrad Osaka)", "d": "The Conrad's 40th-floor lounge — the Dojima River and the whole lit city through floor-to-ceiling glass.", "lat": 34.670557, "lon": 135.501252, "p": "v"}, {"n": "Bar Nakanoshima", "cat": "party", "tier": "Landmark bars", "a": "Kitashinchi", "d": "A long-standing Kitashinchi cocktail room in the exacting Osaka tradition — hand-carved ice, flawless classics, quiet mastery.", "lat": 34.693347, "lon": 135.496158, "p": "v"}, {"n": "Shinsekai & the kushikatsu alleys", "cat": "party", "tier": "Late & loud", "a": "Shinsekai (Naniwa)", "d": "Under the glow of Tsutenkaku, a warren of loud, cheap, gloriously unpretentious kushikatsu and highball joints that run late.", "lat": 34.65209, "lon": 135.506191, "p": "a"}]}
+{
+  "center": [
+    34.693757,
+    135.501454
+  ],
+  "venues": [
+    {
+      "n": "Four Seasons Hotel Osaka",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Dojima / Kitahama",
+      "d": "Four Seasons' Osaka debut, opened August 2024 \u2014 including Gensui, the city's first modern-ryokan floor, tatami and all, inside a luxury tower.",
+      "lat": 34.695899,
+      "lon": 135.49358,
+      "photos": []
+    },
+    {
+      "n": "The Ritz-Carlton, Osaka",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Umeda (Kita)",
+      "d": "The grande dame of Osaka luxury \u2014 a European-manor interior of antiques and oil paintings, above the Umeda business district.",
+      "lat": 34.698389,
+      "lon": 135.492556,
+      "photos": []
+    },
+    {
+      "n": "Conrad Osaka",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Nakanoshima",
+      "d": "The top ten floors of the Nakanoshima Festival Tower \u2014 floor-to-ceiling glass over the Dojima River, and one of the great skyline bars in the city.",
+      "lat": 34.693593,
+      "lon": 135.495468,
+      "photos": []
+    },
+    {
+      "n": "The St. Regis Osaka",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Midosuji / Honmachi",
+      "d": "A discreet, art-filled house on the Midosuji boulevard, with the signature St. Regis butler on every floor.",
+      "lat": 34.70037,
+      "lon": 135.493738,
+      "photos": []
+    },
+    {
+      "n": "InterContinental Osaka",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Umeda (Grand Front Osaka)",
+      "d": "A polished flagship inside Grand Front Osaka, steps from the station \u2014 the practical luxury base for arriving and moving on by rail.",
+      "lat": 34.706525,
+      "lon": 135.494557,
+      "photos": []
+    },
+    {
+      "n": "W Osaka",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Shinsaibashi (Midosuji)",
+      "d": "Tadao Ando's monolithic black tower on Midosuji \u2014 the boldest design hotel in the city, at the heart of the shopping and nightlife.",
+      "lat": 34.702213,
+      "lon": 135.495573,
+      "photos": []
+    },
+    {
+      "n": "Patina Osaka",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Umeda (Kita)",
+      "d": "The first city hotel from Capella's Patina brand, opened 2025 \u2014 quiet, contemporary luxury with a strong wellness focus near Umeda.",
+      "lat": 34.681892,
+      "lon": 135.52475,
+      "photos": []
+    },
+    {
+      "n": "Waldorf Astoria Osaka",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Umekita (Grand Green Osaka)",
+      "d": "The Waldorf Astoria's first house in Japan, opened 2025, crowning the new Grand Green Osaka park quarter beside the station.",
+      "lat": 34.702777,
+      "lon": 135.491491,
+      "photos": []
+    },
+    {
+      "n": "Hilton Osaka",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Umeda (Kita)",
+      "d": "A large, capable and reliably run Hilton facing Osaka Station \u2014 easy, central and generous for a family on the move.",
+      "lat": 34.700008,
+      "lon": 135.49599,
+      "photos": []
+    },
+    {
+      "n": "Imperial Hotel, Osaka",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Sakuranomiya (Okawa River)",
+      "d": "The Osaka house of Japan's most storied hotel name, set on the cherry-lined Okawa river away from the crowds.",
+      "lat": 34.700796,
+      "lon": 135.5196,
+      "photos": []
+    },
+    {
+      "n": "La Cime",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Honmachi",
+      "d": "Yusuke Takada's modern French read through Japanese ingredients \u2014 the finest table in Osaka, and among the very best in Asia.",
+      "lat": 34.666443,
+      "lon": 135.507041,
+      "photos": []
+    },
+    {
+      "n": "Hajime",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Higobashi",
+      "d": "A former engineer's cosmos-on-a-plate \u2014 three stars won in a record 17 months, and the signature 'Chikyu' built from over a hundred ingredients.",
+      "lat": 34.643941,
+      "lon": 135.505381,
+      "photos": []
+    },
+    {
+      "n": "Taian",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Nagahoribashi",
+      "d": "Exacting, restrained kaiseki that has held three stars for over fifteen years \u2014 mastery expressed as quiet.",
+      "lat": 34.693757,
+      "lon": 135.501454,
+      "photos": []
+    },
+    {
+      "n": "Kashiwaya Osaka Senriyama",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Senriyama (Suita)",
+      "d": "A three-star kaiseki house in a serene garden setting on the city's northern edge \u2014 seasonal Japanese cooking of the highest order.",
+      "lat": 34.772783,
+      "lon": 135.510452,
+      "photos": []
+    },
+    {
+      "n": "Kahala",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Kitashinchi",
+      "d": "Four decades of idiosyncratic, boundary-crossing kaiseki \u2014 a chef cooking exactly as he pleases, and celebrated for it.",
+      "lat": 34.697563,
+      "lon": 135.499699,
+      "photos": []
+    },
+    {
+      "n": "Koryu",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Kitahama",
+      "d": "Pure, unshowy kaiseki devoted to tradition \u2014 one of Osaka's quiet two-star greats, relocated to a calm Kitahama room.",
+      "lat": 34.454606,
+      "lon": 135.560779,
+      "photos": []
+    },
+    {
+      "n": "Fujiya 1935",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Tanimachi 4-chome",
+      "d": "A former udon shop turned two-star temple of contemporary cuisine \u2014 inventive, vegetable-forward and deeply personal.",
+      "lat": 34.683003,
+      "lon": 135.511887,
+      "photos": []
+    },
+    {
+      "n": "Numata",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Kitashinchi",
+      "d": "A serene two-star tempura counter \u2014 course after course of impossibly light, precise frying.",
+      "lat": 34.693757,
+      "lon": 135.501454,
+      "photos": []
+    },
+    {
+      "n": "Sushi Harasho",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Uehonmachi",
+      "d": "One of Osaka's most exacting sushi counters \u2014 classical technique and top fish, two stars in the guide.",
+      "lat": 34.669938,
+      "lon": 135.477956,
+      "photos": []
+    },
+    {
+      "n": "Yugen",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Uehonmachi",
+      "d": "Refined, seasonal Japanese cooking of great poise \u2014 a two-star kaiseki room away from the Kitashinchi crush.",
+      "lat": 34.693757,
+      "lon": 135.501454,
+      "photos": []
+    },
+    {
+      "n": "Tenjinbashi Aoki",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Tenjinbashi-suji",
+      "d": "Precise, seasonal Japanese cuisine on Osaka's great old shopping street \u2014 quiet excellence, two stars.",
+      "lat": 34.709805,
+      "lon": 135.510691,
+      "photos": []
+    },
+    {
+      "n": "Shunsai Ten Tsuchiya",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Esaka (Suita)",
+      "d": "A two-star tempura house on the city's edge, worth the short trip for the lightness of the frying alone.",
+      "lat": 34.760548,
+      "lon": 135.490926,
+      "photos": []
+    },
+    {
+      "n": "Hiraishi",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Osaka",
+      "d": "A refined one-star tempura counter that has held its star for years running \u2014 classical, exact and warmly run.",
+      "lat": 34.496212,
+      "lon": 135.659276,
+      "photos": []
+    },
+    {
+      "n": "Tenmabashi Fujikawa",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Tenmabashi",
+      "d": "A long-standing one-star tempura kitchen \u2014 seasonal, unhurried, and a benchmark of the Osaka style.",
+      "lat": 34.690264,
+      "lon": 135.516073,
+      "photos": []
+    },
+    {
+      "n": "Mizuno",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Dotonbori",
+      "d": "A 1945-founded okonomiyaki griddle that turned Osaka's soul food into a credentialed pilgrimage \u2014 the yamaimo-yaki is the order.",
+      "lat": 34.668372,
+      "lon": 135.50322,
+      "photos": []
+    },
+    {
+      "n": "Takohachi",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Dotonbori",
+      "d": "A beloved 1945 Dotonbori institution for octopus and okonomiyaki, honoured by the guide for years running.",
+      "lat": 34.668816,
+      "lon": 135.503316,
+      "photos": []
+    },
+    {
+      "n": "Udondokoro Shigemi",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Osaka",
+      "d": "Kansai-style udon done exactly right \u2014 the hiyakake, with its clear dashi and Kagawa-trained noodles, is the bowl to have.",
+      "lat": 34.675897,
+      "lon": 135.504481,
+      "photos": []
+    },
+    {
+      "n": "Osaka Castle (Osaka-jo)",
+      "cat": "do",
+      "tier": "",
+      "a": "Chuo",
+      "d": "Toyotomi Hideyoshi's golden fortress rises on colossal cut-stone ramparts above a moat, the reconstructed keep now a museum climbing to a top-floor view over the whole city. A private guide can walk multi-generational families through the history at their own pace, with the keep's lift making the upper floors easy for grandparents.",
+      "lat": 34.686727,
+      "lon": 135.52393,
+      "photos": []
+    },
+    {
+      "n": "Nishinomaru Garden",
+      "cat": "do",
+      "tier": "",
+      "a": "Chuo",
+      "d": "The manicured lawn garden inside the castle grounds frames the finest single view of the keep, with roughly 300 cherry trees that turn it into one of Osaka's great hanami spots and glow under illumination each spring. Quiet, flat and ticketed, so it stays calmer than the free parkland outside.",
+      "lat": 34.687097,
+      "lon": 135.523115,
+      "photos": []
+    },
+    {
+      "n": "Dotonbori & the Glico Sign",
+      "cat": "do",
+      "tier": "",
+      "a": "Namba",
+      "d": "Osaka's neon canyon of running-man billboards, giant mechanical crabs and canal-side food stalls, glowing since 1935 and best seen at dusk when the reflections hit the water. The full theatre of Osaka's kuidaore ('eat till you drop') spirit; a guide can steer veg and Jain travellers past the meat skewers to okonomiyaki and vegetable tempura options.",
+      "lat": 34.668926,
+      "lon": 135.501055,
+      "photos": []
+    },
+    {
+      "n": "Ebisu Bridge",
+      "cat": "do",
+      "tier": "",
+      "a": "Namba",
+      "d": "The little arched bridge over the Dotonbori canal is the classic photo spot, looking straight up at the Glico sign as crowds mill and pleasure boats slide beneath. Come early morning for the shot without the throng, or ride the Tombori River Cruise for a low-water view of the signboards.",
+      "lat": 34.669067,
+      "lon": 135.501305,
+      "photos": []
+    },
+    {
+      "n": "Kuromon Ichiba Market",
+      "cat": "do",
+      "tier": "",
+      "a": "Nipponbashi",
+      "d": "A 600-metre covered arcade of some 150 stalls, 'Osaka's Kitchen' since 1902, where chefs shop at dawn and visitors graze on grilled scallops, uni and fatty tuna by late morning. Seafood-heavy, so veg travellers should aim for the fruit, tamagoyaki and tempura vendors; a guide can pre-arrange stalls that plate to order.",
+      "lat": 34.665328,
+      "lon": 135.506979,
+      "photos": []
+    },
+    {
+      "n": "Shinsekai & Tsutenkaku Tower",
+      "cat": "do",
+      "tier": "",
+      "a": "Naniwa",
+      "d": "A gloriously retro 'New World' district of 1950s neon and hand-painted signboards under the 108-metre Tsutenkaku, an Eiffel-inspired tower crowned by the lucky Billiken statue whose feet you rub for fortune. This is the birthplace of kushikatsu deep-fried skewers, so flag ahead for vegetable-only sets.",
+      "lat": 34.652541,
+      "lon": 135.506541,
+      "photos": []
+    },
+    {
+      "n": "Umeda Sky Building \u2014 Floating Garden Observatory",
+      "cat": "do",
+      "tier": "",
+      "a": "Umeda",
+      "d": "Two 173-metre towers bridged at the summit by a doughnut-shaped rooftop deck (the Kuchu Teien), reached by a glass escalator suspended in mid-air and modelled on the Hanging Gardens of Babylon. The open-air ring gives a 360-degree Osaka panorama that is unforgettable at sunset.",
+      "lat": 34.705419,
+      "lon": 135.498372,
+      "photos": []
+    },
+    {
+      "n": "Abeno Harukas 300 Observatory",
+      "cat": "do",
+      "tier": "",
+      "a": "Tennoji",
+      "d": "At 300 metres, Abeno Harukas was Japan's tallest building until 2023, and its three-floor Harukas 300 deck wraps the top in floor-to-ceiling glass with a wooden inner courtyard and sky cafe. On a clear day the view runs to Awaji Island and Kobe; the tower sits atop a Kintetsu station and department store for effortless access.",
+      "lat": 34.64598,
+      "lon": 135.513523,
+      "photos": []
+    },
+    {
+      "n": "Sumiyoshi Taisha",
+      "cat": "do",
+      "tier": "",
+      "a": "Sumiyoshi",
+      "d": "One of Japan's oldest and most important shrines, said to date to the 3rd century, built in a pure native Sumiyoshi-zukuri style untouched by mainland influence and approached over the steep vermilion Sorihashi drum bridge. Serene and free of crowds, it rewards an early, unhurried visit with a private guide to read its rituals.",
+      "lat": 34.613003,
+      "lon": 135.493101,
+      "photos": []
+    },
+    {
+      "n": "Shitenno-ji",
+      "cat": "do",
+      "tier": "",
+      "a": "Tennoji",
+      "d": "Japan's first state-built Buddhist temple, founded in 593 by Prince Shotoku, its five-storey pagoda and central halls faithfully rebuilt to the original 6th-century layout. A calm, spacious complex with a fine treasure house and garden, and one of the most historically significant sites in the country.",
+      "lat": 34.654719,
+      "lon": 135.516798,
+      "photos": []
+    },
+    {
+      "n": "Osaka Museum of Housing and Living",
+      "cat": "do",
+      "tier": "",
+      "a": "Tenma",
+      "d": "On the ninth floor sits a full life-size street of 1830s Osaka, faithfully rebuilt with tenement houses, shops and shifting day-to-night lighting, complete with a rooftop cat and the sound of rain. Children can dress in kimono and wander the lanes; the one place in Japan that recreates a whole Edo townscape indoors.",
+      "lat": 34.710466,
+      "lon": 135.511433,
+      "photos": []
+    },
+    {
+      "n": "teamLab Botanical Garden Osaka",
+      "cat": "do",
+      "tier": "",
+      "a": "Higashisumiyoshi",
+      "d": "After dark, the trees, ponds and ecosystems of Nagai Botanical Garden become a vast open-air digital artwork that responds to wind, rain and the movement of visitors. An interactive night wander that lands with every generation; book timed entry and pair it with an early dinner.",
+      "lat": 34.611119,
+      "lon": 135.520557,
+      "photos": []
+    },
+    {
+      "n": "Osaka Aquarium Kaiyukan",
+      "cat": "do",
+      "tier": "",
+      "a": "Minato",
+      "d": "One of the world's largest aquariums, built as a descending spiral around a nine-metre-deep Pacific Ocean tank home to whale sharks, with 620 species across the Pacific Rim. The gentle downward ramp is stroller- and wheelchair-friendly, making it a reliable multi-gen half-day.",
+      "lat": 34.654546,
+      "lon": 135.428921,
+      "photos": []
+    },
+    {
+      "n": "Tempozan & the Giant Ferris Wheel",
+      "cat": "do",
+      "tier": "",
+      "a": "Minato",
+      "d": "The harbourside quarter beside the aquarium, crowned by a 112-metre Ferris wheel whose night lighting forecasts tomorrow's weather. Air-conditioned gondolas make a smooth 15-minute loop over Osaka Bay; a soft, scenic add-on for families with young children.",
+      "lat": 34.656269,
+      "lon": 135.430959,
+      "photos": []
+    },
+    {
+      "n": "Universal Studios Japan",
+      "cat": "do",
+      "tier": "",
+      "a": "Konohana",
+      "d": "The blockbuster theme park anchored by the playable, full-scale Super Nintendo World and the atmospheric Wizarding World of Harry Potter, with an expansion widening the magic. Express Passes and a VIP guided tour let a family skip the long queues and see the headline rides in a single day.",
+      "lat": 34.665639,
+      "lon": 135.432453,
+      "photos": []
+    },
+    {
+      "n": "Nakanoshima Museum of Art, Osaka",
+      "cat": "do",
+      "tier": "",
+      "a": "Nakanoshima",
+      "d": "A striking black cube opened in 2022 holding over 6,000 works of modern and contemporary art and design, from Modigliani to Yayoi Kusama's pumpkin at the entrance. The cultural heart of Nakanoshima island, walkable between two rivers and paired easily with the neighbouring museums.",
+      "lat": 34.69238,
+      "lon": 135.491368,
+      "photos": []
+    },
+    {
+      "n": "The Museum of Oriental Ceramics, Osaka",
+      "cat": "do",
+      "tier": "",
+      "a": "Nakanoshima",
+      "d": "Reopened in 2024 after renovation, this hushed museum holds the Sumitomo-gifted Ataka Collection of Chinese and Korean ceramics, including two National Treasures lit by natural light. A quiet, refined hour for connoisseurs, steps from the Nakanoshima rose garden.",
+      "lat": 34.693421,
+      "lon": 135.505487,
+      "photos": []
+    },
+    {
+      "n": "Nakanoshima Rose Garden",
+      "cat": "do",
+      "tier": "",
+      "a": "Nakanoshima",
+      "d": "At the eastern tip of Nakanoshima Park, riverside beds hold some 3,700 rose bushes across roughly 310 varieties, best in mid-spring and autumn against the old bridges and modern skyline. A free, flat, pretty stroll that stitches the island's museums together.",
+      "lat": 34.692006,
+      "lon": 135.508978,
+      "photos": []
+    },
+    {
+      "n": "Amerikamura",
+      "cat": "do",
+      "tier": "",
+      "a": "Shinsaibashi",
+      "d": "Osaka's youth-culture quarter of vintage stores, streetwear boutiques, murals and Triangle Park, born from 1970s warehouses filled with imported American goods. A lively, offbeat counterpoint to the luxury malls, best for an afternoon of thrifting and people-watching.",
+      "lat": 34.671942,
+      "lon": 135.498152,
+      "photos": []
+    },
+    {
+      "n": "Horie & Orange Street",
+      "cat": "do",
+      "tier": "",
+      "a": "Horie",
+      "d": "A calmer, more design-led neighbour to Amerikamura, where Tachibana-dori (Orange Street) lines up interiors showrooms, curated vintage, specialty coffee and quiet cafes. The place to slow down between shopping runs, with a grown-up sense of Osaka style.",
+      "lat": 34.67109,
+      "lon": 135.492888,
+      "photos": []
+    },
+    {
+      "n": "Namba Yasaka Shrine",
+      "cat": "do",
+      "tier": "",
+      "a": "Namba",
+      "d": "A small city shrine dominated by a 12-metre lion-head stage built in 1975, its huge open mouth said to swallow bad luck and grant success in study and business. A quick, striking stop near Namba and a favourite for a good-fortune photograph.",
+      "lat": 34.661482,
+      "lon": 135.496733,
+      "photos": []
+    },
+    {
+      "n": "Shinsaibashi-suji",
+      "cat": "do",
+      "tier": "",
+      "a": "Shinsaibashi",
+      "d": "Osaka's premier shopping spine, a long covered arcade running from the luxury flagships and the Daimaru department store down toward Dotonbori. Everything from global maisons to Japanese labels under one weatherproof roof; a personal shopper can arrange after-hours access at the top houses.",
+      "lat": 34.669292,
+      "lon": 135.501302,
+      "photos": []
+    },
+    {
+      "n": "Namba Parks",
+      "cat": "do",
+      "tier": "",
+      "a": "Namba",
+      "d": "A shopping and office complex whose real draw is an eight-level rooftop garden of 100,000 plants that rises like a terraced canyon above the city, open late and free to enter. A surprising pocket of green over Namba, lovely at golden hour.",
+      "lat": 34.663904,
+      "lon": 135.501507,
+      "photos": []
+    },
+    {
+      "n": "HEP Five Ferris Wheel",
+      "cat": "do",
+      "tier": "",
+      "a": "Umeda",
+      "d": "A bright-red wheel bolted to the roof of a Umeda shopping centre, its air-conditioned gondolas climbing to 106 metres for a quick, central skyline loop with Bluetooth to play your own soundtrack. A fun, low-commitment lift right in the heart of the Kita district.",
+      "lat": 34.703996,
+      "lon": 135.500092,
+      "photos": []
+    },
+    {
+      "n": "Grand Front Osaka & Umekita",
+      "cat": "do",
+      "tier": "",
+      "a": "Umeda",
+      "d": "The glossy twin-tower complex above Osaka Station, packed with design flagships, restaurants and the new Umekita greenspace that has transformed the north side of the station into a walkable urban park. The natural base for shopping, dining and easy transfers across the region.",
+      "lat": 34.703377,
+      "lon": 135.494215,
+      "photos": []
+    },
+    {
+      "n": "Tenjinbashi-suji Shopping Street",
+      "cat": "do",
+      "tier": "",
+      "a": "Tenma",
+      "d": "Japan's longest covered shopping street runs some 2.6 kilometres through the old merchant quarter, lined with local shops, standing bars and unpretentious eateries far from the tourist crush. A genuine slice of everyday Osaka; pair it with the neighbouring Museum of Housing and Living.",
+      "lat": 34.698809,
+      "lon": 135.511723,
+      "photos": []
+    },
+    {
+      "n": "Tenmangu Shrine & Tenjin Matsuri",
+      "cat": "do",
+      "tier": "",
+      "a": "Tenma",
+      "d": "Dedicated to the deity of learning, this shrine at the head of Tenjinbashi-suji hosts the Tenjin Matsuri each July, one of Japan's three great festivals, with a river procession of lantern-lit boats and fireworks. A discreet advisor can secure prime riverside vantage for the summer spectacle.",
+      "lat": 34.69609,
+      "lon": 135.512765,
+      "photos": []
+    },
+    {
+      "n": "Expo '70 Commemorative Park & Tower of the Sun",
+      "cat": "do",
+      "tier": "",
+      "a": "Suita",
+      "d": "The vast park left behind by the 1970 World Expo, still watched over by Taro Okamoto's monumental Tower of the Sun, whose restored interior you can now tour by reservation. Wide lawns, gardens and the fine national ethnology museum make it an easy green escape north of the city.",
+      "lat": 34.692015,
+      "lon": 135.518899,
+      "photos": []
+    },
+    {
+      "n": "Cup Noodles Museum, Ikeda",
+      "cat": "do",
+      "tier": "",
+      "a": "Ikeda",
+      "d": "On the very spot where Momofuku Ando invented instant ramen in 1958, this free museum lets you design and package your own original Cup Noodle to carry home. A genuinely charming, hands-on hour for children and adults; a short hop from Umeda on the Hankyu line.",
+      "lat": 34.81811,
+      "lon": 135.426683,
+      "photos": []
+    },
+    {
+      "n": "Nintoku-tenno-ryo Kofun (Daisen Kofun)",
+      "cat": "do",
+      "tier": "",
+      "a": "Sakai",
+      "d": "The keyhole-shaped mausoleum attributed to Emperor Nintoku is the largest tomb in Japan at 486 metres long, its scale rivalling the Great Pyramid and best grasped from the Sakai City observation deck or by air. The heart of the Mozu-Furuichi tomb cluster inscribed by UNESCO in 2019, it makes a thoughtful, uncrowded half-day.",
+      "lat": 34.572216,
+      "lon": 135.616196,
+      "photos": []
+    },
+    {
+      "n": "Minoo Park & Falls",
+      "cat": "do",
+      "tier": "",
+      "a": "Minoo",
+      "d": "A paved 2.8-kilometre forest trail leads to the 33-metre Minoo waterfall, famed for its blazing autumn maples and for momiji tempura, batter-fried maple leaves sold along the path. Thirty minutes from Umeda yet feeling deep in the mountains, an easy nature day for all ages.",
+      "lat": 34.841175,
+      "lon": 135.471532,
+      "photos": []
+    },
+    {
+      "n": "Katsuo-ji",
+      "cat": "do",
+      "tier": "",
+      "a": "Minoo",
+      "d": "A mountain 'temple of winner's luck' whose grounds are strewn with thousands of red daruma dolls tucked into every nook by pilgrims seeking success, framed by cherry blossom, hydrangea and autumn colour by season. Serene and photogenic; best reached by private car with the Minoo hills.",
+      "lat": 34.705379,
+      "lon": 135.495746,
+      "photos": []
+    },
+    {
+      "n": "Day Trip \u2014 Kyoto",
+      "cat": "do",
+      "tier": "",
+      "a": "Day trip",
+      "d": "Just 15 minutes by Shinkansen from Shin-Osaka, Japan's imperial capital lays out golden pavilions, torii tunnels, geisha lanes and Zen gardens across a single day. A private car and guide let a family cover Kinkaku-ji, Fushimi Inari and Gion without touching a crowded platform.",
+      "lat": 34.749748,
+      "lon": 135.578558,
+      "photos": []
+    },
+    {
+      "n": "Day Trip \u2014 Nara",
+      "cat": "do",
+      "tier": "",
+      "a": "Day trip",
+      "d": "Under 40 minutes from Osaka, Japan's first permanent capital offers Todai-ji's 15-metre bronze Great Buddha, the lantern corridors of Kasuga Taisha and over a thousand bowing sika deer roaming Nara Park. Flat, walkable and gentle; the biscuits sold for the deer delight children and grandparents alike.",
+      "lat": 34.685671,
+      "lon": 135.504509,
+      "photos": []
+    },
+    {
+      "n": "Day Trip \u2014 Himeji Castle",
+      "cat": "do",
+      "tier": "",
+      "a": "Day trip",
+      "d": "The 'White Heron Castle' is Japan's finest surviving feudal fortress, a dazzling white hilltop keep of interlocking baileys reachable in under an hour by Shinkansen from Shin-Osaka. Pair the climb with the adjacent Koko-en gardens; one of Japan's first UNESCO inscriptions and its most complete original castle.",
+      "lat": 34.667362,
+      "lon": 135.433551,
+      "photos": []
+    },
+    {
+      "n": "Day Trip \u2014 Koyasan (Mount Koya)",
+      "cat": "do",
+      "tier": "",
+      "a": "Day trip",
+      "d": "About two hours south by Nankai train and cablecar, this sacred mountain of Shingon Buddhism holds Okunoin, Japan's largest cemetery, cedar-shaded and lined with 200,000 tombs to Kobo Daishi's mausoleum, plus Kongobu-ji and the Danjo Garan temple complex. A temple-lodging shojin-ryori lunch is naturally vegan, ideal for veg and Jain travellers.",
+      "lat": 34.667362,
+      "lon": 135.433551,
+      "photos": []
+    },
+    {
+      "n": "Day Trip \u2014 Kobe",
+      "cat": "do",
+      "tier": "",
+      "a": "Day trip",
+      "d": "Barely 20 minutes by rapid train, this elegant port city offers the world-famous Kobe beef, the Western merchant mansions of Kitano-cho, the Nunobiki herb garden ropeway and, close by, the hot springs of Arima Onsen. A refined, easygoing day that mixes cuisine, views and heritage.",
+      "lat": 34.865888,
+      "lon": 135.490858,
+      "photos": []
+    },
+    {
+      "n": "Takoyaki \u2014 the octopus dumpling",
+      "cat": "do",
+      "tier": "",
+      "a": "Namba",
+      "d": "Osaka's signature street snack, molten balls of batter with a piece of octopus, brushed with sauce and dancing bonito flakes and invented in this city in the 1930s. Watching the swift turning of the griddles is half the fun; a guide can point veg travellers to cheese or plain-vegetable versions where offered.",
+      "lat": 34.667248,
+      "lon": 135.497787,
+      "photos": []
+    },
+    {
+      "n": "Okonomiyaki \u2014 the savoury pancake",
+      "cat": "do",
+      "tier": "",
+      "a": "Dotonbori",
+      "d": "The 'grill what you like' cabbage pancake cooked on a hotplate at your table is Osaka soul food, endlessly customisable and one of the easier local dishes to keep vegetarian. Book a private teppan counter for a hands-on family dinner where everyone cooks their own.",
+      "lat": 34.668484,
+      "lon": 135.50259,
+      "photos": []
+    },
+    {
+      "n": "Kushikatsu \u2014 the deep-fried skewer",
+      "cat": "do",
+      "tier": "",
+      "a": "Shinsekai",
+      "d": "Breadcrumbed skewers of vegetables, meat and seafood fried to order and dipped once (never twice) in communal sauce, born in the working-class Shinsekai district. A fun, informal Osaka ritual; vegetable-forward sets are easy to request at the better houses.",
+      "lat": 34.65209,
+      "lon": 135.506191,
+      "photos": []
+    },
+    {
+      "n": "Kappo & Kaiseki Fine Dining",
+      "cat": "do",
+      "tier": "",
+      "a": "Kitashinchi",
+      "d": "Osaka's discreet Kitashinchi district hides intimate kappo counters and Michelin-starred kaiseki rooms where a chef cooks a seasonal procession before your eyes. A concierge can secure the near-impossible reservations and brief chefs in advance on veg, Jain or dietary needs.",
+      "lat": 34.698433,
+      "lon": 135.497269,
+      "photos": []
+    },
+    {
+      "n": "Nakanoshima Central Public Hall",
+      "cat": "do",
+      "tier": "",
+      "a": "Nakanoshima",
+      "d": "A red-brick neo-Renaissance landmark of 1918 on the river island, its grand hall a rare survivor of Osaka's early-modern civic architecture, floodlit beautifully at night. Worth a slow exterior circuit as part of a Nakanoshima museum walk.",
+      "lat": 34.69354,
+      "lon": 135.504009,
+      "photos": []
+    },
+    {
+      "n": "Isshinji Temple",
+      "cat": "do",
+      "tier": "",
+      "a": "Tennoji",
+      "d": "Near Shitenno-ji, this temple is known for its avant-garde black gate guarded by muscular modern Nio statues and, more soberly, for its okotsubutsu, Buddha images made from the cremated remains of the faithful. A striking, little-visited counterpoint to the classical temples nearby.",
+      "lat": 34.652643,
+      "lon": 135.511833,
+      "photos": []
+    },
+    {
+      "n": "Nakazakicho",
+      "cat": "do",
+      "tier": "",
+      "a": "Kita",
+      "d": "A pocket of old wooden houses that survived the war, now quietly reborn as a warren of independent cafes, vintage shops and tiny galleries a short walk from Umeda's towers. The most atmospheric slow-morning neighbourhood in northern Osaka.",
+      "lat": 34.707226,
+      "lon": 135.505623,
+      "photos": []
+    },
+    {
+      "n": "Tombori River Cruise",
+      "cat": "do",
+      "tier": "",
+      "a": "Dotonbori",
+      "d": "A 20-minute open-boat glide along the Dotonbori canal delivers the neon signboards and the Glico man at eye level from the water, with a lively guide. A restful way to see the district's spectacle without the crowded bridge, and a hit with children.",
+      "lat": 34.669136,
+      "lon": 135.502705,
+      "photos": []
+    },
+    {
+      "n": "Craftroom",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Kitashinchi",
+      "d": "Ryu Fujii's six-seat counter tucked into a station building \u2014 seasonal twists on the classics, freshly baked pies, and a jazz soundtrack.",
+      "lat": 34.69872,
+      "lon": 135.496084,
+      "photos": []
+    },
+    {
+      "n": "Bar Nayuta",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Amerikamura (Minami)",
+      "d": "A whimsical, no-menu speakeasy behind a hidden door near Triangle Park \u2014 bespoke cocktails built to each guest's spirit and mood.",
+      "lat": 34.672043,
+      "lon": 135.498346,
+      "photos": []
+    },
+    {
+      "n": "Bar K",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "Kitashinchi",
+      "d": "A revered Kitashinchi institution with one of Japan's deepest whisky backbars and the classical, ice-carving craft Osaka is known for.",
+      "lat": 34.666232,
+      "lon": 135.528384,
+      "photos": []
+    },
+    {
+      "n": "Atmos",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "Nakanoshima (Conrad Osaka)",
+      "d": "The Conrad's 40th-floor lounge \u2014 the Dojima River and the whole lit city through floor-to-ceiling glass.",
+      "lat": 34.670557,
+      "lon": 135.501252,
+      "photos": []
+    },
+    {
+      "n": "Bar Nakanoshima",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "Kitashinchi",
+      "d": "A long-standing Kitashinchi cocktail room in the exacting Osaka tradition \u2014 hand-carved ice, flawless classics, quiet mastery.",
+      "lat": 34.693347,
+      "lon": 135.496158,
+      "photos": []
+    },
+    {
+      "n": "Shinsekai & the kushikatsu alleys",
+      "cat": "party",
+      "tier": "Late & loud",
+      "a": "Shinsekai (Naniwa)",
+      "d": "Under the glow of Tsutenkaku, a warren of loud, cheap, gloriously unpretentious kushikatsu and highball joints that run late.",
+      "lat": 34.65209,
+      "lon": 135.506191,
+      "photos": []
+    }
+  ]
+}

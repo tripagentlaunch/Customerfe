@@ -1,1 +1,608 @@
-{"center": [21.152747, -86.842576], "venues": [{"n": "Rosewood Mayakoba", "cat": "stay", "tier": "Ultra", "a": "Mayakoba (Playa del Carmen)", "d": "Lagoon suites reached by boat, a Sense spa on its own island, and a hush that has held Forbes Five-Star status for years — the coast's most complete grand resort.", "lat": 20.693619, "lon": -87.0264, "p": "v"}, {"n": "Maroma, A Belmond Hotel, Riviera Maya", "cat": "stay", "tier": "Ultra", "a": "Punta Maroma", "d": "Belmond's beach house on one of the Caribbean's most beautiful strands — whitewashed, thatched, deeply private, recently and beautifully restored.", "lat": 21.014017, "lon": -86.790551, "p": "a"}, {"n": "Chablé Maroma", "cat": "stay", "tier": "Ultra", "a": "Punta Maroma", "d": "Freestanding jungle-and-beach villas, a spa built around a cenote, and a kitchen led by Mexico City's Jorge Vallejo — wellness and gastronomy in one hush.", "lat": 20.723502, "lon": -86.978884, "p": "v"}, {"n": "NIZUC Resort & Spa", "cat": "stay", "tier": "Grand", "a": "Cancún (Punta Nizuc)", "d": "A discreet, design-led enclave on its own peninsula minutes from the airport — Forbes Five-Star, with a celebrated ESPA spa and quiet, contemporary calm.", "lat": 21.177395, "lon": -86.807293, "p": "v"}, {"n": "Banyan Tree Mayakoba", "cat": "stay", "tier": "Grand", "a": "Mayakoba (Playa del Carmen)", "d": "Asian-inflected pool villas threaded through mangrove and lagoon — Banyan Tree's signature spa ritual transplanted to the Caribbean, now a Forbes Five-Star house.", "lat": 20.683011, "lon": -87.028916, "p": "v"}, {"n": "Etéreo, Auberge Resorts Collection", "cat": "stay", "tier": "Grand", "a": "Mayakoba / Playa del Carmen", "d": "A serene Auberge house raised on stilts through the mangrove to a white-sand beach — spare, elemental design and a quietly excellent kitchen.", "lat": 20.68617, "lon": -87.028355, "p": "a"}, {"n": "Waldorf Astoria Cancun", "cat": "stay", "tier": "Grand", "a": "Cancún", "d": "A sleek, compact Waldorf on a fine stretch of Cancún beach — 173 rooms, a Maya-inspired spa and the assured service of the flag.", "lat": 20.950979, "lon": -86.836823, "p": "v"}, {"n": "Fairmont Mayakoba", "cat": "stay", "tier": "Luxury", "a": "Mayakoba (Playa del Carmen)", "d": "The largest of the Mayakoba houses — 401 rooms across 45 acres of jungle and lagoon, with a strong spa and a genuinely family-minded run.", "lat": 20.686767, "lon": -87.028404, "p": "v"}, {"n": "Hotel Esencia", "cat": "stay", "tier": "Luxury", "a": "Xpu-Ha (between Playa del Carmen and Tulum)", "d": "A former duchess's beachfront estate turned intimate hideaway — the only Three-Key hotel on this coast, and its most personal luxury.", "lat": 21.16692, "lon": -86.804104, "p": "v"}, {"n": "Chablé (Casa Chablé), Tulum", "cat": "stay", "tier": "Luxury", "a": "Tulum", "d": "An off-grid, solar-run beach camp inside the Sian Ka'an reserve — a handful of tented villas, wellness-led and utterly removed.", "lat": 21.042906, "lon": -86.854182, "p": "a"}, {"n": "Le Chique", "cat": "eat", "tier": "Destination", "a": "Riviera Maya (Hotel Xcaret Arte)", "d": "Jonatán Gómez Luna's deconstructed, theatrical Mexican tasting menu — trained through elBulli, Noma and El Celler de Can Roca, and the most ambitious kitchen on the coast.", "lat": 21.138252, "lon": -86.849808, "p": "v"}, {"n": "HA'", "cat": "eat", "tier": "Destination", "a": "Playa del Carmen (Hotel Xcaret México)", "d": "Carlos Gaytán — the first Mexican chef to hold a Michelin star — cooks a water-themed nine-course journey through his native flavours in a jewel-box room.", "lat": 21.144386, "lon": -86.855879, "p": "v"}, {"n": "Cocina de Autor Riviera Maya", "cat": "eat", "tier": "Destination", "a": "Playa del Carmen (Grand Velas)", "d": "Nahúm Velasco's nine-course tasting menu inside Grand Velas — the coast's rare Michelin star within an all-inclusive resort, and holder of the 2025 Service Award.", "lat": 20.675486, "lon": -87.023015, "p": "a"}, {"n": "Arca", "cat": "eat", "tier": "Fine", "a": "Tulum", "d": "Wood-fired, jungle-chic cooking on the Tulum beach road — open flame, local produce and one of the coast's most atmospheric rooms.", "lat": 21.152747, "lon": -86.842576, "p": "v"}, {"n": "Axiote Cocina de México", "cat": "eat", "tier": "Smart", "a": "Playa del Carmen", "d": "Chef-driven Mexican street flavours with real technique — vivid, generous and honestly priced, a Bib Gourmand favourite off Playa's Fifth Avenue.", "lat": 21.165081, "lon": -86.825556, "p": "a"}, {"n": "Cetli", "cat": "eat", "tier": "Smart", "a": "Tulum", "d": "A tiny, home-style kitchen reinterpreting Mexican classics with the season — mole and slow-cooked dishes done with real heart.", "lat": 21.152747, "lon": -86.842576, "p": "v"}, {"n": "Mestixa", "cat": "eat", "tier": "Smart", "a": "Tulum", "d": "A bright, market-led kitchen crossing Mexican produce with Asian technique — inventive, good value and a critics' Bib pick.", "lat": 21.152747, "lon": -86.842576, "p": "v"}, {"n": "Punta Corcho", "cat": "eat", "tier": "Smart", "a": "Puerto Morelos", "d": "Sea-facing, produce-driven cooking in the sleepy fishing town between Cancún and Playa — a considered Bib Gourmand kitchen away from the crowds.", "lat": 21.014017, "lon": -86.790551, "p": "v"}, {"n": "Frida", "cat": "eat", "tier": "Fine", "a": "Playa del Carmen (Grand Velas)", "d": "Grand Velas' ode to Mexican haute cuisine — regional classics, mezcal and a formal, romantic room beside its Michelin-starred sibling.", "lat": 21.111564, "lon": -86.839543, "p": "v"}, {"n": "Casa del Lago", "cat": "eat", "tier": "Fine", "a": "Mayakoba (Rosewood Mayakoba)", "d": "Rosewood's lakeside room — Mexican by day, Italian by night — with the polish and produce of a Forbes Five-Star house.", "lat": 21.060511, "lon": -86.859786, "p": "v"}, {"n": "Zapote Kitchen", "cat": "eat", "tier": "Fine", "a": "Mayakoba (Rosewood Mayakoba)", "d": "The kitchen beside Rosewood's award-winning Zapote Bar — Maya-rooted, farm-to-table cooking matched to one of the region's great drinks lists.", "lat": 20.693619, "lon": -87.0264, "p": "a"}, {"n": "Hartwood", "cat": "eat", "tier": "Fine", "a": "Tulum", "d": "The wood-fired, off-grid restaurant that shaped Tulum's whole dining scene — everything cooked over open flame, the menu set by the day's catch and market.", "lat": 21.152747, "lon": -86.842576, "p": "v"}, {"n": "Posada Margherita", "cat": "eat", "tier": "Smart", "a": "Tulum", "d": "A barefoot, beachfront Italian of homemade pasta and just-caught fish — the romantic, candlelit heart of old Tulum.", "lat": 21.042906, "lon": -86.854182, "p": "a"}, {"n": "Fisher's", "cat": "eat", "tier": "Smart", "a": "Playa del Carmen", "d": "Mexico's most respected modern seafood house — ceviches, tostadas and grilled catch done with real freshness and buzz.", "lat": 21.040698, "lon": -86.881759, "p": "v"}, {"n": "Tulum Ruins (Zona Arqueológica)", "cat": "do", "tier": "", "a": "Riviera Maya (1.5 hrs from Cancún)", "d": "The only Maya city built on the sea — grey temples on a limestone cliff above a turquoise cove, El Castillo watching over the water. A photogenic, easy-walking site the whole family can do in a cool morning, then descend the wooden stairs to swim off the little beach below.", "lat": 21.141111, "lon": -86.853683, "p": "a"}, {"n": "Cobá & the Nohoch Mul Pyramid", "cat": "do", "tier": "", "a": "Riviera Maya (2 hrs from Cancún)", "d": "A vast, still-jungled Maya city where you pedal or take a bici-taxi between temples under the canopy. Nohoch Mul, one of the peninsula's tallest pyramids, reopened for climbing in December 2025 on a new wooden staircase — the reward at the top is an ocean of unbroken rainforest.", "lat": 21.172541, "lon": -86.857777, "p": "a"}, {"n": "Museo Maya de Cancún & the El Rey ruins", "cat": "do", "tier": "", "a": "Cancún Hotel Zone", "d": "The city's serious cultural stop, minutes from the beach resorts: a purpose-built museum of Maya artefacts paired with the small seaside El Rey ruins, where iguanas sun themselves on the platforms. An easy, air-conditioned culture fix for a day when nobody wants to travel far.", "lat": 21.089436, "lon": -86.769922, "p": "a"}, {"n": "MUSA — Museo Subacuático de Arte (underwater museum)", "cat": "do", "tier": "", "a": "Cancún / Isla Mujeres National Marine Park", "d": "Over 500 life-size sculptures by Jason deCaires Taylor standing on the seabed, slowly turning into living reef. Snorkel the shallow Nizuc gallery, scuba the deeper Manchones one, or stay dry over a glass-bottom boat — a surreal outing that works for mixed-ability groups.", "lat": 21.076264, "lon": -86.846196, "p": "v"}, {"n": "Isla Mujeres & Punta Sur", "cat": "do", "tier": "", "a": "Island off Cancún (20-min ferry)", "d": "A slow, golf-cart island where Punta Sur — the easternmost point of Mexico — drops in sculpture-dotted cliffs to the Caribbean, with a small Maya shrine to Ixchel at the tip. Charter a private catamaran for the day and the family swims, lunches and watches the sunset without a crowd in sight.", "lat": 21.014017, "lon": -86.790551, "p": "v"}, {"n": "Playa Norte, Isla Mujeres", "cat": "do", "tier": "", "a": "Isla Mujeres", "d": "Regularly named among the Caribbean's finest beaches — flour-soft white sand and water so shallow and calm you can wade out a long way, ideal for grandparents and small children alike. Claim a shaded bed at a beach club and let the afternoon dissolve.", "lat": 21.154542, "lon": -86.797516, "p": "v"}, {"n": "Gran Cenote, Tulum", "cat": "do", "tier": "", "a": "Riviera Maya near Tulum", "d": "One of the most beautiful open-and-cavern cenotes — crystalline freshwater over pale rock, with turtles and small fish, and stalactite chambers you can snorkel into. A gentle, unforgettable introduction to the underworld the Maya held sacred.", "lat": 20.675486, "lon": -87.023015, "p": "a"}, {"n": "Dos Ojos Cenote system", "cat": "do", "tier": "", "a": "Riviera Maya near Tulum", "d": "\"Two Eyes\" — twin sapphire pools opening into one of the world's great flooded cave systems, superb for both easy snorkelling and world-class cavern diving. A private guide can tailor it from a splash for the children to a proper cave dive for the certified.", "lat": 20.675486, "lon": -87.023015, "p": "a"}, {"n": "Cenote Azul, Bacalar", "cat": "do", "tier": "", "a": "Bacalar (South Quintana Roo)", "d": "A vast, deep, startlingly blue open cenote on the shore of the Bacalar lagoon, ringed by jungle and a laid-back restaurant deck. The plunge into cool, clear water is a highlight of any Bacalar day.", "lat": 21.147083, "lon": -86.846523, "p": "a"}, {"n": "Ruta de los Cenotes, Puerto Morelos", "cat": "do", "tier": "", "a": "Riviera Maya near Puerto Morelos", "d": "A jungle road strung with dozens of cenotes — open pools, cavern swims, zip-lines and rope swings — far less trafficked than the Tulum circuit. A private driver lets you pick two or three, from a serene swim for elders to an adventure stop for teenagers.", "lat": 20.854938, "lon": -86.89969, "p": "v"}, {"n": "Xcaret eco-archaeological park", "cat": "do", "tier": "", "a": "Riviera Maya near Playa del Carmen", "d": "A polished, all-day park built around underground rivers, wildlife, and a genuinely spectacular evening show of Mexican music, dance and history. Multi-generational catnip — small children, teenagers and grandparents all find their own version of the day.", "lat": 20.675486, "lon": -87.023015, "p": "a"}, {"n": "Xel-Há natural aquarium", "cat": "do", "tier": "", "a": "Riviera Maya near Tulum", "d": "A calm natural inlet where the freshwater river meets the sea — snorkelling among fish in glass-clear water, gentle floats and cliff jumps, with food and drink included. The most relaxed of the eco-parks, easy on non-swimmers and older travellers.", "lat": 20.675486, "lon": -87.023015, "p": "a"}, {"n": "Xplor adventure park", "cat": "do", "tier": "", "a": "Riviera Maya near Playa del Carmen", "d": "The high-adrenaline sibling — long zip-line circuits, amphibious vehicles through the jungle, and swimming and rafting through stalactite-hung underground rivers. The park teenagers and thrill-seeking adults will remember longest.", "lat": 20.675486, "lon": -87.023015, "p": "a"}, {"n": "Playa del Carmen & Quinta Avenida", "cat": "do", "tier": "", "a": "Riviera Maya (1 hr from Cancún)", "d": "The Riviera's stylish heart — a long pedestrian avenue of boutiques, mezcalerías and rooftop restaurants a block back from the sand. An easy evening of strolling, shopping and dinner, with the Cozumel ferry leaving from its pier.", "lat": 21.165081, "lon": -86.825556, "p": "v"}, {"n": "Puerto Morelos & the reef", "cat": "do", "tier": "", "a": "Riviera Maya (30 min from Cancún)", "d": "A small, unspoilt fishing town between Cancún and Playa, with a leaning lighthouse, good seafood and a protected national-park reef just offshore. The most authentic, low-key village base within easy reach of the airport.", "lat": 20.829179, "lon": -86.893241, "p": "v"}, {"n": "Akumal — swimming with sea turtles", "cat": "do", "tier": "", "a": "Riviera Maya near Tulum", "d": "\"Place of the Turtles\" — a sheltered bay where green sea turtles graze on seagrass in waist-deep water, snorkelled with a licensed guide. A wildlife encounter that reliably thrills children and adults, best booked early with a private guide to avoid the day-tripper rush.", "lat": 20.675486, "lon": -87.023015, "p": "a"}, {"n": "Sian Ka'an Biosphere Reserve", "cat": "do", "tier": "", "a": "Riviera Maya, south of Tulum", "d": "\"Where the sky is born\" — a million-plus acres of mangrove, lagoon and reef where you float the ancient Maya canals, spot dolphins, turtles and hundreds of birds. A private boat safari here is the wild, pristine counterpoint to the resort coast.", "lat": 20.675486, "lon": -87.023015, "p": "a"}, {"n": "Cancún Hotel Zone beaches & Nichupté Lagoon", "cat": "do", "tier": "", "a": "Cancún Hotel Zone", "d": "The famous 22-kilometre strip of white Caribbean sand backed by the calm Nichupté Lagoon on its inner side — swimming, catamaran sailing and sunset cruises without leaving the resort corridor. The effortless default for a day when the family just wants sea and sand.", "lat": 21.134165, "lon": -86.749487, "p": "v"}, {"n": "Private yacht or catamaran charter, Cancún–Isla Mujeres", "cat": "do", "tier": "", "a": "Cancún / Isla Mujeres", "d": "The signature UHNI day here — a crewed yacht to Isla Mujeres for swimming, snorkelling the reef and an anchored lunch, entirely on your own timetable. Add a chef and it becomes the trip's most memorable, most private afternoon.", "lat": 21.014017, "lon": -86.790551, "p": "a"}, {"n": "A temazcal ceremony", "cat": "do", "tier": "", "a": "Riviera Maya (various)", "d": "The ancient Maya steam-lodge ritual, led by a shaman with herbs, chanting and darkness — a cleansing, ceremonial experience quite unlike a spa. A grounding, spiritual counterpoint to the beach, and one many Indian travellers find deeply resonant.", "lat": 21.172541, "lon": -86.857777, "p": "a"}, {"n": "Mezcal & tequila tasting", "cat": "do", "tier": "", "a": "Playa del Carmen / Cancún", "d": "A guided flight through Mexico's agave spirits, from crisp blanco tequilas to smoky artisanal mezcals, with a sommelier explaining terroir and craft. A sophisticated evening for the adults while the children are looked after at the resort.", "lat": 21.165081, "lon": -86.825556, "p": "a"}, {"n": "Luxury beach clubs of the Riviera Maya", "cat": "do", "tier": "", "a": "Tulum / Playa del Carmen", "d": "Design-led beach clubs — daybeds, ceviche, cocktails and a DJ over the turquoise water — from Tulum's boho-chic scene to Playa's polished spots. The stylish, low-effort way to spend a whole day on the sand in comfort.", "lat": 21.165081, "lon": -86.825556, "p": "a"}, {"n": "Río Secreto underground river", "cat": "do", "tier": "", "a": "Riviera Maya near Playa del Carmen", "d": "A guided wade and float through a half-flooded cave of stalactites and mirror-still water, helmet-lamps lighting formations older than the Maya. A cool, awe-inspiring hour underground that even nervous swimmers can do in a life vest.", "lat": 20.675486, "lon": -87.023015, "p": "a"}, {"n": "Cozumel — El Cielo & Palancar snorkelling", "cat": "do", "tier": "", "a": "Cozumel island", "d": "\"Heaven\" — a shallow, sandy-bottomed sandbar where dozens of starfish rest in impossibly clear water, best reached by private boat from Cozumel. A gentle, magical snorkel that suits families and non-divers.", "lat": 21.146633, "lon": -86.844619, "p": "a"}, {"n": "Xcaret México Espectacular evening show", "cat": "do", "tier": "", "a": "Riviera Maya near Playa del Carmen", "d": "A 300-strong cast telling the story of Mexico through pre-Hispanic ball games, charro horsemanship, regional dance and mariachi in a vast open-air theatre. The single most crowd-pleasing evening in the region for a multi-generational group.", "lat": 20.675486, "lon": -87.023015, "p": "a"}, {"n": "Tulum cliff-top beach & Playa Paraíso", "cat": "do", "tier": "", "a": "Riviera Maya near Tulum", "d": "Beneath the ruins runs one of the Caribbean's most beautiful beaches — powder sand, palms and warm shallow water at Playa Paraíso. Combine an early ruins visit with a long swim below the temples for the classic Tulum morning.", "lat": 20.675486, "lon": -87.023015, "p": "a"}, {"n": "Kaan Luum lagoon", "cat": "do", "tier": "", "a": "Riviera Maya near Tulum", "d": "A serene turquoise lagoon ringed by a darker central cenote plunging deep into the earth, far quieter than the beach. A calm, photogenic swim and float away from the crowds, easy to fold into a Tulum day.", "lat": 20.675486, "lon": -87.023015, "p": "a"}, {"n": "Deep-sea & fly fishing charters", "cat": "do", "tier": "", "a": "Cancún / Isla Mujeres / Ascension Bay", "d": "World-class waters — offshore for sailfish, marlin and mahi-mahi from Cancún, and the flats of Ascension Bay for bonefish, tarpon and permit. A private crewed charter tailors the day from trophy fishing to a gentle family reef troll.", "lat": 21.014017, "lon": -86.790551, "p": "a"}, {"n": "Kite-surfing & watersports at Puerto Morelos / Tulum", "cat": "do", "tier": "", "a": "Riviera Maya", "d": "Steady Caribbean trade winds make this coast excellent for kite-surfing, paddleboarding and sailing, with private instructors for beginners. An active morning for the sportier members of the group while others linger over breakfast.", "lat": 21.172541, "lon": -86.857777, "p": "a"}, {"n": "Cenote Dos Ojos to Cenote Nicte-Ha, Sac Actun", "cat": "do", "tier": "", "a": "Riviera Maya near Tulum", "d": "The Sac Actun system is among the longest underwater cave networks on earth, and Nicte-Ha's lily-covered surface makes a serene, easy snorkel beside the more famous Dos Ojos. A quieter, lovelier pairing for those who want the cenotes without the crowds.", "lat": 20.675486, "lon": -87.023015, "p": "a"}, {"n": "Zapote Bar", "cat": "party", "tier": "Cocktail bars", "a": "Mayakoba (Rosewood Mayakoba)", "d": "Rosewood Mayakoba's jungle-set cocktail bar — Maya-inspired, farm-to-glass drinks built on Mexican distillates, ranked for years among the continent's best.", "lat": 21.040698, "lon": -86.881759, "p": "v"}, {"n": "Bagatelle Tulum", "cat": "party", "tier": "Late & loud", "a": "Tulum", "d": "The Saint-Tropez French-Mediterranean import on Tulum beach — rosé, long lunches and a glossy, high-energy day-into-night scene.", "lat": 21.042906, "lon": -86.854182, "p": "v"}, {"n": "Taboo Tulum", "cat": "party", "tier": "Late & loud", "a": "Tulum", "d": "Rosa Negra group's beach club — Mediterranean plates, sax-and-violin 'happenings' and Tulum's signature sundown party energy.", "lat": 21.042906, "lon": -86.854182, "p": "v"}, {"n": "Rosa Negra Beach", "cat": "party", "tier": "Late & loud", "a": "Tulum", "d": "Pan-Latin sharing plates, live percussion and sparkler-lit tables — the group's flagship beach club and one of Tulum's most-booked nights.", "lat": 21.042906, "lon": -86.854182, "p": "a"}, {"n": "Coco Bongo", "cat": "party", "tier": "Late & loud", "a": "Cancún", "d": "Cancún's legendary mega-club — acrobats, tribute acts and non-stop spectacle, the definitive high-octane night in the Hotel Zone.", "lat": 21.132897, "lon": -86.747207, "p": "v"}, {"n": "Casa del Agua bar", "cat": "party", "tier": "Rooftops", "a": "Cancún (Waldorf Astoria)", "d": "The Waldorf Astoria's poised beachfront bar — considered cocktails and Caribbean views in one of Cancún's most refined new houses.", "lat": 20.950979, "lon": -86.836823, "p": "a"}]}
+{
+  "center": [
+    21.152747,
+    -86.842576
+  ],
+  "venues": [
+    {
+      "n": "Rosewood Mayakoba",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Mayakoba (Playa del Carmen)",
+      "d": "Lagoon suites reached by boat, a Sense spa on its own island, and a hush that has held Forbes Five-Star status for years \u2014 the coast's most complete grand resort.",
+      "lat": 20.693619,
+      "lon": -87.0264,
+      "photos": []
+    },
+    {
+      "n": "Maroma, A Belmond Hotel, Riviera Maya",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Punta Maroma",
+      "d": "Belmond's beach house on one of the Caribbean's most beautiful strands \u2014 whitewashed, thatched, deeply private, recently and beautifully restored.",
+      "lat": 21.014017,
+      "lon": -86.790551,
+      "photos": []
+    },
+    {
+      "n": "Chabl\u00e9 Maroma",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Punta Maroma",
+      "d": "Freestanding jungle-and-beach villas, a spa built around a cenote, and a kitchen led by Mexico City's Jorge Vallejo \u2014 wellness and gastronomy in one hush.",
+      "lat": 20.723502,
+      "lon": -86.978884,
+      "photos": []
+    },
+    {
+      "n": "NIZUC Resort & Spa",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Canc\u00fan (Punta Nizuc)",
+      "d": "A discreet, design-led enclave on its own peninsula minutes from the airport \u2014 Forbes Five-Star, with a celebrated ESPA spa and quiet, contemporary calm.",
+      "lat": 21.177395,
+      "lon": -86.807293,
+      "photos": []
+    },
+    {
+      "n": "Banyan Tree Mayakoba",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Mayakoba (Playa del Carmen)",
+      "d": "Asian-inflected pool villas threaded through mangrove and lagoon \u2014 Banyan Tree's signature spa ritual transplanted to the Caribbean, now a Forbes Five-Star house.",
+      "lat": 20.683011,
+      "lon": -87.028916,
+      "photos": []
+    },
+    {
+      "n": "Et\u00e9reo, Auberge Resorts Collection",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Mayakoba / Playa del Carmen",
+      "d": "A serene Auberge house raised on stilts through the mangrove to a white-sand beach \u2014 spare, elemental design and a quietly excellent kitchen.",
+      "lat": 20.68617,
+      "lon": -87.028355,
+      "photos": []
+    },
+    {
+      "n": "Waldorf Astoria Cancun",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Canc\u00fan",
+      "d": "A sleek, compact Waldorf on a fine stretch of Canc\u00fan beach \u2014 173 rooms, a Maya-inspired spa and the assured service of the flag.",
+      "lat": 20.950979,
+      "lon": -86.836823,
+      "photos": []
+    },
+    {
+      "n": "Fairmont Mayakoba",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Mayakoba (Playa del Carmen)",
+      "d": "The largest of the Mayakoba houses \u2014 401 rooms across 45 acres of jungle and lagoon, with a strong spa and a genuinely family-minded run.",
+      "lat": 20.686767,
+      "lon": -87.028404,
+      "photos": []
+    },
+    {
+      "n": "Hotel Esencia",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Xpu-Ha (between Playa del Carmen and Tulum)",
+      "d": "A former duchess's beachfront estate turned intimate hideaway \u2014 the only Three-Key hotel on this coast, and its most personal luxury.",
+      "lat": 21.16692,
+      "lon": -86.804104,
+      "photos": []
+    },
+    {
+      "n": "Chabl\u00e9 (Casa Chabl\u00e9), Tulum",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Tulum",
+      "d": "An off-grid, solar-run beach camp inside the Sian Ka'an reserve \u2014 a handful of tented villas, wellness-led and utterly removed.",
+      "lat": 21.042906,
+      "lon": -86.854182,
+      "photos": []
+    },
+    {
+      "n": "Le Chique",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Riviera Maya (Hotel Xcaret Arte)",
+      "d": "Jonat\u00e1n G\u00f3mez Luna's deconstructed, theatrical Mexican tasting menu \u2014 trained through elBulli, Noma and El Celler de Can Roca, and the most ambitious kitchen on the coast.",
+      "lat": 21.138252,
+      "lon": -86.849808,
+      "photos": []
+    },
+    {
+      "n": "HA'",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Playa del Carmen (Hotel Xcaret M\u00e9xico)",
+      "d": "Carlos Gayt\u00e1n \u2014 the first Mexican chef to hold a Michelin star \u2014 cooks a water-themed nine-course journey through his native flavours in a jewel-box room.",
+      "lat": 21.144386,
+      "lon": -86.855879,
+      "photos": []
+    },
+    {
+      "n": "Cocina de Autor Riviera Maya",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Playa del Carmen (Grand Velas)",
+      "d": "Nah\u00fam Velasco's nine-course tasting menu inside Grand Velas \u2014 the coast's rare Michelin star within an all-inclusive resort, and holder of the 2025 Service Award.",
+      "lat": 20.675486,
+      "lon": -87.023015,
+      "photos": []
+    },
+    {
+      "n": "Arca",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Tulum",
+      "d": "Wood-fired, jungle-chic cooking on the Tulum beach road \u2014 open flame, local produce and one of the coast's most atmospheric rooms.",
+      "lat": 21.152747,
+      "lon": -86.842576,
+      "photos": []
+    },
+    {
+      "n": "Axiote Cocina de M\u00e9xico",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Playa del Carmen",
+      "d": "Chef-driven Mexican street flavours with real technique \u2014 vivid, generous and honestly priced, a Bib Gourmand favourite off Playa's Fifth Avenue.",
+      "lat": 21.165081,
+      "lon": -86.825556,
+      "photos": []
+    },
+    {
+      "n": "Cetli",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Tulum",
+      "d": "A tiny, home-style kitchen reinterpreting Mexican classics with the season \u2014 mole and slow-cooked dishes done with real heart.",
+      "lat": 21.152747,
+      "lon": -86.842576,
+      "photos": []
+    },
+    {
+      "n": "Mestixa",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Tulum",
+      "d": "A bright, market-led kitchen crossing Mexican produce with Asian technique \u2014 inventive, good value and a critics' Bib pick.",
+      "lat": 21.152747,
+      "lon": -86.842576,
+      "photos": []
+    },
+    {
+      "n": "Punta Corcho",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Puerto Morelos",
+      "d": "Sea-facing, produce-driven cooking in the sleepy fishing town between Canc\u00fan and Playa \u2014 a considered Bib Gourmand kitchen away from the crowds.",
+      "lat": 21.014017,
+      "lon": -86.790551,
+      "photos": []
+    },
+    {
+      "n": "Frida",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Playa del Carmen (Grand Velas)",
+      "d": "Grand Velas' ode to Mexican haute cuisine \u2014 regional classics, mezcal and a formal, romantic room beside its Michelin-starred sibling.",
+      "lat": 21.111564,
+      "lon": -86.839543,
+      "photos": []
+    },
+    {
+      "n": "Casa del Lago",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Mayakoba (Rosewood Mayakoba)",
+      "d": "Rosewood's lakeside room \u2014 Mexican by day, Italian by night \u2014 with the polish and produce of a Forbes Five-Star house.",
+      "lat": 21.060511,
+      "lon": -86.859786,
+      "photos": []
+    },
+    {
+      "n": "Zapote Kitchen",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Mayakoba (Rosewood Mayakoba)",
+      "d": "The kitchen beside Rosewood's award-winning Zapote Bar \u2014 Maya-rooted, farm-to-table cooking matched to one of the region's great drinks lists.",
+      "lat": 20.693619,
+      "lon": -87.0264,
+      "photos": []
+    },
+    {
+      "n": "Hartwood",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Tulum",
+      "d": "The wood-fired, off-grid restaurant that shaped Tulum's whole dining scene \u2014 everything cooked over open flame, the menu set by the day's catch and market.",
+      "lat": 21.152747,
+      "lon": -86.842576,
+      "photos": []
+    },
+    {
+      "n": "Posada Margherita",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Tulum",
+      "d": "A barefoot, beachfront Italian of homemade pasta and just-caught fish \u2014 the romantic, candlelit heart of old Tulum.",
+      "lat": 21.042906,
+      "lon": -86.854182,
+      "photos": []
+    },
+    {
+      "n": "Fisher's",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Playa del Carmen",
+      "d": "Mexico's most respected modern seafood house \u2014 ceviches, tostadas and grilled catch done with real freshness and buzz.",
+      "lat": 21.040698,
+      "lon": -86.881759,
+      "photos": []
+    },
+    {
+      "n": "Tulum Ruins (Zona Arqueol\u00f3gica)",
+      "cat": "do",
+      "tier": "",
+      "a": "Riviera Maya (1.5 hrs from Canc\u00fan)",
+      "d": "The only Maya city built on the sea \u2014 grey temples on a limestone cliff above a turquoise cove, El Castillo watching over the water. A photogenic, easy-walking site the whole family can do in a cool morning, then descend the wooden stairs to swim off the little beach below.",
+      "lat": 21.141111,
+      "lon": -86.853683,
+      "photos": []
+    },
+    {
+      "n": "Cob\u00e1 & the Nohoch Mul Pyramid",
+      "cat": "do",
+      "tier": "",
+      "a": "Riviera Maya (2 hrs from Canc\u00fan)",
+      "d": "A vast, still-jungled Maya city where you pedal or take a bici-taxi between temples under the canopy. Nohoch Mul, one of the peninsula's tallest pyramids, reopened for climbing in December 2025 on a new wooden staircase \u2014 the reward at the top is an ocean of unbroken rainforest.",
+      "lat": 21.172541,
+      "lon": -86.857777,
+      "photos": []
+    },
+    {
+      "n": "Museo Maya de Canc\u00fan & the El Rey ruins",
+      "cat": "do",
+      "tier": "",
+      "a": "Canc\u00fan Hotel Zone",
+      "d": "The city's serious cultural stop, minutes from the beach resorts: a purpose-built museum of Maya artefacts paired with the small seaside El Rey ruins, where iguanas sun themselves on the platforms. An easy, air-conditioned culture fix for a day when nobody wants to travel far.",
+      "lat": 21.089436,
+      "lon": -86.769922,
+      "photos": []
+    },
+    {
+      "n": "MUSA \u2014 Museo Subacu\u00e1tico de Arte (underwater museum)",
+      "cat": "do",
+      "tier": "",
+      "a": "Canc\u00fan / Isla Mujeres National Marine Park",
+      "d": "Over 500 life-size sculptures by Jason deCaires Taylor standing on the seabed, slowly turning into living reef. Snorkel the shallow Nizuc gallery, scuba the deeper Manchones one, or stay dry over a glass-bottom boat \u2014 a surreal outing that works for mixed-ability groups.",
+      "lat": 21.076264,
+      "lon": -86.846196,
+      "photos": []
+    },
+    {
+      "n": "Isla Mujeres & Punta Sur",
+      "cat": "do",
+      "tier": "",
+      "a": "Island off Canc\u00fan (20-min ferry)",
+      "d": "A slow, golf-cart island where Punta Sur \u2014 the easternmost point of Mexico \u2014 drops in sculpture-dotted cliffs to the Caribbean, with a small Maya shrine to Ixchel at the tip. Charter a private catamaran for the day and the family swims, lunches and watches the sunset without a crowd in sight.",
+      "lat": 21.014017,
+      "lon": -86.790551,
+      "photos": []
+    },
+    {
+      "n": "Playa Norte, Isla Mujeres",
+      "cat": "do",
+      "tier": "",
+      "a": "Isla Mujeres",
+      "d": "Regularly named among the Caribbean's finest beaches \u2014 flour-soft white sand and water so shallow and calm you can wade out a long way, ideal for grandparents and small children alike. Claim a shaded bed at a beach club and let the afternoon dissolve.",
+      "lat": 21.154542,
+      "lon": -86.797516,
+      "photos": []
+    },
+    {
+      "n": "Gran Cenote, Tulum",
+      "cat": "do",
+      "tier": "",
+      "a": "Riviera Maya near Tulum",
+      "d": "One of the most beautiful open-and-cavern cenotes \u2014 crystalline freshwater over pale rock, with turtles and small fish, and stalactite chambers you can snorkel into. A gentle, unforgettable introduction to the underworld the Maya held sacred.",
+      "lat": 20.675486,
+      "lon": -87.023015,
+      "photos": []
+    },
+    {
+      "n": "Dos Ojos Cenote system",
+      "cat": "do",
+      "tier": "",
+      "a": "Riviera Maya near Tulum",
+      "d": "\"Two Eyes\" \u2014 twin sapphire pools opening into one of the world's great flooded cave systems, superb for both easy snorkelling and world-class cavern diving. A private guide can tailor it from a splash for the children to a proper cave dive for the certified.",
+      "lat": 20.675486,
+      "lon": -87.023015,
+      "photos": []
+    },
+    {
+      "n": "Cenote Azul, Bacalar",
+      "cat": "do",
+      "tier": "",
+      "a": "Bacalar (South Quintana Roo)",
+      "d": "A vast, deep, startlingly blue open cenote on the shore of the Bacalar lagoon, ringed by jungle and a laid-back restaurant deck. The plunge into cool, clear water is a highlight of any Bacalar day.",
+      "lat": 21.147083,
+      "lon": -86.846523,
+      "photos": []
+    },
+    {
+      "n": "Ruta de los Cenotes, Puerto Morelos",
+      "cat": "do",
+      "tier": "",
+      "a": "Riviera Maya near Puerto Morelos",
+      "d": "A jungle road strung with dozens of cenotes \u2014 open pools, cavern swims, zip-lines and rope swings \u2014 far less trafficked than the Tulum circuit. A private driver lets you pick two or three, from a serene swim for elders to an adventure stop for teenagers.",
+      "lat": 20.854938,
+      "lon": -86.89969,
+      "photos": []
+    },
+    {
+      "n": "Xcaret eco-archaeological park",
+      "cat": "do",
+      "tier": "",
+      "a": "Riviera Maya near Playa del Carmen",
+      "d": "A polished, all-day park built around underground rivers, wildlife, and a genuinely spectacular evening show of Mexican music, dance and history. Multi-generational catnip \u2014 small children, teenagers and grandparents all find their own version of the day.",
+      "lat": 20.675486,
+      "lon": -87.023015,
+      "photos": []
+    },
+    {
+      "n": "Xel-H\u00e1 natural aquarium",
+      "cat": "do",
+      "tier": "",
+      "a": "Riviera Maya near Tulum",
+      "d": "A calm natural inlet where the freshwater river meets the sea \u2014 snorkelling among fish in glass-clear water, gentle floats and cliff jumps, with food and drink included. The most relaxed of the eco-parks, easy on non-swimmers and older travellers.",
+      "lat": 20.675486,
+      "lon": -87.023015,
+      "photos": []
+    },
+    {
+      "n": "Xplor adventure park",
+      "cat": "do",
+      "tier": "",
+      "a": "Riviera Maya near Playa del Carmen",
+      "d": "The high-adrenaline sibling \u2014 long zip-line circuits, amphibious vehicles through the jungle, and swimming and rafting through stalactite-hung underground rivers. The park teenagers and thrill-seeking adults will remember longest.",
+      "lat": 20.675486,
+      "lon": -87.023015,
+      "photos": []
+    },
+    {
+      "n": "Playa del Carmen & Quinta Avenida",
+      "cat": "do",
+      "tier": "",
+      "a": "Riviera Maya (1 hr from Canc\u00fan)",
+      "d": "The Riviera's stylish heart \u2014 a long pedestrian avenue of boutiques, mezcaler\u00edas and rooftop restaurants a block back from the sand. An easy evening of strolling, shopping and dinner, with the Cozumel ferry leaving from its pier.",
+      "lat": 21.165081,
+      "lon": -86.825556,
+      "photos": []
+    },
+    {
+      "n": "Puerto Morelos & the reef",
+      "cat": "do",
+      "tier": "",
+      "a": "Riviera Maya (30 min from Canc\u00fan)",
+      "d": "A small, unspoilt fishing town between Canc\u00fan and Playa, with a leaning lighthouse, good seafood and a protected national-park reef just offshore. The most authentic, low-key village base within easy reach of the airport.",
+      "lat": 20.829179,
+      "lon": -86.893241,
+      "photos": []
+    },
+    {
+      "n": "Akumal \u2014 swimming with sea turtles",
+      "cat": "do",
+      "tier": "",
+      "a": "Riviera Maya near Tulum",
+      "d": "\"Place of the Turtles\" \u2014 a sheltered bay where green sea turtles graze on seagrass in waist-deep water, snorkelled with a licensed guide. A wildlife encounter that reliably thrills children and adults, best booked early with a private guide to avoid the day-tripper rush.",
+      "lat": 20.675486,
+      "lon": -87.023015,
+      "photos": []
+    },
+    {
+      "n": "Sian Ka'an Biosphere Reserve",
+      "cat": "do",
+      "tier": "",
+      "a": "Riviera Maya, south of Tulum",
+      "d": "\"Where the sky is born\" \u2014 a million-plus acres of mangrove, lagoon and reef where you float the ancient Maya canals, spot dolphins, turtles and hundreds of birds. A private boat safari here is the wild, pristine counterpoint to the resort coast.",
+      "lat": 20.675486,
+      "lon": -87.023015,
+      "photos": []
+    },
+    {
+      "n": "Canc\u00fan Hotel Zone beaches & Nichupt\u00e9 Lagoon",
+      "cat": "do",
+      "tier": "",
+      "a": "Canc\u00fan Hotel Zone",
+      "d": "The famous 22-kilometre strip of white Caribbean sand backed by the calm Nichupt\u00e9 Lagoon on its inner side \u2014 swimming, catamaran sailing and sunset cruises without leaving the resort corridor. The effortless default for a day when the family just wants sea and sand.",
+      "lat": 21.134165,
+      "lon": -86.749487,
+      "photos": []
+    },
+    {
+      "n": "Private yacht or catamaran charter, Canc\u00fan\u2013Isla Mujeres",
+      "cat": "do",
+      "tier": "",
+      "a": "Canc\u00fan / Isla Mujeres",
+      "d": "The signature UHNI day here \u2014 a crewed yacht to Isla Mujeres for swimming, snorkelling the reef and an anchored lunch, entirely on your own timetable. Add a chef and it becomes the trip's most memorable, most private afternoon.",
+      "lat": 21.014017,
+      "lon": -86.790551,
+      "photos": []
+    },
+    {
+      "n": "A temazcal ceremony",
+      "cat": "do",
+      "tier": "",
+      "a": "Riviera Maya (various)",
+      "d": "The ancient Maya steam-lodge ritual, led by a shaman with herbs, chanting and darkness \u2014 a cleansing, ceremonial experience quite unlike a spa. A grounding, spiritual counterpoint to the beach, and one many Indian travellers find deeply resonant.",
+      "lat": 21.172541,
+      "lon": -86.857777,
+      "photos": []
+    },
+    {
+      "n": "Mezcal & tequila tasting",
+      "cat": "do",
+      "tier": "",
+      "a": "Playa del Carmen / Canc\u00fan",
+      "d": "A guided flight through Mexico's agave spirits, from crisp blanco tequilas to smoky artisanal mezcals, with a sommelier explaining terroir and craft. A sophisticated evening for the adults while the children are looked after at the resort.",
+      "lat": 21.165081,
+      "lon": -86.825556,
+      "photos": []
+    },
+    {
+      "n": "Luxury beach clubs of the Riviera Maya",
+      "cat": "do",
+      "tier": "",
+      "a": "Tulum / Playa del Carmen",
+      "d": "Design-led beach clubs \u2014 daybeds, ceviche, cocktails and a DJ over the turquoise water \u2014 from Tulum's boho-chic scene to Playa's polished spots. The stylish, low-effort way to spend a whole day on the sand in comfort.",
+      "lat": 21.165081,
+      "lon": -86.825556,
+      "photos": []
+    },
+    {
+      "n": "R\u00edo Secreto underground river",
+      "cat": "do",
+      "tier": "",
+      "a": "Riviera Maya near Playa del Carmen",
+      "d": "A guided wade and float through a half-flooded cave of stalactites and mirror-still water, helmet-lamps lighting formations older than the Maya. A cool, awe-inspiring hour underground that even nervous swimmers can do in a life vest.",
+      "lat": 20.675486,
+      "lon": -87.023015,
+      "photos": []
+    },
+    {
+      "n": "Cozumel \u2014 El Cielo & Palancar snorkelling",
+      "cat": "do",
+      "tier": "",
+      "a": "Cozumel island",
+      "d": "\"Heaven\" \u2014 a shallow, sandy-bottomed sandbar where dozens of starfish rest in impossibly clear water, best reached by private boat from Cozumel. A gentle, magical snorkel that suits families and non-divers.",
+      "lat": 21.146633,
+      "lon": -86.844619,
+      "photos": []
+    },
+    {
+      "n": "Xcaret M\u00e9xico Espectacular evening show",
+      "cat": "do",
+      "tier": "",
+      "a": "Riviera Maya near Playa del Carmen",
+      "d": "A 300-strong cast telling the story of Mexico through pre-Hispanic ball games, charro horsemanship, regional dance and mariachi in a vast open-air theatre. The single most crowd-pleasing evening in the region for a multi-generational group.",
+      "lat": 20.675486,
+      "lon": -87.023015,
+      "photos": []
+    },
+    {
+      "n": "Tulum cliff-top beach & Playa Para\u00edso",
+      "cat": "do",
+      "tier": "",
+      "a": "Riviera Maya near Tulum",
+      "d": "Beneath the ruins runs one of the Caribbean's most beautiful beaches \u2014 powder sand, palms and warm shallow water at Playa Para\u00edso. Combine an early ruins visit with a long swim below the temples for the classic Tulum morning.",
+      "lat": 20.675486,
+      "lon": -87.023015,
+      "photos": []
+    },
+    {
+      "n": "Kaan Luum lagoon",
+      "cat": "do",
+      "tier": "",
+      "a": "Riviera Maya near Tulum",
+      "d": "A serene turquoise lagoon ringed by a darker central cenote plunging deep into the earth, far quieter than the beach. A calm, photogenic swim and float away from the crowds, easy to fold into a Tulum day.",
+      "lat": 20.675486,
+      "lon": -87.023015,
+      "photos": []
+    },
+    {
+      "n": "Deep-sea & fly fishing charters",
+      "cat": "do",
+      "tier": "",
+      "a": "Canc\u00fan / Isla Mujeres / Ascension Bay",
+      "d": "World-class waters \u2014 offshore for sailfish, marlin and mahi-mahi from Canc\u00fan, and the flats of Ascension Bay for bonefish, tarpon and permit. A private crewed charter tailors the day from trophy fishing to a gentle family reef troll.",
+      "lat": 21.014017,
+      "lon": -86.790551,
+      "photos": []
+    },
+    {
+      "n": "Kite-surfing & watersports at Puerto Morelos / Tulum",
+      "cat": "do",
+      "tier": "",
+      "a": "Riviera Maya",
+      "d": "Steady Caribbean trade winds make this coast excellent for kite-surfing, paddleboarding and sailing, with private instructors for beginners. An active morning for the sportier members of the group while others linger over breakfast.",
+      "lat": 21.172541,
+      "lon": -86.857777,
+      "photos": []
+    },
+    {
+      "n": "Cenote Dos Ojos to Cenote Nicte-Ha, Sac Actun",
+      "cat": "do",
+      "tier": "",
+      "a": "Riviera Maya near Tulum",
+      "d": "The Sac Actun system is among the longest underwater cave networks on earth, and Nicte-Ha's lily-covered surface makes a serene, easy snorkel beside the more famous Dos Ojos. A quieter, lovelier pairing for those who want the cenotes without the crowds.",
+      "lat": 20.675486,
+      "lon": -87.023015,
+      "photos": []
+    },
+    {
+      "n": "Zapote Bar",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Mayakoba (Rosewood Mayakoba)",
+      "d": "Rosewood Mayakoba's jungle-set cocktail bar \u2014 Maya-inspired, farm-to-glass drinks built on Mexican distillates, ranked for years among the continent's best.",
+      "lat": 21.040698,
+      "lon": -86.881759,
+      "photos": []
+    },
+    {
+      "n": "Bagatelle Tulum",
+      "cat": "party",
+      "tier": "Late & loud",
+      "a": "Tulum",
+      "d": "The Saint-Tropez French-Mediterranean import on Tulum beach \u2014 ros\u00e9, long lunches and a glossy, high-energy day-into-night scene.",
+      "lat": 21.042906,
+      "lon": -86.854182,
+      "photos": []
+    },
+    {
+      "n": "Taboo Tulum",
+      "cat": "party",
+      "tier": "Late & loud",
+      "a": "Tulum",
+      "d": "Rosa Negra group's beach club \u2014 Mediterranean plates, sax-and-violin 'happenings' and Tulum's signature sundown party energy.",
+      "lat": 21.042906,
+      "lon": -86.854182,
+      "photos": []
+    },
+    {
+      "n": "Rosa Negra Beach",
+      "cat": "party",
+      "tier": "Late & loud",
+      "a": "Tulum",
+      "d": "Pan-Latin sharing plates, live percussion and sparkler-lit tables \u2014 the group's flagship beach club and one of Tulum's most-booked nights.",
+      "lat": 21.042906,
+      "lon": -86.854182,
+      "photos": []
+    },
+    {
+      "n": "Coco Bongo",
+      "cat": "party",
+      "tier": "Late & loud",
+      "a": "Canc\u00fan",
+      "d": "Canc\u00fan's legendary mega-club \u2014 acrobats, tribute acts and non-stop spectacle, the definitive high-octane night in the Hotel Zone.",
+      "lat": 21.132897,
+      "lon": -86.747207,
+      "photos": []
+    },
+    {
+      "n": "Casa del Agua bar",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "Canc\u00fan (Waldorf Astoria)",
+      "d": "The Waldorf Astoria's poised beachfront bar \u2014 considered cocktails and Caribbean views in one of Canc\u00fan's most refined new houses.",
+      "lat": 20.950979,
+      "lon": -86.836823,
+      "photos": []
+    }
+  ]
+}

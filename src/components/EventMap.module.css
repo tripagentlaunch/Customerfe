@@ -1,0 +1,44 @@
+/* The real Google Map version — rendered as an OverlayViewF img, already
+   positioned/transformed by the parent inline style (see EventMap.tsx).
+   max-width:none overrides a global `img{max-width:100%}` reset — without
+   it, the width below gets clamped to 100% of this img's *containing
+   block*, which for an absolutely-positioned img inside Maps' own overlay
+   pane can resolve to 0, collapsing the photo to a sliver. */
+.event-photo {
+  width: 420px;
+  max-width: none;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 2px solid #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.28);
+  pointer-events: none;
+}
+
+/* Fallback (no-key) version — a zero-size anchor point at the target
+   location; both the pin+label row (PlanRouteMap.module.css's .stopWrap)
+   and the photo below position themselves off this same point, so they
+   stay stacked together regardless of where the point itself sits. */
+.stop-wrap-relative {
+  position: absolute;
+}
+
+.event-photo-above {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 420px;
+  /* Same global img{max-width:100%} reset as .event-photo above — here the
+     containing block is .stop-wrap-relative, which is 0×0 (both its
+     children are position:absolute, removed from flow, so nothing sizes
+     it), collapsing the photo to a sliver without this override. */
+  max-width: none;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 2px solid var(--bone, #faf9f6);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.22);
+  /* Bottom-center anchored 22px above the pin (roughly half the pin's own
+     30px height, plus a small gap) rather than the default top-left. */
+  transform: translate(-50%, calc(-100% - 22px));
+}

@@ -1,1 +1,1368 @@
-{"center": [22.281833, 114.158283], "venues": [{"n": "Rosewood Hong Kong", "cat": "stay", "tier": "Ultra", "a": "Tsim Sha Tsui / Victoria Dockside", "d": "The best hotel in the world — a vertical estate on the Kowloon waterfront, with the whole harbour at its feet.", "lat": 22.294701, "lon": 114.175805, "p": "v"}, {"n": "The Upper House", "cat": "stay", "tier": "Ultra", "a": "Admiralty / Pacific Place", "d": "A serene, art-filled sanctuary above the city — the quietest luxury in Hong Kong.", "lat": 22.277495, "lon": 114.166391, "p": "v"}, {"n": "Mandarin Oriental, Hong Kong", "cat": "stay", "tier": "Ultra", "a": "Central", "d": "The grande dame of Central since 1963 — the address the city measures itself against.", "lat": 22.281886, "lon": 114.159396, "p": "v"}, {"n": "The Peninsula Hong Kong", "cat": "stay", "tier": "Ultra", "a": "Tsim Sha Tsui", "d": "The grand old lady of the Far East — colonnaded, colonial and utterly iconic since 1928.", "lat": 22.295066, "lon": 114.171789, "p": "v"}, {"n": "Four Seasons Hotel Hong Kong", "cat": "stay", "tier": "Ultra", "a": "Central / IFC", "d": "The surest hands in the city, above the harbour — service you never have to think about.", "lat": 22.286625, "lon": 114.156663, "p": "v"}, {"n": "The Ritz-Carlton, Hong Kong", "cat": "stay", "tier": "Ultra", "a": "West Kowloon / ICC", "d": "The world's highest hotel — floors 102 to 118 of the ICC tower, with clouds below the window.", "lat": 22.303302, "lon": 114.160178, "p": "v"}, {"n": "The St. Regis Hong Kong", "cat": "stay", "tier": "Ultra", "a": "Wan Chai", "d": "A jewel-box house of just 129 rooms — the most personal of the city's grand hotels, with butler service throughout.", "lat": 22.280156, "lon": 114.174825, "p": "v"}, {"n": "Regent Hong Kong", "cat": "stay", "tier": "Grand", "a": "Tsim Sha Tsui", "d": "The reborn waterfront legend — floor-to-ceiling harbour glass and the finest island view in the city.", "lat": 22.293893, "lon": 114.173837, "p": "v"}, {"n": "Mandarin Oriental The Landmark, Hong Kong", "cat": "stay", "tier": "Grand", "a": "Central", "d": "A discreet, design-led hideaway above the Landmark's luxury boutiques — pure Central, no harbour, all calm.", "lat": 22.280817, "lon": 114.157722, "p": "v"}, {"n": "The Murray, Hong Kong, a Niccolo Hotel", "cat": "stay", "tier": "Grand", "a": "Admiralty / Central", "d": "A 1960s modernist landmark reborn — soaring arched windows and a garden setting rare in Central.", "lat": 22.278069, "lon": 114.160122, "p": "v"}, {"n": "Grand Hyatt Hong Kong", "cat": "stay", "tier": "Grand", "a": "Wan Chai", "d": "A grand Art Deco house on the harbour, with one of the city's great outdoor pools and gardens.", "lat": 22.281268, "lon": 114.172048, "p": "v"}, {"n": "Island Shangri-La, Hong Kong", "cat": "stay", "tier": "Grand", "a": "Admiralty / Pacific Place", "d": "Old-world grandeur above Pacific Place — chandeliers, a 16-storey mural, and Petrus high in the sky.", "lat": 22.277203, "lon": 114.164467, "p": "v"}, {"n": "Kowloon Shangri-La", "cat": "stay", "tier": "Luxury", "a": "Tsim Sha Tsui East", "d": "A warm, established harbourside house on the Kowloon side — grand, generous, and reliably excellent.", "lat": 22.297054, "lon": 114.177002, "p": "v"}, {"n": "W Hong Kong", "cat": "stay", "tier": "Luxury", "a": "West Kowloon / ICC", "d": "A high-energy design tower sharing the ICC with the Ritz-Carlton — the rooftop pool is the highest in the city.", "lat": 22.304636, "lon": 114.160593, "p": "v"}, {"n": "Hotel ICON", "cat": "stay", "tier": "Premium", "a": "Tsim Sha Tsui East", "d": "A design-forward urban retreat with a vertical garden wall and a genuinely local Hong Kong soul.", "lat": 22.300802, "lon": 114.179654, "p": "v"}, {"n": "Conrad Hong Kong", "cat": "stay", "tier": "Luxury", "a": "Admiralty / Pacific Place", "d": "A polished, high-floor house above Pacific Place — dependable, central, and quietly grand.", "lat": 22.27681, "lon": 114.165275, "p": "v"}, {"n": "JW Marriott Hotel Hong Kong", "cat": "stay", "tier": "Luxury", "a": "Admiralty / Pacific Place", "d": "A capable, comfortable Pacific Place tower — big, well-run, and easy for business or family.", "lat": 22.277501, "lon": 114.166337, "p": "v"}, {"n": "The Langham, Hong Kong", "cat": "stay", "tier": "Luxury", "a": "Tsim Sha Tsui", "d": "A refined European-style house in the heart of Kowloon's shopping and dining quarter.", "lat": 22.296498, "lon": 114.169892, "p": "v"}, {"n": "The Royal Garden", "cat": "stay", "tier": "Premium", "a": "Tsim Sha Tsui East", "d": "A serene atrium-garden hotel on the Kowloon side — quietly excellent, and a local secret.", "lat": 22.298492, "lon": 114.177615, "p": "v"}, {"n": "Marco Polo Hongkong Hotel", "cat": "stay", "tier": "Premium", "a": "Tsim Sha Tsui / Harbour City", "d": "A dependable harbourfront address built into Harbour City — shopping, ferries and the Star Ferry at the door.", "lat": 22.295213, "lon": 114.168893, "p": "v"}, {"n": "The Peninsula Hong Kong — Peninsula Suite", "cat": "stay", "tier": "Ultra", "a": "Tsim Sha Tsui", "d": "Two floors, a private terrace and the harbour laid out below — the grandest suite on the Kowloon side.", "lat": 22.295066, "lon": 114.171789, "p": "v"}, {"n": "Amber", "cat": "eat", "tier": "Destination", "a": "Central (The Landmark Mandarin Oriental)", "d": "Richard Ekkebus's dairy-free, produce-led French — newly promoted to three stars after seventeen years.", "lat": 22.273131, "lon": 114.172497, "p": "v"}, {"n": "8½ Otto e Mezzo BOMBANA", "cat": "eat", "tier": "Destination", "a": "Central", "d": "Umberto Bombana's grand Italian — the only three-star Italian restaurant outside Italy.", "lat": 22.282877, "lon": 114.137859, "p": "a"}, {"n": "Caprice", "cat": "eat", "tier": "Destination", "a": "Central (Four Seasons)", "d": "French haute cuisine and a legendary cheese trolley, high over the harbour.", "lat": 22.281833, "lon": 114.158283, "p": "v"}, {"n": "Forum", "cat": "eat", "tier": "Destination", "a": "Causeway Bay", "d": "Chef Yeung Koon Yat's temple to abalone — the most revered Cantonese kitchen in the city.", "lat": 22.426064, "lon": 114.210862, "p": "v"}, {"n": "Sushi Shikon", "cat": "eat", "tier": "Destination", "a": "Sheung Wan", "d": "An Edomae omakase of the very highest order — the fish flown from Tokyo daily.", "lat": 22.340021, "lon": 114.169716, "p": "v"}, {"n": "T'ang Court", "cat": "eat", "tier": "Destination", "a": "Tsim Sha Tsui (The Langham)", "d": "Refined, classical Cantonese in a hushed silk-lined room — three stars, decades in the making.", "lat": 22.326479, "lon": 114.187024, "p": "v"}, {"n": "Ta Vie", "cat": "eat", "tier": "Destination", "a": "Central (The Pottinger)", "d": "Chef Hideaki Sato's 'travel through life' — French technique, Japanese soul, tiny and exact.", "lat": 22.282767, "lon": 114.155347, "p": "a"}, {"n": "WING", "cat": "eat", "tier": "Destination", "a": "Central", "d": "Vicky Cheng's contemporary Chinese — the second-highest a Hong Kong restaurant has ever placed in the world.", "lat": 22.28352, "lon": 114.173013, "p": "v"}, {"n": "The Chairman", "cat": "eat", "tier": "Destination", "a": "Central", "d": "Old Hong Kong Cantonese with a conscience — free-range, local, seasonal, and quietly world-beating.", "lat": 22.284653, "lon": 114.152619, "p": "v"}, {"n": "Arbor", "cat": "eat", "tier": "Destination", "a": "Central", "d": "A precise, seasonal Franco-Japanese tasting menu in a serene Central room.", "lat": 22.283159, "lon": 114.155198, "p": "v"}, {"n": "Lung King Heen", "cat": "eat", "tier": "Destination", "a": "Central (Four Seasons)", "d": "The first Chinese restaurant in the world to hold three stars — now two, still peerless Cantonese.", "lat": 22.286475, "lon": 114.15691, "p": "v"}, {"n": "Lai Ching Heen", "cat": "eat", "tier": "Destination", "a": "Tsim Sha Tsui (Regent Hong Kong)", "d": "Classical Cantonese with jade tableware and a full-frontal harbour view.", "lat": 22.293448, "lon": 114.174016, "p": "v"}, {"n": "L'Envol", "cat": "eat", "tier": "Destination", "a": "Wan Chai (The St. Regis)", "d": "Delicate, luminous French cooking in a light-filled St. Regis room.", "lat": 22.312599, "lon": 113.9173, "p": "v"}, {"n": "Bo Innovation", "cat": "eat", "tier": "Destination", "a": "Wan Chai", "d": "Alvin Leung's 'X-treme Chinese' — provocative, technical, unlike anywhere else.", "lat": 22.314493, "lon": 114.219329, "p": "v"}, {"n": "Octavium", "cat": "eat", "tier": "Destination", "a": "Central", "d": "An intimate, members'-club-feel Italian from the Bombana school — precise and grown-up.", "lat": 22.281833, "lon": 114.158283, "p": "v"}, {"n": "Rùn", "cat": "eat", "tier": "Destination", "a": "Wan Chai (The Murray)", "d": "Refined Sichuan and Cantonese in a jewel-box setting — heat handled with real finesse.", "lat": 22.312599, "lon": 113.9173, "p": "v"}, {"n": "TATE Dining Room", "cat": "eat", "tier": "Destination", "a": "Central", "d": "Vicky Lau's 'edible poetry' — a French-Chinese ode to Hong Kong, told in delicate courses.", "lat": 22.304975, "lon": 114.190166, "p": "v"}, {"n": "Tin Lung Heen", "cat": "eat", "tier": "Destination", "a": "West Kowloon (The Ritz-Carlton)", "d": "Grand Cantonese on the 102nd floor — the finest dim sum in the sky.", "lat": 22.438031, "lon": 114.024821, "p": "v"}, {"n": "Ying Jee Club", "cat": "eat", "tier": "Destination", "a": "Central", "d": "Polished, classical Cantonese from a celebrated master — quietly one of Central's best.", "lat": 22.29859, "lon": 114.241123, "p": "v"}, {"n": "Neighborhood", "cat": "eat", "tier": "Fine", "a": "Sheung Wan", "d": "David Lai's market-driven European bistro cooking — no menu, endless charm, always full.", "lat": 22.24734, "lon": 114.16745, "p": "v"}, {"n": "MONO", "cat": "eat", "tier": "Fine", "a": "Central", "d": "Ricardo Chaneton's Latin-American-accented cooking — the flavours of his roots, refined.", "lat": 22.270204, "lon": 114.149889, "p": "v"}, {"n": "Estro", "cat": "eat", "tier": "Fine", "a": "Central", "d": "Antimo Merone's ode to Campania — soulful, personal southern-Italian cooking.", "lat": 22.281833, "lon": 114.158283, "p": "v"}, {"n": "Andō", "cat": "eat", "tier": "Fine", "a": "Central", "d": "Agustin Balbi's Argentine-Spanish-Japanese kitchen — a deeply personal tasting menu.", "lat": 22.281793, "lon": 114.155334, "p": "v"}, {"n": "VEA", "cat": "eat", "tier": "Fine", "a": "Central", "d": "Vicky Cheng's original — a Chinese-French counter of great craft, above his flagship WING.", "lat": 22.284867, "lon": 114.152948, "p": "v"}, {"n": "Feuille", "cat": "eat", "tier": "Fine", "a": "Central", "d": "David Toutain protégé's plant-forward, nature-led cooking — green, precise and quietly radical.", "lat": 22.281833, "lon": 114.158283, "p": "v"}, {"n": "Xin Rong Ji", "cat": "eat", "tier": "Fine", "a": "Wan Chai", "d": "The Beijing sensation's Hong Kong outpost — pristine Taizhou seafood and yellow croaker.", "lat": 22.282127, "lon": 113.844936, "p": "v"}, {"n": "Testina", "cat": "eat", "tier": "Fine", "a": "Central", "d": "Milanese cooking done with real heart — nose-to-tail Italian, and a Bib to prove the value.", "lat": 22.281833, "lon": 114.158283, "p": "v"}, {"n": "New Punjab Club", "cat": "eat", "tier": "Fine", "a": "Central", "d": "The first Punjabi restaurant in the world to hold a Michelin star — tandoor-fired and proudly Indian.", "lat": 22.469654, "lon": 114.194366, "p": "v"}, {"n": "CHAAT", "cat": "eat", "tier": "Fine", "a": "Tsim Sha Tsui (Rosewood Hong Kong)", "d": "Chef Manav Tuli's modern Indian inside the world's best hotel — bright, spiced, beautifully judged.", "lat": 22.281833, "lon": 114.158283, "p": "v"}, {"n": "Louise", "cat": "eat", "tier": "Fine", "a": "Central (PMQ)", "d": "Julien Royer's French cooking in a restored heritage house — classical, warm, immaculate.", "lat": 22.330455, "lon": 114.181839, "p": "v"}, {"n": "Roganic", "cat": "eat", "tier": "Fine", "a": "Causeway Bay", "d": "Simon Rogan's farm-to-table ethos, translated to Hong Kong — hyper-seasonal and green.", "lat": 22.281833, "lon": 114.158283, "p": "v"}, {"n": "Petrus", "cat": "eat", "tier": "Destination", "a": "Admiralty (Island Shangri-La)", "d": "Grand French dining on the 56th floor — chandeliers, a great wine list, and the harbour beyond.", "lat": 22.479197, "lon": 114.062797, "p": "v"}, {"n": "Gaddi's", "cat": "eat", "tier": "Destination", "a": "Tsim Sha Tsui (The Peninsula)", "d": "The most storied French dining room in Asia — grand, gilded, and going strong since 1953.", "lat": 22.420184, "lon": 114.207915, "p": "v"}, {"n": "Cristal Room by Anne-Sophie Pic", "cat": "eat", "tier": "Destination", "a": "Tsim Sha Tsui (K11 MUSEA)", "d": "Anne-Sophie Pic's delicate, aromatic French in a Baccarat-crystal setting overlooking the harbour.", "lat": 22.29457, "lon": 114.174559, "p": "a"}, {"n": "Man Wah", "cat": "eat", "tier": "Fine", "a": "Central (Mandarin Oriental)", "d": "Refined Cantonese on the 25th floor of the grande dame — a jewel-box of a dining room.", "lat": 22.308113, "lon": 114.166, "p": "v"}, {"n": "Spring Moon", "cat": "eat", "tier": "Fine", "a": "Tsim Sha Tsui (The Peninsula)", "d": "Art Deco Cantonese in the Peninsula — dim sum, roast goose and a famous tea menu.", "lat": 22.372917, "lon": 114.112619, "p": "v"}, {"n": "Shang Palace", "cat": "eat", "tier": "Fine", "a": "Tsim Sha Tsui (Kowloon Shangri-La)", "d": "Sumptuous, red-and-gold classical Cantonese — a grand-hotel banquet done properly.", "lat": 22.277203, "lon": 114.164467, "p": "v"}, {"n": "Yardbird", "cat": "eat", "tier": "Smart", "a": "Sheung Wan", "d": "The yakitori izakaya that changed how Hong Kong eats out — every part of the bird, no reservations.", "lat": 22.281833, "lon": 114.158283, "p": "v"}, {"n": "Beefbar", "cat": "eat", "tier": "Fine", "a": "Tsim Sha Tsui", "d": "A glamorous temple to the world's finest beef, in a heritage former bank hall.", "lat": 22.28001, "lon": 114.157399, "p": "v"}, {"n": "BELON", "cat": "eat", "tier": "Fine", "a": "Sheung Wan", "d": "A neo-Parisian bistro of real soul — the roast chicken has a devoted following.", "lat": 22.282976, "lon": 114.152525, "p": "v"}, {"n": "Kam's Roast Goose", "cat": "eat", "tier": "Smart", "a": "Wan Chai", "d": "A one-star roast-goose shop from the Yung Kee dynasty — crisp skin, no ceremony, always a queue.", "lat": 22.27766, "lon": 114.1753, "p": "v"}, {"n": "Yat Lok", "cat": "eat", "tier": "Casual", "a": "Central", "d": "A tiny, tiled roast-goose canteen with a Michelin star — the roast goose over rice is the reason.", "lat": 22.361849, "lon": 114.11405, "p": "v"}, {"n": "Ho Hung Kee", "cat": "eat", "tier": "Casual", "a": "Causeway Bay", "d": "A congee-and-noodle institution since the 1940s — wonton noodles that earned a star.", "lat": 22.315443, "lon": 113.935832, "p": "v"}, {"n": "Ho Lee Fook", "cat": "eat", "tier": "Smart", "a": "Central (SoHo)", "d": "Modern Cantonese comfort food with swagger — the wagyu short rib and roast goose bring the crowds.", "lat": 22.283005, "lon": 114.152542, "p": "v"}, {"n": "Carbone", "cat": "eat", "tier": "Fine", "a": "Central (LKF)", "d": "The New York Italian-American theatre — tableside caesar, veal parm, and a room that never quietens.", "lat": 22.280441, "lon": 114.155118, "p": "a"}, {"n": "Involtini", "cat": "eat", "tier": "Smart", "a": "Sai Ying Pun", "d": "Honest, generous Sicilian home cooking in a warm neighbourhood room.", "lat": 22.28036, "lon": 114.181631, "p": "v"}, {"n": "Chesa", "cat": "eat", "tier": "Smart", "a": "Tsim Sha Tsui (The Peninsula)", "d": "The Peninsula's tiny Swiss chalet — fondue and raclette, unchanged and beloved for decades.", "lat": 22.281833, "lon": 114.158283, "p": "v"}, {"n": "Luk Yu Tea House", "cat": "eat", "tier": "Smart", "a": "Central", "d": "A 1930s Cantonese tea house frozen in time — trolley dim sum, teak booths, living history.", "lat": 22.282254, "lon": 114.155578, "p": "v"}, {"n": "One Harbour Road", "cat": "eat", "tier": "Fine", "a": "Wan Chai (Grand Hyatt)", "d": "Refined Cantonese in a 1930s-Shanghai-tai-pan-mansion setting, overlooking the harbour.", "lat": 22.286952, "lon": 114.133055, "p": "v"}, {"n": "Mandarin Grill + Bar", "cat": "eat", "tier": "Destination", "a": "Central (Mandarin Oriental)", "d": "The grande dame's grill — a Terence Conran room, a seafood bar, and old-Hong-Kong glamour.", "lat": 22.281886, "lon": 114.159396, "p": "v"}, {"n": "Fook Lam Moon", "cat": "eat", "tier": "Fine", "a": "Wan Chai", "d": "The 'tycoons' canteen' — old-money Cantonese banqueting, abalone and roast suckling pig.", "lat": 22.301039, "lon": 114.174732, "p": "v"}, {"n": "Duddell's", "cat": "eat", "tier": "Fine", "a": "Central", "d": "An art-filled Cantonese salon with a garden terrace — dim sum among rotating exhibitions.", "lat": 22.314673, "lon": 113.934091, "p": "v"}, {"n": "Summer Palace", "cat": "eat", "tier": "Fine", "a": "Admiralty (Island Shangri-La)", "d": "Opulent, classical Cantonese in a grand-hotel room — a benchmark for the old-school banquet.", "lat": 22.427156, "lon": 114.080558, "p": "v"}, {"n": "Sun Tung Lok", "cat": "eat", "tier": "Fine", "a": "Tsim Sha Tsui", "d": "A long-revered name for abalone, seafood and refined Cantonese classics.", "lat": 22.446825, "lon": 114.030198, "p": "v"}, {"n": "Hansik Goo", "cat": "eat", "tier": "Fine", "a": "Central", "d": "A modern Korean 'hansik' tasting menu of real refinement — the best Korean fine dining in town.", "lat": 22.280558, "lon": 114.23049, "p": "v"}, {"n": "Victoria Peak & the Peak Tram", "cat": "do", "tier": "", "a": "The Peak, Hong Kong Island", "d": "Ride Asia's oldest funicular (1888) up the mountainside, then walk the flat 3.5km Peak Circle Walk for the postcard sweep over the harbour and skyscraper canyon. Come at dusk to catch the towers switch on; a private car and skip-the-line tram booking spares the family the notorious queue.", "lat": 22.271123, "lon": 114.150141, "p": "v"}, {"n": "Star Ferry across Victoria Harbour", "cat": "do", "tier": "", "a": "Tsim Sha Tsui / Central", "d": "The green-and-white ferries have crossed the harbour since 1888 and remain the cheapest, most cinematic ride in the city. Sit on the open upper deck between Tsim Sha Tsui and Central at sunset with the whole skyline gliding past on both sides.", "lat": 22.293149, "lon": 114.202021, "p": "v"}, {"n": "A Symphony of Lights", "cat": "do", "tier": "", "a": "Tsim Sha Tsui Waterfront", "d": "Every night at 8pm, around 40 buildings on both sides of the harbour perform a synchronised light-and-laser show. Watch from the Tsim Sha Tsui promenade or, for a private angle, book a junk cruise so the family sees it from the water.", "lat": 22.290617, "lon": 114.167647, "p": "v"}, {"n": "Tsim Sha Tsui Promenade & Avenue of Stars", "cat": "do", "tier": "", "a": "Tsim Sha Tsui", "d": "A breezy harbour-front walk with the finest head-on view of Hong Kong Island's skyline, past the Bruce Lee statue and handprints of Cantonese cinema legends. Ends near the Clock Tower, a lone relic of the old Kowloon railway terminus.", "lat": 22.29527, "lon": 114.176158, "p": "v"}, {"n": "M+ Museum", "cat": "do", "tier": "", "a": "West Kowloon Cultural District", "d": "Herzog & de Meuron's vast museum of 20th- and 21st-century visual culture — design, moving image, architecture and Asian contemporary art — with a giant LED facade facing the harbour. One of the largest museums of modern visual culture in the world; the rooftop and harbour-view galleries reward an unhurried afternoon.", "lat": 22.448333, "lon": 114.163737, "p": "v"}, {"n": "Hong Kong Palace Museum", "cat": "do", "tier": "", "a": "West Kowloon Cultural District", "d": "A striking golden building showing treasures on rotating loan from Beijing's Forbidden City — imperial jade, ceramics, paintings and court life — curated for a modern audience. Pairs naturally with M+ next door for a full culture day.", "lat": 22.301539, "lon": 114.156198, "p": "v"}, {"n": "Tai Kwun — Centre for Heritage & Arts", "cat": "do", "tier": "", "a": "Central", "d": "The beautifully restored former Central Police Station, Magistracy and Victoria Prison, now a compound of galleries, courtyards, boutiques and restaurants. Wander the granite cells and colonial verandahs, then eat well; it is one of the city's most discreet, unhurried spots.", "lat": 22.315286, "lon": 114.225397, "p": "v"}, {"n": "Man Mo Temple", "cat": "do", "tier": "", "a": "Sheung Wan", "d": "Hong Kong's most atmospheric temple, dedicated to the gods of literature and war, its dim hall hazed with enormous hanging incense coils. A short, calm stop on the way up steep Ladder Street and Hollywood Road's antique galleries.", "lat": 22.448961, "lon": 114.164422, "p": "v"}, {"n": "Tian Tan Buddha (Big Buddha) & Po Lin Monastery", "cat": "do", "tier": "", "a": "Ngong Ping, Lantau Island", "d": "Climb 268 steps to the world's largest outdoor seated bronze Buddha, serene above the Lantau hills, beside the century-old Po Lin Monastery. The monastery's famous vegetarian canteen is fully veg and Jain-friendly-adjacent — a rare, easy meal for plant-based families.", "lat": 22.255803, "lon": 113.90416, "p": "a"}, {"n": "Ngong Ping 360 Cable Car", "cat": "do", "tier": "", "a": "Tung Chung, Lantau Island", "d": "A 25-minute glass-cabin glide over the sea, the airport and North Lantau's green ridges to Ngong Ping village and the Big Buddha. Splurge on a Crystal Cabin with a glass floor; the panorama is the reason to come even before the Buddha.", "lat": 22.277568, "lon": 113.917303, "p": "v"}, {"n": "Dragon's Back Trail", "cat": "do", "tier": "", "a": "Shek O / Southern District, Hong Kong Island", "d": "The city's most loved ridge hike — a gentle, undulating spine with sweeping views over Shek O, Tai Long Wan and the South China Sea, ending at a beach. Around 8km and family-doable; a driver can meet you at the Big Wave Bay end.", "lat": 22.235218, "lon": 114.241083, "p": "v"}, {"n": "Hong Kong UNESCO Global Geopark", "cat": "do", "tier": "", "a": "Sai Kung & Northeast New Territories", "d": "Extraordinary hexagonal volcanic rock columns and sea-carved sedimentary formations across the eastern New Territories, best seen by boat from Sai Kung. Charter a private sampan or junk to reach the sea arches and coves in comfort.", "lat": 22.500311, "lon": 114.358182, "p": "v"}, {"n": "Sai Kung & the East Country Parks", "cat": "do", "tier": "", "a": "Sai Kung, New Territories", "d": "A relaxed fishing town with a live seafood harbour-front, gateway to Hong Kong's cleanest beaches and the MacLehose Trail. Hire a boat to Tai Long Wan's white-sand bays — the closest thing the city has to a private island day.", "lat": 22.397217, "lon": 114.347824, "p": "v"}, {"n": "Wong Tai Sin Temple", "cat": "do", "tier": "", "a": "Wong Tai Sin, Kowloon", "d": "A vivid, busy Taoist temple where worshippers shake fortune sticks and consult soothsayers, surrounded by a serene Good Wish Garden and koi ponds. Said to 'make every wish come true' — a colourful, welcoming stop for multi-generational visitors.", "lat": 22.342818, "lon": 114.193551, "p": "v"}, {"n": "Chi Lin Nunnery & Nan Lian Garden", "cat": "do", "tier": "", "a": "Diamond Hill, Kowloon", "d": "A vast Tang-dynasty-style wooden monastery built without a single nail, beside a meticulously landscaped classical garden with a golden pavilion and lotus ponds. Utterly tranquil, free, and home to a refined vegetarian restaurant behind a waterfall.", "lat": 22.339355, "lon": 114.204853, "p": "v"}, {"n": "Temple Street Night Market", "cat": "do", "tier": "", "a": "Yau Ma Tei / Jordan, Kowloon", "d": "Kowloon's classic after-dark bazaar of stalls, fortune-tellers, Cantonese opera singers and open-air dai pai dong seafood. Loud, theatrical and full of old-Hong-Kong character; go early evening with the family before the crowds thicken.", "lat": 22.306397, "lon": 114.169965, "p": "v"}, {"n": "Sham Shui Po", "cat": "do", "tier": "", "a": "Sham Shui Po, Kowloon", "d": "The city's grittiest, most authentic district — fabric and bead streets, electronics arcades, and some of Hong Kong's best cheap eats and third-wave coffee. A design-lover's treasure hunt; go with a guide to find the Michelin-listed street food.", "lat": 22.329757, "lon": 114.160851, "p": "v"}, {"n": "Hollywood Road & Cat Street antiques", "cat": "do", "tier": "", "a": "Sheung Wan / Central", "d": "Hong Kong's antiques spine, lined with serious dealers in Ming ceramics, jade and Chinese furniture, plus the flea-market bric-a-brac of Cat Street (Upper Lascar Row). The place for collectors to source with provenance and arrange discreet shipping home.", "lat": 22.284998, "lon": 114.149107, "p": "v"}, {"n": "PMQ", "cat": "do", "tier": "", "a": "Central / Sheung Wan", "d": "A former police married-quarters block reborn as a hive of independent Hong Kong designers, jewellers and craft studios. Ideal for finding one-of-a-kind gifts and meeting the makers, with a quiet courtyard cafe to regroup.", "lat": 22.283274, "lon": 114.151846, "p": "v"}, {"n": "Central–Mid-Levels Escalator & SoHo", "cat": "do", "tier": "", "a": "Central", "d": "Ride the world's longest outdoor covered escalator system uphill through the layered lanes of SoHo and NoHo, hopping off for galleries, wine bars and global restaurants. The easiest way to graze Central's dense dining scene on foot.", "lat": 22.281429, "lon": 114.152777, "p": "v"}, {"n": "Ding Ding — Hong Kong Tramways", "cat": "do", "tier": "", "a": "North Shore, Hong Kong Island", "d": "Board a double-decker tram — running since 1904 — and ride the whole north shore from Kennedy Town to Shau Kei Wan for the price of a coffee. Grab the front upper-deck seat for a slow, open-window film reel of street life.", "lat": 22.278651, "lon": 114.163779, "p": "v"}, {"n": "Lamma Island", "cat": "do", "tier": "", "a": "Lamma Island (Outlying Islands)", "d": "A car-free island of green hills, a gentle family walk between Yung Shue Wan and Sok Kwu Wan, and waterfront seafood restaurants at the end. A slow, restorative half-day escape barely 30 minutes by ferry from Central.", "lat": 22.209453, "lon": 114.149727, "p": "v"}, {"n": "Cheung Chau Island", "cat": "do", "tier": "", "a": "Cheung Chau (Outlying Islands)", "d": "A dumbbell-shaped fishing island with a bustling harbour, seafood shacks, a small beach and pirate-cave legends, plus the springtime Bun Festival. Rent bikes and let children roam the car-free lanes; utterly unhurried.", "lat": 22.209625, "lon": 114.029569, "p": "v"}, {"n": "Tai O fishing village", "cat": "do", "tier": "", "a": "Lantau Island", "d": "A photogenic stilt-house village on Lantau's west coast, where Tanka fishing families live over the water and shops sell dried seafood and shrimp paste. Take a short boat ride to spot pink dolphins, then stay across the water at the heritage Tai O Heritage Hotel.", "lat": 22.254152, "lon": 113.86362, "p": "v"}, {"n": "Ping Shan Heritage Trail", "cat": "do", "tier": "", "a": "Yuen Long, New Territories", "d": "Hong Kong's first heritage trail winds through 900 years of Tang-clan history — ancestral halls, a study hall and the territory's only ancient pagoda, the Tsui Sing Lau. A quiet window into pre-colonial walled-village life, far from the tourist crush.", "lat": 22.288671, "lon": 114.152437, "p": "v"}, {"n": "Hong Kong Museum of History", "cat": "do", "tier": "", "a": "Tsim Sha Tsui", "d": "The excellent 'Hong Kong Story' walk-through — from prehistoric coastline to fishing villages, opium wars and the modern metropolis, with life-size street recreations. The single best hour for grounding the family in how this city came to be.", "lat": 22.301939, "lon": 114.177413, "p": "v"}, {"n": "Hong Kong Museum of Art", "cat": "do", "tier": "", "a": "Tsim Sha Tsui", "d": "A refreshed, harbour-facing museum of Chinese antiquities, ink painting, and the superb Chih Lo Lou classical Chinese art collection. Calm, air-conditioned galleries with the skyline framed through the windows.", "lat": 22.29353, "lon": 114.172031, "p": "v"}, {"n": "Flagstaff House Museum of Tea Ware", "cat": "do", "tier": "", "a": "Admiralty / Hong Kong Park", "d": "Hong Kong's oldest surviving colonial building, now a jewel-box museum of Chinese tea culture and Yixing teapots inside leafy Hong Kong Park. Combine with the park's aviary and conservatory for an easy, shaded family morning.", "lat": 22.278317, "lon": 114.162558, "p": "v"}, {"n": "Ocean Park", "cat": "do", "tier": "", "a": "Aberdeen, Southern District", "d": "A cliffside marine-and-thrills park spread over a headland, linked by cable car and funicular, with pandas, an enormous aquarium and roller coasters over the sea. A classic full family day for younger children and teens alike.", "lat": 22.234767, "lon": 114.170817, "p": "v"}, {"n": "Hong Kong Disneyland", "cat": "do", "tier": "", "a": "Lantau Island", "d": "A compact, well-run Disney park with the world's only Mystic Manor and a growing 'World of Frozen' land. Stay at a park hotel and use a VIP tour host so multi-generational groups skip the queues entirely.", "lat": 22.31307, "lon": 114.040985, "p": "v"}, {"n": "Aberdeen Harbour & sampan ride", "cat": "do", "tier": "", "a": "Aberdeen, Southern District", "d": "Once a floating fishing community, still crowded with junks and yachts; take a traditional sampan among the boats for a glimpse of old maritime Hong Kong. A short, atmospheric ride that grandparents especially enjoy.", "lat": 22.247409, "lon": 114.157727, "p": "v"}, {"n": "Stanley & Stanley Market", "cat": "do", "tier": "", "a": "Stanley, Southern District", "d": "A relaxed seaside town on the island's south coast with a lanes-and-stalls market, breezy waterfront restaurants and the transplanted colonial Murray House. A soft, sunny counterpoint to the city's density.", "lat": 22.218298, "lon": 114.212537, "p": "v"}, {"n": "Repulse Bay & the Southern beaches", "cat": "do", "tier": "", "a": "Repulse Bay, Southern District", "d": "The island's most fashionable crescent of sand, backed by the wave-shaped Repulse Bay building and the kitsch-but-fun Tin Hau shrine at its eastern end. Genteel, family-safe swimming with beach-club lunching nearby.", "lat": 22.239417, "lon": 114.195581, "p": "v"}, {"n": "Kowloon Walled City Park", "cat": "do", "tier": "", "a": "Kowloon City", "d": "A serene Jiangnan-style garden built on the site of the infamous, now-demolished Walled City — the densest place on earth — with a small museum explaining its lawless past. A quiet, curious stop after nearby Kowloon City's Thai and Chiu Chow food.", "lat": 22.332129, "lon": 114.190245, "p": "v"}, {"n": "Ten Thousand Buddhas Monastery", "cat": "do", "tier": "", "a": "Sha Tin, New Territories", "d": "Climb a hillside path flanked by hundreds of individually posed, life-size golden arhat statues to a hall lined with roughly 13,000 small Buddha figures. Offbeat, uncrowded and genuinely memorable; wear good shoes for the steps.", "lat": 22.387997, "lon": 114.184949, "p": "v"}, {"n": "Sik Sik Yuen & the Sha Tin racecourse experience", "cat": "do", "tier": "", "a": "Sha Tin, New Territories", "d": "Hong Kong's grand racecourse hosts world-class Wednesday-night and weekend meets in an electric, food-filled atmosphere. Book a members' box or Chinese-cuisine viewing suite for a discreet, catered evening at the heart of the city's oldest passion.", "lat": 22.41129, "lon": 114.211235, "p": "a"}, {"n": "Lan Kwai Fong & Central nightlife", "cat": "do", "tier": "", "a": "Central", "d": "The compact hillside of bars, izakayas and rooftops that empties the offices after dark, ringed by SoHo's more grown-up drinking dens. For a refined evening, aim instead at the harbour-view speakeasies and hotel bars just downhill.", "lat": 22.280839, "lon": 114.155381, "p": "v"}, {"n": "Ozone Bar, The Ritz-Carlton", "cat": "do", "tier": "", "a": "West Kowloon (ICC)", "d": "One of the world's highest bars, on the 118th floor of the ICC tower, with the entire harbour and Hong Kong Island laid out below. A memorable sundowner; reserve a window table well ahead.", "lat": 22.303302, "lon": 114.160178, "p": "v"}, {"n": "Sky100 Observation Deck", "cat": "do", "tier": "", "a": "West Kowloon (ICC)", "d": "A 360-degree indoor observation deck on the 100th floor of Hong Kong's tallest building, the best all-weather panorama when the Peak is cloud-covered. Easy and step-free — good for less mobile family members.", "lat": 22.317756, "lon": 113.930134, "p": "v"}, {"n": "Cantonese dim sum & tea houses", "cat": "do", "tier": "", "a": "Citywide (Central, Sheung Wan, Kowloon)", "d": "Yum cha — the ritual of tea and small plates — is Hong Kong's culinary soul, from trolley-service old-timers to Michelin-starred rooms. Ask an advisor to book a private room and pre-arrange vegetarian and Jain-suitable dishes so nothing is a compromise.", "lat": 22.286516, "lon": 114.150208, "p": "a"}, {"n": "Choi Hung Estate & Instagram Hong Kong", "cat": "do", "tier": "", "a": "Wong Tai Sin, Kowloon", "d": "The rainbow-painted 1960s public-housing estate with its basketball courts has become an icon of graphic Hong Kong. One of a cluster of striking modernist estates (with Montane Mansion's 'Monster Building') that photographers seek out.", "lat": 22.335505, "lon": 114.206214, "p": "v"}, {"n": "Hong Kong Wetland Park", "cat": "do", "tier": "", "a": "Tin Shui Wai, New Territories", "d": "A large, well-designed reserve of mangroves, mudflats and boardwalks alive with migratory birds, mudskippers and a resident crocodile. Buggy-friendly and shaded — a genuinely restful nature morning for families with small children.", "lat": 22.468391, "lon": 114.007515, "p": "v"}, {"n": "Peak-to-Aberdeen & Pok Fu Lam heritage walk", "cat": "do", "tier": "", "a": "Southern District, Hong Kong Island", "d": "Quiet country trails link the Peak down through Pok Fu Lam past a colonial dairy-farm village and reservoir to the coast. A gentler alternative to Dragon's Back, ending near the seafood of Aberdeen.", "lat": 22.234767, "lon": 114.170817, "p": "a"}, {"n": "Junk cruise on Victoria Harbour", "cat": "do", "tier": "", "a": "Victoria Harbour", "d": "Charter a red-sailed junk or a private motor yacht to drift through the harbour at golden hour, drinks in hand, the skyline turning on around you. The city's signature private experience — book the whole boat for the family.", "lat": 22.287143, "lon": 114.150083, "p": "v"}, {"n": "Macau day trip — Historic Centre", "cat": "do", "tier": "", "a": "Macau (day trip)", "d": "An hour by fast ferry to a Portuguese-Chinese old town of pastel churches, the Ruins of St Paul's, cobbled Senado Square and A-Ma Temple — plus egg tarts and world-class casino resorts. Skip the gaming floors for a private heritage-and-dining day, or the reverse.", "lat": 22.314529, "lon": 113.947245, "p": "a"}, {"n": "Bar Leone", "cat": "party", "tier": "Cocktail bars", "a": "Central", "d": "Lorenzo Antinori's 'popular Roman bar' — unfussy Italian aperitivi, done so well it became the finest bar on earth.", "lat": 22.283555, "lon": 114.150946, "p": "v"}, {"n": "Coa", "cat": "party", "tier": "Cocktail bars", "a": "Central (SoHo)", "d": "Jay Khan's temple to agave — 200-plus tequilas and mezcals, and hospitality that redefined the Asian bar.", "lat": 22.282675, "lon": 114.23506, "p": "v"}, {"n": "Argo", "cat": "party", "tier": "Landmark bars", "a": "Central", "d": "The Four Seasons' flagship bar — a sustainability-led cocktail programme and rare spirits, poured with hotel-grade polish.", "lat": 22.282877, "lon": 114.137859, "p": "a"}, {"n": "Penicillin", "cat": "party", "tier": "Cocktail bars", "a": "Central (SoHo)", "d": "The world's first closed-loop sustainable bar — house ferments, zero waste, and a serious cocktail behind the ethic.", "lat": 22.281833, "lon": 114.158283, "p": "v"}, {"n": "The Old Man", "cat": "party", "tier": "Cocktail bars", "a": "Central (SoHo)", "d": "A Hemingway-inspired snug of literary cocktails — once the best bar in Asia, and still a rite of passage.", "lat": 22.282778, "lon": 114.151713, "p": "v"}, {"n": "Quinary", "cat": "party", "tier": "Cocktail bars", "a": "Central", "d": "Antonio Lai's laboratory — the birthplace of molecular mixology in Hong Kong, all foams, mists and multisensory theatre.", "lat": 22.282731, "lon": 114.152851, "p": "v"}, {"n": "DarkSide", "cat": "party", "tier": "Late & loud", "a": "Tsim Sha Tsui (Rosewood Hong Kong)", "d": "A velvet-and-Murano jazz parlour of dark spirits, cigars and live music — the most glamorous late night on the Kowloon side.", "lat": 22.281833, "lon": 114.158283, "p": "v"}, {"n": "Ozone", "cat": "party", "tier": "Rooftops", "a": "West Kowloon (The Ritz-Carlton)", "d": "The world's highest bar, on the 118th floor of the ICC — cocktails in the clouds, with the whole harbour far below.", "lat": 22.303251, "lon": 114.160246, "p": "v"}, {"n": "Aqua", "cat": "party", "tier": "Rooftops", "a": "Tsim Sha Tsui", "d": "A double-height glass room and terrace on the 30th floor of One Peking — the classic full-frontal skyline view with a drink in hand.", "lat": 22.270641, "lon": 114.127867, "p": "v"}, {"n": "The Aubrey", "cat": "party", "tier": "Landmark bars", "a": "Central (Mandarin Oriental)", "d": "A theatrical Japanese-inspired izakaya-bar in the grande dame — jewel-box interiors and one of the city's best cocktail lists.", "lat": 22.420184, "lon": 114.207915, "p": "v"}, {"n": "The Savory Project", "cat": "party", "tier": "Cocktail bars", "a": "Central (SoHo)", "d": "A tiny bar built entirely on savoury, umami-driven cocktails — the most inventive drinking in the city right now.", "lat": 22.420184, "lon": 114.207915, "p": "v"}, {"n": "Sevva", "cat": "party", "tier": "Rooftops", "a": "Central", "d": "Bonnae Gokson's rooftop terrace atop Prince's Building — wrapped around the towers of Central, glamorous and enduring.", "lat": 22.282129, "lon": 114.15952, "p": "v"}, {"n": "The Envoy", "cat": "party", "tier": "Landmark bars", "a": "Central (The Pottinger)", "d": "A polished terrace bar above Stanley Street with a classic-cocktail pedigree — old-Hong-Kong elegance, done properly.", "lat": 22.28288, "lon": 114.15544, "p": "v"}, {"n": "Lobby Lounge & Felix, The Peninsula", "cat": "party", "tier": "Landmark bars", "a": "Tsim Sha Tsui (The Peninsula)", "d": "A drink at the grande dame of Kowloon — the Lobby by day, Philippe Starck's 28th-floor Felix by night, harbour spread below.", "lat": 22.371692, "lon": 113.989221, "p": "v"}, {"n": "Lan Kwai Fong", "cat": "party", "tier": "Late & loud", "a": "Central (LKF)", "d": "The city's original nightlife quarter — a hillside of bars and clubs that spills into the street. Loud, packed, unmissable once.", "lat": 22.280839, "lon": 114.155381, "p": "v"}]}
+{
+  "center": [
+    22.281833,
+    114.158283
+  ],
+  "venues": [
+    {
+      "n": "Rosewood Hong Kong",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Tsim Sha Tsui / Victoria Dockside",
+      "d": "The best hotel in the world \u2014 a vertical estate on the Kowloon waterfront, with the whole harbour at its feet.",
+      "lat": 22.294701,
+      "lon": 114.175805,
+      "photos": []
+    },
+    {
+      "n": "The Upper House",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Admiralty / Pacific Place",
+      "d": "A serene, art-filled sanctuary above the city \u2014 the quietest luxury in Hong Kong.",
+      "lat": 22.277495,
+      "lon": 114.166391,
+      "photos": []
+    },
+    {
+      "n": "Mandarin Oriental, Hong Kong",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Central",
+      "d": "The grande dame of Central since 1963 \u2014 the address the city measures itself against.",
+      "lat": 22.281886,
+      "lon": 114.159396,
+      "photos": []
+    },
+    {
+      "n": "The Peninsula Hong Kong",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Tsim Sha Tsui",
+      "d": "The grand old lady of the Far East \u2014 colonnaded, colonial and utterly iconic since 1928.",
+      "lat": 22.295066,
+      "lon": 114.171789,
+      "photos": []
+    },
+    {
+      "n": "Four Seasons Hotel Hong Kong",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Central / IFC",
+      "d": "The surest hands in the city, above the harbour \u2014 service you never have to think about.",
+      "lat": 22.286625,
+      "lon": 114.156663,
+      "photos": []
+    },
+    {
+      "n": "The Ritz-Carlton, Hong Kong",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "West Kowloon / ICC",
+      "d": "The world's highest hotel \u2014 floors 102 to 118 of the ICC tower, with clouds below the window.",
+      "lat": 22.303302,
+      "lon": 114.160178,
+      "photos": []
+    },
+    {
+      "n": "The St. Regis Hong Kong",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Wan Chai",
+      "d": "A jewel-box house of just 129 rooms \u2014 the most personal of the city's grand hotels, with butler service throughout.",
+      "lat": 22.280156,
+      "lon": 114.174825,
+      "photos": []
+    },
+    {
+      "n": "Regent Hong Kong",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Tsim Sha Tsui",
+      "d": "The reborn waterfront legend \u2014 floor-to-ceiling harbour glass and the finest island view in the city.",
+      "lat": 22.293893,
+      "lon": 114.173837,
+      "photos": []
+    },
+    {
+      "n": "Mandarin Oriental The Landmark, Hong Kong",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Central",
+      "d": "A discreet, design-led hideaway above the Landmark's luxury boutiques \u2014 pure Central, no harbour, all calm.",
+      "lat": 22.280817,
+      "lon": 114.157722,
+      "photos": []
+    },
+    {
+      "n": "The Murray, Hong Kong, a Niccolo Hotel",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Admiralty / Central",
+      "d": "A 1960s modernist landmark reborn \u2014 soaring arched windows and a garden setting rare in Central.",
+      "lat": 22.278069,
+      "lon": 114.160122,
+      "photos": []
+    },
+    {
+      "n": "Grand Hyatt Hong Kong",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Wan Chai",
+      "d": "A grand Art Deco house on the harbour, with one of the city's great outdoor pools and gardens.",
+      "lat": 22.281268,
+      "lon": 114.172048,
+      "photos": []
+    },
+    {
+      "n": "Island Shangri-La, Hong Kong",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Admiralty / Pacific Place",
+      "d": "Old-world grandeur above Pacific Place \u2014 chandeliers, a 16-storey mural, and Petrus high in the sky.",
+      "lat": 22.277203,
+      "lon": 114.164467,
+      "photos": []
+    },
+    {
+      "n": "Kowloon Shangri-La",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Tsim Sha Tsui East",
+      "d": "A warm, established harbourside house on the Kowloon side \u2014 grand, generous, and reliably excellent.",
+      "lat": 22.297054,
+      "lon": 114.177002,
+      "photos": []
+    },
+    {
+      "n": "W Hong Kong",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "West Kowloon / ICC",
+      "d": "A high-energy design tower sharing the ICC with the Ritz-Carlton \u2014 the rooftop pool is the highest in the city.",
+      "lat": 22.304636,
+      "lon": 114.160593,
+      "photos": []
+    },
+    {
+      "n": "Hotel ICON",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Tsim Sha Tsui East",
+      "d": "A design-forward urban retreat with a vertical garden wall and a genuinely local Hong Kong soul.",
+      "lat": 22.300802,
+      "lon": 114.179654,
+      "photos": []
+    },
+    {
+      "n": "Conrad Hong Kong",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Admiralty / Pacific Place",
+      "d": "A polished, high-floor house above Pacific Place \u2014 dependable, central, and quietly grand.",
+      "lat": 22.27681,
+      "lon": 114.165275,
+      "photos": []
+    },
+    {
+      "n": "JW Marriott Hotel Hong Kong",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Admiralty / Pacific Place",
+      "d": "A capable, comfortable Pacific Place tower \u2014 big, well-run, and easy for business or family.",
+      "lat": 22.277501,
+      "lon": 114.166337,
+      "photos": []
+    },
+    {
+      "n": "The Langham, Hong Kong",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Tsim Sha Tsui",
+      "d": "A refined European-style house in the heart of Kowloon's shopping and dining quarter.",
+      "lat": 22.296498,
+      "lon": 114.169892,
+      "photos": []
+    },
+    {
+      "n": "The Royal Garden",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Tsim Sha Tsui East",
+      "d": "A serene atrium-garden hotel on the Kowloon side \u2014 quietly excellent, and a local secret.",
+      "lat": 22.298492,
+      "lon": 114.177615,
+      "photos": []
+    },
+    {
+      "n": "Marco Polo Hongkong Hotel",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Tsim Sha Tsui / Harbour City",
+      "d": "A dependable harbourfront address built into Harbour City \u2014 shopping, ferries and the Star Ferry at the door.",
+      "lat": 22.295213,
+      "lon": 114.168893,
+      "photos": []
+    },
+    {
+      "n": "The Peninsula Hong Kong \u2014 Peninsula Suite",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Tsim Sha Tsui",
+      "d": "Two floors, a private terrace and the harbour laid out below \u2014 the grandest suite on the Kowloon side.",
+      "lat": 22.295066,
+      "lon": 114.171789,
+      "photos": []
+    },
+    {
+      "n": "Amber",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Central (The Landmark Mandarin Oriental)",
+      "d": "Richard Ekkebus's dairy-free, produce-led French \u2014 newly promoted to three stars after seventeen years.",
+      "lat": 22.273131,
+      "lon": 114.172497,
+      "photos": []
+    },
+    {
+      "n": "8\u00bd Otto e Mezzo BOMBANA",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Central",
+      "d": "Umberto Bombana's grand Italian \u2014 the only three-star Italian restaurant outside Italy.",
+      "lat": 22.282877,
+      "lon": 114.137859,
+      "photos": []
+    },
+    {
+      "n": "Caprice",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Central (Four Seasons)",
+      "d": "French haute cuisine and a legendary cheese trolley, high over the harbour.",
+      "lat": 22.281833,
+      "lon": 114.158283,
+      "photos": []
+    },
+    {
+      "n": "Forum",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Causeway Bay",
+      "d": "Chef Yeung Koon Yat's temple to abalone \u2014 the most revered Cantonese kitchen in the city.",
+      "lat": 22.426064,
+      "lon": 114.210862,
+      "photos": []
+    },
+    {
+      "n": "Sushi Shikon",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Sheung Wan",
+      "d": "An Edomae omakase of the very highest order \u2014 the fish flown from Tokyo daily.",
+      "lat": 22.340021,
+      "lon": 114.169716,
+      "photos": []
+    },
+    {
+      "n": "T'ang Court",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Tsim Sha Tsui (The Langham)",
+      "d": "Refined, classical Cantonese in a hushed silk-lined room \u2014 three stars, decades in the making.",
+      "lat": 22.326479,
+      "lon": 114.187024,
+      "photos": []
+    },
+    {
+      "n": "Ta Vie",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Central (The Pottinger)",
+      "d": "Chef Hideaki Sato's 'travel through life' \u2014 French technique, Japanese soul, tiny and exact.",
+      "lat": 22.282767,
+      "lon": 114.155347,
+      "photos": []
+    },
+    {
+      "n": "WING",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Central",
+      "d": "Vicky Cheng's contemporary Chinese \u2014 the second-highest a Hong Kong restaurant has ever placed in the world.",
+      "lat": 22.28352,
+      "lon": 114.173013,
+      "photos": []
+    },
+    {
+      "n": "The Chairman",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Central",
+      "d": "Old Hong Kong Cantonese with a conscience \u2014 free-range, local, seasonal, and quietly world-beating.",
+      "lat": 22.284653,
+      "lon": 114.152619,
+      "photos": []
+    },
+    {
+      "n": "Arbor",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Central",
+      "d": "A precise, seasonal Franco-Japanese tasting menu in a serene Central room.",
+      "lat": 22.283159,
+      "lon": 114.155198,
+      "photos": []
+    },
+    {
+      "n": "Lung King Heen",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Central (Four Seasons)",
+      "d": "The first Chinese restaurant in the world to hold three stars \u2014 now two, still peerless Cantonese.",
+      "lat": 22.286475,
+      "lon": 114.15691,
+      "photos": []
+    },
+    {
+      "n": "Lai Ching Heen",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Tsim Sha Tsui (Regent Hong Kong)",
+      "d": "Classical Cantonese with jade tableware and a full-frontal harbour view.",
+      "lat": 22.293448,
+      "lon": 114.174016,
+      "photos": []
+    },
+    {
+      "n": "L'Envol",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Wan Chai (The St. Regis)",
+      "d": "Delicate, luminous French cooking in a light-filled St. Regis room.",
+      "lat": 22.312599,
+      "lon": 113.9173,
+      "photos": []
+    },
+    {
+      "n": "Bo Innovation",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Wan Chai",
+      "d": "Alvin Leung's 'X-treme Chinese' \u2014 provocative, technical, unlike anywhere else.",
+      "lat": 22.314493,
+      "lon": 114.219329,
+      "photos": []
+    },
+    {
+      "n": "Octavium",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Central",
+      "d": "An intimate, members'-club-feel Italian from the Bombana school \u2014 precise and grown-up.",
+      "lat": 22.281833,
+      "lon": 114.158283,
+      "photos": []
+    },
+    {
+      "n": "R\u00f9n",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Wan Chai (The Murray)",
+      "d": "Refined Sichuan and Cantonese in a jewel-box setting \u2014 heat handled with real finesse.",
+      "lat": 22.312599,
+      "lon": 113.9173,
+      "photos": []
+    },
+    {
+      "n": "TATE Dining Room",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Central",
+      "d": "Vicky Lau's 'edible poetry' \u2014 a French-Chinese ode to Hong Kong, told in delicate courses.",
+      "lat": 22.304975,
+      "lon": 114.190166,
+      "photos": []
+    },
+    {
+      "n": "Tin Lung Heen",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "West Kowloon (The Ritz-Carlton)",
+      "d": "Grand Cantonese on the 102nd floor \u2014 the finest dim sum in the sky.",
+      "lat": 22.438031,
+      "lon": 114.024821,
+      "photos": []
+    },
+    {
+      "n": "Ying Jee Club",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Central",
+      "d": "Polished, classical Cantonese from a celebrated master \u2014 quietly one of Central's best.",
+      "lat": 22.29859,
+      "lon": 114.241123,
+      "photos": []
+    },
+    {
+      "n": "Neighborhood",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Sheung Wan",
+      "d": "David Lai's market-driven European bistro cooking \u2014 no menu, endless charm, always full.",
+      "lat": 22.24734,
+      "lon": 114.16745,
+      "photos": []
+    },
+    {
+      "n": "MONO",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Central",
+      "d": "Ricardo Chaneton's Latin-American-accented cooking \u2014 the flavours of his roots, refined.",
+      "lat": 22.270204,
+      "lon": 114.149889,
+      "photos": []
+    },
+    {
+      "n": "Estro",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Central",
+      "d": "Antimo Merone's ode to Campania \u2014 soulful, personal southern-Italian cooking.",
+      "lat": 22.281833,
+      "lon": 114.158283,
+      "photos": []
+    },
+    {
+      "n": "And\u014d",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Central",
+      "d": "Agustin Balbi's Argentine-Spanish-Japanese kitchen \u2014 a deeply personal tasting menu.",
+      "lat": 22.281793,
+      "lon": 114.155334,
+      "photos": []
+    },
+    {
+      "n": "VEA",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Central",
+      "d": "Vicky Cheng's original \u2014 a Chinese-French counter of great craft, above his flagship WING.",
+      "lat": 22.284867,
+      "lon": 114.152948,
+      "photos": []
+    },
+    {
+      "n": "Feuille",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Central",
+      "d": "David Toutain prot\u00e9g\u00e9's plant-forward, nature-led cooking \u2014 green, precise and quietly radical.",
+      "lat": 22.281833,
+      "lon": 114.158283,
+      "photos": []
+    },
+    {
+      "n": "Xin Rong Ji",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Wan Chai",
+      "d": "The Beijing sensation's Hong Kong outpost \u2014 pristine Taizhou seafood and yellow croaker.",
+      "lat": 22.282127,
+      "lon": 113.844936,
+      "photos": []
+    },
+    {
+      "n": "Testina",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Central",
+      "d": "Milanese cooking done with real heart \u2014 nose-to-tail Italian, and a Bib to prove the value.",
+      "lat": 22.281833,
+      "lon": 114.158283,
+      "photos": []
+    },
+    {
+      "n": "New Punjab Club",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Central",
+      "d": "The first Punjabi restaurant in the world to hold a Michelin star \u2014 tandoor-fired and proudly Indian.",
+      "lat": 22.469654,
+      "lon": 114.194366,
+      "photos": []
+    },
+    {
+      "n": "CHAAT",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Tsim Sha Tsui (Rosewood Hong Kong)",
+      "d": "Chef Manav Tuli's modern Indian inside the world's best hotel \u2014 bright, spiced, beautifully judged.",
+      "lat": 22.281833,
+      "lon": 114.158283,
+      "photos": []
+    },
+    {
+      "n": "Louise",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Central (PMQ)",
+      "d": "Julien Royer's French cooking in a restored heritage house \u2014 classical, warm, immaculate.",
+      "lat": 22.330455,
+      "lon": 114.181839,
+      "photos": []
+    },
+    {
+      "n": "Roganic",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Causeway Bay",
+      "d": "Simon Rogan's farm-to-table ethos, translated to Hong Kong \u2014 hyper-seasonal and green.",
+      "lat": 22.281833,
+      "lon": 114.158283,
+      "photos": []
+    },
+    {
+      "n": "Petrus",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Admiralty (Island Shangri-La)",
+      "d": "Grand French dining on the 56th floor \u2014 chandeliers, a great wine list, and the harbour beyond.",
+      "lat": 22.479197,
+      "lon": 114.062797,
+      "photos": []
+    },
+    {
+      "n": "Gaddi's",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Tsim Sha Tsui (The Peninsula)",
+      "d": "The most storied French dining room in Asia \u2014 grand, gilded, and going strong since 1953.",
+      "lat": 22.420184,
+      "lon": 114.207915,
+      "photos": []
+    },
+    {
+      "n": "Cristal Room by Anne-Sophie Pic",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Tsim Sha Tsui (K11 MUSEA)",
+      "d": "Anne-Sophie Pic's delicate, aromatic French in a Baccarat-crystal setting overlooking the harbour.",
+      "lat": 22.29457,
+      "lon": 114.174559,
+      "photos": []
+    },
+    {
+      "n": "Man Wah",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Central (Mandarin Oriental)",
+      "d": "Refined Cantonese on the 25th floor of the grande dame \u2014 a jewel-box of a dining room.",
+      "lat": 22.308113,
+      "lon": 114.166,
+      "photos": []
+    },
+    {
+      "n": "Spring Moon",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Tsim Sha Tsui (The Peninsula)",
+      "d": "Art Deco Cantonese in the Peninsula \u2014 dim sum, roast goose and a famous tea menu.",
+      "lat": 22.372917,
+      "lon": 114.112619,
+      "photos": []
+    },
+    {
+      "n": "Shang Palace",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Tsim Sha Tsui (Kowloon Shangri-La)",
+      "d": "Sumptuous, red-and-gold classical Cantonese \u2014 a grand-hotel banquet done properly.",
+      "lat": 22.277203,
+      "lon": 114.164467,
+      "photos": []
+    },
+    {
+      "n": "Yardbird",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Sheung Wan",
+      "d": "The yakitori izakaya that changed how Hong Kong eats out \u2014 every part of the bird, no reservations.",
+      "lat": 22.281833,
+      "lon": 114.158283,
+      "photos": []
+    },
+    {
+      "n": "Beefbar",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Tsim Sha Tsui",
+      "d": "A glamorous temple to the world's finest beef, in a heritage former bank hall.",
+      "lat": 22.28001,
+      "lon": 114.157399,
+      "photos": []
+    },
+    {
+      "n": "BELON",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Sheung Wan",
+      "d": "A neo-Parisian bistro of real soul \u2014 the roast chicken has a devoted following.",
+      "lat": 22.282976,
+      "lon": 114.152525,
+      "photos": []
+    },
+    {
+      "n": "Kam's Roast Goose",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Wan Chai",
+      "d": "A one-star roast-goose shop from the Yung Kee dynasty \u2014 crisp skin, no ceremony, always a queue.",
+      "lat": 22.27766,
+      "lon": 114.1753,
+      "photos": []
+    },
+    {
+      "n": "Yat Lok",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Central",
+      "d": "A tiny, tiled roast-goose canteen with a Michelin star \u2014 the roast goose over rice is the reason.",
+      "lat": 22.361849,
+      "lon": 114.11405,
+      "photos": []
+    },
+    {
+      "n": "Ho Hung Kee",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Causeway Bay",
+      "d": "A congee-and-noodle institution since the 1940s \u2014 wonton noodles that earned a star.",
+      "lat": 22.315443,
+      "lon": 113.935832,
+      "photos": []
+    },
+    {
+      "n": "Ho Lee Fook",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Central (SoHo)",
+      "d": "Modern Cantonese comfort food with swagger \u2014 the wagyu short rib and roast goose bring the crowds.",
+      "lat": 22.283005,
+      "lon": 114.152542,
+      "photos": []
+    },
+    {
+      "n": "Carbone",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Central (LKF)",
+      "d": "The New York Italian-American theatre \u2014 tableside caesar, veal parm, and a room that never quietens.",
+      "lat": 22.280441,
+      "lon": 114.155118,
+      "photos": []
+    },
+    {
+      "n": "Involtini",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Sai Ying Pun",
+      "d": "Honest, generous Sicilian home cooking in a warm neighbourhood room.",
+      "lat": 22.28036,
+      "lon": 114.181631,
+      "photos": []
+    },
+    {
+      "n": "Chesa",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Tsim Sha Tsui (The Peninsula)",
+      "d": "The Peninsula's tiny Swiss chalet \u2014 fondue and raclette, unchanged and beloved for decades.",
+      "lat": 22.281833,
+      "lon": 114.158283,
+      "photos": []
+    },
+    {
+      "n": "Luk Yu Tea House",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Central",
+      "d": "A 1930s Cantonese tea house frozen in time \u2014 trolley dim sum, teak booths, living history.",
+      "lat": 22.282254,
+      "lon": 114.155578,
+      "photos": []
+    },
+    {
+      "n": "One Harbour Road",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Wan Chai (Grand Hyatt)",
+      "d": "Refined Cantonese in a 1930s-Shanghai-tai-pan-mansion setting, overlooking the harbour.",
+      "lat": 22.286952,
+      "lon": 114.133055,
+      "photos": []
+    },
+    {
+      "n": "Mandarin Grill + Bar",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Central (Mandarin Oriental)",
+      "d": "The grande dame's grill \u2014 a Terence Conran room, a seafood bar, and old-Hong-Kong glamour.",
+      "lat": 22.281886,
+      "lon": 114.159396,
+      "photos": []
+    },
+    {
+      "n": "Fook Lam Moon",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Wan Chai",
+      "d": "The 'tycoons' canteen' \u2014 old-money Cantonese banqueting, abalone and roast suckling pig.",
+      "lat": 22.301039,
+      "lon": 114.174732,
+      "photos": []
+    },
+    {
+      "n": "Duddell's",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Central",
+      "d": "An art-filled Cantonese salon with a garden terrace \u2014 dim sum among rotating exhibitions.",
+      "lat": 22.314673,
+      "lon": 113.934091,
+      "photos": []
+    },
+    {
+      "n": "Summer Palace",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Admiralty (Island Shangri-La)",
+      "d": "Opulent, classical Cantonese in a grand-hotel room \u2014 a benchmark for the old-school banquet.",
+      "lat": 22.427156,
+      "lon": 114.080558,
+      "photos": []
+    },
+    {
+      "n": "Sun Tung Lok",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Tsim Sha Tsui",
+      "d": "A long-revered name for abalone, seafood and refined Cantonese classics.",
+      "lat": 22.446825,
+      "lon": 114.030198,
+      "photos": []
+    },
+    {
+      "n": "Hansik Goo",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Central",
+      "d": "A modern Korean 'hansik' tasting menu of real refinement \u2014 the best Korean fine dining in town.",
+      "lat": 22.280558,
+      "lon": 114.23049,
+      "photos": []
+    },
+    {
+      "n": "Victoria Peak & the Peak Tram",
+      "cat": "do",
+      "tier": "",
+      "a": "The Peak, Hong Kong Island",
+      "d": "Ride Asia's oldest funicular (1888) up the mountainside, then walk the flat 3.5km Peak Circle Walk for the postcard sweep over the harbour and skyscraper canyon. Come at dusk to catch the towers switch on; a private car and skip-the-line tram booking spares the family the notorious queue.",
+      "lat": 22.271123,
+      "lon": 114.150141,
+      "photos": []
+    },
+    {
+      "n": "Star Ferry across Victoria Harbour",
+      "cat": "do",
+      "tier": "",
+      "a": "Tsim Sha Tsui / Central",
+      "d": "The green-and-white ferries have crossed the harbour since 1888 and remain the cheapest, most cinematic ride in the city. Sit on the open upper deck between Tsim Sha Tsui and Central at sunset with the whole skyline gliding past on both sides.",
+      "lat": 22.293149,
+      "lon": 114.202021,
+      "photos": []
+    },
+    {
+      "n": "A Symphony of Lights",
+      "cat": "do",
+      "tier": "",
+      "a": "Tsim Sha Tsui Waterfront",
+      "d": "Every night at 8pm, around 40 buildings on both sides of the harbour perform a synchronised light-and-laser show. Watch from the Tsim Sha Tsui promenade or, for a private angle, book a junk cruise so the family sees it from the water.",
+      "lat": 22.290617,
+      "lon": 114.167647,
+      "photos": []
+    },
+    {
+      "n": "Tsim Sha Tsui Promenade & Avenue of Stars",
+      "cat": "do",
+      "tier": "",
+      "a": "Tsim Sha Tsui",
+      "d": "A breezy harbour-front walk with the finest head-on view of Hong Kong Island's skyline, past the Bruce Lee statue and handprints of Cantonese cinema legends. Ends near the Clock Tower, a lone relic of the old Kowloon railway terminus.",
+      "lat": 22.29527,
+      "lon": 114.176158,
+      "photos": []
+    },
+    {
+      "n": "M+ Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "West Kowloon Cultural District",
+      "d": "Herzog & de Meuron's vast museum of 20th- and 21st-century visual culture \u2014 design, moving image, architecture and Asian contemporary art \u2014 with a giant LED facade facing the harbour. One of the largest museums of modern visual culture in the world; the rooftop and harbour-view galleries reward an unhurried afternoon.",
+      "lat": 22.448333,
+      "lon": 114.163737,
+      "photos": []
+    },
+    {
+      "n": "Hong Kong Palace Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "West Kowloon Cultural District",
+      "d": "A striking golden building showing treasures on rotating loan from Beijing's Forbidden City \u2014 imperial jade, ceramics, paintings and court life \u2014 curated for a modern audience. Pairs naturally with M+ next door for a full culture day.",
+      "lat": 22.301539,
+      "lon": 114.156198,
+      "photos": []
+    },
+    {
+      "n": "Tai Kwun \u2014 Centre for Heritage & Arts",
+      "cat": "do",
+      "tier": "",
+      "a": "Central",
+      "d": "The beautifully restored former Central Police Station, Magistracy and Victoria Prison, now a compound of galleries, courtyards, boutiques and restaurants. Wander the granite cells and colonial verandahs, then eat well; it is one of the city's most discreet, unhurried spots.",
+      "lat": 22.315286,
+      "lon": 114.225397,
+      "photos": []
+    },
+    {
+      "n": "Man Mo Temple",
+      "cat": "do",
+      "tier": "",
+      "a": "Sheung Wan",
+      "d": "Hong Kong's most atmospheric temple, dedicated to the gods of literature and war, its dim hall hazed with enormous hanging incense coils. A short, calm stop on the way up steep Ladder Street and Hollywood Road's antique galleries.",
+      "lat": 22.448961,
+      "lon": 114.164422,
+      "photos": []
+    },
+    {
+      "n": "Tian Tan Buddha (Big Buddha) & Po Lin Monastery",
+      "cat": "do",
+      "tier": "",
+      "a": "Ngong Ping, Lantau Island",
+      "d": "Climb 268 steps to the world's largest outdoor seated bronze Buddha, serene above the Lantau hills, beside the century-old Po Lin Monastery. The monastery's famous vegetarian canteen is fully veg and Jain-friendly-adjacent \u2014 a rare, easy meal for plant-based families.",
+      "lat": 22.255803,
+      "lon": 113.90416,
+      "photos": []
+    },
+    {
+      "n": "Ngong Ping 360 Cable Car",
+      "cat": "do",
+      "tier": "",
+      "a": "Tung Chung, Lantau Island",
+      "d": "A 25-minute glass-cabin glide over the sea, the airport and North Lantau's green ridges to Ngong Ping village and the Big Buddha. Splurge on a Crystal Cabin with a glass floor; the panorama is the reason to come even before the Buddha.",
+      "lat": 22.277568,
+      "lon": 113.917303,
+      "photos": []
+    },
+    {
+      "n": "Dragon's Back Trail",
+      "cat": "do",
+      "tier": "",
+      "a": "Shek O / Southern District, Hong Kong Island",
+      "d": "The city's most loved ridge hike \u2014 a gentle, undulating spine with sweeping views over Shek O, Tai Long Wan and the South China Sea, ending at a beach. Around 8km and family-doable; a driver can meet you at the Big Wave Bay end.",
+      "lat": 22.235218,
+      "lon": 114.241083,
+      "photos": []
+    },
+    {
+      "n": "Hong Kong UNESCO Global Geopark",
+      "cat": "do",
+      "tier": "",
+      "a": "Sai Kung & Northeast New Territories",
+      "d": "Extraordinary hexagonal volcanic rock columns and sea-carved sedimentary formations across the eastern New Territories, best seen by boat from Sai Kung. Charter a private sampan or junk to reach the sea arches and coves in comfort.",
+      "lat": 22.500311,
+      "lon": 114.358182,
+      "photos": []
+    },
+    {
+      "n": "Sai Kung & the East Country Parks",
+      "cat": "do",
+      "tier": "",
+      "a": "Sai Kung, New Territories",
+      "d": "A relaxed fishing town with a live seafood harbour-front, gateway to Hong Kong's cleanest beaches and the MacLehose Trail. Hire a boat to Tai Long Wan's white-sand bays \u2014 the closest thing the city has to a private island day.",
+      "lat": 22.397217,
+      "lon": 114.347824,
+      "photos": []
+    },
+    {
+      "n": "Wong Tai Sin Temple",
+      "cat": "do",
+      "tier": "",
+      "a": "Wong Tai Sin, Kowloon",
+      "d": "A vivid, busy Taoist temple where worshippers shake fortune sticks and consult soothsayers, surrounded by a serene Good Wish Garden and koi ponds. Said to 'make every wish come true' \u2014 a colourful, welcoming stop for multi-generational visitors.",
+      "lat": 22.342818,
+      "lon": 114.193551,
+      "photos": []
+    },
+    {
+      "n": "Chi Lin Nunnery & Nan Lian Garden",
+      "cat": "do",
+      "tier": "",
+      "a": "Diamond Hill, Kowloon",
+      "d": "A vast Tang-dynasty-style wooden monastery built without a single nail, beside a meticulously landscaped classical garden with a golden pavilion and lotus ponds. Utterly tranquil, free, and home to a refined vegetarian restaurant behind a waterfall.",
+      "lat": 22.339355,
+      "lon": 114.204853,
+      "photos": []
+    },
+    {
+      "n": "Temple Street Night Market",
+      "cat": "do",
+      "tier": "",
+      "a": "Yau Ma Tei / Jordan, Kowloon",
+      "d": "Kowloon's classic after-dark bazaar of stalls, fortune-tellers, Cantonese opera singers and open-air dai pai dong seafood. Loud, theatrical and full of old-Hong-Kong character; go early evening with the family before the crowds thicken.",
+      "lat": 22.306397,
+      "lon": 114.169965,
+      "photos": []
+    },
+    {
+      "n": "Sham Shui Po",
+      "cat": "do",
+      "tier": "",
+      "a": "Sham Shui Po, Kowloon",
+      "d": "The city's grittiest, most authentic district \u2014 fabric and bead streets, electronics arcades, and some of Hong Kong's best cheap eats and third-wave coffee. A design-lover's treasure hunt; go with a guide to find the Michelin-listed street food.",
+      "lat": 22.329757,
+      "lon": 114.160851,
+      "photos": []
+    },
+    {
+      "n": "Hollywood Road & Cat Street antiques",
+      "cat": "do",
+      "tier": "",
+      "a": "Sheung Wan / Central",
+      "d": "Hong Kong's antiques spine, lined with serious dealers in Ming ceramics, jade and Chinese furniture, plus the flea-market bric-a-brac of Cat Street (Upper Lascar Row). The place for collectors to source with provenance and arrange discreet shipping home.",
+      "lat": 22.284998,
+      "lon": 114.149107,
+      "photos": []
+    },
+    {
+      "n": "PMQ",
+      "cat": "do",
+      "tier": "",
+      "a": "Central / Sheung Wan",
+      "d": "A former police married-quarters block reborn as a hive of independent Hong Kong designers, jewellers and craft studios. Ideal for finding one-of-a-kind gifts and meeting the makers, with a quiet courtyard cafe to regroup.",
+      "lat": 22.283274,
+      "lon": 114.151846,
+      "photos": []
+    },
+    {
+      "n": "Central\u2013Mid-Levels Escalator & SoHo",
+      "cat": "do",
+      "tier": "",
+      "a": "Central",
+      "d": "Ride the world's longest outdoor covered escalator system uphill through the layered lanes of SoHo and NoHo, hopping off for galleries, wine bars and global restaurants. The easiest way to graze Central's dense dining scene on foot.",
+      "lat": 22.281429,
+      "lon": 114.152777,
+      "photos": []
+    },
+    {
+      "n": "Ding Ding \u2014 Hong Kong Tramways",
+      "cat": "do",
+      "tier": "",
+      "a": "North Shore, Hong Kong Island",
+      "d": "Board a double-decker tram \u2014 running since 1904 \u2014 and ride the whole north shore from Kennedy Town to Shau Kei Wan for the price of a coffee. Grab the front upper-deck seat for a slow, open-window film reel of street life.",
+      "lat": 22.278651,
+      "lon": 114.163779,
+      "photos": []
+    },
+    {
+      "n": "Lamma Island",
+      "cat": "do",
+      "tier": "",
+      "a": "Lamma Island (Outlying Islands)",
+      "d": "A car-free island of green hills, a gentle family walk between Yung Shue Wan and Sok Kwu Wan, and waterfront seafood restaurants at the end. A slow, restorative half-day escape barely 30 minutes by ferry from Central.",
+      "lat": 22.209453,
+      "lon": 114.149727,
+      "photos": []
+    },
+    {
+      "n": "Cheung Chau Island",
+      "cat": "do",
+      "tier": "",
+      "a": "Cheung Chau (Outlying Islands)",
+      "d": "A dumbbell-shaped fishing island with a bustling harbour, seafood shacks, a small beach and pirate-cave legends, plus the springtime Bun Festival. Rent bikes and let children roam the car-free lanes; utterly unhurried.",
+      "lat": 22.209625,
+      "lon": 114.029569,
+      "photos": []
+    },
+    {
+      "n": "Tai O fishing village",
+      "cat": "do",
+      "tier": "",
+      "a": "Lantau Island",
+      "d": "A photogenic stilt-house village on Lantau's west coast, where Tanka fishing families live over the water and shops sell dried seafood and shrimp paste. Take a short boat ride to spot pink dolphins, then stay across the water at the heritage Tai O Heritage Hotel.",
+      "lat": 22.254152,
+      "lon": 113.86362,
+      "photos": []
+    },
+    {
+      "n": "Ping Shan Heritage Trail",
+      "cat": "do",
+      "tier": "",
+      "a": "Yuen Long, New Territories",
+      "d": "Hong Kong's first heritage trail winds through 900 years of Tang-clan history \u2014 ancestral halls, a study hall and the territory's only ancient pagoda, the Tsui Sing Lau. A quiet window into pre-colonial walled-village life, far from the tourist crush.",
+      "lat": 22.288671,
+      "lon": 114.152437,
+      "photos": []
+    },
+    {
+      "n": "Hong Kong Museum of History",
+      "cat": "do",
+      "tier": "",
+      "a": "Tsim Sha Tsui",
+      "d": "The excellent 'Hong Kong Story' walk-through \u2014 from prehistoric coastline to fishing villages, opium wars and the modern metropolis, with life-size street recreations. The single best hour for grounding the family in how this city came to be.",
+      "lat": 22.301939,
+      "lon": 114.177413,
+      "photos": []
+    },
+    {
+      "n": "Hong Kong Museum of Art",
+      "cat": "do",
+      "tier": "",
+      "a": "Tsim Sha Tsui",
+      "d": "A refreshed, harbour-facing museum of Chinese antiquities, ink painting, and the superb Chih Lo Lou classical Chinese art collection. Calm, air-conditioned galleries with the skyline framed through the windows.",
+      "lat": 22.29353,
+      "lon": 114.172031,
+      "photos": []
+    },
+    {
+      "n": "Flagstaff House Museum of Tea Ware",
+      "cat": "do",
+      "tier": "",
+      "a": "Admiralty / Hong Kong Park",
+      "d": "Hong Kong's oldest surviving colonial building, now a jewel-box museum of Chinese tea culture and Yixing teapots inside leafy Hong Kong Park. Combine with the park's aviary and conservatory for an easy, shaded family morning.",
+      "lat": 22.278317,
+      "lon": 114.162558,
+      "photos": []
+    },
+    {
+      "n": "Ocean Park",
+      "cat": "do",
+      "tier": "",
+      "a": "Aberdeen, Southern District",
+      "d": "A cliffside marine-and-thrills park spread over a headland, linked by cable car and funicular, with pandas, an enormous aquarium and roller coasters over the sea. A classic full family day for younger children and teens alike.",
+      "lat": 22.234767,
+      "lon": 114.170817,
+      "photos": []
+    },
+    {
+      "n": "Hong Kong Disneyland",
+      "cat": "do",
+      "tier": "",
+      "a": "Lantau Island",
+      "d": "A compact, well-run Disney park with the world's only Mystic Manor and a growing 'World of Frozen' land. Stay at a park hotel and use a VIP tour host so multi-generational groups skip the queues entirely.",
+      "lat": 22.31307,
+      "lon": 114.040985,
+      "photos": []
+    },
+    {
+      "n": "Aberdeen Harbour & sampan ride",
+      "cat": "do",
+      "tier": "",
+      "a": "Aberdeen, Southern District",
+      "d": "Once a floating fishing community, still crowded with junks and yachts; take a traditional sampan among the boats for a glimpse of old maritime Hong Kong. A short, atmospheric ride that grandparents especially enjoy.",
+      "lat": 22.247409,
+      "lon": 114.157727,
+      "photos": []
+    },
+    {
+      "n": "Stanley & Stanley Market",
+      "cat": "do",
+      "tier": "",
+      "a": "Stanley, Southern District",
+      "d": "A relaxed seaside town on the island's south coast with a lanes-and-stalls market, breezy waterfront restaurants and the transplanted colonial Murray House. A soft, sunny counterpoint to the city's density.",
+      "lat": 22.218298,
+      "lon": 114.212537,
+      "photos": []
+    },
+    {
+      "n": "Repulse Bay & the Southern beaches",
+      "cat": "do",
+      "tier": "",
+      "a": "Repulse Bay, Southern District",
+      "d": "The island's most fashionable crescent of sand, backed by the wave-shaped Repulse Bay building and the kitsch-but-fun Tin Hau shrine at its eastern end. Genteel, family-safe swimming with beach-club lunching nearby.",
+      "lat": 22.239417,
+      "lon": 114.195581,
+      "photos": []
+    },
+    {
+      "n": "Kowloon Walled City Park",
+      "cat": "do",
+      "tier": "",
+      "a": "Kowloon City",
+      "d": "A serene Jiangnan-style garden built on the site of the infamous, now-demolished Walled City \u2014 the densest place on earth \u2014 with a small museum explaining its lawless past. A quiet, curious stop after nearby Kowloon City's Thai and Chiu Chow food.",
+      "lat": 22.332129,
+      "lon": 114.190245,
+      "photos": []
+    },
+    {
+      "n": "Ten Thousand Buddhas Monastery",
+      "cat": "do",
+      "tier": "",
+      "a": "Sha Tin, New Territories",
+      "d": "Climb a hillside path flanked by hundreds of individually posed, life-size golden arhat statues to a hall lined with roughly 13,000 small Buddha figures. Offbeat, uncrowded and genuinely memorable; wear good shoes for the steps.",
+      "lat": 22.387997,
+      "lon": 114.184949,
+      "photos": []
+    },
+    {
+      "n": "Sik Sik Yuen & the Sha Tin racecourse experience",
+      "cat": "do",
+      "tier": "",
+      "a": "Sha Tin, New Territories",
+      "d": "Hong Kong's grand racecourse hosts world-class Wednesday-night and weekend meets in an electric, food-filled atmosphere. Book a members' box or Chinese-cuisine viewing suite for a discreet, catered evening at the heart of the city's oldest passion.",
+      "lat": 22.41129,
+      "lon": 114.211235,
+      "photos": []
+    },
+    {
+      "n": "Lan Kwai Fong & Central nightlife",
+      "cat": "do",
+      "tier": "",
+      "a": "Central",
+      "d": "The compact hillside of bars, izakayas and rooftops that empties the offices after dark, ringed by SoHo's more grown-up drinking dens. For a refined evening, aim instead at the harbour-view speakeasies and hotel bars just downhill.",
+      "lat": 22.280839,
+      "lon": 114.155381,
+      "photos": []
+    },
+    {
+      "n": "Ozone Bar, The Ritz-Carlton",
+      "cat": "do",
+      "tier": "",
+      "a": "West Kowloon (ICC)",
+      "d": "One of the world's highest bars, on the 118th floor of the ICC tower, with the entire harbour and Hong Kong Island laid out below. A memorable sundowner; reserve a window table well ahead.",
+      "lat": 22.303302,
+      "lon": 114.160178,
+      "photos": []
+    },
+    {
+      "n": "Sky100 Observation Deck",
+      "cat": "do",
+      "tier": "",
+      "a": "West Kowloon (ICC)",
+      "d": "A 360-degree indoor observation deck on the 100th floor of Hong Kong's tallest building, the best all-weather panorama when the Peak is cloud-covered. Easy and step-free \u2014 good for less mobile family members.",
+      "lat": 22.317756,
+      "lon": 113.930134,
+      "photos": []
+    },
+    {
+      "n": "Cantonese dim sum & tea houses",
+      "cat": "do",
+      "tier": "",
+      "a": "Citywide (Central, Sheung Wan, Kowloon)",
+      "d": "Yum cha \u2014 the ritual of tea and small plates \u2014 is Hong Kong's culinary soul, from trolley-service old-timers to Michelin-starred rooms. Ask an advisor to book a private room and pre-arrange vegetarian and Jain-suitable dishes so nothing is a compromise.",
+      "lat": 22.286516,
+      "lon": 114.150208,
+      "photos": []
+    },
+    {
+      "n": "Choi Hung Estate & Instagram Hong Kong",
+      "cat": "do",
+      "tier": "",
+      "a": "Wong Tai Sin, Kowloon",
+      "d": "The rainbow-painted 1960s public-housing estate with its basketball courts has become an icon of graphic Hong Kong. One of a cluster of striking modernist estates (with Montane Mansion's 'Monster Building') that photographers seek out.",
+      "lat": 22.335505,
+      "lon": 114.206214,
+      "photos": []
+    },
+    {
+      "n": "Hong Kong Wetland Park",
+      "cat": "do",
+      "tier": "",
+      "a": "Tin Shui Wai, New Territories",
+      "d": "A large, well-designed reserve of mangroves, mudflats and boardwalks alive with migratory birds, mudskippers and a resident crocodile. Buggy-friendly and shaded \u2014 a genuinely restful nature morning for families with small children.",
+      "lat": 22.468391,
+      "lon": 114.007515,
+      "photos": []
+    },
+    {
+      "n": "Peak-to-Aberdeen & Pok Fu Lam heritage walk",
+      "cat": "do",
+      "tier": "",
+      "a": "Southern District, Hong Kong Island",
+      "d": "Quiet country trails link the Peak down through Pok Fu Lam past a colonial dairy-farm village and reservoir to the coast. A gentler alternative to Dragon's Back, ending near the seafood of Aberdeen.",
+      "lat": 22.234767,
+      "lon": 114.170817,
+      "photos": []
+    },
+    {
+      "n": "Junk cruise on Victoria Harbour",
+      "cat": "do",
+      "tier": "",
+      "a": "Victoria Harbour",
+      "d": "Charter a red-sailed junk or a private motor yacht to drift through the harbour at golden hour, drinks in hand, the skyline turning on around you. The city's signature private experience \u2014 book the whole boat for the family.",
+      "lat": 22.287143,
+      "lon": 114.150083,
+      "photos": []
+    },
+    {
+      "n": "Macau day trip \u2014 Historic Centre",
+      "cat": "do",
+      "tier": "",
+      "a": "Macau (day trip)",
+      "d": "An hour by fast ferry to a Portuguese-Chinese old town of pastel churches, the Ruins of St Paul's, cobbled Senado Square and A-Ma Temple \u2014 plus egg tarts and world-class casino resorts. Skip the gaming floors for a private heritage-and-dining day, or the reverse.",
+      "lat": 22.314529,
+      "lon": 113.947245,
+      "photos": []
+    },
+    {
+      "n": "Bar Leone",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Central",
+      "d": "Lorenzo Antinori's 'popular Roman bar' \u2014 unfussy Italian aperitivi, done so well it became the finest bar on earth.",
+      "lat": 22.283555,
+      "lon": 114.150946,
+      "photos": []
+    },
+    {
+      "n": "Coa",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Central (SoHo)",
+      "d": "Jay Khan's temple to agave \u2014 200-plus tequilas and mezcals, and hospitality that redefined the Asian bar.",
+      "lat": 22.282675,
+      "lon": 114.23506,
+      "photos": []
+    },
+    {
+      "n": "Argo",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "Central",
+      "d": "The Four Seasons' flagship bar \u2014 a sustainability-led cocktail programme and rare spirits, poured with hotel-grade polish.",
+      "lat": 22.282877,
+      "lon": 114.137859,
+      "photos": []
+    },
+    {
+      "n": "Penicillin",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Central (SoHo)",
+      "d": "The world's first closed-loop sustainable bar \u2014 house ferments, zero waste, and a serious cocktail behind the ethic.",
+      "lat": 22.281833,
+      "lon": 114.158283,
+      "photos": []
+    },
+    {
+      "n": "The Old Man",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Central (SoHo)",
+      "d": "A Hemingway-inspired snug of literary cocktails \u2014 once the best bar in Asia, and still a rite of passage.",
+      "lat": 22.282778,
+      "lon": 114.151713,
+      "photos": []
+    },
+    {
+      "n": "Quinary",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Central",
+      "d": "Antonio Lai's laboratory \u2014 the birthplace of molecular mixology in Hong Kong, all foams, mists and multisensory theatre.",
+      "lat": 22.282731,
+      "lon": 114.152851,
+      "photos": []
+    },
+    {
+      "n": "DarkSide",
+      "cat": "party",
+      "tier": "Late & loud",
+      "a": "Tsim Sha Tsui (Rosewood Hong Kong)",
+      "d": "A velvet-and-Murano jazz parlour of dark spirits, cigars and live music \u2014 the most glamorous late night on the Kowloon side.",
+      "lat": 22.281833,
+      "lon": 114.158283,
+      "photos": []
+    },
+    {
+      "n": "Ozone",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "West Kowloon (The Ritz-Carlton)",
+      "d": "The world's highest bar, on the 118th floor of the ICC \u2014 cocktails in the clouds, with the whole harbour far below.",
+      "lat": 22.303251,
+      "lon": 114.160246,
+      "photos": []
+    },
+    {
+      "n": "Aqua",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "Tsim Sha Tsui",
+      "d": "A double-height glass room and terrace on the 30th floor of One Peking \u2014 the classic full-frontal skyline view with a drink in hand.",
+      "lat": 22.270641,
+      "lon": 114.127867,
+      "photos": []
+    },
+    {
+      "n": "The Aubrey",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "Central (Mandarin Oriental)",
+      "d": "A theatrical Japanese-inspired izakaya-bar in the grande dame \u2014 jewel-box interiors and one of the city's best cocktail lists.",
+      "lat": 22.420184,
+      "lon": 114.207915,
+      "photos": []
+    },
+    {
+      "n": "The Savory Project",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Central (SoHo)",
+      "d": "A tiny bar built entirely on savoury, umami-driven cocktails \u2014 the most inventive drinking in the city right now.",
+      "lat": 22.420184,
+      "lon": 114.207915,
+      "photos": []
+    },
+    {
+      "n": "Sevva",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "Central",
+      "d": "Bonnae Gokson's rooftop terrace atop Prince's Building \u2014 wrapped around the towers of Central, glamorous and enduring.",
+      "lat": 22.282129,
+      "lon": 114.15952,
+      "photos": []
+    },
+    {
+      "n": "The Envoy",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "Central (The Pottinger)",
+      "d": "A polished terrace bar above Stanley Street with a classic-cocktail pedigree \u2014 old-Hong-Kong elegance, done properly.",
+      "lat": 22.28288,
+      "lon": 114.15544,
+      "photos": []
+    },
+    {
+      "n": "Lobby Lounge & Felix, The Peninsula",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "Tsim Sha Tsui (The Peninsula)",
+      "d": "A drink at the grande dame of Kowloon \u2014 the Lobby by day, Philippe Starck's 28th-floor Felix by night, harbour spread below.",
+      "lat": 22.371692,
+      "lon": 113.989221,
+      "photos": []
+    },
+    {
+      "n": "Lan Kwai Fong",
+      "cat": "party",
+      "tier": "Late & loud",
+      "a": "Central (LKF)",
+      "d": "The city's original nightlife quarter \u2014 a hillside of bars and clubs that spills into the street. Loud, packed, unmissable once.",
+      "lat": 22.280839,
+      "lon": 114.155381,
+      "photos": []
+    }
+  ]
+}

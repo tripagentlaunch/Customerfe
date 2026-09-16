@@ -1,1 +1,1058 @@
-{"center": [41.89332, 12.482932], "venues": [{"n": "Bvlgari Hotel Roma", "cat": "stay", "tier": "Ultra", "a": "Spanish Steps / Tridente (Mausoleum of Augustus)", "d": "The jeweller's Roman house — a 1930s rationalist palace facing the Mausoleum of Augustus, and one of the finest hotels on earth.", "lat": 41.905492, "lon": 12.481713, "p": "v"}, {"n": "Hotel Hassler Roma", "cat": "stay", "tier": "Ultra", "a": "Spanish Steps / Tridente", "d": "Perched at the very top of the Spanish Steps — the grand Roman address, sixth-generation family-run.", "lat": 41.905986, "lon": 12.483692, "p": "v"}, {"n": "Hotel de Russie, Rocco Forte", "cat": "stay", "tier": "Ultra", "a": "Spanish Steps / Tridente (Piazza del Popolo)", "d": "A historic hideaway between the Spanish Steps and Piazza del Popolo, built around a tiered secret garden.", "lat": 41.90607, "lon": 12.482872, "p": "a"}, {"n": "Hotel Eden, Dorchester Collection", "cat": "stay", "tier": "Ultra", "a": "Ludovisi / Via Veneto", "d": "A Dorchester Collection grande dame above Via Veneto, with the finest rooftop view in the Eternal City.", "lat": 41.905027, "lon": 12.488615, "p": "a"}, {"n": "Six Senses Rome", "cat": "stay", "tier": "Grand", "a": "Centro Storico (Piazza San Marcello)", "d": "A wellness-led palazzo in the historic centre — travertine, an Etruscan-inspired spa and Roman baths reborn.", "lat": 41.898793, "lon": 12.481629, "p": "v"}, {"n": "Orient Express La Minerva", "cat": "stay", "tier": "Grand", "a": "Centro Storico (Pantheon / Piazza della Minerva)", "d": "The first Orient Express hotel — a 17th-century palazzo beside the Pantheon, reborn with 1930s glamour.", "lat": 42.094251, "lon": 12.269806, "p": "a"}, {"n": "Rocco Forte Hotel de la Ville", "cat": "stay", "tier": "Grand", "a": "Spanish Steps / Tridente", "d": "At the head of the Spanish Steps — Rocco Forte's polished, contemporary counterpoint to the Hassler.", "lat": 41.905707, "lon": 12.48421, "p": "v"}, {"n": "The St. Regis Rome", "cat": "stay", "tier": "Grand", "a": "Centro Storico (Repubblica)", "d": "A gilded Beaux-Arts landmark — the first luxury hotel in Rome, restored to full-dress grandeur.", "lat": 41.904156, "lon": 12.495092, "p": "v"}, {"n": "Anantara Palazzo Naiadi Rome", "cat": "stay", "tier": "Grand", "a": "Centro Storico (Piazza della Repubblica)", "d": "A full-scale neoclassical grand hotel behind a colonnaded façade on Piazza della Repubblica.", "lat": 41.899133, "lon": 12.474847, "p": "a"}, {"n": "Portrait Roma, Lungarno Collection", "cat": "stay", "tier": "Grand", "a": "Spanish Steps / Tridente (Via Condotti)", "d": "The Ferragamo family's rooftop townhouse above their flagship — private, stylish, all-suite.", "lat": 41.905644, "lon": 12.481515, "p": "a"}, {"n": "JK Place Roma", "cat": "stay", "tier": "Grand", "a": "Spanish Steps / Tridente (Via di Monte d'Oro)", "d": "A design-led townhouse near Piazza del Popolo that feels like a private Roman residence.", "lat": 41.905639, "lon": 12.482358, "p": "v"}, {"n": "Hotel Vilòn", "cat": "stay", "tier": "Luxury", "a": "Spanish Steps / Tridente (via dell'Arancio)", "d": "A hidden 16th-century palazzo annexe of the Borghese estate — an intimate secret in the Tridente.", "lat": 41.893274, "lon": 12.471885, "p": "v"}, {"n": "Hotel Palazzo Manfredi", "cat": "stay", "tier": "Luxury", "a": "Colosseum / Monti", "d": "A small palazzo built on a gladiator school, with the Colosseum filling the window.", "lat": 41.890181, "lon": 12.495648, "p": "v"}, {"n": "Maalot Roma", "cat": "stay", "tier": "Luxury", "a": "Centro Storico (Trevi Fountain)", "d": "A composer's former home turned intimate hotel, a stone's throw from the Trevi Fountain.", "lat": 41.89332, "lon": 12.482932, "p": "v"}, {"n": "Singer Palace Hotel", "cat": "stay", "tier": "Luxury", "a": "Centro Storico (Via del Corso / Piazza Venezia)", "d": "A jewel-box palazzo with a rooftop bar over the domes, central to everything.", "lat": 41.896521, "lon": 12.424704, "p": "v"}, {"n": "The Hoxton, Rome", "cat": "stay", "tier": "Premium", "a": "Salario / Trieste (Via Larga)", "d": "A design-conscious, sociable base a little north of the centre — style at a gentler price.", "lat": 41.918279, "lon": 12.497489, "p": "v"}, {"n": "Umiltà 36", "cat": "stay", "tier": "Premium", "a": "Centro Storico (Trevi Fountain)", "d": "A polished boutique house on a quiet lane between the Trevi Fountain and the Quirinale.", "lat": 41.899383, "lon": 12.482417, "p": "v"}, {"n": "The Inn at the Roman Forum", "cat": "stay", "tier": "Premium", "a": "Monti / Roman Forum", "d": "A discreet townhouse hotel with its own patch of ancient ruins beneath it.", "lat": 41.905644, "lon": 12.481515, "p": "v"}, {"n": "Hotel Locarno", "cat": "stay", "tier": "Premium", "a": "Spanish Steps / Tridente (Piazza del Popolo)", "d": "A 1925 Art Deco original near Piazza del Popolo — atmospheric, literary, one of a kind.", "lat": 41.893274, "lon": 12.471885, "p": "v"}, {"n": "The First Roma Arte", "cat": "stay", "tier": "Grand", "a": "Spanish Steps / Tridente (Via del Vantaggio)", "d": "A contemporary-art hotel steps from Piazza del Popolo — museum-grade works on every wall.", "lat": 41.908702, "lon": 12.475567, "p": "v"}, {"n": "La Pergola", "cat": "eat", "tier": "Destination", "a": "Monte Mario (Rome Cavalieri)", "d": "Heinz Beck's rooftop temple — the only three-star in Rome, and one of Italy's greatest dining rooms.", "lat": 41.918987, "lon": 12.446597, "p": "v"}, {"n": "Il Pagliaccio", "cat": "eat", "tier": "Destination", "a": "Centro Storico (Via dei Banchi Vecchi)", "d": "Anthony Genovese's quietly brilliant contemporary cooking, two stars held for years.", "lat": 41.897822, "lon": 12.467496, "p": "v"}, {"n": "Enoteca La Torre", "cat": "eat", "tier": "Destination", "a": "Prati (Villa Laetitia, Tiber-side)", "d": "Domenico Stile's refined kitchen inside a Liberty-style villa on the Tiber.", "lat": 41.916321, "lon": 12.469096, "p": "v"}, {"n": "Acquolina", "cat": "eat", "tier": "Destination", "a": "Spanish Steps / Tridente (Hotel The First)", "d": "Daniele Lippi's seafood-led cooking inside The First — precise, modern, sea-facing in spirit.", "lat": 41.942461, "lon": 12.473972, "p": "v"}, {"n": "Aroma", "cat": "eat", "tier": "Destination", "a": "Colosseum (Palazzo Manfredi)", "d": "Giuseppe Di Iorio's cooking with the Colosseum framed in the window — the most cinematic table in Rome.", "lat": 41.890136, "lon": 12.49553, "p": "v"}, {"n": "Imàgo", "cat": "eat", "tier": "Destination", "a": "Spanish Steps / Tridente (Hassler Roma)", "d": "Andrea Antonini's modern Italian atop the Hassler, the whole city spread beneath the Spanish Steps.", "lat": 41.909671, "lon": 12.460227, "p": "v"}, {"n": "La Terrazza", "cat": "eat", "tier": "Destination", "a": "Ludovisi / Via Veneto (Hotel Eden)", "d": "Fine Italian cooking on the Eden's celebrated roof — arguably the best view of any Rome dining room.", "lat": 41.906582, "lon": 12.486484, "p": "v"}, {"n": "Pipero Roma", "cat": "eat", "tier": "Fine", "a": "Centro Storico (Corso Vittorio Emanuele II)", "d": "Alessandro Pipero's warm, polished room — contemporary cooking rooted in Rome, and a legendary carbonara.", "lat": 41.897721, "lon": 12.468923, "p": "v"}, {"n": "Il Convivio Troiani", "cat": "eat", "tier": "Fine", "a": "Centro Storico (near Piazza Navona)", "d": "The Troiani brothers' long-held star — refined Roman-Italian cooking with a deep cellar.", "lat": 41.901532, "lon": 12.472516, "p": "v"}, {"n": "Per Me Giulio Terrinoni", "cat": "eat", "tier": "Fine", "a": "Centro Storico (Via di Monserrato)", "d": "Giulio Terrinoni's 'tappi' small-plate tasting — seafood-led, generous, personal.", "lat": 41.905863, "lon": 12.519406, "p": "v"}, {"n": "Glass Hostaria", "cat": "eat", "tier": "Fine", "a": "Trastevere", "d": "Cristina Bowerman's glass-fronted room in a medieval lane — Trastevere's most inventive kitchen.", "lat": 41.890511, "lon": 12.469186, "p": "v"}, {"n": "Zia", "cat": "eat", "tier": "Fine", "a": "Trastevere", "d": "A young couple's precise, produce-led bistro — one of the freshest tables in the city.", "lat": 41.895517, "lon": 12.493492, "p": "v"}, {"n": "All'Oro", "cat": "eat", "tier": "Fine", "a": "Flaminio / Pinciano (The H'All Tailor Suite)", "d": "Riccardo Di Giacinto's playful, technical cooking — the amatriciana in tortello is a signature.", "lat": 41.908656, "lon": 12.475591, "p": "v"}, {"n": "INEO", "cat": "eat", "tier": "Fine", "a": "Centro Storico (Anantara Palazzo Naiadi)", "d": "A newly-starred grand-hotel kitchen on Piazza della Repubblica — technique with international reach.", "lat": 41.89332, "lon": 12.482932, "p": "v"}, {"n": "Achilli al Parlamento", "cat": "eat", "tier": "Fine", "a": "Centro Storico (near Montecitorio)", "d": "A great cellar and classical cooking beside Parliament — one of Rome's serious wine destinations.", "lat": 41.902371, "lon": 12.476883, "p": "v"}, {"n": "Pulejo", "cat": "eat", "tier": "Fine", "a": "Prati (near the Vatican)", "d": "Davide Puleio's intimate contemporary room — a quietly ambitious Prati star.", "lat": 41.89332, "lon": 12.482932, "p": "v"}, {"n": "Orma Roma", "cat": "eat", "tier": "Fine", "a": "Ludovisi / Via Veneto", "d": "Roy Caceres' creative kitchen — Latin-inflected, technically sharp modern cooking.", "lat": 41.89332, "lon": 12.482932, "p": "v"}, {"n": "Marco Martini Restaurant", "cat": "eat", "tier": "Fine", "a": "Aventino / San Saba", "d": "A greenhouse-like garden room and Marco Martini's inventive, Roman-rooted cooking.", "lat": 41.99916, "lon": 12.518604, "p": "v"}, {"n": "Moma", "cat": "eat", "tier": "Fine", "a": "Ludovisi / Via Veneto", "d": "A smart bistro-by-day, star-by-night off Via Veneto — refined cooking, easy warmth.", "lat": 41.905648, "lon": 12.490745, "p": "v"}, {"n": "Salumeria Roscioli", "cat": "eat", "tier": "Fine", "a": "Centro Storico (Campo de' Fiori)", "d": "Part deli, part cellar, part dining counter — voted the best trattoria in all of Italy.", "lat": 41.89422, "lon": 12.47426, "p": "v"}, {"n": "Armando al Pantheon", "cat": "eat", "tier": "Smart", "a": "Centro Storico (Pantheon)", "d": "Classic Roman cooking beside the Pantheon since 1961 — a family institution that never sold out.", "lat": 41.89906, "lon": 12.476199, "p": "v"}, {"n": "Felice a Testaccio", "cat": "eat", "tier": "Smart", "a": "Testaccio", "d": "The temple of Roman classics in the city's most Roman quarter — the cacio e pepe tossed at your table.", "lat": 41.878501, "lon": 12.477466, "p": "v"}, {"n": "Romanè", "cat": "eat", "tier": "Smart", "a": "Prati", "d": "Stefano Callegari's ode to Roman home cooking — comfort classics, done with real care.", "lat": 41.886408, "lon": 12.491875, "p": "v"}, {"n": "Trattoria Pennestri", "cat": "eat", "tier": "Smart", "a": "Ostiense", "d": "A chef-and-sommelier couple's warm modern trattoria — Lazio cooking with a wine list to match.", "lat": 41.873355, "lon": 12.479877, "p": "v"}, {"n": "53 Untitled", "cat": "eat", "tier": "Smart", "a": "Centro Storico (near Piazza Navona)", "d": "Two women running a tiny small-plates room — Roman roots with the occasional Asian turn.", "lat": 41.877284, "lon": 12.526576, "p": "v"}, {"n": "Moi", "cat": "eat", "tier": "Smart", "a": "Ostiense / Garbatella", "d": "Local, seasonal cooking in an easy neighbourhood room — quietly one of the city's best-value tables.", "lat": 41.929478, "lon": 12.516757, "p": "v"}, {"n": "QuarantunoDodici", "cat": "eat", "tier": "Smart", "a": "Ostiense", "d": "Fresh, unfussy seafood at a price the grand rooms can't touch.", "lat": 41.89332, "lon": 12.482932, "p": "v"}, {"n": "L'Osteria della Trippa", "cat": "eat", "tier": "Casual", "a": "Rome", "d": "Roman offal-and-classics cooking with real conviction — honest and generous.", "lat": 41.911647, "lon": 12.456474, "p": "v"}, {"n": "Hosteria Grappolo d'Oro", "cat": "eat", "tier": "Smart", "a": "Centro Storico (Campo de' Fiori)", "d": "A dependable, long-loved central osteria doing Roman classics without the tourist markup.", "lat": 41.896287, "lon": 12.472233, "p": "v"}, {"n": "Seu Pizza Illuminati", "cat": "eat", "tier": "Smart", "a": "Trastevere / Gianicolense", "d": "Pier Daniele Seu's pizzeria — the third-best in all of Italy, and the city's most creative pies.", "lat": 41.879697, "lon": 12.468399, "p": "v"}, {"n": "180g Pizzeria Romana", "cat": "eat", "tier": "Casual", "a": "Centocelle", "d": "Jacopo Mercuro's thin, crisp Roman pizza — proof the best pies are out in the neighbourhoods.", "lat": 41.878013, "lon": 12.563979, "p": "v"}, {"n": "La Gatta Mangiona", "cat": "eat", "tier": "Casual", "a": "Monteverde", "d": "A long-running Monteverde pizzeria that keeps its place among Italy's very best.", "lat": 41.875731, "lon": 12.447715, "p": "v"}, {"n": "Pizzarium Bonci", "cat": "eat", "tier": "Casual", "a": "Prati (near the Vatican)", "d": "Gabriele Bonci's legendary pizza al taglio counter — the slice that changed Roman pizza.", "lat": 41.906697, "lon": 12.446661, "p": "v"}, {"n": "Antico Forno Roscioli", "cat": "eat", "tier": "Casual", "a": "Centro Storico (Campo de' Fiori)", "d": "The Roscioli family bakery — pizza al taglio, supplì and pastries from a historic central forno.", "lat": 41.894647, "lon": 12.474264, "p": "v"}, {"n": "The Colosseum", "cat": "do", "tier": "", "a": "Colosseo / Ancient Rome", "d": "The largest amphitheatre ever built, where 50,000 Romans watched gladiators. Book the timed guided access to the arena floor and the underground hypogeum, or the top-tier Belvedere level, to skip the crush and stand where the emperors did. Early-morning or after-dark private tours are worth arranging.", "lat": 41.890244, "lon": 12.492337, "p": "v"}, {"n": "Roman Forum & Palatine Hill", "cat": "do", "tier": "", "a": "Colosseo / Ancient Rome", "d": "The political and religious heart of the ancient city, with the Palatine rising above it where emperors kept their palaces. Walk the Via Sacra at opening time, then climb the Palatine for a quiet, elevated view over the Forum and across to the Colosseum. A private guide turns the ruins into a coherent story for the family.", "lat": 41.890942, "lon": 12.491903, "p": "a"}, {"n": "The Pantheon", "cat": "do", "tier": "", "a": "Centro Storico / Pantheon", "d": "The best-preserved building of ancient Rome and still the world's largest unreinforced concrete dome, with an open oculus that drops a shaft of light onto the marble floor. Free to enter but reserve a timed ticket; go at opening to have the rotunda near-empty, or during rain to watch the water fall through the eye.", "lat": 41.899312, "lon": 12.476772, "p": "v"}, {"n": "St. Peter's Basilica", "cat": "do", "tier": "", "a": "Vatican City", "d": "The largest church in Christendom, holding Michelangelo's Pietà and Bernini's soaring bronze baldachin. Climb the cupola for the finest rooftop panorama over St. Peter's Square. Dress modestly (shoulders and knees covered), and consider an early-access or scavi (necropolis) tour to the tomb of St. Peter beneath the floor.", "lat": 41.90399, "lon": 12.461021, "p": "v"}, {"n": "Vatican Museums & Sistine Chapel", "cat": "do", "tier": "", "a": "Vatican City", "d": "Miles of galleries ending in Michelangelo's Sistine Chapel ceiling and Raphael's Rooms. It receives up to 25,000 visitors a day, so a private early-entry or key-master 'doors open' tour before the public crowds is the only civilised way to see it. Books out well ahead in high season.", "lat": 41.903051, "lon": 12.464001, "p": "a"}, {"n": "Galleria Borghese", "cat": "do", "tier": "", "a": "Villa Borghese / Pinciano", "d": "Cardinal Scipione Borghese's jewel-box villa, holding Bernini's Apollo and Daphne and Rape of Proserpina and a room of Caravaggios. Entry is by strict two-hour timed slot with a capped number of visitors, so it never feels crowded; book two to three weeks ahead. Small enough to enjoy with children.", "lat": 41.914113, "lon": 12.492105, "p": "v"}, {"n": "Capitoline Museums", "cat": "do", "tier": "", "a": "Campidoglio / Centro Storico", "d": "The world's oldest public museum, set on Michelangelo's Piazza del Campidoglio. Home to the she-wolf of Rome, the original equestrian Marcus Aurelius, and the colossal fragments of Constantine. The Tabularium terrace gives a superb, less-visited overlook of the Roman Forum below.", "lat": 41.892666, "lon": 12.482201, "p": "v"}, {"n": "Castel Sant'Angelo", "cat": "do", "tier": "", "a": "Borgo / Vatican", "d": "Hadrian's cylindrical mausoleum turned papal fortress, linked to the Vatican by a secret escape corridor. Spiral up through the ramps to the rooftop terrace for a 360-degree sweep over the Tiber and St. Peter's dome. The Bernini angels on the bridge outside are a photograph in themselves.", "lat": 41.903118, "lon": 12.466343, "p": "v"}, {"n": "Trevi Fountain", "cat": "do", "tier": "", "a": "Trevi / Centro Storico", "d": "The grandest Baroque fountain in the world, filling a whole piazza with tumbling water and sea-gods. Toss a coin over your left shoulder to ensure a return to Rome. Come very early or late at night to see it without the daytime scrum; the newly limited-access viewing area keeps numbers down.", "lat": 41.900978, "lon": 12.483285, "p": "v"}, {"n": "Piazza Navona", "cat": "do", "tier": "", "a": "Centro Storico", "d": "Rome's most theatrical square, laid out on the shape of an ancient stadium, with Bernini's Fountain of the Four Rivers as its centrepiece facing Borromini's church of Sant'Agnese. An evening passeggiata here, coffee at a cafe table, and the street artists at work is the essence of the city.", "lat": 41.898928, "lon": 12.473118, "p": "v"}, {"n": "Spanish Steps & Piazza di Spagna", "cat": "do", "tier": "", "a": "Spagna / Tridente", "d": "The 135-step sweep up to the Trinità dei Monti church, flanked by the luxury flagships of Via dei Condotti (Bulgari, Valentino, the Rome maisons) at the foot. The natural start point for the city's finest shopping. Note that sitting on the steps is now fined, so pause at the Barcaccia fountain instead.", "lat": 41.905639, "lon": 12.482358, "p": "v"}, {"n": "Basilica di San Clemente", "cat": "do", "tier": "", "a": "Celio / Monti", "d": "Three cities in one: a 12th-century basilica atop a 4th-century church, atop a Roman house with a pagan Mithraic temple and an underground stream you can still hear running. Descending the levels is like reading Rome's history in reverse. A quiet, uncrowded marvel a few minutes from the Colosseum.", "lat": 41.889314, "lon": 12.497466, "p": "v"}, {"n": "Basilica di Santa Maria Maggiore", "cat": "do", "tier": "", "a": "Esquilino / Monti", "d": "The largest Marian basilica in Rome and one of the four papal basilicas, blazing with 5th-century gold mosaics and a coffered ceiling gilded with the first gold brought from the Americas. Far calmer than St. Peter's, and it now holds the tomb of Pope Francis.", "lat": 41.897627, "lon": 12.49847, "p": "v"}, {"n": "San Luigi dei Francesi", "cat": "do", "tier": "", "a": "Centro Storico / Pantheon", "d": "The French national church near Piazza Navona, whose Contarelli Chapel holds three of Caravaggio's greatest canvases on the life of St. Matthew. Free to enter; bring coins to light the paintings. A ten-minute detour that rivals any museum in the city.", "lat": 41.899588, "lon": 12.474543, "p": "v"}, {"n": "Basilica di San Giovanni in Laterano", "cat": "do", "tier": "", "a": "San Giovanni / Esquilino", "d": "The cathedral of Rome and the pope's own church, older and, in Catholic rank, higher than St. Peter's, with a monumental nave of apostle statues. Across the road the Scala Santa, said to be the stairs Christ climbed before Pilate, is still ascended on the knees by pilgrims.", "lat": 41.885849, "lon": 12.505587, "p": "v"}, {"n": "Trastevere", "cat": "do", "tier": "", "a": "Trastevere", "d": "The most atmospheric quarter, a tangle of ivy-hung lanes and small piazzas on the Tiber's far bank that still feels like the Rome of old films. Wander in the early evening, see the shimmering medieval mosaics of Santa Maria in Trastevere, and settle into a family-run trattoria. Excellent for a slow, unhurried dinner.", "lat": 41.891159, "lon": 12.466846, "p": "v"}, {"n": "Monti", "cat": "do", "tier": "", "a": "Monti / Rione I", "d": "Rome's oldest quarter turned bohemian-chic, a five-minute walk from the Forum yet worlds calmer. Cobbled streets of independent boutiques, vintage ateliers, wine bars and quiet piazzas (Piazza della Madonna dei Monti is the local heart). The best neighbourhood for browsing and aperitivo away from the crowds.", "lat": 41.891973, "lon": 12.495658, "p": "v"}, {"n": "Testaccio", "cat": "do", "tier": "", "a": "Testaccio", "d": "The true home of Roman cooking, a working-class district built on a hill of ancient broken amphorae. Its covered market (Mercato di Testaccio) is a food-lover's morning, and the trattorias here serve the classic cucina romana. A neighbourhood for eating rather than sightseeing.", "lat": 41.878818, "lon": 12.476769, "p": "v"}, {"n": "Villa Borghese Gardens", "cat": "do", "tier": "", "a": "Pinciano / Villa Borghese", "d": "Rome's grand landscaped park, with a boating lake, the Pincio terrace overlooking Piazza del Popolo, shaded paths and pony-and-bike rentals. The green lung of the centre and ideal with children or for a multi-generation afternoon between museum visits. The Bioparco zoo sits inside for younger travellers.", "lat": 41.914411, "lon": 12.484844, "p": "v"}, {"n": "Giardino degli Aranci (Orange Garden)", "cat": "do", "tier": "", "a": "Aventino / Aventine Hill", "d": "A serene walled garden of orange trees on the Aventine with a terrace framing one of the loveliest, and least crowded, sunset views over the domes and rooftops of Rome. Adjoining is the beautiful basilica of Santa Sabina. A romantic, restful counterpoint to the busy centre.", "lat": 41.884926, "lon": 12.480451, "p": "v"}, {"n": "The Aventine Keyhole", "cat": "do", "tier": "", "a": "Aventino / Aventine Hill", "d": "At the Priory of the Knights of Malta, an ordinary green door hides a keyhole that frames the dome of St. Peter's perfectly down an avenue of clipped hedges, three sovereign territories in one glance. A tiny, magical secret; expect a short queue for the single peephole.", "lat": 41.884972, "lon": 12.479085, "p": "v"}, {"n": "Janiculum Hill (Gianicolo)", "cat": "do", "tier": "", "a": "Gianicolo / Trastevere", "d": "The high ridge above Trastevere gives the widest panorama over the entire historic centre, with the domes and campaniles laid out below. A cannon is fired here at exactly noon each day, a tradition since 1847. Best reached by car or a short taxi ride; wonderful at dusk.", "lat": 41.888649, "lon": 12.461253, "p": "v"}, {"n": "Galleria Doria Pamphilj", "cat": "do", "tier": "", "a": "Centro Storico / Via del Corso", "d": "Still the private palace and collection of the Doria Pamphilj family, its gilded galleries hung floor-to-ceiling with Caravaggio, Titian and Velázquez's electric portrait of Pope Innocent X. The included audio guide, narrated by the family's own heir, is one of the most personal in Rome. Rarely crowded.", "lat": 41.897824, "lon": 12.481561, "p": "v"}, {"n": "Baths of Caracalla", "cat": "do", "tier": "", "a": "Aventino / Celio", "d": "The towering, half-standing ruins of Rome's most opulent imperial baths, once serving thousands of bathers amid marble, pools and libraries. Vast, evocative and far quieter than the Forum. In summer the site hosts open-air opera and ballet under the walls, a spectacular private-box evening.", "lat": 41.878828, "lon": 12.492474, "p": "v"}, {"n": "Appian Way (Via Appia Antica)", "cat": "do", "tier": "", "a": "Appia Antica", "d": "The 'queen of roads,' begun in 312 BC, running out of the city past tombs, ruined villas and umbrella pines on its original basalt paving. Hire bikes or arrange a private car-and-guide on a car-free Sunday to combine the countryside with the catacombs. A green escape only minutes from the centre.", "lat": 41.866257, "lon": 12.50399, "p": "v"}, {"n": "Catacombs of San Callisto", "cat": "do", "tier": "", "a": "Appia Antica", "d": "Miles of underground galleries where early Christians buried their dead, including many of the first popes. Visited only by guided tour, the cool, candle-quiet tunnels are a moving contrast to the sunlit road above. San Sebastiano and Domitilla nearby offer the same on a smaller scale.", "lat": 41.858901, "lon": 12.510753, "p": "v"}, {"n": "Campo de' Fiori Market", "cat": "do", "tier": "", "a": "Centro Storico", "d": "Rome's oldest open-air market fills this piazza every morning with produce, flowers, spices and stalls, under the brooding statue of the philosopher Giordano Bruno. Come before mid-morning for the real market, then watch it turn into a lively bar-lined square by night.", "lat": 41.895577, "lon": 12.472159, "p": "v"}, {"n": "Mercato di Testaccio", "cat": "do", "tier": "", "a": "Testaccio", "d": "A modern covered market that is the beating heart of Roman food culture, with greengrocers, cheesemongers and celebrated street-food counters. The place to graze, taste and understand the city's cooking; go with a private food guide for the full spread. Good vegetarian options among the stalls.", "lat": 41.877602, "lon": 12.47358, "p": "v"}, {"n": "Bocca della Verità", "cat": "do", "tier": "", "a": "Ripa / Aventino", "d": "The ancient marble 'Mouth of Truth,' said to bite off the hand of a liar, set in the portico of the pretty medieval church of Santa Maria in Cosmedin. A quick, fun photo stop, familiar from Roman Holiday, and best paired with the nearby Forum Boarium temples.", "lat": 41.888257, "lon": 12.481544, "p": "v"}, {"n": "Villa Farnesina", "cat": "do", "tier": "", "a": "Trastevere", "d": "A perfect Renaissance villa on the Trastevere bank, frescoed by Raphael with the Triumph of Galatea and the Loggia of Cupid and Psyche. Small, exquisite and gloriously uncrowded; open mostly mornings. One of Rome's most refined and least-known hours of beauty.", "lat": 41.893628, "lon": 12.467333, "p": "v"}, {"n": "Ara Pacis Museum", "cat": "do", "tier": "", "a": "Campo Marzio / Tridente", "d": "The Altar of Augustan Peace, a masterpiece of imperial relief sculpture, housed in a luminous Richard Meier glass pavilion beside the Tiber. A cool, calm, architecturally striking museum near the Mausoleum of Augustus. Small enough to enjoy in an hour.", "lat": 41.906151, "lon": 12.475502, "p": "v"}, {"n": "Centrale Montemartini", "cat": "do", "tier": "", "a": "Ostiense", "d": "Classical Roman statues displayed against the turbines and machinery of a 1900s power station, one of the most original museum settings in Europe. An offshoot of the Capitoline collection, it is almost always empty. A rewarding detour for design-minded travellers into the Ostiense street-art district.", "lat": 41.866547, "lon": 12.478015, "p": "v"}, {"n": "MAXXI – National Museum of 21st-Century Arts", "cat": "do", "tier": "", "a": "Flaminio", "d": "Zaha Hadid's sinuous concrete building is as much the attraction as the contemporary art and architecture it holds. Rome's answer to the Guggenheim, in the smart Flaminio quarter near the Auditorium. For collectors and design lovers seeking modern Rome, not ancient.", "lat": 41.912848, "lon": 12.47716, "p": "a"}, {"n": "Piazza del Popolo & Santa Maria del Popolo", "cat": "do", "tier": "", "a": "Tridente / Flaminio", "d": "A vast oval piazza crowned by an Egyptian obelisk, with twin churches and a ramp up to the Pincio terrace. The church of Santa Maria del Popolo, on its north side, holds two more searing Caravaggios and a Raphael-designed chapel, free to see. The gateway to the Tridente shopping streets.", "lat": 41.911473, "lon": 12.476546, "p": "v"}, {"n": "Jewish Ghetto & Portico d'Ottavia", "cat": "do", "tier": "", "a": "Sant'Angelo / Ghetto", "d": "One of Europe's oldest Jewish quarters, a quiet warren of lanes around the Great Synagogue and the ancient Portico d'Ottavia, famous for its Roman-Jewish cooking (the fried artichoke). Atmospheric, deeply historic and central. Ideal for a reflective walk and a distinctive lunch.", "lat": 41.893008, "lon": 12.477447, "p": "v"}, {"n": "Palazzo Barberini (Galleria Nazionale d'Arte Antica)", "cat": "do", "tier": "", "a": "Barberini / Trevi", "d": "A colossal Baroque palace by Bernini and Borromini holding Raphael's La Fornarina, Caravaggio's Judith Beheading Holofernes and Holbein's Henry VIII, under Pietro da Cortona's dizzying ceiling. Grand, uncrowded and just above the Trevi Fountain. Don't miss Borromini's clever oval staircase.", "lat": 41.893289, "lon": 12.46669, "p": "v"}, {"n": "Protestant Cemetery (Cimitero Acattolico)", "cat": "do", "tier": "", "a": "Testaccio", "d": "A hushed, cypress-shaded garden cemetery beneath the ancient Pyramid of Cestius, where Keats and Shelley lie among prowling cats and mossy tombs. One of the most peaceful and poetic corners of the whole city. A quiet hour for the contemplative traveller.", "lat": 41.876019, "lon": 12.47928, "p": "v"}, {"n": "Quartiere Coppedè", "cat": "do", "tier": "", "a": "Trieste / Salario", "d": "A tiny, fantastical district of Art Nouveau and Gothic-fairytale mansions, spiderweb archways and a whimsical fountain of frogs, built in the 1920s and known to almost no tourists. A surreal, dreamlike ten-minute wander for those who have already seen the classics.", "lat": 41.918364, "lon": 12.502189, "p": "v"}, {"n": "Basilica di Santa Cecilia in Trastevere", "cat": "do", "tier": "", "a": "Trastevere", "d": "A serene Trastevere basilica over the house of the martyr St. Cecilia, with a swooning marble statue by Maderno. Ask the nuns for access to the Cavallini fresco of the Last Judgement upstairs, a shimmering, little-seen medieval masterpiece. A tranquil retreat from the neighbourhood's bustle.", "lat": 41.887562, "lon": 12.475857, "p": "v"}, {"n": "EUR District", "cat": "do", "tier": "", "a": "EUR", "d": "Mussolini's monumental Rationalist city-within-a-city, dominated by the 'Square Colosseum' (Palazzo della Civiltà Italiana, now the Fendi headquarters). A striking, spacious contrast to the medieval centre for architecture and design enthusiasts, with a lake and modern museums.", "lat": 41.856603, "lon": 12.475936, "p": "v"}, {"n": "Domus Aurea", "cat": "do", "tier": "", "a": "Colle Oppio / Monti", "d": "Nero's buried golden palace, explored by hard-hat guided tour with a virtual-reality reconstruction that restores its lost frescoed halls. One of Rome's most exclusive underground experiences, running mostly at weekends and booking out fast. Genuinely memorable for older children and history buffs.", "lat": 41.891262, "lon": 12.495111, "p": "v"}, {"n": "Tivoli – Villa d'Este & Hadrian's Villa", "cat": "do", "tier": "", "a": "Day trip (Tivoli, ~30 km east)", "d": "Two UNESCO sites an hour from Rome: Villa d'Este's terraced Renaissance garden of hundreds of fountains, and Hadrian's Villa, the vast imperial estate the emperor built as an anthology of the empire. A full day, best done with a private driver-guide to cover both without stress.", "lat": 41.940784, "lon": 12.776289, "p": "v"}, {"n": "Ostia Antica", "cat": "do", "tier": "", "a": "Day trip (Ostia, ~30 min)", "d": "The remarkably intact ruined port-city of ancient Rome, with paved streets, an amphitheatre, mosaic-floored baths and taverns, yet a fraction of Pompeii's crowds and far closer to the city. A half-day of walking through a real Roman town; superb for families who found the Forum too abstract.", "lat": 41.753637, "lon": 12.28574, "p": "v"}, {"n": "Castel Gandolfo & the Castelli Romani", "cat": "do", "tier": "", "a": "Day trip (Alban Hills, ~30 km SE)", "d": "The volcanic hill towns south of Rome, cooler in summer, centred on Castel Gandolfo, the papal summer palace and gardens above a crater lake, now open to the public. Combine with Frascati for its villas and crisp white wine. A relaxed, scenic day of gardens, lake views and long lunches.", "lat": 41.761054, "lon": 12.65823, "p": "v"}, {"n": "Cerveteri Etruscan Necropolis (Banditaccia)", "cat": "do", "tier": "", "a": "Day trip (Cerveteri, ~50 km NW)", "d": "A 'city of the dead' of round, grass-topped Etruscan tombs laid out like streets and houses, older than Rome itself and utterly unlike anything in the centre. Paired with nearby Tarquinia's painted tombs, it is a fascinating, uncrowded day for those wanting the civilisation that preceded the Romans.", "lat": 41.991944, "lon": 12.099575, "p": "v"}, {"n": "Drink Kong", "cat": "party", "tier": "Cocktail bars", "a": "Monti", "d": "Rome's globally-ranked cocktail bar — a neon-lit, Blade Runner-ish temple of serious drinks-making.", "lat": 41.895144, "lon": 12.497865, "p": "v"}, {"n": "Jerry Thomas Speakeasy", "cat": "party", "tier": "Cocktail bars", "a": "Centro Storico (near Campo de' Fiori)", "d": "Rome's original speakeasy — a password-and-membership 1920s den that started the city's cocktail revival.", "lat": 41.897847, "lon": 12.467919, "p": "v"}, {"n": "Freni e Frizioni", "cat": "party", "tier": "Late & loud", "a": "Trastevere", "d": "A former mechanic's garage turned Trastevere institution — aperitivo on the terrace above the river.", "lat": 41.891284, "lon": 12.470669, "p": "v"}, {"n": "Cielo Terrace, Hotel de la Ville", "cat": "party", "tier": "Rooftops", "a": "Spanish Steps / Tridente", "d": "A rooftop cocktail terrace at the top of the Spanish Steps, the domes of Rome laid out below.", "lat": 41.905707, "lon": 12.48421, "p": "v"}, {"n": "Il Giardino Ristorante & Terrace, Hotel Eden", "cat": "party", "tier": "Rooftops", "a": "Ludovisi / Via Veneto", "d": "The Eden's celebrated rooftop — arguably the single best panorama of Rome over a considered drink.", "lat": 41.905027, "lon": 12.488615, "p": "a"}, {"n": "Stravinskij Bar, Hotel de Russie", "cat": "party", "tier": "Landmark bars", "a": "Spanish Steps / Tridente", "d": "A drink in the Hotel de Russie's tiered secret garden — the most romantic courtyard in Rome.", "lat": 41.895364, "lon": 12.475982, "p": "v"}]}
+{
+  "center": [
+    41.89332,
+    12.482932
+  ],
+  "venues": [
+    {
+      "n": "Bvlgari Hotel Roma",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Spanish Steps / Tridente (Mausoleum of Augustus)",
+      "d": "The jeweller's Roman house \u2014 a 1930s rationalist palace facing the Mausoleum of Augustus, and one of the finest hotels on earth.",
+      "lat": 41.905492,
+      "lon": 12.481713,
+      "photos": []
+    },
+    {
+      "n": "Hotel Hassler Roma",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Spanish Steps / Tridente",
+      "d": "Perched at the very top of the Spanish Steps \u2014 the grand Roman address, sixth-generation family-run.",
+      "lat": 41.905986,
+      "lon": 12.483692,
+      "photos": []
+    },
+    {
+      "n": "Hotel de Russie, Rocco Forte",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Spanish Steps / Tridente (Piazza del Popolo)",
+      "d": "A historic hideaway between the Spanish Steps and Piazza del Popolo, built around a tiered secret garden.",
+      "lat": 41.90607,
+      "lon": 12.482872,
+      "photos": []
+    },
+    {
+      "n": "Hotel Eden, Dorchester Collection",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Ludovisi / Via Veneto",
+      "d": "A Dorchester Collection grande dame above Via Veneto, with the finest rooftop view in the Eternal City.",
+      "lat": 41.905027,
+      "lon": 12.488615,
+      "photos": []
+    },
+    {
+      "n": "Six Senses Rome",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Centro Storico (Piazza San Marcello)",
+      "d": "A wellness-led palazzo in the historic centre \u2014 travertine, an Etruscan-inspired spa and Roman baths reborn.",
+      "lat": 41.898793,
+      "lon": 12.481629,
+      "photos": []
+    },
+    {
+      "n": "Orient Express La Minerva",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Centro Storico (Pantheon / Piazza della Minerva)",
+      "d": "The first Orient Express hotel \u2014 a 17th-century palazzo beside the Pantheon, reborn with 1930s glamour.",
+      "lat": 42.094251,
+      "lon": 12.269806,
+      "photos": []
+    },
+    {
+      "n": "Rocco Forte Hotel de la Ville",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Spanish Steps / Tridente",
+      "d": "At the head of the Spanish Steps \u2014 Rocco Forte's polished, contemporary counterpoint to the Hassler.",
+      "lat": 41.905707,
+      "lon": 12.48421,
+      "photos": []
+    },
+    {
+      "n": "The St. Regis Rome",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Centro Storico (Repubblica)",
+      "d": "A gilded Beaux-Arts landmark \u2014 the first luxury hotel in Rome, restored to full-dress grandeur.",
+      "lat": 41.904156,
+      "lon": 12.495092,
+      "photos": []
+    },
+    {
+      "n": "Anantara Palazzo Naiadi Rome",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Centro Storico (Piazza della Repubblica)",
+      "d": "A full-scale neoclassical grand hotel behind a colonnaded fa\u00e7ade on Piazza della Repubblica.",
+      "lat": 41.899133,
+      "lon": 12.474847,
+      "photos": []
+    },
+    {
+      "n": "Portrait Roma, Lungarno Collection",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Spanish Steps / Tridente (Via Condotti)",
+      "d": "The Ferragamo family's rooftop townhouse above their flagship \u2014 private, stylish, all-suite.",
+      "lat": 41.905644,
+      "lon": 12.481515,
+      "photos": []
+    },
+    {
+      "n": "JK Place Roma",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Spanish Steps / Tridente (Via di Monte d'Oro)",
+      "d": "A design-led townhouse near Piazza del Popolo that feels like a private Roman residence.",
+      "lat": 41.905639,
+      "lon": 12.482358,
+      "photos": []
+    },
+    {
+      "n": "Hotel Vil\u00f2n",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Spanish Steps / Tridente (via dell'Arancio)",
+      "d": "A hidden 16th-century palazzo annexe of the Borghese estate \u2014 an intimate secret in the Tridente.",
+      "lat": 41.893274,
+      "lon": 12.471885,
+      "photos": []
+    },
+    {
+      "n": "Hotel Palazzo Manfredi",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Colosseum / Monti",
+      "d": "A small palazzo built on a gladiator school, with the Colosseum filling the window.",
+      "lat": 41.890181,
+      "lon": 12.495648,
+      "photos": []
+    },
+    {
+      "n": "Maalot Roma",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Centro Storico (Trevi Fountain)",
+      "d": "A composer's former home turned intimate hotel, a stone's throw from the Trevi Fountain.",
+      "lat": 41.89332,
+      "lon": 12.482932,
+      "photos": []
+    },
+    {
+      "n": "Singer Palace Hotel",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Centro Storico (Via del Corso / Piazza Venezia)",
+      "d": "A jewel-box palazzo with a rooftop bar over the domes, central to everything.",
+      "lat": 41.896521,
+      "lon": 12.424704,
+      "photos": []
+    },
+    {
+      "n": "The Hoxton, Rome",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Salario / Trieste (Via Larga)",
+      "d": "A design-conscious, sociable base a little north of the centre \u2014 style at a gentler price.",
+      "lat": 41.918279,
+      "lon": 12.497489,
+      "photos": []
+    },
+    {
+      "n": "Umilt\u00e0 36",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Centro Storico (Trevi Fountain)",
+      "d": "A polished boutique house on a quiet lane between the Trevi Fountain and the Quirinale.",
+      "lat": 41.899383,
+      "lon": 12.482417,
+      "photos": []
+    },
+    {
+      "n": "The Inn at the Roman Forum",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Monti / Roman Forum",
+      "d": "A discreet townhouse hotel with its own patch of ancient ruins beneath it.",
+      "lat": 41.905644,
+      "lon": 12.481515,
+      "photos": []
+    },
+    {
+      "n": "Hotel Locarno",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Spanish Steps / Tridente (Piazza del Popolo)",
+      "d": "A 1925 Art Deco original near Piazza del Popolo \u2014 atmospheric, literary, one of a kind.",
+      "lat": 41.893274,
+      "lon": 12.471885,
+      "photos": []
+    },
+    {
+      "n": "The First Roma Arte",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Spanish Steps / Tridente (Via del Vantaggio)",
+      "d": "A contemporary-art hotel steps from Piazza del Popolo \u2014 museum-grade works on every wall.",
+      "lat": 41.908702,
+      "lon": 12.475567,
+      "photos": []
+    },
+    {
+      "n": "La Pergola",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Monte Mario (Rome Cavalieri)",
+      "d": "Heinz Beck's rooftop temple \u2014 the only three-star in Rome, and one of Italy's greatest dining rooms.",
+      "lat": 41.918987,
+      "lon": 12.446597,
+      "photos": []
+    },
+    {
+      "n": "Il Pagliaccio",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Centro Storico (Via dei Banchi Vecchi)",
+      "d": "Anthony Genovese's quietly brilliant contemporary cooking, two stars held for years.",
+      "lat": 41.897822,
+      "lon": 12.467496,
+      "photos": []
+    },
+    {
+      "n": "Enoteca La Torre",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Prati (Villa Laetitia, Tiber-side)",
+      "d": "Domenico Stile's refined kitchen inside a Liberty-style villa on the Tiber.",
+      "lat": 41.916321,
+      "lon": 12.469096,
+      "photos": []
+    },
+    {
+      "n": "Acquolina",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Spanish Steps / Tridente (Hotel The First)",
+      "d": "Daniele Lippi's seafood-led cooking inside The First \u2014 precise, modern, sea-facing in spirit.",
+      "lat": 41.942461,
+      "lon": 12.473972,
+      "photos": []
+    },
+    {
+      "n": "Aroma",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Colosseum (Palazzo Manfredi)",
+      "d": "Giuseppe Di Iorio's cooking with the Colosseum framed in the window \u2014 the most cinematic table in Rome.",
+      "lat": 41.890136,
+      "lon": 12.49553,
+      "photos": []
+    },
+    {
+      "n": "Im\u00e0go",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Spanish Steps / Tridente (Hassler Roma)",
+      "d": "Andrea Antonini's modern Italian atop the Hassler, the whole city spread beneath the Spanish Steps.",
+      "lat": 41.909671,
+      "lon": 12.460227,
+      "photos": []
+    },
+    {
+      "n": "La Terrazza",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Ludovisi / Via Veneto (Hotel Eden)",
+      "d": "Fine Italian cooking on the Eden's celebrated roof \u2014 arguably the best view of any Rome dining room.",
+      "lat": 41.906582,
+      "lon": 12.486484,
+      "photos": []
+    },
+    {
+      "n": "Pipero Roma",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Centro Storico (Corso Vittorio Emanuele II)",
+      "d": "Alessandro Pipero's warm, polished room \u2014 contemporary cooking rooted in Rome, and a legendary carbonara.",
+      "lat": 41.897721,
+      "lon": 12.468923,
+      "photos": []
+    },
+    {
+      "n": "Il Convivio Troiani",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Centro Storico (near Piazza Navona)",
+      "d": "The Troiani brothers' long-held star \u2014 refined Roman-Italian cooking with a deep cellar.",
+      "lat": 41.901532,
+      "lon": 12.472516,
+      "photos": []
+    },
+    {
+      "n": "Per Me Giulio Terrinoni",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Centro Storico (Via di Monserrato)",
+      "d": "Giulio Terrinoni's 'tappi' small-plate tasting \u2014 seafood-led, generous, personal.",
+      "lat": 41.905863,
+      "lon": 12.519406,
+      "photos": []
+    },
+    {
+      "n": "Glass Hostaria",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Trastevere",
+      "d": "Cristina Bowerman's glass-fronted room in a medieval lane \u2014 Trastevere's most inventive kitchen.",
+      "lat": 41.890511,
+      "lon": 12.469186,
+      "photos": []
+    },
+    {
+      "n": "Zia",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Trastevere",
+      "d": "A young couple's precise, produce-led bistro \u2014 one of the freshest tables in the city.",
+      "lat": 41.895517,
+      "lon": 12.493492,
+      "photos": []
+    },
+    {
+      "n": "All'Oro",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Flaminio / Pinciano (The H'All Tailor Suite)",
+      "d": "Riccardo Di Giacinto's playful, technical cooking \u2014 the amatriciana in tortello is a signature.",
+      "lat": 41.908656,
+      "lon": 12.475591,
+      "photos": []
+    },
+    {
+      "n": "INEO",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Centro Storico (Anantara Palazzo Naiadi)",
+      "d": "A newly-starred grand-hotel kitchen on Piazza della Repubblica \u2014 technique with international reach.",
+      "lat": 41.89332,
+      "lon": 12.482932,
+      "photos": []
+    },
+    {
+      "n": "Achilli al Parlamento",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Centro Storico (near Montecitorio)",
+      "d": "A great cellar and classical cooking beside Parliament \u2014 one of Rome's serious wine destinations.",
+      "lat": 41.902371,
+      "lon": 12.476883,
+      "photos": []
+    },
+    {
+      "n": "Pulejo",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Prati (near the Vatican)",
+      "d": "Davide Puleio's intimate contemporary room \u2014 a quietly ambitious Prati star.",
+      "lat": 41.89332,
+      "lon": 12.482932,
+      "photos": []
+    },
+    {
+      "n": "Orma Roma",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Ludovisi / Via Veneto",
+      "d": "Roy Caceres' creative kitchen \u2014 Latin-inflected, technically sharp modern cooking.",
+      "lat": 41.89332,
+      "lon": 12.482932,
+      "photos": []
+    },
+    {
+      "n": "Marco Martini Restaurant",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Aventino / San Saba",
+      "d": "A greenhouse-like garden room and Marco Martini's inventive, Roman-rooted cooking.",
+      "lat": 41.99916,
+      "lon": 12.518604,
+      "photos": []
+    },
+    {
+      "n": "Moma",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Ludovisi / Via Veneto",
+      "d": "A smart bistro-by-day, star-by-night off Via Veneto \u2014 refined cooking, easy warmth.",
+      "lat": 41.905648,
+      "lon": 12.490745,
+      "photos": []
+    },
+    {
+      "n": "Salumeria Roscioli",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Centro Storico (Campo de' Fiori)",
+      "d": "Part deli, part cellar, part dining counter \u2014 voted the best trattoria in all of Italy.",
+      "lat": 41.89422,
+      "lon": 12.47426,
+      "photos": []
+    },
+    {
+      "n": "Armando al Pantheon",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Centro Storico (Pantheon)",
+      "d": "Classic Roman cooking beside the Pantheon since 1961 \u2014 a family institution that never sold out.",
+      "lat": 41.89906,
+      "lon": 12.476199,
+      "photos": []
+    },
+    {
+      "n": "Felice a Testaccio",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Testaccio",
+      "d": "The temple of Roman classics in the city's most Roman quarter \u2014 the cacio e pepe tossed at your table.",
+      "lat": 41.878501,
+      "lon": 12.477466,
+      "photos": []
+    },
+    {
+      "n": "Roman\u00e8",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Prati",
+      "d": "Stefano Callegari's ode to Roman home cooking \u2014 comfort classics, done with real care.",
+      "lat": 41.886408,
+      "lon": 12.491875,
+      "photos": []
+    },
+    {
+      "n": "Trattoria Pennestri",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Ostiense",
+      "d": "A chef-and-sommelier couple's warm modern trattoria \u2014 Lazio cooking with a wine list to match.",
+      "lat": 41.873355,
+      "lon": 12.479877,
+      "photos": []
+    },
+    {
+      "n": "53 Untitled",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Centro Storico (near Piazza Navona)",
+      "d": "Two women running a tiny small-plates room \u2014 Roman roots with the occasional Asian turn.",
+      "lat": 41.877284,
+      "lon": 12.526576,
+      "photos": []
+    },
+    {
+      "n": "Moi",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Ostiense / Garbatella",
+      "d": "Local, seasonal cooking in an easy neighbourhood room \u2014 quietly one of the city's best-value tables.",
+      "lat": 41.929478,
+      "lon": 12.516757,
+      "photos": []
+    },
+    {
+      "n": "QuarantunoDodici",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Ostiense",
+      "d": "Fresh, unfussy seafood at a price the grand rooms can't touch.",
+      "lat": 41.89332,
+      "lon": 12.482932,
+      "photos": []
+    },
+    {
+      "n": "L'Osteria della Trippa",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Rome",
+      "d": "Roman offal-and-classics cooking with real conviction \u2014 honest and generous.",
+      "lat": 41.911647,
+      "lon": 12.456474,
+      "photos": []
+    },
+    {
+      "n": "Hosteria Grappolo d'Oro",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Centro Storico (Campo de' Fiori)",
+      "d": "A dependable, long-loved central osteria doing Roman classics without the tourist markup.",
+      "lat": 41.896287,
+      "lon": 12.472233,
+      "photos": []
+    },
+    {
+      "n": "Seu Pizza Illuminati",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Trastevere / Gianicolense",
+      "d": "Pier Daniele Seu's pizzeria \u2014 the third-best in all of Italy, and the city's most creative pies.",
+      "lat": 41.879697,
+      "lon": 12.468399,
+      "photos": []
+    },
+    {
+      "n": "180g Pizzeria Romana",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Centocelle",
+      "d": "Jacopo Mercuro's thin, crisp Roman pizza \u2014 proof the best pies are out in the neighbourhoods.",
+      "lat": 41.878013,
+      "lon": 12.563979,
+      "photos": []
+    },
+    {
+      "n": "La Gatta Mangiona",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Monteverde",
+      "d": "A long-running Monteverde pizzeria that keeps its place among Italy's very best.",
+      "lat": 41.875731,
+      "lon": 12.447715,
+      "photos": []
+    },
+    {
+      "n": "Pizzarium Bonci",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Prati (near the Vatican)",
+      "d": "Gabriele Bonci's legendary pizza al taglio counter \u2014 the slice that changed Roman pizza.",
+      "lat": 41.906697,
+      "lon": 12.446661,
+      "photos": []
+    },
+    {
+      "n": "Antico Forno Roscioli",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Centro Storico (Campo de' Fiori)",
+      "d": "The Roscioli family bakery \u2014 pizza al taglio, suppl\u00ec and pastries from a historic central forno.",
+      "lat": 41.894647,
+      "lon": 12.474264,
+      "photos": []
+    },
+    {
+      "n": "The Colosseum",
+      "cat": "do",
+      "tier": "",
+      "a": "Colosseo / Ancient Rome",
+      "d": "The largest amphitheatre ever built, where 50,000 Romans watched gladiators. Book the timed guided access to the arena floor and the underground hypogeum, or the top-tier Belvedere level, to skip the crush and stand where the emperors did. Early-morning or after-dark private tours are worth arranging.",
+      "lat": 41.890244,
+      "lon": 12.492337,
+      "photos": []
+    },
+    {
+      "n": "Roman Forum & Palatine Hill",
+      "cat": "do",
+      "tier": "",
+      "a": "Colosseo / Ancient Rome",
+      "d": "The political and religious heart of the ancient city, with the Palatine rising above it where emperors kept their palaces. Walk the Via Sacra at opening time, then climb the Palatine for a quiet, elevated view over the Forum and across to the Colosseum. A private guide turns the ruins into a coherent story for the family.",
+      "lat": 41.890942,
+      "lon": 12.491903,
+      "photos": []
+    },
+    {
+      "n": "The Pantheon",
+      "cat": "do",
+      "tier": "",
+      "a": "Centro Storico / Pantheon",
+      "d": "The best-preserved building of ancient Rome and still the world's largest unreinforced concrete dome, with an open oculus that drops a shaft of light onto the marble floor. Free to enter but reserve a timed ticket; go at opening to have the rotunda near-empty, or during rain to watch the water fall through the eye.",
+      "lat": 41.899312,
+      "lon": 12.476772,
+      "photos": []
+    },
+    {
+      "n": "St. Peter's Basilica",
+      "cat": "do",
+      "tier": "",
+      "a": "Vatican City",
+      "d": "The largest church in Christendom, holding Michelangelo's Piet\u00e0 and Bernini's soaring bronze baldachin. Climb the cupola for the finest rooftop panorama over St. Peter's Square. Dress modestly (shoulders and knees covered), and consider an early-access or scavi (necropolis) tour to the tomb of St. Peter beneath the floor.",
+      "lat": 41.90399,
+      "lon": 12.461021,
+      "photos": []
+    },
+    {
+      "n": "Vatican Museums & Sistine Chapel",
+      "cat": "do",
+      "tier": "",
+      "a": "Vatican City",
+      "d": "Miles of galleries ending in Michelangelo's Sistine Chapel ceiling and Raphael's Rooms. It receives up to 25,000 visitors a day, so a private early-entry or key-master 'doors open' tour before the public crowds is the only civilised way to see it. Books out well ahead in high season.",
+      "lat": 41.903051,
+      "lon": 12.464001,
+      "photos": []
+    },
+    {
+      "n": "Galleria Borghese",
+      "cat": "do",
+      "tier": "",
+      "a": "Villa Borghese / Pinciano",
+      "d": "Cardinal Scipione Borghese's jewel-box villa, holding Bernini's Apollo and Daphne and Rape of Proserpina and a room of Caravaggios. Entry is by strict two-hour timed slot with a capped number of visitors, so it never feels crowded; book two to three weeks ahead. Small enough to enjoy with children.",
+      "lat": 41.914113,
+      "lon": 12.492105,
+      "photos": []
+    },
+    {
+      "n": "Capitoline Museums",
+      "cat": "do",
+      "tier": "",
+      "a": "Campidoglio / Centro Storico",
+      "d": "The world's oldest public museum, set on Michelangelo's Piazza del Campidoglio. Home to the she-wolf of Rome, the original equestrian Marcus Aurelius, and the colossal fragments of Constantine. The Tabularium terrace gives a superb, less-visited overlook of the Roman Forum below.",
+      "lat": 41.892666,
+      "lon": 12.482201,
+      "photos": []
+    },
+    {
+      "n": "Castel Sant'Angelo",
+      "cat": "do",
+      "tier": "",
+      "a": "Borgo / Vatican",
+      "d": "Hadrian's cylindrical mausoleum turned papal fortress, linked to the Vatican by a secret escape corridor. Spiral up through the ramps to the rooftop terrace for a 360-degree sweep over the Tiber and St. Peter's dome. The Bernini angels on the bridge outside are a photograph in themselves.",
+      "lat": 41.903118,
+      "lon": 12.466343,
+      "photos": []
+    },
+    {
+      "n": "Trevi Fountain",
+      "cat": "do",
+      "tier": "",
+      "a": "Trevi / Centro Storico",
+      "d": "The grandest Baroque fountain in the world, filling a whole piazza with tumbling water and sea-gods. Toss a coin over your left shoulder to ensure a return to Rome. Come very early or late at night to see it without the daytime scrum; the newly limited-access viewing area keeps numbers down.",
+      "lat": 41.900978,
+      "lon": 12.483285,
+      "photos": []
+    },
+    {
+      "n": "Piazza Navona",
+      "cat": "do",
+      "tier": "",
+      "a": "Centro Storico",
+      "d": "Rome's most theatrical square, laid out on the shape of an ancient stadium, with Bernini's Fountain of the Four Rivers as its centrepiece facing Borromini's church of Sant'Agnese. An evening passeggiata here, coffee at a cafe table, and the street artists at work is the essence of the city.",
+      "lat": 41.898928,
+      "lon": 12.473118,
+      "photos": []
+    },
+    {
+      "n": "Spanish Steps & Piazza di Spagna",
+      "cat": "do",
+      "tier": "",
+      "a": "Spagna / Tridente",
+      "d": "The 135-step sweep up to the Trinit\u00e0 dei Monti church, flanked by the luxury flagships of Via dei Condotti (Bulgari, Valentino, the Rome maisons) at the foot. The natural start point for the city's finest shopping. Note that sitting on the steps is now fined, so pause at the Barcaccia fountain instead.",
+      "lat": 41.905639,
+      "lon": 12.482358,
+      "photos": []
+    },
+    {
+      "n": "Basilica di San Clemente",
+      "cat": "do",
+      "tier": "",
+      "a": "Celio / Monti",
+      "d": "Three cities in one: a 12th-century basilica atop a 4th-century church, atop a Roman house with a pagan Mithraic temple and an underground stream you can still hear running. Descending the levels is like reading Rome's history in reverse. A quiet, uncrowded marvel a few minutes from the Colosseum.",
+      "lat": 41.889314,
+      "lon": 12.497466,
+      "photos": []
+    },
+    {
+      "n": "Basilica di Santa Maria Maggiore",
+      "cat": "do",
+      "tier": "",
+      "a": "Esquilino / Monti",
+      "d": "The largest Marian basilica in Rome and one of the four papal basilicas, blazing with 5th-century gold mosaics and a coffered ceiling gilded with the first gold brought from the Americas. Far calmer than St. Peter's, and it now holds the tomb of Pope Francis.",
+      "lat": 41.897627,
+      "lon": 12.49847,
+      "photos": []
+    },
+    {
+      "n": "San Luigi dei Francesi",
+      "cat": "do",
+      "tier": "",
+      "a": "Centro Storico / Pantheon",
+      "d": "The French national church near Piazza Navona, whose Contarelli Chapel holds three of Caravaggio's greatest canvases on the life of St. Matthew. Free to enter; bring coins to light the paintings. A ten-minute detour that rivals any museum in the city.",
+      "lat": 41.899588,
+      "lon": 12.474543,
+      "photos": []
+    },
+    {
+      "n": "Basilica di San Giovanni in Laterano",
+      "cat": "do",
+      "tier": "",
+      "a": "San Giovanni / Esquilino",
+      "d": "The cathedral of Rome and the pope's own church, older and, in Catholic rank, higher than St. Peter's, with a monumental nave of apostle statues. Across the road the Scala Santa, said to be the stairs Christ climbed before Pilate, is still ascended on the knees by pilgrims.",
+      "lat": 41.885849,
+      "lon": 12.505587,
+      "photos": []
+    },
+    {
+      "n": "Trastevere",
+      "cat": "do",
+      "tier": "",
+      "a": "Trastevere",
+      "d": "The most atmospheric quarter, a tangle of ivy-hung lanes and small piazzas on the Tiber's far bank that still feels like the Rome of old films. Wander in the early evening, see the shimmering medieval mosaics of Santa Maria in Trastevere, and settle into a family-run trattoria. Excellent for a slow, unhurried dinner.",
+      "lat": 41.891159,
+      "lon": 12.466846,
+      "photos": []
+    },
+    {
+      "n": "Monti",
+      "cat": "do",
+      "tier": "",
+      "a": "Monti / Rione I",
+      "d": "Rome's oldest quarter turned bohemian-chic, a five-minute walk from the Forum yet worlds calmer. Cobbled streets of independent boutiques, vintage ateliers, wine bars and quiet piazzas (Piazza della Madonna dei Monti is the local heart). The best neighbourhood for browsing and aperitivo away from the crowds.",
+      "lat": 41.891973,
+      "lon": 12.495658,
+      "photos": []
+    },
+    {
+      "n": "Testaccio",
+      "cat": "do",
+      "tier": "",
+      "a": "Testaccio",
+      "d": "The true home of Roman cooking, a working-class district built on a hill of ancient broken amphorae. Its covered market (Mercato di Testaccio) is a food-lover's morning, and the trattorias here serve the classic cucina romana. A neighbourhood for eating rather than sightseeing.",
+      "lat": 41.878818,
+      "lon": 12.476769,
+      "photos": []
+    },
+    {
+      "n": "Villa Borghese Gardens",
+      "cat": "do",
+      "tier": "",
+      "a": "Pinciano / Villa Borghese",
+      "d": "Rome's grand landscaped park, with a boating lake, the Pincio terrace overlooking Piazza del Popolo, shaded paths and pony-and-bike rentals. The green lung of the centre and ideal with children or for a multi-generation afternoon between museum visits. The Bioparco zoo sits inside for younger travellers.",
+      "lat": 41.914411,
+      "lon": 12.484844,
+      "photos": []
+    },
+    {
+      "n": "Giardino degli Aranci (Orange Garden)",
+      "cat": "do",
+      "tier": "",
+      "a": "Aventino / Aventine Hill",
+      "d": "A serene walled garden of orange trees on the Aventine with a terrace framing one of the loveliest, and least crowded, sunset views over the domes and rooftops of Rome. Adjoining is the beautiful basilica of Santa Sabina. A romantic, restful counterpoint to the busy centre.",
+      "lat": 41.884926,
+      "lon": 12.480451,
+      "photos": []
+    },
+    {
+      "n": "The Aventine Keyhole",
+      "cat": "do",
+      "tier": "",
+      "a": "Aventino / Aventine Hill",
+      "d": "At the Priory of the Knights of Malta, an ordinary green door hides a keyhole that frames the dome of St. Peter's perfectly down an avenue of clipped hedges, three sovereign territories in one glance. A tiny, magical secret; expect a short queue for the single peephole.",
+      "lat": 41.884972,
+      "lon": 12.479085,
+      "photos": []
+    },
+    {
+      "n": "Janiculum Hill (Gianicolo)",
+      "cat": "do",
+      "tier": "",
+      "a": "Gianicolo / Trastevere",
+      "d": "The high ridge above Trastevere gives the widest panorama over the entire historic centre, with the domes and campaniles laid out below. A cannon is fired here at exactly noon each day, a tradition since 1847. Best reached by car or a short taxi ride; wonderful at dusk.",
+      "lat": 41.888649,
+      "lon": 12.461253,
+      "photos": []
+    },
+    {
+      "n": "Galleria Doria Pamphilj",
+      "cat": "do",
+      "tier": "",
+      "a": "Centro Storico / Via del Corso",
+      "d": "Still the private palace and collection of the Doria Pamphilj family, its gilded galleries hung floor-to-ceiling with Caravaggio, Titian and Vel\u00e1zquez's electric portrait of Pope Innocent X. The included audio guide, narrated by the family's own heir, is one of the most personal in Rome. Rarely crowded.",
+      "lat": 41.897824,
+      "lon": 12.481561,
+      "photos": []
+    },
+    {
+      "n": "Baths of Caracalla",
+      "cat": "do",
+      "tier": "",
+      "a": "Aventino / Celio",
+      "d": "The towering, half-standing ruins of Rome's most opulent imperial baths, once serving thousands of bathers amid marble, pools and libraries. Vast, evocative and far quieter than the Forum. In summer the site hosts open-air opera and ballet under the walls, a spectacular private-box evening.",
+      "lat": 41.878828,
+      "lon": 12.492474,
+      "photos": []
+    },
+    {
+      "n": "Appian Way (Via Appia Antica)",
+      "cat": "do",
+      "tier": "",
+      "a": "Appia Antica",
+      "d": "The 'queen of roads,' begun in 312 BC, running out of the city past tombs, ruined villas and umbrella pines on its original basalt paving. Hire bikes or arrange a private car-and-guide on a car-free Sunday to combine the countryside with the catacombs. A green escape only minutes from the centre.",
+      "lat": 41.866257,
+      "lon": 12.50399,
+      "photos": []
+    },
+    {
+      "n": "Catacombs of San Callisto",
+      "cat": "do",
+      "tier": "",
+      "a": "Appia Antica",
+      "d": "Miles of underground galleries where early Christians buried their dead, including many of the first popes. Visited only by guided tour, the cool, candle-quiet tunnels are a moving contrast to the sunlit road above. San Sebastiano and Domitilla nearby offer the same on a smaller scale.",
+      "lat": 41.858901,
+      "lon": 12.510753,
+      "photos": []
+    },
+    {
+      "n": "Campo de' Fiori Market",
+      "cat": "do",
+      "tier": "",
+      "a": "Centro Storico",
+      "d": "Rome's oldest open-air market fills this piazza every morning with produce, flowers, spices and stalls, under the brooding statue of the philosopher Giordano Bruno. Come before mid-morning for the real market, then watch it turn into a lively bar-lined square by night.",
+      "lat": 41.895577,
+      "lon": 12.472159,
+      "photos": []
+    },
+    {
+      "n": "Mercato di Testaccio",
+      "cat": "do",
+      "tier": "",
+      "a": "Testaccio",
+      "d": "A modern covered market that is the beating heart of Roman food culture, with greengrocers, cheesemongers and celebrated street-food counters. The place to graze, taste and understand the city's cooking; go with a private food guide for the full spread. Good vegetarian options among the stalls.",
+      "lat": 41.877602,
+      "lon": 12.47358,
+      "photos": []
+    },
+    {
+      "n": "Bocca della Verit\u00e0",
+      "cat": "do",
+      "tier": "",
+      "a": "Ripa / Aventino",
+      "d": "The ancient marble 'Mouth of Truth,' said to bite off the hand of a liar, set in the portico of the pretty medieval church of Santa Maria in Cosmedin. A quick, fun photo stop, familiar from Roman Holiday, and best paired with the nearby Forum Boarium temples.",
+      "lat": 41.888257,
+      "lon": 12.481544,
+      "photos": []
+    },
+    {
+      "n": "Villa Farnesina",
+      "cat": "do",
+      "tier": "",
+      "a": "Trastevere",
+      "d": "A perfect Renaissance villa on the Trastevere bank, frescoed by Raphael with the Triumph of Galatea and the Loggia of Cupid and Psyche. Small, exquisite and gloriously uncrowded; open mostly mornings. One of Rome's most refined and least-known hours of beauty.",
+      "lat": 41.893628,
+      "lon": 12.467333,
+      "photos": []
+    },
+    {
+      "n": "Ara Pacis Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Campo Marzio / Tridente",
+      "d": "The Altar of Augustan Peace, a masterpiece of imperial relief sculpture, housed in a luminous Richard Meier glass pavilion beside the Tiber. A cool, calm, architecturally striking museum near the Mausoleum of Augustus. Small enough to enjoy in an hour.",
+      "lat": 41.906151,
+      "lon": 12.475502,
+      "photos": []
+    },
+    {
+      "n": "Centrale Montemartini",
+      "cat": "do",
+      "tier": "",
+      "a": "Ostiense",
+      "d": "Classical Roman statues displayed against the turbines and machinery of a 1900s power station, one of the most original museum settings in Europe. An offshoot of the Capitoline collection, it is almost always empty. A rewarding detour for design-minded travellers into the Ostiense street-art district.",
+      "lat": 41.866547,
+      "lon": 12.478015,
+      "photos": []
+    },
+    {
+      "n": "MAXXI \u2013 National Museum of 21st-Century Arts",
+      "cat": "do",
+      "tier": "",
+      "a": "Flaminio",
+      "d": "Zaha Hadid's sinuous concrete building is as much the attraction as the contemporary art and architecture it holds. Rome's answer to the Guggenheim, in the smart Flaminio quarter near the Auditorium. For collectors and design lovers seeking modern Rome, not ancient.",
+      "lat": 41.912848,
+      "lon": 12.47716,
+      "photos": []
+    },
+    {
+      "n": "Piazza del Popolo & Santa Maria del Popolo",
+      "cat": "do",
+      "tier": "",
+      "a": "Tridente / Flaminio",
+      "d": "A vast oval piazza crowned by an Egyptian obelisk, with twin churches and a ramp up to the Pincio terrace. The church of Santa Maria del Popolo, on its north side, holds two more searing Caravaggios and a Raphael-designed chapel, free to see. The gateway to the Tridente shopping streets.",
+      "lat": 41.911473,
+      "lon": 12.476546,
+      "photos": []
+    },
+    {
+      "n": "Jewish Ghetto & Portico d'Ottavia",
+      "cat": "do",
+      "tier": "",
+      "a": "Sant'Angelo / Ghetto",
+      "d": "One of Europe's oldest Jewish quarters, a quiet warren of lanes around the Great Synagogue and the ancient Portico d'Ottavia, famous for its Roman-Jewish cooking (the fried artichoke). Atmospheric, deeply historic and central. Ideal for a reflective walk and a distinctive lunch.",
+      "lat": 41.893008,
+      "lon": 12.477447,
+      "photos": []
+    },
+    {
+      "n": "Palazzo Barberini (Galleria Nazionale d'Arte Antica)",
+      "cat": "do",
+      "tier": "",
+      "a": "Barberini / Trevi",
+      "d": "A colossal Baroque palace by Bernini and Borromini holding Raphael's La Fornarina, Caravaggio's Judith Beheading Holofernes and Holbein's Henry VIII, under Pietro da Cortona's dizzying ceiling. Grand, uncrowded and just above the Trevi Fountain. Don't miss Borromini's clever oval staircase.",
+      "lat": 41.893289,
+      "lon": 12.46669,
+      "photos": []
+    },
+    {
+      "n": "Protestant Cemetery (Cimitero Acattolico)",
+      "cat": "do",
+      "tier": "",
+      "a": "Testaccio",
+      "d": "A hushed, cypress-shaded garden cemetery beneath the ancient Pyramid of Cestius, where Keats and Shelley lie among prowling cats and mossy tombs. One of the most peaceful and poetic corners of the whole city. A quiet hour for the contemplative traveller.",
+      "lat": 41.876019,
+      "lon": 12.47928,
+      "photos": []
+    },
+    {
+      "n": "Quartiere Copped\u00e8",
+      "cat": "do",
+      "tier": "",
+      "a": "Trieste / Salario",
+      "d": "A tiny, fantastical district of Art Nouveau and Gothic-fairytale mansions, spiderweb archways and a whimsical fountain of frogs, built in the 1920s and known to almost no tourists. A surreal, dreamlike ten-minute wander for those who have already seen the classics.",
+      "lat": 41.918364,
+      "lon": 12.502189,
+      "photos": []
+    },
+    {
+      "n": "Basilica di Santa Cecilia in Trastevere",
+      "cat": "do",
+      "tier": "",
+      "a": "Trastevere",
+      "d": "A serene Trastevere basilica over the house of the martyr St. Cecilia, with a swooning marble statue by Maderno. Ask the nuns for access to the Cavallini fresco of the Last Judgement upstairs, a shimmering, little-seen medieval masterpiece. A tranquil retreat from the neighbourhood's bustle.",
+      "lat": 41.887562,
+      "lon": 12.475857,
+      "photos": []
+    },
+    {
+      "n": "EUR District",
+      "cat": "do",
+      "tier": "",
+      "a": "EUR",
+      "d": "Mussolini's monumental Rationalist city-within-a-city, dominated by the 'Square Colosseum' (Palazzo della Civilt\u00e0 Italiana, now the Fendi headquarters). A striking, spacious contrast to the medieval centre for architecture and design enthusiasts, with a lake and modern museums.",
+      "lat": 41.856603,
+      "lon": 12.475936,
+      "photos": []
+    },
+    {
+      "n": "Domus Aurea",
+      "cat": "do",
+      "tier": "",
+      "a": "Colle Oppio / Monti",
+      "d": "Nero's buried golden palace, explored by hard-hat guided tour with a virtual-reality reconstruction that restores its lost frescoed halls. One of Rome's most exclusive underground experiences, running mostly at weekends and booking out fast. Genuinely memorable for older children and history buffs.",
+      "lat": 41.891262,
+      "lon": 12.495111,
+      "photos": []
+    },
+    {
+      "n": "Tivoli \u2013 Villa d'Este & Hadrian's Villa",
+      "cat": "do",
+      "tier": "",
+      "a": "Day trip (Tivoli, ~30 km east)",
+      "d": "Two UNESCO sites an hour from Rome: Villa d'Este's terraced Renaissance garden of hundreds of fountains, and Hadrian's Villa, the vast imperial estate the emperor built as an anthology of the empire. A full day, best done with a private driver-guide to cover both without stress.",
+      "lat": 41.940784,
+      "lon": 12.776289,
+      "photos": []
+    },
+    {
+      "n": "Ostia Antica",
+      "cat": "do",
+      "tier": "",
+      "a": "Day trip (Ostia, ~30 min)",
+      "d": "The remarkably intact ruined port-city of ancient Rome, with paved streets, an amphitheatre, mosaic-floored baths and taverns, yet a fraction of Pompeii's crowds and far closer to the city. A half-day of walking through a real Roman town; superb for families who found the Forum too abstract.",
+      "lat": 41.753637,
+      "lon": 12.28574,
+      "photos": []
+    },
+    {
+      "n": "Castel Gandolfo & the Castelli Romani",
+      "cat": "do",
+      "tier": "",
+      "a": "Day trip (Alban Hills, ~30 km SE)",
+      "d": "The volcanic hill towns south of Rome, cooler in summer, centred on Castel Gandolfo, the papal summer palace and gardens above a crater lake, now open to the public. Combine with Frascati for its villas and crisp white wine. A relaxed, scenic day of gardens, lake views and long lunches.",
+      "lat": 41.761054,
+      "lon": 12.65823,
+      "photos": []
+    },
+    {
+      "n": "Cerveteri Etruscan Necropolis (Banditaccia)",
+      "cat": "do",
+      "tier": "",
+      "a": "Day trip (Cerveteri, ~50 km NW)",
+      "d": "A 'city of the dead' of round, grass-topped Etruscan tombs laid out like streets and houses, older than Rome itself and utterly unlike anything in the centre. Paired with nearby Tarquinia's painted tombs, it is a fascinating, uncrowded day for those wanting the civilisation that preceded the Romans.",
+      "lat": 41.991944,
+      "lon": 12.099575,
+      "photos": []
+    },
+    {
+      "n": "Drink Kong",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Monti",
+      "d": "Rome's globally-ranked cocktail bar \u2014 a neon-lit, Blade Runner-ish temple of serious drinks-making.",
+      "lat": 41.895144,
+      "lon": 12.497865,
+      "photos": []
+    },
+    {
+      "n": "Jerry Thomas Speakeasy",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Centro Storico (near Campo de' Fiori)",
+      "d": "Rome's original speakeasy \u2014 a password-and-membership 1920s den that started the city's cocktail revival.",
+      "lat": 41.897847,
+      "lon": 12.467919,
+      "photos": []
+    },
+    {
+      "n": "Freni e Frizioni",
+      "cat": "party",
+      "tier": "Late & loud",
+      "a": "Trastevere",
+      "d": "A former mechanic's garage turned Trastevere institution \u2014 aperitivo on the terrace above the river.",
+      "lat": 41.891284,
+      "lon": 12.470669,
+      "photos": []
+    },
+    {
+      "n": "Cielo Terrace, Hotel de la Ville",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "Spanish Steps / Tridente",
+      "d": "A rooftop cocktail terrace at the top of the Spanish Steps, the domes of Rome laid out below.",
+      "lat": 41.905707,
+      "lon": 12.48421,
+      "photos": []
+    },
+    {
+      "n": "Il Giardino Ristorante & Terrace, Hotel Eden",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "Ludovisi / Via Veneto",
+      "d": "The Eden's celebrated rooftop \u2014 arguably the single best panorama of Rome over a considered drink.",
+      "lat": 41.905027,
+      "lon": 12.488615,
+      "photos": []
+    },
+    {
+      "n": "Stravinskij Bar, Hotel de Russie",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "Spanish Steps / Tridente",
+      "d": "A drink in the Hotel de Russie's tiered secret garden \u2014 the most romantic courtyard in Rome.",
+      "lat": 41.895364,
+      "lon": 12.475982,
+      "photos": []
+    }
+  ]
+}

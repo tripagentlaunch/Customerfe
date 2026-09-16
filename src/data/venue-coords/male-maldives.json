@@ -1,1 +1,748 @@
-{"center": [4.177941, 73.517028], "venues": [{"n": "Cheval Blanc Randheli", "cat": "stay", "tier": "Ultra", "a": "Noonu Atoll", "d": "LVMH's private island — the most design-conscious address in the country.", "lat": 4.124145, "lon": 73.463064, "p": "a"}, {"n": "Soneva Jani", "cat": "stay", "tier": "Ultra", "a": "Noonu Atoll", "d": "Overwater villas with retractable roofs and a slide into the lagoon.", "lat": 4.124145, "lon": 73.463064, "p": "a"}, {"n": "One&Only Reethi Rah", "cat": "stay", "tier": "Ultra", "a": "North Malé Atoll", "d": "A large, low-slung island of long beaches — the grand address close to Malé.", "lat": 4.437814, "lon": 73.539664, "p": "a"}, {"n": "Waldorf Astoria Maldives Ithaafushi", "cat": "stay", "tier": "Ultra", "a": "South Malé Atoll", "d": "Three islands, one house — the grandest of the near-Malé icons.", "lat": 4.01442, "lon": 73.382568, "p": "v"}, {"n": "JOALI Maldives", "cat": "stay", "tier": "Ultra", "a": "Raa Atoll", "d": "An immersive art resort where every villa is a commissioned work.", "lat": 4.124145, "lon": 73.463064, "p": "v"}, {"n": "JOALI BEING", "cat": "stay", "tier": "Ultra", "a": "Raa Atoll", "d": "The Maldives' first dedicated wellbeing island — restoration as the whole point.", "lat": 4.124145, "lon": 73.463064, "p": "a"}, {"n": "Velaa Private Island", "cat": "stay", "tier": "Ultra", "a": "Noonu Atoll", "d": "A jeweller's private island — a golf academy, a submarine, and total seclusion.", "lat": 4.124145, "lon": 73.463064, "p": "a"}, {"n": "The Ritz-Carlton Maldives, Fari Islands", "cat": "stay", "tier": "Ultra", "a": "North Malé Atoll", "d": "Kengo Kuma's circular architecture and a marina village at your door.", "lat": 4.604222, "lon": 73.580528, "p": "v"}, {"n": "Patina Maldives, Fari Islands", "cat": "stay", "tier": "Ultra", "a": "North Malé Atoll", "d": "Design-forward, food-forward, and set on the Fari Islands' walkable marina.", "lat": 4.624823, "lon": 73.572718, "p": "v"}, {"n": "Four Seasons Resort Maldives at Kuda Huraa", "cat": "stay", "tier": "Ultra", "a": "North Malé Atoll", "d": "The near-Malé Four Seasons — village-scale, surf-blessed, endlessly capable.", "lat": 4.437814, "lon": 73.539664, "p": "a"}, {"n": "The Nautilus Maldives", "cat": "stay", "tier": "Ultra", "a": "Baa Atoll (UNESCO Biosphere)", "d": "No schedules, no set menus — a barefoot house that bends entirely to you.", "lat": 4.124145, "lon": 73.463064, "p": "v"}, {"n": "Gili Lankanfushi Maldives", "cat": "stay", "tier": "Ultra", "a": "North Malé Atoll", "d": "Rustic-luxe overwater living and the celebrated 'Mr & Mrs Friday' butlers.", "lat": 4.295227, "lon": 73.557948, "p": "v"}, {"n": "Huvafen Fushi Maldives", "cat": "stay", "tier": "Ultra", "a": "North Malé Atoll", "d": "The world's first underwater spa, on an adults-only island of pure calm.", "lat": 4.368441, "lon": 73.370067, "p": "v"}, {"n": "Niyama Private Islands Maldives", "cat": "stay", "tier": "Grand", "a": "Dhaalu Atoll", "d": "Twin islands named Play and Chill — one for energy, one for quiet.", "lat": 4.604222, "lon": 73.580528, "p": "v"}, {"n": "Vakkaru Maldives", "cat": "stay", "tier": "Grand", "a": "Baa Atoll (UNESCO Biosphere)", "d": "A crescent island in the UNESCO Biosphere, quietly among the region's best.", "lat": 4.124145, "lon": 73.463064, "p": "v"}, {"n": "Milaidhoo Maldives", "cat": "stay", "tier": "Grand", "a": "Baa Atoll (UNESCO Biosphere)", "d": "A small, storied island run like a private home in the Biosphere reserve.", "lat": 4.124145, "lon": 73.463064, "p": "v"}, {"n": "Baros Maldives", "cat": "stay", "tier": "Grand", "a": "North Malé Atoll", "d": "A mature garden island close to Malé — the quiet grande dame.", "lat": 4.285026, "lon": 73.426942, "p": "v"}, {"n": "Kuda Villingili Resort Maldives", "cat": "stay", "tier": "Grand", "a": "North Malé Atoll", "d": "The country's longest pool and a short hop from the airport.", "lat": 4.377507, "lon": 73.662679, "p": "v"}, {"n": "Constance Halaveli Maldives", "cat": "stay", "tier": "Grand", "a": "North Ari Atoll", "d": "A dhoni-shaped island of elegant villas and wide, generous beaches.", "lat": 4.124145, "lon": 73.463064, "p": "v"}, {"n": "OZEN RESERVE Bolifushi", "cat": "stay", "tier": "Grand", "a": "South Malé Atoll", "d": "A near-Malé island where nearly everything is already included.", "lat": 3.969066, "lon": 73.431127, "p": "a"}, {"n": "COMO Maalifushi", "cat": "stay", "tier": "Grand", "a": "Thaa Atoll", "d": "COMO's serene southern outpost — the only resort in a far, quiet atoll.", "lat": 3.941174, "lon": 73.490064, "p": "v"}, {"n": "Anantara Veli Maldives Resort", "cat": "stay", "tier": "Luxury", "a": "South Malé Atoll", "d": "An adults-only overwater island a short speedboat from Malé.", "lat": 3.969066, "lon": 73.431127, "p": "a"}, {"n": "Anantara Dhigu Maldives Resort", "cat": "stay", "tier": "Luxury", "a": "South Malé Atoll", "d": "The family half of the Anantara trio, with three islands to roam by dhoni.", "lat": 3.969066, "lon": 73.431127, "p": "a"}, {"n": "Naladhu Private Island Maldives", "cat": "stay", "tier": "Ultra", "a": "South Malé Atoll", "d": "Twenty houses, each with a butler and a pool — Anantara's most private island.", "lat": 4.008788, "lon": 73.403451, "p": "v"}, {"n": "Taj Exotica Resort & Spa, Maldives", "cat": "stay", "tier": "Luxury", "a": "South Malé Atoll", "d": "The house that speaks Hindi at the jetty, on a lagoon close to Malé.", "lat": 3.969066, "lon": 73.431127, "p": "a"}, {"n": "Taj Coral Reef Resort & Spa, Maldives", "cat": "stay", "tier": "Luxury", "a": "North Malé Atoll", "d": "Taj's easy-going reef island, a quick speedboat from the airport.", "lat": 4.437814, "lon": 73.539664, "p": "a"}, {"n": "Banyan Tree Vabbinfaru", "cat": "stay", "tier": "Luxury", "a": "North Malé Atoll", "d": "An intimate all-villa island wrapped around a turtle-and-manta reef.", "lat": 4.309493, "lon": 73.423778, "p": "v"}, {"n": "Emerald Maldives Resort & Spa", "cat": "stay", "tier": "Luxury", "a": "Raa Atoll", "d": "A large all-inclusive island that quietly out-delivers its price.", "lat": 4.25036, "lon": 73.366469, "p": "v"}, {"n": "Kandolhu Maldives", "cat": "stay", "tier": "Luxury", "a": "North Ari Atoll", "d": "A tiny island where the house reef begins a few steps from your villa.", "lat": 4.124145, "lon": 73.463064, "p": "v"}, {"n": "Kurumba Maldives", "cat": "stay", "tier": "Luxury", "a": "North Malé Atoll", "d": "The first resort the Maldives ever opened, minutes from the airport.", "lat": 4.226369, "lon": 73.519684, "p": "v"}, {"n": "Cora Cora Maldives", "cat": "stay", "tier": "Premium", "a": "Raa Atoll", "d": "Retro-chic all-inclusive with a jazz bar and genuinely fair value.", "lat": 4.124145, "lon": 73.463064, "p": "a"}, {"n": "JA Manafaru Maldives", "cat": "stay", "tier": "Premium", "a": "Haa Alifu Atoll", "d": "A far-north all-inclusive island of space, reef and quiet.", "lat": 4.124145, "lon": 73.463064, "p": "v"}, {"n": "SEA by Anantara Kihavah", "cat": "eat", "tier": "Destination", "a": "Anantara Kihavah, Baa Atoll (UNESCO Biosphere)", "d": "Underwater dining beneath a UNESCO reef, with a submerged wine cellar alongside.", "lat": 4.294326, "lon": 73.558432, "p": "v"}, {"n": "5.8 Undersea Restaurant", "cat": "eat", "tier": "Destination", "a": "Hurawalhi Island Resort, Lhaviyani Atoll", "d": "The world's largest all-glass undersea restaurant, 5.8 metres down.", "lat": 4.31168, "lon": 73.487704, "p": "a"}, {"n": "Hukuru Miskiy — the Old Friday Mosque", "cat": "do", "tier": "", "a": "Malé City", "d": "The Maldives' oldest and most ornate mosque, built in 1658 from interlocking coral-stone blocks, every surface hand-carved — Quranic inscriptions, lacquered woodwork, and a 13th-century panel that records the arrival of Islam here. A quiet, moving half-hour that grounds a resort trip in the country's real history.", "lat": 4.124145, "lon": 73.463064, "p": "a"}, {"n": "The coral-stone Munnaaru (minaret) & royal cemetery", "cat": "do", "tier": "", "a": "Malé City", "d": "Beside the Old Friday Mosque stands the squat, banded 17th-century minaret and a walled graveyard of intricately carved coral tombstones and sultans' mausoleums — rounded tops for women, pointed for men. It reads like an open-air museum of Maldivian craft, and it takes only minutes to see.", "lat": 4.124145, "lon": 73.463064, "p": "a"}, {"n": "The Islamic Centre & Grand Friday Mosque", "cat": "do", "tier": "", "a": "Malé City", "d": "The gold-domed Grand Friday Mosque is Malé's landmark, holding several thousand worshippers, its interior finished in Maldivian wood-carving and Arabic calligraphy. Non-Muslim visitors can usually enter outside prayer times with modest dress — a striking counterpoint to the tiny old mosque nearby.", "lat": 4.124145, "lon": 73.463064, "p": "a"}, {"n": "The National Museum, Sultan Park", "cat": "do", "tier": "", "a": "Malé City", "d": "Set in the last surviving building of the old royal palace, it holds sultans' thrones, lacquerware, royal parasols and pre-Islamic Buddhist coral relics — the deepest single window into the archipelago's past. A cool, calm hour for multi-generational groups between beach days.", "lat": 4.124145, "lon": 73.463064, "p": "a"}, {"n": "Sultan Park", "cat": "do", "tier": "", "a": "Malé City", "d": "The green heart of the capital, once the grounds of the sultan's palace, now shaded gardens of tropical trees and flowering shrubs. A rare patch of quiet in dense Malé, pleasant for a stroll before or after the museum next door.", "lat": 4.124145, "lon": 73.463064, "p": "a"}, {"n": "The Malé fish market", "cat": "do", "tier": "", "a": "Malé City", "d": "Late afternoon, dhonis unload the day's tuna and reef fish onto the harbourfront and the market fills with the theatre of the catch — the truest slice of working Maldivian life. A vivid, photogenic stop on a capital walk (busiest and best around late afternoon).", "lat": 4.124145, "lon": 73.463064, "p": "v"}, {"n": "A Malé local-life walk", "cat": "do", "tier": "", "a": "Malé City", "d": "One of the most densely populated capitals on earth, packed onto a two-square-kilometre island — colourful lanes, tea shops (hotaa) serving short eats, the produce market and the harbour crammed with dhonis. An hour here shows the human Maldives most resort guests never glimpse.", "lat": 4.008788, "lon": 73.403451, "p": "v"}, {"n": "The Artificial Beach", "cat": "do", "tier": "", "a": "Malé City", "d": "A man-made swimming beach on Malé's eastern seafront where the capital's families gather at sunset — food stalls, evening football, and the only place locals swim in the city. Not a resort beach, but a genuine, easy taste of everyday island leisure.", "lat": 4.445332, "lon": 73.713781, "p": "v"}, {"n": "Staying in an overwater villa", "cat": "do", "tier": "", "a": "The atolls", "d": "The signature Maldivian experience: your own timber villa perched over a lagoon, glass floor to the reef, private deck and steps straight into warm turquoise water. For an Indian honeymoon or a milestone family trip it is the whole point of coming — barely a four-hour flight from home, and dining that top resorts tailor to vegetarian and Jain needs without fuss.", "lat": 4.124145, "lon": 73.463064, "p": "a"}, {"n": "Snorkelling your resort's house reef", "cat": "do", "tier": "", "a": "The atolls", "d": "Many luxury islands sit on their own living reef, so world-class snorkelling begins a few fin-kicks from your villa steps — parrotfish, turtles, blacktip reef sharks and soft coral, no boat required. The gentlest way for children and first-timers to meet the ocean.", "lat": 4.124145, "lon": 73.463064, "p": "a"}, {"n": "Hanifaru Bay — swimming with feeding mantas & whale sharks", "cat": "do", "tier": "", "a": "Baa Atoll", "d": "In season, wind and tide funnel plankton into this small bay and hundreds of reef mantas — sometimes whale sharks too — gather to feed in a slow, cyclonic swirl, the largest known manta aggregation on earth. Snorkel-only and permit-controlled, it is one of the great wildlife spectacles anywhere, reached from Baa Atoll resorts.", "lat": 4.124145, "lon": 73.463064, "p": "a"}, {"n": "Diving Banana Reef", "cat": "do", "tier": "", "a": "North Malé Atoll", "d": "One of the very first dive sites explored in the Maldives, a banana-shaped reef of overhangs, caves and coral gardens that's as rich at three metres as at thirty. Calm enough for newer divers yet loved by veterans — a fitting first Maldivian dive.", "lat": 4.234188, "lon": 73.533951, "p": "v"}, {"n": "Diving Kandooma Thila", "cat": "do", "tier": "", "a": "South Malé Atoll", "d": "A long teardrop pinnacle raked by current, drawing schooling trevally and jacks, eagle rays and reef sharks around dramatic overhangs and soft-coral 'Jack's Corner'. A thrilling drift dive for the experienced.", "lat": 3.969066, "lon": 73.431127, "p": "a"}, {"n": "Manta cleaning-station dives & snorkels", "cat": "do", "tier": "", "a": "Ari & Baa Atolls", "d": "At coral bommies that act as manta 'cleaning stations', reef mantas queue to have parasites picked off by wrasse, hovering motionless an arm's length away. Hypnotic and reliable in season — one of the calmest, most magical wildlife encounters in the Maldives.", "lat": 4.124145, "lon": 73.463064, "p": "a"}, {"n": "Night snorkelling with mantas under the lights", "cat": "do", "tier": "", "a": "The atolls", "d": "Several resorts rig lights off a jetty or boat at night to draw plankton — and the reef mantas that feed on it — so you float above them as they barrel-roll and somersault through the glow. A more intimate, dreamlike cousin of the daytime encounter.", "lat": 4.124145, "lon": 73.463064, "p": "a"}, {"n": "The 'Sea of Stars' — bioluminescence at Vaadhoo", "cat": "do", "tier": "", "a": "Raa Atoll", "d": "On dark nights the shoreline glows electric blue as disturbed plankton light up with every wave and footstep, a natural phenomenon Vaadhoo made famous. Many atolls see it seasonally; it needs no booking, just a moonless night and a walk along the water's edge.", "lat": 4.124145, "lon": 73.463064, "p": "a"}, {"n": "A private sandbank picnic", "cat": "do", "tier": "", "a": "The atolls", "d": "Your resort ferries you to a bare crescent of white sand in the middle of the ocean — a table, a parasol, chilled champagne and nothing else for miles. The definitive Maldivian castaway moment, and a favourite for proposals and honeymoons.", "lat": 4.008788, "lon": 73.403451, "p": "v"}, {"n": "A deserted-island day", "cat": "do", "tier": "", "a": "The atolls", "d": "A step beyond the sandbank: a full day marooned on an uninhabited palm island with a picnic, snorkel gear and a hammock, collected by dhoni at dusk. Robinson Crusoe with a private chef — pure, unhurried escape.", "lat": 4.008788, "lon": 73.403451, "p": "v"}, {"n": "Sunset dolphin-watching cruise", "cat": "do", "tier": "", "a": "The atolls", "d": "Pods of spinner dolphins ride the bow wave of a traditional dhoni as the sky turns gold — dozens at a time, leaping and spinning clear of the water. Easy, uplifting and perfect for children and grandparents alike.", "lat": 4.124145, "lon": 73.463064, "p": "a"}, {"n": "A seaplane scenic flight over the atolls", "cat": "do", "tier": "", "a": "The atolls", "d": "The transfer to many resorts is itself a spectacle — a barefoot-pilot Twin Otter skimming low over a mosaic of turquoise lagoons, coral rings and sandbanks. Charter a scenic loop and the aerial view of the archipelago becomes an experience in its own right.", "lat": 4.124145, "lon": 73.463064, "p": "a"}, {"n": "Surfing the North Malé Atoll breaks", "cat": "do", "tier": "", "a": "North Malé Atoll", "d": "Consistent, warm, uncrowded reef waves — Sultans, Honky's, Chickens, Cokes and Jailbreaks all within a short boat ride, from mellow long walls to hollow barrels. The Maldives is a world-class surf destination for those who want more than a lounger, best from March to October.", "lat": 4.26126, "lon": 72.990763, "p": "v"}, {"n": "Sunset fishing & traditional line-fishing", "cat": "do", "tier": "", "a": "The atolls", "d": "Head out on a dhoni at dusk to hand-line for snapper and grouper the old Maldivian way, then have the resort kitchen grill your catch for dinner. A gentle, sociable evening on the water that connects you to the islands' fishing soul.", "lat": 4.124145, "lon": 73.463064, "p": "a"}, {"n": "Big-game & fly fishing", "cat": "do", "tier": "", "a": "The outer atolls", "d": "Beyond the reef the drop-offs hold sailfish, wahoo, dogtooth tuna and giant trevally, and the flats offer world-class saltwater fly fishing for GTs and bonefish. A serious pursuit for the angler in the family, arranged through the top resorts.", "lat": 4.124145, "lon": 73.463064, "p": "a"}, {"n": "An underwater spa treatment", "cat": "do", "tier": "", "a": "The atolls", "d": "A handful of resorts have built glass-walled treatment rooms below the waterline, so reef fish drift past as you're massaged. A quintessentially Maldivian indulgence — wellness with a coral-garden view.", "lat": 4.124145, "lon": 73.463064, "p": "a"}, {"n": "A local-island day on Maafushi", "cat": "do", "tier": "", "a": "South Malé Atoll", "d": "The busiest of the inhabited 'local islands', Maafushi shows the Maldives beyond the resort bubble — a working village, a bikini beach, cafes serving Maldivian short eats, and cheap boat trips to nearby reefs. A grounding half-day contrast to five-star seclusion.", "lat": 3.969066, "lon": 73.431127, "p": "a"}, {"n": "The Whale Submarine dive off Malé", "cat": "do", "tier": "", "a": "North Malé Atoll", "d": "A real passenger submarine descends around 45 metres to a sunken reef, so non-divers — grandparents, small children — can watch snappers, reef sharks and coral through the portholes in air-conditioned comfort. A rare way to reach the deep reef without getting wet (check current operating status when planning).", "lat": 4.437814, "lon": 73.539664, "p": "a"}, {"n": "A stargazing observatory night", "cat": "do", "tier": "", "a": "Baa Atoll", "d": "With near-zero light pollution, the atoll skies are extraordinary — and Soneva's resident astronomers open a rooftop observatory to point a research-grade telescope at Saturn's rings and distant galaxies. Romance and wonder rolled into one after-dark experience.", "lat": 4.124145, "lon": 73.463064, "p": "a"}, {"n": "Cinema Paradiso — open-air film under the stars", "cat": "do", "tier": "", "a": "Baa Atoll", "d": "Soneva Fushi's over-water cinema screens classics on a giant screen while you recline on daybeds with popcorn and the lagoon lapping below. A charming, only-here evening that delights children and film-lovers alike.", "lat": 4.124145, "lon": 73.463064, "p": "a"}, {"n": "Coral-restoration & marine-biology sessions", "cat": "do", "tier": "", "a": "The atolls", "d": "Many luxury resorts run in-house marine labs where a resident biologist takes guests out to plant coral fragments on reef frames and adopt a nursery colony. Meaningful, hands-on and genuinely educational — a highlight for older children and conscientious travellers.", "lat": 4.124145, "lon": 73.463064, "p": "a"}, {"n": "Turtle snorkel safaris", "cat": "do", "tier": "", "a": "The atolls", "d": "Green and hawksbill turtles graze the seagrass and reef flats across the atolls, and resort guides know the spots where you can reliably swim alongside them. Slow, serene and a guaranteed thrill for first-time snorkellers.", "lat": 4.124145, "lon": 73.463064, "p": "a"}, {"n": "Snorkelling a night reef with reef sharks & rays", "cat": "do", "tier": "", "a": "The atolls", "d": "After dark the reef changes shift — hunting moray eels, parrotfish asleep in mucus cocoons, rays gliding the sand and blacktips on the prowl, all under torchlight. A safe, guided adrenaline hit off the house reef.", "lat": 4.124145, "lon": 73.463064, "p": "a"}, {"n": "A private yacht or luxury liveaboard charter", "cat": "do", "tier": "", "a": "The atolls", "d": "Charter a crewed yacht or dhoni to island-hop the atolls on your own schedule — remote dive sites, empty sandbanks and sunset anchorages with the family. The most flexible, private way to see a country that is 99 percent water.", "lat": 4.124145, "lon": 73.463064, "p": "a"}, {"n": "Parasailing & jet-ski over the lagoon", "cat": "do", "tier": "", "a": "The atolls", "d": "From up under a parasail the reef structure and the resort's ring of turquoise reveal themselves in full colour, while jet-skis put the lagoon at speed. Easy, high-energy fun for teenagers and thrill-seeking multi-gen groups.", "lat": 4.124145, "lon": 73.463064, "p": "a"}, {"n": "A traditional Bodu Beru drumming & dance evening", "cat": "do", "tier": "", "a": "The atolls", "d": "The Maldives' folk music — big-drum Bodu Beru, chanting and quickening dance — is performed on many resort and local-island beaches, often around a bonfire. A warm, rhythmic window into island culture after dinner.", "lat": 4.124145, "lon": 73.463064, "p": "a"}, {"n": "Kayaking, paddleboarding & lagoon time", "cat": "do", "tier": "", "a": "The atolls", "d": "The glassy, waist-deep lagoons around most islands are ideal for gentle kayaking and stand-up paddleboarding, often over rays and baby sharks. Complimentary at most resorts and perfect for a slow morning with children.", "lat": 4.124145, "lon": 73.463064, "p": "a"}, {"n": "A sunset champagne dhoni cruise", "cat": "do", "tier": "", "a": "The atolls", "d": "A curved-prow Maldivian dhoni sets out as the sun drops, the crew pouring champagne while dolphins often join the wake and the sky burns over the water. A quietly romantic ritual — the classic Maldives honeymoon evening.", "lat": 4.124145, "lon": 73.463064, "p": "a"}, {"n": "A floating breakfast in your villa pool", "cat": "do", "tier": "", "a": "The atolls", "d": "A tray of tropical fruit, pastries and juices set afloat on your private pool or lagoon — the most photographed indulgence in the Maldives, and easily arranged veg or Jain by top resorts. Pure, playful honeymoon theatre.", "lat": 4.124145, "lon": 73.463064, "p": "a"}, {"n": "A destination dinner on the beach or sandbank", "cat": "do", "tier": "", "a": "The atolls", "d": "Resorts stage private candle-lit dinners on a stretch of beach, a sandbank or your own deck, with a dedicated chef and butler and the menu built around you. The setting for anniversaries, proposals and quiet milestone celebrations.", "lat": 4.124145, "lon": 73.463064, "p": "a"}, {"n": "Subsix at Niyama", "cat": "party", "tier": "Late & loud", "a": "Dhaalu Atoll", "d": "The world's first underwater nightclub — six metres down, reached by speedboat, reef and rays drifting past the glass. A restaurant by day; on select nights, an international DJ and a dance floor beneath the sea.", "lat": 4.124145, "lon": 73.463064, "p": "v"}, {"n": "So Starstruck sunset bar, Soneva Jani", "cat": "party", "tier": "Rooftops", "a": "Noonu Atoll", "d": "An overwater bar and observatory on the Maldives' most theatrical island — sundowners as the light goes, then the largest telescopes in the Indian Ocean once the stars arrive.", "lat": 4.124145, "lon": 73.463064, "p": "a"}]}
+{
+  "center": [
+    4.177941,
+    73.517028
+  ],
+  "venues": [
+    {
+      "n": "Cheval Blanc Randheli",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Noonu Atoll",
+      "d": "LVMH's private island \u2014 the most design-conscious address in the country.",
+      "lat": 4.124145,
+      "lon": 73.463064,
+      "photos": []
+    },
+    {
+      "n": "Soneva Jani",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Noonu Atoll",
+      "d": "Overwater villas with retractable roofs and a slide into the lagoon.",
+      "lat": 4.124145,
+      "lon": 73.463064,
+      "photos": []
+    },
+    {
+      "n": "One&Only Reethi Rah",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "North Mal\u00e9 Atoll",
+      "d": "A large, low-slung island of long beaches \u2014 the grand address close to Mal\u00e9.",
+      "lat": 4.437814,
+      "lon": 73.539664,
+      "photos": []
+    },
+    {
+      "n": "Waldorf Astoria Maldives Ithaafushi",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "South Mal\u00e9 Atoll",
+      "d": "Three islands, one house \u2014 the grandest of the near-Mal\u00e9 icons.",
+      "lat": 4.01442,
+      "lon": 73.382568,
+      "photos": []
+    },
+    {
+      "n": "JOALI Maldives",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Raa Atoll",
+      "d": "An immersive art resort where every villa is a commissioned work.",
+      "lat": 4.124145,
+      "lon": 73.463064,
+      "photos": []
+    },
+    {
+      "n": "JOALI BEING",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Raa Atoll",
+      "d": "The Maldives' first dedicated wellbeing island \u2014 restoration as the whole point.",
+      "lat": 4.124145,
+      "lon": 73.463064,
+      "photos": []
+    },
+    {
+      "n": "Velaa Private Island",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Noonu Atoll",
+      "d": "A jeweller's private island \u2014 a golf academy, a submarine, and total seclusion.",
+      "lat": 4.124145,
+      "lon": 73.463064,
+      "photos": []
+    },
+    {
+      "n": "The Ritz-Carlton Maldives, Fari Islands",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "North Mal\u00e9 Atoll",
+      "d": "Kengo Kuma's circular architecture and a marina village at your door.",
+      "lat": 4.604222,
+      "lon": 73.580528,
+      "photos": []
+    },
+    {
+      "n": "Patina Maldives, Fari Islands",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "North Mal\u00e9 Atoll",
+      "d": "Design-forward, food-forward, and set on the Fari Islands' walkable marina.",
+      "lat": 4.624823,
+      "lon": 73.572718,
+      "photos": []
+    },
+    {
+      "n": "Four Seasons Resort Maldives at Kuda Huraa",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "North Mal\u00e9 Atoll",
+      "d": "The near-Mal\u00e9 Four Seasons \u2014 village-scale, surf-blessed, endlessly capable.",
+      "lat": 4.437814,
+      "lon": 73.539664,
+      "photos": []
+    },
+    {
+      "n": "The Nautilus Maldives",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Baa Atoll (UNESCO Biosphere)",
+      "d": "No schedules, no set menus \u2014 a barefoot house that bends entirely to you.",
+      "lat": 4.124145,
+      "lon": 73.463064,
+      "photos": []
+    },
+    {
+      "n": "Gili Lankanfushi Maldives",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "North Mal\u00e9 Atoll",
+      "d": "Rustic-luxe overwater living and the celebrated 'Mr & Mrs Friday' butlers.",
+      "lat": 4.295227,
+      "lon": 73.557948,
+      "photos": []
+    },
+    {
+      "n": "Huvafen Fushi Maldives",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "North Mal\u00e9 Atoll",
+      "d": "The world's first underwater spa, on an adults-only island of pure calm.",
+      "lat": 4.368441,
+      "lon": 73.370067,
+      "photos": []
+    },
+    {
+      "n": "Niyama Private Islands Maldives",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Dhaalu Atoll",
+      "d": "Twin islands named Play and Chill \u2014 one for energy, one for quiet.",
+      "lat": 4.604222,
+      "lon": 73.580528,
+      "photos": []
+    },
+    {
+      "n": "Vakkaru Maldives",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Baa Atoll (UNESCO Biosphere)",
+      "d": "A crescent island in the UNESCO Biosphere, quietly among the region's best.",
+      "lat": 4.124145,
+      "lon": 73.463064,
+      "photos": []
+    },
+    {
+      "n": "Milaidhoo Maldives",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Baa Atoll (UNESCO Biosphere)",
+      "d": "A small, storied island run like a private home in the Biosphere reserve.",
+      "lat": 4.124145,
+      "lon": 73.463064,
+      "photos": []
+    },
+    {
+      "n": "Baros Maldives",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "North Mal\u00e9 Atoll",
+      "d": "A mature garden island close to Mal\u00e9 \u2014 the quiet grande dame.",
+      "lat": 4.285026,
+      "lon": 73.426942,
+      "photos": []
+    },
+    {
+      "n": "Kuda Villingili Resort Maldives",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "North Mal\u00e9 Atoll",
+      "d": "The country's longest pool and a short hop from the airport.",
+      "lat": 4.377507,
+      "lon": 73.662679,
+      "photos": []
+    },
+    {
+      "n": "Constance Halaveli Maldives",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "North Ari Atoll",
+      "d": "A dhoni-shaped island of elegant villas and wide, generous beaches.",
+      "lat": 4.124145,
+      "lon": 73.463064,
+      "photos": []
+    },
+    {
+      "n": "OZEN RESERVE Bolifushi",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "South Mal\u00e9 Atoll",
+      "d": "A near-Mal\u00e9 island where nearly everything is already included.",
+      "lat": 3.969066,
+      "lon": 73.431127,
+      "photos": []
+    },
+    {
+      "n": "COMO Maalifushi",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Thaa Atoll",
+      "d": "COMO's serene southern outpost \u2014 the only resort in a far, quiet atoll.",
+      "lat": 3.941174,
+      "lon": 73.490064,
+      "photos": []
+    },
+    {
+      "n": "Anantara Veli Maldives Resort",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "South Mal\u00e9 Atoll",
+      "d": "An adults-only overwater island a short speedboat from Mal\u00e9.",
+      "lat": 3.969066,
+      "lon": 73.431127,
+      "photos": []
+    },
+    {
+      "n": "Anantara Dhigu Maldives Resort",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "South Mal\u00e9 Atoll",
+      "d": "The family half of the Anantara trio, with three islands to roam by dhoni.",
+      "lat": 3.969066,
+      "lon": 73.431127,
+      "photos": []
+    },
+    {
+      "n": "Naladhu Private Island Maldives",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "South Mal\u00e9 Atoll",
+      "d": "Twenty houses, each with a butler and a pool \u2014 Anantara's most private island.",
+      "lat": 4.008788,
+      "lon": 73.403451,
+      "photos": []
+    },
+    {
+      "n": "Taj Exotica Resort & Spa, Maldives",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "South Mal\u00e9 Atoll",
+      "d": "The house that speaks Hindi at the jetty, on a lagoon close to Mal\u00e9.",
+      "lat": 3.969066,
+      "lon": 73.431127,
+      "photos": []
+    },
+    {
+      "n": "Taj Coral Reef Resort & Spa, Maldives",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "North Mal\u00e9 Atoll",
+      "d": "Taj's easy-going reef island, a quick speedboat from the airport.",
+      "lat": 4.437814,
+      "lon": 73.539664,
+      "photos": []
+    },
+    {
+      "n": "Banyan Tree Vabbinfaru",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "North Mal\u00e9 Atoll",
+      "d": "An intimate all-villa island wrapped around a turtle-and-manta reef.",
+      "lat": 4.309493,
+      "lon": 73.423778,
+      "photos": []
+    },
+    {
+      "n": "Emerald Maldives Resort & Spa",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Raa Atoll",
+      "d": "A large all-inclusive island that quietly out-delivers its price.",
+      "lat": 4.25036,
+      "lon": 73.366469,
+      "photos": []
+    },
+    {
+      "n": "Kandolhu Maldives",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "North Ari Atoll",
+      "d": "A tiny island where the house reef begins a few steps from your villa.",
+      "lat": 4.124145,
+      "lon": 73.463064,
+      "photos": []
+    },
+    {
+      "n": "Kurumba Maldives",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "North Mal\u00e9 Atoll",
+      "d": "The first resort the Maldives ever opened, minutes from the airport.",
+      "lat": 4.226369,
+      "lon": 73.519684,
+      "photos": []
+    },
+    {
+      "n": "Cora Cora Maldives",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Raa Atoll",
+      "d": "Retro-chic all-inclusive with a jazz bar and genuinely fair value.",
+      "lat": 4.124145,
+      "lon": 73.463064,
+      "photos": []
+    },
+    {
+      "n": "JA Manafaru Maldives",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Haa Alifu Atoll",
+      "d": "A far-north all-inclusive island of space, reef and quiet.",
+      "lat": 4.124145,
+      "lon": 73.463064,
+      "photos": []
+    },
+    {
+      "n": "SEA by Anantara Kihavah",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Anantara Kihavah, Baa Atoll (UNESCO Biosphere)",
+      "d": "Underwater dining beneath a UNESCO reef, with a submerged wine cellar alongside.",
+      "lat": 4.294326,
+      "lon": 73.558432,
+      "photos": []
+    },
+    {
+      "n": "5.8 Undersea Restaurant",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Hurawalhi Island Resort, Lhaviyani Atoll",
+      "d": "The world's largest all-glass undersea restaurant, 5.8 metres down.",
+      "lat": 4.31168,
+      "lon": 73.487704,
+      "photos": []
+    },
+    {
+      "n": "Hukuru Miskiy \u2014 the Old Friday Mosque",
+      "cat": "do",
+      "tier": "",
+      "a": "Mal\u00e9 City",
+      "d": "The Maldives' oldest and most ornate mosque, built in 1658 from interlocking coral-stone blocks, every surface hand-carved \u2014 Quranic inscriptions, lacquered woodwork, and a 13th-century panel that records the arrival of Islam here. A quiet, moving half-hour that grounds a resort trip in the country's real history.",
+      "lat": 4.124145,
+      "lon": 73.463064,
+      "photos": []
+    },
+    {
+      "n": "The coral-stone Munnaaru (minaret) & royal cemetery",
+      "cat": "do",
+      "tier": "",
+      "a": "Mal\u00e9 City",
+      "d": "Beside the Old Friday Mosque stands the squat, banded 17th-century minaret and a walled graveyard of intricately carved coral tombstones and sultans' mausoleums \u2014 rounded tops for women, pointed for men. It reads like an open-air museum of Maldivian craft, and it takes only minutes to see.",
+      "lat": 4.124145,
+      "lon": 73.463064,
+      "photos": []
+    },
+    {
+      "n": "The Islamic Centre & Grand Friday Mosque",
+      "cat": "do",
+      "tier": "",
+      "a": "Mal\u00e9 City",
+      "d": "The gold-domed Grand Friday Mosque is Mal\u00e9's landmark, holding several thousand worshippers, its interior finished in Maldivian wood-carving and Arabic calligraphy. Non-Muslim visitors can usually enter outside prayer times with modest dress \u2014 a striking counterpoint to the tiny old mosque nearby.",
+      "lat": 4.124145,
+      "lon": 73.463064,
+      "photos": []
+    },
+    {
+      "n": "The National Museum, Sultan Park",
+      "cat": "do",
+      "tier": "",
+      "a": "Mal\u00e9 City",
+      "d": "Set in the last surviving building of the old royal palace, it holds sultans' thrones, lacquerware, royal parasols and pre-Islamic Buddhist coral relics \u2014 the deepest single window into the archipelago's past. A cool, calm hour for multi-generational groups between beach days.",
+      "lat": 4.124145,
+      "lon": 73.463064,
+      "photos": []
+    },
+    {
+      "n": "Sultan Park",
+      "cat": "do",
+      "tier": "",
+      "a": "Mal\u00e9 City",
+      "d": "The green heart of the capital, once the grounds of the sultan's palace, now shaded gardens of tropical trees and flowering shrubs. A rare patch of quiet in dense Mal\u00e9, pleasant for a stroll before or after the museum next door.",
+      "lat": 4.124145,
+      "lon": 73.463064,
+      "photos": []
+    },
+    {
+      "n": "The Mal\u00e9 fish market",
+      "cat": "do",
+      "tier": "",
+      "a": "Mal\u00e9 City",
+      "d": "Late afternoon, dhonis unload the day's tuna and reef fish onto the harbourfront and the market fills with the theatre of the catch \u2014 the truest slice of working Maldivian life. A vivid, photogenic stop on a capital walk (busiest and best around late afternoon).",
+      "lat": 4.124145,
+      "lon": 73.463064,
+      "photos": []
+    },
+    {
+      "n": "A Mal\u00e9 local-life walk",
+      "cat": "do",
+      "tier": "",
+      "a": "Mal\u00e9 City",
+      "d": "One of the most densely populated capitals on earth, packed onto a two-square-kilometre island \u2014 colourful lanes, tea shops (hotaa) serving short eats, the produce market and the harbour crammed with dhonis. An hour here shows the human Maldives most resort guests never glimpse.",
+      "lat": 4.008788,
+      "lon": 73.403451,
+      "photos": []
+    },
+    {
+      "n": "The Artificial Beach",
+      "cat": "do",
+      "tier": "",
+      "a": "Mal\u00e9 City",
+      "d": "A man-made swimming beach on Mal\u00e9's eastern seafront where the capital's families gather at sunset \u2014 food stalls, evening football, and the only place locals swim in the city. Not a resort beach, but a genuine, easy taste of everyday island leisure.",
+      "lat": 4.445332,
+      "lon": 73.713781,
+      "photos": []
+    },
+    {
+      "n": "Staying in an overwater villa",
+      "cat": "do",
+      "tier": "",
+      "a": "The atolls",
+      "d": "The signature Maldivian experience: your own timber villa perched over a lagoon, glass floor to the reef, private deck and steps straight into warm turquoise water. For an Indian honeymoon or a milestone family trip it is the whole point of coming \u2014 barely a four-hour flight from home, and dining that top resorts tailor to vegetarian and Jain needs without fuss.",
+      "lat": 4.124145,
+      "lon": 73.463064,
+      "photos": []
+    },
+    {
+      "n": "Snorkelling your resort's house reef",
+      "cat": "do",
+      "tier": "",
+      "a": "The atolls",
+      "d": "Many luxury islands sit on their own living reef, so world-class snorkelling begins a few fin-kicks from your villa steps \u2014 parrotfish, turtles, blacktip reef sharks and soft coral, no boat required. The gentlest way for children and first-timers to meet the ocean.",
+      "lat": 4.124145,
+      "lon": 73.463064,
+      "photos": []
+    },
+    {
+      "n": "Hanifaru Bay \u2014 swimming with feeding mantas & whale sharks",
+      "cat": "do",
+      "tier": "",
+      "a": "Baa Atoll",
+      "d": "In season, wind and tide funnel plankton into this small bay and hundreds of reef mantas \u2014 sometimes whale sharks too \u2014 gather to feed in a slow, cyclonic swirl, the largest known manta aggregation on earth. Snorkel-only and permit-controlled, it is one of the great wildlife spectacles anywhere, reached from Baa Atoll resorts.",
+      "lat": 4.124145,
+      "lon": 73.463064,
+      "photos": []
+    },
+    {
+      "n": "Diving Banana Reef",
+      "cat": "do",
+      "tier": "",
+      "a": "North Mal\u00e9 Atoll",
+      "d": "One of the very first dive sites explored in the Maldives, a banana-shaped reef of overhangs, caves and coral gardens that's as rich at three metres as at thirty. Calm enough for newer divers yet loved by veterans \u2014 a fitting first Maldivian dive.",
+      "lat": 4.234188,
+      "lon": 73.533951,
+      "photos": []
+    },
+    {
+      "n": "Diving Kandooma Thila",
+      "cat": "do",
+      "tier": "",
+      "a": "South Mal\u00e9 Atoll",
+      "d": "A long teardrop pinnacle raked by current, drawing schooling trevally and jacks, eagle rays and reef sharks around dramatic overhangs and soft-coral 'Jack's Corner'. A thrilling drift dive for the experienced.",
+      "lat": 3.969066,
+      "lon": 73.431127,
+      "photos": []
+    },
+    {
+      "n": "Manta cleaning-station dives & snorkels",
+      "cat": "do",
+      "tier": "",
+      "a": "Ari & Baa Atolls",
+      "d": "At coral bommies that act as manta 'cleaning stations', reef mantas queue to have parasites picked off by wrasse, hovering motionless an arm's length away. Hypnotic and reliable in season \u2014 one of the calmest, most magical wildlife encounters in the Maldives.",
+      "lat": 4.124145,
+      "lon": 73.463064,
+      "photos": []
+    },
+    {
+      "n": "Night snorkelling with mantas under the lights",
+      "cat": "do",
+      "tier": "",
+      "a": "The atolls",
+      "d": "Several resorts rig lights off a jetty or boat at night to draw plankton \u2014 and the reef mantas that feed on it \u2014 so you float above them as they barrel-roll and somersault through the glow. A more intimate, dreamlike cousin of the daytime encounter.",
+      "lat": 4.124145,
+      "lon": 73.463064,
+      "photos": []
+    },
+    {
+      "n": "The 'Sea of Stars' \u2014 bioluminescence at Vaadhoo",
+      "cat": "do",
+      "tier": "",
+      "a": "Raa Atoll",
+      "d": "On dark nights the shoreline glows electric blue as disturbed plankton light up with every wave and footstep, a natural phenomenon Vaadhoo made famous. Many atolls see it seasonally; it needs no booking, just a moonless night and a walk along the water's edge.",
+      "lat": 4.124145,
+      "lon": 73.463064,
+      "photos": []
+    },
+    {
+      "n": "A private sandbank picnic",
+      "cat": "do",
+      "tier": "",
+      "a": "The atolls",
+      "d": "Your resort ferries you to a bare crescent of white sand in the middle of the ocean \u2014 a table, a parasol, chilled champagne and nothing else for miles. The definitive Maldivian castaway moment, and a favourite for proposals and honeymoons.",
+      "lat": 4.008788,
+      "lon": 73.403451,
+      "photos": []
+    },
+    {
+      "n": "A deserted-island day",
+      "cat": "do",
+      "tier": "",
+      "a": "The atolls",
+      "d": "A step beyond the sandbank: a full day marooned on an uninhabited palm island with a picnic, snorkel gear and a hammock, collected by dhoni at dusk. Robinson Crusoe with a private chef \u2014 pure, unhurried escape.",
+      "lat": 4.008788,
+      "lon": 73.403451,
+      "photos": []
+    },
+    {
+      "n": "Sunset dolphin-watching cruise",
+      "cat": "do",
+      "tier": "",
+      "a": "The atolls",
+      "d": "Pods of spinner dolphins ride the bow wave of a traditional dhoni as the sky turns gold \u2014 dozens at a time, leaping and spinning clear of the water. Easy, uplifting and perfect for children and grandparents alike.",
+      "lat": 4.124145,
+      "lon": 73.463064,
+      "photos": []
+    },
+    {
+      "n": "A seaplane scenic flight over the atolls",
+      "cat": "do",
+      "tier": "",
+      "a": "The atolls",
+      "d": "The transfer to many resorts is itself a spectacle \u2014 a barefoot-pilot Twin Otter skimming low over a mosaic of turquoise lagoons, coral rings and sandbanks. Charter a scenic loop and the aerial view of the archipelago becomes an experience in its own right.",
+      "lat": 4.124145,
+      "lon": 73.463064,
+      "photos": []
+    },
+    {
+      "n": "Surfing the North Mal\u00e9 Atoll breaks",
+      "cat": "do",
+      "tier": "",
+      "a": "North Mal\u00e9 Atoll",
+      "d": "Consistent, warm, uncrowded reef waves \u2014 Sultans, Honky's, Chickens, Cokes and Jailbreaks all within a short boat ride, from mellow long walls to hollow barrels. The Maldives is a world-class surf destination for those who want more than a lounger, best from March to October.",
+      "lat": 4.26126,
+      "lon": 72.990763,
+      "photos": []
+    },
+    {
+      "n": "Sunset fishing & traditional line-fishing",
+      "cat": "do",
+      "tier": "",
+      "a": "The atolls",
+      "d": "Head out on a dhoni at dusk to hand-line for snapper and grouper the old Maldivian way, then have the resort kitchen grill your catch for dinner. A gentle, sociable evening on the water that connects you to the islands' fishing soul.",
+      "lat": 4.124145,
+      "lon": 73.463064,
+      "photos": []
+    },
+    {
+      "n": "Big-game & fly fishing",
+      "cat": "do",
+      "tier": "",
+      "a": "The outer atolls",
+      "d": "Beyond the reef the drop-offs hold sailfish, wahoo, dogtooth tuna and giant trevally, and the flats offer world-class saltwater fly fishing for GTs and bonefish. A serious pursuit for the angler in the family, arranged through the top resorts.",
+      "lat": 4.124145,
+      "lon": 73.463064,
+      "photos": []
+    },
+    {
+      "n": "An underwater spa treatment",
+      "cat": "do",
+      "tier": "",
+      "a": "The atolls",
+      "d": "A handful of resorts have built glass-walled treatment rooms below the waterline, so reef fish drift past as you're massaged. A quintessentially Maldivian indulgence \u2014 wellness with a coral-garden view.",
+      "lat": 4.124145,
+      "lon": 73.463064,
+      "photos": []
+    },
+    {
+      "n": "A local-island day on Maafushi",
+      "cat": "do",
+      "tier": "",
+      "a": "South Mal\u00e9 Atoll",
+      "d": "The busiest of the inhabited 'local islands', Maafushi shows the Maldives beyond the resort bubble \u2014 a working village, a bikini beach, cafes serving Maldivian short eats, and cheap boat trips to nearby reefs. A grounding half-day contrast to five-star seclusion.",
+      "lat": 3.969066,
+      "lon": 73.431127,
+      "photos": []
+    },
+    {
+      "n": "The Whale Submarine dive off Mal\u00e9",
+      "cat": "do",
+      "tier": "",
+      "a": "North Mal\u00e9 Atoll",
+      "d": "A real passenger submarine descends around 45 metres to a sunken reef, so non-divers \u2014 grandparents, small children \u2014 can watch snappers, reef sharks and coral through the portholes in air-conditioned comfort. A rare way to reach the deep reef without getting wet (check current operating status when planning).",
+      "lat": 4.437814,
+      "lon": 73.539664,
+      "photos": []
+    },
+    {
+      "n": "A stargazing observatory night",
+      "cat": "do",
+      "tier": "",
+      "a": "Baa Atoll",
+      "d": "With near-zero light pollution, the atoll skies are extraordinary \u2014 and Soneva's resident astronomers open a rooftop observatory to point a research-grade telescope at Saturn's rings and distant galaxies. Romance and wonder rolled into one after-dark experience.",
+      "lat": 4.124145,
+      "lon": 73.463064,
+      "photos": []
+    },
+    {
+      "n": "Cinema Paradiso \u2014 open-air film under the stars",
+      "cat": "do",
+      "tier": "",
+      "a": "Baa Atoll",
+      "d": "Soneva Fushi's over-water cinema screens classics on a giant screen while you recline on daybeds with popcorn and the lagoon lapping below. A charming, only-here evening that delights children and film-lovers alike.",
+      "lat": 4.124145,
+      "lon": 73.463064,
+      "photos": []
+    },
+    {
+      "n": "Coral-restoration & marine-biology sessions",
+      "cat": "do",
+      "tier": "",
+      "a": "The atolls",
+      "d": "Many luxury resorts run in-house marine labs where a resident biologist takes guests out to plant coral fragments on reef frames and adopt a nursery colony. Meaningful, hands-on and genuinely educational \u2014 a highlight for older children and conscientious travellers.",
+      "lat": 4.124145,
+      "lon": 73.463064,
+      "photos": []
+    },
+    {
+      "n": "Turtle snorkel safaris",
+      "cat": "do",
+      "tier": "",
+      "a": "The atolls",
+      "d": "Green and hawksbill turtles graze the seagrass and reef flats across the atolls, and resort guides know the spots where you can reliably swim alongside them. Slow, serene and a guaranteed thrill for first-time snorkellers.",
+      "lat": 4.124145,
+      "lon": 73.463064,
+      "photos": []
+    },
+    {
+      "n": "Snorkelling a night reef with reef sharks & rays",
+      "cat": "do",
+      "tier": "",
+      "a": "The atolls",
+      "d": "After dark the reef changes shift \u2014 hunting moray eels, parrotfish asleep in mucus cocoons, rays gliding the sand and blacktips on the prowl, all under torchlight. A safe, guided adrenaline hit off the house reef.",
+      "lat": 4.124145,
+      "lon": 73.463064,
+      "photos": []
+    },
+    {
+      "n": "A private yacht or luxury liveaboard charter",
+      "cat": "do",
+      "tier": "",
+      "a": "The atolls",
+      "d": "Charter a crewed yacht or dhoni to island-hop the atolls on your own schedule \u2014 remote dive sites, empty sandbanks and sunset anchorages with the family. The most flexible, private way to see a country that is 99 percent water.",
+      "lat": 4.124145,
+      "lon": 73.463064,
+      "photos": []
+    },
+    {
+      "n": "Parasailing & jet-ski over the lagoon",
+      "cat": "do",
+      "tier": "",
+      "a": "The atolls",
+      "d": "From up under a parasail the reef structure and the resort's ring of turquoise reveal themselves in full colour, while jet-skis put the lagoon at speed. Easy, high-energy fun for teenagers and thrill-seeking multi-gen groups.",
+      "lat": 4.124145,
+      "lon": 73.463064,
+      "photos": []
+    },
+    {
+      "n": "A traditional Bodu Beru drumming & dance evening",
+      "cat": "do",
+      "tier": "",
+      "a": "The atolls",
+      "d": "The Maldives' folk music \u2014 big-drum Bodu Beru, chanting and quickening dance \u2014 is performed on many resort and local-island beaches, often around a bonfire. A warm, rhythmic window into island culture after dinner.",
+      "lat": 4.124145,
+      "lon": 73.463064,
+      "photos": []
+    },
+    {
+      "n": "Kayaking, paddleboarding & lagoon time",
+      "cat": "do",
+      "tier": "",
+      "a": "The atolls",
+      "d": "The glassy, waist-deep lagoons around most islands are ideal for gentle kayaking and stand-up paddleboarding, often over rays and baby sharks. Complimentary at most resorts and perfect for a slow morning with children.",
+      "lat": 4.124145,
+      "lon": 73.463064,
+      "photos": []
+    },
+    {
+      "n": "A sunset champagne dhoni cruise",
+      "cat": "do",
+      "tier": "",
+      "a": "The atolls",
+      "d": "A curved-prow Maldivian dhoni sets out as the sun drops, the crew pouring champagne while dolphins often join the wake and the sky burns over the water. A quietly romantic ritual \u2014 the classic Maldives honeymoon evening.",
+      "lat": 4.124145,
+      "lon": 73.463064,
+      "photos": []
+    },
+    {
+      "n": "A floating breakfast in your villa pool",
+      "cat": "do",
+      "tier": "",
+      "a": "The atolls",
+      "d": "A tray of tropical fruit, pastries and juices set afloat on your private pool or lagoon \u2014 the most photographed indulgence in the Maldives, and easily arranged veg or Jain by top resorts. Pure, playful honeymoon theatre.",
+      "lat": 4.124145,
+      "lon": 73.463064,
+      "photos": []
+    },
+    {
+      "n": "A destination dinner on the beach or sandbank",
+      "cat": "do",
+      "tier": "",
+      "a": "The atolls",
+      "d": "Resorts stage private candle-lit dinners on a stretch of beach, a sandbank or your own deck, with a dedicated chef and butler and the menu built around you. The setting for anniversaries, proposals and quiet milestone celebrations.",
+      "lat": 4.124145,
+      "lon": 73.463064,
+      "photos": []
+    },
+    {
+      "n": "Subsix at Niyama",
+      "cat": "party",
+      "tier": "Late & loud",
+      "a": "Dhaalu Atoll",
+      "d": "The world's first underwater nightclub \u2014 six metres down, reached by speedboat, reef and rays drifting past the glass. A restaurant by day; on select nights, an international DJ and a dance floor beneath the sea.",
+      "lat": 4.124145,
+      "lon": 73.463064,
+      "photos": []
+    },
+    {
+      "n": "So Starstruck sunset bar, Soneva Jani",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "Noonu Atoll",
+      "d": "An overwater bar and observatory on the Maldives' most theatrical island \u2014 sundowners as the light goes, then the largest telescopes in the Indian Ocean once the stars arrive.",
+      "lat": 4.124145,
+      "lon": 73.463064,
+      "photos": []
+    }
+  ]
+}

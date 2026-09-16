@@ -1,1 +1,568 @@
-{"center": [27.037755, 88.263176], "venues": [{"n": "Windamere Hotel", "cat": "stay", "tier": "Luxury", "a": "Observatory Hill (above Chowrasta)", "d": "A time-capsule of the British Raj on the hill where Darjeeling began — coal fires, hot-water bottles, afternoon tea and the oldest heritage hotel in the Himalayas.", "lat": 27.046067, "lon": 88.267702, "p": "v"}, {"n": "Mayfair Darjeeling", "cat": "stay", "tier": "Luxury", "a": "Opposite Raj Bhawan (Governor's House)", "d": "A hilltop heritage resort in the former summer palace of the Raja of Nazargunj — colonial fireplaces and carved wood, gardens, and a spa, opposite the Governor's House.", "lat": 27.049041, "lon": 88.265179, "p": "v"}, {"n": "Taj Chia Kutir Resort & Spa, Darjeeling", "cat": "stay", "tier": "Luxury", "a": "Makaibari Tea Estate, Kurseong", "d": "Taj's tea-country resort inside the historic Makaibari estate — bamboo, timber and stone in the mist, with a spa, indoor pool and guided estate walks.", "lat": 26.856644, "lon": 88.265706, "p": "a"}, {"n": "The Elgin, Darjeeling", "cat": "stay", "tier": "Luxury", "a": "Darjeeling town (near the Mall)", "d": "A 19th-century manor house turned five-star heritage hotel — Burma-teak floors, crackling fireplaces and a grand piano, once an Oberoi-family home.", "lat": 27.045951, "lon": 88.266829, "p": "v"}, {"n": "Cochrane Place, Kurseong", "cat": "stay", "tier": "Premium", "a": "Ambootia estate ridge, Kurseong", "d": "A colonial-era boutique hideaway on a Kurseong ridge — a British magistrate's old house restored, with unobstructed Kanchenjunga views and an Anglo-Indian tea kitchen.", "lat": 26.867535, "lon": 88.261096, "p": "v"}, {"n": "Glenburn — the estate table", "cat": "eat", "tier": "Destination", "a": "Glenburn Tea Estate", "d": "The finest meals in the hills are served at Glenburn — butler-hosted, produce from the estate, laid out on the verandah with Kanchenjunga in view.", "lat": 27.051105, "lon": 88.258533, "p": "a"}, {"n": "The Elgin dining room", "cat": "eat", "tier": "Fine", "a": "Darjeeling town (The Elgin)", "d": "A candle-lit heritage dining room with a grand piano — considered Anglo-Indian and regional cooking under oak panelling and old etchings.", "lat": 27.045951, "lon": 88.266829, "p": "a"}, {"n": "Windamere — afternoon tea & dining", "cat": "eat", "tier": "Fine", "a": "Observatory Hill (Windamere)", "d": "The great colonial afternoon tea of the Himalayas — cucumber sandwiches, scones and Darjeeling tea by the fire, in the oldest heritage hotel in the hills.", "lat": 27.047874, "lon": 88.268028, "p": "a"}, {"n": "Glenary's", "cat": "eat", "tier": "Smart", "a": "Nehru Road (the Mall)", "d": "Darjeeling's grand old café-bakery since the 1880s — a first-floor restaurant, a famous ground-floor bakery, and Kanchenjunga through the windows.", "lat": 27.043009, "lon": 88.266931, "p": "v"}, {"n": "Keventer's", "cat": "eat", "tier": "Smart", "a": "Nehru Road / Clubside", "d": "The 1911 rooftop breakfast institution — sausages, ham and eggs above the Mall, Kanchenjunga on the skyline, immortalised in Satyajit Ray's films.", "lat": 27.042187, "lon": 88.266636, "p": "v"}, {"n": "Kunga Restaurant", "cat": "eat", "tier": "Casual", "a": "Gandhi Road, Darjeeling town", "d": "The town's most-loved Tibetan kitchen — steaming momos and thukpa in a tiny, family-run room where you may have to wait for a seat.", "lat": 27.041717, "lon": 88.266579, "p": "v"}, {"n": "Sonam's Kitchen", "cat": "eat", "tier": "Casual", "a": "Dr Zakir Hussain Road, Darjeeling town", "d": "A tiny café with a cult following — proper coffee, big breakfasts, and honest thukpa and momos, run by a local family.", "lat": 27.042513, "lon": 88.267923, "p": "v"}, {"n": "Tiger Hill Sunrise", "cat": "do", "tier": "", "a": "Tiger Hill (Ghum)", "d": "Before dawn you climb to 2,590 m and wait in the cold dark until the first light strikes Kanchenjunga's summit and it turns rose, then gold, over the sleeping range; on the clearest mornings Everest itself is a faint tooth on the far horizon. A private car and a flask of first-flush tea turn the pre-4am pilgrimage into something you will still talk about years later.", "lat": 26.994901, "lon": 88.285331, "p": "v"}, {"n": "Darjeeling Himalayan Railway Toy Train Joy Ride", "cat": "do", "tier": "", "a": "Darjeeling to Ghum", "d": "The little blue steam engine of 1881 pulls you up through the town's rooftops, around the spiralling Batasia Loop and up to Ghum, India's highest station, at a walking pace that lets you lean out and be handed marigolds. It is pure Raj-era romance, and a joy that spans generations from a five-year-old to a grandfather who rode it as a boy.", "lat": 26.733508, "lon": 88.407759, "p": "a"}, {"n": "Batasia Loop & War Memorial", "cat": "do", "tier": "", "a": "Batasia (below Ghum)", "d": "The toy train coils through a full circle here around a landscaped garden while Kanchenjunga fills the sky behind the Gorkha soldiers' memorial. The train pauses ten minutes so you can walk the flower beds and take in the panorama; it is the single most photographed spot on the line.", "lat": 27.016701, "lon": 88.247119, "p": "v"}, {"n": "Ghum Railway Station & DHR Museum", "cat": "do", "tier": "", "a": "Ghum", "d": "At 2,258 m this is the highest railway station in India, its little first-floor museum lined with the brass fittings, old photographs and a vintage engine that tell the story of how the line was built. A short, atmospheric stop that gives the toy train its historical weight.", "lat": 27.00832, "lon": 88.253885, "p": "v"}, {"n": "Yiga Choeling Monastery (Ghum Monastery)", "cat": "do", "tier": "", "a": "Ghum", "d": "Founded in 1850, the oldest Tibetan monastery of the region shelters a serene fifteen-foot Maitreya Buddha in gold and vermilion, butter lamps glowing against ancient manuscripts. Quiet, incense-scented and deeply atmospheric, it rewards an unhurried private visit away from the town crowds.", "lat": 27.007506, "lon": 88.246354, "p": "v"}, {"n": "Happy Valley Tea Estate", "cat": "do", "tier": "", "a": "Lebong Cart Road", "d": "Darjeeling's second-oldest garden, planted in 1854 on slopes just below the town, where you walk between the bushes with the pluckers and then sit for a proper tasting of the estate's organic first and second flush. It is the most accessible way to understand why Darjeeling tea is spoken of like a fine wine.", "lat": 27.051105, "lon": 88.258533, "p": "v"}, {"n": "Padmaja Naidu Himalayan Zoological Park", "cat": "do", "tier": "", "a": "Jawahar Road West", "d": "India's largest high-altitude zoo runs the country's flagship breeding programmes for the red panda and the snow leopard, and here you can actually watch a red panda curled in a fir tree at eye level. A genuine conservation landmark that captivates children and grandparents alike.", "lat": 27.056926, "lon": 88.2547, "p": "v"}, {"n": "Himalayan Mountaineering Institute", "cat": "do", "tier": "", "a": "Jawahar Road West (zoo campus)", "d": "Founded after Tenzing Norgay's 1953 Everest summit and long led by him, the institute's museum displays the ropes, ice-axes and expedition relics of Himalayan climbing history, with a viewing telescope trained on Kanchenjunga. For anyone stirred by the mountains outside the window, it is the emotional heart of Darjeeling.", "lat": 27.05837, "lon": 88.253939, "p": "v"}, {"n": "Chowrasta & The Mall", "cat": "do", "tier": "", "a": "Chowrasta", "d": "The flat, traffic-free promenade at the town's crown is where Darjeeling has always come to stroll, sit on the benches and watch the light change on the ridge. Ringed by Nathmull's tea shop and Glenary's, it is the town's living room and the natural place to begin and end a day.", "lat": 27.045154, "lon": 88.267375, "p": "v"}, {"n": "Observatory Hill & Mahakal Temple", "cat": "do", "tier": "", "a": "Above Chowrasta", "d": "A short climb through prayer-flag-draped pines leads to a shrine sacred to both Hindus and Buddhists, where a Shiva lingam and Buddhist bells share the same rock and the views open on all sides. It is the town's oldest sacred spot and quietly moving at any hour.", "lat": 27.044688, "lon": 88.267737, "p": "a"}, {"n": "St Andrew's Church", "cat": "do", "tier": "", "a": "The Mall", "d": "Darjeeling's oldest church, established in 1843, is a plain grey-stone Scottish kirk with memorial tablets to the planters and soldiers of the Raj still on its walls. A short, evocative stop for anyone drawn to the town's colonial thread.", "lat": 27.047903, "lon": 88.266683, "p": "v"}, {"n": "Rangeet Valley Passenger Ropeway", "cat": "do", "tier": "", "a": "North Point", "d": "India's first passenger cable car floats you out over tiers of tea gardens dropping to the Little Rangeet river, the whole Rangeet valley unfolding beneath your feet. A short, scenic glide that gives you the tea country from the air.", "lat": 27.0599, "lon": 88.251768, "p": "a"}, {"n": "Nightingale Park", "cat": "do", "tier": "", "a": "Jalapahar Road", "d": "A terraced hillside garden crowned by a large Shiva statue, with musical-fountain evenings and one of the town's best framed views of Kanchenjunga across the rooftops. A gentle, well-kept stop a short walk from the heritage hotels.", "lat": 27.053717, "lon": 88.259824, "p": "v"}, {"n": "Bengal Natural History Museum", "cat": "do", "tier": "", "a": "Bishop Eric Benjamin Road", "d": "Opened in 1903, this old collection of Himalayan birds, butterflies and mammals is a curiosity of the Raj-naturalist era, dusty cabinets and all. A quiet, quick detour for the curious, close to the Mall.", "lat": 27.057635, "lon": 88.254674, "p": "v"}, {"n": "Windamere Hotel", "cat": "do", "tier": "", "a": "Observatory Hill", "d": "The only truly authentic British-Raj heritage property in Darjeeling, a rambling white bungalow of hot-water bottles, coal fires, four-o'clock tea and a music room where time has genuinely stopped. Even for a High Tea or a nightcap it is an experience the town cannot repeat.", "lat": 27.046067, "lon": 88.267702, "p": "v"}, {"n": "The Elgin, Darjeeling", "cat": "do", "tier": "", "a": "H D Lama Road", "d": "Once the summer residence of the Maharaja of Cooch Behar and hotelier since 1887, the Elgin keeps its wood-panelled lounges, manicured lawns and afternoon-tea ritual immaculate. A heritage stay or a leisurely tea here is the polished, comfortable face of old Darjeeling.", "lat": 27.045951, "lon": 88.266829, "p": "v"}, {"n": "Glenary's & Keventer's", "cat": "do", "tier": "", "a": "Nehru Road", "d": "Two Raj-era institutions on the same lane: Glenary's for its bakery and the tea room with a valley view, Keventer's for the rooftop breakfast and cold cuts that generations of families have queued for. This is where you taste Darjeeling's colonial-cafe nostalgia over a slow morning.", "lat": 27.043009, "lon": 88.266931, "p": "v"}, {"n": "Glenburn Tea Estate", "cat": "do", "tier": "", "a": "Rungeet Valley (near Darjeeling)", "d": "A working colonial-era garden on a promontory above the Rungeet river where the planter's bungalows have become one of India's most romantic tea retreats, with private guided plucking, factory walks and tastings looking straight at Kanchenjunga. The definitive tea-planter fantasy for a discerning couple or family.", "lat": 27.051105, "lon": 88.258533, "p": "v"}, {"n": "Makaibari Tea Estate", "cat": "do", "tier": "", "a": "Kurseong", "d": "The world's first biodynamic and one of the oldest tea gardens, famous for its moonlight-plucked silver-tips and its immersive tours through the factory and the forest that shades the bushes. A pilgrimage for anyone serious about where great tea comes from.", "lat": 27.051105, "lon": 88.258533, "p": "v"}, {"n": "Lloyd's Botanical Garden", "cat": "do", "tier": "", "a": "Below the Mall", "d": "A steeply terraced Victorian garden of 1878 with orchid houses, a fernery and towering Himalayan conifers, a green pocket of calm just below the bustle of the Mall. An easy, restful walk for a slow afternoon.", "lat": 27.044352, "lon": 88.262615, "p": "v"}, {"n": "Tenzing & Gombu Rock", "cat": "do", "tier": "", "a": "Lebong Cart Road", "d": "A natural rock face used by the mountaineering institute for training and named for Everest's first summiteers, where you can watch aspiring climbers rope up or try a supervised scramble yourself. A short, spirited stop tied to Darjeeling's climbing legend.", "lat": 27.057955, "lon": 88.256243, "p": "v"}, {"n": "Kalimpong Flower Nurseries", "cat": "do", "tier": "", "a": "Kalimpong", "d": "The hill town's temperate slopes are one of India's great centres for orchids, gladioli, cacti and gerbera, and the terraced nurseries are a riot of colour and scent you can wander through freely. A gentle, unexpectedly captivating side of the eastern Himalayas.", "lat": 27.043995, "lon": 88.265426, "p": "a"}, {"n": "Pine View Cactus Nursery", "cat": "do", "tier": "", "a": "Kalimpong", "d": "One of Asia's finest private collections of cacti and succulents, more than fifteen hundred varieties bristling under glass on Atisha Road. A quirky, memorable stop that surprises everyone who thinks they don't care about plants.", "lat": 27.043995, "lon": 88.265426, "p": "a"}, {"n": "Deolo Hill", "cat": "do", "tier": "", "a": "Kalimpong", "d": "The highest point above Kalimpong, a breezy landscaped park where the Teesta winds far below and the whole west-Sikkim snow line stands clear on a good day. A relaxed, panoramic high point that families love for the space and the views.", "lat": 27.08876, "lon": 88.502641, "p": "v"}, {"n": "Morgan House", "cat": "do", "tier": "", "a": "Durpin, Kalimpong", "d": "A 1930s English country mansion, once a jute baron's home and now a heritage bungalow wrapped in pine and rhododendron, thick with Raj-era atmosphere and mist. Worth the visit for its faded colonial romance and the grounds alone.", "lat": 27.049184, "lon": 88.262163, "p": "v"}, {"n": "Dr Graham's Homes & Chapel", "cat": "do", "tier": "", "a": "Deolo, Kalimpong", "d": "A sprawling 1900 school campus of stone Scottish-mission buildings and a beautiful chapel spread across the hillside, a serene and storied slice of Kalimpong's missionary heritage. A quiet, atmospheric walk through living history.", "lat": 27.040813, "lon": 88.266848, "p": "v"}, {"n": "Mirik Lake (Sumendu Lake)", "cat": "do", "tier": "", "a": "Mirik", "d": "A slender lake ringed by pines and orange orchards where you can row a boat, walk the arched footbridge and ride a pony along the water in cool, gentle air. An easy, pretty day trip that suits every generation of a family.", "lat": 26.889943, "lon": 88.182621, "p": "v"}, {"n": "Kurseong & Eagle's Craig", "cat": "do", "tier": "", "a": "Kurseong", "d": "The quieter tea town on the toy-train line, its Eagle's Craig viewpoint looking down over the plains and the Cochrane Place heritage bungalow serving a fine tea. A restful, uncommercialised base deep in the tea country.", "lat": 26.881827, "lon": 88.278364, "p": "a"}, {"n": "Pelling & Kanchenjunga Viewpoints", "cat": "do", "tier": "", "a": "West Sikkim", "d": "Perched at 2,150 m, Pelling gives arguably the closest full-face view of Kanchenjunga anywhere accessible, the whole massif filling your hotel window at first light. The classic base for the west-Sikkim monastery circuit and the mountain romance at its purest.", "lat": 27.329701, "lon": 88.611647, "p": "a"}, {"n": "Pemayangtse Monastery", "cat": "do", "tier": "", "a": "Pelling, West Sikkim", "d": "One of Sikkim's oldest and most important Nyingma monasteries, founded in the 1700s, keeping an extraordinary seven-tiered wooden model of the Buddhist heavens carved by a single monk. A profound, beautifully sited stop with Kanchenjunga as backdrop.", "lat": 27.050264, "lon": 88.269954, "p": "v"}, {"n": "Rabdentse Ruins", "cat": "do", "tier": "", "a": "Pelling, West Sikkim", "d": "A short forest walk from Pemayangtse leads to the moss-covered ruins of Sikkim's second royal capital, its stone thrones and chortens standing on a ridge above a vast Himalayan drop. Quiet, evocative and beautifully atmospheric.", "lat": 27.329701, "lon": 88.611647, "p": "a"}, {"n": "Khecheopalri Lake", "cat": "do", "tier": "", "a": "West Sikkim", "d": "A sacred wish-fulfilling lake hidden in the forest, so revered that birds are said to lift any leaf that falls on its mirror surface, its shores hung with prayer flags. A serene, spiritual detour on the west-Sikkim loop.", "lat": 27.349917, "lon": 88.18833, "p": "v"}, {"n": "Yuksom", "cat": "do", "tier": "", "a": "West Sikkim", "d": "The sleepy first capital of Sikkim, where the coronation throne of the first Chogyal still stands under the pines and the great Kanchenjunga treks begin. A gentle, history-laden village at the foot of the high mountains.", "lat": 27.037755, "lon": 88.263176, "p": "v"}, {"n": "Rumtek Monastery (Dharmachakra Centre)", "cat": "do", "tier": "", "a": "Near Gangtok, Sikkim", "d": "The largest monastery in Sikkim and the seat of the Karmapa's Kagyu lineage, its golden-roofed shrine hall glowing with murals, a jewelled reliquary and rows of chanting monks. The single most important spiritual sight of the Gangtok region.", "lat": 27.329701, "lon": 88.611647, "p": "a"}, {"n": "Tsomgo (Changu) Lake", "cat": "do", "tier": "", "a": "East Sikkim", "d": "A high glacial lake at 3,750 m that stays frozen much of the year, ringed by snow with yaks in their festive harness on the shore, an hour and a half's drive from Gangtok on a permit. A dramatic, high-altitude excursion that thrills first-time mountain visitors.", "lat": 27.329701, "lon": 88.611647, "p": "a"}, {"n": "Nathula Pass", "cat": "do", "tier": "", "a": "East Sikkim", "d": "A historic Silk-Road pass on the India-China border at 4,310 m, where you can stand at the frontier fence in the thin cold air with the army post beside you. A stirring, bucket-list drive that needs a special permit and a clear day.", "lat": 27.329701, "lon": 88.611647, "p": "a"}, {"n": "MG Marg, Gangtok", "cat": "do", "tier": "", "a": "Gangtok, Sikkim", "d": "Sikkim's spotless, traffic-free and litter-free central promenade, lined with cafes, tea shops and flower beds and made for an evening stroll. The relaxed social heart of the capital and the natural base for the wider Sikkim circuit.", "lat": 27.328367, "lon": 88.612279, "p": "v"}, {"n": "Khangchendzonga National Park", "cat": "do", "tier": "", "a": "Sikkim", "d": "A vast wilderness of glaciers, alpine lakes and the sacred slopes of Kanchenjunga itself, revered by Sikkimese as a living deity and the setting for the great high treks. Sikkim's crowning wild landscape, entered on permit through Yuksom.", "lat": 27.329701, "lon": 88.611647, "p": "a"}, {"n": "Singalila Ridge & Sandakphu", "cat": "do", "tier": "", "a": "Singalila National Park (Manebhanjan)", "d": "The ridge trek to Sandakphu, West Bengal's highest point at 3,636 m, delivers the fabled 'Sleeping Buddha' line-up of Kanchenjunga with Everest, Lhotse and Makalu ranged beside it. For the adventurous, it is the greatest mountain panorama the region offers, drivable in a rugged Land Rover or walked over days.", "lat": 27.125272, "lon": 88.018058, "p": "a"}, {"n": "Tinchuley & Takdah Heritage Bungalows", "cat": "do", "tier": "", "a": "Takdah / Tinchuley", "d": "A cluster of restored British planter and forest bungalows on a quiet ridge among orange orchards and tea, with sweeping Kanchenjunga views and near-total silence. An intimate, off-the-beaten-track base for travellers who want the hills without the crowds.", "lat": 27.046616, "lon": 88.381502, "p": "a"}, {"n": "Lamahatta Eco Park & Monastery", "cat": "do", "tier": "", "a": "Lamahatta (Darjeeling-Kalimpong road)", "d": "A forested, prayer-flag-lined park terraced up to a small sacred pond and monastery, with a Kanchenjunga viewpoint through the pines. A peaceful, uncommercialised stop that breaks the drive between Darjeeling and Kalimpong beautifully.", "lat": 27.07338, "lon": 88.476613, "p": "a"}, {"n": "The Windamere Bar", "cat": "party", "tier": "Landmark bars", "a": "Observatory Hill (Windamere Hotel)", "d": "A single-room Raj-era bar unchanged since 1939 — wood, sofas, old photographs and a whisky by the fire in the oldest heritage hotel in the Himalayas.", "lat": 26.685413, "lon": 88.325358, "p": "v"}, {"n": "Joey's Pub", "cat": "party", "tier": "Landmark bars", "a": "Dr S. M. Das Road, Darjeeling town", "d": "Darjeeling's legendary British-style pub — beer, banter and a fire, a fixture of the town's evenings for decades and much-loved by travellers.", "lat": 27.039678, "lon": 88.265545, "p": "v"}, {"n": "Glenary's Buzz Bar", "cat": "party", "tier": "Cocktail bars", "a": "Nehru Road (Glenary's)", "d": "The basement bar of the town's grand old café — the go-to for a drink and live music beneath the famous 1880s bakery.", "lat": 26.699063, "lon": 88.316546, "p": "v"}]}
+{
+  "center": [
+    27.037755,
+    88.263176
+  ],
+  "venues": [
+    {
+      "n": "Windamere Hotel",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Observatory Hill (above Chowrasta)",
+      "d": "A time-capsule of the British Raj on the hill where Darjeeling began \u2014 coal fires, hot-water bottles, afternoon tea and the oldest heritage hotel in the Himalayas.",
+      "lat": 27.046067,
+      "lon": 88.267702,
+      "photos": []
+    },
+    {
+      "n": "Mayfair Darjeeling",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Opposite Raj Bhawan (Governor's House)",
+      "d": "A hilltop heritage resort in the former summer palace of the Raja of Nazargunj \u2014 colonial fireplaces and carved wood, gardens, and a spa, opposite the Governor's House.",
+      "lat": 27.049041,
+      "lon": 88.265179,
+      "photos": []
+    },
+    {
+      "n": "Taj Chia Kutir Resort & Spa, Darjeeling",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Makaibari Tea Estate, Kurseong",
+      "d": "Taj's tea-country resort inside the historic Makaibari estate \u2014 bamboo, timber and stone in the mist, with a spa, indoor pool and guided estate walks.",
+      "lat": 26.856644,
+      "lon": 88.265706,
+      "photos": []
+    },
+    {
+      "n": "The Elgin, Darjeeling",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Darjeeling town (near the Mall)",
+      "d": "A 19th-century manor house turned five-star heritage hotel \u2014 Burma-teak floors, crackling fireplaces and a grand piano, once an Oberoi-family home.",
+      "lat": 27.045951,
+      "lon": 88.266829,
+      "photos": []
+    },
+    {
+      "n": "Cochrane Place, Kurseong",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Ambootia estate ridge, Kurseong",
+      "d": "A colonial-era boutique hideaway on a Kurseong ridge \u2014 a British magistrate's old house restored, with unobstructed Kanchenjunga views and an Anglo-Indian tea kitchen.",
+      "lat": 26.867535,
+      "lon": 88.261096,
+      "photos": []
+    },
+    {
+      "n": "Glenburn \u2014 the estate table",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Glenburn Tea Estate",
+      "d": "The finest meals in the hills are served at Glenburn \u2014 butler-hosted, produce from the estate, laid out on the verandah with Kanchenjunga in view.",
+      "lat": 27.051105,
+      "lon": 88.258533,
+      "photos": []
+    },
+    {
+      "n": "The Elgin dining room",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Darjeeling town (The Elgin)",
+      "d": "A candle-lit heritage dining room with a grand piano \u2014 considered Anglo-Indian and regional cooking under oak panelling and old etchings.",
+      "lat": 27.045951,
+      "lon": 88.266829,
+      "photos": []
+    },
+    {
+      "n": "Windamere \u2014 afternoon tea & dining",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Observatory Hill (Windamere)",
+      "d": "The great colonial afternoon tea of the Himalayas \u2014 cucumber sandwiches, scones and Darjeeling tea by the fire, in the oldest heritage hotel in the hills.",
+      "lat": 27.047874,
+      "lon": 88.268028,
+      "photos": []
+    },
+    {
+      "n": "Glenary's",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Nehru Road (the Mall)",
+      "d": "Darjeeling's grand old caf\u00e9-bakery since the 1880s \u2014 a first-floor restaurant, a famous ground-floor bakery, and Kanchenjunga through the windows.",
+      "lat": 27.043009,
+      "lon": 88.266931,
+      "photos": []
+    },
+    {
+      "n": "Keventer's",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Nehru Road / Clubside",
+      "d": "The 1911 rooftop breakfast institution \u2014 sausages, ham and eggs above the Mall, Kanchenjunga on the skyline, immortalised in Satyajit Ray's films.",
+      "lat": 27.042187,
+      "lon": 88.266636,
+      "photos": []
+    },
+    {
+      "n": "Kunga Restaurant",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Gandhi Road, Darjeeling town",
+      "d": "The town's most-loved Tibetan kitchen \u2014 steaming momos and thukpa in a tiny, family-run room where you may have to wait for a seat.",
+      "lat": 27.041717,
+      "lon": 88.266579,
+      "photos": []
+    },
+    {
+      "n": "Sonam's Kitchen",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Dr Zakir Hussain Road, Darjeeling town",
+      "d": "A tiny caf\u00e9 with a cult following \u2014 proper coffee, big breakfasts, and honest thukpa and momos, run by a local family.",
+      "lat": 27.042513,
+      "lon": 88.267923,
+      "photos": []
+    },
+    {
+      "n": "Tiger Hill Sunrise",
+      "cat": "do",
+      "tier": "",
+      "a": "Tiger Hill (Ghum)",
+      "d": "Before dawn you climb to 2,590 m and wait in the cold dark until the first light strikes Kanchenjunga's summit and it turns rose, then gold, over the sleeping range; on the clearest mornings Everest itself is a faint tooth on the far horizon. A private car and a flask of first-flush tea turn the pre-4am pilgrimage into something you will still talk about years later.",
+      "lat": 26.994901,
+      "lon": 88.285331,
+      "photos": []
+    },
+    {
+      "n": "Darjeeling Himalayan Railway Toy Train Joy Ride",
+      "cat": "do",
+      "tier": "",
+      "a": "Darjeeling to Ghum",
+      "d": "The little blue steam engine of 1881 pulls you up through the town's rooftops, around the spiralling Batasia Loop and up to Ghum, India's highest station, at a walking pace that lets you lean out and be handed marigolds. It is pure Raj-era romance, and a joy that spans generations from a five-year-old to a grandfather who rode it as a boy.",
+      "lat": 26.733508,
+      "lon": 88.407759,
+      "photos": []
+    },
+    {
+      "n": "Batasia Loop & War Memorial",
+      "cat": "do",
+      "tier": "",
+      "a": "Batasia (below Ghum)",
+      "d": "The toy train coils through a full circle here around a landscaped garden while Kanchenjunga fills the sky behind the Gorkha soldiers' memorial. The train pauses ten minutes so you can walk the flower beds and take in the panorama; it is the single most photographed spot on the line.",
+      "lat": 27.016701,
+      "lon": 88.247119,
+      "photos": []
+    },
+    {
+      "n": "Ghum Railway Station & DHR Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Ghum",
+      "d": "At 2,258 m this is the highest railway station in India, its little first-floor museum lined with the brass fittings, old photographs and a vintage engine that tell the story of how the line was built. A short, atmospheric stop that gives the toy train its historical weight.",
+      "lat": 27.00832,
+      "lon": 88.253885,
+      "photos": []
+    },
+    {
+      "n": "Yiga Choeling Monastery (Ghum Monastery)",
+      "cat": "do",
+      "tier": "",
+      "a": "Ghum",
+      "d": "Founded in 1850, the oldest Tibetan monastery of the region shelters a serene fifteen-foot Maitreya Buddha in gold and vermilion, butter lamps glowing against ancient manuscripts. Quiet, incense-scented and deeply atmospheric, it rewards an unhurried private visit away from the town crowds.",
+      "lat": 27.007506,
+      "lon": 88.246354,
+      "photos": []
+    },
+    {
+      "n": "Happy Valley Tea Estate",
+      "cat": "do",
+      "tier": "",
+      "a": "Lebong Cart Road",
+      "d": "Darjeeling's second-oldest garden, planted in 1854 on slopes just below the town, where you walk between the bushes with the pluckers and then sit for a proper tasting of the estate's organic first and second flush. It is the most accessible way to understand why Darjeeling tea is spoken of like a fine wine.",
+      "lat": 27.051105,
+      "lon": 88.258533,
+      "photos": []
+    },
+    {
+      "n": "Padmaja Naidu Himalayan Zoological Park",
+      "cat": "do",
+      "tier": "",
+      "a": "Jawahar Road West",
+      "d": "India's largest high-altitude zoo runs the country's flagship breeding programmes for the red panda and the snow leopard, and here you can actually watch a red panda curled in a fir tree at eye level. A genuine conservation landmark that captivates children and grandparents alike.",
+      "lat": 27.056926,
+      "lon": 88.2547,
+      "photos": []
+    },
+    {
+      "n": "Himalayan Mountaineering Institute",
+      "cat": "do",
+      "tier": "",
+      "a": "Jawahar Road West (zoo campus)",
+      "d": "Founded after Tenzing Norgay's 1953 Everest summit and long led by him, the institute's museum displays the ropes, ice-axes and expedition relics of Himalayan climbing history, with a viewing telescope trained on Kanchenjunga. For anyone stirred by the mountains outside the window, it is the emotional heart of Darjeeling.",
+      "lat": 27.05837,
+      "lon": 88.253939,
+      "photos": []
+    },
+    {
+      "n": "Chowrasta & The Mall",
+      "cat": "do",
+      "tier": "",
+      "a": "Chowrasta",
+      "d": "The flat, traffic-free promenade at the town's crown is where Darjeeling has always come to stroll, sit on the benches and watch the light change on the ridge. Ringed by Nathmull's tea shop and Glenary's, it is the town's living room and the natural place to begin and end a day.",
+      "lat": 27.045154,
+      "lon": 88.267375,
+      "photos": []
+    },
+    {
+      "n": "Observatory Hill & Mahakal Temple",
+      "cat": "do",
+      "tier": "",
+      "a": "Above Chowrasta",
+      "d": "A short climb through prayer-flag-draped pines leads to a shrine sacred to both Hindus and Buddhists, where a Shiva lingam and Buddhist bells share the same rock and the views open on all sides. It is the town's oldest sacred spot and quietly moving at any hour.",
+      "lat": 27.044688,
+      "lon": 88.267737,
+      "photos": []
+    },
+    {
+      "n": "St Andrew's Church",
+      "cat": "do",
+      "tier": "",
+      "a": "The Mall",
+      "d": "Darjeeling's oldest church, established in 1843, is a plain grey-stone Scottish kirk with memorial tablets to the planters and soldiers of the Raj still on its walls. A short, evocative stop for anyone drawn to the town's colonial thread.",
+      "lat": 27.047903,
+      "lon": 88.266683,
+      "photos": []
+    },
+    {
+      "n": "Rangeet Valley Passenger Ropeway",
+      "cat": "do",
+      "tier": "",
+      "a": "North Point",
+      "d": "India's first passenger cable car floats you out over tiers of tea gardens dropping to the Little Rangeet river, the whole Rangeet valley unfolding beneath your feet. A short, scenic glide that gives you the tea country from the air.",
+      "lat": 27.0599,
+      "lon": 88.251768,
+      "photos": []
+    },
+    {
+      "n": "Nightingale Park",
+      "cat": "do",
+      "tier": "",
+      "a": "Jalapahar Road",
+      "d": "A terraced hillside garden crowned by a large Shiva statue, with musical-fountain evenings and one of the town's best framed views of Kanchenjunga across the rooftops. A gentle, well-kept stop a short walk from the heritage hotels.",
+      "lat": 27.053717,
+      "lon": 88.259824,
+      "photos": []
+    },
+    {
+      "n": "Bengal Natural History Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Bishop Eric Benjamin Road",
+      "d": "Opened in 1903, this old collection of Himalayan birds, butterflies and mammals is a curiosity of the Raj-naturalist era, dusty cabinets and all. A quiet, quick detour for the curious, close to the Mall.",
+      "lat": 27.057635,
+      "lon": 88.254674,
+      "photos": []
+    },
+    {
+      "n": "Windamere Hotel",
+      "cat": "do",
+      "tier": "",
+      "a": "Observatory Hill",
+      "d": "The only truly authentic British-Raj heritage property in Darjeeling, a rambling white bungalow of hot-water bottles, coal fires, four-o'clock tea and a music room where time has genuinely stopped. Even for a High Tea or a nightcap it is an experience the town cannot repeat.",
+      "lat": 27.046067,
+      "lon": 88.267702,
+      "photos": []
+    },
+    {
+      "n": "The Elgin, Darjeeling",
+      "cat": "do",
+      "tier": "",
+      "a": "H D Lama Road",
+      "d": "Once the summer residence of the Maharaja of Cooch Behar and hotelier since 1887, the Elgin keeps its wood-panelled lounges, manicured lawns and afternoon-tea ritual immaculate. A heritage stay or a leisurely tea here is the polished, comfortable face of old Darjeeling.",
+      "lat": 27.045951,
+      "lon": 88.266829,
+      "photos": []
+    },
+    {
+      "n": "Glenary's & Keventer's",
+      "cat": "do",
+      "tier": "",
+      "a": "Nehru Road",
+      "d": "Two Raj-era institutions on the same lane: Glenary's for its bakery and the tea room with a valley view, Keventer's for the rooftop breakfast and cold cuts that generations of families have queued for. This is where you taste Darjeeling's colonial-cafe nostalgia over a slow morning.",
+      "lat": 27.043009,
+      "lon": 88.266931,
+      "photos": []
+    },
+    {
+      "n": "Glenburn Tea Estate",
+      "cat": "do",
+      "tier": "",
+      "a": "Rungeet Valley (near Darjeeling)",
+      "d": "A working colonial-era garden on a promontory above the Rungeet river where the planter's bungalows have become one of India's most romantic tea retreats, with private guided plucking, factory walks and tastings looking straight at Kanchenjunga. The definitive tea-planter fantasy for a discerning couple or family.",
+      "lat": 27.051105,
+      "lon": 88.258533,
+      "photos": []
+    },
+    {
+      "n": "Makaibari Tea Estate",
+      "cat": "do",
+      "tier": "",
+      "a": "Kurseong",
+      "d": "The world's first biodynamic and one of the oldest tea gardens, famous for its moonlight-plucked silver-tips and its immersive tours through the factory and the forest that shades the bushes. A pilgrimage for anyone serious about where great tea comes from.",
+      "lat": 27.051105,
+      "lon": 88.258533,
+      "photos": []
+    },
+    {
+      "n": "Lloyd's Botanical Garden",
+      "cat": "do",
+      "tier": "",
+      "a": "Below the Mall",
+      "d": "A steeply terraced Victorian garden of 1878 with orchid houses, a fernery and towering Himalayan conifers, a green pocket of calm just below the bustle of the Mall. An easy, restful walk for a slow afternoon.",
+      "lat": 27.044352,
+      "lon": 88.262615,
+      "photos": []
+    },
+    {
+      "n": "Tenzing & Gombu Rock",
+      "cat": "do",
+      "tier": "",
+      "a": "Lebong Cart Road",
+      "d": "A natural rock face used by the mountaineering institute for training and named for Everest's first summiteers, where you can watch aspiring climbers rope up or try a supervised scramble yourself. A short, spirited stop tied to Darjeeling's climbing legend.",
+      "lat": 27.057955,
+      "lon": 88.256243,
+      "photos": []
+    },
+    {
+      "n": "Kalimpong Flower Nurseries",
+      "cat": "do",
+      "tier": "",
+      "a": "Kalimpong",
+      "d": "The hill town's temperate slopes are one of India's great centres for orchids, gladioli, cacti and gerbera, and the terraced nurseries are a riot of colour and scent you can wander through freely. A gentle, unexpectedly captivating side of the eastern Himalayas.",
+      "lat": 27.043995,
+      "lon": 88.265426,
+      "photos": []
+    },
+    {
+      "n": "Pine View Cactus Nursery",
+      "cat": "do",
+      "tier": "",
+      "a": "Kalimpong",
+      "d": "One of Asia's finest private collections of cacti and succulents, more than fifteen hundred varieties bristling under glass on Atisha Road. A quirky, memorable stop that surprises everyone who thinks they don't care about plants.",
+      "lat": 27.043995,
+      "lon": 88.265426,
+      "photos": []
+    },
+    {
+      "n": "Deolo Hill",
+      "cat": "do",
+      "tier": "",
+      "a": "Kalimpong",
+      "d": "The highest point above Kalimpong, a breezy landscaped park where the Teesta winds far below and the whole west-Sikkim snow line stands clear on a good day. A relaxed, panoramic high point that families love for the space and the views.",
+      "lat": 27.08876,
+      "lon": 88.502641,
+      "photos": []
+    },
+    {
+      "n": "Morgan House",
+      "cat": "do",
+      "tier": "",
+      "a": "Durpin, Kalimpong",
+      "d": "A 1930s English country mansion, once a jute baron's home and now a heritage bungalow wrapped in pine and rhododendron, thick with Raj-era atmosphere and mist. Worth the visit for its faded colonial romance and the grounds alone.",
+      "lat": 27.049184,
+      "lon": 88.262163,
+      "photos": []
+    },
+    {
+      "n": "Dr Graham's Homes & Chapel",
+      "cat": "do",
+      "tier": "",
+      "a": "Deolo, Kalimpong",
+      "d": "A sprawling 1900 school campus of stone Scottish-mission buildings and a beautiful chapel spread across the hillside, a serene and storied slice of Kalimpong's missionary heritage. A quiet, atmospheric walk through living history.",
+      "lat": 27.040813,
+      "lon": 88.266848,
+      "photos": []
+    },
+    {
+      "n": "Mirik Lake (Sumendu Lake)",
+      "cat": "do",
+      "tier": "",
+      "a": "Mirik",
+      "d": "A slender lake ringed by pines and orange orchards where you can row a boat, walk the arched footbridge and ride a pony along the water in cool, gentle air. An easy, pretty day trip that suits every generation of a family.",
+      "lat": 26.889943,
+      "lon": 88.182621,
+      "photos": []
+    },
+    {
+      "n": "Kurseong & Eagle's Craig",
+      "cat": "do",
+      "tier": "",
+      "a": "Kurseong",
+      "d": "The quieter tea town on the toy-train line, its Eagle's Craig viewpoint looking down over the plains and the Cochrane Place heritage bungalow serving a fine tea. A restful, uncommercialised base deep in the tea country.",
+      "lat": 26.881827,
+      "lon": 88.278364,
+      "photos": []
+    },
+    {
+      "n": "Pelling & Kanchenjunga Viewpoints",
+      "cat": "do",
+      "tier": "",
+      "a": "West Sikkim",
+      "d": "Perched at 2,150 m, Pelling gives arguably the closest full-face view of Kanchenjunga anywhere accessible, the whole massif filling your hotel window at first light. The classic base for the west-Sikkim monastery circuit and the mountain romance at its purest.",
+      "lat": 27.329701,
+      "lon": 88.611647,
+      "photos": []
+    },
+    {
+      "n": "Pemayangtse Monastery",
+      "cat": "do",
+      "tier": "",
+      "a": "Pelling, West Sikkim",
+      "d": "One of Sikkim's oldest and most important Nyingma monasteries, founded in the 1700s, keeping an extraordinary seven-tiered wooden model of the Buddhist heavens carved by a single monk. A profound, beautifully sited stop with Kanchenjunga as backdrop.",
+      "lat": 27.050264,
+      "lon": 88.269954,
+      "photos": []
+    },
+    {
+      "n": "Rabdentse Ruins",
+      "cat": "do",
+      "tier": "",
+      "a": "Pelling, West Sikkim",
+      "d": "A short forest walk from Pemayangtse leads to the moss-covered ruins of Sikkim's second royal capital, its stone thrones and chortens standing on a ridge above a vast Himalayan drop. Quiet, evocative and beautifully atmospheric.",
+      "lat": 27.329701,
+      "lon": 88.611647,
+      "photos": []
+    },
+    {
+      "n": "Khecheopalri Lake",
+      "cat": "do",
+      "tier": "",
+      "a": "West Sikkim",
+      "d": "A sacred wish-fulfilling lake hidden in the forest, so revered that birds are said to lift any leaf that falls on its mirror surface, its shores hung with prayer flags. A serene, spiritual detour on the west-Sikkim loop.",
+      "lat": 27.349917,
+      "lon": 88.18833,
+      "photos": []
+    },
+    {
+      "n": "Yuksom",
+      "cat": "do",
+      "tier": "",
+      "a": "West Sikkim",
+      "d": "The sleepy first capital of Sikkim, where the coronation throne of the first Chogyal still stands under the pines and the great Kanchenjunga treks begin. A gentle, history-laden village at the foot of the high mountains.",
+      "lat": 27.037755,
+      "lon": 88.263176,
+      "photos": []
+    },
+    {
+      "n": "Rumtek Monastery (Dharmachakra Centre)",
+      "cat": "do",
+      "tier": "",
+      "a": "Near Gangtok, Sikkim",
+      "d": "The largest monastery in Sikkim and the seat of the Karmapa's Kagyu lineage, its golden-roofed shrine hall glowing with murals, a jewelled reliquary and rows of chanting monks. The single most important spiritual sight of the Gangtok region.",
+      "lat": 27.329701,
+      "lon": 88.611647,
+      "photos": []
+    },
+    {
+      "n": "Tsomgo (Changu) Lake",
+      "cat": "do",
+      "tier": "",
+      "a": "East Sikkim",
+      "d": "A high glacial lake at 3,750 m that stays frozen much of the year, ringed by snow with yaks in their festive harness on the shore, an hour and a half's drive from Gangtok on a permit. A dramatic, high-altitude excursion that thrills first-time mountain visitors.",
+      "lat": 27.329701,
+      "lon": 88.611647,
+      "photos": []
+    },
+    {
+      "n": "Nathula Pass",
+      "cat": "do",
+      "tier": "",
+      "a": "East Sikkim",
+      "d": "A historic Silk-Road pass on the India-China border at 4,310 m, where you can stand at the frontier fence in the thin cold air with the army post beside you. A stirring, bucket-list drive that needs a special permit and a clear day.",
+      "lat": 27.329701,
+      "lon": 88.611647,
+      "photos": []
+    },
+    {
+      "n": "MG Marg, Gangtok",
+      "cat": "do",
+      "tier": "",
+      "a": "Gangtok, Sikkim",
+      "d": "Sikkim's spotless, traffic-free and litter-free central promenade, lined with cafes, tea shops and flower beds and made for an evening stroll. The relaxed social heart of the capital and the natural base for the wider Sikkim circuit.",
+      "lat": 27.328367,
+      "lon": 88.612279,
+      "photos": []
+    },
+    {
+      "n": "Khangchendzonga National Park",
+      "cat": "do",
+      "tier": "",
+      "a": "Sikkim",
+      "d": "A vast wilderness of glaciers, alpine lakes and the sacred slopes of Kanchenjunga itself, revered by Sikkimese as a living deity and the setting for the great high treks. Sikkim's crowning wild landscape, entered on permit through Yuksom.",
+      "lat": 27.329701,
+      "lon": 88.611647,
+      "photos": []
+    },
+    {
+      "n": "Singalila Ridge & Sandakphu",
+      "cat": "do",
+      "tier": "",
+      "a": "Singalila National Park (Manebhanjan)",
+      "d": "The ridge trek to Sandakphu, West Bengal's highest point at 3,636 m, delivers the fabled 'Sleeping Buddha' line-up of Kanchenjunga with Everest, Lhotse and Makalu ranged beside it. For the adventurous, it is the greatest mountain panorama the region offers, drivable in a rugged Land Rover or walked over days.",
+      "lat": 27.125272,
+      "lon": 88.018058,
+      "photos": []
+    },
+    {
+      "n": "Tinchuley & Takdah Heritage Bungalows",
+      "cat": "do",
+      "tier": "",
+      "a": "Takdah / Tinchuley",
+      "d": "A cluster of restored British planter and forest bungalows on a quiet ridge among orange orchards and tea, with sweeping Kanchenjunga views and near-total silence. An intimate, off-the-beaten-track base for travellers who want the hills without the crowds.",
+      "lat": 27.046616,
+      "lon": 88.381502,
+      "photos": []
+    },
+    {
+      "n": "Lamahatta Eco Park & Monastery",
+      "cat": "do",
+      "tier": "",
+      "a": "Lamahatta (Darjeeling-Kalimpong road)",
+      "d": "A forested, prayer-flag-lined park terraced up to a small sacred pond and monastery, with a Kanchenjunga viewpoint through the pines. A peaceful, uncommercialised stop that breaks the drive between Darjeeling and Kalimpong beautifully.",
+      "lat": 27.07338,
+      "lon": 88.476613,
+      "photos": []
+    },
+    {
+      "n": "The Windamere Bar",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "Observatory Hill (Windamere Hotel)",
+      "d": "A single-room Raj-era bar unchanged since 1939 \u2014 wood, sofas, old photographs and a whisky by the fire in the oldest heritage hotel in the Himalayas.",
+      "lat": 26.685413,
+      "lon": 88.325358,
+      "photos": []
+    },
+    {
+      "n": "Joey's Pub",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "Dr S. M. Das Road, Darjeeling town",
+      "d": "Darjeeling's legendary British-style pub \u2014 beer, banter and a fire, a fixture of the town's evenings for decades and much-loved by travellers.",
+      "lat": 27.039678,
+      "lon": 88.265545,
+      "photos": []
+    },
+    {
+      "n": "Glenary's Buzz Bar",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Nehru Road (Glenary's)",
+      "d": "The basement bar of the town's grand old caf\u00e9 \u2014 the go-to for a drink and live music beneath the famous 1880s bakery.",
+      "lat": 26.699063,
+      "lon": 88.316546,
+      "photos": []
+    }
+  ]
+}

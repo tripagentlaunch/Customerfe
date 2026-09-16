@@ -34,6 +34,18 @@ export function Header() {
   const [query, setQuery] = useState("");
   const headerRef = useRef<HTMLElement>(null);
 
+  // Auto-hiding header: peeks open on page load, then slides away; after
+  // that it only reappears on hover from the top edge (or while a mega
+  // menu / the mobile menu is open, so interacting with it never gets cut
+  // off mid-use).
+  const [initialPeek, setInitialPeek] = useState(true);
+  const [hovering, setHovering] = useState(false);
+  useEffect(() => {
+    const t = setTimeout(() => setInitialPeek(false), 1500);
+    return () => clearTimeout(t);
+  }, []);
+  const headerVisible = initialPeek || hovering || menuOpen || openRoom !== null;
+
   // A magic-link click can complete a Supabase session with no linked
   // site_members row (see auth.tsx's hydrate()) — that happens on a full
   // page load with no modal open to show an inline error in, so surface it
@@ -75,7 +87,15 @@ export function Header() {
   }
 
   return (
-    <header ref={headerRef} className={`ta-hd${menuOpen ? " menu-open" : ""}`} data-shell>
+    <>
+      <div className="ta-hd-edge" onMouseEnter={() => setHovering(true)} />
+      <header
+        ref={headerRef}
+        className={`ta-hd${headerVisible ? " ta-hd-visible" : ""}${menuOpen ? " menu-open" : ""}`}
+        data-shell
+        onMouseEnter={() => setHovering(true)}
+        onMouseLeave={() => setHovering(false)}
+      >
       <div className="ta-hd-top">
         <Link className="ta-hd-brand" to="/">
           <svg className="mk" width="24" height="24" viewBox="0 0 420 420" fill="none">
@@ -163,6 +183,7 @@ export function Header() {
           By invitation
         </Link>
       </nav>
-    </header>
+      </header>
+    </>
   );
 }

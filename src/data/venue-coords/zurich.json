@@ -1,1 +1,668 @@
-{"center": [47.374449, 8.541042], "venues": [{"n": "Baur au Lac", "cat": "stay", "tier": "Ultra", "a": "Lakefront / Talstrasse, by Bahnhofstrasse", "d": "The city's grande dame since 1844 — family-owned, lake-facing, and quietly the address that matters.", "lat": 47.367112, "lon": 8.539343, "p": "v"}, {"n": "The Dolder Grand", "cat": "stay", "tier": "Ultra", "a": "Adlisberg hillside, above the city", "d": "A fairy-tale hillside resort above Zurich — a spa, an art collection and the whole lake laid out below.", "lat": 47.372794, "lon": 8.573369, "p": "v"}, {"n": "Mandarin Oriental Savoy, Zurich", "cat": "stay", "tier": "Ultra", "a": "Paradeplatz / Altstadt", "d": "The city's oldest grand hotel, reborn — Mandarin Oriental precision on the Paradeplatz.", "lat": 47.369769, "lon": 8.539772, "p": "v"}, {"n": "Widder Hotel", "cat": "stay", "tier": "Grand", "a": "Augustiner Quarter / Altstadt", "d": "Nine medieval townhouses stitched into one — an art-and-design masterpiece in the heart of the Old Town.", "lat": 47.37244, "lon": 8.539856, "p": "v"}, {"n": "La Réserve Eden au Lac Zurich", "cat": "stay", "tier": "Grand", "a": "Seefeld / lakefront (Zürichsee)", "d": "A Philippe Starck-imagined 'yacht club' on the lake — playful, private and thoroughly of the moment.", "lat": 47.362774, "lon": 8.54738, "p": "v"}, {"n": "Storchen Zürich", "cat": "stay", "tier": "Grand", "a": "Limmat riverfront / Altstadt", "d": "Six hundred years on the Limmat — a riverfront address woven into the fabric of the Old Town.", "lat": 47.371266, "lon": 8.541794, "p": "v"}, {"n": "Park Hyatt Zurich", "cat": "stay", "tier": "Grand", "a": "Enge / Beethovenstrasse, off Bahnhofstrasse", "d": "Cool, contemporary calm a step from Bahnhofstrasse — glass, art and space where the city is dense.", "lat": 47.366423, "lon": 8.53604, "p": "v"}, {"n": "Marktgasse Hotel", "cat": "stay", "tier": "Luxury", "a": "Niederdorf / Altstadt", "d": "A restored 15th-century house in the pedestrian Old Town — design-led, intimate, and full of history.", "lat": 47.372008, "lon": 8.54348, "p": "v"}, {"n": "Alden Suite Hotel Splügenschloss Zürich", "cat": "stay", "tier": "Luxury", "a": "Enge", "d": "An all-suite mansion of 1895 — quiet, discreet, and among the most private addresses in the city.", "lat": 47.364573, "lon": 8.534237, "p": "v"}, {"n": "Kameha Grand Zürich", "cat": "stay", "tier": "Premium", "a": "Glattpark / Zürich-Nord (near the airport)", "d": "A Marcel Wanders design spectacle on the city's edge — bold, playful, and unlike anything in the Old Town.", "lat": 47.422517, "lon": 8.559131, "p": "v"}, {"n": "25hours Hotel Zurich West", "cat": "stay", "tier": "Premium", "a": "Zürich West / Escher-Wyss", "d": "A witty, design-forward base in the reinvented industrial west — excellent value by Zurich standards.", "lat": 47.391053, "lon": 8.509905, "p": "v"}, {"n": "The Restaurant", "cat": "eat", "tier": "Destination", "a": "The Dolder Grand, Adlisberg hillside", "d": "Heiko Nieder's classical-modern cooking, laced with exotic accents — the city's benchmark table, high above the lake.", "lat": 47.372725, "lon": 8.572751, "p": "v"}, {"n": "Widder Restaurant", "cat": "eat", "tier": "Destination", "a": "Widder Hotel, Augustiner Quarter / Altstadt", "d": "Stefan Heilemann bridges classic haute cuisine and Thai-inflected modernity — the Old Town's two-star jewel.", "lat": 47.372268, "lon": 8.539968, "p": "v"}, {"n": "The Counter", "cat": "eat", "tier": "Destination", "a": "Zurich Hauptbahnhof (main station)", "d": "Mitja Birlo's surprise menu at a U-shaped counter beside the open kitchen — two stars from a standing start, inside the station.", "lat": 47.37722, "lon": 8.540726, "p": "v"}, {"n": "IGNIV Zürich by Andreas Caminada", "cat": "eat", "tier": "Destination", "a": "Marktgasse Hotel, Niederdorf / Altstadt", "d": "Caminada's fine-dining-meets-sharing concept — generous, playful and technically exact.", "lat": 47.371971, "lon": 8.543661, "p": "v"}, {"n": "Orsini", "cat": "eat", "tier": "Fine", "a": "Mandarin Oriental Savoy, Paradeplatz / Altstadt", "d": "Dario Moresco's creative modern Italian, guided by Milan's two-star Antonio Guida — bold contrasts, beautifully balanced.", "lat": 47.370103, "lon": 8.540124, "p": "v"}, {"n": "La Rôtisserie", "cat": "eat", "tier": "Fine", "a": "Storchen Zürich, Limmat riverfront / Altstadt", "d": "Refined cooking in a 14th-century riverside room — the Limmat gliding past the window.", "lat": 47.37118, "lon": 8.541803, "p": "v"}, {"n": "Mesa", "cat": "eat", "tier": "Fine", "a": "Oberstrass / Weinbergstrasse", "d": "Sebastian Rösch's precise, light cooking — classical foundations with a bright, modern hand.", "lat": 47.383375, "lon": 8.543196, "p": "v"}, {"n": "Kle", "cat": "eat", "tier": "Fine", "a": "District 3 / Wiedikon", "d": "Entirely vegan fine dining with Moroccan and Mexican accents — creative, seasonal and quietly radical.", "lat": 47.37153, "lon": 8.520945, "p": "v"}, {"n": "Neue Taverne", "cat": "eat", "tier": "Fine", "a": "Altstadt / Old Town", "d": "Nenad Mlinarevic's purely vegetarian, market-driven cooking in the heart of the Old Town.", "lat": 47.37207, "lon": 8.540366, "p": "v"}, {"n": "Shin", "cat": "eat", "tier": "Fine", "a": "Zinnengasse / Altstadt", "d": "An intimate Japanese counter — omakase sushi for a handful of guests, prepared before you.", "lat": 47.370499, "lon": 8.541396, "p": "v"}, {"n": "Ornellaia", "cat": "eat", "tier": "Fine", "a": "Altstadt / near the main station", "d": "Modern Italian with a namesake cellar — Bolgheri's great wines beside a considered kitchen.", "lat": 47.372457, "lon": 8.537686, "p": "v"}, {"n": "Rosi", "cat": "eat", "tier": "Smart", "a": "District 5 / Zürich West", "d": "Markus Stöckle's self-styled 'neo-Bavarian' room — vivid, warm and unexpectedly refined.", "lat": 47.376295, "lon": 8.489746, "p": "v"}, {"n": "EquiTable", "cat": "eat", "tier": "Smart", "a": "District 4 / Aussersihl", "d": "Julian Marti's small, values-led kitchen — food, wine and service in quiet, sustainable harmony.", "lat": 47.377861, "lon": 8.521149, "p": "v"}, {"n": "La Muña", "cat": "eat", "tier": "Fine", "a": "Jelmoli rooftop, Bahnhofstrasse", "d": "Nikkei cooking — Peru meets Japan — on a lively rooftop above the shopping street.", "lat": 47.362891, "lon": 8.547255, "p": "v"}, {"n": "Kronenhalle", "cat": "eat", "tier": "Fine", "a": "Bellevue / Altstadt", "d": "A Zurich institution since 1924 — Swiss and Viennese classics served beneath Chagall, Picasso and Miró.", "lat": 47.367551, "lon": 8.545719, "p": "v"}, {"n": "Marguita", "cat": "eat", "tier": "Fine", "a": "Baur au Lac, lakefront", "d": "The Baur au Lac's signature room — Mediterranean-leaning cooking with the hotel's long-held polish.", "lat": 47.374449, "lon": 8.541042, "p": "v"}, {"n": "Baur's", "cat": "eat", "tier": "Fine", "a": "Baur au Lac, lakefront", "d": "A deluxe brasserie of the classics — Zürcher Geschnetzeltes and sole done immaculately.", "lat": 47.367112, "lon": 8.539343, "p": "v"}, {"n": "Sushi Shin", "cat": "eat", "tier": "Fine", "a": "Zurich", "d": "Masami Okamoto's exclusive omakase for a few guests a night — pure, exacting Japanese craft.", "lat": 47.370499, "lon": 8.541396, "p": "v"}, {"n": "Gaijin Izakaya", "cat": "eat", "tier": "Smart", "a": "District 4 / Aussersihl", "d": "A modern izakaya of real quality — Japanese small plates and charcoal, at an honest price.", "lat": 47.372917, "lon": 8.5277, "p": "v"}, {"n": "Gül", "cat": "eat", "tier": "Smart", "a": "District 4 / Aussersihl", "d": "Contemporary Turkish over wood and charcoal — a bright surprise menu that punches far above its price.", "lat": 47.378491, "lon": 8.52915, "p": "v"}, {"n": "Freilager La Trattoria", "cat": "eat", "tier": "Smart", "a": "Albisrieden", "d": "Antonio Colaianni's lively trattoria — vitello tonnato and tiramisù finished at your table.", "lat": 47.379663, "lon": 8.489496, "p": "v"}, {"n": "AuGust", "cat": "eat", "tier": "Casual", "a": "Altstadt / Old Town", "d": "Honest Swiss cooking — sausage, rösti and beer done properly, without a shred of ceremony.", "lat": 47.351594, "lon": 8.571105, "p": "v"}, {"n": "Lindenhof", "cat": "do", "tier": "", "a": "Old Town (left bank)", "d": "A leafy hilltop terrace on the site of a Roman fort and later imperial palace, shaded by century-old linden trees, with one of the loveliest free views over the Limmat, the Old Town spires and Grossmünster. Locals play boules and chess here; a calm, camera-ready pause on a private walking tour, and a favourite spot for a golden-hour photograph.", "lat": 47.372916, "lon": 8.540176, "p": "v"}, {"n": "Niederdorf (Dörfli) lanes", "cat": "do", "tier": "", "a": "Old Town (right bank)", "d": "The pedestrianised heart of the Old Town — cobbled alleys winding up toward the Grossmünster, lined with boutiques, chocolatiers, cafés and long-standing patisseries. Best explored slowly on foot, ideally early evening; a private guide can thread you past the Cabaret Voltaire, Spiegelgasse and the quieter courtyards the crowds miss.", "lat": 47.277103, "lon": 8.577043, "p": "v"}, {"n": "Bahnhofstrasse — the luxury mile", "cat": "do", "tier": "", "a": "City centre", "d": "One of the most expensive shopping streets in the world, running from the main station to the lake. This is where Zurich's watches and jewellery live — the maisons, the grandes marques, and the great multi-brand houses — alongside international fashion. Stroll it end to end, then reward the family at Sprüngli on Paradeplatz. A concierge can arrange private after-hours appointments at the watch houses.", "lat": 47.378101, "lon": 8.539364, "p": "a"}, {"n": "Beyer Chronometrie, Bahnhofstrasse", "cat": "do", "tier": "", "a": "City centre", "d": "One of the world's oldest watch and jewellery houses, family-run since 1760, and a serious address for Patek Philippe, Rolex and the finest independents. The ground-floor salon is discreet and unhurried; ask for a private consultation. Below it sits the Beyer Clock and Watch Museum for the horology-minded.", "lat": 47.370925, "lon": 8.538542, "p": "v"}, {"n": "Beyer Clock and Watch Museum", "cat": "do", "tier": "", "a": "City centre", "d": "A jewel-box basement museum beneath the Beyer store on Bahnhofstrasse, tracing timekeeping from around 1400 BC to the present across some 270 objects — sundials, tower clocks, pocket watches and the prototype of the first quartz wristwatch. A short, rich stop that gives context before any watch purchase; a natural pairing for collectors.", "lat": 47.378101, "lon": 8.539364, "p": "a"}, {"n": "Confiserie Sprüngli, Paradeplatz", "cat": "do", "tier": "", "a": "City centre", "d": "The house that has stood at Paradeplatz since 1859, celebrated for its featherlight Luxemburgerli macarons and truffles. The upstairs café is a Zurich institution for a mid-morning coffee and cake; the boutique makes elegant, packable gifts to carry home. Reliable vegetarian sweets and a favourite treat for children and grandparents alike.", "lat": 47.369482, "lon": 8.53914, "p": "v"}, {"n": "Lake Zurich cruise (ZSG)", "cat": "do", "tier": "", "a": "Lake Zurich", "d": "The Lake Zurich Navigation Company runs daily scheduled cruises from the Bürkliplatz quay, from short 1.5-hour loops to longer runs past the villa-lined 'Gold Coast' to Rapperswil, aboard motor vessels and classic paddle steamers. Book a Dream Boat dinner or brunch cruise for a private-feeling occasion; the calm water and Alpine backdrop suit multi-generation groups.", "lat": 47.279096, "lon": 8.597868, "p": "a"}, {"n": "Lakeside promenades — Bürkliplatz to Zürichhorn", "cat": "do", "tier": "", "a": "Lake Zurich", "d": "The right-bank promenade runs from Bürkliplatz along the Utoquai to the parks at Zürichhorn — swans, plane trees, the Chinese Garden and, on clear days, the Alps mirrored in the water. A gentle, level walk perfect for grandparents and an evening stroll after dinner. Stop at the Pavillon Le Corbusier along the way.", "lat": 47.279096, "lon": 8.597868, "p": "a"}, {"n": "Summer swimming at the Badis (Seebad Enge & Utoquai)", "cat": "do", "tier": "", "a": "Lake Zurich", "d": "Zurich swims in its own lake and rivers in summer. Seebad Enge is a stylish lakeside lido with a sauna and a bar; the historic wooden Seebad Utoquai has welcomed swimmers off its docks for over 120 years. Clean, cold, and quintessentially local — a refreshing morning dip before the day's sightseeing.", "lat": 47.279096, "lon": 8.597868, "p": "a"}, {"n": "Kunsthaus Zürich", "cat": "do", "tier": "", "a": "Heimplatz, Old Town edge", "d": "Switzerland's largest art museum, expanded by a luminous David Chipperfield extension. The collection runs from Old Masters and a deep Giacometti holding to Munch, the Impressionists and Pipilotti Rist's immersive installations. Admission to the permanent collection is free on Wednesdays; a private docent can tailor a focused hour for the family.", "lat": 47.370224, "lon": 8.54798, "p": "v"}, {"n": "Museum Rietberg", "cat": "do", "tier": "", "a": "Rieterpark, Enge", "d": "Switzerland's only major museum of non-European art, set in three historic villas in the emerald Rieterpark above the lake. Strong Indian, Chinese, Japanese, African and Himalayan collections — of particular resonance for Indian visitors — shown with real care. Combine with a stroll through the park for one of the city's calmest cultural afternoons.", "lat": 47.358918, "lon": 8.529735, "p": "v"}, {"n": "FIFA Museum", "cat": "do", "tier": "", "a": "Enge (opposite Bahnhof Enge)", "d": "Three floors of football history opposite Bahnhof Enge, with the original World Cup trophy on display, over 1,000 pieces of memorabilia and hands-on digital stations. A genuine highlight for football-mad teenagers and a fine rainy-day option; interactive enough to hold a mixed-age group.", "lat": 47.363579, "lon": 8.531519, "p": "v"}, {"n": "Uetliberg — Zurich's home mountain", "cat": "do", "tier": "", "a": "Uetliberg (southwest edge)", "d": "The 871-metre mountain rising over the city, reached in about 20 minutes on the S10 train from the main station. From the lookout tower the whole of Zurich, the lake and, on clear days, the Alps unfold below. Gentle ridge walks, a summit restaurant and easy access make it a relaxed half-day with sweeping photographs.", "lat": 47.369215, "lon": 8.47901, "p": "v"}, {"n": "Zurich Zoo & Masoala Rainforest", "cat": "do", "tier": "", "a": "Zürichberg (right bank hills)", "d": "One of Europe's most respected zoos, home to over 300 species, the vast Kaeng Krachan elephant park and the Lewa Savanna. Its showpiece is the Masoala Rainforest hall — a walk-through slice of Madagascar with free-flying birds, lemurs and dense green heat. A sure hit for children; reach it by tram or the funicular up the Zürichberg.", "lat": 47.384229, "lon": 8.577922, "p": "v"}, {"n": "Lindt Home of Chocolate, Kilchberg", "cat": "do", "tier": "", "a": "Kilchberg (lakeside, day trip)", "d": "The Lindt & Sprüngli chocolate experience just outside the city, built around the world's tallest chocolate fountain at over nine metres, an interactive museum and a generous free tasting zone. Book a chocolate-making workshop for the family, and stock the largest Lindt shop in the world with gifts to carry home. Reachable by a short train or lake boat.", "lat": 47.318466, "lon": 8.5509, "p": "v"}, {"n": "Zürich West — the Viadukt", "cat": "do", "tier": "", "a": "Zürich West (District 5)", "d": "A restored 19th-century railway viaduct whose brick arches now hold design boutiques, a covered market hall and cafés — the beating heart of the city's reinvented industrial west. Graze the market hall for lunch, browse Swiss makers, and feel a grittier, more creative Zurich than Bahnhofstrasse.", "lat": 47.385926, "lon": 8.521709, "p": "v"}, {"n": "Frau Gerolds Garten & Prime Tower", "cat": "do", "tier": "", "a": "Zürich West (District 5)", "d": "An urban garden of shipping-container shops, a summer beer garden and street food beneath the Prime Tower — at 126 metres one of Switzerland's tallest buildings. A relaxed, in-the-know spot for a sundowner; ride up to the Clouds restaurant and bar in the tower for a skyline view over the district.", "lat": 47.385302, "lon": 8.519136, "p": "v"}, {"n": "Zurich Opera House (Opernhaus)", "cat": "do", "tier": "", "a": "Sechseläutenplatz, lakeside", "d": "A grand 19th-century opera house on the lakefront, one of Europe's most respected houses for opera and ballet. Book a box for an evening in your finest; the neo-Baroque interior and the square outside make it an occasion in itself. A concierge can secure premium seats and pre-theatre dining nearby.", "lat": 47.36497, "lon": 8.546831, "p": "v"}, {"n": "Tonhalle Zürich", "cat": "do", "tier": "", "a": "City centre / lakeside", "d": "The 1895 concert hall of the Tonhalle Orchester Zürich, its acoustics ranked among the finest in Europe and its gilded interior beautifully restored. An evening of world-class symphonic music in an intimate, ornate room — a refined alternative to a night at the opera.", "lat": 47.366094, "lon": 8.53786, "p": "v"}, {"n": "Old Botanical Garden (Alter Botanischer Garten)", "cat": "do", "tier": "", "a": "City centre (near Bahnhofstrasse)", "d": "A small, romantic city-centre garden laid out on a former bastion, with a historic domed palm house and quiet terraced lawns. A green pause a few minutes from the shopping — pleasant for grandparents and children needing a breather between museums.", "lat": 47.378195, "lon": 8.540685, "p": "a"}, {"n": "Pavillon Le Corbusier", "cat": "do", "tier": "", "a": "Zürichhorn, lakeside", "d": "The last building Le Corbusier designed — his only work in steel and glass — a jewel of primary-coloured panels set in the lakeside park at Zürichhorn. Open roughly May to November; a short, distinctive stop for design lovers, easily folded into a lake promenade walk.", "lat": 47.356097, "lon": 8.550864, "p": "v"}, {"n": "Cabaret Voltaire", "cat": "do", "tier": "", "a": "Old Town (Spiegelgasse)", "d": "The tiny room at Spiegelgasse 1 where the Dada movement was born in 1916, now a café-bar and cultural space. A niche but genuine piece of art history tucked into the Old Town lanes — worth a coffee and a glance for the culturally curious.", "lat": 47.371609, "lon": 8.543931, "p": "v"}, {"n": "James Joyce's grave, Fluntern Cemetery", "cat": "do", "tier": "", "a": "Zürichberg (near the zoo)", "d": "In the leafy Fluntern cemetery on the Zürichberg lies James Joyce, who spent his final years in Zurich, marked by a seated bronze statue of the writer, book in hand. A quiet literary pilgrimage that pairs naturally with a visit to the nearby zoo.", "lat": 47.383495, "lon": 8.570654, "p": "v"}, {"n": "Stein am Rhein (day trip)", "cat": "do", "tier": "", "a": "Stein am Rhein (day trip)", "d": "A perfectly preserved medieval town on the Rhine, its main square ringed by half-timbered houses covered in vivid painted frescoes and oriel windows. Small, walkable and postcard-pretty — an easy, gentle addition to a Rhine Falls day, well suited to a relaxed pace with grandparents.", "lat": 47.660439, "lon": 8.858553, "p": "v"}, {"n": "Mount Titlis & Engelberg (day trip)", "cat": "do", "tier": "", "a": "Engelberg (day trip)", "d": "Year-round glacier and snow at 3,000-plus metres, reached from the monastery village of Engelberg via the world's first rotating cable car, plus a cliff walk suspension bridge and a glacier cave. The most reliable place near Zurich to put the family in real Alpine snow whatever the season.", "lat": 47.355039, "lon": 8.602145, "p": "a"}, {"n": "Zürichberg forest walk", "cat": "do", "tier": "", "a": "Zürichberg (right bank hills)", "d": "The wooded ridge above the city, laced with easy trails, clearings and a wildlife park, reached by tram or funicular. A green, restorative morning away from the crowds, with occasional views down to the lake — pleasant for a slow family walk before a zoo or cemetery visit nearby.", "lat": 47.38979, "lon": 8.56567, "p": "v"}, {"n": "Freitag Tower, Zürich West", "cat": "do", "tier": "", "a": "Zürich West (District 5)", "d": "A stack of 17 rusted shipping containers forming the flagship of Zurich's cult Freitag brand, whose bags are cut from used truck tarpaulins — climb to the top for a view over the western district. A quirky design pilgrimage and a distinctly Swiss, one-of-a-kind gift to take home.", "lat": 47.385667, "lon": 8.519404, "p": "v"}, {"n": "Chinagarten (Chinese Garden)", "cat": "do", "tier": "", "a": "Zürichhorn, lakeside", "d": "A serene walled Chinese garden by the lake, a gift from Zurich's twin city Kunming, with pavilions, a koi pond and ornate gates. A small, tranquil detour on the lakeside promenade — a quiet, contemplative pause that reads well with grandparents.", "lat": 47.352909, "lon": 8.55386, "p": "a"}, {"n": "Kronenhalle Bar", "cat": "party", "tier": "Landmark bars", "a": "Bellevue / Altstadt", "d": "Cocktails mixed beneath real Miró, Klee and Chagall, under lamps Diego Giacometti made for the room — a Zurich rite since the 1960s.", "lat": 47.367551, "lon": 8.545719, "p": "v"}, {"n": "Widder Bar", "cat": "party", "tier": "Landmark bars", "a": "Widder Hotel, Augustiner Quarter / Altstadt", "d": "Over a thousand spirits and a legendary whisky wall, with live jazz some nights — one of Europe's most respected hotel bars.", "lat": 47.372231, "lon": 8.539917, "p": "v"}, {"n": "Old Crow", "cat": "party", "tier": "Cocktail bars", "a": "Zwinglistrasse, District 4 / Aussersihl", "d": "A spirits pilgrimage — 1,600-odd bottles, rare whiskies and forgotten liqueurs, mixed with quiet precision.", "lat": 47.37212, "lon": 8.541201, "p": "v"}, {"n": "Clouds", "cat": "party", "tier": "Rooftops", "a": "Prime Tower, Zürich West", "d": "Zurich's highest bar — the 35th floor, the Limmat valley and the Alps through the glass, best caught at sunset.", "lat": 47.38608, "lon": 8.51719, "p": "v"}, {"n": "Jules Verne Panorama Bar", "cat": "party", "tier": "Rooftops", "a": "Uraniastrasse, by Bahnhofstrasse / Altstadt", "d": "A round bar in the old Urania observatory tower — the Old Town, the lake and the Alps wrapped around you.", "lat": 47.374261, "lon": 8.539349, "p": "v"}]}
+{
+  "center": [
+    47.374449,
+    8.541042
+  ],
+  "venues": [
+    {
+      "n": "Baur au Lac",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Lakefront / Talstrasse, by Bahnhofstrasse",
+      "d": "The city's grande dame since 1844 \u2014 family-owned, lake-facing, and quietly the address that matters.",
+      "lat": 47.367112,
+      "lon": 8.539343,
+      "photos": []
+    },
+    {
+      "n": "The Dolder Grand",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Adlisberg hillside, above the city",
+      "d": "A fairy-tale hillside resort above Zurich \u2014 a spa, an art collection and the whole lake laid out below.",
+      "lat": 47.372794,
+      "lon": 8.573369,
+      "photos": []
+    },
+    {
+      "n": "Mandarin Oriental Savoy, Zurich",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Paradeplatz / Altstadt",
+      "d": "The city's oldest grand hotel, reborn \u2014 Mandarin Oriental precision on the Paradeplatz.",
+      "lat": 47.369769,
+      "lon": 8.539772,
+      "photos": []
+    },
+    {
+      "n": "Widder Hotel",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Augustiner Quarter / Altstadt",
+      "d": "Nine medieval townhouses stitched into one \u2014 an art-and-design masterpiece in the heart of the Old Town.",
+      "lat": 47.37244,
+      "lon": 8.539856,
+      "photos": []
+    },
+    {
+      "n": "La R\u00e9serve Eden au Lac Zurich",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Seefeld / lakefront (Z\u00fcrichsee)",
+      "d": "A Philippe Starck-imagined 'yacht club' on the lake \u2014 playful, private and thoroughly of the moment.",
+      "lat": 47.362774,
+      "lon": 8.54738,
+      "photos": []
+    },
+    {
+      "n": "Storchen Z\u00fcrich",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Limmat riverfront / Altstadt",
+      "d": "Six hundred years on the Limmat \u2014 a riverfront address woven into the fabric of the Old Town.",
+      "lat": 47.371266,
+      "lon": 8.541794,
+      "photos": []
+    },
+    {
+      "n": "Park Hyatt Zurich",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Enge / Beethovenstrasse, off Bahnhofstrasse",
+      "d": "Cool, contemporary calm a step from Bahnhofstrasse \u2014 glass, art and space where the city is dense.",
+      "lat": 47.366423,
+      "lon": 8.53604,
+      "photos": []
+    },
+    {
+      "n": "Marktgasse Hotel",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Niederdorf / Altstadt",
+      "d": "A restored 15th-century house in the pedestrian Old Town \u2014 design-led, intimate, and full of history.",
+      "lat": 47.372008,
+      "lon": 8.54348,
+      "photos": []
+    },
+    {
+      "n": "Alden Suite Hotel Spl\u00fcgenschloss Z\u00fcrich",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Enge",
+      "d": "An all-suite mansion of 1895 \u2014 quiet, discreet, and among the most private addresses in the city.",
+      "lat": 47.364573,
+      "lon": 8.534237,
+      "photos": []
+    },
+    {
+      "n": "Kameha Grand Z\u00fcrich",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Glattpark / Z\u00fcrich-Nord (near the airport)",
+      "d": "A Marcel Wanders design spectacle on the city's edge \u2014 bold, playful, and unlike anything in the Old Town.",
+      "lat": 47.422517,
+      "lon": 8.559131,
+      "photos": []
+    },
+    {
+      "n": "25hours Hotel Zurich West",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Z\u00fcrich West / Escher-Wyss",
+      "d": "A witty, design-forward base in the reinvented industrial west \u2014 excellent value by Zurich standards.",
+      "lat": 47.391053,
+      "lon": 8.509905,
+      "photos": []
+    },
+    {
+      "n": "The Restaurant",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "The Dolder Grand, Adlisberg hillside",
+      "d": "Heiko Nieder's classical-modern cooking, laced with exotic accents \u2014 the city's benchmark table, high above the lake.",
+      "lat": 47.372725,
+      "lon": 8.572751,
+      "photos": []
+    },
+    {
+      "n": "Widder Restaurant",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Widder Hotel, Augustiner Quarter / Altstadt",
+      "d": "Stefan Heilemann bridges classic haute cuisine and Thai-inflected modernity \u2014 the Old Town's two-star jewel.",
+      "lat": 47.372268,
+      "lon": 8.539968,
+      "photos": []
+    },
+    {
+      "n": "The Counter",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Zurich Hauptbahnhof (main station)",
+      "d": "Mitja Birlo's surprise menu at a U-shaped counter beside the open kitchen \u2014 two stars from a standing start, inside the station.",
+      "lat": 47.37722,
+      "lon": 8.540726,
+      "photos": []
+    },
+    {
+      "n": "IGNIV Z\u00fcrich by Andreas Caminada",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Marktgasse Hotel, Niederdorf / Altstadt",
+      "d": "Caminada's fine-dining-meets-sharing concept \u2014 generous, playful and technically exact.",
+      "lat": 47.371971,
+      "lon": 8.543661,
+      "photos": []
+    },
+    {
+      "n": "Orsini",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Mandarin Oriental Savoy, Paradeplatz / Altstadt",
+      "d": "Dario Moresco's creative modern Italian, guided by Milan's two-star Antonio Guida \u2014 bold contrasts, beautifully balanced.",
+      "lat": 47.370103,
+      "lon": 8.540124,
+      "photos": []
+    },
+    {
+      "n": "La R\u00f4tisserie",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Storchen Z\u00fcrich, Limmat riverfront / Altstadt",
+      "d": "Refined cooking in a 14th-century riverside room \u2014 the Limmat gliding past the window.",
+      "lat": 47.37118,
+      "lon": 8.541803,
+      "photos": []
+    },
+    {
+      "n": "Mesa",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Oberstrass / Weinbergstrasse",
+      "d": "Sebastian R\u00f6sch's precise, light cooking \u2014 classical foundations with a bright, modern hand.",
+      "lat": 47.383375,
+      "lon": 8.543196,
+      "photos": []
+    },
+    {
+      "n": "Kle",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "District 3 / Wiedikon",
+      "d": "Entirely vegan fine dining with Moroccan and Mexican accents \u2014 creative, seasonal and quietly radical.",
+      "lat": 47.37153,
+      "lon": 8.520945,
+      "photos": []
+    },
+    {
+      "n": "Neue Taverne",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Altstadt / Old Town",
+      "d": "Nenad Mlinarevic's purely vegetarian, market-driven cooking in the heart of the Old Town.",
+      "lat": 47.37207,
+      "lon": 8.540366,
+      "photos": []
+    },
+    {
+      "n": "Shin",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Zinnengasse / Altstadt",
+      "d": "An intimate Japanese counter \u2014 omakase sushi for a handful of guests, prepared before you.",
+      "lat": 47.370499,
+      "lon": 8.541396,
+      "photos": []
+    },
+    {
+      "n": "Ornellaia",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Altstadt / near the main station",
+      "d": "Modern Italian with a namesake cellar \u2014 Bolgheri's great wines beside a considered kitchen.",
+      "lat": 47.372457,
+      "lon": 8.537686,
+      "photos": []
+    },
+    {
+      "n": "Rosi",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "District 5 / Z\u00fcrich West",
+      "d": "Markus St\u00f6ckle's self-styled 'neo-Bavarian' room \u2014 vivid, warm and unexpectedly refined.",
+      "lat": 47.376295,
+      "lon": 8.489746,
+      "photos": []
+    },
+    {
+      "n": "EquiTable",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "District 4 / Aussersihl",
+      "d": "Julian Marti's small, values-led kitchen \u2014 food, wine and service in quiet, sustainable harmony.",
+      "lat": 47.377861,
+      "lon": 8.521149,
+      "photos": []
+    },
+    {
+      "n": "La Mu\u00f1a",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Jelmoli rooftop, Bahnhofstrasse",
+      "d": "Nikkei cooking \u2014 Peru meets Japan \u2014 on a lively rooftop above the shopping street.",
+      "lat": 47.362891,
+      "lon": 8.547255,
+      "photos": []
+    },
+    {
+      "n": "Kronenhalle",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Bellevue / Altstadt",
+      "d": "A Zurich institution since 1924 \u2014 Swiss and Viennese classics served beneath Chagall, Picasso and Mir\u00f3.",
+      "lat": 47.367551,
+      "lon": 8.545719,
+      "photos": []
+    },
+    {
+      "n": "Marguita",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Baur au Lac, lakefront",
+      "d": "The Baur au Lac's signature room \u2014 Mediterranean-leaning cooking with the hotel's long-held polish.",
+      "lat": 47.374449,
+      "lon": 8.541042,
+      "photos": []
+    },
+    {
+      "n": "Baur's",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Baur au Lac, lakefront",
+      "d": "A deluxe brasserie of the classics \u2014 Z\u00fcrcher Geschnetzeltes and sole done immaculately.",
+      "lat": 47.367112,
+      "lon": 8.539343,
+      "photos": []
+    },
+    {
+      "n": "Sushi Shin",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Zurich",
+      "d": "Masami Okamoto's exclusive omakase for a few guests a night \u2014 pure, exacting Japanese craft.",
+      "lat": 47.370499,
+      "lon": 8.541396,
+      "photos": []
+    },
+    {
+      "n": "Gaijin Izakaya",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "District 4 / Aussersihl",
+      "d": "A modern izakaya of real quality \u2014 Japanese small plates and charcoal, at an honest price.",
+      "lat": 47.372917,
+      "lon": 8.5277,
+      "photos": []
+    },
+    {
+      "n": "G\u00fcl",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "District 4 / Aussersihl",
+      "d": "Contemporary Turkish over wood and charcoal \u2014 a bright surprise menu that punches far above its price.",
+      "lat": 47.378491,
+      "lon": 8.52915,
+      "photos": []
+    },
+    {
+      "n": "Freilager La Trattoria",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Albisrieden",
+      "d": "Antonio Colaianni's lively trattoria \u2014 vitello tonnato and tiramis\u00f9 finished at your table.",
+      "lat": 47.379663,
+      "lon": 8.489496,
+      "photos": []
+    },
+    {
+      "n": "AuGust",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Altstadt / Old Town",
+      "d": "Honest Swiss cooking \u2014 sausage, r\u00f6sti and beer done properly, without a shred of ceremony.",
+      "lat": 47.351594,
+      "lon": 8.571105,
+      "photos": []
+    },
+    {
+      "n": "Lindenhof",
+      "cat": "do",
+      "tier": "",
+      "a": "Old Town (left bank)",
+      "d": "A leafy hilltop terrace on the site of a Roman fort and later imperial palace, shaded by century-old linden trees, with one of the loveliest free views over the Limmat, the Old Town spires and Grossm\u00fcnster. Locals play boules and chess here; a calm, camera-ready pause on a private walking tour, and a favourite spot for a golden-hour photograph.",
+      "lat": 47.372916,
+      "lon": 8.540176,
+      "photos": []
+    },
+    {
+      "n": "Niederdorf (D\u00f6rfli) lanes",
+      "cat": "do",
+      "tier": "",
+      "a": "Old Town (right bank)",
+      "d": "The pedestrianised heart of the Old Town \u2014 cobbled alleys winding up toward the Grossm\u00fcnster, lined with boutiques, chocolatiers, caf\u00e9s and long-standing patisseries. Best explored slowly on foot, ideally early evening; a private guide can thread you past the Cabaret Voltaire, Spiegelgasse and the quieter courtyards the crowds miss.",
+      "lat": 47.277103,
+      "lon": 8.577043,
+      "photos": []
+    },
+    {
+      "n": "Bahnhofstrasse \u2014 the luxury mile",
+      "cat": "do",
+      "tier": "",
+      "a": "City centre",
+      "d": "One of the most expensive shopping streets in the world, running from the main station to the lake. This is where Zurich's watches and jewellery live \u2014 the maisons, the grandes marques, and the great multi-brand houses \u2014 alongside international fashion. Stroll it end to end, then reward the family at Spr\u00fcngli on Paradeplatz. A concierge can arrange private after-hours appointments at the watch houses.",
+      "lat": 47.378101,
+      "lon": 8.539364,
+      "photos": []
+    },
+    {
+      "n": "Beyer Chronometrie, Bahnhofstrasse",
+      "cat": "do",
+      "tier": "",
+      "a": "City centre",
+      "d": "One of the world's oldest watch and jewellery houses, family-run since 1760, and a serious address for Patek Philippe, Rolex and the finest independents. The ground-floor salon is discreet and unhurried; ask for a private consultation. Below it sits the Beyer Clock and Watch Museum for the horology-minded.",
+      "lat": 47.370925,
+      "lon": 8.538542,
+      "photos": []
+    },
+    {
+      "n": "Beyer Clock and Watch Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "City centre",
+      "d": "A jewel-box basement museum beneath the Beyer store on Bahnhofstrasse, tracing timekeeping from around 1400 BC to the present across some 270 objects \u2014 sundials, tower clocks, pocket watches and the prototype of the first quartz wristwatch. A short, rich stop that gives context before any watch purchase; a natural pairing for collectors.",
+      "lat": 47.378101,
+      "lon": 8.539364,
+      "photos": []
+    },
+    {
+      "n": "Confiserie Spr\u00fcngli, Paradeplatz",
+      "cat": "do",
+      "tier": "",
+      "a": "City centre",
+      "d": "The house that has stood at Paradeplatz since 1859, celebrated for its featherlight Luxemburgerli macarons and truffles. The upstairs caf\u00e9 is a Zurich institution for a mid-morning coffee and cake; the boutique makes elegant, packable gifts to carry home. Reliable vegetarian sweets and a favourite treat for children and grandparents alike.",
+      "lat": 47.369482,
+      "lon": 8.53914,
+      "photos": []
+    },
+    {
+      "n": "Lake Zurich cruise (ZSG)",
+      "cat": "do",
+      "tier": "",
+      "a": "Lake Zurich",
+      "d": "The Lake Zurich Navigation Company runs daily scheduled cruises from the B\u00fcrkliplatz quay, from short 1.5-hour loops to longer runs past the villa-lined 'Gold Coast' to Rapperswil, aboard motor vessels and classic paddle steamers. Book a Dream Boat dinner or brunch cruise for a private-feeling occasion; the calm water and Alpine backdrop suit multi-generation groups.",
+      "lat": 47.279096,
+      "lon": 8.597868,
+      "photos": []
+    },
+    {
+      "n": "Lakeside promenades \u2014 B\u00fcrkliplatz to Z\u00fcrichhorn",
+      "cat": "do",
+      "tier": "",
+      "a": "Lake Zurich",
+      "d": "The right-bank promenade runs from B\u00fcrkliplatz along the Utoquai to the parks at Z\u00fcrichhorn \u2014 swans, plane trees, the Chinese Garden and, on clear days, the Alps mirrored in the water. A gentle, level walk perfect for grandparents and an evening stroll after dinner. Stop at the Pavillon Le Corbusier along the way.",
+      "lat": 47.279096,
+      "lon": 8.597868,
+      "photos": []
+    },
+    {
+      "n": "Summer swimming at the Badis (Seebad Enge & Utoquai)",
+      "cat": "do",
+      "tier": "",
+      "a": "Lake Zurich",
+      "d": "Zurich swims in its own lake and rivers in summer. Seebad Enge is a stylish lakeside lido with a sauna and a bar; the historic wooden Seebad Utoquai has welcomed swimmers off its docks for over 120 years. Clean, cold, and quintessentially local \u2014 a refreshing morning dip before the day's sightseeing.",
+      "lat": 47.279096,
+      "lon": 8.597868,
+      "photos": []
+    },
+    {
+      "n": "Kunsthaus Z\u00fcrich",
+      "cat": "do",
+      "tier": "",
+      "a": "Heimplatz, Old Town edge",
+      "d": "Switzerland's largest art museum, expanded by a luminous David Chipperfield extension. The collection runs from Old Masters and a deep Giacometti holding to Munch, the Impressionists and Pipilotti Rist's immersive installations. Admission to the permanent collection is free on Wednesdays; a private docent can tailor a focused hour for the family.",
+      "lat": 47.370224,
+      "lon": 8.54798,
+      "photos": []
+    },
+    {
+      "n": "Museum Rietberg",
+      "cat": "do",
+      "tier": "",
+      "a": "Rieterpark, Enge",
+      "d": "Switzerland's only major museum of non-European art, set in three historic villas in the emerald Rieterpark above the lake. Strong Indian, Chinese, Japanese, African and Himalayan collections \u2014 of particular resonance for Indian visitors \u2014 shown with real care. Combine with a stroll through the park for one of the city's calmest cultural afternoons.",
+      "lat": 47.358918,
+      "lon": 8.529735,
+      "photos": []
+    },
+    {
+      "n": "FIFA Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Enge (opposite Bahnhof Enge)",
+      "d": "Three floors of football history opposite Bahnhof Enge, with the original World Cup trophy on display, over 1,000 pieces of memorabilia and hands-on digital stations. A genuine highlight for football-mad teenagers and a fine rainy-day option; interactive enough to hold a mixed-age group.",
+      "lat": 47.363579,
+      "lon": 8.531519,
+      "photos": []
+    },
+    {
+      "n": "Uetliberg \u2014 Zurich's home mountain",
+      "cat": "do",
+      "tier": "",
+      "a": "Uetliberg (southwest edge)",
+      "d": "The 871-metre mountain rising over the city, reached in about 20 minutes on the S10 train from the main station. From the lookout tower the whole of Zurich, the lake and, on clear days, the Alps unfold below. Gentle ridge walks, a summit restaurant and easy access make it a relaxed half-day with sweeping photographs.",
+      "lat": 47.369215,
+      "lon": 8.47901,
+      "photos": []
+    },
+    {
+      "n": "Zurich Zoo & Masoala Rainforest",
+      "cat": "do",
+      "tier": "",
+      "a": "Z\u00fcrichberg (right bank hills)",
+      "d": "One of Europe's most respected zoos, home to over 300 species, the vast Kaeng Krachan elephant park and the Lewa Savanna. Its showpiece is the Masoala Rainforest hall \u2014 a walk-through slice of Madagascar with free-flying birds, lemurs and dense green heat. A sure hit for children; reach it by tram or the funicular up the Z\u00fcrichberg.",
+      "lat": 47.384229,
+      "lon": 8.577922,
+      "photos": []
+    },
+    {
+      "n": "Lindt Home of Chocolate, Kilchberg",
+      "cat": "do",
+      "tier": "",
+      "a": "Kilchberg (lakeside, day trip)",
+      "d": "The Lindt & Spr\u00fcngli chocolate experience just outside the city, built around the world's tallest chocolate fountain at over nine metres, an interactive museum and a generous free tasting zone. Book a chocolate-making workshop for the family, and stock the largest Lindt shop in the world with gifts to carry home. Reachable by a short train or lake boat.",
+      "lat": 47.318466,
+      "lon": 8.5509,
+      "photos": []
+    },
+    {
+      "n": "Z\u00fcrich West \u2014 the Viadukt",
+      "cat": "do",
+      "tier": "",
+      "a": "Z\u00fcrich West (District 5)",
+      "d": "A restored 19th-century railway viaduct whose brick arches now hold design boutiques, a covered market hall and caf\u00e9s \u2014 the beating heart of the city's reinvented industrial west. Graze the market hall for lunch, browse Swiss makers, and feel a grittier, more creative Zurich than Bahnhofstrasse.",
+      "lat": 47.385926,
+      "lon": 8.521709,
+      "photos": []
+    },
+    {
+      "n": "Frau Gerolds Garten & Prime Tower",
+      "cat": "do",
+      "tier": "",
+      "a": "Z\u00fcrich West (District 5)",
+      "d": "An urban garden of shipping-container shops, a summer beer garden and street food beneath the Prime Tower \u2014 at 126 metres one of Switzerland's tallest buildings. A relaxed, in-the-know spot for a sundowner; ride up to the Clouds restaurant and bar in the tower for a skyline view over the district.",
+      "lat": 47.385302,
+      "lon": 8.519136,
+      "photos": []
+    },
+    {
+      "n": "Zurich Opera House (Opernhaus)",
+      "cat": "do",
+      "tier": "",
+      "a": "Sechsel\u00e4utenplatz, lakeside",
+      "d": "A grand 19th-century opera house on the lakefront, one of Europe's most respected houses for opera and ballet. Book a box for an evening in your finest; the neo-Baroque interior and the square outside make it an occasion in itself. A concierge can secure premium seats and pre-theatre dining nearby.",
+      "lat": 47.36497,
+      "lon": 8.546831,
+      "photos": []
+    },
+    {
+      "n": "Tonhalle Z\u00fcrich",
+      "cat": "do",
+      "tier": "",
+      "a": "City centre / lakeside",
+      "d": "The 1895 concert hall of the Tonhalle Orchester Z\u00fcrich, its acoustics ranked among the finest in Europe and its gilded interior beautifully restored. An evening of world-class symphonic music in an intimate, ornate room \u2014 a refined alternative to a night at the opera.",
+      "lat": 47.366094,
+      "lon": 8.53786,
+      "photos": []
+    },
+    {
+      "n": "Old Botanical Garden (Alter Botanischer Garten)",
+      "cat": "do",
+      "tier": "",
+      "a": "City centre (near Bahnhofstrasse)",
+      "d": "A small, romantic city-centre garden laid out on a former bastion, with a historic domed palm house and quiet terraced lawns. A green pause a few minutes from the shopping \u2014 pleasant for grandparents and children needing a breather between museums.",
+      "lat": 47.378195,
+      "lon": 8.540685,
+      "photos": []
+    },
+    {
+      "n": "Pavillon Le Corbusier",
+      "cat": "do",
+      "tier": "",
+      "a": "Z\u00fcrichhorn, lakeside",
+      "d": "The last building Le Corbusier designed \u2014 his only work in steel and glass \u2014 a jewel of primary-coloured panels set in the lakeside park at Z\u00fcrichhorn. Open roughly May to November; a short, distinctive stop for design lovers, easily folded into a lake promenade walk.",
+      "lat": 47.356097,
+      "lon": 8.550864,
+      "photos": []
+    },
+    {
+      "n": "Cabaret Voltaire",
+      "cat": "do",
+      "tier": "",
+      "a": "Old Town (Spiegelgasse)",
+      "d": "The tiny room at Spiegelgasse 1 where the Dada movement was born in 1916, now a caf\u00e9-bar and cultural space. A niche but genuine piece of art history tucked into the Old Town lanes \u2014 worth a coffee and a glance for the culturally curious.",
+      "lat": 47.371609,
+      "lon": 8.543931,
+      "photos": []
+    },
+    {
+      "n": "James Joyce's grave, Fluntern Cemetery",
+      "cat": "do",
+      "tier": "",
+      "a": "Z\u00fcrichberg (near the zoo)",
+      "d": "In the leafy Fluntern cemetery on the Z\u00fcrichberg lies James Joyce, who spent his final years in Zurich, marked by a seated bronze statue of the writer, book in hand. A quiet literary pilgrimage that pairs naturally with a visit to the nearby zoo.",
+      "lat": 47.383495,
+      "lon": 8.570654,
+      "photos": []
+    },
+    {
+      "n": "Stein am Rhein (day trip)",
+      "cat": "do",
+      "tier": "",
+      "a": "Stein am Rhein (day trip)",
+      "d": "A perfectly preserved medieval town on the Rhine, its main square ringed by half-timbered houses covered in vivid painted frescoes and oriel windows. Small, walkable and postcard-pretty \u2014 an easy, gentle addition to a Rhine Falls day, well suited to a relaxed pace with grandparents.",
+      "lat": 47.660439,
+      "lon": 8.858553,
+      "photos": []
+    },
+    {
+      "n": "Mount Titlis & Engelberg (day trip)",
+      "cat": "do",
+      "tier": "",
+      "a": "Engelberg (day trip)",
+      "d": "Year-round glacier and snow at 3,000-plus metres, reached from the monastery village of Engelberg via the world's first rotating cable car, plus a cliff walk suspension bridge and a glacier cave. The most reliable place near Zurich to put the family in real Alpine snow whatever the season.",
+      "lat": 47.355039,
+      "lon": 8.602145,
+      "photos": []
+    },
+    {
+      "n": "Z\u00fcrichberg forest walk",
+      "cat": "do",
+      "tier": "",
+      "a": "Z\u00fcrichberg (right bank hills)",
+      "d": "The wooded ridge above the city, laced with easy trails, clearings and a wildlife park, reached by tram or funicular. A green, restorative morning away from the crowds, with occasional views down to the lake \u2014 pleasant for a slow family walk before a zoo or cemetery visit nearby.",
+      "lat": 47.38979,
+      "lon": 8.56567,
+      "photos": []
+    },
+    {
+      "n": "Freitag Tower, Z\u00fcrich West",
+      "cat": "do",
+      "tier": "",
+      "a": "Z\u00fcrich West (District 5)",
+      "d": "A stack of 17 rusted shipping containers forming the flagship of Zurich's cult Freitag brand, whose bags are cut from used truck tarpaulins \u2014 climb to the top for a view over the western district. A quirky design pilgrimage and a distinctly Swiss, one-of-a-kind gift to take home.",
+      "lat": 47.385667,
+      "lon": 8.519404,
+      "photos": []
+    },
+    {
+      "n": "Chinagarten (Chinese Garden)",
+      "cat": "do",
+      "tier": "",
+      "a": "Z\u00fcrichhorn, lakeside",
+      "d": "A serene walled Chinese garden by the lake, a gift from Zurich's twin city Kunming, with pavilions, a koi pond and ornate gates. A small, tranquil detour on the lakeside promenade \u2014 a quiet, contemplative pause that reads well with grandparents.",
+      "lat": 47.352909,
+      "lon": 8.55386,
+      "photos": []
+    },
+    {
+      "n": "Kronenhalle Bar",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "Bellevue / Altstadt",
+      "d": "Cocktails mixed beneath real Mir\u00f3, Klee and Chagall, under lamps Diego Giacometti made for the room \u2014 a Zurich rite since the 1960s.",
+      "lat": 47.367551,
+      "lon": 8.545719,
+      "photos": []
+    },
+    {
+      "n": "Widder Bar",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "Widder Hotel, Augustiner Quarter / Altstadt",
+      "d": "Over a thousand spirits and a legendary whisky wall, with live jazz some nights \u2014 one of Europe's most respected hotel bars.",
+      "lat": 47.372231,
+      "lon": 8.539917,
+      "photos": []
+    },
+    {
+      "n": "Old Crow",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Zwinglistrasse, District 4 / Aussersihl",
+      "d": "A spirits pilgrimage \u2014 1,600-odd bottles, rare whiskies and forgotten liqueurs, mixed with quiet precision.",
+      "lat": 47.37212,
+      "lon": 8.541201,
+      "photos": []
+    },
+    {
+      "n": "Clouds",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "Prime Tower, Z\u00fcrich West",
+      "d": "Zurich's highest bar \u2014 the 35th floor, the Limmat valley and the Alps through the glass, best caught at sunset.",
+      "lat": 47.38608,
+      "lon": 8.51719,
+      "photos": []
+    },
+    {
+      "n": "Jules Verne Panorama Bar",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "Uraniastrasse, by Bahnhofstrasse / Altstadt",
+      "d": "A round bar in the old Urania observatory tower \u2014 the Old Town, the lake and the Alps wrapped around you.",
+      "lat": 47.374261,
+      "lon": 8.539349,
+      "photos": []
+    }
+  ]
+}

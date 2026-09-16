@@ -1,0 +1,225 @@
+/* flex:1/min-height:0 so this fills whatever room is left in .plan-intro
+   (a fixed-height box, matched to the map's own height) after the intro
+   text and CTA button beside it — those are always the same size
+   regardless of which step is active, so the space left over for .stage
+   below is effectively constant too. */
+.carousel {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+}
+
+.header {
+  background: var(--paper-2);
+  border-radius: 0 0 12px 12px;
+  padding: 16px 20px;
+}
+
+/* A single full-width bar, each day an equal-width segment of it (not
+   individual pill/chip buttons). A plain sibling of .header, not nested
+   inside it, so it isn't subject to .header's own padding — it sits flush
+   above it with no gap.
+   Physical-file-tab illusion: the active tab shares .header's own fill
+   (var(--paper-2)) and drops its bottom border, so it reads as part of the
+   same surface as the header below it — inactive tabs sit on the page's
+   own (lighter) fill instead, each with its own divider underneath, as if
+   behind the active one. */
+.tabs {
+  display: flex;
+}
+
+.tab {
+  flex: 1;
+  font-family: var(--fr);
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 14px 16px;
+  border: none;
+  border-bottom: 1px solid var(--line);
+  background: var(--paper);
+  color: var(--stone);
+  cursor: pointer;
+  transition: background-color 0.2s var(--ease), color 0.2s var(--ease);
+}
+
+.tabActive {
+  background: var(--paper-2);
+  border-bottom-color: transparent;
+  color: var(--ink);
+}
+
+.dayTitle {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 24px;
+  color: var(--ink);
+  margin: 0;
+}
+
+.stage {
+  position: relative;
+  flex: 1;
+  min-height: 0;
+}
+
+.stage[data-transition="slide"] .photo {
+  animation: slide-in 0.5s var(--ease);
+}
+
+.stage[data-transition="fade-place"] .photo {
+  animation: fade-in 0.6s var(--ease);
+}
+
+.stage[data-transition="fade-day"] .photo {
+  animation: fade-in 1.4s var(--ease);
+}
+
+/* Fixed, not flex-derived — normal scroll now, so there's no bounded
+   sticky parent for this to flex against; a fixed responsive height keeps
+   it consistent across steps regardless of caption length either way. */
+.photo {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 220px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-color: var(--bone);
+}
+
+/* .ta-itin drops its fixed height below 900px (city-page.module.css), so
+   there's no ambient height left for .photo's 100% to resolve against —
+   a fixed height stands in instead, same breakpoint as that reset. */
+@media (max-width: 900px) {
+  .photo {
+    height: clamp(260px, 60vw, 380px);
+  }
+}
+
+.photo::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, transparent 55%, rgba(0, 0, 0, 0.6));
+}
+
+.photoOverlay {
+  position: absolute;
+  left: 20px;
+  bottom: 22px;
+  right: 20px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.placeName {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+.time {
+  font-family: var(--fr);
+  font-weight: 500;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.85);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+.navBtn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 3;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(26, 23, 20, 0.4);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.2s var(--ease);
+}
+
+.navBtn:hover {
+  background: rgba(26, 23, 20, 0.6);
+}
+
+.navPrev {
+  left: 14px;
+}
+
+.navNext {
+  right: 14px;
+}
+
+.dots {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+}
+
+.dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.dotActive {
+  background: #fff;
+}
+
+/* Fixed to exactly 2 lines (1.55 line-height x 2 = 3.1em) regardless of how
+   long the caption text is — a shorter caption leaves blank space rather
+   than shrinking the block, a longer one clips with an ellipsis — so the
+   caption's own length never changes the photo's height above it. */
+.caption {
+  font-family: var(--fr);
+  font-size: 15px;
+  line-height: 1.55;
+  color: var(--ink-soft);
+  margin: 16px 0 0;
+  height: 3.1em;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in {
+  from {
+    opacity: 0;
+    transform: translateX(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

@@ -1,1 +1,828 @@
-{"center": [43.653482, -79.383935], "venues": [{"n": "Four Seasons Hotel Toronto", "cat": "stay", "tier": "Ultra", "a": "Yorkville", "d": "The brand's flagship in its home country — the surest luxury in the city, with Café Boulud downstairs and a serene spa above.", "lat": 43.727971, "lon": -79.350479, "p": "v"}, {"n": "The Hazelton Hotel", "cat": "stay", "tier": "Ultra", "a": "Yorkville", "d": "Toronto's most intimate grand hotel and its first five-star house — Canada's only independent to hold both Forbes Five-Star and Two MICHELIN Keys.", "lat": 43.670892, "lon": -79.393668, "p": "v"}, {"n": "The St. Regis Toronto", "cat": "stay", "tier": "Ultra", "a": "Financial District", "d": "Old-world St. Regis service in a 58-storey tower — butler service on every floor and the city glittering from Louix Louis on the 31st.", "lat": 43.649771, "lon": -79.380306, "p": "v"}, {"n": "Shangri-La Hotel, Toronto", "cat": "stay", "tier": "Ultra", "a": "Downtown (University Avenue)", "d": "Asian-inflected calm and warmth on University Avenue — a hushed, generous house that Indian members find instantly familiar.", "lat": 43.649202, "lon": -79.386292, "p": "v"}, {"n": "The Ritz-Carlton, Toronto", "cat": "stay", "tier": "Grand", "a": "Downtown (Entertainment District)", "d": "A grand, glass-fronted house near Roy Thomson Hall — a saltwater pool, a celebrated spa and TOCA's Italian cooking.", "lat": 43.645339, "lon": -79.387085, "p": "v"}, {"n": "Park Hyatt Toronto", "cat": "stay", "tier": "Grand", "a": "Yorkville", "d": "A restored Art Deco landmark reborn — the storied Roof Lounge over Yorkville and quietly assured rooms below.", "lat": 43.669196, "lon": -79.394618, "p": "v"}, {"n": "1 Hotel Toronto", "cat": "stay", "tier": "Luxury", "a": "King West", "d": "Biophilic, greenery-draped sustainable luxury in the thick of King West — a design-forward newer arrival with a rooftop scene.", "lat": 43.65842, "lon": -79.383138, "p": "v"}, {"n": "Bisha Hotel Toronto", "cat": "stay", "tier": "Luxury", "a": "Entertainment District", "d": "A bold, sensual design hotel with a rooftop pool and Kōst above — theatrical and unmistakably its own.", "lat": 43.645323, "lon": -79.392424, "p": "v"}, {"n": "Ace Hotel Toronto", "cat": "stay", "tier": "Luxury", "a": "Downtown (Garment District)", "d": "A brutalist, architecture-led newcomer with a hidden lobby lounge and Alder's live-fire cooking — cult-favourite design.", "lat": 43.646783, "lon": -79.398161, "p": "v"}, {"n": "Fairmont Royal York", "cat": "stay", "tier": "Grand", "a": "Downtown (Union Station)", "d": "The grand railway-age landmark opposite Union Station — a restored 1929 château hotel and home to the celebrated Library Bar.", "lat": 43.645909, "lon": -79.381364, "p": "v"}, {"n": "Sushi Masaki Saito", "cat": "eat", "tier": "Destination", "a": "Yorkville", "d": "The finest sushi in Canada — a serene Edomae omakase counter and the only Two-Star table in the city.", "lat": 43.671386, "lon": -79.390168, "p": "a"}, {"n": "Alo", "cat": "eat", "tier": "Destination", "a": "Downtown (Queen West)", "d": "Toronto's benchmark fine-dining room — refined French tasting menus high above Spadina, a Top-3 fixture nationally for years.", "lat": 43.648501, "lon": -79.395939, "p": "v"}, {"n": "Edulis", "cat": "eat", "tier": "Destination", "a": "West End (Niagara)", "d": "A romantic, produce-obsessed room devoted to the seasons — truffles and seafood at the very top of the national game.", "lat": 43.641968, "lon": -79.406553, "p": "v"}, {"n": "Restaurant 20 Victoria", "cat": "eat", "tier": "Destination", "a": "Downtown (St. Lawrence)", "d": "An intense, ingredient-driven tasting menu in a tiny St. Lawrence room — one of the most exciting kitchens in the country.", "lat": 43.661338, "lon": -79.38403, "p": "v"}, {"n": "Quetzal", "cat": "eat", "tier": "Fine", "a": "Downtown (Church-Wellesley)", "d": "Live-fire Mexican cooking over a wall of open flame — masa, agave and smoke, done with real precision.", "lat": 43.65647, "lon": -79.406875, "p": "v"}, {"n": "Enigma Yorkville", "cat": "eat", "tier": "Destination", "a": "Yorkville", "d": "An exacting, personal chef's-counter tasting menu in Yorkville — quietly one of the city's most ambitious rooms.", "lat": 43.671386, "lon": -79.390168, "p": "v"}, {"n": "Aburi Hana", "cat": "eat", "tier": "Destination", "a": "Yorkville", "d": "A serene Kyoto-style kaiseki room in Yorkville — delicate, seasonal Japanese cooking of great purity.", "lat": 43.664342, "lon": -79.414305, "p": "v"}, {"n": "Shoushin", "cat": "eat", "tier": "Destination", "a": "North York (Midtown)", "d": "A revered Edomae sushi counter of quiet mastery — for many, the city's connoisseur choice.", "lat": 43.731448, "lon": -79.404099, "p": "v"}, {"n": "Kappo Sato", "cat": "eat", "tier": "Fine", "a": "Midtown (Yonge & Eglinton)", "d": "An intimate kappo counter where each course is prepared in front of you — precise, seasonal, deeply personal.", "lat": 43.649659, "lon": -79.434235, "p": "v"}, {"n": "Osteria Giulia", "cat": "eat", "tier": "Fine", "a": "Yorkville", "d": "Elegant coastal Italian in Yorkville — handmade pasta and wood-grilled fish in one of the city's most desirable rooms.", "lat": 43.674359, "lon": -79.396658, "p": "v"}, {"n": "DaNico", "cat": "eat", "tier": "Fine", "a": "Downtown (King West)", "d": "Refined Amalfi-influenced Italian from a Michelin-pedigree kitchen — precise, generous and quietly luxurious.", "lat": 43.653482, "lon": -79.383935, "p": "v"}, {"n": "Don Alfonso 1890", "cat": "eat", "tier": "Fine", "a": "Downtown (Financial District)", "d": "The Toronto outpost of the storied Amalfi Coast institution — grand, sun-drenched southern Italian on the 38th floor.", "lat": 43.65047, "lon": -79.376146, "p": "v"}, {"n": "aKin", "cat": "eat", "tier": "Fine", "a": "Downtown (Little Italy)", "d": "An inventive, personal chef's-menu drawing on Chinese roots and Canadian produce — one of the city's most original kitchens.", "lat": 43.653482, "lon": -79.383935, "p": "v"}, {"n": "Kaiseki Yu-zen Hashimoto", "cat": "eat", "tier": "Destination", "a": "North York", "d": "A ceremonial, traditional kaiseki experience in a tranquil North York setting — the most classical Japanese table in the city.", "lat": 43.774175, "lon": -79.504749, "p": "a"}, {"n": "Bar Isabel", "cat": "eat", "tier": "Smart", "a": "West End (College Street)", "d": "Grant van Gameren's beloved Spanish room — rustic, generous tapas and a whole grilled octopus that made its name.", "lat": 43.667544, "lon": -79.385236, "p": "v"}, {"n": "DaiLo", "cat": "eat", "tier": "Smart", "a": "West End (Little Italy)", "d": "Nick Liu's modern Asian cooking — a decade-strong Toronto favourite of bold, personal 'New Asian' plates.", "lat": 43.653482, "lon": -79.383935, "p": "v"}, {"n": "Grey Gardens", "cat": "eat", "tier": "Smart", "a": "Downtown (Kensington Market)", "d": "Jen Agg's snug Kensington wine bar — oysters, natural wine and precise seasonal cooking in a room everyone loves.", "lat": 43.662197, "lon": -79.3803, "p": "v"}, {"n": "Enoteca Sociale", "cat": "eat", "tier": "Smart", "a": "West End (Dundas West)", "d": "A warm, Roman-hearted trattoria with a cheese cave in the basement — honest pasta and a serious cellar.", "lat": 43.64958, "lon": -79.425664, "p": "v"}, {"n": "Rasa", "cat": "eat", "tier": "Smart", "a": "Downtown (Harbord Village)", "d": "A convivial, share-plate room of globe-trotting comfort cooking — reliably one of the city's most enjoyable tables.", "lat": 43.662778, "lon": -79.404051, "p": "v"}, {"n": "Indian Street Food Company", "cat": "eat", "tier": "Smart", "a": "Midtown (Yonge & Eglinton)", "d": "Refined, chaat-driven Indian cooking with real finesse — a rare Bib-listed Indian kitchen in Toronto.", "lat": 43.646899, "lon": -79.40494, "p": "v"}, {"n": "The Cottage Cheese", "cat": "eat", "tier": "Casual", "a": "Downtown (Kensington Market)", "d": "An urban-Indian eatery in Kensington built around fresh paneer and inventive small plates — young, personal and delicious.", "lat": 43.656183, "lon": -79.402847, "p": "v"}, {"n": "Guru Lukshmi", "cat": "eat", "tier": "Casual", "a": "Mississauga (Greater Toronto)", "d": "The region's undisputed dosa champion — pure-vegetarian South Indian home cooking in dazzling variety.", "lat": 43.639315, "lon": -79.715938, "p": "v"}, {"n": "CN Tower", "cat": "do", "tier": "", "a": "Entertainment District / Downtown", "d": "For decades the tallest free-standing structure in the world, and still the icon that fixes Toronto's skyline. Ride the glass elevator to the LookOut and Glass Floor, then have dinner in the revolving 360 Restaurant, which makes a full turn roughly every 70 minutes as the city and Lake Ontario circle below. Book the golden-hour window so you catch daylight and the lit-up city in one sitting.", "lat": 43.642564, "lon": -79.387087, "p": "v"}, {"n": "EdgeWalk at the CN Tower", "cat": "do", "tier": "", "a": "Entertainment District / Downtown", "d": "Clipped into a harness, you walk hands-free around an open ledge 356m above the street, leaning out over nothing but air. It is the highest external walk on a building anywhere, and about as much adrenaline as Toronto sells. Best for confident teenagers and adults; not for those who dislike heights.", "lat": 43.66329, "lon": -79.395631, "p": "v"}, {"n": "Royal Ontario Museum (ROM)", "cat": "do", "tier": "", "a": "Bloor Street / Yorkville", "d": "Canada's largest museum, its Victorian bulk split open by Daniel Libeskind's jagged crystal of glass and steel. Dinosaurs, a serious Chinese and South Asian collection, and Egyptian galleries make it the easy multi-generation morning in the city. Sits right at the top of the Yorkville shopping streets, so pair it with lunch there.", "lat": 43.667656, "lon": -79.394699, "p": "v"}, {"n": "Art Gallery of Ontario (AGO)", "cat": "do", "tier": "", "a": "Grange Park / Chinatown edge", "d": "One of North America's largest art museums, wrapped in Frank Gehry's sweeping wood-and-glass Galleria Italia. Strong on the Group of Seven and Canadian landscape, Indigenous art, and rotating blockbusters. The spiral wooden staircase alone is worth the visit; go on a Wednesday evening when admission is free after hours.", "lat": 43.653613, "lon": -79.39278, "p": "v"}, {"n": "Casa Loma", "cat": "do", "tier": "", "a": "Casa Loma / Midtown", "d": "A genuine early-1900s Gothic Revival castle on the hill above the city, with secret passages, turrets, stables reached by a long tunnel, and formal gardens in season. It feels theatrical and slightly mad, which is exactly why children love it. A private guide brings the robber-baron backstory to life.", "lat": 43.678101, "lon": -79.409416, "p": "v"}, {"n": "Distillery District", "cat": "do", "tier": "", "a": "Distillery District / Old Town", "d": "A pedestrian-only village of red-brick Victorian industrial buildings — once the largest distillery in the British Empire — now filled with galleries, design shops, chocolatiers and restaurants. Cobblestones, no cars, and string lights make it the most photogenic evening stroll in the city, magical when the Christmas market takes over in winter.", "lat": 43.650328, "lon": -79.3592, "p": "v"}, {"n": "St. Lawrence Market", "cat": "do", "tier": "", "a": "Old Town / St. Lawrence", "d": "Toronto's great food hall, running since the 1800s, with a lower level of cheesemongers, butchers, bakers and the city's famous peameal-bacon sandwich. A superb, unfussy lunch stop for a family, with plenty to graze. Come on a Saturday when the farmers' market fills the north building too.", "lat": 43.648739, "lon": -79.371574, "p": "v"}, {"n": "Toronto Islands & Centreville", "cat": "do", "tier": "", "a": "Toronto Islands", "d": "A short ferry across the harbour lands you on car-free islands with beaches, willow-lined lagoons you can paddle, and the best postcard view back at the skyline. Centreville is an old-fashioned children's amusement park with a carousel and a small farm — an easy, gentle half-day for younger kids. Rent bikes or a quadricycle and picnic on the grass.", "lat": 43.62039, "lon": -79.373256, "p": "v"}, {"n": "Harbourfront Centre", "cat": "do", "tier": "", "a": "Waterfront / Harbourfront", "d": "The lakeside cultural hub where the ferries leave and festivals, craft studios and open-air concerts run through the warmer months. It now also hosts the interim home of the Ontario Science Centre, so a lake walk and hands-on science can be strung together. Rent a canoe or simply take the boardwalk stroll at sunset.", "lat": 43.639821, "lon": -79.381142, "p": "v"}, {"n": "Ontario Science Centre (interim location)", "cat": "do", "tier": "", "a": "Waterfront / Harbourfront", "d": "The beloved hands-on science museum reopened in an interim home at Harbourfront Centre in 2026 after its Don Mills building closed, with a larger permanent waterfront site to follow. Expect interactive exhibits pitched squarely at curious children and teenagers. Check current exhibits before you go, as the interim space is smaller than the original.", "lat": 43.714838, "lon": -79.340243, "p": "v"}, {"n": "Ripley's Aquarium of Canada", "cat": "do", "tier": "", "a": "Entertainment District / Downtown", "d": "Directly at the foot of the CN Tower, so the two pair naturally in one downtown morning. The highlight is Dangerous Lagoon, a moving walkway that carries you through a glass tunnel while sharks, rays and a sawfish glide overhead. Reliably the easiest crowd-pleaser for a multi-generation group in wet weather.", "lat": 43.642484, "lon": -79.386127, "p": "v"}, {"n": "Hockey Hall of Fame", "cat": "do", "tier": "", "a": "Financial District", "d": "Housed partly in a grand old Bank of Montreal building, this is the shrine of Canada's national game, where you can hold the actual Stanley Cup and try interactive shooting and goaltending games. Even non-fans get the pull of it. A short, fun add-on set inside the Brookfield Place atrium.", "lat": 43.646996, "lon": -79.377302, "p": "v"}, {"n": "Aga Khan Museum", "cat": "do", "tier": "", "a": "Don Mills / North York", "d": "A serene Fumihiko Maki building set in geometric gardens, and North America's first museum devoted to Islamic art, with over a thousand manuscripts, miniatures, ceramics and scientific instruments spanning the Muslim world — including fine Mughal-era Indian pieces. It shares the site with the Ismaili Centre designed by the Indian architect Charles Correa, giving the whole complex a strong resonance for Indian visitors. The restaurant and evening concerts are worth building the trip around.", "lat": 43.722227, "lon": -79.333327, "p": "v"}, {"n": "Bata Shoe Museum", "cat": "do", "tier": "", "a": "Bloor Street / Annex", "d": "A one-of-a-kind museum built around a private collection of thousands of shoes across 4,500 years — from ancient Egyptian sandals to celebrity footwear — inside a building shaped like a shoebox. Small, sharp and surprisingly absorbing, an easy hour near the ROM. Genuinely unlike anything else in the city.", "lat": 43.667258, "lon": -79.400143, "p": "v"}, {"n": "Yorkville", "cat": "do", "tier": "", "a": "Yorkville / Bloor Street", "d": "Toronto's luxury quarter, where the Mink Mile of Bloor Street lines up Chanel, Hermès, Cartier, Louis Vuitton and Prada beside converted Victorian townhouses turned into fine dining and galleries. This is where an UHNI group shops, dines and stays. Reserve ahead at the marquee restaurants and let a driver handle the parking.", "lat": 43.671386, "lon": -79.390168, "p": "v"}, {"n": "Financial District & the PATH", "cat": "do", "tier": "", "a": "Financial District", "d": "Toronto's cluster of bank towers sits above the PATH, one of the largest underground pedestrian networks in the world — kilometres of climate-controlled walkways lined with shops and food courts that let you cross downtown without stepping outside in winter. Above ground, Brookfield Place's soaring Santiago Calatrava galleria is the architectural set piece. Useful to know on a cold or wet day.", "lat": 43.647673, "lon": -79.383135, "p": "v"}, {"n": "Kensington Market", "cat": "do", "tier": "", "a": "Kensington Market", "d": "A bohemian tangle of narrow streets with vintage shops, murals, cafés and food stalls from every corner of the world, still refreshingly scruffy and independent. It rewards aimless wandering and grazing rather than a plan. Best on foot, ideally with a food-focused local guide.", "lat": 43.655214, "lon": -79.40226, "p": "v"}, {"n": "Chinatown (Spadina & Dundas)", "cat": "do", "tier": "", "a": "Chinatown", "d": "One of the largest Chinatowns in North America, crowding Spadina Avenue with dim sum houses, herbalists, bakeries and produce spilling onto the pavement. It runs straight into Kensington Market, so the two make one easy walking loop. Come hungry and go where the queues are.", "lat": 43.653612, "lon": -79.395341, "p": "v"}, {"n": "Little India (Gerrard Street East)", "cat": "do", "tier": "", "a": "Gerrard India Bazaar / East End", "d": "The Gerrard India Bazaar is one of North America's oldest and largest South Asian shopping strips — sari and gold shops, sweet houses, spice stores and the smell of grilled corn and chaat on the air. For an Indian family it is a familiar, comforting stretch of the city and a reliable source of excellent vegetarian food. Liveliest in the evenings and during Diwali.", "lat": 43.672051, "lon": -79.323468, "p": "v"}, {"n": "Nathan Phillips Square & City Halls", "cat": "do", "tier": "", "a": "Downtown Core", "d": "The civic heart of Toronto: the curved modernist New City Hall framing the illuminated TORONTO sign, with the elegant Romanesque Old City Hall and its clock tower beside it. The square's reflecting pool becomes a skating rink in winter. A quick, free photo stop rather than a long visit.", "lat": 43.652708, "lon": -79.383842, "p": "v"}, {"n": "Graffiti Alley", "cat": "do", "tier": "", "a": "Fashion District / Queen West", "d": "A long lane running behind Queen Street West, walls end to end in ever-changing street art and murals — the most photographed alley in the city and a favourite backdrop for photographers. Free, quick and best in daylight. Pair it with the boutiques and cafés of West Queen West.", "lat": 43.64803, "lon": -79.397923, "p": "v"}, {"n": "High Park", "cat": "do", "tier": "", "a": "High Park / West End", "d": "Toronto's largest public park, with woodland trails, a small zoo, and — for about a week each spring — an avenue of Japanese cherry blossoms that draws the whole city. A relaxed green break from downtown, easy with children. Go early on a spring morning to beat the blossom crowds.", "lat": 43.646281, "lon": -79.463795, "p": "v"}, {"n": "The Beaches", "cat": "do", "tier": "", "a": "The Beaches / East End", "d": "A leafy lakeside neighbourhood with a long sandy boardwalk, cafés and a slow, seaside-town feel unusual for a big city. Cycle or stroll the Martin Goodman Trail along the water. A calm, pretty afternoon away from the tourist core.", "lat": 43.671024, "lon": -79.296712, "p": "v"}, {"n": "The Well", "cat": "do", "tier": "", "a": "Wellington West / King West", "d": "A gleaming new mixed-use district of shops, chef-driven restaurants and a bright food hall under a dramatic glass canopy, on the western edge of downtown. It is where the city's newest dining lands. Good for a modern, polished meal and a browse.", "lat": 43.642957, "lon": -79.395902, "p": "v"}, {"n": "Stackt Market", "cat": "do", "tier": "", "a": "Fort York / Bathurst", "d": "An outdoor market built entirely from stacked shipping containers, animating a large lot with rotating retail, food, a brewery and public art — young, casual and forever changing. A quick, fun stop steps from The Well. Best on a fine-weather afternoon.", "lat": 43.64083, "lon": -79.402492, "p": "v"}, {"n": "Little Italy & College Street", "cat": "do", "tier": "", "a": "Little Italy", "d": "College Street's old Italian quarter is one of the city's best strips for an evening — espresso bars, trattorias, patios and late-night energy. It draws a smart, relaxed crowd. Come for dinner and stay for a passeggiata down the street.", "lat": 43.655191, "lon": -79.417295, "p": "v"}, {"n": "Queen Street West", "cat": "do", "tier": "", "a": "Queen West / Trinity Bellwoods", "d": "The spine of independent Toronto — design boutiques, galleries, record shops and buzzy restaurants — running west into Trinity Bellwoods, the park where the young city gathers on a sunny day. Once named one of the world's coolest neighbourhoods. Best explored slowly on foot.", "lat": 43.653603, "lon": -79.384006, "p": "v"}, {"n": "Ontario Place & Trillium Park", "cat": "do", "tier": "", "a": "Waterfront / Ontario Place", "d": "The lakeside grounds have been reborn around Trillium Park and the William G. Davis Trail, a landscaped waterfront walk with sweeping skyline views and quiet coves. A pleasant, uncrowded stretch of lakeshore beside Harbourfront. Good for a morning walk before the science centre next door.", "lat": 43.629182, "lon": -79.410453, "p": "v"}, {"n": "Evergreen Brick Works", "cat": "do", "tier": "", "a": "Don Valley / Rosedale", "d": "A former brick factory in the Don Valley turned into a green community hub, with a large weekend farmers' market, ravine trails and a striking industrial-heritage setting minutes from downtown. It shows Toronto's ravine landscape at its best. Go Saturday morning for the market and a valley walk.", "lat": 43.684225, "lon": -79.365019, "p": "v"}, {"n": "Toronto ravine walk (Cedarvale & Beltline)", "cat": "do", "tier": "", "a": "Midtown ravines", "d": "Toronto is threaded with wooded ravines, and the Cedarvale trail and old Beltline rail path let you walk for kilometres under a leaf canopy while the city hums just above. It is the local secret to how green Toronto feels. A restorative morning for a group that likes to walk.", "lat": 43.684887, "lon": -79.367097, "p": "v"}, {"n": "St. Lawrence & the Berczy Park dog fountain", "cat": "do", "tier": "", "a": "Old Town / St. Lawrence", "d": "A whimsical little park behind the flatiron Gooderham Building, its tiered fountain ringed by 27 cast-iron dogs all gazing up at a golden bone on top. A charming five-minute detour and a favourite quick photo with the historic flatiron behind. Right beside St. Lawrence Market.", "lat": 43.647993, "lon": -79.375185, "p": "v"}, {"n": "Scotiabank Arena — Raptors or Maple Leafs", "cat": "do", "tier": "", "a": "Waterfront / South Core", "d": "The downtown arena where the Maple Leafs (hockey) and Raptors (basketball) play, with electric big-league atmosphere and premium suites for a group. Catching a Leafs night is a bucket-list slice of Canadian culture. Book premium seating well ahead through a concierge, as marquee games sell out.", "lat": 43.641559, "lon": -79.375428, "p": "a"}, {"n": "Rogers Centre — Blue Jays baseball", "cat": "do", "tier": "", "a": "Entertainment District / Downtown", "d": "The retractable-roof stadium under the CN Tower, home of the Toronto Blue Jays — a relaxed, all-ages summer evening of baseball, food and open sky when the roof is back. Even non-fans enjoy the spectacle. Premium and suite seating make it comfortable for a family.", "lat": 43.64166, "lon": -79.389198, "p": "v"}, {"n": "Little Portugal & Ossington strip", "cat": "do", "tier": "", "a": "Ossington / Little Portugal", "d": "Ossington Avenue has become one of the city's tightest concentrations of acclaimed restaurants and cocktail bars, backed by the old-world bakeries of Little Portugal. Where in-the-know Torontonians go to eat and drink. Reserve ahead; the best rooms are small.", "lat": 43.654591, "lon": -79.422763, "p": "a"}, {"n": "Riverdale & Broadview Avenue view", "cat": "do", "tier": "", "a": "Riverdale / East End", "d": "From the slope of Riverdale Park East you get the classic, slightly hidden postcard view of the downtown skyline across the Don Valley — the one photographers wait at for sunset. The surrounding neighbourhood is leafy and handsome. A quiet, local alternative to the tourist lookouts.", "lat": 43.667766, "lon": -79.3535, "p": "v"}, {"n": "Niagara Falls (day trip)", "cat": "do", "tier": "", "a": "Niagara (day trip)", "d": "About 90 minutes from the city, and the natural wonder no first visit skips — a vast, thundering horseshoe of water you feel before you see. Ride the boat into the mist or watch from a fine-dining room set right above the falls. A private car and guide makes the round trip effortless in a day.", "lat": 43.684181, "lon": -79.320574, "p": "a"}, {"n": "Niagara-on-the-Lake & wine country (day trip)", "cat": "do", "tier": "", "a": "Niagara (day trip)", "d": "Just beyond the falls lies a picture-perfect 19th-century town of verandahed inns and gardens, surrounded by Canada's largest wine region and its dozens of estates. Book private cellar tastings, including the icewine Canada is known for, and lunch at a vineyard restaurant. This is the refined, grown-up counterpoint to the falls, ideal with a driver so everyone can taste.", "lat": 43.684181, "lon": -79.320574, "p": "a"}, {"n": "Muskoka lakes (day trip / overnight)", "cat": "do", "tier": "", "a": "Muskoka (day trip)", "d": "Two hours north lies 'cottage country' — a landscape of granite, pine and clear lakes dotted with grand summer estates, and the natural retreat of Toronto's wealthy. Charter a classic wooden boat, dine at a lakeside resort, or take in the fiery colour in autumn. Best as an overnight at a five-star lodge rather than a rushed day.", "lat": 43.684181, "lon": -79.320574, "p": "a"}, {"n": "Blue Mountain & Collingwood (day trip)", "cat": "do", "tier": "", "a": "Collingwood (day trip)", "d": "About two hours from the city, a European-style alpine village on the Niagara Escarpment — skiing and a spa in winter, hiking, the Scenic Caves and a suspension bridge in summer. A convenient four-season mountain escape for families. Pleasant as a day out, better as a resort overnight.", "lat": 43.684181, "lon": -79.320574, "p": "a"}, {"n": "Stratford & the Stratford Festival (day trip)", "cat": "do", "tier": "", "a": "Stratford (day trip)", "d": "A genteel riverside town two hours west, home to one of North America's most celebrated theatre festivals, running April to October with world-class Shakespeare and contemporary work. Pair a matinee with a swan-lined riverbank walk and a good lunch. Book tickets and dining well ahead in high season.", "lat": 43.684181, "lon": -79.320574, "p": "a"}, {"n": "Elora Gorge & village (day trip)", "cat": "do", "tier": "", "a": "Elora (day trip)", "d": "One of Ontario's prettiest villages, wrapped around a limestone gorge with a river running through it, restored 19th-century mills, and boutiques and cafés in old stone buildings. Quieter and more romantic than the better-known escapes. A gentle, scenic day roughly ninety minutes from the city.", "lat": 43.684181, "lon": -79.320574, "p": "v"}, {"n": "1000 Islands & the St. Lawrence (day trip)", "cat": "do", "tier": "", "a": "1000 Islands (day trip)", "d": "Roughly three hours east, where the St. Lawrence River scatters into hundreds of forested islands, many crowned by private summer homes and even a fairytale castle. Charter a boat cruise through the channels for the full effect. A memorable long day, or a leg of a Toronto–Ottawa journey.", "lat": 43.615194, "lon": -79.37845, "p": "v"}, {"n": "Bar Pompette", "cat": "party", "tier": "Cocktail bars", "a": "West End (Little Italy)", "d": "A jewel-box French cocktail bar with a leafy back patio — voted the best bar in the country, elegant and effortless.", "lat": 43.655004, "lon": -79.414352, "p": "v"}, {"n": "Civil Liberties", "cat": "party", "tier": "Landmark bars", "a": "Uptown (Bloordale)", "d": "A no-menu Bloor Street institution — tell the bartender what you like and they build your drink; twice voted Canada's best.", "lat": 43.662219, "lon": -79.425213, "p": "v"}, {"n": "Library Bar", "cat": "party", "tier": "Landmark bars", "a": "Downtown (Fairmont Royal York)", "d": "A hidden, wood-panelled cocktail den inside the grand railway hotel — birthplace of the Toronto 'birdbath' martini.", "lat": 43.645579, "lon": -79.382034, "p": "v"}, {"n": "Bar Mordecai", "cat": "party", "tier": "Cocktail bars", "a": "Downtown (Kensington Market)", "d": "A cinema-inspired, design-forward cocktail room — inventive drinks and one of the country's most exciting bars.", "lat": 43.649573, "lon": -79.424967, "p": "v"}, {"n": "BarChef", "cat": "party", "tier": "Cocktail bars", "a": "Queen West (Alexandra Park)", "d": "Toronto's avant-garde cocktail laboratory since 2008 — molecular, theatrical, multi-course drink 'menus' unlike anywhere else.", "lat": 43.648094, "lon": -79.400154, "p": "v"}, {"n": "Bar Raval", "cat": "party", "tier": "Late & loud", "a": "West End (Little Italy)", "d": "A jaw-dropping Gaudí-esque Spanish bar of carved mahogany — pintxos, sherry and vermouth from morning to late.", "lat": 43.655831, "lon": -79.409924, "p": "v"}, {"n": "The Roof Lounge", "cat": "party", "tier": "Rooftops", "a": "Yorkville (Park Hyatt Toronto)", "d": "The restored 18th-floor rooftop of the Park Hyatt — a Toronto institution with the classic terrace view over the city.", "lat": 43.64858, "lon": -79.374533, "p": "v"}, {"n": "Reyna on King", "cat": "party", "tier": "Rooftops", "a": "Downtown (King East)", "d": "A glamorous Mediterranean rooftop over King Street — share plates, cocktails and a see-and-be-seen terrace in summer.", "lat": 43.653422, "lon": -79.362286, "p": "v"}]}
+{
+  "center": [
+    43.653482,
+    -79.383935
+  ],
+  "venues": [
+    {
+      "n": "Four Seasons Hotel Toronto",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Yorkville",
+      "d": "The brand's flagship in its home country \u2014 the surest luxury in the city, with Caf\u00e9 Boulud downstairs and a serene spa above.",
+      "lat": 43.727971,
+      "lon": -79.350479,
+      "photos": []
+    },
+    {
+      "n": "The Hazelton Hotel",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Yorkville",
+      "d": "Toronto's most intimate grand hotel and its first five-star house \u2014 Canada's only independent to hold both Forbes Five-Star and Two MICHELIN Keys.",
+      "lat": 43.670892,
+      "lon": -79.393668,
+      "photos": []
+    },
+    {
+      "n": "The St. Regis Toronto",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Financial District",
+      "d": "Old-world St. Regis service in a 58-storey tower \u2014 butler service on every floor and the city glittering from Louix Louis on the 31st.",
+      "lat": 43.649771,
+      "lon": -79.380306,
+      "photos": []
+    },
+    {
+      "n": "Shangri-La Hotel, Toronto",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Downtown (University Avenue)",
+      "d": "Asian-inflected calm and warmth on University Avenue \u2014 a hushed, generous house that Indian members find instantly familiar.",
+      "lat": 43.649202,
+      "lon": -79.386292,
+      "photos": []
+    },
+    {
+      "n": "The Ritz-Carlton, Toronto",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Downtown (Entertainment District)",
+      "d": "A grand, glass-fronted house near Roy Thomson Hall \u2014 a saltwater pool, a celebrated spa and TOCA's Italian cooking.",
+      "lat": 43.645339,
+      "lon": -79.387085,
+      "photos": []
+    },
+    {
+      "n": "Park Hyatt Toronto",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Yorkville",
+      "d": "A restored Art Deco landmark reborn \u2014 the storied Roof Lounge over Yorkville and quietly assured rooms below.",
+      "lat": 43.669196,
+      "lon": -79.394618,
+      "photos": []
+    },
+    {
+      "n": "1 Hotel Toronto",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "King West",
+      "d": "Biophilic, greenery-draped sustainable luxury in the thick of King West \u2014 a design-forward newer arrival with a rooftop scene.",
+      "lat": 43.65842,
+      "lon": -79.383138,
+      "photos": []
+    },
+    {
+      "n": "Bisha Hotel Toronto",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Entertainment District",
+      "d": "A bold, sensual design hotel with a rooftop pool and K\u014dst above \u2014 theatrical and unmistakably its own.",
+      "lat": 43.645323,
+      "lon": -79.392424,
+      "photos": []
+    },
+    {
+      "n": "Ace Hotel Toronto",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Downtown (Garment District)",
+      "d": "A brutalist, architecture-led newcomer with a hidden lobby lounge and Alder's live-fire cooking \u2014 cult-favourite design.",
+      "lat": 43.646783,
+      "lon": -79.398161,
+      "photos": []
+    },
+    {
+      "n": "Fairmont Royal York",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Downtown (Union Station)",
+      "d": "The grand railway-age landmark opposite Union Station \u2014 a restored 1929 ch\u00e2teau hotel and home to the celebrated Library Bar.",
+      "lat": 43.645909,
+      "lon": -79.381364,
+      "photos": []
+    },
+    {
+      "n": "Sushi Masaki Saito",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Yorkville",
+      "d": "The finest sushi in Canada \u2014 a serene Edomae omakase counter and the only Two-Star table in the city.",
+      "lat": 43.671386,
+      "lon": -79.390168,
+      "photos": []
+    },
+    {
+      "n": "Alo",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Downtown (Queen West)",
+      "d": "Toronto's benchmark fine-dining room \u2014 refined French tasting menus high above Spadina, a Top-3 fixture nationally for years.",
+      "lat": 43.648501,
+      "lon": -79.395939,
+      "photos": []
+    },
+    {
+      "n": "Edulis",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "West End (Niagara)",
+      "d": "A romantic, produce-obsessed room devoted to the seasons \u2014 truffles and seafood at the very top of the national game.",
+      "lat": 43.641968,
+      "lon": -79.406553,
+      "photos": []
+    },
+    {
+      "n": "Restaurant 20 Victoria",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Downtown (St. Lawrence)",
+      "d": "An intense, ingredient-driven tasting menu in a tiny St. Lawrence room \u2014 one of the most exciting kitchens in the country.",
+      "lat": 43.661338,
+      "lon": -79.38403,
+      "photos": []
+    },
+    {
+      "n": "Quetzal",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Downtown (Church-Wellesley)",
+      "d": "Live-fire Mexican cooking over a wall of open flame \u2014 masa, agave and smoke, done with real precision.",
+      "lat": 43.65647,
+      "lon": -79.406875,
+      "photos": []
+    },
+    {
+      "n": "Enigma Yorkville",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Yorkville",
+      "d": "An exacting, personal chef's-counter tasting menu in Yorkville \u2014 quietly one of the city's most ambitious rooms.",
+      "lat": 43.671386,
+      "lon": -79.390168,
+      "photos": []
+    },
+    {
+      "n": "Aburi Hana",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Yorkville",
+      "d": "A serene Kyoto-style kaiseki room in Yorkville \u2014 delicate, seasonal Japanese cooking of great purity.",
+      "lat": 43.664342,
+      "lon": -79.414305,
+      "photos": []
+    },
+    {
+      "n": "Shoushin",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "North York (Midtown)",
+      "d": "A revered Edomae sushi counter of quiet mastery \u2014 for many, the city's connoisseur choice.",
+      "lat": 43.731448,
+      "lon": -79.404099,
+      "photos": []
+    },
+    {
+      "n": "Kappo Sato",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Midtown (Yonge & Eglinton)",
+      "d": "An intimate kappo counter where each course is prepared in front of you \u2014 precise, seasonal, deeply personal.",
+      "lat": 43.649659,
+      "lon": -79.434235,
+      "photos": []
+    },
+    {
+      "n": "Osteria Giulia",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Yorkville",
+      "d": "Elegant coastal Italian in Yorkville \u2014 handmade pasta and wood-grilled fish in one of the city's most desirable rooms.",
+      "lat": 43.674359,
+      "lon": -79.396658,
+      "photos": []
+    },
+    {
+      "n": "DaNico",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Downtown (King West)",
+      "d": "Refined Amalfi-influenced Italian from a Michelin-pedigree kitchen \u2014 precise, generous and quietly luxurious.",
+      "lat": 43.653482,
+      "lon": -79.383935,
+      "photos": []
+    },
+    {
+      "n": "Don Alfonso 1890",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Downtown (Financial District)",
+      "d": "The Toronto outpost of the storied Amalfi Coast institution \u2014 grand, sun-drenched southern Italian on the 38th floor.",
+      "lat": 43.65047,
+      "lon": -79.376146,
+      "photos": []
+    },
+    {
+      "n": "aKin",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Downtown (Little Italy)",
+      "d": "An inventive, personal chef's-menu drawing on Chinese roots and Canadian produce \u2014 one of the city's most original kitchens.",
+      "lat": 43.653482,
+      "lon": -79.383935,
+      "photos": []
+    },
+    {
+      "n": "Kaiseki Yu-zen Hashimoto",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "North York",
+      "d": "A ceremonial, traditional kaiseki experience in a tranquil North York setting \u2014 the most classical Japanese table in the city.",
+      "lat": 43.774175,
+      "lon": -79.504749,
+      "photos": []
+    },
+    {
+      "n": "Bar Isabel",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "West End (College Street)",
+      "d": "Grant van Gameren's beloved Spanish room \u2014 rustic, generous tapas and a whole grilled octopus that made its name.",
+      "lat": 43.667544,
+      "lon": -79.385236,
+      "photos": []
+    },
+    {
+      "n": "DaiLo",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "West End (Little Italy)",
+      "d": "Nick Liu's modern Asian cooking \u2014 a decade-strong Toronto favourite of bold, personal 'New Asian' plates.",
+      "lat": 43.653482,
+      "lon": -79.383935,
+      "photos": []
+    },
+    {
+      "n": "Grey Gardens",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Downtown (Kensington Market)",
+      "d": "Jen Agg's snug Kensington wine bar \u2014 oysters, natural wine and precise seasonal cooking in a room everyone loves.",
+      "lat": 43.662197,
+      "lon": -79.3803,
+      "photos": []
+    },
+    {
+      "n": "Enoteca Sociale",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "West End (Dundas West)",
+      "d": "A warm, Roman-hearted trattoria with a cheese cave in the basement \u2014 honest pasta and a serious cellar.",
+      "lat": 43.64958,
+      "lon": -79.425664,
+      "photos": []
+    },
+    {
+      "n": "Rasa",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Downtown (Harbord Village)",
+      "d": "A convivial, share-plate room of globe-trotting comfort cooking \u2014 reliably one of the city's most enjoyable tables.",
+      "lat": 43.662778,
+      "lon": -79.404051,
+      "photos": []
+    },
+    {
+      "n": "Indian Street Food Company",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Midtown (Yonge & Eglinton)",
+      "d": "Refined, chaat-driven Indian cooking with real finesse \u2014 a rare Bib-listed Indian kitchen in Toronto.",
+      "lat": 43.646899,
+      "lon": -79.40494,
+      "photos": []
+    },
+    {
+      "n": "The Cottage Cheese",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Downtown (Kensington Market)",
+      "d": "An urban-Indian eatery in Kensington built around fresh paneer and inventive small plates \u2014 young, personal and delicious.",
+      "lat": 43.656183,
+      "lon": -79.402847,
+      "photos": []
+    },
+    {
+      "n": "Guru Lukshmi",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Mississauga (Greater Toronto)",
+      "d": "The region's undisputed dosa champion \u2014 pure-vegetarian South Indian home cooking in dazzling variety.",
+      "lat": 43.639315,
+      "lon": -79.715938,
+      "photos": []
+    },
+    {
+      "n": "CN Tower",
+      "cat": "do",
+      "tier": "",
+      "a": "Entertainment District / Downtown",
+      "d": "For decades the tallest free-standing structure in the world, and still the icon that fixes Toronto's skyline. Ride the glass elevator to the LookOut and Glass Floor, then have dinner in the revolving 360 Restaurant, which makes a full turn roughly every 70 minutes as the city and Lake Ontario circle below. Book the golden-hour window so you catch daylight and the lit-up city in one sitting.",
+      "lat": 43.642564,
+      "lon": -79.387087,
+      "photos": []
+    },
+    {
+      "n": "EdgeWalk at the CN Tower",
+      "cat": "do",
+      "tier": "",
+      "a": "Entertainment District / Downtown",
+      "d": "Clipped into a harness, you walk hands-free around an open ledge 356m above the street, leaning out over nothing but air. It is the highest external walk on a building anywhere, and about as much adrenaline as Toronto sells. Best for confident teenagers and adults; not for those who dislike heights.",
+      "lat": 43.66329,
+      "lon": -79.395631,
+      "photos": []
+    },
+    {
+      "n": "Royal Ontario Museum (ROM)",
+      "cat": "do",
+      "tier": "",
+      "a": "Bloor Street / Yorkville",
+      "d": "Canada's largest museum, its Victorian bulk split open by Daniel Libeskind's jagged crystal of glass and steel. Dinosaurs, a serious Chinese and South Asian collection, and Egyptian galleries make it the easy multi-generation morning in the city. Sits right at the top of the Yorkville shopping streets, so pair it with lunch there.",
+      "lat": 43.667656,
+      "lon": -79.394699,
+      "photos": []
+    },
+    {
+      "n": "Art Gallery of Ontario (AGO)",
+      "cat": "do",
+      "tier": "",
+      "a": "Grange Park / Chinatown edge",
+      "d": "One of North America's largest art museums, wrapped in Frank Gehry's sweeping wood-and-glass Galleria Italia. Strong on the Group of Seven and Canadian landscape, Indigenous art, and rotating blockbusters. The spiral wooden staircase alone is worth the visit; go on a Wednesday evening when admission is free after hours.",
+      "lat": 43.653613,
+      "lon": -79.39278,
+      "photos": []
+    },
+    {
+      "n": "Casa Loma",
+      "cat": "do",
+      "tier": "",
+      "a": "Casa Loma / Midtown",
+      "d": "A genuine early-1900s Gothic Revival castle on the hill above the city, with secret passages, turrets, stables reached by a long tunnel, and formal gardens in season. It feels theatrical and slightly mad, which is exactly why children love it. A private guide brings the robber-baron backstory to life.",
+      "lat": 43.678101,
+      "lon": -79.409416,
+      "photos": []
+    },
+    {
+      "n": "Distillery District",
+      "cat": "do",
+      "tier": "",
+      "a": "Distillery District / Old Town",
+      "d": "A pedestrian-only village of red-brick Victorian industrial buildings \u2014 once the largest distillery in the British Empire \u2014 now filled with galleries, design shops, chocolatiers and restaurants. Cobblestones, no cars, and string lights make it the most photogenic evening stroll in the city, magical when the Christmas market takes over in winter.",
+      "lat": 43.650328,
+      "lon": -79.3592,
+      "photos": []
+    },
+    {
+      "n": "St. Lawrence Market",
+      "cat": "do",
+      "tier": "",
+      "a": "Old Town / St. Lawrence",
+      "d": "Toronto's great food hall, running since the 1800s, with a lower level of cheesemongers, butchers, bakers and the city's famous peameal-bacon sandwich. A superb, unfussy lunch stop for a family, with plenty to graze. Come on a Saturday when the farmers' market fills the north building too.",
+      "lat": 43.648739,
+      "lon": -79.371574,
+      "photos": []
+    },
+    {
+      "n": "Toronto Islands & Centreville",
+      "cat": "do",
+      "tier": "",
+      "a": "Toronto Islands",
+      "d": "A short ferry across the harbour lands you on car-free islands with beaches, willow-lined lagoons you can paddle, and the best postcard view back at the skyline. Centreville is an old-fashioned children's amusement park with a carousel and a small farm \u2014 an easy, gentle half-day for younger kids. Rent bikes or a quadricycle and picnic on the grass.",
+      "lat": 43.62039,
+      "lon": -79.373256,
+      "photos": []
+    },
+    {
+      "n": "Harbourfront Centre",
+      "cat": "do",
+      "tier": "",
+      "a": "Waterfront / Harbourfront",
+      "d": "The lakeside cultural hub where the ferries leave and festivals, craft studios and open-air concerts run through the warmer months. It now also hosts the interim home of the Ontario Science Centre, so a lake walk and hands-on science can be strung together. Rent a canoe or simply take the boardwalk stroll at sunset.",
+      "lat": 43.639821,
+      "lon": -79.381142,
+      "photos": []
+    },
+    {
+      "n": "Ontario Science Centre (interim location)",
+      "cat": "do",
+      "tier": "",
+      "a": "Waterfront / Harbourfront",
+      "d": "The beloved hands-on science museum reopened in an interim home at Harbourfront Centre in 2026 after its Don Mills building closed, with a larger permanent waterfront site to follow. Expect interactive exhibits pitched squarely at curious children and teenagers. Check current exhibits before you go, as the interim space is smaller than the original.",
+      "lat": 43.714838,
+      "lon": -79.340243,
+      "photos": []
+    },
+    {
+      "n": "Ripley's Aquarium of Canada",
+      "cat": "do",
+      "tier": "",
+      "a": "Entertainment District / Downtown",
+      "d": "Directly at the foot of the CN Tower, so the two pair naturally in one downtown morning. The highlight is Dangerous Lagoon, a moving walkway that carries you through a glass tunnel while sharks, rays and a sawfish glide overhead. Reliably the easiest crowd-pleaser for a multi-generation group in wet weather.",
+      "lat": 43.642484,
+      "lon": -79.386127,
+      "photos": []
+    },
+    {
+      "n": "Hockey Hall of Fame",
+      "cat": "do",
+      "tier": "",
+      "a": "Financial District",
+      "d": "Housed partly in a grand old Bank of Montreal building, this is the shrine of Canada's national game, where you can hold the actual Stanley Cup and try interactive shooting and goaltending games. Even non-fans get the pull of it. A short, fun add-on set inside the Brookfield Place atrium.",
+      "lat": 43.646996,
+      "lon": -79.377302,
+      "photos": []
+    },
+    {
+      "n": "Aga Khan Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Don Mills / North York",
+      "d": "A serene Fumihiko Maki building set in geometric gardens, and North America's first museum devoted to Islamic art, with over a thousand manuscripts, miniatures, ceramics and scientific instruments spanning the Muslim world \u2014 including fine Mughal-era Indian pieces. It shares the site with the Ismaili Centre designed by the Indian architect Charles Correa, giving the whole complex a strong resonance for Indian visitors. The restaurant and evening concerts are worth building the trip around.",
+      "lat": 43.722227,
+      "lon": -79.333327,
+      "photos": []
+    },
+    {
+      "n": "Bata Shoe Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Bloor Street / Annex",
+      "d": "A one-of-a-kind museum built around a private collection of thousands of shoes across 4,500 years \u2014 from ancient Egyptian sandals to celebrity footwear \u2014 inside a building shaped like a shoebox. Small, sharp and surprisingly absorbing, an easy hour near the ROM. Genuinely unlike anything else in the city.",
+      "lat": 43.667258,
+      "lon": -79.400143,
+      "photos": []
+    },
+    {
+      "n": "Yorkville",
+      "cat": "do",
+      "tier": "",
+      "a": "Yorkville / Bloor Street",
+      "d": "Toronto's luxury quarter, where the Mink Mile of Bloor Street lines up Chanel, Herm\u00e8s, Cartier, Louis Vuitton and Prada beside converted Victorian townhouses turned into fine dining and galleries. This is where an UHNI group shops, dines and stays. Reserve ahead at the marquee restaurants and let a driver handle the parking.",
+      "lat": 43.671386,
+      "lon": -79.390168,
+      "photos": []
+    },
+    {
+      "n": "Financial District & the PATH",
+      "cat": "do",
+      "tier": "",
+      "a": "Financial District",
+      "d": "Toronto's cluster of bank towers sits above the PATH, one of the largest underground pedestrian networks in the world \u2014 kilometres of climate-controlled walkways lined with shops and food courts that let you cross downtown without stepping outside in winter. Above ground, Brookfield Place's soaring Santiago Calatrava galleria is the architectural set piece. Useful to know on a cold or wet day.",
+      "lat": 43.647673,
+      "lon": -79.383135,
+      "photos": []
+    },
+    {
+      "n": "Kensington Market",
+      "cat": "do",
+      "tier": "",
+      "a": "Kensington Market",
+      "d": "A bohemian tangle of narrow streets with vintage shops, murals, caf\u00e9s and food stalls from every corner of the world, still refreshingly scruffy and independent. It rewards aimless wandering and grazing rather than a plan. Best on foot, ideally with a food-focused local guide.",
+      "lat": 43.655214,
+      "lon": -79.40226,
+      "photos": []
+    },
+    {
+      "n": "Chinatown (Spadina & Dundas)",
+      "cat": "do",
+      "tier": "",
+      "a": "Chinatown",
+      "d": "One of the largest Chinatowns in North America, crowding Spadina Avenue with dim sum houses, herbalists, bakeries and produce spilling onto the pavement. It runs straight into Kensington Market, so the two make one easy walking loop. Come hungry and go where the queues are.",
+      "lat": 43.653612,
+      "lon": -79.395341,
+      "photos": []
+    },
+    {
+      "n": "Little India (Gerrard Street East)",
+      "cat": "do",
+      "tier": "",
+      "a": "Gerrard India Bazaar / East End",
+      "d": "The Gerrard India Bazaar is one of North America's oldest and largest South Asian shopping strips \u2014 sari and gold shops, sweet houses, spice stores and the smell of grilled corn and chaat on the air. For an Indian family it is a familiar, comforting stretch of the city and a reliable source of excellent vegetarian food. Liveliest in the evenings and during Diwali.",
+      "lat": 43.672051,
+      "lon": -79.323468,
+      "photos": []
+    },
+    {
+      "n": "Nathan Phillips Square & City Halls",
+      "cat": "do",
+      "tier": "",
+      "a": "Downtown Core",
+      "d": "The civic heart of Toronto: the curved modernist New City Hall framing the illuminated TORONTO sign, with the elegant Romanesque Old City Hall and its clock tower beside it. The square's reflecting pool becomes a skating rink in winter. A quick, free photo stop rather than a long visit.",
+      "lat": 43.652708,
+      "lon": -79.383842,
+      "photos": []
+    },
+    {
+      "n": "Graffiti Alley",
+      "cat": "do",
+      "tier": "",
+      "a": "Fashion District / Queen West",
+      "d": "A long lane running behind Queen Street West, walls end to end in ever-changing street art and murals \u2014 the most photographed alley in the city and a favourite backdrop for photographers. Free, quick and best in daylight. Pair it with the boutiques and caf\u00e9s of West Queen West.",
+      "lat": 43.64803,
+      "lon": -79.397923,
+      "photos": []
+    },
+    {
+      "n": "High Park",
+      "cat": "do",
+      "tier": "",
+      "a": "High Park / West End",
+      "d": "Toronto's largest public park, with woodland trails, a small zoo, and \u2014 for about a week each spring \u2014 an avenue of Japanese cherry blossoms that draws the whole city. A relaxed green break from downtown, easy with children. Go early on a spring morning to beat the blossom crowds.",
+      "lat": 43.646281,
+      "lon": -79.463795,
+      "photos": []
+    },
+    {
+      "n": "The Beaches",
+      "cat": "do",
+      "tier": "",
+      "a": "The Beaches / East End",
+      "d": "A leafy lakeside neighbourhood with a long sandy boardwalk, caf\u00e9s and a slow, seaside-town feel unusual for a big city. Cycle or stroll the Martin Goodman Trail along the water. A calm, pretty afternoon away from the tourist core.",
+      "lat": 43.671024,
+      "lon": -79.296712,
+      "photos": []
+    },
+    {
+      "n": "The Well",
+      "cat": "do",
+      "tier": "",
+      "a": "Wellington West / King West",
+      "d": "A gleaming new mixed-use district of shops, chef-driven restaurants and a bright food hall under a dramatic glass canopy, on the western edge of downtown. It is where the city's newest dining lands. Good for a modern, polished meal and a browse.",
+      "lat": 43.642957,
+      "lon": -79.395902,
+      "photos": []
+    },
+    {
+      "n": "Stackt Market",
+      "cat": "do",
+      "tier": "",
+      "a": "Fort York / Bathurst",
+      "d": "An outdoor market built entirely from stacked shipping containers, animating a large lot with rotating retail, food, a brewery and public art \u2014 young, casual and forever changing. A quick, fun stop steps from The Well. Best on a fine-weather afternoon.",
+      "lat": 43.64083,
+      "lon": -79.402492,
+      "photos": []
+    },
+    {
+      "n": "Little Italy & College Street",
+      "cat": "do",
+      "tier": "",
+      "a": "Little Italy",
+      "d": "College Street's old Italian quarter is one of the city's best strips for an evening \u2014 espresso bars, trattorias, patios and late-night energy. It draws a smart, relaxed crowd. Come for dinner and stay for a passeggiata down the street.",
+      "lat": 43.655191,
+      "lon": -79.417295,
+      "photos": []
+    },
+    {
+      "n": "Queen Street West",
+      "cat": "do",
+      "tier": "",
+      "a": "Queen West / Trinity Bellwoods",
+      "d": "The spine of independent Toronto \u2014 design boutiques, galleries, record shops and buzzy restaurants \u2014 running west into Trinity Bellwoods, the park where the young city gathers on a sunny day. Once named one of the world's coolest neighbourhoods. Best explored slowly on foot.",
+      "lat": 43.653603,
+      "lon": -79.384006,
+      "photos": []
+    },
+    {
+      "n": "Ontario Place & Trillium Park",
+      "cat": "do",
+      "tier": "",
+      "a": "Waterfront / Ontario Place",
+      "d": "The lakeside grounds have been reborn around Trillium Park and the William G. Davis Trail, a landscaped waterfront walk with sweeping skyline views and quiet coves. A pleasant, uncrowded stretch of lakeshore beside Harbourfront. Good for a morning walk before the science centre next door.",
+      "lat": 43.629182,
+      "lon": -79.410453,
+      "photos": []
+    },
+    {
+      "n": "Evergreen Brick Works",
+      "cat": "do",
+      "tier": "",
+      "a": "Don Valley / Rosedale",
+      "d": "A former brick factory in the Don Valley turned into a green community hub, with a large weekend farmers' market, ravine trails and a striking industrial-heritage setting minutes from downtown. It shows Toronto's ravine landscape at its best. Go Saturday morning for the market and a valley walk.",
+      "lat": 43.684225,
+      "lon": -79.365019,
+      "photos": []
+    },
+    {
+      "n": "Toronto ravine walk (Cedarvale & Beltline)",
+      "cat": "do",
+      "tier": "",
+      "a": "Midtown ravines",
+      "d": "Toronto is threaded with wooded ravines, and the Cedarvale trail and old Beltline rail path let you walk for kilometres under a leaf canopy while the city hums just above. It is the local secret to how green Toronto feels. A restorative morning for a group that likes to walk.",
+      "lat": 43.684887,
+      "lon": -79.367097,
+      "photos": []
+    },
+    {
+      "n": "St. Lawrence & the Berczy Park dog fountain",
+      "cat": "do",
+      "tier": "",
+      "a": "Old Town / St. Lawrence",
+      "d": "A whimsical little park behind the flatiron Gooderham Building, its tiered fountain ringed by 27 cast-iron dogs all gazing up at a golden bone on top. A charming five-minute detour and a favourite quick photo with the historic flatiron behind. Right beside St. Lawrence Market.",
+      "lat": 43.647993,
+      "lon": -79.375185,
+      "photos": []
+    },
+    {
+      "n": "Scotiabank Arena \u2014 Raptors or Maple Leafs",
+      "cat": "do",
+      "tier": "",
+      "a": "Waterfront / South Core",
+      "d": "The downtown arena where the Maple Leafs (hockey) and Raptors (basketball) play, with electric big-league atmosphere and premium suites for a group. Catching a Leafs night is a bucket-list slice of Canadian culture. Book premium seating well ahead through a concierge, as marquee games sell out.",
+      "lat": 43.641559,
+      "lon": -79.375428,
+      "photos": []
+    },
+    {
+      "n": "Rogers Centre \u2014 Blue Jays baseball",
+      "cat": "do",
+      "tier": "",
+      "a": "Entertainment District / Downtown",
+      "d": "The retractable-roof stadium under the CN Tower, home of the Toronto Blue Jays \u2014 a relaxed, all-ages summer evening of baseball, food and open sky when the roof is back. Even non-fans enjoy the spectacle. Premium and suite seating make it comfortable for a family.",
+      "lat": 43.64166,
+      "lon": -79.389198,
+      "photos": []
+    },
+    {
+      "n": "Little Portugal & Ossington strip",
+      "cat": "do",
+      "tier": "",
+      "a": "Ossington / Little Portugal",
+      "d": "Ossington Avenue has become one of the city's tightest concentrations of acclaimed restaurants and cocktail bars, backed by the old-world bakeries of Little Portugal. Where in-the-know Torontonians go to eat and drink. Reserve ahead; the best rooms are small.",
+      "lat": 43.654591,
+      "lon": -79.422763,
+      "photos": []
+    },
+    {
+      "n": "Riverdale & Broadview Avenue view",
+      "cat": "do",
+      "tier": "",
+      "a": "Riverdale / East End",
+      "d": "From the slope of Riverdale Park East you get the classic, slightly hidden postcard view of the downtown skyline across the Don Valley \u2014 the one photographers wait at for sunset. The surrounding neighbourhood is leafy and handsome. A quiet, local alternative to the tourist lookouts.",
+      "lat": 43.667766,
+      "lon": -79.3535,
+      "photos": []
+    },
+    {
+      "n": "Niagara Falls (day trip)",
+      "cat": "do",
+      "tier": "",
+      "a": "Niagara (day trip)",
+      "d": "About 90 minutes from the city, and the natural wonder no first visit skips \u2014 a vast, thundering horseshoe of water you feel before you see. Ride the boat into the mist or watch from a fine-dining room set right above the falls. A private car and guide makes the round trip effortless in a day.",
+      "lat": 43.684181,
+      "lon": -79.320574,
+      "photos": []
+    },
+    {
+      "n": "Niagara-on-the-Lake & wine country (day trip)",
+      "cat": "do",
+      "tier": "",
+      "a": "Niagara (day trip)",
+      "d": "Just beyond the falls lies a picture-perfect 19th-century town of verandahed inns and gardens, surrounded by Canada's largest wine region and its dozens of estates. Book private cellar tastings, including the icewine Canada is known for, and lunch at a vineyard restaurant. This is the refined, grown-up counterpoint to the falls, ideal with a driver so everyone can taste.",
+      "lat": 43.684181,
+      "lon": -79.320574,
+      "photos": []
+    },
+    {
+      "n": "Muskoka lakes (day trip / overnight)",
+      "cat": "do",
+      "tier": "",
+      "a": "Muskoka (day trip)",
+      "d": "Two hours north lies 'cottage country' \u2014 a landscape of granite, pine and clear lakes dotted with grand summer estates, and the natural retreat of Toronto's wealthy. Charter a classic wooden boat, dine at a lakeside resort, or take in the fiery colour in autumn. Best as an overnight at a five-star lodge rather than a rushed day.",
+      "lat": 43.684181,
+      "lon": -79.320574,
+      "photos": []
+    },
+    {
+      "n": "Blue Mountain & Collingwood (day trip)",
+      "cat": "do",
+      "tier": "",
+      "a": "Collingwood (day trip)",
+      "d": "About two hours from the city, a European-style alpine village on the Niagara Escarpment \u2014 skiing and a spa in winter, hiking, the Scenic Caves and a suspension bridge in summer. A convenient four-season mountain escape for families. Pleasant as a day out, better as a resort overnight.",
+      "lat": 43.684181,
+      "lon": -79.320574,
+      "photos": []
+    },
+    {
+      "n": "Stratford & the Stratford Festival (day trip)",
+      "cat": "do",
+      "tier": "",
+      "a": "Stratford (day trip)",
+      "d": "A genteel riverside town two hours west, home to one of North America's most celebrated theatre festivals, running April to October with world-class Shakespeare and contemporary work. Pair a matinee with a swan-lined riverbank walk and a good lunch. Book tickets and dining well ahead in high season.",
+      "lat": 43.684181,
+      "lon": -79.320574,
+      "photos": []
+    },
+    {
+      "n": "Elora Gorge & village (day trip)",
+      "cat": "do",
+      "tier": "",
+      "a": "Elora (day trip)",
+      "d": "One of Ontario's prettiest villages, wrapped around a limestone gorge with a river running through it, restored 19th-century mills, and boutiques and caf\u00e9s in old stone buildings. Quieter and more romantic than the better-known escapes. A gentle, scenic day roughly ninety minutes from the city.",
+      "lat": 43.684181,
+      "lon": -79.320574,
+      "photos": []
+    },
+    {
+      "n": "1000 Islands & the St. Lawrence (day trip)",
+      "cat": "do",
+      "tier": "",
+      "a": "1000 Islands (day trip)",
+      "d": "Roughly three hours east, where the St. Lawrence River scatters into hundreds of forested islands, many crowned by private summer homes and even a fairytale castle. Charter a boat cruise through the channels for the full effect. A memorable long day, or a leg of a Toronto\u2013Ottawa journey.",
+      "lat": 43.615194,
+      "lon": -79.37845,
+      "photos": []
+    },
+    {
+      "n": "Bar Pompette",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "West End (Little Italy)",
+      "d": "A jewel-box French cocktail bar with a leafy back patio \u2014 voted the best bar in the country, elegant and effortless.",
+      "lat": 43.655004,
+      "lon": -79.414352,
+      "photos": []
+    },
+    {
+      "n": "Civil Liberties",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "Uptown (Bloordale)",
+      "d": "A no-menu Bloor Street institution \u2014 tell the bartender what you like and they build your drink; twice voted Canada's best.",
+      "lat": 43.662219,
+      "lon": -79.425213,
+      "photos": []
+    },
+    {
+      "n": "Library Bar",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "Downtown (Fairmont Royal York)",
+      "d": "A hidden, wood-panelled cocktail den inside the grand railway hotel \u2014 birthplace of the Toronto 'birdbath' martini.",
+      "lat": 43.645579,
+      "lon": -79.382034,
+      "photos": []
+    },
+    {
+      "n": "Bar Mordecai",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Downtown (Kensington Market)",
+      "d": "A cinema-inspired, design-forward cocktail room \u2014 inventive drinks and one of the country's most exciting bars.",
+      "lat": 43.649573,
+      "lon": -79.424967,
+      "photos": []
+    },
+    {
+      "n": "BarChef",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Queen West (Alexandra Park)",
+      "d": "Toronto's avant-garde cocktail laboratory since 2008 \u2014 molecular, theatrical, multi-course drink 'menus' unlike anywhere else.",
+      "lat": 43.648094,
+      "lon": -79.400154,
+      "photos": []
+    },
+    {
+      "n": "Bar Raval",
+      "cat": "party",
+      "tier": "Late & loud",
+      "a": "West End (Little Italy)",
+      "d": "A jaw-dropping Gaud\u00ed-esque Spanish bar of carved mahogany \u2014 pintxos, sherry and vermouth from morning to late.",
+      "lat": 43.655831,
+      "lon": -79.409924,
+      "photos": []
+    },
+    {
+      "n": "The Roof Lounge",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "Yorkville (Park Hyatt Toronto)",
+      "d": "The restored 18th-floor rooftop of the Park Hyatt \u2014 a Toronto institution with the classic terrace view over the city.",
+      "lat": 43.64858,
+      "lon": -79.374533,
+      "photos": []
+    },
+    {
+      "n": "Reyna on King",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "Downtown (King East)",
+      "d": "A glamorous Mediterranean rooftop over King Street \u2014 share plates, cocktails and a see-and-be-seen terrace in summer.",
+      "lat": 43.653422,
+      "lon": -79.362286,
+      "photos": []
+    }
+  ]
+}

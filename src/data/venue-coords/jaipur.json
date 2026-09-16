@@ -1,1 +1,498 @@
-{"center": [26.915458, 75.818982], "venues": [{"n": "The Oberoi Rajvilas", "cat": "stay", "tier": "Ultra", "a": "Jhotwara / outskirts (Goner Road)", "d": "Mughal splendour on 32 acres — for one year, judged the finest hotel on earth, and it shows.", "lat": 26.876339, "lon": 75.883813, "p": "v"}, {"n": "Rambagh Palace", "cat": "stay", "tier": "Ultra", "a": "Civil Lines (Bhawani Singh Road)", "d": "The Maharaja's own former residence — 47 acres of gardens and the definitive Jaipur address.", "lat": 26.897292, "lon": 75.807577, "p": "v"}, {"n": "SUJÁN Rajmahal Palace", "cat": "stay", "tier": "Grand", "a": "Civil Lines (Sardar Patel Marg)", "d": "A 1729 royal residence reborn as a jewel-box of fantastical wallpapers — the most personal palace in the city.", "lat": 26.925212, "lon": 75.800864, "p": "v"}, {"n": "Alila Fort Bishangarh", "cat": "stay", "tier": "Grand", "a": "Jhotwara / outskirts (Bishangarh, ~1 hr toward Delhi)", "d": "A 230-year-old warrior fort on a granite hill, reborn as a dramatic all-suite retreat.", "lat": 27.321414, "lon": 75.894541, "p": "v"}, {"n": "Samode Haveli", "cat": "stay", "tier": "Luxury", "a": "Walled / Pink City (Gangapole)", "d": "A 225-year-old family haveli inside the old walls — frescoed, romantic, and quietly grand.", "lat": 26.933104, "lon": 75.837257, "p": "v"}, {"n": "Fairmont Jaipur", "cat": "stay", "tier": "Luxury", "a": "Amer (Amber, Kukas)", "d": "A palatial modern fort of a resort on the road to Amber — grand-scale Rajput theatre.", "lat": 27.030901, "lon": 75.890182, "p": "v"}, {"n": "Suvarna Mahal", "cat": "eat", "tier": "Destination", "a": "Civil Lines (Rambagh Palace)", "d": "Royal Indian dining on gold-plated tableware beneath Florentine ceilings — the grandest table in Jaipur.", "lat": 26.897842, "lon": 75.807948, "p": "v"}, {"n": "Dining at The Oberoi Rajvilas", "cat": "eat", "tier": "Destination", "a": "Jhotwara / outskirts (The Oberoi Rajvilas)", "d": "Considered Rajasthani and international cooking in the most decorated hotel in the city — faultless, and framed by fort-walled gardens.", "lat": 26.876339, "lon": 75.883813, "p": "v"}, {"n": "Bar Palladio", "cat": "eat", "tier": "Fine", "a": "Civil Lines (Narain Niwas Palace)", "d": "Cobalt-blue Italian fantasy under tented canopies and mango trees — the chicest room in Jaipur.", "lat": 26.897876, "lon": 75.814739, "p": "v"}, {"n": "Amber Fort (Amer Fort) & the Sheesh Mahal", "cat": "do", "tier": "", "a": "Amer", "d": "The Kachhwaha capital before Jaipur existed: honey-coloured sandstone and marble rising off a hillside, with the Sheesh Mahal's mirror-work catching a single flame into a thousand. Come at 8am before the crowds, and ask your hotel to arrange a private guided walk of the Diwan-e-Khas and Sukh Niwas before the guides start herding.", "lat": 26.985468, "lon": 75.850093, "p": "v"}, {"n": "The ascent to Amber — jeep, not elephant", "cat": "do", "tier": "", "a": "Amer", "d": "The postcard is the caparisoned elephant climbing to the Suraj Pol, but the welfare questions are real and increasingly hard to ignore. The dignified choice for a multi-gen group is the open 4WD jeep up the ramp, or better still a morning at a walk-alongside sanctuary like Elefantastic near the fort where children meet the elephants on their own terms.", "lat": 26.947057, "lon": 75.840242, "p": "a"}, {"n": "City Palace & Chandra Mahal", "cat": "do", "tier": "", "a": "Walled City / Pink City", "d": "Still the working home of the Jaipur royal family, which is exactly why the private Chandra Mahal tour matters: you climb through the seven-storey palace the public never sees, ending on the peacock-painted upper floors with a butler and a view over the whole pink grid. The Baradari courtyard is where you take tea between the Pritam Niwas Chowk's four seasonal gates.", "lat": 26.857769, "lon": 75.814245, "p": "a"}, {"n": "Hawa Mahal (Palace of Winds)", "cat": "do", "tier": "", "a": "Walled City / Pink City", "d": "The 953-window honeycomb screen the royal women watched the street from, unseen. Everyone photographs the facade from the coffee shop across Badi Chaupar; far fewer go inside and up to the top-floor jharokhas for the light through pink lattice. Best in the first hour of morning sun.", "lat": 26.923932, "lon": 75.826865, "p": "v"}, {"n": "Jantar Mantar observatory", "cat": "do", "tier": "", "a": "Walled City / Pink City", "d": "Sawai Jai Singh II's obsession made stone: nineteen giant astronomical instruments, including the world's largest sundial, that still tell the time to the second. It reads as sculpture to the eye and as pure science to the mind — a rare thing to hand a curious teenager. Take the licensed guide; the instruments are meaningless without one.", "lat": 26.924739, "lon": 75.824466, "p": "v"}, {"n": "Jaigarh Fort & the Jaivana cannon", "cat": "do", "tier": "", "a": "Amer", "d": "The muscular military fort above Amber, connected by subterranean passage, and home of Jaivana — one of the largest wheeled cannons ever cast, and never fired in anger. Less about palaces, more about engineering: water-harvesting tanks, ramparts, the old foundry. A good counterpoint for the men and boys after a morning of mirror-work.", "lat": 26.979982, "lon": 75.843816, "p": "v"}, {"n": "Jal Mahal (Water Palace)", "cat": "do", "tier": "", "a": "Man Sagar Lake", "d": "The palace that appears to float on Man Sagar Lake, four of its five storeys submerged. You don't go in — you stop on the lakeshore at dusk when the light softens and migratory birds settle, a five-minute pause on the way to or from Amber that is pure Rajput romance.", "lat": 26.953467, "lon": 75.846131, "p": "v"}, {"n": "Albert Hall Museum", "cat": "do", "tier": "", "a": "Ram Niwas Garden", "d": "Rajasthan's oldest museum, a fantastical Indo-Saracenic pile by Samuel Swinton Jacob, floodlit gold after dark. Inside: Mughal miniatures, an Egyptian mummy, and the famous carpet collection. Worth the visit for the building alone, and the lit-up evening view from Ram Niwas Garden is a set piece.", "lat": 26.911693, "lon": 75.819502, "p": "v"}, {"n": "Amrapali Museum of jewellery", "cat": "do", "tier": "", "a": "Civil Lines", "d": "A jeweller's private obsession made public: some 4,000 pieces of Indian tribal and antique silver, gold and adornment across two floors, curated with a connoisseur's eye. For anyone shopping the trousseau or simply in love with Indian craft, it recalibrates what 'good' looks like before you buy a thing.", "lat": 26.909678, "lon": 75.781249, "p": "a"}, {"n": "Johari Bazaar — the jewellers' street", "cat": "do", "tier": "", "a": "Walled City / Pink City", "d": "The historic gem and jewellery bazaar, and the front door to Jaipur's kundan, meenakari and polki trade. The real business happens in the family workshops in the lanes behind, where a discreet introduction — best arranged through your hotel or advisor — gets you sitting down with a house that has cut stones for generations, not a shopfront.", "lat": 26.920738, "lon": 75.826384, "p": "v"}, {"n": "Gem Palace", "cat": "do", "tier": "", "a": "MI Road", "d": "Jaipur's most storied jewellery house, jewellers to maharajas and, over the years, to a long list of international collectors. Go for the private viewing upstairs rather than the counter: enamelled Mughal-revival pieces and old-cut diamonds brought out one tray at a time over tea. The benchmark against which the rest of the city is judged.", "lat": 26.953467, "lon": 75.846131, "p": "v"}, {"n": "Bapu Bazaar & Nehru Bazaar", "cat": "do", "tier": "", "a": "Walled City / Pink City", "d": "The textile heart of the walled city: bolts of Bandhani and Leheriya tie-dye, Sanganeri block-print by the metre, mojari and jutti leatherwork. This is where you kit out the home and the trousseau in colour — send a member of staff or your advisor ahead to hold aside the good pieces so the family isn't bargaining in the heat.", "lat": 26.916464, "lon": 75.822775, "p": "v"}, {"n": "Tripolia Bazaar — lac bangles", "cat": "do", "tier": "", "a": "Walled City / Pink City", "d": "Below the triple-arched Tripolia gate, the lane of lac-bangle makers where you watch artisans work molten lac over a flame and set it with mirror and stone. A small, tactile, wonderfully un-touristy stop for a bride's chooda or simply to see a living craft that hasn't moved buildings in generations.", "lat": 26.923285, "lon": 75.826304, "p": "v"}, {"n": "Blue pottery ateliers (Kripal Kumbh & the Sanganeri Gate lanes)", "cat": "do", "tier": "", "a": "Walled City / Bani Park", "d": "Jaipur's signature cobalt-and-white glazed ware, a Persian craft the city made its own — no potter's clay in it at all, but quartz. Kripal Singh Shekhawat's studio kept the art alive; a visit to a working atelier lets you commission tiles or a dinner service for the house rather than buy off a shelf.", "lat": 26.919627, "lon": 75.794702, "p": "a"}, {"n": "Sanganer — the fine block-print & handmade paper town", "cat": "do", "tier": "", "a": "Sanganer (16 km S)", "d": "Bagru's more delicate cousin: fine Sanganeri florals on white grounds, plus the handmade-paper mills that supply the world. Closer to the city than Bagru and easily paired with a workshop visit, it's the source many of the boutique labels quietly buy from.", "lat": 26.806636, "lon": 75.827838, "p": "a"}, {"n": "Anokhi Museum of Hand Printing", "cat": "do", "tier": "", "a": "Amer", "d": "A restored 16th-century pink-sandstone haveli near Amber, turned into a jewel of a museum devoted to hand block-printing — living demonstrations of carving and printing, and a shop that sets the standard. A civilised, air-cooled counterpoint to the fort, and it won a UNESCO cultural-conservation award for the restoration.", "lat": 26.947057, "lon": 75.840242, "p": "a"}, {"n": "Panna Meena ka Kund stepwell", "cat": "do", "tier": "", "a": "Amer", "d": "The perfectly symmetrical criss-cross stairway stepwell a short walk from Amber Fort — a 16th-century community tank that is pure geometry, and blessedly cool. Go early, before the influencer crowd; it pairs naturally with a morning at the fort and the Anokhi haveli.", "lat": 26.991208, "lon": 75.851227, "p": "v"}, {"n": "Galtaji (the Monkey Temple)", "cat": "do", "tier": "", "a": "Aravalli Hills (east of Jaipur)", "d": "A temple complex tucked into a pink-rock gorge, with seven sacred water tanks fed by a natural spring and, yes, a resident troop of macaques. Come at golden hour for the ridge-top Sun Temple view over the city — atmospheric, a little wild, and genuinely off most first-time itineraries.", "lat": 26.917056, "lon": 75.85822, "p": "v"}, {"n": "Patrika Gate", "cat": "do", "tier": "", "a": "Jawahar Circle", "d": "The most photographed modern gateway in the city: a run of arches painted end to end with Rajasthan's regions and motifs, opening onto Asia's largest circular garden. Not old, but a genuine crowd-pleaser and a guaranteed portrait for the family album — go at first light to have the colonnade to yourselves.", "lat": 26.841504, "lon": 75.801377, "p": "v"}, {"n": "Sisodia Rani Garden & Palace", "cat": "do", "tier": "", "a": "Ghat ki Guni (Agra Road)", "d": "The tiered Mughal-style pleasure garden a maharaja built for his queen, with painted pavilions, fountains and terraces climbing the hillside. A calm, green half-hour away from the walled-city crush, lovely in the soft light of late afternoon and rarely crowded.", "lat": 26.899247, "lon": 75.858597, "p": "v"}, {"n": "Kanak Vrindavan garden & temple", "cat": "do", "tier": "", "a": "Amer road (below Nahargarh)", "d": "A restored Krishna garden-and-temple at the foot of the Nahargarh hills on the road to Amber — carved marble columns, lattices and terraces, the sort of serene, film-set setting locals use for celebrations. An easy, pretty pause to fold into the Amber run.", "lat": 26.97187, "lon": 75.843882, "p": "a"}, {"n": "Jawahar Kala Kendra", "cat": "do", "tier": "", "a": "Jawahar Lal Nehru Marg", "d": "Charles Correa's masterwork of an arts centre, its nine-square plan a modern echo of Jaipur's own mandala city grid. Galleries, theatres and a good café inside a building that architects fly in to see — the cultured, contemporary side of a city usually pitched as pure heritage.", "lat": 26.876348, "lon": 75.809091, "p": "v"}, {"n": "Birla Mandir (Lakshmi Narayan Temple)", "cat": "do", "tier": "", "a": "Moti Dungri", "d": "A serene modern temple in white Makrana marble below the Moti Dungri fort, glowing when floodlit after dark. Quiet, cool and beautifully carved — a peaceful, veg-and-Jain-friendly stop that families of every generation take to.", "lat": 26.893159, "lon": 75.816603, "p": "a"}, {"n": "Moti Dungri Ganesh Temple", "cat": "do", "tier": "", "a": "Moti Dungri", "d": "Jaipur's most beloved Ganesh shrine, below a private Scottish-castle-style palace on the hill, thronged with the faithful especially on Wednesdays. A short, meaningful darshan for those who want the living-faith Jaipur, not just the museum one.", "lat": 26.894658, "lon": 75.816682, "p": "v"}, {"n": "Govind Dev Ji Temple", "cat": "do", "tier": "", "a": "City Palace complex", "d": "The Krishna temple at the heart of the City Palace gardens, its deity brought from Vrindavan by the city's founder, where thousands gather for the aartis through the day. Time your City Palace visit around one of the seven daily darshans for something the guidebook photos can't convey.", "lat": 26.959528, "lon": 75.708706, "p": "v"}, {"n": "1135 AD at Amber Fort — royal dining", "cat": "do", "tier": "", "a": "Amer", "d": "Dinner inside the fort itself, in candlelit halls hung with gilt and glass, on recipes once guarded by the palace kitchens. Book the private Sheesh Mahal room and let them build a Rajasthani thali; it turns a sightseeing day into an occasion, and the vegetarian menu is deep and effortless.", "lat": 26.947057, "lon": 75.840242, "p": "a"}, {"n": "Suvarna Mahal at Rambagh Palace", "cat": "do", "tier": "", "a": "Bhawani Singh Road", "d": "The old Rambagh banqueting hall — frescoed, chandeliered, palatial — serving the royal cuisines of Rajasthan, Awadh, Punjab and Hyderabad off gold-rimmed plates. Even if you're not staying at the Taj's flagship palace hotel, dinner here (and a Polo Bar nightcap) is the grandest table in the city.", "lat": 26.895495, "lon": 75.806828, "p": "a"}, {"n": "High tea at SUJÁN Rajmahal Palace", "cat": "do", "tier": "", "a": "Sardar Patel Marg", "d": "The former royal guest palace, reborn in bold heritage-print interiors, where afternoon tea is served on the lawns among portraits of the family who hosted Jackie Kennedy and the Queen here. A witty, intimate, only-in-Jaipur way to spend a slow afternoon between forts.", "lat": 26.904916, "lon": 75.793665, "p": "a"}, {"n": "Pink City heritage walk at dawn", "cat": "do", "tier": "", "a": "Walled City / Pink City", "d": "The old city wakes slowly — flower sellers, temple bells, the wholesale markets before the shutters go up — and a private guided walk through the chowkris and hidden havelis at first light is the single best way to read Jai Singh's planned grid. Cool, quiet, and endlessly photogenic.", "lat": 26.857769, "lon": 75.814245, "p": "a"}, {"n": "A private Rajasthani cooking session", "cat": "do", "tier": "", "a": "Various (in-home & hotels)", "d": "Hands in the masala: a home or poolside masterclass in dal-baati-churma, gatte ki sabzi and the sweets, almost entirely vegetarian and Jain-adaptable by default. The palace hotels (SUJÁN Rajmahal, Rambagh) run polished versions; a home kitchen with a local cook is the warmer, more personal one for a family.", "lat": 26.889355, "lon": 75.746589, "p": "v"}, {"n": "Polo at Rambagh & the season", "cat": "do", "tier": "", "a": "Bhawani Singh Road", "d": "Jaipur is the spiritual home of Indian polo, and the winter season still draws the old sporting set to the grounds by Rambagh. Catch a match if the calendar aligns, or simply take a drink at the Polo Bar among the trophies and the famous walnut travelling bar — the city's most patrician afternoon.", "lat": 26.895495, "lon": 75.806828, "p": "a"}, {"n": "Isarlat (Sargasuli) victory tower", "cat": "do", "tier": "", "a": "Walled City / Pink City", "d": "The slender 1749 victory tower rising over Tripolia Bazaar, its spiral stair climbing to one of the few open rooftop views inside the walled city. A quiet, quirky ten-minute detour that puts the whole pink grid at your feet, and almost nobody bothers.", "lat": 26.857769, "lon": 75.814245, "p": "a"}, {"n": "Central Park & the Statue Circle", "cat": "do", "tier": "", "a": "Civil Lines / C-Scheme", "d": "Jaipur's green lung, ringed by a walking track, an enormous tricolour and rose gardens, with the white-marble statue of the astronomer-king Jai Singh II at its edge. A civilised early-morning walk for a family staying in the leafy C-Scheme quarter, before the heat.", "lat": 26.907683, "lon": 75.806264, "p": "v"}, {"n": "Raj Mandir Cinema", "cat": "do", "tier": "", "a": "MI Road", "d": "The 'pride of Asia' — a meringue-pink Art Moderne movie palace where the interiors are the real show and the audience cheers the star's first frame. Book the box seats for a Bollywood matinee; it's kitsch, joyous and utterly Jaipur, and children never forget it.", "lat": 26.915425, "lon": 75.810083, "p": "v"}, {"n": "Jaipur Modern & the design boutiques of C-Scheme", "cat": "do", "tier": "", "a": "C-Scheme", "d": "The city's contemporary-design side: concept stores and ateliers like Jaipur Modern, Hot Pink and the Anokhi flagship, where Rajasthani craft is cut for a modern home and wardrobe. The considered, air-conditioned alternative to bazaar bargaining for those furnishing a house.", "lat": 26.921286, "lon": 75.792766, "p": "a"}, {"n": "Studio visit to a miniature painter", "cat": "do", "tier": "", "a": "Walled City / Amer", "d": "Jaipur keeps the Rajput-Mughal miniature tradition alive — squirrel-hair brushes, stone pigments, gold leaf, a peacock painted on a grain of rice. A private studio sitting, arranged through your advisor, lets you commission a family piece and watch a craft measured in years of apprenticeship.", "lat": 26.937414, "lon": 75.834217, "p": "a"}, {"n": "Sunset drinks at a rooftop over the walled city", "cat": "do", "tier": "", "a": "Walled City / Pink City", "d": "As the light drops, the pink grid glows and the rooftops fill — spots above Hawa Mahal and along the old city put the Palace of Winds and the Nahargarh ridge in one frame. A gentle, unstructured hour to close a day of forts, chai or something stronger in hand.", "lat": 26.857769, "lon": 75.814245, "p": "a"}, {"n": "Bespoke perfume & attar at Sugandh Co / the ittar makers", "cat": "do", "tier": "", "a": "Walled City / Pink City", "d": "Jaipur's old attar tradition — natural oil-based ittars of rose, khus, oudh and the monsoon-earth 'mitti' — blended to order in tiny walled-city shops. A small, sensory, deeply personal thing to carry home, and a lovely gift to layer into the trousseau.", "lat": 26.857769, "lon": 75.814245, "p": "a"}, {"n": "Polo Bar", "cat": "party", "tier": "Landmark bars", "a": "Civil Lines (Rambagh Palace)", "d": "Rare whiskies and colonial-era charm amid polo memorabilia — the grandest nightcap in Jaipur.", "lat": 26.916425, "lon": 75.784399, "p": "v"}, {"n": "Bar Palladio", "cat": "party", "tier": "Landmark bars", "a": "Civil Lines (Narain Niwas Palace)", "d": "A cobalt-blue Italian dream under garden canopies — as much a scene as a drink.", "lat": 26.897876, "lon": 75.814739, "p": "v"}]}
+{
+  "center": [
+    26.915458,
+    75.818982
+  ],
+  "venues": [
+    {
+      "n": "The Oberoi Rajvilas",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Jhotwara / outskirts (Goner Road)",
+      "d": "Mughal splendour on 32 acres \u2014 for one year, judged the finest hotel on earth, and it shows.",
+      "lat": 26.876339,
+      "lon": 75.883813,
+      "photos": []
+    },
+    {
+      "n": "Rambagh Palace",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Civil Lines (Bhawani Singh Road)",
+      "d": "The Maharaja's own former residence \u2014 47 acres of gardens and the definitive Jaipur address.",
+      "lat": 26.897292,
+      "lon": 75.807577,
+      "photos": []
+    },
+    {
+      "n": "SUJ\u00c1N Rajmahal Palace",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Civil Lines (Sardar Patel Marg)",
+      "d": "A 1729 royal residence reborn as a jewel-box of fantastical wallpapers \u2014 the most personal palace in the city.",
+      "lat": 26.925212,
+      "lon": 75.800864,
+      "photos": []
+    },
+    {
+      "n": "Alila Fort Bishangarh",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Jhotwara / outskirts (Bishangarh, ~1 hr toward Delhi)",
+      "d": "A 230-year-old warrior fort on a granite hill, reborn as a dramatic all-suite retreat.",
+      "lat": 27.321414,
+      "lon": 75.894541,
+      "photos": []
+    },
+    {
+      "n": "Samode Haveli",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Walled / Pink City (Gangapole)",
+      "d": "A 225-year-old family haveli inside the old walls \u2014 frescoed, romantic, and quietly grand.",
+      "lat": 26.933104,
+      "lon": 75.837257,
+      "photos": []
+    },
+    {
+      "n": "Fairmont Jaipur",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Amer (Amber, Kukas)",
+      "d": "A palatial modern fort of a resort on the road to Amber \u2014 grand-scale Rajput theatre.",
+      "lat": 27.030901,
+      "lon": 75.890182,
+      "photos": []
+    },
+    {
+      "n": "Suvarna Mahal",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Civil Lines (Rambagh Palace)",
+      "d": "Royal Indian dining on gold-plated tableware beneath Florentine ceilings \u2014 the grandest table in Jaipur.",
+      "lat": 26.897842,
+      "lon": 75.807948,
+      "photos": []
+    },
+    {
+      "n": "Dining at The Oberoi Rajvilas",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Jhotwara / outskirts (The Oberoi Rajvilas)",
+      "d": "Considered Rajasthani and international cooking in the most decorated hotel in the city \u2014 faultless, and framed by fort-walled gardens.",
+      "lat": 26.876339,
+      "lon": 75.883813,
+      "photos": []
+    },
+    {
+      "n": "Bar Palladio",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Civil Lines (Narain Niwas Palace)",
+      "d": "Cobalt-blue Italian fantasy under tented canopies and mango trees \u2014 the chicest room in Jaipur.",
+      "lat": 26.897876,
+      "lon": 75.814739,
+      "photos": []
+    },
+    {
+      "n": "Amber Fort (Amer Fort) & the Sheesh Mahal",
+      "cat": "do",
+      "tier": "",
+      "a": "Amer",
+      "d": "The Kachhwaha capital before Jaipur existed: honey-coloured sandstone and marble rising off a hillside, with the Sheesh Mahal's mirror-work catching a single flame into a thousand. Come at 8am before the crowds, and ask your hotel to arrange a private guided walk of the Diwan-e-Khas and Sukh Niwas before the guides start herding.",
+      "lat": 26.985468,
+      "lon": 75.850093,
+      "photos": []
+    },
+    {
+      "n": "The ascent to Amber \u2014 jeep, not elephant",
+      "cat": "do",
+      "tier": "",
+      "a": "Amer",
+      "d": "The postcard is the caparisoned elephant climbing to the Suraj Pol, but the welfare questions are real and increasingly hard to ignore. The dignified choice for a multi-gen group is the open 4WD jeep up the ramp, or better still a morning at a walk-alongside sanctuary like Elefantastic near the fort where children meet the elephants on their own terms.",
+      "lat": 26.947057,
+      "lon": 75.840242,
+      "photos": []
+    },
+    {
+      "n": "City Palace & Chandra Mahal",
+      "cat": "do",
+      "tier": "",
+      "a": "Walled City / Pink City",
+      "d": "Still the working home of the Jaipur royal family, which is exactly why the private Chandra Mahal tour matters: you climb through the seven-storey palace the public never sees, ending on the peacock-painted upper floors with a butler and a view over the whole pink grid. The Baradari courtyard is where you take tea between the Pritam Niwas Chowk's four seasonal gates.",
+      "lat": 26.857769,
+      "lon": 75.814245,
+      "photos": []
+    },
+    {
+      "n": "Hawa Mahal (Palace of Winds)",
+      "cat": "do",
+      "tier": "",
+      "a": "Walled City / Pink City",
+      "d": "The 953-window honeycomb screen the royal women watched the street from, unseen. Everyone photographs the facade from the coffee shop across Badi Chaupar; far fewer go inside and up to the top-floor jharokhas for the light through pink lattice. Best in the first hour of morning sun.",
+      "lat": 26.923932,
+      "lon": 75.826865,
+      "photos": []
+    },
+    {
+      "n": "Jantar Mantar observatory",
+      "cat": "do",
+      "tier": "",
+      "a": "Walled City / Pink City",
+      "d": "Sawai Jai Singh II's obsession made stone: nineteen giant astronomical instruments, including the world's largest sundial, that still tell the time to the second. It reads as sculpture to the eye and as pure science to the mind \u2014 a rare thing to hand a curious teenager. Take the licensed guide; the instruments are meaningless without one.",
+      "lat": 26.924739,
+      "lon": 75.824466,
+      "photos": []
+    },
+    {
+      "n": "Jaigarh Fort & the Jaivana cannon",
+      "cat": "do",
+      "tier": "",
+      "a": "Amer",
+      "d": "The muscular military fort above Amber, connected by subterranean passage, and home of Jaivana \u2014 one of the largest wheeled cannons ever cast, and never fired in anger. Less about palaces, more about engineering: water-harvesting tanks, ramparts, the old foundry. A good counterpoint for the men and boys after a morning of mirror-work.",
+      "lat": 26.979982,
+      "lon": 75.843816,
+      "photos": []
+    },
+    {
+      "n": "Jal Mahal (Water Palace)",
+      "cat": "do",
+      "tier": "",
+      "a": "Man Sagar Lake",
+      "d": "The palace that appears to float on Man Sagar Lake, four of its five storeys submerged. You don't go in \u2014 you stop on the lakeshore at dusk when the light softens and migratory birds settle, a five-minute pause on the way to or from Amber that is pure Rajput romance.",
+      "lat": 26.953467,
+      "lon": 75.846131,
+      "photos": []
+    },
+    {
+      "n": "Albert Hall Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Ram Niwas Garden",
+      "d": "Rajasthan's oldest museum, a fantastical Indo-Saracenic pile by Samuel Swinton Jacob, floodlit gold after dark. Inside: Mughal miniatures, an Egyptian mummy, and the famous carpet collection. Worth the visit for the building alone, and the lit-up evening view from Ram Niwas Garden is a set piece.",
+      "lat": 26.911693,
+      "lon": 75.819502,
+      "photos": []
+    },
+    {
+      "n": "Amrapali Museum of jewellery",
+      "cat": "do",
+      "tier": "",
+      "a": "Civil Lines",
+      "d": "A jeweller's private obsession made public: some 4,000 pieces of Indian tribal and antique silver, gold and adornment across two floors, curated with a connoisseur's eye. For anyone shopping the trousseau or simply in love with Indian craft, it recalibrates what 'good' looks like before you buy a thing.",
+      "lat": 26.909678,
+      "lon": 75.781249,
+      "photos": []
+    },
+    {
+      "n": "Johari Bazaar \u2014 the jewellers' street",
+      "cat": "do",
+      "tier": "",
+      "a": "Walled City / Pink City",
+      "d": "The historic gem and jewellery bazaar, and the front door to Jaipur's kundan, meenakari and polki trade. The real business happens in the family workshops in the lanes behind, where a discreet introduction \u2014 best arranged through your hotel or advisor \u2014 gets you sitting down with a house that has cut stones for generations, not a shopfront.",
+      "lat": 26.920738,
+      "lon": 75.826384,
+      "photos": []
+    },
+    {
+      "n": "Gem Palace",
+      "cat": "do",
+      "tier": "",
+      "a": "MI Road",
+      "d": "Jaipur's most storied jewellery house, jewellers to maharajas and, over the years, to a long list of international collectors. Go for the private viewing upstairs rather than the counter: enamelled Mughal-revival pieces and old-cut diamonds brought out one tray at a time over tea. The benchmark against which the rest of the city is judged.",
+      "lat": 26.953467,
+      "lon": 75.846131,
+      "photos": []
+    },
+    {
+      "n": "Bapu Bazaar & Nehru Bazaar",
+      "cat": "do",
+      "tier": "",
+      "a": "Walled City / Pink City",
+      "d": "The textile heart of the walled city: bolts of Bandhani and Leheriya tie-dye, Sanganeri block-print by the metre, mojari and jutti leatherwork. This is where you kit out the home and the trousseau in colour \u2014 send a member of staff or your advisor ahead to hold aside the good pieces so the family isn't bargaining in the heat.",
+      "lat": 26.916464,
+      "lon": 75.822775,
+      "photos": []
+    },
+    {
+      "n": "Tripolia Bazaar \u2014 lac bangles",
+      "cat": "do",
+      "tier": "",
+      "a": "Walled City / Pink City",
+      "d": "Below the triple-arched Tripolia gate, the lane of lac-bangle makers where you watch artisans work molten lac over a flame and set it with mirror and stone. A small, tactile, wonderfully un-touristy stop for a bride's chooda or simply to see a living craft that hasn't moved buildings in generations.",
+      "lat": 26.923285,
+      "lon": 75.826304,
+      "photos": []
+    },
+    {
+      "n": "Blue pottery ateliers (Kripal Kumbh & the Sanganeri Gate lanes)",
+      "cat": "do",
+      "tier": "",
+      "a": "Walled City / Bani Park",
+      "d": "Jaipur's signature cobalt-and-white glazed ware, a Persian craft the city made its own \u2014 no potter's clay in it at all, but quartz. Kripal Singh Shekhawat's studio kept the art alive; a visit to a working atelier lets you commission tiles or a dinner service for the house rather than buy off a shelf.",
+      "lat": 26.919627,
+      "lon": 75.794702,
+      "photos": []
+    },
+    {
+      "n": "Sanganer \u2014 the fine block-print & handmade paper town",
+      "cat": "do",
+      "tier": "",
+      "a": "Sanganer (16 km S)",
+      "d": "Bagru's more delicate cousin: fine Sanganeri florals on white grounds, plus the handmade-paper mills that supply the world. Closer to the city than Bagru and easily paired with a workshop visit, it's the source many of the boutique labels quietly buy from.",
+      "lat": 26.806636,
+      "lon": 75.827838,
+      "photos": []
+    },
+    {
+      "n": "Anokhi Museum of Hand Printing",
+      "cat": "do",
+      "tier": "",
+      "a": "Amer",
+      "d": "A restored 16th-century pink-sandstone haveli near Amber, turned into a jewel of a museum devoted to hand block-printing \u2014 living demonstrations of carving and printing, and a shop that sets the standard. A civilised, air-cooled counterpoint to the fort, and it won a UNESCO cultural-conservation award for the restoration.",
+      "lat": 26.947057,
+      "lon": 75.840242,
+      "photos": []
+    },
+    {
+      "n": "Panna Meena ka Kund stepwell",
+      "cat": "do",
+      "tier": "",
+      "a": "Amer",
+      "d": "The perfectly symmetrical criss-cross stairway stepwell a short walk from Amber Fort \u2014 a 16th-century community tank that is pure geometry, and blessedly cool. Go early, before the influencer crowd; it pairs naturally with a morning at the fort and the Anokhi haveli.",
+      "lat": 26.991208,
+      "lon": 75.851227,
+      "photos": []
+    },
+    {
+      "n": "Galtaji (the Monkey Temple)",
+      "cat": "do",
+      "tier": "",
+      "a": "Aravalli Hills (east of Jaipur)",
+      "d": "A temple complex tucked into a pink-rock gorge, with seven sacred water tanks fed by a natural spring and, yes, a resident troop of macaques. Come at golden hour for the ridge-top Sun Temple view over the city \u2014 atmospheric, a little wild, and genuinely off most first-time itineraries.",
+      "lat": 26.917056,
+      "lon": 75.85822,
+      "photos": []
+    },
+    {
+      "n": "Patrika Gate",
+      "cat": "do",
+      "tier": "",
+      "a": "Jawahar Circle",
+      "d": "The most photographed modern gateway in the city: a run of arches painted end to end with Rajasthan's regions and motifs, opening onto Asia's largest circular garden. Not old, but a genuine crowd-pleaser and a guaranteed portrait for the family album \u2014 go at first light to have the colonnade to yourselves.",
+      "lat": 26.841504,
+      "lon": 75.801377,
+      "photos": []
+    },
+    {
+      "n": "Sisodia Rani Garden & Palace",
+      "cat": "do",
+      "tier": "",
+      "a": "Ghat ki Guni (Agra Road)",
+      "d": "The tiered Mughal-style pleasure garden a maharaja built for his queen, with painted pavilions, fountains and terraces climbing the hillside. A calm, green half-hour away from the walled-city crush, lovely in the soft light of late afternoon and rarely crowded.",
+      "lat": 26.899247,
+      "lon": 75.858597,
+      "photos": []
+    },
+    {
+      "n": "Kanak Vrindavan garden & temple",
+      "cat": "do",
+      "tier": "",
+      "a": "Amer road (below Nahargarh)",
+      "d": "A restored Krishna garden-and-temple at the foot of the Nahargarh hills on the road to Amber \u2014 carved marble columns, lattices and terraces, the sort of serene, film-set setting locals use for celebrations. An easy, pretty pause to fold into the Amber run.",
+      "lat": 26.97187,
+      "lon": 75.843882,
+      "photos": []
+    },
+    {
+      "n": "Jawahar Kala Kendra",
+      "cat": "do",
+      "tier": "",
+      "a": "Jawahar Lal Nehru Marg",
+      "d": "Charles Correa's masterwork of an arts centre, its nine-square plan a modern echo of Jaipur's own mandala city grid. Galleries, theatres and a good caf\u00e9 inside a building that architects fly in to see \u2014 the cultured, contemporary side of a city usually pitched as pure heritage.",
+      "lat": 26.876348,
+      "lon": 75.809091,
+      "photos": []
+    },
+    {
+      "n": "Birla Mandir (Lakshmi Narayan Temple)",
+      "cat": "do",
+      "tier": "",
+      "a": "Moti Dungri",
+      "d": "A serene modern temple in white Makrana marble below the Moti Dungri fort, glowing when floodlit after dark. Quiet, cool and beautifully carved \u2014 a peaceful, veg-and-Jain-friendly stop that families of every generation take to.",
+      "lat": 26.893159,
+      "lon": 75.816603,
+      "photos": []
+    },
+    {
+      "n": "Moti Dungri Ganesh Temple",
+      "cat": "do",
+      "tier": "",
+      "a": "Moti Dungri",
+      "d": "Jaipur's most beloved Ganesh shrine, below a private Scottish-castle-style palace on the hill, thronged with the faithful especially on Wednesdays. A short, meaningful darshan for those who want the living-faith Jaipur, not just the museum one.",
+      "lat": 26.894658,
+      "lon": 75.816682,
+      "photos": []
+    },
+    {
+      "n": "Govind Dev Ji Temple",
+      "cat": "do",
+      "tier": "",
+      "a": "City Palace complex",
+      "d": "The Krishna temple at the heart of the City Palace gardens, its deity brought from Vrindavan by the city's founder, where thousands gather for the aartis through the day. Time your City Palace visit around one of the seven daily darshans for something the guidebook photos can't convey.",
+      "lat": 26.959528,
+      "lon": 75.708706,
+      "photos": []
+    },
+    {
+      "n": "1135 AD at Amber Fort \u2014 royal dining",
+      "cat": "do",
+      "tier": "",
+      "a": "Amer",
+      "d": "Dinner inside the fort itself, in candlelit halls hung with gilt and glass, on recipes once guarded by the palace kitchens. Book the private Sheesh Mahal room and let them build a Rajasthani thali; it turns a sightseeing day into an occasion, and the vegetarian menu is deep and effortless.",
+      "lat": 26.947057,
+      "lon": 75.840242,
+      "photos": []
+    },
+    {
+      "n": "Suvarna Mahal at Rambagh Palace",
+      "cat": "do",
+      "tier": "",
+      "a": "Bhawani Singh Road",
+      "d": "The old Rambagh banqueting hall \u2014 frescoed, chandeliered, palatial \u2014 serving the royal cuisines of Rajasthan, Awadh, Punjab and Hyderabad off gold-rimmed plates. Even if you're not staying at the Taj's flagship palace hotel, dinner here (and a Polo Bar nightcap) is the grandest table in the city.",
+      "lat": 26.895495,
+      "lon": 75.806828,
+      "photos": []
+    },
+    {
+      "n": "High tea at SUJ\u00c1N Rajmahal Palace",
+      "cat": "do",
+      "tier": "",
+      "a": "Sardar Patel Marg",
+      "d": "The former royal guest palace, reborn in bold heritage-print interiors, where afternoon tea is served on the lawns among portraits of the family who hosted Jackie Kennedy and the Queen here. A witty, intimate, only-in-Jaipur way to spend a slow afternoon between forts.",
+      "lat": 26.904916,
+      "lon": 75.793665,
+      "photos": []
+    },
+    {
+      "n": "Pink City heritage walk at dawn",
+      "cat": "do",
+      "tier": "",
+      "a": "Walled City / Pink City",
+      "d": "The old city wakes slowly \u2014 flower sellers, temple bells, the wholesale markets before the shutters go up \u2014 and a private guided walk through the chowkris and hidden havelis at first light is the single best way to read Jai Singh's planned grid. Cool, quiet, and endlessly photogenic.",
+      "lat": 26.857769,
+      "lon": 75.814245,
+      "photos": []
+    },
+    {
+      "n": "A private Rajasthani cooking session",
+      "cat": "do",
+      "tier": "",
+      "a": "Various (in-home & hotels)",
+      "d": "Hands in the masala: a home or poolside masterclass in dal-baati-churma, gatte ki sabzi and the sweets, almost entirely vegetarian and Jain-adaptable by default. The palace hotels (SUJ\u00c1N Rajmahal, Rambagh) run polished versions; a home kitchen with a local cook is the warmer, more personal one for a family.",
+      "lat": 26.889355,
+      "lon": 75.746589,
+      "photos": []
+    },
+    {
+      "n": "Polo at Rambagh & the season",
+      "cat": "do",
+      "tier": "",
+      "a": "Bhawani Singh Road",
+      "d": "Jaipur is the spiritual home of Indian polo, and the winter season still draws the old sporting set to the grounds by Rambagh. Catch a match if the calendar aligns, or simply take a drink at the Polo Bar among the trophies and the famous walnut travelling bar \u2014 the city's most patrician afternoon.",
+      "lat": 26.895495,
+      "lon": 75.806828,
+      "photos": []
+    },
+    {
+      "n": "Isarlat (Sargasuli) victory tower",
+      "cat": "do",
+      "tier": "",
+      "a": "Walled City / Pink City",
+      "d": "The slender 1749 victory tower rising over Tripolia Bazaar, its spiral stair climbing to one of the few open rooftop views inside the walled city. A quiet, quirky ten-minute detour that puts the whole pink grid at your feet, and almost nobody bothers.",
+      "lat": 26.857769,
+      "lon": 75.814245,
+      "photos": []
+    },
+    {
+      "n": "Central Park & the Statue Circle",
+      "cat": "do",
+      "tier": "",
+      "a": "Civil Lines / C-Scheme",
+      "d": "Jaipur's green lung, ringed by a walking track, an enormous tricolour and rose gardens, with the white-marble statue of the astronomer-king Jai Singh II at its edge. A civilised early-morning walk for a family staying in the leafy C-Scheme quarter, before the heat.",
+      "lat": 26.907683,
+      "lon": 75.806264,
+      "photos": []
+    },
+    {
+      "n": "Raj Mandir Cinema",
+      "cat": "do",
+      "tier": "",
+      "a": "MI Road",
+      "d": "The 'pride of Asia' \u2014 a meringue-pink Art Moderne movie palace where the interiors are the real show and the audience cheers the star's first frame. Book the box seats for a Bollywood matinee; it's kitsch, joyous and utterly Jaipur, and children never forget it.",
+      "lat": 26.915425,
+      "lon": 75.810083,
+      "photos": []
+    },
+    {
+      "n": "Jaipur Modern & the design boutiques of C-Scheme",
+      "cat": "do",
+      "tier": "",
+      "a": "C-Scheme",
+      "d": "The city's contemporary-design side: concept stores and ateliers like Jaipur Modern, Hot Pink and the Anokhi flagship, where Rajasthani craft is cut for a modern home and wardrobe. The considered, air-conditioned alternative to bazaar bargaining for those furnishing a house.",
+      "lat": 26.921286,
+      "lon": 75.792766,
+      "photos": []
+    },
+    {
+      "n": "Studio visit to a miniature painter",
+      "cat": "do",
+      "tier": "",
+      "a": "Walled City / Amer",
+      "d": "Jaipur keeps the Rajput-Mughal miniature tradition alive \u2014 squirrel-hair brushes, stone pigments, gold leaf, a peacock painted on a grain of rice. A private studio sitting, arranged through your advisor, lets you commission a family piece and watch a craft measured in years of apprenticeship.",
+      "lat": 26.937414,
+      "lon": 75.834217,
+      "photos": []
+    },
+    {
+      "n": "Sunset drinks at a rooftop over the walled city",
+      "cat": "do",
+      "tier": "",
+      "a": "Walled City / Pink City",
+      "d": "As the light drops, the pink grid glows and the rooftops fill \u2014 spots above Hawa Mahal and along the old city put the Palace of Winds and the Nahargarh ridge in one frame. A gentle, unstructured hour to close a day of forts, chai or something stronger in hand.",
+      "lat": 26.857769,
+      "lon": 75.814245,
+      "photos": []
+    },
+    {
+      "n": "Bespoke perfume & attar at Sugandh Co / the ittar makers",
+      "cat": "do",
+      "tier": "",
+      "a": "Walled City / Pink City",
+      "d": "Jaipur's old attar tradition \u2014 natural oil-based ittars of rose, khus, oudh and the monsoon-earth 'mitti' \u2014 blended to order in tiny walled-city shops. A small, sensory, deeply personal thing to carry home, and a lovely gift to layer into the trousseau.",
+      "lat": 26.857769,
+      "lon": 75.814245,
+      "photos": []
+    },
+    {
+      "n": "Polo Bar",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "Civil Lines (Rambagh Palace)",
+      "d": "Rare whiskies and colonial-era charm amid polo memorabilia \u2014 the grandest nightcap in Jaipur.",
+      "lat": 26.916425,
+      "lon": 75.784399,
+      "photos": []
+    },
+    {
+      "n": "Bar Palladio",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "Civil Lines (Narain Niwas Palace)",
+      "d": "A cobalt-blue Italian dream under garden canopies \u2014 as much a scene as a drink.",
+      "lat": 26.897876,
+      "lon": 75.814739,
+      "photos": []
+    }
+  ]
+}

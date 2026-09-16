@@ -1,1 +1,378 @@
-{"center": [27.026416, 70.777512], "venues": [{"n": "Suryagarh Jaisalmer", "cat": "stay", "tier": "Ultra", "a": "Golden outskirts (Kahala Phata, ~15 min from the Fort)", "d": "A golden-sandstone fortress of its own making — the address Jaisalmer is measured against, and the keeper of the desert's rituals.", "lat": 27.026416, "lon": 70.777512, "p": "v"}, {"n": "Jaisalmer Marriott Resort & Spa", "cat": "stay", "tier": "Grand", "a": "Golden outskirts (overlooking Jaisalmer Fort)", "d": "A large, polished sandstone resort with the Golden Fort framed from the pool and the rooftop — international service, home-market ease.", "lat": 26.914757, "lon": 70.899844, "p": "v"}, {"n": "Storii by ITC Hotels, Jaisalmer", "cat": "stay", "tier": "Luxury", "a": "Golden outskirts (Jodhpur–Jaisalmer Road)", "d": "Havelis, jharokha balconies and chhatris across nine acres — ITC's boutique desert house, quietly grand.", "lat": 26.923979, "lon": 70.907182, "p": "a"}, {"n": "WelcomHotel by ITC Hotels, Jaisalmer", "cat": "stay", "tier": "Luxury", "a": "Golden outskirts", "d": "ITC's premium desert house — the group's benchmark service in golden sandstone, without the icon's price.", "lat": 26.923979, "lon": 70.907182, "p": "a"}, {"n": "Fort Rajwada", "cat": "stay", "tier": "Premium", "a": "Golden outskirts (near the Fort)", "d": "An early grand heritage-styled hotel of Jaisalmer — regal sandstone architecture and a long-established name in the city.", "lat": 26.915622, "lon": 70.944895, "p": "v"}, {"n": "The Serai — desert dining", "cat": "eat", "tier": "Destination", "a": "Thar desert (SUJÁN The Serai)", "d": "Considered, seasonal cooking served in the tented mess or out on the dunes — dinner as theatre, on a private estate.", "lat": 26.91052, "lon": 70.915434, "p": "a"}, {"n": "The Trio", "cat": "eat", "tier": "Smart", "a": "Old City (Gandhi Chowk, near Amar Sagar Gate)", "d": "The city's long-standing rooftop institution — tented ceilings, fort views and royal Rajasthani cooking with family warmth.", "lat": 26.916139, "lon": 70.910443, "p": "v"}, {"n": "Saffron", "cat": "eat", "tier": "Smart", "a": "Old City (Hotel Jaisal Vilas rooftop)", "d": "Refined rooftop dining above the lake, with the illuminated Fort as the backdrop and reinvented noble recipes on the plate.", "lat": 26.91596, "lon": 70.909406, "p": "v"}, {"n": "Raj Mahal (Fort Palace Museum)", "cat": "do", "tier": "", "a": "Jaisalmer Fort", "d": "The seven-storey royal palace of the Bhati rulers, now a museum of carved jharokhas, murals and the finest rooftop view over the golden warren of houses below. The private terraces where the Maharawals once took the desert air are the quiet showstopper.", "lat": 26.912809, "lon": 70.913272, "p": "v"}, {"n": "Jain Temples inside the Fort", "cat": "do", "tier": "", "a": "Jaisalmer Fort", "d": "A cluster of seven interconnected 12th–15th century Jain temples carved in honey sandstone, every pillar and ceiling a lace of dancers, animals and Tirthankaras. The cool, dim interiors are one of the most exquisite pieces of stonework in India.", "lat": 26.912223, "lon": 70.914274, "p": "v"}, {"n": "Gyan Bhandar (Jain Manuscript Library)", "cat": "do", "tier": "", "a": "Jaisalmer Fort", "d": "An underground repository beneath the Jain temples holding palm-leaf manuscripts with painted wooden covers, some among the oldest surviving in India. A rare, hushed encounter with 11th-century Sanskrit and Prakrit texts most travellers never find.", "lat": 26.912765, "lon": 70.912493, "p": "a"}, {"n": "Laxminath Temple", "cat": "do", "tier": "", "a": "Jaisalmer Fort", "d": "The fort's principal Hindu shrine to Vishnu and Lakshmi, the spiritual heart the resident community still keeps alive with daily worship. Its silver-plated sanctum and morning aarti give a living contrast to the Jain temples nearby.", "lat": 26.913057, "lon": 70.912562, "p": "v"}, {"n": "Patwon ki Haveli", "cat": "do", "tier": "", "a": "Old City / near Fort", "d": "A cluster of five mansions built by a wealthy brocade-and-opium merchant family, its facade a cascade of some sixty carved jharokhas, no two alike. The most opulent haveli in Jaisalmer and a masterclass in what desert stone can be coaxed to do.", "lat": 26.915775, "lon": 70.912596, "p": "v"}, {"n": "Salim Singh ki Haveli", "cat": "do", "tier": "", "a": "Old City", "d": "The mansion of a once-feared prime minister, crowned by a peacock-shaped upper storey that arches out over the street like a ship's stern. Its 38 balconies and top-heavy silhouette make it the most theatrical of the three great havelis.", "lat": 26.913679, "lon": 70.916017, "p": "v"}, {"n": "Nathmal ki Haveli", "cat": "do", "tier": "", "a": "Old City", "d": "Carved by two brothers working the left and right facades simultaneously, so the two halves are subtly, deliberately different. Life-size sandstone elephants flank the door, and the interiors still house the descendant family.", "lat": 26.915775, "lon": 70.912596, "p": "v"}, {"n": "Gadisar Lake", "cat": "do", "tier": "", "a": "Southeast of Fort", "d": "A 14th-century rainwater reservoir ringed by ghats, temples and chhatris, entered through the ornate Tilon ki Pol gateway. A dawn boat glide here, with the fort catching first light behind you and migratory birds on the water, is Jaisalmer at its most serene.", "lat": 26.907838, "lon": 70.921946, "p": "v"}, {"n": "Bada Bagh Cenotaphs", "cat": "do", "tier": "", "a": "Bada Bagh (6 km north)", "d": "Rows of royal chhatris on a rise above a working windmill-dotted plain, the memorial garden of the Jaisalmer rulers. Come at sunset, when the domed cenotaphs glow amber and the desert light does the rest — one of the region's great photographic moments.", "lat": 26.954902, "lon": 70.887766, "p": "v"}, {"n": "Sam Sand Dunes", "cat": "do", "tier": "", "a": "Sam (40 km west)", "d": "The sweeping, postcard dunes of the Thar, where a camel or jeep safari at golden hour ends in a dune-top view of a horizon of pure sand. The heart of the desert-safari experience, and the setting for luxury camp nights under a vast sky.", "lat": 26.916905, "lon": 70.904971, "p": "v"}, {"n": "Khuri Sand Dunes", "cat": "do", "tier": "", "a": "Khuri (45 km southwest)", "d": "A quieter, less-trafficked alternative to Sam, with softer dunes and a more intimate village-and-desert feel. The choice for travellers who want the silence of the Thar without the crowds — camel rides at dusk, then stars.", "lat": 26.790575, "lon": 71.310476, "p": "v"}, {"n": "Camel Safari on the Dunes", "cat": "do", "tier": "", "a": "Sam / Khuri", "d": "The traditional way to cross the Thar, swaying atop a camel as the light softens and the dunes ripple to the horizon. A short sunset ride suits families; longer dune-camp treks reward those who want the desert to unfold slowly.", "lat": 26.910951, "lon": 70.926191, "p": "a"}, {"n": "Desert Jeep Safari", "cat": "do", "tier": "", "a": "Sam dunes", "d": "An open-jeep run over the crests and troughs of the dunes for those who want the desert with a jolt of adrenaline. Fast, exhilarating and an easy add-on before an evening at camp.", "lat": 26.911489, "lon": 70.914745, "p": "v"}, {"n": "Kalbelia Dance & Manganiyar Music", "cat": "do", "tier": "", "a": "Sam / desert camps", "d": "The living folk heritage of the Thar — the sinuous Kalbelia gypsy dance and the haunting ballads of the hereditary Manganiyar musicians, performed by firelight. A private recital at a luxury camp is the finest way to hear it.", "lat": 26.914144, "lon": 70.904575, "p": "a"}, {"n": "Desert Stargazing", "cat": "do", "tier": "", "a": "Sam / Khuri", "d": "Far from any city glow, the Thar's clear, dry skies deliver a canopy of stars few Indian destinations can match. Camps arrange telescopes and rooftop bedrolls; the Milky Way over the dunes is reason enough to stay the night.", "lat": 26.91052, "lon": 70.915434, "p": "v"}, {"n": "Khaba Fort", "cat": "do", "tier": "", "a": "Khaba (near Kuldhara)", "d": "A small Paliwal-era fort on a rise above more abandoned village ruins, with a modest museum and sweeping desert panoramas. Pairs naturally with Kuldhara for a quieter, road-less-travelled morning.", "lat": 26.811459, "lon": 70.673547, "p": "v"}, {"n": "Thar Heritage Museum", "cat": "do", "tier": "", "a": "Near Gandhi Chowk", "d": "A one-man labour of love by folklorist Narayan Khatri, crammed with fossils, coins, manuscripts, instruments and the everyday objects of desert life. His personal, animated tours make it far richer than its modest size suggests.", "lat": 26.919182, "lon": 70.912929, "p": "v"}, {"n": "Desert Culture Centre & Museum", "cat": "do", "tier": "", "a": "Gadisar Road", "d": "A focused collection of Thar arts, crafts and folk instruments, with an evening puppet show that delights younger travellers. A tidy primer on Marwari desert culture before you head to the dunes.", "lat": 26.912255, "lon": 70.912511, "p": "v"}, {"n": "Heritage Walk Through the Old City", "cat": "do", "tier": "", "a": "Old City / Fort lanes", "d": "A slow morning threading the sandstone lanes from Gandhi Chowk to the havelis and up into the fort, reading the carvings and the merchant history in the stone. The single best way to feel the Golden City rather than just tick its monuments.", "lat": 26.91026, "lon": 70.912556, "p": "a"}, {"n": "Mirror-Work & Applique Artisan Quarter", "cat": "do", "tier": "", "a": "Old City bazaars", "d": "The workshops where women stitch the mirror-embroidered, appliqued textiles the Thar is known for — cushion covers, wall hangings, quilts. A chance to buy directly from makers and understand the craft rather than the souvenir stall.", "lat": 26.91026, "lon": 70.912556, "p": "a"}, {"n": "Camel-Leather Craft Workshops", "cat": "do", "tier": "", "a": "Old City", "d": "Jaisalmer's distinctive embossed and painted camel-leather goods — jootis, bags, journals and lampshades — made in small family ateliers. A tactile, collectible craft rooted entirely in the desert economy.", "lat": 26.91026, "lon": 70.912556, "p": "a"}, {"n": "Jaisalmer Stone Carving Ateliers", "cat": "do", "tier": "", "a": "Old City / Fort environs", "d": "The workshops carrying on the sandstone-carving tradition that built the havelis, chiselling jaali screens and jharokhas by hand. Watching the craft that made the Golden City golden is a quiet highlight for the design-minded.", "lat": 26.91026, "lon": 70.912556, "p": "a"}, {"n": "Pokhran Fort", "cat": "do", "tier": "", "a": "Pokhran (110 km east)", "d": "The red-sandstone Bhati fort commanding the ancient caravan town, now a heritage stay and museum on the Jaisalmer–Jodhpur road. A worthwhile break with its own pottery tradition and the historical weight of the nearby nuclear-test region.", "lat": 26.912765, "lon": 70.912493, "p": "v"}, {"n": "Suryagarh Jaisalmer", "cat": "do", "tier": "", "a": "Kahala Phata (west of city)", "d": "A fortress-like modern palace hotel that has become a destination in itself, known for curated experiences — dawn breakfasts in the dunes, Manganiyar concerts, secret desert dinners and the Thar's most refined table. The benchmark stay for UHNI travellers.", "lat": 27.026416, "lon": 70.777512, "p": "v"}, {"n": "The Serai (Sujan)", "cat": "do", "tier": "", "a": "Desert near Jaisalmer", "d": "A Relais & Chateaux tented camp of vast canvas suites and private pools set in a private desert reserve, the byword for barefoot luxury in the Thar. Sunset safaris, spa tents and starlit dining make it a stay rather than a base.", "lat": 26.913314, "lon": 70.912002, "p": "a"}, {"n": "Sunset Camel Ride at Bada Bagh / Vyas Chhatri", "cat": "do", "tier": "", "a": "Bada Bagh Road", "d": "A short, gentle camel amble along the ridges near the cenotaphs as the sun sets — the dunes' romance without the drive to Sam. An easy, evocative option for a first evening or for elders and children.", "lat": 26.954902, "lon": 70.887766, "p": "a"}, {"n": "Fort Rooftop Café at Sunset", "cat": "do", "tier": "", "a": "Jaisalmer Fort", "d": "The rooftop cafés perched on the fort's edge offer a chai or thali with the whole golden city spilling below and the desert beyond. A relaxed, sociable way to watch the light change over Sonar Qila.", "lat": 26.912765, "lon": 70.912493, "p": "a"}, {"n": "Gadisar to Fort Photography Walk (Golden Hour)", "cat": "do", "tier": "", "a": "Southeast of Fort", "d": "The angle every photographer chases — the fort mirrored in Gadisar's water at first or last light. A short, rewarding walk that captures why Jaisalmer earned the name Golden City.", "lat": 26.912809, "lon": 70.913272, "p": "a"}, {"n": "Rooftop bars & lounges, Old City", "cat": "party", "tier": "Rooftops", "a": "Old City", "d": "Sundowners on the fort-facing rooftops of the old town — the golden ramparts turning honey as the light goes.", "lat": 26.91026, "lon": 70.912556, "p": "a"}]}
+{
+  "center": [
+    27.026416,
+    70.777512
+  ],
+  "venues": [
+    {
+      "n": "Suryagarh Jaisalmer",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Golden outskirts (Kahala Phata, ~15 min from the Fort)",
+      "d": "A golden-sandstone fortress of its own making \u2014 the address Jaisalmer is measured against, and the keeper of the desert's rituals.",
+      "lat": 27.026416,
+      "lon": 70.777512,
+      "photos": []
+    },
+    {
+      "n": "Jaisalmer Marriott Resort & Spa",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Golden outskirts (overlooking Jaisalmer Fort)",
+      "d": "A large, polished sandstone resort with the Golden Fort framed from the pool and the rooftop \u2014 international service, home-market ease.",
+      "lat": 26.914757,
+      "lon": 70.899844,
+      "photos": []
+    },
+    {
+      "n": "Storii by ITC Hotels, Jaisalmer",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Golden outskirts (Jodhpur\u2013Jaisalmer Road)",
+      "d": "Havelis, jharokha balconies and chhatris across nine acres \u2014 ITC's boutique desert house, quietly grand.",
+      "lat": 26.923979,
+      "lon": 70.907182,
+      "photos": []
+    },
+    {
+      "n": "WelcomHotel by ITC Hotels, Jaisalmer",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Golden outskirts",
+      "d": "ITC's premium desert house \u2014 the group's benchmark service in golden sandstone, without the icon's price.",
+      "lat": 26.923979,
+      "lon": 70.907182,
+      "photos": []
+    },
+    {
+      "n": "Fort Rajwada",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Golden outskirts (near the Fort)",
+      "d": "An early grand heritage-styled hotel of Jaisalmer \u2014 regal sandstone architecture and a long-established name in the city.",
+      "lat": 26.915622,
+      "lon": 70.944895,
+      "photos": []
+    },
+    {
+      "n": "The Serai \u2014 desert dining",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Thar desert (SUJ\u00c1N The Serai)",
+      "d": "Considered, seasonal cooking served in the tented mess or out on the dunes \u2014 dinner as theatre, on a private estate.",
+      "lat": 26.91052,
+      "lon": 70.915434,
+      "photos": []
+    },
+    {
+      "n": "The Trio",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Old City (Gandhi Chowk, near Amar Sagar Gate)",
+      "d": "The city's long-standing rooftop institution \u2014 tented ceilings, fort views and royal Rajasthani cooking with family warmth.",
+      "lat": 26.916139,
+      "lon": 70.910443,
+      "photos": []
+    },
+    {
+      "n": "Saffron",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Old City (Hotel Jaisal Vilas rooftop)",
+      "d": "Refined rooftop dining above the lake, with the illuminated Fort as the backdrop and reinvented noble recipes on the plate.",
+      "lat": 26.91596,
+      "lon": 70.909406,
+      "photos": []
+    },
+    {
+      "n": "Raj Mahal (Fort Palace Museum)",
+      "cat": "do",
+      "tier": "",
+      "a": "Jaisalmer Fort",
+      "d": "The seven-storey royal palace of the Bhati rulers, now a museum of carved jharokhas, murals and the finest rooftop view over the golden warren of houses below. The private terraces where the Maharawals once took the desert air are the quiet showstopper.",
+      "lat": 26.912809,
+      "lon": 70.913272,
+      "photos": []
+    },
+    {
+      "n": "Jain Temples inside the Fort",
+      "cat": "do",
+      "tier": "",
+      "a": "Jaisalmer Fort",
+      "d": "A cluster of seven interconnected 12th\u201315th century Jain temples carved in honey sandstone, every pillar and ceiling a lace of dancers, animals and Tirthankaras. The cool, dim interiors are one of the most exquisite pieces of stonework in India.",
+      "lat": 26.912223,
+      "lon": 70.914274,
+      "photos": []
+    },
+    {
+      "n": "Gyan Bhandar (Jain Manuscript Library)",
+      "cat": "do",
+      "tier": "",
+      "a": "Jaisalmer Fort",
+      "d": "An underground repository beneath the Jain temples holding palm-leaf manuscripts with painted wooden covers, some among the oldest surviving in India. A rare, hushed encounter with 11th-century Sanskrit and Prakrit texts most travellers never find.",
+      "lat": 26.912765,
+      "lon": 70.912493,
+      "photos": []
+    },
+    {
+      "n": "Laxminath Temple",
+      "cat": "do",
+      "tier": "",
+      "a": "Jaisalmer Fort",
+      "d": "The fort's principal Hindu shrine to Vishnu and Lakshmi, the spiritual heart the resident community still keeps alive with daily worship. Its silver-plated sanctum and morning aarti give a living contrast to the Jain temples nearby.",
+      "lat": 26.913057,
+      "lon": 70.912562,
+      "photos": []
+    },
+    {
+      "n": "Patwon ki Haveli",
+      "cat": "do",
+      "tier": "",
+      "a": "Old City / near Fort",
+      "d": "A cluster of five mansions built by a wealthy brocade-and-opium merchant family, its facade a cascade of some sixty carved jharokhas, no two alike. The most opulent haveli in Jaisalmer and a masterclass in what desert stone can be coaxed to do.",
+      "lat": 26.915775,
+      "lon": 70.912596,
+      "photos": []
+    },
+    {
+      "n": "Salim Singh ki Haveli",
+      "cat": "do",
+      "tier": "",
+      "a": "Old City",
+      "d": "The mansion of a once-feared prime minister, crowned by a peacock-shaped upper storey that arches out over the street like a ship's stern. Its 38 balconies and top-heavy silhouette make it the most theatrical of the three great havelis.",
+      "lat": 26.913679,
+      "lon": 70.916017,
+      "photos": []
+    },
+    {
+      "n": "Nathmal ki Haveli",
+      "cat": "do",
+      "tier": "",
+      "a": "Old City",
+      "d": "Carved by two brothers working the left and right facades simultaneously, so the two halves are subtly, deliberately different. Life-size sandstone elephants flank the door, and the interiors still house the descendant family.",
+      "lat": 26.915775,
+      "lon": 70.912596,
+      "photos": []
+    },
+    {
+      "n": "Gadisar Lake",
+      "cat": "do",
+      "tier": "",
+      "a": "Southeast of Fort",
+      "d": "A 14th-century rainwater reservoir ringed by ghats, temples and chhatris, entered through the ornate Tilon ki Pol gateway. A dawn boat glide here, with the fort catching first light behind you and migratory birds on the water, is Jaisalmer at its most serene.",
+      "lat": 26.907838,
+      "lon": 70.921946,
+      "photos": []
+    },
+    {
+      "n": "Bada Bagh Cenotaphs",
+      "cat": "do",
+      "tier": "",
+      "a": "Bada Bagh (6 km north)",
+      "d": "Rows of royal chhatris on a rise above a working windmill-dotted plain, the memorial garden of the Jaisalmer rulers. Come at sunset, when the domed cenotaphs glow amber and the desert light does the rest \u2014 one of the region's great photographic moments.",
+      "lat": 26.954902,
+      "lon": 70.887766,
+      "photos": []
+    },
+    {
+      "n": "Sam Sand Dunes",
+      "cat": "do",
+      "tier": "",
+      "a": "Sam (40 km west)",
+      "d": "The sweeping, postcard dunes of the Thar, where a camel or jeep safari at golden hour ends in a dune-top view of a horizon of pure sand. The heart of the desert-safari experience, and the setting for luxury camp nights under a vast sky.",
+      "lat": 26.916905,
+      "lon": 70.904971,
+      "photos": []
+    },
+    {
+      "n": "Khuri Sand Dunes",
+      "cat": "do",
+      "tier": "",
+      "a": "Khuri (45 km southwest)",
+      "d": "A quieter, less-trafficked alternative to Sam, with softer dunes and a more intimate village-and-desert feel. The choice for travellers who want the silence of the Thar without the crowds \u2014 camel rides at dusk, then stars.",
+      "lat": 26.790575,
+      "lon": 71.310476,
+      "photos": []
+    },
+    {
+      "n": "Camel Safari on the Dunes",
+      "cat": "do",
+      "tier": "",
+      "a": "Sam / Khuri",
+      "d": "The traditional way to cross the Thar, swaying atop a camel as the light softens and the dunes ripple to the horizon. A short sunset ride suits families; longer dune-camp treks reward those who want the desert to unfold slowly.",
+      "lat": 26.910951,
+      "lon": 70.926191,
+      "photos": []
+    },
+    {
+      "n": "Desert Jeep Safari",
+      "cat": "do",
+      "tier": "",
+      "a": "Sam dunes",
+      "d": "An open-jeep run over the crests and troughs of the dunes for those who want the desert with a jolt of adrenaline. Fast, exhilarating and an easy add-on before an evening at camp.",
+      "lat": 26.911489,
+      "lon": 70.914745,
+      "photos": []
+    },
+    {
+      "n": "Kalbelia Dance & Manganiyar Music",
+      "cat": "do",
+      "tier": "",
+      "a": "Sam / desert camps",
+      "d": "The living folk heritage of the Thar \u2014 the sinuous Kalbelia gypsy dance and the haunting ballads of the hereditary Manganiyar musicians, performed by firelight. A private recital at a luxury camp is the finest way to hear it.",
+      "lat": 26.914144,
+      "lon": 70.904575,
+      "photos": []
+    },
+    {
+      "n": "Desert Stargazing",
+      "cat": "do",
+      "tier": "",
+      "a": "Sam / Khuri",
+      "d": "Far from any city glow, the Thar's clear, dry skies deliver a canopy of stars few Indian destinations can match. Camps arrange telescopes and rooftop bedrolls; the Milky Way over the dunes is reason enough to stay the night.",
+      "lat": 26.91052,
+      "lon": 70.915434,
+      "photos": []
+    },
+    {
+      "n": "Khaba Fort",
+      "cat": "do",
+      "tier": "",
+      "a": "Khaba (near Kuldhara)",
+      "d": "A small Paliwal-era fort on a rise above more abandoned village ruins, with a modest museum and sweeping desert panoramas. Pairs naturally with Kuldhara for a quieter, road-less-travelled morning.",
+      "lat": 26.811459,
+      "lon": 70.673547,
+      "photos": []
+    },
+    {
+      "n": "Thar Heritage Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Near Gandhi Chowk",
+      "d": "A one-man labour of love by folklorist Narayan Khatri, crammed with fossils, coins, manuscripts, instruments and the everyday objects of desert life. His personal, animated tours make it far richer than its modest size suggests.",
+      "lat": 26.919182,
+      "lon": 70.912929,
+      "photos": []
+    },
+    {
+      "n": "Desert Culture Centre & Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Gadisar Road",
+      "d": "A focused collection of Thar arts, crafts and folk instruments, with an evening puppet show that delights younger travellers. A tidy primer on Marwari desert culture before you head to the dunes.",
+      "lat": 26.912255,
+      "lon": 70.912511,
+      "photos": []
+    },
+    {
+      "n": "Heritage Walk Through the Old City",
+      "cat": "do",
+      "tier": "",
+      "a": "Old City / Fort lanes",
+      "d": "A slow morning threading the sandstone lanes from Gandhi Chowk to the havelis and up into the fort, reading the carvings and the merchant history in the stone. The single best way to feel the Golden City rather than just tick its monuments.",
+      "lat": 26.91026,
+      "lon": 70.912556,
+      "photos": []
+    },
+    {
+      "n": "Mirror-Work & Applique Artisan Quarter",
+      "cat": "do",
+      "tier": "",
+      "a": "Old City bazaars",
+      "d": "The workshops where women stitch the mirror-embroidered, appliqued textiles the Thar is known for \u2014 cushion covers, wall hangings, quilts. A chance to buy directly from makers and understand the craft rather than the souvenir stall.",
+      "lat": 26.91026,
+      "lon": 70.912556,
+      "photos": []
+    },
+    {
+      "n": "Camel-Leather Craft Workshops",
+      "cat": "do",
+      "tier": "",
+      "a": "Old City",
+      "d": "Jaisalmer's distinctive embossed and painted camel-leather goods \u2014 jootis, bags, journals and lampshades \u2014 made in small family ateliers. A tactile, collectible craft rooted entirely in the desert economy.",
+      "lat": 26.91026,
+      "lon": 70.912556,
+      "photos": []
+    },
+    {
+      "n": "Jaisalmer Stone Carving Ateliers",
+      "cat": "do",
+      "tier": "",
+      "a": "Old City / Fort environs",
+      "d": "The workshops carrying on the sandstone-carving tradition that built the havelis, chiselling jaali screens and jharokhas by hand. Watching the craft that made the Golden City golden is a quiet highlight for the design-minded.",
+      "lat": 26.91026,
+      "lon": 70.912556,
+      "photos": []
+    },
+    {
+      "n": "Pokhran Fort",
+      "cat": "do",
+      "tier": "",
+      "a": "Pokhran (110 km east)",
+      "d": "The red-sandstone Bhati fort commanding the ancient caravan town, now a heritage stay and museum on the Jaisalmer\u2013Jodhpur road. A worthwhile break with its own pottery tradition and the historical weight of the nearby nuclear-test region.",
+      "lat": 26.912765,
+      "lon": 70.912493,
+      "photos": []
+    },
+    {
+      "n": "Suryagarh Jaisalmer",
+      "cat": "do",
+      "tier": "",
+      "a": "Kahala Phata (west of city)",
+      "d": "A fortress-like modern palace hotel that has become a destination in itself, known for curated experiences \u2014 dawn breakfasts in the dunes, Manganiyar concerts, secret desert dinners and the Thar's most refined table. The benchmark stay for UHNI travellers.",
+      "lat": 27.026416,
+      "lon": 70.777512,
+      "photos": []
+    },
+    {
+      "n": "The Serai (Sujan)",
+      "cat": "do",
+      "tier": "",
+      "a": "Desert near Jaisalmer",
+      "d": "A Relais & Chateaux tented camp of vast canvas suites and private pools set in a private desert reserve, the byword for barefoot luxury in the Thar. Sunset safaris, spa tents and starlit dining make it a stay rather than a base.",
+      "lat": 26.913314,
+      "lon": 70.912002,
+      "photos": []
+    },
+    {
+      "n": "Sunset Camel Ride at Bada Bagh / Vyas Chhatri",
+      "cat": "do",
+      "tier": "",
+      "a": "Bada Bagh Road",
+      "d": "A short, gentle camel amble along the ridges near the cenotaphs as the sun sets \u2014 the dunes' romance without the drive to Sam. An easy, evocative option for a first evening or for elders and children.",
+      "lat": 26.954902,
+      "lon": 70.887766,
+      "photos": []
+    },
+    {
+      "n": "Fort Rooftop Caf\u00e9 at Sunset",
+      "cat": "do",
+      "tier": "",
+      "a": "Jaisalmer Fort",
+      "d": "The rooftop caf\u00e9s perched on the fort's edge offer a chai or thali with the whole golden city spilling below and the desert beyond. A relaxed, sociable way to watch the light change over Sonar Qila.",
+      "lat": 26.912765,
+      "lon": 70.912493,
+      "photos": []
+    },
+    {
+      "n": "Gadisar to Fort Photography Walk (Golden Hour)",
+      "cat": "do",
+      "tier": "",
+      "a": "Southeast of Fort",
+      "d": "The angle every photographer chases \u2014 the fort mirrored in Gadisar's water at first or last light. A short, rewarding walk that captures why Jaisalmer earned the name Golden City.",
+      "lat": 26.912809,
+      "lon": 70.913272,
+      "photos": []
+    },
+    {
+      "n": "Rooftop bars & lounges, Old City",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "Old City",
+      "d": "Sundowners on the fort-facing rooftops of the old town \u2014 the golden ramparts turning honey as the light goes.",
+      "lat": 26.91026,
+      "lon": 70.912556,
+      "photos": []
+    }
+  ]
+}

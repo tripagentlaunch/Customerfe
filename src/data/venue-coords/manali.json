@@ -1,1 +1,488 @@
-{"center": [32.245461, 77.187293], "venues": [{"n": "The Himalayan", "cat": "stay", "tier": "Grand", "a": "Manali (Hadimba Road, above the town)", "d": "A Victorian Gothic Revival castle of turrets and spiral staircases, set among apple and cherry orchards with the snow peaks beyond — the most characterful address in the valley.", "lat": 32.243719, "lon": 77.189215, "p": "v"}, {"n": "Span Resort & Spa", "cat": "stay", "tier": "Grand", "a": "Manali (Baragran, ~12 km north on the Beas)", "d": "The valley's grande dame — a riverside five-star of walnut orchards and deodar since 1981, still the byword for a settled family stay on the Beas.", "lat": 32.168019, "lon": 77.17743, "p": "v"}, {"n": "Manuallaya – The Resort Spa in the Himalayas", "cat": "stay", "tier": "Luxury", "a": "Manali (Vashisht side, above the town)", "d": "A contemporary five-star spa resort on the hillside above Manali — open lawns, an indoor heated pool and long valley views.", "lat": 32.285952, "lon": 77.178082, "p": "v"}, {"n": "LaRiSa Resort Manali", "cat": "stay", "tier": "Luxury", "a": "Naggar (Haripur, ~20 km south on the Kullu–Naggar–Manali road, riverside)", "d": "An apple-orchard retreat on the Beas below Naggar — its own organic gardens, a spa and an outdoor pool, quietly away from the Manali crowds.", "lat": 32.245232, "lon": 77.182175, "p": "v"}, {"n": "Johnson's Cafe", "cat": "eat", "tier": "Fine", "a": "Manali (Circuit House Road, near Old Manali)", "d": "The valley's original destination table — a garden of rustic wood and jazz, and the grilled Himalayan trout that made its name.", "lat": 32.254188, "lon": 77.177565, "p": "v"}, {"n": "The Lazy Dog", "cat": "eat", "tier": "Smart", "a": "Old Manali (Manu Temple Road, riverside on the Beas)", "d": "Old Manali's original riverside gastro-pub — the Beas at your feet, live music by evening and a genuinely broad kitchen.", "lat": 32.253045, "lon": 77.176705, "p": "v"}, {"n": "Cafe 1947", "cat": "eat", "tier": "Smart", "a": "Old Manali (by the Old Manali bridge, riverside)", "d": "The Old Manali institution by the bridge — wood-fired pizza and pasta with the Beas rushing past and live music after dark.", "lat": 32.252735, "lon": 77.179395, "p": "v"}, {"n": "Casa Bella Vista", "cat": "eat", "tier": "Smart", "a": "Old Manali (upper lanes, orchard setting)", "d": "A tiny Spanish-run café among the orchards — alfresco tables, a small library and honest Mediterranean cooking with a river view.", "lat": 32.252273, "lon": 77.180156, "p": "v"}, {"n": "Drifters' Cafe", "cat": "eat", "tier": "Casual", "a": "Old Manali (Old Manali road)", "d": "The beloved Old Manali breakfast room — eggs Benedict and Florentine, pancakes and waffles, board games and acoustic evenings.", "lat": 32.25498, "lon": 77.177024, "p": "v"}, {"n": "Hadimba Devi Temple", "cat": "do", "tier": "", "a": "Dhungri, Manali", "d": "A four-tiered pagoda of cedar and stone from 1553, dedicated to Bhima's wife from the Mahabharata, set in the deep Dhungri cedar forest where the light falls in shafts. The most atmospheric temple in Manali and, in a light snowfall, quietly cinematic for a family morning.", "lat": 32.248444, "lon": 77.180839, "p": "v"}, {"n": "Dhungri Cedar Forest walk", "cat": "do", "tier": "", "a": "Dhungri, Manali", "d": "The ancient deodar grove that cradles the Hadimba temple, thick with towering cedars several centuries old. A slow, cool wander here is the antidote to Mall Road crowds, and a good private-guide walk for a multi-generation group.", "lat": 32.247477, "lon": 77.18187, "p": "a"}, {"n": "Old Manali", "cat": "do", "tier": "", "a": "Old Manali", "d": "The original village up the Manalsu stream, all apple orchards, stone-and-timber homes and slow cafes above the newer town. It has the boho river-cafe scene the honeymoon set loves, yet keeps a genuine Himachali village texture underneath.", "lat": 32.255925, "lon": 77.176528, "p": "v"}, {"n": "Manu Temple", "cat": "do", "tier": "", "a": "Old Manali", "d": "A modest pagoda temple in Old Manali dedicated to the sage Manu, held by legend to be the only temple to him in India. Worth the climb through the village lanes for the setting and the quiet, more than the shrine itself.", "lat": 32.257013, "lon": 77.176041, "p": "v"}, {"n": "The Mall Road", "cat": "do", "tier": "", "a": "Manali town", "d": "The pedestrian spine of Manali, lined with Kullu-shawl shops, Tibetan handicrafts, wool and cafes. Best walked at dusk for an easy evening stroll; a private guide can steer you past the tourist tat to the real shawl and pashmina houses.", "lat": 32.244427, "lon": 77.189558, "p": "v"}, {"n": "Gadhan Thekchhokling Gompa", "cat": "do", "tier": "", "a": "Manali town", "d": "Manali's principal Tibetan monastery, built in 1969 by refugees, with vivid murals, a large Buddha and a small carpet-weaving unit and market at the gate. A serene, colourful stop a short walk off Mall Road.", "lat": 32.243387, "lon": 77.187227, "p": "a"}, {"n": "Himalayan Nyingmapa Gompa", "cat": "do", "tier": "", "a": "Manali town", "d": "The bright yellow-roofed monastery near the Mall, its inner hall presided over by a golden Buddha with rows of prayer wheels and a calm courtyard. A quick, quietly beautiful counterpoint to the busy streets.", "lat": 32.24229, "lon": 77.188302, "p": "v"}, {"n": "Tibetan Market", "cat": "do", "tier": "", "a": "Manali town", "d": "The warren of stalls around the monasteries selling prayer flags, singing bowls, turquoise-and-silver jewellery and woollens. Good-humoured haggling and the best place to pick up small Tibetan pieces.", "lat": 32.249474, "lon": 77.190709, "p": "v"}, {"n": "Van Vihar Nature Park", "cat": "do", "tier": "", "a": "Manali town", "d": "A 51-acre grove of soaring deodars right on Mall Road, with shaded paths and a small lake for pedal-boating. The easiest green breather in town, ideal with young children or grandparents in tow.", "lat": 32.243387, "lon": 77.187227, "p": "a"}, {"n": "Manali Club House", "cat": "do", "tier": "", "a": "1 km from Manali", "d": "An HPTDC amusement zone on the Manalsu stream with boating, go-karting, zip-lining, a ropeway and indoor games. Frankly touristy, but a reliable half-day of easy fun for families with kids.", "lat": 32.254595, "lon": 77.181826, "p": "v"}, {"n": "Jogini Falls trek", "cat": "do", "tier": "", "a": "Vashisht, Manali", "d": "A gentle 3 km walk from Vashisht through apple orchards and pine to a roughly 150 ft cascade with a small Jogini Mata shrine at its foot. A short, rewarding morning hike that even less-active family members can manage part of.", "lat": 32.275198, "lon": 77.18801, "p": "v"}, {"n": "Nehru Kund", "cat": "do", "tier": "", "a": "Leh-Manali highway, 5 km from Manali", "d": "A cold natural spring beside the highway, fed from the high Bhrigu Lake and named for Jawaharlal Nehru, who drank from it on his Manali stays. A brief, pretty roadside pause on the way up towards Solang and Rohtang.", "lat": 32.250494, "lon": 77.188138, "p": "v"}, {"n": "Solang Valley", "cat": "do", "tier": "", "a": "14 km from Manali", "d": "The wide meadow-and-snow amphitheatre that is Manali's adventure hub, ringed by peaks and glaciers. Green and blossom-strewn in summer, a white playground in winter, and the single most photographed valley near the town.", "lat": 32.317396, "lon": 77.156027, "p": "v"}, {"n": "Paragliding at Solang", "cat": "do", "tier": "", "a": "Solang Valley", "d": "Tandem flights off the Solang slopes with a pilot, from short 'joy' hops to longer high flights, roughly April to December. The view of the valley and the Beas from the air is the thrill most first-timers remember.", "lat": 32.313952, "lon": 77.155934, "p": "v"}, {"n": "Solang ropeway (gondola)", "cat": "do", "tier": "", "a": "Solang Valley", "d": "A cable-car ride up the Solang slope for wide views over the meadows and, higher up, the snow line. The gentlest way for grandparents and children to reach the upper viewpoints without the crowds on foot.", "lat": 32.314668, "lon": 77.150648, "p": "v"}, {"n": "Zorbing & snow play at Solang", "cat": "do", "tier": "", "a": "Solang Valley", "d": "Rolling downhill inside a giant transparent ball on the summer grass, plus ATV rides, horse rides and, in winter, sledding and snow-tubing. The easy, giggly adventure end of the spectrum for a family day out.", "lat": 32.317396, "lon": 77.156027, "p": "a"}, {"n": "Skiing at Solang", "cat": "do", "tier": "", "a": "Solang Valley", "d": "Winter turns the gentle Solang slopes into North India's most accessible beginner ski runs, with skiing, snowboarding and snowmobiling from about December to February. Instructors and hired kit make it an easy first taste of the sport.", "lat": 32.314775, "lon": 77.155329, "p": "v"}, {"n": "Atal Tunnel", "cat": "do", "tier": "", "a": "Rohtang, 25 km from Manali", "d": "The engineering marvel that punches under the Pir Panjal to link Manali with Lahaul in about ten minutes, once a treacherous half-day over Rohtang. Driving through it is itself a novelty, and it opens the once-cut-off Lahaul valley year-round.", "lat": 32.401855, "lon": 77.148473, "p": "v"}, {"n": "Sissu", "cat": "do", "tier": "", "a": "Lahaul, ~40 km from Manali", "d": "The first Lahaul village beyond the tunnel, on the Chandra river beneath the tall Palden Lhamo (Sissu) waterfall, with a placid lake and a starkly different high-desert light. The easiest taste of Lahaul, reachable as a comfortable day trip since the tunnel.", "lat": 32.458173, "lon": 77.142203, "p": "v"}, {"n": "Sissu Waterfall (Palden Lhamo Dhar)", "cat": "do", "tier": "", "a": "Sissu, Lahaul", "d": "A tall glacier-fed cascade tumbling down the mountain wall across the Chandra from Sissu village, named for a Tibetan protector deity. A dramatic first sight of Lahaul, framed by the barren peaks the tunnel suddenly reveals.", "lat": 32.458173, "lon": 77.142203, "p": "a"}, {"n": "Keylong & Jispa", "cat": "do", "tier": "", "a": "Lahaul", "d": "The Lahaul district town of Keylong and the riverside hamlet of Jispa on the Manali-Leh road, ringed by monasteries, barley fields and glaciers. A quieter, more remote day out for travellers wanting Lahaul beyond Sissu.", "lat": 32.641933, "lon": 77.191651, "p": "v"}, {"n": "Rohtang Pass", "cat": "do", "tier": "", "a": "51 km from Manali", "d": "The classic 3,978 m snow pass, still the great Manali outing for snow, wind and Himalayan drama despite the tunnel below. Permit- and quota-gated and only open roughly May to October, so a private operator handling the paperwork is essential.", "lat": 32.371003, "lon": 77.246269, "p": "v"}, {"n": "Naggar Castle", "cat": "do", "tier": "", "a": "Naggar, ~20 km from Manali", "d": "A 15th-century stone-and-timber castle above the Beas, once the seat of Kullu's rajas and now blending Himalayan kath-kuni craft with a heritage hotel and cafe on its terraces. The valley views from its courtyard are among the finest in the region.", "lat": 32.11199, "lon": 77.164641, "p": "v"}, {"n": "Nicholas Roerich Art Gallery", "cat": "do", "tier": "", "a": "Naggar", "d": "The former home of the Russian painter-mystic Nicholas Roerich, now a gallery of his luminous Himalayan canvases set in gardens above the valley he loved until his death here in 1947. A cultured, unexpected stop that lifts a Naggar day well above sightseeing.", "lat": 32.238761, "lon": 77.187773, "p": "a"}, {"n": "Kullu town & Raghunath Temple", "cat": "do", "tier": "", "a": "Kullu, ~40 km from Manali", "d": "The valley's administrative and spiritual heart, home to the 17th-century Raghunath temple whose deity presides over the famous Dussehra. A working town rather than a resort, best as a cultural stop en route to the shawl weavers or Bijli Mahadev.", "lat": 32.251632, "lon": 77.193688, "p": "a"}, {"n": "Kullu shawl weavers (Bhuttico)", "cat": "do", "tier": "", "a": "Kullu / Bhuntar", "d": "The Bhutti Weavers Cooperative, founded in 1944, where you can watch Kullu shawls and pattus woven on handlooms and buy directly at source. The most authentic place to acquire the region's signature craft, well beyond the Mall Road stalls.", "lat": 31.876085, "lon": 77.154966, "p": "a"}, {"n": "Bijli Mahadev trek", "cat": "do", "tier": "", "a": "Kullu (across the Beas)", "d": "A short but steep 3 km climb to a ridge-top Shiva temple at 2,460 m, famous for the tall staff said to draw lightning each year. The 360-degree panorama over the Kullu and Parvati valleys from the top is the real reward.", "lat": 32.245248, "lon": 77.190984, "p": "a"}, {"n": "Manikaran Sahib", "cat": "do", "tier": "", "a": "Parvati Valley, ~85 km from Manali", "d": "A revered gurdwara and temple complex on the Parvati river where scalding natural hot springs boil out of the ground, used to cook langar and for ritual bathing. The mix of steam, faith and the roaring river makes it one of the valley's most striking sights.", "lat": 32.026924, "lon": 77.344907, "p": "v"}, {"n": "Kasol", "cat": "do", "tier": "", "a": "Parvati Valley", "d": "The riverside village that anchors the Parvati Valley, with pine-shaded banks, Israeli cafes and a laid-back backpacker energy. A pleasant lunch-and-stroll base from which to explore the valley's temples and trails.", "lat": 32.245461, "lon": 77.187293, "p": "v"}, {"n": "Tosh village", "cat": "do", "tier": "", "a": "Parvati Valley", "d": "A cliffside hamlet at the head of a Parvati side-valley, with snow-peak views, guesthouse balconies over the gorge and a slow mountain rhythm. A worthwhile detour for the vista, framed here as scenery rather than for its cannabis notoriety.", "lat": 32.2414, "lon": 77.182404, "p": "v"}, {"n": "Kheerganga trek", "cat": "do", "tier": "", "a": "Parvati Valley", "d": "A demanding day's climb through forest and waterfalls to a high meadow with a natural hot spring and a Shiva shrine, one of the Himalayas' best-loved treks. Framed here as an experience to know of; the fit and well-guided can attempt it, most will admire it from below.", "lat": 32.301606, "lon": 77.185838, "p": "v"}, {"n": "Malana village", "cat": "do", "tier": "", "a": "Parvati Valley", "d": "An isolated ancient village on a side ridge, famous for its unusually self-contained culture, distinct customs and a democracy said to be among the world's oldest. Culturally fascinating and best understood from a distance and with a respectful local guide; visitors follow strict do-not-touch rules.", "lat": 32.2414, "lon": 77.182404, "p": "v"}, {"n": "Tirthan Valley", "cat": "do", "tier": "", "a": "Banjar / Gushaini, ~3 hrs from Manali", "d": "A green, unhurried valley centred on Gushaini that is the gateway to the national park, known for trout fishing, riverside stays and forest walks. The quiet, upscale-slow-travel alternative to bustling Manali.", "lat": 32.254806, "lon": 77.196682, "p": "v"}, {"n": "Jibhi", "cat": "do", "tier": "", "a": "Banjar, near Tirthan", "d": "A tiny wooded village of timber cottages and a hidden forest waterfall, one of Himachal's most photogenic hideaways. A restorative base or day trip for travellers who want pine-scented calm over crowds.", "lat": 32.245461, "lon": 77.187293, "p": "v"}, {"n": "Beas river rafting", "cat": "do", "tier": "", "a": "Pirdi to Jhiri, Kullu", "d": "White-water rafting on the Beas along the Pirdi-Jhiri stretch, with grades suiting first-timers and thrill-seekers alike, best from April to June and September to October. A classic Kullu-valley adrenaline hit that families can share.", "lat": 32.330447, "lon": 77.151638, "p": "v"}, {"n": "Gushaini & the Tirthan riverside", "cat": "do", "tier": "", "a": "Tirthan Valley", "d": "The confluence hamlet where the Tirthan and Sainj rivers meet, the launch point for national-park treks and prized trout beats. A soothing riverside stop for a slow lunch or an overnight in a boutique fishing lodge.", "lat": 32.254806, "lon": 77.196682, "p": "a"}, {"n": "Chandratal Lake", "cat": "do", "tier": "", "a": "Spiti border via Lahaul, ~2 days from Manali", "d": "The crescent 'Moon Lake' at over 4,300 m near Kunzum Pass, a startling turquoise set against bare high-desert peaks. Deep in Spiti-Lahaul terrain, this is a hard-earned expedition rather than a day trip, and unforgettable for the intrepid.", "lat": 32.482618, "lon": 77.615743, "p": "v"}, {"n": "Kunzum Pass", "cat": "do", "tier": "", "a": "Lahaul-Spiti border, ~122 km from Manali", "d": "A 4,551 m prayer-flag-draped pass that is the gateway from Lahaul into Spiti, with a small hilltop temple and vast glacier views. A serious high-altitude drive, reached far more easily now via the Atal Tunnel route.", "lat": 32.262241, "lon": 77.026627, "p": "v"}, {"n": "Hotel bar nightcap", "cat": "party", "tier": "Landmark bars", "a": "Manali (Johnson's / Span / Manuallaya)", "d": "A quiet drink by a fireplace — Johnson's bar in town, or the calm lounge bars of the riverside resorts — the most civilised late hour in the valley.", "lat": 32.245369, "lon": 77.189709, "p": "v"}]}
+{
+  "center": [
+    32.245461,
+    77.187293
+  ],
+  "venues": [
+    {
+      "n": "The Himalayan",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Manali (Hadimba Road, above the town)",
+      "d": "A Victorian Gothic Revival castle of turrets and spiral staircases, set among apple and cherry orchards with the snow peaks beyond \u2014 the most characterful address in the valley.",
+      "lat": 32.243719,
+      "lon": 77.189215,
+      "photos": []
+    },
+    {
+      "n": "Span Resort & Spa",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Manali (Baragran, ~12 km north on the Beas)",
+      "d": "The valley's grande dame \u2014 a riverside five-star of walnut orchards and deodar since 1981, still the byword for a settled family stay on the Beas.",
+      "lat": 32.168019,
+      "lon": 77.17743,
+      "photos": []
+    },
+    {
+      "n": "Manuallaya \u2013 The Resort Spa in the Himalayas",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Manali (Vashisht side, above the town)",
+      "d": "A contemporary five-star spa resort on the hillside above Manali \u2014 open lawns, an indoor heated pool and long valley views.",
+      "lat": 32.285952,
+      "lon": 77.178082,
+      "photos": []
+    },
+    {
+      "n": "LaRiSa Resort Manali",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Naggar (Haripur, ~20 km south on the Kullu\u2013Naggar\u2013Manali road, riverside)",
+      "d": "An apple-orchard retreat on the Beas below Naggar \u2014 its own organic gardens, a spa and an outdoor pool, quietly away from the Manali crowds.",
+      "lat": 32.245232,
+      "lon": 77.182175,
+      "photos": []
+    },
+    {
+      "n": "Johnson's Cafe",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Manali (Circuit House Road, near Old Manali)",
+      "d": "The valley's original destination table \u2014 a garden of rustic wood and jazz, and the grilled Himalayan trout that made its name.",
+      "lat": 32.254188,
+      "lon": 77.177565,
+      "photos": []
+    },
+    {
+      "n": "The Lazy Dog",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Old Manali (Manu Temple Road, riverside on the Beas)",
+      "d": "Old Manali's original riverside gastro-pub \u2014 the Beas at your feet, live music by evening and a genuinely broad kitchen.",
+      "lat": 32.253045,
+      "lon": 77.176705,
+      "photos": []
+    },
+    {
+      "n": "Cafe 1947",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Old Manali (by the Old Manali bridge, riverside)",
+      "d": "The Old Manali institution by the bridge \u2014 wood-fired pizza and pasta with the Beas rushing past and live music after dark.",
+      "lat": 32.252735,
+      "lon": 77.179395,
+      "photos": []
+    },
+    {
+      "n": "Casa Bella Vista",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Old Manali (upper lanes, orchard setting)",
+      "d": "A tiny Spanish-run caf\u00e9 among the orchards \u2014 alfresco tables, a small library and honest Mediterranean cooking with a river view.",
+      "lat": 32.252273,
+      "lon": 77.180156,
+      "photos": []
+    },
+    {
+      "n": "Drifters' Cafe",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Old Manali (Old Manali road)",
+      "d": "The beloved Old Manali breakfast room \u2014 eggs Benedict and Florentine, pancakes and waffles, board games and acoustic evenings.",
+      "lat": 32.25498,
+      "lon": 77.177024,
+      "photos": []
+    },
+    {
+      "n": "Hadimba Devi Temple",
+      "cat": "do",
+      "tier": "",
+      "a": "Dhungri, Manali",
+      "d": "A four-tiered pagoda of cedar and stone from 1553, dedicated to Bhima's wife from the Mahabharata, set in the deep Dhungri cedar forest where the light falls in shafts. The most atmospheric temple in Manali and, in a light snowfall, quietly cinematic for a family morning.",
+      "lat": 32.248444,
+      "lon": 77.180839,
+      "photos": []
+    },
+    {
+      "n": "Dhungri Cedar Forest walk",
+      "cat": "do",
+      "tier": "",
+      "a": "Dhungri, Manali",
+      "d": "The ancient deodar grove that cradles the Hadimba temple, thick with towering cedars several centuries old. A slow, cool wander here is the antidote to Mall Road crowds, and a good private-guide walk for a multi-generation group.",
+      "lat": 32.247477,
+      "lon": 77.18187,
+      "photos": []
+    },
+    {
+      "n": "Old Manali",
+      "cat": "do",
+      "tier": "",
+      "a": "Old Manali",
+      "d": "The original village up the Manalsu stream, all apple orchards, stone-and-timber homes and slow cafes above the newer town. It has the boho river-cafe scene the honeymoon set loves, yet keeps a genuine Himachali village texture underneath.",
+      "lat": 32.255925,
+      "lon": 77.176528,
+      "photos": []
+    },
+    {
+      "n": "Manu Temple",
+      "cat": "do",
+      "tier": "",
+      "a": "Old Manali",
+      "d": "A modest pagoda temple in Old Manali dedicated to the sage Manu, held by legend to be the only temple to him in India. Worth the climb through the village lanes for the setting and the quiet, more than the shrine itself.",
+      "lat": 32.257013,
+      "lon": 77.176041,
+      "photos": []
+    },
+    {
+      "n": "The Mall Road",
+      "cat": "do",
+      "tier": "",
+      "a": "Manali town",
+      "d": "The pedestrian spine of Manali, lined with Kullu-shawl shops, Tibetan handicrafts, wool and cafes. Best walked at dusk for an easy evening stroll; a private guide can steer you past the tourist tat to the real shawl and pashmina houses.",
+      "lat": 32.244427,
+      "lon": 77.189558,
+      "photos": []
+    },
+    {
+      "n": "Gadhan Thekchhokling Gompa",
+      "cat": "do",
+      "tier": "",
+      "a": "Manali town",
+      "d": "Manali's principal Tibetan monastery, built in 1969 by refugees, with vivid murals, a large Buddha and a small carpet-weaving unit and market at the gate. A serene, colourful stop a short walk off Mall Road.",
+      "lat": 32.243387,
+      "lon": 77.187227,
+      "photos": []
+    },
+    {
+      "n": "Himalayan Nyingmapa Gompa",
+      "cat": "do",
+      "tier": "",
+      "a": "Manali town",
+      "d": "The bright yellow-roofed monastery near the Mall, its inner hall presided over by a golden Buddha with rows of prayer wheels and a calm courtyard. A quick, quietly beautiful counterpoint to the busy streets.",
+      "lat": 32.24229,
+      "lon": 77.188302,
+      "photos": []
+    },
+    {
+      "n": "Tibetan Market",
+      "cat": "do",
+      "tier": "",
+      "a": "Manali town",
+      "d": "The warren of stalls around the monasteries selling prayer flags, singing bowls, turquoise-and-silver jewellery and woollens. Good-humoured haggling and the best place to pick up small Tibetan pieces.",
+      "lat": 32.249474,
+      "lon": 77.190709,
+      "photos": []
+    },
+    {
+      "n": "Van Vihar Nature Park",
+      "cat": "do",
+      "tier": "",
+      "a": "Manali town",
+      "d": "A 51-acre grove of soaring deodars right on Mall Road, with shaded paths and a small lake for pedal-boating. The easiest green breather in town, ideal with young children or grandparents in tow.",
+      "lat": 32.243387,
+      "lon": 77.187227,
+      "photos": []
+    },
+    {
+      "n": "Manali Club House",
+      "cat": "do",
+      "tier": "",
+      "a": "1 km from Manali",
+      "d": "An HPTDC amusement zone on the Manalsu stream with boating, go-karting, zip-lining, a ropeway and indoor games. Frankly touristy, but a reliable half-day of easy fun for families with kids.",
+      "lat": 32.254595,
+      "lon": 77.181826,
+      "photos": []
+    },
+    {
+      "n": "Jogini Falls trek",
+      "cat": "do",
+      "tier": "",
+      "a": "Vashisht, Manali",
+      "d": "A gentle 3 km walk from Vashisht through apple orchards and pine to a roughly 150 ft cascade with a small Jogini Mata shrine at its foot. A short, rewarding morning hike that even less-active family members can manage part of.",
+      "lat": 32.275198,
+      "lon": 77.18801,
+      "photos": []
+    },
+    {
+      "n": "Nehru Kund",
+      "cat": "do",
+      "tier": "",
+      "a": "Leh-Manali highway, 5 km from Manali",
+      "d": "A cold natural spring beside the highway, fed from the high Bhrigu Lake and named for Jawaharlal Nehru, who drank from it on his Manali stays. A brief, pretty roadside pause on the way up towards Solang and Rohtang.",
+      "lat": 32.250494,
+      "lon": 77.188138,
+      "photos": []
+    },
+    {
+      "n": "Solang Valley",
+      "cat": "do",
+      "tier": "",
+      "a": "14 km from Manali",
+      "d": "The wide meadow-and-snow amphitheatre that is Manali's adventure hub, ringed by peaks and glaciers. Green and blossom-strewn in summer, a white playground in winter, and the single most photographed valley near the town.",
+      "lat": 32.317396,
+      "lon": 77.156027,
+      "photos": []
+    },
+    {
+      "n": "Paragliding at Solang",
+      "cat": "do",
+      "tier": "",
+      "a": "Solang Valley",
+      "d": "Tandem flights off the Solang slopes with a pilot, from short 'joy' hops to longer high flights, roughly April to December. The view of the valley and the Beas from the air is the thrill most first-timers remember.",
+      "lat": 32.313952,
+      "lon": 77.155934,
+      "photos": []
+    },
+    {
+      "n": "Solang ropeway (gondola)",
+      "cat": "do",
+      "tier": "",
+      "a": "Solang Valley",
+      "d": "A cable-car ride up the Solang slope for wide views over the meadows and, higher up, the snow line. The gentlest way for grandparents and children to reach the upper viewpoints without the crowds on foot.",
+      "lat": 32.314668,
+      "lon": 77.150648,
+      "photos": []
+    },
+    {
+      "n": "Zorbing & snow play at Solang",
+      "cat": "do",
+      "tier": "",
+      "a": "Solang Valley",
+      "d": "Rolling downhill inside a giant transparent ball on the summer grass, plus ATV rides, horse rides and, in winter, sledding and snow-tubing. The easy, giggly adventure end of the spectrum for a family day out.",
+      "lat": 32.317396,
+      "lon": 77.156027,
+      "photos": []
+    },
+    {
+      "n": "Skiing at Solang",
+      "cat": "do",
+      "tier": "",
+      "a": "Solang Valley",
+      "d": "Winter turns the gentle Solang slopes into North India's most accessible beginner ski runs, with skiing, snowboarding and snowmobiling from about December to February. Instructors and hired kit make it an easy first taste of the sport.",
+      "lat": 32.314775,
+      "lon": 77.155329,
+      "photos": []
+    },
+    {
+      "n": "Atal Tunnel",
+      "cat": "do",
+      "tier": "",
+      "a": "Rohtang, 25 km from Manali",
+      "d": "The engineering marvel that punches under the Pir Panjal to link Manali with Lahaul in about ten minutes, once a treacherous half-day over Rohtang. Driving through it is itself a novelty, and it opens the once-cut-off Lahaul valley year-round.",
+      "lat": 32.401855,
+      "lon": 77.148473,
+      "photos": []
+    },
+    {
+      "n": "Sissu",
+      "cat": "do",
+      "tier": "",
+      "a": "Lahaul, ~40 km from Manali",
+      "d": "The first Lahaul village beyond the tunnel, on the Chandra river beneath the tall Palden Lhamo (Sissu) waterfall, with a placid lake and a starkly different high-desert light. The easiest taste of Lahaul, reachable as a comfortable day trip since the tunnel.",
+      "lat": 32.458173,
+      "lon": 77.142203,
+      "photos": []
+    },
+    {
+      "n": "Sissu Waterfall (Palden Lhamo Dhar)",
+      "cat": "do",
+      "tier": "",
+      "a": "Sissu, Lahaul",
+      "d": "A tall glacier-fed cascade tumbling down the mountain wall across the Chandra from Sissu village, named for a Tibetan protector deity. A dramatic first sight of Lahaul, framed by the barren peaks the tunnel suddenly reveals.",
+      "lat": 32.458173,
+      "lon": 77.142203,
+      "photos": []
+    },
+    {
+      "n": "Keylong & Jispa",
+      "cat": "do",
+      "tier": "",
+      "a": "Lahaul",
+      "d": "The Lahaul district town of Keylong and the riverside hamlet of Jispa on the Manali-Leh road, ringed by monasteries, barley fields and glaciers. A quieter, more remote day out for travellers wanting Lahaul beyond Sissu.",
+      "lat": 32.641933,
+      "lon": 77.191651,
+      "photos": []
+    },
+    {
+      "n": "Rohtang Pass",
+      "cat": "do",
+      "tier": "",
+      "a": "51 km from Manali",
+      "d": "The classic 3,978 m snow pass, still the great Manali outing for snow, wind and Himalayan drama despite the tunnel below. Permit- and quota-gated and only open roughly May to October, so a private operator handling the paperwork is essential.",
+      "lat": 32.371003,
+      "lon": 77.246269,
+      "photos": []
+    },
+    {
+      "n": "Naggar Castle",
+      "cat": "do",
+      "tier": "",
+      "a": "Naggar, ~20 km from Manali",
+      "d": "A 15th-century stone-and-timber castle above the Beas, once the seat of Kullu's rajas and now blending Himalayan kath-kuni craft with a heritage hotel and cafe on its terraces. The valley views from its courtyard are among the finest in the region.",
+      "lat": 32.11199,
+      "lon": 77.164641,
+      "photos": []
+    },
+    {
+      "n": "Nicholas Roerich Art Gallery",
+      "cat": "do",
+      "tier": "",
+      "a": "Naggar",
+      "d": "The former home of the Russian painter-mystic Nicholas Roerich, now a gallery of his luminous Himalayan canvases set in gardens above the valley he loved until his death here in 1947. A cultured, unexpected stop that lifts a Naggar day well above sightseeing.",
+      "lat": 32.238761,
+      "lon": 77.187773,
+      "photos": []
+    },
+    {
+      "n": "Kullu town & Raghunath Temple",
+      "cat": "do",
+      "tier": "",
+      "a": "Kullu, ~40 km from Manali",
+      "d": "The valley's administrative and spiritual heart, home to the 17th-century Raghunath temple whose deity presides over the famous Dussehra. A working town rather than a resort, best as a cultural stop en route to the shawl weavers or Bijli Mahadev.",
+      "lat": 32.251632,
+      "lon": 77.193688,
+      "photos": []
+    },
+    {
+      "n": "Kullu shawl weavers (Bhuttico)",
+      "cat": "do",
+      "tier": "",
+      "a": "Kullu / Bhuntar",
+      "d": "The Bhutti Weavers Cooperative, founded in 1944, where you can watch Kullu shawls and pattus woven on handlooms and buy directly at source. The most authentic place to acquire the region's signature craft, well beyond the Mall Road stalls.",
+      "lat": 31.876085,
+      "lon": 77.154966,
+      "photos": []
+    },
+    {
+      "n": "Bijli Mahadev trek",
+      "cat": "do",
+      "tier": "",
+      "a": "Kullu (across the Beas)",
+      "d": "A short but steep 3 km climb to a ridge-top Shiva temple at 2,460 m, famous for the tall staff said to draw lightning each year. The 360-degree panorama over the Kullu and Parvati valleys from the top is the real reward.",
+      "lat": 32.245248,
+      "lon": 77.190984,
+      "photos": []
+    },
+    {
+      "n": "Manikaran Sahib",
+      "cat": "do",
+      "tier": "",
+      "a": "Parvati Valley, ~85 km from Manali",
+      "d": "A revered gurdwara and temple complex on the Parvati river where scalding natural hot springs boil out of the ground, used to cook langar and for ritual bathing. The mix of steam, faith and the roaring river makes it one of the valley's most striking sights.",
+      "lat": 32.026924,
+      "lon": 77.344907,
+      "photos": []
+    },
+    {
+      "n": "Kasol",
+      "cat": "do",
+      "tier": "",
+      "a": "Parvati Valley",
+      "d": "The riverside village that anchors the Parvati Valley, with pine-shaded banks, Israeli cafes and a laid-back backpacker energy. A pleasant lunch-and-stroll base from which to explore the valley's temples and trails.",
+      "lat": 32.245461,
+      "lon": 77.187293,
+      "photos": []
+    },
+    {
+      "n": "Tosh village",
+      "cat": "do",
+      "tier": "",
+      "a": "Parvati Valley",
+      "d": "A cliffside hamlet at the head of a Parvati side-valley, with snow-peak views, guesthouse balconies over the gorge and a slow mountain rhythm. A worthwhile detour for the vista, framed here as scenery rather than for its cannabis notoriety.",
+      "lat": 32.2414,
+      "lon": 77.182404,
+      "photos": []
+    },
+    {
+      "n": "Kheerganga trek",
+      "cat": "do",
+      "tier": "",
+      "a": "Parvati Valley",
+      "d": "A demanding day's climb through forest and waterfalls to a high meadow with a natural hot spring and a Shiva shrine, one of the Himalayas' best-loved treks. Framed here as an experience to know of; the fit and well-guided can attempt it, most will admire it from below.",
+      "lat": 32.301606,
+      "lon": 77.185838,
+      "photos": []
+    },
+    {
+      "n": "Malana village",
+      "cat": "do",
+      "tier": "",
+      "a": "Parvati Valley",
+      "d": "An isolated ancient village on a side ridge, famous for its unusually self-contained culture, distinct customs and a democracy said to be among the world's oldest. Culturally fascinating and best understood from a distance and with a respectful local guide; visitors follow strict do-not-touch rules.",
+      "lat": 32.2414,
+      "lon": 77.182404,
+      "photos": []
+    },
+    {
+      "n": "Tirthan Valley",
+      "cat": "do",
+      "tier": "",
+      "a": "Banjar / Gushaini, ~3 hrs from Manali",
+      "d": "A green, unhurried valley centred on Gushaini that is the gateway to the national park, known for trout fishing, riverside stays and forest walks. The quiet, upscale-slow-travel alternative to bustling Manali.",
+      "lat": 32.254806,
+      "lon": 77.196682,
+      "photos": []
+    },
+    {
+      "n": "Jibhi",
+      "cat": "do",
+      "tier": "",
+      "a": "Banjar, near Tirthan",
+      "d": "A tiny wooded village of timber cottages and a hidden forest waterfall, one of Himachal's most photogenic hideaways. A restorative base or day trip for travellers who want pine-scented calm over crowds.",
+      "lat": 32.245461,
+      "lon": 77.187293,
+      "photos": []
+    },
+    {
+      "n": "Beas river rafting",
+      "cat": "do",
+      "tier": "",
+      "a": "Pirdi to Jhiri, Kullu",
+      "d": "White-water rafting on the Beas along the Pirdi-Jhiri stretch, with grades suiting first-timers and thrill-seekers alike, best from April to June and September to October. A classic Kullu-valley adrenaline hit that families can share.",
+      "lat": 32.330447,
+      "lon": 77.151638,
+      "photos": []
+    },
+    {
+      "n": "Gushaini & the Tirthan riverside",
+      "cat": "do",
+      "tier": "",
+      "a": "Tirthan Valley",
+      "d": "The confluence hamlet where the Tirthan and Sainj rivers meet, the launch point for national-park treks and prized trout beats. A soothing riverside stop for a slow lunch or an overnight in a boutique fishing lodge.",
+      "lat": 32.254806,
+      "lon": 77.196682,
+      "photos": []
+    },
+    {
+      "n": "Chandratal Lake",
+      "cat": "do",
+      "tier": "",
+      "a": "Spiti border via Lahaul, ~2 days from Manali",
+      "d": "The crescent 'Moon Lake' at over 4,300 m near Kunzum Pass, a startling turquoise set against bare high-desert peaks. Deep in Spiti-Lahaul terrain, this is a hard-earned expedition rather than a day trip, and unforgettable for the intrepid.",
+      "lat": 32.482618,
+      "lon": 77.615743,
+      "photos": []
+    },
+    {
+      "n": "Kunzum Pass",
+      "cat": "do",
+      "tier": "",
+      "a": "Lahaul-Spiti border, ~122 km from Manali",
+      "d": "A 4,551 m prayer-flag-draped pass that is the gateway from Lahaul into Spiti, with a small hilltop temple and vast glacier views. A serious high-altitude drive, reached far more easily now via the Atal Tunnel route.",
+      "lat": 32.262241,
+      "lon": 77.026627,
+      "photos": []
+    },
+    {
+      "n": "Hotel bar nightcap",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "Manali (Johnson's / Span / Manuallaya)",
+      "d": "A quiet drink by a fireplace \u2014 Johnson's bar in town, or the calm lounge bars of the riverside resorts \u2014 the most civilised late hour in the valley.",
+      "lat": 32.245369,
+      "lon": 77.189709,
+      "photos": []
+    }
+  ]
+}

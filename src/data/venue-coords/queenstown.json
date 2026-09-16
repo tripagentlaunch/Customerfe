@@ -1,1 +1,638 @@
-{"center": [-45.032192, 168.661], "venues": [{"n": "Rosewood Matakauri", "cat": "stay", "tier": "Ultra", "a": "Queenstown (lakefront, Fernhill)", "d": "A tiny Rosewood lodge above Lake Wakatipu — three suites and four villas in the beech forest, service to rival any city house.", "lat": -45.013294, "lon": 168.668141, "p": "v"}, {"n": "Blanket Bay", "cat": "stay", "tier": "Ultra", "a": "Glenorchy", "d": "A great stone-and-timber lodge on the shore of Lake Wakatipu beneath the Humboldt range — the archetype of the New Zealand high-country lodge.", "lat": -44.864644, "lon": 168.388416, "p": "v"}, {"n": "The Lindis", "cat": "stay", "tier": "Ultra", "a": "Ahuriri Valley (Central Otago)", "d": "An architectural marvel under a slatted timber roof in a remote high-country valley — pods and suites dissolving into the landscape.", "lat": -44.675008, "lon": 169.159154, "p": "v"}, {"n": "Eichardt's Private Hotel", "cat": "stay", "tier": "Grand", "a": "Queenstown (central lakefront)", "d": "The best few rooms in town — an 1861 lakefront landmark on Marine Parade, run as an intimate private hotel.", "lat": -45.032789, "lon": 168.660613, "p": "v"}, {"n": "Gibbston Valley Lodge & Spa", "cat": "stay", "tier": "Grand", "a": "Gibbston (Central Otago wine country)", "d": "Standalone villas set among organic Pinot Noir vines, beside the region's original wine cave and its landmark winery.", "lat": -45.024031, "lon": 168.95462, "p": "v"}, {"n": "Azur Lodge", "cat": "stay", "tier": "Grand", "a": "Queenstown (Sunshine Bay / Fernhill)", "d": "Nine private hilltop villas with floor-to-ceiling glass framing Lake Wakatipu and the Remarkables — seclusion two miles from town.", "lat": -45.030137, "lon": 168.662657, "p": "v"}, {"n": "Whare Kea Lodge & Chalet", "cat": "stay", "tier": "Grand", "a": "Wanaka", "d": "A six-room lakeside lodge on the shore of Lake Wanaka, with its own alpine chalet high in the Buchanan range for heli-guests.", "lat": -44.694169, "lon": 169.136464, "p": "a"}, {"n": "Sofitel Queenstown Hotel & Spa", "cat": "stay", "tier": "Luxury", "a": "Queenstown (central)", "d": "French polish in the heart of the village — the most refined full-service city hotel in Queenstown proper.", "lat": -45.031152, "lon": 168.659012, "p": "v"}, {"n": "Hulbert House", "cat": "stay", "tier": "Luxury", "a": "Queenstown (central)", "d": "A restored 1888 Victorian villa turned eight-room boutique hotel — the grand private-residence feel, above the village.", "lat": -45.029756, "lon": 168.66391, "p": "v"}, {"n": "Stoneridge Estate", "cat": "stay", "tier": "Luxury", "a": "Lake Hayes (near Arrowtown)", "d": "An alpine retreat and vineyard on the shores of Lake Hayes — five-star calm between Queenstown and Arrowtown.", "lat": -45.007968, "lon": 168.792369, "p": "v"}, {"n": "QT Queenstown", "cat": "stay", "tier": "Premium", "a": "Queenstown (central)", "d": "A design-led, playful house near the lakefront — style and a good bar at a gentler price.", "lat": -45.032192, "lon": 168.661, "p": "v"}, {"n": "Amisfield", "cat": "eat", "tier": "Destination", "a": "Lake Hayes (Central Otago wine country)", "d": "Vaughan Mabee's hyper-local, wild-and-endemic tasting menu at the Amisfield winery — New Zealand's most celebrated kitchen.", "lat": -44.986207, "lon": 168.815196, "p": "v"}, {"n": "Sherwood", "cat": "eat", "tier": "Fine", "a": "Queenstown (Frankton Road)", "d": "Chris Scott's produce-driven cooking at the eco-minded Sherwood — much of it from the restaurant's own gardens.", "lat": -45.023582, "lon": 168.696888, "p": "v"}, {"n": "Aosta", "cat": "eat", "tier": "Fine", "a": "Arrowtown", "d": "Ben Bayly's ode to Northern Italy through a Central Otago lens — a stone cottage on Arrowtown's historic main street.", "lat": -44.938651, "lon": 168.830938, "p": "v"}, {"n": "Kika", "cat": "eat", "tier": "Fine", "a": "Wanaka", "d": "James Stapley's small, ever-improving Wanaka room — sharing plates that get better every year.", "lat": -44.695459, "lon": 169.136466, "p": "v"}, {"n": "Rātā", "cat": "eat", "tier": "Fine", "a": "Queenstown (central)", "d": "Josh Emett's refined bistro in a garden courtyard off the mall — polished, seasonal, and reliably excellent.", "lat": -45.031572, "lon": 168.662777, "p": "v"}, {"n": "Jervois Steak House", "cat": "eat", "tier": "Fine", "a": "Queenstown (lakefront)", "d": "Serious steak on the waterfront — arguably the best cut in the province, done without fuss.", "lat": -45.031261, "lon": 168.658818, "p": "v"}, {"n": "Botswana Butchery", "cat": "eat", "tier": "Fine", "a": "Queenstown (Marine Parade, lakefront)", "d": "A stalwart of adventure-capital dining — meat, game and a vast wine list in a clubby lakefront room.", "lat": -45.033363, "lon": 168.661702, "p": "v"}, {"n": "Toast and Oak", "cat": "eat", "tier": "Fine", "a": "Queenstown (central)", "d": "A wine-led kitchen doing considered, seasonal small plates — Queenstown's most food-and-wine-minded newcomer to the hats.", "lat": -45.034357, "lon": 168.678519, "p": "v"}, {"n": "Skyline Gondola & Bob's Peak", "cat": "do", "tier": "", "a": "Queenstown centre / Brecon Street", "d": "The steepest cable-car lift in the Southern Hemisphere climbs 480m in about ten minutes to a glass-fronted eyrie over Lake Wakatipu, with The Remarkables and Cecil and Walter Peaks laid out across the water. Ride up for a leisurely buffet at the Stratosfare Restaurant, or simply for the sundowner view — gentle enough for the grandparents, spectacular for everyone.", "lat": -45.028311, "lon": 168.656124, "p": "v"}, {"n": "The Skyline Luge", "cat": "do", "tier": "", "a": "Bob's Peak, above Queenstown", "d": "At the top of the gondola, gravity carts wind down banked, tunnelled tracks with 220-degree views of the lake and mountains — the Blue Track a gentle cruise, the Red Track steeper and faster. It is the rare thrill that a nine-year-old and a grandfather can both take on, at their own pace, side by side.", "lat": -45.026415, "lon": 168.649602, "p": "v"}, {"n": "TSS Earnslaw Steamship Cruise to Walter Peak", "cat": "do", "tier": "", "a": "Steamer Wharf / Lake Wakatipu", "d": "The 1912 'Lady of the Lake' is the only hand-fired coal steamship still carrying passengers in the Southern Hemisphere — a 90-minute glide across the water to Walter Peak High Country Farm, engine room open to wander and a pianist on deck. At the farm, a gourmet barbecue and a sheep-shearing show delight children while elders relax by the fire; ask for the vegetarian menu in advance.", "lat": -45.088804, "lon": 168.521111, "p": "a"}, {"n": "Queenstown Gardens & Lakefront Peninsula", "cat": "do", "tier": "", "a": "Queenstown centre", "d": "A leafy peninsula reaching into Lake Wakatipu, threaded with rose gardens, giant sequoias, a frisbee-golf course and easy flat paths right on the water — five minutes' stroll from the town centre. It is the gentle, unhurried heart of Queenstown: a picnic, a slow lakeside walk, and the mountains reflected on still mornings.", "lat": -45.036381, "lon": 168.649515, "p": "v"}, {"n": "The Queenstown Lakefront & Steamer Wharf", "cat": "do", "tier": "", "a": "Queenstown centre", "d": "The waterfront promenade is the town's living room — jetties, the historic Steamer Wharf, lakeside restaurants and the famous Fergburger queue just up the hill. Take an evening walk as the peaks turn pink, or hand the family a lakeside table for dinner with the water at your feet.", "lat": -45.033254, "lon": 168.657799, "p": "v"}, {"n": "Shotover Jet", "cat": "do", "tier": "", "a": "Arthurs Point, Shotover River", "d": "The only operator licensed inside the sheer Shotover Canyons, these red jet boats skim inches from rock walls at 85kph and spin the signature 360s down a river no other boat can run. A thrilling but accessible half-hour — the kind of adrenaline the teenagers demand and the parents secretly love.", "lat": -44.987113, "lon": 168.671352, "p": "v"}, {"n": "Kawarau Bridge Bungy — the World's First", "cat": "do", "tier": "", "a": "Kawarau Gorge, 23km from Queenstown", "d": "AJ Hackett opened commercial bungy jumping here in 1988; the 43m leap off the historic suspension bridge into the Kawarau River is where the whole sport began. Even if no one in the family jumps, the viewing decks and cantilevered platform make it a genuine pilgrimage — watch, cheer, and photograph the leap.", "lat": -45.008747, "lon": 168.899647, "p": "a"}, {"n": "The Nevis Bungy & Swing", "cat": "do", "tier": "", "a": "Nevis Valley, private high country", "d": "Reached by 4WD across private farmland, the Nevis is New Zealand's highest bungy — a 134m plunge from a pod slung over a canyon — plus the world's biggest swing, which arcs a vast 300m and can be ridden tandem. This is the serious adventurer's badge; for the rest, the drive and the canyon setting alone are extraordinary.", "lat": -45.02698, "lon": 168.649758, "p": "v"}, {"n": "Shotover Canyon Swing & Canyon Fox", "cat": "do", "tier": "", "a": "Shotover Canyon", "d": "A 60m freefall from a 109m clifftop platform before a giant 200m swing sweeps you over the river — jumped forwards, backwards or in one of dozens of theatrical release styles. It sits in the sweet spot between bungy and pure fun, with the milder Canyon Fox zipline alongside for those who prefer to watch.", "lat": -45.031419, "lon": 168.659868, "p": "v"}, {"n": "Skydive Over The Remarkables (NZONE)", "cat": "do", "tier": "", "a": "Remarkables drop zone, near Queenstown", "d": "Tandem jumps from 9,000, 12,000 or 15,000 feet fall over an almost unfair panorama — the lake, the alps and the fjords all at once. It is the once-in-a-lifetime photograph; and for family members staying on the ground, the drop zone viewing is part of the theatre.", "lat": -45.024415, "lon": 168.741241, "p": "v"}, {"n": "White-Water Rafting the Shotover & Kawarau Rivers", "cat": "do", "tier": "", "a": "Skippers Canyon / Kawarau River", "d": "The Shotover delivers grade 3–5 rapids down the legendary Skippers Canyon Road and through the dark Oxenbridge Tunnel; the Kawarau runs a gentler grade 2–3 for families and first-timers. A guided, full-day wilderness outing — choose the river to match your nerve.", "lat": -45.017471, "lon": 168.949212, "p": "a"}, {"n": "Onsen Hot Pools & Day Spa", "cat": "do", "tier": "", "a": "Arthurs Point, above the Shotover River", "d": "Private cedar-lined hot tubs perched over the Shotover gorge, where a garage-style wall slides open so you soak half-inside, half under the open alpine sky. Booked room by room, it is the discreet, restorative counterpoint to a day of adventure — a couples' soak, or the whole family unwinding with the mountains in view.", "lat": -44.980995, "lon": 168.685428, "p": "v"}, {"n": "Gibbston Valley Wine Tour", "cat": "do", "tier": "", "a": "Gibbston, Central Otago", "d": "Twenty-five minutes from town, Central Otago's 'Valley of the Vines' is world-famous for cool-climate Pinot Noir, its cellar doors strung along the Kawarau Gorge. A private-driver tour lets everyone taste freely — seated fireside at Amisfield, or deep inside the country's largest wine cave at Gibbston Valley — over a long, unhurried lunch.", "lat": -45.012283, "lon": 168.915154, "p": "v"}, {"n": "Gibbston Valley Winery, Wine Cave & Cheesery", "cat": "do", "tier": "", "a": "Gibbston", "d": "The region's oldest vineyard, first vintage 1987, is now a small estate in itself — a candlelit tasting in New Zealand's largest wine cave, an on-site cheesery, a bistro and a luxury lodge and spa. A single, elegant stop that satisfies serious wine lovers and casual visitors alike.", "lat": -45.023294, "lon": 168.955243, "p": "a"}, {"n": "Amisfield Cellar Door & Restaurant", "cat": "do", "tier": "", "a": "Lake Hayes, near Arrowtown", "d": "A rustic converted woolshed turned into one of the country's most acclaimed dining rooms, where the celebrated 'Trust the Kitchen' tasting menu is paired with the estate's own Pinot. Reserve well ahead; it is the definitive long lunch, and the kitchen handles vegetarian and dietary requests with real care.", "lat": -45.028065, "lon": 168.97495, "p": "v"}, {"n": "Arrowtown — Historic Gold-Rush Village", "cat": "do", "tier": "", "a": "Arrowtown, 20km from Queenstown", "d": "A jewel of a settlement on the gold-bearing Arrow River, its 1860s Buckingham Street lined with more than sixty preserved miners' cottages, boutiques and cafés. A gentle, walkable day of history and browsing — with the excellent Lakes District Museum for the curious and gold-panning in the river for the children.", "lat": -44.945281, "lon": 168.835358, "p": "a"}, {"n": "Arrowtown Chinese Settlement", "cat": "do", "tier": "", "a": "Arrowtown", "d": "At the edge of town along Bush Creek stand the restored stone huts and Ah Lum's store of the Chinese gold-miners who arrived from 1866 — a quiet, moving record of a community that was pushed to the town's margins. A short, thoughtful walk that gives Arrowtown's prettiness real depth.", "lat": -44.938186, "lon": 168.825689, "p": "v"}, {"n": "Arrowtown in Autumn", "cat": "do", "tier": "", "a": "Arrowtown", "d": "For a few weeks in April and May the town's avenues of oaks, poplars and sycamores blaze gold and amber — one of the most photographed sights in the South Island, crowned by the Arrowtown Autumn Festival. Time a visit here and the whole family walks through a painting.", "lat": -44.942569, "lon": 168.836989, "p": "v"}, {"n": "Glenorchy & Paradise", "cat": "do", "tier": "", "a": "Head of Lake Wakatipu, 45km from Queenstown", "d": "The road to Glenorchy is itself one of the world's great drives, hugging the lake to a tiny township at the gateway of Mt Aspiring National Park and the valley literally named Paradise. Base a serene day here among braided rivers and beech forest — the setting for Lord of the Rings' Misty Mountains and Isengard.", "lat": -44.847194, "lon": 168.394944, "p": "v"}, {"n": "Dart River Wilderness Jet Safari", "cat": "do", "tier": "", "a": "Glenorchy / Dart River", "d": "A jet boat threads the braided, glacier-fed Dart through the heart of a UNESCO wilderness, with 360-degree spins and a guided walk through ancient beech forest and film locations. Faster than the TSS Earnslaw but far gentler than the Shotover — a scenic thrill that spans the generations.", "lat": -44.849294, "lon": 168.385979, "p": "a"}, {"n": "High-Country Horse Riding at Glenorchy", "cat": "do", "tier": "", "a": "Rees & Dart Valleys, Glenorchy", "d": "Guided treks cross glacial rivers and open flats beneath towering peaks, from gentle walking-pace rides for beginners to longer back-country trails. It is a soft, cinematic way into landscapes most visitors only see from a boat — well suited to a mixed-ability family group.", "lat": -44.849294, "lon": 168.385979, "p": "a"}, {"n": "Lord of the Rings 4WD Film-Location Safari (Nomad Safaris)", "cat": "do", "tier": "", "a": "Wakatipu Basin & Kawarau Gorge", "d": "A half-day 4WD tour to the real Middle-earth — the Kawarau Gorge that became the Pillars of the Kings, Deer Park Heights and The Remarkables that stood in for the Misty Mountains — with gold-panning along the way. Minimal walking and small Land Cruiser groups make it easy for every age.", "lat": -45.008747, "lon": 168.899647, "p": "a"}, {"n": "Lake Hayes Loop Walk", "cat": "do", "tier": "", "a": "Between Queenstown and Arrowtown", "d": "A flat, beautiful 8km circuit around a mirror-still lake famous for its reflections of the surrounding hills — about two to three easy hours, or a gentle e-bike. One of the district's most relaxing outings, and a lovely stop paired with an Amisfield lunch nearby.", "lat": -45.007968, "lon": 168.792369, "p": "v"}, {"n": "Moke Lake", "cat": "do", "tier": "", "a": "15 minutes from Queenstown", "d": "A hidden, horseshoe-shaped lake ringed by hills down a short gravel road, gloriously quiet and framed for still-water reflections at dawn and dusk. A peaceful picnic, an easy loop walk or a paddle — the local's antidote to the town's bustle.", "lat": -45.003664, "lon": 168.563836, "p": "v"}, {"n": "Milford Sound Scenic Flight (Fly-Cruise-Fly)", "cat": "do", "tier": "", "a": "Queenstown Airport / Fiordland", "d": "A 45-minute flight over the Southern Alps and glaciers to land at Milford, cruise the fjord, and fly home — often called the world's finest scenic flight, and a fraction of the driving day. The private, elevated way to see Fiordland when time and comfort matter.", "lat": -45.0193, "lon": 168.74344, "p": "a"}, {"n": "Scenic Helicopter Flight & Alpine Landing", "cat": "do", "tier": "", "a": "Southern Alps around Queenstown", "d": "Shorter flights sweep over the lake, The Remarkables and Cecil and Walter Peaks with a snow or summit landing — a gentle taste of the high country for those not ready for a full heli-picnic. A superb way to give elders the alpine grandeur without a hike.", "lat": -45.030921, "lon": 168.661781, "p": "a"}, {"n": "Guided & Heli Fly-Fishing for Trout", "cat": "do", "tier": "", "a": "Central Otago & Southland rivers", "d": "Gin-clear high-country rivers hold sight-fishable brown trout that can top ten pounds; a private guide walks you to spring creeks, or a helicopter drops you into pristine backcountry water no road reaches. A meditative, world-class pursuit for the angler in the family — bespoke and unhurried.", "lat": -45.033868, "lon": 168.666024, "p": "a"}, {"n": "Coronet Peak Ski Field", "cat": "do", "tier": "", "a": "18km from Queenstown", "d": "The closest field to town on a fully sealed road, with wide open runs, a strong learners' area and New Zealand's only floodlit night skiing followed by après. Between roughly June and October it is the family's easy day on the snow; out of season, the summit road still rewards with sweeping views.", "lat": -45.03089, "lon": 168.659533, "p": "v"}, {"n": "The Remarkables Ski Field", "cat": "do", "tier": "", "a": "35km from Queenstown", "d": "The mountain range that gives Queenstown its silhouette hides sheltered basins and one of the country's best beginner zones served by covered conveyor lifts. In winter it is a superb, uncrowded family day out; the drive up alone, in any season, is spectacular.", "lat": -45.053497, "lon": 168.813897, "p": "v"}, {"n": "Cardrona Alpine Resort", "cat": "do", "tier": "", "a": "Crown Range, between Queenstown & Wanaka", "d": "The region's largest ski area and best all-rounder, reliably snowy, with terrain for every level and a beloved après scene — reached over the dramatic Crown Range Road, New Zealand's highest sealed pass. Worth the drive for a change of mountain, and a fine stop en route to Wanaka.", "lat": -44.865704, "lon": 168.949793, "p": "v"}, {"n": "Wanaka & the #ThatWanakaTree", "cat": "do", "tier": "", "a": "Wanaka, ~1 hour from Queenstown", "d": "A calmer, more local-feeling lake town over the Crown Range, with a famous lone willow standing in the water, gentle waterfront walks and the quirky Puzzling World for children. An easy, pretty day trip that trades Queenstown's buzz for something more serene.", "lat": -44.695538, "lon": 169.134191, "p": "v"}, {"n": "Roys Peak Track", "cat": "do", "tier": "", "a": "Wanaka", "d": "New Zealand's most photographed viewpoint — a switchbacked ridge that opens onto Lake Wanaka and the Southern Alps at your feet, about a 16km, five-to-six-hour return climb. A serious but non-technical hike for the fit; start at first light to have the famous ledge to yourselves.", "lat": -44.691604, "lon": 169.055369, "p": "v"}, {"n": "The Crown Range Road & Cardrona Hotel", "cat": "do", "tier": "", "a": "Between Queenstown and Wanaka", "d": "New Zealand's highest sealed road switchbacks over the Crown Range with a lookout that takes in the whole Wakatipu Basin, pausing at the 1863 Cardrona Hotel — one of the country's oldest and most photogenic pubs. A scenic drive that is a destination in itself, easy for all ages with a driver.", "lat": -44.960903, "lon": 168.957499, "p": "v"}, {"n": "Skippers Canyon Scenic 4WD", "cat": "do", "tier": "", "a": "Skippers Canyon, north of Queenstown", "d": "One of New Zealand's most dramatic and precipitous roads, cut by hand during the gold rush along sheer schist walls above the Shotover — driven only by licensed guides. A vertiginous, story-rich half-day of history and jaw-dropping scenery, no walking required.", "lat": -44.801508, "lon": 168.661551, "p": "a"}, {"n": "Queenstown Trail — E-Bike the Lakes & Vineyards", "cat": "do", "tier": "", "a": "Wakatipu Basin", "d": "A superb network of largely flat, sealed cycle trails links the lakefront, Lake Hayes, Arrowtown and the Gibbston wineries, with swing bridges over turquoise rivers along the way. On an e-bike it suits mixed fitness perfectly — pedal between cellar doors, with a support vehicle if you prefer.", "lat": -45.025606, "lon": 168.749579, "p": "a"}, {"n": "Stargazing at Bob's Peak", "cat": "do", "tier": "", "a": "Skyline summit, above Queenstown", "d": "From roughly March to October, expert astronomers set up high-powered telescopes at the gondola summit to tour the Milky Way and the Southern Cross under some of the clearest skies in the hemisphere. A calm, wonder-filled evening — and the Central Otago region as a whole holds Dark Sky status.", "lat": -45.028311, "lon": 168.656124, "p": "a"}, {"n": "Ziptrek Ecotours", "cat": "do", "tier": "", "a": "Bob's Peak, above Queenstown", "d": "A guided series of ziplines and treetop platforms threads the native forest below the gondola, blending gentle thrill with a genuine conservation story and huge lake views. A crowd-pleaser that spans ages — real fun for children with an environmental lesson folded in.", "lat": -45.033375, "lon": 168.661133, "p": "a"}, {"n": "KJet — Lake & Rivers Jet Boat", "cat": "do", "tier": "", "a": "Queenstown town pier", "d": "Departing right from the town pier, this hour-long ride runs Lake Wakatipu and the Kawarau and Shotover Rivers with spins and speed but a milder edge than the canyon-bound Shotover Jet. The convenient, family-friendly jet-boat option — no transfer, straight off the waterfront.", "lat": -45.032192, "lon": 168.661, "p": "a"}, {"n": "Paragliding & Tandem Hang Gliding from Bob's Peak", "cat": "do", "tier": "", "a": "Skyline summit, above Queenstown", "d": "Launch off the mountain above town and soar tandem over the lake with a certified pilot, floating gently down to the lakefront — the calmest way to fly, with none of the freefall. A serene, photogenic thrill for those who want the view without the adrenaline of a skydive.", "lat": -45.028311, "lon": 168.656124, "p": "a"}, {"n": "Fergburger & the Queenstown Food Scene", "cat": "do", "tier": "", "a": "Queenstown centre", "d": "The town punches far above its size on food — from the legendary Fergburger queue to fine dining, a serious craft-beer and cocktail scene, and increasingly good Indian restaurants for a taste of home. An easy, buzzy evening out; several kitchens cater well for vegetarian and Jain preferences with notice.", "lat": -44.938171, "lon": 168.831766, "p": "v"}, {"n": "Jack's Point & Alpine Golf", "cat": "do", "tier": "", "a": "Jack's Point, south of Queenstown", "d": "One of the world's most scenic courses runs along the lake beneath The Remarkables, its holes framed by schist tors and open water — playable by visitors and paired with a fine clubhouse. A gracious, low-key day for the golfer in the party, with the mountains for company.", "lat": -45.074426, "lon": 168.739433, "p": "v"}, {"n": "Little Blackwood", "cat": "party", "tier": "Cocktail bars", "a": "Queenstown (Steamer Wharf, lakefront)", "d": "A polished, intimate cocktail room perched over Lake Wakatipu on Steamer Wharf — the town's most decorated bar.", "lat": -45.033343, "lon": 168.6579, "p": "v"}, {"n": "Eichardt's Bar", "cat": "party", "tier": "Landmark bars", "a": "Queenstown (central lakefront)", "d": "An 1867 lakefront institution — plush sofas, a roaring fire and Bollinger by the glass, inside the town's grande-dame hotel.", "lat": -45.032789, "lon": 168.660613, "p": "v"}, {"n": "Bardeaux", "cat": "party", "tier": "Cocktail bars", "a": "Queenstown (Eureka Arcade, central)", "d": "A candlelit cellar bar with a great open fire — Queenstown's serious room for whisky, wine and a quiet nightcap.", "lat": -45.032602, "lon": 168.660989, "p": "v"}]}
+{
+  "center": [
+    -45.032192,
+    168.661
+  ],
+  "venues": [
+    {
+      "n": "Rosewood Matakauri",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Queenstown (lakefront, Fernhill)",
+      "d": "A tiny Rosewood lodge above Lake Wakatipu \u2014 three suites and four villas in the beech forest, service to rival any city house.",
+      "lat": -45.013294,
+      "lon": 168.668141,
+      "photos": []
+    },
+    {
+      "n": "Blanket Bay",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Glenorchy",
+      "d": "A great stone-and-timber lodge on the shore of Lake Wakatipu beneath the Humboldt range \u2014 the archetype of the New Zealand high-country lodge.",
+      "lat": -44.864644,
+      "lon": 168.388416,
+      "photos": []
+    },
+    {
+      "n": "The Lindis",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Ahuriri Valley (Central Otago)",
+      "d": "An architectural marvel under a slatted timber roof in a remote high-country valley \u2014 pods and suites dissolving into the landscape.",
+      "lat": -44.675008,
+      "lon": 169.159154,
+      "photos": []
+    },
+    {
+      "n": "Eichardt's Private Hotel",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Queenstown (central lakefront)",
+      "d": "The best few rooms in town \u2014 an 1861 lakefront landmark on Marine Parade, run as an intimate private hotel.",
+      "lat": -45.032789,
+      "lon": 168.660613,
+      "photos": []
+    },
+    {
+      "n": "Gibbston Valley Lodge & Spa",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Gibbston (Central Otago wine country)",
+      "d": "Standalone villas set among organic Pinot Noir vines, beside the region's original wine cave and its landmark winery.",
+      "lat": -45.024031,
+      "lon": 168.95462,
+      "photos": []
+    },
+    {
+      "n": "Azur Lodge",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Queenstown (Sunshine Bay / Fernhill)",
+      "d": "Nine private hilltop villas with floor-to-ceiling glass framing Lake Wakatipu and the Remarkables \u2014 seclusion two miles from town.",
+      "lat": -45.030137,
+      "lon": 168.662657,
+      "photos": []
+    },
+    {
+      "n": "Whare Kea Lodge & Chalet",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Wanaka",
+      "d": "A six-room lakeside lodge on the shore of Lake Wanaka, with its own alpine chalet high in the Buchanan range for heli-guests.",
+      "lat": -44.694169,
+      "lon": 169.136464,
+      "photos": []
+    },
+    {
+      "n": "Sofitel Queenstown Hotel & Spa",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Queenstown (central)",
+      "d": "French polish in the heart of the village \u2014 the most refined full-service city hotel in Queenstown proper.",
+      "lat": -45.031152,
+      "lon": 168.659012,
+      "photos": []
+    },
+    {
+      "n": "Hulbert House",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Queenstown (central)",
+      "d": "A restored 1888 Victorian villa turned eight-room boutique hotel \u2014 the grand private-residence feel, above the village.",
+      "lat": -45.029756,
+      "lon": 168.66391,
+      "photos": []
+    },
+    {
+      "n": "Stoneridge Estate",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Lake Hayes (near Arrowtown)",
+      "d": "An alpine retreat and vineyard on the shores of Lake Hayes \u2014 five-star calm between Queenstown and Arrowtown.",
+      "lat": -45.007968,
+      "lon": 168.792369,
+      "photos": []
+    },
+    {
+      "n": "QT Queenstown",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Queenstown (central)",
+      "d": "A design-led, playful house near the lakefront \u2014 style and a good bar at a gentler price.",
+      "lat": -45.032192,
+      "lon": 168.661,
+      "photos": []
+    },
+    {
+      "n": "Amisfield",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Lake Hayes (Central Otago wine country)",
+      "d": "Vaughan Mabee's hyper-local, wild-and-endemic tasting menu at the Amisfield winery \u2014 New Zealand's most celebrated kitchen.",
+      "lat": -44.986207,
+      "lon": 168.815196,
+      "photos": []
+    },
+    {
+      "n": "Sherwood",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Queenstown (Frankton Road)",
+      "d": "Chris Scott's produce-driven cooking at the eco-minded Sherwood \u2014 much of it from the restaurant's own gardens.",
+      "lat": -45.023582,
+      "lon": 168.696888,
+      "photos": []
+    },
+    {
+      "n": "Aosta",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Arrowtown",
+      "d": "Ben Bayly's ode to Northern Italy through a Central Otago lens \u2014 a stone cottage on Arrowtown's historic main street.",
+      "lat": -44.938651,
+      "lon": 168.830938,
+      "photos": []
+    },
+    {
+      "n": "Kika",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Wanaka",
+      "d": "James Stapley's small, ever-improving Wanaka room \u2014 sharing plates that get better every year.",
+      "lat": -44.695459,
+      "lon": 169.136466,
+      "photos": []
+    },
+    {
+      "n": "R\u0101t\u0101",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Queenstown (central)",
+      "d": "Josh Emett's refined bistro in a garden courtyard off the mall \u2014 polished, seasonal, and reliably excellent.",
+      "lat": -45.031572,
+      "lon": 168.662777,
+      "photos": []
+    },
+    {
+      "n": "Jervois Steak House",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Queenstown (lakefront)",
+      "d": "Serious steak on the waterfront \u2014 arguably the best cut in the province, done without fuss.",
+      "lat": -45.031261,
+      "lon": 168.658818,
+      "photos": []
+    },
+    {
+      "n": "Botswana Butchery",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Queenstown (Marine Parade, lakefront)",
+      "d": "A stalwart of adventure-capital dining \u2014 meat, game and a vast wine list in a clubby lakefront room.",
+      "lat": -45.033363,
+      "lon": 168.661702,
+      "photos": []
+    },
+    {
+      "n": "Toast and Oak",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Queenstown (central)",
+      "d": "A wine-led kitchen doing considered, seasonal small plates \u2014 Queenstown's most food-and-wine-minded newcomer to the hats.",
+      "lat": -45.034357,
+      "lon": 168.678519,
+      "photos": []
+    },
+    {
+      "n": "Skyline Gondola & Bob's Peak",
+      "cat": "do",
+      "tier": "",
+      "a": "Queenstown centre / Brecon Street",
+      "d": "The steepest cable-car lift in the Southern Hemisphere climbs 480m in about ten minutes to a glass-fronted eyrie over Lake Wakatipu, with The Remarkables and Cecil and Walter Peaks laid out across the water. Ride up for a leisurely buffet at the Stratosfare Restaurant, or simply for the sundowner view \u2014 gentle enough for the grandparents, spectacular for everyone.",
+      "lat": -45.028311,
+      "lon": 168.656124,
+      "photos": []
+    },
+    {
+      "n": "The Skyline Luge",
+      "cat": "do",
+      "tier": "",
+      "a": "Bob's Peak, above Queenstown",
+      "d": "At the top of the gondola, gravity carts wind down banked, tunnelled tracks with 220-degree views of the lake and mountains \u2014 the Blue Track a gentle cruise, the Red Track steeper and faster. It is the rare thrill that a nine-year-old and a grandfather can both take on, at their own pace, side by side.",
+      "lat": -45.026415,
+      "lon": 168.649602,
+      "photos": []
+    },
+    {
+      "n": "TSS Earnslaw Steamship Cruise to Walter Peak",
+      "cat": "do",
+      "tier": "",
+      "a": "Steamer Wharf / Lake Wakatipu",
+      "d": "The 1912 'Lady of the Lake' is the only hand-fired coal steamship still carrying passengers in the Southern Hemisphere \u2014 a 90-minute glide across the water to Walter Peak High Country Farm, engine room open to wander and a pianist on deck. At the farm, a gourmet barbecue and a sheep-shearing show delight children while elders relax by the fire; ask for the vegetarian menu in advance.",
+      "lat": -45.088804,
+      "lon": 168.521111,
+      "photos": []
+    },
+    {
+      "n": "Queenstown Gardens & Lakefront Peninsula",
+      "cat": "do",
+      "tier": "",
+      "a": "Queenstown centre",
+      "d": "A leafy peninsula reaching into Lake Wakatipu, threaded with rose gardens, giant sequoias, a frisbee-golf course and easy flat paths right on the water \u2014 five minutes' stroll from the town centre. It is the gentle, unhurried heart of Queenstown: a picnic, a slow lakeside walk, and the mountains reflected on still mornings.",
+      "lat": -45.036381,
+      "lon": 168.649515,
+      "photos": []
+    },
+    {
+      "n": "The Queenstown Lakefront & Steamer Wharf",
+      "cat": "do",
+      "tier": "",
+      "a": "Queenstown centre",
+      "d": "The waterfront promenade is the town's living room \u2014 jetties, the historic Steamer Wharf, lakeside restaurants and the famous Fergburger queue just up the hill. Take an evening walk as the peaks turn pink, or hand the family a lakeside table for dinner with the water at your feet.",
+      "lat": -45.033254,
+      "lon": 168.657799,
+      "photos": []
+    },
+    {
+      "n": "Shotover Jet",
+      "cat": "do",
+      "tier": "",
+      "a": "Arthurs Point, Shotover River",
+      "d": "The only operator licensed inside the sheer Shotover Canyons, these red jet boats skim inches from rock walls at 85kph and spin the signature 360s down a river no other boat can run. A thrilling but accessible half-hour \u2014 the kind of adrenaline the teenagers demand and the parents secretly love.",
+      "lat": -44.987113,
+      "lon": 168.671352,
+      "photos": []
+    },
+    {
+      "n": "Kawarau Bridge Bungy \u2014 the World's First",
+      "cat": "do",
+      "tier": "",
+      "a": "Kawarau Gorge, 23km from Queenstown",
+      "d": "AJ Hackett opened commercial bungy jumping here in 1988; the 43m leap off the historic suspension bridge into the Kawarau River is where the whole sport began. Even if no one in the family jumps, the viewing decks and cantilevered platform make it a genuine pilgrimage \u2014 watch, cheer, and photograph the leap.",
+      "lat": -45.008747,
+      "lon": 168.899647,
+      "photos": []
+    },
+    {
+      "n": "The Nevis Bungy & Swing",
+      "cat": "do",
+      "tier": "",
+      "a": "Nevis Valley, private high country",
+      "d": "Reached by 4WD across private farmland, the Nevis is New Zealand's highest bungy \u2014 a 134m plunge from a pod slung over a canyon \u2014 plus the world's biggest swing, which arcs a vast 300m and can be ridden tandem. This is the serious adventurer's badge; for the rest, the drive and the canyon setting alone are extraordinary.",
+      "lat": -45.02698,
+      "lon": 168.649758,
+      "photos": []
+    },
+    {
+      "n": "Shotover Canyon Swing & Canyon Fox",
+      "cat": "do",
+      "tier": "",
+      "a": "Shotover Canyon",
+      "d": "A 60m freefall from a 109m clifftop platform before a giant 200m swing sweeps you over the river \u2014 jumped forwards, backwards or in one of dozens of theatrical release styles. It sits in the sweet spot between bungy and pure fun, with the milder Canyon Fox zipline alongside for those who prefer to watch.",
+      "lat": -45.031419,
+      "lon": 168.659868,
+      "photos": []
+    },
+    {
+      "n": "Skydive Over The Remarkables (NZONE)",
+      "cat": "do",
+      "tier": "",
+      "a": "Remarkables drop zone, near Queenstown",
+      "d": "Tandem jumps from 9,000, 12,000 or 15,000 feet fall over an almost unfair panorama \u2014 the lake, the alps and the fjords all at once. It is the once-in-a-lifetime photograph; and for family members staying on the ground, the drop zone viewing is part of the theatre.",
+      "lat": -45.024415,
+      "lon": 168.741241,
+      "photos": []
+    },
+    {
+      "n": "White-Water Rafting the Shotover & Kawarau Rivers",
+      "cat": "do",
+      "tier": "",
+      "a": "Skippers Canyon / Kawarau River",
+      "d": "The Shotover delivers grade 3\u20135 rapids down the legendary Skippers Canyon Road and through the dark Oxenbridge Tunnel; the Kawarau runs a gentler grade 2\u20133 for families and first-timers. A guided, full-day wilderness outing \u2014 choose the river to match your nerve.",
+      "lat": -45.017471,
+      "lon": 168.949212,
+      "photos": []
+    },
+    {
+      "n": "Onsen Hot Pools & Day Spa",
+      "cat": "do",
+      "tier": "",
+      "a": "Arthurs Point, above the Shotover River",
+      "d": "Private cedar-lined hot tubs perched over the Shotover gorge, where a garage-style wall slides open so you soak half-inside, half under the open alpine sky. Booked room by room, it is the discreet, restorative counterpoint to a day of adventure \u2014 a couples' soak, or the whole family unwinding with the mountains in view.",
+      "lat": -44.980995,
+      "lon": 168.685428,
+      "photos": []
+    },
+    {
+      "n": "Gibbston Valley Wine Tour",
+      "cat": "do",
+      "tier": "",
+      "a": "Gibbston, Central Otago",
+      "d": "Twenty-five minutes from town, Central Otago's 'Valley of the Vines' is world-famous for cool-climate Pinot Noir, its cellar doors strung along the Kawarau Gorge. A private-driver tour lets everyone taste freely \u2014 seated fireside at Amisfield, or deep inside the country's largest wine cave at Gibbston Valley \u2014 over a long, unhurried lunch.",
+      "lat": -45.012283,
+      "lon": 168.915154,
+      "photos": []
+    },
+    {
+      "n": "Gibbston Valley Winery, Wine Cave & Cheesery",
+      "cat": "do",
+      "tier": "",
+      "a": "Gibbston",
+      "d": "The region's oldest vineyard, first vintage 1987, is now a small estate in itself \u2014 a candlelit tasting in New Zealand's largest wine cave, an on-site cheesery, a bistro and a luxury lodge and spa. A single, elegant stop that satisfies serious wine lovers and casual visitors alike.",
+      "lat": -45.023294,
+      "lon": 168.955243,
+      "photos": []
+    },
+    {
+      "n": "Amisfield Cellar Door & Restaurant",
+      "cat": "do",
+      "tier": "",
+      "a": "Lake Hayes, near Arrowtown",
+      "d": "A rustic converted woolshed turned into one of the country's most acclaimed dining rooms, where the celebrated 'Trust the Kitchen' tasting menu is paired with the estate's own Pinot. Reserve well ahead; it is the definitive long lunch, and the kitchen handles vegetarian and dietary requests with real care.",
+      "lat": -45.028065,
+      "lon": 168.97495,
+      "photos": []
+    },
+    {
+      "n": "Arrowtown \u2014 Historic Gold-Rush Village",
+      "cat": "do",
+      "tier": "",
+      "a": "Arrowtown, 20km from Queenstown",
+      "d": "A jewel of a settlement on the gold-bearing Arrow River, its 1860s Buckingham Street lined with more than sixty preserved miners' cottages, boutiques and caf\u00e9s. A gentle, walkable day of history and browsing \u2014 with the excellent Lakes District Museum for the curious and gold-panning in the river for the children.",
+      "lat": -44.945281,
+      "lon": 168.835358,
+      "photos": []
+    },
+    {
+      "n": "Arrowtown Chinese Settlement",
+      "cat": "do",
+      "tier": "",
+      "a": "Arrowtown",
+      "d": "At the edge of town along Bush Creek stand the restored stone huts and Ah Lum's store of the Chinese gold-miners who arrived from 1866 \u2014 a quiet, moving record of a community that was pushed to the town's margins. A short, thoughtful walk that gives Arrowtown's prettiness real depth.",
+      "lat": -44.938186,
+      "lon": 168.825689,
+      "photos": []
+    },
+    {
+      "n": "Arrowtown in Autumn",
+      "cat": "do",
+      "tier": "",
+      "a": "Arrowtown",
+      "d": "For a few weeks in April and May the town's avenues of oaks, poplars and sycamores blaze gold and amber \u2014 one of the most photographed sights in the South Island, crowned by the Arrowtown Autumn Festival. Time a visit here and the whole family walks through a painting.",
+      "lat": -44.942569,
+      "lon": 168.836989,
+      "photos": []
+    },
+    {
+      "n": "Glenorchy & Paradise",
+      "cat": "do",
+      "tier": "",
+      "a": "Head of Lake Wakatipu, 45km from Queenstown",
+      "d": "The road to Glenorchy is itself one of the world's great drives, hugging the lake to a tiny township at the gateway of Mt Aspiring National Park and the valley literally named Paradise. Base a serene day here among braided rivers and beech forest \u2014 the setting for Lord of the Rings' Misty Mountains and Isengard.",
+      "lat": -44.847194,
+      "lon": 168.394944,
+      "photos": []
+    },
+    {
+      "n": "Dart River Wilderness Jet Safari",
+      "cat": "do",
+      "tier": "",
+      "a": "Glenorchy / Dart River",
+      "d": "A jet boat threads the braided, glacier-fed Dart through the heart of a UNESCO wilderness, with 360-degree spins and a guided walk through ancient beech forest and film locations. Faster than the TSS Earnslaw but far gentler than the Shotover \u2014 a scenic thrill that spans the generations.",
+      "lat": -44.849294,
+      "lon": 168.385979,
+      "photos": []
+    },
+    {
+      "n": "High-Country Horse Riding at Glenorchy",
+      "cat": "do",
+      "tier": "",
+      "a": "Rees & Dart Valleys, Glenorchy",
+      "d": "Guided treks cross glacial rivers and open flats beneath towering peaks, from gentle walking-pace rides for beginners to longer back-country trails. It is a soft, cinematic way into landscapes most visitors only see from a boat \u2014 well suited to a mixed-ability family group.",
+      "lat": -44.849294,
+      "lon": 168.385979,
+      "photos": []
+    },
+    {
+      "n": "Lord of the Rings 4WD Film-Location Safari (Nomad Safaris)",
+      "cat": "do",
+      "tier": "",
+      "a": "Wakatipu Basin & Kawarau Gorge",
+      "d": "A half-day 4WD tour to the real Middle-earth \u2014 the Kawarau Gorge that became the Pillars of the Kings, Deer Park Heights and The Remarkables that stood in for the Misty Mountains \u2014 with gold-panning along the way. Minimal walking and small Land Cruiser groups make it easy for every age.",
+      "lat": -45.008747,
+      "lon": 168.899647,
+      "photos": []
+    },
+    {
+      "n": "Lake Hayes Loop Walk",
+      "cat": "do",
+      "tier": "",
+      "a": "Between Queenstown and Arrowtown",
+      "d": "A flat, beautiful 8km circuit around a mirror-still lake famous for its reflections of the surrounding hills \u2014 about two to three easy hours, or a gentle e-bike. One of the district's most relaxing outings, and a lovely stop paired with an Amisfield lunch nearby.",
+      "lat": -45.007968,
+      "lon": 168.792369,
+      "photos": []
+    },
+    {
+      "n": "Moke Lake",
+      "cat": "do",
+      "tier": "",
+      "a": "15 minutes from Queenstown",
+      "d": "A hidden, horseshoe-shaped lake ringed by hills down a short gravel road, gloriously quiet and framed for still-water reflections at dawn and dusk. A peaceful picnic, an easy loop walk or a paddle \u2014 the local's antidote to the town's bustle.",
+      "lat": -45.003664,
+      "lon": 168.563836,
+      "photos": []
+    },
+    {
+      "n": "Milford Sound Scenic Flight (Fly-Cruise-Fly)",
+      "cat": "do",
+      "tier": "",
+      "a": "Queenstown Airport / Fiordland",
+      "d": "A 45-minute flight over the Southern Alps and glaciers to land at Milford, cruise the fjord, and fly home \u2014 often called the world's finest scenic flight, and a fraction of the driving day. The private, elevated way to see Fiordland when time and comfort matter.",
+      "lat": -45.0193,
+      "lon": 168.74344,
+      "photos": []
+    },
+    {
+      "n": "Scenic Helicopter Flight & Alpine Landing",
+      "cat": "do",
+      "tier": "",
+      "a": "Southern Alps around Queenstown",
+      "d": "Shorter flights sweep over the lake, The Remarkables and Cecil and Walter Peaks with a snow or summit landing \u2014 a gentle taste of the high country for those not ready for a full heli-picnic. A superb way to give elders the alpine grandeur without a hike.",
+      "lat": -45.030921,
+      "lon": 168.661781,
+      "photos": []
+    },
+    {
+      "n": "Guided & Heli Fly-Fishing for Trout",
+      "cat": "do",
+      "tier": "",
+      "a": "Central Otago & Southland rivers",
+      "d": "Gin-clear high-country rivers hold sight-fishable brown trout that can top ten pounds; a private guide walks you to spring creeks, or a helicopter drops you into pristine backcountry water no road reaches. A meditative, world-class pursuit for the angler in the family \u2014 bespoke and unhurried.",
+      "lat": -45.033868,
+      "lon": 168.666024,
+      "photos": []
+    },
+    {
+      "n": "Coronet Peak Ski Field",
+      "cat": "do",
+      "tier": "",
+      "a": "18km from Queenstown",
+      "d": "The closest field to town on a fully sealed road, with wide open runs, a strong learners' area and New Zealand's only floodlit night skiing followed by apr\u00e8s. Between roughly June and October it is the family's easy day on the snow; out of season, the summit road still rewards with sweeping views.",
+      "lat": -45.03089,
+      "lon": 168.659533,
+      "photos": []
+    },
+    {
+      "n": "The Remarkables Ski Field",
+      "cat": "do",
+      "tier": "",
+      "a": "35km from Queenstown",
+      "d": "The mountain range that gives Queenstown its silhouette hides sheltered basins and one of the country's best beginner zones served by covered conveyor lifts. In winter it is a superb, uncrowded family day out; the drive up alone, in any season, is spectacular.",
+      "lat": -45.053497,
+      "lon": 168.813897,
+      "photos": []
+    },
+    {
+      "n": "Cardrona Alpine Resort",
+      "cat": "do",
+      "tier": "",
+      "a": "Crown Range, between Queenstown & Wanaka",
+      "d": "The region's largest ski area and best all-rounder, reliably snowy, with terrain for every level and a beloved apr\u00e8s scene \u2014 reached over the dramatic Crown Range Road, New Zealand's highest sealed pass. Worth the drive for a change of mountain, and a fine stop en route to Wanaka.",
+      "lat": -44.865704,
+      "lon": 168.949793,
+      "photos": []
+    },
+    {
+      "n": "Wanaka & the #ThatWanakaTree",
+      "cat": "do",
+      "tier": "",
+      "a": "Wanaka, ~1 hour from Queenstown",
+      "d": "A calmer, more local-feeling lake town over the Crown Range, with a famous lone willow standing in the water, gentle waterfront walks and the quirky Puzzling World for children. An easy, pretty day trip that trades Queenstown's buzz for something more serene.",
+      "lat": -44.695538,
+      "lon": 169.134191,
+      "photos": []
+    },
+    {
+      "n": "Roys Peak Track",
+      "cat": "do",
+      "tier": "",
+      "a": "Wanaka",
+      "d": "New Zealand's most photographed viewpoint \u2014 a switchbacked ridge that opens onto Lake Wanaka and the Southern Alps at your feet, about a 16km, five-to-six-hour return climb. A serious but non-technical hike for the fit; start at first light to have the famous ledge to yourselves.",
+      "lat": -44.691604,
+      "lon": 169.055369,
+      "photos": []
+    },
+    {
+      "n": "The Crown Range Road & Cardrona Hotel",
+      "cat": "do",
+      "tier": "",
+      "a": "Between Queenstown and Wanaka",
+      "d": "New Zealand's highest sealed road switchbacks over the Crown Range with a lookout that takes in the whole Wakatipu Basin, pausing at the 1863 Cardrona Hotel \u2014 one of the country's oldest and most photogenic pubs. A scenic drive that is a destination in itself, easy for all ages with a driver.",
+      "lat": -44.960903,
+      "lon": 168.957499,
+      "photos": []
+    },
+    {
+      "n": "Skippers Canyon Scenic 4WD",
+      "cat": "do",
+      "tier": "",
+      "a": "Skippers Canyon, north of Queenstown",
+      "d": "One of New Zealand's most dramatic and precipitous roads, cut by hand during the gold rush along sheer schist walls above the Shotover \u2014 driven only by licensed guides. A vertiginous, story-rich half-day of history and jaw-dropping scenery, no walking required.",
+      "lat": -44.801508,
+      "lon": 168.661551,
+      "photos": []
+    },
+    {
+      "n": "Queenstown Trail \u2014 E-Bike the Lakes & Vineyards",
+      "cat": "do",
+      "tier": "",
+      "a": "Wakatipu Basin",
+      "d": "A superb network of largely flat, sealed cycle trails links the lakefront, Lake Hayes, Arrowtown and the Gibbston wineries, with swing bridges over turquoise rivers along the way. On an e-bike it suits mixed fitness perfectly \u2014 pedal between cellar doors, with a support vehicle if you prefer.",
+      "lat": -45.025606,
+      "lon": 168.749579,
+      "photos": []
+    },
+    {
+      "n": "Stargazing at Bob's Peak",
+      "cat": "do",
+      "tier": "",
+      "a": "Skyline summit, above Queenstown",
+      "d": "From roughly March to October, expert astronomers set up high-powered telescopes at the gondola summit to tour the Milky Way and the Southern Cross under some of the clearest skies in the hemisphere. A calm, wonder-filled evening \u2014 and the Central Otago region as a whole holds Dark Sky status.",
+      "lat": -45.028311,
+      "lon": 168.656124,
+      "photos": []
+    },
+    {
+      "n": "Ziptrek Ecotours",
+      "cat": "do",
+      "tier": "",
+      "a": "Bob's Peak, above Queenstown",
+      "d": "A guided series of ziplines and treetop platforms threads the native forest below the gondola, blending gentle thrill with a genuine conservation story and huge lake views. A crowd-pleaser that spans ages \u2014 real fun for children with an environmental lesson folded in.",
+      "lat": -45.033375,
+      "lon": 168.661133,
+      "photos": []
+    },
+    {
+      "n": "KJet \u2014 Lake & Rivers Jet Boat",
+      "cat": "do",
+      "tier": "",
+      "a": "Queenstown town pier",
+      "d": "Departing right from the town pier, this hour-long ride runs Lake Wakatipu and the Kawarau and Shotover Rivers with spins and speed but a milder edge than the canyon-bound Shotover Jet. The convenient, family-friendly jet-boat option \u2014 no transfer, straight off the waterfront.",
+      "lat": -45.032192,
+      "lon": 168.661,
+      "photos": []
+    },
+    {
+      "n": "Paragliding & Tandem Hang Gliding from Bob's Peak",
+      "cat": "do",
+      "tier": "",
+      "a": "Skyline summit, above Queenstown",
+      "d": "Launch off the mountain above town and soar tandem over the lake with a certified pilot, floating gently down to the lakefront \u2014 the calmest way to fly, with none of the freefall. A serene, photogenic thrill for those who want the view without the adrenaline of a skydive.",
+      "lat": -45.028311,
+      "lon": 168.656124,
+      "photos": []
+    },
+    {
+      "n": "Fergburger & the Queenstown Food Scene",
+      "cat": "do",
+      "tier": "",
+      "a": "Queenstown centre",
+      "d": "The town punches far above its size on food \u2014 from the legendary Fergburger queue to fine dining, a serious craft-beer and cocktail scene, and increasingly good Indian restaurants for a taste of home. An easy, buzzy evening out; several kitchens cater well for vegetarian and Jain preferences with notice.",
+      "lat": -44.938171,
+      "lon": 168.831766,
+      "photos": []
+    },
+    {
+      "n": "Jack's Point & Alpine Golf",
+      "cat": "do",
+      "tier": "",
+      "a": "Jack's Point, south of Queenstown",
+      "d": "One of the world's most scenic courses runs along the lake beneath The Remarkables, its holes framed by schist tors and open water \u2014 playable by visitors and paired with a fine clubhouse. A gracious, low-key day for the golfer in the party, with the mountains for company.",
+      "lat": -45.074426,
+      "lon": 168.739433,
+      "photos": []
+    },
+    {
+      "n": "Little Blackwood",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Queenstown (Steamer Wharf, lakefront)",
+      "d": "A polished, intimate cocktail room perched over Lake Wakatipu on Steamer Wharf \u2014 the town's most decorated bar.",
+      "lat": -45.033343,
+      "lon": 168.6579,
+      "photos": []
+    },
+    {
+      "n": "Eichardt's Bar",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "Queenstown (central lakefront)",
+      "d": "An 1867 lakefront institution \u2014 plush sofas, a roaring fire and Bollinger by the glass, inside the town's grande-dame hotel.",
+      "lat": -45.032789,
+      "lon": 168.660613,
+      "photos": []
+    },
+    {
+      "n": "Bardeaux",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Queenstown (Eureka Arcade, central)",
+      "d": "A candlelit cellar bar with a great open fire \u2014 Queenstown's serious room for whisky, wine and a quiet nightcap.",
+      "lat": -45.032602,
+      "lon": 168.660989,
+      "photos": []
+    }
+  ]
+}

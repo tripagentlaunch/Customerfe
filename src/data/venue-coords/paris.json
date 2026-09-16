@@ -1,1 +1,1438 @@
-{"center": [48.853495, 2.348391], "venues": [{"n": "Le Bristol Paris", "cat": "stay", "tier": "Ultra", "a": "8th arr. / Rue du Faubourg Saint-Honoré", "d": "The grande dame of them all — a courtyard garden hidden behind the city's most powerful street.", "lat": 48.871827, "lon": 2.315008, "p": "v"}, {"n": "Four Seasons Hotel George V", "cat": "stay", "tier": "Ultra", "a": "8th arr. / off the Champs-Élysées", "d": "The Four Seasons standard our members already trust, wrapped in legendary flowers.", "lat": 48.868784, "lon": 2.300677, "p": "v"}, {"n": "Le Meurice, Dorchester Collection", "cat": "stay", "tier": "Ultra", "a": "1st arr. / opposite the Tuileries", "d": "Starck's hand over an 18th-century bones, looking straight onto the gardens.", "lat": 48.864519, "lon": 2.329631, "p": "a"}, {"n": "Hôtel Plaza Athénée, Dorchester Collection", "cat": "stay", "tier": "Ultra", "a": "8th arr. / Avenue Montaigne", "d": "The couture address — Dior at the door and the red awnings on the avenue.", "lat": 48.866382, "lon": 2.303893, "p": "v"}, {"n": "Cheval Blanc Paris", "cat": "stay", "tier": "Ultra", "a": "1st arr. / La Samaritaine, by the Seine", "d": "LVMH's newest icon — river light, a Dior spa, and a pool most hotels can only envy.", "lat": 48.858857, "lon": 2.342179, "p": "v"}, {"n": "Hôtel de Crillon, A Rosewood Hotel", "cat": "stay", "tier": "Ultra", "a": "8th arr. / Place de la Concorde", "d": "An 18th-century palace on the grandest square, restored without losing its nerve.", "lat": 48.867622, "lon": 2.321366, "p": "v"}, {"n": "Le Royal Monceau – Raffles Paris", "cat": "stay", "tier": "Ultra", "a": "8th arr. / near the Arc de Triomphe", "d": "The artist's palace — Starck design, its own gallery and cinema, a long quiet pool.", "lat": 48.875549, "lon": 2.29986, "p": "v"}, {"n": "La Réserve Paris", "cat": "stay", "tier": "Ultra", "a": "8th arr. / Avenue Gabriel, by the Élysée", "d": "A forty-key mansion that feels less like a hotel and more like a private house.", "lat": 48.859609, "lon": 2.349715, "p": "v"}, {"n": "Shangri-La Paris", "cat": "stay", "tier": "Ultra", "a": "16th arr. / Trocadéro", "d": "A Bonaparte prince's palace, with the Eiffel Tower filling many of the windows.", "lat": 48.863719, "lon": 2.293426, "p": "v"}, {"n": "The Peninsula Paris", "cat": "stay", "tier": "Ultra", "a": "16th arr. / near the Arc de Triomphe", "d": "Peninsula precision and a rooftop that trades on the finest view in Paris.", "lat": 48.870745, "lon": 2.293307, "p": "v"}, {"n": "Bulgari Hotel Paris", "cat": "stay", "tier": "Ultra", "a": "8th arr. / Avenue George V", "d": "Italian glamour dropped onto the smartest corner, with one of the city's largest hotel spas.", "lat": 48.856426, "lon": 2.352528, "p": "v"}, {"n": "Hôtel Lutetia", "cat": "stay", "tier": "Ultra", "a": "6th arr. / Saint-Germain-des-Prés", "d": "The only Palace on the Left Bank — literary Saint-Germain in an Art Deco landmark.", "lat": 48.851098, "lon": 2.327484, "p": "v"}, {"n": "Hôtel Fouquet's Paris, Barrière", "cat": "stay", "tier": "Ultra", "a": "8th arr. / the Champs-Élysées", "d": "Family-owned Barrière glamour above the most famous brasserie on the avenue.", "lat": 48.871099, "lon": 2.30126, "p": "v"}, {"n": "The Ritz Paris", "cat": "stay", "tier": "Ultra", "a": "1st arr. / Place Vendôme", "d": "The most famous hotel name in the world, still keeping the promise on Place Vendôme.", "lat": 48.867969, "lon": 2.328845, "p": "v"}, {"n": "Maison Villeroy", "cat": "stay", "tier": "Ultra", "a": "8th arr. / Rue du Faubourg Saint-Honoré", "d": "A discreet townhouse near the Élysée for members who prefer to be unseen.", "lat": 48.850134, "lon": 2.32658, "p": "v"}, {"n": "Saint James Paris, Relais & Châteaux", "cat": "stay", "tier": "Grand", "a": "16th arr. / near the Bois de Boulogne", "d": "The only château-hotel in Paris, set behind its own gardens.", "lat": 48.868615, "lon": 2.333436, "p": "v"}, {"n": "Mandarin Oriental, Paris", "cat": "stay", "tier": "Ultra", "a": "1st arr. / Rue Saint-Honoré", "d": "A garden courtyard hidden off the smartest shopping street, run to the group's quiet precision.", "lat": 48.867021, "lon": 2.327222, "p": "v"}, {"n": "Park Hyatt Paris-Vendôme", "cat": "stay", "tier": "Grand", "a": "2nd arr. / near Place Vendôme", "d": "Refined and understated, a calm base a step from the jewellers of Vendôme.", "lat": 48.869023, "lon": 2.330489, "p": "v"}, {"n": "J.K. Place Paris", "cat": "stay", "tier": "Grand", "a": "7th arr. / near the Musée d'Orsay", "d": "Italian-run, jewel-box luxury on the Left Bank — warm where the palaces can be grand.", "lat": 48.852937, "lon": 2.35005, "p": "v"}, {"n": "Nolinski Paris, Evok Collection", "cat": "stay", "tier": "Grand", "a": "1st arr. / Avenue de l'Opéra", "d": "A chic forty-five-key house between the Louvre and the Palais Royal.", "lat": 48.864241, "lon": 2.33506, "p": "a"}, {"n": "Brach Paris, Evok Collection", "cat": "stay", "tier": "Luxury", "a": "16th arr. / near Trocadéro", "d": "Starck-designed and buzzing, with a rooftop garden and a fashionable crowd.", "lat": 48.863045, "lon": 2.287194, "p": "a"}, {"n": "Grand Powers", "cat": "stay", "tier": "Luxury", "a": "8th arr. / off the Champs-Élysées", "d": "Elegant, intimate and perfectly placed for a day among the maisons.", "lat": 48.842071, "lon": 2.355103, "p": "v"}, {"n": "Le Burgundy Paris", "cat": "stay", "tier": "Luxury", "a": "1st arr. / near Place Vendôme", "d": "Refined and central, with a spa and a Michelin-recognised kitchen of its own.", "lat": 48.867966, "lon": 2.32583, "p": "v"}, {"n": "Château Voltaire", "cat": "stay", "tier": "Luxury", "a": "1st arr. / near the Rue Saint-Honoré", "d": "A fashion-crowd design hotel that hides its glamour behind a plain door.", "lat": 48.858179, "lon": 2.379822, "p": "v"}, {"n": "Maison Proust", "cat": "stay", "tier": "Luxury", "a": "3rd arr. / the Marais", "d": "Belle Époque opulence and a La Mer spa, tucked into the Marais.", "lat": 48.864117, "lon": 2.363237, "p": "v"}, {"n": "Le Grand Mazarin", "cat": "stay", "tier": "Luxury", "a": "4th arr. / the Marais", "d": "Joyful maximalism and one of the liveliest hotel restaurants in town.", "lat": 48.857316, "lon": 2.354396, "p": "v"}, {"n": "La Fantaisie", "cat": "stay", "tier": "Luxury", "a": "9th arr. / near the grands boulevards", "d": "A garden-inspired newcomer with a rooftop and a light-hearted spirit.", "lat": 48.87541, "lon": 2.343535, "p": "v"}, {"n": "Maison Delano Paris", "cat": "stay", "tier": "Luxury", "a": "8th arr. / near the Champs-Élysées", "d": "Sleek and discreet, arranged around a quiet courtyard.", "lat": 48.87289, "lon": 2.309835, "p": "v"}, {"n": "Le Pavillon de la Reine", "cat": "stay", "tier": "Luxury", "a": "3rd arr. / Place des Vosges", "d": "Hidden behind the loveliest square in Paris — romantic and quiet.", "lat": 48.856269, "lon": 2.36596, "p": "v"}, {"n": "Monsieur George", "cat": "stay", "tier": "Luxury", "a": "8th arr. / near the Champs-Élysées", "d": "A warm, well-placed boutique with more soul than its size suggests.", "lat": 48.868753, "lon": 2.325009, "p": "v"}, {"n": "Grand Hôtel du Palais Royal", "cat": "stay", "tier": "Luxury", "a": "1st arr. / by the Palais Royal gardens", "d": "Elegant and superbly placed, a step from the arcades of the Palais Royal.", "lat": 48.863585, "lon": 2.336204, "p": "v"}, {"n": "Relais Christine", "cat": "stay", "tier": "Premium", "a": "6th arr. / Saint-Germain-des-Prés", "d": "A hushed Left Bank townhouse built around its own courtyard.", "lat": 48.854375, "lon": 2.340073, "p": "v"}, {"n": "Kei", "cat": "eat", "tier": "Destination", "a": "1st arr. / Louvre", "d": "A Japanese hand on French cooking, exact to the millimetre — one of the city's nine three-stars.", "lat": 48.864356, "lon": 2.342123, "p": "v"}, {"n": "Plénitude – Cheval Blanc Paris", "cat": "eat", "tier": "Destination", "a": "1st arr. / La Samaritaine, by the Seine", "d": "Sauces treated as the whole point, in a room that looks out over the river.", "lat": 48.858857, "lon": 2.342179, "p": "v"}, {"n": "Arpège", "cat": "eat", "tier": "Destination", "a": "7th arr. / Rue de Varenne", "d": "The garden on the plate — Passard's near-vegan turn is the finest veg-friendly table at this height.", "lat": 48.855754, "lon": 2.317013, "p": "v"}, {"n": "Le Cinq", "cat": "eat", "tier": "Destination", "a": "8th arr. / Four Seasons George V", "d": "Classical French haute in a palace dining room — the grand occasion, done properly.", "lat": 48.868674, "lon": 2.300776, "p": "v"}, {"n": "Épicure – Le Bristol", "cat": "eat", "tier": "Destination", "a": "8th arr. / Le Bristol, Faubourg Saint-Honoré", "d": "French haute cuisine facing Le Bristol's garden — serene, precise, timeless.", "lat": 48.871827, "lon": 2.315008, "p": "v"}, {"n": "Pierre Gagnaire", "cat": "eat", "tier": "Destination", "a": "8th arr. / Rue Balzac, near the Champs-Élysées", "d": "The avant-garde of modern French cooking, three stars held since 1996.", "lat": 48.873336, "lon": 2.300415, "p": "v"}, {"n": "Le Gabriel – La Réserve Paris", "cat": "eat", "tier": "Destination", "a": "8th arr. / near the Champs-Élysées", "d": "Intimate three-star cooking inside one of the city's most private houses.", "lat": 48.869709, "lon": 2.313439, "p": "v"}, {"n": "Alléno Paris au Pavillon Ledoyen", "cat": "eat", "tier": "Destination", "a": "8th arr. / Carré des Champs-Élysées", "d": "A pavilion in the Champs-Élysées gardens, and Alléno's modern French at full stretch.", "lat": 48.866102, "lon": 2.316485, "p": "v"}, {"n": "Le Pré Catelan", "cat": "eat", "tier": "Destination", "a": "16th arr. / Bois de Boulogne", "d": "A belle-époque pavilion set deep in the park — one of the loveliest tables in Paris.", "lat": 48.864815, "lon": 2.253003, "p": "v"}, {"n": "Restaurant Guy Savoy – Monnaie de Paris", "cat": "eat", "tier": "Destination", "a": "6th arr. / on the Seine, the former Mint", "d": "The most-decorated name in the city by La Liste, in a riverside palace.", "lat": 48.856539, "lon": 2.339535, "p": "v"}, {"n": "Table by Bruno Verjus", "cat": "eat", "tier": "Destination", "a": "12th arr. / near the Marché d'Aligre", "d": "The international ticket of the moment — produce-led cooking from the counter.", "lat": 48.848875, "lon": 2.378046, "p": "a"}, {"n": "L'Ambroisie", "cat": "eat", "tier": "Destination", "a": "4th arr. / Place des Vosges", "d": "Old-guard grandeur on the most beautiful square in Paris.", "lat": 48.85541, "lon": 2.3643, "p": "v"}, {"n": "Le Clarence", "cat": "eat", "tier": "Destination", "a": "8th arr. / off the Champs-Élysées", "d": "A private mansion, a Bordeaux cellar to match, and cooking of real depth.", "lat": 48.867402, "lon": 2.309794, "p": "v"}, {"n": "La Scène", "cat": "eat", "tier": "Destination", "a": "8th arr. / Avenue Matignon", "d": "Stéphanie Le Quellec's precise modern French — one of the city's top kitchens.", "lat": 48.872055, "lon": 2.31455, "p": "v"}, {"n": "David Toutain", "cat": "eat", "tier": "Destination", "a": "7th arr. / Palais-Bourbon", "d": "Vegetable-forward modern French, curious and quietly brilliant.", "lat": 48.860254, "lon": 2.309715, "p": "v"}, {"n": "Le Taillevent", "cat": "eat", "tier": "Destination", "a": "8th arr. / near the Champs-Élysées", "d": "A grande-maison institution, classical to its bones.", "lat": 48.874149, "lon": 2.302471, "p": "v"}, {"n": "Le Grand Restaurant – Jean-François Piège", "cat": "eat", "tier": "Destination", "a": "8th arr.", "d": "A jewel-box room and Piège's exacting modern French.", "lat": 48.873728, "lon": 2.310393, "p": "a"}, {"n": "L'Orangerie – Four Seasons George V", "cat": "eat", "tier": "Destination", "a": "8th arr. / Four Seasons George V", "d": "The George V's lighter, luminous second table — no less serious for it.", "lat": 48.868784, "lon": 2.300677, "p": "v"}, {"n": "L'Abysse au Pavillon Ledoyen", "cat": "eat", "tier": "Destination", "a": "8th arr. / Carré des Champs-Élysées", "d": "A sushi counter of rare finesse, within Alléno's pavilion.", "lat": 48.866102, "lon": 2.316485, "p": "v"}, {"n": "L'Oiseau Blanc – The Peninsula Paris", "cat": "eat", "tier": "Destination", "a": "16th arr. / The Peninsula Paris", "d": "French cooking on the rooftop, with the Eiffel Tower for company.", "lat": 48.876034, "lon": 2.323551, "p": "v"}, {"n": "Le Jules Verne", "cat": "eat", "tier": "Destination", "a": "7th arr. / inside the Eiffel Tower", "d": "Dinner inside the Eiffel Tower itself — the view every first visit wants.", "lat": 48.858133, "lon": 2.294497, "p": "v"}, {"n": "Maison Rostang", "cat": "eat", "tier": "Destination", "a": "17th arr. / Batignolles", "d": "Old-school luxury and classical French in Art Nouveau rooms.", "lat": 48.881442, "lon": 2.298552, "p": "v"}, {"n": "Alliance", "cat": "eat", "tier": "Fine", "a": "5th arr. / Left Bank, near the Seine", "d": "Restrained, precise modern French with none of the theatre.", "lat": 48.849865, "lon": 2.353007, "p": "v"}, {"n": "Sushi Yoshinaga", "cat": "eat", "tier": "Destination", "a": "2nd arr.", "d": "An omakase counter working with fish of exceptional quality.", "lat": 48.873178, "lon": 2.320775, "p": "v"}, {"n": "Septime", "cat": "eat", "tier": "Fine", "a": "11th arr. / Rue de Charonne", "d": "The most coveted mid-price reservation in Paris — seasonal, confident, warm.", "lat": 48.853603, "lon": 2.380956, "p": "v"}, {"n": "Frenchie", "cat": "eat", "tier": "Fine", "a": "2nd arr. / Le Sentier", "d": "Greg Marchand's intimate, buzzing bistronomy — small room, big following.", "lat": 48.867838, "lon": 2.348016, "p": "v"}, {"n": "Benoit", "cat": "eat", "tier": "Fine", "a": "4th arr. / near Les Halles", "d": "The only Michelin-starred bistro in Paris — Belle Époque, and run by Ducasse.", "lat": 48.85517, "lon": 2.333202, "p": "v"}, {"n": "Allard", "cat": "eat", "tier": "Fine", "a": "6th arr. / Saint-Germain-des-Prés", "d": "Escargots, sole meunière and a 1900s room — the Paris bistro, preserved.", "lat": 48.853321, "lon": 2.341014, "p": "v"}, {"n": "Sharma Ji", "cat": "eat", "tier": "Fine", "a": "15th arr. / Rue Frémicourt", "d": "The one genuinely Michelin-listed Indian in Paris — refined, and never a cliché.", "lat": 48.864628, "lon": 2.372784, "p": "v"}, {"n": "Desi Road", "cat": "eat", "tier": "Smart", "a": "6th arr. / Rue Dauphine, near Pont Neuf", "d": "A glamorous Indian bistro on the Left Bank with real vegetarian breadth.", "lat": 48.855669, "lon": 2.339989, "p": "v"}, {"n": "Le Comptoir du Relais", "cat": "eat", "tier": "Smart", "a": "6th arr. / Saint-Germain-des-Prés", "d": "The cult bistronomy address — a small counter that shaped a whole movement.", "lat": 48.851963, "lon": 2.338832, "p": "v"}, {"n": "Chez L'Ami Jean", "cat": "eat", "tier": "Smart", "a": "7th arr. / Gros-Caillou", "d": "A lively Basque institution — generous cooking and a legendary riz au lait.", "lat": 48.860318, "lon": 2.305992, "p": "v"}, {"n": "Le Baratin", "cat": "eat", "tier": "Smart", "a": "20th arr. / Belleville", "d": "The birthplace of bistronomy, still personal, still priced with restraint.", "lat": 48.838285, "lon": 2.35727, "p": "v"}, {"n": "Le Bon Georges", "cat": "eat", "tier": "Fine", "a": "9th arr. / near Saint-Georges", "d": "Produce and wine of unusual seriousness, in a warm neighbourhood room.", "lat": 48.877642, "lon": 2.337211, "p": "v"}, {"n": "Pierre Sang in Oberkampf", "cat": "eat", "tier": "Smart", "a": "11th arr. / Oberkampf", "d": "Surprise tasting menus at an open kitchen — French technique, Korean soul.", "lat": 48.864943, "lon": 2.372183, "p": "v"}, {"n": "Bistrot Paul Bert", "cat": "eat", "tier": "Smart", "a": "11th arr. / Rue Paul Bert", "d": "The bistro of the imagination — steak-frites, soufflé, a wall of wine.", "lat": 48.852223, "lon": 2.384924, "p": "v"}, {"n": "Clamato", "cat": "eat", "tier": "Smart", "a": "11th arr. / Charonne", "d": "Septime's seafood sibling — small plates, natural wine, no reservations.", "lat": 48.853589, "lon": 2.380854, "p": "v"}, {"n": "Double Dragon", "cat": "eat", "tier": "Smart", "a": "11th arr. / Charonne", "d": "The Levha sisters' playful pan-Asian — bright, fun, generous.", "lat": 48.862533, "lon": 2.37993, "p": "v"}, {"n": "Le Radis Beurre", "cat": "eat", "tier": "Smart", "a": "15th arr. / Boulevard Garibaldi", "d": "Warm bistronomy and a blackboard menu, at a price that flatters the cooking.", "lat": 48.846333, "lon": 2.307832, "p": "v"}, {"n": "Le Grand Bain", "cat": "eat", "tier": "Smart", "a": "20th arr. / Belleville", "d": "Creative small plates and natural wine in an easy, buzzy room.", "lat": 48.871599, "lon": 2.378638, "p": "v"}, {"n": "Les Canailles", "cat": "eat", "tier": "Smart", "a": "9th arr. / Pigalle", "d": "Simple French cooking done exactly right — the food a French grandmother would make.", "lat": 48.879269, "lon": 2.334565, "p": "v"}, {"n": "Le Pantruche", "cat": "eat", "tier": "Smart", "a": "9th arr. / Pigalle", "d": "A 1940s bistro mood and a short, seasonal menu that rarely misses.", "lat": 48.880467, "lon": 2.339735, "p": "v"}, {"n": "Au Bon Accueil", "cat": "eat", "tier": "Smart", "a": "7th arr. / near the Eiffel Tower", "d": "Seasonal bistro cooking and a terrace that looks straight at the tower.", "lat": 48.859707, "lon": 2.299221, "p": "v"}, {"n": "Mensae", "cat": "eat", "tier": "Smart", "a": "19th arr. / Buttes-Chaumont", "d": "French comfort cooking with real value — a neighbourhood room worth the trip.", "lat": 48.875748, "lon": 2.385701, "p": "v"}, {"n": "Kokoro", "cat": "eat", "tier": "Smart", "a": "5th arr. / Latin Quarter", "d": "A Franco-Japanese couple's regional French, touched lightly by Japan.", "lat": 48.846231, "lon": 2.352434, "p": "v"}, {"n": "Lao Siam", "cat": "eat", "tier": "Casual", "a": "19th arr. / Belleville", "d": "A flavour tour of Laos and Thailand, credentialed and unpretentious.", "lat": 48.873155, "lon": 2.380937, "p": "v"}, {"n": "Chez Michel", "cat": "eat", "tier": "Smart", "a": "10th arr. / near Gare du Nord", "d": "A 1939 institution of Breton-leaning bistronomy, in a Japanese chef's careful hands.", "lat": 48.827658, "lon": 2.35001, "p": "v"}, {"n": "Impérial Choisy", "cat": "eat", "tier": "Casual", "a": "13th arr. / Chinatown, Avenue de Choisy", "d": "Cantonese cooking done cleanly and well, in the heart of Paris's Chinatown.", "lat": 48.82219, "lon": 2.363254, "p": "v"}, {"n": "Mandoobar", "cat": "eat", "tier": "Casual", "a": "8th arr. / near Saint-Lazare", "d": "A tiny counter given over to Korean dumplings, made with real care.", "lat": 48.8794, "lon": 2.32109, "p": "v"}, {"n": "Eiffel Tower", "cat": "do", "tier": "", "a": "7th — Champ de Mars", "d": "The city's iron heart; go to the summit at dusk and catch the on-the-hour sparkle, or dine at the Jules Verne on the second floor for a table above Paris.", "lat": 48.85826, "lon": 2.294501, "p": "v"}, {"n": "Arc de Triomphe", "cat": "do", "tier": "", "a": "8th — Place Charles de Gaulle", "d": "Climb the 284 steps to a rooftop where twelve avenues fan out like a star, with the Champs-Élysées running straight to the Louvre.", "lat": 48.873779, "lon": 2.295037, "p": "v"}, {"n": "Notre-Dame Cathedral", "cat": "do", "tier": "", "a": "4th — Île de la Cité", "d": "Reopened December 2024 after the 2019 fire, the restored nave gleams brighter than in living memory; entry is free, and the bell towers reopened in September 2025 for the climb to the gargoyles.", "lat": 48.852937, "lon": 2.35005, "p": "v"}, {"n": "Sainte-Chapelle", "cat": "do", "tier": "", "a": "1st — Île de la Cité", "d": "A jewel-box royal chapel where fifteen soaring windows of 13th-century stained glass wrap you in coloured light — go on a bright morning for the full effect.", "lat": 48.855393, "lon": 2.344994, "p": "v"}, {"n": "Sacré-Cœur Basilica", "cat": "do", "tier": "", "a": "18th — Montmartre", "d": "The white domed basilica crowns the highest point in Paris; the steps below give one of the great free panoramas, and the dome climb rewards with a 360° sweep.", "lat": 48.886806, "lon": 2.343015, "p": "v"}, {"n": "Panthéon", "cat": "do", "tier": "", "a": "5th — Latin Quarter", "d": "A neoclassical temple where France buries its greats — Voltaire, Curie, Hugo — with Foucault's pendulum swinging under the dome and a colonnade viewpoint above.", "lat": 48.846195, "lon": 2.346051, "p": "v"}, {"n": "Les Invalides & Napoleon's Tomb", "cat": "do", "tier": "", "a": "7th — Invalides", "d": "Under the gilded dome lies Napoleon in six nested coffins; the complex also holds the Army Museum, strong on the family history-of-France angle.", "lat": 48.855635, "lon": 2.312617, "p": "v"}, {"n": "Palais Garnier (Opéra)", "cat": "do", "tier": "", "a": "9th — Opéra", "d": "The most opulent theatre in Europe — grand staircase, gilded foyer, and a Chagall-painted ceiling; tour it by day or take an advisor-booked box for a ballet.", "lat": 48.871433, "lon": 2.331965, "p": "v"}, {"n": "The Louvre", "cat": "do", "tier": "", "a": "1st — Rivoli", "d": "The world's largest art museum; ask us to arrange an early-access or after-hours private hour so you meet the Mona Lisa and Venus de Milo without the crush.", "lat": 48.88084, "lon": 2.328218, "p": "v"}, {"n": "Musée d'Orsay", "cat": "do", "tier": "", "a": "7th — Left Bank", "d": "A grand Beaux-Arts railway station turned temple of Impressionism — Monet, Renoir, Van Gogh, Degas — best from the giant golden clock window on the top floor.", "lat": 48.859918, "lon": 2.326585, "p": "v"}, {"n": "Musée de l'Orangerie", "cat": "do", "tier": "", "a": "1st — Tuileries", "d": "Two oval rooms hold Monet's monumental Water Lilies, wrapping you in eight curved panels designed by the painter himself — a meditative, unhurried half-hour.", "lat": 48.863765, "lon": 2.32266, "p": "v"}, {"n": "Musée Rodin", "cat": "do", "tier": "", "a": "7th — Invalides", "d": "The sculptor's mansion and rose garden, where The Thinker and The Kiss sit among clipped hedges — one of the loveliest, calmest museums in the city, ideal with children.", "lat": 48.854747, "lon": 2.315867, "p": "v"}, {"n": "Musée Picasso", "cat": "do", "tier": "", "a": "3rd — Le Marais", "d": "A restored 17th-century mansion in the Marais holding the world's greatest Picasso collection, drawn from the artist's own estate.", "lat": 48.85987, "lon": 2.362115, "p": "v"}, {"n": "Centre Pompidou", "cat": "do", "tier": "", "a": "4th — Beaubourg", "d": "The inside-out building of coloured pipes houses Europe's biggest modern-art museum; note it is closing for a multi-year renovation, so confirm access with us before you plan.", "lat": 48.860496, "lon": 2.352422, "p": "v"}, {"n": "Bourse de Commerce — Pinault Collection", "cat": "do", "tier": "", "a": "1st — Les Halles", "d": "François Pinault's contemporary art inside a domed former grain exchange reimagined by Tadao Ando — a concrete cylinder within a historic rotunda; the 2026 show 'Clair-obscur' runs into late August.", "lat": 48.862817, "lon": 2.342836, "p": "v"}, {"n": "Musée Marmottan Monet", "cat": "do", "tier": "", "a": "16th — Passy", "d": "The world's largest Monet holding, including 'Impression, Sunrise' — the painting that named the movement — in an intimate townhouse well off the tourist track.", "lat": 48.859411, "lon": 2.267256, "p": "v"}, {"n": "Musée du Quai Branly — Jacques Chirac", "cat": "do", "tier": "", "a": "7th — near Eiffel Tower", "d": "Jean Nouvel's museum of the arts of Africa, Asia, Oceania and the Americas, wrapped in a living green wall — a thoughtful, less-obvious stop near the Eiffel Tower.", "lat": 48.860513, "lon": 2.29753, "p": "v"}, {"n": "Petit Palais", "cat": "do", "tier": "", "a": "8th — Champs-Élysées", "d": "The city's fine-arts museum in a jewel of a 1900 building — free entry, a gilded interior, and a serene garden café most visitors walk right past.", "lat": 48.866042, "lon": 2.31535, "p": "v"}, {"n": "Grand Palais", "cat": "do", "tier": "", "a": "8th — Champs-Élysées", "d": "Reopened in 2024 after a sweeping restoration, its vast glass-and-iron nave is Paris's grandest exhibition hall — check what blockbuster show is on.", "lat": 48.866161, "lon": 2.312223, "p": "v"}, {"n": "Musée Nissim de Camondo", "cat": "do", "tier": "", "a": "8th — Parc Monceau", "d": "A perfectly preserved aristocratic mansion of 18th-century French decorative arts, with a moving family history — a quiet gem beside Parc Monceau.", "lat": 48.879173, "lon": 2.312346, "p": "v"}, {"n": "Musée Jacquemart-André", "cat": "do", "tier": "", "a": "8th — Haussmann", "d": "A collector couple's opulent townhouse hung with Italian and French masters; take tea in the frescoed dining room under a Tiepolo ceiling.", "lat": 48.87545, "lon": 2.310544, "p": "v"}, {"n": "Le Marais", "cat": "do", "tier": "", "a": "3rd & 4th — Le Marais", "d": "The best-preserved old quarter — Renaissance mansions, the arcaded Place des Vosges, designer boutiques and falafel lanes; wander with no plan, it rewards it.", "lat": 48.860382, "lon": 2.360742, "p": "v"}, {"n": "Saint-Germain-des-Prés", "cat": "do", "tier": "", "a": "6th — Left Bank", "d": "Literary Left Bank of Café de Flore and Les Deux Magots, antique galleries and the city's oldest church — the neighbourhood for a slow morning and good browsing.", "lat": 48.854429, "lon": 2.333707, "p": "v"}, {"n": "Montmartre", "cat": "do", "tier": "", "a": "18th — Montmartre", "d": "The village on the hill — cobbled lanes, the last working vineyard in Paris, artists in Place du Tertre, and hidden squares away from the crowds if you climb early.", "lat": 48.885462, "lon": 2.339154, "p": "v"}, {"n": "Île Saint-Louis", "cat": "do", "tier": "", "a": "4th — Île Saint-Louis", "d": "A serene 17th-century island in the Seine, one main street of mansions and small shops — stroll the quays with a Berthillon ice cream, a Paris rite.", "lat": 48.851605, "lon": 2.356759, "p": "v"}, {"n": "Canal Saint-Martin", "cat": "do", "tier": "", "a": "10th — Canal Saint-Martin", "d": "Iron footbridges, plane trees and locks lined with young Paris; walk the canal to Bassin de la Villette, or take a slow boat cruise through the underground vaults.", "lat": 48.868956, "lon": 2.367169, "p": "v"}, {"n": "Latin Quarter & Rue Mouffetard", "cat": "do", "tier": "", "a": "5th — Latin Quarter", "d": "Student Paris around the Sorbonne, plus the sloping market street of Rue Mouffetard — one of the oldest in the city, lined with cheese, wine and produce stalls.", "lat": 48.84221, "lon": 2.349887, "p": "v"}, {"n": "Jardin du Luxembourg", "cat": "do", "tier": "", "a": "6th — Left Bank", "d": "The most beloved park in Paris — sail a toy boat on the fountain, watch a puppet show, and sit in the green chairs among statues and orchards; children adore it.", "lat": 48.846723, "lon": 2.336415, "p": "v"}, {"n": "Jardin des Tuileries", "cat": "do", "tier": "", "a": "1st — between Louvre & Concorde", "d": "The grand formal garden linking the Louvre to Place de la Concorde; ponds, statues and, in summer, a fairground with a big wheel over the treetops.", "lat": 48.863566, "lon": 2.326955, "p": "v"}, {"n": "Palais-Royal Gardens", "cat": "do", "tier": "", "a": "1st — Palais-Royal", "d": "A hidden arcaded courtyard behind the Louvre — Buren's striped columns, lime-tree walks and old-world boutiques; one of the quietest lovely corners in the centre.", "lat": 48.863585, "lon": 2.336204, "p": "v"}, {"n": "Parc des Buttes-Chaumont", "cat": "do", "tier": "", "a": "19th — Belleville side", "d": "The most dramatic park in Paris — cliffs, a lake, a temple on a crag and a suspension bridge; a local, family-filled escape far from the tourist centre.", "lat": 48.879555, "lon": 2.382098, "p": "v"}, {"n": "Bois de Boulogne & Fondation Louis Vuitton", "cat": "do", "tier": "", "a": "16th — western edge", "d": "Paris's great western woodland for boating and gardens, now anchored by Frank Gehry's glass-sail Fondation Louis Vuitton — a landmark of art and architecture in itself.", "lat": 48.87665, "lon": 2.263338, "p": "v"}, {"n": "Père Lachaise Cemetery", "cat": "do", "tier": "", "a": "20th — Ménilmontant", "d": "A hilly garden-necropolis of cobbled avenues and grand tombs — Chopin, Wilde, Piaf, Jim Morrison; strangely peaceful and beautiful, especially in autumn.", "lat": 48.86113, "lon": 2.394009, "p": "v"}, {"n": "Galeries Lafayette Rooftop", "cat": "do", "tier": "", "a": "9th — Haussmann", "d": "Under the great stained-glass dome of the flagship store, then up to the free rooftop terrace for one of the best open-air views of the Opéra and Eiffel Tower.", "lat": 48.873646, "lon": 2.332127, "p": "v"}, {"n": "Montparnasse Tower Observation Deck", "cat": "do", "tier": "", "a": "15th — Montparnasse", "d": "The one skyline view that includes the Eiffel Tower — the 56th-floor deck and open rooftop give the finest sunset panorama in the city, minus the queues of the tower itself.", "lat": 48.840062, "lon": 2.319109, "p": "a"}, {"n": "The Covered Passages", "cat": "do", "tier": "", "a": "2nd & 9th — Grands Boulevards", "d": "Glass-roofed 19th-century arcades — Galerie Vivienne, Passage des Panoramas, Passage Jouffroy — full of mosaic floors, old bookshops and tearooms; a rainy-day treasure hunt.", "lat": 48.868355, "lon": 2.335441, "p": "v"}, {"n": "Marché d'Aligre", "cat": "do", "tier": "", "a": "12th — near Bastille", "d": "One of the liveliest, most authentic markets — a covered hall of fine cheese and produce plus an open-air flea market; go with us for a chef-led tasting stroll.", "lat": 48.848875, "lon": 2.378046, "p": "v"}, {"n": "Rue Cler Market Street", "cat": "do", "tier": "", "a": "7th — near Eiffel Tower", "d": "A pretty pedestrian market street of cheesemongers, bakeries and florists near the Eiffel Tower — the classic spot to assemble a picnic for the Champ de Mars.", "lat": 48.85766, "lon": 2.360412, "p": "v"}, {"n": "Marché aux Puces de Saint-Ouen", "cat": "do", "tier": "", "a": "Saint-Ouen (north edge, 20min)", "d": "The world's largest antiques market — a sprawling maze of dealer stands in vintage furniture, art and curiosities; an advisor guide makes the labyrinth worthwhile.", "lat": 48.89753, "lon": 2.344313, "p": "v"}, {"n": "Bouquinistes of the Seine", "cat": "do", "tier": "", "a": "5th & 6th — Seine quays", "d": "The green riverside book boxes are a UNESCO-listed Paris institution — browse antique prints, posters and old books along the quays between the bridges.", "lat": 48.860224, "lon": 2.333518, "p": "v"}, {"n": "Seine Dinner Cruise", "cat": "do", "tier": "", "a": "7th — Port de la Bourdonnais", "d": "Glide past the floodlit monuments over a fine dinner; we book the private or premium boats — and can arrange a fully vegetarian or Jain-aware menu on board.", "lat": 48.860502, "lon": 2.29399, "p": "a"}, {"n": "Avenue Montaigne", "cat": "do", "tier": "", "a": "8th — Golden Triangle", "d": "The couture spine of Paris — Dior, Chanel, Louis Vuitton, Valentino — flagship after flagship; we can arrange private in-store appointments and after-hours access.", "lat": 48.868842, "lon": 2.309844, "p": "v"}, {"n": "Rue Saint-Honoré & Place Vendôme", "cat": "do", "tier": "", "a": "1st — Vendôme", "d": "From Colette concept-store cool to the high-jewellery houses of Place Vendôme — Cartier, Van Cleef, Boucheron — set around the Ritz; the address for jewels and watches.", "lat": 48.865998, "lon": 2.332268, "p": "v"}, {"n": "Le Bon Marché", "cat": "do", "tier": "", "a": "7th — Left Bank", "d": "The world's first department store and still the most refined — with La Grande Épicerie next door for one of the great food halls in Paris.", "lat": 48.851183, "lon": 2.324394, "p": "v"}, {"n": "Atelier des Lumières", "cat": "do", "tier": "", "a": "11th — near Père Lachaise", "d": "A former foundry turned immersive digital art hall where masterpieces sweep across the walls and floor to music — a hit with children and the whole family.", "lat": 48.861889, "lon": 2.381161, "p": "v"}, {"n": "Promenade Plantée (Coulée Verte)", "cat": "do", "tier": "", "a": "12th — Bastille to Vincennes", "d": "The elevated garden walkway on a disused railway viaduct — the inspiration for New York's High Line — running above the arch-shops of the Viaduc des Arts.", "lat": 48.849099, "lon": 2.372117, "p": "v"}, {"n": "Philharmonie de Paris", "cat": "do", "tier": "", "a": "19th — Parc de la Villette", "d": "Jean Nouvel's silver concert hall with world-class acoustics; we secure seats for an evening of the Orchestre de Paris or a visiting name.", "lat": 48.889894, "lon": 2.39407, "p": "v"}, {"n": "A Jazz Cave in Saint-Germain", "cat": "do", "tier": "", "a": "6th — Saint-Germain", "d": "Descend into a vaulted stone cellar like Caveau de la Huchette or Le Duc des Lombards for late live jazz — an intimate, only-in-Paris night out.", "lat": 48.851946, "lon": 2.33377, "p": "v"}, {"n": "Palace of Versailles", "cat": "do", "tier": "", "a": "Versailles (45min)", "d": "The supreme royal palace — Hall of Mirrors, the State Apartments, and vast formal gardens with the musical fountain shows; ask us for a private guide and skip-the-line timing.", "lat": 48.804425, "lon": 2.120285, "p": "v"}, {"n": "Château de Chantilly", "cat": "do", "tier": "", "a": "Chantilly (40min by train)", "d": "A fairytale château in a moat, holding the finest old-master collection outside the Louvre, plus the Great Stables and a Le Nôtre park — quieter than Versailles.", "lat": 49.193821, "lon": 2.485255, "p": "v"}, {"n": "Château de Fontainebleau", "cat": "do", "tier": "", "a": "Fontainebleau (1hr)", "d": "A royal residence for eight centuries, from Francis I to Napoleon — sumptuous, uncrowded, and set in a vast forest ideal for a family walk or ride.", "lat": 48.358115, "lon": 2.564428, "p": "v"}, {"n": "Bar Hemingway — The Ritz Paris", "cat": "party", "tier": "Landmark bars", "a": "1st arr. / Place Vendôme", "d": "Twenty-five seats, a legend at the shaker, and the most storied cocktail room in Paris.", "lat": 48.868786, "lon": 2.327511, "p": "v"}, {"n": "Bar Nouveau", "cat": "party", "tier": "Cocktail bars", "a": "11th arr. / near Bastille", "d": "The highest-ranked bar in Paris right now — Art Nouveau brought to life, drink by drink.", "lat": 48.861504, "lon": 2.357562, "p": "v"}, {"n": "The Cambridge Public House", "cat": "party", "tier": "Cocktail bars", "a": "3rd arr. / the Marais", "d": "A British pub reimagined by serious bartenders — warm, unpretentious, world-class.", "lat": 48.861452, "lon": 2.364168, "p": "v"}, {"n": "Danico", "cat": "party", "tier": "Cocktail bars", "a": "2nd arr. / Galerie Vivienne", "d": "Velvet and gold in a covered arcade — precise cocktails behind Daniele Dalla Pola's counter.", "lat": 48.86712, "lon": 2.339294, "p": "v"}, {"n": "Little Red Door", "cat": "party", "tier": "Cocktail bars", "a": "3rd arr. / the Marais", "d": "For a decade one of the world's most decorated bars — conceptual menus, faultless execution.", "lat": 48.863664, "lon": 2.363587, "p": "v"}, {"n": "Candelaria", "cat": "party", "tier": "Cocktail bars", "a": "3rd arr. / the Marais", "d": "The bar that began the Paris speakeasy era — a taqueria out front, a hidden room behind.", "lat": 48.862986, "lon": 2.364018, "p": "v"}, {"n": "Le Syndicat", "cat": "party", "tier": "Cocktail bars", "a": "10th arr. / near the Grands Boulevards", "d": "French spirits only — Cognac, Calvados, Armagnac — behind a deliberately shabby door.", "lat": 48.871802, "lon": 2.353621, "p": "v"}, {"n": "Cravan", "cat": "party", "tier": "Cocktail bars", "a": "6th arr. / Saint-Germain-des-Prés", "d": "Franck Audoux's study of pre-1930s French cocktails, in a listed Art Nouveau corner house.", "lat": 48.854019, "lon": 2.331409, "p": "v"}, {"n": "Combat", "cat": "party", "tier": "Cocktail bars", "a": "19th arr. / Belleville", "d": "A female-led room, light and green, from alumni of the Experimental Cocktail Club.", "lat": 48.877414, "lon": 2.371002, "p": "v"}, {"n": "Le Tout-Paris — Cheval Blanc Paris", "cat": "party", "tier": "Rooftops", "a": "1st arr. / La Samaritaine, by the Seine", "d": "The seventh-floor terrace of an LVMH palace, from Notre-Dame to the Eiffel Tower.", "lat": 48.817135, "lon": 2.4675, "p": "v"}, {"n": "Les Ombres", "cat": "party", "tier": "Rooftops", "a": "7th arr. / Musée du Quai Branly", "d": "A glass rooftop under Jean Nouvel's roof, with the Eiffel Tower almost close enough to touch.", "lat": 48.861112, "lon": 2.298557, "p": "v"}]}
+{
+  "center": [
+    48.853495,
+    2.348391
+  ],
+  "venues": [
+    {
+      "n": "Le Bristol Paris",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "8th arr. / Rue du Faubourg Saint-Honor\u00e9",
+      "d": "The grande dame of them all \u2014 a courtyard garden hidden behind the city's most powerful street.",
+      "lat": 48.871827,
+      "lon": 2.315008,
+      "photos": []
+    },
+    {
+      "n": "Four Seasons Hotel George V",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "8th arr. / off the Champs-\u00c9lys\u00e9es",
+      "d": "The Four Seasons standard our members already trust, wrapped in legendary flowers.",
+      "lat": 48.868784,
+      "lon": 2.300677,
+      "photos": []
+    },
+    {
+      "n": "Le Meurice, Dorchester Collection",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "1st arr. / opposite the Tuileries",
+      "d": "Starck's hand over an 18th-century bones, looking straight onto the gardens.",
+      "lat": 48.864519,
+      "lon": 2.329631,
+      "photos": []
+    },
+    {
+      "n": "H\u00f4tel Plaza Ath\u00e9n\u00e9e, Dorchester Collection",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "8th arr. / Avenue Montaigne",
+      "d": "The couture address \u2014 Dior at the door and the red awnings on the avenue.",
+      "lat": 48.866382,
+      "lon": 2.303893,
+      "photos": []
+    },
+    {
+      "n": "Cheval Blanc Paris",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "1st arr. / La Samaritaine, by the Seine",
+      "d": "LVMH's newest icon \u2014 river light, a Dior spa, and a pool most hotels can only envy.",
+      "lat": 48.858857,
+      "lon": 2.342179,
+      "photos": []
+    },
+    {
+      "n": "H\u00f4tel de Crillon, A Rosewood Hotel",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "8th arr. / Place de la Concorde",
+      "d": "An 18th-century palace on the grandest square, restored without losing its nerve.",
+      "lat": 48.867622,
+      "lon": 2.321366,
+      "photos": []
+    },
+    {
+      "n": "Le Royal Monceau \u2013 Raffles Paris",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "8th arr. / near the Arc de Triomphe",
+      "d": "The artist's palace \u2014 Starck design, its own gallery and cinema, a long quiet pool.",
+      "lat": 48.875549,
+      "lon": 2.29986,
+      "photos": []
+    },
+    {
+      "n": "La R\u00e9serve Paris",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "8th arr. / Avenue Gabriel, by the \u00c9lys\u00e9e",
+      "d": "A forty-key mansion that feels less like a hotel and more like a private house.",
+      "lat": 48.859609,
+      "lon": 2.349715,
+      "photos": []
+    },
+    {
+      "n": "Shangri-La Paris",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "16th arr. / Trocad\u00e9ro",
+      "d": "A Bonaparte prince's palace, with the Eiffel Tower filling many of the windows.",
+      "lat": 48.863719,
+      "lon": 2.293426,
+      "photos": []
+    },
+    {
+      "n": "The Peninsula Paris",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "16th arr. / near the Arc de Triomphe",
+      "d": "Peninsula precision and a rooftop that trades on the finest view in Paris.",
+      "lat": 48.870745,
+      "lon": 2.293307,
+      "photos": []
+    },
+    {
+      "n": "Bulgari Hotel Paris",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "8th arr. / Avenue George V",
+      "d": "Italian glamour dropped onto the smartest corner, with one of the city's largest hotel spas.",
+      "lat": 48.856426,
+      "lon": 2.352528,
+      "photos": []
+    },
+    {
+      "n": "H\u00f4tel Lutetia",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "6th arr. / Saint-Germain-des-Pr\u00e9s",
+      "d": "The only Palace on the Left Bank \u2014 literary Saint-Germain in an Art Deco landmark.",
+      "lat": 48.851098,
+      "lon": 2.327484,
+      "photos": []
+    },
+    {
+      "n": "H\u00f4tel Fouquet's Paris, Barri\u00e8re",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "8th arr. / the Champs-\u00c9lys\u00e9es",
+      "d": "Family-owned Barri\u00e8re glamour above the most famous brasserie on the avenue.",
+      "lat": 48.871099,
+      "lon": 2.30126,
+      "photos": []
+    },
+    {
+      "n": "The Ritz Paris",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "1st arr. / Place Vend\u00f4me",
+      "d": "The most famous hotel name in the world, still keeping the promise on Place Vend\u00f4me.",
+      "lat": 48.867969,
+      "lon": 2.328845,
+      "photos": []
+    },
+    {
+      "n": "Maison Villeroy",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "8th arr. / Rue du Faubourg Saint-Honor\u00e9",
+      "d": "A discreet townhouse near the \u00c9lys\u00e9e for members who prefer to be unseen.",
+      "lat": 48.850134,
+      "lon": 2.32658,
+      "photos": []
+    },
+    {
+      "n": "Saint James Paris, Relais & Ch\u00e2teaux",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "16th arr. / near the Bois de Boulogne",
+      "d": "The only ch\u00e2teau-hotel in Paris, set behind its own gardens.",
+      "lat": 48.868615,
+      "lon": 2.333436,
+      "photos": []
+    },
+    {
+      "n": "Mandarin Oriental, Paris",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "1st arr. / Rue Saint-Honor\u00e9",
+      "d": "A garden courtyard hidden off the smartest shopping street, run to the group's quiet precision.",
+      "lat": 48.867021,
+      "lon": 2.327222,
+      "photos": []
+    },
+    {
+      "n": "Park Hyatt Paris-Vend\u00f4me",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "2nd arr. / near Place Vend\u00f4me",
+      "d": "Refined and understated, a calm base a step from the jewellers of Vend\u00f4me.",
+      "lat": 48.869023,
+      "lon": 2.330489,
+      "photos": []
+    },
+    {
+      "n": "J.K. Place Paris",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "7th arr. / near the Mus\u00e9e d'Orsay",
+      "d": "Italian-run, jewel-box luxury on the Left Bank \u2014 warm where the palaces can be grand.",
+      "lat": 48.852937,
+      "lon": 2.35005,
+      "photos": []
+    },
+    {
+      "n": "Nolinski Paris, Evok Collection",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "1st arr. / Avenue de l'Op\u00e9ra",
+      "d": "A chic forty-five-key house between the Louvre and the Palais Royal.",
+      "lat": 48.864241,
+      "lon": 2.33506,
+      "photos": []
+    },
+    {
+      "n": "Brach Paris, Evok Collection",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "16th arr. / near Trocad\u00e9ro",
+      "d": "Starck-designed and buzzing, with a rooftop garden and a fashionable crowd.",
+      "lat": 48.863045,
+      "lon": 2.287194,
+      "photos": []
+    },
+    {
+      "n": "Grand Powers",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "8th arr. / off the Champs-\u00c9lys\u00e9es",
+      "d": "Elegant, intimate and perfectly placed for a day among the maisons.",
+      "lat": 48.842071,
+      "lon": 2.355103,
+      "photos": []
+    },
+    {
+      "n": "Le Burgundy Paris",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "1st arr. / near Place Vend\u00f4me",
+      "d": "Refined and central, with a spa and a Michelin-recognised kitchen of its own.",
+      "lat": 48.867966,
+      "lon": 2.32583,
+      "photos": []
+    },
+    {
+      "n": "Ch\u00e2teau Voltaire",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "1st arr. / near the Rue Saint-Honor\u00e9",
+      "d": "A fashion-crowd design hotel that hides its glamour behind a plain door.",
+      "lat": 48.858179,
+      "lon": 2.379822,
+      "photos": []
+    },
+    {
+      "n": "Maison Proust",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "3rd arr. / the Marais",
+      "d": "Belle \u00c9poque opulence and a La Mer spa, tucked into the Marais.",
+      "lat": 48.864117,
+      "lon": 2.363237,
+      "photos": []
+    },
+    {
+      "n": "Le Grand Mazarin",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "4th arr. / the Marais",
+      "d": "Joyful maximalism and one of the liveliest hotel restaurants in town.",
+      "lat": 48.857316,
+      "lon": 2.354396,
+      "photos": []
+    },
+    {
+      "n": "La Fantaisie",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "9th arr. / near the grands boulevards",
+      "d": "A garden-inspired newcomer with a rooftop and a light-hearted spirit.",
+      "lat": 48.87541,
+      "lon": 2.343535,
+      "photos": []
+    },
+    {
+      "n": "Maison Delano Paris",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "8th arr. / near the Champs-\u00c9lys\u00e9es",
+      "d": "Sleek and discreet, arranged around a quiet courtyard.",
+      "lat": 48.87289,
+      "lon": 2.309835,
+      "photos": []
+    },
+    {
+      "n": "Le Pavillon de la Reine",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "3rd arr. / Place des Vosges",
+      "d": "Hidden behind the loveliest square in Paris \u2014 romantic and quiet.",
+      "lat": 48.856269,
+      "lon": 2.36596,
+      "photos": []
+    },
+    {
+      "n": "Monsieur George",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "8th arr. / near the Champs-\u00c9lys\u00e9es",
+      "d": "A warm, well-placed boutique with more soul than its size suggests.",
+      "lat": 48.868753,
+      "lon": 2.325009,
+      "photos": []
+    },
+    {
+      "n": "Grand H\u00f4tel du Palais Royal",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "1st arr. / by the Palais Royal gardens",
+      "d": "Elegant and superbly placed, a step from the arcades of the Palais Royal.",
+      "lat": 48.863585,
+      "lon": 2.336204,
+      "photos": []
+    },
+    {
+      "n": "Relais Christine",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "6th arr. / Saint-Germain-des-Pr\u00e9s",
+      "d": "A hushed Left Bank townhouse built around its own courtyard.",
+      "lat": 48.854375,
+      "lon": 2.340073,
+      "photos": []
+    },
+    {
+      "n": "Kei",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "1st arr. / Louvre",
+      "d": "A Japanese hand on French cooking, exact to the millimetre \u2014 one of the city's nine three-stars.",
+      "lat": 48.864356,
+      "lon": 2.342123,
+      "photos": []
+    },
+    {
+      "n": "Pl\u00e9nitude \u2013 Cheval Blanc Paris",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "1st arr. / La Samaritaine, by the Seine",
+      "d": "Sauces treated as the whole point, in a room that looks out over the river.",
+      "lat": 48.858857,
+      "lon": 2.342179,
+      "photos": []
+    },
+    {
+      "n": "Arp\u00e8ge",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "7th arr. / Rue de Varenne",
+      "d": "The garden on the plate \u2014 Passard's near-vegan turn is the finest veg-friendly table at this height.",
+      "lat": 48.855754,
+      "lon": 2.317013,
+      "photos": []
+    },
+    {
+      "n": "Le Cinq",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "8th arr. / Four Seasons George V",
+      "d": "Classical French haute in a palace dining room \u2014 the grand occasion, done properly.",
+      "lat": 48.868674,
+      "lon": 2.300776,
+      "photos": []
+    },
+    {
+      "n": "\u00c9picure \u2013 Le Bristol",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "8th arr. / Le Bristol, Faubourg Saint-Honor\u00e9",
+      "d": "French haute cuisine facing Le Bristol's garden \u2014 serene, precise, timeless.",
+      "lat": 48.871827,
+      "lon": 2.315008,
+      "photos": []
+    },
+    {
+      "n": "Pierre Gagnaire",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "8th arr. / Rue Balzac, near the Champs-\u00c9lys\u00e9es",
+      "d": "The avant-garde of modern French cooking, three stars held since 1996.",
+      "lat": 48.873336,
+      "lon": 2.300415,
+      "photos": []
+    },
+    {
+      "n": "Le Gabriel \u2013 La R\u00e9serve Paris",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "8th arr. / near the Champs-\u00c9lys\u00e9es",
+      "d": "Intimate three-star cooking inside one of the city's most private houses.",
+      "lat": 48.869709,
+      "lon": 2.313439,
+      "photos": []
+    },
+    {
+      "n": "All\u00e9no Paris au Pavillon Ledoyen",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "8th arr. / Carr\u00e9 des Champs-\u00c9lys\u00e9es",
+      "d": "A pavilion in the Champs-\u00c9lys\u00e9es gardens, and All\u00e9no's modern French at full stretch.",
+      "lat": 48.866102,
+      "lon": 2.316485,
+      "photos": []
+    },
+    {
+      "n": "Le Pr\u00e9 Catelan",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "16th arr. / Bois de Boulogne",
+      "d": "A belle-\u00e9poque pavilion set deep in the park \u2014 one of the loveliest tables in Paris.",
+      "lat": 48.864815,
+      "lon": 2.253003,
+      "photos": []
+    },
+    {
+      "n": "Restaurant Guy Savoy \u2013 Monnaie de Paris",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "6th arr. / on the Seine, the former Mint",
+      "d": "The most-decorated name in the city by La Liste, in a riverside palace.",
+      "lat": 48.856539,
+      "lon": 2.339535,
+      "photos": []
+    },
+    {
+      "n": "Table by Bruno Verjus",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "12th arr. / near the March\u00e9 d'Aligre",
+      "d": "The international ticket of the moment \u2014 produce-led cooking from the counter.",
+      "lat": 48.848875,
+      "lon": 2.378046,
+      "photos": []
+    },
+    {
+      "n": "L'Ambroisie",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "4th arr. / Place des Vosges",
+      "d": "Old-guard grandeur on the most beautiful square in Paris.",
+      "lat": 48.85541,
+      "lon": 2.3643,
+      "photos": []
+    },
+    {
+      "n": "Le Clarence",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "8th arr. / off the Champs-\u00c9lys\u00e9es",
+      "d": "A private mansion, a Bordeaux cellar to match, and cooking of real depth.",
+      "lat": 48.867402,
+      "lon": 2.309794,
+      "photos": []
+    },
+    {
+      "n": "La Sc\u00e8ne",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "8th arr. / Avenue Matignon",
+      "d": "St\u00e9phanie Le Quellec's precise modern French \u2014 one of the city's top kitchens.",
+      "lat": 48.872055,
+      "lon": 2.31455,
+      "photos": []
+    },
+    {
+      "n": "David Toutain",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "7th arr. / Palais-Bourbon",
+      "d": "Vegetable-forward modern French, curious and quietly brilliant.",
+      "lat": 48.860254,
+      "lon": 2.309715,
+      "photos": []
+    },
+    {
+      "n": "Le Taillevent",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "8th arr. / near the Champs-\u00c9lys\u00e9es",
+      "d": "A grande-maison institution, classical to its bones.",
+      "lat": 48.874149,
+      "lon": 2.302471,
+      "photos": []
+    },
+    {
+      "n": "Le Grand Restaurant \u2013 Jean-Fran\u00e7ois Pi\u00e8ge",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "8th arr.",
+      "d": "A jewel-box room and Pi\u00e8ge's exacting modern French.",
+      "lat": 48.873728,
+      "lon": 2.310393,
+      "photos": []
+    },
+    {
+      "n": "L'Orangerie \u2013 Four Seasons George V",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "8th arr. / Four Seasons George V",
+      "d": "The George V's lighter, luminous second table \u2014 no less serious for it.",
+      "lat": 48.868784,
+      "lon": 2.300677,
+      "photos": []
+    },
+    {
+      "n": "L'Abysse au Pavillon Ledoyen",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "8th arr. / Carr\u00e9 des Champs-\u00c9lys\u00e9es",
+      "d": "A sushi counter of rare finesse, within All\u00e9no's pavilion.",
+      "lat": 48.866102,
+      "lon": 2.316485,
+      "photos": []
+    },
+    {
+      "n": "L'Oiseau Blanc \u2013 The Peninsula Paris",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "16th arr. / The Peninsula Paris",
+      "d": "French cooking on the rooftop, with the Eiffel Tower for company.",
+      "lat": 48.876034,
+      "lon": 2.323551,
+      "photos": []
+    },
+    {
+      "n": "Le Jules Verne",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "7th arr. / inside the Eiffel Tower",
+      "d": "Dinner inside the Eiffel Tower itself \u2014 the view every first visit wants.",
+      "lat": 48.858133,
+      "lon": 2.294497,
+      "photos": []
+    },
+    {
+      "n": "Maison Rostang",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "17th arr. / Batignolles",
+      "d": "Old-school luxury and classical French in Art Nouveau rooms.",
+      "lat": 48.881442,
+      "lon": 2.298552,
+      "photos": []
+    },
+    {
+      "n": "Alliance",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "5th arr. / Left Bank, near the Seine",
+      "d": "Restrained, precise modern French with none of the theatre.",
+      "lat": 48.849865,
+      "lon": 2.353007,
+      "photos": []
+    },
+    {
+      "n": "Sushi Yoshinaga",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "2nd arr.",
+      "d": "An omakase counter working with fish of exceptional quality.",
+      "lat": 48.873178,
+      "lon": 2.320775,
+      "photos": []
+    },
+    {
+      "n": "Septime",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "11th arr. / Rue de Charonne",
+      "d": "The most coveted mid-price reservation in Paris \u2014 seasonal, confident, warm.",
+      "lat": 48.853603,
+      "lon": 2.380956,
+      "photos": []
+    },
+    {
+      "n": "Frenchie",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "2nd arr. / Le Sentier",
+      "d": "Greg Marchand's intimate, buzzing bistronomy \u2014 small room, big following.",
+      "lat": 48.867838,
+      "lon": 2.348016,
+      "photos": []
+    },
+    {
+      "n": "Benoit",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "4th arr. / near Les Halles",
+      "d": "The only Michelin-starred bistro in Paris \u2014 Belle \u00c9poque, and run by Ducasse.",
+      "lat": 48.85517,
+      "lon": 2.333202,
+      "photos": []
+    },
+    {
+      "n": "Allard",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "6th arr. / Saint-Germain-des-Pr\u00e9s",
+      "d": "Escargots, sole meuni\u00e8re and a 1900s room \u2014 the Paris bistro, preserved.",
+      "lat": 48.853321,
+      "lon": 2.341014,
+      "photos": []
+    },
+    {
+      "n": "Sharma Ji",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "15th arr. / Rue Fr\u00e9micourt",
+      "d": "The one genuinely Michelin-listed Indian in Paris \u2014 refined, and never a clich\u00e9.",
+      "lat": 48.864628,
+      "lon": 2.372784,
+      "photos": []
+    },
+    {
+      "n": "Desi Road",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "6th arr. / Rue Dauphine, near Pont Neuf",
+      "d": "A glamorous Indian bistro on the Left Bank with real vegetarian breadth.",
+      "lat": 48.855669,
+      "lon": 2.339989,
+      "photos": []
+    },
+    {
+      "n": "Le Comptoir du Relais",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "6th arr. / Saint-Germain-des-Pr\u00e9s",
+      "d": "The cult bistronomy address \u2014 a small counter that shaped a whole movement.",
+      "lat": 48.851963,
+      "lon": 2.338832,
+      "photos": []
+    },
+    {
+      "n": "Chez L'Ami Jean",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "7th arr. / Gros-Caillou",
+      "d": "A lively Basque institution \u2014 generous cooking and a legendary riz au lait.",
+      "lat": 48.860318,
+      "lon": 2.305992,
+      "photos": []
+    },
+    {
+      "n": "Le Baratin",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "20th arr. / Belleville",
+      "d": "The birthplace of bistronomy, still personal, still priced with restraint.",
+      "lat": 48.838285,
+      "lon": 2.35727,
+      "photos": []
+    },
+    {
+      "n": "Le Bon Georges",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "9th arr. / near Saint-Georges",
+      "d": "Produce and wine of unusual seriousness, in a warm neighbourhood room.",
+      "lat": 48.877642,
+      "lon": 2.337211,
+      "photos": []
+    },
+    {
+      "n": "Pierre Sang in Oberkampf",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "11th arr. / Oberkampf",
+      "d": "Surprise tasting menus at an open kitchen \u2014 French technique, Korean soul.",
+      "lat": 48.864943,
+      "lon": 2.372183,
+      "photos": []
+    },
+    {
+      "n": "Bistrot Paul Bert",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "11th arr. / Rue Paul Bert",
+      "d": "The bistro of the imagination \u2014 steak-frites, souffl\u00e9, a wall of wine.",
+      "lat": 48.852223,
+      "lon": 2.384924,
+      "photos": []
+    },
+    {
+      "n": "Clamato",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "11th arr. / Charonne",
+      "d": "Septime's seafood sibling \u2014 small plates, natural wine, no reservations.",
+      "lat": 48.853589,
+      "lon": 2.380854,
+      "photos": []
+    },
+    {
+      "n": "Double Dragon",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "11th arr. / Charonne",
+      "d": "The Levha sisters' playful pan-Asian \u2014 bright, fun, generous.",
+      "lat": 48.862533,
+      "lon": 2.37993,
+      "photos": []
+    },
+    {
+      "n": "Le Radis Beurre",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "15th arr. / Boulevard Garibaldi",
+      "d": "Warm bistronomy and a blackboard menu, at a price that flatters the cooking.",
+      "lat": 48.846333,
+      "lon": 2.307832,
+      "photos": []
+    },
+    {
+      "n": "Le Grand Bain",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "20th arr. / Belleville",
+      "d": "Creative small plates and natural wine in an easy, buzzy room.",
+      "lat": 48.871599,
+      "lon": 2.378638,
+      "photos": []
+    },
+    {
+      "n": "Les Canailles",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "9th arr. / Pigalle",
+      "d": "Simple French cooking done exactly right \u2014 the food a French grandmother would make.",
+      "lat": 48.879269,
+      "lon": 2.334565,
+      "photos": []
+    },
+    {
+      "n": "Le Pantruche",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "9th arr. / Pigalle",
+      "d": "A 1940s bistro mood and a short, seasonal menu that rarely misses.",
+      "lat": 48.880467,
+      "lon": 2.339735,
+      "photos": []
+    },
+    {
+      "n": "Au Bon Accueil",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "7th arr. / near the Eiffel Tower",
+      "d": "Seasonal bistro cooking and a terrace that looks straight at the tower.",
+      "lat": 48.859707,
+      "lon": 2.299221,
+      "photos": []
+    },
+    {
+      "n": "Mensae",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "19th arr. / Buttes-Chaumont",
+      "d": "French comfort cooking with real value \u2014 a neighbourhood room worth the trip.",
+      "lat": 48.875748,
+      "lon": 2.385701,
+      "photos": []
+    },
+    {
+      "n": "Kokoro",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "5th arr. / Latin Quarter",
+      "d": "A Franco-Japanese couple's regional French, touched lightly by Japan.",
+      "lat": 48.846231,
+      "lon": 2.352434,
+      "photos": []
+    },
+    {
+      "n": "Lao Siam",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "19th arr. / Belleville",
+      "d": "A flavour tour of Laos and Thailand, credentialed and unpretentious.",
+      "lat": 48.873155,
+      "lon": 2.380937,
+      "photos": []
+    },
+    {
+      "n": "Chez Michel",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "10th arr. / near Gare du Nord",
+      "d": "A 1939 institution of Breton-leaning bistronomy, in a Japanese chef's careful hands.",
+      "lat": 48.827658,
+      "lon": 2.35001,
+      "photos": []
+    },
+    {
+      "n": "Imp\u00e9rial Choisy",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "13th arr. / Chinatown, Avenue de Choisy",
+      "d": "Cantonese cooking done cleanly and well, in the heart of Paris's Chinatown.",
+      "lat": 48.82219,
+      "lon": 2.363254,
+      "photos": []
+    },
+    {
+      "n": "Mandoobar",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "8th arr. / near Saint-Lazare",
+      "d": "A tiny counter given over to Korean dumplings, made with real care.",
+      "lat": 48.8794,
+      "lon": 2.32109,
+      "photos": []
+    },
+    {
+      "n": "Eiffel Tower",
+      "cat": "do",
+      "tier": "",
+      "a": "7th \u2014 Champ de Mars",
+      "d": "The city's iron heart; go to the summit at dusk and catch the on-the-hour sparkle, or dine at the Jules Verne on the second floor for a table above Paris.",
+      "lat": 48.85826,
+      "lon": 2.294501,
+      "photos": []
+    },
+    {
+      "n": "Arc de Triomphe",
+      "cat": "do",
+      "tier": "",
+      "a": "8th \u2014 Place Charles de Gaulle",
+      "d": "Climb the 284 steps to a rooftop where twelve avenues fan out like a star, with the Champs-\u00c9lys\u00e9es running straight to the Louvre.",
+      "lat": 48.873779,
+      "lon": 2.295037,
+      "photos": []
+    },
+    {
+      "n": "Notre-Dame Cathedral",
+      "cat": "do",
+      "tier": "",
+      "a": "4th \u2014 \u00cele de la Cit\u00e9",
+      "d": "Reopened December 2024 after the 2019 fire, the restored nave gleams brighter than in living memory; entry is free, and the bell towers reopened in September 2025 for the climb to the gargoyles.",
+      "lat": 48.852937,
+      "lon": 2.35005,
+      "photos": []
+    },
+    {
+      "n": "Sainte-Chapelle",
+      "cat": "do",
+      "tier": "",
+      "a": "1st \u2014 \u00cele de la Cit\u00e9",
+      "d": "A jewel-box royal chapel where fifteen soaring windows of 13th-century stained glass wrap you in coloured light \u2014 go on a bright morning for the full effect.",
+      "lat": 48.855393,
+      "lon": 2.344994,
+      "photos": []
+    },
+    {
+      "n": "Sacr\u00e9-C\u0153ur Basilica",
+      "cat": "do",
+      "tier": "",
+      "a": "18th \u2014 Montmartre",
+      "d": "The white domed basilica crowns the highest point in Paris; the steps below give one of the great free panoramas, and the dome climb rewards with a 360\u00b0 sweep.",
+      "lat": 48.886806,
+      "lon": 2.343015,
+      "photos": []
+    },
+    {
+      "n": "Panth\u00e9on",
+      "cat": "do",
+      "tier": "",
+      "a": "5th \u2014 Latin Quarter",
+      "d": "A neoclassical temple where France buries its greats \u2014 Voltaire, Curie, Hugo \u2014 with Foucault's pendulum swinging under the dome and a colonnade viewpoint above.",
+      "lat": 48.846195,
+      "lon": 2.346051,
+      "photos": []
+    },
+    {
+      "n": "Les Invalides & Napoleon's Tomb",
+      "cat": "do",
+      "tier": "",
+      "a": "7th \u2014 Invalides",
+      "d": "Under the gilded dome lies Napoleon in six nested coffins; the complex also holds the Army Museum, strong on the family history-of-France angle.",
+      "lat": 48.855635,
+      "lon": 2.312617,
+      "photos": []
+    },
+    {
+      "n": "Palais Garnier (Op\u00e9ra)",
+      "cat": "do",
+      "tier": "",
+      "a": "9th \u2014 Op\u00e9ra",
+      "d": "The most opulent theatre in Europe \u2014 grand staircase, gilded foyer, and a Chagall-painted ceiling; tour it by day or take an advisor-booked box for a ballet.",
+      "lat": 48.871433,
+      "lon": 2.331965,
+      "photos": []
+    },
+    {
+      "n": "The Louvre",
+      "cat": "do",
+      "tier": "",
+      "a": "1st \u2014 Rivoli",
+      "d": "The world's largest art museum; ask us to arrange an early-access or after-hours private hour so you meet the Mona Lisa and Venus de Milo without the crush.",
+      "lat": 48.88084,
+      "lon": 2.328218,
+      "photos": []
+    },
+    {
+      "n": "Mus\u00e9e d'Orsay",
+      "cat": "do",
+      "tier": "",
+      "a": "7th \u2014 Left Bank",
+      "d": "A grand Beaux-Arts railway station turned temple of Impressionism \u2014 Monet, Renoir, Van Gogh, Degas \u2014 best from the giant golden clock window on the top floor.",
+      "lat": 48.859918,
+      "lon": 2.326585,
+      "photos": []
+    },
+    {
+      "n": "Mus\u00e9e de l'Orangerie",
+      "cat": "do",
+      "tier": "",
+      "a": "1st \u2014 Tuileries",
+      "d": "Two oval rooms hold Monet's monumental Water Lilies, wrapping you in eight curved panels designed by the painter himself \u2014 a meditative, unhurried half-hour.",
+      "lat": 48.863765,
+      "lon": 2.32266,
+      "photos": []
+    },
+    {
+      "n": "Mus\u00e9e Rodin",
+      "cat": "do",
+      "tier": "",
+      "a": "7th \u2014 Invalides",
+      "d": "The sculptor's mansion and rose garden, where The Thinker and The Kiss sit among clipped hedges \u2014 one of the loveliest, calmest museums in the city, ideal with children.",
+      "lat": 48.854747,
+      "lon": 2.315867,
+      "photos": []
+    },
+    {
+      "n": "Mus\u00e9e Picasso",
+      "cat": "do",
+      "tier": "",
+      "a": "3rd \u2014 Le Marais",
+      "d": "A restored 17th-century mansion in the Marais holding the world's greatest Picasso collection, drawn from the artist's own estate.",
+      "lat": 48.85987,
+      "lon": 2.362115,
+      "photos": []
+    },
+    {
+      "n": "Centre Pompidou",
+      "cat": "do",
+      "tier": "",
+      "a": "4th \u2014 Beaubourg",
+      "d": "The inside-out building of coloured pipes houses Europe's biggest modern-art museum; note it is closing for a multi-year renovation, so confirm access with us before you plan.",
+      "lat": 48.860496,
+      "lon": 2.352422,
+      "photos": []
+    },
+    {
+      "n": "Bourse de Commerce \u2014 Pinault Collection",
+      "cat": "do",
+      "tier": "",
+      "a": "1st \u2014 Les Halles",
+      "d": "Fran\u00e7ois Pinault's contemporary art inside a domed former grain exchange reimagined by Tadao Ando \u2014 a concrete cylinder within a historic rotunda; the 2026 show 'Clair-obscur' runs into late August.",
+      "lat": 48.862817,
+      "lon": 2.342836,
+      "photos": []
+    },
+    {
+      "n": "Mus\u00e9e Marmottan Monet",
+      "cat": "do",
+      "tier": "",
+      "a": "16th \u2014 Passy",
+      "d": "The world's largest Monet holding, including 'Impression, Sunrise' \u2014 the painting that named the movement \u2014 in an intimate townhouse well off the tourist track.",
+      "lat": 48.859411,
+      "lon": 2.267256,
+      "photos": []
+    },
+    {
+      "n": "Mus\u00e9e du Quai Branly \u2014 Jacques Chirac",
+      "cat": "do",
+      "tier": "",
+      "a": "7th \u2014 near Eiffel Tower",
+      "d": "Jean Nouvel's museum of the arts of Africa, Asia, Oceania and the Americas, wrapped in a living green wall \u2014 a thoughtful, less-obvious stop near the Eiffel Tower.",
+      "lat": 48.860513,
+      "lon": 2.29753,
+      "photos": []
+    },
+    {
+      "n": "Petit Palais",
+      "cat": "do",
+      "tier": "",
+      "a": "8th \u2014 Champs-\u00c9lys\u00e9es",
+      "d": "The city's fine-arts museum in a jewel of a 1900 building \u2014 free entry, a gilded interior, and a serene garden caf\u00e9 most visitors walk right past.",
+      "lat": 48.866042,
+      "lon": 2.31535,
+      "photos": []
+    },
+    {
+      "n": "Grand Palais",
+      "cat": "do",
+      "tier": "",
+      "a": "8th \u2014 Champs-\u00c9lys\u00e9es",
+      "d": "Reopened in 2024 after a sweeping restoration, its vast glass-and-iron nave is Paris's grandest exhibition hall \u2014 check what blockbuster show is on.",
+      "lat": 48.866161,
+      "lon": 2.312223,
+      "photos": []
+    },
+    {
+      "n": "Mus\u00e9e Nissim de Camondo",
+      "cat": "do",
+      "tier": "",
+      "a": "8th \u2014 Parc Monceau",
+      "d": "A perfectly preserved aristocratic mansion of 18th-century French decorative arts, with a moving family history \u2014 a quiet gem beside Parc Monceau.",
+      "lat": 48.879173,
+      "lon": 2.312346,
+      "photos": []
+    },
+    {
+      "n": "Mus\u00e9e Jacquemart-Andr\u00e9",
+      "cat": "do",
+      "tier": "",
+      "a": "8th \u2014 Haussmann",
+      "d": "A collector couple's opulent townhouse hung with Italian and French masters; take tea in the frescoed dining room under a Tiepolo ceiling.",
+      "lat": 48.87545,
+      "lon": 2.310544,
+      "photos": []
+    },
+    {
+      "n": "Le Marais",
+      "cat": "do",
+      "tier": "",
+      "a": "3rd & 4th \u2014 Le Marais",
+      "d": "The best-preserved old quarter \u2014 Renaissance mansions, the arcaded Place des Vosges, designer boutiques and falafel lanes; wander with no plan, it rewards it.",
+      "lat": 48.860382,
+      "lon": 2.360742,
+      "photos": []
+    },
+    {
+      "n": "Saint-Germain-des-Pr\u00e9s",
+      "cat": "do",
+      "tier": "",
+      "a": "6th \u2014 Left Bank",
+      "d": "Literary Left Bank of Caf\u00e9 de Flore and Les Deux Magots, antique galleries and the city's oldest church \u2014 the neighbourhood for a slow morning and good browsing.",
+      "lat": 48.854429,
+      "lon": 2.333707,
+      "photos": []
+    },
+    {
+      "n": "Montmartre",
+      "cat": "do",
+      "tier": "",
+      "a": "18th \u2014 Montmartre",
+      "d": "The village on the hill \u2014 cobbled lanes, the last working vineyard in Paris, artists in Place du Tertre, and hidden squares away from the crowds if you climb early.",
+      "lat": 48.885462,
+      "lon": 2.339154,
+      "photos": []
+    },
+    {
+      "n": "\u00cele Saint-Louis",
+      "cat": "do",
+      "tier": "",
+      "a": "4th \u2014 \u00cele Saint-Louis",
+      "d": "A serene 17th-century island in the Seine, one main street of mansions and small shops \u2014 stroll the quays with a Berthillon ice cream, a Paris rite.",
+      "lat": 48.851605,
+      "lon": 2.356759,
+      "photos": []
+    },
+    {
+      "n": "Canal Saint-Martin",
+      "cat": "do",
+      "tier": "",
+      "a": "10th \u2014 Canal Saint-Martin",
+      "d": "Iron footbridges, plane trees and locks lined with young Paris; walk the canal to Bassin de la Villette, or take a slow boat cruise through the underground vaults.",
+      "lat": 48.868956,
+      "lon": 2.367169,
+      "photos": []
+    },
+    {
+      "n": "Latin Quarter & Rue Mouffetard",
+      "cat": "do",
+      "tier": "",
+      "a": "5th \u2014 Latin Quarter",
+      "d": "Student Paris around the Sorbonne, plus the sloping market street of Rue Mouffetard \u2014 one of the oldest in the city, lined with cheese, wine and produce stalls.",
+      "lat": 48.84221,
+      "lon": 2.349887,
+      "photos": []
+    },
+    {
+      "n": "Jardin du Luxembourg",
+      "cat": "do",
+      "tier": "",
+      "a": "6th \u2014 Left Bank",
+      "d": "The most beloved park in Paris \u2014 sail a toy boat on the fountain, watch a puppet show, and sit in the green chairs among statues and orchards; children adore it.",
+      "lat": 48.846723,
+      "lon": 2.336415,
+      "photos": []
+    },
+    {
+      "n": "Jardin des Tuileries",
+      "cat": "do",
+      "tier": "",
+      "a": "1st \u2014 between Louvre & Concorde",
+      "d": "The grand formal garden linking the Louvre to Place de la Concorde; ponds, statues and, in summer, a fairground with a big wheel over the treetops.",
+      "lat": 48.863566,
+      "lon": 2.326955,
+      "photos": []
+    },
+    {
+      "n": "Palais-Royal Gardens",
+      "cat": "do",
+      "tier": "",
+      "a": "1st \u2014 Palais-Royal",
+      "d": "A hidden arcaded courtyard behind the Louvre \u2014 Buren's striped columns, lime-tree walks and old-world boutiques; one of the quietest lovely corners in the centre.",
+      "lat": 48.863585,
+      "lon": 2.336204,
+      "photos": []
+    },
+    {
+      "n": "Parc des Buttes-Chaumont",
+      "cat": "do",
+      "tier": "",
+      "a": "19th \u2014 Belleville side",
+      "d": "The most dramatic park in Paris \u2014 cliffs, a lake, a temple on a crag and a suspension bridge; a local, family-filled escape far from the tourist centre.",
+      "lat": 48.879555,
+      "lon": 2.382098,
+      "photos": []
+    },
+    {
+      "n": "Bois de Boulogne & Fondation Louis Vuitton",
+      "cat": "do",
+      "tier": "",
+      "a": "16th \u2014 western edge",
+      "d": "Paris's great western woodland for boating and gardens, now anchored by Frank Gehry's glass-sail Fondation Louis Vuitton \u2014 a landmark of art and architecture in itself.",
+      "lat": 48.87665,
+      "lon": 2.263338,
+      "photos": []
+    },
+    {
+      "n": "P\u00e8re Lachaise Cemetery",
+      "cat": "do",
+      "tier": "",
+      "a": "20th \u2014 M\u00e9nilmontant",
+      "d": "A hilly garden-necropolis of cobbled avenues and grand tombs \u2014 Chopin, Wilde, Piaf, Jim Morrison; strangely peaceful and beautiful, especially in autumn.",
+      "lat": 48.86113,
+      "lon": 2.394009,
+      "photos": []
+    },
+    {
+      "n": "Galeries Lafayette Rooftop",
+      "cat": "do",
+      "tier": "",
+      "a": "9th \u2014 Haussmann",
+      "d": "Under the great stained-glass dome of the flagship store, then up to the free rooftop terrace for one of the best open-air views of the Op\u00e9ra and Eiffel Tower.",
+      "lat": 48.873646,
+      "lon": 2.332127,
+      "photos": []
+    },
+    {
+      "n": "Montparnasse Tower Observation Deck",
+      "cat": "do",
+      "tier": "",
+      "a": "15th \u2014 Montparnasse",
+      "d": "The one skyline view that includes the Eiffel Tower \u2014 the 56th-floor deck and open rooftop give the finest sunset panorama in the city, minus the queues of the tower itself.",
+      "lat": 48.840062,
+      "lon": 2.319109,
+      "photos": []
+    },
+    {
+      "n": "The Covered Passages",
+      "cat": "do",
+      "tier": "",
+      "a": "2nd & 9th \u2014 Grands Boulevards",
+      "d": "Glass-roofed 19th-century arcades \u2014 Galerie Vivienne, Passage des Panoramas, Passage Jouffroy \u2014 full of mosaic floors, old bookshops and tearooms; a rainy-day treasure hunt.",
+      "lat": 48.868355,
+      "lon": 2.335441,
+      "photos": []
+    },
+    {
+      "n": "March\u00e9 d'Aligre",
+      "cat": "do",
+      "tier": "",
+      "a": "12th \u2014 near Bastille",
+      "d": "One of the liveliest, most authentic markets \u2014 a covered hall of fine cheese and produce plus an open-air flea market; go with us for a chef-led tasting stroll.",
+      "lat": 48.848875,
+      "lon": 2.378046,
+      "photos": []
+    },
+    {
+      "n": "Rue Cler Market Street",
+      "cat": "do",
+      "tier": "",
+      "a": "7th \u2014 near Eiffel Tower",
+      "d": "A pretty pedestrian market street of cheesemongers, bakeries and florists near the Eiffel Tower \u2014 the classic spot to assemble a picnic for the Champ de Mars.",
+      "lat": 48.85766,
+      "lon": 2.360412,
+      "photos": []
+    },
+    {
+      "n": "March\u00e9 aux Puces de Saint-Ouen",
+      "cat": "do",
+      "tier": "",
+      "a": "Saint-Ouen (north edge, 20min)",
+      "d": "The world's largest antiques market \u2014 a sprawling maze of dealer stands in vintage furniture, art and curiosities; an advisor guide makes the labyrinth worthwhile.",
+      "lat": 48.89753,
+      "lon": 2.344313,
+      "photos": []
+    },
+    {
+      "n": "Bouquinistes of the Seine",
+      "cat": "do",
+      "tier": "",
+      "a": "5th & 6th \u2014 Seine quays",
+      "d": "The green riverside book boxes are a UNESCO-listed Paris institution \u2014 browse antique prints, posters and old books along the quays between the bridges.",
+      "lat": 48.860224,
+      "lon": 2.333518,
+      "photos": []
+    },
+    {
+      "n": "Seine Dinner Cruise",
+      "cat": "do",
+      "tier": "",
+      "a": "7th \u2014 Port de la Bourdonnais",
+      "d": "Glide past the floodlit monuments over a fine dinner; we book the private or premium boats \u2014 and can arrange a fully vegetarian or Jain-aware menu on board.",
+      "lat": 48.860502,
+      "lon": 2.29399,
+      "photos": []
+    },
+    {
+      "n": "Avenue Montaigne",
+      "cat": "do",
+      "tier": "",
+      "a": "8th \u2014 Golden Triangle",
+      "d": "The couture spine of Paris \u2014 Dior, Chanel, Louis Vuitton, Valentino \u2014 flagship after flagship; we can arrange private in-store appointments and after-hours access.",
+      "lat": 48.868842,
+      "lon": 2.309844,
+      "photos": []
+    },
+    {
+      "n": "Rue Saint-Honor\u00e9 & Place Vend\u00f4me",
+      "cat": "do",
+      "tier": "",
+      "a": "1st \u2014 Vend\u00f4me",
+      "d": "From Colette concept-store cool to the high-jewellery houses of Place Vend\u00f4me \u2014 Cartier, Van Cleef, Boucheron \u2014 set around the Ritz; the address for jewels and watches.",
+      "lat": 48.865998,
+      "lon": 2.332268,
+      "photos": []
+    },
+    {
+      "n": "Le Bon March\u00e9",
+      "cat": "do",
+      "tier": "",
+      "a": "7th \u2014 Left Bank",
+      "d": "The world's first department store and still the most refined \u2014 with La Grande \u00c9picerie next door for one of the great food halls in Paris.",
+      "lat": 48.851183,
+      "lon": 2.324394,
+      "photos": []
+    },
+    {
+      "n": "Atelier des Lumi\u00e8res",
+      "cat": "do",
+      "tier": "",
+      "a": "11th \u2014 near P\u00e8re Lachaise",
+      "d": "A former foundry turned immersive digital art hall where masterpieces sweep across the walls and floor to music \u2014 a hit with children and the whole family.",
+      "lat": 48.861889,
+      "lon": 2.381161,
+      "photos": []
+    },
+    {
+      "n": "Promenade Plant\u00e9e (Coul\u00e9e Verte)",
+      "cat": "do",
+      "tier": "",
+      "a": "12th \u2014 Bastille to Vincennes",
+      "d": "The elevated garden walkway on a disused railway viaduct \u2014 the inspiration for New York's High Line \u2014 running above the arch-shops of the Viaduc des Arts.",
+      "lat": 48.849099,
+      "lon": 2.372117,
+      "photos": []
+    },
+    {
+      "n": "Philharmonie de Paris",
+      "cat": "do",
+      "tier": "",
+      "a": "19th \u2014 Parc de la Villette",
+      "d": "Jean Nouvel's silver concert hall with world-class acoustics; we secure seats for an evening of the Orchestre de Paris or a visiting name.",
+      "lat": 48.889894,
+      "lon": 2.39407,
+      "photos": []
+    },
+    {
+      "n": "A Jazz Cave in Saint-Germain",
+      "cat": "do",
+      "tier": "",
+      "a": "6th \u2014 Saint-Germain",
+      "d": "Descend into a vaulted stone cellar like Caveau de la Huchette or Le Duc des Lombards for late live jazz \u2014 an intimate, only-in-Paris night out.",
+      "lat": 48.851946,
+      "lon": 2.33377,
+      "photos": []
+    },
+    {
+      "n": "Palace of Versailles",
+      "cat": "do",
+      "tier": "",
+      "a": "Versailles (45min)",
+      "d": "The supreme royal palace \u2014 Hall of Mirrors, the State Apartments, and vast formal gardens with the musical fountain shows; ask us for a private guide and skip-the-line timing.",
+      "lat": 48.804425,
+      "lon": 2.120285,
+      "photos": []
+    },
+    {
+      "n": "Ch\u00e2teau de Chantilly",
+      "cat": "do",
+      "tier": "",
+      "a": "Chantilly (40min by train)",
+      "d": "A fairytale ch\u00e2teau in a moat, holding the finest old-master collection outside the Louvre, plus the Great Stables and a Le N\u00f4tre park \u2014 quieter than Versailles.",
+      "lat": 49.193821,
+      "lon": 2.485255,
+      "photos": []
+    },
+    {
+      "n": "Ch\u00e2teau de Fontainebleau",
+      "cat": "do",
+      "tier": "",
+      "a": "Fontainebleau (1hr)",
+      "d": "A royal residence for eight centuries, from Francis I to Napoleon \u2014 sumptuous, uncrowded, and set in a vast forest ideal for a family walk or ride.",
+      "lat": 48.358115,
+      "lon": 2.564428,
+      "photos": []
+    },
+    {
+      "n": "Bar Hemingway \u2014 The Ritz Paris",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "1st arr. / Place Vend\u00f4me",
+      "d": "Twenty-five seats, a legend at the shaker, and the most storied cocktail room in Paris.",
+      "lat": 48.868786,
+      "lon": 2.327511,
+      "photos": []
+    },
+    {
+      "n": "Bar Nouveau",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "11th arr. / near Bastille",
+      "d": "The highest-ranked bar in Paris right now \u2014 Art Nouveau brought to life, drink by drink.",
+      "lat": 48.861504,
+      "lon": 2.357562,
+      "photos": []
+    },
+    {
+      "n": "The Cambridge Public House",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "3rd arr. / the Marais",
+      "d": "A British pub reimagined by serious bartenders \u2014 warm, unpretentious, world-class.",
+      "lat": 48.861452,
+      "lon": 2.364168,
+      "photos": []
+    },
+    {
+      "n": "Danico",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "2nd arr. / Galerie Vivienne",
+      "d": "Velvet and gold in a covered arcade \u2014 precise cocktails behind Daniele Dalla Pola's counter.",
+      "lat": 48.86712,
+      "lon": 2.339294,
+      "photos": []
+    },
+    {
+      "n": "Little Red Door",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "3rd arr. / the Marais",
+      "d": "For a decade one of the world's most decorated bars \u2014 conceptual menus, faultless execution.",
+      "lat": 48.863664,
+      "lon": 2.363587,
+      "photos": []
+    },
+    {
+      "n": "Candelaria",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "3rd arr. / the Marais",
+      "d": "The bar that began the Paris speakeasy era \u2014 a taqueria out front, a hidden room behind.",
+      "lat": 48.862986,
+      "lon": 2.364018,
+      "photos": []
+    },
+    {
+      "n": "Le Syndicat",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "10th arr. / near the Grands Boulevards",
+      "d": "French spirits only \u2014 Cognac, Calvados, Armagnac \u2014 behind a deliberately shabby door.",
+      "lat": 48.871802,
+      "lon": 2.353621,
+      "photos": []
+    },
+    {
+      "n": "Cravan",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "6th arr. / Saint-Germain-des-Pr\u00e9s",
+      "d": "Franck Audoux's study of pre-1930s French cocktails, in a listed Art Nouveau corner house.",
+      "lat": 48.854019,
+      "lon": 2.331409,
+      "photos": []
+    },
+    {
+      "n": "Combat",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "19th arr. / Belleville",
+      "d": "A female-led room, light and green, from alumni of the Experimental Cocktail Club.",
+      "lat": 48.877414,
+      "lon": 2.371002,
+      "photos": []
+    },
+    {
+      "n": "Le Tout-Paris \u2014 Cheval Blanc Paris",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "1st arr. / La Samaritaine, by the Seine",
+      "d": "The seventh-floor terrace of an LVMH palace, from Notre-Dame to the Eiffel Tower.",
+      "lat": 48.817135,
+      "lon": 2.4675,
+      "photos": []
+    },
+    {
+      "n": "Les Ombres",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "7th arr. / Mus\u00e9e du Quai Branly",
+      "d": "A glass rooftop under Jean Nouvel's roof, with the Eiffel Tower almost close enough to touch.",
+      "lat": 48.861112,
+      "lon": 2.298557,
+      "photos": []
+    }
+  ]
+}

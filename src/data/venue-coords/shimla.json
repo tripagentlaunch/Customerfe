@@ -1,1 +1,488 @@
-{"center": [31.104039, 77.170792], "venues": [{"n": "The Oberoi Cecil, Shimla", "cat": "stay", "tier": "Grand", "a": "The Mall (central Shimla)", "d": "Shimla's most storied address since 1884 — the hotel where Mohan Singh Oberoi began, restored to hushed colonial grandeur.", "lat": 31.103255, "lon": 77.154755, "p": "v"}, {"n": "The Oberoi Clarkes, Shimla", "cat": "stay", "tier": "Luxury", "a": "The Mall (central Shimla)", "d": "A grand colonial bungalow on the Mall since 1898 — the first hotel the Oberoi group ever owned, intimate and full of history.", "lat": 31.103162, "lon": 77.179093, "p": "a"}, {"n": "Koti Resort, Shimla — Radisson Individuals Retreats", "cat": "stay", "tier": "Premium", "a": "Mashobra (near Shimla)", "d": "A hilltop retreat in the Mashobra forest with colonial warmth, Himalayan views and Radisson-backed service.", "lat": 31.13079, "lon": 77.227163, "p": "a"}, {"n": "Dining at The Oberoi Cecil", "cat": "eat", "tier": "Fine", "a": "The Mall (The Oberoi Cecil)", "d": "All-day Indian and international cooking beneath the hotel's soaring wood-panelled atrium — heritage dining in the heart of Shimla.", "lat": 31.103255, "lon": 77.154755, "p": "a"}, {"n": "Ashiana & Goofa", "cat": "eat", "tier": "Smart", "a": "The Ridge / Mall Road", "d": "A Shimla institution run by Himachal Tourism — a landmark circular pavilion on the Ridge, with the cave-like Goofa below.", "lat": 31.086568, "lon": 77.138974, "p": "v"}, {"n": "Baljees", "cat": "eat", "tier": "Smart", "a": "The Mall (central Shimla)", "d": "A Mall Road fixture for generations — the beloved bakery-restaurant famous for its sweets and unhurried Shimla mornings.", "lat": 31.106509, "lon": 77.165553, "p": "v"}, {"n": "Wake & Bake Café", "cat": "eat", "tier": "Casual", "a": "The Mall (central Shimla)", "d": "The Mall's favourite all-day café — a balcony table over Shimla, from breakfast crêpes to late cake.", "lat": 31.104652, "lon": 77.173192, "p": "v"}, {"n": "The Ridge", "cat": "do", "tier": "", "a": "Central Shimla", "d": "The great open promenade at 2,200 metres where all of Shimla gathers, the snow peaks lined up beyond Christ Church and the timber gables. A gentle early-morning stroll here, before the day-trippers arrive, is the Queen of Hills at her most composed.", "lat": 31.104791, "lon": 77.175283, "p": "v"}, {"n": "The Mall Road", "cat": "do", "tier": "", "a": "Central Shimla", "d": "The pedestrianised Raj-era spine of the town, its lamp-lit facades and colonnades running above the valley. A private guide turns the evening amble into a walk through Kipling's Simla; the antique jewellers and Kashmiri shawl merchants reward an unhurried browse.", "lat": 31.102731, "lon": 77.177609, "p": "v"}, {"n": "Christ Church", "cat": "do", "tier": "", "a": "The Ridge", "d": "The butter-yellow neo-Gothic church of 1844, one of the oldest in North India, its stained glass and clock tower the postcard image of Shimla. Step inside for the cool hush and the organ; the frescoes were designed by Rudyard Kipling's father, Lockwood.", "lat": 31.104309, "lon": 77.176016, "p": "v"}, {"n": "The Gaiety Theatre", "cat": "do", "tier": "", "a": "The Mall Road", "d": "A jewel-box Victorian Gothic theatre of 1887 by Henry Irwin, restored to its plush red-and-gilt glory, where the Raj once staged its amateur dramatics. A guided visit lets you stand on the same boards trod by viceroys and, later, a young Prithviraj Kapoor.", "lat": 31.104604, "lon": 77.173696, "p": "v"}, {"n": "Scandal Point", "cat": "do", "tier": "", "a": "The Ridge", "d": "The open shoulder where the Mall meets the Ridge, named for the alleged elopement of a Patiala prince with a viceroy's daughter. The best free view in Shimla and the town's natural meeting place, framed against the peaks.", "lat": 31.105222, "lon": 77.172553, "p": "v"}, {"n": "The Viceregal Lodge (Indian Institute of Advanced Study)", "cat": "do", "tier": "", "a": "Observatory Hill", "d": "The vast Elizabethan-Jacobean stone palace of 1888 from which the British ruled India each summer, where the 1945 Simla Conference and the Partition talks unfolded. The guided tour of the panelled interiors and manicured lawns is the single grandest Raj experience in the hills.", "lat": 31.094075, "lon": 77.141941, "p": "a"}, {"n": "Jakhoo Temple & the giant Hanuman", "cat": "do", "tier": "", "a": "Jakhoo Hill", "d": "Shimla's highest point at 2,455 metres, crowned by a 108-foot saffron Hanuman visible from across the town, on the spot the Ramayana links to the god's rest. A serene, cedar-shaded pilgrimage above the bustle; watch your spectacles around the resident monkeys.", "lat": 31.101086, "lon": 77.184273, "p": "a"}, {"n": "Jakhoo Ropeway", "cat": "do", "tier": "", "a": "Jakhoo Hill", "d": "The glass-cabin aerial ropeway that lifts you from the Ridge to the Hanuman temple in minutes, sparing the steep forest climb and gifting a bird's-eye sweep of the ridgeline roofs. The dignified way up for elders and children in a multi-generation party.", "lat": 31.101086, "lon": 77.184273, "p": "v"}, {"n": "Kalka–Shimla Toy Train", "cat": "do", "tier": "", "a": "Kalka to Shimla", "d": "The narrow-gauge marvel of 1903 that climbs 96 km through 102 tunnels and over 800 bridges to the summer capital, best savoured in a chartered first-class or the glass-roofed dome car. A slow, cinematic ascent through the Shivaliks that no drive can rival.", "lat": 31.102729, "lon": 77.155375, "p": "a"}, {"n": "Shimla State Museum", "cat": "do", "tier": "", "a": "Chaura Maidan", "d": "A colonial mansion on Mount Pleasant holding Pahari miniature paintings, Kangra bronzes, temple sculpture and Himachali textiles. A quiet, well-curated hour that gives the whole hill region its artistic context, away from the crowds.", "lat": 31.103145, "lon": 77.150828, "p": "v"}, {"n": "Johnnie's Wax Museum", "cat": "do", "tier": "", "a": "The Mall Road", "d": "A small, playful wax gallery in the Willow Banks estate on the Mall, its London-made figures of film stars and cricketers a reliable hit with children. A light-hearted diversion to break up a heritage-heavy afternoon.", "lat": 31.102731, "lon": 77.177609, "p": "a"}, {"n": "Kali Bari Temple", "cat": "do", "tier": "", "a": "Central Shimla", "d": "The 1845 Bengali temple to Goddess Shyamala, from whom Shimla takes its name, a five-minute walk off the Mall. A living shrine of quiet devotion and a fragrant, flower-strewn contrast to the promenade below.", "lat": 31.106113, "lon": 77.166775, "p": "v"}, {"n": "Tara Devi Temple", "cat": "do", "tier": "", "a": "Tara Parvat (11 km SW)", "d": "A 250-year-old hilltop temple to the star goddess, brought from Bengal, ringed by deodar at 1,850 metres with long views back to Shimla. A peaceful, uncrowded stop on the road in, worth the short detour for the panorama alone.", "lat": 31.104928, "lon": 77.175824, "p": "v"}, {"n": "Kamna Devi Temple, Prospect Hill", "cat": "do", "tier": "", "a": "Prospect Hill (Boileauganj)", "d": "A short, pretty pine climb to a Kali shrine crowning Prospect Hill, rewarded with a 360-degree sweep over Shimla and the valleys. A gentle morning walk that locals prize far more than tourists do.", "lat": 31.094075, "lon": 77.141941, "p": "a"}, {"n": "Annandale", "cat": "do", "tier": "", "a": "Below the Ridge", "d": "A flat green saucer amid the hills, once the Raj's playground for polo, cricket and flower shows, now home to a golf course and the Army Heritage Museum. A rare piece of level ground in Shimla and a graceful, breezy afternoon.", "lat": 31.106372, "lon": 77.163248, "p": "v"}, {"n": "Summer Hill", "cat": "do", "tier": "", "a": "Summer Hill (5 km W)", "d": "A leafy, quiet suburb where Mahatma Gandhi stayed at Georgian-style Rothney Castle's neighbourhood and where Himachal University now sits. A calm base for pine walks and a stop on the toy-train line, away from the Mall's crush.", "lat": 31.108416, "lon": 77.13904, "p": "v"}, {"n": "Chadwick Falls", "cat": "do", "tier": "", "a": "Near Summer Hill (7 km)", "d": "A 90-metre cascade plunging through deep deodar and oak forest, fullest and most dramatic just after the monsoon. A short trek through the Glen woods brings you to a cool, green amphitheatre far from the town noise.", "lat": 31.118951, "lon": 77.13864, "p": "v"}, {"n": "The Glen Forest", "cat": "do", "tier": "", "a": "Near Cecil / Annandale", "d": "A shaded stream-side hollow of dense pine below the Cecil, a favourite Raj-era picnic ground and gentle woodland ramble. Close enough to walk to, wild enough to feel a world away from the Mall.", "lat": 31.126553, "lon": 77.35391, "p": "v"}, {"n": "Lakkar Bazaar", "cat": "do", "tier": "", "a": "Off the Ridge", "d": "Shimla's old woodcraft market beside the Ridge, stacked with hand-carved walnut and deodar keepsakes, walking sticks and toys. The place to pick up an honest, made-in-the-hills souvenir rather than a factory trinket.", "lat": 31.10556, "lon": 77.177293, "p": "v"}, {"n": "Green Valley", "cat": "do", "tier": "", "a": "Shimla–Kufri road", "d": "The photogenic saddle on the way to Kufri where the road opens onto rolling green slopes and, on clear days, distant snow. A classic pause for a chai and a photograph, deodars falling away on both sides.", "lat": 31.109141, "lon": 77.164701, "p": "v"}, {"n": "Kufri", "cat": "do", "tier": "", "a": "Kufri (16 km E)", "d": "A high meadowed ridge at 2,720 metres with grandstand Himalayan views, pony rides up to Mahasu Peak and winter snow. Touristy at its heart but a soaring backdrop; go early, or ride above the crowds to the quieter tops.", "lat": 31.102246, "lon": 77.242077, "p": "v"}, {"n": "Himalayan Nature Park, Kufri", "cat": "do", "tier": "", "a": "Kufri", "d": "A high-altitude wildlife park sheltering snow leopard, Himalayan black bear, musk deer and the state-bird Monal pheasant among the deodars. A gentle, shaded walk that turns Kufri into something the children will actually remember.", "lat": 31.102246, "lon": 77.242077, "p": "v"}, {"n": "Mashobra", "cat": "do", "tier": "", "a": "Mashobra (13 km NE)", "d": "A hushed forest village of apple orchards and cedar walks, home to the Presidential Retreat and to Shimla's most exclusive resort. The address to choose for quiet, orchard-scented seclusion within reach of the town.", "lat": 31.13079, "lon": 77.227163, "p": "v"}, {"n": "Craignano", "cat": "do", "tier": "", "a": "Near Mashobra", "d": "An Italianate villa and terraced garden on a knoll above Mashobra, built by an Italian craftsman in the 19th century, now a serene HPTDC nature spot. A little jewel of a picnic ground with wide valley views and almost no crowd.", "lat": 31.104039, "lon": 77.170792, "p": "v"}, {"n": "Fagu", "cat": "do", "tier": "", "a": "Fagu (22 km E)", "d": "A tiny hamlet above Kufri wrapped in apple orchards and drifting mist, with long, uncluttered views over terraced valleys. A gentler, quieter alternative to Kufri for those who want the scenery without the ponies.", "lat": 31.086977, "lon": 77.303321, "p": "v"}, {"n": "Chail Palace", "cat": "do", "tier": "", "a": "Chail (44 km SE)", "d": "The 1891 summer palace the Maharaja of Patiala built in pique after being barred from Shimla, set in cedar forest on its own hilltop. Stay or lunch amid the royal drawing rooms and lawns for a taste of princely, rather than viceregal, India.", "lat": 31.069678, "lon": 77.192318, "p": "v"}, {"n": "Chail Cricket Ground", "cat": "do", "tier": "", "a": "Chail", "d": "The world's highest cricket and polo ground at 2,444 metres, levelled from a hilltop in 1893 and now part of the Chail Military School. A remarkable, pine-ringed plateau in the sky, worth the drive for the sheer improbability of it.", "lat": 31.069678, "lon": 77.192318, "p": "a"}, {"n": "Kali ka Tibba, Chail", "cat": "do", "tier": "", "a": "Chail", "d": "A hilltop Kali temple crowning the ridge above Chail, reached through thick deodar and rewarded with a full-circle Himalayan panorama. The finest viewpoint in the Chail hills and blessedly uncommercial.", "lat": 31.069678, "lon": 77.192318, "p": "a"}, {"n": "Chail Wildlife Sanctuary", "cat": "do", "tier": "", "a": "Chail", "d": "A protected belt of pine, oak and deodar sheltering the Himalayan black bear, leopard, ghoral and cheer pheasant. A calm forest drive or guided birding walk for those who prefer nature to the tourist trail.", "lat": 30.968217, "lon": 77.200234, "p": "v"}, {"n": "Tattapani Hot Springs", "cat": "do", "tier": "", "a": "Tattapani (51 km N)", "d": "Sulphur-rich thermal springs on the banks of the Sutlej, long prized for easing aches and stiff joints, with riverside camps and riverbank massages. A restorative, off-beat day out that pairs a warm soak with dramatic gorge scenery.", "lat": 31.086044, "lon": 77.181181, "p": "v"}, {"n": "Narkanda", "cat": "do", "tier": "", "a": "Narkanda (60 km E)", "d": "A fir-forested town at 2,700 metres deep in the apple belt, a gateway to snow views and gentle winter skiing. The air turns crisp and the crowds thin here; it is Shimla's district as it was before the resorts arrived.", "lat": 31.254751, "lon": 77.461269, "p": "v"}, {"n": "Hatu Peak", "cat": "do", "tier": "", "a": "Above Narkanda", "d": "A 3,400-metre summit above Narkanda crowned by the old wooden Hatu Mata temple, with a huge sweep of snow ranges on a clear day. A short drive plus a walk to one of the most panoramic and least-visited tops near Shimla.", "lat": 31.251242, "lon": 77.466037, "p": "v"}, {"n": "Chitkul", "cat": "do", "tier": "", "a": "Kinnaur, Baspa Valley (approx. 250 km)", "d": "The last inhabited village on the old Indo-Tibetan trade route, where the motorable road ends against the meadows and the roar of the young Baspa. Remote, elemental and unforgettable, best reached with a seasoned mountain driver.", "lat": 31.104039, "lon": 77.170792, "p": "v"}, {"n": "Kalpa", "cat": "do", "tier": "", "a": "Kinnaur (approx. 240 km)", "d": "An orchard village perched opposite the sacred 6,000-metre Kinner Kailash range, whose face turns gold at sunrise above the apple trees. A serene, high-altitude perch for those going deep into Kinnaur, rich in old wooden temples.", "lat": 31.104039, "lon": 77.170792, "p": "v"}, {"n": "Kasauli", "cat": "do", "tier": "", "a": "Kasauli (77 km SW)", "d": "A tiny, unspoilt colonial hill town of cobbled lanes, timber cottages and Christ Church, cool and green year-round. A restful, low-key detour on the way up from the plains, entirely free of the Mall's bustle.", "lat": 30.877282, "lon": 76.991801, "p": "v"}, {"n": "Barog", "cat": "do", "tier": "", "a": "Kalka–Shimla line (approx. 40 km S)", "d": "A sleepy railway hamlet on the toy-train line, home to the line's longest tunnel and its famous ghost story, wrapped in pine. A quiet, storybook halt to alight at or lunch in on the slow ascent to Shimla.", "lat": 31.125756, "lon": 77.021906, "p": "v"}, {"n": "Wildflower Hall, An Oberoi Resort", "cat": "do", "tier": "", "a": "Charabra (Mashobra road)", "d": "Once Lord Kitchener's forest retreat, now a grand cedar-clad Oberoi at 2,500 metres with an open-air spa whirlpool facing the snows. Shimla's most romantic address for a honeymoon or a multi-generation escape, run entirely on hydro power.", "lat": 31.251242, "lon": 77.466037, "p": "a"}, {"n": "The Oberoi Cecil", "cat": "do", "tier": "", "a": "Chaura Maidan, Shimla", "d": "The Mall's most storied hotel, a Heritage Grand where Raj society once danced in the ballroom, now all fireplaces, a soaring wood atrium and valley views. A stay that puts you inside old Simla itself, minutes from the Ridge.", "lat": 31.103255, "lon": 77.154755, "p": "v"}, {"n": "Chapslee", "cat": "do", "tier": "", "a": "Elysium Hill, Shimla", "d": "The Kapurthala royal family's 1830s mansion, still lived-in and hosting guests among Gobelin tapestries, Murano chandeliers and Persian carpets, opened as one of India's first heritage hotels in 1976. Tea or a stay here is a private audience with the vanished aristocratic Simla.", "lat": 31.10897, "lon": 77.178904, "p": "v"}, {"n": "Kufri Fun World", "cat": "do", "tier": "", "a": "Kufri", "d": "A hilltop amusement park with a go-kart track and one of the world's highest rides, a burst of colour amid the deodars. An easy crowd-pleaser to keep children happy on a Kufri day.", "lat": 31.094199, "lon": 77.27802, "p": "v"}, {"n": "The Big Dipper, Koti Resort", "cat": "party", "tier": "Cocktail bars", "a": "Mashobra (Koti Resort, Shimla)", "d": "An English-style bar with a warm fireplace and craft cocktails, tucked into the Mashobra hills.", "lat": 31.129216, "lon": 77.228085, "p": "a"}]}
+{
+  "center": [
+    31.104039,
+    77.170792
+  ],
+  "venues": [
+    {
+      "n": "The Oberoi Cecil, Shimla",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "The Mall (central Shimla)",
+      "d": "Shimla's most storied address since 1884 \u2014 the hotel where Mohan Singh Oberoi began, restored to hushed colonial grandeur.",
+      "lat": 31.103255,
+      "lon": 77.154755,
+      "photos": []
+    },
+    {
+      "n": "The Oberoi Clarkes, Shimla",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "The Mall (central Shimla)",
+      "d": "A grand colonial bungalow on the Mall since 1898 \u2014 the first hotel the Oberoi group ever owned, intimate and full of history.",
+      "lat": 31.103162,
+      "lon": 77.179093,
+      "photos": []
+    },
+    {
+      "n": "Koti Resort, Shimla \u2014 Radisson Individuals Retreats",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Mashobra (near Shimla)",
+      "d": "A hilltop retreat in the Mashobra forest with colonial warmth, Himalayan views and Radisson-backed service.",
+      "lat": 31.13079,
+      "lon": 77.227163,
+      "photos": []
+    },
+    {
+      "n": "Dining at The Oberoi Cecil",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "The Mall (The Oberoi Cecil)",
+      "d": "All-day Indian and international cooking beneath the hotel's soaring wood-panelled atrium \u2014 heritage dining in the heart of Shimla.",
+      "lat": 31.103255,
+      "lon": 77.154755,
+      "photos": []
+    },
+    {
+      "n": "Ashiana & Goofa",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "The Ridge / Mall Road",
+      "d": "A Shimla institution run by Himachal Tourism \u2014 a landmark circular pavilion on the Ridge, with the cave-like Goofa below.",
+      "lat": 31.086568,
+      "lon": 77.138974,
+      "photos": []
+    },
+    {
+      "n": "Baljees",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "The Mall (central Shimla)",
+      "d": "A Mall Road fixture for generations \u2014 the beloved bakery-restaurant famous for its sweets and unhurried Shimla mornings.",
+      "lat": 31.106509,
+      "lon": 77.165553,
+      "photos": []
+    },
+    {
+      "n": "Wake & Bake Caf\u00e9",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "The Mall (central Shimla)",
+      "d": "The Mall's favourite all-day caf\u00e9 \u2014 a balcony table over Shimla, from breakfast cr\u00eapes to late cake.",
+      "lat": 31.104652,
+      "lon": 77.173192,
+      "photos": []
+    },
+    {
+      "n": "The Ridge",
+      "cat": "do",
+      "tier": "",
+      "a": "Central Shimla",
+      "d": "The great open promenade at 2,200 metres where all of Shimla gathers, the snow peaks lined up beyond Christ Church and the timber gables. A gentle early-morning stroll here, before the day-trippers arrive, is the Queen of Hills at her most composed.",
+      "lat": 31.104791,
+      "lon": 77.175283,
+      "photos": []
+    },
+    {
+      "n": "The Mall Road",
+      "cat": "do",
+      "tier": "",
+      "a": "Central Shimla",
+      "d": "The pedestrianised Raj-era spine of the town, its lamp-lit facades and colonnades running above the valley. A private guide turns the evening amble into a walk through Kipling's Simla; the antique jewellers and Kashmiri shawl merchants reward an unhurried browse.",
+      "lat": 31.102731,
+      "lon": 77.177609,
+      "photos": []
+    },
+    {
+      "n": "Christ Church",
+      "cat": "do",
+      "tier": "",
+      "a": "The Ridge",
+      "d": "The butter-yellow neo-Gothic church of 1844, one of the oldest in North India, its stained glass and clock tower the postcard image of Shimla. Step inside for the cool hush and the organ; the frescoes were designed by Rudyard Kipling's father, Lockwood.",
+      "lat": 31.104309,
+      "lon": 77.176016,
+      "photos": []
+    },
+    {
+      "n": "The Gaiety Theatre",
+      "cat": "do",
+      "tier": "",
+      "a": "The Mall Road",
+      "d": "A jewel-box Victorian Gothic theatre of 1887 by Henry Irwin, restored to its plush red-and-gilt glory, where the Raj once staged its amateur dramatics. A guided visit lets you stand on the same boards trod by viceroys and, later, a young Prithviraj Kapoor.",
+      "lat": 31.104604,
+      "lon": 77.173696,
+      "photos": []
+    },
+    {
+      "n": "Scandal Point",
+      "cat": "do",
+      "tier": "",
+      "a": "The Ridge",
+      "d": "The open shoulder where the Mall meets the Ridge, named for the alleged elopement of a Patiala prince with a viceroy's daughter. The best free view in Shimla and the town's natural meeting place, framed against the peaks.",
+      "lat": 31.105222,
+      "lon": 77.172553,
+      "photos": []
+    },
+    {
+      "n": "The Viceregal Lodge (Indian Institute of Advanced Study)",
+      "cat": "do",
+      "tier": "",
+      "a": "Observatory Hill",
+      "d": "The vast Elizabethan-Jacobean stone palace of 1888 from which the British ruled India each summer, where the 1945 Simla Conference and the Partition talks unfolded. The guided tour of the panelled interiors and manicured lawns is the single grandest Raj experience in the hills.",
+      "lat": 31.094075,
+      "lon": 77.141941,
+      "photos": []
+    },
+    {
+      "n": "Jakhoo Temple & the giant Hanuman",
+      "cat": "do",
+      "tier": "",
+      "a": "Jakhoo Hill",
+      "d": "Shimla's highest point at 2,455 metres, crowned by a 108-foot saffron Hanuman visible from across the town, on the spot the Ramayana links to the god's rest. A serene, cedar-shaded pilgrimage above the bustle; watch your spectacles around the resident monkeys.",
+      "lat": 31.101086,
+      "lon": 77.184273,
+      "photos": []
+    },
+    {
+      "n": "Jakhoo Ropeway",
+      "cat": "do",
+      "tier": "",
+      "a": "Jakhoo Hill",
+      "d": "The glass-cabin aerial ropeway that lifts you from the Ridge to the Hanuman temple in minutes, sparing the steep forest climb and gifting a bird's-eye sweep of the ridgeline roofs. The dignified way up for elders and children in a multi-generation party.",
+      "lat": 31.101086,
+      "lon": 77.184273,
+      "photos": []
+    },
+    {
+      "n": "Kalka\u2013Shimla Toy Train",
+      "cat": "do",
+      "tier": "",
+      "a": "Kalka to Shimla",
+      "d": "The narrow-gauge marvel of 1903 that climbs 96 km through 102 tunnels and over 800 bridges to the summer capital, best savoured in a chartered first-class or the glass-roofed dome car. A slow, cinematic ascent through the Shivaliks that no drive can rival.",
+      "lat": 31.102729,
+      "lon": 77.155375,
+      "photos": []
+    },
+    {
+      "n": "Shimla State Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Chaura Maidan",
+      "d": "A colonial mansion on Mount Pleasant holding Pahari miniature paintings, Kangra bronzes, temple sculpture and Himachali textiles. A quiet, well-curated hour that gives the whole hill region its artistic context, away from the crowds.",
+      "lat": 31.103145,
+      "lon": 77.150828,
+      "photos": []
+    },
+    {
+      "n": "Johnnie's Wax Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "The Mall Road",
+      "d": "A small, playful wax gallery in the Willow Banks estate on the Mall, its London-made figures of film stars and cricketers a reliable hit with children. A light-hearted diversion to break up a heritage-heavy afternoon.",
+      "lat": 31.102731,
+      "lon": 77.177609,
+      "photos": []
+    },
+    {
+      "n": "Kali Bari Temple",
+      "cat": "do",
+      "tier": "",
+      "a": "Central Shimla",
+      "d": "The 1845 Bengali temple to Goddess Shyamala, from whom Shimla takes its name, a five-minute walk off the Mall. A living shrine of quiet devotion and a fragrant, flower-strewn contrast to the promenade below.",
+      "lat": 31.106113,
+      "lon": 77.166775,
+      "photos": []
+    },
+    {
+      "n": "Tara Devi Temple",
+      "cat": "do",
+      "tier": "",
+      "a": "Tara Parvat (11 km SW)",
+      "d": "A 250-year-old hilltop temple to the star goddess, brought from Bengal, ringed by deodar at 1,850 metres with long views back to Shimla. A peaceful, uncrowded stop on the road in, worth the short detour for the panorama alone.",
+      "lat": 31.104928,
+      "lon": 77.175824,
+      "photos": []
+    },
+    {
+      "n": "Kamna Devi Temple, Prospect Hill",
+      "cat": "do",
+      "tier": "",
+      "a": "Prospect Hill (Boileauganj)",
+      "d": "A short, pretty pine climb to a Kali shrine crowning Prospect Hill, rewarded with a 360-degree sweep over Shimla and the valleys. A gentle morning walk that locals prize far more than tourists do.",
+      "lat": 31.094075,
+      "lon": 77.141941,
+      "photos": []
+    },
+    {
+      "n": "Annandale",
+      "cat": "do",
+      "tier": "",
+      "a": "Below the Ridge",
+      "d": "A flat green saucer amid the hills, once the Raj's playground for polo, cricket and flower shows, now home to a golf course and the Army Heritage Museum. A rare piece of level ground in Shimla and a graceful, breezy afternoon.",
+      "lat": 31.106372,
+      "lon": 77.163248,
+      "photos": []
+    },
+    {
+      "n": "Summer Hill",
+      "cat": "do",
+      "tier": "",
+      "a": "Summer Hill (5 km W)",
+      "d": "A leafy, quiet suburb where Mahatma Gandhi stayed at Georgian-style Rothney Castle's neighbourhood and where Himachal University now sits. A calm base for pine walks and a stop on the toy-train line, away from the Mall's crush.",
+      "lat": 31.108416,
+      "lon": 77.13904,
+      "photos": []
+    },
+    {
+      "n": "Chadwick Falls",
+      "cat": "do",
+      "tier": "",
+      "a": "Near Summer Hill (7 km)",
+      "d": "A 90-metre cascade plunging through deep deodar and oak forest, fullest and most dramatic just after the monsoon. A short trek through the Glen woods brings you to a cool, green amphitheatre far from the town noise.",
+      "lat": 31.118951,
+      "lon": 77.13864,
+      "photos": []
+    },
+    {
+      "n": "The Glen Forest",
+      "cat": "do",
+      "tier": "",
+      "a": "Near Cecil / Annandale",
+      "d": "A shaded stream-side hollow of dense pine below the Cecil, a favourite Raj-era picnic ground and gentle woodland ramble. Close enough to walk to, wild enough to feel a world away from the Mall.",
+      "lat": 31.126553,
+      "lon": 77.35391,
+      "photos": []
+    },
+    {
+      "n": "Lakkar Bazaar",
+      "cat": "do",
+      "tier": "",
+      "a": "Off the Ridge",
+      "d": "Shimla's old woodcraft market beside the Ridge, stacked with hand-carved walnut and deodar keepsakes, walking sticks and toys. The place to pick up an honest, made-in-the-hills souvenir rather than a factory trinket.",
+      "lat": 31.10556,
+      "lon": 77.177293,
+      "photos": []
+    },
+    {
+      "n": "Green Valley",
+      "cat": "do",
+      "tier": "",
+      "a": "Shimla\u2013Kufri road",
+      "d": "The photogenic saddle on the way to Kufri where the road opens onto rolling green slopes and, on clear days, distant snow. A classic pause for a chai and a photograph, deodars falling away on both sides.",
+      "lat": 31.109141,
+      "lon": 77.164701,
+      "photos": []
+    },
+    {
+      "n": "Kufri",
+      "cat": "do",
+      "tier": "",
+      "a": "Kufri (16 km E)",
+      "d": "A high meadowed ridge at 2,720 metres with grandstand Himalayan views, pony rides up to Mahasu Peak and winter snow. Touristy at its heart but a soaring backdrop; go early, or ride above the crowds to the quieter tops.",
+      "lat": 31.102246,
+      "lon": 77.242077,
+      "photos": []
+    },
+    {
+      "n": "Himalayan Nature Park, Kufri",
+      "cat": "do",
+      "tier": "",
+      "a": "Kufri",
+      "d": "A high-altitude wildlife park sheltering snow leopard, Himalayan black bear, musk deer and the state-bird Monal pheasant among the deodars. A gentle, shaded walk that turns Kufri into something the children will actually remember.",
+      "lat": 31.102246,
+      "lon": 77.242077,
+      "photos": []
+    },
+    {
+      "n": "Mashobra",
+      "cat": "do",
+      "tier": "",
+      "a": "Mashobra (13 km NE)",
+      "d": "A hushed forest village of apple orchards and cedar walks, home to the Presidential Retreat and to Shimla's most exclusive resort. The address to choose for quiet, orchard-scented seclusion within reach of the town.",
+      "lat": 31.13079,
+      "lon": 77.227163,
+      "photos": []
+    },
+    {
+      "n": "Craignano",
+      "cat": "do",
+      "tier": "",
+      "a": "Near Mashobra",
+      "d": "An Italianate villa and terraced garden on a knoll above Mashobra, built by an Italian craftsman in the 19th century, now a serene HPTDC nature spot. A little jewel of a picnic ground with wide valley views and almost no crowd.",
+      "lat": 31.104039,
+      "lon": 77.170792,
+      "photos": []
+    },
+    {
+      "n": "Fagu",
+      "cat": "do",
+      "tier": "",
+      "a": "Fagu (22 km E)",
+      "d": "A tiny hamlet above Kufri wrapped in apple orchards and drifting mist, with long, uncluttered views over terraced valleys. A gentler, quieter alternative to Kufri for those who want the scenery without the ponies.",
+      "lat": 31.086977,
+      "lon": 77.303321,
+      "photos": []
+    },
+    {
+      "n": "Chail Palace",
+      "cat": "do",
+      "tier": "",
+      "a": "Chail (44 km SE)",
+      "d": "The 1891 summer palace the Maharaja of Patiala built in pique after being barred from Shimla, set in cedar forest on its own hilltop. Stay or lunch amid the royal drawing rooms and lawns for a taste of princely, rather than viceregal, India.",
+      "lat": 31.069678,
+      "lon": 77.192318,
+      "photos": []
+    },
+    {
+      "n": "Chail Cricket Ground",
+      "cat": "do",
+      "tier": "",
+      "a": "Chail",
+      "d": "The world's highest cricket and polo ground at 2,444 metres, levelled from a hilltop in 1893 and now part of the Chail Military School. A remarkable, pine-ringed plateau in the sky, worth the drive for the sheer improbability of it.",
+      "lat": 31.069678,
+      "lon": 77.192318,
+      "photos": []
+    },
+    {
+      "n": "Kali ka Tibba, Chail",
+      "cat": "do",
+      "tier": "",
+      "a": "Chail",
+      "d": "A hilltop Kali temple crowning the ridge above Chail, reached through thick deodar and rewarded with a full-circle Himalayan panorama. The finest viewpoint in the Chail hills and blessedly uncommercial.",
+      "lat": 31.069678,
+      "lon": 77.192318,
+      "photos": []
+    },
+    {
+      "n": "Chail Wildlife Sanctuary",
+      "cat": "do",
+      "tier": "",
+      "a": "Chail",
+      "d": "A protected belt of pine, oak and deodar sheltering the Himalayan black bear, leopard, ghoral and cheer pheasant. A calm forest drive or guided birding walk for those who prefer nature to the tourist trail.",
+      "lat": 30.968217,
+      "lon": 77.200234,
+      "photos": []
+    },
+    {
+      "n": "Tattapani Hot Springs",
+      "cat": "do",
+      "tier": "",
+      "a": "Tattapani (51 km N)",
+      "d": "Sulphur-rich thermal springs on the banks of the Sutlej, long prized for easing aches and stiff joints, with riverside camps and riverbank massages. A restorative, off-beat day out that pairs a warm soak with dramatic gorge scenery.",
+      "lat": 31.086044,
+      "lon": 77.181181,
+      "photos": []
+    },
+    {
+      "n": "Narkanda",
+      "cat": "do",
+      "tier": "",
+      "a": "Narkanda (60 km E)",
+      "d": "A fir-forested town at 2,700 metres deep in the apple belt, a gateway to snow views and gentle winter skiing. The air turns crisp and the crowds thin here; it is Shimla's district as it was before the resorts arrived.",
+      "lat": 31.254751,
+      "lon": 77.461269,
+      "photos": []
+    },
+    {
+      "n": "Hatu Peak",
+      "cat": "do",
+      "tier": "",
+      "a": "Above Narkanda",
+      "d": "A 3,400-metre summit above Narkanda crowned by the old wooden Hatu Mata temple, with a huge sweep of snow ranges on a clear day. A short drive plus a walk to one of the most panoramic and least-visited tops near Shimla.",
+      "lat": 31.251242,
+      "lon": 77.466037,
+      "photos": []
+    },
+    {
+      "n": "Chitkul",
+      "cat": "do",
+      "tier": "",
+      "a": "Kinnaur, Baspa Valley (approx. 250 km)",
+      "d": "The last inhabited village on the old Indo-Tibetan trade route, where the motorable road ends against the meadows and the roar of the young Baspa. Remote, elemental and unforgettable, best reached with a seasoned mountain driver.",
+      "lat": 31.104039,
+      "lon": 77.170792,
+      "photos": []
+    },
+    {
+      "n": "Kalpa",
+      "cat": "do",
+      "tier": "",
+      "a": "Kinnaur (approx. 240 km)",
+      "d": "An orchard village perched opposite the sacred 6,000-metre Kinner Kailash range, whose face turns gold at sunrise above the apple trees. A serene, high-altitude perch for those going deep into Kinnaur, rich in old wooden temples.",
+      "lat": 31.104039,
+      "lon": 77.170792,
+      "photos": []
+    },
+    {
+      "n": "Kasauli",
+      "cat": "do",
+      "tier": "",
+      "a": "Kasauli (77 km SW)",
+      "d": "A tiny, unspoilt colonial hill town of cobbled lanes, timber cottages and Christ Church, cool and green year-round. A restful, low-key detour on the way up from the plains, entirely free of the Mall's bustle.",
+      "lat": 30.877282,
+      "lon": 76.991801,
+      "photos": []
+    },
+    {
+      "n": "Barog",
+      "cat": "do",
+      "tier": "",
+      "a": "Kalka\u2013Shimla line (approx. 40 km S)",
+      "d": "A sleepy railway hamlet on the toy-train line, home to the line's longest tunnel and its famous ghost story, wrapped in pine. A quiet, storybook halt to alight at or lunch in on the slow ascent to Shimla.",
+      "lat": 31.125756,
+      "lon": 77.021906,
+      "photos": []
+    },
+    {
+      "n": "Wildflower Hall, An Oberoi Resort",
+      "cat": "do",
+      "tier": "",
+      "a": "Charabra (Mashobra road)",
+      "d": "Once Lord Kitchener's forest retreat, now a grand cedar-clad Oberoi at 2,500 metres with an open-air spa whirlpool facing the snows. Shimla's most romantic address for a honeymoon or a multi-generation escape, run entirely on hydro power.",
+      "lat": 31.251242,
+      "lon": 77.466037,
+      "photos": []
+    },
+    {
+      "n": "The Oberoi Cecil",
+      "cat": "do",
+      "tier": "",
+      "a": "Chaura Maidan, Shimla",
+      "d": "The Mall's most storied hotel, a Heritage Grand where Raj society once danced in the ballroom, now all fireplaces, a soaring wood atrium and valley views. A stay that puts you inside old Simla itself, minutes from the Ridge.",
+      "lat": 31.103255,
+      "lon": 77.154755,
+      "photos": []
+    },
+    {
+      "n": "Chapslee",
+      "cat": "do",
+      "tier": "",
+      "a": "Elysium Hill, Shimla",
+      "d": "The Kapurthala royal family's 1830s mansion, still lived-in and hosting guests among Gobelin tapestries, Murano chandeliers and Persian carpets, opened as one of India's first heritage hotels in 1976. Tea or a stay here is a private audience with the vanished aristocratic Simla.",
+      "lat": 31.10897,
+      "lon": 77.178904,
+      "photos": []
+    },
+    {
+      "n": "Kufri Fun World",
+      "cat": "do",
+      "tier": "",
+      "a": "Kufri",
+      "d": "A hilltop amusement park with a go-kart track and one of the world's highest rides, a burst of colour amid the deodars. An easy crowd-pleaser to keep children happy on a Kufri day.",
+      "lat": 31.094199,
+      "lon": 77.27802,
+      "photos": []
+    },
+    {
+      "n": "The Big Dipper, Koti Resort",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Mashobra (Koti Resort, Shimla)",
+      "d": "An English-style bar with a warm fireplace and craft cocktails, tucked into the Mashobra hills.",
+      "lat": 31.129216,
+      "lon": 77.228085,
+      "photos": []
+    }
+  ]
+}

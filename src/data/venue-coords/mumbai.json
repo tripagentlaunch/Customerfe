@@ -1,1 +1,808 @@
-{"center": [19.054999, 72.869203], "venues": [{"n": "The Taj Mahal Palace, Mumbai", "cat": "stay", "tier": "Ultra", "a": "Colaba (Apollo Bunder)", "d": "India's most storied hotel, facing the Gateway of India since 1903 — the address every visiting family knows by name.", "lat": 18.921876, "lon": 72.833043, "p": "v"}, {"n": "The Oberoi, Mumbai", "cat": "stay", "tier": "Ultra", "a": "Nariman Point (Marine Drive)", "d": "Serene, glass-walled and faultless on Marine Drive — Oberoi service at the southern tip of the city.", "lat": 18.926984, "lon": 72.820585, "p": "v"}, {"n": "Four Seasons Hotel Mumbai", "cat": "stay", "tier": "Grand", "a": "Worli", "d": "A polished uptown tower crowned by AER, the 34th-floor rooftop — the Four Seasons standard, in the middle of the city.", "lat": 18.994118, "lon": 72.82036, "p": "v"}, {"n": "The St. Regis Mumbai", "cat": "stay", "tier": "Grand", "a": "Lower Parel", "d": "A soaring tower over Lower Parel with the theatrical Asilo rooftop — St. Regis butler service above the mills.", "lat": 18.994093, "lon": 72.824012, "p": "v"}, {"n": "Taj Mahal Tower, Mumbai", "cat": "stay", "tier": "Luxury", "a": "Colaba (Apollo Bunder)", "d": "The modern tower alongside the Palace — the same Gateway views and Taj address, at a lighter tariff.", "lat": 18.921778, "lon": 72.833285, "p": "v"}, {"n": "The Leela Mumbai", "cat": "stay", "tier": "Luxury", "a": "Andheri (Sahar, near the airport)", "d": "A lush, art-filled garden hotel by the international airport — the calm landing pad for arrivals and departures.", "lat": 19.109243, "lon": 72.873758, "p": "v"}, {"n": "ITC Maratha, a Luxury Collection Hotel", "cat": "stay", "tier": "Luxury", "a": "Andheri (near the airport)", "d": "An ITC grande dame near the airport — Maratha-inspired grandeur and ITC's celebrated kitchens.", "lat": 19.105236, "lon": 72.861334, "p": "a"}, {"n": "ITC Grand Central, a Luxury Collection Hotel", "cat": "stay", "tier": "Premium", "a": "Parel", "d": "A colonial-modern ITC house in Parel — well-run, central, and close to the Lower Parel dining scene.", "lat": 19.008427, "lon": 72.842505, "p": "a"}, {"n": "InterContinental Marine Drive, Mumbai", "cat": "stay", "tier": "Premium", "a": "Marine Drive (Chowpatty end)", "d": "A compact boutique tower on Marine Drive with a rooftop over the Queen's Necklace — the small-hotel sea view.", "lat": 18.934992, "lon": 72.824307, "p": "v"}, {"n": "Masque", "cat": "eat", "tier": "Destination", "a": "Lower Parel (Mathuradas Mills)", "d": "India's most decorated tasting menu — a ten-course journey through the country's produce in a former textile mill.", "lat": 18.989838, "lon": 72.825682, "p": "v"}, {"n": "Americano", "cat": "eat", "tier": "Fine", "a": "Kala Ghoda (Fort)", "d": "A chic, low-lit Kala Ghoda room where sharp cooking meets some of the best cocktails in the city.", "lat": 19.054999, "lon": 72.869203, "p": "v"}, {"n": "The Table", "cat": "eat", "tier": "Fine", "a": "Colaba", "d": "A Colaba institution for fifteen years, back on form — eclectic, produce-led global cooking to share.", "lat": 18.924182, "lon": 72.833084, "p": "v"}, {"n": "The Bombay Canteen", "cat": "eat", "tier": "Fine", "a": "Lower Parel (Kamala Mills)", "d": "The modern-Indian restaurant that changed how the city eats — regional dishes, reimagined, ten years on.", "lat": 19.003234, "lon": 72.827583, "p": "v"}, {"n": "Papa's", "cat": "eat", "tier": "Destination", "a": "Bandra (West)", "d": "A twelve-seat chef's counter above a sandwich shop — the most exciting fine-dining ticket in Bandra.", "lat": 19.061657, "lon": 72.829166, "p": "v"}, {"n": "Ekaa", "cat": "eat", "tier": "Fine", "a": "Fort (Kitab Mahal)", "d": "Niyati Rao's ingredient-led kitchen in a historic Fort building — produce-driven cooking that ignores the rulebook.", "lat": 19.054999, "lon": 72.869203, "p": "v"}, {"n": "Trishna", "cat": "eat", "tier": "Fine", "a": "Fort / Kala Ghoda", "d": "The back-alley seafood legend of South Mumbai — the butter-pepper-garlic crab is a rite of passage.", "lat": 18.928658, "lon": 72.832393, "p": "v"}, {"n": "Wasabi by Morimoto", "cat": "eat", "tier": "Destination", "a": "Colaba (The Taj Mahal Palace)", "d": "Masaharu Morimoto's Japanese room inside the Taj Palace — the city's benchmark for sushi and omakase.", "lat": 18.921778, "lon": 72.833285, "p": "a"}, {"n": "Ziya", "cat": "eat", "tier": "Destination", "a": "Nariman Point (The Oberoi, Mumbai)", "d": "Contemporary Indian by Vineet Bhatia — the first Indian chef to win a Michelin star (in London) — with the sea at your feet.", "lat": 18.92663, "lon": 72.820478, "p": "v"}, {"n": "Yauatcha", "cat": "eat", "tier": "Fine", "a": "Bandra Kurla Complex (BKC)", "d": "The Mumbai outpost of the London dim sum house — glossy, precise and reliably excellent.", "lat": 19.060964, "lon": 72.862882, "p": "v"}, {"n": "Hakkasan Mumbai", "cat": "eat", "tier": "Fine", "a": "Bandra (West)", "d": "Dark, glamorous modern Cantonese in Bandra — the international Hakkasan name, brought to the suburbs.", "lat": 19.06062, "lon": 72.834548, "p": "v"}, {"n": "Bastian at the Top", "cat": "eat", "tier": "Fine", "a": "Worli", "d": "Mumbai's most glamorous seafood-and-scene restaurant — big flavours, bigger crowd, sea breeze on the terrace.", "lat": 19.024994, "lon": 72.841535, "p": "v"}, {"n": "Bombay Sweet Shop", "cat": "eat", "tier": "Casual", "a": "Byculla", "d": "A joyful reinvention of the Indian mithai shop — traditional sweets made brilliantly, by the Bombay Canteen team.", "lat": 19.059474, "lon": 72.829059, "p": "v"}, {"n": "Britannia & Co.", "cat": "eat", "tier": "Casual", "a": "Ballard Estate (Fort)", "d": "A century-old Parsi cafe famous for berry pulav — a living piece of old Bombay you eat lunch inside.", "lat": 18.934473, "lon": 72.840358, "p": "v"}, {"n": "Swati Snacks", "cat": "eat", "tier": "Casual", "a": "Tardeo", "d": "The city's beloved home of Gujarati and Mumbai street food, served clean and impeccable in a bright canteen.", "lat": 18.96649, "lon": 72.81342, "p": "v"}, {"n": "Gateway of India", "cat": "do", "tier": "", "a": "Colaba", "d": "The basalt triumphal arch on the harbour is where the city gathers at dawn and dusk, with Elephanta ferries pulling away and the Taj rising behind you. Step out of a Taj suite, cross the road, and the whole postcard of Bombay is at your feet.", "lat": 18.921966, "lon": 72.834566, "p": "v"}, {"n": "The Taj Mahal Palace, Mumbai", "cat": "do", "tier": "", "a": "Colaba", "d": "Jamsetji Tata's 1903 landmark is still the grand dame of the city, its Florentine dome and cantilever staircase as much a Bombay institution as a hotel. Even if you are staying at the Oberoi, come for high tea at the Sea Lounge or a night at Harbour Bar, India's first licensed bar.", "lat": 18.921876, "lon": 72.833043, "p": "v"}, {"n": "Elephanta Caves", "cat": "do", "tier": "", "a": "Gharapuri Island (harbour)", "d": "An hour by ferry from the Gateway, these 5th–6th-century rock-cut Shiva temples on a green island are crowned by the colossal three-headed Trimurti, one of the great sculptures of India. Charter a private launch, go early, and have the caves nearly to yourself before the day crowds land.", "lat": 18.962723, "lon": 72.931698, "p": "v"}, {"n": "Chhatrapati Shivaji Maharaj Terminus (CSMT)", "cat": "do", "tier": "", "a": "Fort", "d": "F.W. Stevens' 1887 Victorian Gothic railway cathedral, a working station moving millions daily, blends stone gargoyles and stained glass with Indian palace forms. Book the heritage tour to climb behind the façade into the boardroom and the star-chamber dome.", "lat": 18.939856, "lon": 72.835519, "p": "v"}, {"n": "Fort & Kala Ghoda heritage precinct", "cat": "do", "tier": "", "a": "Fort / Kala Ghoda", "d": "The tight grid around Kala Ghoda holds the densest concentration of Bombay's Victorian Gothic and Indo-Deco architecture, best walked slowly with a coffee and an eye for detail. This is the heart of the ensemble that earned the city its 2018 UNESCO listing.", "lat": 18.928458, "lon": 72.832599, "p": "v"}, {"n": "Marine Drive & the Queen's Necklace", "cat": "do", "tier": "", "a": "Churchgate / Nariman Point", "d": "The great Art Deco arc along the Arabian Sea glows into a curve of lights after dark, hence its nickname, and its curving parade of 1930s buildings is part of the UNESCO ensemble. A slow evening walk to Nariman Point, or a drive with the windows down, is the city's oldest ritual.", "lat": 18.941487, "lon": 72.823846, "p": "v"}, {"n": "Chowpatty Beach", "cat": "do", "tier": "", "a": "Girgaum", "d": "The city beach at the northern end of Marine Drive where Bombay comes to eat bhelpuri, watch the sunset, and mark Ganesh Visarjan every year. Come at dusk for the sea breeze and the theatre of the crowd, not for a swim.", "lat": 18.954359, "lon": 72.812879, "p": "v"}, {"n": "Chhatrapati Shivaji Maharaj Vastu Sangrahalaya (CSMVS)", "cat": "do", "tier": "", "a": "Fort / Kala Ghoda", "d": "The former Prince of Wales Museum, a domed Indo-Saracenic masterpiece by George Wittet, holds Indus seals, Gupta bronzes, Mughal miniatures and Chola sculpture across 60,000 objects. Ask about a curator-led private morning walk through the Indian sculpture and miniature galleries.", "lat": 18.926877, "lon": 72.832592, "p": "v"}, {"n": "Jehangir Art Gallery", "cat": "do", "tier": "", "a": "Kala Ghoda", "d": "Since 1952 the city's most storied gallery, where Husain, Souza and the Progressives showed and where the pavement outside still doubles as an open-air art bazaar. It anchors a five-minute cluster of the country's best contemporary galleries.", "lat": 18.927135, "lon": 72.831605, "p": "v"}, {"n": "Kala Ghoda galleries (Chatterjee & Lal, Galerie Mirchandani + Steinruecke, Project 88)", "cat": "do", "tier": "", "a": "Kala Ghoda / Colaba", "d": "Within a few walkable blocks sit the galleries that define Indian contemporary art, from blue-chip names to the sharpest young programmes. A morning here is how serious collectors take the temperature of the market.", "lat": 18.926313, "lon": 72.830013, "p": "a"}, {"n": "Prince of Wales Museum garden & the Kala Ghoda Arts Festival", "cat": "do", "tier": "", "a": "Kala Ghoda", "d": "Each February the precinct becomes a nine-day open-air festival of art, installations, music and design that fills the streets of the heritage district. The rest of the year the leafy quarter rewards an unhurried wander between galleries and cafés.", "lat": 18.928458, "lon": 72.832599, "p": "a"}, {"n": "University of Mumbai Fort Campus & Rajabai Clock Tower", "cat": "do", "tier": "", "a": "Fort", "d": "Gilbert Scott's Venetian-Gothic library and its 85-metre Rajabai Tower, modelled on Big Ben and funded by a Jain merchant in his mother's name, look straight across the Oval Maidan. The interiors, when open, hold soaring stained glass and carved teak.", "lat": 19.13234, "lon": 72.794785, "p": "a"}, {"n": "Bombay High Court & the Oval Maidan", "cat": "do", "tier": "", "a": "Fort", "d": "One of the grandest colonial Gothic courts in the country faces a wide green maidan flanked by Marine Drive's Deco towers, the Gothic-versus-Deco face-off that is the whole point of the UNESCO citation. Cricket on the grass, robed advocates on the steps, pure Bombay.", "lat": 19.13234, "lon": 72.794785, "p": "a"}, {"n": "Asiatic Society of Mumbai (Town Hall)", "cat": "do", "tier": "", "a": "Fort / Horniman Circle", "d": "Behind thirty steps and eight Doric columns, this 1833 neoclassical library holds a quarter-million books and rare manuscripts, including one of only two original copies of Dante's Divine Comedy. The reading room feels frozen in another century, and few tourists ever climb the steps.", "lat": 18.931825, "lon": 72.836138, "p": "v"}, {"n": "Horniman Circle Gardens", "cat": "do", "tier": "", "a": "Fort", "d": "A perfect ring of gardens ringed by grand arcaded Victorian buildings, laid out on the site of the old Bombay Green, and a favourite for evening concerts and design pop-ups. The colonnade around it is the most elegant address in the old town.", "lat": 18.932009, "lon": 72.83502, "p": "v"}, {"n": "Flora Fountain & Hutatma Chowk", "cat": "do", "tier": "", "a": "Fort", "d": "The 1864 Portland-stone fountain of Flora at the crossroads of the Fort district marks the ceremonial centre of business Bombay. Around it radiate the banks, bookshops and Irani cafés of the old commercial city.", "lat": 19.13234, "lon": 72.794785, "p": "a"}, {"n": "David Sassoon Library & Reading Room", "cat": "do", "tier": "", "a": "Kala Ghoda", "d": "A Venetian-Gothic gem of 1870 with a first-floor verandah of cane chairs shaded by trees, one of the loveliest quiet spaces in the city. Members read newspapers here as they have for 150 years, unhurried by the traffic below.", "lat": 18.927691, "lon": 72.831155, "p": "v"}, {"n": "Colaba Causeway", "cat": "do", "tier": "", "a": "Colaba", "d": "The city's most famous shopping street, from silver and antiques to street stalls, cotton kaftans and the legendary Leopold and Café Mondegar. Have your driver drop you at one end and browse your way to a coffee at the other.", "lat": 18.919225, "lon": 72.829522, "p": "v"}, {"n": "Sassoon Docks", "cat": "do", "tier": "", "a": "Colaba", "d": "Bombay's oldest wet dock, from 1875, comes alive before dawn as Koli fisherwomen auction the night's catch in a riot of colour and salt. Since the 2017 St+art project its walls carry striking murals and portraits of the fishing community.", "lat": 18.911828, "lon": 72.826614, "p": "v"}, {"n": "Crawford Market (Mahatma Jyotiba Phule Mandai)", "cat": "do", "tier": "", "a": "Fort / CSMT", "d": "A Norman-Gothic market hall of 1869 whose entrance friezes were designed by Rudyard Kipling's father, still trading in fruit, flowers, spices and imported foods. Go for the architecture and the theatre; the wholesale spice lanes behind are a sensory education.", "lat": 18.94735, "lon": 72.834511, "p": "v"}, {"n": "Chor Bazaar & Mutton Street antiques", "cat": "do", "tier": "", "a": "Bhendi Bazaar", "d": "The famous 'thieves' market' is the city's great hunting ground for colonial furniture, vintage Bollywood posters, gramophones, brass and genuine bric-a-brac. Bring an eye and patience; the best pieces sit above the shopfronts, brought out for serious buyers.", "lat": 18.961403, "lon": 72.829706, "p": "v"}, {"n": "Haji Ali Dargah", "cat": "do", "tier": "", "a": "Worli", "d": "A white marble tomb and mosque set on an islet, reached by a causeway that vanishes at high tide, floating on the Arabian Sea off Worli. The walk out at low tide, past qawwali singers and the open water on both sides, is one of the city's great atmospheres.", "lat": 18.982823, "lon": 72.808993, "p": "v"}, {"n": "Shree Siddhivinayak Temple", "cat": "do", "tier": "", "a": "Prabhadevi", "d": "Mumbai's most beloved Ganesh temple, its inner sanctum gleaming with gold, draws everyone from film stars to industrialists on Tuesday mornings. Arrange a VIP darshan to bypass the queues and enter with calm at first light.", "lat": 19.081512, "lon": 72.911962, "p": "v"}, {"n": "Mahalaxmi Temple", "cat": "do", "tier": "", "a": "Mahalaxmi", "d": "A seaside temple to the goddess of wealth perched above the rocks near Haji Ali, garlanded and thronged, especially during Navratri. The short causeway between the two shrines is one of the more spiritual walks in the city.", "lat": 18.98252, "lon": 72.82422, "p": "v"}, {"n": "Banganga Tank & Walkeshwar Temple", "cat": "do", "tier": "", "a": "Malabar Hill", "d": "A sacred spring-fed stone tank from AD 1127, ringed by temples, ghats and old dharamshalas, hidden in a fold of the city's most exclusive hill. It hosts an intimate classical music festival and feels a thousand miles, not a few streets, from the towers of Malabar Hill.", "lat": 18.945615, "lon": 72.793201, "p": "v"}, {"n": "Hanging Gardens & Kamala Nehru Park", "cat": "do", "tier": "", "a": "Malabar Hill", "d": "Terraced gardens atop Malabar Hill with topiary hedges and a sweeping view down over the Marine Drive arc and Chowpatty. The 'old woman's shoe' at the children's park is a nostalgic Bombay landmark for multi-generational visits.", "lat": 18.95502, "lon": 72.805064, "p": "v"}, {"n": "Dhobi Ghat viewpoint (Mahalaxmi)", "cat": "do", "tier": "", "a": "Mahalaxmi", "d": "From the bridge above Mahalaxmi station you look down on the world's largest open-air laundry, hundreds of concrete washing pens worked by hand exactly as they have been for over a century. A ten-minute stop that captures the city's engine of labour in one frame.", "lat": 18.982048, "lon": 72.8247, "p": "v"}, {"n": "Dr Bhau Daji Lad Mumbai City Museum", "cat": "do", "tier": "", "a": "Byculla", "d": "The city's oldest museum, a jewel-box of restored Victorian interiors telling the story of Bombay through models, maps and decorative arts. Its exquisite gilt-and-colour restoration won a UNESCO Asia-Pacific award and is a joy for anyone who loves design.", "lat": 18.979102, "lon": 72.834794, "p": "v"}, {"n": "Veermata Jijabai Bhosale Udyan & Zoo (Byculla / Rani Baug)", "cat": "do", "tier": "", "a": "Byculla", "d": "The city's oldest public garden, from 1861, a leafy 50-acre botanical garden and zoo that also guards the original stone elephant that gave Elephanta its name. A gentle green outing with children away from the heat and horns.", "lat": 18.978654, "lon": 72.836818, "p": "v"}, {"n": "Sanjay Gandhi National Park", "cat": "do", "tier": "", "a": "Borivali", "d": "A genuine tropical forest of 100-plus square kilometres inside the city limits, home to leopards, birdlife, a lion-and-tiger safari and quiet walking trails. A morning here is the surprising green lung of a megacity of twenty million.", "lat": 19.209324, "lon": 72.916327, "p": "v"}, {"n": "Kanheri Caves", "cat": "do", "tier": "", "a": "Borivali (within Sanjay Gandhi National Park)", "d": "More than a hundred Buddhist rock-cut caves carved into a basalt ridge in the forest, dating from the 1st to 10th centuries, with a magnificent chaitya prayer hall. Combine with the national park for a half-day of forest, history and stillness.", "lat": 19.223126, "lon": 72.871277, "p": "v"}, {"n": "Global Vipassana Pagoda", "cat": "do", "tier": "", "a": "Gorai", "d": "A gilded Burmese-style pagoda near Gorai crowned by the world's largest pillarless stone dome, seating 8,000 meditators and enshrining relics of the Buddha. Reached by a short ferry, it offers ten-day courses and drop-in guided meditation in serene surrounds.", "lat": 19.230931, "lon": 72.80424, "p": "v"}, {"n": "Bandra Bandstand & the Promenade", "cat": "do", "tier": "", "a": "Bandra West", "d": "A rocky seafront promenade where the young suburb comes to walk, court and watch the sea, past the walls of Bollywood's biggest homes, including Shah Rukh Khan's Mannat. Sunset here is Bandra's answer to Marine Drive, breezier and more bohemian.", "lat": 19.050504, "lon": 72.821412, "p": "v"}, {"n": "Bandra street art & Chapel Road murals", "cat": "do", "tier": "", "a": "Bandra West", "d": "The old East Indian village lanes around Chapel Road, Ranwar and Waroda Road are a living gallery of murals, cottages and cross-shrines. A morning walking tour reveals the Portuguese-Catholic soul beneath the city's coolest neighbourhood.", "lat": 19.050519, "lon": 72.826778, "p": "v"}, {"n": "Mount Mary Basilica", "cat": "do", "tier": "", "a": "Bandra West", "d": "A hilltop basilica above Bandstand whose September Bandra Fair draws lakhs of the faithful of every religion. The view over the bay and the quiet candle-lit interior reward a short climb through the old village.", "lat": 19.046577, "lon": 72.82264, "p": "v"}, {"n": "Bandra–Worli Sea Link", "cat": "do", "tier": "", "a": "Bandra / Worli", "d": "A cable-stayed bridge sweeping across Mahim Bay, best experienced at speed with the skyline of the western seafront laid out ahead. The view back from the Worli side at dusk is the modern city's most cinematic frame.", "lat": 19.031625, "lon": 72.815971, "p": "v"}, {"n": "Worli Village & Worli Fort", "cat": "do", "tier": "", "a": "Worli", "d": "A tiny Koli fishing village and crumbling 17th-century watch-fort survive at the tip of Worli, surrounded by the gleaming new skyline. The lanes, boats and sea-facing bastion are a photographer's secret and a reminder of the original seven islands.", "lat": 19.023749, "lon": 72.816836, "p": "v"}, {"n": "Nehru Centre & Nehru Planetarium", "cat": "do", "tier": "", "a": "Worli", "d": "A striking modernist dome housing a science-and-culture centre, art gallery and planetarium, a good rainy-day or multi-generational stop. Its cultural programming brings some of the city's better classical concerts and talks.", "lat": 18.989869, "lon": 72.813776, "p": "v"}, {"n": "Juhu Beach", "cat": "do", "tier": "", "a": "Juhu", "d": "The long suburban beach lined with film-star bungalows and the grand old JW Marriott and Sun-n-Sand hotels, famous for its evening chaat stalls. Come for the promenade, the pav bhaji and the sunset, not the swim.", "lat": 19.102652, "lon": 72.824679, "p": "v"}, {"n": "ISKCON Sri Sri Radha Rasabihari Temple", "cat": "do", "tier": "", "a": "Juhu", "d": "A serene marble Krishna temple with beautifully carved interiors, tucked just off Juhu beach, with an excellent pure-vegetarian Govinda's restaurant attached. A calm and easy stop for a family darshan and a sattvic thali.", "lat": 19.113069, "lon": 72.826673, "p": "v"}, {"n": "Film City (Dadasaheb Phalke Chitranagari)", "cat": "do", "tier": "", "a": "Goregaon", "d": "The sprawling studio complex in the hills of Goregaon where much of Bollywood is shot, with sets, gardens and hilltop lookouts. A guided studio tour, or a fixer arranging a live shoot visit, is a rare window into the world's largest film industry.", "lat": 19.158779, "lon": 72.891739, "p": "v"}, {"n": "Nita Mukesh Ambani Cultural Centre (NMACC)", "cat": "do", "tier": "", "a": "Bandra Kurla Complex", "d": "The city's spectacular new performing-arts complex, with a grand theatre, an art house and the crystal-lotus Great Hall, presenting world-class opera, theatre and blockbuster exhibitions. The most glamorous cultural night out in India right now, dress code and all.", "lat": 19.065285, "lon": 72.866911, "p": "v"}, {"n": "Irani café crawl (Britannia, Kyani, Yazdani, Merwan)", "cat": "do", "tier": "", "a": "Fort / CSMT", "d": "The bentwood-chaired Parsi-Irani cafés are a vanishing Bombay institution, from Britannia's famous berry pulao to Kyani's bun-maska and Yazdani's brun. A slow morning across a few of them is the tastiest way to read the city's cosmopolitan history.", "lat": 18.940493, "lon": 72.835786, "p": "a"}, {"n": "Art Deco Marine Drive & Oval walking trail", "cat": "do", "tier": "", "a": "Churchgate / Oval Maidan", "d": "The stretch of streamlined 1930s apartment blocks along the Oval and Marine Drive is the second-largest Art Deco ensemble in the world after Miami. A guided walk decodes the sunbursts, ships' rails and 'Indo-Deco' motifs that put this cityscape on the UNESCO list.", "lat": 18.929613, "lon": 72.828955, "p": "a"}, {"n": "Khotachiwadi heritage village", "cat": "do", "tier": "", "a": "Girgaum", "d": "A pocket of nineteenth-century East Indian and Portuguese-style timber cottages, brightly painted and threaded with narrow lanes, hidden in the heart of the old city. Designer James Ferreira's home and the annual open-house bring this fragile gem to life.", "lat": 19.053545, "lon": 72.83006, "p": "v"}, {"n": "Mani Bhavan (Gandhi Museum)", "cat": "do", "tier": "", "a": "Gamdevi", "d": "The modest Malabar Hill house where Gandhi stayed on his Bombay visits from 1917 to 1934, now a moving museum and library with his room preserved. A quiet, humbling hour on the freedom struggle a short drive from Chowpatty.", "lat": 18.958485, "lon": 72.812252, "p": "a"}, {"n": "Dharavi social-enterprise walk", "cat": "do", "tier": "", "a": "Dharavi", "d": "A guided walk through one of Asia's largest informal settlements reveals a staggering economy of leather, recycling, pottery and textiles, run responsibly with local social enterprises. Confronting and clarifying, it upends every assumption about how the city actually works.", "lat": 19.044463, "lon": 72.858618, "p": "a"}, {"n": "Mumbai heritage & food walk (Fort / Bhuleshwar / Khau Galli)", "cat": "do", "tier": "", "a": "South Mumbai", "d": "A curated walking tour, whether Fort's architecture, Bhuleshwar's temple-and-flower lanes or the vegetarian street food of the Gujarati quarters, is the best way into the city's layers. Private guides can tailor a Jain-friendly, entirely vegetarian route with ease.", "lat": 19.07502, "lon": 72.835639, "p": "a"}, {"n": "Alibaug & Mandwa", "cat": "do", "tier": "", "a": "Day trip (Raigad coast)", "d": "A fifty-minute ferry from the Gateway to Mandwa reaches the coast of second homes, Kihim's casuarina-fringed beaches and the sea-fort of Kolaba. This is where Mumbai's families keep their weekend villas; charter a speedboat and make a lazy day of it.", "lat": 18.922919, "lon": 72.834523, "p": "v"}, {"n": "Madh Island & Erangal", "cat": "do", "tier": "", "a": "Day trip (north-west Mumbai)", "d": "A quiet peninsula of Koli villages, palm groves, an old Portuguese fort and beach shacks, reached by a short vehicle ferry from Versova. A low-key escape for a seafood lunch and empty sands within the city's own limits.", "lat": 19.197936, "lon": 72.800249, "p": "v"}, {"n": "The Bombay Canteen", "cat": "party", "tier": "Cocktail bars", "a": "Lower Parel (Kamala Mills)", "d": "A bar that mines the Indian pantry for its drinks the way its kitchen does for food — one of the country's most-awarded.", "lat": 19.003234, "lon": 72.827583, "p": "v"}, {"n": "AER", "cat": "party", "tier": "Rooftops", "a": "Worli (Four Seasons Hotel Mumbai)", "d": "The 34th-floor open-air lounge over Worli and the sea — for years the definitive Mumbai rooftop.", "lat": 19.129152, "lon": 72.835404, "p": "v"}, {"n": "Asilo", "cat": "party", "tier": "Rooftops", "a": "Lower Parel (The St. Regis Mumbai)", "d": "A theatrical rooftop above Lower Parel — cocktails, city lights and a scene, at the top of the St. Regis tower.", "lat": 18.994001, "lon": 72.824104, "p": "v"}, {"n": "Harbour Bar", "cat": "party", "tier": "Landmark bars", "a": "Colaba (The Taj Mahal Palace)", "d": "India's oldest licensed bar, facing the Gateway of India — the most storied nightcap in the city.", "lat": 19.016164, "lon": 72.858951, "p": "v"}, {"n": "Americano", "cat": "party", "tier": "Cocktail bars", "a": "Kala Ghoda (Fort)", "d": "Some of the sharpest cocktails in the city, in a chic low-lit Kala Ghoda room that doubles as a fine kitchen.", "lat": 19.054999, "lon": 72.869203, "p": "v"}, {"n": "Dome", "cat": "party", "tier": "Rooftops", "a": "Marine Drive (InterContinental Marine Drive)", "d": "An all-white rooftop lounge over the Queen's Necklace — the classic Marine Drive sundowner.", "lat": 19.007219, "lon": 72.813648, "p": "v"}]}
+{
+  "center": [
+    19.054999,
+    72.869203
+  ],
+  "venues": [
+    {
+      "n": "The Taj Mahal Palace, Mumbai",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Colaba (Apollo Bunder)",
+      "d": "India's most storied hotel, facing the Gateway of India since 1903 \u2014 the address every visiting family knows by name.",
+      "lat": 18.921876,
+      "lon": 72.833043,
+      "photos": []
+    },
+    {
+      "n": "The Oberoi, Mumbai",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Nariman Point (Marine Drive)",
+      "d": "Serene, glass-walled and faultless on Marine Drive \u2014 Oberoi service at the southern tip of the city.",
+      "lat": 18.926984,
+      "lon": 72.820585,
+      "photos": []
+    },
+    {
+      "n": "Four Seasons Hotel Mumbai",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Worli",
+      "d": "A polished uptown tower crowned by AER, the 34th-floor rooftop \u2014 the Four Seasons standard, in the middle of the city.",
+      "lat": 18.994118,
+      "lon": 72.82036,
+      "photos": []
+    },
+    {
+      "n": "The St. Regis Mumbai",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Lower Parel",
+      "d": "A soaring tower over Lower Parel with the theatrical Asilo rooftop \u2014 St. Regis butler service above the mills.",
+      "lat": 18.994093,
+      "lon": 72.824012,
+      "photos": []
+    },
+    {
+      "n": "Taj Mahal Tower, Mumbai",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Colaba (Apollo Bunder)",
+      "d": "The modern tower alongside the Palace \u2014 the same Gateway views and Taj address, at a lighter tariff.",
+      "lat": 18.921778,
+      "lon": 72.833285,
+      "photos": []
+    },
+    {
+      "n": "The Leela Mumbai",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Andheri (Sahar, near the airport)",
+      "d": "A lush, art-filled garden hotel by the international airport \u2014 the calm landing pad for arrivals and departures.",
+      "lat": 19.109243,
+      "lon": 72.873758,
+      "photos": []
+    },
+    {
+      "n": "ITC Maratha, a Luxury Collection Hotel",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Andheri (near the airport)",
+      "d": "An ITC grande dame near the airport \u2014 Maratha-inspired grandeur and ITC's celebrated kitchens.",
+      "lat": 19.105236,
+      "lon": 72.861334,
+      "photos": []
+    },
+    {
+      "n": "ITC Grand Central, a Luxury Collection Hotel",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Parel",
+      "d": "A colonial-modern ITC house in Parel \u2014 well-run, central, and close to the Lower Parel dining scene.",
+      "lat": 19.008427,
+      "lon": 72.842505,
+      "photos": []
+    },
+    {
+      "n": "InterContinental Marine Drive, Mumbai",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Marine Drive (Chowpatty end)",
+      "d": "A compact boutique tower on Marine Drive with a rooftop over the Queen's Necklace \u2014 the small-hotel sea view.",
+      "lat": 18.934992,
+      "lon": 72.824307,
+      "photos": []
+    },
+    {
+      "n": "Masque",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Lower Parel (Mathuradas Mills)",
+      "d": "India's most decorated tasting menu \u2014 a ten-course journey through the country's produce in a former textile mill.",
+      "lat": 18.989838,
+      "lon": 72.825682,
+      "photos": []
+    },
+    {
+      "n": "Americano",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Kala Ghoda (Fort)",
+      "d": "A chic, low-lit Kala Ghoda room where sharp cooking meets some of the best cocktails in the city.",
+      "lat": 19.054999,
+      "lon": 72.869203,
+      "photos": []
+    },
+    {
+      "n": "The Table",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Colaba",
+      "d": "A Colaba institution for fifteen years, back on form \u2014 eclectic, produce-led global cooking to share.",
+      "lat": 18.924182,
+      "lon": 72.833084,
+      "photos": []
+    },
+    {
+      "n": "The Bombay Canteen",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Lower Parel (Kamala Mills)",
+      "d": "The modern-Indian restaurant that changed how the city eats \u2014 regional dishes, reimagined, ten years on.",
+      "lat": 19.003234,
+      "lon": 72.827583,
+      "photos": []
+    },
+    {
+      "n": "Papa's",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Bandra (West)",
+      "d": "A twelve-seat chef's counter above a sandwich shop \u2014 the most exciting fine-dining ticket in Bandra.",
+      "lat": 19.061657,
+      "lon": 72.829166,
+      "photos": []
+    },
+    {
+      "n": "Ekaa",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Fort (Kitab Mahal)",
+      "d": "Niyati Rao's ingredient-led kitchen in a historic Fort building \u2014 produce-driven cooking that ignores the rulebook.",
+      "lat": 19.054999,
+      "lon": 72.869203,
+      "photos": []
+    },
+    {
+      "n": "Trishna",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Fort / Kala Ghoda",
+      "d": "The back-alley seafood legend of South Mumbai \u2014 the butter-pepper-garlic crab is a rite of passage.",
+      "lat": 18.928658,
+      "lon": 72.832393,
+      "photos": []
+    },
+    {
+      "n": "Wasabi by Morimoto",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Colaba (The Taj Mahal Palace)",
+      "d": "Masaharu Morimoto's Japanese room inside the Taj Palace \u2014 the city's benchmark for sushi and omakase.",
+      "lat": 18.921778,
+      "lon": 72.833285,
+      "photos": []
+    },
+    {
+      "n": "Ziya",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Nariman Point (The Oberoi, Mumbai)",
+      "d": "Contemporary Indian by Vineet Bhatia \u2014 the first Indian chef to win a Michelin star (in London) \u2014 with the sea at your feet.",
+      "lat": 18.92663,
+      "lon": 72.820478,
+      "photos": []
+    },
+    {
+      "n": "Yauatcha",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Bandra Kurla Complex (BKC)",
+      "d": "The Mumbai outpost of the London dim sum house \u2014 glossy, precise and reliably excellent.",
+      "lat": 19.060964,
+      "lon": 72.862882,
+      "photos": []
+    },
+    {
+      "n": "Hakkasan Mumbai",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Bandra (West)",
+      "d": "Dark, glamorous modern Cantonese in Bandra \u2014 the international Hakkasan name, brought to the suburbs.",
+      "lat": 19.06062,
+      "lon": 72.834548,
+      "photos": []
+    },
+    {
+      "n": "Bastian at the Top",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Worli",
+      "d": "Mumbai's most glamorous seafood-and-scene restaurant \u2014 big flavours, bigger crowd, sea breeze on the terrace.",
+      "lat": 19.024994,
+      "lon": 72.841535,
+      "photos": []
+    },
+    {
+      "n": "Bombay Sweet Shop",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Byculla",
+      "d": "A joyful reinvention of the Indian mithai shop \u2014 traditional sweets made brilliantly, by the Bombay Canteen team.",
+      "lat": 19.059474,
+      "lon": 72.829059,
+      "photos": []
+    },
+    {
+      "n": "Britannia & Co.",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Ballard Estate (Fort)",
+      "d": "A century-old Parsi cafe famous for berry pulav \u2014 a living piece of old Bombay you eat lunch inside.",
+      "lat": 18.934473,
+      "lon": 72.840358,
+      "photos": []
+    },
+    {
+      "n": "Swati Snacks",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Tardeo",
+      "d": "The city's beloved home of Gujarati and Mumbai street food, served clean and impeccable in a bright canteen.",
+      "lat": 18.96649,
+      "lon": 72.81342,
+      "photos": []
+    },
+    {
+      "n": "Gateway of India",
+      "cat": "do",
+      "tier": "",
+      "a": "Colaba",
+      "d": "The basalt triumphal arch on the harbour is where the city gathers at dawn and dusk, with Elephanta ferries pulling away and the Taj rising behind you. Step out of a Taj suite, cross the road, and the whole postcard of Bombay is at your feet.",
+      "lat": 18.921966,
+      "lon": 72.834566,
+      "photos": []
+    },
+    {
+      "n": "The Taj Mahal Palace, Mumbai",
+      "cat": "do",
+      "tier": "",
+      "a": "Colaba",
+      "d": "Jamsetji Tata's 1903 landmark is still the grand dame of the city, its Florentine dome and cantilever staircase as much a Bombay institution as a hotel. Even if you are staying at the Oberoi, come for high tea at the Sea Lounge or a night at Harbour Bar, India's first licensed bar.",
+      "lat": 18.921876,
+      "lon": 72.833043,
+      "photos": []
+    },
+    {
+      "n": "Elephanta Caves",
+      "cat": "do",
+      "tier": "",
+      "a": "Gharapuri Island (harbour)",
+      "d": "An hour by ferry from the Gateway, these 5th\u20136th-century rock-cut Shiva temples on a green island are crowned by the colossal three-headed Trimurti, one of the great sculptures of India. Charter a private launch, go early, and have the caves nearly to yourself before the day crowds land.",
+      "lat": 18.962723,
+      "lon": 72.931698,
+      "photos": []
+    },
+    {
+      "n": "Chhatrapati Shivaji Maharaj Terminus (CSMT)",
+      "cat": "do",
+      "tier": "",
+      "a": "Fort",
+      "d": "F.W. Stevens' 1887 Victorian Gothic railway cathedral, a working station moving millions daily, blends stone gargoyles and stained glass with Indian palace forms. Book the heritage tour to climb behind the fa\u00e7ade into the boardroom and the star-chamber dome.",
+      "lat": 18.939856,
+      "lon": 72.835519,
+      "photos": []
+    },
+    {
+      "n": "Fort & Kala Ghoda heritage precinct",
+      "cat": "do",
+      "tier": "",
+      "a": "Fort / Kala Ghoda",
+      "d": "The tight grid around Kala Ghoda holds the densest concentration of Bombay's Victorian Gothic and Indo-Deco architecture, best walked slowly with a coffee and an eye for detail. This is the heart of the ensemble that earned the city its 2018 UNESCO listing.",
+      "lat": 18.928458,
+      "lon": 72.832599,
+      "photos": []
+    },
+    {
+      "n": "Marine Drive & the Queen's Necklace",
+      "cat": "do",
+      "tier": "",
+      "a": "Churchgate / Nariman Point",
+      "d": "The great Art Deco arc along the Arabian Sea glows into a curve of lights after dark, hence its nickname, and its curving parade of 1930s buildings is part of the UNESCO ensemble. A slow evening walk to Nariman Point, or a drive with the windows down, is the city's oldest ritual.",
+      "lat": 18.941487,
+      "lon": 72.823846,
+      "photos": []
+    },
+    {
+      "n": "Chowpatty Beach",
+      "cat": "do",
+      "tier": "",
+      "a": "Girgaum",
+      "d": "The city beach at the northern end of Marine Drive where Bombay comes to eat bhelpuri, watch the sunset, and mark Ganesh Visarjan every year. Come at dusk for the sea breeze and the theatre of the crowd, not for a swim.",
+      "lat": 18.954359,
+      "lon": 72.812879,
+      "photos": []
+    },
+    {
+      "n": "Chhatrapati Shivaji Maharaj Vastu Sangrahalaya (CSMVS)",
+      "cat": "do",
+      "tier": "",
+      "a": "Fort / Kala Ghoda",
+      "d": "The former Prince of Wales Museum, a domed Indo-Saracenic masterpiece by George Wittet, holds Indus seals, Gupta bronzes, Mughal miniatures and Chola sculpture across 60,000 objects. Ask about a curator-led private morning walk through the Indian sculpture and miniature galleries.",
+      "lat": 18.926877,
+      "lon": 72.832592,
+      "photos": []
+    },
+    {
+      "n": "Jehangir Art Gallery",
+      "cat": "do",
+      "tier": "",
+      "a": "Kala Ghoda",
+      "d": "Since 1952 the city's most storied gallery, where Husain, Souza and the Progressives showed and where the pavement outside still doubles as an open-air art bazaar. It anchors a five-minute cluster of the country's best contemporary galleries.",
+      "lat": 18.927135,
+      "lon": 72.831605,
+      "photos": []
+    },
+    {
+      "n": "Kala Ghoda galleries (Chatterjee & Lal, Galerie Mirchandani + Steinruecke, Project 88)",
+      "cat": "do",
+      "tier": "",
+      "a": "Kala Ghoda / Colaba",
+      "d": "Within a few walkable blocks sit the galleries that define Indian contemporary art, from blue-chip names to the sharpest young programmes. A morning here is how serious collectors take the temperature of the market.",
+      "lat": 18.926313,
+      "lon": 72.830013,
+      "photos": []
+    },
+    {
+      "n": "Prince of Wales Museum garden & the Kala Ghoda Arts Festival",
+      "cat": "do",
+      "tier": "",
+      "a": "Kala Ghoda",
+      "d": "Each February the precinct becomes a nine-day open-air festival of art, installations, music and design that fills the streets of the heritage district. The rest of the year the leafy quarter rewards an unhurried wander between galleries and caf\u00e9s.",
+      "lat": 18.928458,
+      "lon": 72.832599,
+      "photos": []
+    },
+    {
+      "n": "University of Mumbai Fort Campus & Rajabai Clock Tower",
+      "cat": "do",
+      "tier": "",
+      "a": "Fort",
+      "d": "Gilbert Scott's Venetian-Gothic library and its 85-metre Rajabai Tower, modelled on Big Ben and funded by a Jain merchant in his mother's name, look straight across the Oval Maidan. The interiors, when open, hold soaring stained glass and carved teak.",
+      "lat": 19.13234,
+      "lon": 72.794785,
+      "photos": []
+    },
+    {
+      "n": "Bombay High Court & the Oval Maidan",
+      "cat": "do",
+      "tier": "",
+      "a": "Fort",
+      "d": "One of the grandest colonial Gothic courts in the country faces a wide green maidan flanked by Marine Drive's Deco towers, the Gothic-versus-Deco face-off that is the whole point of the UNESCO citation. Cricket on the grass, robed advocates on the steps, pure Bombay.",
+      "lat": 19.13234,
+      "lon": 72.794785,
+      "photos": []
+    },
+    {
+      "n": "Asiatic Society of Mumbai (Town Hall)",
+      "cat": "do",
+      "tier": "",
+      "a": "Fort / Horniman Circle",
+      "d": "Behind thirty steps and eight Doric columns, this 1833 neoclassical library holds a quarter-million books and rare manuscripts, including one of only two original copies of Dante's Divine Comedy. The reading room feels frozen in another century, and few tourists ever climb the steps.",
+      "lat": 18.931825,
+      "lon": 72.836138,
+      "photos": []
+    },
+    {
+      "n": "Horniman Circle Gardens",
+      "cat": "do",
+      "tier": "",
+      "a": "Fort",
+      "d": "A perfect ring of gardens ringed by grand arcaded Victorian buildings, laid out on the site of the old Bombay Green, and a favourite for evening concerts and design pop-ups. The colonnade around it is the most elegant address in the old town.",
+      "lat": 18.932009,
+      "lon": 72.83502,
+      "photos": []
+    },
+    {
+      "n": "Flora Fountain & Hutatma Chowk",
+      "cat": "do",
+      "tier": "",
+      "a": "Fort",
+      "d": "The 1864 Portland-stone fountain of Flora at the crossroads of the Fort district marks the ceremonial centre of business Bombay. Around it radiate the banks, bookshops and Irani caf\u00e9s of the old commercial city.",
+      "lat": 19.13234,
+      "lon": 72.794785,
+      "photos": []
+    },
+    {
+      "n": "David Sassoon Library & Reading Room",
+      "cat": "do",
+      "tier": "",
+      "a": "Kala Ghoda",
+      "d": "A Venetian-Gothic gem of 1870 with a first-floor verandah of cane chairs shaded by trees, one of the loveliest quiet spaces in the city. Members read newspapers here as they have for 150 years, unhurried by the traffic below.",
+      "lat": 18.927691,
+      "lon": 72.831155,
+      "photos": []
+    },
+    {
+      "n": "Colaba Causeway",
+      "cat": "do",
+      "tier": "",
+      "a": "Colaba",
+      "d": "The city's most famous shopping street, from silver and antiques to street stalls, cotton kaftans and the legendary Leopold and Caf\u00e9 Mondegar. Have your driver drop you at one end and browse your way to a coffee at the other.",
+      "lat": 18.919225,
+      "lon": 72.829522,
+      "photos": []
+    },
+    {
+      "n": "Sassoon Docks",
+      "cat": "do",
+      "tier": "",
+      "a": "Colaba",
+      "d": "Bombay's oldest wet dock, from 1875, comes alive before dawn as Koli fisherwomen auction the night's catch in a riot of colour and salt. Since the 2017 St+art project its walls carry striking murals and portraits of the fishing community.",
+      "lat": 18.911828,
+      "lon": 72.826614,
+      "photos": []
+    },
+    {
+      "n": "Crawford Market (Mahatma Jyotiba Phule Mandai)",
+      "cat": "do",
+      "tier": "",
+      "a": "Fort / CSMT",
+      "d": "A Norman-Gothic market hall of 1869 whose entrance friezes were designed by Rudyard Kipling's father, still trading in fruit, flowers, spices and imported foods. Go for the architecture and the theatre; the wholesale spice lanes behind are a sensory education.",
+      "lat": 18.94735,
+      "lon": 72.834511,
+      "photos": []
+    },
+    {
+      "n": "Chor Bazaar & Mutton Street antiques",
+      "cat": "do",
+      "tier": "",
+      "a": "Bhendi Bazaar",
+      "d": "The famous 'thieves' market' is the city's great hunting ground for colonial furniture, vintage Bollywood posters, gramophones, brass and genuine bric-a-brac. Bring an eye and patience; the best pieces sit above the shopfronts, brought out for serious buyers.",
+      "lat": 18.961403,
+      "lon": 72.829706,
+      "photos": []
+    },
+    {
+      "n": "Haji Ali Dargah",
+      "cat": "do",
+      "tier": "",
+      "a": "Worli",
+      "d": "A white marble tomb and mosque set on an islet, reached by a causeway that vanishes at high tide, floating on the Arabian Sea off Worli. The walk out at low tide, past qawwali singers and the open water on both sides, is one of the city's great atmospheres.",
+      "lat": 18.982823,
+      "lon": 72.808993,
+      "photos": []
+    },
+    {
+      "n": "Shree Siddhivinayak Temple",
+      "cat": "do",
+      "tier": "",
+      "a": "Prabhadevi",
+      "d": "Mumbai's most beloved Ganesh temple, its inner sanctum gleaming with gold, draws everyone from film stars to industrialists on Tuesday mornings. Arrange a VIP darshan to bypass the queues and enter with calm at first light.",
+      "lat": 19.081512,
+      "lon": 72.911962,
+      "photos": []
+    },
+    {
+      "n": "Mahalaxmi Temple",
+      "cat": "do",
+      "tier": "",
+      "a": "Mahalaxmi",
+      "d": "A seaside temple to the goddess of wealth perched above the rocks near Haji Ali, garlanded and thronged, especially during Navratri. The short causeway between the two shrines is one of the more spiritual walks in the city.",
+      "lat": 18.98252,
+      "lon": 72.82422,
+      "photos": []
+    },
+    {
+      "n": "Banganga Tank & Walkeshwar Temple",
+      "cat": "do",
+      "tier": "",
+      "a": "Malabar Hill",
+      "d": "A sacred spring-fed stone tank from AD 1127, ringed by temples, ghats and old dharamshalas, hidden in a fold of the city's most exclusive hill. It hosts an intimate classical music festival and feels a thousand miles, not a few streets, from the towers of Malabar Hill.",
+      "lat": 18.945615,
+      "lon": 72.793201,
+      "photos": []
+    },
+    {
+      "n": "Hanging Gardens & Kamala Nehru Park",
+      "cat": "do",
+      "tier": "",
+      "a": "Malabar Hill",
+      "d": "Terraced gardens atop Malabar Hill with topiary hedges and a sweeping view down over the Marine Drive arc and Chowpatty. The 'old woman's shoe' at the children's park is a nostalgic Bombay landmark for multi-generational visits.",
+      "lat": 18.95502,
+      "lon": 72.805064,
+      "photos": []
+    },
+    {
+      "n": "Dhobi Ghat viewpoint (Mahalaxmi)",
+      "cat": "do",
+      "tier": "",
+      "a": "Mahalaxmi",
+      "d": "From the bridge above Mahalaxmi station you look down on the world's largest open-air laundry, hundreds of concrete washing pens worked by hand exactly as they have been for over a century. A ten-minute stop that captures the city's engine of labour in one frame.",
+      "lat": 18.982048,
+      "lon": 72.8247,
+      "photos": []
+    },
+    {
+      "n": "Dr Bhau Daji Lad Mumbai City Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Byculla",
+      "d": "The city's oldest museum, a jewel-box of restored Victorian interiors telling the story of Bombay through models, maps and decorative arts. Its exquisite gilt-and-colour restoration won a UNESCO Asia-Pacific award and is a joy for anyone who loves design.",
+      "lat": 18.979102,
+      "lon": 72.834794,
+      "photos": []
+    },
+    {
+      "n": "Veermata Jijabai Bhosale Udyan & Zoo (Byculla / Rani Baug)",
+      "cat": "do",
+      "tier": "",
+      "a": "Byculla",
+      "d": "The city's oldest public garden, from 1861, a leafy 50-acre botanical garden and zoo that also guards the original stone elephant that gave Elephanta its name. A gentle green outing with children away from the heat and horns.",
+      "lat": 18.978654,
+      "lon": 72.836818,
+      "photos": []
+    },
+    {
+      "n": "Sanjay Gandhi National Park",
+      "cat": "do",
+      "tier": "",
+      "a": "Borivali",
+      "d": "A genuine tropical forest of 100-plus square kilometres inside the city limits, home to leopards, birdlife, a lion-and-tiger safari and quiet walking trails. A morning here is the surprising green lung of a megacity of twenty million.",
+      "lat": 19.209324,
+      "lon": 72.916327,
+      "photos": []
+    },
+    {
+      "n": "Kanheri Caves",
+      "cat": "do",
+      "tier": "",
+      "a": "Borivali (within Sanjay Gandhi National Park)",
+      "d": "More than a hundred Buddhist rock-cut caves carved into a basalt ridge in the forest, dating from the 1st to 10th centuries, with a magnificent chaitya prayer hall. Combine with the national park for a half-day of forest, history and stillness.",
+      "lat": 19.223126,
+      "lon": 72.871277,
+      "photos": []
+    },
+    {
+      "n": "Global Vipassana Pagoda",
+      "cat": "do",
+      "tier": "",
+      "a": "Gorai",
+      "d": "A gilded Burmese-style pagoda near Gorai crowned by the world's largest pillarless stone dome, seating 8,000 meditators and enshrining relics of the Buddha. Reached by a short ferry, it offers ten-day courses and drop-in guided meditation in serene surrounds.",
+      "lat": 19.230931,
+      "lon": 72.80424,
+      "photos": []
+    },
+    {
+      "n": "Bandra Bandstand & the Promenade",
+      "cat": "do",
+      "tier": "",
+      "a": "Bandra West",
+      "d": "A rocky seafront promenade where the young suburb comes to walk, court and watch the sea, past the walls of Bollywood's biggest homes, including Shah Rukh Khan's Mannat. Sunset here is Bandra's answer to Marine Drive, breezier and more bohemian.",
+      "lat": 19.050504,
+      "lon": 72.821412,
+      "photos": []
+    },
+    {
+      "n": "Bandra street art & Chapel Road murals",
+      "cat": "do",
+      "tier": "",
+      "a": "Bandra West",
+      "d": "The old East Indian village lanes around Chapel Road, Ranwar and Waroda Road are a living gallery of murals, cottages and cross-shrines. A morning walking tour reveals the Portuguese-Catholic soul beneath the city's coolest neighbourhood.",
+      "lat": 19.050519,
+      "lon": 72.826778,
+      "photos": []
+    },
+    {
+      "n": "Mount Mary Basilica",
+      "cat": "do",
+      "tier": "",
+      "a": "Bandra West",
+      "d": "A hilltop basilica above Bandstand whose September Bandra Fair draws lakhs of the faithful of every religion. The view over the bay and the quiet candle-lit interior reward a short climb through the old village.",
+      "lat": 19.046577,
+      "lon": 72.82264,
+      "photos": []
+    },
+    {
+      "n": "Bandra\u2013Worli Sea Link",
+      "cat": "do",
+      "tier": "",
+      "a": "Bandra / Worli",
+      "d": "A cable-stayed bridge sweeping across Mahim Bay, best experienced at speed with the skyline of the western seafront laid out ahead. The view back from the Worli side at dusk is the modern city's most cinematic frame.",
+      "lat": 19.031625,
+      "lon": 72.815971,
+      "photos": []
+    },
+    {
+      "n": "Worli Village & Worli Fort",
+      "cat": "do",
+      "tier": "",
+      "a": "Worli",
+      "d": "A tiny Koli fishing village and crumbling 17th-century watch-fort survive at the tip of Worli, surrounded by the gleaming new skyline. The lanes, boats and sea-facing bastion are a photographer's secret and a reminder of the original seven islands.",
+      "lat": 19.023749,
+      "lon": 72.816836,
+      "photos": []
+    },
+    {
+      "n": "Nehru Centre & Nehru Planetarium",
+      "cat": "do",
+      "tier": "",
+      "a": "Worli",
+      "d": "A striking modernist dome housing a science-and-culture centre, art gallery and planetarium, a good rainy-day or multi-generational stop. Its cultural programming brings some of the city's better classical concerts and talks.",
+      "lat": 18.989869,
+      "lon": 72.813776,
+      "photos": []
+    },
+    {
+      "n": "Juhu Beach",
+      "cat": "do",
+      "tier": "",
+      "a": "Juhu",
+      "d": "The long suburban beach lined with film-star bungalows and the grand old JW Marriott and Sun-n-Sand hotels, famous for its evening chaat stalls. Come for the promenade, the pav bhaji and the sunset, not the swim.",
+      "lat": 19.102652,
+      "lon": 72.824679,
+      "photos": []
+    },
+    {
+      "n": "ISKCON Sri Sri Radha Rasabihari Temple",
+      "cat": "do",
+      "tier": "",
+      "a": "Juhu",
+      "d": "A serene marble Krishna temple with beautifully carved interiors, tucked just off Juhu beach, with an excellent pure-vegetarian Govinda's restaurant attached. A calm and easy stop for a family darshan and a sattvic thali.",
+      "lat": 19.113069,
+      "lon": 72.826673,
+      "photos": []
+    },
+    {
+      "n": "Film City (Dadasaheb Phalke Chitranagari)",
+      "cat": "do",
+      "tier": "",
+      "a": "Goregaon",
+      "d": "The sprawling studio complex in the hills of Goregaon where much of Bollywood is shot, with sets, gardens and hilltop lookouts. A guided studio tour, or a fixer arranging a live shoot visit, is a rare window into the world's largest film industry.",
+      "lat": 19.158779,
+      "lon": 72.891739,
+      "photos": []
+    },
+    {
+      "n": "Nita Mukesh Ambani Cultural Centre (NMACC)",
+      "cat": "do",
+      "tier": "",
+      "a": "Bandra Kurla Complex",
+      "d": "The city's spectacular new performing-arts complex, with a grand theatre, an art house and the crystal-lotus Great Hall, presenting world-class opera, theatre and blockbuster exhibitions. The most glamorous cultural night out in India right now, dress code and all.",
+      "lat": 19.065285,
+      "lon": 72.866911,
+      "photos": []
+    },
+    {
+      "n": "Irani caf\u00e9 crawl (Britannia, Kyani, Yazdani, Merwan)",
+      "cat": "do",
+      "tier": "",
+      "a": "Fort / CSMT",
+      "d": "The bentwood-chaired Parsi-Irani caf\u00e9s are a vanishing Bombay institution, from Britannia's famous berry pulao to Kyani's bun-maska and Yazdani's brun. A slow morning across a few of them is the tastiest way to read the city's cosmopolitan history.",
+      "lat": 18.940493,
+      "lon": 72.835786,
+      "photos": []
+    },
+    {
+      "n": "Art Deco Marine Drive & Oval walking trail",
+      "cat": "do",
+      "tier": "",
+      "a": "Churchgate / Oval Maidan",
+      "d": "The stretch of streamlined 1930s apartment blocks along the Oval and Marine Drive is the second-largest Art Deco ensemble in the world after Miami. A guided walk decodes the sunbursts, ships' rails and 'Indo-Deco' motifs that put this cityscape on the UNESCO list.",
+      "lat": 18.929613,
+      "lon": 72.828955,
+      "photos": []
+    },
+    {
+      "n": "Khotachiwadi heritage village",
+      "cat": "do",
+      "tier": "",
+      "a": "Girgaum",
+      "d": "A pocket of nineteenth-century East Indian and Portuguese-style timber cottages, brightly painted and threaded with narrow lanes, hidden in the heart of the old city. Designer James Ferreira's home and the annual open-house bring this fragile gem to life.",
+      "lat": 19.053545,
+      "lon": 72.83006,
+      "photos": []
+    },
+    {
+      "n": "Mani Bhavan (Gandhi Museum)",
+      "cat": "do",
+      "tier": "",
+      "a": "Gamdevi",
+      "d": "The modest Malabar Hill house where Gandhi stayed on his Bombay visits from 1917 to 1934, now a moving museum and library with his room preserved. A quiet, humbling hour on the freedom struggle a short drive from Chowpatty.",
+      "lat": 18.958485,
+      "lon": 72.812252,
+      "photos": []
+    },
+    {
+      "n": "Dharavi social-enterprise walk",
+      "cat": "do",
+      "tier": "",
+      "a": "Dharavi",
+      "d": "A guided walk through one of Asia's largest informal settlements reveals a staggering economy of leather, recycling, pottery and textiles, run responsibly with local social enterprises. Confronting and clarifying, it upends every assumption about how the city actually works.",
+      "lat": 19.044463,
+      "lon": 72.858618,
+      "photos": []
+    },
+    {
+      "n": "Mumbai heritage & food walk (Fort / Bhuleshwar / Khau Galli)",
+      "cat": "do",
+      "tier": "",
+      "a": "South Mumbai",
+      "d": "A curated walking tour, whether Fort's architecture, Bhuleshwar's temple-and-flower lanes or the vegetarian street food of the Gujarati quarters, is the best way into the city's layers. Private guides can tailor a Jain-friendly, entirely vegetarian route with ease.",
+      "lat": 19.07502,
+      "lon": 72.835639,
+      "photos": []
+    },
+    {
+      "n": "Alibaug & Mandwa",
+      "cat": "do",
+      "tier": "",
+      "a": "Day trip (Raigad coast)",
+      "d": "A fifty-minute ferry from the Gateway to Mandwa reaches the coast of second homes, Kihim's casuarina-fringed beaches and the sea-fort of Kolaba. This is where Mumbai's families keep their weekend villas; charter a speedboat and make a lazy day of it.",
+      "lat": 18.922919,
+      "lon": 72.834523,
+      "photos": []
+    },
+    {
+      "n": "Madh Island & Erangal",
+      "cat": "do",
+      "tier": "",
+      "a": "Day trip (north-west Mumbai)",
+      "d": "A quiet peninsula of Koli villages, palm groves, an old Portuguese fort and beach shacks, reached by a short vehicle ferry from Versova. A low-key escape for a seafood lunch and empty sands within the city's own limits.",
+      "lat": 19.197936,
+      "lon": 72.800249,
+      "photos": []
+    },
+    {
+      "n": "The Bombay Canteen",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Lower Parel (Kamala Mills)",
+      "d": "A bar that mines the Indian pantry for its drinks the way its kitchen does for food \u2014 one of the country's most-awarded.",
+      "lat": 19.003234,
+      "lon": 72.827583,
+      "photos": []
+    },
+    {
+      "n": "AER",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "Worli (Four Seasons Hotel Mumbai)",
+      "d": "The 34th-floor open-air lounge over Worli and the sea \u2014 for years the definitive Mumbai rooftop.",
+      "lat": 19.129152,
+      "lon": 72.835404,
+      "photos": []
+    },
+    {
+      "n": "Asilo",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "Lower Parel (The St. Regis Mumbai)",
+      "d": "A theatrical rooftop above Lower Parel \u2014 cocktails, city lights and a scene, at the top of the St. Regis tower.",
+      "lat": 18.994001,
+      "lon": 72.824104,
+      "photos": []
+    },
+    {
+      "n": "Harbour Bar",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "Colaba (The Taj Mahal Palace)",
+      "d": "India's oldest licensed bar, facing the Gateway of India \u2014 the most storied nightcap in the city.",
+      "lat": 19.016164,
+      "lon": 72.858951,
+      "photos": []
+    },
+    {
+      "n": "Americano",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Kala Ghoda (Fort)",
+      "d": "Some of the sharpest cocktails in the city, in a chic low-lit Kala Ghoda room that doubles as a fine kitchen.",
+      "lat": 19.054999,
+      "lon": 72.869203,
+      "photos": []
+    },
+    {
+      "n": "Dome",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "Marine Drive (InterContinental Marine Drive)",
+      "d": "An all-white rooftop lounge over the Queen's Necklace \u2014 the classic Marine Drive sundowner.",
+      "lat": 19.007219,
+      "lon": 72.813648,
+      "photos": []
+    }
+  ]
+}

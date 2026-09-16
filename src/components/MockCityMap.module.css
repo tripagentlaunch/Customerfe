@@ -1,0 +1,29 @@
+.plain {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: var(--bone);
+}
+
+/* Just a positioning wrapper now — MapPin supplies its own size, fill,
+   border and shape (a category glyph in a colored circle, not a plain
+   pin-shaped dot). */
+.pin {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.pin:focus-visible {
+  outline: 2px solid var(--accent-2, #6e2a38);
+  outline-offset: 2px;
+}
+
+.cardAnchor {
+  position: absolute;
+  width: 0;
+  height: 0;
+}

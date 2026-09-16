@@ -1,1 +1,348 @@
-{"center": [26.296772, 73.035143], "venues": [{"n": "Umaid Bhawan Palace", "cat": "stay", "tier": "Ultra", "a": "Civil Lines / Ratanada (Umaid Bhawan)", "d": "One of the world's largest private residences, half still the Maharaja's home — the first Indian hotel ever judged the best on earth.", "lat": 26.280945, "lon": 73.047015, "p": "v"}, {"n": "RAAS Jodhpur", "cat": "stay", "tier": "Grand", "a": "Old Blue City (near the Clock Tower, at the fort's foot)", "d": "A 250-year-old haveli reborn in red sandstone and glass — Mehrangarh filling every window, the most design-led room in the city.", "lat": 26.297559, "lon": 73.022765, "p": "v"}, {"n": "Ajit Bhawan", "cat": "stay", "tier": "Luxury", "a": "Civil Lines / Ratanada", "d": "India's very first heritage hotel — a 1920s royal residence, leafy and lived-in, where the palace idea began.", "lat": 26.282962, "lon": 73.03767, "p": "v"}, {"n": "WelcomHeritage Bal Samand Lake Palace", "cat": "stay", "tier": "Luxury", "a": "Bal Samand / outskirts (~7 km north)", "d": "A 17th-century red-stone summer palace on a 12th-century lake — 60 acres of orchards and birdsong, the city left behind.", "lat": 26.334494, "lon": 73.02236, "p": "v"}, {"n": "Taj Hari Mahal", "cat": "stay", "tier": "Luxury", "a": "Civil Lines / Ratanada", "d": "A Taj palace-style hotel on six acres of gardens — Rajput-Mughal grandeur, big-hotel polish, and the group's assured service.", "lat": 26.267447, "lon": 73.019306, "p": "v"}, {"n": "Ranbanka Palace", "cat": "stay", "tier": "Premium", "a": "Civil Lines / Ratanada", "d": "A 1920s Rajput palace between Mehrangarh and Umaid Bhawan — solid, characterful heritage without the icon's price.", "lat": 26.284152, "lon": 73.037383, "p": "v"}, {"n": "Risala", "cat": "eat", "tier": "Destination", "a": "Civil Lines / Ratanada (Umaid Bhawan Palace)", "d": "Royal Marwari and Indian cooking from the Maharajas' own recipes, hung with martial portraits, the fort framed beyond the gardens — the grandest table in Jodhpur.", "lat": 26.296772, "lon": 73.035143, "p": "v"}, {"n": "Baradari", "cat": "eat", "tier": "Fine", "a": "Old Blue City (RAAS Jodhpur)", "d": "Contemporary and Rajasthani plates in an 1850s twelve-pillared pavilion, the floodlit fort towering above the courtyard — Jodhpur's most beautiful dinner.", "lat": 26.296772, "lon": 73.035143, "p": "v"}, {"n": "Gypsy", "cat": "eat", "tier": "Smart", "a": "Civil Lines / Ratanada (Shastri Nagar)", "d": "The definitive unlimited Marwari thali — dal-baati-churma, gatte, ker sangri — carried to the table till you surrender.", "lat": 26.275545, "lon": 73.007839, "p": "v"}, {"n": "Janta Sweet Home", "cat": "eat", "tier": "Casual", "a": "Old Blue City (near the Clock Tower / Sardar Market)", "d": "Jodhpur's kachori legend — pyaaz and mawa kachoris, ghewar and mirchi vada, a bazaar rite of passage.", "lat": 26.288833, "lon": 73.025715, "p": "v"}, {"n": "Shri Mishrilal Hotel", "cat": "eat", "tier": "Casual", "a": "Old Blue City (Sardar Market, by the Clock Tower)", "d": "The makhaniya lassi that made Jodhpur famous — saffron, cardamom and a cap of clotted cream, poured here since the 1920s.", "lat": 26.294408, "lon": 73.024183, "p": "v"}, {"n": "Mehrangarh Fort", "cat": "do", "tier": "", "a": "Fort hill, above the old city", "d": "The great Rathore stronghold Rao Jodha raised in 1459, rising 400 feet of sheer sandstone above the Blue City, its walls up to 36 metres high. Come at opening with a Mehrangarh Museum Trust historian and let the crowds arrive after you; the fort is a full unhurried morning, not a photo stop.", "lat": 26.299541, "lon": 73.019513, "p": "v"}, {"n": "The Mehrangarh Museum galleries", "cat": "do", "tier": "", "a": "Inside Mehrangarh Fort", "d": "One of India's finest private royal collections, kept by the Mehrangarh Museum Trust: palanquins and elephant howdahs, jewelled arms, Marwar miniatures, and the mirror-and-gold state rooms of Phool Mahal and Moti Mahal. The audio-guide is genuinely good, but a curator-led walk is what turns objects into your family's history.", "lat": 26.299541, "lon": 73.019513, "p": "a"}, {"n": "The ramparts and cannon terraces", "cat": "do", "tier": "", "a": "Upper Mehrangarh Fort", "d": "The high battlements where the old cannon still point out over a sea of blue rooftops, the desert horizon on one side and Jaswant Thada's white marble on the other. This is the view that made the Blue City famous; catch it in the soft light just after opening or before closing.", "lat": 26.299541, "lon": 73.019513, "p": "a"}, {"n": "Flying Fox zip-line over Mehrangarh", "cat": "do", "tier": "", "a": "Mehrangarh Fort ramparts and Rao Jodha Park", "d": "India's first heritage zip-line, six lines that launch off the battlements and fly over Ranisar and Padamsar lakes and deep into the desert park below the walls. A properly thrilling ninety minutes with a serious safety brief; a rare shot of adrenaline the older children and grandchildren will not forget.", "lat": 26.298038, "lon": 73.017006, "p": "v"}, {"n": "Chamunda Mata Temple", "cat": "do", "tier": "", "a": "Southern edge of Mehrangarh Fort", "d": "The kuldevi shrine Rao Jodha carried from Mandore and installed at the fort in 1460, still the family deity of the Rathores and thronged at Dussehra. Its terrace is one of the best free viewpoints in Jodhpur, the Blue City falling away below and the fort walls rising gold behind you.", "lat": 26.354272, "lon": 73.03214, "p": "v"}, {"n": "Jaswant Thada", "cat": "do", "tier": "", "a": "Just east of Mehrangarh, above Devkund lake", "d": "The 1899 royal cenotaph of translucent Makrana marble, so finely cut the sheets glow amber in the sun; still the cremation ground of the Rathore rulers, set above a tiered garden and a small lake. Quieter than the fort and often golden at day's end, with resident musicians in the forecourt.", "lat": 26.304343, "lon": 73.025313, "p": "v"}, {"n": "Umaid Bhawan Palace Museum", "cat": "do", "tier": "", "a": "Umaid Bhawan, southeast Jodhpur", "d": "The public wing of one of the largest private residences on earth, the Maharaja's own Art-Deco palace, with clocks, arms, portraits and the family's story of the twentieth century. The lawns hold the royal vintage cars, Rolls-Royces and Cadillacs among them, a treat for anyone who loves great motoring.", "lat": 26.280945, "lon": 73.047015, "p": "v"}, {"n": "Stay at Taj Umaid Bhawan Palace", "cat": "do", "tier": "", "a": "Umaid Bhawan, southeast Jodhpur", "d": "Still part-home to the Jodhpur royal family, the Taj-run wing is regularly named among the world's finest hotels, all Art-Deco grandeur, private butlers and 26 acres of gardens. The definitive multi-generational Jodhpur address; even non-residents can arrange high tea beneath the great dome.", "lat": 26.280945, "lon": 73.047015, "p": "a"}, {"n": "Sardar Market", "cat": "do", "tier": "", "a": "Around the Clock Tower, old city", "d": "The great bazaar ringing the Clock Tower, alleys of spice, textiles, silver, lac bangles and antiques under the fort's gaze. Go early with a guide who can take you past the tourist stalls to the real merchants; the famed Mathania red-chilli mounds and mounds of saffron and dry fruit are a sensory event in themselves.", "lat": 26.29481, "lon": 73.023855, "p": "v"}, {"n": "Old spice and textile shops of Nai Sarak", "cat": "do", "tier": "", "a": "Nai Sarak, off Sardar Market", "d": "The lane where Jodhpur's families still buy their bandhej tie-dye, block-print and turban cloth, and where the old spice merchants blend and package to order. Ask a trusted shop to make up a personal masala box or a length of hand-dyed silk; a far better souvenir than anything airport-bought.", "lat": 26.29481, "lon": 73.023855, "p": "a"}, {"n": "Toorji Ka Jhalra stepwell", "cat": "do", "tier": "", "a": "Makrana Mohalla, old city", "d": "A beautifully restored 18th-century royal stepwell, its carved sandstone tiers plunging into cool green water, built by a queen of Maharaja Abhay Singh. Free and open all day; the surrounding lanes have become the city's most charming little quarter of design shops and cafés.", "lat": 26.297118, "lon": 73.02299, "p": "v"}, {"n": "The Stepwell Café and rooftop", "cat": "do", "tier": "", "a": "Beside Toorji Ka Jhalra", "d": "The rooftop café looking straight down onto the stepwell and up at the fort, a relaxed spot for a long lunch or a coffee between the fort and the bazaar. Wood-fired pizza and cold drinks in a courtyard-and-terrace setting; the prettiest easy pause in the old city.", "lat": 26.297118, "lon": 73.02299, "p": "a"}, {"n": "Rao Jodha Desert Rock Park", "cat": "do", "tier": "", "a": "Below the fort walls, around Devkund", "d": "Seventy-plus hectares of rocky desert ecology painstakingly restored beneath the fort, laced with walking trails past hidden lakes and 80-odd native plant species. Take a naturalist at opening for the birds and the cool of the volcanic-rock ravines; a serene counterpoint to the fort above.", "lat": 26.300764, "lon": 73.01579, "p": "v"}, {"n": "Mandore Gardens", "cat": "do", "tier": "", "a": "Mandore, 9 km north of the city", "d": "The old Marwar capital before Jodhpur, its temple-like red-sandstone royal cenotaphs rising out of green gardens, with the carved Hall of Heroes and shady walks. A leafy, atmospheric half-morning steeped in the dynasty's earliest history, with resident monkeys and far fewer visitors than the fort.", "lat": 26.350709, "lon": 73.042, "p": "v"}, {"n": "Kaylana Lake", "cat": "do", "tier": "", "a": "8 km west of the city, on the Jaisalmer road", "d": "A 19th-century royal-built lake ringed by low hills, best at sunset when the water turns to fire and, in winter, migratory birds gather. Boating and a quiet picnic; a soft, unhurried evening away from the old-city bustle.", "lat": 26.310483, "lon": 72.968687, "p": "v"}, {"n": "Machia Biological Park", "cat": "do", "tier": "", "a": "Near Kaylana Lake, west of the city", "d": "A well-run desert wildlife park beside Kaylana, jeep trails past Asiatic lions, leopards, blackbuck and gharial, with a good clifftop viewpoint over the lake. An easy, engaging couple of hours for families travelling with children.", "lat": 26.304411, "lon": 72.98002, "p": "v"}, {"n": "Makhaniya lassi and saffron at the Clock Tower", "cat": "do", "tier": "", "a": "Around Sardar Market", "d": "Jodhpur's famously thick, saffron-and-pistachio makhaniya lassi, served in clay cups at the old shops by the tower. A five-minute ritual that locals will tell you is non-negotiable; pair it with the market walk.", "lat": 26.29481, "lon": 73.023855, "p": "a"}, {"n": "High tea at Umaid Bhawan", "cat": "do", "tier": "", "a": "Umaid Bhawan, southeast Jodhpur", "d": "Afternoon tea beneath the palace's great Art-Deco dome or on the terraces over the gardens, open to non-residents by reservation. A slice of royal grandeur without an overnight stay; a memorable pause with children or elders who want the palace without the pace of sightseeing.", "lat": 26.283892, "lon": 73.010296, "p": "v"}, {"n": "Umaid Gardens and Sardar Government Museum", "cat": "do", "tier": "", "a": "High Court Road, new city", "d": "The city's leafy 82-acre public gardens below Umaid Bhawan, with a museum of Marwar sculpture, miniatures, arms and coins, and a small zoo. A gentle, shaded stroll and a cross-section of regional history; pleasant with grandparents and children in the cooler hours.", "lat": 26.215077, "lon": 73.047076, "p": "a"}, {"n": "Bishnoi village safari", "cat": "do", "tier": "", "a": "Villages 20-25 km south of Jodhpur", "d": "A jeep morning among the Bishnoi, the community who have protected the desert's blackbuck, chinkara and khejri trees for 500 years, and whose 363 martyrs died to save a grove. You meet potters, weavers and dhurrie-makers at work, and see herds of blackbuck grazing unafraid; the most moving cultural half-day near the city.", "lat": 26.295641, "lon": 73.023533, "p": "v"}, {"n": "Guda Bishnoi lake and blackbuck", "cat": "do", "tier": "", "a": "Guda Bishnoi, south of Jodhpur", "d": "A tranquil desert reservoir where blackbuck, chinkara and, in winter, demoiselle cranes and flamingos come to drink at dawn and dusk. A patient, beautiful wildlife hour, often paired with the Bishnoi safari, best with a good local naturalist.", "lat": 26.136336, "lon": 73.103843, "p": "v"}, {"n": "Trophy Bar", "cat": "party", "tier": "Landmark bars", "a": "Civil Lines / Ratanada (Umaid Bhawan Palace)", "d": "A cabinet of colonial curiosities and hunting trophies — rare whiskies, cigars and quiet royal elegance, the grandest nightcap in the city.", "lat": 26.262838, "lon": 73.052437, "p": "v"}, {"n": "Stepwell Café at RAAS", "cat": "party", "tier": "Rooftops", "a": "Old Blue City (RAAS Jodhpur)", "d": "Three tiers above the floodlit Toorji stepwell, Mehrangarh looming behind — an evening cocktail with the best view in the old city.", "lat": 26.283733, "lon": 73.037998, "p": "a"}]}
+{
+  "center": [
+    26.296772,
+    73.035143
+  ],
+  "venues": [
+    {
+      "n": "Umaid Bhawan Palace",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Civil Lines / Ratanada (Umaid Bhawan)",
+      "d": "One of the world's largest private residences, half still the Maharaja's home \u2014 the first Indian hotel ever judged the best on earth.",
+      "lat": 26.280945,
+      "lon": 73.047015,
+      "photos": []
+    },
+    {
+      "n": "RAAS Jodhpur",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Old Blue City (near the Clock Tower, at the fort's foot)",
+      "d": "A 250-year-old haveli reborn in red sandstone and glass \u2014 Mehrangarh filling every window, the most design-led room in the city.",
+      "lat": 26.297559,
+      "lon": 73.022765,
+      "photos": []
+    },
+    {
+      "n": "Ajit Bhawan",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Civil Lines / Ratanada",
+      "d": "India's very first heritage hotel \u2014 a 1920s royal residence, leafy and lived-in, where the palace idea began.",
+      "lat": 26.282962,
+      "lon": 73.03767,
+      "photos": []
+    },
+    {
+      "n": "WelcomHeritage Bal Samand Lake Palace",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Bal Samand / outskirts (~7 km north)",
+      "d": "A 17th-century red-stone summer palace on a 12th-century lake \u2014 60 acres of orchards and birdsong, the city left behind.",
+      "lat": 26.334494,
+      "lon": 73.02236,
+      "photos": []
+    },
+    {
+      "n": "Taj Hari Mahal",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Civil Lines / Ratanada",
+      "d": "A Taj palace-style hotel on six acres of gardens \u2014 Rajput-Mughal grandeur, big-hotel polish, and the group's assured service.",
+      "lat": 26.267447,
+      "lon": 73.019306,
+      "photos": []
+    },
+    {
+      "n": "Ranbanka Palace",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Civil Lines / Ratanada",
+      "d": "A 1920s Rajput palace between Mehrangarh and Umaid Bhawan \u2014 solid, characterful heritage without the icon's price.",
+      "lat": 26.284152,
+      "lon": 73.037383,
+      "photos": []
+    },
+    {
+      "n": "Risala",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Civil Lines / Ratanada (Umaid Bhawan Palace)",
+      "d": "Royal Marwari and Indian cooking from the Maharajas' own recipes, hung with martial portraits, the fort framed beyond the gardens \u2014 the grandest table in Jodhpur.",
+      "lat": 26.296772,
+      "lon": 73.035143,
+      "photos": []
+    },
+    {
+      "n": "Baradari",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Old Blue City (RAAS Jodhpur)",
+      "d": "Contemporary and Rajasthani plates in an 1850s twelve-pillared pavilion, the floodlit fort towering above the courtyard \u2014 Jodhpur's most beautiful dinner.",
+      "lat": 26.296772,
+      "lon": 73.035143,
+      "photos": []
+    },
+    {
+      "n": "Gypsy",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Civil Lines / Ratanada (Shastri Nagar)",
+      "d": "The definitive unlimited Marwari thali \u2014 dal-baati-churma, gatte, ker sangri \u2014 carried to the table till you surrender.",
+      "lat": 26.275545,
+      "lon": 73.007839,
+      "photos": []
+    },
+    {
+      "n": "Janta Sweet Home",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Old Blue City (near the Clock Tower / Sardar Market)",
+      "d": "Jodhpur's kachori legend \u2014 pyaaz and mawa kachoris, ghewar and mirchi vada, a bazaar rite of passage.",
+      "lat": 26.288833,
+      "lon": 73.025715,
+      "photos": []
+    },
+    {
+      "n": "Shri Mishrilal Hotel",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Old Blue City (Sardar Market, by the Clock Tower)",
+      "d": "The makhaniya lassi that made Jodhpur famous \u2014 saffron, cardamom and a cap of clotted cream, poured here since the 1920s.",
+      "lat": 26.294408,
+      "lon": 73.024183,
+      "photos": []
+    },
+    {
+      "n": "Mehrangarh Fort",
+      "cat": "do",
+      "tier": "",
+      "a": "Fort hill, above the old city",
+      "d": "The great Rathore stronghold Rao Jodha raised in 1459, rising 400 feet of sheer sandstone above the Blue City, its walls up to 36 metres high. Come at opening with a Mehrangarh Museum Trust historian and let the crowds arrive after you; the fort is a full unhurried morning, not a photo stop.",
+      "lat": 26.299541,
+      "lon": 73.019513,
+      "photos": []
+    },
+    {
+      "n": "The Mehrangarh Museum galleries",
+      "cat": "do",
+      "tier": "",
+      "a": "Inside Mehrangarh Fort",
+      "d": "One of India's finest private royal collections, kept by the Mehrangarh Museum Trust: palanquins and elephant howdahs, jewelled arms, Marwar miniatures, and the mirror-and-gold state rooms of Phool Mahal and Moti Mahal. The audio-guide is genuinely good, but a curator-led walk is what turns objects into your family's history.",
+      "lat": 26.299541,
+      "lon": 73.019513,
+      "photos": []
+    },
+    {
+      "n": "The ramparts and cannon terraces",
+      "cat": "do",
+      "tier": "",
+      "a": "Upper Mehrangarh Fort",
+      "d": "The high battlements where the old cannon still point out over a sea of blue rooftops, the desert horizon on one side and Jaswant Thada's white marble on the other. This is the view that made the Blue City famous; catch it in the soft light just after opening or before closing.",
+      "lat": 26.299541,
+      "lon": 73.019513,
+      "photos": []
+    },
+    {
+      "n": "Flying Fox zip-line over Mehrangarh",
+      "cat": "do",
+      "tier": "",
+      "a": "Mehrangarh Fort ramparts and Rao Jodha Park",
+      "d": "India's first heritage zip-line, six lines that launch off the battlements and fly over Ranisar and Padamsar lakes and deep into the desert park below the walls. A properly thrilling ninety minutes with a serious safety brief; a rare shot of adrenaline the older children and grandchildren will not forget.",
+      "lat": 26.298038,
+      "lon": 73.017006,
+      "photos": []
+    },
+    {
+      "n": "Chamunda Mata Temple",
+      "cat": "do",
+      "tier": "",
+      "a": "Southern edge of Mehrangarh Fort",
+      "d": "The kuldevi shrine Rao Jodha carried from Mandore and installed at the fort in 1460, still the family deity of the Rathores and thronged at Dussehra. Its terrace is one of the best free viewpoints in Jodhpur, the Blue City falling away below and the fort walls rising gold behind you.",
+      "lat": 26.354272,
+      "lon": 73.03214,
+      "photos": []
+    },
+    {
+      "n": "Jaswant Thada",
+      "cat": "do",
+      "tier": "",
+      "a": "Just east of Mehrangarh, above Devkund lake",
+      "d": "The 1899 royal cenotaph of translucent Makrana marble, so finely cut the sheets glow amber in the sun; still the cremation ground of the Rathore rulers, set above a tiered garden and a small lake. Quieter than the fort and often golden at day's end, with resident musicians in the forecourt.",
+      "lat": 26.304343,
+      "lon": 73.025313,
+      "photos": []
+    },
+    {
+      "n": "Umaid Bhawan Palace Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Umaid Bhawan, southeast Jodhpur",
+      "d": "The public wing of one of the largest private residences on earth, the Maharaja's own Art-Deco palace, with clocks, arms, portraits and the family's story of the twentieth century. The lawns hold the royal vintage cars, Rolls-Royces and Cadillacs among them, a treat for anyone who loves great motoring.",
+      "lat": 26.280945,
+      "lon": 73.047015,
+      "photos": []
+    },
+    {
+      "n": "Stay at Taj Umaid Bhawan Palace",
+      "cat": "do",
+      "tier": "",
+      "a": "Umaid Bhawan, southeast Jodhpur",
+      "d": "Still part-home to the Jodhpur royal family, the Taj-run wing is regularly named among the world's finest hotels, all Art-Deco grandeur, private butlers and 26 acres of gardens. The definitive multi-generational Jodhpur address; even non-residents can arrange high tea beneath the great dome.",
+      "lat": 26.280945,
+      "lon": 73.047015,
+      "photos": []
+    },
+    {
+      "n": "Sardar Market",
+      "cat": "do",
+      "tier": "",
+      "a": "Around the Clock Tower, old city",
+      "d": "The great bazaar ringing the Clock Tower, alleys of spice, textiles, silver, lac bangles and antiques under the fort's gaze. Go early with a guide who can take you past the tourist stalls to the real merchants; the famed Mathania red-chilli mounds and mounds of saffron and dry fruit are a sensory event in themselves.",
+      "lat": 26.29481,
+      "lon": 73.023855,
+      "photos": []
+    },
+    {
+      "n": "Old spice and textile shops of Nai Sarak",
+      "cat": "do",
+      "tier": "",
+      "a": "Nai Sarak, off Sardar Market",
+      "d": "The lane where Jodhpur's families still buy their bandhej tie-dye, block-print and turban cloth, and where the old spice merchants blend and package to order. Ask a trusted shop to make up a personal masala box or a length of hand-dyed silk; a far better souvenir than anything airport-bought.",
+      "lat": 26.29481,
+      "lon": 73.023855,
+      "photos": []
+    },
+    {
+      "n": "Toorji Ka Jhalra stepwell",
+      "cat": "do",
+      "tier": "",
+      "a": "Makrana Mohalla, old city",
+      "d": "A beautifully restored 18th-century royal stepwell, its carved sandstone tiers plunging into cool green water, built by a queen of Maharaja Abhay Singh. Free and open all day; the surrounding lanes have become the city's most charming little quarter of design shops and caf\u00e9s.",
+      "lat": 26.297118,
+      "lon": 73.02299,
+      "photos": []
+    },
+    {
+      "n": "The Stepwell Caf\u00e9 and rooftop",
+      "cat": "do",
+      "tier": "",
+      "a": "Beside Toorji Ka Jhalra",
+      "d": "The rooftop caf\u00e9 looking straight down onto the stepwell and up at the fort, a relaxed spot for a long lunch or a coffee between the fort and the bazaar. Wood-fired pizza and cold drinks in a courtyard-and-terrace setting; the prettiest easy pause in the old city.",
+      "lat": 26.297118,
+      "lon": 73.02299,
+      "photos": []
+    },
+    {
+      "n": "Rao Jodha Desert Rock Park",
+      "cat": "do",
+      "tier": "",
+      "a": "Below the fort walls, around Devkund",
+      "d": "Seventy-plus hectares of rocky desert ecology painstakingly restored beneath the fort, laced with walking trails past hidden lakes and 80-odd native plant species. Take a naturalist at opening for the birds and the cool of the volcanic-rock ravines; a serene counterpoint to the fort above.",
+      "lat": 26.300764,
+      "lon": 73.01579,
+      "photos": []
+    },
+    {
+      "n": "Mandore Gardens",
+      "cat": "do",
+      "tier": "",
+      "a": "Mandore, 9 km north of the city",
+      "d": "The old Marwar capital before Jodhpur, its temple-like red-sandstone royal cenotaphs rising out of green gardens, with the carved Hall of Heroes and shady walks. A leafy, atmospheric half-morning steeped in the dynasty's earliest history, with resident monkeys and far fewer visitors than the fort.",
+      "lat": 26.350709,
+      "lon": 73.042,
+      "photos": []
+    },
+    {
+      "n": "Kaylana Lake",
+      "cat": "do",
+      "tier": "",
+      "a": "8 km west of the city, on the Jaisalmer road",
+      "d": "A 19th-century royal-built lake ringed by low hills, best at sunset when the water turns to fire and, in winter, migratory birds gather. Boating and a quiet picnic; a soft, unhurried evening away from the old-city bustle.",
+      "lat": 26.310483,
+      "lon": 72.968687,
+      "photos": []
+    },
+    {
+      "n": "Machia Biological Park",
+      "cat": "do",
+      "tier": "",
+      "a": "Near Kaylana Lake, west of the city",
+      "d": "A well-run desert wildlife park beside Kaylana, jeep trails past Asiatic lions, leopards, blackbuck and gharial, with a good clifftop viewpoint over the lake. An easy, engaging couple of hours for families travelling with children.",
+      "lat": 26.304411,
+      "lon": 72.98002,
+      "photos": []
+    },
+    {
+      "n": "Makhaniya lassi and saffron at the Clock Tower",
+      "cat": "do",
+      "tier": "",
+      "a": "Around Sardar Market",
+      "d": "Jodhpur's famously thick, saffron-and-pistachio makhaniya lassi, served in clay cups at the old shops by the tower. A five-minute ritual that locals will tell you is non-negotiable; pair it with the market walk.",
+      "lat": 26.29481,
+      "lon": 73.023855,
+      "photos": []
+    },
+    {
+      "n": "High tea at Umaid Bhawan",
+      "cat": "do",
+      "tier": "",
+      "a": "Umaid Bhawan, southeast Jodhpur",
+      "d": "Afternoon tea beneath the palace's great Art-Deco dome or on the terraces over the gardens, open to non-residents by reservation. A slice of royal grandeur without an overnight stay; a memorable pause with children or elders who want the palace without the pace of sightseeing.",
+      "lat": 26.283892,
+      "lon": 73.010296,
+      "photos": []
+    },
+    {
+      "n": "Umaid Gardens and Sardar Government Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "High Court Road, new city",
+      "d": "The city's leafy 82-acre public gardens below Umaid Bhawan, with a museum of Marwar sculpture, miniatures, arms and coins, and a small zoo. A gentle, shaded stroll and a cross-section of regional history; pleasant with grandparents and children in the cooler hours.",
+      "lat": 26.215077,
+      "lon": 73.047076,
+      "photos": []
+    },
+    {
+      "n": "Bishnoi village safari",
+      "cat": "do",
+      "tier": "",
+      "a": "Villages 20-25 km south of Jodhpur",
+      "d": "A jeep morning among the Bishnoi, the community who have protected the desert's blackbuck, chinkara and khejri trees for 500 years, and whose 363 martyrs died to save a grove. You meet potters, weavers and dhurrie-makers at work, and see herds of blackbuck grazing unafraid; the most moving cultural half-day near the city.",
+      "lat": 26.295641,
+      "lon": 73.023533,
+      "photos": []
+    },
+    {
+      "n": "Guda Bishnoi lake and blackbuck",
+      "cat": "do",
+      "tier": "",
+      "a": "Guda Bishnoi, south of Jodhpur",
+      "d": "A tranquil desert reservoir where blackbuck, chinkara and, in winter, demoiselle cranes and flamingos come to drink at dawn and dusk. A patient, beautiful wildlife hour, often paired with the Bishnoi safari, best with a good local naturalist.",
+      "lat": 26.136336,
+      "lon": 73.103843,
+      "photos": []
+    },
+    {
+      "n": "Trophy Bar",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "Civil Lines / Ratanada (Umaid Bhawan Palace)",
+      "d": "A cabinet of colonial curiosities and hunting trophies \u2014 rare whiskies, cigars and quiet royal elegance, the grandest nightcap in the city.",
+      "lat": 26.262838,
+      "lon": 73.052437,
+      "photos": []
+    },
+    {
+      "n": "Stepwell Caf\u00e9 at RAAS",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "Old Blue City (RAAS Jodhpur)",
+      "d": "Three tiers above the floodlit Toorji stepwell, Mehrangarh looming behind \u2014 an evening cocktail with the best view in the old city.",
+      "lat": 26.283733,
+      "lon": 73.037998,
+      "photos": []
+    }
+  ]
+}

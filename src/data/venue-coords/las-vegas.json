@@ -1,1 +1,778 @@
-{"center": [36.175827, -115.137142], "venues": [{"n": "Wynn Las Vegas", "cat": "stay", "tier": "Ultra", "a": "The Strip (north)", "d": "Steve Wynn's copper-glass masterpiece — the largest Forbes Five-Star resort in the world, and it feels it.", "lat": 36.126622, "lon": -115.165404, "p": "v"}, {"n": "Encore at Wynn Las Vegas", "cat": "stay", "tier": "Ultra", "a": "The Strip (north)", "d": "Wynn's warmer, red-and-gold sister tower — all-suite by design, and Forbes Five-Star in its own right.", "lat": 36.128934, "lon": -115.165362, "p": "v"}, {"n": "ARIA Resort & Casino", "cat": "stay", "tier": "Grand", "a": "The Strip (CityCenter)", "d": "The Strip's most modern grand hotel — a AAA Five Diamond resort of glass, art and quiet technology.", "lat": 36.107029, "lon": -115.177998, "p": "v"}, {"n": "Bellagio", "cat": "stay", "tier": "Grand", "a": "The Strip (centre)", "d": "The lake, the fountains, the Chihuly ceiling — the hotel that taught Las Vegas to do elegance, still AAA Five Diamond.", "lat": 36.113115, "lon": -115.177007, "p": "v"}, {"n": "The Venetian Resort Las Vegas", "cat": "stay", "tier": "Grand", "a": "The Strip (centre)", "d": "Grand Canal, frescoes and gondolas — an all-suite palazzo, and one of the largest luxury hotels in the world.", "lat": 36.121707, "lon": -115.169335, "p": "v"}, {"n": "The Palazzo at The Venetian Resort", "cat": "stay", "tier": "Grand", "a": "The Strip (centre)", "d": "The Venetian's quieter, all-suite sibling — a calmer, greener wing of the same palazzo world.", "lat": 36.121208, "lon": -115.162067, "p": "v"}, {"n": "Waldorf Astoria Las Vegas", "cat": "stay", "tier": "Luxury", "a": "The Strip (CityCenter)", "d": "The Strip's serene non-gaming, non-smoking tower — a hushed Waldorf Astoria sky-lobby above the noise.", "lat": 36.106207, "lon": -115.174356, "p": "v"}, {"n": "Four Seasons Hotel Las Vegas", "cat": "stay", "tier": "Luxury", "a": "The Strip (south)", "d": "The original non-gaming Strip oasis — Four Seasons calm on the top floors of Mandalay Bay, with its own private entrance.", "lat": 36.090801, "lon": -115.174749, "p": "v"}, {"n": "Fontainebleau Las Vegas", "cat": "stay", "tier": "Grand", "a": "The Strip (north)", "d": "The long-awaited blue tower at the north end — Miami's Fontainebleau reborn as the Strip's newest grand resort.", "lat": 36.13759, "lon": -115.161067, "p": "v"}, {"n": "Crockfords Las Vegas, LXR Hotels & Resorts", "cat": "stay", "tier": "Luxury", "a": "The Strip (Resorts World)", "d": "Hilton's ultra-luxury LXR flag inside Resorts World — the most rarefied of its three towers, with butler service.", "lat": 36.13456, "lon": -115.168351, "p": "a"}, {"n": "Joël Robuchon", "cat": "eat", "tier": "Destination", "a": "MGM Grand, The Strip", "d": "The late 'Chef of the Century's' jewel-box mansion — the most decorated fine-dining room in the city, twenty years on.", "lat": 36.10264, "lon": -115.169589, "p": "v"}, {"n": "Le Cirque", "cat": "eat", "tier": "Destination", "a": "Bellagio, The Strip", "d": "The Maccioni family's silk-tented circus over the Bellagio lake — old-world French service and a view of the fountains.", "lat": 36.103146, "lon": -115.170213, "p": "v"}, {"n": "Wing Lei", "cat": "eat", "tier": "Destination", "a": "Wynn Las Vegas, The Strip", "d": "The only Forbes Five-Star Chinese restaurant in North America — imperial Cantonese, and a tableside Peking duck.", "lat": 36.130471, "lon": -115.106285, "p": "v"}, {"n": "é by José Andrés", "cat": "eat", "tier": "Destination", "a": "The Cosmopolitan, The Strip", "d": "An eight-seat counter hidden inside Jaleo — Spanish avant-garde theatre from the mind that helped shape elBulli.", "lat": 36.142973, "lon": -115.155245, "p": "v"}, {"n": "Bazaar Meat by José Andrés", "cat": "eat", "tier": "Destination", "a": "The Palazzo at The Venetian, The Strip", "d": "José Andrés's carnivore's theatre, reborn in 2025 in a vast new Palazzo room — whole roasts, caviar cones and fire.", "lat": 36.142973, "lon": -115.155245, "p": "v"}, {"n": "Carbone", "cat": "eat", "tier": "Fine", "a": "ARIA, The Strip", "d": "Major Food Group's Italian-American time-machine — captains in dinner jackets, spicy rigatoni vodka and pure swagger.", "lat": 36.107143, "lon": -115.177093, "p": "v"}, {"n": "Michael Mina", "cat": "eat", "tier": "Fine", "a": "Bellagio, The Strip", "d": "The James Beard-winning chef's flagship — seafood-led modern American in a soaring Bellagio room.", "lat": 36.112035, "lon": -115.176866, "p": "v"}, {"n": "Mizumi", "cat": "eat", "tier": "Fine", "a": "Wynn Las Vegas, The Strip", "d": "Wynn's Japanese room built around a private garden and waterfall — teppanyaki, sushi and robata in serene surrounds.", "lat": 36.175827, "lon": -115.137142, "p": "v"}, {"n": "SW Steakhouse", "cat": "eat", "tier": "Fine", "a": "Wynn Las Vegas, The Strip", "d": "Wynn's signature steakhouse on the Lake of Dreams — prime beef and a nightly light-and-water show at the window.", "lat": 36.119422, "lon": -115.174254, "p": "a"}, {"n": "Sinatra", "cat": "eat", "tier": "Fine", "a": "Encore at Wynn, The Strip", "d": "A love letter to Ol' Blue Eyes — regional Italian classics amid the singer's Oscar and memorabilia.", "lat": 36.240216, "lon": -115.228696, "p": "v"}, {"n": "L'Atelier de Joël Robuchon", "cat": "eat", "tier": "Fine", "a": "MGM Grand, The Strip", "d": "Robuchon's red-and-black counter beside his mansion — the same legendary kitchen, at the pass, à la carte.", "lat": 36.10264, "lon": -115.169589, "p": "v"}, {"n": "Kusa Nori", "cat": "eat", "tier": "Fine", "a": "The Strip", "d": "A refined, contemporary Japanese room that quietly earned a Forbes Four-Star — sushi and kaiseki-style precision.", "lat": 36.119422, "lon": -115.174254, "p": "a"}, {"n": "Delilah", "cat": "eat", "tier": "Fine", "a": "Wynn Las Vegas, The Strip", "d": "A modern-day supper club inside Wynn's Tower Suites — 1940s glamour, live music and tableside luxury classics.", "lat": 36.175827, "lon": -115.137142, "p": "v"}, {"n": "Jean Georges Steakhouse", "cat": "eat", "tier": "Fine", "a": "ARIA, The Strip", "d": "Jean-Georges Vongerichten's refined steakhouse — his signatures and a prime-beef programme in a sleek ARIA room.", "lat": 36.106935, "lon": -115.176988, "p": "v"}, {"n": "Bardot Brasserie", "cat": "eat", "tier": "Fine", "a": "ARIA, The Strip", "d": "Michael Mina's Belle Époque Parisian brasserie — onion soup, escargot and one of the best weekend brunches on the Strip.", "lat": 36.106722, "lon": -115.176993, "p": "v"}, {"n": "Costa di Mare", "cat": "eat", "tier": "Fine", "a": "Wynn Las Vegas, The Strip", "d": "Wynn's Italian coastal room — whole Mediterranean fish flown in daily, beside a private lagoon terrace.", "lat": 36.119422, "lon": -115.174254, "p": "a"}, {"n": "Bellagio Fountains", "cat": "do", "tier": "", "a": "The Strip", "d": "The free choreographed water ballet on Lake Bellagio — jets soaring 460 feet, set to opera, Sinatra or Bollywood-adjacent classics — runs every 15-30 minutes into the night. Book a fountain-view suite or a Lakeside table so the family watches from a private balcony rather than the pavement crush.", "lat": 36.119422, "lon": -115.174254, "p": "a"}, {"n": "Bellagio Conservatory & Botanical Gardens", "cat": "do", "tier": "", "a": "The Strip", "d": "A 14,000-square-foot glasshouse re-planted five times a year with towering seasonal displays — a hushed, fragrant, entirely free interlude off the casino floor. Genuinely all-ages and calm, a rare thing on the Strip, and a favourite photo stop for multi-generational groups.", "lat": 36.119422, "lon": -115.174254, "p": "a"}, {"n": "Sphere — 'The Sphere Experience: Postcard from Earth'", "cat": "do", "tier": "", "a": "The Strip", "d": "Darren Aronofsky's 50-minute film plays across the world's largest wraparound 16K LED screen, with haptic seats, wind and scent — a hyper-real journey around the planet that leaves first-timers speechless. Splurge on the premium seating and let the concierge time your visit to also catch the Exosphere lit up outside.", "lat": 36.119422, "lon": -115.174254, "p": "a"}, {"n": "The Sphere Exosphere", "cat": "do", "tier": "", "a": "The Strip", "d": "The 580,000-square-foot exterior — 1.2 million LED pucks turning the whole 366-foot orb into a giant eyeball, emoji, or spinning globe — is best seen for free from a Venetian balcony or a rooftop cocktail. A five-minute spectacle that has become the city's new skyline signature.", "lat": 36.119422, "lon": -115.174254, "p": "a"}, {"n": "The Venetian & Grand Canal Shoppes — Gondola Rides", "cat": "do", "tier": "", "a": "The Strip", "d": "A singing gondolier poles you along an indoor canal beneath a painted sky, past St Mark's Square recreated in marble — kitsch executed at grand scale, and irresistible with children. Private gondolas can be reserved for couples or a family, away from the shared queue.", "lat": 36.119422, "lon": -115.174254, "p": "a"}, {"n": "'O' by Cirque du Soleil", "cat": "do", "tier": "", "a": "The Strip", "d": "Cirque's aquatic masterwork at the Bellagio, staged in, on and above a 1.5-million-gallon pool where synchronised swimmers, divers and aerialists dissolve the line between stage and water. The Vegas show to see if you see only one — book premium centre seats well ahead.", "lat": 36.103146, "lon": -115.170213, "p": "v"}, {"n": "'Michael Jackson ONE' by Cirque du Soleil", "cat": "do", "tier": "", "a": "The Strip", "d": "A high-energy acrobatic tribute at Mandalay Bay driven by MJ's biggest hits in state-of-the-art surround sound — the most family-friendly and instantly recognisable of the Cirque residencies. A crowd-pleaser across generations and languages.", "lat": 36.119422, "lon": -115.174254, "p": "a"}, {"n": "'KA' by Cirque du Soleil", "cat": "do", "tier": "", "a": "The Strip", "d": "A gravity-defying martial-arts epic at the MGM Grand built around a colossal rotating stage that flips to vertical mid-battle — theatrical engineering as spectacle. Grand, cinematic and easy to follow for non-English speakers.", "lat": 36.103146, "lon": -115.170213, "p": "v"}, {"n": "'Mystère' by Cirque du Soleil", "cat": "do", "tier": "", "a": "The Strip", "d": "The original Vegas Cirque show at Treasure Island, running since 1993 — pure acrobatics, Taiko drums and surreal whimsy with a cast of 67, and no adult themes, so ideal for a family matinee. The most timeless entry point to the Cirque canon.", "lat": 36.119422, "lon": -115.174254, "p": "a"}, {"n": "'Mad Apple' by Cirque du Soleil", "cat": "do", "tier": "", "a": "The Strip", "d": "A New-York-themed cocktail of acrobatics, comedy, magic and a working stage bar at New York-New York — looser and more adult than the classics. Good for a night out with grown children rather than the whole family.", "lat": 36.119422, "lon": -115.174254, "p": "a"}, {"n": "The Forum Shops at Caesars Palace", "cat": "do", "tier": "", "a": "The Strip", "d": "The original faux-Roman luxury mall — a painted sky that shifts dawn-to-dusk, animatronic fountains, and a flagship roll-call from Louis Vuitton and Gucci to Versace under one vaulted roof. The concierge can arrange after-hours private shopping and personal styling for high-spend guests.", "lat": 36.118919, "lon": -115.176461, "p": "v"}, {"n": "The Shops at Crystals", "cat": "do", "tier": "", "a": "The Strip", "d": "The Strip's most rarefied retail — a Daniel Libeskind glass-and-steel canyon housing the largest concentration of ultra-luxury flagships in the US, from Louis Vuitton's island maison to Hermes, Bottega and Fendi. Discreet, uncrowded and built for serious shopping.", "lat": 36.107741, "lon": -115.174296, "p": "v"}, {"n": "Wynn & Encore — Gardens, Atrium & Le Reve grounds", "cat": "do", "tier": "", "a": "The Strip", "d": "Steve Wynn's twin resorts trade neon for floral extravagance — carousels of parasols, a mountain and lake hidden behind the casino, and the Strip's most polished spa and boutique corridor. The quiet-luxury alternative for guests who want opulence without the theme-park energy.", "lat": 36.119422, "lon": -115.174254, "p": "a"}, {"n": "Bellagio Gallery of Fine Art", "cat": "do", "tier": "", "a": "The Strip", "d": "A serious rotating exhibition space inside the Bellagio — recent shows have partnered with the Brooklyn Museum and major collections, a genuine cultural pause amid the slots. Small, curated and easily paired with the Conservatory next door.", "lat": 36.119422, "lon": -115.174254, "p": "a"}, {"n": "High Roller Observation Wheel at The LINQ", "cat": "do", "tier": "", "a": "The Strip", "d": "At 550 feet the tallest observation wheel in North America, its 28 climate-controlled cabins making a 30-minute rotation over the whole Strip. Charter a private cabin with an in-cabin bar for sunset — a serene, safe, all-ages high above the chaos.", "lat": 36.119422, "lon": -115.174254, "p": "a"}, {"n": "The STRAT SkyPod & Big Shot", "cat": "do", "tier": "", "a": "The Strip", "d": "The tallest freestanding observation tower in the US at 1,149 feet, with indoor and open-air decks — and, for the brave, the Big Shot ride that flings you to 1,081 feet with the city dangling beneath your feet. Ride-averse elders can stay on the deck while teens take the thrill rides.", "lat": 36.119422, "lon": -115.174254, "p": "a"}, {"n": "AREA15 — Meow Wolf's Omega Mart", "cat": "do", "tier": "", "a": "Off-Strip (West)", "d": "A surreal, choose-your-own-adventure art experience disguised as a supermarket, where the freezer aisle is a secret portal into psychedelic worlds — 90 minutes to three hours of imaginative, all-ages exploration. The whole AREA15 district around it is Vegas's most creative corner, minutes from the Strip with free parking.", "lat": 36.132346, "lon": -115.181918, "p": "v"}, {"n": "Fremont Street Experience", "cat": "do", "tier": "", "a": "Downtown/Fremont", "d": "Old Vegas under a five-block LED canopy — Viva Vision light shows overhead, zip-liners flying past, and vintage neon that predates the mega-resorts. Grittier and more authentic than the Strip; go with a guide for the story behind the signs.", "lat": 36.170478, "lon": -115.143529, "p": "v"}, {"n": "The Neon Museum & Neon Boneyard", "cat": "do", "tier": "", "a": "Downtown/Fremont", "d": "An outdoor graveyard of more than 200 salvaged casino signs — the Stardust, the Moulin Rouge, the old Sahara — best seen on a guided night tour when select signs are re-lit. A photographer's dream and the truest window into the city's design history.", "lat": 36.176513, "lon": -115.135277, "p": "v"}, {"n": "The Mob Museum", "cat": "do", "tier": "", "a": "Downtown/Fremont", "d": "The National Museum of Organized Crime and Law Enforcement, set in the 1933 former federal courthouse where real Kefauver mob hearings were held — a genuinely gripping, artifact-rich account of how the mafia built and lost Las Vegas. A speakeasy and distillery hide in the basement.", "lat": 36.1728, "lon": -115.141391, "p": "v"}, {"n": "The Grand Canyon — West Rim & Skywalk", "cat": "do", "tier": "", "a": "day-trip", "d": "The closest rim to Vegas at roughly 2.5 hours, on Hualapai tribal land, where the horseshoe-shaped Skywalk juts 70 feet out over a 4,000-foot drop to the Colorado. The classic Vegas day-trip — best done by private helicopter or SUV with a guide, and note phones must be locked away on the glass bridge itself.", "lat": 36.233197, "lon": -115.28462, "p": "a"}, {"n": "The Grand Canyon — South Rim (National Park)", "cat": "do", "tier": "", "a": "day-trip", "d": "The postcard canyon — endless layered vistas inside Grand Canyon National Park, about 4.5 hours' drive or a short scenic flight from Vegas, deserving of a full day or an overnight at El Tovar. Fly in by fixed-wing or helicopter to make it comfortable for elders and children.", "lat": 36.233197, "lon": -115.28462, "p": "a"}, {"n": "Grand Canyon Helicopter Tour (with canyon-floor landing)", "cat": "do", "tier": "", "a": "day-trip", "d": "The definitive splurge — lift off from Vegas, cross Lake Mead and the Hoover Dam, then descend 4,000 feet to land on the canyon floor for a Champagne picnic by the Colorado. Private charters can be arranged with vegetarian catering and door-to-door hotel pickup.", "lat": 36.233197, "lon": -115.28462, "p": "a"}, {"n": "Hoover Dam", "cat": "do", "tier": "", "a": "day-trip", "d": "A 726-foot Art Deco engineering marvel just 40 minutes southeast of the Strip, spanning the Colorado at the Nevada-Arizona line, with a dam-interior tour and the sweeping Mike O'Callaghan-Pat Tillman Memorial Bridge above. An easy half-day, often folded into a Grand Canyon flight.", "lat": 36.160374, "lon": -115.146595, "p": "v"}, {"n": "Red Rock Canyon National Conservation Area", "cat": "do", "tier": "", "a": "day-trip", "d": "A 13-mile scenic loop through fiery sandstone escarpments just 20 minutes west of the Strip — the quickest escape into raw desert, good for a dawn drive, easy walks or serious rock-climbing. Close enough for a morning out before an afternoon by the pool.", "lat": 36.233197, "lon": -115.28462, "p": "a"}, {"n": "Valley of Fire State Park", "cat": "do", "tier": "", "a": "day-trip", "d": "Nevada's oldest state park, under an hour northeast — flame-red Aztec sandstone, 3,000-year-old petroglyphs, and the Fire Wave's candy-striped rock that photographs like nowhere on Earth. Uncrowded and cinematic; pair it with the drive up to Zion.", "lat": 36.221956, "lon": -115.290211, "p": "v"}, {"n": "Death Valley National Park", "cat": "do", "tier": "", "a": "day-trip", "d": "The lowest, hottest, driest place in North America — Badwater Basin's salt flats, Zabriskie Point's sculpted badlands and Mesquite dunes — about two hours west, a genuinely otherworldly full-day expedition. Go with a guide and travel in cooler months; summer heat is extreme.", "lat": 36.233197, "lon": -115.28462, "p": "a"}, {"n": "Zion National Park", "cat": "do", "tier": "", "a": "day-trip", "d": "Utah's soaring red-and-cream canyon of Navajo sandstone, about 2.5 hours from Vegas — a shuttle up the Virgin River gorge past cathedral cliffs, and the famous Narrows and Angels Landing for the fit. Doable as a very long day, but a night in Springdale rewards a UHNI itinerary.", "lat": 36.233197, "lon": -115.28462, "p": "a"}, {"n": "Bryce Canyon National Park", "cat": "do", "tier": "", "a": "day-trip", "d": "An amphitheatre of thousands of orange hoodoo spires glowing at sunrise — about 4 hours from Vegas, usually combined with Zion into an overnight loop. High-altitude, cool and utterly unlike the desert below; a stargazing dark-sky reserve after dusk.", "lat": 36.233197, "lon": -115.28462, "p": "a"}, {"n": "Antelope Canyon & Horseshoe Bend", "cat": "do", "tier": "", "a": "day-trip", "d": "The world's most photographed slot canyon — light beams slicing down between wave-carved Navajo sandstone walls near Page, Arizona, paired with the emerald Colorado horseshoe of the bend. A 4.5-hour drive each way, so best flown or built into a multi-day loop; access is guided-only on Navajo land.", "lat": 36.233197, "lon": -115.28462, "p": "a"}, {"n": "Lake Powell", "cat": "do", "tier": "", "a": "day-trip", "d": "A vast turquoise reservoir threading through 96 slot-canyon fingers of red rock on the Utah-Arizona line, near Page — private houseboats and speedboats reach Rainbow Bridge and hidden coves. Pairs naturally with Antelope Canyon; a standout for families chartering their own vessel.", "lat": 36.101844, "lon": -114.9406, "p": "v"}, {"n": "Sunset Strip Helicopter Flight", "cat": "do", "tier": "", "a": "The Strip", "d": "A 12-15 minute night flight low over the neon canyon — Bellagio's fountains, the Sphere and the Stratosphere lit beneath you — the single most romantic thing to do in the city. Private charters with Champagne and hotel transfers make it effortless.", "lat": 36.119422, "lon": -115.174254, "p": "a"}, {"n": "Restaurant Guy Savoy at Caesars Palace", "cat": "do", "tier": "", "a": "The Strip", "d": "The Parisian three-Michelin-star maestro's only US outpost — artichoke-and-black-truffle soup, a Champagne-and-caviar room, and Strip-view windows above the fountains. Vegas's most serious fine-dining temple; the kitchen accommodates vegetarian tasting menus on request.", "lat": 36.119422, "lon": -115.174254, "p": "a"}, {"n": "é by José Andrés", "cat": "do", "tier": "", "a": "The Strip", "d": "A hidden nine-seat counter behind the Bazaar at the Cosmopolitan — an avant-garde tasting-menu experience of spherified olives and edible illusions, among the hardest reservations in America. An intimate, theatrical splurge; flag dietary needs when the rare seat opens.", "lat": 36.142973, "lon": -115.155245, "p": "v"}, {"n": "Joel Robuchon at MGM Grand", "cat": "do", "tier": "", "a": "The Strip", "d": "The late 'Chef of the Century's' opulent mansion-style dining room — a hushed jewel box of a menu that has long defined the top of the Vegas table. Ceremonial French service and a legendary bread cart; vegetarian menus available with notice.", "lat": 36.119422, "lon": -115.174254, "p": "a"}, {"n": "Bavette's / Carbone / celebrity-chef steakhouse scene", "cat": "do", "tier": "", "a": "The Strip", "d": "Vegas is the world's densest cluster of celebrity-chef steakhouses and dining rooms — Carbone's red-sauce theatre, Bavette's supper-club glamour, Gordon Ramsay's and Nobu's flagships all within a few blocks. The concierge can secure the impossible tables and a private room for a family celebration.", "lat": 36.119422, "lon": -115.174254, "p": "a"}, {"n": "Rutba Indian Kitchen", "cat": "do", "tier": "", "a": "The Strip", "d": "A polished Indian dining room right on the Strip built for exactly this traveller — clearly marked vegetarian, vegan and Jain options in a menu that ranges North to South. A reassuring anchor for guests who want familiar, well-executed Indian food between the spectacles.", "lat": 36.119422, "lon": -115.174254, "p": "a"}, {"n": "Marquee / XS / Encore Beach Club — Dayclub & Pool Scene", "cat": "do", "tier": "", "a": "The Strip", "d": "Vegas invented the dayclub — daybed pools with world-headline DJs, cabanas that become open-air suites, and a see-and-be-seen energy unmatched anywhere. For UHNI guests, a private cabana or bungalow with bottle service and a host turns the crush into a curated day.", "lat": 36.119422, "lon": -115.174254, "p": "a"}, {"n": "The Chandelier Bar at The Cosmopolitan", "cat": "do", "tier": "", "a": "The Strip", "d": "A three-storey bar suspended inside a two-million-crystal chandelier — the Strip's most photogenic cocktail perch, with a secret 'PsychoCandy' menu on the upper level. A stylish, low-key nightcap that doesn't require a club reservation.", "lat": 36.119422, "lon": -115.174254, "p": "a"}, {"n": "Fountains-view fine dining — Le Cirque & Prime at Bellagio", "cat": "do", "tier": "", "a": "The Strip", "d": "Lakeside tables timed to the fountains erupting outside the window — Le Cirque's jewel-box French room and Prime's steakhouse both frame the water ballet as dinner theatre. Ask the concierge to reserve the front tables for the show and to note any Jain or vegetarian needs.", "lat": 36.119422, "lon": -115.174254, "p": "a"}, {"n": "Caesars Palace — Roman grandeur & the Garden of the Gods pools", "cat": "do", "tier": "", "a": "The Strip", "d": "The resort that set the template — marble colonnades, replica statuary, and a seven-pool Roman bathing complex that is a destination in itself. Beyond the Forum Shops, the property rewards a slow wander; villa suites and Qua Baths anchor a discreet high-roller stay.", "lat": 36.119422, "lon": -115.174254, "p": "a"}, {"n": "Mount Charleston & Spring Mountains", "cat": "do", "tier": "", "a": "day-trip", "d": "A pine-forested alpine escape rising to nearly 12,000 feet just 45 minutes northwest — 30 degrees cooler than the valley, with hiking, a historic lodge and winter snow. The locals' hidden antidote to the desert heat, and a serene half-day for families.", "lat": 36.170606, "lon": -115.188448, "p": "v"}, {"n": "Lake Mead National Recreation Area", "cat": "do", "tier": "", "a": "day-trip", "d": "The Hoover Dam's vast reservoir — America's largest by capacity — where private boats, kayaks and scenic drives open up hidden coves 40 minutes from the Strip. Charter a boat with a captain for a calm morning on the water before the day heats up.", "lat": 35.872208, "lon": -114.690025, "p": "v"}, {"n": "Seven Magic Mountains", "cat": "do", "tier": "", "a": "day-trip", "d": "Ugo Rondinone's seven towers of fluorescent boulders stacked against raw desert, 20 minutes south of the Strip off I-15 — a free, endlessly Instagrammable land-art installation. A quick, striking stop en route in or out of the city.", "lat": 35.838312, "lon": -115.27095, "p": "v"}, {"n": "Omnia", "cat": "party", "tier": "Late & loud", "a": "Caesars Palace, The Strip", "d": "Caesars' three-storey spectacle, crowned by a vast kinetic chandelier that descends over the main room.", "lat": 36.158038, "lon": -115.165809, "p": "v"}, {"n": "Hakkasan", "cat": "party", "tier": "Late & loud", "a": "MGM Grand, The Strip", "d": "A five-storey nightlife-and-dining colossus — Cantonese fine dining below, a stadium of a nightclub above.", "lat": 36.175827, "lon": -115.137142, "p": "v"}, {"n": "Marquee", "cat": "party", "tier": "Late & loud", "a": "The Cosmopolitan, The Strip", "d": "The Cosmopolitan's indoor-outdoor giant — a dome, a terrace over the Strip and a dayclub that runs into the night.", "lat": 36.175827, "lon": -115.137142, "p": "v"}, {"n": "The Chandelier Bar", "cat": "party", "tier": "Landmark bars", "a": "The Cosmopolitan, The Strip", "d": "A three-storey bar built inside a two-million-crystal chandelier — the most photographed drink in Las Vegas.", "lat": 36.110157, "lon": -115.174092, "p": "a"}, {"n": "Parasol Down / Parasol Up", "cat": "party", "tier": "Cocktail bars", "a": "Wynn Las Vegas, The Strip", "d": "Wynn's whimsical twin bars under floating parasols — Parasol Down overlooks the Lake of Dreams show.", "lat": 36.119422, "lon": -115.174254, "p": "a"}, {"n": "Electra Cocktail Club", "cat": "party", "tier": "Cocktail bars", "a": "The Venetian, The Strip", "d": "A shimmering, high-energy cocktail bar wrapped in a wall of colour-shifting video — serious drinks, glossy room.", "lat": 36.121707, "lon": -115.169335, "p": "a"}, {"n": "Apex Social Club", "cat": "party", "tier": "Rooftops", "a": "The Palms (off-Strip)", "d": "A 55th-floor rooftop lounge with a wrap-around Strip view — one of the best skyline vantages in the city.", "lat": 36.117687, "lon": -115.171113, "p": "a"}]}
+{
+  "center": [
+    36.175827,
+    -115.137142
+  ],
+  "venues": [
+    {
+      "n": "Wynn Las Vegas",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "The Strip (north)",
+      "d": "Steve Wynn's copper-glass masterpiece \u2014 the largest Forbes Five-Star resort in the world, and it feels it.",
+      "lat": 36.126622,
+      "lon": -115.165404,
+      "photos": []
+    },
+    {
+      "n": "Encore at Wynn Las Vegas",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "The Strip (north)",
+      "d": "Wynn's warmer, red-and-gold sister tower \u2014 all-suite by design, and Forbes Five-Star in its own right.",
+      "lat": 36.128934,
+      "lon": -115.165362,
+      "photos": []
+    },
+    {
+      "n": "ARIA Resort & Casino",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "The Strip (CityCenter)",
+      "d": "The Strip's most modern grand hotel \u2014 a AAA Five Diamond resort of glass, art and quiet technology.",
+      "lat": 36.107029,
+      "lon": -115.177998,
+      "photos": []
+    },
+    {
+      "n": "Bellagio",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "The Strip (centre)",
+      "d": "The lake, the fountains, the Chihuly ceiling \u2014 the hotel that taught Las Vegas to do elegance, still AAA Five Diamond.",
+      "lat": 36.113115,
+      "lon": -115.177007,
+      "photos": []
+    },
+    {
+      "n": "The Venetian Resort Las Vegas",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "The Strip (centre)",
+      "d": "Grand Canal, frescoes and gondolas \u2014 an all-suite palazzo, and one of the largest luxury hotels in the world.",
+      "lat": 36.121707,
+      "lon": -115.169335,
+      "photos": []
+    },
+    {
+      "n": "The Palazzo at The Venetian Resort",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "The Strip (centre)",
+      "d": "The Venetian's quieter, all-suite sibling \u2014 a calmer, greener wing of the same palazzo world.",
+      "lat": 36.121208,
+      "lon": -115.162067,
+      "photos": []
+    },
+    {
+      "n": "Waldorf Astoria Las Vegas",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "The Strip (CityCenter)",
+      "d": "The Strip's serene non-gaming, non-smoking tower \u2014 a hushed Waldorf Astoria sky-lobby above the noise.",
+      "lat": 36.106207,
+      "lon": -115.174356,
+      "photos": []
+    },
+    {
+      "n": "Four Seasons Hotel Las Vegas",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "The Strip (south)",
+      "d": "The original non-gaming Strip oasis \u2014 Four Seasons calm on the top floors of Mandalay Bay, with its own private entrance.",
+      "lat": 36.090801,
+      "lon": -115.174749,
+      "photos": []
+    },
+    {
+      "n": "Fontainebleau Las Vegas",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "The Strip (north)",
+      "d": "The long-awaited blue tower at the north end \u2014 Miami's Fontainebleau reborn as the Strip's newest grand resort.",
+      "lat": 36.13759,
+      "lon": -115.161067,
+      "photos": []
+    },
+    {
+      "n": "Crockfords Las Vegas, LXR Hotels & Resorts",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "The Strip (Resorts World)",
+      "d": "Hilton's ultra-luxury LXR flag inside Resorts World \u2014 the most rarefied of its three towers, with butler service.",
+      "lat": 36.13456,
+      "lon": -115.168351,
+      "photos": []
+    },
+    {
+      "n": "Jo\u00ebl Robuchon",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "MGM Grand, The Strip",
+      "d": "The late 'Chef of the Century's' jewel-box mansion \u2014 the most decorated fine-dining room in the city, twenty years on.",
+      "lat": 36.10264,
+      "lon": -115.169589,
+      "photos": []
+    },
+    {
+      "n": "Le Cirque",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Bellagio, The Strip",
+      "d": "The Maccioni family's silk-tented circus over the Bellagio lake \u2014 old-world French service and a view of the fountains.",
+      "lat": 36.103146,
+      "lon": -115.170213,
+      "photos": []
+    },
+    {
+      "n": "Wing Lei",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Wynn Las Vegas, The Strip",
+      "d": "The only Forbes Five-Star Chinese restaurant in North America \u2014 imperial Cantonese, and a tableside Peking duck.",
+      "lat": 36.130471,
+      "lon": -115.106285,
+      "photos": []
+    },
+    {
+      "n": "\u00e9 by Jos\u00e9 Andr\u00e9s",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "The Cosmopolitan, The Strip",
+      "d": "An eight-seat counter hidden inside Jaleo \u2014 Spanish avant-garde theatre from the mind that helped shape elBulli.",
+      "lat": 36.142973,
+      "lon": -115.155245,
+      "photos": []
+    },
+    {
+      "n": "Bazaar Meat by Jos\u00e9 Andr\u00e9s",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "The Palazzo at The Venetian, The Strip",
+      "d": "Jos\u00e9 Andr\u00e9s's carnivore's theatre, reborn in 2025 in a vast new Palazzo room \u2014 whole roasts, caviar cones and fire.",
+      "lat": 36.142973,
+      "lon": -115.155245,
+      "photos": []
+    },
+    {
+      "n": "Carbone",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "ARIA, The Strip",
+      "d": "Major Food Group's Italian-American time-machine \u2014 captains in dinner jackets, spicy rigatoni vodka and pure swagger.",
+      "lat": 36.107143,
+      "lon": -115.177093,
+      "photos": []
+    },
+    {
+      "n": "Michael Mina",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Bellagio, The Strip",
+      "d": "The James Beard-winning chef's flagship \u2014 seafood-led modern American in a soaring Bellagio room.",
+      "lat": 36.112035,
+      "lon": -115.176866,
+      "photos": []
+    },
+    {
+      "n": "Mizumi",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Wynn Las Vegas, The Strip",
+      "d": "Wynn's Japanese room built around a private garden and waterfall \u2014 teppanyaki, sushi and robata in serene surrounds.",
+      "lat": 36.175827,
+      "lon": -115.137142,
+      "photos": []
+    },
+    {
+      "n": "SW Steakhouse",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Wynn Las Vegas, The Strip",
+      "d": "Wynn's signature steakhouse on the Lake of Dreams \u2014 prime beef and a nightly light-and-water show at the window.",
+      "lat": 36.119422,
+      "lon": -115.174254,
+      "photos": []
+    },
+    {
+      "n": "Sinatra",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Encore at Wynn, The Strip",
+      "d": "A love letter to Ol' Blue Eyes \u2014 regional Italian classics amid the singer's Oscar and memorabilia.",
+      "lat": 36.240216,
+      "lon": -115.228696,
+      "photos": []
+    },
+    {
+      "n": "L'Atelier de Jo\u00ebl Robuchon",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "MGM Grand, The Strip",
+      "d": "Robuchon's red-and-black counter beside his mansion \u2014 the same legendary kitchen, at the pass, \u00e0 la carte.",
+      "lat": 36.10264,
+      "lon": -115.169589,
+      "photos": []
+    },
+    {
+      "n": "Kusa Nori",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "The Strip",
+      "d": "A refined, contemporary Japanese room that quietly earned a Forbes Four-Star \u2014 sushi and kaiseki-style precision.",
+      "lat": 36.119422,
+      "lon": -115.174254,
+      "photos": []
+    },
+    {
+      "n": "Delilah",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Wynn Las Vegas, The Strip",
+      "d": "A modern-day supper club inside Wynn's Tower Suites \u2014 1940s glamour, live music and tableside luxury classics.",
+      "lat": 36.175827,
+      "lon": -115.137142,
+      "photos": []
+    },
+    {
+      "n": "Jean Georges Steakhouse",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "ARIA, The Strip",
+      "d": "Jean-Georges Vongerichten's refined steakhouse \u2014 his signatures and a prime-beef programme in a sleek ARIA room.",
+      "lat": 36.106935,
+      "lon": -115.176988,
+      "photos": []
+    },
+    {
+      "n": "Bardot Brasserie",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "ARIA, The Strip",
+      "d": "Michael Mina's Belle \u00c9poque Parisian brasserie \u2014 onion soup, escargot and one of the best weekend brunches on the Strip.",
+      "lat": 36.106722,
+      "lon": -115.176993,
+      "photos": []
+    },
+    {
+      "n": "Costa di Mare",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Wynn Las Vegas, The Strip",
+      "d": "Wynn's Italian coastal room \u2014 whole Mediterranean fish flown in daily, beside a private lagoon terrace.",
+      "lat": 36.119422,
+      "lon": -115.174254,
+      "photos": []
+    },
+    {
+      "n": "Bellagio Fountains",
+      "cat": "do",
+      "tier": "",
+      "a": "The Strip",
+      "d": "The free choreographed water ballet on Lake Bellagio \u2014 jets soaring 460 feet, set to opera, Sinatra or Bollywood-adjacent classics \u2014 runs every 15-30 minutes into the night. Book a fountain-view suite or a Lakeside table so the family watches from a private balcony rather than the pavement crush.",
+      "lat": 36.119422,
+      "lon": -115.174254,
+      "photos": []
+    },
+    {
+      "n": "Bellagio Conservatory & Botanical Gardens",
+      "cat": "do",
+      "tier": "",
+      "a": "The Strip",
+      "d": "A 14,000-square-foot glasshouse re-planted five times a year with towering seasonal displays \u2014 a hushed, fragrant, entirely free interlude off the casino floor. Genuinely all-ages and calm, a rare thing on the Strip, and a favourite photo stop for multi-generational groups.",
+      "lat": 36.119422,
+      "lon": -115.174254,
+      "photos": []
+    },
+    {
+      "n": "Sphere \u2014 'The Sphere Experience: Postcard from Earth'",
+      "cat": "do",
+      "tier": "",
+      "a": "The Strip",
+      "d": "Darren Aronofsky's 50-minute film plays across the world's largest wraparound 16K LED screen, with haptic seats, wind and scent \u2014 a hyper-real journey around the planet that leaves first-timers speechless. Splurge on the premium seating and let the concierge time your visit to also catch the Exosphere lit up outside.",
+      "lat": 36.119422,
+      "lon": -115.174254,
+      "photos": []
+    },
+    {
+      "n": "The Sphere Exosphere",
+      "cat": "do",
+      "tier": "",
+      "a": "The Strip",
+      "d": "The 580,000-square-foot exterior \u2014 1.2 million LED pucks turning the whole 366-foot orb into a giant eyeball, emoji, or spinning globe \u2014 is best seen for free from a Venetian balcony or a rooftop cocktail. A five-minute spectacle that has become the city's new skyline signature.",
+      "lat": 36.119422,
+      "lon": -115.174254,
+      "photos": []
+    },
+    {
+      "n": "The Venetian & Grand Canal Shoppes \u2014 Gondola Rides",
+      "cat": "do",
+      "tier": "",
+      "a": "The Strip",
+      "d": "A singing gondolier poles you along an indoor canal beneath a painted sky, past St Mark's Square recreated in marble \u2014 kitsch executed at grand scale, and irresistible with children. Private gondolas can be reserved for couples or a family, away from the shared queue.",
+      "lat": 36.119422,
+      "lon": -115.174254,
+      "photos": []
+    },
+    {
+      "n": "'O' by Cirque du Soleil",
+      "cat": "do",
+      "tier": "",
+      "a": "The Strip",
+      "d": "Cirque's aquatic masterwork at the Bellagio, staged in, on and above a 1.5-million-gallon pool where synchronised swimmers, divers and aerialists dissolve the line between stage and water. The Vegas show to see if you see only one \u2014 book premium centre seats well ahead.",
+      "lat": 36.103146,
+      "lon": -115.170213,
+      "photos": []
+    },
+    {
+      "n": "'Michael Jackson ONE' by Cirque du Soleil",
+      "cat": "do",
+      "tier": "",
+      "a": "The Strip",
+      "d": "A high-energy acrobatic tribute at Mandalay Bay driven by MJ's biggest hits in state-of-the-art surround sound \u2014 the most family-friendly and instantly recognisable of the Cirque residencies. A crowd-pleaser across generations and languages.",
+      "lat": 36.119422,
+      "lon": -115.174254,
+      "photos": []
+    },
+    {
+      "n": "'KA' by Cirque du Soleil",
+      "cat": "do",
+      "tier": "",
+      "a": "The Strip",
+      "d": "A gravity-defying martial-arts epic at the MGM Grand built around a colossal rotating stage that flips to vertical mid-battle \u2014 theatrical engineering as spectacle. Grand, cinematic and easy to follow for non-English speakers.",
+      "lat": 36.103146,
+      "lon": -115.170213,
+      "photos": []
+    },
+    {
+      "n": "'Myst\u00e8re' by Cirque du Soleil",
+      "cat": "do",
+      "tier": "",
+      "a": "The Strip",
+      "d": "The original Vegas Cirque show at Treasure Island, running since 1993 \u2014 pure acrobatics, Taiko drums and surreal whimsy with a cast of 67, and no adult themes, so ideal for a family matinee. The most timeless entry point to the Cirque canon.",
+      "lat": 36.119422,
+      "lon": -115.174254,
+      "photos": []
+    },
+    {
+      "n": "'Mad Apple' by Cirque du Soleil",
+      "cat": "do",
+      "tier": "",
+      "a": "The Strip",
+      "d": "A New-York-themed cocktail of acrobatics, comedy, magic and a working stage bar at New York-New York \u2014 looser and more adult than the classics. Good for a night out with grown children rather than the whole family.",
+      "lat": 36.119422,
+      "lon": -115.174254,
+      "photos": []
+    },
+    {
+      "n": "The Forum Shops at Caesars Palace",
+      "cat": "do",
+      "tier": "",
+      "a": "The Strip",
+      "d": "The original faux-Roman luxury mall \u2014 a painted sky that shifts dawn-to-dusk, animatronic fountains, and a flagship roll-call from Louis Vuitton and Gucci to Versace under one vaulted roof. The concierge can arrange after-hours private shopping and personal styling for high-spend guests.",
+      "lat": 36.118919,
+      "lon": -115.176461,
+      "photos": []
+    },
+    {
+      "n": "The Shops at Crystals",
+      "cat": "do",
+      "tier": "",
+      "a": "The Strip",
+      "d": "The Strip's most rarefied retail \u2014 a Daniel Libeskind glass-and-steel canyon housing the largest concentration of ultra-luxury flagships in the US, from Louis Vuitton's island maison to Hermes, Bottega and Fendi. Discreet, uncrowded and built for serious shopping.",
+      "lat": 36.107741,
+      "lon": -115.174296,
+      "photos": []
+    },
+    {
+      "n": "Wynn & Encore \u2014 Gardens, Atrium & Le Reve grounds",
+      "cat": "do",
+      "tier": "",
+      "a": "The Strip",
+      "d": "Steve Wynn's twin resorts trade neon for floral extravagance \u2014 carousels of parasols, a mountain and lake hidden behind the casino, and the Strip's most polished spa and boutique corridor. The quiet-luxury alternative for guests who want opulence without the theme-park energy.",
+      "lat": 36.119422,
+      "lon": -115.174254,
+      "photos": []
+    },
+    {
+      "n": "Bellagio Gallery of Fine Art",
+      "cat": "do",
+      "tier": "",
+      "a": "The Strip",
+      "d": "A serious rotating exhibition space inside the Bellagio \u2014 recent shows have partnered with the Brooklyn Museum and major collections, a genuine cultural pause amid the slots. Small, curated and easily paired with the Conservatory next door.",
+      "lat": 36.119422,
+      "lon": -115.174254,
+      "photos": []
+    },
+    {
+      "n": "High Roller Observation Wheel at The LINQ",
+      "cat": "do",
+      "tier": "",
+      "a": "The Strip",
+      "d": "At 550 feet the tallest observation wheel in North America, its 28 climate-controlled cabins making a 30-minute rotation over the whole Strip. Charter a private cabin with an in-cabin bar for sunset \u2014 a serene, safe, all-ages high above the chaos.",
+      "lat": 36.119422,
+      "lon": -115.174254,
+      "photos": []
+    },
+    {
+      "n": "The STRAT SkyPod & Big Shot",
+      "cat": "do",
+      "tier": "",
+      "a": "The Strip",
+      "d": "The tallest freestanding observation tower in the US at 1,149 feet, with indoor and open-air decks \u2014 and, for the brave, the Big Shot ride that flings you to 1,081 feet with the city dangling beneath your feet. Ride-averse elders can stay on the deck while teens take the thrill rides.",
+      "lat": 36.119422,
+      "lon": -115.174254,
+      "photos": []
+    },
+    {
+      "n": "AREA15 \u2014 Meow Wolf's Omega Mart",
+      "cat": "do",
+      "tier": "",
+      "a": "Off-Strip (West)",
+      "d": "A surreal, choose-your-own-adventure art experience disguised as a supermarket, where the freezer aisle is a secret portal into psychedelic worlds \u2014 90 minutes to three hours of imaginative, all-ages exploration. The whole AREA15 district around it is Vegas's most creative corner, minutes from the Strip with free parking.",
+      "lat": 36.132346,
+      "lon": -115.181918,
+      "photos": []
+    },
+    {
+      "n": "Fremont Street Experience",
+      "cat": "do",
+      "tier": "",
+      "a": "Downtown/Fremont",
+      "d": "Old Vegas under a five-block LED canopy \u2014 Viva Vision light shows overhead, zip-liners flying past, and vintage neon that predates the mega-resorts. Grittier and more authentic than the Strip; go with a guide for the story behind the signs.",
+      "lat": 36.170478,
+      "lon": -115.143529,
+      "photos": []
+    },
+    {
+      "n": "The Neon Museum & Neon Boneyard",
+      "cat": "do",
+      "tier": "",
+      "a": "Downtown/Fremont",
+      "d": "An outdoor graveyard of more than 200 salvaged casino signs \u2014 the Stardust, the Moulin Rouge, the old Sahara \u2014 best seen on a guided night tour when select signs are re-lit. A photographer's dream and the truest window into the city's design history.",
+      "lat": 36.176513,
+      "lon": -115.135277,
+      "photos": []
+    },
+    {
+      "n": "The Mob Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Downtown/Fremont",
+      "d": "The National Museum of Organized Crime and Law Enforcement, set in the 1933 former federal courthouse where real Kefauver mob hearings were held \u2014 a genuinely gripping, artifact-rich account of how the mafia built and lost Las Vegas. A speakeasy and distillery hide in the basement.",
+      "lat": 36.1728,
+      "lon": -115.141391,
+      "photos": []
+    },
+    {
+      "n": "The Grand Canyon \u2014 West Rim & Skywalk",
+      "cat": "do",
+      "tier": "",
+      "a": "day-trip",
+      "d": "The closest rim to Vegas at roughly 2.5 hours, on Hualapai tribal land, where the horseshoe-shaped Skywalk juts 70 feet out over a 4,000-foot drop to the Colorado. The classic Vegas day-trip \u2014 best done by private helicopter or SUV with a guide, and note phones must be locked away on the glass bridge itself.",
+      "lat": 36.233197,
+      "lon": -115.28462,
+      "photos": []
+    },
+    {
+      "n": "The Grand Canyon \u2014 South Rim (National Park)",
+      "cat": "do",
+      "tier": "",
+      "a": "day-trip",
+      "d": "The postcard canyon \u2014 endless layered vistas inside Grand Canyon National Park, about 4.5 hours' drive or a short scenic flight from Vegas, deserving of a full day or an overnight at El Tovar. Fly in by fixed-wing or helicopter to make it comfortable for elders and children.",
+      "lat": 36.233197,
+      "lon": -115.28462,
+      "photos": []
+    },
+    {
+      "n": "Grand Canyon Helicopter Tour (with canyon-floor landing)",
+      "cat": "do",
+      "tier": "",
+      "a": "day-trip",
+      "d": "The definitive splurge \u2014 lift off from Vegas, cross Lake Mead and the Hoover Dam, then descend 4,000 feet to land on the canyon floor for a Champagne picnic by the Colorado. Private charters can be arranged with vegetarian catering and door-to-door hotel pickup.",
+      "lat": 36.233197,
+      "lon": -115.28462,
+      "photos": []
+    },
+    {
+      "n": "Hoover Dam",
+      "cat": "do",
+      "tier": "",
+      "a": "day-trip",
+      "d": "A 726-foot Art Deco engineering marvel just 40 minutes southeast of the Strip, spanning the Colorado at the Nevada-Arizona line, with a dam-interior tour and the sweeping Mike O'Callaghan-Pat Tillman Memorial Bridge above. An easy half-day, often folded into a Grand Canyon flight.",
+      "lat": 36.160374,
+      "lon": -115.146595,
+      "photos": []
+    },
+    {
+      "n": "Red Rock Canyon National Conservation Area",
+      "cat": "do",
+      "tier": "",
+      "a": "day-trip",
+      "d": "A 13-mile scenic loop through fiery sandstone escarpments just 20 minutes west of the Strip \u2014 the quickest escape into raw desert, good for a dawn drive, easy walks or serious rock-climbing. Close enough for a morning out before an afternoon by the pool.",
+      "lat": 36.233197,
+      "lon": -115.28462,
+      "photos": []
+    },
+    {
+      "n": "Valley of Fire State Park",
+      "cat": "do",
+      "tier": "",
+      "a": "day-trip",
+      "d": "Nevada's oldest state park, under an hour northeast \u2014 flame-red Aztec sandstone, 3,000-year-old petroglyphs, and the Fire Wave's candy-striped rock that photographs like nowhere on Earth. Uncrowded and cinematic; pair it with the drive up to Zion.",
+      "lat": 36.221956,
+      "lon": -115.290211,
+      "photos": []
+    },
+    {
+      "n": "Death Valley National Park",
+      "cat": "do",
+      "tier": "",
+      "a": "day-trip",
+      "d": "The lowest, hottest, driest place in North America \u2014 Badwater Basin's salt flats, Zabriskie Point's sculpted badlands and Mesquite dunes \u2014 about two hours west, a genuinely otherworldly full-day expedition. Go with a guide and travel in cooler months; summer heat is extreme.",
+      "lat": 36.233197,
+      "lon": -115.28462,
+      "photos": []
+    },
+    {
+      "n": "Zion National Park",
+      "cat": "do",
+      "tier": "",
+      "a": "day-trip",
+      "d": "Utah's soaring red-and-cream canyon of Navajo sandstone, about 2.5 hours from Vegas \u2014 a shuttle up the Virgin River gorge past cathedral cliffs, and the famous Narrows and Angels Landing for the fit. Doable as a very long day, but a night in Springdale rewards a UHNI itinerary.",
+      "lat": 36.233197,
+      "lon": -115.28462,
+      "photos": []
+    },
+    {
+      "n": "Bryce Canyon National Park",
+      "cat": "do",
+      "tier": "",
+      "a": "day-trip",
+      "d": "An amphitheatre of thousands of orange hoodoo spires glowing at sunrise \u2014 about 4 hours from Vegas, usually combined with Zion into an overnight loop. High-altitude, cool and utterly unlike the desert below; a stargazing dark-sky reserve after dusk.",
+      "lat": 36.233197,
+      "lon": -115.28462,
+      "photos": []
+    },
+    {
+      "n": "Antelope Canyon & Horseshoe Bend",
+      "cat": "do",
+      "tier": "",
+      "a": "day-trip",
+      "d": "The world's most photographed slot canyon \u2014 light beams slicing down between wave-carved Navajo sandstone walls near Page, Arizona, paired with the emerald Colorado horseshoe of the bend. A 4.5-hour drive each way, so best flown or built into a multi-day loop; access is guided-only on Navajo land.",
+      "lat": 36.233197,
+      "lon": -115.28462,
+      "photos": []
+    },
+    {
+      "n": "Lake Powell",
+      "cat": "do",
+      "tier": "",
+      "a": "day-trip",
+      "d": "A vast turquoise reservoir threading through 96 slot-canyon fingers of red rock on the Utah-Arizona line, near Page \u2014 private houseboats and speedboats reach Rainbow Bridge and hidden coves. Pairs naturally with Antelope Canyon; a standout for families chartering their own vessel.",
+      "lat": 36.101844,
+      "lon": -114.9406,
+      "photos": []
+    },
+    {
+      "n": "Sunset Strip Helicopter Flight",
+      "cat": "do",
+      "tier": "",
+      "a": "The Strip",
+      "d": "A 12-15 minute night flight low over the neon canyon \u2014 Bellagio's fountains, the Sphere and the Stratosphere lit beneath you \u2014 the single most romantic thing to do in the city. Private charters with Champagne and hotel transfers make it effortless.",
+      "lat": 36.119422,
+      "lon": -115.174254,
+      "photos": []
+    },
+    {
+      "n": "Restaurant Guy Savoy at Caesars Palace",
+      "cat": "do",
+      "tier": "",
+      "a": "The Strip",
+      "d": "The Parisian three-Michelin-star maestro's only US outpost \u2014 artichoke-and-black-truffle soup, a Champagne-and-caviar room, and Strip-view windows above the fountains. Vegas's most serious fine-dining temple; the kitchen accommodates vegetarian tasting menus on request.",
+      "lat": 36.119422,
+      "lon": -115.174254,
+      "photos": []
+    },
+    {
+      "n": "\u00e9 by Jos\u00e9 Andr\u00e9s",
+      "cat": "do",
+      "tier": "",
+      "a": "The Strip",
+      "d": "A hidden nine-seat counter behind the Bazaar at the Cosmopolitan \u2014 an avant-garde tasting-menu experience of spherified olives and edible illusions, among the hardest reservations in America. An intimate, theatrical splurge; flag dietary needs when the rare seat opens.",
+      "lat": 36.142973,
+      "lon": -115.155245,
+      "photos": []
+    },
+    {
+      "n": "Joel Robuchon at MGM Grand",
+      "cat": "do",
+      "tier": "",
+      "a": "The Strip",
+      "d": "The late 'Chef of the Century's' opulent mansion-style dining room \u2014 a hushed jewel box of a menu that has long defined the top of the Vegas table. Ceremonial French service and a legendary bread cart; vegetarian menus available with notice.",
+      "lat": 36.119422,
+      "lon": -115.174254,
+      "photos": []
+    },
+    {
+      "n": "Bavette's / Carbone / celebrity-chef steakhouse scene",
+      "cat": "do",
+      "tier": "",
+      "a": "The Strip",
+      "d": "Vegas is the world's densest cluster of celebrity-chef steakhouses and dining rooms \u2014 Carbone's red-sauce theatre, Bavette's supper-club glamour, Gordon Ramsay's and Nobu's flagships all within a few blocks. The concierge can secure the impossible tables and a private room for a family celebration.",
+      "lat": 36.119422,
+      "lon": -115.174254,
+      "photos": []
+    },
+    {
+      "n": "Rutba Indian Kitchen",
+      "cat": "do",
+      "tier": "",
+      "a": "The Strip",
+      "d": "A polished Indian dining room right on the Strip built for exactly this traveller \u2014 clearly marked vegetarian, vegan and Jain options in a menu that ranges North to South. A reassuring anchor for guests who want familiar, well-executed Indian food between the spectacles.",
+      "lat": 36.119422,
+      "lon": -115.174254,
+      "photos": []
+    },
+    {
+      "n": "Marquee / XS / Encore Beach Club \u2014 Dayclub & Pool Scene",
+      "cat": "do",
+      "tier": "",
+      "a": "The Strip",
+      "d": "Vegas invented the dayclub \u2014 daybed pools with world-headline DJs, cabanas that become open-air suites, and a see-and-be-seen energy unmatched anywhere. For UHNI guests, a private cabana or bungalow with bottle service and a host turns the crush into a curated day.",
+      "lat": 36.119422,
+      "lon": -115.174254,
+      "photos": []
+    },
+    {
+      "n": "The Chandelier Bar at The Cosmopolitan",
+      "cat": "do",
+      "tier": "",
+      "a": "The Strip",
+      "d": "A three-storey bar suspended inside a two-million-crystal chandelier \u2014 the Strip's most photogenic cocktail perch, with a secret 'PsychoCandy' menu on the upper level. A stylish, low-key nightcap that doesn't require a club reservation.",
+      "lat": 36.119422,
+      "lon": -115.174254,
+      "photos": []
+    },
+    {
+      "n": "Fountains-view fine dining \u2014 Le Cirque & Prime at Bellagio",
+      "cat": "do",
+      "tier": "",
+      "a": "The Strip",
+      "d": "Lakeside tables timed to the fountains erupting outside the window \u2014 Le Cirque's jewel-box French room and Prime's steakhouse both frame the water ballet as dinner theatre. Ask the concierge to reserve the front tables for the show and to note any Jain or vegetarian needs.",
+      "lat": 36.119422,
+      "lon": -115.174254,
+      "photos": []
+    },
+    {
+      "n": "Caesars Palace \u2014 Roman grandeur & the Garden of the Gods pools",
+      "cat": "do",
+      "tier": "",
+      "a": "The Strip",
+      "d": "The resort that set the template \u2014 marble colonnades, replica statuary, and a seven-pool Roman bathing complex that is a destination in itself. Beyond the Forum Shops, the property rewards a slow wander; villa suites and Qua Baths anchor a discreet high-roller stay.",
+      "lat": 36.119422,
+      "lon": -115.174254,
+      "photos": []
+    },
+    {
+      "n": "Mount Charleston & Spring Mountains",
+      "cat": "do",
+      "tier": "",
+      "a": "day-trip",
+      "d": "A pine-forested alpine escape rising to nearly 12,000 feet just 45 minutes northwest \u2014 30 degrees cooler than the valley, with hiking, a historic lodge and winter snow. The locals' hidden antidote to the desert heat, and a serene half-day for families.",
+      "lat": 36.170606,
+      "lon": -115.188448,
+      "photos": []
+    },
+    {
+      "n": "Lake Mead National Recreation Area",
+      "cat": "do",
+      "tier": "",
+      "a": "day-trip",
+      "d": "The Hoover Dam's vast reservoir \u2014 America's largest by capacity \u2014 where private boats, kayaks and scenic drives open up hidden coves 40 minutes from the Strip. Charter a boat with a captain for a calm morning on the water before the day heats up.",
+      "lat": 35.872208,
+      "lon": -114.690025,
+      "photos": []
+    },
+    {
+      "n": "Seven Magic Mountains",
+      "cat": "do",
+      "tier": "",
+      "a": "day-trip",
+      "d": "Ugo Rondinone's seven towers of fluorescent boulders stacked against raw desert, 20 minutes south of the Strip off I-15 \u2014 a free, endlessly Instagrammable land-art installation. A quick, striking stop en route in or out of the city.",
+      "lat": 35.838312,
+      "lon": -115.27095,
+      "photos": []
+    },
+    {
+      "n": "Omnia",
+      "cat": "party",
+      "tier": "Late & loud",
+      "a": "Caesars Palace, The Strip",
+      "d": "Caesars' three-storey spectacle, crowned by a vast kinetic chandelier that descends over the main room.",
+      "lat": 36.158038,
+      "lon": -115.165809,
+      "photos": []
+    },
+    {
+      "n": "Hakkasan",
+      "cat": "party",
+      "tier": "Late & loud",
+      "a": "MGM Grand, The Strip",
+      "d": "A five-storey nightlife-and-dining colossus \u2014 Cantonese fine dining below, a stadium of a nightclub above.",
+      "lat": 36.175827,
+      "lon": -115.137142,
+      "photos": []
+    },
+    {
+      "n": "Marquee",
+      "cat": "party",
+      "tier": "Late & loud",
+      "a": "The Cosmopolitan, The Strip",
+      "d": "The Cosmopolitan's indoor-outdoor giant \u2014 a dome, a terrace over the Strip and a dayclub that runs into the night.",
+      "lat": 36.175827,
+      "lon": -115.137142,
+      "photos": []
+    },
+    {
+      "n": "The Chandelier Bar",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "The Cosmopolitan, The Strip",
+      "d": "A three-storey bar built inside a two-million-crystal chandelier \u2014 the most photographed drink in Las Vegas.",
+      "lat": 36.110157,
+      "lon": -115.174092,
+      "photos": []
+    },
+    {
+      "n": "Parasol Down / Parasol Up",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Wynn Las Vegas, The Strip",
+      "d": "Wynn's whimsical twin bars under floating parasols \u2014 Parasol Down overlooks the Lake of Dreams show.",
+      "lat": 36.119422,
+      "lon": -115.174254,
+      "photos": []
+    },
+    {
+      "n": "Electra Cocktail Club",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "The Venetian, The Strip",
+      "d": "A shimmering, high-energy cocktail bar wrapped in a wall of colour-shifting video \u2014 serious drinks, glossy room.",
+      "lat": 36.121707,
+      "lon": -115.169335,
+      "photos": []
+    },
+    {
+      "n": "Apex Social Club",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "The Palms (off-Strip)",
+      "d": "A 55th-floor rooftop lounge with a wrap-around Strip view \u2014 one of the best skyline vantages in the city.",
+      "lat": 36.117687,
+      "lon": -115.171113,
+      "photos": []
+    }
+  ]
+}

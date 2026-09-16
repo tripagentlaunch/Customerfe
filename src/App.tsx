@@ -3,6 +3,7 @@ import { Layout } from "./components/layout/Layout";
 import { AuthProvider } from "./lib/auth";
 import { ThemeProvider } from "./lib/theme";
 import PageRouter from "./pages/PageRouter";
+import DesignInspector from "./components/DesignInspector";
 
 // AuthProvider is mounted here because Header.tsx calls useAuth()
 // unconditionally and throws without it — with no session yet this is just
@@ -19,6 +20,9 @@ import PageRouter from "./pages/PageRouter";
 export default function App() {
   return (
     <ThemeProvider>
+      {/* Mounted outside the auth/routing tree so "I"/"L" work everywhere,
+          including a sign-in screen — see DesignInspector's own gating. */}
+      <DesignInspector />
       <AuthProvider>
         <Routes>
           <Route element={<Layout />}>

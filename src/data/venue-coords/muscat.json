@@ -1,1 +1,498 @@
-{"center": [23.612363, 58.593813], "venues": [{"n": "The Chedi Muscat", "cat": "stay", "tier": "Ultra", "a": "Al Ghubra North, Shatti Al Qurum", "d": "GHM's serene, minimalist beachfront sanctuary — the hotel that defined understated luxury in the Gulf, and Oman's one true icon.", "lat": 23.602373, "lon": 58.399289, "p": "v"}, {"n": "Mandarin Oriental, Muscat", "cat": "stay", "tier": "Ultra", "a": "Shatti Al Qurum", "d": "The group's Oman debut — a bright-white beachfront house where Omani craft meets Mandarin Oriental's quiet precision.", "lat": 23.613325, "lon": 58.456971, "p": "v"}, {"n": "Al Husn, a Waldorf Astoria Hotel", "cat": "stay", "tier": "Grand", "a": "Barr Al Jissah", "d": "An adults-oriented clifftop 'castle' above a private turquoise cove — the crown of the Barr Al Jissah headland, now under the Waldorf Astoria flag.", "lat": 23.550109, "lon": 58.659637, "p": "a"}, {"n": "The St. Regis Al Mouj Muscat Resort", "cat": "stay", "tier": "Grand", "a": "Al Mouj (The Wave) marina district", "d": "A polished beachfront newcomer beside Muscat's smartest marina-and-golf community — St. Regis butler service and a long private beach.", "lat": 23.613418, "lon": 58.301206, "p": "v"}, {"n": "Kempinski Hotel Muscat", "cat": "stay", "tier": "Luxury", "a": "Al Mouj (The Wave)", "d": "A vast six-kilometre-beachfront European grande-dame resort — eleven dining venues and a private stretch of sand at Al Mouj.", "lat": 23.627444, "lon": 58.272541, "p": "v"}, {"n": "W Muscat", "cat": "stay", "tier": "Luxury", "a": "Shatti Al Qurum beachfront", "d": "The brand's beachfront 'W Escape' — high-design, high-energy and unabashedly scene-y, right on Shatti Al Qurum.", "lat": 23.616575, "lon": 58.466182, "p": "v"}, {"n": "The Restaurant, The Chedi Muscat", "cat": "eat", "tier": "Fine", "a": "The Chedi Muscat, Shatti Al Qurum", "d": "Four open kitchens — Arabic, Indian, Asian and Mediterranean — under one high, chandeliered ceiling; the Chedi's flagship all-day room.", "lat": 23.602513, "lon": 58.399495, "p": "v"}, {"n": "The Beach Restaurant, The Chedi Muscat", "cat": "eat", "tier": "Destination", "a": "The Chedi Muscat, Shatti Al Qurum", "d": "Sand-underfoot seafood by the Gulf — Iranian and Caspian caviar, freshly shucked oysters and the line-caught catch of the day.", "lat": 23.603602, "lon": 58.400004, "p": "v"}, {"n": "Al Angham", "cat": "eat", "tier": "Fine", "a": "Royal Opera House Muscat, Shatti Al Qurum", "d": "The finest room dedicated to Omani cuisine — carved-plaster grandeur beside the Opera House, serving the sultanate's own dishes with real ceremony.", "lat": 23.613843, "lon": 58.467781, "p": "v"}, {"n": "Bukhara, Kempinski Hotel Muscat", "cat": "eat", "tier": "Fine", "a": "Kempinski Hotel Muscat, Al Mouj", "d": "Robust North Indian cooking from the clay tandoor, inside the city's largest beach resort — familiar flavours, done with polish.", "lat": 23.627444, "lon": 58.272541, "p": "a"}, {"n": "Shahi Darbar (fine Indian dining)", "cat": "eat", "tier": "Smart", "a": "Shatti Al Qurum / Al Khuwair", "d": "Long-standing, well-regarded North Indian kitchen with a devoted local following — generous, familiar, unfussy.", "lat": 23.613809, "lon": 58.46768, "p": "v"}, {"n": "Ubhar", "cat": "eat", "tier": "Smart", "a": "Bareeq Al Shatti, Shatti Al Qurum", "d": "Modern Omani-and-Arabian cooking that treats the sultanate's home dishes seriously — shuwa, harees, camel, done with pride.", "lat": 23.612565, "lon": 58.464367, "p": "v"}, {"n": "Kargeen Café", "cat": "eat", "tier": "Casual", "a": "Madinat Al Sultan Qaboos", "d": "Lantern-lit garden courtyards and generous Omani-Levantine mezze — the city's most-loved relaxed table, buzzing past midnight.", "lat": 23.600553, "lon": 58.455, "p": "v"}, {"n": "Bin Ateeq", "cat": "eat", "tier": "Casual", "a": "Al Khuwair", "d": "Floor-seated, private-room dining on Omani classics — shuwa and majboos served the old way, with no ceremony and real honesty.", "lat": 23.599096, "lon": 58.549015, "p": "v"}, {"n": "Sultan Qaboos Grand Mosque", "cat": "do", "tier": "", "a": "Bawshar / Ghubra", "d": "Oman's grandest mosque and the one unmissable landmark of Muscat — 300,000 tonnes of Indian sandstone, a single hand-woven Persian carpet that took years to make, and a Swarovski chandelier hanging under the main dome. Non-Muslim visitors are welcome between 8 and 11 in the morning (not Fridays); entry is free, dress is modest, and abayas are lent at the gate. Serene and spotless — an easy, moving stop for all generations.", "lat": 23.583787, "lon": 58.388518, "p": "v"}, {"n": "Royal Opera House Muscat", "cat": "do", "tier": "", "a": "Shati Al Qurum", "d": "The Gulf's leading opera house — Omani stone and marble outside, Islamic, Mughal and European craftsmanship within. Either take a daytime house tour of the auditorium and its inlaid detail, or book an evening of opera, ballet or orchestral music from the October–May season. A refined, dressy night out that families and culture-minded couples both love.", "lat": 23.614276, "lon": 58.468603, "p": "v"}, {"n": "Mutrah Corniche", "cat": "do", "tier": "", "a": "Mutrah", "d": "The great curving seafront of old Muscat — whitewashed merchant houses on one side, dhows and the Sultan's harbour on the other, the Hajar hills behind. Walk it late afternoon into golden hour when the light softens and the mosque minarets glow. The gentle, unhurried heart of the city.", "lat": 23.620311, "lon": 58.564538, "p": "v"}, {"n": "Mutrah Souq", "cat": "do", "tier": "", "a": "Mutrah", "d": "One of the oldest markets in the Arab world, a warren of covered lanes trading frankincense, silver khanjars, pashminas, antique silver and Omani halwa. Prices are gentle by Dubai standards and the traders are warm, not pushy — good for unhurried, multi-generation browsing. Best late afternoon into the evening when it reopens and comes alive.", "lat": 23.619466, "lon": 58.564942, "p": "v"}, {"n": "Mutrah Fish Market", "cat": "do", "tier": "", "a": "Mutrah", "d": "A working morning market under a striking wave-form roof on the harbour, where Omani fishermen land and sell the day's catch. Come at dawn for the full theatre of it — kingfish, tuna and hammour changing hands amid the calls of the auction. Vivid, authentic, and a photographer's delight.", "lat": 23.616316, "lon": 58.561759, "p": "v"}, {"n": "Al Alam Palace", "cat": "do", "tier": "", "a": "Old Muscat", "d": "The Sultan's ceremonial palace — flamboyant gold-and-blue flared columns framed by manicured avenues, designed by Mumbai's Shapoorji Pallonji firm. You cannot go inside, but the grand approach and the palace flanked by two Portuguese forts is the classic Muscat photograph. A short, easy stop paired with Old Muscat's museums.", "lat": 23.616256, "lon": 58.594867, "p": "v"}, {"n": "Al Jalali & Al Mirani Forts", "cat": "do", "tier": "", "a": "Old Muscat", "d": "Two 16th-century Portuguese forts guarding the natural harbour on either side of Al Alam Palace. Neither is generally open to the public, but they crown the rocky headlands and give Old Muscat its dramatic, defensible silhouette. Best seen from the palace forecourt or the corniche, especially at dusk.", "lat": 23.616712, "lon": 58.59789, "p": "v"}, {"n": "National Museum of Oman", "cat": "do", "tier": "", "a": "Old Muscat", "d": "Oman's flagship museum, opposite Al Alam Palace — beautifully lit galleries of the ruling dynasty, Omani silver, frankincense trade, arms and maritime heritage, with Arabic Braille throughout. Cool, calm and well-curated: the single best hour for understanding the country before you explore it. Excellent for curious teenagers.", "lat": 23.611623, "lon": 58.59358, "p": "v"}, {"n": "Bait Al Zubair Museum", "cat": "do", "tier": "", "a": "Old Muscat", "d": "A private family museum in a cluster of traditional houses — the finest privately held collection of Omani khanjars, jewellery, costume and household life, plus a garden, café and art gallery. Intimate and personal where the National Museum is grand; the two together tell the whole story. On Al Saidiya Street in Old Muscat.", "lat": 23.614394, "lon": 58.58961, "p": "v"}, {"n": "Ghalya's Museum of Modern Art", "cat": "do", "tier": "", "a": "Mutrah", "d": "A quiet gem on the Mutrah corniche — a reconstructed Omani house recreating daily life from 1950 to 1975, room by room, with a small modern-art gallery upstairs. Founded by a member of the royal family, it is warm, unhurried and rarely crowded. A tender, human counterpoint to the big state museums.", "lat": 23.578784, "lon": 58.354921, "p": "v"}, {"n": "Old Muscat walking circuit", "cat": "do", "tier": "", "a": "Old Muscat", "d": "The walled original town behind the corniche — palace, forts, museums, the old Muscat Gate and quiet lanes, all within a compact, walkable radius. A morning here, with a private guide to unlock the history, gives you the founding story of the whole city in a couple of unhurried hours. Shaded stops and easy pacing suit all ages.", "lat": 23.621472, "lon": 58.562064, "p": "a"}, {"n": "Amouage Perfume Factory & Visitor Centre", "cat": "do", "tier": "", "a": "Seeb", "d": "The home of Oman's luxury house of perfume, built on frankincense, myrrh and Omani rose. A complimentary guided tour walks you from raw ingredient to finished bottle, ending in a boutique where you can sample and buy the full collection. A civilised, air-conditioned hour and a genuinely Omani luxury souvenir. Sunday to Thursday, mornings and afternoons.", "lat": 23.591116, "lon": 58.237879, "p": "v"}, {"n": "Dolphin watching by boat", "cat": "do", "tier": "", "a": "Marina Bandar al Rowdha / Sidab", "d": "Morning boats slip out of the marina to meet wild spinner and common dolphins that ride the bow and leap in their hundreds along this coast. A short, easy two-hour trip — thrilling for children and grandparents alike, with the fort-studded shoreline as backdrop. Best in the calm, cool morning sea.", "lat": 23.582003, "lon": 58.606363, "p": "a"}, {"n": "Sunset dhow cruise", "cat": "do", "tier": "", "a": "Marina Bandar al Rowdha", "d": "Sail the coast at dusk aboard a traditional wooden dhow, past cliffs, coves and the lights of Muscat coming on. Private charters can be arranged with Omani coffee, dates and dinner aboard — a discreet, romantic way to end a day. The gentlest luxury on the water.", "lat": 23.582003, "lon": 58.606363, "p": "a"}, {"n": "Bandar Khayran", "cat": "do", "tier": "", "a": "Southeast of Muscat", "d": "A hidden labyrinth of turquoise inlets, cliffs and mangroves southeast of the city — 'the blue lagoons' — reached by boat or the coast road. Kayak or snorkel the sheltered bays by day, or take a sunset paddle through bioluminescent plankton in winter, when each stroke lights the water. Wild, unspoilt and private-feeling.", "lat": 23.519132, "lon": 58.749716, "p": "v"}, {"n": "Qurum Beach", "cat": "do", "tier": "", "a": "Qurum / Shati Al Qurum", "d": "A long, clean city beach backed by luxury hotels and the corniche — easy walking, calm swimming and a string of cafés and restaurants. The relaxed everyday beach of Muscat, good for an early stroll or a sunset with the family. Between the Chedi and the Crowne Plaza cliff.", "lat": 23.625565, "lon": 58.479822, "p": "v"}, {"n": "Qurum Natural Park", "cat": "do", "tier": "", "a": "Qurum", "d": "The city's largest green park — lakes, lawns, shaded walks, playgrounds and a rose garden set behind the beach. A cool, family-friendly escape for an evening, popular with local families. Simple, safe and easy with young children or grandparents.", "lat": 23.621748, "lon": 58.492265, "p": "v"}, {"n": "Afternoon tea at The Chedi Muscat", "cat": "do", "tier": "", "a": "Ghubra / North Ghubra", "d": "Oman's most stylish resort — long reflecting pools, minimalist Omani-Zen design and a serene Lobby Lounge that serves an exquisite afternoon tea. Even non-residents can book in for tea or dinner and soak up the calm. Discreet luxury of exactly the kind that beats Dubai's glitz. Vegetarian and dietary requests handled with ease.", "lat": 23.586519, "lon": 58.40608, "p": "a"}, {"n": "Al Bustan Palace, a Ritz-Carlton Hotel", "cat": "do", "tier": "", "a": "Al Bustan", "d": "A landmark hotel set between mountains and a private bay, with a soaring 38-metre domed atrium lobby. Come for afternoon tea beneath the dome or a beachfront dinner even if you stay elsewhere — one of Muscat's grand, gracious dining experiences. The setting alone is worth the drive.", "lat": 23.567224, "lon": 58.604635, "p": "a"}, {"n": "Nizwa Fort & Souq", "cat": "do", "tier": "", "a": "Nizwa (day trip)", "d": "The old imamate capital, 90 minutes inland — a massive 17th-century round-towered fort you can climb for sweeping views, beside a restored souq trading silver, dates, pottery and frankincense. The cultural heart of Oman's interior, and an easy, rewarding day trip with a private car. Best paired with the Friday goat market.", "lat": 23.597305, "lon": 58.548435, "p": "v"}, {"n": "Jabreen Castle", "cat": "do", "tier": "", "a": "Bahla (day trip)", "d": "The most beautiful of Oman's castles — a 1670 palace-fort with painted wooden ceilings, hidden chambers, date-store rooms and a canal running through it. Small, intimate and gorgeously preserved, it rewards a slow wander. An easy pairing with Bahla Fort just up the road.", "lat": 23.594028, "lon": 58.366176, "p": "v"}, {"n": "Bahla Fort", "cat": "do", "tier": "", "a": "Bahla (day trip)", "d": "Oman's only UNESCO-listed fort — a vast 13th-century mud-brick citadel with a 12km oasis wall, steeped in local legend. Recently restored, it is monumental and atmospheric, the great fortress of the interior. Combine with neighbouring Jabreen Castle and Nizwa for a full interior day.", "lat": 23.617274, "lon": 58.593294, "p": "v"}, {"n": "Alila Jabal Akhdar", "cat": "do", "tier": "", "a": "Al Jabal Al Akhdar (overnight)", "d": "A serene stone-built retreat perched on the mountain plateau, all clean lines, big views and a spa above the clouds. The mountain base of choice for couples and families wanting quiet luxury, mountain walks and cool nights. Stay a night to feel Oman's other, alpine self.", "lat": 23.588828, "lon": 58.598961, "p": "a"}, {"n": "Anantara Al Jabal Al Akhdar", "cat": "do", "tier": "", "a": "Al Jabal Al Akhdar (overnight)", "d": "The highest five-star resort in the Middle East, on the very lip of a canyon with a dramatic cliff-edge pool and rose-ritual spa. Refined, warm and spectacular — guided rose-farm and mountain-guru walks included. A destination in its own right for a multi-generation stay.", "lat": 23.588828, "lon": 58.598961, "p": "a"}, {"n": "Wahiba Sands (Sharqiya Sands)", "cat": "do", "tier": "", "a": "Al Sharqiyah (overnight)", "d": "A sea of amber dunes over 100m tall, home to the Bedu. Ride the crests by 4x4, meet a Bedouin family, then sleep in a luxury desert camp under a spread of stars with dinner over the fire. The classic Arabian desert night — thrilling for children, magical for all. Book a tented camp with private, comfortable suites.", "lat": 23.47045, "lon": 58.266693, "p": "a"}, {"n": "Wadi Bani Khalid", "cat": "do", "tier": "", "a": "Al Sharqiyah (day trip)", "d": "The most accessible of Oman's great wadis — emerald spring-fed pools among palms and smooth boulders, a five-minute walk from the car park, with a café overlooking the water. Swim in the warm rock pools or stroll the gorge; there is even a cave for the adventurous. Family-easy and gorgeous. Pairs with a Wahiba desert night.", "lat": 23.592759, "lon": 58.555525, "p": "v"}, {"n": "Wadi Shab", "cat": "do", "tier": "", "a": "Between Muscat and Sur (day trip)", "d": "Oman's most celebrated wadi hike — a short boat across the mouth, then an easy trail past turquoise pools to a hidden cave waterfall you swim to reach. About two hours from Muscat and doable in a day. Bring water shoes; the reward at the end is unforgettable. Best for active families and couples.", "lat": 23.617701, "lon": 58.545387, "p": "a"}, {"n": "Rustaq Fort", "cat": "do", "tier": "", "a": "Al Batinah (day trip)", "d": "One of Oman's largest forts in a former capital, with towering walls, a mosque and its own hot spring within. Less visited than Nizwa, so often quiet, and paired naturally with Nakhal on the Batinah loop. A grand, uncrowded fort day for history-lovers.", "lat": 23.587319, "lon": 58.522315, "p": "v"}, {"n": "Jebel Sifah", "cat": "do", "tier": "", "a": "Sifah coast (day trip / overnight)", "d": "A resort marina town on the coast south of Muscat, ringed by mountains and a long sandy beach with calm swimming and a golf course. An easy, laid-back seaside escape — kayaking, boat trips and quiet sand within an hour of the city. Good for a relaxed family day by the water.", "lat": 23.413471, "lon": 58.79383, "p": "v"}, {"n": "Yiti Beach", "cat": "do", "tier": "", "a": "Yiti (near Muscat)", "d": "A wild, quiet cove reached over the coastal hills from Muscat, with a hidden stretch that feels like a private beach. Big skies, few people and mountains meeting the sea — a favourite for a peaceful picnic or sunset drive. Best with a 4x4 and no fixed plans.", "lat": 23.532092, "lon": 58.681576, "p": "v"}, {"n": "Muscat Gate & city viewpoints", "cat": "do", "tier": "", "a": "Old Muscat / Riyam", "d": "The old ceremonial gate marking the entrance to Old Muscat, near the giant Riyam incense-burner monument on its hill. Climb for a panorama over the corniche, harbour and forts — a quick, free stop that frames the whole old city. Lovely near sunset.", "lat": 23.619704, "lon": 58.579624, "p": "a"}, {"n": "Private guide & 4x4 grand tour", "cat": "do", "tier": "", "a": "Muscat & interior", "d": "The best way to see Oman: a licensed private driver-guide and a comfortable 4x4 to link the forts, wadis, mountains and desert at your own pace, with the history unlocked and the logistics handled. Dietary needs — including Jain and pure-vegetarian — are easily arranged ahead. Discreet, flexible and ideal for a multi-generation family.", "lat": 23.58927, "lon": 58.419599, "p": "a"}, {"n": "The Long Bar, The Chedi Muscat", "cat": "party", "tier": "Cocktail bars", "a": "The Chedi Muscat, Shatti Al Qurum", "d": "A hushed, low-lit lounge inside Oman's design icon — considered cocktails and a fireside calm, the most refined drink in the city.", "lat": 23.602373, "lon": 58.399289, "p": "v"}, {"n": "The bar at Al Husn, a Waldorf Astoria Hotel", "cat": "party", "tier": "Landmark bars", "a": "Barr Al Jissah", "d": "Clifftop sundowners above a private cove at the crown of the Barr Al Jissah headland — the classic Muscat sunset drink, now under the Waldorf Astoria flag.", "lat": 23.550109, "lon": 58.659637, "p": "a"}, {"n": "Duke's Bar, Al Bustan Palace, a Ritz-Carlton Hotel", "cat": "party", "tier": "Landmark bars", "a": "Al Bustan", "d": "A classic hotel bar beneath the palace's soaring atrium — the grande-dame address for a measured evening drink in Muscat.", "lat": 23.567224, "lon": 58.604635, "p": "a"}]}
+{
+  "center": [
+    23.612363,
+    58.593813
+  ],
+  "venues": [
+    {
+      "n": "The Chedi Muscat",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Al Ghubra North, Shatti Al Qurum",
+      "d": "GHM's serene, minimalist beachfront sanctuary \u2014 the hotel that defined understated luxury in the Gulf, and Oman's one true icon.",
+      "lat": 23.602373,
+      "lon": 58.399289,
+      "photos": []
+    },
+    {
+      "n": "Mandarin Oriental, Muscat",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Shatti Al Qurum",
+      "d": "The group's Oman debut \u2014 a bright-white beachfront house where Omani craft meets Mandarin Oriental's quiet precision.",
+      "lat": 23.613325,
+      "lon": 58.456971,
+      "photos": []
+    },
+    {
+      "n": "Al Husn, a Waldorf Astoria Hotel",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Barr Al Jissah",
+      "d": "An adults-oriented clifftop 'castle' above a private turquoise cove \u2014 the crown of the Barr Al Jissah headland, now under the Waldorf Astoria flag.",
+      "lat": 23.550109,
+      "lon": 58.659637,
+      "photos": []
+    },
+    {
+      "n": "The St. Regis Al Mouj Muscat Resort",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Al Mouj (The Wave) marina district",
+      "d": "A polished beachfront newcomer beside Muscat's smartest marina-and-golf community \u2014 St. Regis butler service and a long private beach.",
+      "lat": 23.613418,
+      "lon": 58.301206,
+      "photos": []
+    },
+    {
+      "n": "Kempinski Hotel Muscat",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Al Mouj (The Wave)",
+      "d": "A vast six-kilometre-beachfront European grande-dame resort \u2014 eleven dining venues and a private stretch of sand at Al Mouj.",
+      "lat": 23.627444,
+      "lon": 58.272541,
+      "photos": []
+    },
+    {
+      "n": "W Muscat",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Shatti Al Qurum beachfront",
+      "d": "The brand's beachfront 'W Escape' \u2014 high-design, high-energy and unabashedly scene-y, right on Shatti Al Qurum.",
+      "lat": 23.616575,
+      "lon": 58.466182,
+      "photos": []
+    },
+    {
+      "n": "The Restaurant, The Chedi Muscat",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "The Chedi Muscat, Shatti Al Qurum",
+      "d": "Four open kitchens \u2014 Arabic, Indian, Asian and Mediterranean \u2014 under one high, chandeliered ceiling; the Chedi's flagship all-day room.",
+      "lat": 23.602513,
+      "lon": 58.399495,
+      "photos": []
+    },
+    {
+      "n": "The Beach Restaurant, The Chedi Muscat",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "The Chedi Muscat, Shatti Al Qurum",
+      "d": "Sand-underfoot seafood by the Gulf \u2014 Iranian and Caspian caviar, freshly shucked oysters and the line-caught catch of the day.",
+      "lat": 23.603602,
+      "lon": 58.400004,
+      "photos": []
+    },
+    {
+      "n": "Al Angham",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Royal Opera House Muscat, Shatti Al Qurum",
+      "d": "The finest room dedicated to Omani cuisine \u2014 carved-plaster grandeur beside the Opera House, serving the sultanate's own dishes with real ceremony.",
+      "lat": 23.613843,
+      "lon": 58.467781,
+      "photos": []
+    },
+    {
+      "n": "Bukhara, Kempinski Hotel Muscat",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Kempinski Hotel Muscat, Al Mouj",
+      "d": "Robust North Indian cooking from the clay tandoor, inside the city's largest beach resort \u2014 familiar flavours, done with polish.",
+      "lat": 23.627444,
+      "lon": 58.272541,
+      "photos": []
+    },
+    {
+      "n": "Shahi Darbar (fine Indian dining)",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Shatti Al Qurum / Al Khuwair",
+      "d": "Long-standing, well-regarded North Indian kitchen with a devoted local following \u2014 generous, familiar, unfussy.",
+      "lat": 23.613809,
+      "lon": 58.46768,
+      "photos": []
+    },
+    {
+      "n": "Ubhar",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Bareeq Al Shatti, Shatti Al Qurum",
+      "d": "Modern Omani-and-Arabian cooking that treats the sultanate's home dishes seriously \u2014 shuwa, harees, camel, done with pride.",
+      "lat": 23.612565,
+      "lon": 58.464367,
+      "photos": []
+    },
+    {
+      "n": "Kargeen Caf\u00e9",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Madinat Al Sultan Qaboos",
+      "d": "Lantern-lit garden courtyards and generous Omani-Levantine mezze \u2014 the city's most-loved relaxed table, buzzing past midnight.",
+      "lat": 23.600553,
+      "lon": 58.455,
+      "photos": []
+    },
+    {
+      "n": "Bin Ateeq",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Al Khuwair",
+      "d": "Floor-seated, private-room dining on Omani classics \u2014 shuwa and majboos served the old way, with no ceremony and real honesty.",
+      "lat": 23.599096,
+      "lon": 58.549015,
+      "photos": []
+    },
+    {
+      "n": "Sultan Qaboos Grand Mosque",
+      "cat": "do",
+      "tier": "",
+      "a": "Bawshar / Ghubra",
+      "d": "Oman's grandest mosque and the one unmissable landmark of Muscat \u2014 300,000 tonnes of Indian sandstone, a single hand-woven Persian carpet that took years to make, and a Swarovski chandelier hanging under the main dome. Non-Muslim visitors are welcome between 8 and 11 in the morning (not Fridays); entry is free, dress is modest, and abayas are lent at the gate. Serene and spotless \u2014 an easy, moving stop for all generations.",
+      "lat": 23.583787,
+      "lon": 58.388518,
+      "photos": []
+    },
+    {
+      "n": "Royal Opera House Muscat",
+      "cat": "do",
+      "tier": "",
+      "a": "Shati Al Qurum",
+      "d": "The Gulf's leading opera house \u2014 Omani stone and marble outside, Islamic, Mughal and European craftsmanship within. Either take a daytime house tour of the auditorium and its inlaid detail, or book an evening of opera, ballet or orchestral music from the October\u2013May season. A refined, dressy night out that families and culture-minded couples both love.",
+      "lat": 23.614276,
+      "lon": 58.468603,
+      "photos": []
+    },
+    {
+      "n": "Mutrah Corniche",
+      "cat": "do",
+      "tier": "",
+      "a": "Mutrah",
+      "d": "The great curving seafront of old Muscat \u2014 whitewashed merchant houses on one side, dhows and the Sultan's harbour on the other, the Hajar hills behind. Walk it late afternoon into golden hour when the light softens and the mosque minarets glow. The gentle, unhurried heart of the city.",
+      "lat": 23.620311,
+      "lon": 58.564538,
+      "photos": []
+    },
+    {
+      "n": "Mutrah Souq",
+      "cat": "do",
+      "tier": "",
+      "a": "Mutrah",
+      "d": "One of the oldest markets in the Arab world, a warren of covered lanes trading frankincense, silver khanjars, pashminas, antique silver and Omani halwa. Prices are gentle by Dubai standards and the traders are warm, not pushy \u2014 good for unhurried, multi-generation browsing. Best late afternoon into the evening when it reopens and comes alive.",
+      "lat": 23.619466,
+      "lon": 58.564942,
+      "photos": []
+    },
+    {
+      "n": "Mutrah Fish Market",
+      "cat": "do",
+      "tier": "",
+      "a": "Mutrah",
+      "d": "A working morning market under a striking wave-form roof on the harbour, where Omani fishermen land and sell the day's catch. Come at dawn for the full theatre of it \u2014 kingfish, tuna and hammour changing hands amid the calls of the auction. Vivid, authentic, and a photographer's delight.",
+      "lat": 23.616316,
+      "lon": 58.561759,
+      "photos": []
+    },
+    {
+      "n": "Al Alam Palace",
+      "cat": "do",
+      "tier": "",
+      "a": "Old Muscat",
+      "d": "The Sultan's ceremonial palace \u2014 flamboyant gold-and-blue flared columns framed by manicured avenues, designed by Mumbai's Shapoorji Pallonji firm. You cannot go inside, but the grand approach and the palace flanked by two Portuguese forts is the classic Muscat photograph. A short, easy stop paired with Old Muscat's museums.",
+      "lat": 23.616256,
+      "lon": 58.594867,
+      "photos": []
+    },
+    {
+      "n": "Al Jalali & Al Mirani Forts",
+      "cat": "do",
+      "tier": "",
+      "a": "Old Muscat",
+      "d": "Two 16th-century Portuguese forts guarding the natural harbour on either side of Al Alam Palace. Neither is generally open to the public, but they crown the rocky headlands and give Old Muscat its dramatic, defensible silhouette. Best seen from the palace forecourt or the corniche, especially at dusk.",
+      "lat": 23.616712,
+      "lon": 58.59789,
+      "photos": []
+    },
+    {
+      "n": "National Museum of Oman",
+      "cat": "do",
+      "tier": "",
+      "a": "Old Muscat",
+      "d": "Oman's flagship museum, opposite Al Alam Palace \u2014 beautifully lit galleries of the ruling dynasty, Omani silver, frankincense trade, arms and maritime heritage, with Arabic Braille throughout. Cool, calm and well-curated: the single best hour for understanding the country before you explore it. Excellent for curious teenagers.",
+      "lat": 23.611623,
+      "lon": 58.59358,
+      "photos": []
+    },
+    {
+      "n": "Bait Al Zubair Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Old Muscat",
+      "d": "A private family museum in a cluster of traditional houses \u2014 the finest privately held collection of Omani khanjars, jewellery, costume and household life, plus a garden, caf\u00e9 and art gallery. Intimate and personal where the National Museum is grand; the two together tell the whole story. On Al Saidiya Street in Old Muscat.",
+      "lat": 23.614394,
+      "lon": 58.58961,
+      "photos": []
+    },
+    {
+      "n": "Ghalya's Museum of Modern Art",
+      "cat": "do",
+      "tier": "",
+      "a": "Mutrah",
+      "d": "A quiet gem on the Mutrah corniche \u2014 a reconstructed Omani house recreating daily life from 1950 to 1975, room by room, with a small modern-art gallery upstairs. Founded by a member of the royal family, it is warm, unhurried and rarely crowded. A tender, human counterpoint to the big state museums.",
+      "lat": 23.578784,
+      "lon": 58.354921,
+      "photos": []
+    },
+    {
+      "n": "Old Muscat walking circuit",
+      "cat": "do",
+      "tier": "",
+      "a": "Old Muscat",
+      "d": "The walled original town behind the corniche \u2014 palace, forts, museums, the old Muscat Gate and quiet lanes, all within a compact, walkable radius. A morning here, with a private guide to unlock the history, gives you the founding story of the whole city in a couple of unhurried hours. Shaded stops and easy pacing suit all ages.",
+      "lat": 23.621472,
+      "lon": 58.562064,
+      "photos": []
+    },
+    {
+      "n": "Amouage Perfume Factory & Visitor Centre",
+      "cat": "do",
+      "tier": "",
+      "a": "Seeb",
+      "d": "The home of Oman's luxury house of perfume, built on frankincense, myrrh and Omani rose. A complimentary guided tour walks you from raw ingredient to finished bottle, ending in a boutique where you can sample and buy the full collection. A civilised, air-conditioned hour and a genuinely Omani luxury souvenir. Sunday to Thursday, mornings and afternoons.",
+      "lat": 23.591116,
+      "lon": 58.237879,
+      "photos": []
+    },
+    {
+      "n": "Dolphin watching by boat",
+      "cat": "do",
+      "tier": "",
+      "a": "Marina Bandar al Rowdha / Sidab",
+      "d": "Morning boats slip out of the marina to meet wild spinner and common dolphins that ride the bow and leap in their hundreds along this coast. A short, easy two-hour trip \u2014 thrilling for children and grandparents alike, with the fort-studded shoreline as backdrop. Best in the calm, cool morning sea.",
+      "lat": 23.582003,
+      "lon": 58.606363,
+      "photos": []
+    },
+    {
+      "n": "Sunset dhow cruise",
+      "cat": "do",
+      "tier": "",
+      "a": "Marina Bandar al Rowdha",
+      "d": "Sail the coast at dusk aboard a traditional wooden dhow, past cliffs, coves and the lights of Muscat coming on. Private charters can be arranged with Omani coffee, dates and dinner aboard \u2014 a discreet, romantic way to end a day. The gentlest luxury on the water.",
+      "lat": 23.582003,
+      "lon": 58.606363,
+      "photos": []
+    },
+    {
+      "n": "Bandar Khayran",
+      "cat": "do",
+      "tier": "",
+      "a": "Southeast of Muscat",
+      "d": "A hidden labyrinth of turquoise inlets, cliffs and mangroves southeast of the city \u2014 'the blue lagoons' \u2014 reached by boat or the coast road. Kayak or snorkel the sheltered bays by day, or take a sunset paddle through bioluminescent plankton in winter, when each stroke lights the water. Wild, unspoilt and private-feeling.",
+      "lat": 23.519132,
+      "lon": 58.749716,
+      "photos": []
+    },
+    {
+      "n": "Qurum Beach",
+      "cat": "do",
+      "tier": "",
+      "a": "Qurum / Shati Al Qurum",
+      "d": "A long, clean city beach backed by luxury hotels and the corniche \u2014 easy walking, calm swimming and a string of caf\u00e9s and restaurants. The relaxed everyday beach of Muscat, good for an early stroll or a sunset with the family. Between the Chedi and the Crowne Plaza cliff.",
+      "lat": 23.625565,
+      "lon": 58.479822,
+      "photos": []
+    },
+    {
+      "n": "Qurum Natural Park",
+      "cat": "do",
+      "tier": "",
+      "a": "Qurum",
+      "d": "The city's largest green park \u2014 lakes, lawns, shaded walks, playgrounds and a rose garden set behind the beach. A cool, family-friendly escape for an evening, popular with local families. Simple, safe and easy with young children or grandparents.",
+      "lat": 23.621748,
+      "lon": 58.492265,
+      "photos": []
+    },
+    {
+      "n": "Afternoon tea at The Chedi Muscat",
+      "cat": "do",
+      "tier": "",
+      "a": "Ghubra / North Ghubra",
+      "d": "Oman's most stylish resort \u2014 long reflecting pools, minimalist Omani-Zen design and a serene Lobby Lounge that serves an exquisite afternoon tea. Even non-residents can book in for tea or dinner and soak up the calm. Discreet luxury of exactly the kind that beats Dubai's glitz. Vegetarian and dietary requests handled with ease.",
+      "lat": 23.586519,
+      "lon": 58.40608,
+      "photos": []
+    },
+    {
+      "n": "Al Bustan Palace, a Ritz-Carlton Hotel",
+      "cat": "do",
+      "tier": "",
+      "a": "Al Bustan",
+      "d": "A landmark hotel set between mountains and a private bay, with a soaring 38-metre domed atrium lobby. Come for afternoon tea beneath the dome or a beachfront dinner even if you stay elsewhere \u2014 one of Muscat's grand, gracious dining experiences. The setting alone is worth the drive.",
+      "lat": 23.567224,
+      "lon": 58.604635,
+      "photos": []
+    },
+    {
+      "n": "Nizwa Fort & Souq",
+      "cat": "do",
+      "tier": "",
+      "a": "Nizwa (day trip)",
+      "d": "The old imamate capital, 90 minutes inland \u2014 a massive 17th-century round-towered fort you can climb for sweeping views, beside a restored souq trading silver, dates, pottery and frankincense. The cultural heart of Oman's interior, and an easy, rewarding day trip with a private car. Best paired with the Friday goat market.",
+      "lat": 23.597305,
+      "lon": 58.548435,
+      "photos": []
+    },
+    {
+      "n": "Jabreen Castle",
+      "cat": "do",
+      "tier": "",
+      "a": "Bahla (day trip)",
+      "d": "The most beautiful of Oman's castles \u2014 a 1670 palace-fort with painted wooden ceilings, hidden chambers, date-store rooms and a canal running through it. Small, intimate and gorgeously preserved, it rewards a slow wander. An easy pairing with Bahla Fort just up the road.",
+      "lat": 23.594028,
+      "lon": 58.366176,
+      "photos": []
+    },
+    {
+      "n": "Bahla Fort",
+      "cat": "do",
+      "tier": "",
+      "a": "Bahla (day trip)",
+      "d": "Oman's only UNESCO-listed fort \u2014 a vast 13th-century mud-brick citadel with a 12km oasis wall, steeped in local legend. Recently restored, it is monumental and atmospheric, the great fortress of the interior. Combine with neighbouring Jabreen Castle and Nizwa for a full interior day.",
+      "lat": 23.617274,
+      "lon": 58.593294,
+      "photos": []
+    },
+    {
+      "n": "Alila Jabal Akhdar",
+      "cat": "do",
+      "tier": "",
+      "a": "Al Jabal Al Akhdar (overnight)",
+      "d": "A serene stone-built retreat perched on the mountain plateau, all clean lines, big views and a spa above the clouds. The mountain base of choice for couples and families wanting quiet luxury, mountain walks and cool nights. Stay a night to feel Oman's other, alpine self.",
+      "lat": 23.588828,
+      "lon": 58.598961,
+      "photos": []
+    },
+    {
+      "n": "Anantara Al Jabal Al Akhdar",
+      "cat": "do",
+      "tier": "",
+      "a": "Al Jabal Al Akhdar (overnight)",
+      "d": "The highest five-star resort in the Middle East, on the very lip of a canyon with a dramatic cliff-edge pool and rose-ritual spa. Refined, warm and spectacular \u2014 guided rose-farm and mountain-guru walks included. A destination in its own right for a multi-generation stay.",
+      "lat": 23.588828,
+      "lon": 58.598961,
+      "photos": []
+    },
+    {
+      "n": "Wahiba Sands (Sharqiya Sands)",
+      "cat": "do",
+      "tier": "",
+      "a": "Al Sharqiyah (overnight)",
+      "d": "A sea of amber dunes over 100m tall, home to the Bedu. Ride the crests by 4x4, meet a Bedouin family, then sleep in a luxury desert camp under a spread of stars with dinner over the fire. The classic Arabian desert night \u2014 thrilling for children, magical for all. Book a tented camp with private, comfortable suites.",
+      "lat": 23.47045,
+      "lon": 58.266693,
+      "photos": []
+    },
+    {
+      "n": "Wadi Bani Khalid",
+      "cat": "do",
+      "tier": "",
+      "a": "Al Sharqiyah (day trip)",
+      "d": "The most accessible of Oman's great wadis \u2014 emerald spring-fed pools among palms and smooth boulders, a five-minute walk from the car park, with a caf\u00e9 overlooking the water. Swim in the warm rock pools or stroll the gorge; there is even a cave for the adventurous. Family-easy and gorgeous. Pairs with a Wahiba desert night.",
+      "lat": 23.592759,
+      "lon": 58.555525,
+      "photos": []
+    },
+    {
+      "n": "Wadi Shab",
+      "cat": "do",
+      "tier": "",
+      "a": "Between Muscat and Sur (day trip)",
+      "d": "Oman's most celebrated wadi hike \u2014 a short boat across the mouth, then an easy trail past turquoise pools to a hidden cave waterfall you swim to reach. About two hours from Muscat and doable in a day. Bring water shoes; the reward at the end is unforgettable. Best for active families and couples.",
+      "lat": 23.617701,
+      "lon": 58.545387,
+      "photos": []
+    },
+    {
+      "n": "Rustaq Fort",
+      "cat": "do",
+      "tier": "",
+      "a": "Al Batinah (day trip)",
+      "d": "One of Oman's largest forts in a former capital, with towering walls, a mosque and its own hot spring within. Less visited than Nizwa, so often quiet, and paired naturally with Nakhal on the Batinah loop. A grand, uncrowded fort day for history-lovers.",
+      "lat": 23.587319,
+      "lon": 58.522315,
+      "photos": []
+    },
+    {
+      "n": "Jebel Sifah",
+      "cat": "do",
+      "tier": "",
+      "a": "Sifah coast (day trip / overnight)",
+      "d": "A resort marina town on the coast south of Muscat, ringed by mountains and a long sandy beach with calm swimming and a golf course. An easy, laid-back seaside escape \u2014 kayaking, boat trips and quiet sand within an hour of the city. Good for a relaxed family day by the water.",
+      "lat": 23.413471,
+      "lon": 58.79383,
+      "photos": []
+    },
+    {
+      "n": "Yiti Beach",
+      "cat": "do",
+      "tier": "",
+      "a": "Yiti (near Muscat)",
+      "d": "A wild, quiet cove reached over the coastal hills from Muscat, with a hidden stretch that feels like a private beach. Big skies, few people and mountains meeting the sea \u2014 a favourite for a peaceful picnic or sunset drive. Best with a 4x4 and no fixed plans.",
+      "lat": 23.532092,
+      "lon": 58.681576,
+      "photos": []
+    },
+    {
+      "n": "Muscat Gate & city viewpoints",
+      "cat": "do",
+      "tier": "",
+      "a": "Old Muscat / Riyam",
+      "d": "The old ceremonial gate marking the entrance to Old Muscat, near the giant Riyam incense-burner monument on its hill. Climb for a panorama over the corniche, harbour and forts \u2014 a quick, free stop that frames the whole old city. Lovely near sunset.",
+      "lat": 23.619704,
+      "lon": 58.579624,
+      "photos": []
+    },
+    {
+      "n": "Private guide & 4x4 grand tour",
+      "cat": "do",
+      "tier": "",
+      "a": "Muscat & interior",
+      "d": "The best way to see Oman: a licensed private driver-guide and a comfortable 4x4 to link the forts, wadis, mountains and desert at your own pace, with the history unlocked and the logistics handled. Dietary needs \u2014 including Jain and pure-vegetarian \u2014 are easily arranged ahead. Discreet, flexible and ideal for a multi-generation family.",
+      "lat": 23.58927,
+      "lon": 58.419599,
+      "photos": []
+    },
+    {
+      "n": "The Long Bar, The Chedi Muscat",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "The Chedi Muscat, Shatti Al Qurum",
+      "d": "A hushed, low-lit lounge inside Oman's design icon \u2014 considered cocktails and a fireside calm, the most refined drink in the city.",
+      "lat": 23.602373,
+      "lon": 58.399289,
+      "photos": []
+    },
+    {
+      "n": "The bar at Al Husn, a Waldorf Astoria Hotel",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "Barr Al Jissah",
+      "d": "Clifftop sundowners above a private cove at the crown of the Barr Al Jissah headland \u2014 the classic Muscat sunset drink, now under the Waldorf Astoria flag.",
+      "lat": 23.550109,
+      "lon": 58.659637,
+      "photos": []
+    },
+    {
+      "n": "Duke's Bar, Al Bustan Palace, a Ritz-Carlton Hotel",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "Al Bustan",
+      "d": "A classic hotel bar beneath the palace's soaring atrium \u2014 the grande-dame address for a measured evening drink in Muscat.",
+      "lat": 23.567224,
+      "lon": 58.604635,
+      "photos": []
+    }
+  ]
+}

@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import destinationsData from "../data/destinations-index.generated.json";
 import worldDots from "../data/worlddots.generated.json";
+import zonesData from "../data/zones.json";
 import type { DestinationsIndexPageData } from "../types/destinations-index";
 import { useScrollReveal } from "../lib/useScrollReveal";
 import { toRoute } from "../lib/toRoute";
@@ -9,6 +10,21 @@ import styles from "./destinations-index-page.module.css";
 
 const data = destinationsData as unknown as DestinationsIndexPageData;
 const DOTS = worldDots as unknown as [number, number][];
+
+// A group's country name links to its Country/Zone page once that page
+// exists (zones.json is hand-authored, so most countries won't have one
+// yet) — otherwise it stays plain text, same as before. Matched by
+// slugifying the display label (e.g. "Greece" -> "greece") rather than a
+// separate authored mapping, since zones.json's own keys are already just
+// the lowercase country/zone name.
+const ZONE_SLUGS = new Set(Object.keys(zonesData));
+function zoneSlugFor(countryLabel: string): string | null {
+  const slug = countryLabel
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/(^-|-$)/g, "");
+  return ZONE_SLUGS.has(slug) ? slug : null;
+}
 
 const W = 2000;
 const H = 1000;
@@ -155,10 +171,18 @@ export default function DestinationsIndexPage() {
                       </div>
                     );
                   }
+                  const zoneSlug = zoneSlugFor(g.country);
+                  const countryNameEl = zoneSlug ? (
+                    <Link className="dx-c-name" to={toRoute(`zone-${zoneSlug}`)}>
+                      {g.country}
+                    </Link>
+                  ) : (
+                    <span className="dx-c-name">{g.country}</span>
+                  );
                   if (g.size === "big") {
                     return (
                       <div className="dx-country dx-big" key={g.country}>
-                        <span className="dx-c-name">{g.country}</span>
+                        {countryNameEl}
                         <div className="dx-cities-multi">
                           {g.cities.map((c) => (
                             <Link className="dx-city" to={toRoute(`city-${c.slug}.html`)} key={c.slug}>
@@ -171,7 +195,7 @@ export default function DestinationsIndexPage() {
                   }
                   return (
                     <div className="dx-country" key={g.country}>
-                      <span className="dx-c-name">{g.country}</span>
+                      {countryNameEl}
                       {g.cities.map((c) => (
                         <Link className="dx-city" to={toRoute(`city-${c.slug}.html`)} key={c.slug}>
                           {c.name}

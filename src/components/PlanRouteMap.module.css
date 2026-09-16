@@ -1,0 +1,69 @@
+.plain {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: var(--bone);
+  overflow: hidden;
+}
+
+.lines {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Upcoming leg: dotted, muted — not yet traveled. */
+.leg {
+  stroke: var(--stone, #8b8578);
+  stroke-width: 1.5;
+  stroke-dasharray: 3 4;
+  opacity: 0.45;
+  transition: stroke-dasharray 0.4s ease, opacity 0.6s ease, stroke 0.4s ease;
+}
+
+/* Already-traveled leg: solid, but recedes once it's no longer the current one. */
+.leg.traveled {
+  stroke-dasharray: none;
+  stroke: var(--ink-soft, #3e3a35);
+  opacity: 0.35;
+}
+
+/* The one leg leading into the active stop: full solid, arrowhead, most prominent. */
+.leg.current {
+  stroke: var(--signature, #6e2a38);
+  opacity: 1;
+}
+
+.stopWrap {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transform: translate(-50%, -50%);
+}
+
+.stopLabel {
+  font-family: var(--fr);
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--ink);
+  white-space: nowrap;
+  text-shadow: 0 1px 2px var(--bone, #faf9f6), 0 0 6px var(--bone, #faf9f6);
+}
+
+/* The real Google Map's equivalent label — a small floating pill rendered
+   in the map's own overlay pane (OverlayViewF) beside each marker, since
+   Marker's native `label` option is too limited (a single short glyph, no
+   real font/style control) to match the app's own typography. */
+.mapLabel {
+  font-family: var(--fr);
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--ink);
+  background: rgba(250, 249, 246, 0.9);
+  padding: 2px 8px;
+  border-radius: 4px;
+  white-space: nowrap;
+  pointer-events: none;
+}
