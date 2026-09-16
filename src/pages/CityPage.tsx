@@ -410,20 +410,7 @@ export default function CityPage() {
     );
   }
 
-  const {
-    hero,
-    ourTake,
-    firstLook,
-    whenToGo,
-    guide,
-    signatureExperiences,
-    plan,
-    neighbourhoods,
-    whatsOn,
-    goodToKnow,
-    collections,
-    closing,
-  } =
+  const { hero, ourTake, firstLook, whenToGo, guide, plan, neighbourhoods, whatsOn, goodToKnow, collections, closing } =
     city;
 
   return (
@@ -587,34 +574,6 @@ export default function CityPage() {
         )}
       </div>
       </div>
-
-      {signatureExperiences.items.length > 0 && (
-        <section className="band tight ta-content ta-sig">
-          <div className="wrap">
-            <div className="reveal" style={{ maxWidth: "56ch" }}>
-              <div className="eyebrow">Signature experiences</div>
-              <div className="rule" />
-              <h2 style={{ fontSize: "clamp(26px,3.2vw,42px)" }}>{signatureExperiences.heading}</h2>
-            </div>
-            <div className={`${styles.sigGrid} reveal d1`}>
-              {signatureExperiences.items.map((item, i) => (
-                <div className={styles.sigCard} key={i}>
-                  <div className={styles.sigThumbWrap}>
-                    <img
-                      className={styles.sigThumb}
-                      src={item.image ?? placeholderPhoto(`sig-${city.slug}-${i}-${item.title}`)}
-                      alt=""
-                      loading="lazy"
-                    />
-                  </div>
-                  <h3 className={styles.sigTitle}>{item.title}</h3>
-                  {item.description && <p className={styles.sigDesc}>{item.description}</p>}
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-      )}
 
       <section className="band ta-guide" id="stay" style={{ scrollMarginTop: 96 }}>
         <div className="wrap">
