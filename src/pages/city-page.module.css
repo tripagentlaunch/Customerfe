@@ -400,18 +400,3 @@
  @media(max-width:900px){
    .ta-split-info :global(.ta-itin){height:auto;padding-top:0;padding-bottom:0}
  }
-
- /* "Signature experiences" — a small curated highlight reel (4 items,
-    typically), distinct from the guide's stay/eat/do/party listings below
-    it. Photo-led cards, same fixed-thumb-then-text shape as the guide
-    cards but standalone (not reusing GuideCard/.card-inner directly,
-    since those rules are scoped under :global(.ta-guide .cg-list) and
-    assume that ancestor for their hover/line-clamp behaviour). */
- .sig-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(16px,2vw,28px);margin-top:clamp(24px,2.6vw,34px)}
- @media(max-width:900px){.sig-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
- @media(max-width:520px){.sig-grid{grid-template-columns:1fr}}
- .sig-card{display:flex;flex-direction:column}
- .sig-thumb-wrap{position:relative;aspect-ratio:4/3;border-radius:8px;overflow:hidden;background:var(--bone)}
- .sig-thumb{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
- .sig-title{font-family:var(--serif);font-weight:500;font-size:17px;line-height:1.3;color:var(--ink);margin:14px 0 6px}
- .sig-desc{font-family:var(--fr);font-size:13.5px;line-height:1.55;color:var(--ink-soft);margin:0}
