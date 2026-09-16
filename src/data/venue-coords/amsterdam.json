@@ -1,1 +1,798 @@
-{"center": [52.37308, 4.892453], "venues": [{"n": "De L'Europe Amsterdam", "cat": "stay", "tier": "Ultra", "a": "Canal Ring — on the Amstel, by Muntplein", "d": "The city's original grand dame, on the Amstel since 1896 — a classic European grand hotel, family-owned and freshly renovated.", "lat": 52.367644, "lon": 4.894466, "p": "v"}, {"n": "Waldorf Astoria Amsterdam", "cat": "stay", "tier": "Ultra", "a": "Canal Ring — Herengracht", "d": "Six adjoining 17th-century canal mansions on the Herengracht — the only Forbes Five-Star hotel in the Netherlands, with a garden courtyard rare for the centre.", "lat": 52.364724, "lon": 4.89692, "p": "v"}, {"n": "Rosewood Amsterdam", "cat": "stay", "tier": "Ultra", "a": "Canal Ring — former Palace of Justice, Prinsengracht", "d": "Rosewood's first Dutch house, in the 1665 former Palace of Justice on the Prinsengracht — 134 rooms, an Asaya spa and a 12-metre pool.", "lat": 52.36543, "lon": 4.883381, "p": "v"}, {"n": "Conservatorium Hotel", "cat": "stay", "tier": "Ultra", "a": "Oud-Zuid — Museum Quarter, facing the Rijksmuseum side", "d": "A former music conservatory turned soaring glass-roofed design hotel, opposite Museumplein — the city's most architectural luxury stay.", "lat": 52.375961, "lon": 4.908902, "p": "v"}, {"n": "Hotel Okura Amsterdam", "cat": "stay", "tier": "Grand", "a": "De Pijp — south of the centre", "d": "A serene Japanese-run grand hotel with the city's greatest concentration of stars under one roof — three MICHELIN stars across its restaurants.", "lat": 52.348619, "lon": 4.893199, "p": "v"}, {"n": "Anantara Grand Hotel Krasnapolsky Amsterdam", "cat": "stay", "tier": "Grand", "a": "Centre — on Dam Square", "d": "An 1865 landmark on Dam Square, reborn under Anantara — grand scale, a famous glass-roofed Winter Garden, and a Michelin kitchen within.", "lat": 52.372729, "lon": 4.894385, "p": "v"}, {"n": "The Dylan Amsterdam", "cat": "stay", "tier": "Grand", "a": "Canal Ring — Keizersgracht", "d": "An intimate canal-house hotel on the Keizersgracht around a hidden courtyard — home to one of the city's two-star kitchens.", "lat": 52.369284, "lon": 4.884007, "p": "v"}, {"n": "Pulitzer Amsterdam", "cat": "stay", "tier": "Grand", "a": "Canal Ring — Prinsengracht & Keizersgracht", "d": "Twenty-five interlinked 17th- and 18th-century canal houses between two canals — a whole block of the Grachtengordel turned into one characterful hotel.", "lat": 52.372809, "lon": 4.883429, "p": "v"}, {"n": "Hotel TwentySeven", "cat": "stay", "tier": "Grand", "a": "Centre — on Dam Square", "d": "A jewel-box, all-suite hotel of just sixteen suites on Dam Square — intensely private, with a one-star kitchen on the top floor.", "lat": 52.37027, "lon": 4.888788, "p": "v"}, {"n": "Tivoli Doelen Amsterdam", "cat": "stay", "tier": "Luxury", "a": "Canal Ring — on the Amstel, by Muntplein", "d": "One of the city's oldest hotel sites on the Amstel, reborn as a contemporary Tivoli — a classic Dutch address with fresh polish.", "lat": 52.368205, "lon": 4.895742, "p": "v"}, {"n": "Spectrum", "cat": "eat", "tier": "Destination", "a": "Canal Ring — Waldorf Astoria, Herengracht", "d": "Sidney Schutte's precise, layered cooking in the Waldorf Astoria — two stars and one of the city's benchmark tasting tables.", "lat": 52.364632, "lon": 4.896983, "p": "v"}, {"n": "Ciel Bleu", "cat": "eat", "tier": "Destination", "a": "De Pijp — Hotel Okura, 23rd floor", "d": "A two-star institution on the 23rd floor of the Okura — refined contemporary cooking with the finest dining view in the city.", "lat": 52.348729, "lon": 4.894117, "p": "v"}, {"n": "Flore", "cat": "eat", "tier": "Destination", "a": "Canal Ring — Nieuwe Doelenstraat, by the Amstel", "d": "Bas van Kranen's near-vegetarian, hyper-seasonal cooking — two stars and a Green Star, one of the most forward kitchens in the Netherlands.", "lat": 52.367454, "lon": 4.894303, "p": "v"}, {"n": "Vinkeles", "cat": "eat", "tier": "Destination", "a": "Canal Ring — The Dylan, Keizersgracht", "d": "Two-star French cooking in an atmospheric 18th-century former bakery within The Dylan — one of the city's great romantic rooms.", "lat": 52.369263, "lon": 4.883458, "p": "v"}, {"n": "Restaurant 212", "cat": "eat", "tier": "Destination", "a": "Canal Ring — Amstel", "d": "An open-kitchen counter on the Amstel where you watch two-star cooking up close — theatrical, precise and personal.", "lat": 52.365878, "lon": 4.90026, "p": "v"}, {"n": "RIJKS", "cat": "eat", "tier": "Fine", "a": "Oud-Zuid — inside the Rijksmuseum", "d": "A one-star kitchen inside the Rijksmuseum — locally sourced Dutch cooking beside the world's great Rembrandts.", "lat": 52.359598, "lon": 4.884293, "p": "v"}, {"n": "The White Room", "cat": "eat", "tier": "Fine", "a": "Centre — Anantara Krasnapolsky, Dam Square", "d": "Refined cooking under an ornate 1885 ceiling on Dam Square — a one-star room of real grandeur inside the Krasnapolsky.", "lat": 52.37279, "lon": 4.894505, "p": "v"}, {"n": "Bougainville", "cat": "eat", "tier": "Fine", "a": "Centre — Hotel TwentySeven, Dam Square", "d": "Tim Golsteijn's elegant one-star cooking with panoramic views over Dam Square — a jewel-box room above the square.", "lat": 52.372511, "lon": 4.893252, "p": "v"}, {"n": "De Kas", "cat": "eat", "tier": "Fine", "a": "Amsterdam-Oost — Frankendael Park", "d": "A daily-changing menu grown in the restaurant's own 1926 greenhouse — the original farm-to-table Amsterdam, now with a star and a Green Star.", "lat": 52.352292, "lon": 4.930572, "p": "v"}, {"n": "Bolenius", "cat": "eat", "tier": "Fine", "a": "Zuidas — the business district", "d": "Vegetables and herbs from its own kitchen garden drive this one-star, Green-Star kitchen in the Zuidas — quietly one of the city's most sustainable tables.", "lat": 52.359618, "lon": 4.844033, "p": "v"}, {"n": "Yamazato", "cat": "eat", "tier": "Fine", "a": "De Pijp — Hotel Okura", "d": "Authentic Japanese kaiseki that earned a MICHELIN star — a rare traditional Japanese room outside Japan, inside the Okura.", "lat": 52.348647, "lon": 4.893922, "p": "v"}, {"n": "Daalder", "cat": "eat", "tier": "Fine", "a": "Amsterdam-West — Het Sieraad, Postjesweg", "d": "Relaxed but serious one-star cooking in the west of the city — casual fine dining that quietly punches above its room.", "lat": 52.364109, "lon": 4.859088, "p": "v"}, {"n": "Wils", "cat": "eat", "tier": "Fine", "a": "Oud-Zuid — Stadionplein", "d": "Live-fire, wood-fired cooking with a great wine list — a one-star grill that does open flame beautifully.", "lat": 52.343394, "lon": 4.856157, "p": "v"}, {"n": "Sinne", "cat": "eat", "tier": "Fine", "a": "De Pijp — Ceintuurbaan", "d": "A neighbourhood one-star in De Pijp doing refined French–Mediterranean menus at a friendlier price than the grand rooms.", "lat": 52.352999, "lon": 4.894063, "p": "v"}, {"n": "MOS", "cat": "eat", "tier": "Fine", "a": "Eastern Docklands — IJdok, on the IJ", "d": "A small one-star room on the IJ waterfront — precise French-and-international cooking with water on three sides.", "lat": 52.383796, "lon": 4.895503, "p": "v"}, {"n": "De Juwelier", "cat": "eat", "tier": "Fine", "a": "Canal Ring — Utrechtsestraat", "d": "Richard van Oostenbrugge and Thomas Groot's Franco-inspired seafood room — a stylish, contemporary one-star on Utrechtsestraat.", "lat": 52.364256, "lon": 4.898276, "p": "v"}, {"n": "Bistro de la Mer", "cat": "eat", "tier": "Fine", "a": "Canal Ring — Utrechtsestraat", "d": "A refined French seafood bistro that earned a star — classic technique, beautifully sourced fish, unfussy elegance.", "lat": 52.364132, "lon": 4.898292, "p": "v"}, {"n": "Zoldering", "cat": "eat", "tier": "Fine", "a": "Canal Ring — Utrechtsestraat", "d": "An intimate one-star with a serious wine focus — considered French cooking in a small, personal room.", "lat": 52.361336, "lon": 4.8994, "p": "v"}, {"n": "Rijksmuseum", "cat": "do", "tier": "", "a": "Museum Quarter", "d": "The nation's treasure house, built for the Dutch Golden Age: Rembrandt's colossal Night Watch, Vermeer's quiet interiors, Delftware and ship models across eighty galleries. A private early-access tour before the doors open lets a family stand alone with the great canvases; the garden and the airy atrium café make an easy pause for younger children.", "lat": 52.359843, "lon": 4.88504, "p": "v"}, {"n": "Van Gogh Museum", "cat": "do", "tier": "", "a": "Museum Quarter", "d": "The largest Van Gogh collection on earth, roughly 200 paintings and 500 drawings hung to trace his life from Nuenen to Auvers — Sunflowers, Almond Blossom, The Bedroom in one place. Book a timed slot and go at opening; the multimedia guide is a gentle way to keep teenagers engaged.", "lat": 52.358367, "lon": 4.88109, "p": "v"}, {"n": "Anne Frank House", "cat": "do", "tier": "", "a": "Jordaan / Canal Ring", "d": "The canal-side house on the Prinsengracht where Anne Frank, her family and four others hid for two years behind a bookcase, and where she wrote the diary. Tickets are timed and sell out weeks ahead — book the moment they release. A quiet, sobering hour that older children carry with them; the annex is steep and unsuitable for very young ones.", "lat": 52.375156, "lon": 4.884081, "p": "v"}, {"n": "Stedelijk Museum", "cat": "do", "tier": "", "a": "Museum Quarter", "d": "The Netherlands' museum of modern and contemporary art, from Malevich, Mondrian and Matisse through Warhol and Dutch design, in the landmark 'bathtub' extension on Museumplein. A natural third stop once the Rijksmuseum and Van Gogh are done, and rarely as crowded.", "lat": 52.3579, "lon": 4.87986, "p": "v"}, {"n": "The Canal Ring (Grachtengordel)", "cat": "do", "tier": "", "a": "City Centre", "d": "The seventeenth-century belt of three grand canals — Herengracht, Keizersgracht, Prinsengracht — lined with gabled merchant houses, hump-backed bridges and houseboats. Simply wander the towpaths at golden hour; the 'Golden Bend' on the Herengracht holds the grandest of the old mansions.", "lat": 52.371979, "lon": 4.884727, "p": "v"}, {"n": "Private canal cruise", "cat": "do", "tier": "", "a": "City Centre", "d": "See the city the way it was meant to be seen — from the water. A chartered open saloon boat with a skipper glides under the low bridges of the canal belt at dusk; arrange a private vessel with your own catering and a discreet crew rather than the packed public boats. The most relaxed way for multiple generations to take in the city together.", "lat": 52.378676, "lon": 4.897165, "p": "v"}, {"n": "Jordaan", "cat": "do", "tier": "", "a": "Jordaan", "d": "The former working-class quarter turned Amsterdam's most charming neighbourhood: narrow lanes, hidden courtyards (hofjes), independent galleries, brown cafés and antique shops along the Elandsgracht. Best enjoyed slowly on foot with no fixed plan, stopping wherever the window looks good.", "lat": 52.375416, "lon": 4.881096, "p": "v"}, {"n": "The Nine Streets (De Negen Straatjes)", "cat": "do", "tier": "", "a": "Canal Ring", "d": "Nine little cross-streets threading between the main canals, packed with concept boutiques, vintage dealers, jewellers and specialist cafés — the best browsing in the old city. Compact enough to cover in an afternoon, with plenty of veg-friendly cafés and patisseries for a break.", "lat": 52.371979, "lon": 4.884727, "p": "a"}, {"n": "De Pijp", "cat": "do", "tier": "", "a": "De Pijp", "d": "Amsterdam's most vibrant food-and-drink district, built around the Albert Cuyp market and Sarphatipark. Bakeries, wine bars, and an unusually deep bench of Indian, Surinamese, Middle Eastern and vegetarian kitchens make it the easy choice when the family wants variety at dinner.", "lat": 52.353346, "lon": 4.896962, "p": "v"}, {"n": "Albert Cuyp Market", "cat": "do", "tier": "", "a": "De Pijp", "d": "The largest open-air market in the Netherlands, running since 1905 with 260-odd stalls of cheese, flowers, fabric, street food and stroopwafels pressed fresh. A lively morning stroll; watch the pockets and go early before the crowds thicken.", "lat": 52.355233, "lon": 4.891779, "p": "v"}, {"n": "Amsterdam-Noord & NDSM Wharf", "cat": "do", "tier": "", "a": "Amsterdam-Noord", "d": "A two-minute free ferry across the IJ from Centraal delivers you to the city's creative frontier — a former shipyard of street-art hangars, design studios, waterfront restaurants and flea markets. A refreshing half-day away from the tourist core.", "lat": 52.399409, "lon": 4.894843, "p": "v"}, {"n": "A'DAM Lookout", "cat": "do", "tier": "", "a": "Amsterdam-Noord", "d": "The highest public viewpoint in central Amsterdam, atop the 100-metre A'DAM Tower, with a 360-degree skydeck and 'Over the Edge' — Europe's highest swing, out over the water. Cap it at the revolving Moon restaurant or the rooftop bar; the thrill-swing is a hit with teenagers.", "lat": 52.383856, "lon": 4.902103, "p": "v"}, {"n": "EYE Filmmuseum", "cat": "do", "tier": "", "a": "Amsterdam-Noord", "d": "A sculptural white building on the northern bank of the IJ devoted to cinema — exhibitions, restored classics, and a waterfront terrace with one of the best views back across the water to the old city. Reachable on the same free ferry as A'DAM Lookout.", "lat": 52.384335, "lon": 4.900812, "p": "v"}, {"n": "Vondelpark", "cat": "do", "tier": "", "a": "Museum Quarter / Oud-Zuid", "d": "Amsterdam's great green lung, opened in 1865: 47 hectares of ponds, lawns, rose garden and an open-air theatre, minutes from the museums. Rent bikes for the family, picnic on the grass, or take an early-morning run before the galleries open.", "lat": 52.357197, "lon": 4.864119, "p": "v"}, {"n": "Hortus Botanicus", "cat": "do", "tier": "", "a": "Plantage", "d": "One of the world's oldest botanical gardens, laid out in 1638 as a physic garden for the city's doctors, with a butterfly house, a three-climate palm glasshouse and an ancient cycad collection among the finest in Europe. A calm, shaded green pause and lovely with children.", "lat": 52.366806, "lon": 4.907778, "p": "v"}, {"n": "Begijnhof", "cat": "do", "tier": "", "a": "City Centre", "d": "A hushed medieval courtyard of almshouses hidden behind an unmarked door off the Spui, home to one of the city's oldest wooden houses and a clandestine chapel. Free, tranquil and easily missed — a moment of stillness a step off the busiest streets.", "lat": 52.369431, "lon": 4.890043, "p": "v"}, {"n": "Museum Van Loon", "cat": "do", "tier": "", "a": "Canal Ring", "d": "A perfectly preserved patrician canal house on the Keizersgracht, still furnished as the Van Loon family (co-founders of the Dutch East India Company) kept it, with a formal French garden and coach house behind. An intimate, uncrowded glimpse of how the merchant elite actually lived.", "lat": 52.363464, "lon": 4.893378, "p": "v"}, {"n": "Museum Willet-Holthuysen", "cat": "do", "tier": "", "a": "Canal Ring", "d": "The only fully furnished Amsterdam canal house open daily, a lavish Herengracht mansion redone in Louis XIV style with a rare surviving eighteenth-century garden. A quick, elegant complement to Museum Van Loon just around the corner.", "lat": 52.365603, "lon": 4.899015, "p": "v"}, {"n": "Rembrandt House Museum", "cat": "do", "tier": "", "a": "Jewish Quarter", "d": "The house on the Jodenbreestraat where Rembrandt lived and worked for nearly twenty years at the height of his fame, reconstructed with his studio, cabinet of curiosities and printing press — with live etching demonstrations. A vivid, human counterpoint to seeing his masterworks at the Rijksmuseum.", "lat": 52.369369, "lon": 4.90125, "p": "v"}, {"n": "Moco Museum", "cat": "do", "tier": "", "a": "Museum Quarter", "d": "A townhouse on Museumplein showing crowd-pleasing modern and street art — Banksy, Basquiat, Warhol, KAWS, Haring — plus immersive digital rooms. Fast, fun and photogenic; the natural pick when the family wants contemporary energy between the old masters.", "lat": 52.358716, "lon": 4.881962, "p": "v"}, {"n": "Royal Palace of Amsterdam", "cat": "do", "tier": "", "a": "Dam Square", "d": "The seventeenth-century town hall on Dam Square, built to trumpet Amsterdam's Golden Age wealth and now one of the King's official palaces — marble halls, Empire furniture and a grand Citizens' Hall mapped with the heavens. Open to the public when no state functions are on; check the calendar first.", "lat": 52.373145, "lon": 4.891336, "p": "v"}, {"n": "Nieuwe Kerk", "cat": "do", "tier": "", "a": "Dam Square", "d": "The late-Gothic 'New Church' beside the Royal Palace, no longer a parish church but the setting for royal coronations and weddings and now a hall for major art and photography exhibitions. Worth stepping in to see what is showing beneath the soaring vaults.", "lat": 52.373923, "lon": 4.891692, "p": "v"}, {"n": "Oude Kerk", "cat": "do", "tier": "", "a": "De Wallen (Old Centre)", "d": "The oldest building in Amsterdam, a 1300s church with a painted wooden ceiling and Rembrandt's wife buried beneath the floor, now doubling as a bold contemporary-art space in the heart of the old quarter. An arresting collision of the medieval and the modern.", "lat": 52.374362, "lon": 4.898073, "p": "v"}, {"n": "Westerkerk", "cat": "do", "tier": "", "a": "Jordaan / Canal Ring", "d": "The tallest church tower in the city, finished in 1638, standing over the Prinsengracht beside the Anne Frank House — climb the Westertoren on a guided ascent for a rooftop panorama of the canal belt. Rembrandt is buried here in an unmarked grave.", "lat": 52.374547, "lon": 4.883986, "p": "v"}, {"n": "Concertgebouw", "cat": "do", "tier": "", "a": "Museum Quarter", "d": "A concert hall of near-mythic acoustics, ranked with Vienna's Musikverein and Boston's Symphony Hall, home to the Royal Concertgebouw Orchestra since 1888. Book ahead for an evening concert, or catch the free Wednesday lunchtime rehearsal-concert — a cultured, dress-up night out.", "lat": 52.356198, "lon": 4.879045, "p": "v"}, {"n": "Ons' Lieve Heer op Solder (Our Lord in the Attic)", "cat": "do", "tier": "", "a": "De Wallen (Old Centre)", "d": "A complete Catholic church hidden in the attic of a seventeenth-century canal house, built when public Catholic worship was banned — the second-oldest museum in Amsterdam and utterly unexpected. A remarkable, little-known secret in the heart of the old town.", "lat": 52.375172, "lon": 4.899366, "p": "v"}, {"n": "Portuguese Synagogue (Esnoga)", "cat": "do", "tier": "", "a": "Jewish Cultural Quarter", "d": "A vast, candlelit 1675 synagogue — among the grandest of its era — still lit only by hundreds of candles, with hidden treasure chambers open to visitors. Part of the Jewish Cultural Quarter alongside the Jewish Museum and National Holocaust Museum.", "lat": 52.367534, "lon": 4.905357, "p": "v"}, {"n": "Bloemenmarkt (Floating Flower Market)", "cat": "do", "tier": "", "a": "City Centre", "d": "The world's only floating flower market, a line of stalls on barges along the Singel selling tulip bulbs, seeds and blooms since 1862. A quick, colourful stroll near the Munttoren — a pretty stop rather than a destination in itself.", "lat": 52.366931, "lon": 4.890765, "p": "v"}, {"n": "Foam Photography Museum", "cat": "do", "tier": "", "a": "Canal Ring", "d": "A serious yet intimate photography museum in a Keizersgracht canal house, rotating its shows every few months across documentary, fashion and emerging talent. Small enough to enjoy in an hour and always current.", "lat": 52.371979, "lon": 4.884727, "p": "a"}, {"n": "STRAAT Museum", "cat": "do", "tier": "", "a": "Amsterdam-Noord (NDSM)", "d": "A colossal shipyard warehouse at NDSM filled with more than 180 monumental street-art and graffiti works by 170-plus artists from around the world. Bold, immersive and a hit with older kids and teenagers; pairs naturally with the NDSM ferry outing.", "lat": 52.367641, "lon": 4.884837, "p": "v"}, {"n": "H'ART Museum", "cat": "do", "tier": "", "a": "Amstel River", "d": "A grand former almshouse on the Amstel, once the Hermitage Amsterdam, now hosting blockbuster loan exhibitions from major museums such as the British Museum and Smithsonian. A generously scaled space for a single, well-curated show.", "lat": 52.365652, "lon": 4.902214, "p": "v"}, {"n": "NEMO Science Museum", "cat": "do", "tier": "", "a": "Eastern Docklands", "d": "A green copper Renzo Piano building shaped like a ship's prow, five floors of hands-on physics, chemistry and space experiments aimed squarely at children. The stepped rooftop is a free public terrace with a fine city view even if you skip the exhibits.", "lat": 52.374115, "lon": 4.91232, "p": "v"}, {"n": "ARTIS Amsterdam Royal Zoo", "cat": "do", "tier": "", "a": "Plantage", "d": "The oldest zoo in the Netherlands and one of the oldest still running in the world, set in a leafy nineteenth-century park with an aquarium, planetarium, butterfly pavilion and the Micropia microbe museum on site. A full, easy family day among fine old architecture.", "lat": 52.35641, "lon": 4.911595, "p": "v"}, {"n": "Micropia", "cat": "do", "tier": "", "a": "Plantage", "d": "The only museum in the world devoted entirely to microbes, part of the ARTIS complex — living microorganisms under microscopes, a body-scanner that maps your own flora, and cheese-cultures explained. Genuinely novel and surprisingly gripping for curious teenagers.", "lat": 52.366891, "lon": 4.912689, "p": "v"}, {"n": "Het Scheepvaartmuseum (National Maritime Museum)", "cat": "do", "tier": "", "a": "Eastern Docklands", "d": "The story of Dutch seafaring housed in a monumental 1656 admiralty warehouse, with a full-scale replica of the East India Company ship Amsterdam moored alongside to climb aboard. The replica ship makes it especially good with children.", "lat": 52.372005, "lon": 4.914953, "p": "v"}, {"n": "Tropenmuseum", "cat": "do", "tier": "", "a": "Oost", "d": "A grand ethnographic museum in a monumental building by the Oosterpark, telling the story of world cultures and the Dutch colonial past through immersive, thoughtfully reframed galleries. Of particular resonance for Indian visitors given the shared colonial and trade history.", "lat": 52.37308, "lon": 4.892453, "p": "v"}, {"n": "Heineken Experience", "cat": "do", "tier": "", "a": "De Pijp", "d": "An interactive tour of the original 1867 Heineken brewery on the Stadhouderskade — brewing history, a stable of dray horses, tastings and a rooftop bar. Slick and fun for a mixed group; the tasting can be skipped for younger travellers.", "lat": 52.35784, "lon": 4.891784, "p": "v"}, {"n": "House of Bols", "cat": "do", "tier": "", "a": "Museum Quarter", "d": "An interactive genever and cocktail experience opposite the Van Gogh Museum, telling the story of Lucas Bols, the world's oldest distilled-spirits brand (1575), and ending with a made-to-order cocktail at the mirror bar. A grown-ups' interlude between the galleries.", "lat": 52.359043, "lon": 4.881282, "p": "v"}, {"n": "Gassan Diamonds", "cat": "do", "tier": "", "a": "Jewish Quarter", "d": "A working diamond polishing house in a former steam-powered factory, offering free guided tours of the cutting and grading process — and a discreet showroom for those who wish to buy. A natural fit for UHNI travellers with an eye for stones; private viewings can be arranged.", "lat": 52.36956, "lon": 4.904006, "p": "v"}, {"n": "Cycling the city", "cat": "do", "tier": "", "a": "Citywide", "d": "Amsterdam runs on the bicycle, and there is no more authentic way to move through it — quiet residential canals, the Vondelpark, and the flat greenway north of the IJ. Hire from a reputable shop, or take a guided family ride to learn the etiquette before setting off alone.", "lat": 52.354365, "lon": 4.913428, "p": "v"}, {"n": "Zaanse Schans (day trip)", "cat": "do", "tier": "", "a": "Day trip — Zaandam", "d": "An open-air village of working windmills, wooden houses, a clog workshop and a cheese farm on the Zaan river, about twenty minutes by train. The classic postcard-Holland half-day; go early to have the mills before the tour buses.", "lat": 52.439941, "lon": 4.824338, "p": "a"}, {"n": "Haarlem (day trip)", "cat": "do", "tier": "", "a": "Day trip — Haarlem", "d": "A refined small city just fifteen minutes by train, with a splendid market square, the Grote Kerk, the Frans Hals Museum and the Teylers — the oldest museum in the country. A calmer, elegant alternative to a busy Amsterdam afternoon.", "lat": 52.32698, "lon": 4.741505, "p": "v"}, {"n": "Utrecht (day trip)", "cat": "do", "tier": "", "a": "Day trip — Utrecht", "d": "A handsome canal city half an hour away, its wharves lined with waterside cafés below street level, the Dom Tower climbable for wide views, and Miffy's museum for younger children. Less crowded than Amsterdam and easy to reach by frequent train.", "lat": 52.103286, "lon": 5.09507, "p": "v"}, {"n": "Freddy's Bar", "cat": "party", "tier": "Landmark bars", "a": "Canal Ring — De L'Europe, on the Amstel", "d": "The clubby, panelled bar of the De L'Europe grand hotel — named for Freddy Heineken, and a classic Amsterdam institution.", "lat": 52.367593, "lon": 4.894127, "p": "v"}, {"n": "Pulitzer's Bar", "cat": "party", "tier": "Landmark bars", "a": "Canal Ring — Pulitzer, Prinsengracht", "d": "A stylish gentleman's-club-style bar across three rooms inside the Pulitzer — over fifty cocktails and real canal-house character.", "lat": 52.372627, "lon": 4.884511, "p": "v"}, {"n": "Tales & Spirits", "cat": "party", "tier": "Cocktail bars", "a": "Centre — Lijnbaanssteeg", "d": "A long-running Amsterdam favourite in an ancient building — an inventive, humour-filled list and warm, expert hospitality.", "lat": 52.376098, "lon": 4.891792, "p": "v"}, {"n": "Door 74", "cat": "party", "tier": "Cocktail bars", "a": "Canal Ring — Reguliersdwarsstraat", "d": "The Netherlands' first true speakeasy — unmarked, reservation-only, and still one of the city's best cocktail rooms.", "lat": 52.365938, "lon": 4.893593, "p": "v"}, {"n": "Flying Dutchmen Cocktails", "cat": "party", "tier": "Cocktail bars", "a": "Canal Ring — Singel, in the Odeon", "d": "Tess Posthumus and Timo Janse's bar in the 1662 Odeon — over 900 spirits, the biggest selection in the country, and a classics-first ethos.", "lat": 52.367535, "lon": 4.888859, "p": "v"}, {"n": "Rosalia's Menagerie", "cat": "party", "tier": "Cocktail bars", "a": "De Wallen — on one of the oldest canals", "d": "A temple to Dutch spirits in a townhouse in the Old Town — thought to hold the largest genever selection in the Netherlands.", "lat": 52.371719, "lon": 4.899024, "p": "v"}, {"n": "Advocatuur", "cat": "party", "tier": "Cocktail bars", "a": "Canal Ring — Rosewood, Prinsengracht", "d": "The signature bar of Rosewood Amsterdam in the former Palace of Justice — a polished, contemporary drinking room in the city's newest grand hotel.", "lat": 52.365395, "lon": 4.883345, "p": "v"}, {"n": "Twenty Third Bar", "cat": "party", "tier": "Rooftops", "a": "De Pijp — Hotel Okura, 23rd floor", "d": "A high, glass-walled bar beside Ciel Bleu on the 23rd floor of the Okura — the best skyline view for a drink in the city.", "lat": 52.348619, "lon": 4.893199, "p": "a"}]}
+{
+  "center": [
+    52.37308,
+    4.892453
+  ],
+  "venues": [
+    {
+      "n": "De L'Europe Amsterdam",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Canal Ring \u2014 on the Amstel, by Muntplein",
+      "d": "The city's original grand dame, on the Amstel since 1896 \u2014 a classic European grand hotel, family-owned and freshly renovated.",
+      "lat": 52.367644,
+      "lon": 4.894466,
+      "photos": []
+    },
+    {
+      "n": "Waldorf Astoria Amsterdam",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Canal Ring \u2014 Herengracht",
+      "d": "Six adjoining 17th-century canal mansions on the Herengracht \u2014 the only Forbes Five-Star hotel in the Netherlands, with a garden courtyard rare for the centre.",
+      "lat": 52.364724,
+      "lon": 4.89692,
+      "photos": []
+    },
+    {
+      "n": "Rosewood Amsterdam",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Canal Ring \u2014 former Palace of Justice, Prinsengracht",
+      "d": "Rosewood's first Dutch house, in the 1665 former Palace of Justice on the Prinsengracht \u2014 134 rooms, an Asaya spa and a 12-metre pool.",
+      "lat": 52.36543,
+      "lon": 4.883381,
+      "photos": []
+    },
+    {
+      "n": "Conservatorium Hotel",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Oud-Zuid \u2014 Museum Quarter, facing the Rijksmuseum side",
+      "d": "A former music conservatory turned soaring glass-roofed design hotel, opposite Museumplein \u2014 the city's most architectural luxury stay.",
+      "lat": 52.375961,
+      "lon": 4.908902,
+      "photos": []
+    },
+    {
+      "n": "Hotel Okura Amsterdam",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "De Pijp \u2014 south of the centre",
+      "d": "A serene Japanese-run grand hotel with the city's greatest concentration of stars under one roof \u2014 three MICHELIN stars across its restaurants.",
+      "lat": 52.348619,
+      "lon": 4.893199,
+      "photos": []
+    },
+    {
+      "n": "Anantara Grand Hotel Krasnapolsky Amsterdam",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Centre \u2014 on Dam Square",
+      "d": "An 1865 landmark on Dam Square, reborn under Anantara \u2014 grand scale, a famous glass-roofed Winter Garden, and a Michelin kitchen within.",
+      "lat": 52.372729,
+      "lon": 4.894385,
+      "photos": []
+    },
+    {
+      "n": "The Dylan Amsterdam",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Canal Ring \u2014 Keizersgracht",
+      "d": "An intimate canal-house hotel on the Keizersgracht around a hidden courtyard \u2014 home to one of the city's two-star kitchens.",
+      "lat": 52.369284,
+      "lon": 4.884007,
+      "photos": []
+    },
+    {
+      "n": "Pulitzer Amsterdam",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Canal Ring \u2014 Prinsengracht & Keizersgracht",
+      "d": "Twenty-five interlinked 17th- and 18th-century canal houses between two canals \u2014 a whole block of the Grachtengordel turned into one characterful hotel.",
+      "lat": 52.372809,
+      "lon": 4.883429,
+      "photos": []
+    },
+    {
+      "n": "Hotel TwentySeven",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Centre \u2014 on Dam Square",
+      "d": "A jewel-box, all-suite hotel of just sixteen suites on Dam Square \u2014 intensely private, with a one-star kitchen on the top floor.",
+      "lat": 52.37027,
+      "lon": 4.888788,
+      "photos": []
+    },
+    {
+      "n": "Tivoli Doelen Amsterdam",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Canal Ring \u2014 on the Amstel, by Muntplein",
+      "d": "One of the city's oldest hotel sites on the Amstel, reborn as a contemporary Tivoli \u2014 a classic Dutch address with fresh polish.",
+      "lat": 52.368205,
+      "lon": 4.895742,
+      "photos": []
+    },
+    {
+      "n": "Spectrum",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Canal Ring \u2014 Waldorf Astoria, Herengracht",
+      "d": "Sidney Schutte's precise, layered cooking in the Waldorf Astoria \u2014 two stars and one of the city's benchmark tasting tables.",
+      "lat": 52.364632,
+      "lon": 4.896983,
+      "photos": []
+    },
+    {
+      "n": "Ciel Bleu",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "De Pijp \u2014 Hotel Okura, 23rd floor",
+      "d": "A two-star institution on the 23rd floor of the Okura \u2014 refined contemporary cooking with the finest dining view in the city.",
+      "lat": 52.348729,
+      "lon": 4.894117,
+      "photos": []
+    },
+    {
+      "n": "Flore",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Canal Ring \u2014 Nieuwe Doelenstraat, by the Amstel",
+      "d": "Bas van Kranen's near-vegetarian, hyper-seasonal cooking \u2014 two stars and a Green Star, one of the most forward kitchens in the Netherlands.",
+      "lat": 52.367454,
+      "lon": 4.894303,
+      "photos": []
+    },
+    {
+      "n": "Vinkeles",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Canal Ring \u2014 The Dylan, Keizersgracht",
+      "d": "Two-star French cooking in an atmospheric 18th-century former bakery within The Dylan \u2014 one of the city's great romantic rooms.",
+      "lat": 52.369263,
+      "lon": 4.883458,
+      "photos": []
+    },
+    {
+      "n": "Restaurant 212",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Canal Ring \u2014 Amstel",
+      "d": "An open-kitchen counter on the Amstel where you watch two-star cooking up close \u2014 theatrical, precise and personal.",
+      "lat": 52.365878,
+      "lon": 4.90026,
+      "photos": []
+    },
+    {
+      "n": "RIJKS",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Oud-Zuid \u2014 inside the Rijksmuseum",
+      "d": "A one-star kitchen inside the Rijksmuseum \u2014 locally sourced Dutch cooking beside the world's great Rembrandts.",
+      "lat": 52.359598,
+      "lon": 4.884293,
+      "photos": []
+    },
+    {
+      "n": "The White Room",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Centre \u2014 Anantara Krasnapolsky, Dam Square",
+      "d": "Refined cooking under an ornate 1885 ceiling on Dam Square \u2014 a one-star room of real grandeur inside the Krasnapolsky.",
+      "lat": 52.37279,
+      "lon": 4.894505,
+      "photos": []
+    },
+    {
+      "n": "Bougainville",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Centre \u2014 Hotel TwentySeven, Dam Square",
+      "d": "Tim Golsteijn's elegant one-star cooking with panoramic views over Dam Square \u2014 a jewel-box room above the square.",
+      "lat": 52.372511,
+      "lon": 4.893252,
+      "photos": []
+    },
+    {
+      "n": "De Kas",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Amsterdam-Oost \u2014 Frankendael Park",
+      "d": "A daily-changing menu grown in the restaurant's own 1926 greenhouse \u2014 the original farm-to-table Amsterdam, now with a star and a Green Star.",
+      "lat": 52.352292,
+      "lon": 4.930572,
+      "photos": []
+    },
+    {
+      "n": "Bolenius",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Zuidas \u2014 the business district",
+      "d": "Vegetables and herbs from its own kitchen garden drive this one-star, Green-Star kitchen in the Zuidas \u2014 quietly one of the city's most sustainable tables.",
+      "lat": 52.359618,
+      "lon": 4.844033,
+      "photos": []
+    },
+    {
+      "n": "Yamazato",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "De Pijp \u2014 Hotel Okura",
+      "d": "Authentic Japanese kaiseki that earned a MICHELIN star \u2014 a rare traditional Japanese room outside Japan, inside the Okura.",
+      "lat": 52.348647,
+      "lon": 4.893922,
+      "photos": []
+    },
+    {
+      "n": "Daalder",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Amsterdam-West \u2014 Het Sieraad, Postjesweg",
+      "d": "Relaxed but serious one-star cooking in the west of the city \u2014 casual fine dining that quietly punches above its room.",
+      "lat": 52.364109,
+      "lon": 4.859088,
+      "photos": []
+    },
+    {
+      "n": "Wils",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Oud-Zuid \u2014 Stadionplein",
+      "d": "Live-fire, wood-fired cooking with a great wine list \u2014 a one-star grill that does open flame beautifully.",
+      "lat": 52.343394,
+      "lon": 4.856157,
+      "photos": []
+    },
+    {
+      "n": "Sinne",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "De Pijp \u2014 Ceintuurbaan",
+      "d": "A neighbourhood one-star in De Pijp doing refined French\u2013Mediterranean menus at a friendlier price than the grand rooms.",
+      "lat": 52.352999,
+      "lon": 4.894063,
+      "photos": []
+    },
+    {
+      "n": "MOS",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Eastern Docklands \u2014 IJdok, on the IJ",
+      "d": "A small one-star room on the IJ waterfront \u2014 precise French-and-international cooking with water on three sides.",
+      "lat": 52.383796,
+      "lon": 4.895503,
+      "photos": []
+    },
+    {
+      "n": "De Juwelier",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Canal Ring \u2014 Utrechtsestraat",
+      "d": "Richard van Oostenbrugge and Thomas Groot's Franco-inspired seafood room \u2014 a stylish, contemporary one-star on Utrechtsestraat.",
+      "lat": 52.364256,
+      "lon": 4.898276,
+      "photos": []
+    },
+    {
+      "n": "Bistro de la Mer",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Canal Ring \u2014 Utrechtsestraat",
+      "d": "A refined French seafood bistro that earned a star \u2014 classic technique, beautifully sourced fish, unfussy elegance.",
+      "lat": 52.364132,
+      "lon": 4.898292,
+      "photos": []
+    },
+    {
+      "n": "Zoldering",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Canal Ring \u2014 Utrechtsestraat",
+      "d": "An intimate one-star with a serious wine focus \u2014 considered French cooking in a small, personal room.",
+      "lat": 52.361336,
+      "lon": 4.8994,
+      "photos": []
+    },
+    {
+      "n": "Rijksmuseum",
+      "cat": "do",
+      "tier": "",
+      "a": "Museum Quarter",
+      "d": "The nation's treasure house, built for the Dutch Golden Age: Rembrandt's colossal Night Watch, Vermeer's quiet interiors, Delftware and ship models across eighty galleries. A private early-access tour before the doors open lets a family stand alone with the great canvases; the garden and the airy atrium caf\u00e9 make an easy pause for younger children.",
+      "lat": 52.359843,
+      "lon": 4.88504,
+      "photos": []
+    },
+    {
+      "n": "Van Gogh Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Museum Quarter",
+      "d": "The largest Van Gogh collection on earth, roughly 200 paintings and 500 drawings hung to trace his life from Nuenen to Auvers \u2014 Sunflowers, Almond Blossom, The Bedroom in one place. Book a timed slot and go at opening; the multimedia guide is a gentle way to keep teenagers engaged.",
+      "lat": 52.358367,
+      "lon": 4.88109,
+      "photos": []
+    },
+    {
+      "n": "Anne Frank House",
+      "cat": "do",
+      "tier": "",
+      "a": "Jordaan / Canal Ring",
+      "d": "The canal-side house on the Prinsengracht where Anne Frank, her family and four others hid for two years behind a bookcase, and where she wrote the diary. Tickets are timed and sell out weeks ahead \u2014 book the moment they release. A quiet, sobering hour that older children carry with them; the annex is steep and unsuitable for very young ones.",
+      "lat": 52.375156,
+      "lon": 4.884081,
+      "photos": []
+    },
+    {
+      "n": "Stedelijk Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Museum Quarter",
+      "d": "The Netherlands' museum of modern and contemporary art, from Malevich, Mondrian and Matisse through Warhol and Dutch design, in the landmark 'bathtub' extension on Museumplein. A natural third stop once the Rijksmuseum and Van Gogh are done, and rarely as crowded.",
+      "lat": 52.3579,
+      "lon": 4.87986,
+      "photos": []
+    },
+    {
+      "n": "The Canal Ring (Grachtengordel)",
+      "cat": "do",
+      "tier": "",
+      "a": "City Centre",
+      "d": "The seventeenth-century belt of three grand canals \u2014 Herengracht, Keizersgracht, Prinsengracht \u2014 lined with gabled merchant houses, hump-backed bridges and houseboats. Simply wander the towpaths at golden hour; the 'Golden Bend' on the Herengracht holds the grandest of the old mansions.",
+      "lat": 52.371979,
+      "lon": 4.884727,
+      "photos": []
+    },
+    {
+      "n": "Private canal cruise",
+      "cat": "do",
+      "tier": "",
+      "a": "City Centre",
+      "d": "See the city the way it was meant to be seen \u2014 from the water. A chartered open saloon boat with a skipper glides under the low bridges of the canal belt at dusk; arrange a private vessel with your own catering and a discreet crew rather than the packed public boats. The most relaxed way for multiple generations to take in the city together.",
+      "lat": 52.378676,
+      "lon": 4.897165,
+      "photos": []
+    },
+    {
+      "n": "Jordaan",
+      "cat": "do",
+      "tier": "",
+      "a": "Jordaan",
+      "d": "The former working-class quarter turned Amsterdam's most charming neighbourhood: narrow lanes, hidden courtyards (hofjes), independent galleries, brown caf\u00e9s and antique shops along the Elandsgracht. Best enjoyed slowly on foot with no fixed plan, stopping wherever the window looks good.",
+      "lat": 52.375416,
+      "lon": 4.881096,
+      "photos": []
+    },
+    {
+      "n": "The Nine Streets (De Negen Straatjes)",
+      "cat": "do",
+      "tier": "",
+      "a": "Canal Ring",
+      "d": "Nine little cross-streets threading between the main canals, packed with concept boutiques, vintage dealers, jewellers and specialist caf\u00e9s \u2014 the best browsing in the old city. Compact enough to cover in an afternoon, with plenty of veg-friendly caf\u00e9s and patisseries for a break.",
+      "lat": 52.371979,
+      "lon": 4.884727,
+      "photos": []
+    },
+    {
+      "n": "De Pijp",
+      "cat": "do",
+      "tier": "",
+      "a": "De Pijp",
+      "d": "Amsterdam's most vibrant food-and-drink district, built around the Albert Cuyp market and Sarphatipark. Bakeries, wine bars, and an unusually deep bench of Indian, Surinamese, Middle Eastern and vegetarian kitchens make it the easy choice when the family wants variety at dinner.",
+      "lat": 52.353346,
+      "lon": 4.896962,
+      "photos": []
+    },
+    {
+      "n": "Albert Cuyp Market",
+      "cat": "do",
+      "tier": "",
+      "a": "De Pijp",
+      "d": "The largest open-air market in the Netherlands, running since 1905 with 260-odd stalls of cheese, flowers, fabric, street food and stroopwafels pressed fresh. A lively morning stroll; watch the pockets and go early before the crowds thicken.",
+      "lat": 52.355233,
+      "lon": 4.891779,
+      "photos": []
+    },
+    {
+      "n": "Amsterdam-Noord & NDSM Wharf",
+      "cat": "do",
+      "tier": "",
+      "a": "Amsterdam-Noord",
+      "d": "A two-minute free ferry across the IJ from Centraal delivers you to the city's creative frontier \u2014 a former shipyard of street-art hangars, design studios, waterfront restaurants and flea markets. A refreshing half-day away from the tourist core.",
+      "lat": 52.399409,
+      "lon": 4.894843,
+      "photos": []
+    },
+    {
+      "n": "A'DAM Lookout",
+      "cat": "do",
+      "tier": "",
+      "a": "Amsterdam-Noord",
+      "d": "The highest public viewpoint in central Amsterdam, atop the 100-metre A'DAM Tower, with a 360-degree skydeck and 'Over the Edge' \u2014 Europe's highest swing, out over the water. Cap it at the revolving Moon restaurant or the rooftop bar; the thrill-swing is a hit with teenagers.",
+      "lat": 52.383856,
+      "lon": 4.902103,
+      "photos": []
+    },
+    {
+      "n": "EYE Filmmuseum",
+      "cat": "do",
+      "tier": "",
+      "a": "Amsterdam-Noord",
+      "d": "A sculptural white building on the northern bank of the IJ devoted to cinema \u2014 exhibitions, restored classics, and a waterfront terrace with one of the best views back across the water to the old city. Reachable on the same free ferry as A'DAM Lookout.",
+      "lat": 52.384335,
+      "lon": 4.900812,
+      "photos": []
+    },
+    {
+      "n": "Vondelpark",
+      "cat": "do",
+      "tier": "",
+      "a": "Museum Quarter / Oud-Zuid",
+      "d": "Amsterdam's great green lung, opened in 1865: 47 hectares of ponds, lawns, rose garden and an open-air theatre, minutes from the museums. Rent bikes for the family, picnic on the grass, or take an early-morning run before the galleries open.",
+      "lat": 52.357197,
+      "lon": 4.864119,
+      "photos": []
+    },
+    {
+      "n": "Hortus Botanicus",
+      "cat": "do",
+      "tier": "",
+      "a": "Plantage",
+      "d": "One of the world's oldest botanical gardens, laid out in 1638 as a physic garden for the city's doctors, with a butterfly house, a three-climate palm glasshouse and an ancient cycad collection among the finest in Europe. A calm, shaded green pause and lovely with children.",
+      "lat": 52.366806,
+      "lon": 4.907778,
+      "photos": []
+    },
+    {
+      "n": "Begijnhof",
+      "cat": "do",
+      "tier": "",
+      "a": "City Centre",
+      "d": "A hushed medieval courtyard of almshouses hidden behind an unmarked door off the Spui, home to one of the city's oldest wooden houses and a clandestine chapel. Free, tranquil and easily missed \u2014 a moment of stillness a step off the busiest streets.",
+      "lat": 52.369431,
+      "lon": 4.890043,
+      "photos": []
+    },
+    {
+      "n": "Museum Van Loon",
+      "cat": "do",
+      "tier": "",
+      "a": "Canal Ring",
+      "d": "A perfectly preserved patrician canal house on the Keizersgracht, still furnished as the Van Loon family (co-founders of the Dutch East India Company) kept it, with a formal French garden and coach house behind. An intimate, uncrowded glimpse of how the merchant elite actually lived.",
+      "lat": 52.363464,
+      "lon": 4.893378,
+      "photos": []
+    },
+    {
+      "n": "Museum Willet-Holthuysen",
+      "cat": "do",
+      "tier": "",
+      "a": "Canal Ring",
+      "d": "The only fully furnished Amsterdam canal house open daily, a lavish Herengracht mansion redone in Louis XIV style with a rare surviving eighteenth-century garden. A quick, elegant complement to Museum Van Loon just around the corner.",
+      "lat": 52.365603,
+      "lon": 4.899015,
+      "photos": []
+    },
+    {
+      "n": "Rembrandt House Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Jewish Quarter",
+      "d": "The house on the Jodenbreestraat where Rembrandt lived and worked for nearly twenty years at the height of his fame, reconstructed with his studio, cabinet of curiosities and printing press \u2014 with live etching demonstrations. A vivid, human counterpoint to seeing his masterworks at the Rijksmuseum.",
+      "lat": 52.369369,
+      "lon": 4.90125,
+      "photos": []
+    },
+    {
+      "n": "Moco Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Museum Quarter",
+      "d": "A townhouse on Museumplein showing crowd-pleasing modern and street art \u2014 Banksy, Basquiat, Warhol, KAWS, Haring \u2014 plus immersive digital rooms. Fast, fun and photogenic; the natural pick when the family wants contemporary energy between the old masters.",
+      "lat": 52.358716,
+      "lon": 4.881962,
+      "photos": []
+    },
+    {
+      "n": "Royal Palace of Amsterdam",
+      "cat": "do",
+      "tier": "",
+      "a": "Dam Square",
+      "d": "The seventeenth-century town hall on Dam Square, built to trumpet Amsterdam's Golden Age wealth and now one of the King's official palaces \u2014 marble halls, Empire furniture and a grand Citizens' Hall mapped with the heavens. Open to the public when no state functions are on; check the calendar first.",
+      "lat": 52.373145,
+      "lon": 4.891336,
+      "photos": []
+    },
+    {
+      "n": "Nieuwe Kerk",
+      "cat": "do",
+      "tier": "",
+      "a": "Dam Square",
+      "d": "The late-Gothic 'New Church' beside the Royal Palace, no longer a parish church but the setting for royal coronations and weddings and now a hall for major art and photography exhibitions. Worth stepping in to see what is showing beneath the soaring vaults.",
+      "lat": 52.373923,
+      "lon": 4.891692,
+      "photos": []
+    },
+    {
+      "n": "Oude Kerk",
+      "cat": "do",
+      "tier": "",
+      "a": "De Wallen (Old Centre)",
+      "d": "The oldest building in Amsterdam, a 1300s church with a painted wooden ceiling and Rembrandt's wife buried beneath the floor, now doubling as a bold contemporary-art space in the heart of the old quarter. An arresting collision of the medieval and the modern.",
+      "lat": 52.374362,
+      "lon": 4.898073,
+      "photos": []
+    },
+    {
+      "n": "Westerkerk",
+      "cat": "do",
+      "tier": "",
+      "a": "Jordaan / Canal Ring",
+      "d": "The tallest church tower in the city, finished in 1638, standing over the Prinsengracht beside the Anne Frank House \u2014 climb the Westertoren on a guided ascent for a rooftop panorama of the canal belt. Rembrandt is buried here in an unmarked grave.",
+      "lat": 52.374547,
+      "lon": 4.883986,
+      "photos": []
+    },
+    {
+      "n": "Concertgebouw",
+      "cat": "do",
+      "tier": "",
+      "a": "Museum Quarter",
+      "d": "A concert hall of near-mythic acoustics, ranked with Vienna's Musikverein and Boston's Symphony Hall, home to the Royal Concertgebouw Orchestra since 1888. Book ahead for an evening concert, or catch the free Wednesday lunchtime rehearsal-concert \u2014 a cultured, dress-up night out.",
+      "lat": 52.356198,
+      "lon": 4.879045,
+      "photos": []
+    },
+    {
+      "n": "Ons' Lieve Heer op Solder (Our Lord in the Attic)",
+      "cat": "do",
+      "tier": "",
+      "a": "De Wallen (Old Centre)",
+      "d": "A complete Catholic church hidden in the attic of a seventeenth-century canal house, built when public Catholic worship was banned \u2014 the second-oldest museum in Amsterdam and utterly unexpected. A remarkable, little-known secret in the heart of the old town.",
+      "lat": 52.375172,
+      "lon": 4.899366,
+      "photos": []
+    },
+    {
+      "n": "Portuguese Synagogue (Esnoga)",
+      "cat": "do",
+      "tier": "",
+      "a": "Jewish Cultural Quarter",
+      "d": "A vast, candlelit 1675 synagogue \u2014 among the grandest of its era \u2014 still lit only by hundreds of candles, with hidden treasure chambers open to visitors. Part of the Jewish Cultural Quarter alongside the Jewish Museum and National Holocaust Museum.",
+      "lat": 52.367534,
+      "lon": 4.905357,
+      "photos": []
+    },
+    {
+      "n": "Bloemenmarkt (Floating Flower Market)",
+      "cat": "do",
+      "tier": "",
+      "a": "City Centre",
+      "d": "The world's only floating flower market, a line of stalls on barges along the Singel selling tulip bulbs, seeds and blooms since 1862. A quick, colourful stroll near the Munttoren \u2014 a pretty stop rather than a destination in itself.",
+      "lat": 52.366931,
+      "lon": 4.890765,
+      "photos": []
+    },
+    {
+      "n": "Foam Photography Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Canal Ring",
+      "d": "A serious yet intimate photography museum in a Keizersgracht canal house, rotating its shows every few months across documentary, fashion and emerging talent. Small enough to enjoy in an hour and always current.",
+      "lat": 52.371979,
+      "lon": 4.884727,
+      "photos": []
+    },
+    {
+      "n": "STRAAT Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Amsterdam-Noord (NDSM)",
+      "d": "A colossal shipyard warehouse at NDSM filled with more than 180 monumental street-art and graffiti works by 170-plus artists from around the world. Bold, immersive and a hit with older kids and teenagers; pairs naturally with the NDSM ferry outing.",
+      "lat": 52.367641,
+      "lon": 4.884837,
+      "photos": []
+    },
+    {
+      "n": "H'ART Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Amstel River",
+      "d": "A grand former almshouse on the Amstel, once the Hermitage Amsterdam, now hosting blockbuster loan exhibitions from major museums such as the British Museum and Smithsonian. A generously scaled space for a single, well-curated show.",
+      "lat": 52.365652,
+      "lon": 4.902214,
+      "photos": []
+    },
+    {
+      "n": "NEMO Science Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Eastern Docklands",
+      "d": "A green copper Renzo Piano building shaped like a ship's prow, five floors of hands-on physics, chemistry and space experiments aimed squarely at children. The stepped rooftop is a free public terrace with a fine city view even if you skip the exhibits.",
+      "lat": 52.374115,
+      "lon": 4.91232,
+      "photos": []
+    },
+    {
+      "n": "ARTIS Amsterdam Royal Zoo",
+      "cat": "do",
+      "tier": "",
+      "a": "Plantage",
+      "d": "The oldest zoo in the Netherlands and one of the oldest still running in the world, set in a leafy nineteenth-century park with an aquarium, planetarium, butterfly pavilion and the Micropia microbe museum on site. A full, easy family day among fine old architecture.",
+      "lat": 52.35641,
+      "lon": 4.911595,
+      "photos": []
+    },
+    {
+      "n": "Micropia",
+      "cat": "do",
+      "tier": "",
+      "a": "Plantage",
+      "d": "The only museum in the world devoted entirely to microbes, part of the ARTIS complex \u2014 living microorganisms under microscopes, a body-scanner that maps your own flora, and cheese-cultures explained. Genuinely novel and surprisingly gripping for curious teenagers.",
+      "lat": 52.366891,
+      "lon": 4.912689,
+      "photos": []
+    },
+    {
+      "n": "Het Scheepvaartmuseum (National Maritime Museum)",
+      "cat": "do",
+      "tier": "",
+      "a": "Eastern Docklands",
+      "d": "The story of Dutch seafaring housed in a monumental 1656 admiralty warehouse, with a full-scale replica of the East India Company ship Amsterdam moored alongside to climb aboard. The replica ship makes it especially good with children.",
+      "lat": 52.372005,
+      "lon": 4.914953,
+      "photos": []
+    },
+    {
+      "n": "Tropenmuseum",
+      "cat": "do",
+      "tier": "",
+      "a": "Oost",
+      "d": "A grand ethnographic museum in a monumental building by the Oosterpark, telling the story of world cultures and the Dutch colonial past through immersive, thoughtfully reframed galleries. Of particular resonance for Indian visitors given the shared colonial and trade history.",
+      "lat": 52.37308,
+      "lon": 4.892453,
+      "photos": []
+    },
+    {
+      "n": "Heineken Experience",
+      "cat": "do",
+      "tier": "",
+      "a": "De Pijp",
+      "d": "An interactive tour of the original 1867 Heineken brewery on the Stadhouderskade \u2014 brewing history, a stable of dray horses, tastings and a rooftop bar. Slick and fun for a mixed group; the tasting can be skipped for younger travellers.",
+      "lat": 52.35784,
+      "lon": 4.891784,
+      "photos": []
+    },
+    {
+      "n": "House of Bols",
+      "cat": "do",
+      "tier": "",
+      "a": "Museum Quarter",
+      "d": "An interactive genever and cocktail experience opposite the Van Gogh Museum, telling the story of Lucas Bols, the world's oldest distilled-spirits brand (1575), and ending with a made-to-order cocktail at the mirror bar. A grown-ups' interlude between the galleries.",
+      "lat": 52.359043,
+      "lon": 4.881282,
+      "photos": []
+    },
+    {
+      "n": "Gassan Diamonds",
+      "cat": "do",
+      "tier": "",
+      "a": "Jewish Quarter",
+      "d": "A working diamond polishing house in a former steam-powered factory, offering free guided tours of the cutting and grading process \u2014 and a discreet showroom for those who wish to buy. A natural fit for UHNI travellers with an eye for stones; private viewings can be arranged.",
+      "lat": 52.36956,
+      "lon": 4.904006,
+      "photos": []
+    },
+    {
+      "n": "Cycling the city",
+      "cat": "do",
+      "tier": "",
+      "a": "Citywide",
+      "d": "Amsterdam runs on the bicycle, and there is no more authentic way to move through it \u2014 quiet residential canals, the Vondelpark, and the flat greenway north of the IJ. Hire from a reputable shop, or take a guided family ride to learn the etiquette before setting off alone.",
+      "lat": 52.354365,
+      "lon": 4.913428,
+      "photos": []
+    },
+    {
+      "n": "Zaanse Schans (day trip)",
+      "cat": "do",
+      "tier": "",
+      "a": "Day trip \u2014 Zaandam",
+      "d": "An open-air village of working windmills, wooden houses, a clog workshop and a cheese farm on the Zaan river, about twenty minutes by train. The classic postcard-Holland half-day; go early to have the mills before the tour buses.",
+      "lat": 52.439941,
+      "lon": 4.824338,
+      "photos": []
+    },
+    {
+      "n": "Haarlem (day trip)",
+      "cat": "do",
+      "tier": "",
+      "a": "Day trip \u2014 Haarlem",
+      "d": "A refined small city just fifteen minutes by train, with a splendid market square, the Grote Kerk, the Frans Hals Museum and the Teylers \u2014 the oldest museum in the country. A calmer, elegant alternative to a busy Amsterdam afternoon.",
+      "lat": 52.32698,
+      "lon": 4.741505,
+      "photos": []
+    },
+    {
+      "n": "Utrecht (day trip)",
+      "cat": "do",
+      "tier": "",
+      "a": "Day trip \u2014 Utrecht",
+      "d": "A handsome canal city half an hour away, its wharves lined with waterside caf\u00e9s below street level, the Dom Tower climbable for wide views, and Miffy's museum for younger children. Less crowded than Amsterdam and easy to reach by frequent train.",
+      "lat": 52.103286,
+      "lon": 5.09507,
+      "photos": []
+    },
+    {
+      "n": "Freddy's Bar",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "Canal Ring \u2014 De L'Europe, on the Amstel",
+      "d": "The clubby, panelled bar of the De L'Europe grand hotel \u2014 named for Freddy Heineken, and a classic Amsterdam institution.",
+      "lat": 52.367593,
+      "lon": 4.894127,
+      "photos": []
+    },
+    {
+      "n": "Pulitzer's Bar",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "Canal Ring \u2014 Pulitzer, Prinsengracht",
+      "d": "A stylish gentleman's-club-style bar across three rooms inside the Pulitzer \u2014 over fifty cocktails and real canal-house character.",
+      "lat": 52.372627,
+      "lon": 4.884511,
+      "photos": []
+    },
+    {
+      "n": "Tales & Spirits",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Centre \u2014 Lijnbaanssteeg",
+      "d": "A long-running Amsterdam favourite in an ancient building \u2014 an inventive, humour-filled list and warm, expert hospitality.",
+      "lat": 52.376098,
+      "lon": 4.891792,
+      "photos": []
+    },
+    {
+      "n": "Door 74",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Canal Ring \u2014 Reguliersdwarsstraat",
+      "d": "The Netherlands' first true speakeasy \u2014 unmarked, reservation-only, and still one of the city's best cocktail rooms.",
+      "lat": 52.365938,
+      "lon": 4.893593,
+      "photos": []
+    },
+    {
+      "n": "Flying Dutchmen Cocktails",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Canal Ring \u2014 Singel, in the Odeon",
+      "d": "Tess Posthumus and Timo Janse's bar in the 1662 Odeon \u2014 over 900 spirits, the biggest selection in the country, and a classics-first ethos.",
+      "lat": 52.367535,
+      "lon": 4.888859,
+      "photos": []
+    },
+    {
+      "n": "Rosalia's Menagerie",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "De Wallen \u2014 on one of the oldest canals",
+      "d": "A temple to Dutch spirits in a townhouse in the Old Town \u2014 thought to hold the largest genever selection in the Netherlands.",
+      "lat": 52.371719,
+      "lon": 4.899024,
+      "photos": []
+    },
+    {
+      "n": "Advocatuur",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Canal Ring \u2014 Rosewood, Prinsengracht",
+      "d": "The signature bar of Rosewood Amsterdam in the former Palace of Justice \u2014 a polished, contemporary drinking room in the city's newest grand hotel.",
+      "lat": 52.365395,
+      "lon": 4.883345,
+      "photos": []
+    },
+    {
+      "n": "Twenty Third Bar",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "De Pijp \u2014 Hotel Okura, 23rd floor",
+      "d": "A high, glass-walled bar beside Ciel Bleu on the 23rd floor of the Okura \u2014 the best skyline view for a drink in the city.",
+      "lat": 52.348619,
+      "lon": 4.893199,
+      "photos": []
+    }
+  ]
+}

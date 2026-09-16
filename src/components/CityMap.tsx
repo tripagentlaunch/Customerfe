@@ -1,7 +1,10 @@
-import { useEffect, useMemo, useRef, useState } from "react";
-import { FLOAT_PANE, GoogleMap, MarkerF, OverlayViewF, useJsApiLoader } from "@react-google-maps/api";
+import { useEffect, useMemo, useRef, useState, type CSSProperties } from "react";
+import { FLOAT_PANE, GoogleMap, OVERLAY_MOUSE_TARGET, OverlayViewF, useJsApiLoader } from "@react-google-maps/api";
 import type { CityMapData, CityMapVenue } from "../types/city";
 import VenueCard from "./VenueCard";
+import MockCityMap from "./MockCityMap";
+import MapPin from "./MapPin";
+import { catColor, catIcon } from "./cityMapCategories";
 import styles from "./CityMap.module.css";
 
 const GOOGLE_MAPS_API_KEY = import.meta.env.VITE_GOOGLE_MAPS_API_KEY as string | undefined;
@@ -39,33 +42,8 @@ function useCityMapData(slug: string) {
   return data;
 }
 
-type CatKey = CityMapVenue["cat"];
-
-const CATEGORIES: { key: CatKey; label: string; color: string }[] = [
-  { key: "stay", label: "Stays", color: "#6E2A38" },
-  { key: "eat", label: "Tables", color: "#4E5B57" },
-  { key: "do", label: "Sights", color: "#6F5B3E" },
-  { key: "party", label: "After dark", color: "#3F5560" },
-];
-
-const CAT_COLOR: Record<CatKey, string> = Object.fromEntries(CATEGORIES.map((c) => [c.key, c.color])) as Record<
-  CatKey,
-  string
->;
-
-function markerIcon(color: string): google.maps.Symbol {
-  return {
-    path: "M0,0 C-6,-6 -6,-16 0,-24 C6,-16 6,-6 0,0 Z",
-    fillColor: color,
-    fillOpacity: 1,
-    strokeColor: "#FFFFFF",
-    strokeWeight: 1.5,
-    scale: 1,
-    anchor: new google.maps.Point(0, 0),
-  };
-}
-
 const MAP_CONTAINER_STYLE = { width: "100%", height: "100%" };
+const PIN_BUTTON_STYLE: CSSProperties = { transform: "translate(-50%, -50%)", background: "none", border: "none", padding: 0, cursor: "pointer" };
 
 // Restrained, near-monochrome maison style — mutes default Google POI/road
 // clutter so the curated markers stay the focus.
@@ -89,24 +67,13 @@ export default function CityMap({ slug }: { slug: string }) {
   });
 
   const data = useCityMapData(slug);
-  const [active, setActive] = useState<Set<CatKey>>(new Set(CATEGORIES.map((c) => c.key)));
   const [selected, setSelected] = useState<CityMapVenue | null>(null);
   const [map, setMap] = useState<google.maps.Map | null>(null);
 
   const canvasRef = useRef<HTMLDivElement | null>(null);
-  const firstToggleRef = useRef<HTMLInputElement | null>(null);
   // The marker's own DOM node (best-effort focus target on close — see
   // restoreFocus, which falls back when this isn't reliably focusable).
   const triggerElRef = useRef<HTMLElement | null>(null);
-
-  function toggle(key: CatKey) {
-    setActive((prev) => {
-      const next = new Set(prev);
-      if (next.has(key)) next.delete(key);
-      else next.add(key);
-      return next;
-    });
-  }
 
   function selectVenue(v: CityMapVenue, domEvent: Event | undefined) {
     triggerElRef.current = (domEvent?.target as HTMLElement) ?? null;
@@ -115,20 +82,14 @@ export default function CityMap({ slug }: { slug: string }) {
 
   // Classic (non-Advanced) MarkerF markers are usually canvas-drawn, not
   // reliably focusable DOM nodes — try it anyway, but fall back to the map
-  // container, then the category toggle row, so focus always lands somewhere
-  // sensible after Esc/close.
+  // container, so focus always lands somewhere sensible after Esc/close.
   function restoreFocus() {
     const marker = triggerElRef.current;
     if (marker && document.contains(marker) && typeof marker.focus === "function") {
       marker.focus();
       if (document.activeElement === marker) return;
     }
-    const mapEl = canvasRef.current;
-    if (mapEl) {
-      mapEl.focus();
-      if (document.activeElement === mapEl) return;
-    }
-    firstToggleRef.current?.focus();
+    canvasRef.current?.focus();
   }
 
   function closeWithFocusRestore() {
@@ -136,26 +97,43 @@ export default function CityMap({ slug }: { slug: string }) {
     restoreFocus();
   }
 
-  const visibleVenues = useMemo(
-    () => (data ? data.venues.filter((v) => active.has(v.cat)) : []),
-    [data, active]
-  );
+  const visibleVenues = data?.venues ?? [];
 
   const center = useMemo(
     () => (data ? { lat: data.center[0], lng: data.center[1] } : { lat: 20, lng: 0 }),
     [data]
   );
 
-  if (!GOOGLE_MAPS_API_KEY) {
-    return (
-      <div className={styles.fallback}>
-        Map unavailable — VITE_GOOGLE_MAPS_API_KEY is not configured.
-      </div>
-    );
-  }
-
   if (data === null) {
     return <div className={styles.fallback}>Map not available for this destination yet.</div>;
+  }
+
+  // No Google Maps key yet — a plain projected-pin map stands in, using the
+  // same data/toggle/selection state as the real map above so swapping the
+  // key back in later is just deleting this branch, not rewiring anything.
+  if (!GOOGLE_MAPS_API_KEY) {
+    if (data === undefined) {
+      return (
+        <div className={styles.wrap}>
+          <div className={styles.canvas}>
+            <div className={styles.fallback}>Loading map…</div>
+          </div>
+        </div>
+      );
+    }
+    return (
+      <div className={styles.wrap}>
+        <div className={styles.canvas} ref={canvasRef} tabIndex={-1}>
+          <MockCityMap
+            data={data}
+            visibleVenues={visibleVenues}
+            selected={selected}
+            onSelect={selectVenue}
+            onClose={closeWithFocusRestore}
+          />
+        </div>
+      </div>
+    );
   }
 
   if (loadError) {
@@ -174,20 +152,6 @@ export default function CityMap({ slug }: { slug: string }) {
 
   return (
     <div className={styles.wrap}>
-      <div className={styles.toggles} role="group" aria-label="Filter map by category">
-        {CATEGORIES.map((c, i) => (
-          <label className={styles.toggle} key={c.key}>
-            <input
-              ref={i === 0 ? firstToggleRef : undefined}
-              type="checkbox"
-              checked={active.has(c.key)}
-              onChange={() => toggle(c.key)}
-            />
-            <span className={styles.dot} style={{ background: c.color }} />
-            {c.label}
-          </label>
-        ))}
-      </div>
       <div className={styles.canvas} ref={canvasRef} tabIndex={-1}>
         <GoogleMap
           mapContainerStyle={MAP_CONTAINER_STYLE}
@@ -204,12 +168,11 @@ export default function CityMap({ slug }: { slug: string }) {
           }}
         >
           {visibleVenues.map((v, i) => (
-            <MarkerF
-              key={`${v.n}-${i}`}
-              position={{ lat: v.lat, lng: v.lon }}
-              icon={markerIcon(CAT_COLOR[v.cat])}
-              onClick={(e) => selectVenue(v, e.domEvent)}
-            />
+            <OverlayViewF key={`${v.n}-${i}`} position={{ lat: v.lat, lng: v.lon }} mapPaneName={OVERLAY_MOUSE_TARGET}>
+              <button type="button" aria-label={v.n} style={PIN_BUTTON_STYLE} onClick={(e) => selectVenue(v, e.nativeEvent)}>
+                <MapPin Icon={catIcon(v.cat)} color={catColor(v.cat)} active={selected?.n === v.n && selected.lat === v.lat} />
+              </button>
+            </OverlayViewF>
           ))}
           {selected && (
             <OverlayViewF

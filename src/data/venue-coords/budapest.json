@@ -1,1 +1,698 @@
-{"center": [47.497879, 19.040238], "venues": [{"n": "Four Seasons Hotel Gresham Palace Budapest", "cat": "stay", "tier": "Ultra", "a": "District V / Széchenyi tér, Chain Bridge", "d": "The city's definitive address — a restored Art Nouveau palace at the Pest foot of the Chain Bridge, looking straight across the Danube to Buda Castle.", "lat": 47.499862, "lon": 19.048055, "p": "v"}, {"n": "Matild Palace, a Luxury Collection Hotel", "cat": "stay", "tier": "Ultra", "a": "District V / by Elisabeth Bridge, the Danube", "d": "A Belle Époque palace on the Pest riverfront, reborn as a jewel-box hotel — gilded, marbled and unmistakably grand.", "lat": 47.492359, "lon": 19.054055, "p": "v"}, {"n": "Anantara New York Palace Budapest", "cat": "stay", "tier": "Grand", "a": "District VII / Erzsébet körút", "d": "A history-rich palace hotel wrapped around the legendary New York Café — old-world Habsburg grandeur, restored with a light modern hand.", "lat": 47.498647, "lon": 19.070789, "p": "v"}, {"n": "The Ritz-Carlton, Budapest", "cat": "stay", "tier": "Grand", "a": "District V / Erzsébet tér", "d": "A dignified 1918 former insurance palace off Erzsébet tér — understated, classical and impeccably run, with a stained-glass cupola over afternoon tea.", "lat": 47.497242, "lon": 19.053176, "p": "v"}, {"n": "Párisi Udvar Hotel Budapest", "cat": "stay", "tier": "Luxury", "a": "District V / Ferenciek tere", "d": "One of Budapest's most breathtaking interiors — a neo-Gothic-Moorish 1913 arcade with a soaring glass-domed atrium, now a hotel of rare drama.", "lat": 47.493436, "lon": 19.054902, "p": "v"}, {"n": "W Budapest", "cat": "stay", "tier": "Luxury", "a": "District VI / Andrássy Avenue", "d": "A bold reinvention of the 19th-century Drechsler Palace on Andrássy, opposite the Opera House — design-forward, energetic and beautifully restored.", "lat": 47.478439, "lon": 19.057714, "p": "v"}, {"n": "Aria Hotel Budapest", "cat": "stay", "tier": "Luxury", "a": "District V / near St. Stephen's Basilica", "d": "A music-themed boutique house steps from the Basilica, crowned by the High Note SkyBar — playful, polished and superbly placed.", "lat": 47.499853, "lon": 19.053589, "p": "v"}, {"n": "Kozmo Hotel Suites & Spa", "cat": "stay", "tier": "Premium", "a": "District IX / Ferencváros", "d": "An intimate, contemporary suites hotel with a serious spa — a quieter, design-led alternative to the grand palaces.", "lat": 47.490298, "lon": 19.074483, "p": "v"}, {"n": "Stand", "cat": "eat", "tier": "Destination", "a": "District VI / near Andrássy Avenue", "d": "Szabina Szulló and Tamás Széll's flagship — refined modern Hungarian cooking around a glass-walled kitchen, and the city's most decorated table.", "lat": 47.500265, "lon": 19.059497, "p": "v"}, {"n": "Babel", "cat": "eat", "tier": "Destination", "a": "District V / Piarista köz", "d": "Kornél Kaszás's hushed, elegant room of barely a dozen tables — tasting menus rooted in Austro-Hungarian and Transylvanian tradition, chasing purity of flavour.", "lat": 47.492687, "lon": 19.052216, "p": "v"}, {"n": "Costes", "cat": "eat", "tier": "Destination", "a": "District IX / Ráday utca", "d": "The restaurant that won Hungary's first Michelin star in 2010 — polished, classical fine dining that set the modern Budapest standard.", "lat": 47.488805, "lon": 19.062285, "p": "v"}, {"n": "essência", "cat": "eat", "tier": "Destination", "a": "District V / Belváros", "d": "A love story on a plate — Portuguese chef Tiago Sabarigo and Éva Jenei let you lead each course Portuguese or Hungarian, or weave the two together.", "lat": 47.501196, "lon": 19.05208, "p": "v"}, {"n": "Rumour by Jenő Rácz", "cat": "eat", "tier": "Destination", "a": "District VI / Terézváros", "d": "Jenő Rácz's confident, contemporary tasting menu — technically sharp, produce-led cooking from one of the country's most talked-about chefs.", "lat": 47.509494, "lon": 19.065323, "p": "a"}, {"n": "Salt", "cat": "eat", "tier": "Destination", "a": "District XIII / Újlipótváros", "d": "A single tasting menu built almost entirely on Hungarian produce and craft — foraged, fermented and fiercely seasonal, in the Nordic spirit.", "lat": 47.500365, "lon": 19.05053, "p": "v"}, {"n": "Borkonyha Winekitchen", "cat": "eat", "tier": "Fine", "a": "District V / near St. Stephen's Basilica", "d": "'Wine Kitchen' — Ákos Sárközi's relaxed, Hungarian-rooted bistro with a serious, wine-led list, holding its star for over a decade.", "lat": 47.499466, "lon": 19.052474, "p": "v"}, {"n": "Stand25 Bisztró", "cat": "eat", "tier": "Smart", "a": "District I / Hold utca market & Várkerület", "d": "The Stand team's casual sibling — hearty, refined Hungarian classics done properly, at a fraction of the flagship's price.", "lat": 47.497767, "lon": 19.032804, "p": "v"}, {"n": "Goli", "cat": "eat", "tier": "Smart", "a": "District VI / Terézváros", "d": "An easygoing modern bistro of small plates and natural wines — inventive, seasonal and squarely the kind of good-value cooking the Bib rewards.", "lat": 47.50254, "lon": 19.053337, "p": "v"}, {"n": "N28 Wine & Kitchen", "cat": "eat", "tier": "Smart", "a": "District VI / near the Opera", "d": "A wine-focused kitchen near the Opera House — considered small plates paired with a deep, characterful list.", "lat": 47.504006, "lon": 19.05934, "p": "v"}, {"n": "Cabrio", "cat": "eat", "tier": "Smart", "a": "District VII / Erzsébetváros", "d": "A natural-wine bar with vintage flair and a leafy terrace — bold, seasonal small plates paired with a 100% natural list.", "lat": 47.494815, "lon": 19.056324, "p": "v"}, {"n": "94' Konyha & Bár", "cat": "eat", "tier": "Smart", "a": "District VII / Erzsébetváros", "d": "Vibrant, Vietnamese-rooted cooking — fragrant pho and the signature 94' Gohan — bringing real Asian craft to the city.", "lat": 47.509636, "lon": 19.047742, "p": "v"}, {"n": "New York Café", "cat": "eat", "tier": "Fine", "a": "District VII / inside Anantara New York Palace", "d": "Often called the most beautiful café in the world — a gilded, frescoed 1894 palace room of marble columns and Venetian chandeliers.", "lat": 47.498678, "lon": 19.070464, "p": "v"}, {"n": "Gundel", "cat": "eat", "tier": "Fine", "a": "District XIV / City Park, by the Zoo", "d": "Hungary's most famous restaurant since 1894 — the grand, palatial home of Gundel palacsinta and old-world Magyar ceremony, in the City Park.", "lat": 47.51745, "lon": 19.077087, "p": "v"}, {"n": "Buda Castle (Budavári Palota)", "cat": "do", "tier": "", "a": "Castle Hill, Buda", "d": "The vast Baroque royal palace crowning Castle Hill, first raised in the 13th century and rebuilt through sieges and centuries — today it holds the Hungarian National Gallery, the Budapest History Museum and the National Széchényi Library. The cobbled courtyards and terraces give a commanding sweep over the Danube and Pest; a private guide turns the layered history into a single unhurried morning for the family.", "lat": 47.495991, "lon": 19.039801, "p": "v"}, {"n": "Fisherman's Bastion (Halászbástya)", "cat": "do", "tier": "", "a": "Castle Hill, Buda", "d": "A fairytale neo-Romanesque terrace of white stone with seven pointed turrets — one for each of the Magyar tribes that settled the Carpathian Basin in 895 — framing the single most photographed panorama in Budapest, straight across to the Parliament. The lower terraces are free; come at first light or dusk to have the arcades and the golden view almost to yourselves.", "lat": 47.502305, "lon": 19.0347, "p": "v"}, {"n": "Matthias Church (Mátyás-templom)", "cat": "do", "tier": "", "a": "Castle Hill, Buda", "d": "The coronation church of Hungarian kings, its Gothic spire and dazzling diamond-patterned Zsolnay-tiled roof standing at the heart of Castle Hill. Inside, richly painted walls and folk-inspired frescoes make it unlike any church in Europe; the last Habsburg emperor was crowned here in 1916.", "lat": 47.502009, "lon": 19.034206, "p": "v"}, {"n": "Castle Hill Funicular (Budavári Sikló)", "cat": "do", "tier": "", "a": "Castle Hill, Buda", "d": "A charming 1870 wooden cable railway that climbs the steep 48% incline from Clark Ádám Square at the foot of the Chain Bridge to the castle in about 90 seconds. A gentle, characterful way up for grandparents and children who would rather not walk the hill — with a fine view over the river opening as you rise.", "lat": 47.49776, "lon": 19.039171, "p": "v"}, {"n": "Hungarian Parliament Building (Országház)", "cat": "do", "tier": "", "a": "Kossuth Square, Pest", "d": "The riverside icon of Budapest — a soaring neo-Gothic palace of 691 rooms built 1885–1902, its red dome and lace-like spires mirrored in the Danube. Guided tours climb the gilded grand staircase to the Holy Crown of Hungary beneath the central dome; book a timed English tour in advance, as entry is by escorted slot only.", "lat": 47.50705, "lon": 19.045919, "p": "v"}, {"n": "The Holy Crown of Hungary & Crown Jewels", "cat": "do", "tier": "", "a": "Kossuth Square, Pest", "d": "The thousand-year-old coronation crown, orb and sceptre — with the famously bent cross atop the crown — displayed beneath the Parliament's central dome as the enduring symbol of Hungarian sovereignty. Seen only on the guided Parliament tour, guarded by ceremonial soldiers; a quietly moving centrepiece of any visit.", "lat": 47.508748, "lon": 19.047172, "p": "a"}, {"n": "St. Stephen's Basilica (Szent István-bazilika)", "cat": "do", "tier": "", "a": "Lipótváros, Pest", "d": "The grandest church in Budapest, its 96-metre dome deliberately matching the Parliament's to equal Buda and Pest in height. Inside, the mummified right hand of St Stephen, the first king, rests in a jewelled reliquary; the panoramic rooftop gallery gives a 360-degree sweep over the whole city. Summer evening organ and orchestral concerts are a lovely, discreet outing.", "lat": 47.500777, "lon": 19.053965, "p": "v"}, {"n": "Széchenyi Chain Bridge (Széchenyi lánchíd)", "cat": "do", "tier": "", "a": "Danube, between Buda & Pest", "d": "The first permanent bridge to join Buda and Pest, opened in 1849, its great stone lions and iron chains the emblem of the city. A recently restored evening stroll across, lit up over the black river between the castle and the basilica, is the classic first-night walk — unhurried, romantic and free.", "lat": 47.498979, "lon": 19.043649, "p": "v"}, {"n": "The Danube Embankments & Promenade", "cat": "do", "tier": "", "a": "Danube, both banks", "d": "The stretch of quays and terraces on both banks — the Pest side lined with grand hotels and cafés, the Buda side rising to the castle — is the reason UNESCO listed the riverscape itself. A slow evening walk, or a private car pause at a lookout, delivers the bridges and floodlit monuments in one uninterrupted panorama.", "lat": 47.497449, "lon": 19.041583, "p": "a"}, {"n": "Széchenyi Thermal Bath (Széchenyi Gyógyfürdő)", "cat": "do", "tier": "", "a": "City Park, Pest", "d": "Europe's grandest bath complex — a canary-yellow neo-Baroque palace in City Park with 18 pools, the famous steaming outdoor thermal pools where locals play chess in the water, saunas and medicinal springs. The mother of all Budapest baths; book a private cabin and a massage for a serene multi-generational wellness afternoon.", "lat": 47.518435, "lon": 19.082522, "p": "v"}, {"n": "Gellért Thermal Bath (Gellért Gyógyfürdő)", "cat": "do", "tier": "", "a": "Gellérthegy, Buda", "d": "The most beautiful of the baths — an Art Nouveau temple of Zsolnay tiles, mosaics and stained glass beside the Danube in the Gellért Hotel. Note: it is closed for a full restoration and is expected to reopen around 2028, so admire the exterior for now and choose Rudas or Széchenyi to bathe.", "lat": 47.483816, "lon": 19.050953, "p": "v"}, {"n": "Rudas Thermal Bath (Rudas Gyógyfürdő)", "cat": "do", "tier": "", "a": "Gellérthegy, Buda", "d": "A 16th-century Ottoman bath — an octagonal pool under a domed ceiling pierced with coloured light shafts — paired with a modern rooftop hot tub open to a 360-degree view of the Danube, Parliament and the bridges. The most atmospheric soak in the city, and glorious at night; check the schedule, as the historic Turkish section still keeps single-sex days.", "lat": 47.489066, "lon": 19.0478, "p": "v"}, {"n": "Lukács Thermal Bath (Lukács Gyógyfürdő)", "cat": "do", "tier": "", "a": "Rózsadomb, Buda", "d": "The locals' bath — genuinely medicinal springs used since medieval times, its garden walls lined with marble plaques of thanks from cured bathers. Calmer and less touristy than the grand halls, it is the discreet choice for travellers who want the healing waters without the crowds.", "lat": 47.518013, "lon": 19.037057, "p": "v"}, {"n": "Gellért Hill & the Citadella", "cat": "do", "tier": "", "a": "Gellérthegy, Buda", "d": "A 235-metre rock rising sheer above the Danube, crowned by the 19th-century Citadella fortress — the finest single viewpoint over the whole city, both bridges and the river bend. A private car can take older travellers most of the way up; sunset here is the classic panoramic reward.", "lat": 47.487038, "lon": 19.045046, "p": "v"}, {"n": "Liberty Statue (Szabadság-szobor)", "cat": "do", "tier": "", "a": "Gellérthegy, Buda", "d": "The 14-metre bronze woman holding a palm leaf aloft above the Citadella, visible from across the city — raised in 1947 and long a symbol of the city's freedom. A brief, worthwhile stop woven into the Gellért Hill climb for the view she presides over.", "lat": 47.486745, "lon": 19.048028, "p": "v"}, {"n": "Cave Church (Sziklatemplom)", "cat": "do", "tier": "", "a": "Gellérthegy, Buda", "d": "A working Pauline monastery carved into the rock of Gellért Hill, its chapels set inside natural caves opposite the Gellért Baths. An unexpected, hushed and atmospheric detour on the way up or down the hill.", "lat": 47.484925, "lon": 19.052168, "p": "v"}, {"n": "Great Market Hall (Nagyvásárcsarnok)", "cat": "do", "tier": "", "a": "Fővám tér, Pest", "d": "Budapest's grandest indoor market — a soaring 1897 hall of iron and Zsolnay-tiled roof at the Pest end of the Liberty Bridge, stacked with paprika, salami, Tokaji wine and honey below, and food stalls with lángos and paprikás above. A vivid, family-friendly stop for gifts and grazing; the vegetables, cheeses and sweets suit vegetarian palates well.", "lat": 47.486575, "lon": 19.058994, "p": "v"}, {"n": "Heroes' Square (Hősök tere)", "cat": "do", "tier": "", "a": "City Park approach, Pest", "d": "The monumental plaza closing Andrássy Avenue — a sweeping colonnade of Hungary's chieftains and kings around the Millennium Monument, flanked by two great art museums. The grandest ceremonial space in the city and an essential photo stop before entering City Park.", "lat": 47.514166, "lon": 19.077838, "p": "v"}, {"n": "City Park & Vajdahunyad Castle (Városliget)", "cat": "do", "tier": "", "a": "City Park, Pest", "d": "Budapest's great green playground behind Heroes' Square, holding a boating lake, the Széchenyi Baths and the storybook Vajdahunyad Castle — a fantasy of Transylvanian Gothic, Romanesque and Baroque built for the 1896 millennium and now the Agricultural Museum. A relaxed, pram-friendly afternoon for all ages.", "lat": 47.515355, "lon": 19.081875, "p": "v"}, {"n": "Andrássy Avenue (Andrássy út)", "cat": "do", "tier": "", "a": "Pest", "d": "The elegant tree-lined boulevard running from downtown to Heroes' Square — Budapest's Champs-Élysées, lined with neo-Renaissance mansions, the Opera House and the flagship stores of Gucci, Louis Vuitton and the maisons. A UNESCO-listed avenue best strolled slowly, with a café stop and some discreet luxury shopping.", "lat": 47.497449, "lon": 19.041583, "p": "v"}, {"n": "Hungarian State Opera House (Magyar Állami Operaház)", "cat": "do", "tier": "", "a": "Andrássy Avenue, Pest", "d": "A neo-Renaissance jewel of the 1880s, built to rival Vienna and Paris, gilded and frescoed within and blessed with famously fine acoustics. Take the guided tour of the interiors, or better, attend a performance in one of Europe's most beautiful auditoriums for an unforgettable evening.", "lat": 47.50287, "lon": 19.058158, "p": "v"}, {"n": "Dohány Street Synagogue (Great Synagogue)", "cat": "do", "tier": "", "a": "Jewish Quarter (District VII), Pest", "d": "The largest synagogue in Europe and second largest in the world, a Moorish-Byzantine masterpiece of 1859 with twin onion-domed towers. The complex holds the Hungarian Jewish Museum, the Holocaust memorial garden and the silver weeping-willow Tree of Life — a moving, essential half-day with a guide.", "lat": 47.496102, "lon": 19.060868, "p": "v"}, {"n": "The Jewish Quarter (District VII)", "cat": "do", "tier": "", "a": "Erzsébetváros, Pest", "d": "The historic Jewish district, now the city's most fashionable quarter — courtyard synagogues, street art, kosher bakeries, designer boutiques and buzzing cafés threaded through handsome old tenements. A rich, walkable afternoon best explored with a private guide who can open its hidden courtyards and history.", "lat": 47.496449, "lon": 19.06109, "p": "v"}, {"n": "Szimpla Kert (the original ruin bar)", "cat": "do", "tier": "", "a": "Jewish Quarter (District VII), Pest", "d": "The mother of Budapest's 'ruin bars' — a derelict pre-war building filled with mismatched furniture, fairy lights, art and greenery around an open courtyard. More a cultural landmark than a pub; worth a daytime look at its famous farmers' market and interiors even if late-night crowds aren't your scene.", "lat": 47.495986, "lon": 19.060049, "p": "a"}, {"n": "House of Terror (Terror Háza)", "cat": "do", "tier": "", "a": "Andrássy Avenue, Pest", "d": "A powerful museum in the former secret-police headquarters at Andrássy 60, documenting Hungary's fascist and communist terror and honouring their victims — the very cells where prisoners were held survive in the basement. Sombre and unforgettable; a serious counterweight to the city's grandeur, best for older children and adults.", "lat": 47.506897, "lon": 19.065019, "p": "v"}, {"n": "Shoes on the Danube Bank", "cat": "do", "tier": "", "a": "Kossuth Square riverside, Pest", "d": "Sixty pairs of iron shoes cast into the embankment just south of the Parliament — a stark memorial to the Jews shot into the river here in 1944–45, their shoes left on the bank. A brief, deeply affecting pause on the riverside walk.", "lat": 47.503971, "lon": 19.044791, "p": "v"}, {"n": "Hungarian National Gallery", "cat": "do", "tier": "", "a": "Buda Castle, Buda", "d": "The definitive collection of Hungarian art from the Gothic altarpieces to the Impressionist Munkácsy and Csontváry, housed within Buda Castle. The upper-floor terrace and cupola add a fine castle-view bonus; a rewarding indoor morning when the weather turns.", "lat": 47.496228, "lon": 19.039773, "p": "v"}, {"n": "Museum of Fine Arts (Szépművészeti Múzeum)", "cat": "do", "tier": "", "a": "Heroes' Square, Pest", "d": "Hungary's finest art museum, on Heroes' Square, with over 100,000 works spanning European masters — El Greco, Raphael, Goya and a superb Egyptian and antiquities collection — reopened after a full restoration. A world-class rainy-day option for art-loving travellers.", "lat": 47.516218, "lon": 19.076365, "p": "v"}, {"n": "Hospital in the Rock (Sziklakórház)", "cat": "do", "tier": "", "a": "Castle Hill, Buda", "d": "A secret WWII and Cold War emergency hospital and nuclear bunker hidden in the caves beneath Castle Hill, preserved with wax figures and original equipment and seen only on a guided tour. A gripping, unusual counterpoint to the palaces above — best for older children and adults.", "lat": 47.500787, "lon": 19.031418, "p": "v"}, {"n": "Memento Park (Szoborpark)", "cat": "do", "tier": "", "a": "District XXII, southern Buda outskirts", "d": "An open-air museum on the city's edge where the giant Lenin, Marx and Soviet statues torn from Budapest's squares after 1989 now stand together. A thought-provoking, slightly surreal half-day; a private car makes the out-of-town trip easy.", "lat": 47.426226, "lon": 18.998962, "p": "v"}, {"n": "Margaret Island (Margitsziget)", "cat": "do", "tier": "", "a": "Danube, between Buda & Pest", "d": "A long green island in the middle of the Danube — car-free gardens, a rose garden, medieval convent ruins, a running track and a musical dancing fountain. The city's favourite retreat for a slow morning; hire a family pedal-carriage or simply walk under the plane trees away from the traffic.", "lat": 47.527293, "lon": 19.047867, "p": "v"}, {"n": "Danube evening cruise", "cat": "do", "tier": "", "a": "Danube, Pest embankment", "d": "The classic way to take in the UNESCO riverscape — the Parliament, castle, bridges and basilica all floodlit gold as you glide past after dark. Charter a private boat with dinner or a glass of Tokaji for a serene, celebratory evening the whole family remembers.", "lat": 47.491605, "lon": 19.051156, "p": "a"}, {"n": "New York Café", "cat": "do", "tier": "", "a": "Erzsébetváros, Pest", "d": "Long billed as 'the most beautiful café in the world' — a riot of gilt, marble columns, frescoed ceilings and chandeliers, once the haunt of Budapest's writers. Reserve for coffee, cake or a grand afternoon tea; go for the astonishing interior as much as the pastries.", "lat": 47.498678, "lon": 19.070464, "p": "v"}, {"n": "Gül Baba's Tomb & Rose Garden", "cat": "do", "tier": "", "a": "Rózsadomb, Buda", "d": "The octagonal mausoleum of an Ottoman dervish poet, set in a beautifully restored terraced rose garden high on Rose Hill — the northernmost Islamic pilgrimage site in the world and a place of great calm. A serene, little-visited hideaway with a lovely view over Pest.", "lat": 47.515979, "lon": 19.034926, "p": "v"}, {"n": "Elisabeth Lookout Tower (Erzsébet-kilátó), Normafa & János Hill", "cat": "do", "tier": "", "a": "Buda Hills", "d": "A neo-Romanesque stone tower atop János Hill — at 527 metres the highest point in Budapest — reached via the scenic Normafa woods and the beloved little Children's Railway or the chairlift. A breezy escape into the green hills with the widest panorama of all; free to climb.", "lat": 47.48352, "lon": 19.005449, "p": "a"}, {"n": "Bálna (the Whale) & the Danube riverwalk", "cat": "do", "tier": "", "a": "Fővám tér riverside, Pest", "d": "A striking glass-and-steel 'whale' of contemporary architecture fusing old brick warehouses on the Pest quay — galleries, cafés and design shops beside the river. A relaxed, modern contrast to the grand old city and a pleasant riverside stop near the Great Market Hall.", "lat": 47.487048, "lon": 19.057291, "p": "a"}, {"n": "Central Market & artisan food shopping", "cat": "do", "tier": "", "a": "Fővám tér, Pest", "d": "Beyond the Great Market Hall, the streets around it hold Budapest's best delicatessens and paprika, foie gras and Tokaji specialists — the place to assemble a hamper of Hungarian gifts. Vegetarian travellers will find superb cheeses, sweet pastries and pickles; a private guide can point you to the finest producers.", "lat": 47.493282, "lon": 19.053125, "p": "v"}, {"n": "The Danube Bend day trip — Szentendre, Visegrád & Esztergom", "cat": "do", "tier": "", "a": "Danube Bend (day trip north)", "d": "The classic full-day loop north of the city: the cobbled artists' town of Szentendre with its galleries and Orthodox churches, the royal hilltop citadel of Visegrád over a dramatic river curve, and Esztergom with the largest basilica in Central Europe. A private car and guide make it an easy, scenic day for the whole family.", "lat": 47.510606, "lon": 19.074969, "p": "a"}, {"n": "Szentendre", "cat": "do", "tier": "", "a": "Danube Bend (day trip north)", "d": "A pretty riverside town of pastel houses, artists' studios, Serbian Orthodox churches and marzipan shops, 25 km north of Budapest and reachable in 45 minutes by suburban train. The most relaxed and photogenic half-day escape; charming for a leisurely lunch and a gentle wander.", "lat": 47.665822, "lon": 19.077883, "p": "v"}, {"n": "Esztergom Basilica", "cat": "do", "tier": "", "a": "Danube Bend (day trip north)", "d": "The largest church in Hungary and one of the tallest in Central Europe, its vast dome rising over the Danube at the Slovak border in the ancient royal city of Esztergom. Climb to the cupola for a sweeping river panorama; a fitting grand finale to the Danube Bend loop.", "lat": 47.799108, "lon": 18.736538, "p": "v"}, {"n": "Lake Balaton", "cat": "do", "tier": "", "a": "Western Hungary (day trip / overnight)", "d": "Central Europe's largest lake, about 90 minutes from Budapest — the Hungarian 'sea' of vineyards, the Tihany peninsula with its Benedictine abbey and lavender fields, and elegant lakeside villas. A refreshing summer day or an overnight for water, wine and calm; lovely for multi-generational groups.", "lat": 47.439792, "lon": 18.979183, "p": "v"}, {"n": "Vörösmarty Square & the coffeehouse tradition", "cat": "do", "tier": "", "a": "Belváros (downtown), Pest", "d": "The genteel heart of downtown Pest, home to the legendary Café Gerbeaud with its century-old cakes and the Christmas market in winter. A civilised stop for the storied Hungarian coffeehouse ritual — Dobos torte, Eszterházy cake and a slow hour watching the square.", "lat": 47.495074, "lon": 19.053032, "p": "a"}, {"n": "Fashion Street & luxury shopping (Deák Ferenc utca)", "cat": "do", "tier": "", "a": "Belváros (downtown), Pest", "d": "Budapest's smartest shopping run, a short pedestrian street off Vörösmarty Square lined with international luxury houses, complemented by the maison boutiques along Andrássy Avenue. Discreet, unhurried shopping between sightseeing, with cafés and the grand hotels close at hand.", "lat": 47.496961, "lon": 19.052936, "p": "v"}, {"n": "Boutiq'Bar", "cat": "party", "tier": "Cocktail bars", "a": "District VI / off Andrássy", "d": "A serious, buzzy cocktail bar just off Andrássy — classics and inventive drinks made with real craft against a bold red interior.", "lat": 47.499497, "lon": 19.056053, "p": "v"}, {"n": "High Note SkyBar", "cat": "party", "tier": "Rooftops", "a": "District V / Aria Hotel, by St. Stephen's Basilica", "d": "The rooftop of the Aria Hotel — a front-row seat to St. Stephen's Basilica, floodlit and close enough to touch, over polished cocktails.", "lat": 47.4999, "lon": 19.053742, "p": "v"}, {"n": "360 Bar", "cat": "party", "tier": "Rooftops", "a": "District VI / Andrássy Avenue", "d": "A long-running rooftop on Andrássy with a genuine 360-degree panorama of the city — igloo domes in winter, open terrace in summer.", "lat": 47.503638, "lon": 19.061633, "p": "v"}, {"n": "Szimpla Kert", "cat": "party", "tier": "Late & loud", "a": "District VII / Jewish quarter", "d": "The original ruin bar — a derelict apartment block stripped to the brick and filled with fairy lights, salvaged junk, street art and a disused Trabant.", "lat": 47.49693, "lon": 19.063313, "p": "v"}]}
+{
+  "center": [
+    47.497879,
+    19.040238
+  ],
+  "venues": [
+    {
+      "n": "Four Seasons Hotel Gresham Palace Budapest",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "District V / Sz\u00e9chenyi t\u00e9r, Chain Bridge",
+      "d": "The city's definitive address \u2014 a restored Art Nouveau palace at the Pest foot of the Chain Bridge, looking straight across the Danube to Buda Castle.",
+      "lat": 47.499862,
+      "lon": 19.048055,
+      "photos": []
+    },
+    {
+      "n": "Matild Palace, a Luxury Collection Hotel",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "District V / by Elisabeth Bridge, the Danube",
+      "d": "A Belle \u00c9poque palace on the Pest riverfront, reborn as a jewel-box hotel \u2014 gilded, marbled and unmistakably grand.",
+      "lat": 47.492359,
+      "lon": 19.054055,
+      "photos": []
+    },
+    {
+      "n": "Anantara New York Palace Budapest",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "District VII / Erzs\u00e9bet k\u00f6r\u00fat",
+      "d": "A history-rich palace hotel wrapped around the legendary New York Caf\u00e9 \u2014 old-world Habsburg grandeur, restored with a light modern hand.",
+      "lat": 47.498647,
+      "lon": 19.070789,
+      "photos": []
+    },
+    {
+      "n": "The Ritz-Carlton, Budapest",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "District V / Erzs\u00e9bet t\u00e9r",
+      "d": "A dignified 1918 former insurance palace off Erzs\u00e9bet t\u00e9r \u2014 understated, classical and impeccably run, with a stained-glass cupola over afternoon tea.",
+      "lat": 47.497242,
+      "lon": 19.053176,
+      "photos": []
+    },
+    {
+      "n": "P\u00e1risi Udvar Hotel Budapest",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "District V / Ferenciek tere",
+      "d": "One of Budapest's most breathtaking interiors \u2014 a neo-Gothic-Moorish 1913 arcade with a soaring glass-domed atrium, now a hotel of rare drama.",
+      "lat": 47.493436,
+      "lon": 19.054902,
+      "photos": []
+    },
+    {
+      "n": "W Budapest",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "District VI / Andr\u00e1ssy Avenue",
+      "d": "A bold reinvention of the 19th-century Drechsler Palace on Andr\u00e1ssy, opposite the Opera House \u2014 design-forward, energetic and beautifully restored.",
+      "lat": 47.478439,
+      "lon": 19.057714,
+      "photos": []
+    },
+    {
+      "n": "Aria Hotel Budapest",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "District V / near St. Stephen's Basilica",
+      "d": "A music-themed boutique house steps from the Basilica, crowned by the High Note SkyBar \u2014 playful, polished and superbly placed.",
+      "lat": 47.499853,
+      "lon": 19.053589,
+      "photos": []
+    },
+    {
+      "n": "Kozmo Hotel Suites & Spa",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "District IX / Ferencv\u00e1ros",
+      "d": "An intimate, contemporary suites hotel with a serious spa \u2014 a quieter, design-led alternative to the grand palaces.",
+      "lat": 47.490298,
+      "lon": 19.074483,
+      "photos": []
+    },
+    {
+      "n": "Stand",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "District VI / near Andr\u00e1ssy Avenue",
+      "d": "Szabina Szull\u00f3 and Tam\u00e1s Sz\u00e9ll's flagship \u2014 refined modern Hungarian cooking around a glass-walled kitchen, and the city's most decorated table.",
+      "lat": 47.500265,
+      "lon": 19.059497,
+      "photos": []
+    },
+    {
+      "n": "Babel",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "District V / Piarista k\u00f6z",
+      "d": "Korn\u00e9l Kasz\u00e1s's hushed, elegant room of barely a dozen tables \u2014 tasting menus rooted in Austro-Hungarian and Transylvanian tradition, chasing purity of flavour.",
+      "lat": 47.492687,
+      "lon": 19.052216,
+      "photos": []
+    },
+    {
+      "n": "Costes",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "District IX / R\u00e1day utca",
+      "d": "The restaurant that won Hungary's first Michelin star in 2010 \u2014 polished, classical fine dining that set the modern Budapest standard.",
+      "lat": 47.488805,
+      "lon": 19.062285,
+      "photos": []
+    },
+    {
+      "n": "ess\u00eancia",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "District V / Belv\u00e1ros",
+      "d": "A love story on a plate \u2014 Portuguese chef Tiago Sabarigo and \u00c9va Jenei let you lead each course Portuguese or Hungarian, or weave the two together.",
+      "lat": 47.501196,
+      "lon": 19.05208,
+      "photos": []
+    },
+    {
+      "n": "Rumour by Jen\u0151 R\u00e1cz",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "District VI / Ter\u00e9zv\u00e1ros",
+      "d": "Jen\u0151 R\u00e1cz's confident, contemporary tasting menu \u2014 technically sharp, produce-led cooking from one of the country's most talked-about chefs.",
+      "lat": 47.509494,
+      "lon": 19.065323,
+      "photos": []
+    },
+    {
+      "n": "Salt",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "District XIII / \u00dajlip\u00f3tv\u00e1ros",
+      "d": "A single tasting menu built almost entirely on Hungarian produce and craft \u2014 foraged, fermented and fiercely seasonal, in the Nordic spirit.",
+      "lat": 47.500365,
+      "lon": 19.05053,
+      "photos": []
+    },
+    {
+      "n": "Borkonyha Winekitchen",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "District V / near St. Stephen's Basilica",
+      "d": "'Wine Kitchen' \u2014 \u00c1kos S\u00e1rk\u00f6zi's relaxed, Hungarian-rooted bistro with a serious, wine-led list, holding its star for over a decade.",
+      "lat": 47.499466,
+      "lon": 19.052474,
+      "photos": []
+    },
+    {
+      "n": "Stand25 Bisztr\u00f3",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "District I / Hold utca market & V\u00e1rker\u00fclet",
+      "d": "The Stand team's casual sibling \u2014 hearty, refined Hungarian classics done properly, at a fraction of the flagship's price.",
+      "lat": 47.497767,
+      "lon": 19.032804,
+      "photos": []
+    },
+    {
+      "n": "Goli",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "District VI / Ter\u00e9zv\u00e1ros",
+      "d": "An easygoing modern bistro of small plates and natural wines \u2014 inventive, seasonal and squarely the kind of good-value cooking the Bib rewards.",
+      "lat": 47.50254,
+      "lon": 19.053337,
+      "photos": []
+    },
+    {
+      "n": "N28 Wine & Kitchen",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "District VI / near the Opera",
+      "d": "A wine-focused kitchen near the Opera House \u2014 considered small plates paired with a deep, characterful list.",
+      "lat": 47.504006,
+      "lon": 19.05934,
+      "photos": []
+    },
+    {
+      "n": "Cabrio",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "District VII / Erzs\u00e9betv\u00e1ros",
+      "d": "A natural-wine bar with vintage flair and a leafy terrace \u2014 bold, seasonal small plates paired with a 100% natural list.",
+      "lat": 47.494815,
+      "lon": 19.056324,
+      "photos": []
+    },
+    {
+      "n": "94' Konyha & B\u00e1r",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "District VII / Erzs\u00e9betv\u00e1ros",
+      "d": "Vibrant, Vietnamese-rooted cooking \u2014 fragrant pho and the signature 94' Gohan \u2014 bringing real Asian craft to the city.",
+      "lat": 47.509636,
+      "lon": 19.047742,
+      "photos": []
+    },
+    {
+      "n": "New York Caf\u00e9",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "District VII / inside Anantara New York Palace",
+      "d": "Often called the most beautiful caf\u00e9 in the world \u2014 a gilded, frescoed 1894 palace room of marble columns and Venetian chandeliers.",
+      "lat": 47.498678,
+      "lon": 19.070464,
+      "photos": []
+    },
+    {
+      "n": "Gundel",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "District XIV / City Park, by the Zoo",
+      "d": "Hungary's most famous restaurant since 1894 \u2014 the grand, palatial home of Gundel palacsinta and old-world Magyar ceremony, in the City Park.",
+      "lat": 47.51745,
+      "lon": 19.077087,
+      "photos": []
+    },
+    {
+      "n": "Buda Castle (Budav\u00e1ri Palota)",
+      "cat": "do",
+      "tier": "",
+      "a": "Castle Hill, Buda",
+      "d": "The vast Baroque royal palace crowning Castle Hill, first raised in the 13th century and rebuilt through sieges and centuries \u2014 today it holds the Hungarian National Gallery, the Budapest History Museum and the National Sz\u00e9ch\u00e9nyi Library. The cobbled courtyards and terraces give a commanding sweep over the Danube and Pest; a private guide turns the layered history into a single unhurried morning for the family.",
+      "lat": 47.495991,
+      "lon": 19.039801,
+      "photos": []
+    },
+    {
+      "n": "Fisherman's Bastion (Hal\u00e1szb\u00e1stya)",
+      "cat": "do",
+      "tier": "",
+      "a": "Castle Hill, Buda",
+      "d": "A fairytale neo-Romanesque terrace of white stone with seven pointed turrets \u2014 one for each of the Magyar tribes that settled the Carpathian Basin in 895 \u2014 framing the single most photographed panorama in Budapest, straight across to the Parliament. The lower terraces are free; come at first light or dusk to have the arcades and the golden view almost to yourselves.",
+      "lat": 47.502305,
+      "lon": 19.0347,
+      "photos": []
+    },
+    {
+      "n": "Matthias Church (M\u00e1ty\u00e1s-templom)",
+      "cat": "do",
+      "tier": "",
+      "a": "Castle Hill, Buda",
+      "d": "The coronation church of Hungarian kings, its Gothic spire and dazzling diamond-patterned Zsolnay-tiled roof standing at the heart of Castle Hill. Inside, richly painted walls and folk-inspired frescoes make it unlike any church in Europe; the last Habsburg emperor was crowned here in 1916.",
+      "lat": 47.502009,
+      "lon": 19.034206,
+      "photos": []
+    },
+    {
+      "n": "Castle Hill Funicular (Budav\u00e1ri Sikl\u00f3)",
+      "cat": "do",
+      "tier": "",
+      "a": "Castle Hill, Buda",
+      "d": "A charming 1870 wooden cable railway that climbs the steep 48% incline from Clark \u00c1d\u00e1m Square at the foot of the Chain Bridge to the castle in about 90 seconds. A gentle, characterful way up for grandparents and children who would rather not walk the hill \u2014 with a fine view over the river opening as you rise.",
+      "lat": 47.49776,
+      "lon": 19.039171,
+      "photos": []
+    },
+    {
+      "n": "Hungarian Parliament Building (Orsz\u00e1gh\u00e1z)",
+      "cat": "do",
+      "tier": "",
+      "a": "Kossuth Square, Pest",
+      "d": "The riverside icon of Budapest \u2014 a soaring neo-Gothic palace of 691 rooms built 1885\u20131902, its red dome and lace-like spires mirrored in the Danube. Guided tours climb the gilded grand staircase to the Holy Crown of Hungary beneath the central dome; book a timed English tour in advance, as entry is by escorted slot only.",
+      "lat": 47.50705,
+      "lon": 19.045919,
+      "photos": []
+    },
+    {
+      "n": "The Holy Crown of Hungary & Crown Jewels",
+      "cat": "do",
+      "tier": "",
+      "a": "Kossuth Square, Pest",
+      "d": "The thousand-year-old coronation crown, orb and sceptre \u2014 with the famously bent cross atop the crown \u2014 displayed beneath the Parliament's central dome as the enduring symbol of Hungarian sovereignty. Seen only on the guided Parliament tour, guarded by ceremonial soldiers; a quietly moving centrepiece of any visit.",
+      "lat": 47.508748,
+      "lon": 19.047172,
+      "photos": []
+    },
+    {
+      "n": "St. Stephen's Basilica (Szent Istv\u00e1n-bazilika)",
+      "cat": "do",
+      "tier": "",
+      "a": "Lip\u00f3tv\u00e1ros, Pest",
+      "d": "The grandest church in Budapest, its 96-metre dome deliberately matching the Parliament's to equal Buda and Pest in height. Inside, the mummified right hand of St Stephen, the first king, rests in a jewelled reliquary; the panoramic rooftop gallery gives a 360-degree sweep over the whole city. Summer evening organ and orchestral concerts are a lovely, discreet outing.",
+      "lat": 47.500777,
+      "lon": 19.053965,
+      "photos": []
+    },
+    {
+      "n": "Sz\u00e9chenyi Chain Bridge (Sz\u00e9chenyi l\u00e1nch\u00edd)",
+      "cat": "do",
+      "tier": "",
+      "a": "Danube, between Buda & Pest",
+      "d": "The first permanent bridge to join Buda and Pest, opened in 1849, its great stone lions and iron chains the emblem of the city. A recently restored evening stroll across, lit up over the black river between the castle and the basilica, is the classic first-night walk \u2014 unhurried, romantic and free.",
+      "lat": 47.498979,
+      "lon": 19.043649,
+      "photos": []
+    },
+    {
+      "n": "The Danube Embankments & Promenade",
+      "cat": "do",
+      "tier": "",
+      "a": "Danube, both banks",
+      "d": "The stretch of quays and terraces on both banks \u2014 the Pest side lined with grand hotels and caf\u00e9s, the Buda side rising to the castle \u2014 is the reason UNESCO listed the riverscape itself. A slow evening walk, or a private car pause at a lookout, delivers the bridges and floodlit monuments in one uninterrupted panorama.",
+      "lat": 47.497449,
+      "lon": 19.041583,
+      "photos": []
+    },
+    {
+      "n": "Sz\u00e9chenyi Thermal Bath (Sz\u00e9chenyi Gy\u00f3gyf\u00fcrd\u0151)",
+      "cat": "do",
+      "tier": "",
+      "a": "City Park, Pest",
+      "d": "Europe's grandest bath complex \u2014 a canary-yellow neo-Baroque palace in City Park with 18 pools, the famous steaming outdoor thermal pools where locals play chess in the water, saunas and medicinal springs. The mother of all Budapest baths; book a private cabin and a massage for a serene multi-generational wellness afternoon.",
+      "lat": 47.518435,
+      "lon": 19.082522,
+      "photos": []
+    },
+    {
+      "n": "Gell\u00e9rt Thermal Bath (Gell\u00e9rt Gy\u00f3gyf\u00fcrd\u0151)",
+      "cat": "do",
+      "tier": "",
+      "a": "Gell\u00e9rthegy, Buda",
+      "d": "The most beautiful of the baths \u2014 an Art Nouveau temple of Zsolnay tiles, mosaics and stained glass beside the Danube in the Gell\u00e9rt Hotel. Note: it is closed for a full restoration and is expected to reopen around 2028, so admire the exterior for now and choose Rudas or Sz\u00e9chenyi to bathe.",
+      "lat": 47.483816,
+      "lon": 19.050953,
+      "photos": []
+    },
+    {
+      "n": "Rudas Thermal Bath (Rudas Gy\u00f3gyf\u00fcrd\u0151)",
+      "cat": "do",
+      "tier": "",
+      "a": "Gell\u00e9rthegy, Buda",
+      "d": "A 16th-century Ottoman bath \u2014 an octagonal pool under a domed ceiling pierced with coloured light shafts \u2014 paired with a modern rooftop hot tub open to a 360-degree view of the Danube, Parliament and the bridges. The most atmospheric soak in the city, and glorious at night; check the schedule, as the historic Turkish section still keeps single-sex days.",
+      "lat": 47.489066,
+      "lon": 19.0478,
+      "photos": []
+    },
+    {
+      "n": "Luk\u00e1cs Thermal Bath (Luk\u00e1cs Gy\u00f3gyf\u00fcrd\u0151)",
+      "cat": "do",
+      "tier": "",
+      "a": "R\u00f3zsadomb, Buda",
+      "d": "The locals' bath \u2014 genuinely medicinal springs used since medieval times, its garden walls lined with marble plaques of thanks from cured bathers. Calmer and less touristy than the grand halls, it is the discreet choice for travellers who want the healing waters without the crowds.",
+      "lat": 47.518013,
+      "lon": 19.037057,
+      "photos": []
+    },
+    {
+      "n": "Gell\u00e9rt Hill & the Citadella",
+      "cat": "do",
+      "tier": "",
+      "a": "Gell\u00e9rthegy, Buda",
+      "d": "A 235-metre rock rising sheer above the Danube, crowned by the 19th-century Citadella fortress \u2014 the finest single viewpoint over the whole city, both bridges and the river bend. A private car can take older travellers most of the way up; sunset here is the classic panoramic reward.",
+      "lat": 47.487038,
+      "lon": 19.045046,
+      "photos": []
+    },
+    {
+      "n": "Liberty Statue (Szabads\u00e1g-szobor)",
+      "cat": "do",
+      "tier": "",
+      "a": "Gell\u00e9rthegy, Buda",
+      "d": "The 14-metre bronze woman holding a palm leaf aloft above the Citadella, visible from across the city \u2014 raised in 1947 and long a symbol of the city's freedom. A brief, worthwhile stop woven into the Gell\u00e9rt Hill climb for the view she presides over.",
+      "lat": 47.486745,
+      "lon": 19.048028,
+      "photos": []
+    },
+    {
+      "n": "Cave Church (Sziklatemplom)",
+      "cat": "do",
+      "tier": "",
+      "a": "Gell\u00e9rthegy, Buda",
+      "d": "A working Pauline monastery carved into the rock of Gell\u00e9rt Hill, its chapels set inside natural caves opposite the Gell\u00e9rt Baths. An unexpected, hushed and atmospheric detour on the way up or down the hill.",
+      "lat": 47.484925,
+      "lon": 19.052168,
+      "photos": []
+    },
+    {
+      "n": "Great Market Hall (Nagyv\u00e1s\u00e1rcsarnok)",
+      "cat": "do",
+      "tier": "",
+      "a": "F\u0151v\u00e1m t\u00e9r, Pest",
+      "d": "Budapest's grandest indoor market \u2014 a soaring 1897 hall of iron and Zsolnay-tiled roof at the Pest end of the Liberty Bridge, stacked with paprika, salami, Tokaji wine and honey below, and food stalls with l\u00e1ngos and paprik\u00e1s above. A vivid, family-friendly stop for gifts and grazing; the vegetables, cheeses and sweets suit vegetarian palates well.",
+      "lat": 47.486575,
+      "lon": 19.058994,
+      "photos": []
+    },
+    {
+      "n": "Heroes' Square (H\u0151s\u00f6k tere)",
+      "cat": "do",
+      "tier": "",
+      "a": "City Park approach, Pest",
+      "d": "The monumental plaza closing Andr\u00e1ssy Avenue \u2014 a sweeping colonnade of Hungary's chieftains and kings around the Millennium Monument, flanked by two great art museums. The grandest ceremonial space in the city and an essential photo stop before entering City Park.",
+      "lat": 47.514166,
+      "lon": 19.077838,
+      "photos": []
+    },
+    {
+      "n": "City Park & Vajdahunyad Castle (V\u00e1rosliget)",
+      "cat": "do",
+      "tier": "",
+      "a": "City Park, Pest",
+      "d": "Budapest's great green playground behind Heroes' Square, holding a boating lake, the Sz\u00e9chenyi Baths and the storybook Vajdahunyad Castle \u2014 a fantasy of Transylvanian Gothic, Romanesque and Baroque built for the 1896 millennium and now the Agricultural Museum. A relaxed, pram-friendly afternoon for all ages.",
+      "lat": 47.515355,
+      "lon": 19.081875,
+      "photos": []
+    },
+    {
+      "n": "Andr\u00e1ssy Avenue (Andr\u00e1ssy \u00fat)",
+      "cat": "do",
+      "tier": "",
+      "a": "Pest",
+      "d": "The elegant tree-lined boulevard running from downtown to Heroes' Square \u2014 Budapest's Champs-\u00c9lys\u00e9es, lined with neo-Renaissance mansions, the Opera House and the flagship stores of Gucci, Louis Vuitton and the maisons. A UNESCO-listed avenue best strolled slowly, with a caf\u00e9 stop and some discreet luxury shopping.",
+      "lat": 47.497449,
+      "lon": 19.041583,
+      "photos": []
+    },
+    {
+      "n": "Hungarian State Opera House (Magyar \u00c1llami Operah\u00e1z)",
+      "cat": "do",
+      "tier": "",
+      "a": "Andr\u00e1ssy Avenue, Pest",
+      "d": "A neo-Renaissance jewel of the 1880s, built to rival Vienna and Paris, gilded and frescoed within and blessed with famously fine acoustics. Take the guided tour of the interiors, or better, attend a performance in one of Europe's most beautiful auditoriums for an unforgettable evening.",
+      "lat": 47.50287,
+      "lon": 19.058158,
+      "photos": []
+    },
+    {
+      "n": "Doh\u00e1ny Street Synagogue (Great Synagogue)",
+      "cat": "do",
+      "tier": "",
+      "a": "Jewish Quarter (District VII), Pest",
+      "d": "The largest synagogue in Europe and second largest in the world, a Moorish-Byzantine masterpiece of 1859 with twin onion-domed towers. The complex holds the Hungarian Jewish Museum, the Holocaust memorial garden and the silver weeping-willow Tree of Life \u2014 a moving, essential half-day with a guide.",
+      "lat": 47.496102,
+      "lon": 19.060868,
+      "photos": []
+    },
+    {
+      "n": "The Jewish Quarter (District VII)",
+      "cat": "do",
+      "tier": "",
+      "a": "Erzs\u00e9betv\u00e1ros, Pest",
+      "d": "The historic Jewish district, now the city's most fashionable quarter \u2014 courtyard synagogues, street art, kosher bakeries, designer boutiques and buzzing caf\u00e9s threaded through handsome old tenements. A rich, walkable afternoon best explored with a private guide who can open its hidden courtyards and history.",
+      "lat": 47.496449,
+      "lon": 19.06109,
+      "photos": []
+    },
+    {
+      "n": "Szimpla Kert (the original ruin bar)",
+      "cat": "do",
+      "tier": "",
+      "a": "Jewish Quarter (District VII), Pest",
+      "d": "The mother of Budapest's 'ruin bars' \u2014 a derelict pre-war building filled with mismatched furniture, fairy lights, art and greenery around an open courtyard. More a cultural landmark than a pub; worth a daytime look at its famous farmers' market and interiors even if late-night crowds aren't your scene.",
+      "lat": 47.495986,
+      "lon": 19.060049,
+      "photos": []
+    },
+    {
+      "n": "House of Terror (Terror H\u00e1za)",
+      "cat": "do",
+      "tier": "",
+      "a": "Andr\u00e1ssy Avenue, Pest",
+      "d": "A powerful museum in the former secret-police headquarters at Andr\u00e1ssy 60, documenting Hungary's fascist and communist terror and honouring their victims \u2014 the very cells where prisoners were held survive in the basement. Sombre and unforgettable; a serious counterweight to the city's grandeur, best for older children and adults.",
+      "lat": 47.506897,
+      "lon": 19.065019,
+      "photos": []
+    },
+    {
+      "n": "Shoes on the Danube Bank",
+      "cat": "do",
+      "tier": "",
+      "a": "Kossuth Square riverside, Pest",
+      "d": "Sixty pairs of iron shoes cast into the embankment just south of the Parliament \u2014 a stark memorial to the Jews shot into the river here in 1944\u201345, their shoes left on the bank. A brief, deeply affecting pause on the riverside walk.",
+      "lat": 47.503971,
+      "lon": 19.044791,
+      "photos": []
+    },
+    {
+      "n": "Hungarian National Gallery",
+      "cat": "do",
+      "tier": "",
+      "a": "Buda Castle, Buda",
+      "d": "The definitive collection of Hungarian art from the Gothic altarpieces to the Impressionist Munk\u00e1csy and Csontv\u00e1ry, housed within Buda Castle. The upper-floor terrace and cupola add a fine castle-view bonus; a rewarding indoor morning when the weather turns.",
+      "lat": 47.496228,
+      "lon": 19.039773,
+      "photos": []
+    },
+    {
+      "n": "Museum of Fine Arts (Sz\u00e9pm\u0171v\u00e9szeti M\u00fazeum)",
+      "cat": "do",
+      "tier": "",
+      "a": "Heroes' Square, Pest",
+      "d": "Hungary's finest art museum, on Heroes' Square, with over 100,000 works spanning European masters \u2014 El Greco, Raphael, Goya and a superb Egyptian and antiquities collection \u2014 reopened after a full restoration. A world-class rainy-day option for art-loving travellers.",
+      "lat": 47.516218,
+      "lon": 19.076365,
+      "photos": []
+    },
+    {
+      "n": "Hospital in the Rock (Sziklak\u00f3rh\u00e1z)",
+      "cat": "do",
+      "tier": "",
+      "a": "Castle Hill, Buda",
+      "d": "A secret WWII and Cold War emergency hospital and nuclear bunker hidden in the caves beneath Castle Hill, preserved with wax figures and original equipment and seen only on a guided tour. A gripping, unusual counterpoint to the palaces above \u2014 best for older children and adults.",
+      "lat": 47.500787,
+      "lon": 19.031418,
+      "photos": []
+    },
+    {
+      "n": "Memento Park (Szoborpark)",
+      "cat": "do",
+      "tier": "",
+      "a": "District XXII, southern Buda outskirts",
+      "d": "An open-air museum on the city's edge where the giant Lenin, Marx and Soviet statues torn from Budapest's squares after 1989 now stand together. A thought-provoking, slightly surreal half-day; a private car makes the out-of-town trip easy.",
+      "lat": 47.426226,
+      "lon": 18.998962,
+      "photos": []
+    },
+    {
+      "n": "Margaret Island (Margitsziget)",
+      "cat": "do",
+      "tier": "",
+      "a": "Danube, between Buda & Pest",
+      "d": "A long green island in the middle of the Danube \u2014 car-free gardens, a rose garden, medieval convent ruins, a running track and a musical dancing fountain. The city's favourite retreat for a slow morning; hire a family pedal-carriage or simply walk under the plane trees away from the traffic.",
+      "lat": 47.527293,
+      "lon": 19.047867,
+      "photos": []
+    },
+    {
+      "n": "Danube evening cruise",
+      "cat": "do",
+      "tier": "",
+      "a": "Danube, Pest embankment",
+      "d": "The classic way to take in the UNESCO riverscape \u2014 the Parliament, castle, bridges and basilica all floodlit gold as you glide past after dark. Charter a private boat with dinner or a glass of Tokaji for a serene, celebratory evening the whole family remembers.",
+      "lat": 47.491605,
+      "lon": 19.051156,
+      "photos": []
+    },
+    {
+      "n": "New York Caf\u00e9",
+      "cat": "do",
+      "tier": "",
+      "a": "Erzs\u00e9betv\u00e1ros, Pest",
+      "d": "Long billed as 'the most beautiful caf\u00e9 in the world' \u2014 a riot of gilt, marble columns, frescoed ceilings and chandeliers, once the haunt of Budapest's writers. Reserve for coffee, cake or a grand afternoon tea; go for the astonishing interior as much as the pastries.",
+      "lat": 47.498678,
+      "lon": 19.070464,
+      "photos": []
+    },
+    {
+      "n": "G\u00fcl Baba's Tomb & Rose Garden",
+      "cat": "do",
+      "tier": "",
+      "a": "R\u00f3zsadomb, Buda",
+      "d": "The octagonal mausoleum of an Ottoman dervish poet, set in a beautifully restored terraced rose garden high on Rose Hill \u2014 the northernmost Islamic pilgrimage site in the world and a place of great calm. A serene, little-visited hideaway with a lovely view over Pest.",
+      "lat": 47.515979,
+      "lon": 19.034926,
+      "photos": []
+    },
+    {
+      "n": "Elisabeth Lookout Tower (Erzs\u00e9bet-kil\u00e1t\u00f3), Normafa & J\u00e1nos Hill",
+      "cat": "do",
+      "tier": "",
+      "a": "Buda Hills",
+      "d": "A neo-Romanesque stone tower atop J\u00e1nos Hill \u2014 at 527 metres the highest point in Budapest \u2014 reached via the scenic Normafa woods and the beloved little Children's Railway or the chairlift. A breezy escape into the green hills with the widest panorama of all; free to climb.",
+      "lat": 47.48352,
+      "lon": 19.005449,
+      "photos": []
+    },
+    {
+      "n": "B\u00e1lna (the Whale) & the Danube riverwalk",
+      "cat": "do",
+      "tier": "",
+      "a": "F\u0151v\u00e1m t\u00e9r riverside, Pest",
+      "d": "A striking glass-and-steel 'whale' of contemporary architecture fusing old brick warehouses on the Pest quay \u2014 galleries, caf\u00e9s and design shops beside the river. A relaxed, modern contrast to the grand old city and a pleasant riverside stop near the Great Market Hall.",
+      "lat": 47.487048,
+      "lon": 19.057291,
+      "photos": []
+    },
+    {
+      "n": "Central Market & artisan food shopping",
+      "cat": "do",
+      "tier": "",
+      "a": "F\u0151v\u00e1m t\u00e9r, Pest",
+      "d": "Beyond the Great Market Hall, the streets around it hold Budapest's best delicatessens and paprika, foie gras and Tokaji specialists \u2014 the place to assemble a hamper of Hungarian gifts. Vegetarian travellers will find superb cheeses, sweet pastries and pickles; a private guide can point you to the finest producers.",
+      "lat": 47.493282,
+      "lon": 19.053125,
+      "photos": []
+    },
+    {
+      "n": "The Danube Bend day trip \u2014 Szentendre, Visegr\u00e1d & Esztergom",
+      "cat": "do",
+      "tier": "",
+      "a": "Danube Bend (day trip north)",
+      "d": "The classic full-day loop north of the city: the cobbled artists' town of Szentendre with its galleries and Orthodox churches, the royal hilltop citadel of Visegr\u00e1d over a dramatic river curve, and Esztergom with the largest basilica in Central Europe. A private car and guide make it an easy, scenic day for the whole family.",
+      "lat": 47.510606,
+      "lon": 19.074969,
+      "photos": []
+    },
+    {
+      "n": "Szentendre",
+      "cat": "do",
+      "tier": "",
+      "a": "Danube Bend (day trip north)",
+      "d": "A pretty riverside town of pastel houses, artists' studios, Serbian Orthodox churches and marzipan shops, 25 km north of Budapest and reachable in 45 minutes by suburban train. The most relaxed and photogenic half-day escape; charming for a leisurely lunch and a gentle wander.",
+      "lat": 47.665822,
+      "lon": 19.077883,
+      "photos": []
+    },
+    {
+      "n": "Esztergom Basilica",
+      "cat": "do",
+      "tier": "",
+      "a": "Danube Bend (day trip north)",
+      "d": "The largest church in Hungary and one of the tallest in Central Europe, its vast dome rising over the Danube at the Slovak border in the ancient royal city of Esztergom. Climb to the cupola for a sweeping river panorama; a fitting grand finale to the Danube Bend loop.",
+      "lat": 47.799108,
+      "lon": 18.736538,
+      "photos": []
+    },
+    {
+      "n": "Lake Balaton",
+      "cat": "do",
+      "tier": "",
+      "a": "Western Hungary (day trip / overnight)",
+      "d": "Central Europe's largest lake, about 90 minutes from Budapest \u2014 the Hungarian 'sea' of vineyards, the Tihany peninsula with its Benedictine abbey and lavender fields, and elegant lakeside villas. A refreshing summer day or an overnight for water, wine and calm; lovely for multi-generational groups.",
+      "lat": 47.439792,
+      "lon": 18.979183,
+      "photos": []
+    },
+    {
+      "n": "V\u00f6r\u00f6smarty Square & the coffeehouse tradition",
+      "cat": "do",
+      "tier": "",
+      "a": "Belv\u00e1ros (downtown), Pest",
+      "d": "The genteel heart of downtown Pest, home to the legendary Caf\u00e9 Gerbeaud with its century-old cakes and the Christmas market in winter. A civilised stop for the storied Hungarian coffeehouse ritual \u2014 Dobos torte, Eszterh\u00e1zy cake and a slow hour watching the square.",
+      "lat": 47.495074,
+      "lon": 19.053032,
+      "photos": []
+    },
+    {
+      "n": "Fashion Street & luxury shopping (De\u00e1k Ferenc utca)",
+      "cat": "do",
+      "tier": "",
+      "a": "Belv\u00e1ros (downtown), Pest",
+      "d": "Budapest's smartest shopping run, a short pedestrian street off V\u00f6r\u00f6smarty Square lined with international luxury houses, complemented by the maison boutiques along Andr\u00e1ssy Avenue. Discreet, unhurried shopping between sightseeing, with caf\u00e9s and the grand hotels close at hand.",
+      "lat": 47.496961,
+      "lon": 19.052936,
+      "photos": []
+    },
+    {
+      "n": "Boutiq'Bar",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "District VI / off Andr\u00e1ssy",
+      "d": "A serious, buzzy cocktail bar just off Andr\u00e1ssy \u2014 classics and inventive drinks made with real craft against a bold red interior.",
+      "lat": 47.499497,
+      "lon": 19.056053,
+      "photos": []
+    },
+    {
+      "n": "High Note SkyBar",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "District V / Aria Hotel, by St. Stephen's Basilica",
+      "d": "The rooftop of the Aria Hotel \u2014 a front-row seat to St. Stephen's Basilica, floodlit and close enough to touch, over polished cocktails.",
+      "lat": 47.4999,
+      "lon": 19.053742,
+      "photos": []
+    },
+    {
+      "n": "360 Bar",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "District VI / Andr\u00e1ssy Avenue",
+      "d": "A long-running rooftop on Andr\u00e1ssy with a genuine 360-degree panorama of the city \u2014 igloo domes in winter, open terrace in summer.",
+      "lat": 47.503638,
+      "lon": 19.061633,
+      "photos": []
+    },
+    {
+      "n": "Szimpla Kert",
+      "cat": "party",
+      "tier": "Late & loud",
+      "a": "District VII / Jewish quarter",
+      "d": "The original ruin bar \u2014 a derelict apartment block stripped to the brick and filled with fairy lights, salvaged junk, street art and a disused Trabant.",
+      "lat": 47.49693,
+      "lon": 19.063313,
+      "photos": []
+    }
+  ]
+}

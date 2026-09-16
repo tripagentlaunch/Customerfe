@@ -1,1 +1,768 @@
-{"center": [50.087465, 14.421254], "venues": [{"n": "Four Seasons Hotel Prague", "cat": "stay", "tier": "Ultra", "a": "Staré Město (Old Town), on the Vltava riverbank", "d": "Three linked historic houses — Baroque, Renaissance and neo-Classical — on the river, with the finest Castle-and-bridge view in the city.", "lat": 50.08771, "lon": 14.414537, "p": "v"}, {"n": "Fairmont Golden Prague", "cat": "stay", "tier": "Ultra", "a": "Staré Město (Old Town), by the river near the Jewish Quarter", "d": "A landmark riverfront grande dame reborn under Fairmont — the only hotel in Prague to earn two MICHELIN Keys.", "lat": 50.091898, "lon": 14.41901, "p": "v"}, {"n": "Mandarin Oriental, Prague", "cat": "stay", "tier": "Ultra", "a": "Malá Strana (Lesser Town), below the Castle", "d": "A former 14th-century monastery turned serene Mandarin Oriental house, quietly hidden in the cobbled lanes beneath the Castle.", "lat": 50.08472, "lon": 14.405461, "p": "v"}, {"n": "Augustine, a Luxury Collection Hotel", "cat": "stay", "tier": "Grand", "a": "Malá Strana (Lesser Town), by the Augustinian monastery", "d": "Woven around a still-working 13th-century Augustinian monastery — cloisters, a monk's brewery, and Cubist-inspired design.", "lat": 50.088761, "lon": 14.406276, "p": "v"}, {"n": "Andaz Prague", "cat": "stay", "tier": "Grand", "a": "Nové Město (New Town), Senovážné Square", "d": "Set in the restored 1916 Sugar Palace — a design-led Hyatt house threading 1920s retro-futurist Czech art through the historic centre.", "lat": 50.085514, "lon": 14.43052, "p": "v"}, {"n": "Almanac X Alcron Prague", "cat": "stay", "tier": "Grand", "a": "Nové Město (New Town), near Wenceslas Square", "d": "A restored 1932 Art Deco landmark — the storied Alcron reborn, with its glamorous heritage dining room, Brasserie 1932.", "lat": 50.080077, "lon": 14.426401, "p": "v"}, {"n": "The Grand Mark Prague", "cat": "stay", "tier": "Grand", "a": "Staré Město (Old Town), Hybernská", "d": "A former Baroque palace with one of the largest private hotel gardens in the Old Town — classical grandeur, quietly kept.", "lat": 50.087094, "lon": 14.431337, "p": "v"}, {"n": "Aria Hotel Prague", "cat": "stay", "tier": "Luxury", "a": "Malá Strana (Lesser Town), by St Nicholas Church", "d": "A music-themed boutique below the Castle, each floor devoted to a genre — with a rooftop terrace over the red rooftops of the Lesser Town.", "lat": 50.08771, "lon": 14.414537, "p": "v"}, {"n": "Alchymist Grand Hotel & Spa", "cat": "stay", "tier": "Luxury", "a": "Malá Strana (Lesser Town), Tržiště", "d": "A cluster of Renaissance and Baroque townhouses restored with gilded, theatrical opulence — an ornate, old-world hideaway.", "lat": 50.087553, "lon": 14.400954, "p": "v"}, {"n": "The Emblem Prague Hotel", "cat": "stay", "tier": "Luxury", "a": "Staré Město (Old Town), Platnéřská", "d": "A discreet contemporary design hotel a few steps from the Old Town Square — a rooftop lounge, a library, and a quietly modern hand.", "lat": 50.087567, "lon": 14.418466, "p": "v"}, {"n": "La Degustation Bohême Bourgeoise", "cat": "eat", "tier": "Destination", "a": "Staré Město (Old Town), Haštalská", "d": "The first restaurant devoted to Czech cuisine to win a MICHELIN star — a long tasting menu reviving 19th-century Bohemian cookbooks.", "lat": 50.091032, "lon": 14.425106, "p": "v"}, {"n": "Field", "cat": "eat", "tier": "Destination", "a": "Staré Město (Old Town), U Milosrdných", "d": "Radek Kašpárek's playful, farm-driven modern cooking — Prague's most consistently celebrated star, and a MICHELIN Service Award winner.", "lat": 50.127177, "lon": 14.376191, "p": "v"}, {"n": "Casa de Carli", "cat": "eat", "tier": "Destination", "a": "Prague", "d": "Chef Matteo de Carli cooking the food of his Italian homeland — handmade pasta at the counter, and Prague's newest MICHELIN star.", "lat": 50.090524, "lon": 14.42169, "p": "v"}, {"n": "Levitate", "cat": "eat", "tier": "Destination", "a": "Vinohrady, near Riegrovy sady", "d": "Christian Chu's Nordic technique laced with Asian spice — an inventive, individual tasting menu that won a star in 2025.", "lat": 50.077722, "lon": 14.425112, "p": "v"}, {"n": "Štangl", "cat": "eat", "tier": "Destination", "a": "Prague", "d": "Martin Štangl's manifesto for modern Czech cooking — foraged herbs and forgotten ingredients, and both a MICHELIN Star and Green Star.", "lat": 50.075903, "lon": 14.42404, "p": "v"}, {"n": "Leaf", "cat": "eat", "tier": "Fine", "a": "Prague", "d": "Barbora Šimůnková's sustainability-led kitchen — a MICHELIN Green Star for produce-forward, low-waste cooking.", "lat": 50.069945, "lon": 14.496599, "p": "v"}, {"n": "Alma", "cat": "eat", "tier": "Smart", "a": "Nové Město (New Town), V Jirchářích, near the National Theatre", "d": "A day-to-night gastronomic complex — café, restaurant and one of Europe's most acclaimed bars — with a MICHELIN Bib Gourmand kitchen.", "lat": 50.10459, "lon": 14.465517, "p": "v"}, {"n": "The Eatery", "cat": "eat", "tier": "Smart", "a": "Holešovice", "d": "Confident, generous modern Czech cooking that has held its Bib Gourmand — a favourite of the local dining crowd.", "lat": 50.107455, "lon": 14.45091, "p": "v"}, {"n": "Dejvická 34", "cat": "eat", "tier": "Smart", "a": "Dejvice", "d": "A polished neighbourhood restaurant with Italian leanings — reliably good, and a long-standing Bib Gourmand.", "lat": 50.098794, "lon": 14.399192, "p": "v"}, {"n": "Na Kopci", "cat": "eat", "tier": "Smart", "a": "Smíchov", "d": "Czech and French cooking on a quiet hill in Smíchov — a warm, well-priced Bib Gourmand off the tourist map.", "lat": 50.146229, "lon": 14.479629, "p": "v"}, {"n": "Výčep", "cat": "eat", "tier": "Smart", "a": "Prague", "d": "Modern Czech cooking with a serious approach to Czech beer — a fresh Bib Gourmand doing the classics properly.", "lat": 50.075258, "lon": 14.453626, "p": "v"}, {"n": "U Kalendů", "cat": "eat", "tier": "Smart", "a": "Prague", "d": "An assured, ingredient-led kitchen that earned a Bib Gourmand in the guide's first Czechia edition.", "lat": 50.071317, "lon": 14.414446, "p": "v"}, {"n": "U Matěje", "cat": "eat", "tier": "Smart", "a": "Dejvice", "d": "A refined take on Czech classics in a smart neighbourhood room — a new Bib Gourmand for 2025.", "lat": 50.113751, "lon": 14.379894, "p": "v"}, {"n": "Eska", "cat": "eat", "tier": "Smart", "a": "Karlín", "d": "A bakery-and-restaurant landmark of the Karlín revival — modern Czech cooking, wood-fired bread, and a MICHELIN listing.", "lat": 50.100966, "lon": 14.425948, "p": "v"}, {"n": "Terasa U Zlaté Studně", "cat": "eat", "tier": "Fine", "a": "Malá Strana (Lesser Town), below the Castle", "d": "A rooftop dining terrace with one of the great Prague views — the Castle and the red rooftops laid out below.", "lat": 50.090965, "lon": 14.404495, "p": "v"}, {"n": "Prague Castle (Pražský hrad)", "cat": "do", "tier": "", "a": "Hradčany", "d": "The largest coherent castle complex in the world by Guinness reckoning, a thousand years of palaces, courtyards and cathedral spires crowning the skyline above the river. A private early-access tour before the gates open lets a multi-generational family have the courtyards almost to themselves.", "lat": 50.090811, "lon": 14.400522, "p": "v"}, {"n": "St Vitus Cathedral (Katedrála sv. Víta)", "cat": "do", "tier": "", "a": "Hradčany", "d": "Nearly six centuries in the building, this soaring Gothic cathedral inside the castle walls holds the Bohemian crown jewels, royal tombs and the shimmering Art Nouveau windows Alfons Mucha designed. The 287-step climb of the Great South Tower rewards with the finest close view over the whole city.", "lat": 50.090864, "lon": 14.400571, "p": "v"}, {"n": "Charles Bridge (Karlův most)", "cat": "do", "tier": "", "a": "Staré Město / Malá Strana", "d": "The 14th-century stone bridge lined with thirty Baroque saints, linking the Old Town to the castle side across the Vltava. Cross at dawn — before the crowds and buskers arrive — for the postcard light on the water and the towers, an unhurried moment that suits early-rising elders and children alike.", "lat": 50.086175, "lon": 14.413609, "p": "v"}, {"n": "Old Town Square (Staroměstské náměstí)", "cat": "do", "tier": "", "a": "Staré Město", "d": "The medieval heart of Prague, ringed by pastel Gothic and Baroque facades, the twin spires of Týn Church and pavement cafes. A grand, walkable stage for the whole family, with the Astronomical Clock chiming on the hour.", "lat": 50.087445, "lon": 14.420971, "p": "v"}, {"n": "Prague Astronomical Clock & Old Town Hall (Orloj)", "cat": "do", "tier": "", "a": "Staré Město", "d": "One of the oldest working astronomical clocks in the world, dating to 1410, with a procession of the Twelve Apostles that draws a crowd every hour. Climb the Old Town Hall tower for a bird's-eye sweep of the square and its rooftops — a lift makes it easy for less mobile travellers.", "lat": 50.08698, "lon": 14.420714, "p": "v"}, {"n": "Josefov — the Jewish Quarter", "cat": "do", "tier": "", "a": "Josefov (Staré Město)", "d": "The most complete surviving complex of Jewish monuments in Europe, its historic synagogues and cemetery woven into the Old Town. A guided walk through seven centuries of Prague's Jewish story is one of the city's most moving and reflective experiences for a family.", "lat": 50.089755, "lon": 14.418096, "p": "v"}, {"n": "Old-New Synagogue (Staronová synagoga)", "cat": "do", "tier": "", "a": "Josefov (Staré Město)", "d": "The oldest active synagogue in Europe, in continuous use since around 1270, and the legendary home of the Golem myth. Its austere early-Gothic hall is unlike anything else in the city — small, atmospheric and still a living house of prayer.", "lat": 50.090039, "lon": 14.41859, "p": "v"}, {"n": "Spanish Synagogue (Španělská synagoga)", "cat": "do", "tier": "", "a": "Josefov (Staré Město)", "d": "A dazzling Moorish-Revival interior of gilded arabesques, stained glass and a starry domed ceiling — the most sumptuous of all Prague's synagogues, part of the Jewish Museum. Intimate evening chamber concerts here are a discreet, refined way to spend an hour.", "lat": 50.090359, "lon": 14.420847, "p": "v"}, {"n": "Old Jewish Cemetery (Starý židovský hřbitov)", "cat": "do", "tier": "", "a": "Josefov (Staré Město)", "d": "Twelve thousand weathered headstones tilting against each other in layered rows, one of the most evocative burial grounds in the world, used from the 15th to the 18th century. A quiet, thought-provoking stop within the Jewish Museum circuit.", "lat": 50.089975, "lon": 14.416915, "p": "v"}, {"n": "Malá Strana (Lesser Town)", "cat": "do", "tier": "", "a": "Malá Strana", "d": "Prague's Baroque quarter beneath the castle, its noble palaces, hidden courtyards and cobbled lanes barely changed since the 18th century. The perfect district for an unhurried private walk, with quiet corner cafes and garden restaurants for a mid-stroll pause.", "lat": 50.087158, "lon": 14.404822, "p": "v"}, {"n": "St Nicholas Church, Malá Strana (Kostel sv. Mikuláše)", "cat": "do", "tier": "", "a": "Malá Strana", "d": "The supreme masterpiece of Prague Baroque, a vast green dome and a ceiling fresco so grand it seems to open the roof to heaven. Time a visit to one of the frequent organ or chamber concerts held beneath the dome.", "lat": 50.087851, "lon": 14.40363, "p": "v"}, {"n": "Church of Our Lady before Týn (Chrám Matky Boží před Týnem)", "cat": "do", "tier": "", "a": "Staré Město", "d": "The twin black Gothic spires rising over Old Town Square are the defining silhouette of medieval Prague, each crowned with a crown of mini-spires. The astronomer Tycho Brahe lies buried inside this soaring, dimly lit interior.", "lat": 50.087721, "lon": 14.422695, "p": "v"}, {"n": "Loreta (Loreta Praha)", "cat": "do", "tier": "", "a": "Hradčany", "d": "A jewel-box Baroque pilgrimage shrine near the castle, built around a replica of the Holy House, with a famous treasury of monstrances glittering with thousands of diamonds. Its cloister and carillon of bells make it a peaceful counterpoint to the busier castle.", "lat": 50.089282, "lon": 14.391545, "p": "v"}, {"n": "Strahov Monastery & Library (Strahovský klášter)", "cat": "do", "tier": "", "a": "Hradčany", "d": "Two of the most beautiful Baroque library halls on earth — the Theological and Philosophical Halls — with painted ceilings, antique globes and a cabinet of curiosities. The hilltop terrace outside offers one of the best panoramas of the spired city below.", "lat": 50.086258, "lon": 14.389069, "p": "v"}, {"n": "Klementinum — Baroque Library & Astronomical Tower", "cat": "do", "tier": "", "a": "Staré Město", "d": "A jaw-dropping 1727 Jesuit library hall of frescoed ceilings and historic globes, reached only by guided tour, plus a climb up the Astronomical Tower for a wraparound view over the Old Town rooftops. The small-group entry keeps it calm and civilised.", "lat": 50.086115, "lon": 14.418782, "p": "a"}, {"n": "Golden Lane (Zlatá ulička)", "cat": "do", "tier": "", "a": "Hradčany", "d": "A row of tiny brightly-painted 16th-century cottages tucked inside the castle walls, once home to castle marksmen and later, briefly, to Franz Kafka at No. 22. A charming, storybook lane that delights children and grandparents alike.", "lat": 50.092057, "lon": 14.40427, "p": "v"}, {"n": "Municipal House (Obecní dům)", "cat": "do", "tier": "", "a": "Staré Město / Náměstí Republiky", "d": "The finest Art Nouveau building in Prague, a 1912 confection of mosaics, stained glass and interiors decorated by Mucha and his peers, wrapped around the grand Smetana concert hall. A guided tour of the salons, then dinner in the opulent French restaurant, makes an elegant evening.", "lat": 50.087756, "lon": 14.427764, "p": "v"}, {"n": "Mucha Museum", "cat": "do", "tier": "", "a": "Nové Město", "d": "The world's first museum devoted to Alfons Mucha, the Czech master whose sinuous posters of flowing-haired Slavic women defined Art Nouveau. A compact, intimate collection a short walk from Wenceslas Square — an easy, rewarding hour for art lovers of any age.", "lat": 50.084176, "lon": 14.42772, "p": "v"}, {"n": "The Slav Epic by Alfons Mucha (at the Municipal House)", "cat": "do", "tier": "", "a": "Staré Město / Náměstí Republiky", "d": "Mucha's monumental twenty-canvas cycle telling the saga of the Slavic peoples, some panels the size of a cinema screen, now on show inside the Municipal House. A single, awe-inspiring encounter with a national masterpiece.", "lat": 50.086423, "lon": 14.415677, "p": "a"}, {"n": "Petřín Hill & Lookout Tower (Petřínská rozhledna)", "cat": "do", "tier": "", "a": "Malá Strana / Petřín", "d": "A wooded 327-metre hill of orchards and rose gardens crowned by a miniature Eiffel-style tower with a 360-degree view of Prague. A gentle, green escape from the streets below, with a mirror maze and observatory that keep younger travellers happy.", "lat": 50.083517, "lon": 14.395086, "p": "v"}, {"n": "Letná Park & Metronome (Letenské sady)", "cat": "do", "tier": "", "a": "Holešovice / Letná", "d": "A wooded plateau above the river where a giant metronome now stands on the old plinth that once held a Stalin statue, and where you can count seven of Prague's bridges in one sweep. The seasonal beer garden with its Old Town view is a beloved local sunset spot.", "lat": 50.095493, "lon": 14.422601, "p": "v"}, {"n": "Vltava River Cruise", "cat": "do", "tier": "", "a": "Vltava River", "d": "The classic way to see the castle, Charles Bridge and the National Theatre reflected in the water, from a leisurely daytime glide to a candlelit dinner cruise at night. A private charter with a chef briefed on vegetarian and Jain preferences is easily arranged.", "lat": 50.080681, "lon": 14.408582, "p": "a"}, {"n": "Kampa Island & the Lennon Wall", "cat": "do", "tier": "", "a": "Malá Strana", "d": "Nicknamed 'Prague's Venice' for its little canal and waterwheel, this leafy island beneath Charles Bridge holds a riverside park and the ever-changing John Lennon Wall of painted messages. A relaxed, romantic wander with the Kampa modern-art museum alongside.", "lat": 50.086286, "lon": 14.408076, "p": "v"}, {"n": "Kampa Museum (Museum Kampa)", "cat": "do", "tier": "", "a": "Malá Strana", "d": "A converted riverside mill housing a fine collection of Central European modern art, strong on František Kupka and the Cubist sculptor Otto Gutfreund. A calm, well-curated space with a terrace café looking straight across the Vltava.", "lat": 50.083999, "lon": 14.408491, "p": "v"}, {"n": "Wallenstein Garden (Valdštejnská zahrada)", "cat": "do", "tier": "", "a": "Malá Strana", "d": "A grand early-Baroque garden of clipped hedges, a dramatic frescoed grotto and bronze statues, hidden behind the walls of a palace that is now the Czech Senate — and free to enter. Peacocks roam the lawns, delighting children, and it is blissfully quiet.", "lat": 50.090164, "lon": 14.406429, "p": "v"}, {"n": "Vrtba Garden (Vrtbovská zahrada)", "cat": "do", "tier": "", "a": "Malá Strana", "d": "One of the most beautiful terraced Baroque gardens in Central Europe, climbing in ornamental tiers up the hillside with statues and a view over the red roofs of the Lesser Town. A serene, little-known hideaway ideal for a private moment.", "lat": 50.086489, "lon": 14.402482, "p": "v"}, {"n": "Estates Theatre (Stavovské divadlo)", "cat": "do", "tier": "", "a": "Staré Město", "d": "The exquisite 1783 Classical theatre where Mozart himself conducted the world premiere of Don Giovanni in 1787, still staging the opera today in near-original surroundings. To hear Mozart in the very room he wrote it for is one of Europe's great cultural experiences.", "lat": 50.085962, "lon": 14.423638, "p": "v"}, {"n": "National Theatre (Národní divadlo)", "cat": "do", "tier": "", "a": "Nové Město", "d": "The gilded neo-Renaissance temple of Czech culture on the riverbank, its golden roof a landmark, staging opera, ballet and drama beneath a ceiling of allegorical paintings. A box for an evening performance is a grand, memorable night out.", "lat": 50.080864, "lon": 14.41357, "p": "v"}, {"n": "Rudolfinum & the Czech Philharmonic", "cat": "do", "tier": "", "a": "Josefov (Staré Město)", "d": "One of the finest 19th-century concert halls on the continent, whose Dvořák Hall is home to the world-class Czech Philharmonic. A ticket here is the connoisseur's choice for classical music in Prague, in a riverside setting of real grandeur.", "lat": 50.08771, "lon": 14.414537, "p": "a"}, {"n": "State Opera (Státní opera)", "cat": "do", "tier": "", "a": "Nové Město", "d": "A sumptuously restored neo-Rococo opera house near the top of Wenceslas Square, staging grand opera and ballet under a lavishly painted auditorium. The recent renovation returned it to full jewel-box splendour.", "lat": 50.080486, "lon": 14.432955, "p": "v"}, {"n": "Black-Light Theatre Ta Fantastika", "cat": "do", "tier": "", "a": "Staré Město", "d": "Prague's distinctive black-light theatre, where UV-lit figures float and transform against a black stage in wordless, dreamlike shows. Because it needs no language, it is a genuinely fun, all-ages evening for multi-generational groups.", "lat": 50.085566, "lon": 14.417732, "p": "v"}, {"n": "Vyšehrad Fortress", "cat": "do", "tier": "", "a": "Vyšehrad", "d": "A cliff-top fortress above the Vltava, wrapped around the neo-Gothic Church of Sts Peter and Paul, ancient ramparts and the Slavín cemetery where Dvořák, Smetana and Mucha lie. Far quieter than the castle, with sweeping river views and space for children to run.", "lat": 50.064646, "lon": 14.417947, "p": "v"}, {"n": "National Gallery — Trade Fair Palace (Veletržní palác)", "cat": "do", "tier": "", "a": "Holešovice", "d": "Prague's great museum of modern and contemporary art, in a landmark 1928 Functionalist building, with works by Picasso, Klimt, Van Gogh and Mucha's Slav Epic hall. The single most important art collection in the country, and rarely crowded.", "lat": 50.101523, "lon": 14.432334, "p": "v"}, {"n": "DOX Centre for Contemporary Art", "cat": "do", "tier": "", "a": "Holešovice", "d": "A sharp, converted-factory space for cutting-edge contemporary art, architecture and design, crowned by the Gulliver airship — a huge wooden zeppelin on the roof. The most forward-looking cultural stop in the city, with a good design shop and café.", "lat": 50.102495, "lon": 14.442798, "p": "a"}, {"n": "Wenceslas Square & the National Museum (Václavské náměstí)", "cat": "do", "tier": "", "a": "Nové Město", "d": "The grand boulevard-square at the heart of modern Prague, scene of the 1989 Velvet Revolution, closed at its top by the newly restored, palatial National Museum. History, shopping and grand architecture in one broad sweep.", "lat": 50.081124, "lon": 14.428514, "p": "v"}, {"n": "Vinohrady", "cat": "do", "tier": "", "a": "Vinohrady", "d": "A stately residential quarter of Art Nouveau apartment blocks, leafy squares and the city's best independent restaurants and wine bars — regularly named among the world's coolest neighbourhoods. The relaxed, refined district in which discerning travellers actually want to spend an evening.", "lat": 50.073814, "lon": 14.451943, "p": "v"}, {"n": "Riegrovy sady (Rieger Gardens)", "cat": "do", "tier": "", "a": "Vinohrady", "d": "A rolling park in Vinohrady whose grassy slope offers a classic view of the castle and spires at sunset, home to one of Prague's largest and most beloved beer gardens. A local, easygoing way to end a warm day.", "lat": 50.080179, "lon": 14.439286, "p": "v"}, {"n": "Žižkov TV Tower (Žižkovská televizní věž)", "cat": "do", "tier": "", "a": "Žižkov", "d": "Prague's tallest structure and its most divisive landmark, a 216-metre space-age tower with crawling giant baby sculptures by David Černý and a 360-degree observation deck. There's a one-room luxury suite and a restaurant near the top for a memorable, offbeat treat.", "lat": 50.081022, "lon": 14.451058, "p": "v"}, {"n": "Karlín", "cat": "do", "tier": "", "a": "Karlín", "d": "A once-industrial district reborn after the 2002 floods into one of Prague's leading quarters for design, cuisine and cafés, anchored by the grand neo-Romanesque Church of Sts Cyril and Methodius. The place to see contemporary, creative Prague away from the tourist core.", "lat": 50.095573, "lon": 14.458295, "p": "v"}, {"n": "Náplavka Riverbank & Farmers' Market", "cat": "do", "tier": "", "a": "Nové Město (riverside)", "d": "The revived Vltava embankment of vaulted cellar bars and moored boats, with a lively Saturday farmers' market of Czech produce, cheeses and street food. A genuinely local scene with castle-and-bridge views, and plenty of vegetarian-friendly stalls.", "lat": 50.080215, "lon": 14.421473, "p": "a"}, {"n": "Havelské tržiště (Havel's Market)", "cat": "do", "tier": "", "a": "Staré Město", "d": "The last surviving open-air market in the historic core, trading since 1232, with stalls of fruit, flowers, wooden toys and Czech crafts. A quick, atmospheric stop between the Old Town Square and the river.", "lat": 50.084772, "lon": 14.420993, "p": "v"}, {"n": "Powder Tower (Prašná brána)", "cat": "do", "tier": "", "a": "Staré Město / Náměstí Republiky", "d": "A soaring blackened-Gothic gate tower marking the start of the medieval coronation route to the castle, standing beside the Art Nouveau Municipal House in a striking clash of eras. A short climb gives a fine view down the Royal Way.", "lat": 50.087243, "lon": 14.427756, "p": "v"}, {"n": "Kutná Hora & the Sedlec Ossuary", "cat": "do", "tier": "", "a": "Day trip — Central Bohemia (~1 hr)", "d": "A former silver-mining boomtown an hour east, home to the soaring Gothic St Barbara's Cathedral and the extraordinary Sedlec Ossuary, a chapel decorated with the bones of tens of thousands. An unforgettable, easily private half- or full-day excursion.", "lat": 49.894472, "lon": 14.747036, "p": "a"}, {"n": "Český Krumlov", "cat": "do", "tier": "", "a": "Day trip — South Bohemia (~2.5–3 hrs)", "d": "A storybook medieval town cradled in a bend of the Vltava, all pastel houses, cobbled lanes and a vast hilltop castle with its own Baroque theatre. Worth an overnight rather than a rush; a private car and guide turn the long drive into an unhurried pleasure.", "lat": 50.070034, "lon": 14.507714, "p": "v"}, {"n": "Karlovy Vary", "cat": "do", "tier": "", "a": "Day trip — West Bohemia (~2 hrs)", "d": "The grand 19th-century spa town of colonnades, thermal springs and pastel promenades where emperors and composers once took the cure, and the home of Becherovka liqueur and Moser crystal. A refined day of mineral springs, café society and a spa treatment for the whole party.", "lat": 50.088895, "lon": 14.416276, "p": "v"}, {"n": "Hemingway Bar", "cat": "party", "tier": "Cocktail bars", "a": "Staré Město (Old Town), Karolíny Světlé", "d": "A dark, intimate cocktail den devoted to Hemingway — rare rums, an absinthe fountain, and some of the most inventive drinks in the city.", "lat": 50.079275, "lon": 14.416298, "p": "v"}, {"n": "L'Fleur", "cat": "party", "tier": "Cocktail bars", "a": "Staré Město (Old Town), V Kolkovně", "d": "Cocktails and Champagne given equal billing — exposed brick, chandeliers, candlelight, and one of the largest Champagne lists in the world.", "lat": 50.076464, "lon": 14.453477, "p": "v"}, {"n": "Alma", "cat": "party", "tier": "Cocktail bars", "a": "Nové Město (New Town), V Jirchářích", "d": "Prague's most decorated bar — wild herbs, foraged ingredients and pickled pine cones in the glass, in a converted former cinema.", "lat": 50.10459, "lon": 14.465517, "p": "v"}, {"n": "Black Angel's Bar", "cat": "party", "tier": "Landmark bars", "a": "Staré Město (Old Town), beneath the U Prince Hotel on Old Town Square", "d": "A Prohibition-era cocktail cellar in a Gothic vault right on the Old Town Square — barrel-aged classics served on hand-made Moser glass.", "lat": 50.08648, "lon": 14.420049, "p": "v"}, {"n": "Cloud 9 Sky Bar & Lounge", "cat": "party", "tier": "Rooftops", "a": "Nové Město (New Town), atop the Hilton Prague", "d": "A glass-walled sky bar and terrace over the Vltava — one of the few genuine high-level views in a city of low rooftops.", "lat": 50.093604, "lon": 14.439482, "p": "v"}, {"n": "Terasa U Zlaté Studně", "cat": "party", "tier": "Rooftops", "a": "Malá Strana (Lesser Town), below the Castle", "d": "A rooftop terrace tucked beneath Prague Castle — the Baroque rooftops and spires of the Lesser Town laid out at your feet.", "lat": 50.090965, "lon": 14.404495, "p": "v"}]}
+{
+  "center": [
+    50.087465,
+    14.421254
+  ],
+  "venues": [
+    {
+      "n": "Four Seasons Hotel Prague",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Star\u00e9 M\u011bsto (Old Town), on the Vltava riverbank",
+      "d": "Three linked historic houses \u2014 Baroque, Renaissance and neo-Classical \u2014 on the river, with the finest Castle-and-bridge view in the city.",
+      "lat": 50.08771,
+      "lon": 14.414537,
+      "photos": []
+    },
+    {
+      "n": "Fairmont Golden Prague",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Star\u00e9 M\u011bsto (Old Town), by the river near the Jewish Quarter",
+      "d": "A landmark riverfront grande dame reborn under Fairmont \u2014 the only hotel in Prague to earn two MICHELIN Keys.",
+      "lat": 50.091898,
+      "lon": 14.41901,
+      "photos": []
+    },
+    {
+      "n": "Mandarin Oriental, Prague",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Mal\u00e1 Strana (Lesser Town), below the Castle",
+      "d": "A former 14th-century monastery turned serene Mandarin Oriental house, quietly hidden in the cobbled lanes beneath the Castle.",
+      "lat": 50.08472,
+      "lon": 14.405461,
+      "photos": []
+    },
+    {
+      "n": "Augustine, a Luxury Collection Hotel",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Mal\u00e1 Strana (Lesser Town), by the Augustinian monastery",
+      "d": "Woven around a still-working 13th-century Augustinian monastery \u2014 cloisters, a monk's brewery, and Cubist-inspired design.",
+      "lat": 50.088761,
+      "lon": 14.406276,
+      "photos": []
+    },
+    {
+      "n": "Andaz Prague",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Nov\u00e9 M\u011bsto (New Town), Senov\u00e1\u017en\u00e9 Square",
+      "d": "Set in the restored 1916 Sugar Palace \u2014 a design-led Hyatt house threading 1920s retro-futurist Czech art through the historic centre.",
+      "lat": 50.085514,
+      "lon": 14.43052,
+      "photos": []
+    },
+    {
+      "n": "Almanac X Alcron Prague",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Nov\u00e9 M\u011bsto (New Town), near Wenceslas Square",
+      "d": "A restored 1932 Art Deco landmark \u2014 the storied Alcron reborn, with its glamorous heritage dining room, Brasserie 1932.",
+      "lat": 50.080077,
+      "lon": 14.426401,
+      "photos": []
+    },
+    {
+      "n": "The Grand Mark Prague",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Star\u00e9 M\u011bsto (Old Town), Hybernsk\u00e1",
+      "d": "A former Baroque palace with one of the largest private hotel gardens in the Old Town \u2014 classical grandeur, quietly kept.",
+      "lat": 50.087094,
+      "lon": 14.431337,
+      "photos": []
+    },
+    {
+      "n": "Aria Hotel Prague",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Mal\u00e1 Strana (Lesser Town), by St Nicholas Church",
+      "d": "A music-themed boutique below the Castle, each floor devoted to a genre \u2014 with a rooftop terrace over the red rooftops of the Lesser Town.",
+      "lat": 50.08771,
+      "lon": 14.414537,
+      "photos": []
+    },
+    {
+      "n": "Alchymist Grand Hotel & Spa",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Mal\u00e1 Strana (Lesser Town), Tr\u017ei\u0161t\u011b",
+      "d": "A cluster of Renaissance and Baroque townhouses restored with gilded, theatrical opulence \u2014 an ornate, old-world hideaway.",
+      "lat": 50.087553,
+      "lon": 14.400954,
+      "photos": []
+    },
+    {
+      "n": "The Emblem Prague Hotel",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Star\u00e9 M\u011bsto (Old Town), Platn\u00e9\u0159sk\u00e1",
+      "d": "A discreet contemporary design hotel a few steps from the Old Town Square \u2014 a rooftop lounge, a library, and a quietly modern hand.",
+      "lat": 50.087567,
+      "lon": 14.418466,
+      "photos": []
+    },
+    {
+      "n": "La Degustation Boh\u00eame Bourgeoise",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Star\u00e9 M\u011bsto (Old Town), Ha\u0161talsk\u00e1",
+      "d": "The first restaurant devoted to Czech cuisine to win a MICHELIN star \u2014 a long tasting menu reviving 19th-century Bohemian cookbooks.",
+      "lat": 50.091032,
+      "lon": 14.425106,
+      "photos": []
+    },
+    {
+      "n": "Field",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Star\u00e9 M\u011bsto (Old Town), U Milosrdn\u00fdch",
+      "d": "Radek Ka\u0161p\u00e1rek's playful, farm-driven modern cooking \u2014 Prague's most consistently celebrated star, and a MICHELIN Service Award winner.",
+      "lat": 50.127177,
+      "lon": 14.376191,
+      "photos": []
+    },
+    {
+      "n": "Casa de Carli",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Prague",
+      "d": "Chef Matteo de Carli cooking the food of his Italian homeland \u2014 handmade pasta at the counter, and Prague's newest MICHELIN star.",
+      "lat": 50.090524,
+      "lon": 14.42169,
+      "photos": []
+    },
+    {
+      "n": "Levitate",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Vinohrady, near Riegrovy sady",
+      "d": "Christian Chu's Nordic technique laced with Asian spice \u2014 an inventive, individual tasting menu that won a star in 2025.",
+      "lat": 50.077722,
+      "lon": 14.425112,
+      "photos": []
+    },
+    {
+      "n": "\u0160tangl",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Prague",
+      "d": "Martin \u0160tangl's manifesto for modern Czech cooking \u2014 foraged herbs and forgotten ingredients, and both a MICHELIN Star and Green Star.",
+      "lat": 50.075903,
+      "lon": 14.42404,
+      "photos": []
+    },
+    {
+      "n": "Leaf",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Prague",
+      "d": "Barbora \u0160im\u016fnkov\u00e1's sustainability-led kitchen \u2014 a MICHELIN Green Star for produce-forward, low-waste cooking.",
+      "lat": 50.069945,
+      "lon": 14.496599,
+      "photos": []
+    },
+    {
+      "n": "Alma",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Nov\u00e9 M\u011bsto (New Town), V Jirch\u00e1\u0159\u00edch, near the National Theatre",
+      "d": "A day-to-night gastronomic complex \u2014 caf\u00e9, restaurant and one of Europe's most acclaimed bars \u2014 with a MICHELIN Bib Gourmand kitchen.",
+      "lat": 50.10459,
+      "lon": 14.465517,
+      "photos": []
+    },
+    {
+      "n": "The Eatery",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Hole\u0161ovice",
+      "d": "Confident, generous modern Czech cooking that has held its Bib Gourmand \u2014 a favourite of the local dining crowd.",
+      "lat": 50.107455,
+      "lon": 14.45091,
+      "photos": []
+    },
+    {
+      "n": "Dejvick\u00e1 34",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Dejvice",
+      "d": "A polished neighbourhood restaurant with Italian leanings \u2014 reliably good, and a long-standing Bib Gourmand.",
+      "lat": 50.098794,
+      "lon": 14.399192,
+      "photos": []
+    },
+    {
+      "n": "Na Kopci",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Sm\u00edchov",
+      "d": "Czech and French cooking on a quiet hill in Sm\u00edchov \u2014 a warm, well-priced Bib Gourmand off the tourist map.",
+      "lat": 50.146229,
+      "lon": 14.479629,
+      "photos": []
+    },
+    {
+      "n": "V\u00fd\u010dep",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Prague",
+      "d": "Modern Czech cooking with a serious approach to Czech beer \u2014 a fresh Bib Gourmand doing the classics properly.",
+      "lat": 50.075258,
+      "lon": 14.453626,
+      "photos": []
+    },
+    {
+      "n": "U Kalend\u016f",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Prague",
+      "d": "An assured, ingredient-led kitchen that earned a Bib Gourmand in the guide's first Czechia edition.",
+      "lat": 50.071317,
+      "lon": 14.414446,
+      "photos": []
+    },
+    {
+      "n": "U Mat\u011bje",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Dejvice",
+      "d": "A refined take on Czech classics in a smart neighbourhood room \u2014 a new Bib Gourmand for 2025.",
+      "lat": 50.113751,
+      "lon": 14.379894,
+      "photos": []
+    },
+    {
+      "n": "Eska",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Karl\u00edn",
+      "d": "A bakery-and-restaurant landmark of the Karl\u00edn revival \u2014 modern Czech cooking, wood-fired bread, and a MICHELIN listing.",
+      "lat": 50.100966,
+      "lon": 14.425948,
+      "photos": []
+    },
+    {
+      "n": "Terasa U Zlat\u00e9 Studn\u011b",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Mal\u00e1 Strana (Lesser Town), below the Castle",
+      "d": "A rooftop dining terrace with one of the great Prague views \u2014 the Castle and the red rooftops laid out below.",
+      "lat": 50.090965,
+      "lon": 14.404495,
+      "photos": []
+    },
+    {
+      "n": "Prague Castle (Pra\u017esk\u00fd hrad)",
+      "cat": "do",
+      "tier": "",
+      "a": "Hrad\u010dany",
+      "d": "The largest coherent castle complex in the world by Guinness reckoning, a thousand years of palaces, courtyards and cathedral spires crowning the skyline above the river. A private early-access tour before the gates open lets a multi-generational family have the courtyards almost to themselves.",
+      "lat": 50.090811,
+      "lon": 14.400522,
+      "photos": []
+    },
+    {
+      "n": "St Vitus Cathedral (Katedr\u00e1la sv. V\u00edta)",
+      "cat": "do",
+      "tier": "",
+      "a": "Hrad\u010dany",
+      "d": "Nearly six centuries in the building, this soaring Gothic cathedral inside the castle walls holds the Bohemian crown jewels, royal tombs and the shimmering Art Nouveau windows Alfons Mucha designed. The 287-step climb of the Great South Tower rewards with the finest close view over the whole city.",
+      "lat": 50.090864,
+      "lon": 14.400571,
+      "photos": []
+    },
+    {
+      "n": "Charles Bridge (Karl\u016fv most)",
+      "cat": "do",
+      "tier": "",
+      "a": "Star\u00e9 M\u011bsto / Mal\u00e1 Strana",
+      "d": "The 14th-century stone bridge lined with thirty Baroque saints, linking the Old Town to the castle side across the Vltava. Cross at dawn \u2014 before the crowds and buskers arrive \u2014 for the postcard light on the water and the towers, an unhurried moment that suits early-rising elders and children alike.",
+      "lat": 50.086175,
+      "lon": 14.413609,
+      "photos": []
+    },
+    {
+      "n": "Old Town Square (Starom\u011bstsk\u00e9 n\u00e1m\u011bst\u00ed)",
+      "cat": "do",
+      "tier": "",
+      "a": "Star\u00e9 M\u011bsto",
+      "d": "The medieval heart of Prague, ringed by pastel Gothic and Baroque facades, the twin spires of T\u00fdn Church and pavement cafes. A grand, walkable stage for the whole family, with the Astronomical Clock chiming on the hour.",
+      "lat": 50.087445,
+      "lon": 14.420971,
+      "photos": []
+    },
+    {
+      "n": "Prague Astronomical Clock & Old Town Hall (Orloj)",
+      "cat": "do",
+      "tier": "",
+      "a": "Star\u00e9 M\u011bsto",
+      "d": "One of the oldest working astronomical clocks in the world, dating to 1410, with a procession of the Twelve Apostles that draws a crowd every hour. Climb the Old Town Hall tower for a bird's-eye sweep of the square and its rooftops \u2014 a lift makes it easy for less mobile travellers.",
+      "lat": 50.08698,
+      "lon": 14.420714,
+      "photos": []
+    },
+    {
+      "n": "Josefov \u2014 the Jewish Quarter",
+      "cat": "do",
+      "tier": "",
+      "a": "Josefov (Star\u00e9 M\u011bsto)",
+      "d": "The most complete surviving complex of Jewish monuments in Europe, its historic synagogues and cemetery woven into the Old Town. A guided walk through seven centuries of Prague's Jewish story is one of the city's most moving and reflective experiences for a family.",
+      "lat": 50.089755,
+      "lon": 14.418096,
+      "photos": []
+    },
+    {
+      "n": "Old-New Synagogue (Staronov\u00e1 synagoga)",
+      "cat": "do",
+      "tier": "",
+      "a": "Josefov (Star\u00e9 M\u011bsto)",
+      "d": "The oldest active synagogue in Europe, in continuous use since around 1270, and the legendary home of the Golem myth. Its austere early-Gothic hall is unlike anything else in the city \u2014 small, atmospheric and still a living house of prayer.",
+      "lat": 50.090039,
+      "lon": 14.41859,
+      "photos": []
+    },
+    {
+      "n": "Spanish Synagogue (\u0160pan\u011blsk\u00e1 synagoga)",
+      "cat": "do",
+      "tier": "",
+      "a": "Josefov (Star\u00e9 M\u011bsto)",
+      "d": "A dazzling Moorish-Revival interior of gilded arabesques, stained glass and a starry domed ceiling \u2014 the most sumptuous of all Prague's synagogues, part of the Jewish Museum. Intimate evening chamber concerts here are a discreet, refined way to spend an hour.",
+      "lat": 50.090359,
+      "lon": 14.420847,
+      "photos": []
+    },
+    {
+      "n": "Old Jewish Cemetery (Star\u00fd \u017eidovsk\u00fd h\u0159bitov)",
+      "cat": "do",
+      "tier": "",
+      "a": "Josefov (Star\u00e9 M\u011bsto)",
+      "d": "Twelve thousand weathered headstones tilting against each other in layered rows, one of the most evocative burial grounds in the world, used from the 15th to the 18th century. A quiet, thought-provoking stop within the Jewish Museum circuit.",
+      "lat": 50.089975,
+      "lon": 14.416915,
+      "photos": []
+    },
+    {
+      "n": "Mal\u00e1 Strana (Lesser Town)",
+      "cat": "do",
+      "tier": "",
+      "a": "Mal\u00e1 Strana",
+      "d": "Prague's Baroque quarter beneath the castle, its noble palaces, hidden courtyards and cobbled lanes barely changed since the 18th century. The perfect district for an unhurried private walk, with quiet corner cafes and garden restaurants for a mid-stroll pause.",
+      "lat": 50.087158,
+      "lon": 14.404822,
+      "photos": []
+    },
+    {
+      "n": "St Nicholas Church, Mal\u00e1 Strana (Kostel sv. Mikul\u00e1\u0161e)",
+      "cat": "do",
+      "tier": "",
+      "a": "Mal\u00e1 Strana",
+      "d": "The supreme masterpiece of Prague Baroque, a vast green dome and a ceiling fresco so grand it seems to open the roof to heaven. Time a visit to one of the frequent organ or chamber concerts held beneath the dome.",
+      "lat": 50.087851,
+      "lon": 14.40363,
+      "photos": []
+    },
+    {
+      "n": "Church of Our Lady before T\u00fdn (Chr\u00e1m Matky Bo\u017e\u00ed p\u0159ed T\u00fdnem)",
+      "cat": "do",
+      "tier": "",
+      "a": "Star\u00e9 M\u011bsto",
+      "d": "The twin black Gothic spires rising over Old Town Square are the defining silhouette of medieval Prague, each crowned with a crown of mini-spires. The astronomer Tycho Brahe lies buried inside this soaring, dimly lit interior.",
+      "lat": 50.087721,
+      "lon": 14.422695,
+      "photos": []
+    },
+    {
+      "n": "Loreta (Loreta Praha)",
+      "cat": "do",
+      "tier": "",
+      "a": "Hrad\u010dany",
+      "d": "A jewel-box Baroque pilgrimage shrine near the castle, built around a replica of the Holy House, with a famous treasury of monstrances glittering with thousands of diamonds. Its cloister and carillon of bells make it a peaceful counterpoint to the busier castle.",
+      "lat": 50.089282,
+      "lon": 14.391545,
+      "photos": []
+    },
+    {
+      "n": "Strahov Monastery & Library (Strahovsk\u00fd kl\u00e1\u0161ter)",
+      "cat": "do",
+      "tier": "",
+      "a": "Hrad\u010dany",
+      "d": "Two of the most beautiful Baroque library halls on earth \u2014 the Theological and Philosophical Halls \u2014 with painted ceilings, antique globes and a cabinet of curiosities. The hilltop terrace outside offers one of the best panoramas of the spired city below.",
+      "lat": 50.086258,
+      "lon": 14.389069,
+      "photos": []
+    },
+    {
+      "n": "Klementinum \u2014 Baroque Library & Astronomical Tower",
+      "cat": "do",
+      "tier": "",
+      "a": "Star\u00e9 M\u011bsto",
+      "d": "A jaw-dropping 1727 Jesuit library hall of frescoed ceilings and historic globes, reached only by guided tour, plus a climb up the Astronomical Tower for a wraparound view over the Old Town rooftops. The small-group entry keeps it calm and civilised.",
+      "lat": 50.086115,
+      "lon": 14.418782,
+      "photos": []
+    },
+    {
+      "n": "Golden Lane (Zlat\u00e1 uli\u010dka)",
+      "cat": "do",
+      "tier": "",
+      "a": "Hrad\u010dany",
+      "d": "A row of tiny brightly-painted 16th-century cottages tucked inside the castle walls, once home to castle marksmen and later, briefly, to Franz Kafka at No. 22. A charming, storybook lane that delights children and grandparents alike.",
+      "lat": 50.092057,
+      "lon": 14.40427,
+      "photos": []
+    },
+    {
+      "n": "Municipal House (Obecn\u00ed d\u016fm)",
+      "cat": "do",
+      "tier": "",
+      "a": "Star\u00e9 M\u011bsto / N\u00e1m\u011bst\u00ed Republiky",
+      "d": "The finest Art Nouveau building in Prague, a 1912 confection of mosaics, stained glass and interiors decorated by Mucha and his peers, wrapped around the grand Smetana concert hall. A guided tour of the salons, then dinner in the opulent French restaurant, makes an elegant evening.",
+      "lat": 50.087756,
+      "lon": 14.427764,
+      "photos": []
+    },
+    {
+      "n": "Mucha Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Nov\u00e9 M\u011bsto",
+      "d": "The world's first museum devoted to Alfons Mucha, the Czech master whose sinuous posters of flowing-haired Slavic women defined Art Nouveau. A compact, intimate collection a short walk from Wenceslas Square \u2014 an easy, rewarding hour for art lovers of any age.",
+      "lat": 50.084176,
+      "lon": 14.42772,
+      "photos": []
+    },
+    {
+      "n": "The Slav Epic by Alfons Mucha (at the Municipal House)",
+      "cat": "do",
+      "tier": "",
+      "a": "Star\u00e9 M\u011bsto / N\u00e1m\u011bst\u00ed Republiky",
+      "d": "Mucha's monumental twenty-canvas cycle telling the saga of the Slavic peoples, some panels the size of a cinema screen, now on show inside the Municipal House. A single, awe-inspiring encounter with a national masterpiece.",
+      "lat": 50.086423,
+      "lon": 14.415677,
+      "photos": []
+    },
+    {
+      "n": "Pet\u0159\u00edn Hill & Lookout Tower (Pet\u0159\u00ednsk\u00e1 rozhledna)",
+      "cat": "do",
+      "tier": "",
+      "a": "Mal\u00e1 Strana / Pet\u0159\u00edn",
+      "d": "A wooded 327-metre hill of orchards and rose gardens crowned by a miniature Eiffel-style tower with a 360-degree view of Prague. A gentle, green escape from the streets below, with a mirror maze and observatory that keep younger travellers happy.",
+      "lat": 50.083517,
+      "lon": 14.395086,
+      "photos": []
+    },
+    {
+      "n": "Letn\u00e1 Park & Metronome (Letensk\u00e9 sady)",
+      "cat": "do",
+      "tier": "",
+      "a": "Hole\u0161ovice / Letn\u00e1",
+      "d": "A wooded plateau above the river where a giant metronome now stands on the old plinth that once held a Stalin statue, and where you can count seven of Prague's bridges in one sweep. The seasonal beer garden with its Old Town view is a beloved local sunset spot.",
+      "lat": 50.095493,
+      "lon": 14.422601,
+      "photos": []
+    },
+    {
+      "n": "Vltava River Cruise",
+      "cat": "do",
+      "tier": "",
+      "a": "Vltava River",
+      "d": "The classic way to see the castle, Charles Bridge and the National Theatre reflected in the water, from a leisurely daytime glide to a candlelit dinner cruise at night. A private charter with a chef briefed on vegetarian and Jain preferences is easily arranged.",
+      "lat": 50.080681,
+      "lon": 14.408582,
+      "photos": []
+    },
+    {
+      "n": "Kampa Island & the Lennon Wall",
+      "cat": "do",
+      "tier": "",
+      "a": "Mal\u00e1 Strana",
+      "d": "Nicknamed 'Prague's Venice' for its little canal and waterwheel, this leafy island beneath Charles Bridge holds a riverside park and the ever-changing John Lennon Wall of painted messages. A relaxed, romantic wander with the Kampa modern-art museum alongside.",
+      "lat": 50.086286,
+      "lon": 14.408076,
+      "photos": []
+    },
+    {
+      "n": "Kampa Museum (Museum Kampa)",
+      "cat": "do",
+      "tier": "",
+      "a": "Mal\u00e1 Strana",
+      "d": "A converted riverside mill housing a fine collection of Central European modern art, strong on Franti\u0161ek Kupka and the Cubist sculptor Otto Gutfreund. A calm, well-curated space with a terrace caf\u00e9 looking straight across the Vltava.",
+      "lat": 50.083999,
+      "lon": 14.408491,
+      "photos": []
+    },
+    {
+      "n": "Wallenstein Garden (Vald\u0161tejnsk\u00e1 zahrada)",
+      "cat": "do",
+      "tier": "",
+      "a": "Mal\u00e1 Strana",
+      "d": "A grand early-Baroque garden of clipped hedges, a dramatic frescoed grotto and bronze statues, hidden behind the walls of a palace that is now the Czech Senate \u2014 and free to enter. Peacocks roam the lawns, delighting children, and it is blissfully quiet.",
+      "lat": 50.090164,
+      "lon": 14.406429,
+      "photos": []
+    },
+    {
+      "n": "Vrtba Garden (Vrtbovsk\u00e1 zahrada)",
+      "cat": "do",
+      "tier": "",
+      "a": "Mal\u00e1 Strana",
+      "d": "One of the most beautiful terraced Baroque gardens in Central Europe, climbing in ornamental tiers up the hillside with statues and a view over the red roofs of the Lesser Town. A serene, little-known hideaway ideal for a private moment.",
+      "lat": 50.086489,
+      "lon": 14.402482,
+      "photos": []
+    },
+    {
+      "n": "Estates Theatre (Stavovsk\u00e9 divadlo)",
+      "cat": "do",
+      "tier": "",
+      "a": "Star\u00e9 M\u011bsto",
+      "d": "The exquisite 1783 Classical theatre where Mozart himself conducted the world premiere of Don Giovanni in 1787, still staging the opera today in near-original surroundings. To hear Mozart in the very room he wrote it for is one of Europe's great cultural experiences.",
+      "lat": 50.085962,
+      "lon": 14.423638,
+      "photos": []
+    },
+    {
+      "n": "National Theatre (N\u00e1rodn\u00ed divadlo)",
+      "cat": "do",
+      "tier": "",
+      "a": "Nov\u00e9 M\u011bsto",
+      "d": "The gilded neo-Renaissance temple of Czech culture on the riverbank, its golden roof a landmark, staging opera, ballet and drama beneath a ceiling of allegorical paintings. A box for an evening performance is a grand, memorable night out.",
+      "lat": 50.080864,
+      "lon": 14.41357,
+      "photos": []
+    },
+    {
+      "n": "Rudolfinum & the Czech Philharmonic",
+      "cat": "do",
+      "tier": "",
+      "a": "Josefov (Star\u00e9 M\u011bsto)",
+      "d": "One of the finest 19th-century concert halls on the continent, whose Dvo\u0159\u00e1k Hall is home to the world-class Czech Philharmonic. A ticket here is the connoisseur's choice for classical music in Prague, in a riverside setting of real grandeur.",
+      "lat": 50.08771,
+      "lon": 14.414537,
+      "photos": []
+    },
+    {
+      "n": "State Opera (St\u00e1tn\u00ed opera)",
+      "cat": "do",
+      "tier": "",
+      "a": "Nov\u00e9 M\u011bsto",
+      "d": "A sumptuously restored neo-Rococo opera house near the top of Wenceslas Square, staging grand opera and ballet under a lavishly painted auditorium. The recent renovation returned it to full jewel-box splendour.",
+      "lat": 50.080486,
+      "lon": 14.432955,
+      "photos": []
+    },
+    {
+      "n": "Black-Light Theatre Ta Fantastika",
+      "cat": "do",
+      "tier": "",
+      "a": "Star\u00e9 M\u011bsto",
+      "d": "Prague's distinctive black-light theatre, where UV-lit figures float and transform against a black stage in wordless, dreamlike shows. Because it needs no language, it is a genuinely fun, all-ages evening for multi-generational groups.",
+      "lat": 50.085566,
+      "lon": 14.417732,
+      "photos": []
+    },
+    {
+      "n": "Vy\u0161ehrad Fortress",
+      "cat": "do",
+      "tier": "",
+      "a": "Vy\u0161ehrad",
+      "d": "A cliff-top fortress above the Vltava, wrapped around the neo-Gothic Church of Sts Peter and Paul, ancient ramparts and the Slav\u00edn cemetery where Dvo\u0159\u00e1k, Smetana and Mucha lie. Far quieter than the castle, with sweeping river views and space for children to run.",
+      "lat": 50.064646,
+      "lon": 14.417947,
+      "photos": []
+    },
+    {
+      "n": "National Gallery \u2014 Trade Fair Palace (Veletr\u017en\u00ed pal\u00e1c)",
+      "cat": "do",
+      "tier": "",
+      "a": "Hole\u0161ovice",
+      "d": "Prague's great museum of modern and contemporary art, in a landmark 1928 Functionalist building, with works by Picasso, Klimt, Van Gogh and Mucha's Slav Epic hall. The single most important art collection in the country, and rarely crowded.",
+      "lat": 50.101523,
+      "lon": 14.432334,
+      "photos": []
+    },
+    {
+      "n": "DOX Centre for Contemporary Art",
+      "cat": "do",
+      "tier": "",
+      "a": "Hole\u0161ovice",
+      "d": "A sharp, converted-factory space for cutting-edge contemporary art, architecture and design, crowned by the Gulliver airship \u2014 a huge wooden zeppelin on the roof. The most forward-looking cultural stop in the city, with a good design shop and caf\u00e9.",
+      "lat": 50.102495,
+      "lon": 14.442798,
+      "photos": []
+    },
+    {
+      "n": "Wenceslas Square & the National Museum (V\u00e1clavsk\u00e9 n\u00e1m\u011bst\u00ed)",
+      "cat": "do",
+      "tier": "",
+      "a": "Nov\u00e9 M\u011bsto",
+      "d": "The grand boulevard-square at the heart of modern Prague, scene of the 1989 Velvet Revolution, closed at its top by the newly restored, palatial National Museum. History, shopping and grand architecture in one broad sweep.",
+      "lat": 50.081124,
+      "lon": 14.428514,
+      "photos": []
+    },
+    {
+      "n": "Vinohrady",
+      "cat": "do",
+      "tier": "",
+      "a": "Vinohrady",
+      "d": "A stately residential quarter of Art Nouveau apartment blocks, leafy squares and the city's best independent restaurants and wine bars \u2014 regularly named among the world's coolest neighbourhoods. The relaxed, refined district in which discerning travellers actually want to spend an evening.",
+      "lat": 50.073814,
+      "lon": 14.451943,
+      "photos": []
+    },
+    {
+      "n": "Riegrovy sady (Rieger Gardens)",
+      "cat": "do",
+      "tier": "",
+      "a": "Vinohrady",
+      "d": "A rolling park in Vinohrady whose grassy slope offers a classic view of the castle and spires at sunset, home to one of Prague's largest and most beloved beer gardens. A local, easygoing way to end a warm day.",
+      "lat": 50.080179,
+      "lon": 14.439286,
+      "photos": []
+    },
+    {
+      "n": "\u017di\u017ekov TV Tower (\u017di\u017ekovsk\u00e1 televizn\u00ed v\u011b\u017e)",
+      "cat": "do",
+      "tier": "",
+      "a": "\u017di\u017ekov",
+      "d": "Prague's tallest structure and its most divisive landmark, a 216-metre space-age tower with crawling giant baby sculptures by David \u010cern\u00fd and a 360-degree observation deck. There's a one-room luxury suite and a restaurant near the top for a memorable, offbeat treat.",
+      "lat": 50.081022,
+      "lon": 14.451058,
+      "photos": []
+    },
+    {
+      "n": "Karl\u00edn",
+      "cat": "do",
+      "tier": "",
+      "a": "Karl\u00edn",
+      "d": "A once-industrial district reborn after the 2002 floods into one of Prague's leading quarters for design, cuisine and caf\u00e9s, anchored by the grand neo-Romanesque Church of Sts Cyril and Methodius. The place to see contemporary, creative Prague away from the tourist core.",
+      "lat": 50.095573,
+      "lon": 14.458295,
+      "photos": []
+    },
+    {
+      "n": "N\u00e1plavka Riverbank & Farmers' Market",
+      "cat": "do",
+      "tier": "",
+      "a": "Nov\u00e9 M\u011bsto (riverside)",
+      "d": "The revived Vltava embankment of vaulted cellar bars and moored boats, with a lively Saturday farmers' market of Czech produce, cheeses and street food. A genuinely local scene with castle-and-bridge views, and plenty of vegetarian-friendly stalls.",
+      "lat": 50.080215,
+      "lon": 14.421473,
+      "photos": []
+    },
+    {
+      "n": "Havelsk\u00e9 tr\u017ei\u0161t\u011b (Havel's Market)",
+      "cat": "do",
+      "tier": "",
+      "a": "Star\u00e9 M\u011bsto",
+      "d": "The last surviving open-air market in the historic core, trading since 1232, with stalls of fruit, flowers, wooden toys and Czech crafts. A quick, atmospheric stop between the Old Town Square and the river.",
+      "lat": 50.084772,
+      "lon": 14.420993,
+      "photos": []
+    },
+    {
+      "n": "Powder Tower (Pra\u0161n\u00e1 br\u00e1na)",
+      "cat": "do",
+      "tier": "",
+      "a": "Star\u00e9 M\u011bsto / N\u00e1m\u011bst\u00ed Republiky",
+      "d": "A soaring blackened-Gothic gate tower marking the start of the medieval coronation route to the castle, standing beside the Art Nouveau Municipal House in a striking clash of eras. A short climb gives a fine view down the Royal Way.",
+      "lat": 50.087243,
+      "lon": 14.427756,
+      "photos": []
+    },
+    {
+      "n": "Kutn\u00e1 Hora & the Sedlec Ossuary",
+      "cat": "do",
+      "tier": "",
+      "a": "Day trip \u2014 Central Bohemia (~1 hr)",
+      "d": "A former silver-mining boomtown an hour east, home to the soaring Gothic St Barbara's Cathedral and the extraordinary Sedlec Ossuary, a chapel decorated with the bones of tens of thousands. An unforgettable, easily private half- or full-day excursion.",
+      "lat": 49.894472,
+      "lon": 14.747036,
+      "photos": []
+    },
+    {
+      "n": "\u010cesk\u00fd Krumlov",
+      "cat": "do",
+      "tier": "",
+      "a": "Day trip \u2014 South Bohemia (~2.5\u20133 hrs)",
+      "d": "A storybook medieval town cradled in a bend of the Vltava, all pastel houses, cobbled lanes and a vast hilltop castle with its own Baroque theatre. Worth an overnight rather than a rush; a private car and guide turn the long drive into an unhurried pleasure.",
+      "lat": 50.070034,
+      "lon": 14.507714,
+      "photos": []
+    },
+    {
+      "n": "Karlovy Vary",
+      "cat": "do",
+      "tier": "",
+      "a": "Day trip \u2014 West Bohemia (~2 hrs)",
+      "d": "The grand 19th-century spa town of colonnades, thermal springs and pastel promenades where emperors and composers once took the cure, and the home of Becherovka liqueur and Moser crystal. A refined day of mineral springs, caf\u00e9 society and a spa treatment for the whole party.",
+      "lat": 50.088895,
+      "lon": 14.416276,
+      "photos": []
+    },
+    {
+      "n": "Hemingway Bar",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Star\u00e9 M\u011bsto (Old Town), Karol\u00edny Sv\u011btl\u00e9",
+      "d": "A dark, intimate cocktail den devoted to Hemingway \u2014 rare rums, an absinthe fountain, and some of the most inventive drinks in the city.",
+      "lat": 50.079275,
+      "lon": 14.416298,
+      "photos": []
+    },
+    {
+      "n": "L'Fleur",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Star\u00e9 M\u011bsto (Old Town), V Kolkovn\u011b",
+      "d": "Cocktails and Champagne given equal billing \u2014 exposed brick, chandeliers, candlelight, and one of the largest Champagne lists in the world.",
+      "lat": 50.076464,
+      "lon": 14.453477,
+      "photos": []
+    },
+    {
+      "n": "Alma",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Nov\u00e9 M\u011bsto (New Town), V Jirch\u00e1\u0159\u00edch",
+      "d": "Prague's most decorated bar \u2014 wild herbs, foraged ingredients and pickled pine cones in the glass, in a converted former cinema.",
+      "lat": 50.10459,
+      "lon": 14.465517,
+      "photos": []
+    },
+    {
+      "n": "Black Angel's Bar",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "Star\u00e9 M\u011bsto (Old Town), beneath the U Prince Hotel on Old Town Square",
+      "d": "A Prohibition-era cocktail cellar in a Gothic vault right on the Old Town Square \u2014 barrel-aged classics served on hand-made Moser glass.",
+      "lat": 50.08648,
+      "lon": 14.420049,
+      "photos": []
+    },
+    {
+      "n": "Cloud 9 Sky Bar & Lounge",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "Nov\u00e9 M\u011bsto (New Town), atop the Hilton Prague",
+      "d": "A glass-walled sky bar and terrace over the Vltava \u2014 one of the few genuine high-level views in a city of low rooftops.",
+      "lat": 50.093604,
+      "lon": 14.439482,
+      "photos": []
+    },
+    {
+      "n": "Terasa U Zlat\u00e9 Studn\u011b",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "Mal\u00e1 Strana (Lesser Town), below the Castle",
+      "d": "A rooftop terrace tucked beneath Prague Castle \u2014 the Baroque rooftops and spires of the Lesser Town laid out at your feet.",
+      "lat": 50.090965,
+      "lon": 14.404495,
+      "photos": []
+    }
+  ]
+}

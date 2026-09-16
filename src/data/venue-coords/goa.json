@@ -1,1 +1,638 @@
-{"center": [15.300454, 74.085513], "venues": [{"n": "Taj Exotica Resort & Spa, Goa", "cat": "stay", "tier": "Grand", "a": "South Goa (Benaulim)", "d": "Fifty-six acres of Mediterranean-village calm above a quiet southern beach — the surest grand address in Goa.", "lat": 15.497609, "lon": 73.767098, "p": "v"}, {"n": "The St. Regis Goa Resort", "cat": "stay", "tier": "Grand", "a": "South Goa (Cavelossim)", "d": "Butler service and three pools on a long, empty Cavelossim beach — the most polished stay in the south.", "lat": 15.042384, "lon": 73.987593, "p": "v"}, {"n": "ITC Grand Goa, a Luxury Collection Resort & Spa", "cat": "stay", "tier": "Grand", "a": "South Goa (Arossim / Cansaulim)", "d": "An Indo-Portuguese 'grand mansion' of lagoons and courtyards on Arossim beach — big, gracious and wedding-grade.", "lat": 15.344917, "lon": 73.897565, "p": "a"}, {"n": "JW Marriott Goa", "cat": "stay", "tier": "Luxury", "a": "North Goa (Vagator)", "d": "A cliff-top newcomer above Vagator, looking down the coast to Chapora Fort — the north's most decorated recent opening.", "lat": 15.599541, "lon": 73.743317, "p": "v"}, {"n": "The Postcard Hideaway, Netravali", "cat": "stay", "tier": "Luxury", "a": "South Goa hinterland (Netravali Wildlife Sanctuary)", "d": "A forest hideaway on the edge of a wildlife sanctuary — Goa with no beach and no crowd, only birdsong and river.", "lat": 15.087054, "lon": 74.203833, "p": "v"}, {"n": "The Postcard Saligao", "cat": "stay", "tier": "Premium", "a": "North Goa (Saligao)", "d": "A restored 19th-century Portuguese manor among the paddy fields — village Goa, done with real taste.", "lat": 15.087054, "lon": 74.203833, "p": "v"}, {"n": "The Postcard Velha Goa", "cat": "stay", "tier": "Premium", "a": "Old Goa / Panjim (Corlim)", "d": "A riverside colonial house beside the old Portuguese capital — a rare place to sleep within the heritage.", "lat": 15.501886, "lon": 73.920065, "p": "v"}, {"n": "The Postcard Cuelim", "cat": "stay", "tier": "Premium", "a": "South Goa (Cuelim / Cansaulim)", "d": "A 17th-century Portuguese estate with a chapel of its own — quiet, gracious and gently grand.", "lat": 15.087054, "lon": 74.203833, "p": "v"}, {"n": "Bomra's", "cat": "eat", "tier": "Fine", "a": "North Goa (Candolim)", "d": "Burmese-Kachin cooking that has quietly been Goa's most serious restaurant for years — precise, personal, unforgettable.", "lat": 15.507096, "lon": 73.770417, "p": "v"}, {"n": "Cavatina by Avinash Martins", "cat": "eat", "tier": "Fine", "a": "South Goa (Benaulim)", "d": "A Goan chef reimagining his own Saraswat and Catholic heritage — the most exciting cooking in the south.", "lat": 15.255922, "lon": 73.923107, "p": "a"}, {"n": "Izumi", "cat": "eat", "tier": "Fine", "a": "North Goa (Assagao)", "d": "Japanese cooking — sushi, ramen and robata — done with real rigour in a leafy Assagao garden.", "lat": 15.598137, "lon": 73.787315, "p": "v"}, {"n": "Petisco", "cat": "eat", "tier": "Smart", "a": "North Goa (Assagao / Anjuna)", "d": "Small plates and sharing dishes that read the room perfectly — the north's easy, excellent everyday table.", "lat": 15.300454, "lon": 74.085513, "p": "v"}, {"n": "Hosa", "cat": "eat", "tier": "Fine", "a": "North Goa (Assagao)", "d": "A love letter to South Indian coastal cooking — heritage recipes, plated with real ambition.", "lat": 15.614749, "lon": 73.769358, "p": "v"}, {"n": "Avo's Kitchen", "cat": "eat", "tier": "Smart", "a": "North Goa", "d": "Home-style Goan cooking, the way a Goan grandmother would make it — honest, warm and rooted.", "lat": 15.233283, "lon": 73.925766, "p": "v"}, {"n": "Praça Prazeres", "cat": "eat", "tier": "Fine", "a": "North Goa", "d": "Chef Ralph Prazeres reworking Goan-Portuguese classics with modern finesse — a rising Goan name.", "lat": 15.512813, "lon": 73.771435, "p": "v"}, {"n": "The Second House", "cat": "eat", "tier": "Smart", "a": "North Goa", "d": "A quietly confident kitchen doing seasonal, produce-led plates away from the noise — a locals' favourite.", "lat": 15.205054, "lon": 73.977313, "p": "v"}, {"n": "Slow Tide", "cat": "eat", "tier": "Smart", "a": "North Goa (Assagao)", "d": "A bar-restaurant of inventive cocktails and easy small plates, named for the slow Goa of the Sixties.", "lat": 15.428378, "lon": 73.873359, "p": "v"}, {"n": "For the Record — Vinyl Bar", "cat": "eat", "tier": "Smart", "a": "North Goa (Anjuna)", "d": "Records, cocktails and a short, sharp plate list — the north's most stylish listening-and-eating room.", "lat": 15.59137, "lon": 73.808782, "p": "v"}, {"n": "Basilica of Bom Jesus", "cat": "do", "tier": "", "a": "Old Goa", "d": "The most revered church in Goa, its weathered laterite facade holding the mortal remains of St. Francis Xavier in a silver casket above a Florentine-marble mausoleum. Go early, before the coaches arrive, when the light through the high windows falls on gilded Baroque woodwork and the nave is nearly your own.", "lat": 15.500696, "lon": 73.911704, "p": "v"}, {"n": "Sé Cathedral (Cathedral of Santa Catarina)", "cat": "do", "tier": "", "a": "Old Goa", "d": "One of the largest churches in Asia, built to mark the Portuguese capture of Goa, with a cavernous whitewashed interior and the famous Golden Bell whose toll once carried across the old city. A few minutes' stroll from Bom Jesus, so pair the two in a single unhurried morning.", "lat": 15.502333, "lon": 73.911743, "p": "a"}, {"n": "Church of St. Francis of Assisi & Convent", "cat": "do", "tier": "", "a": "Old Goa", "d": "The quietest and arguably most beautiful of the Old Goa churches, its interior a riot of gilded carving, frescoed panels and painted floral columns. The adjoining convent houses the Archaeological Survey museum, worth a slow half-hour for its portraits of the Portuguese viceroys.", "lat": 15.503195, "lon": 73.911348, "p": "v"}, {"n": "Church of St. Cajetan & Chapel of St. Catherine", "cat": "do", "tier": "", "a": "Old Goa", "d": "St. Cajetan is modelled on St. Peter's in Rome, an unexpected domed silhouette rising from the palms; the tiny Chapel of St. Catherine nearby is one of the oldest Christian structures in Goa. Both are steps from the main churches and let you complete the UNESCO ensemble without the crowds.", "lat": 15.505596, "lon": 73.915216, "p": "v"}, {"n": "Fontainhas — the Latin Quarter", "cat": "do", "tier": "", "a": "Panjim / Fontainhas", "d": "Panjim's old Portuguese quarter, a warren of narrow lanes lined with ochre, indigo and green villas, wrought-iron balconies and hand-painted azulejo tiles at every doorway. The single most romantic walk in Goa; do it at golden hour with a guide who can knock on the right doors, then settle in for a slow lunch.", "lat": 15.495685, "lon": 73.83109, "p": "a"}, {"n": "Fontainhas heritage food & culture walk", "cat": "do", "tier": "", "a": "Panjim / Fontainhas", "d": "A curated walk through the Latin Quarter that opens private heritage homes, a working bakery and a Goan-Catholic kitchen, with tastings of poee bread, bebinca and feni along the way. The best short cultural experience in the city, easily arranged privately for a family and paced to your interest.", "lat": 15.495685, "lon": 73.83109, "p": "a"}, {"n": "Fort Aguada & lighthouse", "cat": "do", "tier": "", "a": "North Goa (Candolim / Sinquerim)", "d": "A commanding 17th-century Portuguese sea fort above Sinquerim, its ramparts and the oldest lighthouse in Asia looking straight down the coastline. Come near sunset for the light on the Arabian Sea, an easy detour from the Candolim and Sinquerim luxury resorts below.", "lat": 15.492076, "lon": 73.772487, "p": "v"}, {"n": "Reis Magos Fort", "cat": "do", "tier": "", "a": "North Goa (Reis Magos)", "d": "A beautifully restored little fort on the Mandovi's north bank, now a cultural centre with Mario Miranda cartoons, exhibitions and one of the finest river-and-Panjim panoramas in Goa. Refined, uncrowded and genuinely interesting — a rewarding stop en route between the beaches and the capital.", "lat": 15.496508, "lon": 73.809132, "p": "v"}, {"n": "Chapora Fort", "cat": "do", "tier": "", "a": "North Goa (Chapora / Vagator)", "d": "The ruined hilltop fort made famous by the film Dil Chahta Hai, its crumbling laterite walls framing a sweeping view over Vagator beach and the Chapora river mouth. A short climb rewarded by one of North Goa's great sunset outlooks.", "lat": 15.605953, "lon": 73.735285, "p": "v"}, {"n": "Ashwem Beach", "cat": "do", "tier": "", "a": "North Goa (Pernem)", "d": "A long, calm, casuarina-fringed stretch that is the quiet, upscale face of North Goa, its handful of design-led beach shacks and boutique stays a world away from the Baga crowds. The default choice for a discreet villa or resort day on the sand.", "lat": 15.650907, "lon": 73.716173, "p": "v"}, {"n": "Mandrem Beach", "cat": "do", "tier": "", "a": "North Goa (Pernem)", "d": "Perhaps the most serene of the fashionable northern beaches, a wide soft-sand ribbon crossed by little tidal creeks and backed by upscale restaurants and yoga retreats. Ideal for families and multi-generational stays wanting space and calm rather than a scene.", "lat": 15.660048, "lon": 73.713127, "p": "v"}, {"n": "Morjim Beach", "cat": "do", "tier": "", "a": "North Goa (Pernem)", "d": "A broad, breezy beach at the mouth of the Chapora, known both for its Olive Ridley turtle nesting season and its cluster of stylish Mediterranean and Russian-influenced beach clubs. Come for a long lazy lunch by the water and the sense of an easy, cosmopolitan crowd.", "lat": 15.622501, "lon": 73.729856, "p": "v"}, {"n": "Vagator & Ozran (Little Vagator) Beach", "cat": "do", "tier": "", "a": "North Goa (Bardez)", "d": "Twin coves set beneath red laterite cliffs, with a famous carved stone Shiva face on the sand and the ruins of Chapora Fort on the headland above. The dramatic cliff-and-sunset scenery makes it the most photogenic of the northern beaches.", "lat": 15.591266, "lon": 73.734112, "p": "v"}, {"n": "Anjuna Beach & Wednesday Flea Market", "cat": "do", "tier": "", "a": "North Goa (Bardez)", "d": "The rocky, boho beach where Goa's counterculture began, and home to the legendary Wednesday flea market that grew out of the 1970s hippie gatherings. Come for the market's handicrafts, jewellery and colour, and for the sense of the Goa that first drew the world.", "lat": 15.572237, "lon": 73.743595, "p": "v"}, {"n": "Saturday Night Market, Arpora", "cat": "do", "tier": "", "a": "North Goa (Arpora)", "d": "Ingo's Saturday Night Market is the polished evening bazaar of the north — global street food, live music, designer stalls and lamps strung through the trees, running only in season. A lively, family-friendly evening out; go with a driver and browse without hurry.", "lat": 15.566971, "lon": 73.766118, "p": "v"}, {"n": "Palolem Beach", "cat": "do", "tier": "", "a": "South Goa (Canacona)", "d": "A near-perfect crescent of calm, palm-backed sand, the postcard image of South Goa and its most beautiful bay. Kayak out to Butterfly Island, watch for dolphins at dawn, and enjoy the gentler, more scenic south — though it is now the busiest beach in the region.", "lat": 15.009308, "lon": 74.024229, "p": "v"}, {"n": "Agonda Beach", "cat": "do", "tier": "", "a": "South Goa (Canacona)", "d": "The quieter, classier neighbour to Palolem — a long, tranquil sweep with excellent eco-conscious beach restaurants and a genuinely unhurried pace. Widely rated the nicest calm beach in Goa, and a fine base for a private villa away from any scene.", "lat": 15.042316, "lon": 73.986523, "p": "v"}, {"n": "Cavelossim & Mobor Beach", "cat": "do", "tier": "", "a": "South Goa (Salcete)", "d": "The heart of luxury South Goa, a broad, clean beach between the Arabian Sea and the Sal river where the region's five-star resorts sit. Sundowner river cruises leave from the Sal, and the wide sands stay uncrowded even in season — the polished-resort choice.", "lat": 15.177068, "lon": 73.947663, "p": "v"}, {"n": "Colva & Benaulim Beach", "cat": "do", "tier": "", "a": "South Goa (Salcete)", "d": "Long, gently shelving beaches that are the traditional face of South Goa, backed by whitewashed churches and quiet fishing hamlets. Benaulim in particular stays low-key and local — a slower, more Goan-Catholic counterpoint to the north.", "lat": 15.25303, "lon": 73.920195, "p": "v"}, {"n": "Dudhsagar Falls", "cat": "do", "tier": "", "a": "East Goa (Sanguem / Mollem)", "d": "Goa's spectacular 'sea of milk' — a four-tiered cascade plunging over 300 metres down the Western Ghats, thundering white after the monsoon. Reached by a hired jeep safari through Bhagwan Mahaveer sanctuary; a full and worthwhile day trip inland from the coast.", "lat": 15.315618, "lon": 74.314249, "p": "v"}, {"n": "Bhagwan Mahaveer Sanctuary & Mollem National Park", "cat": "do", "tier": "", "a": "East Goa (Mollem)", "d": "Goa's largest protected forest, 240 sq km of Western Ghats jungle sheltering black panther, Malabar giant squirrel and king cobra, with the Tambdi Surla temple and Dudhsagar within it. The wild, green counterweight to the beaches, for those who want to see the Ghats.", "lat": 15.339019, "lon": 74.283161, "p": "v"}, {"n": "Spice plantation visit (Sahakari / Savoi / Tropical)", "cat": "do", "tier": "", "a": "Ponda", "d": "A shaded walk through cardamom, vanilla, nutmeg and betel groves in the Ponda hills, ending with a traditional Goan thali served on banana leaf. An easy, family-pleasing half-day that pairs naturally with the Ponda temples, and readily arranged as a private, unhurried visit.", "lat": 15.423291, "lon": 73.978931, "p": "a"}, {"n": "Shri Mangeshi Temple", "cat": "do", "tier": "", "a": "Ponda (Priol)", "d": "The largest and most graceful of Goa's Hindu temples, its white lamp-tower rising above green hills — the god shifted here in the 16th century to escape Portuguese destruction on the coast. A serene, beautifully kept shrine that anchors any temple circuit in the Ponda interior.", "lat": 15.444899, "lon": 73.966414, "p": "v"}, {"n": "Shri Shantadurga Temple, Kavlem", "cat": "do", "tier": "", "a": "Ponda (Kavlem)", "d": "A luminous hillside temple to the goddess who mediates between Shiva and Vishnu, its worship carried inland from the coast over 450 years ago. Set among wooded hills a short drive from Mangeshi, it completes a calm and moving morning of Goa's living Hindu heritage.", "lat": 15.396137, "lon": 73.985478, "p": "v"}, {"n": "Tambdi Surla Mahadev Temple", "cat": "do", "tier": "", "a": "East Goa (Mollem)", "d": "A tiny 12th-century Kadamba-era Shiva temple of black basalt, tucked in a forest clearing at the foot of the Ghats — the oldest surviving temple in Goa and the only one to escape the Portuguese entirely. Remote, atmospheric and utterly unlike the coast, for the traveller who wants the deep past.", "lat": 15.439042, "lon": 74.252541, "p": "v"}, {"n": "Salim Ali Bird Sanctuary, Chorão Island", "cat": "do", "tier": "", "a": "Chorão Island (Mandovi River)", "d": "Goa's only bird sanctuary, a mangrove estuary on Chorão reached by a short car-ferry across the Mandovi, laced with boardwalks over the tidal creeks. A peaceful morning of herons, kingfishers, mudskippers and fiddler crabs — best by small boat at high tide with a naturalist.", "lat": 15.516188, "lon": 73.854287, "p": "v"}, {"n": "Divar Island", "cat": "do", "tier": "", "a": "Divar Island (Mandovi River)", "d": "A time-capsule island of empty lanes, old Portuguese mansions and the hilltop Our Lady of Compassion church, reached only by ferry and blissfully free of traffic. Rent bicycles or drive slowly for an afternoon; it is the Goa that has quietly stayed still.", "lat": 15.525088, "lon": 73.907816, "p": "v"}, {"n": "Museum of Goa (MOG)", "cat": "do", "tier": "", "a": "North Goa (Pilerne)", "d": "Artist Subodh Kerkar's three-storey contemporary-art space near Calangute, where large, playful installations engage Goan history, migration and the sea. The one truly serious cultural stop between the northern beaches, and a welcome hour indoors on a bright day.", "lat": 15.525642, "lon": 73.795306, "p": "v"}, {"n": "Houses of Goa Museum", "cat": "do", "tier": "", "a": "North Goa (Torda / Porvorim)", "d": "A quirky ship-shaped museum built by architect Gerard da Cunha as an ode to Indo-Portuguese domestic architecture — balcões, oyster-shell windows, tiled roofs and Mario Miranda drawings. A charming, brief stop that decodes the very houses you admire across Goa.", "lat": 15.525642, "lon": 73.795306, "p": "v"}, {"n": "Palácio do Deão, Quepem", "cat": "do", "tier": "", "a": "South Goa (Quepem)", "d": "A lovingly restored 1787 mansion built by the priest who founded Quepem town, its garden running down to the Kushavati river and its rooms full of period detail. Book ahead for a private Goan lunch here — one of the most gracious heritage experiences in the south.", "lat": 15.213866, "lon": 74.073557, "p": "v"}, {"n": "Figueiredo House, Loutolim", "cat": "do", "tier": "", "a": "South Goa (Loutolim)", "d": "A vast 400-year-old Indo-Portuguese mansion still lived in by the same family, its rooms crowded with Chinese porcelain, Belgian chandeliers, family portraits and a private chapel. A guided visit is a rare, intimate window into old Goan-Catman aristocratic life.", "lat": 15.339748, "lon": 73.98668, "p": "a"}, {"n": "Braganza House, Chandor", "cat": "do", "tier": "", "a": "South Goa (Chandor)", "d": "The grandest of Goa's ancestral homes, a mansion whose ballroom-length gallery and rosewood salons run the length of Chandor's square, still occupied by two branches of the Braganza family. The definitive Indo-Portuguese heritage-house visit, unmatched for scale and story.", "lat": 15.261199, "lon": 74.043537, "p": "v"}, {"n": "Mandovi river sunset & dolphin cruise", "cat": "do", "tier": "", "a": "Panjim / Mandovi River", "d": "A private evening cruise on the Mandovi, gliding past Old Goa's churches and Reis Magos fort as the light softens over the water, with dolphins often surfacing near the mouth. Charter a quiet boat rather than the party boats for a graceful sundowner on the river.", "lat": 15.499353, "lon": 73.826332, "p": "a"}, {"n": "Sal River backwater cruise, South Goa", "cat": "do", "tier": "", "a": "South Goa (Cavelossim / Betul)", "d": "A serene glide through the mangrove-lined Sal near the southern resorts, watching for kingfishers and dolphins in the calmer, greener waters away from the north's bustle. A gentle, scenic outing that suits the South Goa villa-and-resort pace.", "lat": 15.137441, "lon": 73.956342, "p": "v"}, {"n": "Goan culinary experience & home dining", "cat": "do", "tier": "", "a": "Goa-wide", "d": "From a chef-led kitchen table on Catholic classics — sorpotel, xacuti, prawn balchão — to a Saraswat vegetarian thali or a seafood spread by the water, Goan cuisine rewards going beyond the shack menu. A private in-villa Goan meal or a curated tasting is the most memorable way in.", "lat": 15.300454, "lon": 74.085513, "p": "a"}, {"n": "Feni & cashew heritage tasting", "cat": "do", "tier": "", "a": "Goa-wide (Ponda / Bardez)", "d": "Feni, Goa's fiery cashew or coconut spirit, is a Geographical-Indication product with a distilling tradition older than the resorts; a small-distillery tasting reveals it as a craft, not a cliché. A distinctive, only-in-Goa experience for the curious drinker.", "lat": 15.589111, "lon": 73.810314, "p": "a"}, {"n": "Serendipity Arts Festival", "cat": "do", "tier": "", "a": "Panjim", "d": "India's largest multidisciplinary arts festival takes over Panjim's riverfront each December with curated visual art, music, theatre and food across historic venues. If your visit aligns, it turns the city into a serious cultural destination for a week.", "lat": 15.498995, "lon": 73.828214, "p": "a"}, {"n": "Panjim — Church of Our Lady of the Immaculate Conception", "cat": "do", "tier": "", "a": "Panjim", "d": "The gleaming white church with its dramatic zigzag staircase presiding over old Panjim's main square, floodlit and lovely after dark. A five-minute stop that anchors any wander through the capital, moments from Fontainhas.", "lat": 15.49853, "lon": 73.829735, "p": "v"}, {"n": "Wellness & yoga retreat (Ashram / beachfront)", "cat": "do", "tier": "", "a": "North Goa (Mandrem / Ashwem / Arambol)", "d": "The quiet northern beaches are Goa's yoga and Ayurveda heartland, from serious teacher-training shalas to discreet beachfront spa retreats. Book a private teacher to your villa or a bespoke Ayurvedic programme for a restorative counterpoint to the coast.", "lat": 15.650907, "lon": 73.716173, "p": "a"}, {"n": "Casino gaming on the Mandovi", "cat": "do", "tier": "", "a": "Panjim / Mandovi River", "d": "Goa is one of the few places in India with legal casinos, several of them aboard permanently moored floating vessels on the Mandovi off Panjim. A brief, novel evening out for those who want it — go for the setting on the river rather than the stakes.", "lat": 15.499353, "lon": 73.826332, "p": "a"}, {"n": "Sunburn Festival", "cat": "do", "tier": "", "a": "North Goa (seasonal)", "d": "Asia's largest electronic-dance-music festival descends on Goa around the New Year, a defining fixture of the state's party calendar. Framed here for the record — an enormous, high-energy event that draws a young international crowd, best planned around rather than into for a quiet stay.", "lat": 15.591271, "lon": 73.790564, "p": "a"}, {"n": "Netravali & the bubbling lake, deep South", "cat": "do", "tier": "", "a": "South Goa (Sanguem)", "d": "A little-visited wildlife sanctuary in the far southeast, with the curious 'bubbling lake' at Budbudyachi Tali, waterfalls and dense Ghat forest. A genuine off-map day for travellers who have done the coast and want Goa's wild interior.", "lat": 15.279129, "lon": 74.147931, "p": "a"}, {"n": "Boilermaker", "cat": "party", "tier": "Cocktail bars", "a": "North Goa (Siolim)", "d": "A garage-bar reborn as the most internationally-ranked cocktail room in Goa — feni, cashew beer and serious technique.", "lat": 15.300454, "lon": 74.085513, "p": "v"}, {"n": "Bar Outrigger", "cat": "party", "tier": "Cocktail bars", "a": "Panjim (Dona Paula)", "d": "A rum-forward tiki bar by the sea in a tiny fishing village — Arijit Bose's inventive, playful drinks with a view.", "lat": 15.009157, "lon": 74.027604, "p": "v"}, {"n": "Hideaway", "cat": "party", "tier": "Cocktail bars", "a": "North Goa (Vagator)", "d": "Live jazz and inventive cocktails under the Vagator trees — the warmest music-and-drinks room in Goa.", "lat": 15.193548, "lon": 73.98654, "p": "v"}]}
+{
+  "center": [
+    15.300454,
+    74.085513
+  ],
+  "venues": [
+    {
+      "n": "Taj Exotica Resort & Spa, Goa",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "South Goa (Benaulim)",
+      "d": "Fifty-six acres of Mediterranean-village calm above a quiet southern beach \u2014 the surest grand address in Goa.",
+      "lat": 15.497609,
+      "lon": 73.767098,
+      "photos": []
+    },
+    {
+      "n": "The St. Regis Goa Resort",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "South Goa (Cavelossim)",
+      "d": "Butler service and three pools on a long, empty Cavelossim beach \u2014 the most polished stay in the south.",
+      "lat": 15.042384,
+      "lon": 73.987593,
+      "photos": []
+    },
+    {
+      "n": "ITC Grand Goa, a Luxury Collection Resort & Spa",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "South Goa (Arossim / Cansaulim)",
+      "d": "An Indo-Portuguese 'grand mansion' of lagoons and courtyards on Arossim beach \u2014 big, gracious and wedding-grade.",
+      "lat": 15.344917,
+      "lon": 73.897565,
+      "photos": []
+    },
+    {
+      "n": "JW Marriott Goa",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "North Goa (Vagator)",
+      "d": "A cliff-top newcomer above Vagator, looking down the coast to Chapora Fort \u2014 the north's most decorated recent opening.",
+      "lat": 15.599541,
+      "lon": 73.743317,
+      "photos": []
+    },
+    {
+      "n": "The Postcard Hideaway, Netravali",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "South Goa hinterland (Netravali Wildlife Sanctuary)",
+      "d": "A forest hideaway on the edge of a wildlife sanctuary \u2014 Goa with no beach and no crowd, only birdsong and river.",
+      "lat": 15.087054,
+      "lon": 74.203833,
+      "photos": []
+    },
+    {
+      "n": "The Postcard Saligao",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "North Goa (Saligao)",
+      "d": "A restored 19th-century Portuguese manor among the paddy fields \u2014 village Goa, done with real taste.",
+      "lat": 15.087054,
+      "lon": 74.203833,
+      "photos": []
+    },
+    {
+      "n": "The Postcard Velha Goa",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Old Goa / Panjim (Corlim)",
+      "d": "A riverside colonial house beside the old Portuguese capital \u2014 a rare place to sleep within the heritage.",
+      "lat": 15.501886,
+      "lon": 73.920065,
+      "photos": []
+    },
+    {
+      "n": "The Postcard Cuelim",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "South Goa (Cuelim / Cansaulim)",
+      "d": "A 17th-century Portuguese estate with a chapel of its own \u2014 quiet, gracious and gently grand.",
+      "lat": 15.087054,
+      "lon": 74.203833,
+      "photos": []
+    },
+    {
+      "n": "Bomra's",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "North Goa (Candolim)",
+      "d": "Burmese-Kachin cooking that has quietly been Goa's most serious restaurant for years \u2014 precise, personal, unforgettable.",
+      "lat": 15.507096,
+      "lon": 73.770417,
+      "photos": []
+    },
+    {
+      "n": "Cavatina by Avinash Martins",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "South Goa (Benaulim)",
+      "d": "A Goan chef reimagining his own Saraswat and Catholic heritage \u2014 the most exciting cooking in the south.",
+      "lat": 15.255922,
+      "lon": 73.923107,
+      "photos": []
+    },
+    {
+      "n": "Izumi",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "North Goa (Assagao)",
+      "d": "Japanese cooking \u2014 sushi, ramen and robata \u2014 done with real rigour in a leafy Assagao garden.",
+      "lat": 15.598137,
+      "lon": 73.787315,
+      "photos": []
+    },
+    {
+      "n": "Petisco",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "North Goa (Assagao / Anjuna)",
+      "d": "Small plates and sharing dishes that read the room perfectly \u2014 the north's easy, excellent everyday table.",
+      "lat": 15.300454,
+      "lon": 74.085513,
+      "photos": []
+    },
+    {
+      "n": "Hosa",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "North Goa (Assagao)",
+      "d": "A love letter to South Indian coastal cooking \u2014 heritage recipes, plated with real ambition.",
+      "lat": 15.614749,
+      "lon": 73.769358,
+      "photos": []
+    },
+    {
+      "n": "Avo's Kitchen",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "North Goa",
+      "d": "Home-style Goan cooking, the way a Goan grandmother would make it \u2014 honest, warm and rooted.",
+      "lat": 15.233283,
+      "lon": 73.925766,
+      "photos": []
+    },
+    {
+      "n": "Pra\u00e7a Prazeres",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "North Goa",
+      "d": "Chef Ralph Prazeres reworking Goan-Portuguese classics with modern finesse \u2014 a rising Goan name.",
+      "lat": 15.512813,
+      "lon": 73.771435,
+      "photos": []
+    },
+    {
+      "n": "The Second House",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "North Goa",
+      "d": "A quietly confident kitchen doing seasonal, produce-led plates away from the noise \u2014 a locals' favourite.",
+      "lat": 15.205054,
+      "lon": 73.977313,
+      "photos": []
+    },
+    {
+      "n": "Slow Tide",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "North Goa (Assagao)",
+      "d": "A bar-restaurant of inventive cocktails and easy small plates, named for the slow Goa of the Sixties.",
+      "lat": 15.428378,
+      "lon": 73.873359,
+      "photos": []
+    },
+    {
+      "n": "For the Record \u2014 Vinyl Bar",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "North Goa (Anjuna)",
+      "d": "Records, cocktails and a short, sharp plate list \u2014 the north's most stylish listening-and-eating room.",
+      "lat": 15.59137,
+      "lon": 73.808782,
+      "photos": []
+    },
+    {
+      "n": "Basilica of Bom Jesus",
+      "cat": "do",
+      "tier": "",
+      "a": "Old Goa",
+      "d": "The most revered church in Goa, its weathered laterite facade holding the mortal remains of St. Francis Xavier in a silver casket above a Florentine-marble mausoleum. Go early, before the coaches arrive, when the light through the high windows falls on gilded Baroque woodwork and the nave is nearly your own.",
+      "lat": 15.500696,
+      "lon": 73.911704,
+      "photos": []
+    },
+    {
+      "n": "S\u00e9 Cathedral (Cathedral of Santa Catarina)",
+      "cat": "do",
+      "tier": "",
+      "a": "Old Goa",
+      "d": "One of the largest churches in Asia, built to mark the Portuguese capture of Goa, with a cavernous whitewashed interior and the famous Golden Bell whose toll once carried across the old city. A few minutes' stroll from Bom Jesus, so pair the two in a single unhurried morning.",
+      "lat": 15.502333,
+      "lon": 73.911743,
+      "photos": []
+    },
+    {
+      "n": "Church of St. Francis of Assisi & Convent",
+      "cat": "do",
+      "tier": "",
+      "a": "Old Goa",
+      "d": "The quietest and arguably most beautiful of the Old Goa churches, its interior a riot of gilded carving, frescoed panels and painted floral columns. The adjoining convent houses the Archaeological Survey museum, worth a slow half-hour for its portraits of the Portuguese viceroys.",
+      "lat": 15.503195,
+      "lon": 73.911348,
+      "photos": []
+    },
+    {
+      "n": "Church of St. Cajetan & Chapel of St. Catherine",
+      "cat": "do",
+      "tier": "",
+      "a": "Old Goa",
+      "d": "St. Cajetan is modelled on St. Peter's in Rome, an unexpected domed silhouette rising from the palms; the tiny Chapel of St. Catherine nearby is one of the oldest Christian structures in Goa. Both are steps from the main churches and let you complete the UNESCO ensemble without the crowds.",
+      "lat": 15.505596,
+      "lon": 73.915216,
+      "photos": []
+    },
+    {
+      "n": "Fontainhas \u2014 the Latin Quarter",
+      "cat": "do",
+      "tier": "",
+      "a": "Panjim / Fontainhas",
+      "d": "Panjim's old Portuguese quarter, a warren of narrow lanes lined with ochre, indigo and green villas, wrought-iron balconies and hand-painted azulejo tiles at every doorway. The single most romantic walk in Goa; do it at golden hour with a guide who can knock on the right doors, then settle in for a slow lunch.",
+      "lat": 15.495685,
+      "lon": 73.83109,
+      "photos": []
+    },
+    {
+      "n": "Fontainhas heritage food & culture walk",
+      "cat": "do",
+      "tier": "",
+      "a": "Panjim / Fontainhas",
+      "d": "A curated walk through the Latin Quarter that opens private heritage homes, a working bakery and a Goan-Catholic kitchen, with tastings of poee bread, bebinca and feni along the way. The best short cultural experience in the city, easily arranged privately for a family and paced to your interest.",
+      "lat": 15.495685,
+      "lon": 73.83109,
+      "photos": []
+    },
+    {
+      "n": "Fort Aguada & lighthouse",
+      "cat": "do",
+      "tier": "",
+      "a": "North Goa (Candolim / Sinquerim)",
+      "d": "A commanding 17th-century Portuguese sea fort above Sinquerim, its ramparts and the oldest lighthouse in Asia looking straight down the coastline. Come near sunset for the light on the Arabian Sea, an easy detour from the Candolim and Sinquerim luxury resorts below.",
+      "lat": 15.492076,
+      "lon": 73.772487,
+      "photos": []
+    },
+    {
+      "n": "Reis Magos Fort",
+      "cat": "do",
+      "tier": "",
+      "a": "North Goa (Reis Magos)",
+      "d": "A beautifully restored little fort on the Mandovi's north bank, now a cultural centre with Mario Miranda cartoons, exhibitions and one of the finest river-and-Panjim panoramas in Goa. Refined, uncrowded and genuinely interesting \u2014 a rewarding stop en route between the beaches and the capital.",
+      "lat": 15.496508,
+      "lon": 73.809132,
+      "photos": []
+    },
+    {
+      "n": "Chapora Fort",
+      "cat": "do",
+      "tier": "",
+      "a": "North Goa (Chapora / Vagator)",
+      "d": "The ruined hilltop fort made famous by the film Dil Chahta Hai, its crumbling laterite walls framing a sweeping view over Vagator beach and the Chapora river mouth. A short climb rewarded by one of North Goa's great sunset outlooks.",
+      "lat": 15.605953,
+      "lon": 73.735285,
+      "photos": []
+    },
+    {
+      "n": "Ashwem Beach",
+      "cat": "do",
+      "tier": "",
+      "a": "North Goa (Pernem)",
+      "d": "A long, calm, casuarina-fringed stretch that is the quiet, upscale face of North Goa, its handful of design-led beach shacks and boutique stays a world away from the Baga crowds. The default choice for a discreet villa or resort day on the sand.",
+      "lat": 15.650907,
+      "lon": 73.716173,
+      "photos": []
+    },
+    {
+      "n": "Mandrem Beach",
+      "cat": "do",
+      "tier": "",
+      "a": "North Goa (Pernem)",
+      "d": "Perhaps the most serene of the fashionable northern beaches, a wide soft-sand ribbon crossed by little tidal creeks and backed by upscale restaurants and yoga retreats. Ideal for families and multi-generational stays wanting space and calm rather than a scene.",
+      "lat": 15.660048,
+      "lon": 73.713127,
+      "photos": []
+    },
+    {
+      "n": "Morjim Beach",
+      "cat": "do",
+      "tier": "",
+      "a": "North Goa (Pernem)",
+      "d": "A broad, breezy beach at the mouth of the Chapora, known both for its Olive Ridley turtle nesting season and its cluster of stylish Mediterranean and Russian-influenced beach clubs. Come for a long lazy lunch by the water and the sense of an easy, cosmopolitan crowd.",
+      "lat": 15.622501,
+      "lon": 73.729856,
+      "photos": []
+    },
+    {
+      "n": "Vagator & Ozran (Little Vagator) Beach",
+      "cat": "do",
+      "tier": "",
+      "a": "North Goa (Bardez)",
+      "d": "Twin coves set beneath red laterite cliffs, with a famous carved stone Shiva face on the sand and the ruins of Chapora Fort on the headland above. The dramatic cliff-and-sunset scenery makes it the most photogenic of the northern beaches.",
+      "lat": 15.591266,
+      "lon": 73.734112,
+      "photos": []
+    },
+    {
+      "n": "Anjuna Beach & Wednesday Flea Market",
+      "cat": "do",
+      "tier": "",
+      "a": "North Goa (Bardez)",
+      "d": "The rocky, boho beach where Goa's counterculture began, and home to the legendary Wednesday flea market that grew out of the 1970s hippie gatherings. Come for the market's handicrafts, jewellery and colour, and for the sense of the Goa that first drew the world.",
+      "lat": 15.572237,
+      "lon": 73.743595,
+      "photos": []
+    },
+    {
+      "n": "Saturday Night Market, Arpora",
+      "cat": "do",
+      "tier": "",
+      "a": "North Goa (Arpora)",
+      "d": "Ingo's Saturday Night Market is the polished evening bazaar of the north \u2014 global street food, live music, designer stalls and lamps strung through the trees, running only in season. A lively, family-friendly evening out; go with a driver and browse without hurry.",
+      "lat": 15.566971,
+      "lon": 73.766118,
+      "photos": []
+    },
+    {
+      "n": "Palolem Beach",
+      "cat": "do",
+      "tier": "",
+      "a": "South Goa (Canacona)",
+      "d": "A near-perfect crescent of calm, palm-backed sand, the postcard image of South Goa and its most beautiful bay. Kayak out to Butterfly Island, watch for dolphins at dawn, and enjoy the gentler, more scenic south \u2014 though it is now the busiest beach in the region.",
+      "lat": 15.009308,
+      "lon": 74.024229,
+      "photos": []
+    },
+    {
+      "n": "Agonda Beach",
+      "cat": "do",
+      "tier": "",
+      "a": "South Goa (Canacona)",
+      "d": "The quieter, classier neighbour to Palolem \u2014 a long, tranquil sweep with excellent eco-conscious beach restaurants and a genuinely unhurried pace. Widely rated the nicest calm beach in Goa, and a fine base for a private villa away from any scene.",
+      "lat": 15.042316,
+      "lon": 73.986523,
+      "photos": []
+    },
+    {
+      "n": "Cavelossim & Mobor Beach",
+      "cat": "do",
+      "tier": "",
+      "a": "South Goa (Salcete)",
+      "d": "The heart of luxury South Goa, a broad, clean beach between the Arabian Sea and the Sal river where the region's five-star resorts sit. Sundowner river cruises leave from the Sal, and the wide sands stay uncrowded even in season \u2014 the polished-resort choice.",
+      "lat": 15.177068,
+      "lon": 73.947663,
+      "photos": []
+    },
+    {
+      "n": "Colva & Benaulim Beach",
+      "cat": "do",
+      "tier": "",
+      "a": "South Goa (Salcete)",
+      "d": "Long, gently shelving beaches that are the traditional face of South Goa, backed by whitewashed churches and quiet fishing hamlets. Benaulim in particular stays low-key and local \u2014 a slower, more Goan-Catholic counterpoint to the north.",
+      "lat": 15.25303,
+      "lon": 73.920195,
+      "photos": []
+    },
+    {
+      "n": "Dudhsagar Falls",
+      "cat": "do",
+      "tier": "",
+      "a": "East Goa (Sanguem / Mollem)",
+      "d": "Goa's spectacular 'sea of milk' \u2014 a four-tiered cascade plunging over 300 metres down the Western Ghats, thundering white after the monsoon. Reached by a hired jeep safari through Bhagwan Mahaveer sanctuary; a full and worthwhile day trip inland from the coast.",
+      "lat": 15.315618,
+      "lon": 74.314249,
+      "photos": []
+    },
+    {
+      "n": "Bhagwan Mahaveer Sanctuary & Mollem National Park",
+      "cat": "do",
+      "tier": "",
+      "a": "East Goa (Mollem)",
+      "d": "Goa's largest protected forest, 240 sq km of Western Ghats jungle sheltering black panther, Malabar giant squirrel and king cobra, with the Tambdi Surla temple and Dudhsagar within it. The wild, green counterweight to the beaches, for those who want to see the Ghats.",
+      "lat": 15.339019,
+      "lon": 74.283161,
+      "photos": []
+    },
+    {
+      "n": "Spice plantation visit (Sahakari / Savoi / Tropical)",
+      "cat": "do",
+      "tier": "",
+      "a": "Ponda",
+      "d": "A shaded walk through cardamom, vanilla, nutmeg and betel groves in the Ponda hills, ending with a traditional Goan thali served on banana leaf. An easy, family-pleasing half-day that pairs naturally with the Ponda temples, and readily arranged as a private, unhurried visit.",
+      "lat": 15.423291,
+      "lon": 73.978931,
+      "photos": []
+    },
+    {
+      "n": "Shri Mangeshi Temple",
+      "cat": "do",
+      "tier": "",
+      "a": "Ponda (Priol)",
+      "d": "The largest and most graceful of Goa's Hindu temples, its white lamp-tower rising above green hills \u2014 the god shifted here in the 16th century to escape Portuguese destruction on the coast. A serene, beautifully kept shrine that anchors any temple circuit in the Ponda interior.",
+      "lat": 15.444899,
+      "lon": 73.966414,
+      "photos": []
+    },
+    {
+      "n": "Shri Shantadurga Temple, Kavlem",
+      "cat": "do",
+      "tier": "",
+      "a": "Ponda (Kavlem)",
+      "d": "A luminous hillside temple to the goddess who mediates between Shiva and Vishnu, its worship carried inland from the coast over 450 years ago. Set among wooded hills a short drive from Mangeshi, it completes a calm and moving morning of Goa's living Hindu heritage.",
+      "lat": 15.396137,
+      "lon": 73.985478,
+      "photos": []
+    },
+    {
+      "n": "Tambdi Surla Mahadev Temple",
+      "cat": "do",
+      "tier": "",
+      "a": "East Goa (Mollem)",
+      "d": "A tiny 12th-century Kadamba-era Shiva temple of black basalt, tucked in a forest clearing at the foot of the Ghats \u2014 the oldest surviving temple in Goa and the only one to escape the Portuguese entirely. Remote, atmospheric and utterly unlike the coast, for the traveller who wants the deep past.",
+      "lat": 15.439042,
+      "lon": 74.252541,
+      "photos": []
+    },
+    {
+      "n": "Salim Ali Bird Sanctuary, Chor\u00e3o Island",
+      "cat": "do",
+      "tier": "",
+      "a": "Chor\u00e3o Island (Mandovi River)",
+      "d": "Goa's only bird sanctuary, a mangrove estuary on Chor\u00e3o reached by a short car-ferry across the Mandovi, laced with boardwalks over the tidal creeks. A peaceful morning of herons, kingfishers, mudskippers and fiddler crabs \u2014 best by small boat at high tide with a naturalist.",
+      "lat": 15.516188,
+      "lon": 73.854287,
+      "photos": []
+    },
+    {
+      "n": "Divar Island",
+      "cat": "do",
+      "tier": "",
+      "a": "Divar Island (Mandovi River)",
+      "d": "A time-capsule island of empty lanes, old Portuguese mansions and the hilltop Our Lady of Compassion church, reached only by ferry and blissfully free of traffic. Rent bicycles or drive slowly for an afternoon; it is the Goa that has quietly stayed still.",
+      "lat": 15.525088,
+      "lon": 73.907816,
+      "photos": []
+    },
+    {
+      "n": "Museum of Goa (MOG)",
+      "cat": "do",
+      "tier": "",
+      "a": "North Goa (Pilerne)",
+      "d": "Artist Subodh Kerkar's three-storey contemporary-art space near Calangute, where large, playful installations engage Goan history, migration and the sea. The one truly serious cultural stop between the northern beaches, and a welcome hour indoors on a bright day.",
+      "lat": 15.525642,
+      "lon": 73.795306,
+      "photos": []
+    },
+    {
+      "n": "Houses of Goa Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "North Goa (Torda / Porvorim)",
+      "d": "A quirky ship-shaped museum built by architect Gerard da Cunha as an ode to Indo-Portuguese domestic architecture \u2014 balc\u00f5es, oyster-shell windows, tiled roofs and Mario Miranda drawings. A charming, brief stop that decodes the very houses you admire across Goa.",
+      "lat": 15.525642,
+      "lon": 73.795306,
+      "photos": []
+    },
+    {
+      "n": "Pal\u00e1cio do De\u00e3o, Quepem",
+      "cat": "do",
+      "tier": "",
+      "a": "South Goa (Quepem)",
+      "d": "A lovingly restored 1787 mansion built by the priest who founded Quepem town, its garden running down to the Kushavati river and its rooms full of period detail. Book ahead for a private Goan lunch here \u2014 one of the most gracious heritage experiences in the south.",
+      "lat": 15.213866,
+      "lon": 74.073557,
+      "photos": []
+    },
+    {
+      "n": "Figueiredo House, Loutolim",
+      "cat": "do",
+      "tier": "",
+      "a": "South Goa (Loutolim)",
+      "d": "A vast 400-year-old Indo-Portuguese mansion still lived in by the same family, its rooms crowded with Chinese porcelain, Belgian chandeliers, family portraits and a private chapel. A guided visit is a rare, intimate window into old Goan-Catman aristocratic life.",
+      "lat": 15.339748,
+      "lon": 73.98668,
+      "photos": []
+    },
+    {
+      "n": "Braganza House, Chandor",
+      "cat": "do",
+      "tier": "",
+      "a": "South Goa (Chandor)",
+      "d": "The grandest of Goa's ancestral homes, a mansion whose ballroom-length gallery and rosewood salons run the length of Chandor's square, still occupied by two branches of the Braganza family. The definitive Indo-Portuguese heritage-house visit, unmatched for scale and story.",
+      "lat": 15.261199,
+      "lon": 74.043537,
+      "photos": []
+    },
+    {
+      "n": "Mandovi river sunset & dolphin cruise",
+      "cat": "do",
+      "tier": "",
+      "a": "Panjim / Mandovi River",
+      "d": "A private evening cruise on the Mandovi, gliding past Old Goa's churches and Reis Magos fort as the light softens over the water, with dolphins often surfacing near the mouth. Charter a quiet boat rather than the party boats for a graceful sundowner on the river.",
+      "lat": 15.499353,
+      "lon": 73.826332,
+      "photos": []
+    },
+    {
+      "n": "Sal River backwater cruise, South Goa",
+      "cat": "do",
+      "tier": "",
+      "a": "South Goa (Cavelossim / Betul)",
+      "d": "A serene glide through the mangrove-lined Sal near the southern resorts, watching for kingfishers and dolphins in the calmer, greener waters away from the north's bustle. A gentle, scenic outing that suits the South Goa villa-and-resort pace.",
+      "lat": 15.137441,
+      "lon": 73.956342,
+      "photos": []
+    },
+    {
+      "n": "Goan culinary experience & home dining",
+      "cat": "do",
+      "tier": "",
+      "a": "Goa-wide",
+      "d": "From a chef-led kitchen table on Catholic classics \u2014 sorpotel, xacuti, prawn balch\u00e3o \u2014 to a Saraswat vegetarian thali or a seafood spread by the water, Goan cuisine rewards going beyond the shack menu. A private in-villa Goan meal or a curated tasting is the most memorable way in.",
+      "lat": 15.300454,
+      "lon": 74.085513,
+      "photos": []
+    },
+    {
+      "n": "Feni & cashew heritage tasting",
+      "cat": "do",
+      "tier": "",
+      "a": "Goa-wide (Ponda / Bardez)",
+      "d": "Feni, Goa's fiery cashew or coconut spirit, is a Geographical-Indication product with a distilling tradition older than the resorts; a small-distillery tasting reveals it as a craft, not a clich\u00e9. A distinctive, only-in-Goa experience for the curious drinker.",
+      "lat": 15.589111,
+      "lon": 73.810314,
+      "photos": []
+    },
+    {
+      "n": "Serendipity Arts Festival",
+      "cat": "do",
+      "tier": "",
+      "a": "Panjim",
+      "d": "India's largest multidisciplinary arts festival takes over Panjim's riverfront each December with curated visual art, music, theatre and food across historic venues. If your visit aligns, it turns the city into a serious cultural destination for a week.",
+      "lat": 15.498995,
+      "lon": 73.828214,
+      "photos": []
+    },
+    {
+      "n": "Panjim \u2014 Church of Our Lady of the Immaculate Conception",
+      "cat": "do",
+      "tier": "",
+      "a": "Panjim",
+      "d": "The gleaming white church with its dramatic zigzag staircase presiding over old Panjim's main square, floodlit and lovely after dark. A five-minute stop that anchors any wander through the capital, moments from Fontainhas.",
+      "lat": 15.49853,
+      "lon": 73.829735,
+      "photos": []
+    },
+    {
+      "n": "Wellness & yoga retreat (Ashram / beachfront)",
+      "cat": "do",
+      "tier": "",
+      "a": "North Goa (Mandrem / Ashwem / Arambol)",
+      "d": "The quiet northern beaches are Goa's yoga and Ayurveda heartland, from serious teacher-training shalas to discreet beachfront spa retreats. Book a private teacher to your villa or a bespoke Ayurvedic programme for a restorative counterpoint to the coast.",
+      "lat": 15.650907,
+      "lon": 73.716173,
+      "photos": []
+    },
+    {
+      "n": "Casino gaming on the Mandovi",
+      "cat": "do",
+      "tier": "",
+      "a": "Panjim / Mandovi River",
+      "d": "Goa is one of the few places in India with legal casinos, several of them aboard permanently moored floating vessels on the Mandovi off Panjim. A brief, novel evening out for those who want it \u2014 go for the setting on the river rather than the stakes.",
+      "lat": 15.499353,
+      "lon": 73.826332,
+      "photos": []
+    },
+    {
+      "n": "Sunburn Festival",
+      "cat": "do",
+      "tier": "",
+      "a": "North Goa (seasonal)",
+      "d": "Asia's largest electronic-dance-music festival descends on Goa around the New Year, a defining fixture of the state's party calendar. Framed here for the record \u2014 an enormous, high-energy event that draws a young international crowd, best planned around rather than into for a quiet stay.",
+      "lat": 15.591271,
+      "lon": 73.790564,
+      "photos": []
+    },
+    {
+      "n": "Netravali & the bubbling lake, deep South",
+      "cat": "do",
+      "tier": "",
+      "a": "South Goa (Sanguem)",
+      "d": "A little-visited wildlife sanctuary in the far southeast, with the curious 'bubbling lake' at Budbudyachi Tali, waterfalls and dense Ghat forest. A genuine off-map day for travellers who have done the coast and want Goa's wild interior.",
+      "lat": 15.279129,
+      "lon": 74.147931,
+      "photos": []
+    },
+    {
+      "n": "Boilermaker",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "North Goa (Siolim)",
+      "d": "A garage-bar reborn as the most internationally-ranked cocktail room in Goa \u2014 feni, cashew beer and serious technique.",
+      "lat": 15.300454,
+      "lon": 74.085513,
+      "photos": []
+    },
+    {
+      "n": "Bar Outrigger",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Panjim (Dona Paula)",
+      "d": "A rum-forward tiki bar by the sea in a tiny fishing village \u2014 Arijit Bose's inventive, playful drinks with a view.",
+      "lat": 15.009157,
+      "lon": 74.027604,
+      "photos": []
+    },
+    {
+      "n": "Hideaway",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "North Goa (Vagator)",
+      "d": "Live jazz and inventive cocktails under the Vagator trees \u2014 the warmest music-and-drinks room in Goa.",
+      "lat": 15.193548,
+      "lon": 73.98654,
+      "photos": []
+    }
+  ]
+}

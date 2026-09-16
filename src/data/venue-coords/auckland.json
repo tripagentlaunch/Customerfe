@@ -1,1 +1,778 @@
-{"center": [-36.852095, 174.76318], "venues": [{"n": "Park Hyatt Auckland", "cat": "stay", "tier": "Ultra", "a": "Wynyard Quarter (waterfront)", "d": "The country's most polished five-star house — a low, calm waterfront landmark on the Viaduct edge, with a 25-metre pool and the acclaimed Onemata dining room.", "lat": -36.841906, "lon": 174.758485, "p": "v"}, {"n": "The Hotel Britomart", "cat": "stay", "tier": "Luxury", "a": "Britomart (City Centre)", "d": "New Zealand's first 5 Green Star hotel — a warm, timber-lined design house in the heart of the Britomart dining and shopping precinct.", "lat": -36.844862, "lon": 174.768765, "p": "v"}, {"n": "SO/ Auckland", "cat": "stay", "tier": "Luxury", "a": "Britomart / Customs Street (City Centre)", "d": "Accor's fashion-led SO/ maison brand in a heritage tower — bold design, a rooftop bar and harbour views over the city edge.", "lat": -36.845472, "lon": 174.768539, "p": "v"}, {"n": "Cordis, Auckland", "cat": "stay", "tier": "Grand", "a": "Symonds Street (City Centre)", "d": "A large, gracious five-star hotel by Langham Hospitality Group — a heated rooftop infinity pool, a serious spa and the celebrated Chef's dining.", "lat": -36.857421, "lon": 174.763627, "p": "v"}, {"n": "QT Auckland", "cat": "stay", "tier": "Luxury", "a": "Viaduct Harbour", "d": "A playful, art-filled design hotel on the Viaduct waterfront — colour, character and one of the city's liveliest rooftop bars.", "lat": -36.845389, "lon": 174.759674, "p": "v"}, {"n": "Hotel DeBrett", "cat": "stay", "tier": "Premium", "a": "High Street (City Centre)", "d": "A beloved boutique hotel in a restored 1925 Art Deco building — individually designed rooms and a buzzing courtyard bar in the heart of the city.", "lat": -36.846777, "lon": 174.767012, "p": "v"}, {"n": "The Grand by SkyCity", "cat": "stay", "tier": "Grand", "a": "Federal Street (City Centre)", "d": "A grand five-star tower in the SkyCity precinct — home to Metita, the country's Hotel Restaurant of the Year, with a lap pool and spa.", "lat": -36.849398, "lon": 174.762563, "p": "v"}, {"n": "Sofitel Auckland Viaduct Harbour", "cat": "stay", "tier": "Grand", "a": "Viaduct Harbour", "d": "A French-accented five-star on the marina's edge — waterfront suites, a heated pool and a graceful spa on the Viaduct.", "lat": -36.844784, "lon": 174.757182, "p": "v"}, {"n": "Ahi", "cat": "eat", "tier": "Destination", "a": "Commercial Bay (City Centre)", "d": "Chef Ben Bayly's celebration of New Zealand producers — a refined, land-and-sea tasting menu that sits at the very top of the national game.", "lat": -36.891373, "lon": 174.720174, "p": "v"}, {"n": "Cocoro", "cat": "eat", "tier": "Destination", "a": "Ponsonby", "d": "Chef Makoto Tokuyama's serene Japanese degustation — precise, seasonal and deeply personal, a perennial three-hat kitchen.", "lat": -36.852095, "lon": 174.76318, "p": "v"}, {"n": "Paris Butter", "cat": "eat", "tier": "Destination", "a": "Herne Bay", "d": "French technique met with native New Zealand produce in a handsome villa — one of the most assured kitchens in the country.", "lat": -36.845437, "lon": 174.737035, "p": "v"}, {"n": "Tala", "cat": "eat", "tier": "Destination", "a": "City Centre", "d": "A modern Pacific and Middle-Eastern-inflected tasting menu that vaulted to the top tier — bold, generous and unmistakably its own.", "lat": -36.855686, "lon": 174.780219, "p": "v"}, {"n": "Sidart", "cat": "eat", "tier": "Destination", "a": "Ponsonby", "d": "Sid Sahrawat's long-running degustation temple — inventive, technically dazzling cooking that has anchored the city's fine-dining scene for years.", "lat": -36.852095, "lon": 174.76318, "p": "v"}, {"n": "Kazuya", "cat": "eat", "tier": "Fine", "a": "Eden Terrace", "d": "A unique fine-dining fusion marrying French technique with Japanese precision — intimate, exacting and quietly one of the city's best.", "lat": -36.863188, "lon": 174.760959, "p": "v"}, {"n": "Metita", "cat": "eat", "tier": "Fine", "a": "The Grand, Federal Street (City Centre)", "d": "Chef Michael Meredith's Pacific dining room in The Grand by SkyCity — the country's Hotel Restaurant of the Year, celebrating island flavours with polish.", "lat": -36.852095, "lon": 174.76318, "p": "v"}, {"n": "Farina", "cat": "eat", "tier": "Fine", "a": "Ponsonby (Ponsonby Road)", "d": "Chef-owner Sergio Maglione's love letter to seafood, handmade pasta and Neapolitan pizza — Auckland's Metropolitan Restaurant of the Year.", "lat": -36.851717, "lon": 174.744655, "p": "v"}, {"n": "Culprit", "cat": "eat", "tier": "Fine", "a": "City Centre (Wyndham Street)", "d": "Kyle Street and Jordan MacDonald's inventive, produce-driven room — the supreme winner of the Viva Top 50, doing something entirely its own.", "lat": -36.847301, "lon": 174.765066, "p": "v"}, {"n": "Onslow", "cat": "eat", "tier": "Fine", "a": "City Centre (Princes Street)", "d": "Josh Emett's elegant all-day dining room in a heritage building — refined, seasonal cooking with impeccable service.", "lat": -36.84768, "lon": 174.769922, "p": "v"}, {"n": "Amano", "cat": "eat", "tier": "Smart", "a": "Britomart (City Centre)", "d": "A vast, buzzing Italian brasserie and bakery in Britomart — house-made pasta, wood-fired cooking and all-day energy.", "lat": -36.844336, "lon": 174.770383, "p": "v"}, {"n": "Forest", "cat": "eat", "tier": "Fine", "a": "Mount Eden", "d": "A tiny 17-seat room open just four evenings a week — Plabita Florence's intimate, personal cooking, named Metro's Restaurant of the Year.", "lat": -36.871761, "lon": 174.770132, "p": "v"}, {"n": "Kingi", "cat": "eat", "tier": "Smart", "a": "The Hotel Britomart (City Centre)", "d": "A sustainability-minded seafood room inside The Hotel Britomart — line-caught fish and shellfish, cooked simply and beautifully.", "lat": -36.844993, "lon": 174.768549, "p": "v"}, {"n": "Cazador", "cat": "eat", "tier": "Smart", "a": "Mount Eden (Dominion Road)", "d": "A long-loved family-run room celebrating wild game and nose-to-tail cooking — characterful, honest and quietly excellent.", "lat": -36.893917, "lon": 174.745392, "p": "v"}, {"n": "Tempero", "cat": "eat", "tier": "Smart", "a": "City Centre", "d": "A vibrant Brazilian-rooted room celebrating live-fire and bold flavour — the country's Specialist Restaurant of the Year.", "lat": -36.858059, "lon": 174.757107, "p": "v"}, {"n": "Apéro", "cat": "eat", "tier": "Smart", "a": "Karangahape Road", "d": "A cult natural-wine bar and bistro on K' Road — small, seasonal plates and one of the city's finest cellars.", "lat": -36.857737, "lon": 174.75825, "p": "v"}, {"n": "Sky Tower", "cat": "do", "tier": "", "a": "City Centre", "d": "Auckland's 328-metre spire and the tallest structure in the Southern Hemisphere, with three observation decks and glass floor panels that drop the eye straight to the street 186 metres below. On a clear day the view runs 80 kilometres over the Waitematā, the Hauraki Gulf islands and the ring of volcanic cones; take the family up at dusk for the city lighting up, then dine at the revolving Orbit 360 one floor down.", "lat": -36.848463, "lon": 174.762183, "p": "v"}, {"n": "SkyWalk & SkyJump at the Sky Tower", "cat": "do", "tier": "", "a": "City Centre", "d": "For the thrill-seeker in the family: a harnessed walk on a 1.2-metre ledge around the tower's rim at 192 metres with no handrails, or a wire-guided base-jump-style plunge at up to 85 km/h. Grandparents can watch in comfort from the observation deck while the teenagers step off the edge; both run on private timed slots.", "lat": -36.848911, "lon": 174.765226, "p": "a"}, {"n": "Auckland War Memorial Museum (Tāmaki Paenga Hira)", "cat": "do", "tier": "", "a": "Auckland Domain", "d": "A neoclassical temple crowning the Domain, holding the world's finest collection of Māori and Pacific treasures alongside a carved meeting house and a full-sized war canoe. Book the twice-daily Māori cultural performance of song, haka and story for a dignified, multi-generational introduction to the culture of the land, then take tea on the terrace over the harbour.", "lat": -36.860756, "lon": 174.77781, "p": "v"}, {"n": "Auckland Art Gallery Toi o Tāmaki", "cat": "do", "tier": "", "a": "City Centre", "d": "New Zealand's oldest and largest art institution, with a soaring kauri-canopy roof over 17,000 works spanning European masters, contemporary New Zealand painting and a moving room of Māori ancestral portraits by Goldie and Lindauer. Entry to the permanent collection is free and it sits at the edge of Albert Park, an easy, cultured hour for any age.", "lat": -36.851261, "lon": 174.766371, "p": "v"}, {"n": "Viaduct Harbour", "cat": "do", "tier": "", "a": "Viaduct", "d": "The former America's Cup basin, now a ring of superyachts, waterside restaurants and champagne bars where Auckland comes to be seen. It is the natural place to base an evening on the water and the departure point for private charters and the America's Cup sailing yachts.", "lat": -36.843204, "lon": 174.760683, "p": "v"}, {"n": "Wynyard Quarter & Silo Park", "cat": "do", "tier": "", "a": "Wynyard Quarter", "d": "A reclaimed industrial waterfront turned promenade of playgrounds, seafood restaurants and the landmark red Silo Park, with summer outdoor cinema and night markets among the old cement silos. A relaxed, stroller-friendly stretch to walk off dinner as the harbour lights come on.", "lat": -36.839834, "lon": 174.754785, "p": "v"}, {"n": "America's Cup Sailing on the Waitematā", "cat": "do", "tier": "", "a": "Viaduct", "d": "Take the helm or simply recline on the rail of a genuine former America's Cup grand-prix racing yacht as it heels across the harbour past the Harbour Bridge and skyline. No experience needed and the whole family can crew or watch; private full-boat charters make it a discreet, unforgettable two hours on the City of Sails.", "lat": -36.84057, "lon": 174.759408, "p": "a"}, {"n": "Auckland Harbour Bridge Climb", "cat": "do", "tier": "", "a": "Northcote / Harbour", "d": "A guided harnessed walk up the arch of the 1959 road bridge to the summit at 65 metres, with the Waitematā, the yachts and Rangitoto laid out beneath you. There is also a bungy off a purpose-built pod for the daring; the climb itself is a gentle, steady ascent suitable for confident older children and grandparents alike.", "lat": -36.829285, "lon": 174.746542, "p": "v"}, {"n": "Mission Bay & Tamaki Drive", "cat": "do", "tier": "", "a": "Mission Bay", "d": "Auckland's most beloved seaside promenade, a golden crescent of beach with an Art Deco fountain, gelato and waterfront cafés looking straight across to Rangitoto. Drive or cycle the full sweep of Tamaki Drive past the yacht basins for the classic City of Sails afternoon; easy and safe for all ages.", "lat": -36.848287, "lon": 174.831409, "p": "v"}, {"n": "Bastion Point & the Michael Joseph Savage Memorial", "cat": "do", "tier": "", "a": "Ōrākei", "d": "A clifftop of consecrated ground above Tamaki Drive, its Art Deco obelisk and formal gardens giving a sweeping panorama over the harbour to Rangitoto. It is also one of the most significant sites in modern Māori history, scene of the 506-day 1977–78 land occupation; a quiet, contemplative stop with a story worth a guide.", "lat": -36.866982, "lon": 174.813862, "p": "a"}, {"n": "Maungawhau / Mount Eden", "cat": "do", "tier": "", "a": "Mount Eden", "d": "Auckland's highest volcanic cone at 196 metres, with a perfect grassy crater at the top and a full 360-degree sweep of the isthmus and both harbours. Walking to the summit is protected as an ancestral maunga, but the reward is the definitive view of the volcanic city; keep to the paths as the crater is sacred.", "lat": -36.876205, "lon": 174.764606, "p": "v"}, {"n": "Maungakiekie / One Tree Hill & Cornwall Park", "cat": "do", "tier": "", "a": "One Tree Hill", "d": "A 182-metre cone crowned by an obelisk and ringed by the largest pre-European earthwork fortifications on earth, set in the gifted parkland of Cornwall Park with grazing sheep and centenarian oaks. A gentle drive or walk to the summit and a picnic under the trees make an idyllic, unhurried family morning.", "lat": -36.896783, "lon": 174.786859, "p": "v"}, {"n": "Auckland Domain & the Wintergardens", "cat": "do", "tier": "", "a": "Auckland Domain", "d": "The city's oldest park, spread over an ancient volcano, with the Wintergardens' twin Edwardian glasshouses of tropical and cool-climate blooms and a fern-filled sunken quarry. A serene, shaded stroll that pairs naturally with the Museum on the same hill.", "lat": -36.860246, "lon": 174.774234, "p": "v"}, {"n": "Karangahape Road (K' Road)", "cat": "do", "tier": "", "a": "K' Road", "d": "Auckland's most characterful strip, a mile of vintage stores, galleries, tiny wine bars and cuisines from Malaysian to modern Brazilian, named among the world's coolest streets by Time Out. Go for the atmosphere and the food rather than luxury shopping; it is bohemian, alive and refreshingly unpolished.", "lat": -36.857975, "lon": 174.762308, "p": "v"}, {"n": "Ponsonby Road", "cat": "do", "tier": "", "a": "Ponsonby", "d": "Nicknamed 'the dining room of Auckland', a village high street of Victorian villas turned into the city's densest run of good restaurants, cafés and design boutiques, anchored by the food-hall energy of Ponsonby Central. The place to spend a leisurely lunch and afternoon; several kitchens handle vegetarian and Indian palates well.", "lat": -36.859688, "lon": 174.752688, "p": "v"}, {"n": "Britomart Precinct", "cat": "do", "tier": "", "a": "Britomart", "d": "The sleekest quarter of the central city, a cluster of restored heritage warehouses now holding New Zealand designer boutiques, top restaurants and the design-led Hotel Britomart, steps from the ferry terminal. The natural base for a stylish, walkable stay and a Saturday morning market.", "lat": -36.846626, "lon": 174.774589, "p": "v"}, {"n": "SEA LIFE Kelly Tarlton's Aquarium", "cat": "do", "tier": "", "a": "Ōrākei", "d": "Built into old harbourside sewage tanks by a New Zealand diving pioneer, with curved underwater tunnels of sharks and stingrays and an Antarctic ice enclosure of penguins. A reliable, weather-proof couple of hours that delights younger children on Tamaki Drive.", "lat": -36.846203, "lon": 174.81717, "p": "v"}, {"n": "New Zealand Maritime Museum (Hui Te Ananui a Tangaroa)", "cat": "do", "tier": "", "a": "Viaduct", "d": "On Hobson Wharf beside the Viaduct, tracing the ocean story from the first Polynesian voyagers to America's Cup glory, with heritage vessels moored outside that still sail the harbour. A short guided sail on a classic scow or steamer is the highlight for a maritime-minded family.", "lat": -36.841532, "lon": 174.763396, "p": "v"}, {"n": "Waiheke Island — vineyards, beaches & Oneroa", "cat": "do", "tier": "", "a": "Hauraki Gulf", "d": "A 40-minute ferry to a warmer, sunnier island of forty white-sand beaches and world-class vineyards, where cellar doors like Mudbrick, Cable Bay and Stonyridge serve Bordeaux-style reds over Hauraki Gulf views back to the skyline. The essential Auckland day trip; a private driver-guide or helicopter transfer lets multi-generational groups linger over long lunches without watching the clock.", "lat": -36.785133, "lon": 175.019071, "p": "v"}, {"n": "Mudbrick Vineyard", "cat": "do", "tier": "", "a": "Waiheke Island", "d": "On Waiheke's northern tip, a rose-garden estate with sweeping Hauraki Gulf views to the Auckland skyline, a celebrated restaurant and cottages for those who want to stay the night. The most photographed cellar door on the island and a favourite for a special-occasion lunch.", "lat": -36.792245, "lon": 175.000241, "p": "v"}, {"n": "Man O' War Vineyards", "cat": "do", "tier": "", "a": "Waiheke Island", "d": "At the wild eastern end of Waiheke, a beachfront tasting room reached by a scenic drive through the island's largest private estate, pouring single-vineyard wines feet from the sand. Remote and unhurried; charter a boat or helicopter in for the most discreet arrival.", "lat": -36.785677, "lon": 175.1543, "p": "v"}, {"n": "Rangitoto Island Summit Track", "cat": "do", "tier": "", "a": "Hauraki Gulf", "d": "The perfect volcanic cone that frames every Auckland postcard, a 600-year-old island reached by a 25-minute ferry, climbed in about an hour through the world's largest pōhutukawa forest and black lava fields to a 259-metre crater rim. The summit view over the gulf and city is superb; bring a torch for the lava caves and sun protection for the exposed scoria.", "lat": -36.786106, "lon": 174.861134, "p": "v"}, {"n": "Tiritiri Matangi Island Open Sanctuary", "cat": "do", "tier": "", "a": "Hauraki Gulf", "d": "One of the world's great conservation successes, a predator-free island where you walk among some of New Zealand's rarest birds in the wild — takahē, kōkako, saddleback and stitchbird — that exist almost nowhere else so freely. A guided day with an island volunteer is a quiet privilege for nature-lovers; the ferry runs only Wednesday to Sunday, so book ahead.", "lat": -36.600131, "lon": 174.889141, "p": "v"}, {"n": "Devonport & Mount Victoria", "cat": "do", "tier": "", "a": "Devonport", "d": "A 12-minute ferry to a genteel Victorian seaside village of bookshops, cafés and colonial villas, with the little cone of Mount Victoria offering a postcard view straight back to the city skyline. An effortless, charming half-day that even the least mobile of the party can enjoy from the waterfront.", "lat": -36.826467, "lon": 174.798926, "p": "v"}, {"n": "North Head (Maungauika)", "cat": "do", "tier": "", "a": "Devonport", "d": "A headland cone above Devonport honeycombed with Victorian coastal-defence tunnels and gun emplacements, guarding the harbour entrance with commanding views over the gulf. A gentle walk-up with just enough history and dark passages to intrigue children.", "lat": -36.827709, "lon": 174.812357, "p": "v"}, {"n": "Waitākere Ranges Regional Park", "cat": "do", "tier": "", "a": "West Auckland", "d": "Sixteen thousand hectares of native rainforest, kauri stands and waterfalls dropping to the wild west coast, half an hour from the city. Note that a kauri-dieback protection programme has closed many forest tracks — go with a guide who knows what is open, and always use the boot-cleaning stations to protect the ancient trees.", "lat": -36.957568, "lon": 174.570199, "p": "v"}, {"n": "Piha Beach", "cat": "do", "tier": "", "a": "West Coast", "d": "The most famous of Auckland's black-sand surf beaches, a dramatic ironsand crescent guarded by the great hulk of Lion Rock and pounded by Tasman swell. Wild, cinematic and beautiful — but the rips are serious, so swim only between the summer patrol flags and consider it a place to watch the surf rather than brave it.", "lat": -36.944272, "lon": 174.463398, "p": "v"}, {"n": "Karekare Beach", "cat": "do", "tier": "", "a": "West Coast", "d": "The most secluded of the west-coast beaches, reached through rainforest and a stream crossing, its vast empty ironsand made famous as the setting of the Oscar-winning film The Piano. Utterly atmospheric and almost always deserted; there are no facilities, so come prepared.", "lat": -36.988629, "lon": 174.473205, "p": "v"}, {"n": "Muriwai Beach & the Gannet Colony", "cat": "do", "tier": "", "a": "West Coast", "d": "A rugged black-sand coast where, from August to March, some 1,200 Australasian gannets nest on the clifftop at Ōtakamiro Point within metres of easy viewing platforms — an extraordinary wildlife spectacle with no effort required. Pair it with lunch at the nearby winery for a full west-coast morning.", "lat": -36.833297, "lon": 174.424292, "p": "v"}, {"n": "Hunua Falls", "cat": "do", "tier": "", "a": "Hūnua Ranges", "d": "A 30-metre waterfall spilling into a bush-fringed pool in the Hūnua Ranges, under an hour southeast of the city and far quieter than the western beaches. A short, easy path and a picnic make it a gentle escape into native forest; check current track status before you go.", "lat": -37.06878, "lon": 175.089753, "p": "v"}, {"n": "Matakana Village & Wine Country", "cat": "do", "tier": "", "a": "Matakana Coast", "d": "An hour north, a village of boutique galleries, a beloved Saturday farmers' market and a cluster of small wineries such as Brick Bay, whose sculpture trail winds through native bush and ponds. A civilised, low-key alternative to Waiheke for a day among vines, art and artisan food.", "lat": -36.342635, "lon": 174.734395, "p": "v"}, {"n": "Tāwharanui Regional Park", "cat": "do", "tier": "", "a": "Matakana Coast", "d": "An open sanctuary on a peninsula north of the city, ringing white-sand Anchor Bay with predator-proof fencing so that takahē roam the grassland and kiwi call at night. Among the finest beaches in the Auckland region and blissfully uncrowded on a weekday.", "lat": -36.369247, "lon": 174.853948, "p": "v"}, {"n": "Goat Island Marine Reserve", "cat": "do", "tier": "", "a": "Matakana Coast", "d": "New Zealand's first no-take marine reserve, established in 1975 near Leigh, where snapper, crayfish and rays crowd the shallows for snorkellers and a glass-bottomed boat. A rewarding half-day for families who want to see the sea life without diving; go on a calm, offshore-wind day for clear water.", "lat": -36.349647, "lon": 174.71478, "p": "a"}, {"n": "Te Hana Te Ao Marama Cultural Centre", "cat": "do", "tier": "", "a": "North of Auckland", "d": "An hour north, Auckland's leading Māori cultural centre, where a traditional welcome, a guided walk through a replica fortified pā, a kapa haka performance and a hāngī earth-oven feast give a genuine, unhurried immersion. Arranged as a private group visit it is a dignified highlight for multi-generational travellers.", "lat": -36.8743, "lon": 174.74493, "p": "a"}, {"n": "Waka Voyaging Experience", "cat": "do", "tier": "", "a": "Waitematā Harbour", "d": "Paddle a waka hourua — a Māori ocean-going canoe — on the Waitematā with the Te Toki Voyaging Trust, learning traditional star-and-swell navigation from the descendants of the Pacific's greatest wayfinders. A rare, hands-on cultural encounter on the water rather than a staged show.", "lat": -36.821227, "lon": 174.669807, "p": "a"}, {"n": "Waitomo Glowworm Caves (day trip)", "cat": "do", "tier": "", "a": "Waikato", "d": "About 2.5 hours south, a limestone cavern where you glide by boat beneath a ceiling of thousands of glowworms glimmering like a private galaxy — one of New Zealand's singular natural wonders. Best done as a private full-day drive, often combined with Hobbiton; the black-water rafting option is for the adventurous.", "lat": -36.876758, "lon": 174.840691, "p": "a"}, {"n": "Hobbiton Movie Set, Matamata (day trip)", "cat": "do", "tier": "", "a": "Waikato", "d": "Two hours south, the immaculately kept Shire from the Lord of the Rings and Hobbit films, forty-four hobbit holes set in green Waikato farmland, ending with a drink at the Green Dragon Inn. A joyful, easy day for film-lovers and children; a private car and guide beats the coach tours for pace.", "lat": -36.876758, "lon": 174.840691, "p": "a"}, {"n": "Coromandel Peninsula & Cathedral Cove (day trip)", "cat": "do", "tier": "", "a": "Coromandel", "d": "About two hours east, a coast of pōhutukawa-fringed coves crowned by the great natural rock arch of Cathedral Cove and the geothermal quirk of Hot Water Beach, where you dig your own warm spa in the sand. A long but rewarding day; helicopter transfer turns it into an effortless outing and avoids the winding roads.", "lat": -36.907061, "lon": 174.840944, "p": "a"}, {"n": "Rotorua Geothermal & Māori Culture (long day trip)", "cat": "do", "tier": "", "a": "Bay of Plenty", "d": "Around three hours south, the heart of Māori tourism and geothermal drama — bubbling mud, geysers, thermal spas and the living village of Whakarewarewa. It is a stretch as a single day, so most travellers stay a night; a helicopter or charter flight makes a day visit civilised.", "lat": -36.866096, "lon": 174.773733, "p": "a"}, {"n": "Bay of Islands (overnight-worthy trip)", "cat": "do", "tier": "", "a": "Northland", "d": "Roughly three hours north, a sub-tropical seascape of 144 islands, dolphin cruises, big-game fishing and the founding site of the nation at Waitangi. Truly it deserves an overnight, but a scenic flight or helicopter from Auckland can deliver a memorable single day of sailing and history.", "lat": -36.865215, "lon": 174.740328, "p": "a"}, {"n": "Scenic Helicopter Flight over the Hauraki Gulf", "cat": "do", "tier": "", "a": "Auckland / Hauraki Gulf", "d": "Lift off from the waterfront or Ardmore for a private flight over the skyline, Rangitoto's crater and the vineyards of Waiheke, landing for a cellar-door lunch or a remote beach. The most discreet and time-efficient way for a family to see the City of Sails and reach the gulf islands in style.", "lat": -36.706024, "lon": 175.091583, "p": "a"}, {"n": "Auckland Fish Market & Wynyard dining", "cat": "do", "tier": "", "a": "Wynyard Quarter", "d": "A working fish market turned food destination on the waterfront, with oyster bars, a sushi counter and cooking classes celebrating the day's catch from the Hauraki Gulf. A lively, casual counterpoint to the fine-dining rooms and a good place to understand New Zealand seafood.", "lat": -36.841335, "lon": 174.756259, "p": "v"}, {"n": "Paris Butter", "cat": "do", "tier": "", "a": "Herne Bay", "d": "One of Auckland's most refined tables, French technique applied to the best New Zealand produce across an ever-changing tasting menu in an elegant Herne Bay villa. The kind of hushed, special-occasion dinner discerning travellers seek; advise the kitchen of any vegetarian or Jain needs when booking.", "lat": -36.845437, "lon": 174.737035, "p": "v"}, {"n": "Sidart", "cat": "do", "tier": "", "a": "Ponsonby", "d": "Chef Sid Sahrawat's flagship degustation room above Ponsonby, a long-running standard-bearer for creative fine dining in the city with polished wine pairings and warm service. Sahrawat's Indian heritage runs through his kitchens, so it is a considered choice for Indian palates seeking a tasting-menu evening.", "lat": -36.852095, "lon": 174.76318, "p": "v"}, {"n": "Cassia", "cat": "do", "tier": "", "a": "City Centre", "d": "Sid Sahrawat's celebrated modern Indian restaurant, refined, contemporary cooking rooted in the subcontinent that has long topped Auckland's lists — a rare fine-dining Indian table of genuine ambition. Confirm the current location when booking, as the restaurant has relocated from its long-time SkyCity home.", "lat": -36.849337, "lon": 174.762273, "p": "v"}, {"n": "Auckland Zoo", "cat": "do", "tier": "", "a": "Western Springs", "d": "A well-regarded conservation zoo beside Western Springs park, with a night-time kiwi house where families can finally see New Zealand's shy national bird, plus native tuatara and a strong Australasian collection. An easy, shaded day for younger children.", "lat": -36.862569, "lon": 174.720847, "p": "v"}, {"n": "Albert Park & the University Quarter", "cat": "do", "tier": "", "a": "City Centre", "d": "A formal Victorian park of fountains, statues and flowerbeds set between the Art Gallery and the university, a green pause in the heart of the city. A pretty, unhurried stroll to link a museum morning with lunch on High Street.", "lat": -36.851968, "lon": 174.767901, "p": "v"}, {"n": "Motuihe & Motutapu Islands", "cat": "do", "tier": "", "a": "Hauraki Gulf", "d": "Quieter neighbours to Rangitoto and Waiheke, predator-free islands of white-sand bays and gentle walking tracks that see a fraction of the crowds. Ideal for a private boat picnic day when you want the gulf to yourselves.", "lat": -36.763348, "lon": 174.915576, "p": "v"}, {"n": "Caretaker", "cat": "party", "tier": "Cocktail bars", "a": "Britomart (City Centre)", "d": "A New York-inspired basement speakeasy beneath Britomart — no menu, just a host who reads you and pours the perfect drink, with live jazz early in the week.", "lat": -36.845136, "lon": 174.76946, "p": "v"}, {"n": "Deadshot", "cat": "party", "tier": "Cocktail bars", "a": "Britomart (City Centre)", "d": "Caretaker's cooler, moodier sibling — effortlessly stylish, seated-only and welcoming, where you are led in once a table is free.", "lat": -36.852095, "lon": 174.76318, "p": "v"}, {"n": "Panacea", "cat": "party", "tier": "Cocktail bars", "a": "City Centre", "d": "An inner-city cocktail kitchen and whisky bar with a sustainability ethos — inventive drinks and a serious spirits collection.", "lat": -36.847541, "lon": 174.76698, "p": "v"}, {"n": "Annabel's", "cat": "party", "tier": "Cocktail bars", "a": "Ponsonby (Ponsonby Road)", "d": "A relaxed, characterful Ponsonby bar with a chilled vibe — live music, wine launches and guest-chef pop-ups in a much-loved neighbourhood room.", "lat": -36.850336, "lon": 174.857584, "p": "v"}, {"n": "The Rooftop at QT", "cat": "party", "tier": "Rooftops", "a": "Viaduct Harbour (QT Auckland)", "d": "A glamorous rooftop terrace over the Viaduct marina — cocktails, colour and one of the best harbour views in the city.", "lat": -36.844784, "lon": 174.757182, "p": "v"}]}
+{
+  "center": [
+    -36.852095,
+    174.76318
+  ],
+  "venues": [
+    {
+      "n": "Park Hyatt Auckland",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Wynyard Quarter (waterfront)",
+      "d": "The country's most polished five-star house \u2014 a low, calm waterfront landmark on the Viaduct edge, with a 25-metre pool and the acclaimed Onemata dining room.",
+      "lat": -36.841906,
+      "lon": 174.758485,
+      "photos": []
+    },
+    {
+      "n": "The Hotel Britomart",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Britomart (City Centre)",
+      "d": "New Zealand's first 5 Green Star hotel \u2014 a warm, timber-lined design house in the heart of the Britomart dining and shopping precinct.",
+      "lat": -36.844862,
+      "lon": 174.768765,
+      "photos": []
+    },
+    {
+      "n": "SO/ Auckland",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Britomart / Customs Street (City Centre)",
+      "d": "Accor's fashion-led SO/ maison brand in a heritage tower \u2014 bold design, a rooftop bar and harbour views over the city edge.",
+      "lat": -36.845472,
+      "lon": 174.768539,
+      "photos": []
+    },
+    {
+      "n": "Cordis, Auckland",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Symonds Street (City Centre)",
+      "d": "A large, gracious five-star hotel by Langham Hospitality Group \u2014 a heated rooftop infinity pool, a serious spa and the celebrated Chef's dining.",
+      "lat": -36.857421,
+      "lon": 174.763627,
+      "photos": []
+    },
+    {
+      "n": "QT Auckland",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Viaduct Harbour",
+      "d": "A playful, art-filled design hotel on the Viaduct waterfront \u2014 colour, character and one of the city's liveliest rooftop bars.",
+      "lat": -36.845389,
+      "lon": 174.759674,
+      "photos": []
+    },
+    {
+      "n": "Hotel DeBrett",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "High Street (City Centre)",
+      "d": "A beloved boutique hotel in a restored 1925 Art Deco building \u2014 individually designed rooms and a buzzing courtyard bar in the heart of the city.",
+      "lat": -36.846777,
+      "lon": 174.767012,
+      "photos": []
+    },
+    {
+      "n": "The Grand by SkyCity",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Federal Street (City Centre)",
+      "d": "A grand five-star tower in the SkyCity precinct \u2014 home to Metita, the country's Hotel Restaurant of the Year, with a lap pool and spa.",
+      "lat": -36.849398,
+      "lon": 174.762563,
+      "photos": []
+    },
+    {
+      "n": "Sofitel Auckland Viaduct Harbour",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Viaduct Harbour",
+      "d": "A French-accented five-star on the marina's edge \u2014 waterfront suites, a heated pool and a graceful spa on the Viaduct.",
+      "lat": -36.844784,
+      "lon": 174.757182,
+      "photos": []
+    },
+    {
+      "n": "Ahi",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Commercial Bay (City Centre)",
+      "d": "Chef Ben Bayly's celebration of New Zealand producers \u2014 a refined, land-and-sea tasting menu that sits at the very top of the national game.",
+      "lat": -36.891373,
+      "lon": 174.720174,
+      "photos": []
+    },
+    {
+      "n": "Cocoro",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Ponsonby",
+      "d": "Chef Makoto Tokuyama's serene Japanese degustation \u2014 precise, seasonal and deeply personal, a perennial three-hat kitchen.",
+      "lat": -36.852095,
+      "lon": 174.76318,
+      "photos": []
+    },
+    {
+      "n": "Paris Butter",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Herne Bay",
+      "d": "French technique met with native New Zealand produce in a handsome villa \u2014 one of the most assured kitchens in the country.",
+      "lat": -36.845437,
+      "lon": 174.737035,
+      "photos": []
+    },
+    {
+      "n": "Tala",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "City Centre",
+      "d": "A modern Pacific and Middle-Eastern-inflected tasting menu that vaulted to the top tier \u2014 bold, generous and unmistakably its own.",
+      "lat": -36.855686,
+      "lon": 174.780219,
+      "photos": []
+    },
+    {
+      "n": "Sidart",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Ponsonby",
+      "d": "Sid Sahrawat's long-running degustation temple \u2014 inventive, technically dazzling cooking that has anchored the city's fine-dining scene for years.",
+      "lat": -36.852095,
+      "lon": 174.76318,
+      "photos": []
+    },
+    {
+      "n": "Kazuya",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Eden Terrace",
+      "d": "A unique fine-dining fusion marrying French technique with Japanese precision \u2014 intimate, exacting and quietly one of the city's best.",
+      "lat": -36.863188,
+      "lon": 174.760959,
+      "photos": []
+    },
+    {
+      "n": "Metita",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "The Grand, Federal Street (City Centre)",
+      "d": "Chef Michael Meredith's Pacific dining room in The Grand by SkyCity \u2014 the country's Hotel Restaurant of the Year, celebrating island flavours with polish.",
+      "lat": -36.852095,
+      "lon": 174.76318,
+      "photos": []
+    },
+    {
+      "n": "Farina",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Ponsonby (Ponsonby Road)",
+      "d": "Chef-owner Sergio Maglione's love letter to seafood, handmade pasta and Neapolitan pizza \u2014 Auckland's Metropolitan Restaurant of the Year.",
+      "lat": -36.851717,
+      "lon": 174.744655,
+      "photos": []
+    },
+    {
+      "n": "Culprit",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "City Centre (Wyndham Street)",
+      "d": "Kyle Street and Jordan MacDonald's inventive, produce-driven room \u2014 the supreme winner of the Viva Top 50, doing something entirely its own.",
+      "lat": -36.847301,
+      "lon": 174.765066,
+      "photos": []
+    },
+    {
+      "n": "Onslow",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "City Centre (Princes Street)",
+      "d": "Josh Emett's elegant all-day dining room in a heritage building \u2014 refined, seasonal cooking with impeccable service.",
+      "lat": -36.84768,
+      "lon": 174.769922,
+      "photos": []
+    },
+    {
+      "n": "Amano",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Britomart (City Centre)",
+      "d": "A vast, buzzing Italian brasserie and bakery in Britomart \u2014 house-made pasta, wood-fired cooking and all-day energy.",
+      "lat": -36.844336,
+      "lon": 174.770383,
+      "photos": []
+    },
+    {
+      "n": "Forest",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Mount Eden",
+      "d": "A tiny 17-seat room open just four evenings a week \u2014 Plabita Florence's intimate, personal cooking, named Metro's Restaurant of the Year.",
+      "lat": -36.871761,
+      "lon": 174.770132,
+      "photos": []
+    },
+    {
+      "n": "Kingi",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "The Hotel Britomart (City Centre)",
+      "d": "A sustainability-minded seafood room inside The Hotel Britomart \u2014 line-caught fish and shellfish, cooked simply and beautifully.",
+      "lat": -36.844993,
+      "lon": 174.768549,
+      "photos": []
+    },
+    {
+      "n": "Cazador",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Mount Eden (Dominion Road)",
+      "d": "A long-loved family-run room celebrating wild game and nose-to-tail cooking \u2014 characterful, honest and quietly excellent.",
+      "lat": -36.893917,
+      "lon": 174.745392,
+      "photos": []
+    },
+    {
+      "n": "Tempero",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "City Centre",
+      "d": "A vibrant Brazilian-rooted room celebrating live-fire and bold flavour \u2014 the country's Specialist Restaurant of the Year.",
+      "lat": -36.858059,
+      "lon": 174.757107,
+      "photos": []
+    },
+    {
+      "n": "Ap\u00e9ro",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Karangahape Road",
+      "d": "A cult natural-wine bar and bistro on K' Road \u2014 small, seasonal plates and one of the city's finest cellars.",
+      "lat": -36.857737,
+      "lon": 174.75825,
+      "photos": []
+    },
+    {
+      "n": "Sky Tower",
+      "cat": "do",
+      "tier": "",
+      "a": "City Centre",
+      "d": "Auckland's 328-metre spire and the tallest structure in the Southern Hemisphere, with three observation decks and glass floor panels that drop the eye straight to the street 186 metres below. On a clear day the view runs 80 kilometres over the Waitemat\u0101, the Hauraki Gulf islands and the ring of volcanic cones; take the family up at dusk for the city lighting up, then dine at the revolving Orbit 360 one floor down.",
+      "lat": -36.848463,
+      "lon": 174.762183,
+      "photos": []
+    },
+    {
+      "n": "SkyWalk & SkyJump at the Sky Tower",
+      "cat": "do",
+      "tier": "",
+      "a": "City Centre",
+      "d": "For the thrill-seeker in the family: a harnessed walk on a 1.2-metre ledge around the tower's rim at 192 metres with no handrails, or a wire-guided base-jump-style plunge at up to 85 km/h. Grandparents can watch in comfort from the observation deck while the teenagers step off the edge; both run on private timed slots.",
+      "lat": -36.848911,
+      "lon": 174.765226,
+      "photos": []
+    },
+    {
+      "n": "Auckland War Memorial Museum (T\u0101maki Paenga Hira)",
+      "cat": "do",
+      "tier": "",
+      "a": "Auckland Domain",
+      "d": "A neoclassical temple crowning the Domain, holding the world's finest collection of M\u0101ori and Pacific treasures alongside a carved meeting house and a full-sized war canoe. Book the twice-daily M\u0101ori cultural performance of song, haka and story for a dignified, multi-generational introduction to the culture of the land, then take tea on the terrace over the harbour.",
+      "lat": -36.860756,
+      "lon": 174.77781,
+      "photos": []
+    },
+    {
+      "n": "Auckland Art Gallery Toi o T\u0101maki",
+      "cat": "do",
+      "tier": "",
+      "a": "City Centre",
+      "d": "New Zealand's oldest and largest art institution, with a soaring kauri-canopy roof over 17,000 works spanning European masters, contemporary New Zealand painting and a moving room of M\u0101ori ancestral portraits by Goldie and Lindauer. Entry to the permanent collection is free and it sits at the edge of Albert Park, an easy, cultured hour for any age.",
+      "lat": -36.851261,
+      "lon": 174.766371,
+      "photos": []
+    },
+    {
+      "n": "Viaduct Harbour",
+      "cat": "do",
+      "tier": "",
+      "a": "Viaduct",
+      "d": "The former America's Cup basin, now a ring of superyachts, waterside restaurants and champagne bars where Auckland comes to be seen. It is the natural place to base an evening on the water and the departure point for private charters and the America's Cup sailing yachts.",
+      "lat": -36.843204,
+      "lon": 174.760683,
+      "photos": []
+    },
+    {
+      "n": "Wynyard Quarter & Silo Park",
+      "cat": "do",
+      "tier": "",
+      "a": "Wynyard Quarter",
+      "d": "A reclaimed industrial waterfront turned promenade of playgrounds, seafood restaurants and the landmark red Silo Park, with summer outdoor cinema and night markets among the old cement silos. A relaxed, stroller-friendly stretch to walk off dinner as the harbour lights come on.",
+      "lat": -36.839834,
+      "lon": 174.754785,
+      "photos": []
+    },
+    {
+      "n": "America's Cup Sailing on the Waitemat\u0101",
+      "cat": "do",
+      "tier": "",
+      "a": "Viaduct",
+      "d": "Take the helm or simply recline on the rail of a genuine former America's Cup grand-prix racing yacht as it heels across the harbour past the Harbour Bridge and skyline. No experience needed and the whole family can crew or watch; private full-boat charters make it a discreet, unforgettable two hours on the City of Sails.",
+      "lat": -36.84057,
+      "lon": 174.759408,
+      "photos": []
+    },
+    {
+      "n": "Auckland Harbour Bridge Climb",
+      "cat": "do",
+      "tier": "",
+      "a": "Northcote / Harbour",
+      "d": "A guided harnessed walk up the arch of the 1959 road bridge to the summit at 65 metres, with the Waitemat\u0101, the yachts and Rangitoto laid out beneath you. There is also a bungy off a purpose-built pod for the daring; the climb itself is a gentle, steady ascent suitable for confident older children and grandparents alike.",
+      "lat": -36.829285,
+      "lon": 174.746542,
+      "photos": []
+    },
+    {
+      "n": "Mission Bay & Tamaki Drive",
+      "cat": "do",
+      "tier": "",
+      "a": "Mission Bay",
+      "d": "Auckland's most beloved seaside promenade, a golden crescent of beach with an Art Deco fountain, gelato and waterfront caf\u00e9s looking straight across to Rangitoto. Drive or cycle the full sweep of Tamaki Drive past the yacht basins for the classic City of Sails afternoon; easy and safe for all ages.",
+      "lat": -36.848287,
+      "lon": 174.831409,
+      "photos": []
+    },
+    {
+      "n": "Bastion Point & the Michael Joseph Savage Memorial",
+      "cat": "do",
+      "tier": "",
+      "a": "\u014cr\u0101kei",
+      "d": "A clifftop of consecrated ground above Tamaki Drive, its Art Deco obelisk and formal gardens giving a sweeping panorama over the harbour to Rangitoto. It is also one of the most significant sites in modern M\u0101ori history, scene of the 506-day 1977\u201378 land occupation; a quiet, contemplative stop with a story worth a guide.",
+      "lat": -36.866982,
+      "lon": 174.813862,
+      "photos": []
+    },
+    {
+      "n": "Maungawhau / Mount Eden",
+      "cat": "do",
+      "tier": "",
+      "a": "Mount Eden",
+      "d": "Auckland's highest volcanic cone at 196 metres, with a perfect grassy crater at the top and a full 360-degree sweep of the isthmus and both harbours. Walking to the summit is protected as an ancestral maunga, but the reward is the definitive view of the volcanic city; keep to the paths as the crater is sacred.",
+      "lat": -36.876205,
+      "lon": 174.764606,
+      "photos": []
+    },
+    {
+      "n": "Maungakiekie / One Tree Hill & Cornwall Park",
+      "cat": "do",
+      "tier": "",
+      "a": "One Tree Hill",
+      "d": "A 182-metre cone crowned by an obelisk and ringed by the largest pre-European earthwork fortifications on earth, set in the gifted parkland of Cornwall Park with grazing sheep and centenarian oaks. A gentle drive or walk to the summit and a picnic under the trees make an idyllic, unhurried family morning.",
+      "lat": -36.896783,
+      "lon": 174.786859,
+      "photos": []
+    },
+    {
+      "n": "Auckland Domain & the Wintergardens",
+      "cat": "do",
+      "tier": "",
+      "a": "Auckland Domain",
+      "d": "The city's oldest park, spread over an ancient volcano, with the Wintergardens' twin Edwardian glasshouses of tropical and cool-climate blooms and a fern-filled sunken quarry. A serene, shaded stroll that pairs naturally with the Museum on the same hill.",
+      "lat": -36.860246,
+      "lon": 174.774234,
+      "photos": []
+    },
+    {
+      "n": "Karangahape Road (K' Road)",
+      "cat": "do",
+      "tier": "",
+      "a": "K' Road",
+      "d": "Auckland's most characterful strip, a mile of vintage stores, galleries, tiny wine bars and cuisines from Malaysian to modern Brazilian, named among the world's coolest streets by Time Out. Go for the atmosphere and the food rather than luxury shopping; it is bohemian, alive and refreshingly unpolished.",
+      "lat": -36.857975,
+      "lon": 174.762308,
+      "photos": []
+    },
+    {
+      "n": "Ponsonby Road",
+      "cat": "do",
+      "tier": "",
+      "a": "Ponsonby",
+      "d": "Nicknamed 'the dining room of Auckland', a village high street of Victorian villas turned into the city's densest run of good restaurants, caf\u00e9s and design boutiques, anchored by the food-hall energy of Ponsonby Central. The place to spend a leisurely lunch and afternoon; several kitchens handle vegetarian and Indian palates well.",
+      "lat": -36.859688,
+      "lon": 174.752688,
+      "photos": []
+    },
+    {
+      "n": "Britomart Precinct",
+      "cat": "do",
+      "tier": "",
+      "a": "Britomart",
+      "d": "The sleekest quarter of the central city, a cluster of restored heritage warehouses now holding New Zealand designer boutiques, top restaurants and the design-led Hotel Britomart, steps from the ferry terminal. The natural base for a stylish, walkable stay and a Saturday morning market.",
+      "lat": -36.846626,
+      "lon": 174.774589,
+      "photos": []
+    },
+    {
+      "n": "SEA LIFE Kelly Tarlton's Aquarium",
+      "cat": "do",
+      "tier": "",
+      "a": "\u014cr\u0101kei",
+      "d": "Built into old harbourside sewage tanks by a New Zealand diving pioneer, with curved underwater tunnels of sharks and stingrays and an Antarctic ice enclosure of penguins. A reliable, weather-proof couple of hours that delights younger children on Tamaki Drive.",
+      "lat": -36.846203,
+      "lon": 174.81717,
+      "photos": []
+    },
+    {
+      "n": "New Zealand Maritime Museum (Hui Te Ananui a Tangaroa)",
+      "cat": "do",
+      "tier": "",
+      "a": "Viaduct",
+      "d": "On Hobson Wharf beside the Viaduct, tracing the ocean story from the first Polynesian voyagers to America's Cup glory, with heritage vessels moored outside that still sail the harbour. A short guided sail on a classic scow or steamer is the highlight for a maritime-minded family.",
+      "lat": -36.841532,
+      "lon": 174.763396,
+      "photos": []
+    },
+    {
+      "n": "Waiheke Island \u2014 vineyards, beaches & Oneroa",
+      "cat": "do",
+      "tier": "",
+      "a": "Hauraki Gulf",
+      "d": "A 40-minute ferry to a warmer, sunnier island of forty white-sand beaches and world-class vineyards, where cellar doors like Mudbrick, Cable Bay and Stonyridge serve Bordeaux-style reds over Hauraki Gulf views back to the skyline. The essential Auckland day trip; a private driver-guide or helicopter transfer lets multi-generational groups linger over long lunches without watching the clock.",
+      "lat": -36.785133,
+      "lon": 175.019071,
+      "photos": []
+    },
+    {
+      "n": "Mudbrick Vineyard",
+      "cat": "do",
+      "tier": "",
+      "a": "Waiheke Island",
+      "d": "On Waiheke's northern tip, a rose-garden estate with sweeping Hauraki Gulf views to the Auckland skyline, a celebrated restaurant and cottages for those who want to stay the night. The most photographed cellar door on the island and a favourite for a special-occasion lunch.",
+      "lat": -36.792245,
+      "lon": 175.000241,
+      "photos": []
+    },
+    {
+      "n": "Man O' War Vineyards",
+      "cat": "do",
+      "tier": "",
+      "a": "Waiheke Island",
+      "d": "At the wild eastern end of Waiheke, a beachfront tasting room reached by a scenic drive through the island's largest private estate, pouring single-vineyard wines feet from the sand. Remote and unhurried; charter a boat or helicopter in for the most discreet arrival.",
+      "lat": -36.785677,
+      "lon": 175.1543,
+      "photos": []
+    },
+    {
+      "n": "Rangitoto Island Summit Track",
+      "cat": "do",
+      "tier": "",
+      "a": "Hauraki Gulf",
+      "d": "The perfect volcanic cone that frames every Auckland postcard, a 600-year-old island reached by a 25-minute ferry, climbed in about an hour through the world's largest p\u014dhutukawa forest and black lava fields to a 259-metre crater rim. The summit view over the gulf and city is superb; bring a torch for the lava caves and sun protection for the exposed scoria.",
+      "lat": -36.786106,
+      "lon": 174.861134,
+      "photos": []
+    },
+    {
+      "n": "Tiritiri Matangi Island Open Sanctuary",
+      "cat": "do",
+      "tier": "",
+      "a": "Hauraki Gulf",
+      "d": "One of the world's great conservation successes, a predator-free island where you walk among some of New Zealand's rarest birds in the wild \u2014 takah\u0113, k\u014dkako, saddleback and stitchbird \u2014 that exist almost nowhere else so freely. A guided day with an island volunteer is a quiet privilege for nature-lovers; the ferry runs only Wednesday to Sunday, so book ahead.",
+      "lat": -36.600131,
+      "lon": 174.889141,
+      "photos": []
+    },
+    {
+      "n": "Devonport & Mount Victoria",
+      "cat": "do",
+      "tier": "",
+      "a": "Devonport",
+      "d": "A 12-minute ferry to a genteel Victorian seaside village of bookshops, caf\u00e9s and colonial villas, with the little cone of Mount Victoria offering a postcard view straight back to the city skyline. An effortless, charming half-day that even the least mobile of the party can enjoy from the waterfront.",
+      "lat": -36.826467,
+      "lon": 174.798926,
+      "photos": []
+    },
+    {
+      "n": "North Head (Maungauika)",
+      "cat": "do",
+      "tier": "",
+      "a": "Devonport",
+      "d": "A headland cone above Devonport honeycombed with Victorian coastal-defence tunnels and gun emplacements, guarding the harbour entrance with commanding views over the gulf. A gentle walk-up with just enough history and dark passages to intrigue children.",
+      "lat": -36.827709,
+      "lon": 174.812357,
+      "photos": []
+    },
+    {
+      "n": "Wait\u0101kere Ranges Regional Park",
+      "cat": "do",
+      "tier": "",
+      "a": "West Auckland",
+      "d": "Sixteen thousand hectares of native rainforest, kauri stands and waterfalls dropping to the wild west coast, half an hour from the city. Note that a kauri-dieback protection programme has closed many forest tracks \u2014 go with a guide who knows what is open, and always use the boot-cleaning stations to protect the ancient trees.",
+      "lat": -36.957568,
+      "lon": 174.570199,
+      "photos": []
+    },
+    {
+      "n": "Piha Beach",
+      "cat": "do",
+      "tier": "",
+      "a": "West Coast",
+      "d": "The most famous of Auckland's black-sand surf beaches, a dramatic ironsand crescent guarded by the great hulk of Lion Rock and pounded by Tasman swell. Wild, cinematic and beautiful \u2014 but the rips are serious, so swim only between the summer patrol flags and consider it a place to watch the surf rather than brave it.",
+      "lat": -36.944272,
+      "lon": 174.463398,
+      "photos": []
+    },
+    {
+      "n": "Karekare Beach",
+      "cat": "do",
+      "tier": "",
+      "a": "West Coast",
+      "d": "The most secluded of the west-coast beaches, reached through rainforest and a stream crossing, its vast empty ironsand made famous as the setting of the Oscar-winning film The Piano. Utterly atmospheric and almost always deserted; there are no facilities, so come prepared.",
+      "lat": -36.988629,
+      "lon": 174.473205,
+      "photos": []
+    },
+    {
+      "n": "Muriwai Beach & the Gannet Colony",
+      "cat": "do",
+      "tier": "",
+      "a": "West Coast",
+      "d": "A rugged black-sand coast where, from August to March, some 1,200 Australasian gannets nest on the clifftop at \u014ctakamiro Point within metres of easy viewing platforms \u2014 an extraordinary wildlife spectacle with no effort required. Pair it with lunch at the nearby winery for a full west-coast morning.",
+      "lat": -36.833297,
+      "lon": 174.424292,
+      "photos": []
+    },
+    {
+      "n": "Hunua Falls",
+      "cat": "do",
+      "tier": "",
+      "a": "H\u016bnua Ranges",
+      "d": "A 30-metre waterfall spilling into a bush-fringed pool in the H\u016bnua Ranges, under an hour southeast of the city and far quieter than the western beaches. A short, easy path and a picnic make it a gentle escape into native forest; check current track status before you go.",
+      "lat": -37.06878,
+      "lon": 175.089753,
+      "photos": []
+    },
+    {
+      "n": "Matakana Village & Wine Country",
+      "cat": "do",
+      "tier": "",
+      "a": "Matakana Coast",
+      "d": "An hour north, a village of boutique galleries, a beloved Saturday farmers' market and a cluster of small wineries such as Brick Bay, whose sculpture trail winds through native bush and ponds. A civilised, low-key alternative to Waiheke for a day among vines, art and artisan food.",
+      "lat": -36.342635,
+      "lon": 174.734395,
+      "photos": []
+    },
+    {
+      "n": "T\u0101wharanui Regional Park",
+      "cat": "do",
+      "tier": "",
+      "a": "Matakana Coast",
+      "d": "An open sanctuary on a peninsula north of the city, ringing white-sand Anchor Bay with predator-proof fencing so that takah\u0113 roam the grassland and kiwi call at night. Among the finest beaches in the Auckland region and blissfully uncrowded on a weekday.",
+      "lat": -36.369247,
+      "lon": 174.853948,
+      "photos": []
+    },
+    {
+      "n": "Goat Island Marine Reserve",
+      "cat": "do",
+      "tier": "",
+      "a": "Matakana Coast",
+      "d": "New Zealand's first no-take marine reserve, established in 1975 near Leigh, where snapper, crayfish and rays crowd the shallows for snorkellers and a glass-bottomed boat. A rewarding half-day for families who want to see the sea life without diving; go on a calm, offshore-wind day for clear water.",
+      "lat": -36.349647,
+      "lon": 174.71478,
+      "photos": []
+    },
+    {
+      "n": "Te Hana Te Ao Marama Cultural Centre",
+      "cat": "do",
+      "tier": "",
+      "a": "North of Auckland",
+      "d": "An hour north, Auckland's leading M\u0101ori cultural centre, where a traditional welcome, a guided walk through a replica fortified p\u0101, a kapa haka performance and a h\u0101ng\u012b earth-oven feast give a genuine, unhurried immersion. Arranged as a private group visit it is a dignified highlight for multi-generational travellers.",
+      "lat": -36.8743,
+      "lon": 174.74493,
+      "photos": []
+    },
+    {
+      "n": "Waka Voyaging Experience",
+      "cat": "do",
+      "tier": "",
+      "a": "Waitemat\u0101 Harbour",
+      "d": "Paddle a waka hourua \u2014 a M\u0101ori ocean-going canoe \u2014 on the Waitemat\u0101 with the Te Toki Voyaging Trust, learning traditional star-and-swell navigation from the descendants of the Pacific's greatest wayfinders. A rare, hands-on cultural encounter on the water rather than a staged show.",
+      "lat": -36.821227,
+      "lon": 174.669807,
+      "photos": []
+    },
+    {
+      "n": "Waitomo Glowworm Caves (day trip)",
+      "cat": "do",
+      "tier": "",
+      "a": "Waikato",
+      "d": "About 2.5 hours south, a limestone cavern where you glide by boat beneath a ceiling of thousands of glowworms glimmering like a private galaxy \u2014 one of New Zealand's singular natural wonders. Best done as a private full-day drive, often combined with Hobbiton; the black-water rafting option is for the adventurous.",
+      "lat": -36.876758,
+      "lon": 174.840691,
+      "photos": []
+    },
+    {
+      "n": "Hobbiton Movie Set, Matamata (day trip)",
+      "cat": "do",
+      "tier": "",
+      "a": "Waikato",
+      "d": "Two hours south, the immaculately kept Shire from the Lord of the Rings and Hobbit films, forty-four hobbit holes set in green Waikato farmland, ending with a drink at the Green Dragon Inn. A joyful, easy day for film-lovers and children; a private car and guide beats the coach tours for pace.",
+      "lat": -36.876758,
+      "lon": 174.840691,
+      "photos": []
+    },
+    {
+      "n": "Coromandel Peninsula & Cathedral Cove (day trip)",
+      "cat": "do",
+      "tier": "",
+      "a": "Coromandel",
+      "d": "About two hours east, a coast of p\u014dhutukawa-fringed coves crowned by the great natural rock arch of Cathedral Cove and the geothermal quirk of Hot Water Beach, where you dig your own warm spa in the sand. A long but rewarding day; helicopter transfer turns it into an effortless outing and avoids the winding roads.",
+      "lat": -36.907061,
+      "lon": 174.840944,
+      "photos": []
+    },
+    {
+      "n": "Rotorua Geothermal & M\u0101ori Culture (long day trip)",
+      "cat": "do",
+      "tier": "",
+      "a": "Bay of Plenty",
+      "d": "Around three hours south, the heart of M\u0101ori tourism and geothermal drama \u2014 bubbling mud, geysers, thermal spas and the living village of Whakarewarewa. It is a stretch as a single day, so most travellers stay a night; a helicopter or charter flight makes a day visit civilised.",
+      "lat": -36.866096,
+      "lon": 174.773733,
+      "photos": []
+    },
+    {
+      "n": "Bay of Islands (overnight-worthy trip)",
+      "cat": "do",
+      "tier": "",
+      "a": "Northland",
+      "d": "Roughly three hours north, a sub-tropical seascape of 144 islands, dolphin cruises, big-game fishing and the founding site of the nation at Waitangi. Truly it deserves an overnight, but a scenic flight or helicopter from Auckland can deliver a memorable single day of sailing and history.",
+      "lat": -36.865215,
+      "lon": 174.740328,
+      "photos": []
+    },
+    {
+      "n": "Scenic Helicopter Flight over the Hauraki Gulf",
+      "cat": "do",
+      "tier": "",
+      "a": "Auckland / Hauraki Gulf",
+      "d": "Lift off from the waterfront or Ardmore for a private flight over the skyline, Rangitoto's crater and the vineyards of Waiheke, landing for a cellar-door lunch or a remote beach. The most discreet and time-efficient way for a family to see the City of Sails and reach the gulf islands in style.",
+      "lat": -36.706024,
+      "lon": 175.091583,
+      "photos": []
+    },
+    {
+      "n": "Auckland Fish Market & Wynyard dining",
+      "cat": "do",
+      "tier": "",
+      "a": "Wynyard Quarter",
+      "d": "A working fish market turned food destination on the waterfront, with oyster bars, a sushi counter and cooking classes celebrating the day's catch from the Hauraki Gulf. A lively, casual counterpoint to the fine-dining rooms and a good place to understand New Zealand seafood.",
+      "lat": -36.841335,
+      "lon": 174.756259,
+      "photos": []
+    },
+    {
+      "n": "Paris Butter",
+      "cat": "do",
+      "tier": "",
+      "a": "Herne Bay",
+      "d": "One of Auckland's most refined tables, French technique applied to the best New Zealand produce across an ever-changing tasting menu in an elegant Herne Bay villa. The kind of hushed, special-occasion dinner discerning travellers seek; advise the kitchen of any vegetarian or Jain needs when booking.",
+      "lat": -36.845437,
+      "lon": 174.737035,
+      "photos": []
+    },
+    {
+      "n": "Sidart",
+      "cat": "do",
+      "tier": "",
+      "a": "Ponsonby",
+      "d": "Chef Sid Sahrawat's flagship degustation room above Ponsonby, a long-running standard-bearer for creative fine dining in the city with polished wine pairings and warm service. Sahrawat's Indian heritage runs through his kitchens, so it is a considered choice for Indian palates seeking a tasting-menu evening.",
+      "lat": -36.852095,
+      "lon": 174.76318,
+      "photos": []
+    },
+    {
+      "n": "Cassia",
+      "cat": "do",
+      "tier": "",
+      "a": "City Centre",
+      "d": "Sid Sahrawat's celebrated modern Indian restaurant, refined, contemporary cooking rooted in the subcontinent that has long topped Auckland's lists \u2014 a rare fine-dining Indian table of genuine ambition. Confirm the current location when booking, as the restaurant has relocated from its long-time SkyCity home.",
+      "lat": -36.849337,
+      "lon": 174.762273,
+      "photos": []
+    },
+    {
+      "n": "Auckland Zoo",
+      "cat": "do",
+      "tier": "",
+      "a": "Western Springs",
+      "d": "A well-regarded conservation zoo beside Western Springs park, with a night-time kiwi house where families can finally see New Zealand's shy national bird, plus native tuatara and a strong Australasian collection. An easy, shaded day for younger children.",
+      "lat": -36.862569,
+      "lon": 174.720847,
+      "photos": []
+    },
+    {
+      "n": "Albert Park & the University Quarter",
+      "cat": "do",
+      "tier": "",
+      "a": "City Centre",
+      "d": "A formal Victorian park of fountains, statues and flowerbeds set between the Art Gallery and the university, a green pause in the heart of the city. A pretty, unhurried stroll to link a museum morning with lunch on High Street.",
+      "lat": -36.851968,
+      "lon": 174.767901,
+      "photos": []
+    },
+    {
+      "n": "Motuihe & Motutapu Islands",
+      "cat": "do",
+      "tier": "",
+      "a": "Hauraki Gulf",
+      "d": "Quieter neighbours to Rangitoto and Waiheke, predator-free islands of white-sand bays and gentle walking tracks that see a fraction of the crowds. Ideal for a private boat picnic day when you want the gulf to yourselves.",
+      "lat": -36.763348,
+      "lon": 174.915576,
+      "photos": []
+    },
+    {
+      "n": "Caretaker",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Britomart (City Centre)",
+      "d": "A New York-inspired basement speakeasy beneath Britomart \u2014 no menu, just a host who reads you and pours the perfect drink, with live jazz early in the week.",
+      "lat": -36.845136,
+      "lon": 174.76946,
+      "photos": []
+    },
+    {
+      "n": "Deadshot",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Britomart (City Centre)",
+      "d": "Caretaker's cooler, moodier sibling \u2014 effortlessly stylish, seated-only and welcoming, where you are led in once a table is free.",
+      "lat": -36.852095,
+      "lon": 174.76318,
+      "photos": []
+    },
+    {
+      "n": "Panacea",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "City Centre",
+      "d": "An inner-city cocktail kitchen and whisky bar with a sustainability ethos \u2014 inventive drinks and a serious spirits collection.",
+      "lat": -36.847541,
+      "lon": 174.76698,
+      "photos": []
+    },
+    {
+      "n": "Annabel's",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Ponsonby (Ponsonby Road)",
+      "d": "A relaxed, characterful Ponsonby bar with a chilled vibe \u2014 live music, wine launches and guest-chef pop-ups in a much-loved neighbourhood room.",
+      "lat": -36.850336,
+      "lon": 174.857584,
+      "photos": []
+    },
+    {
+      "n": "The Rooftop at QT",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "Viaduct Harbour (QT Auckland)",
+      "d": "A glamorous rooftop terrace over the Viaduct marina \u2014 cocktails, colour and one of the best harbour views in the city.",
+      "lat": -36.844784,
+      "lon": 174.757182,
+      "photos": []
+    }
+  ]
+}

@@ -1,1 +1,858 @@
-{"center": [38.707751, -9.136592], "venues": [{"n": "Four Seasons Hotel Ritz Lisbon", "cat": "stay", "tier": "Ultra", "a": "Avenida da Liberdade / Marquês de Pombal", "d": "The capital's defining grand hotel — a 1950s palace of Louis XVI and Art Deco rooms, above the city on the edge of the Liberdade.", "lat": 38.725893, "lon": -9.155095, "p": "v"}, {"n": "The One Palácio da Anunciada", "cat": "stay", "tier": "Grand", "a": "Avenida da Liberdade", "d": "A restored 16th-century palace on the Liberdade — gardens, a rooftop pool and quiet grandeur in the city's most exclusive quarter.", "lat": 38.717315, "lon": -9.141238, "p": "v"}, {"n": "Bairro Alto Hotel", "cat": "stay", "tier": "Grand", "a": "Chiado / Bairro Alto", "d": "An 18th-century house on Praça Luís de Camões, restored by Pritzker laureate Eduardo Souto de Moura — the cultural heart of the city.", "lat": 38.710285, "lon": -9.143282, "p": "v"}, {"n": "Santiago de Alfama — Boutique Hotel", "cat": "stay", "tier": "Luxury", "a": "Alfama", "d": "A 15th-century palace woven into the oldest quarter, below São Jorge Castle — intimate, characterful, deeply Lisbon.", "lat": 38.71345, "lon": -9.127727, "p": "v"}, {"n": "Sublime Lisboa", "cat": "stay", "tier": "Luxury", "a": "Amoreiras", "d": "A design-forward 15-room townhouse in a leafy residential quarter — wellness-led, private and quietly indulgent.", "lat": 38.734579, "lon": -9.155617, "p": "v"}, {"n": "Pousada de Lisboa, Praça do Comércio", "cat": "stay", "tier": "Luxury", "a": "Baixa (Praça do Comércio)", "d": "A former royal ministry on the grand riverfront square — heritage rooms opening straight onto the Tagus and the Baixa.", "lat": 38.707793, "lon": -9.136554, "p": "v"}, {"n": "Palácio Ludovice Wine Experience Hotel", "cat": "stay", "tier": "Luxury", "a": "Bairro Alto / São Roque", "d": "A restored baroque palace by the architect of Mafra's basilica — a wine-led house of real character above the old town.", "lat": 38.714271, "lon": -9.145661, "p": "a"}, {"n": "Art Legacy Hotel Baixa-Chiado", "cat": "stay", "tier": "Premium", "a": "Baixa / Chiado", "d": "A polished, design-led house on the seam of Baixa and Chiado — art-forward and impeccably placed for the historic centre.", "lat": 38.710707, "lon": -9.14187, "p": "v"}, {"n": "Brown's Avenue Hotel", "cat": "stay", "tier": "Premium", "a": "Baixa (Rua da Assunção)", "d": "A well-run boutique house in the heart of the Baixa grid — quietly stylish and steps from Rossio and the river.", "lat": 38.737702, "lon": -9.133558, "p": "v"}, {"n": "Belcanto", "cat": "eat", "tier": "Destination", "a": "Chiado", "d": "José Avillez's theatre of contemporary Portuguese cooking — the country's most celebrated table, and one of the world's finest.", "lat": 38.710061, "lon": -9.141488, "p": "v"}, {"n": "Alma", "cat": "eat", "tier": "Destination", "a": "Chiado", "d": "Henrique Sá Pessoa's two-star room — Portuguese produce with an Asian hand, precise and generous in equal measure.", "lat": 38.71022, "lon": -9.141111, "p": "v"}, {"n": "Encanto", "cat": "eat", "tier": "Destination", "a": "Chiado", "d": "José Avillez's all-vegetable fine-dining room beside Belcanto — a starred, sustainability-led ode to Portuguese produce.", "lat": 38.709939, "lon": -9.141471, "p": "v"}, {"n": "CURA", "cat": "eat", "tier": "Destination", "a": "Avenida da Liberdade (Four Seasons Ritz)", "d": "Pedro Pena Bastos's minimalist, produce-led cooking inside the Ritz — refined, seasonal, quietly confident.", "lat": 38.749937, "lon": -9.192074, "p": "v"}, {"n": "Loco", "cat": "eat", "tier": "Destination", "a": "Estrela / Lapa", "d": "Alexandre Silva's open-kitchen counter beside the Basílica da Estrela — sixteen surprising 'moments' of new Portuguese cooking.", "lat": 38.713298, "lon": -9.136397, "p": "v"}, {"n": "Epur", "cat": "eat", "tier": "Fine", "a": "Chiado", "d": "Vincent Farges's pared-back room above the river — French precision and Portuguese produce, with one of the city's best views.", "lat": 38.708725, "lon": -9.139788, "p": "v"}, {"n": "Feitoria", "cat": "eat", "tier": "Fine", "a": "Belém", "d": "A refined, ingredient-led kitchen on the Belém waterfront — elegant Portuguese cooking beside the great monuments.", "lat": 38.693057, "lon": -9.21071, "p": "v"}, {"n": "Kabuki Lisboa", "cat": "eat", "tier": "Fine", "a": "Avenida da Liberdade (Ritz Galerias)", "d": "Japanese-Mediterranean cooking of real finesse — the Madrid group's Lisbon star, all clean lines and precise fish.", "lat": 38.725519, "lon": -9.154253, "p": "v"}, {"n": "Kanazawa", "cat": "eat", "tier": "Fine", "a": "Belém", "d": "Paulo Morais's eight-seat kaiseki counter — Lisbon's most serious, meticulous Japanese room.", "lat": 38.698023, "lon": -9.22574, "p": "v"}, {"n": "Fifty Seconds", "cat": "eat", "tier": "Fine", "a": "Parque das Nações (Vasco da Gama Tower)", "d": "Rui Silvestre's cooking at the top of Lisbon's tallest tower — a glass room over the river and the 25 de Abril skyline.", "lat": 38.774749, "lon": -9.091398, "p": "v"}, {"n": "Eleven", "cat": "eat", "tier": "Fine", "a": "São Sebastião", "d": "Joachim Koerper's long-held star above the Edward VII Park — classical technique and a commanding view down to the river.", "lat": 38.730775, "lon": -9.1558, "p": "v"}, {"n": "SÁLA", "cat": "eat", "tier": "Fine", "a": "Baixa (Rua dos Bacalhoeiros)", "d": "João Sá's personal, well-travelled cooking — Portuguese roots threaded with Indian, African, Brazilian and Thai notes.", "lat": 38.709105, "lon": -9.1339, "p": "v"}, {"n": "100 Maneiras", "cat": "eat", "tier": "Fine", "a": "Bairro Alto", "d": "Ljubomir Stanisic's spirited tasting menu in the Bairro Alto — bold, narrative cooking with a dedicated vegetarian menu.", "lat": 38.714659, "lon": -9.144858, "p": "v"}, {"n": "Marlene", "cat": "eat", "tier": "Fine", "a": "Parque das Nações", "d": "Marlene Vieira's first star — assured, contemporary Portuguese cooking from one of the country's most respected chefs.", "lat": 38.690411, "lon": -9.333381, "p": "v"}, {"n": "2 Monkeys", "cat": "eat", "tier": "Fine", "a": "Príncipe Real", "d": "A fourteen-seat, fourteen-course counter — intimate, precise cooking and one of Lisbon's newest stars.", "lat": 38.735592, "lon": -9.158765, "p": "v"}, {"n": "Grenache", "cat": "eat", "tier": "Fine", "a": "Alcântara", "d": "A wine-led star with a seasonal tasting menu — cooking built around an exceptional cellar.", "lat": 38.712436, "lon": -9.131601, "p": "v"}, {"n": "Canalha", "cat": "eat", "tier": "Smart", "a": "Belém", "d": "João Rodrigues's neighbourhood bistro on the edge of Belém — simple, superb Portuguese produce, made for sharing.", "lat": 38.697397, "lon": -9.193712, "p": "v"}, {"n": "Pigmeu", "cat": "eat", "tier": "Smart", "a": "Campo de Ourique", "d": "A snout-to-tail ode to Portuguese pork — crackling, croquettes and the famed bifana, done with real craft.", "lat": 38.707066, "lon": -9.145649, "p": "v"}, {"n": "O Frade", "cat": "eat", "tier": "Smart", "a": "Belém", "d": "A warm Alentejo tavern around a U-shaped counter — wholesome petiscos and duck rice, shared shoulder to shoulder.", "lat": 38.707148, "lon": -9.146182, "p": "v"}, {"n": "Ofício", "cat": "eat", "tier": "Smart", "a": "Baixa / Cais do Sodré", "d": "An unconventional gastrobar — a modern tasco built for sharing plates in a laid-back room.", "lat": 38.712434, "lon": -9.142632, "p": "v"}, {"n": "Zunzum Gastrobar", "cat": "eat", "tier": "Smart", "a": "Cais do Sodré (Time Out Market area)", "d": "Marlene Vieira's playful gastrobar — classic Portuguese dishes given a daring, contemporary turn.", "lat": 38.711788, "lon": -9.124353, "p": "v"}, {"n": "Cervejaria Ramiro", "cat": "eat", "tier": "Smart", "a": "Intendente / Anjos", "d": "Lisbon's great seafood institution since the 1950s — prawns, spider crab, oysters and the famous prego, in cheerful chaos.", "lat": 38.720198, "lon": -9.135706, "p": "v"}, {"n": "Jerónimos Monastery (Mosteiro dos Jerónimos)", "cat": "do", "tier": "", "a": "Belém", "d": "The masterpiece of Portugal's Manueline style, built with the wealth of the sea route to India that Vasco da Gama opened — his tomb lies just inside the door. The vast cloister, all carved rope, coral and armillary spheres, rewards a slow, unhurried walk; go early or book a timed entry to be ahead of the coaches. A logical first stop, and steps from the custard tarts.", "lat": 38.698008, "lon": -9.205744, "p": "v"}, {"n": "Belém Tower (Torre de Belém / Torre de São Vicente)", "cat": "do", "tier": "", "a": "Belém", "d": "The little limestone fortress standing in the Tagus was the ceremonial gateway from which the great voyages of discovery set out, and it remains the postcard image of Lisbon. The Manueline carving — rope motifs, a stone rhinoceros — is best seen from the riverside walk; the interior is cramped, so many families simply admire it from the promenade at golden hour.", "lat": 38.691586, "lon": -9.215929, "p": "v"}, {"n": "Pastéis de Belém", "cat": "do", "tier": "", "a": "Belém", "d": "The original pastel de nata, made from a convent recipe bought in 1837 and still kept secret in the 'Oficina do Segredo'. They sell over 20,000 a day; skip the takeaway queue and be seated in the warren of blue-tiled back rooms, where warm tarts arrive dusted with cinnamon. An easy, universally loved treat for all generations.", "lat": 38.69748, "lon": -9.20332, "p": "v"}, {"n": "Padrão dos Descobrimentos (Monument to the Discoveries)", "cat": "do", "tier": "", "a": "Belém", "d": "A 52-metre stone caravel surging toward the Atlantic, its prow led by Henry the Navigator and a procession of the explorers, kings and cartographers of Portugal's golden age. Take the lift to the rooftop terrace for a clean panorama over Belém, the river and the great compass-rose pavement laid out below.", "lat": 38.693605, "lon": -9.2057, "p": "v"}, {"n": "MAAT — Museum of Art, Architecture and Technology", "cat": "do", "tier": "", "a": "Belém", "d": "Amanda Levete's sculptural white wave on the riverbank, clad in 15,000 three-dimensional tiles that shimmer with reflected water — you can walk right up over its roof for a low, sweeping river view. Inside, changing contemporary shows pair with the handsome old Central Tejo power station next door. A calm, design-led counterpoint to Belém's monuments.", "lat": 38.695934, "lon": -9.193624, "p": "v"}, {"n": "São Jorge Castle (Castelo de São Jorge)", "cat": "do", "tier": "", "a": "Alfama / Castelo", "d": "A Moorish citadel taken by Portugal's first king in 1147, crowning the highest of Lisbon's hills with the single finest panorama of the city, the Tagus and the 25 de Abril Bridge. Peacocks wander the ramparts and an archaeological site layers Iron Age, Moorish and medieval remains. Consider a private guide and a taxi up the steep lanes for older travellers.", "lat": 38.713926, "lon": -9.133483, "p": "v"}, {"n": "Alfama & an evening of fado", "cat": "do", "tier": "", "a": "Alfama", "d": "The oldest, most atmospheric quarter — a maze of stepped alleys, laundry lines and tiled façades that survived the 1755 earthquake — and the birthplace of fado, Portugal's soulful song of longing. A discreet advisor can reserve an intimate fado house for a private, unhurried dinner rather than the tourist floor shows.", "lat": 38.710853, "lon": -9.129499, "p": "v"}, {"n": "Museu do Fado (Fado Museum)", "cat": "do", "tier": "", "a": "Alfama", "d": "Set in a former water-pumping station at the heart of Alfama, this is the place to understand fado before you hear it live — recordings, guitars, and the stories of legendary voices like Amália Rodrigues. Compact and well-curated, with a free audio guide; a good, cool hour when the hills tire the legs.", "lat": 38.711025, "lon": -9.12766, "p": "v"}, {"n": "Miradouro de Santa Luzia", "cat": "do", "tier": "", "a": "Alfama", "d": "The most photographed terrace in Lisbon — a tiled pergola draped in bougainvillea framing the tumble of Alfama's terracotta roofs down to the river and the white dome of the National Pantheon. Come early morning to have the balustrade almost to yourself; a bench here is one of the city's great free pleasures.", "lat": 38.711741, "lon": -9.130216, "p": "v"}, {"n": "Praça do Comércio & Rua Augusta Arch", "cat": "do", "tier": "", "a": "Baixa", "d": "Lisbon's grand riverfront square, once the site of the royal palace lost to the 1755 earthquake and now a vast open forecourt opening onto the Tagus. Walk beneath the triumphal Rua Augusta Arch — you can climb it for a view straight down the grid — into the Pombaline downtown. Flat, easy walking and full of cafés for a multi-generation group.", "lat": 38.708443, "lon": -9.136816, "p": "v"}, {"n": "Baixa Pombalina (the Pombaline downtown)", "cat": "do", "tier": "", "a": "Baixa", "d": "The dead-straight grid rebuilt by the Marquis of Pombal after 1755, using the world's first purpose-built anti-seismic 'gaiola' timber frames — a landmark of Enlightenment urban planning you walk through without noticing the engineering. Pedestrian Rua Augusta, mosaic pavements and elegant shopfronts make it the natural spine of a first day.", "lat": 38.709383, "lon": -9.136177, "p": "v"}, {"n": "Elevador de Santa Justa", "cat": "do", "tier": "", "a": "Baixa / Chiado", "d": "A wrought-iron neo-Gothic lift from 1902, a cousin in spirit to Eiffel's Paris, that hoists you from the flat Baixa up to the ruined Carmo Convent and a small rooftop viewing deck. Queues can be long; a savvier route is to reach the top platform from the Carmo side and skip the wait entirely.", "lat": 38.712117, "lon": -9.139375, "p": "v"}, {"n": "Carmo Convent & Archaeological Museum (Convento do Carmo)", "cat": "do", "tier": "", "a": "Chiado", "d": "The roofless Gothic nave left open to the sky by the 1755 earthquake — its bare stone arches are the most haunting, quietly moving space in the city, and a small museum of oddments (mummies, tombs, tiles) sits in the chancel. Rarely crowded, and deeply atmospheric for anyone who cares about history.", "lat": 38.712006, "lon": -9.140586, "p": "v"}, {"n": "Chiado & Bairro Alto", "cat": "do", "tier": "", "a": "Chiado / Bairro Alto", "d": "Chiado is Lisbon's most elegant quarter — grand cafés, bookshops, jewellers and the storied A Brasileira with Pessoa's bronze at a pavement table — flowing uphill into bohemian Bairro Alto, sleepy by day and alive by night. The daytime browse suits a refined, unhurried afternoon; the nightlife is best sampled selectively.", "lat": 38.711238, "lon": -9.142423, "p": "v"}, {"n": "Tram 28 (Eléctrico 28)", "cat": "do", "tier": "", "a": "Graça to Campo de Ourique", "d": "The vintage 1930s 'Remodelado' tram that clatters through Alfama, Graça, Baixa and Estrela, threading lanes too steep and narrow for anything modern — history and scenery in one 45-minute ride. It gets packed; board early at Martim Moniz or Campo de Ourique, or charter a private vintage tram for the family to ride in comfort.", "lat": 38.952455, "lon": -9.082638, "p": "v"}, {"n": "Calouste Gulbenkian Museum", "cat": "do", "tier": "", "a": "Avenidas Novas / São Sebastião", "d": "One of the world's great private collections in a single elegant building set in serene modernist gardens — Egyptian antiquities, Islamic and East Asian art, Rembrandt and Monet, and a peerless room of René Lalique jewellery. Calm, world-class and never overwhelming; the garden café is a lovely veg-friendly pause. (Note: the founder's collection has been in phased renovation — confirm current opening.)", "lat": 38.737823, "lon": -9.153515, "p": "v"}, {"n": "National Tile Museum (Museu Nacional do Azulejo)", "cat": "do", "tier": "", "a": "Xabregas / Beato", "d": "Set in the golden-and-tiled Madre de Deus convent, this holds five centuries of the azulejo tilework that defines Portugal — the highlight a 23-metre panorama of Lisbon as it looked before the 1755 earthquake. A little out of the centre and all the quieter for it; the convent church alone is worth the taxi.", "lat": 38.724724, "lon": -9.113914, "p": "v"}, {"n": "Igreja de São Roque", "cat": "do", "tier": "", "a": "Bairro Alto", "d": "A plain façade hiding one of Europe's most sumptuous interiors — its Chapel of St John the Baptist was built in Rome from lapis lazuli, ivory, gold and silver, blessed by the Pope, then shipped to Lisbon. One of the few buildings to survive 1755 intact; ten quiet minutes that leave visitors stunned.", "lat": 38.71362, "lon": -9.143427, "p": "v"}, {"n": "Basílica da Estrela", "cat": "do", "tier": "", "a": "Estrela", "d": "A gleaming late-Baroque and neoclassical basilica of grey-and-cream marble, its great dome a landmark on the skyline, built by Queen Maria I in thanks for the birth of an heir. Climb to the roof terrace for a lesser-known city view, then cross to the leafy Jardim da Estrela opposite — a fine green pause with a duck pond and playground.", "lat": 38.713251, "lon": -9.160513, "p": "v"}, {"n": "Sé de Lisboa (Lisbon Cathedral)", "cat": "do", "tier": "", "a": "Alfama", "d": "The city's oldest church, a fortress-like Romanesque bulk from the 12th century begun soon after Lisbon was taken from the Moors, with a Gothic ambulatory and cloister behind. It sits right on the Tram 28 route below the castle, an easy and dignified stop.", "lat": 38.709818, "lon": -9.1328, "p": "v"}, {"n": "Monastery of São Vicente de Fora", "cat": "do", "tier": "", "a": "Alfama / Graça", "d": "A grand Mannerist monastery whose corridors hold one of Portugal's largest displays of blue-and-white azulejo panels, including whimsical La Fontaine fables, plus the royal pantheon of the Braganza dynasty. Climb to the rooftop for a superb, uncrowded view over Alfama and the river.", "lat": 38.716172, "lon": -9.126024, "p": "v"}, {"n": "National Pantheon (Panteão Nacional / Santa Engrácia)", "cat": "do", "tier": "", "a": "Alfama", "d": "A vast domed Baroque church, centuries in the building, now the resting place of Portugal's great figures — including fado's Amália Rodrigues and footballer Eusébio. The rooftop terrace circling the dome gives one of the widest 360-degree views in the city, over Alfama's rooftops and the cruise port.", "lat": 38.714978, "lon": -9.124683, "p": "v"}, {"n": "Miradouro da Senhora do Monte", "cat": "do", "tier": "", "a": "Graça", "d": "The highest of the city's viewpoints, where Lisbon's panorama feels most complete — the eye travels from the castle across the whole tumble of rooftops to the Tagus and the long line of the bridge. Less trafficked than the Alfama terraces; magical at sunset, so arrive a little early for a bench.", "lat": 38.719159, "lon": -9.13281, "p": "v"}, {"n": "Miradouro de São Pedro de Alcântara", "cat": "do", "tier": "", "a": "Bairro Alto", "d": "One of Lisbon's largest landscaped viewing terraces, its symmetrical box hedges and busts aligned directly across the valley to the floodlit castle. Reachable by the antique Glória funicular up from Avenida da Liberdade — a small, charming ride in itself — and lovely in the early evening.", "lat": 38.715437, "lon": -9.144048, "p": "v"}, {"n": "Time Out Market (Mercado da Ribeira)", "cat": "do", "tier": "", "a": "Cais do Sodré", "d": "Lisbon's oldest covered market, open since 1892, half of it reborn as a curated food hall where the city's best chefs run stalls under one roof — a painless way to graze across Portuguese cooking, with plenty of vegetarian and seafood choice for a mixed group. Busy at peak times; go early or mid-afternoon.", "lat": 38.706155, "lon": -9.146827, "p": "a"}, {"n": "LX Factory", "cat": "do", "tier": "", "a": "Alcântara", "d": "A 19th-century industrial complex under the 25 de Abril Bridge reborn as a creative precinct of design shops, bookstores, cafés and rooftop bars — including the much-photographed Ler Devagar bookshop with its flying-bicycle sculpture. Relaxed and stylish for an afternoon; the Sunday market adds vintage and artisan stalls.", "lat": 38.7026, "lon": -9.178662, "p": "v"}, {"n": "Jardim do Príncipe Real & Embaixada", "cat": "do", "tier": "", "a": "Príncipe Real", "d": "Lisbon's most refined district, its garden shaded by a vast century-old cedar trained flat like a giant parasol, ringed by independent boutiques, antique dealers and concept stores. Embaixada, a neo-Moorish palace turned design gallery, showcases the best of Portuguese fashion, ceramics and leather — ideal for discreet, high-end shopping.", "lat": 38.715756, "lon": -9.149423, "p": "v"}, {"n": "Estufa Fria greenhouse", "cat": "do", "tier": "", "a": "Parque Eduardo VII", "d": "A serene 1930s 'cold greenhouse' of shaded walkways, ponds, waterfalls and sub-tropical planting tucked into an old basalt quarry — three linked houses of green calm just off Avenida da Liberdade. A gentle, cool escape that reliably delights children and grandparents alike.", "lat": 38.700106, "lon": -9.202141, "p": "v"}, {"n": "Parque Eduardo VII", "cat": "do", "tier": "", "a": "Marquês de Pombal", "d": "The city's formal central park, a broad carpet of clipped box hedges rising uphill from the Marquês de Pombal roundabout to a belvedere that frames a clean sightline down Avenida da Liberdade to the river. A flat, easy stroll and a good orientation point at the top of the grand avenue.", "lat": 38.728212, "lon": -9.153014, "p": "v"}, {"n": "Avenida da Liberdade", "cat": "do", "tier": "", "a": "Baixa / Marquês de Pombal", "d": "Lisbon's grand tree-lined boulevard, mosaic-paved and modelled on the Champs-Élysées, home to the flagship luxury houses — Louis Vuitton, Prada, Gucci — and the city's best hotels. The natural address for a UHNI base, with fashion, fine dining and the theatres all within a walk.", "lat": 38.720354, "lon": -9.145717, "p": "v"}, {"n": "Berardo Collection / Coleção Berardo", "cat": "do", "tier": "", "a": "Belém", "d": "A significant modern and contemporary art collection in the Belém Cultural Centre — Picasso, Warhol, Mondrian, Bacon and more — a strong pairing with a Belém monuments morning. (Note: the collection has been reorganising in recent years; confirm current status and location before visiting.)", "lat": 38.695647, "lon": -9.20931, "p": "v"}, {"n": "Feira da Ladra flea market", "cat": "do", "tier": "", "a": "Alfama / Graça", "d": "Lisbon's centuries-old open-air 'thieves' market', spread beside São Vicente de Fora on Tuesdays and Saturdays — azulejo fragments, vintage silver, old prints and genuine bric-a-brac for the patient browser. Best in the morning; a colourful, local counterpoint to the boutiques.", "lat": 38.715393, "lon": -9.125929, "p": "v"}, {"n": "Cristo Rei (Sanctuary of Christ the King)", "cat": "do", "tier": "", "a": "Almada (across the Tagus)", "d": "A 1950s Christ statue on a tall pedestal above the river's south bank, inspired by Rio's, with a lift to a viewing platform that gives the definitive panorama back over the whole of Lisbon and the 25 de Abril Bridge. A short ferry-and-taxi trip that reframes the whole city.", "lat": 38.678549, "lon": -9.171337, "p": "v"}, {"n": "25 de Abril Bridge & Pilar 7 experience", "cat": "do", "tier": "", "a": "Alcântara", "d": "The great red suspension bridge, sibling to San Francisco's, defines the Lisbon skyline; the Pilar 7 interpretive centre takes you inside a supporting pillar and up to a glass platform 80 metres above the water. A short, memorable stop with real drama for older children and teenagers.", "lat": 38.70011, "lon": -9.179424, "p": "v"}, {"n": "Oceanário de Lisboa", "cat": "do", "tier": "", "a": "Parque das Nações", "d": "One of the world's largest and most admired aquariums, built around a single vast ocean tank you circle over two levels, in the modern riverside quarter left from Expo '98. Reliably the highlight for families travelling with children — book a timed entry to avoid the queue.", "lat": 38.76352, "lon": -9.093716, "p": "v"}, {"n": "Parque das Nações & Telecabine cable car", "cat": "do", "tier": "", "a": "Parque das Nações", "d": "The sleek riverside district from Expo '98 — wide promenades, gardens, the Vasco da Gama tower and a gondola cable car gliding along the water past the Oceanário. Flat, pram-friendly and calm, a good half-day for a multi-generation group wanting space and modern comfort.", "lat": 38.773573, "lon": -9.091483, "p": "v"}, {"n": "Ajuda National Palace (Palácio Nacional da Ajuda)", "cat": "do", "tier": "", "a": "Ajuda", "d": "A neoclassical royal palace, the last official residence of Portugal's monarchy, whose staterooms drip with silk, porcelain and chandeliers — and which now displays the Portuguese Crown Jewels in a purpose-built treasury wing. Uphill from Belém and blissfully uncrowded compared with the coastal monuments.", "lat": 38.707631, "lon": -9.197833, "p": "v"}, {"n": "Coach Museum (Museu Nacional dos Coches)", "cat": "do", "tier": "", "a": "Belém", "d": "The world's finest collection of gilded royal and papal ceremonial carriages, a jaw-dropping parade of Baroque coaches dripping with carved cherubs and gold leaf, in a bright modern hall in Belém. Compact, universally appealing and easily folded into a Belém morning.", "lat": 38.696864, "lon": -9.197987, "p": "v"}, {"n": "Sintra — Pena Palace & Quinta da Regaleira (day trip)", "cat": "do", "tier": "", "a": "Sintra (day trip, ~40 min)", "d": "A misty, forested hill town of romantic palaces: Pena, a riot of red, yellow and tilework on a crag, and Quinta da Regaleira, with its symbolic gardens and the spiralling 27-metre Initiation Well. Cool, magical and deservedly essential — a private driver-guide is the sane way to see two or three sites in a day.", "lat": 38.796127, "lon": -9.396436, "p": "v"}, {"n": "Cascais & Estoril (day trip)", "cat": "do", "tier": "", "a": "Cascais (day trip, ~40 min)", "d": "An elegant former royal seaside resort of pastel villas, a pretty marina, sandy bays and the dramatic Boca do Inferno sea cave, easily reached by a scenic coastal train. A gentle, breezy counterpoint to city sightseeing, with good seafront dining for a relaxed lunch.", "lat": 38.717123, "lon": -9.360214, "p": "v"}, {"n": "Cabo da Roca (day trip)", "cat": "do", "tier": "", "a": "Sintra coast (day trip)", "d": "The westernmost point of continental Europe — a lighthouse on wild cliffs 140 metres above the Atlantic, where Portugal's poet Camões wrote that the land ends and the sea begins. A short, spectacular stop that pairs naturally with a Sintra or Cascais drive.", "lat": 38.780904, "lon": -9.499416, "p": "v"}, {"n": "Óbidos (day trip)", "cat": "do", "tier": "", "a": "Óbidos (day trip, ~1 hr)", "d": "A perfectly preserved medieval walled town of whitewashed houses and bougainvillea, once a wedding gift to Portugal's queens, that you can circle atop its ramparts. Try the cherry liqueur 'ginjinha' served in a chocolate cup; charming and unhurried, and often combined with the coast at Nazaré.", "lat": 38.70437, "lon": -9.162792, "p": "v"}, {"n": "Setúbal & Serra da Arrábida (day trip)", "cat": "do", "tier": "", "a": "Setúbal / Arrábida (day trip, ~50 min)", "d": "A working port city famed for fresh fried cuttlefish and Moscatel wine, gateway to the Arrábida Natural Park — limestone cliffs plunging to turquoise coves like Galapinhos and Portinho da Arrábida, among the loveliest beaches in Portugal. Boat trips from Setúbal often spot the resident bottlenose dolphins.", "lat": 38.6036, "lon": -8.953848, "p": "v"}, {"n": "Azeitão wine & cheese estates (day trip)", "cat": "do", "tier": "", "a": "Azeitão (day trip)", "d": "Between Lisbon and Arrábida lie the historic José Maria da Fonseca cellars — makers of Portugal's celebrated Moscatel de Setúbal — and the villages behind the famous soft Azeitão sheep's cheese and hand-painted azulejo workshops. A refined tasting circuit that a concierge can arrange privately.", "lat": 38.696209, "lon": -9.365287, "p": "a"}, {"n": "Mãe d'Água & Águas Livres Aqueduct", "cat": "do", "tier": "", "a": "Amoreiras / Campolide", "d": "The great 18th-century aqueduct strides across the Alcântara valley on colossal stone arches — one of Europe's boldest — and its terminal reservoir, the cavernous Mãe d'Água cistern, can be visited as an atmospheric, echoing water chamber. A little-known feat of engineering away from the crowds.", "lat": 38.816011, "lon": -9.230299, "p": "v"}, {"n": "Gulbenkian Gardens & Modern Collection (CAM)", "cat": "do", "tier": "", "a": "Avenidas Novas / São Sebastião", "d": "The serene modernist gardens surrounding the Gulbenkian — lakes, sculpture and shade that locals treasure — wrap the Centro de Arte Moderna, home to the finest collection of 20th-century Portuguese art. A cultured, green half-day, recently reopened after a redesign of its grounds and galleries.", "lat": 38.735814, "lon": -9.153696, "p": "v"}, {"n": "Ribeira das Naus riverside walk", "cat": "do", "tier": "", "a": "Cais do Sodré / Baixa", "d": "A landscaped waterfront promenade between Cais do Sodré and Praça do Comércio, with tiered steps down to the Tagus where the shipyards of the discoveries once stood — the best place in the centre to sit by the water at sunset. Flat, gentle and free, threading the two riverside squares together.", "lat": 38.754232, "lon": -9.153503, "p": "v"}, {"n": "Red Frog Speakeasy", "cat": "party", "tier": "Cocktail bars", "a": "Avenida da Liberdade / Príncipe Real", "d": "Lisbon's globally-ranked speakeasy — a hidden 'press to enter' door and one of the most inventive cocktail lists in Iberia.", "lat": 38.718276, "lon": -9.144706, "p": "v"}, {"n": "Toca da Raposa", "cat": "party", "tier": "Cocktail bars", "a": "Bairro Alto", "d": "Constança Cordeiro's tiny, sustainability-led bar — foraged, seasonal, locally-made drinks in an intimate den.", "lat": 38.71309, "lon": -9.141884, "p": "v"}, {"n": "Sky Bar by SEEN", "cat": "party", "tier": "Rooftops", "a": "Avenida da Liberdade (Tivoli)", "d": "The refined rooftop of the Tivoli on the Liberdade — polished cocktails and an elevated sweep across the city.", "lat": 38.721085, "lon": -9.147082, "p": "v"}, {"n": "TOPO Martim Moniz", "cat": "party", "tier": "Rooftops", "a": "Martim Moniz / Mouraria", "d": "A wooden terrace six floors above Praça Martim Moniz — a direct, dramatic view up to São Jorge Castle.", "lat": 38.7175, "lon": -9.135793, "p": "v"}, {"n": "Park", "cat": "party", "tier": "Rooftops", "a": "Bairro Alto", "d": "Lisbon's cult rooftop — a lush garden bar on top of a Bairro Alto car park, with the river and the Basílica da Estrela beyond.", "lat": 38.767819, "lon": -9.099221, "p": "v"}, {"n": "Pensão Amor", "cat": "party", "tier": "Landmark bars", "a": "Cais do Sodré", "d": "A former bordello turned baroque, red-velvet bar on the old sailors' street — theatrical, decadent and quintessentially Lisbon.", "lat": 38.70731, "lon": -9.143535, "p": "v"}, {"n": "Pavilhão Chinês", "cat": "party", "tier": "Landmark bars", "a": "Príncipe Real", "d": "A labyrinth of five rooms crammed with a century of curiosities — Lisbon's most famous, most eccentric old bar.", "lat": 38.715713, "lon": -9.146769, "p": "v"}]}
+{
+  "center": [
+    38.707751,
+    -9.136592
+  ],
+  "venues": [
+    {
+      "n": "Four Seasons Hotel Ritz Lisbon",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Avenida da Liberdade / Marqu\u00eas de Pombal",
+      "d": "The capital's defining grand hotel \u2014 a 1950s palace of Louis XVI and Art Deco rooms, above the city on the edge of the Liberdade.",
+      "lat": 38.725893,
+      "lon": -9.155095,
+      "photos": []
+    },
+    {
+      "n": "The One Pal\u00e1cio da Anunciada",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Avenida da Liberdade",
+      "d": "A restored 16th-century palace on the Liberdade \u2014 gardens, a rooftop pool and quiet grandeur in the city's most exclusive quarter.",
+      "lat": 38.717315,
+      "lon": -9.141238,
+      "photos": []
+    },
+    {
+      "n": "Bairro Alto Hotel",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Chiado / Bairro Alto",
+      "d": "An 18th-century house on Pra\u00e7a Lu\u00eds de Cam\u00f5es, restored by Pritzker laureate Eduardo Souto de Moura \u2014 the cultural heart of the city.",
+      "lat": 38.710285,
+      "lon": -9.143282,
+      "photos": []
+    },
+    {
+      "n": "Santiago de Alfama \u2014 Boutique Hotel",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Alfama",
+      "d": "A 15th-century palace woven into the oldest quarter, below S\u00e3o Jorge Castle \u2014 intimate, characterful, deeply Lisbon.",
+      "lat": 38.71345,
+      "lon": -9.127727,
+      "photos": []
+    },
+    {
+      "n": "Sublime Lisboa",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Amoreiras",
+      "d": "A design-forward 15-room townhouse in a leafy residential quarter \u2014 wellness-led, private and quietly indulgent.",
+      "lat": 38.734579,
+      "lon": -9.155617,
+      "photos": []
+    },
+    {
+      "n": "Pousada de Lisboa, Pra\u00e7a do Com\u00e9rcio",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Baixa (Pra\u00e7a do Com\u00e9rcio)",
+      "d": "A former royal ministry on the grand riverfront square \u2014 heritage rooms opening straight onto the Tagus and the Baixa.",
+      "lat": 38.707793,
+      "lon": -9.136554,
+      "photos": []
+    },
+    {
+      "n": "Pal\u00e1cio Ludovice Wine Experience Hotel",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Bairro Alto / S\u00e3o Roque",
+      "d": "A restored baroque palace by the architect of Mafra's basilica \u2014 a wine-led house of real character above the old town.",
+      "lat": 38.714271,
+      "lon": -9.145661,
+      "photos": []
+    },
+    {
+      "n": "Art Legacy Hotel Baixa-Chiado",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Baixa / Chiado",
+      "d": "A polished, design-led house on the seam of Baixa and Chiado \u2014 art-forward and impeccably placed for the historic centre.",
+      "lat": 38.710707,
+      "lon": -9.14187,
+      "photos": []
+    },
+    {
+      "n": "Brown's Avenue Hotel",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Baixa (Rua da Assun\u00e7\u00e3o)",
+      "d": "A well-run boutique house in the heart of the Baixa grid \u2014 quietly stylish and steps from Rossio and the river.",
+      "lat": 38.737702,
+      "lon": -9.133558,
+      "photos": []
+    },
+    {
+      "n": "Belcanto",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Chiado",
+      "d": "Jos\u00e9 Avillez's theatre of contemporary Portuguese cooking \u2014 the country's most celebrated table, and one of the world's finest.",
+      "lat": 38.710061,
+      "lon": -9.141488,
+      "photos": []
+    },
+    {
+      "n": "Alma",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Chiado",
+      "d": "Henrique S\u00e1 Pessoa's two-star room \u2014 Portuguese produce with an Asian hand, precise and generous in equal measure.",
+      "lat": 38.71022,
+      "lon": -9.141111,
+      "photos": []
+    },
+    {
+      "n": "Encanto",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Chiado",
+      "d": "Jos\u00e9 Avillez's all-vegetable fine-dining room beside Belcanto \u2014 a starred, sustainability-led ode to Portuguese produce.",
+      "lat": 38.709939,
+      "lon": -9.141471,
+      "photos": []
+    },
+    {
+      "n": "CURA",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Avenida da Liberdade (Four Seasons Ritz)",
+      "d": "Pedro Pena Bastos's minimalist, produce-led cooking inside the Ritz \u2014 refined, seasonal, quietly confident.",
+      "lat": 38.749937,
+      "lon": -9.192074,
+      "photos": []
+    },
+    {
+      "n": "Loco",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Estrela / Lapa",
+      "d": "Alexandre Silva's open-kitchen counter beside the Bas\u00edlica da Estrela \u2014 sixteen surprising 'moments' of new Portuguese cooking.",
+      "lat": 38.713298,
+      "lon": -9.136397,
+      "photos": []
+    },
+    {
+      "n": "Epur",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Chiado",
+      "d": "Vincent Farges's pared-back room above the river \u2014 French precision and Portuguese produce, with one of the city's best views.",
+      "lat": 38.708725,
+      "lon": -9.139788,
+      "photos": []
+    },
+    {
+      "n": "Feitoria",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Bel\u00e9m",
+      "d": "A refined, ingredient-led kitchen on the Bel\u00e9m waterfront \u2014 elegant Portuguese cooking beside the great monuments.",
+      "lat": 38.693057,
+      "lon": -9.21071,
+      "photos": []
+    },
+    {
+      "n": "Kabuki Lisboa",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Avenida da Liberdade (Ritz Galerias)",
+      "d": "Japanese-Mediterranean cooking of real finesse \u2014 the Madrid group's Lisbon star, all clean lines and precise fish.",
+      "lat": 38.725519,
+      "lon": -9.154253,
+      "photos": []
+    },
+    {
+      "n": "Kanazawa",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Bel\u00e9m",
+      "d": "Paulo Morais's eight-seat kaiseki counter \u2014 Lisbon's most serious, meticulous Japanese room.",
+      "lat": 38.698023,
+      "lon": -9.22574,
+      "photos": []
+    },
+    {
+      "n": "Fifty Seconds",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Parque das Na\u00e7\u00f5es (Vasco da Gama Tower)",
+      "d": "Rui Silvestre's cooking at the top of Lisbon's tallest tower \u2014 a glass room over the river and the 25 de Abril skyline.",
+      "lat": 38.774749,
+      "lon": -9.091398,
+      "photos": []
+    },
+    {
+      "n": "Eleven",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "S\u00e3o Sebasti\u00e3o",
+      "d": "Joachim Koerper's long-held star above the Edward VII Park \u2014 classical technique and a commanding view down to the river.",
+      "lat": 38.730775,
+      "lon": -9.1558,
+      "photos": []
+    },
+    {
+      "n": "S\u00c1LA",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Baixa (Rua dos Bacalhoeiros)",
+      "d": "Jo\u00e3o S\u00e1's personal, well-travelled cooking \u2014 Portuguese roots threaded with Indian, African, Brazilian and Thai notes.",
+      "lat": 38.709105,
+      "lon": -9.1339,
+      "photos": []
+    },
+    {
+      "n": "100 Maneiras",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Bairro Alto",
+      "d": "Ljubomir Stanisic's spirited tasting menu in the Bairro Alto \u2014 bold, narrative cooking with a dedicated vegetarian menu.",
+      "lat": 38.714659,
+      "lon": -9.144858,
+      "photos": []
+    },
+    {
+      "n": "Marlene",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Parque das Na\u00e7\u00f5es",
+      "d": "Marlene Vieira's first star \u2014 assured, contemporary Portuguese cooking from one of the country's most respected chefs.",
+      "lat": 38.690411,
+      "lon": -9.333381,
+      "photos": []
+    },
+    {
+      "n": "2 Monkeys",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Pr\u00edncipe Real",
+      "d": "A fourteen-seat, fourteen-course counter \u2014 intimate, precise cooking and one of Lisbon's newest stars.",
+      "lat": 38.735592,
+      "lon": -9.158765,
+      "photos": []
+    },
+    {
+      "n": "Grenache",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Alc\u00e2ntara",
+      "d": "A wine-led star with a seasonal tasting menu \u2014 cooking built around an exceptional cellar.",
+      "lat": 38.712436,
+      "lon": -9.131601,
+      "photos": []
+    },
+    {
+      "n": "Canalha",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Bel\u00e9m",
+      "d": "Jo\u00e3o Rodrigues's neighbourhood bistro on the edge of Bel\u00e9m \u2014 simple, superb Portuguese produce, made for sharing.",
+      "lat": 38.697397,
+      "lon": -9.193712,
+      "photos": []
+    },
+    {
+      "n": "Pigmeu",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Campo de Ourique",
+      "d": "A snout-to-tail ode to Portuguese pork \u2014 crackling, croquettes and the famed bifana, done with real craft.",
+      "lat": 38.707066,
+      "lon": -9.145649,
+      "photos": []
+    },
+    {
+      "n": "O Frade",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Bel\u00e9m",
+      "d": "A warm Alentejo tavern around a U-shaped counter \u2014 wholesome petiscos and duck rice, shared shoulder to shoulder.",
+      "lat": 38.707148,
+      "lon": -9.146182,
+      "photos": []
+    },
+    {
+      "n": "Of\u00edcio",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Baixa / Cais do Sodr\u00e9",
+      "d": "An unconventional gastrobar \u2014 a modern tasco built for sharing plates in a laid-back room.",
+      "lat": 38.712434,
+      "lon": -9.142632,
+      "photos": []
+    },
+    {
+      "n": "Zunzum Gastrobar",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Cais do Sodr\u00e9 (Time Out Market area)",
+      "d": "Marlene Vieira's playful gastrobar \u2014 classic Portuguese dishes given a daring, contemporary turn.",
+      "lat": 38.711788,
+      "lon": -9.124353,
+      "photos": []
+    },
+    {
+      "n": "Cervejaria Ramiro",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Intendente / Anjos",
+      "d": "Lisbon's great seafood institution since the 1950s \u2014 prawns, spider crab, oysters and the famous prego, in cheerful chaos.",
+      "lat": 38.720198,
+      "lon": -9.135706,
+      "photos": []
+    },
+    {
+      "n": "Jer\u00f3nimos Monastery (Mosteiro dos Jer\u00f3nimos)",
+      "cat": "do",
+      "tier": "",
+      "a": "Bel\u00e9m",
+      "d": "The masterpiece of Portugal's Manueline style, built with the wealth of the sea route to India that Vasco da Gama opened \u2014 his tomb lies just inside the door. The vast cloister, all carved rope, coral and armillary spheres, rewards a slow, unhurried walk; go early or book a timed entry to be ahead of the coaches. A logical first stop, and steps from the custard tarts.",
+      "lat": 38.698008,
+      "lon": -9.205744,
+      "photos": []
+    },
+    {
+      "n": "Bel\u00e9m Tower (Torre de Bel\u00e9m / Torre de S\u00e3o Vicente)",
+      "cat": "do",
+      "tier": "",
+      "a": "Bel\u00e9m",
+      "d": "The little limestone fortress standing in the Tagus was the ceremonial gateway from which the great voyages of discovery set out, and it remains the postcard image of Lisbon. The Manueline carving \u2014 rope motifs, a stone rhinoceros \u2014 is best seen from the riverside walk; the interior is cramped, so many families simply admire it from the promenade at golden hour.",
+      "lat": 38.691586,
+      "lon": -9.215929,
+      "photos": []
+    },
+    {
+      "n": "Past\u00e9is de Bel\u00e9m",
+      "cat": "do",
+      "tier": "",
+      "a": "Bel\u00e9m",
+      "d": "The original pastel de nata, made from a convent recipe bought in 1837 and still kept secret in the 'Oficina do Segredo'. They sell over 20,000 a day; skip the takeaway queue and be seated in the warren of blue-tiled back rooms, where warm tarts arrive dusted with cinnamon. An easy, universally loved treat for all generations.",
+      "lat": 38.69748,
+      "lon": -9.20332,
+      "photos": []
+    },
+    {
+      "n": "Padr\u00e3o dos Descobrimentos (Monument to the Discoveries)",
+      "cat": "do",
+      "tier": "",
+      "a": "Bel\u00e9m",
+      "d": "A 52-metre stone caravel surging toward the Atlantic, its prow led by Henry the Navigator and a procession of the explorers, kings and cartographers of Portugal's golden age. Take the lift to the rooftop terrace for a clean panorama over Bel\u00e9m, the river and the great compass-rose pavement laid out below.",
+      "lat": 38.693605,
+      "lon": -9.2057,
+      "photos": []
+    },
+    {
+      "n": "MAAT \u2014 Museum of Art, Architecture and Technology",
+      "cat": "do",
+      "tier": "",
+      "a": "Bel\u00e9m",
+      "d": "Amanda Levete's sculptural white wave on the riverbank, clad in 15,000 three-dimensional tiles that shimmer with reflected water \u2014 you can walk right up over its roof for a low, sweeping river view. Inside, changing contemporary shows pair with the handsome old Central Tejo power station next door. A calm, design-led counterpoint to Bel\u00e9m's monuments.",
+      "lat": 38.695934,
+      "lon": -9.193624,
+      "photos": []
+    },
+    {
+      "n": "S\u00e3o Jorge Castle (Castelo de S\u00e3o Jorge)",
+      "cat": "do",
+      "tier": "",
+      "a": "Alfama / Castelo",
+      "d": "A Moorish citadel taken by Portugal's first king in 1147, crowning the highest of Lisbon's hills with the single finest panorama of the city, the Tagus and the 25 de Abril Bridge. Peacocks wander the ramparts and an archaeological site layers Iron Age, Moorish and medieval remains. Consider a private guide and a taxi up the steep lanes for older travellers.",
+      "lat": 38.713926,
+      "lon": -9.133483,
+      "photos": []
+    },
+    {
+      "n": "Alfama & an evening of fado",
+      "cat": "do",
+      "tier": "",
+      "a": "Alfama",
+      "d": "The oldest, most atmospheric quarter \u2014 a maze of stepped alleys, laundry lines and tiled fa\u00e7ades that survived the 1755 earthquake \u2014 and the birthplace of fado, Portugal's soulful song of longing. A discreet advisor can reserve an intimate fado house for a private, unhurried dinner rather than the tourist floor shows.",
+      "lat": 38.710853,
+      "lon": -9.129499,
+      "photos": []
+    },
+    {
+      "n": "Museu do Fado (Fado Museum)",
+      "cat": "do",
+      "tier": "",
+      "a": "Alfama",
+      "d": "Set in a former water-pumping station at the heart of Alfama, this is the place to understand fado before you hear it live \u2014 recordings, guitars, and the stories of legendary voices like Am\u00e1lia Rodrigues. Compact and well-curated, with a free audio guide; a good, cool hour when the hills tire the legs.",
+      "lat": 38.711025,
+      "lon": -9.12766,
+      "photos": []
+    },
+    {
+      "n": "Miradouro de Santa Luzia",
+      "cat": "do",
+      "tier": "",
+      "a": "Alfama",
+      "d": "The most photographed terrace in Lisbon \u2014 a tiled pergola draped in bougainvillea framing the tumble of Alfama's terracotta roofs down to the river and the white dome of the National Pantheon. Come early morning to have the balustrade almost to yourself; a bench here is one of the city's great free pleasures.",
+      "lat": 38.711741,
+      "lon": -9.130216,
+      "photos": []
+    },
+    {
+      "n": "Pra\u00e7a do Com\u00e9rcio & Rua Augusta Arch",
+      "cat": "do",
+      "tier": "",
+      "a": "Baixa",
+      "d": "Lisbon's grand riverfront square, once the site of the royal palace lost to the 1755 earthquake and now a vast open forecourt opening onto the Tagus. Walk beneath the triumphal Rua Augusta Arch \u2014 you can climb it for a view straight down the grid \u2014 into the Pombaline downtown. Flat, easy walking and full of caf\u00e9s for a multi-generation group.",
+      "lat": 38.708443,
+      "lon": -9.136816,
+      "photos": []
+    },
+    {
+      "n": "Baixa Pombalina (the Pombaline downtown)",
+      "cat": "do",
+      "tier": "",
+      "a": "Baixa",
+      "d": "The dead-straight grid rebuilt by the Marquis of Pombal after 1755, using the world's first purpose-built anti-seismic 'gaiola' timber frames \u2014 a landmark of Enlightenment urban planning you walk through without noticing the engineering. Pedestrian Rua Augusta, mosaic pavements and elegant shopfronts make it the natural spine of a first day.",
+      "lat": 38.709383,
+      "lon": -9.136177,
+      "photos": []
+    },
+    {
+      "n": "Elevador de Santa Justa",
+      "cat": "do",
+      "tier": "",
+      "a": "Baixa / Chiado",
+      "d": "A wrought-iron neo-Gothic lift from 1902, a cousin in spirit to Eiffel's Paris, that hoists you from the flat Baixa up to the ruined Carmo Convent and a small rooftop viewing deck. Queues can be long; a savvier route is to reach the top platform from the Carmo side and skip the wait entirely.",
+      "lat": 38.712117,
+      "lon": -9.139375,
+      "photos": []
+    },
+    {
+      "n": "Carmo Convent & Archaeological Museum (Convento do Carmo)",
+      "cat": "do",
+      "tier": "",
+      "a": "Chiado",
+      "d": "The roofless Gothic nave left open to the sky by the 1755 earthquake \u2014 its bare stone arches are the most haunting, quietly moving space in the city, and a small museum of oddments (mummies, tombs, tiles) sits in the chancel. Rarely crowded, and deeply atmospheric for anyone who cares about history.",
+      "lat": 38.712006,
+      "lon": -9.140586,
+      "photos": []
+    },
+    {
+      "n": "Chiado & Bairro Alto",
+      "cat": "do",
+      "tier": "",
+      "a": "Chiado / Bairro Alto",
+      "d": "Chiado is Lisbon's most elegant quarter \u2014 grand caf\u00e9s, bookshops, jewellers and the storied A Brasileira with Pessoa's bronze at a pavement table \u2014 flowing uphill into bohemian Bairro Alto, sleepy by day and alive by night. The daytime browse suits a refined, unhurried afternoon; the nightlife is best sampled selectively.",
+      "lat": 38.711238,
+      "lon": -9.142423,
+      "photos": []
+    },
+    {
+      "n": "Tram 28 (El\u00e9ctrico 28)",
+      "cat": "do",
+      "tier": "",
+      "a": "Gra\u00e7a to Campo de Ourique",
+      "d": "The vintage 1930s 'Remodelado' tram that clatters through Alfama, Gra\u00e7a, Baixa and Estrela, threading lanes too steep and narrow for anything modern \u2014 history and scenery in one 45-minute ride. It gets packed; board early at Martim Moniz or Campo de Ourique, or charter a private vintage tram for the family to ride in comfort.",
+      "lat": 38.952455,
+      "lon": -9.082638,
+      "photos": []
+    },
+    {
+      "n": "Calouste Gulbenkian Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Avenidas Novas / S\u00e3o Sebasti\u00e3o",
+      "d": "One of the world's great private collections in a single elegant building set in serene modernist gardens \u2014 Egyptian antiquities, Islamic and East Asian art, Rembrandt and Monet, and a peerless room of Ren\u00e9 Lalique jewellery. Calm, world-class and never overwhelming; the garden caf\u00e9 is a lovely veg-friendly pause. (Note: the founder's collection has been in phased renovation \u2014 confirm current opening.)",
+      "lat": 38.737823,
+      "lon": -9.153515,
+      "photos": []
+    },
+    {
+      "n": "National Tile Museum (Museu Nacional do Azulejo)",
+      "cat": "do",
+      "tier": "",
+      "a": "Xabregas / Beato",
+      "d": "Set in the golden-and-tiled Madre de Deus convent, this holds five centuries of the azulejo tilework that defines Portugal \u2014 the highlight a 23-metre panorama of Lisbon as it looked before the 1755 earthquake. A little out of the centre and all the quieter for it; the convent church alone is worth the taxi.",
+      "lat": 38.724724,
+      "lon": -9.113914,
+      "photos": []
+    },
+    {
+      "n": "Igreja de S\u00e3o Roque",
+      "cat": "do",
+      "tier": "",
+      "a": "Bairro Alto",
+      "d": "A plain fa\u00e7ade hiding one of Europe's most sumptuous interiors \u2014 its Chapel of St John the Baptist was built in Rome from lapis lazuli, ivory, gold and silver, blessed by the Pope, then shipped to Lisbon. One of the few buildings to survive 1755 intact; ten quiet minutes that leave visitors stunned.",
+      "lat": 38.71362,
+      "lon": -9.143427,
+      "photos": []
+    },
+    {
+      "n": "Bas\u00edlica da Estrela",
+      "cat": "do",
+      "tier": "",
+      "a": "Estrela",
+      "d": "A gleaming late-Baroque and neoclassical basilica of grey-and-cream marble, its great dome a landmark on the skyline, built by Queen Maria I in thanks for the birth of an heir. Climb to the roof terrace for a lesser-known city view, then cross to the leafy Jardim da Estrela opposite \u2014 a fine green pause with a duck pond and playground.",
+      "lat": 38.713251,
+      "lon": -9.160513,
+      "photos": []
+    },
+    {
+      "n": "S\u00e9 de Lisboa (Lisbon Cathedral)",
+      "cat": "do",
+      "tier": "",
+      "a": "Alfama",
+      "d": "The city's oldest church, a fortress-like Romanesque bulk from the 12th century begun soon after Lisbon was taken from the Moors, with a Gothic ambulatory and cloister behind. It sits right on the Tram 28 route below the castle, an easy and dignified stop.",
+      "lat": 38.709818,
+      "lon": -9.1328,
+      "photos": []
+    },
+    {
+      "n": "Monastery of S\u00e3o Vicente de Fora",
+      "cat": "do",
+      "tier": "",
+      "a": "Alfama / Gra\u00e7a",
+      "d": "A grand Mannerist monastery whose corridors hold one of Portugal's largest displays of blue-and-white azulejo panels, including whimsical La Fontaine fables, plus the royal pantheon of the Braganza dynasty. Climb to the rooftop for a superb, uncrowded view over Alfama and the river.",
+      "lat": 38.716172,
+      "lon": -9.126024,
+      "photos": []
+    },
+    {
+      "n": "National Pantheon (Pante\u00e3o Nacional / Santa Engr\u00e1cia)",
+      "cat": "do",
+      "tier": "",
+      "a": "Alfama",
+      "d": "A vast domed Baroque church, centuries in the building, now the resting place of Portugal's great figures \u2014 including fado's Am\u00e1lia Rodrigues and footballer Eus\u00e9bio. The rooftop terrace circling the dome gives one of the widest 360-degree views in the city, over Alfama's rooftops and the cruise port.",
+      "lat": 38.714978,
+      "lon": -9.124683,
+      "photos": []
+    },
+    {
+      "n": "Miradouro da Senhora do Monte",
+      "cat": "do",
+      "tier": "",
+      "a": "Gra\u00e7a",
+      "d": "The highest of the city's viewpoints, where Lisbon's panorama feels most complete \u2014 the eye travels from the castle across the whole tumble of rooftops to the Tagus and the long line of the bridge. Less trafficked than the Alfama terraces; magical at sunset, so arrive a little early for a bench.",
+      "lat": 38.719159,
+      "lon": -9.13281,
+      "photos": []
+    },
+    {
+      "n": "Miradouro de S\u00e3o Pedro de Alc\u00e2ntara",
+      "cat": "do",
+      "tier": "",
+      "a": "Bairro Alto",
+      "d": "One of Lisbon's largest landscaped viewing terraces, its symmetrical box hedges and busts aligned directly across the valley to the floodlit castle. Reachable by the antique Gl\u00f3ria funicular up from Avenida da Liberdade \u2014 a small, charming ride in itself \u2014 and lovely in the early evening.",
+      "lat": 38.715437,
+      "lon": -9.144048,
+      "photos": []
+    },
+    {
+      "n": "Time Out Market (Mercado da Ribeira)",
+      "cat": "do",
+      "tier": "",
+      "a": "Cais do Sodr\u00e9",
+      "d": "Lisbon's oldest covered market, open since 1892, half of it reborn as a curated food hall where the city's best chefs run stalls under one roof \u2014 a painless way to graze across Portuguese cooking, with plenty of vegetarian and seafood choice for a mixed group. Busy at peak times; go early or mid-afternoon.",
+      "lat": 38.706155,
+      "lon": -9.146827,
+      "photos": []
+    },
+    {
+      "n": "LX Factory",
+      "cat": "do",
+      "tier": "",
+      "a": "Alc\u00e2ntara",
+      "d": "A 19th-century industrial complex under the 25 de Abril Bridge reborn as a creative precinct of design shops, bookstores, caf\u00e9s and rooftop bars \u2014 including the much-photographed Ler Devagar bookshop with its flying-bicycle sculpture. Relaxed and stylish for an afternoon; the Sunday market adds vintage and artisan stalls.",
+      "lat": 38.7026,
+      "lon": -9.178662,
+      "photos": []
+    },
+    {
+      "n": "Jardim do Pr\u00edncipe Real & Embaixada",
+      "cat": "do",
+      "tier": "",
+      "a": "Pr\u00edncipe Real",
+      "d": "Lisbon's most refined district, its garden shaded by a vast century-old cedar trained flat like a giant parasol, ringed by independent boutiques, antique dealers and concept stores. Embaixada, a neo-Moorish palace turned design gallery, showcases the best of Portuguese fashion, ceramics and leather \u2014 ideal for discreet, high-end shopping.",
+      "lat": 38.715756,
+      "lon": -9.149423,
+      "photos": []
+    },
+    {
+      "n": "Estufa Fria greenhouse",
+      "cat": "do",
+      "tier": "",
+      "a": "Parque Eduardo VII",
+      "d": "A serene 1930s 'cold greenhouse' of shaded walkways, ponds, waterfalls and sub-tropical planting tucked into an old basalt quarry \u2014 three linked houses of green calm just off Avenida da Liberdade. A gentle, cool escape that reliably delights children and grandparents alike.",
+      "lat": 38.700106,
+      "lon": -9.202141,
+      "photos": []
+    },
+    {
+      "n": "Parque Eduardo VII",
+      "cat": "do",
+      "tier": "",
+      "a": "Marqu\u00eas de Pombal",
+      "d": "The city's formal central park, a broad carpet of clipped box hedges rising uphill from the Marqu\u00eas de Pombal roundabout to a belvedere that frames a clean sightline down Avenida da Liberdade to the river. A flat, easy stroll and a good orientation point at the top of the grand avenue.",
+      "lat": 38.728212,
+      "lon": -9.153014,
+      "photos": []
+    },
+    {
+      "n": "Avenida da Liberdade",
+      "cat": "do",
+      "tier": "",
+      "a": "Baixa / Marqu\u00eas de Pombal",
+      "d": "Lisbon's grand tree-lined boulevard, mosaic-paved and modelled on the Champs-\u00c9lys\u00e9es, home to the flagship luxury houses \u2014 Louis Vuitton, Prada, Gucci \u2014 and the city's best hotels. The natural address for a UHNI base, with fashion, fine dining and the theatres all within a walk.",
+      "lat": 38.720354,
+      "lon": -9.145717,
+      "photos": []
+    },
+    {
+      "n": "Berardo Collection / Cole\u00e7\u00e3o Berardo",
+      "cat": "do",
+      "tier": "",
+      "a": "Bel\u00e9m",
+      "d": "A significant modern and contemporary art collection in the Bel\u00e9m Cultural Centre \u2014 Picasso, Warhol, Mondrian, Bacon and more \u2014 a strong pairing with a Bel\u00e9m monuments morning. (Note: the collection has been reorganising in recent years; confirm current status and location before visiting.)",
+      "lat": 38.695647,
+      "lon": -9.20931,
+      "photos": []
+    },
+    {
+      "n": "Feira da Ladra flea market",
+      "cat": "do",
+      "tier": "",
+      "a": "Alfama / Gra\u00e7a",
+      "d": "Lisbon's centuries-old open-air 'thieves' market', spread beside S\u00e3o Vicente de Fora on Tuesdays and Saturdays \u2014 azulejo fragments, vintage silver, old prints and genuine bric-a-brac for the patient browser. Best in the morning; a colourful, local counterpoint to the boutiques.",
+      "lat": 38.715393,
+      "lon": -9.125929,
+      "photos": []
+    },
+    {
+      "n": "Cristo Rei (Sanctuary of Christ the King)",
+      "cat": "do",
+      "tier": "",
+      "a": "Almada (across the Tagus)",
+      "d": "A 1950s Christ statue on a tall pedestal above the river's south bank, inspired by Rio's, with a lift to a viewing platform that gives the definitive panorama back over the whole of Lisbon and the 25 de Abril Bridge. A short ferry-and-taxi trip that reframes the whole city.",
+      "lat": 38.678549,
+      "lon": -9.171337,
+      "photos": []
+    },
+    {
+      "n": "25 de Abril Bridge & Pilar 7 experience",
+      "cat": "do",
+      "tier": "",
+      "a": "Alc\u00e2ntara",
+      "d": "The great red suspension bridge, sibling to San Francisco's, defines the Lisbon skyline; the Pilar 7 interpretive centre takes you inside a supporting pillar and up to a glass platform 80 metres above the water. A short, memorable stop with real drama for older children and teenagers.",
+      "lat": 38.70011,
+      "lon": -9.179424,
+      "photos": []
+    },
+    {
+      "n": "Ocean\u00e1rio de Lisboa",
+      "cat": "do",
+      "tier": "",
+      "a": "Parque das Na\u00e7\u00f5es",
+      "d": "One of the world's largest and most admired aquariums, built around a single vast ocean tank you circle over two levels, in the modern riverside quarter left from Expo '98. Reliably the highlight for families travelling with children \u2014 book a timed entry to avoid the queue.",
+      "lat": 38.76352,
+      "lon": -9.093716,
+      "photos": []
+    },
+    {
+      "n": "Parque das Na\u00e7\u00f5es & Telecabine cable car",
+      "cat": "do",
+      "tier": "",
+      "a": "Parque das Na\u00e7\u00f5es",
+      "d": "The sleek riverside district from Expo '98 \u2014 wide promenades, gardens, the Vasco da Gama tower and a gondola cable car gliding along the water past the Ocean\u00e1rio. Flat, pram-friendly and calm, a good half-day for a multi-generation group wanting space and modern comfort.",
+      "lat": 38.773573,
+      "lon": -9.091483,
+      "photos": []
+    },
+    {
+      "n": "Ajuda National Palace (Pal\u00e1cio Nacional da Ajuda)",
+      "cat": "do",
+      "tier": "",
+      "a": "Ajuda",
+      "d": "A neoclassical royal palace, the last official residence of Portugal's monarchy, whose staterooms drip with silk, porcelain and chandeliers \u2014 and which now displays the Portuguese Crown Jewels in a purpose-built treasury wing. Uphill from Bel\u00e9m and blissfully uncrowded compared with the coastal monuments.",
+      "lat": 38.707631,
+      "lon": -9.197833,
+      "photos": []
+    },
+    {
+      "n": "Coach Museum (Museu Nacional dos Coches)",
+      "cat": "do",
+      "tier": "",
+      "a": "Bel\u00e9m",
+      "d": "The world's finest collection of gilded royal and papal ceremonial carriages, a jaw-dropping parade of Baroque coaches dripping with carved cherubs and gold leaf, in a bright modern hall in Bel\u00e9m. Compact, universally appealing and easily folded into a Bel\u00e9m morning.",
+      "lat": 38.696864,
+      "lon": -9.197987,
+      "photos": []
+    },
+    {
+      "n": "Sintra \u2014 Pena Palace & Quinta da Regaleira (day trip)",
+      "cat": "do",
+      "tier": "",
+      "a": "Sintra (day trip, ~40 min)",
+      "d": "A misty, forested hill town of romantic palaces: Pena, a riot of red, yellow and tilework on a crag, and Quinta da Regaleira, with its symbolic gardens and the spiralling 27-metre Initiation Well. Cool, magical and deservedly essential \u2014 a private driver-guide is the sane way to see two or three sites in a day.",
+      "lat": 38.796127,
+      "lon": -9.396436,
+      "photos": []
+    },
+    {
+      "n": "Cascais & Estoril (day trip)",
+      "cat": "do",
+      "tier": "",
+      "a": "Cascais (day trip, ~40 min)",
+      "d": "An elegant former royal seaside resort of pastel villas, a pretty marina, sandy bays and the dramatic Boca do Inferno sea cave, easily reached by a scenic coastal train. A gentle, breezy counterpoint to city sightseeing, with good seafront dining for a relaxed lunch.",
+      "lat": 38.717123,
+      "lon": -9.360214,
+      "photos": []
+    },
+    {
+      "n": "Cabo da Roca (day trip)",
+      "cat": "do",
+      "tier": "",
+      "a": "Sintra coast (day trip)",
+      "d": "The westernmost point of continental Europe \u2014 a lighthouse on wild cliffs 140 metres above the Atlantic, where Portugal's poet Cam\u00f5es wrote that the land ends and the sea begins. A short, spectacular stop that pairs naturally with a Sintra or Cascais drive.",
+      "lat": 38.780904,
+      "lon": -9.499416,
+      "photos": []
+    },
+    {
+      "n": "\u00d3bidos (day trip)",
+      "cat": "do",
+      "tier": "",
+      "a": "\u00d3bidos (day trip, ~1 hr)",
+      "d": "A perfectly preserved medieval walled town of whitewashed houses and bougainvillea, once a wedding gift to Portugal's queens, that you can circle atop its ramparts. Try the cherry liqueur 'ginjinha' served in a chocolate cup; charming and unhurried, and often combined with the coast at Nazar\u00e9.",
+      "lat": 38.70437,
+      "lon": -9.162792,
+      "photos": []
+    },
+    {
+      "n": "Set\u00fabal & Serra da Arr\u00e1bida (day trip)",
+      "cat": "do",
+      "tier": "",
+      "a": "Set\u00fabal / Arr\u00e1bida (day trip, ~50 min)",
+      "d": "A working port city famed for fresh fried cuttlefish and Moscatel wine, gateway to the Arr\u00e1bida Natural Park \u2014 limestone cliffs plunging to turquoise coves like Galapinhos and Portinho da Arr\u00e1bida, among the loveliest beaches in Portugal. Boat trips from Set\u00fabal often spot the resident bottlenose dolphins.",
+      "lat": 38.6036,
+      "lon": -8.953848,
+      "photos": []
+    },
+    {
+      "n": "Azeit\u00e3o wine & cheese estates (day trip)",
+      "cat": "do",
+      "tier": "",
+      "a": "Azeit\u00e3o (day trip)",
+      "d": "Between Lisbon and Arr\u00e1bida lie the historic Jos\u00e9 Maria da Fonseca cellars \u2014 makers of Portugal's celebrated Moscatel de Set\u00fabal \u2014 and the villages behind the famous soft Azeit\u00e3o sheep's cheese and hand-painted azulejo workshops. A refined tasting circuit that a concierge can arrange privately.",
+      "lat": 38.696209,
+      "lon": -9.365287,
+      "photos": []
+    },
+    {
+      "n": "M\u00e3e d'\u00c1gua & \u00c1guas Livres Aqueduct",
+      "cat": "do",
+      "tier": "",
+      "a": "Amoreiras / Campolide",
+      "d": "The great 18th-century aqueduct strides across the Alc\u00e2ntara valley on colossal stone arches \u2014 one of Europe's boldest \u2014 and its terminal reservoir, the cavernous M\u00e3e d'\u00c1gua cistern, can be visited as an atmospheric, echoing water chamber. A little-known feat of engineering away from the crowds.",
+      "lat": 38.816011,
+      "lon": -9.230299,
+      "photos": []
+    },
+    {
+      "n": "Gulbenkian Gardens & Modern Collection (CAM)",
+      "cat": "do",
+      "tier": "",
+      "a": "Avenidas Novas / S\u00e3o Sebasti\u00e3o",
+      "d": "The serene modernist gardens surrounding the Gulbenkian \u2014 lakes, sculpture and shade that locals treasure \u2014 wrap the Centro de Arte Moderna, home to the finest collection of 20th-century Portuguese art. A cultured, green half-day, recently reopened after a redesign of its grounds and galleries.",
+      "lat": 38.735814,
+      "lon": -9.153696,
+      "photos": []
+    },
+    {
+      "n": "Ribeira das Naus riverside walk",
+      "cat": "do",
+      "tier": "",
+      "a": "Cais do Sodr\u00e9 / Baixa",
+      "d": "A landscaped waterfront promenade between Cais do Sodr\u00e9 and Pra\u00e7a do Com\u00e9rcio, with tiered steps down to the Tagus where the shipyards of the discoveries once stood \u2014 the best place in the centre to sit by the water at sunset. Flat, gentle and free, threading the two riverside squares together.",
+      "lat": 38.754232,
+      "lon": -9.153503,
+      "photos": []
+    },
+    {
+      "n": "Red Frog Speakeasy",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Avenida da Liberdade / Pr\u00edncipe Real",
+      "d": "Lisbon's globally-ranked speakeasy \u2014 a hidden 'press to enter' door and one of the most inventive cocktail lists in Iberia.",
+      "lat": 38.718276,
+      "lon": -9.144706,
+      "photos": []
+    },
+    {
+      "n": "Toca da Raposa",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Bairro Alto",
+      "d": "Constan\u00e7a Cordeiro's tiny, sustainability-led bar \u2014 foraged, seasonal, locally-made drinks in an intimate den.",
+      "lat": 38.71309,
+      "lon": -9.141884,
+      "photos": []
+    },
+    {
+      "n": "Sky Bar by SEEN",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "Avenida da Liberdade (Tivoli)",
+      "d": "The refined rooftop of the Tivoli on the Liberdade \u2014 polished cocktails and an elevated sweep across the city.",
+      "lat": 38.721085,
+      "lon": -9.147082,
+      "photos": []
+    },
+    {
+      "n": "TOPO Martim Moniz",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "Martim Moniz / Mouraria",
+      "d": "A wooden terrace six floors above Pra\u00e7a Martim Moniz \u2014 a direct, dramatic view up to S\u00e3o Jorge Castle.",
+      "lat": 38.7175,
+      "lon": -9.135793,
+      "photos": []
+    },
+    {
+      "n": "Park",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "Bairro Alto",
+      "d": "Lisbon's cult rooftop \u2014 a lush garden bar on top of a Bairro Alto car park, with the river and the Bas\u00edlica da Estrela beyond.",
+      "lat": 38.767819,
+      "lon": -9.099221,
+      "photos": []
+    },
+    {
+      "n": "Pens\u00e3o Amor",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "Cais do Sodr\u00e9",
+      "d": "A former bordello turned baroque, red-velvet bar on the old sailors' street \u2014 theatrical, decadent and quintessentially Lisbon.",
+      "lat": 38.70731,
+      "lon": -9.143535,
+      "photos": []
+    },
+    {
+      "n": "Pavilh\u00e3o Chin\u00eas",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "Pr\u00edncipe Real",
+      "d": "A labyrinth of five rooms crammed with a century of curiosities \u2014 Lisbon's most famous, most eccentric old bar.",
+      "lat": 38.715713,
+      "lon": -9.146769,
+      "photos": []
+    }
+  ]
+}

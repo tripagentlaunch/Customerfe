@@ -1,1 +1,1268 @@
-{"center": [1.357107, 103.819499], "venues": [{"n": "Raffles Hotel Singapore", "cat": "stay", "tier": "Ultra", "a": "City Hall / Beach Road", "d": "The white colonial grande dame the whole city is measured against — and still the finest room in it.", "lat": 1.294682, "lon": 103.854641, "p": "v"}, {"n": "Capella Singapore", "cat": "stay", "tier": "Ultra", "a": "Sentosa Island", "d": "A Norman Foster-restored colonial estate in the rainforest — resort calm, minutes from the city.", "lat": 1.249698, "lon": 103.824431, "p": "v"}, {"n": "The Fullerton Bay Hotel Singapore", "cat": "stay", "tier": "Ultra", "a": "Marina Bay", "d": "A glass pavilion on the water, looking straight across the bay to the skyline.", "lat": 1.283339, "lon": 103.853394, "p": "v"}, {"n": "The Paiza Collection at Marina Bay Sands", "cat": "stay", "tier": "Ultra", "a": "Marina Bay", "d": "The private hotel-within-the-hotel at Marina Bay Sands — arrival by Rolls-Royce, a dedicated lift, total discretion.", "lat": 1.284021, "lon": 103.858868, "p": "v"}, {"n": "Raffles Sentosa Singapore", "cat": "stay", "tier": "Ultra", "a": "Sentosa Island", "d": "Raffles' all-villa resort debut — private pools and hilltop calm, the marque's newest Singapore address.", "lat": 1.247135, "lon": 103.826472, "p": "v"}, {"n": "Four Seasons Hotel Singapore", "cat": "stay", "tier": "Grand", "a": "Orchard Road", "d": "The surest hands off Orchard Road — quiet, art-filled, and effortless with families.", "lat": 1.30521, "lon": 103.828653, "p": "v"}, {"n": "Mandarin Oriental, Singapore", "cat": "stay", "tier": "Grand", "a": "Marina Bay", "d": "A fan-shaped tower with the group's quiet precision and rooms that fan out over the bay.", "lat": 1.290661, "lon": 103.858324, "p": "v"}, {"n": "The Ritz-Carlton, Millenia Singapore", "cat": "stay", "tier": "Grand", "a": "Marina Bay / Marina Centre", "d": "A serious art collection and octagonal-window bathtubs framing the bay — grand, and quietly famous for it.", "lat": 1.290534, "lon": 103.860074, "p": "v"}, {"n": "The St. Regis Singapore", "cat": "stay", "tier": "Grand", "a": "Tanglin / Orchard", "d": "Old-world St. Regis grandeur off Orchard — butler service and a museum's worth of art in the halls.", "lat": 1.305758, "lon": 103.826036, "p": "v"}, {"n": "Conrad Singapore Orchard", "cat": "stay", "tier": "Grand", "a": "Orchard Road", "d": "A polished, freshly reimagined Orchard tower — central, capable, and easy on the shopper.", "lat": 1.304624, "lon": 103.824849, "p": "v"}, {"n": "Marina Bay Sands", "cat": "stay", "tier": "Grand", "a": "Marina Bay", "d": "The three-towered icon crowned by the ship-shaped SkyPark — the photograph the whole world knows.", "lat": 1.283697, "lon": 103.860723, "p": "v"}, {"n": "Conrad Centennial Singapore", "cat": "stay", "tier": "Luxury", "a": "Marina Centre / Promenade", "d": "A dependable, art-hung tower by the convention halls — spacious and unshowy.", "lat": 1.293437, "lon": 103.858773, "p": "v"}, {"n": "Artyzen Singapore", "cat": "stay", "tier": "Luxury", "a": "Orchard / Cuscaden", "d": "A calm, design-led newcomer off Orchard — vertical greenery and quiet good taste.", "lat": 1.30579, "lon": 103.827032, "p": "v"}, {"n": "PARKROYAL COLLECTION Pickering", "cat": "stay", "tier": "Luxury", "a": "Chinatown / Clarke Quay", "d": "The famous hotel-in-a-garden — cascading sky terraces of greenery over the old town.", "lat": 1.285657, "lon": 103.846257, "p": "v"}, {"n": "The Fullerton Hotel Singapore", "cat": "stay", "tier": "Luxury", "a": "Marina Bay / The Fullerton", "d": "The grand old General Post Office, a neoclassical landmark reborn at the mouth of the river.", "lat": 1.286202, "lon": 103.853073, "p": "v"}, {"n": "The Capitol Kempinski Hotel Singapore", "cat": "stay", "tier": "Luxury", "a": "City Hall", "d": "Two restored 1930s landmarks turned into a small, characterful house in the civic heart.", "lat": 1.293991, "lon": 103.850897, "p": "v"}, {"n": "InterContinental Singapore", "cat": "stay", "tier": "Luxury", "a": "Bugis / Bras Basah", "d": "Peranakan shophouse charm woven into a grand hotel, over the arts-and-heritage quarter.", "lat": 1.298348, "lon": 103.854904, "p": "v"}, {"n": "Pan Pacific Singapore", "cat": "stay", "tier": "Luxury", "a": "Marina Centre / Promenade", "d": "A soaring atrium tower with wide bay views and a smooth, Asian-service ease.", "lat": 1.292351, "lon": 103.858684, "p": "v"}, {"n": "Fairmont Singapore", "cat": "stay", "tier": "Premium", "a": "City Hall / Marina Centre", "d": "A big, capable twin-tower house with one of the city's best spas attached.", "lat": 1.294004, "lon": 103.853966, "p": "v"}, {"n": "Goodwood Park Hotel", "cat": "stay", "tier": "Premium", "a": "Scotts Road / Orchard", "d": "A garden-set heritage landmark of 1900, long a favourite for its quiet lawns and durian pastries.", "lat": 1.30869, "lon": 103.834993, "p": "v"}, {"n": "W Singapore, Sentosa Cove", "cat": "stay", "tier": "Premium", "a": "Sentosa Cove", "d": "A high-energy design resort by the marina — for members who want the music turned up.", "lat": 1.246365, "lon": 103.842351, "p": "v"}, {"n": "Odette", "cat": "eat", "tier": "Destination", "a": "City Hall (National Gallery)", "d": "Julien Royer's modern French inside the National Gallery — the city's most decorated table.", "lat": 1.289947, "lon": 103.851523, "p": "v"}, {"n": "Les Amis", "cat": "eat", "tier": "Destination", "a": "Orchard (Shaw Centre)", "d": "A French institution since 1994 — classical haute cuisine and one of Asia's great cellars.", "lat": 1.306634, "lon": 103.831349, "p": "v"}, {"n": "Zén", "cat": "eat", "tier": "Destination", "a": "Bukit Pasoh (Chinatown)", "d": "Björn Frantzén's Singapore house — Scandinavian purity meets Japanese finesse across three floors of a shophouse.", "lat": 1.341019, "lon": 103.772601, "p": "v"}, {"n": "Cloudstreet", "cat": "eat", "tier": "Destination", "a": "Amoy Street (Telok Ayer)", "d": "Rishi Naleendra's precise, fermentation-led cooking — Sri Lankan soul, exacting technique.", "lat": 1.351092, "lon": 103.994982, "p": "v"}, {"n": "Jaan by Kirk Westaway", "cat": "eat", "tier": "Destination", "a": "City Hall (Swissôtel The Stamford)", "d": "'Reinventing British' cooking on the 70th floor — technique and a view in equal measure.", "lat": 1.293317, "lon": 103.853398, "p": "a"}, {"n": "Meta", "cat": "eat", "tier": "Destination", "a": "Keong Saik Road", "d": "Sun Kim's highwire act between Korea and Europe — inventive, assured, quietly thrilling.", "lat": 1.317299, "lon": 103.702944, "p": "v"}, {"n": "Saint Pierre", "cat": "eat", "tier": "Destination", "a": "Marina Bay (One Fullerton)", "d": "Emmanuel Stroobant's French-Asian cooking, waterside, with the bay for a backdrop.", "lat": 1.290256, "lon": 103.851471, "p": "v"}, {"n": "Shoukouwa", "cat": "eat", "tier": "Destination", "a": "Marina Bay (One Fullerton)", "d": "An eight-seat sushi counter flown daily from Toyosu — the quietest luxury in town.", "lat": 1.304604, "lon": 103.824818, "p": "v"}, {"n": "Thevar", "cat": "eat", "tier": "Destination", "a": "Keong Saik Road", "d": "Spice-spiked modern Indian cooking that earned Singapore's most exciting two-star climb.", "lat": 1.351092, "lon": 103.994982, "p": "v"}, {"n": "Sushi Sakuta", "cat": "eat", "tier": "Destination", "a": "Amoy Street (Far East Square)", "d": "A serene Edomae counter, newly promoted — precise, unhurried, deeply traditional.", "lat": 1.299769, "lon": 103.853939, "p": "v"}, {"n": "Waku Ghin", "cat": "eat", "tier": "Destination", "a": "Marina Bay Sands", "d": "Tetsuya Wakuda's intimate multi-room dinner at Marina Bay Sands — Japanese-European, jewel-like.", "lat": 1.283886, "lon": 103.859016, "p": "v"}, {"n": "Burnt Ends", "cat": "eat", "tier": "Fine", "a": "Dempsey Hill", "d": "Everything through the custom four-tonne ovens — the barbecue counter that became a pilgrimage.", "lat": 1.304628, "lon": 103.808869, "p": "v"}, {"n": "Candlenut", "cat": "eat", "tier": "Fine", "a": "Dempsey Hill (COMO Dempsey)", "d": "The world's first Michelin-starred Peranakan kitchen — Malcolm Lee's refined Nyonya cooking.", "lat": 1.305813, "lon": 103.810034, "p": "v"}, {"n": "Labyrinth", "cat": "eat", "tier": "Fine", "a": "Marina Bay (Esplanade)", "d": "Han Liguang's 'new Singaporean' cooking — hawker memories reimagined with local farms.", "lat": 1.289795, "lon": 103.856063, "p": "v"}, {"n": "Seroja", "cat": "eat", "tier": "Fine", "a": "Duo Galleria (Bugis)", "d": "Kevin Wong's ode to Nusantara flavours — Malay-archipelago cooking with real elegance.", "lat": 1.299585, "lon": 103.858135, "p": "v"}, {"n": "Euphoria", "cat": "eat", "tier": "Fine", "a": "Tras Street (Tanjong Pagar)", "d": "Jason Tan's 'gastro-botanica' — vegetable-led fine dining of great delicacy.", "lat": 1.27738, "lon": 103.844169, "p": "v"}, {"n": "Cut by Wolfgang Puck", "cat": "eat", "tier": "Destination", "a": "Marina Bay Sands", "d": "Wolfgang Puck's modern steakhouse — the city's most polished room for a great cut.", "lat": 1.284146, "lon": 103.859078, "p": "v"}, {"n": "Summer Pavilion", "cat": "eat", "tier": "Fine", "a": "Marina Centre (Ritz-Carlton)", "d": "Refined Cantonese in a garden-pavilion setting — the grand Chinese lunch, immaculately done.", "lat": 1.324585, "lon": 103.848423, "p": "v"}, {"n": "Shisen Hanten by Chen Kentaro", "cat": "eat", "tier": "Fine", "a": "Orchard (Mandarin Orchard / Hilton)", "d": "Third-generation Szechuan mastery — mapo tofu the way it should be.", "lat": 1.302051, "lon": 103.836082, "p": "a"}, {"n": "Iggy's", "cat": "eat", "tier": "Fine", "a": "Orchard (Hilton Singapore Orchard)", "d": "A long-running critical darling — European cooking with a wine list to match.", "lat": 1.351092, "lon": 103.994982, "p": "v"}, {"n": "Nouri", "cat": "eat", "tier": "Fine", "a": "Amoy Street (Telok Ayer)", "d": "Ivan Brehm's 'crossroads cooking' — a thoughtful blur of world cuisines under one star.", "lat": 1.280223, "lon": 103.846679, "p": "v"}, {"n": "Nae:um", "cat": "eat", "tier": "Fine", "a": "Telok Ayer", "d": "Louis Han's memory-led Korean cooking — seasonal, personal, quietly moving.", "lat": 1.296202, "lon": 103.776898, "p": "v"}, {"n": "Buona Terra", "cat": "eat", "tier": "Fine", "a": "Scotts Road (Orchard)", "d": "A warm, family-run Italian doing quietly excellent contemporary cooking.", "lat": 1.30661, "lon": 103.790751, "p": "v"}, {"n": "Alma by Juan Amador", "cat": "eat", "tier": "Fine", "a": "Scotts Road (Goodwood Park)", "d": "European fine dining with a light, generous hand in a garden-hotel setting.", "lat": 1.30869, "lon": 103.834993, "p": "a"}, {"n": "Summer Palace", "cat": "eat", "tier": "Fine", "a": "Marina Centre (Regent Singapore)", "d": "Classic, exacting Cantonese — the grand hotel Chinese dinner at its most assured.", "lat": 1.352141, "lon": 103.875417, "p": "v"}, {"n": "Imperial Treasure Fine Teochew Cuisine", "cat": "eat", "tier": "Fine", "a": "Orchard (ION Orchard)", "d": "Teochew cooking done with rare precision — braised goose and clear, clean flavours.", "lat": 1.302709, "lon": 103.834797, "p": "v"}, {"n": "Lei Garden", "cat": "eat", "tier": "Fine", "a": "Chijmes (City Hall)", "d": "A Cantonese stalwart in the Chijmes cloisters — dim sum and roast meats, done properly.", "lat": 1.342414, "lon": 103.732547, "p": "v"}, {"n": "Whitegrass", "cat": "eat", "tier": "Fine", "a": "Chijmes (City Hall)", "d": "Contemporary Australian-French cooking in a restored chapel-precinct room.", "lat": 1.351092, "lon": 103.994982, "p": "v"}, {"n": "Araya", "cat": "eat", "tier": "Fine", "a": "Duxton (Tanjong Pagar)", "d": "A refined Latin-American tasting menu — precise, warm and hard to book.", "lat": 1.351092, "lon": 103.994982, "p": "v"}, {"n": "Pangium", "cat": "eat", "tier": "Fine", "a": "Dempsey Hill", "d": "Malcolm Lee's second act — Southeast-Asian heritage cooking with a green conscience.", "lat": 1.314563, "lon": 103.809349, "p": "v"}, {"n": "Hill Street Tai Hwa Pork Noodle", "cat": "eat", "tier": "Casual", "a": "Lavender (Crawford Lane)", "d": "The bak chor mee that holds a Michelin star — proof a single hawker bowl can be world-class.", "lat": 1.305114, "lon": 103.862559, "p": "v"}, {"n": "Kotuwa", "cat": "eat", "tier": "Smart", "a": "New Bahru (River Valley)", "d": "Modern Sri Lankan cooking with real fire and spice — hoppers and curries done with care.", "lat": 1.292897, "lon": 103.838797, "p": "v"}, {"n": "Jungle", "cat": "eat", "tier": "Smart", "a": "Amoy Street (Telok Ayer)", "d": "Bold, herb-driven Thai cooking that punches well above its price.", "lat": 1.356899, "lon": 103.774423, "p": "v"}, {"n": "Boon Tong Kee", "cat": "eat", "tier": "Casual", "a": "River Valley", "d": "A legendary Hainanese chicken rice house, freshly promoted for doing the classic best.", "lat": 1.367463, "lon": 103.837056, "p": "v"}, {"n": "Ji Ji Wanton Noodle Specialist", "cat": "eat", "tier": "Casual", "a": "Hong Lim (Chinatown)", "d": "A Hong Lim hawker favourite, newly starred by the Bib for its wanton mee.", "lat": 1.285476, "lon": 103.845795, "p": "v"}, {"n": "Nam Sing Hokkien Fried Mee", "cat": "eat", "tier": "Casual", "a": "Old Airport Road", "d": "A famed hawker plate of Hokkien mee — smoky, wet, and quietly perfect.", "lat": 1.323067, "lon": 103.854971, "p": "v"}, {"n": "Sin Heng Claypot Bak Koot Teh", "cat": "eat", "tier": "Casual", "a": "Joo Chiat", "d": "Peppery pork-rib soup in a claypot — old-Singapore comfort, credentialed by the inspectors.", "lat": 1.307144, "lon": 103.904322, "p": "v"}, {"n": "To-Ricos Kway Chap", "cat": "eat", "tier": "Casual", "a": "Old Airport Road", "d": "A beloved kway chap stall — braised, soulful, and worth the queue.", "lat": 1.30597, "lon": 103.882233, "p": "a"}, {"n": "Song Kee Teochew Fish Porridge", "cat": "eat", "tier": "Casual", "a": "Serangoon", "d": "Clean, restorative Teochew fish porridge — the antidote to a heavy week.", "lat": 1.358347, "lon": 103.874772, "p": "v"}, {"n": "Lao Fu Zi Fried Kway Teow", "cat": "eat", "tier": "Casual", "a": "Old Airport Road", "d": "Char kway teow with real wok hei — the smoky char that defines the dish.", "lat": 1.30597, "lon": 103.882233, "p": "a"}, {"n": "Kitchenman Nasi Lemak", "cat": "eat", "tier": "Casual", "a": "Bukit Merah", "d": "Fragrant coconut-rice nasi lemak done with a cook's care — a Bib-listed favourite.", "lat": 1.312378, "lon": 103.86302, "p": "v"}, {"n": "Jigger & Pony", "cat": "eat", "tier": "Smart", "a": "Tanjong Pagar (Amara Hotel)", "d": "Singapore's best bar, and among Asia's finest — a cocktail room the world flies in for.", "lat": 1.309137, "lon": 103.778144, "p": "v"}, {"n": "Nutmeg & Clove", "cat": "eat", "tier": "Smart", "a": "Purvis Street (City Hall)", "d": "Cocktails that tell Singapore's own story — local flavours, world-class craft.", "lat": 1.296637, "lon": 103.855107, "p": "v"}, {"n": "Analogue", "cat": "eat", "tier": "Smart", "a": "Chijmes (City Hall)", "d": "A sustainability-minded bar in the Chijmes cloisters — inventive, and quietly conscientious.", "lat": 1.358324, "lon": 103.947314, "p": "v"}, {"n": "Native", "cat": "eat", "tier": "Smart", "a": "Amoy Street (Telok Ayer)", "d": "Regional Southeast-Asian spirits and foraged flavours — a bar with a real sense of place.", "lat": 1.295583, "lon": 103.77446, "p": "v"}, {"n": "Gardens by the Bay", "cat": "do", "tier": "", "a": "Marina Bay", "d": "The Supertree Grove, the Cloud Forest with the world's tallest indoor waterfall, and the record-holding Flower Dome — a garden built like a city. Come at dusk to walk the OCBC Skyway between the Supertrees, then stay for the free Garden Rhapsody light-and-sound show at night. Wide, flat and pram-friendly, so it works well for a multi-generation group.", "lat": 1.281149, "lon": 103.86496, "p": "v"}, {"n": "Marina Bay Sands SkyPark Observation Deck", "cat": "do", "tier": "", "a": "Marina Bay", "d": "The ship-shaped deck cantilevered 57 storeys up gives the definitive Singapore skyline view — the bay, the CBD towers and Gardens by the Bay laid out below. Go at golden hour; if you are staying at the hotel you get the famous 150m infinity pool, which non-guests cannot access.", "lat": 1.284918, "lon": 103.861157, "p": "v"}, {"n": "Singapore Botanic Gardens & National Orchid Garden", "cat": "do", "tier": "", "a": "Tanglin", "d": "Singapore's only UNESCO World Heritage Site and the world's first tropical botanic garden on the list — 82 hectares of rainforest, lakes and heritage trees in the middle of the city. The ticketed National Orchid Garden holds 1,000+ species, including the hybrids named for visiting heads of state. Free entry to the wider gardens; ideal for an unhurried morning walk.", "lat": 1.311747, "lon": 103.81476, "p": "v"}, {"n": "ArtScience Museum", "cat": "do", "tier": "", "a": "Marina Bay", "d": "The lotus-shaped building beside Marina Bay Sands, best known for the permanent teamLab 'Future World' immersive digital installations that children and adults get equally lost in. It also runs serious travelling exhibitions on science, design and art.", "lat": 1.286138, "lon": 103.85923, "p": "v"}, {"n": "National Gallery Singapore", "cat": "do", "tier": "", "a": "Civic District", "d": "The world's largest public collection of modern Southeast Asian art, housed in the beautifully restored former Supreme Court and City Hall. Worth it for the architecture alone; finish with a drink at the rooftop bar for a Padang-and-bay view. Strong for collectors and anyone who wants depth beyond the theme parks.", "lat": 1.290256, "lon": 103.851471, "p": "v"}, {"n": "Merlion Park & the Marina Bay waterfront promenade", "cat": "do", "tier": "", "a": "Marina Bay", "d": "The half-lion, half-fish icon spouting water into the bay, with the classic straight-on view of Marina Bay Sands across the water. The best move is simply to walk the full bayfront loop — Merlion to Esplanade to the Helix Bridge to Sands — especially after dark when everything is lit.", "lat": 1.277658, "lon": 103.853687, "p": "a"}, {"n": "Chinatown & Sri Mariamman Temple / Buddha Tooth Relic Temple", "cat": "do", "tier": "", "a": "Chinatown", "d": "Restored shophouse lanes, the ornate Sri Mariamman (Singapore's oldest Hindu temple) and the grand red-and-gold Buddha Tooth Relic Temple within a few streets of each other. Wander Pagoda and Temple Streets, then eat at Chinatown Complex or Maxwell. Plenty of vegetarian and South Indian food nearby, which helps veg and Jain travellers.", "lat": 1.279969, "lon": 103.843688, "p": "a"}, {"n": "Maxwell Food Centre", "cat": "do", "tier": "", "a": "Chinatown", "d": "The most decorated hawker centre in the city — eight stalls landed in the 2025 Michelin Bib Gourmand list. Home of the legendary Tian Tian Hainanese chicken rice; go early, eat like a local, and understand why Singaporeans take food this seriously.", "lat": 1.279302, "lon": 103.846657, "p": "v"}, {"n": "Kampong Glam & Sultan Mosque", "cat": "do", "tier": "", "a": "Kampong Glam", "d": "The old Malay-Arab quarter — the golden-domed Sultan Mosque, textile and perfume shops on Arab Street, and Haji Lane, a narrow alley of boutiques, murals and rooftop bars. The most atmospheric quarter to wander on foot in the late afternoon.", "lat": 1.301978, "lon": 103.85929, "p": "v"}, {"n": "Little India & Sri Veeramakaliamman Temple", "cat": "do", "tier": "", "a": "Little India", "d": "The most sensory neighbourhood in Singapore — garland stalls, spice shops, the colourful Tan Teng Niah house and the vivid Sri Veeramakaliamman Temple. For Indian travellers it is both familiar and a revelation; some of the best vegetarian thalis and dosas in the city are here, and Tekka Centre downstairs is a proper wet-market-plus-hawker experience.", "lat": 1.307946, "lon": 103.852396, "p": "v"}, {"n": "Universal Studios Singapore", "cat": "do", "tier": "", "a": "Sentosa", "d": "Southeast Asia's Universal park, with zones themed to Jurassic World, Transformers, Sci-Fi City and more — the anchor family attraction on Sentosa. Book Express passes to skip the queues; combine with a Sentosa hotel night to avoid a rushed day.", "lat": 1.254201, "lon": 103.822667, "p": "v"}, {"n": "S.E.A. Aquarium (Singapore Oceanarium)", "cat": "do", "tier": "", "a": "Sentosa", "d": "One of the world's largest aquariums, with a vast Open Ocean tank you can sit in front of like a cinema, home to manta rays and sharks. Reliable, air-conditioned and genuinely calming — an easy win with young children or grandparents.", "lat": 1.351092, "lon": 103.994982, "p": "v"}, {"n": "Night Safari", "cat": "do", "tier": "", "a": "Mandai", "d": "The world's first nocturnal wildlife park — you ride a tram through dimly lit habitats to see lions, tapirs and Asian elephants active after dark. A distinctive Singapore evening; opens at 6:30pm, so pair it with the neighbouring parks earlier in the day.", "lat": 1.401353, "lon": 103.789002, "p": "v"}, {"n": "Singapore Zoo & River Wonders", "cat": "do", "tier": "", "a": "Mandai", "d": "Consistently rated among the world's best zoos for its open, moated 'rainforest' design — famous for the Breakfast with Orangutans experience. Adjoining River Wonders adds giant pandas and a huge freshwater collection. The strongest single day out for families with children.", "lat": 1.402019, "lon": 103.791605, "p": "v"}, {"n": "Bird Paradise", "cat": "do", "tier": "", "a": "Mandai", "d": "Asia's largest bird park, with eight walk-through aviaries you can stroll through as free-flying birds swoop around you, and 3,500 birds across 400 species. The newest of the Mandai parks and beautifully designed — quieter and more contemplative than the zoo.", "lat": 1.405456, "lon": 103.780986, "p": "v"}, {"n": "Tiong Bahru", "cat": "do", "tier": "", "a": "Tiong Bahru", "d": "Singapore's oldest housing estate — curved 1930s Art Deco blocks, an indie bookshop, third-wave cafés and the excellent Tiong Bahru Market for hawker breakfast. The city's most walkable, low-key morning: no ticket, just wander and eat.", "lat": 1.286179, "lon": 103.827225, "p": "v"}, {"n": "Katong & Joo Chiat", "cat": "do", "tier": "", "a": "Katong-Joo Chiat", "d": "The heart of Peranakan Singapore — rows of pastel shophouses with ornate ceramic tiles, and the celebrated Koon Seng Road terraces. Come for laksa and kaya toast, and to see a heritage quarter that won a UNESCO Asia-Pacific conservation award. Off the tourist trail and all the better for it.", "lat": 1.306928, "lon": 103.904531, "p": "v"}, {"n": "Peranakan Museum", "cat": "do", "tier": "", "a": "Civic District", "d": "A jewel-box museum devoted to Straits-Chinese culture — beadwork, porcelain, jewellery and the material world of the Peranakans, recently reopened after a full revamp. The best primer before wandering Katong or Emerald Hill.", "lat": 1.294291, "lon": 103.849109, "p": "v"}, {"n": "National Museum of Singapore", "cat": "do", "tier": "", "a": "Civic District", "d": "The country's oldest museum, telling the Singapore story from its trading-port origins through independence, in a grand colonial building with a striking glass rotunda. A good orientation on day one — note the History Gallery is under restoration until late 2026, but the rest remains open.", "lat": 1.296548, "lon": 103.848317, "p": "v"}, {"n": "The Southern Ridges — Henderson Waves", "cat": "do", "tier": "", "a": "Telok Blangah / Mount Faber", "d": "A 9km chain of hilltop parks linked by walkways, crowned by Henderson Waves — Singapore's highest pedestrian bridge, a sculptural timber wave 36m up with harbour and skyline views. Do the shorter Mount Faber to HortPark stretch for the best of it; the bridge is lit at night.", "lat": 1.275678, "lon": 103.816336, "p": "v"}, {"n": "MacRitchie Reservoir & TreeTop Walk", "cat": "do", "tier": "", "a": "Central Catchment", "d": "The city's green lung — boardwalks over the reservoir, monkeys and monitor lizards, and a 250m suspension bridge strung through the rainforest canopy. A proper jungle hike ten minutes from downtown; go early to beat the heat.", "lat": 1.403708, "lon": 103.794037, "p": "a"}, {"n": "Fort Canning Park", "cat": "do", "tier": "", "a": "Civic District", "d": "A hilltop park layered with history — 14th-century royal grounds, WWII bunkers and the famous 'Tree Tunnel' spiral staircase that fills every Instagram feed. A shaded, central green break between museum visits.", "lat": 1.294016, "lon": 103.846008, "p": "v"}, {"n": "Emerald Hill", "cat": "do", "tier": "", "a": "Orchard", "d": "A single, quiet cul-de-sac of exquisitely preserved Peranakan terrace houses tucked just off the Orchard Road shopping strip — a five-minute detour that most visitors miss. Have a drink at one of the old shophouse bars at the foot of the hill.", "lat": 1.302928, "lon": 103.839478, "p": "v"}, {"n": "Orchard Road", "cat": "do", "tier": "", "a": "Orchard", "d": "Singapore's mile of malls — ION Orchard, Ngee Ann City / Takashimaya and Paragon carry the full luxury roster. Efficient, air-conditioned and comprehensive; the practical choice when you want the brands under one roof rather than a hunt.", "lat": 1.301908, "lon": 103.835916, "p": "v"}, {"n": "The Shoppes at Marina Bay Sands", "cat": "do", "tier": "", "a": "Marina Bay", "d": "The waterfront luxury mall with 170+ premium brands, a canal you can ride a sampan on, and the Apple 'floating' store on the bay. High-end flagship shopping with the Sands spectacle attached — and a rain-proof link to the museum, casino and hotel.", "lat": 1.284021, "lon": 103.858868, "p": "v"}, {"n": "Raffles Hotel & the Long Bar", "cat": "do", "tier": "", "a": "Civic District", "d": "The grand colonial hotel where the Singapore Sling was invented in 1915 — restored to full lustre, with an arcade of luxury boutiques and the Long Bar where you still drop peanut shells on the floor. Worth a walk-through and a cocktail even if you are not staying.", "lat": 1.292351, "lon": 103.858684, "p": "v"}, {"n": "Chijmes", "cat": "do", "tier": "", "a": "Civic District", "d": "A restored 19th-century convent and Gothic chapel turned into a courtyard of restaurants and bars — one of the prettiest places in the city for a candlelit dinner. A polished, atmospheric evening away from the malls.", "lat": 1.295187, "lon": 103.851857, "p": "v"}, {"n": "Clarke Quay & the Singapore River", "cat": "do", "tier": "", "a": "Clarke Quay", "d": "The riverside strip of old godowns (warehouses) now full of restaurants and bars, and the departure point for the classic bumboat river cruise past the Merlion to Marina Bay. Do the cruise at dusk for the city lights; the nightlife here has just been refreshed.", "lat": 1.289073, "lon": 103.841986, "p": "v"}, {"n": "Lau Pa Sat", "cat": "do", "tier": "", "a": "Downtown Core", "d": "A gorgeous Victorian cast-iron market hall — a national monument — packed with hawker stalls, where the neighbouring street closes each evening to become the smoky 'Satay Street'. The most convenient CBD hawker experience and a beautiful building in its own right.", "lat": 1.280617, "lon": 103.85048, "p": "v"}, {"n": "Chinatown Complex Market & Food Centre", "cat": "do", "tier": "", "a": "Chinatown", "d": "Singapore's largest hawker hub — 700+ stalls over several floors, including the stall that once held a Michelin star for soya-sauce chicken. Gritty, authentic and endlessly cheap; go with an empty stomach and no plan.", "lat": 1.285303, "lon": 103.845822, "p": "v"}, {"n": "Haw Par Villa", "cat": "do", "tier": "", "a": "Pasir Panjang", "d": "A gloriously eccentric 1930s park of lurid dioramas illustrating Chinese mythology — most famously the graphic 'Ten Courts of Hell'. Free, strange and unforgettable; nothing else in the city is remotely like it.", "lat": 1.282678, "lon": 103.781802, "p": "v"}, {"n": "Sri Mariamman Temple", "cat": "do", "tier": "", "a": "Chinatown", "d": "Singapore's oldest Hindu temple, its rainbow gopuram tower crowded with painted deities rising incongruously out of Chinatown. During the annual Theemithi festival, devotees walk over hot coals in the courtyard. A moving, active place of worship — for Indian travellers, a piece of home in an unexpected setting.", "lat": 1.282684, "lon": 103.845194, "p": "v"}, {"n": "Thian Hock Keng Temple", "cat": "do", "tier": "", "a": "Telok Ayer", "d": "The city's oldest and most important Hokkien temple, built in 1839 by grateful immigrants where the sea once lapped the shore — an exquisite piece of southern-Chinese architecture on Telok Ayer Street. Pair it with the mosque and church on the same historic street of faiths.", "lat": 1.281005, "lon": 103.847496, "p": "v"}, {"n": "Singapore Flyer", "cat": "do", "tier": "", "a": "Marina Bay", "d": "The giant observation wheel over the bay, with 30-minute rotations that reveal the skyline, the Formula 1 street circuit and, on a clear day, Malaysia and Indonesia. You can book a private capsule with dinner for a discreet celebration.", "lat": 1.28941, "lon": 103.863125, "p": "v"}, {"n": "Jewel Changi Airport & the HSBC Rain Vortex", "cat": "do", "tier": "", "a": "Changi", "d": "The world's tallest indoor waterfall thundering seven storeys through a glass dome ringed by rainforest — and it is inside the airport. Worth a deliberate visit even without a flight; a genuinely jaw-dropping arrival or departure, and a fine last few hours before you fly.", "lat": 1.351092, "lon": 103.994982, "p": "a"}, {"n": "Pulau Ubin", "cat": "do", "tier": "", "a": "Changi / offshore", "d": "A 15-minute bumboat from Changi Point drops you into Singapore of the 1960s — a rustic island of last-remaining kampong (village) life, mangroves and jungle you explore by rented bicycle. The Chek Jawa wetlands at low tide are extraordinary. The city's easiest escape into another era.", "lat": 1.413448, "lon": 103.965943, "p": "v"}, {"n": "Palawan Beach & the Southern Ridges of Sentosa", "cat": "do", "tier": "", "a": "Sentosa", "d": "Sentosa's family beach, with a rope suspension bridge out to the 'Southernmost Point of Continental Asia' and a lookout tower. Low-key, shaded and easy — a gentler counterpoint to the island's theme parks.", "lat": 1.250396, "lon": 103.820544, "p": "v"}, {"n": "Esplanade — Theatres on the Bay", "cat": "do", "tier": "", "a": "Marina Bay", "d": "The 'durian'-domed performing arts centre on the bayfront — world-class concerts, theatre and a strong run of free performances on the outdoor stage most evenings. Check the programme; there is nearly always something on, much of it free.", "lat": 1.289644, "lon": 103.855954, "p": "v"}, {"n": "Singapore Cable Car (Mount Faber to Sentosa)", "cat": "do", "tier": "", "a": "Mount Faber", "d": "A glass cabin gliding from a rainforest hilltop across the harbour to Sentosa, with the port, container ships and Southern Islands spread below. The most scenic way to reach the island; private-cabin dining is available for a special occasion.", "lat": 1.271252, "lon": 103.819359, "p": "v"}, {"n": "Gillman Barracks", "cat": "do", "tier": "", "a": "Alexandra", "d": "A cluster of restored 1930s colonial army barracks turned contemporary-art enclave — commercial galleries, artist studios and a relaxed café or two under old rain trees. The quiet, serious end of the Singapore art scene, and pleasantly uncrowded.", "lat": 1.276846, "lon": 103.804061, "p": "v"}, {"n": "Fort Siloso", "cat": "do", "tier": "", "a": "Sentosa", "d": "Singapore's only preserved coastal fort, with WWII gun emplacements and tunnels and a treetop 'Skywalk' out to the ramparts. A substantial, breezy history stop on Sentosa that balances out the theme-park day.", "lat": 1.258767, "lon": 103.808798, "p": "v"}, {"n": "Coney Island (Pulau Serangoon)", "cat": "do", "tier": "", "a": "Punggol", "d": "A rugged, deliberately undeveloped nature park on the northeast coast — coastal forest, casuarina groves and quiet beaches, best explored on foot or by bike. One of the last genuinely wild-feeling corners of Singapore, and rarely busy.", "lat": 1.409418, "lon": 103.92147, "p": "v"}, {"n": "Bintan Island day trip (Indonesia)", "cat": "do", "tier": "", "a": "Offshore — Riau, Indonesia", "d": "A one-hour ferry from Tanah Merah reaches Bintan's beach resorts and spas — the standard Singapore beach escape for a day or an overnight. A useful reset when the city gets intense; passport and visa-on-arrival apply, so plan the paperwork.", "lat": 1.171902, "lon": 103.812527, "p": "a"}, {"n": "Johor Bahru & Legoland day trip (Malaysia)", "cat": "do", "tier": "", "a": "Offshore — Johor, Malaysia", "d": "Across the causeway lies Malaysia — cheaper spa days, seafood, and Legoland Malaysia for younger children, all doable as a day trip. Weekday mornings avoid the border crush; keep passports handy.", "lat": 1.461227, "lon": 103.766525, "p": "v"}, {"n": "Marina Barrage", "cat": "do", "tier": "", "a": "Marina South", "d": "A dam-turned-park with a grassy rooftop that is the city's favourite kite-flying and sunset picnic spot — and a rare uncrowded, front-row view straight across the water to the Marina Bay skyline. Quietly one of the best free things to do at dusk.", "lat": 1.281403, "lon": 103.872574, "p": "v"}, {"n": "Kranji countryside & Sungei Buloh Wetland Reserve", "cat": "do", "tier": "", "a": "Kranji", "d": "The rural far northwest — mangrove boardwalks alive with migratory birds, mudskippers and the occasional estuarine crocodile, plus a scatter of hydroponic and goat farms. An unexpectedly wild, agricultural side of Singapore that almost no visitor sees.", "lat": 1.444941, "lon": 103.724287, "p": "v"}, {"n": "Jigger & Pony", "cat": "party", "tier": "Landmark bars", "a": "Tanjong Pagar (Amara Hotel)", "d": "The city's defining cocktail room — polished, unhurried, and among the best on earth.", "lat": 1.309137, "lon": 103.778144, "p": "v"}, {"n": "Atlas", "cat": "party", "tier": "Landmark bars", "a": "Bugis (Parkview Square)", "d": "An Art Deco cathedral to gin — a 15-metre tower of 1,300 labels beneath a soaring 1930s ceiling.", "lat": 1.300097, "lon": 103.857712, "p": "v"}, {"n": "Nutmeg & Clove", "cat": "party", "tier": "Cocktail bars", "a": "Civic District (Purvis Street)", "d": "Cocktails that tell Singapore's own story — local flavours, world-class craft.", "lat": 1.296637, "lon": 103.855107, "p": "v"}, {"n": "Native", "cat": "party", "tier": "Cocktail bars", "a": "Telok Ayer (Amoy Street)", "d": "Regional spirits and foraged flavours — a bar with a real, rooted sense of place.", "lat": 1.295583, "lon": 103.77446, "p": "v"}, {"n": "Sago House", "cat": "party", "tier": "Cocktail bars", "a": "Tanjong Pagar (Duxton Hill)", "d": "A hand-built shophouse bar of upcycled charm — six classics, remade weekly from the market.", "lat": 1.278494, "lon": 103.842812, "p": "v"}, {"n": "Offtrack", "cat": "party", "tier": "Cocktail bars", "a": "Tanjong Pagar (Tras Street)", "d": "Vinyl on the turntable, pan-Asian plates and drinks — the easy, low-lit end of world-class.", "lat": 1.351092, "lon": 103.994982, "p": "v"}, {"n": "Cat Bite Club", "cat": "party", "tier": "Cocktail bars", "a": "Tanjong Pagar (Duxton)", "d": "An agave den hidden in plain sight — tequila and mezcal handled with real seriousness.", "lat": 1.342812, "lon": 103.809206, "p": "v"}, {"n": "Analogue", "cat": "party", "tier": "Cocktail bars", "a": "Civic District (Chijmes)", "d": "A sustainability-minded bar in the Chijmes cloisters — inventive, and quietly conscientious.", "lat": 1.358324, "lon": 103.947314, "p": "v"}, {"n": "Side Door", "cat": "party", "tier": "Cocktail bars", "a": "Telok Ayer", "d": "A new entrant that arrived straight into the ranks — precise, confident, worth the seat.", "lat": 1.361446, "lon": 103.856752, "p": "v"}, {"n": "Origin Bar", "cat": "party", "tier": "Cocktail bars", "a": "Marina Bay (Shangri-La The Shard)", "d": "A grand-hotel bar with real craft behind it — the polished nightcap done properly.", "lat": 1.280688, "lon": 103.841539, "p": "v"}, {"n": "Employees Only", "cat": "party", "tier": "Late & loud", "a": "Chinatown (Amoy Street)", "d": "The New York speakeasy's Singapore outpost — showman bartending and a room that runs late.", "lat": 1.282116, "lon": 103.847568, "p": "v"}, {"n": "Smoke & Mirrors", "cat": "party", "tier": "Rooftops", "a": "Civic District (National Gallery)", "d": "Above the National Gallery, staring down the Padang to the bay — the city's finest rooftop terrace.", "lat": 1.29063, "lon": 103.851928, "p": "v"}, {"n": "CÉ LA VI", "cat": "party", "tier": "Rooftops", "a": "Marina Bay (Marina Bay Sands SkyPark)", "d": "Fifty-seven floors up on the SkyPark — the definitive high-above-the-bay drink.", "lat": 1.284615, "lon": 103.860933, "p": "v"}, {"n": "Lantern", "cat": "party", "tier": "Rooftops", "a": "Marina Bay (The Fullerton Bay Hotel)", "d": "A rooftop pool bar at the water's edge — the softer, quieter front-row seat to the skyline.", "lat": 1.283154, "lon": 103.853754, "p": "v"}]}
+{
+  "center": [
+    1.357107,
+    103.819499
+  ],
+  "venues": [
+    {
+      "n": "Raffles Hotel Singapore",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "City Hall / Beach Road",
+      "d": "The white colonial grande dame the whole city is measured against \u2014 and still the finest room in it.",
+      "lat": 1.294682,
+      "lon": 103.854641,
+      "photos": []
+    },
+    {
+      "n": "Capella Singapore",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Sentosa Island",
+      "d": "A Norman Foster-restored colonial estate in the rainforest \u2014 resort calm, minutes from the city.",
+      "lat": 1.249698,
+      "lon": 103.824431,
+      "photos": []
+    },
+    {
+      "n": "The Fullerton Bay Hotel Singapore",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Marina Bay",
+      "d": "A glass pavilion on the water, looking straight across the bay to the skyline.",
+      "lat": 1.283339,
+      "lon": 103.853394,
+      "photos": []
+    },
+    {
+      "n": "The Paiza Collection at Marina Bay Sands",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Marina Bay",
+      "d": "The private hotel-within-the-hotel at Marina Bay Sands \u2014 arrival by Rolls-Royce, a dedicated lift, total discretion.",
+      "lat": 1.284021,
+      "lon": 103.858868,
+      "photos": []
+    },
+    {
+      "n": "Raffles Sentosa Singapore",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Sentosa Island",
+      "d": "Raffles' all-villa resort debut \u2014 private pools and hilltop calm, the marque's newest Singapore address.",
+      "lat": 1.247135,
+      "lon": 103.826472,
+      "photos": []
+    },
+    {
+      "n": "Four Seasons Hotel Singapore",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Orchard Road",
+      "d": "The surest hands off Orchard Road \u2014 quiet, art-filled, and effortless with families.",
+      "lat": 1.30521,
+      "lon": 103.828653,
+      "photos": []
+    },
+    {
+      "n": "Mandarin Oriental, Singapore",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Marina Bay",
+      "d": "A fan-shaped tower with the group's quiet precision and rooms that fan out over the bay.",
+      "lat": 1.290661,
+      "lon": 103.858324,
+      "photos": []
+    },
+    {
+      "n": "The Ritz-Carlton, Millenia Singapore",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Marina Bay / Marina Centre",
+      "d": "A serious art collection and octagonal-window bathtubs framing the bay \u2014 grand, and quietly famous for it.",
+      "lat": 1.290534,
+      "lon": 103.860074,
+      "photos": []
+    },
+    {
+      "n": "The St. Regis Singapore",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Tanglin / Orchard",
+      "d": "Old-world St. Regis grandeur off Orchard \u2014 butler service and a museum's worth of art in the halls.",
+      "lat": 1.305758,
+      "lon": 103.826036,
+      "photos": []
+    },
+    {
+      "n": "Conrad Singapore Orchard",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Orchard Road",
+      "d": "A polished, freshly reimagined Orchard tower \u2014 central, capable, and easy on the shopper.",
+      "lat": 1.304624,
+      "lon": 103.824849,
+      "photos": []
+    },
+    {
+      "n": "Marina Bay Sands",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Marina Bay",
+      "d": "The three-towered icon crowned by the ship-shaped SkyPark \u2014 the photograph the whole world knows.",
+      "lat": 1.283697,
+      "lon": 103.860723,
+      "photos": []
+    },
+    {
+      "n": "Conrad Centennial Singapore",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Marina Centre / Promenade",
+      "d": "A dependable, art-hung tower by the convention halls \u2014 spacious and unshowy.",
+      "lat": 1.293437,
+      "lon": 103.858773,
+      "photos": []
+    },
+    {
+      "n": "Artyzen Singapore",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Orchard / Cuscaden",
+      "d": "A calm, design-led newcomer off Orchard \u2014 vertical greenery and quiet good taste.",
+      "lat": 1.30579,
+      "lon": 103.827032,
+      "photos": []
+    },
+    {
+      "n": "PARKROYAL COLLECTION Pickering",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Chinatown / Clarke Quay",
+      "d": "The famous hotel-in-a-garden \u2014 cascading sky terraces of greenery over the old town.",
+      "lat": 1.285657,
+      "lon": 103.846257,
+      "photos": []
+    },
+    {
+      "n": "The Fullerton Hotel Singapore",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Marina Bay / The Fullerton",
+      "d": "The grand old General Post Office, a neoclassical landmark reborn at the mouth of the river.",
+      "lat": 1.286202,
+      "lon": 103.853073,
+      "photos": []
+    },
+    {
+      "n": "The Capitol Kempinski Hotel Singapore",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "City Hall",
+      "d": "Two restored 1930s landmarks turned into a small, characterful house in the civic heart.",
+      "lat": 1.293991,
+      "lon": 103.850897,
+      "photos": []
+    },
+    {
+      "n": "InterContinental Singapore",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Bugis / Bras Basah",
+      "d": "Peranakan shophouse charm woven into a grand hotel, over the arts-and-heritage quarter.",
+      "lat": 1.298348,
+      "lon": 103.854904,
+      "photos": []
+    },
+    {
+      "n": "Pan Pacific Singapore",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Marina Centre / Promenade",
+      "d": "A soaring atrium tower with wide bay views and a smooth, Asian-service ease.",
+      "lat": 1.292351,
+      "lon": 103.858684,
+      "photos": []
+    },
+    {
+      "n": "Fairmont Singapore",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "City Hall / Marina Centre",
+      "d": "A big, capable twin-tower house with one of the city's best spas attached.",
+      "lat": 1.294004,
+      "lon": 103.853966,
+      "photos": []
+    },
+    {
+      "n": "Goodwood Park Hotel",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Scotts Road / Orchard",
+      "d": "A garden-set heritage landmark of 1900, long a favourite for its quiet lawns and durian pastries.",
+      "lat": 1.30869,
+      "lon": 103.834993,
+      "photos": []
+    },
+    {
+      "n": "W Singapore, Sentosa Cove",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Sentosa Cove",
+      "d": "A high-energy design resort by the marina \u2014 for members who want the music turned up.",
+      "lat": 1.246365,
+      "lon": 103.842351,
+      "photos": []
+    },
+    {
+      "n": "Odette",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "City Hall (National Gallery)",
+      "d": "Julien Royer's modern French inside the National Gallery \u2014 the city's most decorated table.",
+      "lat": 1.289947,
+      "lon": 103.851523,
+      "photos": []
+    },
+    {
+      "n": "Les Amis",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Orchard (Shaw Centre)",
+      "d": "A French institution since 1994 \u2014 classical haute cuisine and one of Asia's great cellars.",
+      "lat": 1.306634,
+      "lon": 103.831349,
+      "photos": []
+    },
+    {
+      "n": "Z\u00e9n",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Bukit Pasoh (Chinatown)",
+      "d": "Bj\u00f6rn Frantz\u00e9n's Singapore house \u2014 Scandinavian purity meets Japanese finesse across three floors of a shophouse.",
+      "lat": 1.341019,
+      "lon": 103.772601,
+      "photos": []
+    },
+    {
+      "n": "Cloudstreet",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Amoy Street (Telok Ayer)",
+      "d": "Rishi Naleendra's precise, fermentation-led cooking \u2014 Sri Lankan soul, exacting technique.",
+      "lat": 1.351092,
+      "lon": 103.994982,
+      "photos": []
+    },
+    {
+      "n": "Jaan by Kirk Westaway",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "City Hall (Swiss\u00f4tel The Stamford)",
+      "d": "'Reinventing British' cooking on the 70th floor \u2014 technique and a view in equal measure.",
+      "lat": 1.293317,
+      "lon": 103.853398,
+      "photos": []
+    },
+    {
+      "n": "Meta",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Keong Saik Road",
+      "d": "Sun Kim's highwire act between Korea and Europe \u2014 inventive, assured, quietly thrilling.",
+      "lat": 1.317299,
+      "lon": 103.702944,
+      "photos": []
+    },
+    {
+      "n": "Saint Pierre",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Marina Bay (One Fullerton)",
+      "d": "Emmanuel Stroobant's French-Asian cooking, waterside, with the bay for a backdrop.",
+      "lat": 1.290256,
+      "lon": 103.851471,
+      "photos": []
+    },
+    {
+      "n": "Shoukouwa",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Marina Bay (One Fullerton)",
+      "d": "An eight-seat sushi counter flown daily from Toyosu \u2014 the quietest luxury in town.",
+      "lat": 1.304604,
+      "lon": 103.824818,
+      "photos": []
+    },
+    {
+      "n": "Thevar",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Keong Saik Road",
+      "d": "Spice-spiked modern Indian cooking that earned Singapore's most exciting two-star climb.",
+      "lat": 1.351092,
+      "lon": 103.994982,
+      "photos": []
+    },
+    {
+      "n": "Sushi Sakuta",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Amoy Street (Far East Square)",
+      "d": "A serene Edomae counter, newly promoted \u2014 precise, unhurried, deeply traditional.",
+      "lat": 1.299769,
+      "lon": 103.853939,
+      "photos": []
+    },
+    {
+      "n": "Waku Ghin",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Marina Bay Sands",
+      "d": "Tetsuya Wakuda's intimate multi-room dinner at Marina Bay Sands \u2014 Japanese-European, jewel-like.",
+      "lat": 1.283886,
+      "lon": 103.859016,
+      "photos": []
+    },
+    {
+      "n": "Burnt Ends",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Dempsey Hill",
+      "d": "Everything through the custom four-tonne ovens \u2014 the barbecue counter that became a pilgrimage.",
+      "lat": 1.304628,
+      "lon": 103.808869,
+      "photos": []
+    },
+    {
+      "n": "Candlenut",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Dempsey Hill (COMO Dempsey)",
+      "d": "The world's first Michelin-starred Peranakan kitchen \u2014 Malcolm Lee's refined Nyonya cooking.",
+      "lat": 1.305813,
+      "lon": 103.810034,
+      "photos": []
+    },
+    {
+      "n": "Labyrinth",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Marina Bay (Esplanade)",
+      "d": "Han Liguang's 'new Singaporean' cooking \u2014 hawker memories reimagined with local farms.",
+      "lat": 1.289795,
+      "lon": 103.856063,
+      "photos": []
+    },
+    {
+      "n": "Seroja",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Duo Galleria (Bugis)",
+      "d": "Kevin Wong's ode to Nusantara flavours \u2014 Malay-archipelago cooking with real elegance.",
+      "lat": 1.299585,
+      "lon": 103.858135,
+      "photos": []
+    },
+    {
+      "n": "Euphoria",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Tras Street (Tanjong Pagar)",
+      "d": "Jason Tan's 'gastro-botanica' \u2014 vegetable-led fine dining of great delicacy.",
+      "lat": 1.27738,
+      "lon": 103.844169,
+      "photos": []
+    },
+    {
+      "n": "Cut by Wolfgang Puck",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Marina Bay Sands",
+      "d": "Wolfgang Puck's modern steakhouse \u2014 the city's most polished room for a great cut.",
+      "lat": 1.284146,
+      "lon": 103.859078,
+      "photos": []
+    },
+    {
+      "n": "Summer Pavilion",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Marina Centre (Ritz-Carlton)",
+      "d": "Refined Cantonese in a garden-pavilion setting \u2014 the grand Chinese lunch, immaculately done.",
+      "lat": 1.324585,
+      "lon": 103.848423,
+      "photos": []
+    },
+    {
+      "n": "Shisen Hanten by Chen Kentaro",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Orchard (Mandarin Orchard / Hilton)",
+      "d": "Third-generation Szechuan mastery \u2014 mapo tofu the way it should be.",
+      "lat": 1.302051,
+      "lon": 103.836082,
+      "photos": []
+    },
+    {
+      "n": "Iggy's",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Orchard (Hilton Singapore Orchard)",
+      "d": "A long-running critical darling \u2014 European cooking with a wine list to match.",
+      "lat": 1.351092,
+      "lon": 103.994982,
+      "photos": []
+    },
+    {
+      "n": "Nouri",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Amoy Street (Telok Ayer)",
+      "d": "Ivan Brehm's 'crossroads cooking' \u2014 a thoughtful blur of world cuisines under one star.",
+      "lat": 1.280223,
+      "lon": 103.846679,
+      "photos": []
+    },
+    {
+      "n": "Nae:um",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Telok Ayer",
+      "d": "Louis Han's memory-led Korean cooking \u2014 seasonal, personal, quietly moving.",
+      "lat": 1.296202,
+      "lon": 103.776898,
+      "photos": []
+    },
+    {
+      "n": "Buona Terra",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Scotts Road (Orchard)",
+      "d": "A warm, family-run Italian doing quietly excellent contemporary cooking.",
+      "lat": 1.30661,
+      "lon": 103.790751,
+      "photos": []
+    },
+    {
+      "n": "Alma by Juan Amador",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Scotts Road (Goodwood Park)",
+      "d": "European fine dining with a light, generous hand in a garden-hotel setting.",
+      "lat": 1.30869,
+      "lon": 103.834993,
+      "photos": []
+    },
+    {
+      "n": "Summer Palace",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Marina Centre (Regent Singapore)",
+      "d": "Classic, exacting Cantonese \u2014 the grand hotel Chinese dinner at its most assured.",
+      "lat": 1.352141,
+      "lon": 103.875417,
+      "photos": []
+    },
+    {
+      "n": "Imperial Treasure Fine Teochew Cuisine",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Orchard (ION Orchard)",
+      "d": "Teochew cooking done with rare precision \u2014 braised goose and clear, clean flavours.",
+      "lat": 1.302709,
+      "lon": 103.834797,
+      "photos": []
+    },
+    {
+      "n": "Lei Garden",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Chijmes (City Hall)",
+      "d": "A Cantonese stalwart in the Chijmes cloisters \u2014 dim sum and roast meats, done properly.",
+      "lat": 1.342414,
+      "lon": 103.732547,
+      "photos": []
+    },
+    {
+      "n": "Whitegrass",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Chijmes (City Hall)",
+      "d": "Contemporary Australian-French cooking in a restored chapel-precinct room.",
+      "lat": 1.351092,
+      "lon": 103.994982,
+      "photos": []
+    },
+    {
+      "n": "Araya",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Duxton (Tanjong Pagar)",
+      "d": "A refined Latin-American tasting menu \u2014 precise, warm and hard to book.",
+      "lat": 1.351092,
+      "lon": 103.994982,
+      "photos": []
+    },
+    {
+      "n": "Pangium",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Dempsey Hill",
+      "d": "Malcolm Lee's second act \u2014 Southeast-Asian heritage cooking with a green conscience.",
+      "lat": 1.314563,
+      "lon": 103.809349,
+      "photos": []
+    },
+    {
+      "n": "Hill Street Tai Hwa Pork Noodle",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Lavender (Crawford Lane)",
+      "d": "The bak chor mee that holds a Michelin star \u2014 proof a single hawker bowl can be world-class.",
+      "lat": 1.305114,
+      "lon": 103.862559,
+      "photos": []
+    },
+    {
+      "n": "Kotuwa",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "New Bahru (River Valley)",
+      "d": "Modern Sri Lankan cooking with real fire and spice \u2014 hoppers and curries done with care.",
+      "lat": 1.292897,
+      "lon": 103.838797,
+      "photos": []
+    },
+    {
+      "n": "Jungle",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Amoy Street (Telok Ayer)",
+      "d": "Bold, herb-driven Thai cooking that punches well above its price.",
+      "lat": 1.356899,
+      "lon": 103.774423,
+      "photos": []
+    },
+    {
+      "n": "Boon Tong Kee",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "River Valley",
+      "d": "A legendary Hainanese chicken rice house, freshly promoted for doing the classic best.",
+      "lat": 1.367463,
+      "lon": 103.837056,
+      "photos": []
+    },
+    {
+      "n": "Ji Ji Wanton Noodle Specialist",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Hong Lim (Chinatown)",
+      "d": "A Hong Lim hawker favourite, newly starred by the Bib for its wanton mee.",
+      "lat": 1.285476,
+      "lon": 103.845795,
+      "photos": []
+    },
+    {
+      "n": "Nam Sing Hokkien Fried Mee",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Old Airport Road",
+      "d": "A famed hawker plate of Hokkien mee \u2014 smoky, wet, and quietly perfect.",
+      "lat": 1.323067,
+      "lon": 103.854971,
+      "photos": []
+    },
+    {
+      "n": "Sin Heng Claypot Bak Koot Teh",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Joo Chiat",
+      "d": "Peppery pork-rib soup in a claypot \u2014 old-Singapore comfort, credentialed by the inspectors.",
+      "lat": 1.307144,
+      "lon": 103.904322,
+      "photos": []
+    },
+    {
+      "n": "To-Ricos Kway Chap",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Old Airport Road",
+      "d": "A beloved kway chap stall \u2014 braised, soulful, and worth the queue.",
+      "lat": 1.30597,
+      "lon": 103.882233,
+      "photos": []
+    },
+    {
+      "n": "Song Kee Teochew Fish Porridge",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Serangoon",
+      "d": "Clean, restorative Teochew fish porridge \u2014 the antidote to a heavy week.",
+      "lat": 1.358347,
+      "lon": 103.874772,
+      "photos": []
+    },
+    {
+      "n": "Lao Fu Zi Fried Kway Teow",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Old Airport Road",
+      "d": "Char kway teow with real wok hei \u2014 the smoky char that defines the dish.",
+      "lat": 1.30597,
+      "lon": 103.882233,
+      "photos": []
+    },
+    {
+      "n": "Kitchenman Nasi Lemak",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Bukit Merah",
+      "d": "Fragrant coconut-rice nasi lemak done with a cook's care \u2014 a Bib-listed favourite.",
+      "lat": 1.312378,
+      "lon": 103.86302,
+      "photos": []
+    },
+    {
+      "n": "Jigger & Pony",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Tanjong Pagar (Amara Hotel)",
+      "d": "Singapore's best bar, and among Asia's finest \u2014 a cocktail room the world flies in for.",
+      "lat": 1.309137,
+      "lon": 103.778144,
+      "photos": []
+    },
+    {
+      "n": "Nutmeg & Clove",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Purvis Street (City Hall)",
+      "d": "Cocktails that tell Singapore's own story \u2014 local flavours, world-class craft.",
+      "lat": 1.296637,
+      "lon": 103.855107,
+      "photos": []
+    },
+    {
+      "n": "Analogue",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Chijmes (City Hall)",
+      "d": "A sustainability-minded bar in the Chijmes cloisters \u2014 inventive, and quietly conscientious.",
+      "lat": 1.358324,
+      "lon": 103.947314,
+      "photos": []
+    },
+    {
+      "n": "Native",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Amoy Street (Telok Ayer)",
+      "d": "Regional Southeast-Asian spirits and foraged flavours \u2014 a bar with a real sense of place.",
+      "lat": 1.295583,
+      "lon": 103.77446,
+      "photos": []
+    },
+    {
+      "n": "Gardens by the Bay",
+      "cat": "do",
+      "tier": "",
+      "a": "Marina Bay",
+      "d": "The Supertree Grove, the Cloud Forest with the world's tallest indoor waterfall, and the record-holding Flower Dome \u2014 a garden built like a city. Come at dusk to walk the OCBC Skyway between the Supertrees, then stay for the free Garden Rhapsody light-and-sound show at night. Wide, flat and pram-friendly, so it works well for a multi-generation group.",
+      "lat": 1.281149,
+      "lon": 103.86496,
+      "photos": []
+    },
+    {
+      "n": "Marina Bay Sands SkyPark Observation Deck",
+      "cat": "do",
+      "tier": "",
+      "a": "Marina Bay",
+      "d": "The ship-shaped deck cantilevered 57 storeys up gives the definitive Singapore skyline view \u2014 the bay, the CBD towers and Gardens by the Bay laid out below. Go at golden hour; if you are staying at the hotel you get the famous 150m infinity pool, which non-guests cannot access.",
+      "lat": 1.284918,
+      "lon": 103.861157,
+      "photos": []
+    },
+    {
+      "n": "Singapore Botanic Gardens & National Orchid Garden",
+      "cat": "do",
+      "tier": "",
+      "a": "Tanglin",
+      "d": "Singapore's only UNESCO World Heritage Site and the world's first tropical botanic garden on the list \u2014 82 hectares of rainforest, lakes and heritage trees in the middle of the city. The ticketed National Orchid Garden holds 1,000+ species, including the hybrids named for visiting heads of state. Free entry to the wider gardens; ideal for an unhurried morning walk.",
+      "lat": 1.311747,
+      "lon": 103.81476,
+      "photos": []
+    },
+    {
+      "n": "ArtScience Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Marina Bay",
+      "d": "The lotus-shaped building beside Marina Bay Sands, best known for the permanent teamLab 'Future World' immersive digital installations that children and adults get equally lost in. It also runs serious travelling exhibitions on science, design and art.",
+      "lat": 1.286138,
+      "lon": 103.85923,
+      "photos": []
+    },
+    {
+      "n": "National Gallery Singapore",
+      "cat": "do",
+      "tier": "",
+      "a": "Civic District",
+      "d": "The world's largest public collection of modern Southeast Asian art, housed in the beautifully restored former Supreme Court and City Hall. Worth it for the architecture alone; finish with a drink at the rooftop bar for a Padang-and-bay view. Strong for collectors and anyone who wants depth beyond the theme parks.",
+      "lat": 1.290256,
+      "lon": 103.851471,
+      "photos": []
+    },
+    {
+      "n": "Merlion Park & the Marina Bay waterfront promenade",
+      "cat": "do",
+      "tier": "",
+      "a": "Marina Bay",
+      "d": "The half-lion, half-fish icon spouting water into the bay, with the classic straight-on view of Marina Bay Sands across the water. The best move is simply to walk the full bayfront loop \u2014 Merlion to Esplanade to the Helix Bridge to Sands \u2014 especially after dark when everything is lit.",
+      "lat": 1.277658,
+      "lon": 103.853687,
+      "photos": []
+    },
+    {
+      "n": "Chinatown & Sri Mariamman Temple / Buddha Tooth Relic Temple",
+      "cat": "do",
+      "tier": "",
+      "a": "Chinatown",
+      "d": "Restored shophouse lanes, the ornate Sri Mariamman (Singapore's oldest Hindu temple) and the grand red-and-gold Buddha Tooth Relic Temple within a few streets of each other. Wander Pagoda and Temple Streets, then eat at Chinatown Complex or Maxwell. Plenty of vegetarian and South Indian food nearby, which helps veg and Jain travellers.",
+      "lat": 1.279969,
+      "lon": 103.843688,
+      "photos": []
+    },
+    {
+      "n": "Maxwell Food Centre",
+      "cat": "do",
+      "tier": "",
+      "a": "Chinatown",
+      "d": "The most decorated hawker centre in the city \u2014 eight stalls landed in the 2025 Michelin Bib Gourmand list. Home of the legendary Tian Tian Hainanese chicken rice; go early, eat like a local, and understand why Singaporeans take food this seriously.",
+      "lat": 1.279302,
+      "lon": 103.846657,
+      "photos": []
+    },
+    {
+      "n": "Kampong Glam & Sultan Mosque",
+      "cat": "do",
+      "tier": "",
+      "a": "Kampong Glam",
+      "d": "The old Malay-Arab quarter \u2014 the golden-domed Sultan Mosque, textile and perfume shops on Arab Street, and Haji Lane, a narrow alley of boutiques, murals and rooftop bars. The most atmospheric quarter to wander on foot in the late afternoon.",
+      "lat": 1.301978,
+      "lon": 103.85929,
+      "photos": []
+    },
+    {
+      "n": "Little India & Sri Veeramakaliamman Temple",
+      "cat": "do",
+      "tier": "",
+      "a": "Little India",
+      "d": "The most sensory neighbourhood in Singapore \u2014 garland stalls, spice shops, the colourful Tan Teng Niah house and the vivid Sri Veeramakaliamman Temple. For Indian travellers it is both familiar and a revelation; some of the best vegetarian thalis and dosas in the city are here, and Tekka Centre downstairs is a proper wet-market-plus-hawker experience.",
+      "lat": 1.307946,
+      "lon": 103.852396,
+      "photos": []
+    },
+    {
+      "n": "Universal Studios Singapore",
+      "cat": "do",
+      "tier": "",
+      "a": "Sentosa",
+      "d": "Southeast Asia's Universal park, with zones themed to Jurassic World, Transformers, Sci-Fi City and more \u2014 the anchor family attraction on Sentosa. Book Express passes to skip the queues; combine with a Sentosa hotel night to avoid a rushed day.",
+      "lat": 1.254201,
+      "lon": 103.822667,
+      "photos": []
+    },
+    {
+      "n": "S.E.A. Aquarium (Singapore Oceanarium)",
+      "cat": "do",
+      "tier": "",
+      "a": "Sentosa",
+      "d": "One of the world's largest aquariums, with a vast Open Ocean tank you can sit in front of like a cinema, home to manta rays and sharks. Reliable, air-conditioned and genuinely calming \u2014 an easy win with young children or grandparents.",
+      "lat": 1.351092,
+      "lon": 103.994982,
+      "photos": []
+    },
+    {
+      "n": "Night Safari",
+      "cat": "do",
+      "tier": "",
+      "a": "Mandai",
+      "d": "The world's first nocturnal wildlife park \u2014 you ride a tram through dimly lit habitats to see lions, tapirs and Asian elephants active after dark. A distinctive Singapore evening; opens at 6:30pm, so pair it with the neighbouring parks earlier in the day.",
+      "lat": 1.401353,
+      "lon": 103.789002,
+      "photos": []
+    },
+    {
+      "n": "Singapore Zoo & River Wonders",
+      "cat": "do",
+      "tier": "",
+      "a": "Mandai",
+      "d": "Consistently rated among the world's best zoos for its open, moated 'rainforest' design \u2014 famous for the Breakfast with Orangutans experience. Adjoining River Wonders adds giant pandas and a huge freshwater collection. The strongest single day out for families with children.",
+      "lat": 1.402019,
+      "lon": 103.791605,
+      "photos": []
+    },
+    {
+      "n": "Bird Paradise",
+      "cat": "do",
+      "tier": "",
+      "a": "Mandai",
+      "d": "Asia's largest bird park, with eight walk-through aviaries you can stroll through as free-flying birds swoop around you, and 3,500 birds across 400 species. The newest of the Mandai parks and beautifully designed \u2014 quieter and more contemplative than the zoo.",
+      "lat": 1.405456,
+      "lon": 103.780986,
+      "photos": []
+    },
+    {
+      "n": "Tiong Bahru",
+      "cat": "do",
+      "tier": "",
+      "a": "Tiong Bahru",
+      "d": "Singapore's oldest housing estate \u2014 curved 1930s Art Deco blocks, an indie bookshop, third-wave caf\u00e9s and the excellent Tiong Bahru Market for hawker breakfast. The city's most walkable, low-key morning: no ticket, just wander and eat.",
+      "lat": 1.286179,
+      "lon": 103.827225,
+      "photos": []
+    },
+    {
+      "n": "Katong & Joo Chiat",
+      "cat": "do",
+      "tier": "",
+      "a": "Katong-Joo Chiat",
+      "d": "The heart of Peranakan Singapore \u2014 rows of pastel shophouses with ornate ceramic tiles, and the celebrated Koon Seng Road terraces. Come for laksa and kaya toast, and to see a heritage quarter that won a UNESCO Asia-Pacific conservation award. Off the tourist trail and all the better for it.",
+      "lat": 1.306928,
+      "lon": 103.904531,
+      "photos": []
+    },
+    {
+      "n": "Peranakan Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Civic District",
+      "d": "A jewel-box museum devoted to Straits-Chinese culture \u2014 beadwork, porcelain, jewellery and the material world of the Peranakans, recently reopened after a full revamp. The best primer before wandering Katong or Emerald Hill.",
+      "lat": 1.294291,
+      "lon": 103.849109,
+      "photos": []
+    },
+    {
+      "n": "National Museum of Singapore",
+      "cat": "do",
+      "tier": "",
+      "a": "Civic District",
+      "d": "The country's oldest museum, telling the Singapore story from its trading-port origins through independence, in a grand colonial building with a striking glass rotunda. A good orientation on day one \u2014 note the History Gallery is under restoration until late 2026, but the rest remains open.",
+      "lat": 1.296548,
+      "lon": 103.848317,
+      "photos": []
+    },
+    {
+      "n": "The Southern Ridges \u2014 Henderson Waves",
+      "cat": "do",
+      "tier": "",
+      "a": "Telok Blangah / Mount Faber",
+      "d": "A 9km chain of hilltop parks linked by walkways, crowned by Henderson Waves \u2014 Singapore's highest pedestrian bridge, a sculptural timber wave 36m up with harbour and skyline views. Do the shorter Mount Faber to HortPark stretch for the best of it; the bridge is lit at night.",
+      "lat": 1.275678,
+      "lon": 103.816336,
+      "photos": []
+    },
+    {
+      "n": "MacRitchie Reservoir & TreeTop Walk",
+      "cat": "do",
+      "tier": "",
+      "a": "Central Catchment",
+      "d": "The city's green lung \u2014 boardwalks over the reservoir, monkeys and monitor lizards, and a 250m suspension bridge strung through the rainforest canopy. A proper jungle hike ten minutes from downtown; go early to beat the heat.",
+      "lat": 1.403708,
+      "lon": 103.794037,
+      "photos": []
+    },
+    {
+      "n": "Fort Canning Park",
+      "cat": "do",
+      "tier": "",
+      "a": "Civic District",
+      "d": "A hilltop park layered with history \u2014 14th-century royal grounds, WWII bunkers and the famous 'Tree Tunnel' spiral staircase that fills every Instagram feed. A shaded, central green break between museum visits.",
+      "lat": 1.294016,
+      "lon": 103.846008,
+      "photos": []
+    },
+    {
+      "n": "Emerald Hill",
+      "cat": "do",
+      "tier": "",
+      "a": "Orchard",
+      "d": "A single, quiet cul-de-sac of exquisitely preserved Peranakan terrace houses tucked just off the Orchard Road shopping strip \u2014 a five-minute detour that most visitors miss. Have a drink at one of the old shophouse bars at the foot of the hill.",
+      "lat": 1.302928,
+      "lon": 103.839478,
+      "photos": []
+    },
+    {
+      "n": "Orchard Road",
+      "cat": "do",
+      "tier": "",
+      "a": "Orchard",
+      "d": "Singapore's mile of malls \u2014 ION Orchard, Ngee Ann City / Takashimaya and Paragon carry the full luxury roster. Efficient, air-conditioned and comprehensive; the practical choice when you want the brands under one roof rather than a hunt.",
+      "lat": 1.301908,
+      "lon": 103.835916,
+      "photos": []
+    },
+    {
+      "n": "The Shoppes at Marina Bay Sands",
+      "cat": "do",
+      "tier": "",
+      "a": "Marina Bay",
+      "d": "The waterfront luxury mall with 170+ premium brands, a canal you can ride a sampan on, and the Apple 'floating' store on the bay. High-end flagship shopping with the Sands spectacle attached \u2014 and a rain-proof link to the museum, casino and hotel.",
+      "lat": 1.284021,
+      "lon": 103.858868,
+      "photos": []
+    },
+    {
+      "n": "Raffles Hotel & the Long Bar",
+      "cat": "do",
+      "tier": "",
+      "a": "Civic District",
+      "d": "The grand colonial hotel where the Singapore Sling was invented in 1915 \u2014 restored to full lustre, with an arcade of luxury boutiques and the Long Bar where you still drop peanut shells on the floor. Worth a walk-through and a cocktail even if you are not staying.",
+      "lat": 1.292351,
+      "lon": 103.858684,
+      "photos": []
+    },
+    {
+      "n": "Chijmes",
+      "cat": "do",
+      "tier": "",
+      "a": "Civic District",
+      "d": "A restored 19th-century convent and Gothic chapel turned into a courtyard of restaurants and bars \u2014 one of the prettiest places in the city for a candlelit dinner. A polished, atmospheric evening away from the malls.",
+      "lat": 1.295187,
+      "lon": 103.851857,
+      "photos": []
+    },
+    {
+      "n": "Clarke Quay & the Singapore River",
+      "cat": "do",
+      "tier": "",
+      "a": "Clarke Quay",
+      "d": "The riverside strip of old godowns (warehouses) now full of restaurants and bars, and the departure point for the classic bumboat river cruise past the Merlion to Marina Bay. Do the cruise at dusk for the city lights; the nightlife here has just been refreshed.",
+      "lat": 1.289073,
+      "lon": 103.841986,
+      "photos": []
+    },
+    {
+      "n": "Lau Pa Sat",
+      "cat": "do",
+      "tier": "",
+      "a": "Downtown Core",
+      "d": "A gorgeous Victorian cast-iron market hall \u2014 a national monument \u2014 packed with hawker stalls, where the neighbouring street closes each evening to become the smoky 'Satay Street'. The most convenient CBD hawker experience and a beautiful building in its own right.",
+      "lat": 1.280617,
+      "lon": 103.85048,
+      "photos": []
+    },
+    {
+      "n": "Chinatown Complex Market & Food Centre",
+      "cat": "do",
+      "tier": "",
+      "a": "Chinatown",
+      "d": "Singapore's largest hawker hub \u2014 700+ stalls over several floors, including the stall that once held a Michelin star for soya-sauce chicken. Gritty, authentic and endlessly cheap; go with an empty stomach and no plan.",
+      "lat": 1.285303,
+      "lon": 103.845822,
+      "photos": []
+    },
+    {
+      "n": "Haw Par Villa",
+      "cat": "do",
+      "tier": "",
+      "a": "Pasir Panjang",
+      "d": "A gloriously eccentric 1930s park of lurid dioramas illustrating Chinese mythology \u2014 most famously the graphic 'Ten Courts of Hell'. Free, strange and unforgettable; nothing else in the city is remotely like it.",
+      "lat": 1.282678,
+      "lon": 103.781802,
+      "photos": []
+    },
+    {
+      "n": "Sri Mariamman Temple",
+      "cat": "do",
+      "tier": "",
+      "a": "Chinatown",
+      "d": "Singapore's oldest Hindu temple, its rainbow gopuram tower crowded with painted deities rising incongruously out of Chinatown. During the annual Theemithi festival, devotees walk over hot coals in the courtyard. A moving, active place of worship \u2014 for Indian travellers, a piece of home in an unexpected setting.",
+      "lat": 1.282684,
+      "lon": 103.845194,
+      "photos": []
+    },
+    {
+      "n": "Thian Hock Keng Temple",
+      "cat": "do",
+      "tier": "",
+      "a": "Telok Ayer",
+      "d": "The city's oldest and most important Hokkien temple, built in 1839 by grateful immigrants where the sea once lapped the shore \u2014 an exquisite piece of southern-Chinese architecture on Telok Ayer Street. Pair it with the mosque and church on the same historic street of faiths.",
+      "lat": 1.281005,
+      "lon": 103.847496,
+      "photos": []
+    },
+    {
+      "n": "Singapore Flyer",
+      "cat": "do",
+      "tier": "",
+      "a": "Marina Bay",
+      "d": "The giant observation wheel over the bay, with 30-minute rotations that reveal the skyline, the Formula 1 street circuit and, on a clear day, Malaysia and Indonesia. You can book a private capsule with dinner for a discreet celebration.",
+      "lat": 1.28941,
+      "lon": 103.863125,
+      "photos": []
+    },
+    {
+      "n": "Jewel Changi Airport & the HSBC Rain Vortex",
+      "cat": "do",
+      "tier": "",
+      "a": "Changi",
+      "d": "The world's tallest indoor waterfall thundering seven storeys through a glass dome ringed by rainforest \u2014 and it is inside the airport. Worth a deliberate visit even without a flight; a genuinely jaw-dropping arrival or departure, and a fine last few hours before you fly.",
+      "lat": 1.351092,
+      "lon": 103.994982,
+      "photos": []
+    },
+    {
+      "n": "Pulau Ubin",
+      "cat": "do",
+      "tier": "",
+      "a": "Changi / offshore",
+      "d": "A 15-minute bumboat from Changi Point drops you into Singapore of the 1960s \u2014 a rustic island of last-remaining kampong (village) life, mangroves and jungle you explore by rented bicycle. The Chek Jawa wetlands at low tide are extraordinary. The city's easiest escape into another era.",
+      "lat": 1.413448,
+      "lon": 103.965943,
+      "photos": []
+    },
+    {
+      "n": "Palawan Beach & the Southern Ridges of Sentosa",
+      "cat": "do",
+      "tier": "",
+      "a": "Sentosa",
+      "d": "Sentosa's family beach, with a rope suspension bridge out to the 'Southernmost Point of Continental Asia' and a lookout tower. Low-key, shaded and easy \u2014 a gentler counterpoint to the island's theme parks.",
+      "lat": 1.250396,
+      "lon": 103.820544,
+      "photos": []
+    },
+    {
+      "n": "Esplanade \u2014 Theatres on the Bay",
+      "cat": "do",
+      "tier": "",
+      "a": "Marina Bay",
+      "d": "The 'durian'-domed performing arts centre on the bayfront \u2014 world-class concerts, theatre and a strong run of free performances on the outdoor stage most evenings. Check the programme; there is nearly always something on, much of it free.",
+      "lat": 1.289644,
+      "lon": 103.855954,
+      "photos": []
+    },
+    {
+      "n": "Singapore Cable Car (Mount Faber to Sentosa)",
+      "cat": "do",
+      "tier": "",
+      "a": "Mount Faber",
+      "d": "A glass cabin gliding from a rainforest hilltop across the harbour to Sentosa, with the port, container ships and Southern Islands spread below. The most scenic way to reach the island; private-cabin dining is available for a special occasion.",
+      "lat": 1.271252,
+      "lon": 103.819359,
+      "photos": []
+    },
+    {
+      "n": "Gillman Barracks",
+      "cat": "do",
+      "tier": "",
+      "a": "Alexandra",
+      "d": "A cluster of restored 1930s colonial army barracks turned contemporary-art enclave \u2014 commercial galleries, artist studios and a relaxed caf\u00e9 or two under old rain trees. The quiet, serious end of the Singapore art scene, and pleasantly uncrowded.",
+      "lat": 1.276846,
+      "lon": 103.804061,
+      "photos": []
+    },
+    {
+      "n": "Fort Siloso",
+      "cat": "do",
+      "tier": "",
+      "a": "Sentosa",
+      "d": "Singapore's only preserved coastal fort, with WWII gun emplacements and tunnels and a treetop 'Skywalk' out to the ramparts. A substantial, breezy history stop on Sentosa that balances out the theme-park day.",
+      "lat": 1.258767,
+      "lon": 103.808798,
+      "photos": []
+    },
+    {
+      "n": "Coney Island (Pulau Serangoon)",
+      "cat": "do",
+      "tier": "",
+      "a": "Punggol",
+      "d": "A rugged, deliberately undeveloped nature park on the northeast coast \u2014 coastal forest, casuarina groves and quiet beaches, best explored on foot or by bike. One of the last genuinely wild-feeling corners of Singapore, and rarely busy.",
+      "lat": 1.409418,
+      "lon": 103.92147,
+      "photos": []
+    },
+    {
+      "n": "Bintan Island day trip (Indonesia)",
+      "cat": "do",
+      "tier": "",
+      "a": "Offshore \u2014 Riau, Indonesia",
+      "d": "A one-hour ferry from Tanah Merah reaches Bintan's beach resorts and spas \u2014 the standard Singapore beach escape for a day or an overnight. A useful reset when the city gets intense; passport and visa-on-arrival apply, so plan the paperwork.",
+      "lat": 1.171902,
+      "lon": 103.812527,
+      "photos": []
+    },
+    {
+      "n": "Johor Bahru & Legoland day trip (Malaysia)",
+      "cat": "do",
+      "tier": "",
+      "a": "Offshore \u2014 Johor, Malaysia",
+      "d": "Across the causeway lies Malaysia \u2014 cheaper spa days, seafood, and Legoland Malaysia for younger children, all doable as a day trip. Weekday mornings avoid the border crush; keep passports handy.",
+      "lat": 1.461227,
+      "lon": 103.766525,
+      "photos": []
+    },
+    {
+      "n": "Marina Barrage",
+      "cat": "do",
+      "tier": "",
+      "a": "Marina South",
+      "d": "A dam-turned-park with a grassy rooftop that is the city's favourite kite-flying and sunset picnic spot \u2014 and a rare uncrowded, front-row view straight across the water to the Marina Bay skyline. Quietly one of the best free things to do at dusk.",
+      "lat": 1.281403,
+      "lon": 103.872574,
+      "photos": []
+    },
+    {
+      "n": "Kranji countryside & Sungei Buloh Wetland Reserve",
+      "cat": "do",
+      "tier": "",
+      "a": "Kranji",
+      "d": "The rural far northwest \u2014 mangrove boardwalks alive with migratory birds, mudskippers and the occasional estuarine crocodile, plus a scatter of hydroponic and goat farms. An unexpectedly wild, agricultural side of Singapore that almost no visitor sees.",
+      "lat": 1.444941,
+      "lon": 103.724287,
+      "photos": []
+    },
+    {
+      "n": "Jigger & Pony",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "Tanjong Pagar (Amara Hotel)",
+      "d": "The city's defining cocktail room \u2014 polished, unhurried, and among the best on earth.",
+      "lat": 1.309137,
+      "lon": 103.778144,
+      "photos": []
+    },
+    {
+      "n": "Atlas",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "Bugis (Parkview Square)",
+      "d": "An Art Deco cathedral to gin \u2014 a 15-metre tower of 1,300 labels beneath a soaring 1930s ceiling.",
+      "lat": 1.300097,
+      "lon": 103.857712,
+      "photos": []
+    },
+    {
+      "n": "Nutmeg & Clove",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Civic District (Purvis Street)",
+      "d": "Cocktails that tell Singapore's own story \u2014 local flavours, world-class craft.",
+      "lat": 1.296637,
+      "lon": 103.855107,
+      "photos": []
+    },
+    {
+      "n": "Native",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Telok Ayer (Amoy Street)",
+      "d": "Regional spirits and foraged flavours \u2014 a bar with a real, rooted sense of place.",
+      "lat": 1.295583,
+      "lon": 103.77446,
+      "photos": []
+    },
+    {
+      "n": "Sago House",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Tanjong Pagar (Duxton Hill)",
+      "d": "A hand-built shophouse bar of upcycled charm \u2014 six classics, remade weekly from the market.",
+      "lat": 1.278494,
+      "lon": 103.842812,
+      "photos": []
+    },
+    {
+      "n": "Offtrack",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Tanjong Pagar (Tras Street)",
+      "d": "Vinyl on the turntable, pan-Asian plates and drinks \u2014 the easy, low-lit end of world-class.",
+      "lat": 1.351092,
+      "lon": 103.994982,
+      "photos": []
+    },
+    {
+      "n": "Cat Bite Club",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Tanjong Pagar (Duxton)",
+      "d": "An agave den hidden in plain sight \u2014 tequila and mezcal handled with real seriousness.",
+      "lat": 1.342812,
+      "lon": 103.809206,
+      "photos": []
+    },
+    {
+      "n": "Analogue",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Civic District (Chijmes)",
+      "d": "A sustainability-minded bar in the Chijmes cloisters \u2014 inventive, and quietly conscientious.",
+      "lat": 1.358324,
+      "lon": 103.947314,
+      "photos": []
+    },
+    {
+      "n": "Side Door",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Telok Ayer",
+      "d": "A new entrant that arrived straight into the ranks \u2014 precise, confident, worth the seat.",
+      "lat": 1.361446,
+      "lon": 103.856752,
+      "photos": []
+    },
+    {
+      "n": "Origin Bar",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Marina Bay (Shangri-La The Shard)",
+      "d": "A grand-hotel bar with real craft behind it \u2014 the polished nightcap done properly.",
+      "lat": 1.280688,
+      "lon": 103.841539,
+      "photos": []
+    },
+    {
+      "n": "Employees Only",
+      "cat": "party",
+      "tier": "Late & loud",
+      "a": "Chinatown (Amoy Street)",
+      "d": "The New York speakeasy's Singapore outpost \u2014 showman bartending and a room that runs late.",
+      "lat": 1.282116,
+      "lon": 103.847568,
+      "photos": []
+    },
+    {
+      "n": "Smoke & Mirrors",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "Civic District (National Gallery)",
+      "d": "Above the National Gallery, staring down the Padang to the bay \u2014 the city's finest rooftop terrace.",
+      "lat": 1.29063,
+      "lon": 103.851928,
+      "photos": []
+    },
+    {
+      "n": "C\u00c9 LA VI",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "Marina Bay (Marina Bay Sands SkyPark)",
+      "d": "Fifty-seven floors up on the SkyPark \u2014 the definitive high-above-the-bay drink.",
+      "lat": 1.284615,
+      "lon": 103.860933,
+      "photos": []
+    },
+    {
+      "n": "Lantern",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "Marina Bay (The Fullerton Bay Hotel)",
+      "d": "A rooftop pool bar at the water's edge \u2014 the softer, quieter front-row seat to the skyline.",
+      "lat": 1.283154,
+      "lon": 103.853754,
+      "photos": []
+    }
+  ]
+}

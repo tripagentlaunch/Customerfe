@@ -1,1 +1,538 @@
-{"center": [38.772458, 34.527347], "venues": [{"n": "Museum Hotel", "cat": "stay", "tier": "Ultra", "a": "Uçhisar", "d": "Carved into the highest cliff in Cappadocia, its cave suites set among registered Hittite, Roman and Ottoman antiquities and a 180° valley terrace — the region's benchmark.", "lat": 38.594223, "lon": 34.905146, "p": "v"}, {"n": "Argos in Cappadocia", "cat": "stay", "tier": "Ultra", "a": "Uçhisar", "d": "A restored monastery of cave rooms and stone mansions linked by ancient underground tunnels, above Pigeon Valley — quietly grand and deeply of its landscape.", "lat": 38.630093, "lon": 34.807594, "p": "v"}, {"n": "Kayakapi Premium Caves", "cat": "stay", "tier": "Grand", "a": "Ürgüp", "d": "A whole restored hillside neighbourhood of cave houses around a 10th-century rock church — the most spacious, private cave-hotel estate in the region.", "lat": 38.636252, "lon": 34.905728, "p": "v"}, {"n": "Ariana Sustainable Luxury Lodge", "cat": "stay", "tier": "Grand", "a": "Uçhisar", "d": "Eleven design-forward suites — five carved as caves — on a private vineyard above Uçhisar valley, lighter and more contemporary than the classic stone hotels.", "lat": 38.621845, "lon": 34.803751, "p": "a"}, {"n": "Sacred House", "cat": "stay", "tier": "Luxury", "a": "Ürgüp", "d": "A theatrical 250-year-old Greek mansion turned maximalist boutique hotel — soaring stone archways, antiques and candlelit corridors unlike anything else in the region.", "lat": 38.622525, "lon": 34.864877, "p": "v"}, {"n": "Sultan Cave Suites", "cat": "stay", "tier": "Luxury", "a": "Göreme", "d": "Terraced into the hillside above Göreme with the region's most photographed rooftop — the classic balloon-filled sunrise scene, framed from your own terrace.", "lat": 38.641932, "lon": 34.831287, "p": "v"}, {"n": "Cappadocia Cave Suites", "cat": "stay", "tier": "Premium", "a": "Göreme", "d": "One of Göreme's original cave hotels — a blend of natural limestone caves and stone-walled rooms with wide views over the fairy-chimney valley.", "lat": 38.641932, "lon": 34.831287, "p": "v"}, {"n": "Revithia", "cat": "eat", "tier": "Destination", "a": "Ürgüp (Kayakapi Premium Caves)", "d": "Cappadocia's first and only MICHELIN Star — a cave tasting menu reviving near-forgotten Anatolian recipes with modern technique.", "lat": 38.772458, "lon": 34.527347, "p": "v"}, {"n": "Seki Restaurant", "cat": "eat", "tier": "Fine", "a": "Uçhisar (Argos in Cappadocia)", "d": "A quiet terrace table above Pigeon Valley — refined seasonal cooking from Argos's own garden and a 60 km sourcing radius.", "lat": 38.629672, "lon": 34.805324, "p": "v"}, {"n": "Lil'a Restaurant", "cat": "eat", "tier": "Fine", "a": "Uçhisar (Museum Hotel)", "d": "The Relais & Châteaux table of Museum Hotel — hyper-local produce and forgotten Cappadocian flavours served on the panoramic terrace.", "lat": 38.59438, "lon": 34.718435, "p": "v"}, {"n": "Babayan Evi", "cat": "eat", "tier": "Smart", "a": "Ortahisar / Ibrahimpaşa", "d": "Generous traditional village plates cooked with deep respect for Cappadocia's land — the region's most decorated value table.", "lat": 38.600055, "lon": 34.847021, "p": "v"}, {"n": "Old Greek House", "cat": "eat", "tier": "Smart", "a": "Mustafapaşa (Sinasos)", "d": "Home-style Anatolian cooking inside a historic Greek mansion in Mustafapaşa — a taste of the region's Ottoman-Greek heritage.", "lat": 38.583396, "lon": 34.896916, "p": "a"}, {"n": "Aravan Evi", "cat": "eat", "tier": "Smart", "a": "Ayvalı (near Ürgüp)", "d": "Slow, farm-to-table village cuisine in a tucked-away hamlet — the kind of table you'd never find without knowing.", "lat": 38.548189, "lon": 34.869557, "p": "v"}, {"n": "Happena", "cat": "eat", "tier": "Smart", "a": "Göreme", "d": "Ancient-Anatolian flavours reimagined — a Göreme kitchen drawing on recipes reaching back to the Hittites.", "lat": 38.772458, "lon": 34.527347, "p": "v"}, {"n": "Tabal Gastronomi Evi", "cat": "eat", "tier": "Smart", "a": "Cappadocia (Nevşehir)", "d": "A gastronomy house championing regional produce and technique — among Cappadocia's five debut Bib Gourmands.", "lat": 38.772458, "lon": 34.527347, "p": "a"}, {"n": "Hot-air balloon flight at dawn", "cat": "do", "tier": "", "a": "Göreme valleys", "d": "The single image every traveller carries home: rising in the cold blue dark, then hundreds of balloons catching the first gold light over the fairy chimneys. A private or exclusive-use basket keeps the family together and the crowd out; note most operators require children to be roughly 6-7 and older, so plan the multi-gen morning accordingly.", "lat": 38.638612, "lon": 34.845518, "p": "a"}, {"n": "Göreme Open-Air Museum", "cat": "do", "tier": "", "a": "Göreme", "d": "A monastic valley of more than thirty rock-cut churches, chapels and refectories carved into the tuff, the finest cluster of Byzantine cave art anywhere. A private guide turns the 10th-11th century frescoes from pretty colour into a story your parents and children will both follow.", "lat": 38.639642, "lon": 34.845135, "p": "v"}, {"n": "The Dark Church (Karanlık Kilise)", "cat": "do", "tier": "", "a": "Göreme Open-Air Museum", "d": "The jewel of Göreme, so named for the single tiny window that kept its 11th-century frescoes vivid for a thousand years — Christ Pantocrator, the Nativity, the Crucifixion in deep blue and gold. It carries a small separate ticket and admits few at a time, which is exactly why it stays quiet and worth it.", "lat": 38.638704, "lon": 34.846265, "p": "v"}, {"n": "Devrent Valley (Imagination Valley)", "cat": "do", "tier": "", "a": "North of Göreme", "d": "A small open valley where erosion has sculpted rock into shapes the mind can't help naming — most famously the uncanny Camel Rock. A twenty-minute stop that delights children and makes an easy trio with Paşabağ and Zelve.", "lat": 38.672619, "lon": 34.885509, "p": "v"}, {"n": "Zelve Open-Air Museum", "cat": "do", "tier": "", "a": "Near Paşabağ", "d": "An entire cave village lived in until the 1950s — dwellings, tunnels, a rock-cut mosque and frescoed churches threaded through three valleys. More raw and atmospheric than Göreme, it shows how Cappadocians actually inhabited the stone.", "lat": 38.665743, "lon": 34.865293, "p": "v"}, {"n": "Derinkuyu Underground City", "cat": "do", "tier": "", "a": "Derinkuyu, south of Nevşehir", "d": "The deepest of Cappadocia's subterranean cities, plunging some 85 metres through eight open levels of kitchens, stables, wine presses, a chapel and vast ventilation shafts that once sheltered thousands. Cool and low-ceilinged; a private guide and a steady pace suit older relatives, and the passages fascinate children.", "lat": 38.373576, "lon": 34.735122, "p": "v"}, {"n": "Kaymaklı Underground City", "cat": "do", "tier": "", "a": "Kaymaklı, south of Nevşehir", "d": "Wider and more horizontal than Derinkuyu, its four open levels of low tunnels and living quarters are a little gentler to walk. The great round millstone doors that sealed each floor against invaders make the ingenuity vivid.", "lat": 38.459927, "lon": 34.752488, "p": "v"}, {"n": "Selime Monastery", "cat": "do", "tier": "", "a": "End of the Ihlara Valley", "d": "Cappadocia's largest cliffside monastic complex, with cathedral-sized rock halls, a kitchen and stables carved into the canyon and sweeping views from the top. The scramble up is short but steep — worth it for the scale.", "lat": 38.622525, "lon": 34.864877, "p": "v"}, {"n": "Uçhisar Castle", "cat": "do", "tier": "", "a": "Uçhisar", "d": "The highest point in Cappadocia — a giant tuff pinnacle honeycombed with tunnels and chambers — giving a 360-degree sweep to Mount Erciyes and every valley below. Climb it at dusk when the light turns the whole plateau gold, or admire it from a nearby terrace if steps aren't for everyone.", "lat": 38.621845, "lon": 34.803751, "p": "v"}, {"n": "Pigeon Valley (Güvercinlik)", "cat": "do", "tier": "", "a": "Uçhisar to Göreme", "d": "Named for the thousands of dovecotes carved into its soft cliffs by farmers who prized the birds' droppings, this scenic corridor links Uçhisar Castle down to Göreme. The evil-eye wishing tree on the ridge is a favourite family photo stop.", "lat": 38.630378, "lon": 34.813069, "p": "v"}, {"n": "Rose Valley & Red Valley sunset walk", "cat": "do", "tier": "", "a": "North of Göreme", "d": "The most beloved evening in Cappadocia: as the sun drops, the rock walls flush deep rose and red for half an hour, with hidden Byzantine chapels tucked into the folds. Walk a short section or simply take the drive-up viewpoint with chilled wine at hand.", "lat": 38.644816, "lon": 34.826553, "p": "a"}, {"n": "Love Valley", "cat": "do", "tier": "", "a": "Between Göreme and Çavuşin", "d": "A valley of towering, unmistakably phallic fairy chimneys — the tallest columns in the region — best seen on the walk down from Uçhisar or from the ridge viewpoint above. A geological curiosity that raises a smile, and a fine spot to watch the balloons.", "lat": 38.626967, "lon": 34.864408, "p": "v"}, {"n": "Chez Galip Hair Museum", "cat": "do", "tier": "", "a": "Avanos", "d": "Beneath a respected pottery studio lies one of the world's oddest sights: a cave hung with thousands of locks of women's hair, a Guinness-listed curiosity begun in 1979. Strange, funny and quick — a good foil to the day's grand landscapes.", "lat": 38.714471, "lon": 34.83035, "p": "a"}, {"n": "Çavuşin old village & Church of St John the Baptist", "cat": "do", "tier": "", "a": "Çavuşin", "d": "An abandoned cliff village, emptied in the 1950s after rockfalls, crowned by one of Cappadocia's oldest and largest cave churches, dating to the 5th century. The ruined honeycomb of homes and the valley views make it a quietly moving stop.", "lat": 38.666202, "lon": 34.842973, "p": "a"}, {"n": "Ortahisar castle & old town", "cat": "do", "tier": "", "a": "Ortahisar", "d": "A towering rock fortress rises straight out of a working village of narrow lanes and old stone houses, far less touristed than Göreme. Climb the castle for the view, or watch it glow at sunset from the panorama point.", "lat": 38.631904, "lon": 34.859729, "p": "a"}, {"n": "Mustafapaşa (Sinasos)", "cat": "do", "tier": "", "a": "South of Ürgüp", "d": "A time-capsule Greek Orthodox town, emptied in the 1923 population exchange, its lanes lined with grand carved-stone mansions built by 19th-century Greek traders. Slow, elegant and photogenic — a civilised half-day of coffee, courtyards and old churches.", "lat": 38.583396, "lon": 34.896916, "p": "v"}, {"n": "Ürgüp & Temenni Hill", "cat": "do", "tier": "", "a": "Ürgüp", "d": "The region's most refined town, its old stone houses clustered round the Temenni (Wish) Hill, with the best concentration of good restaurants and wine houses. Climb the hill at golden hour for a panorama over the surrounding chimneys.", "lat": 38.633159, "lon": 34.904235, "p": "v"}, {"n": "The Three Beauties (Üç Güzeller)", "cat": "do", "tier": "", "a": "Ürgüp roadside", "d": "Three perfectly capped fairy chimneys standing together — read by locals as a father, mother and child, and one of Cappadocia's most photographed formations. A two-minute roadside stop with a viewing terrace, easy for any age.", "lat": 38.631904, "lon": 34.859729, "p": "a"}, {"n": "Soğanlı Valley", "cat": "do", "tier": "", "a": "Southern Cappadocia", "d": "About an hour from Göreme, a serene twin valley of 10th-11th century domed rock churches — Karabaş, Yılanlı, Kubbeli — and almost no crowds. The reward for going further out is having Byzantine Cappadocia largely to yourself.", "lat": 38.626967, "lon": 34.864408, "p": "v"}, {"n": "Horse riding through the valleys", "cat": "do", "tier": "", "a": "Göreme / Avanos", "d": "Cappadocia's very name is said to mean 'land of beautiful horses', and riding a gentle Anatolian horse through Rose Valley or up to a sunset ridge is the region's most romantic way to move. Guided rides scale from a first-timer's amble to longer trails for confident riders.", "lat": 38.638612, "lon": 34.845518, "p": "a"}, {"n": "ATV / quad safari through the valleys", "cat": "do", "tier": "", "a": "Göreme", "d": "A fast, exhilarating way to reach Love, Rose and Sword valleys along dusty back-tracks, timed for sunset. Popular with teenagers and the young at heart; private guided runs keep it as leisurely or spirited as you like.", "lat": 38.638612, "lon": 34.845518, "p": "a"}, {"n": "Cave-suite stay", "cat": "do", "tier": "", "a": "Uçhisar / Ürgüp / Göreme", "d": "Sleeping inside the tuff itself — antique kilims, a private terrace over the ravines, the balloons drifting past at dawn from your own window — is the defining Cappadocia indulgence. The top suites offer private pools, hammams and discreet, unhurried service.", "lat": 38.641932, "lon": 34.831287, "p": "v"}, {"n": "Turkish bath (hammam) in a cave setting", "cat": "do", "tier": "", "a": "Uçhisar / Ürgüp", "d": "A hot marble slab, a foam-and-scrub ritual and deep quiet under carved rock — the perfect unwind after dawn ballooning and valley walks. The finest cave hotels have private hammams that can be booked exclusively for the family.", "lat": 38.621845, "lon": 34.803751, "p": "a"}, {"n": "Cappadocian wine tasting in a cave cellar", "cat": "do", "tier": "", "a": "Ürgüp / Uçhisar", "d": "This is one of the world's oldest wine regions; taste the crisp local white Emir and the deep red Öküzgözü in cellars carved into the rock, where the tuff holds a steady cool temperature year-round. Established houses like Turasan and Kocabağ run relaxed private tastings.", "lat": 38.621845, "lon": 34.803751, "p": "a"}, {"n": "Pottery workshop", "cat": "do", "tier": "", "a": "Avanos", "d": "A private session at a master's kick-wheel, shaping the red river clay and glazing a keepsake to be fired and sent home. The most tactile souvenir in Cappadocia and a genuine delight across three generations.", "lat": 38.714471, "lon": 34.83035, "p": "a"}, {"n": "Carpet & kilim workshop", "cat": "do", "tier": "", "a": "Avanos / Göreme", "d": "Watch women knot silk and wool by hand as it has been done here since Hittite times, learn to read the motifs, and choose a piece with an unhurried, tea-in-hand demonstration. A cultural window as much as a purchase.", "lat": 38.638612, "lon": 34.845518, "p": "a"}, {"n": "Sunset Point, Göreme", "cat": "do", "tier": "", "a": "Göreme", "d": "The town's beloved vantage: an easy drive or short climb to an open terrace with an unbroken view over the chimneys as the sun sinks. Bring çay or a glass of Emir and watch the valley change colour.", "lat": 38.639802, "lon": 34.831048, "p": "v"}, {"n": "Red Valley sunset viewpoint (Kızılçukur)", "cat": "do", "tier": "", "a": "Between Göreme and Ortahisar", "d": "The drive-up terrace regarded as the region's finest sunset, looking clear across the ridges to Uçhisar Castle as the rock burns red-gold. Little tea shacks serve fresh-squeezed pomegranate juice while you wait for the light.", "lat": 38.655879, "lon": 34.861718, "p": "v"}, {"n": "Sword Valley (Kılıçlar) & El Nazar Church walk", "cat": "do", "tier": "", "a": "Near Göreme", "d": "A short, atmospheric walk from Göreme through jagged 'sword' rock into two little-visited frescoed chapels — El Nazar and the Hidden (Saklı) Church. Quiet, close to town and rich for anyone who loves the Byzantine art.", "lat": 38.638612, "lon": 34.845518, "p": "a"}, {"n": "Hacıbektaş day trip", "cat": "do", "tier": "", "a": "North of Nevşehir", "d": "The spiritual heart of the Alevi–Bektaşi tradition, centred on the serene lodge and tomb of the 13th-century mystic Hacı Bektaş Veli, whose message of tolerance and peace still draws pilgrims. A thoughtful, off-the-tourist-trail half-day.", "lat": 38.631116, "lon": 34.794129, "p": "a"}, {"n": "Private guide & driver across the three valleys", "cat": "do", "tier": "", "a": "Region-wide", "d": "The way to see Cappadocia well: a knowledgeable private guide and a chilled car linking the sites at your own rhythm, with veg-friendly lunch stops and rests built around the group. It turns a scattered region into an effortless, personal itinerary.", "lat": 38.772458, "lon": 34.527347, "p": "a"}, {"n": "Balloon-watch breakfast on a hotel terrace", "cat": "do", "tier": "", "a": "Göreme / Uçhisar", "d": "For those who'd rather stay grounded, a leisurely Turkish breakfast on a cave-hotel terrace at dawn puts hundreds of balloons directly overhead with coffee in hand. Comfortable, unhurried and perfect for grandparents or very young children.", "lat": 38.631116, "lon": 34.794129, "p": "a"}, {"n": "Sunrise photography walk", "cat": "do", "tier": "", "a": "Göreme / Uçhisar", "d": "A private photographer or guide leads you to the best-angled ridge before dawn to catch the balloons filling the pink sky above the chimneys — the shot everyone wants, done properly. Gentle underfoot and easily paced.", "lat": 38.631116, "lon": 34.794129, "p": "a"}, {"n": "Cavusin to Göreme valley trek (Rose–Red loop)", "cat": "do", "tier": "", "a": "Çavuşin / Göreme", "d": "The classic longer walk, starting at the Çavuşin trailhead and winding down through Rose and Red valleys past hidden cave chapels back toward Göreme. A guide keeps the route clear and the pace right for a mixed-ability family.", "lat": 38.638612, "lon": 34.845518, "p": "a"}, {"n": "Museum Hotel terrace", "cat": "party", "tier": "Rooftops", "a": "Uçhisar", "d": "A 180° cliff-top panorama over the valleys with an evening drink — arguably the finest sunset seat in Cappadocia.", "lat": 38.621845, "lon": 34.803751, "p": "a"}, {"n": "Seki Lounge, Argos in Cappadocia", "cat": "party", "tier": "Cocktail bars", "a": "Uçhisar", "d": "A candlelit stone-and-cave lounge and terrace above Pigeon Valley — the region's most refined setting for a nightcap.", "lat": 38.630093, "lon": 34.807594, "p": "v"}, {"n": "Sultan Cave Suites rooftop", "cat": "party", "tier": "Rooftops", "a": "Göreme", "d": "The most famous terrace in Göreme — sunset and sunrise drinks with balloons filling the sky at dawn.", "lat": 38.638612, "lon": 34.845518, "p": "a"}, {"n": "Fat Boys / Göreme village bars", "cat": "party", "tier": "Late & loud", "a": "Göreme", "d": "Göreme's informal traveller bars — the closest the region comes to a late scene, low-key and unpretentious.", "lat": 38.638612, "lon": 34.845518, "p": "a"}]}
+{
+  "center": [
+    38.772458,
+    34.527347
+  ],
+  "venues": [
+    {
+      "n": "Museum Hotel",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "U\u00e7hisar",
+      "d": "Carved into the highest cliff in Cappadocia, its cave suites set among registered Hittite, Roman and Ottoman antiquities and a 180\u00b0 valley terrace \u2014 the region's benchmark.",
+      "lat": 38.594223,
+      "lon": 34.905146,
+      "photos": []
+    },
+    {
+      "n": "Argos in Cappadocia",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "U\u00e7hisar",
+      "d": "A restored monastery of cave rooms and stone mansions linked by ancient underground tunnels, above Pigeon Valley \u2014 quietly grand and deeply of its landscape.",
+      "lat": 38.630093,
+      "lon": 34.807594,
+      "photos": []
+    },
+    {
+      "n": "Kayakapi Premium Caves",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "\u00dcrg\u00fcp",
+      "d": "A whole restored hillside neighbourhood of cave houses around a 10th-century rock church \u2014 the most spacious, private cave-hotel estate in the region.",
+      "lat": 38.636252,
+      "lon": 34.905728,
+      "photos": []
+    },
+    {
+      "n": "Ariana Sustainable Luxury Lodge",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "U\u00e7hisar",
+      "d": "Eleven design-forward suites \u2014 five carved as caves \u2014 on a private vineyard above U\u00e7hisar valley, lighter and more contemporary than the classic stone hotels.",
+      "lat": 38.621845,
+      "lon": 34.803751,
+      "photos": []
+    },
+    {
+      "n": "Sacred House",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "\u00dcrg\u00fcp",
+      "d": "A theatrical 250-year-old Greek mansion turned maximalist boutique hotel \u2014 soaring stone archways, antiques and candlelit corridors unlike anything else in the region.",
+      "lat": 38.622525,
+      "lon": 34.864877,
+      "photos": []
+    },
+    {
+      "n": "Sultan Cave Suites",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "G\u00f6reme",
+      "d": "Terraced into the hillside above G\u00f6reme with the region's most photographed rooftop \u2014 the classic balloon-filled sunrise scene, framed from your own terrace.",
+      "lat": 38.641932,
+      "lon": 34.831287,
+      "photos": []
+    },
+    {
+      "n": "Cappadocia Cave Suites",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "G\u00f6reme",
+      "d": "One of G\u00f6reme's original cave hotels \u2014 a blend of natural limestone caves and stone-walled rooms with wide views over the fairy-chimney valley.",
+      "lat": 38.641932,
+      "lon": 34.831287,
+      "photos": []
+    },
+    {
+      "n": "Revithia",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "\u00dcrg\u00fcp (Kayakapi Premium Caves)",
+      "d": "Cappadocia's first and only MICHELIN Star \u2014 a cave tasting menu reviving near-forgotten Anatolian recipes with modern technique.",
+      "lat": 38.772458,
+      "lon": 34.527347,
+      "photos": []
+    },
+    {
+      "n": "Seki Restaurant",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "U\u00e7hisar (Argos in Cappadocia)",
+      "d": "A quiet terrace table above Pigeon Valley \u2014 refined seasonal cooking from Argos's own garden and a 60 km sourcing radius.",
+      "lat": 38.629672,
+      "lon": 34.805324,
+      "photos": []
+    },
+    {
+      "n": "Lil'a Restaurant",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "U\u00e7hisar (Museum Hotel)",
+      "d": "The Relais & Ch\u00e2teaux table of Museum Hotel \u2014 hyper-local produce and forgotten Cappadocian flavours served on the panoramic terrace.",
+      "lat": 38.59438,
+      "lon": 34.718435,
+      "photos": []
+    },
+    {
+      "n": "Babayan Evi",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Ortahisar / Ibrahimpa\u015fa",
+      "d": "Generous traditional village plates cooked with deep respect for Cappadocia's land \u2014 the region's most decorated value table.",
+      "lat": 38.600055,
+      "lon": 34.847021,
+      "photos": []
+    },
+    {
+      "n": "Old Greek House",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Mustafapa\u015fa (Sinasos)",
+      "d": "Home-style Anatolian cooking inside a historic Greek mansion in Mustafapa\u015fa \u2014 a taste of the region's Ottoman-Greek heritage.",
+      "lat": 38.583396,
+      "lon": 34.896916,
+      "photos": []
+    },
+    {
+      "n": "Aravan Evi",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Ayval\u0131 (near \u00dcrg\u00fcp)",
+      "d": "Slow, farm-to-table village cuisine in a tucked-away hamlet \u2014 the kind of table you'd never find without knowing.",
+      "lat": 38.548189,
+      "lon": 34.869557,
+      "photos": []
+    },
+    {
+      "n": "Happena",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "G\u00f6reme",
+      "d": "Ancient-Anatolian flavours reimagined \u2014 a G\u00f6reme kitchen drawing on recipes reaching back to the Hittites.",
+      "lat": 38.772458,
+      "lon": 34.527347,
+      "photos": []
+    },
+    {
+      "n": "Tabal Gastronomi Evi",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Cappadocia (Nev\u015fehir)",
+      "d": "A gastronomy house championing regional produce and technique \u2014 among Cappadocia's five debut Bib Gourmands.",
+      "lat": 38.772458,
+      "lon": 34.527347,
+      "photos": []
+    },
+    {
+      "n": "Hot-air balloon flight at dawn",
+      "cat": "do",
+      "tier": "",
+      "a": "G\u00f6reme valleys",
+      "d": "The single image every traveller carries home: rising in the cold blue dark, then hundreds of balloons catching the first gold light over the fairy chimneys. A private or exclusive-use basket keeps the family together and the crowd out; note most operators require children to be roughly 6-7 and older, so plan the multi-gen morning accordingly.",
+      "lat": 38.638612,
+      "lon": 34.845518,
+      "photos": []
+    },
+    {
+      "n": "G\u00f6reme Open-Air Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "G\u00f6reme",
+      "d": "A monastic valley of more than thirty rock-cut churches, chapels and refectories carved into the tuff, the finest cluster of Byzantine cave art anywhere. A private guide turns the 10th-11th century frescoes from pretty colour into a story your parents and children will both follow.",
+      "lat": 38.639642,
+      "lon": 34.845135,
+      "photos": []
+    },
+    {
+      "n": "The Dark Church (Karanl\u0131k Kilise)",
+      "cat": "do",
+      "tier": "",
+      "a": "G\u00f6reme Open-Air Museum",
+      "d": "The jewel of G\u00f6reme, so named for the single tiny window that kept its 11th-century frescoes vivid for a thousand years \u2014 Christ Pantocrator, the Nativity, the Crucifixion in deep blue and gold. It carries a small separate ticket and admits few at a time, which is exactly why it stays quiet and worth it.",
+      "lat": 38.638704,
+      "lon": 34.846265,
+      "photos": []
+    },
+    {
+      "n": "Devrent Valley (Imagination Valley)",
+      "cat": "do",
+      "tier": "",
+      "a": "North of G\u00f6reme",
+      "d": "A small open valley where erosion has sculpted rock into shapes the mind can't help naming \u2014 most famously the uncanny Camel Rock. A twenty-minute stop that delights children and makes an easy trio with Pa\u015faba\u011f and Zelve.",
+      "lat": 38.672619,
+      "lon": 34.885509,
+      "photos": []
+    },
+    {
+      "n": "Zelve Open-Air Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Near Pa\u015faba\u011f",
+      "d": "An entire cave village lived in until the 1950s \u2014 dwellings, tunnels, a rock-cut mosque and frescoed churches threaded through three valleys. More raw and atmospheric than G\u00f6reme, it shows how Cappadocians actually inhabited the stone.",
+      "lat": 38.665743,
+      "lon": 34.865293,
+      "photos": []
+    },
+    {
+      "n": "Derinkuyu Underground City",
+      "cat": "do",
+      "tier": "",
+      "a": "Derinkuyu, south of Nev\u015fehir",
+      "d": "The deepest of Cappadocia's subterranean cities, plunging some 85 metres through eight open levels of kitchens, stables, wine presses, a chapel and vast ventilation shafts that once sheltered thousands. Cool and low-ceilinged; a private guide and a steady pace suit older relatives, and the passages fascinate children.",
+      "lat": 38.373576,
+      "lon": 34.735122,
+      "photos": []
+    },
+    {
+      "n": "Kaymakl\u0131 Underground City",
+      "cat": "do",
+      "tier": "",
+      "a": "Kaymakl\u0131, south of Nev\u015fehir",
+      "d": "Wider and more horizontal than Derinkuyu, its four open levels of low tunnels and living quarters are a little gentler to walk. The great round millstone doors that sealed each floor against invaders make the ingenuity vivid.",
+      "lat": 38.459927,
+      "lon": 34.752488,
+      "photos": []
+    },
+    {
+      "n": "Selime Monastery",
+      "cat": "do",
+      "tier": "",
+      "a": "End of the Ihlara Valley",
+      "d": "Cappadocia's largest cliffside monastic complex, with cathedral-sized rock halls, a kitchen and stables carved into the canyon and sweeping views from the top. The scramble up is short but steep \u2014 worth it for the scale.",
+      "lat": 38.622525,
+      "lon": 34.864877,
+      "photos": []
+    },
+    {
+      "n": "U\u00e7hisar Castle",
+      "cat": "do",
+      "tier": "",
+      "a": "U\u00e7hisar",
+      "d": "The highest point in Cappadocia \u2014 a giant tuff pinnacle honeycombed with tunnels and chambers \u2014 giving a 360-degree sweep to Mount Erciyes and every valley below. Climb it at dusk when the light turns the whole plateau gold, or admire it from a nearby terrace if steps aren't for everyone.",
+      "lat": 38.621845,
+      "lon": 34.803751,
+      "photos": []
+    },
+    {
+      "n": "Pigeon Valley (G\u00fcvercinlik)",
+      "cat": "do",
+      "tier": "",
+      "a": "U\u00e7hisar to G\u00f6reme",
+      "d": "Named for the thousands of dovecotes carved into its soft cliffs by farmers who prized the birds' droppings, this scenic corridor links U\u00e7hisar Castle down to G\u00f6reme. The evil-eye wishing tree on the ridge is a favourite family photo stop.",
+      "lat": 38.630378,
+      "lon": 34.813069,
+      "photos": []
+    },
+    {
+      "n": "Rose Valley & Red Valley sunset walk",
+      "cat": "do",
+      "tier": "",
+      "a": "North of G\u00f6reme",
+      "d": "The most beloved evening in Cappadocia: as the sun drops, the rock walls flush deep rose and red for half an hour, with hidden Byzantine chapels tucked into the folds. Walk a short section or simply take the drive-up viewpoint with chilled wine at hand.",
+      "lat": 38.644816,
+      "lon": 34.826553,
+      "photos": []
+    },
+    {
+      "n": "Love Valley",
+      "cat": "do",
+      "tier": "",
+      "a": "Between G\u00f6reme and \u00c7avu\u015fin",
+      "d": "A valley of towering, unmistakably phallic fairy chimneys \u2014 the tallest columns in the region \u2014 best seen on the walk down from U\u00e7hisar or from the ridge viewpoint above. A geological curiosity that raises a smile, and a fine spot to watch the balloons.",
+      "lat": 38.626967,
+      "lon": 34.864408,
+      "photos": []
+    },
+    {
+      "n": "Chez Galip Hair Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Avanos",
+      "d": "Beneath a respected pottery studio lies one of the world's oddest sights: a cave hung with thousands of locks of women's hair, a Guinness-listed curiosity begun in 1979. Strange, funny and quick \u2014 a good foil to the day's grand landscapes.",
+      "lat": 38.714471,
+      "lon": 34.83035,
+      "photos": []
+    },
+    {
+      "n": "\u00c7avu\u015fin old village & Church of St John the Baptist",
+      "cat": "do",
+      "tier": "",
+      "a": "\u00c7avu\u015fin",
+      "d": "An abandoned cliff village, emptied in the 1950s after rockfalls, crowned by one of Cappadocia's oldest and largest cave churches, dating to the 5th century. The ruined honeycomb of homes and the valley views make it a quietly moving stop.",
+      "lat": 38.666202,
+      "lon": 34.842973,
+      "photos": []
+    },
+    {
+      "n": "Ortahisar castle & old town",
+      "cat": "do",
+      "tier": "",
+      "a": "Ortahisar",
+      "d": "A towering rock fortress rises straight out of a working village of narrow lanes and old stone houses, far less touristed than G\u00f6reme. Climb the castle for the view, or watch it glow at sunset from the panorama point.",
+      "lat": 38.631904,
+      "lon": 34.859729,
+      "photos": []
+    },
+    {
+      "n": "Mustafapa\u015fa (Sinasos)",
+      "cat": "do",
+      "tier": "",
+      "a": "South of \u00dcrg\u00fcp",
+      "d": "A time-capsule Greek Orthodox town, emptied in the 1923 population exchange, its lanes lined with grand carved-stone mansions built by 19th-century Greek traders. Slow, elegant and photogenic \u2014 a civilised half-day of coffee, courtyards and old churches.",
+      "lat": 38.583396,
+      "lon": 34.896916,
+      "photos": []
+    },
+    {
+      "n": "\u00dcrg\u00fcp & Temenni Hill",
+      "cat": "do",
+      "tier": "",
+      "a": "\u00dcrg\u00fcp",
+      "d": "The region's most refined town, its old stone houses clustered round the Temenni (Wish) Hill, with the best concentration of good restaurants and wine houses. Climb the hill at golden hour for a panorama over the surrounding chimneys.",
+      "lat": 38.633159,
+      "lon": 34.904235,
+      "photos": []
+    },
+    {
+      "n": "The Three Beauties (\u00dc\u00e7 G\u00fczeller)",
+      "cat": "do",
+      "tier": "",
+      "a": "\u00dcrg\u00fcp roadside",
+      "d": "Three perfectly capped fairy chimneys standing together \u2014 read by locals as a father, mother and child, and one of Cappadocia's most photographed formations. A two-minute roadside stop with a viewing terrace, easy for any age.",
+      "lat": 38.631904,
+      "lon": 34.859729,
+      "photos": []
+    },
+    {
+      "n": "So\u011fanl\u0131 Valley",
+      "cat": "do",
+      "tier": "",
+      "a": "Southern Cappadocia",
+      "d": "About an hour from G\u00f6reme, a serene twin valley of 10th-11th century domed rock churches \u2014 Karaba\u015f, Y\u0131lanl\u0131, Kubbeli \u2014 and almost no crowds. The reward for going further out is having Byzantine Cappadocia largely to yourself.",
+      "lat": 38.626967,
+      "lon": 34.864408,
+      "photos": []
+    },
+    {
+      "n": "Horse riding through the valleys",
+      "cat": "do",
+      "tier": "",
+      "a": "G\u00f6reme / Avanos",
+      "d": "Cappadocia's very name is said to mean 'land of beautiful horses', and riding a gentle Anatolian horse through Rose Valley or up to a sunset ridge is the region's most romantic way to move. Guided rides scale from a first-timer's amble to longer trails for confident riders.",
+      "lat": 38.638612,
+      "lon": 34.845518,
+      "photos": []
+    },
+    {
+      "n": "ATV / quad safari through the valleys",
+      "cat": "do",
+      "tier": "",
+      "a": "G\u00f6reme",
+      "d": "A fast, exhilarating way to reach Love, Rose and Sword valleys along dusty back-tracks, timed for sunset. Popular with teenagers and the young at heart; private guided runs keep it as leisurely or spirited as you like.",
+      "lat": 38.638612,
+      "lon": 34.845518,
+      "photos": []
+    },
+    {
+      "n": "Cave-suite stay",
+      "cat": "do",
+      "tier": "",
+      "a": "U\u00e7hisar / \u00dcrg\u00fcp / G\u00f6reme",
+      "d": "Sleeping inside the tuff itself \u2014 antique kilims, a private terrace over the ravines, the balloons drifting past at dawn from your own window \u2014 is the defining Cappadocia indulgence. The top suites offer private pools, hammams and discreet, unhurried service.",
+      "lat": 38.641932,
+      "lon": 34.831287,
+      "photos": []
+    },
+    {
+      "n": "Turkish bath (hammam) in a cave setting",
+      "cat": "do",
+      "tier": "",
+      "a": "U\u00e7hisar / \u00dcrg\u00fcp",
+      "d": "A hot marble slab, a foam-and-scrub ritual and deep quiet under carved rock \u2014 the perfect unwind after dawn ballooning and valley walks. The finest cave hotels have private hammams that can be booked exclusively for the family.",
+      "lat": 38.621845,
+      "lon": 34.803751,
+      "photos": []
+    },
+    {
+      "n": "Cappadocian wine tasting in a cave cellar",
+      "cat": "do",
+      "tier": "",
+      "a": "\u00dcrg\u00fcp / U\u00e7hisar",
+      "d": "This is one of the world's oldest wine regions; taste the crisp local white Emir and the deep red \u00d6k\u00fczg\u00f6z\u00fc in cellars carved into the rock, where the tuff holds a steady cool temperature year-round. Established houses like Turasan and Kocaba\u011f run relaxed private tastings.",
+      "lat": 38.621845,
+      "lon": 34.803751,
+      "photos": []
+    },
+    {
+      "n": "Pottery workshop",
+      "cat": "do",
+      "tier": "",
+      "a": "Avanos",
+      "d": "A private session at a master's kick-wheel, shaping the red river clay and glazing a keepsake to be fired and sent home. The most tactile souvenir in Cappadocia and a genuine delight across three generations.",
+      "lat": 38.714471,
+      "lon": 34.83035,
+      "photos": []
+    },
+    {
+      "n": "Carpet & kilim workshop",
+      "cat": "do",
+      "tier": "",
+      "a": "Avanos / G\u00f6reme",
+      "d": "Watch women knot silk and wool by hand as it has been done here since Hittite times, learn to read the motifs, and choose a piece with an unhurried, tea-in-hand demonstration. A cultural window as much as a purchase.",
+      "lat": 38.638612,
+      "lon": 34.845518,
+      "photos": []
+    },
+    {
+      "n": "Sunset Point, G\u00f6reme",
+      "cat": "do",
+      "tier": "",
+      "a": "G\u00f6reme",
+      "d": "The town's beloved vantage: an easy drive or short climb to an open terrace with an unbroken view over the chimneys as the sun sinks. Bring \u00e7ay or a glass of Emir and watch the valley change colour.",
+      "lat": 38.639802,
+      "lon": 34.831048,
+      "photos": []
+    },
+    {
+      "n": "Red Valley sunset viewpoint (K\u0131z\u0131l\u00e7ukur)",
+      "cat": "do",
+      "tier": "",
+      "a": "Between G\u00f6reme and Ortahisar",
+      "d": "The drive-up terrace regarded as the region's finest sunset, looking clear across the ridges to U\u00e7hisar Castle as the rock burns red-gold. Little tea shacks serve fresh-squeezed pomegranate juice while you wait for the light.",
+      "lat": 38.655879,
+      "lon": 34.861718,
+      "photos": []
+    },
+    {
+      "n": "Sword Valley (K\u0131l\u0131\u00e7lar) & El Nazar Church walk",
+      "cat": "do",
+      "tier": "",
+      "a": "Near G\u00f6reme",
+      "d": "A short, atmospheric walk from G\u00f6reme through jagged 'sword' rock into two little-visited frescoed chapels \u2014 El Nazar and the Hidden (Sakl\u0131) Church. Quiet, close to town and rich for anyone who loves the Byzantine art.",
+      "lat": 38.638612,
+      "lon": 34.845518,
+      "photos": []
+    },
+    {
+      "n": "Hac\u0131bekta\u015f day trip",
+      "cat": "do",
+      "tier": "",
+      "a": "North of Nev\u015fehir",
+      "d": "The spiritual heart of the Alevi\u2013Bekta\u015fi tradition, centred on the serene lodge and tomb of the 13th-century mystic Hac\u0131 Bekta\u015f Veli, whose message of tolerance and peace still draws pilgrims. A thoughtful, off-the-tourist-trail half-day.",
+      "lat": 38.631116,
+      "lon": 34.794129,
+      "photos": []
+    },
+    {
+      "n": "Private guide & driver across the three valleys",
+      "cat": "do",
+      "tier": "",
+      "a": "Region-wide",
+      "d": "The way to see Cappadocia well: a knowledgeable private guide and a chilled car linking the sites at your own rhythm, with veg-friendly lunch stops and rests built around the group. It turns a scattered region into an effortless, personal itinerary.",
+      "lat": 38.772458,
+      "lon": 34.527347,
+      "photos": []
+    },
+    {
+      "n": "Balloon-watch breakfast on a hotel terrace",
+      "cat": "do",
+      "tier": "",
+      "a": "G\u00f6reme / U\u00e7hisar",
+      "d": "For those who'd rather stay grounded, a leisurely Turkish breakfast on a cave-hotel terrace at dawn puts hundreds of balloons directly overhead with coffee in hand. Comfortable, unhurried and perfect for grandparents or very young children.",
+      "lat": 38.631116,
+      "lon": 34.794129,
+      "photos": []
+    },
+    {
+      "n": "Sunrise photography walk",
+      "cat": "do",
+      "tier": "",
+      "a": "G\u00f6reme / U\u00e7hisar",
+      "d": "A private photographer or guide leads you to the best-angled ridge before dawn to catch the balloons filling the pink sky above the chimneys \u2014 the shot everyone wants, done properly. Gentle underfoot and easily paced.",
+      "lat": 38.631116,
+      "lon": 34.794129,
+      "photos": []
+    },
+    {
+      "n": "Cavusin to G\u00f6reme valley trek (Rose\u2013Red loop)",
+      "cat": "do",
+      "tier": "",
+      "a": "\u00c7avu\u015fin / G\u00f6reme",
+      "d": "The classic longer walk, starting at the \u00c7avu\u015fin trailhead and winding down through Rose and Red valleys past hidden cave chapels back toward G\u00f6reme. A guide keeps the route clear and the pace right for a mixed-ability family.",
+      "lat": 38.638612,
+      "lon": 34.845518,
+      "photos": []
+    },
+    {
+      "n": "Museum Hotel terrace",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "U\u00e7hisar",
+      "d": "A 180\u00b0 cliff-top panorama over the valleys with an evening drink \u2014 arguably the finest sunset seat in Cappadocia.",
+      "lat": 38.621845,
+      "lon": 34.803751,
+      "photos": []
+    },
+    {
+      "n": "Seki Lounge, Argos in Cappadocia",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "U\u00e7hisar",
+      "d": "A candlelit stone-and-cave lounge and terrace above Pigeon Valley \u2014 the region's most refined setting for a nightcap.",
+      "lat": 38.630093,
+      "lon": 34.807594,
+      "photos": []
+    },
+    {
+      "n": "Sultan Cave Suites rooftop",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "G\u00f6reme",
+      "d": "The most famous terrace in G\u00f6reme \u2014 sunset and sunrise drinks with balloons filling the sky at dawn.",
+      "lat": 38.638612,
+      "lon": 34.845518,
+      "photos": []
+    },
+    {
+      "n": "Fat Boys / G\u00f6reme village bars",
+      "cat": "party",
+      "tier": "Late & loud",
+      "a": "G\u00f6reme",
+      "d": "G\u00f6reme's informal traveller bars \u2014 the closest the region comes to a late scene, low-key and unpretentious.",
+      "lat": 38.638612,
+      "lon": 34.845518,
+      "photos": []
+    }
+  ]
+}

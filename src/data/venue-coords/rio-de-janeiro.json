@@ -1,1 +1,738 @@
-{"center": [-22.911014, -43.209373], "venues": [{"n": "Copacabana Palace, A Belmond Hotel", "cat": "stay", "tier": "Ultra", "a": "Copacabana", "d": "The 1923 palace on Copacabana's seafront — the definitive grand hotel of South America, and still the city's most storied address.", "lat": -22.967013, "lon": -43.179185, "p": "v"}, {"n": "Fasano Rio de Janeiro", "cat": "stay", "tier": "Ultra", "a": "Ipanema", "d": "Philippe Starck's dark, glamorous high-rise over Ipanema — a rooftop infinity pool and one of the great beach-front views in the city.", "lat": -22.987028, "lon": -43.196239, "p": "v"}, {"n": "Hotel Emiliano Rio", "cat": "stay", "tier": "Grand", "a": "Copacabana", "d": "A contemporary Brazilian-modernist house over Copacabana Beach — a rooftop pool, a spa and quietly impeccable service.", "lat": -22.911014, "lon": -43.209373, "p": "v"}, {"n": "Fairmont Rio de Janeiro Copacabana", "cat": "stay", "tier": "Grand", "a": "Copacabana / Leme", "d": "At the head of Copacabana Beach — a full-service grand hotel with the finest uninterrupted sweep of the bay's white sand.", "lat": -22.985944, "lon": -43.189331, "p": "v"}, {"n": "JANEIRO Hotel", "cat": "stay", "tier": "Grand", "a": "Leblon", "d": "Designer-hotelier Oskar Metsavaht's house over Leblon Beach — Brazilian timber, sculptural furniture and floor-to-ceiling sea and sky.", "lat": -22.967013, "lon": -43.179185, "p": "v"}, {"n": "Santa Teresa Hotel RJ — MGallery", "cat": "stay", "tier": "Luxury", "a": "Santa Teresa", "d": "A restored hillside coffee estate in bohemian Santa Teresa — Brazilian modernist design, hardwoods and a hilltop pool above the city.", "lat": -22.921554, "lon": -43.186027, "p": "v"}, {"n": "Hotel Emiliano — beachfront suites (Copacabana)", "cat": "stay", "tier": "Grand", "a": "Copacabana", "d": "The suite tier of the Emiliano — larger, sea-facing rooms with the same modernist restraint and rooftop-pool access.", "lat": -22.965739, "lon": -43.188871, "p": "v"}, {"n": "Sofitel Rio de Janeiro Copacabana", "cat": "stay", "tier": "Luxury", "a": "Copacabana", "d": "A grand French-flavoured house between Copacabana and Arpoador — two rooftop pools and one of the best sunset outlooks in the city.", "lat": -22.985952, "lon": -43.2074, "p": "v"}, {"n": "Miramar Hotel by Windsor", "cat": "stay", "tier": "Premium", "a": "Copacabana", "d": "A polished mid-century tower on the Copacabana seafront with a much-loved rooftop bar over the beach.", "lat": -22.927155, "lon": -43.176167, "p": "v"}, {"n": "Lasai", "cat": "eat", "tier": "Destination", "a": "Botafogo", "d": "Rafael Costa e Silva's vegetable-led room in a Botafogo townhouse — the most celebrated table in Rio, sourced from its own gardens.", "lat": -22.953142, "lon": -43.196313, "p": "v"}, {"n": "Oro", "cat": "eat", "tier": "Destination", "a": "Leblon", "d": "Felipe Bronze's theatre of fire and Brazilian ingredients — an inventive, hands-on tasting-menu experience, two Michelin stars strong.", "lat": -22.986051, "lon": -43.224759, "p": "v"}, {"n": "Oteque", "cat": "eat", "tier": "Destination", "a": "Botafogo", "d": "Alberto Landgraf's precise, seafood-led counter and small dining room — a Japanese-German hand on the finest Brazilian catch.", "lat": -22.911014, "lon": -43.209373, "p": "v"}, {"n": "Mee", "cat": "eat", "tier": "Destination", "a": "Copacabana (Copacabana Palace)", "d": "Pan-Asian fine dining inside the Copacabana Palace — a serene, poolside room and the city's most polished Asian tasting menus.", "lat": -23.022816, "lon": -43.546089, "p": "v"}, {"n": "Ristorante Hotel Cipriani", "cat": "eat", "tier": "Destination", "a": "Copacabana (Copacabana Palace)", "d": "Chef Nello Cassese's Neapolitan-Piedmontese cooking in a chandeliered room over the palace pool — Italian fine dining of real pedigree.", "lat": -22.919973, "lon": -43.222285, "p": "v"}, {"n": "Madame Olympe", "cat": "eat", "tier": "Fine", "a": "Ipanema", "d": "A contemporary Brazilian kitchen that earned its first Michelin star in the 2026 guide — assured, personal, of-the-moment.", "lat": -22.978347, "lon": -43.394682, "p": "v"}, {"n": "Oseille", "cat": "eat", "tier": "Fine", "a": "Ipanema", "d": "Thomas Troisgros's French-Brazilian room above Ipanema — a one-star kitchen from one of Brazil's great culinary families.", "lat": -22.911014, "lon": -43.209373, "p": "v"}, {"n": "Aprazível", "cat": "eat", "tier": "Fine", "a": "Santa Teresa", "d": "A hillside garden restaurant in Santa Teresa — modern Brazilian cooking under the trees with a sweeping view over Guanabara Bay.", "lat": -22.923466, "lon": -43.187018, "p": "v"}, {"n": "Sushi Leblon", "cat": "eat", "tier": "Fine", "a": "Leblon", "d": "Rio's benchmark Japanese room — a long-standing Leblon fixture for pristine fish and a see-and-be-seen crowd.", "lat": -22.984184, "lon": -43.227232, "p": "v"}, {"n": "CT Boucherie", "cat": "eat", "tier": "Fine", "a": "Leblon", "d": "Claude Troisgros's all-you-can-eat parade of grilled cuts and sides — refined churrasco theatre in Leblon.", "lat": -22.982038, "lon": -43.224333, "p": "v"}, {"n": "Ocyá", "cat": "eat", "tier": "Fine", "a": "Leblon", "d": "A produce- and fire-led kitchen in Leblon celebrated for its treatment of Brazilian seafood and vegetables.", "lat": -22.985355, "lon": -43.227319, "p": "v"}, {"n": "Giuseppe Grill", "cat": "eat", "tier": "Smart", "a": "Leblon", "d": "A carnivore's institution — precise, high-quality Brazilian grilling in an unfussy, always-full room.", "lat": -22.903855, "lon": -43.176643, "p": "v"}, {"n": "Nosso", "cat": "eat", "tier": "Smart", "a": "Ipanema", "d": "A relaxed three-floor room and cocktail bar in Ipanema — playful modern Brazilian plates and a rooftop terrace.", "lat": -22.973605, "lon": -43.284953, "p": "v"}, {"n": "Confeitaria Colombo", "cat": "eat", "tier": "Casual", "a": "Centro", "d": "Rio's belle-époque grande dame since 1894 — Antwerp mirrors, rosewood and Art Nouveau, for coffee, pastries and old-Rio ceremony.", "lat": -22.90517, "lon": -43.178744, "p": "v"}, {"n": "Aconchego Carioca", "cat": "eat", "tier": "Smart", "a": "Praça da Bandeira", "d": "A warm, much-loved botequim of elevated Carioca home cooking — the famed bolinho de feijoada and a serious cachaça list.", "lat": -22.912934, "lon": -43.214112, "p": "v"}, {"n": "Christ the Redeemer & Corcovado", "cat": "do", "tier": "", "a": "Corcovado / Tijuca National Park", "d": "The 30-metre Art Deco statue crowns Corcovado at 710 metres, arms open over the whole city. Ride the century-old cog train up through rainforest, or arrange a private guide who can time your arrival for the softer early light and thinner crowds, and let elders take the panoramic lift rather than the final steps.", "lat": -22.951917, "lon": -43.210459, "p": "v"}, {"n": "The Corcovado Train (Trem do Corcovado)", "cat": "do", "tier": "", "a": "Cosme Velho", "d": "Brazil's oldest tourist railway, running since 1884, climbs 3.8 kilometres of steep track through Tijuca forest to the foot of the statue. The twenty-minute ascent past waterfalls and tree canopy is an experience in itself, and children tend to remember the little red train as much as the view.", "lat": -22.940645, "lon": -43.198542, "p": "v"}, {"n": "Sugarloaf Mountain (Pão de Açúcar)", "cat": "do", "tier": "", "a": "Urca", "d": "Two glass cable cars glide from Praia Vermelha up Morro da Urca and on to the 396-metre granite dome, opening a 360-degree sweep of Guanabara Bay, Copacabana and Christ on his distant peak. Time the second car for sunset, when the whole city turns amber and then lights up. The cableway has run since 1912.", "lat": -22.949489, "lon": -43.156157, "p": "v"}, {"n": "Copacabana Beach & the Copacabana Palace", "cat": "do", "tier": "", "a": "Copacabana", "d": "Four kilometres of crescent sand framed by the Portuguese-wave promenade, with the grande-dame Copacabana Palace watching over it since 1923. Take an early-morning walk before the heat, then a discreet lunch on the hotel terrace; the beach itself is best enjoyed with a guide and your valuables left in the room.", "lat": -22.967013, "lon": -43.179185, "p": "v"}, {"n": "Ipanema Beach & the Fasano", "cat": "do", "tier": "", "a": "Ipanema", "d": "The most stylish stretch of Rio, immortalised by the bossa-nova song, with the Dois Irmãos peaks closing the western end. The Fasano's rooftop pool and its Italian dining room are the natural base for a discreet family; posto 9 is the see-and-be-seen sand, quieter towards Leblon.", "lat": -22.987028, "lon": -43.196239, "p": "v"}, {"n": "Arpoador Sunset", "cat": "do", "tier": "", "a": "Arpoador", "d": "The rocky point between Ipanema and Copacabana where cariocas gather each evening to watch the sun drop behind Dois Irmãos, and applaud when it does. Have your driver drop you close by; it is one of the city's genuine communal rituals and costs nothing.", "lat": -22.988977, "lon": -43.192113, "p": "v"}, {"n": "Selarón Steps (Escadaria Selarón)", "cat": "do", "tier": "", "a": "Lapa / Santa Teresa", "d": "The 215 steps that Chilean artist Jorge Selarón spent two decades tiling with more than 2,000 ceramics from around the world, including many from India and Brazil. A short, vivid stop between Lapa and Santa Teresa, best in mid-morning before the crowds thicken.", "lat": -22.915445, "lon": -43.179455, "p": "v"}, {"n": "Santa Teresa & the Bonde Tram", "cat": "do", "tier": "", "a": "Santa Teresa", "d": "Rio's bohemian hilltop quarter of cobbled lanes, artists' studios and colonial mansions, reached by the restored yellow bonde tram over the Lapa aqueduct. Book a table at a hillside restaurant with a bay view; it is the most atmospheric neighbourhood in the city and easy to explore slowly with a private guide.", "lat": -22.920736, "lon": -43.189743, "p": "v"}, {"n": "The Lapa Arches (Arcos da Lapa) & Nightlife", "cat": "do", "tier": "", "a": "Lapa", "d": "The 18th-century white aqueduct is the emblem of Lapa, the district that comes alive after dark with samba clubs and street music. Best appreciated lit up in the evening; a guide can frame a safe hour or two of live samba at a reputable house without wading into the crush.", "lat": -22.913026, "lon": -43.182236, "p": "a"}, {"n": "Maracanã Stadium", "cat": "do", "tier": "", "a": "Maracanã", "d": "The temple of Brazilian football, host of two World Cup finals and the 2016 Olympic ceremonies. A behind-the-scenes tour of the pitch, dressing rooms and trophy hall lands well with sports-loving teenagers; catching a match with a guide is unforgettable but best arranged with security in mind.", "lat": -22.912162, "lon": -43.231186, "p": "v"}, {"n": "Museum of Tomorrow (Museu do Amanhã)", "cat": "do", "tier": "", "a": "Praça Mauá / Porto Maravilha", "d": "Santiago Calatrava's spectacular white pavilion juts over the water like a great bird, its interactive science exhibits on climate and the future built for curious minds of every age. The anchor of the revitalised port district and a strong wet-weather option for multi-generational groups.", "lat": -22.894068, "lon": -43.179404, "p": "v"}, {"n": "Museu de Arte do Rio (MAR)", "cat": "do", "tier": "", "a": "Praça Mauá / Porto Maravilha", "d": "Two contrasting buildings joined by a wave-form roof on Praça Mauá, showing Brazilian art and the city's own story. Pair it with the Museum of Tomorrow across the square for a half-day of culture in the reborn port.", "lat": -22.896449, "lon": -43.181841, "p": "v"}, {"n": "Olympic Boulevard & the Kobra Etnias Mural", "cat": "do", "tier": "", "a": "Porto Maravilha", "d": "The revitalised waterfront promenade of the 2016 Games, anchored by Eduardo Kobra's vast 'Etnias' mural of five indigenous faces from five continents, once the world's largest spray-paint artwork. An open-air stroll that pairs street art with harbour views.", "lat": -22.903932, "lon": -43.211703, "p": "a"}, {"n": "Rio Botanical Garden (Jardim Botânico)", "cat": "do", "tier": "", "a": "Jardim Botânico", "d": "Founded by the Portuguese crown in 1808, 140 hectares of avenues of imperial palms, orchid houses and giant Amazonian water lilies at the foot of Corcovado. Cool, shaded and gentle underfoot, it is ideal for grandparents and small children on a hot afternoon.", "lat": -22.96786, "lon": -43.225119, "p": "v"}, {"n": "Parque Lage", "cat": "do", "tier": "", "a": "Jardim Botânico", "d": "A dreamlike Italianate mansion with a courtyard café set against the sheer rock of Corcovado, the statue framed perfectly above the arches. Wander the English gardens, take coffee in the courtyard, and start the walking trail toward Christ if the fit want to.", "lat": -22.959415, "lon": -43.211889, "p": "v"}, {"n": "Tijuca National Park", "cat": "do", "tier": "", "a": "Tijuca", "d": "One of the world's largest urban rainforests, hand-replanted in the 19th century, with waterfalls, the Cascatinha Taunay, jungle trails and toucans within the city limits. A private 4x4 tour lets a whole family reach the peaks and pools without a demanding hike.", "lat": -22.960648, "lon": -43.250593, "p": "v"}, {"n": "Vista Chinesa", "cat": "do", "tier": "", "a": "Tijuca / Alto da Boa Vista", "d": "An Oriental-style stone pavilion perched in the Tijuca forest, giving one of the finest framed panoramas of the lagoon, Ipanema and Christ from a single balcony. An easy drive-up viewpoint that rewards a five-minute stop on the way through the park.", "lat": -22.973256, "lon": -43.249468, "p": "v"}, {"n": "Theatro Municipal", "cat": "do", "tier": "", "a": "Cinelândia / Centro", "d": "Rio's belle-époque opera house of 1909, modelled on the Paris Opéra, all marble, gilt and Carrara staircases. Take a guided daytime tour of the auditorium and foyers, or dress for an evening of ballet or opera under the great chandelier.", "lat": -22.908992, "lon": -43.176677, "p": "v"}, {"n": "Confeitaria Colombo", "cat": "do", "tier": "", "a": "Centro", "d": "A gilded-age tea room from 1894 with Belgian mirrors, jacaranda counters and stained glass, the most beautiful café in Brazil. Afternoon tea here is a genteel institution, and the pastries and salgados are easy for a vegetarian to navigate.", "lat": -22.90517, "lon": -43.178744, "p": "v"}, {"n": "Royal Portuguese Reading Room (Real Gabinete Português de Leitura)", "cat": "do", "tier": "", "a": "Centro", "d": "A neo-Manueline jewel-box library of 1887 holding the largest collection of Portuguese literature outside Portugal, its galleried hall often named among the world's most beautiful. A short, hushed, breathtaking visit for anyone who loves books and design.", "lat": -22.909658, "lon": -43.170137, "p": "a"}, {"n": "Candelária Church", "cat": "do", "tier": "", "a": "Centro", "d": "The great domed baroque-and-neoclassical church at the heart of downtown, its Italian marble interior a cool refuge amid the city bustle. A quick, dignified stop on any Centro walking tour.", "lat": -22.900849, "lon": -43.177794, "p": "v"}, {"n": "Niterói Contemporary Art Museum (MAC)", "cat": "do", "tier": "", "a": "Niterói", "d": "Oscar Niemeyer's flying-saucer museum of 1996, poised on a cliff above a reflecting pool, its ramp curling toward a wall of glass. Cross Guanabara Bay for the building itself and for the return view of Rio's skyline; the drive over the great bridge is half the pleasure.", "lat": -22.907922, "lon": -43.125869, "p": "v"}, {"n": "Pedra do Telégrafo", "cat": "do", "tier": "", "a": "Barra de Guaratiba", "d": "The cliff-edge rock whose optical illusion makes hikers appear to dangle over a vast abyss when in fact the drop is small. A moderate hour-and-a-half trail out west rewards fit teenagers and photographers with the city's most shared image.", "lat": -23.068317, "lon": -43.558205, "p": "v"}, {"n": "Hang-Gliding off Pedra Bonita", "cat": "do", "tier": "", "a": "São Conrado", "d": "A tandem launch from the 510-metre Pedra Bonita ramp inside Tijuca park, soaring past Pedra da Gávea and the ocean before landing on São Conrado beach. The city's signature adventure for the bold, flights lasting eight to twelve minutes with a certified pilot.", "lat": -22.991359, "lon": -43.267533, "p": "a"}, {"n": "Prainha Beach", "cat": "do", "tier": "", "a": "Recreio / West Zone", "d": "A protected crescent of golden sand backed by Atlantic rainforest, favoured by surfers and cariocas escaping the city crowds. Wilder and quieter than the postcard beaches, it makes a good half-day out west with a driver.", "lat": -22.897722, "lon": -43.184163, "p": "v"}, {"n": "Grumari Beach", "cat": "do", "tier": "", "a": "West Zone", "d": "A wide, undeveloped stretch inside an environmental reserve, with reddish sand, forested hills and no high-rises. One of the last unspoilt beaches within the city, best paired with Prainha and lunch at a rustic seafood shack.", "lat": -23.047039, "lon": -43.533479, "p": "v"}, {"n": "Barra da Tijuca Beach", "cat": "do", "tier": "", "a": "Barra da Tijuca", "d": "Rio's longest beach, nearly 18 kilometres of open sand fronting the modern, spacious district that hosted the Olympics. Calmer and more suburban than Ipanema, with malls and family restaurants nearby, it suits travellers who want room to breathe.", "lat": -23.013228, "lon": -43.319711, "p": "v"}, {"n": "A Favela Cultural Visit", "cat": "do", "tier": "", "a": "various communities", "d": "Communities such as those linked to social projects can be visited on respectful, community-led tours that support local artists, cooks and guides rather than treating residents as a spectacle. Go only with a reputable operator who lives or works there; it is a way to understand the real city, not a photo safari.", "lat": -22.992597, "lon": -43.250714, "p": "v"}, {"n": "Feira de São Cristóvão", "cat": "do", "tier": "", "a": "São Cristóvão", "d": "A vast covered fair celebrating the culture of Brazil's northeast, with live forró music, food stalls and craft. Lively and colourful, especially at weekends; a guide helps a family navigate it and find the vegetarian-friendly corn and cassava dishes.", "lat": -22.896289, "lon": -43.220269, "p": "v"}, {"n": "The Sambadrome (Sambódromo Marquês de Sapucaí)", "cat": "do", "tier": "", "a": "Cidade Nova", "d": "Niemeyer's 700-metre parade avenue, built in 1984, where the samba schools compete over four Carnival nights before 90,000 spectators. Out of season you can tour it and its Carnival museum; in season, a private box turns the world's greatest show into a comfortable, secure night.", "lat": -22.910988, "lon": -43.196853, "p": "v"}, {"n": "A Samba Night", "cat": "do", "tier": "", "a": "Lapa / Pedra do Sal", "d": "Live samba is the soul of Rio, from the roda at Pedra do Sal in the old port to polished houses in Lapa. A guide can seat a family at a reputable venue for a couple of hours of music and dance without navigating the late-night crush alone.", "lat": -22.894135, "lon": -43.196897, "p": "v"}, {"n": "Escadaria & Largo do Boticário", "cat": "do", "tier": "", "a": "Cosme Velho", "d": "A tiny, storybook square of pastel colonial houses tucked into the forest near the Corcovado train station, one of Rio's most photographed hidden corners. A quiet, atmospheric pause to fold into a Corcovado morning.", "lat": -22.939438, "lon": -43.201456, "p": "v"}, {"n": "Mirante Dona Marta", "cat": "do", "tier": "", "a": "between Corcovado and Botafogo", "d": "A road-accessible balcony below Christ the Redeemer giving a clean, elevated line over Botafogo, Sugarloaf and the bay, and back up at the statue itself. The go-to viewpoint for photographers who want the whole composition without a hike.", "lat": -22.945136, "lon": -43.196429, "p": "v"}, {"n": "Rodrigo de Freitas Lagoon (Lagoa)", "cat": "do", "tier": "", "a": "Lagoa", "d": "The saltwater lagoon ringed by an eight-kilometre path, hemmed by Ipanema, the Botanical Garden and the hills, with kiosks and pedalos. A gentle sunset stroll, cycle or waterside dinner that shows Rio at its most relaxed and family-friendly.", "lat": -22.971627, "lon": -43.212059, "p": "v"}, {"n": "Escadaria to Dois Irmãos (Morro Dois Irmãos)", "cat": "do", "tier": "", "a": "Vidigal", "d": "The twin-peak hike above Leblon that delivers arguably the best view in Rio, the whole southern coastline laid out below. A short but steep community-supported trail from Vidigal; go early with a local guide for the light and the safety.", "lat": -22.99494, "lon": -43.248908, "p": "v"}, {"n": "Petrópolis — the Imperial City", "cat": "do", "tier": "", "a": "Serra dos Órgãos (day trip)", "d": "An hour and a half up into cool mountain air, the 19th-century summer capital of Brazil's emperors, with the Imperial Museum in Pedro II's palace and the Gothic cathedral holding his tomb. A refined change of pace and climate, and a fine multi-generational day out by private car.", "lat": -22.507715, "lon": -43.175668, "p": "v"}, {"n": "Escadaria & the Urca Waterfront", "cat": "do", "tier": "", "a": "Urca", "d": "The village-like neighbourhood at Sugarloaf's foot, where locals sit on the Mureta da Urca sea wall at dusk with a cold drink and the bay before them. A serene, safe pocket of old Rio to end a Sugarloaf visit before dinner.", "lat": -22.951594, "lon": -43.165196, "p": "v"}, {"n": "Pedra da Gávea", "cat": "do", "tier": "", "a": "São Conrado / Tijuca", "d": "The colossal 842-metre monolith looming over São Conrado, one of the highest ocean-front peaks in the world, its summit a demanding scramble with an unrivalled reward. Strictly for fit, experienced walkers with a guide; the rest can admire it from the hang-glider ramp.", "lat": -22.998982, "lon": -43.282973, "p": "v"}, {"n": "Escadaria & the Real Cabinet Quarter — Praça XV", "cat": "do", "tier": "", "a": "Centro", "d": "The old imperial waterfront square where the royal family once landed, with the Paço Imperial palace, the arch to Travessa do Comércio and ferries to Niterói. A handsome starting point for a walking tour of colonial Rio, and the departure quay for the bay crossing.", "lat": -22.909658, "lon": -43.170137, "p": "a"}, {"n": "Leblon Beach & Neighbourhood", "cat": "do", "tier": "", "a": "Leblon", "d": "The quieter, more residential and upscale continuation of Ipanema, with the city's best restaurants and a family-friendly stretch of sand known as Baixo Bebê. The calm base of choice for travellers who want fine dining and a gentler beach scene.", "lat": -22.983461, "lon": -43.224966, "p": "v"}, {"n": "Museu do Amanhã Gardens & Aquário AquaRio", "cat": "do", "tier": "", "a": "Porto Maravilha", "d": "Beside the reborn port sits AquaRio, South America's largest marine aquarium, with a walk-through ocean tunnel that delights younger children. An easy, air-conditioned pairing with the Museum of Tomorrow when the family needs an indoor afternoon.", "lat": -22.903932, "lon": -43.211703, "p": "a"}, {"n": "Vizinho Gastrobar", "cat": "party", "tier": "Cocktail bars", "a": "Barra da Tijuca", "d": "A garden cocktail retreat widely rated among Rio's best bars — refined, fruit-led drinks from a serious bar team.", "lat": -22.91362, "lon": -43.181609, "p": "v"}, {"n": "Nosso", "cat": "party", "tier": "Cocktail bars", "a": "Ipanema", "d": "A laid-back three-floor bar and kitchen in Ipanema — playful twists on classics drawing on Brazil's distillates and ferments.", "lat": -22.973605, "lon": -43.284953, "p": "v"}, {"n": "Bar do Copa", "cat": "party", "tier": "Cocktail bars", "a": "Copacabana (Copacabana Palace)", "d": "The polished bar of the Copacabana Palace — impeccable classics and a discreet, grown-up room within the grand old hotel.", "lat": -22.964463, "lon": -43.178691, "p": "v"}, {"n": "Fasano Rooftop Bar", "cat": "party", "tier": "Rooftops", "a": "Ipanema (Hotel Fasano)", "d": "The Starck-designed rooftop over Ipanema — a stylish crowd, an infinity pool and one of the great beachfront outlooks in Rio.", "lat": -22.987028, "lon": -43.196239, "p": "v"}, {"n": "Miramar Rooftop (Windsor Miramar)", "cat": "party", "tier": "Rooftops", "a": "Copacabana", "d": "A much-loved rooftop bar directly over Copacabana Beach — a classic Carioca vantage on the great arc of sand.", "lat": -22.98098, "lon": -43.190117, "p": "v"}, {"n": "Academia da Cachaça", "cat": "party", "tier": "Landmark bars", "a": "Leblon", "d": "A Leblon institution since 1985 devoted to cachaça and the caipirinha — the definitive place to learn Brazil's national spirit.", "lat": -23.005395, "lon": -43.312884, "p": "v"}, {"n": "Confeitaria Colombo (Bar / salon)", "cat": "party", "tier": "Landmark bars", "a": "Centro", "d": "Belle-époque grandeur for an aperitivo among Antwerp mirrors and rosewood — old Rio at its most theatrical.", "lat": -22.90517, "lon": -43.178744, "p": "v"}, {"n": "Lapa (Rio Scenarium & the arches)", "cat": "party", "tier": "Late & loud", "a": "Lapa", "d": "Rio's samba heartland beneath the aqueduct arches — live music, dancing and the antique-filled halls of Rio Scenarium.", "lat": -22.913026, "lon": -43.182236, "p": "a"}]}
+{
+  "center": [
+    -22.911014,
+    -43.209373
+  ],
+  "venues": [
+    {
+      "n": "Copacabana Palace, A Belmond Hotel",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Copacabana",
+      "d": "The 1923 palace on Copacabana's seafront \u2014 the definitive grand hotel of South America, and still the city's most storied address.",
+      "lat": -22.967013,
+      "lon": -43.179185,
+      "photos": []
+    },
+    {
+      "n": "Fasano Rio de Janeiro",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Ipanema",
+      "d": "Philippe Starck's dark, glamorous high-rise over Ipanema \u2014 a rooftop infinity pool and one of the great beach-front views in the city.",
+      "lat": -22.987028,
+      "lon": -43.196239,
+      "photos": []
+    },
+    {
+      "n": "Hotel Emiliano Rio",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Copacabana",
+      "d": "A contemporary Brazilian-modernist house over Copacabana Beach \u2014 a rooftop pool, a spa and quietly impeccable service.",
+      "lat": -22.911014,
+      "lon": -43.209373,
+      "photos": []
+    },
+    {
+      "n": "Fairmont Rio de Janeiro Copacabana",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Copacabana / Leme",
+      "d": "At the head of Copacabana Beach \u2014 a full-service grand hotel with the finest uninterrupted sweep of the bay's white sand.",
+      "lat": -22.985944,
+      "lon": -43.189331,
+      "photos": []
+    },
+    {
+      "n": "JANEIRO Hotel",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Leblon",
+      "d": "Designer-hotelier Oskar Metsavaht's house over Leblon Beach \u2014 Brazilian timber, sculptural furniture and floor-to-ceiling sea and sky.",
+      "lat": -22.967013,
+      "lon": -43.179185,
+      "photos": []
+    },
+    {
+      "n": "Santa Teresa Hotel RJ \u2014 MGallery",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Santa Teresa",
+      "d": "A restored hillside coffee estate in bohemian Santa Teresa \u2014 Brazilian modernist design, hardwoods and a hilltop pool above the city.",
+      "lat": -22.921554,
+      "lon": -43.186027,
+      "photos": []
+    },
+    {
+      "n": "Hotel Emiliano \u2014 beachfront suites (Copacabana)",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Copacabana",
+      "d": "The suite tier of the Emiliano \u2014 larger, sea-facing rooms with the same modernist restraint and rooftop-pool access.",
+      "lat": -22.965739,
+      "lon": -43.188871,
+      "photos": []
+    },
+    {
+      "n": "Sofitel Rio de Janeiro Copacabana",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Copacabana",
+      "d": "A grand French-flavoured house between Copacabana and Arpoador \u2014 two rooftop pools and one of the best sunset outlooks in the city.",
+      "lat": -22.985952,
+      "lon": -43.2074,
+      "photos": []
+    },
+    {
+      "n": "Miramar Hotel by Windsor",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Copacabana",
+      "d": "A polished mid-century tower on the Copacabana seafront with a much-loved rooftop bar over the beach.",
+      "lat": -22.927155,
+      "lon": -43.176167,
+      "photos": []
+    },
+    {
+      "n": "Lasai",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Botafogo",
+      "d": "Rafael Costa e Silva's vegetable-led room in a Botafogo townhouse \u2014 the most celebrated table in Rio, sourced from its own gardens.",
+      "lat": -22.953142,
+      "lon": -43.196313,
+      "photos": []
+    },
+    {
+      "n": "Oro",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Leblon",
+      "d": "Felipe Bronze's theatre of fire and Brazilian ingredients \u2014 an inventive, hands-on tasting-menu experience, two Michelin stars strong.",
+      "lat": -22.986051,
+      "lon": -43.224759,
+      "photos": []
+    },
+    {
+      "n": "Oteque",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Botafogo",
+      "d": "Alberto Landgraf's precise, seafood-led counter and small dining room \u2014 a Japanese-German hand on the finest Brazilian catch.",
+      "lat": -22.911014,
+      "lon": -43.209373,
+      "photos": []
+    },
+    {
+      "n": "Mee",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Copacabana (Copacabana Palace)",
+      "d": "Pan-Asian fine dining inside the Copacabana Palace \u2014 a serene, poolside room and the city's most polished Asian tasting menus.",
+      "lat": -23.022816,
+      "lon": -43.546089,
+      "photos": []
+    },
+    {
+      "n": "Ristorante Hotel Cipriani",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Copacabana (Copacabana Palace)",
+      "d": "Chef Nello Cassese's Neapolitan-Piedmontese cooking in a chandeliered room over the palace pool \u2014 Italian fine dining of real pedigree.",
+      "lat": -22.919973,
+      "lon": -43.222285,
+      "photos": []
+    },
+    {
+      "n": "Madame Olympe",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Ipanema",
+      "d": "A contemporary Brazilian kitchen that earned its first Michelin star in the 2026 guide \u2014 assured, personal, of-the-moment.",
+      "lat": -22.978347,
+      "lon": -43.394682,
+      "photos": []
+    },
+    {
+      "n": "Oseille",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Ipanema",
+      "d": "Thomas Troisgros's French-Brazilian room above Ipanema \u2014 a one-star kitchen from one of Brazil's great culinary families.",
+      "lat": -22.911014,
+      "lon": -43.209373,
+      "photos": []
+    },
+    {
+      "n": "Apraz\u00edvel",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Santa Teresa",
+      "d": "A hillside garden restaurant in Santa Teresa \u2014 modern Brazilian cooking under the trees with a sweeping view over Guanabara Bay.",
+      "lat": -22.923466,
+      "lon": -43.187018,
+      "photos": []
+    },
+    {
+      "n": "Sushi Leblon",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Leblon",
+      "d": "Rio's benchmark Japanese room \u2014 a long-standing Leblon fixture for pristine fish and a see-and-be-seen crowd.",
+      "lat": -22.984184,
+      "lon": -43.227232,
+      "photos": []
+    },
+    {
+      "n": "CT Boucherie",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Leblon",
+      "d": "Claude Troisgros's all-you-can-eat parade of grilled cuts and sides \u2014 refined churrasco theatre in Leblon.",
+      "lat": -22.982038,
+      "lon": -43.224333,
+      "photos": []
+    },
+    {
+      "n": "Ocy\u00e1",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Leblon",
+      "d": "A produce- and fire-led kitchen in Leblon celebrated for its treatment of Brazilian seafood and vegetables.",
+      "lat": -22.985355,
+      "lon": -43.227319,
+      "photos": []
+    },
+    {
+      "n": "Giuseppe Grill",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Leblon",
+      "d": "A carnivore's institution \u2014 precise, high-quality Brazilian grilling in an unfussy, always-full room.",
+      "lat": -22.903855,
+      "lon": -43.176643,
+      "photos": []
+    },
+    {
+      "n": "Nosso",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Ipanema",
+      "d": "A relaxed three-floor room and cocktail bar in Ipanema \u2014 playful modern Brazilian plates and a rooftop terrace.",
+      "lat": -22.973605,
+      "lon": -43.284953,
+      "photos": []
+    },
+    {
+      "n": "Confeitaria Colombo",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Centro",
+      "d": "Rio's belle-\u00e9poque grande dame since 1894 \u2014 Antwerp mirrors, rosewood and Art Nouveau, for coffee, pastries and old-Rio ceremony.",
+      "lat": -22.90517,
+      "lon": -43.178744,
+      "photos": []
+    },
+    {
+      "n": "Aconchego Carioca",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Pra\u00e7a da Bandeira",
+      "d": "A warm, much-loved botequim of elevated Carioca home cooking \u2014 the famed bolinho de feijoada and a serious cacha\u00e7a list.",
+      "lat": -22.912934,
+      "lon": -43.214112,
+      "photos": []
+    },
+    {
+      "n": "Christ the Redeemer & Corcovado",
+      "cat": "do",
+      "tier": "",
+      "a": "Corcovado / Tijuca National Park",
+      "d": "The 30-metre Art Deco statue crowns Corcovado at 710 metres, arms open over the whole city. Ride the century-old cog train up through rainforest, or arrange a private guide who can time your arrival for the softer early light and thinner crowds, and let elders take the panoramic lift rather than the final steps.",
+      "lat": -22.951917,
+      "lon": -43.210459,
+      "photos": []
+    },
+    {
+      "n": "The Corcovado Train (Trem do Corcovado)",
+      "cat": "do",
+      "tier": "",
+      "a": "Cosme Velho",
+      "d": "Brazil's oldest tourist railway, running since 1884, climbs 3.8 kilometres of steep track through Tijuca forest to the foot of the statue. The twenty-minute ascent past waterfalls and tree canopy is an experience in itself, and children tend to remember the little red train as much as the view.",
+      "lat": -22.940645,
+      "lon": -43.198542,
+      "photos": []
+    },
+    {
+      "n": "Sugarloaf Mountain (P\u00e3o de A\u00e7\u00facar)",
+      "cat": "do",
+      "tier": "",
+      "a": "Urca",
+      "d": "Two glass cable cars glide from Praia Vermelha up Morro da Urca and on to the 396-metre granite dome, opening a 360-degree sweep of Guanabara Bay, Copacabana and Christ on his distant peak. Time the second car for sunset, when the whole city turns amber and then lights up. The cableway has run since 1912.",
+      "lat": -22.949489,
+      "lon": -43.156157,
+      "photos": []
+    },
+    {
+      "n": "Copacabana Beach & the Copacabana Palace",
+      "cat": "do",
+      "tier": "",
+      "a": "Copacabana",
+      "d": "Four kilometres of crescent sand framed by the Portuguese-wave promenade, with the grande-dame Copacabana Palace watching over it since 1923. Take an early-morning walk before the heat, then a discreet lunch on the hotel terrace; the beach itself is best enjoyed with a guide and your valuables left in the room.",
+      "lat": -22.967013,
+      "lon": -43.179185,
+      "photos": []
+    },
+    {
+      "n": "Ipanema Beach & the Fasano",
+      "cat": "do",
+      "tier": "",
+      "a": "Ipanema",
+      "d": "The most stylish stretch of Rio, immortalised by the bossa-nova song, with the Dois Irm\u00e3os peaks closing the western end. The Fasano's rooftop pool and its Italian dining room are the natural base for a discreet family; posto 9 is the see-and-be-seen sand, quieter towards Leblon.",
+      "lat": -22.987028,
+      "lon": -43.196239,
+      "photos": []
+    },
+    {
+      "n": "Arpoador Sunset",
+      "cat": "do",
+      "tier": "",
+      "a": "Arpoador",
+      "d": "The rocky point between Ipanema and Copacabana where cariocas gather each evening to watch the sun drop behind Dois Irm\u00e3os, and applaud when it does. Have your driver drop you close by; it is one of the city's genuine communal rituals and costs nothing.",
+      "lat": -22.988977,
+      "lon": -43.192113,
+      "photos": []
+    },
+    {
+      "n": "Selar\u00f3n Steps (Escadaria Selar\u00f3n)",
+      "cat": "do",
+      "tier": "",
+      "a": "Lapa / Santa Teresa",
+      "d": "The 215 steps that Chilean artist Jorge Selar\u00f3n spent two decades tiling with more than 2,000 ceramics from around the world, including many from India and Brazil. A short, vivid stop between Lapa and Santa Teresa, best in mid-morning before the crowds thicken.",
+      "lat": -22.915445,
+      "lon": -43.179455,
+      "photos": []
+    },
+    {
+      "n": "Santa Teresa & the Bonde Tram",
+      "cat": "do",
+      "tier": "",
+      "a": "Santa Teresa",
+      "d": "Rio's bohemian hilltop quarter of cobbled lanes, artists' studios and colonial mansions, reached by the restored yellow bonde tram over the Lapa aqueduct. Book a table at a hillside restaurant with a bay view; it is the most atmospheric neighbourhood in the city and easy to explore slowly with a private guide.",
+      "lat": -22.920736,
+      "lon": -43.189743,
+      "photos": []
+    },
+    {
+      "n": "The Lapa Arches (Arcos da Lapa) & Nightlife",
+      "cat": "do",
+      "tier": "",
+      "a": "Lapa",
+      "d": "The 18th-century white aqueduct is the emblem of Lapa, the district that comes alive after dark with samba clubs and street music. Best appreciated lit up in the evening; a guide can frame a safe hour or two of live samba at a reputable house without wading into the crush.",
+      "lat": -22.913026,
+      "lon": -43.182236,
+      "photos": []
+    },
+    {
+      "n": "Maracan\u00e3 Stadium",
+      "cat": "do",
+      "tier": "",
+      "a": "Maracan\u00e3",
+      "d": "The temple of Brazilian football, host of two World Cup finals and the 2016 Olympic ceremonies. A behind-the-scenes tour of the pitch, dressing rooms and trophy hall lands well with sports-loving teenagers; catching a match with a guide is unforgettable but best arranged with security in mind.",
+      "lat": -22.912162,
+      "lon": -43.231186,
+      "photos": []
+    },
+    {
+      "n": "Museum of Tomorrow (Museu do Amanh\u00e3)",
+      "cat": "do",
+      "tier": "",
+      "a": "Pra\u00e7a Mau\u00e1 / Porto Maravilha",
+      "d": "Santiago Calatrava's spectacular white pavilion juts over the water like a great bird, its interactive science exhibits on climate and the future built for curious minds of every age. The anchor of the revitalised port district and a strong wet-weather option for multi-generational groups.",
+      "lat": -22.894068,
+      "lon": -43.179404,
+      "photos": []
+    },
+    {
+      "n": "Museu de Arte do Rio (MAR)",
+      "cat": "do",
+      "tier": "",
+      "a": "Pra\u00e7a Mau\u00e1 / Porto Maravilha",
+      "d": "Two contrasting buildings joined by a wave-form roof on Pra\u00e7a Mau\u00e1, showing Brazilian art and the city's own story. Pair it with the Museum of Tomorrow across the square for a half-day of culture in the reborn port.",
+      "lat": -22.896449,
+      "lon": -43.181841,
+      "photos": []
+    },
+    {
+      "n": "Olympic Boulevard & the Kobra Etnias Mural",
+      "cat": "do",
+      "tier": "",
+      "a": "Porto Maravilha",
+      "d": "The revitalised waterfront promenade of the 2016 Games, anchored by Eduardo Kobra's vast 'Etnias' mural of five indigenous faces from five continents, once the world's largest spray-paint artwork. An open-air stroll that pairs street art with harbour views.",
+      "lat": -22.903932,
+      "lon": -43.211703,
+      "photos": []
+    },
+    {
+      "n": "Rio Botanical Garden (Jardim Bot\u00e2nico)",
+      "cat": "do",
+      "tier": "",
+      "a": "Jardim Bot\u00e2nico",
+      "d": "Founded by the Portuguese crown in 1808, 140 hectares of avenues of imperial palms, orchid houses and giant Amazonian water lilies at the foot of Corcovado. Cool, shaded and gentle underfoot, it is ideal for grandparents and small children on a hot afternoon.",
+      "lat": -22.96786,
+      "lon": -43.225119,
+      "photos": []
+    },
+    {
+      "n": "Parque Lage",
+      "cat": "do",
+      "tier": "",
+      "a": "Jardim Bot\u00e2nico",
+      "d": "A dreamlike Italianate mansion with a courtyard caf\u00e9 set against the sheer rock of Corcovado, the statue framed perfectly above the arches. Wander the English gardens, take coffee in the courtyard, and start the walking trail toward Christ if the fit want to.",
+      "lat": -22.959415,
+      "lon": -43.211889,
+      "photos": []
+    },
+    {
+      "n": "Tijuca National Park",
+      "cat": "do",
+      "tier": "",
+      "a": "Tijuca",
+      "d": "One of the world's largest urban rainforests, hand-replanted in the 19th century, with waterfalls, the Cascatinha Taunay, jungle trails and toucans within the city limits. A private 4x4 tour lets a whole family reach the peaks and pools without a demanding hike.",
+      "lat": -22.960648,
+      "lon": -43.250593,
+      "photos": []
+    },
+    {
+      "n": "Vista Chinesa",
+      "cat": "do",
+      "tier": "",
+      "a": "Tijuca / Alto da Boa Vista",
+      "d": "An Oriental-style stone pavilion perched in the Tijuca forest, giving one of the finest framed panoramas of the lagoon, Ipanema and Christ from a single balcony. An easy drive-up viewpoint that rewards a five-minute stop on the way through the park.",
+      "lat": -22.973256,
+      "lon": -43.249468,
+      "photos": []
+    },
+    {
+      "n": "Theatro Municipal",
+      "cat": "do",
+      "tier": "",
+      "a": "Cinel\u00e2ndia / Centro",
+      "d": "Rio's belle-\u00e9poque opera house of 1909, modelled on the Paris Op\u00e9ra, all marble, gilt and Carrara staircases. Take a guided daytime tour of the auditorium and foyers, or dress for an evening of ballet or opera under the great chandelier.",
+      "lat": -22.908992,
+      "lon": -43.176677,
+      "photos": []
+    },
+    {
+      "n": "Confeitaria Colombo",
+      "cat": "do",
+      "tier": "",
+      "a": "Centro",
+      "d": "A gilded-age tea room from 1894 with Belgian mirrors, jacaranda counters and stained glass, the most beautiful caf\u00e9 in Brazil. Afternoon tea here is a genteel institution, and the pastries and salgados are easy for a vegetarian to navigate.",
+      "lat": -22.90517,
+      "lon": -43.178744,
+      "photos": []
+    },
+    {
+      "n": "Royal Portuguese Reading Room (Real Gabinete Portugu\u00eas de Leitura)",
+      "cat": "do",
+      "tier": "",
+      "a": "Centro",
+      "d": "A neo-Manueline jewel-box library of 1887 holding the largest collection of Portuguese literature outside Portugal, its galleried hall often named among the world's most beautiful. A short, hushed, breathtaking visit for anyone who loves books and design.",
+      "lat": -22.909658,
+      "lon": -43.170137,
+      "photos": []
+    },
+    {
+      "n": "Candel\u00e1ria Church",
+      "cat": "do",
+      "tier": "",
+      "a": "Centro",
+      "d": "The great domed baroque-and-neoclassical church at the heart of downtown, its Italian marble interior a cool refuge amid the city bustle. A quick, dignified stop on any Centro walking tour.",
+      "lat": -22.900849,
+      "lon": -43.177794,
+      "photos": []
+    },
+    {
+      "n": "Niter\u00f3i Contemporary Art Museum (MAC)",
+      "cat": "do",
+      "tier": "",
+      "a": "Niter\u00f3i",
+      "d": "Oscar Niemeyer's flying-saucer museum of 1996, poised on a cliff above a reflecting pool, its ramp curling toward a wall of glass. Cross Guanabara Bay for the building itself and for the return view of Rio's skyline; the drive over the great bridge is half the pleasure.",
+      "lat": -22.907922,
+      "lon": -43.125869,
+      "photos": []
+    },
+    {
+      "n": "Pedra do Tel\u00e9grafo",
+      "cat": "do",
+      "tier": "",
+      "a": "Barra de Guaratiba",
+      "d": "The cliff-edge rock whose optical illusion makes hikers appear to dangle over a vast abyss when in fact the drop is small. A moderate hour-and-a-half trail out west rewards fit teenagers and photographers with the city's most shared image.",
+      "lat": -23.068317,
+      "lon": -43.558205,
+      "photos": []
+    },
+    {
+      "n": "Hang-Gliding off Pedra Bonita",
+      "cat": "do",
+      "tier": "",
+      "a": "S\u00e3o Conrado",
+      "d": "A tandem launch from the 510-metre Pedra Bonita ramp inside Tijuca park, soaring past Pedra da G\u00e1vea and the ocean before landing on S\u00e3o Conrado beach. The city's signature adventure for the bold, flights lasting eight to twelve minutes with a certified pilot.",
+      "lat": -22.991359,
+      "lon": -43.267533,
+      "photos": []
+    },
+    {
+      "n": "Prainha Beach",
+      "cat": "do",
+      "tier": "",
+      "a": "Recreio / West Zone",
+      "d": "A protected crescent of golden sand backed by Atlantic rainforest, favoured by surfers and cariocas escaping the city crowds. Wilder and quieter than the postcard beaches, it makes a good half-day out west with a driver.",
+      "lat": -22.897722,
+      "lon": -43.184163,
+      "photos": []
+    },
+    {
+      "n": "Grumari Beach",
+      "cat": "do",
+      "tier": "",
+      "a": "West Zone",
+      "d": "A wide, undeveloped stretch inside an environmental reserve, with reddish sand, forested hills and no high-rises. One of the last unspoilt beaches within the city, best paired with Prainha and lunch at a rustic seafood shack.",
+      "lat": -23.047039,
+      "lon": -43.533479,
+      "photos": []
+    },
+    {
+      "n": "Barra da Tijuca Beach",
+      "cat": "do",
+      "tier": "",
+      "a": "Barra da Tijuca",
+      "d": "Rio's longest beach, nearly 18 kilometres of open sand fronting the modern, spacious district that hosted the Olympics. Calmer and more suburban than Ipanema, with malls and family restaurants nearby, it suits travellers who want room to breathe.",
+      "lat": -23.013228,
+      "lon": -43.319711,
+      "photos": []
+    },
+    {
+      "n": "A Favela Cultural Visit",
+      "cat": "do",
+      "tier": "",
+      "a": "various communities",
+      "d": "Communities such as those linked to social projects can be visited on respectful, community-led tours that support local artists, cooks and guides rather than treating residents as a spectacle. Go only with a reputable operator who lives or works there; it is a way to understand the real city, not a photo safari.",
+      "lat": -22.992597,
+      "lon": -43.250714,
+      "photos": []
+    },
+    {
+      "n": "Feira de S\u00e3o Crist\u00f3v\u00e3o",
+      "cat": "do",
+      "tier": "",
+      "a": "S\u00e3o Crist\u00f3v\u00e3o",
+      "d": "A vast covered fair celebrating the culture of Brazil's northeast, with live forr\u00f3 music, food stalls and craft. Lively and colourful, especially at weekends; a guide helps a family navigate it and find the vegetarian-friendly corn and cassava dishes.",
+      "lat": -22.896289,
+      "lon": -43.220269,
+      "photos": []
+    },
+    {
+      "n": "The Sambadrome (Samb\u00f3dromo Marqu\u00eas de Sapuca\u00ed)",
+      "cat": "do",
+      "tier": "",
+      "a": "Cidade Nova",
+      "d": "Niemeyer's 700-metre parade avenue, built in 1984, where the samba schools compete over four Carnival nights before 90,000 spectators. Out of season you can tour it and its Carnival museum; in season, a private box turns the world's greatest show into a comfortable, secure night.",
+      "lat": -22.910988,
+      "lon": -43.196853,
+      "photos": []
+    },
+    {
+      "n": "A Samba Night",
+      "cat": "do",
+      "tier": "",
+      "a": "Lapa / Pedra do Sal",
+      "d": "Live samba is the soul of Rio, from the roda at Pedra do Sal in the old port to polished houses in Lapa. A guide can seat a family at a reputable venue for a couple of hours of music and dance without navigating the late-night crush alone.",
+      "lat": -22.894135,
+      "lon": -43.196897,
+      "photos": []
+    },
+    {
+      "n": "Escadaria & Largo do Botic\u00e1rio",
+      "cat": "do",
+      "tier": "",
+      "a": "Cosme Velho",
+      "d": "A tiny, storybook square of pastel colonial houses tucked into the forest near the Corcovado train station, one of Rio's most photographed hidden corners. A quiet, atmospheric pause to fold into a Corcovado morning.",
+      "lat": -22.939438,
+      "lon": -43.201456,
+      "photos": []
+    },
+    {
+      "n": "Mirante Dona Marta",
+      "cat": "do",
+      "tier": "",
+      "a": "between Corcovado and Botafogo",
+      "d": "A road-accessible balcony below Christ the Redeemer giving a clean, elevated line over Botafogo, Sugarloaf and the bay, and back up at the statue itself. The go-to viewpoint for photographers who want the whole composition without a hike.",
+      "lat": -22.945136,
+      "lon": -43.196429,
+      "photos": []
+    },
+    {
+      "n": "Rodrigo de Freitas Lagoon (Lagoa)",
+      "cat": "do",
+      "tier": "",
+      "a": "Lagoa",
+      "d": "The saltwater lagoon ringed by an eight-kilometre path, hemmed by Ipanema, the Botanical Garden and the hills, with kiosks and pedalos. A gentle sunset stroll, cycle or waterside dinner that shows Rio at its most relaxed and family-friendly.",
+      "lat": -22.971627,
+      "lon": -43.212059,
+      "photos": []
+    },
+    {
+      "n": "Escadaria to Dois Irm\u00e3os (Morro Dois Irm\u00e3os)",
+      "cat": "do",
+      "tier": "",
+      "a": "Vidigal",
+      "d": "The twin-peak hike above Leblon that delivers arguably the best view in Rio, the whole southern coastline laid out below. A short but steep community-supported trail from Vidigal; go early with a local guide for the light and the safety.",
+      "lat": -22.99494,
+      "lon": -43.248908,
+      "photos": []
+    },
+    {
+      "n": "Petr\u00f3polis \u2014 the Imperial City",
+      "cat": "do",
+      "tier": "",
+      "a": "Serra dos \u00d3rg\u00e3os (day trip)",
+      "d": "An hour and a half up into cool mountain air, the 19th-century summer capital of Brazil's emperors, with the Imperial Museum in Pedro II's palace and the Gothic cathedral holding his tomb. A refined change of pace and climate, and a fine multi-generational day out by private car.",
+      "lat": -22.507715,
+      "lon": -43.175668,
+      "photos": []
+    },
+    {
+      "n": "Escadaria & the Urca Waterfront",
+      "cat": "do",
+      "tier": "",
+      "a": "Urca",
+      "d": "The village-like neighbourhood at Sugarloaf's foot, where locals sit on the Mureta da Urca sea wall at dusk with a cold drink and the bay before them. A serene, safe pocket of old Rio to end a Sugarloaf visit before dinner.",
+      "lat": -22.951594,
+      "lon": -43.165196,
+      "photos": []
+    },
+    {
+      "n": "Pedra da G\u00e1vea",
+      "cat": "do",
+      "tier": "",
+      "a": "S\u00e3o Conrado / Tijuca",
+      "d": "The colossal 842-metre monolith looming over S\u00e3o Conrado, one of the highest ocean-front peaks in the world, its summit a demanding scramble with an unrivalled reward. Strictly for fit, experienced walkers with a guide; the rest can admire it from the hang-glider ramp.",
+      "lat": -22.998982,
+      "lon": -43.282973,
+      "photos": []
+    },
+    {
+      "n": "Escadaria & the Real Cabinet Quarter \u2014 Pra\u00e7a XV",
+      "cat": "do",
+      "tier": "",
+      "a": "Centro",
+      "d": "The old imperial waterfront square where the royal family once landed, with the Pa\u00e7o Imperial palace, the arch to Travessa do Com\u00e9rcio and ferries to Niter\u00f3i. A handsome starting point for a walking tour of colonial Rio, and the departure quay for the bay crossing.",
+      "lat": -22.909658,
+      "lon": -43.170137,
+      "photos": []
+    },
+    {
+      "n": "Leblon Beach & Neighbourhood",
+      "cat": "do",
+      "tier": "",
+      "a": "Leblon",
+      "d": "The quieter, more residential and upscale continuation of Ipanema, with the city's best restaurants and a family-friendly stretch of sand known as Baixo Beb\u00ea. The calm base of choice for travellers who want fine dining and a gentler beach scene.",
+      "lat": -22.983461,
+      "lon": -43.224966,
+      "photos": []
+    },
+    {
+      "n": "Museu do Amanh\u00e3 Gardens & Aqu\u00e1rio AquaRio",
+      "cat": "do",
+      "tier": "",
+      "a": "Porto Maravilha",
+      "d": "Beside the reborn port sits AquaRio, South America's largest marine aquarium, with a walk-through ocean tunnel that delights younger children. An easy, air-conditioned pairing with the Museum of Tomorrow when the family needs an indoor afternoon.",
+      "lat": -22.903932,
+      "lon": -43.211703,
+      "photos": []
+    },
+    {
+      "n": "Vizinho Gastrobar",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Barra da Tijuca",
+      "d": "A garden cocktail retreat widely rated among Rio's best bars \u2014 refined, fruit-led drinks from a serious bar team.",
+      "lat": -22.91362,
+      "lon": -43.181609,
+      "photos": []
+    },
+    {
+      "n": "Nosso",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Ipanema",
+      "d": "A laid-back three-floor bar and kitchen in Ipanema \u2014 playful twists on classics drawing on Brazil's distillates and ferments.",
+      "lat": -22.973605,
+      "lon": -43.284953,
+      "photos": []
+    },
+    {
+      "n": "Bar do Copa",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Copacabana (Copacabana Palace)",
+      "d": "The polished bar of the Copacabana Palace \u2014 impeccable classics and a discreet, grown-up room within the grand old hotel.",
+      "lat": -22.964463,
+      "lon": -43.178691,
+      "photos": []
+    },
+    {
+      "n": "Fasano Rooftop Bar",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "Ipanema (Hotel Fasano)",
+      "d": "The Starck-designed rooftop over Ipanema \u2014 a stylish crowd, an infinity pool and one of the great beachfront outlooks in Rio.",
+      "lat": -22.987028,
+      "lon": -43.196239,
+      "photos": []
+    },
+    {
+      "n": "Miramar Rooftop (Windsor Miramar)",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "Copacabana",
+      "d": "A much-loved rooftop bar directly over Copacabana Beach \u2014 a classic Carioca vantage on the great arc of sand.",
+      "lat": -22.98098,
+      "lon": -43.190117,
+      "photos": []
+    },
+    {
+      "n": "Academia da Cacha\u00e7a",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "Leblon",
+      "d": "A Leblon institution since 1985 devoted to cacha\u00e7a and the caipirinha \u2014 the definitive place to learn Brazil's national spirit.",
+      "lat": -23.005395,
+      "lon": -43.312884,
+      "photos": []
+    },
+    {
+      "n": "Confeitaria Colombo (Bar / salon)",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "Centro",
+      "d": "Belle-\u00e9poque grandeur for an aperitivo among Antwerp mirrors and rosewood \u2014 old Rio at its most theatrical.",
+      "lat": -22.90517,
+      "lon": -43.178744,
+      "photos": []
+    },
+    {
+      "n": "Lapa (Rio Scenarium & the arches)",
+      "cat": "party",
+      "tier": "Late & loud",
+      "a": "Lapa",
+      "d": "Rio's samba heartland beneath the aqueduct arches \u2014 live music, dancing and the antique-filled halls of Rio Scenarium.",
+      "lat": -22.913026,
+      "lon": -43.182236,
+      "photos": []
+    }
+  ]
+}

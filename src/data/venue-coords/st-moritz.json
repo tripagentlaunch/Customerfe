@@ -1,1 +1,608 @@
-{"center": [46.497896, 9.839243], "venues": [{"n": "Badrutt's Palace Hotel", "cat": "stay", "tier": "Ultra", "a": "St. Moritz Dorf", "d": "The turreted symbol of St. Moritz since 1896 — the address the whole resort is measured against.", "lat": 46.497248, "lon": 9.84076, "p": "v"}, {"n": "Kulm Hotel St. Moritz", "cat": "stay", "tier": "Ultra", "a": "St. Moritz Dorf", "d": "Where Alpine winter tourism was invented in 1864 — GaultMillau's Hotel of the Year, above the lake and the Cresta.", "lat": 46.499095, "lon": 9.841748, "p": "v"}, {"n": "Suvretta House", "cat": "stay", "tier": "Ultra", "a": "Suvretta", "d": "A fairytale castle on its own plateau — the only ski-in, ski-out house in St. Moritz, with a private lift to Corviglia.", "lat": 46.484858, "lon": 9.819776, "p": "v"}, {"n": "Carlton Hotel St. Moritz", "cat": "stay", "tier": "Ultra", "a": "St. Moritz Dorf", "d": "A former tsar's residence turned all-suite house — every room faces the lake, and the finest Italian table in Switzerland is downstairs.", "lat": 46.499929, "lon": 9.846444, "p": "v"}, {"n": "Kempinski Grand Hotel des Bains", "cat": "stay", "tier": "Grand", "a": "St. Moritz Bad", "d": "A grand spa house on St. Moritz's mineral springs — the wellness address, at the foot of the Corviglia lift.", "lat": 46.48209, "lon": 9.83274, "p": "v"}, {"n": "Grace La Margna St. Moritz", "cat": "stay", "tier": "Grand", "a": "St. Moritz Dorf", "d": "A listed 1906 façade reborn as the resort's freshest luxury house — most rooms over the lake, two minutes from the station.", "lat": 46.498709, "lon": 9.845987, "p": "v"}, {"n": "Nira Alpina", "cat": "stay", "tier": "Luxury", "a": "Champfèr / Silvaplana", "d": "A design-led mountain hotel with the Corvatsch cable car in the building — ski from bed to the glacier.", "lat": 46.508526, "lon": 9.814221, "p": "v"}, {"n": "Grand Hotel Kronenhof", "cat": "stay", "tier": "Grand", "a": "Pontresina", "d": "A neo-Baroque grande dame facing the Bernina glaciers — the Engadin's most beautiful historic hotel, a short drive from St. Moritz.", "lat": 46.482754, "lon": 9.833172, "p": "v"}, {"n": "Da Vittorio – St. Moritz", "cat": "eat", "tier": "Destination", "a": "St. Moritz Dorf", "d": "The Cerea family's Alpine outpost of their three-star Lombardy temple — widely held to be the finest Italian table in Switzerland.", "lat": 46.499845, "lon": 9.846872, "p": "v"}, {"n": "Ecco St. Moritz", "cat": "eat", "tier": "Destination", "a": "Champfèr / Silvaplana", "d": "Reto Brändli's French-rooted cooking — depth and finesse in equal measure, in the calm of the Giardino Mountain.", "lat": 46.47763, "lon": 9.810984, "p": "v"}, {"n": "IGNIV by Andreas Caminada", "cat": "eat", "tier": "Destination", "a": "St. Moritz Dorf", "d": "Caminada's fine-dining-meets-sharing concept inside Badrutt's Palace — generous, playful and technically exact.", "lat": 46.498236, "lon": 9.838589, "p": "a"}, {"n": "Talvo by Dalsass", "cat": "eat", "tier": "Destination", "a": "Champfèr / Silvaplana", "d": "Mediterranean cooking of pure, produce-led essence in a 1658 Engadine farmhouse — one star, richly deserved.", "lat": 46.478429, "lon": 9.811847, "p": "v"}, {"n": "The K by Tim Raue", "cat": "eat", "tier": "Fine", "a": "St. Moritz Dorf", "d": "Tim Raue's precise Asian-accented cooking — Berlin's two-star hand, brought to the Kulm's mountain room.", "lat": 46.498236, "lon": 9.838589, "p": "a"}, {"n": "Cà d'Oro", "cat": "eat", "tier": "Fine", "a": "St. Moritz Bad", "d": "Matthias Schmidberger's refined kitchen at the Kempinski — polished, contemporary and quietly excellent.", "lat": 46.48263, "lon": 9.833717, "p": "v"}, {"n": "Grand Restaurant, Suvretta House", "cat": "eat", "tier": "Fine", "a": "Suvretta", "d": "Fabrizio Zanetti's cooking in a coffered, candle-lit dining hall — old-world grandeur, thoroughly modern plates.", "lat": 46.484858, "lon": 9.819776, "p": "v"}, {"n": "Matsuhisa by Nobu, St. Moritz", "cat": "eat", "tier": "Fine", "a": "St. Moritz Dorf", "d": "Nobu Matsuhisa's signature Japanese-Peruvian cooking, in the theatrical setting of Badrutt's Palace.", "lat": 46.497289, "lon": 9.840032, "p": "v"}, {"n": "Dal Mulin", "cat": "eat", "tier": "Fine", "a": "St. Moritz Dorf", "d": "An independent village room of real ambition — Luca Porro's precise, personal cooking, free of any hotel.", "lat": 46.498976, "lon": 9.839809, "p": "v"}, {"n": "La Scarpetta", "cat": "eat", "tier": "Smart", "a": "St. Moritz Dorf", "d": "Honest, tasty Italian at a price the grand rooms can't touch — refined yet accessible, and new to the guide.", "lat": 46.498021, "lon": 9.845944, "p": "v"}, {"n": "Chesa Veglia", "cat": "eat", "tier": "Fine", "a": "St. Moritz Dorf", "d": "A 1658 Engadine farmhouse owned by the Palace — pizza, grill and Alpine classics under carved timber and lantern light.", "lat": 46.498018, "lon": 9.840253, "p": "v"}, {"n": "King's Social House", "cat": "eat", "tier": "Fine", "a": "St. Moritz Dorf", "d": "Jason Atherton's restaurant-bar-club revival of Switzerland's oldest nightclub — a considered kitchen with a late tempo.", "lat": 46.484858, "lon": 9.819776, "p": "v"}, {"n": "Corviglia & the Piz Nair Cable Car", "cat": "do", "tier": "", "a": "St. Moritz / Corviglia", "d": "The funicular climbs from the village directly to Corviglia at 2,489m — Switzerland's first railway built straight to a ski slope, opened in 1928 — and a cable car floats the last 530m to the Piz Nair summit at 3,056m, where the whole Engadin lake plateau and the Albula Alps open below you. This is the home mountain of St. Moritz society, groomed to perfection and laced with sun terraces; ski it in winter or ride it up in summer for the view and lunch.", "lat": 46.506942, "lon": 9.812043, "p": "a"}, {"n": "The Mountain-Restaurant Scene on Corviglia", "cat": "do", "tier": "", "a": "Corviglia", "d": "Lunch on Corviglia is a St. Moritz institution — the long, champagne-fuelled midday table where the see-and-be-seen crowd gathers between runs. La Marmite at the top station is the legendary address for truffle and caviar, El Paradiso for its terrace and DJs, and Restaurant Piz Nair '10,000 Feet' the highest of them all. Book ahead; a private guide can arrange a table and a heli lift back.", "lat": 46.506942, "lon": 9.812043, "p": "a"}, {"n": "Skiing Corviglia — 155km Above the Lakes", "cat": "do", "tier": "", "a": "Corviglia", "d": "155 kilometres of immaculately prepared pistes and 24 lifts spread across Corviglia's blues, reds and blacks, all facing the frozen chain of Engadin lakes — the birthplace of Alpine winter tourism still skiing at the top of the game. Private instructors and ski-in lunch reservations are the norm here, and the whole family can be matched to terrain, elders included.", "lat": 46.506942, "lon": 9.812043, "p": "a"}, {"n": "Piz Nair Sunrise", "cat": "do", "tier": "", "a": "Piz Nair, 3,056m", "d": "On select winter mornings the Piz Nair cable car runs before dawn to carry a small group up to 3,056m for breakfast as the first light sets the Bernina peaks alight, followed by the first tracks down empty pistes. It is one of the Engadin's quietly magical private-feeling experiences, best arranged in advance with your hotel concierge.", "lat": 46.50762, "lon": 9.800299, "p": "v"}, {"n": "Corvatsch — Cable Car to 3,303m", "cat": "do", "tier": "", "a": "Silvaplana-Surlej", "d": "The Corvatsch is the highest point reachable by cable car in the whole of eastern Switzerland, rising from Surlej to a viewing platform at 3,303m that looks straight across the Bernina glaciers and down onto the string of turquoise Upper Engadin lakes. In winter it delivers long, high, snow-sure descents; in summer, glacier air and a terrace among the four-thousanders.", "lat": 46.467595, "lon": 9.797249, "p": "a"}, {"n": "Corvatsch Snow Night & Hahnensee Run", "cat": "do", "tier": "", "a": "Corvatsch", "d": "Corvatsch runs Switzerland's longest floodlit night-skiing on Fridays, and its celebrated Hahnensee descent drops all the way from the glacier down to St. Moritz-Bad — a long, wild top-to-valley run that ends steps from an aprés-ski table. A memorable, slightly adventurous half-day for confident skiers in the family.", "lat": 46.48696, "lon": 9.836326, "p": "a"}, {"n": "Muottas Muragl — The Funicular & the Sunset", "cat": "do", "tier": "", "a": "Punt Muragl / Samedan", "d": "A wonderfully old-fashioned funicular from 1907 climbs to a terrace at 2,454m that frames the classic Engadin postcard — the chain of lakes below, the Bernina massif beyond, painted gold at dusk. The funicular runs late into the evening precisely so you can stay for the alpenglow and dinner at the Romantik Hotel; the single best sunset in the valley.", "lat": 46.507394, "lon": 9.880485, "p": "a"}, {"n": "White Turf — Horse Racing on the Frozen Lake", "cat": "do", "tier": "", "a": "Frozen Lake St. Moritz", "d": "Across three February Sundays the frozen lake becomes a racecourse and the definitive event of the St. Moritz winter season — thoroughbred flat and trotting races on snow, plus skijöring, the St. Moritz-exclusive discipline where skiers are hauled behind riderless horses at up to 50km/h. It is glamour, furs, champagne tents and society in full flourish; the hospitality marquees are the place to be.", "lat": 46.493324, "lon": 9.846363, "p": "a"}, {"n": "The Snow Polo World Cup", "cat": "do", "tier": "", "a": "Frozen Lake St. Moritz", "d": "Snow polo had its world premiere here in 1985, and St. Moritz still stages the only high-goal polo tournament played on snow — three days of thundering ponies on the frozen lake, VIP tents and end-of-day parties in late January. Among the most exclusive tickets of the European winter social calendar.", "lat": 46.493324, "lon": 9.846363, "p": "a"}, {"n": "Cricket on Ice", "cat": "do", "tier": "", "a": "Frozen Lake St. Moritz", "d": "First played on the frozen lake in 1988, Cricket on Ice is the delightfully improbable spectacle of a full match staged on the snow-covered surface of Lake St. Moritz in February — a natural draw for Indian visitors and a very St. Moritz blend of sport, eccentricity and lakeside hospitality.", "lat": 46.493324, "lon": 9.846363, "p": "a"}, {"n": "The St. Moritz Gourmet Festival", "cat": "do", "tier": "", "a": "St. Moritz / Upper Engadin", "d": "Running since 1994, the region's landmark culinary festival brings guest chefs from around the world into the grand hotels for Four-Hands Dinners and the legendary Gourmet Safari that walks a small group through several palace kitchens in a single evening. The Engadin already carries eight Michelin stars; this is the week it shows off. (Note: repositioned to summer from 2026.)", "lat": 46.488866, "lon": 9.835519, "p": "v"}, {"n": "The Segantini Museum", "cat": "do", "tier": "", "a": "St. Moritz", "d": "Built in 1908 as a memorial to the painter Giovanni Segantini, this domed stone rotunda holds the world's most important collection of his work, crowned by the monumental Alpine triptych 'La Vita — La Natura — La Morte'. Segantini reinvented how the high Alps were painted, and standing before the triptych with the real peaks outside is quietly extraordinary.", "lat": 46.492702, "lon": 9.833309, "p": "v"}, {"n": "The Berry Museum", "cat": "do", "tier": "", "a": "St. Moritz", "d": "Set in the centuries-old Villa Arona in the heart of the village, this intimate house-museum shows the luminous, Belle Époque paintings of the physician-artist Peter Robert Berry — a warm, personal counterpoint to the grand hotels, and a window into the St. Moritz of a hundred years ago.", "lat": 46.496356, "lon": 9.837901, "p": "v"}, {"n": "The Leaning Tower of St. Moritz", "cat": "do", "tier": "", "a": "St. Moritz Dorf", "d": "The last surviving fragment of the old church of St. Mauritius, this 12th-century tower leans at 5.5 degrees — a steeper tilt than Pisa's — above the village. A quick but characterful landmark, and a good anchor for a stroll through the old centre and up to Via Serlas.", "lat": 46.498236, "lon": 9.838589, "p": "a"}, {"n": "Sils Maria & the Nietzsche House", "cat": "do", "tier": "", "a": "Sils im Engadin/Segl", "d": "The most serene of the Engadin villages sits between Lakes Sils and Silvaplana, and it was here, in a modest house from 1881 to 1888, that Friedrich Nietzsche spent seven summers and conceived much of his thought. The house is now a museum; the village itself — car-light, lake-bound, ringed by peaks — is the Engadin at its most contemplative.", "lat": 46.431374, "lon": 9.759618, "p": "a"}, {"n": "Silvaplana — Windsurfing & Kitesurfing", "cat": "do", "tier": "", "a": "Silvaplana / Lake Silvaplana", "d": "The reliable afternoon 'Maloja wind' turns Lake Silvaplana into one of Europe's great high-altitude surfing arenas — from May to October the water fills with bright kites and sails against the Corvatsch backdrop. Even if you only watch from the shore over a lakeside lunch, it is one of the Engadin's most alive summer scenes; lessons and gear are on hand at the surf centre.", "lat": 46.47806, "lon": 9.813104, "p": "a"}, {"n": "Zuoz — The Sgraffito Village", "cat": "do", "tier": "", "a": "Zuoz", "d": "The best-preserved patrician village in the Upper Engadin, Zuoz is a picture-book ensemble of thick-walled Engadin houses with funnel windows, oriel bays and the incised, whitewashed wall-decoration called sgraffito. A guided village walk unlocks the stories behind the coats of arms and the fountains; unhurried, cultured, real.", "lat": 46.604855, "lon": 9.947047, "p": "a"}, {"n": "Pontresina — Belle Époque Village on the Bernina", "cat": "do", "tier": "", "a": "Pontresina", "d": "A sunny, south-facing resort village of grand Belle Époque hotels and traditional sgraffito houses at the mouth of the Roseg and Morteratsch valleys — the walkers' and climbers' base of the Engadin, calmer than St. Moritz but with its own refined charm. The perfect launch point for the Bernina glaciers and valley hikes.", "lat": 46.497896, "lon": 9.839243, "p": "a"}, {"n": "Celerina & the Chapel of San Gian", "cat": "do", "tier": "", "a": "Celerina", "d": "Celerina sits at the foot of Corviglia — where the Cresta Run and Olympia Bob Run finish — and is crowned by the landmark 15th-century chapel of San Gian with its twin (one roofless) towers on a low hill. A gentler, more village-scaled base than St. Moritz, minutes away by rail or road.", "lat": 46.506819, "lon": 9.849753, "p": "a"}, {"n": "The Bernina Express", "cat": "do", "tier": "", "a": "St. Moritz to Tirano", "d": "The most spectacular Alpine rail journey runs from the Engadin over the Bernina Pass and down to palm-fringed Tirano in Italy, climbing past glaciers and looping through the celebrated Brusio spiral viaduct without a single rack rail. Ride it in the panoramic carriages, or splurge on the exclusive first-class 'Excellence Class' with dining service.", "lat": 46.497896, "lon": 9.839243, "p": "a"}, {"n": "The Glacier Express", "cat": "do", "tier": "", "a": "St. Moritz to Zermatt", "d": "Billed as the world's slowest express, the Glacier Express links St. Moritz to Zermatt over eight hours of viaducts, gorges and the Oberalp Pass, its Albula section part of the same UNESCO railway. The Excellence Class carriage — one seat per window, five-course lunch, a personal concierge — is the way HNI travellers do it.", "lat": 46.497896, "lon": 9.839243, "p": "a"}, {"n": "The Engadin Lakes Hike", "cat": "do", "tier": "", "a": "St. Moritz / Silvaplana / Sils", "d": "The classic valley-floor walk strings together the four Upper Engadin lakes — St. Moritz, Champfèr, Silvaplana and Sils — on easy, near-level paths, the water often mirror-still and the Bernina reflected in it. Flat enough for grandparents, beautiful enough for anyone; do it in sections and picnic at a shore of your choosing.", "lat": 46.489625, "lon": 9.807903, "p": "v"}, {"n": "The Cresta Run", "cat": "do", "tier": "", "a": "St. Moritz to Celerina", "d": "Built in 1884 and run by the storied St. Moritz Tobogganing Club, the Cresta is a 1.2km natural-ice skeleton track where riders hurl themselves head-first down a hand-built channel of snow and ice — one of only two natural-ice runs left in the world staging international competition. It used the same track for the skeleton event at both the 1928 and 1948 Winter Olympics; watching from Junction is a St. Moritz rite.", "lat": 46.501088, "lon": 9.843159, "p": "v"}, {"n": "The Olympia Bob Run", "cat": "do", "tier": "", "a": "St. Moritz to Celerina", "d": "The birthplace of bobsleigh — first raced here in 1904 — is the last naturally built ice track in the world still hosting sanctioned bob and skeleton races, hand-carved each winter from snow and water alone. You can watch the professionals, or book a guest run and rocket down beside a pilot; St. Moritz hosted the Winter Olympics twice, in 1928 and 1948, and this track carried both.", "lat": 46.501389, "lon": 9.847884, "p": "v"}, {"n": "Engadin Golf — The Oldest in Switzerland", "cat": "do", "tier": "", "a": "Samedan / Zuoz", "d": "Founded in Samedan in 1893, Engadin Golf is the oldest golf club in Switzerland and among the oldest in continental Europe, its flat valley-floor course ringed by 3,000m peaks and nicknamed the 'Swiss St. Andrews'. With a second course at Zuoz-Madulain and the high Kulm course above the village, it is high-altitude golf with an unmatched backdrop.", "lat": 46.536511, "lon": 9.863333, "p": "a"}, {"n": "The Kempinski Alpine Spa & the Mauritius Spring", "cat": "do", "tier": "", "a": "St. Moritz-Bad", "d": "The Grand Hotel des Bains Kempinski stands on St. Moritz's 3,500-year-old bathing tradition, its vast Alpine Spa fed by the mineral-rich, naturally carbonated Mauritius spring that first made the town famous as a cure resort. Pools, Kneipp streams and thermal circuits make it one of the finest wellness addresses in the Alps.", "lat": 46.498021, "lon": 9.845944, "p": "a"}, {"n": "The Palace Wellness at Badrutt's Palace", "cat": "do", "tier": "", "a": "St. Moritz Dorf", "d": "The spa of the legendary Badrutt's Palace — the address of St. Moritz society since 1896 — offers ten treatment rooms, private spa suites, saunas and heated indoor-outdoor pools looking to the lake. Even non-residents can book treatments; it is discreet luxury at the beating heart of the resort.", "lat": 46.498236, "lon": 9.838589, "p": "a"}, {"n": "The Kulm Spa & the Kulm Country Club", "cat": "do", "tier": "", "a": "St. Moritz Dorf", "d": "The Kulm Hotel — where Alpine winter tourism was famously invented on a bet in 1864 — pairs a serene thermal-and-sauna wellness world with the Norman Foster-restored Kulm Country Club and the natural ice rink where the world's first Olympic ice events were held. History, wellness and glamour on one estate.", "lat": 46.498236, "lon": 9.838589, "p": "a"}, {"n": "Via Serlas — The Luxury Mile", "cat": "do", "tier": "", "a": "St. Moritz Dorf", "d": "Reputed to be the world's shortest luxury shopping street, Via Serlas packs Chanel, Louis Vuitton, Gucci, Prada, Hermès, Cartier and Bulgari into a few glittering metres beside Badrutt's Palace. Around it, small St. Moritz institutions sell caviar, rare teas, Engadin specialities and fine watches — the whole resort's see-and-be-seen promenade.", "lat": 46.496966, "lon": 9.838185, "p": "v"}, {"n": "Two Michelin Stars at IGNIV by Andreas Caminada", "cat": "do", "tier": "", "a": "Badrutt's Palace, St. Moritz", "d": "Andreas Caminada's playful fine-dining-as-sharing concept inside Badrutt's Palace holds two Michelin stars — beautifully composed modern European plates brought to the table to share, with the lake beyond the windows. One of the most sought-after tables in the Alps; reserve well ahead.", "lat": 46.497248, "lon": 9.84076, "p": "a"}, {"n": "Da Vittorio — Two-Star Italian at the Carlton", "cat": "do", "tier": "", "a": "Carlton Hotel, St. Moritz", "d": "The Cerea family's St. Moritz outpost of the famed Da Vittorio holds two Michelin stars for hearty-yet-refined Italian cooking, served in an elegant room above Lake St. Moritz — a natural favourite for guests who want gastronomy without ceremony overload, and staff attuned to dietary needs.", "lat": 46.499929, "lon": 9.846444, "p": "a"}, {"n": "Chesa Veglia — Badrutt's 17th-Century Farmhouse", "cat": "do", "tier": "", "a": "St. Moritz Dorf", "d": "A 1658 Engadin farmhouse turned into Badrutt's Palace's most atmospheric dining rooms, where pizza and grill are served under low painted beams and the après crowd gathers at the Polo Bar. Beautiful, historic and unmistakably St. Moritz — the enjoyable, less-formal counterpoint to the Michelin tables.", "lat": 46.498236, "lon": 9.838589, "p": "a"}, {"n": "Mountain Biking the Engadin Trails", "cat": "do", "tier": "", "a": "St. Moritz / Upper Engadin", "d": "Beyond skiing, the Engadin is a serious summer bike destination — from easy, near-level lakeshore loops the whole family can ride to lift-served flow trails and technical high-alpine singletrack off Corviglia and Corvatsch. E-bikes and guides are easily arranged; a fine active day between the lakes and the peaks.", "lat": 46.496894, "lon": 9.848389, "p": "a"}, {"n": "St. Moritz-Bad & Lake Staz (Lej da Staz)", "cat": "do", "tier": "", "a": "St. Moritz-Bad", "d": "A short walk or gentle carriage ride from the resort, the little forest-ringed Lej da Staz is the locals' summer swimming lake — warmer and calmer than the big lakes, with a rustic restaurant on its shore. A relaxed, unshowy escape that balances the glamour of the Dorf; lovely with children and grandparents.", "lat": 46.497232, "lon": 9.871287, "p": "v"}, {"n": "Sailing & Rowing on Lake Silvaplana and Lake Sils", "cat": "do", "tier": "", "a": "Silvaplana / Sils", "d": "Two of the largest Alpine lakes in Graubünden, Silvaplana and Sils are prime high-altitude sailing water thanks to the dependable Maloja wind, and a graceful old passenger boat still crosses Lake Sils in summer. Charter a boat, take a sailing lesson, or simply cruise the mirror-calm mornings before the wind rises.", "lat": 46.47806, "lon": 9.813104, "p": "a"}, {"n": "Heli-Skiing & Private Glacier Flights", "cat": "do", "tier": "", "a": "Upper Engadin", "d": "For those who want the mountains to themselves, helicopters lift skiers to remote glacier descents and carry sightseers over the Bernina ice fields for a landing in the eternal snow. Arranged discreetly through the grand hotels or private guides, it is the Engadin at its most exclusive — and a spectacular multi-generational scenic flight in summer.", "lat": 46.496894, "lon": 9.848389, "p": "a"}, {"n": "The Mili Weber House", "cat": "do", "tier": "", "a": "St. Moritz-Bad", "d": "The enchanting former home of illustrator Mili Weber, kept exactly as she left it and hand-painted with fairy-tale murals from floor to ceiling — a hidden, tender little gem quite unlike anything else in glamorous St. Moritz, visited by guided tour. A delightful, unexpected stop, especially with children.", "lat": 46.497464, "lon": 9.856032, "p": "v"}, {"n": "Renaissance Bar, Badrutt's Palace", "cat": "party", "tier": "Landmark bars", "a": "St. Moritz Dorf", "d": "The definitive St. Moritz hotel bar — timeless cocktails, a fireplace and a cigar selection, beneath the Palace's grandeur.", "lat": 46.497248, "lon": 9.84076, "p": "v"}, {"n": "King's Social House", "cat": "party", "tier": "Late & loud", "a": "St. Moritz Dorf", "d": "Switzerland's oldest nightclub, reborn by Jason Atherton — dinner, drinks and roaming international DJs under the Palace.", "lat": 46.484858, "lon": 9.819776, "p": "v"}, {"n": "Dracula Club", "cat": "party", "tier": "Landmark bars", "a": "St. Moritz Dorf", "d": "The legendary members' club founded by Gunter Sachs in the 1970s — 150 seats, and the private soul of St. Moritz nightlife.", "lat": 46.502551, "lon": 9.844938, "p": "v"}]}
+{
+  "center": [
+    46.497896,
+    9.839243
+  ],
+  "venues": [
+    {
+      "n": "Badrutt's Palace Hotel",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "St. Moritz Dorf",
+      "d": "The turreted symbol of St. Moritz since 1896 \u2014 the address the whole resort is measured against.",
+      "lat": 46.497248,
+      "lon": 9.84076,
+      "photos": []
+    },
+    {
+      "n": "Kulm Hotel St. Moritz",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "St. Moritz Dorf",
+      "d": "Where Alpine winter tourism was invented in 1864 \u2014 GaultMillau's Hotel of the Year, above the lake and the Cresta.",
+      "lat": 46.499095,
+      "lon": 9.841748,
+      "photos": []
+    },
+    {
+      "n": "Suvretta House",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Suvretta",
+      "d": "A fairytale castle on its own plateau \u2014 the only ski-in, ski-out house in St. Moritz, with a private lift to Corviglia.",
+      "lat": 46.484858,
+      "lon": 9.819776,
+      "photos": []
+    },
+    {
+      "n": "Carlton Hotel St. Moritz",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "St. Moritz Dorf",
+      "d": "A former tsar's residence turned all-suite house \u2014 every room faces the lake, and the finest Italian table in Switzerland is downstairs.",
+      "lat": 46.499929,
+      "lon": 9.846444,
+      "photos": []
+    },
+    {
+      "n": "Kempinski Grand Hotel des Bains",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "St. Moritz Bad",
+      "d": "A grand spa house on St. Moritz's mineral springs \u2014 the wellness address, at the foot of the Corviglia lift.",
+      "lat": 46.48209,
+      "lon": 9.83274,
+      "photos": []
+    },
+    {
+      "n": "Grace La Margna St. Moritz",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "St. Moritz Dorf",
+      "d": "A listed 1906 fa\u00e7ade reborn as the resort's freshest luxury house \u2014 most rooms over the lake, two minutes from the station.",
+      "lat": 46.498709,
+      "lon": 9.845987,
+      "photos": []
+    },
+    {
+      "n": "Nira Alpina",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Champf\u00e8r / Silvaplana",
+      "d": "A design-led mountain hotel with the Corvatsch cable car in the building \u2014 ski from bed to the glacier.",
+      "lat": 46.508526,
+      "lon": 9.814221,
+      "photos": []
+    },
+    {
+      "n": "Grand Hotel Kronenhof",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Pontresina",
+      "d": "A neo-Baroque grande dame facing the Bernina glaciers \u2014 the Engadin's most beautiful historic hotel, a short drive from St. Moritz.",
+      "lat": 46.482754,
+      "lon": 9.833172,
+      "photos": []
+    },
+    {
+      "n": "Da Vittorio \u2013 St. Moritz",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "St. Moritz Dorf",
+      "d": "The Cerea family's Alpine outpost of their three-star Lombardy temple \u2014 widely held to be the finest Italian table in Switzerland.",
+      "lat": 46.499845,
+      "lon": 9.846872,
+      "photos": []
+    },
+    {
+      "n": "Ecco St. Moritz",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Champf\u00e8r / Silvaplana",
+      "d": "Reto Br\u00e4ndli's French-rooted cooking \u2014 depth and finesse in equal measure, in the calm of the Giardino Mountain.",
+      "lat": 46.47763,
+      "lon": 9.810984,
+      "photos": []
+    },
+    {
+      "n": "IGNIV by Andreas Caminada",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "St. Moritz Dorf",
+      "d": "Caminada's fine-dining-meets-sharing concept inside Badrutt's Palace \u2014 generous, playful and technically exact.",
+      "lat": 46.498236,
+      "lon": 9.838589,
+      "photos": []
+    },
+    {
+      "n": "Talvo by Dalsass",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Champf\u00e8r / Silvaplana",
+      "d": "Mediterranean cooking of pure, produce-led essence in a 1658 Engadine farmhouse \u2014 one star, richly deserved.",
+      "lat": 46.478429,
+      "lon": 9.811847,
+      "photos": []
+    },
+    {
+      "n": "The K by Tim Raue",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "St. Moritz Dorf",
+      "d": "Tim Raue's precise Asian-accented cooking \u2014 Berlin's two-star hand, brought to the Kulm's mountain room.",
+      "lat": 46.498236,
+      "lon": 9.838589,
+      "photos": []
+    },
+    {
+      "n": "C\u00e0 d'Oro",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "St. Moritz Bad",
+      "d": "Matthias Schmidberger's refined kitchen at the Kempinski \u2014 polished, contemporary and quietly excellent.",
+      "lat": 46.48263,
+      "lon": 9.833717,
+      "photos": []
+    },
+    {
+      "n": "Grand Restaurant, Suvretta House",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Suvretta",
+      "d": "Fabrizio Zanetti's cooking in a coffered, candle-lit dining hall \u2014 old-world grandeur, thoroughly modern plates.",
+      "lat": 46.484858,
+      "lon": 9.819776,
+      "photos": []
+    },
+    {
+      "n": "Matsuhisa by Nobu, St. Moritz",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "St. Moritz Dorf",
+      "d": "Nobu Matsuhisa's signature Japanese-Peruvian cooking, in the theatrical setting of Badrutt's Palace.",
+      "lat": 46.497289,
+      "lon": 9.840032,
+      "photos": []
+    },
+    {
+      "n": "Dal Mulin",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "St. Moritz Dorf",
+      "d": "An independent village room of real ambition \u2014 Luca Porro's precise, personal cooking, free of any hotel.",
+      "lat": 46.498976,
+      "lon": 9.839809,
+      "photos": []
+    },
+    {
+      "n": "La Scarpetta",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "St. Moritz Dorf",
+      "d": "Honest, tasty Italian at a price the grand rooms can't touch \u2014 refined yet accessible, and new to the guide.",
+      "lat": 46.498021,
+      "lon": 9.845944,
+      "photos": []
+    },
+    {
+      "n": "Chesa Veglia",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "St. Moritz Dorf",
+      "d": "A 1658 Engadine farmhouse owned by the Palace \u2014 pizza, grill and Alpine classics under carved timber and lantern light.",
+      "lat": 46.498018,
+      "lon": 9.840253,
+      "photos": []
+    },
+    {
+      "n": "King's Social House",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "St. Moritz Dorf",
+      "d": "Jason Atherton's restaurant-bar-club revival of Switzerland's oldest nightclub \u2014 a considered kitchen with a late tempo.",
+      "lat": 46.484858,
+      "lon": 9.819776,
+      "photos": []
+    },
+    {
+      "n": "Corviglia & the Piz Nair Cable Car",
+      "cat": "do",
+      "tier": "",
+      "a": "St. Moritz / Corviglia",
+      "d": "The funicular climbs from the village directly to Corviglia at 2,489m \u2014 Switzerland's first railway built straight to a ski slope, opened in 1928 \u2014 and a cable car floats the last 530m to the Piz Nair summit at 3,056m, where the whole Engadin lake plateau and the Albula Alps open below you. This is the home mountain of St. Moritz society, groomed to perfection and laced with sun terraces; ski it in winter or ride it up in summer for the view and lunch.",
+      "lat": 46.506942,
+      "lon": 9.812043,
+      "photos": []
+    },
+    {
+      "n": "The Mountain-Restaurant Scene on Corviglia",
+      "cat": "do",
+      "tier": "",
+      "a": "Corviglia",
+      "d": "Lunch on Corviglia is a St. Moritz institution \u2014 the long, champagne-fuelled midday table where the see-and-be-seen crowd gathers between runs. La Marmite at the top station is the legendary address for truffle and caviar, El Paradiso for its terrace and DJs, and Restaurant Piz Nair '10,000 Feet' the highest of them all. Book ahead; a private guide can arrange a table and a heli lift back.",
+      "lat": 46.506942,
+      "lon": 9.812043,
+      "photos": []
+    },
+    {
+      "n": "Skiing Corviglia \u2014 155km Above the Lakes",
+      "cat": "do",
+      "tier": "",
+      "a": "Corviglia",
+      "d": "155 kilometres of immaculately prepared pistes and 24 lifts spread across Corviglia's blues, reds and blacks, all facing the frozen chain of Engadin lakes \u2014 the birthplace of Alpine winter tourism still skiing at the top of the game. Private instructors and ski-in lunch reservations are the norm here, and the whole family can be matched to terrain, elders included.",
+      "lat": 46.506942,
+      "lon": 9.812043,
+      "photos": []
+    },
+    {
+      "n": "Piz Nair Sunrise",
+      "cat": "do",
+      "tier": "",
+      "a": "Piz Nair, 3,056m",
+      "d": "On select winter mornings the Piz Nair cable car runs before dawn to carry a small group up to 3,056m for breakfast as the first light sets the Bernina peaks alight, followed by the first tracks down empty pistes. It is one of the Engadin's quietly magical private-feeling experiences, best arranged in advance with your hotel concierge.",
+      "lat": 46.50762,
+      "lon": 9.800299,
+      "photos": []
+    },
+    {
+      "n": "Corvatsch \u2014 Cable Car to 3,303m",
+      "cat": "do",
+      "tier": "",
+      "a": "Silvaplana-Surlej",
+      "d": "The Corvatsch is the highest point reachable by cable car in the whole of eastern Switzerland, rising from Surlej to a viewing platform at 3,303m that looks straight across the Bernina glaciers and down onto the string of turquoise Upper Engadin lakes. In winter it delivers long, high, snow-sure descents; in summer, glacier air and a terrace among the four-thousanders.",
+      "lat": 46.467595,
+      "lon": 9.797249,
+      "photos": []
+    },
+    {
+      "n": "Corvatsch Snow Night & Hahnensee Run",
+      "cat": "do",
+      "tier": "",
+      "a": "Corvatsch",
+      "d": "Corvatsch runs Switzerland's longest floodlit night-skiing on Fridays, and its celebrated Hahnensee descent drops all the way from the glacier down to St. Moritz-Bad \u2014 a long, wild top-to-valley run that ends steps from an apr\u00e9s-ski table. A memorable, slightly adventurous half-day for confident skiers in the family.",
+      "lat": 46.48696,
+      "lon": 9.836326,
+      "photos": []
+    },
+    {
+      "n": "Muottas Muragl \u2014 The Funicular & the Sunset",
+      "cat": "do",
+      "tier": "",
+      "a": "Punt Muragl / Samedan",
+      "d": "A wonderfully old-fashioned funicular from 1907 climbs to a terrace at 2,454m that frames the classic Engadin postcard \u2014 the chain of lakes below, the Bernina massif beyond, painted gold at dusk. The funicular runs late into the evening precisely so you can stay for the alpenglow and dinner at the Romantik Hotel; the single best sunset in the valley.",
+      "lat": 46.507394,
+      "lon": 9.880485,
+      "photos": []
+    },
+    {
+      "n": "White Turf \u2014 Horse Racing on the Frozen Lake",
+      "cat": "do",
+      "tier": "",
+      "a": "Frozen Lake St. Moritz",
+      "d": "Across three February Sundays the frozen lake becomes a racecourse and the definitive event of the St. Moritz winter season \u2014 thoroughbred flat and trotting races on snow, plus skij\u00f6ring, the St. Moritz-exclusive discipline where skiers are hauled behind riderless horses at up to 50km/h. It is glamour, furs, champagne tents and society in full flourish; the hospitality marquees are the place to be.",
+      "lat": 46.493324,
+      "lon": 9.846363,
+      "photos": []
+    },
+    {
+      "n": "The Snow Polo World Cup",
+      "cat": "do",
+      "tier": "",
+      "a": "Frozen Lake St. Moritz",
+      "d": "Snow polo had its world premiere here in 1985, and St. Moritz still stages the only high-goal polo tournament played on snow \u2014 three days of thundering ponies on the frozen lake, VIP tents and end-of-day parties in late January. Among the most exclusive tickets of the European winter social calendar.",
+      "lat": 46.493324,
+      "lon": 9.846363,
+      "photos": []
+    },
+    {
+      "n": "Cricket on Ice",
+      "cat": "do",
+      "tier": "",
+      "a": "Frozen Lake St. Moritz",
+      "d": "First played on the frozen lake in 1988, Cricket on Ice is the delightfully improbable spectacle of a full match staged on the snow-covered surface of Lake St. Moritz in February \u2014 a natural draw for Indian visitors and a very St. Moritz blend of sport, eccentricity and lakeside hospitality.",
+      "lat": 46.493324,
+      "lon": 9.846363,
+      "photos": []
+    },
+    {
+      "n": "The St. Moritz Gourmet Festival",
+      "cat": "do",
+      "tier": "",
+      "a": "St. Moritz / Upper Engadin",
+      "d": "Running since 1994, the region's landmark culinary festival brings guest chefs from around the world into the grand hotels for Four-Hands Dinners and the legendary Gourmet Safari that walks a small group through several palace kitchens in a single evening. The Engadin already carries eight Michelin stars; this is the week it shows off. (Note: repositioned to summer from 2026.)",
+      "lat": 46.488866,
+      "lon": 9.835519,
+      "photos": []
+    },
+    {
+      "n": "The Segantini Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "St. Moritz",
+      "d": "Built in 1908 as a memorial to the painter Giovanni Segantini, this domed stone rotunda holds the world's most important collection of his work, crowned by the monumental Alpine triptych 'La Vita \u2014 La Natura \u2014 La Morte'. Segantini reinvented how the high Alps were painted, and standing before the triptych with the real peaks outside is quietly extraordinary.",
+      "lat": 46.492702,
+      "lon": 9.833309,
+      "photos": []
+    },
+    {
+      "n": "The Berry Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "St. Moritz",
+      "d": "Set in the centuries-old Villa Arona in the heart of the village, this intimate house-museum shows the luminous, Belle \u00c9poque paintings of the physician-artist Peter Robert Berry \u2014 a warm, personal counterpoint to the grand hotels, and a window into the St. Moritz of a hundred years ago.",
+      "lat": 46.496356,
+      "lon": 9.837901,
+      "photos": []
+    },
+    {
+      "n": "The Leaning Tower of St. Moritz",
+      "cat": "do",
+      "tier": "",
+      "a": "St. Moritz Dorf",
+      "d": "The last surviving fragment of the old church of St. Mauritius, this 12th-century tower leans at 5.5 degrees \u2014 a steeper tilt than Pisa's \u2014 above the village. A quick but characterful landmark, and a good anchor for a stroll through the old centre and up to Via Serlas.",
+      "lat": 46.498236,
+      "lon": 9.838589,
+      "photos": []
+    },
+    {
+      "n": "Sils Maria & the Nietzsche House",
+      "cat": "do",
+      "tier": "",
+      "a": "Sils im Engadin/Segl",
+      "d": "The most serene of the Engadin villages sits between Lakes Sils and Silvaplana, and it was here, in a modest house from 1881 to 1888, that Friedrich Nietzsche spent seven summers and conceived much of his thought. The house is now a museum; the village itself \u2014 car-light, lake-bound, ringed by peaks \u2014 is the Engadin at its most contemplative.",
+      "lat": 46.431374,
+      "lon": 9.759618,
+      "photos": []
+    },
+    {
+      "n": "Silvaplana \u2014 Windsurfing & Kitesurfing",
+      "cat": "do",
+      "tier": "",
+      "a": "Silvaplana / Lake Silvaplana",
+      "d": "The reliable afternoon 'Maloja wind' turns Lake Silvaplana into one of Europe's great high-altitude surfing arenas \u2014 from May to October the water fills with bright kites and sails against the Corvatsch backdrop. Even if you only watch from the shore over a lakeside lunch, it is one of the Engadin's most alive summer scenes; lessons and gear are on hand at the surf centre.",
+      "lat": 46.47806,
+      "lon": 9.813104,
+      "photos": []
+    },
+    {
+      "n": "Zuoz \u2014 The Sgraffito Village",
+      "cat": "do",
+      "tier": "",
+      "a": "Zuoz",
+      "d": "The best-preserved patrician village in the Upper Engadin, Zuoz is a picture-book ensemble of thick-walled Engadin houses with funnel windows, oriel bays and the incised, whitewashed wall-decoration called sgraffito. A guided village walk unlocks the stories behind the coats of arms and the fountains; unhurried, cultured, real.",
+      "lat": 46.604855,
+      "lon": 9.947047,
+      "photos": []
+    },
+    {
+      "n": "Pontresina \u2014 Belle \u00c9poque Village on the Bernina",
+      "cat": "do",
+      "tier": "",
+      "a": "Pontresina",
+      "d": "A sunny, south-facing resort village of grand Belle \u00c9poque hotels and traditional sgraffito houses at the mouth of the Roseg and Morteratsch valleys \u2014 the walkers' and climbers' base of the Engadin, calmer than St. Moritz but with its own refined charm. The perfect launch point for the Bernina glaciers and valley hikes.",
+      "lat": 46.497896,
+      "lon": 9.839243,
+      "photos": []
+    },
+    {
+      "n": "Celerina & the Chapel of San Gian",
+      "cat": "do",
+      "tier": "",
+      "a": "Celerina",
+      "d": "Celerina sits at the foot of Corviglia \u2014 where the Cresta Run and Olympia Bob Run finish \u2014 and is crowned by the landmark 15th-century chapel of San Gian with its twin (one roofless) towers on a low hill. A gentler, more village-scaled base than St. Moritz, minutes away by rail or road.",
+      "lat": 46.506819,
+      "lon": 9.849753,
+      "photos": []
+    },
+    {
+      "n": "The Bernina Express",
+      "cat": "do",
+      "tier": "",
+      "a": "St. Moritz to Tirano",
+      "d": "The most spectacular Alpine rail journey runs from the Engadin over the Bernina Pass and down to palm-fringed Tirano in Italy, climbing past glaciers and looping through the celebrated Brusio spiral viaduct without a single rack rail. Ride it in the panoramic carriages, or splurge on the exclusive first-class 'Excellence Class' with dining service.",
+      "lat": 46.497896,
+      "lon": 9.839243,
+      "photos": []
+    },
+    {
+      "n": "The Glacier Express",
+      "cat": "do",
+      "tier": "",
+      "a": "St. Moritz to Zermatt",
+      "d": "Billed as the world's slowest express, the Glacier Express links St. Moritz to Zermatt over eight hours of viaducts, gorges and the Oberalp Pass, its Albula section part of the same UNESCO railway. The Excellence Class carriage \u2014 one seat per window, five-course lunch, a personal concierge \u2014 is the way HNI travellers do it.",
+      "lat": 46.497896,
+      "lon": 9.839243,
+      "photos": []
+    },
+    {
+      "n": "The Engadin Lakes Hike",
+      "cat": "do",
+      "tier": "",
+      "a": "St. Moritz / Silvaplana / Sils",
+      "d": "The classic valley-floor walk strings together the four Upper Engadin lakes \u2014 St. Moritz, Champf\u00e8r, Silvaplana and Sils \u2014 on easy, near-level paths, the water often mirror-still and the Bernina reflected in it. Flat enough for grandparents, beautiful enough for anyone; do it in sections and picnic at a shore of your choosing.",
+      "lat": 46.489625,
+      "lon": 9.807903,
+      "photos": []
+    },
+    {
+      "n": "The Cresta Run",
+      "cat": "do",
+      "tier": "",
+      "a": "St. Moritz to Celerina",
+      "d": "Built in 1884 and run by the storied St. Moritz Tobogganing Club, the Cresta is a 1.2km natural-ice skeleton track where riders hurl themselves head-first down a hand-built channel of snow and ice \u2014 one of only two natural-ice runs left in the world staging international competition. It used the same track for the skeleton event at both the 1928 and 1948 Winter Olympics; watching from Junction is a St. Moritz rite.",
+      "lat": 46.501088,
+      "lon": 9.843159,
+      "photos": []
+    },
+    {
+      "n": "The Olympia Bob Run",
+      "cat": "do",
+      "tier": "",
+      "a": "St. Moritz to Celerina",
+      "d": "The birthplace of bobsleigh \u2014 first raced here in 1904 \u2014 is the last naturally built ice track in the world still hosting sanctioned bob and skeleton races, hand-carved each winter from snow and water alone. You can watch the professionals, or book a guest run and rocket down beside a pilot; St. Moritz hosted the Winter Olympics twice, in 1928 and 1948, and this track carried both.",
+      "lat": 46.501389,
+      "lon": 9.847884,
+      "photos": []
+    },
+    {
+      "n": "Engadin Golf \u2014 The Oldest in Switzerland",
+      "cat": "do",
+      "tier": "",
+      "a": "Samedan / Zuoz",
+      "d": "Founded in Samedan in 1893, Engadin Golf is the oldest golf club in Switzerland and among the oldest in continental Europe, its flat valley-floor course ringed by 3,000m peaks and nicknamed the 'Swiss St. Andrews'. With a second course at Zuoz-Madulain and the high Kulm course above the village, it is high-altitude golf with an unmatched backdrop.",
+      "lat": 46.536511,
+      "lon": 9.863333,
+      "photos": []
+    },
+    {
+      "n": "The Kempinski Alpine Spa & the Mauritius Spring",
+      "cat": "do",
+      "tier": "",
+      "a": "St. Moritz-Bad",
+      "d": "The Grand Hotel des Bains Kempinski stands on St. Moritz's 3,500-year-old bathing tradition, its vast Alpine Spa fed by the mineral-rich, naturally carbonated Mauritius spring that first made the town famous as a cure resort. Pools, Kneipp streams and thermal circuits make it one of the finest wellness addresses in the Alps.",
+      "lat": 46.498021,
+      "lon": 9.845944,
+      "photos": []
+    },
+    {
+      "n": "The Palace Wellness at Badrutt's Palace",
+      "cat": "do",
+      "tier": "",
+      "a": "St. Moritz Dorf",
+      "d": "The spa of the legendary Badrutt's Palace \u2014 the address of St. Moritz society since 1896 \u2014 offers ten treatment rooms, private spa suites, saunas and heated indoor-outdoor pools looking to the lake. Even non-residents can book treatments; it is discreet luxury at the beating heart of the resort.",
+      "lat": 46.498236,
+      "lon": 9.838589,
+      "photos": []
+    },
+    {
+      "n": "The Kulm Spa & the Kulm Country Club",
+      "cat": "do",
+      "tier": "",
+      "a": "St. Moritz Dorf",
+      "d": "The Kulm Hotel \u2014 where Alpine winter tourism was famously invented on a bet in 1864 \u2014 pairs a serene thermal-and-sauna wellness world with the Norman Foster-restored Kulm Country Club and the natural ice rink where the world's first Olympic ice events were held. History, wellness and glamour on one estate.",
+      "lat": 46.498236,
+      "lon": 9.838589,
+      "photos": []
+    },
+    {
+      "n": "Via Serlas \u2014 The Luxury Mile",
+      "cat": "do",
+      "tier": "",
+      "a": "St. Moritz Dorf",
+      "d": "Reputed to be the world's shortest luxury shopping street, Via Serlas packs Chanel, Louis Vuitton, Gucci, Prada, Herm\u00e8s, Cartier and Bulgari into a few glittering metres beside Badrutt's Palace. Around it, small St. Moritz institutions sell caviar, rare teas, Engadin specialities and fine watches \u2014 the whole resort's see-and-be-seen promenade.",
+      "lat": 46.496966,
+      "lon": 9.838185,
+      "photos": []
+    },
+    {
+      "n": "Two Michelin Stars at IGNIV by Andreas Caminada",
+      "cat": "do",
+      "tier": "",
+      "a": "Badrutt's Palace, St. Moritz",
+      "d": "Andreas Caminada's playful fine-dining-as-sharing concept inside Badrutt's Palace holds two Michelin stars \u2014 beautifully composed modern European plates brought to the table to share, with the lake beyond the windows. One of the most sought-after tables in the Alps; reserve well ahead.",
+      "lat": 46.497248,
+      "lon": 9.84076,
+      "photos": []
+    },
+    {
+      "n": "Da Vittorio \u2014 Two-Star Italian at the Carlton",
+      "cat": "do",
+      "tier": "",
+      "a": "Carlton Hotel, St. Moritz",
+      "d": "The Cerea family's St. Moritz outpost of the famed Da Vittorio holds two Michelin stars for hearty-yet-refined Italian cooking, served in an elegant room above Lake St. Moritz \u2014 a natural favourite for guests who want gastronomy without ceremony overload, and staff attuned to dietary needs.",
+      "lat": 46.499929,
+      "lon": 9.846444,
+      "photos": []
+    },
+    {
+      "n": "Chesa Veglia \u2014 Badrutt's 17th-Century Farmhouse",
+      "cat": "do",
+      "tier": "",
+      "a": "St. Moritz Dorf",
+      "d": "A 1658 Engadin farmhouse turned into Badrutt's Palace's most atmospheric dining rooms, where pizza and grill are served under low painted beams and the apr\u00e8s crowd gathers at the Polo Bar. Beautiful, historic and unmistakably St. Moritz \u2014 the enjoyable, less-formal counterpoint to the Michelin tables.",
+      "lat": 46.498236,
+      "lon": 9.838589,
+      "photos": []
+    },
+    {
+      "n": "Mountain Biking the Engadin Trails",
+      "cat": "do",
+      "tier": "",
+      "a": "St. Moritz / Upper Engadin",
+      "d": "Beyond skiing, the Engadin is a serious summer bike destination \u2014 from easy, near-level lakeshore loops the whole family can ride to lift-served flow trails and technical high-alpine singletrack off Corviglia and Corvatsch. E-bikes and guides are easily arranged; a fine active day between the lakes and the peaks.",
+      "lat": 46.496894,
+      "lon": 9.848389,
+      "photos": []
+    },
+    {
+      "n": "St. Moritz-Bad & Lake Staz (Lej da Staz)",
+      "cat": "do",
+      "tier": "",
+      "a": "St. Moritz-Bad",
+      "d": "A short walk or gentle carriage ride from the resort, the little forest-ringed Lej da Staz is the locals' summer swimming lake \u2014 warmer and calmer than the big lakes, with a rustic restaurant on its shore. A relaxed, unshowy escape that balances the glamour of the Dorf; lovely with children and grandparents.",
+      "lat": 46.497232,
+      "lon": 9.871287,
+      "photos": []
+    },
+    {
+      "n": "Sailing & Rowing on Lake Silvaplana and Lake Sils",
+      "cat": "do",
+      "tier": "",
+      "a": "Silvaplana / Sils",
+      "d": "Two of the largest Alpine lakes in Graub\u00fcnden, Silvaplana and Sils are prime high-altitude sailing water thanks to the dependable Maloja wind, and a graceful old passenger boat still crosses Lake Sils in summer. Charter a boat, take a sailing lesson, or simply cruise the mirror-calm mornings before the wind rises.",
+      "lat": 46.47806,
+      "lon": 9.813104,
+      "photos": []
+    },
+    {
+      "n": "Heli-Skiing & Private Glacier Flights",
+      "cat": "do",
+      "tier": "",
+      "a": "Upper Engadin",
+      "d": "For those who want the mountains to themselves, helicopters lift skiers to remote glacier descents and carry sightseers over the Bernina ice fields for a landing in the eternal snow. Arranged discreetly through the grand hotels or private guides, it is the Engadin at its most exclusive \u2014 and a spectacular multi-generational scenic flight in summer.",
+      "lat": 46.496894,
+      "lon": 9.848389,
+      "photos": []
+    },
+    {
+      "n": "The Mili Weber House",
+      "cat": "do",
+      "tier": "",
+      "a": "St. Moritz-Bad",
+      "d": "The enchanting former home of illustrator Mili Weber, kept exactly as she left it and hand-painted with fairy-tale murals from floor to ceiling \u2014 a hidden, tender little gem quite unlike anything else in glamorous St. Moritz, visited by guided tour. A delightful, unexpected stop, especially with children.",
+      "lat": 46.497464,
+      "lon": 9.856032,
+      "photos": []
+    },
+    {
+      "n": "Renaissance Bar, Badrutt's Palace",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "St. Moritz Dorf",
+      "d": "The definitive St. Moritz hotel bar \u2014 timeless cocktails, a fireplace and a cigar selection, beneath the Palace's grandeur.",
+      "lat": 46.497248,
+      "lon": 9.84076,
+      "photos": []
+    },
+    {
+      "n": "King's Social House",
+      "cat": "party",
+      "tier": "Late & loud",
+      "a": "St. Moritz Dorf",
+      "d": "Switzerland's oldest nightclub, reborn by Jason Atherton \u2014 dinner, drinks and roaming international DJs under the Palace.",
+      "lat": 46.484858,
+      "lon": 9.819776,
+      "photos": []
+    },
+    {
+      "n": "Dracula Club",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "St. Moritz Dorf",
+      "d": "The legendary members' club founded by Gunter Sachs in the 1970s \u2014 150 seats, and the private soul of St. Moritz nightlife.",
+      "lat": 46.502551,
+      "lon": 9.844938,
+      "photos": []
+    }
+  ]
+}

@@ -1,1 +1,498 @@
-{"center": [27.175255, 78.009816], "venues": [{"n": "The Oberoi Amarvilas", "cat": "stay", "tier": "Ultra", "a": "Taj Ganj (600m from the Taj Mahal)", "d": "The only hotel on earth with unrestricted Taj Mahal views from every room — Agra's undisputed icon.", "lat": 27.167998, "lon": 78.049014, "p": "v"}, {"n": "ITC Mughal, a Luxury Collection Resort & Spa", "cat": "stay", "tier": "Grand", "a": "Fatehabad Road", "d": "A Mughal-scale resort on 35 acres — the only Indian hotel to win the Aga Khan Award for Architecture, and a landmark spa.", "lat": 27.160199, "lon": 78.042703, "p": "a"}, {"n": "Taj Hotel & Convention Centre, Agra", "cat": "stay", "tier": "Luxury", "a": "Taj Ganj (walking distance from the Taj Mahal)", "d": "IHCL's Taj brand in Agra — contemporary grandeur and one of North India's largest pillar-less halls, minutes from the monument.", "lat": 27.162913, "lon": 78.056466, "p": "v"}, {"n": "Trident Agra", "cat": "stay", "tier": "Premium", "a": "Fatehabad Road", "d": "The Oberoi Group's polished, garden-set house — a quietly reliable Agra address a short drive from the Taj.", "lat": 27.15923, "lon": 78.059949, "p": "v"}, {"n": "DoubleTree by Hilton Agra", "cat": "stay", "tier": "Premium", "a": "Fatehabad Road", "d": "A modern Hilton with genuine Taj Mahal views — one of the few in the city to offer them off the monument.", "lat": 27.151588, "lon": 78.050843, "p": "v"}, {"n": "Courtyard by Marriott Agra", "cat": "stay", "tier": "Premium", "a": "Fatehabad Road", "d": "A dependable Marriott a couple of kilometres from the Taj — modern, easy and well-located for the monuments.", "lat": 27.156314, "lon": 78.059667, "p": "v"}, {"n": "Radisson Hotel Agra", "cat": "stay", "tier": "Premium", "a": "Taj Ganj / Yamuna riverfront", "d": "A full-service riverside house with Taj views, a rooftop terrace and its own art gallery.", "lat": 27.16412, "lon": 78.032394, "p": "v"}, {"n": "Esphahan", "cat": "eat", "tier": "Destination", "a": "Taj Ganj (The Oberoi Amarvilas)", "d": "Recipes from the Mughal emperors' kitchens, served to live traditional music — the grandest table in Agra.", "lat": 27.175255, "lon": 78.009816, "p": "v"}, {"n": "Peshawri", "cat": "eat", "tier": "Fine", "a": "Fatehabad Road (ITC Mughal)", "d": "North-West Frontier cooking from clay tandoors — the ITC signature, eaten family-style with your hands.", "lat": 27.175255, "lon": 78.009816, "p": "v"}, {"n": "Dining at The Oberoi Amarvilas", "cat": "eat", "tier": "Fine", "a": "Taj Ganj (The Oberoi Amarvilas)", "d": "All-day international and Indian cooking framed by Taj views and Mughal gardens — faultless, and beautifully set.", "lat": 27.167998, "lon": 78.049014, "p": "v"}, {"n": "Pinch of Spice", "cat": "eat", "tier": "Smart", "a": "Taj Ganj / Civil Lines (two branches)", "d": "The city's best-loved standalone Mughlai kitchen — rich, well-balanced, and consistently good.", "lat": 27.201772, "lon": 78.008234, "p": "v"}, {"n": "Mama Chicken Mama Franky House", "cat": "eat", "tier": "Casual", "a": "Sadar Bazaar", "d": "An Agra street-food institution — decades of queues for its rolls, kebabs and franky.", "lat": 27.160649, "lon": 78.011465, "p": "v"}, {"n": "The Taj Mahal at Sunrise", "cat": "do", "tier": "", "a": "Taj Ganj", "d": "Enter as the gates open and the marble shifts from grey to blush to blinding white before the crowds arrive — the light no photograph has ever caught. From Oberoi Amarvilas or ITC Mughal a car has you at the West Gate first in line, and the whole monument is meat-free ground, so a Jain or vegetarian family reaches it fasting and untroubled.", "lat": 27.177078, "lon": 78.046319, "p": "v"}, {"n": "Taj Mahal Moonlight Viewing (full-moon nights)", "cat": "do", "tier": "", "a": "Taj Ganj", "d": "For five nights a month — the full moon and two on either side — a limited number of visitors enter after dark in batches of fifty to see the marble glow silver under the moon. It is the most romantic and most exclusive way to meet the Taj; the concierge can secure the ballot slot and the timing that suits a multi-generational party.", "lat": 27.175007, "lon": 78.042101, "p": "a"}, {"n": "Agra Fort", "cat": "do", "tier": "", "a": "Agra Fort area", "d": "The red-sandstone imperial city where Shah Jahan was imprisoned by his son and spent his last years gazing at the Taj he built for Mumtaz — the whole Mughal romance in one walled fortress. The marble palaces, the Diwan-i-Khas and the Musamman Burj tower reward a private guide who knows the family drama behind each courtyard.", "lat": 27.179826, "lon": 78.020822, "p": "v"}, {"n": "Akbar's Tomb, Sikandra", "cat": "do", "tier": "", "a": "Sikandra", "d": "The great emperor Akbar planned his own resting place, and its five-tiered gateway and blend of Islamic, Hindu, Jain and Christian motifs embody his ideal of a shared faith. Blackbuck and langurs roam the vast char-bagh garden, and the early-morning quiet makes it a serene first or last stop from the city.", "lat": 27.22042, "lon": 77.950398, "p": "v"}, {"n": "Fatehpur Sikri", "cat": "do", "tier": "", "a": "Fatehpur Sikri (approx. 40 km west)", "d": "Akbar's perfectly preserved 'ghost capital', abandoned after only fourteen years, holds the towering Buland Darwaza, the Panch Mahal and the Diwan-i-Khas with its extraordinary central pillar. A half-day private excursion with a good historian turns a red-sandstone ruin into the story of Mughal power at its peak.", "lat": 27.091165, "lon": 77.662398, "p": "v"}, {"n": "The Tomb of Salim Chishti, Fatehpur Sikri", "cat": "do", "tier": "", "a": "Fatehpur Sikri", "d": "Inside the Jama Masjid at Fatehpur Sikri, this delicate white-marble shrine to the Sufi saint who blessed Akbar with an heir is wrapped in the finest carved-marble jali screens in India. Pilgrims still tie threads at the lattice; it is intimate, spiritual and quite separate from the imperial grandeur outside.", "lat": 27.091165, "lon": 77.662398, "p": "a"}, {"n": "Keoladeo National Park, Bharatpur", "cat": "do", "tier": "", "a": "Bharatpur (approx. 55 km, Rajasthan)", "d": "One of Asia's great bird sanctuaries, this former royal duck-shoot draws hundreds of resident and migratory species — herons, painted storks, cranes, pelicans — best explored at dawn from a cycle-rickshaw whose driver is a self-taught ornithologist. A gentle, unhurried day that pairs beautifully with Fatehpur Sikri en route.", "lat": 27.165057, "lon": 77.51865, "p": "v"}, {"n": "Mehtab Bagh Garden", "cat": "do", "tier": "", "a": "Across the Yamuna, north bank", "d": "Beyond the famous river view, the restored Mughal char-bagh itself is a peaceful walled garden of geometric paths, fountains and framed sightlines back to the Taj. Come at golden hour when the light softens and the crowds are all across the water, and the garden is almost your own.", "lat": 27.179047, "lon": 78.042083, "p": "v"}, {"n": "Chini ka Rauza", "cat": "do", "tier": "", "a": "Across the Yamuna, east bank", "d": "A rare and unrestored jewel — the tomb of a Persian scholar-poet, its facade once entirely sheathed in glazed Persian tilework, the only such building in India. Weathered and little-visited, it rewards the curious traveller who wants Mughal Agra beyond the postcard set.", "lat": 27.200861, "lon": 78.034385, "p": "v"}, {"n": "Ram Bagh (Aram Bagh)", "cat": "do", "tier": "", "a": "Across the Yamuna, east bank", "d": "Laid out by Babur in 1528, this is considered the earliest surviving Mughal garden in India — the prototype of the paradise char-bagh that culminated in the Taj. Its terraces, water channels and cooling pavilions are a quiet lesson in how the Mughals engineered greenery and breeze against the heat.", "lat": 27.205462, "lon": 78.038454, "p": "v"}, {"n": "Jama Masjid, Agra", "cat": "do", "tier": "", "a": "Old city / Kinari Bazaar", "d": "Shah Jahan's great congregational mosque, built and named for his daughter Jahanara, rises in red sandstone and white-marble inlay right beside the old-city bazaars. Stepping from its calm courtyard straight into the lanes of Kinari Bazaar is one of Agra's best contrasts of the imperial and the everyday.", "lat": 27.182027, "lon": 78.016158, "p": "v"}, {"n": "Marble Inlay (Pietra Dura) Artisan Workshop", "cat": "do", "tier": "", "a": "Taj Ganj / Gokulpura", "d": "The descendants of the craftsmen who built the Taj still cut and set jasper, carnelian, malachite and lapis into white marble by hand, one petal at a time. A private studio visit — watching a tabletop take shape and commissioning your own piece — is the finest, most personal souvenir of the marble city.", "lat": 27.175007, "lon": 78.042101, "p": "a"}, {"n": "Taj Nature Walk", "cat": "do", "tier": "", "a": "Taj Ganj (east of the Taj)", "d": "A landscaped forest reserve minutes from the East Gate, laced with trails, viewing mounds and birdlife, offering clean, framed vistas of the Taj across the greenery. It is a cool, quiet morning stroll and a photographer's favourite for a Taj shot without another soul in the frame.", "lat": 27.170296, "lon": 78.048576, "p": "v"}, {"n": "Mariam-uz-Zamani's Tomb, Sikandra", "cat": "do", "tier": "", "a": "Sikandra", "d": "The tomb of Akbar's queen (mother of Jahangir), a short step from Akbar's own mausoleum, is a graceful and almost deserted red-sandstone building. Pairing it with Akbar's Tomb makes an unhurried, crowd-free Sikandra morning for those who like their history quiet.", "lat": 27.215302, "lon": 77.942721, "p": "v"}, {"n": "Sadar Bazaar", "cat": "do", "tier": "", "a": "Agra Cantonment area", "d": "Agra's cleaner, more relaxed shopping street near the Cantonment is the place for the city's renowned leather — handmade shoes, bags and belts — alongside cafes and sweet shops. An easy, comfortable evening browse when the old city feels too intense.", "lat": 27.159364, "lon": 78.010079, "p": "v"}, {"n": "Panchhi Petha (the original petha)", "cat": "do", "tier": "", "a": "Old city / Sadar", "d": "Petha — the translucent ash-gourd sweet — is Agra's edible signature, and Panchhi is its most famous name, offering everything from the plain classic to saffron, paan and dry-fruit versions. A box packed to travel is the traditional gift home; a vegetarian, no-question indulgence.", "lat": 27.159198, "lon": 78.011155, "p": "v"}, {"n": "Prem Mandir, Vrindavan", "cat": "do", "tier": "", "a": "Vrindavan", "d": "A vast modern marble temple set in gardens, illuminated at night in changing colours with musical fountains — spectacular, immaculate and easy for elderly relatives and children alike. It makes a serene, comfortable evening counterpoint to the older, denser temples of Braj.", "lat": 27.167167, "lon": 78.018883, "p": "a"}, {"n": "ISKCON Vrindavan (Krishna Balaram Mandir)", "cat": "do", "tier": "", "a": "Vrindavan", "d": "The well-run, welcoming Hare Krishna temple offers calm, beautifully kept surroundings, kirtan and pure-vegetarian prasad — an accessible, unhurried introduction to Vrindavan for first-time visitors. A gentle, orderly stop within a Mathura–Vrindavan day.", "lat": 27.572494, "lon": 77.677751, "p": "v"}, {"n": "Wildlife SOS Agra Bear Rescue Facility", "cat": "do", "tier": "", "a": "Keetham / Sur Sarovar (approx. 17 km west)", "d": "The world's largest sloth-bear rescue centre, home to bears saved from the cruel 'dancing bear' trade, plus rescued elephants — a genuinely moving, ethical wildlife experience. A meaningful multi-generational morning, especially with children, and directly supportive of conservation.", "lat": 27.236369, "lon": 77.88297, "p": "v"}, {"n": "Keetham Lake (Sur Sarovar Bird Sanctuary)", "cat": "do", "tier": "", "a": "Keetham (approx. 20 km west)", "d": "A tranquil lake and wetland reserve on the Delhi road, rich in migratory waterfowl and an easy pairing with the Wildlife SOS centre nearby. A restful, green half-morning away from monuments for those who want birdsong over marble.", "lat": 27.244068, "lon": 77.830482, "p": "v"}, {"n": "Soami Bagh Samadh, Dayalbagh", "cat": "do", "tier": "", "a": "Dayalbagh", "d": "The Radhasoami memorial has been under construction for over a century, its white-marble carving and inlay work said to rival the Taj in ambition and craftsmanship. Rarely on the tourist trail, it is a fascinating stop for anyone drawn to marble artistry and living devotion.", "lat": 27.227965, "lon": 78.01349, "p": "a"}, {"n": "Mankameshwar Temple", "cat": "do", "tier": "", "a": "Rawatpara, old city", "d": "One of Agra's oldest and most revered Shiva temples, tucked in the old-city lanes near the Jama Masjid, believed to grant the wishes brought to it. A short, atmospheric detour that grounds a heritage walk in the living city rather than its monuments.", "lat": 27.183694, "lon": 78.017495, "p": "v"}, {"n": "Deeg Palace", "cat": "do", "tier": "", "a": "Deeg (near Bharatpur, Rajasthan)", "d": "The elegant 18th-century Jat summer palace, with its cooling pavilions, gardens and monsoon fountains, is a lovely and near-empty add-on to a Bharatpur day. A refined, off-radar stop for travellers who have already done the Mughal set and want something rarer.", "lat": 27.206025, "lon": 78.016148, "p": "v"}, {"n": "Anguri Bagh & the Marble Palaces (within Agra Fort)", "cat": "do", "tier": "", "a": "Agra Fort area", "d": "Deep inside the fort, the geometric 'grape garden' fronts the Khas Mahal and the mirrored Sheesh Mahal, the most intimate of the royal apartments. A private guide who can open the finer detail here turns a fort visit into a study of imperial domestic life.", "lat": 27.179826, "lon": 78.020822, "p": "a"}, {"n": "Diwan-i-Khas & the pillar, Fatehpur Sikri", "cat": "do", "tier": "", "a": "Fatehpur Sikri", "d": "Akbar's private audience hall centres on a single fantastical carved pillar from which the emperor is said to have presided over religious debate — a piece of architecture unlike anything else in India. It is the intellectual heart of Fatehpur Sikri and a highlight for the curious.", "lat": 27.097831, "lon": 77.66612, "p": "v"}, {"n": "Buland Darwaza, Fatehpur Sikri", "cat": "do", "tier": "", "a": "Fatehpur Sikri", "d": "Among the tallest gateways in the world, Akbar's 'Gate of Magnificence' rises in a sweep of red sandstone and marble to commemorate his Gujarat victory. Climbing the great flight of steps to pass beneath it is one of the most theatrical arrivals in Mughal India.", "lat": 27.094312, "lon": 77.662794, "p": "v"}, {"n": "Panch Mahal, Fatehpur Sikri", "cat": "do", "tier": "", "a": "Fatehpur Sikri", "d": "The five-storey open pavilion of ever-diminishing columned tiers, built for the ladies of the court to catch the breeze, is Fatehpur Sikri's most photographed and most playful structure. A perfect place to pause and imagine the vanished palace life.", "lat": 27.091165, "lon": 77.662398, "p": "a"}, {"n": "Yamuna river view from the Taj plinth", "cat": "do", "tier": "", "a": "Taj Ganj", "d": "From the rear terrace of the Taj, the Yamuna curves away past Mehtab Bagh and the far-bank tombs — a quieter vantage most visitors skip in the rush to the front facade. Lingering here at sunrise, with the river mist lifting, is where the Taj feels most private.", "lat": 27.175007, "lon": 78.042101, "p": "a"}, {"n": "Taj Mahal calligraphy & inlay detail (interior)", "cat": "do", "tier": "", "a": "Taj Ganj", "d": "Beyond the silhouette, the Taj's genius is in the detail — the perfectly proportioned Quranic calligraphy that appears the same size top to bottom, and the pietra-dura flowers set with dozens of stones per bloom. A specialist guide who reads these turns a photo-stop into an unforgettable close study of the craft.", "lat": 27.175007, "lon": 78.042101, "p": "a"}, {"n": "Gokul & Mahavan", "cat": "do", "tier": "", "a": "Gokul (near Mathura)", "d": "The riverside village where Krishna was raised by Nanda and Yashoda is gentler and less crowded than the main temple towns, wrapped in pastoral Braj calm. A rewarding extension for pilgrims who want the whole Krishna story, not just its busiest chapters.", "lat": 27.439072, "lon": 77.720373, "p": "v"}, {"n": "Nidhivan, Vrindavan", "cat": "do", "tier": "", "a": "Vrindavan", "d": "A dense, mysterious grove at the heart of Vrindavan's legends, where devotees believe Krishna and Radha still dance at night and no one may stay after dark. Steeped in myth and atmosphere, it is a quieter, stranger stop for those drawn to the mystical side of Braj.", "lat": 27.584387, "lon": 77.698294, "p": "v"}, {"n": "Shopping for zardozi & marble at a trusted emporium", "cat": "do", "tier": "", "a": "Fatehabad Road / Taj Ganj", "d": "Agra's finest marble-inlay tables and boxes and its heavy zardozi embroidery deserve a vetted, no-pressure showroom rather than a tout on the street. The concierge's shortlist of reputable ateliers means genuine stones, honest pricing and reliable shipping home.", "lat": 27.160199, "lon": 78.042703, "p": "a"}, {"n": "Sunset over the Taj from Agra Fort's Musamman Burj", "cat": "do", "tier": "", "a": "Agra Fort area", "d": "From the octagonal marble tower where the imprisoned Shah Jahan spent his final years, the Taj floats on the horizon exactly as he last saw it — the single most poignant view in the city. Time a late-afternoon fort visit to end here as the light turns gold.", "lat": 27.179826, "lon": 78.020822, "p": "a"}, {"n": "Cycle-rickshaw dawn safari, Keoladeo", "cat": "do", "tier": "", "a": "Bharatpur (Rajasthan)", "d": "The park bans motor vehicles on its inner tracks, so the classic way in is a licensed cycle-rickshaw whose driver doubles as a sharp-eyed guide, stopping silently for every heron and kingfisher. A gentle, low-effort wildlife morning that suits every generation of a family.", "lat": 27.215452, "lon": 77.503469, "p": "a"}, {"n": "Guru ka Taal", "cat": "do", "tier": "", "a": "Sikandra (Delhi road)", "d": "A historic stepped water reservoir turned Sikh gurudwara on the road out to Sikandra, its carved sandstone tank an atmospheric and little-known stop. An easy, quiet pause for those combining Akbar's Tomb with the drive toward Mathura.", "lat": 27.208016, "lon": 77.969858, "p": "v"}, {"n": "The Bar at The Oberoi Amarvilas", "cat": "party", "tier": "Landmark bars", "a": "Taj Ganj (The Oberoi Amarvilas)", "d": "Uninterrupted Taj Mahal views framed in tall windows — the grandest, and quietest, nightcap in the city.", "lat": 27.167998, "lon": 78.049014, "p": "v"}, {"n": "The Lounge, The Oberoi Amarvilas", "cat": "party", "tier": "Rooftops", "a": "Taj Ganj (The Oberoi Amarvilas)", "d": "Golden-domed lounge and open-air terrace for high tea, sundowners and the play of light on the Taj.", "lat": 27.167998, "lon": 78.049014, "p": "v"}]}
+{
+  "center": [
+    27.175255,
+    78.009816
+  ],
+  "venues": [
+    {
+      "n": "The Oberoi Amarvilas",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Taj Ganj (600m from the Taj Mahal)",
+      "d": "The only hotel on earth with unrestricted Taj Mahal views from every room \u2014 Agra's undisputed icon.",
+      "lat": 27.167998,
+      "lon": 78.049014,
+      "photos": []
+    },
+    {
+      "n": "ITC Mughal, a Luxury Collection Resort & Spa",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Fatehabad Road",
+      "d": "A Mughal-scale resort on 35 acres \u2014 the only Indian hotel to win the Aga Khan Award for Architecture, and a landmark spa.",
+      "lat": 27.160199,
+      "lon": 78.042703,
+      "photos": []
+    },
+    {
+      "n": "Taj Hotel & Convention Centre, Agra",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Taj Ganj (walking distance from the Taj Mahal)",
+      "d": "IHCL's Taj brand in Agra \u2014 contemporary grandeur and one of North India's largest pillar-less halls, minutes from the monument.",
+      "lat": 27.162913,
+      "lon": 78.056466,
+      "photos": []
+    },
+    {
+      "n": "Trident Agra",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Fatehabad Road",
+      "d": "The Oberoi Group's polished, garden-set house \u2014 a quietly reliable Agra address a short drive from the Taj.",
+      "lat": 27.15923,
+      "lon": 78.059949,
+      "photos": []
+    },
+    {
+      "n": "DoubleTree by Hilton Agra",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Fatehabad Road",
+      "d": "A modern Hilton with genuine Taj Mahal views \u2014 one of the few in the city to offer them off the monument.",
+      "lat": 27.151588,
+      "lon": 78.050843,
+      "photos": []
+    },
+    {
+      "n": "Courtyard by Marriott Agra",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Fatehabad Road",
+      "d": "A dependable Marriott a couple of kilometres from the Taj \u2014 modern, easy and well-located for the monuments.",
+      "lat": 27.156314,
+      "lon": 78.059667,
+      "photos": []
+    },
+    {
+      "n": "Radisson Hotel Agra",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Taj Ganj / Yamuna riverfront",
+      "d": "A full-service riverside house with Taj views, a rooftop terrace and its own art gallery.",
+      "lat": 27.16412,
+      "lon": 78.032394,
+      "photos": []
+    },
+    {
+      "n": "Esphahan",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Taj Ganj (The Oberoi Amarvilas)",
+      "d": "Recipes from the Mughal emperors' kitchens, served to live traditional music \u2014 the grandest table in Agra.",
+      "lat": 27.175255,
+      "lon": 78.009816,
+      "photos": []
+    },
+    {
+      "n": "Peshawri",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Fatehabad Road (ITC Mughal)",
+      "d": "North-West Frontier cooking from clay tandoors \u2014 the ITC signature, eaten family-style with your hands.",
+      "lat": 27.175255,
+      "lon": 78.009816,
+      "photos": []
+    },
+    {
+      "n": "Dining at The Oberoi Amarvilas",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Taj Ganj (The Oberoi Amarvilas)",
+      "d": "All-day international and Indian cooking framed by Taj views and Mughal gardens \u2014 faultless, and beautifully set.",
+      "lat": 27.167998,
+      "lon": 78.049014,
+      "photos": []
+    },
+    {
+      "n": "Pinch of Spice",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Taj Ganj / Civil Lines (two branches)",
+      "d": "The city's best-loved standalone Mughlai kitchen \u2014 rich, well-balanced, and consistently good.",
+      "lat": 27.201772,
+      "lon": 78.008234,
+      "photos": []
+    },
+    {
+      "n": "Mama Chicken Mama Franky House",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Sadar Bazaar",
+      "d": "An Agra street-food institution \u2014 decades of queues for its rolls, kebabs and franky.",
+      "lat": 27.160649,
+      "lon": 78.011465,
+      "photos": []
+    },
+    {
+      "n": "The Taj Mahal at Sunrise",
+      "cat": "do",
+      "tier": "",
+      "a": "Taj Ganj",
+      "d": "Enter as the gates open and the marble shifts from grey to blush to blinding white before the crowds arrive \u2014 the light no photograph has ever caught. From Oberoi Amarvilas or ITC Mughal a car has you at the West Gate first in line, and the whole monument is meat-free ground, so a Jain or vegetarian family reaches it fasting and untroubled.",
+      "lat": 27.177078,
+      "lon": 78.046319,
+      "photos": []
+    },
+    {
+      "n": "Taj Mahal Moonlight Viewing (full-moon nights)",
+      "cat": "do",
+      "tier": "",
+      "a": "Taj Ganj",
+      "d": "For five nights a month \u2014 the full moon and two on either side \u2014 a limited number of visitors enter after dark in batches of fifty to see the marble glow silver under the moon. It is the most romantic and most exclusive way to meet the Taj; the concierge can secure the ballot slot and the timing that suits a multi-generational party.",
+      "lat": 27.175007,
+      "lon": 78.042101,
+      "photos": []
+    },
+    {
+      "n": "Agra Fort",
+      "cat": "do",
+      "tier": "",
+      "a": "Agra Fort area",
+      "d": "The red-sandstone imperial city where Shah Jahan was imprisoned by his son and spent his last years gazing at the Taj he built for Mumtaz \u2014 the whole Mughal romance in one walled fortress. The marble palaces, the Diwan-i-Khas and the Musamman Burj tower reward a private guide who knows the family drama behind each courtyard.",
+      "lat": 27.179826,
+      "lon": 78.020822,
+      "photos": []
+    },
+    {
+      "n": "Akbar's Tomb, Sikandra",
+      "cat": "do",
+      "tier": "",
+      "a": "Sikandra",
+      "d": "The great emperor Akbar planned his own resting place, and its five-tiered gateway and blend of Islamic, Hindu, Jain and Christian motifs embody his ideal of a shared faith. Blackbuck and langurs roam the vast char-bagh garden, and the early-morning quiet makes it a serene first or last stop from the city.",
+      "lat": 27.22042,
+      "lon": 77.950398,
+      "photos": []
+    },
+    {
+      "n": "Fatehpur Sikri",
+      "cat": "do",
+      "tier": "",
+      "a": "Fatehpur Sikri (approx. 40 km west)",
+      "d": "Akbar's perfectly preserved 'ghost capital', abandoned after only fourteen years, holds the towering Buland Darwaza, the Panch Mahal and the Diwan-i-Khas with its extraordinary central pillar. A half-day private excursion with a good historian turns a red-sandstone ruin into the story of Mughal power at its peak.",
+      "lat": 27.091165,
+      "lon": 77.662398,
+      "photos": []
+    },
+    {
+      "n": "The Tomb of Salim Chishti, Fatehpur Sikri",
+      "cat": "do",
+      "tier": "",
+      "a": "Fatehpur Sikri",
+      "d": "Inside the Jama Masjid at Fatehpur Sikri, this delicate white-marble shrine to the Sufi saint who blessed Akbar with an heir is wrapped in the finest carved-marble jali screens in India. Pilgrims still tie threads at the lattice; it is intimate, spiritual and quite separate from the imperial grandeur outside.",
+      "lat": 27.091165,
+      "lon": 77.662398,
+      "photos": []
+    },
+    {
+      "n": "Keoladeo National Park, Bharatpur",
+      "cat": "do",
+      "tier": "",
+      "a": "Bharatpur (approx. 55 km, Rajasthan)",
+      "d": "One of Asia's great bird sanctuaries, this former royal duck-shoot draws hundreds of resident and migratory species \u2014 herons, painted storks, cranes, pelicans \u2014 best explored at dawn from a cycle-rickshaw whose driver is a self-taught ornithologist. A gentle, unhurried day that pairs beautifully with Fatehpur Sikri en route.",
+      "lat": 27.165057,
+      "lon": 77.51865,
+      "photos": []
+    },
+    {
+      "n": "Mehtab Bagh Garden",
+      "cat": "do",
+      "tier": "",
+      "a": "Across the Yamuna, north bank",
+      "d": "Beyond the famous river view, the restored Mughal char-bagh itself is a peaceful walled garden of geometric paths, fountains and framed sightlines back to the Taj. Come at golden hour when the light softens and the crowds are all across the water, and the garden is almost your own.",
+      "lat": 27.179047,
+      "lon": 78.042083,
+      "photos": []
+    },
+    {
+      "n": "Chini ka Rauza",
+      "cat": "do",
+      "tier": "",
+      "a": "Across the Yamuna, east bank",
+      "d": "A rare and unrestored jewel \u2014 the tomb of a Persian scholar-poet, its facade once entirely sheathed in glazed Persian tilework, the only such building in India. Weathered and little-visited, it rewards the curious traveller who wants Mughal Agra beyond the postcard set.",
+      "lat": 27.200861,
+      "lon": 78.034385,
+      "photos": []
+    },
+    {
+      "n": "Ram Bagh (Aram Bagh)",
+      "cat": "do",
+      "tier": "",
+      "a": "Across the Yamuna, east bank",
+      "d": "Laid out by Babur in 1528, this is considered the earliest surviving Mughal garden in India \u2014 the prototype of the paradise char-bagh that culminated in the Taj. Its terraces, water channels and cooling pavilions are a quiet lesson in how the Mughals engineered greenery and breeze against the heat.",
+      "lat": 27.205462,
+      "lon": 78.038454,
+      "photos": []
+    },
+    {
+      "n": "Jama Masjid, Agra",
+      "cat": "do",
+      "tier": "",
+      "a": "Old city / Kinari Bazaar",
+      "d": "Shah Jahan's great congregational mosque, built and named for his daughter Jahanara, rises in red sandstone and white-marble inlay right beside the old-city bazaars. Stepping from its calm courtyard straight into the lanes of Kinari Bazaar is one of Agra's best contrasts of the imperial and the everyday.",
+      "lat": 27.182027,
+      "lon": 78.016158,
+      "photos": []
+    },
+    {
+      "n": "Marble Inlay (Pietra Dura) Artisan Workshop",
+      "cat": "do",
+      "tier": "",
+      "a": "Taj Ganj / Gokulpura",
+      "d": "The descendants of the craftsmen who built the Taj still cut and set jasper, carnelian, malachite and lapis into white marble by hand, one petal at a time. A private studio visit \u2014 watching a tabletop take shape and commissioning your own piece \u2014 is the finest, most personal souvenir of the marble city.",
+      "lat": 27.175007,
+      "lon": 78.042101,
+      "photos": []
+    },
+    {
+      "n": "Taj Nature Walk",
+      "cat": "do",
+      "tier": "",
+      "a": "Taj Ganj (east of the Taj)",
+      "d": "A landscaped forest reserve minutes from the East Gate, laced with trails, viewing mounds and birdlife, offering clean, framed vistas of the Taj across the greenery. It is a cool, quiet morning stroll and a photographer's favourite for a Taj shot without another soul in the frame.",
+      "lat": 27.170296,
+      "lon": 78.048576,
+      "photos": []
+    },
+    {
+      "n": "Mariam-uz-Zamani's Tomb, Sikandra",
+      "cat": "do",
+      "tier": "",
+      "a": "Sikandra",
+      "d": "The tomb of Akbar's queen (mother of Jahangir), a short step from Akbar's own mausoleum, is a graceful and almost deserted red-sandstone building. Pairing it with Akbar's Tomb makes an unhurried, crowd-free Sikandra morning for those who like their history quiet.",
+      "lat": 27.215302,
+      "lon": 77.942721,
+      "photos": []
+    },
+    {
+      "n": "Sadar Bazaar",
+      "cat": "do",
+      "tier": "",
+      "a": "Agra Cantonment area",
+      "d": "Agra's cleaner, more relaxed shopping street near the Cantonment is the place for the city's renowned leather \u2014 handmade shoes, bags and belts \u2014 alongside cafes and sweet shops. An easy, comfortable evening browse when the old city feels too intense.",
+      "lat": 27.159364,
+      "lon": 78.010079,
+      "photos": []
+    },
+    {
+      "n": "Panchhi Petha (the original petha)",
+      "cat": "do",
+      "tier": "",
+      "a": "Old city / Sadar",
+      "d": "Petha \u2014 the translucent ash-gourd sweet \u2014 is Agra's edible signature, and Panchhi is its most famous name, offering everything from the plain classic to saffron, paan and dry-fruit versions. A box packed to travel is the traditional gift home; a vegetarian, no-question indulgence.",
+      "lat": 27.159198,
+      "lon": 78.011155,
+      "photos": []
+    },
+    {
+      "n": "Prem Mandir, Vrindavan",
+      "cat": "do",
+      "tier": "",
+      "a": "Vrindavan",
+      "d": "A vast modern marble temple set in gardens, illuminated at night in changing colours with musical fountains \u2014 spectacular, immaculate and easy for elderly relatives and children alike. It makes a serene, comfortable evening counterpoint to the older, denser temples of Braj.",
+      "lat": 27.167167,
+      "lon": 78.018883,
+      "photos": []
+    },
+    {
+      "n": "ISKCON Vrindavan (Krishna Balaram Mandir)",
+      "cat": "do",
+      "tier": "",
+      "a": "Vrindavan",
+      "d": "The well-run, welcoming Hare Krishna temple offers calm, beautifully kept surroundings, kirtan and pure-vegetarian prasad \u2014 an accessible, unhurried introduction to Vrindavan for first-time visitors. A gentle, orderly stop within a Mathura\u2013Vrindavan day.",
+      "lat": 27.572494,
+      "lon": 77.677751,
+      "photos": []
+    },
+    {
+      "n": "Wildlife SOS Agra Bear Rescue Facility",
+      "cat": "do",
+      "tier": "",
+      "a": "Keetham / Sur Sarovar (approx. 17 km west)",
+      "d": "The world's largest sloth-bear rescue centre, home to bears saved from the cruel 'dancing bear' trade, plus rescued elephants \u2014 a genuinely moving, ethical wildlife experience. A meaningful multi-generational morning, especially with children, and directly supportive of conservation.",
+      "lat": 27.236369,
+      "lon": 77.88297,
+      "photos": []
+    },
+    {
+      "n": "Keetham Lake (Sur Sarovar Bird Sanctuary)",
+      "cat": "do",
+      "tier": "",
+      "a": "Keetham (approx. 20 km west)",
+      "d": "A tranquil lake and wetland reserve on the Delhi road, rich in migratory waterfowl and an easy pairing with the Wildlife SOS centre nearby. A restful, green half-morning away from monuments for those who want birdsong over marble.",
+      "lat": 27.244068,
+      "lon": 77.830482,
+      "photos": []
+    },
+    {
+      "n": "Soami Bagh Samadh, Dayalbagh",
+      "cat": "do",
+      "tier": "",
+      "a": "Dayalbagh",
+      "d": "The Radhasoami memorial has been under construction for over a century, its white-marble carving and inlay work said to rival the Taj in ambition and craftsmanship. Rarely on the tourist trail, it is a fascinating stop for anyone drawn to marble artistry and living devotion.",
+      "lat": 27.227965,
+      "lon": 78.01349,
+      "photos": []
+    },
+    {
+      "n": "Mankameshwar Temple",
+      "cat": "do",
+      "tier": "",
+      "a": "Rawatpara, old city",
+      "d": "One of Agra's oldest and most revered Shiva temples, tucked in the old-city lanes near the Jama Masjid, believed to grant the wishes brought to it. A short, atmospheric detour that grounds a heritage walk in the living city rather than its monuments.",
+      "lat": 27.183694,
+      "lon": 78.017495,
+      "photos": []
+    },
+    {
+      "n": "Deeg Palace",
+      "cat": "do",
+      "tier": "",
+      "a": "Deeg (near Bharatpur, Rajasthan)",
+      "d": "The elegant 18th-century Jat summer palace, with its cooling pavilions, gardens and monsoon fountains, is a lovely and near-empty add-on to a Bharatpur day. A refined, off-radar stop for travellers who have already done the Mughal set and want something rarer.",
+      "lat": 27.206025,
+      "lon": 78.016148,
+      "photos": []
+    },
+    {
+      "n": "Anguri Bagh & the Marble Palaces (within Agra Fort)",
+      "cat": "do",
+      "tier": "",
+      "a": "Agra Fort area",
+      "d": "Deep inside the fort, the geometric 'grape garden' fronts the Khas Mahal and the mirrored Sheesh Mahal, the most intimate of the royal apartments. A private guide who can open the finer detail here turns a fort visit into a study of imperial domestic life.",
+      "lat": 27.179826,
+      "lon": 78.020822,
+      "photos": []
+    },
+    {
+      "n": "Diwan-i-Khas & the pillar, Fatehpur Sikri",
+      "cat": "do",
+      "tier": "",
+      "a": "Fatehpur Sikri",
+      "d": "Akbar's private audience hall centres on a single fantastical carved pillar from which the emperor is said to have presided over religious debate \u2014 a piece of architecture unlike anything else in India. It is the intellectual heart of Fatehpur Sikri and a highlight for the curious.",
+      "lat": 27.097831,
+      "lon": 77.66612,
+      "photos": []
+    },
+    {
+      "n": "Buland Darwaza, Fatehpur Sikri",
+      "cat": "do",
+      "tier": "",
+      "a": "Fatehpur Sikri",
+      "d": "Among the tallest gateways in the world, Akbar's 'Gate of Magnificence' rises in a sweep of red sandstone and marble to commemorate his Gujarat victory. Climbing the great flight of steps to pass beneath it is one of the most theatrical arrivals in Mughal India.",
+      "lat": 27.094312,
+      "lon": 77.662794,
+      "photos": []
+    },
+    {
+      "n": "Panch Mahal, Fatehpur Sikri",
+      "cat": "do",
+      "tier": "",
+      "a": "Fatehpur Sikri",
+      "d": "The five-storey open pavilion of ever-diminishing columned tiers, built for the ladies of the court to catch the breeze, is Fatehpur Sikri's most photographed and most playful structure. A perfect place to pause and imagine the vanished palace life.",
+      "lat": 27.091165,
+      "lon": 77.662398,
+      "photos": []
+    },
+    {
+      "n": "Yamuna river view from the Taj plinth",
+      "cat": "do",
+      "tier": "",
+      "a": "Taj Ganj",
+      "d": "From the rear terrace of the Taj, the Yamuna curves away past Mehtab Bagh and the far-bank tombs \u2014 a quieter vantage most visitors skip in the rush to the front facade. Lingering here at sunrise, with the river mist lifting, is where the Taj feels most private.",
+      "lat": 27.175007,
+      "lon": 78.042101,
+      "photos": []
+    },
+    {
+      "n": "Taj Mahal calligraphy & inlay detail (interior)",
+      "cat": "do",
+      "tier": "",
+      "a": "Taj Ganj",
+      "d": "Beyond the silhouette, the Taj's genius is in the detail \u2014 the perfectly proportioned Quranic calligraphy that appears the same size top to bottom, and the pietra-dura flowers set with dozens of stones per bloom. A specialist guide who reads these turns a photo-stop into an unforgettable close study of the craft.",
+      "lat": 27.175007,
+      "lon": 78.042101,
+      "photos": []
+    },
+    {
+      "n": "Gokul & Mahavan",
+      "cat": "do",
+      "tier": "",
+      "a": "Gokul (near Mathura)",
+      "d": "The riverside village where Krishna was raised by Nanda and Yashoda is gentler and less crowded than the main temple towns, wrapped in pastoral Braj calm. A rewarding extension for pilgrims who want the whole Krishna story, not just its busiest chapters.",
+      "lat": 27.439072,
+      "lon": 77.720373,
+      "photos": []
+    },
+    {
+      "n": "Nidhivan, Vrindavan",
+      "cat": "do",
+      "tier": "",
+      "a": "Vrindavan",
+      "d": "A dense, mysterious grove at the heart of Vrindavan's legends, where devotees believe Krishna and Radha still dance at night and no one may stay after dark. Steeped in myth and atmosphere, it is a quieter, stranger stop for those drawn to the mystical side of Braj.",
+      "lat": 27.584387,
+      "lon": 77.698294,
+      "photos": []
+    },
+    {
+      "n": "Shopping for zardozi & marble at a trusted emporium",
+      "cat": "do",
+      "tier": "",
+      "a": "Fatehabad Road / Taj Ganj",
+      "d": "Agra's finest marble-inlay tables and boxes and its heavy zardozi embroidery deserve a vetted, no-pressure showroom rather than a tout on the street. The concierge's shortlist of reputable ateliers means genuine stones, honest pricing and reliable shipping home.",
+      "lat": 27.160199,
+      "lon": 78.042703,
+      "photos": []
+    },
+    {
+      "n": "Sunset over the Taj from Agra Fort's Musamman Burj",
+      "cat": "do",
+      "tier": "",
+      "a": "Agra Fort area",
+      "d": "From the octagonal marble tower where the imprisoned Shah Jahan spent his final years, the Taj floats on the horizon exactly as he last saw it \u2014 the single most poignant view in the city. Time a late-afternoon fort visit to end here as the light turns gold.",
+      "lat": 27.179826,
+      "lon": 78.020822,
+      "photos": []
+    },
+    {
+      "n": "Cycle-rickshaw dawn safari, Keoladeo",
+      "cat": "do",
+      "tier": "",
+      "a": "Bharatpur (Rajasthan)",
+      "d": "The park bans motor vehicles on its inner tracks, so the classic way in is a licensed cycle-rickshaw whose driver doubles as a sharp-eyed guide, stopping silently for every heron and kingfisher. A gentle, low-effort wildlife morning that suits every generation of a family.",
+      "lat": 27.215452,
+      "lon": 77.503469,
+      "photos": []
+    },
+    {
+      "n": "Guru ka Taal",
+      "cat": "do",
+      "tier": "",
+      "a": "Sikandra (Delhi road)",
+      "d": "A historic stepped water reservoir turned Sikh gurudwara on the road out to Sikandra, its carved sandstone tank an atmospheric and little-known stop. An easy, quiet pause for those combining Akbar's Tomb with the drive toward Mathura.",
+      "lat": 27.208016,
+      "lon": 77.969858,
+      "photos": []
+    },
+    {
+      "n": "The Bar at The Oberoi Amarvilas",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "Taj Ganj (The Oberoi Amarvilas)",
+      "d": "Uninterrupted Taj Mahal views framed in tall windows \u2014 the grandest, and quietest, nightcap in the city.",
+      "lat": 27.167998,
+      "lon": 78.049014,
+      "photos": []
+    },
+    {
+      "n": "The Lounge, The Oberoi Amarvilas",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "Taj Ganj (The Oberoi Amarvilas)",
+      "d": "Golden-domed lounge and open-air terrace for high tea, sundowners and the play of light on the Taj.",
+      "lat": 27.167998,
+      "lon": 78.049014,
+      "photos": []
+    }
+  ]
+}

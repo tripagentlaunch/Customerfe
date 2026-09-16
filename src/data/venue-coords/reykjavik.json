@@ -1,1 +1,428 @@
-{"center": [64.145981, -21.942237], "venues": [{"n": "The Retreat at Blue Lagoon", "cat": "stay", "tier": "Ultra", "a": "Grindavík / Reykjanes peninsula (nearby)", "d": "Iceland's standout luxury address — a 60-suite hotel carved into an 800-year-old lava field, with its own private geothermal lagoon and a subterranean spa.", "lat": 63.879437, "lon": -22.449956, "p": "v"}, {"n": "The Reykjavik EDITION", "cat": "stay", "tier": "Grand", "a": "Waterfront by Harpa, 101 Reykjavik", "d": "The city's most polished international flagship — Ian Schrager's EDITION on the harbourfront beside the Harpa concert hall, with mid-century Nordic design by Roman and Williams.", "lat": 64.149791, "lon": -21.935328, "p": "v"}, {"n": "Hotel Borg", "cat": "stay", "tier": "Luxury", "a": "Austurvöllur / parliament square, 101 Reykjavik", "d": "Reykjavik's original grande dame — an elegant 1930 Art Deco house on the parliament square, and long the first address for visiting dignitaries.", "lat": 64.147008, "lon": -21.938378, "p": "v"}, {"n": "Iceland Parliament Hotel, Curio Collection by Hilton", "cat": "stay", "tier": "Luxury", "a": "Austurvöllur / old town, 101 Reykjavik", "d": "Hilton's most upscale Reykjavik house — a set of historically protected old-town buildings beside the Alþingi parliament, with a serious spa and wellness floor.", "lat": 64.147263, "lon": -21.940891, "p": "v"}, {"n": "Sand Hotel", "cat": "stay", "tier": "Premium", "a": "Laugavegur, 101 Reykjavik", "d": "One of the most stylish stays in the capital — a design-led boutique on the main shopping street, next to the century-old Sandholt bakery whose breakfast it borrows.", "lat": 64.147488, "lon": -21.942747, "p": "v"}, {"n": "Dill", "cat": "eat", "tier": "Destination", "a": "Laugavegur, 101 Reykjavik", "d": "Iceland's most celebrated restaurant and the first in the country to win a star — Gunnar Karl Gíslason's New Nordic cooking, shaped by landscape, season and scarcity, through fermentation, smoking and curing.", "lat": 64.144536, "lon": -21.922476, "p": "v"}, {"n": "Óx", "cat": "eat", "tier": "Destination", "a": "Laugavegur, 101 Reykjavik", "d": "Iceland's most intimate starred experience — a hidden 17-seat counter (set within Sümac) where chef Þráinn Freyr Vigfússon hosts a multi-course dinner that feels closer to a private kitchen gathering than a restaurant.", "lat": 64.145288, "lon": -21.927715, "p": "v"}, {"n": "Moss", "cat": "eat", "tier": "Destination", "a": "Grindavík / The Retreat at Blue Lagoon (nearby)", "d": "The starred table at The Retreat — seasonal tasting menus drawn from Iceland's mountains, rivers and seas, served on the edge of the Blue Lagoon lava field.", "lat": 64.145981, "lon": -21.942237, "p": "v"}, {"n": "Tides", "cat": "eat", "tier": "Fine", "a": "Waterfront by Harpa, 101 Reykjavik", "d": "The Reykjavik EDITION's restaurant — an elegant, harbourfront room celebrating Icelandic produce and the sea, from the hands of a team with real pedigree.", "lat": 64.15006, "lon": -21.935352, "p": "v"}, {"n": "Brút", "cat": "eat", "tier": "Fine", "a": "Aðalstræti, 101 Reykjavik", "d": "Clean, elegant seafood cooking in one of the oldest buildings in Reykjavik — fish and shellfish handled with minimal intervention, letting the central ingredient shine.", "lat": 64.148152, "lon": -21.93838, "p": "v"}, {"n": "Sümac", "cat": "eat", "tier": "Smart", "a": "Laugavegur, 101 Reykjavik", "d": "A lively modern brasserie with an exposed charcoal grill — Icelandic ingredients given a Middle Eastern and North African turn, from Lebanese to Moroccan.", "lat": 64.145354, "lon": -21.927743, "p": "v"}, {"n": "Matur og Drykkur", "cat": "eat", "tier": "Smart", "a": "Grandi / old harbour, 101 Reykjavik", "d": "'Food and drink' in Icelandic — lovingly researched traditional Icelandic cooking, drawn from old cookbooks and thoughtfully updated for today.", "lat": 64.152671, "lon": -21.951322, "p": "v"}, {"n": "OTO", "cat": "eat", "tier": "Smart", "a": "101 Reykjavik", "d": "An assured Italian–Japanese crossover — think lobster cappelletti with yuzu kosho — bringing a lighter, more international register to the city's dining.", "lat": 64.145981, "lon": -21.942237, "p": "v"}, {"n": "Hallgrímskirkja & the Tower", "cat": "do", "tier": "", "a": "Skólavörðuholt (city centre)", "d": "Reykjavík's great expressionist church rises like a basalt-column cliff over the whole city — a 74-metre concrete spire visible from almost everywhere. Take the lift up the tower for the clearest 360-degree view of the coloured rooftops, the bay and the mountains beyond; on a clear day you can see the Snæfellsjökull glacier across the water. Go at opening or near closing for quiet, and time a stop for the vast Klais pipe organ.", "lat": 64.146342, "lon": -21.93042, "p": "a"}, {"n": "Harpa Concert Hall", "cat": "do", "tier": "", "a": "Old Harbour / waterfront", "d": "A honeycomb of coloured glass on the harbour's edge, designed with artist Ólafur Elíasson — the light through its facets shifts all day and glows at night. Even without a concert it is worth wandering the free public levels for the geometry and the sea views; for a special evening, book the Iceland Symphony Orchestra or a private tour. An easy, warm indoor anchor for a multi-generational group in bad weather.", "lat": 64.151669, "lon": -21.942103, "p": "a"}, {"n": "Sun Voyager (Sólfar) Sculpture", "cat": "do", "tier": "", "a": "Sæbraut waterfront", "d": "Jón Gunnar Árnason's steel dreamboat sits on the seafront pointing north across the bay to Mount Esja — not a Viking ship but an ode to the undiscovered, best at sunset or under the midnight sun when the light runs gold along the water. A short, photogenic stroll from Harpa; pair it with a walk along the Sæbraut path.", "lat": 64.147607, "lon": -21.922262, "p": "v"}, {"n": "The Old Harbour (Grandi)", "cat": "do", "tier": "", "a": "Grandi / Old Harbour", "d": "The working harbour turned into the city's most characterful quarter — this is where whale-watching and puffin boats leave, and where the old fish sheds now hold the Marshall House galleries, the Whales of Iceland exhibition and some of the best cooking in town. A relaxed half-day of galleries, ice-cream at Valdís and a warm bowl of lobster soup, with the boats coming and going.", "lat": 64.151669, "lon": -21.942103, "p": "a"}, {"n": "Laugavegur & Skólavörðustígur Shopping", "cat": "do", "tier": "", "a": "City centre", "d": "The main artery of downtown and its rainbow-painted side street climbing to Hallgrímskirkja — the place for Icelandic design, 66°North and Farmers Market outerwear, hand-knitted lopapeysa sweaters, and boutiques of local jewellery and ceramics. Compact and walkable; a fine afternoon for the family with cafés and bakeries every few doors. Fine dining is here too, though strictly vegetarian tables are limited — book ahead and flag dietary needs.", "lat": 64.146342, "lon": -21.93042, "p": "a"}, {"n": "Perlan — Wonders of Iceland", "cat": "do", "tier": "", "a": "Öskjuhlíð hill", "d": "A glass dome set atop the city's hot-water tanks, now Iceland's best natural-history experience: walk through a real indoor ice cave carved from 350 tonnes of mountain snow, feel a simulated glacier and volcanoes, and lie back for the 8K Áróra planetarium show that explains and recreates the Northern Lights — a guaranteed aurora even in summer or cloud. The wraparound observation deck gives a full-city panorama. Genuinely engaging for children and grandparents alike.", "lat": 64.128323, "lon": -21.919059, "p": "a"}, {"n": "Sky Lagoon", "cat": "do", "tier": "", "a": "Kársnes, Kópavogur (oceanfront)", "d": "The most design-led of the city's geothermal baths — an infinity edge that dissolves into the North Atlantic, so you soak in steaming water while the horizon and the sunset fill your view. The seven-step Skjól ritual (warm lagoon, cold plunge, sauna, mist, scrub, steam, shower) is a spa in itself. Book the Sér package for private changing rooms; a discreet, grown-up alternative to the Blue Lagoon and only minutes from downtown.", "lat": 64.146024, "lon": -21.936757, "p": "v"}, {"n": "Laugardalslaug Geothermal Pool", "cat": "do", "tier": "", "a": "Laugardalur valley", "d": "The everyday heart of Icelandic life — the largest public geothermal pool in Reykjavík, with an Olympic pool, hot pots at different temperatures, a steam bath and water slides. This is where locals actually gather; the ritual is simple and cheap and deeply restorative after a cold day. Bring the whole family — remember the local etiquette of a thorough shower before entering.", "lat": 64.143501, "lon": -21.879052, "p": "a"}, {"n": "The National Museum of Iceland", "cat": "do", "tier": "", "a": "University area (Suðurgata)", "d": "The clearest window into the country's story — from the ninth-century settlement and the Vikings through a thousand years to independence, told through swords, carved church doors, silver and dress. Compact, well-lit and calm; a private guide brings the sagas alive for teenagers and gives a grandparent the through-line before the landscape does the rest.", "lat": 64.141954, "lon": -21.948163, "p": "v"}, {"n": "Reykjavík Art Museum — Hafnarhús", "cat": "do", "tier": "", "a": "Old Harbour", "d": "The main downtown site of the city's art museum, in a converted harbour warehouse, best known for its permanent room of Erró — the Icelandic pop-collage master — alongside bold contemporary shows. Three sites share one ticket (Hafnarhús, Kjarvalsstaðir and the Ásmundarsafn sculpture house), a good rainy-day trio for an art-minded family.", "lat": 64.149065, "lon": -21.940444, "p": "v"}, {"n": "Tjörnin (The Pond) & City Hall", "cat": "do", "tier": "", "a": "City centre", "d": "The little lake at the city's heart, ringed by pastel timber houses and alive with more than forty species of bird — the reason it is nicknamed 'the biggest bread soup in the world' for the children who come to feed the ducks and swans. City Hall on its shore holds a huge 3-D relief map of Iceland worth a look. A gentle, pretty loop for grandparents and small children.", "lat": 64.14575, "lon": -21.938502, "p": "v"}, {"n": "Grótta Lighthouse & Seltjarnarnes", "cat": "do", "tier": "", "a": "Seltjarnarnes (western tip)", "d": "At the city's edge, a lighthouse on a tidal islet reachable on foot at low tide, with a warm little geothermal foot-bath (Kvika) beside the path. Because it faces away from the city lights it is Reykjavík's best in-town spot for the Northern Lights in winter and for the midnight sun in summer. A quiet, wild-feeling walk minutes from downtown — check the tide before crossing.", "lat": 64.164999, "lon": -22.021954, "p": "v"}, {"n": "Whale Watching from the Old Harbour", "cat": "do", "tier": "", "a": "Old Harbour", "d": "Boats leave straight from downtown into Faxaflói Bay to find minke and humpback whales, white-beaked dolphins and porpoises — roughly a three-hour trip with a high success rate from April to October. For a family, charter a private RIB or a larger stable vessel; wrap up warm, as the wind on the water is the cold you feel most in Iceland.", "lat": 64.151669, "lon": -21.942103, "p": "a"}, {"n": "Whales of Iceland Exhibition", "cat": "do", "tier": "", "a": "Grandi / Old Harbour", "d": "A hangar of 23 life-size whale models — including a full 25-metre blue whale — suspended overhead so you grasp the true scale of the animals you hope to see at sea. A warm, indoor complement to a boat trip and a hit with younger children on a wet afternoon.", "lat": 64.155708, "lon": -21.94884, "p": "v"}, {"n": "The Blue Lagoon", "cat": "do", "tier": "", "a": "Reykjanes Peninsula (near Grindavík)", "d": "Iceland's most famous experience — milky-blue, silica-rich geothermal water steaming against black lava, with a swim-up bar, silica masks and the luxurious Retreat Spa and hotel for those who want privacy. It sits between the airport and the city, so it makes a perfect first or last stop. Note honestly: it is close to the Reykjanes volcanic zone and has occasionally closed at short notice for air-quality or seismic reasons — confirm status the day before and let your advisor keep watch.", "lat": 63.879437, "lon": -22.449956, "p": "v"}, {"n": "The Golden Circle — Þingvellir National Park", "cat": "do", "tier": "", "a": "~45 min east of Reykjavík", "d": "The first and greatest stop on the classic day loop — a rift valley where the North American and Eurasian tectonic plates visibly pull apart, and where Iceland's Vikings founded the world's oldest surviving parliament, the Alþingi, in 930 AD. Walk the Almannagjá gorge literally between two continents; the certified can snorkel the glass-clear Silfra fissure. A private guide turns the geology and the history into one story for the whole family.", "lat": 64.149466, "lon": -21.941393, "p": "a"}, {"n": "Diamond Beach", "cat": "do", "tier": "", "a": "Southeast Iceland (~4.5–5 hr from Reykjavík)", "d": "Just across the road from Jökulsárlón, the icebergs that reach the sea wash back onto black volcanic sand as glittering, translucent chunks — 'diamonds' scattered on jet velvet, catching the low sun. Utterly photogenic and constantly changing with the tide; pair it with the glacier lagoon on the same visit.", "lat": 64.121642, "lon": -21.928708, "p": "v"}, {"n": "Reykjadalur 'Hot River' Valley Hike", "cat": "do", "tier": "", "a": "Hveragerði (~45 min from Reykjavík)", "d": "A steaming valley an hour's hike into the hills above Hveragerði, where a natural geothermal river runs warm enough to bathe in — you soak in the open air with the moss and mountains around you. About a 3-km walk each way; a lovely, active, free alternative to the built lagoons for those who like to earn their soak.", "lat": 64.141673, "lon": -21.920165, "p": "a"}, {"n": "Fontana Geothermal Baths & Rye-Bread Baking", "cat": "do", "tier": "", "a": "Laugarvatn, Golden Circle (~1 hr)", "d": "Lakeside geothermal pools and steam rooms built over natural hot springs on the Golden Circle route, where the staff dig warm dark rye bread out of the black sand it bakes in overnight. A relaxed, low-key soak with a lake to plunge into — a gentler, more local counterpoint to the Blue Lagoon, easy to fold into a Golden Circle day.", "lat": 64.222387, "lon": -20.726852, "p": "a"}, {"n": "The Settlement Exhibition (Reykjavík 871±2)", "cat": "do", "tier": "", "a": "Aðalstræti, city centre", "d": "Built around the excavated ruins of one of the oldest houses in Iceland — a genuine Viking-age longhouse dated to around 871 AD, displayed in situ under the modern city with clever projections that rebuild the hall around you. A compact, atmospheric half-hour that grounds the whole trip in where Reykjavík began.", "lat": 64.148291, "lon": -21.941746, "p": "a"}, {"n": "Videy Island", "cat": "do", "tier": "", "a": "Off the Old Harbour / Skarfabakki (short ferry)", "d": "A car-free island a short ferry from the city, with birdlife, walking paths, a 1755 stone church and Yoko Ono's Imagine Peace Tower — a column of light beamed into the sky each winter in memory of John Lennon. A peaceful half-day away from the streets, and one of the best quiet spots near the city for the aurora.", "lat": 64.16522, "lon": -21.853367, "p": "v"}, {"n": "Kjarvalsstaðir — Reykjavík Art Museum", "cat": "do", "tier": "", "a": "Klambratún park", "d": "The light-filled modernist pavilion of the city art museum, in a leafy park, devoted largely to Jóhannes Kjarval — the beloved painter who taught Icelanders to see their own lava and moss as landscape. Quieter than the harbour site and shares the same three-in-one ticket; a calm hour with a café and a park for the children outside.", "lat": 64.149065, "lon": -21.940444, "p": "v"}, {"n": "Café & Bakarí Culture — Sandholt and Braud & Co", "cat": "do", "tier": "", "a": "Laugavegur & Frakkastígur", "d": "Icelandic bakery culture is a genuine pleasure — Sandholt's pastries on Laugavegur and the graffiti-fronted Brauð & Co are institutions, alongside the famous kleinur and cinnamon buns. A warm, welcoming refuge between sights, and reliably good for a vegetarian traveller, for whom Reykjavík's dedicated veg-friendly spots (like Gló) are easiest found downtown.", "lat": 64.145184, "lon": -21.924708, "p": "a"}, {"n": "Icelandic Phallological Museum", "cat": "do", "tier": "", "a": "Kalkofnsvegur, near Harpa", "d": "Reykjavík's most famously quirky museum — the world's only collection devoted entirely to phallic specimens from Icelandic mammals, presented with genuine scientific earnestness and a wink. A only-in-Iceland curiosity and a talking point for adult travellers; best appreciated by grown-ups.", "lat": 64.148468, "lon": -21.93576, "p": "v"}, {"n": "Helicopter Flight over Volcano & Glacier Country", "cat": "do", "tier": "", "a": "Departs Reykjavík Domestic Airport", "d": "The most discreet and dramatic way to grasp Iceland's scale — a private helicopter lifting straight from the city to land on a glacier, circle the Reykjanes lava fields, or crest a crater rim, all in a couple of hours. It turns a full-day drive into a morning and gives elderly or time-short members of the family the wonders without the road. The definitive splurge for a multi-generational trip.", "lat": 64.131826, "lon": -21.946633, "p": "a"}, {"n": "Apótek", "cat": "party", "tier": "Cocktail bars", "a": "Austurstræti, 101 Reykjavik", "d": "A handsome lobby bar in a grand former pharmacy on the old-town corner — prescription-themed cocktails mixed by resident 'pharmacists' in one of the city's most elegant rooms.", "lat": 64.152139, "lon": -21.951318, "p": "v"}, {"n": "Loftið", "cat": "party", "tier": "Cocktail bars", "a": "Austurstræti, 101 Reykjavik", "d": "An upstairs, vintage-glamour cocktail lounge with worn leather sofas and big windows over the walking street — the city's most grown-up drinking room.", "lat": 64.145981, "lon": -21.942237, "p": "v"}, {"n": "Skúli Craft Bar", "cat": "party", "tier": "Landmark bars", "a": "Aðalstræti / Ingólfstorg, 101 Reykjavik", "d": "The city's temple to Icelandic craft beer — 14 rotating taps and well over a hundred bottles, in a cosy wood-panelled room named for a founding father of Reykjavik.", "lat": 64.147527, "lon": -21.941634, "p": "v"}, {"n": "Kaldi Bar", "cat": "party", "tier": "Landmark bars", "a": "Laugavegur, 101 Reykjavik", "d": "The downtown bar of Iceland's first microbrewery — Czech-method beers brewed with northern spring water, plus the city's largest gin selection, in a warm, locals-heavy room.", "lat": 64.145521, "lon": -21.929527, "p": "v"}]}
+{
+  "center": [
+    64.145981,
+    -21.942237
+  ],
+  "venues": [
+    {
+      "n": "The Retreat at Blue Lagoon",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Grindav\u00edk / Reykjanes peninsula (nearby)",
+      "d": "Iceland's standout luxury address \u2014 a 60-suite hotel carved into an 800-year-old lava field, with its own private geothermal lagoon and a subterranean spa.",
+      "lat": 63.879437,
+      "lon": -22.449956,
+      "photos": []
+    },
+    {
+      "n": "The Reykjavik EDITION",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Waterfront by Harpa, 101 Reykjavik",
+      "d": "The city's most polished international flagship \u2014 Ian Schrager's EDITION on the harbourfront beside the Harpa concert hall, with mid-century Nordic design by Roman and Williams.",
+      "lat": 64.149791,
+      "lon": -21.935328,
+      "photos": []
+    },
+    {
+      "n": "Hotel Borg",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Austurv\u00f6llur / parliament square, 101 Reykjavik",
+      "d": "Reykjavik's original grande dame \u2014 an elegant 1930 Art Deco house on the parliament square, and long the first address for visiting dignitaries.",
+      "lat": 64.147008,
+      "lon": -21.938378,
+      "photos": []
+    },
+    {
+      "n": "Iceland Parliament Hotel, Curio Collection by Hilton",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Austurv\u00f6llur / old town, 101 Reykjavik",
+      "d": "Hilton's most upscale Reykjavik house \u2014 a set of historically protected old-town buildings beside the Al\u00feingi parliament, with a serious spa and wellness floor.",
+      "lat": 64.147263,
+      "lon": -21.940891,
+      "photos": []
+    },
+    {
+      "n": "Sand Hotel",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Laugavegur, 101 Reykjavik",
+      "d": "One of the most stylish stays in the capital \u2014 a design-led boutique on the main shopping street, next to the century-old Sandholt bakery whose breakfast it borrows.",
+      "lat": 64.147488,
+      "lon": -21.942747,
+      "photos": []
+    },
+    {
+      "n": "Dill",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Laugavegur, 101 Reykjavik",
+      "d": "Iceland's most celebrated restaurant and the first in the country to win a star \u2014 Gunnar Karl G\u00edslason's New Nordic cooking, shaped by landscape, season and scarcity, through fermentation, smoking and curing.",
+      "lat": 64.144536,
+      "lon": -21.922476,
+      "photos": []
+    },
+    {
+      "n": "\u00d3x",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Laugavegur, 101 Reykjavik",
+      "d": "Iceland's most intimate starred experience \u2014 a hidden 17-seat counter (set within S\u00fcmac) where chef \u00der\u00e1inn Freyr Vigf\u00fasson hosts a multi-course dinner that feels closer to a private kitchen gathering than a restaurant.",
+      "lat": 64.145288,
+      "lon": -21.927715,
+      "photos": []
+    },
+    {
+      "n": "Moss",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Grindav\u00edk / The Retreat at Blue Lagoon (nearby)",
+      "d": "The starred table at The Retreat \u2014 seasonal tasting menus drawn from Iceland's mountains, rivers and seas, served on the edge of the Blue Lagoon lava field.",
+      "lat": 64.145981,
+      "lon": -21.942237,
+      "photos": []
+    },
+    {
+      "n": "Tides",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Waterfront by Harpa, 101 Reykjavik",
+      "d": "The Reykjavik EDITION's restaurant \u2014 an elegant, harbourfront room celebrating Icelandic produce and the sea, from the hands of a team with real pedigree.",
+      "lat": 64.15006,
+      "lon": -21.935352,
+      "photos": []
+    },
+    {
+      "n": "Br\u00fat",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "A\u00f0alstr\u00e6ti, 101 Reykjavik",
+      "d": "Clean, elegant seafood cooking in one of the oldest buildings in Reykjavik \u2014 fish and shellfish handled with minimal intervention, letting the central ingredient shine.",
+      "lat": 64.148152,
+      "lon": -21.93838,
+      "photos": []
+    },
+    {
+      "n": "S\u00fcmac",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Laugavegur, 101 Reykjavik",
+      "d": "A lively modern brasserie with an exposed charcoal grill \u2014 Icelandic ingredients given a Middle Eastern and North African turn, from Lebanese to Moroccan.",
+      "lat": 64.145354,
+      "lon": -21.927743,
+      "photos": []
+    },
+    {
+      "n": "Matur og Drykkur",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Grandi / old harbour, 101 Reykjavik",
+      "d": "'Food and drink' in Icelandic \u2014 lovingly researched traditional Icelandic cooking, drawn from old cookbooks and thoughtfully updated for today.",
+      "lat": 64.152671,
+      "lon": -21.951322,
+      "photos": []
+    },
+    {
+      "n": "OTO",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "101 Reykjavik",
+      "d": "An assured Italian\u2013Japanese crossover \u2014 think lobster cappelletti with yuzu kosho \u2014 bringing a lighter, more international register to the city's dining.",
+      "lat": 64.145981,
+      "lon": -21.942237,
+      "photos": []
+    },
+    {
+      "n": "Hallgr\u00edmskirkja & the Tower",
+      "cat": "do",
+      "tier": "",
+      "a": "Sk\u00f3lav\u00f6r\u00f0uholt (city centre)",
+      "d": "Reykjav\u00edk's great expressionist church rises like a basalt-column cliff over the whole city \u2014 a 74-metre concrete spire visible from almost everywhere. Take the lift up the tower for the clearest 360-degree view of the coloured rooftops, the bay and the mountains beyond; on a clear day you can see the Sn\u00e6fellsj\u00f6kull glacier across the water. Go at opening or near closing for quiet, and time a stop for the vast Klais pipe organ.",
+      "lat": 64.146342,
+      "lon": -21.93042,
+      "photos": []
+    },
+    {
+      "n": "Harpa Concert Hall",
+      "cat": "do",
+      "tier": "",
+      "a": "Old Harbour / waterfront",
+      "d": "A honeycomb of coloured glass on the harbour's edge, designed with artist \u00d3lafur El\u00edasson \u2014 the light through its facets shifts all day and glows at night. Even without a concert it is worth wandering the free public levels for the geometry and the sea views; for a special evening, book the Iceland Symphony Orchestra or a private tour. An easy, warm indoor anchor for a multi-generational group in bad weather.",
+      "lat": 64.151669,
+      "lon": -21.942103,
+      "photos": []
+    },
+    {
+      "n": "Sun Voyager (S\u00f3lfar) Sculpture",
+      "cat": "do",
+      "tier": "",
+      "a": "S\u00e6braut waterfront",
+      "d": "J\u00f3n Gunnar \u00c1rnason's steel dreamboat sits on the seafront pointing north across the bay to Mount Esja \u2014 not a Viking ship but an ode to the undiscovered, best at sunset or under the midnight sun when the light runs gold along the water. A short, photogenic stroll from Harpa; pair it with a walk along the S\u00e6braut path.",
+      "lat": 64.147607,
+      "lon": -21.922262,
+      "photos": []
+    },
+    {
+      "n": "The Old Harbour (Grandi)",
+      "cat": "do",
+      "tier": "",
+      "a": "Grandi / Old Harbour",
+      "d": "The working harbour turned into the city's most characterful quarter \u2014 this is where whale-watching and puffin boats leave, and where the old fish sheds now hold the Marshall House galleries, the Whales of Iceland exhibition and some of the best cooking in town. A relaxed half-day of galleries, ice-cream at Vald\u00eds and a warm bowl of lobster soup, with the boats coming and going.",
+      "lat": 64.151669,
+      "lon": -21.942103,
+      "photos": []
+    },
+    {
+      "n": "Laugavegur & Sk\u00f3lav\u00f6r\u00f0ust\u00edgur Shopping",
+      "cat": "do",
+      "tier": "",
+      "a": "City centre",
+      "d": "The main artery of downtown and its rainbow-painted side street climbing to Hallgr\u00edmskirkja \u2014 the place for Icelandic design, 66\u00b0North and Farmers Market outerwear, hand-knitted lopapeysa sweaters, and boutiques of local jewellery and ceramics. Compact and walkable; a fine afternoon for the family with caf\u00e9s and bakeries every few doors. Fine dining is here too, though strictly vegetarian tables are limited \u2014 book ahead and flag dietary needs.",
+      "lat": 64.146342,
+      "lon": -21.93042,
+      "photos": []
+    },
+    {
+      "n": "Perlan \u2014 Wonders of Iceland",
+      "cat": "do",
+      "tier": "",
+      "a": "\u00d6skjuhl\u00ed\u00f0 hill",
+      "d": "A glass dome set atop the city's hot-water tanks, now Iceland's best natural-history experience: walk through a real indoor ice cave carved from 350 tonnes of mountain snow, feel a simulated glacier and volcanoes, and lie back for the 8K \u00c1r\u00f3ra planetarium show that explains and recreates the Northern Lights \u2014 a guaranteed aurora even in summer or cloud. The wraparound observation deck gives a full-city panorama. Genuinely engaging for children and grandparents alike.",
+      "lat": 64.128323,
+      "lon": -21.919059,
+      "photos": []
+    },
+    {
+      "n": "Sky Lagoon",
+      "cat": "do",
+      "tier": "",
+      "a": "K\u00e1rsnes, K\u00f3pavogur (oceanfront)",
+      "d": "The most design-led of the city's geothermal baths \u2014 an infinity edge that dissolves into the North Atlantic, so you soak in steaming water while the horizon and the sunset fill your view. The seven-step Skj\u00f3l ritual (warm lagoon, cold plunge, sauna, mist, scrub, steam, shower) is a spa in itself. Book the S\u00e9r package for private changing rooms; a discreet, grown-up alternative to the Blue Lagoon and only minutes from downtown.",
+      "lat": 64.146024,
+      "lon": -21.936757,
+      "photos": []
+    },
+    {
+      "n": "Laugardalslaug Geothermal Pool",
+      "cat": "do",
+      "tier": "",
+      "a": "Laugardalur valley",
+      "d": "The everyday heart of Icelandic life \u2014 the largest public geothermal pool in Reykjav\u00edk, with an Olympic pool, hot pots at different temperatures, a steam bath and water slides. This is where locals actually gather; the ritual is simple and cheap and deeply restorative after a cold day. Bring the whole family \u2014 remember the local etiquette of a thorough shower before entering.",
+      "lat": 64.143501,
+      "lon": -21.879052,
+      "photos": []
+    },
+    {
+      "n": "The National Museum of Iceland",
+      "cat": "do",
+      "tier": "",
+      "a": "University area (Su\u00f0urgata)",
+      "d": "The clearest window into the country's story \u2014 from the ninth-century settlement and the Vikings through a thousand years to independence, told through swords, carved church doors, silver and dress. Compact, well-lit and calm; a private guide brings the sagas alive for teenagers and gives a grandparent the through-line before the landscape does the rest.",
+      "lat": 64.141954,
+      "lon": -21.948163,
+      "photos": []
+    },
+    {
+      "n": "Reykjav\u00edk Art Museum \u2014 Hafnarh\u00fas",
+      "cat": "do",
+      "tier": "",
+      "a": "Old Harbour",
+      "d": "The main downtown site of the city's art museum, in a converted harbour warehouse, best known for its permanent room of Err\u00f3 \u2014 the Icelandic pop-collage master \u2014 alongside bold contemporary shows. Three sites share one ticket (Hafnarh\u00fas, Kjarvalssta\u00f0ir and the \u00c1smundarsafn sculpture house), a good rainy-day trio for an art-minded family.",
+      "lat": 64.149065,
+      "lon": -21.940444,
+      "photos": []
+    },
+    {
+      "n": "Tj\u00f6rnin (The Pond) & City Hall",
+      "cat": "do",
+      "tier": "",
+      "a": "City centre",
+      "d": "The little lake at the city's heart, ringed by pastel timber houses and alive with more than forty species of bird \u2014 the reason it is nicknamed 'the biggest bread soup in the world' for the children who come to feed the ducks and swans. City Hall on its shore holds a huge 3-D relief map of Iceland worth a look. A gentle, pretty loop for grandparents and small children.",
+      "lat": 64.14575,
+      "lon": -21.938502,
+      "photos": []
+    },
+    {
+      "n": "Gr\u00f3tta Lighthouse & Seltjarnarnes",
+      "cat": "do",
+      "tier": "",
+      "a": "Seltjarnarnes (western tip)",
+      "d": "At the city's edge, a lighthouse on a tidal islet reachable on foot at low tide, with a warm little geothermal foot-bath (Kvika) beside the path. Because it faces away from the city lights it is Reykjav\u00edk's best in-town spot for the Northern Lights in winter and for the midnight sun in summer. A quiet, wild-feeling walk minutes from downtown \u2014 check the tide before crossing.",
+      "lat": 64.164999,
+      "lon": -22.021954,
+      "photos": []
+    },
+    {
+      "n": "Whale Watching from the Old Harbour",
+      "cat": "do",
+      "tier": "",
+      "a": "Old Harbour",
+      "d": "Boats leave straight from downtown into Faxafl\u00f3i Bay to find minke and humpback whales, white-beaked dolphins and porpoises \u2014 roughly a three-hour trip with a high success rate from April to October. For a family, charter a private RIB or a larger stable vessel; wrap up warm, as the wind on the water is the cold you feel most in Iceland.",
+      "lat": 64.151669,
+      "lon": -21.942103,
+      "photos": []
+    },
+    {
+      "n": "Whales of Iceland Exhibition",
+      "cat": "do",
+      "tier": "",
+      "a": "Grandi / Old Harbour",
+      "d": "A hangar of 23 life-size whale models \u2014 including a full 25-metre blue whale \u2014 suspended overhead so you grasp the true scale of the animals you hope to see at sea. A warm, indoor complement to a boat trip and a hit with younger children on a wet afternoon.",
+      "lat": 64.155708,
+      "lon": -21.94884,
+      "photos": []
+    },
+    {
+      "n": "The Blue Lagoon",
+      "cat": "do",
+      "tier": "",
+      "a": "Reykjanes Peninsula (near Grindav\u00edk)",
+      "d": "Iceland's most famous experience \u2014 milky-blue, silica-rich geothermal water steaming against black lava, with a swim-up bar, silica masks and the luxurious Retreat Spa and hotel for those who want privacy. It sits between the airport and the city, so it makes a perfect first or last stop. Note honestly: it is close to the Reykjanes volcanic zone and has occasionally closed at short notice for air-quality or seismic reasons \u2014 confirm status the day before and let your advisor keep watch.",
+      "lat": 63.879437,
+      "lon": -22.449956,
+      "photos": []
+    },
+    {
+      "n": "The Golden Circle \u2014 \u00deingvellir National Park",
+      "cat": "do",
+      "tier": "",
+      "a": "~45 min east of Reykjav\u00edk",
+      "d": "The first and greatest stop on the classic day loop \u2014 a rift valley where the North American and Eurasian tectonic plates visibly pull apart, and where Iceland's Vikings founded the world's oldest surviving parliament, the Al\u00feingi, in 930 AD. Walk the Almannagj\u00e1 gorge literally between two continents; the certified can snorkel the glass-clear Silfra fissure. A private guide turns the geology and the history into one story for the whole family.",
+      "lat": 64.149466,
+      "lon": -21.941393,
+      "photos": []
+    },
+    {
+      "n": "Diamond Beach",
+      "cat": "do",
+      "tier": "",
+      "a": "Southeast Iceland (~4.5\u20135 hr from Reykjav\u00edk)",
+      "d": "Just across the road from J\u00f6kuls\u00e1rl\u00f3n, the icebergs that reach the sea wash back onto black volcanic sand as glittering, translucent chunks \u2014 'diamonds' scattered on jet velvet, catching the low sun. Utterly photogenic and constantly changing with the tide; pair it with the glacier lagoon on the same visit.",
+      "lat": 64.121642,
+      "lon": -21.928708,
+      "photos": []
+    },
+    {
+      "n": "Reykjadalur 'Hot River' Valley Hike",
+      "cat": "do",
+      "tier": "",
+      "a": "Hverager\u00f0i (~45 min from Reykjav\u00edk)",
+      "d": "A steaming valley an hour's hike into the hills above Hverager\u00f0i, where a natural geothermal river runs warm enough to bathe in \u2014 you soak in the open air with the moss and mountains around you. About a 3-km walk each way; a lovely, active, free alternative to the built lagoons for those who like to earn their soak.",
+      "lat": 64.141673,
+      "lon": -21.920165,
+      "photos": []
+    },
+    {
+      "n": "Fontana Geothermal Baths & Rye-Bread Baking",
+      "cat": "do",
+      "tier": "",
+      "a": "Laugarvatn, Golden Circle (~1 hr)",
+      "d": "Lakeside geothermal pools and steam rooms built over natural hot springs on the Golden Circle route, where the staff dig warm dark rye bread out of the black sand it bakes in overnight. A relaxed, low-key soak with a lake to plunge into \u2014 a gentler, more local counterpoint to the Blue Lagoon, easy to fold into a Golden Circle day.",
+      "lat": 64.222387,
+      "lon": -20.726852,
+      "photos": []
+    },
+    {
+      "n": "The Settlement Exhibition (Reykjav\u00edk 871\u00b12)",
+      "cat": "do",
+      "tier": "",
+      "a": "A\u00f0alstr\u00e6ti, city centre",
+      "d": "Built around the excavated ruins of one of the oldest houses in Iceland \u2014 a genuine Viking-age longhouse dated to around 871 AD, displayed in situ under the modern city with clever projections that rebuild the hall around you. A compact, atmospheric half-hour that grounds the whole trip in where Reykjav\u00edk began.",
+      "lat": 64.148291,
+      "lon": -21.941746,
+      "photos": []
+    },
+    {
+      "n": "Videy Island",
+      "cat": "do",
+      "tier": "",
+      "a": "Off the Old Harbour / Skarfabakki (short ferry)",
+      "d": "A car-free island a short ferry from the city, with birdlife, walking paths, a 1755 stone church and Yoko Ono's Imagine Peace Tower \u2014 a column of light beamed into the sky each winter in memory of John Lennon. A peaceful half-day away from the streets, and one of the best quiet spots near the city for the aurora.",
+      "lat": 64.16522,
+      "lon": -21.853367,
+      "photos": []
+    },
+    {
+      "n": "Kjarvalssta\u00f0ir \u2014 Reykjav\u00edk Art Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Klambrat\u00fan park",
+      "d": "The light-filled modernist pavilion of the city art museum, in a leafy park, devoted largely to J\u00f3hannes Kjarval \u2014 the beloved painter who taught Icelanders to see their own lava and moss as landscape. Quieter than the harbour site and shares the same three-in-one ticket; a calm hour with a caf\u00e9 and a park for the children outside.",
+      "lat": 64.149065,
+      "lon": -21.940444,
+      "photos": []
+    },
+    {
+      "n": "Caf\u00e9 & Bakar\u00ed Culture \u2014 Sandholt and Braud & Co",
+      "cat": "do",
+      "tier": "",
+      "a": "Laugavegur & Frakkast\u00edgur",
+      "d": "Icelandic bakery culture is a genuine pleasure \u2014 Sandholt's pastries on Laugavegur and the graffiti-fronted Brau\u00f0 & Co are institutions, alongside the famous kleinur and cinnamon buns. A warm, welcoming refuge between sights, and reliably good for a vegetarian traveller, for whom Reykjav\u00edk's dedicated veg-friendly spots (like Gl\u00f3) are easiest found downtown.",
+      "lat": 64.145184,
+      "lon": -21.924708,
+      "photos": []
+    },
+    {
+      "n": "Icelandic Phallological Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Kalkofnsvegur, near Harpa",
+      "d": "Reykjav\u00edk's most famously quirky museum \u2014 the world's only collection devoted entirely to phallic specimens from Icelandic mammals, presented with genuine scientific earnestness and a wink. A only-in-Iceland curiosity and a talking point for adult travellers; best appreciated by grown-ups.",
+      "lat": 64.148468,
+      "lon": -21.93576,
+      "photos": []
+    },
+    {
+      "n": "Helicopter Flight over Volcano & Glacier Country",
+      "cat": "do",
+      "tier": "",
+      "a": "Departs Reykjav\u00edk Domestic Airport",
+      "d": "The most discreet and dramatic way to grasp Iceland's scale \u2014 a private helicopter lifting straight from the city to land on a glacier, circle the Reykjanes lava fields, or crest a crater rim, all in a couple of hours. It turns a full-day drive into a morning and gives elderly or time-short members of the family the wonders without the road. The definitive splurge for a multi-generational trip.",
+      "lat": 64.131826,
+      "lon": -21.946633,
+      "photos": []
+    },
+    {
+      "n": "Ap\u00f3tek",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Austurstr\u00e6ti, 101 Reykjavik",
+      "d": "A handsome lobby bar in a grand former pharmacy on the old-town corner \u2014 prescription-themed cocktails mixed by resident 'pharmacists' in one of the city's most elegant rooms.",
+      "lat": 64.152139,
+      "lon": -21.951318,
+      "photos": []
+    },
+    {
+      "n": "Lofti\u00f0",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Austurstr\u00e6ti, 101 Reykjavik",
+      "d": "An upstairs, vintage-glamour cocktail lounge with worn leather sofas and big windows over the walking street \u2014 the city's most grown-up drinking room.",
+      "lat": 64.145981,
+      "lon": -21.942237,
+      "photos": []
+    },
+    {
+      "n": "Sk\u00fali Craft Bar",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "A\u00f0alstr\u00e6ti / Ing\u00f3lfstorg, 101 Reykjavik",
+      "d": "The city's temple to Icelandic craft beer \u2014 14 rotating taps and well over a hundred bottles, in a cosy wood-panelled room named for a founding father of Reykjavik.",
+      "lat": 64.147527,
+      "lon": -21.941634,
+      "photos": []
+    },
+    {
+      "n": "Kaldi Bar",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "Laugavegur, 101 Reykjavik",
+      "d": "The downtown bar of Iceland's first microbrewery \u2014 Czech-method beers brewed with northern spring water, plus the city's largest gin selection, in a warm, locals-heavy room.",
+      "lat": 64.145521,
+      "lon": -21.929527,
+      "photos": []
+    }
+  ]
+}

@@ -1,1 +1,678 @@
-{"center": [28.613895, 77.209006], "venues": [{"n": "The Oberoi, New Delhi", "cat": "stay", "tier": "Ultra", "a": "Lutyens' / Central Delhi (Dr Zakir Hussain Marg)", "d": "Delhi's flagship Oberoi, reborn after a top-to-toe rebuild — serene rooms above the golf course and Humayun's Tomb.", "lat": 28.596533, "lon": 77.239815, "p": "v"}, {"n": "The Leela Palace New Delhi", "cat": "stay", "tier": "Ultra", "a": "Lutyens' / Central Delhi (Chanakyapuri, Diplomatic Enclave)", "d": "A gold-domed modern palace in the Diplomatic Enclave — the grandest new-build luxury house in the capital.", "lat": 28.579918, "lon": 77.189261, "p": "v"}, {"n": "The Imperial", "cat": "stay", "tier": "Ultra", "a": "Lutyens' / Central Delhi (Janpath)", "d": "1936 Lutyens grandeur — colonnades, palm court and one of India's great art collections on the walls.", "lat": 28.633034, "lon": 77.222669, "p": "v"}, {"n": "Taj Mahal, New Delhi", "cat": "stay", "tier": "Grand", "a": "Lutyens' / Central Delhi (Man Singh Road)", "d": "The Taj's Lutyens address — discreet, well-placed and home to the legendary Wasabi and House of Ming.", "lat": 28.604757, "lon": 77.223484, "p": "v"}, {"n": "The Lodhi", "cat": "stay", "tier": "Grand", "a": "South Delhi (Lodhi Road)", "d": "Big, contemporary rooms — many with private plunge pools — in a green, low-rise pocket of central Delhi.", "lat": 28.591526, "lon": 77.238125, "p": "v"}, {"n": "Andaz Delhi", "cat": "stay", "tier": "Luxury", "a": "Aerocity (near IGI Airport)", "d": "Design-led Hyatt Andaz minutes from the terminals — the sharpest of the airport-side luxury houses.", "lat": 28.554229, "lon": 77.121513, "p": "v"}, {"n": "Taj Palace, New Delhi", "cat": "stay", "tier": "Luxury", "a": "Lutyens' / Central Delhi (Sardar Patel Marg, Diplomatic Enclave)", "d": "A vast garden-set Taj in the Diplomatic Enclave — built for scale, conferences and big Indian celebrations.", "lat": 28.595491, "lon": 77.170589, "p": "v"}, {"n": "Indian Accent", "cat": "eat", "tier": "Destination", "a": "South Delhi (The Lodhi)", "d": "India's most celebrated modern-Indian table — inventive, vegetable-forward cooking that reads the country back to itself.", "lat": 28.591759, "lon": 77.237903, "p": "v"}, {"n": "Bukhara", "cat": "eat", "tier": "Destination", "a": "Lutyens' / Central Delhi (ITC Maurya)", "d": "The legendary North-West Frontier grill since 1979 — dal Bukhara and tandoori meats that have fed presidents and champions.", "lat": 28.613895, "lon": 77.209006, "p": "v"}, {"n": "Dum Pukht", "cat": "eat", "tier": "Destination", "a": "Lutyens' / Central Delhi (ITC Maurya)", "d": "Regal Awadhi slow-cooking — the sealed-handi biryani and kakori kebabs that define Lucknowi grandeur in Delhi.", "lat": 28.596634, "lon": 77.137021, "p": "v"}, {"n": "Le Cirque", "cat": "eat", "tier": "Destination", "a": "Lutyens' / Central Delhi (The Leela Palace New Delhi)", "d": "The reimagined Franco-Italian icon atop The Leela Palace — the most polished European fine-dining room in the capital.", "lat": 28.618786, "lon": 77.217682, "p": "v"}, {"n": "INJA", "cat": "eat", "tier": "Fine", "a": "South Delhi (Sundar Nagar)", "d": "India-meets-Japan on the plate — a confident, playful fusion that has won both the lists and the room.", "lat": 28.613895, "lon": 77.209006, "p": "v"}, {"n": "Comorin", "cat": "eat", "tier": "Fine", "a": "Gurugram (Two Horizon Centre, DLF Phase 5)", "d": "Manish Mehrotra's all-day Indian comfort table — regional classics and unexpected combinations, with a serious bar.", "lat": 28.613895, "lon": 77.209006, "p": "v"}, {"n": "Megu", "cat": "eat", "tier": "Fine", "a": "Lutyens' / Central Delhi (The Leela Palace New Delhi)", "d": "Refined contemporary Japanese in The Leela Palace — sushi, robata and a hushed, grown-up room.", "lat": 28.613895, "lon": 77.209006, "p": "v"}, {"n": "Olive Bar & Kitchen", "cat": "eat", "tier": "Fine", "a": "South Delhi (Mehrauli, near Qutub)", "d": "Whitewashed Mediterranean courtyards beside the Qutub Minar — Delhi's original see-and-be-seen garden restaurant.", "lat": 28.591944, "lon": 77.161804, "p": "v"}, {"n": "Tres", "cat": "eat", "tier": "Fine", "a": "South Delhi (Lodhi Colony)", "d": "A long-running European bistro that quietly keeps its standards — honest, seasonal, unfussy cooking.", "lat": 28.584985, "lon": 77.071604, "p": "v"}, {"n": "Bhawan", "cat": "eat", "tier": "Smart", "a": "Gurugram (DLF)", "d": "A spirited take on regional Indian street and home cooking — bold, affordable and genuinely fun.", "lat": 28.623753, "lon": 77.232681, "p": "v"}, {"n": "Nisaba", "cat": "eat", "tier": "Fine", "a": "South Delhi (Humayun's Tomb Museum Complex)", "d": "Manish Mehrotra's first restaurant under his own name — a much-anticipated table set within the Humayun's Tomb complex.", "lat": 28.613895, "lon": 77.209006, "p": "v"}, {"n": "Karim's", "cat": "eat", "tier": "Casual", "a": "Old Delhi (Gali Kababian, Jama Masjid)", "d": "Since 1913 — the definitive Old Delhi Mughlai kitchen, from a family that once cooked for the last Mughal court.", "lat": 28.649429, "lon": 77.233741, "p": "v"}, {"n": "Qutub Minar & the Qutub Complex", "cat": "do", "tier": "", "a": "Mehrauli", "d": "The 73-metre fluted victory tower of 1193 is the tallest brick minaret in the world, ringed by the ruins of India's first mosque and the uncorroded 4th-century Iron Pillar. Come at opening hour with a private ASI-trained guide before the coach crowds arrive; it is a short drive from the Mehrauli boutique hotels and the perfect first read of Delhi's layered history.", "lat": 28.524785, "lon": 77.186223, "p": "v"}, {"n": "Humayun's Tomb", "cat": "do", "tier": "", "a": "Nizamuddin", "d": "The garden-tomb that rehearsed the Taj Mahal a century early — a red-sandstone and marble mausoleum floating in a formal charbagh, exquisitely restored by the Aga Khan Trust. Go in the low gold of late afternoon; it is the single most composed piece of Mughal architecture in the city and pairs naturally with an adjoining visit to Sunder Nursery and Nizamuddin.", "lat": 28.593014, "lon": 77.248272, "p": "v"}, {"n": "Red Fort (Lal Qila)", "cat": "do", "tier": "", "a": "Old Delhi", "d": "Shah Jahan's walled palace-city in red sandstone, from whose ramparts the Prime Minister addresses the nation each Independence Day. Walk the Diwan-i-Khas where the Peacock Throne once stood and the marble pavilions of the imperial harem; a good guide makes the faded splendour legible. Enter early to beat the heat and the queues at the Lahori Gate.", "lat": 28.671791, "lon": 77.277847, "p": "v"}, {"n": "Jama Masjid", "cat": "do", "tier": "", "a": "Old Delhi", "d": "India's largest mosque, Shah Jahan's final architectural flourish, its red-and-white courtyard holding twenty-five thousand worshippers beneath three marble domes. Climb the southern minaret for the definitive rooftop view over Old Delhi's sea of terraces. Dress modestly, remove shoes, and time a visit to fold into a Chandni Chowk food walk next door.", "lat": 28.618716, "lon": 77.210149, "p": "v"}, {"n": "Chandni Chowk", "cat": "do", "tier": "", "a": "Old Delhi", "d": "The 17th-century spine of Mughal Delhi — a delirium of jewellers, wedding-card printers, saree wholesalers and legendary food, laid out by Shah Jahan's daughter around a moonlit canal that is long gone. The civilised way to see it is a private morning walk or a cycle-rickshaw through the lanes, ending at Karim's or Paranthe Wali Gali; almost everything worth eating here is vegetarian-friendly.", "lat": 28.656406, "lon": 77.22545, "p": "v"}, {"n": "Khari Baoli Spice Market", "cat": "do", "tier": "", "a": "Old Delhi", "d": "Asia's largest wholesale spice market, trading in cardamom, saffron, dried fruit and chilli from sack-piled shopfronts since the 17th century — the air itself makes you sneeze. Go with a guide who can walk you up to a rooftop godown for the panorama and translate the grading of the saffron and the pistachios, then buy a kilo of the good stuff to carry home.", "lat": 28.657275, "lon": 77.220175, "p": "v"}, {"n": "Old Delhi Haveli Heritage Walk (Haveli Dharampura)", "cat": "do", "tier": "", "a": "Old Delhi", "d": "A meticulously restored late-Mughal mansion in the Shahjahanabad lanes, brought back from ruin over six years and now an award-winning heritage hotel with kathak evenings in its sandstone courtyard. A guided haveli walk decodes the vanishing domestic architecture of Old Delhi — jharokha balconies, carved brackets, hidden courtyards — best ended over a rooftop dinner above the rooftops.", "lat": 28.643483, "lon": 77.222742, "p": "a"}, {"n": "Lodhi Gardens", "cat": "do", "tier": "", "a": "Lutyens' Delhi", "d": "Ninety acres of landscaped calm scattered with the domed tombs of the 15th-century Sayyid and Lodhi sultans — Delhi's most beloved green room, where the city's elite walk their dogs at dawn. Come early for the birdsong and the light through the Bara Gumbad; it sits within a short walk of the Lodhi Hotel, Khan Market and the India International Centre.", "lat": 28.593619, "lon": 77.22014, "p": "v"}, {"n": "India Gate & Kartavya Path", "cat": "do", "tier": "", "a": "Lutyens' Delhi", "d": "Lutyens' 42-metre war memorial arch anchoring the grand ceremonial vista of the redesigned Kartavya Path (formerly Rajpath), sweeping up to Rashtrapati Bhavan. The lawns come alive on winter evenings with families and ice-cream carts; drive the axis after dark when the whole processional way is floodlit, or stroll it at dusk from a Lutyens' Delhi hotel.", "lat": 28.613836, "lon": 77.21044, "p": "v"}, {"n": "Rashtrapati Bhavan", "cat": "do", "tier": "", "a": "Lutyens' Delhi", "d": "Lutyens' colossal presidential palace — 340 rooms crowning Raisina Hill, a fusion of classical and Indian idioms that is arguably the grandest work of the Raj. Book ahead for the guided circuit of the state rooms and the Rashtrapati Bhavan Museum; the whole imperial city of New Delhi radiates from here, and it reads best with a historian at your side.", "lat": 28.614359, "lon": 77.199589, "p": "v"}, {"n": "Amrit Udyan (the Mughal Gardens)", "cat": "do", "tier": "", "a": "Lutyens' Delhi", "d": "The formal terraced gardens behind Rashtrapati Bhavan — Persian charbagh geometry, a rose garden and a bonsai collection — thrown open to the public only in spring, when the tulips and the flowerbeds peak. Entry is free but slotted, from roughly February to March; book online, go on a weekday morning, and treat it as a seasonal event rather than a year-round stop.", "lat": 28.602505, "lon": 77.227931, "p": "a"}, {"n": "Swaminarayan Akshardham", "cat": "do", "tier": "", "a": "East Delhi", "d": "A staggering pink-sandstone and marble temple carved by eleven thousand artisans without structural steel, ringed by a musical fountain, boat ride and manicured gardens on the Yamuna's east bank. Recognised by Guinness as the world's largest comprehensive Hindu temple. Allow half a day, note that phones and bags are barred inside, and know the vegetarian food court is genuinely good.", "lat": 28.612517, "lon": 77.277318, "p": "v"}, {"n": "Lotus Temple (Bahá'í House of Worship)", "cat": "do", "tier": "", "a": "Kalkaji", "d": "Twenty-seven marble 'petals' folding into a serene lotus, one of the most-visited buildings on earth and a modern architectural landmark open to all faiths for silent meditation. Come near closing for the softest light on the white shell and the quietest hall; it sits a short hop from the Kalkaji temples and Nehru Place, and asks only stillness of its visitors.", "lat": 28.555517, "lon": 77.263497, "p": "a"}, {"n": "Gurudwara Bangla Sahib", "cat": "do", "tier": "", "a": "Connaught Place", "d": "The most visited Sikh shrine in Delhi, its golden dome mirrored in a vast holy tank, with round-the-clock hymns and a langar kitchen that feeds tens of thousands free every day. Cover your head, walk through the sarovar, and if you can, step into the community kitchen to watch the sheer scale of the seva — it is one of the city's most moving sights, and entirely vegetarian.", "lat": 28.626481, "lon": 77.208875, "p": "v"}, {"n": "Hazrat Nizamuddin Dargah", "cat": "do", "tier": "", "a": "Nizamuddin", "d": "The 14th-century Sufi shrine of Nizamuddin Auliya, still the beating spiritual heart of a warren of medieval lanes — and on Thursday evenings the setting for live qawwali that has run in an unbroken tradition for centuries. Go with a knowledgeable guide, cover your head, and sit for the Thursday qawwali; the intensity of the devotion here is unlike anywhere else in Delhi.", "lat": 28.59227, "lon": 77.241717, "p": "v"}, {"n": "Safdarjung's Tomb", "cat": "do", "tier": "", "a": "Lutyens' Delhi", "d": "The last great garden-tomb of the Mughals, built in 1754 in a slightly overblown late style that historians call the empire's 'last flicker' — a domed marble mausoleum in a quiet charbagh that most visitors skip. That is exactly its charm: a serene, uncrowded stop minutes from Lodhi Gardens, ideal for a photographer or anyone who wants the Mughal aesthetic without the queues.", "lat": 28.59003, "lon": 77.21081, "p": "v"}, {"n": "National Museum", "cat": "do", "tier": "", "a": "Lutyens' Delhi", "d": "India's premier collection — Harappan artefacts including the 4,500-year-old bronze Dancing Girl, Chola bronzes, Mughal miniatures, and relics of the Buddha. It is under long-term redevelopment, so check current access, but a private curator-led tour of the highlights gives the deepest single grounding in the subcontinent's art you can get in one building.", "lat": 28.611915, "lon": 77.219639, "p": "v"}, {"n": "National Gallery of Modern Art", "cat": "do", "tier": "", "a": "Lutyens' Delhi", "d": "Housed in the former palace of the Maharaja of Jaipur near India Gate, this is the country's foremost collection of modern Indian art — Raja Ravi Varma, the Bengal School, Amrita Sher-Gil, the Progressives. A calm, well-lit couple of hours that maps the arc of Indian modernism, and an easy pairing with Bikaner House across the hexagon.", "lat": 28.609633, "lon": 77.234176, "p": "v"}, {"n": "Sunder Nursery", "cat": "do", "tier": "", "a": "Nizamuddin", "d": "A 90-acre 16th-century heritage park beside Humayun's Tomb, restored by the Aga Khan Trust into Delhi's first arboretum, with Mughal-era monuments, lily pools, a rose garden and over three hundred tree species. It is the most beautifully kept green space in the city — come for a slow morning, a picnic on the lawns, and the Sunday farmers' market when it runs.", "lat": 28.59691, "lon": 77.247019, "p": "v"}, {"n": "National Crafts Museum (Crafts Museum)", "cat": "do", "tier": "", "a": "Pragati Maidan", "d": "A living museum of Indian folk and tribal craft — terracotta shrines, a full carved Gujarati haveli facade, textiles and votive art — with resident master artisans demonstrating and selling their work in the courtyards. It is a discreet, deeply rewarding stop for anyone who collects, and the on-site Café Lota is one of the best regional-Indian lunches in the city.", "lat": 28.613909, "lon": 77.242296, "p": "v"}, {"n": "Hauz Khas Village & Lake", "cat": "do", "tier": "", "a": "South Delhi", "d": "A 13th-century royal reservoir and the ruins of Firoz Shah's madrasa and tomb, wrapped by a deer park — and abutting an urban village of design boutiques, galleries and rooftop restaurants. Come late afternoon: the medieval monuments glow over the lake, then the lanes turn to shopping and cocktails. A rare place where deep history and contemporary Delhi sit side by side.", "lat": 28.553367, "lon": 77.194849, "p": "v"}, {"n": "Dilli Haat (INA)", "cat": "do", "tier": "", "a": "South Delhi", "d": "A permanent open-air crafts and food bazaar where artisans from every state rotate through the stalls, so you can buy Kashmiri pashmina, Channapatna toys or Odisha ikat direct from the maker without the tout-heavy chaos of a street market. Regional food stalls let you eat your way across India in an afternoon; good for gifts and for a relaxed, curated shop.", "lat": 28.574169, "lon": 77.209271, "p": "v"}, {"n": "Khan Market", "cat": "do", "tier": "", "a": "Lutyens' Delhi", "d": "Reputedly among the most expensive retail streets in the world, this compact Lutyens' market is Delhi's most civilised shopping enclave — Good Earth and Anokhi for home and textiles, Full Circle bookshop, Fabindia, artisanal patisseries and quietly excellent restaurants above the shopfronts. The default afternoon for well-heeled Delhi, walkable from the Lodhi and Sujan hotels.", "lat": 28.599131, "lon": 77.226254, "p": "v"}, {"n": "Mehrauli Archaeological Park", "cat": "do", "tier": "", "a": "Mehrauli", "d": "A sprawling, semi-wild park layering a thousand years of ruins — the Jamali-Kamali mosque and tomb, Balban's tomb, stepwells and Metcalfe's colonial folly — almost none of it ticketed or crowded. Go with a heritage guide and stout shoes; it is the connoisseur's counterpoint to the polished Qutub complex next door, best for a cool-season morning.", "lat": 28.521238, "lon": 77.185862, "p": "v"}, {"n": "Agrasen ki Baoli", "cat": "do", "tier": "", "a": "Connaught Place", "d": "A dramatic 60-metre stepwell of 108 stone steps descending into shadow, hidden among the high-rises off Connaught Place — atmospheric, faintly eerie and beloved of photographers and film crews. A quick, striking stop between Lutyens' sights; go early before the Instagram crowd fills the steps, and let the sheer geometry of the descent do its work.", "lat": 28.626068, "lon": 77.225011, "p": "v"}, {"n": "Bikaner House", "cat": "do", "tier": "", "a": "Lutyens' Delhi", "d": "The restored Delhi residence of the Maharaja of Bikaner at the India Gate hexagon, now a serious contemporary-arts venue hosting the city's best rotating gallery shows, design fairs and a satellite programme during India Art Fair week. Time a visit to whatever exhibition is up, then lunch at Chor Bizarre or L'Opéra on the premises; entry to the galleries is free.", "lat": 28.609107, "lon": 77.229629, "p": "v"}, {"n": "Kiran Nadar Museum of Art (KNMA)", "cat": "do", "tier": "", "a": "Saket", "d": "India's leading private art museum, holding one of the finest collections of modern and contemporary Indian art — Husain, Gaitonde, Sher-Gil and a strong contemporary program — with free entry and ambitious curation. A polished, air-conditioned hour or two for serious art-lovers; a landmark new building near the airport is in the works, so the Saket galleries are the current home.", "lat": 28.528876, "lon": 77.220374, "p": "v"}, {"n": "Chhatarpur Temple (Shri Adya Katyayani Shakti Peeth)", "cat": "do", "tier": "", "a": "Chhatarpur", "d": "One of India's largest temple complexes, a sprawling white confection of carved marble and pink sandstone shrines set in gardens on Delhi's southern edge, thronged especially during Navratri. It is a study in the exuberance of modern Hindu temple-building rather than antiquity — a striking, uncrowded-by-tourist stop en route to or from the Qutub and Mehrauli.", "lat": 28.503128, "lon": 77.180676, "p": "v"}, {"n": "Purana Qila (Old Fort)", "cat": "do", "tier": "", "a": "Central Delhi", "d": "The massive walls of the sixteenth-century citadel of Sher Shah Suri and Humayun, said to sit on the legendary site of Indraprastha of the Mahabharata — with a graceful mosque, an octagonal library tower, and archaeological digs that keep pushing Delhi's history deeper. Quiet, monumental, and beside the Delhi Zoo; go early and let the ramparts and the boating lake set the mood.", "lat": 28.608653, "lon": 77.241763, "p": "v"}, {"n": "Jantar Mantar", "cat": "do", "tier": "", "a": "Connaught Place", "d": "Maharaja Jai Singh II's masterful astronomical instruments of 1724 — giant masonry sundials and celestial dials built to chart the heavens with the naked eye — standing in a garden minutes from Connaught Place. A short, cerebral stop that rewards a guide who can explain how each surreal red structure actually measures time and the stars.", "lat": 28.627179, "lon": 77.216617, "p": "v"}, {"n": "Gandhi Smriti (Birla House)", "cat": "do", "tier": "", "a": "Lutyens' Delhi", "d": "The house where Mahatma Gandhi spent his last 144 days and was assassinated in 1948, preserved as a moving memorial with his spartan room left as it was and his final footsteps marked across the garden. A quiet, essential half-hour of modern Indian history, close to the Lutyens' hotels and often paired with the National Gandhi Museum near Raj Ghat.", "lat": 28.601854, "lon": 77.21439, "p": "v"}, {"n": "Raj Ghat", "cat": "do", "tier": "", "a": "Central Delhi", "d": "The riverside memorial marking Gandhi's cremation — a simple black marble platform, an eternal flame and a lawn where visiting heads of state come to lay wreaths. Understated and contemplative; slip your shoes off, and pair it with the nearby memorials to India's other prime ministers along the Yamuna if the mood is reflective.", "lat": 28.644154, "lon": 77.249838, "p": "v"}, {"n": "Old Delhi Food Walk", "cat": "do", "tier": "", "a": "Old Delhi", "d": "A guided crawl through the alleys around Chandni Chowk and Jama Masjid — Mughlai kebabs and nihari, jalebis fried in ghee, kachoris, kulfi and Karim's — is the tastiest single day in Delhi. Book a reputable private walk that curates the hygienic legends; vegetarian and Jain-friendly itineraries are easy to arrange, from Paranthe Wali Gali to the sweet shops of Ghantewala's heirs.", "lat": 28.643483, "lon": 77.222742, "p": "v"}, {"n": "Nizamuddin & Nizamuddin East Walk", "cat": "do", "tier": "", "a": "Nizamuddin", "d": "A single walkable knot holds the Dargah, the tomb of the poet Amir Khusrau, Ghalib's memorial, Chausath Khamba and the exquisite Barapula-era monuments — seven centuries of Sufi Delhi in a few hundred metres. The Aga Khan Trust's neighbourhood renewal has made it navigable; a specialist guide turns the tangle into one of the richest heritage walks in India.", "lat": 28.589667, "lon": 77.250385, "p": "v"}, {"n": "Jama Masjid to Feroz Shah Kotla", "cat": "do", "tier": "", "a": "Central Delhi", "d": "The ruined fourteenth-century citadel of Feroz Shah Tughlaq, crowned by a polished Ashokan pillar the sultan hauled from Ambala and re-erected — and famous today for the crowds who leave letters to the djinns in its cellars every Thursday. An offbeat, atmospheric ruin for those who have done the headline forts and want the stranger Delhi.", "lat": 28.641926, "lon": 77.22175, "p": "a"}, {"n": "Sulabh International Museum of Toilets", "cat": "do", "tier": "", "a": "Palam Dabri", "d": "One of the world's genuinely unusual museums, tracing 4,500 years of sanitation from Harappan drains to ornate Victorian commodes — quirky, oddly fascinating, and regularly listed among the strangest museums on earth. A short, memorable detour with children or the incurably curious; not everyone's stop, but nobody forgets it.", "lat": 28.596977, "lon": 77.080636, "p": "v"}, {"n": "Garden of Five Senses", "cat": "do", "tier": "", "a": "Saidul Ajaib", "d": "A twenty-acre landscaped park near Mehrauli threaded with sculpture, themed gardens, terraced rockeries and an evening food-and-shopping plaza — designed for wandering rather than monument-ticking. A relaxed sunset stroll, popular with Delhi families, and an easy add-on when you are already out at the Qutub or Chhatarpur.", "lat": 28.513772, "lon": 77.198345, "p": "v"}, {"n": "Sarojini Nagar & Janpath Markets", "cat": "do", "tier": "", "a": "South & Central Delhi", "d": "The city's great bargain bazaars — Sarojini for export-surplus fashion at a fraction of retail, Janpath for Rajasthani textiles, silver and trinkets. Not luxury, but a gleefully local thing to do: send an assistant or go with a savvy friend, haggle hard, and come away with a bag of finds. A fun counterweight to a Khan Market afternoon.", "lat": 28.575817, "lon": 77.198079, "p": "v"}, {"n": "Kingsway Camp & Coronation Park", "cat": "do", "tier": "", "a": "North Delhi", "d": "The forlorn field where the 1911 Delhi Durbar crowned George V, now a haunting open-air graveyard of exiled Raj statues — a colossal George V, viceroys and generals — banished from the city centre after Independence. Utterly offbeat and a little melancholy; a stop for history obsessives and photographers rather than the casual visitor.", "lat": 28.698052, "lon": 77.204384, "p": "v"}, {"n": "Mathura & Vrindavan Day Trip", "cat": "do", "tier": "", "a": "Day trip — Braj", "d": "The birthplace of Krishna and the town of his youth, a cluster of thousands of temples and ghats about three to four hours south of Delhi — most intense during the Holi celebrations, which are legendary here. A private car and a temple-savvy guide make the crowds manageable; go for the living devotion, the Banke Bihari temple and the evening aarti on the Yamuna.", "lat": 28.514997, "lon": 77.205458, "p": "a"}, {"n": "Sultanpur National Park & Bird Sanctuary", "cat": "do", "tier": "", "a": "Day trip — Gurugram", "d": "A compact wetland reserve about an hour from central Delhi that draws migratory flamingos, pelicans, storks and hundreds of species through the winter months. An easy, gentle morning with binoculars and a naturalist for birders and multi-generational groups wanting green quiet near the city; best from November to March.", "lat": 28.460014, "lon": 76.888971, "p": "v"}, {"n": "Cycle Tour of New Delhi at Dawn", "cat": "do", "tier": "", "a": "Lutyens' Delhi", "d": "Before the city wakes, a guided cycle through the empty avenues of Lutyens' Delhi and the sleeping lanes of Old Delhi — past Rashtrapati Bhavan, the war memorial and the wholesale bazaars stirring to life — is the most magical way to feel the two Delhis. Operators provide good bikes and small groups; the cool air and empty roads make it worth the early alarm.", "lat": 28.602505, "lon": 77.227931, "p": "a"}, {"n": "Lair", "cat": "party", "tier": "Cocktail bars", "a": "South Delhi (Vasant Kunj, Ambience Mall)", "d": "A moody basement speakeasy with a Funktion-One system and a tiered menu — India's best bar, in Asia's top ten.", "lat": 28.613895, "lon": 77.209006, "p": "v"}, {"n": "Sidecar", "cat": "party", "tier": "Cocktail bars", "a": "South Delhi (Greater Kailash II, M-Block Market)", "d": "Yangdup Lama and Minakshi Singh's modern classic — the first Indian bar to make both Asia's and the World's 50 Best.", "lat": 28.613895, "lon": 77.209006, "p": "v"}, {"n": "Home", "cat": "party", "tier": "Cocktail bars", "a": "South Delhi (Vasant Kunj)", "d": "A multi-room drinking den that helped put Delhi on the regional bar map — inventive, homey and full of ideas.", "lat": 28.614771, "lon": 77.206357, "p": "v"}, {"n": "PCO (Pass Code Only)", "cat": "party", "tier": "Cocktail bars", "a": "South Delhi (Vasant Vihar)", "d": "The faux phone-booth speakeasy that started Delhi's hidden-bar movement in 2012 — still one of its most stylish rooms.", "lat": 28.58268, "lon": 77.169648, "p": "a"}, {"n": "1911 Bar", "cat": "party", "tier": "Landmark bars", "a": "Lutyens' / Central Delhi (The Imperial)", "d": "The colonnaded colonial-era bar at The Imperial — rare whiskies beneath 1930s Lutyens grandeur.", "lat": 28.641926, "lon": 77.22175, "p": "v"}, {"n": "Cirrus 9", "cat": "party", "tier": "Rooftops", "a": "Lutyens' / Central Delhi (The Oberoi, New Delhi)", "d": "The Oberoi's rooftop bar — city-light views, careful cocktails and the calm precision of the house.", "lat": 28.574272, "lon": 77.065332, "p": "v"}]}
+{
+  "center": [
+    28.613895,
+    77.209006
+  ],
+  "venues": [
+    {
+      "n": "The Oberoi, New Delhi",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Lutyens' / Central Delhi (Dr Zakir Hussain Marg)",
+      "d": "Delhi's flagship Oberoi, reborn after a top-to-toe rebuild \u2014 serene rooms above the golf course and Humayun's Tomb.",
+      "lat": 28.596533,
+      "lon": 77.239815,
+      "photos": []
+    },
+    {
+      "n": "The Leela Palace New Delhi",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Lutyens' / Central Delhi (Chanakyapuri, Diplomatic Enclave)",
+      "d": "A gold-domed modern palace in the Diplomatic Enclave \u2014 the grandest new-build luxury house in the capital.",
+      "lat": 28.579918,
+      "lon": 77.189261,
+      "photos": []
+    },
+    {
+      "n": "The Imperial",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Lutyens' / Central Delhi (Janpath)",
+      "d": "1936 Lutyens grandeur \u2014 colonnades, palm court and one of India's great art collections on the walls.",
+      "lat": 28.633034,
+      "lon": 77.222669,
+      "photos": []
+    },
+    {
+      "n": "Taj Mahal, New Delhi",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Lutyens' / Central Delhi (Man Singh Road)",
+      "d": "The Taj's Lutyens address \u2014 discreet, well-placed and home to the legendary Wasabi and House of Ming.",
+      "lat": 28.604757,
+      "lon": 77.223484,
+      "photos": []
+    },
+    {
+      "n": "The Lodhi",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "South Delhi (Lodhi Road)",
+      "d": "Big, contemporary rooms \u2014 many with private plunge pools \u2014 in a green, low-rise pocket of central Delhi.",
+      "lat": 28.591526,
+      "lon": 77.238125,
+      "photos": []
+    },
+    {
+      "n": "Andaz Delhi",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Aerocity (near IGI Airport)",
+      "d": "Design-led Hyatt Andaz minutes from the terminals \u2014 the sharpest of the airport-side luxury houses.",
+      "lat": 28.554229,
+      "lon": 77.121513,
+      "photos": []
+    },
+    {
+      "n": "Taj Palace, New Delhi",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Lutyens' / Central Delhi (Sardar Patel Marg, Diplomatic Enclave)",
+      "d": "A vast garden-set Taj in the Diplomatic Enclave \u2014 built for scale, conferences and big Indian celebrations.",
+      "lat": 28.595491,
+      "lon": 77.170589,
+      "photos": []
+    },
+    {
+      "n": "Indian Accent",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "South Delhi (The Lodhi)",
+      "d": "India's most celebrated modern-Indian table \u2014 inventive, vegetable-forward cooking that reads the country back to itself.",
+      "lat": 28.591759,
+      "lon": 77.237903,
+      "photos": []
+    },
+    {
+      "n": "Bukhara",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Lutyens' / Central Delhi (ITC Maurya)",
+      "d": "The legendary North-West Frontier grill since 1979 \u2014 dal Bukhara and tandoori meats that have fed presidents and champions.",
+      "lat": 28.613895,
+      "lon": 77.209006,
+      "photos": []
+    },
+    {
+      "n": "Dum Pukht",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Lutyens' / Central Delhi (ITC Maurya)",
+      "d": "Regal Awadhi slow-cooking \u2014 the sealed-handi biryani and kakori kebabs that define Lucknowi grandeur in Delhi.",
+      "lat": 28.596634,
+      "lon": 77.137021,
+      "photos": []
+    },
+    {
+      "n": "Le Cirque",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Lutyens' / Central Delhi (The Leela Palace New Delhi)",
+      "d": "The reimagined Franco-Italian icon atop The Leela Palace \u2014 the most polished European fine-dining room in the capital.",
+      "lat": 28.618786,
+      "lon": 77.217682,
+      "photos": []
+    },
+    {
+      "n": "INJA",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "South Delhi (Sundar Nagar)",
+      "d": "India-meets-Japan on the plate \u2014 a confident, playful fusion that has won both the lists and the room.",
+      "lat": 28.613895,
+      "lon": 77.209006,
+      "photos": []
+    },
+    {
+      "n": "Comorin",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Gurugram (Two Horizon Centre, DLF Phase 5)",
+      "d": "Manish Mehrotra's all-day Indian comfort table \u2014 regional classics and unexpected combinations, with a serious bar.",
+      "lat": 28.613895,
+      "lon": 77.209006,
+      "photos": []
+    },
+    {
+      "n": "Megu",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Lutyens' / Central Delhi (The Leela Palace New Delhi)",
+      "d": "Refined contemporary Japanese in The Leela Palace \u2014 sushi, robata and a hushed, grown-up room.",
+      "lat": 28.613895,
+      "lon": 77.209006,
+      "photos": []
+    },
+    {
+      "n": "Olive Bar & Kitchen",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "South Delhi (Mehrauli, near Qutub)",
+      "d": "Whitewashed Mediterranean courtyards beside the Qutub Minar \u2014 Delhi's original see-and-be-seen garden restaurant.",
+      "lat": 28.591944,
+      "lon": 77.161804,
+      "photos": []
+    },
+    {
+      "n": "Tres",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "South Delhi (Lodhi Colony)",
+      "d": "A long-running European bistro that quietly keeps its standards \u2014 honest, seasonal, unfussy cooking.",
+      "lat": 28.584985,
+      "lon": 77.071604,
+      "photos": []
+    },
+    {
+      "n": "Bhawan",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Gurugram (DLF)",
+      "d": "A spirited take on regional Indian street and home cooking \u2014 bold, affordable and genuinely fun.",
+      "lat": 28.623753,
+      "lon": 77.232681,
+      "photos": []
+    },
+    {
+      "n": "Nisaba",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "South Delhi (Humayun's Tomb Museum Complex)",
+      "d": "Manish Mehrotra's first restaurant under his own name \u2014 a much-anticipated table set within the Humayun's Tomb complex.",
+      "lat": 28.613895,
+      "lon": 77.209006,
+      "photos": []
+    },
+    {
+      "n": "Karim's",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Old Delhi (Gali Kababian, Jama Masjid)",
+      "d": "Since 1913 \u2014 the definitive Old Delhi Mughlai kitchen, from a family that once cooked for the last Mughal court.",
+      "lat": 28.649429,
+      "lon": 77.233741,
+      "photos": []
+    },
+    {
+      "n": "Qutub Minar & the Qutub Complex",
+      "cat": "do",
+      "tier": "",
+      "a": "Mehrauli",
+      "d": "The 73-metre fluted victory tower of 1193 is the tallest brick minaret in the world, ringed by the ruins of India's first mosque and the uncorroded 4th-century Iron Pillar. Come at opening hour with a private ASI-trained guide before the coach crowds arrive; it is a short drive from the Mehrauli boutique hotels and the perfect first read of Delhi's layered history.",
+      "lat": 28.524785,
+      "lon": 77.186223,
+      "photos": []
+    },
+    {
+      "n": "Humayun's Tomb",
+      "cat": "do",
+      "tier": "",
+      "a": "Nizamuddin",
+      "d": "The garden-tomb that rehearsed the Taj Mahal a century early \u2014 a red-sandstone and marble mausoleum floating in a formal charbagh, exquisitely restored by the Aga Khan Trust. Go in the low gold of late afternoon; it is the single most composed piece of Mughal architecture in the city and pairs naturally with an adjoining visit to Sunder Nursery and Nizamuddin.",
+      "lat": 28.593014,
+      "lon": 77.248272,
+      "photos": []
+    },
+    {
+      "n": "Red Fort (Lal Qila)",
+      "cat": "do",
+      "tier": "",
+      "a": "Old Delhi",
+      "d": "Shah Jahan's walled palace-city in red sandstone, from whose ramparts the Prime Minister addresses the nation each Independence Day. Walk the Diwan-i-Khas where the Peacock Throne once stood and the marble pavilions of the imperial harem; a good guide makes the faded splendour legible. Enter early to beat the heat and the queues at the Lahori Gate.",
+      "lat": 28.671791,
+      "lon": 77.277847,
+      "photos": []
+    },
+    {
+      "n": "Jama Masjid",
+      "cat": "do",
+      "tier": "",
+      "a": "Old Delhi",
+      "d": "India's largest mosque, Shah Jahan's final architectural flourish, its red-and-white courtyard holding twenty-five thousand worshippers beneath three marble domes. Climb the southern minaret for the definitive rooftop view over Old Delhi's sea of terraces. Dress modestly, remove shoes, and time a visit to fold into a Chandni Chowk food walk next door.",
+      "lat": 28.618716,
+      "lon": 77.210149,
+      "photos": []
+    },
+    {
+      "n": "Chandni Chowk",
+      "cat": "do",
+      "tier": "",
+      "a": "Old Delhi",
+      "d": "The 17th-century spine of Mughal Delhi \u2014 a delirium of jewellers, wedding-card printers, saree wholesalers and legendary food, laid out by Shah Jahan's daughter around a moonlit canal that is long gone. The civilised way to see it is a private morning walk or a cycle-rickshaw through the lanes, ending at Karim's or Paranthe Wali Gali; almost everything worth eating here is vegetarian-friendly.",
+      "lat": 28.656406,
+      "lon": 77.22545,
+      "photos": []
+    },
+    {
+      "n": "Khari Baoli Spice Market",
+      "cat": "do",
+      "tier": "",
+      "a": "Old Delhi",
+      "d": "Asia's largest wholesale spice market, trading in cardamom, saffron, dried fruit and chilli from sack-piled shopfronts since the 17th century \u2014 the air itself makes you sneeze. Go with a guide who can walk you up to a rooftop godown for the panorama and translate the grading of the saffron and the pistachios, then buy a kilo of the good stuff to carry home.",
+      "lat": 28.657275,
+      "lon": 77.220175,
+      "photos": []
+    },
+    {
+      "n": "Old Delhi Haveli Heritage Walk (Haveli Dharampura)",
+      "cat": "do",
+      "tier": "",
+      "a": "Old Delhi",
+      "d": "A meticulously restored late-Mughal mansion in the Shahjahanabad lanes, brought back from ruin over six years and now an award-winning heritage hotel with kathak evenings in its sandstone courtyard. A guided haveli walk decodes the vanishing domestic architecture of Old Delhi \u2014 jharokha balconies, carved brackets, hidden courtyards \u2014 best ended over a rooftop dinner above the rooftops.",
+      "lat": 28.643483,
+      "lon": 77.222742,
+      "photos": []
+    },
+    {
+      "n": "Lodhi Gardens",
+      "cat": "do",
+      "tier": "",
+      "a": "Lutyens' Delhi",
+      "d": "Ninety acres of landscaped calm scattered with the domed tombs of the 15th-century Sayyid and Lodhi sultans \u2014 Delhi's most beloved green room, where the city's elite walk their dogs at dawn. Come early for the birdsong and the light through the Bara Gumbad; it sits within a short walk of the Lodhi Hotel, Khan Market and the India International Centre.",
+      "lat": 28.593619,
+      "lon": 77.22014,
+      "photos": []
+    },
+    {
+      "n": "India Gate & Kartavya Path",
+      "cat": "do",
+      "tier": "",
+      "a": "Lutyens' Delhi",
+      "d": "Lutyens' 42-metre war memorial arch anchoring the grand ceremonial vista of the redesigned Kartavya Path (formerly Rajpath), sweeping up to Rashtrapati Bhavan. The lawns come alive on winter evenings with families and ice-cream carts; drive the axis after dark when the whole processional way is floodlit, or stroll it at dusk from a Lutyens' Delhi hotel.",
+      "lat": 28.613836,
+      "lon": 77.21044,
+      "photos": []
+    },
+    {
+      "n": "Rashtrapati Bhavan",
+      "cat": "do",
+      "tier": "",
+      "a": "Lutyens' Delhi",
+      "d": "Lutyens' colossal presidential palace \u2014 340 rooms crowning Raisina Hill, a fusion of classical and Indian idioms that is arguably the grandest work of the Raj. Book ahead for the guided circuit of the state rooms and the Rashtrapati Bhavan Museum; the whole imperial city of New Delhi radiates from here, and it reads best with a historian at your side.",
+      "lat": 28.614359,
+      "lon": 77.199589,
+      "photos": []
+    },
+    {
+      "n": "Amrit Udyan (the Mughal Gardens)",
+      "cat": "do",
+      "tier": "",
+      "a": "Lutyens' Delhi",
+      "d": "The formal terraced gardens behind Rashtrapati Bhavan \u2014 Persian charbagh geometry, a rose garden and a bonsai collection \u2014 thrown open to the public only in spring, when the tulips and the flowerbeds peak. Entry is free but slotted, from roughly February to March; book online, go on a weekday morning, and treat it as a seasonal event rather than a year-round stop.",
+      "lat": 28.602505,
+      "lon": 77.227931,
+      "photos": []
+    },
+    {
+      "n": "Swaminarayan Akshardham",
+      "cat": "do",
+      "tier": "",
+      "a": "East Delhi",
+      "d": "A staggering pink-sandstone and marble temple carved by eleven thousand artisans without structural steel, ringed by a musical fountain, boat ride and manicured gardens on the Yamuna's east bank. Recognised by Guinness as the world's largest comprehensive Hindu temple. Allow half a day, note that phones and bags are barred inside, and know the vegetarian food court is genuinely good.",
+      "lat": 28.612517,
+      "lon": 77.277318,
+      "photos": []
+    },
+    {
+      "n": "Lotus Temple (Bah\u00e1'\u00ed House of Worship)",
+      "cat": "do",
+      "tier": "",
+      "a": "Kalkaji",
+      "d": "Twenty-seven marble 'petals' folding into a serene lotus, one of the most-visited buildings on earth and a modern architectural landmark open to all faiths for silent meditation. Come near closing for the softest light on the white shell and the quietest hall; it sits a short hop from the Kalkaji temples and Nehru Place, and asks only stillness of its visitors.",
+      "lat": 28.555517,
+      "lon": 77.263497,
+      "photos": []
+    },
+    {
+      "n": "Gurudwara Bangla Sahib",
+      "cat": "do",
+      "tier": "",
+      "a": "Connaught Place",
+      "d": "The most visited Sikh shrine in Delhi, its golden dome mirrored in a vast holy tank, with round-the-clock hymns and a langar kitchen that feeds tens of thousands free every day. Cover your head, walk through the sarovar, and if you can, step into the community kitchen to watch the sheer scale of the seva \u2014 it is one of the city's most moving sights, and entirely vegetarian.",
+      "lat": 28.626481,
+      "lon": 77.208875,
+      "photos": []
+    },
+    {
+      "n": "Hazrat Nizamuddin Dargah",
+      "cat": "do",
+      "tier": "",
+      "a": "Nizamuddin",
+      "d": "The 14th-century Sufi shrine of Nizamuddin Auliya, still the beating spiritual heart of a warren of medieval lanes \u2014 and on Thursday evenings the setting for live qawwali that has run in an unbroken tradition for centuries. Go with a knowledgeable guide, cover your head, and sit for the Thursday qawwali; the intensity of the devotion here is unlike anywhere else in Delhi.",
+      "lat": 28.59227,
+      "lon": 77.241717,
+      "photos": []
+    },
+    {
+      "n": "Safdarjung's Tomb",
+      "cat": "do",
+      "tier": "",
+      "a": "Lutyens' Delhi",
+      "d": "The last great garden-tomb of the Mughals, built in 1754 in a slightly overblown late style that historians call the empire's 'last flicker' \u2014 a domed marble mausoleum in a quiet charbagh that most visitors skip. That is exactly its charm: a serene, uncrowded stop minutes from Lodhi Gardens, ideal for a photographer or anyone who wants the Mughal aesthetic without the queues.",
+      "lat": 28.59003,
+      "lon": 77.21081,
+      "photos": []
+    },
+    {
+      "n": "National Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Lutyens' Delhi",
+      "d": "India's premier collection \u2014 Harappan artefacts including the 4,500-year-old bronze Dancing Girl, Chola bronzes, Mughal miniatures, and relics of the Buddha. It is under long-term redevelopment, so check current access, but a private curator-led tour of the highlights gives the deepest single grounding in the subcontinent's art you can get in one building.",
+      "lat": 28.611915,
+      "lon": 77.219639,
+      "photos": []
+    },
+    {
+      "n": "National Gallery of Modern Art",
+      "cat": "do",
+      "tier": "",
+      "a": "Lutyens' Delhi",
+      "d": "Housed in the former palace of the Maharaja of Jaipur near India Gate, this is the country's foremost collection of modern Indian art \u2014 Raja Ravi Varma, the Bengal School, Amrita Sher-Gil, the Progressives. A calm, well-lit couple of hours that maps the arc of Indian modernism, and an easy pairing with Bikaner House across the hexagon.",
+      "lat": 28.609633,
+      "lon": 77.234176,
+      "photos": []
+    },
+    {
+      "n": "Sunder Nursery",
+      "cat": "do",
+      "tier": "",
+      "a": "Nizamuddin",
+      "d": "A 90-acre 16th-century heritage park beside Humayun's Tomb, restored by the Aga Khan Trust into Delhi's first arboretum, with Mughal-era monuments, lily pools, a rose garden and over three hundred tree species. It is the most beautifully kept green space in the city \u2014 come for a slow morning, a picnic on the lawns, and the Sunday farmers' market when it runs.",
+      "lat": 28.59691,
+      "lon": 77.247019,
+      "photos": []
+    },
+    {
+      "n": "National Crafts Museum (Crafts Museum)",
+      "cat": "do",
+      "tier": "",
+      "a": "Pragati Maidan",
+      "d": "A living museum of Indian folk and tribal craft \u2014 terracotta shrines, a full carved Gujarati haveli facade, textiles and votive art \u2014 with resident master artisans demonstrating and selling their work in the courtyards. It is a discreet, deeply rewarding stop for anyone who collects, and the on-site Caf\u00e9 Lota is one of the best regional-Indian lunches in the city.",
+      "lat": 28.613909,
+      "lon": 77.242296,
+      "photos": []
+    },
+    {
+      "n": "Hauz Khas Village & Lake",
+      "cat": "do",
+      "tier": "",
+      "a": "South Delhi",
+      "d": "A 13th-century royal reservoir and the ruins of Firoz Shah's madrasa and tomb, wrapped by a deer park \u2014 and abutting an urban village of design boutiques, galleries and rooftop restaurants. Come late afternoon: the medieval monuments glow over the lake, then the lanes turn to shopping and cocktails. A rare place where deep history and contemporary Delhi sit side by side.",
+      "lat": 28.553367,
+      "lon": 77.194849,
+      "photos": []
+    },
+    {
+      "n": "Dilli Haat (INA)",
+      "cat": "do",
+      "tier": "",
+      "a": "South Delhi",
+      "d": "A permanent open-air crafts and food bazaar where artisans from every state rotate through the stalls, so you can buy Kashmiri pashmina, Channapatna toys or Odisha ikat direct from the maker without the tout-heavy chaos of a street market. Regional food stalls let you eat your way across India in an afternoon; good for gifts and for a relaxed, curated shop.",
+      "lat": 28.574169,
+      "lon": 77.209271,
+      "photos": []
+    },
+    {
+      "n": "Khan Market",
+      "cat": "do",
+      "tier": "",
+      "a": "Lutyens' Delhi",
+      "d": "Reputedly among the most expensive retail streets in the world, this compact Lutyens' market is Delhi's most civilised shopping enclave \u2014 Good Earth and Anokhi for home and textiles, Full Circle bookshop, Fabindia, artisanal patisseries and quietly excellent restaurants above the shopfronts. The default afternoon for well-heeled Delhi, walkable from the Lodhi and Sujan hotels.",
+      "lat": 28.599131,
+      "lon": 77.226254,
+      "photos": []
+    },
+    {
+      "n": "Mehrauli Archaeological Park",
+      "cat": "do",
+      "tier": "",
+      "a": "Mehrauli",
+      "d": "A sprawling, semi-wild park layering a thousand years of ruins \u2014 the Jamali-Kamali mosque and tomb, Balban's tomb, stepwells and Metcalfe's colonial folly \u2014 almost none of it ticketed or crowded. Go with a heritage guide and stout shoes; it is the connoisseur's counterpoint to the polished Qutub complex next door, best for a cool-season morning.",
+      "lat": 28.521238,
+      "lon": 77.185862,
+      "photos": []
+    },
+    {
+      "n": "Agrasen ki Baoli",
+      "cat": "do",
+      "tier": "",
+      "a": "Connaught Place",
+      "d": "A dramatic 60-metre stepwell of 108 stone steps descending into shadow, hidden among the high-rises off Connaught Place \u2014 atmospheric, faintly eerie and beloved of photographers and film crews. A quick, striking stop between Lutyens' sights; go early before the Instagram crowd fills the steps, and let the sheer geometry of the descent do its work.",
+      "lat": 28.626068,
+      "lon": 77.225011,
+      "photos": []
+    },
+    {
+      "n": "Bikaner House",
+      "cat": "do",
+      "tier": "",
+      "a": "Lutyens' Delhi",
+      "d": "The restored Delhi residence of the Maharaja of Bikaner at the India Gate hexagon, now a serious contemporary-arts venue hosting the city's best rotating gallery shows, design fairs and a satellite programme during India Art Fair week. Time a visit to whatever exhibition is up, then lunch at Chor Bizarre or L'Op\u00e9ra on the premises; entry to the galleries is free.",
+      "lat": 28.609107,
+      "lon": 77.229629,
+      "photos": []
+    },
+    {
+      "n": "Kiran Nadar Museum of Art (KNMA)",
+      "cat": "do",
+      "tier": "",
+      "a": "Saket",
+      "d": "India's leading private art museum, holding one of the finest collections of modern and contemporary Indian art \u2014 Husain, Gaitonde, Sher-Gil and a strong contemporary program \u2014 with free entry and ambitious curation. A polished, air-conditioned hour or two for serious art-lovers; a landmark new building near the airport is in the works, so the Saket galleries are the current home.",
+      "lat": 28.528876,
+      "lon": 77.220374,
+      "photos": []
+    },
+    {
+      "n": "Chhatarpur Temple (Shri Adya Katyayani Shakti Peeth)",
+      "cat": "do",
+      "tier": "",
+      "a": "Chhatarpur",
+      "d": "One of India's largest temple complexes, a sprawling white confection of carved marble and pink sandstone shrines set in gardens on Delhi's southern edge, thronged especially during Navratri. It is a study in the exuberance of modern Hindu temple-building rather than antiquity \u2014 a striking, uncrowded-by-tourist stop en route to or from the Qutub and Mehrauli.",
+      "lat": 28.503128,
+      "lon": 77.180676,
+      "photos": []
+    },
+    {
+      "n": "Purana Qila (Old Fort)",
+      "cat": "do",
+      "tier": "",
+      "a": "Central Delhi",
+      "d": "The massive walls of the sixteenth-century citadel of Sher Shah Suri and Humayun, said to sit on the legendary site of Indraprastha of the Mahabharata \u2014 with a graceful mosque, an octagonal library tower, and archaeological digs that keep pushing Delhi's history deeper. Quiet, monumental, and beside the Delhi Zoo; go early and let the ramparts and the boating lake set the mood.",
+      "lat": 28.608653,
+      "lon": 77.241763,
+      "photos": []
+    },
+    {
+      "n": "Jantar Mantar",
+      "cat": "do",
+      "tier": "",
+      "a": "Connaught Place",
+      "d": "Maharaja Jai Singh II's masterful astronomical instruments of 1724 \u2014 giant masonry sundials and celestial dials built to chart the heavens with the naked eye \u2014 standing in a garden minutes from Connaught Place. A short, cerebral stop that rewards a guide who can explain how each surreal red structure actually measures time and the stars.",
+      "lat": 28.627179,
+      "lon": 77.216617,
+      "photos": []
+    },
+    {
+      "n": "Gandhi Smriti (Birla House)",
+      "cat": "do",
+      "tier": "",
+      "a": "Lutyens' Delhi",
+      "d": "The house where Mahatma Gandhi spent his last 144 days and was assassinated in 1948, preserved as a moving memorial with his spartan room left as it was and his final footsteps marked across the garden. A quiet, essential half-hour of modern Indian history, close to the Lutyens' hotels and often paired with the National Gandhi Museum near Raj Ghat.",
+      "lat": 28.601854,
+      "lon": 77.21439,
+      "photos": []
+    },
+    {
+      "n": "Raj Ghat",
+      "cat": "do",
+      "tier": "",
+      "a": "Central Delhi",
+      "d": "The riverside memorial marking Gandhi's cremation \u2014 a simple black marble platform, an eternal flame and a lawn where visiting heads of state come to lay wreaths. Understated and contemplative; slip your shoes off, and pair it with the nearby memorials to India's other prime ministers along the Yamuna if the mood is reflective.",
+      "lat": 28.644154,
+      "lon": 77.249838,
+      "photos": []
+    },
+    {
+      "n": "Old Delhi Food Walk",
+      "cat": "do",
+      "tier": "",
+      "a": "Old Delhi",
+      "d": "A guided crawl through the alleys around Chandni Chowk and Jama Masjid \u2014 Mughlai kebabs and nihari, jalebis fried in ghee, kachoris, kulfi and Karim's \u2014 is the tastiest single day in Delhi. Book a reputable private walk that curates the hygienic legends; vegetarian and Jain-friendly itineraries are easy to arrange, from Paranthe Wali Gali to the sweet shops of Ghantewala's heirs.",
+      "lat": 28.643483,
+      "lon": 77.222742,
+      "photos": []
+    },
+    {
+      "n": "Nizamuddin & Nizamuddin East Walk",
+      "cat": "do",
+      "tier": "",
+      "a": "Nizamuddin",
+      "d": "A single walkable knot holds the Dargah, the tomb of the poet Amir Khusrau, Ghalib's memorial, Chausath Khamba and the exquisite Barapula-era monuments \u2014 seven centuries of Sufi Delhi in a few hundred metres. The Aga Khan Trust's neighbourhood renewal has made it navigable; a specialist guide turns the tangle into one of the richest heritage walks in India.",
+      "lat": 28.589667,
+      "lon": 77.250385,
+      "photos": []
+    },
+    {
+      "n": "Jama Masjid to Feroz Shah Kotla",
+      "cat": "do",
+      "tier": "",
+      "a": "Central Delhi",
+      "d": "The ruined fourteenth-century citadel of Feroz Shah Tughlaq, crowned by a polished Ashokan pillar the sultan hauled from Ambala and re-erected \u2014 and famous today for the crowds who leave letters to the djinns in its cellars every Thursday. An offbeat, atmospheric ruin for those who have done the headline forts and want the stranger Delhi.",
+      "lat": 28.641926,
+      "lon": 77.22175,
+      "photos": []
+    },
+    {
+      "n": "Sulabh International Museum of Toilets",
+      "cat": "do",
+      "tier": "",
+      "a": "Palam Dabri",
+      "d": "One of the world's genuinely unusual museums, tracing 4,500 years of sanitation from Harappan drains to ornate Victorian commodes \u2014 quirky, oddly fascinating, and regularly listed among the strangest museums on earth. A short, memorable detour with children or the incurably curious; not everyone's stop, but nobody forgets it.",
+      "lat": 28.596977,
+      "lon": 77.080636,
+      "photos": []
+    },
+    {
+      "n": "Garden of Five Senses",
+      "cat": "do",
+      "tier": "",
+      "a": "Saidul Ajaib",
+      "d": "A twenty-acre landscaped park near Mehrauli threaded with sculpture, themed gardens, terraced rockeries and an evening food-and-shopping plaza \u2014 designed for wandering rather than monument-ticking. A relaxed sunset stroll, popular with Delhi families, and an easy add-on when you are already out at the Qutub or Chhatarpur.",
+      "lat": 28.513772,
+      "lon": 77.198345,
+      "photos": []
+    },
+    {
+      "n": "Sarojini Nagar & Janpath Markets",
+      "cat": "do",
+      "tier": "",
+      "a": "South & Central Delhi",
+      "d": "The city's great bargain bazaars \u2014 Sarojini for export-surplus fashion at a fraction of retail, Janpath for Rajasthani textiles, silver and trinkets. Not luxury, but a gleefully local thing to do: send an assistant or go with a savvy friend, haggle hard, and come away with a bag of finds. A fun counterweight to a Khan Market afternoon.",
+      "lat": 28.575817,
+      "lon": 77.198079,
+      "photos": []
+    },
+    {
+      "n": "Kingsway Camp & Coronation Park",
+      "cat": "do",
+      "tier": "",
+      "a": "North Delhi",
+      "d": "The forlorn field where the 1911 Delhi Durbar crowned George V, now a haunting open-air graveyard of exiled Raj statues \u2014 a colossal George V, viceroys and generals \u2014 banished from the city centre after Independence. Utterly offbeat and a little melancholy; a stop for history obsessives and photographers rather than the casual visitor.",
+      "lat": 28.698052,
+      "lon": 77.204384,
+      "photos": []
+    },
+    {
+      "n": "Mathura & Vrindavan Day Trip",
+      "cat": "do",
+      "tier": "",
+      "a": "Day trip \u2014 Braj",
+      "d": "The birthplace of Krishna and the town of his youth, a cluster of thousands of temples and ghats about three to four hours south of Delhi \u2014 most intense during the Holi celebrations, which are legendary here. A private car and a temple-savvy guide make the crowds manageable; go for the living devotion, the Banke Bihari temple and the evening aarti on the Yamuna.",
+      "lat": 28.514997,
+      "lon": 77.205458,
+      "photos": []
+    },
+    {
+      "n": "Sultanpur National Park & Bird Sanctuary",
+      "cat": "do",
+      "tier": "",
+      "a": "Day trip \u2014 Gurugram",
+      "d": "A compact wetland reserve about an hour from central Delhi that draws migratory flamingos, pelicans, storks and hundreds of species through the winter months. An easy, gentle morning with binoculars and a naturalist for birders and multi-generational groups wanting green quiet near the city; best from November to March.",
+      "lat": 28.460014,
+      "lon": 76.888971,
+      "photos": []
+    },
+    {
+      "n": "Cycle Tour of New Delhi at Dawn",
+      "cat": "do",
+      "tier": "",
+      "a": "Lutyens' Delhi",
+      "d": "Before the city wakes, a guided cycle through the empty avenues of Lutyens' Delhi and the sleeping lanes of Old Delhi \u2014 past Rashtrapati Bhavan, the war memorial and the wholesale bazaars stirring to life \u2014 is the most magical way to feel the two Delhis. Operators provide good bikes and small groups; the cool air and empty roads make it worth the early alarm.",
+      "lat": 28.602505,
+      "lon": 77.227931,
+      "photos": []
+    },
+    {
+      "n": "Lair",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "South Delhi (Vasant Kunj, Ambience Mall)",
+      "d": "A moody basement speakeasy with a Funktion-One system and a tiered menu \u2014 India's best bar, in Asia's top ten.",
+      "lat": 28.613895,
+      "lon": 77.209006,
+      "photos": []
+    },
+    {
+      "n": "Sidecar",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "South Delhi (Greater Kailash II, M-Block Market)",
+      "d": "Yangdup Lama and Minakshi Singh's modern classic \u2014 the first Indian bar to make both Asia's and the World's 50 Best.",
+      "lat": 28.613895,
+      "lon": 77.209006,
+      "photos": []
+    },
+    {
+      "n": "Home",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "South Delhi (Vasant Kunj)",
+      "d": "A multi-room drinking den that helped put Delhi on the regional bar map \u2014 inventive, homey and full of ideas.",
+      "lat": 28.614771,
+      "lon": 77.206357,
+      "photos": []
+    },
+    {
+      "n": "PCO (Pass Code Only)",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "South Delhi (Vasant Vihar)",
+      "d": "The faux phone-booth speakeasy that started Delhi's hidden-bar movement in 2012 \u2014 still one of its most stylish rooms.",
+      "lat": 28.58268,
+      "lon": 77.169648,
+      "photos": []
+    },
+    {
+      "n": "1911 Bar",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "Lutyens' / Central Delhi (The Imperial)",
+      "d": "The colonnaded colonial-era bar at The Imperial \u2014 rare whiskies beneath 1930s Lutyens grandeur.",
+      "lat": 28.641926,
+      "lon": 77.22175,
+      "photos": []
+    },
+    {
+      "n": "Cirrus 9",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "Lutyens' / Central Delhi (The Oberoi, New Delhi)",
+      "d": "The Oberoi's rooftop bar \u2014 city-light views, careful cocktails and the calm precision of the house.",
+      "lat": 28.574272,
+      "lon": 77.065332,
+      "photos": []
+    }
+  ]
+}

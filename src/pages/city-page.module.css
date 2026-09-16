@@ -2,6 +2,80 @@
  * byte-identical across all 110 files (verified), so this is genuinely
  * shared template CSS, not per-city data. Not in css/site.css. */
 
+ /* The Plan section's own CTA ("Have your advisor arrange the stay") —
+    site.css's shared .btn-gold is background:transparent at rest, color:
+    var(--ink) throughout. Explicit #1A1714/white colors here instead, so
+    both states stay correct regardless of site theme. Selectors combine
+    :global(.btn-gold) with the local .plan-cta (rather than .plan-cta
+    alone) specifically to outrank site.css's own
+    :root[data-theme="dark"] .btn-gold{color:var(--ink)} rule — that's the
+    SAME specificity as .btn-gold.plan-cta (an attribute selector counts
+    the same as a class), and site.css's own load order won the tie, which
+    was making this text nearly invisible (var(--ink) is a light cream in
+    dark theme). !important on color/background removes any doubt
+    regardless of load order.
+
+    Hover fill targets .btn-gold:hover directly (background:var(--ink)),
+    not ::before — .btn-gold's own older sweep-fill pseudo-element trick is
+    hidden site-wide via a later, unrelated `.btn-gold::before{display:none
+    !important}` rule elsewhere in site.css (superseded by this plain
+    background-transition hover, the one actually live today), so an
+    ::before override here would be completely inert. */
+ :global(.btn-gold).plan-cta{background:#fff!important;color:#1A1714!important}
+ :global(.btn-gold).plan-cta:hover{background:#CE8C9A!important;color:#fff!important}
+
+ /* Light theme only — black fill/light text, unchanged by hover (no pink
+    fill here; dark theme above keeps its white-idle/pink-hover treatment). */
+ :root:not([data-theme="dark"]) :global(.btn-gold).plan-cta,
+ :root:not([data-theme="dark"]) :global(.btn-gold).plan-cta:hover{background:#1A1714!important;color:#F1ECE3!important}
+
+ /* Same idle/hover text-scale as .hero-cta. The arrow needs to grow WITH the
+    text as one visual unit, not as a sibling scaling independently off the
+    anchor's own ::after (site.css's .btn-square::after) — that arrow's
+    translateX slide-in is positioned relative to the unscaled label, so
+    once the label's transform grows it the two drift apart/overlap instead
+    of reading as one block. Simpler: suppress site.css's ::after here and
+    render the arrow as a real child of the same scaled label span instead,
+    revealing via opacity/translateX exactly like the original did. */
+ :global(.btn-gold).plan-cta::after{display:none!important}
+ .plan-cta-label{display:inline-flex;align-items:center;gap:8px;transform:scale(1);transition:transform .4s var(--ease)}
+ :global(.btn-gold).plan-cta:hover .plan-cta-label{transform:scale(1.1)}
+ .plan-cta-arrow{display:inline-block;opacity:0;transform:translateX(-6px);transition:opacity .4s var(--ease-lux,var(--ease)),transform .4s var(--ease-lux,var(--ease))}
+ :global(.btn-gold).plan-cta:hover .plan-cta-arrow{opacity:1;transform:translateX(2px)}
+
+ /* The hero's own primary CTA ("Plan Santorini") — same white fill and dark
+    text at rest as .plan-cta above (site.css's .btn-gold.on-dark is
+    transparent with white text, meant for an outline button over a photo).
+    Fill/color stay exactly the same on hover — no fill reveal, just the
+    text itself. Same technique as the Guide cards' own text column
+    (.card-body: scale(1.08) at rest, settling to scale(1) on hover) but
+    reversed: small at rest, full-size on hover, so the label reads as
+    "growing" rather than "settling". transform, not letter-spacing/margin,
+    specifically because it never affects layout — the button's own box
+    can't be pushed wider by it, unlike the margin-based attempt before
+    this (visible growing-button bug) or a letter-spacing one (blocked by
+    site.css's .btn{letter-spacing:.14em!important} on this same element
+    anyway). site.css's own .btn-square::after arrow is suppressed here in
+    favour of the same child-of-the-scaled-label arrow used by .plan-cta —
+    a sibling pseudo-element positioned off the unscaled label would drift
+    apart from it once the label grows. */
+ :global(.btn-gold.on-dark).hero-cta{background:#fff!important;color:#1A1714!important}
+ :global(.btn-gold.on-dark).hero-cta::after{display:none!important}
+ .hero-cta-label{display:inline-flex;align-items:center;gap:8px;transform:scale(1);transition:transform .4s var(--ease)}
+ :global(.btn-gold.on-dark).hero-cta:hover .hero-cta-label{transform:scale(1.1)}
+ .hero-cta-arrow{display:inline-block;opacity:0;transform:translateX(-6px);transition:opacity .4s var(--ease),transform .4s var(--ease)}
+ :global(.btn-gold.on-dark).hero-cta:hover .hero-cta-arrow{opacity:1;transform:translateX(2px)}
+
+ /* The hero's secondary CTA ("Guide") — same idle/hover text-scale and
+    arrow-in-label treatment as .hero-cta above, sharing its .hero-cta-label
+    and .hero-cta-arrow rules. Unlike the primary button, this one keeps its
+    existing fill-on-hover (site.css's .btn-ghost.on-dark:hover{background:
+    rgba(255,255,255,.1)}) untouched — the scale/arrow are added on top of
+    that, not instead of it; it has no site.css ::after to suppress since
+    .btn-ghost never had one. */
+ .hero-cta-secondary:hover .hero-cta-label{transform:scale(1.1)}
+ .hero-cta-secondary:hover .hero-cta-arrow{opacity:1;transform:translateX(2px)}
+
  :global(.city-hero){position:relative;min-height:82svh;display:flex;align-items:flex-end;color:#fff;background-size:cover;background-position:center;background-color:#15110d}
  :global(.city-hero)::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.28) 0%,transparent 26%,transparent 42%,rgba(0,0,0,.72) 100%)}
  :global(.city-hero) :global(.wrap){position:relative;z-index:2;width:100%;text-align:left;padding-bottom:clamp(38px,5.5vh,74px)}
@@ -28,19 +102,28 @@
  .ch-fact .fv{display:block;font-family:var(--logo);font-weight:500;font-size:clamp(17px,1.6vw,21px);line-height:1.1;color:#fff;text-shadow:0 1px 3px rgba(0,0,0,.5)}
  .ch-fact .fv small{font-family:var(--fr);font-weight:500;font-size:12px;letter-spacing:.02em;color:rgba(255,255,255,.8)}
  @media(max-width:720px){.ch-fact{padding-right:20px;margin-right:20px}.ch-facts{gap:6px 0}}
- /* when-to-go extras */
- .wm-callout{display:flex;align-items:baseline;justify-content:center;gap:12px;margin:0 auto 20px;font-family:var(--fr)}
- .wm-co-k{font-weight:600;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--signature)}
- .wm-co-v{font-family:var(--logo);font-weight:500;font-size:clamp(17px,1.7vw,21px);color:var(--ink)}
- :global(.wm-row){display:flex;flex-wrap:wrap;gap:8px;justify-content:center;max-width:680px;margin:0 auto}
+ /* When to go / What's on now render via CalendarSection.tsx (its own
+    module has the pill-strip and blurb styles) instead of inline here —
+    only the two CityPage-only rules above that block used are gone.
+    The :global(.wm)/.wm-row/.wm1/.wm2 rules below are kept as-is, still
+    unused by CityPage itself now, because BrowsePage.tsx also renders a
+    bare className="wm" — since these are :global() (unscoped) rules, they
+    bleed into the shared CSS bundle regardless of which page's module
+    declared them, and BrowsePage's own module (browse-page.module.css)
+    only overrides them under its own .wtg-card ancestor, so it's still
+    relying on a base definition existing somewhere. */
+ :global(.wm-row){display:flex;flex-wrap:wrap;gap:8px}
  :global(.wm){font-family:var(--fr);font-weight:600;font-size:12px;letter-spacing:.04em;padding:9px 15px;border-radius:999px;border:1px solid var(--line);color:var(--stone)}
  :global(.wm):global(.wm2){background:var(--accent-2);border-color:var(--accent-2);color:#fff}
  :global(.wm):global(.wm1){border-color:var(--accent-2);color:var(--accent-2)}
- :global(.wm-key){display:flex;gap:24px;justify-content:center;margin-top:22px;font-family:var(--fr);font-size:12.5px;color:var(--stone)}
- :global(.wm-key) i{display:inline-block;width:11px;height:11px;border-radius:50%;margin-right:7px;vertical-align:-1px}
- :global(.wm-key) i:global(.wm2){background:var(--accent-2)}:global(.wm-key) i:global(.wm1){border:1px solid var(--accent-2)}
  /* perfect-if / skip-if */
- .ta-fit{display:grid;grid-template-columns:1fr 1fr;gap:clamp(18px,3vw,44px);margin-top:clamp(30px,3.4vw,46px)}
+ /* minmax(0,1fr), not plain 1fr: a bare 1fr track defaults to
+    minmax(auto,1fr), so it won't shrink below its content's natural width —
+    harmless at full page width, but inside the narrower 55% info column
+    (see .ta-split below) that forces the grid wider than its column and
+    spills the overflow out past it, under the sticky map. Same reasoning
+    for .cg-list and .ta-day-b further down. */
+ .ta-fit{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(18px,3vw,44px);margin-top:clamp(30px,3.4vw,46px)}
  .ta-fit-col .fit-k{font-family:var(--fr);font-weight:600;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--signature);display:flex;align-items:center;gap:9px;margin-bottom:12px}
  .ta-fit-col.skip .fit-k{color:var(--stone)}
  .ta-fit-col .fit-k i{width:20px;height:1px;background:currentColor;display:inline-block}
@@ -48,8 +131,19 @@
  .ta-fit-col.skip p{color:var(--ink-soft)}
  @media(max-width:680px){.ta-fit{grid-template-columns:1fr;gap:26px}}
  /* cinematic first-look band */
- .ta-look{padding:0}
- .ta-look-hero{position:relative;height:clamp(360px,52vh,640px);background-size:cover;background-position:center;background-color:#15110d}
+ /* 100px of margin-bottom below is this section's own height reduction
+    (clamp(200-320px) -> clamp(100-220px), via the calc() inside .ta-look-hero's
+    own height) turned into an explicit gap instead — a real, visible
+    boundary between this section and When to go, rather than the two
+    sitting flush against each other with the hand-off between them
+    depending on exactly where this section's own (often near-blank —
+    Santorini's photo is bright/pale) hero photo happens to end. */
+ .ta-look{padding:0;margin-bottom:100px}
+ /* Was clamp(360-640px) — sized for a full-page-width hero photo. Squeezed
+    into this split layout's 55% column, that same height reads as a wall of
+    near-empty space (Santorini's own photo is bright/pale, so it barely
+    registers as content at a glance) between Our take and When to go. */
+ .ta-look-hero{position:relative;height:clamp(100px,calc(26vh - 100px),220px);background-size:cover;background-position:center;background-color:#15110d}
  .ta-look-hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 55%,rgba(0,0,0,.55))}
  .ta-look-cap{position:absolute;left:0;right:0;bottom:0;z-index:2;padding:clamp(22px,3vw,40px) var(--gutter)}
  .ta-look-cap span{font-family:var(--fr);font-weight:500;font-size:13px;letter-spacing:.02em;color:rgba(255,255,255,.92);text-shadow:0 1px 3px rgba(0,0,0,.6)}
@@ -67,6 +161,257 @@
  .ta-col-link:hover{border-color:var(--accent-2);color:var(--accent-2);transform:translateY(-1px)}
  .ta-col-all{color:var(--accent-2);border-color:transparent;background:transparent}
  .ta-col-all:hover{transform:none;text-decoration:underline;text-underline-offset:3px}
+ /* info/map split (hero -> end of "The plan", before neighbourhoods).
+    Deliberately NOT inside .wrap (unlike almost everything else on this
+    page) — the map needs to bleed to the real viewport edge on the right,
+    top and bottom, while the text column keeps the site's normal left
+    gutter. .wrap itself can't do a one-sided bleed like that (it pads and
+    centers symmetrically), so .ta-split-info reproduces just its left
+    inset by hand: .wrap's content starts at .wrap's own left padding
+    (--gutter) plus, once the viewport exceeds --maxw, half of the extra
+    space that spills outside the (centered, margin:auto) wrap box. */
+ .ta-split{display:flex;align-items:flex-start;gap:clamp(48px,6vw,96px)}
+ /* margin-left for the inset (not padding) so it positions the column
+    without eating into its own max-width content budget. */
+ .ta-split-info{flex:1 1 auto;min-width:0;max-width:620px;margin-left:calc(max(0px, (100vw - var(--maxw)) / 2) + var(--gutter));padding-top:64px;padding-bottom:40px}
+ /* .ta-day-b (the plan's morning/afternoon/evening columns) is a shared
+    global class — also used full-width on HealthPage, where its bare 1fr
+    tracks are harmless. Scoped here only, where the narrower info column
+    (the plan stays inside the split, unlike the guide below) needs
+    minmax(0,1fr) tracks so it doesn't overflow past it (same reasoning as
+    .ta-fit above). */
+ .ta-split-info :global(.ta-day-b){grid-template-columns:repeat(3,minmax(0,1fr))}
+ /* .cg-cred (each credential badge) is white-space:nowrap in site.css — some
+    of these strings (e.g. Grace Hotel's "Travel + Leisure World's Best
+    Awards 2025 — No. 1 Resort in Europe, No. 1 Resort in Greece, No. 16
+    Hotel in the World", 117 characters) are wide enough to overflow even a
+    full-width .cg-list column, not just the narrower split one — turned out
+    not to be split-specific, so it's scoped to .ta-guide generally rather
+    than to .ta-split-info. */
+ /* One sticky container for the guide's tabs row + the active panel's tier
+    chips (rendered together in CityPage.tsx) — the container itself is
+    what's pinned and padded, not each row individually, so the 12px gap
+    above/below and the gap between the two rows stays fixed regardless of
+    where either row happens to sit in the (often long, once a list is
+    expanded via "Show all") scrolling content beneath it. 88px clears the
+    fixed site nav (64px, or 96px with the announcement bar) with a little
+    breathing room; opaque background since content scrolls underneath. */
+ /* margin-top: the gap between the intro text above (.cg-head, inside the
+    same .wrap) and this bar — separate from the 28px gap between this
+    bar's own two rows (tabs, tier chips) above. */
+ .guide-sticky{position:sticky;top:0;z-index:6;background:var(--paper);padding:12px 0;margin-top:32px;margin-bottom:clamp(24px,3vw,36px);display:flex;flex-direction:column;gap:28px}
+ /* .cg-tabs's own site.css margin (meant for when it sat directly in normal
+    flow) would otherwise stack on top of .guide-sticky's own padding/gap,
+    doubling the spacing now that the wrapper is the one setting it. */
+ .guide-sticky :global(.cg-tabs){margin:0}
+ /* Its `height` is set inline from CityPage.tsx (measured content height
+    minus 520px) — overflow stays visible (the default) so the real content
+    still renders past this box's now-deliberately-short official edge;
+    that shortened edge is exactly what makes the sticky bar inside release
+    520px before the list's true end, natively and smoothly. */
+ .guide-list-wrap{position:relative;overflow:visible}
+ /* Was white-space:normal (letting long credential strings wrap) — now
+    truncated to one line instead, so every card's content settles to the
+    same fixed height (1-line name, 1-line tag, 2-line description below)
+    regardless of how long any one field's text happens to be. That fixed
+    height is what the thumbnail square is sized from (GuideCard in
+    CityPage.tsx) — bounding every field to a known line count is what
+    keeps that height constant across cards instead of one long credential
+    or description silently making a single card (and its square) taller
+    than its neighbors. */
+ /* padding 2px 9px (site.css: 3px 9px) so the badge fits inside .cg-creds'
+    own 19.5px slot (see its comment below) without visibly overflowing. */
+ :global(.ta-guide .cg-cred){white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%;display:inline-block;vertical-align:top;cursor:help;padding:2px 9px}
+ /* ULTRA/GRAND/LUXURY/PREMIUM tier labels: a full-width divider underneath —
+    .tl is a block-level div already, so a border-bottom on it spans the
+    entire .ta-guide width (margin to margin) with no extra markup needed.
+    .cg-tier .tl is also used on DestinationPage, so scoped to .ta-guide. */
+ :global(.ta-guide .cg-tier .tl){border-bottom:1px solid var(--line);padding-bottom:12px}
+ /* Guide list entries (hotels/tables/sights/nightlife): were divided by a
+    thin border-top between rows — now each is its own rectangular
+    container instead, set apart by a fill + row gap rather than a line, and
+    deliberately no border/outline of its own. .cg-list/.cg-list li are also
+    used on DestinationPage, so scoped to .ta-guide. */
+ :global(.ta-guide .cg-list){row-gap:16px}
+ /* The li's own box (padding, height) is constant at all times — margin or
+    padding changes on hover were what caused the grid to reflow and
+    reorder, since those actually resize the box in normal flow. No padding
+    of its own any more (moved onto .card-body below) — the thumbnail sits
+    flush against this box's true edges, filling its full height with no
+    inset gap around it. */
+ :global(.ta-guide .cg-list li){border-top:0;background:transparent;padding:0;overflow:hidden;transition:background-color .9s cubic-bezier(0.4,0,0.2,1)}
+ :global(.ta-guide .cg-list li:hover){background:var(--paper-2)}
+ /* Two independent boxes: the thumbnail (constant, flush, never reacts to
+    hover) and the text column (its own "fills the box, settles inward"
+    reveal, below). Not stretch+aspect-ratio for the thumbnail — a flex/grid
+    item can't reliably derive an auto main-size from a stretched
+    cross-size that way when the sibling's own height depends on how much
+    room the square leaves it to wrap text in; that circular dependency
+    blew up into oversized, overlapping squares when tried. GuideCard in
+    CityPage.tsx measures the text column's real rendered height (including
+    its own padding — see .card-body) in JS instead and sets the square's
+    width/height from that directly, capped at MAX_THUMB_SIZE for the same
+    circular-dependency reason. The 64px here is only the fallback before
+    that first measurement lands. */
+ .card-inner{display:grid;grid-template-columns:auto 1fr;align-items:start;gap:16px}
+ .card-thumb-wrap{width:150px;height:150px;position:relative;flex:none;border-radius:8px;overflow:hidden;background:var(--bone)}
+ .card-thumb{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+ /* The text column's own reveal, now that the li itself carries no padding:
+    a fixed 20px inset on the three edges away from the thumbnail (top,
+    right, bottom — nothing on the left, that's the gap to the thumbnail),
+    which .card-body scales up and over at rest so the text reads as
+    edge-to-edge with no padding, easing down to its natural size on hover
+    to reveal that inset as a gutter around it, filled by the li's own
+    background-color transition above. A transform, not a padding/margin
+    change, because those resize the box in normal flow and would
+    reflow/reorder the list; a transform never does. transform-origin is
+    the left edge, vertically centered (not the default center, and not the
+    top-left corner either — that grew the box down-and-right from a fixed
+    top-left point, which visually ate into the bottom padding but left the
+    top padding untouched, reading as uneven top/bottom gaps even though
+    they're the same 20px). Anchoring vertically centered instead grows the
+    box evenly up and down, so both gaps shrink by the same amount. */
+ .card-body{min-width:0;padding:20px 20px 20px 0;transform:scale(1.08);transform-origin:0 50%;transition:transform .9s cubic-bezier(0.4,0,0.2,1)}
+ :global(.ta-guide .cg-list li:hover) .card-body{transform:scale(1)}
+ /* Location (e.g. "Oia", "Imerovigli") moved from beside the name to its own
+    line below the description, with a leading pin icon.
+
+    margin-top is the release valve for the +2px gap increases above (title
+    →tag, tag→description, and title→description-with-no-tag): widening
+    those by 2px each adds 4px total to a tagged card (two wider gaps) but
+    only 2px to an untagged one (one wider gap), so this gap gives back
+    exactly that much — 4px here (10px -> 6px) for a tagged card,
+    .item-location-wide's 2px (10px -> 8px) for an untagged one — to keep
+    every card's total height (and its square) matching regardless of
+    whether it has a tag. */
+ .item-location{display:flex;align-items:center;gap:5px;margin-top:6px;font-family:var(--fr);font-weight:600;font-size:10px;letter-spacing:.13em;text-transform:uppercase;color:var(--stone)}
+ .item-location.item-location-wide{margin-top:8px}
+ .item-location svg{flex:none}
+
+ /* ULTRA/GRAND/LUXURY/PREMIUM as one row of fully-rounded filter chips
+    (replacing the old per-tier .tl divider) — single-select, like a
+    radio/tab group: picking one shows only that tier's block below.
+    Rendered inside .guide-sticky (above) alongside the guide's own tabs —
+    no sticky/offset positioning of its own anymore. */
+ .tier-chips{display:flex;flex-wrap:wrap;gap:10px}
+ .tier-chip{display:inline-flex;align-items:center;gap:7px;font-family:var(--fr);font-weight:600;font-size:11px;letter-spacing:.1em;text-transform:uppercase;padding:9px 18px;border-radius:999px;border:1px solid var(--line);background:none;color:var(--stone);cursor:pointer;transition:background-color .2s var(--ease),color .2s var(--ease),border-color .2s var(--ease)}
+ .tier-chip svg{flex:none;color:var(--signature)}
+ .tier-chip.active{background:var(--paper-2);border-color:var(--ink-soft);color:var(--ink)}
+ /* The guide (.ta-guide) now renders full-width, after the split. These are
+    deliberate size choices, not overflow fixes, so they stay in effect
+    regardless of column width — scoped to .ta-guide itself (not
+    .ta-split-info) so they keep applying now that it's outside the split.
+    .lede and .nm are shared global classes (also used elsewhere, e.g.
+    .ta-take's lede has its own more-specific !important override and stays
+    untouched, and .cg-list li .nm is also used on DestinationPage). */
+ :global(.ta-guide .lede){font-size:20px}
+ /* Title: 1 line, truncated — same fixed-height reasoning as .cg-cred
+    above (see its comment). .cg-nm-row wraps it and needs block/100%-width
+    too, or the ellipsis has no defined line box to truncate against. */
+ :global(.ta-guide .cg-list li .cg-nm-row){display:block}
+ :global(.ta-guide .cg-list li .nm){font-size:18px;display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+ /* Description: 2 lines, truncated via line-clamp — same reasoning.
+    margin-top:6px (site.css default: 4px) is the title→description gap for
+    the no-tag path specifically — .cg-creds+.ds below is more specific and
+    wins whenever a tag actually precedes it, so this value only take
+    effect when there's no tag. */
+ :global(.ta-guide .cg-list li .ds){font-size:13px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;margin-top:6px}
+ /* An item with no credential tag frees up that line's worth of vertical
+    space — given to the description (3 lines instead of 2) rather than
+    left blank, so every card ends up the same total height (and the same
+    square size) whether or not it happens to have a tag. .ds-extra (this
+    module's own local class, not :global — combined in CityPage.tsx as
+    `ds ${styles.dsExtra}`) needs to sit outside :global()'s parens, or it
+    would be treated as a literal global classname instead of resolving to
+    its hashed local one. */
+ :global(.ta-guide .cg-list li .ds).ds-extra{-webkit-line-clamp:3}
+ /* Swapping the tag for a 3rd description line (above) only equalizes
+    height if the tag row occupies exactly one description-line's worth of
+    vertical space, margin included. Rebuilt as a single 19.5px-tall slot
+    (matching .ds's own line-height) with the same lead-in margin .ds gets
+    in the no-tag path (6px, both +2px over the original 4px — see the
+    gap-widening comment on .item-location below) and 2px (also +2px over
+    the original 0) before .ds — so the tagged path (margin + one slot +
+    2px + 2 lines) and untagged path (margin + 3 lines) still add up to the
+    exact same total after the wider gaps. */
+ :global(.ta-guide .cg-list li .cg-creds){margin-top:6px;height:19.5px;align-items:center}
+ :global(.ta-guide .cg-list li .cg-creds+.ds){margin-top:2px}
+ /* The italic accent word in the guide's "Santorini, in hand." heading
+    (guide.headingHtml's embedded <span class="it">) — .it itself has no
+    font-size of its own, it just inherits the h2's clamp(30-56px); scoped to
+    only the guide's own h2 so no other .it usage on the page/site is
+    affected. */
+ :global(.ta-guide h2 .it){font-size:44px}
+ /* the split's own 64px top padding puts "Our take" 64px below the hero
+    already (its usual --sec band padding is zeroed here so that doesn't
+    stack a much larger gap on top) — then 12px more is added so it sits
+    12px below the map's own initial (pre-scroll) top edge, not flush with it.
+    Bottom padding is also cut down from --sec (118-280px) to 32px, and the
+    photo section + When to go's own top padding just below are trimmed the
+    same way — the three of those stacked was the "huge gap" between Our
+    take and When to go. */
+ .ta-split-info>:global(.ta-take){padding-top:12px;padding-bottom:32px}
+ .ta-split-info :global(.ta-when-go){padding-top:32px}
+ /* Full-bleed on three sides: flush to the very top (no gap under the
+    hero), flush to the true viewport right edge (flex:1, no max-width cap
+    — .ta-split-info's own margin-left is what keeps text from being
+    crowded, not a width limit on the map), and height:100vh so its bottom
+    edge is flush too, both at rest and once sticky (top:0). */
+ .ta-split-map{flex:1 1 auto;position:sticky;top:0;align-self:flex-start;height:100vh}
+ @media(max-width:900px){
+   .ta-split{flex-direction:column}
+   .ta-split-info{margin-left:0;max-width:100%;padding-left:var(--gutter);padding-right:var(--gutter);box-sizing:border-box}
+   .ta-split-info>:global(.ta-take){padding-top:var(--sec);padding-bottom:var(--sec)}
+   .ta-split-info :global(.ta-when-go){padding-top:clamp(60px,8vh,110px)}
+   .ta-split-map{position:static;flex-basis:auto;width:100%;height:60vh}
+ }
  /* pair-with */
  .ta-pair{font-family:var(--fr);font-size:15px;color:var(--ink-soft)}
  .ta-pair strong{font-family:var(--fr);font-weight:600;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--signature);margin-right:10px}
+
+ /* Good to know: "Before you go" (accordions) stacked above "On the ground"
+    (keyword cards) — replaces the old side-by-side .ta-prac-grid layout. */
+ .prac-section{margin-top:clamp(36px,4.4vw,56px)}
+ .prac-section:first-of-type{margin-top:0}
+ .prac-heading{font-family:var(--serif);font-weight:600;font-size:clamp(22px,2.4vw,30px);color:var(--ink);margin:0 0 18px}
+
+ .accordion-list{border-top:1px solid var(--line)}
+ .accordion-row{border-bottom:1px solid var(--line)}
+ .accordion-button{width:100%;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:18px 2px;background:none;border:0;cursor:pointer;text-align:left;font-family:var(--fr);font-weight:600;font-size:15px;color:var(--ink)}
+ .accordion-chevron{transition:transform .25s var(--ease);color:var(--stone);font-size:16px;flex:none}
+ .accordion-chevron.open{transform:rotate(180deg)}
+ .accordion-panel{padding:0 2px 20px;max-width:70ch;font-family:var(--fr);font-size:14.5px;line-height:1.65;color:var(--ink-soft)}
+
+ .card-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(14px,1.6vw,22px)}
+ @media(max-width:900px){.card-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+ @media(max-width:480px){.card-grid{grid-template-columns:1fr}}
+ .prac-card{border:1px solid var(--line);padding:clamp(18px,2vw,22px);background:var(--paper)}
+ .card-keyword{font-family:var(--serif);font-weight:500;font-size:clamp(17px,1.5vw,20px);line-height:1.25;color:var(--ink);margin:8px 0 10px}
+ .card-desc{font-family:var(--fr);font-size:14.5px;line-height:1.6;color:var(--ink-soft);margin:0}
+
+ /* "The plan": normal scroll, not scroll-hijacked/sticky, but its outer
+    section is still pinned to exactly the map's own height (+ 12px of
+    space above and below inside that same budget, box-sizing included) so
+    the two end at the same point — the map (.ta-split-map) unsticks right
+    where this section does, since its sticky range is bounded by
+    .ta-split-info's total height, which this box now matches precisely. */
+ .ta-split-info :global(.ta-itin){height:calc(100vh - 80px);box-sizing:border-box;padding-top:12px;padding-bottom:12px;display:flex;flex-direction:column}
+ .plan-intro{display:flex;flex-direction:column;flex:1;min-height:0}
+ @media(max-width:900px){
+   .ta-split-info :global(.ta-itin){height:auto;padding-top:0;padding-bottom:0}
+ }
+
+ /* "Signature experiences" — a small curated highlight reel (4 items,
+    typically), distinct from the guide's stay/eat/do/party listings below
+    it. Photo-led cards, same fixed-thumb-then-text shape as the guide
+    cards but standalone (not reusing GuideCard/.card-inner directly,
+    since those rules are scoped under :global(.ta-guide .cg-list) and
+    assume that ancestor for their hover/line-clamp behaviour). */
+ .sig-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(16px,2vw,28px);margin-top:clamp(24px,2.6vw,34px)}
+ @media(max-width:900px){.sig-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+ @media(max-width:520px){.sig-grid{grid-template-columns:1fr}}
+ .sig-card{display:flex;flex-direction:column}
+ .sig-thumb-wrap{position:relative;aspect-ratio:4/3;border-radius:8px;overflow:hidden;background:var(--bone)}
+ .sig-thumb{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+ .sig-title{font-family:var(--serif);font-weight:500;font-size:17px;line-height:1.3;color:var(--ink);margin:14px 0 6px}
+ .sig-desc{font-family:var(--fr);font-size:13.5px;line-height:1.55;color:var(--ink-soft);margin:0}

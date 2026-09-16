@@ -8,10 +8,12 @@ export function AdvisorButton() {
 
   return (
     <a className="ta-advisor" aria-label="Talk to your advisor" href={advisor.href} target={advisor.external ? "_blank" : "_self"} rel="noopener">
-      <svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" strokeWidth={1.7}>
-        <path d="M21 11.5a8.5 8.5 0 0 1-12.4 7.5L3 20l1.1-5.4A8.5 8.5 0 1 1 21 11.5z" />
-      </svg>
-      <span>Talk to your advisor</span>
+      <span className="ta-advisor-inner">
+        <svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" strokeWidth={1.7}>
+          <path d="M21 11.5a8.5 8.5 0 0 1-12.4 7.5L3 20l1.1-5.4A8.5 8.5 0 1 1 21 11.5z" />
+        </svg>
+        <span>Talk to your advisor</span>
+      </span>
     </a>
   );
 }

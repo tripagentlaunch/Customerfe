@@ -1,1 +1,1558 @@
-{"center": [40.750632, -73.968788], "venues": [{"n": "Aman New York", "cat": "stay", "tier": "Ultra", "a": "Midtown / Fifth Avenue", "d": "A hushed vertical sanctuary in the Crown Building — the city, finally, on silent.", "lat": 40.750632, "lon": -73.968788, "p": "v"}, {"n": "The Mark Hotel", "cat": "stay", "tier": "Ultra", "a": "Upper East Side", "d": "The Upper East Side's most glamorous house — the only New York hotel on the world list.", "lat": 40.833257, "lon": -73.927318, "p": "v"}, {"n": "The Carlyle, A Rosewood Hotel", "cat": "stay", "tier": "Ultra", "a": "Upper East Side", "d": "Old-New-York grandeur with a cabaret in the basement — the city's most storied address.", "lat": 40.771583, "lon": -73.956577, "p": "a"}, {"n": "The Peninsula New York", "cat": "stay", "tier": "Grand", "a": "Midtown / Fifth Avenue", "d": "A Beaux-Arts landmark on Fifth, with the group's famous precision and a rooftop bar.", "lat": 40.761626, "lon": -73.975286, "p": "v"}, {"n": "Mandarin Oriental, New York", "cat": "stay", "tier": "Grand", "a": "Columbus Circle / Midtown West", "d": "Park-and-skyline views from on high at Columbus Circle — the group's calm, precise flagship.", "lat": 40.76901, "lon": -73.982912, "p": "v"}, {"n": "Four Seasons Hotel New York Downtown", "cat": "stay", "tier": "Grand", "a": "Tribeca / Lower Manhattan", "d": "The surest hands in Lower Manhattan — service you never have to think about.", "lat": 40.71284, "lon": -74.009141, "p": "v"}, {"n": "The St. Regis New York", "cat": "stay", "tier": "Grand", "a": "Midtown / Fifth Avenue", "d": "The house that invented the butler — Astor-era Beaux-Arts splendour off Fifth Avenue.", "lat": 40.750632, "lon": -73.968788, "p": "v"}, {"n": "The Ritz-Carlton New York, Central Park", "cat": "stay", "tier": "Grand", "a": "Midtown / Central Park South", "d": "Park-facing tradition on Central Park South — grand, gracious, and reliably excellent.", "lat": 40.76518, "lon": -73.97601, "p": "v"}, {"n": "Baccarat Hotel New York", "cat": "stay", "tier": "Grand", "a": "Midtown / Fifth Avenue", "d": "Crystal-chandelier glamour opposite MoMA — a jewel-box of a hotel, and it knows it.", "lat": 40.760807, "lon": -73.977364, "p": "v"}, {"n": "Park Hyatt New York", "cat": "stay", "tier": "Grand", "a": "Midtown West / 57th Street", "d": "A calm, contemporary tower on Billionaires' Row — quiet luxury, beautifully run.", "lat": 40.765422, "lon": -73.979314, "p": "v"}, {"n": "The Towers at Lotte New York Palace", "cat": "stay", "tier": "Grand", "a": "Midtown / Madison Avenue", "d": "A hotel-within-a-hotel in a Gilded-Age courtyard mansion — the exclusive Towers wing.", "lat": 40.758515, "lon": -73.974607, "p": "a"}, {"n": "Casa Cipriani New York", "cat": "stay", "tier": "Ultra", "a": "Lower Manhattan / Battery Maritime Building", "d": "A members'-club hotel in a landmark ferry terminal — Italian glamour on the water's edge.", "lat": 40.701058, "lon": -74.011976, "p": "v"}, {"n": "Crosby Street Hotel, Firmdale Hotels", "cat": "stay", "tier": "Grand", "a": "SoHo", "d": "Firmdale's English-country-house colour dropped into the heart of SoHo.", "lat": 40.72288, "lon": -73.99875, "p": "a"}, {"n": "The Whitby Hotel, Firmdale Hotels", "cat": "stay", "tier": "Grand", "a": "Midtown / 56th Street", "d": "A joyful, art-filled Firmdale house a whisper from Fifth Avenue and Central Park.", "lat": 40.764328, "lon": -73.978572, "p": "a"}, {"n": "The Lowell", "cat": "stay", "tier": "Grand", "a": "Upper East Side", "d": "A discreet townhouse hotel of wood fires and fresh flowers — old-money calm.", "lat": 40.750632, "lon": -73.968788, "p": "v"}, {"n": "The Greenwich Hotel", "cat": "stay", "tier": "Grand", "a": "Tribeca", "d": "Robert De Niro's Tribeca hideaway — a warm, worldly house with a lantern-lit pool.", "lat": 40.73306, "lon": -73.993278, "p": "v"}, {"n": "The Fifth Avenue Hotel", "cat": "stay", "tier": "Grand", "a": "NoMad", "d": "A gilded mansion-and-tower debut — maximalist, romantic, the talk of NoMad.", "lat": 40.744993, "lon": -73.987794, "p": "v"}, {"n": "Hotel Barrière Fouquet's New York", "cat": "stay", "tier": "Grand", "a": "Tribeca", "d": "Parisian glamour on the Hudson side of Tribeca — the Champs-Élysées, restaged downtown.", "lat": 40.71538, "lon": -74.009306, "p": "a"}, {"n": "Pendry Manhattan West", "cat": "stay", "tier": "Luxury", "a": "Midtown West / Hudson Yards", "d": "A sleek new-build in the Hudson Yards district — polished, contemporary, well-run.", "lat": 40.753162, "lon": -73.998491, "p": "v"}, {"n": "Warren Street Hotel, Firmdale Hotels", "cat": "stay", "tier": "Grand", "a": "Tribeca", "d": "Firmdale's downtown debut — the same fearless colour, now in Tribeca.", "lat": 40.71538, "lon": -74.009306, "p": "a"}, {"n": "Nine Orchard", "cat": "stay", "tier": "Luxury", "a": "Lower East Side", "d": "A landmark 1912 bank turned design-led hotel — the coolest room downtown.", "lat": 40.718764, "lon": -73.990313, "p": "a"}, {"n": "1 Hotel Central Park", "cat": "stay", "tier": "Luxury", "a": "Midtown / Sixth Avenue", "d": "Nature-led calm steps from Central Park — reclaimed wood, living walls, easy comfort.", "lat": 40.769147, "lon": -73.98154, "p": "v"}, {"n": "The Beekman, A Thompson Hotel", "cat": "stay", "tier": "Luxury", "a": "Lower Manhattan / Financial District", "d": "A breathtaking nine-storey Victorian atrium downtown — history with a modern pulse.", "lat": 40.711033, "lon": -74.006936, "p": "v"}, {"n": "The Wall Street Hotel", "cat": "stay", "tier": "Luxury", "a": "Lower Manhattan / Financial District", "d": "A quietly elegant house in the old financial heart — a calm downtown residence.", "lat": 40.705483, "lon": -74.007574, "p": "v"}, {"n": "The Mercer", "cat": "stay", "tier": "Luxury", "a": "SoHo", "d": "The original SoHo loft hotel — spare, timeless, and endlessly cool.", "lat": 40.729634, "lon": -73.993879, "p": "v"}, {"n": "The Bowery Hotel", "cat": "stay", "tier": "Luxury", "a": "East Village / NoHo", "d": "A dimly-lit, velvet-and-candles downtown classic — romantic and a little bohemian.", "lat": 40.726037, "lon": -73.991442, "p": "v"}, {"n": "The Ludlow Hotel", "cat": "stay", "tier": "Premium", "a": "Lower East Side", "d": "A relaxed, downtown-cool house on the Lower East Side — effortless and unpretentious.", "lat": 40.721828, "lon": -73.987195, "p": "v"}, {"n": "The Ritz-Carlton New York, NoMad", "cat": "stay", "tier": "Luxury", "a": "NoMad", "d": "A tall, contemporary Ritz-Carlton with a rooftop over the Empire State Building.", "lat": 40.745672, "lon": -73.988956, "p": "v"}, {"n": "The Surrey, A Corinthia Hotel", "cat": "stay", "tier": "Luxury", "a": "Upper East Side", "d": "A refined Upper East Side residence, newly reborn under Corinthia — quiet, gracious calm.", "lat": 40.771583, "lon": -73.956577, "p": "a"}, {"n": "The Twenty Two New York", "cat": "stay", "tier": "Luxury", "a": "Union Square / Gramercy", "d": "The London members'-club hotel's first New York address — buzzy and of-the-moment.", "lat": 40.753946, "lon": -73.989554, "p": "v"}, {"n": "Hotel Chelsea", "cat": "stay", "tier": "Premium", "a": "Chelsea", "d": "The most legendary bohemian hotel in America — reborn, and steeped in its own myth.", "lat": 40.744374, "lon": -73.996818, "p": "v"}, {"n": "1 Hotel Brooklyn Bridge", "cat": "stay", "tier": "Luxury", "a": "Brooklyn / Dumbo", "d": "The best Manhattan-skyline view in the city — from the Brooklyn side of the river.", "lat": 40.702257, "lon": -73.995551, "p": "v"}, {"n": "Wythe Hotel", "cat": "stay", "tier": "Premium", "a": "Brooklyn / Williamsburg", "d": "A converted Williamsburg factory with a rooftop bar and the skyline across the water.", "lat": 40.721904, "lon": -73.958061, "p": "v"}, {"n": "Ace Hotel Brooklyn", "cat": "stay", "tier": "Premium", "a": "Brooklyn / Boerum Hill", "d": "A design-led, art-filled house in brownstone Brooklyn — relaxed and creative.", "lat": 40.687847, "lon": -73.98378, "p": "v"}, {"n": "The New York EDITION", "cat": "stay", "tier": "Luxury", "a": "Flatiron / Madison Square Park", "d": "Understated elegance in a landmark clock tower over Madison Square Park.", "lat": 40.74128, "lon": -73.987385, "p": "v"}, {"n": "The Greenwich Hotel — Tribeca Penthouse", "cat": "stay", "tier": "Ultra", "a": "Tribeca", "d": "A one-of-a-kind Japanese-crafted penthouse above the Greenwich — the city's most private suite.", "lat": 40.71538, "lon": -74.009306, "p": "a"}, {"n": "Trump International Hotel & Tower New York", "cat": "stay", "tier": "Grand", "a": "Columbus Circle / Upper West Side", "d": "Full Central Park frontage at Columbus Circle — big windows, big views.", "lat": 40.769147, "lon": -73.98154, "p": "v"}, {"n": "Eleven Madison Park", "cat": "eat", "tier": "Destination", "a": "Flatiron / Madison Square Park", "d": "Daniel Humm's plant-based three-star — the most talked-about fine-dining room in America.", "lat": 40.741598, "lon": -73.98719, "p": "v"}, {"n": "Le Bernardin", "cat": "eat", "tier": "Destination", "a": "Midtown West / Theater District", "d": "Eric Ripert's temple to seafood — three stars held for decades, and never a slip.", "lat": 40.761395, "lon": -73.981691, "p": "v"}, {"n": "Per Se", "cat": "eat", "tier": "Destination", "a": "Columbus Circle / Midtown West", "d": "Thomas Keller's New York flagship — a hushed room over Central Park, at the summit.", "lat": 40.768255, "lon": -73.982852, "p": "v"}, {"n": "Jungsik", "cat": "eat", "tier": "Destination", "a": "Tribeca", "d": "Yim Jungsik's modern Korean — the cuisine reimagined at the very highest level.", "lat": 40.718788, "lon": -74.009091, "p": "v"}, {"n": "Sushi Sho", "cat": "eat", "tier": "Destination", "a": "Midtown East", "d": "The city's newest three-star — a revered Tokyo master's edomae omakase.", "lat": 40.699702, "lon": -73.908865, "p": "v"}, {"n": "Atomix", "cat": "eat", "tier": "Destination", "a": "Flatiron / NoMad", "d": "The Parks' Korean tasting counter — named the best restaurant in North America.", "lat": 40.750632, "lon": -73.968788, "p": "v"}, {"n": "Masa", "cat": "eat", "tier": "Destination", "a": "Columbus Circle / Midtown West", "d": "Masa Takayama's austere, extravagant sushi — still among the costliest meals in America.", "lat": 40.768532, "lon": -73.982766, "p": "v"}, {"n": "Daniel", "cat": "eat", "tier": "Destination", "a": "Upper East Side", "d": "Daniel Boulud's grand French dining room — the Upper East Side's most elegant table.", "lat": 40.766778, "lon": -73.967571, "p": "v"}, {"n": "Jean-Georges", "cat": "eat", "tier": "Destination", "a": "Columbus Circle / Upper West Side", "d": "Jean-Georges Vongerichten's flagship — light, precise French with a park view.", "lat": 40.76897, "lon": -73.981667, "p": "v"}, {"n": "The Modern", "cat": "eat", "tier": "Destination", "a": "Midtown West / MoMA", "d": "Refined American cooking overlooking MoMA's sculpture garden — art on both sides of the glass.", "lat": 40.750632, "lon": -73.968788, "p": "v"}, {"n": "Gabriel Kreuther", "cat": "eat", "tier": "Destination", "a": "Midtown / Bryant Park", "d": "Alsatian-French cooking of real soul, overlooking Bryant Park.", "lat": 40.752834, "lon": -73.983927, "p": "a"}, {"n": "Aquavit", "cat": "eat", "tier": "Fine", "a": "Midtown East", "d": "The city's benchmark for Nordic cooking — cool, clean, and quietly luxurious.", "lat": 40.760782, "lon": -73.972185, "p": "v"}, {"n": "Aska", "cat": "eat", "tier": "Destination", "a": "Brooklyn / Williamsburg", "d": "Fredrik Berselius's Nordic tasting menu in a candlelit Williamsburg townhouse.", "lat": 40.750632, "lon": -73.968788, "p": "v"}, {"n": "Atera", "cat": "eat", "tier": "Destination", "a": "Tribeca", "d": "An intimate Tribeca counter of exacting, seasonal tasting menus.", "lat": 40.750632, "lon": -73.968788, "p": "v"}, {"n": "Saga", "cat": "eat", "tier": "Destination", "a": "Lower Manhattan / Financial District", "d": "A tasting menu high in a landmark 1930s skyscraper — the view is part of the meal.", "lat": 40.750632, "lon": -73.968788, "p": "v"}, {"n": "César", "cat": "eat", "tier": "Destination", "a": "Hudson Square / SoHo", "d": "A French-Japanese two-star that arrived fully formed — precise and personal.", "lat": 40.750632, "lon": -73.968788, "p": "v"}, {"n": "Chef's Table at Brooklyn Fare", "cat": "eat", "tier": "Destination", "a": "Midtown West / Hell's Kitchen", "d": "An intense, seafood-led counter — one of the city's most serious tasting experiences.", "lat": 40.756078, "lon": -73.996449, "p": "v"}, {"n": "Joo Ok", "cat": "eat", "tier": "Destination", "a": "Midtown / Koreatown", "d": "A refined Korean tasting menu, newly elevated to two stars — quiet, considered, exact.", "lat": 40.65513, "lon": -74.00555, "p": "v"}, {"n": "Sushi Noz", "cat": "eat", "tier": "Destination", "a": "Upper East Side", "d": "A hinoki-wood counter of pure edomae craft — sushi as meditation.", "lat": 40.773887, "lon": -73.958132, "p": "v"}, {"n": "Odo", "cat": "eat", "tier": "Destination", "a": "Flatiron", "d": "A serene kaiseki counter hidden behind a tea room — Japan, faithfully rendered.", "lat": 40.750632, "lon": -73.968788, "p": "v"}, {"n": "Semma", "cat": "eat", "tier": "Fine", "a": "West Village", "d": "The only Indian restaurant in America to hold a Michelin star — South India, uncompromised.", "lat": 40.736007, "lon": -74.000529, "p": "v"}, {"n": "Café Carmellini", "cat": "eat", "tier": "Fine", "a": "NoMad", "d": "Andrew Carmellini's grand, romantic Italian-French room inside The Fifth Avenue Hotel.", "lat": 40.703856, "lon": -73.986954, "p": "v"}, {"n": "Torrisi", "cat": "eat", "tier": "Fine", "a": "Nolita", "d": "Italian-American cooking with a New-York swagger, in the landmark Puck Building.", "lat": 40.724217, "lon": -73.9954, "p": "v"}, {"n": "Rezdôra", "cat": "eat", "tier": "Fine", "a": "Flatiron", "d": "A love letter to Emilia-Romagna — the city's most wanted pasta.", "lat": 40.739094, "lon": -73.989369, "p": "v"}, {"n": "Le Coucou", "cat": "eat", "tier": "Fine", "a": "SoHo", "d": "A beautiful, candlelit ode to classical French cooking in the heart of SoHo.", "lat": 40.719085, "lon": -74.00014, "p": "v"}, {"n": "Crown Shy", "cat": "eat", "tier": "Fine", "a": "Lower Manhattan / Financial District", "d": "James Kent's downtown room — inventive, generous, and consistently excellent.", "lat": 40.706227, "lon": -74.00751, "p": "v"}, {"n": "The Dining Room at Gramercy Tavern", "cat": "eat", "tier": "Fine", "a": "Flatiron / Gramercy", "d": "A New York institution — seasonal American cooking of unwavering grace.", "lat": 40.738389, "lon": -73.988414, "p": "a"}, {"n": "COTE", "cat": "eat", "tier": "Fine", "a": "Flatiron", "d": "A Korean steakhouse of real refinement — the butcher's counter meets the tasting menu.", "lat": 40.750632, "lon": -73.968788, "p": "v"}, {"n": "Le Pavillon", "cat": "eat", "tier": "Fine", "a": "Midtown East", "d": "Daniel Boulud's soaring, garden-like room of vegetable- and seafood-led French cooking.", "lat": 40.762298, "lon": -73.960255, "p": "v"}, {"n": "Café Boulud at Maison Barnes", "cat": "eat", "tier": "Fine", "a": "Upper East Side", "d": "Daniel Boulud's warm, seasonal café — refined French with an easy grace.", "lat": 40.771583, "lon": -73.956577, "p": "a"}, {"n": "Sushi Nakazawa", "cat": "eat", "tier": "Fine", "a": "West Village", "d": "A joyful, generous omakase from a Jiro-trained master — sushi with a smile.", "lat": 40.731741, "lon": -74.004541, "p": "v"}, {"n": "Corima", "cat": "eat", "tier": "Fine", "a": "Lower Manhattan / Chinatown", "d": "Modern Northern Mexican cooking that earned a star within a year of opening.", "lat": 40.714683, "lon": -73.993127, "p": "v"}, {"n": "Dirt Candy", "cat": "eat", "tier": "Fine", "a": "Lower East Side", "d": "Amanda Cohen's pioneering vegetable tasting menu — the case for vegetables, made joyfully.", "lat": 40.717878, "lon": -73.990789, "p": "v"}, {"n": "The Four Horsemen", "cat": "eat", "tier": "Fine", "a": "Brooklyn / Williamsburg", "d": "A wine bar that quietly became one of the country's best restaurants.", "lat": 40.713076, "lon": -73.957297, "p": "v"}, {"n": "Bridges", "cat": "eat", "tier": "Fine", "a": "Lower Manhattan / Chinatown", "d": "A newly-starred Chinatown room bringing quiet French finesse to a downtown corner.", "lat": 40.750632, "lon": -73.968788, "p": "v"}, {"n": "Huso", "cat": "eat", "tier": "Destination", "a": "Tribeca", "d": "A caviar-and-seafood tasting counter of great luxury — newly starred.", "lat": 40.750632, "lon": -73.968788, "p": "v"}, {"n": "Yamada", "cat": "eat", "tier": "Fine", "a": "Lower Manhattan / Chinatown", "d": "A precise new Japanese counter that earned its star straight out of the gate.", "lat": 40.750632, "lon": -73.968788, "p": "v"}, {"n": "Frevo", "cat": "eat", "tier": "Fine", "a": "West Village / Greenwich Village", "d": "An intimate tasting menu hidden behind an art-gallery door — French with a Brazilian pulse.", "lat": 40.750632, "lon": -73.968788, "p": "v"}, {"n": "Kono", "cat": "eat", "tier": "Fine", "a": "Lower Manhattan / Chinatown", "d": "A tiny yakitori counter of great purity — every part of the bird over charcoal.", "lat": 40.750632, "lon": -73.968788, "p": "v"}, {"n": "Le Veau d'Or", "cat": "eat", "tier": "Fine", "a": "Upper East Side", "d": "New York's oldest French bistro, lovingly revived — a piece of the city's soul.", "lat": 40.752798, "lon": -74.001552, "p": "v"}, {"n": "Via Carota", "cat": "eat", "tier": "Smart", "a": "West Village", "d": "The West Village trattoria everyone wants a table at — simple, perfect, always full.", "lat": 40.73311, "lon": -74.00365, "p": "v"}, {"n": "Dhamaka", "cat": "eat", "tier": "Smart", "a": "Lower East Side", "d": "Unapologetic, rustic Indian cooking that pulls no punches — a love letter to the regions.", "lat": 40.718235, "lon": -73.988078, "p": "v"}, {"n": "Bungalow", "cat": "eat", "tier": "Smart", "a": "East Village", "d": "Vikas Khanna's ode to Indian country-club dining — glamorous, generous, joyful.", "lat": 40.750632, "lon": -73.968788, "p": "v"}, {"n": "Cardamom", "cat": "eat", "tier": "Smart", "a": "Brooklyn", "d": "Modern Indian cooking with a light, contemporary hand — Bib-listed and easy to love.", "lat": 40.743893, "lon": -73.921232, "p": "v"}, {"n": "Chutney Masala", "cat": "eat", "tier": "Smart", "a": "Bronx / Riverdale", "d": "Warm, well-made Indian cooking that quietly earned the inspectors' nod.", "lat": 40.90056, "lon": -73.90639, "p": "a"}, {"n": "HanGawi", "cat": "eat", "tier": "Smart", "a": "Midtown / Koreatown", "d": "A serene, shoes-off Korean temple restaurant — entirely vegetarian, and quietly special.", "lat": 40.746692, "lon": -73.98469, "p": "v"}, {"n": "Coqodaq", "cat": "eat", "tier": "Smart", "a": "Flatiron", "d": "A glamorous Korean fried-chicken-and-Champagne room — serious fun, seriously good.", "lat": 40.749991, "lon": -73.845072, "p": "v"}, {"n": "Bonnie's", "cat": "eat", "tier": "Smart", "a": "Brooklyn / Williamsburg", "d": "Cantonese-American cooking with a Brooklyn wit — nostalgic and inventive at once.", "lat": 40.717824, "lon": -73.94651, "p": "v"}, {"n": "Atla", "cat": "eat", "tier": "Smart", "a": "NoHo", "d": "Bright, all-day Mexican cooking from the Cosme team — fresh, light, and always buzzing.", "lat": 40.750632, "lon": -73.968788, "p": "v"}, {"n": "Oxomoco", "cat": "eat", "tier": "Fine", "a": "Brooklyn / Greenpoint", "d": "Wood-fired, one-star Mexican cooking in a sunlit Greenpoint room.", "lat": 40.72977, "lon": -73.95546, "p": "v"}, {"n": "Dim Sum Go Go", "cat": "eat", "tier": "Casual", "a": "Lower Manhattan / Chinatown", "d": "A Chinatown stalwart doing precise, handmade dim sum — credentialed and beloved.", "lat": 40.713272, "lon": -73.997742, "p": "v"}, {"n": "CheLi", "cat": "eat", "tier": "Casual", "a": "Lower Manhattan / Chinatown", "d": "Shanghainese home cooking done with real care — a Bib-listed crowd favourite.", "lat": 40.750632, "lon": -73.968788, "p": "v"}, {"n": "The Metropolitan Museum of Art", "cat": "do", "tier": "", "a": "Upper East Side / Museum Mile", "d": "Five thousand years of art in one building on Fifth Avenue — do the Temple of Dendur, the European paintings and the rooftop bar, then let the rest go; it's too big for one day.", "lat": 40.77944, "lon": -73.963382, "p": "v"}, {"n": "The Museum of Modern Art (MoMA)", "cat": "do", "tier": "", "a": "Midtown West / 53rd Street", "d": "Van Gogh's Starry Night, Monet's Water Lilies room, Warhol and Picasso — the modern canon in a light-filled building; go at opening or in the last two hours to dodge the crush.", "lat": 40.761612, "lon": -73.977499, "p": "v"}, {"n": "The Solomon R. Guggenheim Museum", "cat": "do", "tier": "", "a": "Upper East Side / Museum Mile", "d": "Frank Lloyd Wright's white spiral is the reason to come as much as the art — take the lift up and walk the ramp down past the Kandinskys.", "lat": 40.780218, "lon": -73.961373, "p": "a"}, {"n": "The Frick Collection", "cat": "do", "tier": "", "a": "Upper East Side", "d": "A steel baron's Fifth Avenue mansion hung with Vermeer, Rembrandt and Bellini — reopened April 2025 after a $220m restoration that finally opened the family's upstairs rooms to the public; the most civilised hour of art in the city.", "lat": 40.771583, "lon": -73.956577, "p": "a"}, {"n": "The Whitney Museum of American Art", "cat": "do", "tier": "", "a": "Meatpacking District", "d": "Renzo Piano's museum of American art at the foot of the High Line — Hopper, O'Keeffe, Basquiat inside, and terraces that frame the Hudson and downtown skyline for free.", "lat": 40.739645, "lon": -74.008921, "p": "v"}, {"n": "The Met Cloisters", "cat": "do", "tier": "", "a": "Upper Manhattan — Fort Tryon Park", "d": "The Met's medieval outpost, built from real French monastery cloisters on a bluff over the Hudson — the Unicorn Tapestries, herb gardens and river views make the subway ride uptown worth it. A quiet gem most visitors miss.", "lat": 40.864868, "lon": -73.931923, "p": "v"}, {"n": "The Morgan Library & Museum", "cat": "do", "tier": "", "a": "Murray Hill / Midtown", "d": "J.P. Morgan's private study and jewel-box library — Gutenberg Bibles, illuminated manuscripts and a domed rotunda in the financier's own home. Small, sumptuous, rarely crowded.", "lat": 40.749268, "lon": -73.981465, "p": "v"}, {"n": "The American Museum of Natural History", "cat": "do", "tier": "", "a": "Upper West Side", "d": "Blue whale, dinosaur halls and the Rose planetarium plus the new Gilder science wing — the single best half-day in the city for children and multi-generational groups.", "lat": 40.781101, "lon": -73.974236, "p": "v"}, {"n": "The Neue Galerie", "cat": "do", "tier": "", "a": "Upper East Side / Museum Mile", "d": "A small mansion museum for German and Austrian art — home to Klimt's gold Woman in Gold — with Café Sabarsky downstairs for Viennese pastry. A refined pairing of art and Kaffeehaus.", "lat": 40.780218, "lon": -73.961373, "p": "a"}, {"n": "The Noguchi Museum", "cat": "do", "tier": "", "a": "Queens — Long Island City", "d": "Isamu Noguchi's own studio turned into a museum of stone sculpture around a still garden — a meditative escape a short hop across the river. Pair it with nearby Socrates Sculpture Park.", "lat": 40.76699, "lon": -73.937607, "p": "v"}, {"n": "9/11 Memorial & Museum", "cat": "do", "tier": "", "a": "Lower Manhattan / Financial District", "d": "Two black reflecting pools in the tower footprints and a museum beneath ground zero — sobering and beautifully done; book the museum ahead and allow a quiet couple of hours.", "lat": 40.711368, "lon": -74.01327, "p": "v"}, {"n": "Statue of Liberty & Ellis Island", "cat": "do", "tier": "", "a": "New York Harbor", "d": "The harbour crossing and the immigration halls are the real experience — book crown or pedestal access weeks ahead through your advisor, as they sell out; families can trace ancestors in the Ellis Island records.", "lat": 40.703518, "lon": -74.016925, "p": "v"}, {"n": "Empire State Building", "cat": "do", "tier": "", "a": "Midtown / Fifth Avenue", "d": "The 86th-floor open-air deck still delivers the classic New York view; the redone second-floor museum is genuinely good. Go at dusk to catch daylight and the lit city in one visit.", "lat": 40.748442, "lon": -73.985659, "p": "v"}, {"n": "Top of the Rock, Rockefeller Center", "cat": "do", "tier": "", "a": "Midtown", "d": "The best skyline view precisely because it looks back at the Empire State and up Central Park — three open decks, no glass in your photos. The new 'Beam' rooftop experience is a fun add-on.", "lat": 40.759034, "lon": -73.979395, "p": "v"}, {"n": "Summit One Vanderbilt", "cat": "do", "tier": "", "a": "Midtown East / next to Grand Central", "d": "The most theatrical observation deck — mirrored rooms, glass-floor ledges over Madison Avenue and glass 'Ascent' lifts on the building's flank; part art installation, part view. Book a timed slot.", "lat": 40.752837, "lon": -73.978522, "p": "v"}, {"n": "Edge at Hudson Yards", "cat": "do", "tier": "", "a": "Hudson Yards", "d": "The Western Hemisphere's highest outdoor sky deck, with an angled glass floor and a lean-out corner over the West Side; adrenaline-seekers can add the 'City Climb' harnessed ascent up the building's exterior.", "lat": 40.752798, "lon": -74.001552, "p": "v"}, {"n": "One World Observatory", "cat": "do", "tier": "", "a": "Lower Manhattan / Financial District", "d": "Top of the tallest tower in the Western Hemisphere — a fast lift with a time-lapse of the city's rise, then harbour-to-Manhattan views. Best paired with the 9/11 Memorial below.", "lat": 40.712949, "lon": -74.013044, "p": "v"}, {"n": "The Staten Island Ferry", "cat": "do", "tier": "", "a": "Lower Manhattan / New York Harbor", "d": "The best free thing in New York — a 25-minute ride past the Statue of Liberty and the downtown skyline, no ticket, no queue. Ride out, turn around, ride back; go at golden hour.", "lat": 40.555568, "lon": -74.138217, "p": "v"}, {"n": "Central Park", "cat": "do", "tier": "", "a": "Manhattan / Midtown to Upper Manhattan", "d": "The 843-acre green heart of the city — the Bethesda Terrace, the Ramble, the Bow Bridge and the Reservoir loop; hire bikes or a rowboat, or take the kids to the zoo. A different world every season.", "lat": 40.782773, "lon": -73.965363, "p": "v"}, {"n": "The High Line", "cat": "do", "tier": "", "a": "Chelsea / Meatpacking to Hudson Yards", "d": "A disused elevated freight line turned wild-planted walkway above the West Side, threading past galleries and river views; walk it end to end and step off into Chelsea's art scene or Hudson Yards.", "lat": 40.747704, "lon": -74.004891, "p": "v"}, {"n": "Little Island", "cat": "do", "tier": "", "a": "Meatpacking / Hudson River Park", "d": "A pocket park floating over the Hudson on concrete 'tulips' by Heatherwick — undulating lawns, hidden overlooks and a small amphitheatre with summer performances. Free, and a lovely 20 minutes off the High Line.", "lat": 40.742004, "lon": -74.01061, "p": "v"}, {"n": "Brooklyn Bridge", "cat": "do", "tier": "", "a": "Lower Manhattan / Brooklyn", "d": "Walk the elevated wooden promenade from Manhattan into Brooklyn for the definitive skyline view; go early morning to have the cathedral-like stone arches nearly to yourself, then descend into DUMBO.", "lat": 40.706218, "lon": -73.997021, "p": "v"}, {"n": "Brooklyn Bridge Park & DUMBO", "cat": "do", "tier": "", "a": "Brooklyn — DUMBO", "d": "Cobbled streets under the bridge, the Instagram-famous Washington Street view of the Manhattan Bridge, Jane's Carousel and a green waterfront that faces the whole downtown skyline. End the bridge walk here.", "lat": 40.701493, "lon": -73.990986, "p": "v"}, {"n": "Washington Square Park & Greenwich Village", "cat": "do", "tier": "", "a": "Greenwich Village", "d": "The marble arch, the fountain, the chess players and street musicians — the bohemian soul of the city, ringed by NYU and low townhouse streets perfect for aimless wandering.", "lat": 40.731235, "lon": -73.997102, "p": "v"}, {"n": "The West Village", "cat": "do", "tier": "", "a": "Greenwich Village", "d": "Crooked, tree-lined streets of red-brick townhouses, tiny bookshops and cafés — the prettiest walk in Manhattan and the loveliest for an unhurried morning. Bleecker and Perry streets are the postcard.", "lat": 40.735479, "lon": -73.997071, "p": "v"}, {"n": "SoHo", "cat": "do", "tier": "", "a": "SoHo", "d": "The world's densest run of cast-iron architecture, now a cobblestoned luxury shopping quarter — flagship boutiques below, ornate 19th-century facades above. Look up as much as into the windows.", "lat": 40.72288, "lon": -73.99875, "p": "v"}, {"n": "Chinatown & Little Italy", "cat": "do", "tier": "", "a": "Lower Manhattan", "d": "One of the largest Chinese communities in the West — dim sum, tea shops and produce markets flowing into the last blocks of Little Italy on Mulberry Street; a sensory wander best done hungry.", "lat": 40.718276, "lon": -73.999969, "p": "v"}, {"n": "The Lower East Side", "cat": "do", "tier": "", "a": "Lower East Side", "d": "The old immigrant tenement district turned gallery-and-cocktail neighbourhood; the Tenement Museum tells the story through restored apartments, then the streets deliver vintage shops and the New Museum.", "lat": 40.718743, "lon": -73.991899, "p": "v"}, {"n": "Harlem", "cat": "do", "tier": "", "a": "Upper Manhattan — Harlem", "d": "The capital of Black American culture — a Sunday gospel service, the Apollo Theater, soul food on Lenox Avenue and the Studio Museum; take a guided walk to read the history in the brownstones.", "lat": 40.807858, "lon": -73.945467, "p": "v"}, {"n": "Williamsburg", "cat": "do", "tier": "", "a": "Brooklyn — Williamsburg", "d": "Brooklyn's design-and-nightlife capital — independent boutiques, rooftop bars and the best Manhattan-skyline sunset in the city from the East River waterfront. Take the ferry over for the arrival.", "lat": 40.716946, "lon": -73.95663, "p": "v"}, {"n": "The Apollo Theater", "cat": "do", "tier": "", "a": "Harlem", "d": "The stage where Ella Fitzgerald, James Brown and Aretha were made — catch the legendary Amateur Night or a show, or take the daytime tour of a true American music landmark.", "lat": 40.810089, "lon": -73.949995, "p": "v"}, {"n": "Broadway & the Theater District", "cat": "do", "tier": "", "a": "Midtown / Times Square", "d": "The world's benchmark for musical theatre — book a marquee show months ahead through your advisor; family groups can't go wrong with The Lion King or Aladdin. Skip Times Square itself once you've seen it.", "lat": 40.761615, "lon": -73.98399, "p": "v"}, {"n": "Lincoln Center for the Performing Arts", "cat": "do", "tier": "", "a": "Upper West Side", "d": "The Metropolitan Opera, the New York Philharmonic and City Ballet around a floodlit travertine plaza and fountain — dress up for a Met Opera night, one of the great evenings out in the city.", "lat": 40.772518, "lon": -73.984218, "p": "v"}, {"n": "Carnegie Hall", "cat": "do", "tier": "", "a": "Midtown", "d": "The most storied concert hall in America, with acoustics musicians travel the world to play — a recital here is a bucket-list evening; a backstage tour reveals the history if you can't catch a show.", "lat": 40.76503, "lon": -73.979887, "p": "v"}, {"n": "Village Vanguard & the Village jazz clubs", "cat": "do", "tier": "", "a": "Greenwich Village", "d": "The basement room where Coltrane and Bill Evans recorded live albums — still the holy ground of jazz. Book the early set; pair it with Blue Note or Smalls nearby for a proper night of music.", "lat": 40.73198, "lon": -73.996566, "p": "a"}, {"n": "Grand Central Terminal", "cat": "do", "tier": "", "a": "Midtown East", "d": "Not a station so much as a Beaux-Arts cathedral — the celestial-ceiling main concourse, the Whispering Gallery and an oyster bar in the vaults below. Free, always open, and quietly astonishing.", "lat": 40.752694, "lon": -73.977253, "p": "v"}, {"n": "The New York Public Library (Stephen A. Schwarzman Building)", "cat": "do", "tier": "", "a": "Midtown / Fifth Avenue", "d": "The marble-lion library whose Rose Reading Room — a football-field of chandeliers and painted clouds — is open to anyone who walks in; catch a free treasures exhibition and step next door into Bryant Park.", "lat": 40.753344, "lon": -73.982152, "p": "v"}, {"n": "Rockefeller Center", "cat": "do", "tier": "", "a": "Midtown", "d": "An Art Deco city-within-a-city — the golden Prometheus and the sunken plaza (ice-skating in winter, the giant tree in December), Radio City next door and Top of the Rock above. The heart of Midtown.", "lat": 40.759258, "lon": -73.979957, "p": "v"}, {"n": "St. Patrick's Cathedral", "cat": "do", "tier": "", "a": "Midtown / Fifth Avenue", "d": "The great white Gothic-Revival cathedral facing Rockefeller Center — step in from the Fifth Avenue bustle for the soaring nave and rose window; a five-minute pause that resets the whole day.", "lat": 40.723581, "lon": -73.995193, "p": "v"}, {"n": "The Oculus & World Trade Center", "cat": "do", "tier": "", "a": "Lower Manhattan / Financial District", "d": "Calatrava's soaring white-ribbed transit hall — like a bird or a whale's skeleton in marble — now a luxury shopping concourse; the most dramatic piece of new architecture downtown, and free to walk through.", "lat": 40.711555, "lon": -74.01142, "p": "v"}, {"n": "Chelsea gallery district", "cat": "do", "tier": "", "a": "Chelsea", "d": "The world's densest concentration of contemporary art galleries — Gagosian, David Zwirner, Hauser & Wirth and dozens more, all free to enter. Spend a Saturday afternoon drifting between shows off the High Line.", "lat": 40.74855, "lon": -74.004474, "p": "v"}, {"n": "Chelsea Market", "cat": "do", "tier": "", "a": "Chelsea / Meatpacking", "d": "A former Nabisco biscuit factory turned covered food hall — lobster, tacos, artisan pastry and design shops in brick-and-pipe arcades; graze your way through, then step straight onto the High Line above.", "lat": 40.742051, "lon": -74.004897, "p": "v"}, {"n": "Grand Central Market & Great Northern Food Hall", "cat": "do", "tier": "", "a": "Midtown East", "d": "Within and beside the terminal — a European-style market of cheese, seafood and fresh bread, and Nordic food stalls under the arches. A civilised graze while you admire the building.", "lat": 40.758515, "lon": -73.974607, "p": "a"}, {"n": "Smorgasburg", "cat": "do", "tier": "", "a": "Brooklyn — Williamsburg / Prospect Park (weekends, spring–autumn)", "d": "America's largest open-air food market — a hundred-odd vendors of everything from ramen burgers to mango sticky rice, with the Manhattan skyline behind. Weekends only, and a great way to eat your way through Brooklyn.", "lat": 40.720953, "lon": -73.962245, "p": "v"}, {"n": "Fifth Avenue & Madison Avenue shopping", "cat": "do", "tier": "", "a": "Midtown / Upper East Side", "d": "The full spectrum of luxury — the marquee flagships and Bergdorf Goodman on Fifth, the quieter European maisons and galleries up Madison. Your advisor can arrange private appointments and after-hours access.", "lat": 40.758515, "lon": -73.974607, "p": "v"}, {"n": "SoHo boutiques", "cat": "do", "tier": "", "a": "SoHo", "d": "The most stylish shopping in the city — flagship fashion, concept stores and independent design along cast-iron blocks; less crowded and more curated than Fifth Avenue, and made for wandering on foot.", "lat": 40.72366, "lon": -73.998528, "p": "v"}, {"n": "A Central Park bike or pedicab ride", "cat": "do", "tier": "", "a": "Central Park", "d": "The loveliest way to see the whole park in an hour — hire bikes at Columbus Circle, or take a guided pedicab to the film locations and hidden corners. Gentler and more private than the carriage horses.", "lat": 40.782773, "lon": -73.965363, "p": "a"}, {"n": "A Hudson River sunset sail", "cat": "do", "tier": "", "a": "Chelsea Piers / New York Harbor", "d": "Board a classic schooner or private yacht for a sail past the Statue of Liberty as the skyline lights up — the single most romantic hour in New York, and easily chartered privately through your advisor.", "lat": 40.769605, "lon": -73.996312, "p": "v"}, {"n": "A Manhattan helicopter tour", "cat": "do", "tier": "", "a": "Downtown / East River heliport", "d": "Fifteen minutes over the harbour, the Statue of Liberty and the length of the skyline — the view that puts the whole city in one frame; ask your advisor about doors-off or private charters.", "lat": 40.750632, "lon": -73.968788, "p": "v"}, {"n": "The Roosevelt Island Tramway", "cat": "do", "tier": "", "a": "Midtown East to Roosevelt Island", "d": "A commuter aerial cable-car — on a subway swipe — that glides over the East River beside the Queensboro Bridge for a five-minute skyline ride; a quiet thrill most visitors never find.", "lat": 40.761214, "lon": -73.964223, "p": "v"}, {"n": "Prospect Park & the Brooklyn Botanic Garden", "cat": "do", "tier": "", "a": "Brooklyn — Prospect Heights", "d": "The same designers' 'better' park than Central Park — meadows, a lake and a ravine with fewer crowds — beside a botanic garden famed for its spring cherry blossom and Japanese pond. A perfect Brooklyn morning.", "lat": 40.674125, "lon": -73.962891, "p": "a"}, {"n": "Green-Wood Cemetery", "cat": "do", "tier": "", "a": "Brooklyn — Sunset Park", "d": "A 478-acre Victorian garden cemetery of rolling hills, glacial ponds and Gothic gates — resting place of Basquiat and Bernstein, with the best hidden harbour view in Brooklyn. Wildly atmospheric and almost empty.", "lat": 40.652203, "lon": -73.991077, "p": "v"}, {"n": "The Cathedral of St. John the Divine", "cat": "do", "tier": "", "a": "Upper West Side — Morningside Heights", "d": "The largest Gothic cathedral in the world, still famously unfinished — a vast, cool, half-built nave with a peacock in the close. Deeply atmospheric, and paired well with a Columbia University stroll.", "lat": 40.803766, "lon": -73.961784, "p": "v"}, {"n": "The Tenement Museum", "cat": "do", "tier": "", "a": "Lower East Side", "d": "Restored immigrant apartments in a preserved 1863 tenement, told through the real families who lived there — the most moving history lesson in the city, and resonant for anyone whose own family emigrated. Book a tour ahead.", "lat": 40.718764, "lon": -73.990313, "p": "a"}, {"n": "Storm King Art Center", "cat": "do", "tier": "", "a": "Hudson Valley (1.5hr north)", "d": "A 500-acre open-air sculpture park where monumental Calders, Serras and Goldsworthys sit in rolling meadows and woods — a full day of art and landscape; hire bikes on arrival. A superb warm-weather day trip.", "lat": 40.700087, "lon": -73.690953, "p": "a"}, {"n": "The Hamptons", "cat": "do", "tier": "", "a": "Long Island (2–2.5hr east)", "d": "The summer-weekend playground of Manhattan's elite — ocean beaches, hedge-lined estates, farm stands and East Hampton village; best mid-week to avoid the crowds. Your advisor can arrange a house or a beach club.", "lat": 40.750632, "lon": -73.968788, "p": "v"}, {"n": "Bemelmans Bar", "cat": "party", "tier": "Landmark bars", "a": "Upper East Side", "d": "The most beautiful bar in New York — Ludwig Bemelmans' murals, a grand piano, a perfect martini.", "lat": 40.774256, "lon": -73.962989, "p": "v"}, {"n": "The Dead Rabbit", "cat": "party", "tier": "Cocktail bars", "a": "Lower Manhattan / Financial District", "d": "A former World's Best Bar reviving the lost art of the New York-Irish tavern.", "lat": 40.703249, "lon": -74.011005, "p": "v"}, {"n": "Katana Kitten", "cat": "party", "tier": "Cocktail bars", "a": "West Village", "d": "A Japanese-American izakaya bar that has ranked among the world's best for years.", "lat": 40.734253, "lon": -74.006406, "p": "v"}, {"n": "Overstory", "cat": "party", "tier": "Rooftops", "a": "Lower Manhattan / Financial District", "d": "Cocktails on the 64th floor with a 360-degree sweep of the harbour and the skyline.", "lat": 40.706576, "lon": -74.008076, "p": "v"}, {"n": "Double Chicken Please", "cat": "party", "tier": "Cocktail bars", "a": "Lower East Side", "d": "An inventive back-room bar that was recently ranked the best in North America.", "lat": 40.719584, "lon": -73.990491, "p": "v"}, {"n": "The King Cole Bar", "cat": "party", "tier": "Landmark bars", "a": "Midtown / Fifth Avenue", "d": "The birthplace of the Bloody Mary, beneath Maxfield Parrish's mural — old-money New York.", "lat": 40.761357, "lon": -73.974426, "p": "v"}, {"n": "Attaboy", "cat": "party", "tier": "Cocktail bars", "a": "Lower East Side", "d": "A no-menu speakeasy where you name a spirit and a mood — bespoke drinks, no fuss.", "lat": 40.718882, "lon": -73.991374, "p": "v"}, {"n": "The Aviary NYC", "cat": "party", "tier": "Cocktail bars", "a": "Columbus Circle / Midtown West", "d": "A theatrical cocktail laboratory high in the Mandarin Oriental — drinks as edible art.", "lat": 40.764426, "lon": -73.981867, "p": "a"}, {"n": "Employees Only", "cat": "party", "tier": "Late & loud", "a": "West Village", "d": "A speakeasy that helped start the modern cocktail revival — buzzy well past midnight.", "lat": 40.733434, "lon": -74.006077, "p": "v"}, {"n": "The Rooftop at Pier 17", "cat": "party", "tier": "Rooftops", "a": "Lower Manhattan / Seaport", "d": "Drinks and skyline views by the Brooklyn Bridge — the river breeze on a summer night.", "lat": 40.580825, "lon": -74.154227, "p": "v"}]}
+{
+  "center": [
+    40.750632,
+    -73.968788
+  ],
+  "venues": [
+    {
+      "n": "Aman New York",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Midtown / Fifth Avenue",
+      "d": "A hushed vertical sanctuary in the Crown Building \u2014 the city, finally, on silent.",
+      "lat": 40.750632,
+      "lon": -73.968788,
+      "photos": []
+    },
+    {
+      "n": "The Mark Hotel",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Upper East Side",
+      "d": "The Upper East Side's most glamorous house \u2014 the only New York hotel on the world list.",
+      "lat": 40.833257,
+      "lon": -73.927318,
+      "photos": []
+    },
+    {
+      "n": "The Carlyle, A Rosewood Hotel",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Upper East Side",
+      "d": "Old-New-York grandeur with a cabaret in the basement \u2014 the city's most storied address.",
+      "lat": 40.771583,
+      "lon": -73.956577,
+      "photos": []
+    },
+    {
+      "n": "The Peninsula New York",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Midtown / Fifth Avenue",
+      "d": "A Beaux-Arts landmark on Fifth, with the group's famous precision and a rooftop bar.",
+      "lat": 40.761626,
+      "lon": -73.975286,
+      "photos": []
+    },
+    {
+      "n": "Mandarin Oriental, New York",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Columbus Circle / Midtown West",
+      "d": "Park-and-skyline views from on high at Columbus Circle \u2014 the group's calm, precise flagship.",
+      "lat": 40.76901,
+      "lon": -73.982912,
+      "photos": []
+    },
+    {
+      "n": "Four Seasons Hotel New York Downtown",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Tribeca / Lower Manhattan",
+      "d": "The surest hands in Lower Manhattan \u2014 service you never have to think about.",
+      "lat": 40.71284,
+      "lon": -74.009141,
+      "photos": []
+    },
+    {
+      "n": "The St. Regis New York",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Midtown / Fifth Avenue",
+      "d": "The house that invented the butler \u2014 Astor-era Beaux-Arts splendour off Fifth Avenue.",
+      "lat": 40.750632,
+      "lon": -73.968788,
+      "photos": []
+    },
+    {
+      "n": "The Ritz-Carlton New York, Central Park",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Midtown / Central Park South",
+      "d": "Park-facing tradition on Central Park South \u2014 grand, gracious, and reliably excellent.",
+      "lat": 40.76518,
+      "lon": -73.97601,
+      "photos": []
+    },
+    {
+      "n": "Baccarat Hotel New York",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Midtown / Fifth Avenue",
+      "d": "Crystal-chandelier glamour opposite MoMA \u2014 a jewel-box of a hotel, and it knows it.",
+      "lat": 40.760807,
+      "lon": -73.977364,
+      "photos": []
+    },
+    {
+      "n": "Park Hyatt New York",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Midtown West / 57th Street",
+      "d": "A calm, contemporary tower on Billionaires' Row \u2014 quiet luxury, beautifully run.",
+      "lat": 40.765422,
+      "lon": -73.979314,
+      "photos": []
+    },
+    {
+      "n": "The Towers at Lotte New York Palace",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Midtown / Madison Avenue",
+      "d": "A hotel-within-a-hotel in a Gilded-Age courtyard mansion \u2014 the exclusive Towers wing.",
+      "lat": 40.758515,
+      "lon": -73.974607,
+      "photos": []
+    },
+    {
+      "n": "Casa Cipriani New York",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Lower Manhattan / Battery Maritime Building",
+      "d": "A members'-club hotel in a landmark ferry terminal \u2014 Italian glamour on the water's edge.",
+      "lat": 40.701058,
+      "lon": -74.011976,
+      "photos": []
+    },
+    {
+      "n": "Crosby Street Hotel, Firmdale Hotels",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "SoHo",
+      "d": "Firmdale's English-country-house colour dropped into the heart of SoHo.",
+      "lat": 40.72288,
+      "lon": -73.99875,
+      "photos": []
+    },
+    {
+      "n": "The Whitby Hotel, Firmdale Hotels",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Midtown / 56th Street",
+      "d": "A joyful, art-filled Firmdale house a whisper from Fifth Avenue and Central Park.",
+      "lat": 40.764328,
+      "lon": -73.978572,
+      "photos": []
+    },
+    {
+      "n": "The Lowell",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Upper East Side",
+      "d": "A discreet townhouse hotel of wood fires and fresh flowers \u2014 old-money calm.",
+      "lat": 40.750632,
+      "lon": -73.968788,
+      "photos": []
+    },
+    {
+      "n": "The Greenwich Hotel",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Tribeca",
+      "d": "Robert De Niro's Tribeca hideaway \u2014 a warm, worldly house with a lantern-lit pool.",
+      "lat": 40.73306,
+      "lon": -73.993278,
+      "photos": []
+    },
+    {
+      "n": "The Fifth Avenue Hotel",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "NoMad",
+      "d": "A gilded mansion-and-tower debut \u2014 maximalist, romantic, the talk of NoMad.",
+      "lat": 40.744993,
+      "lon": -73.987794,
+      "photos": []
+    },
+    {
+      "n": "Hotel Barri\u00e8re Fouquet's New York",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Tribeca",
+      "d": "Parisian glamour on the Hudson side of Tribeca \u2014 the Champs-\u00c9lys\u00e9es, restaged downtown.",
+      "lat": 40.71538,
+      "lon": -74.009306,
+      "photos": []
+    },
+    {
+      "n": "Pendry Manhattan West",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Midtown West / Hudson Yards",
+      "d": "A sleek new-build in the Hudson Yards district \u2014 polished, contemporary, well-run.",
+      "lat": 40.753162,
+      "lon": -73.998491,
+      "photos": []
+    },
+    {
+      "n": "Warren Street Hotel, Firmdale Hotels",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Tribeca",
+      "d": "Firmdale's downtown debut \u2014 the same fearless colour, now in Tribeca.",
+      "lat": 40.71538,
+      "lon": -74.009306,
+      "photos": []
+    },
+    {
+      "n": "Nine Orchard",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Lower East Side",
+      "d": "A landmark 1912 bank turned design-led hotel \u2014 the coolest room downtown.",
+      "lat": 40.718764,
+      "lon": -73.990313,
+      "photos": []
+    },
+    {
+      "n": "1 Hotel Central Park",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Midtown / Sixth Avenue",
+      "d": "Nature-led calm steps from Central Park \u2014 reclaimed wood, living walls, easy comfort.",
+      "lat": 40.769147,
+      "lon": -73.98154,
+      "photos": []
+    },
+    {
+      "n": "The Beekman, A Thompson Hotel",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Lower Manhattan / Financial District",
+      "d": "A breathtaking nine-storey Victorian atrium downtown \u2014 history with a modern pulse.",
+      "lat": 40.711033,
+      "lon": -74.006936,
+      "photos": []
+    },
+    {
+      "n": "The Wall Street Hotel",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Lower Manhattan / Financial District",
+      "d": "A quietly elegant house in the old financial heart \u2014 a calm downtown residence.",
+      "lat": 40.705483,
+      "lon": -74.007574,
+      "photos": []
+    },
+    {
+      "n": "The Mercer",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "SoHo",
+      "d": "The original SoHo loft hotel \u2014 spare, timeless, and endlessly cool.",
+      "lat": 40.729634,
+      "lon": -73.993879,
+      "photos": []
+    },
+    {
+      "n": "The Bowery Hotel",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "East Village / NoHo",
+      "d": "A dimly-lit, velvet-and-candles downtown classic \u2014 romantic and a little bohemian.",
+      "lat": 40.726037,
+      "lon": -73.991442,
+      "photos": []
+    },
+    {
+      "n": "The Ludlow Hotel",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Lower East Side",
+      "d": "A relaxed, downtown-cool house on the Lower East Side \u2014 effortless and unpretentious.",
+      "lat": 40.721828,
+      "lon": -73.987195,
+      "photos": []
+    },
+    {
+      "n": "The Ritz-Carlton New York, NoMad",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "NoMad",
+      "d": "A tall, contemporary Ritz-Carlton with a rooftop over the Empire State Building.",
+      "lat": 40.745672,
+      "lon": -73.988956,
+      "photos": []
+    },
+    {
+      "n": "The Surrey, A Corinthia Hotel",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Upper East Side",
+      "d": "A refined Upper East Side residence, newly reborn under Corinthia \u2014 quiet, gracious calm.",
+      "lat": 40.771583,
+      "lon": -73.956577,
+      "photos": []
+    },
+    {
+      "n": "The Twenty Two New York",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Union Square / Gramercy",
+      "d": "The London members'-club hotel's first New York address \u2014 buzzy and of-the-moment.",
+      "lat": 40.753946,
+      "lon": -73.989554,
+      "photos": []
+    },
+    {
+      "n": "Hotel Chelsea",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Chelsea",
+      "d": "The most legendary bohemian hotel in America \u2014 reborn, and steeped in its own myth.",
+      "lat": 40.744374,
+      "lon": -73.996818,
+      "photos": []
+    },
+    {
+      "n": "1 Hotel Brooklyn Bridge",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Brooklyn / Dumbo",
+      "d": "The best Manhattan-skyline view in the city \u2014 from the Brooklyn side of the river.",
+      "lat": 40.702257,
+      "lon": -73.995551,
+      "photos": []
+    },
+    {
+      "n": "Wythe Hotel",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Brooklyn / Williamsburg",
+      "d": "A converted Williamsburg factory with a rooftop bar and the skyline across the water.",
+      "lat": 40.721904,
+      "lon": -73.958061,
+      "photos": []
+    },
+    {
+      "n": "Ace Hotel Brooklyn",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Brooklyn / Boerum Hill",
+      "d": "A design-led, art-filled house in brownstone Brooklyn \u2014 relaxed and creative.",
+      "lat": 40.687847,
+      "lon": -73.98378,
+      "photos": []
+    },
+    {
+      "n": "The New York EDITION",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Flatiron / Madison Square Park",
+      "d": "Understated elegance in a landmark clock tower over Madison Square Park.",
+      "lat": 40.74128,
+      "lon": -73.987385,
+      "photos": []
+    },
+    {
+      "n": "The Greenwich Hotel \u2014 Tribeca Penthouse",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Tribeca",
+      "d": "A one-of-a-kind Japanese-crafted penthouse above the Greenwich \u2014 the city's most private suite.",
+      "lat": 40.71538,
+      "lon": -74.009306,
+      "photos": []
+    },
+    {
+      "n": "Trump International Hotel & Tower New York",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Columbus Circle / Upper West Side",
+      "d": "Full Central Park frontage at Columbus Circle \u2014 big windows, big views.",
+      "lat": 40.769147,
+      "lon": -73.98154,
+      "photos": []
+    },
+    {
+      "n": "Eleven Madison Park",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Flatiron / Madison Square Park",
+      "d": "Daniel Humm's plant-based three-star \u2014 the most talked-about fine-dining room in America.",
+      "lat": 40.741598,
+      "lon": -73.98719,
+      "photos": []
+    },
+    {
+      "n": "Le Bernardin",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Midtown West / Theater District",
+      "d": "Eric Ripert's temple to seafood \u2014 three stars held for decades, and never a slip.",
+      "lat": 40.761395,
+      "lon": -73.981691,
+      "photos": []
+    },
+    {
+      "n": "Per Se",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Columbus Circle / Midtown West",
+      "d": "Thomas Keller's New York flagship \u2014 a hushed room over Central Park, at the summit.",
+      "lat": 40.768255,
+      "lon": -73.982852,
+      "photos": []
+    },
+    {
+      "n": "Jungsik",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Tribeca",
+      "d": "Yim Jungsik's modern Korean \u2014 the cuisine reimagined at the very highest level.",
+      "lat": 40.718788,
+      "lon": -74.009091,
+      "photos": []
+    },
+    {
+      "n": "Sushi Sho",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Midtown East",
+      "d": "The city's newest three-star \u2014 a revered Tokyo master's edomae omakase.",
+      "lat": 40.699702,
+      "lon": -73.908865,
+      "photos": []
+    },
+    {
+      "n": "Atomix",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Flatiron / NoMad",
+      "d": "The Parks' Korean tasting counter \u2014 named the best restaurant in North America.",
+      "lat": 40.750632,
+      "lon": -73.968788,
+      "photos": []
+    },
+    {
+      "n": "Masa",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Columbus Circle / Midtown West",
+      "d": "Masa Takayama's austere, extravagant sushi \u2014 still among the costliest meals in America.",
+      "lat": 40.768532,
+      "lon": -73.982766,
+      "photos": []
+    },
+    {
+      "n": "Daniel",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Upper East Side",
+      "d": "Daniel Boulud's grand French dining room \u2014 the Upper East Side's most elegant table.",
+      "lat": 40.766778,
+      "lon": -73.967571,
+      "photos": []
+    },
+    {
+      "n": "Jean-Georges",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Columbus Circle / Upper West Side",
+      "d": "Jean-Georges Vongerichten's flagship \u2014 light, precise French with a park view.",
+      "lat": 40.76897,
+      "lon": -73.981667,
+      "photos": []
+    },
+    {
+      "n": "The Modern",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Midtown West / MoMA",
+      "d": "Refined American cooking overlooking MoMA's sculpture garden \u2014 art on both sides of the glass.",
+      "lat": 40.750632,
+      "lon": -73.968788,
+      "photos": []
+    },
+    {
+      "n": "Gabriel Kreuther",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Midtown / Bryant Park",
+      "d": "Alsatian-French cooking of real soul, overlooking Bryant Park.",
+      "lat": 40.752834,
+      "lon": -73.983927,
+      "photos": []
+    },
+    {
+      "n": "Aquavit",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Midtown East",
+      "d": "The city's benchmark for Nordic cooking \u2014 cool, clean, and quietly luxurious.",
+      "lat": 40.760782,
+      "lon": -73.972185,
+      "photos": []
+    },
+    {
+      "n": "Aska",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Brooklyn / Williamsburg",
+      "d": "Fredrik Berselius's Nordic tasting menu in a candlelit Williamsburg townhouse.",
+      "lat": 40.750632,
+      "lon": -73.968788,
+      "photos": []
+    },
+    {
+      "n": "Atera",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Tribeca",
+      "d": "An intimate Tribeca counter of exacting, seasonal tasting menus.",
+      "lat": 40.750632,
+      "lon": -73.968788,
+      "photos": []
+    },
+    {
+      "n": "Saga",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Lower Manhattan / Financial District",
+      "d": "A tasting menu high in a landmark 1930s skyscraper \u2014 the view is part of the meal.",
+      "lat": 40.750632,
+      "lon": -73.968788,
+      "photos": []
+    },
+    {
+      "n": "C\u00e9sar",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Hudson Square / SoHo",
+      "d": "A French-Japanese two-star that arrived fully formed \u2014 precise and personal.",
+      "lat": 40.750632,
+      "lon": -73.968788,
+      "photos": []
+    },
+    {
+      "n": "Chef's Table at Brooklyn Fare",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Midtown West / Hell's Kitchen",
+      "d": "An intense, seafood-led counter \u2014 one of the city's most serious tasting experiences.",
+      "lat": 40.756078,
+      "lon": -73.996449,
+      "photos": []
+    },
+    {
+      "n": "Joo Ok",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Midtown / Koreatown",
+      "d": "A refined Korean tasting menu, newly elevated to two stars \u2014 quiet, considered, exact.",
+      "lat": 40.65513,
+      "lon": -74.00555,
+      "photos": []
+    },
+    {
+      "n": "Sushi Noz",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Upper East Side",
+      "d": "A hinoki-wood counter of pure edomae craft \u2014 sushi as meditation.",
+      "lat": 40.773887,
+      "lon": -73.958132,
+      "photos": []
+    },
+    {
+      "n": "Odo",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Flatiron",
+      "d": "A serene kaiseki counter hidden behind a tea room \u2014 Japan, faithfully rendered.",
+      "lat": 40.750632,
+      "lon": -73.968788,
+      "photos": []
+    },
+    {
+      "n": "Semma",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "West Village",
+      "d": "The only Indian restaurant in America to hold a Michelin star \u2014 South India, uncompromised.",
+      "lat": 40.736007,
+      "lon": -74.000529,
+      "photos": []
+    },
+    {
+      "n": "Caf\u00e9 Carmellini",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "NoMad",
+      "d": "Andrew Carmellini's grand, romantic Italian-French room inside The Fifth Avenue Hotel.",
+      "lat": 40.703856,
+      "lon": -73.986954,
+      "photos": []
+    },
+    {
+      "n": "Torrisi",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Nolita",
+      "d": "Italian-American cooking with a New-York swagger, in the landmark Puck Building.",
+      "lat": 40.724217,
+      "lon": -73.9954,
+      "photos": []
+    },
+    {
+      "n": "Rezd\u00f4ra",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Flatiron",
+      "d": "A love letter to Emilia-Romagna \u2014 the city's most wanted pasta.",
+      "lat": 40.739094,
+      "lon": -73.989369,
+      "photos": []
+    },
+    {
+      "n": "Le Coucou",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "SoHo",
+      "d": "A beautiful, candlelit ode to classical French cooking in the heart of SoHo.",
+      "lat": 40.719085,
+      "lon": -74.00014,
+      "photos": []
+    },
+    {
+      "n": "Crown Shy",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Lower Manhattan / Financial District",
+      "d": "James Kent's downtown room \u2014 inventive, generous, and consistently excellent.",
+      "lat": 40.706227,
+      "lon": -74.00751,
+      "photos": []
+    },
+    {
+      "n": "The Dining Room at Gramercy Tavern",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Flatiron / Gramercy",
+      "d": "A New York institution \u2014 seasonal American cooking of unwavering grace.",
+      "lat": 40.738389,
+      "lon": -73.988414,
+      "photos": []
+    },
+    {
+      "n": "COTE",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Flatiron",
+      "d": "A Korean steakhouse of real refinement \u2014 the butcher's counter meets the tasting menu.",
+      "lat": 40.750632,
+      "lon": -73.968788,
+      "photos": []
+    },
+    {
+      "n": "Le Pavillon",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Midtown East",
+      "d": "Daniel Boulud's soaring, garden-like room of vegetable- and seafood-led French cooking.",
+      "lat": 40.762298,
+      "lon": -73.960255,
+      "photos": []
+    },
+    {
+      "n": "Caf\u00e9 Boulud at Maison Barnes",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Upper East Side",
+      "d": "Daniel Boulud's warm, seasonal caf\u00e9 \u2014 refined French with an easy grace.",
+      "lat": 40.771583,
+      "lon": -73.956577,
+      "photos": []
+    },
+    {
+      "n": "Sushi Nakazawa",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "West Village",
+      "d": "A joyful, generous omakase from a Jiro-trained master \u2014 sushi with a smile.",
+      "lat": 40.731741,
+      "lon": -74.004541,
+      "photos": []
+    },
+    {
+      "n": "Corima",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Lower Manhattan / Chinatown",
+      "d": "Modern Northern Mexican cooking that earned a star within a year of opening.",
+      "lat": 40.714683,
+      "lon": -73.993127,
+      "photos": []
+    },
+    {
+      "n": "Dirt Candy",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Lower East Side",
+      "d": "Amanda Cohen's pioneering vegetable tasting menu \u2014 the case for vegetables, made joyfully.",
+      "lat": 40.717878,
+      "lon": -73.990789,
+      "photos": []
+    },
+    {
+      "n": "The Four Horsemen",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Brooklyn / Williamsburg",
+      "d": "A wine bar that quietly became one of the country's best restaurants.",
+      "lat": 40.713076,
+      "lon": -73.957297,
+      "photos": []
+    },
+    {
+      "n": "Bridges",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Lower Manhattan / Chinatown",
+      "d": "A newly-starred Chinatown room bringing quiet French finesse to a downtown corner.",
+      "lat": 40.750632,
+      "lon": -73.968788,
+      "photos": []
+    },
+    {
+      "n": "Huso",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Tribeca",
+      "d": "A caviar-and-seafood tasting counter of great luxury \u2014 newly starred.",
+      "lat": 40.750632,
+      "lon": -73.968788,
+      "photos": []
+    },
+    {
+      "n": "Yamada",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Lower Manhattan / Chinatown",
+      "d": "A precise new Japanese counter that earned its star straight out of the gate.",
+      "lat": 40.750632,
+      "lon": -73.968788,
+      "photos": []
+    },
+    {
+      "n": "Frevo",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "West Village / Greenwich Village",
+      "d": "An intimate tasting menu hidden behind an art-gallery door \u2014 French with a Brazilian pulse.",
+      "lat": 40.750632,
+      "lon": -73.968788,
+      "photos": []
+    },
+    {
+      "n": "Kono",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Lower Manhattan / Chinatown",
+      "d": "A tiny yakitori counter of great purity \u2014 every part of the bird over charcoal.",
+      "lat": 40.750632,
+      "lon": -73.968788,
+      "photos": []
+    },
+    {
+      "n": "Le Veau d'Or",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Upper East Side",
+      "d": "New York's oldest French bistro, lovingly revived \u2014 a piece of the city's soul.",
+      "lat": 40.752798,
+      "lon": -74.001552,
+      "photos": []
+    },
+    {
+      "n": "Via Carota",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "West Village",
+      "d": "The West Village trattoria everyone wants a table at \u2014 simple, perfect, always full.",
+      "lat": 40.73311,
+      "lon": -74.00365,
+      "photos": []
+    },
+    {
+      "n": "Dhamaka",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Lower East Side",
+      "d": "Unapologetic, rustic Indian cooking that pulls no punches \u2014 a love letter to the regions.",
+      "lat": 40.718235,
+      "lon": -73.988078,
+      "photos": []
+    },
+    {
+      "n": "Bungalow",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "East Village",
+      "d": "Vikas Khanna's ode to Indian country-club dining \u2014 glamorous, generous, joyful.",
+      "lat": 40.750632,
+      "lon": -73.968788,
+      "photos": []
+    },
+    {
+      "n": "Cardamom",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Brooklyn",
+      "d": "Modern Indian cooking with a light, contemporary hand \u2014 Bib-listed and easy to love.",
+      "lat": 40.743893,
+      "lon": -73.921232,
+      "photos": []
+    },
+    {
+      "n": "Chutney Masala",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Bronx / Riverdale",
+      "d": "Warm, well-made Indian cooking that quietly earned the inspectors' nod.",
+      "lat": 40.90056,
+      "lon": -73.90639,
+      "photos": []
+    },
+    {
+      "n": "HanGawi",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Midtown / Koreatown",
+      "d": "A serene, shoes-off Korean temple restaurant \u2014 entirely vegetarian, and quietly special.",
+      "lat": 40.746692,
+      "lon": -73.98469,
+      "photos": []
+    },
+    {
+      "n": "Coqodaq",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Flatiron",
+      "d": "A glamorous Korean fried-chicken-and-Champagne room \u2014 serious fun, seriously good.",
+      "lat": 40.749991,
+      "lon": -73.845072,
+      "photos": []
+    },
+    {
+      "n": "Bonnie's",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Brooklyn / Williamsburg",
+      "d": "Cantonese-American cooking with a Brooklyn wit \u2014 nostalgic and inventive at once.",
+      "lat": 40.717824,
+      "lon": -73.94651,
+      "photos": []
+    },
+    {
+      "n": "Atla",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "NoHo",
+      "d": "Bright, all-day Mexican cooking from the Cosme team \u2014 fresh, light, and always buzzing.",
+      "lat": 40.750632,
+      "lon": -73.968788,
+      "photos": []
+    },
+    {
+      "n": "Oxomoco",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Brooklyn / Greenpoint",
+      "d": "Wood-fired, one-star Mexican cooking in a sunlit Greenpoint room.",
+      "lat": 40.72977,
+      "lon": -73.95546,
+      "photos": []
+    },
+    {
+      "n": "Dim Sum Go Go",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Lower Manhattan / Chinatown",
+      "d": "A Chinatown stalwart doing precise, handmade dim sum \u2014 credentialed and beloved.",
+      "lat": 40.713272,
+      "lon": -73.997742,
+      "photos": []
+    },
+    {
+      "n": "CheLi",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Lower Manhattan / Chinatown",
+      "d": "Shanghainese home cooking done with real care \u2014 a Bib-listed crowd favourite.",
+      "lat": 40.750632,
+      "lon": -73.968788,
+      "photos": []
+    },
+    {
+      "n": "The Metropolitan Museum of Art",
+      "cat": "do",
+      "tier": "",
+      "a": "Upper East Side / Museum Mile",
+      "d": "Five thousand years of art in one building on Fifth Avenue \u2014 do the Temple of Dendur, the European paintings and the rooftop bar, then let the rest go; it's too big for one day.",
+      "lat": 40.77944,
+      "lon": -73.963382,
+      "photos": []
+    },
+    {
+      "n": "The Museum of Modern Art (MoMA)",
+      "cat": "do",
+      "tier": "",
+      "a": "Midtown West / 53rd Street",
+      "d": "Van Gogh's Starry Night, Monet's Water Lilies room, Warhol and Picasso \u2014 the modern canon in a light-filled building; go at opening or in the last two hours to dodge the crush.",
+      "lat": 40.761612,
+      "lon": -73.977499,
+      "photos": []
+    },
+    {
+      "n": "The Solomon R. Guggenheim Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Upper East Side / Museum Mile",
+      "d": "Frank Lloyd Wright's white spiral is the reason to come as much as the art \u2014 take the lift up and walk the ramp down past the Kandinskys.",
+      "lat": 40.780218,
+      "lon": -73.961373,
+      "photos": []
+    },
+    {
+      "n": "The Frick Collection",
+      "cat": "do",
+      "tier": "",
+      "a": "Upper East Side",
+      "d": "A steel baron's Fifth Avenue mansion hung with Vermeer, Rembrandt and Bellini \u2014 reopened April 2025 after a $220m restoration that finally opened the family's upstairs rooms to the public; the most civilised hour of art in the city.",
+      "lat": 40.771583,
+      "lon": -73.956577,
+      "photos": []
+    },
+    {
+      "n": "The Whitney Museum of American Art",
+      "cat": "do",
+      "tier": "",
+      "a": "Meatpacking District",
+      "d": "Renzo Piano's museum of American art at the foot of the High Line \u2014 Hopper, O'Keeffe, Basquiat inside, and terraces that frame the Hudson and downtown skyline for free.",
+      "lat": 40.739645,
+      "lon": -74.008921,
+      "photos": []
+    },
+    {
+      "n": "The Met Cloisters",
+      "cat": "do",
+      "tier": "",
+      "a": "Upper Manhattan \u2014 Fort Tryon Park",
+      "d": "The Met's medieval outpost, built from real French monastery cloisters on a bluff over the Hudson \u2014 the Unicorn Tapestries, herb gardens and river views make the subway ride uptown worth it. A quiet gem most visitors miss.",
+      "lat": 40.864868,
+      "lon": -73.931923,
+      "photos": []
+    },
+    {
+      "n": "The Morgan Library & Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Murray Hill / Midtown",
+      "d": "J.P. Morgan's private study and jewel-box library \u2014 Gutenberg Bibles, illuminated manuscripts and a domed rotunda in the financier's own home. Small, sumptuous, rarely crowded.",
+      "lat": 40.749268,
+      "lon": -73.981465,
+      "photos": []
+    },
+    {
+      "n": "The American Museum of Natural History",
+      "cat": "do",
+      "tier": "",
+      "a": "Upper West Side",
+      "d": "Blue whale, dinosaur halls and the Rose planetarium plus the new Gilder science wing \u2014 the single best half-day in the city for children and multi-generational groups.",
+      "lat": 40.781101,
+      "lon": -73.974236,
+      "photos": []
+    },
+    {
+      "n": "The Neue Galerie",
+      "cat": "do",
+      "tier": "",
+      "a": "Upper East Side / Museum Mile",
+      "d": "A small mansion museum for German and Austrian art \u2014 home to Klimt's gold Woman in Gold \u2014 with Caf\u00e9 Sabarsky downstairs for Viennese pastry. A refined pairing of art and Kaffeehaus.",
+      "lat": 40.780218,
+      "lon": -73.961373,
+      "photos": []
+    },
+    {
+      "n": "The Noguchi Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Queens \u2014 Long Island City",
+      "d": "Isamu Noguchi's own studio turned into a museum of stone sculpture around a still garden \u2014 a meditative escape a short hop across the river. Pair it with nearby Socrates Sculpture Park.",
+      "lat": 40.76699,
+      "lon": -73.937607,
+      "photos": []
+    },
+    {
+      "n": "9/11 Memorial & Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Lower Manhattan / Financial District",
+      "d": "Two black reflecting pools in the tower footprints and a museum beneath ground zero \u2014 sobering and beautifully done; book the museum ahead and allow a quiet couple of hours.",
+      "lat": 40.711368,
+      "lon": -74.01327,
+      "photos": []
+    },
+    {
+      "n": "Statue of Liberty & Ellis Island",
+      "cat": "do",
+      "tier": "",
+      "a": "New York Harbor",
+      "d": "The harbour crossing and the immigration halls are the real experience \u2014 book crown or pedestal access weeks ahead through your advisor, as they sell out; families can trace ancestors in the Ellis Island records.",
+      "lat": 40.703518,
+      "lon": -74.016925,
+      "photos": []
+    },
+    {
+      "n": "Empire State Building",
+      "cat": "do",
+      "tier": "",
+      "a": "Midtown / Fifth Avenue",
+      "d": "The 86th-floor open-air deck still delivers the classic New York view; the redone second-floor museum is genuinely good. Go at dusk to catch daylight and the lit city in one visit.",
+      "lat": 40.748442,
+      "lon": -73.985659,
+      "photos": []
+    },
+    {
+      "n": "Top of the Rock, Rockefeller Center",
+      "cat": "do",
+      "tier": "",
+      "a": "Midtown",
+      "d": "The best skyline view precisely because it looks back at the Empire State and up Central Park \u2014 three open decks, no glass in your photos. The new 'Beam' rooftop experience is a fun add-on.",
+      "lat": 40.759034,
+      "lon": -73.979395,
+      "photos": []
+    },
+    {
+      "n": "Summit One Vanderbilt",
+      "cat": "do",
+      "tier": "",
+      "a": "Midtown East / next to Grand Central",
+      "d": "The most theatrical observation deck \u2014 mirrored rooms, glass-floor ledges over Madison Avenue and glass 'Ascent' lifts on the building's flank; part art installation, part view. Book a timed slot.",
+      "lat": 40.752837,
+      "lon": -73.978522,
+      "photos": []
+    },
+    {
+      "n": "Edge at Hudson Yards",
+      "cat": "do",
+      "tier": "",
+      "a": "Hudson Yards",
+      "d": "The Western Hemisphere's highest outdoor sky deck, with an angled glass floor and a lean-out corner over the West Side; adrenaline-seekers can add the 'City Climb' harnessed ascent up the building's exterior.",
+      "lat": 40.752798,
+      "lon": -74.001552,
+      "photos": []
+    },
+    {
+      "n": "One World Observatory",
+      "cat": "do",
+      "tier": "",
+      "a": "Lower Manhattan / Financial District",
+      "d": "Top of the tallest tower in the Western Hemisphere \u2014 a fast lift with a time-lapse of the city's rise, then harbour-to-Manhattan views. Best paired with the 9/11 Memorial below.",
+      "lat": 40.712949,
+      "lon": -74.013044,
+      "photos": []
+    },
+    {
+      "n": "The Staten Island Ferry",
+      "cat": "do",
+      "tier": "",
+      "a": "Lower Manhattan / New York Harbor",
+      "d": "The best free thing in New York \u2014 a 25-minute ride past the Statue of Liberty and the downtown skyline, no ticket, no queue. Ride out, turn around, ride back; go at golden hour.",
+      "lat": 40.555568,
+      "lon": -74.138217,
+      "photos": []
+    },
+    {
+      "n": "Central Park",
+      "cat": "do",
+      "tier": "",
+      "a": "Manhattan / Midtown to Upper Manhattan",
+      "d": "The 843-acre green heart of the city \u2014 the Bethesda Terrace, the Ramble, the Bow Bridge and the Reservoir loop; hire bikes or a rowboat, or take the kids to the zoo. A different world every season.",
+      "lat": 40.782773,
+      "lon": -73.965363,
+      "photos": []
+    },
+    {
+      "n": "The High Line",
+      "cat": "do",
+      "tier": "",
+      "a": "Chelsea / Meatpacking to Hudson Yards",
+      "d": "A disused elevated freight line turned wild-planted walkway above the West Side, threading past galleries and river views; walk it end to end and step off into Chelsea's art scene or Hudson Yards.",
+      "lat": 40.747704,
+      "lon": -74.004891,
+      "photos": []
+    },
+    {
+      "n": "Little Island",
+      "cat": "do",
+      "tier": "",
+      "a": "Meatpacking / Hudson River Park",
+      "d": "A pocket park floating over the Hudson on concrete 'tulips' by Heatherwick \u2014 undulating lawns, hidden overlooks and a small amphitheatre with summer performances. Free, and a lovely 20 minutes off the High Line.",
+      "lat": 40.742004,
+      "lon": -74.01061,
+      "photos": []
+    },
+    {
+      "n": "Brooklyn Bridge",
+      "cat": "do",
+      "tier": "",
+      "a": "Lower Manhattan / Brooklyn",
+      "d": "Walk the elevated wooden promenade from Manhattan into Brooklyn for the definitive skyline view; go early morning to have the cathedral-like stone arches nearly to yourself, then descend into DUMBO.",
+      "lat": 40.706218,
+      "lon": -73.997021,
+      "photos": []
+    },
+    {
+      "n": "Brooklyn Bridge Park & DUMBO",
+      "cat": "do",
+      "tier": "",
+      "a": "Brooklyn \u2014 DUMBO",
+      "d": "Cobbled streets under the bridge, the Instagram-famous Washington Street view of the Manhattan Bridge, Jane's Carousel and a green waterfront that faces the whole downtown skyline. End the bridge walk here.",
+      "lat": 40.701493,
+      "lon": -73.990986,
+      "photos": []
+    },
+    {
+      "n": "Washington Square Park & Greenwich Village",
+      "cat": "do",
+      "tier": "",
+      "a": "Greenwich Village",
+      "d": "The marble arch, the fountain, the chess players and street musicians \u2014 the bohemian soul of the city, ringed by NYU and low townhouse streets perfect for aimless wandering.",
+      "lat": 40.731235,
+      "lon": -73.997102,
+      "photos": []
+    },
+    {
+      "n": "The West Village",
+      "cat": "do",
+      "tier": "",
+      "a": "Greenwich Village",
+      "d": "Crooked, tree-lined streets of red-brick townhouses, tiny bookshops and caf\u00e9s \u2014 the prettiest walk in Manhattan and the loveliest for an unhurried morning. Bleecker and Perry streets are the postcard.",
+      "lat": 40.735479,
+      "lon": -73.997071,
+      "photos": []
+    },
+    {
+      "n": "SoHo",
+      "cat": "do",
+      "tier": "",
+      "a": "SoHo",
+      "d": "The world's densest run of cast-iron architecture, now a cobblestoned luxury shopping quarter \u2014 flagship boutiques below, ornate 19th-century facades above. Look up as much as into the windows.",
+      "lat": 40.72288,
+      "lon": -73.99875,
+      "photos": []
+    },
+    {
+      "n": "Chinatown & Little Italy",
+      "cat": "do",
+      "tier": "",
+      "a": "Lower Manhattan",
+      "d": "One of the largest Chinese communities in the West \u2014 dim sum, tea shops and produce markets flowing into the last blocks of Little Italy on Mulberry Street; a sensory wander best done hungry.",
+      "lat": 40.718276,
+      "lon": -73.999969,
+      "photos": []
+    },
+    {
+      "n": "The Lower East Side",
+      "cat": "do",
+      "tier": "",
+      "a": "Lower East Side",
+      "d": "The old immigrant tenement district turned gallery-and-cocktail neighbourhood; the Tenement Museum tells the story through restored apartments, then the streets deliver vintage shops and the New Museum.",
+      "lat": 40.718743,
+      "lon": -73.991899,
+      "photos": []
+    },
+    {
+      "n": "Harlem",
+      "cat": "do",
+      "tier": "",
+      "a": "Upper Manhattan \u2014 Harlem",
+      "d": "The capital of Black American culture \u2014 a Sunday gospel service, the Apollo Theater, soul food on Lenox Avenue and the Studio Museum; take a guided walk to read the history in the brownstones.",
+      "lat": 40.807858,
+      "lon": -73.945467,
+      "photos": []
+    },
+    {
+      "n": "Williamsburg",
+      "cat": "do",
+      "tier": "",
+      "a": "Brooklyn \u2014 Williamsburg",
+      "d": "Brooklyn's design-and-nightlife capital \u2014 independent boutiques, rooftop bars and the best Manhattan-skyline sunset in the city from the East River waterfront. Take the ferry over for the arrival.",
+      "lat": 40.716946,
+      "lon": -73.95663,
+      "photos": []
+    },
+    {
+      "n": "The Apollo Theater",
+      "cat": "do",
+      "tier": "",
+      "a": "Harlem",
+      "d": "The stage where Ella Fitzgerald, James Brown and Aretha were made \u2014 catch the legendary Amateur Night or a show, or take the daytime tour of a true American music landmark.",
+      "lat": 40.810089,
+      "lon": -73.949995,
+      "photos": []
+    },
+    {
+      "n": "Broadway & the Theater District",
+      "cat": "do",
+      "tier": "",
+      "a": "Midtown / Times Square",
+      "d": "The world's benchmark for musical theatre \u2014 book a marquee show months ahead through your advisor; family groups can't go wrong with The Lion King or Aladdin. Skip Times Square itself once you've seen it.",
+      "lat": 40.761615,
+      "lon": -73.98399,
+      "photos": []
+    },
+    {
+      "n": "Lincoln Center for the Performing Arts",
+      "cat": "do",
+      "tier": "",
+      "a": "Upper West Side",
+      "d": "The Metropolitan Opera, the New York Philharmonic and City Ballet around a floodlit travertine plaza and fountain \u2014 dress up for a Met Opera night, one of the great evenings out in the city.",
+      "lat": 40.772518,
+      "lon": -73.984218,
+      "photos": []
+    },
+    {
+      "n": "Carnegie Hall",
+      "cat": "do",
+      "tier": "",
+      "a": "Midtown",
+      "d": "The most storied concert hall in America, with acoustics musicians travel the world to play \u2014 a recital here is a bucket-list evening; a backstage tour reveals the history if you can't catch a show.",
+      "lat": 40.76503,
+      "lon": -73.979887,
+      "photos": []
+    },
+    {
+      "n": "Village Vanguard & the Village jazz clubs",
+      "cat": "do",
+      "tier": "",
+      "a": "Greenwich Village",
+      "d": "The basement room where Coltrane and Bill Evans recorded live albums \u2014 still the holy ground of jazz. Book the early set; pair it with Blue Note or Smalls nearby for a proper night of music.",
+      "lat": 40.73198,
+      "lon": -73.996566,
+      "photos": []
+    },
+    {
+      "n": "Grand Central Terminal",
+      "cat": "do",
+      "tier": "",
+      "a": "Midtown East",
+      "d": "Not a station so much as a Beaux-Arts cathedral \u2014 the celestial-ceiling main concourse, the Whispering Gallery and an oyster bar in the vaults below. Free, always open, and quietly astonishing.",
+      "lat": 40.752694,
+      "lon": -73.977253,
+      "photos": []
+    },
+    {
+      "n": "The New York Public Library (Stephen A. Schwarzman Building)",
+      "cat": "do",
+      "tier": "",
+      "a": "Midtown / Fifth Avenue",
+      "d": "The marble-lion library whose Rose Reading Room \u2014 a football-field of chandeliers and painted clouds \u2014 is open to anyone who walks in; catch a free treasures exhibition and step next door into Bryant Park.",
+      "lat": 40.753344,
+      "lon": -73.982152,
+      "photos": []
+    },
+    {
+      "n": "Rockefeller Center",
+      "cat": "do",
+      "tier": "",
+      "a": "Midtown",
+      "d": "An Art Deco city-within-a-city \u2014 the golden Prometheus and the sunken plaza (ice-skating in winter, the giant tree in December), Radio City next door and Top of the Rock above. The heart of Midtown.",
+      "lat": 40.759258,
+      "lon": -73.979957,
+      "photos": []
+    },
+    {
+      "n": "St. Patrick's Cathedral",
+      "cat": "do",
+      "tier": "",
+      "a": "Midtown / Fifth Avenue",
+      "d": "The great white Gothic-Revival cathedral facing Rockefeller Center \u2014 step in from the Fifth Avenue bustle for the soaring nave and rose window; a five-minute pause that resets the whole day.",
+      "lat": 40.723581,
+      "lon": -73.995193,
+      "photos": []
+    },
+    {
+      "n": "The Oculus & World Trade Center",
+      "cat": "do",
+      "tier": "",
+      "a": "Lower Manhattan / Financial District",
+      "d": "Calatrava's soaring white-ribbed transit hall \u2014 like a bird or a whale's skeleton in marble \u2014 now a luxury shopping concourse; the most dramatic piece of new architecture downtown, and free to walk through.",
+      "lat": 40.711555,
+      "lon": -74.01142,
+      "photos": []
+    },
+    {
+      "n": "Chelsea gallery district",
+      "cat": "do",
+      "tier": "",
+      "a": "Chelsea",
+      "d": "The world's densest concentration of contemporary art galleries \u2014 Gagosian, David Zwirner, Hauser & Wirth and dozens more, all free to enter. Spend a Saturday afternoon drifting between shows off the High Line.",
+      "lat": 40.74855,
+      "lon": -74.004474,
+      "photos": []
+    },
+    {
+      "n": "Chelsea Market",
+      "cat": "do",
+      "tier": "",
+      "a": "Chelsea / Meatpacking",
+      "d": "A former Nabisco biscuit factory turned covered food hall \u2014 lobster, tacos, artisan pastry and design shops in brick-and-pipe arcades; graze your way through, then step straight onto the High Line above.",
+      "lat": 40.742051,
+      "lon": -74.004897,
+      "photos": []
+    },
+    {
+      "n": "Grand Central Market & Great Northern Food Hall",
+      "cat": "do",
+      "tier": "",
+      "a": "Midtown East",
+      "d": "Within and beside the terminal \u2014 a European-style market of cheese, seafood and fresh bread, and Nordic food stalls under the arches. A civilised graze while you admire the building.",
+      "lat": 40.758515,
+      "lon": -73.974607,
+      "photos": []
+    },
+    {
+      "n": "Smorgasburg",
+      "cat": "do",
+      "tier": "",
+      "a": "Brooklyn \u2014 Williamsburg / Prospect Park (weekends, spring\u2013autumn)",
+      "d": "America's largest open-air food market \u2014 a hundred-odd vendors of everything from ramen burgers to mango sticky rice, with the Manhattan skyline behind. Weekends only, and a great way to eat your way through Brooklyn.",
+      "lat": 40.720953,
+      "lon": -73.962245,
+      "photos": []
+    },
+    {
+      "n": "Fifth Avenue & Madison Avenue shopping",
+      "cat": "do",
+      "tier": "",
+      "a": "Midtown / Upper East Side",
+      "d": "The full spectrum of luxury \u2014 the marquee flagships and Bergdorf Goodman on Fifth, the quieter European maisons and galleries up Madison. Your advisor can arrange private appointments and after-hours access.",
+      "lat": 40.758515,
+      "lon": -73.974607,
+      "photos": []
+    },
+    {
+      "n": "SoHo boutiques",
+      "cat": "do",
+      "tier": "",
+      "a": "SoHo",
+      "d": "The most stylish shopping in the city \u2014 flagship fashion, concept stores and independent design along cast-iron blocks; less crowded and more curated than Fifth Avenue, and made for wandering on foot.",
+      "lat": 40.72366,
+      "lon": -73.998528,
+      "photos": []
+    },
+    {
+      "n": "A Central Park bike or pedicab ride",
+      "cat": "do",
+      "tier": "",
+      "a": "Central Park",
+      "d": "The loveliest way to see the whole park in an hour \u2014 hire bikes at Columbus Circle, or take a guided pedicab to the film locations and hidden corners. Gentler and more private than the carriage horses.",
+      "lat": 40.782773,
+      "lon": -73.965363,
+      "photos": []
+    },
+    {
+      "n": "A Hudson River sunset sail",
+      "cat": "do",
+      "tier": "",
+      "a": "Chelsea Piers / New York Harbor",
+      "d": "Board a classic schooner or private yacht for a sail past the Statue of Liberty as the skyline lights up \u2014 the single most romantic hour in New York, and easily chartered privately through your advisor.",
+      "lat": 40.769605,
+      "lon": -73.996312,
+      "photos": []
+    },
+    {
+      "n": "A Manhattan helicopter tour",
+      "cat": "do",
+      "tier": "",
+      "a": "Downtown / East River heliport",
+      "d": "Fifteen minutes over the harbour, the Statue of Liberty and the length of the skyline \u2014 the view that puts the whole city in one frame; ask your advisor about doors-off or private charters.",
+      "lat": 40.750632,
+      "lon": -73.968788,
+      "photos": []
+    },
+    {
+      "n": "The Roosevelt Island Tramway",
+      "cat": "do",
+      "tier": "",
+      "a": "Midtown East to Roosevelt Island",
+      "d": "A commuter aerial cable-car \u2014 on a subway swipe \u2014 that glides over the East River beside the Queensboro Bridge for a five-minute skyline ride; a quiet thrill most visitors never find.",
+      "lat": 40.761214,
+      "lon": -73.964223,
+      "photos": []
+    },
+    {
+      "n": "Prospect Park & the Brooklyn Botanic Garden",
+      "cat": "do",
+      "tier": "",
+      "a": "Brooklyn \u2014 Prospect Heights",
+      "d": "The same designers' 'better' park than Central Park \u2014 meadows, a lake and a ravine with fewer crowds \u2014 beside a botanic garden famed for its spring cherry blossom and Japanese pond. A perfect Brooklyn morning.",
+      "lat": 40.674125,
+      "lon": -73.962891,
+      "photos": []
+    },
+    {
+      "n": "Green-Wood Cemetery",
+      "cat": "do",
+      "tier": "",
+      "a": "Brooklyn \u2014 Sunset Park",
+      "d": "A 478-acre Victorian garden cemetery of rolling hills, glacial ponds and Gothic gates \u2014 resting place of Basquiat and Bernstein, with the best hidden harbour view in Brooklyn. Wildly atmospheric and almost empty.",
+      "lat": 40.652203,
+      "lon": -73.991077,
+      "photos": []
+    },
+    {
+      "n": "The Cathedral of St. John the Divine",
+      "cat": "do",
+      "tier": "",
+      "a": "Upper West Side \u2014 Morningside Heights",
+      "d": "The largest Gothic cathedral in the world, still famously unfinished \u2014 a vast, cool, half-built nave with a peacock in the close. Deeply atmospheric, and paired well with a Columbia University stroll.",
+      "lat": 40.803766,
+      "lon": -73.961784,
+      "photos": []
+    },
+    {
+      "n": "The Tenement Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Lower East Side",
+      "d": "Restored immigrant apartments in a preserved 1863 tenement, told through the real families who lived there \u2014 the most moving history lesson in the city, and resonant for anyone whose own family emigrated. Book a tour ahead.",
+      "lat": 40.718764,
+      "lon": -73.990313,
+      "photos": []
+    },
+    {
+      "n": "Storm King Art Center",
+      "cat": "do",
+      "tier": "",
+      "a": "Hudson Valley (1.5hr north)",
+      "d": "A 500-acre open-air sculpture park where monumental Calders, Serras and Goldsworthys sit in rolling meadows and woods \u2014 a full day of art and landscape; hire bikes on arrival. A superb warm-weather day trip.",
+      "lat": 40.700087,
+      "lon": -73.690953,
+      "photos": []
+    },
+    {
+      "n": "The Hamptons",
+      "cat": "do",
+      "tier": "",
+      "a": "Long Island (2\u20132.5hr east)",
+      "d": "The summer-weekend playground of Manhattan's elite \u2014 ocean beaches, hedge-lined estates, farm stands and East Hampton village; best mid-week to avoid the crowds. Your advisor can arrange a house or a beach club.",
+      "lat": 40.750632,
+      "lon": -73.968788,
+      "photos": []
+    },
+    {
+      "n": "Bemelmans Bar",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "Upper East Side",
+      "d": "The most beautiful bar in New York \u2014 Ludwig Bemelmans' murals, a grand piano, a perfect martini.",
+      "lat": 40.774256,
+      "lon": -73.962989,
+      "photos": []
+    },
+    {
+      "n": "The Dead Rabbit",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Lower Manhattan / Financial District",
+      "d": "A former World's Best Bar reviving the lost art of the New York-Irish tavern.",
+      "lat": 40.703249,
+      "lon": -74.011005,
+      "photos": []
+    },
+    {
+      "n": "Katana Kitten",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "West Village",
+      "d": "A Japanese-American izakaya bar that has ranked among the world's best for years.",
+      "lat": 40.734253,
+      "lon": -74.006406,
+      "photos": []
+    },
+    {
+      "n": "Overstory",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "Lower Manhattan / Financial District",
+      "d": "Cocktails on the 64th floor with a 360-degree sweep of the harbour and the skyline.",
+      "lat": 40.706576,
+      "lon": -74.008076,
+      "photos": []
+    },
+    {
+      "n": "Double Chicken Please",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Lower East Side",
+      "d": "An inventive back-room bar that was recently ranked the best in North America.",
+      "lat": 40.719584,
+      "lon": -73.990491,
+      "photos": []
+    },
+    {
+      "n": "The King Cole Bar",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "Midtown / Fifth Avenue",
+      "d": "The birthplace of the Bloody Mary, beneath Maxfield Parrish's mural \u2014 old-money New York.",
+      "lat": 40.761357,
+      "lon": -73.974426,
+      "photos": []
+    },
+    {
+      "n": "Attaboy",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Lower East Side",
+      "d": "A no-menu speakeasy where you name a spirit and a mood \u2014 bespoke drinks, no fuss.",
+      "lat": 40.718882,
+      "lon": -73.991374,
+      "photos": []
+    },
+    {
+      "n": "The Aviary NYC",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Columbus Circle / Midtown West",
+      "d": "A theatrical cocktail laboratory high in the Mandarin Oriental \u2014 drinks as edible art.",
+      "lat": 40.764426,
+      "lon": -73.981867,
+      "photos": []
+    },
+    {
+      "n": "Employees Only",
+      "cat": "party",
+      "tier": "Late & loud",
+      "a": "West Village",
+      "d": "A speakeasy that helped start the modern cocktail revival \u2014 buzzy well past midnight.",
+      "lat": 40.733434,
+      "lon": -74.006077,
+      "photos": []
+    },
+    {
+      "n": "The Rooftop at Pier 17",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "Lower Manhattan / Seaport",
+      "d": "Drinks and skyline views by the Brooklyn Bridge \u2014 the river breeze on a summer night.",
+      "lat": 40.580825,
+      "lon": -74.154227,
+      "photos": []
+    }
+  ]
+}

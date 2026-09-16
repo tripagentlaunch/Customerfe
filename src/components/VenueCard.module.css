@@ -163,13 +163,33 @@
   position: relative;
 }
 
+.nameRow {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin-bottom: 3px;
+}
+
 .name {
   display: block;
   font-family: var(--serif);
   font-weight: 600;
   font-size: 17px;
   color: var(--ink);
-  margin-bottom: 3px;
+}
+
+.tier {
+  display: inline-block;
+  flex: none;
+  font-family: var(--fr);
+  font-weight: 600;
+  font-size: 10px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--signature);
+  border: 1px solid var(--signature);
+  border-radius: 999px;
+  padding: 2px 8px;
 }
 
 .area {

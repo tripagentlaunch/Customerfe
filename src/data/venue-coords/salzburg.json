@@ -1,1 +1,558 @@
-{"center": [47.798135, 13.046481], "venues": [{"n": "Rosewood Schloss Fuschl", "cat": "stay", "tier": "Ultra", "a": "Hof bei Salzburg / Lake Fuschl (≈25 min east of the Old Town)", "d": "A 15th-century lakeside castle reborn by Rosewood in 2024 — the region's most complete luxury retreat, set in its own estate on Lake Fuschl.", "lat": 47.808626, "lon": 13.25618, "p": "v"}, {"n": "Hotel Sacher Salzburg", "cat": "stay", "tier": "Ultra", "a": "Neustadt / right bank, on the Salzach facing the Old Town", "d": "Salzburg's grande dame — a riverside palace of the famed Sacher family, with the finest Old Town views in the city.", "lat": 47.8022, "lon": 13.043293, "p": "v"}, {"n": "Hotel Schloss Mönchstein", "cat": "stay", "tier": "Grand", "a": "Mönchsberg / the city mountain, above the Old Town", "d": "A small castle-hotel in a private park atop the Mönchsberg — seclusion and forest quiet, minutes above the city by the mountain lift.", "lat": 47.804057, "lon": 13.035702, "p": "v"}, {"n": "Hotel Goldener Hirsch, a Luxury Collection Hotel", "cat": "stay", "tier": "Grand", "a": "Altstadt / Getreidegasse, the heart of the Old Town", "d": "An inn since 1564 on Salzburg's grandest shopping street — beamed, antique-filled rooms with centuries of pedigree, now under Marriott's Luxury Collection.", "lat": 47.799887, "lon": 13.040952, "p": "v"}, {"n": "Sheraton Grand Salzburg", "cat": "stay", "tier": "Premium", "a": "Neustadt / beside the Mirabell Gardens", "d": "A capable, spacious modern grand hotel right on the Mirabell Gardens — reliable comfort and easy access to both riverbanks.", "lat": 47.829265, "lon": 13.005127, "p": "v"}, {"n": "Restaurant Ikarus", "cat": "eat", "tier": "Destination", "a": "Hangar-7, by the airport (≈10 min from the Old Town)", "d": "The world's only rotating-guest-chef fine-dining room — a different acclaimed chef every month, under culinary director Martin Klein, inside Red Bull's glass Hangar-7.", "lat": 47.793648, "lon": 13.007896, "p": "v"}, {"n": "SENNS.Restaurant", "cat": "eat", "tier": "Destination", "a": "Söllheim / a converted metal factory on the city's edge", "d": "Andreas Senn's precise, contemporary cooking in a raw industrial hall — Salzburg's other two-star, and one of Austria's most exciting tables.", "lat": 47.83606, "lon": 13.063369, "p": "v"}, {"n": "Carpe Diem", "cat": "eat", "tier": "Fine", "a": "Altstadt / Getreidegasse 50", "d": "Fine dining reimagined as elegant, cone-served small plates — a singular concept on the Old Town's grandest street, from the Red Bull stable.", "lat": 47.793659, "lon": 13.007888, "p": "v"}, {"n": "Esszimmer", "cat": "eat", "tier": "Fine", "a": "Neustadt / at the foot of the Mönchsberg", "d": "Andreas Kaiblinger's flavour-forward, contemporary Austrian cooking, with his wife Andrea's warm front-of-house and a considered wine list.", "lat": 47.806697, "lon": 13.034109, "p": "v"}, {"n": "The Glass Garden", "cat": "eat", "tier": "Fine", "a": "Mönchsberg / at Hotel Schloss Mönchstein", "d": "Simon Wagner's delicate, produce-led cooking in a glass pavilion high above the city — food and fortress views in one sitting.", "lat": 47.804016, "lon": 13.03581, "p": "v"}, {"n": "Pfefferschiff", "cat": "eat", "tier": "Fine", "a": "Hallwang / Söllheim (≈15 min north-east of the Old Town)", "d": "Jürgen Vigne's bold, ingredient-driven cooking in a 17th-century parish house — one of the region's longest-running serious kitchens.", "lat": 47.838171, "lon": 13.078568, "p": "v"}, {"n": "Restaurant Brandstätter", "cat": "eat", "tier": "Smart", "a": "Salzburg / Liefering, west of the centre", "d": "A family-run country house of hearty, honest Austrian cooking — a beautiful garden, a serious cellar and terrific value.", "lat": 47.82669, "lon": 13.010006, "p": "v"}, {"n": "Restaurant Obauer", "cat": "eat", "tier": "Destination", "a": "Werfen (≈40 min south of Salzburg)", "d": "The Obauer brothers' legendary two-star — a lifetime of refined alpine-Austrian cooking, worth the drive out toward the Werfen ice caves.", "lat": 47.76739, "lon": 13.363921, "p": "v"}, {"n": "Hohensalzburg Fortress", "cat": "do", "tier": "", "a": "Festungsberg, Altstadt", "d": "One of the largest and best-preserved medieval fortresses in Europe, begun in 1077 and never once taken by siege, crowning the city on its rock. A private guide can time the reserved funicular ride so grandparents skip the climb, and the ramparts give the family the definitive photograph of Salzburg spread below.", "lat": 47.79521, "lon": 13.048097, "p": "v"}, {"n": "FestungsBahn Funicular", "cat": "do", "tier": "", "a": "Festungsgasse, Altstadt", "d": "One of the world's oldest operating funiculars, running up to the fortress since 1892 on the line of an even older 16th-century hoist. The 54-second ride spares elders and small children the steep cobbled walk and is a small delight in itself.", "lat": 47.795409, "lon": 13.046244, "p": "v"}, {"n": "The Old Town (Altstadt)", "cat": "do", "tier": "", "a": "Left bank of the Salzach", "d": "A tight weave of Baroque squares, archways and merchant courtyards between the fortress and the river, walkable end to end and closed to most traffic. A private walking guide turns it from a pretty maze into a legible story of prince-archbishops, Mozart and money.", "lat": 47.682403, "lon": 13.095668, "p": "v"}, {"n": "Getreidegasse", "cat": "do", "tier": "", "a": "Altstadt", "d": "Salzburg's famous shopping lane, narrow and canyon-like, hung with wrought-iron guild signs that even global luxury houses must obey. The address of Mozart's birthplace at number 9 and a good spot to combine boutiques with a discreet, unhurried browse.", "lat": 47.800018, "lon": 13.042237, "p": "v"}, {"n": "Mozart's Birthplace (Mozarts Geburtshaus)", "cat": "do", "tier": "", "a": "Getreidegasse 9, Altstadt", "d": "The yellow house where Wolfgang Amadeus Mozart was born in 1756 and lived his first seventeen years, now a museum of his violins, letters and portraits. The essential Mozart pilgrimage, best taken with a private guide who can bring the child prodigy vividly to life for a multi-generational group.", "lat": 47.799943, "lon": 13.043554, "p": "v"}, {"n": "Mozart Residence (Mozart-Wohnhaus)", "cat": "do", "tier": "", "a": "Makartplatz, right bank", "d": "The larger apartment across the river where the Mozart family moved in 1773, with the composer's own fortepiano and a quieter, more reflective feel than the crowded birthplace. The two houses together give the fuller portrait of the man behind the myth.", "lat": 47.802651, "lon": 13.043771, "p": "v"}, {"n": "Salzburg Cathedral (Dom)", "cat": "do", "tier": "", "a": "Domplatz, Altstadt", "d": "The vast early-Baroque cathedral where Mozart was baptised and later served as organist, its bronze doors, marble facade and 4,000-pipe organs setting the scale of the prince-archbishops' ambition. Cool, grand and free to enter for a moment of calm between sights.", "lat": 47.797846, "lon": 13.046623, "p": "v"}, {"n": "DomQuartier Salzburg", "cat": "do", "tier": "", "a": "Residenzplatz / Domplatz, Altstadt", "d": "A single connected circuit through the Residenz state rooms, the cathedral terrace and galleries, and St Peter's museum — the seat of church-and-state power reopened after two centuries closed. A rewarding, weather-proof morning with a private guide for a family that wants depth over crowds.", "lat": 47.79831, "lon": 13.045641, "p": "v"}, {"n": "Residenz State Rooms", "cat": "do", "tier": "", "a": "Residenzplatz, Altstadt", "d": "The prince-archbishops' city palace, a suite of gilded staterooms where the young Mozart performed for the court, hung with Rembrandt, Rubens and Titian in the adjoining gallery. Opulent and intimate — the private face of Salzburg's rulers.", "lat": 47.798523, "lon": 13.046155, "p": "a"}, {"n": "St Peter's Abbey (Stift St. Peter)", "cat": "do", "tier": "", "a": "Altstadt, below the fortress", "d": "Founded in 696, the oldest monastery in the German-speaking world, its abbey church a layered jewel of Romanesque bones dressed in Rococo. Still a working Benedictine community, quiet and deeply atmospheric.", "lat": 47.79699, "lon": 13.044814, "p": "v"}, {"n": "St Peter's Cemetery (Petersfriedhof)", "cat": "do", "tier": "", "a": "Altstadt, below the fortress", "d": "One of Salzburg's oldest burial grounds, a wrought-iron garden of arcaded family vaults set against the sheer Mönchsberg cliff — where Mozart's sister Nannerl rests, and the visual model for The Sound of Music's escape scene. Serene, exquisite and endlessly photogenic.", "lat": 47.796722, "lon": 13.045453, "p": "v"}, {"n": "Catacombs of St Peter", "cat": "do", "tier": "", "a": "Petersfriedhof, Altstadt", "d": "Early Christian chapels and hermit cells hewn straight into the rock face above the cemetery, reached by a steep stair to little rooms with a startling view down over the graves. A short, memorable climb for those steady on their feet.", "lat": 47.796722, "lon": 13.045453, "p": "a"}, {"n": "Nonnberg Abbey (Stift Nonnberg)", "cat": "do", "tier": "", "a": "Nonnberg, below the fortress", "d": "The oldest continuously operating convent in the German-speaking world, founded around 714, where the real Maria von Trapp was a novice before her marriage. A hushed, working nunnery just above the Old Town, and the true starting point of the Sound of Music story.", "lat": 47.795956, "lon": 13.051463, "p": "v"}, {"n": "Franciscan Church (Franziskanerkirche)", "cat": "do", "tier": "", "a": "Franziskanergasse, Altstadt", "d": "A quietly extraordinary church where a dark Romanesque nave opens into a soaring Gothic choir crowned by a golden Baroque high altar — three eras stacked in one space. Often overlooked between the bigger sights, and all the better for it.", "lat": 47.797956, "lon": 13.044861, "p": "a"}, {"n": "Mozart Dinner Concert at St Peter Stiftskulinarium", "cat": "do", "tier": "", "a": "St Peter's Abbey, Altstadt", "d": "A candlelit evening of Mozart arias and a period three-course dinner in the Baroque hall of Europe's oldest restaurant, in business since 803 and once graced by Mozart himself. A romantic, only-in-Salzburg night; the kitchen will handle vegetarian and Indian dietary needs with advance notice.", "lat": 47.796722, "lon": 13.045453, "p": "a"}, {"n": "Salzburg Festival (Salzburger Festspiele)", "cat": "do", "tier": "", "a": "Festival District, Altstadt (seasonal — late July to end August)", "d": "Founded in 1920, the world's foremost festival of opera and drama, filling the Grosses Festspielhaus, the Felsenreitschule carved into the cliff, and the squares with the finest voices alive. The reason to plan a summer trip well in advance; the hardest ticket in classical music, and worth every effort to secure.", "lat": 47.797387, "lon": 13.031866, "p": "v"}, {"n": "Felsenreitschule", "cat": "do", "tier": "", "a": "Festival District, Altstadt", "d": "A theatre carved into the living rock of the Mönchsberg, its stone arcades once a riding school and now a spectacular festival stage — and the concert-hall backdrop of the final Sound of Music scene. Extraordinary even empty; unforgettable during a performance.", "lat": 47.797933, "lon": 13.042072, "p": "v"}, {"n": "Mozarteum Foundation (Stiftung Mozarteum)", "cat": "do", "tier": "", "a": "Schwarzstrasse, right bank", "d": "The world's centre of Mozart scholarship, with two elegant concert halls, the family's letters and instruments, and the small garden pavilion where he is said to have composed The Magic Flute. The serious counterpoint to the tourist Mozart, for those who want the real music.", "lat": 47.803781, "lon": 13.041547, "p": "v"}, {"n": "Museum der Moderne Mönchsberg", "cat": "do", "tier": "", "a": "Mönchsberg plateau", "d": "A crisp modernist gallery of 20th- and 21st-century art set 60 metres above the Old Town, reached by a dedicated lift that rises in half a minute. The art is strong, but the terrace and its restaurant hold the finest full panorama of the city and Alps — a serene lunch with a view.", "lat": 47.800903, "lon": 13.038299, "p": "v"}, {"n": "Mönchsberg Walk and Viewpoints", "cat": "do", "tier": "", "a": "Mönchsberg plateau", "d": "A green cliff-top promenade running the length of the Old Town, dotted with lookouts, the Richterhöhe bastion and quiet benches, easily reached by lift and level once you are up. The locals' escape from the crowds below, with the fortress on one side and the mountains on the other.", "lat": 47.798989, "lon": 13.03693, "p": "a"}, {"n": "Kapuzinerberg", "cat": "do", "tier": "", "a": "Right bank, above the river", "d": "The wooded hill facing the fortress, climbed by a Stations-of-the-Cross path to a Capuchin monastery, deer, and some of the best views back at the Old Town skyline. Stefan Zweig once lived here; a peaceful, uncrowded hour for those who like to walk.", "lat": 47.804067, "lon": 13.0575, "p": "v"}, {"n": "Salzach Riverbanks", "cat": "do", "tier": "", "a": "Both banks, city centre", "d": "Wide, flat promenades along the fast green river linking the two halves of the city, lined with pastel facades and lace-locked footbridges, the fortress always in view. The easiest, loveliest stroll in Salzburg — perfect for a multi-generational group at any pace.", "lat": 47.287653, "lon": 12.822526, "p": "v"}, {"n": "Salzburg Museum (Neue Residenz)", "cat": "do", "tier": "", "a": "Mozartplatz, Altstadt", "d": "The city's flagship history museum in the New Residence palace, elegantly telling Salzburg's story from Roman roots through the prince-archbishops to the Festival. An award-winning, unhurried indoor option when the weather turns.", "lat": 47.798444, "lon": 13.04808, "p": "v"}, {"n": "Hellbrunn Palace and Trick Fountains", "cat": "do", "tier": "", "a": "Morzg, south of the city", "d": "A prince-archbishop's 1615 pleasure villa surrounded by Mannerist water gardens engineered to soak unsuspecting guests — grottoes, a hydraulic mechanical theatre and hidden jets that delight children and grandparents alike. A joyous, easy half-day just outside town; take a private guide who knows which seats stay dry.", "lat": 47.799851, "lon": 13.044372, "p": "a"}, {"n": "The Sound of Music Gazebo (Hellbrunn)", "cat": "do", "tier": "", "a": "Hellbrunn Palace park", "d": "The glass garden pavilion of \"Sixteen Going on Seventeen,\" moved to the Hellbrunn grounds and freely visitable in the park. A quick, sentimental stop that pairs naturally with the trick fountains for fans of the film.", "lat": 47.769798, "lon": 13.071634, "p": "a"}, {"n": "Steintheater (Stone Theatre), Hellbrunn", "cat": "do", "tier": "", "a": "Hellbrunn park", "d": "A former quarry turned open-air stage, where in 1617 the first opera performed outside Italy was staged — arguably the oldest such theatre north of the Alps. A hidden, moss-softened amphitheatre a short walk from the palace, magical and almost always empty.", "lat": 47.756945, "lon": 13.068086, "p": "v"}, {"n": "Sound of Music Locations Tour", "cat": "do", "tier": "", "a": "City and Salzkammergut fringe", "d": "The half-day circuit of film settings — Leopoldskron's lake terrace, Frohnburg's gates, the Mirabell gardens, the Nonnberg convent and the Mondsee wedding church. Best done privately by car so the family sets its own pace and skips the sing-along coach.", "lat": 47.763199, "lon": 13.063985, "p": "v"}, {"n": "Schloss Leopoldskron", "cat": "do", "tier": "", "a": "Leopoldskroner Weiher, south-west", "d": "A Rococo lakeside palace, once Max Reinhardt's and the lake-terrace \"von Trapp villa\" of The Sound of Music, now an exclusive private hotel and seminar house. Its mirrored Venetian Room and gardens can be experienced over afternoon tea or a stay — the film's most beautiful real address.", "lat": 47.788351, "lon": 13.038683, "p": "v"}, {"n": "Stiegl-Brauwelt", "cat": "do", "tier": "", "a": "Maxglan, west of the centre", "d": "The visitor world of Austria's largest private brewery, brewing since 1492, with a museum, a garden and generous tastings of unfiltered beer. A relaxed, hands-on afternoon for the beer-curious and an easy change of register from all the Baroque.", "lat": 47.793694, "lon": 13.022263, "p": "v"}, {"n": "Untersberg Cable Car", "cat": "do", "tier": "", "a": "St. Leonhard, south of the city", "d": "An eight-minute glass gondola from the city's doorstep to the top of the Untersberg at 1,776 metres, where a short walk delivers a sweeping Alpine panorama across Salzburg and Bavaria. The quickest way to put the family on a real mountain summit before lunch — take warm layers even in summer.", "lat": 47.803442, "lon": 13.045115, "p": "v"}, {"n": "Gaisberg", "cat": "do", "tier": "", "a": "East of the city", "d": "The rounded local mountain reached by a scenic road to a summit of paragliders, walking trails and a 360-degree view over the lakes and Alps. A favourite short drive for locals at sunset, and gentle enough for a stroll rather than a hike.", "lat": 47.795849, "lon": 13.103389, "p": "v"}, {"n": "Hallstatt", "cat": "do", "tier": "", "a": "Salzkammergut (day trip, ~75 min by car)", "d": "The impossibly pretty lake-and-mountain village whose reflected houses have made it one of Europe's most photographed places, with a 7,000-year salt-mining history above it. Go early or late to have it calm; a private driver makes the scenic Wolfgangsee route part of the pleasure.", "lat": 47.798135, "lon": 13.046481, "p": "v"}, {"n": "St Wolfgang and the Wolfgangsee", "cat": "do", "tier": "", "a": "Salzkammergut (day trip, ~50 min)", "d": "A storybook lakeside village around the White Horse Inn of operetta fame, with a rack railway up the Schafberg for a panorama over the whole lake district. A relaxed, elegant stop on the way to or from Hallstatt, with lake terraces made for a long lunch.", "lat": 47.765736, "lon": 13.36824, "p": "v"}, {"n": "Fuschlsee and Fuschl am See", "cat": "do", "tier": "", "a": "Salzkammergut (day trip, ~25 min)", "d": "A small, dazzlingly clear drinking-water lake ringed by forest, closest of the lakes to the city and home to the Schloss Fuschl estate. An easy first taste of the Salzkammergut — a swim, a lakeside walk, and back for dinner.", "lat": 47.802918, "lon": 13.28068, "p": "v"}, {"n": "Salzwelten Salt Mine, Hallein", "cat": "do", "tier": "", "a": "Bad Dürrnberg, Hallein (day trip, ~25 min)", "d": "The salt that made Salzburg rich, explored underground on miners' wooden slides, a boat across a mirror-still brine lake and a train through the mountain — theatrical fun that lands equally with children and grandparents. Cool year-round; they provide the overalls.", "lat": 47.666961, "lon": 13.090184, "p": "v"}, {"n": "Eisriesenwelt Ice Cave, Werfen", "cat": "do", "tier": "", "a": "Werfen (day trip, ~45 min; seasonal, May–Oct)", "d": "The largest ice cave in the world open to visitors, over 40 kilometres of passages with about a kilometre of glittering frozen cathedrals and waterfalls lit by carbide lamp. A genuine adventure — cold, with steps and a cable car, best for the fitter and more curious of the group.", "lat": 47.510864, "lon": 13.19323, "p": "v"}, {"n": "Hohenwerfen Fortress, Werfen", "cat": "do", "tier": "", "a": "Werfen (day trip, ~45 min)", "d": "A 900-year-old cliff-top castle above the Salzach valley, famous for its dramatic falconry demonstrations with eagles and vultures wheeling over the ramparts. It stars in the aerial shots of The Sound of Music, and pairs naturally with the nearby ice cave for a full mountain day.", "lat": 47.482697, "lon": 13.188592, "p": "v"}, {"n": "Berchtesgaden Salt Mine", "cat": "do", "tier": "", "a": "Berchtesgaden, Germany (day trip, ~30 min)", "d": "A working German salt mine turned experience, entered by mine train and slides with a light show across an underground salt lake — a polished alternative to Hallein just over the border. Reliably delightful for children, and cool on a hot summer afternoon.", "lat": 47.666961, "lon": 13.090184, "p": "v"}, {"n": "Augustiner Bräustübl Mülln", "cat": "party", "tier": "Landmark bars", "a": "Mülln / below the Mönchsberg", "d": "A monastery beer hall pouring from wooden barrels since 1621 — Austria's largest of its kind, all stone jugs, chestnut garden and unforced local life.", "lat": 47.805414, "lon": 13.033841, "p": "v"}, {"n": "Schloss Bar, Rosewood Schloss Fuschl", "cat": "party", "tier": "Cocktail bars", "a": "Hof bei Salzburg / Lake Fuschl", "d": "The lakeside castle's handsome main bar — hand-painted alpine murals, classic and inventive cocktails, and an intimate Whisky Room alongside.", "lat": 47.808707, "lon": 13.254885, "p": "v"}, {"n": "Mayday Bar & Threesixty Bar, Hangar-7", "cat": "party", "tier": "Cocktail bars", "a": "By the airport / Hangar-7", "d": "Two design-forward bars inside Red Bull's glass hangar — one at ground level, one suspended above the aircraft — with polished, ambitious cocktails.", "lat": 47.664889, "lon": 13.088431, "p": "v"}, {"n": "The Sketch Bar & Lounge, Hotel Bristol", "cat": "party", "tier": "Landmark bars", "a": "Neustadt / Makartplatz", "d": "The grand old Bristol's fireside bar — creative cocktails and long drinks in a calm, old-world room facing the Mirabell Gardens.", "lat": 47.802945, "lon": 13.043881, "p": "a"}]}
+{
+  "center": [
+    47.798135,
+    13.046481
+  ],
+  "venues": [
+    {
+      "n": "Rosewood Schloss Fuschl",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Hof bei Salzburg / Lake Fuschl (\u224825 min east of the Old Town)",
+      "d": "A 15th-century lakeside castle reborn by Rosewood in 2024 \u2014 the region's most complete luxury retreat, set in its own estate on Lake Fuschl.",
+      "lat": 47.808626,
+      "lon": 13.25618,
+      "photos": []
+    },
+    {
+      "n": "Hotel Sacher Salzburg",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Neustadt / right bank, on the Salzach facing the Old Town",
+      "d": "Salzburg's grande dame \u2014 a riverside palace of the famed Sacher family, with the finest Old Town views in the city.",
+      "lat": 47.8022,
+      "lon": 13.043293,
+      "photos": []
+    },
+    {
+      "n": "Hotel Schloss M\u00f6nchstein",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "M\u00f6nchsberg / the city mountain, above the Old Town",
+      "d": "A small castle-hotel in a private park atop the M\u00f6nchsberg \u2014 seclusion and forest quiet, minutes above the city by the mountain lift.",
+      "lat": 47.804057,
+      "lon": 13.035702,
+      "photos": []
+    },
+    {
+      "n": "Hotel Goldener Hirsch, a Luxury Collection Hotel",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Altstadt / Getreidegasse, the heart of the Old Town",
+      "d": "An inn since 1564 on Salzburg's grandest shopping street \u2014 beamed, antique-filled rooms with centuries of pedigree, now under Marriott's Luxury Collection.",
+      "lat": 47.799887,
+      "lon": 13.040952,
+      "photos": []
+    },
+    {
+      "n": "Sheraton Grand Salzburg",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Neustadt / beside the Mirabell Gardens",
+      "d": "A capable, spacious modern grand hotel right on the Mirabell Gardens \u2014 reliable comfort and easy access to both riverbanks.",
+      "lat": 47.829265,
+      "lon": 13.005127,
+      "photos": []
+    },
+    {
+      "n": "Restaurant Ikarus",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Hangar-7, by the airport (\u224810 min from the Old Town)",
+      "d": "The world's only rotating-guest-chef fine-dining room \u2014 a different acclaimed chef every month, under culinary director Martin Klein, inside Red Bull's glass Hangar-7.",
+      "lat": 47.793648,
+      "lon": 13.007896,
+      "photos": []
+    },
+    {
+      "n": "SENNS.Restaurant",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "S\u00f6llheim / a converted metal factory on the city's edge",
+      "d": "Andreas Senn's precise, contemporary cooking in a raw industrial hall \u2014 Salzburg's other two-star, and one of Austria's most exciting tables.",
+      "lat": 47.83606,
+      "lon": 13.063369,
+      "photos": []
+    },
+    {
+      "n": "Carpe Diem",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Altstadt / Getreidegasse 50",
+      "d": "Fine dining reimagined as elegant, cone-served small plates \u2014 a singular concept on the Old Town's grandest street, from the Red Bull stable.",
+      "lat": 47.793659,
+      "lon": 13.007888,
+      "photos": []
+    },
+    {
+      "n": "Esszimmer",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Neustadt / at the foot of the M\u00f6nchsberg",
+      "d": "Andreas Kaiblinger's flavour-forward, contemporary Austrian cooking, with his wife Andrea's warm front-of-house and a considered wine list.",
+      "lat": 47.806697,
+      "lon": 13.034109,
+      "photos": []
+    },
+    {
+      "n": "The Glass Garden",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "M\u00f6nchsberg / at Hotel Schloss M\u00f6nchstein",
+      "d": "Simon Wagner's delicate, produce-led cooking in a glass pavilion high above the city \u2014 food and fortress views in one sitting.",
+      "lat": 47.804016,
+      "lon": 13.03581,
+      "photos": []
+    },
+    {
+      "n": "Pfefferschiff",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Hallwang / S\u00f6llheim (\u224815 min north-east of the Old Town)",
+      "d": "J\u00fcrgen Vigne's bold, ingredient-driven cooking in a 17th-century parish house \u2014 one of the region's longest-running serious kitchens.",
+      "lat": 47.838171,
+      "lon": 13.078568,
+      "photos": []
+    },
+    {
+      "n": "Restaurant Brandst\u00e4tter",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Salzburg / Liefering, west of the centre",
+      "d": "A family-run country house of hearty, honest Austrian cooking \u2014 a beautiful garden, a serious cellar and terrific value.",
+      "lat": 47.82669,
+      "lon": 13.010006,
+      "photos": []
+    },
+    {
+      "n": "Restaurant Obauer",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Werfen (\u224840 min south of Salzburg)",
+      "d": "The Obauer brothers' legendary two-star \u2014 a lifetime of refined alpine-Austrian cooking, worth the drive out toward the Werfen ice caves.",
+      "lat": 47.76739,
+      "lon": 13.363921,
+      "photos": []
+    },
+    {
+      "n": "Hohensalzburg Fortress",
+      "cat": "do",
+      "tier": "",
+      "a": "Festungsberg, Altstadt",
+      "d": "One of the largest and best-preserved medieval fortresses in Europe, begun in 1077 and never once taken by siege, crowning the city on its rock. A private guide can time the reserved funicular ride so grandparents skip the climb, and the ramparts give the family the definitive photograph of Salzburg spread below.",
+      "lat": 47.79521,
+      "lon": 13.048097,
+      "photos": []
+    },
+    {
+      "n": "FestungsBahn Funicular",
+      "cat": "do",
+      "tier": "",
+      "a": "Festungsgasse, Altstadt",
+      "d": "One of the world's oldest operating funiculars, running up to the fortress since 1892 on the line of an even older 16th-century hoist. The 54-second ride spares elders and small children the steep cobbled walk and is a small delight in itself.",
+      "lat": 47.795409,
+      "lon": 13.046244,
+      "photos": []
+    },
+    {
+      "n": "The Old Town (Altstadt)",
+      "cat": "do",
+      "tier": "",
+      "a": "Left bank of the Salzach",
+      "d": "A tight weave of Baroque squares, archways and merchant courtyards between the fortress and the river, walkable end to end and closed to most traffic. A private walking guide turns it from a pretty maze into a legible story of prince-archbishops, Mozart and money.",
+      "lat": 47.682403,
+      "lon": 13.095668,
+      "photos": []
+    },
+    {
+      "n": "Getreidegasse",
+      "cat": "do",
+      "tier": "",
+      "a": "Altstadt",
+      "d": "Salzburg's famous shopping lane, narrow and canyon-like, hung with wrought-iron guild signs that even global luxury houses must obey. The address of Mozart's birthplace at number 9 and a good spot to combine boutiques with a discreet, unhurried browse.",
+      "lat": 47.800018,
+      "lon": 13.042237,
+      "photos": []
+    },
+    {
+      "n": "Mozart's Birthplace (Mozarts Geburtshaus)",
+      "cat": "do",
+      "tier": "",
+      "a": "Getreidegasse 9, Altstadt",
+      "d": "The yellow house where Wolfgang Amadeus Mozart was born in 1756 and lived his first seventeen years, now a museum of his violins, letters and portraits. The essential Mozart pilgrimage, best taken with a private guide who can bring the child prodigy vividly to life for a multi-generational group.",
+      "lat": 47.799943,
+      "lon": 13.043554,
+      "photos": []
+    },
+    {
+      "n": "Mozart Residence (Mozart-Wohnhaus)",
+      "cat": "do",
+      "tier": "",
+      "a": "Makartplatz, right bank",
+      "d": "The larger apartment across the river where the Mozart family moved in 1773, with the composer's own fortepiano and a quieter, more reflective feel than the crowded birthplace. The two houses together give the fuller portrait of the man behind the myth.",
+      "lat": 47.802651,
+      "lon": 13.043771,
+      "photos": []
+    },
+    {
+      "n": "Salzburg Cathedral (Dom)",
+      "cat": "do",
+      "tier": "",
+      "a": "Domplatz, Altstadt",
+      "d": "The vast early-Baroque cathedral where Mozart was baptised and later served as organist, its bronze doors, marble facade and 4,000-pipe organs setting the scale of the prince-archbishops' ambition. Cool, grand and free to enter for a moment of calm between sights.",
+      "lat": 47.797846,
+      "lon": 13.046623,
+      "photos": []
+    },
+    {
+      "n": "DomQuartier Salzburg",
+      "cat": "do",
+      "tier": "",
+      "a": "Residenzplatz / Domplatz, Altstadt",
+      "d": "A single connected circuit through the Residenz state rooms, the cathedral terrace and galleries, and St Peter's museum \u2014 the seat of church-and-state power reopened after two centuries closed. A rewarding, weather-proof morning with a private guide for a family that wants depth over crowds.",
+      "lat": 47.79831,
+      "lon": 13.045641,
+      "photos": []
+    },
+    {
+      "n": "Residenz State Rooms",
+      "cat": "do",
+      "tier": "",
+      "a": "Residenzplatz, Altstadt",
+      "d": "The prince-archbishops' city palace, a suite of gilded staterooms where the young Mozart performed for the court, hung with Rembrandt, Rubens and Titian in the adjoining gallery. Opulent and intimate \u2014 the private face of Salzburg's rulers.",
+      "lat": 47.798523,
+      "lon": 13.046155,
+      "photos": []
+    },
+    {
+      "n": "St Peter's Abbey (Stift St. Peter)",
+      "cat": "do",
+      "tier": "",
+      "a": "Altstadt, below the fortress",
+      "d": "Founded in 696, the oldest monastery in the German-speaking world, its abbey church a layered jewel of Romanesque bones dressed in Rococo. Still a working Benedictine community, quiet and deeply atmospheric.",
+      "lat": 47.79699,
+      "lon": 13.044814,
+      "photos": []
+    },
+    {
+      "n": "St Peter's Cemetery (Petersfriedhof)",
+      "cat": "do",
+      "tier": "",
+      "a": "Altstadt, below the fortress",
+      "d": "One of Salzburg's oldest burial grounds, a wrought-iron garden of arcaded family vaults set against the sheer M\u00f6nchsberg cliff \u2014 where Mozart's sister Nannerl rests, and the visual model for The Sound of Music's escape scene. Serene, exquisite and endlessly photogenic.",
+      "lat": 47.796722,
+      "lon": 13.045453,
+      "photos": []
+    },
+    {
+      "n": "Catacombs of St Peter",
+      "cat": "do",
+      "tier": "",
+      "a": "Petersfriedhof, Altstadt",
+      "d": "Early Christian chapels and hermit cells hewn straight into the rock face above the cemetery, reached by a steep stair to little rooms with a startling view down over the graves. A short, memorable climb for those steady on their feet.",
+      "lat": 47.796722,
+      "lon": 13.045453,
+      "photos": []
+    },
+    {
+      "n": "Nonnberg Abbey (Stift Nonnberg)",
+      "cat": "do",
+      "tier": "",
+      "a": "Nonnberg, below the fortress",
+      "d": "The oldest continuously operating convent in the German-speaking world, founded around 714, where the real Maria von Trapp was a novice before her marriage. A hushed, working nunnery just above the Old Town, and the true starting point of the Sound of Music story.",
+      "lat": 47.795956,
+      "lon": 13.051463,
+      "photos": []
+    },
+    {
+      "n": "Franciscan Church (Franziskanerkirche)",
+      "cat": "do",
+      "tier": "",
+      "a": "Franziskanergasse, Altstadt",
+      "d": "A quietly extraordinary church where a dark Romanesque nave opens into a soaring Gothic choir crowned by a golden Baroque high altar \u2014 three eras stacked in one space. Often overlooked between the bigger sights, and all the better for it.",
+      "lat": 47.797956,
+      "lon": 13.044861,
+      "photos": []
+    },
+    {
+      "n": "Mozart Dinner Concert at St Peter Stiftskulinarium",
+      "cat": "do",
+      "tier": "",
+      "a": "St Peter's Abbey, Altstadt",
+      "d": "A candlelit evening of Mozart arias and a period three-course dinner in the Baroque hall of Europe's oldest restaurant, in business since 803 and once graced by Mozart himself. A romantic, only-in-Salzburg night; the kitchen will handle vegetarian and Indian dietary needs with advance notice.",
+      "lat": 47.796722,
+      "lon": 13.045453,
+      "photos": []
+    },
+    {
+      "n": "Salzburg Festival (Salzburger Festspiele)",
+      "cat": "do",
+      "tier": "",
+      "a": "Festival District, Altstadt (seasonal \u2014 late July to end August)",
+      "d": "Founded in 1920, the world's foremost festival of opera and drama, filling the Grosses Festspielhaus, the Felsenreitschule carved into the cliff, and the squares with the finest voices alive. The reason to plan a summer trip well in advance; the hardest ticket in classical music, and worth every effort to secure.",
+      "lat": 47.797387,
+      "lon": 13.031866,
+      "photos": []
+    },
+    {
+      "n": "Felsenreitschule",
+      "cat": "do",
+      "tier": "",
+      "a": "Festival District, Altstadt",
+      "d": "A theatre carved into the living rock of the M\u00f6nchsberg, its stone arcades once a riding school and now a spectacular festival stage \u2014 and the concert-hall backdrop of the final Sound of Music scene. Extraordinary even empty; unforgettable during a performance.",
+      "lat": 47.797933,
+      "lon": 13.042072,
+      "photos": []
+    },
+    {
+      "n": "Mozarteum Foundation (Stiftung Mozarteum)",
+      "cat": "do",
+      "tier": "",
+      "a": "Schwarzstrasse, right bank",
+      "d": "The world's centre of Mozart scholarship, with two elegant concert halls, the family's letters and instruments, and the small garden pavilion where he is said to have composed The Magic Flute. The serious counterpoint to the tourist Mozart, for those who want the real music.",
+      "lat": 47.803781,
+      "lon": 13.041547,
+      "photos": []
+    },
+    {
+      "n": "Museum der Moderne M\u00f6nchsberg",
+      "cat": "do",
+      "tier": "",
+      "a": "M\u00f6nchsberg plateau",
+      "d": "A crisp modernist gallery of 20th- and 21st-century art set 60 metres above the Old Town, reached by a dedicated lift that rises in half a minute. The art is strong, but the terrace and its restaurant hold the finest full panorama of the city and Alps \u2014 a serene lunch with a view.",
+      "lat": 47.800903,
+      "lon": 13.038299,
+      "photos": []
+    },
+    {
+      "n": "M\u00f6nchsberg Walk and Viewpoints",
+      "cat": "do",
+      "tier": "",
+      "a": "M\u00f6nchsberg plateau",
+      "d": "A green cliff-top promenade running the length of the Old Town, dotted with lookouts, the Richterh\u00f6he bastion and quiet benches, easily reached by lift and level once you are up. The locals' escape from the crowds below, with the fortress on one side and the mountains on the other.",
+      "lat": 47.798989,
+      "lon": 13.03693,
+      "photos": []
+    },
+    {
+      "n": "Kapuzinerberg",
+      "cat": "do",
+      "tier": "",
+      "a": "Right bank, above the river",
+      "d": "The wooded hill facing the fortress, climbed by a Stations-of-the-Cross path to a Capuchin monastery, deer, and some of the best views back at the Old Town skyline. Stefan Zweig once lived here; a peaceful, uncrowded hour for those who like to walk.",
+      "lat": 47.804067,
+      "lon": 13.0575,
+      "photos": []
+    },
+    {
+      "n": "Salzach Riverbanks",
+      "cat": "do",
+      "tier": "",
+      "a": "Both banks, city centre",
+      "d": "Wide, flat promenades along the fast green river linking the two halves of the city, lined with pastel facades and lace-locked footbridges, the fortress always in view. The easiest, loveliest stroll in Salzburg \u2014 perfect for a multi-generational group at any pace.",
+      "lat": 47.287653,
+      "lon": 12.822526,
+      "photos": []
+    },
+    {
+      "n": "Salzburg Museum (Neue Residenz)",
+      "cat": "do",
+      "tier": "",
+      "a": "Mozartplatz, Altstadt",
+      "d": "The city's flagship history museum in the New Residence palace, elegantly telling Salzburg's story from Roman roots through the prince-archbishops to the Festival. An award-winning, unhurried indoor option when the weather turns.",
+      "lat": 47.798444,
+      "lon": 13.04808,
+      "photos": []
+    },
+    {
+      "n": "Hellbrunn Palace and Trick Fountains",
+      "cat": "do",
+      "tier": "",
+      "a": "Morzg, south of the city",
+      "d": "A prince-archbishop's 1615 pleasure villa surrounded by Mannerist water gardens engineered to soak unsuspecting guests \u2014 grottoes, a hydraulic mechanical theatre and hidden jets that delight children and grandparents alike. A joyous, easy half-day just outside town; take a private guide who knows which seats stay dry.",
+      "lat": 47.799851,
+      "lon": 13.044372,
+      "photos": []
+    },
+    {
+      "n": "The Sound of Music Gazebo (Hellbrunn)",
+      "cat": "do",
+      "tier": "",
+      "a": "Hellbrunn Palace park",
+      "d": "The glass garden pavilion of \"Sixteen Going on Seventeen,\" moved to the Hellbrunn grounds and freely visitable in the park. A quick, sentimental stop that pairs naturally with the trick fountains for fans of the film.",
+      "lat": 47.769798,
+      "lon": 13.071634,
+      "photos": []
+    },
+    {
+      "n": "Steintheater (Stone Theatre), Hellbrunn",
+      "cat": "do",
+      "tier": "",
+      "a": "Hellbrunn park",
+      "d": "A former quarry turned open-air stage, where in 1617 the first opera performed outside Italy was staged \u2014 arguably the oldest such theatre north of the Alps. A hidden, moss-softened amphitheatre a short walk from the palace, magical and almost always empty.",
+      "lat": 47.756945,
+      "lon": 13.068086,
+      "photos": []
+    },
+    {
+      "n": "Sound of Music Locations Tour",
+      "cat": "do",
+      "tier": "",
+      "a": "City and Salzkammergut fringe",
+      "d": "The half-day circuit of film settings \u2014 Leopoldskron's lake terrace, Frohnburg's gates, the Mirabell gardens, the Nonnberg convent and the Mondsee wedding church. Best done privately by car so the family sets its own pace and skips the sing-along coach.",
+      "lat": 47.763199,
+      "lon": 13.063985,
+      "photos": []
+    },
+    {
+      "n": "Schloss Leopoldskron",
+      "cat": "do",
+      "tier": "",
+      "a": "Leopoldskroner Weiher, south-west",
+      "d": "A Rococo lakeside palace, once Max Reinhardt's and the lake-terrace \"von Trapp villa\" of The Sound of Music, now an exclusive private hotel and seminar house. Its mirrored Venetian Room and gardens can be experienced over afternoon tea or a stay \u2014 the film's most beautiful real address.",
+      "lat": 47.788351,
+      "lon": 13.038683,
+      "photos": []
+    },
+    {
+      "n": "Stiegl-Brauwelt",
+      "cat": "do",
+      "tier": "",
+      "a": "Maxglan, west of the centre",
+      "d": "The visitor world of Austria's largest private brewery, brewing since 1492, with a museum, a garden and generous tastings of unfiltered beer. A relaxed, hands-on afternoon for the beer-curious and an easy change of register from all the Baroque.",
+      "lat": 47.793694,
+      "lon": 13.022263,
+      "photos": []
+    },
+    {
+      "n": "Untersberg Cable Car",
+      "cat": "do",
+      "tier": "",
+      "a": "St. Leonhard, south of the city",
+      "d": "An eight-minute glass gondola from the city's doorstep to the top of the Untersberg at 1,776 metres, where a short walk delivers a sweeping Alpine panorama across Salzburg and Bavaria. The quickest way to put the family on a real mountain summit before lunch \u2014 take warm layers even in summer.",
+      "lat": 47.803442,
+      "lon": 13.045115,
+      "photos": []
+    },
+    {
+      "n": "Gaisberg",
+      "cat": "do",
+      "tier": "",
+      "a": "East of the city",
+      "d": "The rounded local mountain reached by a scenic road to a summit of paragliders, walking trails and a 360-degree view over the lakes and Alps. A favourite short drive for locals at sunset, and gentle enough for a stroll rather than a hike.",
+      "lat": 47.795849,
+      "lon": 13.103389,
+      "photos": []
+    },
+    {
+      "n": "Hallstatt",
+      "cat": "do",
+      "tier": "",
+      "a": "Salzkammergut (day trip, ~75 min by car)",
+      "d": "The impossibly pretty lake-and-mountain village whose reflected houses have made it one of Europe's most photographed places, with a 7,000-year salt-mining history above it. Go early or late to have it calm; a private driver makes the scenic Wolfgangsee route part of the pleasure.",
+      "lat": 47.798135,
+      "lon": 13.046481,
+      "photos": []
+    },
+    {
+      "n": "St Wolfgang and the Wolfgangsee",
+      "cat": "do",
+      "tier": "",
+      "a": "Salzkammergut (day trip, ~50 min)",
+      "d": "A storybook lakeside village around the White Horse Inn of operetta fame, with a rack railway up the Schafberg for a panorama over the whole lake district. A relaxed, elegant stop on the way to or from Hallstatt, with lake terraces made for a long lunch.",
+      "lat": 47.765736,
+      "lon": 13.36824,
+      "photos": []
+    },
+    {
+      "n": "Fuschlsee and Fuschl am See",
+      "cat": "do",
+      "tier": "",
+      "a": "Salzkammergut (day trip, ~25 min)",
+      "d": "A small, dazzlingly clear drinking-water lake ringed by forest, closest of the lakes to the city and home to the Schloss Fuschl estate. An easy first taste of the Salzkammergut \u2014 a swim, a lakeside walk, and back for dinner.",
+      "lat": 47.802918,
+      "lon": 13.28068,
+      "photos": []
+    },
+    {
+      "n": "Salzwelten Salt Mine, Hallein",
+      "cat": "do",
+      "tier": "",
+      "a": "Bad D\u00fcrrnberg, Hallein (day trip, ~25 min)",
+      "d": "The salt that made Salzburg rich, explored underground on miners' wooden slides, a boat across a mirror-still brine lake and a train through the mountain \u2014 theatrical fun that lands equally with children and grandparents. Cool year-round; they provide the overalls.",
+      "lat": 47.666961,
+      "lon": 13.090184,
+      "photos": []
+    },
+    {
+      "n": "Eisriesenwelt Ice Cave, Werfen",
+      "cat": "do",
+      "tier": "",
+      "a": "Werfen (day trip, ~45 min; seasonal, May\u2013Oct)",
+      "d": "The largest ice cave in the world open to visitors, over 40 kilometres of passages with about a kilometre of glittering frozen cathedrals and waterfalls lit by carbide lamp. A genuine adventure \u2014 cold, with steps and a cable car, best for the fitter and more curious of the group.",
+      "lat": 47.510864,
+      "lon": 13.19323,
+      "photos": []
+    },
+    {
+      "n": "Hohenwerfen Fortress, Werfen",
+      "cat": "do",
+      "tier": "",
+      "a": "Werfen (day trip, ~45 min)",
+      "d": "A 900-year-old cliff-top castle above the Salzach valley, famous for its dramatic falconry demonstrations with eagles and vultures wheeling over the ramparts. It stars in the aerial shots of The Sound of Music, and pairs naturally with the nearby ice cave for a full mountain day.",
+      "lat": 47.482697,
+      "lon": 13.188592,
+      "photos": []
+    },
+    {
+      "n": "Berchtesgaden Salt Mine",
+      "cat": "do",
+      "tier": "",
+      "a": "Berchtesgaden, Germany (day trip, ~30 min)",
+      "d": "A working German salt mine turned experience, entered by mine train and slides with a light show across an underground salt lake \u2014 a polished alternative to Hallein just over the border. Reliably delightful for children, and cool on a hot summer afternoon.",
+      "lat": 47.666961,
+      "lon": 13.090184,
+      "photos": []
+    },
+    {
+      "n": "Augustiner Br\u00e4ust\u00fcbl M\u00fclln",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "M\u00fclln / below the M\u00f6nchsberg",
+      "d": "A monastery beer hall pouring from wooden barrels since 1621 \u2014 Austria's largest of its kind, all stone jugs, chestnut garden and unforced local life.",
+      "lat": 47.805414,
+      "lon": 13.033841,
+      "photos": []
+    },
+    {
+      "n": "Schloss Bar, Rosewood Schloss Fuschl",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Hof bei Salzburg / Lake Fuschl",
+      "d": "The lakeside castle's handsome main bar \u2014 hand-painted alpine murals, classic and inventive cocktails, and an intimate Whisky Room alongside.",
+      "lat": 47.808707,
+      "lon": 13.254885,
+      "photos": []
+    },
+    {
+      "n": "Mayday Bar & Threesixty Bar, Hangar-7",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "By the airport / Hangar-7",
+      "d": "Two design-forward bars inside Red Bull's glass hangar \u2014 one at ground level, one suspended above the aircraft \u2014 with polished, ambitious cocktails.",
+      "lat": 47.664889,
+      "lon": 13.088431,
+      "photos": []
+    },
+    {
+      "n": "The Sketch Bar & Lounge, Hotel Bristol",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "Neustadt / Makartplatz",
+      "d": "The grand old Bristol's fireside bar \u2014 creative cocktails and long drinks in a calm, old-world room facing the Mirabell Gardens.",
+      "lat": 47.802945,
+      "lon": 13.043881,
+      "photos": []
+    }
+  ]
+}

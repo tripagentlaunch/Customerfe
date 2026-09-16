@@ -1,0 +1,168 @@
+.wmBest {
+  font-family: var(--serif);
+  font-size: 28px;
+  font-style: italic;
+  line-height: 1.16;
+  color: var(--ink);
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  margin: 0;
+}
+
+.wmBlurb {
+  font-family: var(--sans);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.34;
+  color: var(--ink-soft);
+  margin: 14px 0 0;
+}
+
+/* Two independent grids stacked (Jan-Jun, Jul-Dec) — the fixed two-row
+   layout the calendar always uses now, regardless of viewport width. */
+.stripStack {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  margin-top: 28px;
+}
+
+/* A real CSS Grid (columns set inline — repeat(N, 1fr), N = that half's own
+   month count), not flex-wrap: an event's label needs to span exactly the
+   columns its months cover (grid-column: start / span N) within its own
+   half, which only works if there's one shared, fixed set of column tracks
+   that both the labels (row 1, explicitly positioned by month index) and
+   the month chips (row 2) sit inside. row-gap:0 (column-gap stays) is what
+   lets a label sit flush on top of its month(s) like a tag rather than a
+   caption underneath — a month with no event above it just has empty grid
+   space there instead, no visible gap of its own either way. */
+.strip {
+  display: grid;
+  column-gap: 8px;
+  row-gap: 0;
+}
+
+/* A rounded rectangle, not a full pill (was border-radius:999px) — a flat
+   top edge is what lets .monthEventLabel's own flat bottom edge sit flush
+   against it, reading as one joined tag-and-chip unit for months that have
+   a label above; months without one still look fine on their own. */
+.month {
+  font-family: var(--fr);
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  padding: 9px 15px;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  background: none;
+  color: var(--stone);
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+  transition: background-color 0.2s var(--ease), color 0.2s var(--ease), border-color 0.2s var(--ease), transform 0.2s var(--ease);
+}
+
+.wm2 {
+  background: var(--accent-2);
+  border-color: var(--accent-2);
+  color: #fff;
+}
+
+.wm1 {
+  border-color: var(--accent-2);
+  color: var(--accent-2);
+}
+
+.wm0 {
+  color: var(--stone);
+}
+
+/* Hover: a slight, transient lift only — "this is clickable", nothing more. */
+.month.hovering {
+  transform: translateY(-1px);
+}
+
+/* Selected (clicked, or the event auto-advance is currently on): a
+   signature-colored border, deliberately with no movement of its own —
+   unlike hover's lift above, a month that's actually selected shouldn't be
+   shifting position while the user is looking at it. */
+.month.selected {
+  border-color: var(--signature);
+}
+
+/* A month with no event of its own — informational tier color only, no
+   hover/click affordance, since it does nothing (see .monthStatic in the
+   component: it's a plain div, not a button, but the cursor/pointer-events
+   reset here is the belt-and-braces CSS half of that). */
+.monthStatic {
+  cursor: default;
+  pointer-events: none;
+}
+
+/* Sits directly on top of its month(s), joined — rounded top corners only
+   (flat bottom, flush against .month's own flat top) so it reads as a tag
+   stuck to the chip(s) below rather than a separate caption. Always
+   visible, spanning exactly the grid columns of its own months (set inline
+   per label — grid-column: start / span N); width:100% (not
+   justify-self:center like .month) so a multi-month span visually reads as
+   one continuous tag over its whole range. */
+.monthEventLabel {
+  font-family: var(--fr);
+  font-weight: 600;
+  font-size: 10px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--signature);
+  background: var(--paper-2);
+  border: none;
+  border-radius: 8px 8px 0 0;
+  width: 100%;
+  padding: 6px 4px;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+  align-self: end;
+  transition: background-color 0.2s var(--ease), color 0.2s var(--ease);
+}
+
+/* Selected (clicked, or auto-advance's current event): the same light fill
+   the month's own event-list row gets below — deliberately no longer a
+   solid color swap, so "selected" reads as a calmer, more persistent state
+   than the brighter momentary hover-scale above. */
+.monthEventLabel.selected {
+  background-color: var(--line);
+  color: var(--ink);
+}
+
+.events {
+  margin-top: clamp(32px, 4vw, 48px);
+}
+
+/* .ta-event is a shared global class (site.css), so this is scoped to this
+   component's own usage of it, not applied everywhere it appears. Hover is
+   the same scale-up trick as the tag above (mirrors the Guide's own
+   card-inner hover, in reverse — see the comment on .monthEventLabel:hover)
+   rather than a fill, so a plain "this is clickable" preview never gets
+   confused with the calmer, persistent selected fill below it. */
+.events :global(.ta-event) {
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-left: -12px;
+  margin-right: -12px;
+  cursor: pointer;
+  transition: background-color 0.6s cubic-bezier(0.4, 0, 0.2, 1), transform 0.25s var(--ease);
+}
+
+.events :global(.ta-event):not(.selected):hover,
+.events .hoverFill {
+  transform: scale(1.015);
+}
+
+/* Selected (clicked, or auto-advance's current event): a light, persistent
+   fill — no movement, no flag, just enough to mark "this is what the map is
+   currently showing" without competing with the hover-scale above. */
+.events .selected {
+  background-color: var(--paper-2);
+}

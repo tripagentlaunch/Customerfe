@@ -1,1 +1,508 @@
-{"center": [34.164203, 77.584813], "venues": [{"n": "Chamba Camp Thiksey by TUTC", "cat": "stay", "tier": "Ultra", "a": "Thiksey", "d": "The camp that put luxury Ladakh on the map — canvas suites facing the great monastery, run like a grand hotel under the stars.", "lat": 34.050466, "lon": 77.668644, "p": "a"}, {"n": "Chamba Camp Diskit by TUTC", "cat": "stay", "tier": "Ultra", "a": "Nubra", "d": "TUTC's Nubra outpost — safari-style luxury in a high desert valley, apricot orchards and sand dunes at the door.", "lat": 34.556481, "lon": 77.551132, "p": "v"}, {"n": "Nimmu House", "cat": "stay", "tier": "Grand", "a": "Sham", "d": "A restored 1920s noble house at the confluence of the Indus and Zanskar — five heritage rooms and orchard glamping tents, quietly the most characterful stay in Ladakh.", "lat": 34.19632, "lon": 77.33551, "p": "v"}, {"n": "Stok Palace Heritage Hotel", "cat": "stay", "tier": "Grand", "a": "Stok", "d": "The summer palace of Ladakh's royal family, opened to a handful of guests — you sleep inside living history, thangkas and antiques included.", "lat": 34.073026, "lon": 77.548652, "p": "v"}, {"n": "Lchang Nang Retreat — The House of Trees", "cat": "stay", "tier": "Luxury", "a": "Nubra", "d": "A quiet Nubra retreat on the riverbank — private villas among elm and apricot trees, organic gardens, snow peaks all around.", "lat": 34.134765, "lon": 77.831055, "p": "a"}, {"n": "Ladakh Sarai", "cat": "stay", "tier": "Luxury", "a": "Leh", "d": "Ladakh's original eco resort — yurt-style bungalows in an orchard of willow and apricot, inspired by the old Silk Road caravanserais.", "lat": 34.164203, "lon": 77.584813, "p": "a"}, {"n": "The Grand Dragon Ladakh", "cat": "stay", "tier": "Premium", "a": "Leh", "d": "Leh's only certified five-star and the town's most reliable fixed-roof address — warm floors, real service, open when the camps are shut.", "lat": 34.156571, "lon": 77.58052, "p": "v"}, {"n": "Chamba Camp Dining by TUTC", "cat": "eat", "tier": "Destination", "a": "Thiksey", "d": "Al-fresco fine dining under Himalayan stars, plated to grand-hotel standard in the middle of the high desert.", "lat": 34.050466, "lon": 77.668644, "p": "a"}, {"n": "Tsas by Dolkhar", "cat": "eat", "tier": "Fine", "a": "Leh", "d": "Ladakh's most ambitious modern kitchen — regional produce and heritage recipes given a genuine fine-dining hand.", "lat": 34.164203, "lon": 77.584813, "p": "a"}, {"n": "Bon Appetit", "cat": "eat", "tier": "Smart", "a": "Leh", "d": "A traditional-house setting away from the bazaar, green fields and snow peaks in view — Leh's go-to for a considered meal out.", "lat": 34.165963, "lon": 77.581559, "p": "v"}, {"n": "The Tibetan Kitchen", "cat": "eat", "tier": "Smart", "a": "Leh", "d": "The place to eat momos, thukpa and tingmo done properly — the town's most trusted name for Tibetan and Ladakhi food.", "lat": 34.163962, "lon": 77.581328, "p": "v"}, {"n": "Gesmo Restaurant", "cat": "eat", "tier": "Casual", "a": "Leh", "d": "One of Leh's oldest cafés — decades of feeding travellers fresh bread, cakes and honest plates on the Main Bazaar.", "lat": 34.163847, "lon": 77.582758, "p": "v"}, {"n": "Acclimatise in Leh First (The Essential 48 Hours)", "cat": "do", "tier": "", "a": "Leh", "d": "Leh sits at roughly 3,500 metres, and the single most important thing on any Ladakh itinerary is to do almost nothing for the first day or two while your body adjusts. A well-planned trip builds in rest, hydration and an oxygen-aware pace before the high passes and lakes, which is exactly what protects an elder or a child on a multi-generational trip.", "lat": 34.164203, "lon": 77.584813, "p": "a"}, {"n": "Leh Palace (Lachen Palkar)", "cat": "do", "tier": "", "a": "Leh", "d": "The nine-storey royal palace rises straight out of the old town, built around 1600 by King Sengge Namgyal and modelled, in miniature, on Lhasa's Potala. Climb its dim stairways to the rooftop and the whole Indus Valley and the snow line open up below you.", "lat": 34.165948, "lon": 77.586203, "p": "v"}, {"n": "Shanti Stupa", "cat": "do", "tier": "", "a": "Leh", "d": "A white-domed Japanese-built peace stupa perched above Changspa at around 4,000 metres, reached by a steep flight of steps or a short drive. Come at sunset, when the town glows amber below and the peaks turn rose, for the loveliest panorama in Leh.", "lat": 34.173763, "lon": 77.574938, "p": "v"}, {"n": "Namgyal Tsemo Gompa", "cat": "do", "tier": "", "a": "Leh", "d": "The 15th-century hilltop monastery and old fort crowning the ridge above Leh Palace, home to a tall gold-faced Maitreya Buddha and faded murals. The short climb rewards you with the best bird's-eye view over the whole medieval town.", "lat": 34.167367, "lon": 77.590073, "p": "v"}, {"n": "Leh Old Town", "cat": "do", "tier": "", "a": "Leh", "d": "The warren of mudbrick lanes below the palace, where Central Asian caravan-era houses, tiny mosques and Buddhist shrines lean into each other. A quiet guided walk here, away from the bazaar, is the most human way to feel Leh's Silk Route past.", "lat": 34.164154, "lon": 77.587726, "p": "v"}, {"n": "The Main Bazaar", "cat": "do", "tier": "", "a": "Leh", "d": "Leh's broad, poplar-lined market street was laid out wide enough for horses, donkeys and camel caravans, and still hums with Ladakhi women selling vegetables, pashmina, apricots and turquoise. It is the town's living room, best browsed slowly in the cool of the evening.", "lat": 34.16467, "lon": 77.585109, "p": "v"}, {"n": "Hall of Fame Museum", "cat": "do", "tier": "", "a": "Leh", "d": "An Indian Army museum on the road to Kargil, dedicated to the soldiers of the Siachen and Kargil theatres, with weapons, letters and Siachen survival kit on display. It gives sober, moving context to just how contested and high this frontier is.", "lat": 34.164203, "lon": 77.584813, "p": "a"}, {"n": "Thiksey Monastery (Dawn Prayers & The Maitreya)", "cat": "do", "tier": "", "a": "Indus Valley", "d": "A twelve-storey white-and-ochre monastery cascading down a hill 19 km from Leh, often likened to a small Potala, with a two-storey 15-metre Maitreya Buddha inside. Arrive for the dawn prayer ceremony, when monks blow the long dungchen horns as the sun climbs the Indus Valley, for one of the great mornings of Buddhist Asia.", "lat": 34.140948, "lon": 77.483101, "p": "a"}, {"n": "Hemis Monastery (The Largest & The Festival)", "cat": "do", "tier": "", "a": "Indus Valley", "d": "Set in a hidden gorge 45 km from Leh, Hemis is the largest and wealthiest gompa in Ladakh, seat of the Drukpa lineage and keeper of a giant thangka unfurled only once every twelve years. Its June masked-dance festival, honouring Guru Padmasambhava, is the region's most spectacular.", "lat": 34.140948, "lon": 77.483101, "p": "a"}, {"n": "Diskit Monastery & The Giant Buddha (Nubra)", "cat": "do", "tier": "", "a": "Nubra Valley", "d": "The oldest and largest monastery in the Nubra Valley, watched over by a 32-metre statue of the Maitreya Buddha that gazes across the Shyok towards the border. The drive here over Khardung La and the sight of that giant golden Buddha above the desert valley is pure Ladakh.", "lat": 34.134765, "lon": 77.831055, "p": "a"}, {"n": "Shey Palace & Monastery", "cat": "do", "tier": "", "a": "Indus Valley", "d": "The former capital of Ladakh, its ruined hilltop palace overlooking one of the largest gold-gilded copper Buddha statues in the region. A short, easy stop from Leh that layers royal history onto the monastery trail.", "lat": 34.071617, "lon": 77.632758, "p": "v"}, {"n": "Stok Palace & Museum", "cat": "do", "tier": "", "a": "Indus Valley", "d": "The residence of Ladakh's royal family since 1843, part of it now a museum of crowns, thangkas, royal robes and turquoise jewellery. A heritage wing lets a few guests actually stay in the palace, the most regal address in Ladakh.", "lat": 34.073026, "lon": 77.548652, "p": "v"}, {"n": "Spituk Monastery", "cat": "do", "tier": "", "a": "Leh", "d": "A 15th-century gompa on a hill right beside Leh airport, with a Kali temple opened only during its winter Gustor festival and sweeping views of the Indus. Its closeness to town makes it an easy, atmospheric first monastery while you are still acclimatising.", "lat": 34.125976, "lon": 77.52631, "p": "v"}, {"n": "Phyang Monastery", "cat": "do", "tier": "", "a": "Sham Valley", "d": "A large, ochre-walled Drikung Kagyu monastery a short drive west of Leh, quieter than the marquee gompas and set among barley terraces. Its July Tsedup festival brings masked cham dances to a place most tour buses skip.", "lat": 34.186511, "lon": 77.489478, "p": "v"}, {"n": "Likir Monastery", "cat": "do", "tier": "", "a": "Sham Valley", "d": "Known for the enormous gilded open-air Maitreya Buddha that shines above the Sham Valley, plus a small museum of thangkas and old costumes. It anchors the gentle 'baby trek' between villages that makes an ideal acclimatisation walk.", "lat": 34.167367, "lon": 77.590073, "p": "v"}, {"n": "Matho Monastery (The Oracles)", "cat": "do", "tier": "", "a": "Indus Valley", "d": "The only Sakya-school monastery in Ladakh, famous for its spring Nagrang festival when two monks emerge as blindfolded oracles to foretell the year. A beautifully restored museum here has revived some of Ladakh's finest thangka conservation.", "lat": 34.140948, "lon": 77.483101, "p": "a"}, {"n": "Basgo Citadel & Maitreya Temples", "cat": "do", "tier": "", "a": "Sham Valley", "d": "The crumbling mud-brick towers of a former royal capital rise above the Indus, sheltering three temples with towering Maitreya statues and rare wall paintings. Listed on the World Monuments watch and gloriously atmospheric, it is one of Ladakh's most overlooked gems.", "lat": 34.167271, "lon": 77.589935, "p": "v"}, {"n": "Nubra Valley (Hunder Dunes & Bactrian Camels)", "cat": "do", "tier": "", "a": "Nubra Valley", "d": "A wide desert valley where the Shyok and Nubra rivers meet, with pale sand dunes at Hunder and shaggy double-humped Bactrian camels, descendants of the old Silk Route caravans. The sight of camels crossing high-altitude dunes below snow peaks is one of India's most surreal landscapes.", "lat": 34.134765, "lon": 77.831055, "p": "a"}, {"n": "Khardung La (Among The World's Highest Passes)", "cat": "do", "tier": "", "a": "Nubra Valley", "d": "The gateway pass to Nubra, long celebrated as one of the world's highest motorable passes, though its signboard height is disputed and newer BRO passes now sit higher. Standing in the thin air at the prayer-flag-draped top, with the Karakoram unfolding beyond, is a rite of passage every Ladakh traveller wants.", "lat": 34.134765, "lon": 77.831055, "p": "a"}, {"n": "Chang La", "cat": "do", "tier": "", "a": "Changthang", "d": "The high pass on the road to Pangong, another of Ladakh's very high crossings, marked by prayer flags, a tiny tea stall and often snow even in summer. It is the dramatic threshold you cross on the way to the great lakes.", "lat": 34.047169, "lon": 77.930438, "p": "v"}, {"n": "Magnetic Hill", "cat": "do", "tier": "", "a": "Leh", "d": "A stretch of road on the Leh-Kargil highway where cars in neutral appear to roll uphill, a gravity-defying optical illusion set among stark mountains. A quick, fun stop that always delights younger travellers on the way to the Sangam.", "lat": 34.170985, "lon": 77.352482, "p": "v"}, {"n": "Zanskar River Rafting", "cat": "do", "tier": "", "a": "Zanskar", "d": "In summer the Zanskar becomes a torrent of blue-green glacial water, offering some of the most scenic white-water rafting in the Himalayas through a deep gorge below Alchi and Chilling. It is the adrenalin counterpoint to the region's quiet monasteries.", "lat": 33.90962, "lon": 77.062569, "p": "v"}, {"n": "The Chadar Trek (Frozen Zanskar) — Context", "cat": "do", "tier": "", "a": "Zanskar", "d": "In deep winter the Zanskar freezes into a sheet of ice the locals call the 'chadar', once their only winter route to Leh and now a legendary multi-day trek at temperatures near minus thirty. It is a genuine expedition, best understood as a serious, guided winter undertaking rather than a casual add-on.", "lat": 33.90962, "lon": 77.062569, "p": "a"}, {"n": "Hemis National Park (Snow Leopard Country)", "cat": "do", "tier": "", "a": "Indus Valley", "d": "A vast high-altitude park south of Leh with the highest known density of snow leopards of any protected area on earth, plus blue sheep, ibex and Ladakhi urial. A winter tracking expedition here, with expert spotters and warm base camps, is the ultimate wildlife prize for a patient traveller.", "lat": 34.140948, "lon": 77.483101, "p": "a"}, {"n": "Turtuk Village (Balti Culture)", "cat": "do", "tier": "", "a": "Nubra Valley", "d": "A lush Balti village near the Pakistan border, part of India only since 1971 and open to visitors only since 2010, where apricot orchards, Persian-influenced Balti language and warm homestays feel like a different country. It is one of the most fascinating cultural frontiers you can reach in India.", "lat": 34.134765, "lon": 77.831055, "p": "a"}, {"n": "A Ladakhi Homestay", "cat": "do", "tier": "", "a": "Ladakh", "d": "Staying in a village home in Sham, Nubra or Rumbak means butter tea, home-grown vegetables and an evening by the stove with a Ladakhi family. It is the most authentic and quietly luxurious counterpoint to a lakeside camp, and it puts money straight into the community.", "lat": 34.168345, "lon": 77.576564, "p": "v"}, {"n": "The Ultimate Travelling Camp, Chamba Camp Thiksey", "cat": "do", "tier": "", "a": "Indus Valley", "d": "A five-star tented camp below Thiksey monastery, with butler-serviced canvas suites, four-poster beds, fine dining and a spa under the Himalayan sky, open roughly mid-June to late September. It is the benchmark for luxury in Ladakh and can be paired with its sister camp at Diskit in Nubra.", "lat": 34.140948, "lon": 77.483101, "p": "a"}, {"n": "Nimmu House", "cat": "do", "tier": "", "a": "Sham Valley", "d": "A restored heritage home and luxury tent retreat at Nimmu, 45 minutes from Leh, with organic gardens, Himalayan views and curated treks and yoga in a serene village setting. It is the elegant, intimate alternative to a big camp, and a superb acclimatisation base.", "lat": 34.19632, "lon": 77.33551, "p": "v"}, {"n": "Ladakhi Thukpa, Momos & Chutagi", "cat": "do", "tier": "", "a": "Ladakh", "d": "The local table runs on hearty, vegetarian-friendly warmth: thukpa noodle soup, steamed momos, bowtie-pasta chutagi stew, khambir bread and salty butter tea, all suited to the thin cold air. Sampling these in a village kitchen or a good Leh cafe is comfort food with a Central Asian soul.", "lat": 34.185416, "lon": 77.411217, "p": "a"}, {"n": "Ladakhi Apricots", "cat": "do", "tier": "", "a": "Nubra Valley", "d": "The valleys of Nubra and Sham are famous for their sweet apricots, dried on rooftops and pressed into oil, jam and the local raktsey karpo prized variety. In summer, eating them straight from a Turtuk orchard is one of the region's simplest pleasures.", "lat": 34.16467, "lon": 77.585109, "p": "v"}, {"n": "Mountain Biking Down From Khardung La", "cat": "do", "tier": "", "a": "Nubra Valley", "d": "Being driven to the top of Khardung La and freewheeling the long descent back towards Leh is a classic Ladakh adventure, all thin air, hairpins and huge views. With a support vehicle and a good outfitter it is thrilling yet manageable for a fit traveller.", "lat": 34.134765, "lon": 77.831055, "p": "a"}, {"n": "A Monastery Festival (Cham Masked Dances)", "cat": "do", "tier": "", "a": "Ladakh", "d": "Across the year the gompas erupt into colour for their festivals, from Hemis and Phyang in summer to Spituk, Stok, Matho and the Dosmoche in winter, when monks in silk brocade and fierce masks perform the cham dances that drive out evil. Timing a visit to one is the single most vivid cultural experience Ladakh offers.", "lat": 34.185416, "lon": 77.411217, "p": "a"}, {"n": "Sindhu Darshan at Shey", "cat": "do", "tier": "", "a": "Indus Valley", "d": "An early-summer festival on the banks of the Indus at Shey, honouring the river that gives India its name with prayers, music and waters brought from across the country. It is a gentler, riverside celebration that frames the Indus as the spiritual thread of the whole valley.", "lat": 34.140948, "lon": 77.483101, "p": "a"}, {"n": "Chemrey Monastery", "cat": "do", "tier": "", "a": "Indus Valley", "d": "A photogenic 17th-century gompa cascading down a conical hill on the road towards Pangong, far quieter than Thiksey or Hemis. Its position and its November fire-ceremony festival make it a rewarding detour for those who want monasteries without crowds.", "lat": 34.167367, "lon": 77.590073, "p": "v"}, {"n": "Stakna Monastery", "cat": "do", "tier": "", "a": "Indus Valley", "d": "A small Drukpa monastery on a hill shaped like a tiger's nose above a bend in the Indus, with lovely valley views and almost no visitors. It is the kind of serene, overlooked gompa that rewards a slow, curious traveller.", "lat": 34.005108, "lon": 77.684947, "p": "v"}, {"n": "The Confluence Drive to Nubra via Diskit & Hunder", "cat": "do", "tier": "", "a": "Nubra Valley", "d": "The full Nubra loop, over Khardung La to Diskit's giant Buddha, the Hunder dunes and camels, then on towards Turtuk, is Ladakh's greatest single road journey. Spread over two or three unhurried, oxygen-aware days it delivers passes, desert, monastery and Balti culture in one arc.", "lat": 34.134765, "lon": 77.831055, "p": "a"}, {"n": "Chamba Camp Bonfire & Stargazing by TUTC", "cat": "party", "tier": "Late & loud", "a": "Thiksey", "d": "Ladakh's real nightlife is the sky — a bonfire, a dram and one of the darkest, clearest star fields on Earth.", "lat": 34.050466, "lon": 77.668644, "p": "a"}, {"n": "Leh café evenings — Gesmo & the Main Bazaar", "cat": "party", "tier": "Late & loud", "a": "Leh", "d": "The town winds down early; a warm café, mint tea and quiet company is as lively as a Leh evening honestly gets.", "lat": 34.165163, "lon": 77.587609, "p": "v"}]}
+{
+  "center": [
+    34.164203,
+    77.584813
+  ],
+  "venues": [
+    {
+      "n": "Chamba Camp Thiksey by TUTC",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Thiksey",
+      "d": "The camp that put luxury Ladakh on the map \u2014 canvas suites facing the great monastery, run like a grand hotel under the stars.",
+      "lat": 34.050466,
+      "lon": 77.668644,
+      "photos": []
+    },
+    {
+      "n": "Chamba Camp Diskit by TUTC",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Nubra",
+      "d": "TUTC's Nubra outpost \u2014 safari-style luxury in a high desert valley, apricot orchards and sand dunes at the door.",
+      "lat": 34.556481,
+      "lon": 77.551132,
+      "photos": []
+    },
+    {
+      "n": "Nimmu House",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Sham",
+      "d": "A restored 1920s noble house at the confluence of the Indus and Zanskar \u2014 five heritage rooms and orchard glamping tents, quietly the most characterful stay in Ladakh.",
+      "lat": 34.19632,
+      "lon": 77.33551,
+      "photos": []
+    },
+    {
+      "n": "Stok Palace Heritage Hotel",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Stok",
+      "d": "The summer palace of Ladakh's royal family, opened to a handful of guests \u2014 you sleep inside living history, thangkas and antiques included.",
+      "lat": 34.073026,
+      "lon": 77.548652,
+      "photos": []
+    },
+    {
+      "n": "Lchang Nang Retreat \u2014 The House of Trees",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Nubra",
+      "d": "A quiet Nubra retreat on the riverbank \u2014 private villas among elm and apricot trees, organic gardens, snow peaks all around.",
+      "lat": 34.134765,
+      "lon": 77.831055,
+      "photos": []
+    },
+    {
+      "n": "Ladakh Sarai",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Leh",
+      "d": "Ladakh's original eco resort \u2014 yurt-style bungalows in an orchard of willow and apricot, inspired by the old Silk Road caravanserais.",
+      "lat": 34.164203,
+      "lon": 77.584813,
+      "photos": []
+    },
+    {
+      "n": "The Grand Dragon Ladakh",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Leh",
+      "d": "Leh's only certified five-star and the town's most reliable fixed-roof address \u2014 warm floors, real service, open when the camps are shut.",
+      "lat": 34.156571,
+      "lon": 77.58052,
+      "photos": []
+    },
+    {
+      "n": "Chamba Camp Dining by TUTC",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Thiksey",
+      "d": "Al-fresco fine dining under Himalayan stars, plated to grand-hotel standard in the middle of the high desert.",
+      "lat": 34.050466,
+      "lon": 77.668644,
+      "photos": []
+    },
+    {
+      "n": "Tsas by Dolkhar",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Leh",
+      "d": "Ladakh's most ambitious modern kitchen \u2014 regional produce and heritage recipes given a genuine fine-dining hand.",
+      "lat": 34.164203,
+      "lon": 77.584813,
+      "photos": []
+    },
+    {
+      "n": "Bon Appetit",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Leh",
+      "d": "A traditional-house setting away from the bazaar, green fields and snow peaks in view \u2014 Leh's go-to for a considered meal out.",
+      "lat": 34.165963,
+      "lon": 77.581559,
+      "photos": []
+    },
+    {
+      "n": "The Tibetan Kitchen",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Leh",
+      "d": "The place to eat momos, thukpa and tingmo done properly \u2014 the town's most trusted name for Tibetan and Ladakhi food.",
+      "lat": 34.163962,
+      "lon": 77.581328,
+      "photos": []
+    },
+    {
+      "n": "Gesmo Restaurant",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Leh",
+      "d": "One of Leh's oldest caf\u00e9s \u2014 decades of feeding travellers fresh bread, cakes and honest plates on the Main Bazaar.",
+      "lat": 34.163847,
+      "lon": 77.582758,
+      "photos": []
+    },
+    {
+      "n": "Acclimatise in Leh First (The Essential 48 Hours)",
+      "cat": "do",
+      "tier": "",
+      "a": "Leh",
+      "d": "Leh sits at roughly 3,500 metres, and the single most important thing on any Ladakh itinerary is to do almost nothing for the first day or two while your body adjusts. A well-planned trip builds in rest, hydration and an oxygen-aware pace before the high passes and lakes, which is exactly what protects an elder or a child on a multi-generational trip.",
+      "lat": 34.164203,
+      "lon": 77.584813,
+      "photos": []
+    },
+    {
+      "n": "Leh Palace (Lachen Palkar)",
+      "cat": "do",
+      "tier": "",
+      "a": "Leh",
+      "d": "The nine-storey royal palace rises straight out of the old town, built around 1600 by King Sengge Namgyal and modelled, in miniature, on Lhasa's Potala. Climb its dim stairways to the rooftop and the whole Indus Valley and the snow line open up below you.",
+      "lat": 34.165948,
+      "lon": 77.586203,
+      "photos": []
+    },
+    {
+      "n": "Shanti Stupa",
+      "cat": "do",
+      "tier": "",
+      "a": "Leh",
+      "d": "A white-domed Japanese-built peace stupa perched above Changspa at around 4,000 metres, reached by a steep flight of steps or a short drive. Come at sunset, when the town glows amber below and the peaks turn rose, for the loveliest panorama in Leh.",
+      "lat": 34.173763,
+      "lon": 77.574938,
+      "photos": []
+    },
+    {
+      "n": "Namgyal Tsemo Gompa",
+      "cat": "do",
+      "tier": "",
+      "a": "Leh",
+      "d": "The 15th-century hilltop monastery and old fort crowning the ridge above Leh Palace, home to a tall gold-faced Maitreya Buddha and faded murals. The short climb rewards you with the best bird's-eye view over the whole medieval town.",
+      "lat": 34.167367,
+      "lon": 77.590073,
+      "photos": []
+    },
+    {
+      "n": "Leh Old Town",
+      "cat": "do",
+      "tier": "",
+      "a": "Leh",
+      "d": "The warren of mudbrick lanes below the palace, where Central Asian caravan-era houses, tiny mosques and Buddhist shrines lean into each other. A quiet guided walk here, away from the bazaar, is the most human way to feel Leh's Silk Route past.",
+      "lat": 34.164154,
+      "lon": 77.587726,
+      "photos": []
+    },
+    {
+      "n": "The Main Bazaar",
+      "cat": "do",
+      "tier": "",
+      "a": "Leh",
+      "d": "Leh's broad, poplar-lined market street was laid out wide enough for horses, donkeys and camel caravans, and still hums with Ladakhi women selling vegetables, pashmina, apricots and turquoise. It is the town's living room, best browsed slowly in the cool of the evening.",
+      "lat": 34.16467,
+      "lon": 77.585109,
+      "photos": []
+    },
+    {
+      "n": "Hall of Fame Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Leh",
+      "d": "An Indian Army museum on the road to Kargil, dedicated to the soldiers of the Siachen and Kargil theatres, with weapons, letters and Siachen survival kit on display. It gives sober, moving context to just how contested and high this frontier is.",
+      "lat": 34.164203,
+      "lon": 77.584813,
+      "photos": []
+    },
+    {
+      "n": "Thiksey Monastery (Dawn Prayers & The Maitreya)",
+      "cat": "do",
+      "tier": "",
+      "a": "Indus Valley",
+      "d": "A twelve-storey white-and-ochre monastery cascading down a hill 19 km from Leh, often likened to a small Potala, with a two-storey 15-metre Maitreya Buddha inside. Arrive for the dawn prayer ceremony, when monks blow the long dungchen horns as the sun climbs the Indus Valley, for one of the great mornings of Buddhist Asia.",
+      "lat": 34.140948,
+      "lon": 77.483101,
+      "photos": []
+    },
+    {
+      "n": "Hemis Monastery (The Largest & The Festival)",
+      "cat": "do",
+      "tier": "",
+      "a": "Indus Valley",
+      "d": "Set in a hidden gorge 45 km from Leh, Hemis is the largest and wealthiest gompa in Ladakh, seat of the Drukpa lineage and keeper of a giant thangka unfurled only once every twelve years. Its June masked-dance festival, honouring Guru Padmasambhava, is the region's most spectacular.",
+      "lat": 34.140948,
+      "lon": 77.483101,
+      "photos": []
+    },
+    {
+      "n": "Diskit Monastery & The Giant Buddha (Nubra)",
+      "cat": "do",
+      "tier": "",
+      "a": "Nubra Valley",
+      "d": "The oldest and largest monastery in the Nubra Valley, watched over by a 32-metre statue of the Maitreya Buddha that gazes across the Shyok towards the border. The drive here over Khardung La and the sight of that giant golden Buddha above the desert valley is pure Ladakh.",
+      "lat": 34.134765,
+      "lon": 77.831055,
+      "photos": []
+    },
+    {
+      "n": "Shey Palace & Monastery",
+      "cat": "do",
+      "tier": "",
+      "a": "Indus Valley",
+      "d": "The former capital of Ladakh, its ruined hilltop palace overlooking one of the largest gold-gilded copper Buddha statues in the region. A short, easy stop from Leh that layers royal history onto the monastery trail.",
+      "lat": 34.071617,
+      "lon": 77.632758,
+      "photos": []
+    },
+    {
+      "n": "Stok Palace & Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Indus Valley",
+      "d": "The residence of Ladakh's royal family since 1843, part of it now a museum of crowns, thangkas, royal robes and turquoise jewellery. A heritage wing lets a few guests actually stay in the palace, the most regal address in Ladakh.",
+      "lat": 34.073026,
+      "lon": 77.548652,
+      "photos": []
+    },
+    {
+      "n": "Spituk Monastery",
+      "cat": "do",
+      "tier": "",
+      "a": "Leh",
+      "d": "A 15th-century gompa on a hill right beside Leh airport, with a Kali temple opened only during its winter Gustor festival and sweeping views of the Indus. Its closeness to town makes it an easy, atmospheric first monastery while you are still acclimatising.",
+      "lat": 34.125976,
+      "lon": 77.52631,
+      "photos": []
+    },
+    {
+      "n": "Phyang Monastery",
+      "cat": "do",
+      "tier": "",
+      "a": "Sham Valley",
+      "d": "A large, ochre-walled Drikung Kagyu monastery a short drive west of Leh, quieter than the marquee gompas and set among barley terraces. Its July Tsedup festival brings masked cham dances to a place most tour buses skip.",
+      "lat": 34.186511,
+      "lon": 77.489478,
+      "photos": []
+    },
+    {
+      "n": "Likir Monastery",
+      "cat": "do",
+      "tier": "",
+      "a": "Sham Valley",
+      "d": "Known for the enormous gilded open-air Maitreya Buddha that shines above the Sham Valley, plus a small museum of thangkas and old costumes. It anchors the gentle 'baby trek' between villages that makes an ideal acclimatisation walk.",
+      "lat": 34.167367,
+      "lon": 77.590073,
+      "photos": []
+    },
+    {
+      "n": "Matho Monastery (The Oracles)",
+      "cat": "do",
+      "tier": "",
+      "a": "Indus Valley",
+      "d": "The only Sakya-school monastery in Ladakh, famous for its spring Nagrang festival when two monks emerge as blindfolded oracles to foretell the year. A beautifully restored museum here has revived some of Ladakh's finest thangka conservation.",
+      "lat": 34.140948,
+      "lon": 77.483101,
+      "photos": []
+    },
+    {
+      "n": "Basgo Citadel & Maitreya Temples",
+      "cat": "do",
+      "tier": "",
+      "a": "Sham Valley",
+      "d": "The crumbling mud-brick towers of a former royal capital rise above the Indus, sheltering three temples with towering Maitreya statues and rare wall paintings. Listed on the World Monuments watch and gloriously atmospheric, it is one of Ladakh's most overlooked gems.",
+      "lat": 34.167271,
+      "lon": 77.589935,
+      "photos": []
+    },
+    {
+      "n": "Nubra Valley (Hunder Dunes & Bactrian Camels)",
+      "cat": "do",
+      "tier": "",
+      "a": "Nubra Valley",
+      "d": "A wide desert valley where the Shyok and Nubra rivers meet, with pale sand dunes at Hunder and shaggy double-humped Bactrian camels, descendants of the old Silk Route caravans. The sight of camels crossing high-altitude dunes below snow peaks is one of India's most surreal landscapes.",
+      "lat": 34.134765,
+      "lon": 77.831055,
+      "photos": []
+    },
+    {
+      "n": "Khardung La (Among The World's Highest Passes)",
+      "cat": "do",
+      "tier": "",
+      "a": "Nubra Valley",
+      "d": "The gateway pass to Nubra, long celebrated as one of the world's highest motorable passes, though its signboard height is disputed and newer BRO passes now sit higher. Standing in the thin air at the prayer-flag-draped top, with the Karakoram unfolding beyond, is a rite of passage every Ladakh traveller wants.",
+      "lat": 34.134765,
+      "lon": 77.831055,
+      "photos": []
+    },
+    {
+      "n": "Chang La",
+      "cat": "do",
+      "tier": "",
+      "a": "Changthang",
+      "d": "The high pass on the road to Pangong, another of Ladakh's very high crossings, marked by prayer flags, a tiny tea stall and often snow even in summer. It is the dramatic threshold you cross on the way to the great lakes.",
+      "lat": 34.047169,
+      "lon": 77.930438,
+      "photos": []
+    },
+    {
+      "n": "Magnetic Hill",
+      "cat": "do",
+      "tier": "",
+      "a": "Leh",
+      "d": "A stretch of road on the Leh-Kargil highway where cars in neutral appear to roll uphill, a gravity-defying optical illusion set among stark mountains. A quick, fun stop that always delights younger travellers on the way to the Sangam.",
+      "lat": 34.170985,
+      "lon": 77.352482,
+      "photos": []
+    },
+    {
+      "n": "Zanskar River Rafting",
+      "cat": "do",
+      "tier": "",
+      "a": "Zanskar",
+      "d": "In summer the Zanskar becomes a torrent of blue-green glacial water, offering some of the most scenic white-water rafting in the Himalayas through a deep gorge below Alchi and Chilling. It is the adrenalin counterpoint to the region's quiet monasteries.",
+      "lat": 33.90962,
+      "lon": 77.062569,
+      "photos": []
+    },
+    {
+      "n": "The Chadar Trek (Frozen Zanskar) \u2014 Context",
+      "cat": "do",
+      "tier": "",
+      "a": "Zanskar",
+      "d": "In deep winter the Zanskar freezes into a sheet of ice the locals call the 'chadar', once their only winter route to Leh and now a legendary multi-day trek at temperatures near minus thirty. It is a genuine expedition, best understood as a serious, guided winter undertaking rather than a casual add-on.",
+      "lat": 33.90962,
+      "lon": 77.062569,
+      "photos": []
+    },
+    {
+      "n": "Hemis National Park (Snow Leopard Country)",
+      "cat": "do",
+      "tier": "",
+      "a": "Indus Valley",
+      "d": "A vast high-altitude park south of Leh with the highest known density of snow leopards of any protected area on earth, plus blue sheep, ibex and Ladakhi urial. A winter tracking expedition here, with expert spotters and warm base camps, is the ultimate wildlife prize for a patient traveller.",
+      "lat": 34.140948,
+      "lon": 77.483101,
+      "photos": []
+    },
+    {
+      "n": "Turtuk Village (Balti Culture)",
+      "cat": "do",
+      "tier": "",
+      "a": "Nubra Valley",
+      "d": "A lush Balti village near the Pakistan border, part of India only since 1971 and open to visitors only since 2010, where apricot orchards, Persian-influenced Balti language and warm homestays feel like a different country. It is one of the most fascinating cultural frontiers you can reach in India.",
+      "lat": 34.134765,
+      "lon": 77.831055,
+      "photos": []
+    },
+    {
+      "n": "A Ladakhi Homestay",
+      "cat": "do",
+      "tier": "",
+      "a": "Ladakh",
+      "d": "Staying in a village home in Sham, Nubra or Rumbak means butter tea, home-grown vegetables and an evening by the stove with a Ladakhi family. It is the most authentic and quietly luxurious counterpoint to a lakeside camp, and it puts money straight into the community.",
+      "lat": 34.168345,
+      "lon": 77.576564,
+      "photos": []
+    },
+    {
+      "n": "The Ultimate Travelling Camp, Chamba Camp Thiksey",
+      "cat": "do",
+      "tier": "",
+      "a": "Indus Valley",
+      "d": "A five-star tented camp below Thiksey monastery, with butler-serviced canvas suites, four-poster beds, fine dining and a spa under the Himalayan sky, open roughly mid-June to late September. It is the benchmark for luxury in Ladakh and can be paired with its sister camp at Diskit in Nubra.",
+      "lat": 34.140948,
+      "lon": 77.483101,
+      "photos": []
+    },
+    {
+      "n": "Nimmu House",
+      "cat": "do",
+      "tier": "",
+      "a": "Sham Valley",
+      "d": "A restored heritage home and luxury tent retreat at Nimmu, 45 minutes from Leh, with organic gardens, Himalayan views and curated treks and yoga in a serene village setting. It is the elegant, intimate alternative to a big camp, and a superb acclimatisation base.",
+      "lat": 34.19632,
+      "lon": 77.33551,
+      "photos": []
+    },
+    {
+      "n": "Ladakhi Thukpa, Momos & Chutagi",
+      "cat": "do",
+      "tier": "",
+      "a": "Ladakh",
+      "d": "The local table runs on hearty, vegetarian-friendly warmth: thukpa noodle soup, steamed momos, bowtie-pasta chutagi stew, khambir bread and salty butter tea, all suited to the thin cold air. Sampling these in a village kitchen or a good Leh cafe is comfort food with a Central Asian soul.",
+      "lat": 34.185416,
+      "lon": 77.411217,
+      "photos": []
+    },
+    {
+      "n": "Ladakhi Apricots",
+      "cat": "do",
+      "tier": "",
+      "a": "Nubra Valley",
+      "d": "The valleys of Nubra and Sham are famous for their sweet apricots, dried on rooftops and pressed into oil, jam and the local raktsey karpo prized variety. In summer, eating them straight from a Turtuk orchard is one of the region's simplest pleasures.",
+      "lat": 34.16467,
+      "lon": 77.585109,
+      "photos": []
+    },
+    {
+      "n": "Mountain Biking Down From Khardung La",
+      "cat": "do",
+      "tier": "",
+      "a": "Nubra Valley",
+      "d": "Being driven to the top of Khardung La and freewheeling the long descent back towards Leh is a classic Ladakh adventure, all thin air, hairpins and huge views. With a support vehicle and a good outfitter it is thrilling yet manageable for a fit traveller.",
+      "lat": 34.134765,
+      "lon": 77.831055,
+      "photos": []
+    },
+    {
+      "n": "A Monastery Festival (Cham Masked Dances)",
+      "cat": "do",
+      "tier": "",
+      "a": "Ladakh",
+      "d": "Across the year the gompas erupt into colour for their festivals, from Hemis and Phyang in summer to Spituk, Stok, Matho and the Dosmoche in winter, when monks in silk brocade and fierce masks perform the cham dances that drive out evil. Timing a visit to one is the single most vivid cultural experience Ladakh offers.",
+      "lat": 34.185416,
+      "lon": 77.411217,
+      "photos": []
+    },
+    {
+      "n": "Sindhu Darshan at Shey",
+      "cat": "do",
+      "tier": "",
+      "a": "Indus Valley",
+      "d": "An early-summer festival on the banks of the Indus at Shey, honouring the river that gives India its name with prayers, music and waters brought from across the country. It is a gentler, riverside celebration that frames the Indus as the spiritual thread of the whole valley.",
+      "lat": 34.140948,
+      "lon": 77.483101,
+      "photos": []
+    },
+    {
+      "n": "Chemrey Monastery",
+      "cat": "do",
+      "tier": "",
+      "a": "Indus Valley",
+      "d": "A photogenic 17th-century gompa cascading down a conical hill on the road towards Pangong, far quieter than Thiksey or Hemis. Its position and its November fire-ceremony festival make it a rewarding detour for those who want monasteries without crowds.",
+      "lat": 34.167367,
+      "lon": 77.590073,
+      "photos": []
+    },
+    {
+      "n": "Stakna Monastery",
+      "cat": "do",
+      "tier": "",
+      "a": "Indus Valley",
+      "d": "A small Drukpa monastery on a hill shaped like a tiger's nose above a bend in the Indus, with lovely valley views and almost no visitors. It is the kind of serene, overlooked gompa that rewards a slow, curious traveller.",
+      "lat": 34.005108,
+      "lon": 77.684947,
+      "photos": []
+    },
+    {
+      "n": "The Confluence Drive to Nubra via Diskit & Hunder",
+      "cat": "do",
+      "tier": "",
+      "a": "Nubra Valley",
+      "d": "The full Nubra loop, over Khardung La to Diskit's giant Buddha, the Hunder dunes and camels, then on towards Turtuk, is Ladakh's greatest single road journey. Spread over two or three unhurried, oxygen-aware days it delivers passes, desert, monastery and Balti culture in one arc.",
+      "lat": 34.134765,
+      "lon": 77.831055,
+      "photos": []
+    },
+    {
+      "n": "Chamba Camp Bonfire & Stargazing by TUTC",
+      "cat": "party",
+      "tier": "Late & loud",
+      "a": "Thiksey",
+      "d": "Ladakh's real nightlife is the sky \u2014 a bonfire, a dram and one of the darkest, clearest star fields on Earth.",
+      "lat": 34.050466,
+      "lon": 77.668644,
+      "photos": []
+    },
+    {
+      "n": "Leh caf\u00e9 evenings \u2014 Gesmo & the Main Bazaar",
+      "cat": "party",
+      "tier": "Late & loud",
+      "a": "Leh",
+      "d": "The town winds down early; a warm caf\u00e9, mint tea and quiet company is as lively as a Leh evening honestly gets.",
+      "lat": 34.165163,
+      "lon": 77.587609,
+      "photos": []
+    }
+  ]
+}

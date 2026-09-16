@@ -1,1 +1,858 @@
-{"center": [19.320772, -99.151468], "venues": [{"n": "Four Seasons Hotel Mexico City", "cat": "stay", "tier": "Ultra", "a": "Juárez (Paseo de la Reforma)", "d": "A hacienda-style house wrapped around a green courtyard on Reforma — the city's most complete grand-hotel service, and a calm oasis off the boulevard.", "lat": 19.42293, "lon": -99.174205, "p": "v"}, {"n": "The St. Regis Mexico City", "cat": "stay", "tier": "Ultra", "a": "Juárez (Paseo de la Reforma)", "d": "A César Pelli tower over Reforma with the Angel of Independence at its feet — St. Regis butler service and one of the best skyline views in the capital.", "lat": 19.43263, "lon": -99.133178, "p": "v"}, {"n": "Las Alcobas, a Luxury Collection Hotel", "cat": "stay", "tier": "Grand", "a": "Polanco (Avenida Presidente Masaryk)", "d": "A jewel-box on Polanco's luxury-shopping avenue — 35 rooms of quiet, warm-toned design, steps from the boutiques and the great tables.", "lat": 19.432145, "lon": -99.198093, "p": "a"}, {"n": "Casa Polanco", "cat": "stay", "tier": "Grand", "a": "Polanco", "d": "Two 1940s mansions woven into one 19-room house facing Lincoln Park — the only Two-Key hotel in the city, and its most refined address.", "lat": 19.422381, "lon": -99.185861, "p": "v"}, {"n": "Sofitel Mexico City Reforma", "cat": "stay", "tier": "Grand", "a": "Juárez (Paseo de la Reforma)", "d": "A sleek French-accented tower on Reforma, crowned by the 38th-floor Cityzen rooftop — grand views and a lively social scene under one roof.", "lat": 19.428723, "lon": -99.166041, "p": "v"}, {"n": "Pug Seal Allan Poe", "cat": "stay", "tier": "Luxury", "a": "Polanco", "d": "A colour-drenched, art-filled boutique house on a quiet Polanco street — bold design, 24-hour pantry and a temazcal ritual on site.", "lat": 19.427945, "lon": -99.177449, "p": "v"}, {"n": "Brick Hotel Mexico City", "cat": "stay", "tier": "Luxury", "a": "Roma Norte", "d": "An early-20th-century mansion turned intimate hotel in the heart of Roma Norte — Belle Époque bones, a courtyard and a good restaurant.", "lat": 19.43263, "lon": -99.133178, "p": "v"}, {"n": "La Valise Mexico City", "cat": "stay", "tier": "Luxury", "a": "Roma Norte", "d": "A three-suite townhouse of theatrical, one-of-a-kind rooms — a bed that rolls onto the balcony is the signature — pure Roma romance.", "lat": 19.43263, "lon": -99.133178, "p": "v"}, {"n": "Octavia Casa", "cat": "stay", "tier": "Luxury", "a": "Condesa", "d": "A serene, minimalist house by fashion designer Roberta Maceda in leafy Condesa — natural materials, calm light and quiet good taste.", "lat": 19.437223, "lon": -99.133278, "p": "v"}, {"n": "Ignacia Guest House", "cat": "stay", "tier": "Premium", "a": "Roma Norte", "d": "A restored 1913 house of just five rooms around a courtyard — warm, personal and among the most charming small stays in Roma.", "lat": 19.438026, "lon": -99.154564, "p": "v"}, {"n": "Quintonil", "cat": "eat", "tier": "Destination", "a": "Polanco", "d": "Jorge Vallejo and Alejandra Flores' temple to Mexican produce — herbs, heirloom corn and native ingredients at the very peak of world dining.", "lat": 19.430818, "lon": -99.191834, "p": "v"}, {"n": "Pujol", "cat": "eat", "tier": "Destination", "a": "Polanco", "d": "Enrique Olvera's landmark — the mole madre, aged for years and served in a ring beside a fresh mole, remains one of gastronomy's great dishes.", "lat": 19.433633, "lon": -99.18545, "p": "v"}, {"n": "Máximo Bistrot", "cat": "eat", "tier": "Destination", "a": "Roma Norte", "d": "Eduardo 'Lalo' García's bright, produce-driven room — French technique and Mexican soul, cooked from the day's market.", "lat": 19.415335, "lon": -99.161985, "p": "v"}, {"n": "Rosetta", "cat": "eat", "tier": "Fine", "a": "Roma Norte", "d": "Elena Reygadas' cooking in a romantic Roma townhouse — Italian roots and Mexican produce from the World's Best Female Chef.", "lat": 19.419974, "lon": -99.16061, "p": "v"}, {"n": "Sud 777", "cat": "eat", "tier": "Fine", "a": "Jardines del Pedregal", "d": "Edgar Núñez's garden-driven cooking in the leafy south — much of the produce grown in the restaurant's own beds.", "lat": 19.308758, "lon": -99.209106, "p": "v"}, {"n": "Em", "cat": "eat", "tier": "Fine", "a": "Juárez", "d": "Lucho Martínez's intimate counter — a personal, fire-led tasting menu that was among the guide's most talked-about stars.", "lat": 19.317015, "lon": -99.11207, "p": "v"}, {"n": "Esquina Común", "cat": "eat", "tier": "Fine", "a": "Cuauhtémoc", "d": "A young, produce-obsessed kitchen turning Mexican ingredients into a precise, evolving tasting menu — a quiet critical favourite.", "lat": 19.357892, "lon": -99.119863, "p": "v"}, {"n": "Expendio de Maíz", "cat": "eat", "tier": "Smart", "a": "Roma Norte", "d": "A tiny, counter-only corn kitchen with no fixed menu — cooking is dictated by what the market gives, heirloom masa at its centre.", "lat": 19.414211, "lon": -99.162831, "p": "v"}, {"n": "Masala y Maíz", "cat": "eat", "tier": "Fine", "a": "Cuauhtémoc", "d": "Norma Listman and Saqib Keval's dialogue between Mexican, Indian and East African kitchens — one of the city's most original tables.", "lat": 19.247712, "lon": -99.127489, "p": "v"}, {"n": "Taquería El Califa de León", "cat": "eat", "tier": "Casual", "a": "Centro / San Rafael", "d": "A stand-up taquería the size of a garage, awarded a Michelin star for a single thing done to perfection — the gaonera taco.", "lat": 19.349283, "lon": -99.186695, "p": "v"}, {"n": "Contramar", "cat": "eat", "tier": "Fine", "a": "Roma Norte", "d": "Gabriela Cámara's sunlit seafood institution — the tuna tostada and the split-colour pescado a la talla are city rituals.", "lat": 19.419611, "lon": -99.167226, "p": "v"}, {"n": "Vigneron", "cat": "eat", "tier": "Fine", "a": "Roma Norte", "d": "A wine-led French bistro from a serious sommelier team — precise cooking built around an exceptional cellar.", "lat": 19.414584, "lon": -99.160372, "p": "v"}, {"n": "Comedor Jacinta", "cat": "eat", "tier": "Smart", "a": "Polanco", "d": "Chef Edgar Núñez's warm ode to Mexican home cooking — grandmother's recipes plated with real care, in a bright Polanco room.", "lat": 19.43052, "lon": -99.196268, "p": "v"}, {"n": "Galanga Thai House", "cat": "eat", "tier": "Smart", "a": "Roma Sur", "d": "Vivid, genuinely spicy Thai cooking in a small Roma house — a Bib favourite and a welcome change of register.", "lat": 19.412879, "lon": -99.162851, "p": "v"}, {"n": "Molino El Pujol", "cat": "eat", "tier": "Smart", "a": "Condesa", "d": "Enrique Olvera's neighbourhood mill and kitchen — heirloom corn ground on site, turned into tortillas, tamales and simple, brilliant plates.", "lat": 19.407678, "lon": -99.177066, "p": "v"}, {"n": "Comal Oculto", "cat": "eat", "tier": "Smart", "a": "Roma Norte", "d": "A produce-led, comal-driven kitchen turning market vegetables and heirloom corn into a considered, good-value menu.", "lat": 19.358242, "lon": -99.268021, "p": "v"}, {"n": "Taquería Los Cocuyos", "cat": "eat", "tier": "Casual", "a": "Centro Histórico", "d": "A round-the-clock street stand in the old centre — slow-cooked meats and the suadero taco that locals swear by.", "lat": 19.430169, "lon": -99.138757, "p": "v"}, {"n": "El Vilsito", "cat": "eat", "tier": "Casual", "a": "Narvarte", "d": "A mechanic's garage by day, a legendary al pastor taquería by night — one of the city's benchmark trompos.", "lat": 19.389308, "lon": -99.152757, "p": "v"}, {"n": "Filigrana", "cat": "eat", "tier": "Smart", "a": "Roma Norte", "d": "A refined-yet-relaxed kitchen doing modern Mexican cooking with real polish, at genuine value.", "lat": 19.417566, "lon": -99.174017, "p": "v"}, {"n": "The Zócalo (Plaza de la Constitución)", "cat": "do", "tier": "", "a": "Centro Histórico", "d": "One of the largest city squares on earth, laid over the sacred heart of Aztec Tenochtitlán, where a vast national flag is raised and lowered by the army each day. A private guide reads the layered history for the whole family before the crowds and the altitude tell on anyone.", "lat": 19.432647, "lon": -99.133199, "p": "v"}, {"n": "Metropolitan Cathedral (Catedral Metropolitana)", "cat": "do", "tier": "", "a": "Centro Histórico", "d": "The largest and oldest cathedral in Latin America, a 250-year Spanish Baroque masterpiece slowly sinking into the old lakebed — you feel the floor tilt as you walk toward the altar. Cool, quiet and shaded, a gentle first stop for elders on a busy day.", "lat": 19.431592, "lon": -99.135338, "p": "a"}, {"n": "Templo Mayor & Museum", "cat": "do", "tier": "", "a": "Centro Histórico", "d": "The excavated main temple of Tenochtitlán, unearthed beside the cathedral, with a superb museum holding the great stone disc of the goddess Coyolxauhqui. A guide brings the ruins alive for children who might otherwise see only rubble.", "lat": 19.435062, "lon": -99.131432, "p": "v"}, {"n": "Palacio Nacional & Diego Rivera Murals", "cat": "do", "tier": "", "a": "Centro Histórico", "d": "Rivera's monumental staircase murals — sixteen years of work sweeping across all of Mexican history — line a working seat of government on the Zócalo's east side. Entry is free with photo ID; a guide is essential to decode the crowded, political panels.", "lat": 19.4362, "lon": -99.146809, "p": "v"}, {"n": "Palacio de Bellas Artes", "cat": "do", "tier": "", "a": "Centro Histórico", "d": "A dazzling white-marble Art Nouveau and Art Deco palace crowned with a Tiffany glass stage curtain, holding murals by Rivera, Siqueiros and Orozco. The evening Ballet Folklórico de México here — pre- and post-Hispanic dance staged since 1952 — is a beautiful, wordless family night.", "lat": 19.435501, "lon": -99.141259, "p": "v"}, {"n": "Ballet Folklórico de México", "cat": "do", "tier": "", "a": "Centro Histórico", "d": "Amalia Hernández's legendary company performs its riot of regional Mexican dance under the Tiffany curtain of Bellas Artes twice weekly. No language needed, so grandparents and children share the same spectacle; private box seats can be arranged.", "lat": 19.440119, "lon": -99.141202, "p": "v"}, {"n": "Torre Latinoamericana Observation Deck", "cat": "do", "tier": "", "a": "Centro Histórico", "d": "The 1956 skyscraper that survived every great earthquake gives a 44th-floor panorama of the endless valley city, best at dusk with a drink in the sky-lounge below. A quick, easy way to grasp the sheer scale before diving into the streets.", "lat": 19.433866, "lon": -99.140611, "p": "v"}, {"n": "Museo Nacional de Antropología", "cat": "do", "tier": "", "a": "Chapultepec", "d": "The world's greatest museum of Mesoamerican civilisation — 22 vast halls holding the Aztec Sun Stone, colossal Olmec heads and Maya treasures under a soaring stone-and-water canopy. Too big to see whole; a private guide curates a two-hour path so no one tires.", "lat": 19.426152, "lon": -99.186652, "p": "v"}, {"n": "Chapultepec Castle (Museo Nacional de Historia)", "cat": "do", "tier": "", "a": "Chapultepec", "d": "The only true royal castle in the Americas, crowning the forested hill where Emperor Maximilian once lived, now a history museum with hilltop gardens and city views. A gentle uphill or short shuttle; the terraces reward the climb.", "lat": 19.420463, "lon": -99.182087, "p": "v"}, {"n": "Museo Tamayo", "cat": "do", "tier": "", "a": "Chapultepec", "d": "Rufino Tamayo's own gift to the city, a striking concrete pavilion in Chapultepec woods showing international and Mexican contemporary art. Calm, uncrowded and air-conditioned — a refined counterpoint to the grand anthropology halls next door.", "lat": 19.425802, "lon": -99.18171, "p": "v"}, {"n": "Museo de Arte Moderno (MAM)", "cat": "do", "tier": "", "a": "Chapultepec", "d": "Home to icons of 20th-century Mexican art, including Frida Kahlo's famous 'The Two Fridas' and works by Rivera, Siqueiros and Remedios Varo. A compact, digestible collection set in a sculpture garden, easy to pair with the surrounding park.", "lat": 19.42299, "lon": -99.179606, "p": "v"}, {"n": "Bosque de Chapultepec", "cat": "do", "tier": "", "a": "Chapultepec", "d": "One of the largest urban parks in the Western Hemisphere, twice the size of Central Park, its lakes, forests and museums lending the whole family room to breathe at altitude. A private guide and driver make its scattered sights effortless in a day.", "lat": 19.423299, "lon": -99.189382, "p": "v"}, {"n": "Museo Frida Kahlo (Casa Azul)", "cat": "do", "tier": "", "a": "Coyoacán", "d": "The cobalt-blue house where Frida was born, lived with Diego and died — her studio, wheelchair, corsets and garden left as they were, deeply moving even to those who know little of her art. Timed tickets sell out; a concierge secures a quiet slot in advance.", "lat": 19.355141, "lon": -99.162356, "p": "v"}, {"n": "Museo Casa de León Trotsky", "cat": "do", "tier": "", "a": "Coyoacán", "d": "The fortified house where the exiled revolutionary lived under Frida and Diego's protection and was assassinated in 1940, his study frozen at the moment of the ice-axe blow. A short walk from Casa Azul; a compelling, sombre stop for older travellers with a taste for history.", "lat": 19.357693, "lon": -99.159548, "p": "v"}, {"n": "Museo Diego Rivera Anahuacalli", "cat": "do", "tier": "", "a": "Coyoacán", "d": "Rivera's black-volcanic-stone 'temple of the arts', a pyramid-like fortress he built to house his immense collection of pre-Columbian pieces, set in an ecological reserve. Included with the Casa Azul ticket and blessedly serene — a hidden gem few tourists reach.", "lat": 19.322579, "lon": -99.144077, "p": "v"}, {"n": "Coyoacán Historic Centre & Market", "cat": "do", "tier": "", "a": "Coyoacán", "d": "Cobbled colonial squares, twin plazas, fountains and a lively covered market of textiles, crafts and tostadas make this the city's most enchanting village-within-a-city. Leafy and walkable, it suits a slow multi-generational afternoon with plenty of shaded benches.", "lat": 19.352794, "lon": -99.161497, "p": "v"}, {"n": "Bazar Sábado & San Ángel", "cat": "do", "tier": "", "a": "San Ángel", "d": "Every Saturday this cobbled colonial quarter fills with a genteel art-and-artisan bazaar around Plaza San Jacinto, from fine silver to painting. Compact and refined shopping with courtyard restaurants — a graceful morning for shoppers of all ages.", "lat": 19.345072, "lon": -99.192869, "p": "v"}, {"n": "Museo Casa Estudio Diego Rivera y Frida Kahlo", "cat": "do", "tier": "", "a": "San Ángel", "d": "The pair of bold functionalist studio-houses — one pink, one blue, linked by a rooftop bridge — designed by Juan O'Gorman for the artists, a landmark of Mexican modernism. Quiet and architectural, a fine companion to a San Ángel stroll.", "lat": 19.344812, "lon": -99.203987, "p": "a"}, {"n": "Museo Soumaya", "cat": "do", "tier": "", "a": "Polanco", "d": "Carlos Slim's free museum, a shimmering twist of 16,000 mirrored steel tiles, holds the largest Rodin collection outside France alongside old masters and Mexican art. Architecturally jaw-dropping and easily woven into a Polanco shopping day.", "lat": 19.440782, "lon": -99.204566, "p": "v"}, {"n": "Museo Jumex", "cat": "do", "tier": "", "a": "Polanco", "d": "David Chipperfield's crisp travertine gallery next to the Soumaya houses Latin America's finest private contemporary-art collection. A cool, curated hour for serious collectors, with a good café — a refined pause between boutiques.", "lat": 19.440553, "lon": -99.203635, "p": "v"}, {"n": "Avenida Presidente Masaryk Luxury Shopping", "cat": "do", "tier": "", "a": "Polanco", "d": "Mexico's most expensive avenue, a leafy boulevard of Louis Vuitton, Hermès, Cartier, Bulgari and Tiffany showrooms alongside acclaimed restaurants. Discreet, tree-lined and easy for a driver to shadow — the natural base for luxury travellers.", "lat": 19.43193, "lon": -99.201562, "p": "v"}, {"n": "Casa Luis Barragán (Casa Estudio)", "cat": "do", "tier": "", "a": "Tacubaya", "d": "The Pritzker laureate's own house and studio, a serene interplay of light, colour and volume that is the touchstone of modern Mexican architecture. Strictly small guided groups by reservation only — a quiet, unmissable pilgrimage for design lovers.", "lat": 19.411122, "lon": -99.19244, "p": "v"}, {"n": "Xochimilco Trajineras", "cat": "do", "tier": "", "a": "Xochimilco", "d": "The last living remnant of the Aztec lake, where flower-painted trajinera barges glide through canals and floating chinampa gardens, mariachis drifting alongside. A private boat with catered food and mezcal turns it into a joyful, safe family afternoon.", "lat": 19.25702, "lon": -99.100832, "p": "v"}, {"n": "Teotihuacán Pyramids (Day Trip)", "cat": "do", "tier": "", "a": "Day Trip — State of Mexico", "d": "An hour from the city rise the vast Pyramids of the Sun and Moon along the Avenue of the Dead, a metropolis older and grander than the Aztecs who revered it. Go early with a private guide and driver, or float above it all at dawn in a hot-air balloon.", "lat": 19.501829, "lon": -99.066192, "p": "a"}, {"n": "Arena México — Lucha Libre", "cat": "do", "tier": "", "a": "Doctores", "d": "The 'Cathedral of Lucha Libre', where masked luchadores fly from the ropes to roaring, family-friendly crowds — pure, joyful Mexican theatre. A curated evening with ringside seats and a guide (skip the rougher streets outside) is a memory kids never forget.", "lat": 19.391288, "lon": -99.002176, "p": "v"}, {"n": "Mercado de San Juan", "cat": "do", "tier": "", "a": "Centro Histórico", "d": "The gourmet market of the city, famed for exotic ingredients, fine cheeses, jamón and stalls where chefs shop — a feast for food-curious travellers. A guide can steer vegetarians to the produce, cheese and prepared-food counters that suit.", "lat": 19.429952, "lon": -99.144506, "p": "v"}, {"n": "Mercado de Artesanías La Ciudadela", "cat": "do", "tier": "", "a": "Centro Histórico", "d": "The city's best one-stop craft market, aisles of Talavera pottery, Oaxacan textiles, silver, alebrijes and Day-of-the-Dead art under one roof. Fixed and calm enough for relaxed, unhurried gift-buying with the family.", "lat": 19.430761, "lon": -99.149161, "p": "v"}, {"n": "Parque México & Parque España", "cat": "do", "tier": "", "a": "Condesa", "d": "Two lush Art Deco parks at the heart of leafy Condesa, ringed by 1920s architecture, dog-walkers and pavement cafés. A gentle, green stroll that lets multi-gen groups slow down and simply feel the city's most liveable neighbourhood.", "lat": 19.414935, "lon": -99.171411, "p": "v"}, {"n": "Roma Norte Galleries & Dining", "cat": "do", "tier": "", "a": "Roma Norte", "d": "Belle Époque mansions now hold design shops, art galleries and some of the city's finest restaurants along tree-lined Álvaro Obregón. Walkable, stylish and full of tasting menus that thoughtfully accommodate vegetarians on request.", "lat": 19.419577, "lon": -99.161093, "p": "v"}, {"n": "Museo Nacional de Arte (MUNAL)", "cat": "do", "tier": "", "a": "Centro Histórico", "d": "A palatial Beaux-Arts building housing four centuries of Mexican painting and sculpture, from colonial altarpieces to the great landscapes of José María Velasco. Grand, uncrowded and beautifully told by a private guide.", "lat": 19.436458, "lon": -99.139087, "p": "v"}, {"n": "Museo del Templo de la Enseñanza & Calle Madero Walk", "cat": "do", "tier": "", "a": "Centro Histórico", "d": "The pedestrian Madero street links Bellas Artes to the Zócalo past the tiled Casa de los Azulejos and ornate churches — the finest colonial promenade in the city. Flat, car-free and easy for elders, threading the Centro's greatest hits in one walk.", "lat": 19.431592, "lon": -99.135338, "p": "a"}, {"n": "Museo del Objeto del Objeto (MODO)", "cat": "do", "tier": "", "a": "Roma Norte", "d": "A witty, one-of-a-kind design museum of everyday Mexican objects and advertising, set in an Art Nouveau townhouse. Small, playful and unexpected — a light, charming stop that amuses children and grown-ups alike.", "lat": 19.420215, "lon": -99.15907, "p": "v"}, {"n": "Biblioteca Vasconcelos", "cat": "do", "tier": "", "a": "Buenavista", "d": "A soaring 'megalibrary' of suspended glass floors and a whale skeleton hovering in the void, one of the world's most photographed modern libraries. A quick, awe-inducing detour that thrills teenagers and architecture buffs.", "lat": 19.447486, "lon": -99.150807, "p": "v"}, {"n": "Monumento a la Revolución & Mirador", "cat": "do", "tier": "", "a": "Tabacalera", "d": "A colossal Art Deco arch, tomb of revolutionary heroes, with a glass lift rising to a rooftop viewing deck above Reforma. Fast and striking, with a fine panorama and a plaza that dances with fountains at night.", "lat": 19.436174, "lon": -99.154621, "p": "v"}, {"n": "Ángel de la Independencia & Paseo de la Reforma", "cat": "do", "tier": "", "a": "Reforma", "d": "The golden Angel of Independence presides over Mexico's grand Haussmann-style boulevard, lined with monuments, hotels and Sunday cyclists. A driver's slow cruise here orients the family to the modern city's spine.", "lat": 19.427, "lon": -99.167669, "p": "v"}, {"n": "Basílica de Santa María de Guadalupe", "cat": "do", "tier": "", "a": "La Villa", "d": "Mexico's most sacred shrine, where the miraculous image of the Virgin of Guadalupe draws millions, its modern circular basilica beside the old sinking one. A moving, deeply human place; a guide navigates the vast pilgrim crowds respectfully.", "lat": 19.484858, "lon": -99.117857, "p": "v"}, {"n": "Jardín Centenario & Coyoacán Churches", "cat": "do", "tier": "", "a": "Coyoacán", "d": "The garden square framed by the 16th-century San Juan Bautista church and the coyote fountain is the soul of old Coyoacán, alive with musicians and ice-cream sellers. Shaded, sociable and endlessly photogenic for an easy family hour.", "lat": 19.349261, "lon": -99.163669, "p": "v"}, {"n": "Mercado Roma", "cat": "do", "tier": "", "a": "Roma Norte", "d": "A multi-storey gourmet food hall with rooftop terrace gathering the city's best artisan producers, taquerías and mezcal bars under one stylish roof. Curated and comfortable, with clearly labelled options for vegetarian members of the party.", "lat": 19.414124, "lon": -99.164591, "p": "v"}, {"n": "Cineteca Nacional & Mezcal Tasting", "cat": "do", "tier": "", "a": "Coyoacán / Xoco", "d": "Mexico's cinematheque is a sleek cultural campus of open-air screens and cafés, and the surrounding south is dotted with refined mezcalerías. A private tasting flight — smoky espadín to rare tobalá — reveals Mexico's soul in a glass, guided and unhurried.", "lat": 19.360634, "lon": -99.16484, "p": "v"}, {"n": "Puebla (Day Trip)", "cat": "do", "tier": "", "a": "Day Trip — Puebla", "d": "Two hours east, a UNESCO colonial jewel of Talavera-tiled facades, gilded churches and mole poblano beneath the Popocatépetl volcano. A private car makes it a gracious full day of architecture, cuisine and artisan ceramics.", "lat": 19.353735, "lon": -99.301971, "p": "v"}, {"n": "Tepoztlán (Day Trip)", "cat": "do", "tier": "", "a": "Day Trip — Morelos", "d": "A magical mountain 'Pueblo Mágico' an hour south, crowned by the cliff-top Tepozteco pyramid, ringed by mystic peaks, market stalls and a warmer climate. A relaxed day for wellness and nature, with the pyramid hike optional for the fitter.", "lat": 19.387085, "lon": -99.246434, "p": "a"}, {"n": "Museo Kaluz", "cat": "do", "tier": "", "a": "Centro Histórico", "d": "A refined newer museum in a restored colonial hospice by the Alameda, showing Mexican art across five centuries, with a rooftop terrace over Bellas Artes. Elegant, calm and rarely crowded — a connoisseur's stop with a fine view.", "lat": 19.437607, "lon": -99.145734, "p": "v"}, {"n": "Museo Nacional de las Culturas del Mundo & Moneda Street", "cat": "do", "tier": "", "a": "Centro Histórico", "d": "Behind the cathedral, this world-cultures museum sits on a beautiful colonial street of Rivera murals in the old Mint. A quiet, free-flowing detour a step off the Zócalo's bustle.", "lat": 19.431592, "lon": -99.135338, "p": "a"}, {"n": "Jardín Botánico & Chapultepec Zoo", "cat": "do", "tier": "", "a": "Chapultepec", "d": "Within the great park, a serene botanical garden and a free zoo home to giant pandas make a gentle, green interlude. Ideal for younger children in the multi-gen group when the museums have run long.", "lat": 19.423207, "lon": -99.182528, "p": "v"}, {"n": "Templo de San Francisco & Casa de los Azulejos", "cat": "do", "tier": "", "a": "Centro Histórico", "d": "On Madero, a graceful old Franciscan church faces the House of Tiles, a blue-and-white Talavera-clad palace now a landmark café. A quick, atmospheric pairing of church and courtyard in the heart of the walk.", "lat": 19.375789, "lon": -99.175785, "p": "v"}, {"n": "Mercado de Coyoacán Antojitos", "cat": "do", "tier": "", "a": "Coyoacán", "d": "The covered market's food aisles serve legendary tostadas, quesadillas and aguas frescas in a festive, colourful setting. A guide can point vegetarians to the many meat-free antojitos so no one misses out on the fun.", "lat": 19.352794, "lon": -99.161497, "p": "v"}, {"n": "Six Flags & Bosque de Tlalpan (Southern Green Escape)", "cat": "do", "tier": "", "a": "Tlalpan", "d": "For families with children, the forested Bosque de Tlalpan offers easy trails and clean mountain air on the city's southern edge, a calm antidote to museum days. Peaceful, safe and green — the local families' weekend refuge.", "lat": 19.28806, "lon": -99.166973, "p": "a"}, {"n": "Handshake Speakeasy", "cat": "party", "tier": "Cocktail bars", "a": "Juárez", "d": "Eric van Beek's precision cocktail temple, now in grander premises in Juárez — technique-driven, theatrical drinks at the very top of the craft.", "lat": 19.424324, "lon": -99.164801, "p": "v"}, {"n": "Licorería Limantour", "cat": "party", "tier": "Cocktail bars", "a": "Roma Norte", "d": "The bar that lit the fuse of Mexico City's cocktail renaissance — polished, inventive drinks and a benchmark for the whole scene.", "lat": 19.418131, "lon": -99.159409, "p": "v"}, {"n": "Baltra Bar", "cat": "party", "tier": "Cocktail bars", "a": "Condesa", "d": "A tiny, Galápagos-themed Condesa bar of quiet obsession — one of the city's most respected rooms for the seriously made classic.", "lat": 19.409523, "lon": -99.168838, "p": "v"}, {"n": "Rayo", "cat": "party", "tier": "Cocktail bars", "a": "Roma Norte", "d": "An agave-devoted bar built around the myth of Mayahuel — mezcal, tequila and pulque woven into story-driven, thoughtful cocktails.", "lat": 19.340526, "lon": -99.099685, "p": "v"}, {"n": "Hanky Panky", "cat": "party", "tier": "Late & loud", "a": "Juárez", "d": "A hidden speakeasy behind an unmarked door — one of the city's original cocktail dens, still buzzing late into the night.", "lat": 19.427045, "lon": -99.155649, "p": "v"}, {"n": "Kaito del Valle", "cat": "party", "tier": "Cocktail bars", "a": "Del Valle", "d": "A Japanese-leaning cocktail bar of real precision — omakase-style drinks and a hushed, considered room away from the tourist trail.", "lat": 19.501829, "lon": -99.066192, "p": "v"}, {"n": "Bijou Drinkery Room", "cat": "party", "tier": "Cocktail bars", "a": "Juárez", "d": "A small, jewel-like bar with a sharp, spirit-forward list — a critics' favourite that punches far above its size.", "lat": 19.434548, "lon": -99.146269, "p": "a"}, {"n": "Ticuchi", "cat": "party", "tier": "Cocktail bars", "a": "Polanco", "d": "Enrique Olvera's agave bar beside Pujol — a dark, atmospheric room devoted to mezcal and its cousins, with cooking to match.", "lat": 19.43353, "lon": -99.190915, "p": "a"}, {"n": "Cityzen — Sofitel Mexico City Reforma", "cat": "party", "tier": "Rooftops", "a": "Juárez (Paseo de la Reforma)", "d": "The Sofitel's 38th-floor rooftop bar — the definitive high-altitude drink over Reforma and the Angel of Independence.", "lat": 19.428642, "lon": -99.165823, "p": "v"}]}
+{
+  "center": [
+    19.320772,
+    -99.151468
+  ],
+  "venues": [
+    {
+      "n": "Four Seasons Hotel Mexico City",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Ju\u00e1rez (Paseo de la Reforma)",
+      "d": "A hacienda-style house wrapped around a green courtyard on Reforma \u2014 the city's most complete grand-hotel service, and a calm oasis off the boulevard.",
+      "lat": 19.42293,
+      "lon": -99.174205,
+      "photos": []
+    },
+    {
+      "n": "The St. Regis Mexico City",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Ju\u00e1rez (Paseo de la Reforma)",
+      "d": "A C\u00e9sar Pelli tower over Reforma with the Angel of Independence at its feet \u2014 St. Regis butler service and one of the best skyline views in the capital.",
+      "lat": 19.43263,
+      "lon": -99.133178,
+      "photos": []
+    },
+    {
+      "n": "Las Alcobas, a Luxury Collection Hotel",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Polanco (Avenida Presidente Masaryk)",
+      "d": "A jewel-box on Polanco's luxury-shopping avenue \u2014 35 rooms of quiet, warm-toned design, steps from the boutiques and the great tables.",
+      "lat": 19.432145,
+      "lon": -99.198093,
+      "photos": []
+    },
+    {
+      "n": "Casa Polanco",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Polanco",
+      "d": "Two 1940s mansions woven into one 19-room house facing Lincoln Park \u2014 the only Two-Key hotel in the city, and its most refined address.",
+      "lat": 19.422381,
+      "lon": -99.185861,
+      "photos": []
+    },
+    {
+      "n": "Sofitel Mexico City Reforma",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Ju\u00e1rez (Paseo de la Reforma)",
+      "d": "A sleek French-accented tower on Reforma, crowned by the 38th-floor Cityzen rooftop \u2014 grand views and a lively social scene under one roof.",
+      "lat": 19.428723,
+      "lon": -99.166041,
+      "photos": []
+    },
+    {
+      "n": "Pug Seal Allan Poe",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Polanco",
+      "d": "A colour-drenched, art-filled boutique house on a quiet Polanco street \u2014 bold design, 24-hour pantry and a temazcal ritual on site.",
+      "lat": 19.427945,
+      "lon": -99.177449,
+      "photos": []
+    },
+    {
+      "n": "Brick Hotel Mexico City",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Roma Norte",
+      "d": "An early-20th-century mansion turned intimate hotel in the heart of Roma Norte \u2014 Belle \u00c9poque bones, a courtyard and a good restaurant.",
+      "lat": 19.43263,
+      "lon": -99.133178,
+      "photos": []
+    },
+    {
+      "n": "La Valise Mexico City",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Roma Norte",
+      "d": "A three-suite townhouse of theatrical, one-of-a-kind rooms \u2014 a bed that rolls onto the balcony is the signature \u2014 pure Roma romance.",
+      "lat": 19.43263,
+      "lon": -99.133178,
+      "photos": []
+    },
+    {
+      "n": "Octavia Casa",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Condesa",
+      "d": "A serene, minimalist house by fashion designer Roberta Maceda in leafy Condesa \u2014 natural materials, calm light and quiet good taste.",
+      "lat": 19.437223,
+      "lon": -99.133278,
+      "photos": []
+    },
+    {
+      "n": "Ignacia Guest House",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Roma Norte",
+      "d": "A restored 1913 house of just five rooms around a courtyard \u2014 warm, personal and among the most charming small stays in Roma.",
+      "lat": 19.438026,
+      "lon": -99.154564,
+      "photos": []
+    },
+    {
+      "n": "Quintonil",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Polanco",
+      "d": "Jorge Vallejo and Alejandra Flores' temple to Mexican produce \u2014 herbs, heirloom corn and native ingredients at the very peak of world dining.",
+      "lat": 19.430818,
+      "lon": -99.191834,
+      "photos": []
+    },
+    {
+      "n": "Pujol",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Polanco",
+      "d": "Enrique Olvera's landmark \u2014 the mole madre, aged for years and served in a ring beside a fresh mole, remains one of gastronomy's great dishes.",
+      "lat": 19.433633,
+      "lon": -99.18545,
+      "photos": []
+    },
+    {
+      "n": "M\u00e1ximo Bistrot",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Roma Norte",
+      "d": "Eduardo 'Lalo' Garc\u00eda's bright, produce-driven room \u2014 French technique and Mexican soul, cooked from the day's market.",
+      "lat": 19.415335,
+      "lon": -99.161985,
+      "photos": []
+    },
+    {
+      "n": "Rosetta",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Roma Norte",
+      "d": "Elena Reygadas' cooking in a romantic Roma townhouse \u2014 Italian roots and Mexican produce from the World's Best Female Chef.",
+      "lat": 19.419974,
+      "lon": -99.16061,
+      "photos": []
+    },
+    {
+      "n": "Sud 777",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Jardines del Pedregal",
+      "d": "Edgar N\u00fa\u00f1ez's garden-driven cooking in the leafy south \u2014 much of the produce grown in the restaurant's own beds.",
+      "lat": 19.308758,
+      "lon": -99.209106,
+      "photos": []
+    },
+    {
+      "n": "Em",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Ju\u00e1rez",
+      "d": "Lucho Mart\u00ednez's intimate counter \u2014 a personal, fire-led tasting menu that was among the guide's most talked-about stars.",
+      "lat": 19.317015,
+      "lon": -99.11207,
+      "photos": []
+    },
+    {
+      "n": "Esquina Com\u00fan",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Cuauht\u00e9moc",
+      "d": "A young, produce-obsessed kitchen turning Mexican ingredients into a precise, evolving tasting menu \u2014 a quiet critical favourite.",
+      "lat": 19.357892,
+      "lon": -99.119863,
+      "photos": []
+    },
+    {
+      "n": "Expendio de Ma\u00edz",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Roma Norte",
+      "d": "A tiny, counter-only corn kitchen with no fixed menu \u2014 cooking is dictated by what the market gives, heirloom masa at its centre.",
+      "lat": 19.414211,
+      "lon": -99.162831,
+      "photos": []
+    },
+    {
+      "n": "Masala y Ma\u00edz",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Cuauht\u00e9moc",
+      "d": "Norma Listman and Saqib Keval's dialogue between Mexican, Indian and East African kitchens \u2014 one of the city's most original tables.",
+      "lat": 19.247712,
+      "lon": -99.127489,
+      "photos": []
+    },
+    {
+      "n": "Taquer\u00eda El Califa de Le\u00f3n",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Centro / San Rafael",
+      "d": "A stand-up taquer\u00eda the size of a garage, awarded a Michelin star for a single thing done to perfection \u2014 the gaonera taco.",
+      "lat": 19.349283,
+      "lon": -99.186695,
+      "photos": []
+    },
+    {
+      "n": "Contramar",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Roma Norte",
+      "d": "Gabriela C\u00e1mara's sunlit seafood institution \u2014 the tuna tostada and the split-colour pescado a la talla are city rituals.",
+      "lat": 19.419611,
+      "lon": -99.167226,
+      "photos": []
+    },
+    {
+      "n": "Vigneron",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Roma Norte",
+      "d": "A wine-led French bistro from a serious sommelier team \u2014 precise cooking built around an exceptional cellar.",
+      "lat": 19.414584,
+      "lon": -99.160372,
+      "photos": []
+    },
+    {
+      "n": "Comedor Jacinta",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Polanco",
+      "d": "Chef Edgar N\u00fa\u00f1ez's warm ode to Mexican home cooking \u2014 grandmother's recipes plated with real care, in a bright Polanco room.",
+      "lat": 19.43052,
+      "lon": -99.196268,
+      "photos": []
+    },
+    {
+      "n": "Galanga Thai House",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Roma Sur",
+      "d": "Vivid, genuinely spicy Thai cooking in a small Roma house \u2014 a Bib favourite and a welcome change of register.",
+      "lat": 19.412879,
+      "lon": -99.162851,
+      "photos": []
+    },
+    {
+      "n": "Molino El Pujol",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Condesa",
+      "d": "Enrique Olvera's neighbourhood mill and kitchen \u2014 heirloom corn ground on site, turned into tortillas, tamales and simple, brilliant plates.",
+      "lat": 19.407678,
+      "lon": -99.177066,
+      "photos": []
+    },
+    {
+      "n": "Comal Oculto",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Roma Norte",
+      "d": "A produce-led, comal-driven kitchen turning market vegetables and heirloom corn into a considered, good-value menu.",
+      "lat": 19.358242,
+      "lon": -99.268021,
+      "photos": []
+    },
+    {
+      "n": "Taquer\u00eda Los Cocuyos",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Centro Hist\u00f3rico",
+      "d": "A round-the-clock street stand in the old centre \u2014 slow-cooked meats and the suadero taco that locals swear by.",
+      "lat": 19.430169,
+      "lon": -99.138757,
+      "photos": []
+    },
+    {
+      "n": "El Vilsito",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Narvarte",
+      "d": "A mechanic's garage by day, a legendary al pastor taquer\u00eda by night \u2014 one of the city's benchmark trompos.",
+      "lat": 19.389308,
+      "lon": -99.152757,
+      "photos": []
+    },
+    {
+      "n": "Filigrana",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Roma Norte",
+      "d": "A refined-yet-relaxed kitchen doing modern Mexican cooking with real polish, at genuine value.",
+      "lat": 19.417566,
+      "lon": -99.174017,
+      "photos": []
+    },
+    {
+      "n": "The Z\u00f3calo (Plaza de la Constituci\u00f3n)",
+      "cat": "do",
+      "tier": "",
+      "a": "Centro Hist\u00f3rico",
+      "d": "One of the largest city squares on earth, laid over the sacred heart of Aztec Tenochtitl\u00e1n, where a vast national flag is raised and lowered by the army each day. A private guide reads the layered history for the whole family before the crowds and the altitude tell on anyone.",
+      "lat": 19.432647,
+      "lon": -99.133199,
+      "photos": []
+    },
+    {
+      "n": "Metropolitan Cathedral (Catedral Metropolitana)",
+      "cat": "do",
+      "tier": "",
+      "a": "Centro Hist\u00f3rico",
+      "d": "The largest and oldest cathedral in Latin America, a 250-year Spanish Baroque masterpiece slowly sinking into the old lakebed \u2014 you feel the floor tilt as you walk toward the altar. Cool, quiet and shaded, a gentle first stop for elders on a busy day.",
+      "lat": 19.431592,
+      "lon": -99.135338,
+      "photos": []
+    },
+    {
+      "n": "Templo Mayor & Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Centro Hist\u00f3rico",
+      "d": "The excavated main temple of Tenochtitl\u00e1n, unearthed beside the cathedral, with a superb museum holding the great stone disc of the goddess Coyolxauhqui. A guide brings the ruins alive for children who might otherwise see only rubble.",
+      "lat": 19.435062,
+      "lon": -99.131432,
+      "photos": []
+    },
+    {
+      "n": "Palacio Nacional & Diego Rivera Murals",
+      "cat": "do",
+      "tier": "",
+      "a": "Centro Hist\u00f3rico",
+      "d": "Rivera's monumental staircase murals \u2014 sixteen years of work sweeping across all of Mexican history \u2014 line a working seat of government on the Z\u00f3calo's east side. Entry is free with photo ID; a guide is essential to decode the crowded, political panels.",
+      "lat": 19.4362,
+      "lon": -99.146809,
+      "photos": []
+    },
+    {
+      "n": "Palacio de Bellas Artes",
+      "cat": "do",
+      "tier": "",
+      "a": "Centro Hist\u00f3rico",
+      "d": "A dazzling white-marble Art Nouveau and Art Deco palace crowned with a Tiffany glass stage curtain, holding murals by Rivera, Siqueiros and Orozco. The evening Ballet Folkl\u00f3rico de M\u00e9xico here \u2014 pre- and post-Hispanic dance staged since 1952 \u2014 is a beautiful, wordless family night.",
+      "lat": 19.435501,
+      "lon": -99.141259,
+      "photos": []
+    },
+    {
+      "n": "Ballet Folkl\u00f3rico de M\u00e9xico",
+      "cat": "do",
+      "tier": "",
+      "a": "Centro Hist\u00f3rico",
+      "d": "Amalia Hern\u00e1ndez's legendary company performs its riot of regional Mexican dance under the Tiffany curtain of Bellas Artes twice weekly. No language needed, so grandparents and children share the same spectacle; private box seats can be arranged.",
+      "lat": 19.440119,
+      "lon": -99.141202,
+      "photos": []
+    },
+    {
+      "n": "Torre Latinoamericana Observation Deck",
+      "cat": "do",
+      "tier": "",
+      "a": "Centro Hist\u00f3rico",
+      "d": "The 1956 skyscraper that survived every great earthquake gives a 44th-floor panorama of the endless valley city, best at dusk with a drink in the sky-lounge below. A quick, easy way to grasp the sheer scale before diving into the streets.",
+      "lat": 19.433866,
+      "lon": -99.140611,
+      "photos": []
+    },
+    {
+      "n": "Museo Nacional de Antropolog\u00eda",
+      "cat": "do",
+      "tier": "",
+      "a": "Chapultepec",
+      "d": "The world's greatest museum of Mesoamerican civilisation \u2014 22 vast halls holding the Aztec Sun Stone, colossal Olmec heads and Maya treasures under a soaring stone-and-water canopy. Too big to see whole; a private guide curates a two-hour path so no one tires.",
+      "lat": 19.426152,
+      "lon": -99.186652,
+      "photos": []
+    },
+    {
+      "n": "Chapultepec Castle (Museo Nacional de Historia)",
+      "cat": "do",
+      "tier": "",
+      "a": "Chapultepec",
+      "d": "The only true royal castle in the Americas, crowning the forested hill where Emperor Maximilian once lived, now a history museum with hilltop gardens and city views. A gentle uphill or short shuttle; the terraces reward the climb.",
+      "lat": 19.420463,
+      "lon": -99.182087,
+      "photos": []
+    },
+    {
+      "n": "Museo Tamayo",
+      "cat": "do",
+      "tier": "",
+      "a": "Chapultepec",
+      "d": "Rufino Tamayo's own gift to the city, a striking concrete pavilion in Chapultepec woods showing international and Mexican contemporary art. Calm, uncrowded and air-conditioned \u2014 a refined counterpoint to the grand anthropology halls next door.",
+      "lat": 19.425802,
+      "lon": -99.18171,
+      "photos": []
+    },
+    {
+      "n": "Museo de Arte Moderno (MAM)",
+      "cat": "do",
+      "tier": "",
+      "a": "Chapultepec",
+      "d": "Home to icons of 20th-century Mexican art, including Frida Kahlo's famous 'The Two Fridas' and works by Rivera, Siqueiros and Remedios Varo. A compact, digestible collection set in a sculpture garden, easy to pair with the surrounding park.",
+      "lat": 19.42299,
+      "lon": -99.179606,
+      "photos": []
+    },
+    {
+      "n": "Bosque de Chapultepec",
+      "cat": "do",
+      "tier": "",
+      "a": "Chapultepec",
+      "d": "One of the largest urban parks in the Western Hemisphere, twice the size of Central Park, its lakes, forests and museums lending the whole family room to breathe at altitude. A private guide and driver make its scattered sights effortless in a day.",
+      "lat": 19.423299,
+      "lon": -99.189382,
+      "photos": []
+    },
+    {
+      "n": "Museo Frida Kahlo (Casa Azul)",
+      "cat": "do",
+      "tier": "",
+      "a": "Coyoac\u00e1n",
+      "d": "The cobalt-blue house where Frida was born, lived with Diego and died \u2014 her studio, wheelchair, corsets and garden left as they were, deeply moving even to those who know little of her art. Timed tickets sell out; a concierge secures a quiet slot in advance.",
+      "lat": 19.355141,
+      "lon": -99.162356,
+      "photos": []
+    },
+    {
+      "n": "Museo Casa de Le\u00f3n Trotsky",
+      "cat": "do",
+      "tier": "",
+      "a": "Coyoac\u00e1n",
+      "d": "The fortified house where the exiled revolutionary lived under Frida and Diego's protection and was assassinated in 1940, his study frozen at the moment of the ice-axe blow. A short walk from Casa Azul; a compelling, sombre stop for older travellers with a taste for history.",
+      "lat": 19.357693,
+      "lon": -99.159548,
+      "photos": []
+    },
+    {
+      "n": "Museo Diego Rivera Anahuacalli",
+      "cat": "do",
+      "tier": "",
+      "a": "Coyoac\u00e1n",
+      "d": "Rivera's black-volcanic-stone 'temple of the arts', a pyramid-like fortress he built to house his immense collection of pre-Columbian pieces, set in an ecological reserve. Included with the Casa Azul ticket and blessedly serene \u2014 a hidden gem few tourists reach.",
+      "lat": 19.322579,
+      "lon": -99.144077,
+      "photos": []
+    },
+    {
+      "n": "Coyoac\u00e1n Historic Centre & Market",
+      "cat": "do",
+      "tier": "",
+      "a": "Coyoac\u00e1n",
+      "d": "Cobbled colonial squares, twin plazas, fountains and a lively covered market of textiles, crafts and tostadas make this the city's most enchanting village-within-a-city. Leafy and walkable, it suits a slow multi-generational afternoon with plenty of shaded benches.",
+      "lat": 19.352794,
+      "lon": -99.161497,
+      "photos": []
+    },
+    {
+      "n": "Bazar S\u00e1bado & San \u00c1ngel",
+      "cat": "do",
+      "tier": "",
+      "a": "San \u00c1ngel",
+      "d": "Every Saturday this cobbled colonial quarter fills with a genteel art-and-artisan bazaar around Plaza San Jacinto, from fine silver to painting. Compact and refined shopping with courtyard restaurants \u2014 a graceful morning for shoppers of all ages.",
+      "lat": 19.345072,
+      "lon": -99.192869,
+      "photos": []
+    },
+    {
+      "n": "Museo Casa Estudio Diego Rivera y Frida Kahlo",
+      "cat": "do",
+      "tier": "",
+      "a": "San \u00c1ngel",
+      "d": "The pair of bold functionalist studio-houses \u2014 one pink, one blue, linked by a rooftop bridge \u2014 designed by Juan O'Gorman for the artists, a landmark of Mexican modernism. Quiet and architectural, a fine companion to a San \u00c1ngel stroll.",
+      "lat": 19.344812,
+      "lon": -99.203987,
+      "photos": []
+    },
+    {
+      "n": "Museo Soumaya",
+      "cat": "do",
+      "tier": "",
+      "a": "Polanco",
+      "d": "Carlos Slim's free museum, a shimmering twist of 16,000 mirrored steel tiles, holds the largest Rodin collection outside France alongside old masters and Mexican art. Architecturally jaw-dropping and easily woven into a Polanco shopping day.",
+      "lat": 19.440782,
+      "lon": -99.204566,
+      "photos": []
+    },
+    {
+      "n": "Museo Jumex",
+      "cat": "do",
+      "tier": "",
+      "a": "Polanco",
+      "d": "David Chipperfield's crisp travertine gallery next to the Soumaya houses Latin America's finest private contemporary-art collection. A cool, curated hour for serious collectors, with a good caf\u00e9 \u2014 a refined pause between boutiques.",
+      "lat": 19.440553,
+      "lon": -99.203635,
+      "photos": []
+    },
+    {
+      "n": "Avenida Presidente Masaryk Luxury Shopping",
+      "cat": "do",
+      "tier": "",
+      "a": "Polanco",
+      "d": "Mexico's most expensive avenue, a leafy boulevard of Louis Vuitton, Herm\u00e8s, Cartier, Bulgari and Tiffany showrooms alongside acclaimed restaurants. Discreet, tree-lined and easy for a driver to shadow \u2014 the natural base for luxury travellers.",
+      "lat": 19.43193,
+      "lon": -99.201562,
+      "photos": []
+    },
+    {
+      "n": "Casa Luis Barrag\u00e1n (Casa Estudio)",
+      "cat": "do",
+      "tier": "",
+      "a": "Tacubaya",
+      "d": "The Pritzker laureate's own house and studio, a serene interplay of light, colour and volume that is the touchstone of modern Mexican architecture. Strictly small guided groups by reservation only \u2014 a quiet, unmissable pilgrimage for design lovers.",
+      "lat": 19.411122,
+      "lon": -99.19244,
+      "photos": []
+    },
+    {
+      "n": "Xochimilco Trajineras",
+      "cat": "do",
+      "tier": "",
+      "a": "Xochimilco",
+      "d": "The last living remnant of the Aztec lake, where flower-painted trajinera barges glide through canals and floating chinampa gardens, mariachis drifting alongside. A private boat with catered food and mezcal turns it into a joyful, safe family afternoon.",
+      "lat": 19.25702,
+      "lon": -99.100832,
+      "photos": []
+    },
+    {
+      "n": "Teotihuac\u00e1n Pyramids (Day Trip)",
+      "cat": "do",
+      "tier": "",
+      "a": "Day Trip \u2014 State of Mexico",
+      "d": "An hour from the city rise the vast Pyramids of the Sun and Moon along the Avenue of the Dead, a metropolis older and grander than the Aztecs who revered it. Go early with a private guide and driver, or float above it all at dawn in a hot-air balloon.",
+      "lat": 19.501829,
+      "lon": -99.066192,
+      "photos": []
+    },
+    {
+      "n": "Arena M\u00e9xico \u2014 Lucha Libre",
+      "cat": "do",
+      "tier": "",
+      "a": "Doctores",
+      "d": "The 'Cathedral of Lucha Libre', where masked luchadores fly from the ropes to roaring, family-friendly crowds \u2014 pure, joyful Mexican theatre. A curated evening with ringside seats and a guide (skip the rougher streets outside) is a memory kids never forget.",
+      "lat": 19.391288,
+      "lon": -99.002176,
+      "photos": []
+    },
+    {
+      "n": "Mercado de San Juan",
+      "cat": "do",
+      "tier": "",
+      "a": "Centro Hist\u00f3rico",
+      "d": "The gourmet market of the city, famed for exotic ingredients, fine cheeses, jam\u00f3n and stalls where chefs shop \u2014 a feast for food-curious travellers. A guide can steer vegetarians to the produce, cheese and prepared-food counters that suit.",
+      "lat": 19.429952,
+      "lon": -99.144506,
+      "photos": []
+    },
+    {
+      "n": "Mercado de Artesan\u00edas La Ciudadela",
+      "cat": "do",
+      "tier": "",
+      "a": "Centro Hist\u00f3rico",
+      "d": "The city's best one-stop craft market, aisles of Talavera pottery, Oaxacan textiles, silver, alebrijes and Day-of-the-Dead art under one roof. Fixed and calm enough for relaxed, unhurried gift-buying with the family.",
+      "lat": 19.430761,
+      "lon": -99.149161,
+      "photos": []
+    },
+    {
+      "n": "Parque M\u00e9xico & Parque Espa\u00f1a",
+      "cat": "do",
+      "tier": "",
+      "a": "Condesa",
+      "d": "Two lush Art Deco parks at the heart of leafy Condesa, ringed by 1920s architecture, dog-walkers and pavement caf\u00e9s. A gentle, green stroll that lets multi-gen groups slow down and simply feel the city's most liveable neighbourhood.",
+      "lat": 19.414935,
+      "lon": -99.171411,
+      "photos": []
+    },
+    {
+      "n": "Roma Norte Galleries & Dining",
+      "cat": "do",
+      "tier": "",
+      "a": "Roma Norte",
+      "d": "Belle \u00c9poque mansions now hold design shops, art galleries and some of the city's finest restaurants along tree-lined \u00c1lvaro Obreg\u00f3n. Walkable, stylish and full of tasting menus that thoughtfully accommodate vegetarians on request.",
+      "lat": 19.419577,
+      "lon": -99.161093,
+      "photos": []
+    },
+    {
+      "n": "Museo Nacional de Arte (MUNAL)",
+      "cat": "do",
+      "tier": "",
+      "a": "Centro Hist\u00f3rico",
+      "d": "A palatial Beaux-Arts building housing four centuries of Mexican painting and sculpture, from colonial altarpieces to the great landscapes of Jos\u00e9 Mar\u00eda Velasco. Grand, uncrowded and beautifully told by a private guide.",
+      "lat": 19.436458,
+      "lon": -99.139087,
+      "photos": []
+    },
+    {
+      "n": "Museo del Templo de la Ense\u00f1anza & Calle Madero Walk",
+      "cat": "do",
+      "tier": "",
+      "a": "Centro Hist\u00f3rico",
+      "d": "The pedestrian Madero street links Bellas Artes to the Z\u00f3calo past the tiled Casa de los Azulejos and ornate churches \u2014 the finest colonial promenade in the city. Flat, car-free and easy for elders, threading the Centro's greatest hits in one walk.",
+      "lat": 19.431592,
+      "lon": -99.135338,
+      "photos": []
+    },
+    {
+      "n": "Museo del Objeto del Objeto (MODO)",
+      "cat": "do",
+      "tier": "",
+      "a": "Roma Norte",
+      "d": "A witty, one-of-a-kind design museum of everyday Mexican objects and advertising, set in an Art Nouveau townhouse. Small, playful and unexpected \u2014 a light, charming stop that amuses children and grown-ups alike.",
+      "lat": 19.420215,
+      "lon": -99.15907,
+      "photos": []
+    },
+    {
+      "n": "Biblioteca Vasconcelos",
+      "cat": "do",
+      "tier": "",
+      "a": "Buenavista",
+      "d": "A soaring 'megalibrary' of suspended glass floors and a whale skeleton hovering in the void, one of the world's most photographed modern libraries. A quick, awe-inducing detour that thrills teenagers and architecture buffs.",
+      "lat": 19.447486,
+      "lon": -99.150807,
+      "photos": []
+    },
+    {
+      "n": "Monumento a la Revoluci\u00f3n & Mirador",
+      "cat": "do",
+      "tier": "",
+      "a": "Tabacalera",
+      "d": "A colossal Art Deco arch, tomb of revolutionary heroes, with a glass lift rising to a rooftop viewing deck above Reforma. Fast and striking, with a fine panorama and a plaza that dances with fountains at night.",
+      "lat": 19.436174,
+      "lon": -99.154621,
+      "photos": []
+    },
+    {
+      "n": "\u00c1ngel de la Independencia & Paseo de la Reforma",
+      "cat": "do",
+      "tier": "",
+      "a": "Reforma",
+      "d": "The golden Angel of Independence presides over Mexico's grand Haussmann-style boulevard, lined with monuments, hotels and Sunday cyclists. A driver's slow cruise here orients the family to the modern city's spine.",
+      "lat": 19.427,
+      "lon": -99.167669,
+      "photos": []
+    },
+    {
+      "n": "Bas\u00edlica de Santa Mar\u00eda de Guadalupe",
+      "cat": "do",
+      "tier": "",
+      "a": "La Villa",
+      "d": "Mexico's most sacred shrine, where the miraculous image of the Virgin of Guadalupe draws millions, its modern circular basilica beside the old sinking one. A moving, deeply human place; a guide navigates the vast pilgrim crowds respectfully.",
+      "lat": 19.484858,
+      "lon": -99.117857,
+      "photos": []
+    },
+    {
+      "n": "Jard\u00edn Centenario & Coyoac\u00e1n Churches",
+      "cat": "do",
+      "tier": "",
+      "a": "Coyoac\u00e1n",
+      "d": "The garden square framed by the 16th-century San Juan Bautista church and the coyote fountain is the soul of old Coyoac\u00e1n, alive with musicians and ice-cream sellers. Shaded, sociable and endlessly photogenic for an easy family hour.",
+      "lat": 19.349261,
+      "lon": -99.163669,
+      "photos": []
+    },
+    {
+      "n": "Mercado Roma",
+      "cat": "do",
+      "tier": "",
+      "a": "Roma Norte",
+      "d": "A multi-storey gourmet food hall with rooftop terrace gathering the city's best artisan producers, taquer\u00edas and mezcal bars under one stylish roof. Curated and comfortable, with clearly labelled options for vegetarian members of the party.",
+      "lat": 19.414124,
+      "lon": -99.164591,
+      "photos": []
+    },
+    {
+      "n": "Cineteca Nacional & Mezcal Tasting",
+      "cat": "do",
+      "tier": "",
+      "a": "Coyoac\u00e1n / Xoco",
+      "d": "Mexico's cinematheque is a sleek cultural campus of open-air screens and caf\u00e9s, and the surrounding south is dotted with refined mezcaler\u00edas. A private tasting flight \u2014 smoky espad\u00edn to rare tobal\u00e1 \u2014 reveals Mexico's soul in a glass, guided and unhurried.",
+      "lat": 19.360634,
+      "lon": -99.16484,
+      "photos": []
+    },
+    {
+      "n": "Puebla (Day Trip)",
+      "cat": "do",
+      "tier": "",
+      "a": "Day Trip \u2014 Puebla",
+      "d": "Two hours east, a UNESCO colonial jewel of Talavera-tiled facades, gilded churches and mole poblano beneath the Popocat\u00e9petl volcano. A private car makes it a gracious full day of architecture, cuisine and artisan ceramics.",
+      "lat": 19.353735,
+      "lon": -99.301971,
+      "photos": []
+    },
+    {
+      "n": "Tepoztl\u00e1n (Day Trip)",
+      "cat": "do",
+      "tier": "",
+      "a": "Day Trip \u2014 Morelos",
+      "d": "A magical mountain 'Pueblo M\u00e1gico' an hour south, crowned by the cliff-top Tepozteco pyramid, ringed by mystic peaks, market stalls and a warmer climate. A relaxed day for wellness and nature, with the pyramid hike optional for the fitter.",
+      "lat": 19.387085,
+      "lon": -99.246434,
+      "photos": []
+    },
+    {
+      "n": "Museo Kaluz",
+      "cat": "do",
+      "tier": "",
+      "a": "Centro Hist\u00f3rico",
+      "d": "A refined newer museum in a restored colonial hospice by the Alameda, showing Mexican art across five centuries, with a rooftop terrace over Bellas Artes. Elegant, calm and rarely crowded \u2014 a connoisseur's stop with a fine view.",
+      "lat": 19.437607,
+      "lon": -99.145734,
+      "photos": []
+    },
+    {
+      "n": "Museo Nacional de las Culturas del Mundo & Moneda Street",
+      "cat": "do",
+      "tier": "",
+      "a": "Centro Hist\u00f3rico",
+      "d": "Behind the cathedral, this world-cultures museum sits on a beautiful colonial street of Rivera murals in the old Mint. A quiet, free-flowing detour a step off the Z\u00f3calo's bustle.",
+      "lat": 19.431592,
+      "lon": -99.135338,
+      "photos": []
+    },
+    {
+      "n": "Jard\u00edn Bot\u00e1nico & Chapultepec Zoo",
+      "cat": "do",
+      "tier": "",
+      "a": "Chapultepec",
+      "d": "Within the great park, a serene botanical garden and a free zoo home to giant pandas make a gentle, green interlude. Ideal for younger children in the multi-gen group when the museums have run long.",
+      "lat": 19.423207,
+      "lon": -99.182528,
+      "photos": []
+    },
+    {
+      "n": "Templo de San Francisco & Casa de los Azulejos",
+      "cat": "do",
+      "tier": "",
+      "a": "Centro Hist\u00f3rico",
+      "d": "On Madero, a graceful old Franciscan church faces the House of Tiles, a blue-and-white Talavera-clad palace now a landmark caf\u00e9. A quick, atmospheric pairing of church and courtyard in the heart of the walk.",
+      "lat": 19.375789,
+      "lon": -99.175785,
+      "photos": []
+    },
+    {
+      "n": "Mercado de Coyoac\u00e1n Antojitos",
+      "cat": "do",
+      "tier": "",
+      "a": "Coyoac\u00e1n",
+      "d": "The covered market's food aisles serve legendary tostadas, quesadillas and aguas frescas in a festive, colourful setting. A guide can point vegetarians to the many meat-free antojitos so no one misses out on the fun.",
+      "lat": 19.352794,
+      "lon": -99.161497,
+      "photos": []
+    },
+    {
+      "n": "Six Flags & Bosque de Tlalpan (Southern Green Escape)",
+      "cat": "do",
+      "tier": "",
+      "a": "Tlalpan",
+      "d": "For families with children, the forested Bosque de Tlalpan offers easy trails and clean mountain air on the city's southern edge, a calm antidote to museum days. Peaceful, safe and green \u2014 the local families' weekend refuge.",
+      "lat": 19.28806,
+      "lon": -99.166973,
+      "photos": []
+    },
+    {
+      "n": "Handshake Speakeasy",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Ju\u00e1rez",
+      "d": "Eric van Beek's precision cocktail temple, now in grander premises in Ju\u00e1rez \u2014 technique-driven, theatrical drinks at the very top of the craft.",
+      "lat": 19.424324,
+      "lon": -99.164801,
+      "photos": []
+    },
+    {
+      "n": "Licorer\u00eda Limantour",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Roma Norte",
+      "d": "The bar that lit the fuse of Mexico City's cocktail renaissance \u2014 polished, inventive drinks and a benchmark for the whole scene.",
+      "lat": 19.418131,
+      "lon": -99.159409,
+      "photos": []
+    },
+    {
+      "n": "Baltra Bar",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Condesa",
+      "d": "A tiny, Gal\u00e1pagos-themed Condesa bar of quiet obsession \u2014 one of the city's most respected rooms for the seriously made classic.",
+      "lat": 19.409523,
+      "lon": -99.168838,
+      "photos": []
+    },
+    {
+      "n": "Rayo",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Roma Norte",
+      "d": "An agave-devoted bar built around the myth of Mayahuel \u2014 mezcal, tequila and pulque woven into story-driven, thoughtful cocktails.",
+      "lat": 19.340526,
+      "lon": -99.099685,
+      "photos": []
+    },
+    {
+      "n": "Hanky Panky",
+      "cat": "party",
+      "tier": "Late & loud",
+      "a": "Ju\u00e1rez",
+      "d": "A hidden speakeasy behind an unmarked door \u2014 one of the city's original cocktail dens, still buzzing late into the night.",
+      "lat": 19.427045,
+      "lon": -99.155649,
+      "photos": []
+    },
+    {
+      "n": "Kaito del Valle",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Del Valle",
+      "d": "A Japanese-leaning cocktail bar of real precision \u2014 omakase-style drinks and a hushed, considered room away from the tourist trail.",
+      "lat": 19.501829,
+      "lon": -99.066192,
+      "photos": []
+    },
+    {
+      "n": "Bijou Drinkery Room",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Ju\u00e1rez",
+      "d": "A small, jewel-like bar with a sharp, spirit-forward list \u2014 a critics' favourite that punches far above its size.",
+      "lat": 19.434548,
+      "lon": -99.146269,
+      "photos": []
+    },
+    {
+      "n": "Ticuchi",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Polanco",
+      "d": "Enrique Olvera's agave bar beside Pujol \u2014 a dark, atmospheric room devoted to mezcal and its cousins, with cooking to match.",
+      "lat": 19.43353,
+      "lon": -99.190915,
+      "photos": []
+    },
+    {
+      "n": "Cityzen \u2014 Sofitel Mexico City Reforma",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "Ju\u00e1rez (Paseo de la Reforma)",
+      "d": "The Sofitel's 38th-floor rooftop bar \u2014 the definitive high-altitude drink over Reforma and the Angel of Independence.",
+      "lat": 19.428642,
+      "lon": -99.165823,
+      "photos": []
+    }
+  ]
+}

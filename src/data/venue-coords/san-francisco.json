@@ -1,1 +1,1108 @@
-{"center": [37.809749, -122.410449], "venues": [{"n": "Four Seasons Hotel San Francisco at Embarcadero", "cat": "stay", "tier": "Grand", "a": "Embarcadero / Financial District", "d": "The surest hands in the city, high in a Financial-District tower with the bay at the window.", "lat": 37.786, "lon": -122.402812, "p": "v"}, {"n": "The St. Regis San Francisco", "cat": "stay", "tier": "Grand", "a": "SoMa / Yerba Buena", "d": "The house that invented the butler — the city's only Forbes Five-Star hotel, beside the museums.", "lat": 37.786057, "lon": -122.401381, "p": "v"}, {"n": "The Ritz-Carlton, San Francisco", "cat": "stay", "tier": "Grand", "a": "Nob Hill", "d": "Neoclassical grandeur behind a landmark 1909 façade — Nob Hill tradition, beautifully kept.", "lat": 37.791868, "lon": -122.407082, "p": "v"}, {"n": "Palace Hotel, a Luxury Collection Hotel", "cat": "stay", "tier": "Grand", "a": "SoMa / Financial District", "d": "San Francisco's original grand hotel of 1875 — and the stained-glass Garden Court, a city landmark.", "lat": 37.793647, "lon": -122.398938, "p": "a"}, {"n": "The Fairmont San Francisco", "cat": "stay", "tier": "Grand", "a": "Nob Hill", "d": "The crown of Nob Hill since 1907 — a piece of the city's history, rebuilt after the great earthquake.", "lat": 37.79242, "lon": -122.409769, "p": "v"}, {"n": "1 Hotel San Francisco", "cat": "stay", "tier": "Luxury", "a": "Embarcadero / Financial District", "d": "Nature-led calm on the waterfront — reclaimed wood, living green, the bay across the road.", "lat": 37.792864, "lon": -122.396912, "p": "a"}, {"n": "The Battery", "cat": "stay", "tier": "Luxury", "a": "Financial District / Jackson Square", "d": "A private members' club with rooms above — the most discreet address in the city.", "lat": 37.797934, "lon": -122.401137, "p": "v"}, {"n": "Taj Campton Place", "cat": "stay", "tier": "Luxury", "a": "Union Square", "d": "The house that speaks Hindi at the door — an intimate Taj boutique off Union Square.", "lat": 37.789141, "lon": -122.406573, "p": "v"}, {"n": "San Francisco Proper Hotel", "cat": "stay", "tier": "Luxury", "a": "Mid-Market / SoMa", "d": "Kelly Wearstler's bold, layered flatiron hotel — the most design-literate room in town, with Charmaine's on the roof.", "lat": 37.780848, "lon": -122.412525, "p": "v"}, {"n": "Hotel Drisco", "cat": "stay", "tier": "Luxury", "a": "Pacific Heights", "d": "A gracious 1903 residence high in Pacific Heights — a calm, residential hideaway above the city.", "lat": 37.79242, "lon": -122.409769, "p": "v"}, {"n": "InterContinental Mark Hopkins San Francisco", "cat": "stay", "tier": "Premium", "a": "Nob Hill", "d": "A 1926 Nob Hill landmark, crowned by the Top of the Mark sky lounge — old San Francisco, still standing.", "lat": 37.791422, "lon": -122.410228, "p": "v"}, {"n": "Cavallo Point Lodge", "cat": "stay", "tier": "Luxury", "a": "Sausalito / Golden Gate (Marin)", "d": "A restored army post at the foot of the Golden Gate Bridge — the bridge and skyline across the water.", "lat": 37.868495, "lon": -122.505756, "p": "a"}, {"n": "SingleThread Inn", "cat": "stay", "tier": "Ultra", "a": "Healdsburg (Sonoma)", "d": "Five rooms above one of the world's great restaurants — a farm, an inn and a three-star table as one.", "lat": 37.797066, "lon": -122.457846, "p": "v"}, {"n": "Montage Healdsburg", "cat": "stay", "tier": "Grand", "a": "Healdsburg (Sonoma)", "d": "Low-slung bungalows scattered across a Sonoma hillside of oaks and vines — space, air and quiet.", "lat": 37.80055, "lon": -122.404629, "p": "v"}, {"n": "Stanly Ranch, Auberge Resorts Collection", "cat": "stay", "tier": "Grand", "a": "Napa", "d": "A contemporary farmstead resort at the valley's gateway — wellness-led, and effortlessly stylish.", "lat": 37.787936, "lon": -122.40752, "p": "a"}, {"n": "The Madrona", "cat": "stay", "tier": "Luxury", "a": "Healdsburg (Sonoma)", "d": "A restored 1881 Victorian mansion in gardens — maximalist, romantic, the talk of Healdsburg.", "lat": 37.798793, "lon": -122.46458, "p": "v"}, {"n": "Carneros Resort and Spa", "cat": "stay", "tier": "Luxury", "a": "Napa (Carneros)", "d": "Cottage-style rooms among the vines of Carneros, with hilltop pools over the valley.", "lat": 38.255708, "lon": -122.335167, "p": "v"}, {"n": "MacArthur Place Hotel & Spa", "cat": "stay", "tier": "Luxury", "a": "Sonoma", "d": "A garden estate a stroll from Sonoma's plaza — leafy, discreet and quietly luxurious.", "lat": 38.284107, "lon": -122.457661, "p": "v"}, {"n": "Bardessono", "cat": "stay", "tier": "Luxury", "a": "Yountville (Napa Valley)", "d": "A cool, low, sustainable retreat in the heart of Yountville — rooftop pool, and The French Laundry down the lane.", "lat": 37.787936, "lon": -122.40752, "p": "v"}, {"n": "North Block", "cat": "stay", "tier": "Luxury", "a": "Yountville (Napa Valley)", "d": "A small Tuscan-style hotel in walkable Yountville — intimate, warm and beautifully run.", "lat": 37.809749, "lon": -122.410449, "p": "v"}, {"n": "The Ritz-Carlton, Half Moon Bay", "cat": "stay", "tier": "Grand", "a": "Half Moon Bay (Coast)", "d": "A grand lodge on a Pacific bluff south of the city — ocean-view dining and links golf on the cliff's edge.", "lat": 37.433784, "lon": -122.441575, "p": "v"}, {"n": "Quince", "cat": "eat", "tier": "Destination", "a": "Jackson Square / Financial District", "d": "Michael and Lindsay Tusk's grand Cal-Italian dining room — one of the country's finest, and three stars held.", "lat": 37.797458, "lon": -122.403402, "p": "v"}, {"n": "Benu", "cat": "eat", "tier": "Destination", "a": "SoMa", "d": "Corey Lee's spare, brilliant tasting menu — Asian tradition rebuilt with Californian precision.", "lat": 37.785462, "lon": -122.39908, "p": "v"}, {"n": "Atelier Crenn", "cat": "eat", "tier": "Destination", "a": "Cow Hollow / Marina", "d": "Dominique Crenn's poetic, seafood-and-vegetable cooking — the first US woman chef to hold three stars.", "lat": 37.789728, "lon": -122.407184, "p": "v"}, {"n": "Californios", "cat": "eat", "tier": "Destination", "a": "Mission District", "d": "Val Cantu's refined Mexican tasting menu — the first Mexican restaurant in the world to earn three stars.", "lat": 37.787936, "lon": -122.40752, "p": "v"}, {"n": "Saison", "cat": "eat", "tier": "Destination", "a": "SoMa", "d": "A live-fire Californian tasting menu of great luxury — the open hearth at the centre of the room.", "lat": 37.779495, "lon": -122.392218, "p": "v"}, {"n": "Kiln", "cat": "eat", "tier": "Destination", "a": "Hayes Valley / Civic Center", "d": "A Nordic-influenced tasting counter that rose to two stars — precise, seasonal, quietly thrilling.", "lat": 37.787936, "lon": -122.40752, "p": "v"}, {"n": "Acquerello", "cat": "eat", "tier": "Destination", "a": "Nob Hill / Polk Gulch", "d": "A converted chapel and a cellar of legend — the city's grandest Italian fine dining, two stars for decades.", "lat": 37.787936, "lon": -122.40752, "p": "v"}, {"n": "Birdsong", "cat": "eat", "tier": "Destination", "a": "SoMa", "d": "Chris Bullock's smoke-and-fire Californian cooking — Appalachian roots, Bay Area produce.", "lat": 37.779436, "lon": -122.410421, "p": "v"}, {"n": "Lazy Bear", "cat": "eat", "tier": "Destination", "a": "Mission District", "d": "A communal-table 'dinner party' of inventive American cooking — warm, generous, and quietly serious.", "lat": 37.760317, "lon": -122.419767, "p": "v"}, {"n": "Sons & Daughters", "cat": "eat", "tier": "Destination", "a": "Nob Hill", "d": "An intimate, vegetable-forward tasting counter high on Nob Hill — Californian cooking at its most refined.", "lat": 37.79023, "lon": -122.409129, "p": "v"}, {"n": "Mister Jiu's", "cat": "eat", "tier": "Fine", "a": "Chinatown", "d": "Brandon Jew's landmark room in old Chinatown — Chinese-American cooking with Californian soul.", "lat": 37.793717, "lon": -122.406662, "p": "v"}, {"n": "Angler", "cat": "eat", "tier": "Fine", "a": "Embarcadero / Waterfront", "d": "Live-fire seafood on the waterfront — the coastal, produce-driven counterpart to Saison.", "lat": 37.787936, "lon": -122.40752, "p": "v"}, {"n": "Nari", "cat": "eat", "tier": "Fine", "a": "Japantown", "d": "Pim Techamuanvivit's modern Thai cooking — Bay Area produce, Bangkok backbone.", "lat": 37.787936, "lon": -122.40752, "p": "v"}, {"n": "Sorrel", "cat": "eat", "tier": "Fine", "a": "Presidio Heights / Pacific Heights", "d": "Alex Hong's Cal-Italian in a warm neighbourhood room — handmade pasta and quiet finesse.", "lat": 37.788418, "lon": -122.446268, "p": "v"}, {"n": "7 Adams", "cat": "eat", "tier": "Fine", "a": "Japantown / Pacific Heights", "d": "A husband-and-wife neighbourhood room turned one-star — precise, Californian, personal.", "lat": 37.774077, "lon": -122.446904, "p": "v"}, {"n": "Kin Khao", "cat": "eat", "tier": "Fine", "a": "Union Square", "d": "Fiery, uncompromising Thai cooking off Union Square — no farang shortcuts.", "lat": 37.785031, "lon": -122.409272, "p": "v"}, {"n": "Restaurant Naides", "cat": "eat", "tier": "Fine", "a": "Nob Hill", "d": "A newly-starred Filipino tasting menu — the cuisine rendered with real ambition and grace.", "lat": 37.806886, "lon": -122.432207, "p": "v"}, {"n": "Niku Steakhouse", "cat": "eat", "tier": "Destination", "a": "SoMa / Design District", "d": "A Japanese-wagyu temple of a steakhouse — the finest beef in the city, cooked with reverence.", "lat": 37.792245, "lon": -122.403614, "p": "v"}, {"n": "Restaurant Nisei", "cat": "eat", "tier": "Fine", "a": "Russian Hill / Polk", "d": "David Yoshimura's washoku-rooted tasting menu — Japanese technique, Californian ingredients.", "lat": 37.806886, "lon": -122.432207, "p": "v"}, {"n": "Cyrus", "cat": "eat", "tier": "Destination", "a": "Geyserville (Sonoma)", "d": "Douglas Keane's immersive, room-to-room culinary journey — one of wine country's great experiences, reborn.", "lat": 37.787936, "lon": -122.40752, "p": "v"}, {"n": "Enclos", "cat": "eat", "tier": "Destination", "a": "Sonoma", "d": "A place-based tasting menu in a walled Sonoma garden — newly among the very best in the country.", "lat": 37.787936, "lon": -122.40752, "p": "v"}, {"n": "The French Laundry", "cat": "eat", "tier": "Destination", "a": "Yountville (Napa Valley)", "d": "Thomas Keller's temple in a Yountville stone cottage — for many, the finest restaurant in America.", "lat": 37.77616, "lon": -122.429746, "p": "v"}, {"n": "SingleThread", "cat": "eat", "tier": "Destination", "a": "Healdsburg (Sonoma)", "d": "Kyle and Katina Connaughton's farm-to-table three-star — Sonoma produce through a Japanese lens.", "lat": 37.787936, "lon": -122.40752, "p": "v"}, {"n": "Kenzo", "cat": "eat", "tier": "Destination", "a": "Napa", "d": "An exquisite kaiseki counter with fish flown from Tokyo — Napa's most precise Japanese meal.", "lat": 37.787936, "lon": -122.40752, "p": "v"}, {"n": "Auro", "cat": "eat", "tier": "Fine", "a": "Calistoga (Four Seasons Napa Valley)", "d": "A refined tasting menu that earned its star months after opening — Calistoga's first Michelin table.", "lat": 37.787936, "lon": -122.40752, "p": "v"}, {"n": "PRESS", "cat": "eat", "tier": "Fine", "a": "St. Helena (Napa Valley)", "d": "Wood-fired steaks and one of the deepest Napa-Cabernet lists on earth — 3,000-plus bottles.", "lat": 37.771418, "lon": -122.467343, "p": "v"}, {"n": "State Bird Provisions", "cat": "eat", "tier": "Smart", "a": "Fillmore / Western Addition", "d": "The dim-sum-cart tasting that changed how the city eats — one star, and still a party every night.", "lat": 37.783706, "lon": -122.432948, "p": "v"}, {"n": "Del Popolo", "cat": "eat", "tier": "Smart", "a": "Nob Hill / Lower Nob Hill", "d": "Naples-grade wood-fired pizza and a beautiful room — the city's most wanted pie.", "lat": 37.789634, "lon": -122.411364, "p": "v"}, {"n": "Izakaya Rintaro", "cat": "eat", "tier": "Smart", "a": "Mission District", "d": "Sylvan Mishima Brackett's exquisite handmade izakaya cooking — Japan, made from Californian produce.", "lat": 37.768888, "lon": -122.415131, "p": "v"}, {"n": "Good Good Culture Club", "cat": "eat", "tier": "Smart", "a": "Mission District", "d": "Playful, personal Asian-American cooking from a chef collective — bright, generous, of-the-moment.", "lat": 37.76173, "lon": -122.422948, "p": "v"}, {"n": "Outerlands", "cat": "eat", "tier": "Smart", "a": "Outer Sunset", "d": "Driftwood-warm Californian cooking by the ocean — the Sunset's beloved neighbourhood room.", "lat": 37.76035, "lon": -122.505006, "p": "v"}, {"n": "Ciccio", "cat": "eat", "tier": "Smart", "a": "Yountville (Napa Valley)", "d": "A family Italian trattoria in the heart of Yountville — the warm, unfussy counterpoint to the valley's grand rooms.", "lat": 37.769186, "lon": -122.431736, "p": "v"}, {"n": "Glen Ellen Star", "cat": "eat", "tier": "Smart", "a": "Glen Ellen (Sonoma)", "d": "Wood-fired seasonal cooking in a Sonoma cottage — one of wine country's best-loved neighbourhood tables.", "lat": 37.740324, "lon": -122.441991, "p": "v"}, {"n": "Valley Bar & Bottle", "cat": "eat", "tier": "Smart", "a": "Sonoma", "d": "A wine bar and kitchen on the Sonoma plaza doing bright, seasonal Californian plates.", "lat": 37.776314, "lon": -122.423255, "p": "v"}, {"n": "Golden Gate Bridge", "cat": "do", "tier": "", "a": "Presidio / Golden Gate", "d": "The 1937 International Orange span is the image the whole family will already carry of San Francisco, and it delivers in person; walk or cycle a stretch of the pedestrian deck, or have your driver stage a slow loop between the Presidio's Battery East and the Marin side so grandparents can take it in from the car. Fog permitting, mornings and the golden hour before sunset are the cleanest for photographs.", "lat": 37.807536, "lon": -122.475644, "p": "v"}, {"n": "Battery Spencer", "cat": "do", "tier": "", "a": "Marin Headlands", "d": "A short drive across the bridge and up into the Marin Headlands puts you nearly 500 feet above the water, looking straight down the length of the span toward the city with Alcatraz beyond, the single best vantage in the region. A private car makes the winding approach effortless; it is entirely outdoors and free, so pack layers against the wind.", "lat": 37.794016, "lon": -122.482621, "p": "v"}, {"n": "Alcatraz Island", "cat": "do", "tier": "", "a": "San Francisco Bay", "d": "The former federal penitentiary on its rock in the bay is a genuinely gripping half-day, the audio tour narrated by former guards and inmates holding teenagers rapt in a way few museums manage. Ferries leave from Pier 33 and sell out well ahead, so have your concierge lock tickets weeks in advance; the night tour is the quieter, more atmospheric choice.", "lat": 37.826721, "lon": -122.422759, "p": "v"}, {"n": "Cable Cars (Powell-Hyde & Powell-Mason lines)", "cat": "do", "tier": "", "a": "Nob Hill / Downtown", "d": "The world's last manually operated cable-car system is both transport and heritage ride; the Powell-Hyde line's plunge down Hyde Street toward the bay, brakeman heaving on the grip, is the one children remember. Board at a mid-route stop rather than the mobbed Powell turnaround, and hold the outside running board for the full effect.", "lat": 37.793262, "lon": -122.415249, "p": "a"}, {"n": "Golden Gate Park", "cat": "do", "tier": "", "a": "Golden Gate Park", "d": "A thousand acres wider than New York's Central Park, threaded with gardens, lakes, museums and meadows, it is the green heart of the city and a full multi-generational day in itself. Rent a surrey or hire a driver to move between the de Young, the Academy of Sciences and the tea garden without tiring the elders.", "lat": 37.769368, "lon": -122.482184, "p": "v"}, {"n": "de Young Museum", "cat": "do", "tier": "", "a": "Golden Gate Park", "d": "One of the oldest and largest art museums in the country, strong on American painting, textiles and art of the Americas, the Pacific and Africa; its copper-clad Hamon observation tower is free and gives a quiet 360-degree view over the park and city. A civilised, air-conditioned pause between garden walks.", "lat": 37.771498, "lon": -122.469092, "p": "v"}, {"n": "California Academy of Sciences", "cat": "do", "tier": "", "a": "Golden Gate Park", "d": "Aquarium, planetarium, four-storey indoor rainforest and natural-history museum under one living roof, it is the most engaging science stop in the city for children and endlessly photogenic for adults. It is the only LEED Platinum-certified museum of its kind, a detail the tech-minded in your party will appreciate.", "lat": 37.769827, "lon": -122.466093, "p": "v"}, {"n": "Conservatory of Flowers", "cat": "do", "tier": "", "a": "Golden Gate Park", "d": "A gleaming white Victorian glasshouse from 1879, the oldest building in the park and the oldest public wood-and-glass conservatory in North America, its humid galleries full of orchids and aquatic plants. Small, gentle and beautiful, it suits grandparents and a short attention span alike.", "lat": 37.772607, "lon": -122.460228, "p": "v"}, {"n": "Japanese Tea Garden", "cat": "do", "tier": "", "a": "Golden Gate Park", "d": "The oldest public Japanese garden in the United States, five serene acres of arched drum bridge, koi ponds, pagoda and clipped maples, best in early morning before the crowds. Green tea and a plate of manju at the teahouse make a calm interlude the whole family can share.", "lat": 37.770293, "lon": -122.470124, "p": "v"}, {"n": "The Presidio", "cat": "do", "tier": "", "a": "Presidio", "d": "A former army post turned 1,500-acre national park on the city's northern tip, with forested trails, bluff-top overlooks, the Walt Disney Family Museum and the tunnel-top parkland that frames the bridge. A private guide can tailor an easy morning here that mixes history, views and a lawn picnic.", "lat": 37.798793, "lon": -122.46458, "p": "v"}, {"n": "Lands End & the Sutro Baths ruins", "cat": "do", "tier": "", "a": "Outer Richmond", "d": "A wild, cypress-edged coastal trail along the city's rocky western edge, ending at the haunting concrete shells of the 1890s Sutro Baths, once the largest indoor bathhouse in the world. Dramatic, uncrowded and cinematic; wear proper shoes and let the pace suit the group.", "lat": 37.775325, "lon": -122.497786, "p": "a"}, {"n": "Palace of Fine Arts", "cat": "do", "tier": "", "a": "Marina", "d": "The last surviving structure of the 1915 Panama-Pacific Exposition, a Roman-Greco rotunda mirrored in its own swan-filled lagoon, romantic and quiet at dawn. A five-minute stop that yields some of the most flattering family portraits in the city.", "lat": 37.802919, "lon": -122.448403, "p": "v"}, {"n": "Coit Tower", "cat": "do", "tier": "", "a": "Telegraph Hill", "d": "The fluted Art Deco column crowning Telegraph Hill since 1933, its base wrapped in vivid 1934 WPA murals of Depression-era California and its top-deck elevator giving 360-degree views over both bridges. Combine the ride up with the murals for a satisfying half-hour.", "lat": 37.802379, "lon": -122.405834, "p": "v"}, {"n": "Filbert Steps", "cat": "do", "tier": "", "a": "Telegraph Hill", "d": "A garden staircase tumbling down the east face of Telegraph Hill through terraced flowers where a flock of wild parrots nests in the trees, one of the city's loveliest hidden walks. Do it downhill from Coit Tower to spare the knees.", "lat": 37.801839, "lon": -122.406366, "p": "v"}, {"n": "Fisherman's Wharf & Pier 39", "cat": "do", "tier": "", "a": "Fisherman's Wharf", "d": "The busiest, most commercial stretch of the waterfront, honestly touristy, but worth a brief pass for the barking sea-lion colony that lounges on the K-Dock floats and a bowl of chowder. Treat it as a quick, well-timed stop rather than a destination, and move on to quieter piers.", "lat": 37.809246, "lon": -122.415794, "p": "v"}, {"n": "Ferry Building Marketplace", "cat": "do", "tier": "", "a": "Embarcadero", "d": "The restored 1898 landmark on the waterfront is now the city's finest food hall, with artisan producers, wine bars, oyster counters and, three days a week, one of the country's best farmers' markets on the plaza outside. A civilised lunch stop with real vegetarian and produce-driven options, and grand bay views from the back.", "lat": 37.795549, "lon": -122.393475, "p": "v"}, {"n": "SFMOMA", "cat": "do", "tier": "", "a": "SoMa", "d": "Seven soaring gallery floors and a living green wall make this one of the largest modern-art museums in the country, deep in Bay Area abstraction, Pop and photography. Book the top floors first and let the family drift down; the rooftop sculpture terrace is a fine breather.", "lat": 37.785915, "lon": -122.400736, "p": "v"}, {"n": "Chinatown", "cat": "do", "tier": "", "a": "Chinatown", "d": "The oldest and one of the largest Chinatowns outside Asia, entered through the Dragon Gate on Grant, a warren of temples, herb shops, the fortune-cookie alley and dim-sum houses. A knowledgeable private guide turns Ross Alley and Waverly Place into a story rather than a stroll.", "lat": 37.795926, "lon": -122.406733, "p": "v"}, {"n": "North Beach", "cat": "do", "tier": "", "a": "North Beach", "d": "San Francisco's Little Italy and the old Beat quarter, where City Lights Bookstore, espresso in Caffe Trieste and a proper Italian dinner sit within a few blocks of each other under Coit Tower. An easy evening for grandparents; the sidewalk cafes make lingering the point.", "lat": 37.809749, "lon": -122.410449, "p": "v"}, {"n": "Mission District murals", "cat": "do", "tier": "", "a": "Mission", "d": "The Mission holds hundreds of murals, densest along Balmy Alley and Clarion Alley, a living archive of Latino and political street art unmatched in the country. Precita Eyes runs excellent walking tours; pair it with a taqueria lunch and the neighbourhood's roaring coffee scene.", "lat": 37.759653, "lon": -122.422606, "p": "v"}, {"n": "Painted Ladies & Alamo Square", "cat": "do", "tier": "", "a": "Alamo Square", "d": "The row of pastel Victorian houses at 710-720 Steiner with the downtown skyline rising behind them is the most photographed residential view in the city, familiar from a hundred title sequences. A quick, gentle stop; the park lawn is a fine spot to sit while others get the shot.", "lat": 37.776224, "lon": -122.432786, "p": "v"}, {"n": "Haight-Ashbury", "cat": "do", "tier": "", "a": "Haight-Ashbury", "d": "The crossroads that gave the 1960s its counterculture, still lined with record shops, vintage stores and Victorian facades painted in psychedelic colour. A short, curious walk for anyone who lived through or loves that era's music; light and fun rather than a full afternoon.", "lat": 37.770028, "lon": -122.446982, "p": "v"}, {"n": "Hayes Valley", "cat": "do", "tier": "", "a": "Hayes Valley", "d": "A compact, polished district of independent designers, wine bars and next-thing restaurants near the opera and symphony, where the city's fashion and food scene shows its newest hand. The most refined neighbourhood for an unhurried afternoon of shopping and a good dinner.", "lat": 37.776685, "lon": -122.422936, "p": "v"}, {"n": "The Castro", "cat": "do", "tier": "", "a": "Castro", "d": "The world's first and most storied gay neighbourhood, anchored by the 1922 Castro Theatre's neon marquee and Harvey Milk's old camera shop, warm and welcoming to all. A meaningful, relaxed walk-through with strong cafes and a genuine sense of history.", "lat": 37.760856, "lon": -122.434957, "p": "v"}, {"n": "Twin Peaks", "cat": "do", "tier": "", "a": "Twin Peaks", "d": "Two hills rising over 900 feet in the geographic centre of the city, giving a near-360-degree panorama from the Golden Gate to downtown to the bay, best at dusk when the grid lights up. A five-minute drive to the top means even the least mobile of the group can take in the whole view.", "lat": 37.751825, "lon": -122.453554, "p": "v"}, {"n": "Cable Car Museum", "cat": "do", "tier": "", "a": "Nob Hill", "d": "A free museum inside the working Washington-Mason powerhouse, where you look down on the giant sheaves and cables that still drive the whole system, plus antique cable cars from the 1870s. Genuinely fascinating for the engineering-minded and a good rainy-hour stop with children.", "lat": 37.79476, "lon": -122.411853, "p": "v"}, {"n": "Exploratorium", "cat": "do", "tier": "", "a": "Embarcadero", "d": "A pioneering hands-on museum of science, art and human perception spread along Pier 15, hundreds of exhibits you touch, tilt and experiment with. The strongest choice in the city for keeping curious children and their parents engaged for hours.", "lat": 37.800898, "lon": -122.398526, "p": "v"}, {"n": "Oracle Park", "cat": "do", "tier": "", "a": "Mission Bay / SoMa", "d": "The Giants' waterfront ballpark, where home runs splash into McCovey Cove and the bay and Bay Bridge fill the outfield backdrop, an easy introduction to American baseball. Even off game days, a stadium tour and a garlic-fries lunch make a relaxed hour by the water.", "lat": 37.778606, "lon": -122.389472, "p": "v"}, {"n": "Union Square", "cat": "do", "tier": "", "a": "Union Square", "d": "The city's flagship shopping district, ringed by the grand department stores and international luxury houses and a short cable-car ride from the wharf. The natural base for serious shopping, with the theatre district and top hotels on the doorstep.", "lat": 37.787514, "lon": -122.407159, "p": "v"}, {"n": "Grace Cathedral", "cat": "do", "tier": "", "a": "Nob Hill", "d": "A soaring French Gothic Episcopal cathedral atop Nob Hill, with gilded Ghiberti doors, luminous stained glass and two labyrinths you can walk in contemplative quiet. A serene, welcoming stop of any faith, moments from the Fairmont and Mark Hopkins.", "lat": 37.791821, "lon": -122.413497, "p": "v"}, {"n": "16th Avenue Tiled Steps", "cat": "do", "tier": "", "a": "Golden Gate Heights", "d": "A 163-step mosaic staircase of sea-to-stars tilework climbing a quiet residential hill, capped by a sweeping ocean view for those who make the ascent. A charming, little-known detour that rewards the curious and photographs beautifully.", "lat": 37.7596, "lon": -122.473625, "p": "v"}, {"n": "The Embarcadero waterfront promenade", "cat": "do", "tier": "", "a": "Embarcadero", "d": "The reclaimed waterfront boulevard curving from the Ferry Building past the piers to the bridge, ideal for a flat, gentle stroll or a hired-cycle spin with the bay on one side. The vintage F-line streetcars trundling alongside are a low-effort delight for grandparents.", "lat": 37.808331, "lon": -122.408446, "p": "v"}, {"n": "Nob Hill", "cat": "do", "tier": "", "a": "Nob Hill", "d": "The old railroad-baron summit of the city, home to the Fairmont, the Mark Hopkins and Grace Cathedral, all discreet grandeur and cable-car clang. The most fitting neighbourhood to base a luxury stay, and a lovely early-evening walk between landmarks.", "lat": 37.788706, "lon": -122.421408, "p": "v"}, {"n": "Muir Woods National Monument", "cat": "do", "tier": "", "a": "Marin County (day trip)", "d": "A cathedral grove of ancient coast redwoods less than an hour north over the bridge, its flat, wheelchair-friendly boardwalk making it accessible to every generation. Timed parking or entry reservations are mandatory, so have your concierge secure them; combine with Sausalito for a full, easy day.", "lat": 37.896391, "lon": -122.580218, "p": "v"}, {"n": "Sausalito", "cat": "do", "tier": "", "a": "Marin County (day trip)", "d": "A Mediterranean-feeling harbour town across the bridge, all yacht-lined marina, hillside villas, galleries and waterfront seafood, with the city skyline glinting across the water. The classic move is to arrive by car or after Muir Woods and return to San Francisco by ferry at golden hour.", "lat": 37.868495, "lon": -122.505756, "p": "v"}, {"n": "Napa Valley wine country", "cat": "do", "tier": "", "a": "Napa (day trip)", "d": "About an hour and a half northeast, the most famous wine region in America, with 400-plus wineries, Michelin-starred tables and estates that arrange private, seated tastings for discerning guests. A chauffeured day is essential; several kitchens, including The French Laundry and La Toque, offer full vegetarian tasting menus for Indian palates.", "lat": 38.304424, "lon": -122.328755, "p": "v"}, {"n": "Sonoma County wine country", "cat": "do", "tier": "", "a": "Sonoma (day trip)", "d": "Napa's quieter, more rustic neighbour, with a historic plaza town, redwood-shaded lanes and family-run estates that feel more intimate and unhurried. The better choice for travellers who want world-class wine without the polish and pace of Napa; three-star SingleThread anchors the fine dining.", "lat": 38.230995, "lon": -122.613177, "p": "v"}, {"n": "Half Moon Bay", "cat": "do", "tier": "", "a": "San Mateo Coast (day trip)", "d": "A pretty coastal town and crescent of beaches about forty minutes south down Highway 1, with the Ritz-Carlton's clifftop links, tide pools and pumpkin farms in autumn. A gentle, scenic escape from the city for a lunch and a walk on the bluffs.", "lat": 37.463552, "lon": -122.428586, "p": "v"}, {"n": "Monterey & Carmel-by-the-Sea", "cat": "do", "tier": "", "a": "Central Coast (day trip)", "d": "About two hours south, the world-class Monterey Bay Aquarium, the 17-Mile Drive past Pebble Beach and the storybook village of Carmel make a memorable long day or overnight. A chauffeured car makes the coast road effortless; the aquarium is a highlight for children and adults alike.", "lat": 37.787606, "lon": -122.441819, "p": "a"}, {"n": "Baker Beach", "cat": "do", "tier": "", "a": "Presidio", "d": "A broad sweep of sand beneath the Presidio's cliffs with an unobstructed frontal view of the Golden Gate Bridge, one of the most photographed angles in the city. Chilly and often windswept but wide, uncrowded and cinematic, best in the late-afternoon light.", "lat": 37.793123, "lon": -122.483821, "p": "v"}, {"n": "Lombard Street (the crooked block)", "cat": "do", "tier": "", "a": "Russian Hill", "d": "The famous one-way switchback of eight sharp turns banked with hydrangeas, dropping down Russian Hill with the bay framed below. A quick photo stop; walk the brick sidewalk down rather than queue to drive it, and pair it with the neighbourhood's steep view streets.", "lat": 37.799428, "lon": -122.441633, "p": "v"}, {"n": "San Francisco Botanical Garden", "cat": "do", "tier": "", "a": "Golden Gate Park", "d": "Fifty-five acres of plant collections from Andean cloud forests to a fragrant magnolia grove, a tranquil, uncrowded counterpoint to the park's busier museums. A restful, level walk that suits the whole family and rewards a slow morning.", "lat": 37.767359, "lon": -122.469678, "p": "v"}, {"n": "Angel Island State Park", "cat": "do", "tier": "", "a": "San Francisco Bay (day trip)", "d": "The largest island in the bay, reached by a short ferry, ringed by a level perimeter path with 360-degree views of the city, bridges and Marin, and home to the sobering Immigration Station. A gentle half-day on the water with a picnic and history for those who want off the mainland.", "lat": 37.862928, "lon": -122.43034, "p": "v"}, {"n": "Walt Disney Family Museum", "cat": "do", "tier": "", "a": "Presidio", "d": "A beautifully designed museum in a former Presidio barracks tracing Walt Disney's life and craft, richer and more grown-up than the name suggests. A civilised indoor option with wide appeal across generations, set among the park's finest walks.", "lat": 37.801363, "lon": -122.458721, "p": "v"}, {"n": "Legion of Honor", "cat": "do", "tier": "", "a": "Lincoln Park", "d": "A neoclassical fine-arts museum modelled on a Paris pavilion, perched above the sea in Lincoln Park with Rodin bronzes in the court and European old masters within, and Golden Gate views from the terrace. Quiet, elegant and rarely crowded, a connoisseur's afternoon.", "lat": 37.784558, "lon": -122.500955, "p": "v"}, {"n": "Fort Point", "cat": "do", "tier": "", "a": "Presidio", "d": "A Civil War-era brick fortress tucked directly beneath the southern anchorage of the Golden Gate Bridge, giving the most dramatic close-up of the span's underside and ironwork. A short, atmospheric stop that history-minded travellers and photographers both prize.", "lat": 37.786696, "lon": -122.49483, "p": "v"}, {"n": "Chinatown to North Beach food walk", "cat": "do", "tier": "", "a": "Chinatown / North Beach", "d": "The two oldest immigrant quarters sit back to back, so a private guide can lead you from dim sum and tea in Chinatown to espresso and cannoli in North Beach in a single afternoon. The most rewarding way to eat and understand old San Francisco on foot, at a pace to suit the group.", "lat": 37.795586, "lon": -122.404683, "p": "a"}, {"n": "True Laurel", "cat": "party", "tier": "Cocktail bars", "a": "Mission District", "d": "Lazy Bear's cocktail sibling — kitchen-driven, waste-conscious drinks that rank among the best in the country.", "lat": 37.759497, "lon": -122.411489, "p": "v"}, {"n": "Trick Dog", "cat": "party", "tier": "Cocktail bars", "a": "Mission District", "d": "A warehouse-cool bar whose themed menus reinvent themselves each season — San Francisco's creative cocktail spirit, distilled.", "lat": 37.75922, "lon": -122.411188, "p": "v"}, {"n": "Pacific Cocktail Haven (PCH)", "cat": "party", "tier": "Cocktail bars", "a": "Union Square", "d": "A technically serious, reliably joyful cocktail room off Union Square — a fixture near the top of the regional list.", "lat": 37.789335, "lon": -122.409527, "p": "v"}, {"n": "ABV", "cat": "party", "tier": "Cocktail bars", "a": "Mission District", "d": "A bartenders' bar of real craft — unfussy, expert, and beloved across the trade.", "lat": 37.787936, "lon": -122.40752, "p": "v"}, {"n": "Top of the Mark", "cat": "party", "tier": "Landmark bars", "a": "Nob Hill", "d": "A glass-walled sky lounge 19 floors up since 1939 — cocktails and a 360-degree sweep of the city and bay.", "lat": 37.791624, "lon": -122.410408, "p": "v"}, {"n": "Tonga Room & Hurricane Bar", "cat": "party", "tier": "Landmark bars", "a": "Nob Hill", "d": "A tiki institution in the Fairmont since 1945 — an indoor lagoon, a floating band, and a tropical 'rainstorm' on the hour.", "lat": 37.792141, "lon": -122.410008, "p": "v"}, {"n": "Comstock Saloon", "cat": "party", "tier": "Landmark bars", "a": "North Beach / Jackson Square", "d": "The last standing saloon of the old Barbary Coast — 1907 tin ceilings, classic cocktails, honky-tonk piano.", "lat": 37.796964, "lon": -122.405643, "p": "v"}, {"n": "Charmaine's", "cat": "party", "tier": "Rooftops", "a": "Mid-Market / SoMa", "d": "A fire-pit rooftop atop the San Francisco Proper — panoramic city views and a dressed-up evening crowd.", "lat": 37.780993, "lon": -122.412289, "p": "v"}]}
+{
+  "center": [
+    37.809749,
+    -122.410449
+  ],
+  "venues": [
+    {
+      "n": "Four Seasons Hotel San Francisco at Embarcadero",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Embarcadero / Financial District",
+      "d": "The surest hands in the city, high in a Financial-District tower with the bay at the window.",
+      "lat": 37.786,
+      "lon": -122.402812,
+      "photos": []
+    },
+    {
+      "n": "The St. Regis San Francisco",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "SoMa / Yerba Buena",
+      "d": "The house that invented the butler \u2014 the city's only Forbes Five-Star hotel, beside the museums.",
+      "lat": 37.786057,
+      "lon": -122.401381,
+      "photos": []
+    },
+    {
+      "n": "The Ritz-Carlton, San Francisco",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Nob Hill",
+      "d": "Neoclassical grandeur behind a landmark 1909 fa\u00e7ade \u2014 Nob Hill tradition, beautifully kept.",
+      "lat": 37.791868,
+      "lon": -122.407082,
+      "photos": []
+    },
+    {
+      "n": "Palace Hotel, a Luxury Collection Hotel",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "SoMa / Financial District",
+      "d": "San Francisco's original grand hotel of 1875 \u2014 and the stained-glass Garden Court, a city landmark.",
+      "lat": 37.793647,
+      "lon": -122.398938,
+      "photos": []
+    },
+    {
+      "n": "The Fairmont San Francisco",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Nob Hill",
+      "d": "The crown of Nob Hill since 1907 \u2014 a piece of the city's history, rebuilt after the great earthquake.",
+      "lat": 37.79242,
+      "lon": -122.409769,
+      "photos": []
+    },
+    {
+      "n": "1 Hotel San Francisco",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Embarcadero / Financial District",
+      "d": "Nature-led calm on the waterfront \u2014 reclaimed wood, living green, the bay across the road.",
+      "lat": 37.792864,
+      "lon": -122.396912,
+      "photos": []
+    },
+    {
+      "n": "The Battery",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Financial District / Jackson Square",
+      "d": "A private members' club with rooms above \u2014 the most discreet address in the city.",
+      "lat": 37.797934,
+      "lon": -122.401137,
+      "photos": []
+    },
+    {
+      "n": "Taj Campton Place",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Union Square",
+      "d": "The house that speaks Hindi at the door \u2014 an intimate Taj boutique off Union Square.",
+      "lat": 37.789141,
+      "lon": -122.406573,
+      "photos": []
+    },
+    {
+      "n": "San Francisco Proper Hotel",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Mid-Market / SoMa",
+      "d": "Kelly Wearstler's bold, layered flatiron hotel \u2014 the most design-literate room in town, with Charmaine's on the roof.",
+      "lat": 37.780848,
+      "lon": -122.412525,
+      "photos": []
+    },
+    {
+      "n": "Hotel Drisco",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Pacific Heights",
+      "d": "A gracious 1903 residence high in Pacific Heights \u2014 a calm, residential hideaway above the city.",
+      "lat": 37.79242,
+      "lon": -122.409769,
+      "photos": []
+    },
+    {
+      "n": "InterContinental Mark Hopkins San Francisco",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Nob Hill",
+      "d": "A 1926 Nob Hill landmark, crowned by the Top of the Mark sky lounge \u2014 old San Francisco, still standing.",
+      "lat": 37.791422,
+      "lon": -122.410228,
+      "photos": []
+    },
+    {
+      "n": "Cavallo Point Lodge",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Sausalito / Golden Gate (Marin)",
+      "d": "A restored army post at the foot of the Golden Gate Bridge \u2014 the bridge and skyline across the water.",
+      "lat": 37.868495,
+      "lon": -122.505756,
+      "photos": []
+    },
+    {
+      "n": "SingleThread Inn",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Healdsburg (Sonoma)",
+      "d": "Five rooms above one of the world's great restaurants \u2014 a farm, an inn and a three-star table as one.",
+      "lat": 37.797066,
+      "lon": -122.457846,
+      "photos": []
+    },
+    {
+      "n": "Montage Healdsburg",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Healdsburg (Sonoma)",
+      "d": "Low-slung bungalows scattered across a Sonoma hillside of oaks and vines \u2014 space, air and quiet.",
+      "lat": 37.80055,
+      "lon": -122.404629,
+      "photos": []
+    },
+    {
+      "n": "Stanly Ranch, Auberge Resorts Collection",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Napa",
+      "d": "A contemporary farmstead resort at the valley's gateway \u2014 wellness-led, and effortlessly stylish.",
+      "lat": 37.787936,
+      "lon": -122.40752,
+      "photos": []
+    },
+    {
+      "n": "The Madrona",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Healdsburg (Sonoma)",
+      "d": "A restored 1881 Victorian mansion in gardens \u2014 maximalist, romantic, the talk of Healdsburg.",
+      "lat": 37.798793,
+      "lon": -122.46458,
+      "photos": []
+    },
+    {
+      "n": "Carneros Resort and Spa",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Napa (Carneros)",
+      "d": "Cottage-style rooms among the vines of Carneros, with hilltop pools over the valley.",
+      "lat": 38.255708,
+      "lon": -122.335167,
+      "photos": []
+    },
+    {
+      "n": "MacArthur Place Hotel & Spa",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Sonoma",
+      "d": "A garden estate a stroll from Sonoma's plaza \u2014 leafy, discreet and quietly luxurious.",
+      "lat": 38.284107,
+      "lon": -122.457661,
+      "photos": []
+    },
+    {
+      "n": "Bardessono",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Yountville (Napa Valley)",
+      "d": "A cool, low, sustainable retreat in the heart of Yountville \u2014 rooftop pool, and The French Laundry down the lane.",
+      "lat": 37.787936,
+      "lon": -122.40752,
+      "photos": []
+    },
+    {
+      "n": "North Block",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Yountville (Napa Valley)",
+      "d": "A small Tuscan-style hotel in walkable Yountville \u2014 intimate, warm and beautifully run.",
+      "lat": 37.809749,
+      "lon": -122.410449,
+      "photos": []
+    },
+    {
+      "n": "The Ritz-Carlton, Half Moon Bay",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Half Moon Bay (Coast)",
+      "d": "A grand lodge on a Pacific bluff south of the city \u2014 ocean-view dining and links golf on the cliff's edge.",
+      "lat": 37.433784,
+      "lon": -122.441575,
+      "photos": []
+    },
+    {
+      "n": "Quince",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Jackson Square / Financial District",
+      "d": "Michael and Lindsay Tusk's grand Cal-Italian dining room \u2014 one of the country's finest, and three stars held.",
+      "lat": 37.797458,
+      "lon": -122.403402,
+      "photos": []
+    },
+    {
+      "n": "Benu",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "SoMa",
+      "d": "Corey Lee's spare, brilliant tasting menu \u2014 Asian tradition rebuilt with Californian precision.",
+      "lat": 37.785462,
+      "lon": -122.39908,
+      "photos": []
+    },
+    {
+      "n": "Atelier Crenn",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Cow Hollow / Marina",
+      "d": "Dominique Crenn's poetic, seafood-and-vegetable cooking \u2014 the first US woman chef to hold three stars.",
+      "lat": 37.789728,
+      "lon": -122.407184,
+      "photos": []
+    },
+    {
+      "n": "Californios",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Mission District",
+      "d": "Val Cantu's refined Mexican tasting menu \u2014 the first Mexican restaurant in the world to earn three stars.",
+      "lat": 37.787936,
+      "lon": -122.40752,
+      "photos": []
+    },
+    {
+      "n": "Saison",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "SoMa",
+      "d": "A live-fire Californian tasting menu of great luxury \u2014 the open hearth at the centre of the room.",
+      "lat": 37.779495,
+      "lon": -122.392218,
+      "photos": []
+    },
+    {
+      "n": "Kiln",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Hayes Valley / Civic Center",
+      "d": "A Nordic-influenced tasting counter that rose to two stars \u2014 precise, seasonal, quietly thrilling.",
+      "lat": 37.787936,
+      "lon": -122.40752,
+      "photos": []
+    },
+    {
+      "n": "Acquerello",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Nob Hill / Polk Gulch",
+      "d": "A converted chapel and a cellar of legend \u2014 the city's grandest Italian fine dining, two stars for decades.",
+      "lat": 37.787936,
+      "lon": -122.40752,
+      "photos": []
+    },
+    {
+      "n": "Birdsong",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "SoMa",
+      "d": "Chris Bullock's smoke-and-fire Californian cooking \u2014 Appalachian roots, Bay Area produce.",
+      "lat": 37.779436,
+      "lon": -122.410421,
+      "photos": []
+    },
+    {
+      "n": "Lazy Bear",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Mission District",
+      "d": "A communal-table 'dinner party' of inventive American cooking \u2014 warm, generous, and quietly serious.",
+      "lat": 37.760317,
+      "lon": -122.419767,
+      "photos": []
+    },
+    {
+      "n": "Sons & Daughters",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Nob Hill",
+      "d": "An intimate, vegetable-forward tasting counter high on Nob Hill \u2014 Californian cooking at its most refined.",
+      "lat": 37.79023,
+      "lon": -122.409129,
+      "photos": []
+    },
+    {
+      "n": "Mister Jiu's",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Chinatown",
+      "d": "Brandon Jew's landmark room in old Chinatown \u2014 Chinese-American cooking with Californian soul.",
+      "lat": 37.793717,
+      "lon": -122.406662,
+      "photos": []
+    },
+    {
+      "n": "Angler",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Embarcadero / Waterfront",
+      "d": "Live-fire seafood on the waterfront \u2014 the coastal, produce-driven counterpart to Saison.",
+      "lat": 37.787936,
+      "lon": -122.40752,
+      "photos": []
+    },
+    {
+      "n": "Nari",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Japantown",
+      "d": "Pim Techamuanvivit's modern Thai cooking \u2014 Bay Area produce, Bangkok backbone.",
+      "lat": 37.787936,
+      "lon": -122.40752,
+      "photos": []
+    },
+    {
+      "n": "Sorrel",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Presidio Heights / Pacific Heights",
+      "d": "Alex Hong's Cal-Italian in a warm neighbourhood room \u2014 handmade pasta and quiet finesse.",
+      "lat": 37.788418,
+      "lon": -122.446268,
+      "photos": []
+    },
+    {
+      "n": "7 Adams",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Japantown / Pacific Heights",
+      "d": "A husband-and-wife neighbourhood room turned one-star \u2014 precise, Californian, personal.",
+      "lat": 37.774077,
+      "lon": -122.446904,
+      "photos": []
+    },
+    {
+      "n": "Kin Khao",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Union Square",
+      "d": "Fiery, uncompromising Thai cooking off Union Square \u2014 no farang shortcuts.",
+      "lat": 37.785031,
+      "lon": -122.409272,
+      "photos": []
+    },
+    {
+      "n": "Restaurant Naides",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Nob Hill",
+      "d": "A newly-starred Filipino tasting menu \u2014 the cuisine rendered with real ambition and grace.",
+      "lat": 37.806886,
+      "lon": -122.432207,
+      "photos": []
+    },
+    {
+      "n": "Niku Steakhouse",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "SoMa / Design District",
+      "d": "A Japanese-wagyu temple of a steakhouse \u2014 the finest beef in the city, cooked with reverence.",
+      "lat": 37.792245,
+      "lon": -122.403614,
+      "photos": []
+    },
+    {
+      "n": "Restaurant Nisei",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Russian Hill / Polk",
+      "d": "David Yoshimura's washoku-rooted tasting menu \u2014 Japanese technique, Californian ingredients.",
+      "lat": 37.806886,
+      "lon": -122.432207,
+      "photos": []
+    },
+    {
+      "n": "Cyrus",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Geyserville (Sonoma)",
+      "d": "Douglas Keane's immersive, room-to-room culinary journey \u2014 one of wine country's great experiences, reborn.",
+      "lat": 37.787936,
+      "lon": -122.40752,
+      "photos": []
+    },
+    {
+      "n": "Enclos",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Sonoma",
+      "d": "A place-based tasting menu in a walled Sonoma garden \u2014 newly among the very best in the country.",
+      "lat": 37.787936,
+      "lon": -122.40752,
+      "photos": []
+    },
+    {
+      "n": "The French Laundry",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Yountville (Napa Valley)",
+      "d": "Thomas Keller's temple in a Yountville stone cottage \u2014 for many, the finest restaurant in America.",
+      "lat": 37.77616,
+      "lon": -122.429746,
+      "photos": []
+    },
+    {
+      "n": "SingleThread",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Healdsburg (Sonoma)",
+      "d": "Kyle and Katina Connaughton's farm-to-table three-star \u2014 Sonoma produce through a Japanese lens.",
+      "lat": 37.787936,
+      "lon": -122.40752,
+      "photos": []
+    },
+    {
+      "n": "Kenzo",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Napa",
+      "d": "An exquisite kaiseki counter with fish flown from Tokyo \u2014 Napa's most precise Japanese meal.",
+      "lat": 37.787936,
+      "lon": -122.40752,
+      "photos": []
+    },
+    {
+      "n": "Auro",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Calistoga (Four Seasons Napa Valley)",
+      "d": "A refined tasting menu that earned its star months after opening \u2014 Calistoga's first Michelin table.",
+      "lat": 37.787936,
+      "lon": -122.40752,
+      "photos": []
+    },
+    {
+      "n": "PRESS",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "St. Helena (Napa Valley)",
+      "d": "Wood-fired steaks and one of the deepest Napa-Cabernet lists on earth \u2014 3,000-plus bottles.",
+      "lat": 37.771418,
+      "lon": -122.467343,
+      "photos": []
+    },
+    {
+      "n": "State Bird Provisions",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Fillmore / Western Addition",
+      "d": "The dim-sum-cart tasting that changed how the city eats \u2014 one star, and still a party every night.",
+      "lat": 37.783706,
+      "lon": -122.432948,
+      "photos": []
+    },
+    {
+      "n": "Del Popolo",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Nob Hill / Lower Nob Hill",
+      "d": "Naples-grade wood-fired pizza and a beautiful room \u2014 the city's most wanted pie.",
+      "lat": 37.789634,
+      "lon": -122.411364,
+      "photos": []
+    },
+    {
+      "n": "Izakaya Rintaro",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Mission District",
+      "d": "Sylvan Mishima Brackett's exquisite handmade izakaya cooking \u2014 Japan, made from Californian produce.",
+      "lat": 37.768888,
+      "lon": -122.415131,
+      "photos": []
+    },
+    {
+      "n": "Good Good Culture Club",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Mission District",
+      "d": "Playful, personal Asian-American cooking from a chef collective \u2014 bright, generous, of-the-moment.",
+      "lat": 37.76173,
+      "lon": -122.422948,
+      "photos": []
+    },
+    {
+      "n": "Outerlands",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Outer Sunset",
+      "d": "Driftwood-warm Californian cooking by the ocean \u2014 the Sunset's beloved neighbourhood room.",
+      "lat": 37.76035,
+      "lon": -122.505006,
+      "photos": []
+    },
+    {
+      "n": "Ciccio",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Yountville (Napa Valley)",
+      "d": "A family Italian trattoria in the heart of Yountville \u2014 the warm, unfussy counterpoint to the valley's grand rooms.",
+      "lat": 37.769186,
+      "lon": -122.431736,
+      "photos": []
+    },
+    {
+      "n": "Glen Ellen Star",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Glen Ellen (Sonoma)",
+      "d": "Wood-fired seasonal cooking in a Sonoma cottage \u2014 one of wine country's best-loved neighbourhood tables.",
+      "lat": 37.740324,
+      "lon": -122.441991,
+      "photos": []
+    },
+    {
+      "n": "Valley Bar & Bottle",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Sonoma",
+      "d": "A wine bar and kitchen on the Sonoma plaza doing bright, seasonal Californian plates.",
+      "lat": 37.776314,
+      "lon": -122.423255,
+      "photos": []
+    },
+    {
+      "n": "Golden Gate Bridge",
+      "cat": "do",
+      "tier": "",
+      "a": "Presidio / Golden Gate",
+      "d": "The 1937 International Orange span is the image the whole family will already carry of San Francisco, and it delivers in person; walk or cycle a stretch of the pedestrian deck, or have your driver stage a slow loop between the Presidio's Battery East and the Marin side so grandparents can take it in from the car. Fog permitting, mornings and the golden hour before sunset are the cleanest for photographs.",
+      "lat": 37.807536,
+      "lon": -122.475644,
+      "photos": []
+    },
+    {
+      "n": "Battery Spencer",
+      "cat": "do",
+      "tier": "",
+      "a": "Marin Headlands",
+      "d": "A short drive across the bridge and up into the Marin Headlands puts you nearly 500 feet above the water, looking straight down the length of the span toward the city with Alcatraz beyond, the single best vantage in the region. A private car makes the winding approach effortless; it is entirely outdoors and free, so pack layers against the wind.",
+      "lat": 37.794016,
+      "lon": -122.482621,
+      "photos": []
+    },
+    {
+      "n": "Alcatraz Island",
+      "cat": "do",
+      "tier": "",
+      "a": "San Francisco Bay",
+      "d": "The former federal penitentiary on its rock in the bay is a genuinely gripping half-day, the audio tour narrated by former guards and inmates holding teenagers rapt in a way few museums manage. Ferries leave from Pier 33 and sell out well ahead, so have your concierge lock tickets weeks in advance; the night tour is the quieter, more atmospheric choice.",
+      "lat": 37.826721,
+      "lon": -122.422759,
+      "photos": []
+    },
+    {
+      "n": "Cable Cars (Powell-Hyde & Powell-Mason lines)",
+      "cat": "do",
+      "tier": "",
+      "a": "Nob Hill / Downtown",
+      "d": "The world's last manually operated cable-car system is both transport and heritage ride; the Powell-Hyde line's plunge down Hyde Street toward the bay, brakeman heaving on the grip, is the one children remember. Board at a mid-route stop rather than the mobbed Powell turnaround, and hold the outside running board for the full effect.",
+      "lat": 37.793262,
+      "lon": -122.415249,
+      "photos": []
+    },
+    {
+      "n": "Golden Gate Park",
+      "cat": "do",
+      "tier": "",
+      "a": "Golden Gate Park",
+      "d": "A thousand acres wider than New York's Central Park, threaded with gardens, lakes, museums and meadows, it is the green heart of the city and a full multi-generational day in itself. Rent a surrey or hire a driver to move between the de Young, the Academy of Sciences and the tea garden without tiring the elders.",
+      "lat": 37.769368,
+      "lon": -122.482184,
+      "photos": []
+    },
+    {
+      "n": "de Young Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Golden Gate Park",
+      "d": "One of the oldest and largest art museums in the country, strong on American painting, textiles and art of the Americas, the Pacific and Africa; its copper-clad Hamon observation tower is free and gives a quiet 360-degree view over the park and city. A civilised, air-conditioned pause between garden walks.",
+      "lat": 37.771498,
+      "lon": -122.469092,
+      "photos": []
+    },
+    {
+      "n": "California Academy of Sciences",
+      "cat": "do",
+      "tier": "",
+      "a": "Golden Gate Park",
+      "d": "Aquarium, planetarium, four-storey indoor rainforest and natural-history museum under one living roof, it is the most engaging science stop in the city for children and endlessly photogenic for adults. It is the only LEED Platinum-certified museum of its kind, a detail the tech-minded in your party will appreciate.",
+      "lat": 37.769827,
+      "lon": -122.466093,
+      "photos": []
+    },
+    {
+      "n": "Conservatory of Flowers",
+      "cat": "do",
+      "tier": "",
+      "a": "Golden Gate Park",
+      "d": "A gleaming white Victorian glasshouse from 1879, the oldest building in the park and the oldest public wood-and-glass conservatory in North America, its humid galleries full of orchids and aquatic plants. Small, gentle and beautiful, it suits grandparents and a short attention span alike.",
+      "lat": 37.772607,
+      "lon": -122.460228,
+      "photos": []
+    },
+    {
+      "n": "Japanese Tea Garden",
+      "cat": "do",
+      "tier": "",
+      "a": "Golden Gate Park",
+      "d": "The oldest public Japanese garden in the United States, five serene acres of arched drum bridge, koi ponds, pagoda and clipped maples, best in early morning before the crowds. Green tea and a plate of manju at the teahouse make a calm interlude the whole family can share.",
+      "lat": 37.770293,
+      "lon": -122.470124,
+      "photos": []
+    },
+    {
+      "n": "The Presidio",
+      "cat": "do",
+      "tier": "",
+      "a": "Presidio",
+      "d": "A former army post turned 1,500-acre national park on the city's northern tip, with forested trails, bluff-top overlooks, the Walt Disney Family Museum and the tunnel-top parkland that frames the bridge. A private guide can tailor an easy morning here that mixes history, views and a lawn picnic.",
+      "lat": 37.798793,
+      "lon": -122.46458,
+      "photos": []
+    },
+    {
+      "n": "Lands End & the Sutro Baths ruins",
+      "cat": "do",
+      "tier": "",
+      "a": "Outer Richmond",
+      "d": "A wild, cypress-edged coastal trail along the city's rocky western edge, ending at the haunting concrete shells of the 1890s Sutro Baths, once the largest indoor bathhouse in the world. Dramatic, uncrowded and cinematic; wear proper shoes and let the pace suit the group.",
+      "lat": 37.775325,
+      "lon": -122.497786,
+      "photos": []
+    },
+    {
+      "n": "Palace of Fine Arts",
+      "cat": "do",
+      "tier": "",
+      "a": "Marina",
+      "d": "The last surviving structure of the 1915 Panama-Pacific Exposition, a Roman-Greco rotunda mirrored in its own swan-filled lagoon, romantic and quiet at dawn. A five-minute stop that yields some of the most flattering family portraits in the city.",
+      "lat": 37.802919,
+      "lon": -122.448403,
+      "photos": []
+    },
+    {
+      "n": "Coit Tower",
+      "cat": "do",
+      "tier": "",
+      "a": "Telegraph Hill",
+      "d": "The fluted Art Deco column crowning Telegraph Hill since 1933, its base wrapped in vivid 1934 WPA murals of Depression-era California and its top-deck elevator giving 360-degree views over both bridges. Combine the ride up with the murals for a satisfying half-hour.",
+      "lat": 37.802379,
+      "lon": -122.405834,
+      "photos": []
+    },
+    {
+      "n": "Filbert Steps",
+      "cat": "do",
+      "tier": "",
+      "a": "Telegraph Hill",
+      "d": "A garden staircase tumbling down the east face of Telegraph Hill through terraced flowers where a flock of wild parrots nests in the trees, one of the city's loveliest hidden walks. Do it downhill from Coit Tower to spare the knees.",
+      "lat": 37.801839,
+      "lon": -122.406366,
+      "photos": []
+    },
+    {
+      "n": "Fisherman's Wharf & Pier 39",
+      "cat": "do",
+      "tier": "",
+      "a": "Fisherman's Wharf",
+      "d": "The busiest, most commercial stretch of the waterfront, honestly touristy, but worth a brief pass for the barking sea-lion colony that lounges on the K-Dock floats and a bowl of chowder. Treat it as a quick, well-timed stop rather than a destination, and move on to quieter piers.",
+      "lat": 37.809246,
+      "lon": -122.415794,
+      "photos": []
+    },
+    {
+      "n": "Ferry Building Marketplace",
+      "cat": "do",
+      "tier": "",
+      "a": "Embarcadero",
+      "d": "The restored 1898 landmark on the waterfront is now the city's finest food hall, with artisan producers, wine bars, oyster counters and, three days a week, one of the country's best farmers' markets on the plaza outside. A civilised lunch stop with real vegetarian and produce-driven options, and grand bay views from the back.",
+      "lat": 37.795549,
+      "lon": -122.393475,
+      "photos": []
+    },
+    {
+      "n": "SFMOMA",
+      "cat": "do",
+      "tier": "",
+      "a": "SoMa",
+      "d": "Seven soaring gallery floors and a living green wall make this one of the largest modern-art museums in the country, deep in Bay Area abstraction, Pop and photography. Book the top floors first and let the family drift down; the rooftop sculpture terrace is a fine breather.",
+      "lat": 37.785915,
+      "lon": -122.400736,
+      "photos": []
+    },
+    {
+      "n": "Chinatown",
+      "cat": "do",
+      "tier": "",
+      "a": "Chinatown",
+      "d": "The oldest and one of the largest Chinatowns outside Asia, entered through the Dragon Gate on Grant, a warren of temples, herb shops, the fortune-cookie alley and dim-sum houses. A knowledgeable private guide turns Ross Alley and Waverly Place into a story rather than a stroll.",
+      "lat": 37.795926,
+      "lon": -122.406733,
+      "photos": []
+    },
+    {
+      "n": "North Beach",
+      "cat": "do",
+      "tier": "",
+      "a": "North Beach",
+      "d": "San Francisco's Little Italy and the old Beat quarter, where City Lights Bookstore, espresso in Caffe Trieste and a proper Italian dinner sit within a few blocks of each other under Coit Tower. An easy evening for grandparents; the sidewalk cafes make lingering the point.",
+      "lat": 37.809749,
+      "lon": -122.410449,
+      "photos": []
+    },
+    {
+      "n": "Mission District murals",
+      "cat": "do",
+      "tier": "",
+      "a": "Mission",
+      "d": "The Mission holds hundreds of murals, densest along Balmy Alley and Clarion Alley, a living archive of Latino and political street art unmatched in the country. Precita Eyes runs excellent walking tours; pair it with a taqueria lunch and the neighbourhood's roaring coffee scene.",
+      "lat": 37.759653,
+      "lon": -122.422606,
+      "photos": []
+    },
+    {
+      "n": "Painted Ladies & Alamo Square",
+      "cat": "do",
+      "tier": "",
+      "a": "Alamo Square",
+      "d": "The row of pastel Victorian houses at 710-720 Steiner with the downtown skyline rising behind them is the most photographed residential view in the city, familiar from a hundred title sequences. A quick, gentle stop; the park lawn is a fine spot to sit while others get the shot.",
+      "lat": 37.776224,
+      "lon": -122.432786,
+      "photos": []
+    },
+    {
+      "n": "Haight-Ashbury",
+      "cat": "do",
+      "tier": "",
+      "a": "Haight-Ashbury",
+      "d": "The crossroads that gave the 1960s its counterculture, still lined with record shops, vintage stores and Victorian facades painted in psychedelic colour. A short, curious walk for anyone who lived through or loves that era's music; light and fun rather than a full afternoon.",
+      "lat": 37.770028,
+      "lon": -122.446982,
+      "photos": []
+    },
+    {
+      "n": "Hayes Valley",
+      "cat": "do",
+      "tier": "",
+      "a": "Hayes Valley",
+      "d": "A compact, polished district of independent designers, wine bars and next-thing restaurants near the opera and symphony, where the city's fashion and food scene shows its newest hand. The most refined neighbourhood for an unhurried afternoon of shopping and a good dinner.",
+      "lat": 37.776685,
+      "lon": -122.422936,
+      "photos": []
+    },
+    {
+      "n": "The Castro",
+      "cat": "do",
+      "tier": "",
+      "a": "Castro",
+      "d": "The world's first and most storied gay neighbourhood, anchored by the 1922 Castro Theatre's neon marquee and Harvey Milk's old camera shop, warm and welcoming to all. A meaningful, relaxed walk-through with strong cafes and a genuine sense of history.",
+      "lat": 37.760856,
+      "lon": -122.434957,
+      "photos": []
+    },
+    {
+      "n": "Twin Peaks",
+      "cat": "do",
+      "tier": "",
+      "a": "Twin Peaks",
+      "d": "Two hills rising over 900 feet in the geographic centre of the city, giving a near-360-degree panorama from the Golden Gate to downtown to the bay, best at dusk when the grid lights up. A five-minute drive to the top means even the least mobile of the group can take in the whole view.",
+      "lat": 37.751825,
+      "lon": -122.453554,
+      "photos": []
+    },
+    {
+      "n": "Cable Car Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Nob Hill",
+      "d": "A free museum inside the working Washington-Mason powerhouse, where you look down on the giant sheaves and cables that still drive the whole system, plus antique cable cars from the 1870s. Genuinely fascinating for the engineering-minded and a good rainy-hour stop with children.",
+      "lat": 37.79476,
+      "lon": -122.411853,
+      "photos": []
+    },
+    {
+      "n": "Exploratorium",
+      "cat": "do",
+      "tier": "",
+      "a": "Embarcadero",
+      "d": "A pioneering hands-on museum of science, art and human perception spread along Pier 15, hundreds of exhibits you touch, tilt and experiment with. The strongest choice in the city for keeping curious children and their parents engaged for hours.",
+      "lat": 37.800898,
+      "lon": -122.398526,
+      "photos": []
+    },
+    {
+      "n": "Oracle Park",
+      "cat": "do",
+      "tier": "",
+      "a": "Mission Bay / SoMa",
+      "d": "The Giants' waterfront ballpark, where home runs splash into McCovey Cove and the bay and Bay Bridge fill the outfield backdrop, an easy introduction to American baseball. Even off game days, a stadium tour and a garlic-fries lunch make a relaxed hour by the water.",
+      "lat": 37.778606,
+      "lon": -122.389472,
+      "photos": []
+    },
+    {
+      "n": "Union Square",
+      "cat": "do",
+      "tier": "",
+      "a": "Union Square",
+      "d": "The city's flagship shopping district, ringed by the grand department stores and international luxury houses and a short cable-car ride from the wharf. The natural base for serious shopping, with the theatre district and top hotels on the doorstep.",
+      "lat": 37.787514,
+      "lon": -122.407159,
+      "photos": []
+    },
+    {
+      "n": "Grace Cathedral",
+      "cat": "do",
+      "tier": "",
+      "a": "Nob Hill",
+      "d": "A soaring French Gothic Episcopal cathedral atop Nob Hill, with gilded Ghiberti doors, luminous stained glass and two labyrinths you can walk in contemplative quiet. A serene, welcoming stop of any faith, moments from the Fairmont and Mark Hopkins.",
+      "lat": 37.791821,
+      "lon": -122.413497,
+      "photos": []
+    },
+    {
+      "n": "16th Avenue Tiled Steps",
+      "cat": "do",
+      "tier": "",
+      "a": "Golden Gate Heights",
+      "d": "A 163-step mosaic staircase of sea-to-stars tilework climbing a quiet residential hill, capped by a sweeping ocean view for those who make the ascent. A charming, little-known detour that rewards the curious and photographs beautifully.",
+      "lat": 37.7596,
+      "lon": -122.473625,
+      "photos": []
+    },
+    {
+      "n": "The Embarcadero waterfront promenade",
+      "cat": "do",
+      "tier": "",
+      "a": "Embarcadero",
+      "d": "The reclaimed waterfront boulevard curving from the Ferry Building past the piers to the bridge, ideal for a flat, gentle stroll or a hired-cycle spin with the bay on one side. The vintage F-line streetcars trundling alongside are a low-effort delight for grandparents.",
+      "lat": 37.808331,
+      "lon": -122.408446,
+      "photos": []
+    },
+    {
+      "n": "Nob Hill",
+      "cat": "do",
+      "tier": "",
+      "a": "Nob Hill",
+      "d": "The old railroad-baron summit of the city, home to the Fairmont, the Mark Hopkins and Grace Cathedral, all discreet grandeur and cable-car clang. The most fitting neighbourhood to base a luxury stay, and a lovely early-evening walk between landmarks.",
+      "lat": 37.788706,
+      "lon": -122.421408,
+      "photos": []
+    },
+    {
+      "n": "Muir Woods National Monument",
+      "cat": "do",
+      "tier": "",
+      "a": "Marin County (day trip)",
+      "d": "A cathedral grove of ancient coast redwoods less than an hour north over the bridge, its flat, wheelchair-friendly boardwalk making it accessible to every generation. Timed parking or entry reservations are mandatory, so have your concierge secure them; combine with Sausalito for a full, easy day.",
+      "lat": 37.896391,
+      "lon": -122.580218,
+      "photos": []
+    },
+    {
+      "n": "Sausalito",
+      "cat": "do",
+      "tier": "",
+      "a": "Marin County (day trip)",
+      "d": "A Mediterranean-feeling harbour town across the bridge, all yacht-lined marina, hillside villas, galleries and waterfront seafood, with the city skyline glinting across the water. The classic move is to arrive by car or after Muir Woods and return to San Francisco by ferry at golden hour.",
+      "lat": 37.868495,
+      "lon": -122.505756,
+      "photos": []
+    },
+    {
+      "n": "Napa Valley wine country",
+      "cat": "do",
+      "tier": "",
+      "a": "Napa (day trip)",
+      "d": "About an hour and a half northeast, the most famous wine region in America, with 400-plus wineries, Michelin-starred tables and estates that arrange private, seated tastings for discerning guests. A chauffeured day is essential; several kitchens, including The French Laundry and La Toque, offer full vegetarian tasting menus for Indian palates.",
+      "lat": 38.304424,
+      "lon": -122.328755,
+      "photos": []
+    },
+    {
+      "n": "Sonoma County wine country",
+      "cat": "do",
+      "tier": "",
+      "a": "Sonoma (day trip)",
+      "d": "Napa's quieter, more rustic neighbour, with a historic plaza town, redwood-shaded lanes and family-run estates that feel more intimate and unhurried. The better choice for travellers who want world-class wine without the polish and pace of Napa; three-star SingleThread anchors the fine dining.",
+      "lat": 38.230995,
+      "lon": -122.613177,
+      "photos": []
+    },
+    {
+      "n": "Half Moon Bay",
+      "cat": "do",
+      "tier": "",
+      "a": "San Mateo Coast (day trip)",
+      "d": "A pretty coastal town and crescent of beaches about forty minutes south down Highway 1, with the Ritz-Carlton's clifftop links, tide pools and pumpkin farms in autumn. A gentle, scenic escape from the city for a lunch and a walk on the bluffs.",
+      "lat": 37.463552,
+      "lon": -122.428586,
+      "photos": []
+    },
+    {
+      "n": "Monterey & Carmel-by-the-Sea",
+      "cat": "do",
+      "tier": "",
+      "a": "Central Coast (day trip)",
+      "d": "About two hours south, the world-class Monterey Bay Aquarium, the 17-Mile Drive past Pebble Beach and the storybook village of Carmel make a memorable long day or overnight. A chauffeured car makes the coast road effortless; the aquarium is a highlight for children and adults alike.",
+      "lat": 37.787606,
+      "lon": -122.441819,
+      "photos": []
+    },
+    {
+      "n": "Baker Beach",
+      "cat": "do",
+      "tier": "",
+      "a": "Presidio",
+      "d": "A broad sweep of sand beneath the Presidio's cliffs with an unobstructed frontal view of the Golden Gate Bridge, one of the most photographed angles in the city. Chilly and often windswept but wide, uncrowded and cinematic, best in the late-afternoon light.",
+      "lat": 37.793123,
+      "lon": -122.483821,
+      "photos": []
+    },
+    {
+      "n": "Lombard Street (the crooked block)",
+      "cat": "do",
+      "tier": "",
+      "a": "Russian Hill",
+      "d": "The famous one-way switchback of eight sharp turns banked with hydrangeas, dropping down Russian Hill with the bay framed below. A quick photo stop; walk the brick sidewalk down rather than queue to drive it, and pair it with the neighbourhood's steep view streets.",
+      "lat": 37.799428,
+      "lon": -122.441633,
+      "photos": []
+    },
+    {
+      "n": "San Francisco Botanical Garden",
+      "cat": "do",
+      "tier": "",
+      "a": "Golden Gate Park",
+      "d": "Fifty-five acres of plant collections from Andean cloud forests to a fragrant magnolia grove, a tranquil, uncrowded counterpoint to the park's busier museums. A restful, level walk that suits the whole family and rewards a slow morning.",
+      "lat": 37.767359,
+      "lon": -122.469678,
+      "photos": []
+    },
+    {
+      "n": "Angel Island State Park",
+      "cat": "do",
+      "tier": "",
+      "a": "San Francisco Bay (day trip)",
+      "d": "The largest island in the bay, reached by a short ferry, ringed by a level perimeter path with 360-degree views of the city, bridges and Marin, and home to the sobering Immigration Station. A gentle half-day on the water with a picnic and history for those who want off the mainland.",
+      "lat": 37.862928,
+      "lon": -122.43034,
+      "photos": []
+    },
+    {
+      "n": "Walt Disney Family Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Presidio",
+      "d": "A beautifully designed museum in a former Presidio barracks tracing Walt Disney's life and craft, richer and more grown-up than the name suggests. A civilised indoor option with wide appeal across generations, set among the park's finest walks.",
+      "lat": 37.801363,
+      "lon": -122.458721,
+      "photos": []
+    },
+    {
+      "n": "Legion of Honor",
+      "cat": "do",
+      "tier": "",
+      "a": "Lincoln Park",
+      "d": "A neoclassical fine-arts museum modelled on a Paris pavilion, perched above the sea in Lincoln Park with Rodin bronzes in the court and European old masters within, and Golden Gate views from the terrace. Quiet, elegant and rarely crowded, a connoisseur's afternoon.",
+      "lat": 37.784558,
+      "lon": -122.500955,
+      "photos": []
+    },
+    {
+      "n": "Fort Point",
+      "cat": "do",
+      "tier": "",
+      "a": "Presidio",
+      "d": "A Civil War-era brick fortress tucked directly beneath the southern anchorage of the Golden Gate Bridge, giving the most dramatic close-up of the span's underside and ironwork. A short, atmospheric stop that history-minded travellers and photographers both prize.",
+      "lat": 37.786696,
+      "lon": -122.49483,
+      "photos": []
+    },
+    {
+      "n": "Chinatown to North Beach food walk",
+      "cat": "do",
+      "tier": "",
+      "a": "Chinatown / North Beach",
+      "d": "The two oldest immigrant quarters sit back to back, so a private guide can lead you from dim sum and tea in Chinatown to espresso and cannoli in North Beach in a single afternoon. The most rewarding way to eat and understand old San Francisco on foot, at a pace to suit the group.",
+      "lat": 37.795586,
+      "lon": -122.404683,
+      "photos": []
+    },
+    {
+      "n": "True Laurel",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Mission District",
+      "d": "Lazy Bear's cocktail sibling \u2014 kitchen-driven, waste-conscious drinks that rank among the best in the country.",
+      "lat": 37.759497,
+      "lon": -122.411489,
+      "photos": []
+    },
+    {
+      "n": "Trick Dog",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Mission District",
+      "d": "A warehouse-cool bar whose themed menus reinvent themselves each season \u2014 San Francisco's creative cocktail spirit, distilled.",
+      "lat": 37.75922,
+      "lon": -122.411188,
+      "photos": []
+    },
+    {
+      "n": "Pacific Cocktail Haven (PCH)",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Union Square",
+      "d": "A technically serious, reliably joyful cocktail room off Union Square \u2014 a fixture near the top of the regional list.",
+      "lat": 37.789335,
+      "lon": -122.409527,
+      "photos": []
+    },
+    {
+      "n": "ABV",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Mission District",
+      "d": "A bartenders' bar of real craft \u2014 unfussy, expert, and beloved across the trade.",
+      "lat": 37.787936,
+      "lon": -122.40752,
+      "photos": []
+    },
+    {
+      "n": "Top of the Mark",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "Nob Hill",
+      "d": "A glass-walled sky lounge 19 floors up since 1939 \u2014 cocktails and a 360-degree sweep of the city and bay.",
+      "lat": 37.791624,
+      "lon": -122.410408,
+      "photos": []
+    },
+    {
+      "n": "Tonga Room & Hurricane Bar",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "Nob Hill",
+      "d": "A tiki institution in the Fairmont since 1945 \u2014 an indoor lagoon, a floating band, and a tropical 'rainstorm' on the hour.",
+      "lat": 37.792141,
+      "lon": -122.410008,
+      "photos": []
+    },
+    {
+      "n": "Comstock Saloon",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "North Beach / Jackson Square",
+      "d": "The last standing saloon of the old Barbary Coast \u2014 1907 tin ceilings, classic cocktails, honky-tonk piano.",
+      "lat": 37.796964,
+      "lon": -122.405643,
+      "photos": []
+    },
+    {
+      "n": "Charmaine's",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "Mid-Market / SoMa",
+      "d": "A fire-pit rooftop atop the San Francisco Proper \u2014 panoramic city views and a dressed-up evening crowd.",
+      "lat": 37.780993,
+      "lon": -122.412289,
+      "photos": []
+    }
+  ]
+}

@@ -29,21 +29,29 @@ const OPTIONS: { name: ThemeName; cls: string; label: string; icon: JSX.Element 
 export function ThemeToggle() {
   const { theme, setTheme } = useTheme();
 
+  // One button, not one per theme — showing whichever theme you'd switch
+  // *to* (the opposite of the current one), not the one currently active.
+  const target = OPTIONS.find((o) => o.name !== theme) ?? OPTIONS[0];
+
+  // Icon colors are hardcoded against each button's own swatch background
+  // (.sw-ivory: white circle, .sw-dark: near-black circle — see site.css),
+  // not the shared button text color (var(--stone)), which reads fine on
+  // paper but near-invisible on either swatch. "Switch to light" (this icon
+  // shows while the site is in dark theme) gets the light theme's literal
+  // oxblood (#6E2A38) against the white circle; "switch to dark" gets a
+  // near-white (#F1ECE3) against the near-black circle.
   return (
     <div className="ta-theme" role="group" aria-label="Background theme">
-      {OPTIONS.map((o) => (
-        <button
-          key={o.name}
-          type="button"
-          className={o.cls}
-          title={`${o.label} theme`}
-          aria-label={`${o.label} theme`}
-          aria-pressed={theme === o.name}
-          onClick={() => setTheme(o.name)}
-        >
-          {o.icon}
-        </button>
-      ))}
+      <button
+        type="button"
+        className={target.cls}
+        title={`${target.label} theme`}
+        aria-label={`Switch to ${target.label.toLowerCase()} theme`}
+        onClick={() => setTheme(target.name)}
+        style={{ color: target.name === "ivory" ? "#6E2A38" : "#F1ECE3" }}
+      >
+        {target.icon}
+      </button>
     </div>
   );
 }

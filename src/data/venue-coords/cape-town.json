@@ -1,1 +1,698 @@
-{"center": [-33.92883, 18.41722], "venues": [{"n": "Ellerman House", "cat": "stay", "tier": "Ultra", "a": "Bantry Bay", "d": "A private cliff-side mansion above the Atlantic, run as a home with one of Africa's great art and wine cellars.", "lat": -33.920961, "lon": 18.42131, "p": "v"}, {"n": "Mount Nelson, A Belmond Hotel", "cat": "stay", "tier": "Ultra", "a": "City Bowl / Gardens", "d": "The Pink Lady — Cape Town's grande dame since 1899, in nine acres of gardens below Table Mountain.", "lat": -33.931816, "lon": 18.411391, "p": "v"}, {"n": "One&Only Cape Town", "cat": "stay", "tier": "Ultra", "a": "V&A Waterfront", "d": "A marina-side resort with Table Mountain framed in the glass and a private spa island of its own.", "lat": -33.908731, "lon": 18.416314, "p": "v"}, {"n": "The Silo Hotel", "cat": "stay", "tier": "Ultra", "a": "V&A Waterfront", "d": "A converted grain silo crowned with faceted glass, sitting atop the Zeitz MOCAA contemporary-art museum.", "lat": -33.97907, "lon": 18.458709, "p": "v"}, {"n": "Delaire Graff Lodge", "cat": "stay", "tier": "Ultra", "a": "Stellenbosch (Winelands)", "d": "Laurence Graff's jewel of a wine estate on the Helshoogte Pass — art, diamonds and vineyards at altitude.", "lat": -33.921917, "lon": 18.922179, "p": "v"}, {"n": "Cape Grace, A Fairmont Managed Hotel", "cat": "stay", "tier": "Grand", "a": "V&A Waterfront", "d": "A warm, quietly grand harbour house on its own quay, with one of the city's finest whisky bars.", "lat": -33.906002, "lon": 18.419526, "p": "a"}, {"n": "The Cellars-Hohenort", "cat": "stay", "tier": "Grand", "a": "Constantia", "d": "A country-house hotel in nine acres of Constantia gardens — the calm, green, old-Cape antidote to the city.", "lat": -34.001432, "lon": 18.434703, "p": "v"}, {"n": "The Twelve Apostles Hotel and Spa", "cat": "stay", "tier": "Grand", "a": "Camps Bay", "d": "A sea-facing house between mountain and Atlantic on the scenic road to Camps Bay — remote calm, minutes from town.", "lat": -33.983322, "lon": 18.35918, "p": "v"}, {"n": "Steenberg Hotel & Spa", "cat": "stay", "tier": "Luxury", "a": "Constantia", "d": "The Cape's oldest wine farm turned polished retreat — vineyards, a golf course and Cape Dutch calm.", "lat": -34.071398, "lon": 18.42557, "p": "v"}, {"n": "La Residence", "cat": "stay", "tier": "Luxury", "a": "Franschhoek (Winelands)", "d": "The Royal Portfolio's flamboyant, art-filled manor on a private vine-and-olive estate in the valley.", "lat": -33.928758, "lon": 18.569455, "p": "v"}, {"n": "Leeu House", "cat": "stay", "tier": "Luxury", "a": "Franschhoek (Winelands)", "d": "An intimate boutique house in the heart of Franschhoek village — art, gardens and the main street at the door.", "lat": -33.920961, "lon": 18.42131, "p": "v"}, {"n": "Le Quartier Français", "cat": "stay", "tier": "Luxury", "a": "Franschhoek (Winelands)", "d": "A legendary village inn reborn — the beating heart of Franschhoek's dining-and-village life.", "lat": -33.931835, "lon": 18.418593, "p": "v"}, {"n": "Akademie Street Boutique Hotel", "cat": "stay", "tier": "Luxury", "a": "Franschhoek (Winelands)", "d": "A cluster of restored village cottages and suites with private pools, run with real warmth.", "lat": -33.924553, "lon": 18.421897, "p": "v"}, {"n": "Taj Cape Town", "cat": "stay", "tier": "Luxury", "a": "City Bowl / Wale Street", "d": "The old Reserve Bank turned grand city hotel — and the address that speaks Hindi at the door.", "lat": -33.924519, "lon": 18.419685, "p": "v"}, {"n": "Cape Cadogan Boutique Hotel", "cat": "stay", "tier": "Premium", "a": "Gardens / City Bowl", "d": "A restored Georgian-and-Victorian townhouse on a leafy Gardens street — a calm, characterful city base.", "lat": -33.931831, "lon": 18.408305, "p": "v"}, {"n": "La Colombe", "cat": "eat", "tier": "Destination", "a": "Constantia", "d": "Cape Town's most celebrated kitchen — a treehouse-like room above Silvermist, and Africa's benchmark for fine dining.", "lat": -34.015116, "lon": 18.403291, "p": "v"}, {"n": "FYN", "cat": "eat", "tier": "Destination", "a": "City Bowl", "d": "Japanese precision married to South African produce — the only stand-alone African restaurant in Relais & Châteaux.", "lat": -33.92465, "lon": 18.421747, "p": "v"}, {"n": "Salsify at the Roundhouse", "cat": "eat", "tier": "Destination", "a": "Camps Bay", "d": "Chef Ryan Cole's seasonal cooking in a historic hunting lodge, with the Atlantic sweeping below.", "lat": -33.943589, "lon": 18.3849, "p": "v"}, {"n": "La Petite Colombe", "cat": "eat", "tier": "Destination", "a": "Franschhoek (Winelands)", "d": "La Colombe's Winelands sibling at Leeu Estates — theatrical tasting menus among the vines.", "lat": -34.015116, "lon": 18.403291, "p": "v"}, {"n": "Pier", "cat": "eat", "tier": "Destination", "a": "V&A Waterfront", "d": "Waterside fine dining with table-side theatre and the ocean's finest produce at its centre.", "lat": -33.902023, "lon": 18.426129, "p": "v"}, {"n": "Salon", "cat": "eat", "tier": "Destination", "a": "Woodstock", "d": "An intimate, ambitious tasting-menu room that climbed to the very top of the Cape's rankings.", "lat": -33.924666, "lon": 18.416875, "p": "v"}, {"n": "Dusk", "cat": "eat", "tier": "Destination", "a": "Stellenbosch (Winelands)", "d": "A Stellenbosch tasting-menu room that arrived at three stars almost fully formed.", "lat": -33.92883, "lon": 18.41722, "p": "v"}, {"n": "Wolfgat", "cat": "eat", "tier": "Destination", "a": "Paternoster", "d": "Kobus van der Merwe's veldkos — foraged 'field food' from the strandveld, in a fisherman's cottage by the sea.", "lat": -34.069901, "lon": 18.647909, "p": "v"}, {"n": "Beyond", "cat": "eat", "tier": "Fine", "a": "Constantia", "d": "Buitenverwachting's elegant estate restaurant — refined cooking among the Constantia vines.", "lat": -33.92521, "lon": 18.416275, "p": "v"}, {"n": "Chefs Warehouse at Beau Constantia", "cat": "eat", "tier": "Fine", "a": "Constantia", "d": "Small tapas-style plates on a mountainside deck with one of the Cape's great views.", "lat": -34.028333, "lon": 18.415556, "p": "a"}, {"n": "Foxcroft", "cat": "eat", "tier": "Fine", "a": "Constantia", "d": "Refined 'soigné' cooking in an approachable, everyday-elegant Constantia room.", "lat": -34.024528, "lon": 18.429882, "p": "v"}, {"n": "Ouzeri", "cat": "eat", "tier": "Fine", "a": "City Bowl", "d": "Nic Charalambous's modern Greek-Cypriot — family recipes, Cape produce, and a buzzing Wale Street room.", "lat": -33.922703, "lon": 18.417239, "p": "v"}, {"n": "The Pot Luck Club", "cat": "eat", "tier": "Fine", "a": "Woodstock", "d": "Luke Dale Roberts's tapas-and-views room atop the Old Biscuit Mill — small plates, big city panorama.", "lat": -33.927306, "lon": 18.45738, "p": "v"}, {"n": "The Waterside", "cat": "eat", "tier": "Fine", "a": "V&A Waterfront", "d": "Waterside fine dining with a light, produce-led hand and harbour calm.", "lat": -33.925101, "lon": 18.417617, "p": "v"}, {"n": "Rust en Vrede", "cat": "eat", "tier": "Fine", "a": "Stellenbosch (Winelands)", "d": "A landmark wine-estate restaurant in a 300-year-old cellar — polished cooking and revered reds.", "lat": -33.935664, "lon": 18.516454, "p": "v"}, {"n": "Epice", "cat": "eat", "tier": "Fine", "a": "Franschhoek (Winelands)", "d": "A spice-led tasting menu in the village — fragrant, considered, and quietly excellent.", "lat": -33.92883, "lon": 18.41722, "p": "v"}, {"n": "Protégé", "cat": "eat", "tier": "Fine", "a": "Franschhoek (Winelands)", "d": "A young-guns village kitchen doing sharp, seasonal cooking without ceremony.", "lat": -33.92883, "lon": 18.41722, "p": "v"}, {"n": "MERTIA", "cat": "eat", "tier": "Fine", "a": "Stellenbosch (Winelands)", "d": "A Stellenbosch tasting room that rose to the very top — precise, ingredient-led, personal.", "lat": -33.92883, "lon": 18.41722, "p": "v"}, {"n": "Belly of the Beast", "cat": "eat", "tier": "Fine", "a": "City Bowl", "d": "One lunch, one dinner, no menu — a daily set feast of local, sustainable produce, cooked with heart.", "lat": -33.929411, "lon": 18.422625, "p": "v"}, {"n": "Galjoen", "cat": "eat", "tier": "Fine", "a": "City Bowl", "d": "Sustainably caught South African seafood from the Belly of the Beast team — sea-to-table and quietly serious.", "lat": -34.138003, "lon": 18.849946, "p": "v"}, {"n": "The Test Kitchen Fledgelings", "cat": "eat", "tier": "Fine", "a": "Woodstock", "d": "Luke Dale Roberts's learning kitchen — training the next generation while cooking at a starred level.", "lat": -33.927562, "lon": 18.45711, "p": "v"}, {"n": "Upper Union", "cat": "eat", "tier": "Fine", "a": "City Bowl / Gardens", "d": "An intimate neighbourhood room punching well above its size, on the slopes of the City Bowl.", "lat": -33.93143, "lon": 18.407848, "p": "v"}, {"n": "Chefs Warehouse at Tintswalo Atlantic", "cat": "eat", "tier": "Fine", "a": "Hout Bay", "d": "Small plates at the water's edge below the Twelve Apostles — cooking and coastline in equal measure.", "lat": -34.065145, "lon": 18.368068, "p": "v"}, {"n": "Ëlgr", "cat": "eat", "tier": "Fine", "a": "City Bowl", "d": "A pared-back, produce-first tasting room in the city — quiet, precise, ingredient-led.", "lat": -33.92883, "lon": 18.41722, "p": "v"}, {"n": "The Red Room by Chefs Warehouse", "cat": "eat", "tier": "Fine", "a": "City Bowl", "d": "The Chefs Warehouse group's intimate city room — small, sharing-led plates done with real polish.", "lat": -33.919649, "lon": 18.419312, "p": "a"}, {"n": "Reverie Social Table", "cat": "eat", "tier": "Smart", "a": "Observatory", "d": "A communal-table neighbourhood favourite where you eat what the chef feels like cooking.", "lat": -33.931328, "lon": 18.46583, "p": "v"}, {"n": "Chefs Warehouse at Maison", "cat": "eat", "tier": "Smart", "a": "Franschhoek (Winelands)", "d": "Small plates and vineyard views at a Franschhoek wine estate — relaxed, generous, sharing-led.", "lat": -33.919104, "lon": 18.419991, "p": "v"}, {"n": "Le Coin Français", "cat": "eat", "tier": "Fine", "a": "Franschhoek (Winelands)", "d": "Classic French technique in the village, from a chef with a devoted following.", "lat": -33.931835, "lon": 18.418593, "p": "v"}, {"n": "Amura", "cat": "eat", "tier": "Fine", "a": "City Bowl / Gardens", "d": "Ángel León's Cape Town debut at the Mount Nelson — the 'chef of the sea', translated to the Atlantic.", "lat": -33.92883, "lon": 18.41722, "p": "v"}, {"n": "Table Mountain", "cat": "do", "tier": "", "a": "City Bowl", "d": "The flat-topped mountain the whole city arranges itself around — take the rotating cable car up, and walk the summit while the Cape falls away on every side.", "lat": -33.959063, "lon": 18.403872, "p": "v"}, {"n": "Robben Island", "cat": "do", "tier": "", "a": "V&A Waterfront", "d": "The island where Nelson Mandela was held for eighteen years, reached by ferry from the Waterfront and shown, movingly, by former prisoners themselves.", "lat": -33.8053, "lon": 18.368883, "p": "v"}, {"n": "Cape of Good Hope & Cape Point", "cat": "do", "tier": "", "a": "City Bowl", "d": "The dramatic, wind-carved southern tip of the peninsula — a funicular to the old lighthouse, cliffs plunging to two oceans, and the great sweep of the Cape at its wildest.", "lat": -34.350917, "lon": 18.484128, "p": "v"}, {"n": "Kirstenbosch National Botanical Garden", "cat": "do", "tier": "", "a": "Constantia", "d": "One of the world's great botanical gardens, set against the eastern slopes of Table Mountain, given over to the Cape's own fynbos and a treetop canopy walkway.", "lat": -33.985611, "lon": 18.430142, "p": "v"}, {"n": "The Cape Winelands", "cat": "do", "tier": "", "a": "Winelands", "d": "Stellenbosch and Franschhoek — Cape Dutch estates among the oldest in the New World, an easy hour from the city, best taken slowly over lunch and a tasting.", "lat": -33.769064, "lon": 18.740469, "p": "a"}, {"n": "Groot Constantia", "cat": "do", "tier": "", "a": "Constantia", "d": "South Africa's oldest wine estate, producing since 1685 — a manor-house museum, historic cellars and a tasting of the sweet Constantia wines once shipped to Europe's courts.", "lat": -34.030377, "lon": 18.417646, "p": "v"}, {"n": "Zeitz MOCAA", "cat": "do", "tier": "", "a": "V&A Waterfront", "d": "The largest museum of contemporary African art, carved from a 1920s grain silo by Thomas Heatherwick — the continent's cultural landmark, and its most photographed interior.", "lat": -33.908398, "lon": 18.423001, "p": "v"}, {"n": "Boulders Beach penguins", "cat": "do", "tier": "", "a": "City Bowl", "d": "A sheltered cove at Simon's Town where a colony of African penguins nests among the granite boulders — boardwalks bring you within arm's reach, without disturbing them.", "lat": -34.198072, "lon": 18.45236, "p": "v"}, {"n": "Chapman's Peak Drive", "cat": "do", "tier": "", "a": "Camps Bay", "d": "One of the most beautiful coast roads on earth — a hundred and fourteen curves cut into the cliff face between Hout Bay and Noordhoek, the Atlantic straight below.", "lat": -34.048681, "lon": 18.361545, "p": "v"}, {"n": "Bo-Kaap", "cat": "do", "tier": "", "a": "City Bowl", "d": "The candy-coloured Cape Malay quarter on the slopes of Signal Hill — cobbled streets, a living Muslim community, and the city's oldest surviving residential fabric.", "lat": -33.920561, "lon": 18.412881, "p": "v"}, {"n": "V&A Waterfront", "cat": "do", "tier": "", "a": "V&A Waterfront", "d": "The working Victorian harbour reborn as the Cape's front room — the ferry to Robben Island, Zeitz MOCAA, the Two Oceans Aquarium and the best of the city's shopping, all on the water.", "lat": -33.906002, "lon": 18.419526, "p": "v"}, {"n": "Signal Hill & the Noon Gun", "cat": "do", "tier": "", "a": "City Bowl", "d": "The low ridge beside Lion's Head, where locals gather for sunset over the Atlantic — and where a cannon has been fired at noon, every day, since 1806.", "lat": -33.919649, "lon": 18.419312, "p": "a"}, {"n": "Lion's Head", "cat": "do", "tier": "", "a": "City Bowl", "d": "The city's most-loved climb — a spiralling path to a 360-degree summit above the sea, walked at dawn, at sunset, and by the light of the full moon.", "lat": -33.935039, "lon": 18.389142, "p": "v"}, {"n": "Cape Point Ostrich & Peninsula drive", "cat": "do", "tier": "", "a": "City Bowl", "d": "The full loop of the Cape Peninsula — Chapman's Peak, the Cape of Good Hope reserve, Simon's Town and Kalk Bay strung along one of the world's great day-drives.", "lat": -34.252783, "lon": 18.450976, "p": "v"}, {"n": "Constantia wine route", "cat": "do", "tier": "", "a": "Constantia", "d": "The city's own vineyard belt, fifteen minutes from town — Groot Constantia, Klein Constantia and Buitenverwachting among leafy estates you can taste across in an afternoon.", "lat": -34.030667, "lon": 18.417934, "p": "v"}, {"n": "Two Oceans Aquarium", "cat": "do", "tier": "", "a": "V&A Waterfront", "d": "A window onto the meeting of the cold Atlantic and warm Indian oceans — kelp forests, ragged-tooth sharks and a turtle rehabilitation programme, on the Waterfront's edge.", "lat": -33.908028, "lon": 18.417479, "p": "v"}, {"n": "The Silo Rooftop", "cat": "party", "tier": "Rooftops", "a": "V&A Waterfront", "d": "Drinks on the roof of the pillowed-glass Silo Hotel, above Zeitz MOCAA — the definitive Cape Town sundowner, Table Mountain on one side, the Atlantic on the other.", "lat": -33.917539, "lon": 18.41833, "p": "v"}, {"n": "Willaston Bar", "cat": "party", "tier": "Landmark bars", "a": "V&A Waterfront", "d": "The Silo Hotel's double-height sixth-floor bar — teal banquettes, circular chandeliers and harbour views, the sheltered counterpart to the rooftop above.", "lat": -33.972142, "lon": 18.565655, "p": "v"}, {"n": "Cause | Effect Cocktail Kitchen", "cat": "party", "tier": "Cocktail bars", "a": "V&A Waterfront", "d": "Cape Town in a glass — fynbos, brandy and closed-loop, waterless technique from one of the country's most awarded bar teams, at the Waterfront and on Kloof Street.", "lat": -33.905222, "lon": 18.419236, "p": "v"}, {"n": "Art of Duplicity", "cat": "party", "tier": "Cocktail bars", "a": "City Bowl", "d": "A password-only speakeasy in a Victorian warehouse — velvet, mahogany and one of the city's most inventive cocktail lists, found by those who know to look.", "lat": -33.908398, "lon": 18.423001, "p": "v"}, {"n": "Bascule Whisky, Wine & Cocktail Bar", "cat": "party", "tier": "Landmark bars", "a": "V&A Waterfront", "d": "At Cape Grace on its own quay — more than four hundred whiskies and a marina-side terrace, the city's most serious address for a dram.", "lat": -33.908167, "lon": 18.420051, "p": "v"}, {"n": "Ellerman House bar & terrace", "cat": "party", "tier": "Landmark bars", "a": "Bantry Bay", "d": "Sundowners on a cliff-side lawn above the Atlantic, drawn from a nine-thousand-bottle cellar of South Africa's finest — arguably the most beautiful sundowner in the city.", "lat": -33.918693, "lon": 18.425915, "p": "v"}, {"n": "Chinchilla Rooftop", "cat": "party", "tier": "Rooftops", "a": "Camps Bay", "d": "Above the Camps Bay strip — the sun going down over the Atlantic, Lion's Head and the Twelve Apostles behind, cocktails and DJs as the beach empties.", "lat": -33.953073, "lon": 18.377347, "p": "v"}, {"n": "Bree Street", "cat": "party", "tier": "Late & loud", "a": "City Bowl", "d": "The city's coolest block after dark — wine bars, cocktail haunts and pavement tables strung along a heritage street, the natural place to begin a Cape Town night.", "lat": -33.922452, "lon": 18.416636, "p": "v"}, {"n": "Long Street", "cat": "party", "tier": "Late & loud", "a": "City Bowl", "d": "The Mother City's historic nightlife spine — Victorian balconies, live music and clubs running till dawn, loud, mixed and unpretentious.", "lat": -33.921444, "lon": 18.420261, "p": "v"}]}
+{
+  "center": [
+    -33.92883,
+    18.41722
+  ],
+  "venues": [
+    {
+      "n": "Ellerman House",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Bantry Bay",
+      "d": "A private cliff-side mansion above the Atlantic, run as a home with one of Africa's great art and wine cellars.",
+      "lat": -33.920961,
+      "lon": 18.42131,
+      "photos": []
+    },
+    {
+      "n": "Mount Nelson, A Belmond Hotel",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "City Bowl / Gardens",
+      "d": "The Pink Lady \u2014 Cape Town's grande dame since 1899, in nine acres of gardens below Table Mountain.",
+      "lat": -33.931816,
+      "lon": 18.411391,
+      "photos": []
+    },
+    {
+      "n": "One&Only Cape Town",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "V&A Waterfront",
+      "d": "A marina-side resort with Table Mountain framed in the glass and a private spa island of its own.",
+      "lat": -33.908731,
+      "lon": 18.416314,
+      "photos": []
+    },
+    {
+      "n": "The Silo Hotel",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "V&A Waterfront",
+      "d": "A converted grain silo crowned with faceted glass, sitting atop the Zeitz MOCAA contemporary-art museum.",
+      "lat": -33.97907,
+      "lon": 18.458709,
+      "photos": []
+    },
+    {
+      "n": "Delaire Graff Lodge",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Stellenbosch (Winelands)",
+      "d": "Laurence Graff's jewel of a wine estate on the Helshoogte Pass \u2014 art, diamonds and vineyards at altitude.",
+      "lat": -33.921917,
+      "lon": 18.922179,
+      "photos": []
+    },
+    {
+      "n": "Cape Grace, A Fairmont Managed Hotel",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "V&A Waterfront",
+      "d": "A warm, quietly grand harbour house on its own quay, with one of the city's finest whisky bars.",
+      "lat": -33.906002,
+      "lon": 18.419526,
+      "photos": []
+    },
+    {
+      "n": "The Cellars-Hohenort",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Constantia",
+      "d": "A country-house hotel in nine acres of Constantia gardens \u2014 the calm, green, old-Cape antidote to the city.",
+      "lat": -34.001432,
+      "lon": 18.434703,
+      "photos": []
+    },
+    {
+      "n": "The Twelve Apostles Hotel and Spa",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Camps Bay",
+      "d": "A sea-facing house between mountain and Atlantic on the scenic road to Camps Bay \u2014 remote calm, minutes from town.",
+      "lat": -33.983322,
+      "lon": 18.35918,
+      "photos": []
+    },
+    {
+      "n": "Steenberg Hotel & Spa",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Constantia",
+      "d": "The Cape's oldest wine farm turned polished retreat \u2014 vineyards, a golf course and Cape Dutch calm.",
+      "lat": -34.071398,
+      "lon": 18.42557,
+      "photos": []
+    },
+    {
+      "n": "La Residence",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Franschhoek (Winelands)",
+      "d": "The Royal Portfolio's flamboyant, art-filled manor on a private vine-and-olive estate in the valley.",
+      "lat": -33.928758,
+      "lon": 18.569455,
+      "photos": []
+    },
+    {
+      "n": "Leeu House",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Franschhoek (Winelands)",
+      "d": "An intimate boutique house in the heart of Franschhoek village \u2014 art, gardens and the main street at the door.",
+      "lat": -33.920961,
+      "lon": 18.42131,
+      "photos": []
+    },
+    {
+      "n": "Le Quartier Fran\u00e7ais",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Franschhoek (Winelands)",
+      "d": "A legendary village inn reborn \u2014 the beating heart of Franschhoek's dining-and-village life.",
+      "lat": -33.931835,
+      "lon": 18.418593,
+      "photos": []
+    },
+    {
+      "n": "Akademie Street Boutique Hotel",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Franschhoek (Winelands)",
+      "d": "A cluster of restored village cottages and suites with private pools, run with real warmth.",
+      "lat": -33.924553,
+      "lon": 18.421897,
+      "photos": []
+    },
+    {
+      "n": "Taj Cape Town",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "City Bowl / Wale Street",
+      "d": "The old Reserve Bank turned grand city hotel \u2014 and the address that speaks Hindi at the door.",
+      "lat": -33.924519,
+      "lon": 18.419685,
+      "photos": []
+    },
+    {
+      "n": "Cape Cadogan Boutique Hotel",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Gardens / City Bowl",
+      "d": "A restored Georgian-and-Victorian townhouse on a leafy Gardens street \u2014 a calm, characterful city base.",
+      "lat": -33.931831,
+      "lon": 18.408305,
+      "photos": []
+    },
+    {
+      "n": "La Colombe",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Constantia",
+      "d": "Cape Town's most celebrated kitchen \u2014 a treehouse-like room above Silvermist, and Africa's benchmark for fine dining.",
+      "lat": -34.015116,
+      "lon": 18.403291,
+      "photos": []
+    },
+    {
+      "n": "FYN",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "City Bowl",
+      "d": "Japanese precision married to South African produce \u2014 the only stand-alone African restaurant in Relais & Ch\u00e2teaux.",
+      "lat": -33.92465,
+      "lon": 18.421747,
+      "photos": []
+    },
+    {
+      "n": "Salsify at the Roundhouse",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Camps Bay",
+      "d": "Chef Ryan Cole's seasonal cooking in a historic hunting lodge, with the Atlantic sweeping below.",
+      "lat": -33.943589,
+      "lon": 18.3849,
+      "photos": []
+    },
+    {
+      "n": "La Petite Colombe",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Franschhoek (Winelands)",
+      "d": "La Colombe's Winelands sibling at Leeu Estates \u2014 theatrical tasting menus among the vines.",
+      "lat": -34.015116,
+      "lon": 18.403291,
+      "photos": []
+    },
+    {
+      "n": "Pier",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "V&A Waterfront",
+      "d": "Waterside fine dining with table-side theatre and the ocean's finest produce at its centre.",
+      "lat": -33.902023,
+      "lon": 18.426129,
+      "photos": []
+    },
+    {
+      "n": "Salon",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Woodstock",
+      "d": "An intimate, ambitious tasting-menu room that climbed to the very top of the Cape's rankings.",
+      "lat": -33.924666,
+      "lon": 18.416875,
+      "photos": []
+    },
+    {
+      "n": "Dusk",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Stellenbosch (Winelands)",
+      "d": "A Stellenbosch tasting-menu room that arrived at three stars almost fully formed.",
+      "lat": -33.92883,
+      "lon": 18.41722,
+      "photos": []
+    },
+    {
+      "n": "Wolfgat",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Paternoster",
+      "d": "Kobus van der Merwe's veldkos \u2014 foraged 'field food' from the strandveld, in a fisherman's cottage by the sea.",
+      "lat": -34.069901,
+      "lon": 18.647909,
+      "photos": []
+    },
+    {
+      "n": "Beyond",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Constantia",
+      "d": "Buitenverwachting's elegant estate restaurant \u2014 refined cooking among the Constantia vines.",
+      "lat": -33.92521,
+      "lon": 18.416275,
+      "photos": []
+    },
+    {
+      "n": "Chefs Warehouse at Beau Constantia",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Constantia",
+      "d": "Small tapas-style plates on a mountainside deck with one of the Cape's great views.",
+      "lat": -34.028333,
+      "lon": 18.415556,
+      "photos": []
+    },
+    {
+      "n": "Foxcroft",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Constantia",
+      "d": "Refined 'soign\u00e9' cooking in an approachable, everyday-elegant Constantia room.",
+      "lat": -34.024528,
+      "lon": 18.429882,
+      "photos": []
+    },
+    {
+      "n": "Ouzeri",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "City Bowl",
+      "d": "Nic Charalambous's modern Greek-Cypriot \u2014 family recipes, Cape produce, and a buzzing Wale Street room.",
+      "lat": -33.922703,
+      "lon": 18.417239,
+      "photos": []
+    },
+    {
+      "n": "The Pot Luck Club",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Woodstock",
+      "d": "Luke Dale Roberts's tapas-and-views room atop the Old Biscuit Mill \u2014 small plates, big city panorama.",
+      "lat": -33.927306,
+      "lon": 18.45738,
+      "photos": []
+    },
+    {
+      "n": "The Waterside",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "V&A Waterfront",
+      "d": "Waterside fine dining with a light, produce-led hand and harbour calm.",
+      "lat": -33.925101,
+      "lon": 18.417617,
+      "photos": []
+    },
+    {
+      "n": "Rust en Vrede",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Stellenbosch (Winelands)",
+      "d": "A landmark wine-estate restaurant in a 300-year-old cellar \u2014 polished cooking and revered reds.",
+      "lat": -33.935664,
+      "lon": 18.516454,
+      "photos": []
+    },
+    {
+      "n": "Epice",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Franschhoek (Winelands)",
+      "d": "A spice-led tasting menu in the village \u2014 fragrant, considered, and quietly excellent.",
+      "lat": -33.92883,
+      "lon": 18.41722,
+      "photos": []
+    },
+    {
+      "n": "Prot\u00e9g\u00e9",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Franschhoek (Winelands)",
+      "d": "A young-guns village kitchen doing sharp, seasonal cooking without ceremony.",
+      "lat": -33.92883,
+      "lon": 18.41722,
+      "photos": []
+    },
+    {
+      "n": "MERTIA",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Stellenbosch (Winelands)",
+      "d": "A Stellenbosch tasting room that rose to the very top \u2014 precise, ingredient-led, personal.",
+      "lat": -33.92883,
+      "lon": 18.41722,
+      "photos": []
+    },
+    {
+      "n": "Belly of the Beast",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "City Bowl",
+      "d": "One lunch, one dinner, no menu \u2014 a daily set feast of local, sustainable produce, cooked with heart.",
+      "lat": -33.929411,
+      "lon": 18.422625,
+      "photos": []
+    },
+    {
+      "n": "Galjoen",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "City Bowl",
+      "d": "Sustainably caught South African seafood from the Belly of the Beast team \u2014 sea-to-table and quietly serious.",
+      "lat": -34.138003,
+      "lon": 18.849946,
+      "photos": []
+    },
+    {
+      "n": "The Test Kitchen Fledgelings",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Woodstock",
+      "d": "Luke Dale Roberts's learning kitchen \u2014 training the next generation while cooking at a starred level.",
+      "lat": -33.927562,
+      "lon": 18.45711,
+      "photos": []
+    },
+    {
+      "n": "Upper Union",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "City Bowl / Gardens",
+      "d": "An intimate neighbourhood room punching well above its size, on the slopes of the City Bowl.",
+      "lat": -33.93143,
+      "lon": 18.407848,
+      "photos": []
+    },
+    {
+      "n": "Chefs Warehouse at Tintswalo Atlantic",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Hout Bay",
+      "d": "Small plates at the water's edge below the Twelve Apostles \u2014 cooking and coastline in equal measure.",
+      "lat": -34.065145,
+      "lon": 18.368068,
+      "photos": []
+    },
+    {
+      "n": "\u00cblgr",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "City Bowl",
+      "d": "A pared-back, produce-first tasting room in the city \u2014 quiet, precise, ingredient-led.",
+      "lat": -33.92883,
+      "lon": 18.41722,
+      "photos": []
+    },
+    {
+      "n": "The Red Room by Chefs Warehouse",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "City Bowl",
+      "d": "The Chefs Warehouse group's intimate city room \u2014 small, sharing-led plates done with real polish.",
+      "lat": -33.919649,
+      "lon": 18.419312,
+      "photos": []
+    },
+    {
+      "n": "Reverie Social Table",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Observatory",
+      "d": "A communal-table neighbourhood favourite where you eat what the chef feels like cooking.",
+      "lat": -33.931328,
+      "lon": 18.46583,
+      "photos": []
+    },
+    {
+      "n": "Chefs Warehouse at Maison",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Franschhoek (Winelands)",
+      "d": "Small plates and vineyard views at a Franschhoek wine estate \u2014 relaxed, generous, sharing-led.",
+      "lat": -33.919104,
+      "lon": 18.419991,
+      "photos": []
+    },
+    {
+      "n": "Le Coin Fran\u00e7ais",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Franschhoek (Winelands)",
+      "d": "Classic French technique in the village, from a chef with a devoted following.",
+      "lat": -33.931835,
+      "lon": 18.418593,
+      "photos": []
+    },
+    {
+      "n": "Amura",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "City Bowl / Gardens",
+      "d": "\u00c1ngel Le\u00f3n's Cape Town debut at the Mount Nelson \u2014 the 'chef of the sea', translated to the Atlantic.",
+      "lat": -33.92883,
+      "lon": 18.41722,
+      "photos": []
+    },
+    {
+      "n": "Table Mountain",
+      "cat": "do",
+      "tier": "",
+      "a": "City Bowl",
+      "d": "The flat-topped mountain the whole city arranges itself around \u2014 take the rotating cable car up, and walk the summit while the Cape falls away on every side.",
+      "lat": -33.959063,
+      "lon": 18.403872,
+      "photos": []
+    },
+    {
+      "n": "Robben Island",
+      "cat": "do",
+      "tier": "",
+      "a": "V&A Waterfront",
+      "d": "The island where Nelson Mandela was held for eighteen years, reached by ferry from the Waterfront and shown, movingly, by former prisoners themselves.",
+      "lat": -33.8053,
+      "lon": 18.368883,
+      "photos": []
+    },
+    {
+      "n": "Cape of Good Hope & Cape Point",
+      "cat": "do",
+      "tier": "",
+      "a": "City Bowl",
+      "d": "The dramatic, wind-carved southern tip of the peninsula \u2014 a funicular to the old lighthouse, cliffs plunging to two oceans, and the great sweep of the Cape at its wildest.",
+      "lat": -34.350917,
+      "lon": 18.484128,
+      "photos": []
+    },
+    {
+      "n": "Kirstenbosch National Botanical Garden",
+      "cat": "do",
+      "tier": "",
+      "a": "Constantia",
+      "d": "One of the world's great botanical gardens, set against the eastern slopes of Table Mountain, given over to the Cape's own fynbos and a treetop canopy walkway.",
+      "lat": -33.985611,
+      "lon": 18.430142,
+      "photos": []
+    },
+    {
+      "n": "The Cape Winelands",
+      "cat": "do",
+      "tier": "",
+      "a": "Winelands",
+      "d": "Stellenbosch and Franschhoek \u2014 Cape Dutch estates among the oldest in the New World, an easy hour from the city, best taken slowly over lunch and a tasting.",
+      "lat": -33.769064,
+      "lon": 18.740469,
+      "photos": []
+    },
+    {
+      "n": "Groot Constantia",
+      "cat": "do",
+      "tier": "",
+      "a": "Constantia",
+      "d": "South Africa's oldest wine estate, producing since 1685 \u2014 a manor-house museum, historic cellars and a tasting of the sweet Constantia wines once shipped to Europe's courts.",
+      "lat": -34.030377,
+      "lon": 18.417646,
+      "photos": []
+    },
+    {
+      "n": "Zeitz MOCAA",
+      "cat": "do",
+      "tier": "",
+      "a": "V&A Waterfront",
+      "d": "The largest museum of contemporary African art, carved from a 1920s grain silo by Thomas Heatherwick \u2014 the continent's cultural landmark, and its most photographed interior.",
+      "lat": -33.908398,
+      "lon": 18.423001,
+      "photos": []
+    },
+    {
+      "n": "Boulders Beach penguins",
+      "cat": "do",
+      "tier": "",
+      "a": "City Bowl",
+      "d": "A sheltered cove at Simon's Town where a colony of African penguins nests among the granite boulders \u2014 boardwalks bring you within arm's reach, without disturbing them.",
+      "lat": -34.198072,
+      "lon": 18.45236,
+      "photos": []
+    },
+    {
+      "n": "Chapman's Peak Drive",
+      "cat": "do",
+      "tier": "",
+      "a": "Camps Bay",
+      "d": "One of the most beautiful coast roads on earth \u2014 a hundred and fourteen curves cut into the cliff face between Hout Bay and Noordhoek, the Atlantic straight below.",
+      "lat": -34.048681,
+      "lon": 18.361545,
+      "photos": []
+    },
+    {
+      "n": "Bo-Kaap",
+      "cat": "do",
+      "tier": "",
+      "a": "City Bowl",
+      "d": "The candy-coloured Cape Malay quarter on the slopes of Signal Hill \u2014 cobbled streets, a living Muslim community, and the city's oldest surviving residential fabric.",
+      "lat": -33.920561,
+      "lon": 18.412881,
+      "photos": []
+    },
+    {
+      "n": "V&A Waterfront",
+      "cat": "do",
+      "tier": "",
+      "a": "V&A Waterfront",
+      "d": "The working Victorian harbour reborn as the Cape's front room \u2014 the ferry to Robben Island, Zeitz MOCAA, the Two Oceans Aquarium and the best of the city's shopping, all on the water.",
+      "lat": -33.906002,
+      "lon": 18.419526,
+      "photos": []
+    },
+    {
+      "n": "Signal Hill & the Noon Gun",
+      "cat": "do",
+      "tier": "",
+      "a": "City Bowl",
+      "d": "The low ridge beside Lion's Head, where locals gather for sunset over the Atlantic \u2014 and where a cannon has been fired at noon, every day, since 1806.",
+      "lat": -33.919649,
+      "lon": 18.419312,
+      "photos": []
+    },
+    {
+      "n": "Lion's Head",
+      "cat": "do",
+      "tier": "",
+      "a": "City Bowl",
+      "d": "The city's most-loved climb \u2014 a spiralling path to a 360-degree summit above the sea, walked at dawn, at sunset, and by the light of the full moon.",
+      "lat": -33.935039,
+      "lon": 18.389142,
+      "photos": []
+    },
+    {
+      "n": "Cape Point Ostrich & Peninsula drive",
+      "cat": "do",
+      "tier": "",
+      "a": "City Bowl",
+      "d": "The full loop of the Cape Peninsula \u2014 Chapman's Peak, the Cape of Good Hope reserve, Simon's Town and Kalk Bay strung along one of the world's great day-drives.",
+      "lat": -34.252783,
+      "lon": 18.450976,
+      "photos": []
+    },
+    {
+      "n": "Constantia wine route",
+      "cat": "do",
+      "tier": "",
+      "a": "Constantia",
+      "d": "The city's own vineyard belt, fifteen minutes from town \u2014 Groot Constantia, Klein Constantia and Buitenverwachting among leafy estates you can taste across in an afternoon.",
+      "lat": -34.030667,
+      "lon": 18.417934,
+      "photos": []
+    },
+    {
+      "n": "Two Oceans Aquarium",
+      "cat": "do",
+      "tier": "",
+      "a": "V&A Waterfront",
+      "d": "A window onto the meeting of the cold Atlantic and warm Indian oceans \u2014 kelp forests, ragged-tooth sharks and a turtle rehabilitation programme, on the Waterfront's edge.",
+      "lat": -33.908028,
+      "lon": 18.417479,
+      "photos": []
+    },
+    {
+      "n": "The Silo Rooftop",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "V&A Waterfront",
+      "d": "Drinks on the roof of the pillowed-glass Silo Hotel, above Zeitz MOCAA \u2014 the definitive Cape Town sundowner, Table Mountain on one side, the Atlantic on the other.",
+      "lat": -33.917539,
+      "lon": 18.41833,
+      "photos": []
+    },
+    {
+      "n": "Willaston Bar",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "V&A Waterfront",
+      "d": "The Silo Hotel's double-height sixth-floor bar \u2014 teal banquettes, circular chandeliers and harbour views, the sheltered counterpart to the rooftop above.",
+      "lat": -33.972142,
+      "lon": 18.565655,
+      "photos": []
+    },
+    {
+      "n": "Cause | Effect Cocktail Kitchen",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "V&A Waterfront",
+      "d": "Cape Town in a glass \u2014 fynbos, brandy and closed-loop, waterless technique from one of the country's most awarded bar teams, at the Waterfront and on Kloof Street.",
+      "lat": -33.905222,
+      "lon": 18.419236,
+      "photos": []
+    },
+    {
+      "n": "Art of Duplicity",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "City Bowl",
+      "d": "A password-only speakeasy in a Victorian warehouse \u2014 velvet, mahogany and one of the city's most inventive cocktail lists, found by those who know to look.",
+      "lat": -33.908398,
+      "lon": 18.423001,
+      "photos": []
+    },
+    {
+      "n": "Bascule Whisky, Wine & Cocktail Bar",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "V&A Waterfront",
+      "d": "At Cape Grace on its own quay \u2014 more than four hundred whiskies and a marina-side terrace, the city's most serious address for a dram.",
+      "lat": -33.908167,
+      "lon": 18.420051,
+      "photos": []
+    },
+    {
+      "n": "Ellerman House bar & terrace",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "Bantry Bay",
+      "d": "Sundowners on a cliff-side lawn above the Atlantic, drawn from a nine-thousand-bottle cellar of South Africa's finest \u2014 arguably the most beautiful sundowner in the city.",
+      "lat": -33.918693,
+      "lon": 18.425915,
+      "photos": []
+    },
+    {
+      "n": "Chinchilla Rooftop",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "Camps Bay",
+      "d": "Above the Camps Bay strip \u2014 the sun going down over the Atlantic, Lion's Head and the Twelve Apostles behind, cocktails and DJs as the beach empties.",
+      "lat": -33.953073,
+      "lon": 18.377347,
+      "photos": []
+    },
+    {
+      "n": "Bree Street",
+      "cat": "party",
+      "tier": "Late & loud",
+      "a": "City Bowl",
+      "d": "The city's coolest block after dark \u2014 wine bars, cocktail haunts and pavement tables strung along a heritage street, the natural place to begin a Cape Town night.",
+      "lat": -33.922452,
+      "lon": 18.416636,
+      "photos": []
+    },
+    {
+      "n": "Long Street",
+      "cat": "party",
+      "tier": "Late & loud",
+      "a": "City Bowl",
+      "d": "The Mother City's historic nightlife spine \u2014 Victorian balconies, live music and clubs running till dawn, loud, mixed and unpretentious.",
+      "lat": -33.921444,
+      "lon": 18.420261,
+      "photos": []
+    }
+  ]
+}

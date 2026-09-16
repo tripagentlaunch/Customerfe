@@ -1,1 +1,1408 @@
-{"center": [25.029602, 55.154845], "venues": [{"n": "Bvlgari Resort Dubai", "cat": "stay", "tier": "Ultra", "a": "Jumeira Bay Island", "d": "A private island address that keeps the noise of the city firmly on the mainland.", "lat": 25.215549, "lon": 55.236197, "p": "a"}, {"n": "Jumeirah Burj Al Arab", "cat": "stay", "tier": "Ultra", "a": "Jumeirah Beach", "d": "The city's own emblem — a suites-only house where the theatre is the point.", "lat": 25.141327, "lon": 55.185397, "p": "v"}, {"n": "Atlantis The Royal", "cat": "stay", "tier": "Ultra", "a": "Palm Jumeirah", "d": "The most talked-about opening in years, and it earns the noise.", "lat": 25.138248, "lon": 55.127763, "p": "v"}, {"n": "One&Only The Palm", "cat": "stay", "tier": "Ultra", "a": "Palm Jumeirah (west crescent)", "d": "A low, Andalusian-quiet retreat that feels a world away from the strip.", "lat": 25.099269, "lon": 55.133443, "p": "v"}, {"n": "One&Only One Za'abeel", "cat": "stay", "tier": "Ultra", "a": "Za'abeel / Downtown", "d": "A vertical resort slung between two towers, with the world's longest cantilever overhead.", "lat": 25.228157, "lon": 55.290799, "p": "v"}, {"n": "Four Seasons Resort Dubai at Jumeirah Beach", "cat": "stay", "tier": "Ultra", "a": "Jumeirah", "d": "The surest hands in the city — service you never have to think about.", "lat": 25.183552, "lon": 55.22619, "p": "a"}, {"n": "The Ritz-Carlton, Dubai", "cat": "stay", "tier": "Grand", "a": "JBR / Dubai Marina", "d": "Spanish-Moorish calm and low-rise gardens on a beach that never feels crowded.", "lat": 25.212961, "lon": 55.279584, "p": "v"}, {"n": "Mandarin Oriental Jumeira, Dubai", "cat": "stay", "tier": "Grand", "a": "Jumeirah 1", "d": "A crisp, contemporary seafront house with the group's quiet precision.", "lat": 25.216972, "lon": 55.250658, "p": "v"}, {"n": "Waldorf Astoria Dubai International Financial Centre", "cat": "stay", "tier": "Grand", "a": "DIFC", "d": "New-York glamour dropped into the financial district, steps from the galleries.", "lat": 25.210669, "lon": 55.282111, "p": "v"}, {"n": "Jumeirah Al Naseem", "cat": "stay", "tier": "Grand", "a": "Madinat Jumeirah", "d": "The most understated house in the Madinat, opening straight onto the beach.", "lat": 25.136698, "lon": 55.187143, "p": "v"}, {"n": "Armani Hotel Dubai", "cat": "stay", "tier": "Grand", "a": "Burj Khalifa / Downtown", "d": "Mr Armani's own hand, inside the Burj Khalifa itself — greige, hushed, exact.", "lat": 25.197459, "lon": 55.274731, "p": "v"}, {"n": "The St. Regis Dubai, The Palm", "cat": "stay", "tier": "Grand", "a": "Palm Jumeirah", "d": "Butler service and high-floor views along the Palm's trunk.", "lat": 25.113862, "lon": 55.140003, "p": "v"}, {"n": "Address Beach Resort", "cat": "stay", "tier": "Grand", "a": "JBR", "d": "A jaw-dropping edge pool 77 floors up, and the beach at its feet.", "lat": 25.07263, "lon": 55.126484, "p": "v"}, {"n": "Grosvenor House, a Luxury Collection Hotel, Dubai", "cat": "stay", "tier": "Grand", "a": "Dubai Marina", "d": "Classic marina-side luxury and the address of Row on 45.", "lat": 25.076385, "lon": 55.140622, "p": "a"}, {"n": "The Lana, Dorchester Collection", "cat": "stay", "tier": "Ultra", "a": "Marasi Bay / Business Bay", "d": "Dorchester's first Middle East house — restrained, exacting, waterfront.", "lat": 25.188041, "lon": 55.288265, "p": "v"}, {"n": "One&Only Royal Mirage - The Residence", "cat": "stay", "tier": "Grand", "a": "Al Sufouh", "d": "An adults-only wing in mature gardens — the grown-up corner of Dubai.", "lat": 25.095009, "lon": 55.150372, "p": "v"}, {"n": "Four Seasons Hotel Dubai International Financial Centre", "cat": "stay", "tier": "Grand", "a": "DIFC", "d": "A small, polished city house for the member who prefers boardrooms to beaches.", "lat": 25.210411, "lon": 55.27915, "p": "a"}, {"n": "Jumeirah Al Qasr", "cat": "stay", "tier": "Luxury", "a": "Madinat Jumeirah", "d": "The grand 'palace' of the Madinat, with abras gliding to your door.", "lat": 25.131838, "lon": 55.184483, "p": "v"}, {"n": "Jumeirah Mina A'Salam", "cat": "stay", "tier": "Luxury", "a": "Madinat Jumeirah", "d": "The 'harbour' of the Madinat — a warmer, more relaxed entry to the resort.", "lat": 25.135219, "lon": 55.185805, "p": "v"}, {"n": "Raffles The Palm Dubai", "cat": "stay", "tier": "Luxury", "a": "Palm Jumeirah (west crescent)", "d": "Palatial, gilded and unabashedly grand — theatre with Raffles service.", "lat": 25.111919, "lon": 55.109994, "p": "a"}, {"n": "Anantara The Palm Dubai Resort", "cat": "stay", "tier": "Luxury", "a": "Palm Jumeirah (east crescent)", "d": "Over-water villas and a Thai-lagoon calm rare in Dubai.", "lat": 25.129634, "lon": 55.152887, "p": "v"}, {"n": "Taj Dubai", "cat": "stay", "tier": "Luxury", "a": "Business Bay", "d": "The house that speaks Hindi at the door and pours a proper chai.", "lat": 25.192273, "lon": 55.267339, "p": "v"}, {"n": "Palazzo Versace Dubai", "cat": "stay", "tier": "Luxury", "a": "Culture Village / Jaddaf", "d": "Full-throated Versace maximalism — Medusa on the marble and all.", "lat": 25.22744, "lon": 55.341904, "p": "v"}, {"n": "Atlantis The Palm", "cat": "stay", "tier": "Luxury", "a": "Palm Jumeirah (apex)", "d": "The original Palm landmark — aquarium, waterpark, and dinner by Heston or Nobu.", "lat": 25.066616, "lon": 55.209722, "p": "v"}, {"n": "The Ritz-Carlton Dubai International Financial Centre", "cat": "stay", "tier": "Luxury", "a": "DIFC", "d": "A calm business-district Ritz-Carlton for meetings that end in the spa.", "lat": 25.212961, "lon": 55.279584, "p": "v"}, {"n": "Waldorf Astoria Dubai Palm Jumeirah", "cat": "stay", "tier": "Luxury", "a": "Palm Jumeirah (east crescent)", "d": "A columned beach-house grandeur on a quieter stretch of the Palm.", "lat": 25.134611, "lon": 55.150405, "p": "v"}, {"n": "Fairmont The Palm", "cat": "stay", "tier": "Premium", "a": "Palm Jumeirah (trunk)", "d": "Dependable resort comfort at the base of the Palm, beach included.", "lat": 25.110498, "lon": 55.140849, "p": "v"}, {"n": "Sofitel Dubai The Palm", "cat": "stay", "tier": "Premium", "a": "Palm Jumeirah (east crescent)", "d": "A Polynesian-themed resort that leans into the holiday, not the boardroom.", "lat": 25.139006, "lon": 55.142461, "p": "v"}, {"n": "Conrad Dubai", "cat": "stay", "tier": "Premium", "a": "Sheikh Zayed Road", "d": "A polished city tower on the main artery — reliable, central, unshowy.", "lat": 25.2262, "lon": 55.283369, "p": "v"}, {"n": "Kempinski Hotel Mall of the Emirates", "cat": "stay", "tier": "Premium", "a": "Al Barsha", "d": "Rooms that open onto the ski slope, and the mall at your door.", "lat": 25.119525, "lon": 55.203105, "p": "v"}, {"n": "Banyan Tree Dubai", "cat": "stay", "tier": "Premium", "a": "Bluewaters Island", "d": "A calm spa-led island stay beside the big wheel.", "lat": 25.079906, "lon": 55.121916, "p": "a"}, {"n": "Al Habtoor Palace, LXR Hotels & Resorts", "cat": "stay", "tier": "Premium", "a": "Al Habtoor City / Business Bay", "d": "Old-world European grandeur on the canal, a little away from the crowds.", "lat": 25.183596, "lon": 55.254447, "p": "v"}, {"n": "The St. Regis Downtown Dubai", "cat": "stay", "tier": "Premium", "a": "Al Habtoor City", "d": "St. Regis butler service at a gentler Downtown price point.", "lat": 25.194759, "lon": 55.270663, "p": "v"}, {"n": "W Dubai - Mina Seyahi", "cat": "stay", "tier": "Premium", "a": "Dubai Marina / Mina Seyahi", "d": "A high-energy beach tower for members who want the music turned up.", "lat": 25.091509, "lon": 55.146671, "p": "v"}, {"n": "Address Downtown", "cat": "stay", "tier": "Luxury", "a": "Downtown / Burj Khalifa", "d": "The address for the fountain show — Burj Khalifa filling your window.", "lat": 25.19404, "lon": 55.278912, "p": "v"}, {"n": "Address Sky View", "cat": "stay", "tier": "Luxury", "a": "Downtown", "d": "Twin towers joined by a sky bridge and a glass-floored infinity pool.", "lat": 25.201713, "lon": 55.27103, "p": "v"}, {"n": "Mandarin Oriental Downtown Dubai", "cat": "stay", "tier": "Luxury", "a": "Downtown / Business Bay", "d": "The group's newer city tower — quiet precision above the canal.", "lat": 25.184549, "lon": 55.26436, "p": "a"}, {"n": "Palace Downtown", "cat": "stay", "tier": "Luxury", "a": "Downtown / Burj Lake", "d": "Arabesque calm on the lake, with the fountains at the doorstep.", "lat": 25.19363, "lon": 55.275767, "p": "v"}, {"n": "Palace Dubai Creek Harbour", "cat": "stay", "tier": "Premium", "a": "Dubai Creek Harbour / Ras Al Khor", "d": "A serene creek-side address away from the strip, looking to the flamingos.", "lat": 25.205434, "lon": 55.34209, "p": "a"}, {"n": "One&Only Royal Mirage - Arabian Court", "cat": "stay", "tier": "Luxury", "a": "Al Sufouh", "d": "The family wing of the Royal Mirage — the same gardens, room for everyone.", "lat": 25.104266, "lon": 55.163265, "p": "a"}, {"n": "Le Royal Méridien Beach Resort & Spa", "cat": "stay", "tier": "Premium", "a": "Dubai Marina / JBR", "d": "An established beach resort with gardens that have had time to grow.", "lat": 25.084287, "lon": 55.140432, "p": "v"}, {"n": "Raffles The Palm — residences", "cat": "stay", "tier": "Luxury", "a": "Palm Jumeirah (west crescent)", "d": "Grand suites and butler service for a family taking a whole floor.", "lat": 25.111919, "lon": 55.109994, "p": "a"}, {"n": "FIVE Palm Jumeirah", "cat": "stay", "tier": "Premium", "a": "Palm Jumeirah (trunk)", "d": "The city's loudest pool party, for members who came to celebrate.", "lat": 25.104107, "lon": 55.148471, "p": "v"}, {"n": "JW Marriott Marquis Hotel Dubai", "cat": "stay", "tier": "Premium", "a": "Business Bay", "d": "Twin towers on the canal — big, capable, and easy on the wallet.", "lat": 25.185686, "lon": 55.258087, "p": "v"}, {"n": "Shangri-La Dubai", "cat": "stay", "tier": "Premium", "a": "Sheikh Zayed Road", "d": "A calm Asian-service tower on the main road, understated by Dubai standards.", "lat": 25.208144, "lon": 55.271979, "p": "v"}, {"n": "FZN by Björn Frantzén", "cat": "eat", "tier": "Destination", "a": "Atlantis The Palm", "d": "The Swedish master's Middle East debut, and one of only two three-stars in the city.", "lat": 25.066616, "lon": 55.209722, "p": "a"}, {"n": "Trèsind Studio", "cat": "eat", "tier": "Destination", "a": "DIFC", "d": "The first Indian restaurant in the world to hold three Michelin stars — a matter of national pride.", "lat": 25.210411, "lon": 55.27915, "p": "a"}, {"n": "STAY by Yannick Alléno", "cat": "eat", "tier": "Destination", "a": "One&Only The Palm", "d": "Grand French dining, dessert library and all, in a garden setting.", "lat": 25.099269, "lon": 55.133443, "p": "a"}, {"n": "Row on 45", "cat": "eat", "tier": "Destination", "a": "Grosvenor House, Dubai Marina", "d": "A high, intimate counter where French technique meets Japanese omakase.", "lat": 25.086397, "lon": 55.14366, "p": "v"}, {"n": "Ossiano", "cat": "eat", "tier": "Destination", "a": "Atlantis The Palm", "d": "Dinner beside the aquarium wall — theatre that happens to be very good.", "lat": 25.131154, "lon": 55.117577, "p": "v"}, {"n": "Moonrise", "cat": "eat", "tier": "Destination", "a": "Le Méridien, Al Garhoud", "d": "A rooftop counter for eight — the hardest, and warmest, seat in town.", "lat": 25.027571, "lon": 55.158971, "p": "v"}, {"n": "Dinner by Heston Blumenthal", "cat": "eat", "tier": "Destination", "a": "Atlantis The Royal", "d": "Heston's history-of-British-food, restaged with a Dubai view.", "lat": 25.138248, "lon": 55.127763, "p": "a"}, {"n": "Jun's", "cat": "eat", "tier": "Fine", "a": "Downtown (DIFC)", "d": "Chef Kelvin Cheung's memory-cooking — Asian-American, personal, packed.", "lat": 25.18122, "lon": 55.262248, "p": "v"}, {"n": "Al Muntaha", "cat": "eat", "tier": "Destination", "a": "Burj Al Arab", "d": "French cooking 200 metres up, inside the sail.", "lat": 25.097773, "lon": 55.178825, "p": "v"}, {"n": "La Dame de Pic Dubai", "cat": "eat", "tier": "Destination", "a": "DIFC", "d": "Anne-Sophie Pic's delicate, aromatic French, translated to Dubai.", "lat": 25.210411, "lon": 55.27915, "p": "a"}, {"n": "Smoked Room", "cat": "eat", "tier": "Destination", "a": "DIFC", "d": "Dani García's fire-and-smoke counter — Spanish, primal, precise.", "lat": 25.188417, "lon": 55.271611, "p": "v"}, {"n": "Tasca by José Avillez", "cat": "eat", "tier": "Fine", "a": "Mandarin Oriental Jumeira", "d": "Portugal's finest, brought seaside — bright, generous, sunlit.", "lat": 25.216972, "lon": 55.250658, "p": "a"}, {"n": "Hakkasan", "cat": "eat", "tier": "Fine", "a": "Atlantis The Palm", "d": "The Cantonese standard-bearer, still holding its star after all these years.", "lat": 25.027571, "lon": 55.158971, "p": "v"}, {"n": "Hoseki", "cat": "eat", "tier": "Destination", "a": "Bvlgari Resort, Jumeira Bay", "d": "A nine-seat omakase in a jewel-box room — the quietest luxury in town.", "lat": 25.027571, "lon": 55.158971, "p": "v"}, {"n": "Avatāra", "cat": "eat", "tier": "Fine", "a": "Voco Hotel, Sheikh Zayed Road", "d": "A vegetarian Indian tasting menu that earned a star on its own terms.", "lat": 25.027571, "lon": 55.158971, "p": "v"}, {"n": "Jamavar", "cat": "eat", "tier": "Fine", "a": "Downtown, near Dubai Opera", "d": "The Leela's grand Indian house, newly starred in Dubai.", "lat": 25.027571, "lon": 55.158971, "p": "v"}, {"n": "Manāo", "cat": "eat", "tier": "Fine", "a": "Dubai", "d": "A newly-starred Thai kitchen doing quiet, exacting regional cooking.", "lat": 25.027571, "lon": 55.158971, "p": "v"}, {"n": "11 Woodfire", "cat": "eat", "tier": "Fine", "a": "Jumeirah / Al Wasl", "d": "Everything touched by fire — a chef's-counter ode to the flame.", "lat": 25.029881, "lon": 55.156894, "p": "v"}, {"n": "Zuma", "cat": "eat", "tier": "Fine", "a": "DIFC", "d": "The izakaya that set the template for the whole city — still full every night.", "lat": 25.027571, "lon": 55.158971, "p": "v"}, {"n": "LPM Restaurant & Bar", "cat": "eat", "tier": "Fine", "a": "DIFC", "d": "Riviera cooking and a room that has never gone out of fashion.", "lat": 25.210411, "lon": 55.27915, "p": "a"}, {"n": "Gaia", "cat": "eat", "tier": "Fine", "a": "DIFC", "d": "Greek cooking with a designer's eye — as much scene as supper.", "lat": 25.027571, "lon": 55.158971, "p": "v"}, {"n": "Boca", "cat": "eat", "tier": "Fine", "a": "DIFC", "d": "Sustainable Spanish cooking that quietly outclasses the district's louder rooms.", "lat": 25.027571, "lon": 55.158971, "p": "v"}, {"n": "Mimi Kakushi", "cat": "eat", "tier": "Fine", "a": "Four Seasons Jumeirah / J1 Beach", "d": "1920s-Osaka glamour and Japanese cooking with real intent.", "lat": 25.202661, "lon": 55.240733, "p": "v"}, {"n": "Bait Maryam", "cat": "eat", "tier": "Smart", "a": "Jumeirah Lakes Towers", "d": "A Levantine home kitchen, run like family — because it is.", "lat": 25.070601, "lon": 55.141353, "p": "v"}, {"n": "Lowe", "cat": "eat", "tier": "Smart", "a": "Koa Canvas, Meydan", "d": "Zero-waste, market-led cooking with a conscience and a sense of humour.", "lat": 25.092741, "lon": 55.302642, "p": "v"}, {"n": "3Fils", "cat": "eat", "tier": "Smart", "a": "Jumeirah Fishing Harbour", "d": "A tiny harbour-side counter that outranks half the city's grand rooms.", "lat": 25.027571, "lon": 55.158971, "p": "v"}, {"n": "Kinoya", "cat": "eat", "tier": "Smart", "a": "Sheikh Zayed Road", "d": "Soulful Japanese comfort food — ramen and izakaya done properly.", "lat": 25.027571, "lon": 55.158971, "p": "v"}, {"n": "21 Grams", "cat": "eat", "tier": "Smart", "a": "Al Wasl", "d": "Balkan home cooking with heart — the antidote to Dubai gloss.", "lat": 25.194903, "lon": 55.275923, "p": "v"}, {"n": "Indya by Vineet", "cat": "eat", "tier": "Smart", "a": "Le Royal Méridien, Dubai Marina", "d": "Vineet Bhatia's contemporary Indian, at a price that flatters the cooking.", "lat": 25.083686, "lon": 55.140114, "p": "a"}, {"n": "Berenjak", "cat": "eat", "tier": "Smart", "a": "Dubai Hills / DIFC", "d": "Tehran's back-street kebab houses, recreated with real fire and flatbread.", "lat": 25.027571, "lon": 55.158971, "p": "v"}, {"n": "Shabestan", "cat": "eat", "tier": "Smart", "a": "Radisson Blu, Deira Creek", "d": "Old-Dubai Persian dining on the creek, saffron and all.", "lat": 25.027571, "lon": 55.158971, "p": "v"}, {"n": "Teible", "cat": "eat", "tier": "Smart", "a": "Jaddaf Waterfront", "d": "Farm-to-table restraint in a design-museum setting.", "lat": 25.027571, "lon": 55.158971, "p": "v"}, {"n": "Konjiki Hototogisu", "cat": "eat", "tier": "Casual", "a": "Sheikh Zayed Road", "d": "A Tokyo ramen name that earned its Bib on the bowl alone.", "lat": 25.189176, "lon": 55.256267, "p": "a"}, {"n": "Hoe Lee Kow", "cat": "eat", "tier": "Casual", "a": "Jumeirah / Al Wasl", "d": "Unfussy Asian comfort food with a devoted local following.", "lat": 25.208655, "lon": 55.255074, "p": "a"}, {"n": "Al Khayma Heritage Restaurant", "cat": "eat", "tier": "Casual", "a": "Al Fahidi Historical District", "d": "Emirati home cooking in a wind-tower courtyard house — the real old Dubai.", "lat": 25.263757, "lon": 55.300674, "p": "v"}, {"n": "Goldfish", "cat": "eat", "tier": "Casual", "a": "Dubai", "d": "Sushi and seafood done cleanly and without fuss — a neighbourhood gem.", "lat": 25.027571, "lon": 55.158971, "p": "v"}, {"n": "Aamara", "cat": "eat", "tier": "Smart", "a": "Dubai", "d": "Indian cooking with a light, modern hand — Bib-listed and easy to love.", "lat": 25.027571, "lon": 55.158971, "p": "v"}, {"n": "Revelry", "cat": "eat", "tier": "Smart", "a": "Dubai", "d": "A gastro-room that punches above its price — Bib-approved.", "lat": 25.027571, "lon": 55.158971, "p": "v"}, {"n": "Hawkerboi", "cat": "eat", "tier": "Smart", "a": "Dubai", "d": "Southeast-Asian hawker flavours with real fire and swagger.", "lat": 25.075102, "lon": 55.146678, "p": "v"}, {"n": "Khadak", "cat": "eat", "tier": "Casual", "a": "Dubai", "d": "Indian street-food energy, credentialed by the Michelin inspectors.", "lat": 25.027571, "lon": 55.158971, "p": "v"}, {"n": "Sufret Maryam", "cat": "eat", "tier": "Smart", "a": "Jumeirah", "d": "Bait Maryam's sister — the same Levantine warmth, a lighter setting.", "lat": 25.183552, "lon": 55.22619, "p": "a"}, {"n": "Harummanis", "cat": "eat", "tier": "Casual", "a": "Dubai", "d": "Malaysian home cooking, gently spiced, quietly excellent.", "lat": 25.027571, "lon": 55.158971, "p": "v"}, {"n": "DUO Gastrobar", "cat": "eat", "tier": "Smart", "a": "Dubai Hills / Creek Harbour", "d": "A neighbourhood gastrobar that keeps earning its Bib across outlets.", "lat": 25.027571, "lon": 55.158971, "p": "v"}, {"n": "Bombay Brasserie", "cat": "eat", "tier": "Fine", "a": "Taj Dubai, Business Bay", "d": "Grand Indian dining under the Taj's own roof — nostalgic and assured.", "lat": 25.192273, "lon": 55.267339, "p": "a"}, {"n": "Bombay Bungalow", "cat": "eat", "tier": "Smart", "a": "La Mer, Jumeirah", "d": "Beach-side Indian street food and curries — bright, fresh, unpretentious.", "lat": 25.227093, "lon": 55.256325, "p": "a"}, {"n": "Burj Khalifa — At the Top", "cat": "do", "tier": "", "a": "Downtown Dubai", "d": "The world's tallest building at 828m. Ride to the Level 124/125 deck, or book the quieter, pricier At the Top SKY (148) or a private table at The Lounge on 152-154 for canapés and champagne well above the crowds. Time it for late afternoon so you catch the city in daylight and then lit up at dusk.", "lat": 25.193933, "lon": 55.27915, "p": "v"}, {"n": "The Dubai Fountain", "cat": "do", "tier": "", "a": "Downtown Dubai", "d": "The choreographed fountain on Burj Lake shoots water up to 150m to Arabic and world music, on the half-hour every evening. Free to watch from the Waterfront promenade; for a calmer view, book a lakeside table at a Souk Al Bahar restaurant or a short abra ride across the lake.", "lat": 25.041434, "lon": 55.136849, "p": "v"}, {"n": "The Dubai Mall", "cat": "do", "tier": "", "a": "Downtown Dubai", "d": "One of the world's largest and most-visited malls, and the anchor of Downtown. Beyond 1,200 stores it holds the aquarium, an Olympic-size ice rink, and the fashion-avenue luxury wing. A practical base for a multi-generation family: air-conditioned, endless dining including plentiful Indian and vegetarian options, and direct access to the Burj and fountain.", "lat": 25.197044, "lon": 55.278952, "p": "v"}, {"n": "Museum of the Future", "cat": "do", "tier": "", "a": "Sheikh Zayed Road / Trade Centre", "d": "The torus-shaped building wrapped in Arabic calligraphy is a landmark in its own right, and inside it is Dubai's most imaginative attraction — immersive, theatrical exhibits on space, ecology and wellbeing. Book a timed slot well ahead; it sells out. Genuinely engaging for teenagers and curious adults.", "lat": 25.219154, "lon": 55.281875, "p": "v"}, {"n": "Old Dubai by abra across the Creek", "cat": "do", "tier": "", "a": "Old Dubai / Deira & Bur Dubai", "d": "Cross Dubai Creek on a wooden abra for a single dirham — the oldest, most atmospheric way to move through the city. It links the Deira souks with Bur Dubai's heritage quarter, and shows you the trading port the whole city grew from. Do it early morning or golden hour.", "lat": 25.270059, "lon": 55.298092, "p": "a"}, {"n": "Gold Souk", "cat": "do", "tier": "", "a": "Old Dubai / Deira", "d": "Hundreds of shops in covered lanes with windows stacked in gold — one of the largest gold markets in the world, and a rite of passage for Indian visitors who know their carat and their making-charges. Prices track the daily rate, so bargain hard on the workmanship. Best in the cooler evening.", "lat": 25.270059, "lon": 55.298092, "p": "v"}, {"n": "Spice Souk", "cat": "do", "tier": "", "a": "Old Dubai / Deira", "d": "A short walk from the Gold Souk, narrow alleys heaped with saffron, dried limes, frankincense, cardamom and chillies. More about the smell and colour than serious shopping, though the saffron and oud are worth buying. Pairs naturally with the abra and the gold market for a half-day in old Deira.", "lat": 25.264564, "lon": 55.294293, "p": "v"}, {"n": "Al Fahidi Historical Neighbourhood", "cat": "do", "tier": "", "a": "Bur Dubai", "d": "Dubai's best-preserved old quarter — coral-and-gypsum houses, wind-tower coolers and quiet sikkas (lanes) from the late 1800s. Wander the galleries, the Coffee Museum, and courtyard cafés, then join the cultural centre's guided walk. A rare slow, shaded corner of the city.", "lat": 25.26423, "lon": 55.30017, "p": "v"}, {"n": "Al Shindagha Museum", "cat": "do", "tier": "", "a": "Bur Dubai (Dubai Creek)", "d": "The UAE's largest heritage museum — a stretch of restored waterfront houses telling the story of the Creek, pearling, perfume and the ruling family, with modern interactive displays. More substantial and better curated than the old Dubai Museum, and an easy, cool, family-friendly cultural afternoon.", "lat": 25.266474, "lon": 55.288964, "p": "v"}, {"n": "Atlantis Aquaventure & The Lost Chambers", "cat": "do", "tier": "", "a": "Palm Jumeirah", "d": "One of the world's largest waterparks, with record-height slides, a shark-and-ray lagoon and a private beach, plus the adjoining Lost Chambers aquarium of 65,000 marine animals. The standout family day on the Palm; stay at Atlantis The Palm or Atlantis The Royal for direct access and skip-the-queue ease.", "lat": 25.10019, "lon": 55.118535, "p": "a"}, {"n": "The View at The Palm", "cat": "do", "tier": "", "a": "Palm Jumeirah", "d": "An observation deck 240m up in the Palm Tower, giving the one photo everyone wants — the whole palm-shaped island laid out below with the sea and skyline beyond. Quieter and cheaper than the Burj Khalifa deck, and the best place to actually grasp the scale of the Palm. Book a sunset slot.", "lat": 25.11397, "lon": 55.139833, "p": "v"}, {"n": "Burj Al Arab afternoon tea or dinner", "cat": "do", "tier": "", "a": "Umm Suqeim / Jumeirah", "d": "The sail-shaped hotel is off-limits unless you have a reservation, so book afternoon tea in the atrium's Sahn Eddar or a table at the Skyview Bar to actually get inside the icon. The gold-leaf interiors are deliberately over the top; go for the experience and the view, not restraint.", "lat": 25.141327, "lon": 55.185397, "p": "a"}, {"n": "Platinum Heritage luxury desert safari", "cat": "do", "tier": "", "a": "Dubai Desert Conservation Reserve", "d": "The discerning way to do the desert — vintage 1950s Land Rovers in a protected reserve, falconry, camel treks and a private Bedouin-camp dinner, run by one of the few licensed conservation operators. Choose a private vehicle to skip the dune-bashing party crowds; excellent for families and multi-gen groups.", "lat": 24.862123, "lon": 55.646453, "p": "a"}, {"n": "Jumeirah Mosque", "cat": "do", "tier": "", "a": "Jumeirah", "d": "One of the few Dubai mosques open to non-Muslims, via the Sheikh Mohammed Centre's 'Open Doors, Open Minds' guided tours where you can ask anything over Emirati coffee and dates. The most approachable window into local faith and custom, and beautifully lit at night from the outside.", "lat": 25.233951, "lon": 55.265533, "p": "v"}, {"n": "Alserkal Avenue", "cat": "do", "tier": "", "a": "Al Quoz", "d": "A warehouse district turned contemporary-art hub — Dubai's serious galleries, artist studios, indie cinema, specialty coffee and concept stores, all in raw industrial units. Where the city's real creative scene lives, far from the malls. Check what's showing before you go; openings are the moment.", "lat": 25.142004, "lon": 55.226279, "p": "v"}, {"n": "Jameel Arts Centre", "cat": "do", "tier": "", "a": "Jaddaf Waterfront", "d": "A calm, well-funded contemporary-art museum on the Creek with rotating exhibitions, an art library, sculpture gardens and a rooftop. Free entry, rarely crowded, and a thoughtful counterpoint to Dubai's louder attractions. A good rainy-heat-of-day cultural stop.", "lat": 25.228991, "lon": 55.340505, "p": "v"}, {"n": "Etihad Museum", "cat": "do", "tier": "", "a": "Jumeirah", "d": "Built on the spot where the UAE was founded in 1971, an elegant modern museum telling the story of unification through the original documents, films and the founding fathers. Compact, well-designed and the clearest explanation of how this country came to be.", "lat": 25.241433, "lon": 55.269331, "p": "v"}, {"n": "Ras Al Khor Wildlife Sanctuary", "cat": "do", "tier": "", "a": "Ras Al Khor", "d": "A protected wetland minutes from Downtown where thousands of pink flamingos wade against a backdrop of skyscrapers. Free hides with binoculars look out over the lagoon; best in the cool winter months when migratory birds arrive. A surprising, peaceful hour for families and photographers.", "lat": 25.191798, "lon": 55.322082, "p": "v"}, {"n": "Dubai Frame", "cat": "do", "tier": "", "a": "Zabeel Park", "d": "A 150m golden picture-frame you ride to the top of, with a glass-floor skywalk and Old Dubai on one side, New Dubai on the other — the city's past-and-future divide made literal. Quick, cheap and photogenic; set inside Zabeel Park for a walk afterward.", "lat": 25.235456, "lon": 55.300367, "p": "v"}, {"n": "Dubai Miracle Garden", "cat": "do", "tier": "", "a": "Dubailand", "d": "The world's largest natural flower garden — over 150 million blooms shaped into arches, hearts and a flower-covered Emirates A380. Open only in the cool season (roughly November to May) and heaving with families; go on a weekday morning. Pure spectacle, and a hit with children.", "lat": 25.059724, "lon": 55.244598, "p": "v"}, {"n": "Global Village", "cat": "do", "tier": "", "a": "Dubailand", "d": "A seasonal cultural theme park where 90-plus countries set up pavilions of crafts, street food and shows — a lively bazaar-meets-carnival. Open winter only. Chaotic and fun for families and groups; a low-cost, high-energy evening with a strong South-Asian food presence.", "lat": 25.068753, "lon": 55.306833, "p": "v"}, {"n": "Ski Dubai", "cat": "do", "tier": "", "a": "Al Barsha (Mall of the Emirates)", "d": "A full indoor snow resort inside a mall — real snow, ski and toboggan runs, and a colony of king and gentoo penguins you can meet. Absurd, and exactly why it delights children in the desert heat. Book the penguin encounter separately if that's the draw.", "lat": 25.117393, "lon": 55.198145, "p": "v"}, {"n": "The Green Planet", "cat": "do", "tier": "", "a": "City Walk / Al Wasl", "d": "An indoor tropical rainforest under a glass biodome — one of the region's largest indoor trees, sloths, snakes and free-flying birds across four humid levels. Compact, cool and hands-on; an easy 90 minutes that younger children love.", "lat": 25.206063, "lon": 55.260399, "p": "v"}, {"n": "Al Seef", "cat": "do", "tier": "", "a": "Bur Dubai (Dubai Creek)", "d": "A 1.8km stretch of Creek-front rebuilt in old-Dubai style — wind towers, sandstone lanes, floating market, cafés and abra stations — that flows straight into the historic quarter. A pleasant, walkable evening by the water with dhows drifting past. Family-friendly and easy.", "lat": 25.264465, "lon": 55.30062, "p": "v"}, {"n": "Kite Beach", "cat": "do", "tier": "", "a": "Umm Suqeim", "d": "The best free public beach for activity — kitesurfing, paddleboarding, a running track and casual beach cafés, all with a clean sweep of Burj Al Arab views. More energetic and local than the resort strips; good for an active family morning before the heat.", "lat": 25.163004, "lon": 55.206719, "p": "v"}, {"n": "J1 Beach", "cat": "do", "tier": "", "a": "Jumeirah 1", "d": "The Riviera-style beach-club strip that replaced La Mer — 13 upscale dining and beach-club concepts arriving from St-Tropez, Cannes and Tulum along a 500m shoreline. Book a daybed at one of the clubs for a polished, licensed beach day. The current centre of gravity for Dubai's beach scene.", "lat": 25.070929, "lon": 55.143717, "p": "a"}, {"n": "Dubai Marina & JBR walk", "cat": "do", "tier": "", "a": "Dubai Marina", "d": "Stroll the Marina promenade past superyachts and glass towers, then the buzzing beachfront of The Walk at JBR — full of cafés, street performers and people-watching. The most Miami-like part of the city; lovely in the evening. Add a short yacht or dhow cruise from the Marina to see it from the water.", "lat": 25.078647, "lon": 55.134475, "p": "v"}, {"n": "Sunset yacht or dhow cruise from the Marina", "cat": "do", "tier": "", "a": "Dubai Marina / Dubai Harbour", "d": "Charter a private yacht (or join a smaller shared cruise) out past the Marina towers, Bluewaters, JBR and the Palm crescent as the skyline lights up. The private charter is the discreet, family-friendly choice — your own deck, catering and swim stop, away from the party boats.", "lat": 25.205434, "lon": 55.34209, "p": "a"}, {"n": "Bluewaters Island & Ain Dubai", "cat": "do", "tier": "", "a": "Bluewaters Island", "d": "A polished dining-and-leisure island connected to JBR, dominated by Ain Dubai, the world's tallest observation wheel at 250m — a striking skyline landmark even when ride operations are paused, so check its status before counting on a spin. Come for the waterfront restaurants and the view of it either way.", "lat": 25.079906, "lon": 55.121916, "p": "a"}, {"n": "Coffee Museum", "cat": "do", "tier": "", "a": "Al Fahidi (Bur Dubai)", "d": "A small, characterful museum in a heritage house tracing coffee across cultures, with antique roasters and a majlis serving traditional Emirati gahwa. A charming, quiet stop while wandering Al Fahidi — the kind of hidden gem that rewards the curious.", "lat": 25.263708, "lon": 55.300098, "p": "v"}, {"n": "XVA Gallery", "cat": "do", "tier": "", "a": "Al Fahidi (Bur Dubai)", "d": "A leading contemporary gallery of Arab and Iranian art tucked into a courtyard heritage house, with a shaded vegetarian café and a tiny boutique hotel. An unhurried, cultured pause in the old town — art, mint lemonade and wind-tower shade.", "lat": 25.26352, "lon": 55.297365, "p": "a"}, {"n": "Textile Souk", "cat": "do", "tier": "", "a": "Bur Dubai (Dubai Creek)", "d": "The covered fabric market on the Bur Dubai side of the Creek — bolts of silk, pashmina and embroidered cloth, and the landing point for the abra from Deira. Bring your bargaining; it's a lively, old-world stretch that pairs with Al Fahidi next door.", "lat": 25.264141, "lon": 55.296206, "p": "v"}, {"n": "Al Qudra Lakes & Love Lake", "cat": "do", "tier": "", "a": "Al Qudra (Saih Al Salam desert)", "d": "Man-made desert lakes on the edge of the city — a cycling and picnic spot where you'll spot swans, oryx and migratory birds, plus the two intertwined heart-shaped Love Lakes. Cool, quiet and best at dawn or dusk; bring a car and your own supplies.", "lat": 24.834763, "lon": 55.375976, "p": "v"}, {"n": "Deep Dive Dubai", "cat": "do", "tier": "", "a": "Nad Al Sheba", "d": "The world's deepest swimming pool at 60m, built as a sunken city you dive or freedive through, with an underwater restaurant window. A genuinely unusual, bookable experience for divers and confident swimmers; sessions are limited, so reserve ahead.", "lat": 25.127727, "lon": 55.294904, "p": "v"}, {"n": "Dubai Opera", "cat": "do", "tier": "", "a": "Downtown Dubai", "d": "A dhow-shaped venue at the foot of the Burj Khalifa staging opera, ballet, orchestras, musicals and big-name concerts. The most refined night out in the city, and a rare chance to dress up; check the season's programme and book a box for the fountain-side arrival.", "lat": 25.195656, "lon": 55.271952, "p": "v"}, {"n": "La Perle by Dragone", "cat": "do", "tier": "", "a": "Al Habtoor City (Business Bay)", "d": "Dubai's resident aqua-theatre spectacular — acrobatics, high dives and stunts in a purpose-built theatre with a stage that floods with water. Slick, wordless and family-friendly; the closest thing to a Cirque-style show in the city. Book weekend seats early.", "lat": 25.184303, "lon": 55.255313, "p": "a"}, {"n": "City Walk & Coca-Cola Arena", "cat": "do", "tier": "", "a": "Al Wasl", "d": "A low-rise, European-style dining-and-shopping district that's pleasant to stroll on cooler evenings, anchored by the region's largest indoor arena for concerts and comedy. A relaxed alternative to the mega-malls, with wide pavements and good restaurants for families.", "lat": 25.203646, "lon": 55.265806, "p": "v"}, {"n": "Dubai Aquarium & Underwater Zoo", "cat": "do", "tier": "", "a": "Downtown Dubai (The Dubai Mall)", "d": "One of the world's largest suspended aquarium tanks, viewable free from the mall or up close via the walk-through tunnel, glass-bottom boat and cage-snorkelling. An easy, reliable crowd-pleaser for children when you need an air-conditioned hour inside The Dubai Mall.", "lat": 25.197715, "lon": 55.278846, "p": "v"}, {"n": "Skydive Dubai — Palm drop zone", "cat": "do", "tier": "", "a": "Palm Jumeirah / Dubai Marina", "d": "A tandem jump over the Palm, freefalling with the whole island and coastline unfurling beneath you — arguably the most spectacular urban skydive on earth. No experience needed; book weeks ahead as slots go fast. The bucket-list thrill for adventurous visitors.", "lat": 25.115217, "lon": 55.140585, "p": "a"}, {"n": "Mall of the Emirates & indoor entertainment", "cat": "do", "tier": "", "a": "Al Barsha", "d": "Beyond Ski Dubai, this is a genuinely upscale mall with a strong luxury wing, a cinema and VOX gold-class screens, and Magic Planet for kids. A cool-weather-independent day when the heat is punishing, with plentiful vegetarian and Indian dining nearby.", "lat": 25.097685, "lon": 55.179849, "p": "a"}, {"n": "Palm Jumeirah Boardwalk & The Pointe", "cat": "do", "tier": "", "a": "Palm Jumeirah", "d": "An 11km promenade along the Palm's crescent for a sea-air walk with Atlantis and the skyline in view, ending at waterfront dining. A calmer, free way to experience the Palm on foot — best at sunset when the light is soft and the heat lifts.", "lat": 25.126863, "lon": 55.121752, "p": "v"}, {"n": "Mimi Kakushi", "cat": "party", "tier": "Cocktail bars", "a": "Four Seasons, Jumeirah", "d": "1920s Osaka glamour and serious mixology — the most decorated bar in the region, and it shows.", "lat": 25.202661, "lon": 55.240733, "p": "v"}, {"n": "Galaxy Bar", "cat": "party", "tier": "Cocktail bars", "a": "DIFC", "d": "An intimate, constellation-lit room in the financial district — cocktails made with real intent.", "lat": 25.113109, "lon": 55.191339, "p": "v"}, {"n": "La Petite Maison (LPM) — bar", "cat": "party", "tier": "Cocktail bars", "a": "DIFC", "d": "The Riviera room the city never tires of — a pre-dinner drink here is a Dubai ritual.", "lat": 25.210411, "lon": 55.27915, "p": "a"}, {"n": "Skyview Bar, Burj Al Arab", "cat": "party", "tier": "Landmark bars", "a": "Jumeirah Beach", "d": "A drink 200 metres up inside the sail — the view most first visits are chasing.", "lat": 25.141433, "lon": 55.18515, "p": "v"}, {"n": "Gold on 27, Burj Al Arab", "cat": "party", "tier": "Landmark bars", "a": "Jumeirah Beach", "d": "A gilded, theatrical cocktail room high in the sail — indulgence taken entirely seriously.", "lat": 25.185006, "lon": 55.223492, "p": "a"}, {"n": "CÉ LA VI Dubai", "cat": "party", "tier": "Rooftops", "a": "Downtown / Address Sky View", "d": "The Burj Khalifa filling the glass, 54 floors up — the rooftop that best frames Downtown.", "lat": 25.202032, "lon": 55.270836, "p": "v"}, {"n": "Above Eleven", "cat": "party", "tier": "Rooftops", "a": "Palm Jumeirah / Palm West Beach", "d": "A neon-lit rooftop with Peruvian-Japanese plates and skyline views — Bangkok's cult name, restaged.", "lat": 25.106759, "lon": 55.143745, "p": "a"}, {"n": "Zuma bar", "cat": "party", "tier": "Late & loud", "a": "DIFC", "d": "The bar that set the template for grown-up Dubai nights — still full, still faultless.", "lat": 25.097685, "lon": 55.179849, "p": "v"}, {"n": "Gaia", "cat": "party", "tier": "Late & loud", "a": "DIFC", "d": "Greek glamour and a dressed-up crowd — as much a scene as a supper, well past midnight.", "lat": 25.027571, "lon": 55.158971, "p": "v"}]}
+{
+  "center": [
+    25.029602,
+    55.154845
+  ],
+  "venues": [
+    {
+      "n": "Bvlgari Resort Dubai",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Jumeira Bay Island",
+      "d": "A private island address that keeps the noise of the city firmly on the mainland.",
+      "lat": 25.215549,
+      "lon": 55.236197,
+      "photos": []
+    },
+    {
+      "n": "Jumeirah Burj Al Arab",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Jumeirah Beach",
+      "d": "The city's own emblem \u2014 a suites-only house where the theatre is the point.",
+      "lat": 25.141327,
+      "lon": 55.185397,
+      "photos": []
+    },
+    {
+      "n": "Atlantis The Royal",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Palm Jumeirah",
+      "d": "The most talked-about opening in years, and it earns the noise.",
+      "lat": 25.138248,
+      "lon": 55.127763,
+      "photos": []
+    },
+    {
+      "n": "One&Only The Palm",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Palm Jumeirah (west crescent)",
+      "d": "A low, Andalusian-quiet retreat that feels a world away from the strip.",
+      "lat": 25.099269,
+      "lon": 55.133443,
+      "photos": []
+    },
+    {
+      "n": "One&Only One Za'abeel",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Za'abeel / Downtown",
+      "d": "A vertical resort slung between two towers, with the world's longest cantilever overhead.",
+      "lat": 25.228157,
+      "lon": 55.290799,
+      "photos": []
+    },
+    {
+      "n": "Four Seasons Resort Dubai at Jumeirah Beach",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Jumeirah",
+      "d": "The surest hands in the city \u2014 service you never have to think about.",
+      "lat": 25.183552,
+      "lon": 55.22619,
+      "photos": []
+    },
+    {
+      "n": "The Ritz-Carlton, Dubai",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "JBR / Dubai Marina",
+      "d": "Spanish-Moorish calm and low-rise gardens on a beach that never feels crowded.",
+      "lat": 25.212961,
+      "lon": 55.279584,
+      "photos": []
+    },
+    {
+      "n": "Mandarin Oriental Jumeira, Dubai",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Jumeirah 1",
+      "d": "A crisp, contemporary seafront house with the group's quiet precision.",
+      "lat": 25.216972,
+      "lon": 55.250658,
+      "photos": []
+    },
+    {
+      "n": "Waldorf Astoria Dubai International Financial Centre",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "DIFC",
+      "d": "New-York glamour dropped into the financial district, steps from the galleries.",
+      "lat": 25.210669,
+      "lon": 55.282111,
+      "photos": []
+    },
+    {
+      "n": "Jumeirah Al Naseem",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Madinat Jumeirah",
+      "d": "The most understated house in the Madinat, opening straight onto the beach.",
+      "lat": 25.136698,
+      "lon": 55.187143,
+      "photos": []
+    },
+    {
+      "n": "Armani Hotel Dubai",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Burj Khalifa / Downtown",
+      "d": "Mr Armani's own hand, inside the Burj Khalifa itself \u2014 greige, hushed, exact.",
+      "lat": 25.197459,
+      "lon": 55.274731,
+      "photos": []
+    },
+    {
+      "n": "The St. Regis Dubai, The Palm",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Palm Jumeirah",
+      "d": "Butler service and high-floor views along the Palm's trunk.",
+      "lat": 25.113862,
+      "lon": 55.140003,
+      "photos": []
+    },
+    {
+      "n": "Address Beach Resort",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "JBR",
+      "d": "A jaw-dropping edge pool 77 floors up, and the beach at its feet.",
+      "lat": 25.07263,
+      "lon": 55.126484,
+      "photos": []
+    },
+    {
+      "n": "Grosvenor House, a Luxury Collection Hotel, Dubai",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Dubai Marina",
+      "d": "Classic marina-side luxury and the address of Row on 45.",
+      "lat": 25.076385,
+      "lon": 55.140622,
+      "photos": []
+    },
+    {
+      "n": "The Lana, Dorchester Collection",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Marasi Bay / Business Bay",
+      "d": "Dorchester's first Middle East house \u2014 restrained, exacting, waterfront.",
+      "lat": 25.188041,
+      "lon": 55.288265,
+      "photos": []
+    },
+    {
+      "n": "One&Only Royal Mirage - The Residence",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Al Sufouh",
+      "d": "An adults-only wing in mature gardens \u2014 the grown-up corner of Dubai.",
+      "lat": 25.095009,
+      "lon": 55.150372,
+      "photos": []
+    },
+    {
+      "n": "Four Seasons Hotel Dubai International Financial Centre",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "DIFC",
+      "d": "A small, polished city house for the member who prefers boardrooms to beaches.",
+      "lat": 25.210411,
+      "lon": 55.27915,
+      "photos": []
+    },
+    {
+      "n": "Jumeirah Al Qasr",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Madinat Jumeirah",
+      "d": "The grand 'palace' of the Madinat, with abras gliding to your door.",
+      "lat": 25.131838,
+      "lon": 55.184483,
+      "photos": []
+    },
+    {
+      "n": "Jumeirah Mina A'Salam",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Madinat Jumeirah",
+      "d": "The 'harbour' of the Madinat \u2014 a warmer, more relaxed entry to the resort.",
+      "lat": 25.135219,
+      "lon": 55.185805,
+      "photos": []
+    },
+    {
+      "n": "Raffles The Palm Dubai",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Palm Jumeirah (west crescent)",
+      "d": "Palatial, gilded and unabashedly grand \u2014 theatre with Raffles service.",
+      "lat": 25.111919,
+      "lon": 55.109994,
+      "photos": []
+    },
+    {
+      "n": "Anantara The Palm Dubai Resort",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Palm Jumeirah (east crescent)",
+      "d": "Over-water villas and a Thai-lagoon calm rare in Dubai.",
+      "lat": 25.129634,
+      "lon": 55.152887,
+      "photos": []
+    },
+    {
+      "n": "Taj Dubai",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Business Bay",
+      "d": "The house that speaks Hindi at the door and pours a proper chai.",
+      "lat": 25.192273,
+      "lon": 55.267339,
+      "photos": []
+    },
+    {
+      "n": "Palazzo Versace Dubai",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Culture Village / Jaddaf",
+      "d": "Full-throated Versace maximalism \u2014 Medusa on the marble and all.",
+      "lat": 25.22744,
+      "lon": 55.341904,
+      "photos": []
+    },
+    {
+      "n": "Atlantis The Palm",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Palm Jumeirah (apex)",
+      "d": "The original Palm landmark \u2014 aquarium, waterpark, and dinner by Heston or Nobu.",
+      "lat": 25.066616,
+      "lon": 55.209722,
+      "photos": []
+    },
+    {
+      "n": "The Ritz-Carlton Dubai International Financial Centre",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "DIFC",
+      "d": "A calm business-district Ritz-Carlton for meetings that end in the spa.",
+      "lat": 25.212961,
+      "lon": 55.279584,
+      "photos": []
+    },
+    {
+      "n": "Waldorf Astoria Dubai Palm Jumeirah",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Palm Jumeirah (east crescent)",
+      "d": "A columned beach-house grandeur on a quieter stretch of the Palm.",
+      "lat": 25.134611,
+      "lon": 55.150405,
+      "photos": []
+    },
+    {
+      "n": "Fairmont The Palm",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Palm Jumeirah (trunk)",
+      "d": "Dependable resort comfort at the base of the Palm, beach included.",
+      "lat": 25.110498,
+      "lon": 55.140849,
+      "photos": []
+    },
+    {
+      "n": "Sofitel Dubai The Palm",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Palm Jumeirah (east crescent)",
+      "d": "A Polynesian-themed resort that leans into the holiday, not the boardroom.",
+      "lat": 25.139006,
+      "lon": 55.142461,
+      "photos": []
+    },
+    {
+      "n": "Conrad Dubai",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Sheikh Zayed Road",
+      "d": "A polished city tower on the main artery \u2014 reliable, central, unshowy.",
+      "lat": 25.2262,
+      "lon": 55.283369,
+      "photos": []
+    },
+    {
+      "n": "Kempinski Hotel Mall of the Emirates",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Al Barsha",
+      "d": "Rooms that open onto the ski slope, and the mall at your door.",
+      "lat": 25.119525,
+      "lon": 55.203105,
+      "photos": []
+    },
+    {
+      "n": "Banyan Tree Dubai",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Bluewaters Island",
+      "d": "A calm spa-led island stay beside the big wheel.",
+      "lat": 25.079906,
+      "lon": 55.121916,
+      "photos": []
+    },
+    {
+      "n": "Al Habtoor Palace, LXR Hotels & Resorts",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Al Habtoor City / Business Bay",
+      "d": "Old-world European grandeur on the canal, a little away from the crowds.",
+      "lat": 25.183596,
+      "lon": 55.254447,
+      "photos": []
+    },
+    {
+      "n": "The St. Regis Downtown Dubai",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Al Habtoor City",
+      "d": "St. Regis butler service at a gentler Downtown price point.",
+      "lat": 25.194759,
+      "lon": 55.270663,
+      "photos": []
+    },
+    {
+      "n": "W Dubai - Mina Seyahi",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Dubai Marina / Mina Seyahi",
+      "d": "A high-energy beach tower for members who want the music turned up.",
+      "lat": 25.091509,
+      "lon": 55.146671,
+      "photos": []
+    },
+    {
+      "n": "Address Downtown",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Downtown / Burj Khalifa",
+      "d": "The address for the fountain show \u2014 Burj Khalifa filling your window.",
+      "lat": 25.19404,
+      "lon": 55.278912,
+      "photos": []
+    },
+    {
+      "n": "Address Sky View",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Downtown",
+      "d": "Twin towers joined by a sky bridge and a glass-floored infinity pool.",
+      "lat": 25.201713,
+      "lon": 55.27103,
+      "photos": []
+    },
+    {
+      "n": "Mandarin Oriental Downtown Dubai",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Downtown / Business Bay",
+      "d": "The group's newer city tower \u2014 quiet precision above the canal.",
+      "lat": 25.184549,
+      "lon": 55.26436,
+      "photos": []
+    },
+    {
+      "n": "Palace Downtown",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Downtown / Burj Lake",
+      "d": "Arabesque calm on the lake, with the fountains at the doorstep.",
+      "lat": 25.19363,
+      "lon": 55.275767,
+      "photos": []
+    },
+    {
+      "n": "Palace Dubai Creek Harbour",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Dubai Creek Harbour / Ras Al Khor",
+      "d": "A serene creek-side address away from the strip, looking to the flamingos.",
+      "lat": 25.205434,
+      "lon": 55.34209,
+      "photos": []
+    },
+    {
+      "n": "One&Only Royal Mirage - Arabian Court",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Al Sufouh",
+      "d": "The family wing of the Royal Mirage \u2014 the same gardens, room for everyone.",
+      "lat": 25.104266,
+      "lon": 55.163265,
+      "photos": []
+    },
+    {
+      "n": "Le Royal M\u00e9ridien Beach Resort & Spa",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Dubai Marina / JBR",
+      "d": "An established beach resort with gardens that have had time to grow.",
+      "lat": 25.084287,
+      "lon": 55.140432,
+      "photos": []
+    },
+    {
+      "n": "Raffles The Palm \u2014 residences",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Palm Jumeirah (west crescent)",
+      "d": "Grand suites and butler service for a family taking a whole floor.",
+      "lat": 25.111919,
+      "lon": 55.109994,
+      "photos": []
+    },
+    {
+      "n": "FIVE Palm Jumeirah",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Palm Jumeirah (trunk)",
+      "d": "The city's loudest pool party, for members who came to celebrate.",
+      "lat": 25.104107,
+      "lon": 55.148471,
+      "photos": []
+    },
+    {
+      "n": "JW Marriott Marquis Hotel Dubai",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Business Bay",
+      "d": "Twin towers on the canal \u2014 big, capable, and easy on the wallet.",
+      "lat": 25.185686,
+      "lon": 55.258087,
+      "photos": []
+    },
+    {
+      "n": "Shangri-La Dubai",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Sheikh Zayed Road",
+      "d": "A calm Asian-service tower on the main road, understated by Dubai standards.",
+      "lat": 25.208144,
+      "lon": 55.271979,
+      "photos": []
+    },
+    {
+      "n": "FZN by Bj\u00f6rn Frantz\u00e9n",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Atlantis The Palm",
+      "d": "The Swedish master's Middle East debut, and one of only two three-stars in the city.",
+      "lat": 25.066616,
+      "lon": 55.209722,
+      "photos": []
+    },
+    {
+      "n": "Tr\u00e8sind Studio",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "DIFC",
+      "d": "The first Indian restaurant in the world to hold three Michelin stars \u2014 a matter of national pride.",
+      "lat": 25.210411,
+      "lon": 55.27915,
+      "photos": []
+    },
+    {
+      "n": "STAY by Yannick All\u00e9no",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "One&Only The Palm",
+      "d": "Grand French dining, dessert library and all, in a garden setting.",
+      "lat": 25.099269,
+      "lon": 55.133443,
+      "photos": []
+    },
+    {
+      "n": "Row on 45",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Grosvenor House, Dubai Marina",
+      "d": "A high, intimate counter where French technique meets Japanese omakase.",
+      "lat": 25.086397,
+      "lon": 55.14366,
+      "photos": []
+    },
+    {
+      "n": "Ossiano",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Atlantis The Palm",
+      "d": "Dinner beside the aquarium wall \u2014 theatre that happens to be very good.",
+      "lat": 25.131154,
+      "lon": 55.117577,
+      "photos": []
+    },
+    {
+      "n": "Moonrise",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Le M\u00e9ridien, Al Garhoud",
+      "d": "A rooftop counter for eight \u2014 the hardest, and warmest, seat in town.",
+      "lat": 25.027571,
+      "lon": 55.158971,
+      "photos": []
+    },
+    {
+      "n": "Dinner by Heston Blumenthal",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Atlantis The Royal",
+      "d": "Heston's history-of-British-food, restaged with a Dubai view.",
+      "lat": 25.138248,
+      "lon": 55.127763,
+      "photos": []
+    },
+    {
+      "n": "Jun's",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Downtown (DIFC)",
+      "d": "Chef Kelvin Cheung's memory-cooking \u2014 Asian-American, personal, packed.",
+      "lat": 25.18122,
+      "lon": 55.262248,
+      "photos": []
+    },
+    {
+      "n": "Al Muntaha",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Burj Al Arab",
+      "d": "French cooking 200 metres up, inside the sail.",
+      "lat": 25.097773,
+      "lon": 55.178825,
+      "photos": []
+    },
+    {
+      "n": "La Dame de Pic Dubai",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "DIFC",
+      "d": "Anne-Sophie Pic's delicate, aromatic French, translated to Dubai.",
+      "lat": 25.210411,
+      "lon": 55.27915,
+      "photos": []
+    },
+    {
+      "n": "Smoked Room",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "DIFC",
+      "d": "Dani Garc\u00eda's fire-and-smoke counter \u2014 Spanish, primal, precise.",
+      "lat": 25.188417,
+      "lon": 55.271611,
+      "photos": []
+    },
+    {
+      "n": "Tasca by Jos\u00e9 Avillez",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Mandarin Oriental Jumeira",
+      "d": "Portugal's finest, brought seaside \u2014 bright, generous, sunlit.",
+      "lat": 25.216972,
+      "lon": 55.250658,
+      "photos": []
+    },
+    {
+      "n": "Hakkasan",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Atlantis The Palm",
+      "d": "The Cantonese standard-bearer, still holding its star after all these years.",
+      "lat": 25.027571,
+      "lon": 55.158971,
+      "photos": []
+    },
+    {
+      "n": "Hoseki",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Bvlgari Resort, Jumeira Bay",
+      "d": "A nine-seat omakase in a jewel-box room \u2014 the quietest luxury in town.",
+      "lat": 25.027571,
+      "lon": 55.158971,
+      "photos": []
+    },
+    {
+      "n": "Avat\u0101ra",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Voco Hotel, Sheikh Zayed Road",
+      "d": "A vegetarian Indian tasting menu that earned a star on its own terms.",
+      "lat": 25.027571,
+      "lon": 55.158971,
+      "photos": []
+    },
+    {
+      "n": "Jamavar",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Downtown, near Dubai Opera",
+      "d": "The Leela's grand Indian house, newly starred in Dubai.",
+      "lat": 25.027571,
+      "lon": 55.158971,
+      "photos": []
+    },
+    {
+      "n": "Man\u0101o",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Dubai",
+      "d": "A newly-starred Thai kitchen doing quiet, exacting regional cooking.",
+      "lat": 25.027571,
+      "lon": 55.158971,
+      "photos": []
+    },
+    {
+      "n": "11 Woodfire",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Jumeirah / Al Wasl",
+      "d": "Everything touched by fire \u2014 a chef's-counter ode to the flame.",
+      "lat": 25.029881,
+      "lon": 55.156894,
+      "photos": []
+    },
+    {
+      "n": "Zuma",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "DIFC",
+      "d": "The izakaya that set the template for the whole city \u2014 still full every night.",
+      "lat": 25.027571,
+      "lon": 55.158971,
+      "photos": []
+    },
+    {
+      "n": "LPM Restaurant & Bar",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "DIFC",
+      "d": "Riviera cooking and a room that has never gone out of fashion.",
+      "lat": 25.210411,
+      "lon": 55.27915,
+      "photos": []
+    },
+    {
+      "n": "Gaia",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "DIFC",
+      "d": "Greek cooking with a designer's eye \u2014 as much scene as supper.",
+      "lat": 25.027571,
+      "lon": 55.158971,
+      "photos": []
+    },
+    {
+      "n": "Boca",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "DIFC",
+      "d": "Sustainable Spanish cooking that quietly outclasses the district's louder rooms.",
+      "lat": 25.027571,
+      "lon": 55.158971,
+      "photos": []
+    },
+    {
+      "n": "Mimi Kakushi",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Four Seasons Jumeirah / J1 Beach",
+      "d": "1920s-Osaka glamour and Japanese cooking with real intent.",
+      "lat": 25.202661,
+      "lon": 55.240733,
+      "photos": []
+    },
+    {
+      "n": "Bait Maryam",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Jumeirah Lakes Towers",
+      "d": "A Levantine home kitchen, run like family \u2014 because it is.",
+      "lat": 25.070601,
+      "lon": 55.141353,
+      "photos": []
+    },
+    {
+      "n": "Lowe",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Koa Canvas, Meydan",
+      "d": "Zero-waste, market-led cooking with a conscience and a sense of humour.",
+      "lat": 25.092741,
+      "lon": 55.302642,
+      "photos": []
+    },
+    {
+      "n": "3Fils",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Jumeirah Fishing Harbour",
+      "d": "A tiny harbour-side counter that outranks half the city's grand rooms.",
+      "lat": 25.027571,
+      "lon": 55.158971,
+      "photos": []
+    },
+    {
+      "n": "Kinoya",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Sheikh Zayed Road",
+      "d": "Soulful Japanese comfort food \u2014 ramen and izakaya done properly.",
+      "lat": 25.027571,
+      "lon": 55.158971,
+      "photos": []
+    },
+    {
+      "n": "21 Grams",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Al Wasl",
+      "d": "Balkan home cooking with heart \u2014 the antidote to Dubai gloss.",
+      "lat": 25.194903,
+      "lon": 55.275923,
+      "photos": []
+    },
+    {
+      "n": "Indya by Vineet",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Le Royal M\u00e9ridien, Dubai Marina",
+      "d": "Vineet Bhatia's contemporary Indian, at a price that flatters the cooking.",
+      "lat": 25.083686,
+      "lon": 55.140114,
+      "photos": []
+    },
+    {
+      "n": "Berenjak",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Dubai Hills / DIFC",
+      "d": "Tehran's back-street kebab houses, recreated with real fire and flatbread.",
+      "lat": 25.027571,
+      "lon": 55.158971,
+      "photos": []
+    },
+    {
+      "n": "Shabestan",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Radisson Blu, Deira Creek",
+      "d": "Old-Dubai Persian dining on the creek, saffron and all.",
+      "lat": 25.027571,
+      "lon": 55.158971,
+      "photos": []
+    },
+    {
+      "n": "Teible",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Jaddaf Waterfront",
+      "d": "Farm-to-table restraint in a design-museum setting.",
+      "lat": 25.027571,
+      "lon": 55.158971,
+      "photos": []
+    },
+    {
+      "n": "Konjiki Hototogisu",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Sheikh Zayed Road",
+      "d": "A Tokyo ramen name that earned its Bib on the bowl alone.",
+      "lat": 25.189176,
+      "lon": 55.256267,
+      "photos": []
+    },
+    {
+      "n": "Hoe Lee Kow",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Jumeirah / Al Wasl",
+      "d": "Unfussy Asian comfort food with a devoted local following.",
+      "lat": 25.208655,
+      "lon": 55.255074,
+      "photos": []
+    },
+    {
+      "n": "Al Khayma Heritage Restaurant",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Al Fahidi Historical District",
+      "d": "Emirati home cooking in a wind-tower courtyard house \u2014 the real old Dubai.",
+      "lat": 25.263757,
+      "lon": 55.300674,
+      "photos": []
+    },
+    {
+      "n": "Goldfish",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Dubai",
+      "d": "Sushi and seafood done cleanly and without fuss \u2014 a neighbourhood gem.",
+      "lat": 25.027571,
+      "lon": 55.158971,
+      "photos": []
+    },
+    {
+      "n": "Aamara",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Dubai",
+      "d": "Indian cooking with a light, modern hand \u2014 Bib-listed and easy to love.",
+      "lat": 25.027571,
+      "lon": 55.158971,
+      "photos": []
+    },
+    {
+      "n": "Revelry",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Dubai",
+      "d": "A gastro-room that punches above its price \u2014 Bib-approved.",
+      "lat": 25.027571,
+      "lon": 55.158971,
+      "photos": []
+    },
+    {
+      "n": "Hawkerboi",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Dubai",
+      "d": "Southeast-Asian hawker flavours with real fire and swagger.",
+      "lat": 25.075102,
+      "lon": 55.146678,
+      "photos": []
+    },
+    {
+      "n": "Khadak",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Dubai",
+      "d": "Indian street-food energy, credentialed by the Michelin inspectors.",
+      "lat": 25.027571,
+      "lon": 55.158971,
+      "photos": []
+    },
+    {
+      "n": "Sufret Maryam",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Jumeirah",
+      "d": "Bait Maryam's sister \u2014 the same Levantine warmth, a lighter setting.",
+      "lat": 25.183552,
+      "lon": 55.22619,
+      "photos": []
+    },
+    {
+      "n": "Harummanis",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Dubai",
+      "d": "Malaysian home cooking, gently spiced, quietly excellent.",
+      "lat": 25.027571,
+      "lon": 55.158971,
+      "photos": []
+    },
+    {
+      "n": "DUO Gastrobar",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Dubai Hills / Creek Harbour",
+      "d": "A neighbourhood gastrobar that keeps earning its Bib across outlets.",
+      "lat": 25.027571,
+      "lon": 55.158971,
+      "photos": []
+    },
+    {
+      "n": "Bombay Brasserie",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Taj Dubai, Business Bay",
+      "d": "Grand Indian dining under the Taj's own roof \u2014 nostalgic and assured.",
+      "lat": 25.192273,
+      "lon": 55.267339,
+      "photos": []
+    },
+    {
+      "n": "Bombay Bungalow",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "La Mer, Jumeirah",
+      "d": "Beach-side Indian street food and curries \u2014 bright, fresh, unpretentious.",
+      "lat": 25.227093,
+      "lon": 55.256325,
+      "photos": []
+    },
+    {
+      "n": "Burj Khalifa \u2014 At the Top",
+      "cat": "do",
+      "tier": "",
+      "a": "Downtown Dubai",
+      "d": "The world's tallest building at 828m. Ride to the Level 124/125 deck, or book the quieter, pricier At the Top SKY (148) or a private table at The Lounge on 152-154 for canap\u00e9s and champagne well above the crowds. Time it for late afternoon so you catch the city in daylight and then lit up at dusk.",
+      "lat": 25.193933,
+      "lon": 55.27915,
+      "photos": []
+    },
+    {
+      "n": "The Dubai Fountain",
+      "cat": "do",
+      "tier": "",
+      "a": "Downtown Dubai",
+      "d": "The choreographed fountain on Burj Lake shoots water up to 150m to Arabic and world music, on the half-hour every evening. Free to watch from the Waterfront promenade; for a calmer view, book a lakeside table at a Souk Al Bahar restaurant or a short abra ride across the lake.",
+      "lat": 25.041434,
+      "lon": 55.136849,
+      "photos": []
+    },
+    {
+      "n": "The Dubai Mall",
+      "cat": "do",
+      "tier": "",
+      "a": "Downtown Dubai",
+      "d": "One of the world's largest and most-visited malls, and the anchor of Downtown. Beyond 1,200 stores it holds the aquarium, an Olympic-size ice rink, and the fashion-avenue luxury wing. A practical base for a multi-generation family: air-conditioned, endless dining including plentiful Indian and vegetarian options, and direct access to the Burj and fountain.",
+      "lat": 25.197044,
+      "lon": 55.278952,
+      "photos": []
+    },
+    {
+      "n": "Museum of the Future",
+      "cat": "do",
+      "tier": "",
+      "a": "Sheikh Zayed Road / Trade Centre",
+      "d": "The torus-shaped building wrapped in Arabic calligraphy is a landmark in its own right, and inside it is Dubai's most imaginative attraction \u2014 immersive, theatrical exhibits on space, ecology and wellbeing. Book a timed slot well ahead; it sells out. Genuinely engaging for teenagers and curious adults.",
+      "lat": 25.219154,
+      "lon": 55.281875,
+      "photos": []
+    },
+    {
+      "n": "Old Dubai by abra across the Creek",
+      "cat": "do",
+      "tier": "",
+      "a": "Old Dubai / Deira & Bur Dubai",
+      "d": "Cross Dubai Creek on a wooden abra for a single dirham \u2014 the oldest, most atmospheric way to move through the city. It links the Deira souks with Bur Dubai's heritage quarter, and shows you the trading port the whole city grew from. Do it early morning or golden hour.",
+      "lat": 25.270059,
+      "lon": 55.298092,
+      "photos": []
+    },
+    {
+      "n": "Gold Souk",
+      "cat": "do",
+      "tier": "",
+      "a": "Old Dubai / Deira",
+      "d": "Hundreds of shops in covered lanes with windows stacked in gold \u2014 one of the largest gold markets in the world, and a rite of passage for Indian visitors who know their carat and their making-charges. Prices track the daily rate, so bargain hard on the workmanship. Best in the cooler evening.",
+      "lat": 25.270059,
+      "lon": 55.298092,
+      "photos": []
+    },
+    {
+      "n": "Spice Souk",
+      "cat": "do",
+      "tier": "",
+      "a": "Old Dubai / Deira",
+      "d": "A short walk from the Gold Souk, narrow alleys heaped with saffron, dried limes, frankincense, cardamom and chillies. More about the smell and colour than serious shopping, though the saffron and oud are worth buying. Pairs naturally with the abra and the gold market for a half-day in old Deira.",
+      "lat": 25.264564,
+      "lon": 55.294293,
+      "photos": []
+    },
+    {
+      "n": "Al Fahidi Historical Neighbourhood",
+      "cat": "do",
+      "tier": "",
+      "a": "Bur Dubai",
+      "d": "Dubai's best-preserved old quarter \u2014 coral-and-gypsum houses, wind-tower coolers and quiet sikkas (lanes) from the late 1800s. Wander the galleries, the Coffee Museum, and courtyard caf\u00e9s, then join the cultural centre's guided walk. A rare slow, shaded corner of the city.",
+      "lat": 25.26423,
+      "lon": 55.30017,
+      "photos": []
+    },
+    {
+      "n": "Al Shindagha Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Bur Dubai (Dubai Creek)",
+      "d": "The UAE's largest heritage museum \u2014 a stretch of restored waterfront houses telling the story of the Creek, pearling, perfume and the ruling family, with modern interactive displays. More substantial and better curated than the old Dubai Museum, and an easy, cool, family-friendly cultural afternoon.",
+      "lat": 25.266474,
+      "lon": 55.288964,
+      "photos": []
+    },
+    {
+      "n": "Atlantis Aquaventure & The Lost Chambers",
+      "cat": "do",
+      "tier": "",
+      "a": "Palm Jumeirah",
+      "d": "One of the world's largest waterparks, with record-height slides, a shark-and-ray lagoon and a private beach, plus the adjoining Lost Chambers aquarium of 65,000 marine animals. The standout family day on the Palm; stay at Atlantis The Palm or Atlantis The Royal for direct access and skip-the-queue ease.",
+      "lat": 25.10019,
+      "lon": 55.118535,
+      "photos": []
+    },
+    {
+      "n": "The View at The Palm",
+      "cat": "do",
+      "tier": "",
+      "a": "Palm Jumeirah",
+      "d": "An observation deck 240m up in the Palm Tower, giving the one photo everyone wants \u2014 the whole palm-shaped island laid out below with the sea and skyline beyond. Quieter and cheaper than the Burj Khalifa deck, and the best place to actually grasp the scale of the Palm. Book a sunset slot.",
+      "lat": 25.11397,
+      "lon": 55.139833,
+      "photos": []
+    },
+    {
+      "n": "Burj Al Arab afternoon tea or dinner",
+      "cat": "do",
+      "tier": "",
+      "a": "Umm Suqeim / Jumeirah",
+      "d": "The sail-shaped hotel is off-limits unless you have a reservation, so book afternoon tea in the atrium's Sahn Eddar or a table at the Skyview Bar to actually get inside the icon. The gold-leaf interiors are deliberately over the top; go for the experience and the view, not restraint.",
+      "lat": 25.141327,
+      "lon": 55.185397,
+      "photos": []
+    },
+    {
+      "n": "Platinum Heritage luxury desert safari",
+      "cat": "do",
+      "tier": "",
+      "a": "Dubai Desert Conservation Reserve",
+      "d": "The discerning way to do the desert \u2014 vintage 1950s Land Rovers in a protected reserve, falconry, camel treks and a private Bedouin-camp dinner, run by one of the few licensed conservation operators. Choose a private vehicle to skip the dune-bashing party crowds; excellent for families and multi-gen groups.",
+      "lat": 24.862123,
+      "lon": 55.646453,
+      "photos": []
+    },
+    {
+      "n": "Jumeirah Mosque",
+      "cat": "do",
+      "tier": "",
+      "a": "Jumeirah",
+      "d": "One of the few Dubai mosques open to non-Muslims, via the Sheikh Mohammed Centre's 'Open Doors, Open Minds' guided tours where you can ask anything over Emirati coffee and dates. The most approachable window into local faith and custom, and beautifully lit at night from the outside.",
+      "lat": 25.233951,
+      "lon": 55.265533,
+      "photos": []
+    },
+    {
+      "n": "Alserkal Avenue",
+      "cat": "do",
+      "tier": "",
+      "a": "Al Quoz",
+      "d": "A warehouse district turned contemporary-art hub \u2014 Dubai's serious galleries, artist studios, indie cinema, specialty coffee and concept stores, all in raw industrial units. Where the city's real creative scene lives, far from the malls. Check what's showing before you go; openings are the moment.",
+      "lat": 25.142004,
+      "lon": 55.226279,
+      "photos": []
+    },
+    {
+      "n": "Jameel Arts Centre",
+      "cat": "do",
+      "tier": "",
+      "a": "Jaddaf Waterfront",
+      "d": "A calm, well-funded contemporary-art museum on the Creek with rotating exhibitions, an art library, sculpture gardens and a rooftop. Free entry, rarely crowded, and a thoughtful counterpoint to Dubai's louder attractions. A good rainy-heat-of-day cultural stop.",
+      "lat": 25.228991,
+      "lon": 55.340505,
+      "photos": []
+    },
+    {
+      "n": "Etihad Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Jumeirah",
+      "d": "Built on the spot where the UAE was founded in 1971, an elegant modern museum telling the story of unification through the original documents, films and the founding fathers. Compact, well-designed and the clearest explanation of how this country came to be.",
+      "lat": 25.241433,
+      "lon": 55.269331,
+      "photos": []
+    },
+    {
+      "n": "Ras Al Khor Wildlife Sanctuary",
+      "cat": "do",
+      "tier": "",
+      "a": "Ras Al Khor",
+      "d": "A protected wetland minutes from Downtown where thousands of pink flamingos wade against a backdrop of skyscrapers. Free hides with binoculars look out over the lagoon; best in the cool winter months when migratory birds arrive. A surprising, peaceful hour for families and photographers.",
+      "lat": 25.191798,
+      "lon": 55.322082,
+      "photos": []
+    },
+    {
+      "n": "Dubai Frame",
+      "cat": "do",
+      "tier": "",
+      "a": "Zabeel Park",
+      "d": "A 150m golden picture-frame you ride to the top of, with a glass-floor skywalk and Old Dubai on one side, New Dubai on the other \u2014 the city's past-and-future divide made literal. Quick, cheap and photogenic; set inside Zabeel Park for a walk afterward.",
+      "lat": 25.235456,
+      "lon": 55.300367,
+      "photos": []
+    },
+    {
+      "n": "Dubai Miracle Garden",
+      "cat": "do",
+      "tier": "",
+      "a": "Dubailand",
+      "d": "The world's largest natural flower garden \u2014 over 150 million blooms shaped into arches, hearts and a flower-covered Emirates A380. Open only in the cool season (roughly November to May) and heaving with families; go on a weekday morning. Pure spectacle, and a hit with children.",
+      "lat": 25.059724,
+      "lon": 55.244598,
+      "photos": []
+    },
+    {
+      "n": "Global Village",
+      "cat": "do",
+      "tier": "",
+      "a": "Dubailand",
+      "d": "A seasonal cultural theme park where 90-plus countries set up pavilions of crafts, street food and shows \u2014 a lively bazaar-meets-carnival. Open winter only. Chaotic and fun for families and groups; a low-cost, high-energy evening with a strong South-Asian food presence.",
+      "lat": 25.068753,
+      "lon": 55.306833,
+      "photos": []
+    },
+    {
+      "n": "Ski Dubai",
+      "cat": "do",
+      "tier": "",
+      "a": "Al Barsha (Mall of the Emirates)",
+      "d": "A full indoor snow resort inside a mall \u2014 real snow, ski and toboggan runs, and a colony of king and gentoo penguins you can meet. Absurd, and exactly why it delights children in the desert heat. Book the penguin encounter separately if that's the draw.",
+      "lat": 25.117393,
+      "lon": 55.198145,
+      "photos": []
+    },
+    {
+      "n": "The Green Planet",
+      "cat": "do",
+      "tier": "",
+      "a": "City Walk / Al Wasl",
+      "d": "An indoor tropical rainforest under a glass biodome \u2014 one of the region's largest indoor trees, sloths, snakes and free-flying birds across four humid levels. Compact, cool and hands-on; an easy 90 minutes that younger children love.",
+      "lat": 25.206063,
+      "lon": 55.260399,
+      "photos": []
+    },
+    {
+      "n": "Al Seef",
+      "cat": "do",
+      "tier": "",
+      "a": "Bur Dubai (Dubai Creek)",
+      "d": "A 1.8km stretch of Creek-front rebuilt in old-Dubai style \u2014 wind towers, sandstone lanes, floating market, caf\u00e9s and abra stations \u2014 that flows straight into the historic quarter. A pleasant, walkable evening by the water with dhows drifting past. Family-friendly and easy.",
+      "lat": 25.264465,
+      "lon": 55.30062,
+      "photos": []
+    },
+    {
+      "n": "Kite Beach",
+      "cat": "do",
+      "tier": "",
+      "a": "Umm Suqeim",
+      "d": "The best free public beach for activity \u2014 kitesurfing, paddleboarding, a running track and casual beach caf\u00e9s, all with a clean sweep of Burj Al Arab views. More energetic and local than the resort strips; good for an active family morning before the heat.",
+      "lat": 25.163004,
+      "lon": 55.206719,
+      "photos": []
+    },
+    {
+      "n": "J1 Beach",
+      "cat": "do",
+      "tier": "",
+      "a": "Jumeirah 1",
+      "d": "The Riviera-style beach-club strip that replaced La Mer \u2014 13 upscale dining and beach-club concepts arriving from St-Tropez, Cannes and Tulum along a 500m shoreline. Book a daybed at one of the clubs for a polished, licensed beach day. The current centre of gravity for Dubai's beach scene.",
+      "lat": 25.070929,
+      "lon": 55.143717,
+      "photos": []
+    },
+    {
+      "n": "Dubai Marina & JBR walk",
+      "cat": "do",
+      "tier": "",
+      "a": "Dubai Marina",
+      "d": "Stroll the Marina promenade past superyachts and glass towers, then the buzzing beachfront of The Walk at JBR \u2014 full of caf\u00e9s, street performers and people-watching. The most Miami-like part of the city; lovely in the evening. Add a short yacht or dhow cruise from the Marina to see it from the water.",
+      "lat": 25.078647,
+      "lon": 55.134475,
+      "photos": []
+    },
+    {
+      "n": "Sunset yacht or dhow cruise from the Marina",
+      "cat": "do",
+      "tier": "",
+      "a": "Dubai Marina / Dubai Harbour",
+      "d": "Charter a private yacht (or join a smaller shared cruise) out past the Marina towers, Bluewaters, JBR and the Palm crescent as the skyline lights up. The private charter is the discreet, family-friendly choice \u2014 your own deck, catering and swim stop, away from the party boats.",
+      "lat": 25.205434,
+      "lon": 55.34209,
+      "photos": []
+    },
+    {
+      "n": "Bluewaters Island & Ain Dubai",
+      "cat": "do",
+      "tier": "",
+      "a": "Bluewaters Island",
+      "d": "A polished dining-and-leisure island connected to JBR, dominated by Ain Dubai, the world's tallest observation wheel at 250m \u2014 a striking skyline landmark even when ride operations are paused, so check its status before counting on a spin. Come for the waterfront restaurants and the view of it either way.",
+      "lat": 25.079906,
+      "lon": 55.121916,
+      "photos": []
+    },
+    {
+      "n": "Coffee Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Al Fahidi (Bur Dubai)",
+      "d": "A small, characterful museum in a heritage house tracing coffee across cultures, with antique roasters and a majlis serving traditional Emirati gahwa. A charming, quiet stop while wandering Al Fahidi \u2014 the kind of hidden gem that rewards the curious.",
+      "lat": 25.263708,
+      "lon": 55.300098,
+      "photos": []
+    },
+    {
+      "n": "XVA Gallery",
+      "cat": "do",
+      "tier": "",
+      "a": "Al Fahidi (Bur Dubai)",
+      "d": "A leading contemporary gallery of Arab and Iranian art tucked into a courtyard heritage house, with a shaded vegetarian caf\u00e9 and a tiny boutique hotel. An unhurried, cultured pause in the old town \u2014 art, mint lemonade and wind-tower shade.",
+      "lat": 25.26352,
+      "lon": 55.297365,
+      "photos": []
+    },
+    {
+      "n": "Textile Souk",
+      "cat": "do",
+      "tier": "",
+      "a": "Bur Dubai (Dubai Creek)",
+      "d": "The covered fabric market on the Bur Dubai side of the Creek \u2014 bolts of silk, pashmina and embroidered cloth, and the landing point for the abra from Deira. Bring your bargaining; it's a lively, old-world stretch that pairs with Al Fahidi next door.",
+      "lat": 25.264141,
+      "lon": 55.296206,
+      "photos": []
+    },
+    {
+      "n": "Al Qudra Lakes & Love Lake",
+      "cat": "do",
+      "tier": "",
+      "a": "Al Qudra (Saih Al Salam desert)",
+      "d": "Man-made desert lakes on the edge of the city \u2014 a cycling and picnic spot where you'll spot swans, oryx and migratory birds, plus the two intertwined heart-shaped Love Lakes. Cool, quiet and best at dawn or dusk; bring a car and your own supplies.",
+      "lat": 24.834763,
+      "lon": 55.375976,
+      "photos": []
+    },
+    {
+      "n": "Deep Dive Dubai",
+      "cat": "do",
+      "tier": "",
+      "a": "Nad Al Sheba",
+      "d": "The world's deepest swimming pool at 60m, built as a sunken city you dive or freedive through, with an underwater restaurant window. A genuinely unusual, bookable experience for divers and confident swimmers; sessions are limited, so reserve ahead.",
+      "lat": 25.127727,
+      "lon": 55.294904,
+      "photos": []
+    },
+    {
+      "n": "Dubai Opera",
+      "cat": "do",
+      "tier": "",
+      "a": "Downtown Dubai",
+      "d": "A dhow-shaped venue at the foot of the Burj Khalifa staging opera, ballet, orchestras, musicals and big-name concerts. The most refined night out in the city, and a rare chance to dress up; check the season's programme and book a box for the fountain-side arrival.",
+      "lat": 25.195656,
+      "lon": 55.271952,
+      "photos": []
+    },
+    {
+      "n": "La Perle by Dragone",
+      "cat": "do",
+      "tier": "",
+      "a": "Al Habtoor City (Business Bay)",
+      "d": "Dubai's resident aqua-theatre spectacular \u2014 acrobatics, high dives and stunts in a purpose-built theatre with a stage that floods with water. Slick, wordless and family-friendly; the closest thing to a Cirque-style show in the city. Book weekend seats early.",
+      "lat": 25.184303,
+      "lon": 55.255313,
+      "photos": []
+    },
+    {
+      "n": "City Walk & Coca-Cola Arena",
+      "cat": "do",
+      "tier": "",
+      "a": "Al Wasl",
+      "d": "A low-rise, European-style dining-and-shopping district that's pleasant to stroll on cooler evenings, anchored by the region's largest indoor arena for concerts and comedy. A relaxed alternative to the mega-malls, with wide pavements and good restaurants for families.",
+      "lat": 25.203646,
+      "lon": 55.265806,
+      "photos": []
+    },
+    {
+      "n": "Dubai Aquarium & Underwater Zoo",
+      "cat": "do",
+      "tier": "",
+      "a": "Downtown Dubai (The Dubai Mall)",
+      "d": "One of the world's largest suspended aquarium tanks, viewable free from the mall or up close via the walk-through tunnel, glass-bottom boat and cage-snorkelling. An easy, reliable crowd-pleaser for children when you need an air-conditioned hour inside The Dubai Mall.",
+      "lat": 25.197715,
+      "lon": 55.278846,
+      "photos": []
+    },
+    {
+      "n": "Skydive Dubai \u2014 Palm drop zone",
+      "cat": "do",
+      "tier": "",
+      "a": "Palm Jumeirah / Dubai Marina",
+      "d": "A tandem jump over the Palm, freefalling with the whole island and coastline unfurling beneath you \u2014 arguably the most spectacular urban skydive on earth. No experience needed; book weeks ahead as slots go fast. The bucket-list thrill for adventurous visitors.",
+      "lat": 25.115217,
+      "lon": 55.140585,
+      "photos": []
+    },
+    {
+      "n": "Mall of the Emirates & indoor entertainment",
+      "cat": "do",
+      "tier": "",
+      "a": "Al Barsha",
+      "d": "Beyond Ski Dubai, this is a genuinely upscale mall with a strong luxury wing, a cinema and VOX gold-class screens, and Magic Planet for kids. A cool-weather-independent day when the heat is punishing, with plentiful vegetarian and Indian dining nearby.",
+      "lat": 25.097685,
+      "lon": 55.179849,
+      "photos": []
+    },
+    {
+      "n": "Palm Jumeirah Boardwalk & The Pointe",
+      "cat": "do",
+      "tier": "",
+      "a": "Palm Jumeirah",
+      "d": "An 11km promenade along the Palm's crescent for a sea-air walk with Atlantis and the skyline in view, ending at waterfront dining. A calmer, free way to experience the Palm on foot \u2014 best at sunset when the light is soft and the heat lifts.",
+      "lat": 25.126863,
+      "lon": 55.121752,
+      "photos": []
+    },
+    {
+      "n": "Mimi Kakushi",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Four Seasons, Jumeirah",
+      "d": "1920s Osaka glamour and serious mixology \u2014 the most decorated bar in the region, and it shows.",
+      "lat": 25.202661,
+      "lon": 55.240733,
+      "photos": []
+    },
+    {
+      "n": "Galaxy Bar",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "DIFC",
+      "d": "An intimate, constellation-lit room in the financial district \u2014 cocktails made with real intent.",
+      "lat": 25.113109,
+      "lon": 55.191339,
+      "photos": []
+    },
+    {
+      "n": "La Petite Maison (LPM) \u2014 bar",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "DIFC",
+      "d": "The Riviera room the city never tires of \u2014 a pre-dinner drink here is a Dubai ritual.",
+      "lat": 25.210411,
+      "lon": 55.27915,
+      "photos": []
+    },
+    {
+      "n": "Skyview Bar, Burj Al Arab",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "Jumeirah Beach",
+      "d": "A drink 200 metres up inside the sail \u2014 the view most first visits are chasing.",
+      "lat": 25.141433,
+      "lon": 55.18515,
+      "photos": []
+    },
+    {
+      "n": "Gold on 27, Burj Al Arab",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "Jumeirah Beach",
+      "d": "A gilded, theatrical cocktail room high in the sail \u2014 indulgence taken entirely seriously.",
+      "lat": 25.185006,
+      "lon": 55.223492,
+      "photos": []
+    },
+    {
+      "n": "C\u00c9 LA VI Dubai",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "Downtown / Address Sky View",
+      "d": "The Burj Khalifa filling the glass, 54 floors up \u2014 the rooftop that best frames Downtown.",
+      "lat": 25.202032,
+      "lon": 55.270836,
+      "photos": []
+    },
+    {
+      "n": "Above Eleven",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "Palm Jumeirah / Palm West Beach",
+      "d": "A neon-lit rooftop with Peruvian-Japanese plates and skyline views \u2014 Bangkok's cult name, restaged.",
+      "lat": 25.106759,
+      "lon": 55.143745,
+      "photos": []
+    },
+    {
+      "n": "Zuma bar",
+      "cat": "party",
+      "tier": "Late & loud",
+      "a": "DIFC",
+      "d": "The bar that set the template for grown-up Dubai nights \u2014 still full, still faultless.",
+      "lat": 25.097685,
+      "lon": 55.179849,
+      "photos": []
+    },
+    {
+      "n": "Gaia",
+      "cat": "party",
+      "tier": "Late & loud",
+      "a": "DIFC",
+      "d": "Greek glamour and a dressed-up crowd \u2014 as much a scene as a supper, well past midnight.",
+      "lat": 25.027571,
+      "lon": 55.158971,
+      "photos": []
+    }
+  ]
+}

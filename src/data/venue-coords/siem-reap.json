@@ -1,1 +1,598 @@
-{"center": [13.361756, 103.859032], "venues": [{"n": "Amansara", "cat": "stay", "tier": "Ultra", "a": "Central Siem Reap (Royal District)", "d": "The address of the town — King Norodom Sihanouk's own 1960s guesthouse, reborn as Aman's most intimate resort.", "lat": 13.365385, "lon": 103.861507, "p": "v"}, {"n": "Raffles Grand Hotel d'Angkor", "cat": "stay", "tier": "Grand", "a": "Central Siem Reap (Royal District)", "d": "The grande dame since 1932 — the first luxury hotel in Siem Reap, and still its most storied address.", "lat": 13.364362, "lon": 103.859801, "p": "v"}, {"n": "Park Hyatt Siem Reap", "cat": "stay", "tier": "Luxury", "a": "Central Siem Reap (near Pub Street / Old Market)", "d": "The heritage Hotel de la Paix, reimagined by Bill Bensley — the most central of the true luxury houses.", "lat": 13.358364, "lon": 103.853925, "p": "v"}, {"n": "Shinta Mani Angkor — Bensley Collection Pool Villas", "cat": "stay", "tier": "Luxury", "a": "Central Siem Reap (Royal District)", "d": "Bill Bensley's theatrical black-and-white boutique — serene, artful, and quietly one of the town's most beloved stays.", "lat": 13.356639, "lon": 103.857445, "p": "a"}, {"n": "Zannier Hotels Phum Baitang", "cat": "stay", "tier": "Luxury", "a": "Outskirts of Siem Reap (rice-paddy setting)", "d": "A 'green village' of stilted wooden villas across working rice paddies — the rural retreat, a few minutes from the temples.", "lat": 13.357228, "lon": 103.827838, "p": "v"}, {"n": "Anantara Angkor Resort", "cat": "stay", "tier": "Luxury", "a": "Central Siem Reap (near the Royal Residence)", "d": "An intimate all-suite house — 39 suites, private courtyards, and a butler to each — steps from the town centre.", "lat": 13.376375, "lon": 103.833389, "p": "v"}, {"n": "Cuisine Wat Damnak", "cat": "eat", "tier": "Fine", "a": "Wat Damnak village", "d": "The first Cambodian restaurant ever ranked on Asia's 50 Best — Khmer produce and French technique in a wooden house.", "lat": 13.349645, "lon": 103.860169, "p": "v"}, {"n": "Embassy Restaurant", "cat": "eat", "tier": "Fine", "a": "King's Road Angkor", "d": "Gourmet Khmer from the 'Kimsan Twins' — an all-female kitchen reviving forgotten royal-court recipes.", "lat": 13.354374, "lon": 103.853544, "p": "v"}, {"n": "Malis Siem Reap", "cat": "eat", "tier": "Fine", "a": "Pokambor Avenue (riverside)", "d": "Chef Luu Meng's 'living Cambodian cuisine' — the country's most established fine-Khmer name, on the river.", "lat": 13.356275, "lon": 103.857658, "p": "v"}, {"n": "Pou Restaurant & Bar", "cat": "eat", "tier": "Smart", "a": "Wat Bo Road", "d": "Siem Reap-born chef Mengly Mork's family-inspired Khmer cooking — rustic, personal, and much-loved.", "lat": 13.351421, "lon": 103.863772, "p": "v"}, {"n": "Kroya by Shinta Mani", "cat": "eat", "tier": "Fine", "a": "Central Siem Reap (Shinta Mani Angkor)", "d": "Shinta Mani Angkor's signature dining room — 'time-honoured recipes and the Khmer dishes of tomorrow.'", "lat": 13.360124, "lon": 103.85791, "p": "v"}, {"n": "Marum", "cat": "eat", "tier": "Smart", "a": "Wat Polanka", "d": "A training restaurant with real cooking — inventive Cambodian tapas that give marginalised youth a future.", "lat": 13.364656, "lon": 103.862639, "p": "v"}, {"n": "Angkor Wat at sunrise", "cat": "do", "tier": "", "a": "Angkor Archaeological Park", "d": "The largest religious monument on earth — 162 hectares raised by Suryavarman II around 1150 and dedicated to Vishnu — mirrored in its own moat as the sun climbs behind the five lotus towers. For an Indian family the shock of recognition is total: the bas-relief galleries run for hundreds of metres of the Churning of the Ocean of Milk and scenes from the Ramayana and Mahabharata. A private guide and a pre-dawn car secure the still-dark walk across the causeway before the crowds arrive.", "lat": 13.412438, "lon": 103.866588, "p": "v"}, {"n": "The bas-relief galleries of Angkor Wat", "cat": "do", "tier": "", "a": "Angkor Archaeological Park", "d": "Beyond the sunrise photograph lies the real marvel: nearly 600 metres of continuous carved wall depicting the Battle of Kurukshetra, the Battle of Lanka, Suryavarman's own army, heaven and 32 hells, and the great Samudra Manthan where gods and demons churn the cosmic ocean. Indian visitors read these panels like a familiar epic; a good guide slows the pace so grandparents and children take them in without the mid-day heat.", "lat": 13.352199, "lon": 103.853086, "p": "a"}, {"n": "The faces of the Bayon at Angkor Thom", "cat": "do", "tier": "", "a": "Angkor Thom", "d": "At the exact centre of Jayavarman VII's walled capital stands the Bayon, its towers carrying more than 200 vast serene faces that watch you from every angle as you climb. The lower galleries carve everyday 12th-century Khmer life — markets, cockfights, childbirth, war with the Cham — a rare human counterpoint to all the gods. Best in the soft light of early morning, with a guide to trace the eye-lines.", "lat": 13.427428, "lon": 103.859446, "p": "a"}, {"n": "Baphuon, the tower of bronze", "cat": "do", "tier": "", "a": "Angkor Thom", "d": "An 11th-century Shiva temple-mountain reached by a long raised causeway inside Angkor Thom, painstakingly rebuilt stone by stone in one of the largest jigsaw restorations ever attempted. Climb the steep upper terrace for a quieter, higher view over the treetops, and look for the vast reclining Buddha fashioned into its western wall by later Buddhist hands.", "lat": 13.427428, "lon": 103.859446, "p": "a"}, {"n": "The Terrace of the Elephants", "cat": "do", "tier": "", "a": "Angkor Thom", "d": "A 350-metre royal viewing platform from which the god-king once watched his armies and festivals pass below, its outer wall a continuous parade of life-size elephants, mahouts and hunting scenes. Stand where Jayavarman VII stood and look out over the Royal Square — an easy, flat, shaded walk that suits every generation.", "lat": 13.445785, "lon": 103.858874, "p": "v"}, {"n": "The Terrace of the Leper King", "cat": "do", "tier": "", "a": "Angkor Thom", "d": "Just north of the elephants, this smaller platform hides its best secret: a narrow trench along the inner face reveals an earlier buried wall, so you walk between two carved surfaces crowded with kings, apsaras and multi-headed nagas at arm's length. A quiet, atmospheric detour most rushed tours skip.", "lat": 13.447685, "lon": 103.858872, "p": "v"}, {"n": "Ta Prohm, the tree temple", "cat": "do", "tier": "", "a": "Angkor Archaeological Park", "d": "The temple the jungle refused to give back — silk-cotton and strangler-fig roots pour over doorways and prise apart the galleries, left deliberately unrestored so you see Angkor as the first explorers found it. Made famous by 'Tomb Raider', it is genuinely spellbinding for children; go at opening or late afternoon with a guide who knows which courtyards clear of crowds.", "lat": 13.434934, "lon": 103.891034, "p": "v"}, {"n": "Banteay Srei, the pink citadel of the women", "cat": "do", "tier": "", "a": "Angkor Archaeological Park", "d": "A miniature 10th-century Shiva temple in rose-pink sandstone, carved so finely the reliefs look cut in ivory — scenes from the Ramayana and Mahabharata, and the demon-king Ravana shaking Mount Kailasa. Some 25 km out among rice fields, it rewards the drive with the single most exquisite carving at Angkor; pair it with Kbal Spean for a full day out of town.", "lat": 13.352199, "lon": 103.853086, "p": "a"}, {"n": "Preah Khan, the sword of the god-king", "cat": "do", "tier": "", "a": "Angkor Archaeological Park", "d": "A sprawling monastic city built by Jayavarman VII for his father, half-swallowed by forest like Ta Prohm but with a fraction of the crowds — long corridors of diminishing doorways, a curious two-storey pillared hall, and roots draped over the outer walls. Genuine calm and grandeur; a favourite of guides who want to give discerning families the temples to themselves.", "lat": 13.352199, "lon": 103.853086, "p": "a"}, {"n": "Neak Pean, the island shrine", "cat": "do", "tier": "", "a": "Angkor Archaeological Park", "d": "A tiny Buddhist temple on a circular island at the centre of a great baray, reached by a boardwalk over water that in the wet season shimmers with lilies and drowned trees. It was conceived as a healing hospital modelled on the mythical Himalayan lake Anavatapta — a serene, contemplative stop rather than a monument to climb.", "lat": 13.352199, "lon": 103.853086, "p": "a"}, {"n": "Ta Som and its embracing tree gate", "cat": "do", "tier": "", "a": "Angkor Archaeological Park", "d": "A small, intimate Bayon-style temple on the outer circuit, best known for its eastern gopura where a strangler fig has grown clean over the face-tower, roots framing the stone visage like fingers. Rarely busy, it offers the tree-temple magic of Ta Prohm in a pocket-sized, unhurried setting.", "lat": 13.352199, "lon": 103.853086, "p": "a"}, {"n": "Pre Rup at sunset", "cat": "do", "tier": "", "a": "Angkor Archaeological Park", "d": "A tall 10th-century laterite temple-mountain, once a royal cremation ground, whose warm brick glows at dusk. Climb the steep tiers for a broad view over forest and rice paddy as the light goes gold — a calmer, more atmospheric sunset than Phnom Bakheng, and easy for a private group to have space at the top.", "lat": 13.434983, "lon": 103.920623, "p": "v"}, {"n": "East Mebon, the temple of the vanished lake", "cat": "do", "tier": "", "a": "Angkor Archaeological Park", "d": "A 10th-century Shiva pyramid that once stood on an island in the middle of a vast reservoir, now marooned in dry land — guarded at each corner by beautifully preserved monolithic stone elephants. Quiet, uncrowded and often paired with nearby Pre Rup for a late-afternoon loop.", "lat": 13.352199, "lon": 103.853086, "p": "a"}, {"n": "Phnom Bakheng at sunset", "cat": "do", "tier": "", "a": "Angkor Archaeological Park", "d": "The oldest temple-mountain of the Angkor plain, set on a hill between Angkor Wat and Angkor Thom, giving a rare elevated view of Angkor Wat's towers rising from the forest as the sun drops. Numbers are now capped at the summit, so a guide who times the climb turns a famous scrum into a composed hour.", "lat": 13.423769, "lon": 103.856152, "p": "v"}, {"n": "Banteay Kdei and the royal bath of Srah Srang", "cat": "do", "tier": "", "a": "Angkor Archaeological Park", "d": "A rambling, low-slung monastery temple full of dancing-apsara pillars and toppled galleries, paired across the road with Srah Srang — the 'Royal Bath', a huge stone-lined reservoir with a small landing terrace that is one of the loveliest, least-crowded sunrise spots in the park. A gentle, contemplative pairing away from the marquee sites.", "lat": 13.352199, "lon": 103.853086, "p": "a"}, {"n": "The Roluos group — Bakong, Preah Ko and Lolei", "cat": "do", "tier": "", "a": "Roluos (12 km east)", "d": "The cradle of Angkor: the late-9th-century temples of Hariharalaya, the Khmer capital before Angkor itself, where the temple-mountain form was first attempted at Bakong. Preah Ko's brick towers still wear their original stucco and fine lintels. For anyone who wants the story in order, this is where the whole thousand-year epic begins — and it sees almost no crowds.", "lat": 13.360721, "lon": 103.85333, "p": "a"}, {"n": "Prasat Kravan and its brick Vishnu reliefs", "cat": "do", "tier": "", "a": "Angkor Archaeological Park", "d": "A small, easily missed 10th-century tower unique for its interior — rare brick bas-reliefs of Vishnu striding across the cosmos in three steps, and of Lakshmi, carved into the inner walls. A quick, quiet stop that rewards Hindu travellers with imagery they will recognise instantly and find nowhere else at Angkor.", "lat": 13.352199, "lon": 103.853086, "p": "a"}, {"n": "Kbal Spean, the river of a thousand lingas", "cat": "do", "tier": "", "a": "Phnom Kulen foothills", "d": "A jungle stream where 11th-century hands carved hundreds of lingas and yonis, plus Vishnu reclining on the serpent Ananta and Brahma rising on a lotus, straight into the riverbed and boulders so the water flowing over them is sanctified before it feeds the Angkor plain. A shaded 45-minute walk uphill leads to a small waterfall — deeply resonant, and best in the wet season when the river runs.", "lat": 13.613081, "lon": 104.106288, "p": "a"}, {"n": "Phnom Kulen — the sacred mountain, waterfall and reclining Buddha", "cat": "do", "tier": "", "a": "Phnom Kulen National Park", "d": "The holy mountain where Jayavarman II declared the Khmer Empire and its devaraja cult in 802, now Cambodia's most revered pilgrimage hill. A two-tier waterfall draws local families to bathe, and atop the summit a colossal 16th-century reclining Buddha is carved from a single sandstone boulder. A full private day-trip with a picnic; the mountain is one-way traffic and best begun early.", "lat": 13.613081, "lon": 104.106288, "p": "a"}, {"n": "The Angkor National Museum", "cat": "do", "tier": "", "a": "Central Siem Reap", "d": "The essential prologue to the temples — eight themed galleries, a hall of a thousand Buddhas, and the finest recovered Khmer sculpture, all clearly explained. An air-conditioned morning here before you set out means grandparents and children arrive at Angkor understanding what they are looking at, not just photographing it.", "lat": 13.366431, "lon": 103.859527, "p": "v"}, {"n": "Artisans Angkor — silk, stone and lacquer", "cat": "do", "tier": "", "a": "Central Siem Reap", "d": "A Cambodian social enterprise that revived Khmer crafts nearly lost under the Khmer Rouge, where you can watch stone and wood carvers, silk weavers and lacquer and silver artisans at work, then buy directly. The silk farm outside town — mulberry to loom — is a lovely, unhurried multi-generation visit and a source of genuine, ethical gifts.", "lat": 13.437226, "lon": 103.745315, "p": "v"}, {"n": "Phare, the Cambodian Circus", "cat": "do", "tier": "", "a": "Central Siem Reap", "d": "Not a circus in the Western sense but a soaring hour of acrobatics, live music, theatre and painting that tells modern Cambodian stories — often the hard ones of the Khmer Rouge years — performed by graduates of a school that began with refugee children and art as therapy. The single most affecting evening in town, and one children and elders love equally.", "lat": 13.353879, "lon": 103.838951, "p": "v"}, {"n": "A dawn blessing by Buddhist monks", "cat": "do", "tier": "", "a": "Angkor Archaeological Park", "d": "At a working temple within the park, a saffron-robed monk chants a Pali blessing, sprinkles lotus-scented water and ties a red cotton thread at your wrist for protection and good fortune — a quiet, sincere ritual that resonates deeply with Indian travellers who know the gesture. Arranged privately, it turns a temple visit into a moment the whole family carries home.", "lat": 13.352199, "lon": 103.853086, "p": "a"}, {"n": "Kampong Phluk stilted village on the Tonle Sap", "cat": "do", "tier": "", "a": "Tonle Sap Lake", "d": "A community of houses raised on twenty-foot stilts at the lake's edge, where in the dry season you walk beneath homes that in the monsoon stand knee-deep in water, then glide by boat into a flooded mangrove forest by paddled canoe. Far more authentic than the tourist-heavy Chong Kneas; a private boat and a responsible operator make an unforgettable half-day.", "lat": 13.365873, "lon": 103.852315, "p": "a"}, {"n": "Kampong Khleang, the great floating town", "cat": "do", "tier": "", "a": "Tonle Sap Lake", "d": "The largest and most authentic of the lake communities, some 50 km out — a working town of six thousand people, towering stilt houses and floating homes that migrate with the water, with barely a souvenir stall in sight. Community-run tours put your visit into local hands; the drive through rice country is half the pleasure.", "lat": 13.365873, "lon": 103.852315, "p": "a"}, {"n": "Sunrise hot-air balloon over the temples", "cat": "do", "tier": "", "a": "Angkor Archaeological Park", "d": "In the dry season, a balloon lifts you above the plain at first light, laying out the moated square of Angkor Wat and the forest-buried temples in a single sweep no ground view can match. A rare aerial perspective on the sheer scale of the ancient city; best booked for a calm, clear December-to-March morning.", "lat": 13.352199, "lon": 103.853086, "p": "a"}, {"n": "Helicopter flight over Angkor Wat", "cat": "do", "tier": "", "a": "Angkor Archaeological Park", "d": "A short private flight that banks over Angkor Wat's five towers, the walled city of Angkor Thom and the shimmering barays, revealing the geometry of the empire from the air. The most effortless way to give elders and children the grand overview, then land and explore at ground level with a guide.", "lat": 13.352199, "lon": 103.853086, "p": "a"}, {"n": "Quad-bike ride through the rice-country back-lanes", "cat": "do", "tier": "", "a": "Siem Reap countryside", "d": "An escorted run on red-dirt tracks past working paddies, sugar-palm groves, water buffalo and village pagodas at sunset, ending as the sky turns pink over the fields. A lively counterpoint to a day of temples that older children and teenagers love; hotels arrange transfers to the base.", "lat": 13.361756, "lon": 103.859032, "p": "a"}, {"n": "A private Khmer cooking class", "cat": "do", "tier": "", "a": "Central Siem Reap", "d": "Start at a local market choosing lemongrass, galangal, kaffir lime and palm sugar, then cook fish amok and a fresh green mango salad in a hands-on kitchen. Classes readily go fully vegetarian and Jain-friendly on request, making this an easy, engaging afternoon for a food-minded Indian family.", "lat": 13.354055, "lon": 103.853991, "p": "v"}, {"n": "The Old Market (Psar Chas) and Pub Street, framed", "cat": "do", "tier": "", "a": "Central Siem Reap", "d": "The lively heart of old Siem Reap — Psar Chas piled with silk, spices, silver and lacquerware by day, the lantern-lit lanes around it buzzing after dark. Best experienced as a curated hour: a guide steers you to the honest craft stalls and a good rooftop, so you catch the colour and skip the tout-heavy scrum.", "lat": 13.356639, "lon": 103.857445, "p": "a"}, {"n": "Sunset cocktails at Raffles Grand Hotel d'Angkor", "cat": "do", "tier": "", "a": "Central Siem Reap", "d": "The 1932 grande dame of Siem Reap, where Jackie Kennedy and Charlie Chaplin once stayed, still pours the sharp, gin-based Airavata amid teak, ceiling fans and a colonnaded garden. An elegant, air-conditioned reset between temple days, and a graceful setting for a multi-generation evening drink.", "lat": 13.356639, "lon": 103.857445, "p": "a"}, {"n": "An almsgiving and merit-making morning at a working pagoda", "cat": "do", "tier": "", "a": "Central Siem Reap", "d": "At dawn, offer rice and receive a chanted blessing from monks on their alms round at a living wat such as Wat Bo or Wat Damnak — a gentle, respectful window into everyday Cambodian Buddhism away from the ruins. Deeply familiar in spirit to Indian travellers, and a calm, meaningful start to a day.", "lat": 13.356639, "lon": 103.857445, "p": "a"}, {"n": "Sunset drinks and dinner cruise on the Tonle Sap", "cat": "do", "tier": "", "a": "Tonle Sap Lake", "d": "As the day cools, a private boat carries you out onto the great lake for the fiery sunset over Southeast Asia's largest freshwater expanse, drinks in hand and the floating world drifting past. A serene, comfortable way for elders to experience the Tonle Sap without a bumpy village walk.", "lat": 13.365873, "lon": 103.852315, "p": "a"}, {"n": "The Landmine Museum and its founder's story", "cat": "do", "tier": "", "a": "Near Banteay Srei", "d": "Founded by a former child soldier turned de-miner, this small, sober museum explains Cambodia's landmine legacy and cares for children affected by it — sobering, honest and important context for the country you are enjoying. A short, worthwhile stop on the way to or from Banteay Srei; older children come away changed.", "lat": 13.599158, "lon": 103.963049, "p": "a"}, {"n": "Apsara dance over a fine Khmer dinner", "cat": "do", "tier": "", "a": "Central Siem Reap", "d": "The slow, precise classical dance of the celestial apsara — the same dancers carved by the thousand across Angkor's walls — performed live as you dine on refined Cambodian cuisine. A cultural evening that connects the stone reliefs to living tradition; better hotels stage intimate versions with proper vegetarian menus.", "lat": 13.356639, "lon": 103.857445, "p": "a"}, {"n": "A guided countryside cycle to the temples at dawn", "cat": "do", "tier": "", "a": "Angkor Archaeological Park", "d": "For the fitter traveller, a private guided ride on quiet forest lanes reaches the outer temples in the cool of early morning, moving between Preah Khan and Ta Som at the pace of birdsong rather than engines. An immersive, low-crowd way to feel the scale of the park, with a support vehicle trailing for anyone who tires.", "lat": 13.352199, "lon": 103.853086, "p": "a"}, {"n": "Preah Neak Pean and the Jayatataka baray by boardwalk at golden hour", "cat": "do", "tier": "", "a": "Angkor Archaeological Park", "d": "Timed for late afternoon, the long boardwalk across the drowned forest to Neak Pean glows amber and the dead trees mirror in still water — one of the most photogenic, meditative walks in the whole park. Flat and easy, it suits every generation and rewards patience with near-solitude once the day-tour buses leave.", "lat": 13.352199, "lon": 103.853086, "p": "a"}, {"n": "The West Baray and Mebon for an afternoon on the water", "cat": "do", "tier": "", "a": "Angkor Archaeological Park", "d": "The largest surviving Khmer reservoir, an 8-km sheet of water where locals swim and picnic, with the ruined island temple of West Mebon at its centre reachable by boat. A relaxed, refreshingly un-touristy way to spend a hot afternoon and glimpse how ordinary Cambodians enjoy Angkor today.", "lat": 13.352199, "lon": 103.853086, "p": "a"}, {"n": "Silk Island silk-weaving and a village lunch", "cat": "do", "tier": "", "a": "Siem Reap countryside", "d": "Beyond the town, a working silk farm and weaving village shows the full journey from mulberry leaf and silkworm to the shimmering golden Khmer silk on the loom, followed by a home-cooked country lunch. A gentle, hands-on morning for those who prefer craft and countryside to more ruins, and a source of beautiful ethical buys.", "lat": 13.361756, "lon": 103.859032, "p": "a"}, {"n": "Wat Preah Prom Rath riverside temple", "cat": "do", "tier": "", "a": "Central Siem Reap", "d": "A serene, richly gilded working pagoda on the riverbank in the heart of town, with a large reclining Buddha, a boat-shaped shrine and monks going about their day — an easy, uncrowded pocket of living faith minutes from the market. A quiet stroll-in between activities that costs nothing and rewards with genuine calm.", "lat": 13.35515, "lon": 103.856531, "p": "v"}, {"n": "Angkor Wat's upper level and Bakan sanctuary", "cat": "do", "tier": "", "a": "Angkor Archaeological Park", "d": "The steep climb to the third level of Angkor Wat reaches the Bakan, the temple's holiest heart, where the towers that fill every postcard surround you at close quarters and the whole plain falls away below. Access is timed and modest dress required; a guide books the slot so the family ascends together into the sanctum.", "lat": 13.352199, "lon": 103.853086, "p": "a"}, {"n": "A blessing-thread and Baksei Chamkrong at first light", "cat": "do", "tier": "", "a": "Angkor Archaeological Park", "d": "A compact, elegant 10th-century brick pyramid just south of Angkor Thom's south gate, almost always empty, whose steep single stair rewards an early climb with a clean view down the approach to Angkor. A perfect quiet inclusion for travellers who want a temple entirely to themselves before the day begins.", "lat": 13.352199, "lon": 103.853086, "p": "a"}, {"n": "Miniature Replicas garden and a stone-carving master", "cat": "do", "tier": "", "a": "Siem Reap countryside", "d": "At the workshop of a celebrated local sculptor sit hand-built miniatures of Angkor's great temples alongside a live carving studio where you can watch — or try — the chisel-work that built the empire. A charming, low-key stop that helps children grasp the scale and craft behind the monuments they have been climbing.", "lat": 13.361756, "lon": 103.859032, "p": "a"}, {"n": "Elephant Bar, Raffles Grand Hotel d'Angkor", "cat": "party", "tier": "Landmark bars", "a": "Central Siem Reap (Royal District)", "d": "Cocktail hour at the grande dame since 1932 — the most storied room in town for a drink.", "lat": 13.364362, "lon": 103.859801, "p": "v"}, {"n": "Miss Wong Cocktail Bar", "cat": "party", "tier": "Cocktail bars", "a": "The Lane (off Pub Street)", "d": "A tiny 1920s-Shanghai drinking den behind a cherry-red lantern — Siem Reap's most characterful cocktail bar.", "lat": 13.354251, "lon": 103.858383, "p": "v"}, {"n": "Kong Kea Bar, Amansara", "cat": "party", "tier": "Cocktail bars", "a": "Central Siem Reap (Amansara)", "d": "A discreet nightcap inside Aman's town villa — the quietest, most private drink in Siem Reap.", "lat": 13.679404, "lon": 104.025743, "p": "v"}, {"n": "Pub Street", "cat": "party", "tier": "Late & loud", "a": "Old Market district (central)", "d": "The neon spine of the town's night — loud, packed and unmissable, the place everyone eventually walks through.", "lat": 13.354422, "lon": 103.85477, "p": "v"}]}
+{
+  "center": [
+    13.361756,
+    103.859032
+  ],
+  "venues": [
+    {
+      "n": "Amansara",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Central Siem Reap (Royal District)",
+      "d": "The address of the town \u2014 King Norodom Sihanouk's own 1960s guesthouse, reborn as Aman's most intimate resort.",
+      "lat": 13.365385,
+      "lon": 103.861507,
+      "photos": []
+    },
+    {
+      "n": "Raffles Grand Hotel d'Angkor",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Central Siem Reap (Royal District)",
+      "d": "The grande dame since 1932 \u2014 the first luxury hotel in Siem Reap, and still its most storied address.",
+      "lat": 13.364362,
+      "lon": 103.859801,
+      "photos": []
+    },
+    {
+      "n": "Park Hyatt Siem Reap",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Central Siem Reap (near Pub Street / Old Market)",
+      "d": "The heritage Hotel de la Paix, reimagined by Bill Bensley \u2014 the most central of the true luxury houses.",
+      "lat": 13.358364,
+      "lon": 103.853925,
+      "photos": []
+    },
+    {
+      "n": "Shinta Mani Angkor \u2014 Bensley Collection Pool Villas",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Central Siem Reap (Royal District)",
+      "d": "Bill Bensley's theatrical black-and-white boutique \u2014 serene, artful, and quietly one of the town's most beloved stays.",
+      "lat": 13.356639,
+      "lon": 103.857445,
+      "photos": []
+    },
+    {
+      "n": "Zannier Hotels Phum Baitang",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Outskirts of Siem Reap (rice-paddy setting)",
+      "d": "A 'green village' of stilted wooden villas across working rice paddies \u2014 the rural retreat, a few minutes from the temples.",
+      "lat": 13.357228,
+      "lon": 103.827838,
+      "photos": []
+    },
+    {
+      "n": "Anantara Angkor Resort",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Central Siem Reap (near the Royal Residence)",
+      "d": "An intimate all-suite house \u2014 39 suites, private courtyards, and a butler to each \u2014 steps from the town centre.",
+      "lat": 13.376375,
+      "lon": 103.833389,
+      "photos": []
+    },
+    {
+      "n": "Cuisine Wat Damnak",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Wat Damnak village",
+      "d": "The first Cambodian restaurant ever ranked on Asia's 50 Best \u2014 Khmer produce and French technique in a wooden house.",
+      "lat": 13.349645,
+      "lon": 103.860169,
+      "photos": []
+    },
+    {
+      "n": "Embassy Restaurant",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "King's Road Angkor",
+      "d": "Gourmet Khmer from the 'Kimsan Twins' \u2014 an all-female kitchen reviving forgotten royal-court recipes.",
+      "lat": 13.354374,
+      "lon": 103.853544,
+      "photos": []
+    },
+    {
+      "n": "Malis Siem Reap",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Pokambor Avenue (riverside)",
+      "d": "Chef Luu Meng's 'living Cambodian cuisine' \u2014 the country's most established fine-Khmer name, on the river.",
+      "lat": 13.356275,
+      "lon": 103.857658,
+      "photos": []
+    },
+    {
+      "n": "Pou Restaurant & Bar",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Wat Bo Road",
+      "d": "Siem Reap-born chef Mengly Mork's family-inspired Khmer cooking \u2014 rustic, personal, and much-loved.",
+      "lat": 13.351421,
+      "lon": 103.863772,
+      "photos": []
+    },
+    {
+      "n": "Kroya by Shinta Mani",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Central Siem Reap (Shinta Mani Angkor)",
+      "d": "Shinta Mani Angkor's signature dining room \u2014 'time-honoured recipes and the Khmer dishes of tomorrow.'",
+      "lat": 13.360124,
+      "lon": 103.85791,
+      "photos": []
+    },
+    {
+      "n": "Marum",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Wat Polanka",
+      "d": "A training restaurant with real cooking \u2014 inventive Cambodian tapas that give marginalised youth a future.",
+      "lat": 13.364656,
+      "lon": 103.862639,
+      "photos": []
+    },
+    {
+      "n": "Angkor Wat at sunrise",
+      "cat": "do",
+      "tier": "",
+      "a": "Angkor Archaeological Park",
+      "d": "The largest religious monument on earth \u2014 162 hectares raised by Suryavarman II around 1150 and dedicated to Vishnu \u2014 mirrored in its own moat as the sun climbs behind the five lotus towers. For an Indian family the shock of recognition is total: the bas-relief galleries run for hundreds of metres of the Churning of the Ocean of Milk and scenes from the Ramayana and Mahabharata. A private guide and a pre-dawn car secure the still-dark walk across the causeway before the crowds arrive.",
+      "lat": 13.412438,
+      "lon": 103.866588,
+      "photos": []
+    },
+    {
+      "n": "The bas-relief galleries of Angkor Wat",
+      "cat": "do",
+      "tier": "",
+      "a": "Angkor Archaeological Park",
+      "d": "Beyond the sunrise photograph lies the real marvel: nearly 600 metres of continuous carved wall depicting the Battle of Kurukshetra, the Battle of Lanka, Suryavarman's own army, heaven and 32 hells, and the great Samudra Manthan where gods and demons churn the cosmic ocean. Indian visitors read these panels like a familiar epic; a good guide slows the pace so grandparents and children take them in without the mid-day heat.",
+      "lat": 13.352199,
+      "lon": 103.853086,
+      "photos": []
+    },
+    {
+      "n": "The faces of the Bayon at Angkor Thom",
+      "cat": "do",
+      "tier": "",
+      "a": "Angkor Thom",
+      "d": "At the exact centre of Jayavarman VII's walled capital stands the Bayon, its towers carrying more than 200 vast serene faces that watch you from every angle as you climb. The lower galleries carve everyday 12th-century Khmer life \u2014 markets, cockfights, childbirth, war with the Cham \u2014 a rare human counterpoint to all the gods. Best in the soft light of early morning, with a guide to trace the eye-lines.",
+      "lat": 13.427428,
+      "lon": 103.859446,
+      "photos": []
+    },
+    {
+      "n": "Baphuon, the tower of bronze",
+      "cat": "do",
+      "tier": "",
+      "a": "Angkor Thom",
+      "d": "An 11th-century Shiva temple-mountain reached by a long raised causeway inside Angkor Thom, painstakingly rebuilt stone by stone in one of the largest jigsaw restorations ever attempted. Climb the steep upper terrace for a quieter, higher view over the treetops, and look for the vast reclining Buddha fashioned into its western wall by later Buddhist hands.",
+      "lat": 13.427428,
+      "lon": 103.859446,
+      "photos": []
+    },
+    {
+      "n": "The Terrace of the Elephants",
+      "cat": "do",
+      "tier": "",
+      "a": "Angkor Thom",
+      "d": "A 350-metre royal viewing platform from which the god-king once watched his armies and festivals pass below, its outer wall a continuous parade of life-size elephants, mahouts and hunting scenes. Stand where Jayavarman VII stood and look out over the Royal Square \u2014 an easy, flat, shaded walk that suits every generation.",
+      "lat": 13.445785,
+      "lon": 103.858874,
+      "photos": []
+    },
+    {
+      "n": "The Terrace of the Leper King",
+      "cat": "do",
+      "tier": "",
+      "a": "Angkor Thom",
+      "d": "Just north of the elephants, this smaller platform hides its best secret: a narrow trench along the inner face reveals an earlier buried wall, so you walk between two carved surfaces crowded with kings, apsaras and multi-headed nagas at arm's length. A quiet, atmospheric detour most rushed tours skip.",
+      "lat": 13.447685,
+      "lon": 103.858872,
+      "photos": []
+    },
+    {
+      "n": "Ta Prohm, the tree temple",
+      "cat": "do",
+      "tier": "",
+      "a": "Angkor Archaeological Park",
+      "d": "The temple the jungle refused to give back \u2014 silk-cotton and strangler-fig roots pour over doorways and prise apart the galleries, left deliberately unrestored so you see Angkor as the first explorers found it. Made famous by 'Tomb Raider', it is genuinely spellbinding for children; go at opening or late afternoon with a guide who knows which courtyards clear of crowds.",
+      "lat": 13.434934,
+      "lon": 103.891034,
+      "photos": []
+    },
+    {
+      "n": "Banteay Srei, the pink citadel of the women",
+      "cat": "do",
+      "tier": "",
+      "a": "Angkor Archaeological Park",
+      "d": "A miniature 10th-century Shiva temple in rose-pink sandstone, carved so finely the reliefs look cut in ivory \u2014 scenes from the Ramayana and Mahabharata, and the demon-king Ravana shaking Mount Kailasa. Some 25 km out among rice fields, it rewards the drive with the single most exquisite carving at Angkor; pair it with Kbal Spean for a full day out of town.",
+      "lat": 13.352199,
+      "lon": 103.853086,
+      "photos": []
+    },
+    {
+      "n": "Preah Khan, the sword of the god-king",
+      "cat": "do",
+      "tier": "",
+      "a": "Angkor Archaeological Park",
+      "d": "A sprawling monastic city built by Jayavarman VII for his father, half-swallowed by forest like Ta Prohm but with a fraction of the crowds \u2014 long corridors of diminishing doorways, a curious two-storey pillared hall, and roots draped over the outer walls. Genuine calm and grandeur; a favourite of guides who want to give discerning families the temples to themselves.",
+      "lat": 13.352199,
+      "lon": 103.853086,
+      "photos": []
+    },
+    {
+      "n": "Neak Pean, the island shrine",
+      "cat": "do",
+      "tier": "",
+      "a": "Angkor Archaeological Park",
+      "d": "A tiny Buddhist temple on a circular island at the centre of a great baray, reached by a boardwalk over water that in the wet season shimmers with lilies and drowned trees. It was conceived as a healing hospital modelled on the mythical Himalayan lake Anavatapta \u2014 a serene, contemplative stop rather than a monument to climb.",
+      "lat": 13.352199,
+      "lon": 103.853086,
+      "photos": []
+    },
+    {
+      "n": "Ta Som and its embracing tree gate",
+      "cat": "do",
+      "tier": "",
+      "a": "Angkor Archaeological Park",
+      "d": "A small, intimate Bayon-style temple on the outer circuit, best known for its eastern gopura where a strangler fig has grown clean over the face-tower, roots framing the stone visage like fingers. Rarely busy, it offers the tree-temple magic of Ta Prohm in a pocket-sized, unhurried setting.",
+      "lat": 13.352199,
+      "lon": 103.853086,
+      "photos": []
+    },
+    {
+      "n": "Pre Rup at sunset",
+      "cat": "do",
+      "tier": "",
+      "a": "Angkor Archaeological Park",
+      "d": "A tall 10th-century laterite temple-mountain, once a royal cremation ground, whose warm brick glows at dusk. Climb the steep tiers for a broad view over forest and rice paddy as the light goes gold \u2014 a calmer, more atmospheric sunset than Phnom Bakheng, and easy for a private group to have space at the top.",
+      "lat": 13.434983,
+      "lon": 103.920623,
+      "photos": []
+    },
+    {
+      "n": "East Mebon, the temple of the vanished lake",
+      "cat": "do",
+      "tier": "",
+      "a": "Angkor Archaeological Park",
+      "d": "A 10th-century Shiva pyramid that once stood on an island in the middle of a vast reservoir, now marooned in dry land \u2014 guarded at each corner by beautifully preserved monolithic stone elephants. Quiet, uncrowded and often paired with nearby Pre Rup for a late-afternoon loop.",
+      "lat": 13.352199,
+      "lon": 103.853086,
+      "photos": []
+    },
+    {
+      "n": "Phnom Bakheng at sunset",
+      "cat": "do",
+      "tier": "",
+      "a": "Angkor Archaeological Park",
+      "d": "The oldest temple-mountain of the Angkor plain, set on a hill between Angkor Wat and Angkor Thom, giving a rare elevated view of Angkor Wat's towers rising from the forest as the sun drops. Numbers are now capped at the summit, so a guide who times the climb turns a famous scrum into a composed hour.",
+      "lat": 13.423769,
+      "lon": 103.856152,
+      "photos": []
+    },
+    {
+      "n": "Banteay Kdei and the royal bath of Srah Srang",
+      "cat": "do",
+      "tier": "",
+      "a": "Angkor Archaeological Park",
+      "d": "A rambling, low-slung monastery temple full of dancing-apsara pillars and toppled galleries, paired across the road with Srah Srang \u2014 the 'Royal Bath', a huge stone-lined reservoir with a small landing terrace that is one of the loveliest, least-crowded sunrise spots in the park. A gentle, contemplative pairing away from the marquee sites.",
+      "lat": 13.352199,
+      "lon": 103.853086,
+      "photos": []
+    },
+    {
+      "n": "The Roluos group \u2014 Bakong, Preah Ko and Lolei",
+      "cat": "do",
+      "tier": "",
+      "a": "Roluos (12 km east)",
+      "d": "The cradle of Angkor: the late-9th-century temples of Hariharalaya, the Khmer capital before Angkor itself, where the temple-mountain form was first attempted at Bakong. Preah Ko's brick towers still wear their original stucco and fine lintels. For anyone who wants the story in order, this is where the whole thousand-year epic begins \u2014 and it sees almost no crowds.",
+      "lat": 13.360721,
+      "lon": 103.85333,
+      "photos": []
+    },
+    {
+      "n": "Prasat Kravan and its brick Vishnu reliefs",
+      "cat": "do",
+      "tier": "",
+      "a": "Angkor Archaeological Park",
+      "d": "A small, easily missed 10th-century tower unique for its interior \u2014 rare brick bas-reliefs of Vishnu striding across the cosmos in three steps, and of Lakshmi, carved into the inner walls. A quick, quiet stop that rewards Hindu travellers with imagery they will recognise instantly and find nowhere else at Angkor.",
+      "lat": 13.352199,
+      "lon": 103.853086,
+      "photos": []
+    },
+    {
+      "n": "Kbal Spean, the river of a thousand lingas",
+      "cat": "do",
+      "tier": "",
+      "a": "Phnom Kulen foothills",
+      "d": "A jungle stream where 11th-century hands carved hundreds of lingas and yonis, plus Vishnu reclining on the serpent Ananta and Brahma rising on a lotus, straight into the riverbed and boulders so the water flowing over them is sanctified before it feeds the Angkor plain. A shaded 45-minute walk uphill leads to a small waterfall \u2014 deeply resonant, and best in the wet season when the river runs.",
+      "lat": 13.613081,
+      "lon": 104.106288,
+      "photos": []
+    },
+    {
+      "n": "Phnom Kulen \u2014 the sacred mountain, waterfall and reclining Buddha",
+      "cat": "do",
+      "tier": "",
+      "a": "Phnom Kulen National Park",
+      "d": "The holy mountain where Jayavarman II declared the Khmer Empire and its devaraja cult in 802, now Cambodia's most revered pilgrimage hill. A two-tier waterfall draws local families to bathe, and atop the summit a colossal 16th-century reclining Buddha is carved from a single sandstone boulder. A full private day-trip with a picnic; the mountain is one-way traffic and best begun early.",
+      "lat": 13.613081,
+      "lon": 104.106288,
+      "photos": []
+    },
+    {
+      "n": "The Angkor National Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Central Siem Reap",
+      "d": "The essential prologue to the temples \u2014 eight themed galleries, a hall of a thousand Buddhas, and the finest recovered Khmer sculpture, all clearly explained. An air-conditioned morning here before you set out means grandparents and children arrive at Angkor understanding what they are looking at, not just photographing it.",
+      "lat": 13.366431,
+      "lon": 103.859527,
+      "photos": []
+    },
+    {
+      "n": "Artisans Angkor \u2014 silk, stone and lacquer",
+      "cat": "do",
+      "tier": "",
+      "a": "Central Siem Reap",
+      "d": "A Cambodian social enterprise that revived Khmer crafts nearly lost under the Khmer Rouge, where you can watch stone and wood carvers, silk weavers and lacquer and silver artisans at work, then buy directly. The silk farm outside town \u2014 mulberry to loom \u2014 is a lovely, unhurried multi-generation visit and a source of genuine, ethical gifts.",
+      "lat": 13.437226,
+      "lon": 103.745315,
+      "photos": []
+    },
+    {
+      "n": "Phare, the Cambodian Circus",
+      "cat": "do",
+      "tier": "",
+      "a": "Central Siem Reap",
+      "d": "Not a circus in the Western sense but a soaring hour of acrobatics, live music, theatre and painting that tells modern Cambodian stories \u2014 often the hard ones of the Khmer Rouge years \u2014 performed by graduates of a school that began with refugee children and art as therapy. The single most affecting evening in town, and one children and elders love equally.",
+      "lat": 13.353879,
+      "lon": 103.838951,
+      "photos": []
+    },
+    {
+      "n": "A dawn blessing by Buddhist monks",
+      "cat": "do",
+      "tier": "",
+      "a": "Angkor Archaeological Park",
+      "d": "At a working temple within the park, a saffron-robed monk chants a Pali blessing, sprinkles lotus-scented water and ties a red cotton thread at your wrist for protection and good fortune \u2014 a quiet, sincere ritual that resonates deeply with Indian travellers who know the gesture. Arranged privately, it turns a temple visit into a moment the whole family carries home.",
+      "lat": 13.352199,
+      "lon": 103.853086,
+      "photos": []
+    },
+    {
+      "n": "Kampong Phluk stilted village on the Tonle Sap",
+      "cat": "do",
+      "tier": "",
+      "a": "Tonle Sap Lake",
+      "d": "A community of houses raised on twenty-foot stilts at the lake's edge, where in the dry season you walk beneath homes that in the monsoon stand knee-deep in water, then glide by boat into a flooded mangrove forest by paddled canoe. Far more authentic than the tourist-heavy Chong Kneas; a private boat and a responsible operator make an unforgettable half-day.",
+      "lat": 13.365873,
+      "lon": 103.852315,
+      "photos": []
+    },
+    {
+      "n": "Kampong Khleang, the great floating town",
+      "cat": "do",
+      "tier": "",
+      "a": "Tonle Sap Lake",
+      "d": "The largest and most authentic of the lake communities, some 50 km out \u2014 a working town of six thousand people, towering stilt houses and floating homes that migrate with the water, with barely a souvenir stall in sight. Community-run tours put your visit into local hands; the drive through rice country is half the pleasure.",
+      "lat": 13.365873,
+      "lon": 103.852315,
+      "photos": []
+    },
+    {
+      "n": "Sunrise hot-air balloon over the temples",
+      "cat": "do",
+      "tier": "",
+      "a": "Angkor Archaeological Park",
+      "d": "In the dry season, a balloon lifts you above the plain at first light, laying out the moated square of Angkor Wat and the forest-buried temples in a single sweep no ground view can match. A rare aerial perspective on the sheer scale of the ancient city; best booked for a calm, clear December-to-March morning.",
+      "lat": 13.352199,
+      "lon": 103.853086,
+      "photos": []
+    },
+    {
+      "n": "Helicopter flight over Angkor Wat",
+      "cat": "do",
+      "tier": "",
+      "a": "Angkor Archaeological Park",
+      "d": "A short private flight that banks over Angkor Wat's five towers, the walled city of Angkor Thom and the shimmering barays, revealing the geometry of the empire from the air. The most effortless way to give elders and children the grand overview, then land and explore at ground level with a guide.",
+      "lat": 13.352199,
+      "lon": 103.853086,
+      "photos": []
+    },
+    {
+      "n": "Quad-bike ride through the rice-country back-lanes",
+      "cat": "do",
+      "tier": "",
+      "a": "Siem Reap countryside",
+      "d": "An escorted run on red-dirt tracks past working paddies, sugar-palm groves, water buffalo and village pagodas at sunset, ending as the sky turns pink over the fields. A lively counterpoint to a day of temples that older children and teenagers love; hotels arrange transfers to the base.",
+      "lat": 13.361756,
+      "lon": 103.859032,
+      "photos": []
+    },
+    {
+      "n": "A private Khmer cooking class",
+      "cat": "do",
+      "tier": "",
+      "a": "Central Siem Reap",
+      "d": "Start at a local market choosing lemongrass, galangal, kaffir lime and palm sugar, then cook fish amok and a fresh green mango salad in a hands-on kitchen. Classes readily go fully vegetarian and Jain-friendly on request, making this an easy, engaging afternoon for a food-minded Indian family.",
+      "lat": 13.354055,
+      "lon": 103.853991,
+      "photos": []
+    },
+    {
+      "n": "The Old Market (Psar Chas) and Pub Street, framed",
+      "cat": "do",
+      "tier": "",
+      "a": "Central Siem Reap",
+      "d": "The lively heart of old Siem Reap \u2014 Psar Chas piled with silk, spices, silver and lacquerware by day, the lantern-lit lanes around it buzzing after dark. Best experienced as a curated hour: a guide steers you to the honest craft stalls and a good rooftop, so you catch the colour and skip the tout-heavy scrum.",
+      "lat": 13.356639,
+      "lon": 103.857445,
+      "photos": []
+    },
+    {
+      "n": "Sunset cocktails at Raffles Grand Hotel d'Angkor",
+      "cat": "do",
+      "tier": "",
+      "a": "Central Siem Reap",
+      "d": "The 1932 grande dame of Siem Reap, where Jackie Kennedy and Charlie Chaplin once stayed, still pours the sharp, gin-based Airavata amid teak, ceiling fans and a colonnaded garden. An elegant, air-conditioned reset between temple days, and a graceful setting for a multi-generation evening drink.",
+      "lat": 13.356639,
+      "lon": 103.857445,
+      "photos": []
+    },
+    {
+      "n": "An almsgiving and merit-making morning at a working pagoda",
+      "cat": "do",
+      "tier": "",
+      "a": "Central Siem Reap",
+      "d": "At dawn, offer rice and receive a chanted blessing from monks on their alms round at a living wat such as Wat Bo or Wat Damnak \u2014 a gentle, respectful window into everyday Cambodian Buddhism away from the ruins. Deeply familiar in spirit to Indian travellers, and a calm, meaningful start to a day.",
+      "lat": 13.356639,
+      "lon": 103.857445,
+      "photos": []
+    },
+    {
+      "n": "Sunset drinks and dinner cruise on the Tonle Sap",
+      "cat": "do",
+      "tier": "",
+      "a": "Tonle Sap Lake",
+      "d": "As the day cools, a private boat carries you out onto the great lake for the fiery sunset over Southeast Asia's largest freshwater expanse, drinks in hand and the floating world drifting past. A serene, comfortable way for elders to experience the Tonle Sap without a bumpy village walk.",
+      "lat": 13.365873,
+      "lon": 103.852315,
+      "photos": []
+    },
+    {
+      "n": "The Landmine Museum and its founder's story",
+      "cat": "do",
+      "tier": "",
+      "a": "Near Banteay Srei",
+      "d": "Founded by a former child soldier turned de-miner, this small, sober museum explains Cambodia's landmine legacy and cares for children affected by it \u2014 sobering, honest and important context for the country you are enjoying. A short, worthwhile stop on the way to or from Banteay Srei; older children come away changed.",
+      "lat": 13.599158,
+      "lon": 103.963049,
+      "photos": []
+    },
+    {
+      "n": "Apsara dance over a fine Khmer dinner",
+      "cat": "do",
+      "tier": "",
+      "a": "Central Siem Reap",
+      "d": "The slow, precise classical dance of the celestial apsara \u2014 the same dancers carved by the thousand across Angkor's walls \u2014 performed live as you dine on refined Cambodian cuisine. A cultural evening that connects the stone reliefs to living tradition; better hotels stage intimate versions with proper vegetarian menus.",
+      "lat": 13.356639,
+      "lon": 103.857445,
+      "photos": []
+    },
+    {
+      "n": "A guided countryside cycle to the temples at dawn",
+      "cat": "do",
+      "tier": "",
+      "a": "Angkor Archaeological Park",
+      "d": "For the fitter traveller, a private guided ride on quiet forest lanes reaches the outer temples in the cool of early morning, moving between Preah Khan and Ta Som at the pace of birdsong rather than engines. An immersive, low-crowd way to feel the scale of the park, with a support vehicle trailing for anyone who tires.",
+      "lat": 13.352199,
+      "lon": 103.853086,
+      "photos": []
+    },
+    {
+      "n": "Preah Neak Pean and the Jayatataka baray by boardwalk at golden hour",
+      "cat": "do",
+      "tier": "",
+      "a": "Angkor Archaeological Park",
+      "d": "Timed for late afternoon, the long boardwalk across the drowned forest to Neak Pean glows amber and the dead trees mirror in still water \u2014 one of the most photogenic, meditative walks in the whole park. Flat and easy, it suits every generation and rewards patience with near-solitude once the day-tour buses leave.",
+      "lat": 13.352199,
+      "lon": 103.853086,
+      "photos": []
+    },
+    {
+      "n": "The West Baray and Mebon for an afternoon on the water",
+      "cat": "do",
+      "tier": "",
+      "a": "Angkor Archaeological Park",
+      "d": "The largest surviving Khmer reservoir, an 8-km sheet of water where locals swim and picnic, with the ruined island temple of West Mebon at its centre reachable by boat. A relaxed, refreshingly un-touristy way to spend a hot afternoon and glimpse how ordinary Cambodians enjoy Angkor today.",
+      "lat": 13.352199,
+      "lon": 103.853086,
+      "photos": []
+    },
+    {
+      "n": "Silk Island silk-weaving and a village lunch",
+      "cat": "do",
+      "tier": "",
+      "a": "Siem Reap countryside",
+      "d": "Beyond the town, a working silk farm and weaving village shows the full journey from mulberry leaf and silkworm to the shimmering golden Khmer silk on the loom, followed by a home-cooked country lunch. A gentle, hands-on morning for those who prefer craft and countryside to more ruins, and a source of beautiful ethical buys.",
+      "lat": 13.361756,
+      "lon": 103.859032,
+      "photos": []
+    },
+    {
+      "n": "Wat Preah Prom Rath riverside temple",
+      "cat": "do",
+      "tier": "",
+      "a": "Central Siem Reap",
+      "d": "A serene, richly gilded working pagoda on the riverbank in the heart of town, with a large reclining Buddha, a boat-shaped shrine and monks going about their day \u2014 an easy, uncrowded pocket of living faith minutes from the market. A quiet stroll-in between activities that costs nothing and rewards with genuine calm.",
+      "lat": 13.35515,
+      "lon": 103.856531,
+      "photos": []
+    },
+    {
+      "n": "Angkor Wat's upper level and Bakan sanctuary",
+      "cat": "do",
+      "tier": "",
+      "a": "Angkor Archaeological Park",
+      "d": "The steep climb to the third level of Angkor Wat reaches the Bakan, the temple's holiest heart, where the towers that fill every postcard surround you at close quarters and the whole plain falls away below. Access is timed and modest dress required; a guide books the slot so the family ascends together into the sanctum.",
+      "lat": 13.352199,
+      "lon": 103.853086,
+      "photos": []
+    },
+    {
+      "n": "A blessing-thread and Baksei Chamkrong at first light",
+      "cat": "do",
+      "tier": "",
+      "a": "Angkor Archaeological Park",
+      "d": "A compact, elegant 10th-century brick pyramid just south of Angkor Thom's south gate, almost always empty, whose steep single stair rewards an early climb with a clean view down the approach to Angkor. A perfect quiet inclusion for travellers who want a temple entirely to themselves before the day begins.",
+      "lat": 13.352199,
+      "lon": 103.853086,
+      "photos": []
+    },
+    {
+      "n": "Miniature Replicas garden and a stone-carving master",
+      "cat": "do",
+      "tier": "",
+      "a": "Siem Reap countryside",
+      "d": "At the workshop of a celebrated local sculptor sit hand-built miniatures of Angkor's great temples alongside a live carving studio where you can watch \u2014 or try \u2014 the chisel-work that built the empire. A charming, low-key stop that helps children grasp the scale and craft behind the monuments they have been climbing.",
+      "lat": 13.361756,
+      "lon": 103.859032,
+      "photos": []
+    },
+    {
+      "n": "Elephant Bar, Raffles Grand Hotel d'Angkor",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "Central Siem Reap (Royal District)",
+      "d": "Cocktail hour at the grande dame since 1932 \u2014 the most storied room in town for a drink.",
+      "lat": 13.364362,
+      "lon": 103.859801,
+      "photos": []
+    },
+    {
+      "n": "Miss Wong Cocktail Bar",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "The Lane (off Pub Street)",
+      "d": "A tiny 1920s-Shanghai drinking den behind a cherry-red lantern \u2014 Siem Reap's most characterful cocktail bar.",
+      "lat": 13.354251,
+      "lon": 103.858383,
+      "photos": []
+    },
+    {
+      "n": "Kong Kea Bar, Amansara",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Central Siem Reap (Amansara)",
+      "d": "A discreet nightcap inside Aman's town villa \u2014 the quietest, most private drink in Siem Reap.",
+      "lat": 13.679404,
+      "lon": 104.025743,
+      "photos": []
+    },
+    {
+      "n": "Pub Street",
+      "cat": "party",
+      "tier": "Late & loud",
+      "a": "Old Market district (central)",
+      "d": "The neon spine of the town's night \u2014 loud, packed and unmissable, the place everyone eventually walks through.",
+      "lat": 13.354422,
+      "lon": 103.85477,
+      "photos": []
+    }
+  ]
+}

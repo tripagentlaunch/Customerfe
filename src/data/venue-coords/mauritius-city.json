@@ -1,1 +1,658 @@
-{"center": [-20.275945, 57.570357], "venues": [{"n": "One&Only Le Saint Géran", "cat": "stay", "tier": "Ultra", "a": "Belle Mare / Pointe de Flacq (East)", "d": "The island's grande dame, on its own peninsula between lagoon and ocean — still the address the others measure against.", "lat": -20.162837, "lon": 57.761281, "p": "v"}, {"n": "Royal Palm Beachcomber Luxury", "cat": "stay", "tier": "Ultra", "a": "Grand Baie (North)", "d": "The discreet north-coast classic — the first Indian Ocean house to join Leading Hotels of the World, and still its most polished.", "lat": -20.025298, "lon": 57.579987, "p": "a"}, {"n": "The Oberoi Beach Resort, Mauritius", "cat": "stay", "tier": "Ultra", "a": "Turtle Bay / Balaclava (Northwest)", "d": "Oberoi's pavilion-and-villa calm on a marine-park bay — the surest hands in the ocean speak Hindi at the door.", "lat": -20.303931, "lon": 57.365916, "p": "v"}, {"n": "LUX* Belle Mare", "cat": "stay", "tier": "Grand", "a": "Belle Mare (East)", "d": "A bright, design-led house on the island's finest east-coast beach — luxury with a lighter, younger touch.", "lat": -20.199806, "lon": 57.782208, "p": "v"}, {"n": "Constance Prince Maurice", "cat": "stay", "tier": "Grand", "a": "Belle Mare / Poste de Flacq (East)", "d": "An intimate house of stilted villas over a private natural lake — Constance at its most romantic.", "lat": -20.166132, "lon": 57.765289, "p": "v"}, {"n": "Shangri-La Le Touessrok, Mauritius", "cat": "stay", "tier": "Grand", "a": "Trou d'Eau Douce (East)", "d": "A reborn east-coast landmark with a private island and two championship golf courses to its name.", "lat": -20.25208, "lon": 57.797108, "p": "v"}, {"n": "Constance Belle Mare Plage", "cat": "stay", "tier": "Grand", "a": "Belle Mare (East)", "d": "Two kilometres of white beach and two championship links — the island's serious golf-and-family house.", "lat": -20.166132, "lon": 57.765289, "p": "v"}, {"n": "Four Seasons Resort Mauritius at Anahita", "cat": "stay", "tier": "Grand", "a": "Beau Champ (East)", "d": "Four Seasons calm on 64 acres of the east coast — 136 villas, each with its own infinity pool.", "lat": -20.284377, "lon": 57.790892, "p": "v"}, {"n": "The St. Regis Le Morne Resort, Mauritius", "cat": "stay", "tier": "Grand", "a": "Le Morne (Southwest)", "d": "All-suite, all-butler glamour beneath the UNESCO-listed Le Morne mountain, on one of the island's most cinematic beaches.", "lat": -20.461076, "lon": 57.310308, "p": "v"}, {"n": "Maradiva Villas Resort & Spa", "cat": "stay", "tier": "Luxury", "a": "Wolmar / Flic en Flac (West)", "d": "An all-villa Ayurvedic retreat on the calm west coast — private pools, deep quiet and a wellness heart.", "lat": -20.094082, "lon": 57.708703, "p": "v"}, {"n": "Shanti Maurice, a Nira Resort", "cat": "stay", "tier": "Luxury", "a": "St Félix / Chemin Grenier (South)", "d": "A serene, spa-led estate on the untouristed deep south coast — space, calm and a celebrated Nira Spa.", "lat": -20.090966, "lon": 57.510532, "p": "v"}, {"n": "JW Marriott Mauritius Resort", "cat": "stay", "tier": "Luxury", "a": "Le Morne (Southwest)", "d": "Grand, palatial JW Marriott comfort at the foot of Le Morne — a big, capable house for families and groups.", "lat": -20.460676, "lon": 57.310282, "p": "v"}, {"n": "Prime, One&Only Le Saint Géran", "cat": "eat", "tier": "Destination", "a": "Belle Mare (East)", "d": "An extraordinary steakhouse — Australian Wagyu and the daily catch, in a room floored with stone from a 16th-century French chapel.", "lat": -20.162837, "lon": 57.761281, "p": "v"}, {"n": "Blue Penny Cellar, Constance Belle Mare Plage", "cat": "eat", "tier": "Destination", "a": "Belle Mare (East)", "d": "A candlelit cellar dinner among 35,000 bottles — bistronomy and rare wine flights, one of the great tables of the Indian Ocean.", "lat": -20.238871, "lon": 57.792369, "p": "a"}, {"n": "L'Alchimiste, La Rhumerie de Chamarel", "cat": "eat", "tier": "Fine", "a": "Chamarel (Southwest highlands)", "d": "Estate-to-plate cooking at an award-winning rum distillery in the hills — venison, wild boar and duck raised on the property, paired with its own rhum.", "lat": -20.4293, "lon": 57.389877, "p": "v"}, {"n": "Escale Créole", "cat": "eat", "tier": "Smart", "a": "Moka (Central)", "d": "A mother-and-daughter table d'hôte in a garden home — the four great Creole flavours (rougaille, cari, vindaye, salmi) cooked exactly as a Mauritian family would.", "lat": -20.220732, "lon": 57.509221, "p": "v"}, {"n": "Le Capitaine, Caudan Waterfront", "cat": "eat", "tier": "Smart", "a": "Port Louis", "d": "A harbourfront institution since 1989 — the day's catch, simply and generously done, over the water in the capital.", "lat": -20.160955, "lon": 57.498542, "p": "v"}, {"n": "The dholl puri stalls, Port Louis Central Market", "cat": "eat", "tier": "Casual", "a": "Port Louis", "d": "The island's soul on a paper plate — a warm lentil-flour flatbread with bean curry and chutney, eaten on the market steps. Mauritius's defining street food.", "lat": -20.161618, "lon": 57.50372, "p": "a"}, {"n": "Aapravasi Ghat", "cat": "do", "tier": "", "a": "Port Louis (Trou Fanfaron)", "d": "The immigration depot where, between 1834 and 1920, nearly half a million indentured labourers from India first set foot in Mauritius before dispersing to the sugar estates and across the empire. For many Indian families it is a place of ancestry itself: about two-thirds of Mauritians today are of Indian descent, and the surviving fourteen stone steps up which every immigrant walked make the diaspora story physically real. Visit the interpretation centre first, then walk the ruins with a guide who can trace the human history.", "lat": -20.158567, "lon": 57.503109, "p": "v"}, {"n": "Le Morne Brabant", "cat": "do", "tier": "", "a": "Southwest peninsula", "d": "A dramatic 556-metre basalt monolith jutting into the ocean, once the refuge of escaped slaves (maroons) who hid in its cliffs and caves, now a UNESCO-listed symbol of the fight for freedom. The guided summit hike takes three to four hours and delivers one of the Indian Ocean's great views over the turquoise lagoon and the famous 'underwater waterfall' illusion. The peninsula below holds some of the island's most exclusive resorts, so many stay at its foot and climb at dawn.", "lat": -20.454075, "lon": 57.321302, "p": "v"}, {"n": "Grand Bassin (Ganga Talao)", "cat": "do", "tier": "", "a": "Savanne (central highlands)", "d": "A sacred crater lake believed to be linked to the holy Ganges, and the most important Hindu pilgrimage site outside India: at Maha Shivratri, hundreds of thousands of Mauritians walk barefoot to pray here. It is guarded by two of the tallest statues in the country, a 33-metre Mangal Mahadev (Shiva) and a matching Durga, with temples to Hanuman, Lakshmi and Ganesh around the water. For an Indian family this is instantly familiar and deeply moving; come early, dress modestly, and light a diya by the lake.", "lat": -20.420934, "lon": 57.492997, "p": "v"}, {"n": "Caudan Waterfront", "cat": "do", "tier": "", "a": "Port Louis harbour", "d": "The capital's redeveloped harbour front, a walkable stretch of restaurants, boutiques, a marina and the Blue Penny Museum, best at sunset when the yachts light up and the seafood terraces fill. It is the easy, polished way to spend an evening in Port Louis before or after the grittier market and heritage sites. Handy base for a catamaran departure or a Creole-and-seafood dinner overlooking the water.", "lat": -20.160955, "lon": 57.498542, "p": "v"}, {"n": "Central Market (Bazaar de Port Louis)", "cat": "do", "tier": "", "a": "Port Louis centre", "d": "A century-old covered market that is the sensory heart of the capital: pyramids of tropical fruit, mounds of masala and vanilla, garlands, textiles, and food stalls serving dholl puri, gateaux piments and alouda. The blend of Indian, Chinese, Creole and French influences on one floor is Mauritius in miniature. Go with a guide in the morning for the produce and the spice hall, and taste the street food that locals actually eat.", "lat": -20.160484, "lon": 57.502579, "p": "v"}, {"n": "Blue Penny Museum", "cat": "do", "tier": "", "a": "Caudan Waterfront, Port Louis", "d": "A small, jewel-box museum built around two of the world's most famous and valuable postage stamps, the 1847 Mauritius 'Post Office' Red Penny and Blue Penny, displayed under dimmed light for a few minutes each hour to protect them. Alongside are maritime maps, the original Paul et Virginie statue and colonial-era art that tell the island's story with real curatorial care. A quiet, air-conditioned hour for collectors, history lovers and anyone who wants depth beyond the beach.", "lat": -20.160906, "lon": 57.497501, "p": "v"}, {"n": "Fort Adelaide (La Citadelle)", "cat": "do", "tier": "", "a": "Port Louis", "d": "A British colonial fortress of 1830s black basalt crowning a hill above the capital, with the best panorama over Port Louis, the harbour, the Champ de Mars and the mountains beyond. It is a short drive up and an easy walk around the ramparts, often the calmest and most photogenic vantage point in the city. Time it for late afternoon light over the port.", "lat": -20.161618, "lon": 57.50372, "p": "a"}, {"n": "Champ de Mars Racecourse", "cat": "do", "tier": "", "a": "Port Louis", "d": "The oldest horse-racing track in the Southern Hemisphere, opened in 1812 and still the social heart of Mauritian winter Saturdays, ringed by mountains in the middle of the city. On race days the stands buzz with a cross-section of the whole island; even on a quiet day the setting is striking. For visitors from India, the shared colonial turf culture makes a race afternoon a genuinely local, atmospheric outing.", "lat": -20.168863, "lon": 57.510497, "p": "v"}, {"n": "Jummah Mosque", "cat": "do", "tier": "", "a": "Port Louis (Chinatown edge)", "d": "The most beautiful mosque in Mauritius, built in the 1850s in a graceful blend of Indian, Creole and Mughal styles, its carved teak doors and green-and-white courtyard tucked among the shops of central Port Louis. Non-Muslim visitors are welcome outside prayer times, dressed modestly. A serene, richly decorated stop that shows the island's Muslim heritage a few steps from the market and Chinatown.", "lat": -20.159625, "lon": 57.505034, "p": "v"}, {"n": "Chinatown, Port Louis", "cat": "do", "tier": "", "a": "Port Louis centre", "d": "Marked by its ceremonial gates, Mauritius' compact Chinatown is a lane of old shophouses, temples, bakeries and some of the capital's best-value food, a reminder that Sino-Mauritians are the fourth strand of the island's culture. It comes alive during the Chinatown Food & Cultural Festival and at Chinese New Year. A short, characterful wander that pairs naturally with the Central Market and Jummah Mosque.", "lat": -20.158718, "lon": 57.506515, "p": "v"}, {"n": "Marie Reine de la Paix", "cat": "do", "tier": "", "a": "Port Louis", "d": "A serene white marble shrine and terraced garden on the slopes above the capital, built in 1940 and famous as the spot where Pope John Paul II led mass in 1989. The gardens are quiet and immaculate, and the terrace gives another sweeping view over Port Louis. A peaceful, uncrowded counterpoint to the city bustle below.", "lat": -20.170433, "lon": 57.497678, "p": "v"}, {"n": "Black River Gorges National Park", "cat": "do", "tier": "", "a": "Southwest interior", "d": "The island's largest protected wilderness, over 6,500 hectares of native forest, waterfalls and viewpoints threaded with hiking trails, and the last refuge of Mauritius' rarest endemic birds including the once nearly-extinct pink pigeon and Mauritius kestrel. The Black River Gorges viewpoint and Alexandra Falls lookout are drive-up spectacular; deeper trails reward serious walkers. A cool, green, restorative contrast to the coast, best with a naturalist guide.", "lat": -20.408362, "lon": 57.473064, "p": "v"}, {"n": "Chamarel Seven Coloured Earths", "cat": "do", "tier": "", "a": "Chamarel (southwest)", "d": "A surreal geological curiosity of undulating dunes in seven distinct colours, formed as volcanic basalt weathered into clays that never mix even in the rain. The geopark on the same ticket includes a viewpoint over the 100-metre Chamarel Waterfall, the tallest single-drop fall on the island, plus giant tortoises. An easy, family-pleasing wonder in the lush southwest, often combined with the rhumerie and Curious Corner.", "lat": -20.439796, "lon": 57.385996, "p": "v"}, {"n": "Rhumerie de Chamarel", "cat": "do", "tier": "", "a": "Chamarel (southwest)", "d": "One of the most beautiful distilleries in the world, set in its own sugarcane estate against jungled hills, producing agricole rum from fresh-pressed cane rather than molasses. The tour walks you through the plantation and stills and ends with a tasting and an excellent farm-to-table Creole lunch at L'Alchimiste restaurant. A refined, scenic afternoon; the estate setting alone justifies the visit.", "lat": -20.427932, "lon": 57.396487, "p": "v"}, {"n": "Curious Corner of Chamarel", "cat": "do", "tier": "", "a": "Chamarel (southwest)", "d": "A playful museum of optical illusions right by the Seven Coloured Earths, with an upside-down room, a mirror maze, an anti-gravity room and endless photo tricks. It is the one stop on this stretch that turns a scenic day into pure fun for children and multi-generational groups. Quick, indoor and reliably delightful when little ones tire of viewpoints.", "lat": -20.436595, "lon": 57.383461, "p": "v"}, {"n": "La Vanille Nature Park", "cat": "do", "tier": "", "a": "Rivière des Anguilles (south)", "d": "A lush nature reserve home to the world's largest captive colony of Aldabra giant tortoises, over a thousand of them roaming among ferns and streams, plus Nile crocodiles, lemurs and a vast insectarium. Children can meet and feed the tortoises up close, making it one of the island's best family outings. A shaded, walkable park that pairs well with a southern coast day.", "lat": -20.500758, "lon": 57.564088, "p": "v"}, {"n": "Bois Chéri Tea Plantation & Museum", "cat": "do", "tier": "", "a": "Grand Bois (south highlands)", "d": "The island's oldest and largest tea estate, established in 1892, where the Tea Route tour walks you through picking, withering and processing before a tasting on a hilltop pavilion with panoramic views over rolling green tea and the southern coast beyond. The vanilla-scented Mauritian tea is a lovely thing to take home. A cool, unhurried highland experience that appeals to anyone raised on Indian chai culture.", "lat": -20.426392, "lon": 57.525893, "p": "v"}, {"n": "Flic en Flac beach", "cat": "do", "tier": "", "a": "West coast", "d": "One of the longest and most beloved beaches on the west coast, a broad sweep of white sand and shallow lagoon with superb sunsets and a strip of restaurants behind. It is a lively, sociable base, close to Casela and the dolphin waters of Tamarin, and a short boat ride from world-class dive sites off the reef drop-off. Good all-round choice for families who want beach plus easy access to activities.", "lat": -20.303931, "lon": 57.365916, "p": "v"}, {"n": "Dolphin swimming at Tamarin Bay", "cat": "do", "tier": "", "a": "Tamarin / Rivière Noire (west)", "d": "The sheltered west-coast bays off Tamarin and Rivière Noire host resident pods of spinner and bottlenose dolphins, and an early-morning boat lets you slip into the water and snorkel alongside them in the wild. Responsible operators keep their distance and limit numbers; a private charter makes it calm and unhurried. A genuinely magical, kid-thrilling experience best booked for first light before the winds pick up.", "lat": -20.318356, "lon": 57.391548, "p": "a"}, {"n": "Casela Nature Parks", "cat": "do", "tier": "", "a": "Cascavelle (west)", "d": "A large adventure and wildlife park in the west hills offering everything from walking with lions and a giant-tortoise safari to zip-lines, quad tours, a Nepalese swing bridge and a petting farm, all with valley views. It is the island's top one-stop day for active families and teenagers. Book the safari and adventure add-ons in advance and go early to beat the heat.", "lat": -20.305063, "lon": 57.407975, "p": "v"}, {"n": "Tamarind Falls (7 Cascades)", "cat": "do", "tier": "", "a": "Henrietta (west interior)", "d": "A chain of seven waterfalls tumbling through a hidden gorge above the west coast, reached on a guided canyoning-style hike with natural pools deep enough to swim and, for the adventurous, cliff jumps. It is one of the island's most spectacular and least crowded natural sites, but the terrain needs a licensed guide. A half-day for reasonably fit travellers who want the wild interior, not just the lagoon.", "lat": -20.354497, "lon": 57.466284, "p": "v"}, {"n": "Grand Baie", "cat": "do", "tier": "", "a": "North coast", "d": "The island's most cosmopolitan resort town, a curved bay of clear water fringed by boutiques, jewellers, waterfront restaurants and the departure point for most catamaran cruises and watersports. It is the north's hub for shopping and dining, with the Grand Baie Bazaar for souvenirs and La Croisette mall nearby. A convenient, energetic base close to the best northern beaches.", "lat": -20.01302, "lon": 57.584627, "p": "v"}, {"n": "Pereybère & Mont Choisy beaches", "cat": "do", "tier": "", "a": "North coast", "d": "Two of the north's finest public beaches: Pereybère a small, family-friendly cove with calm swimming and casual eateries, and Mont Choisy a long crescent of casuarina-shaded sand ideal for a lazy day and a sunset walk. Both sit minutes from Grand Baie, so they make an easy addition to a northern stay. Come with a picnic or settle at a beach shack for grilled fish.", "lat": -20.10475, "lon": 57.725142, "p": "a"}, {"n": "Cap Malheureux church", "cat": "do", "tier": "", "a": "Northern tip", "d": "The much-photographed red-roofed church of Notre-Dame Auxiliatrice at the island's northern point, framed against the blue lagoon and the offshore islands of Coin de Mire, Gabriel and Flat. It is a tiny, tranquil spot and one of Mauritius' signature postcard views. A quick, scenic stop that pairs naturally with a northern islands boat trip.", "lat": -20.016471, "lon": 57.579123, "p": "v"}, {"n": "SSR Botanical Garden, Pamplemousses", "cat": "do", "tier": "", "a": "Pamplemousses (north)", "d": "One of the oldest botanical gardens in the Southern Hemisphere, laid out in the 18th century, world-famous for its ponds of giant Victoria amazonica water lilies whose platter-sized pads can bear a child's weight, plus an avenue of talipot palms and dozens of spice and endemic species. A guide brings the plant lore alive; the shade and calm are welcome after the coast. A cultured, easy morning close to L'Aventure du Sucre.", "lat": -20.106615, "lon": 57.58035, "p": "v"}, {"n": "L'Aventure du Sucre", "cat": "do", "tier": "", "a": "Pamplemousses (north)", "d": "A superb museum inside a former sugar factory that tells the island's whole story through sugar, slavery, indenture, rum and trade, with real machinery, an excellent shop of estate sugars and a fine Creole restaurant. It is far richer than it sounds and one of the best rainy-day and history stops on the island. Pairs perfectly with the neighbouring botanical garden.", "lat": -20.097555, "lon": 57.574112, "p": "v"}, {"n": "Île aux Cerfs", "cat": "do", "tier": "", "a": "Off the east coast (Trou d'Eau Douce)", "d": "A picture-perfect offshore island of powder-white sand and shallow turquoise water, reached by boat from the east coast and home to a celebrated championship golf course, parasailing, tube rides and a floating-lunch catamaran scene. It is the classic east-coast day out, easily private-chartered for a family or couple. Go on a private speedboat to arrive early and claim a quiet stretch of beach.", "lat": -20.272027, "lon": 57.803666, "p": "v"}, {"n": "Belle Mare beach", "cat": "do", "tier": "", "a": "East coast", "d": "A long ribbon of white sand and clear lagoon on the tranquil, less-developed east coast, home to a cluster of the island's finest resorts and some of the best sunrise light in Mauritius. Its wide reef flat is good for swimming and kayaking, and the pace is noticeably calmer than the north. The natural choice for an ultra-luxury, unhurried beach base.", "lat": -20.191117, "lon": 57.775207, "p": "v"}, {"n": "Bras d'Eau National Park", "cat": "do", "tier": "", "a": "Northeast", "d": "A quiet coastal forest reserve of ebony and native woodland with easy walking trails, birdwatching and the ruins of an old sugar estate, plus the neighbouring Roches Noires lava caves. It is a peaceful, uncrowded alternative to the busier parks, close to the east-coast resorts. A gentle half-day for nature lovers who want green space near the beach.", "lat": -20.131109, "lon": 57.742205, "p": "v"}, {"n": "Blue Bay Marine Park", "cat": "do", "tier": "", "a": "Southeast (Mahébourg)", "d": "A protected marine reserve of exceptionally clear, calm, shallow water and a garden of brain and staghorn corals, the island's premier snorkelling site, easily explored by glass-bottom boat or with mask and fins. Turtles and clouds of reef fish are common. An easy, gorgeous outing near Mahébourg, ideal for families and first-time snorkellers.", "lat": -20.445106, "lon": 57.710003, "p": "v"}, {"n": "Blue Safari submarine", "cat": "do", "tier": "", "a": "Trou aux Biches (north)", "d": "The Indian Ocean's only leisure submarine, a real air-conditioned sub that descends to around 35 metres past coral, reef fish, turtles and a shipwreck, with each passenger at their own porthole and no swimming required. It is a novel, all-weather way to see the reef that works for grandparents and small children alike. Also offered as an underwater 'subscooter' for the more adventurous.", "lat": -20.02561, "lon": 57.550378, "p": "v"}, {"n": "Undersea walk (sea walking)", "cat": "do", "tier": "", "a": "Grand Baie / north lagoon", "d": "A gentle, no-experience-needed way to stroll along the seabed a few metres down wearing a weighted helmet fed with air, surrounded by fish and coral while breathing normally and keeping your hair dry. It is a fun, safe novelty for non-divers and nervous swimmers, popular with families in the calm northern lagoon. A short, memorable slot on any beach day.", "lat": -20.025298, "lon": 57.579987, "p": "a"}, {"n": "Catamaran cruise to the northern islands", "cat": "do", "tier": "", "a": "North (from Grand Baie)", "d": "The quintessential Mauritius day at sea: a sailing catamaran gliding to Gabriel and Flat islands or up the east coast to Île aux Cerfs, with snorkel stops, a grilled Creole lunch on board and time to swim off the deck. A private charter turns it into a serene, tailored day for a couple or family with a chef and crew. The single best way to appreciate the barrier-reef lagoon.", "lat": -20.025298, "lon": 57.579987, "p": "a"}, {"n": "Deep-sea fishing off the west coast", "cat": "do", "tier": "", "a": "Rivière Noire (west)", "d": "The waters off Rivière Noire drop off sharply into some of the world's premier big-game grounds, and Mauritius has held world records for blue marlin caught close to shore between roughly November and April. Private charters run half or full days for marlin, tuna, wahoo and dorado, tag-and-release available. A serious pursuit for enthusiasts, and a thrilling private outing even for first-timers.", "lat": -20.176956, "lon": 57.46754, "p": "a"}, {"n": "Championship golf", "cat": "do", "tier": "", "a": "Island-wide (east & southwest)", "d": "Mauritius is a genuine golf destination, with signature 18-hole championship courses including the island layout at Île aux Cerfs (Bernhard Langer), Anahita (Ernie Els), Heritage Le Château in the south and the Legend and Links at Belle Mare. Ocean and mountain backdrops make it as scenic as it is testing. Tee times are easily arranged through the luxury resorts, many with resident pros.", "lat": -20.093118, "lon": 57.703237, "p": "v"}, {"n": "Reef diving", "cat": "do", "tier": "", "a": "Island-wide (west & north)", "d": "Beyond the calm lagoon, the barrier reef drops into dramatic walls, caves and wrecks: the west coast off Flic en Flac (the Cathedral cavern) and the north around Coin de Mire offer some of the Indian Ocean's best diving, with sightings of turtles, moray eels and pelagics. PADI centres cater to first dives through to technical divers. Best visibility is roughly December to March.", "lat": -19.986865, "lon": 57.603204, "p": "v"}, {"n": "Kitesurfing at Le Morne", "cat": "do", "tier": "", "a": "Le Morne lagoon (southwest)", "d": "The flat, steady-wind lagoon at Le Morne, including the legendary 'One Eye' wave, is one of the world's top kitesurfing spots, drawing pros in the windy May-to-October season. Schools on the beach teach complete beginners in the shallow, safe water, and the mountain backdrop is unforgettable. A bucket-list stretch of water whether you ride or just watch.", "lat": -20.48154, "lon": 57.354556, "p": "a"}, {"n": "Sega evening & Creole cuisine", "cat": "do", "tier": "", "a": "Island-wide", "d": "Sega, the island's soulful drum-and-dance tradition born of the enslaved, is UNESCO-listed intangible heritage and still the sound of a Mauritian evening, most beautifully experienced at a beach fire or a resort night paired with a Creole feast. Expect octopus curry, rougaille, dholl puri and vindaye alongside plentiful, excellent vegetarian options that suit Indian and Jain palates. The warmest way to understand the island's culture in one night.", "lat": -19.850827, "lon": 57.787234, "p": "a"}, {"n": "Trou aux Cerfs crater", "cat": "do", "tier": "", "a": "Curepipe (central)", "d": "A dormant volcanic crater in the highland town of Curepipe, its forested cone circled by a road and walking path with views over the central plateau and, on clear days, to the coast. It is a quick, cool-climate stop that explains the island's volcanic origins, often folded into a southwest touring day. The rim walk is easy and the misty highland light is a change from the beach.", "lat": -20.317908, "lon": 57.511497, "p": "v"}, {"n": "Mahébourg & the Naval Museum", "cat": "do", "tier": "", "a": "Southeast", "d": "A characterful old fishing town on the southeast coast with a lively Monday market, waterfront and the National History (Naval) Museum recalling the 1810 naval battle between the French and British fought in these waters. It is the gateway to Blue Bay and Île aux Aigrettes and a slice of unpolished local life. A relaxed morning of history and market colour away from the resorts.", "lat": -20.284377, "lon": 57.790892, "p": "a"}, {"n": "Île aux Aigrettes", "cat": "do", "tier": "", "a": "Off Mahébourg (southeast)", "d": "A tiny coral islet nature reserve managed for conservation, the last remnant of Mauritius' native coastal ebony forest and a refuge for restored endemic species like the pink pigeon, Aldabra tortoises and the Telfair's skink. A guided walk here is the closest you can get to the island as it was before humans and the dodo's demise. A quiet, meaningful hour for families interested in conservation.", "lat": -20.420213, "lon": 57.733281, "p": "v"}, {"n": "Ganga Talao to Chamarel scenic drive", "cat": "do", "tier": "", "a": "Southern highlands", "d": "The road linking the sacred lake, Black River Gorges viewpoints, Alexandra Falls and Chamarel is one of the island's great scenic drives, winding through cloud forest and past waterfalls with the whole south spread below. With a private driver-guide it becomes a single unhurried day taking in the pilgrimage site, the endemic forest and the coloured earths. The best way to see the green, mountainous interior most beach visitors miss.", "lat": -20.276416, "lon": 57.515957, "p": "a"}, {"n": "Notre-Dame Auxiliatrice & the north coast churches", "cat": "do", "tier": "", "a": "North coast", "d": "Beyond the famous red-roofed Cap Malheureux church, the northern shore strings together photogenic Creole chapels and viewpoints out to Coin de Mire, best done as a slow coastal drive from Grand Baie to the cape. It captures the island's easygoing Catholic-Creole rhythm alongside its Hindu and Muslim life. A gentle, scenic loop for a relaxed morning.", "lat": -20.10475, "lon": 57.725142, "p": "a"}, {"n": "Caudan Waterfront", "cat": "party", "tier": "Landmark bars", "a": "Port Louis", "d": "The capital's easy evening — a harbourside stretch of bars, waterfront restaurants, a casino and live music, made for a stroll rather than a late night. The one genuinely urban after-dark address on the island.", "lat": -20.160955, "lon": 57.498542, "p": "v"}, {"n": "Grand Baie strip", "cat": "party", "tier": "Late & loud", "a": "Grand Baie (North)", "d": "The island's one real nightlife village — the northern bay's main street turns after dark into a run of beach bars, lounges and clubs, busy with locals and travellers alike.", "lat": -20.012513, "lon": 57.58474, "p": "v"}, {"n": "Rum-shack sundowners, Shanti Maurice", "cat": "party", "tier": "Cocktail bars", "a": "St Félix (South)", "d": "A barefoot beach rum shack with dozens of house and island rhums, poured as the sun goes down over the empty south coast. Mauritian nightlife at its most civilised — a glass, the sea, and nowhere to be.", "lat": -20.291838, "lon": 57.474597, "p": "v"}, {"n": "Sunset bars of the maison resorts", "cat": "party", "tier": "Cocktail bars", "a": "Belle Mare, Grand Baie, Le Morne", "d": "Mauritius after dark is, honestly, a great cocktail on your own resort's beach as the light goes — the bars at One&Only, Royal Palm and the St. Regis are destinations in themselves, with the lagoon for company.", "lat": -20.003049, "lon": 57.602983, "p": "a"}]}
+{
+  "center": [
+    -20.275945,
+    57.570357
+  ],
+  "venues": [
+    {
+      "n": "One&Only Le Saint G\u00e9ran",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Belle Mare / Pointe de Flacq (East)",
+      "d": "The island's grande dame, on its own peninsula between lagoon and ocean \u2014 still the address the others measure against.",
+      "lat": -20.162837,
+      "lon": 57.761281,
+      "photos": []
+    },
+    {
+      "n": "Royal Palm Beachcomber Luxury",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Grand Baie (North)",
+      "d": "The discreet north-coast classic \u2014 the first Indian Ocean house to join Leading Hotels of the World, and still its most polished.",
+      "lat": -20.025298,
+      "lon": 57.579987,
+      "photos": []
+    },
+    {
+      "n": "The Oberoi Beach Resort, Mauritius",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Turtle Bay / Balaclava (Northwest)",
+      "d": "Oberoi's pavilion-and-villa calm on a marine-park bay \u2014 the surest hands in the ocean speak Hindi at the door.",
+      "lat": -20.303931,
+      "lon": 57.365916,
+      "photos": []
+    },
+    {
+      "n": "LUX* Belle Mare",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Belle Mare (East)",
+      "d": "A bright, design-led house on the island's finest east-coast beach \u2014 luxury with a lighter, younger touch.",
+      "lat": -20.199806,
+      "lon": 57.782208,
+      "photos": []
+    },
+    {
+      "n": "Constance Prince Maurice",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Belle Mare / Poste de Flacq (East)",
+      "d": "An intimate house of stilted villas over a private natural lake \u2014 Constance at its most romantic.",
+      "lat": -20.166132,
+      "lon": 57.765289,
+      "photos": []
+    },
+    {
+      "n": "Shangri-La Le Touessrok, Mauritius",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Trou d'Eau Douce (East)",
+      "d": "A reborn east-coast landmark with a private island and two championship golf courses to its name.",
+      "lat": -20.25208,
+      "lon": 57.797108,
+      "photos": []
+    },
+    {
+      "n": "Constance Belle Mare Plage",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Belle Mare (East)",
+      "d": "Two kilometres of white beach and two championship links \u2014 the island's serious golf-and-family house.",
+      "lat": -20.166132,
+      "lon": 57.765289,
+      "photos": []
+    },
+    {
+      "n": "Four Seasons Resort Mauritius at Anahita",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Beau Champ (East)",
+      "d": "Four Seasons calm on 64 acres of the east coast \u2014 136 villas, each with its own infinity pool.",
+      "lat": -20.284377,
+      "lon": 57.790892,
+      "photos": []
+    },
+    {
+      "n": "The St. Regis Le Morne Resort, Mauritius",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Le Morne (Southwest)",
+      "d": "All-suite, all-butler glamour beneath the UNESCO-listed Le Morne mountain, on one of the island's most cinematic beaches.",
+      "lat": -20.461076,
+      "lon": 57.310308,
+      "photos": []
+    },
+    {
+      "n": "Maradiva Villas Resort & Spa",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Wolmar / Flic en Flac (West)",
+      "d": "An all-villa Ayurvedic retreat on the calm west coast \u2014 private pools, deep quiet and a wellness heart.",
+      "lat": -20.094082,
+      "lon": 57.708703,
+      "photos": []
+    },
+    {
+      "n": "Shanti Maurice, a Nira Resort",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "St F\u00e9lix / Chemin Grenier (South)",
+      "d": "A serene, spa-led estate on the untouristed deep south coast \u2014 space, calm and a celebrated Nira Spa.",
+      "lat": -20.090966,
+      "lon": 57.510532,
+      "photos": []
+    },
+    {
+      "n": "JW Marriott Mauritius Resort",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Le Morne (Southwest)",
+      "d": "Grand, palatial JW Marriott comfort at the foot of Le Morne \u2014 a big, capable house for families and groups.",
+      "lat": -20.460676,
+      "lon": 57.310282,
+      "photos": []
+    },
+    {
+      "n": "Prime, One&Only Le Saint G\u00e9ran",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Belle Mare (East)",
+      "d": "An extraordinary steakhouse \u2014 Australian Wagyu and the daily catch, in a room floored with stone from a 16th-century French chapel.",
+      "lat": -20.162837,
+      "lon": 57.761281,
+      "photos": []
+    },
+    {
+      "n": "Blue Penny Cellar, Constance Belle Mare Plage",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Belle Mare (East)",
+      "d": "A candlelit cellar dinner among 35,000 bottles \u2014 bistronomy and rare wine flights, one of the great tables of the Indian Ocean.",
+      "lat": -20.238871,
+      "lon": 57.792369,
+      "photos": []
+    },
+    {
+      "n": "L'Alchimiste, La Rhumerie de Chamarel",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Chamarel (Southwest highlands)",
+      "d": "Estate-to-plate cooking at an award-winning rum distillery in the hills \u2014 venison, wild boar and duck raised on the property, paired with its own rhum.",
+      "lat": -20.4293,
+      "lon": 57.389877,
+      "photos": []
+    },
+    {
+      "n": "Escale Cr\u00e9ole",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Moka (Central)",
+      "d": "A mother-and-daughter table d'h\u00f4te in a garden home \u2014 the four great Creole flavours (rougaille, cari, vindaye, salmi) cooked exactly as a Mauritian family would.",
+      "lat": -20.220732,
+      "lon": 57.509221,
+      "photos": []
+    },
+    {
+      "n": "Le Capitaine, Caudan Waterfront",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Port Louis",
+      "d": "A harbourfront institution since 1989 \u2014 the day's catch, simply and generously done, over the water in the capital.",
+      "lat": -20.160955,
+      "lon": 57.498542,
+      "photos": []
+    },
+    {
+      "n": "The dholl puri stalls, Port Louis Central Market",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Port Louis",
+      "d": "The island's soul on a paper plate \u2014 a warm lentil-flour flatbread with bean curry and chutney, eaten on the market steps. Mauritius's defining street food.",
+      "lat": -20.161618,
+      "lon": 57.50372,
+      "photos": []
+    },
+    {
+      "n": "Aapravasi Ghat",
+      "cat": "do",
+      "tier": "",
+      "a": "Port Louis (Trou Fanfaron)",
+      "d": "The immigration depot where, between 1834 and 1920, nearly half a million indentured labourers from India first set foot in Mauritius before dispersing to the sugar estates and across the empire. For many Indian families it is a place of ancestry itself: about two-thirds of Mauritians today are of Indian descent, and the surviving fourteen stone steps up which every immigrant walked make the diaspora story physically real. Visit the interpretation centre first, then walk the ruins with a guide who can trace the human history.",
+      "lat": -20.158567,
+      "lon": 57.503109,
+      "photos": []
+    },
+    {
+      "n": "Le Morne Brabant",
+      "cat": "do",
+      "tier": "",
+      "a": "Southwest peninsula",
+      "d": "A dramatic 556-metre basalt monolith jutting into the ocean, once the refuge of escaped slaves (maroons) who hid in its cliffs and caves, now a UNESCO-listed symbol of the fight for freedom. The guided summit hike takes three to four hours and delivers one of the Indian Ocean's great views over the turquoise lagoon and the famous 'underwater waterfall' illusion. The peninsula below holds some of the island's most exclusive resorts, so many stay at its foot and climb at dawn.",
+      "lat": -20.454075,
+      "lon": 57.321302,
+      "photos": []
+    },
+    {
+      "n": "Grand Bassin (Ganga Talao)",
+      "cat": "do",
+      "tier": "",
+      "a": "Savanne (central highlands)",
+      "d": "A sacred crater lake believed to be linked to the holy Ganges, and the most important Hindu pilgrimage site outside India: at Maha Shivratri, hundreds of thousands of Mauritians walk barefoot to pray here. It is guarded by two of the tallest statues in the country, a 33-metre Mangal Mahadev (Shiva) and a matching Durga, with temples to Hanuman, Lakshmi and Ganesh around the water. For an Indian family this is instantly familiar and deeply moving; come early, dress modestly, and light a diya by the lake.",
+      "lat": -20.420934,
+      "lon": 57.492997,
+      "photos": []
+    },
+    {
+      "n": "Caudan Waterfront",
+      "cat": "do",
+      "tier": "",
+      "a": "Port Louis harbour",
+      "d": "The capital's redeveloped harbour front, a walkable stretch of restaurants, boutiques, a marina and the Blue Penny Museum, best at sunset when the yachts light up and the seafood terraces fill. It is the easy, polished way to spend an evening in Port Louis before or after the grittier market and heritage sites. Handy base for a catamaran departure or a Creole-and-seafood dinner overlooking the water.",
+      "lat": -20.160955,
+      "lon": 57.498542,
+      "photos": []
+    },
+    {
+      "n": "Central Market (Bazaar de Port Louis)",
+      "cat": "do",
+      "tier": "",
+      "a": "Port Louis centre",
+      "d": "A century-old covered market that is the sensory heart of the capital: pyramids of tropical fruit, mounds of masala and vanilla, garlands, textiles, and food stalls serving dholl puri, gateaux piments and alouda. The blend of Indian, Chinese, Creole and French influences on one floor is Mauritius in miniature. Go with a guide in the morning for the produce and the spice hall, and taste the street food that locals actually eat.",
+      "lat": -20.160484,
+      "lon": 57.502579,
+      "photos": []
+    },
+    {
+      "n": "Blue Penny Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Caudan Waterfront, Port Louis",
+      "d": "A small, jewel-box museum built around two of the world's most famous and valuable postage stamps, the 1847 Mauritius 'Post Office' Red Penny and Blue Penny, displayed under dimmed light for a few minutes each hour to protect them. Alongside are maritime maps, the original Paul et Virginie statue and colonial-era art that tell the island's story with real curatorial care. A quiet, air-conditioned hour for collectors, history lovers and anyone who wants depth beyond the beach.",
+      "lat": -20.160906,
+      "lon": 57.497501,
+      "photos": []
+    },
+    {
+      "n": "Fort Adelaide (La Citadelle)",
+      "cat": "do",
+      "tier": "",
+      "a": "Port Louis",
+      "d": "A British colonial fortress of 1830s black basalt crowning a hill above the capital, with the best panorama over Port Louis, the harbour, the Champ de Mars and the mountains beyond. It is a short drive up and an easy walk around the ramparts, often the calmest and most photogenic vantage point in the city. Time it for late afternoon light over the port.",
+      "lat": -20.161618,
+      "lon": 57.50372,
+      "photos": []
+    },
+    {
+      "n": "Champ de Mars Racecourse",
+      "cat": "do",
+      "tier": "",
+      "a": "Port Louis",
+      "d": "The oldest horse-racing track in the Southern Hemisphere, opened in 1812 and still the social heart of Mauritian winter Saturdays, ringed by mountains in the middle of the city. On race days the stands buzz with a cross-section of the whole island; even on a quiet day the setting is striking. For visitors from India, the shared colonial turf culture makes a race afternoon a genuinely local, atmospheric outing.",
+      "lat": -20.168863,
+      "lon": 57.510497,
+      "photos": []
+    },
+    {
+      "n": "Jummah Mosque",
+      "cat": "do",
+      "tier": "",
+      "a": "Port Louis (Chinatown edge)",
+      "d": "The most beautiful mosque in Mauritius, built in the 1850s in a graceful blend of Indian, Creole and Mughal styles, its carved teak doors and green-and-white courtyard tucked among the shops of central Port Louis. Non-Muslim visitors are welcome outside prayer times, dressed modestly. A serene, richly decorated stop that shows the island's Muslim heritage a few steps from the market and Chinatown.",
+      "lat": -20.159625,
+      "lon": 57.505034,
+      "photos": []
+    },
+    {
+      "n": "Chinatown, Port Louis",
+      "cat": "do",
+      "tier": "",
+      "a": "Port Louis centre",
+      "d": "Marked by its ceremonial gates, Mauritius' compact Chinatown is a lane of old shophouses, temples, bakeries and some of the capital's best-value food, a reminder that Sino-Mauritians are the fourth strand of the island's culture. It comes alive during the Chinatown Food & Cultural Festival and at Chinese New Year. A short, characterful wander that pairs naturally with the Central Market and Jummah Mosque.",
+      "lat": -20.158718,
+      "lon": 57.506515,
+      "photos": []
+    },
+    {
+      "n": "Marie Reine de la Paix",
+      "cat": "do",
+      "tier": "",
+      "a": "Port Louis",
+      "d": "A serene white marble shrine and terraced garden on the slopes above the capital, built in 1940 and famous as the spot where Pope John Paul II led mass in 1989. The gardens are quiet and immaculate, and the terrace gives another sweeping view over Port Louis. A peaceful, uncrowded counterpoint to the city bustle below.",
+      "lat": -20.170433,
+      "lon": 57.497678,
+      "photos": []
+    },
+    {
+      "n": "Black River Gorges National Park",
+      "cat": "do",
+      "tier": "",
+      "a": "Southwest interior",
+      "d": "The island's largest protected wilderness, over 6,500 hectares of native forest, waterfalls and viewpoints threaded with hiking trails, and the last refuge of Mauritius' rarest endemic birds including the once nearly-extinct pink pigeon and Mauritius kestrel. The Black River Gorges viewpoint and Alexandra Falls lookout are drive-up spectacular; deeper trails reward serious walkers. A cool, green, restorative contrast to the coast, best with a naturalist guide.",
+      "lat": -20.408362,
+      "lon": 57.473064,
+      "photos": []
+    },
+    {
+      "n": "Chamarel Seven Coloured Earths",
+      "cat": "do",
+      "tier": "",
+      "a": "Chamarel (southwest)",
+      "d": "A surreal geological curiosity of undulating dunes in seven distinct colours, formed as volcanic basalt weathered into clays that never mix even in the rain. The geopark on the same ticket includes a viewpoint over the 100-metre Chamarel Waterfall, the tallest single-drop fall on the island, plus giant tortoises. An easy, family-pleasing wonder in the lush southwest, often combined with the rhumerie and Curious Corner.",
+      "lat": -20.439796,
+      "lon": 57.385996,
+      "photos": []
+    },
+    {
+      "n": "Rhumerie de Chamarel",
+      "cat": "do",
+      "tier": "",
+      "a": "Chamarel (southwest)",
+      "d": "One of the most beautiful distilleries in the world, set in its own sugarcane estate against jungled hills, producing agricole rum from fresh-pressed cane rather than molasses. The tour walks you through the plantation and stills and ends with a tasting and an excellent farm-to-table Creole lunch at L'Alchimiste restaurant. A refined, scenic afternoon; the estate setting alone justifies the visit.",
+      "lat": -20.427932,
+      "lon": 57.396487,
+      "photos": []
+    },
+    {
+      "n": "Curious Corner of Chamarel",
+      "cat": "do",
+      "tier": "",
+      "a": "Chamarel (southwest)",
+      "d": "A playful museum of optical illusions right by the Seven Coloured Earths, with an upside-down room, a mirror maze, an anti-gravity room and endless photo tricks. It is the one stop on this stretch that turns a scenic day into pure fun for children and multi-generational groups. Quick, indoor and reliably delightful when little ones tire of viewpoints.",
+      "lat": -20.436595,
+      "lon": 57.383461,
+      "photos": []
+    },
+    {
+      "n": "La Vanille Nature Park",
+      "cat": "do",
+      "tier": "",
+      "a": "Rivi\u00e8re des Anguilles (south)",
+      "d": "A lush nature reserve home to the world's largest captive colony of Aldabra giant tortoises, over a thousand of them roaming among ferns and streams, plus Nile crocodiles, lemurs and a vast insectarium. Children can meet and feed the tortoises up close, making it one of the island's best family outings. A shaded, walkable park that pairs well with a southern coast day.",
+      "lat": -20.500758,
+      "lon": 57.564088,
+      "photos": []
+    },
+    {
+      "n": "Bois Ch\u00e9ri Tea Plantation & Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Grand Bois (south highlands)",
+      "d": "The island's oldest and largest tea estate, established in 1892, where the Tea Route tour walks you through picking, withering and processing before a tasting on a hilltop pavilion with panoramic views over rolling green tea and the southern coast beyond. The vanilla-scented Mauritian tea is a lovely thing to take home. A cool, unhurried highland experience that appeals to anyone raised on Indian chai culture.",
+      "lat": -20.426392,
+      "lon": 57.525893,
+      "photos": []
+    },
+    {
+      "n": "Flic en Flac beach",
+      "cat": "do",
+      "tier": "",
+      "a": "West coast",
+      "d": "One of the longest and most beloved beaches on the west coast, a broad sweep of white sand and shallow lagoon with superb sunsets and a strip of restaurants behind. It is a lively, sociable base, close to Casela and the dolphin waters of Tamarin, and a short boat ride from world-class dive sites off the reef drop-off. Good all-round choice for families who want beach plus easy access to activities.",
+      "lat": -20.303931,
+      "lon": 57.365916,
+      "photos": []
+    },
+    {
+      "n": "Dolphin swimming at Tamarin Bay",
+      "cat": "do",
+      "tier": "",
+      "a": "Tamarin / Rivi\u00e8re Noire (west)",
+      "d": "The sheltered west-coast bays off Tamarin and Rivi\u00e8re Noire host resident pods of spinner and bottlenose dolphins, and an early-morning boat lets you slip into the water and snorkel alongside them in the wild. Responsible operators keep their distance and limit numbers; a private charter makes it calm and unhurried. A genuinely magical, kid-thrilling experience best booked for first light before the winds pick up.",
+      "lat": -20.318356,
+      "lon": 57.391548,
+      "photos": []
+    },
+    {
+      "n": "Casela Nature Parks",
+      "cat": "do",
+      "tier": "",
+      "a": "Cascavelle (west)",
+      "d": "A large adventure and wildlife park in the west hills offering everything from walking with lions and a giant-tortoise safari to zip-lines, quad tours, a Nepalese swing bridge and a petting farm, all with valley views. It is the island's top one-stop day for active families and teenagers. Book the safari and adventure add-ons in advance and go early to beat the heat.",
+      "lat": -20.305063,
+      "lon": 57.407975,
+      "photos": []
+    },
+    {
+      "n": "Tamarind Falls (7 Cascades)",
+      "cat": "do",
+      "tier": "",
+      "a": "Henrietta (west interior)",
+      "d": "A chain of seven waterfalls tumbling through a hidden gorge above the west coast, reached on a guided canyoning-style hike with natural pools deep enough to swim and, for the adventurous, cliff jumps. It is one of the island's most spectacular and least crowded natural sites, but the terrain needs a licensed guide. A half-day for reasonably fit travellers who want the wild interior, not just the lagoon.",
+      "lat": -20.354497,
+      "lon": 57.466284,
+      "photos": []
+    },
+    {
+      "n": "Grand Baie",
+      "cat": "do",
+      "tier": "",
+      "a": "North coast",
+      "d": "The island's most cosmopolitan resort town, a curved bay of clear water fringed by boutiques, jewellers, waterfront restaurants and the departure point for most catamaran cruises and watersports. It is the north's hub for shopping and dining, with the Grand Baie Bazaar for souvenirs and La Croisette mall nearby. A convenient, energetic base close to the best northern beaches.",
+      "lat": -20.01302,
+      "lon": 57.584627,
+      "photos": []
+    },
+    {
+      "n": "Pereyb\u00e8re & Mont Choisy beaches",
+      "cat": "do",
+      "tier": "",
+      "a": "North coast",
+      "d": "Two of the north's finest public beaches: Pereyb\u00e8re a small, family-friendly cove with calm swimming and casual eateries, and Mont Choisy a long crescent of casuarina-shaded sand ideal for a lazy day and a sunset walk. Both sit minutes from Grand Baie, so they make an easy addition to a northern stay. Come with a picnic or settle at a beach shack for grilled fish.",
+      "lat": -20.10475,
+      "lon": 57.725142,
+      "photos": []
+    },
+    {
+      "n": "Cap Malheureux church",
+      "cat": "do",
+      "tier": "",
+      "a": "Northern tip",
+      "d": "The much-photographed red-roofed church of Notre-Dame Auxiliatrice at the island's northern point, framed against the blue lagoon and the offshore islands of Coin de Mire, Gabriel and Flat. It is a tiny, tranquil spot and one of Mauritius' signature postcard views. A quick, scenic stop that pairs naturally with a northern islands boat trip.",
+      "lat": -20.016471,
+      "lon": 57.579123,
+      "photos": []
+    },
+    {
+      "n": "SSR Botanical Garden, Pamplemousses",
+      "cat": "do",
+      "tier": "",
+      "a": "Pamplemousses (north)",
+      "d": "One of the oldest botanical gardens in the Southern Hemisphere, laid out in the 18th century, world-famous for its ponds of giant Victoria amazonica water lilies whose platter-sized pads can bear a child's weight, plus an avenue of talipot palms and dozens of spice and endemic species. A guide brings the plant lore alive; the shade and calm are welcome after the coast. A cultured, easy morning close to L'Aventure du Sucre.",
+      "lat": -20.106615,
+      "lon": 57.58035,
+      "photos": []
+    },
+    {
+      "n": "L'Aventure du Sucre",
+      "cat": "do",
+      "tier": "",
+      "a": "Pamplemousses (north)",
+      "d": "A superb museum inside a former sugar factory that tells the island's whole story through sugar, slavery, indenture, rum and trade, with real machinery, an excellent shop of estate sugars and a fine Creole restaurant. It is far richer than it sounds and one of the best rainy-day and history stops on the island. Pairs perfectly with the neighbouring botanical garden.",
+      "lat": -20.097555,
+      "lon": 57.574112,
+      "photos": []
+    },
+    {
+      "n": "\u00cele aux Cerfs",
+      "cat": "do",
+      "tier": "",
+      "a": "Off the east coast (Trou d'Eau Douce)",
+      "d": "A picture-perfect offshore island of powder-white sand and shallow turquoise water, reached by boat from the east coast and home to a celebrated championship golf course, parasailing, tube rides and a floating-lunch catamaran scene. It is the classic east-coast day out, easily private-chartered for a family or couple. Go on a private speedboat to arrive early and claim a quiet stretch of beach.",
+      "lat": -20.272027,
+      "lon": 57.803666,
+      "photos": []
+    },
+    {
+      "n": "Belle Mare beach",
+      "cat": "do",
+      "tier": "",
+      "a": "East coast",
+      "d": "A long ribbon of white sand and clear lagoon on the tranquil, less-developed east coast, home to a cluster of the island's finest resorts and some of the best sunrise light in Mauritius. Its wide reef flat is good for swimming and kayaking, and the pace is noticeably calmer than the north. The natural choice for an ultra-luxury, unhurried beach base.",
+      "lat": -20.191117,
+      "lon": 57.775207,
+      "photos": []
+    },
+    {
+      "n": "Bras d'Eau National Park",
+      "cat": "do",
+      "tier": "",
+      "a": "Northeast",
+      "d": "A quiet coastal forest reserve of ebony and native woodland with easy walking trails, birdwatching and the ruins of an old sugar estate, plus the neighbouring Roches Noires lava caves. It is a peaceful, uncrowded alternative to the busier parks, close to the east-coast resorts. A gentle half-day for nature lovers who want green space near the beach.",
+      "lat": -20.131109,
+      "lon": 57.742205,
+      "photos": []
+    },
+    {
+      "n": "Blue Bay Marine Park",
+      "cat": "do",
+      "tier": "",
+      "a": "Southeast (Mah\u00e9bourg)",
+      "d": "A protected marine reserve of exceptionally clear, calm, shallow water and a garden of brain and staghorn corals, the island's premier snorkelling site, easily explored by glass-bottom boat or with mask and fins. Turtles and clouds of reef fish are common. An easy, gorgeous outing near Mah\u00e9bourg, ideal for families and first-time snorkellers.",
+      "lat": -20.445106,
+      "lon": 57.710003,
+      "photos": []
+    },
+    {
+      "n": "Blue Safari submarine",
+      "cat": "do",
+      "tier": "",
+      "a": "Trou aux Biches (north)",
+      "d": "The Indian Ocean's only leisure submarine, a real air-conditioned sub that descends to around 35 metres past coral, reef fish, turtles and a shipwreck, with each passenger at their own porthole and no swimming required. It is a novel, all-weather way to see the reef that works for grandparents and small children alike. Also offered as an underwater 'subscooter' for the more adventurous.",
+      "lat": -20.02561,
+      "lon": 57.550378,
+      "photos": []
+    },
+    {
+      "n": "Undersea walk (sea walking)",
+      "cat": "do",
+      "tier": "",
+      "a": "Grand Baie / north lagoon",
+      "d": "A gentle, no-experience-needed way to stroll along the seabed a few metres down wearing a weighted helmet fed with air, surrounded by fish and coral while breathing normally and keeping your hair dry. It is a fun, safe novelty for non-divers and nervous swimmers, popular with families in the calm northern lagoon. A short, memorable slot on any beach day.",
+      "lat": -20.025298,
+      "lon": 57.579987,
+      "photos": []
+    },
+    {
+      "n": "Catamaran cruise to the northern islands",
+      "cat": "do",
+      "tier": "",
+      "a": "North (from Grand Baie)",
+      "d": "The quintessential Mauritius day at sea: a sailing catamaran gliding to Gabriel and Flat islands or up the east coast to \u00cele aux Cerfs, with snorkel stops, a grilled Creole lunch on board and time to swim off the deck. A private charter turns it into a serene, tailored day for a couple or family with a chef and crew. The single best way to appreciate the barrier-reef lagoon.",
+      "lat": -20.025298,
+      "lon": 57.579987,
+      "photos": []
+    },
+    {
+      "n": "Deep-sea fishing off the west coast",
+      "cat": "do",
+      "tier": "",
+      "a": "Rivi\u00e8re Noire (west)",
+      "d": "The waters off Rivi\u00e8re Noire drop off sharply into some of the world's premier big-game grounds, and Mauritius has held world records for blue marlin caught close to shore between roughly November and April. Private charters run half or full days for marlin, tuna, wahoo and dorado, tag-and-release available. A serious pursuit for enthusiasts, and a thrilling private outing even for first-timers.",
+      "lat": -20.176956,
+      "lon": 57.46754,
+      "photos": []
+    },
+    {
+      "n": "Championship golf",
+      "cat": "do",
+      "tier": "",
+      "a": "Island-wide (east & southwest)",
+      "d": "Mauritius is a genuine golf destination, with signature 18-hole championship courses including the island layout at \u00cele aux Cerfs (Bernhard Langer), Anahita (Ernie Els), Heritage Le Ch\u00e2teau in the south and the Legend and Links at Belle Mare. Ocean and mountain backdrops make it as scenic as it is testing. Tee times are easily arranged through the luxury resorts, many with resident pros.",
+      "lat": -20.093118,
+      "lon": 57.703237,
+      "photos": []
+    },
+    {
+      "n": "Reef diving",
+      "cat": "do",
+      "tier": "",
+      "a": "Island-wide (west & north)",
+      "d": "Beyond the calm lagoon, the barrier reef drops into dramatic walls, caves and wrecks: the west coast off Flic en Flac (the Cathedral cavern) and the north around Coin de Mire offer some of the Indian Ocean's best diving, with sightings of turtles, moray eels and pelagics. PADI centres cater to first dives through to technical divers. Best visibility is roughly December to March.",
+      "lat": -19.986865,
+      "lon": 57.603204,
+      "photos": []
+    },
+    {
+      "n": "Kitesurfing at Le Morne",
+      "cat": "do",
+      "tier": "",
+      "a": "Le Morne lagoon (southwest)",
+      "d": "The flat, steady-wind lagoon at Le Morne, including the legendary 'One Eye' wave, is one of the world's top kitesurfing spots, drawing pros in the windy May-to-October season. Schools on the beach teach complete beginners in the shallow, safe water, and the mountain backdrop is unforgettable. A bucket-list stretch of water whether you ride or just watch.",
+      "lat": -20.48154,
+      "lon": 57.354556,
+      "photos": []
+    },
+    {
+      "n": "Sega evening & Creole cuisine",
+      "cat": "do",
+      "tier": "",
+      "a": "Island-wide",
+      "d": "Sega, the island's soulful drum-and-dance tradition born of the enslaved, is UNESCO-listed intangible heritage and still the sound of a Mauritian evening, most beautifully experienced at a beach fire or a resort night paired with a Creole feast. Expect octopus curry, rougaille, dholl puri and vindaye alongside plentiful, excellent vegetarian options that suit Indian and Jain palates. The warmest way to understand the island's culture in one night.",
+      "lat": -19.850827,
+      "lon": 57.787234,
+      "photos": []
+    },
+    {
+      "n": "Trou aux Cerfs crater",
+      "cat": "do",
+      "tier": "",
+      "a": "Curepipe (central)",
+      "d": "A dormant volcanic crater in the highland town of Curepipe, its forested cone circled by a road and walking path with views over the central plateau and, on clear days, to the coast. It is a quick, cool-climate stop that explains the island's volcanic origins, often folded into a southwest touring day. The rim walk is easy and the misty highland light is a change from the beach.",
+      "lat": -20.317908,
+      "lon": 57.511497,
+      "photos": []
+    },
+    {
+      "n": "Mah\u00e9bourg & the Naval Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Southeast",
+      "d": "A characterful old fishing town on the southeast coast with a lively Monday market, waterfront and the National History (Naval) Museum recalling the 1810 naval battle between the French and British fought in these waters. It is the gateway to Blue Bay and \u00cele aux Aigrettes and a slice of unpolished local life. A relaxed morning of history and market colour away from the resorts.",
+      "lat": -20.284377,
+      "lon": 57.790892,
+      "photos": []
+    },
+    {
+      "n": "\u00cele aux Aigrettes",
+      "cat": "do",
+      "tier": "",
+      "a": "Off Mah\u00e9bourg (southeast)",
+      "d": "A tiny coral islet nature reserve managed for conservation, the last remnant of Mauritius' native coastal ebony forest and a refuge for restored endemic species like the pink pigeon, Aldabra tortoises and the Telfair's skink. A guided walk here is the closest you can get to the island as it was before humans and the dodo's demise. A quiet, meaningful hour for families interested in conservation.",
+      "lat": -20.420213,
+      "lon": 57.733281,
+      "photos": []
+    },
+    {
+      "n": "Ganga Talao to Chamarel scenic drive",
+      "cat": "do",
+      "tier": "",
+      "a": "Southern highlands",
+      "d": "The road linking the sacred lake, Black River Gorges viewpoints, Alexandra Falls and Chamarel is one of the island's great scenic drives, winding through cloud forest and past waterfalls with the whole south spread below. With a private driver-guide it becomes a single unhurried day taking in the pilgrimage site, the endemic forest and the coloured earths. The best way to see the green, mountainous interior most beach visitors miss.",
+      "lat": -20.276416,
+      "lon": 57.515957,
+      "photos": []
+    },
+    {
+      "n": "Notre-Dame Auxiliatrice & the north coast churches",
+      "cat": "do",
+      "tier": "",
+      "a": "North coast",
+      "d": "Beyond the famous red-roofed Cap Malheureux church, the northern shore strings together photogenic Creole chapels and viewpoints out to Coin de Mire, best done as a slow coastal drive from Grand Baie to the cape. It captures the island's easygoing Catholic-Creole rhythm alongside its Hindu and Muslim life. A gentle, scenic loop for a relaxed morning.",
+      "lat": -20.10475,
+      "lon": 57.725142,
+      "photos": []
+    },
+    {
+      "n": "Caudan Waterfront",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "Port Louis",
+      "d": "The capital's easy evening \u2014 a harbourside stretch of bars, waterfront restaurants, a casino and live music, made for a stroll rather than a late night. The one genuinely urban after-dark address on the island.",
+      "lat": -20.160955,
+      "lon": 57.498542,
+      "photos": []
+    },
+    {
+      "n": "Grand Baie strip",
+      "cat": "party",
+      "tier": "Late & loud",
+      "a": "Grand Baie (North)",
+      "d": "The island's one real nightlife village \u2014 the northern bay's main street turns after dark into a run of beach bars, lounges and clubs, busy with locals and travellers alike.",
+      "lat": -20.012513,
+      "lon": 57.58474,
+      "photos": []
+    },
+    {
+      "n": "Rum-shack sundowners, Shanti Maurice",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "St F\u00e9lix (South)",
+      "d": "A barefoot beach rum shack with dozens of house and island rhums, poured as the sun goes down over the empty south coast. Mauritian nightlife at its most civilised \u2014 a glass, the sea, and nowhere to be.",
+      "lat": -20.291838,
+      "lon": 57.474597,
+      "photos": []
+    },
+    {
+      "n": "Sunset bars of the maison resorts",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Belle Mare, Grand Baie, Le Morne",
+      "d": "Mauritius after dark is, honestly, a great cocktail on your own resort's beach as the light goes \u2014 the bars at One&Only, Royal Palm and the St. Regis are destinations in themselves, with the lagoon for company.",
+      "lat": -20.003049,
+      "lon": 57.602983,
+      "photos": []
+    }
+  ]
+}

@@ -1,1 +1,808 @@
-{"center": [-8.22713, 115.19192], "venues": [{"n": "Mandapa, a Ritz-Carlton Reserve", "cat": "stay", "tier": "Ultra", "a": "Ubud (Sayan / Ayung Valley)", "d": "A 'village within a village' on the Ayung River — the island's most complete idea of Ubud calm.", "lat": -8.485764, "lon": 115.24389, "p": "v"}, {"n": "Four Seasons Resort Bali at Sayan", "cat": "stay", "tier": "Ultra", "a": "Ubud (Sayan)", "d": "Arrive over a teak footbridge into the treetops — the resort that once topped the world.", "lat": -8.50167, "lon": 115.24279, "p": "v"}, {"n": "Bvlgari Resort Bali", "cat": "stay", "tier": "Ultra", "a": "Uluwatu", "d": "A cliff-edge Italian jewel-box 150 metres above the Indian Ocean, reached by its own inclinator.", "lat": -8.460398, "lon": 115.057174, "p": "v"}, {"n": "Amankila", "cat": "stay", "tier": "Ultra", "a": "Manggis (Karangasem, East Bali)", "d": "Aman's three-tiered pools cascade to a private black-sand cove — the quiet east, far from the crowds.", "lat": -8.500759, "lon": 115.527541, "p": "v"}, {"n": "Amandari", "cat": "stay", "tier": "Ultra", "a": "Ubud (Kedewatan)", "d": "A hilltop Balinese village above the Ayung gorge — Aman's original Bali house, still peerless.", "lat": -8.48868, "lon": 115.244746, "p": "v"}, {"n": "Capella Ubud", "cat": "stay", "tier": "Ultra", "a": "Ubud (Keliki)", "d": "Bill Bensley's tented camp in the rainforest — theatre, craft and jungle in equal measure.", "lat": -8.448416, "lon": 115.268187, "p": "v"}, {"n": "Raffles Bali", "cat": "stay", "tier": "Ultra", "a": "Jimbaran", "d": "A hillside of just 32 pool villas above Jimbaran Bay, with Raffles butlers and a serious wellness spine.", "lat": -8.450705, "lon": 115.605841, "p": "v"}, {"n": "COMO Shambhala Estate", "cat": "stay", "tier": "Grand", "a": "Ubud (Begawan / Ayung Valley)", "d": "A 'retreat for change' in the jungle — the island's most credentialed destination-wellness address.", "lat": -8.450703, "lon": 115.23535, "p": "v"}, {"n": "Desa Potato Head", "cat": "stay", "tier": "Grand", "a": "Seminyak", "d": "A design-led 'creative village' on the beach — sustainability, art and the island's most famous sunset scene.", "lat": -8.678921, "lon": 115.149869, "p": "v"}, {"n": "Anantara Ubud Bali Resort", "cat": "stay", "tier": "Luxury", "a": "Ubud (Payangan)", "d": "A rainforest-valley newcomer with just 85 rooms deep in the Payangan jungle — instant Travel + Leisure favourite.", "lat": -8.470776, "lon": 115.249716, "p": "a"}, {"n": "COMO Uma Canggu", "cat": "stay", "tier": "Luxury", "a": "Canggu (Echo Beach)", "d": "COMO's beachfront house on the surf coast — bright, contemporary and built for an active stay.", "lat": -8.655274, "lon": 115.126664, "p": "v"}, {"n": "COMO Uma Ubud", "cat": "stay", "tier": "Luxury", "a": "Ubud", "d": "A smaller, calmer COMO among the rice fields — Ubud wellness at a gentler scale.", "lat": -8.492041, "lon": 115.253432, "p": "v"}, {"n": "The Legian Seminyak, Bali", "cat": "stay", "tier": "Luxury", "a": "Seminyak", "d": "The all-suite grande dame of Seminyak beach — a design icon that has never gone out of style.", "lat": -8.684516, "lon": 115.153415, "p": "v"}, {"n": "Soori Bali", "cat": "stay", "tier": "Luxury", "a": "Tabanan (West Bali)", "d": "An architect's black-stone villa retreat between rice fields and a wild volcanic beach — profoundly private.", "lat": -8.22713, "lon": 115.19192, "p": "v"}, {"n": "Viceroy Bali", "cat": "stay", "tier": "Luxury", "a": "Ubud (Petanu Valley)", "d": "A family-owned valley of pool villas above the Petanu gorge — clubby, private and quietly grand.", "lat": -8.494032, "lon": 115.277449, "p": "v"}, {"n": "The Oberoi Beach Resort, Bali", "cat": "stay", "tier": "Luxury", "a": "Seminyak", "d": "The house that set the Bali standard — thatched garden villas and lawns running to Seminyak sand.", "lat": -8.142831, "lon": 115.051902, "p": "v"}, {"n": "Nihi Bali (formerly Chapung Sebali)", "cat": "stay", "tier": "Luxury", "a": "Ubud (Sebali)", "d": "A cliff-edge Ubud retreat of villas above a jungle ravine — dramatic, design-forward, serene.", "lat": -8.471169, "lon": 115.260869, "p": "a"}, {"n": "Regent Bali Canggu", "cat": "stay", "tier": "Luxury", "a": "Canggu", "d": "Regent's return to Bali on the fashionable Canggu coast — polished, contemporary, of-the-moment.", "lat": -8.655788, "lon": 115.129405, "p": "v"}, {"n": "Nirjhara", "cat": "stay", "tier": "Luxury", "a": "Tabanan", "d": "A jungle-and-waterfall hideaway near the coast — rice paddies one side, cascade the other.", "lat": -8.603182, "lon": 115.088328, "p": "v"}, {"n": "Samsara Ubud", "cat": "stay", "tier": "Luxury", "a": "Ubud", "d": "An all-villa boutique retreat with a strong wellness and privacy focus, deep in Ubud green.", "lat": -8.429014, "lon": 115.258448, "p": "v"}, {"n": "The Purist Villas & Spa", "cat": "stay", "tier": "Premium", "a": "Ubud", "d": "A tiny antique-filled villa house among the rice fields — Ubud character without resort scale.", "lat": -8.494911, "lon": 115.269943, "p": "v"}, {"n": "Bisma Eight", "cat": "stay", "tier": "Premium", "a": "Ubud (Jalan Bisma)", "d": "A design-forward small hotel walkable to central Ubud, with a canopy-level pool over the jungle.", "lat": -8.511573, "lon": 115.257914, "p": "v"}, {"n": "Chapung SeBali Resort & Spa", "cat": "stay", "tier": "Premium", "a": "Ubud (Sebali)", "d": "Cliffside villas over the Ayung tributary with a much-photographed arch pool — great value for the drama.", "lat": -8.471169, "lon": 115.260869, "p": "a"}, {"n": "Lost Lindenberg", "cat": "stay", "tier": "Premium", "a": "Pekutatan (West Bali)", "d": "Timber tree-house towers in a jungle by an untouristed black-sand beach — quietly radical, remote and calm.", "lat": -8.492401, "lon": 115.270912, "p": "v"}, {"n": "Blue Karma Village", "cat": "stay", "tier": "Premium", "a": "Umalas (Seminyak / Canggu belt)", "d": "A cluster of private-pool villas in a quiet inland village — boutique value between the beaches.", "lat": -8.691349, "lon": 115.171249, "p": "v"}, {"n": "W Bali - Seminyak", "cat": "stay", "tier": "Premium", "a": "Seminyak (Petitenget)", "d": "A high-energy design resort on Seminyak beach — pool scene, DJ nights and villas above the sand.", "lat": -8.677168, "lon": 115.149735, "p": "v"}, {"n": "Locavore NXT", "cat": "eat", "tier": "Destination", "a": "Ubud", "d": "A forage-to-table 'localised rebellion' — the most progressive kitchen in Indonesia, built on its own food system.", "lat": -8.542322, "lon": 115.257186, "p": "v"}, {"n": "Room4Dessert", "cat": "eat", "tier": "Destination", "a": "Ubud", "d": "Will Goldfarb's dessert-led tasting theatre — the ex-elBulli mind who was named the world's best pastry chef.", "lat": -8.492322, "lon": 115.253312, "p": "v"}, {"n": "Kayuputi", "cat": "eat", "tier": "Destination", "a": "Nusa Dua (The St. Regis Bali)", "d": "Pan-Asian haute cuisine on the Nusa Dua beachfront, with one of Bali's most decorated cellars.", "lat": -8.189504, "lon": 115.04543, "p": "v"}, {"n": "Mozaic", "cat": "eat", "tier": "Destination", "a": "Ubud", "d": "The restaurant that brought fine dining to Ubud — a quarter-century of French technique and Indonesian flavour.", "lat": -8.22713, "lon": 115.19192, "p": "v"}, {"n": "Merah Putih", "cat": "eat", "tier": "Fine", "a": "Seminyak (Kerobokan)", "d": "High-end Indonesian archipelago cooking under cathedral-like ceilings — arguably Bali's most beautiful room.", "lat": -8.676891, "lon": 115.154516, "p": "v"}, {"n": "Sangsaka", "cat": "eat", "tier": "Fine", "a": "Seminyak", "d": "A small, fire-driven kitchen doing one of the island's most exciting modern-Indonesian tasting menus.", "lat": -8.678586, "lon": 115.160611, "p": "v"}, {"n": "Sarong", "cat": "eat", "tier": "Fine", "a": "Seminyak (Kerobokan)", "d": "Chef Will Meyrick's street-food-to-fine-dining journey across Asia — glamorous and generous.", "lat": -8.415117, "lon": 115.315784, "p": "v"}, {"n": "Mamasan", "cat": "eat", "tier": "Fine", "a": "Seminyak (Kerobokan)", "d": "Will Meyrick's other room — 1920s-Shanghai theatre and bold pan-Asian street flavours.", "lat": -8.22713, "lon": 115.19192, "p": "v"}, {"n": "Métis", "cat": "eat", "tier": "Fine", "a": "Seminyak (Petitenget)", "d": "Grand French-Mediterranean dining over the rice fields — a long-standing Seminyak occasion address.", "lat": -8.671913, "lon": 115.161912, "p": "v"}, {"n": "Barbacoa", "cat": "eat", "tier": "Smart", "a": "Seminyak (Kerobokan)", "d": "Latin-American open-fire and wood-smoke cooking in a soaring warehouse — bold, generous, fun.", "lat": -8.671952, "lon": 115.162944, "p": "v"}, {"n": "Hujan Locale", "cat": "eat", "tier": "Smart", "a": "Ubud", "d": "Will Meyrick's Ubud house for regional Indonesian home cooking — unfussy, warm, deeply of-the-island.", "lat": -8.507349, "lon": 115.265078, "p": "v"}, {"n": "Bambu", "cat": "eat", "tier": "Fine", "a": "Seminyak (Petitenget)", "d": "Fine Indonesian dining in a lantern-lit garden pavilion — one of Seminyak's most atmospheric rooms.", "lat": -8.276123, "lon": 115.15666, "p": "v"}, {"n": "Api Jiwa", "cat": "eat", "tier": "Fine", "a": "Seminyak", "d": "An open-fire chef's-counter grilling over Indonesian binchotan and flame — smoke, char and craft.", "lat": -8.448416, "lon": 115.268187, "p": "v"}, {"n": "Kaum", "cat": "eat", "tier": "Smart", "a": "Seminyak (Potato Head)", "d": "Heritage Indonesian recipes gathered from across the archipelago — cooking with a preservation mission.", "lat": -8.679223, "lon": 115.149873, "p": "v"}, {"n": "Ijen at Desa Potato Head", "cat": "eat", "tier": "Fine", "a": "Seminyak (Potato Head)", "d": "A zero-waste, fire-led tasting kitchen inside Bali's most awarded design hotel.", "lat": -8.678921, "lon": 115.149869, "p": "v"}, {"n": "Mauri", "cat": "eat", "tier": "Fine", "a": "Kerobokan", "d": "A refined Italian-leaning fine-dining newcomer that has climbed straight to the island's best-of lists.", "lat": -8.706335, "lon": 115.167844, "p": "v"}, {"n": "Night Rooster", "cat": "eat", "tier": "Smart", "a": "Ubud", "d": "Locavore's cocktail bar — theatrical, botanical drinks built on Indonesian folklore and native ingredients.", "lat": -8.510354, "lon": 115.26393, "p": "v"}, {"n": "Warung Babi Guling Ibu Oka", "cat": "eat", "tier": "Casual", "a": "Ubud", "d": "Ubud's most famous suckling-pig warung — the honest, non-negotiable taste of Balinese food.", "lat": -8.505767, "lon": 115.264336, "p": "v"}, {"n": "Bridges Bali", "cat": "eat", "tier": "Smart", "a": "Ubud (Campuhan)", "d": "A river-gorge restaurant and wine cellar spanning the Campuhan bridges — a long-standing Ubud institution.", "lat": -8.505074, "lon": 115.254216, "p": "v"}, {"n": "Bella Cibo", "cat": "eat", "tier": "Smart", "a": "Canggu", "d": "Considered Italian cooking on the Canggu coast — a quiet favourite that keeps its standards high.", "lat": -8.639902, "lon": 115.143605, "p": "a"}, {"n": "Tanah Lot, the floating sea temple", "cat": "do", "tier": "", "a": "Tabanan / West Coast", "d": "A 16th-century shrine on a black-rock islet that appears to float at high tide, one of Indonesia's most photographed silhouettes at sunset. The clifftop terraces let elders watch the light change in comfort while younger travellers walk down to the tide pools; a private driver-plus-guide turns the crowd into a manageable golden hour.", "lat": -8.275662, "lon": 115.163982, "p": "a"}, {"n": "Besakih, the Mother Temple", "cat": "do", "tier": "", "a": "Karangasem / Mount Agung", "d": "Bali's largest and holiest Hindu complex — 23 temples terraced up the flank of Mount Agung, in use for over a thousand years and unharmed by the 1963 eruption that stopped at its steps. For Hindu travellers this is the spiritual heart of the island; a licensed guide explains the pura hierarchy and keeps the temple touts at bay.", "lat": -8.342892, "lon": 115.507208, "p": "a"}, {"n": "Tirta Empul holy-spring purification (Melukat)", "cat": "do", "tier": "", "a": "Tampaksiring / near Ubud", "d": "A sacred water temple founded in 962 AD where Balinese Hindus queue at carved spouts for Melukat, a purification ritual to cleanse mind and spirit. It resonates powerfully for Indian travellers who know the idea of holy-water darshan; a private guide (now required for the ritual) arranges a quiet early slot and a sarong, so it feels devotional rather than touristic.", "lat": -8.480787, "lon": 115.298895, "p": "a"}, {"n": "Lempuyang Temple — the Gates of Heaven", "cat": "do", "tier": "", "a": "Karangasem / East Bali", "d": "A hilltop temple where two split gates frame Mount Agung to perfection — the island's most famous photograph (the 'water reflection' is a mirror trick the on-site photographer performs under the lens). Come before sunrise, before cloud swallows the volcano; a driver who leaves Ubud at 4am beats both the heat and the two-hour queue.", "lat": -8.342059, "lon": 115.511463, "p": "a"}, {"n": "Jatiluwih rice terraces & the Subak system", "cat": "do", "tier": "", "a": "Tabanan Highlands", "d": "Over 600 hectares of emerald terraces sculpted by a thousand-year-old cooperative irrigation system rooted in the Tri Hita Karana philosophy of harmony between people, nature and the divine. Cooler, quieter and far grander than the roadside terraces near Ubud — a walking trail and a warung lunch make an unhurried half-day for a private group.", "lat": -8.342494, "lon": 115.12643, "p": "a"}, {"n": "Tegallalang rice terraces & the jungle swings", "cat": "do", "tier": "", "a": "Ubud", "d": "The classic stepped valley just 20 minutes north of Ubud — clean paths, coconut palms and the giant swings that arc out over the paddies, catnip for teenagers and grandparents with a camera alike. Go early (before 8am) with a driver so you get the low-angle light and the terraces largely to yourselves.", "lat": -8.435652, "lon": 115.281091, "p": "v"}, {"n": "Sacred Monkey Forest Sanctuary", "cat": "do", "tier": "", "a": "Ubud", "d": "A 12.5-hectare jungle reserve in the heart of Ubud with three moss-covered 14th-century temples and 1,200 long-tailed macaques the Balinese hold sacred. A hit with multi-generational groups — just leave sunglasses and loose bags in the car, as the monkeys are quick and cheeky.", "lat": -8.518735, "lon": 115.25832, "p": "v"}, {"n": "Campuhan Ridge Walk at dawn", "cat": "do", "tier": "", "a": "Ubud", "d": "A gentle two-kilometre spine of grassy ridge above a green valley — the loveliest free thing to do in Ubud, best walked at 6am when it is cool, soft-lit and nearly empty. Easy enough for most of the family, and a coffee stop at the top rewards the effort before the day heats up.", "lat": -8.499023, "lon": 115.255159, "p": "v"}, {"n": "Ubud Royal Palace & evening Legong / Barong dance", "cat": "do", "tier": "", "a": "Ubud", "d": "The 19th-century Puri Saren Agung, still home to Ubud's royal family, hosts nightly traditional dance in its courtyard — Legong, the Ramayana ballet, or the Barong's battle of good and evil, set to live gamelan. Free to wander by day; an evening performance under the carved gates is the most accessible window into Balinese court culture.", "lat": -8.506723, "lon": 115.262707, "p": "a"}, {"n": "Ubud Art Market", "cat": "do", "tier": "", "a": "Ubud", "d": "Across the road from the palace, a warren of stalls for ikat sarongs, woven baskets, silver and carved wood — good fun to browse and haggle, with your guide steering you to the better-quality vendors upstairs. A relaxed hour for the family before or after the dance.", "lat": -8.506434, "lon": 115.261564, "p": "v"}, {"n": "ARMA — Agung Rai Museum of Art", "cat": "do", "tier": "", "a": "Ubud", "d": "A serene garden museum founded by a Balinese collector, spanning classical Kamasan bark painting, the celebrated 1930s Batuan and Pita Maha works, and foreign masters who fell for the island. The calmest, best-curated art stop in Ubud — and its cultural workshops (painting, dance) are a genuine private-hosted experience for older children.", "lat": -8.522868, "lon": 115.264769, "p": "v"}, {"n": "Neka Art Museum", "cat": "do", "tier": "", "a": "Ubud", "d": "Six pavilions telling the chronological story of Balinese painting and its collision with visiting Western artists — arguably the most historically grounded collection on the island. Air-conditioned, unhurried and easy to pair with a Campuhan walk on the same morning.", "lat": -8.491837, "lon": 115.253619, "p": "v"}, {"n": "Blanco Renaissance Museum", "cat": "do", "tier": "", "a": "Ubud", "d": "The flamboyant clifftop house-studio of Filipino-Spanish painter Don Antonio Blanco, perched above the Campuhan gorge with gilded frames, ornate architecture and river views. A quick, characterful stop — half art, half theatre — that photographs beautifully.", "lat": -8.504865, "lon": 115.253963, "p": "v"}, {"n": "Mount Batur sunrise trek", "cat": "do", "tier": "", "a": "Kintamani", "d": "A 2am start and a torch-lit climb up an active volcano to watch dawn break over the caldera and Lake Batur, with a hot-spring soak to follow. Best for the fitter, adventurous members of the family; a private guide, hot tea at the summit and a slower pace make it far more civilised than the group tours.", "lat": -8.243279, "lon": 115.391083, "p": "v"}, {"n": "Kintamani caldera lunch with Mount Batur views", "cat": "do", "tier": "", "a": "Kintamani", "d": "For those who'd rather not climb at 2am, the ridge restaurants of Kintamani deliver the whole caldera — volcano, black lava fields and lake — over a leisurely lunch. Cool mountain air, a private driver and a table on the rim make an effortless half-day from Ubud.", "lat": -8.249516, "lon": 115.348223, "p": "a"}, {"n": "Ulun Danu Beratan, the lake temple", "cat": "do", "tier": "", "a": "Bedugul Highlands", "d": "A 17th-century temple dedicated to the water goddess Dewi Danu, its multi-tiered meru shrines appearing to float on misty Lake Beratan at 1,200 metres. The cool highland setting is a gentle, photogenic stop for all ages — and unmistakably the temple on the 50,000-rupiah note.", "lat": -8.275507, "lon": 115.16626, "p": "v"}, {"n": "Munduk waterfalls & the highland trails", "cat": "do", "tier": "", "a": "Munduk / North Bali", "d": "A cool, cloud-forest village of clove and coffee plantations laced with jungle waterfall walks — the un-touristy alternative to Bali's crowded cascades. A guided morning trek here, ending in a country lunch, suits families who want green calm over beach heat.", "lat": -8.653994, "lon": 115.130437, "p": "a"}, {"n": "Twin Lakes — Buyan & Tamblingan", "cat": "do", "tier": "", "a": "Munduk / Bedugul", "d": "Two serene crater lakes inside an extinct volcano, once a single body of water, now separated by a jungle land-bridge you can trek between past mossy shrines. A traditional dugout canoe crossing on Tamblingan is a quiet, storybook experience away from the crowds.", "lat": -8.260376, "lon": 115.09932, "p": "v"}, {"n": "Sekumpul Waterfall", "cat": "do", "tier": "", "a": "Buleleng / North Bali", "d": "Widely rated Bali's most spectacular falls — a fan of seven cascades over 80 metres tall, reached by a 400-step jungle descent and a river crossing. It rewards effort with drama; for a softer version, a guide can position you at the viewpoint without the full scramble.", "lat": -8.17781, "lon": 115.182691, "p": "v"}, {"n": "Tegenungan Waterfall", "cat": "do", "tier": "", "a": "near Ubud", "d": "A powerful 15-metre curtain of water just 20 minutes from Ubud — the easiest 'proper' waterfall to reach, with a stepped path and a swimmable pool at the base. Best before 8am for light and space; an easy add-on to a Ubud rice-terrace morning.", "lat": -8.575229, "lon": 115.290701, "p": "v"}, {"n": "Sidemen Valley & ikat weaving", "cat": "do", "tier": "", "a": "Karangasem / East Bali", "d": "The Bali that Ubud used to be — hand-tended rice terraces cascading toward Mount Agung, birdsong instead of scooters, and family workshops still weaving endek and songket ikat the old way. The most restful base on the island for a private villa; walk the paddies at dawn, watch a loom in the afternoon.", "lat": -8.342059, "lon": 115.511463, "p": "a"}, {"n": "Celuk village silversmithing", "cat": "do", "tier": "", "a": "Gianyar / near Ubud", "d": "Bali's 'silver village', where families have hand-worked gold and silver for generations — chisel, punch and granulation done at the bench in front of you. Book a private smithing session to design and make your own piece, or commission investment jewellery direct from the maker.", "lat": -8.506723, "lon": 115.262707, "p": "a"}, {"n": "Balinese cooking class", "cat": "do", "tier": "", "a": "Ubud", "d": "Start with a dawn market walk for lemongrass, galangal and torch ginger, then grind your own bumbu base and cook a full Balinese spread over a shared table. Ubud's classes are famously vegetarian-friendly — a warm, hands-on afternoon that travels home with the family.", "lat": -8.358464, "lon": 115.299999, "p": "v"}, {"n": "Nusa Lembongan — mantas, mangroves & Devil's Tear", "cat": "do", "tier": "", "a": "Nusa Islands", "d": "The gentler, easier Nusa island — snorkel with harmless four-metre manta rays at Manta Bay, drift the mangroves, and watch the Devil's Tear blowholes explode at sunset. Calmer roads and clearer water than Penida make it the family-friendly island day from Bali.", "lat": -8.690763, "lon": 115.429286, "p": "v"}, {"n": "Seminyak — beach, boutiques & sunset dining", "cat": "do", "tier": "", "a": "Seminyak", "d": "Bali's most polished stretch of coast — designer boutiques, spas and a long west-facing beach lined with sundowner tables and beach clubs. The easy, cosmopolitan counterpoint to the temples and terraces, and a good first or last base close to the airport.", "lat": -8.689859, "lon": 115.166778, "p": "a"}, {"n": "The Yoga Barn", "cat": "do", "tier": "", "a": "Ubud", "d": "One of Southeast Asia's largest yoga and healing centres — daily classes in every style, sound baths, meditation and a vegan garden café, all in a jungle setting. A discreet, drop-in way to fold wellness into an Ubud stay without committing to a full retreat.", "lat": -8.519136, "lon": 115.265683, "p": "v"}, {"n": "Ayung River white-water rafting", "cat": "do", "tier": "", "a": "near Ubud", "d": "A scenic Class II–III float down the Ayung through jungle gorge, past carved rock walls and hidden waterfalls — thrilling enough for teenagers, gentle enough for confident parents. The most family-friendly adrenaline on the island, run by well-established operators.", "lat": -8.44109, "lon": 115.233768, "p": "v"}, {"n": "Goa Gajah — the Elephant Cave", "cat": "do", "tier": "", "a": "near Ubud", "d": "A 9th–11th-century sanctuary with a menacing carved cave mouth, ancient bathing pools and both Hindu and Buddhist relics in the same grove. A quick, atmospheric archaeological stop that pairs naturally with Tirta Empul on a temple-focused morning.", "lat": -8.523537, "lon": 115.286754, "p": "v"}, {"n": "Tukad Cepung — the cave waterfall", "cat": "do", "tier": "", "a": "Bangli", "d": "A slot-canyon cascade where midday light beams through the rock onto falling water, deep in a hidden gorge — one of Bali's most surreal photographs. A short, wet walk through the canyon makes it a fun mini-adventure for older children.", "lat": -8.442321, "lon": 115.387903, "p": "v"}, {"n": "Batur natural hot springs", "cat": "do", "tier": "", "a": "Kintamani", "d": "Mineral pools fed by volcanic springs on the shore of Lake Batur, looking straight up at the caldera — the traditional reward after a sunrise climb, but worth it on its own. A warm, restorative soak in the cool mountains, easy for every generation.", "lat": -8.251375, "lon": 115.400392, "p": "v"}, {"n": "Gili Islands day escape", "cat": "do", "tier": "", "a": "Gili Islands (off Lombok)", "d": "Three car-free, scooter-free specks of powder-white sand off Lombok, ringed by coral and green turtles — you get around by bicycle or horse-drawn cidomo. A fast boat from Bali delivers a day of snorkelling at Turtle Point and Coral Garden; Gili Meno and Gili Air are the serenest for families.", "lat": -8.673558, "lon": 115.208561, "p": "v"}, {"n": "Potato Head Beach Club", "cat": "party", "tier": "Landmark bars", "a": "Seminyak (Petitenget)", "d": "The amphitheatre of shutters facing the sunset — the beach club that set the island's standard, and cleaned up its act too.", "lat": -8.679407, "lon": 115.149959, "p": "v"}, {"n": "40 Thieves", "cat": "party", "tier": "Cocktail bars", "a": "Seminyak (Kerobokan)", "d": "A hidden speakeasy above a ramen counter — tight, skilled cocktails and a room that tends to end up dancing.", "lat": -8.671792, "lon": 115.163151, "p": "v"}, {"n": "Night Rooster", "cat": "party", "tier": "Cocktail bars", "a": "Ubud", "d": "Locavore's planter's-club bar, where Bali's 'king of cocktails' builds drinks on fermented island fruit and homemade bitters.", "lat": -8.510354, "lon": 115.26393, "p": "v"}]}
+{
+  "center": [
+    -8.22713,
+    115.19192
+  ],
+  "venues": [
+    {
+      "n": "Mandapa, a Ritz-Carlton Reserve",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Ubud (Sayan / Ayung Valley)",
+      "d": "A 'village within a village' on the Ayung River \u2014 the island's most complete idea of Ubud calm.",
+      "lat": -8.485764,
+      "lon": 115.24389,
+      "photos": []
+    },
+    {
+      "n": "Four Seasons Resort Bali at Sayan",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Ubud (Sayan)",
+      "d": "Arrive over a teak footbridge into the treetops \u2014 the resort that once topped the world.",
+      "lat": -8.50167,
+      "lon": 115.24279,
+      "photos": []
+    },
+    {
+      "n": "Bvlgari Resort Bali",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Uluwatu",
+      "d": "A cliff-edge Italian jewel-box 150 metres above the Indian Ocean, reached by its own inclinator.",
+      "lat": -8.460398,
+      "lon": 115.057174,
+      "photos": []
+    },
+    {
+      "n": "Amankila",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Manggis (Karangasem, East Bali)",
+      "d": "Aman's three-tiered pools cascade to a private black-sand cove \u2014 the quiet east, far from the crowds.",
+      "lat": -8.500759,
+      "lon": 115.527541,
+      "photos": []
+    },
+    {
+      "n": "Amandari",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Ubud (Kedewatan)",
+      "d": "A hilltop Balinese village above the Ayung gorge \u2014 Aman's original Bali house, still peerless.",
+      "lat": -8.48868,
+      "lon": 115.244746,
+      "photos": []
+    },
+    {
+      "n": "Capella Ubud",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Ubud (Keliki)",
+      "d": "Bill Bensley's tented camp in the rainforest \u2014 theatre, craft and jungle in equal measure.",
+      "lat": -8.448416,
+      "lon": 115.268187,
+      "photos": []
+    },
+    {
+      "n": "Raffles Bali",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Jimbaran",
+      "d": "A hillside of just 32 pool villas above Jimbaran Bay, with Raffles butlers and a serious wellness spine.",
+      "lat": -8.450705,
+      "lon": 115.605841,
+      "photos": []
+    },
+    {
+      "n": "COMO Shambhala Estate",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Ubud (Begawan / Ayung Valley)",
+      "d": "A 'retreat for change' in the jungle \u2014 the island's most credentialed destination-wellness address.",
+      "lat": -8.450703,
+      "lon": 115.23535,
+      "photos": []
+    },
+    {
+      "n": "Desa Potato Head",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Seminyak",
+      "d": "A design-led 'creative village' on the beach \u2014 sustainability, art and the island's most famous sunset scene.",
+      "lat": -8.678921,
+      "lon": 115.149869,
+      "photos": []
+    },
+    {
+      "n": "Anantara Ubud Bali Resort",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Ubud (Payangan)",
+      "d": "A rainforest-valley newcomer with just 85 rooms deep in the Payangan jungle \u2014 instant Travel + Leisure favourite.",
+      "lat": -8.470776,
+      "lon": 115.249716,
+      "photos": []
+    },
+    {
+      "n": "COMO Uma Canggu",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Canggu (Echo Beach)",
+      "d": "COMO's beachfront house on the surf coast \u2014 bright, contemporary and built for an active stay.",
+      "lat": -8.655274,
+      "lon": 115.126664,
+      "photos": []
+    },
+    {
+      "n": "COMO Uma Ubud",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Ubud",
+      "d": "A smaller, calmer COMO among the rice fields \u2014 Ubud wellness at a gentler scale.",
+      "lat": -8.492041,
+      "lon": 115.253432,
+      "photos": []
+    },
+    {
+      "n": "The Legian Seminyak, Bali",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Seminyak",
+      "d": "The all-suite grande dame of Seminyak beach \u2014 a design icon that has never gone out of style.",
+      "lat": -8.684516,
+      "lon": 115.153415,
+      "photos": []
+    },
+    {
+      "n": "Soori Bali",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Tabanan (West Bali)",
+      "d": "An architect's black-stone villa retreat between rice fields and a wild volcanic beach \u2014 profoundly private.",
+      "lat": -8.22713,
+      "lon": 115.19192,
+      "photos": []
+    },
+    {
+      "n": "Viceroy Bali",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Ubud (Petanu Valley)",
+      "d": "A family-owned valley of pool villas above the Petanu gorge \u2014 clubby, private and quietly grand.",
+      "lat": -8.494032,
+      "lon": 115.277449,
+      "photos": []
+    },
+    {
+      "n": "The Oberoi Beach Resort, Bali",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Seminyak",
+      "d": "The house that set the Bali standard \u2014 thatched garden villas and lawns running to Seminyak sand.",
+      "lat": -8.142831,
+      "lon": 115.051902,
+      "photos": []
+    },
+    {
+      "n": "Nihi Bali (formerly Chapung Sebali)",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Ubud (Sebali)",
+      "d": "A cliff-edge Ubud retreat of villas above a jungle ravine \u2014 dramatic, design-forward, serene.",
+      "lat": -8.471169,
+      "lon": 115.260869,
+      "photos": []
+    },
+    {
+      "n": "Regent Bali Canggu",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Canggu",
+      "d": "Regent's return to Bali on the fashionable Canggu coast \u2014 polished, contemporary, of-the-moment.",
+      "lat": -8.655788,
+      "lon": 115.129405,
+      "photos": []
+    },
+    {
+      "n": "Nirjhara",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Tabanan",
+      "d": "A jungle-and-waterfall hideaway near the coast \u2014 rice paddies one side, cascade the other.",
+      "lat": -8.603182,
+      "lon": 115.088328,
+      "photos": []
+    },
+    {
+      "n": "Samsara Ubud",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Ubud",
+      "d": "An all-villa boutique retreat with a strong wellness and privacy focus, deep in Ubud green.",
+      "lat": -8.429014,
+      "lon": 115.258448,
+      "photos": []
+    },
+    {
+      "n": "The Purist Villas & Spa",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Ubud",
+      "d": "A tiny antique-filled villa house among the rice fields \u2014 Ubud character without resort scale.",
+      "lat": -8.494911,
+      "lon": 115.269943,
+      "photos": []
+    },
+    {
+      "n": "Bisma Eight",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Ubud (Jalan Bisma)",
+      "d": "A design-forward small hotel walkable to central Ubud, with a canopy-level pool over the jungle.",
+      "lat": -8.511573,
+      "lon": 115.257914,
+      "photos": []
+    },
+    {
+      "n": "Chapung SeBali Resort & Spa",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Ubud (Sebali)",
+      "d": "Cliffside villas over the Ayung tributary with a much-photographed arch pool \u2014 great value for the drama.",
+      "lat": -8.471169,
+      "lon": 115.260869,
+      "photos": []
+    },
+    {
+      "n": "Lost Lindenberg",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Pekutatan (West Bali)",
+      "d": "Timber tree-house towers in a jungle by an untouristed black-sand beach \u2014 quietly radical, remote and calm.",
+      "lat": -8.492401,
+      "lon": 115.270912,
+      "photos": []
+    },
+    {
+      "n": "Blue Karma Village",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Umalas (Seminyak / Canggu belt)",
+      "d": "A cluster of private-pool villas in a quiet inland village \u2014 boutique value between the beaches.",
+      "lat": -8.691349,
+      "lon": 115.171249,
+      "photos": []
+    },
+    {
+      "n": "W Bali - Seminyak",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Seminyak (Petitenget)",
+      "d": "A high-energy design resort on Seminyak beach \u2014 pool scene, DJ nights and villas above the sand.",
+      "lat": -8.677168,
+      "lon": 115.149735,
+      "photos": []
+    },
+    {
+      "n": "Locavore NXT",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Ubud",
+      "d": "A forage-to-table 'localised rebellion' \u2014 the most progressive kitchen in Indonesia, built on its own food system.",
+      "lat": -8.542322,
+      "lon": 115.257186,
+      "photos": []
+    },
+    {
+      "n": "Room4Dessert",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Ubud",
+      "d": "Will Goldfarb's dessert-led tasting theatre \u2014 the ex-elBulli mind who was named the world's best pastry chef.",
+      "lat": -8.492322,
+      "lon": 115.253312,
+      "photos": []
+    },
+    {
+      "n": "Kayuputi",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Nusa Dua (The St. Regis Bali)",
+      "d": "Pan-Asian haute cuisine on the Nusa Dua beachfront, with one of Bali's most decorated cellars.",
+      "lat": -8.189504,
+      "lon": 115.04543,
+      "photos": []
+    },
+    {
+      "n": "Mozaic",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Ubud",
+      "d": "The restaurant that brought fine dining to Ubud \u2014 a quarter-century of French technique and Indonesian flavour.",
+      "lat": -8.22713,
+      "lon": 115.19192,
+      "photos": []
+    },
+    {
+      "n": "Merah Putih",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Seminyak (Kerobokan)",
+      "d": "High-end Indonesian archipelago cooking under cathedral-like ceilings \u2014 arguably Bali's most beautiful room.",
+      "lat": -8.676891,
+      "lon": 115.154516,
+      "photos": []
+    },
+    {
+      "n": "Sangsaka",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Seminyak",
+      "d": "A small, fire-driven kitchen doing one of the island's most exciting modern-Indonesian tasting menus.",
+      "lat": -8.678586,
+      "lon": 115.160611,
+      "photos": []
+    },
+    {
+      "n": "Sarong",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Seminyak (Kerobokan)",
+      "d": "Chef Will Meyrick's street-food-to-fine-dining journey across Asia \u2014 glamorous and generous.",
+      "lat": -8.415117,
+      "lon": 115.315784,
+      "photos": []
+    },
+    {
+      "n": "Mamasan",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Seminyak (Kerobokan)",
+      "d": "Will Meyrick's other room \u2014 1920s-Shanghai theatre and bold pan-Asian street flavours.",
+      "lat": -8.22713,
+      "lon": 115.19192,
+      "photos": []
+    },
+    {
+      "n": "M\u00e9tis",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Seminyak (Petitenget)",
+      "d": "Grand French-Mediterranean dining over the rice fields \u2014 a long-standing Seminyak occasion address.",
+      "lat": -8.671913,
+      "lon": 115.161912,
+      "photos": []
+    },
+    {
+      "n": "Barbacoa",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Seminyak (Kerobokan)",
+      "d": "Latin-American open-fire and wood-smoke cooking in a soaring warehouse \u2014 bold, generous, fun.",
+      "lat": -8.671952,
+      "lon": 115.162944,
+      "photos": []
+    },
+    {
+      "n": "Hujan Locale",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Ubud",
+      "d": "Will Meyrick's Ubud house for regional Indonesian home cooking \u2014 unfussy, warm, deeply of-the-island.",
+      "lat": -8.507349,
+      "lon": 115.265078,
+      "photos": []
+    },
+    {
+      "n": "Bambu",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Seminyak (Petitenget)",
+      "d": "Fine Indonesian dining in a lantern-lit garden pavilion \u2014 one of Seminyak's most atmospheric rooms.",
+      "lat": -8.276123,
+      "lon": 115.15666,
+      "photos": []
+    },
+    {
+      "n": "Api Jiwa",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Seminyak",
+      "d": "An open-fire chef's-counter grilling over Indonesian binchotan and flame \u2014 smoke, char and craft.",
+      "lat": -8.448416,
+      "lon": 115.268187,
+      "photos": []
+    },
+    {
+      "n": "Kaum",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Seminyak (Potato Head)",
+      "d": "Heritage Indonesian recipes gathered from across the archipelago \u2014 cooking with a preservation mission.",
+      "lat": -8.679223,
+      "lon": 115.149873,
+      "photos": []
+    },
+    {
+      "n": "Ijen at Desa Potato Head",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Seminyak (Potato Head)",
+      "d": "A zero-waste, fire-led tasting kitchen inside Bali's most awarded design hotel.",
+      "lat": -8.678921,
+      "lon": 115.149869,
+      "photos": []
+    },
+    {
+      "n": "Mauri",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Kerobokan",
+      "d": "A refined Italian-leaning fine-dining newcomer that has climbed straight to the island's best-of lists.",
+      "lat": -8.706335,
+      "lon": 115.167844,
+      "photos": []
+    },
+    {
+      "n": "Night Rooster",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Ubud",
+      "d": "Locavore's cocktail bar \u2014 theatrical, botanical drinks built on Indonesian folklore and native ingredients.",
+      "lat": -8.510354,
+      "lon": 115.26393,
+      "photos": []
+    },
+    {
+      "n": "Warung Babi Guling Ibu Oka",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Ubud",
+      "d": "Ubud's most famous suckling-pig warung \u2014 the honest, non-negotiable taste of Balinese food.",
+      "lat": -8.505767,
+      "lon": 115.264336,
+      "photos": []
+    },
+    {
+      "n": "Bridges Bali",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Ubud (Campuhan)",
+      "d": "A river-gorge restaurant and wine cellar spanning the Campuhan bridges \u2014 a long-standing Ubud institution.",
+      "lat": -8.505074,
+      "lon": 115.254216,
+      "photos": []
+    },
+    {
+      "n": "Bella Cibo",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Canggu",
+      "d": "Considered Italian cooking on the Canggu coast \u2014 a quiet favourite that keeps its standards high.",
+      "lat": -8.639902,
+      "lon": 115.143605,
+      "photos": []
+    },
+    {
+      "n": "Tanah Lot, the floating sea temple",
+      "cat": "do",
+      "tier": "",
+      "a": "Tabanan / West Coast",
+      "d": "A 16th-century shrine on a black-rock islet that appears to float at high tide, one of Indonesia's most photographed silhouettes at sunset. The clifftop terraces let elders watch the light change in comfort while younger travellers walk down to the tide pools; a private driver-plus-guide turns the crowd into a manageable golden hour.",
+      "lat": -8.275662,
+      "lon": 115.163982,
+      "photos": []
+    },
+    {
+      "n": "Besakih, the Mother Temple",
+      "cat": "do",
+      "tier": "",
+      "a": "Karangasem / Mount Agung",
+      "d": "Bali's largest and holiest Hindu complex \u2014 23 temples terraced up the flank of Mount Agung, in use for over a thousand years and unharmed by the 1963 eruption that stopped at its steps. For Hindu travellers this is the spiritual heart of the island; a licensed guide explains the pura hierarchy and keeps the temple touts at bay.",
+      "lat": -8.342892,
+      "lon": 115.507208,
+      "photos": []
+    },
+    {
+      "n": "Tirta Empul holy-spring purification (Melukat)",
+      "cat": "do",
+      "tier": "",
+      "a": "Tampaksiring / near Ubud",
+      "d": "A sacred water temple founded in 962 AD where Balinese Hindus queue at carved spouts for Melukat, a purification ritual to cleanse mind and spirit. It resonates powerfully for Indian travellers who know the idea of holy-water darshan; a private guide (now required for the ritual) arranges a quiet early slot and a sarong, so it feels devotional rather than touristic.",
+      "lat": -8.480787,
+      "lon": 115.298895,
+      "photos": []
+    },
+    {
+      "n": "Lempuyang Temple \u2014 the Gates of Heaven",
+      "cat": "do",
+      "tier": "",
+      "a": "Karangasem / East Bali",
+      "d": "A hilltop temple where two split gates frame Mount Agung to perfection \u2014 the island's most famous photograph (the 'water reflection' is a mirror trick the on-site photographer performs under the lens). Come before sunrise, before cloud swallows the volcano; a driver who leaves Ubud at 4am beats both the heat and the two-hour queue.",
+      "lat": -8.342059,
+      "lon": 115.511463,
+      "photos": []
+    },
+    {
+      "n": "Jatiluwih rice terraces & the Subak system",
+      "cat": "do",
+      "tier": "",
+      "a": "Tabanan Highlands",
+      "d": "Over 600 hectares of emerald terraces sculpted by a thousand-year-old cooperative irrigation system rooted in the Tri Hita Karana philosophy of harmony between people, nature and the divine. Cooler, quieter and far grander than the roadside terraces near Ubud \u2014 a walking trail and a warung lunch make an unhurried half-day for a private group.",
+      "lat": -8.342494,
+      "lon": 115.12643,
+      "photos": []
+    },
+    {
+      "n": "Tegallalang rice terraces & the jungle swings",
+      "cat": "do",
+      "tier": "",
+      "a": "Ubud",
+      "d": "The classic stepped valley just 20 minutes north of Ubud \u2014 clean paths, coconut palms and the giant swings that arc out over the paddies, catnip for teenagers and grandparents with a camera alike. Go early (before 8am) with a driver so you get the low-angle light and the terraces largely to yourselves.",
+      "lat": -8.435652,
+      "lon": 115.281091,
+      "photos": []
+    },
+    {
+      "n": "Sacred Monkey Forest Sanctuary",
+      "cat": "do",
+      "tier": "",
+      "a": "Ubud",
+      "d": "A 12.5-hectare jungle reserve in the heart of Ubud with three moss-covered 14th-century temples and 1,200 long-tailed macaques the Balinese hold sacred. A hit with multi-generational groups \u2014 just leave sunglasses and loose bags in the car, as the monkeys are quick and cheeky.",
+      "lat": -8.518735,
+      "lon": 115.25832,
+      "photos": []
+    },
+    {
+      "n": "Campuhan Ridge Walk at dawn",
+      "cat": "do",
+      "tier": "",
+      "a": "Ubud",
+      "d": "A gentle two-kilometre spine of grassy ridge above a green valley \u2014 the loveliest free thing to do in Ubud, best walked at 6am when it is cool, soft-lit and nearly empty. Easy enough for most of the family, and a coffee stop at the top rewards the effort before the day heats up.",
+      "lat": -8.499023,
+      "lon": 115.255159,
+      "photos": []
+    },
+    {
+      "n": "Ubud Royal Palace & evening Legong / Barong dance",
+      "cat": "do",
+      "tier": "",
+      "a": "Ubud",
+      "d": "The 19th-century Puri Saren Agung, still home to Ubud's royal family, hosts nightly traditional dance in its courtyard \u2014 Legong, the Ramayana ballet, or the Barong's battle of good and evil, set to live gamelan. Free to wander by day; an evening performance under the carved gates is the most accessible window into Balinese court culture.",
+      "lat": -8.506723,
+      "lon": 115.262707,
+      "photos": []
+    },
+    {
+      "n": "Ubud Art Market",
+      "cat": "do",
+      "tier": "",
+      "a": "Ubud",
+      "d": "Across the road from the palace, a warren of stalls for ikat sarongs, woven baskets, silver and carved wood \u2014 good fun to browse and haggle, with your guide steering you to the better-quality vendors upstairs. A relaxed hour for the family before or after the dance.",
+      "lat": -8.506434,
+      "lon": 115.261564,
+      "photos": []
+    },
+    {
+      "n": "ARMA \u2014 Agung Rai Museum of Art",
+      "cat": "do",
+      "tier": "",
+      "a": "Ubud",
+      "d": "A serene garden museum founded by a Balinese collector, spanning classical Kamasan bark painting, the celebrated 1930s Batuan and Pita Maha works, and foreign masters who fell for the island. The calmest, best-curated art stop in Ubud \u2014 and its cultural workshops (painting, dance) are a genuine private-hosted experience for older children.",
+      "lat": -8.522868,
+      "lon": 115.264769,
+      "photos": []
+    },
+    {
+      "n": "Neka Art Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Ubud",
+      "d": "Six pavilions telling the chronological story of Balinese painting and its collision with visiting Western artists \u2014 arguably the most historically grounded collection on the island. Air-conditioned, unhurried and easy to pair with a Campuhan walk on the same morning.",
+      "lat": -8.491837,
+      "lon": 115.253619,
+      "photos": []
+    },
+    {
+      "n": "Blanco Renaissance Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Ubud",
+      "d": "The flamboyant clifftop house-studio of Filipino-Spanish painter Don Antonio Blanco, perched above the Campuhan gorge with gilded frames, ornate architecture and river views. A quick, characterful stop \u2014 half art, half theatre \u2014 that photographs beautifully.",
+      "lat": -8.504865,
+      "lon": 115.253963,
+      "photos": []
+    },
+    {
+      "n": "Mount Batur sunrise trek",
+      "cat": "do",
+      "tier": "",
+      "a": "Kintamani",
+      "d": "A 2am start and a torch-lit climb up an active volcano to watch dawn break over the caldera and Lake Batur, with a hot-spring soak to follow. Best for the fitter, adventurous members of the family; a private guide, hot tea at the summit and a slower pace make it far more civilised than the group tours.",
+      "lat": -8.243279,
+      "lon": 115.391083,
+      "photos": []
+    },
+    {
+      "n": "Kintamani caldera lunch with Mount Batur views",
+      "cat": "do",
+      "tier": "",
+      "a": "Kintamani",
+      "d": "For those who'd rather not climb at 2am, the ridge restaurants of Kintamani deliver the whole caldera \u2014 volcano, black lava fields and lake \u2014 over a leisurely lunch. Cool mountain air, a private driver and a table on the rim make an effortless half-day from Ubud.",
+      "lat": -8.249516,
+      "lon": 115.348223,
+      "photos": []
+    },
+    {
+      "n": "Ulun Danu Beratan, the lake temple",
+      "cat": "do",
+      "tier": "",
+      "a": "Bedugul Highlands",
+      "d": "A 17th-century temple dedicated to the water goddess Dewi Danu, its multi-tiered meru shrines appearing to float on misty Lake Beratan at 1,200 metres. The cool highland setting is a gentle, photogenic stop for all ages \u2014 and unmistakably the temple on the 50,000-rupiah note.",
+      "lat": -8.275507,
+      "lon": 115.16626,
+      "photos": []
+    },
+    {
+      "n": "Munduk waterfalls & the highland trails",
+      "cat": "do",
+      "tier": "",
+      "a": "Munduk / North Bali",
+      "d": "A cool, cloud-forest village of clove and coffee plantations laced with jungle waterfall walks \u2014 the un-touristy alternative to Bali's crowded cascades. A guided morning trek here, ending in a country lunch, suits families who want green calm over beach heat.",
+      "lat": -8.653994,
+      "lon": 115.130437,
+      "photos": []
+    },
+    {
+      "n": "Twin Lakes \u2014 Buyan & Tamblingan",
+      "cat": "do",
+      "tier": "",
+      "a": "Munduk / Bedugul",
+      "d": "Two serene crater lakes inside an extinct volcano, once a single body of water, now separated by a jungle land-bridge you can trek between past mossy shrines. A traditional dugout canoe crossing on Tamblingan is a quiet, storybook experience away from the crowds.",
+      "lat": -8.260376,
+      "lon": 115.09932,
+      "photos": []
+    },
+    {
+      "n": "Sekumpul Waterfall",
+      "cat": "do",
+      "tier": "",
+      "a": "Buleleng / North Bali",
+      "d": "Widely rated Bali's most spectacular falls \u2014 a fan of seven cascades over 80 metres tall, reached by a 400-step jungle descent and a river crossing. It rewards effort with drama; for a softer version, a guide can position you at the viewpoint without the full scramble.",
+      "lat": -8.17781,
+      "lon": 115.182691,
+      "photos": []
+    },
+    {
+      "n": "Tegenungan Waterfall",
+      "cat": "do",
+      "tier": "",
+      "a": "near Ubud",
+      "d": "A powerful 15-metre curtain of water just 20 minutes from Ubud \u2014 the easiest 'proper' waterfall to reach, with a stepped path and a swimmable pool at the base. Best before 8am for light and space; an easy add-on to a Ubud rice-terrace morning.",
+      "lat": -8.575229,
+      "lon": 115.290701,
+      "photos": []
+    },
+    {
+      "n": "Sidemen Valley & ikat weaving",
+      "cat": "do",
+      "tier": "",
+      "a": "Karangasem / East Bali",
+      "d": "The Bali that Ubud used to be \u2014 hand-tended rice terraces cascading toward Mount Agung, birdsong instead of scooters, and family workshops still weaving endek and songket ikat the old way. The most restful base on the island for a private villa; walk the paddies at dawn, watch a loom in the afternoon.",
+      "lat": -8.342059,
+      "lon": 115.511463,
+      "photos": []
+    },
+    {
+      "n": "Celuk village silversmithing",
+      "cat": "do",
+      "tier": "",
+      "a": "Gianyar / near Ubud",
+      "d": "Bali's 'silver village', where families have hand-worked gold and silver for generations \u2014 chisel, punch and granulation done at the bench in front of you. Book a private smithing session to design and make your own piece, or commission investment jewellery direct from the maker.",
+      "lat": -8.506723,
+      "lon": 115.262707,
+      "photos": []
+    },
+    {
+      "n": "Balinese cooking class",
+      "cat": "do",
+      "tier": "",
+      "a": "Ubud",
+      "d": "Start with a dawn market walk for lemongrass, galangal and torch ginger, then grind your own bumbu base and cook a full Balinese spread over a shared table. Ubud's classes are famously vegetarian-friendly \u2014 a warm, hands-on afternoon that travels home with the family.",
+      "lat": -8.358464,
+      "lon": 115.299999,
+      "photos": []
+    },
+    {
+      "n": "Nusa Lembongan \u2014 mantas, mangroves & Devil's Tear",
+      "cat": "do",
+      "tier": "",
+      "a": "Nusa Islands",
+      "d": "The gentler, easier Nusa island \u2014 snorkel with harmless four-metre manta rays at Manta Bay, drift the mangroves, and watch the Devil's Tear blowholes explode at sunset. Calmer roads and clearer water than Penida make it the family-friendly island day from Bali.",
+      "lat": -8.690763,
+      "lon": 115.429286,
+      "photos": []
+    },
+    {
+      "n": "Seminyak \u2014 beach, boutiques & sunset dining",
+      "cat": "do",
+      "tier": "",
+      "a": "Seminyak",
+      "d": "Bali's most polished stretch of coast \u2014 designer boutiques, spas and a long west-facing beach lined with sundowner tables and beach clubs. The easy, cosmopolitan counterpoint to the temples and terraces, and a good first or last base close to the airport.",
+      "lat": -8.689859,
+      "lon": 115.166778,
+      "photos": []
+    },
+    {
+      "n": "The Yoga Barn",
+      "cat": "do",
+      "tier": "",
+      "a": "Ubud",
+      "d": "One of Southeast Asia's largest yoga and healing centres \u2014 daily classes in every style, sound baths, meditation and a vegan garden caf\u00e9, all in a jungle setting. A discreet, drop-in way to fold wellness into an Ubud stay without committing to a full retreat.",
+      "lat": -8.519136,
+      "lon": 115.265683,
+      "photos": []
+    },
+    {
+      "n": "Ayung River white-water rafting",
+      "cat": "do",
+      "tier": "",
+      "a": "near Ubud",
+      "d": "A scenic Class II\u2013III float down the Ayung through jungle gorge, past carved rock walls and hidden waterfalls \u2014 thrilling enough for teenagers, gentle enough for confident parents. The most family-friendly adrenaline on the island, run by well-established operators.",
+      "lat": -8.44109,
+      "lon": 115.233768,
+      "photos": []
+    },
+    {
+      "n": "Goa Gajah \u2014 the Elephant Cave",
+      "cat": "do",
+      "tier": "",
+      "a": "near Ubud",
+      "d": "A 9th\u201311th-century sanctuary with a menacing carved cave mouth, ancient bathing pools and both Hindu and Buddhist relics in the same grove. A quick, atmospheric archaeological stop that pairs naturally with Tirta Empul on a temple-focused morning.",
+      "lat": -8.523537,
+      "lon": 115.286754,
+      "photos": []
+    },
+    {
+      "n": "Tukad Cepung \u2014 the cave waterfall",
+      "cat": "do",
+      "tier": "",
+      "a": "Bangli",
+      "d": "A slot-canyon cascade where midday light beams through the rock onto falling water, deep in a hidden gorge \u2014 one of Bali's most surreal photographs. A short, wet walk through the canyon makes it a fun mini-adventure for older children.",
+      "lat": -8.442321,
+      "lon": 115.387903,
+      "photos": []
+    },
+    {
+      "n": "Batur natural hot springs",
+      "cat": "do",
+      "tier": "",
+      "a": "Kintamani",
+      "d": "Mineral pools fed by volcanic springs on the shore of Lake Batur, looking straight up at the caldera \u2014 the traditional reward after a sunrise climb, but worth it on its own. A warm, restorative soak in the cool mountains, easy for every generation.",
+      "lat": -8.251375,
+      "lon": 115.400392,
+      "photos": []
+    },
+    {
+      "n": "Gili Islands day escape",
+      "cat": "do",
+      "tier": "",
+      "a": "Gili Islands (off Lombok)",
+      "d": "Three car-free, scooter-free specks of powder-white sand off Lombok, ringed by coral and green turtles \u2014 you get around by bicycle or horse-drawn cidomo. A fast boat from Bali delivers a day of snorkelling at Turtle Point and Coral Garden; Gili Meno and Gili Air are the serenest for families.",
+      "lat": -8.673558,
+      "lon": 115.208561,
+      "photos": []
+    },
+    {
+      "n": "Potato Head Beach Club",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "Seminyak (Petitenget)",
+      "d": "The amphitheatre of shutters facing the sunset \u2014 the beach club that set the island's standard, and cleaned up its act too.",
+      "lat": -8.679407,
+      "lon": 115.149959,
+      "photos": []
+    },
+    {
+      "n": "40 Thieves",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Seminyak (Kerobokan)",
+      "d": "A hidden speakeasy above a ramen counter \u2014 tight, skilled cocktails and a room that tends to end up dancing.",
+      "lat": -8.671792,
+      "lon": 115.163151,
+      "photos": []
+    },
+    {
+      "n": "Night Rooster",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Ubud",
+      "d": "Locavore's planter's-club bar, where Bali's 'king of cocktails' builds drinks on fermented island fruit and homemade bitters.",
+      "lat": -8.510354,
+      "lon": 115.26393,
+      "photos": []
+    }
+  ]
+}

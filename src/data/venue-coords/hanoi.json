@@ -1,1 +1,718 @@
-{"center": [21.028333, 105.854041], "venues": [{"n": "Capella Hanoi", "cat": "stay", "tier": "Ultra", "a": "French Quarter / near the Opera House (Hoan Kiem)", "d": "Bill Bensley's 1920s opera fantasy — 47 rooms, each a jewel-box, and the finest address in the city.", "lat": 21.025715, "lon": 105.85681, "p": "v"}, {"n": "Sofitel Legend Metropole Hanoi", "cat": "stay", "tier": "Grand", "a": "French Quarter (Hoan Kiem)", "d": "The city's grande dame since 1901 — colonial white-and-green, and the address every visitor of consequence has passed through.", "lat": 21.025488, "lon": 105.855978, "p": "v"}, {"n": "InterContinental Hanoi Westlake", "cat": "stay", "tier": "Luxury", "a": "Tay Ho / West Lake", "d": "Over-water pavilions on stilts above West Lake — a resort calm rare this close to the centre.", "lat": 21.058466, "lon": 105.831587, "p": "v"}, {"n": "JW Marriott Hotel Hanoi", "cat": "stay", "tier": "Luxury", "a": "Nam Tu Liem / Convention district (west Hanoi)", "d": "Carlos Zapata's dragon-inspired curve — the capital's grand modern house, chosen for heads of state.", "lat": 21.007588, "lon": 105.782453, "p": "v"}, {"n": "Meliá Hanoi", "cat": "stay", "tier": "Premium", "a": "French Quarter (Hoan Kiem)", "d": "A dependable, well-placed international tower in the heart of the city.", "lat": 21.02453, "lon": 105.848402, "p": "v"}, {"n": "Apricot Hotel", "cat": "stay", "tier": "Premium", "a": "Hoan Kiem lakeside (Old Quarter edge)", "d": "An art-filled boutique house facing Hoan Kiem Lake — Vietnamese paintings on every wall.", "lat": 21.028094, "lon": 105.850788, "p": "v"}, {"n": "Peridot Grand Luxury Boutique Hotel", "cat": "stay", "tier": "Premium", "a": "Old Quarter (Hoan Kiem)", "d": "A polished, urbane boutique tower in the thick of the Old Quarter.", "lat": 21.033048, "lon": 105.846297, "p": "v"}, {"n": "Gia", "cat": "eat", "tier": "Fine", "a": "Van Mieu / Dong Da (near the Temple of Literature)", "d": "A modern love letter to Northern Vietnamese heritage, in an Indochine house opposite the Temple of Literature.", "lat": 21.03881, "lon": 105.78189, "p": "v"}, {"n": "Tầm Vị", "cat": "eat", "tier": "Fine", "a": "Ba Dinh", "d": "Northern Vietnamese home cooking, kept exact and unhurried — the food a Hanoi grandmother would cook, raised to a star.", "lat": 21.020871, "lon": 105.857734, "p": "v"}, {"n": "Hibana by Koki", "cat": "eat", "tier": "Destination", "a": "French Quarter (Hoan Kiem) — Capella Hanoi", "d": "An intimate teppanyaki counter inside Capella — Japanese precision and premium produce, one of the hardest seats in town.", "lat": 21.025715, "lon": 105.85681, "p": "a"}, {"n": "ONVIT", "cat": "eat", "tier": "Fine", "a": "Yen Hoa / Cau Giay (Grand Plaza Hanoi)", "d": "Korean fine dining told through Vietnam's finest ingredients — the country's first starred Korean kitchen.", "lat": 21.028333, "lon": 105.854041, "p": "v"}, {"n": "Lamai Garden", "cat": "eat", "tier": "Fine", "a": "Tay Ho / West Lake", "d": "Farm-to-table plant-based cooking with more than half its herbs and vegetables grown on site — a rare green star.", "lat": 21.040158, "lon": 105.8307, "p": "v"}, {"n": "Chả Cá Thăng Long", "cat": "eat", "tier": "Smart", "a": "Old Quarter (Hoan Kiem)", "d": "Hanoi's signature turmeric-and-dill fish, sizzled at your table over a charcoal brazier — a single, perfect dish.", "lat": 21.032947, "lon": 105.846019, "p": "v"}, {"n": "Bún Chả Ta", "cat": "eat", "tier": "Casual", "a": "Old Quarter (Hoan Kiem)", "d": "Grilled pork and rice noodles in smoky broth — Hanoi's defining lunch, done properly.", "lat": 21.03468, "lon": 105.85469, "p": "v"}, {"n": "Phở Bò Lâm", "cat": "eat", "tier": "Casual", "a": "Old Quarter (Hoan Kiem)", "d": "A bowl of beef phở with real conviction — the broth that makes the pilgrimage worth it.", "lat": 21.040467, "lon": 105.888323, "p": "v"}, {"n": "Miến Lươn Đông Thịnh", "cat": "eat", "tier": "Casual", "a": "Old Quarter (Hoan Kiem)", "d": "Crisp eel and glass noodles — a Hanoi speciality guarded by a single family.", "lat": 21.031853, "lon": 105.846905, "p": "v"}, {"n": "Hà Thành Mansion", "cat": "eat", "tier": "Smart", "a": "Old Quarter (Hoan Kiem)", "d": "Classic Hanoi cooking in a handsome heritage setting — the old recipes, comfortably staged.", "lat": 21.020882, "lon": 105.84904, "p": "v"}, {"n": "Mậu Dịch Số 37", "cat": "eat", "tier": "Casual", "a": "Ba Dinh", "d": "Vietnamese comfort food in a nostalgic subsidy-era canteen — a warm plate of the country's recent past.", "lat": 21.045545, "lon": 105.840548, "p": "v"}, {"n": "Ưu Đàm Chay", "cat": "eat", "tier": "Smart", "a": "Hai Ba Trung", "d": "Refined vegetarian Vietnamese cooking in a calm, tea-house setting — meat-free without compromise.", "lat": 21.018772, "lon": 105.84814, "p": "v"}, {"n": "1946 Cửa Bắc", "cat": "eat", "tier": "Smart", "a": "Ba Dinh", "d": "Authentic regional Vietnamese dishes in an old villa — quiet, generous, of another era.", "lat": 21.041437, "lon": 105.840507, "p": "v"}, {"n": "Bún Chả Hương Liên", "cat": "eat", "tier": "Casual", "a": "Hai Ba Trung", "d": "The bún chả joint where Obama and Anthony Bourdain shared a plate and a beer — since immortalised.", "lat": 21.035994, "lon": 105.851812, "p": "v"}, {"n": "Phở Gia Truyền Bát Đàn", "cat": "eat", "tier": "Casual", "a": "Old Quarter (Hoan Kiem)", "d": "The queue-out-the-door phở the locals line up for at dawn — a legendary bowl and no ceremony.", "lat": 21.033638, "lon": 105.846379, "p": "v"}, {"n": "The Old Quarter — the 36 guild streets", "cat": "do", "tier": "", "a": "Old Quarter", "d": "A thousand years of commerce still hums through this warren north of the lake, where each lane once served a single trade — Hang Bac for silver, Hang Ma for votive paper, Hang Dao for silk. Best walked slowly with a private guide who can read the layers a map cannot.", "lat": 21.031576, "lon": 105.844925, "p": "v"}, {"n": "A cyclo ride through the old lanes", "cat": "do", "tier": "", "a": "Old Quarter", "d": "The gentlest way to take in the crush of the 36 streets — reclined in a pedalled cyclo while the city flows around you, unhurried and eye-level with the shophouses. An easy, charming loop for elders and children alike before the walking begins.", "lat": 21.035324, "lon": 105.850039, "p": "a"}, {"n": "Hoan Kiem Lake", "cat": "do", "tier": "", "a": "Hoan Kiem", "d": "The green heart of Hanoi and the city's favourite gathering place, its still water wrapped in willows and the legend of the returned sword. A dawn circuit past the red Turtle Tower, when locals practise tai chi, is one of the quietest luxuries the city offers.", "lat": 21.028831, "lon": 105.852536, "p": "v"}, {"n": "Ngoc Son Temple & The Huc Bridge", "cat": "do", "tier": "", "a": "Hoan Kiem", "d": "A small island temple honouring the general Tran Hung Dao, reached across the vivid vermilion arc of The Huc Bridge. The postcard image of Hanoi — and a serene ten-minute pause in the middle of the old city.", "lat": 21.030727, "lon": 105.852376, "p": "v"}, {"n": "Temple of Literature", "cat": "do", "tier": "", "a": "Ba Dinh", "d": "Vietnam's first university, founded in 1070, a series of tranquil walled courtyards, lotus ponds and stelae carried on the backs of stone tortoises. The most composed and contemplative site in the city, and one that resonates with multi-generation families who prize learning.", "lat": 21.02879, "lon": 105.835953, "p": "v"}, {"n": "Ho Chi Minh Mausoleum & Ba Dinh Square", "cat": "do", "tier": "", "a": "Ba Dinh", "d": "The solemn granite mausoleum on the vast ceremonial square where independence was declared in 1945, its changing of the guard a study in precision. A window into the nation's founding story — go early, and dress modestly.", "lat": 21.036783, "lon": 105.834689, "p": "v"}, {"n": "One Pillar Pagoda", "cat": "do", "tier": "", "a": "Ba Dinh", "d": "A tiny wooden shrine built in 1049 to resemble a lotus rising on a single stone stem from its pond, tucked within the Ho Chi Minh complex. Small in scale but singular in form — worth the short walk from the mausoleum.", "lat": 21.035856, "lon": 105.833614, "p": "v"}, {"n": "Presidential Palace & Ho Chi Minh's stilt house", "cat": "do", "tier": "", "a": "Ba Dinh", "d": "The mustard-yellow French colonial palace with its formal gardens, and behind it the modest teak stilt house where Ho Chi Minh chose to live instead. The contrast between grandeur and simplicity is the whole point.", "lat": 21.038171, "lon": 105.833152, "p": "v"}, {"n": "Ho Chi Minh Museum", "cat": "do", "tier": "", "a": "Ba Dinh", "d": "A striking modernist white building beside the mausoleum, its exhibits tracing the life of the leader and the century that shaped modern Vietnam. A cool, orderly stop that completes the Ba Dinh circuit.", "lat": 21.035617, "lon": 105.832629, "p": "v"}, {"n": "Imperial Citadel of Thang Long", "cat": "do", "tier": "", "a": "Ba Dinh", "d": "A thousand years of Vietnamese power layered in one place — Ly dynasty palace foundations, colonial gates and the underground command bunker of the American war, all in a single vast enclosure. The archaeological dig alone rewards a private, well-guided morning.", "lat": 21.03839, "lon": 105.840624, "p": "v"}, {"n": "The Old French Quarter", "cat": "do", "tier": "", "a": "French Quarter", "d": "Wide tree-lined boulevards, ochre villas and grand hotels laid out during the colonial decades, a world away from the tangle of the Old Quarter. Best explored on foot or by private car, ending with tea at the Metropole where egg coffee was born.", "lat": 21.027196, "lon": 105.856575, "p": "v"}, {"n": "Hanoi Opera House", "cat": "do", "tier": "", "a": "French Quarter", "d": "A 1911 belle-epoque theatre modelled on the Palais Garnier in Paris, all marble stairs and gilt, still staging opera, ballet and Vietnamese folk concerts. Attend a performance, or simply admire the finest colonial facade in the city.", "lat": 21.024202, "lon": 105.857834, "p": "v"}, {"n": "St Joseph's Cathedral", "cat": "do", "tier": "", "a": "Old Quarter", "d": "A weathered neo-Gothic cathedral from 1886, its twin towers echoing Notre-Dame, presiding over a lively square ringed with cafes. The lanes around it — Nha Tho and Nha Chung — are among the best in the city for a slow coffee and boutique browsing.", "lat": 21.028648, "lon": 105.848857, "p": "v"}, {"n": "Vietnam Museum of Ethnology", "cat": "do", "tier": "", "a": "Cau Giay", "d": "The finest museum in Hanoi — a thoughtful, superbly labelled survey of Vietnam's 54 ethnic groups, with full-scale traditional houses reconstructed in the garden. Genuinely engaging for children and the most rewarding cultural stop in the city.", "lat": 21.040077, "lon": 105.79884, "p": "v"}, {"n": "Vietnamese Women's Museum", "cat": "do", "tier": "", "a": "Hoan Kiem", "d": "A moving, beautifully curated museum on women in Vietnamese life — marriage, motherhood, war and the street vendors who still carry the city on shoulder poles. Compact, powerful and a short walk south of the lake.", "lat": 21.023351, "lon": 105.851596, "p": "v"}, {"n": "Vietnam National Fine Arts Museum", "cat": "do", "tier": "", "a": "Ba Dinh", "d": "Set in an elegant three-storey colonial building, a well-chosen collection running from ancient Buddhist sculpture and lacquer to modern silk painting. Quiet, uncrowded and close to the Temple of Literature.", "lat": 21.030642, "lon": 105.837036, "p": "v"}, {"n": "Hoa Lo Prison", "cat": "do", "tier": "", "a": "Hoan Kiem", "d": "The remnant of the French colonial prison, later the wartime 'Hanoi Hilton', with unflinching exhibits on both eras. Sobering and well-presented — a serious counterweight to the city's gentler sights.", "lat": 21.025422, "lon": 105.846509, "p": "v"}, {"n": "Train Street", "cat": "do", "tier": "", "a": "Old Quarter", "d": "A famously narrow residential lane where a working train passes within arm's reach of the trackside cafes. Access has been repeatedly restricted for safety and opens and closes without notice — go only with a local guide who knows the day's rules.", "lat": 21.029582, "lon": 105.843321, "p": "v"}, {"n": "West Lake (Ho Tay)", "cat": "do", "tier": "", "a": "Tay Ho", "d": "The city's largest lake, ringed by 17 km of quieter, leafier streets, lakeside villas and the best independent dining in Hanoi. A calm base for a slower stay, with sunset the moment to be on the water's edge.", "lat": 21.058042, "lon": 105.813965, "p": "v"}, {"n": "Tran Quoc Pagoda", "cat": "do", "tier": "", "a": "Tay Ho", "d": "The oldest Buddhist temple in Hanoi, its red brick stupa rising from a slender causeway into West Lake, dating in origin to the 6th century. Loveliest in late afternoon when the light catches the water and incense drifts from the shrine.", "lat": 21.047884, "lon": 105.836838, "p": "v"}, {"n": "Quan Thanh Temple", "cat": "do", "tier": "", "a": "Ba Dinh", "d": "A serene 11th-century Taoist temple beside West Lake, guarded by a nearly four-metre bronze statue cast in the 17th century. An easy, atmospheric pairing with Tran Quoc just along the shore.", "lat": 21.043006, "lon": 105.836587, "p": "v"}, {"n": "Dong Xuan Market", "cat": "do", "tier": "", "a": "Old Quarter", "d": "Hanoi's largest covered market, a French-built hall of narrow aisles selling everything from silk and spices to household goods. Chaotic and colourful — a photographer's paradise and a plunge into the working city.", "lat": 21.038096, "lon": 105.849403, "p": "v"}, {"n": "Thang Long Water Puppet Theatre", "cat": "do", "tier": "", "a": "Hoan Kiem", "d": "A thousand-year-old northern art form performed on a pool of water, lacquered puppets dancing to live traditional music and folk tales of rice farming and dragons. Short, delightful and a sure hit across three generations.", "lat": 21.031704, "lon": 105.853455, "p": "v"}, {"n": "Egg coffee (ca phe trung)", "cat": "do", "tier": "", "a": "Old Quarter", "d": "Hanoi's signature indulgence — whipped egg yolk beaten into a rich sweet cream over strong coffee, invented here in 1946. Cafe Giang, run by the inventor's family, is the original; a hidden upstairs table watching the street is part of the ritual.", "lat": 21.017866, "lon": 105.836809, "p": "v"}, {"n": "Old Quarter street-food trail", "cat": "do", "tier": "", "a": "Old Quarter", "d": "Hanoi is a world capital of street food — pho, bun cha over charcoal, banh cuon, egg coffee — each often mastered by a single family stall. A private evening food guide navigates the crowds, the hygiene and the vegetarian options with ease.", "lat": 21.030916, "lon": 105.849708, "p": "v"}, {"n": "Bat Trang ceramics village", "cat": "do", "tier": "", "a": "Gia Lam", "d": "A 15th-century pottery village 15 km from the centre, its lanes lined with kilns and workshops where you can throw and paint your own piece to be fired and shipped home. A hands-on half-day that delights families and design lovers alike.", "lat": 20.975022, "lon": 105.911776, "p": "v"}, {"n": "Long Bien Bridge", "cat": "do", "tier": "", "a": "Old Quarter", "d": "The great 1902 Eiffel-era iron bridge across the Red River, scarred by war and still carrying trains and cyclists over the water and the banana fields below. A quietly poignant walk at golden hour, away from the tour crowds.", "lat": 21.043065, "lon": 105.858033, "p": "v"}, {"n": "Hang Ma & the craft lanes at festival time", "cat": "do", "tier": "", "a": "Old Quarter", "d": "The lane of votive paper and decorations erupts into colour before Tet and the Mid-Autumn Festival, lanterns and offerings spilling across the street. Timed right, it is one of the most joyous corners of the city.", "lat": 21.035324, "lon": 105.850039, "p": "a"}, {"n": "Ba Dinh & the diplomatic quarter by car", "cat": "do", "tier": "", "a": "Ba Dinh", "d": "Beyond the mausoleum, the leafy avenues of embassies, ministries and grand villas make a graceful private drive between the citadel and West Lake. A restful way to link the morning's monuments.", "lat": 21.036987, "lon": 105.835792, "p": "a"}, {"n": "Ha Long Bay overnight cruise", "cat": "do", "tier": "", "a": "Day trip — Quang Ninh", "d": "Nearly 2,000 limestone karsts rising from jade water, best seen from the balcony cabin of a small luxury junk on an overnight sailing — sunset on the sundeck, kayaking hidden lagoons, dawn tai chi. The single most romantic escape from Hanoi, roughly a 2.5-hour transfer away.", "lat": 21.02038, "lon": 105.925651, "p": "v"}, {"n": "Lan Ha Bay cruise", "cat": "do", "tier": "", "a": "Day trip — Hai Phong", "d": "The quieter, less-visited neighbour of Ha Long off Cat Ba Island — the same soaring karsts and secret beaches, with a fraction of the boats. The connoisseur's choice for an overnight cruise, reached in about three hours.", "lat": 21.020187, "lon": 105.925691, "p": "v"}, {"n": "Ninh Binh & Trang An", "cat": "do", "tier": "", "a": "Day trip — Ninh Binh", "d": "'Ha Long Bay on land' — rowed in a sampan through flooded caves between towering karsts and rice paddies, past ancient temples and the old capital of Hoa Lu. Utterly cinematic, doable as a long day trip or, better, an overnight from Hanoi.", "lat": 20.704981, "lon": 105.918658, "p": "a"}, {"n": "Tam Coc & Mua Cave", "cat": "do", "tier": "", "a": "Day trip — Ninh Binh", "d": "The Tam Coc river boats drift through three caves and golden paddies, while a climb of some 500 steps to the Mua Cave viewpoint delivers the definitive panorama over the karst valley. The signature photograph of northern Vietnam.", "lat": 20.704981, "lon": 105.918658, "p": "a"}, {"n": "Bai Dinh Pagoda", "cat": "do", "tier": "", "a": "Day trip — Ninh Binh", "d": "The largest Buddhist temple complex in Vietnam, a vast modern hillside of halls, a corridor lined with 500 stone arhats and the tallest bronze Buddha in Southeast Asia. Often paired with Trang An on the same Ninh Binh circuit.", "lat": 21.035856, "lon": 105.833614, "p": "v"}, {"n": "Perfume Pagoda", "cat": "do", "tier": "", "a": "Day trip — My Duc", "d": "A revered pilgrimage of shrines set in a limestone massif, reached by a rowed boat along the Yen stream and then a cable car or hike to the sacred Huong Tich grotto. Loveliest and busiest during the spring festival; serene the rest of the year, about two hours from the city.", "lat": 20.605469, "lon": 105.774277, "p": "v"}, {"n": "Duong Lam ancient village", "cat": "do", "tier": "", "a": "Day trip — Son Tay", "d": "A cluster of hamlets 50 km from Hanoi where 300- to 400-year-old laterite houses, communal halls and banyan-shaded gates preserve the northern delta village of another century. The first village in Vietnam granted national heritage status — a gentle, authentic day in the countryside.", "lat": 21.047787, "lon": 105.800913, "p": "v"}, {"n": "Mai Chau valley", "cat": "do", "tier": "", "a": "Day trip — Hoa Binh", "d": "A wide green valley of rice terraces and White Thai stilt-house villages, ideal for cycling between hamlets and an overnight stay among the ethnic-minority communities. A soft, scenic introduction to the northern highlands, about four hours out.", "lat": 21.111417, "lon": 105.752564, "p": "v"}, {"n": "Ancient House at 87 Ma May", "cat": "do", "tier": "", "a": "Old Quarter", "d": "A restored 19th-century merchant's tube-house open to visitors, its dim rooms and inner courtyard showing exactly how the Old Quarter's traders lived and worked. A five-minute masterclass in vernacular architecture in the heart of the lanes.", "lat": 21.034366, "lon": 105.853593, "p": "v"}, {"n": "Bach Ma Temple", "cat": "do", "tier": "", "a": "Old Quarter", "d": "The oldest temple in the Old Quarter, dedicated to the white horse spirit said to have guided the founding of the citadel, hushed and incense-dark amid the market bustle. A quiet detour most visitors miss.", "lat": 21.035934, "lon": 105.850988, "p": "v"}, {"n": "Vietnam Military History Museum", "cat": "do", "tier": "", "a": "Nam Tu Liem", "d": "The nation's flagship military museum, reopened in 2024 in a vast new campus, tracing centuries of resistance through aircraft, tanks and a soaring victory tower. Sweeping, modern and thorough for those drawn to the war years.", "lat": 21.011587, "lon": 105.754706, "p": "v"}, {"n": "Hanoi cooking class", "cat": "do", "tier": "", "a": "Old Quarter", "d": "A guided morning at the market followed by a private hands-on class in pho, fresh spring rolls and bun cha — with vegetarian menus arranged in advance. A hands-on souvenir the whole family carries home.", "lat": 21.037796, "lon": 105.82323, "p": "v"}, {"n": "Ceramic Mosaic Mural along the Red River dyke", "cat": "do", "tier": "", "a": "Old Quarter", "d": "A record-holding ceramic mural running several kilometres along the dyke road, telling Vietnamese history in tiny tiles. A colourful, offbeat stop en route to the Long Bien Bridge or Bat Trang.", "lat": 21.035324, "lon": 105.850039, "p": "a"}, {"n": "Tay Ho lakeside dining & sunset drinks", "cat": "do", "tier": "", "a": "Tay Ho", "d": "West Lake's shore holds Hanoi's most relaxed fine dining and rooftop bars, the water turning gold as the city lights come up. The natural place for a slow, elegant evening away from Old Quarter's clamour.", "lat": 21.058042, "lon": 105.813965, "p": "a"}, {"n": "Workshop14", "cat": "party", "tier": "Cocktail bars", "a": "Tay Ho / West Lake", "d": "The city's most exciting new bar — local ingredients, serious technique, and a place on Asia's list within months of opening.", "lat": 21.058253, "lon": 105.832448, "p": "v"}, {"n": "The Hudson Rooms", "cat": "party", "tier": "Cocktail bars", "a": "French Quarter (Hoan Kiem) — Capella Hanoi", "d": "A dazzling bar inside the Three-Key Capella — 1920s glamour and cocktails to match the setting.", "lat": 21.025715, "lon": 105.85681, "p": "a"}, {"n": "The Haflington", "cat": "party", "tier": "Cocktail bars", "a": "Old Quarter (Hoan Kiem)", "d": "A cocktail bar staged like a night in a European museum — the first Vietnamese bar ever to break Asia's top 50.", "lat": 21.027196, "lon": 105.856575, "p": "v"}, {"n": "Nê Cocktail Bar", "cat": "party", "tier": "Cocktail bars", "a": "Hoan Kiem (near the lake)", "d": "The bar that put Hanoi on the map — birthplace of the celebrated 'Phở' cocktail, distilling the city into a glass.", "lat": 21.034661, "lon": 105.846213, "p": "v"}, {"n": "Bamboo Bar, Sofitel Legend Metropole", "cat": "party", "tier": "Landmark bars", "a": "French Quarter (Hoan Kiem)", "d": "A poolside Indochine bar in the city's grande dame — a rediscovered wartime air-raid shelter lies just beneath it.", "lat": 21.025488, "lon": 105.855978, "p": "v"}, {"n": "Top of Hanoi, Lotte Hotel", "cat": "party", "tier": "Rooftops", "a": "Ba Dinh (Lotte Tower)", "d": "An open-air perch on the 67th floor of the Lotte Tower — the highest, widest view over the whole city.", "lat": 21.032168, "lon": 105.812493, "p": "v"}]}
+{
+  "center": [
+    21.028333,
+    105.854041
+  ],
+  "venues": [
+    {
+      "n": "Capella Hanoi",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "French Quarter / near the Opera House (Hoan Kiem)",
+      "d": "Bill Bensley's 1920s opera fantasy \u2014 47 rooms, each a jewel-box, and the finest address in the city.",
+      "lat": 21.025715,
+      "lon": 105.85681,
+      "photos": []
+    },
+    {
+      "n": "Sofitel Legend Metropole Hanoi",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "French Quarter (Hoan Kiem)",
+      "d": "The city's grande dame since 1901 \u2014 colonial white-and-green, and the address every visitor of consequence has passed through.",
+      "lat": 21.025488,
+      "lon": 105.855978,
+      "photos": []
+    },
+    {
+      "n": "InterContinental Hanoi Westlake",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Tay Ho / West Lake",
+      "d": "Over-water pavilions on stilts above West Lake \u2014 a resort calm rare this close to the centre.",
+      "lat": 21.058466,
+      "lon": 105.831587,
+      "photos": []
+    },
+    {
+      "n": "JW Marriott Hotel Hanoi",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Nam Tu Liem / Convention district (west Hanoi)",
+      "d": "Carlos Zapata's dragon-inspired curve \u2014 the capital's grand modern house, chosen for heads of state.",
+      "lat": 21.007588,
+      "lon": 105.782453,
+      "photos": []
+    },
+    {
+      "n": "Meli\u00e1 Hanoi",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "French Quarter (Hoan Kiem)",
+      "d": "A dependable, well-placed international tower in the heart of the city.",
+      "lat": 21.02453,
+      "lon": 105.848402,
+      "photos": []
+    },
+    {
+      "n": "Apricot Hotel",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Hoan Kiem lakeside (Old Quarter edge)",
+      "d": "An art-filled boutique house facing Hoan Kiem Lake \u2014 Vietnamese paintings on every wall.",
+      "lat": 21.028094,
+      "lon": 105.850788,
+      "photos": []
+    },
+    {
+      "n": "Peridot Grand Luxury Boutique Hotel",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Old Quarter (Hoan Kiem)",
+      "d": "A polished, urbane boutique tower in the thick of the Old Quarter.",
+      "lat": 21.033048,
+      "lon": 105.846297,
+      "photos": []
+    },
+    {
+      "n": "Gia",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Van Mieu / Dong Da (near the Temple of Literature)",
+      "d": "A modern love letter to Northern Vietnamese heritage, in an Indochine house opposite the Temple of Literature.",
+      "lat": 21.03881,
+      "lon": 105.78189,
+      "photos": []
+    },
+    {
+      "n": "T\u1ea7m V\u1ecb",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Ba Dinh",
+      "d": "Northern Vietnamese home cooking, kept exact and unhurried \u2014 the food a Hanoi grandmother would cook, raised to a star.",
+      "lat": 21.020871,
+      "lon": 105.857734,
+      "photos": []
+    },
+    {
+      "n": "Hibana by Koki",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "French Quarter (Hoan Kiem) \u2014 Capella Hanoi",
+      "d": "An intimate teppanyaki counter inside Capella \u2014 Japanese precision and premium produce, one of the hardest seats in town.",
+      "lat": 21.025715,
+      "lon": 105.85681,
+      "photos": []
+    },
+    {
+      "n": "ONVIT",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Yen Hoa / Cau Giay (Grand Plaza Hanoi)",
+      "d": "Korean fine dining told through Vietnam's finest ingredients \u2014 the country's first starred Korean kitchen.",
+      "lat": 21.028333,
+      "lon": 105.854041,
+      "photos": []
+    },
+    {
+      "n": "Lamai Garden",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Tay Ho / West Lake",
+      "d": "Farm-to-table plant-based cooking with more than half its herbs and vegetables grown on site \u2014 a rare green star.",
+      "lat": 21.040158,
+      "lon": 105.8307,
+      "photos": []
+    },
+    {
+      "n": "Ch\u1ea3 C\u00e1 Th\u0103ng Long",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Old Quarter (Hoan Kiem)",
+      "d": "Hanoi's signature turmeric-and-dill fish, sizzled at your table over a charcoal brazier \u2014 a single, perfect dish.",
+      "lat": 21.032947,
+      "lon": 105.846019,
+      "photos": []
+    },
+    {
+      "n": "B\u00fan Ch\u1ea3 Ta",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Old Quarter (Hoan Kiem)",
+      "d": "Grilled pork and rice noodles in smoky broth \u2014 Hanoi's defining lunch, done properly.",
+      "lat": 21.03468,
+      "lon": 105.85469,
+      "photos": []
+    },
+    {
+      "n": "Ph\u1edf B\u00f2 L\u00e2m",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Old Quarter (Hoan Kiem)",
+      "d": "A bowl of beef ph\u1edf with real conviction \u2014 the broth that makes the pilgrimage worth it.",
+      "lat": 21.040467,
+      "lon": 105.888323,
+      "photos": []
+    },
+    {
+      "n": "Mi\u1ebfn L\u01b0\u01a1n \u0110\u00f4ng Th\u1ecbnh",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Old Quarter (Hoan Kiem)",
+      "d": "Crisp eel and glass noodles \u2014 a Hanoi speciality guarded by a single family.",
+      "lat": 21.031853,
+      "lon": 105.846905,
+      "photos": []
+    },
+    {
+      "n": "H\u00e0 Th\u00e0nh Mansion",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Old Quarter (Hoan Kiem)",
+      "d": "Classic Hanoi cooking in a handsome heritage setting \u2014 the old recipes, comfortably staged.",
+      "lat": 21.020882,
+      "lon": 105.84904,
+      "photos": []
+    },
+    {
+      "n": "M\u1eadu D\u1ecbch S\u1ed1 37",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Ba Dinh",
+      "d": "Vietnamese comfort food in a nostalgic subsidy-era canteen \u2014 a warm plate of the country's recent past.",
+      "lat": 21.045545,
+      "lon": 105.840548,
+      "photos": []
+    },
+    {
+      "n": "\u01afu \u0110\u00e0m Chay",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Hai Ba Trung",
+      "d": "Refined vegetarian Vietnamese cooking in a calm, tea-house setting \u2014 meat-free without compromise.",
+      "lat": 21.018772,
+      "lon": 105.84814,
+      "photos": []
+    },
+    {
+      "n": "1946 C\u1eeda B\u1eafc",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Ba Dinh",
+      "d": "Authentic regional Vietnamese dishes in an old villa \u2014 quiet, generous, of another era.",
+      "lat": 21.041437,
+      "lon": 105.840507,
+      "photos": []
+    },
+    {
+      "n": "B\u00fan Ch\u1ea3 H\u01b0\u01a1ng Li\u00ean",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Hai Ba Trung",
+      "d": "The b\u00fan ch\u1ea3 joint where Obama and Anthony Bourdain shared a plate and a beer \u2014 since immortalised.",
+      "lat": 21.035994,
+      "lon": 105.851812,
+      "photos": []
+    },
+    {
+      "n": "Ph\u1edf Gia Truy\u1ec1n B\u00e1t \u0110\u00e0n",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Old Quarter (Hoan Kiem)",
+      "d": "The queue-out-the-door ph\u1edf the locals line up for at dawn \u2014 a legendary bowl and no ceremony.",
+      "lat": 21.033638,
+      "lon": 105.846379,
+      "photos": []
+    },
+    {
+      "n": "The Old Quarter \u2014 the 36 guild streets",
+      "cat": "do",
+      "tier": "",
+      "a": "Old Quarter",
+      "d": "A thousand years of commerce still hums through this warren north of the lake, where each lane once served a single trade \u2014 Hang Bac for silver, Hang Ma for votive paper, Hang Dao for silk. Best walked slowly with a private guide who can read the layers a map cannot.",
+      "lat": 21.031576,
+      "lon": 105.844925,
+      "photos": []
+    },
+    {
+      "n": "A cyclo ride through the old lanes",
+      "cat": "do",
+      "tier": "",
+      "a": "Old Quarter",
+      "d": "The gentlest way to take in the crush of the 36 streets \u2014 reclined in a pedalled cyclo while the city flows around you, unhurried and eye-level with the shophouses. An easy, charming loop for elders and children alike before the walking begins.",
+      "lat": 21.035324,
+      "lon": 105.850039,
+      "photos": []
+    },
+    {
+      "n": "Hoan Kiem Lake",
+      "cat": "do",
+      "tier": "",
+      "a": "Hoan Kiem",
+      "d": "The green heart of Hanoi and the city's favourite gathering place, its still water wrapped in willows and the legend of the returned sword. A dawn circuit past the red Turtle Tower, when locals practise tai chi, is one of the quietest luxuries the city offers.",
+      "lat": 21.028831,
+      "lon": 105.852536,
+      "photos": []
+    },
+    {
+      "n": "Ngoc Son Temple & The Huc Bridge",
+      "cat": "do",
+      "tier": "",
+      "a": "Hoan Kiem",
+      "d": "A small island temple honouring the general Tran Hung Dao, reached across the vivid vermilion arc of The Huc Bridge. The postcard image of Hanoi \u2014 and a serene ten-minute pause in the middle of the old city.",
+      "lat": 21.030727,
+      "lon": 105.852376,
+      "photos": []
+    },
+    {
+      "n": "Temple of Literature",
+      "cat": "do",
+      "tier": "",
+      "a": "Ba Dinh",
+      "d": "Vietnam's first university, founded in 1070, a series of tranquil walled courtyards, lotus ponds and stelae carried on the backs of stone tortoises. The most composed and contemplative site in the city, and one that resonates with multi-generation families who prize learning.",
+      "lat": 21.02879,
+      "lon": 105.835953,
+      "photos": []
+    },
+    {
+      "n": "Ho Chi Minh Mausoleum & Ba Dinh Square",
+      "cat": "do",
+      "tier": "",
+      "a": "Ba Dinh",
+      "d": "The solemn granite mausoleum on the vast ceremonial square where independence was declared in 1945, its changing of the guard a study in precision. A window into the nation's founding story \u2014 go early, and dress modestly.",
+      "lat": 21.036783,
+      "lon": 105.834689,
+      "photos": []
+    },
+    {
+      "n": "One Pillar Pagoda",
+      "cat": "do",
+      "tier": "",
+      "a": "Ba Dinh",
+      "d": "A tiny wooden shrine built in 1049 to resemble a lotus rising on a single stone stem from its pond, tucked within the Ho Chi Minh complex. Small in scale but singular in form \u2014 worth the short walk from the mausoleum.",
+      "lat": 21.035856,
+      "lon": 105.833614,
+      "photos": []
+    },
+    {
+      "n": "Presidential Palace & Ho Chi Minh's stilt house",
+      "cat": "do",
+      "tier": "",
+      "a": "Ba Dinh",
+      "d": "The mustard-yellow French colonial palace with its formal gardens, and behind it the modest teak stilt house where Ho Chi Minh chose to live instead. The contrast between grandeur and simplicity is the whole point.",
+      "lat": 21.038171,
+      "lon": 105.833152,
+      "photos": []
+    },
+    {
+      "n": "Ho Chi Minh Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Ba Dinh",
+      "d": "A striking modernist white building beside the mausoleum, its exhibits tracing the life of the leader and the century that shaped modern Vietnam. A cool, orderly stop that completes the Ba Dinh circuit.",
+      "lat": 21.035617,
+      "lon": 105.832629,
+      "photos": []
+    },
+    {
+      "n": "Imperial Citadel of Thang Long",
+      "cat": "do",
+      "tier": "",
+      "a": "Ba Dinh",
+      "d": "A thousand years of Vietnamese power layered in one place \u2014 Ly dynasty palace foundations, colonial gates and the underground command bunker of the American war, all in a single vast enclosure. The archaeological dig alone rewards a private, well-guided morning.",
+      "lat": 21.03839,
+      "lon": 105.840624,
+      "photos": []
+    },
+    {
+      "n": "The Old French Quarter",
+      "cat": "do",
+      "tier": "",
+      "a": "French Quarter",
+      "d": "Wide tree-lined boulevards, ochre villas and grand hotels laid out during the colonial decades, a world away from the tangle of the Old Quarter. Best explored on foot or by private car, ending with tea at the Metropole where egg coffee was born.",
+      "lat": 21.027196,
+      "lon": 105.856575,
+      "photos": []
+    },
+    {
+      "n": "Hanoi Opera House",
+      "cat": "do",
+      "tier": "",
+      "a": "French Quarter",
+      "d": "A 1911 belle-epoque theatre modelled on the Palais Garnier in Paris, all marble stairs and gilt, still staging opera, ballet and Vietnamese folk concerts. Attend a performance, or simply admire the finest colonial facade in the city.",
+      "lat": 21.024202,
+      "lon": 105.857834,
+      "photos": []
+    },
+    {
+      "n": "St Joseph's Cathedral",
+      "cat": "do",
+      "tier": "",
+      "a": "Old Quarter",
+      "d": "A weathered neo-Gothic cathedral from 1886, its twin towers echoing Notre-Dame, presiding over a lively square ringed with cafes. The lanes around it \u2014 Nha Tho and Nha Chung \u2014 are among the best in the city for a slow coffee and boutique browsing.",
+      "lat": 21.028648,
+      "lon": 105.848857,
+      "photos": []
+    },
+    {
+      "n": "Vietnam Museum of Ethnology",
+      "cat": "do",
+      "tier": "",
+      "a": "Cau Giay",
+      "d": "The finest museum in Hanoi \u2014 a thoughtful, superbly labelled survey of Vietnam's 54 ethnic groups, with full-scale traditional houses reconstructed in the garden. Genuinely engaging for children and the most rewarding cultural stop in the city.",
+      "lat": 21.040077,
+      "lon": 105.79884,
+      "photos": []
+    },
+    {
+      "n": "Vietnamese Women's Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Hoan Kiem",
+      "d": "A moving, beautifully curated museum on women in Vietnamese life \u2014 marriage, motherhood, war and the street vendors who still carry the city on shoulder poles. Compact, powerful and a short walk south of the lake.",
+      "lat": 21.023351,
+      "lon": 105.851596,
+      "photos": []
+    },
+    {
+      "n": "Vietnam National Fine Arts Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Ba Dinh",
+      "d": "Set in an elegant three-storey colonial building, a well-chosen collection running from ancient Buddhist sculpture and lacquer to modern silk painting. Quiet, uncrowded and close to the Temple of Literature.",
+      "lat": 21.030642,
+      "lon": 105.837036,
+      "photos": []
+    },
+    {
+      "n": "Hoa Lo Prison",
+      "cat": "do",
+      "tier": "",
+      "a": "Hoan Kiem",
+      "d": "The remnant of the French colonial prison, later the wartime 'Hanoi Hilton', with unflinching exhibits on both eras. Sobering and well-presented \u2014 a serious counterweight to the city's gentler sights.",
+      "lat": 21.025422,
+      "lon": 105.846509,
+      "photos": []
+    },
+    {
+      "n": "Train Street",
+      "cat": "do",
+      "tier": "",
+      "a": "Old Quarter",
+      "d": "A famously narrow residential lane where a working train passes within arm's reach of the trackside cafes. Access has been repeatedly restricted for safety and opens and closes without notice \u2014 go only with a local guide who knows the day's rules.",
+      "lat": 21.029582,
+      "lon": 105.843321,
+      "photos": []
+    },
+    {
+      "n": "West Lake (Ho Tay)",
+      "cat": "do",
+      "tier": "",
+      "a": "Tay Ho",
+      "d": "The city's largest lake, ringed by 17 km of quieter, leafier streets, lakeside villas and the best independent dining in Hanoi. A calm base for a slower stay, with sunset the moment to be on the water's edge.",
+      "lat": 21.058042,
+      "lon": 105.813965,
+      "photos": []
+    },
+    {
+      "n": "Tran Quoc Pagoda",
+      "cat": "do",
+      "tier": "",
+      "a": "Tay Ho",
+      "d": "The oldest Buddhist temple in Hanoi, its red brick stupa rising from a slender causeway into West Lake, dating in origin to the 6th century. Loveliest in late afternoon when the light catches the water and incense drifts from the shrine.",
+      "lat": 21.047884,
+      "lon": 105.836838,
+      "photos": []
+    },
+    {
+      "n": "Quan Thanh Temple",
+      "cat": "do",
+      "tier": "",
+      "a": "Ba Dinh",
+      "d": "A serene 11th-century Taoist temple beside West Lake, guarded by a nearly four-metre bronze statue cast in the 17th century. An easy, atmospheric pairing with Tran Quoc just along the shore.",
+      "lat": 21.043006,
+      "lon": 105.836587,
+      "photos": []
+    },
+    {
+      "n": "Dong Xuan Market",
+      "cat": "do",
+      "tier": "",
+      "a": "Old Quarter",
+      "d": "Hanoi's largest covered market, a French-built hall of narrow aisles selling everything from silk and spices to household goods. Chaotic and colourful \u2014 a photographer's paradise and a plunge into the working city.",
+      "lat": 21.038096,
+      "lon": 105.849403,
+      "photos": []
+    },
+    {
+      "n": "Thang Long Water Puppet Theatre",
+      "cat": "do",
+      "tier": "",
+      "a": "Hoan Kiem",
+      "d": "A thousand-year-old northern art form performed on a pool of water, lacquered puppets dancing to live traditional music and folk tales of rice farming and dragons. Short, delightful and a sure hit across three generations.",
+      "lat": 21.031704,
+      "lon": 105.853455,
+      "photos": []
+    },
+    {
+      "n": "Egg coffee (ca phe trung)",
+      "cat": "do",
+      "tier": "",
+      "a": "Old Quarter",
+      "d": "Hanoi's signature indulgence \u2014 whipped egg yolk beaten into a rich sweet cream over strong coffee, invented here in 1946. Cafe Giang, run by the inventor's family, is the original; a hidden upstairs table watching the street is part of the ritual.",
+      "lat": 21.017866,
+      "lon": 105.836809,
+      "photos": []
+    },
+    {
+      "n": "Old Quarter street-food trail",
+      "cat": "do",
+      "tier": "",
+      "a": "Old Quarter",
+      "d": "Hanoi is a world capital of street food \u2014 pho, bun cha over charcoal, banh cuon, egg coffee \u2014 each often mastered by a single family stall. A private evening food guide navigates the crowds, the hygiene and the vegetarian options with ease.",
+      "lat": 21.030916,
+      "lon": 105.849708,
+      "photos": []
+    },
+    {
+      "n": "Bat Trang ceramics village",
+      "cat": "do",
+      "tier": "",
+      "a": "Gia Lam",
+      "d": "A 15th-century pottery village 15 km from the centre, its lanes lined with kilns and workshops where you can throw and paint your own piece to be fired and shipped home. A hands-on half-day that delights families and design lovers alike.",
+      "lat": 20.975022,
+      "lon": 105.911776,
+      "photos": []
+    },
+    {
+      "n": "Long Bien Bridge",
+      "cat": "do",
+      "tier": "",
+      "a": "Old Quarter",
+      "d": "The great 1902 Eiffel-era iron bridge across the Red River, scarred by war and still carrying trains and cyclists over the water and the banana fields below. A quietly poignant walk at golden hour, away from the tour crowds.",
+      "lat": 21.043065,
+      "lon": 105.858033,
+      "photos": []
+    },
+    {
+      "n": "Hang Ma & the craft lanes at festival time",
+      "cat": "do",
+      "tier": "",
+      "a": "Old Quarter",
+      "d": "The lane of votive paper and decorations erupts into colour before Tet and the Mid-Autumn Festival, lanterns and offerings spilling across the street. Timed right, it is one of the most joyous corners of the city.",
+      "lat": 21.035324,
+      "lon": 105.850039,
+      "photos": []
+    },
+    {
+      "n": "Ba Dinh & the diplomatic quarter by car",
+      "cat": "do",
+      "tier": "",
+      "a": "Ba Dinh",
+      "d": "Beyond the mausoleum, the leafy avenues of embassies, ministries and grand villas make a graceful private drive between the citadel and West Lake. A restful way to link the morning's monuments.",
+      "lat": 21.036987,
+      "lon": 105.835792,
+      "photos": []
+    },
+    {
+      "n": "Ha Long Bay overnight cruise",
+      "cat": "do",
+      "tier": "",
+      "a": "Day trip \u2014 Quang Ninh",
+      "d": "Nearly 2,000 limestone karsts rising from jade water, best seen from the balcony cabin of a small luxury junk on an overnight sailing \u2014 sunset on the sundeck, kayaking hidden lagoons, dawn tai chi. The single most romantic escape from Hanoi, roughly a 2.5-hour transfer away.",
+      "lat": 21.02038,
+      "lon": 105.925651,
+      "photos": []
+    },
+    {
+      "n": "Lan Ha Bay cruise",
+      "cat": "do",
+      "tier": "",
+      "a": "Day trip \u2014 Hai Phong",
+      "d": "The quieter, less-visited neighbour of Ha Long off Cat Ba Island \u2014 the same soaring karsts and secret beaches, with a fraction of the boats. The connoisseur's choice for an overnight cruise, reached in about three hours.",
+      "lat": 21.020187,
+      "lon": 105.925691,
+      "photos": []
+    },
+    {
+      "n": "Ninh Binh & Trang An",
+      "cat": "do",
+      "tier": "",
+      "a": "Day trip \u2014 Ninh Binh",
+      "d": "'Ha Long Bay on land' \u2014 rowed in a sampan through flooded caves between towering karsts and rice paddies, past ancient temples and the old capital of Hoa Lu. Utterly cinematic, doable as a long day trip or, better, an overnight from Hanoi.",
+      "lat": 20.704981,
+      "lon": 105.918658,
+      "photos": []
+    },
+    {
+      "n": "Tam Coc & Mua Cave",
+      "cat": "do",
+      "tier": "",
+      "a": "Day trip \u2014 Ninh Binh",
+      "d": "The Tam Coc river boats drift through three caves and golden paddies, while a climb of some 500 steps to the Mua Cave viewpoint delivers the definitive panorama over the karst valley. The signature photograph of northern Vietnam.",
+      "lat": 20.704981,
+      "lon": 105.918658,
+      "photos": []
+    },
+    {
+      "n": "Bai Dinh Pagoda",
+      "cat": "do",
+      "tier": "",
+      "a": "Day trip \u2014 Ninh Binh",
+      "d": "The largest Buddhist temple complex in Vietnam, a vast modern hillside of halls, a corridor lined with 500 stone arhats and the tallest bronze Buddha in Southeast Asia. Often paired with Trang An on the same Ninh Binh circuit.",
+      "lat": 21.035856,
+      "lon": 105.833614,
+      "photos": []
+    },
+    {
+      "n": "Perfume Pagoda",
+      "cat": "do",
+      "tier": "",
+      "a": "Day trip \u2014 My Duc",
+      "d": "A revered pilgrimage of shrines set in a limestone massif, reached by a rowed boat along the Yen stream and then a cable car or hike to the sacred Huong Tich grotto. Loveliest and busiest during the spring festival; serene the rest of the year, about two hours from the city.",
+      "lat": 20.605469,
+      "lon": 105.774277,
+      "photos": []
+    },
+    {
+      "n": "Duong Lam ancient village",
+      "cat": "do",
+      "tier": "",
+      "a": "Day trip \u2014 Son Tay",
+      "d": "A cluster of hamlets 50 km from Hanoi where 300- to 400-year-old laterite houses, communal halls and banyan-shaded gates preserve the northern delta village of another century. The first village in Vietnam granted national heritage status \u2014 a gentle, authentic day in the countryside.",
+      "lat": 21.047787,
+      "lon": 105.800913,
+      "photos": []
+    },
+    {
+      "n": "Mai Chau valley",
+      "cat": "do",
+      "tier": "",
+      "a": "Day trip \u2014 Hoa Binh",
+      "d": "A wide green valley of rice terraces and White Thai stilt-house villages, ideal for cycling between hamlets and an overnight stay among the ethnic-minority communities. A soft, scenic introduction to the northern highlands, about four hours out.",
+      "lat": 21.111417,
+      "lon": 105.752564,
+      "photos": []
+    },
+    {
+      "n": "Ancient House at 87 Ma May",
+      "cat": "do",
+      "tier": "",
+      "a": "Old Quarter",
+      "d": "A restored 19th-century merchant's tube-house open to visitors, its dim rooms and inner courtyard showing exactly how the Old Quarter's traders lived and worked. A five-minute masterclass in vernacular architecture in the heart of the lanes.",
+      "lat": 21.034366,
+      "lon": 105.853593,
+      "photos": []
+    },
+    {
+      "n": "Bach Ma Temple",
+      "cat": "do",
+      "tier": "",
+      "a": "Old Quarter",
+      "d": "The oldest temple in the Old Quarter, dedicated to the white horse spirit said to have guided the founding of the citadel, hushed and incense-dark amid the market bustle. A quiet detour most visitors miss.",
+      "lat": 21.035934,
+      "lon": 105.850988,
+      "photos": []
+    },
+    {
+      "n": "Vietnam Military History Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Nam Tu Liem",
+      "d": "The nation's flagship military museum, reopened in 2024 in a vast new campus, tracing centuries of resistance through aircraft, tanks and a soaring victory tower. Sweeping, modern and thorough for those drawn to the war years.",
+      "lat": 21.011587,
+      "lon": 105.754706,
+      "photos": []
+    },
+    {
+      "n": "Hanoi cooking class",
+      "cat": "do",
+      "tier": "",
+      "a": "Old Quarter",
+      "d": "A guided morning at the market followed by a private hands-on class in pho, fresh spring rolls and bun cha \u2014 with vegetarian menus arranged in advance. A hands-on souvenir the whole family carries home.",
+      "lat": 21.037796,
+      "lon": 105.82323,
+      "photos": []
+    },
+    {
+      "n": "Ceramic Mosaic Mural along the Red River dyke",
+      "cat": "do",
+      "tier": "",
+      "a": "Old Quarter",
+      "d": "A record-holding ceramic mural running several kilometres along the dyke road, telling Vietnamese history in tiny tiles. A colourful, offbeat stop en route to the Long Bien Bridge or Bat Trang.",
+      "lat": 21.035324,
+      "lon": 105.850039,
+      "photos": []
+    },
+    {
+      "n": "Tay Ho lakeside dining & sunset drinks",
+      "cat": "do",
+      "tier": "",
+      "a": "Tay Ho",
+      "d": "West Lake's shore holds Hanoi's most relaxed fine dining and rooftop bars, the water turning gold as the city lights come up. The natural place for a slow, elegant evening away from Old Quarter's clamour.",
+      "lat": 21.058042,
+      "lon": 105.813965,
+      "photos": []
+    },
+    {
+      "n": "Workshop14",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Tay Ho / West Lake",
+      "d": "The city's most exciting new bar \u2014 local ingredients, serious technique, and a place on Asia's list within months of opening.",
+      "lat": 21.058253,
+      "lon": 105.832448,
+      "photos": []
+    },
+    {
+      "n": "The Hudson Rooms",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "French Quarter (Hoan Kiem) \u2014 Capella Hanoi",
+      "d": "A dazzling bar inside the Three-Key Capella \u2014 1920s glamour and cocktails to match the setting.",
+      "lat": 21.025715,
+      "lon": 105.85681,
+      "photos": []
+    },
+    {
+      "n": "The Haflington",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Old Quarter (Hoan Kiem)",
+      "d": "A cocktail bar staged like a night in a European museum \u2014 the first Vietnamese bar ever to break Asia's top 50.",
+      "lat": 21.027196,
+      "lon": 105.856575,
+      "photos": []
+    },
+    {
+      "n": "N\u00ea Cocktail Bar",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Hoan Kiem (near the lake)",
+      "d": "The bar that put Hanoi on the map \u2014 birthplace of the celebrated 'Ph\u1edf' cocktail, distilling the city into a glass.",
+      "lat": 21.034661,
+      "lon": 105.846213,
+      "photos": []
+    },
+    {
+      "n": "Bamboo Bar, Sofitel Legend Metropole",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "French Quarter (Hoan Kiem)",
+      "d": "A poolside Indochine bar in the city's grande dame \u2014 a rediscovered wartime air-raid shelter lies just beneath it.",
+      "lat": 21.025488,
+      "lon": 105.855978,
+      "photos": []
+    },
+    {
+      "n": "Top of Hanoi, Lotte Hotel",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "Ba Dinh (Lotte Tower)",
+      "d": "An open-air perch on the 67th floor of the Lotte Tower \u2014 the highest, widest view over the whole city.",
+      "lat": 21.032168,
+      "lon": 105.812493,
+      "photos": []
+    }
+  ]
+}

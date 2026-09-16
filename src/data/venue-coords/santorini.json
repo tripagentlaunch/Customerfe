@@ -1,1 +1,838 @@
-{"center": [36.407111, 25.456664], "venues": [{"n": "Grace Hotel, Auberge Resorts Collection", "cat": "stay", "tier": "Ultra", "a": "Imerovigli", "d": "The island's most decorated house — a clean-lined cliff hotel above the caldera, run to a standard nothing on Santorini matches.", "lat": 36.43191, "lon": 25.425143, "p": "a"}, {"n": "Mystique, a Luxury Collection Hotel, Santorini", "cat": "stay", "tier": "Ultra", "a": "Oia", "d": "Cave suites cut into the Oia cliff, set away from the crush — hushed, elemental, and endlessly private.", "lat": 36.463191, "lon": 25.377654, "p": "a"}, {"n": "Katikies Santorini", "cat": "stay", "tier": "Ultra", "a": "Oia", "d": "The whitewashed Oia icon — infinity pools spilling over the caldera, and a sense of romance the island is measured against.", "lat": 36.407111, "lon": 25.456664, "p": "v"}, {"n": "Andronis Luxury Suites", "cat": "stay", "tier": "Ultra", "a": "Oia", "d": "Sculpted white suites carved into the Oia rock, with the sunset delivered straight to the terrace.", "lat": 36.461937, "lon": 25.380213, "p": "v"}, {"n": "Perivolas", "cat": "stay", "tier": "Ultra", "a": "Oia", "d": "Three hundred years of cave-houses turned into the quietest luxury on the island — barefoot, elemental, utterly serene.", "lat": 36.407111, "lon": 25.456664, "p": "v"}, {"n": "Canaves Oia Epitome", "cat": "stay", "tier": "Ultra", "a": "Oia", "d": "The grandest of the Canaves houses — all-white villas with private pools, on the sloping edge of Oia.", "lat": 36.463191, "lon": 25.377654, "p": "a"}, {"n": "Andronis Arcadia", "cat": "stay", "tier": "Grand", "a": "Imerovigli", "d": "Cube-like Cycladic architecture on the Imerovigli cliff, with Skaros Rock and one of the island's great sunset outlooks.", "lat": 36.465775, "lon": 25.374522, "p": "v"}, {"n": "Vedema, a Luxury Collection Resort, Santorini", "cat": "stay", "tier": "Grand", "a": "Megalochori", "d": "A 400-year-old winery reborn as a Cycladic village retreat — the island's answer for a family that wants space, not a cliff-edge.", "lat": 36.36842, "lon": 25.458238, "p": "v"}, {"n": "Canaves Oia Suites", "cat": "stay", "tier": "Grand", "a": "Oia", "d": "The original Canaves house — cliff-hugging suites and two pools on the most photographed slope in Oia.", "lat": 36.461668, "lon": 25.383104, "p": "v"}, {"n": "Katikies Chromata Santorini", "cat": "stay", "tier": "Grand", "a": "Imerovigli", "d": "A whitewashed Katikies house on the Imerovigli cliff — cascading terraces and the caldera at eye level.", "lat": 36.43191, "lon": 25.425143, "p": "a"}, {"n": "Kirini Santorini", "cat": "stay", "tier": "Grand", "a": "Oia", "d": "A Katikies sister in Oia — classic Cycladic detailing, intimate in scale, refined in style.", "lat": 36.407111, "lon": 25.456664, "p": "v"}, {"n": "Andronis Concept Wellness Resort", "cat": "stay", "tier": "Grand", "a": "Imerovigli", "d": "A slow-living wellness sanctuary on the Imerovigli cliff — space, spa and quiet over spectacle.", "lat": 36.43191, "lon": 25.425143, "p": "a"}, {"n": "Andronis Boutique Hotel", "cat": "stay", "tier": "Grand", "a": "Oia", "d": "An intimate cave-suite house on the Oia cliff, home to Lauda — a long-loved sunset address.", "lat": 36.463191, "lon": 25.377654, "p": "a"}, {"n": "Katikies Garden Santorini", "cat": "stay", "tier": "Luxury", "a": "Fira", "d": "The Katikies house for Fira — a garden-pool retreat in the island's lively heart, home to Selene.", "lat": 36.418309, "lon": 25.427612, "p": "a"}, {"n": "Santorini Secret Suites & Spa", "cat": "stay", "tier": "Luxury", "a": "Oia", "d": "Sleek cave suites with private plunge pools, close to Oia's castle and its sunset.", "lat": 36.463191, "lon": 25.377654, "p": "a"}, {"n": "Athina Luxury Suites", "cat": "stay", "tier": "Luxury", "a": "Fira", "d": "A polished cliff house on the Fira caldera walk — caldera-view suites in the heart of the capital.", "lat": 36.416622, "lon": 25.43082, "p": "v"}, {"n": "Iconic Santorini", "cat": "stay", "tier": "Luxury", "a": "Imerovigli", "d": "A cliff-carved boutique in Imerovigli — cave suites, a hanging pool and the caldera all to itself.", "lat": 36.407111, "lon": 25.456664, "p": "v"}, {"n": "Aressana Spa Hotel & Suites", "cat": "stay", "tier": "Luxury", "a": "Fira", "d": "A calm, garden-and-pool retreat a short step off the Fira caldera path — polished and quietly run.", "lat": 36.416136, "lon": 25.432003, "p": "v"}, {"n": "Canaves Ena", "cat": "stay", "tier": "Luxury", "a": "Oia", "d": "A newer, contemporary Canaves house in Oia — clean lines, caldera views and the group's assured service.", "lat": 36.463191, "lon": 25.377654, "p": "a"}, {"n": "Canaves Epitome", "cat": "stay", "tier": "Grand", "a": "Oia", "d": "The Canaves collection's design-forward resort, with private-pool suites and a lauded pool complex.", "lat": 36.463191, "lon": 25.377654, "p": "a"}, {"n": "Cosmopolitan Suites", "cat": "stay", "tier": "Luxury", "a": "Fira", "d": "An intimate cave-suite house on the Fira cliff — private pools and an unbroken caldera outlook.", "lat": 36.419989, "lon": 25.430912, "p": "v"}, {"n": "Gold Suites", "cat": "stay", "tier": "Luxury", "a": "Imerovigli", "d": "Understated cave suites with plunge pools on the quiet Imerovigli cliff.", "lat": 36.421387, "lon": 25.432275, "p": "v"}, {"n": "On the Rocks", "cat": "stay", "tier": "Premium", "a": "Imerovigli", "d": "A relaxed cliff hotel on the Imerovigli caldera walk — the view of the icons at a gentler price.", "lat": 36.421466, "lon": 25.428609, "p": "v"}, {"n": "San Antonio", "cat": "stay", "tier": "Grand", "a": "Imerovigli", "d": "A whitewashed cliff resort with a wide caldera terrace and infinity pool above Imerovigli.", "lat": 36.407111, "lon": 25.456664, "p": "v"}, {"n": "Sandblu Santorini, LXR Hotels & Resorts", "cat": "stay", "tier": "Grand", "a": "Fira", "d": "A Hilton LXR arrival on the Fira caldera — contemporary luxury under an international flag.", "lat": 36.418309, "lon": 25.427612, "p": "a"}, {"n": "Selene", "cat": "eat", "tier": "Destination", "a": "Fira", "d": "The island's landmark kitchen for over forty years — modern Cycladic cooking on rare volcanic-island ingredients, now under Ettore Botrini.", "lat": 36.380647, "lon": 25.449913, "p": "v"}, {"n": "Lauda", "cat": "eat", "tier": "Destination", "a": "Oia", "d": "Oia's original dining room since 1971 — contemporary Greek cooking with the caldera and the sunset in full view.", "lat": 36.407111, "lon": 25.456664, "p": "v"}, {"n": "Alati", "cat": "eat", "tier": "Fine", "a": "Megalochori", "d": "Vedema's signature table in a 400-year-old winery — Mediterranean cooking beside a serious wine cellar.", "lat": 36.407111, "lon": 25.456664, "p": "v"}, {"n": "Athenian House", "cat": "eat", "tier": "Fine", "a": "Imerovigli", "d": "Chef Dimitris Skarmoutsos' modern Greek room with Skaros Rock at its shoulder — polished, personal, sunset-facing.", "lat": 36.420656, "lon": 25.430175, "p": "v"}, {"n": "Metaxi Mas", "cat": "eat", "tier": "Smart", "a": "Exo Gonia", "d": "The inland table every islander defends — Cretan-leaning home cooking, local Assyrtiko, and no view to distract you.", "lat": 36.387952, "lon": 25.457357, "p": "v"}, {"n": "Argo", "cat": "eat", "tier": "Smart", "a": "Oia", "d": "One of the oldest caldera-cliff rooms in Oia — a family-run kitchen doing honest Santorinian classics with the great view.", "lat": 36.407111, "lon": 25.456664, "p": "v"}, {"n": "Ammoudi Fish Tavern", "cat": "eat", "tier": "Smart", "a": "Ammoudi", "d": "Fish by the kilo at the water's edge below Oia — the day's catch, grilled, with your feet almost in the Aegean.", "lat": 36.460616, "lon": 25.370229, "p": "v"}, {"n": "Roka", "cat": "eat", "tier": "Smart", "a": "Oia", "d": "A courtyard away from the crowds in Oia — modern Greek small plates and mezze, done with real care.", "lat": 36.407111, "lon": 25.456664, "p": "v"}, {"n": "To Psaraki", "cat": "eat", "tier": "Smart", "a": "Vlychada", "d": "A harbour-side seafood kitchen on the island's quiet south coast — pristine fish, well beyond the tourist rooms.", "lat": 36.33799, "lon": 25.435047, "p": "v"}, {"n": "Cava Alta", "cat": "eat", "tier": "Fine", "a": "Oia", "d": "A wine-cave dining room in Oia — Greek cooking built around an ambitious Santorinian cellar.", "lat": 36.383145, "lon": 25.449634, "p": "v"}, {"n": "Candouni", "cat": "eat", "tier": "Smart", "a": "Oia", "d": "A courtyard taverna in a restored Oia captain's house — traditional Greek cooking in a garden setting.", "lat": 36.407111, "lon": 25.456664, "p": "v"}, {"n": "1500 BC", "cat": "eat", "tier": "Fine", "a": "Oia", "d": "A caldera-terrace restaurant on the Oia cliff — Greek-Mediterranean cooking with a front-row sunset.", "lat": 36.463191, "lon": 25.377654, "p": "a"}, {"n": "Sunset from the Byzantine Castle ruins of Oia", "cat": "do", "tier": "", "a": "Oia", "d": "The 15th-century Venetian fortress at Oia's western tip is the island's altar to the sunset, where the sky turns from gold to rose over the caldera. It draws standing-room crowds an hour ahead, so a discreet private terrace or a chartered catamaran below often gives honeymooners the same spectacle without the elbows.", "lat": 36.463191, "lon": 25.377654, "p": "a"}, {"n": "The Three Blue Domes of Oia", "cat": "do", "tier": "", "a": "Oia", "d": "The trio of cobalt-domed churches stacked against the white cliff near Agios Spyridonas is the single most photographed frame in Greece. Reach the viewpoint through the alleys behind the castle at first light for the picture without a hundred phones in it.", "lat": 36.463191, "lon": 25.377654, "p": "a"}, {"n": "Wander Oia's marble lanes and cliffside boutiques", "cat": "do", "tier": "", "a": "Oia", "d": "Oia is a labyrinth of whitewashed cave houses, blue shutters and bougainvillea, threaded with jewellers, galleries and concept stores well suited to a slow afternoon. It is the most polished village on the island and the natural base for a multi-generation stay.", "lat": 36.463191, "lon": 25.377654, "p": "a"}, {"n": "Amoudi Bay seafood tavernas below Oia", "cat": "do", "tier": "", "a": "Oia", "d": "Three hundred steps drop from Oia's castle to a tiny red-cliff harbour where tavernas serve the day's catch with your feet almost in the water. Dimitris and Sunset Ammoudi will lay out grilled fish, fava and a chilled Assyrtiko; call ahead and they will happily build a full vegetarian mezze spread.", "lat": 36.463191, "lon": 25.377654, "p": "a"}, {"n": "Cliff jump to the islet of Agios Nikolaos, Amoudi", "cat": "do", "tier": "", "a": "Oia", "d": "Past the tavernas a dirt path leads to a rocky cove where a short swim reaches the church-topped rock of Agios Nikolaos, with a small ladder up to jumping ledges. A rite of passage for younger travellers, best done with a private boat standing by.", "lat": 36.463191, "lon": 25.377654, "p": "a"}, {"n": "Fira-to-Oia caldera-edge hike", "cat": "do", "tier": "", "a": "Fira", "d": "This roughly 10.5 km cliff walk runs from Fira through Firostefani and Imerovigli to Oia, hugging the caldera the whole way with the volcano always in view. Start at sunrise before the heat; a guide and a chilled hamper at the Oia end make it an event rather than a slog.", "lat": 36.418309, "lon": 25.427612, "p": "a"}, {"n": "Skaros Rock and the caldera lookout", "cat": "do", "tier": "", "a": "Imerovigli", "d": "A steep footpath from Imerovigli descends to Skaros, the ruins of a 13th-century Venetian fortress on a dramatic promontory, ending at the tiny sea-facing chapel of Theoskepasti. The 360-degree caldera view is the finest on the rim and, on a clear day, reaches to Ios and Naxos.", "lat": 36.43191, "lon": 25.425143, "p": "a"}, {"n": "Imerovigli, the balcony of the caldera", "cat": "do", "tier": "", "a": "Imerovigli", "d": "The highest and quietest of the caldera villages sits directly above Skaros, all serene infinity pools and unobstructed sunsets. It is where couples come to escape Oia's crush while keeping the same view, and where the island's most private suites cluster.", "lat": 36.43191, "lon": 25.425143, "p": "a"}, {"n": "Akrotiri archaeological site, the Minoan Pompeii", "cat": "do", "tier": "", "a": "Akrotiri", "d": "A Bronze Age town buried by the eruption around 1600 BC and preserved under ash, with three-storey houses, paved streets and sophisticated drainage under a vast climate-controlled canopy. Unlike Pompeii no bodies were found; the inhabitants seem to have fled in time, deepening the mystery. A private guide brings the frescoes-in-context to life.", "lat": 36.358619, "lon": 25.396703, "p": "a"}, {"n": "Museum of Prehistoric Thera", "cat": "do", "tier": "", "a": "Fira", "d": "This compact Fira museum holds the treasures lifted from Akrotiri, including the exquisite Spring Fresco and the golden ibex figurine, the finest artefacts of the lost civilisation. Pair it with the site itself for the full story of the eruption that may have seeded the Atlantis myth.", "lat": 36.416497, "lon": 25.43258, "p": "v"}, {"n": "Ancient Thera on Mesa Vouno", "cat": "do", "tier": "", "a": "Kamari", "d": "A hilltop city founded by Dorian settlers, with Hellenistic, Roman and Byzantine ruins strung along a spine 360 metres above Kamari and Perissa. Far quieter than Akrotiri, it rewards the climb with agora, theatre and temple ruins framed by sea on both sides.", "lat": 36.375248, "lon": 25.479574, "p": "a"}, {"n": "Volcano hike on Nea Kameni", "cat": "do", "tier": "", "a": "Caldera", "d": "A short boat ride from the Old Port lands you on the black, still-steaming crater island at the caldera's heart, with a walk up to fumaroles that hiss sulphur. It is the one place you actually stand on the volcano that made Santorini.", "lat": 36.407111, "lon": 25.456664, "p": "a"}, {"n": "Palea Kameni hot springs swim", "cat": "do", "tier": "", "a": "Caldera", "d": "Boats anchor off the older volcanic island where rust-coloured thermal water warms a small bay to a mineral bath. Wear a dark swimsuit, as the iron stains fabric; on a private charter you have the ochre cove largely to yourselves.", "lat": 36.407111, "lon": 25.456664, "p": "a"}, {"n": "Private catamaran caldera cruise", "cat": "do", "tier": "", "a": "Caldera", "d": "A half-day sail traces the Red and White beaches, the sea caves and the Indian Rock below the Akrotiri lighthouse, with swimming and snorkelling stops and a barbecue aboard. The signature Santorini experience for couples and families alike, with the crew laying on veg-friendly mezze and Assyrtiko as the sun drops.", "lat": 36.407111, "lon": 25.456664, "p": "a"}, {"n": "Sunset sail past the Akrotiri sea caves", "cat": "do", "tier": "", "a": "Akrotiri", "d": "The southwestern coast hides dark volcanic sea caves and pillar formations best seen from the water in late light. A private semi-inflatable or catamaran lets you drift into them, then hold position off Oia for the sunset from the sea, crowd-free.", "lat": 36.358619, "lon": 25.396703, "p": "a"}, {"n": "Akrotiri Lighthouse (Faros)", "cat": "do", "tier": "", "a": "Akrotiri", "d": "Built by a French company in 1892, this working lighthouse on the island's southwestern cape is one of the oldest in Greece and a serene, near-empty alternative to Oia for sunset. There is no crowd, no ticket, just the red sun sinking into the Aegean from the low stone wall.", "lat": 36.357702, "lon": 25.357118, "p": "v"}, {"n": "Red Beach at Akrotiri", "cat": "do", "tier": "", "a": "Akrotiri", "d": "A crescent of dark sand beneath towering blood-red volcanic cliffs, one of the most striking shorelines in Greece. Be honest with expectations: the cliff path has been officially closed for rockfall risk since 2013, with major slides as recently as 2025, so the safe way to see it now is by boat from the water.", "lat": 36.358619, "lon": 25.396703, "p": "a"}, {"n": "White Beach by boat", "cat": "do", "tier": "", "a": "Akrotiri", "d": "Just south of Red Beach, pale chalk-white cliffs rise over dark pebbles in a cove reachable only by sea. Catamarans stop here to swim and snorkel; the colour contrast against the caldera water is extraordinary.", "lat": 36.358619, "lon": 25.396703, "p": "a"}, {"n": "Perivolos black-sand beach and beach clubs", "cat": "do", "tier": "", "a": "Perivolos", "d": "The long southern stretch beyond Perissa is Santorini's chic beach-club scene, where organised loungers, cocktails and DJ sets meet volcanic black sand. The polished end of the island's beach life for a relaxed, well-served day.", "lat": 36.407111, "lon": 25.456664, "p": "a"}, {"n": "Perissa Beach under Mesa Vouno", "cat": "do", "tier": "", "a": "Perissa", "d": "A broad sweep of jet-black sand at the foot of the Ancient Thera mountain, with tavernas, watersports and warm shallow water. Family-friendly and less styled than Perivolos, good for an easy multi-generation day by the sea.", "lat": 36.36842, "lon": 25.458238, "p": "a"}, {"n": "Kamari Beach and its promenade", "cat": "do", "tier": "", "a": "Kamari", "d": "The island's most established black-sand resort beach, with a palm-lined seafront of restaurants and cafes under the cliff of Mesa Vouno. Convenient, walkable and calm, it suits families who want the beach and dinner in one place.", "lat": 36.375248, "lon": 25.479574, "p": "a"}, {"n": "Vlychada Beach and its sculpted cliffs", "cat": "do", "tier": "", "a": "Vlychada", "d": "Wind and water have carved the pale volcanic cliffs above this southern beach into lunar, almost gallery-like forms. Quieter and more space than the busier beaches, with a smart marina taverna scene for a slow lunch.", "lat": 36.338872, "lon": 25.432763, "p": "a"}, {"n": "Santo Wines caldera tasting", "cat": "do", "tier": "", "a": "Pyrgos", "d": "The island's grower cooperative sits on the caldera edge near Pyrgos with a sweeping terrace, making it the classic first Assyrtiko tasting with the volcano in front of you. Book a private flight at golden hour, when the setting does as much as the wine.", "lat": 36.368015, "lon": 25.455074, "p": "a"}, {"n": "Venetsanos Winery above Athinios port", "cat": "do", "tier": "", "a": "Megalochori", "d": "One of the island's oldest wineries, from 1947, is dug dramatically into the cliff above the ferry port, with a gravity-flow cellar and a knife-edge terrace. Its naturally vinified Assyrtiko and the architecture make it a favourite for a refined sunset tasting.", "lat": 36.360348, "lon": 25.413473, "p": "a"}, {"n": "Domaine Sigalas near Oia", "cat": "do", "tier": "", "a": "Baxedes", "d": "Paris Sigalas's estate on the fertile northern plain is widely held to make some of the finest single-varietal Assyrtiko in Greece, in a relaxed garden setting away from the cliff crowds. A serious tasting with vine-side food pairings, and easy to reach from Oia.", "lat": 36.407111, "lon": 25.456664, "p": "a"}, {"n": "Estate Argyros and its 150-year-old vines", "cat": "do", "tier": "", "a": "Episkopi Gonia", "d": "Founded in 1903 and now in its fourth generation, Argyros farms some of the oldest ungrafted Assyrtiko vines on earth and is a benchmark for age-worthy Santorini wine and Vinsanto. The premium flight is the collector's stop on any wine day.", "lat": 36.381566, "lon": 25.46639, "p": "a"}, {"n": "Koutsoyannopoulos Wine Museum", "cat": "do", "tier": "", "a": "Vothonas", "d": "A wine cellar carved eight metres underground tells the story of Santorini winemaking through animated tableaux, ending in a tasting. A cool, unhurried hour that suits a hot afternoon and travellers who want the context before the estates.", "lat": 36.397001, "lon": 25.459857, "p": "v"}, {"n": "Pyrgos village and the Kasteli", "cat": "do", "tier": "", "a": "Pyrgos", "d": "The best-preserved of the island's Venetian castle-villages spirals up to a hilltop Kasteli with over-the-rooftops views across all of Santorini. Its dozens of tiny churches and near-empty lanes make it the antidote to Oia, and a lovely, crowd-free sunset.", "lat": 36.368015, "lon": 25.455074, "p": "a"}, {"n": "Monastery of Profitis Ilias", "cat": "do", "tier": "", "a": "Pyrgos", "d": "The island's highest point at 565 metres carries an 18th-century monastery with a small museum of icons and relics and the widest panorama on Santorini. On a clear day the whole caldera and neighbouring islands lay out below you.", "lat": 36.368015, "lon": 25.455074, "p": "a"}, {"n": "Megalochori, the vineyard village", "cat": "do", "tier": "", "a": "Megalochori", "d": "A genuinely lived-in village of arched lanes, bell towers and cave houses set among vineyards, largely untouched by mass tourism. Wine estates ring it, and its quiet squares make an atmospheric, unhurried dinner spot.", "lat": 36.360348, "lon": 25.413473, "p": "a"}, {"n": "Emporio and its medieval Kasteli", "cat": "do", "tier": "", "a": "Emporio", "d": "The island's largest village hides a labyrinthine fortified quarter, the Kasteli, whose windowless outer houses once formed a defensive wall against pirates. Wandering its shaded maze is a rare glimpse of everyday Cycladic life beyond the postcard villages.", "lat": 36.368015, "lon": 25.455074, "p": "a"}, {"n": "Thirassia island day trip", "cat": "do", "tier": "", "a": "Thirassia", "d": "Across the caldera lies Santorini's sleepy sibling, reached by boat to Korfos harbour, where waterfront tavernas serve honest grilled fish and fava with the caldera as backdrop. Climb the steps or path to Manolas village for a 360-degree view and a taste of the islands fifty years ago; bring cash, as cards often don't work.", "lat": 36.433936, "lon": 25.336109, "p": "a"}, {"n": "Fira Old Port and the cable car", "cat": "do", "tier": "", "a": "Fira", "d": "A three-minute cable-car ride drops from Fira to the Old Port of Gialos more than 200 metres below, the graceful alternative to the 588 zigzag steps. From the port, private boats and cruise tenders set off across the caldera.", "lat": 36.41966, "lon": 25.428975, "p": "v"}, {"n": "Three Bells of Fira (Catholic Church of the Dormition)", "cat": "do", "tier": "", "a": "Firostefani", "d": "The blue-domed church with its three white bell arches framing the caldera is among the most photographed spots in Fira. Set on the town's northern edge toward Firostefani, it catches beautiful light in the late afternoon.", "lat": 36.423262, "lon": 25.428349, "p": "v"}, {"n": "Firostefani, the crown of Fira", "cat": "do", "tier": "", "a": "Firostefani", "d": "A short caldera walk from Fira's bustle, this calmer village offers the same jaw-dropping volcano views with a fraction of the crowd. It is a refined base for those who want to walk to Fira's restaurants yet sleep in quiet.", "lat": 36.422269, "lon": 25.43072, "p": "v"}, {"n": "Atlantis Books", "cat": "do", "tier": "", "a": "Firostefani", "d": "A cult independent bookshop founded by a group of friends, now on the Firostefani cliffs, warren-like and stacked with rare and secondhand titles in many languages. A cool, cultured retreat and a genuinely different souvenir for the reader in the family.", "lat": 36.461645, "lon": 25.374168, "p": "v"}, {"n": "Fira's caldera-edge galleries and boutiques", "cat": "do", "tier": "", "a": "Fira", "d": "The capital's cliff lanes are lined with jewellers, art galleries and designer boutiques catching sea views between the whitewashed walls. The most concentrated shopping on the island, and a pleasant way to fill the hours before the sunset.", "lat": 36.418309, "lon": 25.427612, "p": "a"}, {"n": "Cine Kamari open-air cinema", "cat": "do", "tier": "", "a": "Kamari", "d": "Since 1987 this garden cinema at the edge of Kamari has screened films under the stars with a drink in hand, a quintessential Greek-summer evening. It runs May to October, an unexpectedly romantic close to a beach day.", "lat": 36.375248, "lon": 25.479574, "p": "a"}, {"n": "Tomato Industrial Museum, Vlychada", "cat": "do", "tier": "", "a": "Vlychada", "d": "Housed in the old D. Nomikos tomato-processing factory, this museum tells the story of the island's once-vital tomato industry through machinery, oral histories and art, and hosts the Santorini Film Festival. A thoughtful, offbeat stop on the quiet south coast.", "lat": 36.338944, "lon": 25.432765, "p": "v"}, {"n": "Santorini Arts Factory events", "cat": "do", "tier": "", "a": "Vlychada", "d": "The same restored Vlychada factory complex doubles as the island's leading cultural venue, staging exhibitions, concerts and the summer film festival under the stars. Worth checking the programme for a cultured evening away from the caldera crowds.", "lat": 36.338872, "lon": 25.432763, "p": "v"}, {"n": "Village churches and bell towers of Megalochori", "cat": "do", "tier": "", "a": "Megalochori", "d": "Two grand freestanding bell towers and a scatter of blue-domed chapels give this vineyard village a photogenic, deeply local character. A slow morning here, cameras in hand, is a quieter counterpart to Oia's dome-hunting.", "lat": 36.360348, "lon": 25.413473, "p": "a"}, {"n": "Sunrise over the caldera from Imerovigli", "cat": "do", "tier": "", "a": "Imerovigli", "d": "Everyone chases the sunset; the smarter luxury is the sunrise, when the caldera glows pink and the villages are silent. From an Imerovigli terrace or a private plunge pool it is the island's most intimate hour, and the one no crowd will share.", "lat": 36.43191, "lon": 25.425143, "p": "a"}, {"n": "PK Cocktail Bar", "cat": "party", "tier": "Cocktail bars", "a": "Fira", "d": "Terraces cascading down the Fira cliff, each with an unbroken caldera view — the island's best-known sunset bar for half a century.", "lat": 36.418309, "lon": 25.427612, "p": "a"}, {"n": "Franco's Bar", "cat": "party", "tier": "Cocktail bars", "a": "Fira", "d": "A caldera-path institution where classical music plays the sun down — a decades-old ritual of a Santorini evening.", "lat": 36.418077, "lon": 25.431965, "p": "v"}, {"n": "Lure", "cat": "party", "tier": "Rooftops", "a": "Oia", "d": "Andronis' cliff-top rooftop above Oia — fine dining and serious mixology on Greek herbs and botanicals, with the caldera below.", "lat": 36.407111, "lon": 25.456664, "p": "v"}, {"n": "V Lounge", "cat": "party", "tier": "Cocktail bars", "a": "Fira", "d": "A calmer caldera-view lounge on the Fira cliff — considered cocktails and room to breathe, away from the sunset scrum.", "lat": 36.417589, "lon": 25.43157, "p": "v"}]}
+{
+  "center": [
+    36.407111,
+    25.456664
+  ],
+  "venues": [
+    {
+      "n": "Grace Hotel, Auberge Resorts Collection",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Imerovigli",
+      "d": "The island's most decorated house \u2014 a clean-lined cliff hotel above the caldera, run to a standard nothing on Santorini matches.",
+      "lat": 36.43191,
+      "lon": 25.425143,
+      "photos": []
+    },
+    {
+      "n": "Mystique, a Luxury Collection Hotel, Santorini",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Oia",
+      "d": "Cave suites cut into the Oia cliff, set away from the crush \u2014 hushed, elemental, and endlessly private.",
+      "lat": 36.463191,
+      "lon": 25.377654,
+      "photos": []
+    },
+    {
+      "n": "Katikies Santorini",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Oia",
+      "d": "The whitewashed Oia icon \u2014 infinity pools spilling over the caldera, and a sense of romance the island is measured against.",
+      "lat": 36.407111,
+      "lon": 25.456664,
+      "photos": []
+    },
+    {
+      "n": "Andronis Luxury Suites",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Oia",
+      "d": "Sculpted white suites carved into the Oia rock, with the sunset delivered straight to the terrace.",
+      "lat": 36.461937,
+      "lon": 25.380213,
+      "photos": []
+    },
+    {
+      "n": "Perivolas",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Oia",
+      "d": "Three hundred years of cave-houses turned into the quietest luxury on the island \u2014 barefoot, elemental, utterly serene.",
+      "lat": 36.407111,
+      "lon": 25.456664,
+      "photos": []
+    },
+    {
+      "n": "Canaves Oia Epitome",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Oia",
+      "d": "The grandest of the Canaves houses \u2014 all-white villas with private pools, on the sloping edge of Oia.",
+      "lat": 36.463191,
+      "lon": 25.377654,
+      "photos": []
+    },
+    {
+      "n": "Andronis Arcadia",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Imerovigli",
+      "d": "Cube-like Cycladic architecture on the Imerovigli cliff, with Skaros Rock and one of the island's great sunset outlooks.",
+      "lat": 36.465775,
+      "lon": 25.374522,
+      "photos": []
+    },
+    {
+      "n": "Vedema, a Luxury Collection Resort, Santorini",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Megalochori",
+      "d": "A 400-year-old winery reborn as a Cycladic village retreat \u2014 the island's answer for a family that wants space, not a cliff-edge.",
+      "lat": 36.36842,
+      "lon": 25.458238,
+      "photos": []
+    },
+    {
+      "n": "Canaves Oia Suites",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Oia",
+      "d": "The original Canaves house \u2014 cliff-hugging suites and two pools on the most photographed slope in Oia.",
+      "lat": 36.461668,
+      "lon": 25.383104,
+      "photos": []
+    },
+    {
+      "n": "Katikies Chromata Santorini",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Imerovigli",
+      "d": "A whitewashed Katikies house on the Imerovigli cliff \u2014 cascading terraces and the caldera at eye level.",
+      "lat": 36.43191,
+      "lon": 25.425143,
+      "photos": []
+    },
+    {
+      "n": "Kirini Santorini",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Oia",
+      "d": "A Katikies sister in Oia \u2014 classic Cycladic detailing, intimate in scale, refined in style.",
+      "lat": 36.407111,
+      "lon": 25.456664,
+      "photos": []
+    },
+    {
+      "n": "Andronis Concept Wellness Resort",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Imerovigli",
+      "d": "A slow-living wellness sanctuary on the Imerovigli cliff \u2014 space, spa and quiet over spectacle.",
+      "lat": 36.43191,
+      "lon": 25.425143,
+      "photos": []
+    },
+    {
+      "n": "Andronis Boutique Hotel",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Oia",
+      "d": "An intimate cave-suite house on the Oia cliff, home to Lauda \u2014 a long-loved sunset address.",
+      "lat": 36.463191,
+      "lon": 25.377654,
+      "photos": []
+    },
+    {
+      "n": "Katikies Garden Santorini",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Fira",
+      "d": "The Katikies house for Fira \u2014 a garden-pool retreat in the island's lively heart, home to Selene.",
+      "lat": 36.418309,
+      "lon": 25.427612,
+      "photos": []
+    },
+    {
+      "n": "Santorini Secret Suites & Spa",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Oia",
+      "d": "Sleek cave suites with private plunge pools, close to Oia's castle and its sunset.",
+      "lat": 36.463191,
+      "lon": 25.377654,
+      "photos": []
+    },
+    {
+      "n": "Athina Luxury Suites",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Fira",
+      "d": "A polished cliff house on the Fira caldera walk \u2014 caldera-view suites in the heart of the capital.",
+      "lat": 36.416622,
+      "lon": 25.43082,
+      "photos": []
+    },
+    {
+      "n": "Iconic Santorini",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Imerovigli",
+      "d": "A cliff-carved boutique in Imerovigli \u2014 cave suites, a hanging pool and the caldera all to itself.",
+      "lat": 36.407111,
+      "lon": 25.456664,
+      "photos": []
+    },
+    {
+      "n": "Aressana Spa Hotel & Suites",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Fira",
+      "d": "A calm, garden-and-pool retreat a short step off the Fira caldera path \u2014 polished and quietly run.",
+      "lat": 36.416136,
+      "lon": 25.432003,
+      "photos": []
+    },
+    {
+      "n": "Canaves Ena",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Oia",
+      "d": "A newer, contemporary Canaves house in Oia \u2014 clean lines, caldera views and the group's assured service.",
+      "lat": 36.463191,
+      "lon": 25.377654,
+      "photos": []
+    },
+    {
+      "n": "Canaves Epitome",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Oia",
+      "d": "The Canaves collection's design-forward resort, with private-pool suites and a lauded pool complex.",
+      "lat": 36.463191,
+      "lon": 25.377654,
+      "photos": []
+    },
+    {
+      "n": "Cosmopolitan Suites",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Fira",
+      "d": "An intimate cave-suite house on the Fira cliff \u2014 private pools and an unbroken caldera outlook.",
+      "lat": 36.419989,
+      "lon": 25.430912,
+      "photos": []
+    },
+    {
+      "n": "Gold Suites",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Imerovigli",
+      "d": "Understated cave suites with plunge pools on the quiet Imerovigli cliff.",
+      "lat": 36.421387,
+      "lon": 25.432275,
+      "photos": []
+    },
+    {
+      "n": "On the Rocks",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Imerovigli",
+      "d": "A relaxed cliff hotel on the Imerovigli caldera walk \u2014 the view of the icons at a gentler price.",
+      "lat": 36.421466,
+      "lon": 25.428609,
+      "photos": []
+    },
+    {
+      "n": "San Antonio",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Imerovigli",
+      "d": "A whitewashed cliff resort with a wide caldera terrace and infinity pool above Imerovigli.",
+      "lat": 36.407111,
+      "lon": 25.456664,
+      "photos": []
+    },
+    {
+      "n": "Sandblu Santorini, LXR Hotels & Resorts",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Fira",
+      "d": "A Hilton LXR arrival on the Fira caldera \u2014 contemporary luxury under an international flag.",
+      "lat": 36.418309,
+      "lon": 25.427612,
+      "photos": []
+    },
+    {
+      "n": "Selene",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Fira",
+      "d": "The island's landmark kitchen for over forty years \u2014 modern Cycladic cooking on rare volcanic-island ingredients, now under Ettore Botrini.",
+      "lat": 36.380647,
+      "lon": 25.449913,
+      "photos": []
+    },
+    {
+      "n": "Lauda",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Oia",
+      "d": "Oia's original dining room since 1971 \u2014 contemporary Greek cooking with the caldera and the sunset in full view.",
+      "lat": 36.407111,
+      "lon": 25.456664,
+      "photos": []
+    },
+    {
+      "n": "Alati",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Megalochori",
+      "d": "Vedema's signature table in a 400-year-old winery \u2014 Mediterranean cooking beside a serious wine cellar.",
+      "lat": 36.407111,
+      "lon": 25.456664,
+      "photos": []
+    },
+    {
+      "n": "Athenian House",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Imerovigli",
+      "d": "Chef Dimitris Skarmoutsos' modern Greek room with Skaros Rock at its shoulder \u2014 polished, personal, sunset-facing.",
+      "lat": 36.420656,
+      "lon": 25.430175,
+      "photos": []
+    },
+    {
+      "n": "Metaxi Mas",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Exo Gonia",
+      "d": "The inland table every islander defends \u2014 Cretan-leaning home cooking, local Assyrtiko, and no view to distract you.",
+      "lat": 36.387952,
+      "lon": 25.457357,
+      "photos": []
+    },
+    {
+      "n": "Argo",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Oia",
+      "d": "One of the oldest caldera-cliff rooms in Oia \u2014 a family-run kitchen doing honest Santorinian classics with the great view.",
+      "lat": 36.407111,
+      "lon": 25.456664,
+      "photos": []
+    },
+    {
+      "n": "Ammoudi Fish Tavern",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Ammoudi",
+      "d": "Fish by the kilo at the water's edge below Oia \u2014 the day's catch, grilled, with your feet almost in the Aegean.",
+      "lat": 36.460616,
+      "lon": 25.370229,
+      "photos": []
+    },
+    {
+      "n": "Roka",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Oia",
+      "d": "A courtyard away from the crowds in Oia \u2014 modern Greek small plates and mezze, done with real care.",
+      "lat": 36.407111,
+      "lon": 25.456664,
+      "photos": []
+    },
+    {
+      "n": "To Psaraki",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Vlychada",
+      "d": "A harbour-side seafood kitchen on the island's quiet south coast \u2014 pristine fish, well beyond the tourist rooms.",
+      "lat": 36.33799,
+      "lon": 25.435047,
+      "photos": []
+    },
+    {
+      "n": "Cava Alta",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Oia",
+      "d": "A wine-cave dining room in Oia \u2014 Greek cooking built around an ambitious Santorinian cellar.",
+      "lat": 36.383145,
+      "lon": 25.449634,
+      "photos": []
+    },
+    {
+      "n": "Candouni",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Oia",
+      "d": "A courtyard taverna in a restored Oia captain's house \u2014 traditional Greek cooking in a garden setting.",
+      "lat": 36.407111,
+      "lon": 25.456664,
+      "photos": []
+    },
+    {
+      "n": "1500 BC",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Oia",
+      "d": "A caldera-terrace restaurant on the Oia cliff \u2014 Greek-Mediterranean cooking with a front-row sunset.",
+      "lat": 36.463191,
+      "lon": 25.377654,
+      "photos": []
+    },
+    {
+      "n": "Sunset from the Byzantine Castle ruins of Oia",
+      "cat": "do",
+      "tier": "",
+      "a": "Oia",
+      "d": "The 15th-century Venetian fortress at Oia's western tip is the island's altar to the sunset, where the sky turns from gold to rose over the caldera. It draws standing-room crowds an hour ahead, so a discreet private terrace or a chartered catamaran below often gives honeymooners the same spectacle without the elbows.",
+      "lat": 36.463191,
+      "lon": 25.377654,
+      "photos": []
+    },
+    {
+      "n": "The Three Blue Domes of Oia",
+      "cat": "do",
+      "tier": "",
+      "a": "Oia",
+      "d": "The trio of cobalt-domed churches stacked against the white cliff near Agios Spyridonas is the single most photographed frame in Greece. Reach the viewpoint through the alleys behind the castle at first light for the picture without a hundred phones in it.",
+      "lat": 36.463191,
+      "lon": 25.377654,
+      "photos": []
+    },
+    {
+      "n": "Wander Oia's marble lanes and cliffside boutiques",
+      "cat": "do",
+      "tier": "",
+      "a": "Oia",
+      "d": "Oia is a labyrinth of whitewashed cave houses, blue shutters and bougainvillea, threaded with jewellers, galleries and concept stores well suited to a slow afternoon. It is the most polished village on the island and the natural base for a multi-generation stay.",
+      "lat": 36.463191,
+      "lon": 25.377654,
+      "photos": []
+    },
+    {
+      "n": "Amoudi Bay seafood tavernas below Oia",
+      "cat": "do",
+      "tier": "",
+      "a": "Oia",
+      "d": "Three hundred steps drop from Oia's castle to a tiny red-cliff harbour where tavernas serve the day's catch with your feet almost in the water. Dimitris and Sunset Ammoudi will lay out grilled fish, fava and a chilled Assyrtiko; call ahead and they will happily build a full vegetarian mezze spread.",
+      "lat": 36.463191,
+      "lon": 25.377654,
+      "photos": []
+    },
+    {
+      "n": "Cliff jump to the islet of Agios Nikolaos, Amoudi",
+      "cat": "do",
+      "tier": "",
+      "a": "Oia",
+      "d": "Past the tavernas a dirt path leads to a rocky cove where a short swim reaches the church-topped rock of Agios Nikolaos, with a small ladder up to jumping ledges. A rite of passage for younger travellers, best done with a private boat standing by.",
+      "lat": 36.463191,
+      "lon": 25.377654,
+      "photos": []
+    },
+    {
+      "n": "Fira-to-Oia caldera-edge hike",
+      "cat": "do",
+      "tier": "",
+      "a": "Fira",
+      "d": "This roughly 10.5 km cliff walk runs from Fira through Firostefani and Imerovigli to Oia, hugging the caldera the whole way with the volcano always in view. Start at sunrise before the heat; a guide and a chilled hamper at the Oia end make it an event rather than a slog.",
+      "lat": 36.418309,
+      "lon": 25.427612,
+      "photos": []
+    },
+    {
+      "n": "Skaros Rock and the caldera lookout",
+      "cat": "do",
+      "tier": "",
+      "a": "Imerovigli",
+      "d": "A steep footpath from Imerovigli descends to Skaros, the ruins of a 13th-century Venetian fortress on a dramatic promontory, ending at the tiny sea-facing chapel of Theoskepasti. The 360-degree caldera view is the finest on the rim and, on a clear day, reaches to Ios and Naxos.",
+      "lat": 36.43191,
+      "lon": 25.425143,
+      "photos": []
+    },
+    {
+      "n": "Imerovigli, the balcony of the caldera",
+      "cat": "do",
+      "tier": "",
+      "a": "Imerovigli",
+      "d": "The highest and quietest of the caldera villages sits directly above Skaros, all serene infinity pools and unobstructed sunsets. It is where couples come to escape Oia's crush while keeping the same view, and where the island's most private suites cluster.",
+      "lat": 36.43191,
+      "lon": 25.425143,
+      "photos": []
+    },
+    {
+      "n": "Akrotiri archaeological site, the Minoan Pompeii",
+      "cat": "do",
+      "tier": "",
+      "a": "Akrotiri",
+      "d": "A Bronze Age town buried by the eruption around 1600 BC and preserved under ash, with three-storey houses, paved streets and sophisticated drainage under a vast climate-controlled canopy. Unlike Pompeii no bodies were found; the inhabitants seem to have fled in time, deepening the mystery. A private guide brings the frescoes-in-context to life.",
+      "lat": 36.358619,
+      "lon": 25.396703,
+      "photos": []
+    },
+    {
+      "n": "Museum of Prehistoric Thera",
+      "cat": "do",
+      "tier": "",
+      "a": "Fira",
+      "d": "This compact Fira museum holds the treasures lifted from Akrotiri, including the exquisite Spring Fresco and the golden ibex figurine, the finest artefacts of the lost civilisation. Pair it with the site itself for the full story of the eruption that may have seeded the Atlantis myth.",
+      "lat": 36.416497,
+      "lon": 25.43258,
+      "photos": []
+    },
+    {
+      "n": "Ancient Thera on Mesa Vouno",
+      "cat": "do",
+      "tier": "",
+      "a": "Kamari",
+      "d": "A hilltop city founded by Dorian settlers, with Hellenistic, Roman and Byzantine ruins strung along a spine 360 metres above Kamari and Perissa. Far quieter than Akrotiri, it rewards the climb with agora, theatre and temple ruins framed by sea on both sides.",
+      "lat": 36.375248,
+      "lon": 25.479574,
+      "photos": []
+    },
+    {
+      "n": "Volcano hike on Nea Kameni",
+      "cat": "do",
+      "tier": "",
+      "a": "Caldera",
+      "d": "A short boat ride from the Old Port lands you on the black, still-steaming crater island at the caldera's heart, with a walk up to fumaroles that hiss sulphur. It is the one place you actually stand on the volcano that made Santorini.",
+      "lat": 36.407111,
+      "lon": 25.456664,
+      "photos": []
+    },
+    {
+      "n": "Palea Kameni hot springs swim",
+      "cat": "do",
+      "tier": "",
+      "a": "Caldera",
+      "d": "Boats anchor off the older volcanic island where rust-coloured thermal water warms a small bay to a mineral bath. Wear a dark swimsuit, as the iron stains fabric; on a private charter you have the ochre cove largely to yourselves.",
+      "lat": 36.407111,
+      "lon": 25.456664,
+      "photos": []
+    },
+    {
+      "n": "Private catamaran caldera cruise",
+      "cat": "do",
+      "tier": "",
+      "a": "Caldera",
+      "d": "A half-day sail traces the Red and White beaches, the sea caves and the Indian Rock below the Akrotiri lighthouse, with swimming and snorkelling stops and a barbecue aboard. The signature Santorini experience for couples and families alike, with the crew laying on veg-friendly mezze and Assyrtiko as the sun drops.",
+      "lat": 36.407111,
+      "lon": 25.456664,
+      "photos": []
+    },
+    {
+      "n": "Sunset sail past the Akrotiri sea caves",
+      "cat": "do",
+      "tier": "",
+      "a": "Akrotiri",
+      "d": "The southwestern coast hides dark volcanic sea caves and pillar formations best seen from the water in late light. A private semi-inflatable or catamaran lets you drift into them, then hold position off Oia for the sunset from the sea, crowd-free.",
+      "lat": 36.358619,
+      "lon": 25.396703,
+      "photos": []
+    },
+    {
+      "n": "Akrotiri Lighthouse (Faros)",
+      "cat": "do",
+      "tier": "",
+      "a": "Akrotiri",
+      "d": "Built by a French company in 1892, this working lighthouse on the island's southwestern cape is one of the oldest in Greece and a serene, near-empty alternative to Oia for sunset. There is no crowd, no ticket, just the red sun sinking into the Aegean from the low stone wall.",
+      "lat": 36.357702,
+      "lon": 25.357118,
+      "photos": []
+    },
+    {
+      "n": "Red Beach at Akrotiri",
+      "cat": "do",
+      "tier": "",
+      "a": "Akrotiri",
+      "d": "A crescent of dark sand beneath towering blood-red volcanic cliffs, one of the most striking shorelines in Greece. Be honest with expectations: the cliff path has been officially closed for rockfall risk since 2013, with major slides as recently as 2025, so the safe way to see it now is by boat from the water.",
+      "lat": 36.358619,
+      "lon": 25.396703,
+      "photos": []
+    },
+    {
+      "n": "White Beach by boat",
+      "cat": "do",
+      "tier": "",
+      "a": "Akrotiri",
+      "d": "Just south of Red Beach, pale chalk-white cliffs rise over dark pebbles in a cove reachable only by sea. Catamarans stop here to swim and snorkel; the colour contrast against the caldera water is extraordinary.",
+      "lat": 36.358619,
+      "lon": 25.396703,
+      "photos": []
+    },
+    {
+      "n": "Perivolos black-sand beach and beach clubs",
+      "cat": "do",
+      "tier": "",
+      "a": "Perivolos",
+      "d": "The long southern stretch beyond Perissa is Santorini's chic beach-club scene, where organised loungers, cocktails and DJ sets meet volcanic black sand. The polished end of the island's beach life for a relaxed, well-served day.",
+      "lat": 36.407111,
+      "lon": 25.456664,
+      "photos": []
+    },
+    {
+      "n": "Perissa Beach under Mesa Vouno",
+      "cat": "do",
+      "tier": "",
+      "a": "Perissa",
+      "d": "A broad sweep of jet-black sand at the foot of the Ancient Thera mountain, with tavernas, watersports and warm shallow water. Family-friendly and less styled than Perivolos, good for an easy multi-generation day by the sea.",
+      "lat": 36.36842,
+      "lon": 25.458238,
+      "photos": []
+    },
+    {
+      "n": "Kamari Beach and its promenade",
+      "cat": "do",
+      "tier": "",
+      "a": "Kamari",
+      "d": "The island's most established black-sand resort beach, with a palm-lined seafront of restaurants and cafes under the cliff of Mesa Vouno. Convenient, walkable and calm, it suits families who want the beach and dinner in one place.",
+      "lat": 36.375248,
+      "lon": 25.479574,
+      "photos": []
+    },
+    {
+      "n": "Vlychada Beach and its sculpted cliffs",
+      "cat": "do",
+      "tier": "",
+      "a": "Vlychada",
+      "d": "Wind and water have carved the pale volcanic cliffs above this southern beach into lunar, almost gallery-like forms. Quieter and more space than the busier beaches, with a smart marina taverna scene for a slow lunch.",
+      "lat": 36.338872,
+      "lon": 25.432763,
+      "photos": []
+    },
+    {
+      "n": "Santo Wines caldera tasting",
+      "cat": "do",
+      "tier": "",
+      "a": "Pyrgos",
+      "d": "The island's grower cooperative sits on the caldera edge near Pyrgos with a sweeping terrace, making it the classic first Assyrtiko tasting with the volcano in front of you. Book a private flight at golden hour, when the setting does as much as the wine.",
+      "lat": 36.368015,
+      "lon": 25.455074,
+      "photos": []
+    },
+    {
+      "n": "Venetsanos Winery above Athinios port",
+      "cat": "do",
+      "tier": "",
+      "a": "Megalochori",
+      "d": "One of the island's oldest wineries, from 1947, is dug dramatically into the cliff above the ferry port, with a gravity-flow cellar and a knife-edge terrace. Its naturally vinified Assyrtiko and the architecture make it a favourite for a refined sunset tasting.",
+      "lat": 36.360348,
+      "lon": 25.413473,
+      "photos": []
+    },
+    {
+      "n": "Domaine Sigalas near Oia",
+      "cat": "do",
+      "tier": "",
+      "a": "Baxedes",
+      "d": "Paris Sigalas's estate on the fertile northern plain is widely held to make some of the finest single-varietal Assyrtiko in Greece, in a relaxed garden setting away from the cliff crowds. A serious tasting with vine-side food pairings, and easy to reach from Oia.",
+      "lat": 36.407111,
+      "lon": 25.456664,
+      "photos": []
+    },
+    {
+      "n": "Estate Argyros and its 150-year-old vines",
+      "cat": "do",
+      "tier": "",
+      "a": "Episkopi Gonia",
+      "d": "Founded in 1903 and now in its fourth generation, Argyros farms some of the oldest ungrafted Assyrtiko vines on earth and is a benchmark for age-worthy Santorini wine and Vinsanto. The premium flight is the collector's stop on any wine day.",
+      "lat": 36.381566,
+      "lon": 25.46639,
+      "photos": []
+    },
+    {
+      "n": "Koutsoyannopoulos Wine Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Vothonas",
+      "d": "A wine cellar carved eight metres underground tells the story of Santorini winemaking through animated tableaux, ending in a tasting. A cool, unhurried hour that suits a hot afternoon and travellers who want the context before the estates.",
+      "lat": 36.397001,
+      "lon": 25.459857,
+      "photos": []
+    },
+    {
+      "n": "Pyrgos village and the Kasteli",
+      "cat": "do",
+      "tier": "",
+      "a": "Pyrgos",
+      "d": "The best-preserved of the island's Venetian castle-villages spirals up to a hilltop Kasteli with over-the-rooftops views across all of Santorini. Its dozens of tiny churches and near-empty lanes make it the antidote to Oia, and a lovely, crowd-free sunset.",
+      "lat": 36.368015,
+      "lon": 25.455074,
+      "photos": []
+    },
+    {
+      "n": "Monastery of Profitis Ilias",
+      "cat": "do",
+      "tier": "",
+      "a": "Pyrgos",
+      "d": "The island's highest point at 565 metres carries an 18th-century monastery with a small museum of icons and relics and the widest panorama on Santorini. On a clear day the whole caldera and neighbouring islands lay out below you.",
+      "lat": 36.368015,
+      "lon": 25.455074,
+      "photos": []
+    },
+    {
+      "n": "Megalochori, the vineyard village",
+      "cat": "do",
+      "tier": "",
+      "a": "Megalochori",
+      "d": "A genuinely lived-in village of arched lanes, bell towers and cave houses set among vineyards, largely untouched by mass tourism. Wine estates ring it, and its quiet squares make an atmospheric, unhurried dinner spot.",
+      "lat": 36.360348,
+      "lon": 25.413473,
+      "photos": []
+    },
+    {
+      "n": "Emporio and its medieval Kasteli",
+      "cat": "do",
+      "tier": "",
+      "a": "Emporio",
+      "d": "The island's largest village hides a labyrinthine fortified quarter, the Kasteli, whose windowless outer houses once formed a defensive wall against pirates. Wandering its shaded maze is a rare glimpse of everyday Cycladic life beyond the postcard villages.",
+      "lat": 36.368015,
+      "lon": 25.455074,
+      "photos": []
+    },
+    {
+      "n": "Thirassia island day trip",
+      "cat": "do",
+      "tier": "",
+      "a": "Thirassia",
+      "d": "Across the caldera lies Santorini's sleepy sibling, reached by boat to Korfos harbour, where waterfront tavernas serve honest grilled fish and fava with the caldera as backdrop. Climb the steps or path to Manolas village for a 360-degree view and a taste of the islands fifty years ago; bring cash, as cards often don't work.",
+      "lat": 36.433936,
+      "lon": 25.336109,
+      "photos": []
+    },
+    {
+      "n": "Fira Old Port and the cable car",
+      "cat": "do",
+      "tier": "",
+      "a": "Fira",
+      "d": "A three-minute cable-car ride drops from Fira to the Old Port of Gialos more than 200 metres below, the graceful alternative to the 588 zigzag steps. From the port, private boats and cruise tenders set off across the caldera.",
+      "lat": 36.41966,
+      "lon": 25.428975,
+      "photos": []
+    },
+    {
+      "n": "Three Bells of Fira (Catholic Church of the Dormition)",
+      "cat": "do",
+      "tier": "",
+      "a": "Firostefani",
+      "d": "The blue-domed church with its three white bell arches framing the caldera is among the most photographed spots in Fira. Set on the town's northern edge toward Firostefani, it catches beautiful light in the late afternoon.",
+      "lat": 36.423262,
+      "lon": 25.428349,
+      "photos": []
+    },
+    {
+      "n": "Firostefani, the crown of Fira",
+      "cat": "do",
+      "tier": "",
+      "a": "Firostefani",
+      "d": "A short caldera walk from Fira's bustle, this calmer village offers the same jaw-dropping volcano views with a fraction of the crowd. It is a refined base for those who want to walk to Fira's restaurants yet sleep in quiet.",
+      "lat": 36.422269,
+      "lon": 25.43072,
+      "photos": []
+    },
+    {
+      "n": "Atlantis Books",
+      "cat": "do",
+      "tier": "",
+      "a": "Firostefani",
+      "d": "A cult independent bookshop founded by a group of friends, now on the Firostefani cliffs, warren-like and stacked with rare and secondhand titles in many languages. A cool, cultured retreat and a genuinely different souvenir for the reader in the family.",
+      "lat": 36.461645,
+      "lon": 25.374168,
+      "photos": []
+    },
+    {
+      "n": "Fira's caldera-edge galleries and boutiques",
+      "cat": "do",
+      "tier": "",
+      "a": "Fira",
+      "d": "The capital's cliff lanes are lined with jewellers, art galleries and designer boutiques catching sea views between the whitewashed walls. The most concentrated shopping on the island, and a pleasant way to fill the hours before the sunset.",
+      "lat": 36.418309,
+      "lon": 25.427612,
+      "photos": []
+    },
+    {
+      "n": "Cine Kamari open-air cinema",
+      "cat": "do",
+      "tier": "",
+      "a": "Kamari",
+      "d": "Since 1987 this garden cinema at the edge of Kamari has screened films under the stars with a drink in hand, a quintessential Greek-summer evening. It runs May to October, an unexpectedly romantic close to a beach day.",
+      "lat": 36.375248,
+      "lon": 25.479574,
+      "photos": []
+    },
+    {
+      "n": "Tomato Industrial Museum, Vlychada",
+      "cat": "do",
+      "tier": "",
+      "a": "Vlychada",
+      "d": "Housed in the old D. Nomikos tomato-processing factory, this museum tells the story of the island's once-vital tomato industry through machinery, oral histories and art, and hosts the Santorini Film Festival. A thoughtful, offbeat stop on the quiet south coast.",
+      "lat": 36.338944,
+      "lon": 25.432765,
+      "photos": []
+    },
+    {
+      "n": "Santorini Arts Factory events",
+      "cat": "do",
+      "tier": "",
+      "a": "Vlychada",
+      "d": "The same restored Vlychada factory complex doubles as the island's leading cultural venue, staging exhibitions, concerts and the summer film festival under the stars. Worth checking the programme for a cultured evening away from the caldera crowds.",
+      "lat": 36.338872,
+      "lon": 25.432763,
+      "photos": []
+    },
+    {
+      "n": "Village churches and bell towers of Megalochori",
+      "cat": "do",
+      "tier": "",
+      "a": "Megalochori",
+      "d": "Two grand freestanding bell towers and a scatter of blue-domed chapels give this vineyard village a photogenic, deeply local character. A slow morning here, cameras in hand, is a quieter counterpart to Oia's dome-hunting.",
+      "lat": 36.360348,
+      "lon": 25.413473,
+      "photos": []
+    },
+    {
+      "n": "Sunrise over the caldera from Imerovigli",
+      "cat": "do",
+      "tier": "",
+      "a": "Imerovigli",
+      "d": "Everyone chases the sunset; the smarter luxury is the sunrise, when the caldera glows pink and the villages are silent. From an Imerovigli terrace or a private plunge pool it is the island's most intimate hour, and the one no crowd will share.",
+      "lat": 36.43191,
+      "lon": 25.425143,
+      "photos": []
+    },
+    {
+      "n": "PK Cocktail Bar",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Fira",
+      "d": "Terraces cascading down the Fira cliff, each with an unbroken caldera view \u2014 the island's best-known sunset bar for half a century.",
+      "lat": 36.418309,
+      "lon": 25.427612,
+      "photos": []
+    },
+    {
+      "n": "Franco's Bar",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Fira",
+      "d": "A caldera-path institution where classical music plays the sun down \u2014 a decades-old ritual of a Santorini evening.",
+      "lat": 36.418077,
+      "lon": 25.431965,
+      "photos": []
+    },
+    {
+      "n": "Lure",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "Oia",
+      "d": "Andronis' cliff-top rooftop above Oia \u2014 fine dining and serious mixology on Greek herbs and botanicals, with the caldera below.",
+      "lat": 36.407111,
+      "lon": 25.456664,
+      "photos": []
+    },
+    {
+      "n": "V Lounge",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Fira",
+      "d": "A calmer caldera-view lounge on the Fira cliff \u2014 considered cocktails and room to breathe, away from the sunset scrum.",
+      "lat": 36.417589,
+      "lon": 25.43157,
+      "photos": []
+    }
+  ]
+}

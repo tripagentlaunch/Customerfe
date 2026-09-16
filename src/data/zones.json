@@ -1,0 +1,17 @@
+{
+  "greece": {
+    "slug": "greece",
+    "kind": "country",
+    "hero": {
+      "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fsantorini.jpg&w=2560&q=80",
+      "eyebrow": "Country guide",
+      "name": "Greece",
+      "tagline": "Whitewashed islands, ancient stone, and a coastline built for slow afternoons."
+    },
+    "intro": {
+      "heading": "Where to go in Greece.",
+      "lede": "Three very different reasons to come — pick one, or link them into a single trip."
+    },
+    "cities": ["santorini", "mykonos", "athens"]
+  }
+}

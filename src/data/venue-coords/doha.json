@@ -1,1 +1,618 @@
-{"center": [25.310881, 51.508181], "venues": [{"n": "Mandarin Oriental, Doha", "cat": "stay", "tier": "Ultra", "a": "Msheireb Downtown", "d": "The group's quiet precision, dropped into the restored heart of the old city.", "lat": 25.28621, "lon": 51.525835, "p": "v"}, {"n": "Four Seasons Hotel Doha", "cat": "stay", "tier": "Ultra", "a": "West Bay / The Corniche", "d": "The surest hands in the city — service you never have to think about, on its own beach.", "lat": 25.32363, "lon": 51.539262, "p": "v"}, {"n": "Raffles Doha", "cat": "stay", "tier": "Ultra", "a": "Lusail / Katara Towers", "d": "Qatar's first all-suite house, inside the crossed-sabre towers — theatre with Raffles butlers.", "lat": 25.390062, "lon": 51.531766, "p": "v"}, {"n": "Rosewood Doha", "cat": "stay", "tier": "Ultra", "a": "West Bay", "d": "A soaring twin-tower newcomer that took a Forbes Five-Star in its first year.", "lat": 25.383895, "lon": 51.532103, "p": "v"}, {"n": "Sharq Village & Spa, a Ritz-Carlton Hotel", "cat": "stay", "tier": "Grand", "a": "Ras Abu Aboud / The Corniche", "d": "A low-slung Qatari 'village' by the sea — the calm, traditional counterpoint to the towers.", "lat": 25.287159, "lon": 51.56275, "p": "a"}, {"n": "Four Seasons Resort and Residences at The Pearl-Qatar", "cat": "stay", "tier": "Ultra", "a": "The Pearl-Qatar", "d": "A marina-side resort address on the man-made island, with Four Seasons ease throughout.", "lat": 25.369528, "lon": 51.552212, "p": "a"}, {"n": "The Chedi Katara Hotel & Resort, Doha", "cat": "stay", "tier": "Grand", "a": "Katara Cultural Village", "d": "GHM's understated design ideal beside the cultural village and its private beach.", "lat": 25.363518, "lon": 51.529597, "p": "v"}, {"n": "The Ritz-Carlton, Doha", "cat": "stay", "tier": "Grand", "a": "West Bay Lagoon", "d": "A grand marina resort with its own beach and yacht berths — classic Ritz-Carlton scale.", "lat": 25.379383, "lon": 51.531824, "p": "v"}, {"n": "The St. Regis Doha", "cat": "stay", "tier": "Grand", "a": "West Bay", "d": "A palatial Gulf-front retreat with the signature St. Regis butler on every floor.", "lat": 25.350288, "lon": 51.527979, "p": "v"}, {"n": "Waldorf Astoria Doha Lusail", "cat": "stay", "tier": "Grand", "a": "Lusail", "d": "New-city grandeur on the Lusail waterfront — polished, spacious, of the moment.", "lat": 25.408593, "lon": 51.520444, "p": "v"}, {"n": "The Ned Doha", "cat": "stay", "tier": "Luxury", "a": "Msheireb / Ministry of Interior building", "d": "A landmark government building reborn as a members'-club-and-hotel with real buzz.", "lat": 25.294253, "lon": 51.522937, "p": "v"}, {"n": "Mondrian Doha", "cat": "stay", "tier": "Luxury", "a": "West Bay Lagoon", "d": "Maximalist, design-forward drama for the member who wants the volume turned up.", "lat": 25.377118, "lon": 51.523571, "p": "v"}, {"n": "W Doha", "cat": "stay", "tier": "Luxury", "a": "West Bay", "d": "A high-energy design house in the business district — for celebrations, not quiet nights.", "lat": 25.328749, "lon": 51.530113, "p": "v"}, {"n": "Banyan Tree Doha", "cat": "stay", "tier": "Luxury", "a": "Mushaireb / La Cigale Mushaireb", "d": "A spa-led vertical retreat with a sky-high pool over the downtown skyline.", "lat": 25.28579, "lon": 51.517196, "p": "v"}, {"n": "Marsa Malaz Kempinski, The Pearl-Doha", "cat": "stay", "tier": "Grand", "a": "The Pearl-Qatar", "d": "A palace-scaled island house at the gateway to The Pearl — unabashedly grand.", "lat": 25.376023, "lon": 51.54966, "p": "v"}, {"n": "Fairmont Doha", "cat": "stay", "tier": "Grand", "a": "Lusail / Katara Towers", "d": "The second of the crossed-sabre towers — gold-leaf glamour on a grand scale.", "lat": 25.38884, "lon": 51.531467, "p": "v"}, {"n": "Banana Island Resort Doha by Anantara", "cat": "stay", "tier": "Luxury", "a": "Banana Island", "d": "A ferry-only island escape with over-water villas — the closest thing to a beach holiday off Doha.", "lat": 25.296527, "lon": 51.646073, "p": "a"}, {"n": "The Plaza Doha, LXR Hotels & Resorts", "cat": "stay", "tier": "Luxury", "a": "Msheireb Downtown", "d": "A jewel-box LXR house in the walkable downtown quarter, all quiet polish.", "lat": 25.280266, "lon": 51.551322, "p": "v"}, {"n": "InterContinental Doha Beach & Spa", "cat": "stay", "tier": "Premium", "a": "West Bay Lagoon", "d": "A long-established beach resort with the city's largest private stretch of sand.", "lat": 25.34876, "lon": 51.529376, "p": "v"}, {"n": "Waldorf Astoria Doha West Bay", "cat": "stay", "tier": "Premium", "a": "West Bay", "d": "A polished business-district tower with Waldorf Astoria service at a gentler price.", "lat": 25.327361, "lon": 51.533082, "p": "v"}, {"n": "IDAM by Alain Ducasse", "cat": "eat", "tier": "Destination", "a": "Museum of Islamic Art", "d": "Ducasse's French-Mediterranean, on the museum's top floor, with Doha Bay filling the glass.", "lat": 25.295539, "lon": 51.539416, "p": "a"}, {"n": "Alba", "cat": "eat", "tier": "Destination", "a": "Raffles Doha, Katara Towers, Lusail", "d": "Piedmontese cooking of real refinement inside the crossed-sabre towers — Doha's newest star.", "lat": 25.310881, "lon": 51.508181, "p": "v"}, {"n": "Jamavar", "cat": "eat", "tier": "Fine", "a": "Sheraton Grand Doha, West Bay", "d": "The Leela's grand pan-Indian house — the first Indian restaurant to win a Doha star.", "lat": 25.310881, "lon": 51.508181, "p": "v"}, {"n": "Hoppers", "cat": "eat", "tier": "Smart", "a": "West Bay", "d": "Sri Lankan and South Indian home cooking — hoppers, kari and roti done with real soul.", "lat": 25.286103, "lon": 51.526637, "p": "v"}, {"n": "Isaan", "cat": "eat", "tier": "Smart", "a": "Doha", "d": "Northeastern Thai cooking with genuine fire and fragrance — a Bib-listed favourite.", "lat": 25.310881, "lon": 51.508181, "p": "v"}, {"n": "Jiwan", "cat": "eat", "tier": "Fine", "a": "National Museum of Qatar", "d": "Modern Qatari cooking under the museum's desert-rose roof — heritage, elevated.", "lat": 25.310881, "lon": 51.508181, "p": "v"}, {"n": "Argan", "cat": "eat", "tier": "Smart", "a": "Doha", "d": "Generous, aromatic Moroccan cooking — tagines and pastilla with a proper hand.", "lat": 25.289399, "lon": 51.531117, "p": "v"}, {"n": "Mila", "cat": "eat", "tier": "Smart", "a": "Rosewood Doha, West Bay", "d": "Bright Mediterranean and Levantine sharing plates in the Rosewood's newest room.", "lat": 25.310881, "lon": 51.508181, "p": "v"}, {"n": "Baron", "cat": "eat", "tier": "Smart", "a": "Doha", "d": "Characterful, generous Mediterranean cooking — a Beirut name that earned its Bib in Doha.", "lat": 25.310881, "lon": 51.508181, "p": "v"}, {"n": "Fenyal", "cat": "eat", "tier": "Casual", "a": "Doha", "d": "Vibrant, pocket-friendly Khaleeji cooking — falafel, lamb kofta and proper Arabic coffee.", "lat": 25.377305, "lon": 51.536764, "p": "v"}, {"n": "Nobu Doha", "cat": "eat", "tier": "Destination", "a": "Four Seasons Hotel Doha, West Bay", "d": "The largest Nobu in the world, floating over the Gulf — the black cod that conquered the planet.", "lat": 25.323268, "lon": 51.541012, "p": "v"}, {"n": "Zuma Doha", "cat": "eat", "tier": "Fine", "a": "Al Maha Island, Lusail", "d": "The izakaya benchmark that never empties — precise, buzzy, endlessly reliable.", "lat": 25.285633, "lon": 51.526416, "p": "v"}, {"n": "Hakkasan Doha", "cat": "eat", "tier": "Fine", "a": "St. Regis Doha, West Bay", "d": "The Cantonese standard-bearer — dim sum and lacquered duck in a low-lit lattice room.", "lat": 25.350854, "lon": 51.530893, "p": "v"}, {"n": "Morimoto Doha", "cat": "eat", "tier": "Fine", "a": "Mondrian Doha, West Bay Lagoon", "d": "Iron Chef Masaharu Morimoto's Japanese, staged with Mondrian theatre.", "lat": 25.285633, "lon": 51.526416, "p": "v"}, {"n": "COYA Doha", "cat": "eat", "tier": "Fine", "a": "W Doha, West Bay", "d": "Peruvian colour and pisco energy — ceviche, anticuchos and a room that never quiets.", "lat": 25.285633, "lon": 51.526416, "p": "v"}, {"n": "La Mar Doha by Gastón Acurio", "cat": "eat", "tier": "Fine", "a": "InterContinental Doha Beach & Spa, West Bay", "d": "Gastón Acurio's seaside Peruvian — bright cebiches and a long beachfront terrace.", "lat": 25.349604, "lon": 51.531354, "p": "v"}, {"n": "La Petite Maison (LPM) Doha", "cat": "eat", "tier": "Fine", "a": "Al Maha Island, Lusail", "d": "Riviera cooking and a room that has never gone out of fashion — the Niçoise classic.", "lat": 25.28427, "lon": 51.510335, "p": "v"}, {"n": "Carbone Doha", "cat": "eat", "tier": "Destination", "a": "Al Maha Island, Lusail", "d": "The New York Italian-American theatre — tableside Caesar, veal parm and red sauce, done grandly.", "lat": 25.285633, "lon": 51.526416, "p": "v"}, {"n": "Gymkhana Doha", "cat": "eat", "tier": "Fine", "a": "Al Maha Island, Lusail", "d": "The Sethi family's colonial-club Indian — smoke, spice and swagger, carried from Mayfair.", "lat": 25.285633, "lon": 51.526416, "p": "v"}, {"n": "Masala Library Doha", "cat": "eat", "tier": "Fine", "a": "Doha", "d": "Jiggs Kalra's progressive Indian — familiar flavours, reimagined with a light modern hand.", "lat": 25.28264, "lon": 51.540276, "p": "v"}, {"n": "Dalchini", "cat": "eat", "tier": "Smart", "a": "Doha", "d": "Indian-Chinese and pan-Asian comfort cooking with a devoted local following.", "lat": 25.310881, "lon": 51.508181, "p": "v"}, {"n": "Em Sherif Doha", "cat": "eat", "tier": "Fine", "a": "Doha", "d": "Beirut's grand Lebanese table — an endless, generous procession of mezze.", "lat": 25.327301, "lon": 51.517343, "p": "v"}, {"n": "Curiosa by Jean-Georges", "cat": "eat", "tier": "Destination", "a": "Al Maha Island, Lusail", "d": "Jean-Georges Vongerichten's playful, produce-led cooking in a jewel-box island room.", "lat": 25.328838, "lon": 51.529993, "p": "v"}, {"n": "Shanghai Me Doha", "cat": "eat", "tier": "Fine", "a": "Doha", "d": "1930s-Shanghai glamour and pan-Asian cooking with real intent.", "lat": 25.300665, "lon": 51.552552, "p": "v"}, {"n": "Dar Yema", "cat": "eat", "tier": "Smart", "a": "M7 / Msheireb", "d": "Qatari home cooking preserved and served with pride — a rare taste of the real thing.", "lat": 25.243645, "lon": 51.511414, "p": "v"}, {"n": "Museum of Islamic Art", "cat": "do", "tier": "", "a": "The Corniche", "d": "I.M. Pei's last great commission, rising from its own island — the finest museum of Islamic art anywhere, and the building that told the world Doha was serious.", "lat": 25.295539, "lon": 51.539416, "p": "v"}, {"n": "National Museum of Qatar", "cat": "do", "tier": "", "a": "The Corniche", "d": "Jean Nouvel's interlocking 'desert rose' discs, wrapped around the royal palace — the nation's story told inside one of the most photographed buildings on earth.", "lat": 25.287895, "lon": 51.549508, "p": "v"}, {"n": "Souq Waqif", "cat": "do", "tier": "", "a": "Souq Waqif", "d": "The old trading heart of Doha, faithfully restored to its mud-rendered walls and lantern-lit lanes — where the city still comes to eat, haggle and sit past midnight.", "lat": 25.288229, "lon": 51.533217, "p": "v"}, {"n": "Katara Cultural Village", "cat": "do", "tier": "", "a": "Katara", "d": "Qatar's largest cultural quarter — galleries, an opera house and a 5,000-seat marble amphitheatre by the sea, all in one walkable seafront village.", "lat": 25.360913, "lon": 51.524741, "p": "v"}, {"n": "Msheireb Museums", "cat": "do", "tier": "", "a": "Msheireb", "d": "Four restored heritage houses at the centre of the rebuilt old town — including Bin Jelmood House, one of the few museums anywhere to confront the Indian Ocean slave trade.", "lat": 25.282817, "lon": 51.525577, "p": "v"}, {"n": "The Pearl", "cat": "do", "tier": "", "a": "The Pearl", "d": "A four-square-kilometre island of marinas and Riviera arcades — the first ground in Qatar a foreigner could ever own, and the city's most European evening stroll.", "lat": 25.369528, "lon": 51.552212, "p": "v"}, {"n": "Doha Corniche", "cat": "do", "tier": "", "a": "The Corniche", "d": "The seven-kilometre crescent promenade that frames the whole city — walk it at dusk, dhows on one side and the West Bay skyline on the other.", "lat": 25.29043, "lon": 51.535236, "p": "v"}, {"n": "Mathaf: Arab Museum of Modern Art", "cat": "do", "tier": "", "a": "Education City", "d": "The world's deepest collection of modern and contemporary Arab art — nine thousand works, and the first museum of its kind in the region.", "lat": 25.310619, "lon": 51.419884, "p": "v"}, {"n": "3-2-1 Qatar Olympic and Sports Museum", "cat": "do", "tier": "", "a": "Aspire Zone", "d": "The Middle East's first sports museum and one of the largest Olympic collections on earth — every Games torch since 1936, beside Khalifa Stadium.", "lat": 25.264371, "lon": 51.44531, "p": "a"}, {"n": "Khor Al Adaid (the Inland Sea)", "cat": "do", "tier": "", "a": "Southern desert", "d": "One of the few places on the planet where the sea runs straight into the dunes — a protected inland sea reached only by 4x4 across the sand. A day trip your advisor arranges end to end.", "lat": 25.278322, "lon": 51.535798, "p": "a"}, {"n": "Lusail Boulevard & Marina", "cat": "do", "tier": "", "a": "Lusail", "d": "Qatar's built-from-nothing future city — a mile-long illuminated boulevard, the crossed-sabre Katara Towers and a waterfront that only switches on after dark.", "lat": 25.386685, "lon": 51.525881, "p": "v"}, {"n": "Jiwan & the MIA Park", "cat": "do", "tier": "", "a": "The Corniche", "d": "The parkland strung between the two great museums — sculpture by the water (Serra's '7'), the MIA café, and the city's best skyline picnic at sunset.", "lat": 25.297949, "lon": 51.539774, "p": "v"}, {"n": "Nobu Doha rooftop lounge", "cat": "party", "tier": "Rooftops", "a": "West Bay", "d": "The bar level of the largest Nobu in the world — a three-storey pavilion over the Gulf, cocktails and tapas with the West Bay skyline in the glass.", "lat": 25.3229, "lon": 51.532993, "p": "a"}, {"n": "Ambar, Mandarin Oriental", "cat": "party", "tier": "Cocktail bars", "a": "Msheireb", "d": "The quietly assured lounge in the group's Msheireb house — considered cocktails and artisanal bites, in the calmest, most central address in the city.", "lat": 25.28621, "lon": 51.525835, "p": "v"}, {"n": "The rooftop bar at Raffles Doha", "cat": "party", "tier": "Rooftops", "a": "Lusail", "d": "Live soul and jazz and 360-degree views from inside the crossed-sabre towers — the highest, most theatrical drink in the new city.", "lat": 25.382754, "lon": 51.508508, "p": "a"}, {"n": "The lounge bar at Rosewood Doha", "cat": "party", "tier": "Landmark bars", "a": "West Bay", "d": "A polished sky-lounge in the twin-tower newcomer that took a Forbes Five-Star in its first year — a smart, contemporary place to begin the evening.", "lat": 25.3229, "lon": 51.532993, "p": "a"}]}
+{
+  "center": [
+    25.310881,
+    51.508181
+  ],
+  "venues": [
+    {
+      "n": "Mandarin Oriental, Doha",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Msheireb Downtown",
+      "d": "The group's quiet precision, dropped into the restored heart of the old city.",
+      "lat": 25.28621,
+      "lon": 51.525835,
+      "photos": []
+    },
+    {
+      "n": "Four Seasons Hotel Doha",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "West Bay / The Corniche",
+      "d": "The surest hands in the city \u2014 service you never have to think about, on its own beach.",
+      "lat": 25.32363,
+      "lon": 51.539262,
+      "photos": []
+    },
+    {
+      "n": "Raffles Doha",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Lusail / Katara Towers",
+      "d": "Qatar's first all-suite house, inside the crossed-sabre towers \u2014 theatre with Raffles butlers.",
+      "lat": 25.390062,
+      "lon": 51.531766,
+      "photos": []
+    },
+    {
+      "n": "Rosewood Doha",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "West Bay",
+      "d": "A soaring twin-tower newcomer that took a Forbes Five-Star in its first year.",
+      "lat": 25.383895,
+      "lon": 51.532103,
+      "photos": []
+    },
+    {
+      "n": "Sharq Village & Spa, a Ritz-Carlton Hotel",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Ras Abu Aboud / The Corniche",
+      "d": "A low-slung Qatari 'village' by the sea \u2014 the calm, traditional counterpoint to the towers.",
+      "lat": 25.287159,
+      "lon": 51.56275,
+      "photos": []
+    },
+    {
+      "n": "Four Seasons Resort and Residences at The Pearl-Qatar",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "The Pearl-Qatar",
+      "d": "A marina-side resort address on the man-made island, with Four Seasons ease throughout.",
+      "lat": 25.369528,
+      "lon": 51.552212,
+      "photos": []
+    },
+    {
+      "n": "The Chedi Katara Hotel & Resort, Doha",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Katara Cultural Village",
+      "d": "GHM's understated design ideal beside the cultural village and its private beach.",
+      "lat": 25.363518,
+      "lon": 51.529597,
+      "photos": []
+    },
+    {
+      "n": "The Ritz-Carlton, Doha",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "West Bay Lagoon",
+      "d": "A grand marina resort with its own beach and yacht berths \u2014 classic Ritz-Carlton scale.",
+      "lat": 25.379383,
+      "lon": 51.531824,
+      "photos": []
+    },
+    {
+      "n": "The St. Regis Doha",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "West Bay",
+      "d": "A palatial Gulf-front retreat with the signature St. Regis butler on every floor.",
+      "lat": 25.350288,
+      "lon": 51.527979,
+      "photos": []
+    },
+    {
+      "n": "Waldorf Astoria Doha Lusail",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Lusail",
+      "d": "New-city grandeur on the Lusail waterfront \u2014 polished, spacious, of the moment.",
+      "lat": 25.408593,
+      "lon": 51.520444,
+      "photos": []
+    },
+    {
+      "n": "The Ned Doha",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Msheireb / Ministry of Interior building",
+      "d": "A landmark government building reborn as a members'-club-and-hotel with real buzz.",
+      "lat": 25.294253,
+      "lon": 51.522937,
+      "photos": []
+    },
+    {
+      "n": "Mondrian Doha",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "West Bay Lagoon",
+      "d": "Maximalist, design-forward drama for the member who wants the volume turned up.",
+      "lat": 25.377118,
+      "lon": 51.523571,
+      "photos": []
+    },
+    {
+      "n": "W Doha",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "West Bay",
+      "d": "A high-energy design house in the business district \u2014 for celebrations, not quiet nights.",
+      "lat": 25.328749,
+      "lon": 51.530113,
+      "photos": []
+    },
+    {
+      "n": "Banyan Tree Doha",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Mushaireb / La Cigale Mushaireb",
+      "d": "A spa-led vertical retreat with a sky-high pool over the downtown skyline.",
+      "lat": 25.28579,
+      "lon": 51.517196,
+      "photos": []
+    },
+    {
+      "n": "Marsa Malaz Kempinski, The Pearl-Doha",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "The Pearl-Qatar",
+      "d": "A palace-scaled island house at the gateway to The Pearl \u2014 unabashedly grand.",
+      "lat": 25.376023,
+      "lon": 51.54966,
+      "photos": []
+    },
+    {
+      "n": "Fairmont Doha",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Lusail / Katara Towers",
+      "d": "The second of the crossed-sabre towers \u2014 gold-leaf glamour on a grand scale.",
+      "lat": 25.38884,
+      "lon": 51.531467,
+      "photos": []
+    },
+    {
+      "n": "Banana Island Resort Doha by Anantara",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Banana Island",
+      "d": "A ferry-only island escape with over-water villas \u2014 the closest thing to a beach holiday off Doha.",
+      "lat": 25.296527,
+      "lon": 51.646073,
+      "photos": []
+    },
+    {
+      "n": "The Plaza Doha, LXR Hotels & Resorts",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Msheireb Downtown",
+      "d": "A jewel-box LXR house in the walkable downtown quarter, all quiet polish.",
+      "lat": 25.280266,
+      "lon": 51.551322,
+      "photos": []
+    },
+    {
+      "n": "InterContinental Doha Beach & Spa",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "West Bay Lagoon",
+      "d": "A long-established beach resort with the city's largest private stretch of sand.",
+      "lat": 25.34876,
+      "lon": 51.529376,
+      "photos": []
+    },
+    {
+      "n": "Waldorf Astoria Doha West Bay",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "West Bay",
+      "d": "A polished business-district tower with Waldorf Astoria service at a gentler price.",
+      "lat": 25.327361,
+      "lon": 51.533082,
+      "photos": []
+    },
+    {
+      "n": "IDAM by Alain Ducasse",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Museum of Islamic Art",
+      "d": "Ducasse's French-Mediterranean, on the museum's top floor, with Doha Bay filling the glass.",
+      "lat": 25.295539,
+      "lon": 51.539416,
+      "photos": []
+    },
+    {
+      "n": "Alba",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Raffles Doha, Katara Towers, Lusail",
+      "d": "Piedmontese cooking of real refinement inside the crossed-sabre towers \u2014 Doha's newest star.",
+      "lat": 25.310881,
+      "lon": 51.508181,
+      "photos": []
+    },
+    {
+      "n": "Jamavar",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Sheraton Grand Doha, West Bay",
+      "d": "The Leela's grand pan-Indian house \u2014 the first Indian restaurant to win a Doha star.",
+      "lat": 25.310881,
+      "lon": 51.508181,
+      "photos": []
+    },
+    {
+      "n": "Hoppers",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "West Bay",
+      "d": "Sri Lankan and South Indian home cooking \u2014 hoppers, kari and roti done with real soul.",
+      "lat": 25.286103,
+      "lon": 51.526637,
+      "photos": []
+    },
+    {
+      "n": "Isaan",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Doha",
+      "d": "Northeastern Thai cooking with genuine fire and fragrance \u2014 a Bib-listed favourite.",
+      "lat": 25.310881,
+      "lon": 51.508181,
+      "photos": []
+    },
+    {
+      "n": "Jiwan",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "National Museum of Qatar",
+      "d": "Modern Qatari cooking under the museum's desert-rose roof \u2014 heritage, elevated.",
+      "lat": 25.310881,
+      "lon": 51.508181,
+      "photos": []
+    },
+    {
+      "n": "Argan",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Doha",
+      "d": "Generous, aromatic Moroccan cooking \u2014 tagines and pastilla with a proper hand.",
+      "lat": 25.289399,
+      "lon": 51.531117,
+      "photos": []
+    },
+    {
+      "n": "Mila",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Rosewood Doha, West Bay",
+      "d": "Bright Mediterranean and Levantine sharing plates in the Rosewood's newest room.",
+      "lat": 25.310881,
+      "lon": 51.508181,
+      "photos": []
+    },
+    {
+      "n": "Baron",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Doha",
+      "d": "Characterful, generous Mediterranean cooking \u2014 a Beirut name that earned its Bib in Doha.",
+      "lat": 25.310881,
+      "lon": 51.508181,
+      "photos": []
+    },
+    {
+      "n": "Fenyal",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Doha",
+      "d": "Vibrant, pocket-friendly Khaleeji cooking \u2014 falafel, lamb kofta and proper Arabic coffee.",
+      "lat": 25.377305,
+      "lon": 51.536764,
+      "photos": []
+    },
+    {
+      "n": "Nobu Doha",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Four Seasons Hotel Doha, West Bay",
+      "d": "The largest Nobu in the world, floating over the Gulf \u2014 the black cod that conquered the planet.",
+      "lat": 25.323268,
+      "lon": 51.541012,
+      "photos": []
+    },
+    {
+      "n": "Zuma Doha",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Al Maha Island, Lusail",
+      "d": "The izakaya benchmark that never empties \u2014 precise, buzzy, endlessly reliable.",
+      "lat": 25.285633,
+      "lon": 51.526416,
+      "photos": []
+    },
+    {
+      "n": "Hakkasan Doha",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "St. Regis Doha, West Bay",
+      "d": "The Cantonese standard-bearer \u2014 dim sum and lacquered duck in a low-lit lattice room.",
+      "lat": 25.350854,
+      "lon": 51.530893,
+      "photos": []
+    },
+    {
+      "n": "Morimoto Doha",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Mondrian Doha, West Bay Lagoon",
+      "d": "Iron Chef Masaharu Morimoto's Japanese, staged with Mondrian theatre.",
+      "lat": 25.285633,
+      "lon": 51.526416,
+      "photos": []
+    },
+    {
+      "n": "COYA Doha",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "W Doha, West Bay",
+      "d": "Peruvian colour and pisco energy \u2014 ceviche, anticuchos and a room that never quiets.",
+      "lat": 25.285633,
+      "lon": 51.526416,
+      "photos": []
+    },
+    {
+      "n": "La Mar Doha by Gast\u00f3n Acurio",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "InterContinental Doha Beach & Spa, West Bay",
+      "d": "Gast\u00f3n Acurio's seaside Peruvian \u2014 bright cebiches and a long beachfront terrace.",
+      "lat": 25.349604,
+      "lon": 51.531354,
+      "photos": []
+    },
+    {
+      "n": "La Petite Maison (LPM) Doha",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Al Maha Island, Lusail",
+      "d": "Riviera cooking and a room that has never gone out of fashion \u2014 the Ni\u00e7oise classic.",
+      "lat": 25.28427,
+      "lon": 51.510335,
+      "photos": []
+    },
+    {
+      "n": "Carbone Doha",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Al Maha Island, Lusail",
+      "d": "The New York Italian-American theatre \u2014 tableside Caesar, veal parm and red sauce, done grandly.",
+      "lat": 25.285633,
+      "lon": 51.526416,
+      "photos": []
+    },
+    {
+      "n": "Gymkhana Doha",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Al Maha Island, Lusail",
+      "d": "The Sethi family's colonial-club Indian \u2014 smoke, spice and swagger, carried from Mayfair.",
+      "lat": 25.285633,
+      "lon": 51.526416,
+      "photos": []
+    },
+    {
+      "n": "Masala Library Doha",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Doha",
+      "d": "Jiggs Kalra's progressive Indian \u2014 familiar flavours, reimagined with a light modern hand.",
+      "lat": 25.28264,
+      "lon": 51.540276,
+      "photos": []
+    },
+    {
+      "n": "Dalchini",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Doha",
+      "d": "Indian-Chinese and pan-Asian comfort cooking with a devoted local following.",
+      "lat": 25.310881,
+      "lon": 51.508181,
+      "photos": []
+    },
+    {
+      "n": "Em Sherif Doha",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Doha",
+      "d": "Beirut's grand Lebanese table \u2014 an endless, generous procession of mezze.",
+      "lat": 25.327301,
+      "lon": 51.517343,
+      "photos": []
+    },
+    {
+      "n": "Curiosa by Jean-Georges",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Al Maha Island, Lusail",
+      "d": "Jean-Georges Vongerichten's playful, produce-led cooking in a jewel-box island room.",
+      "lat": 25.328838,
+      "lon": 51.529993,
+      "photos": []
+    },
+    {
+      "n": "Shanghai Me Doha",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Doha",
+      "d": "1930s-Shanghai glamour and pan-Asian cooking with real intent.",
+      "lat": 25.300665,
+      "lon": 51.552552,
+      "photos": []
+    },
+    {
+      "n": "Dar Yema",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "M7 / Msheireb",
+      "d": "Qatari home cooking preserved and served with pride \u2014 a rare taste of the real thing.",
+      "lat": 25.243645,
+      "lon": 51.511414,
+      "photos": []
+    },
+    {
+      "n": "Museum of Islamic Art",
+      "cat": "do",
+      "tier": "",
+      "a": "The Corniche",
+      "d": "I.M. Pei's last great commission, rising from its own island \u2014 the finest museum of Islamic art anywhere, and the building that told the world Doha was serious.",
+      "lat": 25.295539,
+      "lon": 51.539416,
+      "photos": []
+    },
+    {
+      "n": "National Museum of Qatar",
+      "cat": "do",
+      "tier": "",
+      "a": "The Corniche",
+      "d": "Jean Nouvel's interlocking 'desert rose' discs, wrapped around the royal palace \u2014 the nation's story told inside one of the most photographed buildings on earth.",
+      "lat": 25.287895,
+      "lon": 51.549508,
+      "photos": []
+    },
+    {
+      "n": "Souq Waqif",
+      "cat": "do",
+      "tier": "",
+      "a": "Souq Waqif",
+      "d": "The old trading heart of Doha, faithfully restored to its mud-rendered walls and lantern-lit lanes \u2014 where the city still comes to eat, haggle and sit past midnight.",
+      "lat": 25.288229,
+      "lon": 51.533217,
+      "photos": []
+    },
+    {
+      "n": "Katara Cultural Village",
+      "cat": "do",
+      "tier": "",
+      "a": "Katara",
+      "d": "Qatar's largest cultural quarter \u2014 galleries, an opera house and a 5,000-seat marble amphitheatre by the sea, all in one walkable seafront village.",
+      "lat": 25.360913,
+      "lon": 51.524741,
+      "photos": []
+    },
+    {
+      "n": "Msheireb Museums",
+      "cat": "do",
+      "tier": "",
+      "a": "Msheireb",
+      "d": "Four restored heritage houses at the centre of the rebuilt old town \u2014 including Bin Jelmood House, one of the few museums anywhere to confront the Indian Ocean slave trade.",
+      "lat": 25.282817,
+      "lon": 51.525577,
+      "photos": []
+    },
+    {
+      "n": "The Pearl",
+      "cat": "do",
+      "tier": "",
+      "a": "The Pearl",
+      "d": "A four-square-kilometre island of marinas and Riviera arcades \u2014 the first ground in Qatar a foreigner could ever own, and the city's most European evening stroll.",
+      "lat": 25.369528,
+      "lon": 51.552212,
+      "photos": []
+    },
+    {
+      "n": "Doha Corniche",
+      "cat": "do",
+      "tier": "",
+      "a": "The Corniche",
+      "d": "The seven-kilometre crescent promenade that frames the whole city \u2014 walk it at dusk, dhows on one side and the West Bay skyline on the other.",
+      "lat": 25.29043,
+      "lon": 51.535236,
+      "photos": []
+    },
+    {
+      "n": "Mathaf: Arab Museum of Modern Art",
+      "cat": "do",
+      "tier": "",
+      "a": "Education City",
+      "d": "The world's deepest collection of modern and contemporary Arab art \u2014 nine thousand works, and the first museum of its kind in the region.",
+      "lat": 25.310619,
+      "lon": 51.419884,
+      "photos": []
+    },
+    {
+      "n": "3-2-1 Qatar Olympic and Sports Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Aspire Zone",
+      "d": "The Middle East's first sports museum and one of the largest Olympic collections on earth \u2014 every Games torch since 1936, beside Khalifa Stadium.",
+      "lat": 25.264371,
+      "lon": 51.44531,
+      "photos": []
+    },
+    {
+      "n": "Khor Al Adaid (the Inland Sea)",
+      "cat": "do",
+      "tier": "",
+      "a": "Southern desert",
+      "d": "One of the few places on the planet where the sea runs straight into the dunes \u2014 a protected inland sea reached only by 4x4 across the sand. A day trip your advisor arranges end to end.",
+      "lat": 25.278322,
+      "lon": 51.535798,
+      "photos": []
+    },
+    {
+      "n": "Lusail Boulevard & Marina",
+      "cat": "do",
+      "tier": "",
+      "a": "Lusail",
+      "d": "Qatar's built-from-nothing future city \u2014 a mile-long illuminated boulevard, the crossed-sabre Katara Towers and a waterfront that only switches on after dark.",
+      "lat": 25.386685,
+      "lon": 51.525881,
+      "photos": []
+    },
+    {
+      "n": "Jiwan & the MIA Park",
+      "cat": "do",
+      "tier": "",
+      "a": "The Corniche",
+      "d": "The parkland strung between the two great museums \u2014 sculpture by the water (Serra's '7'), the MIA caf\u00e9, and the city's best skyline picnic at sunset.",
+      "lat": 25.297949,
+      "lon": 51.539774,
+      "photos": []
+    },
+    {
+      "n": "Nobu Doha rooftop lounge",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "West Bay",
+      "d": "The bar level of the largest Nobu in the world \u2014 a three-storey pavilion over the Gulf, cocktails and tapas with the West Bay skyline in the glass.",
+      "lat": 25.3229,
+      "lon": 51.532993,
+      "photos": []
+    },
+    {
+      "n": "Ambar, Mandarin Oriental",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Msheireb",
+      "d": "The quietly assured lounge in the group's Msheireb house \u2014 considered cocktails and artisanal bites, in the calmest, most central address in the city.",
+      "lat": 25.28621,
+      "lon": 51.525835,
+      "photos": []
+    },
+    {
+      "n": "The rooftop bar at Raffles Doha",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "Lusail",
+      "d": "Live soul and jazz and 360-degree views from inside the crossed-sabre towers \u2014 the highest, most theatrical drink in the new city.",
+      "lat": 25.382754,
+      "lon": 51.508508,
+      "photos": []
+    },
+    {
+      "n": "The lounge bar at Rosewood Doha",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "West Bay",
+      "d": "A polished sky-lounge in the twin-tower newcomer that took a Forbes Five-Star in its first year \u2014 a smart, contemporary place to begin the evening.",
+      "lat": 25.3229,
+      "lon": 51.532993,
+      "photos": []
+    }
+  ]
+}

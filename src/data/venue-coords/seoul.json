@@ -1,1 +1,1088 @@
-{"center": [37.566679, 126.978291], "venues": [{"n": "Signiel Seoul", "cat": "stay", "tier": "Ultra", "a": "Jamsil / Songpa", "d": "The city crowned from above — the upper floors of Korea's tallest tower, and its most decorated hotel.", "lat": 37.512574, "lon": 127.102817, "p": "v"}, {"n": "The Shilla Seoul", "cat": "stay", "tier": "Ultra", "a": "Jung-gu / Namsan", "d": "The grande dame of Korean hospitality — poised against Mount Namsan, and the country's benchmark for service.", "lat": 37.555861, "lon": 127.005149, "p": "v"}, {"n": "Four Seasons Hotel Seoul", "cat": "stay", "tier": "Ultra", "a": "Jongno / Gwanghwamun", "d": "The surest hands in Seoul — a glass tower beside the palaces, where nothing is left to chance.", "lat": 37.570673, "lon": 126.975352, "p": "v"}, {"n": "Josun Palace, a Luxury Collection Hotel, Seoul Gangnam", "cat": "stay", "tier": "Grand", "a": "Gangnam", "d": "Heritage reborn in the heart of Gangnam — Korean motifs threaded through European modernism.", "lat": 37.5177, "lon": 127.0473, "p": "a"}, {"n": "Fairmont Ambassador Seoul", "cat": "stay", "tier": "Grand", "a": "Yeouido", "d": "Glass walls over the Han River, inside Sir Richard Rogers' landmark Parc.1 — understated new-Seoul glamour.", "lat": 37.525161, "lon": 126.929025, "p": "v"}, {"n": "Park Hyatt Seoul", "cat": "stay", "tier": "Grand", "a": "Gangnam", "d": "Minimalist, boutique-scaled calm above Gangnam — the quiet-luxury choice for those who prefer discretion.", "lat": 37.508603, "lon": 127.064178, "p": "v"}, {"n": "Conrad Seoul", "cat": "stay", "tier": "Grand", "a": "Yeouido", "d": "A sleek glass tower in the financial district, with the river laid out below.", "lat": 37.525389, "lon": 126.926633, "p": "v"}, {"n": "Lotte Hotel Seoul", "cat": "stay", "tier": "Luxury", "a": "Jung-gu / Myeongdong", "d": "A long-cherished city classic in the middle of Myeongdong — grand, dependable, endlessly convenient.", "lat": 37.565255, "lon": 126.980625, "p": "v"}, {"n": "Grand Hyatt Seoul", "cat": "stay", "tier": "Luxury", "a": "Yongsan / Itaewon", "d": "A hillside resort in the middle of the city — nine dining venues, and Seoul's most complete fitness and pool complex.", "lat": 37.539578, "lon": 126.997651, "p": "v"}, {"n": "Banyan Tree Club & Spa Seoul", "cat": "stay", "tier": "Luxury", "a": "Jung-gu / Namsan", "d": "A self-contained spa resort at the foot of Namsan — a pool in nearly every room, ten minutes from downtown.", "lat": 37.51836, "lon": 126.870582, "p": "v"}, {"n": "The Westin Josun Seoul", "cat": "stay", "tier": "Luxury", "a": "Jung-gu / Sogong-dong", "d": "The oldest luxury name in the city, refreshed — a downtown classic with a walled garden of its own.", "lat": 37.56441, "lon": 126.979961, "p": "v"}, {"n": "Andaz Seoul Gangnam", "cat": "stay", "tier": "Luxury", "a": "Gangnam / Apgujeong", "d": "Hyatt's lifestyle house in Gangnam — design-led and plugged into Apgujeong's fashion energy.", "lat": 37.50944, "lon": 127.067072, "p": "v"}, {"n": "RYSE, Autograph Collection", "cat": "stay", "tier": "Premium", "a": "Hongdae / Mapo", "d": "An art-and-design hotel in creative Hongdae — the base for members who want the city's cultural pulse.", "lat": 37.55792, "lon": 126.926135, "p": "a"}, {"n": "L7 Myeongdong by Lotte", "cat": "stay", "tier": "Premium", "a": "Jung-gu / Myeongdong", "d": "A bright, contemporary lifestyle tower in the thick of Myeongdong's shopping and street food.", "lat": 37.56123, "lon": 126.986885, "p": "v"}, {"n": "Grand InterContinental Seoul Parnas", "cat": "stay", "tier": "Premium", "a": "Gangnam / COEX", "d": "A large, capable Gangnam house wired straight into the COEX complex.", "lat": 37.509073, "lon": 127.060719, "p": "v"}, {"n": "Mondrian Seoul Itaewon", "cat": "stay", "tier": "Premium", "a": "Itaewon / Yongsan", "d": "The brand's first Asian house — a design-led lifestyle hotel in the thick of Itaewon.", "lat": 37.528559, "lon": 126.993126, "p": "v"}, {"n": "Sofitel Ambassador Seoul", "cat": "stay", "tier": "Premium", "a": "Jamsil / Songpa", "d": "French spirit on the shore of Seokchon Lake, in the shadow of Lotte World Tower.", "lat": 37.51378, "lon": 127.106215, "p": "v"}, {"n": "JW Marriott Dongdaemun Square Seoul", "cat": "stay", "tier": "Premium", "a": "Jung-gu / Dongdaemun", "d": "A polished house overlooking the old city gate, at the heart of Seoul's night-market district.", "lat": 37.570368, "lon": 127.008822, "p": "v"}, {"n": "Mingles", "cat": "eat", "tier": "Destination", "a": "Gangnam / Cheongdam", "d": "Korea's only three-star — Kang Min-goo's modern Korean, and the city's proudest table.", "lat": 37.522682, "lon": 127.039179, "p": "v"}, {"n": "La Yeon", "cat": "eat", "tier": "Destination", "a": "Jung-gu / Namsan (The Shilla)", "d": "Korean haute cuisine at its most refined, high in The Shilla — hansik with the city at its feet.", "lat": 37.555515, "lon": 127.00518, "p": "v"}, {"n": "Jungsik", "cat": "eat", "tier": "Destination", "a": "Gangnam / Apgujeong", "d": "The restaurant that redefined new Korean fine dining — and took the idea to the world.", "lat": 37.525633, "lon": 127.041106, "p": "v"}, {"n": "Kwonsooksoo", "cat": "eat", "tier": "Destination", "a": "Gangnam / Apgujeong", "d": "Kwon Woo-joong's deeply seasonal Korean — royal-court refinement, quietly modernised.", "lat": 37.566679, "lon": 126.978291, "p": "v"}, {"n": "Soigné", "cat": "eat", "tier": "Destination", "a": "Gangnam / Seocho", "d": "An inventive, globe-trotting kitchen that reads like a chef's private notebook.", "lat": 37.566679, "lon": 126.978291, "p": "v"}, {"n": "Alla Prima", "cat": "eat", "tier": "Destination", "a": "Gangnam / Nonhyeon", "d": "A precise, contemporary tasting counter — one of Gangnam's most assured two-stars.", "lat": 37.513568, "lon": 127.026083, "p": "v"}, {"n": "Restaurant Allen", "cat": "eat", "tier": "Destination", "a": "Gangnam", "d": "Chef Seo Hyun-min's contemporary cooking — technically dazzling, quietly personal.", "lat": 37.572868, "lon": 126.983247, "p": "v"}, {"n": "Evett", "cat": "eat", "tier": "Destination", "a": "Gangnam / Cheongdam", "d": "Joseph Lidgerwood's fierce commitment to Korean produce and fermentation — newly two stars.", "lat": 37.566679, "lon": 126.978291, "p": "v"}, {"n": "Kojima", "cat": "eat", "tier": "Destination", "a": "Gangnam / Cheongdam", "d": "A jewel-box Edomae counter of great purity — Seoul's finest sushi omakase.", "lat": 37.566679, "lon": 126.978291, "p": "v"}, {"n": "Mitou", "cat": "eat", "tier": "Destination", "a": "Gangnam / Nonhyeon", "d": "Twin-chef Japanese cooking of rare finesse — kaiseki instincts, Seoul ingredients.", "lat": 37.566679, "lon": 126.978291, "p": "v"}, {"n": "Onjium", "cat": "eat", "tier": "Destination", "a": "Jongno / Seochon", "d": "A research kitchen reviving Korea's royal-court cuisine — history you can taste.", "lat": 37.566679, "lon": 126.978291, "p": "v"}, {"n": "Mosu Seoul", "cat": "eat", "tier": "Destination", "a": "Yongsan / Hannam", "d": "Sung Anh's international-Korean cooking — the chef whose pedigree spans the world's great kitchens.", "lat": 37.566679, "lon": 126.978291, "p": "v"}, {"n": "7th Door", "cat": "eat", "tier": "Destination", "a": "Gangnam / Apgujeong", "d": "Kim Dae-cheon's seven-course narrative of Korean flavour — cerebral, seasonal, singular.", "lat": 37.533589, "lon": 126.972612, "p": "v"}, {"n": "Eatanic Garden", "cat": "eat", "tier": "Destination", "a": "Gangnam / Josun Palace", "d": "Inventive Korean cooking 36 floors up — the highest new entry on Asia's list that year.", "lat": 37.571066, "lon": 126.834664, "p": "v"}, {"n": "Pierre Gagnaire à Séoul", "cat": "eat", "tier": "Destination", "a": "Jung-gu / Sogong-dong (Lotte Hotel)", "d": "The French master's Seoul outpost — grand, generous cooking high above the city.", "lat": 37.588038, "lon": 127.032393, "p": "v"}, {"n": "Sushi Kanesaka", "cat": "eat", "tier": "Destination", "a": "Jung-gu (The Shilla)", "d": "The revered Ginza name, transplanted — an exacting Edomae counter inside The Shilla.", "lat": 37.536334, "lon": 126.97275, "p": "v"}, {"n": "Kojacha", "cat": "eat", "tier": "Fine", "a": "Gangnam", "d": "A refined Korean kitchen that carries its star with unshowy confidence.", "lat": 37.566679, "lon": 126.978291, "p": "v"}, {"n": "Hansikgonggan", "cat": "eat", "tier": "Fine", "a": "Jongno / Bukchon", "d": "Chef Cho Hee-sook's soulful, home-rooted Korean cooking — hansik with real heart.", "lat": 37.566679, "lon": 126.978291, "p": "v"}, {"n": "Kang Minchul Restaurant", "cat": "eat", "tier": "Fine", "a": "Gangnam", "d": "A chef-led contemporary kitchen with a quietly devoted following.", "lat": 37.645199, "lon": 127.032982, "p": "v"}, {"n": "Bicena", "cat": "eat", "tier": "Fine", "a": "Jamsil / Songpa (Signiel Seoul)", "d": "Elevated Korean fine dining high in Signiel — refined hansik with the skyline for company.", "lat": 37.566679, "lon": 126.978291, "p": "v"}, {"n": "Yu Yuan", "cat": "eat", "tier": "Fine", "a": "Jongno / Gwanghwamun (Four Seasons)", "d": "Classic Cantonese cooking in a rarefied setting — the Four Seasons' newly-starred room.", "lat": 37.570422, "lon": 126.975578, "p": "v"}, {"n": "Muni", "cat": "eat", "tier": "Fine", "a": "Jongno / Seochon", "d": "A refined Japanese kitchen in a hanok setting — precision in a traditional Korean house.", "lat": 37.606174, "lon": 127.108738, "p": "v"}, {"n": "Zero Complex", "cat": "eat", "tier": "Fine", "a": "Gangnam / Seocho", "d": "Lee Chung-hoo's quietly brilliant modern cooking — one of Seoul's understated stars.", "lat": 37.574874, "lon": 126.975016, "p": "v"}, {"n": "Soigné's Y'east", "cat": "eat", "tier": "Fine", "a": "Gangnam", "d": "A contemporary kitchen that climbed from selection to a star on its own ideas.", "lat": 37.528911, "lon": 126.873831, "p": "v"}, {"n": "Légume", "cat": "eat", "tier": "Fine", "a": "Gangnam", "d": "A vegan tasting menu that earned its star on merit — plant cooking taken entirely seriously.", "lat": 37.519884, "lon": 127.019078, "p": "v"}, {"n": "Gigas", "cat": "eat", "tier": "Fine", "a": "Itaewon / Hannam", "d": "Jung Ha-wan's Mediterranean-leaning cooking — sunlit flavours, freshly starred.", "lat": 37.566679, "lon": 126.978291, "p": "v"}, {"n": "Tutoiement", "cat": "eat", "tier": "Fine", "a": "Gangnam", "d": "Kim Do-yoon's intimate French room — newly starred, and deeply personal.", "lat": 37.566679, "lon": 126.978291, "p": "v"}, {"n": "Escondido", "cat": "eat", "tier": "Fine", "a": "Itaewon", "d": "Jin Woo-bum's ambitious Mexican cooking — a first star for the genre in Seoul.", "lat": 37.566679, "lon": 126.978291, "p": "v"}, {"n": "Sosuheon", "cat": "eat", "tier": "Destination", "a": "Jung-gu", "d": "Park Kyung-jae's exacting sushi counter — a freshly-starred omakase of real poise.", "lat": 37.566679, "lon": 126.978291, "p": "v"}, {"n": "Solbam", "cat": "eat", "tier": "Fine", "a": "Gangnam", "d": "A modern Korean kitchen holding its star with seasonal, ingredient-led cooking.", "lat": 37.566679, "lon": 126.978291, "p": "v"}, {"n": "Soseoul Hannam", "cat": "eat", "tier": "Fine", "a": "Itaewon / Hannam", "d": "Eom Tae-chul's inventive Korean cooking in fashionable Hannam.", "lat": 37.539201, "lon": 127.005184, "p": "v"}, {"n": "YUN Seoul", "cat": "eat", "tier": "Fine", "a": "Gangnam / Cheongdam", "d": "A meticulous beef-focused Korean kitchen — hanwoo treated with reverence.", "lat": 37.519477, "lon": 126.922816, "p": "v"}, {"n": "Gomtang Lab", "cat": "eat", "tier": "Smart", "a": "Gangnam / Sinsa-dong", "d": "Beef-bone soup raised to an art — long-simmered gomtang, done properly.", "lat": 37.467318, "lon": 127.028198, "p": "v"}, {"n": "Neungdong Minari", "cat": "eat", "tier": "Smart", "a": "Itaewon / Hannam", "d": "Water-celery and grilled pork, Korean home cooking with a cult following.", "lat": 37.536467, "lon": 127.070012, "p": "v"}, {"n": "Myeon Seoul", "cat": "eat", "tier": "Smart", "a": "Gangnam / Sinsa-dong", "d": "Handmade noodles paired with traditional Korean liquor — quietly excellent.", "lat": 37.577213, "lon": 127.088178, "p": "v"}, {"n": "Mipildam", "cat": "eat", "tier": "Casual", "a": "Hapjeong / Mapo", "d": "North Korean-style dumpling soup done with real care — soulful and honest.", "lat": 37.566679, "lon": 126.978291, "p": "v"}, {"n": "Nishimuramen", "cat": "eat", "tier": "Casual", "a": "Yeonnam-dong / Mapo", "d": "A serious Japanese ramen shop that earned its Bib on the bowl alone.", "lat": 37.566679, "lon": 126.978291, "p": "v"}, {"n": "Seoryung", "cat": "eat", "tier": "Smart", "a": "Jung-gu / Namchang-dong", "d": "Cold buckwheat noodles at their most refined — a naengmyeon specialist of long standing.", "lat": 37.566679, "lon": 126.978291, "p": "v"}, {"n": "ALT.a", "cat": "eat", "tier": "Smart", "a": "Itaewon", "d": "Plant-based Korean-Chinese cooking with a modern, knowing hand.", "lat": 37.532626, "lon": 126.99444, "p": "v"}, {"n": "Youhan", "cat": "eat", "tier": "Smart", "a": "Itaewon / Hannam", "d": "A small Thai bistro punching well above its price — bright, fresh, precise.", "lat": 37.566679, "lon": 126.978291, "p": "v"}, {"n": "Seokyonanmyunbang", "cat": "eat", "tier": "Smart", "a": "Hongdae / Seogyo-dong", "d": "An easy, inventive Korean-Italian room that quietly won its Bib.", "lat": 37.566679, "lon": 126.978291, "p": "v"}, {"n": "Gyeongbokgung Palace", "cat": "do", "tier": "", "a": "Jongno", "d": "The grandest of the Joseon dynasty's five palaces, its throne hall and lotus-pond pavilion framed by the peaks of Bugaksan behind. Time your morning for the changing-of-the-guard ceremony at Gwanghwamun Gate, and rent hanbok nearby so the whole family enters free — a photograph the grandparents will keep.", "lat": 37.579754, "lon": 126.976682, "p": "v"}, {"n": "Changdeokgung Palace & Secret Garden (Huwon)", "cat": "do", "tier": "", "a": "Jongno", "d": "The best-preserved royal palace, and the only one where kings let the landscape lead rather than the geometry. The Secret Garden — five centuries of private royal retreat, lotus ponds and pavilions — is entered by timed guided tour only, so book the English slot in advance for a quieter, unhurried walk.", "lat": 37.574654, "lon": 126.978887, "p": "a"}, {"n": "Bukchon Hanok Village", "cat": "do", "tier": "", "a": "Bukchon", "d": "A living hillside of restored tile-roof hanok houses strung between the two great palaces, with lanes that suddenly open onto rooftop views over old Seoul. Residents still live here, so walk softly and early; the quiet upper alleys reward a slow, private wander far more than the crowded photo-spots.", "lat": 37.582392, "lon": 126.985865, "p": "v"}, {"n": "Ikseon-dong Hanok Street", "cat": "do", "tier": "", "a": "Jongno", "d": "A 1930s hanok warren reborn as Seoul's most charming maze of tucked-away cafes, tea houses and tiny restaurants under glass-roofed alleys. Come for an afternoon of drifting between courtyards — an easy, atmospheric stop with plenty of dessert and tea for a multi-generational group.", "lat": 37.573502, "lon": 126.989847, "p": "v"}, {"n": "Insadong", "cat": "do", "tier": "", "a": "Jongno", "d": "Seoul's traditional arts quarter — galleries, antique dealers, hanji paper shops and ceramics along a pedestrian spine, with the Ssamziegil spiral mall at its heart. The place to commission or buy serious Korean craft and celadon, and to find a calm vegetarian temple-food restaurant among the tea houses.", "lat": 37.571654, "lon": 126.986424, "p": "v"}, {"n": "Samcheong-dong", "cat": "do", "tier": "", "a": "Jongno", "d": "The elegant lane rising from Gyeongbokgung's east wall, where hanok bones hold contemporary art galleries, design boutiques and refined cafes. Pair it with a Bukchon walk for the city's most graceful afternoon of browsing, with the wooded palace wall on one side.", "lat": 37.58964, "lon": 126.98112, "p": "v"}, {"n": "National Museum of Korea", "cat": "do", "tier": "", "a": "Yongsan", "d": "Korea's flagship museum and one of the largest in Asia, its vast halls tracing 5,000 years from gold crowns to the serene gilt-bronze Pensive Bodhisattva in its own darkened room. Entry to the permanent galleries is free, the scale is stroller- and elder-friendly, and half a day here anchors any first trip.", "lat": 37.523953, "lon": 126.98032, "p": "v"}, {"n": "Leeum Museum of Art", "cat": "do", "tier": "", "a": "Itaewon", "d": "Samsung's private museum: one building of Korean antiquities and celadon, another of modern and contemporary art, set in architecture by Mario Botta, Jean Nouvel and Rem Koolhaas. A concentrated, world-class collection — ask about private or docent-led viewing for a discreet, unhurried morning.", "lat": 37.56416, "lon": 126.973808, "p": "v"}, {"n": "N Seoul Tower (Namsan Tower)", "cat": "do", "tier": "", "a": "Yongsan", "d": "The city's classic panorama, reached by a wooded cable car up Namsan to an observation deck that takes in the whole basin and, on clear days, the mountains beyond. Go near sunset when Seoul lights up beneath you — an easy, crowd-pleasing outing for all ages.", "lat": 37.551269, "lon": 126.988296, "p": "v"}, {"n": "Dongdaemun Design Plaza (DDP)", "cat": "do", "tier": "", "a": "Jung-gu", "d": "Zaha Hadid's silver, seamless neo-futurist landmark — Seoul's design and fashion hub, hosting major exhibitions and the after-dark LED rose garden. Wander the flowing halls, then dip into the surrounding 24-hour Dongdaemun wholesale fashion towers if the night is young.", "lat": 37.567069, "lon": 127.009899, "p": "v"}, {"n": "Gwangjang Market", "cat": "do", "tier": "", "a": "Jongno", "d": "Korea's oldest continuously running market (1905), a roaring food alley of mung-bean bindaetteok, mayak gimbap and raw beef tartare eaten elbow-to-elbow with locals. For UHNI travellers it's the deliberate opposite of fine dining — visceral, real Seoul; go with a guide who can steer vegetarians to the right stalls.", "lat": 37.569783, "lon": 127.000655, "p": "v"}, {"n": "Namdaemun Market", "cat": "do", "tier": "", "a": "Jung-gu", "d": "Seoul's oldest and largest market, its roots in the 15th century, now a sprawling maze of everything from kitchenware and hanbok fabric to ginseng and mountain gear. Beside the restored Sungnyemun (Namdaemun) gate — Korea's National Treasure No. 1 — it's a plunge into everyday commercial Seoul.", "lat": 37.55767, "lon": 126.97656, "p": "v"}, {"n": "Jogyesa Temple", "cat": "do", "tier": "", "a": "Jongno", "d": "The chief temple of Korean Jogye-order Buddhism, right in the city centre, its main hall shaded by an ancient white pine and lantern-strung courtyard. Sit for a moment of calm between the palaces and Insadong; templestay and tea programmes can be arranged in advance for a deeper, quiet experience.", "lat": 37.574143, "lon": 126.981912, "p": "v"}, {"n": "Bukhansan National Park", "cat": "do", "tier": "", "a": "Gangbuk", "d": "Granite spires and forested ridges rising straight out of the northern suburbs — one of the world's most-visited national parks, with trails from gentle temple walks to the scramble up Baegundae (836m). A guide and private car to the trailhead make a half-day summit or an easier valley hike simple for a family.", "lat": 37.612042, "lon": 126.99214, "p": "v"}, {"n": "Seoul City Wall & Naksan Park", "cat": "do", "tier": "", "a": "Jongno", "d": "The Joseon-era fortress wall still ribbons across the city's inner hills; the Naksan stretch is the gentlest, an easy paved climb to a hilltop park with a wide sunset view over the rooftops. Combine it with the muraled Ihwa hillside village just below for a quiet, walkable evening.", "lat": 37.584457, "lon": 127.007061, "p": "v"}, {"n": "Han River (Hangang) Parks", "cat": "do", "tier": "", "a": "Citywide", "d": "The broad river that splits Seoul is lined with a chain of riverside parks — cycle at Yeouido, picnic with fried chicken and a mat, or take a sunset dinner cruise past the illuminated bridges. Banpo's Moonlight Rainbow Fountain, the world's longest bridge fountain, puts on a nightly water-and-light show in warm months.", "lat": 37.523286, "lon": 126.957602, "p": "v"}, {"n": "Seongsu-dong", "cat": "do", "tier": "", "a": "Seongdong", "d": "Seoul's 'Brooklyn' — a former shoe-factory district now full of raw-concrete flagship stores, designer cafes and pop-up boutiques, and the epicentre of the city's craft and coffee culture. The most fashion-forward afternoon in town, and where luxury houses now stage their Seoul events.", "lat": 37.544569, "lon": 127.056102, "p": "v"}, {"n": "Gangnam & Apgujeong Rodeo", "cat": "do", "tier": "", "a": "Gangnam", "d": "South of the river: the polished district of luxury flagships, plastic-surgery clinics and K-pop agencies, with Apgujeong's Rodeo Street and the Cheongdam boutiques for serious high-end shopping. Base here for proximity to the grandest hotels, spas and Michelin-tier Korean fine dining.", "lat": 37.527813, "lon": 127.040709, "p": "v"}, {"n": "Starfield Library, COEX Mall", "cat": "do", "tier": "", "a": "Gangnam", "d": "A soaring 13-metre open library of 50,000 books inside Asia's largest underground mall — one of Seoul's most photographed indoor spaces. Easy, air-conditioned, and next to the COEX Aquarium and SMTOWN, it's a reliable rainy-day or with-children stop in Gangnam.", "lat": 37.510168, "lon": 127.060088, "p": "v"}, {"n": "Bongeunsa Temple", "cat": "do", "tier": "", "a": "Gangnam", "d": "A 1,200-year-old mountain temple marooned amid the glass towers of Gangnam, facing the COEX complex across the road — the serene counterpoint to the district's gleam. Its 23-metre standing Buddha and evening lantern courtyard make it a moving five-minute stop between meetings or shopping.", "lat": 37.515132, "lon": 127.056794, "p": "v"}, {"n": "Hongdae", "cat": "do", "tier": "", "a": "Mapo", "d": "The university-fuelled arts and nightlife quarter — indie live-music clubs, street buskers, vintage shops and the youngest energy in Seoul. Come after dark for the buskers and the bars; a lively contrast to the palaces, best for the younger members of a travelling group.", "lat": 37.55792, "lon": 126.926135, "p": "v"}, {"n": "Itaewon & Gyeongnidan-gil", "cat": "do", "tier": "", "a": "Yongsan", "d": "Seoul's most international quarter, where the hillside Gyeongnidan and Haebangchon lanes hold the widest spread of global restaurants — including reliable halal and Indian options near the Seoul Central Mosque. Useful ground for travellers who want familiar or dietary-specific dining alongside the view down to Namsan.", "lat": 37.539967, "lon": 126.992012, "p": "v"}, {"n": "Myeongdong", "cat": "do", "tier": "", "a": "Jung-gu", "d": "The dense downtown shopping grid — Korean cosmetics flagships, department stores, and after-dark street-food carts of egg bread and grilled lobster. Efficient for skincare and gifting hauls, with the Myeongdong Cathedral, Korea's mother church, for a quiet moment above the crush.", "lat": 37.560898, "lon": 126.986376, "p": "v"}, {"n": "Deoksugung Palace & Stone Wall Road", "cat": "do", "tier": "", "a": "Jung-gu", "d": "The intimate downtown palace where Joseon met the modern world — traditional halls stand beside a Western-style stone hall, and its changing-of-the-guard is the most central. The tree-lined Deoksugung Doldam-gil stone-wall walk beside it is one of the city's loveliest strolls, especially in autumn.", "lat": 37.560879, "lon": 126.992128, "p": "a"}, {"n": "Cheonggyecheon Stream", "cat": "do", "tier": "", "a": "Jung-gu", "d": "A once-buried stream reopened as a 10-kilometre sunken green corridor threading the heart of downtown — you descend from the traffic into a cool ribbon of water, stepping stones and evening light installations. An easy, level walk to break up a day of city sightseeing.", "lat": 37.568436, "lon": 126.99395, "p": "v"}, {"n": "Changgyeonggung Palace", "cat": "do", "tier": "", "a": "Jongno", "d": "The quietest and most gardened of the royal palaces, built as a residence for dowager queens, with a large pond, a glass-and-iron botanical greenhouse from 1909, and far fewer crowds than its neighbours. Its rear connects to Changdeokgung, so the two can be walked together in one calm morning.", "lat": 37.580246, "lon": 126.994833, "p": "v"}, {"n": "Jongmyo Shrine", "cat": "do", "tier": "", "a": "Jongno", "d": "The austere Confucian royal ancestral shrine where the spirit tablets of the Joseon kings are enshrined — a long, low, deeply solemn hall down a stone spirit-path through old forest. Its living ritual music and dance, the Jongmyo Jerye, is itself a recognised intangible heritage; visit by timed entry for the stillness.", "lat": 37.574953, "lon": 126.993879, "p": "v"}, {"n": "Seoul Museum of Art (SeMA)", "cat": "do", "tier": "", "a": "Jung-gu", "d": "The city's principal contemporary art museum, behind the preserved facade of the former Supreme Court near Deoksugung, with a strong programme and a permanent Chun Kyung-ja gallery. Central, free to enter, and a graceful pairing with the Deoksugung stone-wall walk next door.", "lat": 37.6408, "lon": 127.066779, "p": "v"}, {"n": "Seoul Museum of Craft Art (SeMoCA)", "cat": "do", "tier": "", "a": "Jongno", "d": "Korea's first public craft museum, opened 2021 on a historic school site between Bukchon and Insadong, tracing metalwork, ceramics, lacquer and textile across the centuries. A refined, uncrowded stop for anyone who buys craft seriously, with free admission.", "lat": 37.576552, "lon": 126.983447, "p": "v"}, {"n": "Ttukseom / Seoul Forest", "cat": "do", "tier": "", "a": "Seongdong", "d": "A large riverside park of woodland, a deer enclosure and open lawns beside the Han, adjoining the Seongsu boutiques — the city's most family-easy green space. Bring the children for the deer and the water play, then walk into Seongsu for coffee.", "lat": 37.543333, "lon": 127.034204, "p": "v"}, {"n": "Lotte World Tower & Seoul Sky", "cat": "do", "tier": "", "a": "Songpa", "d": "At 555 metres, Korea's tallest building, with the Seoul Sky observatory near the top — glass-floor ledge, the world's highest, and a 360-degree view across the whole metropolis to the mountains. Fast lifts and clear timed entry make it an easy marquee outing; the tower also holds a Signiel luxury hotel and premium mall.", "lat": 37.512554, "lon": 127.102679, "p": "v"}, {"n": "Lotte World", "cat": "do", "tier": "", "a": "Songpa", "d": "One of the world's largest indoor theme parks under a glass dome, plus the outdoor 'Magic Island' on a lake — a full, weatherproof day of rides for families with children. Right beside the tower, so a young group and an older one can split and reconvene.", "lat": 37.511104, "lon": 127.098233, "p": "v"}, {"n": "War Memorial of Korea", "cat": "do", "tier": "", "a": "Yongsan", "d": "A vast, moving museum and outdoor display tracing the Korean War and the peninsula's military history, with tanks, aircraft and a wall of the fallen. Free and thoughtfully told; it gives essential context for anyone heading to the DMZ.", "lat": 37.535972, "lon": 126.977292, "p": "v"}, {"n": "Jjimjilbang & Korean Spa", "cat": "do", "tier": "", "a": "Citywide", "d": "The Korean bathhouse ritual — hot and cold pools, jade and salt saunas, scrubs and shared rest halls — is a cultural must; grand versions like Dragon Hill Spa run around the clock. For UHNI travellers wanting discretion, the top hotels and members' clubs offer private hammam-style suites and premium jade-room treatments.", "lat": 37.491884, "lon": 127.025472, "p": "v"}, {"n": "Blue House (Cheong Wa Dae)", "cat": "do", "tier": "", "a": "Jongno", "d": "The former presidential residence behind Gyeongbokgung, opened to the public in 2022 — blue-tiled halls, formal gardens and a hillside path with a rare open view straight down over the main palace. Reserve a free entry slot in advance; it's a genuinely new thing to see in old Seoul.", "lat": 37.586683, "lon": 126.976067, "p": "v"}, {"n": "Inwangsan & Suseongdong Valley", "cat": "do", "tier": "", "a": "Jongno", "d": "The granite mountain on the city's western edge, with a section of the old fortress wall, shamanist shrines among the boulders and a short valley trail that Joseon painters immortalised. Close to town and far quieter than Bukhansan — a soulful half-day for a walker who wants the folk-spiritual side of Seoul.", "lat": 37.582511, "lon": 126.962863, "p": "v"}, {"n": "Gwanghwamun Square & Sejong Story", "cat": "do", "tier": "", "a": "Jongno", "d": "The great civic plaza on the palace axis, flanked by statues of King Sejong and Admiral Yi Sun-sin, with underground exhibition halls telling their stories. The ceremonial heart of the city and the natural starting point for a downtown day; grand at night when the palace gate is lit.", "lat": 37.572834, "lon": 126.976877, "p": "v"}, {"n": "Ihwa Mural Village", "cat": "do", "tier": "", "a": "Jongno", "d": "A hillside of old alley-houses that artists covered in murals and installations, climbing beside the Naksan city wall with quiet cafes and long views back over the city. Steep but short, and best paired with the Naksan wall walk for a low-key, photogenic afternoon.", "lat": 37.578154, "lon": 127.00722, "p": "v"}, {"n": "Garosu-gil", "cat": "do", "tier": "", "a": "Gangnam", "d": "The ginkgo-lined 'tree-lined street' in Sinsa, dense with designer boutiques, flagship beauty stores and stylish cafes — Seoul's polished, tree-shaded shopping stroll. Golden in autumn, and an easy south-of-river counterpoint to Samcheong-dong's traditional lanes.", "lat": 37.520627, "lon": 127.023175, "p": "v"}, {"n": "DMZ & Third Infiltration Tunnel", "cat": "do", "tier": "", "a": "Paju (day trip)", "d": "An hour north, the Demilitarized Zone at the world's most fortified border — the Dora Observatory looking into North Korea, the Third Tunnel dug by the North, and the Imjingak peace park. It must be visited on an authorised tour with passport; a private licensed guide makes it seamless and adds the deeper political context.", "lat": 37.553757, "lon": 126.945771, "p": "a"}, {"n": "Suwon Hwaseong Fortress", "cat": "do", "tier": "", "a": "Suwon (day trip)", "d": "A 40-minute train south, the magnificent late-18th-century fortress of King Jeongjo rings the old town of Suwon with 5.7 kilometres of gate-pierced walls you can walk in full. Pair it with the Haenggung temporary palace and, if travelling with children, the nearby Korean Folk Village of restored period houses.", "lat": 37.287628, "lon": 126.996496, "p": "v"}, {"n": "Nami Island (Namiseom)", "cat": "do", "tier": "", "a": "Gapyeong (day trip)", "d": "A crescent river island reached by ferry, its tree-lined avenues famous from Korean drama and gorgeous in every season — metasequoia and gingko lanes, cycling paths and lakeside cafes. Often combined with the Garden of Morning Calm and the Petite France village for a gentle countryside day out of the city.", "lat": 37.481713, "lon": 126.921436, "p": "v"}, {"n": "Namsangol Hanok Village", "cat": "do", "tier": "", "a": "Jung-gu", "d": "Five aristocratic Joseon houses relocated to the foot of Namsan around a traditional garden and pond, with craft demonstrations, tea and a time capsule buried for 2394. A compact, central and uncrowded way to see hanok interiors when Bukchon feels too busy.", "lat": 37.559284, "lon": 126.994477, "p": "v"}, {"n": "Noryangjin Fisheries Market", "cat": "do", "tier": "", "a": "Dongjak", "d": "Seoul's great wholesale fish market — a cavernous hall of tanks where you choose your seafood and carry it upstairs to have it prepared and served on the spot. A vivid, non-touristy feast for adventurous eaters; a guide helps navigate the pricing and the raw-versus-cooked choices.", "lat": 37.514716, "lon": 126.937737, "p": "v"}, {"n": "K-Pop & Hallyu Experience (HYBE Insight / SMTOWN)", "cat": "do", "tier": "", "a": "Gangnam", "d": "For the K-culture obsessed, Seoul is the source — the entertainment districts around COEX and Yongsan hold agency stores, exhibition spaces and cafes tied to the biggest groups. A themed afternoon, or private studio and concert access via a fixer, turns a fan's dream into the trip's centrepiece.", "lat": 37.5177, "lon": 127.0473, "p": "a"}, {"n": "Ttukseom Hangang / Banpo Bridge Cruise", "cat": "do", "tier": "", "a": "Yeouido", "d": "An evening Han River cruise from Yeouido glides beneath the lit bridges to the Banpo Moonlight Rainbow Fountain show, with private and dining charters available. A relaxed, romantic way to see the skyline from the water — easily arranged as a discreet private booking.", "lat": 37.525673, "lon": 126.925217, "p": "a"}, {"n": "Zest", "cat": "party", "tier": "Cocktail bars", "a": "Itaewon", "d": "Korea's best bar and one of Asia's finest — Korean ingredients, sustainability and craft, with not a bottle in sight.", "lat": 37.525273, "lon": 127.040818, "p": "v"}, {"n": "Bar Cham", "cat": "party", "tier": "Cocktail bars", "a": "Jongno / Seochon", "d": "A deeply Korean cocktail bar behind a wooden door near Gyeongbokgung — omija, perilla and fermented grains, mixed with real feeling.", "lat": 37.562271, "lon": 126.992146, "p": "v"}, {"n": "Alice", "cat": "party", "tier": "Cocktail bars", "a": "Gangnam / Cheongdam", "d": "An Alice-in-Wonderland speakeasy that rose 33 places in a year — theatrical, precise, and great fun.", "lat": 37.526662, "lon": 127.04105, "p": "v"}]}
+{
+  "center": [
+    37.566679,
+    126.978291
+  ],
+  "venues": [
+    {
+      "n": "Signiel Seoul",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Jamsil / Songpa",
+      "d": "The city crowned from above \u2014 the upper floors of Korea's tallest tower, and its most decorated hotel.",
+      "lat": 37.512574,
+      "lon": 127.102817,
+      "photos": []
+    },
+    {
+      "n": "The Shilla Seoul",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Jung-gu / Namsan",
+      "d": "The grande dame of Korean hospitality \u2014 poised against Mount Namsan, and the country's benchmark for service.",
+      "lat": 37.555861,
+      "lon": 127.005149,
+      "photos": []
+    },
+    {
+      "n": "Four Seasons Hotel Seoul",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Jongno / Gwanghwamun",
+      "d": "The surest hands in Seoul \u2014 a glass tower beside the palaces, where nothing is left to chance.",
+      "lat": 37.570673,
+      "lon": 126.975352,
+      "photos": []
+    },
+    {
+      "n": "Josun Palace, a Luxury Collection Hotel, Seoul Gangnam",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Gangnam",
+      "d": "Heritage reborn in the heart of Gangnam \u2014 Korean motifs threaded through European modernism.",
+      "lat": 37.5177,
+      "lon": 127.0473,
+      "photos": []
+    },
+    {
+      "n": "Fairmont Ambassador Seoul",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Yeouido",
+      "d": "Glass walls over the Han River, inside Sir Richard Rogers' landmark Parc.1 \u2014 understated new-Seoul glamour.",
+      "lat": 37.525161,
+      "lon": 126.929025,
+      "photos": []
+    },
+    {
+      "n": "Park Hyatt Seoul",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Gangnam",
+      "d": "Minimalist, boutique-scaled calm above Gangnam \u2014 the quiet-luxury choice for those who prefer discretion.",
+      "lat": 37.508603,
+      "lon": 127.064178,
+      "photos": []
+    },
+    {
+      "n": "Conrad Seoul",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Yeouido",
+      "d": "A sleek glass tower in the financial district, with the river laid out below.",
+      "lat": 37.525389,
+      "lon": 126.926633,
+      "photos": []
+    },
+    {
+      "n": "Lotte Hotel Seoul",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Jung-gu / Myeongdong",
+      "d": "A long-cherished city classic in the middle of Myeongdong \u2014 grand, dependable, endlessly convenient.",
+      "lat": 37.565255,
+      "lon": 126.980625,
+      "photos": []
+    },
+    {
+      "n": "Grand Hyatt Seoul",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Yongsan / Itaewon",
+      "d": "A hillside resort in the middle of the city \u2014 nine dining venues, and Seoul's most complete fitness and pool complex.",
+      "lat": 37.539578,
+      "lon": 126.997651,
+      "photos": []
+    },
+    {
+      "n": "Banyan Tree Club & Spa Seoul",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Jung-gu / Namsan",
+      "d": "A self-contained spa resort at the foot of Namsan \u2014 a pool in nearly every room, ten minutes from downtown.",
+      "lat": 37.51836,
+      "lon": 126.870582,
+      "photos": []
+    },
+    {
+      "n": "The Westin Josun Seoul",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Jung-gu / Sogong-dong",
+      "d": "The oldest luxury name in the city, refreshed \u2014 a downtown classic with a walled garden of its own.",
+      "lat": 37.56441,
+      "lon": 126.979961,
+      "photos": []
+    },
+    {
+      "n": "Andaz Seoul Gangnam",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Gangnam / Apgujeong",
+      "d": "Hyatt's lifestyle house in Gangnam \u2014 design-led and plugged into Apgujeong's fashion energy.",
+      "lat": 37.50944,
+      "lon": 127.067072,
+      "photos": []
+    },
+    {
+      "n": "RYSE, Autograph Collection",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Hongdae / Mapo",
+      "d": "An art-and-design hotel in creative Hongdae \u2014 the base for members who want the city's cultural pulse.",
+      "lat": 37.55792,
+      "lon": 126.926135,
+      "photos": []
+    },
+    {
+      "n": "L7 Myeongdong by Lotte",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Jung-gu / Myeongdong",
+      "d": "A bright, contemporary lifestyle tower in the thick of Myeongdong's shopping and street food.",
+      "lat": 37.56123,
+      "lon": 126.986885,
+      "photos": []
+    },
+    {
+      "n": "Grand InterContinental Seoul Parnas",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Gangnam / COEX",
+      "d": "A large, capable Gangnam house wired straight into the COEX complex.",
+      "lat": 37.509073,
+      "lon": 127.060719,
+      "photos": []
+    },
+    {
+      "n": "Mondrian Seoul Itaewon",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Itaewon / Yongsan",
+      "d": "The brand's first Asian house \u2014 a design-led lifestyle hotel in the thick of Itaewon.",
+      "lat": 37.528559,
+      "lon": 126.993126,
+      "photos": []
+    },
+    {
+      "n": "Sofitel Ambassador Seoul",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Jamsil / Songpa",
+      "d": "French spirit on the shore of Seokchon Lake, in the shadow of Lotte World Tower.",
+      "lat": 37.51378,
+      "lon": 127.106215,
+      "photos": []
+    },
+    {
+      "n": "JW Marriott Dongdaemun Square Seoul",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Jung-gu / Dongdaemun",
+      "d": "A polished house overlooking the old city gate, at the heart of Seoul's night-market district.",
+      "lat": 37.570368,
+      "lon": 127.008822,
+      "photos": []
+    },
+    {
+      "n": "Mingles",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Gangnam / Cheongdam",
+      "d": "Korea's only three-star \u2014 Kang Min-goo's modern Korean, and the city's proudest table.",
+      "lat": 37.522682,
+      "lon": 127.039179,
+      "photos": []
+    },
+    {
+      "n": "La Yeon",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Jung-gu / Namsan (The Shilla)",
+      "d": "Korean haute cuisine at its most refined, high in The Shilla \u2014 hansik with the city at its feet.",
+      "lat": 37.555515,
+      "lon": 127.00518,
+      "photos": []
+    },
+    {
+      "n": "Jungsik",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Gangnam / Apgujeong",
+      "d": "The restaurant that redefined new Korean fine dining \u2014 and took the idea to the world.",
+      "lat": 37.525633,
+      "lon": 127.041106,
+      "photos": []
+    },
+    {
+      "n": "Kwonsooksoo",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Gangnam / Apgujeong",
+      "d": "Kwon Woo-joong's deeply seasonal Korean \u2014 royal-court refinement, quietly modernised.",
+      "lat": 37.566679,
+      "lon": 126.978291,
+      "photos": []
+    },
+    {
+      "n": "Soign\u00e9",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Gangnam / Seocho",
+      "d": "An inventive, globe-trotting kitchen that reads like a chef's private notebook.",
+      "lat": 37.566679,
+      "lon": 126.978291,
+      "photos": []
+    },
+    {
+      "n": "Alla Prima",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Gangnam / Nonhyeon",
+      "d": "A precise, contemporary tasting counter \u2014 one of Gangnam's most assured two-stars.",
+      "lat": 37.513568,
+      "lon": 127.026083,
+      "photos": []
+    },
+    {
+      "n": "Restaurant Allen",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Gangnam",
+      "d": "Chef Seo Hyun-min's contemporary cooking \u2014 technically dazzling, quietly personal.",
+      "lat": 37.572868,
+      "lon": 126.983247,
+      "photos": []
+    },
+    {
+      "n": "Evett",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Gangnam / Cheongdam",
+      "d": "Joseph Lidgerwood's fierce commitment to Korean produce and fermentation \u2014 newly two stars.",
+      "lat": 37.566679,
+      "lon": 126.978291,
+      "photos": []
+    },
+    {
+      "n": "Kojima",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Gangnam / Cheongdam",
+      "d": "A jewel-box Edomae counter of great purity \u2014 Seoul's finest sushi omakase.",
+      "lat": 37.566679,
+      "lon": 126.978291,
+      "photos": []
+    },
+    {
+      "n": "Mitou",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Gangnam / Nonhyeon",
+      "d": "Twin-chef Japanese cooking of rare finesse \u2014 kaiseki instincts, Seoul ingredients.",
+      "lat": 37.566679,
+      "lon": 126.978291,
+      "photos": []
+    },
+    {
+      "n": "Onjium",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Jongno / Seochon",
+      "d": "A research kitchen reviving Korea's royal-court cuisine \u2014 history you can taste.",
+      "lat": 37.566679,
+      "lon": 126.978291,
+      "photos": []
+    },
+    {
+      "n": "Mosu Seoul",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Yongsan / Hannam",
+      "d": "Sung Anh's international-Korean cooking \u2014 the chef whose pedigree spans the world's great kitchens.",
+      "lat": 37.566679,
+      "lon": 126.978291,
+      "photos": []
+    },
+    {
+      "n": "7th Door",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Gangnam / Apgujeong",
+      "d": "Kim Dae-cheon's seven-course narrative of Korean flavour \u2014 cerebral, seasonal, singular.",
+      "lat": 37.533589,
+      "lon": 126.972612,
+      "photos": []
+    },
+    {
+      "n": "Eatanic Garden",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Gangnam / Josun Palace",
+      "d": "Inventive Korean cooking 36 floors up \u2014 the highest new entry on Asia's list that year.",
+      "lat": 37.571066,
+      "lon": 126.834664,
+      "photos": []
+    },
+    {
+      "n": "Pierre Gagnaire \u00e0 S\u00e9oul",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Jung-gu / Sogong-dong (Lotte Hotel)",
+      "d": "The French master's Seoul outpost \u2014 grand, generous cooking high above the city.",
+      "lat": 37.588038,
+      "lon": 127.032393,
+      "photos": []
+    },
+    {
+      "n": "Sushi Kanesaka",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Jung-gu (The Shilla)",
+      "d": "The revered Ginza name, transplanted \u2014 an exacting Edomae counter inside The Shilla.",
+      "lat": 37.536334,
+      "lon": 126.97275,
+      "photos": []
+    },
+    {
+      "n": "Kojacha",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Gangnam",
+      "d": "A refined Korean kitchen that carries its star with unshowy confidence.",
+      "lat": 37.566679,
+      "lon": 126.978291,
+      "photos": []
+    },
+    {
+      "n": "Hansikgonggan",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Jongno / Bukchon",
+      "d": "Chef Cho Hee-sook's soulful, home-rooted Korean cooking \u2014 hansik with real heart.",
+      "lat": 37.566679,
+      "lon": 126.978291,
+      "photos": []
+    },
+    {
+      "n": "Kang Minchul Restaurant",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Gangnam",
+      "d": "A chef-led contemporary kitchen with a quietly devoted following.",
+      "lat": 37.645199,
+      "lon": 127.032982,
+      "photos": []
+    },
+    {
+      "n": "Bicena",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Jamsil / Songpa (Signiel Seoul)",
+      "d": "Elevated Korean fine dining high in Signiel \u2014 refined hansik with the skyline for company.",
+      "lat": 37.566679,
+      "lon": 126.978291,
+      "photos": []
+    },
+    {
+      "n": "Yu Yuan",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Jongno / Gwanghwamun (Four Seasons)",
+      "d": "Classic Cantonese cooking in a rarefied setting \u2014 the Four Seasons' newly-starred room.",
+      "lat": 37.570422,
+      "lon": 126.975578,
+      "photos": []
+    },
+    {
+      "n": "Muni",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Jongno / Seochon",
+      "d": "A refined Japanese kitchen in a hanok setting \u2014 precision in a traditional Korean house.",
+      "lat": 37.606174,
+      "lon": 127.108738,
+      "photos": []
+    },
+    {
+      "n": "Zero Complex",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Gangnam / Seocho",
+      "d": "Lee Chung-hoo's quietly brilliant modern cooking \u2014 one of Seoul's understated stars.",
+      "lat": 37.574874,
+      "lon": 126.975016,
+      "photos": []
+    },
+    {
+      "n": "Soign\u00e9's Y'east",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Gangnam",
+      "d": "A contemporary kitchen that climbed from selection to a star on its own ideas.",
+      "lat": 37.528911,
+      "lon": 126.873831,
+      "photos": []
+    },
+    {
+      "n": "L\u00e9gume",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Gangnam",
+      "d": "A vegan tasting menu that earned its star on merit \u2014 plant cooking taken entirely seriously.",
+      "lat": 37.519884,
+      "lon": 127.019078,
+      "photos": []
+    },
+    {
+      "n": "Gigas",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Itaewon / Hannam",
+      "d": "Jung Ha-wan's Mediterranean-leaning cooking \u2014 sunlit flavours, freshly starred.",
+      "lat": 37.566679,
+      "lon": 126.978291,
+      "photos": []
+    },
+    {
+      "n": "Tutoiement",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Gangnam",
+      "d": "Kim Do-yoon's intimate French room \u2014 newly starred, and deeply personal.",
+      "lat": 37.566679,
+      "lon": 126.978291,
+      "photos": []
+    },
+    {
+      "n": "Escondido",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Itaewon",
+      "d": "Jin Woo-bum's ambitious Mexican cooking \u2014 a first star for the genre in Seoul.",
+      "lat": 37.566679,
+      "lon": 126.978291,
+      "photos": []
+    },
+    {
+      "n": "Sosuheon",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Jung-gu",
+      "d": "Park Kyung-jae's exacting sushi counter \u2014 a freshly-starred omakase of real poise.",
+      "lat": 37.566679,
+      "lon": 126.978291,
+      "photos": []
+    },
+    {
+      "n": "Solbam",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Gangnam",
+      "d": "A modern Korean kitchen holding its star with seasonal, ingredient-led cooking.",
+      "lat": 37.566679,
+      "lon": 126.978291,
+      "photos": []
+    },
+    {
+      "n": "Soseoul Hannam",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Itaewon / Hannam",
+      "d": "Eom Tae-chul's inventive Korean cooking in fashionable Hannam.",
+      "lat": 37.539201,
+      "lon": 127.005184,
+      "photos": []
+    },
+    {
+      "n": "YUN Seoul",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Gangnam / Cheongdam",
+      "d": "A meticulous beef-focused Korean kitchen \u2014 hanwoo treated with reverence.",
+      "lat": 37.519477,
+      "lon": 126.922816,
+      "photos": []
+    },
+    {
+      "n": "Gomtang Lab",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Gangnam / Sinsa-dong",
+      "d": "Beef-bone soup raised to an art \u2014 long-simmered gomtang, done properly.",
+      "lat": 37.467318,
+      "lon": 127.028198,
+      "photos": []
+    },
+    {
+      "n": "Neungdong Minari",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Itaewon / Hannam",
+      "d": "Water-celery and grilled pork, Korean home cooking with a cult following.",
+      "lat": 37.536467,
+      "lon": 127.070012,
+      "photos": []
+    },
+    {
+      "n": "Myeon Seoul",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Gangnam / Sinsa-dong",
+      "d": "Handmade noodles paired with traditional Korean liquor \u2014 quietly excellent.",
+      "lat": 37.577213,
+      "lon": 127.088178,
+      "photos": []
+    },
+    {
+      "n": "Mipildam",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Hapjeong / Mapo",
+      "d": "North Korean-style dumpling soup done with real care \u2014 soulful and honest.",
+      "lat": 37.566679,
+      "lon": 126.978291,
+      "photos": []
+    },
+    {
+      "n": "Nishimuramen",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Yeonnam-dong / Mapo",
+      "d": "A serious Japanese ramen shop that earned its Bib on the bowl alone.",
+      "lat": 37.566679,
+      "lon": 126.978291,
+      "photos": []
+    },
+    {
+      "n": "Seoryung",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Jung-gu / Namchang-dong",
+      "d": "Cold buckwheat noodles at their most refined \u2014 a naengmyeon specialist of long standing.",
+      "lat": 37.566679,
+      "lon": 126.978291,
+      "photos": []
+    },
+    {
+      "n": "ALT.a",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Itaewon",
+      "d": "Plant-based Korean-Chinese cooking with a modern, knowing hand.",
+      "lat": 37.532626,
+      "lon": 126.99444,
+      "photos": []
+    },
+    {
+      "n": "Youhan",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Itaewon / Hannam",
+      "d": "A small Thai bistro punching well above its price \u2014 bright, fresh, precise.",
+      "lat": 37.566679,
+      "lon": 126.978291,
+      "photos": []
+    },
+    {
+      "n": "Seokyonanmyunbang",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Hongdae / Seogyo-dong",
+      "d": "An easy, inventive Korean-Italian room that quietly won its Bib.",
+      "lat": 37.566679,
+      "lon": 126.978291,
+      "photos": []
+    },
+    {
+      "n": "Gyeongbokgung Palace",
+      "cat": "do",
+      "tier": "",
+      "a": "Jongno",
+      "d": "The grandest of the Joseon dynasty's five palaces, its throne hall and lotus-pond pavilion framed by the peaks of Bugaksan behind. Time your morning for the changing-of-the-guard ceremony at Gwanghwamun Gate, and rent hanbok nearby so the whole family enters free \u2014 a photograph the grandparents will keep.",
+      "lat": 37.579754,
+      "lon": 126.976682,
+      "photos": []
+    },
+    {
+      "n": "Changdeokgung Palace & Secret Garden (Huwon)",
+      "cat": "do",
+      "tier": "",
+      "a": "Jongno",
+      "d": "The best-preserved royal palace, and the only one where kings let the landscape lead rather than the geometry. The Secret Garden \u2014 five centuries of private royal retreat, lotus ponds and pavilions \u2014 is entered by timed guided tour only, so book the English slot in advance for a quieter, unhurried walk.",
+      "lat": 37.574654,
+      "lon": 126.978887,
+      "photos": []
+    },
+    {
+      "n": "Bukchon Hanok Village",
+      "cat": "do",
+      "tier": "",
+      "a": "Bukchon",
+      "d": "A living hillside of restored tile-roof hanok houses strung between the two great palaces, with lanes that suddenly open onto rooftop views over old Seoul. Residents still live here, so walk softly and early; the quiet upper alleys reward a slow, private wander far more than the crowded photo-spots.",
+      "lat": 37.582392,
+      "lon": 126.985865,
+      "photos": []
+    },
+    {
+      "n": "Ikseon-dong Hanok Street",
+      "cat": "do",
+      "tier": "",
+      "a": "Jongno",
+      "d": "A 1930s hanok warren reborn as Seoul's most charming maze of tucked-away cafes, tea houses and tiny restaurants under glass-roofed alleys. Come for an afternoon of drifting between courtyards \u2014 an easy, atmospheric stop with plenty of dessert and tea for a multi-generational group.",
+      "lat": 37.573502,
+      "lon": 126.989847,
+      "photos": []
+    },
+    {
+      "n": "Insadong",
+      "cat": "do",
+      "tier": "",
+      "a": "Jongno",
+      "d": "Seoul's traditional arts quarter \u2014 galleries, antique dealers, hanji paper shops and ceramics along a pedestrian spine, with the Ssamziegil spiral mall at its heart. The place to commission or buy serious Korean craft and celadon, and to find a calm vegetarian temple-food restaurant among the tea houses.",
+      "lat": 37.571654,
+      "lon": 126.986424,
+      "photos": []
+    },
+    {
+      "n": "Samcheong-dong",
+      "cat": "do",
+      "tier": "",
+      "a": "Jongno",
+      "d": "The elegant lane rising from Gyeongbokgung's east wall, where hanok bones hold contemporary art galleries, design boutiques and refined cafes. Pair it with a Bukchon walk for the city's most graceful afternoon of browsing, with the wooded palace wall on one side.",
+      "lat": 37.58964,
+      "lon": 126.98112,
+      "photos": []
+    },
+    {
+      "n": "National Museum of Korea",
+      "cat": "do",
+      "tier": "",
+      "a": "Yongsan",
+      "d": "Korea's flagship museum and one of the largest in Asia, its vast halls tracing 5,000 years from gold crowns to the serene gilt-bronze Pensive Bodhisattva in its own darkened room. Entry to the permanent galleries is free, the scale is stroller- and elder-friendly, and half a day here anchors any first trip.",
+      "lat": 37.523953,
+      "lon": 126.98032,
+      "photos": []
+    },
+    {
+      "n": "Leeum Museum of Art",
+      "cat": "do",
+      "tier": "",
+      "a": "Itaewon",
+      "d": "Samsung's private museum: one building of Korean antiquities and celadon, another of modern and contemporary art, set in architecture by Mario Botta, Jean Nouvel and Rem Koolhaas. A concentrated, world-class collection \u2014 ask about private or docent-led viewing for a discreet, unhurried morning.",
+      "lat": 37.56416,
+      "lon": 126.973808,
+      "photos": []
+    },
+    {
+      "n": "N Seoul Tower (Namsan Tower)",
+      "cat": "do",
+      "tier": "",
+      "a": "Yongsan",
+      "d": "The city's classic panorama, reached by a wooded cable car up Namsan to an observation deck that takes in the whole basin and, on clear days, the mountains beyond. Go near sunset when Seoul lights up beneath you \u2014 an easy, crowd-pleasing outing for all ages.",
+      "lat": 37.551269,
+      "lon": 126.988296,
+      "photos": []
+    },
+    {
+      "n": "Dongdaemun Design Plaza (DDP)",
+      "cat": "do",
+      "tier": "",
+      "a": "Jung-gu",
+      "d": "Zaha Hadid's silver, seamless neo-futurist landmark \u2014 Seoul's design and fashion hub, hosting major exhibitions and the after-dark LED rose garden. Wander the flowing halls, then dip into the surrounding 24-hour Dongdaemun wholesale fashion towers if the night is young.",
+      "lat": 37.567069,
+      "lon": 127.009899,
+      "photos": []
+    },
+    {
+      "n": "Gwangjang Market",
+      "cat": "do",
+      "tier": "",
+      "a": "Jongno",
+      "d": "Korea's oldest continuously running market (1905), a roaring food alley of mung-bean bindaetteok, mayak gimbap and raw beef tartare eaten elbow-to-elbow with locals. For UHNI travellers it's the deliberate opposite of fine dining \u2014 visceral, real Seoul; go with a guide who can steer vegetarians to the right stalls.",
+      "lat": 37.569783,
+      "lon": 127.000655,
+      "photos": []
+    },
+    {
+      "n": "Namdaemun Market",
+      "cat": "do",
+      "tier": "",
+      "a": "Jung-gu",
+      "d": "Seoul's oldest and largest market, its roots in the 15th century, now a sprawling maze of everything from kitchenware and hanbok fabric to ginseng and mountain gear. Beside the restored Sungnyemun (Namdaemun) gate \u2014 Korea's National Treasure No. 1 \u2014 it's a plunge into everyday commercial Seoul.",
+      "lat": 37.55767,
+      "lon": 126.97656,
+      "photos": []
+    },
+    {
+      "n": "Jogyesa Temple",
+      "cat": "do",
+      "tier": "",
+      "a": "Jongno",
+      "d": "The chief temple of Korean Jogye-order Buddhism, right in the city centre, its main hall shaded by an ancient white pine and lantern-strung courtyard. Sit for a moment of calm between the palaces and Insadong; templestay and tea programmes can be arranged in advance for a deeper, quiet experience.",
+      "lat": 37.574143,
+      "lon": 126.981912,
+      "photos": []
+    },
+    {
+      "n": "Bukhansan National Park",
+      "cat": "do",
+      "tier": "",
+      "a": "Gangbuk",
+      "d": "Granite spires and forested ridges rising straight out of the northern suburbs \u2014 one of the world's most-visited national parks, with trails from gentle temple walks to the scramble up Baegundae (836m). A guide and private car to the trailhead make a half-day summit or an easier valley hike simple for a family.",
+      "lat": 37.612042,
+      "lon": 126.99214,
+      "photos": []
+    },
+    {
+      "n": "Seoul City Wall & Naksan Park",
+      "cat": "do",
+      "tier": "",
+      "a": "Jongno",
+      "d": "The Joseon-era fortress wall still ribbons across the city's inner hills; the Naksan stretch is the gentlest, an easy paved climb to a hilltop park with a wide sunset view over the rooftops. Combine it with the muraled Ihwa hillside village just below for a quiet, walkable evening.",
+      "lat": 37.584457,
+      "lon": 127.007061,
+      "photos": []
+    },
+    {
+      "n": "Han River (Hangang) Parks",
+      "cat": "do",
+      "tier": "",
+      "a": "Citywide",
+      "d": "The broad river that splits Seoul is lined with a chain of riverside parks \u2014 cycle at Yeouido, picnic with fried chicken and a mat, or take a sunset dinner cruise past the illuminated bridges. Banpo's Moonlight Rainbow Fountain, the world's longest bridge fountain, puts on a nightly water-and-light show in warm months.",
+      "lat": 37.523286,
+      "lon": 126.957602,
+      "photos": []
+    },
+    {
+      "n": "Seongsu-dong",
+      "cat": "do",
+      "tier": "",
+      "a": "Seongdong",
+      "d": "Seoul's 'Brooklyn' \u2014 a former shoe-factory district now full of raw-concrete flagship stores, designer cafes and pop-up boutiques, and the epicentre of the city's craft and coffee culture. The most fashion-forward afternoon in town, and where luxury houses now stage their Seoul events.",
+      "lat": 37.544569,
+      "lon": 127.056102,
+      "photos": []
+    },
+    {
+      "n": "Gangnam & Apgujeong Rodeo",
+      "cat": "do",
+      "tier": "",
+      "a": "Gangnam",
+      "d": "South of the river: the polished district of luxury flagships, plastic-surgery clinics and K-pop agencies, with Apgujeong's Rodeo Street and the Cheongdam boutiques for serious high-end shopping. Base here for proximity to the grandest hotels, spas and Michelin-tier Korean fine dining.",
+      "lat": 37.527813,
+      "lon": 127.040709,
+      "photos": []
+    },
+    {
+      "n": "Starfield Library, COEX Mall",
+      "cat": "do",
+      "tier": "",
+      "a": "Gangnam",
+      "d": "A soaring 13-metre open library of 50,000 books inside Asia's largest underground mall \u2014 one of Seoul's most photographed indoor spaces. Easy, air-conditioned, and next to the COEX Aquarium and SMTOWN, it's a reliable rainy-day or with-children stop in Gangnam.",
+      "lat": 37.510168,
+      "lon": 127.060088,
+      "photos": []
+    },
+    {
+      "n": "Bongeunsa Temple",
+      "cat": "do",
+      "tier": "",
+      "a": "Gangnam",
+      "d": "A 1,200-year-old mountain temple marooned amid the glass towers of Gangnam, facing the COEX complex across the road \u2014 the serene counterpoint to the district's gleam. Its 23-metre standing Buddha and evening lantern courtyard make it a moving five-minute stop between meetings or shopping.",
+      "lat": 37.515132,
+      "lon": 127.056794,
+      "photos": []
+    },
+    {
+      "n": "Hongdae",
+      "cat": "do",
+      "tier": "",
+      "a": "Mapo",
+      "d": "The university-fuelled arts and nightlife quarter \u2014 indie live-music clubs, street buskers, vintage shops and the youngest energy in Seoul. Come after dark for the buskers and the bars; a lively contrast to the palaces, best for the younger members of a travelling group.",
+      "lat": 37.55792,
+      "lon": 126.926135,
+      "photos": []
+    },
+    {
+      "n": "Itaewon & Gyeongnidan-gil",
+      "cat": "do",
+      "tier": "",
+      "a": "Yongsan",
+      "d": "Seoul's most international quarter, where the hillside Gyeongnidan and Haebangchon lanes hold the widest spread of global restaurants \u2014 including reliable halal and Indian options near the Seoul Central Mosque. Useful ground for travellers who want familiar or dietary-specific dining alongside the view down to Namsan.",
+      "lat": 37.539967,
+      "lon": 126.992012,
+      "photos": []
+    },
+    {
+      "n": "Myeongdong",
+      "cat": "do",
+      "tier": "",
+      "a": "Jung-gu",
+      "d": "The dense downtown shopping grid \u2014 Korean cosmetics flagships, department stores, and after-dark street-food carts of egg bread and grilled lobster. Efficient for skincare and gifting hauls, with the Myeongdong Cathedral, Korea's mother church, for a quiet moment above the crush.",
+      "lat": 37.560898,
+      "lon": 126.986376,
+      "photos": []
+    },
+    {
+      "n": "Deoksugung Palace & Stone Wall Road",
+      "cat": "do",
+      "tier": "",
+      "a": "Jung-gu",
+      "d": "The intimate downtown palace where Joseon met the modern world \u2014 traditional halls stand beside a Western-style stone hall, and its changing-of-the-guard is the most central. The tree-lined Deoksugung Doldam-gil stone-wall walk beside it is one of the city's loveliest strolls, especially in autumn.",
+      "lat": 37.560879,
+      "lon": 126.992128,
+      "photos": []
+    },
+    {
+      "n": "Cheonggyecheon Stream",
+      "cat": "do",
+      "tier": "",
+      "a": "Jung-gu",
+      "d": "A once-buried stream reopened as a 10-kilometre sunken green corridor threading the heart of downtown \u2014 you descend from the traffic into a cool ribbon of water, stepping stones and evening light installations. An easy, level walk to break up a day of city sightseeing.",
+      "lat": 37.568436,
+      "lon": 126.99395,
+      "photos": []
+    },
+    {
+      "n": "Changgyeonggung Palace",
+      "cat": "do",
+      "tier": "",
+      "a": "Jongno",
+      "d": "The quietest and most gardened of the royal palaces, built as a residence for dowager queens, with a large pond, a glass-and-iron botanical greenhouse from 1909, and far fewer crowds than its neighbours. Its rear connects to Changdeokgung, so the two can be walked together in one calm morning.",
+      "lat": 37.580246,
+      "lon": 126.994833,
+      "photos": []
+    },
+    {
+      "n": "Jongmyo Shrine",
+      "cat": "do",
+      "tier": "",
+      "a": "Jongno",
+      "d": "The austere Confucian royal ancestral shrine where the spirit tablets of the Joseon kings are enshrined \u2014 a long, low, deeply solemn hall down a stone spirit-path through old forest. Its living ritual music and dance, the Jongmyo Jerye, is itself a recognised intangible heritage; visit by timed entry for the stillness.",
+      "lat": 37.574953,
+      "lon": 126.993879,
+      "photos": []
+    },
+    {
+      "n": "Seoul Museum of Art (SeMA)",
+      "cat": "do",
+      "tier": "",
+      "a": "Jung-gu",
+      "d": "The city's principal contemporary art museum, behind the preserved facade of the former Supreme Court near Deoksugung, with a strong programme and a permanent Chun Kyung-ja gallery. Central, free to enter, and a graceful pairing with the Deoksugung stone-wall walk next door.",
+      "lat": 37.6408,
+      "lon": 127.066779,
+      "photos": []
+    },
+    {
+      "n": "Seoul Museum of Craft Art (SeMoCA)",
+      "cat": "do",
+      "tier": "",
+      "a": "Jongno",
+      "d": "Korea's first public craft museum, opened 2021 on a historic school site between Bukchon and Insadong, tracing metalwork, ceramics, lacquer and textile across the centuries. A refined, uncrowded stop for anyone who buys craft seriously, with free admission.",
+      "lat": 37.576552,
+      "lon": 126.983447,
+      "photos": []
+    },
+    {
+      "n": "Ttukseom / Seoul Forest",
+      "cat": "do",
+      "tier": "",
+      "a": "Seongdong",
+      "d": "A large riverside park of woodland, a deer enclosure and open lawns beside the Han, adjoining the Seongsu boutiques \u2014 the city's most family-easy green space. Bring the children for the deer and the water play, then walk into Seongsu for coffee.",
+      "lat": 37.543333,
+      "lon": 127.034204,
+      "photos": []
+    },
+    {
+      "n": "Lotte World Tower & Seoul Sky",
+      "cat": "do",
+      "tier": "",
+      "a": "Songpa",
+      "d": "At 555 metres, Korea's tallest building, with the Seoul Sky observatory near the top \u2014 glass-floor ledge, the world's highest, and a 360-degree view across the whole metropolis to the mountains. Fast lifts and clear timed entry make it an easy marquee outing; the tower also holds a Signiel luxury hotel and premium mall.",
+      "lat": 37.512554,
+      "lon": 127.102679,
+      "photos": []
+    },
+    {
+      "n": "Lotte World",
+      "cat": "do",
+      "tier": "",
+      "a": "Songpa",
+      "d": "One of the world's largest indoor theme parks under a glass dome, plus the outdoor 'Magic Island' on a lake \u2014 a full, weatherproof day of rides for families with children. Right beside the tower, so a young group and an older one can split and reconvene.",
+      "lat": 37.511104,
+      "lon": 127.098233,
+      "photos": []
+    },
+    {
+      "n": "War Memorial of Korea",
+      "cat": "do",
+      "tier": "",
+      "a": "Yongsan",
+      "d": "A vast, moving museum and outdoor display tracing the Korean War and the peninsula's military history, with tanks, aircraft and a wall of the fallen. Free and thoughtfully told; it gives essential context for anyone heading to the DMZ.",
+      "lat": 37.535972,
+      "lon": 126.977292,
+      "photos": []
+    },
+    {
+      "n": "Jjimjilbang & Korean Spa",
+      "cat": "do",
+      "tier": "",
+      "a": "Citywide",
+      "d": "The Korean bathhouse ritual \u2014 hot and cold pools, jade and salt saunas, scrubs and shared rest halls \u2014 is a cultural must; grand versions like Dragon Hill Spa run around the clock. For UHNI travellers wanting discretion, the top hotels and members' clubs offer private hammam-style suites and premium jade-room treatments.",
+      "lat": 37.491884,
+      "lon": 127.025472,
+      "photos": []
+    },
+    {
+      "n": "Blue House (Cheong Wa Dae)",
+      "cat": "do",
+      "tier": "",
+      "a": "Jongno",
+      "d": "The former presidential residence behind Gyeongbokgung, opened to the public in 2022 \u2014 blue-tiled halls, formal gardens and a hillside path with a rare open view straight down over the main palace. Reserve a free entry slot in advance; it's a genuinely new thing to see in old Seoul.",
+      "lat": 37.586683,
+      "lon": 126.976067,
+      "photos": []
+    },
+    {
+      "n": "Inwangsan & Suseongdong Valley",
+      "cat": "do",
+      "tier": "",
+      "a": "Jongno",
+      "d": "The granite mountain on the city's western edge, with a section of the old fortress wall, shamanist shrines among the boulders and a short valley trail that Joseon painters immortalised. Close to town and far quieter than Bukhansan \u2014 a soulful half-day for a walker who wants the folk-spiritual side of Seoul.",
+      "lat": 37.582511,
+      "lon": 126.962863,
+      "photos": []
+    },
+    {
+      "n": "Gwanghwamun Square & Sejong Story",
+      "cat": "do",
+      "tier": "",
+      "a": "Jongno",
+      "d": "The great civic plaza on the palace axis, flanked by statues of King Sejong and Admiral Yi Sun-sin, with underground exhibition halls telling their stories. The ceremonial heart of the city and the natural starting point for a downtown day; grand at night when the palace gate is lit.",
+      "lat": 37.572834,
+      "lon": 126.976877,
+      "photos": []
+    },
+    {
+      "n": "Ihwa Mural Village",
+      "cat": "do",
+      "tier": "",
+      "a": "Jongno",
+      "d": "A hillside of old alley-houses that artists covered in murals and installations, climbing beside the Naksan city wall with quiet cafes and long views back over the city. Steep but short, and best paired with the Naksan wall walk for a low-key, photogenic afternoon.",
+      "lat": 37.578154,
+      "lon": 127.00722,
+      "photos": []
+    },
+    {
+      "n": "Garosu-gil",
+      "cat": "do",
+      "tier": "",
+      "a": "Gangnam",
+      "d": "The ginkgo-lined 'tree-lined street' in Sinsa, dense with designer boutiques, flagship beauty stores and stylish cafes \u2014 Seoul's polished, tree-shaded shopping stroll. Golden in autumn, and an easy south-of-river counterpoint to Samcheong-dong's traditional lanes.",
+      "lat": 37.520627,
+      "lon": 127.023175,
+      "photos": []
+    },
+    {
+      "n": "DMZ & Third Infiltration Tunnel",
+      "cat": "do",
+      "tier": "",
+      "a": "Paju (day trip)",
+      "d": "An hour north, the Demilitarized Zone at the world's most fortified border \u2014 the Dora Observatory looking into North Korea, the Third Tunnel dug by the North, and the Imjingak peace park. It must be visited on an authorised tour with passport; a private licensed guide makes it seamless and adds the deeper political context.",
+      "lat": 37.553757,
+      "lon": 126.945771,
+      "photos": []
+    },
+    {
+      "n": "Suwon Hwaseong Fortress",
+      "cat": "do",
+      "tier": "",
+      "a": "Suwon (day trip)",
+      "d": "A 40-minute train south, the magnificent late-18th-century fortress of King Jeongjo rings the old town of Suwon with 5.7 kilometres of gate-pierced walls you can walk in full. Pair it with the Haenggung temporary palace and, if travelling with children, the nearby Korean Folk Village of restored period houses.",
+      "lat": 37.287628,
+      "lon": 126.996496,
+      "photos": []
+    },
+    {
+      "n": "Nami Island (Namiseom)",
+      "cat": "do",
+      "tier": "",
+      "a": "Gapyeong (day trip)",
+      "d": "A crescent river island reached by ferry, its tree-lined avenues famous from Korean drama and gorgeous in every season \u2014 metasequoia and gingko lanes, cycling paths and lakeside cafes. Often combined with the Garden of Morning Calm and the Petite France village for a gentle countryside day out of the city.",
+      "lat": 37.481713,
+      "lon": 126.921436,
+      "photos": []
+    },
+    {
+      "n": "Namsangol Hanok Village",
+      "cat": "do",
+      "tier": "",
+      "a": "Jung-gu",
+      "d": "Five aristocratic Joseon houses relocated to the foot of Namsan around a traditional garden and pond, with craft demonstrations, tea and a time capsule buried for 2394. A compact, central and uncrowded way to see hanok interiors when Bukchon feels too busy.",
+      "lat": 37.559284,
+      "lon": 126.994477,
+      "photos": []
+    },
+    {
+      "n": "Noryangjin Fisheries Market",
+      "cat": "do",
+      "tier": "",
+      "a": "Dongjak",
+      "d": "Seoul's great wholesale fish market \u2014 a cavernous hall of tanks where you choose your seafood and carry it upstairs to have it prepared and served on the spot. A vivid, non-touristy feast for adventurous eaters; a guide helps navigate the pricing and the raw-versus-cooked choices.",
+      "lat": 37.514716,
+      "lon": 126.937737,
+      "photos": []
+    },
+    {
+      "n": "K-Pop & Hallyu Experience (HYBE Insight / SMTOWN)",
+      "cat": "do",
+      "tier": "",
+      "a": "Gangnam",
+      "d": "For the K-culture obsessed, Seoul is the source \u2014 the entertainment districts around COEX and Yongsan hold agency stores, exhibition spaces and cafes tied to the biggest groups. A themed afternoon, or private studio and concert access via a fixer, turns a fan's dream into the trip's centrepiece.",
+      "lat": 37.5177,
+      "lon": 127.0473,
+      "photos": []
+    },
+    {
+      "n": "Ttukseom Hangang / Banpo Bridge Cruise",
+      "cat": "do",
+      "tier": "",
+      "a": "Yeouido",
+      "d": "An evening Han River cruise from Yeouido glides beneath the lit bridges to the Banpo Moonlight Rainbow Fountain show, with private and dining charters available. A relaxed, romantic way to see the skyline from the water \u2014 easily arranged as a discreet private booking.",
+      "lat": 37.525673,
+      "lon": 126.925217,
+      "photos": []
+    },
+    {
+      "n": "Zest",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Itaewon",
+      "d": "Korea's best bar and one of Asia's finest \u2014 Korean ingredients, sustainability and craft, with not a bottle in sight.",
+      "lat": 37.525273,
+      "lon": 127.040818,
+      "photos": []
+    },
+    {
+      "n": "Bar Cham",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Jongno / Seochon",
+      "d": "A deeply Korean cocktail bar behind a wooden door near Gyeongbokgung \u2014 omija, perilla and fermented grains, mixed with real feeling.",
+      "lat": 37.562271,
+      "lon": 126.992146,
+      "photos": []
+    },
+    {
+      "n": "Alice",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Gangnam / Cheongdam",
+      "d": "An Alice-in-Wonderland speakeasy that rose 33 places in a year \u2014 theatrical, precise, and great fun.",
+      "lat": 37.526662,
+      "lon": 127.04105,
+      "photos": []
+    }
+  ]
+}

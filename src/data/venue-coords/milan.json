@@ -1,1 +1,998 @@
-{"center": [45.464194, 9.189635], "venues": [{"n": "Bvlgari Hotel Milano", "cat": "stay", "tier": "Ultra", "a": "Quadrilatero / Montenapoleone", "d": "The jeweller's Milanese house — a hidden 18th-century palazzo with a vast private garden, a cul-de-sac from Via Montenapoleone.", "lat": 45.467358, "lon": 9.196409, "p": "v"}, {"n": "Four Seasons Hotel Milano", "cat": "stay", "tier": "Ultra", "a": "Quadrilatero / Montenapoleone", "d": "A serene former Renaissance convent in the heart of the fashion quarter — cloistered gardens and the surest hands in Milan.", "lat": 45.469414, "lon": 9.195302, "p": "v"}, {"n": "Mandarin Oriental, Milan", "cat": "stay", "tier": "Ultra", "a": "Quadrilatero / Montenapoleone (near La Scala)", "d": "Four linked 18th-century palazzi on a discreet backstreet beside La Scala — the city's only Forbes Five-Star.", "lat": 45.469463, "lon": 9.19098, "p": "v"}, {"n": "Portrait Milano", "cat": "stay", "tier": "Ultra", "a": "Quadrilatero / Montenapoleone", "d": "A Ferragamo-family house built around Milan's oldest Baroque seminary courtyard — the address of the moment.", "lat": 45.468544, "lon": 9.197755, "p": "v"}, {"n": "Armani Hotel Milano", "cat": "stay", "tier": "Ultra", "a": "Quadrilatero / Montenapoleone", "d": "Mr Armani's own vision of stay — greige calm and 'stay with Armani' service on Via Manzoni.", "lat": 45.470567, "lon": 9.19301, "p": "v"}, {"n": "Hotel Principe di Savoia, Dorchester Collection", "cat": "stay", "tier": "Grand", "a": "Porta Nuova (Piazza della Repubblica)", "d": "A neoclassical grand dame on Piazza della Repubblica — old-Milan splendour on a generous scale.", "lat": 45.484561, "lon": 9.187344, "p": "a"}, {"n": "Grand Hotel et de Milan", "cat": "stay", "tier": "Grand", "a": "Quadrilatero / Montenapoleone (near La Scala)", "d": "Milan's historic grand hotel since 1863 — Verdi's home for decades, steps from La Scala.", "lat": 45.469923, "lon": 9.192498, "p": "v"}, {"n": "Casa Cipriani Milano", "cat": "stay", "tier": "Grand", "a": "Duomo / Centro (Palazzo Bernasconi)", "d": "A members'-club-style house of quiet exclusivity — the Cipriani sense of ease, brought to central Milan.", "lat": 45.471943, "lon": 9.201924, "p": "v"}, {"n": "Palazzo Parigi Hotel & Grand Spa", "cat": "stay", "tier": "Grand", "a": "Brera", "d": "A light-filled palazzo on the edge of Brera — marble, French windows and one of Milan's largest hotel spas.", "lat": 45.472242, "lon": 9.188407, "p": "a"}, {"n": "Bulgari, Château Monfort", "cat": "stay", "tier": "Luxury", "a": "Porta Venezia", "d": "A fairy-tale Art Nouveau castle near the Giardini — theatrical, romantic and a little out of the ordinary.", "lat": 45.468221, "lon": 9.207442, "p": "v"}, {"n": "Vico Milano", "cat": "stay", "tier": "Luxury", "a": "Porta Nuova / Isola", "d": "A sleek, design-led newcomer in the towers of Porta Nuova — contemporary Milan at its most current.", "lat": 45.460805, "lon": 9.169912, "p": "v"}, {"n": "Excelsior Hotel Gallia, a Luxury Collection Hotel", "cat": "stay", "tier": "Grand", "a": "Porta Nuova (Piazza Duca d'Aosta)", "d": "A 1932 Art Deco landmark by Centrale station — Milan's largest hotel spa and a celebrated rooftop over the city.", "lat": 45.484841, "lon": 9.203244, "p": "a"}, {"n": "Milano Verticale | UNA Esperienze", "cat": "stay", "tier": "Luxury", "a": "Porta Nuova", "d": "A sleek vertical hotel in the towers of Porta Nuova — contemporary Milan, with a Michelin-starred kitchen inside.", "lat": 45.481639, "lon": 9.188679, "p": "v"}, {"n": "Senato Hotel Milano", "cat": "stay", "tier": "Luxury", "a": "Quadrilatero / Montenapoleone (Via Senato)", "d": "A serene, all-white design boutique built around a courtyard — 43 rooms of quiet Milanese taste.", "lat": 45.471378, "lon": 9.196461, "p": "v"}, {"n": "Rosa Grand Milano — Starhotels Collezione", "cat": "stay", "tier": "Premium", "a": "Duomo / Centro", "d": "A polished, well-run house a minute from the Duomo — location above all.", "lat": 45.463879, "lon": 9.194024, "p": "v"}, {"n": "Room Mate Giulia", "cat": "stay", "tier": "Premium", "a": "Duomo / Centro (Galleria)", "d": "A design hotel tucked right beside the Galleria Vittorio Emanuele II — you cannot stay more central.", "lat": 45.46512, "lon": 9.189354, "p": "v"}, {"n": "The Yard Milano", "cat": "stay", "tier": "Premium", "a": "Porta Romana", "d": "A quirky, sport-and-vintage-themed townhouse hotel with real personality, near Porta Romana.", "lat": 45.453142, "lon": 9.178961, "p": "v"}, {"n": "Maison Borella", "cat": "stay", "tier": "Premium", "a": "Navigli", "d": "A restored canal-side house on the Naviglio Grande — a rare pocket of calm on the water.", "lat": 45.452124, "lon": 9.175762, "p": "v"}, {"n": "Enrico Bartolini al MUDEC", "cat": "eat", "tier": "Destination", "a": "Tortona", "d": "Milan's only three-star — Italy's most-decorated chef, on the top floor of the MUDEC museum.", "lat": 45.454124, "lon": 9.162046, "p": "a"}, {"n": "Andrea Aprea", "cat": "eat", "tier": "Destination", "a": "Porta Venezia (Fondazione Luigi Rovati, Corso Venezia)", "d": "Aprea's elegant two-star atop the Rovati foundation — contemporary Italian with a Neapolitan soul.", "lat": 45.47323, "lon": 9.204277, "p": "v"}, {"n": "Il Luogo di Aimo e Nadia", "cat": "eat", "tier": "Destination", "a": "San Siro / Bande Nere", "d": "A Milanese institution — Negrini and Pisani carrying forward one of Italy's great kitchens.", "lat": 45.458472, "lon": 9.131205, "p": "v"}, {"n": "Verso", "cat": "eat", "tier": "Destination", "a": "Duomo / Centro", "d": "The Capitaneo brothers' assured two-star — refined, personal cooking near the Duomo.", "lat": 45.457227, "lon": 9.180827, "p": "v"}, {"n": "Cracco in Galleria", "cat": "eat", "tier": "Destination", "a": "Duomo / Centro (Galleria Vittorio Emanuele II)", "d": "Carlo Cracco's grand dining room inside the Galleria itself — the most glamorous address in Milan.", "lat": 45.465344, "lon": 9.189874, "p": "v"}, {"n": "Contraste", "cat": "eat", "tier": "Fine", "a": "Porta Genova", "d": "Matias Perdomo's playful, boundary-pushing tasting menu in an intimate townhouse room.", "lat": 45.446115, "lon": 9.17926, "p": "v"}, {"n": "Berton", "cat": "eat", "tier": "Fine", "a": "Porta Nuova", "d": "Andrea Berton's clean, modern cooking in the glass towers of Porta Nuova — broths and clarity are his signature.", "lat": 45.481802, "lon": 9.194426, "p": "v"}, {"n": "Sadler", "cat": "eat", "tier": "Fine", "a": "Navigli / Porta Romana", "d": "Claudio Sadler's long-held star — classical technique and Milanese elegance, quietly enduring.", "lat": 45.472776, "lon": 9.19246, "p": "v"}, {"n": "Viva Viviana Varese", "cat": "eat", "tier": "Fine", "a": "Porta Nuova (Eataly Smeraldo)", "d": "Viviana Varese's bold, sustainability-minded cooking — one of the city's most personal kitchens.", "lat": 45.580754, "lon": 9.052103, "p": "v"}, {"n": "IYO", "cat": "eat", "tier": "Fine", "a": "Corso Sempione", "d": "Italy's first starred Japanese restaurant — the room that proved sushi could be haute in Milan.", "lat": 45.482045, "lon": 9.193604, "p": "v"}, {"n": "IYO Aalto", "cat": "eat", "tier": "Destination", "a": "Porta Nuova (Piazza Alvar Aalto)", "d": "Takeshi Iwai's ambitious Japanese-European tasting room in the Porta Nuova towers.", "lat": 45.482045, "lon": 9.193604, "p": "v"}, {"n": "Horto", "cat": "eat", "tier": "Fine", "a": "Duomo / Centro (rooftop)", "d": "Norbert Niederkofler's radically seasonal 'Cook the Mountain' ethos, on a rooftop above the centre.", "lat": 45.466089, "lon": 9.187627, "p": "v"}, {"n": "Joia", "cat": "eat", "tier": "Fine", "a": "Porta Venezia", "d": "Europe's first vegetarian restaurant to win a star — Pietro Leemann's meditative, plant-led cooking.", "lat": 45.477142, "lon": 9.201869, "p": "v"}, {"n": "L'Alchimia", "cat": "eat", "tier": "Fine", "a": "Porta Romana", "d": "A polished modern-Milanese room with a cocktail-bar heart — refined cooking, easy warmth.", "lat": 45.465686, "lon": 9.207487, "p": "v"}, {"n": "Anima", "cat": "eat", "tier": "Fine", "a": "Porta Nuova (Milano Verticale)", "d": "A confident hotel-restaurant star in Porta Nuova — contemporary Italian with technical polish.", "lat": 45.477415, "lon": 9.184154, "p": "v"}, {"n": "Sine by Di Pinto", "cat": "eat", "tier": "Fine", "a": "Porta Genova / Tortona", "d": "Roberto Di Pinto's personal, southern-rooted cooking — one of the city's warmest starred rooms.", "lat": 45.454189, "lon": 9.169241, "p": "a"}, {"n": "Procaccini", "cat": "eat", "tier": "Fine", "a": "Chinatown / Sempione", "d": "A newly-starred room of very personal cooking and live piano each evening — raw material, technique, hospitality.", "lat": 45.484052, "lon": 9.176341, "p": "v"}, {"n": "Abba", "cat": "eat", "tier": "Fine", "a": "Milan", "d": "Fabio Abbattista's 2024 debut, starred within a year — precise, well-travelled contemporary cooking.", "lat": 45.502537, "lon": 9.177383, "p": "v"}, {"n": "Langosteria", "cat": "eat", "tier": "Destination", "a": "Porta Genova / Tortona (Via Savona)", "d": "Milan's glamorous seafood temple — oysters, crustaceans and the catch of the day, done with real flair.", "lat": 45.467021, "lon": 9.196189, "p": "v"}, {"n": "Ratanà", "cat": "eat", "tier": "Fine", "a": "Porta Nuova (Isola / Parco BAM)", "d": "Cesare Battisti's love letter to Lombard cooking — the yellow risotto alla milanese, done properly.", "lat": 45.485353, "lon": 9.192909, "p": "v"}, {"n": "Trattoria Trippa", "cat": "eat", "tier": "Smart", "a": "Porta Romana (Via Vasari)", "d": "Diego Rossi's cult trattoria — offal, Milanese classics and Italian regional cooking, done with real conviction.", "lat": 45.452202, "lon": 9.205517, "p": "v"}, {"n": "Dongiò", "cat": "eat", "tier": "Smart", "a": "Porta Romana", "d": "A beloved family-run Calabrian trattoria — 'nduja, fresh pasta and southern warmth, unchanged for decades.", "lat": 45.451636, "lon": 9.204909, "p": "v"}, {"n": "L'Angolo d'Abruzzo", "cat": "eat", "tier": "Smart", "a": "Porta Venezia", "d": "Generous, homely Abruzzese cooking in enormous portions — a great-value Milan institution.", "lat": 45.487651, "lon": 9.191085, "p": "v"}, {"n": "Serendib", "cat": "eat", "tier": "Smart", "a": "Sarpi / Chinatown", "d": "Milan's long-loved Sri Lankan and Indian table — the name means 'happy land', and it delivers.", "lat": 45.479901, "lon": 9.182832, "p": "v"}, {"n": "La Cucina dei Frigoriferi Milanesi", "cat": "eat", "tier": "Smart", "a": "Porta Vittoria", "d": "Modern Italian cooking in the revived Palazzo del Ghiaccio complex — creative and good value.", "lat": 45.463235, "lon": 9.175634, "p": "v"}, {"n": "Le Nove Scodelle", "cat": "eat", "tier": "Smart", "a": "Viale Monza (NoLo)", "d": "Serious, fiery Sichuan cooking — a reminder that some of Milan's best value is well beyond the centre.", "lat": 45.487505, "lon": 9.217315, "p": "v"}, {"n": "Confine", "cat": "eat", "tier": "Smart", "a": "Isola", "d": "The best pizza in Milan — Neapolitan rounds, fried, padellino and gourmet slices, with a wine list to match.", "lat": 45.554911, "lon": 9.385275, "p": "v"}, {"n": "Dry Milano", "cat": "eat", "tier": "Smart", "a": "Brera", "d": "The pizza-and-cocktails original that redefined the Milanese evening — great pies, better drinks.", "lat": 45.479061, "lon": 9.188426, "p": "v"}, {"n": "Marghe", "cat": "eat", "tier": "Casual", "a": "Porta Romana / Isola", "d": "Honest, well-made Neapolitan pizza across the city — a dependable, everyday favourite.", "lat": 45.458292, "lon": 9.212821, "p": "v"}, {"n": "Pasticceria Marchesi 1824", "cat": "eat", "tier": "Casual", "a": "Duomo / Centro (Galleria Vittorio Emanuele II)", "d": "Milan's most elegant historic pasticceria — a Prada-owned jewel-box for coffee and pastries under the Galleria.", "lat": 45.46829, "lon": 9.195044, "p": "v"}, {"n": "Pavé", "cat": "eat", "tier": "Casual", "a": "Porta Venezia", "d": "A modern Milanese bakery beloved for its brioche and pastries — the city's best morning ritual.", "lat": 45.462748, "lon": 9.200918, "p": "v"}, {"n": "Duomo di Milano (Milan Cathedral)", "cat": "do", "tier": "", "a": "Centro Storico", "d": "The vast pink-Candoglia-marble Gothic cathedral that took nearly six centuries to build is the emotional centre of Milan and the natural first stop for a multi-generational family. Book a skip-the-line entry so grandparents move straight in from the piazza rather than queueing in the sun.", "lat": 45.464167, "lon": 9.191612, "p": "v"}, {"n": "Duomo Rooftop Terraces", "cat": "do", "tier": "", "a": "Centro Storico", "d": "You walk among 3,400 statues, spires and flying buttresses in Candoglia marble, with the Alps on the horizon on a clear day and the golden Madonnina overhead. Take the lift rather than the 251 steps for older relatives and small children, and go late afternoon for the light.", "lat": 45.467281, "lon": 9.185974, "p": "a"}, {"n": "The Last Supper (Il Cenacolo), Santa Maria delle Grazie", "cat": "do", "tier": "", "a": "Magenta / Conca del Naviglio", "d": "Leonardo da Vinci's fragile 1490s mural survives on the refectory wall of a Dominican convent, seen by only small timed groups for 15 minutes at a time. Tickets vanish months ahead, so this is exactly the sort of unlock a concierge should secure well before you travel.", "lat": 45.466472, "lon": 9.170873, "p": "v"}, {"n": "Galleria Vittorio Emanuele II", "cat": "do", "tier": "", "a": "Centro Storico", "d": "The soaring 1877 glass-and-iron arcade linking the Duomo to La Scala is both a monument and the world's oldest luxury shopping mall, home to the original Prada boutique, Louis Vuitton, and the historic Camparino bar. Spin your heel on the mosaic bull for luck, then let the family browse in cool shade.", "lat": 45.464718, "lon": 9.190028, "p": "v"}, {"n": "Teatro alla Scala (La Scala)", "cat": "do", "tier": "", "a": "Centro Storico", "d": "Opened in 1778, La Scala is the most storied opera house on earth, where Verdi and Puccini premiered and where a box for the season opener is one of Milan's true social currencies. Pair a performance with the adjoining museum for the daytime members of a multi-gen group.", "lat": 45.467604, "lon": 9.189114, "p": "v"}, {"n": "Quadrilatero della Moda (Fashion Quadrilateral)", "cat": "do", "tier": "", "a": "Montenapoleone / San Babila", "d": "The grid of Via Montenapoleone, Via della Spiga, Via Sant'Andrea and Via Manzoni is the densest concentration of maison flagships in the world — Armani, Prada, Versace, Dolce & Gabbana, Bottega, Hermes. Ask for private appointments and after-hours boutique openings; this is the reason many UHNI travellers come to Milan at all.", "lat": 45.477595, "lon": 9.184648, "p": "v"}, {"n": "Castello Sforzesco (Sforza Castle)", "cat": "do", "tier": "", "a": "Castello / Brera", "d": "The vast 15th-century Sforza fortress holds a cluster of civic museums including Michelangelo's unfinished final work, the Rondanini Pietà. The scale and open courtyards make it easy for children and grandparents to wander at their own pace before Parco Sempione behind it.", "lat": 45.470301, "lon": 9.178091, "p": "v"}, {"n": "Pinacoteca di Brera", "cat": "do", "tier": "", "a": "Brera", "d": "Milan's greatest picture gallery, with Raphael's Marriage of the Virgin, Mantegna's foreshortened Dead Christ and Piero della Francesca's Montefeltro Altarpiece. Compact enough for one focused visit, and set inside the atmospheric artists' quarter for lunch afterwards.", "lat": 45.472242, "lon": 9.188407, "p": "v"}, {"n": "Brera District", "cat": "do", "tier": "", "a": "Brera", "d": "The cobbled bohemian quarter around the Pinacoteca, with its botanical garden, art shops, antiques and candlelit trattorias, is the most romantic part of central Milan to stroll after dark. Quiet, walkable and discreet — ideal for an evening away from the crowds.", "lat": 45.474385, "lon": 9.183567, "p": "v"}, {"n": "Museo Poldi Pezzoli", "cat": "do", "tier": "", "a": "Montenapoleone", "d": "A perfectly preserved 19th-century aristocrat's house-museum steps from the fashion streets, its most famous piece Pollaiuolo's Portrait of a Young Woman. Intimate and rarely crowded — a refined pause between boutique appointments.", "lat": 45.468475, "lon": 9.19178, "p": "v"}, {"n": "Museo Bagatti Valsecchi", "cat": "do", "tier": "", "a": "Montenapoleone", "d": "The Bagatti Valsecchi brothers built a lavish neo-Renaissance home in the 1880s and filled it with genuine 15th- and 16th-century art and furniture, then lived in it. One of Europe's best-preserved historic house-museums, and a hidden gem in the middle of the Quadrilatero.", "lat": 45.469481, "lon": 9.194979, "p": "v"}, {"n": "Museo del Novecento", "cat": "do", "tier": "", "a": "Centro Storico", "d": "Milan's museum of 20th-century Italian art sits inside the Palazzo dell'Arengario on Piazza del Duomo, its spiral ramp opening onto Futurist masterpieces and a fourth-floor window framing the cathedral. The rooftop restaurant Giacomo Arengario has cathedral views for lunch.", "lat": 45.463393, "lon": 9.19023, "p": "v"}, {"n": "Gallerie d'Italia — Piazza Scala", "cat": "do", "tier": "", "a": "Centro Storico", "d": "Three interconnected palazzi facing La Scala hold a superb collection of 19th- and 20th-century Italian art, from Canova bas-reliefs to Boccioni. Beautifully restored, air-conditioned and calm — a civilised refuge in the very centre.", "lat": 45.467265, "lon": 9.190526, "p": "v"}, {"n": "Fondazione Prada", "cat": "do", "tier": "", "a": "Largo Isarco (South Milan)", "d": "Rem Koolhaas/OMA transformed a 1910s distillery into a striking contemporary art campus, complete with a gold-leaf-clad 'Haunted House' and Wes Anderson's jewel-box Bar Luce. A design pilgrimage that appeals to the younger generation as much as serious collectors.", "lat": 45.443922, "lon": 9.204316, "p": "v"}, {"n": "Pirelli HangarBicocca", "cat": "do", "tier": "", "a": "Bicocca (North Milan)", "d": "A colossal former industrial hangar showing ambitious contemporary art, anchored by Anselm Kiefer's permanent 'The Seven Heavenly Palaces' — seven leaning concrete towers up to 19 metres tall. Free to enter and genuinely awe-inspiring for all ages.", "lat": 45.522149, "lon": 9.220148, "p": "v"}, {"n": "Navigli Canals", "cat": "do", "tier": "", "a": "Navigli", "d": "The Naviglio Grande and Naviglio Pavese canals, part of a system Leonardo helped engineer, are now a lively waterside quarter of aperitivo bars, vintage shops and the monthly antiques market. Charming to walk by day; for UHNI travellers a private canal-side dinner or a quiet aperitivo away from the student crowd works best.", "lat": 45.450176, "lon": 9.170897, "p": "v"}, {"n": "Porta Nuova & Bosco Verticale", "cat": "do", "tier": "", "a": "Porta Nuova / Isola", "d": "Milan's gleaming business district around Piazza Gae Aulenti is crowned by the Bosco Verticale, Stefano Boeri's award-winning 'vertical forest' towers dressed in thousands of trees. A striking counterpoint to old Milan and a favourite with design-minded younger travellers.", "lat": 45.485317, "lon": 9.193098, "p": "a"}, {"n": "Cimitero Monumentale", "cat": "do", "tier": "", "a": "Monumentale / Isola", "d": "This vast 19th-century cemetery is an open-air museum of Italian funerary sculpture, with extravagant Art Nouveau and Art Deco tombs of Milan's great industrial families. Solemn, uncrowded and photographically extraordinary — a quietly moving hidden gem.", "lat": 45.487723, "lon": 9.177801, "p": "v"}, {"n": "Corso Como & 10 Corso Como", "cat": "do", "tier": "", "a": "Porta Nuova / Corso Como", "d": "The pedestrian Corso Como is home to the legendary concept store 10 Corso Como, founded by Carla Sozzani — a pioneering blend of fashion, design, gallery, bookshop and courtyard café. A one-stop distillation of Milanese taste for the shopping-focused.", "lat": 45.481859, "lon": 9.187778, "p": "v"}, {"n": "Triennale Milano", "cat": "do", "tier": "", "a": "Parco Sempione", "d": "Italy's leading museum of design and architecture, set in the elegant Palazzo dell'Arte on the edge of Parco Sempione, with the permanent Italian Design Museum and a rooftop restaurant. Essential for anyone who cares about how Milan became the world's design capital.", "lat": 45.486142, "lon": 9.137177, "p": "v"}, {"n": "Basilica di Sant'Ambrogio", "cat": "do", "tier": "", "a": "Sant'Ambrogio", "d": "One of the oldest churches in Milan, founded by the city's patron Saint Ambrose in the 4th century, its austere Romanesque form a world away from the Gothic Duomo. A serene, deeply historic stop with beautiful golden mosaics.", "lat": 45.462375, "lon": 9.175845, "p": "v"}, {"n": "Basilica di San Lorenzo Maggiore & Colonne di San Lorenzo", "cat": "do", "tier": "", "a": "Ticinese", "d": "An early-Christian basilica fronted by 16 Roman columns — the finest surviving ancient Roman ruin in Milan — with the exquisite Cappella di Sant'Aquilino and its 4th-century mosaics inside. The colonnade square is a lively evening gathering spot in the Ticinese.", "lat": 45.458085, "lon": 9.182011, "p": "v"}, {"n": "Villa Necchi Campiglio", "cat": "do", "tier": "", "a": "Porta Venezia", "d": "A 1930s rationalist villa with pool and tennis court, restored by the FAI and used as a film set (I Am Love, House of Gucci), offering a rare glimpse into moneyed Milanese domestic life between the wars. Its garden café is a discreet, elegant lunch.", "lat": 45.468222, "lon": 9.201828, "p": "v"}, {"n": "Pinacoteca Ambrosiana", "cat": "do", "tier": "", "a": "Centro Storico", "d": "Founded by Cardinal Federico Borromeo in 1618, this gallery holds Caravaggio's Basket of Fruit, Raphael's cartoon for the School of Athens, and pages of Leonardo's Codex Atlanticus. A serious, uncrowded collection a short walk from the Duomo.", "lat": 45.46364, "lon": 9.186007, "p": "v"}, {"n": "Museo Nazionale Scienza e Tecnologia Leonardo da Vinci", "cat": "do", "tier": "", "a": "Sant'Ambrogio", "d": "Italy's largest science and technology museum, with galleries of machines built from Leonardo's drawings plus a real submarine and vintage aircraft. The most reliable crowd-pleaser in the city for children and teenagers.", "lat": 45.462566, "lon": 9.172918, "p": "a"}, {"n": "Parco Sempione & Arco della Pace", "cat": "do", "tier": "", "a": "Castello / Sempione", "d": "Milan's grand central park unfurls behind the Sforza Castle to the Napoleonic Arch of Peace, with the Torre Branca observation tower for aerial views. Green, walkable space for grandparents and children between the museums.", "lat": 45.475693, "lon": 9.172426, "p": "v"}, {"n": "QC Termemilano (Spa)", "cat": "do", "tier": "", "a": "Porta Romana", "d": "A refined day-spa set in a historic building beside a stretch of the old Spanish city walls, with pools, saunas and a tram-carriage relaxation room. A restorative half-day for the adults while the family shops or sightsees.", "lat": 45.452239, "lon": 9.202056, "p": "a"}, {"n": "Chiesa di San Maurizio al Monastero Maggiore", "cat": "do", "tier": "", "a": "Magenta", "d": "Nicknamed the 'Sistine Chapel of Milan', this modest 16th-century church interior is entirely covered in luminous frescoes by Bernardino Luini and his school. Free, uncrowded and utterly unexpected — a true hidden gem near the Last Supper.", "lat": 45.465409, "lon": 9.178957, "p": "v"}, {"n": "Corso Vittorio Emanuele II & San Babila", "cat": "do", "tier": "", "a": "San Babila", "d": "The pedestrian high street running from the Duomo to Piazza San Babila is Milan's mainstream shopping spine — Italian and international brands, department stores and cafes. Useful for the family's everyday buys while serious shopping happens in the Quadrilatero next door.", "lat": 45.464759, "lon": 9.193082, "p": "v"}, {"n": "Excelsior Milano & La Rinascente (rooftop)", "cat": "do", "tier": "", "a": "Centro Storico", "d": "La Rinascente, Italy's landmark department store beside the Duomo, has a seventh-floor terrace of food counters and bars looking straight onto the cathedral spires. A convenient, glamorous perch for a break with unbeatable views.", "lat": 45.464963, "lon": 9.191912, "p": "v"}, {"n": "Fondazione Nicola Trussardi & Palazzo Marino (Piazza della Scala)", "cat": "do", "tier": "", "a": "Centro Storico", "d": "The elegant Piazza della Scala, anchored by the 16th-century Palazzo Marino (Milan's city hall) and a Leonardo monument, is one of the city's most photogenic squares. A graceful pause between La Scala and the shopping streets.", "lat": 45.467281, "lon": 9.185974, "p": "a"}, {"n": "Chiostri dell'Umanitaria & Rotonda della Besana", "cat": "do", "tier": "", "a": "Porta Vittoria", "d": "The Rotonda della Besana is a serene 18th-century circular arcaded courtyard, once a cemetery, now a tranquil green enclosure with a baroque chapel. A calm, little-known spot for a quiet stroll away from any crowd.", "lat": 45.459773, "lon": 9.205958, "p": "v"}, {"n": "Isola Neighbourhood", "cat": "do", "tier": "", "a": "Isola", "d": "Once a working-class 'island' cut off by the railway, Isola is now Milan's coolest quarter — independent boutiques, natural-wine bars and design studios in the shadow of the Bosco Verticale. Best explored on foot for a feel of contemporary Milanese life.", "lat": 45.487612, "lon": 9.191294, "p": "v"}, {"n": "Porta Venezia & Corso Venezia palazzi", "cat": "do", "tier": "", "a": "Porta Venezia", "d": "Corso Venezia is lined with grand Liberty-style (Italian Art Nouveau) palaces and leads to the leafy Giardini Pubblici Indro Montanelli. An elegant residential quarter with fine dining and the city's Natural History Museum for children.", "lat": 45.474294, "lon": 9.205239, "p": "v"}, {"n": "Aperitivo in Milan", "cat": "do", "tier": "", "a": "Navigli / Brera / Porta Nuova", "d": "The pre-dinner ritual of a Negroni or Milano-Torino with generous snacks was effectively invented here — Campari was born in Milan. For UHNI travellers, a reserved table at a rooftop bar such as Terrazza Aperol or a hotel bar beats the crowded street scene.", "lat": 45.464946, "lon": 9.211125, "p": "v"}, {"n": "Historic Cafes: Camparino & Cova", "cat": "do", "tier": "", "a": "Centro Storico / Montenapoleone", "d": "Camparino in Galleria (1915) is the birthplace of the Campari ritual, while Pasticceria Cova on Via Montenapoleone has served Milanese society since 1817. Both are elegant, vegetarian-friendly stops for coffee, pastries and people-watching.", "lat": 45.467281, "lon": 9.185974, "p": "a"}, {"n": "Lake Como (Bellagio, Como, Varenna)", "cat": "do", "tier": "", "a": "Day Trip — north of Milan", "d": "Under an hour by train or car, Lake Como delivers the classic Italian lakes fantasy — Bellagio's terraced gardens, Villa del Balbianello, Villa Carlotta and George Clooney's Laglio. Arrange a private boat and a villa lunch; this is the single most requested escape from Milan.", "lat": 45.985502, "lon": 9.260055, "p": "v"}, {"n": "Bergamo Alta (Upper Town)", "cat": "do", "tier": "", "a": "Day Trip — northeast of Milan", "d": "Less than an hour away, Bergamo's walled Città Alta is a beautifully intact medieval-Renaissance hill town reached by an 1887 funicular, crowned by the Piazza Vecchia and the Colleoni Chapel. Its Venetian walls are UNESCO-listed and its restaurants excellent and unhurried.", "lat": 45.470755, "lon": 9.179609, "p": "a"}, {"n": "Lake Maggiore & the Borromean Islands", "cat": "do", "tier": "", "a": "Day Trip — northwest of Milan", "d": "Around 90 minutes away, Lake Maggiore's Borromean Islands hold the baroque Palazzo Borromeo on Isola Bella, its terraced gardens roamed by white peacocks, and the fishing village of Isola dei Pescatori. Grander and quieter than Como, ideal for a private-boat day.", "lat": 45.470755, "lon": 9.179609, "p": "a"}, {"n": "Certosa di Pavia", "cat": "do", "tier": "", "a": "Day Trip — south of Milan", "d": "Less than an hour south, this Carthusian charterhouse commissioned in 1396 by the Visconti dukes is one of the great masterpieces of Italian Gothic-Renaissance architecture, its facade a riot of marble sculpture. Serene, still a working monastery, and beautifully off the mainstream tourist trail.", "lat": 45.317938, "lon": 9.140914, "p": "v"}, {"n": "Franciacorta Wine Country", "cat": "do", "tier": "", "a": "Day Trip — east of Milan", "d": "About an hour east toward Lake Iseo, Franciacorta is Italy's answer to Champagne — rolling vineyards producing traditional-method sparkling wine, with elegant cellars offering private tastings and lunches. A refined, adult day out for oenophiles.", "lat": 45.470755, "lon": 9.179609, "p": "a"}, {"n": "Pavia (Old University Town)", "cat": "do", "tier": "", "a": "Day Trip — south of Milan", "d": "The medieval city on the Ticino river has one of Europe's oldest universities (1361), a distinctive covered bridge and towered skyline. Easily paired with the Certosa for a full, unhurried day away from Milan's bustle.", "lat": 45.470755, "lon": 9.179609, "p": "a"}, {"n": "Moebius Milano", "cat": "party", "tier": "Cocktail bars", "a": "Sempione / Chinatown", "d": "Milan's highest-ranked bar — a food-music-and-cocktails concept of rare coherence, and the world's Highest Climber of its year.", "lat": 45.481431, "lon": 9.202869, "p": "v"}, {"n": "1930", "cat": "party", "tier": "Cocktail bars", "a": "Ticinese / Colonne di San Lorenzo", "d": "A password-and-membership speakeasy of quiet excellence — one of Italy's most consistently ranked bars.", "lat": 45.46646, "lon": 9.164794, "p": "v"}, {"n": "Camparino in Galleria", "cat": "party", "tier": "Landmark bars", "a": "Duomo / Centro (Galleria Vittorio Emanuele II)", "d": "The birthplace of the Milanese aperitivo — a Liberty-style bar under the Galleria, where Campari itself was born.", "lat": 45.46492, "lon": 9.189878, "p": "v"}, {"n": "Bar Basso", "cat": "party", "tier": "Landmark bars", "a": "Porta Venezia", "d": "The birthplace of the Negroni Sbagliato — an unchanging 1960s institution and the temple of Milanese aperitivo.", "lat": 45.476775, "lon": 9.217579, "p": "v"}, {"n": "Terrazza Aperol", "cat": "party", "tier": "Rooftops", "a": "Duomo / Centro (Piazza del Duomo)", "d": "An aperitivo terrace looking straight onto the Duomo — the most Milanese spritz there is.", "lat": 45.464999, "lon": 9.190333, "p": "v"}, {"n": "Ceresio 7", "cat": "party", "tier": "Rooftops", "a": "Sempione / Chinatown", "d": "Dsquared2's rooftop bar and pools above the old Enel building — glamour, a spritz and a sweep over the skyline.", "lat": 45.483517, "lon": 9.180311, "p": "v"}, {"n": "Dry Milano", "cat": "party", "tier": "Late & loud", "a": "Brera", "d": "The pizza-and-cocktails original — a Brera room where the drinks are as serious as the pies.", "lat": 45.479061, "lon": 9.188426, "p": "v"}, {"n": "Nottingham Forest", "cat": "party", "tier": "Cocktail bars", "a": "Porta Venezia", "d": "A tiny, cult tiki-and-molecular bar that has long featured among the world's best — theatre in a glass.", "lat": 45.468721, "lon": 9.206707, "p": "v"}]}
+{
+  "center": [
+    45.464194,
+    9.189635
+  ],
+  "venues": [
+    {
+      "n": "Bvlgari Hotel Milano",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Quadrilatero / Montenapoleone",
+      "d": "The jeweller's Milanese house \u2014 a hidden 18th-century palazzo with a vast private garden, a cul-de-sac from Via Montenapoleone.",
+      "lat": 45.467358,
+      "lon": 9.196409,
+      "photos": []
+    },
+    {
+      "n": "Four Seasons Hotel Milano",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Quadrilatero / Montenapoleone",
+      "d": "A serene former Renaissance convent in the heart of the fashion quarter \u2014 cloistered gardens and the surest hands in Milan.",
+      "lat": 45.469414,
+      "lon": 9.195302,
+      "photos": []
+    },
+    {
+      "n": "Mandarin Oriental, Milan",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Quadrilatero / Montenapoleone (near La Scala)",
+      "d": "Four linked 18th-century palazzi on a discreet backstreet beside La Scala \u2014 the city's only Forbes Five-Star.",
+      "lat": 45.469463,
+      "lon": 9.19098,
+      "photos": []
+    },
+    {
+      "n": "Portrait Milano",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Quadrilatero / Montenapoleone",
+      "d": "A Ferragamo-family house built around Milan's oldest Baroque seminary courtyard \u2014 the address of the moment.",
+      "lat": 45.468544,
+      "lon": 9.197755,
+      "photos": []
+    },
+    {
+      "n": "Armani Hotel Milano",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Quadrilatero / Montenapoleone",
+      "d": "Mr Armani's own vision of stay \u2014 greige calm and 'stay with Armani' service on Via Manzoni.",
+      "lat": 45.470567,
+      "lon": 9.19301,
+      "photos": []
+    },
+    {
+      "n": "Hotel Principe di Savoia, Dorchester Collection",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Porta Nuova (Piazza della Repubblica)",
+      "d": "A neoclassical grand dame on Piazza della Repubblica \u2014 old-Milan splendour on a generous scale.",
+      "lat": 45.484561,
+      "lon": 9.187344,
+      "photos": []
+    },
+    {
+      "n": "Grand Hotel et de Milan",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Quadrilatero / Montenapoleone (near La Scala)",
+      "d": "Milan's historic grand hotel since 1863 \u2014 Verdi's home for decades, steps from La Scala.",
+      "lat": 45.469923,
+      "lon": 9.192498,
+      "photos": []
+    },
+    {
+      "n": "Casa Cipriani Milano",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Duomo / Centro (Palazzo Bernasconi)",
+      "d": "A members'-club-style house of quiet exclusivity \u2014 the Cipriani sense of ease, brought to central Milan.",
+      "lat": 45.471943,
+      "lon": 9.201924,
+      "photos": []
+    },
+    {
+      "n": "Palazzo Parigi Hotel & Grand Spa",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Brera",
+      "d": "A light-filled palazzo on the edge of Brera \u2014 marble, French windows and one of Milan's largest hotel spas.",
+      "lat": 45.472242,
+      "lon": 9.188407,
+      "photos": []
+    },
+    {
+      "n": "Bulgari, Ch\u00e2teau Monfort",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Porta Venezia",
+      "d": "A fairy-tale Art Nouveau castle near the Giardini \u2014 theatrical, romantic and a little out of the ordinary.",
+      "lat": 45.468221,
+      "lon": 9.207442,
+      "photos": []
+    },
+    {
+      "n": "Vico Milano",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Porta Nuova / Isola",
+      "d": "A sleek, design-led newcomer in the towers of Porta Nuova \u2014 contemporary Milan at its most current.",
+      "lat": 45.460805,
+      "lon": 9.169912,
+      "photos": []
+    },
+    {
+      "n": "Excelsior Hotel Gallia, a Luxury Collection Hotel",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Porta Nuova (Piazza Duca d'Aosta)",
+      "d": "A 1932 Art Deco landmark by Centrale station \u2014 Milan's largest hotel spa and a celebrated rooftop over the city.",
+      "lat": 45.484841,
+      "lon": 9.203244,
+      "photos": []
+    },
+    {
+      "n": "Milano Verticale | UNA Esperienze",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Porta Nuova",
+      "d": "A sleek vertical hotel in the towers of Porta Nuova \u2014 contemporary Milan, with a Michelin-starred kitchen inside.",
+      "lat": 45.481639,
+      "lon": 9.188679,
+      "photos": []
+    },
+    {
+      "n": "Senato Hotel Milano",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Quadrilatero / Montenapoleone (Via Senato)",
+      "d": "A serene, all-white design boutique built around a courtyard \u2014 43 rooms of quiet Milanese taste.",
+      "lat": 45.471378,
+      "lon": 9.196461,
+      "photos": []
+    },
+    {
+      "n": "Rosa Grand Milano \u2014 Starhotels Collezione",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Duomo / Centro",
+      "d": "A polished, well-run house a minute from the Duomo \u2014 location above all.",
+      "lat": 45.463879,
+      "lon": 9.194024,
+      "photos": []
+    },
+    {
+      "n": "Room Mate Giulia",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Duomo / Centro (Galleria)",
+      "d": "A design hotel tucked right beside the Galleria Vittorio Emanuele II \u2014 you cannot stay more central.",
+      "lat": 45.46512,
+      "lon": 9.189354,
+      "photos": []
+    },
+    {
+      "n": "The Yard Milano",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Porta Romana",
+      "d": "A quirky, sport-and-vintage-themed townhouse hotel with real personality, near Porta Romana.",
+      "lat": 45.453142,
+      "lon": 9.178961,
+      "photos": []
+    },
+    {
+      "n": "Maison Borella",
+      "cat": "stay",
+      "tier": "Premium",
+      "a": "Navigli",
+      "d": "A restored canal-side house on the Naviglio Grande \u2014 a rare pocket of calm on the water.",
+      "lat": 45.452124,
+      "lon": 9.175762,
+      "photos": []
+    },
+    {
+      "n": "Enrico Bartolini al MUDEC",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Tortona",
+      "d": "Milan's only three-star \u2014 Italy's most-decorated chef, on the top floor of the MUDEC museum.",
+      "lat": 45.454124,
+      "lon": 9.162046,
+      "photos": []
+    },
+    {
+      "n": "Andrea Aprea",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Porta Venezia (Fondazione Luigi Rovati, Corso Venezia)",
+      "d": "Aprea's elegant two-star atop the Rovati foundation \u2014 contemporary Italian with a Neapolitan soul.",
+      "lat": 45.47323,
+      "lon": 9.204277,
+      "photos": []
+    },
+    {
+      "n": "Il Luogo di Aimo e Nadia",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "San Siro / Bande Nere",
+      "d": "A Milanese institution \u2014 Negrini and Pisani carrying forward one of Italy's great kitchens.",
+      "lat": 45.458472,
+      "lon": 9.131205,
+      "photos": []
+    },
+    {
+      "n": "Verso",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Duomo / Centro",
+      "d": "The Capitaneo brothers' assured two-star \u2014 refined, personal cooking near the Duomo.",
+      "lat": 45.457227,
+      "lon": 9.180827,
+      "photos": []
+    },
+    {
+      "n": "Cracco in Galleria",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Duomo / Centro (Galleria Vittorio Emanuele II)",
+      "d": "Carlo Cracco's grand dining room inside the Galleria itself \u2014 the most glamorous address in Milan.",
+      "lat": 45.465344,
+      "lon": 9.189874,
+      "photos": []
+    },
+    {
+      "n": "Contraste",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Porta Genova",
+      "d": "Matias Perdomo's playful, boundary-pushing tasting menu in an intimate townhouse room.",
+      "lat": 45.446115,
+      "lon": 9.17926,
+      "photos": []
+    },
+    {
+      "n": "Berton",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Porta Nuova",
+      "d": "Andrea Berton's clean, modern cooking in the glass towers of Porta Nuova \u2014 broths and clarity are his signature.",
+      "lat": 45.481802,
+      "lon": 9.194426,
+      "photos": []
+    },
+    {
+      "n": "Sadler",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Navigli / Porta Romana",
+      "d": "Claudio Sadler's long-held star \u2014 classical technique and Milanese elegance, quietly enduring.",
+      "lat": 45.472776,
+      "lon": 9.19246,
+      "photos": []
+    },
+    {
+      "n": "Viva Viviana Varese",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Porta Nuova (Eataly Smeraldo)",
+      "d": "Viviana Varese's bold, sustainability-minded cooking \u2014 one of the city's most personal kitchens.",
+      "lat": 45.580754,
+      "lon": 9.052103,
+      "photos": []
+    },
+    {
+      "n": "IYO",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Corso Sempione",
+      "d": "Italy's first starred Japanese restaurant \u2014 the room that proved sushi could be haute in Milan.",
+      "lat": 45.482045,
+      "lon": 9.193604,
+      "photos": []
+    },
+    {
+      "n": "IYO Aalto",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Porta Nuova (Piazza Alvar Aalto)",
+      "d": "Takeshi Iwai's ambitious Japanese-European tasting room in the Porta Nuova towers.",
+      "lat": 45.482045,
+      "lon": 9.193604,
+      "photos": []
+    },
+    {
+      "n": "Horto",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Duomo / Centro (rooftop)",
+      "d": "Norbert Niederkofler's radically seasonal 'Cook the Mountain' ethos, on a rooftop above the centre.",
+      "lat": 45.466089,
+      "lon": 9.187627,
+      "photos": []
+    },
+    {
+      "n": "Joia",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Porta Venezia",
+      "d": "Europe's first vegetarian restaurant to win a star \u2014 Pietro Leemann's meditative, plant-led cooking.",
+      "lat": 45.477142,
+      "lon": 9.201869,
+      "photos": []
+    },
+    {
+      "n": "L'Alchimia",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Porta Romana",
+      "d": "A polished modern-Milanese room with a cocktail-bar heart \u2014 refined cooking, easy warmth.",
+      "lat": 45.465686,
+      "lon": 9.207487,
+      "photos": []
+    },
+    {
+      "n": "Anima",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Porta Nuova (Milano Verticale)",
+      "d": "A confident hotel-restaurant star in Porta Nuova \u2014 contemporary Italian with technical polish.",
+      "lat": 45.477415,
+      "lon": 9.184154,
+      "photos": []
+    },
+    {
+      "n": "Sine by Di Pinto",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Porta Genova / Tortona",
+      "d": "Roberto Di Pinto's personal, southern-rooted cooking \u2014 one of the city's warmest starred rooms.",
+      "lat": 45.454189,
+      "lon": 9.169241,
+      "photos": []
+    },
+    {
+      "n": "Procaccini",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Chinatown / Sempione",
+      "d": "A newly-starred room of very personal cooking and live piano each evening \u2014 raw material, technique, hospitality.",
+      "lat": 45.484052,
+      "lon": 9.176341,
+      "photos": []
+    },
+    {
+      "n": "Abba",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Milan",
+      "d": "Fabio Abbattista's 2024 debut, starred within a year \u2014 precise, well-travelled contemporary cooking.",
+      "lat": 45.502537,
+      "lon": 9.177383,
+      "photos": []
+    },
+    {
+      "n": "Langosteria",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Porta Genova / Tortona (Via Savona)",
+      "d": "Milan's glamorous seafood temple \u2014 oysters, crustaceans and the catch of the day, done with real flair.",
+      "lat": 45.467021,
+      "lon": 9.196189,
+      "photos": []
+    },
+    {
+      "n": "Ratan\u00e0",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Porta Nuova (Isola / Parco BAM)",
+      "d": "Cesare Battisti's love letter to Lombard cooking \u2014 the yellow risotto alla milanese, done properly.",
+      "lat": 45.485353,
+      "lon": 9.192909,
+      "photos": []
+    },
+    {
+      "n": "Trattoria Trippa",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Porta Romana (Via Vasari)",
+      "d": "Diego Rossi's cult trattoria \u2014 offal, Milanese classics and Italian regional cooking, done with real conviction.",
+      "lat": 45.452202,
+      "lon": 9.205517,
+      "photos": []
+    },
+    {
+      "n": "Dongi\u00f2",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Porta Romana",
+      "d": "A beloved family-run Calabrian trattoria \u2014 'nduja, fresh pasta and southern warmth, unchanged for decades.",
+      "lat": 45.451636,
+      "lon": 9.204909,
+      "photos": []
+    },
+    {
+      "n": "L'Angolo d'Abruzzo",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Porta Venezia",
+      "d": "Generous, homely Abruzzese cooking in enormous portions \u2014 a great-value Milan institution.",
+      "lat": 45.487651,
+      "lon": 9.191085,
+      "photos": []
+    },
+    {
+      "n": "Serendib",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Sarpi / Chinatown",
+      "d": "Milan's long-loved Sri Lankan and Indian table \u2014 the name means 'happy land', and it delivers.",
+      "lat": 45.479901,
+      "lon": 9.182832,
+      "photos": []
+    },
+    {
+      "n": "La Cucina dei Frigoriferi Milanesi",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Porta Vittoria",
+      "d": "Modern Italian cooking in the revived Palazzo del Ghiaccio complex \u2014 creative and good value.",
+      "lat": 45.463235,
+      "lon": 9.175634,
+      "photos": []
+    },
+    {
+      "n": "Le Nove Scodelle",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Viale Monza (NoLo)",
+      "d": "Serious, fiery Sichuan cooking \u2014 a reminder that some of Milan's best value is well beyond the centre.",
+      "lat": 45.487505,
+      "lon": 9.217315,
+      "photos": []
+    },
+    {
+      "n": "Confine",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Isola",
+      "d": "The best pizza in Milan \u2014 Neapolitan rounds, fried, padellino and gourmet slices, with a wine list to match.",
+      "lat": 45.554911,
+      "lon": 9.385275,
+      "photos": []
+    },
+    {
+      "n": "Dry Milano",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Brera",
+      "d": "The pizza-and-cocktails original that redefined the Milanese evening \u2014 great pies, better drinks.",
+      "lat": 45.479061,
+      "lon": 9.188426,
+      "photos": []
+    },
+    {
+      "n": "Marghe",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Porta Romana / Isola",
+      "d": "Honest, well-made Neapolitan pizza across the city \u2014 a dependable, everyday favourite.",
+      "lat": 45.458292,
+      "lon": 9.212821,
+      "photos": []
+    },
+    {
+      "n": "Pasticceria Marchesi 1824",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Duomo / Centro (Galleria Vittorio Emanuele II)",
+      "d": "Milan's most elegant historic pasticceria \u2014 a Prada-owned jewel-box for coffee and pastries under the Galleria.",
+      "lat": 45.46829,
+      "lon": 9.195044,
+      "photos": []
+    },
+    {
+      "n": "Pav\u00e9",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Porta Venezia",
+      "d": "A modern Milanese bakery beloved for its brioche and pastries \u2014 the city's best morning ritual.",
+      "lat": 45.462748,
+      "lon": 9.200918,
+      "photos": []
+    },
+    {
+      "n": "Duomo di Milano (Milan Cathedral)",
+      "cat": "do",
+      "tier": "",
+      "a": "Centro Storico",
+      "d": "The vast pink-Candoglia-marble Gothic cathedral that took nearly six centuries to build is the emotional centre of Milan and the natural first stop for a multi-generational family. Book a skip-the-line entry so grandparents move straight in from the piazza rather than queueing in the sun.",
+      "lat": 45.464167,
+      "lon": 9.191612,
+      "photos": []
+    },
+    {
+      "n": "Duomo Rooftop Terraces",
+      "cat": "do",
+      "tier": "",
+      "a": "Centro Storico",
+      "d": "You walk among 3,400 statues, spires and flying buttresses in Candoglia marble, with the Alps on the horizon on a clear day and the golden Madonnina overhead. Take the lift rather than the 251 steps for older relatives and small children, and go late afternoon for the light.",
+      "lat": 45.467281,
+      "lon": 9.185974,
+      "photos": []
+    },
+    {
+      "n": "The Last Supper (Il Cenacolo), Santa Maria delle Grazie",
+      "cat": "do",
+      "tier": "",
+      "a": "Magenta / Conca del Naviglio",
+      "d": "Leonardo da Vinci's fragile 1490s mural survives on the refectory wall of a Dominican convent, seen by only small timed groups for 15 minutes at a time. Tickets vanish months ahead, so this is exactly the sort of unlock a concierge should secure well before you travel.",
+      "lat": 45.466472,
+      "lon": 9.170873,
+      "photos": []
+    },
+    {
+      "n": "Galleria Vittorio Emanuele II",
+      "cat": "do",
+      "tier": "",
+      "a": "Centro Storico",
+      "d": "The soaring 1877 glass-and-iron arcade linking the Duomo to La Scala is both a monument and the world's oldest luxury shopping mall, home to the original Prada boutique, Louis Vuitton, and the historic Camparino bar. Spin your heel on the mosaic bull for luck, then let the family browse in cool shade.",
+      "lat": 45.464718,
+      "lon": 9.190028,
+      "photos": []
+    },
+    {
+      "n": "Teatro alla Scala (La Scala)",
+      "cat": "do",
+      "tier": "",
+      "a": "Centro Storico",
+      "d": "Opened in 1778, La Scala is the most storied opera house on earth, where Verdi and Puccini premiered and where a box for the season opener is one of Milan's true social currencies. Pair a performance with the adjoining museum for the daytime members of a multi-gen group.",
+      "lat": 45.467604,
+      "lon": 9.189114,
+      "photos": []
+    },
+    {
+      "n": "Quadrilatero della Moda (Fashion Quadrilateral)",
+      "cat": "do",
+      "tier": "",
+      "a": "Montenapoleone / San Babila",
+      "d": "The grid of Via Montenapoleone, Via della Spiga, Via Sant'Andrea and Via Manzoni is the densest concentration of maison flagships in the world \u2014 Armani, Prada, Versace, Dolce & Gabbana, Bottega, Hermes. Ask for private appointments and after-hours boutique openings; this is the reason many UHNI travellers come to Milan at all.",
+      "lat": 45.477595,
+      "lon": 9.184648,
+      "photos": []
+    },
+    {
+      "n": "Castello Sforzesco (Sforza Castle)",
+      "cat": "do",
+      "tier": "",
+      "a": "Castello / Brera",
+      "d": "The vast 15th-century Sforza fortress holds a cluster of civic museums including Michelangelo's unfinished final work, the Rondanini Piet\u00e0. The scale and open courtyards make it easy for children and grandparents to wander at their own pace before Parco Sempione behind it.",
+      "lat": 45.470301,
+      "lon": 9.178091,
+      "photos": []
+    },
+    {
+      "n": "Pinacoteca di Brera",
+      "cat": "do",
+      "tier": "",
+      "a": "Brera",
+      "d": "Milan's greatest picture gallery, with Raphael's Marriage of the Virgin, Mantegna's foreshortened Dead Christ and Piero della Francesca's Montefeltro Altarpiece. Compact enough for one focused visit, and set inside the atmospheric artists' quarter for lunch afterwards.",
+      "lat": 45.472242,
+      "lon": 9.188407,
+      "photos": []
+    },
+    {
+      "n": "Brera District",
+      "cat": "do",
+      "tier": "",
+      "a": "Brera",
+      "d": "The cobbled bohemian quarter around the Pinacoteca, with its botanical garden, art shops, antiques and candlelit trattorias, is the most romantic part of central Milan to stroll after dark. Quiet, walkable and discreet \u2014 ideal for an evening away from the crowds.",
+      "lat": 45.474385,
+      "lon": 9.183567,
+      "photos": []
+    },
+    {
+      "n": "Museo Poldi Pezzoli",
+      "cat": "do",
+      "tier": "",
+      "a": "Montenapoleone",
+      "d": "A perfectly preserved 19th-century aristocrat's house-museum steps from the fashion streets, its most famous piece Pollaiuolo's Portrait of a Young Woman. Intimate and rarely crowded \u2014 a refined pause between boutique appointments.",
+      "lat": 45.468475,
+      "lon": 9.19178,
+      "photos": []
+    },
+    {
+      "n": "Museo Bagatti Valsecchi",
+      "cat": "do",
+      "tier": "",
+      "a": "Montenapoleone",
+      "d": "The Bagatti Valsecchi brothers built a lavish neo-Renaissance home in the 1880s and filled it with genuine 15th- and 16th-century art and furniture, then lived in it. One of Europe's best-preserved historic house-museums, and a hidden gem in the middle of the Quadrilatero.",
+      "lat": 45.469481,
+      "lon": 9.194979,
+      "photos": []
+    },
+    {
+      "n": "Museo del Novecento",
+      "cat": "do",
+      "tier": "",
+      "a": "Centro Storico",
+      "d": "Milan's museum of 20th-century Italian art sits inside the Palazzo dell'Arengario on Piazza del Duomo, its spiral ramp opening onto Futurist masterpieces and a fourth-floor window framing the cathedral. The rooftop restaurant Giacomo Arengario has cathedral views for lunch.",
+      "lat": 45.463393,
+      "lon": 9.19023,
+      "photos": []
+    },
+    {
+      "n": "Gallerie d'Italia \u2014 Piazza Scala",
+      "cat": "do",
+      "tier": "",
+      "a": "Centro Storico",
+      "d": "Three interconnected palazzi facing La Scala hold a superb collection of 19th- and 20th-century Italian art, from Canova bas-reliefs to Boccioni. Beautifully restored, air-conditioned and calm \u2014 a civilised refuge in the very centre.",
+      "lat": 45.467265,
+      "lon": 9.190526,
+      "photos": []
+    },
+    {
+      "n": "Fondazione Prada",
+      "cat": "do",
+      "tier": "",
+      "a": "Largo Isarco (South Milan)",
+      "d": "Rem Koolhaas/OMA transformed a 1910s distillery into a striking contemporary art campus, complete with a gold-leaf-clad 'Haunted House' and Wes Anderson's jewel-box Bar Luce. A design pilgrimage that appeals to the younger generation as much as serious collectors.",
+      "lat": 45.443922,
+      "lon": 9.204316,
+      "photos": []
+    },
+    {
+      "n": "Pirelli HangarBicocca",
+      "cat": "do",
+      "tier": "",
+      "a": "Bicocca (North Milan)",
+      "d": "A colossal former industrial hangar showing ambitious contemporary art, anchored by Anselm Kiefer's permanent 'The Seven Heavenly Palaces' \u2014 seven leaning concrete towers up to 19 metres tall. Free to enter and genuinely awe-inspiring for all ages.",
+      "lat": 45.522149,
+      "lon": 9.220148,
+      "photos": []
+    },
+    {
+      "n": "Navigli Canals",
+      "cat": "do",
+      "tier": "",
+      "a": "Navigli",
+      "d": "The Naviglio Grande and Naviglio Pavese canals, part of a system Leonardo helped engineer, are now a lively waterside quarter of aperitivo bars, vintage shops and the monthly antiques market. Charming to walk by day; for UHNI travellers a private canal-side dinner or a quiet aperitivo away from the student crowd works best.",
+      "lat": 45.450176,
+      "lon": 9.170897,
+      "photos": []
+    },
+    {
+      "n": "Porta Nuova & Bosco Verticale",
+      "cat": "do",
+      "tier": "",
+      "a": "Porta Nuova / Isola",
+      "d": "Milan's gleaming business district around Piazza Gae Aulenti is crowned by the Bosco Verticale, Stefano Boeri's award-winning 'vertical forest' towers dressed in thousands of trees. A striking counterpoint to old Milan and a favourite with design-minded younger travellers.",
+      "lat": 45.485317,
+      "lon": 9.193098,
+      "photos": []
+    },
+    {
+      "n": "Cimitero Monumentale",
+      "cat": "do",
+      "tier": "",
+      "a": "Monumentale / Isola",
+      "d": "This vast 19th-century cemetery is an open-air museum of Italian funerary sculpture, with extravagant Art Nouveau and Art Deco tombs of Milan's great industrial families. Solemn, uncrowded and photographically extraordinary \u2014 a quietly moving hidden gem.",
+      "lat": 45.487723,
+      "lon": 9.177801,
+      "photos": []
+    },
+    {
+      "n": "Corso Como & 10 Corso Como",
+      "cat": "do",
+      "tier": "",
+      "a": "Porta Nuova / Corso Como",
+      "d": "The pedestrian Corso Como is home to the legendary concept store 10 Corso Como, founded by Carla Sozzani \u2014 a pioneering blend of fashion, design, gallery, bookshop and courtyard caf\u00e9. A one-stop distillation of Milanese taste for the shopping-focused.",
+      "lat": 45.481859,
+      "lon": 9.187778,
+      "photos": []
+    },
+    {
+      "n": "Triennale Milano",
+      "cat": "do",
+      "tier": "",
+      "a": "Parco Sempione",
+      "d": "Italy's leading museum of design and architecture, set in the elegant Palazzo dell'Arte on the edge of Parco Sempione, with the permanent Italian Design Museum and a rooftop restaurant. Essential for anyone who cares about how Milan became the world's design capital.",
+      "lat": 45.486142,
+      "lon": 9.137177,
+      "photos": []
+    },
+    {
+      "n": "Basilica di Sant'Ambrogio",
+      "cat": "do",
+      "tier": "",
+      "a": "Sant'Ambrogio",
+      "d": "One of the oldest churches in Milan, founded by the city's patron Saint Ambrose in the 4th century, its austere Romanesque form a world away from the Gothic Duomo. A serene, deeply historic stop with beautiful golden mosaics.",
+      "lat": 45.462375,
+      "lon": 9.175845,
+      "photos": []
+    },
+    {
+      "n": "Basilica di San Lorenzo Maggiore & Colonne di San Lorenzo",
+      "cat": "do",
+      "tier": "",
+      "a": "Ticinese",
+      "d": "An early-Christian basilica fronted by 16 Roman columns \u2014 the finest surviving ancient Roman ruin in Milan \u2014 with the exquisite Cappella di Sant'Aquilino and its 4th-century mosaics inside. The colonnade square is a lively evening gathering spot in the Ticinese.",
+      "lat": 45.458085,
+      "lon": 9.182011,
+      "photos": []
+    },
+    {
+      "n": "Villa Necchi Campiglio",
+      "cat": "do",
+      "tier": "",
+      "a": "Porta Venezia",
+      "d": "A 1930s rationalist villa with pool and tennis court, restored by the FAI and used as a film set (I Am Love, House of Gucci), offering a rare glimpse into moneyed Milanese domestic life between the wars. Its garden caf\u00e9 is a discreet, elegant lunch.",
+      "lat": 45.468222,
+      "lon": 9.201828,
+      "photos": []
+    },
+    {
+      "n": "Pinacoteca Ambrosiana",
+      "cat": "do",
+      "tier": "",
+      "a": "Centro Storico",
+      "d": "Founded by Cardinal Federico Borromeo in 1618, this gallery holds Caravaggio's Basket of Fruit, Raphael's cartoon for the School of Athens, and pages of Leonardo's Codex Atlanticus. A serious, uncrowded collection a short walk from the Duomo.",
+      "lat": 45.46364,
+      "lon": 9.186007,
+      "photos": []
+    },
+    {
+      "n": "Museo Nazionale Scienza e Tecnologia Leonardo da Vinci",
+      "cat": "do",
+      "tier": "",
+      "a": "Sant'Ambrogio",
+      "d": "Italy's largest science and technology museum, with galleries of machines built from Leonardo's drawings plus a real submarine and vintage aircraft. The most reliable crowd-pleaser in the city for children and teenagers.",
+      "lat": 45.462566,
+      "lon": 9.172918,
+      "photos": []
+    },
+    {
+      "n": "Parco Sempione & Arco della Pace",
+      "cat": "do",
+      "tier": "",
+      "a": "Castello / Sempione",
+      "d": "Milan's grand central park unfurls behind the Sforza Castle to the Napoleonic Arch of Peace, with the Torre Branca observation tower for aerial views. Green, walkable space for grandparents and children between the museums.",
+      "lat": 45.475693,
+      "lon": 9.172426,
+      "photos": []
+    },
+    {
+      "n": "QC Termemilano (Spa)",
+      "cat": "do",
+      "tier": "",
+      "a": "Porta Romana",
+      "d": "A refined day-spa set in a historic building beside a stretch of the old Spanish city walls, with pools, saunas and a tram-carriage relaxation room. A restorative half-day for the adults while the family shops or sightsees.",
+      "lat": 45.452239,
+      "lon": 9.202056,
+      "photos": []
+    },
+    {
+      "n": "Chiesa di San Maurizio al Monastero Maggiore",
+      "cat": "do",
+      "tier": "",
+      "a": "Magenta",
+      "d": "Nicknamed the 'Sistine Chapel of Milan', this modest 16th-century church interior is entirely covered in luminous frescoes by Bernardino Luini and his school. Free, uncrowded and utterly unexpected \u2014 a true hidden gem near the Last Supper.",
+      "lat": 45.465409,
+      "lon": 9.178957,
+      "photos": []
+    },
+    {
+      "n": "Corso Vittorio Emanuele II & San Babila",
+      "cat": "do",
+      "tier": "",
+      "a": "San Babila",
+      "d": "The pedestrian high street running from the Duomo to Piazza San Babila is Milan's mainstream shopping spine \u2014 Italian and international brands, department stores and cafes. Useful for the family's everyday buys while serious shopping happens in the Quadrilatero next door.",
+      "lat": 45.464759,
+      "lon": 9.193082,
+      "photos": []
+    },
+    {
+      "n": "Excelsior Milano & La Rinascente (rooftop)",
+      "cat": "do",
+      "tier": "",
+      "a": "Centro Storico",
+      "d": "La Rinascente, Italy's landmark department store beside the Duomo, has a seventh-floor terrace of food counters and bars looking straight onto the cathedral spires. A convenient, glamorous perch for a break with unbeatable views.",
+      "lat": 45.464963,
+      "lon": 9.191912,
+      "photos": []
+    },
+    {
+      "n": "Fondazione Nicola Trussardi & Palazzo Marino (Piazza della Scala)",
+      "cat": "do",
+      "tier": "",
+      "a": "Centro Storico",
+      "d": "The elegant Piazza della Scala, anchored by the 16th-century Palazzo Marino (Milan's city hall) and a Leonardo monument, is one of the city's most photogenic squares. A graceful pause between La Scala and the shopping streets.",
+      "lat": 45.467281,
+      "lon": 9.185974,
+      "photos": []
+    },
+    {
+      "n": "Chiostri dell'Umanitaria & Rotonda della Besana",
+      "cat": "do",
+      "tier": "",
+      "a": "Porta Vittoria",
+      "d": "The Rotonda della Besana is a serene 18th-century circular arcaded courtyard, once a cemetery, now a tranquil green enclosure with a baroque chapel. A calm, little-known spot for a quiet stroll away from any crowd.",
+      "lat": 45.459773,
+      "lon": 9.205958,
+      "photos": []
+    },
+    {
+      "n": "Isola Neighbourhood",
+      "cat": "do",
+      "tier": "",
+      "a": "Isola",
+      "d": "Once a working-class 'island' cut off by the railway, Isola is now Milan's coolest quarter \u2014 independent boutiques, natural-wine bars and design studios in the shadow of the Bosco Verticale. Best explored on foot for a feel of contemporary Milanese life.",
+      "lat": 45.487612,
+      "lon": 9.191294,
+      "photos": []
+    },
+    {
+      "n": "Porta Venezia & Corso Venezia palazzi",
+      "cat": "do",
+      "tier": "",
+      "a": "Porta Venezia",
+      "d": "Corso Venezia is lined with grand Liberty-style (Italian Art Nouveau) palaces and leads to the leafy Giardini Pubblici Indro Montanelli. An elegant residential quarter with fine dining and the city's Natural History Museum for children.",
+      "lat": 45.474294,
+      "lon": 9.205239,
+      "photos": []
+    },
+    {
+      "n": "Aperitivo in Milan",
+      "cat": "do",
+      "tier": "",
+      "a": "Navigli / Brera / Porta Nuova",
+      "d": "The pre-dinner ritual of a Negroni or Milano-Torino with generous snacks was effectively invented here \u2014 Campari was born in Milan. For UHNI travellers, a reserved table at a rooftop bar such as Terrazza Aperol or a hotel bar beats the crowded street scene.",
+      "lat": 45.464946,
+      "lon": 9.211125,
+      "photos": []
+    },
+    {
+      "n": "Historic Cafes: Camparino & Cova",
+      "cat": "do",
+      "tier": "",
+      "a": "Centro Storico / Montenapoleone",
+      "d": "Camparino in Galleria (1915) is the birthplace of the Campari ritual, while Pasticceria Cova on Via Montenapoleone has served Milanese society since 1817. Both are elegant, vegetarian-friendly stops for coffee, pastries and people-watching.",
+      "lat": 45.467281,
+      "lon": 9.185974,
+      "photos": []
+    },
+    {
+      "n": "Lake Como (Bellagio, Como, Varenna)",
+      "cat": "do",
+      "tier": "",
+      "a": "Day Trip \u2014 north of Milan",
+      "d": "Under an hour by train or car, Lake Como delivers the classic Italian lakes fantasy \u2014 Bellagio's terraced gardens, Villa del Balbianello, Villa Carlotta and George Clooney's Laglio. Arrange a private boat and a villa lunch; this is the single most requested escape from Milan.",
+      "lat": 45.985502,
+      "lon": 9.260055,
+      "photos": []
+    },
+    {
+      "n": "Bergamo Alta (Upper Town)",
+      "cat": "do",
+      "tier": "",
+      "a": "Day Trip \u2014 northeast of Milan",
+      "d": "Less than an hour away, Bergamo's walled Citt\u00e0 Alta is a beautifully intact medieval-Renaissance hill town reached by an 1887 funicular, crowned by the Piazza Vecchia and the Colleoni Chapel. Its Venetian walls are UNESCO-listed and its restaurants excellent and unhurried.",
+      "lat": 45.470755,
+      "lon": 9.179609,
+      "photos": []
+    },
+    {
+      "n": "Lake Maggiore & the Borromean Islands",
+      "cat": "do",
+      "tier": "",
+      "a": "Day Trip \u2014 northwest of Milan",
+      "d": "Around 90 minutes away, Lake Maggiore's Borromean Islands hold the baroque Palazzo Borromeo on Isola Bella, its terraced gardens roamed by white peacocks, and the fishing village of Isola dei Pescatori. Grander and quieter than Como, ideal for a private-boat day.",
+      "lat": 45.470755,
+      "lon": 9.179609,
+      "photos": []
+    },
+    {
+      "n": "Certosa di Pavia",
+      "cat": "do",
+      "tier": "",
+      "a": "Day Trip \u2014 south of Milan",
+      "d": "Less than an hour south, this Carthusian charterhouse commissioned in 1396 by the Visconti dukes is one of the great masterpieces of Italian Gothic-Renaissance architecture, its facade a riot of marble sculpture. Serene, still a working monastery, and beautifully off the mainstream tourist trail.",
+      "lat": 45.317938,
+      "lon": 9.140914,
+      "photos": []
+    },
+    {
+      "n": "Franciacorta Wine Country",
+      "cat": "do",
+      "tier": "",
+      "a": "Day Trip \u2014 east of Milan",
+      "d": "About an hour east toward Lake Iseo, Franciacorta is Italy's answer to Champagne \u2014 rolling vineyards producing traditional-method sparkling wine, with elegant cellars offering private tastings and lunches. A refined, adult day out for oenophiles.",
+      "lat": 45.470755,
+      "lon": 9.179609,
+      "photos": []
+    },
+    {
+      "n": "Pavia (Old University Town)",
+      "cat": "do",
+      "tier": "",
+      "a": "Day Trip \u2014 south of Milan",
+      "d": "The medieval city on the Ticino river has one of Europe's oldest universities (1361), a distinctive covered bridge and towered skyline. Easily paired with the Certosa for a full, unhurried day away from Milan's bustle.",
+      "lat": 45.470755,
+      "lon": 9.179609,
+      "photos": []
+    },
+    {
+      "n": "Moebius Milano",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Sempione / Chinatown",
+      "d": "Milan's highest-ranked bar \u2014 a food-music-and-cocktails concept of rare coherence, and the world's Highest Climber of its year.",
+      "lat": 45.481431,
+      "lon": 9.202869,
+      "photos": []
+    },
+    {
+      "n": "1930",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Ticinese / Colonne di San Lorenzo",
+      "d": "A password-and-membership speakeasy of quiet excellence \u2014 one of Italy's most consistently ranked bars.",
+      "lat": 45.46646,
+      "lon": 9.164794,
+      "photos": []
+    },
+    {
+      "n": "Camparino in Galleria",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "Duomo / Centro (Galleria Vittorio Emanuele II)",
+      "d": "The birthplace of the Milanese aperitivo \u2014 a Liberty-style bar under the Galleria, where Campari itself was born.",
+      "lat": 45.46492,
+      "lon": 9.189878,
+      "photos": []
+    },
+    {
+      "n": "Bar Basso",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "Porta Venezia",
+      "d": "The birthplace of the Negroni Sbagliato \u2014 an unchanging 1960s institution and the temple of Milanese aperitivo.",
+      "lat": 45.476775,
+      "lon": 9.217579,
+      "photos": []
+    },
+    {
+      "n": "Terrazza Aperol",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "Duomo / Centro (Piazza del Duomo)",
+      "d": "An aperitivo terrace looking straight onto the Duomo \u2014 the most Milanese spritz there is.",
+      "lat": 45.464999,
+      "lon": 9.190333,
+      "photos": []
+    },
+    {
+      "n": "Ceresio 7",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "Sempione / Chinatown",
+      "d": "Dsquared2's rooftop bar and pools above the old Enel building \u2014 glamour, a spritz and a sweep over the skyline.",
+      "lat": 45.483517,
+      "lon": 9.180311,
+      "photos": []
+    },
+    {
+      "n": "Dry Milano",
+      "cat": "party",
+      "tier": "Late & loud",
+      "a": "Brera",
+      "d": "The pizza-and-cocktails original \u2014 a Brera room where the drinks are as serious as the pies.",
+      "lat": 45.479061,
+      "lon": 9.188426,
+      "photos": []
+    },
+    {
+      "n": "Nottingham Forest",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Porta Venezia",
+      "d": "A tiny, cult tiki-and-molecular bar that has long featured among the world's best \u2014 theatre in a glass.",
+      "lat": 45.468721,
+      "lon": 9.206707,
+      "photos": []
+    }
+  ]
+}

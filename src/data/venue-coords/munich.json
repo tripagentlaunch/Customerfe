@@ -1,1 +1,838 @@
-{"center": [48.137108, 11.575382], "venues": [{"n": "Hotel Vier Jahreszeiten Kempinski Munich", "cat": "stay", "tier": "Ultra", "a": "Altstadt (Old Town), Maximilianstraße", "d": "The grande dame of Maximilianstraße since 1858 — Munich's most storied address, on the city's grandest shopping boulevard.", "lat": 48.139168, "lon": 11.581965, "p": "v"}, {"n": "Hotel Bayerischer Hof", "cat": "stay", "tier": "Ultra", "a": "Altstadt (Old Town), Promenadeplatz", "d": "Family-owned since 1897 and the beating heart of society Munich — the hotel that hosts the Munich Security Conference.", "lat": 48.140474, "lon": 11.572928, "p": "v"}, {"n": "Mandarin Oriental, Munich", "cat": "stay", "tier": "Ultra", "a": "Altstadt (Old Town), near the Hofbräuhaus", "d": "An intimate neo-Renaissance house of just 73 rooms, quietly tucked behind the Hofbräuhaus — Mandarin Oriental precision in the Old Town.", "lat": 48.137299, "lon": 11.580733, "p": "v"}, {"n": "Rosewood Munich", "cat": "stay", "tier": "Ultra", "a": "Altstadt (Old Town), Kardinal-Faulhaber-Straße", "d": "Rosewood's first German house — the old Bavarian State Bank and the Palais Neuhaus-Preysing reborn as 132 rooms of calm, contemporary luxury.", "lat": 48.141115, "lon": 11.574422, "p": "v"}, {"n": "The Charles Hotel, a Rocco Forte Hotel", "cat": "stay", "tier": "Grand", "a": "Ludwigsvorstadt, Lenbach Gardens by the Old Botanical Garden", "d": "Rocco Forte's Munich house of 2007, overlooking the Old Botanical Garden — a serious spa, a garden setting, and Olivia Forte's warm interiors.", "lat": 48.142892, "lon": 11.562518, "p": "v"}, {"n": "Königshof, a Luxury Collection Hotel, Munich", "cat": "stay", "tier": "Grand", "a": "Altstadt (Old Town), Karlsplatz (Stachus)", "d": "A landmark on Karlsplatz, wholly rebuilt and reopened in 2024 — Marriott's Luxury Collection debut in Munich, all contemporary grandeur.", "lat": 48.139649, "lon": 11.564537, "p": "v"}, {"n": "Hotel München Palace", "cat": "stay", "tier": "Luxury", "a": "Bogenhausen, near Prinzregentenstraße", "d": "A quietly elegant, family-run town-house hotel in leafy Bogenhausen — residential calm a short hop from the centre.", "lat": 48.140049, "lon": 11.60126, "p": "v"}, {"n": "Cortiina Hotel", "cat": "stay", "tier": "Luxury", "a": "Altstadt (Old Town), near the Viktualienmarkt", "d": "A design-led boutique of natural stone and oak, moments from the Viktualienmarkt — understated, tactile, thoroughly Munich.", "lat": 48.136807, "lon": 11.57941, "p": "v"}, {"n": "Andaz Munich Schwabinger Tor", "cat": "stay", "tier": "Luxury", "a": "Schwabing, Leopoldstraße", "d": "A bright, contemporary Hyatt design hotel on the edge of Schwabing — a rooftop bar, a spa, and an easy, younger polish.", "lat": 48.172077, "lon": 11.586434, "p": "v"}, {"n": "BEYOND by Geisel", "cat": "stay", "tier": "Luxury", "a": "Altstadt (Old Town), Marienplatz", "d": "A tiny, all-suite rooftop hideaway of the Geisel family, looking straight onto Marienplatz and the Frauenkirche.", "lat": 48.136848, "lon": 11.575378, "p": "v"}, {"n": "JAN", "cat": "eat", "tier": "Destination", "a": "Lehel, near the Isar", "d": "Jan Hartwig's own restaurant — French artistry braided with German classics, from a chef who won three stars in record time.", "lat": 48.155941, "lon": 11.470984, "p": "v"}, {"n": "Tohru in der Schreiberei", "cat": "eat", "tier": "Destination", "a": "Altstadt (Old Town), Burgstraße", "d": "Tohru Nakamura's Japanese-German cooking in a historic Old Town townhouse — elevated to three stars in 2025.", "lat": 48.137758, "lon": 11.57693, "p": "v"}, {"n": "Atelier", "cat": "eat", "tier": "Destination", "a": "Altstadt (Old Town), Hotel Bayerischer Hof", "d": "The two-star gourmet room inside the Bayerischer Hof — an intimate, art-filled setting for the city's grandest fine dining.", "lat": 48.122275, "lon": 11.554843, "p": "v"}, {"n": "Alois – Dallmayr Fine Dining", "cat": "eat", "tier": "Destination", "a": "Altstadt (Old Town), Dallmayr, Dienerstraße", "d": "The fine-dining room above the legendary Dallmayr delicatessen — refined, produce-led cooking under Rosina Ostler.", "lat": 48.13832, "lon": 11.577274, "p": "a"}, {"n": "EssZimmer", "cat": "eat", "tier": "Destination", "a": "Milbertshofen, BMW Welt", "d": "A serene two-star dining room floating above BMW Welt — polished, classical cooking with fine views over the park.", "lat": 48.137108, "lon": 11.575382, "p": "v"}, {"n": "Tantris", "cat": "eat", "tier": "Destination", "a": "Schwabing, Johann-Fichte-Straße", "d": "The 1971 icon that shaped German fine dining — reborn after a full refurbishment, its two stars intact under Benjamin Chmura.", "lat": 48.169877, "lon": 11.588248, "p": "v"}, {"n": "Komu", "cat": "eat", "tier": "Destination", "a": "Maxvorstadt", "d": "Christoph Kunz's own restaurant after Alois — inventive, disciplined cooking that took two stars at pace.", "lat": 48.136048, "lon": 11.570575, "p": "v"}, {"n": "The Cloud by Käfer", "cat": "eat", "tier": "Destination", "a": "Milbertshofen, BMW Welt", "d": "Two-star cooking high in BMW Welt from the Käfer group — modern, generous, with a dramatic rooftop setting.", "lat": 48.176895, "lon": 11.556715, "p": "v"}, {"n": "Tantris DNA", "cat": "eat", "tier": "Fine", "a": "Schwabing, Johann-Fichte-Straße", "d": "Tantris's more relaxed one-star sibling — the same building, a lighter, more spontaneous menu.", "lat": 48.169833, "lon": 11.588316, "p": "v"}, {"n": "Werneckhof by Sigi Schelling", "cat": "eat", "tier": "Fine", "a": "Schwabing, Werneckstraße", "d": "Sigi Schelling's precise, refined cooking in a warm Schwabing room — one of Munich's most respected one-stars.", "lat": 48.159242, "lon": 11.588393, "p": "v"}, {"n": "Brothers", "cat": "eat", "tier": "Fine", "a": "Maxvorstadt", "d": "Twin brothers Tobias and Markus Klaas cook seasonal, personal menus in a smart, intimate room.", "lat": 48.156252, "lon": 11.575817, "p": "v"}, {"n": "Les Deux", "cat": "eat", "tier": "Fine", "a": "Altstadt (Old Town), Maffeistraße", "d": "A polished French one-star just off the smart Fünf Höfe arcades — classical technique in the heart of the Old Town.", "lat": 48.13931, "lon": 11.574642, "p": "v"}, {"n": "Sparkling Bistro", "cat": "eat", "tier": "Fine", "a": "Maxvorstadt", "d": "A small, ambitious one-star with an easy bistro spirit and serious cooking behind it.", "lat": 48.151815, "lon": 11.577817, "p": "v"}, {"n": "1804 Hirschau", "cat": "eat", "tier": "Fine", "a": "Schwabing-Freimann, in the English Garden", "d": "A one-star kitchen inside a historic beer garden in the English Garden — fine dining in a green Munich idyll.", "lat": 48.172815, "lon": 11.613444, "p": "v"}, {"n": "Gabelspiel", "cat": "eat", "tier": "Fine", "a": "Giesing / Untergiesing", "d": "An intimate, personally run one-star in a residential quarter — quietly excellent, away from the centre.", "lat": 48.113616, "lon": 11.577691, "p": "v"}, {"n": "Gasthaus Waltz", "cat": "eat", "tier": "Smart", "a": "Isarvorstadt, Ickstattstraße", "d": "A relaxed neighbourhood table doing excellent, unfussy cooking under chef Alexander Gasslbauer.", "lat": 48.128156, "lon": 11.573003, "p": "v"}, {"n": "mokum", "cat": "eat", "tier": "Smart", "a": "Ludwigsvorstadt, near the Theresienwiese", "d": "A friendly, creative à-la-carte kitchen with an international hand — relaxed and reliably good.", "lat": 48.137108, "lon": 11.575382, "p": "v"}, {"n": "Wirtshaus in der Au", "cat": "eat", "tier": "Smart", "a": "Au-Haidhausen, Lilienstraße", "d": "The dumpling house — Bavarian home cooking done properly, famous for its Knödel, in a warm 1901 tavern.", "lat": 48.129035, "lon": 11.58657, "p": "v"}, {"n": "Hofbräuhaus am Platzl", "cat": "eat", "tier": "Casual", "a": "Altstadt (Old Town), Platzl", "d": "The world's most famous beer hall — royal since 1589, with brass bands, communal benches and litre steins under the vaults.", "lat": 48.137633, "lon": 11.579979, "p": "v"}, {"n": "Marienplatz & the Glockenspiel", "cat": "do", "tier": "", "a": "Altstadt", "d": "The heart of Munich since 1158, framed by the neo-Gothic New Town Hall whose Glockenspiel clockwork jousts and dances daily at 11am (and noon, and 5pm in summer). A perfect first orientation stop for a multi-generational group, with the Frauenkirche towers rising just behind.", "lat": 48.136922, "lon": 11.574768, "p": "v"}, {"n": "The Residenz & Treasury (Schatzkammer)", "cat": "do", "tier": "", "a": "Altstadt", "d": "The former royal palace of the Wittelsbach dynasty, one of Europe's finest, with 130 rooms of state apartments and a Treasury holding almost 2,000 years of crowns, reliquaries and jewels across ten chambers. A private guide brings the Antiquarium's barrel-vaulted Renaissance hall to life for a family that appreciates dynastic history.", "lat": 48.140633, "lon": 11.578615, "p": "v"}, {"n": "Cuvilliés Theatre", "cat": "do", "tier": "", "a": "Altstadt", "d": "A jewel-box Rococo court theatre of tiered gilt boxes, red velvet and cherubs, tucked inside the Residenz — where Mozart premiered Idomeneo in 1781. Small, intimate and often overlooked; ask your advisor about a chamber concert for an evening of true old-Europe glamour.", "lat": 48.14089, "lon": 11.580058, "p": "v"}, {"n": "The Alte Pinakothek", "cat": "do", "tier": "", "a": "Maxvorstadt", "d": "One of the world's great old-master galleries — Dürer, Rubens (the largest Rubens collection anywhere), Rembrandt, Raphael, Leonardo. The three Pinakotheks sit within a short walk of each other in the museum quarter, ideal for a curated private morning at a civilised pace.", "lat": 48.149229, "lon": 11.571149, "p": "v"}, {"n": "The Neue Pinakothek collection (at the Alte Pinakothek & Sammlung Schack)", "cat": "do", "tier": "", "a": "Maxvorstadt", "d": "The 19th-century masterworks — Van Gogh, Monet, Klimt, Turner, Caspar David Friedrich — currently shown across the Alte Pinakothek and the Sammlung Schack while the Neue's own building is renovated. Worth confirming the current hang before you go.", "lat": 48.149072, "lon": 11.567446, "p": "a"}, {"n": "The Pinakothek der Moderne", "cat": "do", "tier": "", "a": "Maxvorstadt", "d": "Four museums under one soaring rotunda: modern art (Picasso, Warhol, Beckmann), design, architecture and works on paper. The design collection alone — from Bauhaus to a century of automobiles — rewards a design-minded traveller.", "lat": 48.14716, "lon": 11.572227, "p": "v"}, {"n": "Museum Brandhorst", "cat": "do", "tier": "", "a": "Maxvorstadt", "d": "A striking multi-coloured ceramic-clad building housing the finest Cy Twombly holdings in Europe and a deep Warhol collection. Contemporary, uncrowded and quietly luxurious — a refined counterpoint to the old masters next door.", "lat": 48.148118, "lon": 11.574091, "p": "v"}, {"n": "Lenbachhaus (Blue Rider collection)", "cat": "do", "tier": "", "a": "Maxvorstadt", "d": "A honey-toned Florentine villa with a golden Foster wing, home to the world's greatest collection of the Blue Rider (Der Blaue Reiter) movement — Kandinsky, Marc, Münter and their electric, colour-drenched early modernism. A jewel that even seasoned collectors underrate.", "lat": 48.149072, "lon": 11.567446, "p": "a"}, {"n": "The Deutsches Museum", "cat": "do", "tier": "", "a": "Isarvorstadt (Museum Island)", "d": "The largest science-and-technology museum in the world, on its own island in the Isar — aircraft, ships, mining, space and hands-on demonstrations across 19 renovated exhibitions. Endlessly engaging for children and grandparents alike; note the ongoing modernisation through 2028, so parts remain closed.", "lat": 48.132752, "lon": 11.542073, "p": "v"}, {"n": "The English Garden & Eisbach surfers", "cat": "do", "tier": "", "a": "Schwabing / Lehel", "d": "One of the world's largest urban parks — bigger than New York's Central Park — where surfers ride the standing Eisbach river wave year-round at the southern edge. A gentle stroll, a horse-drawn carriage, and the theatre of surfers in an inland city is pure Munich.", "lat": 48.151924, "lon": 11.595985, "p": "a"}, {"n": "The Chinese Tower beer garden", "cat": "do", "tier": "", "a": "English Garden", "d": "A 25-metre wooden pagoda ringed by 7,000 seats under chestnut trees, with an oompah band in the tower — the quintessential Munich beer garden. Bring your own picnic to the self-service tables (a local tradition) or be served; veg-friendly pretzels, cheese and salads are easy here.", "lat": 48.152552, "lon": 11.592097, "p": "v"}, {"n": "Nymphenburg Palace & park", "cat": "do", "tier": "", "a": "Neuhausen-Nymphenburg", "d": "The Wittelsbachs' vast Baroque summer palace, its canal-flanked facade stretching over half a kilometre, set in formal gardens and a romantic English park with pavilions like the Rococo Amalienburg. The Gallery of Beauties and the royal state coaches make a serene, chauffeured half-day.", "lat": 48.158257, "lon": 11.503297, "p": "v"}, {"n": "The Viktualienmarkt", "cat": "do", "tier": "", "a": "Altstadt", "d": "Munich's daily gourmet food market since 1807 — 140 stalls of Alpine cheeses, exotic fruit, spices, flowers and honey around a maypole and a small beer garden. A wonderful grazing stop, and a private food guide can navigate the best veg and produce vendors.", "lat": 48.136105, "lon": 11.575352, "p": "v"}, {"n": "The Frauenkirche (Cathedral of Our Lady)", "cat": "do", "tier": "", "a": "Altstadt", "d": "Munich's landmark cathedral, its twin onion-domed brick towers the emblem of the city skyline, with the legendary 'Devil's Footprint' set in the entrance floor. Climb (or take the lift up) the south tower for the finest view over the old town to the Alps on a clear day.", "lat": 48.137828, "lon": 11.574582, "p": "a"}, {"n": "The Asamkirche", "cat": "do", "tier": "", "a": "Altstadt", "d": "A tiny, breathtakingly opulent late-Baroque church squeezed between houses, built by the Asam brothers as their private chapel — a riot of gold, marble, frescoes and dramatic light. Small enough to miss, unforgettable once you step inside.", "lat": 48.13521, "lon": 11.569523, "p": "v"}, {"n": "The Hofbräuhaus", "cat": "do", "tier": "", "a": "Altstadt", "d": "The world's most famous beer hall, a royal brewery since 1589, with vaulted painted ceilings, a brass band and litre steins. Touristic, yes, but iconic — for a more local hall try the Augustiner-Keller or Löwenbräukeller; all serve hearty (and some veg) Bavarian fare.", "lat": 48.137633, "lon": 11.579979, "p": "v"}, {"n": "Odeonsplatz & the Theatinerkirche", "cat": "do", "tier": "", "a": "Altstadt", "d": "A grand Italianate square with the yellow Theatinerkirche's soaring Baroque dome and the Feldherrnhalle loggia modelled on Florence's Loggia dei Lanzi. A cinematic photo stop and the gateway to the royal Hofgarten and the Residenz.", "lat": 48.142204, "lon": 11.577056, "p": "v"}, {"n": "Maximilianstrasse luxury shopping", "cat": "do", "tier": "", "a": "Altstadt", "d": "Munich's grandest boulevard, a stately 19th-century avenue lined with Louis Vuitton, Dior, Chanel, Cartier and the storied Hotel Vier Jahreszeiten. The city's true luxury mile — a private personal shopper can arrange after-hours appointments.", "lat": 48.137828, "lon": 11.574582, "p": "a"}, {"n": "BMW Welt & BMW Museum", "cat": "do", "tier": "", "a": "Am Riesenfeld / Milbertshofen", "d": "A futuristic double-cone delivery centre and swirling museum tracing a century of BMW design, beside the four-cylinder headquarters tower. Book a factory tour or a hot lap for the car enthusiasts in the family; the architecture alone is worth the trip.", "lat": 48.176903, "lon": 11.559069, "p": "v"}, {"n": "Olympiapark", "cat": "do", "tier": "", "a": "Milbertshofen-Am Hart", "d": "The 1972 Olympic grounds, with Frei Otto's revolutionary sweeping tent-roof canopies over the stadium and lake. Ride the lift up the 291-metre Olympic Tower for a 360-degree panorama, or catch a summer concert on the lawns.", "lat": 48.168706, "lon": 11.550364, "p": "v"}, {"n": "The NS-Documentation Centre", "cat": "do", "tier": "", "a": "Maxvorstadt", "d": "A stark white cube on the former site of the Nazi Party headquarters, documenting Munich's role as the 'Capital of the Movement' with unflinching honesty. A sober, essential counterweight to the city's beauty; thoughtfully presented for reflective visitors and older children.", "lat": 48.149072, "lon": 11.567446, "p": "a"}, {"n": "Schwabing", "cat": "do", "tier": "", "a": "Schwabing", "d": "Munich's old bohemian and university quarter, where Kandinsky, Thomas Mann and Rilke once lived — leafy streets of Jugendstil facades, independent cafes, bookshops and the buzz around Leopoldstrasse. Best explored slowly on foot, coffee in hand.", "lat": 48.168926, "lon": 11.58995, "p": "v"}, {"n": "Glockenbachviertel", "cat": "do", "tier": "", "a": "Isarvorstadt", "d": "Munich's most creative and stylish neighbourhood — design boutiques, natural-wine bars, third-wave coffee and some of the city's best modern and vegetarian-forward restaurants. The place to feel the contemporary, discreetly cool side of the city.", "lat": 48.127864, "lon": 11.570614, "p": "v"}, {"n": "Gärtnerplatz", "cat": "do", "tier": "", "a": "Isarvorstadt", "d": "A pretty circular flower-filled square anchored by the intimate Gärtnerplatz State Theatre (opera and operetta), ringed by cafes that spill onto the pavement in summer. The gentle social heart of the Glockenbach quarter.", "lat": 48.131247, "lon": 11.575702, "p": "v"}, {"n": "The Bavarian National Museum", "cat": "do", "tier": "", "a": "Lehel", "d": "A sumptuous survey of European decorative and folk art — ivories, tapestries, armour and one of the finest Nativity-crib collections in the world. Grand, quiet halls that reward unhurried appreciation of craft and dynasty.", "lat": 48.143386, "lon": 11.59115, "p": "v"}, {"n": "The Alte Pinakothek's neighbour — Glyptothek & Königsplatz", "cat": "do", "tier": "", "a": "Maxvorstadt", "d": "Ludwig I's neoclassical 'Athens on the Isar' — a temple-fronted square with the Glyptothek's Greek and Roman sculpture and the State Antiquities Collection facing it. Serene, columned and rarely crowded, a classicist's delight.", "lat": 48.149072, "lon": 11.567446, "p": "a"}, {"n": "St. Peter's Church (Alter Peter) tower", "cat": "do", "tier": "", "a": "Altstadt", "d": "Munich's oldest parish church, whose tower — climbed by a spiral of 306 steps — gives arguably the best close-up view over Marienplatz, the Frauenkirche and, on a clear day, the Alps. A rewarding effort for the fit and a classic photographer's perch.", "lat": 48.136462, "lon": 11.576031, "p": "v"}, {"n": "Museum Villa Stuck", "cat": "do", "tier": "", "a": "Bogenhausen", "d": "The lavish Jugendstil villa of painter Franz von Stuck, a total artwork of gilded, mythological interiors on the elegant east bank of the Isar. A hidden gem of Munich's belle-epoque wealth and taste, paired with changing modern exhibitions.", "lat": 48.140487, "lon": 11.599661, "p": "v"}, {"n": "A stroll along the Isar & Maximiliansanlagen", "cat": "do", "tier": "", "a": "Lehel / Au", "d": "Munich's clear alpine river runs green through the city with wild gravel banks, footbridges and the golden Angel of Peace monument on the terraced hillside above. A restorative walk or cycle away from the crowds, especially beautiful at golden hour.", "lat": 48.139656, "lon": 11.587921, "p": "a"}, {"n": "Neuschwanstein & Hohenschwangau", "cat": "do", "tier": "", "a": "day-trip", "d": "Ludwig II's fairy-tale white castle on its crag above an alpine lake — the model for Disney's — paired with his boyhood home of Hohenschwangau just below. Freshly inscribed as UNESCO World Heritage; go with a private driver and pre-booked timed tickets to skip the queues, and consider the Marienbrücke view.", "lat": 48.138582, "lon": 11.573592, "p": "a"}, {"n": "Linderhof Palace", "cat": "do", "tier": "", "a": "day-trip", "d": "The only castle Ludwig II lived to complete — an intimate, gilded Rococo villa set in formal gardens with fountains, a grotto and a Moorish kiosk in the mountains near Oberammergau. Smaller and more perfect than Neuschwanstein; pairs beautifully with the Wieskirche and Oberammergau's painted houses.", "lat": 48.138582, "lon": 11.573592, "p": "a"}, {"n": "Herrenchiemsee (Ludwig's Versailles)", "cat": "do", "tier": "", "a": "day-trip", "d": "Ludwig II's homage to Louis XIV on an island in the Chiemsee, Bavaria's largest lake — reached by ferry, with a Hall of Mirrors rivalling Versailles itself and vast gardens. A magical full day: lake steamer, palace, and lunch by the water southeast of Munich.", "lat": 48.138582, "lon": 11.573592, "p": "a"}, {"n": "The Wieskirche (Pilgrimage Church of Wies)", "cat": "do", "tier": "", "a": "day-trip", "d": "A Rococo miracle standing alone in an alpine meadow near Steingaden — an unassuming exterior concealing one of the most exuberant painted interiors in Europe. A serene, spiritual stop on the way to or from Neuschwanstein.", "lat": 48.138582, "lon": 11.573592, "p": "a"}, {"n": "Zugspitze & Garmisch-Partenkirchen", "cat": "do", "tier": "", "a": "day-trip", "d": "Germany's highest peak at 2,962 metres, reached by cog railway and cable car from the chic resort town of Garmisch, with a glacier and a 360-degree Alpine panorama into four countries. A thrilling, easy-access mountain day; the summit terrace and restaurant suit all ages.", "lat": 48.138582, "lon": 11.573592, "p": "a"}, {"n": "Salzburg", "cat": "do", "tier": "", "a": "day-trip", "d": "Mozart's baroque city just across the Austrian border — the Hohensalzburg fortress, Mirabell Gardens, and Sound of Music scenery, easily a full day with a private driver. Elegant, walkable and a change of country over lunch.", "lat": 48.14313, "lon": 11.483158, "p": "v"}, {"n": "Dachau Concentration Camp Memorial", "cat": "do", "tier": "", "a": "day-trip", "d": "The first Nazi concentration camp, now a memorial site of profound gravity, preserved as a place of remembrance and education. Visited with quiet respect and a knowledgeable guide, it is a moving and important experience; consider carefully whether younger children should join.", "lat": 48.270434, "lon": 11.468295, "p": "v"}, {"n": "Kloster Andechs (the Holy Mountain)", "cat": "do", "tier": "", "a": "day-trip", "d": "Bavaria's oldest pilgrimage site, a Rococo-Baroque church on a hilltop above the Ammersee, famed for its monk-brewed beer and vast tree-shaded beer garden with views to the Alps. A joyful, low-key day: a lake, a gentle hike or drive, and a Bavarian Brotzeit.", "lat": 48.138582, "lon": 11.573592, "p": "a"}, {"n": "Berchtesgaden & Königssee", "cat": "do", "tier": "", "a": "day-trip", "d": "A fjord-like emerald lake ringed by sheer peaks, crossed by silent electric boats to the red-domed St. Bartholomä chapel — arguably the most beautiful spot in the German Alps. Combine with the Eagle's Nest for staggering views; a scenic if longer drive south.", "lat": 48.138582, "lon": 11.573592, "p": "a"}, {"n": "The Romantic Road (Rothenburg ob der Tauber)", "cat": "do", "tier": "", "a": "day-trip", "d": "Germany's most celebrated scenic route through medieval walled towns and vineyards, with perfectly preserved Rothenburg ob der Tauber — cobbled lanes, half-timbered houses and intact ramparts — as its jewel. A storybook drive north, ideal with a private car and driver.", "lat": 48.138582, "lon": 11.573592, "p": "a"}, {"n": "Tegernsee", "cat": "do", "tier": "", "a": "day-trip", "d": "An upmarket Alpine lake an hour south, beloved by Munich's well-to-do for its clear water, lakeside promenades, a former monastery brewery and the wellness sanctuary of Bad Wiessee. A refined, restorative escape with grand lakeside dining.", "lat": 48.118275, "lon": 11.582755, "p": "v"}, {"n": "Starnberger See", "cat": "do", "tier": "", "a": "day-trip", "d": "The nearest of Munich's five lakes — the 'Lake of Princes' — where villas line the shore, sailboats drift, and a cross in the water marks where Ludwig II mysteriously drowned. A short trip for a lakeside lunch and a boat cruise beneath the Alpine horizon.", "lat": 47.90927, "lon": 11.308363, "p": "v"}, {"n": "Oberammergau", "cat": "do", "tier": "", "a": "day-trip", "d": "A picture-book alpine village famous for its Lüftlmalerei (frescoed house facades), woodcarving workshops, and the once-a-decade Passion Play. A charming, craft-rich stop en route to Linderhof, with genuine artisan ateliers to browse.", "lat": 48.138582, "lon": 11.573592, "p": "a"}, {"n": "Oktoberfest (seasonal)", "cat": "do", "tier": "", "a": "Theresienwiese", "d": "The world's largest folk festival, filling the Theresienwiese meadow for a fortnight from mid-September with vast brewery tents, brass bands, dirndls and fairground rides. A once-in-a-lifetime spectacle if your dates align; a reserved private box in a tent and a guide make it comfortable for a family.", "lat": 48.135789, "lon": 11.550128, "p": "v"}, {"n": "Dallmayr", "cat": "do", "tier": "", "a": "Altstadt", "d": "A legendary delicatessen and coffee house since the 17th century — marble halls of caviar, chocolates, cheeses and its own roasted coffee, with an elegant cafe and a Michelin-recognised restaurant above. The place for a refined hamper or a leisurely gourmet pause behind Marienplatz.", "lat": 48.10592, "lon": 11.599598, "p": "v"}, {"n": "Hellabrunn Zoo (Tierpark Hellabrunn)", "cat": "do", "tier": "", "a": "Thalkirchen", "d": "The world's first 'geo-zoo', organised by continent along the Isar's wooded banks — spacious, green and genuinely engaging for younger members of the family. A relaxed half-day that lets the grandparents and grandchildren all breathe.", "lat": 48.096281, "lon": 11.554197, "p": "v"}, {"n": "Bavaria Filmstadt", "cat": "do", "tier": "", "a": "Grünwald", "d": "The 'Hollywood of Europe' studio complex where classics from Das Boot to The NeverEnding Story were made, with sets, effects shows and a 4D cinema. A fun, weather-proof outing for families with children who love the movies.", "lat": 48.065427, "lon": 11.554015, "p": "v"}, {"n": "Sunday classical concert at the Herkulessaal or Isarphilharmonie", "cat": "do", "tier": "", "a": "Altstadt / Sendling", "d": "Munich is one of the world's great music cities — home to the Bavarian State Opera and the Munich Philharmonic — and an evening in the Residenz's Herkulessaal or the acclaimed Isarphilharmonie is a highlight. Your advisor can secure the best seats for a memorable, dress-up night.", "lat": 48.135984, "lon": 11.574438, "p": "a"}, {"n": "Zephyr Bar", "cat": "party", "tier": "Cocktail bars", "a": "Isarvorstadt (Glockenbach), Baaderstraße", "d": "A speakeasy-style hideaway with inventive, drinkable cocktails — Munich's most decorated modern bar.", "lat": 48.128971, "lon": 11.57651, "p": "v"}, {"n": "Schumann's Bar", "cat": "party", "tier": "Landmark bars", "a": "Altstadt (Old Town), Odeonsplatz", "d": "Charles Schumann's legendary bar — an icon of European drinking culture and one of the world's most influential cocktail rooms.", "lat": 48.143933, "lon": 11.578618, "p": "v"}, {"n": "Die Goldene Bar", "cat": "party", "tier": "Landmark bars", "a": "Maxvorstadt, inside the Haus der Kunst", "d": "A dazzling 1937 room within the Haus der Kunst — gilded wall-maps of the world's spirits beneath a modernist chandelier.", "lat": 48.144177, "lon": 11.586706, "p": "v"}, {"n": "Les Fleurs du Mal", "cat": "party", "tier": "Cocktail bars", "a": "Altstadt (Old Town), Odeonsplatz", "d": "Schumann's hidden upstairs bar — a single vast walnut table, low light, and a more intimate, considered pace.", "lat": 48.143917, "lon": 11.578713, "p": "v"}, {"n": "Ory", "cat": "party", "tier": "Cocktail bars", "a": "Altstadt (Old Town), Mandarin Oriental", "d": "Maximilian Gradl's avant-garde cocktail bar at the Mandarin Oriental — newly-interpreted classics and Krug by the glass.", "lat": 48.137097, "lon": 11.580783, "p": "v"}, {"n": "Blue Spa Bar & rooftop, Bayerischer Hof", "cat": "party", "tier": "Rooftops", "a": "Altstadt (Old Town), Promenadeplatz", "d": "The Andrée Putman-designed rooftop of the Bayerischer Hof — cocktails and one of the best open views over the Old Town.", "lat": 48.140107, "lon": 11.572445, "p": "a"}, {"n": "M'Uniqo Rooftop Bar", "cat": "party", "tier": "Rooftops", "a": "Schwabing, Andaz Munich, Schwabinger Tor", "d": "Munich's highest rooftop bar — 360-degree views over the skyline, the Olympiapark and, on a clear day, the Alps.", "lat": 48.125474, "lon": 11.605213, "p": "v"}]}
+{
+  "center": [
+    48.137108,
+    11.575382
+  ],
+  "venues": [
+    {
+      "n": "Hotel Vier Jahreszeiten Kempinski Munich",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Altstadt (Old Town), Maximilianstra\u00dfe",
+      "d": "The grande dame of Maximilianstra\u00dfe since 1858 \u2014 Munich's most storied address, on the city's grandest shopping boulevard.",
+      "lat": 48.139168,
+      "lon": 11.581965,
+      "photos": []
+    },
+    {
+      "n": "Hotel Bayerischer Hof",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Altstadt (Old Town), Promenadeplatz",
+      "d": "Family-owned since 1897 and the beating heart of society Munich \u2014 the hotel that hosts the Munich Security Conference.",
+      "lat": 48.140474,
+      "lon": 11.572928,
+      "photos": []
+    },
+    {
+      "n": "Mandarin Oriental, Munich",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Altstadt (Old Town), near the Hofbr\u00e4uhaus",
+      "d": "An intimate neo-Renaissance house of just 73 rooms, quietly tucked behind the Hofbr\u00e4uhaus \u2014 Mandarin Oriental precision in the Old Town.",
+      "lat": 48.137299,
+      "lon": 11.580733,
+      "photos": []
+    },
+    {
+      "n": "Rosewood Munich",
+      "cat": "stay",
+      "tier": "Ultra",
+      "a": "Altstadt (Old Town), Kardinal-Faulhaber-Stra\u00dfe",
+      "d": "Rosewood's first German house \u2014 the old Bavarian State Bank and the Palais Neuhaus-Preysing reborn as 132 rooms of calm, contemporary luxury.",
+      "lat": 48.141115,
+      "lon": 11.574422,
+      "photos": []
+    },
+    {
+      "n": "The Charles Hotel, a Rocco Forte Hotel",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Ludwigsvorstadt, Lenbach Gardens by the Old Botanical Garden",
+      "d": "Rocco Forte's Munich house of 2007, overlooking the Old Botanical Garden \u2014 a serious spa, a garden setting, and Olivia Forte's warm interiors.",
+      "lat": 48.142892,
+      "lon": 11.562518,
+      "photos": []
+    },
+    {
+      "n": "K\u00f6nigshof, a Luxury Collection Hotel, Munich",
+      "cat": "stay",
+      "tier": "Grand",
+      "a": "Altstadt (Old Town), Karlsplatz (Stachus)",
+      "d": "A landmark on Karlsplatz, wholly rebuilt and reopened in 2024 \u2014 Marriott's Luxury Collection debut in Munich, all contemporary grandeur.",
+      "lat": 48.139649,
+      "lon": 11.564537,
+      "photos": []
+    },
+    {
+      "n": "Hotel M\u00fcnchen Palace",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Bogenhausen, near Prinzregentenstra\u00dfe",
+      "d": "A quietly elegant, family-run town-house hotel in leafy Bogenhausen \u2014 residential calm a short hop from the centre.",
+      "lat": 48.140049,
+      "lon": 11.60126,
+      "photos": []
+    },
+    {
+      "n": "Cortiina Hotel",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Altstadt (Old Town), near the Viktualienmarkt",
+      "d": "A design-led boutique of natural stone and oak, moments from the Viktualienmarkt \u2014 understated, tactile, thoroughly Munich.",
+      "lat": 48.136807,
+      "lon": 11.57941,
+      "photos": []
+    },
+    {
+      "n": "Andaz Munich Schwabinger Tor",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Schwabing, Leopoldstra\u00dfe",
+      "d": "A bright, contemporary Hyatt design hotel on the edge of Schwabing \u2014 a rooftop bar, a spa, and an easy, younger polish.",
+      "lat": 48.172077,
+      "lon": 11.586434,
+      "photos": []
+    },
+    {
+      "n": "BEYOND by Geisel",
+      "cat": "stay",
+      "tier": "Luxury",
+      "a": "Altstadt (Old Town), Marienplatz",
+      "d": "A tiny, all-suite rooftop hideaway of the Geisel family, looking straight onto Marienplatz and the Frauenkirche.",
+      "lat": 48.136848,
+      "lon": 11.575378,
+      "photos": []
+    },
+    {
+      "n": "JAN",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Lehel, near the Isar",
+      "d": "Jan Hartwig's own restaurant \u2014 French artistry braided with German classics, from a chef who won three stars in record time.",
+      "lat": 48.155941,
+      "lon": 11.470984,
+      "photos": []
+    },
+    {
+      "n": "Tohru in der Schreiberei",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Altstadt (Old Town), Burgstra\u00dfe",
+      "d": "Tohru Nakamura's Japanese-German cooking in a historic Old Town townhouse \u2014 elevated to three stars in 2025.",
+      "lat": 48.137758,
+      "lon": 11.57693,
+      "photos": []
+    },
+    {
+      "n": "Atelier",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Altstadt (Old Town), Hotel Bayerischer Hof",
+      "d": "The two-star gourmet room inside the Bayerischer Hof \u2014 an intimate, art-filled setting for the city's grandest fine dining.",
+      "lat": 48.122275,
+      "lon": 11.554843,
+      "photos": []
+    },
+    {
+      "n": "Alois \u2013 Dallmayr Fine Dining",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Altstadt (Old Town), Dallmayr, Dienerstra\u00dfe",
+      "d": "The fine-dining room above the legendary Dallmayr delicatessen \u2014 refined, produce-led cooking under Rosina Ostler.",
+      "lat": 48.13832,
+      "lon": 11.577274,
+      "photos": []
+    },
+    {
+      "n": "EssZimmer",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Milbertshofen, BMW Welt",
+      "d": "A serene two-star dining room floating above BMW Welt \u2014 polished, classical cooking with fine views over the park.",
+      "lat": 48.137108,
+      "lon": 11.575382,
+      "photos": []
+    },
+    {
+      "n": "Tantris",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Schwabing, Johann-Fichte-Stra\u00dfe",
+      "d": "The 1971 icon that shaped German fine dining \u2014 reborn after a full refurbishment, its two stars intact under Benjamin Chmura.",
+      "lat": 48.169877,
+      "lon": 11.588248,
+      "photos": []
+    },
+    {
+      "n": "Komu",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Maxvorstadt",
+      "d": "Christoph Kunz's own restaurant after Alois \u2014 inventive, disciplined cooking that took two stars at pace.",
+      "lat": 48.136048,
+      "lon": 11.570575,
+      "photos": []
+    },
+    {
+      "n": "The Cloud by K\u00e4fer",
+      "cat": "eat",
+      "tier": "Destination",
+      "a": "Milbertshofen, BMW Welt",
+      "d": "Two-star cooking high in BMW Welt from the K\u00e4fer group \u2014 modern, generous, with a dramatic rooftop setting.",
+      "lat": 48.176895,
+      "lon": 11.556715,
+      "photos": []
+    },
+    {
+      "n": "Tantris DNA",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Schwabing, Johann-Fichte-Stra\u00dfe",
+      "d": "Tantris's more relaxed one-star sibling \u2014 the same building, a lighter, more spontaneous menu.",
+      "lat": 48.169833,
+      "lon": 11.588316,
+      "photos": []
+    },
+    {
+      "n": "Werneckhof by Sigi Schelling",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Schwabing, Werneckstra\u00dfe",
+      "d": "Sigi Schelling's precise, refined cooking in a warm Schwabing room \u2014 one of Munich's most respected one-stars.",
+      "lat": 48.159242,
+      "lon": 11.588393,
+      "photos": []
+    },
+    {
+      "n": "Brothers",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Maxvorstadt",
+      "d": "Twin brothers Tobias and Markus Klaas cook seasonal, personal menus in a smart, intimate room.",
+      "lat": 48.156252,
+      "lon": 11.575817,
+      "photos": []
+    },
+    {
+      "n": "Les Deux",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Altstadt (Old Town), Maffeistra\u00dfe",
+      "d": "A polished French one-star just off the smart F\u00fcnf H\u00f6fe arcades \u2014 classical technique in the heart of the Old Town.",
+      "lat": 48.13931,
+      "lon": 11.574642,
+      "photos": []
+    },
+    {
+      "n": "Sparkling Bistro",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Maxvorstadt",
+      "d": "A small, ambitious one-star with an easy bistro spirit and serious cooking behind it.",
+      "lat": 48.151815,
+      "lon": 11.577817,
+      "photos": []
+    },
+    {
+      "n": "1804 Hirschau",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Schwabing-Freimann, in the English Garden",
+      "d": "A one-star kitchen inside a historic beer garden in the English Garden \u2014 fine dining in a green Munich idyll.",
+      "lat": 48.172815,
+      "lon": 11.613444,
+      "photos": []
+    },
+    {
+      "n": "Gabelspiel",
+      "cat": "eat",
+      "tier": "Fine",
+      "a": "Giesing / Untergiesing",
+      "d": "An intimate, personally run one-star in a residential quarter \u2014 quietly excellent, away from the centre.",
+      "lat": 48.113616,
+      "lon": 11.577691,
+      "photos": []
+    },
+    {
+      "n": "Gasthaus Waltz",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Isarvorstadt, Ickstattstra\u00dfe",
+      "d": "A relaxed neighbourhood table doing excellent, unfussy cooking under chef Alexander Gasslbauer.",
+      "lat": 48.128156,
+      "lon": 11.573003,
+      "photos": []
+    },
+    {
+      "n": "mokum",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Ludwigsvorstadt, near the Theresienwiese",
+      "d": "A friendly, creative \u00e0-la-carte kitchen with an international hand \u2014 relaxed and reliably good.",
+      "lat": 48.137108,
+      "lon": 11.575382,
+      "photos": []
+    },
+    {
+      "n": "Wirtshaus in der Au",
+      "cat": "eat",
+      "tier": "Smart",
+      "a": "Au-Haidhausen, Lilienstra\u00dfe",
+      "d": "The dumpling house \u2014 Bavarian home cooking done properly, famous for its Kn\u00f6del, in a warm 1901 tavern.",
+      "lat": 48.129035,
+      "lon": 11.58657,
+      "photos": []
+    },
+    {
+      "n": "Hofbr\u00e4uhaus am Platzl",
+      "cat": "eat",
+      "tier": "Casual",
+      "a": "Altstadt (Old Town), Platzl",
+      "d": "The world's most famous beer hall \u2014 royal since 1589, with brass bands, communal benches and litre steins under the vaults.",
+      "lat": 48.137633,
+      "lon": 11.579979,
+      "photos": []
+    },
+    {
+      "n": "Marienplatz & the Glockenspiel",
+      "cat": "do",
+      "tier": "",
+      "a": "Altstadt",
+      "d": "The heart of Munich since 1158, framed by the neo-Gothic New Town Hall whose Glockenspiel clockwork jousts and dances daily at 11am (and noon, and 5pm in summer). A perfect first orientation stop for a multi-generational group, with the Frauenkirche towers rising just behind.",
+      "lat": 48.136922,
+      "lon": 11.574768,
+      "photos": []
+    },
+    {
+      "n": "The Residenz & Treasury (Schatzkammer)",
+      "cat": "do",
+      "tier": "",
+      "a": "Altstadt",
+      "d": "The former royal palace of the Wittelsbach dynasty, one of Europe's finest, with 130 rooms of state apartments and a Treasury holding almost 2,000 years of crowns, reliquaries and jewels across ten chambers. A private guide brings the Antiquarium's barrel-vaulted Renaissance hall to life for a family that appreciates dynastic history.",
+      "lat": 48.140633,
+      "lon": 11.578615,
+      "photos": []
+    },
+    {
+      "n": "Cuvilli\u00e9s Theatre",
+      "cat": "do",
+      "tier": "",
+      "a": "Altstadt",
+      "d": "A jewel-box Rococo court theatre of tiered gilt boxes, red velvet and cherubs, tucked inside the Residenz \u2014 where Mozart premiered Idomeneo in 1781. Small, intimate and often overlooked; ask your advisor about a chamber concert for an evening of true old-Europe glamour.",
+      "lat": 48.14089,
+      "lon": 11.580058,
+      "photos": []
+    },
+    {
+      "n": "The Alte Pinakothek",
+      "cat": "do",
+      "tier": "",
+      "a": "Maxvorstadt",
+      "d": "One of the world's great old-master galleries \u2014 D\u00fcrer, Rubens (the largest Rubens collection anywhere), Rembrandt, Raphael, Leonardo. The three Pinakotheks sit within a short walk of each other in the museum quarter, ideal for a curated private morning at a civilised pace.",
+      "lat": 48.149229,
+      "lon": 11.571149,
+      "photos": []
+    },
+    {
+      "n": "The Neue Pinakothek collection (at the Alte Pinakothek & Sammlung Schack)",
+      "cat": "do",
+      "tier": "",
+      "a": "Maxvorstadt",
+      "d": "The 19th-century masterworks \u2014 Van Gogh, Monet, Klimt, Turner, Caspar David Friedrich \u2014 currently shown across the Alte Pinakothek and the Sammlung Schack while the Neue's own building is renovated. Worth confirming the current hang before you go.",
+      "lat": 48.149072,
+      "lon": 11.567446,
+      "photos": []
+    },
+    {
+      "n": "The Pinakothek der Moderne",
+      "cat": "do",
+      "tier": "",
+      "a": "Maxvorstadt",
+      "d": "Four museums under one soaring rotunda: modern art (Picasso, Warhol, Beckmann), design, architecture and works on paper. The design collection alone \u2014 from Bauhaus to a century of automobiles \u2014 rewards a design-minded traveller.",
+      "lat": 48.14716,
+      "lon": 11.572227,
+      "photos": []
+    },
+    {
+      "n": "Museum Brandhorst",
+      "cat": "do",
+      "tier": "",
+      "a": "Maxvorstadt",
+      "d": "A striking multi-coloured ceramic-clad building housing the finest Cy Twombly holdings in Europe and a deep Warhol collection. Contemporary, uncrowded and quietly luxurious \u2014 a refined counterpoint to the old masters next door.",
+      "lat": 48.148118,
+      "lon": 11.574091,
+      "photos": []
+    },
+    {
+      "n": "Lenbachhaus (Blue Rider collection)",
+      "cat": "do",
+      "tier": "",
+      "a": "Maxvorstadt",
+      "d": "A honey-toned Florentine villa with a golden Foster wing, home to the world's greatest collection of the Blue Rider (Der Blaue Reiter) movement \u2014 Kandinsky, Marc, M\u00fcnter and their electric, colour-drenched early modernism. A jewel that even seasoned collectors underrate.",
+      "lat": 48.149072,
+      "lon": 11.567446,
+      "photos": []
+    },
+    {
+      "n": "The Deutsches Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Isarvorstadt (Museum Island)",
+      "d": "The largest science-and-technology museum in the world, on its own island in the Isar \u2014 aircraft, ships, mining, space and hands-on demonstrations across 19 renovated exhibitions. Endlessly engaging for children and grandparents alike; note the ongoing modernisation through 2028, so parts remain closed.",
+      "lat": 48.132752,
+      "lon": 11.542073,
+      "photos": []
+    },
+    {
+      "n": "The English Garden & Eisbach surfers",
+      "cat": "do",
+      "tier": "",
+      "a": "Schwabing / Lehel",
+      "d": "One of the world's largest urban parks \u2014 bigger than New York's Central Park \u2014 where surfers ride the standing Eisbach river wave year-round at the southern edge. A gentle stroll, a horse-drawn carriage, and the theatre of surfers in an inland city is pure Munich.",
+      "lat": 48.151924,
+      "lon": 11.595985,
+      "photos": []
+    },
+    {
+      "n": "The Chinese Tower beer garden",
+      "cat": "do",
+      "tier": "",
+      "a": "English Garden",
+      "d": "A 25-metre wooden pagoda ringed by 7,000 seats under chestnut trees, with an oompah band in the tower \u2014 the quintessential Munich beer garden. Bring your own picnic to the self-service tables (a local tradition) or be served; veg-friendly pretzels, cheese and salads are easy here.",
+      "lat": 48.152552,
+      "lon": 11.592097,
+      "photos": []
+    },
+    {
+      "n": "Nymphenburg Palace & park",
+      "cat": "do",
+      "tier": "",
+      "a": "Neuhausen-Nymphenburg",
+      "d": "The Wittelsbachs' vast Baroque summer palace, its canal-flanked facade stretching over half a kilometre, set in formal gardens and a romantic English park with pavilions like the Rococo Amalienburg. The Gallery of Beauties and the royal state coaches make a serene, chauffeured half-day.",
+      "lat": 48.158257,
+      "lon": 11.503297,
+      "photos": []
+    },
+    {
+      "n": "The Viktualienmarkt",
+      "cat": "do",
+      "tier": "",
+      "a": "Altstadt",
+      "d": "Munich's daily gourmet food market since 1807 \u2014 140 stalls of Alpine cheeses, exotic fruit, spices, flowers and honey around a maypole and a small beer garden. A wonderful grazing stop, and a private food guide can navigate the best veg and produce vendors.",
+      "lat": 48.136105,
+      "lon": 11.575352,
+      "photos": []
+    },
+    {
+      "n": "The Frauenkirche (Cathedral of Our Lady)",
+      "cat": "do",
+      "tier": "",
+      "a": "Altstadt",
+      "d": "Munich's landmark cathedral, its twin onion-domed brick towers the emblem of the city skyline, with the legendary 'Devil's Footprint' set in the entrance floor. Climb (or take the lift up) the south tower for the finest view over the old town to the Alps on a clear day.",
+      "lat": 48.137828,
+      "lon": 11.574582,
+      "photos": []
+    },
+    {
+      "n": "The Asamkirche",
+      "cat": "do",
+      "tier": "",
+      "a": "Altstadt",
+      "d": "A tiny, breathtakingly opulent late-Baroque church squeezed between houses, built by the Asam brothers as their private chapel \u2014 a riot of gold, marble, frescoes and dramatic light. Small enough to miss, unforgettable once you step inside.",
+      "lat": 48.13521,
+      "lon": 11.569523,
+      "photos": []
+    },
+    {
+      "n": "The Hofbr\u00e4uhaus",
+      "cat": "do",
+      "tier": "",
+      "a": "Altstadt",
+      "d": "The world's most famous beer hall, a royal brewery since 1589, with vaulted painted ceilings, a brass band and litre steins. Touristic, yes, but iconic \u2014 for a more local hall try the Augustiner-Keller or L\u00f6wenbr\u00e4ukeller; all serve hearty (and some veg) Bavarian fare.",
+      "lat": 48.137633,
+      "lon": 11.579979,
+      "photos": []
+    },
+    {
+      "n": "Odeonsplatz & the Theatinerkirche",
+      "cat": "do",
+      "tier": "",
+      "a": "Altstadt",
+      "d": "A grand Italianate square with the yellow Theatinerkirche's soaring Baroque dome and the Feldherrnhalle loggia modelled on Florence's Loggia dei Lanzi. A cinematic photo stop and the gateway to the royal Hofgarten and the Residenz.",
+      "lat": 48.142204,
+      "lon": 11.577056,
+      "photos": []
+    },
+    {
+      "n": "Maximilianstrasse luxury shopping",
+      "cat": "do",
+      "tier": "",
+      "a": "Altstadt",
+      "d": "Munich's grandest boulevard, a stately 19th-century avenue lined with Louis Vuitton, Dior, Chanel, Cartier and the storied Hotel Vier Jahreszeiten. The city's true luxury mile \u2014 a private personal shopper can arrange after-hours appointments.",
+      "lat": 48.137828,
+      "lon": 11.574582,
+      "photos": []
+    },
+    {
+      "n": "BMW Welt & BMW Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Am Riesenfeld / Milbertshofen",
+      "d": "A futuristic double-cone delivery centre and swirling museum tracing a century of BMW design, beside the four-cylinder headquarters tower. Book a factory tour or a hot lap for the car enthusiasts in the family; the architecture alone is worth the trip.",
+      "lat": 48.176903,
+      "lon": 11.559069,
+      "photos": []
+    },
+    {
+      "n": "Olympiapark",
+      "cat": "do",
+      "tier": "",
+      "a": "Milbertshofen-Am Hart",
+      "d": "The 1972 Olympic grounds, with Frei Otto's revolutionary sweeping tent-roof canopies over the stadium and lake. Ride the lift up the 291-metre Olympic Tower for a 360-degree panorama, or catch a summer concert on the lawns.",
+      "lat": 48.168706,
+      "lon": 11.550364,
+      "photos": []
+    },
+    {
+      "n": "The NS-Documentation Centre",
+      "cat": "do",
+      "tier": "",
+      "a": "Maxvorstadt",
+      "d": "A stark white cube on the former site of the Nazi Party headquarters, documenting Munich's role as the 'Capital of the Movement' with unflinching honesty. A sober, essential counterweight to the city's beauty; thoughtfully presented for reflective visitors and older children.",
+      "lat": 48.149072,
+      "lon": 11.567446,
+      "photos": []
+    },
+    {
+      "n": "Schwabing",
+      "cat": "do",
+      "tier": "",
+      "a": "Schwabing",
+      "d": "Munich's old bohemian and university quarter, where Kandinsky, Thomas Mann and Rilke once lived \u2014 leafy streets of Jugendstil facades, independent cafes, bookshops and the buzz around Leopoldstrasse. Best explored slowly on foot, coffee in hand.",
+      "lat": 48.168926,
+      "lon": 11.58995,
+      "photos": []
+    },
+    {
+      "n": "Glockenbachviertel",
+      "cat": "do",
+      "tier": "",
+      "a": "Isarvorstadt",
+      "d": "Munich's most creative and stylish neighbourhood \u2014 design boutiques, natural-wine bars, third-wave coffee and some of the city's best modern and vegetarian-forward restaurants. The place to feel the contemporary, discreetly cool side of the city.",
+      "lat": 48.127864,
+      "lon": 11.570614,
+      "photos": []
+    },
+    {
+      "n": "G\u00e4rtnerplatz",
+      "cat": "do",
+      "tier": "",
+      "a": "Isarvorstadt",
+      "d": "A pretty circular flower-filled square anchored by the intimate G\u00e4rtnerplatz State Theatre (opera and operetta), ringed by cafes that spill onto the pavement in summer. The gentle social heart of the Glockenbach quarter.",
+      "lat": 48.131247,
+      "lon": 11.575702,
+      "photos": []
+    },
+    {
+      "n": "The Bavarian National Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Lehel",
+      "d": "A sumptuous survey of European decorative and folk art \u2014 ivories, tapestries, armour and one of the finest Nativity-crib collections in the world. Grand, quiet halls that reward unhurried appreciation of craft and dynasty.",
+      "lat": 48.143386,
+      "lon": 11.59115,
+      "photos": []
+    },
+    {
+      "n": "The Alte Pinakothek's neighbour \u2014 Glyptothek & K\u00f6nigsplatz",
+      "cat": "do",
+      "tier": "",
+      "a": "Maxvorstadt",
+      "d": "Ludwig I's neoclassical 'Athens on the Isar' \u2014 a temple-fronted square with the Glyptothek's Greek and Roman sculpture and the State Antiquities Collection facing it. Serene, columned and rarely crowded, a classicist's delight.",
+      "lat": 48.149072,
+      "lon": 11.567446,
+      "photos": []
+    },
+    {
+      "n": "St. Peter's Church (Alter Peter) tower",
+      "cat": "do",
+      "tier": "",
+      "a": "Altstadt",
+      "d": "Munich's oldest parish church, whose tower \u2014 climbed by a spiral of 306 steps \u2014 gives arguably the best close-up view over Marienplatz, the Frauenkirche and, on a clear day, the Alps. A rewarding effort for the fit and a classic photographer's perch.",
+      "lat": 48.136462,
+      "lon": 11.576031,
+      "photos": []
+    },
+    {
+      "n": "Museum Villa Stuck",
+      "cat": "do",
+      "tier": "",
+      "a": "Bogenhausen",
+      "d": "The lavish Jugendstil villa of painter Franz von Stuck, a total artwork of gilded, mythological interiors on the elegant east bank of the Isar. A hidden gem of Munich's belle-epoque wealth and taste, paired with changing modern exhibitions.",
+      "lat": 48.140487,
+      "lon": 11.599661,
+      "photos": []
+    },
+    {
+      "n": "A stroll along the Isar & Maximiliansanlagen",
+      "cat": "do",
+      "tier": "",
+      "a": "Lehel / Au",
+      "d": "Munich's clear alpine river runs green through the city with wild gravel banks, footbridges and the golden Angel of Peace monument on the terraced hillside above. A restorative walk or cycle away from the crowds, especially beautiful at golden hour.",
+      "lat": 48.139656,
+      "lon": 11.587921,
+      "photos": []
+    },
+    {
+      "n": "Neuschwanstein & Hohenschwangau",
+      "cat": "do",
+      "tier": "",
+      "a": "day-trip",
+      "d": "Ludwig II's fairy-tale white castle on its crag above an alpine lake \u2014 the model for Disney's \u2014 paired with his boyhood home of Hohenschwangau just below. Freshly inscribed as UNESCO World Heritage; go with a private driver and pre-booked timed tickets to skip the queues, and consider the Marienbr\u00fccke view.",
+      "lat": 48.138582,
+      "lon": 11.573592,
+      "photos": []
+    },
+    {
+      "n": "Linderhof Palace",
+      "cat": "do",
+      "tier": "",
+      "a": "day-trip",
+      "d": "The only castle Ludwig II lived to complete \u2014 an intimate, gilded Rococo villa set in formal gardens with fountains, a grotto and a Moorish kiosk in the mountains near Oberammergau. Smaller and more perfect than Neuschwanstein; pairs beautifully with the Wieskirche and Oberammergau's painted houses.",
+      "lat": 48.138582,
+      "lon": 11.573592,
+      "photos": []
+    },
+    {
+      "n": "Herrenchiemsee (Ludwig's Versailles)",
+      "cat": "do",
+      "tier": "",
+      "a": "day-trip",
+      "d": "Ludwig II's homage to Louis XIV on an island in the Chiemsee, Bavaria's largest lake \u2014 reached by ferry, with a Hall of Mirrors rivalling Versailles itself and vast gardens. A magical full day: lake steamer, palace, and lunch by the water southeast of Munich.",
+      "lat": 48.138582,
+      "lon": 11.573592,
+      "photos": []
+    },
+    {
+      "n": "The Wieskirche (Pilgrimage Church of Wies)",
+      "cat": "do",
+      "tier": "",
+      "a": "day-trip",
+      "d": "A Rococo miracle standing alone in an alpine meadow near Steingaden \u2014 an unassuming exterior concealing one of the most exuberant painted interiors in Europe. A serene, spiritual stop on the way to or from Neuschwanstein.",
+      "lat": 48.138582,
+      "lon": 11.573592,
+      "photos": []
+    },
+    {
+      "n": "Zugspitze & Garmisch-Partenkirchen",
+      "cat": "do",
+      "tier": "",
+      "a": "day-trip",
+      "d": "Germany's highest peak at 2,962 metres, reached by cog railway and cable car from the chic resort town of Garmisch, with a glacier and a 360-degree Alpine panorama into four countries. A thrilling, easy-access mountain day; the summit terrace and restaurant suit all ages.",
+      "lat": 48.138582,
+      "lon": 11.573592,
+      "photos": []
+    },
+    {
+      "n": "Salzburg",
+      "cat": "do",
+      "tier": "",
+      "a": "day-trip",
+      "d": "Mozart's baroque city just across the Austrian border \u2014 the Hohensalzburg fortress, Mirabell Gardens, and Sound of Music scenery, easily a full day with a private driver. Elegant, walkable and a change of country over lunch.",
+      "lat": 48.14313,
+      "lon": 11.483158,
+      "photos": []
+    },
+    {
+      "n": "Dachau Concentration Camp Memorial",
+      "cat": "do",
+      "tier": "",
+      "a": "day-trip",
+      "d": "The first Nazi concentration camp, now a memorial site of profound gravity, preserved as a place of remembrance and education. Visited with quiet respect and a knowledgeable guide, it is a moving and important experience; consider carefully whether younger children should join.",
+      "lat": 48.270434,
+      "lon": 11.468295,
+      "photos": []
+    },
+    {
+      "n": "Kloster Andechs (the Holy Mountain)",
+      "cat": "do",
+      "tier": "",
+      "a": "day-trip",
+      "d": "Bavaria's oldest pilgrimage site, a Rococo-Baroque church on a hilltop above the Ammersee, famed for its monk-brewed beer and vast tree-shaded beer garden with views to the Alps. A joyful, low-key day: a lake, a gentle hike or drive, and a Bavarian Brotzeit.",
+      "lat": 48.138582,
+      "lon": 11.573592,
+      "photos": []
+    },
+    {
+      "n": "Berchtesgaden & K\u00f6nigssee",
+      "cat": "do",
+      "tier": "",
+      "a": "day-trip",
+      "d": "A fjord-like emerald lake ringed by sheer peaks, crossed by silent electric boats to the red-domed St. Bartholom\u00e4 chapel \u2014 arguably the most beautiful spot in the German Alps. Combine with the Eagle's Nest for staggering views; a scenic if longer drive south.",
+      "lat": 48.138582,
+      "lon": 11.573592,
+      "photos": []
+    },
+    {
+      "n": "The Romantic Road (Rothenburg ob der Tauber)",
+      "cat": "do",
+      "tier": "",
+      "a": "day-trip",
+      "d": "Germany's most celebrated scenic route through medieval walled towns and vineyards, with perfectly preserved Rothenburg ob der Tauber \u2014 cobbled lanes, half-timbered houses and intact ramparts \u2014 as its jewel. A storybook drive north, ideal with a private car and driver.",
+      "lat": 48.138582,
+      "lon": 11.573592,
+      "photos": []
+    },
+    {
+      "n": "Tegernsee",
+      "cat": "do",
+      "tier": "",
+      "a": "day-trip",
+      "d": "An upmarket Alpine lake an hour south, beloved by Munich's well-to-do for its clear water, lakeside promenades, a former monastery brewery and the wellness sanctuary of Bad Wiessee. A refined, restorative escape with grand lakeside dining.",
+      "lat": 48.118275,
+      "lon": 11.582755,
+      "photos": []
+    },
+    {
+      "n": "Starnberger See",
+      "cat": "do",
+      "tier": "",
+      "a": "day-trip",
+      "d": "The nearest of Munich's five lakes \u2014 the 'Lake of Princes' \u2014 where villas line the shore, sailboats drift, and a cross in the water marks where Ludwig II mysteriously drowned. A short trip for a lakeside lunch and a boat cruise beneath the Alpine horizon.",
+      "lat": 47.90927,
+      "lon": 11.308363,
+      "photos": []
+    },
+    {
+      "n": "Oberammergau",
+      "cat": "do",
+      "tier": "",
+      "a": "day-trip",
+      "d": "A picture-book alpine village famous for its L\u00fcftlmalerei (frescoed house facades), woodcarving workshops, and the once-a-decade Passion Play. A charming, craft-rich stop en route to Linderhof, with genuine artisan ateliers to browse.",
+      "lat": 48.138582,
+      "lon": 11.573592,
+      "photos": []
+    },
+    {
+      "n": "Oktoberfest (seasonal)",
+      "cat": "do",
+      "tier": "",
+      "a": "Theresienwiese",
+      "d": "The world's largest folk festival, filling the Theresienwiese meadow for a fortnight from mid-September with vast brewery tents, brass bands, dirndls and fairground rides. A once-in-a-lifetime spectacle if your dates align; a reserved private box in a tent and a guide make it comfortable for a family.",
+      "lat": 48.135789,
+      "lon": 11.550128,
+      "photos": []
+    },
+    {
+      "n": "Dallmayr",
+      "cat": "do",
+      "tier": "",
+      "a": "Altstadt",
+      "d": "A legendary delicatessen and coffee house since the 17th century \u2014 marble halls of caviar, chocolates, cheeses and its own roasted coffee, with an elegant cafe and a Michelin-recognised restaurant above. The place for a refined hamper or a leisurely gourmet pause behind Marienplatz.",
+      "lat": 48.10592,
+      "lon": 11.599598,
+      "photos": []
+    },
+    {
+      "n": "Hellabrunn Zoo (Tierpark Hellabrunn)",
+      "cat": "do",
+      "tier": "",
+      "a": "Thalkirchen",
+      "d": "The world's first 'geo-zoo', organised by continent along the Isar's wooded banks \u2014 spacious, green and genuinely engaging for younger members of the family. A relaxed half-day that lets the grandparents and grandchildren all breathe.",
+      "lat": 48.096281,
+      "lon": 11.554197,
+      "photos": []
+    },
+    {
+      "n": "Bavaria Filmstadt",
+      "cat": "do",
+      "tier": "",
+      "a": "Gr\u00fcnwald",
+      "d": "The 'Hollywood of Europe' studio complex where classics from Das Boot to The NeverEnding Story were made, with sets, effects shows and a 4D cinema. A fun, weather-proof outing for families with children who love the movies.",
+      "lat": 48.065427,
+      "lon": 11.554015,
+      "photos": []
+    },
+    {
+      "n": "Sunday classical concert at the Herkulessaal or Isarphilharmonie",
+      "cat": "do",
+      "tier": "",
+      "a": "Altstadt / Sendling",
+      "d": "Munich is one of the world's great music cities \u2014 home to the Bavarian State Opera and the Munich Philharmonic \u2014 and an evening in the Residenz's Herkulessaal or the acclaimed Isarphilharmonie is a highlight. Your advisor can secure the best seats for a memorable, dress-up night.",
+      "lat": 48.135984,
+      "lon": 11.574438,
+      "photos": []
+    },
+    {
+      "n": "Zephyr Bar",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Isarvorstadt (Glockenbach), Baaderstra\u00dfe",
+      "d": "A speakeasy-style hideaway with inventive, drinkable cocktails \u2014 Munich's most decorated modern bar.",
+      "lat": 48.128971,
+      "lon": 11.57651,
+      "photos": []
+    },
+    {
+      "n": "Schumann's Bar",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "Altstadt (Old Town), Odeonsplatz",
+      "d": "Charles Schumann's legendary bar \u2014 an icon of European drinking culture and one of the world's most influential cocktail rooms.",
+      "lat": 48.143933,
+      "lon": 11.578618,
+      "photos": []
+    },
+    {
+      "n": "Die Goldene Bar",
+      "cat": "party",
+      "tier": "Landmark bars",
+      "a": "Maxvorstadt, inside the Haus der Kunst",
+      "d": "A dazzling 1937 room within the Haus der Kunst \u2014 gilded wall-maps of the world's spirits beneath a modernist chandelier.",
+      "lat": 48.144177,
+      "lon": 11.586706,
+      "photos": []
+    },
+    {
+      "n": "Les Fleurs du Mal",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Altstadt (Old Town), Odeonsplatz",
+      "d": "Schumann's hidden upstairs bar \u2014 a single vast walnut table, low light, and a more intimate, considered pace.",
+      "lat": 48.143917,
+      "lon": 11.578713,
+      "photos": []
+    },
+    {
+      "n": "Ory",
+      "cat": "party",
+      "tier": "Cocktail bars",
+      "a": "Altstadt (Old Town), Mandarin Oriental",
+      "d": "Maximilian Gradl's avant-garde cocktail bar at the Mandarin Oriental \u2014 newly-interpreted classics and Krug by the glass.",
+      "lat": 48.137097,
+      "lon": 11.580783,
+      "photos": []
+    },
+    {
+      "n": "Blue Spa Bar & rooftop, Bayerischer Hof",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "Altstadt (Old Town), Promenadeplatz",
+      "d": "The Andr\u00e9e Putman-designed rooftop of the Bayerischer Hof \u2014 cocktails and one of the best open views over the Old Town.",
+      "lat": 48.140107,
+      "lon": 11.572445,
+      "photos": []
+    },
+    {
+      "n": "M'Uniqo Rooftop Bar",
+      "cat": "party",
+      "tier": "Rooftops",
+      "a": "Schwabing, Andaz Munich, Schwabinger Tor",
+      "d": "Munich's highest rooftop bar \u2014 360-degree views over the skyline, the Olympiapark and, on a clear day, the Alps.",
+      "lat": 48.125474,
+      "lon": 11.605213,
+      "photos": []
+    }
+  ]
+}
