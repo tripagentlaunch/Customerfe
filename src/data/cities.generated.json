@@ -104392,26 +104392,26 @@
             {
               "label": "Morning",
               "text": "A slow morning on your suite terrace at Katikies or Canaves, the caldera dropping away below.",
-              "lat": null,
-              "lon": null,
-              "place": null,
-              "category": null
+              "lat": 36.461,
+              "lon": 25.3756,
+              "place": "Katikies",
+              "category": "stay"
             },
             {
               "label": "Afternoon",
               "text": "The quiet end of Oia's marble lanes, the Atlantis bookshop, and the old castle ruin.",
-              "lat": null,
-              "lon": null,
-              "place": null,
-              "category": null
+              "lat": 36.4614,
+              "lon": 25.3751,
+              "place": "Atlantis Books",
+              "category": "do"
             },
             {
               "label": "Evening",
               "text": "The sunset from a private terrace, then dinner at Lycabettus above Oia's cliff.",
-              "lat": null,
-              "lon": null,
-              "place": null,
-              "category": null
+              "lat": 36.4608,
+              "lon": 25.3742,
+              "place": "Lycabettus",
+              "category": "eat"
             }
           ]
         },
@@ -104422,26 +104422,26 @@
             {
               "label": "Morning",
               "text": "A private catamaran from Ammoudi around the caldera to the hot springs and Thirassia.",
-              "lat": null,
-              "lon": null,
-              "place": null,
-              "category": null
+              "lat": 36.465,
+              "lon": 25.3707,
+              "place": "Ammoudi Bay",
+              "category": "do"
             },
             {
               "label": "Afternoon",
               "text": "Lunch aboard at anchor, then a swim off the red and white volcanic beaches.",
-              "lat": null,
-              "lon": null,
-              "place": null,
-              "category": null
+              "lat": 36.3502,
+              "lon": 25.3958,
+              "place": "Red Beach",
+              "category": "do"
             },
             {
               "label": "Evening",
               "text": "Grilled fish at the Ammoudi Bay tavernas, boats knocking at the jetty beside you.",
-              "lat": null,
-              "lon": null,
-              "place": null,
-              "category": null
+              "lat": 36.465,
+              "lon": 25.3707,
+              "place": "Ammoudi Bay Tavernas",
+              "category": "eat"
             }
           ]
         },
@@ -104452,26 +104452,26 @@
             {
               "label": "Morning",
               "text": "The Akrotiri excavations, the Bronze Age city preserved under ash, then Santo Wines' assyrtiko.",
-              "lat": null,
-              "lon": null,
-              "place": null,
-              "category": null
+              "lat": 36.3508,
+              "lon": 25.4033,
+              "place": "Akrotiri",
+              "category": "do"
             },
             {
               "label": "Afternoon",
               "text": "A tasting flight and lunch on the caldera terrace at a family estate in Pyrgos.",
-              "lat": null,
-              "lon": null,
-              "place": null,
-              "category": null
+              "lat": 36.3766,
+              "lon": 25.4326,
+              "place": "Santo Wines",
+              "category": "eat"
             },
             {
               "label": "Evening",
               "text": "Dinner at Selene in Pyrgos, the island's serious kitchen, well away from the crowds.",
-              "lat": null,
-              "lon": null,
-              "place": null,
-              "category": null
+              "lat": 36.3762,
+              "lon": 25.4649,
+              "place": "Selene, Pyrgos",
+              "category": "eat"
             }
           ]
         }
@@ -104480,7 +104480,11 @@
         "label": "Have your advisor arrange the stay",
         "href": "enquire.html?dest=santorini"
       },
-      "arrivalPoint": null
+      "arrivalPoint": {
+        "label": "Santorini Airport (JTR)",
+        "lat": 36.3992,
+        "lon": 25.4793
+      }
     },
     "neighbourhoods": {
       "heading": "Where to base yourself",
@@ -104507,24 +104511,44 @@
           "when": "early Oct",
           "name": "Santorini Experience",
           "note": "An open-water swim and running event set against the caldera, at the season's gentler end.",
-          "months": [],
-          "location": null,
+          "months": [
+            "Oct"
+          ],
+          "location": {
+            "label": "Fira, Santorini",
+            "lat": 36.4166,
+            "lon": 25.4318
+          },
           "photo": null
         },
         {
           "when": "varies (summer)",
           "name": "Ifestia Festival",
           "note": "A re-enactment of the volcano's eruption with fireworks over the caldera at Fira.",
-          "months": [],
-          "location": null,
+          "months": [
+            "Jul",
+            "Aug"
+          ],
+          "location": {
+            "label": "Fira Old Port, Santorini",
+            "lat": 36.4176,
+            "lon": 25.4321
+          },
           "photo": null
         },
         {
           "when": "April/May",
           "name": "Greek Orthodox Easter",
           "note": "Candlelit processions and fireworks in the villages \u2014 the islands' most moving celebration; date follows the Orthodox calendar.",
-          "months": [],
-          "location": null,
+          "months": [
+            "Apr",
+            "May"
+          ],
+          "location": {
+            "label": "Pyrgos, Santorini",
+            "lat": 36.3778,
+            "lon": 25.4658
+          },
           "photo": null
         }
       ]

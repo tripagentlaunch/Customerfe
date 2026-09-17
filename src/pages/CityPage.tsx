@@ -199,6 +199,19 @@ function GuidePanel({ panel, active, selectedTier }: { panel: CityGuidePanel; ac
   );
 }
 
+// Deliberately loud, not a quiet CityMap substitute — see the two call
+// sites below. This is a data problem for whoever is wiring up a city, not
+// a normal empty-state a real visitor should ever see live; it should read
+// as "fix this," not blend in as if the page were designed this way.
+function MapDataMissing({ reason }: { reason: string }) {
+  return (
+    <div className={styles.mapDataMissing}>
+      <strong>Map data missing</strong>
+      <p>{reason}</p>
+    </div>
+  );
+}
+
 function AccordionRow({ label, value }: { label: string; value: string }) {
   const [open, setOpen] = useState(false);
   return (
@@ -552,23 +565,45 @@ export default function CityPage() {
       </div>
 
       <div className={styles.taSplitMap}>
-        {planInView && activeDayStops.length > 1 ? (
+        {planInView ? (
           // Checked ahead of the calendar's own EventMap below: Plan sits
           // right under the Calendar section, and planInView only goes true
           // once 50%+ of Plan is actually on screen (see its observer's own
           // comment) — by then the user has genuinely moved on, so Plan
           // should win even if Calendar's own observer hasn't flipped false
           // yet (its threshold is a plain "any pixel visible").
-          <PlanRouteMap stops={activeDayStops} activeIndex={activeDayStopIndex} />
-        ) : calendarInView && calendarActiveEvent?.location ? (
-          <EventMap
-            point={{
-              lat: calendarActiveEvent.location.lat,
-              lon: calendarActiveEvent.location.lon,
-              name: calendarActiveEvent.name ?? calendarActiveEvent.location.label,
-              photo: calendarActiveEvent.photo ?? placeholderPhoto(`event-${calendarActiveEvent.name}`),
-            }}
-          />
+          activeDayStops.length > 1 ? (
+            <PlanRouteMap stops={activeDayStops} activeIndex={activeDayStopIndex} />
+          ) : (
+            // Deliberately NOT a silent fallback to CityMap — that used to
+            // make missing per-city plan-coordinate data invisible (looked
+            // "fine", just showed the generic venue map instead of the
+            // route). This section is supposed to show PlanRouteMap; if it
+            // can't, that should be obvious to whoever's wiring up data for
+            // a new city, not something that quietly degrades.
+            <MapDataMissing reason="plan.days[].slots[] have no lat/lon for this city — PlanRouteMap needs at least 2 stops with coordinates (see CityDay in types/city.ts)." />
+          )
+        ) : calendarInView ? (
+          calendarActiveEvent?.location ? (
+            <EventMap
+              point={{
+                lat: calendarActiveEvent.location.lat,
+                lon: calendarActiveEvent.location.lon,
+                name: calendarActiveEvent.name ?? calendarActiveEvent.location.label,
+                photo: calendarActiveEvent.photo ?? placeholderPhoto(`event-${calendarActiveEvent.name}`),
+              }}
+            />
+          ) : (
+            // Same reasoning as the Plan case above — surfaced instead of
+            // silently showing CityMap.
+            <MapDataMissing
+              reason={
+                calendarActiveEvent
+                  ? "This event has no location set — whatsOn.events[].location is required for EventMap (see types/city.ts)."
+                  : "No event is currently selectable — check that whatsOn.events[].months is populated for this city."
+              }
+            />
+          )
         ) : (
           <CityMap slug={city.slug} />
         )}
