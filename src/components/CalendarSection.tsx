@@ -43,7 +43,17 @@ export default function CalendarSection({
   onInViewChange?: (inView: boolean) => void;
 }) {
   const sectionRef = useRef<HTMLElement | null>(null);
-  const [inView, setInView] = useState(false);
+  // inView needs two independent signals, not one: whether the *previous*
+  // section has scrolled out (this section has been reached at all) and
+  // whether *this* section itself has since scrolled out (been passed). A
+  // single observer on the previous sibling can only ever answer the first
+  // question — once its bottom is above the viewport it stays there for
+  // the rest of the scroll, including deep into Plan/Guide/etc. below, so
+  // inView would latch true and never reset to false on the way down the
+  // page.
+  const [prevExited, setPrevExited] = useState(false);
+  const [selfExited, setSelfExited] = useState(false);
+  const inView = prevExited && !selfExited;
 
   // Selection inputs: a pinned (clicked) month, or the auto-advance pointer.
   const [pinnedMonth, setPinnedMonth] = useState<string | null>(null);
@@ -90,8 +100,8 @@ export default function CalendarSection({
 
   useEffect(() => {
     // Watches the *previous* section (whatever CityPage happens to render
-    // right before this one), not this section itself — "in view" here
-    // means "the previous section has fully scrolled out", specifically.
+    // right before this one), not this section itself — "prevExited" means
+    // "the previous section has fully scrolled out", specifically.
     // Anchoring on this section's own box instead (e.g. "my top has
     // reached the viewport's top") happens to give the same answer only
     // when the two sections are flush with no gap between them; it stops
@@ -104,8 +114,21 @@ export default function CalendarSection({
     const el = sectionRef.current;
     const prev = el?.previousElementSibling;
     if (!prev) return;
-    const observer = new IntersectionObserver(([entry]) => setInView(entry.boundingClientRect.bottom <= 0), { threshold: 0 });
+    const observer = new IntersectionObserver(([entry]) => setPrevExited(entry.boundingClientRect.bottom <= 0), { threshold: 0 });
     observer.observe(prev);
+    return () => observer.disconnect();
+  }, []);
+
+  useEffect(() => {
+    // Watches this section's own box for the same "exited upward" signal,
+    // so inView correctly drops back to false once the user has scrolled
+    // past Calendar into whatever comes after it (Plan, Guide, etc.) —
+    // without this, prevExited alone stays latched true for the rest of
+    // the page and the Calendar map/selection state never releases.
+    const el = sectionRef.current;
+    if (!el) return;
+    const observer = new IntersectionObserver(([entry]) => setSelfExited(entry.boundingClientRect.bottom <= 0), { threshold: 0 });
+    observer.observe(el);
     return () => observer.disconnect();
   }, []);
 
