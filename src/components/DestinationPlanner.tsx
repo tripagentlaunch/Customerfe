@@ -45,26 +45,27 @@ export default function DestinationPlanner({ planner }: { planner: PlannerData }
         </div>
 
         <div className={styles.plGrid} aria-live="polite">
-          {ranked.map(({ city, score }, i) => (
+          {ranked.map(({ city }, i) => (
             <Link
               className={styles.plCard}
               style={{ animationDelay: `${(i * 0.06).toFixed(2)}s` }}
               to={`/city-${city.slug}#stay`}
               key={city.slug}
             >
-              <div className={styles.pic}>
-                <span style={{ backgroundImage: `url('${city.image}')` }} />
+              <div className={styles.cardOuter}>
+                <div className={styles.pic}>
+                  <span style={{ backgroundImage: `url('${city.image}')` }} />
+                </div>
+                <div className={styles.cardBody}>
+                  <h3>{city.name}</h3>
+                  <ul className={styles.plStays}>
+                    {city.topStays.map((stay, si) => (
+                      <li key={si}>{stay}</li>
+                    ))}
+                  </ul>
+                  <div className={styles.go}>Where to stay</div>
+                </div>
               </div>
-              <div className={styles.why}>
-                {score === 2 ? "At its best" : "A fine shoulder"} · {planner.months[month]}
-              </div>
-              <h3>{city.name}</h3>
-              <ul className={styles.plStays}>
-                {city.topStays.map((stay, si) => (
-                  <li key={si}>{stay}</li>
-                ))}
-              </ul>
-              <div className={styles.go}>Where to stay</div>
             </Link>
           ))}
         </div>

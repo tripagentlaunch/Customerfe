@@ -8,6 +8,32 @@
  * behind it to advertise.
  */
 
+/* Every section on the home page shares one left/right margin, held in
+ * this single `--home-gutter` variable so nothing can drift out of sync
+ * with it — `.wrap` (see css/site.css) uses it for normal sections, and
+ * `.tripsRow` below uses the exact same value for its full-bleed
+ * horizontal-scroll gallery, so the first/last card's edges land on the
+ * identical margin as everything else, not an approximation of it.
+ *
+ * `.wrap`'s own padding is a responsive clamp(22px,5vw,80px) — used
+ * site-wide (nav, headers, footer) — so it's not safe to change globally;
+ * scoped here to a flat 64px on real (non-mobile) widths instead, falling
+ * back to that shared clamp below 700px so small screens aren't crushed
+ * by a flat 64px on each side.
+ */
+.home {
+  --home-gutter: 64px;
+}
+@media (max-width: 700px) {
+  .home {
+    --home-gutter: var(--gutter);
+  }
+}
+.home :global(.wrap) {
+  padding-left: var(--home-gutter);
+  padding-right: var(--home-gutter);
+}
+
 .disc {
   background: var(--paper);
   padding-top: clamp(40px, 5vw, 72px);
@@ -254,4 +280,146 @@
 }
 .decCard .go::after {
   content: " →";
+}
+
+/* TRIPS GALLERY's horizontal-scroll row: the margin here is a hard visual
+ * boundary at every scroll position, not just an approximation and not
+ * just at the two resting extremes — a card must never be partially
+ * visible past the same left/right line the header above it respects,
+ * whether the row is at rest, mid-drag, or fully scrolled.
+ *
+ * An earlier version tried to get this with padding alone on the scroll
+ * container itself — that only constrains the two resting extremes
+ * (scrollLeft 0 and scrollLeft max), because padding scrolls WITH the
+ * content: a card mid-drag can still slide underneath it and appear to
+ * poke past the margin line before settling. Padding cannot produce a
+ * hard boundary at arbitrary mid-scroll positions, only an inset on the
+ * content itself.
+ *
+ * The actual fix: two nested boxes; the outer viewport's edges are the
+ * hard boundary and clip anything past them at every instant (not just
+ * at rest), the inner row is what actually scrolls:
+ *
+ * - `.tripsViewport` (this class) mirrors `.wrap`'s exact box model —
+ *   max-width:1240px (css/site.css overrides the site-wide --maxw:1280px
+ *   for `.wrap` specifically) centered via margin:auto, with the same
+ *   `--home-gutter` padding every other section's `.wrap` uses — but
+ *   with `overflow:hidden`, so its own padding edge is a real clip
+ *   boundary, not just visual spacing. This is what makes both edges
+ *   track `.wrap`'s at any viewport width, matching it exactly rather
+ *   than approximating it at only the widths a given test happens to
+ *   cover (confirmed: without matching `.wrap`'s own max-width/centering
+ *   logic, the two visibly drift apart past ~1368px wide).
+ * - `.trips-row` (css/site.css; unmodified now) is the actual scroll
+ *   container inside it, full width of the viewport box, no padding of
+ *   its own — a card sliding past the viewport's clipped edge is fully
+ *   hidden, not peeking, at any scroll position, including mid-drag.
+ */
+.tripsViewport {
+  max-width: 1240px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--home-gutter);
+  padding-right: var(--home-gutter);
+  padding-top: 40px;
+  overflow: hidden;
+}
+
+/* "Our Promise" (the .lh-* timeline, formerly its own section on a plain
+ * --bone background) now sits on top of the Dubai photo instead. None of
+ * `.lh-*`'s base styling (css/site.css) is dark-background-aware — it was
+ * only ever designed for a light band — so every color that isn't already
+ * covered by the site's existing `.band-dark h2/.eyebrow/.em` overrides
+ * needs a light/white variant scoped to just this section.
+ *
+ * `--accent-2` (used by `.lh-node.on .dot` and `.lh-seal .lab i`) is
+ * `#1A1714` — the same near-black as `--ink`, not the oxblood
+ * `--signature` color it might look like from a screenshot — so those
+ * two in particular would be nearly invisible against a dark photo
+ * without this override, not just low-contrast.
+ */
+.promiseOnDark {
+  overflow: hidden;
+}
+/* `.band`'s own padding shorthand (css/site.css, clamp(140px,14vh,280px)
+ * both sides) is cut down here specifically — a shorter section means less
+ * of the photo is needed to fill it, so `background-position: top` (see
+ * HomePage.tsx) crops more of the harbor/ground off the bottom without
+ * zooming the image at all. Top padding is left at its normal generous
+ * value; only the bottom is trimmed. Compound selector (not just
+ * `.promiseOnDark`) for the same reason as `.tripsRow` earlier in this
+ * file: a bare single-class module rule has equal specificity to `.band`'s
+ * shorthand and isn't safe to rely on winning by import order alone.
+ */
+.promiseOnDark:global(.band) {
+  padding-bottom: 64px;
+}
+.promiseOnDark :global(.lh-a) {
+  stroke: rgba(255, 255, 255, 0.45);
+}
+.promiseOnDark :global(.lh-b) {
+  stroke: #fff;
+}
+.promiseOnDark :global(.lh-node .dot) {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.7);
+}
+.promiseOnDark :global(.lh-node.on .dot) {
+  border-color: #fff;
+}
+.promiseOnDark :global(.lh-node .lab b) {
+  color: #fff;
+  text-shadow: var(--shadow-dark);
+}
+.promiseOnDark :global(.lh-node .lab i) {
+  color: rgba(255, 255, 255, 0.78);
+}
+.promiseOnDark :global(.lh-gate .gline) {
+  background: repeating-linear-gradient(rgba(255, 255, 255, 0.55) 0 4px, transparent 4px 9px);
+}
+.promiseOnDark :global(.lh-gate .glab) {
+  color: rgba(255, 255, 255, 0.85);
+}
+.promiseOnDark :global(.lh-seal .lab b) {
+  color: #fff;
+  text-shadow: var(--shadow-dark);
+}
+.promiseOnDark :global(.lh-seal .lab i) {
+  color: rgba(255, 255, 255, 0.85);
+}
+@media (max-width: 820px) {
+  .promiseOnDark :global(.lh-track::before) {
+    background: linear-gradient(rgba(255, 255, 255, 0.4) 0 38%, #fff 60%);
+  }
+}
+
+/* Services section's lede: one line at normal widths (its container was
+ * widened to 72ch specifically to fit it), but `nowrap` alone would
+ * overflow horizontally on a narrow phone where that container can't
+ * actually reach 72ch — falls back to normal wrapping below ~480px so a
+ * small screen never gets a horizontal scrollbar from this line.
+ */
+.servicesLede {
+  white-space: nowrap;
+}
+@media (max-width: 480px) {
+  .servicesLede {
+    white-space: normal;
+  }
+}
+
+.worldMapWrap {
+  margin-top: 44px;
+  /* Full-bleed: break out of whatever centered/padded ancestor would
+     otherwise constrain it (this section's own children aren't wrapped in
+     `.wrap` for this element, but keep the same escape here in case that
+     ever changes) and span the full viewport width.
+     Height/overflow used to live here too, but WorldMap.tsx now renders a
+     tab bar above its own <svg> — capping height on this outer wrap would
+     let the tab bar eat into the map's fixed box and clip it. That sizing
+     now lives on WorldMap.module.css's own .canvas, wrapping just the
+     <svg>, so the tab bar sits above it at its own natural height. */
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
 }

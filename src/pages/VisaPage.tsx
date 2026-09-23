@@ -46,7 +46,7 @@ export default function VisaPage() {
       <header
         className="hero left hero-ed"
         data-hero
-        style={{ minHeight: "84svh", backgroundImage: `url('${hero.image}')`, backgroundPosition: hero.imagePosition ?? undefined }}
+        style={{ backgroundImage: `url('${hero.image}')`, backgroundPosition: hero.imagePosition ?? undefined }}
       >
         <div className="wrap hero-inner">
           <div className="hs-copy">

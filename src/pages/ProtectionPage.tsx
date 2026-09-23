@@ -19,7 +19,7 @@ export default function ProtectionPage() {
 
   return (
     <main>
-      <header className={`hero left ${styles.heroPro}`} style={{ minHeight: "86svh", backgroundImage: `url('${hero.image}')`, backgroundPosition: "58% 40%" }}>
+      <header className={`hero left ${styles.heroPro}`} style={{ backgroundImage: `url('${hero.image}')`, backgroundPosition: "58% 40%" }}>
         <div className="wrap hero-inner">
           <div className="hs-copy">
             <div className="eyebrow on-dark">{hero.eyebrow}</div>

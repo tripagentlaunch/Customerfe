@@ -16,7 +16,7 @@ export default function CollectionPageLayout({ data }: { data: CollectionPageDat
 
   return (
     <main>
-      <header className={`hero left ${styles.dpHero}`} style={{ minHeight: "90svh", backgroundImage: `url('${hero.image}')` }}>
+      <header className={`hero left ${styles.dpHero}`} style={{ backgroundImage: `url('${hero.image}')` }}>
         <div className="wrap hero-inner">
           <div className={styles.dpCopy}>
             <Link className="cta on-dark reveal" to={toRoute(hero.back.href)} style={{ marginBottom: 20 }}>

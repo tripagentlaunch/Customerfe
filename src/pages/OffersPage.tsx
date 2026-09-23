@@ -21,7 +21,7 @@ export default function OffersPage() {
     <>
       <header
         className="hero hero-ed"
-        style={{ minHeight: "78svh", backgroundImage: `url('${hero.image}')`, backgroundPosition: "60% 50%" }}
+        style={{ backgroundImage: `url('${hero.image}')`, backgroundPosition: "60% 50%" }}
       >
         <div className="wrap hero-inner">
           <div className="hs-copy">

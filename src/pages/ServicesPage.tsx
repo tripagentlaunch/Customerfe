@@ -19,7 +19,7 @@ export default function ServicesPage() {
 
   return (
     <main>
-      <header className="hero left hero-ed" style={{ minHeight: "88svh", backgroundImage: `url('${hero.image}')`, backgroundPosition: "58% 42%" }}>
+      <header className="hero left hero-ed" style={{ backgroundImage: `url('${hero.image}')`, backgroundPosition: "58% 42%" }}>
         <div className="wrap hero-inner">
           <div className="hs-copy">
             <div className="eyebrow on-dark reveal">{hero.eyebrow}</div>

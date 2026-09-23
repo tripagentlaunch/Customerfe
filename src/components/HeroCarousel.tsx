@@ -52,8 +52,12 @@ export default function HeroCarousel({ slides }: { slides: HeroSlide[] }) {
     };
   }, []);
 
+  // Content is fixed — only the background photo cycles between slides.
+  // Taken from the first slide, once, rather than re-read per active slide.
+  const content = slides[0];
+
   return (
-    <header className={`hero ${styles.heroEd}`} aria-roledescription="carousel" aria-label="A private travel maison">
+    <header className={`hero left ${styles.heroEd}`} aria-roledescription="carousel" aria-label="A private travel maison">
       <div className={`swiper ${styles.swiperRoot}`} ref={containerRef}>
         <div className="swiper-wrapper">
           {slides.map((slide, i) => (
@@ -71,31 +75,6 @@ export default function HeroCarousel({ slides }: { slides: HeroSlide[] }) {
                 className={styles.heroSlideBg}
                 style={{ backgroundImage: slide.image ? `url('${slide.image}')` : undefined }}
               />
-              <div className={styles.slideInner}>
-                <div className="wrap">
-                  <div className={styles.hsCopy}>
-                    <div className="eyebrow on-dark">{slide.eyebrow}</div>
-                    <div className="rule" />
-                    <h1 className={`display ${styles.display}`} dangerouslySetInnerHTML={{ __html: slide.headingHtml ?? "" }} />
-                    <p className={`lede on-dark ${styles.lede}`} style={{ marginTop: 24 }}>
-                      {slide.lede}
-                    </p>
-                    <div className={styles.heroCtaRow}>
-                      {slide.ctaLinks.map((cta, ci) =>
-                        ci === 0 ? (
-                          <Link className="btn btn-gold on-dark btn-square" to={toRoute(cta.href)} key={ci}>
-                            {cta.label}
-                          </Link>
-                        ) : (
-                          <Link className={styles.heroTextlink} to={toRoute(cta.href)} key={ci}>
-                            {cta.label}
-                          </Link>
-                        )
-                      )}
-                    </div>
-                  </div>
-                </div>
-              </div>
               {/* Kept in the DOM for data parity with the source, but hidden by
                   the same `.hero-inset,.hero-nextup{display:none!important}`
                   rule as index.html — the A&K-style hero ships uncluttered
@@ -117,6 +96,58 @@ export default function HeroCarousel({ slides }: { slides: HeroSlide[] }) {
         </div>
         <button className="swiper-button-prev" type="button" aria-label="Previous slide" ref={prevElRef} />
         <button className="swiper-button-next" type="button" aria-label="Next slide" ref={nextElRef} />
+      </div>
+
+      {/* Static content overlay — sits on top of the whole swiper, not tied
+          to any one slide, so it never changes as the background cycles. */}
+      <div className={styles.slideInner}>
+        <div className="wrap">
+          <div className={styles.hsCopy}>
+            <div className="eyebrow on-dark">{content.eyebrow}</div>
+            <div className="rule" />
+            <h1 className={`display ${styles.display}`} dangerouslySetInnerHTML={{ __html: content.headingHtml ?? "" }} />
+            <p className={`lede on-dark ${styles.lede}`} style={{ marginTop: 24 }}>
+              {content.lede}
+            </p>
+            <div className={styles.heroCtaRow}>
+              {content.ctaLinks.map((cta, ci) => {
+                if (ci === 0) {
+                  return (
+                    <Link className={`btn btn-gold on-dark btn-square ${styles.heroCta}`} to={toRoute(cta.href)} key={ci}>
+                      <span className={styles.heroCtaLabel}>
+                        {cta.label}
+                        <span className={styles.heroCtaArrow} aria-hidden="true">
+                          →
+                        </span>
+                      </span>
+                    </Link>
+                  );
+                }
+                if (ci === 1) {
+                  return (
+                    <Link className={`btn btn-ghost on-dark ${styles.heroCtaSecondary}`} to={toRoute(cta.href)} key={ci}>
+                      <span className={styles.heroCtaLabel}>
+                        {cta.label}
+                        <span className={styles.heroCtaArrow} aria-hidden="true">
+                          →
+                        </span>
+                      </span>
+                    </Link>
+                  );
+                }
+                // Tertiary: plain text + arrow, no border/box — underline
+                // appears on hover (see HeroCarousel.module.css's
+                // .heroCtaTertiary). Lowest-weight of the 3 CTAs.
+                return (
+                  <Link className={styles.heroCtaTertiary} to={toRoute(cta.href)} key={ci}>
+                    {cta.label}
+                    <span aria-hidden="true">→</span>
+                  </Link>
+                );
+              })}
+            </div>
+          </div>
+        </div>
       </div>
     </header>
   );

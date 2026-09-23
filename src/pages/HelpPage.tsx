@@ -19,7 +19,7 @@ export default function HelpPage() {
 
   return (
     <main>
-      <header className="hero hero-ed" style={{ minHeight: "72svh", backgroundImage: `url('${hero.image}')`, backgroundPosition: "50% 55%" }}>
+      <header className="hero hero-ed" style={{ backgroundImage: `url('${hero.image}')`, backgroundPosition: "50% 55%" }}>
         <div className="wrap hero-inner">
           <div className="hs-copy">
             <div className="eyebrow on-dark">{hero.eyebrow}</div>

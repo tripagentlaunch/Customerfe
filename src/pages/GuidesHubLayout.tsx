@@ -19,7 +19,7 @@ export default function GuidesHubLayout({ data, styles }: { data: GuidesHubPageD
     <main>
       <header
         className="hero left hero-ed"
-        style={{ minHeight: "84svh", backgroundImage: `url('${hero.image}')`, backgroundPosition: "62% 50%" }}
+        style={{ backgroundImage: `url('${hero.image}')`, backgroundPosition: "62% 50%" }}
       >
         <div className="wrap hero-inner">
           <div className="hs-copy">

@@ -11,3 +11,4 @@ vite.config.d.ts
 .env
 .env.local
 .env.*.local
+.DS_Store

@@ -21,7 +21,7 @@ export default function ItinerariesPage() {
     <>
       <header
         className="hero hero-ed"
-        style={{ minHeight: "78svh", backgroundImage: `url('${hero.image}')`, backgroundPosition: "55% 40%" }}
+        style={{ backgroundImage: `url('${hero.image}')`, backgroundPosition: "55% 40%" }}
       >
         <div className="wrap hero-inner">
           <div className="hs-copy">

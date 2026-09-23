@@ -25,7 +25,7 @@ export default function CareersPage() {
 
   return (
     <main>
-      <header className="hero hero-ed" style={{ minHeight: "80svh", backgroundImage: `url('${hero.image}')`, backgroundPosition: "60% 35%" }}>
+      <header className="hero hero-ed" style={{ backgroundImage: `url('${hero.image}')`, backgroundPosition: "60% 35%" }}>
         <div className="wrap hero-inner">
           <div className="hs-copy">
             <div className="eyebrow on-dark">{hero.eyebrow}</div>

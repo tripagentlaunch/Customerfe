@@ -37,30 +37,45 @@
 
 .plGrid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: clamp(16px, 1.7vw, 26px);
+  grid-template-columns: repeat(4, 1fr);
+  gap: clamp(48px, 5vw, 72px) clamp(16px, 1.7vw, 26px);
   align-items: start;
 }
 @media (max-width: 980px) {
   .plGrid {
     grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
+    gap: 48px 24px;
   }
 }
 @media (max-width: 620px) {
   .plGrid {
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    gap: 40px 20px;
   }
 }
 
+/* Restructured to mirror CityPage's guide list 1:1 (.cg-list li >
+ * .card-inner > .card-thumb-wrap + .card-body), rotated 90° since our
+ * photo sits ABOVE the text instead of beside it:
+ *   .cg-list li      -> .plCard   (the clip + background-fill box)
+ *   .card-inner      -> .cardOuter (grid: rows here, columns there)
+ *   .card-thumb-wrap -> .pic      (untouched by any of this, own hover-zoom)
+ *   .card-body       -> .cardBody (the scale/reveal element)
+ * .plCard is the fixed-size box: no padding of its own (so it never
+ * resizes/reflows the grid), overflow:hidden to clip .cardBody's
+ * transform, and the background-color fill that was on the li. */
 .plCard {
-  display: flex;
-  flex-direction: column;
+  display: block;
+  overflow: hidden;
+  background: transparent;
   text-decoration: none;
   color: inherit;
   opacity: 0;
+  transition: background-color 0.9s cubic-bezier(0.4, 0, 0.2, 1);
   animation: plIn 0.55s var(--ease, cubic-bezier(0.22, 0.61, 0.36, 1)) forwards;
+}
+.plCard:hover {
+  background: var(--paper-2);
 }
 @keyframes plIn {
   from {
@@ -71,6 +86,31 @@
     opacity: 1;
     transform: none;
   }
+}
+.cardOuter {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 16px;
+}
+/* The text block's hover reveal. Top-anchored (transform-origin 50% 0%):
+ * the top edge is fixed (matches zero top padding, flush against the
+ * photo above, same idea as Guide's left-anchor against its thumbnail),
+ * left/right/bottom all get padding and grow from that fixed top line.
+ * This DOES re-open the failure mode noted below for a too-large scale —
+ * short, single-line, non-filling text can clip on left/right under a
+ * center-x reveal — so the scale/padding pair here is deliberately small
+ * and was verified against real rendered text extents (not just the
+ * formula) across every current card before landing on these values;
+ * re-verify the same way if padding or font-size here changes again. */
+.cardBody {
+  min-width: 0;
+  padding: 0 10px 10px;
+  transform: scale(1.06);
+  transform-origin: 50% 0%;
+  transition: transform 0.9s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.plCard:hover .cardBody {
+  transform: scale(1);
 }
 .plCard .pic {
   aspect-ratio: 4 / 5;
@@ -90,21 +130,12 @@
 .plCard:hover .pic span {
   transform: scale(1.05);
 }
-.plCard .why {
-  font-family: var(--fr);
-  font-weight: 600;
-  font-size: 10px;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
-  color: var(--accent-2);
-  margin-top: 15px;
-}
 .plCard h3 {
-  font-family: var(--logo);
-  font-weight: 500;
-  font-size: clamp(21px, 1.5vw, 25px);
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: clamp(24px, 1.9vw, 30px);
   line-height: 1.08;
-  margin: 5px 0 0;
+  margin: 15px 0 0;
 }
 .plCard .plStays {
   list-style: none;
@@ -113,16 +144,18 @@
 }
 .plCard .plStays li {
   font-family: var(--logo);
-  font-weight: 500;
+  font-weight: 400;
   font-size: 15px;
   line-height: 1.42;
-  color: var(--ink-soft);
+  color: var(--stone);
   padding: 5px 0 5px 13px;
   position: relative;
-  border-top: 1px solid var(--line-soft);
-}
-.plCard .plStays li:first-child {
-  border-top: 0;
+  /* Longer hotel names (e.g. "Four Seasons Hotel Tokyo at Otemachi") were
+     wrapping to a second line, making that one card taller than its row
+     siblings even though the card's own box is otherwise fixed-size. */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .plCard .plStays li::before {
   content: "";
@@ -136,17 +169,23 @@
 .plCard .go {
   font-family: var(--fr);
   font-weight: 600;
-  font-size: 12px;
+  font-size: 15px;
   letter-spacing: 0.02em;
   color: var(--ink-soft);
-  margin-top: 12px;
+  margin-top: 14px;
+  padding-bottom: 3px;
   display: inline-flex;
-  gap: 6px;
+  gap: 7px;
   align-items: center;
-  transition: color 0.25s;
+  background-image: linear-gradient(var(--accent-2), var(--accent-2));
+  background-size: 0 1px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: color 0.25s, background-size 0.4s var(--ease, ease);
 }
 .plCard:hover .go {
   color: var(--accent-2);
+  background-size: 100% 1px;
 }
 .plCard .go::after {
   content: "\2192";
