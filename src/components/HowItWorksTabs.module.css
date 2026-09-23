@@ -1,0 +1,169 @@
+/* Visual language borrowed from the "Our Promise" timeline (site.css's
+ * .lh-track/.lh-node/.lh-seal) — same line/dot/label idea, own
+ * implementation (see the comment in HowItWorksTabs.tsx for why). Stays on
+ * the shared .band-dark background (#111, site.css) in light mode rather
+ * than a section-specific override — tried a medium-dark brown here,
+ * reverted back to black. */
+.section {
+  overflow: hidden;
+}
+/* Site dark mode (:root[data-theme="dark"], see site.css) only — a dark
+ * grey, distinguishably lighter than .band-dark's near-black #111 but not
+ * a LIGHT grey, so this section still reads as a distinct "dark band"
+ * against the rest of dark mode's own (warm, near-black) palette without
+ * jumping out too much. Higher specificity than .band-dark's plain class
+ * rule (an attribute selector on :root plus two classes) wins outright,
+ * no !important needed. */
+:global(:root[data-theme="dark"] .how-it-works-band) {
+  background-color: #1e1a14;
+}
+
+.track {
+  position: relative;
+  height: 96px;
+  max-width: 1100px;
+  margin: 0 auto 56px;
+}
+/* top:0 (not 6px) — .dot is a 12px circle sitting at top:-5px inside a
+ * flex column starting at .node's top:0, so its vertical center lands at
+ * ~1px, not mid-track; this must match that, not an arbitrary offset. */
+.line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.4);
+}
+.lineFill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #fff;
+  transition: width 0.6s var(--ease, ease);
+}
+
+.node {
+  position: absolute;
+  top: 0;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  color: inherit;
+  font: inherit;
+}
+/* Light dot on a dark section — the inverse of .lh-node's dark-dot-on-photo
+ * treatment, needed because this section is a flat dark background, not a
+ * photo with a scrim. A dark fill here was invisible (see the conversation
+ * this was built from). */
+.dot {
+  position: relative;
+  top: -5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #14110d;
+  border: 2px solid rgba(255, 255, 255, 0.45);
+  transition: border-color 0.4s var(--ease, ease), transform 0.4s var(--ease, ease), background 0.4s var(--ease, ease);
+}
+.node.on .dot {
+  background: #fff;
+  border-color: #fff;
+}
+.node.current .dot {
+  transform: scale(1.35);
+}
+.node.seal .dot {
+  width: 30px;
+  height: 30px;
+  top: -14px;
+  border-radius: 50%;
+  background: #4a4a4a;
+  border: none;
+  color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.4s var(--ease, ease), color 0.4s var(--ease, ease), box-shadow 0.4s var(--ease, ease);
+}
+.node.seal.on .dot {
+  background: #fff;
+  color: #14110d;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.3);
+}
+
+.lab {
+  margin-top: 22px;
+  text-align: center;
+}
+.lab b {
+  display: block;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: -0.01em;
+  color: #fff;
+  opacity: 0.55;
+  transition: opacity 0.4s var(--ease, ease);
+}
+.node.on .lab b {
+  opacity: 1;
+}
+.lab i {
+  font-style: normal;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.6);
+  margin-top: 2px;
+  display: block;
+}
+
+@media (max-width: 820px) {
+  .track {
+    display: none;
+  }
+}
+
+/* Body: illustration (left) + copy (right) */
+.body {
+  align-items: center;
+}
+.illustration {
+  position: relative;
+  aspect-ratio: 3 / 4;
+  max-width: 420px;
+  margin: 0 auto;
+  width: 100%;
+}
+.illustrationImg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0.6s var(--ease, ease);
+}
+.illustrationImgActive {
+  opacity: 1;
+}
+
+.heading {
+  color: #fff;
+  font-size: clamp(28px, 3.4vw, 48px);
+}
+.lede {
+  max-width: 46ch;
+}
+
+@media (max-width: 820px) {
+  .body {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}

@@ -36,7 +36,7 @@ export default function PortalPage() {
 
   return (
     <main>
-      <header className={`hero left ${styles.heroPrt}`} style={{ minHeight: "84svh", backgroundImage: `url('${hero.image}')`, backgroundPosition: "58% 46%" }}>
+      <header className={`hero left ${styles.heroPrt}`} style={{ backgroundImage: `url('${hero.image}')`, backgroundPosition: "58% 46%" }}>
         <div className="wrap hero-inner">
           <div className="hs-copy">
             <div className="eyebrow on-dark">{hero.eyebrow}</div>

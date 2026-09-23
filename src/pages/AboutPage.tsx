@@ -19,7 +19,7 @@ export default function AboutPage() {
 
   return (
     <main>
-      <header className={`hero left ${styles.heroAbt}`} style={{ minHeight: "84svh", backgroundImage: `url('${hero.image}')`, backgroundPosition: "55% 50%" }}>
+      <header className={`hero left ${styles.heroAbt}`} style={{ backgroundImage: `url('${hero.image}')`, backgroundPosition: "55% 50%" }}>
         <div className="wrap hero-inner">
           <div className="hs-copy">
             <div className="eyebrow on-dark">{hero.eyebrow}</div>

@@ -12,11 +12,11 @@
         "lede": "One person who knows you, and knows travel. They plan it, book it and stay with it \u2014 flights, hotels, visas \u2014 until you are home.",
         "ctaLinks": [
           {
-            "label": "Enter your invitation",
-            "href": "invitation.html"
+            "label": "Plan your trip",
+            "href": "enquire.html"
           },
           {
-            "label": "Ask our concierge",
+            "label": "Ask your advisor",
             "href": "concierge.html"
           },
           {
@@ -38,11 +38,11 @@
         "lede": "Your advisor holds the seat, settles the fare, arranges the upgrade \u2014 quietly. The long flight becomes the part you look forward to.",
         "ctaLinks": [
           {
-            "label": "Enter your invitation",
-            "href": "invitation.html"
+            "label": "Plan your trip",
+            "href": "enquire.html"
           },
           {
-            "label": "Ask our concierge",
+            "label": "Ask your advisor",
             "href": "concierge.html"
           },
           {
@@ -64,11 +64,11 @@
         "lede": "The suite you prefer, the floor you ask for, the welcome already arranged \u2014 booked by someone the house knows by name.",
         "ctaLinks": [
           {
-            "label": "Enter your invitation",
-            "href": "invitation.html"
+            "label": "Plan your trip",
+            "href": "enquire.html"
           },
           {
-            "label": "Ask our concierge",
+            "label": "Ask your advisor",
             "href": "concierge.html"
           },
           {
@@ -90,11 +90,11 @@
         "lede": "From the first idea to the last mile \u2014 visas, changes, the 2 a.m. call from abroad. One advisor, the whole way.",
         "ctaLinks": [
           {
-            "label": "Enter your invitation",
-            "href": "invitation.html"
+            "label": "Plan your trip",
+            "href": "enquire.html"
           },
           {
-            "label": "Ask our concierge",
+            "label": "Ask your advisor",
             "href": "concierge.html"
           },
           {
@@ -1419,7 +1419,7 @@
     "eyebrow": "What we handle",
     "headingHtml": "You bring the <span class=\"it\">why</span>. We handle the <span class=\"it\">how</span>.",
     "lede": "Three things, done completely \u2014 so all you carry is anticipation.",
-    "allLabel": "All we handle \u2192",
+    "allLabel": "All we handle",
     "allHref": "services.html",
     "cards": [
       {
@@ -1623,7 +1623,7 @@
     "eyebrow": "Where our members go",
     "heading": "Trips we love to craft.",
     "hint": "Drag to explore \u2192",
-    "allLabel": "All destinations \u2192",
+    "allLabel": "All destinations",
     "allHref": "destinations.html",
     "items": [
       {

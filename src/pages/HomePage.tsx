@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react"; // useRef unused while the "Our Promise" scroll-drawn line is shelved (see below) — restore alongside it
 import { Link } from "react-router-dom";
 import homepageData from "../data/homepage.generated.json";
 import type { HomepageData } from "../types/homepage";
@@ -6,7 +6,9 @@ import { useScrollReveal } from "../lib/useScrollReveal";
 import { toRoute } from "../lib/toRoute";
 import HeroCarousel from "../components/HeroCarousel";
 import DestinationPlanner from "../components/DestinationPlanner";
-import ConciergeChatDemo from "../components/ConciergeChatDemo";
+import WorldMap from "../components/WorldMap";
+import HowItWorksTabs from "../components/HowItWorksTabs";
+// import ConciergeChatDemo from "../components/ConciergeChatDemo"; — shelved with the HOW IT WORKS section below, not deleted
 import styles from "./home-page.module.css";
 
 const data = homepageData as unknown as HomepageData;
@@ -30,56 +32,17 @@ function readJSON(key: string): unknown {
   }
 }
 
-// Count-up stat — ported from ta-engage.js's countUp(), one IntersectionObserver
-// per number so each animates only once, the moment it scrolls into view.
-function StatCountUp({ count, suffix }: { count: string; suffix: string }) {
-  const ref = useRef<HTMLDivElement | null>(null);
-  const target = parseInt(count, 10);
-  // Rendered up front (same progressive-enhancement fallback as the source's
-  // static "3,00,000+" seed text) so the number never sits blank — before
-  // the effect runs, and permanently if IntersectionObserver isn't supported.
-  const finalText = target.toLocaleString("en-IN") + suffix;
-
-  useEffect(() => {
-    const el = ref.current;
-    if (!el || typeof IntersectionObserver === "undefined") return;
-    let done = false;
-    function step(ts: number, t0: number) {
-      const p = Math.min((ts - t0) / 1500, 1);
-      const eased = 1 - Math.pow(1 - p, 3);
-      if (el) el.textContent = Math.round(target * eased).toLocaleString("en-IN") + (p === 1 ? suffix : "");
-      if (p < 1) requestAnimationFrame((next) => step(next, t0));
-    }
-    const io = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting && !done) {
-            done = true;
-            requestAnimationFrame((t0) => step(t0, t0));
-            io.unobserve(entry.target);
-          }
-        });
-      },
-      { threshold: 0.35 }
-    );
-    io.observe(el);
-    return () => io.disconnect();
-  }, [count, suffix]);
-
-  return (
-    <div className="v stat-num" ref={ref}>
-      {finalText}
-    </div>
-  );
-}
-
 export default function HomePage() {
   useEffect(() => {
     if (data.seo.title) document.title = data.seo.title;
   }, []);
   useScrollReveal([]);
 
-  const { discover, decide, planner, problem, way, services, stats, shift, howItWorks, trips, membership, signature, who, testimonials, finalCta } = data;
+  // `who` ("Who it's for"), `shift` ("The shift"), `problem` ("The world
+  // today"), `way` ("What we did"), and `membership` were all removed from
+  // the homepage per request — sections and data references alike.
+  const { discover, decide, planner, services, trips, testimonials, finalCta } = data;
+  // `howItWorks` and `stats`/`signature` (data.howItWorks/.stats/.signature) are unused while their sections below are shelved — restore these destructures alongside them.
 
   // ---------------- Discover: "Continue planning" rail ----------------
   // Read-only from localStorage, exactly like index.html's own script —
@@ -115,6 +78,11 @@ export default function HomePage() {
   }, []);
 
   // ---------------- Signature moment: the scroll-drawn line ----------------
+  // Shelved along with the "Our Promise" section below (not deleted) — its
+  // journey narrative is now covered by <HowItWorksTabs/>. Restore this
+  // ref/effect, the `stats`/`signature` destructure below, and `useRef` in
+  // the import above together if the section comes back.
+  /*
   const lhTrackRef = useRef<HTMLDivElement | null>(null);
   useEffect(() => {
     const track = lhTrackRef.current;
@@ -146,10 +114,34 @@ export default function HomePage() {
     io.observe(track);
     return () => io.disconnect();
   }, []);
+  */
 
   return (
-    <main>
+    <main className={styles.home}>
       <HeroCarousel slides={data.hero.slides} />
+
+      {/* WORLD MAP — World + 11 region tabs (see map-tabs.generated.json),
+          each serviced country/region shown as a plain outline; nothing
+          inside any country is shown. Zoom-to-region + city markers on tab
+          click aren't wired up yet — see the conversation this was built
+          from for the full chunk plan.
+          The map itself is deliberately NOT inside a `.wrap` — it's meant
+          to run full page width, unlike every other section on this page,
+          so it sits directly in the section instead (`.band`/`.tight`
+          only add vertical padding, no horizontal, so a direct child here
+          already spans edge-to-edge with no extra work). */}
+      <section className="band tight">
+        <div className="wrap">
+          <div className="eyebrow reveal">Where we go</div>
+          <div className="rule" />
+          <h2 className="reveal d1" style={{ maxWidth: "20ch" }}>
+            The world, within reach.
+          </h2>
+        </div>
+        <div className={`reveal d2 ${styles.worldMapWrap}`}>
+          <WorldMap />
+        </div>
+      </section>
 
       {/* DISCOVER — the first interaction */}
       <section className={`band tight ${styles.disc}`} aria-label="Where shall we take you?">
@@ -172,13 +164,24 @@ export default function HomePage() {
             <span className={styles.dsLabel} dangerouslySetInnerHTML={{ __html: discover.searchLabelHtml ?? "" }} />
           </Link>
 
+          {/* Moved here from its own former "DECIDE" section (which only
+              ever held this card grid — no longer rendered separately) so
+              it reads as more ways to search, right under the search bar. */}
+          <div className={`${styles.decGrid} reveal d1`}>
+            {decide.cards.map((card, i) => (
+              <Link className={styles.decCard} to={toRoute(card.href)} key={i}>
+                <div className={styles.dn}>{card.kicker}</div>
+                <h3>{card.heading}</h3>
+                <p>{card.body}</p>
+                <span className={styles.go}>{card.goLabel}</span>
+              </Link>
+            ))}
+          </div>
+
           <div className={`${styles.discPaths} reveal d1`}>
             <Link className={styles.discRec} to={toRoute(discover.recommenderHref)}>
               <span className={styles.drLead}>{discover.recommenderLead}</span>{" "}
               <span dangerouslySetInnerHTML={{ __html: discover.recommenderRestHtml ?? "" }} />
-            </Link>
-            <Link className={styles.discBrowse} to={toRoute(discover.browseHref)}>
-              {discover.browseLabel}
             </Link>
           </div>
 
@@ -197,88 +200,17 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* DECIDE — three more ways to decide */}
-      <section className="band tight" style={{ background: "var(--bone)" }}>
-        <div className="wrap">
-          <div className="reveal" style={{ maxWidth: "52ch" }}>
-            <div className="eyebrow">{decide.eyebrow}</div>
-            <div className="rule" />
-            <h2 style={{ fontSize: "clamp(30px,4vw,54px)" }} dangerouslySetInnerHTML={{ __html: decide.headingHtml ?? "" }} />
-            <p className="lede" style={{ marginTop: 16 }}>
-              {decide.lede}
-            </p>
-          </div>
-          <div className={`${styles.decGrid} reveal d1`}>
-            {decide.cards.map((card, i) => (
-              <Link className={styles.decCard} to={toRoute(card.href)} key={i}>
-                <div className={styles.dn}>{card.kicker}</div>
-                <h3>{card.heading}</h3>
-                <p>{card.body}</p>
-                <span className={styles.go}>{card.goLabel}</span>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
       <DestinationPlanner planner={planner} />
-
-      {/* PROBLEM — editorial, asymmetric */}
-      <section className="band editorial">
-        <div className="wrap ed-grid">
-          <div className="ed-meta reveal">
-            <div className="eyebrow">{problem.eyebrow}</div>
-            <p className="ed-note">{problem.note}</p>
-          </div>
-          <div className="ed-main reveal d1">
-            <h2 className="ed-statement" dangerouslySetInnerHTML={{ __html: problem.statementHtml ?? "" }} />
-            <p className="lede" style={{ marginTop: 30 }}>
-              {problem.lede}
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* THE WAY */}
-      <section className="band tight" style={{ background: "var(--bone)" }}>
-        <div className="wrap grid-2">
-          <div className="reveal">
-            <div className="ph-portrait" style={{ backgroundImage: `url('${way.portraitImage}')` }} role="img" aria-label="A member at ease abroad, everything looked after" />
-          </div>
-          <div className="reveal d2">
-            <div className="eyebrow">{way.eyebrow}</div>
-            <div className="rule" />
-            <h2 style={{ fontSize: "clamp(30px,3.6vw,52px)" }} dangerouslySetInnerHTML={{ __html: way.headingHtml ?? "" }} />
-            <p className="lede" style={{ marginTop: 18 }}>
-              {way.lede}
-            </p>
-            <div style={{ display: "flex", flexDirection: "column", gap: 2, marginTop: 24 }}>
-              {way.features.map((f, i) => (
-                <div className="feat" key={i}>
-                  <div className="n">{f.kicker}</div>
-                  <h3>{f.heading}</h3>
-                  <p>{f.body}</p>
-                </div>
-              ))}
-            </div>
-            <div className="btn-row" style={{ marginTop: 26 }}>
-              <Link className="btn btn-ghost" to={toRoute(way.ctaHref)}>
-                {way.ctaLabel}
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* SERVICES */}
       <section className="band">
         <div className="wrap">
           <div className="reveal" style={{ display: "flex", flexWrap: "wrap", alignItems: "flex-end", justifyContent: "space-between", gap: "24px 40px", marginBottom: 50 }}>
-            <div style={{ maxWidth: "34ch" }}>
+            <div style={{ maxWidth: "72ch" }}>
               <div className="eyebrow">{services.eyebrow}</div>
               <div className="rule" />
               <h2 style={{ maxWidth: "18ch" }} dangerouslySetInnerHTML={{ __html: services.headingHtml ?? "" }} />
-              <p className="lede" style={{ marginTop: 18, maxWidth: "42ch" }}>
+              <p className={`lede ${styles.servicesLede}`} style={{ marginTop: 18 }}>
                 {services.lede}
               </p>
             </div>
@@ -290,10 +222,9 @@ export default function HomePage() {
             {services.cards.map((card, i) => (
               <div className={`svc reveal d${i + 1}`} key={i}>
                 <div className="pic" style={{ backgroundImage: `url('${card.image}')` }} />
-                <div className="n">{card.number}</div>
-                <h3>{card.heading}</h3>
+                <h3 style={{ marginTop: 22 }}>{card.heading}</h3>
                 <p>{card.body}</p>
-                <Link className="cta" to={toRoute(card.ctaHref)} style={{ margin: "2px 26px 26px", display: "inline-block" }}>
+                <Link className="cta" to={toRoute(card.ctaHref)} style={{ marginTop: 22, marginBottom: 26, display: "inline-block" }}>
                   {card.ctaLabel}
                 </Link>
               </div>
@@ -302,150 +233,22 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* STATS */}
-      <section className="band-dark band center" style={{ backgroundImage: `var(--scrim),url('${stats.backgroundImage}')` }}>
-        <div className="wrap">
-          <div className="eyebrow on-dark reveal">{stats.eyebrow}</div>
-          <div className="rule center reveal d1" />
-          <h2 className="reveal d1" style={{ maxWidth: "22ch", margin: "0 auto 56px" }} dangerouslySetInnerHTML={{ __html: stats.headingHtml ?? "" }} />
-          <div className="stat-grid scale reveal d2">
-            {stats.items.map((item, i) =>
-              item.isCountUp && item.count ? (
-                <div key={i}>
-                  <StatCountUp count={item.count} suffix={item.suffix ?? ""} />
-                  <div className="k">{item.label}</div>
-                </div>
-              ) : (
-                <div key={i}>
-                  <div className="v">{item.staticValue}</div>
-                  <div className="k">{item.label}</div>
-                </div>
-              )
-            )}
-          </div>
-        </div>
-      </section>
-
-      {/* THE SHIFT */}
-      <section className="band center">
-        <div className="wrap">
-          <div className="eyebrow reveal">{shift.eyebrow}</div>
-          <div className="rule center reveal d1" />
-          <h2 className="reveal d1" style={{ maxWidth: "24ch", margin: "0 auto 16px" }} dangerouslySetInnerHTML={{ __html: shift.headingHtml ?? "" }} />
-          <p className="lede reveal d2" style={{ margin: "0 auto 50px" }}>
-            {shift.lede}
-          </p>
-          <div className="stat-grid three reveal d2">
-            {shift.items.map((item, i) => (
-              <div key={i}>
-                <div className="v">{item.value}</div>
-                <div className="k">
-                  {item.labelHtml}
-                  <span className="src">{item.source}</span>
-                </div>
-              </div>
-            ))}
-          </div>
-          <div className="btn-row center reveal d3" style={{ marginTop: 44 }}>
-            <Link className="btn btn-ghost" to={toRoute(shift.ctaHref)}>
-              {shift.ctaLabel}
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* HOW IT WORKS (phone mock + live chat demo) */}
-      <section className="band tight" style={{ background: "var(--bone)" }}>
-        <div className="wrap grid-2">
-          <div className="reveal" style={{ display: "flex", justifyContent: "center" }}>
-            <ConciergeChatDemo chips={howItWorks.scenarioChips} scenarios={howItWorks.scenarios} tryLabel={howItWorks.tryLabel} />
-          </div>
-          <div className="reveal d2">
-            <div className="eyebrow">
-              <span className="demo-live">{howItWorks.liveLabel}</span>
-            </div>
-            <h2 style={{ fontSize: "clamp(30px,3.6vw,52px)", marginTop: 14 }} dangerouslySetInnerHTML={{ __html: howItWorks.headingHtml ?? "" }} />
-            <p className="lede" style={{ marginTop: 14 }}>
-              {howItWorks.lede}
-            </p>
-            <div className="steps" style={{ marginTop: 30 }}>
-              {howItWorks.steps.map((s, i) => (
-                <div className="step" key={i}>
-                  <div className="si">{s.number}</div>
-                  <div>
-                    <h4>{s.heading}</h4>
-                    <p>{s.body}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* TRIPS GALLERY */}
-      <section className="band tight">
-        <div className="wrap">
-          <div className="reveal" style={{ display: "flex", flexWrap: "wrap", alignItems: "flex-end", justifyContent: "space-between", gap: "14px 40px" }}>
-            <div>
-              <div className="eyebrow">{trips.eyebrow}</div>
-              <h2 style={{ marginTop: 14 }}>{trips.heading}</h2>
-            </div>
-            <Link className="cta" to={toRoute(trips.allHref)} style={{ whiteSpace: "nowrap", paddingBottom: 6 }}>
-              {trips.allLabel}
-            </Link>
-          </div>
-          <p className="trips-hint reveal d1">{trips.hint}</p>
-        </div>
-        <div style={{ paddingLeft: "var(--gutter)" }}>
-          <div className="trips-row reveal d2">
-            {trips.items.map((t, i) => (
-              <div className="trip" style={{ backgroundImage: `url('${t.image}')` }} key={i}>
-                <div className="cap">
-                  <div className="pl">{t.place}</div>
-                  <div className="d">{t.description}</div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* MEMBERSHIP */}
-      <section className="band center" id="membership">
-        <div className="wrap">
-          <div className="eyebrow reveal">{membership.eyebrow}</div>
-          <div className="rule center reveal d1" />
-          <h2 className="reveal d1" style={{ maxWidth: "16ch", margin: "0 auto 40px" }} dangerouslySetInnerHTML={{ __html: membership.headingHtml ?? "" }} />
-          <div className="price-card reveal d2">
-            <div className="tier">{membership.tier}</div>
-            <div className="amt" style={{ fontFamily: "var(--logo)", fontStyle: "italic", fontWeight: 500 }} dangerouslySetInnerHTML={{ __html: membership.amountHtml ?? "" }} />
-            <div className="free">{membership.free}</div>
-            <ul className="incl">
-              {membership.included.map((item, i) => (
-                <li key={i}>
-                  <span className="ck">✦</span>
-                  <span dangerouslySetInnerHTML={{ __html: item }} />
-                </li>
-              ))}
-            </ul>
-            <div className="btn-row center" style={{ marginTop: 34 }}>
-              <Link className="btn btn-gold" to={toRoute(membership.ctaPrimary.href)}>
-                {membership.ctaPrimary.label}
-              </Link>
-              <Link className="btn btn-ghost" to={toRoute(membership.ctaSecondary.href)}>
-                {membership.ctaSecondary.label}
-              </Link>
-            </div>
-            <p className="muted" style={{ fontSize: 13, marginTop: 16 }}>
-              {membership.note}
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* SIGNATURE MOMENT — the line that doesn't stop */}
-      <section className="band line-home">
+      {/* "Our Promise" (STATS section's own content already removed per an
+          earlier request; this SIGNATURE MOMENT timeline replaced it on top
+          of the same background image) — shelved, not deleted: its journey
+          narrative is now covered by <HowItWorksTabs/> above. Restore this
+          along with the `stats`/`signature` destructure and `lhTrackRef`
+          ref/effect above if needed. See home-page.module.css's
+          `.promiseOnDark` for the dark-photo color overrides this needs —
+          none of `.lh-*`'s base styling (site.css) is dark-background-aware
+          on its own.
+      <section
+        className={`band-dark band ${styles.promiseOnDark}`}
+        style={{
+          backgroundImage: `var(--scrim),url('${stats.backgroundImage}')`,
+          backgroundPosition: "center top",
+        }}
+      >
         <div className="wrap">
           <div className="lh-head">
             <div className="eyebrow reveal">{signature.eyebrow}</div>
@@ -498,22 +301,66 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+      */}
 
-      {/* WHO IT'S FOR */}
-      <section className="band" style={{ background: "var(--bone)" }}>
-        <div className="wrap" style={{ maxWidth: 980 }}>
-          <div className="eyebrow reveal">{who.eyebrow}</div>
-          <div className="rule reveal d1" />
-          <h2 className="quote reveal d1" style={{ margin: 0 }}>
-            {who.quote}
-          </h2>
-          <p className="lede reveal d2" style={{ margin: "28px 0 0", maxWidth: "52ch" }}>
-            {who.lede}
-          </p>
-          <div className="btn-row reveal d3" style={{ marginTop: 30 }}>
-            <Link className="btn btn-ghost" to={toRoute(who.ctaHref)}>
-              {who.ctaLabel}
+      <HowItWorksTabs />
+
+      {/* HOW IT WORKS (phone mock + live chat demo) — shelved, not deleted.
+          Being replaced by a new autoadvancing 5-stage tabbed section (see
+          the conversation this was built from); restore this block and the
+          `howItWorks` destructure/ConciergeChatDemo import above if needed.
+      <section className="band tight" style={{ background: "var(--bone)" }}>
+        <div className="wrap grid-2">
+          <div className="reveal" style={{ display: "flex", justifyContent: "center" }}>
+            <ConciergeChatDemo chips={howItWorks.scenarioChips} scenarios={howItWorks.scenarios} tryLabel={howItWorks.tryLabel} />
+          </div>
+          <div className="reveal d2">
+            <div className="eyebrow">
+              <span className="demo-live">{howItWorks.liveLabel}</span>
+            </div>
+            <h2 style={{ fontSize: "clamp(30px,3.6vw,52px)", marginTop: 14 }} dangerouslySetInnerHTML={{ __html: howItWorks.headingHtml ?? "" }} />
+            <p className="lede" style={{ marginTop: 14 }}>
+              {howItWorks.lede}
+            </p>
+            <div className="steps" style={{ marginTop: 30 }}>
+              {howItWorks.steps.map((s, i) => (
+                <div className="step" key={i}>
+                  <div className="si">{s.number}</div>
+                  <div>
+                    <h4>{s.heading}</h4>
+                    <p>{s.body}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+      */}
+
+      {/* TRIPS GALLERY */}
+      <section className="band tight">
+        <div className="wrap">
+          <div className="reveal" style={{ display: "flex", flexWrap: "wrap", alignItems: "flex-end", justifyContent: "space-between", gap: "14px 40px" }}>
+            <div>
+              <div className="eyebrow">{trips.eyebrow}</div>
+              <h2 style={{ marginTop: 14 }}>{trips.heading}</h2>
+            </div>
+            <Link className="cta" to={toRoute(trips.allHref)} style={{ whiteSpace: "nowrap", paddingBottom: 6 }}>
+              {trips.allLabel}
             </Link>
+          </div>
+        </div>
+        <div className={styles.tripsViewport}>
+          <div className="trips-row reveal d2">
+            {trips.items.map((t, i) => (
+              <div className="trip" style={{ backgroundImage: `url('${t.image}')` }} key={i}>
+                <div className="cap">
+                  <div className="pl">{t.place}</div>
+                  <div className="d">{t.description}</div>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -554,20 +401,14 @@ export default function HomePage() {
               <path d="M174,256 L246,256" />
             </g>
           </svg>
-          <h2 className="reveal d1" style={{ fontSize: "clamp(34px,5vw,72px)" }} dangerouslySetInnerHTML={{ __html: finalCta.headingHtml ?? "" }} />
-          <p className="lede on-dark reveal d2" style={{ margin: "18px auto 30px" }}>
-            {finalCta.lede}
-          </p>
+          <h2 className="reveal d1" style={{ fontSize: "clamp(34px,5vw,72px)", marginBottom: 30 }} dangerouslySetInnerHTML={{ __html: finalCta.headingHtml ?? "" }} />
           <div className="btn-row center reveal d3">
-            <Link className="btn btn-gold on-dark" to={toRoute(finalCta.primaryHref)}>
-              {finalCta.primaryLabel}
-            </Link>
             {WHATSAPP_NUMBER ? (
-              <a className="btn btn-ghost on-dark" href={ADVISOR_HREF} target="_blank" rel="noopener noreferrer">
+              <a className="btn btn-gold on-dark" href={ADVISOR_HREF} target="_blank" rel="noopener noreferrer">
                 {finalCta.secondaryLabel}
               </a>
             ) : (
-              <Link className="btn btn-ghost on-dark" to={ADVISOR_HREF}>
+              <Link className="btn btn-gold on-dark" to={ADVISOR_HREF}>
                 {finalCta.secondaryLabel}
               </Link>
             )}

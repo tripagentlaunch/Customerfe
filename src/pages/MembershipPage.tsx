@@ -19,7 +19,7 @@ export default function MembershipPage() {
 
   return (
     <main>
-      <header className={`hero left ${styles.heroMem}`} style={{ minHeight: "84svh", backgroundImage: `url('${hero.image}')`, backgroundPosition: "62% 32%" }}>
+      <header className={`hero left ${styles.heroMem}`} style={{ backgroundImage: `url('${hero.image}')`, backgroundPosition: "62% 32%" }}>
         <div className="wrap hero-inner">
           <div className="hs-copy">
             <div className="eyebrow on-dark">{hero.eyebrow}</div>

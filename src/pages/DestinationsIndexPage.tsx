@@ -95,7 +95,7 @@ export default function DestinationsIndexPage() {
     <main>
       <header
         className={`hero left ${styles.heroIx}`}
-        style={{ minHeight: "80svh", backgroundImage: `url('${hero.image}')`, backgroundPosition: "60% 50%" }}
+        style={{ backgroundImage: `url('${hero.image}')`, backgroundPosition: "60% 50%" }}
       >
         <div className="wrap hero-inner">
           <div className="eyebrow on-dark reveal">{hero.eyebrow}</div>

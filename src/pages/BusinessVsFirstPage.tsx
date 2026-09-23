@@ -54,7 +54,7 @@ export default function BusinessVsFirstPage() {
 
   return (
     <main>
-      <header className={`hero left ${styles.dpHero}`} style={{ minHeight: "88svh", backgroundImage: `url('${hero.image}')`, backgroundPosition: "55% 50%" }}>
+      <header className={`hero left ${styles.dpHero}`} style={{ backgroundImage: `url('${hero.image}')`, backgroundPosition: "55% 50%" }}>
         <div className="wrap hero-inner">
           <div className={styles.dpCopy}>
             <Link className="cta on-dark reveal" to={toRoute(hero.back.href)} style={{ marginBottom: 20 }}>

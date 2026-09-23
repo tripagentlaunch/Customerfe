@@ -28,7 +28,7 @@ export function Header() {
   const tripSummary = useTripSummary();
   const tripDrawer = useTripDrawer();
   const signInModal = useSignInModal();
-  const { menuOpen, openRoom, toggleMenu, closeMenu, toggleRoom } = useNavMenu();
+  const { menuOpen, openRoom, toggleMenu, toggleRoom } = useNavMenu();
   const navigate = useNavigate();
 
   const [query, setQuery] = useState("");
@@ -176,12 +176,6 @@ export function Header() {
           </button>
           <PlanMega />
         </div>
-        <Link className="ta-room-lnk" to="/membership" onClick={closeMenu}>
-          Membership
-        </Link>
-        <Link className="ta-hd-inv" to="/invitation" onClick={closeMenu}>
-          By invitation
-        </Link>
       </nav>
       </header>
     </>

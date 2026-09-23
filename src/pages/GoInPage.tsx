@@ -46,7 +46,7 @@ export default function GoInPage() {
       <header
         className={`hero left ${styles.dpHero}`}
         data-hero
-        style={{ minHeight: "88svh", backgroundImage: `url('${hero.image}')`, backgroundPosition: hero.imagePosition ?? undefined }}
+        style={{ backgroundImage: `url('${hero.image}')`, backgroundPosition: hero.imagePosition ?? undefined }}
       >
         <div className="wrap hero-inner">
           <div className={styles.dpCopy}>

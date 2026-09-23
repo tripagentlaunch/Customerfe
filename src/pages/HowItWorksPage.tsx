@@ -20,7 +20,7 @@ export default function HowItWorksPage() {
 
   return (
     <main>
-      <header className={`hero left ${styles.heroHiw}`} style={{ minHeight: "88svh", backgroundImage: `url('${hero.image}')`, backgroundPosition: "60% 40%" }}>
+      <header className={`hero left ${styles.heroHiw}`} style={{ backgroundImage: `url('${hero.image}')`, backgroundPosition: "60% 40%" }}>
         <div className="wrap hero-inner">
           <div className="hs-copy">
             <div className="eyebrow on-dark">{hero.eyebrow}</div>

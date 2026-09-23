@@ -76,9 +76,9 @@
  .hero-cta-secondary:hover .hero-cta-label{transform:scale(1.1)}
  .hero-cta-secondary:hover .hero-cta-arrow{opacity:1;transform:translateX(2px)}
 
- :global(.city-hero){position:relative;min-height:82svh;display:flex;align-items:flex-end;color:#fff;background-size:cover;background-position:center;background-color:#15110d}
+ :global(.city-hero){position:relative;min-height:100svh;display:flex;align-items:flex-end;color:#fff;background-size:cover;background-position:center;background-color:#15110d}
  :global(.city-hero)::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.28) 0%,transparent 26%,transparent 42%,rgba(0,0,0,.72) 100%)}
- :global(.city-hero) :global(.wrap){position:relative;z-index:2;width:100%;text-align:left;padding-bottom:clamp(38px,5.5vh,74px)}
+ :global(.city-hero) :global(.wrap){position:relative;z-index:2;width:100%;text-align:left;padding-bottom:150px}
  :global(.city-hero) .bc{font-family:var(--fr);font-weight:600;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.85);text-decoration:none;display:block;margin-bottom:14px}
  :global(.city-hero) :global(.eyebrow){display:block;margin-bottom:6px}
  :global(.city-hero) .bc:hover{color:#fff}

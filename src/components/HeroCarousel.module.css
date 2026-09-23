@@ -20,7 +20,9 @@
   isolation: isolate;
   text-align: left;
   overflow: hidden;
-  min-height: 86svh;
+  /* No min-height override — inherits the global .hero{min-height:100svh}
+     (site.css) so every page's hero, this one included, takes the full
+     viewport height rather than a per-page fixed fraction of it. */
 }
 
 .swiperRoot {
@@ -75,16 +77,22 @@
   padding-bottom: clamp(74px, 9vh, 110px);
 }
 .hsCopy {
-  max-width: min(680px, 90vw);
+  max-width: min(900px, 92vw);
 }
 
-/* entrance: the ACTIVE slide's text/inset/nextup rise in (Swiper toggles .swiper-slide-active) */
+/* entrance: .heroInset/.heroNextup rise in per active slide (Swiper toggles
+ * .swiper-slide-active) — moot either way since both are always hidden
+ * below (`display:none!important`, kept only for data parity with the
+ * source). .hsCopy is different: it's now a single static overlay outside
+ * the slide loop entirely (content no longer changes per slide), so it
+ * gets one plain entrance animation on mount instead of a per-slide
+ * `.swiper-slide-active` trigger that could never match it anymore. */
 .hsCopy,
 .heroInset,
 .heroNextup {
   opacity: 0;
 }
-:global(.swiper-slide-active) .hsCopy {
+.hsCopy {
   animation: heroRise 1s cubic-bezier(0.22, 0.61, 0.36, 1) 0.15s forwards;
 }
 :global(.swiper-slide-active) .heroInset {
@@ -128,7 +136,16 @@
   align-items: center;
   gap: 28px;
   margin-top: 38px;
-  flex-wrap: wrap;
+  /* Wrapping is only turned back on below 720px (see that media query),
+     where the primary button already goes full-width and the row is meant
+     to stack — above that, all 3 CTAs stay on one line, each kept at its
+     natural width (flex-shrink:0 below) rather than being squeezed until
+     its own label wraps to a second line. */
+  flex-wrap: nowrap;
+}
+.heroCtaRow > * {
+  flex-shrink: 0;
+  white-space: nowrap;
 }
 :global(.btn-square) {
   border-radius: 2px !important;
@@ -136,34 +153,83 @@
   letter-spacing: 0.02em;
   font-weight: 600;
 }
-.heroTextlink {
-  font-family: var(--fr);
-  font-weight: 600;
-  font-size: 14px;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: #fff;
+
+/* Literally the same treatment as CityPage's hero CTAs (see
+ * city-page.module.css's `.hero-cta`/`.hero-cta-secondary` — same class
+ * names here, minus the module's own scoping, so the two heroes render
+ * with identical buttons/hover states, not just visually similar ones).
+ *
+ * Primary: solid white fill, dark text, unchanged on hover — only the
+ * label scales up and the arrow slides in, both as children of one scaled
+ * span so they move as a single unit instead of drifting apart the way a
+ * sibling ::after would once the label's own transform grows it.
+ */
+:global(.btn-gold.on-dark).heroCta {
+  background: #fff !important;
+  color: #1a1714 !important;
+}
+:global(.btn-gold.on-dark).heroCta::after {
+  display: none !important;
+}
+.heroCtaLabel {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  text-shadow: var(--shadow-dark);
-  background-image: linear-gradient(#fff, #fff);
+  transform: scale(1);
+  transition: transform 0.4s var(--ease);
+}
+:global(.btn-gold.on-dark).heroCta:hover .heroCtaLabel {
+  transform: scale(1.1);
+}
+.heroCtaArrow {
+  display: inline-block;
+  opacity: 0;
+  transform: translateX(-6px);
+  transition: opacity 0.4s var(--ease), transform 0.4s var(--ease);
+}
+:global(.btn-gold.on-dark).heroCta:hover .heroCtaArrow {
+  opacity: 1;
+  transform: translateX(2px);
+}
+
+/* Secondary (CityPage's hero only ever has two buttons total; this hero has
+ * three — the 2nd CTA gets the same ghost-pill treatment as CityPage's
+ * secondary, the 3rd gets its own lighter-weight tertiary style below).
+ * Keeps `.btn-ghost.on-dark`'s existing fill-on-hover untouched — the
+ * scale/arrow below are added on top of that, not instead of it. */
+.heroCtaSecondary:hover .heroCtaLabel {
+  transform: scale(1.1);
+}
+.heroCtaSecondary:hover .heroCtaArrow {
+  opacity: 1;
+  transform: translateX(2px);
+}
+
+/* Tertiary (3rd CTA, "How it works") — a genuine text button: no border, no
+ * box, no fill. Not built on the global `.btn` class since that always
+ * carries a border/box of some kind; this reads as plain text with an
+ * arrow, and only gains an underline (spanning the label + arrow together)
+ * on hover — see the source screenshots in the conversation this was built
+ * from for the exact at-rest/hover states. */
+.heroCtaTertiary {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--fr);
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 14px 0;
+  background-image: linear-gradient(currentColor, currentColor);
   background-size: 0 1px;
   background-position: 0 100%;
   background-repeat: no-repeat;
-  transition: background-size 0.45s var(--ease);
-  padding-bottom: 3px;
+  transition: background-size 0.35s var(--ease);
 }
-.heroTextlink::after {
-  content: "→";
-  font-weight: 400;
-  transition: transform 0.4s var(--ease);
-}
-.heroTextlink:hover {
+.heroCtaTertiary:hover {
   background-size: 100% 1px;
-}
-.heroTextlink:hover::after {
-  transform: translateX(4px);
 }
 
 /* editorial layering: offset inset (picture-in-picture) bottom-right */
@@ -297,6 +363,7 @@
 @media (max-width: 720px) {
   .heroCtaRow {
     gap: 20px;
+    flex-wrap: wrap;
   }
   :global(.btn-square) {
     width: 100%;

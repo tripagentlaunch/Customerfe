@@ -19,7 +19,7 @@ export default function PointsPage() {
 
   return (
     <main>
-      <header className="hero hero-ed" style={{ minHeight: "78svh", backgroundImage: `url('${hero.image}')`, backgroundPosition: "55% 50%" }}>
+      <header className="hero hero-ed" style={{ backgroundImage: `url('${hero.image}')`, backgroundPosition: "55% 50%" }}>
         <div className="wrap hero-inner">
           <div className="hs-copy">
             <div className="eyebrow on-dark">{hero.eyebrow}</div>

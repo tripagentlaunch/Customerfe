@@ -96,7 +96,7 @@ export default function WhenToGoPage() {
 
   return (
     <main>
-      <header className={`hero left ${styles.dpHero}`} style={{ minHeight: "86svh", backgroundImage: `url('${hero.image}')`, backgroundPosition: "60% 50%" }}>
+      <header className={`hero left ${styles.dpHero}`} style={{ backgroundImage: `url('${hero.image}')`, backgroundPosition: "60% 50%" }}>
         <div className="wrap hero-inner">
           <div className={styles.dpCopy}>
             <div className="eyebrow on-dark reveal">{hero.eyebrow}</div>

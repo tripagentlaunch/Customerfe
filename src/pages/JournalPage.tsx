@@ -60,7 +60,7 @@ export default function JournalPage() {
       <header
         className={`hero left ${styles.artHero}`}
         data-hero
-        style={{ minHeight: "74svh", backgroundImage: `url('${hero.image}')`, backgroundPosition: hero.imagePosition ?? undefined }}
+        style={{ backgroundImage: `url('${hero.image}')`, backgroundPosition: hero.imagePosition ?? undefined }}
       >
         <div className="wrap hero-inner">
           <div className="hs-copy">
