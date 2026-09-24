@@ -28,6 +28,7 @@ import EventMap from "../components/EventMap";
 import { planSlotPhotos, PHOTOS_PER_SLOT } from "../lib/planPhotos";
 import { placeholderPhoto } from "../lib/placeholderPhoto";
 import styles from "./city-page.module.css";
+import LiveVenues from "../components/LiveVenues";
 
 const CITIES = cities as unknown as Record<string, CityData>;
 
@@ -357,7 +358,8 @@ export default function CityPage() {
 
   const activeSlotPhotos = useMemo(() => {
     if (!city || !activePlanStep) return [];
-    return planSlotPhotos(city.slug, activePlanStep.dayIndex, activePlanStep.slotIndex);
+    const slot = (city.plan.days ?? [])[activePlanStep.dayIndex]?.slots?.[activePlanStep.slotIndex];
+    return planSlotPhotos(city.slug, activePlanStep.dayIndex, activePlanStep.slotIndex, slot?.photo);
   }, [city, activePlanStep]);
 
   // The sticky map shows only the current day's stops (not the whole
@@ -790,10 +792,12 @@ export default function CityPage() {
         className="band-dark band center"
         style={{ backgroundImage: `var(--scrim), url('${hero.image}')` }}
       >
+        {slug && <LiveVenues slug={slug} />}
         <div className="wrap">
           <h2
             className="reveal d1"
             style={{ fontSize: "clamp(30px,4.4vw,58px)" }}
+
             dangerouslySetInnerHTML={{ __html: closing.headingHtml ?? "" }}
           />
           <p className="lede on-dark reveal d2" style={{ margin: "18px auto 28px" }}>

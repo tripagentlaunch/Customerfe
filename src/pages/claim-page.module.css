@@ -1,0 +1,284 @@
+/* Converted from claim.html's inline <style> block.
+ *
+ * .claim-wrap/.claim-bg/.claim-video/.claim-scrim/.claim-card/etc. are
+ * page-scoped module classes; .eyebrow/.lede/.btn/.btn-gold/.on-dark stay
+ * unwrapped — global site.css utilities, same convention as
+ * invitation-page.module.css.
+ *
+ * Redesigned 2026-09-24 into a cinematic, full-screen video-background
+ * invitation experience — visual pass only, ClaimPage.tsx's redeem
+ * logic/validation/states above are untouched. See ClaimPage.tsx's own
+ * VIDEO_SRC/VIDEO_FALLBACK_SRC comments for the two asset paths this
+ * layer expects.
+ */
+
+.claimWrap {
+  min-height: 100svh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 128px var(--pad) 64px;
+  color: var(--cream);
+  overflow: hidden;
+  background-color: #171414;
+}
+
+/* Sits behind the video at all times — the video (when present/allowed)
+   paints over this; when it's skipped (prefers-reduced-motion) or fails to
+   load (onError in ClaimPage.tsx), this is what's left showing, so the
+   destination is never blank either way. */
+.claimFallback {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.claimVideo {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Layer 1 of the cinematic overlay stack: a dark gradient, heavier at top
+   (under the nav) and bottom (under the card/footer) than the middle, so
+   the destination itself stays clearly visible through the center of the
+   frame rather than being flattened by a uniform dark wash. */
+.claimScrim {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+  background-image: linear-gradient(
+      180deg,
+      rgba(10, 7, 5, 0.58) 0%,
+      rgba(10, 7, 5, 0.16) 26%,
+      rgba(10, 7, 5, 0.1) 60%,
+      rgba(10, 7, 5, 0.62) 100%
+    );
+}
+
+/* Layer 2: a soft warm vignette pulling the eye to center — subtle enough
+   that the corners still read as the same photograph, not a hard fade. */
+.claimVignette {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  pointer-events: none;
+  background-image: radial-gradient(120% 90% at 50% 46%, transparent 48%, rgba(23, 16, 11, 0.4) 100%);
+}
+
+/* Layer 3 (optional per spec, kept extremely subtle): a faint static film
+   grain via SVG noise, at very low opacity — reads as texture, not as a
+   visible pattern. */
+.claimGrain {
+  position: absolute;
+  inset: 0;
+  z-index: 4;
+  pointer-events: none;
+  opacity: 0.05;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+.claimWrap :global(.eyebrow) {
+  color: rgba(245, 239, 230, 0.92);
+  letter-spacing: 0.22em;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.85), 0 2px 20px rgba(0, 0, 0, 0.5);
+}
+
+.claimWrap h1 {
+  color: var(--cream);
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.55), 0 2px 40px rgba(5, 3, 1, 0.6);
+}
+
+/* Restrained warm-wine accent (spec's #5A2330 deep burgundy, lightened for
+   legibility set directly against the dark video — the exact deep tone is
+   used elsewhere on this page where it sits on lighter/glass surfaces:
+   the button fill and the input's focus ring below). */
+.claimWrap h1 .it {
+  font-style: italic;
+  color: #d9a08f;
+}
+
+.claimWrap :global(.lede) {
+  color: rgba(246, 241, 230, 0.92);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.7), 0 1px 16px rgba(5, 3, 1, 0.7);
+}
+
+.claimCard {
+  position: relative;
+  z-index: 5;
+  max-width: 460px;
+  width: 100%;
+  text-align: center;
+}
+
+.codeField {
+  margin: 40px 0 0;
+}
+
+/* Transparent/glass-dark, thin champagne border — one visual box per
+   8-digit code (achieved via letter-spacing on the whole field, not eight
+   separate inputs — the underlying <input> stays exactly as it was:
+   single field, same id/name/maxLength/handlers). */
+.codeField input {
+  width: 100%;
+  text-align: center;
+  background: rgba(23, 16, 11, 0.32);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border: 1px solid rgba(199, 166, 106, 0.4);
+  border-radius: 2px;
+  padding: 18px 2px;
+  font-family: var(--sans);
+  font-size: clamp(26px, 6.4vw, 34px);
+  letter-spacing: 0.42em;
+  text-indent: 0.42em;
+  color: var(--cream);
+  font-variant-numeric: tabular-nums;
+  transition: border-color 0.35s var(--ease), box-shadow 0.35s var(--ease), background-color 0.35s var(--ease);
+}
+
+.codeField input::placeholder {
+  color: rgba(246, 241, 230, 0.28);
+  letter-spacing: 0.42em;
+}
+
+.codeField input:focus {
+  outline: none;
+  background: rgba(23, 16, 11, 0.46);
+  border-color: #c7a66a;
+  box-shadow: 0 0 0 3px rgba(199, 166, 106, 0.16);
+}
+
+.ann {
+  min-height: 20px;
+  margin-top: 18px;
+  font-size: 13.5px;
+  letter-spacing: 0.01em;
+  transition: opacity 0.3s;
+  font-family: var(--sans);
+}
+
+.annHint {
+  color: rgba(246, 241, 230, 0.55);
+}
+
+.annErr {
+  color: #e3a878;
+}
+
+.annBusy {
+  color: rgba(246, 241, 230, 0.82);
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 16px;
+}
+
+/* Deep burgundy fill, thin light border, uppercase — replaces the
+   transparent/gold-sweep treatment .btn-gold uses elsewhere so this reads
+   as this page's own primary action, not a generic site button. */
+.claimWrap :global(.btn-gold) {
+  background: #5a2330;
+  color: var(--cream);
+  border: 1px solid rgba(245, 239, 230, 0.4);
+  letter-spacing: 0.18em;
+  transition: background-color 0.35s var(--ease), border-color 0.35s var(--ease), filter 0.35s var(--ease),
+    transform 0.35s var(--ease);
+}
+
+.claimWrap :global(.btn-gold)::before {
+  display: none;
+}
+
+.claimWrap :global(.btn-gold):hover {
+  background: #6e2c3c;
+  border-color: rgba(245, 239, 230, 0.7);
+  filter: brightness(1.06);
+  transform: translateY(-1px);
+}
+
+.ctaArrow {
+  display: inline-block;
+  margin-left: 2px;
+  transition: transform 0.3s var(--ease);
+}
+
+.claimWrap :global(.btn-gold):hover .ctaArrow {
+  transform: translateX(3px);
+}
+
+.ctaRow {
+  margin-top: 32px;
+}
+
+.ctaRow :global(.btn) {
+  width: 100%;
+  justify-content: center;
+}
+
+.claimWelcome {
+  animation: fade 0.8s var(--ease) both;
+}
+
+/* Small, understated editorial line near the bottom of the frame — sits
+   below the card, never overlapping or competing with the form. */
+.claimFooter {
+  position: relative;
+  z-index: 5;
+  margin-top: 56px;
+  font-family: var(--eyebrow);
+  font-size: 10.5px;
+  font-weight: 500;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: rgba(245, 239, 230, 0.62);
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .claimWrap {
+    padding-top: 108px;
+    padding-bottom: 48px;
+  }
+  .codeField input {
+    letter-spacing: 0.3em;
+    text-indent: 0.3em;
+  }
+  .claimFooter {
+    margin-top: 40px;
+    font-size: 9.5px;
+    letter-spacing: 0.16em;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .claimWelcome {
+    animation: none;
+  }
+  .claimWrap :global(.btn-gold):hover {
+    transform: none;
+  }
+}

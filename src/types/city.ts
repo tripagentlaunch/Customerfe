@@ -57,6 +57,10 @@ export interface CityDay {
     lon: number | null;
     place: string | null;
     category: "stay" | "eat" | "do" | "party" | null;
+    // Real photo URL, or null — same contract as CityGuideItem.photo above:
+    // the key is always present, null falls back to a generated placeholder
+    // (see src/lib/placeholderPhoto.ts) rather than showing nothing.
+    photo: string | null;
   }[];
 }
 

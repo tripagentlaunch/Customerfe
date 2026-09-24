@@ -59,6 +59,8 @@ import JournalIndexPage from "./JournalIndexPage";
 import WhenToGoPage from "./WhenToGoPage";
 import InvitationPage from "./InvitationPage";
 import AcceptInvitePage from "./AcceptInvitePage";
+import ClaimPage from "./ClaimPage";
+import RequestAccessPage from "./RequestAccessPage";
 import HomePage from "./HomePage";
 import routes from "../data/routes.generated.json";
 import redirects from "../data/redirects.generated.json";
@@ -243,6 +245,17 @@ const EXACT_SLUG_PAGES: Record<string, () => JSX.Element> = {
   // treatment — honest "not live yet" + a real advisor-contact fallback,
   // no fake token validation.
   "accept-invite": () => <AcceptInvitePage />,
+  // claim.html — the 8-digit-code redemption page, a separate, simpler
+  // flow from invitation.html's 16-character 4-step ceremony above: enter
+  // the code, claim it, go home, no capture/card/welcome steps. Same
+  // backend touchpoint (POST /invite/{code}/redeem) and same
+  // VITE_API_BASE_URL convention as InvitationPage.tsx.
+  claim: () => <ClaimPage />,
+  // request-access.html — the public "Request Access" lead form. POST
+  // /access-requests (access_request_router.py), reviewed via the admin
+  // panel's pending-requests screen, not this app. Approving one there
+  // issues a real invite code and emails the applicant a /claim link.
+  "request-access": () => <RequestAccessPage />,
 };
 
 // react-router v6 can't match a partial segment like "city-:slug" — a

@@ -19,9 +19,17 @@ import { SignInModalProvider } from "../../lib/signInModal";
 // viewport) since Layout renders the same chrome on every other route.
 const FULLSCREEN_CHAT_PATHS = new Set(["/concierge"]);
 
+// request-access.html is a cold, unauthenticated lead form — direct
+// request to drop the header/nav row and the floating "Talk to your
+// advisor" button on this route only (not the fullscreen-chat treatment
+// above: footer/tab-bar/trip-drawer stay exactly as on every other page,
+// only Header + AdvisorButton are skipped here).
+const NO_HEADER_NO_ADVISOR_PATHS = new Set(["/request-access"]);
+
 export function Layout() {
   const { pathname } = useLocation();
   const isFullscreenChat = FULLSCREEN_CHAT_PATHS.has(pathname);
+  const hideHeaderAndAdvisor = NO_HEADER_NO_ADVISOR_PATHS.has(pathname);
 
   // js/shell.js sets this on <html> once the shell header is built; several
   // mobile (<900px) rules in css/site.css key off it — bottom padding for
@@ -72,7 +80,7 @@ export function Layout() {
       <NavMenuProvider>
         <TripDrawerProvider>
           <SignInModalProvider>
-            {!isFullscreenChat && <Header />}
+            {!isFullscreenChat && !hideHeaderAndAdvisor && <Header />}
             <main id="content" style={isFullscreenChat ? { height: "100dvh", display: "flex" } : undefined}>
               <Outlet />
             </main>
@@ -80,7 +88,7 @@ export function Layout() {
               <>
                 <Footer />
                 <ThemeToggle />
-                <AdvisorButton />
+                {!hideHeaderAndAdvisor && <AdvisorButton />}
                 <TripDrawer />
                 <MobileTabbar />
               </>
