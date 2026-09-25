@@ -63,6 +63,7 @@ export function Footer() {
         <div>
           <p className="fcol">Get started</p>
           <Link to="/invitation">By invitation</Link>
+          <Link to="/refer">Refer a friend</Link>
           {WHATSAPP_NUMBER ? (
             <a href={ADVISOR_HREF} target="_blank" rel="noopener noreferrer">
               Speak with your advisor

@@ -2320,3 +2320,480 @@
 12:29:56 pm [vite] hmr update /src/pages/ClaimPage.tsx
 12:30:04 pm [vite] hmr update /src/pages/ClaimPage.tsx
 12:30:34 pm [vite] hmr update /src/pages/ClaimPage.tsx
+5:54:50 pm [vite] hmr update /src/components/layout/Layout.tsx
+5:54:57 pm [vite] hmr update /src/components/layout/Layout.tsx
+5:55:11 pm [vite] hmr update /src/components/layout/Layout.tsx
+5:55:56 pm [vite] hmr update /src/pages/RequestAccessPage.tsx
+5:56:02 pm [vite] hmr update /src/pages/RequestAccessPage.tsx
+5:56:40 pm [vite] hmr update /src/pages/RequestAccessPage.tsx
+6:10:56 pm [vite] hmr update /src/pages/RequestAccessPage.tsx
+6:11:03 pm [vite] hmr update /src/pages/RequestAccessPage.tsx
+6:11:25 pm [vite] hmr update /src/pages/RequestAccessPage.tsx
+6:11:40 pm [vite] hmr update /src/pages/RequestAccessPage.tsx
+6:11:40 pm [vite] Internal server error: /Users/bhanumathi.s/dev/Customerfe/src/pages/RequestAccessPage.tsx: Unterminated JSX contents. (365:14)
+
+  363 |         </div>
+  364 |       </div>
+> 365 |     </section>
+      |               ^
+  366 |   );
+  367 | }
+  368 |
+  Plugin: vite:react-babel
+  File: /Users/bhanumathi.s/dev/Customerfe/src/pages/RequestAccessPage.tsx:365:14
+  363|          </div>
+  364|        </div>
+  365|      </section>
+     |                ^
+  366|    );
+  367|  }
+      at constructor (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:369:19)
+      at TypeScriptParserMixin.raise (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:6620:19)
+      at TypeScriptParserMixin.jsxReadToken (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:4464:20)
+      at TypeScriptParserMixin.getTokenFromCode (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:4790:12)
+      at TypeScriptParserMixin.getTokenFromCode (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10008:11)
+      at TypeScriptParserMixin.nextToken (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:5803:10)
+      at TypeScriptParserMixin.next (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:5713:10)
+      at TypeScriptParserMixin.eat (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:5717:12)
+      at TypeScriptParserMixin.expect (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:6919:15)
+      at TypeScriptParserMixin.jsxParseClosingElementAt (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:4696:10)
+      at TypeScriptParserMixin.jsxParseElementAt (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:4711:37)
+      at TypeScriptParserMixin.jsxParseElementAt (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:4714:32)
+      at TypeScriptParserMixin.jsxParseElement (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:4765:17)
+      at TypeScriptParserMixin.parseExprAtom (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:4775:19)
+      at TypeScriptParserMixin.parseExprSubscripts (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:11102:23)
+      at TypeScriptParserMixin.parseUpdate (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:11087:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:11067:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:9858:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10920:61)
+      at TypeScriptParserMixin.parseExprOps (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10925:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10902:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10852:21)
+      at /Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:9796:39
+      at TypeScriptParserMixin.tryParse (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:6928:20)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:9796:18)
+      at /Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10821:39
+      at TypeScriptParserMixin.allowInAnd (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:12455:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10821:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:12522:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:11701:28)
+      at TypeScriptParserMixin.parseExprAtom (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:11357:23)
+      at TypeScriptParserMixin.parseExprAtom (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:4780:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:11102:23)
+      at TypeScriptParserMixin.parseUpdate (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:11087:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:11067:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:9858:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10920:61)
+      at TypeScriptParserMixin.parseExprOps (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10925:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10902:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10852:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:9807:20)
+      at TypeScriptParserMixin.parseExpressionBase (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10805:23)
+      at /Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10801:39
+      at TypeScriptParserMixin.allowInAnd (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:12450:16)
+      at TypeScriptParserMixin.parseExpression (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10801:17)
+      at TypeScriptParserMixin.parseReturnStatement (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:13171:28)
+      at TypeScriptParserMixin.parseStatementContent (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:12827:21)
+      at TypeScriptParserMixin.parseStatementContent (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:9529:18)
+      at TypeScriptParserMixin.parseStatementLike (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:12796:17)
+      at TypeScriptParserMixin.parseStatementListItem (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:12776:17)
+6:11:40 pm [vite] Internal server error: /Users/bhanumathi.s/dev/Customerfe/src/pages/RequestAccessPage.tsx: Unterminated JSX contents. (365:14)
+
+  363 |         </div>
+  364 |       </div>
+> 365 |     </section>
+      |               ^
+  366 |   );
+  367 | }
+  368 |
+  Plugin: vite:react-babel
+  File: /Users/bhanumathi.s/dev/Customerfe/src/pages/RequestAccessPage.tsx:365:14
+  363|          </div>
+  364|        </div>
+  365|      </section>
+     |                ^
+  366|    );
+  367|  }
+      at constructor (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:369:19)
+      at TypeScriptParserMixin.raise (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:6620:19)
+      at TypeScriptParserMixin.jsxReadToken (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:4464:20)
+      at TypeScriptParserMixin.getTokenFromCode (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:4790:12)
+      at TypeScriptParserMixin.getTokenFromCode (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10008:11)
+      at TypeScriptParserMixin.nextToken (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:5803:10)
+      at TypeScriptParserMixin.next (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:5713:10)
+      at TypeScriptParserMixin.eat (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:5717:12)
+      at TypeScriptParserMixin.expect (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:6919:15)
+      at TypeScriptParserMixin.jsxParseClosingElementAt (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:4696:10)
+      at TypeScriptParserMixin.jsxParseElementAt (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:4711:37)
+      at TypeScriptParserMixin.jsxParseElementAt (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:4714:32)
+      at TypeScriptParserMixin.jsxParseElement (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:4765:17)
+      at TypeScriptParserMixin.parseExprAtom (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:4775:19)
+      at TypeScriptParserMixin.parseExprSubscripts (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:11102:23)
+      at TypeScriptParserMixin.parseUpdate (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:11087:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:11067:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:9858:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10920:61)
+      at TypeScriptParserMixin.parseExprOps (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10925:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10902:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10852:21)
+      at /Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:9796:39
+      at TypeScriptParserMixin.tryParse (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:6928:20)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:9796:18)
+      at /Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10821:39
+      at TypeScriptParserMixin.allowInAnd (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:12455:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10821:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:12522:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:11701:28)
+      at TypeScriptParserMixin.parseExprAtom (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:11357:23)
+      at TypeScriptParserMixin.parseExprAtom (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:4780:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:11102:23)
+      at TypeScriptParserMixin.parseUpdate (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:11087:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:11067:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:9858:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10920:61)
+      at TypeScriptParserMixin.parseExprOps (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10925:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10902:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10852:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:9807:20)
+      at TypeScriptParserMixin.parseExpressionBase (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10805:23)
+      at /Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10801:39
+      at TypeScriptParserMixin.allowInAnd (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:12450:16)
+      at TypeScriptParserMixin.parseExpression (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10801:17)
+      at TypeScriptParserMixin.parseReturnStatement (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:13171:28)
+      at TypeScriptParserMixin.parseStatementContent (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:12827:21)
+      at TypeScriptParserMixin.parseStatementContent (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:9529:18)
+      at TypeScriptParserMixin.parseStatementLike (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:12796:17)
+      at TypeScriptParserMixin.parseStatementListItem (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:12776:17)
+6:11:40 pm [vite] Internal server error: /Users/bhanumathi.s/dev/Customerfe/src/pages/RequestAccessPage.tsx: Unterminated JSX contents. (365:14)
+
+  363 |         </div>
+  364 |       </div>
+> 365 |     </section>
+      |               ^
+  366 |   );
+  367 | }
+  368 |
+  Plugin: vite:react-babel
+  File: /Users/bhanumathi.s/dev/Customerfe/src/pages/RequestAccessPage.tsx:365:14
+  363|          </div>
+  364|        </div>
+  365|      </section>
+     |                ^
+  366|    );
+  367|  }
+      at constructor (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:369:19)
+      at TypeScriptParserMixin.raise (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:6620:19)
+      at TypeScriptParserMixin.jsxReadToken (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:4464:20)
+      at TypeScriptParserMixin.getTokenFromCode (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:4790:12)
+      at TypeScriptParserMixin.getTokenFromCode (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10008:11)
+      at TypeScriptParserMixin.nextToken (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:5803:10)
+      at TypeScriptParserMixin.next (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:5713:10)
+      at TypeScriptParserMixin.eat (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:5717:12)
+      at TypeScriptParserMixin.expect (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:6919:15)
+      at TypeScriptParserMixin.jsxParseClosingElementAt (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:4696:10)
+      at TypeScriptParserMixin.jsxParseElementAt (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:4711:37)
+      at TypeScriptParserMixin.jsxParseElementAt (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:4714:32)
+      at TypeScriptParserMixin.jsxParseElement (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:4765:17)
+      at TypeScriptParserMixin.parseExprAtom (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:4775:19)
+      at TypeScriptParserMixin.parseExprSubscripts (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:11102:23)
+      at TypeScriptParserMixin.parseUpdate (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:11087:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:11067:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:9858:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10920:61)
+      at TypeScriptParserMixin.parseExprOps (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10925:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10902:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10852:21)
+      at /Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:9796:39
+      at TypeScriptParserMixin.tryParse (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:6928:20)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:9796:18)
+      at /Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10821:39
+      at TypeScriptParserMixin.allowInAnd (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:12455:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10821:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:12522:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:11701:28)
+      at TypeScriptParserMixin.parseExprAtom (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:11357:23)
+      at TypeScriptParserMixin.parseExprAtom (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:4780:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:11102:23)
+      at TypeScriptParserMixin.parseUpdate (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:11087:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:11067:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:9858:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10920:61)
+      at TypeScriptParserMixin.parseExprOps (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10925:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10902:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10852:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:9807:20)
+      at TypeScriptParserMixin.parseExpressionBase (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10805:23)
+      at /Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10801:39
+      at TypeScriptParserMixin.allowInAnd (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:12450:16)
+      at TypeScriptParserMixin.parseExpression (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10801:17)
+      at TypeScriptParserMixin.parseReturnStatement (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:13171:28)
+      at TypeScriptParserMixin.parseStatementContent (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:12827:21)
+      at TypeScriptParserMixin.parseStatementContent (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:9529:18)
+      at TypeScriptParserMixin.parseStatementLike (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:12796:17)
+      at TypeScriptParserMixin.parseStatementListItem (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:12776:17)
+6:11:40 pm [vite] Internal server error: /Users/bhanumathi.s/dev/Customerfe/src/pages/RequestAccessPage.tsx: Unterminated JSX contents. (365:14)
+
+  363 |         </div>
+  364 |       </div>
+> 365 |     </section>
+      |               ^
+  366 |   );
+  367 | }
+  368 |
+  Plugin: vite:react-babel
+  File: /Users/bhanumathi.s/dev/Customerfe/src/pages/RequestAccessPage.tsx:365:14
+  363|          </div>
+  364|        </div>
+  365|      </section>
+     |                ^
+  366|    );
+  367|  }
+      at constructor (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:369:19)
+      at TypeScriptParserMixin.raise (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:6620:19)
+      at TypeScriptParserMixin.jsxReadToken (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:4464:20)
+      at TypeScriptParserMixin.getTokenFromCode (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:4790:12)
+      at TypeScriptParserMixin.getTokenFromCode (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10008:11)
+      at TypeScriptParserMixin.nextToken (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:5803:10)
+      at TypeScriptParserMixin.next (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:5713:10)
+      at TypeScriptParserMixin.eat (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:5717:12)
+      at TypeScriptParserMixin.expect (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:6919:15)
+      at TypeScriptParserMixin.jsxParseClosingElementAt (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:4696:10)
+      at TypeScriptParserMixin.jsxParseElementAt (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:4711:37)
+      at TypeScriptParserMixin.jsxParseElementAt (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:4714:32)
+      at TypeScriptParserMixin.jsxParseElement (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:4765:17)
+      at TypeScriptParserMixin.parseExprAtom (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:4775:19)
+      at TypeScriptParserMixin.parseExprSubscripts (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:11102:23)
+      at TypeScriptParserMixin.parseUpdate (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:11087:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:11067:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:9858:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10920:61)
+      at TypeScriptParserMixin.parseExprOps (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10925:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10902:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10852:21)
+      at /Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:9796:39
+      at TypeScriptParserMixin.tryParse (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:6928:20)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:9796:18)
+      at /Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10821:39
+      at TypeScriptParserMixin.allowInAnd (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:12455:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10821:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:12522:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:11701:28)
+      at TypeScriptParserMixin.parseExprAtom (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:11357:23)
+      at TypeScriptParserMixin.parseExprAtom (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:4780:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:11102:23)
+      at TypeScriptParserMixin.parseUpdate (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:11087:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:11067:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:9858:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10920:61)
+      at TypeScriptParserMixin.parseExprOps (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10925:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10902:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10852:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:9807:20)
+      at TypeScriptParserMixin.parseExpressionBase (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10805:23)
+      at /Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10801:39
+      at TypeScriptParserMixin.allowInAnd (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:12450:16)
+      at TypeScriptParserMixin.parseExpression (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10801:17)
+      at TypeScriptParserMixin.parseReturnStatement (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:13171:28)
+      at TypeScriptParserMixin.parseStatementContent (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:12827:21)
+      at TypeScriptParserMixin.parseStatementContent (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:9529:18)
+      at TypeScriptParserMixin.parseStatementLike (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:12796:17)
+      at TypeScriptParserMixin.parseStatementListItem (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:12776:17)
+6:11:40 pm [vite] Internal server error: /Users/bhanumathi.s/dev/Customerfe/src/pages/RequestAccessPage.tsx: Unterminated JSX contents. (365:14)
+
+  363 |         </div>
+  364 |       </div>
+> 365 |     </section>
+      |               ^
+  366 |   );
+  367 | }
+  368 |
+  Plugin: vite:react-babel
+  File: /Users/bhanumathi.s/dev/Customerfe/src/pages/RequestAccessPage.tsx:365:14
+  363|          </div>
+  364|        </div>
+  365|      </section>
+     |                ^
+  366|    );
+  367|  }
+      at constructor (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:369:19)
+      at TypeScriptParserMixin.raise (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:6620:19)
+      at TypeScriptParserMixin.jsxReadToken (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:4464:20)
+      at TypeScriptParserMixin.getTokenFromCode (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:4790:12)
+      at TypeScriptParserMixin.getTokenFromCode (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10008:11)
+      at TypeScriptParserMixin.nextToken (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:5803:10)
+      at TypeScriptParserMixin.next (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:5713:10)
+      at TypeScriptParserMixin.eat (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:5717:12)
+      at TypeScriptParserMixin.expect (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:6919:15)
+      at TypeScriptParserMixin.jsxParseClosingElementAt (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:4696:10)
+      at TypeScriptParserMixin.jsxParseElementAt (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:4711:37)
+      at TypeScriptParserMixin.jsxParseElementAt (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:4714:32)
+      at TypeScriptParserMixin.jsxParseElement (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:4765:17)
+      at TypeScriptParserMixin.parseExprAtom (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:4775:19)
+      at TypeScriptParserMixin.parseExprSubscripts (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:11102:23)
+      at TypeScriptParserMixin.parseUpdate (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:11087:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:11067:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:9858:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10920:61)
+      at TypeScriptParserMixin.parseExprOps (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10925:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10902:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10852:21)
+      at /Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:9796:39
+      at TypeScriptParserMixin.tryParse (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:6928:20)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:9796:18)
+      at /Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10821:39
+      at TypeScriptParserMixin.allowInAnd (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:12455:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10821:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:12522:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:11701:28)
+      at TypeScriptParserMixin.parseExprAtom (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:11357:23)
+      at TypeScriptParserMixin.parseExprAtom (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:4780:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:11102:23)
+      at TypeScriptParserMixin.parseUpdate (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:11087:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:11067:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:9858:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10920:61)
+      at TypeScriptParserMixin.parseExprOps (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10925:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10902:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10852:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:9807:20)
+      at TypeScriptParserMixin.parseExpressionBase (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10805:23)
+      at /Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10801:39
+      at TypeScriptParserMixin.allowInAnd (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:12450:16)
+      at TypeScriptParserMixin.parseExpression (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10801:17)
+      at TypeScriptParserMixin.parseReturnStatement (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:13171:28)
+      at TypeScriptParserMixin.parseStatementContent (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:12827:21)
+      at TypeScriptParserMixin.parseStatementContent (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:9529:18)
+      at TypeScriptParserMixin.parseStatementLike (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:12796:17)
+      at TypeScriptParserMixin.parseStatementListItem (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:12776:17)
+6:11:40 pm [vite] Internal server error: /Users/bhanumathi.s/dev/Customerfe/src/pages/RequestAccessPage.tsx: Unterminated JSX contents. (365:14)
+
+  363 |         </div>
+  364 |       </div>
+> 365 |     </section>
+      |               ^
+  366 |   );
+  367 | }
+  368 |
+  Plugin: vite:react-babel
+  File: /Users/bhanumathi.s/dev/Customerfe/src/pages/RequestAccessPage.tsx:365:14
+  363|          </div>
+  364|        </div>
+  365|      </section>
+     |                ^
+  366|    );
+  367|  }
+      at constructor (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:369:19)
+      at TypeScriptParserMixin.raise (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:6620:19)
+      at TypeScriptParserMixin.jsxReadToken (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:4464:20)
+      at TypeScriptParserMixin.getTokenFromCode (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:4790:12)
+      at TypeScriptParserMixin.getTokenFromCode (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10008:11)
+      at TypeScriptParserMixin.nextToken (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:5803:10)
+      at TypeScriptParserMixin.next (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:5713:10)
+      at TypeScriptParserMixin.eat (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:5717:12)
+      at TypeScriptParserMixin.expect (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:6919:15)
+      at TypeScriptParserMixin.jsxParseClosingElementAt (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:4696:10)
+      at TypeScriptParserMixin.jsxParseElementAt (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:4711:37)
+      at TypeScriptParserMixin.jsxParseElementAt (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:4714:32)
+      at TypeScriptParserMixin.jsxParseElement (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:4765:17)
+      at TypeScriptParserMixin.parseExprAtom (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:4775:19)
+      at TypeScriptParserMixin.parseExprSubscripts (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:11102:23)
+      at TypeScriptParserMixin.parseUpdate (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:11087:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:11067:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:9858:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10920:61)
+      at TypeScriptParserMixin.parseExprOps (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10925:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10902:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10852:21)
+      at /Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:9796:39
+      at TypeScriptParserMixin.tryParse (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:6928:20)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:9796:18)
+      at /Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10821:39
+      at TypeScriptParserMixin.allowInAnd (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:12455:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10821:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:12522:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:11701:28)
+      at TypeScriptParserMixin.parseExprAtom (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:11357:23)
+      at TypeScriptParserMixin.parseExprAtom (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:4780:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:11102:23)
+      at TypeScriptParserMixin.parseUpdate (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:11087:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:11067:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:9858:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10920:61)
+      at TypeScriptParserMixin.parseExprOps (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10925:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10902:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10852:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:9807:20)
+      at TypeScriptParserMixin.parseExpressionBase (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10805:23)
+      at /Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10801:39
+      at TypeScriptParserMixin.allowInAnd (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:12450:16)
+      at TypeScriptParserMixin.parseExpression (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:10801:17)
+      at TypeScriptParserMixin.parseReturnStatement (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:13171:28)
+      at TypeScriptParserMixin.parseStatementContent (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:12827:21)
+      at TypeScriptParserMixin.parseStatementContent (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:9529:18)
+      at TypeScriptParserMixin.parseStatementLike (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:12796:17)
+      at TypeScriptParserMixin.parseStatementListItem (/Users/bhanumathi.s/dev/Customerfe/node_modules/@babel/parser/lib/index.js:12776:17)
+6:11:44 pm [vite] hmr update /src/pages/RequestAccessPage.tsx
+6:11:53 pm [vite] hmr update /src/pages/RequestAccessPage.tsx
+6:12:05 pm [vite] hmr update /src/pages/RequestAccessPage.tsx
+6:12:08 pm [vite] hmr update /src/pages/RequestAccessPage.tsx
+6:12:26 pm [vite] hmr update /src/pages/RequestAccessPage.tsx
+6:12:40 pm [vite] hmr update /src/pages/RequestAccessPage.tsx
+6:12:44 pm [vite] hmr update /src/pages/RequestAccessPage.tsx
+6:19:49 pm [vite] hmr update /src/pages/PageRouter.tsx
+6:19:54 pm [vite] hmr update /src/pages/PageRouter.tsx
+7:30:21 pm [vite] hmr update /src/pages/RequestAccessPage.tsx
+7:30:26 pm [vite] hmr update /src/pages/RequestAccessPage.tsx
+7:30:34 pm [vite] hmr update /src/pages/RequestAccessPage.tsx
+7:30:46 pm [vite] hmr update /src/pages/RequestAccessPage.tsx
+7:30:58 pm [vite] hmr update /src/pages/RequestAccessPage.tsx
+7:31:19 pm [vite] hmr update /src/pages/RequestAccessPage.tsx
+7:31:32 pm [vite] hmr update /src/pages/RequestAccessPage.tsx
+7:31:42 pm [vite] hmr update /src/pages/RequestAccessPage.tsx
+7:31:59 pm [vite] hmr update /src/pages/RequestAccessPage.tsx
+7:34:36 pm [vite] hmr update /src/pages/RequestAccessPage.tsx
+7:34:40 pm [vite] hmr update /src/pages/RequestAccessPage.tsx
+7:34:45 pm [vite] hmr update /src/pages/RequestAccessPage.tsx
+7:34:48 pm [vite] hmr update /src/pages/RequestAccessPage.tsx
+7:34:52 pm [vite] hmr update /src/pages/RequestAccessPage.tsx
+7:34:58 pm [vite] hmr update /src/pages/RequestAccessPage.tsx
+7:35:02 pm [vite] hmr update /src/pages/RequestAccessPage.tsx
+8:16:50 pm [vite] hmr update /src/pages/RequestAccessPage.tsx
+10:53:41 am [vite] hmr update /src/pages/RequestAccessPage.tsx
+10:53:47 am [vite] hmr update /src/pages/RequestAccessPage.tsx
+10:53:57 am [vite] hmr update /src/pages/RequestAccessPage.tsx
+10:54:05 am [vite] hmr update /src/pages/RequestAccessPage.tsx
+10:54:11 am [vite] hmr update /src/pages/RequestAccessPage.tsx
+10:54:14 am [vite] hmr update /src/pages/RequestAccessPage.tsx
+10:54:19 am [vite] hmr update /src/pages/RequestAccessPage.tsx
+10:54:22 am [vite] hmr update /src/pages/RequestAccessPage.tsx
+10:54:28 am [vite] hmr update /src/pages/RequestAccessPage.tsx
+10:54:31 am [vite] hmr update /src/pages/RequestAccessPage.tsx
+10:54:35 am [vite] hmr update /src/pages/RequestAccessPage.tsx
+11:02:01 am [vite] hmr update /src/pages/RequestAccessPage.tsx
+11:02:09 am [vite] hmr update /src/pages/RequestAccessPage.tsx
+11:02:17 am [vite] hmr update /src/pages/RequestAccessPage.tsx
+11:02:21 am [vite] hmr update /src/pages/RequestAccessPage.tsx
+11:02:24 am [vite] hmr update /src/pages/RequestAccessPage.tsx
+11:02:26 am [vite] hmr update /src/pages/RequestAccessPage.tsx
+11:02:29 am [vite] hmr update /src/pages/RequestAccessPage.tsx
+11:02:36 am [vite] hmr update /src/pages/RequestAccessPage.tsx
+11:05:59 am [vite] hmr update /src/pages/RequestAccessPage.tsx
+11:06:02 am [vite] hmr update /src/pages/RequestAccessPage.tsx
+11:06:08 am [vite] hmr update /src/pages/RequestAccessPage.tsx
+11:06:12 am [vite] hmr update /src/pages/RequestAccessPage.tsx
+11:06:20 am [vite] hmr update /src/pages/RequestAccessPage.tsx
+11:06:23 am [vite] hmr update /src/pages/RequestAccessPage.tsx
+11:06:27 am [vite] hmr update /src/pages/RequestAccessPage.tsx
+11:06:38 am [vite] hmr update /src/pages/RequestAccessPage.tsx
+11:06:47 am [vite] hmr update /src/pages/ZonePage.tsx, /src/pages/CityPage.tsx, /src/components/WorldMap.tsx
+11:16:05 am [vite] hmr update /src/pages/RequestAccessPage.tsx
+11:22:30 am [vite] hmr update /src/components/layout/Footer.tsx
+11:28:53 am [vite] hmr update /src/components/layout/Header.tsx
+11:31:16 am [vite] hmr update /src/lib/navMenu.tsx
+11:31:17 am [vite] hmr invalidate /src/lib/navMenu.tsx Could not Fast Refresh ("useNavMenu" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+11:31:17 am [vite] hmr update /src/components/layout/Layout.tsx, /src/components/layout/Header.tsx, /src/components/layout/MobileTabbar.tsx
+11:31:25 am [vite] hmr update /src/components/layout/MobileTabbar.tsx
+1:03:23 pm [vite] hmr update /src/pages/ReferPage.tsx
+1:04:03 pm [vite] hmr update /src/css/site.css
+1:04:12 pm [vite] hmr update /src/css/site.css
+1:04:18 pm [vite] hmr update /src/components/layout/Header.tsx

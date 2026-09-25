@@ -61,6 +61,7 @@ import InvitationPage from "./InvitationPage";
 import AcceptInvitePage from "./AcceptInvitePage";
 import ClaimPage from "./ClaimPage";
 import RequestAccessPage from "./RequestAccessPage";
+import ReferPage from "./ReferPage";
 import HomePage from "./HomePage";
 import routes from "../data/routes.generated.json";
 import redirects from "../data/redirects.generated.json";
@@ -256,6 +257,12 @@ const EXACT_SLUG_PAGES: Record<string, () => JSX.Element> = {
   // panel's pending-requests screen, not this app. Approving one there
   // issues a real invite code and emails the applicant a /claim link.
   "request-access": () => <RequestAccessPage />,
+  // /refer — Refer a Friend, signed-in-only. POST /referrals
+  // (referral_router.py), which reuses invite_service.create_invitation_code()
+  // end to end (same code generation, same Resend send, referral email
+  // copy). The friend's claim side is unchanged — same /claim ->
+  // redeem_invite() flow as any other invite recipient.
+  refer: () => <ReferPage />,
 };
 
 // react-router v6 can't match a partial segment like "city-:slug" — a

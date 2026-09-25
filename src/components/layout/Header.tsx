@@ -139,6 +139,21 @@ export function Header() {
               Sign in
             </button>
           )}
+          {signedIn && (
+            // Same gating ReferPage.tsx itself already enforces (a
+            // signed-out visitor lands there and just gets its own inline
+            // "Sign in to refer a friend" prompt) — this is a discoverable
+            // entry point for members who are already signed in, not a
+            // second auth check. .ta-hd-refer (site.css) gives it its own
+            // small premium outlined-pill treatment (burgundy signature
+            // accent, fills on hover) instead of reusing .ta-hd-year's
+            // plain text-link look, including that class's own
+            // mobile-hide rule — see the note on MobileTabbar.tsx below
+            // for why that's a real gap.
+            <Link className="ta-hd-refer" to="/refer">
+              Refer a friend
+            </Link>
+          )}
           <button className="ta-hd-trip" type="button" onClick={() => tripDrawer.open()}>
             <span className="dia">◆</span> <span className="lbl">My Trip</span>{" "}
             <span className="ct" hidden={!tripSummary}>

@@ -4,6 +4,17 @@ import { createContext, useContext, useState, type ReactNode } from "react";
 // inside it) and the mobile bottom tab bar (a Layout-level sibling that
 // needs to open those same rooms, per js/shell.js's openRoom()) both need
 // to read and drive this.
+// TODO (tracked follow-up, not yet built, 2026-09-25): add a third room,
+// e.g. "account", surfacing signed-in-only items — "My Year" (/portal) and
+// "Refer a friend" (/refer) at minimum, with room for profile/sign-out
+// later. Desktop already has both via Header.tsx's .ta-hd-cluster
+// (gated on useAuth()'s signedIn); mobile currently has no equivalent —
+// MobileTabbar.tsx's 4 slots (Discover/Plan/My Trip/Advisor) are fixed and
+// NOT account-scoped, and site.css hides .ta-hd-year/.ta-hd-adv outright
+// below the mobile breakpoint with nothing replacing them. This should be
+// a new room alongside "discover"/"plan" (additive here + a new panel
+// component, same pattern as DiscoverMega/PlanMega), not a redesign of
+// MobileTabbar's existing fixed layout.
 export type RoomKey = "discover" | "plan" | null;
 
 type NavMenuValue = {

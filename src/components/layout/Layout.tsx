@@ -20,16 +20,19 @@ import { SignInModalProvider } from "../../lib/signInModal";
 const FULLSCREEN_CHAT_PATHS = new Set(["/concierge"]);
 
 // request-access.html is a cold, unauthenticated lead form — direct
-// request to drop the header/nav row and the floating "Talk to your
-// advisor" button on this route only (not the fullscreen-chat treatment
-// above: footer/tab-bar/trip-drawer stay exactly as on every other page,
-// only Header + AdvisorButton are skipped here).
-const NO_HEADER_NO_ADVISOR_PATHS = new Set(["/request-access"]);
+// request to drop the site's global mega-menu Header on this route (its
+// own page-local minimal nav — RequestAccessPage.tsx — replaces it
+// instead), while everything else (footer/tab-bar/trip-drawer/theme
+// toggle) stays exactly as on every other page. The floating "Talk to
+// your advisor" button was dropped here too in an earlier pass but is
+// wanted back (2026-09-24 direct request) — re-enabled below, so only
+// Header is still suppressed on this route.
+const NO_HEADER_PATHS = new Set(["/request-access"]);
 
 export function Layout() {
   const { pathname } = useLocation();
   const isFullscreenChat = FULLSCREEN_CHAT_PATHS.has(pathname);
-  const hideHeaderAndAdvisor = NO_HEADER_NO_ADVISOR_PATHS.has(pathname);
+  const hideHeader = NO_HEADER_PATHS.has(pathname);
 
   // js/shell.js sets this on <html> once the shell header is built; several
   // mobile (<900px) rules in css/site.css key off it — bottom padding for
@@ -80,7 +83,7 @@ export function Layout() {
       <NavMenuProvider>
         <TripDrawerProvider>
           <SignInModalProvider>
-            {!isFullscreenChat && !hideHeaderAndAdvisor && <Header />}
+            {!isFullscreenChat && !hideHeader && <Header />}
             <main id="content" style={isFullscreenChat ? { height: "100dvh", display: "flex" } : undefined}>
               <Outlet />
             </main>
@@ -88,7 +91,7 @@ export function Layout() {
               <>
                 <Footer />
                 <ThemeToggle />
-                {!hideHeaderAndAdvisor && <AdvisorButton />}
+                <AdvisorButton />
                 <TripDrawer />
                 <MobileTabbar />
               </>
