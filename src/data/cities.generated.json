@@ -90253,8 +90253,8 @@
           "name": "Roland-Garros (French Open)",
           "note": "The clay-court Grand Slam; the toughest ticket in Paris and worth timing a spring trip around.",
           "months": [
-            5,
-            6
+            "May",
+            "Jun"
           ],
           "location": {
             "address": "Stade Roland-Garros, 2 Av. Gordon Bennett, 75016 Paris",
@@ -90268,7 +90268,7 @@
           "name": "Fête de la Musique",
           "note": "The whole city becomes a free stage on the solstice — every square and street corner has live music until late.",
           "months": [
-            6
+            "Jun"
           ],
           "location": {
             "address": "Place de la République, 75011 Paris",
@@ -90282,7 +90282,7 @@
           "name": "Nuit Blanche",
           "note": "An all-night contemporary-art takeover of the city, museums and monuments open through the small hours.",
           "months": [
-            10
+            "Oct"
           ],
           "location": {
             "address": "Hôtel de Ville, 75004 Paris",
@@ -90296,7 +90296,7 @@
           "name": "Fête des Vendanges de Montmartre",
           "note": "The Montmartre vineyard's harvest festival — parades, tastings and an old-Paris village mood above the city.",
           "months": [
-            10
+            "Oct"
           ],
           "location": {
             "address": "Rue Saint-Vincent, Montmartre, 75018 Paris",
