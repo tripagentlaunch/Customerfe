@@ -1308,7 +1308,9 @@
           "when": "early December",
           "name": "Formula 1 Abu Dhabi Grand Prix",
           "note": "The season finale at Yas Marina (3–6 December 2026), with Yasalam after-race concerts included for ticket holders.",
-          "months": [],
+          "months": [
+            "Dec"
+          ],
           "location": null,
           "photo": null
         },
@@ -1316,7 +1318,10 @@
           "when": "late Jan–early Feb",
           "name": "Mubadala Abu Dhabi Open",
           "note": "WTA 500 women's tennis at Zayed Sports City (31 Jan–7 Feb 2026), a strong early-season field.",
-          "months": [],
+          "months": [
+            "Jan",
+            "Feb"
+          ],
           "location": null,
           "photo": null
         },
@@ -1324,7 +1329,12 @@
           "when": "late Oct–Jan",
           "name": "Al Dhafra Festival",
           "note": "A serious Emirati heritage festival in the Liwa region built around camel-beauty (mazayna) contests — the country's Bedouin culture, not its skyline.",
-          "months": [],
+          "months": [
+            "Oct",
+            "Nov",
+            "Dec",
+            "Jan"
+          ],
           "location": null,
           "photo": null
         },
@@ -2235,7 +2245,9 @@
           "when": "February",
           "name": "Taj Mahotsav",
           "note": "A ten-day arts, crafts and cuisine festival near the Taj celebrating Mughal-era culture.",
-          "months": [],
+          "months": [
+            "Feb"
+          ],
           "location": null,
           "photo": null
         },
@@ -2251,7 +2263,10 @@
           "when": "Aug–Sep",
           "name": "Ram Barat",
           "note": "A vast, spectacular local wedding-procession festival unique to Agra, staged with great pageantry.",
-          "months": [],
+          "months": [
+            "Aug",
+            "Sep"
+          ],
           "location": null,
           "photo": null
         },
@@ -2259,7 +2274,10 @@
           "when": "Oct–Nov",
           "name": "Diwali",
           "note": "The old city lights up; a fine time to pair the monuments with festive markets, though book early.",
-          "months": [],
+          "months": [
+            "Oct",
+            "Nov"
+          ],
           "location": null,
           "photo": null
         }
@@ -3140,7 +3158,9 @@
           "when": "Aug",
           "name": "Nehru Trophy Boat Race",
           "note": "Kerala's most famous snake-boat race on Punnamada Lake — the 2026 edition is 22 August.",
-          "months": [],
+          "months": [
+            "Aug"
+          ],
           "location": null,
           "photo": null
         },
@@ -3148,7 +3168,10 @@
           "when": "Aug–Sept",
           "name": "Onam",
           "note": "Kerala's harvest festival, with flower carpets, feasts and village boat races; date follows the Malayalam calendar.",
-          "months": [],
+          "months": [
+            "Aug",
+            "Sep"
+          ],
           "location": null,
           "photo": null
         },
@@ -3156,7 +3179,10 @@
           "when": "June–July",
           "name": "Champakulam Moolam Boat Race",
           "note": "Kerala's oldest snake-boat race, on the Pamba river near Alleppey.",
-          "months": [],
+          "months": [
+            "Jun",
+            "Jul"
+          ],
           "location": null,
           "photo": null
         }
@@ -4540,7 +4566,12 @@
           "when": "late June–September",
           "name": "Ravello Festival",
           "note": "A summer-long programme of orchestral concerts and recitals on the Villa Rufolo terrace above the sea.",
-          "months": [],
+          "months": [
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep"
+          ],
           "location": null,
           "photo": null
         },
@@ -5642,7 +5673,9 @@
           "when": "late July",
           "name": "Jerash Festival",
           "note": "Jordan's flagship culture festival, staged among the floodlit Roman ruins north of Amman.",
-          "months": [],
+          "months": [
+            "Jul"
+          ],
           "location": null,
           "photo": null
         },
@@ -5650,7 +5683,9 @@
           "when": "early Sep",
           "name": "Petra Desert Marathon",
           "note": "A trail race through the ancient city and surrounding desert, drawing runners from around the world.",
-          "months": [],
+          "months": [
+            "Sep"
+          ],
           "location": null,
           "photo": null
         }
@@ -6546,7 +6581,9 @@
           "when": "13–14 April",
           "name": "Baisakhi",
           "note": "The Sikh new year and harvest festival, celebrated with great fervour at the Golden Temple; the peak time to witness the faith.",
-          "months": [],
+          "months": [
+            "Apr"
+          ],
           "location": null,
           "photo": null
         },
@@ -6554,7 +6591,9 @@
           "when": "November",
           "name": "Guru Nanak Gurpurab",
           "note": "The birth anniversary of the founder of Sikhism, when the temple is spectacularly illuminated at night.",
-          "months": [],
+          "months": [
+            "Nov"
+          ],
           "location": null,
           "photo": null
         },
@@ -6562,7 +6601,10 @@
           "when": "Oct–Nov",
           "name": "Diwali / Bandi Chhor Divas",
           "note": "The temple and city are lit with lamps and fireworks reflected in the sacred tank; a beautiful night here.",
-          "months": [],
+          "months": [
+            "Oct",
+            "Nov"
+          ],
           "location": null,
           "photo": null
         },
@@ -6570,7 +6612,9 @@
           "when": "13 January",
           "name": "Lohri",
           "note": "The Punjabi winter bonfire festival, marked warmly across the city with music and food.",
-          "months": [],
+          "months": [
+            "Jan"
+          ],
           "location": null,
           "photo": null
         }
@@ -7681,7 +7725,9 @@
           "when": "27 April",
           "name": "King's Day (Koningsdag)",
           "note": "The whole city turns orange and takes to the streets and canals for the country's biggest party; book rooms far ahead.",
-          "months": [],
+          "months": [
+            "Apr"
+          ],
           "location": null,
           "photo": null
         },
@@ -7689,7 +7735,10 @@
           "when": "late Nov–mid-Jan",
           "name": "Amsterdam Light Festival",
           "note": "Illuminated artworks along the canals, best seen from a heated boat on a cold winter evening.",
-          "months": [],
+          "months": [
+            "Nov",
+            "Jan"
+          ],
           "location": null,
           "photo": null
         },
@@ -7697,7 +7746,10 @@
           "when": "late March–mid-May",
           "name": "Tulip season and Keukenhof",
           "note": "The bulb fields and the gardens outside the city are at their peak; the single reason many travellers time spring here.",
-          "months": [],
+          "months": [
+            "Mar",
+            "May"
+          ],
           "location": null,
           "photo": null
         }
@@ -8621,7 +8673,14 @@
           "when": "Nov–April",
           "name": "Peak diving & clear-water season",
           "note": "The dry season with the calmest seas and best visibility; the window to time a trip around the reefs.",
-          "months": [],
+          "months": [
+            "Nov",
+            "Dec",
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr"
+          ],
           "location": null,
           "photo": null
         },
@@ -8629,7 +8688,9 @@
           "when": "January",
           "name": "Subhash Mela",
           "note": "A festival at the Cellular Jail marking Netaji Subhas Chandra Bose's birthday, tied to the islands' freedom history.",
-          "months": [],
+          "months": [
+            "Jan"
+          ],
           "location": null,
           "photo": null
         },
@@ -8637,7 +8698,13 @@
           "when": "May–September",
           "name": "Monsoon (to avoid)",
           "note": "Heavy rain and rough seas disrupt ferries and diving; worth planning around by staying away.",
-          "months": [],
+          "months": [
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep"
+          ],
           "location": null,
           "photo": null
         }
@@ -9760,7 +9827,11 @@
           "when": "June–August",
           "name": "Athens Epidaurus Festival",
           "note": "The city's great summer season of theatre, music and dance, staged at the Odeon of Herodes Atticus and the ancient theatre of Epidaurus.",
-          "months": [],
+          "months": [
+            "Jun",
+            "Jul",
+            "Aug"
+          ],
           "location": null,
           "photo": null
         },
@@ -9768,7 +9839,9 @@
           "when": "early November",
           "name": "Athens Marathon, the Authentic",
           "note": "The original marathon route from the plain of Marathon into the marble Panathenaic Stadium; the classic reason to visit in autumn.",
-          "months": [],
+          "months": [
+            "Nov"
+          ],
           "location": null,
           "photo": null
         }
@@ -10842,7 +10915,9 @@
           "when": "late January",
           "name": "Auckland Anniversary Regatta",
           "note": "One of the world's largest one-day sailing regattas fills the harbour, the clearest expression of the City of Sails.",
-          "months": [],
+          "months": [
+            "Jan"
+          ],
           "location": null,
           "photo": null
         },
@@ -10850,7 +10925,9 @@
           "when": "March",
           "name": "Pasifika Festival",
           "note": "The largest Pacific-culture festival in the world, with village stages, food and performance at Western Springs.",
-          "months": [],
+          "months": [
+            "Mar"
+          ],
           "location": null,
           "photo": null
         }
@@ -12329,7 +12406,9 @@
           "when": "March",
           "name": "Nyepi (Day of Silence)",
           "note": "The Balinese New Year, preceded by the Ogoh-Ogoh effigy parades and followed by a full day when the entire island falls silent.",
-          "months": [],
+          "months": [
+            "Mar"
+          ],
           "location": null,
           "photo": null
         },
@@ -12337,7 +12416,10 @@
           "when": "mid-June–mid-July",
           "name": "Bali Arts Festival",
           "note": "A month-long celebration of Balinese dance, music and craft centred on Denpasar; the island's cultural high point.",
-          "months": [],
+          "months": [
+            "Jun",
+            "Jul"
+          ],
           "location": null,
           "photo": null
         },
@@ -13880,7 +13962,9 @@
           "when": "13–15 April",
           "name": "Songkran",
           "note": "Thai New Year, marked by temple blessings and city-wide water fights; joyous but book far ahead and expect to get wet.",
-          "months": [],
+          "months": [
+            "Apr"
+          ],
           "location": null,
           "photo": null
         },
@@ -13888,7 +13972,9 @@
           "when": "November",
           "name": "Loy Krathong",
           "note": "The festival of lights, when candlelit floats are set adrift on the river and canals across the city at dusk.",
-          "months": [],
+          "months": [
+            "Nov"
+          ],
           "location": null,
           "photo": null
         }
@@ -15356,7 +15442,9 @@
           "when": "late Sept",
           "name": "La Mercè",
           "note": "The city's patron-saint festival, with human towers, fire runs and street concerts.",
-          "months": [],
+          "months": [
+            "Sep"
+          ],
           "location": null,
           "photo": null
         },
@@ -15364,7 +15452,10 @@
           "when": "late May–early June",
           "name": "Primavera Sound",
           "note": "One of Europe's leading music festivals, drawing global acts to the seafront.",
-          "months": [],
+          "months": [
+            "May",
+            "Jun"
+          ],
           "location": null,
           "photo": null
         },
@@ -15372,7 +15463,9 @@
           "when": "23 April",
           "name": "Sant Jordi",
           "note": "Catalonia's day of books and roses — the streets fill with stalls and readers.",
-          "months": [],
+          "months": [
+            "Apr"
+          ],
           "location": null,
           "photo": null
         }
@@ -16395,7 +16488,10 @@
           "when": "March–April",
           "name": "Karaga",
           "note": "An ancient, atmospheric night procession through the old city, one of Bengaluru's oldest living traditions.",
-          "months": [],
+          "months": [
+            "Mar",
+            "Apr"
+          ],
           "location": null,
           "photo": null
         },
@@ -16403,7 +16499,10 @@
           "when": "Sep–Oct",
           "name": "Dasara (nearby Mysuru)",
           "note": "The royal Mysuru festival is an easy trip away and among South India's grandest, with the illuminated palace.",
-          "months": [],
+          "months": [
+            "Sep",
+            "Oct"
+          ],
           "location": null,
           "photo": null
         },
@@ -16419,7 +16518,10 @@
           "when": "Oct–Nov",
           "name": "Deepavali",
           "note": "The southern Diwali, celebrated warmly with lamps and sweets across the city's homes and temples.",
-          "months": [],
+          "months": [
+            "Oct",
+            "Nov"
+          ],
           "location": null,
           "photo": null
         }
@@ -17451,7 +17553,9 @@
           "when": "Aug",
           "name": "Sziget Festival",
           "note": "One of Europe's largest music festivals, held on an island in the Danube.",
-          "months": [],
+          "months": [
+            "Aug"
+          ],
           "location": null,
           "photo": null
         },
@@ -17459,7 +17563,9 @@
           "when": "Sept",
           "name": "Budapest Wine Festival",
           "note": "Hungarian winemakers gather in the Castle District for the harvest-season tasting.",
-          "months": [],
+          "months": [
+            "Sep"
+          ],
           "location": null,
           "photo": null
         },
@@ -17467,7 +17573,9 @@
           "when": "20 Aug",
           "name": "St Stephen's Day",
           "note": "The national holiday, marked by a grand fireworks display over the Danube.",
-          "months": [],
+          "months": [
+            "Aug"
+          ],
           "location": null,
           "photo": null
         }
@@ -18590,7 +18698,10 @@
           "when": "mid-Aug–early Sep",
           "name": "Tango BA Festival y Mundial",
           "note": "The world's largest tango gathering, culminating in the World Championship finals at the Gran Rex; free events fill the city.",
-          "months": [],
+          "months": [
+            "Aug",
+            "Sep"
+          ],
           "location": null,
           "photo": null
         },
@@ -18598,7 +18709,9 @@
           "when": "February",
           "name": "Carnaval Porteño",
           "note": "Neighbourhood murga troupes and free street corsos across more than twenty barrios; a local, unglossed carnival.",
-          "months": [],
+          "months": [
+            "Feb"
+          ],
           "location": null,
           "photo": null
         }
@@ -19615,7 +19728,9 @@
           "when": "November",
           "name": "Cairo International Film Festival",
           "note": "The oldest film festival in the Arab world and Africa, drawing an international crowd to the city's cinemas and red carpets.",
-          "months": [],
+          "months": [
+            "Nov"
+          ],
           "location": null,
           "photo": null
         },
@@ -19623,7 +19738,9 @@
           "when": "October",
           "name": "Cairo Jazz Festival",
           "note": "A long-running gathering of Egyptian and international jazz musicians across the city's stages.",
-          "months": [],
+          "months": [
+            "Oct"
+          ],
           "location": null,
           "photo": null
         }
@@ -20706,7 +20823,10 @@
           "when": "mid-May–mid-Sep (peak Jul–Aug)",
           "name": "Whale shark season",
           "note": "The window when whale sharks gather off Isla Mujeres and Isla Holbox; the region's signature wildlife encounter.",
-          "months": [],
+          "months": [
+            "Jul",
+            "Aug"
+          ],
           "location": null,
           "photo": null
         },
@@ -20714,7 +20834,9 @@
           "when": "February",
           "name": "Carnaval (Cozumel & Cancún)",
           "note": "Parades, music and costume across the coast in the days before Lent, with Cozumel's carnival the most traditional.",
-          "months": [],
+          "months": [
+            "Feb"
+          ],
           "location": null,
           "photo": null
         }
@@ -22120,7 +22242,9 @@
           "when": "early January (5 Jan 2026)",
           "name": "Cape Town Minstrel Carnival (Kaapse Klopse)",
           "note": "The city's oldest carnival — thousands of costumed minstrels with banjos and ghoema drums parade through the streets.",
-          "months": [],
+          "months": [
+            "Jan"
+          ],
           "location": null,
           "photo": null
         },
@@ -22128,7 +22252,9 @@
           "when": "late March (27–28 Mar 2026)",
           "name": "Cape Town International Jazz Festival",
           "note": "Africa's grandest jazz gathering, two days of local and international acts across multiple stages at the CTICC.",
-          "months": [],
+          "months": [
+            "Mar"
+          ],
           "location": null,
           "photo": null
         }
@@ -23096,7 +23222,10 @@
           "when": "late Jul–early Aug",
           "name": "Cappadocia Balloon Festival (BalonFest)",
           "note": "A mass ascension of dozens of special-shape balloons from around the world each morning, free to watch from any ridge.",
-          "months": [],
+          "months": [
+            "Jul",
+            "Aug"
+          ],
           "location": null,
           "photo": null
         }
@@ -24115,7 +24244,10 @@
           "when": "mid-December–January",
           "name": "Margazhi Music Season",
           "note": "The world's largest classical-music festival, with hundreds of Carnatic concerts across the city; the reason serious culture-lovers come.",
-          "months": [],
+          "months": [
+            "Dec",
+            "Jan"
+          ],
           "location": null,
           "photo": null
         },
@@ -24123,7 +24255,9 @@
           "when": "January (14–17)",
           "name": "Pongal",
           "note": "Tamil Nadu's harvest festival, the state's most important, marked with kolam art and feasting.",
-          "months": [],
+          "months": [
+            "Jan"
+          ],
           "location": null,
           "photo": null
         },
@@ -24131,7 +24265,9 @@
           "when": "January",
           "name": "Mylapore Festival",
           "note": "A heritage street festival around the Kapaleeshwarar temple, with kolam contests, crafts and performance.",
-          "months": [],
+          "months": [
+            "Jan"
+          ],
           "location": null,
           "photo": null
         },
@@ -24139,7 +24275,9 @@
           "when": "January",
           "name": "Chennai Sangamam",
           "note": "A large open, free festival of Tamil folk arts staged across public spaces alongside Pongal.",
-          "months": [],
+          "months": [
+            "Jan"
+          ],
           "location": null,
           "photo": null
         }
@@ -25074,7 +25212,9 @@
           "when": "January",
           "name": "Duruthu Perahera",
           "note": "A large temple procession at Kelaniya on the edge of Colombo, with drummers, dancers and caparisoned elephants.",
-          "months": [],
+          "months": [
+            "Jan"
+          ],
           "location": null,
           "photo": null
         },
@@ -25082,7 +25222,9 @@
           "when": "February",
           "name": "Navam Perahera",
           "note": "Colombo's own grand full-moon procession from the Gangaramaya Temple, with dozens of elephants moving through the city by night.",
-          "months": [],
+          "months": [
+            "Feb"
+          ],
           "location": null,
           "photo": null
         },
@@ -25090,7 +25232,9 @@
           "when": "May",
           "name": "Vesak",
           "note": "The most important Buddhist holiday; Colombo fills with lanterns and illuminated pandals, and free food stalls line the streets.",
-          "months": [],
+          "months": [
+            "May"
+          ],
           "location": null,
           "photo": null
         }
@@ -26183,7 +26327,9 @@
           "when": "early July",
           "name": "Copenhagen Jazz Festival",
           "note": "Ten days of over a thousand concerts across squares, courtyards and clubs, many of them free and outdoors.",
-          "months": [],
+          "months": [
+            "Jul"
+          ],
           "location": null,
           "photo": null
         },
@@ -26191,7 +26337,9 @@
           "when": "late August",
           "name": "Copenhagen Cooking & Food Festival",
           "note": "Northern Europe's largest food festival, with tastings, pop-ups and dinners across the city's restaurants and markets.",
-          "months": [],
+          "months": [
+            "Aug"
+          ],
           "location": null,
           "photo": null
         }
@@ -27274,7 +27422,9 @@
           "when": "24 June",
           "name": "Inti Raymi",
           "note": "The Inca Festival of the Sun, re-enacted at Sacsayhuamán — the Andes' greatest pageant, fixed on 24 June.",
-          "months": [],
+          "months": [
+            "Jun"
+          ],
           "location": null,
           "photo": null
         },
@@ -27282,7 +27432,9 @@
           "when": "June",
           "name": "Corpus Christi",
           "note": "Saints' processions and feasting fill the Plaza de Armas in the run-up to Inti Raymi.",
-          "months": [],
+          "months": [
+            "Jun"
+          ],
           "location": null,
           "photo": null
         },
@@ -27290,7 +27442,10 @@
           "when": "March/April",
           "name": "Señor de los Temblores (Holy Monday)",
           "note": "A revered procession of the 'Lord of the Earthquakes' through the old city during Holy Week.",
-          "months": [],
+          "months": [
+            "Mar",
+            "Apr"
+          ],
           "location": null,
           "photo": null
         }
@@ -28256,7 +28411,10 @@
           "when": "October–November",
           "name": "Clear-view autumn season",
           "note": "The most reliable window for cloud-free Kanchenjunga views after the monsoon clears.",
-          "months": [],
+          "months": [
+            "Oct",
+            "Nov"
+          ],
           "location": null,
           "photo": null
         },
@@ -28272,7 +28430,10 @@
           "when": "Feb–March",
           "name": "Losar (Tibetan New Year)",
           "note": "The Buddhist new year, marked with masked dances at the town's Tibetan monasteries.",
-          "months": [],
+          "months": [
+            "Feb",
+            "Mar"
+          ],
           "location": null,
           "photo": null
         },
@@ -28280,7 +28441,10 @@
           "when": "March–April",
           "name": "First-flush tea season",
           "note": "The prized spring plucking, the best time to experience the estates at work.",
-          "months": [],
+          "months": [
+            "Mar",
+            "Apr"
+          ],
           "location": null,
           "photo": null
         }
@@ -29303,7 +29467,9 @@
           "when": "26 Jan",
           "name": "Republic Day parade",
           "note": "The nation's grand military and cultural parade down Kartavya Path.",
-          "months": [],
+          "months": [
+            "Jan"
+          ],
           "location": null,
           "photo": null
         },
@@ -29311,7 +29477,10 @@
           "when": "Oct–Nov",
           "name": "Diwali",
           "note": "The festival of lights transforms the city with lamps and fireworks; date follows the lunar calendar.",
-          "months": [],
+          "months": [
+            "Oct",
+            "Nov"
+          ],
           "location": null,
           "photo": null
         },
@@ -29319,7 +29488,9 @@
           "when": "Feb",
           "name": "Qutub / India Art Fair season",
           "note": "India's leading art fair draws collectors, alongside heritage festivals in the cooler months.",
-          "months": [],
+          "months": [
+            "Feb"
+          ],
           "location": null,
           "photo": null
         }
@@ -30559,7 +30730,9 @@
           "when": "18 Dec",
           "name": "Qatar National Day",
           "note": "A waterfront parade, air and sea displays and fireworks marking the country's unification.",
-          "months": [],
+          "months": [
+            "Dec"
+          ],
           "location": null,
           "photo": null
         },
@@ -30567,7 +30740,9 @@
           "when": "late Nov",
           "name": "Ajyal Film Festival",
           "note": "The Doha Film Institute's week-long festival at Katara, screenings and culture for all ages.",
-          "months": [],
+          "months": [
+            "Nov"
+          ],
           "location": null,
           "photo": null
         }
@@ -32372,7 +32547,10 @@
           "when": "mid-Dec–late Jan",
           "name": "Dubai Shopping Festival",
           "note": "The city's biggest retail and entertainment season, with nightly fireworks, concerts and citywide sales.",
-          "months": [],
+          "months": [
+            "Dec",
+            "Jan"
+          ],
           "location": null,
           "photo": null
         },
@@ -32380,7 +32558,9 @@
           "when": "February",
           "name": "Taste of Dubai",
           "note": "The city's flagship food festival, with restaurant showcases, chef demos and tastings across a weekend.",
-          "months": [],
+          "months": [
+            "Feb"
+          ],
           "location": null,
           "photo": null
         },
@@ -32388,7 +32568,9 @@
           "when": "late March",
           "name": "Dubai World Cup",
           "note": "The world's richest race day at Meydan on the last Saturday of March, a full dress-code social occasion.",
-          "months": [],
+          "months": [
+            "Mar"
+          ],
           "location": null,
           "photo": null
         },
@@ -32396,7 +32578,11 @@
           "when": "spring (Mar–May)",
           "name": "Art Dubai",
           "note": "The region's leading contemporary and modern art fair at Madinat Jumeirah, anchor of Dubai's art season.",
-          "months": [],
+          "months": [
+            "Mar",
+            "Apr",
+            "May"
+          ],
           "location": null,
           "photo": null
         }
@@ -33448,7 +33634,9 @@
           "when": "Late January",
           "name": "TradFest",
           "note": "Traditional and folk music across Dublin Castle, cathedrals and Temple Bar venues.",
-          "months": [],
+          "months": [
+            "Jan"
+          ],
           "location": null,
           "photo": null
         },
@@ -33456,7 +33644,9 @@
           "when": "Mid-March",
           "name": "St. Patrick's Festival",
           "note": "Several days of events around the 17 March parade through the city.",
-          "months": [],
+          "months": [
+            "Mar"
+          ],
           "location": null,
           "photo": null
         },
@@ -33464,7 +33654,9 @@
           "when": "16 June",
           "name": "Bloomsday",
           "note": "The city retraces Joyce's Ulysses in Edwardian dress.",
-          "months": [],
+          "months": [
+            "Jun"
+          ],
           "location": null,
           "photo": null
         }
@@ -34406,7 +34598,10 @@
           "when": "mid-July–late August",
           "name": "Dubrovnik Summer Festival",
           "note": "Six weeks of theatre and classical concerts staged on the ramparts and in courtyards across the Old Town since 1950.",
-          "months": [],
+          "months": [
+            "Jul",
+            "Aug"
+          ],
           "location": null,
           "photo": null
         },
@@ -34414,7 +34609,9 @@
           "when": "3 February",
           "name": "Feast of St Blaise (Sveti Vlaho)",
           "note": "The patron saint's day, a UNESCO-listed procession — the Old Town at its most local, with no cruise ships in sight.",
-          "months": [],
+          "months": [
+            "Feb"
+          ],
           "location": null,
           "photo": null
         },
@@ -34422,7 +34619,9 @@
           "when": "October",
           "name": "Good Food Festival",
           "note": "A week of tastings, oyster and wine events across the city as the season quietens.",
-          "months": [],
+          "months": [
+            "Oct"
+          ],
           "location": null,
           "photo": null
         }
@@ -35519,7 +35718,9 @@
           "when": "August",
           "name": "Edinburgh Festival Fringe",
           "note": "Roughly the first three weeks of the month; the city's defining event.",
-          "months": [],
+          "months": [
+            "Aug"
+          ],
           "location": null,
           "photo": null
         },
@@ -35527,7 +35728,9 @@
           "when": "August",
           "name": "Edinburgh International Festival",
           "note": "The curated classical, opera and theatre programme that runs alongside the Fringe.",
-          "months": [],
+          "months": [
+            "Aug"
+          ],
           "location": null,
           "photo": null
         },
@@ -35535,7 +35738,10 @@
           "when": "Late December to 1 January",
           "name": "Edinburgh's Hogmanay",
           "note": "Scotland's landmark New Year celebration, with a torchlight procession and street party.",
-          "months": [],
+          "months": [
+            "Dec",
+            "Jan"
+          ],
           "location": null,
           "photo": null
         }
@@ -36888,7 +37094,9 @@
           "when": "June (final 24 Jun)",
           "name": "Calcio Storico Fiorentino",
           "note": "A brutal, costumed 16th-century football tournament in Piazza Santa Croce, climaxing on the feast of San Giovanni.",
-          "months": [],
+          "months": [
+            "Jun"
+          ],
           "location": null,
           "photo": null
         },
@@ -36896,7 +37104,10 @@
           "when": "2 July & 16 August",
           "name": "Palio di Siena (nearby)",
           "note": "An easy excursion to Siena for the bareback horse race around the Piazza del Campo, the great spectacle of Tuscany.",
-          "months": [],
+          "months": [
+            "Jul",
+            "Aug"
+          ],
           "location": null,
           "photo": null
         }
@@ -37837,7 +38048,9 @@
           "when": "late Jan",
           "name": "Galle Literary Festival",
           "note": "South Asia's leading literary gathering, staged in the fort's colonial buildings — the 2026 edition runs 22–25 January.",
-          "months": [],
+          "months": [
+            "Jan"
+          ],
           "location": null,
           "photo": null
         },
@@ -37845,7 +38058,10 @@
           "when": "July–Aug",
           "name": "Esala Perahera season (island-wide)",
           "note": "The great Kandy procession draws travellers up-country during Galle's dry, bright months.",
-          "months": [],
+          "months": [
+            "Jul",
+            "Aug"
+          ],
           "location": null,
           "photo": null
         },
@@ -37853,7 +38069,9 @@
           "when": "mid-April",
           "name": "Sinhala & Tamil New Year",
           "note": "Traditional games, sweets and rituals fill the villages around the fort.",
-          "months": [],
+          "months": [
+            "Apr"
+          ],
           "location": null,
           "photo": null
         }
@@ -38896,7 +39114,9 @@
           "when": "Weekend nearest 11–12 December",
           "name": "Fête de l'Escalade",
           "note": "Geneva's beloved festival marking the 1602 defeat of Savoy, with torch-lit processions in period dress and chocolate cauldrons.",
-          "months": [],
+          "months": [
+            "Dec"
+          ],
           "location": null,
           "photo": null
         },
@@ -38904,7 +39124,9 @@
           "when": "Late June",
           "name": "Fête de la Musique",
           "note": "Three days of free concerts across squares and courtyards throughout the old town for the summer solstice.",
-          "months": [],
+          "months": [
+            "Jun"
+          ],
           "location": null,
           "photo": null
         }
@@ -39910,7 +40132,9 @@
           "when": "February",
           "name": "Goa Carnival",
           "note": "A Portuguese-legacy street carnival with floats and parades in the days before Lent, centred on Panjim.",
-          "months": [],
+          "months": [
+            "Feb"
+          ],
           "location": null,
           "photo": null
         },
@@ -39918,7 +40142,9 @@
           "when": "late December",
           "name": "Sunburn Festival",
           "note": "India's largest electronic-music festival draws a big year-end crowd to the north; plan around it either way.",
-          "months": [],
+          "months": [
+            "Dec"
+          ],
           "location": null,
           "photo": null
         },
@@ -39926,7 +40152,9 @@
           "when": "3 December",
           "name": "Feast of St Francis Xavier",
           "note": "A major pilgrimage to Old Goa honouring the state's patron saint, with the relics on rare display in exposition years.",
-          "months": [],
+          "months": [
+            "Dec"
+          ],
           "location": null,
           "photo": null
         },
@@ -39934,7 +40162,9 @@
           "when": "March",
           "name": "Shigmo",
           "note": "Goa's Hindu spring festival, a colourful procession of folk dancers and floats, the local counterpart to Holi.",
-          "months": [],
+          "months": [
+            "Mar"
+          ],
           "location": null,
           "photo": null
         }
@@ -40970,7 +41200,10 @@
           "when": "late Jan–mid Feb",
           "name": "Tet (Vietnamese Lunar New Year)",
           "note": "The country's biggest holiday; Hanoi empties of traffic and fills with kumquat trees and peach blossom, though many shops close for several days.",
-          "months": [],
+          "months": [
+            "Jan",
+            "Feb"
+          ],
           "location": null,
           "photo": null
         },
@@ -40978,7 +41211,9 @@
           "when": "February",
           "name": "Dong Da Festival",
           "note": "Held on the 5th day of the lunar new year at Dong Da mound, it commemorates Emperor Quang Trung's 1789 rout of the invading Qing army.",
-          "months": [],
+          "months": [
+            "Feb"
+          ],
           "location": null,
           "photo": null
         },
@@ -40986,7 +41221,10 @@
           "when": "Feb–Mar (peaks mid-Mar)",
           "name": "Perfume Pagoda Festival",
           "note": "A months-long pilgrimage southwest of Hanoi where over a million make the boat-and-climb journey to the sacred cave temple.",
-          "months": [],
+          "months": [
+            "Feb",
+            "Mar"
+          ],
           "location": null,
           "photo": null
         },
@@ -40994,7 +41232,9 @@
           "when": "September",
           "name": "Mid-Autumn Festival",
           "note": "A children's festival that turns Hang Ma street and the Old Quarter into a lantern market with lion dances and mooncakes.",
-          "months": [],
+          "months": [
+            "Sep"
+          ],
           "location": null,
           "photo": null
         }
@@ -42025,7 +42265,9 @@
           "when": "mid-Feb (17 Feb 2026)",
           "name": "Tet (Lunar New Year)",
           "note": "Nguyen Hue walking street becomes a vast flower festival; the city glows but many kitchens and shops close for the holiday.",
-          "months": [],
+          "months": [
+            "Feb"
+          ],
           "location": null,
           "photo": null
         },
@@ -42033,7 +42275,9 @@
           "when": "30 April",
           "name": "Reunification Day",
           "note": "Marks the end of the war in 1975 with parades and fireworks, and is felt most sharply in the city where it happened.",
-          "months": [],
+          "months": [
+            "Apr"
+          ],
           "location": null,
           "photo": null
         },
@@ -42041,7 +42285,9 @@
           "when": "late Sep (25 Sep 2026)",
           "name": "Mid-Autumn Festival",
           "note": "Cho Lon's Chinatown lights up with lanterns, lion dances and mooncake stalls in the city's most atmospheric quarter.",
-          "months": [],
+          "months": [
+            "Sep"
+          ],
           "location": null,
           "photo": null
         }
@@ -42997,7 +43243,10 @@
           "when": "late May–mid Jul (Sat nights)",
           "name": "Da Nang International Fireworks Festival",
           "note": "International teams compete over successive Saturday nights along the Han River — the region's biggest set-piece event.",
-          "months": [],
+          "months": [
+            "May",
+            "Jul"
+          ],
           "location": null,
           "photo": null
         },
@@ -43005,7 +43254,10 @@
           "when": "late Mar–Apr (biennial)",
           "name": "Hue Festival",
           "note": "A short drive north, the former imperial capital stages a major cultural festival of royal ritual, music and craft.",
-          "months": [],
+          "months": [
+            "Mar",
+            "Apr"
+          ],
           "location": null,
           "photo": null
         },
@@ -43021,7 +43273,9 @@
           "when": "late Sep (25 Sep 2026)",
           "name": "Mid-Autumn Festival",
           "note": "Hoi An is at its most atmospheric now, with lion dances and lantern-making through the old-town lanes.",
-          "months": [],
+          "months": [
+            "Sep"
+          ],
           "location": null,
           "photo": null
         }
@@ -44703,7 +44957,9 @@
           "when": "May (around Buddha's Birthday)",
           "name": "Cheung Chau Bun Festival",
           "note": "The outlying island's centuries-old festival culminates in a bun-scrambling race up towers and the floating-children Piu Sik parade.",
-          "months": [],
+          "months": [
+            "May"
+          ],
           "location": null,
           "photo": null
         },
@@ -44711,7 +44967,9 @@
           "when": "late October",
           "name": "Hong Kong Wine & Dine Festival",
           "note": "The Central Harbourfront fills with wine pavilions and food stalls against the skyline over four evenings.",
-          "months": [],
+          "months": [
+            "Oct"
+          ],
           "location": null,
           "photo": null
         }
@@ -45670,7 +45928,10 @@
           "when": "July–Aug",
           "name": "Bonalu",
           "note": "A vibrant folk festival honouring the goddess Mahakali across the twin cities' temples.",
-          "months": [],
+          "months": [
+            "Jul",
+            "Aug"
+          ],
           "location": null,
           "photo": null
         },
@@ -45678,7 +45939,10 @@
           "when": "Sept–Oct",
           "name": "Bathukamma",
           "note": "Telangana's flower festival, when women build and float towering floral arrangements.",
-          "months": [],
+          "months": [
+            "Sep",
+            "Oct"
+          ],
           "location": null,
           "photo": null
         },
@@ -46960,7 +47224,9 @@
           "when": "April",
           "name": "Istanbul Tulip Festival",
           "note": "Millions of tulips planted across Emirgan Park and the city's squares, honouring the flower's Ottoman origins.",
-          "months": [],
+          "months": [
+            "Apr"
+          ],
           "location": null,
           "photo": null
         },
@@ -46968,7 +47234,9 @@
           "when": "June (11–26 Jun 2026)",
           "name": "Istanbul Music Festival",
           "note": "Turkey's leading classical festival, staging concerts in historic venues from Hagia Irene to Bosphorus palaces.",
-          "months": [],
+          "months": [
+            "Jun"
+          ],
           "location": null,
           "photo": null
         },
@@ -46976,7 +47244,10 @@
           "when": "late June–July (30 Jun–13 Jul 2026)",
           "name": "Istanbul Jazz Festival",
           "note": "Jazz, soul and world music across the city's iconic stages, from parks to waterfront terraces.",
-          "months": [],
+          "months": [
+            "Jun",
+            "Jul"
+          ],
           "location": null,
           "photo": null
         }
@@ -47858,7 +48129,10 @@
           "when": "late January–February",
           "name": "Jaipur Literature Festival",
           "note": "The world's largest free literary festival, a genuine cultural draw that fills the city; book lodging far ahead.",
-          "months": [],
+          "months": [
+            "Jan",
+            "Feb"
+          ],
           "location": null,
           "photo": null
         },
@@ -47866,7 +48140,9 @@
           "when": "Aug",
           "name": "Teej",
           "note": "A monsoon festival with a colourful royal procession honouring the goddess Parvati through the old city.",
-          "months": [],
+          "months": [
+            "Aug"
+          ],
           "location": null,
           "photo": null
         },
@@ -47874,7 +48150,10 @@
           "when": "March–April",
           "name": "Gangaur",
           "note": "An 18-day festival ending in a grand ceremonial procession, one of Rajasthan's most photographed.",
-          "months": [],
+          "months": [
+            "Mar",
+            "Apr"
+          ],
           "location": null,
           "photo": null
         },
@@ -47882,7 +48161,10 @@
           "when": "Oct–Nov",
           "name": "Diwali",
           "note": "Jaipur is famous for its illuminated markets and lit-up buildings at Diwali; among the best in India to witness.",
-          "months": [],
+          "months": [
+            "Oct",
+            "Nov"
+          ],
           "location": null,
           "photo": null
         }
@@ -48795,7 +49077,9 @@
           "when": "March",
           "name": "Holi",
           "note": "Celebrated with folk colour among the sandstone lanes, best experienced at a heritage haveli.",
-          "months": [],
+          "months": [
+            "Mar"
+          ],
           "location": null,
           "photo": null
         },
@@ -48803,7 +49087,10 @@
           "when": "Oct–Nov",
           "name": "Diwali",
           "note": "The golden fort takes on the lamplight beautifully; a quiet, atmospheric time to visit.",
-          "months": [],
+          "months": [
+            "Oct",
+            "Nov"
+          ],
           "location": null,
           "photo": null
         }
@@ -49695,7 +49982,9 @@
           "when": "October (around Sharad Purnima)",
           "name": "Rajasthan International Folk Festival (RIFF)",
           "note": "A superb roots-music festival staged inside Mehrangarh Fort on the October full moon.",
-          "months": [],
+          "months": [
+            "Oct"
+          ],
           "location": null,
           "photo": null
         },
@@ -49703,7 +49992,9 @@
           "when": "October",
           "name": "Marwar Festival",
           "note": "A two-day celebration of Marwari folk music and dance honouring the region's heroes.",
-          "months": [],
+          "months": [
+            "Oct"
+          ],
           "location": null,
           "photo": null
         },
@@ -49711,7 +50002,9 @@
           "when": "February",
           "name": "World Sacred Spirit Festival",
           "note": "An intimate festival of devotional and Sufi music held within the fort.",
-          "months": [],
+          "months": [
+            "Feb"
+          ],
           "location": null,
           "photo": null
         },
@@ -49719,7 +50012,10 @@
           "when": "Oct–Nov",
           "name": "Diwali",
           "note": "The blue city glows with lamps beneath the floodlit fort, a striking sight from the rooftops.",
-          "months": [],
+          "months": [
+            "Oct",
+            "Nov"
+          ],
           "location": null,
           "photo": null
         }
@@ -50555,7 +50851,9 @@
           "when": "September",
           "name": "Indra Jatra",
           "note": "Eight days of masked deity dances and the Kumari chariot procession around Kathmandu Durbar Square.",
-          "months": [],
+          "months": [
+            "Sep"
+          ],
           "location": null,
           "photo": null
         },
@@ -50563,7 +50861,9 @@
           "when": "October",
           "name": "Dashain",
           "note": "Nepal's longest and most auspicious festival; the country empties home, so plan logistics carefully.",
-          "months": [],
+          "months": [
+            "Oct"
+          ],
           "location": null,
           "photo": null
         },
@@ -50571,7 +50871,10 @@
           "when": "October–November",
           "name": "Tihar",
           "note": "The five-day festival of lights; homes and streets glow with oil lamps and marigold.",
-          "months": [],
+          "months": [
+            "Oct",
+            "Nov"
+          ],
           "location": null,
           "photo": null
         }
@@ -51520,7 +51823,9 @@
           "when": "last week of December",
           "name": "Cochin Carnival",
           "note": "A ten-day Fort Kochi street festival ending on New Year's Eve with the burning of the Pappanji effigy.",
-          "months": [],
+          "months": [
+            "Dec"
+          ],
           "location": null,
           "photo": null
         },
@@ -51528,7 +51833,13 @@
           "when": "Dec–Apr (biennial)",
           "name": "Kochi-Muziris Biennale",
           "note": "India's leading contemporary-art event, staged in warehouses and heritage buildings across the fort.",
-          "months": [],
+          "months": [
+            "Dec",
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr"
+          ],
           "location": null,
           "photo": null
         },
@@ -51536,7 +51847,10 @@
           "when": "Aug–Sep",
           "name": "Onam",
           "note": "Kerala's grand harvest festival, with flower carpets, feasts and boat races across the region.",
-          "months": [],
+          "months": [
+            "Aug",
+            "Sep"
+          ],
           "location": null,
           "photo": null
         },
@@ -51544,7 +51858,10 @@
           "when": "April–May",
           "name": "Thrissur Pooram (nearby)",
           "note": "The spectacular caparisoned-elephant temple festival is a short trip north, among India's grandest.",
-          "months": [],
+          "months": [
+            "Apr",
+            "May"
+          ],
           "location": null,
           "photo": null
         }
@@ -52564,7 +52881,10 @@
           "when": "Sep–Oct",
           "name": "Durga Puja",
           "note": "The city's defining festival, a UNESCO-recognised explosion of art, devotion and street life; the single best time to visit.",
-          "months": [],
+          "months": [
+            "Sep",
+            "Oct"
+          ],
           "location": null,
           "photo": null
         },
@@ -52572,7 +52892,10 @@
           "when": "Oct–Nov",
           "name": "Kali Puja & Diwali",
           "note": "A dramatic night of goddess worship and lights following close on Durga Puja.",
-          "months": [],
+          "months": [
+            "Oct",
+            "Nov"
+          ],
           "location": null,
           "photo": null
         },
@@ -52580,7 +52903,9 @@
           "when": "November",
           "name": "Kolkata International Film Festival",
           "note": "A major, long-running film festival that fills the city's cinemas and its intellectual life.",
-          "months": [],
+          "months": [
+            "Nov"
+          ],
           "location": null,
           "photo": null
         },
@@ -52588,7 +52913,9 @@
           "when": "December",
           "name": "Poush Mela / Christmas season",
           "note": "Park Street's famous Christmas lights and the nearby Santiniketan Poush Mela make December especially lively.",
-          "months": [],
+          "months": [
+            "Dec"
+          ],
           "location": null,
           "photo": null
         }
@@ -53546,7 +53873,9 @@
           "when": "November",
           "name": "Loy Krathong",
           "note": "The festival of lights, celebrated along Krabi's beaches with floating candlelit offerings at dusk.",
-          "months": [],
+          "months": [
+            "Nov"
+          ],
           "location": null,
           "photo": null
         },
@@ -53554,7 +53883,9 @@
           "when": "13–15 April",
           "name": "Songkran",
           "note": "Thai New Year, marked with water-splashing and temple visits across the province at the height of the hot season.",
-          "months": [],
+          "months": [
+            "Apr"
+          ],
           "location": null,
           "photo": null
         }
@@ -54765,7 +55096,10 @@
           "when": "late Jan–Feb",
           "name": "Thaipusam at Batu Caves",
           "note": "One of the world's largest Tamil Hindu processions, with devotees carrying kavadi up the cave steps.",
-          "months": [],
+          "months": [
+            "Jan",
+            "Feb"
+          ],
           "location": null,
           "photo": null
         },
@@ -55985,7 +56319,9 @@
           "when": "15 May",
           "name": "Aoi Matsuri",
           "note": "The oldest of Kyoto's three great festivals — a Heian-era court procession in ox-carts and silk from the Imperial Palace to the Kamo shrines.",
-          "months": [],
+          "months": [
+            "May"
+          ],
           "location": null,
           "photo": null
         },
@@ -55993,7 +56329,9 @@
           "when": "July (float parades 17 & 24)",
           "name": "Gion Matsuri",
           "note": "The month-long summer festival of the Yasaka shrine, peaking with the towering Yamaboko float processions and the yoiyama street evenings before them.",
-          "months": [],
+          "months": [
+            "Jul"
+          ],
           "location": null,
           "photo": null
         },
@@ -56001,7 +56339,9 @@
           "when": "22 October",
           "name": "Jidai Matsuri",
           "note": "The 'Festival of the Ages' — a costumed pageant marching a thousand years of Japanese history through the streets.",
-          "months": [],
+          "months": [
+            "Oct"
+          ],
           "location": null,
           "photo": null
         }
@@ -57179,7 +57519,9 @@
           "when": "last weekend of June",
           "name": "Sagra di San Giovanni, Isola Comacina",
           "note": "The lake's only island lit by fireworks and floating candles, recalling its medieval destruction — Como's most atmospheric night.",
-          "months": [],
+          "months": [
+            "Jun"
+          ],
           "location": null,
           "photo": null
         },
@@ -57187,7 +57529,10 @@
           "when": "July–August",
           "name": "Bellagio e Lago di Como Festival",
           "note": "A summer season of chamber and orchestral concerts in lakefront churches and villa gardens.",
-          "months": [],
+          "months": [
+            "Jul",
+            "Aug"
+          ],
           "location": null,
           "photo": null
         }
@@ -58113,7 +58458,9 @@
           "when": "late November",
           "name": "Ironman Malaysia",
           "note": "The full-distance triathlon in the tropical heat, one of Asia's flagship endurance races, based out of Kuah.",
-          "months": [],
+          "months": [
+            "Nov"
+          ],
           "location": null,
           "photo": null
         },
@@ -58121,7 +58468,9 @@
           "when": "May, odd years",
           "name": "LIMA (Langkawi International Maritime & Aerospace Exhibition)",
           "note": "A biennial defence and aerospace showcase with public flying displays over the bay — book far ahead, the island fills.",
-          "months": [],
+          "months": [
+            "May"
+          ],
           "location": null,
           "photo": null
         },
@@ -58129,7 +58478,9 @@
           "when": "January",
           "name": "Royal Langkawi International Regatta",
           "note": "An international fleet racing in the Andaman Sea off the island — the calmest, driest month to visit.",
-          "months": [],
+          "months": [
+            "Jan"
+          ],
           "location": null,
           "photo": null
         }
@@ -59263,7 +59614,9 @@
           "when": "Late November",
           "name": "Formula 1 Las Vegas Grand Prix",
           "note": "The night race runs a street circuit down the Strip past Caesars and the Sphere; book far ahead as the city fills.",
-          "months": [],
+          "months": [
+            "Nov"
+          ],
           "location": null,
           "photo": null
         },
@@ -59271,7 +59624,9 @@
           "when": "Early December",
           "name": "Wrangler National Finals Rodeo",
           "note": "Ten days of championship rodeo at the Thomas & Mack Center that transform the city's mood.",
-          "months": [],
+          "months": [
+            "Dec"
+          ],
           "location": null,
           "photo": null
         },
@@ -59279,7 +59634,9 @@
           "when": "31 December",
           "name": "New Year's Eve on the Strip",
           "note": "Fireworks launch from the resort rooftops in one of the largest street celebrations in the country.",
-          "months": [],
+          "months": [
+            "Dec"
+          ],
           "location": null,
           "photo": null
         }
@@ -60277,7 +60634,10 @@
           "when": "late June–early July",
           "name": "Hemis Festival",
           "note": "The largest monastic festival in Ladakh, with masked cham dances at Hemis Gompa; dates follow the Tibetan calendar.",
-          "months": [],
+          "months": [
+            "Jun",
+            "Jul"
+          ],
           "location": null,
           "photo": null
         },
@@ -60285,7 +60645,9 @@
           "when": "September",
           "name": "Ladakh Festival",
           "note": "A week of processions, polo, archery and folk performance across Leh, marking the season's end.",
-          "months": [],
+          "months": [
+            "Sep"
+          ],
           "location": null,
           "photo": null
         },
@@ -60293,7 +60655,11 @@
           "when": "December–February",
           "name": "Losar (Ladakhi New Year)",
           "note": "The Buddhist new year, an intimate winter festival for those who brave the cold, closed season.",
-          "months": [],
+          "months": [
+            "Dec",
+            "Jan",
+            "Feb"
+          ],
           "location": null,
           "photo": null
         },
@@ -60301,7 +60667,9 @@
           "when": "June",
           "name": "Sindhu Darshan",
           "note": "A riverside festival on the banks of the Indus celebrating the river and Ladakhi culture.",
-          "months": [],
+          "months": [
+            "Jun"
+          ],
           "location": null,
           "photo": null
         }
@@ -61345,7 +61713,9 @@
           "when": "Early September",
           "name": "Mistura Food Festival",
           "note": "Latin America's largest gastronomy fair, gathering the country's cooks and produce on the coast.",
-          "months": [],
+          "months": [
+            "Sep"
+          ],
           "location": null,
           "photo": null
         },
@@ -61353,7 +61723,9 @@
           "when": "October",
           "name": "Señor de los Milagros (Lord of Miracles)",
           "note": "Purple-robed processions through the centre all month, the largest on 18 October.",
-          "months": [],
+          "months": [
+            "Oct"
+          ],
           "location": null,
           "photo": null
         },
@@ -61361,7 +61733,9 @@
           "when": "28–29 July",
           "name": "Fiestas Patrias (Independence)",
           "note": "Two national holidays of parades and celebration across the capital.",
-          "months": [],
+          "months": [
+            "Jul"
+          ],
           "location": null,
           "photo": null
         }
@@ -62494,7 +62868,9 @@
           "when": "Early-mid June",
           "name": "Festas de Santo António (Santos Populares)",
           "note": "The city's biggest street party, peaking on the night of the 12th with grilled sardines, marchas and neighbourhood dancing.",
-          "months": [],
+          "months": [
+            "Jun"
+          ],
           "location": null,
           "photo": null
         }
@@ -64399,7 +64775,10 @@
           "when": "late June–early July",
           "name": "Wimbledon",
           "note": "The oldest tennis championship, and London's summer social centrepiece.",
-          "months": [],
+          "months": [
+            "Jun",
+            "Jul"
+          ],
           "location": null,
           "photo": null
         },
@@ -64407,7 +64786,9 @@
           "when": "Oct",
           "name": "Frieze London",
           "note": "The contemporary art fair that turns Regent's Park and the whole city into a gallery.",
-          "months": [],
+          "months": [
+            "Oct"
+          ],
           "location": null,
           "photo": null
         },
@@ -64415,7 +64796,9 @@
           "when": "May",
           "name": "Chelsea Flower Show",
           "note": "The RHS's flagship show and a fixture of the London season.",
-          "months": [],
+          "months": [
+            "May"
+          ],
           "location": null,
           "photo": null
         }
@@ -65826,7 +66209,9 @@
           "when": "April (two weekends)",
           "name": "Coachella Valley Music and Arts Festival",
           "note": "Two hours east in Indio; the marquee festival that empties fashionable LA into the desert.",
-          "months": [],
+          "months": [
+            "Apr"
+          ],
           "location": null,
           "photo": null
         },
@@ -65834,7 +66219,9 @@
           "when": "Mid-March",
           "name": "Academy Awards",
           "note": "The ceremony itself is closed, but the city's energy, parties and restaurant scene peak around Oscars weekend.",
-          "months": [],
+          "months": [
+            "Mar"
+          ],
           "location": null,
           "photo": null
         },
@@ -65842,7 +66229,9 @@
           "when": "March",
           "name": "ASICS Los Angeles Marathon",
           "note": "The Stadium-to-the-Stars course runs from Dodger Stadium to Century City, closing swathes of the city for a morning.",
-          "months": [],
+          "months": [
+            "Mar"
+          ],
           "location": null,
           "photo": null
         }
@@ -67171,7 +67560,9 @@
           "when": "Mid-May",
           "name": "Fiestas de San Isidro",
           "note": "Madrid's patron-saint festival brings open-air verbenas, chotis dancing and concerts across the old city.",
-          "months": [],
+          "months": [
+            "May"
+          ],
           "location": null,
           "photo": null
         },
@@ -67179,7 +67570,9 @@
           "when": "Early-mid July",
           "name": "Mad Cool Festival",
           "note": "The city's major international music festival, held over four days at the Iberdrola Music grounds in Villaverde.",
-          "months": [],
+          "months": [
+            "Jul"
+          ],
           "location": null,
           "photo": null
         }
@@ -68144,7 +68537,9 @@
           "when": "late October",
           "name": "Festival Kreol",
           "note": "The country's biggest cultural festival — Creole music, food and dance across a week.",
-          "months": [],
+          "months": [
+            "Oct"
+          ],
           "location": null,
           "photo": null
         },
@@ -68152,7 +68547,9 @@
           "when": "April",
           "name": "Carnaval International de Victoria",
           "note": "A colourful international parade through the capital celebrating the islands' mixed heritage.",
-          "months": [],
+          "months": [
+            "Apr"
+          ],
           "location": null,
           "photo": null
         },
@@ -68160,7 +68557,9 @@
           "when": "November",
           "name": "SUBIOS Underwater Festival",
           "note": "A celebration of Seychelles' marine heritage with film, exhibitions and dive events.",
-          "months": [],
+          "months": [
+            "Nov"
+          ],
           "location": null,
           "photo": null
         }
@@ -69538,7 +69937,9 @@
           "when": "10 December",
           "name": "Fishermen's Day",
           "note": "A national thank-you to the fishing communities that built the country.",
-          "months": [],
+          "months": [
+            "Dec"
+          ],
           "location": null,
           "photo": null
         },
@@ -69546,7 +69947,9 @@
           "when": "11 November",
           "name": "Republic Day",
           "note": "National celebration with parades and cultural displays in Malé.",
-          "months": [],
+          "months": [
+            "Nov"
+          ],
           "location": null,
           "photo": null
         }
@@ -70476,7 +70879,9 @@
           "when": "October",
           "name": "Kullu Dussehra (nearby)",
           "note": "The week-long valley festival at Kullu, when hundreds of village deities are carried in procession; the region's great event.",
-          "months": [],
+          "months": [
+            "Oct"
+          ],
           "location": null,
           "photo": null
         },
@@ -70484,7 +70889,9 @@
           "when": "January",
           "name": "Winter Carnival, Manali",
           "note": "A cold-season festival of local culture, food and snow sports in the town.",
-          "months": [],
+          "months": [
+            "Jan"
+          ],
           "location": null,
           "photo": null
         },
@@ -70492,7 +70899,9 @@
           "when": "May",
           "name": "Hadimba Devi Fair",
           "note": "A local temple festival at the atmospheric wooden Hadimba shrine among the cedars.",
-          "months": [],
+          "months": [
+            "May"
+          ],
           "location": null,
           "photo": null
         },
@@ -70500,7 +70909,13 @@
           "when": "June–October",
           "name": "Spiti / high-pass access season",
           "note": "The window when the high roads over Kunzum and towards Spiti open; the reason to time a longer trip.",
-          "months": [],
+          "months": [
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct"
+          ],
           "location": null,
           "photo": null
         }
@@ -71767,7 +72182,9 @@
           "when": "June (4–6 Jun 2026)",
           "name": "Marrakech Comedy Festival (Marrakech du Rire)",
           "note": "The city's headline comedy weekend, now under a new name and home at the Palais des Congrès.",
-          "months": [],
+          "months": [
+            "Jun"
+          ],
           "location": null,
           "photo": null
         },
@@ -71775,7 +72192,9 @@
           "when": "late November (20–28 Nov 2026)",
           "name": "Marrakech International Film Festival",
           "note": "The prestige film festival that brings international directors and stars to the Palais Badii and the medina squares.",
-          "months": [],
+          "months": [
+            "Nov"
+          ],
           "location": null,
           "photo": null
         }
@@ -72791,7 +73210,10 @@
           "when": "late January–February",
           "name": "Thaipoosam Cavadee",
           "note": "Tamil devotees carry flower-decked kavadi and pierce their skin in honour of Lord Muruga.",
-          "months": [],
+          "months": [
+            "Jan",
+            "Feb"
+          ],
           "location": null,
           "photo": null
         },
@@ -72799,7 +73221,10 @@
           "when": "February–March",
           "name": "Maha Shivaratri",
           "note": "Hundreds of thousands walk barefoot to Grand Bassin carrying kanwars — the island's largest Hindu pilgrimage.",
-          "months": [],
+          "months": [
+            "Feb",
+            "Mar"
+          ],
           "location": null,
           "photo": null
         },
@@ -72807,7 +73232,10 @@
           "when": "late January–February",
           "name": "Chinese New Year (Spring Festival)",
           "note": "Firecrackers and celebration in Port Louis's Chinatown; dates shift with the lunar calendar.",
-          "months": [],
+          "months": [
+            "Jan",
+            "Feb"
+          ],
           "location": null,
           "photo": null
         },
@@ -72815,7 +73243,10 @@
           "when": "October–November",
           "name": "Divali",
           "note": "The festival of lights, with homes and hillsides across the island lit end to end.",
-          "months": [],
+          "months": [
+            "Oct",
+            "Nov"
+          ],
           "location": null,
           "photo": null
         }
@@ -74166,7 +74597,9 @@
           "when": "Mid–late January",
           "name": "Australian Open",
           "note": "The year's first tennis Grand Slam, taking over Melbourne Park for a fortnight.",
-          "months": [],
+          "months": [
+            "Jan"
+          ],
           "location": null,
           "photo": null
         },
@@ -74174,7 +74607,10 @@
           "when": "Late March – April",
           "name": "Melbourne International Comedy Festival",
           "note": "The world's largest dedicated comedy festival, hundreds of shows across the city.",
-          "months": [],
+          "months": [
+            "Mar",
+            "Apr"
+          ],
           "location": null,
           "photo": null
         },
@@ -74182,7 +74618,9 @@
           "when": "Early November",
           "name": "Melbourne Cup Carnival",
           "note": "The race that stops a nation, the centrepiece of the spring racing weeks.",
-          "months": [],
+          "months": [
+            "Nov"
+          ],
           "location": null,
           "photo": null
         }
@@ -75376,7 +75814,10 @@
           "when": "late Oct–early Nov",
           "name": "Día de Muertos parade",
           "note": "A grand parade down Paseo de la Reforma into the Zócalo — 2025's runs on the weekend of 1–2 November.",
-          "months": [],
+          "months": [
+            "Oct",
+            "Nov"
+          ],
           "location": null,
           "photo": null
         },
@@ -75384,7 +75825,9 @@
           "when": "Feb",
           "name": "Zona Maco",
           "note": "Latin America's leading contemporary art fair, filling the city with openings.",
-          "months": [],
+          "months": [
+            "Feb"
+          ],
           "location": null,
           "photo": null
         },
@@ -75392,7 +75835,9 @@
           "when": "15–16 Sept",
           "name": "Grito de Independencia",
           "note": "Independence night, when the Zócalo fills for the president's cry and fireworks.",
-          "months": [],
+          "months": [
+            "Sep"
+          ],
           "location": null,
           "photo": null
         }
@@ -76513,7 +76958,9 @@
           "when": "Early December",
           "name": "Art Basel Miami Beach",
           "note": "The city's marquee week; the fair anchors dozens of satellite shows and the design world descends.",
-          "months": [],
+          "months": [
+            "Dec"
+          ],
           "location": null,
           "photo": null
         },
@@ -76521,7 +76968,9 @@
           "when": "Late March",
           "name": "Ultra Music Festival",
           "note": "Electronic-music weekend at Bayfront Park that headlines Miami Music Week.",
-          "months": [],
+          "months": [
+            "Mar"
+          ],
           "location": null,
           "photo": null
         },
@@ -76529,7 +76978,9 @@
           "when": "February",
           "name": "Miami International Boat Show",
           "note": "One of the world's largest boat shows, a fixture of the city's on-water calendar over Presidents' Day weekend.",
-          "months": [],
+          "months": [
+            "Feb"
+          ],
           "location": null,
           "photo": null
         }
@@ -77891,7 +78342,10 @@
           "when": "Feb & Sept",
           "name": "Milan Fashion Week",
           "note": "The women's shows twice a year turn the city into fashion's world capital.",
-          "months": [],
+          "months": [
+            "Feb",
+            "Sep"
+          ],
           "location": null,
           "photo": null
         },
@@ -77899,7 +78353,9 @@
           "when": "April",
           "name": "Salone del Mobile (Design Week)",
           "note": "The world's biggest furniture and design fair, spilling into installations across every district.",
-          "months": [],
+          "months": [
+            "Apr"
+          ],
           "location": null,
           "photo": null
         },
@@ -77907,7 +78363,9 @@
           "when": "7 Dec",
           "name": "Sant'Ambrogio & La Scala opening night",
           "note": "The city's patron-saint feast and the opera season's gala premiere on the same night.",
-          "months": [],
+          "months": [
+            "Dec"
+          ],
           "location": null,
           "photo": null
         }
@@ -79020,7 +79478,10 @@
           "when": "Aug–Sep",
           "name": "Ganesh Chaturthi",
           "note": "The city's biggest festival, ending in vast processions to the sea; thrilling but expect road closures and dense crowds.",
-          "months": [],
+          "months": [
+            "Aug",
+            "Sep"
+          ],
           "location": null,
           "photo": null
         },
@@ -79028,7 +79489,9 @@
           "when": "February",
           "name": "Kala Ghoda Arts Festival",
           "note": "A well-run nine-day street arts festival in the Fort district, good for design, film and installations.",
-          "months": [],
+          "months": [
+            "Feb"
+          ],
           "location": null,
           "photo": null
         },
@@ -79036,7 +79499,10 @@
           "when": "Oct–Nov",
           "name": "Diwali",
           "note": "The seafront and homes light up; a fine time for the food and shopping but book restaurants early.",
-          "months": [],
+          "months": [
+            "Oct",
+            "Nov"
+          ],
           "location": null,
           "photo": null
         },
@@ -80172,7 +80638,9 @@
           "when": "March",
           "name": "Starkbierfest (strong beer season)",
           "note": "Lenten strong-beer festivals, centred on Paulaner's Nockherberg, with far fewer tourists than Oktoberfest.",
-          "months": [],
+          "months": [
+            "Mar"
+          ],
           "location": null,
           "photo": null
         },
@@ -80180,7 +80648,10 @@
           "when": "Mid-September to early October",
           "name": "Oktoberfest",
           "note": "The world's largest folk festival on the Theresienwiese; book months ahead.",
-          "months": [],
+          "months": [
+            "Sep",
+            "Oct"
+          ],
           "location": null,
           "photo": null
         },
@@ -80188,7 +80659,10 @@
           "when": "Late November to December",
           "name": "Tollwood Winter Festival",
           "note": "World music, theatre and a market on the Theresienwiese over the festive season.",
-          "months": [],
+          "months": [
+            "Nov",
+            "Dec"
+          ],
           "location": null,
           "photo": null
         }
@@ -81143,7 +81617,10 @@
           "when": "Aug–Sep",
           "name": "Onam",
           "note": "Kerala's harvest festival is celebrated warmly on the estates, with feasts and floral decorations.",
-          "months": [],
+          "months": [
+            "Aug",
+            "Sep"
+          ],
           "location": null,
           "photo": null
         },
@@ -81151,7 +81628,11 @@
           "when": "Sep–Nov & Jan–March",
           "name": "Peak clear-weather season",
           "note": "The post-monsoon and dry-winter windows give the clearest tea-country light and best walking.",
-          "months": [],
+          "months": [
+            "Sep",
+            "Oct",
+            "Nov"
+          ],
           "location": null,
           "photo": null
         },
@@ -81159,7 +81640,9 @@
           "when": "late December",
           "name": "Christmas & New Year",
           "note": "The estates and resorts fill with a festive high-season crowd; charming but book far ahead.",
-          "months": [],
+          "months": [
+            "Dec"
+          ],
           "location": null,
           "photo": null
         }
@@ -82149,7 +82632,10 @@
           "when": "Jan–Feb",
           "name": "Muscat Festival",
           "note": "A month of crafts, culture and food across the city's parks during the cool season.",
-          "months": [],
+          "months": [
+            "Jan",
+            "Feb"
+          ],
           "location": null,
           "photo": null
         },
@@ -82157,7 +82643,10 @@
           "when": "mid-Jul–Aug",
           "name": "Salalah Khareef",
           "note": "In Oman's far south, the monsoon turns the hills green — a summer escape unlike anywhere else in Arabia.",
-          "months": [],
+          "months": [
+            "Jul",
+            "Aug"
+          ],
           "location": null,
           "photo": null
         }
@@ -83175,7 +83664,9 @@
           "when": "Late August",
           "name": "XLSIOR Festival",
           "note": "One of the world's largest LGBTQ+ dance festivals, taking over the island's clubs and beach venues for five to six days.",
-          "months": [],
+          "months": [
+            "Aug"
+          ],
           "location": null,
           "photo": null
         }
@@ -84240,7 +84731,10 @@
           "when": "August-September",
           "name": "Great Wildebeest Migration river crossings",
           "note": "Peak crossing season in the Mara; the exact days are unpredictable, so allow several nights and book camps 12-18 months ahead.",
-          "months": [],
+          "months": [
+            "Aug",
+            "Sep"
+          ],
           "location": null,
           "photo": null
         },
@@ -84248,7 +84742,9 @@
           "when": "March",
           "name": "WRC Safari Rally Kenya",
           "note": "The historic World Rally round runs on the rough tracks around Lake Naivasha, a couple of hours from Nairobi.",
-          "months": [],
+          "months": [
+            "Mar"
+          ],
           "location": null,
           "photo": null
         },
@@ -84256,7 +84752,9 @@
           "when": "Late November",
           "name": "Lamu Cultural Festival",
           "note": "Dhow races, poetry and Swahili weddings on the coastal island — a natural add-on if you extend beyond the safari.",
-          "months": [],
+          "months": [
+            "Nov"
+          ],
           "location": null,
           "photo": null
         }
@@ -86096,7 +86594,9 @@
           "when": "early June",
           "name": "Tribeca Festival",
           "note": "Robert De Niro's downtown film festival, when premieres and talks take over lower Manhattan for a fortnight.",
-          "months": [],
+          "months": [
+            "Jun"
+          ],
           "location": null,
           "photo": null
         },
@@ -86104,7 +86604,10 @@
           "when": "late August–early September",
           "name": "US Open (tennis)",
           "note": "The season's final Grand Slam in Flushing Meadows, the loudest and latest-running of the four.",
-          "months": [],
+          "months": [
+            "Aug",
+            "Sep"
+          ],
           "location": null,
           "photo": null
         },
@@ -86112,7 +86615,9 @@
           "when": "late November",
           "name": "Macy's Thanksgiving Day Parade",
           "note": "The giant-balloon parade down Central Park West on Thanksgiving morning, the start of the city's holiday season.",
-          "months": [],
+          "months": [
+            "Nov"
+          ],
           "location": null,
           "photo": null
         }
@@ -87281,7 +87786,9 @@
           "when": "February",
           "name": "Nice Carnival",
           "note": "One of the world's great carnivals, with flower battles and huge floats along the Promenade des Anglais.",
-          "months": [],
+          "months": [
+            "Feb"
+          ],
           "location": null,
           "photo": null
         },
@@ -87289,7 +87796,10 @@
           "when": "mid-February–early March",
           "name": "Fête du Citron (Menton Lemon Festival)",
           "note": "Giant sculptures built from citrus fruit in nearby Menton — a short train ride east.",
-          "months": [],
+          "months": [
+            "Feb",
+            "Mar"
+          ],
           "location": null,
           "photo": null
         },
@@ -87297,7 +87807,9 @@
           "when": "July",
           "name": "Nice Jazz Fest",
           "note": "A summer institution of over 70 years, staged in the heart of the city.",
-          "months": [],
+          "months": [
+            "Jul"
+          ],
           "location": null,
           "photo": null
         },
@@ -87305,7 +87817,9 @@
           "when": "July",
           "name": "Jazz à Juan (Juan-les-Pins)",
           "note": "The legendary seaside jazz festival along the coast at Antibes.",
-          "months": [],
+          "months": [
+            "Jul"
+          ],
           "location": null,
           "photo": null
         }
@@ -88394,7 +88908,9 @@
           "when": "24–25 July",
           "name": "Tenjin Matsuri",
           "note": "One of Japan's three great festivals, ending with a river procession of boats and fireworks over the Okawa.",
-          "months": [],
+          "months": [
+            "Jul"
+          ],
           "location": null,
           "photo": null
         },
@@ -88402,7 +88918,9 @@
           "when": "mid-September",
           "name": "Kishiwada Danjiri Matsuri",
           "note": "Teams race four-tonne wooden floats through the streets of Kishiwada, cornering them at speed in one of the country's most thrilling festivals.",
-          "months": [],
+          "months": [
+            "Sep"
+          ],
           "location": null,
           "photo": null
         }
@@ -91304,7 +91822,10 @@
           "when": "spring (Mar–Apr)",
           "name": "Paro Tshechu",
           "note": "Masked dances at Rinpung Dzong, closing with the dawn unfurling of the giant Guru Thongdrel tapestry.",
-          "months": [],
+          "months": [
+            "Mar",
+            "Apr"
+          ],
           "location": null,
           "photo": null
         },
@@ -91312,7 +91833,9 @@
           "when": "September",
           "name": "Thimphu Tshechu",
           "note": "The capital's grand festival in the courtyard of Tashichho Dzong; dates follow the lunar calendar.",
-          "months": [],
+          "months": [
+            "Sep"
+          ],
           "location": null,
           "photo": null
         },
@@ -91320,7 +91843,10 @@
           "when": "February–March",
           "name": "Punakha Drubchen & Tshechu",
           "note": "A dramatic re-enactment of a 17th-century battle precedes the tshechu at Punakha Dzong.",
-          "months": [],
+          "months": [
+            "Feb",
+            "Mar"
+          ],
           "location": null,
           "photo": null
         }
@@ -92684,7 +93210,9 @@
           "when": "October",
           "name": "Phuket Vegetarian Festival",
           "note": "The nine-day Nine Emperor Gods festival, with white-clad devotees, temple processions and dramatic firewalking rituals.",
-          "months": [],
+          "months": [
+            "Oct"
+          ],
           "location": null,
           "photo": null
         },
@@ -92692,7 +93220,9 @@
           "when": "November",
           "name": "Loy Krathong",
           "note": "The festival of lights, marked along the island's beaches with floating candlelit krathong at dusk.",
-          "months": [],
+          "months": [
+            "Nov"
+          ],
           "location": null,
           "photo": null
         }
@@ -93748,7 +94278,9 @@
           "when": "Night of 23 June",
           "name": "Festa de São João do Porto",
           "note": "The city's exuberant midsummer festival of bonfires, grilled sardines, plastic hammers and a midnight fireworks display over the river.",
-          "months": [],
+          "months": [
+            "Jun"
+          ],
           "location": null,
           "photo": null
         },
@@ -93756,7 +94288,9 @@
           "when": "Mid-June",
           "name": "NOS Primavera Sound",
           "note": "A three-day international indie and electronic festival in the Parque da Cidade, an offshoot of the Barcelona original.",
-          "months": [],
+          "months": [
+            "Jun"
+          ],
           "location": null,
           "photo": null
         }
@@ -94840,7 +95374,10 @@
           "when": "May–early June",
           "name": "Prague Spring International Music Festival",
           "note": "The country's premier classical festival, opening with Smetana's Má vlast.",
-          "months": [],
+          "months": [
+            "May",
+            "Jun"
+          ],
           "location": null,
           "photo": null
         },
@@ -94848,7 +95385,9 @@
           "when": "Oct",
           "name": "Signal Festival",
           "note": "A festival of light installations that transforms the historic centre after dark.",
-          "months": [],
+          "months": [
+            "Oct"
+          ],
           "location": null,
           "photo": null
         },
@@ -94856,7 +95395,10 @@
           "when": "late Nov–Dec",
           "name": "Christmas markets",
           "note": "The Old Town and Wenceslas squares fill with wooden stalls and mulled wine.",
-          "months": [],
+          "months": [
+            "Nov",
+            "Dec"
+          ],
           "location": null,
           "photo": null
         }
@@ -95882,7 +96424,9 @@
           "when": "Late June",
           "name": "Queenstown Winter Festival",
           "note": "Ten days of fireworks, street parties and mountain events opening the ski season.",
-          "months": [],
+          "months": [
+            "Jun"
+          ],
           "location": null,
           "photo": null
         },
@@ -95890,7 +96434,9 @@
           "when": "September",
           "name": "Snow Machine",
           "note": "A multi-day alpine music festival paired with skiing at the resorts.",
-          "months": [],
+          "months": [
+            "Sep"
+          ],
           "location": null,
           "photo": null
         },
@@ -95898,7 +96444,9 @@
           "when": "April",
           "name": "Arrowtown Autumn Festival",
           "note": "The old gold town celebrates its turning trees with markets and a heritage parade.",
-          "months": [],
+          "months": [
+            "Apr"
+          ],
           "location": null,
           "photo": null
         }
@@ -96754,7 +97302,11 @@
           "when": "April–June",
           "name": "Peak tiger-sighting season",
           "note": "The hottest months draw tigers to the water, giving the best odds of a sighting despite the heat.",
-          "months": [],
+          "months": [
+            "Apr",
+            "May",
+            "Jun"
+          ],
           "location": null,
           "photo": null
         },
@@ -96762,7 +97314,9 @@
           "when": "October",
           "name": "Park reopening after monsoon",
           "note": "The core zones reopen with the park at its greenest and lakes full; a lovely if slightly harder-sighting time.",
-          "months": [],
+          "months": [
+            "Oct"
+          ],
           "location": null,
           "photo": null
         },
@@ -96770,7 +97324,10 @@
           "when": "Aug–Sep",
           "name": "Ganesh Chaturthi at Trinetra Ganesh (fort temple)",
           "note": "A major pilgrimage to the ancient Ganesh temple inside Ranthambore Fort.",
-          "months": [],
+          "months": [
+            "Aug",
+            "Sep"
+          ],
           "location": null,
           "photo": null
         },
@@ -96778,7 +97335,12 @@
           "when": "Nov–Feb",
           "name": "Winter safari season",
           "note": "Cool, comfortable game drives and clear light; the most pleasant conditions for extended safaris.",
-          "months": [],
+          "months": [
+            "Nov",
+            "Dec",
+            "Jan",
+            "Feb"
+          ],
           "location": null,
           "photo": null
         }
@@ -97706,7 +98268,9 @@
           "when": "early November",
           "name": "Iceland Airwaves",
           "note": "The country's landmark music festival, with gigs in venues and record shops across downtown Reykjavik.",
-          "months": [],
+          "months": [
+            "Nov"
+          ],
           "location": null,
           "photo": null
         },
@@ -97714,7 +98278,9 @@
           "when": "August",
           "name": "Reykjavik Culture Night (Menningarnótt)",
           "note": "A single night when the whole city opens its doors with concerts, art and a harbour fireworks finale.",
-          "months": [],
+          "months": [
+            "Aug"
+          ],
           "location": null,
           "photo": null
         },
@@ -97722,7 +98288,9 @@
           "when": "February",
           "name": "Winter Lights Festival",
           "note": "Museums, pools and buildings lit up across the darkest weeks — paired well with aurora season.",
-          "months": [],
+          "months": [
+            "Feb"
+          ],
           "location": null,
           "photo": null
         }
@@ -98843,7 +99411,9 @@
           "when": "31 December",
           "name": "Réveillon (New Year's Eve on Copacabana)",
           "note": "Two million in white on the sand for fireworks and offerings to the sea goddess Iemanjá.",
-          "months": [],
+          "months": [
+            "Dec"
+          ],
           "location": null,
           "photo": null
         },
@@ -98851,7 +99421,9 @@
           "when": "February (dates shift; 13–17 Feb in 2026)",
           "name": "Rio Carnival",
           "note": "The Sambadrome parades plus hundreds of free street blocos across the city.",
-          "months": [],
+          "months": [
+            "Feb"
+          ],
           "location": null,
           "photo": null
         },
@@ -98859,7 +99431,9 @@
           "when": "20 January",
           "name": "Festa de São Sebastião",
           "note": "The city's patron-saint day, marked by a procession through the centre.",
-          "months": [],
+          "months": [
+            "Jan"
+          ],
           "location": null,
           "photo": null
         }
@@ -99769,7 +100343,9 @@
           "when": "March",
           "name": "International Yoga Festival",
           "note": "A week of teachers and practitioners from around the world at Parmarth Niketan, the town's signature gathering.",
-          "months": [],
+          "months": [
+            "Mar"
+          ],
           "location": null,
           "photo": null
         },
@@ -99777,7 +100353,10 @@
           "when": "May–June",
           "name": "Ganga Dussehra",
           "note": "A river festival honouring the descent of the Ganga, with special aartis and bathing on the ghats.",
-          "months": [],
+          "months": [
+            "May",
+            "Jun"
+          ],
           "location": null,
           "photo": null
         },
@@ -99785,7 +100364,9 @@
           "when": "November",
           "name": "Kartik Purnima / Ganga aarti season",
           "note": "The cool-season full moon brings especially devout riverside ceremonies.",
-          "months": [],
+          "months": [
+            "Nov"
+          ],
           "location": null,
           "photo": null
         },
@@ -99793,7 +100374,10 @@
           "when": "Feb–March",
           "name": "Shivratri",
           "note": "A significant night for this Shiva-associated pilgrimage town, with all-night devotion.",
-          "months": [],
+          "months": [
+            "Feb",
+            "Mar"
+          ],
           "location": null,
           "photo": null
         }
@@ -101184,7 +101768,9 @@
           "when": "21 April",
           "name": "Natale di Roma",
           "note": "The city's own birthday, marked with historical re-enactments and a costumed parade through the Circus Maximus and the Fori.",
-          "months": [],
+          "months": [
+            "Apr"
+          ],
           "location": null,
           "photo": null
         },
@@ -101192,7 +101778,12 @@
           "when": "June–September",
           "name": "Estate Romana",
           "note": "The summer-long festival of open-air cinema, concerts and events along the Tiber and across the city's squares.",
-          "months": [],
+          "months": [
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep"
+          ],
           "location": null,
           "photo": null
         },
@@ -101200,7 +101791,10 @@
           "when": "March–April",
           "name": "Holy Week & Easter",
           "note": "Rome's most solemn season, with the papal ceremonies and the Via Crucis at the Colosseum drawing pilgrims from everywhere.",
-          "months": [],
+          "months": [
+            "Mar",
+            "Apr"
+          ],
           "location": null,
           "photo": null
         }
@@ -102144,7 +102738,9 @@
           "when": "Late January",
           "name": "Mozart Week",
           "note": "The Mozarteum's festival around the composer's birthday, drawing leading orchestras.",
-          "months": [],
+          "months": [
+            "Jan"
+          ],
           "location": null,
           "photo": null
         },
@@ -102152,7 +102748,10 @@
           "when": "Mid-July to end of August",
           "name": "Salzburg Festival",
           "note": "Six weeks of opera, drama and concerts, the city's cultural centrepiece.",
-          "months": [],
+          "months": [
+            "Jul",
+            "Aug"
+          ],
           "location": null,
           "photo": null
         },
@@ -102160,7 +102759,10 @@
           "when": "Late November to December",
           "name": "Christmas Market on Residenzplatz",
           "note": "The traditional Christkindlmarkt in the cathedral square.",
-          "months": [],
+          "months": [
+            "Nov",
+            "Dec"
+          ],
           "location": null,
           "photo": null
         }
@@ -103589,7 +104191,9 @@
           "when": "Aug",
           "name": "Outside Lands",
           "note": "The city's big music, food and wine festival in Golden Gate Park.",
-          "months": [],
+          "months": [
+            "Aug"
+          ],
           "location": null,
           "photo": null
         },
@@ -103597,7 +104201,9 @@
           "when": "early Oct",
           "name": "Hardly Strictly Bluegrass",
           "note": "A free roots-music festival in the park during the city's warmest, clearest weeks.",
-          "months": [],
+          "months": [
+            "Oct"
+          ],
           "location": null,
           "photo": null
         },
@@ -103605,7 +104211,9 @@
           "when": "Oct",
           "name": "Fleet Week",
           "note": "The Blue Angels roar over the bay in the reliably sunny autumn window.",
-          "months": [],
+          "months": [
+            "Oct"
+          ],
           "location": null,
           "photo": null
         }
@@ -104748,7 +105356,9 @@
           "when": "early Oct",
           "name": "Santorini Experience",
           "note": "An open-water swim and running event set against the caldera, at the season's gentler end.",
-          "months": [],
+          "months": [
+            "Oct"
+          ],
           "location": null,
           "photo": null
         },
@@ -104764,7 +105374,10 @@
           "when": "April/May",
           "name": "Greek Orthodox Easter",
           "note": "Candlelit processions and fireworks in the villages — the islands' most moving celebration; date follows the Orthodox calendar.",
-          "months": [],
+          "months": [
+            "Apr",
+            "May"
+          ],
           "location": null,
           "photo": null
         }
@@ -106142,7 +106755,9 @@
           "when": "early–mid April",
           "name": "Cherry blossom season",
           "note": "Yeouido and the palace grounds bloom for roughly a week — the city's prettiest, busiest moment.",
-          "months": [],
+          "months": [
+            "Apr"
+          ],
           "location": null,
           "photo": null
         },
@@ -106150,7 +106765,9 @@
           "when": "Nov",
           "name": "Seoul Lantern Festival",
           "note": "Illuminated lanterns line the Cheonggyecheon stream through the heart of downtown.",
-          "months": [],
+          "months": [
+            "Nov"
+          ],
           "location": null,
           "photo": null
         },
@@ -106158,7 +106775,9 @@
           "when": "May",
           "name": "Buddha's Birthday / Lotus Lantern Festival",
           "note": "A lantern parade through central Seoul and temples strung with color — dates follow the lunar calendar.",
-          "months": [],
+          "months": [
+            "May"
+          ],
           "location": null,
           "photo": null
         }
@@ -107299,7 +107918,10 @@
           "when": "late April–early May",
           "name": "Longhua Temple Fair",
           "note": "One of Shanghai's oldest folk fairs fills the grounds of its most important temple with performances and craft stalls.",
-          "months": [],
+          "months": [
+            "Apr",
+            "May"
+          ],
           "location": null,
           "photo": null
         },
@@ -107307,7 +107929,9 @@
           "when": "June",
           "name": "Shanghai International Film Festival",
           "note": "China's leading film festival brings hundreds of screenings and its Golden Goblet competition to cinemas across the city.",
-          "months": [],
+          "months": [
+            "Jun"
+          ],
           "location": null,
           "photo": null
         }
@@ -108204,7 +108828,10 @@
           "when": "May–June",
           "name": "Summer Festival",
           "note": "A week of cultural performances and events on the Ridge, marking the start of the hill-station season.",
-          "months": [],
+          "months": [
+            "May",
+            "Jun"
+          ],
           "location": null,
           "photo": null
         },
@@ -108212,7 +108839,10 @@
           "when": "late December–January",
           "name": "Winter Carnival",
           "note": "A festive cold-season carnival with music and local culture as the snow sets in.",
-          "months": [],
+          "months": [
+            "Dec",
+            "Jan"
+          ],
           "location": null,
           "photo": null
         },
@@ -108220,7 +108850,10 @@
           "when": "April–May",
           "name": "Sipi Fair",
           "note": "A traditional spring fair in nearby Mashobra, a window into local Pahari culture.",
-          "months": [],
+          "months": [
+            "Apr",
+            "May"
+          ],
           "location": null,
           "photo": null
         },
@@ -108228,7 +108861,11 @@
           "when": "Dec–Feb",
           "name": "Peak snow season",
           "note": "The most reliable window for snowfall around Shimla and Kufri, though weekends draw heavy crowds.",
-          "months": [],
+          "months": [
+            "Dec",
+            "Jan",
+            "Feb"
+          ],
           "location": null,
           "photo": null
         }
@@ -109210,7 +109847,9 @@
           "when": "mid-April",
           "name": "Angkor Sankranta (Khmer New Year)",
           "note": "Cambodia's biggest celebration, with games and blessings staged around the temples themselves.",
-          "months": [],
+          "months": [
+            "Apr"
+          ],
           "location": null,
           "photo": null
         },
@@ -109218,7 +109857,9 @@
           "when": "Nov",
           "name": "Bon Om Touk (Water Festival)",
           "note": "Marks the reversal of the Tonlé Sap's flow, with boat races and river festivities.",
-          "months": [],
+          "months": [
+            "Nov"
+          ],
           "location": null,
           "photo": null
         },
@@ -109226,7 +109867,9 @@
           "when": "early Dec",
           "name": "Angkor Wat International Half Marathon",
           "note": "A charity run through the temple grounds at first light — a rare way to see them car-free.",
-          "months": [],
+          "months": [
+            "Dec"
+          ],
           "location": null,
           "photo": null
         }
@@ -110791,7 +111434,10 @@
           "when": "Sept–early Oct",
           "name": "Singapore Grand Prix",
           "note": "The original F1 night race, run through the streets around Marina Bay with headline concerts.",
-          "months": [],
+          "months": [
+            "Sep",
+            "Oct"
+          ],
           "location": null,
           "photo": null
         },
@@ -110799,7 +111445,10 @@
           "when": "late Jan–Feb",
           "name": "Chinese New Year",
           "note": "Chinatown lights up and the Chingay parade fills the streets — the city's biggest celebration.",
-          "months": [],
+          "months": [
+            "Jan",
+            "Feb"
+          ],
           "location": null,
           "photo": null
         },
@@ -110807,7 +111456,9 @@
           "when": "Jan",
           "name": "Singapore Art Week",
           "note": "Anchored by ART SG, the region's largest fair, with gallery openings across the island.",
-          "months": [],
+          "months": [
+            "Jan"
+          ],
           "location": null,
           "photo": null
         }
@@ -111769,7 +112420,10 @@
           "when": "late March–April",
           "name": "Tulip Festival",
           "note": "Asia's largest tulip garden below the Zabarwan hills blooms for a few weeks; the signature spring event.",
-          "months": [],
+          "months": [
+            "Mar",
+            "Apr"
+          ],
           "location": null,
           "photo": null
         },
@@ -111777,7 +112431,9 @@
           "when": "March",
           "name": "Almond blossom season",
           "note": "The Badamwari garden's almond trees flower, marking the first sign of the Kashmiri spring.",
-          "months": [],
+          "months": [
+            "Mar"
+          ],
           "location": null,
           "photo": null
         },
@@ -111785,7 +112441,10 @@
           "when": "late October–November",
           "name": "Saffron harvest (Pampore, nearby)",
           "note": "The purple crocus fields around Pampore bloom for the world's most prized saffron; a rare sight.",
-          "months": [],
+          "months": [
+            "Oct",
+            "Nov"
+          ],
           "location": null,
           "photo": null
         },
@@ -111793,7 +112452,10 @@
           "when": "July–August",
           "name": "Shikara Festival",
           "note": "A summer lake festival with decorated-boat races and cultural events on Dal Lake.",
-          "months": [],
+          "months": [
+            "Jul",
+            "Aug"
+          ],
           "location": null,
           "photo": null
         }
@@ -112800,7 +113462,9 @@
           "when": "Late January",
           "name": "Snow Polo World Cup St. Moritz",
           "note": "Three days of top-level polo on the frozen lake.",
-          "months": [],
+          "months": [
+            "Jan"
+          ],
           "location": null,
           "photo": null
         },
@@ -112808,7 +113472,9 @@
           "when": "February",
           "name": "White Turf",
           "note": "Horse racing and skijoring across three Sundays on the lake.",
-          "months": [],
+          "months": [
+            "Feb"
+          ],
           "location": null,
           "photo": null
         },
@@ -112816,7 +113482,9 @@
           "when": "Late August",
           "name": "St. Moritz Gourmet Festival",
           "note": "Visiting chefs cook across the town's hotels over a week.",
-          "months": [],
+          "months": [
+            "Aug"
+          ],
           "location": null,
           "photo": null
         }
@@ -114194,7 +114862,9 @@
           "when": "31 December",
           "name": "Sydney New Year's Eve",
           "note": "The world's headline midnight fireworks, staged off the bridge and harbour.",
-          "months": [],
+          "months": [
+            "Dec"
+          ],
           "location": null,
           "photo": null
         },
@@ -114202,7 +114872,10 @@
           "when": "Late February / early March",
           "name": "Sydney Gay and Lesbian Mardi Gras",
           "note": "Weeks of events building to the Oxford Street parade, one of the world's largest.",
-          "months": [],
+          "months": [
+            "Feb",
+            "Mar"
+          ],
           "location": null,
           "photo": null
         },
@@ -114210,7 +114883,10 @@
           "when": "Late May – mid-June",
           "name": "Vivid Sydney",
           "note": "The city lights up nightly with projections, music and ideas across the harbour.",
-          "months": [],
+          "months": [
+            "May",
+            "Jun"
+          ],
           "location": null,
           "photo": null
         }
@@ -115288,7 +115964,10 @@
           "when": "late February–mid-March",
           "name": "Pingxi & Taipei Lantern Festival",
           "note": "The lantern season peaks with sky-lantern releases in Pingxi and large illuminated displays across Taipei around the first full moon of the lunar year.",
-          "months": [],
+          "months": [
+            "Feb",
+            "Mar"
+          ],
           "location": null,
           "photo": null
         },
@@ -115296,7 +115975,9 @@
           "when": "June",
           "name": "Dragon Boat Festival",
           "note": "Dragon-boat races on the Keelung and Dahan rivers mark one of Taiwan's oldest holidays, with zongzi eaten citywide.",
-          "months": [],
+          "months": [
+            "Jun"
+          ],
           "location": null,
           "photo": null
         }
@@ -117135,7 +117816,10 @@
           "when": "late March–early April",
           "name": "Cherry blossom (sakura) season",
           "note": "A roughly ten-day window when the city's parks and canals bloom; the most beautiful and most contested time to visit.",
-          "months": [],
+          "months": [
+            "Mar",
+            "Apr"
+          ],
           "location": null,
           "photo": null
         },
@@ -117143,7 +117827,9 @@
           "when": "mid-May",
           "name": "Sanja Matsuri",
           "note": "Asakusa's wild three-day shrine festival, a hundred mikoshi carried through the streets — old Tokyo at full volume.",
-          "months": [],
+          "months": [
+            "May"
+          ],
           "location": null,
           "photo": null
         },
@@ -117151,7 +117837,9 @@
           "when": "late July",
           "name": "Sumida River Fireworks Festival",
           "note": "Around 20,000 fireworks over the river between Asakusa and the Skytree, the city's grandest summer night.",
-          "months": [],
+          "months": [
+            "Jul"
+          ],
           "location": null,
           "photo": null
         }
@@ -118300,7 +118988,9 @@
           "when": "September",
           "name": "Toronto International Film Festival (TIFF)",
           "note": "One of the world's major festivals; premieres and the city's cultural energy peak in early-to-mid September.",
-          "months": [],
+          "months": [
+            "Sep"
+          ],
           "location": null,
           "photo": null
         },
@@ -118308,7 +118998,10 @@
           "when": "Late July-early August",
           "name": "Toronto Caribbean Carnival (Caribana)",
           "note": "North America's largest Caribbean festival, culminating in the Grand Parade along Lakeshore Boulevard.",
-          "months": [],
+          "months": [
+            "Jul",
+            "Aug"
+          ],
           "location": null,
           "photo": null
         },
@@ -118316,7 +119009,9 @@
           "when": "Mid-August to Labour Day",
           "name": "Canadian National Exhibition (CNE)",
           "note": "The 18-day fair with rides, pavilions and the Labour Day air show — a long-running end-of-summer tradition.",
-          "months": [],
+          "months": [
+            "Aug"
+          ],
           "location": null,
           "photo": null
         }
@@ -119248,7 +119943,9 @@
           "when": "April (tentatively 12–14 Apr 2026)",
           "name": "Mewar Festival",
           "note": "A spring festival tied to Gangaur, with a Lake Pichola boat procession and City Palace celebrations honouring the goddess.",
-          "months": [],
+          "months": [
+            "Apr"
+          ],
           "location": null,
           "photo": null
         },
@@ -119256,7 +119953,10 @@
           "when": "late December–early January",
           "name": "Shilpgram Utsav",
           "note": "The big crafts-and-folk fair at the Shilpgram rural arts village, drawing artisans from across western India.",
-          "months": [],
+          "months": [
+            "Dec",
+            "Jan"
+          ],
           "location": null,
           "photo": null
         },
@@ -119264,7 +119964,9 @@
           "when": "February",
           "name": "Udaipur World Music Festival",
           "note": "A weekend of international and Indian acts across lakeside and heritage stages in the City of Lakes.",
-          "months": [],
+          "months": [
+            "Feb"
+          ],
           "location": null,
           "photo": null
         }
@@ -120412,7 +121114,10 @@
           "when": "Late February / early March",
           "name": "Vancouver International Wine Festival",
           "note": "The city's serious oenophile week, with a themed region and a large public tasting hall.",
-          "months": [],
+          "months": [
+            "Feb",
+            "Mar"
+          ],
           "location": null,
           "photo": null
         },
@@ -120420,7 +121125,9 @@
           "when": "Late July",
           "name": "Vivid — Celebration of Light (fireworks)",
           "note": "Barge-launched international fireworks competition over English Bay across several nights.",
-          "months": [],
+          "months": [
+            "Jul"
+          ],
           "location": null,
           "photo": null
         },
@@ -120428,7 +121135,10 @@
           "when": "Late September / early October",
           "name": "Vancouver International Film Festival",
           "note": "One of North America's larger festivals, strong on Asian and Canadian cinema.",
-          "months": [],
+          "months": [
+            "Sep",
+            "Oct"
+          ],
           "location": null,
           "photo": null
         }
@@ -121329,7 +122039,9 @@
           "when": "Nov",
           "name": "Dev Deepawali",
           "note": "The 'Diwali of the gods' — every ghat lined with thousands of oil lamps on Kartik Purnima.",
-          "months": [],
+          "months": [
+            "Nov"
+          ],
           "location": null,
           "photo": null
         },
@@ -121337,7 +122049,9 @@
           "when": "Nov",
           "name": "Ganga Mahotsav",
           "note": "A festival of classical music and culture on the riverbank, around Dev Deepawali.",
-          "months": [],
+          "months": [
+            "Nov"
+          ],
           "location": null,
           "photo": null
         },
@@ -121345,7 +122059,10 @@
           "when": "Feb–Mar",
           "name": "Mahashivratri",
           "note": "The great night of Shiva fills the temples of his holiest city; date follows the lunar calendar.",
-          "months": [],
+          "months": [
+            "Feb",
+            "Mar"
+          ],
           "location": null,
           "photo": null
         }
@@ -122659,7 +123376,9 @@
           "when": "February (7–17 Feb 2026)",
           "name": "Carnevale di Venezia",
           "note": "The masked carnival — costumed balls in private palazzi and the flight of the angel over St Mark's Square.",
-          "months": [],
+          "months": [
+            "Feb"
+          ],
           "location": null,
           "photo": null
         },
@@ -122667,7 +123386,15 @@
           "when": "May–November (9 May–22 Nov 2026)",
           "name": "Venice Biennale (Art)",
           "note": "The 61st International Art Exhibition across the Giardini, the Arsenale and pavilions scattered through the city.",
-          "months": [],
+          "months": [
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov"
+          ],
           "location": null,
           "photo": null
         },
@@ -122675,7 +123402,9 @@
           "when": "early September (2–12 Sep 2026)",
           "name": "Venice Film Festival",
           "note": "The world's oldest film festival, on the Lido — red carpets, premieres and the Golden Lion.",
-          "months": [],
+          "months": [
+            "Sep"
+          ],
           "location": null,
           "photo": null
         },
@@ -122683,7 +123412,9 @@
           "when": "early September (6 Sep 2026)",
           "name": "Regata Storica",
           "note": "A historic pageant of costumed boats and gondola races down the Grand Canal.",
-          "months": [],
+          "months": [
+            "Sep"
+          ],
           "location": null,
           "photo": null
         }
@@ -124151,7 +124882,9 @@
           "when": "February",
           "name": "Vienna Opera Ball",
           "note": "The grandest night of the ball season, held on the transformed State Opera stage.",
-          "months": [],
+          "months": [
+            "Feb"
+          ],
           "location": null,
           "photo": null
         },
@@ -124159,7 +124892,10 @@
           "when": "Mid-May to mid-June",
           "name": "Wiener Festwochen",
           "note": "The city's leading festival of theatre, opera, dance and music.",
-          "months": [],
+          "months": [
+            "May",
+            "Jun"
+          ],
           "location": null,
           "photo": null
         },
@@ -124167,7 +124903,10 @@
           "when": "Mid-November to late December",
           "name": "Christmas markets",
           "note": "Squares from Rathausplatz to Schönbrunn fill with stalls and Punsch.",
-          "months": [],
+          "months": [
+            "Nov",
+            "Dec"
+          ],
           "location": null,
           "photo": null
         }
@@ -125190,7 +125929,9 @@
           "when": "February",
           "name": "Sauti za Busara",
           "note": "East Africa's leading music festival fills Stone Town's Old Fort over a long weekend of live African acts.",
-          "months": [],
+          "months": [
+            "Feb"
+          ],
           "location": null,
           "photo": null
         },
@@ -125198,7 +125939,9 @@
           "when": "Late June",
           "name": "Zanzibar International Film Festival (ZIFF)",
           "note": "Screenings and performances across Stone Town's historic venues, the region's oldest film festival.",
-          "months": [],
+          "months": [
+            "Jun"
+          ],
           "location": null,
           "photo": null
         },
@@ -126174,7 +126917,9 @@
           "when": "April",
           "name": "Zermatt Unplugged",
           "note": "An acoustic music festival across village and mountain stages — the 2026 edition runs 7–11 April.",
-          "months": [],
+          "months": [
+            "Apr"
+          ],
           "location": null,
           "photo": null
         },
@@ -126182,7 +126927,9 @@
           "when": "July",
           "name": "Zermatt Marathon",
           "note": "A punishing summer run climbing from the valley up towards the Matterhorn.",
-          "months": [],
+          "months": [
+            "Jul"
+          ],
           "location": null,
           "photo": null
         },
@@ -126190,7 +126937,9 @@
           "when": "Aug",
           "name": "Folklore Festival",
           "note": "Alpine traditions, yodelling and flag-throwing fill the car-free streets in high summer.",
-          "months": [],
+          "months": [
+            "Aug"
+          ],
           "location": null,
           "photo": null
         }
@@ -127314,7 +128063,9 @@
           "when": "Mid-April",
           "name": "Sechseläuten",
           "note": "Zurich's guild spring festival, culminating in the burning of the Böögg snowman to predict the summer.",
-          "months": [],
+          "months": [
+            "Apr"
+          ],
           "location": null,
           "photo": null
         },
@@ -127322,7 +128073,9 @@
           "when": "Early-mid August",
           "name": "Street Parade",
           "note": "The world's largest techno street party, drawing hundreds of thousands along the lakefront.",
-          "months": [],
+          "months": [
+            "Aug"
+          ],
           "location": null,
           "photo": null
         },
@@ -127330,7 +128083,10 @@
           "when": "Late September–early October",
           "name": "Zurich Film Festival",
           "note": "The city's international film festival brings premieres and stars to venues across the centre.",
-          "months": [],
+          "months": [
+            "Sep",
+            "Oct"
+          ],
           "location": null,
           "photo": null
         }
