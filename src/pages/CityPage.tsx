@@ -28,6 +28,7 @@ import EventMap from "../components/EventMap";
 import { planSlotPhotos, PHOTOS_PER_SLOT } from "../lib/planPhotos";
 import { useAgraLivePlanCoords } from "../hooks/useAgraLivePlanCoords";
 import { useAgraLiveEventLocations } from "../hooks/useAgraLiveEventLocations";
+import { useLiveGuidePanelPhotos, type LivePanelPhoto } from "../hooks/useLiveGuidePanelPhotos";
 import { placeholderPhoto } from "../lib/placeholderPhoto";
 import styles from "./city-page.module.css";
 import LiveVenues from "../components/LiveVenues";
@@ -138,7 +139,17 @@ function GuideCard({ photo, children }: { photo: string; children: ReactNode }) 
 // Tabs + tier chips both moved out of here into one shared sticky wrapper
 // in CityPage itself (see .guideSticky) — this component now renders only
 // the actual tier list content, driven by the selectedTier prop it's given.
-function GuidePanel({ panel, active, selectedTier }: { panel: CityGuidePanel; active: boolean; selectedTier: number }) {
+function GuidePanel({
+  panel,
+  active,
+  selectedTier,
+  livePhotos,
+}: {
+  panel: CityGuidePanel;
+  active: boolean;
+  selectedTier: number;
+  livePhotos: Record<string, LivePanelPhoto>;
+}) {
   const [openTiers, setOpenTiers] = useState<Set<number>>(new Set());
 
   function toggle(i: number) {
@@ -165,9 +176,13 @@ function GuidePanel({ panel, active, selectedTier }: { panel: CityGuidePanel; ac
               // must not crash the whole guide list.
               const credentials = item.credentials ?? [];
               const noTag = credentials.length === 0;
+              const live = livePhotos[`${panel.key}-${i}-${j}`];
+              const photo =
+                item.photo ??
+                (live?.status === "success" ? live.photoUrl : placeholderPhoto(`${panel.key}-${i}-${j}-${item.name}`));
               return (
               <li className={j >= MIN_VISIBLE_ITEMS ? "cg-hide" : ""} key={j}>
-                <GuideCard photo={item.photo ?? placeholderPhoto(`${panel.key}-${i}-${j}-${item.name}`)}>
+                <GuideCard photo={photo}>
                   <span className="cg-nm-row">
                     <span className="nm">{item.name}</span>
                   </span>
@@ -378,6 +393,8 @@ export default function CityPage() {
   const isLivePlacesEnabledCity = city ? LIVE_PLACES_TEST_CITIES.has(city.slug) : false;
   const agraLiveCoords = useAgraLivePlanCoords(isLivePlacesEnabledCity, city?.plan.days, activePlanStep?.dayIndex);
   const agraLiveEventLocations = useAgraLiveEventLocations(isLivePlacesEnabledCity, city?.whatsOn.events);
+  const activeGuidePanel = city?.guide.panels.find((p) => p.key === activeTab);
+  const liveGuidePanelPhotos = useLiveGuidePanelPhotos(isLivePlacesEnabledCity, city?.slug, activeGuidePanel);
 
   const activeSlotPhotos = useMemo(() => {
     if (!city || !activePlanStep) return [];
@@ -762,6 +779,7 @@ export default function CityPage() {
                           panel={p}
                           active={activeTab === p.key}
                           selectedTier={selectedTierByPanel[p.key] ?? p.tiers.findIndex((t) => t.label)}
+                          livePhotos={activeTab === p.key ? liveGuidePanelPhotos : {}}
                         />
                       </div>
                     ))}
