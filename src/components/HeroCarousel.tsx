@@ -9,6 +9,16 @@ import type { HeroSlide } from "../types/homepage";
 import { toRoute } from "../lib/toRoute";
 import styles from "./HeroCarousel.module.css";
 
+const HERO_VIDEOS = [
+  "/videos/homepage/13707600_1920_1080_25fps.mp4",
+  "/videos/homepage/4383103-hd_1920_1080_30fps.mp4",
+  "/videos/homepage/20186335-hd_1920_1080_60fps.mp4",
+  "/videos/homepage/12612854_1920_1080_30fps.mp4",
+  "/videos/homepage/4135118-hd_1920_1080_30fps.mp4",
+  "/videos/homepage/7913483-hd_1920_1080_30fps.mp4",
+  "/videos/homepage/14573857_1080_1920_60fps.mp4",
+];
+
 // Ported from index.html's own boot() script 1:1 — loop + fade cross-fade,
 // keyboard/a11y on, autoplay paused under reduced motion, hairline
 // prev/next arrows (no pagination dots — Swiper's own bullets are wired
@@ -71,10 +81,16 @@ export default function HeroCarousel({ slides }: { slides: HeroSlide[] }) {
                   since nothing re-renders this subtree afterward. Swiper
                   never touches a slide's children, only the slide/wrapper/
                   container elements' own style attributes. */}
-              <div
-                className={styles.heroSlideBg}
-                style={{ backgroundImage: slide.image ? `url('${slide.image}')` : undefined }}
-              />
+              <div className={styles.heroSlideBg}>
+                <video
+                  className={styles.heroSlideVideo}
+                  src={HERO_VIDEOS[i % HERO_VIDEOS.length]}
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                />
+              </div>
               {/* Kept in the DOM for data parity with the source, but hidden by
                   the same `.hero-inset,.hero-nextup{display:none!important}`
                   rule as index.html — the A&K-style hero ships uncluttered
