@@ -132,11 +132,32 @@ export default function HomePage() {
           already spans edge-to-edge with no extra work). */}
       <section className="band tight">
         <div className="wrap">
-          <div className="eyebrow reveal">Where we go</div>
-          <div className="rule" />
-          <h2 className="reveal d1" style={{ maxWidth: "20ch" }}>
-            The world, within reach.
-          </h2>
+          <div className={styles.mapIntro}>
+            <div>
+              <div className="eyebrow reveal">Where we go</div>
+              <div className="rule" />
+              <h2 className={`reveal d1 ${styles.mapHeading}`}>
+                The world, within <em>reach.</em>
+              </h2>
+              <p className={`reveal d1 ${styles.mapSub}`}>
+                Explore extraordinary destinations and start planning your next journey with our expert advisors.
+              </p>
+            </div>
+            <dl className={`reveal d2 ${styles.mapStats}`}>
+              <div>
+                <dt>100+</dt>
+                <dd>Destinations</dd>
+              </div>
+              <div>
+                <dt>50+</dt>
+                <dd>Expert advisors</dd>
+              </div>
+              <div>
+                <dt>24/7</dt>
+                <dd>Personal support</dd>
+              </div>
+            </dl>
+          </div>
         </div>
         <div className={`reveal d2 ${styles.worldMapWrap}`}>
           <WorldMap />

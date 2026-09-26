@@ -139,7 +139,7 @@ export function Header() {
               Sign in
             </button>
           )}
-          {signedIn && (
+          {signedIn ? (
             // Same gating ReferPage.tsx itself already enforces (a
             // signed-out visitor lands there and just gets its own inline
             // "Sign in to refer a friend" prompt) — this is a discoverable
@@ -152,6 +152,14 @@ export function Header() {
             // for why that's a real gap.
             <Link className="ta-hd-refer" to="/refer">
               Refer a friend
+            </Link>
+          ) : (
+            // Signed-out visitors get the same pill, different label —
+            // still routes to /refer, which itself shows the sign-in
+            // prompt. This makes the feature discoverable before signing
+            // in, instead of only appearing once already signed in.
+            <Link className="ta-hd-refer" to="/refer">
+              Invite a Friend
             </Link>
           )}
           <button className="ta-hd-trip" type="button" onClick={() => tripDrawer.open()}>

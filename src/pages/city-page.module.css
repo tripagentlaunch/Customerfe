@@ -359,13 +359,13 @@
     edge is flush too, both at rest and once sticky (top:0). */
  .ta-split-map{flex:1 1 auto;position:sticky;top:0;align-self:flex-start;height:100vh}
 
- /* Deliberately alarm-colored, not styled like CityMap's own calm
-    "not available yet" fallback (bone background, quiet grey text) — this
-    one means a real per-city data gap that needs fixing, not an expected
-    empty state, so it shouldn't be visually mistakable for either. */
- .map-data-missing{width:100%;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;border:1px dashed #B3261E;background:#FDEDEC;color:#7A1F1A;font-family:var(--fr);text-align:center;padding:24px}
- .map-data-missing strong{font-size:11px;letter-spacing:.1em;text-transform:uppercase}
- .map-data-missing p{margin:0;max-width:34ch;font-size:13.5px;line-height:1.55}
+ /* Matches CityMap's own "not available yet" fallback (bone background,
+    hairline border, quiet stone text) — a real per-city data gap logs to
+    the console for whoever's wiring up the city, but visitors just see a
+    calm placeholder that looks like part of the design, not a debug box. */
+ .map-data-missing{width:100%;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;border:1px solid var(--line);background:var(--bone);color:var(--stone);font-family:var(--fr);text-align:center;padding:24px}
+ .map-data-missing svg{color:var(--signature);opacity:.6}
+ .map-data-missing p{margin:0;max-width:28ch;font-size:13.5px;line-height:1.55}
  @media(max-width:900px){
    .ta-split{flex-direction:column}
    .ta-split-info{margin-left:0;max-width:100%;padding-left:var(--gutter);padding-right:var(--gutter);box-sizing:border-box}

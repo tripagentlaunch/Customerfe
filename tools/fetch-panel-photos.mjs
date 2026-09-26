@@ -52,6 +52,41 @@ const STOPWORDS = new Set([
   "the", "and", "des", "les", "aux", "une", "with", "from", "your", "this",
 ]);
 
+// Cross-city name-collision guard — added after a live run matched London's
+// "Royal Opera House" to a Pexels photo whose own alt text says "...in
+// Muscat" (a same-named venue in a different city entirely). The name-token
+// gate alone can't catch this: every distinctive token ("royal","opera",
+// "house") genuinely appears in the alt text, so it looks like a confident
+// match by that rule. This guard additionally rejects a match if the alt
+// text names a DIFFERENT one of this site's 110 cities and does not also
+// name the target city — same "skip rather than guess" principle applied
+// to place names that exist in more than one city.
+const ALL_CITY_NAMES = (() => {
+  const cities = JSON.parse(readFileSync(DATA_PATH, "utf-8"));
+  return Object.values(cities)
+    .map((c) => (c.seo?.title ?? "").split(/[—|]/)[0].trim())
+    .filter(Boolean);
+})();
+
+function stripArticle(s) {
+  return s.replace(/^the\s+/, "").trim();
+}
+
+function mentionsOtherCity(alt, targetCityName) {
+  const altNorm = normalize(alt).replace(/[^a-z0-9\s]/g, " ");
+  const targetNorm = stripArticle(normalize(targetCityName));
+  for (const name of ALL_CITY_NAMES) {
+    const nameNorm = stripArticle(normalize(name));
+    if (!nameNorm) continue;
+    // Same city as the target (allowing for "The Amalfi Coast" vs slug-
+    // derived "amalfi coast", or minor title variants) — never flag it.
+    if (nameNorm === targetNorm || nameNorm.includes(targetNorm) || targetNorm.includes(nameNorm)) continue;
+    const escaped = nameNorm.replace(/[^a-z0-9\s]/g, " ").replace(/\s+/g, "\\s+");
+    if (escaped && containsWholeWord(altNorm, escaped)) return name;
+  }
+  return null;
+}
+
 function normalize(str) {
   return (str ?? "")
     .normalize("NFD")
@@ -72,14 +107,21 @@ function containsWholeWord(haystack, word) {
   return new RegExp(`\\b${word}\\b`).test(haystack);
 }
 
-function isRelevantMatch(photo, name) {
-  const alt = normalize(photo.alt ?? "").replace(/[^a-z0-9\s]/g, " ");
+function isRelevantMatch(photo, name, cityName) {
+  const rawAlt = photo.alt ?? "";
+  const alt = normalize(rawAlt).replace(/[^a-z0-9\s]/g, " ");
   if (!alt) return false;
   const terms = distinctiveTerms(name);
   if (terms.length === 0) return false;
   const hits = terms.filter((t) => containsWholeWord(alt, t));
-  if (terms.length === 1) return hits.length === 1 && terms[0].length >= 5;
-  return hits.length >= 2;
+  const nameMatches = terms.length === 1 ? hits.length === 1 && terms[0].length >= 5 : hits.length >= 2;
+  if (!nameMatches) return false;
+  const otherCity = mentionsOtherCity(rawAlt, cityName);
+  if (otherCity) {
+    console.log(`    (rejected: alt text names "${otherCity}", not "${cityName}" — likely a same-named venue elsewhere)`);
+    return false;
+  }
+  return true;
 }
 
 let lastPexelsRequestAt = 0;
@@ -124,7 +166,7 @@ async function searchPexels(query, attempt = 1) {
 async function findPhotoFor(name, city) {
   const query = `${name} ${city}`;
   const photos = await searchPexels(query);
-  const match = photos.find((p) => isRelevantMatch(p, name));
+  const match = photos.find((p) => isRelevantMatch(p, name, city));
   if (match?.src?.large) {
     return {
       url: match.src.large,

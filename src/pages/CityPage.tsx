@@ -26,6 +26,8 @@ import PlanCarousel from "../components/PlanCarousel";
 import CalendarSection from "../components/CalendarSection";
 import EventMap from "../components/EventMap";
 import { planSlotPhotos, PHOTOS_PER_SLOT } from "../lib/planPhotos";
+import { useAgraLivePlanCoords } from "../hooks/useAgraLivePlanCoords";
+import { useAgraLiveEventLocations } from "../hooks/useAgraLiveEventLocations";
 import { placeholderPhoto } from "../lib/placeholderPhoto";
 import styles from "./city-page.module.css";
 import LiveVenues from "../components/LiveVenues";
@@ -200,15 +202,20 @@ function GuidePanel({ panel, active, selectedTier }: { panel: CityGuidePanel; ac
   );
 }
 
-// Deliberately loud, not a quiet CityMap substitute — see the two call
-// sites below. This is a data problem for whoever is wiring up a city, not
-// a normal empty-state a real visitor should ever see live; it should read
-// as "fix this," not blend in as if the page were designed this way.
+// A per-city data gap (missing plan coordinates, missing event location) —
+// logged to the console for whoever's wiring up a city, but rendered to
+// real visitors as a calm, on-brand placeholder (matching CityMap's own
+// "not available yet" fallback) rather than a debug-looking error box.
+// `reason` stays dev-facing only; the visible copy is always the same
+// generic line so the page still reads as intentional, not broken.
 function MapDataMissing({ reason }: { reason: string }) {
+  useEffect(() => {
+    console.warn(`[MapDataMissing] ${reason}`);
+  }, [reason]);
   return (
     <div className={styles.mapDataMissing}>
-      <strong>Map data missing</strong>
-      <p>{reason}</p>
+      <MapPin size={22} strokeWidth={1.75} />
+      <p>Map view coming soon for this stop.</p>
     </div>
   );
 }
@@ -356,14 +363,46 @@ export default function CityPage() {
 
   const activePlanStep = planSteps[activeStepIndex];
 
+  // Agra only, for now — live Places API (New) lookups for every slot in
+  // the active day that has no coordinates on file, using each slot's own
+  // extracted place name (extractPlaceName.ts), not one hardcoded query.
+  // See places_service.py for why this is always a live call, never baked
+  // into cities.generated.json the way Pexels photos are.
+  // TEST/STAGING rollout, not a production decision — see places_service.py
+  // and this session's cost-tier estimate: live Places lookups aren't
+  // cached across visitors (Places API (New) ToS has no caching
+  // exception for photos/names), so every pageview on these city pages
+  // re-triggers the same lookups. Widen this list only after weighing
+  // that cost, or after a scheduled backfill replaces live-fetch entirely.
+  const LIVE_PLACES_TEST_CITIES = new Set(["agra", "paris", "london", "barcelona", "istanbul", "cairo"]);
+  const isLivePlacesEnabledCity = city ? LIVE_PLACES_TEST_CITIES.has(city.slug) : false;
+  const agraLiveCoords = useAgraLivePlanCoords(isLivePlacesEnabledCity, city?.plan.days, activePlanStep?.dayIndex);
+  const agraLiveEventLocations = useAgraLiveEventLocations(isLivePlacesEnabledCity, city?.whatsOn.events);
+
   const activeSlotPhotos = useMemo(() => {
     if (!city || !activePlanStep) return [];
     const slot = (city.plan.days ?? [])[activePlanStep.dayIndex]?.slots?.[activePlanStep.slotIndex];
+    const liveKey = `${activePlanStep.dayIndex}-${activePlanStep.slotIndex}`;
+    const live = isLivePlacesEnabledCity ? agraLiveCoords[liveKey] : undefined;
+    if (live?.status === "success") return [live.photoUrl];
     return planSlotPhotos(city.slug, activePlanStep.dayIndex, activePlanStep.slotIndex, slot?.photo);
-  }, [city, activePlanStep]);
+  }, [city, activePlanStep, isLivePlacesEnabledCity, agraLiveCoords]);
 
   // The sticky map shows only the current day's stops (not the whole
-  // itinerary), highlighting whichever one is the active step's place.
+  // itinerary), highlighting whichever one is the active step's place. A
+  // slot's coordinates come from the static data when present, else — for
+  // Agra — from a live Places lookup that's already resolved for this day.
+  const resolvedSlotCoord = (
+    dayIndex: number,
+    slotIndex: number,
+    slot: { lat: number | null; lon: number | null },
+  ): { lat: number; lon: number } | null => {
+    if (typeof slot.lat === "number" && typeof slot.lon === "number") return { lat: slot.lat, lon: slot.lon };
+    if (!isLivePlacesEnabledCity) return null;
+    const live = agraLiveCoords[`${dayIndex}-${slotIndex}`];
+    return live?.status === "success" ? { lat: live.lat, lon: live.lon } : null;
+  };
+
   const activeDayStops = useMemo(() => {
     if (!city || !activePlanStep) return [];
     const day = (city.plan.days ?? [])[activePlanStep.dayIndex];
@@ -376,26 +415,31 @@ export default function CityPage() {
       const a = city.plan.arrivalPoint;
       stops.push({ lat: a.lat, lon: a.lon, dayNumber: day.dayNumber ?? "", label: a.label, place: a.label, category: "do", isAirport: true });
     }
-    for (const slot of day.slots ?? []) {
-      if (typeof slot.lat === "number" && typeof slot.lon === "number") {
+    (day.slots ?? []).forEach((slot, slotIndex) => {
+      const coord = resolvedSlotCoord(activePlanStep.dayIndex, slotIndex, slot);
+      if (coord) {
         stops.push({
-          lat: slot.lat,
-          lon: slot.lon,
+          lat: coord.lat,
+          lon: coord.lon,
           dayNumber: day.dayNumber ?? "",
           label: slot.label ?? "",
           place: slot.place ?? slot.label ?? "",
           category: slot.category,
         });
       }
-    }
+    });
     return stops;
-  }, [city, activePlanStep]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [city, activePlanStep, agraLiveCoords]);
 
   const activeDayStopIndex = useMemo(() => {
     if (!city || !activePlanStep) return -1;
     const slot = (city.plan.days ?? [])[activePlanStep.dayIndex]?.slots?.[activePlanStep.slotIndex];
-    if (!slot || typeof slot.lat !== "number" || typeof slot.lon !== "number") return -1;
-    return activeDayStops.findIndex((s) => s.lat === slot.lat && s.lon === slot.lon);
+    if (!slot) return -1;
+    const coord = resolvedSlotCoord(activePlanStep.dayIndex, activePlanStep.slotIndex, slot);
+    if (!coord) return -1;
+    return activeDayStops.findIndex((s) => s.lat === coord.lat && s.lon === coord.lon);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [city, activePlanStep, activeDayStops]);
 
   useEffect(() => {
@@ -586,26 +630,48 @@ export default function CityPage() {
             <MapDataMissing reason="plan.days[].slots[] have no lat/lon for this city — PlanRouteMap needs at least 2 stops with coordinates (see CityDay in types/city.ts)." />
           )
         ) : calendarInView ? (
-          calendarActiveEvent?.location ? (
-            <EventMap
-              point={{
-                lat: calendarActiveEvent.location.lat,
-                lon: calendarActiveEvent.location.lon,
-                name: calendarActiveEvent.name ?? calendarActiveEvent.location.label,
-                photo: calendarActiveEvent.photo ?? placeholderPhoto(`event-${calendarActiveEvent.name}`),
-              }}
-            />
-          ) : (
+          (() => {
+            if (!calendarActiveEvent) {
+              return (
+                <MapDataMissing reason="No event is currently selectable — check that whatsOn.events[].months is populated for this city." />
+              );
+            }
+            if (calendarActiveEvent.location) {
+              return (
+                <EventMap
+                  point={{
+                    lat: calendarActiveEvent.location.lat,
+                    lon: calendarActiveEvent.location.lon,
+                    name: calendarActiveEvent.name ?? calendarActiveEvent.location.label,
+                    photo: calendarActiveEvent.photo ?? placeholderPhoto(`event-${calendarActiveEvent.name}`),
+                  }}
+                />
+              );
+            }
+            // Agra only — a live Places lookup, keyed by the event's own
+            // name, for events with no location on file. Citywide events
+            // with no single venue (e.g. "Ram Barat") are expected to
+            // correctly stay unresolved here, same "skip rather than
+            // guess" reasoning as the plan-slot lookups above.
+            const live = isLivePlacesEnabledCity ? agraLiveEventLocations[calendarActiveEvent.name ?? ""] : undefined;
+            if (live?.status === "success") {
+              return (
+                <EventMap
+                  point={{
+                    lat: live.lat,
+                    lon: live.lon,
+                    name: calendarActiveEvent.name ?? live.placeName,
+                    photo: live.photoUrl,
+                  }}
+                />
+              );
+            }
             // Same reasoning as the Plan case above — surfaced instead of
             // silently showing CityMap.
-            <MapDataMissing
-              reason={
-                calendarActiveEvent
-                  ? "This event has no location set — whatsOn.events[].location is required for EventMap (see types/city.ts)."
-                  : "No event is currently selectable — check that whatsOn.events[].months is populated for this city."
-              }
-            />
-          )
+            return (
+              <MapDataMissing reason="This event has no location set — whatsOn.events[].location is required for EventMap (see types/city.ts)." />
+            );
+          })()
         ) : (
           <CityMap slug={city.slug} />
         )}
