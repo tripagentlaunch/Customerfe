@@ -1261,7 +1261,11 @@ section.sig::after{background:linear-gradient(180deg,rgba(0,0,0,.46),rgba(0,0,0,
 .cg-cred-lo{color:var(--stone);border-color:var(--line)}
 .cg-list li .cg-creds+.ds{margin-top:8px}
 .cg-list li.cg-hide{display:none}
-.cg-tier.cg-more-open .cg-list li.cg-hide{display:block}
+/* Removed 2026-09-28: this made ALL hidden items visible once a tier
+   was "open", which conflicted with CityPage.tsx's new true-pagination
+   behavior (cg-hide is now set per-item based on the current page, not
+   a single open/closed flag — this override was unconditionally
+   re-showing every hidden item regardless of page). */
 .cg-more{margin-top:20px;font-family:var(--fr);font-weight:600;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--signature);background:none;border:0;padding:6px 0;cursor:pointer;transition:opacity .2s var(--ease,ease)}
 .cg-more:hover{opacity:.66}
 .cg-tier.cg-more-open .cg-more{color:var(--stone)}

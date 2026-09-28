@@ -286,6 +286,7 @@ export default function VenueCard({ venue, map, mapContainerEl, onClose }: Venue
             loading={index === 0 ? "eager" : "lazy"}
             className={styles.image}
           />
+          {venue.tier && <span className={styles.tierBadge}>{venue.tier}</span>}
           {index > 0 && (
             <button
               type="button"
@@ -334,7 +335,7 @@ export default function VenueCard({ venue, map, mapContainerEl, onClose }: Venue
       <div className={hasPhotos ? styles.body : styles.bodyTextOnly}>
         <span className={styles.nameRow}>
           <strong className={styles.name}>{venue.n}</strong>
-          {venue.tier && <span className={styles.tier}>{venue.tier}</span>}
+          {!hasPhotos && venue.tier && <span className={styles.tier}>{venue.tier}</span>}
         </span>
         {venue.a && <span className={styles.area}>{venue.a}</span>}
         {venue.d && <p className={styles.desc}>{venue.d}</p>}

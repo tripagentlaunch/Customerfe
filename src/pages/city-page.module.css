@@ -408,3 +408,5 @@
  @media(max-width:900px){
    .ta-split-info :global(.ta-itin){height:auto;padding-top:0;padding-bottom:0}
  }
+
+.card-thumb-badge{position:absolute;top:8px;right:8px;background:rgba(17,17,17,.82);color:#fff;font-family:var(--fr);font-size:10.5px;font-weight:600;letter-spacing:.02em;padding:4px 9px;border-radius:20px;white-space:nowrap;max-width:calc(100% - 16px);overflow:hidden;text-overflow:ellipsis}

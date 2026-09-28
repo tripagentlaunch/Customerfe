@@ -125,11 +125,20 @@ const MIN_VISIBLE_ITEMS = 6;
 // shrink, not even for a future field (e.g. a longer location line) that
 // isn't currently truncated. The text column keeps its own "fills the box,
 // settles inward on hover" reveal.
-function GuideCard({ photo, children }: { photo: string; children: ReactNode }) {
+function GuideCard({
+  photo,
+  badge,
+  children,
+}: {
+  photo: string;
+  badge?: string;
+  children: ReactNode;
+}) {
   return (
     <div className={styles.cardInner}>
       <div className={styles.cardThumbWrap}>
         <img className={styles.cardThumb} src={photo} alt="" loading="lazy" />
+        {badge && <span className={styles.cardThumbBadge}>{badge}</span>}
       </div>
       <div className={styles.cardBody}>{children}</div>
     </div>
@@ -144,19 +153,35 @@ function GuidePanel({
   active,
   selectedTier,
   livePhotos,
+  observeItem,
 }: {
   panel: CityGuidePanel;
   active: boolean;
   selectedTier: number;
   livePhotos: Record<string, LivePanelPhoto>;
+  observeItem: (key: string, el: HTMLElement | null, itemName: string, itemArea: string | undefined) => void;
 }) {
-  const [openTiers, setOpenTiers] = useState<Set<number>>(new Set());
+  // Per-tier reveal COUNT, not a binary open/closed flag — "Show all"
+  // now reveals MIN_VISIBLE_ITEMS more each click (batched), rather than
+  // jumping straight from 6 to all 44 at once, so a visitor who never
+  // clicks past the first batch or two never triggers the later items'
+  // image loads at all.
+  // Per-tier PAGE index (0-based) — "Show next 6" advances to the next
+  // page and shows ONLY that batch, not a cumulative reveal. Page 0 is
+  // items[0:6], page 1 is items[6:12], etc.
+  const [tierPage, setTierPage] = useState<Record<number, number>>({});
 
-  function toggle(i: number) {
-    setOpenTiers((prev) => {
-      const next = new Set(prev);
-      if (next.has(i)) next.delete(i);
-      else next.add(i);
+  function nextPage(i: number, totalPages: number) {
+    setTierPage((prev) => {
+      const current = prev[i] ?? 0;
+      return { ...prev, [i]: Math.min(current + 1, totalPages - 1) };
+    });
+  }
+
+  function resetPage(i: number) {
+    setTierPage((prev) => {
+      const next = { ...prev };
+      delete next[i];
       return next;
     });
   }
@@ -167,7 +192,7 @@ function GuidePanel({
     <div className={`cg-panel${active ? " on" : ""}`} data-cg={panel.key}>
       {panel.tiers.map((tier, i) => (
         (labelledTiers.length <= 1 || i === selectedTier) && (
-        <div className={`cg-tier${openTiers.has(i) ? " cg-more-open" : ""}`} key={i}>
+        <div className={`cg-tier${(tierPage[i] ?? 0) > 0 ? " cg-more-open" : ""}`} key={i}>
           <ul className="cg-list">
             {tier.items.map((item, j) => {
               // `credentials` is typed required, but that's a compile-time
@@ -181,8 +206,17 @@ function GuidePanel({
                 item.photo ??
                 (live?.status === "success" ? live.photoUrl : placeholderPhoto(`${panel.key}-${i}-${j}-${item.name}`));
               return (
-              <li className={j >= MIN_VISIBLE_ITEMS ? "cg-hide" : ""} key={j}>
-                <GuideCard photo={photo}>
+              <li
+                className={(() => {
+                  const page = tierPage[i] ?? 0;
+                  const start = page * MIN_VISIBLE_ITEMS;
+                  const end = start + MIN_VISIBLE_ITEMS;
+                  return j >= start && j < end ? "" : "cg-hide";
+                })()}
+                key={j}
+                ref={(el) => observeItem(`${panel.key}-${i}-${j}`, el, item.name, item.area)}
+              >
+                <GuideCard photo={photo} badge={credentials[0] ? shortCredential(credentials[0]) : undefined}>
                   <span className="cg-nm-row">
                     <span className="nm">{item.name}</span>
                   </span>
@@ -205,11 +239,25 @@ function GuidePanel({
               );
             })}
           </ul>
-          {tier.items.length > MIN_VISIBLE_ITEMS && (
-            <button className="cg-more" type="button" aria-expanded={openTiers.has(i)} onClick={() => toggle(i)}>
-              {openTiers.has(i) ? "Show fewer" : `Show all ${tier.items.length} →`}
-            </button>
-          )}
+          {tier.items.length > MIN_VISIBLE_ITEMS && (() => {
+              const totalPages = Math.ceil(tier.items.length / MIN_VISIBLE_ITEMS);
+              const page = tierPage[i] ?? 0;
+              const isLastPage = page >= totalPages - 1;
+              const start = page * MIN_VISIBLE_ITEMS + 1;
+              const end = Math.min(start + MIN_VISIBLE_ITEMS - 1, tier.items.length);
+              return (
+                <button
+                  className="cg-more"
+                  type="button"
+                  aria-expanded={page > 0}
+                  onClick={() => (isLastPage ? resetPage(i) : nextPage(i, totalPages))}
+                >
+                  {isLastPage
+                    ? "Back to top"
+                    : `Showing ${start}-${end} of ${tier.items.length} — Show next ${Math.min(MIN_VISIBLE_ITEMS, tier.items.length - end)} →`}
+                </button>
+              );
+            })()}
         </div>
         )
       ))}
@@ -389,12 +437,12 @@ export default function CityPage() {
   // exception for photos/names), so every pageview on these city pages
   // re-triggers the same lookups. Widen this list only after weighing
   // that cost, or after a scheduled backfill replaces live-fetch entirely.
-  const LIVE_PLACES_TEST_CITIES = new Set(["agra", "paris", "london", "barcelona", "istanbul", "cairo"]);
+  const LIVE_PLACES_TEST_CITIES = new Set(["abu-dhabi", "agra", "alleppey", "amalfi-coast", "amman-petra", "amritsar", "amsterdam", "andaman", "athens", "auckland", "bali", "bangkok", "barcelona", "bengaluru", "budapest", "buenos-aires", "cairo", "cancun", "cape-town", "cappadocia", "chennai", "colombo", "copenhagen", "cusco", "darjeeling", "delhi", "doha", "dubai", "dublin", "dubrovnik", "edinburgh", "florence", "galle", "geneva", "goa", "hanoi", "ho-chi-minh-city", "hoi-an", "hong-kong", "hyderabad", "istanbul", "jaipur", "jaisalmer", "jodhpur", "kathmandu", "kochi", "kolkata", "krabi", "kuala-lumpur", "kyoto", "lake-como", "langkawi", "las-vegas", "leh-ladakh", "lima", "lisbon", "london", "los-angeles", "madrid", "mahe-seychelles", "male-maldives", "manali", "marrakech", "mauritius-city", "melbourne", "mexico-city", "miami", "milan", "mumbai", "munich", "munnar", "muscat", "mykonos", "nairobi-mara", "new-york", "nice-riviera", "osaka", "paris", "paro", "phuket", "porto", "prague", "queenstown", "ranthambore", "reykjavik", "rio-de-janeiro", "rishikesh", "rome", "salzburg", "san-francisco", "santorini", "seoul", "shanghai", "shimla", "siem-reap", "singapore-city", "srinagar", "st-moritz", "sydney", "taipei", "tokyo", "toronto", "udaipur", "vancouver", "varanasi", "venice", "vienna", "zanzibar", "zermatt", "zurich"]);
   const isLivePlacesEnabledCity = city ? LIVE_PLACES_TEST_CITIES.has(city.slug) : false;
   const agraLiveCoords = useAgraLivePlanCoords(isLivePlacesEnabledCity, city?.plan.days, activePlanStep?.dayIndex);
   const agraLiveEventLocations = useAgraLiveEventLocations(isLivePlacesEnabledCity, city?.whatsOn.events);
   const activeGuidePanel = city?.guide.panels.find((p) => p.key === activeTab);
-  const liveGuidePanelPhotos = useLiveGuidePanelPhotos(isLivePlacesEnabledCity, city?.slug, activeGuidePanel);
+  const { results: liveGuidePanelPhotos, observeItem: observeLiveGuidePanelItem } = useLiveGuidePanelPhotos(isLivePlacesEnabledCity, city?.slug, activeGuidePanel);
 
   const activeSlotPhotos = useMemo(() => {
     if (!city || !activePlanStep) return [];
@@ -690,7 +738,7 @@ export default function CityPage() {
             );
           })()
         ) : (
-          <CityMap slug={city.slug} />
+          <CityMap slug={city.slug} livePlacesEnabled={isLivePlacesEnabledCity} />
         )}
       </div>
       </div>
@@ -780,6 +828,7 @@ export default function CityPage() {
                           active={activeTab === p.key}
                           selectedTier={selectedTierByPanel[p.key] ?? p.tiers.findIndex((t) => t.label)}
                           livePhotos={activeTab === p.key ? liveGuidePanelPhotos : {}}
+                          observeItem={observeLiveGuidePanelItem}
                         />
                       </div>
                     ))}

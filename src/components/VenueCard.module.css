@@ -250,3 +250,18 @@
     transition: none;
   }
 }
+
+.tierBadge {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background: rgba(17, 17, 17, 0.82);
+  color: #fff;
+  font-family: var(--fr);
+  font-weight: 600;
+  font-size: 10px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border-radius: 999px;
+}
