@@ -19,8 +19,25 @@ export default function FlightsPage() {
 
   return (
     <main>
-      <header className="hero left hero-ed" style={{ backgroundImage: `url('${hero.image}')`, backgroundPosition: "62% 50%" }}>
-        <div className="wrap hero-inner">
+      <header className="hero left hero-ed" style={{ position: "relative", overflow: "hidden" }}>
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          style={{
+            position: "absolute",
+            inset: 0,
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
+            objectPosition: "62% 50%",
+            zIndex: 0,
+          }}
+        >
+          <source src="/videos/flights/hero.mp4" type="video/mp4" />
+        </video>
+        <div className="wrap hero-inner" style={{ position: "relative", zIndex: 1 }}>
           <div className="hs-copy">
             <div className="eyebrow on-dark reveal">{hero.eyebrow}</div>
             <div className="rule reveal d1" />

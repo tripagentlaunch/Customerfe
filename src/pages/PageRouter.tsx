@@ -63,6 +63,7 @@ import ClaimPage from "./ClaimPage";
 import RequestAccessPage from "./RequestAccessPage";
 import ReferPage from "./ReferPage";
 import HomePage from "./HomePage";
+import ComingSoonPage from "./ComingSoonPage";
 import routes from "../data/routes.generated.json";
 import redirects from "../data/redirects.generated.json";
 import { toRoute } from "../lib/toRoute";
@@ -275,7 +276,7 @@ export default function PageRouter() {
 
   // The index route ("/", App.tsx) has no :pageSlug segment at all — that's
   // index.html itself (Batch J, part 2 of 2 — invitation.html was part 1).
-  if (!pageSlug) return <HomePage />;
+  if (!pageSlug) return <ComingSoonPage />;
 
   if (REDIRECTS[pageSlug]) return <Navigate to={toRoute(REDIRECTS[pageSlug])} replace />;
   if (pageSlug && EXACT_SLUG_PAGES[pageSlug]) return EXACT_SLUG_PAGES[pageSlug]();

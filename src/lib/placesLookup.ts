@@ -37,3 +37,28 @@ export async function fetchPlaceLookup(name: string, city: string): Promise<Plac
 export function resolvePlacePhotoUrl(photoUrl: string): string {
   return `${API_BASE}${photoUrl}`;
 }
+
+// Combined lookup+photo in one request (backend fetches the photo bytes
+// server-side and returns them inline as a data: URL) — cuts the
+// frontend's round-trip count from 2 sequential requests to 1. Prefer
+// this over fetchPlaceLookup + resolvePlacePhotoUrl for any NEW caller;
+// the two-step form remains for existing callers already wired to it.
+export interface PlaceLookupWithPhotoResult {
+  found: boolean;
+  place_name?: string;
+  lat?: number;
+  lon?: number;
+  photo_url?: string; // a data: URL here, not a /api/places/photo path
+  attribution?: string | null;
+}
+
+export async function fetchPlaceLookupWithPhoto(name: string, city: string): Promise<PlaceLookupWithPhotoResult | null> {
+  try {
+    const url = `${API_BASE}/api/places/lookup-with-photo?name=${encodeURIComponent(name)}&city=${encodeURIComponent(city)}`;
+    const res = await fetch(url, { signal: AbortSignal.timeout(8000) });
+    if (!res.ok) return null;
+    return (await res.json()) as PlaceLookupWithPhotoResult;
+  } catch {
+    return null;
+  }
+}

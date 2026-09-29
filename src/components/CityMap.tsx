@@ -216,7 +216,7 @@ export default function CityMap({ slug, livePlacesEnabled = false }: { slug: str
               mapPaneName={FLOAT_PANE}
               getPixelPositionOffset={() => ({ x: 0, y: 0 })}
             >
-              <VenueCard venue={effectiveSelected} map={map} mapContainerEl={canvasRef.current} onClose={closeWithFocusRestore} />
+              <VenueCard venue={effectiveSelected} map={map} mapContainerEl={canvasRef.current} onClose={closeWithFocusRestore} isLoadingPhoto={livePhoto.status === "loading"} />
             </OverlayViewF>
           )}
         </GoogleMap>

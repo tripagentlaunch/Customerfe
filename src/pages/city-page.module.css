@@ -255,7 +255,9 @@
     that first measurement lands. */
  .card-inner{display:grid;grid-template-columns:auto 1fr;align-items:start;gap:16px}
  .card-thumb-wrap{width:150px;height:150px;position:relative;flex:none;border-radius:8px;overflow:hidden;background:var(--bone)}
- .card-thumb{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+ .card-thumb{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;opacity:0;animation:cardThumbFadeIn 0.4s ease forwards}
+@keyframes cardThumbFadeIn{from{opacity:0}to{opacity:1}}
+@media (prefers-reduced-motion: reduce){.card-thumb{animation:none;opacity:1}}
  /* The text column's own reveal, now that the li itself carries no padding:
     a fixed 20px inset on the three edges away from the thumbnail (top,
     right, bottom — nothing on the left, that's the gap to the thumbnail),
@@ -410,3 +412,8 @@
  }
 
 .card-thumb-badge{position:absolute;top:8px;right:8px;background:rgba(17,17,17,.82);color:#fff;font-family:var(--fr);font-size:10.5px;font-weight:600;letter-spacing:.02em;padding:4px 9px;border-radius:20px;white-space:nowrap;max-width:calc(100% - 16px);overflow:hidden;text-overflow:ellipsis}
+
+.card-thumb-loading{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,0.15)}
+.card-spinner{width:26px;height:26px;border:3px solid rgba(255,255,255,0.4);border-top-color:#fff;border-radius:50%;animation:cardSpin 0.8s linear infinite}
+@keyframes cardSpin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion: reduce){.card-spinner{animation:none}}

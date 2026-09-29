@@ -6,6 +6,37 @@ import type { SiteMemberRow } from "./database.types";
 
 export type LoginResult = { ok: true } | { ok: false; error: "not_invited" | string };
 
+// Supabase's free tier has no built-in "force re-login after N days" setting
+// (that's a Pro-plan-only feature — see Project Settings > Authentication >
+// Sessions, greyed out below Pro). This approximates it client-side: the
+// first time a session is established, we stamp "when did this login
+// start" into localStorage; every subsequent hydrate() checks that stamp
+// and force-signs-out once it's older than SESSION_MAX_AGE_MS, same as if
+// Supabase's own Time-box setting had expired it. Not a substitute for the
+// real Pro feature (a user could clear/edit localStorage to bypass it) —
+// this is a soft, client-side nudge for genuine users, not a security
+// control against a determined attacker.
+const SESSION_STAMP_KEY = "ta_session_started_at";
+const SESSION_MAX_AGE_MS = 90 * 24 * 60 * 60 * 1000; // ~3 months
+
+function isSessionTooOld(): boolean {
+  const raw = localStorage.getItem(SESSION_STAMP_KEY);
+  if (!raw) return false; // no stamp yet — treat as fresh, hydrate() will stamp it below
+  const startedAt = Number(raw);
+  if (!Number.isFinite(startedAt)) return false;
+  return Date.now() - startedAt > SESSION_MAX_AGE_MS;
+}
+
+function stampSessionStart(): void {
+  if (!localStorage.getItem(SESSION_STAMP_KEY)) {
+    localStorage.setItem(SESSION_STAMP_KEY, String(Date.now()));
+  }
+}
+
+function clearSessionStamp(): void {
+  localStorage.removeItem(SESSION_STAMP_KEY);
+}
+
 type AuthContextValue = {
   session: Session | null;
   member: SiteMemberRow | null;
@@ -63,6 +94,15 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     // reads false (so the UI looks unchanged/signed-out) while a live
     // session lingers in storage — sign it back out and surface why.
     async function hydrate(nextSession: Session | null) {
+      if (nextSession && isSessionTooOld()) {
+        await supabase.auth.signOut();
+        if (cancelled) return;
+        clearSessionStamp();
+        setSession(null);
+        setMember(null);
+        setLoading(false);
+        return;
+      }
       const m = await loadMember(nextSession);
       if (cancelled) return;
       if (nextSession && !m) {
@@ -74,6 +114,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         setAuthError("not_invited");
         return;
       }
+      stampSessionStart();
       setSession(nextSession);
       setMember(m);
       setLoading(false);
@@ -129,12 +170,14 @@ export function AuthProvider({ children }: { children: ReactNode }) {
           setMember(null);
           return { ok: false, error: "not_invited" };
         }
+        stampSessionStart();
         setSession(data.session);
         setMember(m);
         return { ok: true };
       },
       async logout() {
         await supabase.auth.signOut();
+        clearSessionStamp();
         setSession(null);
         setMember(null);
       },

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { fetchPlaceLookup, resolvePlacePhotoUrl } from "../lib/placesLookup";
+import { fetchPlaceLookupWithPhoto } from "../lib/placesLookup";
 import type { CityMapVenue } from "../types/city";
 
 export type LiveVenuePhoto =
@@ -27,13 +27,13 @@ export function useLiveVenuePhoto(
 
     let cancelled = false;
     setResult({ status: "loading" });
-    fetchPlaceLookup(venue.n, venue.a || citySlug).then((res) => {
+    fetchPlaceLookupWithPhoto(venue.n, venue.a || citySlug).then((res) => {
       if (cancelled) return;
       if (!res || !res.found || !res.photo_url) {
         setResult({ status: res ? "not-found" : "error" });
         return;
       }
-      setResult({ status: "success", photoUrl: resolvePlacePhotoUrl(res.photo_url!) });
+      setResult({ status: "success", photoUrl: res.photo_url });
     });
     return () => {
       cancelled = true;

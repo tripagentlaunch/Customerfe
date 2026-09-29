@@ -128,10 +128,12 @@ const MIN_VISIBLE_ITEMS = 6;
 function GuideCard({
   photo,
   badge,
+  isLoading,
   children,
 }: {
   photo: string;
   badge?: string;
+  isLoading?: boolean;
   children: ReactNode;
 }) {
   return (
@@ -139,6 +141,11 @@ function GuideCard({
       <div className={styles.cardThumbWrap}>
         <img className={styles.cardThumb} src={photo} alt="" loading="lazy" />
         {badge && <span className={styles.cardThumbBadge}>{badge}</span>}
+        {isLoading && (
+          <div className={styles.cardThumbLoading}>
+            <span className={styles.cardSpinner} />
+          </div>
+        )}
       </div>
       <div className={styles.cardBody}>{children}</div>
     </div>
@@ -153,13 +160,13 @@ function GuidePanel({
   active,
   selectedTier,
   livePhotos,
-  observeItem,
+  fireLookup,
 }: {
   panel: CityGuidePanel;
   active: boolean;
   selectedTier: number;
   livePhotos: Record<string, LivePanelPhoto>;
-  observeItem: (key: string, el: HTMLElement | null, itemName: string, itemArea: string | undefined) => void;
+  fireLookup: (key: string, itemName: string, itemArea: string | undefined) => void;
 }) {
   // Per-tier reveal COUNT, not a binary open/closed flag — "Show all"
   // now reveals MIN_VISIBLE_ITEMS more each click (batched), rather than
@@ -188,6 +195,25 @@ function GuidePanel({
 
   const labelledTiers = panel.tiers.filter((t) => t.label);
 
+  // Fire live lookups directly for whatever's on the CURRENT page of each
+  // tier — replaces the old IntersectionObserver approach (see this
+  // hook's own comment for why that became unreliable once pagination
+  // was added). Re-runs whenever a page changes, so "Show next 6"
+  // correctly triggers lookups for exactly the newly-shown 6 items.
+  useEffect(() => {
+    panel.tiers.forEach((tier, i) => {
+      const page = tierPage[i] ?? 0;
+      const start = page * MIN_VISIBLE_ITEMS;
+      const end = start + MIN_VISIBLE_ITEMS;
+      tier.items.slice(start, end).forEach((item, offset) => {
+        const j = start + offset;
+        if (item.photo) return; // static photo already present — no live fetch needed
+        fireLookup(`${panel.key}-${i}-${j}`, item.name, item.area);
+      });
+    });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [panel.key, tierPage]);
+
   return (
     <div className={`cg-panel${active ? " on" : ""}`} data-cg={panel.key}>
       {panel.tiers.map((tier, i) => (
@@ -202,6 +228,7 @@ function GuidePanel({
               const credentials = item.credentials ?? [];
               const noTag = credentials.length === 0;
               const live = livePhotos[`${panel.key}-${i}-${j}`];
+              const isLoadingLivePhoto = !item.photo && live?.status === "loading";
               const photo =
                 item.photo ??
                 (live?.status === "success" ? live.photoUrl : placeholderPhoto(`${panel.key}-${i}-${j}-${item.name}`));
@@ -214,9 +241,8 @@ function GuidePanel({
                   return j >= start && j < end ? "" : "cg-hide";
                 })()}
                 key={j}
-                ref={(el) => observeItem(`${panel.key}-${i}-${j}`, el, item.name, item.area)}
               >
-                <GuideCard photo={photo} badge={credentials[0] ? shortCredential(credentials[0]) : undefined}>
+                <GuideCard photo={photo} badge={credentials[0] ? shortCredential(credentials[0]) : undefined} isLoading={isLoadingLivePhoto}>
                   <span className="cg-nm-row">
                     <span className="nm">{item.name}</span>
                   </span>
@@ -442,7 +468,7 @@ export default function CityPage() {
   const agraLiveCoords = useAgraLivePlanCoords(isLivePlacesEnabledCity, city?.plan.days, activePlanStep?.dayIndex);
   const agraLiveEventLocations = useAgraLiveEventLocations(isLivePlacesEnabledCity, city?.whatsOn.events);
   const activeGuidePanel = city?.guide.panels.find((p) => p.key === activeTab);
-  const { results: liveGuidePanelPhotos, observeItem: observeLiveGuidePanelItem } = useLiveGuidePanelPhotos(isLivePlacesEnabledCity, city?.slug, activeGuidePanel);
+  const { results: liveGuidePanelPhotos, fireLookup: fireLiveGuidePanelLookup } = useLiveGuidePanelPhotos(isLivePlacesEnabledCity, city?.slug);
 
   const activeSlotPhotos = useMemo(() => {
     if (!city || !activePlanStep) return [];
@@ -828,7 +854,7 @@ export default function CityPage() {
                           active={activeTab === p.key}
                           selectedTier={selectedTierByPanel[p.key] ?? p.tiers.findIndex((t) => t.label)}
                           livePhotos={activeTab === p.key ? liveGuidePanelPhotos : {}}
-                          observeItem={observeLiveGuidePanelItem}
+                          fireLookup={fireLiveGuidePanelLookup}
                         />
                       </div>
                     ))}

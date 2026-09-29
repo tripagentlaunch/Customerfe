@@ -57,9 +57,10 @@ interface VenueCardProps {
   map: google.maps.Map | null;
   mapContainerEl: HTMLDivElement | null;
   onClose: () => void;
+  isLoadingPhoto?: boolean;
 }
 
-export default function VenueCard({ venue, map, mapContainerEl, onClose }: VenueCardProps) {
+export default function VenueCard({ venue, map, mapContainerEl, onClose, isLoadingPhoto = false }: VenueCardProps) {
   const isMobile = useMediaQuery(MOBILE_QUERY);
   const reducedMotion = useMediaQuery(REDUCED_MOTION_QUERY);
 
@@ -327,9 +328,16 @@ export default function VenueCard({ venue, map, mapContainerEl, onClose }: Venue
           </button>
         </div>
       ) : (
-        <button ref={closeBtnRef} type="button" className={styles.closeTextOnly} onClick={onClose} aria-label="Close">
-          ×
-        </button>
+        <>
+          {isLoadingPhoto && (
+            <div className={styles.photoLoading}>
+              <span className={styles.spinner} />
+            </div>
+          )}
+          <button ref={closeBtnRef} type="button" className={styles.closeTextOnly} onClick={onClose} aria-label="Close">
+            ×
+          </button>
+        </>
       )}
 
       <div className={hasPhotos ? styles.body : styles.bodyTextOnly}>
