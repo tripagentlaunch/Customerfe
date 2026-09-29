@@ -72,7 +72,7 @@ export default function CityMap({ slug, livePlacesEnabled = false }: { slug: str
   const livePhoto = useLiveVenuePhoto(livePlacesEnabled, slug, selected);
   const effectiveSelected: CityMapVenue | null =
     selected && livePhoto.status === "success"
-      ? { ...selected, photos: [{ url: livePhoto.photoUrl, alt: selected.n }] }
+      ? { ...selected, photos: [{ url: livePhoto.photoUrl, alt: selected.n, credit: null }] }
       : selected;
   const [map, setMap] = useState<google.maps.Map | null>(null);
 

@@ -62,7 +62,6 @@ import AcceptInvitePage from "./AcceptInvitePage";
 import ClaimPage from "./ClaimPage";
 import RequestAccessPage from "./RequestAccessPage";
 import ReferPage from "./ReferPage";
-import HomePage from "./HomePage";
 import ComingSoonPage from "./ComingSoonPage";
 import routes from "../data/routes.generated.json";
 import redirects from "../data/redirects.generated.json";
@@ -272,7 +271,7 @@ const EXACT_SLUG_PAGES: Record<string, () => JSX.Element> = {
 // Extend HEALTH_PREFIXES/add a branch here as later phases port more
 // template groups.
 export default function PageRouter() {
-  const { pageSlug } = useParams<{ pageSlug: string }>();
+  const { pageSlug = "" } = useParams<{ pageSlug: string }>();
 
   // SITE-WIDE GATE (2026-09-29, temporary) — the whole site is pre-launch:
   // every route shows the Coming Soon page regardless of pageSlug, not

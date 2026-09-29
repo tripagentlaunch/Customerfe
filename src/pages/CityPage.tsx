@@ -208,7 +208,7 @@ function GuidePanel({
       tier.items.slice(start, end).forEach((item, offset) => {
         const j = start + offset;
         if (item.photo) return; // static photo already present — no live fetch needed
-        fireLookup(`${panel.key}-${i}-${j}`, item.name, item.area);
+        fireLookup(`${panel.key}-${i}-${j}`, item.name ?? "", item.area ?? undefined);
       });
     });
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -467,7 +467,6 @@ export default function CityPage() {
   const isLivePlacesEnabledCity = city ? LIVE_PLACES_TEST_CITIES.has(city.slug) : false;
   const agraLiveCoords = useAgraLivePlanCoords(isLivePlacesEnabledCity, city?.plan.days, activePlanStep?.dayIndex);
   const agraLiveEventLocations = useAgraLiveEventLocations(isLivePlacesEnabledCity, city?.whatsOn.events);
-  const activeGuidePanel = city?.guide.panels.find((p) => p.key === activeTab);
   const { results: liveGuidePanelPhotos, fireLookup: fireLiveGuidePanelLookup } = useLiveGuidePanelPhotos(isLivePlacesEnabledCity, city?.slug);
 
   const activeSlotPhotos = useMemo(() => {
