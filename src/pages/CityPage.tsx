@@ -142,8 +142,8 @@ function GuideCard({
         <img className={styles.cardThumb} src={photo} alt="" loading="lazy" />
         {badge && <span className={styles.cardThumbBadge}>{badge}</span>}
         {isLoading && (
-          <div className={styles.cardThumbLoading}>
-            <span className={styles.cardSpinner} />
+          <div className={styles["card-thumb-loading"]}>
+            <span className={styles["card-spinner"]} />
           </div>
         )}
       </div>

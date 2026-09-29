@@ -63,6 +63,7 @@ import ClaimPage from "./ClaimPage";
 import RequestAccessPage from "./RequestAccessPage";
 import ReferPage from "./ReferPage";
 import ComingSoonPage from "./ComingSoonPage";
+import HomePage from "./HomePage";
 import routes from "../data/routes.generated.json";
 import redirects from "../data/redirects.generated.json";
 import { toRoute } from "../lib/toRoute";
@@ -278,11 +279,16 @@ export default function PageRouter() {
   // just the index route. Remove this one `return` line (and nothing
   // else) once ready to launch the real site; every other route below is
   // untouched and will work immediately once this line is gone.
-  return <ComingSoonPage />;
+  if (import.meta.env.PROD) {
+    return <ComingSoonPage />;
+  }
 
   // The index route ("/", App.tsx) has no :pageSlug segment at all — that's
   // index.html itself (Batch J, part 2 of 2 — invitation.html was part 1).
-  if (!pageSlug) return <ComingSoonPage />;
+  if (!pageSlug) {
+    if (import.meta.env.PROD) return <ComingSoonPage />;
+    return <HomePage />;
+  }
 
   if (REDIRECTS[pageSlug]) return <Navigate to={toRoute(REDIRECTS[pageSlug])} replace />;
   if (pageSlug && EXACT_SLUG_PAGES[pageSlug]) return EXACT_SLUG_PAGES[pageSlug]();

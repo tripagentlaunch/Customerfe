@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import styles from "./claim-page.module.css";
+import { supabase } from "../lib/supabaseClient";
 
 // Ported from claim.html — the 8-digit-code redemption page (distinct from
 // invitation.html's 16-character, 4-step ceremony: InvitationPage.tsx).
@@ -25,6 +26,10 @@ type RedeemResponse = {
   months?: number;
   memberId?: string | null;
   advisorName?: string | null;
+  session?: {
+    access_token: string;
+    refresh_token: string;
+  } | null;
 };
 
 // Cinematic full-screen background video, muted/looping/autoplaying behind
@@ -69,7 +74,7 @@ export default function ClaimPage() {
   useEffect(() => {
     try {
       const raw = new URLSearchParams(window.location.search).get("code") || "";
-      const clean = raw.replace(/\D/g, "").slice(0, 8);
+      const clean = raw.toUpperCase().replace(/[^A-Z0-9]/g, "").slice(0, 8);
       if (clean) setCode(clean);
     } catch {
       // no-op
@@ -79,7 +84,10 @@ export default function ClaimPage() {
   }, []);
 
   function handleInput(e: React.ChangeEvent<HTMLInputElement>) {
-    setCode(e.target.value.replace(/\D/g, "").slice(0, 8));
+    // Alphanumeric, not digits-only (2026-09-29 fix) — invite codes now
+    // include letters (e.g. BH0325AN), matching handleSubmit's own
+    // .toUpperCase().replace(/[^A-Z0-9]/g, "") sanitization below.
+    setCode(e.target.value.toUpperCase().replace(/[^A-Z0-9]/g, "").slice(0, 8));
     setAnn(null);
   }
 
@@ -90,7 +98,7 @@ export default function ClaimPage() {
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     if (code.length < 8) {
-      setAnn({ text: "Your code has 8 digits — a few are still missing.", kind: "hint" });
+      setAnn({ text: "Your code has 8 characters — a few are still missing.", kind: "hint" });
       inputRef.current?.focus();
       return;
     }
@@ -122,6 +130,18 @@ export default function ClaimPage() {
     // GUARDRAIL: validity + free-months are decided by the backend only —
     // a "valid" response with no usable months is never trusted client-side.
     if (res.valid === true && Number.isFinite(months) && months >= 1 && months <= 24) {
+      if (res.session?.access_token && res.session?.refresh_token) {
+        try {
+          await supabase.auth.setSession({
+            access_token: res.session.access_token,
+            refresh_token: res.session.refresh_token,
+          });
+        } catch {
+          // Non-fatal: worst case the header still shows "Sign in" and the
+          // person can sign in manually with the same email — the
+          // membership itself was already created successfully above.
+        }
+      }
       setAnn(null);
       setClaimed(true);
       try {
@@ -198,12 +218,11 @@ export default function ClaimPage() {
                 <input
                   ref={inputRef}
                   id="claim-code"
-                  type="tel"
-                  inputMode="numeric"
-                  pattern="[0-9]*"
+                  type="text"
+                  inputMode="text"
                   maxLength={8}
                   autoComplete="one-time-code"
-                  placeholder="00000000"
+                  placeholder="ABCD1234"
                   spellCheck={false}
                   value={code}
                   onChange={handleInput}
