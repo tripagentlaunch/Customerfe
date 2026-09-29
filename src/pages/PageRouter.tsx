@@ -63,6 +63,7 @@ import ClaimPage from "./ClaimPage";
 import RequestAccessPage from "./RequestAccessPage";
 import ReferPage from "./ReferPage";
 import ComingSoonPage from "./ComingSoonPage";
+import HomePage from "./HomePage";
 import routes from "../data/routes.generated.json";
 import redirects from "../data/redirects.generated.json";
 import { toRoute } from "../lib/toRoute";
@@ -275,14 +276,23 @@ export default function PageRouter() {
 
   // SITE-WIDE GATE (2026-09-29, temporary) — the whole site is pre-launch:
   // every route shows the Coming Soon page regardless of pageSlug, not
-  // just the index route. Remove this one `return` line (and nothing
-  // else) once ready to launch the real site; every other route below is
-  // untouched and will work immediately once this line is gone.
-  return <ComingSoonPage />;
+  // just the index route. Only active in a PRODUCTION build
+  // (import.meta.env.PROD, Vite's built-in flag) — localhost/dev always
+  // bypasses it so real routes stay testable locally. Remove this whole
+  // `if` block once ready to launch the real site; every other route
+  // below is untouched and will work immediately once this block is gone.
+  if (import.meta.env.PROD) {
+    return <ComingSoonPage />;
+  }
 
   // The index route ("/", App.tsx) has no :pageSlug segment at all — that's
   // index.html itself (Batch J, part 2 of 2 — invitation.html was part 1).
-  if (!pageSlug) return <ComingSoonPage />;
+  // Same PROD-only gate as above (2026-09-29) — localhost shows the real
+  // HomePage, deployment still shows Coming Soon.
+  if (!pageSlug) {
+    if (import.meta.env.PROD) return <ComingSoonPage />;
+    return <HomePage />;
+  }
 
   if (REDIRECTS[pageSlug]) return <Navigate to={toRoute(REDIRECTS[pageSlug])} replace />;
   if (pageSlug && EXACT_SLUG_PAGES[pageSlug]) return EXACT_SLUG_PAGES[pageSlug]();
