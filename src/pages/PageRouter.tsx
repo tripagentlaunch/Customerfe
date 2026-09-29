@@ -274,6 +274,13 @@ const EXACT_SLUG_PAGES: Record<string, () => JSX.Element> = {
 export default function PageRouter() {
   const { pageSlug } = useParams<{ pageSlug: string }>();
 
+  // SITE-WIDE GATE (2026-09-29, temporary) — the whole site is pre-launch:
+  // every route shows the Coming Soon page regardless of pageSlug, not
+  // just the index route. Remove this one `return` line (and nothing
+  // else) once ready to launch the real site; every other route below is
+  // untouched and will work immediately once this line is gone.
+  return <ComingSoonPage />;
+
   // The index route ("/", App.tsx) has no :pageSlug segment at all — that's
   // index.html itself (Batch J, part 2 of 2 — invitation.html was part 1).
   if (!pageSlug) return <ComingSoonPage />;
