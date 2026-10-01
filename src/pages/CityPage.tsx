@@ -355,7 +355,7 @@ export default function CityPage() {
     });
     return urls;
   }, [city]);
-  const pageReady = useCityPageReady({ heroImage: city?.hero.image, mapReady, criticalImages });
+  const pageReady = useCityPageReady({ heroImage: city?.hero.image ?? undefined, mapReady, criticalImages });
   const [activeTab, setActiveTab] = useState<string>("stay");
   // Keyed by panel key, not a single shared value — so switching from
   // "stay" (say, Grand selected) to "eat" and back still remembers Grand,
@@ -592,7 +592,7 @@ export default function CityPage() {
 
   return (
     <>
-      {!pageReady && <CityPageLoader cityName={hero.name} />}
+      {!pageReady && <CityPageLoader cityName={hero.name ?? ""} />}
       <header className="city-hero" data-hero style={{ backgroundImage: `url('${hero.image}')` }}>
         <div className="wrap">
           <nav className={`${styles.bcTrail} reveal`} aria-label="Breadcrumb">
