@@ -413,7 +413,8 @@
 
 .card-thumb-badge{position:absolute;top:8px;right:8px;background:rgba(17,17,17,.82);color:#fff;font-family:var(--fr);font-size:10.5px;font-weight:600;letter-spacing:.02em;padding:4px 9px;border-radius:20px;white-space:nowrap;max-width:calc(100% - 16px);overflow:hidden;text-overflow:ellipsis}
 
-.card-thumb-loading{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,0.15)}
+.card-thumb-loading{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,0.35)}
 .card-spinner{width:26px;height:26px;border:3px solid rgba(255,255,255,0.4);border-top-color:#fff;border-radius:50%;animation:cardSpin 0.8s linear infinite}
 @keyframes cardSpin{to{transform:rotate(360deg)}}
 @media (prefers-reduced-motion: reduce){.card-spinner{animation:none}}
+

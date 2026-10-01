@@ -10,8 +10,6 @@ import { useLiveVenuePhoto } from "../hooks/useLiveVenuePhoto";
 
 const GOOGLE_MAPS_API_KEY = import.meta.env.VITE_GOOGLE_MAPS_API_KEY as string | undefined;
 
-// Per-city chunk (src/data/venue-coords/<slug>.json) so a city page only ever
-// ships its own venues, not all 110 cities' worth.
 const VENUE_COORD_LOADERS = import.meta.glob("../data/venue-coords/*.json") as Record<
   string,
   () => Promise<{ default: CityMapData }>
@@ -46,8 +44,6 @@ function useCityMapData(slug: string) {
 const MAP_CONTAINER_STYLE = { width: "100%", height: "100%" };
 const PIN_BUTTON_STYLE: CSSProperties = { transform: "translate(-50%, -50%)", background: "none", border: "none", padding: 0, cursor: "pointer" };
 
-// Restrained, near-monochrome maison style — mutes default Google POI/road
-// clutter so the curated markers stay the focus.
 const MAP_STYLES: google.maps.MapTypeStyle[] = [
   { elementType: "geometry", stylers: [{ color: "#f4f1ea" }] },
   { elementType: "labels.text.fill", stylers: [{ color: "#5f5f5f" }] },
@@ -61,7 +57,15 @@ const MAP_STYLES: google.maps.MapTypeStyle[] = [
   { featureType: "administrative", elementType: "labels.text.fill", stylers: [{ color: "#8a8680" }] },
 ];
 
-export default function CityMap({ slug, livePlacesEnabled = false }: { slug: string; livePlacesEnabled?: boolean }) {
+export default function CityMap({
+  slug,
+  livePlacesEnabled = false,
+  onReady,
+}: {
+  slug: string;
+  livePlacesEnabled?: boolean;
+  onReady?: () => void;
+}) {
   const { isLoaded, loadError } = useJsApiLoader({
     id: "ta-google-map-script",
     googleMapsApiKey: GOOGLE_MAPS_API_KEY ?? "",
@@ -77,18 +81,32 @@ export default function CityMap({ slug, livePlacesEnabled = false }: { slug: str
   const [map, setMap] = useState<google.maps.Map | null>(null);
 
   const canvasRef = useRef<HTMLDivElement | null>(null);
-  // The marker's own DOM node (best-effort focus target on close — see
-  // restoreFocus, which falls back when this isn't reliably focusable).
   const triggerElRef = useRef<HTMLElement | null>(null);
+
+  // Fires onReady exactly once per slug for every terminal state: no venue
+  // data for this city, a hard script load error, or (further down) once the
+  // real map actually finishes loading. Without this, CityPageLoader would
+  // hang forever on a city with no key, no data, or a failed script load.
+  const firedReadyRef = useRef(false);
+  useEffect(() => {
+    firedReadyRef.current = false;
+  }, [slug]);
+  function fireReadyOnce() {
+    if (firedReadyRef.current) return;
+    firedReadyRef.current = true;
+    onReady?.();
+  }
+
+  useEffect(() => {
+    if (data === null || loadError) fireReadyOnce();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [data, loadError]);
 
   function selectVenue(v: CityMapVenue, domEvent: Event | undefined) {
     triggerElRef.current = (domEvent?.target as HTMLElement) ?? null;
     setSelected(v);
   }
 
-  // Classic (non-Advanced) MarkerF markers are usually canvas-drawn, not
-  // reliably focusable DOM nodes — try it anyway, but fall back to the map
-  // container, so focus always lands somewhere sensible after Esc/close.
   function restoreFocus() {
     const marker = triggerElRef.current;
     if (marker && document.contains(marker) && typeof marker.focus === "function") {
@@ -114,9 +132,6 @@ export default function CityMap({ slug, livePlacesEnabled = false }: { slug: str
     return <div className={styles.fallback}>Map not available for this destination yet.</div>;
   }
 
-  // No Google Maps key yet — a plain projected-pin map stands in, using the
-  // same data/toggle/selection state as the real map above so swapping the
-  // key back in later is just deleting this branch, not rewiring anything.
   if (!GOOGLE_MAPS_API_KEY) {
     if (data === undefined) {
       return (
@@ -127,6 +142,8 @@ export default function CityMap({ slug, livePlacesEnabled = false }: { slug: str
         </div>
       );
     }
+    // Mock map has no async load step of its own — safe to fire immediately.
+    fireReadyOnce();
     return (
       <div className={styles.wrap}>
         <div className={styles.canvas} ref={canvasRef} tabIndex={-1}>
@@ -165,21 +182,6 @@ export default function CityMap({ slug, livePlacesEnabled = false }: { slug: str
           zoom={11}
           onLoad={(m) => {
             setMap(m);
-            // Fit to the dense in-city cluster only — day-trip venues
-            // (Fatehpur Sikri, Vrindavan, etc.) can sit 40-60km out, and
-            // including them in fitBounds would zoom out so far the main
-            // city cluster becomes tiny/unclickable. A simple distance
-            // filter around the data's own center keeps the initial view
-            // at city scale; distant pins are still there to reach by
-            // zooming/panning out manually.
-            //
-            // Deferred one frame: fitBounds computed synchronously inside
-            // onLoad can run before the map's container has its final
-            // rendered size (still mid-layout), producing a bad initial
-            // zoom/pan that only self-corrects once the user manually
-            // interacts with the map. requestAnimationFrame waits for the
-            // browser's next paint, by which point the container is
-            // reliably sized.
             requestAnimationFrame(() => {
               const core = visibleVenues.filter((v) => {
                 const dLat = v.lat - center.lat;
@@ -191,6 +193,7 @@ export default function CityMap({ slug, livePlacesEnabled = false }: { slug: str
                 core.forEach((v) => bounds.extend({ lat: v.lat, lng: v.lon }));
                 m.fitBounds(bounds, 40);
               }
+              fireReadyOnce();
             });
           }}
           onClick={() => setSelected(null)}
@@ -204,7 +207,13 @@ export default function CityMap({ slug, livePlacesEnabled = false }: { slug: str
         >
           {visibleVenues.map((v, i) => (
             <OverlayViewF key={`${v.n}-${i}`} position={{ lat: v.lat, lng: v.lon }} mapPaneName={OVERLAY_MOUSE_TARGET}>
-              <button type="button" aria-label={v.n} style={PIN_BUTTON_STYLE} onClick={(e) => selectVenue(v, e.nativeEvent)}>
+              <button
+                type="button"
+                aria-label={v.n}
+                style={PIN_BUTTON_STYLE}
+                onMouseEnter={(e) => selectVenue(v, e.nativeEvent)}
+                onMouseLeave={() => setSelected(null)}
+              >
                 <MapPin Icon={catIcon(v.cat)} color={catColor(v.cat)} active={selected?.n === v.n && selected.lat === v.lat} />
               </button>
             </OverlayViewF>

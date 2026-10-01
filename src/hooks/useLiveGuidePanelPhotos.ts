@@ -42,6 +42,13 @@ export function useLiveGuidePanelPhotos(
       }
 
       setResults((prev) => ({ ...prev, [key]: { status: "loading" } }));
+      // REVERTED 2026-09-30 — fetchPlaceLookupWithPhoto's backend route
+      // (/api/places/lookup-with-photo) does not actually exist on this
+      // repo's prod branch (confirmed: grep against
+      // app/routers/places_router.py comes back empty), even though it
+      // was seen in an earlier session on a different branch state.
+      // Every request 404'd, breaking image loading entirely. Reverted to
+      // the real, working two-step endpoint this branch actually has.
       fetchPlaceLookup(candidate, itemArea ?? citySlug).then((result) => {
         if (!result || !result.found || !result.photo_url) {
           setResults((prev) => ({ ...prev, [key]: { status: result ? "not-found" : "error" } }));

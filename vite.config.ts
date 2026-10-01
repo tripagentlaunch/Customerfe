@@ -41,6 +41,12 @@ export default defineConfig({
   plugins: [react(), vercelImageProxy()],
   server: {
     fs: { allow: [".."] },
+    proxy: {
+      "/api": {
+        target: "http://localhost:8002",
+        changeOrigin: true,
+      },
+    },
   },
   // Page-scoped CSS files (app/src/pages/*.module.css) auto-hash their class
   // names per file, so short names like .pull/.sig/.idx can never collide

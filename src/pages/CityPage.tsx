@@ -32,6 +32,7 @@ import { useLiveGuidePanelPhotos, type LivePanelPhoto } from "../hooks/useLiveGu
 import { placeholderPhoto } from "../lib/placeholderPhoto";
 import styles from "./city-page.module.css";
 import LiveVenues from "../components/LiveVenues";
+import CityPageLoader, { useCityPageReady } from "../components/CityPageLoader";
 
 const CITIES = cities as unknown as Record<string, CityData>;
 
@@ -136,12 +137,24 @@ function GuideCard({
   isLoading?: boolean;
   children: ReactNode;
 }) {
+  const [imgLoaded, setImgLoaded] = useState(false);
+  useEffect(() => {
+    setImgLoaded(false);
+  }, [photo]);
+  const showSpinner = isLoading || !imgLoaded;
   return (
     <div className={styles.cardInner}>
       <div className={styles.cardThumbWrap}>
-        <img className={styles.cardThumb} src={photo} alt="" loading="lazy" />
+        <img
+          className={styles.cardThumb}
+          src={photo}
+          alt=""
+          loading="lazy"
+          onLoad={() => setImgLoaded(true)}
+          onError={() => setImgLoaded(true)}
+        />
         {badge && <span className={styles.cardThumbBadge}>{badge}</span>}
-        {isLoading && (
+        {showSpinner && (
           <div className={styles["card-thumb-loading"]}>
             <span className={styles["card-spinner"]} />
           </div>
@@ -328,6 +341,21 @@ export default function CityPage() {
   const { pageSlug } = useParams<{ pageSlug: string }>();
   const slug = pageSlug?.startsWith("city-") ? pageSlug.slice("city-".length) : undefined;
   const city = slug ? CITIES[slug] : undefined;
+  const [mapReady, setMapReady] = useState(false);
+  const criticalImages = useMemo(() => {
+    if (city === undefined) return [];
+    const urls: string[] = [];
+    if (city.firstLook?.heroImage) urls.push(city.firstLook.heroImage);
+    const panels = orderedPanels(city.guide.panels ?? []);
+    const firstPanel = panels[0];
+    firstPanel?.tiers.forEach((tier) => {
+      tier.items.slice(0, 6).forEach((item) => {
+        if (item.photo) urls.push(item.photo);
+      });
+    });
+    return urls;
+  }, [city]);
+  const pageReady = useCityPageReady({ heroImage: city?.hero.image, mapReady, criticalImages });
   const [activeTab, setActiveTab] = useState<string>("stay");
   // Keyed by panel key, not a single shared value — so switching from
   // "stay" (say, Grand selected) to "eat" and back still remembers Grand,
@@ -564,6 +592,7 @@ export default function CityPage() {
 
   return (
     <>
+      {!pageReady && <CityPageLoader cityName={hero.name} />}
       <header className="city-hero" data-hero style={{ backgroundImage: `url('${hero.image}')` }}>
         <div className="wrap">
           <nav className={`${styles.bcTrail} reveal`} aria-label="Breadcrumb">
@@ -763,7 +792,7 @@ export default function CityPage() {
             );
           })()
         ) : (
-          <CityMap slug={city.slug} livePlacesEnabled={isLivePlacesEnabledCity} />
+          <CityMap slug={city.slug} livePlacesEnabled={isLivePlacesEnabledCity} onReady={() => setMapReady(true)} />
         )}
       </div>
       </div>

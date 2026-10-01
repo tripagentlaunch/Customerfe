@@ -2160,26 +2160,29 @@
             {
               "label": "Morning",
               "text": "Enter the Taj Mahal at first light through the east gate with a historian, staying past the coach crowds as the marble warms.",
-              "lat": null,
-              "lon": null,
-              "place": null,
-              "category": null
+              "lat": 27.175144799999998,
+              "lon": 78.0421422,
+              "place": "Taj Mahal",
+              "category": null,
+              "photo": "/api/places/photo?ref=places%2FChIJbf8C1yFxdDkR3n12P4DkKt0%2Fphotos%2FAa-ngMYe4kAknmV9POtFVW_DrjfCxuB1pZa4I5QhoVTakz1igXrUxINLtBrtl7nepItnVusX6q01wXPjFoxAxEDojWzoSrjRFbYLEY0VCipV_pKr6Dgf05Xl-hsD-LOp0hGXMB1I3_DaJ2gDp5R31vGglkGunL5uHoG9v5tNURPNbhu7cgyvKg_TavfJGJ_KjnUpVrjxQEGCjiN7MXin3HXtZMYIUI0D8JIDNGmES0tSJIpE9k1ztqpiRUtARCywxanjV9rTgHY8kpg-TMnsTXLECxNQ-M7guwXUelLGEpZ06RXV2A7z77Za9zXbp97jCnKZFtfeSPi62RnzLvqOOFGhfnJRD2uIqc2COQaxwJ3BoflF_HmyHwxEUeipl3qPRM1r6_9umpzmUV9A-ftBMsKcvy4_AIkE1DJUNCNjEhCewz138XM"
             },
             {
               "label": "Afternoon",
               "text": "Rest at the Oberoi Amarvilas, whose every room faces the mausoleum, then tour Agra Fort in the softer afternoon light.",
-              "lat": null,
-              "lon": null,
-              "place": null,
-              "category": null
+              "lat": 27.168003199999998,
+              "lon": 78.0490121,
+              "place": "The Oberoi Amarvilas, Agra",
+              "category": null,
+              "photo": "/api/places/photo?ref=places%2FChIJwanh0htxdDkRpaBl2MhumtY%2Fphotos%2FAa-ngMagq3uRUapYfzSrBQEyP6bMFMJdeYMZUJXqJu6xLdWTML-T7yeEK120HKCqRn1GU0Kf0z2nDrHs37it4ZhaX7IdrI_-nOiJVHGmuuHFiaHWNmXDyeiFtAhhWotmbKZtlNZkBSkWylg0oo1iu5eAD_7zrQSncY9urL4fuPBMsr2g3BsNFH0_DoNabUfn07NKZYMgPNem3lAAbsKNCEiM6kblbpnWev3b7SOZiUdgO2YsONKSbEHn57w-jMtXIdfzkyKPNXwT-jJCsnQyckUvHDiYYiEHIif_p2DYX_0kpGuskQ0GU0dK0CNaadwFjsEGe_juMNGmp_RvIasP-Emdf6JyTYh_dnd3nbGVelrNt9UAjvI81GkP1NLiCy7gjpQtSgUNADF943QeHMc6dZmbaJ4woFk"
             },
             {
               "label": "Evening",
               "text": "Dinner at Esphahan at the Amarvilas, with live santoor and the Taj framed from the terrace.",
-              "lat": null,
-              "lon": null,
-              "place": null,
-              "category": null
+              "lat": 27.168003199999998,
+              "lon": 78.0490121,
+              "place": "Esphahan",
+              "category": null,
+              "photo": "/api/places/photo?ref=places%2FChIJEbASKiZ3dDkRKXbwhBgx68Y%2Fphotos%2FAa-ngMYvBHz_q8tPBXMr4pBHliit4iwhQv5pSoCnuI9-fmOVBQMWhX7jkVIH2jgxk3WI1Pdu6LxYO8zO9YHKhufGroZlGglykE1O1FgANpnR-w_0wvLu8hS8HOGVC8hWu2UhEWApIcOrTGXH91Rc_GQvzkfNo2FcKlQRtEmHg-f7Q9IcIZ8xvSW2E2vJPFb5GCb8vqFkFf2leUpTB_tVUuMV6ZgYyNvmXek1ea6fEH67Mdr0DKBrX1ePHDOXiHgS3LhbU-b_ubw0frhg1zFyKKGeSDsa-nuTonGdkR2MmCHIkkMPDuMc8t8OAuOSJ2sQZJbEg_d-QzJmcc4wBg0QT12rxr3TriSceQhY2VFrvKDk4pJG9gf0h3fTAjs-94tc8eqMNIzM0zwE2hpIWRUxyIgnvOeLZmrtmGVKzuVfemvzOCx38bFp"
             }
           ]
         },
@@ -2190,10 +2193,11 @@
             {
               "label": "Morning",
               "text": "Drive to the abandoned red-sandstone capital of Fatehpur Sikri before the day heats, walking the Buland Darwaza and the Diwan-i-Khas.",
-              "lat": null,
-              "lon": null,
-              "place": null,
-              "category": null
+              "lat": 27.0945291,
+              "lon": 77.6679292,
+              "place": "Fatehpur Sikri",
+              "category": null,
+              "photo": "/api/places/photo?ref=places%2FChIJjXlTSliRczkRQPvBkGfUkwg%2Fphotos%2FAa-ngMYhGf_Xs5aESFmOW2_8XiO6SfgWHUNntq3hzqFuf6o4IpEi7it-SpuPhlEM2PayotrhH6Kr9gi2GaAZzt5vwyFDN83e5R-D3qHloxKUoCc8EhpiEBbaFajZbLRxofXbCU_4QxdPpRl64UbTzurtqOXZTGOiflV9NGu3fhygVswPvgEBnPhy9T_rPkG2wZ0QiSTZrDb8kDaWWsK9tbPWJM7KGBXHA3LfE92kJ-oI0cmt_WhfygQi-k8wEyaz-BRSxqSpf1mPmDhg3ImrC9TN3dJSyERx7lJxChloRze1riE6uZxTRje8TQUTzJUvxSxTuNkiH5pHzMEV7cAFsRpgDhL1I4HsUaF5zW39SjVQuTH3MRmv-2YL3gMiE0CG0OcJc2GpXjnT_YvmzFJCQfXyYa93Peyc"
             },
             {
               "label": "Afternoon",
@@ -2201,7 +2205,8 @@
               "lat": 27.175007,
               "lon": 78.042101,
               "place": "Marble Inlay (Pietra Dura) Artisan Workshop",
-              "category": null
+              "category": null,
+              "photo": "/api/places/photo?ref=places%2FChIJ15EsAwpxdDkRSKiDLyYk5Ak%2Fphotos%2FAa-ngMar3J8ixZIZ0t1xRsRTUBXLMq3pe4lEJ3LGPm_7z8vTdga0OE_69A0fnQ1FT7CZFHZxEYZ0od_6xtgSdxtiR470jBYNbtal5M_ujriZwh7mAXKjwr8frw_O6U4I0CSnGzhnKxUeKBXTT6n8LaBw1MzplXDi-tSlM0bwsZPA6Cdc54HJOH2HwLqEA9n9vn8adXp1zZz_dcf0l6NH1Y5qsXhHnAOIaMdLt3pHRUULdxMtqFcOBXDvKUh0u7d35NwAQEFu_68Z5iIj7lUE6MFnk9F3BPioCs0I_wQLR9ecsa15JsmXGESLlx9W7h0RP-yTf4EaabCNC8C6-kn9gwRm1X6F0NpLMnu8Ik0l10Cih9Apqwv7GRe-Z3tuDx7yUqKC16FXo2JCq1c209DySG0qy1raYISjaQZ-2sTbSN0_LB9q4u_83_MjaK5Uf04IxAHI"
             },
             {
               "label": "Evening",
@@ -2248,16 +2253,24 @@
           "months": [
             "Feb"
           ],
-          "location": null,
-          "photo": null
+          "location": {
+            "label": "Taj Mahotsav Agra",
+            "lat": 27.155348,
+            "lon": 78.0665956
+          },
+          "photo": "/api/places/photo?ref=places%2FChIJ3fOuDd1xdDkRAT4WJcQ6Fuo%2Fphotos%2FAa-ngMZD4asOOOEzKf4cqjA-yw4egEV4_i4ZlsHj3YxUaqE2bQER06EqM9nbbwvQBebWA3-njcxu-SIH9S7v-_WvdBDbCMS2PXJ9O8feTnZflkT2qD1-QAtl7bgyw2lQCiHx4ySf-1zbOpaJNCOBwFrk2cCRNa4QYFUN-4sAZ6zm7bsw5NAvImpIbm38UlxeEKPrduRegNGf26u9oqKjrb-I29SfkugXQ4koMN-7fMZAIR6xhzt5lNFwsd1blUQt_KLZiLkHtYwDuGY7ARMavcQblr-bXQ0De0xUClLsoZ5-809k2FFlVMMeKW8pmo7QIKQMOixs9-6572VhDYUM0M0AQUM24FP_XULvIhPQ9vVtZdPekm_H06WnmdwOZegiidxfyxjDaQYLdHFo9PaaGLxTXJR9z4Tvun1kyOp_8RsVtZcmf8zaUA201naH4sTwt9ty"
         },
         {
           "when": "monthly (around full moon)",
           "name": "Full-moon night viewings",
           "note": "Limited-ticket night entry on five nights each lunar month, excluding Fridays and Ramadan.",
           "months": [],
-          "location": null,
-          "photo": null
+          "location": {
+            "label": "Taj Mahal Full Moon Night Tickets Booking",
+            "lat": 27.148235,
+            "lon": 78.0438022
+          },
+          "photo": "/api/places/photo?ref=places%2FChIJ8V7ttilxdDkRUWEqI2CedXw%2Fphotos%2FAa-ngMbb0b9ZUyxN9z9rpbthCl_doUv2f0t0luocqzFQw470pPMl9QwqqOHJ5JTXhzp5nACubP5iDQPilmqu63suOeyFHGHlKdHFMKVhaMrr_XUrq3fezcdTl_ht1n5Cjwu3WOg_EMJGz7B80INpi1aZv7jnV0xDPkftKxO7J-EKtxgQ2UzaLgO015xEmGDl0hlWkWeKxkq2Obut32ilsRVhcCtVjNqhnUJruGt7xKngi-W9lz0nnLeSekETFywx47Fa3ZQt_tSK2Gg7YZZ5ndnk1Slvfv-d8SxE5WlkxryBPNJ7ZQqkpkJ7U1WHEpdk7iNMqN7qlAYVYnjLLCxKOuTRQi0AcVvv49q64mZgjHxeeZZe_5Wi2JcjGD2XTfIAK1ShLQfNUk8PlLh1vxWuVZ3cpxOj5w"
         },
         {
           "when": "Aug–Sep",
@@ -2268,7 +2281,7 @@
             "Sep"
           ],
           "location": null,
-          "photo": null
+          "photo": "https://images.pexels.com/photos/28749618/pexels-photo-28749618.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
         },
         {
           "when": "Oct–Nov",
@@ -2279,7 +2292,7 @@
             "Nov"
           ],
           "location": null,
-          "photo": null
+          "photo": "https://images.pexels.com/photos/28749618/pexels-photo-28749618.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
         }
       ]
     },
