@@ -279,7 +279,7 @@ export default function PageRouter() {
   // just the index route. Remove this one `return` line (and nothing
   // else) once ready to launch the real site; every other route below is
   // untouched and will work immediately once this line is gone.
-  if (import.meta.env.PROD) {
+  if (import.meta.env.PROD && import.meta.env.VITE_SHOW_COMING_SOON !== "false") {
     return <ComingSoonPage />;
   }
 
