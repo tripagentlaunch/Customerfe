@@ -285,7 +285,15 @@ export default function PageRouter() {
 
   // The index route ("/", App.tsx) has no :pageSlug segment at all — that's
   // index.html itself (Batch J, part 2 of 2 — invitation.html was part 1).
+  // DEV PREVIEW TEST (temporary, 2026-10-04): when the site-wide gate above
+  // is bypassed via VITE_SHOW_COMING_SOON=false, land visitors on the
+  // Request Access form directly instead of HomePage/ComingSoonPage — this
+  // lets a Vercel Preview deployment be used to test the real
+  // request-access -> admin-approval -> claim flow end to end.
   if (!pageSlug) {
+    if (import.meta.env.PROD && import.meta.env.VITE_SHOW_COMING_SOON === "false") {
+      return <RequestAccessPage />;
+    }
     if (import.meta.env.PROD) return <ComingSoonPage />;
     return <HomePage />;
   }
