@@ -4,6 +4,7 @@ import destinations from "../data/destinations.generated.json";
 import type { DestBlock, DestinationData, DestGuidePanel } from "../types/destination";
 import { useScrollReveal } from "../lib/useScrollReveal";
 import { toRoute } from "../lib/toRoute";
+import { PrimaryInverseButton, SecondaryInverseButton } from "../components/buttons/InverseButtons";
 
 const DESTINATIONS = destinations as unknown as Record<string, DestinationData>;
 
@@ -303,15 +304,9 @@ function renderBlock(block: DestBlock, key: number) {
               {block.lede}
             </p>
             <div className="btn-row center reveal d2" style={{ marginTop: 28 }}>
-              {block.ctaPrimary && (
-                <Link className="btn btn-gold on-dark" to={toRoute(block.ctaPrimary.href)}>
-                  {block.ctaPrimary.label}
-                </Link>
-              )}
+              {block.ctaPrimary && <PrimaryInverseButton to={block.ctaPrimary.href}>{block.ctaPrimary.label}</PrimaryInverseButton>}
               {block.ctaSecondary && (
-                <Link className="btn btn-ghost on-dark" to={toRoute(block.ctaSecondary.href)}>
-                  {block.ctaSecondary.label}
-                </Link>
+                <SecondaryInverseButton to={block.ctaSecondary.href}>{block.ctaSecondary.label}</SecondaryInverseButton>
               )}
             </div>
           </div>

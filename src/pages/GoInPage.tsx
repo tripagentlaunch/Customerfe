@@ -4,6 +4,7 @@ import goin from "../data/goin.generated.json";
 import type { GoInData } from "../types/goin";
 import { useScrollReveal } from "../lib/useScrollReveal";
 import { toRoute } from "../lib/toRoute";
+import { PrimaryInverseButton, SecondaryInverseButton } from "../components/buttons/InverseButtons";
 import styles from "./goin-page.module.css";
 
 const GOIN = goin as unknown as Record<string, GoInData>;
@@ -198,15 +199,9 @@ export default function GoInPage() {
             {closing.lede}
           </p>
           <div className="btn-row center reveal d2" style={{ marginTop: 28 }}>
-            {closing.ctaPrimary && (
-              <Link className="btn btn-gold on-dark" to={toRoute(closing.ctaPrimary.href)}>
-                {closing.ctaPrimary.label}
-              </Link>
-            )}
+            {closing.ctaPrimary && <PrimaryInverseButton to={closing.ctaPrimary.href}>{closing.ctaPrimary.label}</PrimaryInverseButton>}
             {closing.ctaSecondary && (
-              <Link className="btn btn-ghost on-dark" to={toRoute(closing.ctaSecondary.href)}>
-                {closing.ctaSecondary.label}
-              </Link>
+              <SecondaryInverseButton to={closing.ctaSecondary.href}>{closing.ctaSecondary.label}</SecondaryInverseButton>
             )}
           </div>
         </div>

@@ -2,6 +2,7 @@ import { useNavMenu } from "../../lib/navMenu";
 import { useTripDrawer } from "../../lib/tripDrawer";
 import { useTripSummary } from "../../lib/tripState";
 import { useAdvisorHref } from "../../lib/advisor";
+import { TaraAI } from "../TaraAI";
 
 // Ported from js/shell.js's mobile bottom tab-bar — Discover · Plan · My
 // Trip · Advisor, thumb-reach on every screen <900px (css/site.css's
@@ -33,7 +34,7 @@ export function MobileTabbar() {
         My&nbsp;Trip
       </button>
       <a href={advisor.href} target={advisor.external ? "_blank" : undefined} rel={advisor.external ? "noopener" : undefined}>
-        Advisor
+        <TaraAI />
       </a>
     </nav>
   );

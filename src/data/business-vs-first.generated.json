@@ -13,7 +13,7 @@
     "lede": "First isn't simply better than business. It's a different thing \u2014 worth it on some flights, not on others. Here's how we judge it.",
     "image": "/_vercel/image?url=%2Fimg%2Fh%2Fbusiness-vs-first.jpg&w=2560&q=80",
     "ctaGold": {
-      "label": "Ask your advisor",
+      "label": "Ask Tara AI",
       "href": "enquire.html"
     },
     "ctaText": {
@@ -111,7 +111,7 @@
     "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fsingapore-city.jpg&w=2048&q=80",
     "buttons": [
       {
-        "label": "Ask your advisor \u2192",
+        "label": "Ask Tara AI \u2192",
         "href": "enquire.html"
       },
       {

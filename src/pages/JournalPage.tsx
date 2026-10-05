@@ -4,6 +4,7 @@ import journal from "../data/journal.generated.json";
 import type { JournalData, JournalNode } from "../types/journal";
 import { useScrollReveal } from "../lib/useScrollReveal";
 import { toRoute } from "../lib/toRoute";
+import { PrimaryInverseButton, SecondaryInverseButton } from "../components/buttons/InverseButtons";
 import styles from "./journal-page.module.css";
 
 const JOURNAL = journal as unknown as Record<string, JournalData>;
@@ -114,15 +115,9 @@ export default function JournalPage() {
             {closing.lede}
           </p>
           <div className="btn-row center reveal d3" style={{ marginTop: 28 }}>
-            {closing.ctaPrimary && (
-              <Link className="btn btn-gold on-dark" to={toRoute(closing.ctaPrimary.href)}>
-                {closing.ctaPrimary.label}
-              </Link>
-            )}
+            {closing.ctaPrimary && <PrimaryInverseButton to={closing.ctaPrimary.href}>{closing.ctaPrimary.label}</PrimaryInverseButton>}
             {closing.ctaSecondary && (
-              <Link className="btn btn-ghost on-dark" to={toRoute(closing.ctaSecondary.href)}>
-                {closing.ctaSecondary.label}
-              </Link>
+              <SecondaryInverseButton to={closing.ctaSecondary.href}>{closing.ctaSecondary.label}</SecondaryInverseButton>
             )}
           </div>
         </div>

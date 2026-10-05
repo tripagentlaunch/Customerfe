@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import daysData from "../data/days-page.generated.json";
 import type { DaysPageData } from "../types/days-page";
 import { useNavVariant } from "../lib/navVariant";
+import { TaraAI } from "../components/TaraAI";
 import styles from "./days-page.module.css";
 
 const data = daysData as unknown as DaysPageData;
@@ -28,7 +29,7 @@ export default function DaysPage() {
         <h1>The day-planning map is on its way.</h1>
         <p>In the meantime, tell your advisor the places you love and how you like to move — they'll lay out genuinely walkable days with you, and turn it into a booked trip.</p>
         <Link className="btn btn-gold" to="/enquire">
-          Plan your days with your advisor
+          Plan your days with <TaraAI />
         </Link>
       </div>
     </div>

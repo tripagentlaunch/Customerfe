@@ -198,7 +198,7 @@
     "lede": "These are starting points. Your advisor sets the order, the nights and the pace to your dates — then holds the flights, the stays and the visas.",
     "buttons": [
       {
-        "label": "Have your advisor build this",
+        "label": "Have Tara AI build this",
         "href": "enquire.html"
       },
       {

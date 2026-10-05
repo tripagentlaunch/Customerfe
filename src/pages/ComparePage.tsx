@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import compareData from "../data/compare.generated.json";
 import type { ComparePageData } from "../types/compare";
 import { useNavVariant } from "../lib/navVariant";
+import { TaraAI } from "../components/TaraAI";
 import styles from "./compare-page.module.css";
 
 const data = compareData as unknown as ComparePageData;
@@ -85,7 +86,9 @@ export default function ComparePage() {
           {anyPicked && (
             <div className={styles.cmpNotlive}>
               <p>Side-by-side comparison is on its way. Meanwhile, tell your advisor the places you're weighing and they'll compare them with you.</p>
-              <Link to="/enquire">Talk to your advisor</Link>
+              <Link to="/enquire">
+                Talk to <TaraAI />
+              </Link>
             </div>
           )}
         </div>

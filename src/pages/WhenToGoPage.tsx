@@ -4,6 +4,7 @@ import whenToGoData from "../data/when-to-go-page.generated.json";
 import type { WhenToGoPageData } from "../types/when-to-go-page";
 import { useScrollReveal } from "../lib/useScrollReveal";
 import { toRoute } from "../lib/toRoute";
+import { PrimaryInverseButton, SecondaryInverseButton } from "../components/buttons/InverseButtons";
 import styles from "./when-to-go-page.module.css";
 
 const data = whenToGoData as unknown as WhenToGoPageData;
@@ -248,11 +249,17 @@ export default function WhenToGoPage() {
             {cta.lede}
           </p>
           <div className="btn-row center reveal d2" style={{ marginTop: 28 }}>
-            {cta.buttons.map((b, i) => (
-              <Link className={i === 0 ? "btn btn-gold on-dark" : "btn btn-ghost on-dark"} to={toRoute(b.href)} key={i}>
-                {b.label}
-              </Link>
-            ))}
+            {cta.buttons.map((b, i) =>
+              i === 0 ? (
+                <PrimaryInverseButton to={b.href} key={i}>
+                  {b.label}
+                </PrimaryInverseButton>
+              ) : (
+                <SecondaryInverseButton to={b.href} key={i}>
+                  {b.label}
+                </SecondaryInverseButton>
+              )
+            )}
           </div>
         </div>
       </section>

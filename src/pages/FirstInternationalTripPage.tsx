@@ -4,6 +4,7 @@ import fitData from "../data/first-international-trip.generated.json";
 import type { FirstInternationalTripPageData } from "../types/first-international-trip";
 import { useScrollReveal } from "../lib/useScrollReveal";
 import { toRoute } from "../lib/toRoute";
+import { PrimaryInverseButton, SecondaryInverseButton } from "../components/buttons/InverseButtons";
 import styles from "./first-international-trip-page.module.css";
 
 const data = fitData as unknown as FirstInternationalTripPageData;
@@ -177,11 +178,17 @@ export default function FirstInternationalTripPage() {
             {cta.lede}
           </p>
           <div className="btn-row center reveal d2" style={{ marginTop: 28 }}>
-            {cta.buttons.map((b, i) => (
-              <Link className={i === 0 ? "btn btn-gold on-dark" : "btn btn-ghost on-dark"} to={toRoute(b.href)} key={i}>
-                {b.label}
-              </Link>
-            ))}
+            {cta.buttons.map((b, i) =>
+              i === 0 ? (
+                <PrimaryInverseButton to={b.href} key={i}>
+                  {b.label}
+                </PrimaryInverseButton>
+              ) : (
+                <SecondaryInverseButton to={b.href} key={i}>
+                  {b.label}
+                </SecondaryInverseButton>
+              )
+            )}
           </div>
         </div>
       </section>

@@ -5,6 +5,7 @@ import type { CitiesIndexPageData } from "../types/cities-index";
 import { useScrollReveal } from "../lib/useScrollReveal";
 import { toRoute } from "../lib/toRoute";
 import { useCitySearch, WHO, BUDGET, FLIGHT, MOOD, MONTHS, ORIGINS, cardChips, type CityRecord } from "../lib/citySearch";
+import { TaraAI, withTaraAI } from "../components/TaraAI";
 import styles from "./cities-index-page.module.css";
 
 const data = citiesData as unknown as CitiesIndexPageData;
@@ -174,7 +175,9 @@ export default function CitiesIndexPage() {
               {search.results.length === 0 ? (
                 <div className={styles.csEmpty}>
                   <p>Nothing fits all of that. Loosen a filter — or tell your advisor and we&rsquo;ll shortlist by hand.</p>
-                  <Link to="/enquire">Talk to your advisor</Link>
+                  <Link to="/enquire">
+                    Talk to <TaraAI />
+                  </Link>
                 </div>
               ) : (
                 <div className={styles.csGrid}>
@@ -221,7 +224,7 @@ export default function CitiesIndexPage() {
           <div className="btn-row center reveal d2" style={{ marginTop: 28 }}>
             {cta.buttons.map((b, i) => (
               <Link className={i === 0 ? "btn btn-gold" : "btn btn-ghost"} to={toRoute(b.href)} key={i}>
-                {b.label}
+                {withTaraAI(b.label)}
               </Link>
             ))}
           </div>

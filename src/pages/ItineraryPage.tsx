@@ -4,6 +4,7 @@ import itineraries from "../data/itinerary-teasers.generated.json";
 import type { ItineraryData } from "../types/itinerary";
 import { useScrollReveal } from "../lib/useScrollReveal";
 import { toRoute } from "../lib/toRoute";
+import { withTaraAI } from "../components/TaraAI";
 import styles from "./itinerary-page.module.css";
 
 const ITINERARIES = itineraries as unknown as Record<string, ItineraryData>;
@@ -68,7 +69,7 @@ export default function ItineraryPage() {
       <div className={styles.rtNote}>{note}</div>
       <div className={styles.rtCta}>
         <Link className="btn btn-gold btn-square" to={toRoute(cta.href)}>
-          {cta.label}
+          {withTaraAI(cta.label)}
         </Link>
       </div>
     </>

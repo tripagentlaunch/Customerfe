@@ -137,10 +137,10 @@
       }
     ],
     "trust": "Your details stay private. A person reads every enquiry, never a bot.",
-    "submitLabel": "Hand it to my advisor",
+    "submitLabel": "Hand it to Tara AI",
     "emailPrompt": "Rather write to us directly?",
     "emailCta": {
-      "label": "Email your advisor",
+      "label": "Email Tara AI",
       "href": "mailto:maison@tripsure.com"
     }
   },
