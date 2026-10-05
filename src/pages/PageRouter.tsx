@@ -67,6 +67,7 @@ import HomePage from "./HomePage";
 import routes from "../data/routes.generated.json";
 import redirects from "../data/redirects.generated.json";
 import { toRoute } from "../lib/toRoute";
+import { useAuth } from "../lib/auth";
 
 // The 20 old meta-refresh redirect stubs (18 destination-<country>.html
 // that now live under city-<slug>, plus family-stays->family-travel and
@@ -273,6 +274,7 @@ const EXACT_SLUG_PAGES: Record<string, () => JSX.Element> = {
 // template groups.
 export default function PageRouter() {
   const { pageSlug = "" } = useParams<{ pageSlug: string }>();
+  const { member, loading: authLoading } = useAuth();
 
   // SITE-WIDE GATE (2026-09-29, temporary) — the whole site is pre-launch:
   // every route shows the Coming Soon page regardless of pageSlug, not
@@ -292,7 +294,13 @@ export default function PageRouter() {
   // request-access -> admin-approval -> claim flow end to end.
   if (!pageSlug) {
     if (import.meta.env.PROD && import.meta.env.VITE_SHOW_COMING_SOON === "false") {
-      return <RequestAccessPage />;
+      // A visitor who already claimed their invite and is a real site
+      // member sees the real HomePage, not the Request Access form again
+      // — the form is only for brand-new, not-yet-invited visitors.
+      // While auth is still hydrating, hold off rather than flashing the
+      // Request Access form at an already-claimed member.
+      if (authLoading) return null;
+      return member ? <HomePage /> : <RequestAccessPage />;
     }
     if (import.meta.env.PROD) return <ComingSoonPage />;
     return <HomePage />;
