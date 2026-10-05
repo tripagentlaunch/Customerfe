@@ -195,7 +195,18 @@ html.ta-utility-on .nav{top:32px}
 /* (#3) interior left-hero scrim deepened a touch so white text holds over
    bright photography (mobile gets a further boost in the 820px block). */
 .hero.left::after{background:linear-gradient(105deg,rgba(18,11,7,.68) 0%,rgba(18,11,7,.38) 36%,transparent 68%),linear-gradient(180deg,transparent 48%,rgba(18,11,7,.54) 100%)}
-.hero.left .hero-inner{margin:0;max-width:780px;text-align:left}
+/* `margin:0` used to cancel the centering every plain `.wrap` relies on
+   (max-width:var(--maxw); margin:0 auto) — fine up to viewport
+   var(--maxw)+2*var(--gutter), but past that every other `.wrap`-based
+   section on the page picks up extra centering space while this stayed
+   pinned flush left (plus its own `.wrap` padding-left:var(--gutter)),
+   so interior-page heroes drifted out of alignment with their own page's
+   body content on wide screens. margin-left now adds exactly that same
+   extra centering space (never negative, so narrow/mobile viewports are
+   unaffected — this evaluates to 0 there, same as before) on top of the
+   unchanged `.wrap` padding, instead of recreating the gutter itself and
+   double-counting it. */
+.hero.left .hero-inner{margin-left:max(0px,calc((100% - var(--maxw))/2));margin-right:auto;max-width:780px;text-align:left}
 .hero.left .rule{margin-left:0;margin-right:auto}
 .hero.left .btn-row{justify-content:flex-start}
 .hero.left .lede{margin-left:0;margin-right:0}
@@ -1139,7 +1150,11 @@ html.ta-ready body::before{content:"";position:fixed;top:0;left:0;right:0;height
 }
 
 /* 2 — lux theme toggle: a refined segmented pill, sun / moon, active filled ink */
-.ta-theme{position:fixed;left:22px;bottom:22px;z-index:88;display:inline-flex;gap:2px;align-items:center;
+/* left/bottom: same clamp(16px,2.5vw,30px) as .ta-advisor (its bottom/right,
+   see below) — was a plain fixed 22px, which only matched the advisor
+   pill's own responsive offset by coincidence at some viewport widths and
+   visibly diverged from it at others. */
+.ta-theme{position:fixed;left:clamp(16px,2.5vw,30px);bottom:clamp(16px,2.5vw,30px);z-index:88;display:inline-flex;gap:2px;align-items:center;
   background:var(--card);border:1px solid var(--line);border-radius:999px;padding:3px;
   box-shadow:0 14px 34px rgba(22,20,16,.16),0 2px 6px rgba(22,20,16,.06)}
 .ta-theme button{width:38px;height:32px;border-radius:999px;border:0;background:none;cursor:pointer;padding:0;
@@ -1149,7 +1164,7 @@ html.ta-ready body::before{content:"";position:fixed;top:0;left:0;right:0;height
 .ta-theme button::after{display:none!important}      /* kill legacy dot */
 .ta-theme button:hover{color:var(--ink)}
 .ta-theme button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
-@media(max-width:640px){.ta-theme{left:14px;bottom:14px}.ta-theme button{width:34px;height:30px}}
+@media(max-width:640px){.ta-theme button{width:34px;height:30px}}
 
 /* 3 — dark mode made legible: deeper structure + photos that hold their edge */
 :root[data-theme="dark"]{
@@ -1261,7 +1276,11 @@ section.sig::after{background:linear-gradient(180deg,rgba(0,0,0,.46),rgba(0,0,0,
 .cg-cred-lo{color:var(--stone);border-color:var(--line)}
 .cg-list li .cg-creds+.ds{margin-top:8px}
 .cg-list li.cg-hide{display:none}
-.cg-tier.cg-more-open .cg-list li.cg-hide{display:block}
+/* Removed 2026-09-28: this made ALL hidden items visible once a tier
+   was "open", which conflicted with CityPage.tsx's new true-pagination
+   behavior (cg-hide is now set per-item based on the current page, not
+   a single open/closed flag — this override was unconditionally
+   re-showing every hidden item regardless of page). */
 .cg-more{margin-top:20px;font-family:var(--fr);font-weight:600;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--signature);background:none;border:0;padding:6px 0;cursor:pointer;transition:opacity .2s var(--ease,ease)}
 .cg-more:hover{opacity:.66}
 .cg-tier.cg-more-open .cg-more{color:var(--stone)}
@@ -2770,9 +2789,9 @@ body:has(.nav.menu-open) .ta-advisor{display:none}
    THE SHELL — interactive-commerce header (2026-07-07)
    Existing tokens only; sticky/in-flow; dark-mode automatic.
    ============================================================ */
-.ta-hd{position:fixed;top:0;left:0;right:0;z-index:200;background:var(--paper);border-bottom:1px solid var(--line);font-family:var(--fr);transform:translateY(-100%);transition:transform .35s cubic-bezier(.4,0,.2,1)}
+.ta-hd{position:fixed;top:0;left:0;right:0;z-index:200;background:var(--paper);border-bottom:1px solid var(--line);font-family:var(--fr);transform:translateY(-100%);transition:transform .35s cubic-bezier(.4,0,.2,1) .15s}
 .ta-hd.ta-hd-visible{transform:translateY(0)}
-.ta-hd-edge{position:fixed;top:0;left:0;right:0;height:10px;z-index:199}
+.ta-hd-edge{position:fixed;top:0;left:0;right:0;height:84px;z-index:199}
 .ta-hd-top{display:flex;align-items:center;gap:clamp(16px,2.4vw,30px);padding:0 var(--gutter);height:64px}
 .ta-hd-brand{display:flex;align-items:center;gap:9px;font-family:var(--logo);font-weight:500;font-size:19px;letter-spacing:.01em;color:var(--ink);text-decoration:none;flex:none}
 .ta-hd-brand .mk g{stroke:var(--ink)}
@@ -2784,6 +2803,8 @@ body:has(.nav.menu-open) .ta-advisor{display:none}
 .ta-hd-year,.ta-hd-adv{font-size:13px;color:var(--stone);text-decoration:none;white-space:nowrap;letter-spacing:.01em}
 .ta-hd-year:hover,.ta-hd-adv:hover{color:var(--ink)}
 .ta-hd-adv{color:var(--signature)}
+.ta-hd-refer{display:inline-flex;align-items:center;border:1px solid var(--signature);background:none;font-family:var(--logo);font-weight:400;font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--signature);padding:9px 14px;white-space:nowrap;text-decoration:none;transition:background .2s,color .2s}
+.ta-hd-refer:hover{background:var(--signature);color:#fff}
 .ta-hd-trip{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--ink);background:none;font-family:var(--logo);font-weight:400;font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink);padding:9px 14px;cursor:pointer;white-space:nowrap;transition:background .2s,color .2s}
 .ta-hd-trip:hover{background:var(--ink);color:var(--paper)}
 .ta-hd-trip .dia{color:var(--signature);font-size:9px}
@@ -2842,6 +2863,17 @@ body:has(.nav.menu-open) .ta-advisor{display:none}
 .ta-cart-empty .sub{font-family:var(--fr);font-style:normal;font-size:13.5px;color:var(--stone);margin-top:10px;line-height:1.6}
 .ta-cart-empty-a{display:flex;flex-direction:column;gap:9px;margin-top:22px}
 .ta-cart-empty-a .go{text-decoration:none;font-family:var(--logo);font-size:12px;letter-spacing:.06em;text-transform:uppercase;padding:12px;border:1px solid var(--line);color:var(--ink)}
+/* Profile sidebar links — plain text buttons with the same hover underline
+   as the hero's "How it works" (HeroCarousel.module.css's .heroCtaTertiary):
+   a currentColor gradient whose background-size animates 0 -> 100%. */
+.ta-prof-links{display:flex;flex-direction:column;align-items:flex-start;gap:4px;padding:22px 24px}
+.ta-prof-link{display:inline-flex;align-items:center;gap:10px;background:none;border:0;cursor:pointer;text-decoration:none;font-family:var(--fr);font-weight:500;font-size:13px;letter-spacing:.15em;text-transform:uppercase;color:var(--ink);padding:14px 0;background-image:linear-gradient(currentColor,currentColor);background-size:0 1px;background-position:0 100%;background-repeat:no-repeat;transition:background-size .35s var(--ease)}
+.ta-prof-link:hover{background-size:100% 1px}
+.ta-prof-link::after{content:"\2192"}
+.ta-prof-link .ct{background:var(--signature);color:#fff;font-family:var(--fr);font-size:10.5px;font-weight:600;letter-spacing:0;min-width:17px;height:17px;border-radius:9px;display:inline-flex;align-items:center;justify-content:center;padding:0 5px}
+.ta-prof-link .ct[hidden]{display:none}
+.ta-prof-foot{margin-top:auto;padding:6px 24px 18px;border-top:1px solid var(--line-soft)}
+.ta-prof-out::after{content:none}
 .ta-cart-foot{padding:16px 24px 22px;border-top:1px solid var(--line-soft);display:flex;flex-direction:column;gap:9px}
 .ta-cart-foot a{text-align:center;text-decoration:none;font-family:var(--logo);font-size:12px;letter-spacing:.08em;text-transform:uppercase;padding:13px}
 .ta-cart-foot .hand{background:var(--signature);color:#fff}
@@ -2851,7 +2883,7 @@ body:has(.nav.menu-open) .ta-advisor{display:none}
 /* mobile */
 @media(max-width:900px){
   .ta-hd-search .ph{font-size:13px}
-  .ta-hd-year,.ta-hd-adv{display:none}
+  .ta-hd-year,.ta-hd-adv,.ta-hd-refer{display:none}
   .ta-hd-burger{display:inline-flex}
   .ta-hd-nav{position:fixed;top:0;left:0;right:0;bottom:0;height:auto;flex-direction:column;align-items:stretch;justify-content:center;gap:0;background:var(--paper);padding:80px var(--gutter) 40px;transform:translateY(-100%);opacity:0;pointer-events:none;transition:transform .3s,opacity .3s;z-index:250;border-top:0;overflow:auto}
   .ta-hd.menu-open .ta-hd-nav{transform:none;opacity:1;pointer-events:auto}
@@ -2941,6 +2973,30 @@ body:has(.ta-cart.on) .ta-advisor, body:has(.ta-cart.on) .ta-theme{opacity:0;poi
   .ta-feat-cap{padding:14px}
   .ta-feat-cap .fn{font-size:18px}
   .ta-mega-foot{flex-direction:column;gap:14px}
+}
+
+/* ===== Explore mega: one photo tile + category columns of text links ===== */
+.ta-explore{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);background:var(--paper)}
+.ta-explore-links{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px 40px;align-content:center;padding:28px clamp(24px,4vw,64px)}
+.ta-explore-col{display:flex;flex-direction:column;gap:12px}
+.ta-explore-col .ll{font-family:var(--logo);font-weight:500;font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--stone);margin-bottom:6px}
+.ta-explore-col a{font-family:var(--logo);font-weight:300;font-size:14.5px;color:var(--ink);text-decoration:none}
+.ta-explore-col a:hover{color:var(--signature)}
+@media(max-width:900px){
+  .ta-explore{grid-template-columns:1fr}
+  .ta-explore-links{grid-template-columns:1fr 1fr;padding:22px var(--gutter)}
+}
+
+/* ===== Single-row header (desktop): Explore directly before search, both beside Profile =====
+   The old second bar (.ta-hd-nav) is gone — its only remaining tab, Explore,
+   now sits in the top row. The tab stretches the full bar height so the
+   pointer never crosses a dead gap between it and the panel below. */
+@media(min-width:901px){
+  .ta-hd-nav{align-self:stretch;align-items:stretch;height:auto;border-top:0;padding:0;gap:0;margin-left:auto}
+  .ta-hd-nav .ta-room{display:flex;align-items:stretch}
+  .ta-hd-nav .ta-room>.ta-room-t{padding:0 4px}
+  .ta-hd-search{flex:0 1 460px}
+  .ta-hd-cluster{margin-left:0}
 }
 
 /* ===== Full-bleed mega (desktop): panel spans the viewport, tiles edge-to-edge ===== */

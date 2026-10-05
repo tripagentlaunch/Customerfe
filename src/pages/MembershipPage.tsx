@@ -4,6 +4,7 @@ import membershipData from "../data/membership-page.generated.json";
 import type { MembershipPageData } from "../types/membership-page";
 import { useScrollReveal } from "../lib/useScrollReveal";
 import { toRoute } from "../lib/toRoute";
+import { PrimaryInverseButton } from "../components/buttons/InverseButtons";
 import styles from "./membership-page.module.css";
 
 const data = membershipData as unknown as MembershipPageData;
@@ -168,9 +169,9 @@ export default function MembershipPage() {
           </p>
           <div className="btn-row center reveal d3">
             {cta.buttons.map((b, i) => (
-              <Link className="btn btn-gold" to={toRoute(b.href)} key={i}>
+              <PrimaryInverseButton to={b.href} key={i}>
                 {b.label}
-              </Link>
+              </PrimaryInverseButton>
             ))}
           </div>
         </div>

@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import exoticData from "../data/exotic-page.generated.json";
 import type { ExoticPageData, ExoticSpot } from "../types/exotic-page";
 import { useScrollReveal } from "../lib/useScrollReveal";
+import { TaraAI } from "../components/TaraAI";
 import styles from "./exotic-page.module.css";
 
 const data = exoticData as unknown as ExoticPageData;
@@ -46,7 +47,7 @@ function Card({ s }: { s: ExoticSpot }) {
           ))}
       </dl>
       <Link className={styles.exCta} to={advisorHref(s.name)}>
-        Have your advisor plan it →
+        Have <TaraAI /> plan it →
       </Link>
     </article>
   );

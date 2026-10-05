@@ -234,7 +234,9 @@
   }
 }
 .decCard {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  min-height: 320px;
   text-decoration: none;
   color: inherit;
   background: var(--paper, #fff);
@@ -268,15 +270,30 @@
   font-size: 14px;
   line-height: 1.55;
   color: var(--ink-soft, #4a453d);
-  margin: 0;
+  margin: 0 0 14px;
 }
+/* Pinned to the card's bottom edge (`margin-top: auto` in the flex column
+   above) so the three cards' links line up regardless of how many lines
+   each heading/body wraps to. Underline reveals on hover with the same
+   mechanism as the hero's "How it works" link (.heroCtaTertiary): a
+   currentColor gradient whose background-size animates 0 → 100%, spanning
+   the label and its arrow together. */
 .decCard .go {
   font-family: var(--fr);
   font-weight: 600;
   font-size: 13px;
   color: var(--accent-2);
-  margin-top: 14px;
-  display: inline-block;
+  margin-top: auto;
+  align-self: flex-start;
+  padding: 6px 0;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-size: 0 1px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.35s var(--ease);
+}
+.decCard:hover .go {
+  background-size: 100% 1px;
 }
 .decCard .go::after {
   content: " →";
@@ -408,8 +425,71 @@
   }
 }
 
+.mapIntro {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: clamp(24px, 4vw, 60px);
+  flex-wrap: wrap;
+}
+.mapHeading {
+  max-width: 20ch;
+}
+.mapHeading em {
+  font-style: italic;
+  color: var(--signature);
+}
+.mapSub {
+  font-family: var(--fr);
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--ink-soft);
+  margin-top: 16px;
+  max-width: 44ch;
+}
+.mapStats {
+  display: flex;
+  gap: clamp(20px, 3vw, 44px);
+  margin: 0;
+  flex: none;
+}
+.mapStats > div {
+  text-align: left;
+}
+.mapStats dt {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: clamp(22px, 2.4vw, 30px);
+  color: var(--ink);
+  line-height: 1;
+}
+.mapStats dd {
+  margin: 6px 0 0;
+  font-family: var(--fr);
+  font-weight: 600;
+  font-size: 10.5px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--stone);
+}
+@media (max-width: 700px) {
+  .mapIntro {
+    align-items: flex-start;
+  }
+  .mapStats {
+    gap: 18px;
+  }
+  .mapStats dt {
+    font-size: 20px;
+  }
+  .mapStats dd {
+    font-size: 9.5px;
+    letter-spacing: 0.1em;
+  }
+}
+
 .worldMapWrap {
-  margin-top: 44px;
+  margin-top: 24px;
   /* Full-bleed: break out of whatever centered/padded ancestor would
      otherwise constrain it (this section's own children aren't wrapped in
      `.wrap` for this element, but keep the same escape here in case that

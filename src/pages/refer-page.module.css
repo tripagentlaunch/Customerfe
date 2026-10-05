@@ -1,0 +1,447 @@
+/* /refer — premium luxury travel "Refer a friend" page. Light/ivory
+ * editorial composition (paper background, burgundy signature accent),
+ * same two-column hero-aside + glass-ish form-panel shape as
+ * RequestAccessPage.tsx's own module, but without a video background —
+ * this route keeps the shared global Header (Layout.tsx does NOT suppress
+ * it here), so .rfRoot is a plain content section, not a full-bleed hero.
+ * Design tokens reused from src/css/site.css (--serif/--signature/--stone/
+ * --line/etc.) rather than hardcoding a parallel palette.
+ */
+
+.rfRoot {
+  position: relative;
+  background: #faf8f4;
+  padding: clamp(56px, 8vh, 96px) 0 clamp(64px, 9vh, 110px);
+}
+
+.rfWrap {
+  display: grid;
+  grid-template-columns: 1fr minmax(480px, 560px);
+  gap: clamp(56px, 6vw, 104px);
+  align-items: start;
+}
+
+/* ---------- left: story ---------- */
+.rfEyebrow {
+  font-family: var(--eyebrow);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--signature, #6f2035);
+  margin-bottom: 18px;
+}
+
+.rfHeading {
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: clamp(40px, 4.4vw, 62px);
+  line-height: 1.04;
+  color: var(--ink);
+  margin: 0 0 20px;
+}
+
+.rfHeading .it {
+  font-style: italic;
+  color: var(--signature, #6f2035);
+}
+
+.rfLede {
+  font-size: 17px;
+  line-height: 1.62;
+  color: var(--stone);
+  max-width: 52ch;
+  margin: 0 0 32px;
+}
+
+/* ---------- benefits row ---------- */
+.benefits {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 40px;
+}
+
+.benefitItem {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 14.5px;
+  color: var(--ink-soft);
+}
+
+.benefitIcon {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: rgba(111, 32, 53, 0.07);
+  color: var(--signature, #6f2035);
+}
+
+/* ---------- collage ---------- */
+.collage {
+  position: relative;
+  width: 100%;
+  max-width: 460px;
+  height: 270px;
+  margin-bottom: 28px;
+}
+
+.collagePhoto {
+  position: absolute;
+  object-fit: cover;
+  border-radius: 2px;
+  border: 5px solid #fff;
+  box-shadow: 0 16px 36px rgba(31, 29, 27, 0.14);
+  background: #e5ded5;
+}
+
+.collagePhoto:nth-child(1) {
+  width: 168px;
+  height: 204px;
+  left: 0;
+  top: 4px;
+  transform: rotate(-4deg);
+  z-index: 3;
+}
+
+.collagePhoto:nth-child(2) {
+  width: 138px;
+  height: 162px;
+  left: 142px;
+  top: 92px;
+  transform: rotate(3deg);
+  z-index: 4;
+}
+
+.collagePhoto:nth-child(3) {
+  width: 172px;
+  height: 134px;
+  left: 264px;
+  top: 0;
+  transform: rotate(-2deg);
+  z-index: 2;
+}
+
+.collagePhoto:nth-child(4) {
+  width: 138px;
+  height: 158px;
+  left: 320px;
+  top: 128px;
+  transform: rotate(5deg);
+  z-index: 3;
+}
+
+.accentQuote {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 19px;
+  line-height: 1.32;
+  color: var(--ink-soft);
+  max-width: 220px;
+}
+
+/* ---------- right: form panel ---------- */
+.form {
+  position: relative;
+  width: 100%;
+  padding: clamp(38px, 4vw, 50px);
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid #e5ded5;
+  border-radius: 20px;
+  box-shadow: 0 18px 48px rgba(31, 29, 27, 0.06);
+}
+
+.form.sent .formBody {
+  display: none;
+}
+
+.formEyebrow {
+  font-family: var(--eyebrow);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--signature, #6f2035);
+  margin-bottom: 12px;
+}
+
+.formHeading {
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1.18;
+  color: var(--ink);
+  margin: 0 0 10px;
+}
+
+.formSub {
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--stone);
+  margin-bottom: 26px;
+  max-width: 44ch;
+}
+
+:global(.rf-field) {
+  margin-bottom: 20px;
+}
+
+:global(.rf-field) label {
+  display: block;
+  font-family: var(--eyebrow);
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  margin-bottom: 9px;
+}
+
+:global(.rf-field) input,
+:global(.rf-field) select {
+  width: 100%;
+  background: #fff;
+  border: 1px solid #e5ded5;
+  border-radius: 8px;
+  padding: 12px 15px;
+  font-family: var(--sans);
+  font-size: 15px;
+  color: var(--ink);
+  transition: border-color 0.25s var(--ease), box-shadow 0.25s var(--ease);
+  appearance: none;
+}
+
+:global(.rf-field) input:focus,
+:global(.rf-field) select:focus {
+  outline: none;
+  border-color: var(--signature, #6f2035);
+  box-shadow: 0 0 0 3px rgba(111, 32, 53, 0.08);
+}
+
+:global(.rf-field) input::placeholder {
+  color: #a39c92;
+}
+
+.phoneRow {
+  display: grid;
+  grid-template-columns: 96px 1fr;
+  gap: 10px;
+}
+
+.phoneRow select {
+  padding-left: 12px;
+  padding-right: 28px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%236F2035' stroke-width='1.6'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+  background-size: 14px 14px;
+}
+
+.fieldErr {
+  min-height: 16px;
+  margin-top: 7px;
+  font-size: 12px;
+  color: #a1332b;
+}
+
+.rewardPanel {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  background: rgba(185, 154, 99, 0.1);
+  border: 1px solid rgba(185, 154, 99, 0.28);
+  border-radius: 10px;
+  padding: 14px 16px;
+  margin: 4px 0 24px;
+}
+
+.rewardIcon {
+  flex: 0 0 auto;
+  color: var(--signature, #6f2035);
+  margin-top: 1px;
+}
+
+.rewardText {
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--ink-soft);
+}
+
+.submitBtn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: var(--signature, #6f2035) !important;
+  border-color: var(--signature, #6f2035) !important;
+  color: #fff !important;
+  letter-spacing: 0.14em;
+  transition: background-color 0.3s var(--ease), transform 0.3s var(--ease);
+}
+
+.submitBtn:hover:not(:disabled) {
+  background: #591829 !important;
+  transform: translateY(-1px);
+}
+
+.arrow {
+  display: inline-block;
+  transition: transform 0.3s var(--ease);
+}
+
+.submitBtn:hover:not(:disabled) .arrow {
+  transform: translateX(3px);
+}
+
+/* ---------- sign-in gate (existing auth requirement, unstyled panel
+   restyled into this page's own premium look — the underlying gating
+   itself is unchanged from before this redesign) ---------- */
+.signinPanel {
+  text-align: center;
+  padding: 12px 0 4px;
+}
+
+.signinPanel h3 {
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: 24px;
+  color: var(--ink);
+  margin: 0 0 8px;
+}
+
+.signinPanel p {
+  font-size: 14px;
+  color: var(--stone);
+  margin: 0 0 22px;
+}
+
+/* ---------- success state ---------- */
+.thanks {
+  display: none;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.thanks.show {
+  display: block;
+  animation: rfFade 0.7s var(--ease) both;
+}
+
+.thanksIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  margin: 0 auto 18px;
+  border-radius: 50%;
+  background: rgba(111, 32, 53, 0.08);
+  color: var(--signature, #6f2035);
+}
+
+.thanksHeading {
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: 28px;
+  color: var(--ink);
+  margin: 0 0 12px;
+}
+
+.thanksBody {
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--stone);
+  margin: 0 auto 26px;
+  max-width: 38ch;
+}
+
+.resetBtn {
+  background: transparent !important;
+  border: 1px solid var(--signature, #6f2035) !important;
+  color: var(--signature, #6f2035) !important;
+  letter-spacing: 0.14em;
+}
+
+.resetBtn:hover {
+  background: rgba(111, 32, 53, 0.06) !important;
+}
+
+@keyframes rfFade {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* ---------- responsive ---------- */
+@media (max-width: 1080px) {
+  .collage {
+    height: 220px;
+  }
+  .collagePhoto:nth-child(4) {
+    display: none;
+  }
+}
+
+@media (max-width: 960px) {
+  .rfWrap {
+    display: block;
+  }
+  .rfAside {
+    margin-bottom: 44px;
+  }
+  .accentQuote {
+    display: none;
+  }
+  .form {
+    max-width: 560px;
+  }
+}
+
+@media (max-width: 600px) {
+  .rfRoot {
+    padding: 40px 0 56px;
+  }
+  .form {
+    padding: 32px 24px;
+    border-radius: 14px;
+  }
+  .collage {
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    max-width: none;
+  }
+  .collagePhoto {
+    position: static;
+    width: 100% !important;
+    height: 130px !important;
+    transform: none !important;
+  }
+  .collagePhoto:nth-child(4) {
+    display: block;
+  }
+  .phoneRow {
+    grid-template-columns: 84px 1fr;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .thanks.show {
+    animation: none;
+  }
+  .submitBtn:hover:not(:disabled) {
+    transform: none;
+  }
+}

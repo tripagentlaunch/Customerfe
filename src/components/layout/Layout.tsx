@@ -4,12 +4,14 @@ import { Header } from "./Header";
 import { Footer } from "./Footer";
 import { ThemeToggle } from "./ThemeToggle";
 import { TripDrawer } from "./TripDrawer";
+import { ProfileDrawer } from "./ProfileDrawer";
 import { AdvisorButton } from "./AdvisorButton";
 import { MobileTabbar } from "./MobileTabbar";
 import { SignInModal } from "./SignInModal";
 import { NavVariantProvider } from "../../lib/navVariant";
 import { NavMenuProvider } from "../../lib/navMenu";
 import { TripDrawerProvider } from "../../lib/tripDrawer";
+import { ProfileDrawerProvider } from "../../lib/profileDrawer";
 import { SignInModalProvider } from "../../lib/signInModal";
 
 // concierge.html is full-screen, chat-only — no site chrome (nav/tab-bar/
@@ -19,9 +21,20 @@ import { SignInModalProvider } from "../../lib/signInModal";
 // viewport) since Layout renders the same chrome on every other route.
 const FULLSCREEN_CHAT_PATHS = new Set(["/concierge"]);
 
+// request-access.html is a cold, unauthenticated lead form — direct
+// request to drop the site's global mega-menu Header on this route (its
+// own page-local minimal nav — RequestAccessPage.tsx — replaces it
+// instead), while everything else (footer/tab-bar/trip-drawer/theme
+// toggle) stays exactly as on every other page. The floating "Talk to
+// your advisor" button was dropped here too in an earlier pass but is
+// wanted back (2026-09-24 direct request) — re-enabled below, so only
+// Header is still suppressed on this route.
+const NO_HEADER_PATHS = new Set(["/request-access"]);
+
 export function Layout() {
   const { pathname } = useLocation();
   const isFullscreenChat = FULLSCREEN_CHAT_PATHS.has(pathname);
+  const hideHeader = NO_HEADER_PATHS.has(pathname);
 
   // js/shell.js sets this on <html> once the shell header is built; several
   // mobile (<900px) rules in css/site.css key off it — bottom padding for
@@ -71,8 +84,9 @@ export function Layout() {
     <NavVariantProvider>
       <NavMenuProvider>
         <TripDrawerProvider>
+          <ProfileDrawerProvider>
           <SignInModalProvider>
-            {!isFullscreenChat && <Header />}
+            {!isFullscreenChat && !hideHeader && <Header />}
             <main id="content" style={isFullscreenChat ? { height: "100dvh", display: "flex" } : undefined}>
               <Outlet />
             </main>
@@ -81,12 +95,14 @@ export function Layout() {
                 <Footer />
                 <ThemeToggle />
                 <AdvisorButton />
+                <ProfileDrawer />
                 <TripDrawer />
                 <MobileTabbar />
               </>
             )}
             <SignInModal />
           </SignInModalProvider>
+          </ProfileDrawerProvider>
         </TripDrawerProvider>
       </NavMenuProvider>
     </NavVariantProvider>

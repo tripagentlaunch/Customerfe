@@ -1,9 +1,9 @@
 import { useEffect } from "react";
-import { Link } from "react-router-dom";
 import helpData from "../data/help-page.generated.json";
 import type { HelpPageData } from "../types/help-page";
 import { useScrollReveal } from "../lib/useScrollReveal";
-import { toRoute } from "../lib/toRoute";
+import { PrimaryInverseButton, SecondaryInverseButton } from "../components/buttons/InverseButtons";
+import { withTaraAI } from "../components/TaraAI";
 import styles from "./help-page.module.css";
 
 const data = helpData as unknown as HelpPageData;
@@ -69,11 +69,17 @@ export default function HelpPage() {
             {cta.lede}
           </p>
           <div className="btn-row center reveal d3">
-            {cta.buttons.map((b, i) => (
-              <Link className={i === 0 ? "btn btn-gold" : "btn btn-ghost on-dark"} to={toRoute(b.href)} key={i}>
-                {b.label}
-              </Link>
-            ))}
+            {cta.buttons.map((b, i) =>
+              i === 0 ? (
+                <PrimaryInverseButton to={b.href} key={i}>
+                  {withTaraAI(b.label)}
+                </PrimaryInverseButton>
+              ) : (
+                <SecondaryInverseButton to={b.href} key={i}>
+                  {withTaraAI(b.label)}
+                </SecondaryInverseButton>
+              )
+            )}
           </div>
         </div>
       </section>

@@ -12,11 +12,11 @@
         "lede": "One person who knows you, and knows travel. They plan it, book it and stay with it \u2014 flights, hotels, visas \u2014 until you are home.",
         "ctaLinks": [
           {
-            "label": "Plan your trip",
-            "href": "enquire.html"
+            "label": "Browse Destinations",
+            "href": "destinations.html"
           },
           {
-            "label": "Ask your advisor",
+            "label": "Ask Tara AI",
             "href": "concierge.html"
           },
           {
@@ -38,11 +38,11 @@
         "lede": "Your advisor holds the seat, settles the fare, arranges the upgrade \u2014 quietly. The long flight becomes the part you look forward to.",
         "ctaLinks": [
           {
-            "label": "Plan your trip",
-            "href": "enquire.html"
+            "label": "Browse Destinations",
+            "href": "destinations.html"
           },
           {
-            "label": "Ask your advisor",
+            "label": "Ask Tara AI",
             "href": "concierge.html"
           },
           {
@@ -64,11 +64,11 @@
         "lede": "The suite you prefer, the floor you ask for, the welcome already arranged \u2014 booked by someone the house knows by name.",
         "ctaLinks": [
           {
-            "label": "Plan your trip",
-            "href": "enquire.html"
+            "label": "Browse Destinations",
+            "href": "destinations.html"
           },
           {
-            "label": "Ask your advisor",
+            "label": "Ask Tara AI",
             "href": "concierge.html"
           },
           {
@@ -90,11 +90,11 @@
         "lede": "From the first idea to the last mile \u2014 visas, changes, the 2 a.m. call from abroad. One advisor, the whole way.",
         "ctaLinks": [
           {
-            "label": "Plan your trip",
-            "href": "enquire.html"
+            "label": "Browse Destinations",
+            "href": "destinations.html"
           },
           {
-            "label": "Ask your advisor",
+            "label": "Ask Tara AI",
             "href": "concierge.html"
           },
           {
@@ -125,7 +125,7 @@
   "decide": {
     "eyebrow": "Or explore another way",
     "headingHtml": "Three more ways to <span class=\"it\">decide.</span>",
-    "lede": "Start from a feeling, weigh two places against each other, or let the calendar choose the moment \u2014 whichever is how your mind is working today.",
+    "lede": "Start from a feeling, answer five questions, or let the calendar choose the moment \u2014 whichever is how your mind is working today.",
     "cards": [
       {
         "kicker": "Browse",
@@ -135,11 +135,11 @@
         "href": "collections.html"
       },
       {
-        "kicker": "Compare",
-        "heading": "Two places, side by side",
-        "body": "Budget, flight time, visa and the best months \u2014 settle it in one look.",
-        "goLabel": "Compare places",
-        "href": "compare.html"
+        "kicker": "Match",
+        "heading": "Five questions, one answer",
+        "body": "Tell us when you are free, who is travelling and the mood \u2014 we will show you where.",
+        "goLabel": "Answer five questions",
+        "href": "where-to-go.html"
       },
       {
         "kicker": "Time it",
@@ -1431,7 +1431,7 @@
         "ctaHref": "flights.html"
       },
       {
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fbali.jpg&w=2048&q=80",
+        "image": "/_vercel/image?url=%2Fimg%2Fh%2Fhotels-new.jpg&w=2048&q=80",
         "number": "02",
         "heading": "Hotels",
         "body": "From the right room to the whole villa \u2014 booked at rates and with touches you won't find yourself.",
@@ -1773,6 +1773,6 @@
     "lede": "A private travel maison, offered by invitation. If you hold one, you are already expected.",
     "primaryLabel": "Enter your invitation",
     "primaryHref": "invitation.html",
-    "secondaryLabel": "Speak with your advisor"
+    "secondaryLabel": "Speak with Tara AI"
   }
 }

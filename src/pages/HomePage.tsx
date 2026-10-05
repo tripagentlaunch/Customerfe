@@ -6,8 +6,10 @@ import { useScrollReveal } from "../lib/useScrollReveal";
 import { toRoute } from "../lib/toRoute";
 import HeroCarousel from "../components/HeroCarousel";
 import DestinationPlanner from "../components/DestinationPlanner";
-import WorldMap from "../components/WorldMap";
+import StickyWorldMap from "../components/StickyWorldMap";
 import HowItWorksTabs from "../components/HowItWorksTabs";
+import { PrimaryInverseButton } from "../components/buttons/InverseButtons";
+import { withTaraAI } from "../components/TaraAI";
 // import ConciergeChatDemo from "../components/ConciergeChatDemo"; — shelved with the HOW IT WORKS section below, not deleted
 import styles from "./home-page.module.css";
 
@@ -41,7 +43,7 @@ export default function HomePage() {
   // `who` ("Who it's for"), `shift` ("The shift"), `problem` ("The world
   // today"), `way` ("What we did"), and `membership` were all removed from
   // the homepage per request — sections and data references alike.
-  const { discover, decide, planner, services, trips, testimonials, finalCta } = data;
+  const { discover, decide, planner, services, testimonials, finalCta } = data;
   // `howItWorks` and `stats`/`signature` (data.howItWorks/.stats/.signature) are unused while their sections below are shelved — restore these destructures alongside them.
 
   // ---------------- Discover: "Continue planning" rail ----------------
@@ -131,15 +133,37 @@ export default function HomePage() {
           only add vertical padding, no horizontal, so a direct child here
           already spans edge-to-edge with no extra work). */}
       <section className="band tight">
-        <div className="wrap">
-          <div className="eyebrow reveal">Where we go</div>
-          <div className="rule" />
-          <h2 className="reveal d1" style={{ maxWidth: "20ch" }}>
-            The world, within reach.
-          </h2>
-        </div>
-        <div className={`reveal d2 ${styles.worldMapWrap}`}>
-          <WorldMap />
+        <div className={styles.worldMapWrap}>
+          <StickyWorldMap>
+            <div className="wrap">
+              <div className={styles.mapIntro}>
+                <div>
+                  <div className="eyebrow reveal">Where we go</div>
+                  <div className="rule" />
+                  <h2 className={`reveal d1 ${styles.mapHeading}`}>
+                    The world, within <em>reach.</em>
+                  </h2>
+                  <p className={`reveal d1 ${styles.mapSub}`}>
+                    Explore extraordinary destinations and start planning your next journey with our expert advisors.
+                  </p>
+                </div>
+                <dl className={`reveal d2 ${styles.mapStats}`}>
+                  <div>
+                    <dt>100+</dt>
+                    <dd>Destinations</dd>
+                  </div>
+                  <div>
+                    <dt>50+</dt>
+                    <dd>Expert advisors</dd>
+                  </div>
+                  <div>
+                    <dt>24/7</dt>
+                    <dd>Personal support</dd>
+                  </div>
+                </dl>
+              </div>
+            </div>
+          </StickyWorldMap>
         </div>
       </section>
 
@@ -176,13 +200,6 @@ export default function HomePage() {
                 <span className={styles.go}>{card.goLabel}</span>
               </Link>
             ))}
-          </div>
-
-          <div className={`${styles.discPaths} reveal d1`}>
-            <Link className={styles.discRec} to={toRoute(discover.recommenderHref)}>
-              <span className={styles.drLead}>{discover.recommenderLead}</span>{" "}
-              <span dangerouslySetInnerHTML={{ __html: discover.recommenderRestHtml ?? "" }} />
-            </Link>
           </div>
 
           {continueChips.length > 0 && (
@@ -224,9 +241,6 @@ export default function HomePage() {
                 <div className="pic" style={{ backgroundImage: `url('${card.image}')` }} />
                 <h3 style={{ marginTop: 22 }}>{card.heading}</h3>
                 <p>{card.body}</p>
-                <Link className="cta" to={toRoute(card.ctaHref)} style={{ marginTop: 22, marginBottom: 26, display: "inline-block" }}>
-                  {card.ctaLabel}
-                </Link>
               </div>
             ))}
           </div>
@@ -338,33 +352,6 @@ export default function HomePage() {
       </section>
       */}
 
-      {/* TRIPS GALLERY */}
-      <section className="band tight">
-        <div className="wrap">
-          <div className="reveal" style={{ display: "flex", flexWrap: "wrap", alignItems: "flex-end", justifyContent: "space-between", gap: "14px 40px" }}>
-            <div>
-              <div className="eyebrow">{trips.eyebrow}</div>
-              <h2 style={{ marginTop: 14 }}>{trips.heading}</h2>
-            </div>
-            <Link className="cta" to={toRoute(trips.allHref)} style={{ whiteSpace: "nowrap", paddingBottom: 6 }}>
-              {trips.allLabel}
-            </Link>
-          </div>
-        </div>
-        <div className={styles.tripsViewport}>
-          <div className="trips-row reveal d2">
-            {trips.items.map((t, i) => (
-              <div className="trip" style={{ backgroundImage: `url('${t.image}')` }} key={i}>
-                <div className="cap">
-                  <div className="pl">{t.place}</div>
-                  <div className="d">{t.description}</div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* TESTIMONIALS — source marks this copy as placeholder pending real
           member quotes before launch (testimonials.placeholder === true in
           homepage.generated.json); same "known placeholder, not a content
@@ -403,15 +390,13 @@ export default function HomePage() {
           </svg>
           <h2 className="reveal d1" style={{ fontSize: "clamp(34px,5vw,72px)", marginBottom: 30 }} dangerouslySetInnerHTML={{ __html: finalCta.headingHtml ?? "" }} />
           <div className="btn-row center reveal d3">
-            {WHATSAPP_NUMBER ? (
-              <a className="btn btn-gold on-dark" href={ADVISOR_HREF} target="_blank" rel="noopener noreferrer">
-                {finalCta.secondaryLabel}
-              </a>
-            ) : (
-              <Link className="btn btn-gold on-dark" to={ADVISOR_HREF}>
-                {finalCta.secondaryLabel}
-              </Link>
-            )}
+            <PrimaryInverseButton
+              to={ADVISOR_HREF}
+              target={WHATSAPP_NUMBER ? "_blank" : undefined}
+              rel={WHATSAPP_NUMBER ? "noopener noreferrer" : undefined}
+            >
+              {withTaraAI(finalCta.secondaryLabel)}
+            </PrimaryInverseButton>
           </div>
         </div>
       </section>

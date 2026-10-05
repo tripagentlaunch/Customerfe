@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import { supabase } from "../lib/supabaseClient";
 import type { SiteMemberRow, SiteSavedItemRow } from "../lib/database.types";
 import { useAuth } from "../lib/auth";
+import { TaraAI } from "./TaraAI";
 
 // React port of js/account.js's renderMyYear() (docs/ACCOUNTS-CALENDAR-ARCH.md
 // §4.3, H4) — the personal 12-month calendar. Unlike the legacy version,
@@ -57,7 +58,15 @@ function DaySheet({
         <div className="my-sheet-items">
           {items.map((x) => {
             const bookable = x.kind === "hotel" || x.kind === "flight" || x.kind === "visa";
-            const verb = bookable ? "Have your advisor book this" : "Ask your advisor to arrange this";
+            const verb = bookable ? (
+              <>
+                Have <TaraAI /> book this
+              </>
+            ) : (
+              <>
+                Ask <TaraAI /> to arrange this
+              </>
+            );
             const msg = `Hello — regarding ${x.title}${x.city_label ? ` in ${x.city_label}` : ""} on ${label}. Could your advisor help?`;
             return (
               <div className="my-sheet-row" key={x.id}>
@@ -343,7 +352,7 @@ export default function MyYearCalendar({ member }: { member: SiteMemberRow }) {
 
             <div className="my-foot">
               <a className="btn btn-ghost btn-square" href={handoff(advMsg)} target={WA ? "_blank" : undefined} rel={WA ? "noopener" : undefined}>
-                Talk to your advisor about your year →
+                Talk to <TaraAI /> about your year →
               </a>
             </div>
           </>

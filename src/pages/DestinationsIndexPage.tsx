@@ -6,6 +6,7 @@ import zonesData from "../data/zones.json";
 import type { DestinationsIndexPageData } from "../types/destinations-index";
 import { useScrollReveal } from "../lib/useScrollReveal";
 import { toRoute } from "../lib/toRoute";
+import { PrimaryInverseButton, SecondaryInverseButton } from "../components/buttons/InverseButtons";
 import styles from "./destinations-index-page.module.css";
 
 const data = destinationsData as unknown as DestinationsIndexPageData;
@@ -89,7 +90,7 @@ export default function DestinationsIndexPage() {
 
   useScrollReveal([]);
 
-  const { hero, map, intro, groupsIntro, regions, beyond, cta } = data;
+  const { hero, map, groupsIntro, regions, beyond, cta } = data;
 
   return (
     <main>
@@ -125,23 +126,6 @@ export default function DestinationsIndexPage() {
           <div className={`${styles.taMapFoot} reveal d1`}>
             <i />
             {map.foot}
-          </div>
-        </div>
-      </section>
-
-      <section className="band">
-        <div className="wrap editorial">
-          <div className="ed-grid">
-            <div className="ed-meta reveal">
-              <div className="eyebrow">{intro.eyebrow}</div>
-              <p className="ed-note">{intro.note}</p>
-            </div>
-            <div className="reveal d1">
-              <p className="ed-statement" dangerouslySetInnerHTML={{ __html: intro.statementHtml ?? "" }} />
-              <p className="lede" style={{ marginTop: 22 }}>
-                {intro.lede}
-              </p>
-            </div>
           </div>
         </div>
       </section>
@@ -210,35 +194,35 @@ export default function DestinationsIndexPage() {
         </div>
       </section>
 
+      {/* "Beyond the thirty-six"'s own copy was replaced by "Where to next"'s
+          (the page's actual final CTA) per explicit request — this section
+          keeps only `beyond.image` as its photo background now; the former
+          plain light `cta` band that used to follow it is gone, folded in
+          here instead, so the photo band is genuinely the last section
+          before the footer rather than a dark band with nothing after it
+          but another full CTA. */}
       <section className="band-dark band center" style={{ backgroundImage: `var(--scrim), url('${beyond.image}')` }}>
         <div className="wrap">
-          <div className="eyebrow on-dark reveal">{beyond.eyebrow}</div>
+          <div className="eyebrow on-dark reveal">{cta.eyebrow}</div>
           <div className="rule center reveal d1" />
           <h2 className="reveal d1" style={{ maxWidth: "24ch", margin: "0 auto" }}>
-            {beyond.heading}
-          </h2>
-          <p className="lede on-dark reveal d2" style={{ margin: "22px auto 0" }}>
-            {beyond.lede}
-          </p>
-        </div>
-      </section>
-
-      <section className="band center">
-        <div className="wrap">
-          <div className="eyebrow reveal">{cta.eyebrow}</div>
-          <div className="rule center reveal d1" />
-          <h2 className="reveal d1" style={{ fontSize: "clamp(30px,4vw,58px)" }}>
             {cta.heading}
           </h2>
-          <p className="lede reveal d2" style={{ margin: "20px auto 0" }}>
+          <p className="lede on-dark reveal d2" style={{ margin: "22px auto 0" }}>
             {cta.lede}
           </p>
           <div className="btn-row center reveal d2" style={{ marginTop: 28 }}>
-            {cta.buttons.map((b, i) => (
-              <Link className={i === 0 ? "btn btn-gold" : "btn btn-ghost"} to={toRoute(b.href)} key={i}>
-                {b.label}
-              </Link>
-            ))}
+            {cta.buttons.map((b, i) =>
+              b.label && /plan/i.test(b.label) ? (
+                <PrimaryInverseButton to={b.href} key={i}>
+                  {b.label}
+                </PrimaryInverseButton>
+              ) : (
+                <SecondaryInverseButton to={b.href} key={i}>
+                  {b.label}
+                </SecondaryInverseButton>
+              )
+            )}
           </div>
         </div>
       </section>

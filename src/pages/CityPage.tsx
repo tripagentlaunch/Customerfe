@@ -26,8 +26,14 @@ import PlanCarousel from "../components/PlanCarousel";
 import CalendarSection from "../components/CalendarSection";
 import EventMap from "../components/EventMap";
 import { planSlotPhotos, PHOTOS_PER_SLOT } from "../lib/planPhotos";
+import { useAgraLivePlanCoords } from "../hooks/useAgraLivePlanCoords";
+import { useAgraLiveEventLocations } from "../hooks/useAgraLiveEventLocations";
+import { useLiveGuidePanelPhotos, type LivePanelPhoto } from "../hooks/useLiveGuidePanelPhotos";
 import { placeholderPhoto } from "../lib/placeholderPhoto";
+import { PrimaryInverseButton, SecondaryInverseButton } from "../components/buttons/InverseButtons";
+import { withTaraAI } from "../components/TaraAI";
 import styles from "./city-page.module.css";
+import LiveVenues from "../components/LiveVenues";
 
 const CITIES = cities as unknown as Record<string, CityData>;
 
@@ -121,11 +127,27 @@ const MIN_VISIBLE_ITEMS = 6;
 // shrink, not even for a future field (e.g. a longer location line) that
 // isn't currently truncated. The text column keeps its own "fills the box,
 // settles inward on hover" reveal.
-function GuideCard({ photo, children }: { photo: string; children: ReactNode }) {
+function GuideCard({
+  photo,
+  badge,
+  isLoading,
+  children,
+}: {
+  photo: string;
+  badge?: string;
+  isLoading?: boolean;
+  children: ReactNode;
+}) {
   return (
     <div className={styles.cardInner}>
       <div className={styles.cardThumbWrap}>
         <img className={styles.cardThumb} src={photo} alt="" loading="lazy" />
+        {badge && <span className={styles.cardThumbBadge}>{badge}</span>}
+        {isLoading && (
+          <div className={styles.cardThumbLoading}>
+            <span className={styles.cardSpinner} />
+          </div>
+        )}
       </div>
       <div className={styles.cardBody}>{children}</div>
     </div>
@@ -135,25 +157,70 @@ function GuideCard({ photo, children }: { photo: string; children: ReactNode }) 
 // Tabs + tier chips both moved out of here into one shared sticky wrapper
 // in CityPage itself (see .guideSticky) — this component now renders only
 // the actual tier list content, driven by the selectedTier prop it's given.
-function GuidePanel({ panel, active, selectedTier }: { panel: CityGuidePanel; active: boolean; selectedTier: number }) {
-  const [openTiers, setOpenTiers] = useState<Set<number>>(new Set());
+function GuidePanel({
+  panel,
+  active,
+  selectedTier,
+  livePhotos,
+  fireLookup,
+}: {
+  panel: CityGuidePanel;
+  active: boolean;
+  selectedTier: number;
+  livePhotos: Record<string, LivePanelPhoto>;
+  fireLookup: (key: string, itemName: string, itemArea: string | undefined) => void;
+}) {
+  // Per-tier reveal COUNT, not a binary open/closed flag — "Show all"
+  // now reveals MIN_VISIBLE_ITEMS more each click (batched), rather than
+  // jumping straight from 6 to all 44 at once, so a visitor who never
+  // clicks past the first batch or two never triggers the later items'
+  // image loads at all.
+  // Per-tier PAGE index (0-based) — "Show next 6" advances to the next
+  // page and shows ONLY that batch, not a cumulative reveal. Page 0 is
+  // items[0:6], page 1 is items[6:12], etc.
+  const [tierPage, setTierPage] = useState<Record<number, number>>({});
 
-  function toggle(i: number) {
-    setOpenTiers((prev) => {
-      const next = new Set(prev);
-      if (next.has(i)) next.delete(i);
-      else next.add(i);
+  function nextPage(i: number, totalPages: number) {
+    setTierPage((prev) => {
+      const current = prev[i] ?? 0;
+      return { ...prev, [i]: Math.min(current + 1, totalPages - 1) };
+    });
+  }
+
+  function resetPage(i: number) {
+    setTierPage((prev) => {
+      const next = { ...prev };
+      delete next[i];
       return next;
     });
   }
 
   const labelledTiers = panel.tiers.filter((t) => t.label);
 
+  // Fire live lookups directly for whatever's on the CURRENT page of each
+  // tier — replaces the old IntersectionObserver approach (see this
+  // hook's own comment for why that became unreliable once pagination
+  // was added). Re-runs whenever a page changes, so "Show next 6"
+  // correctly triggers lookups for exactly the newly-shown 6 items.
+  useEffect(() => {
+    panel.tiers.forEach((tier, i) => {
+      const page = tierPage[i] ?? 0;
+      const start = page * MIN_VISIBLE_ITEMS;
+      const end = start + MIN_VISIBLE_ITEMS;
+      tier.items.slice(start, end).forEach((item, offset) => {
+        const j = start + offset;
+        if (item.photo) return; // static photo already present — no live fetch needed
+        fireLookup(`${panel.key}-${i}-${j}`, item.name ?? "", item.area ?? undefined);
+      });
+    });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [panel.key, tierPage]);
+
   return (
     <div className={`cg-panel${active ? " on" : ""}`} data-cg={panel.key}>
       {panel.tiers.map((tier, i) => (
         (labelledTiers.length <= 1 || i === selectedTier) && (
-        <div className={`cg-tier${openTiers.has(i) ? " cg-more-open" : ""}`} key={i}>
+        <div className={`cg-tier${(tierPage[i] ?? 0) > 0 ? " cg-more-open" : ""}`} key={i}>
           <ul className="cg-list">
             {tier.items.map((item, j) => {
               // `credentials` is typed required, but that's a compile-time
@@ -162,9 +229,22 @@ function GuidePanel({ panel, active, selectedTier }: { panel: CityGuidePanel; ac
               // must not crash the whole guide list.
               const credentials = item.credentials ?? [];
               const noTag = credentials.length === 0;
+              const live = livePhotos[`${panel.key}-${i}-${j}`];
+              const isLoadingLivePhoto = !item.photo && live?.status === "loading";
+              const photo =
+                item.photo ??
+                (live?.status === "success" ? live.photoUrl : placeholderPhoto(`${panel.key}-${i}-${j}-${item.name}`));
               return (
-              <li className={j >= MIN_VISIBLE_ITEMS ? "cg-hide" : ""} key={j}>
-                <GuideCard photo={item.photo ?? placeholderPhoto(`${panel.key}-${i}-${j}-${item.name}`)}>
+              <li
+                className={(() => {
+                  const page = tierPage[i] ?? 0;
+                  const start = page * MIN_VISIBLE_ITEMS;
+                  const end = start + MIN_VISIBLE_ITEMS;
+                  return j >= start && j < end ? "" : "cg-hide";
+                })()}
+                key={j}
+              >
+                <GuideCard photo={photo} badge={credentials[0] ? shortCredential(credentials[0]) : undefined} isLoading={isLoadingLivePhoto}>
                   <span className="cg-nm-row">
                     <span className="nm">{item.name}</span>
                   </span>
@@ -187,11 +267,25 @@ function GuidePanel({ panel, active, selectedTier }: { panel: CityGuidePanel; ac
               );
             })}
           </ul>
-          {tier.items.length > MIN_VISIBLE_ITEMS && (
-            <button className="cg-more" type="button" aria-expanded={openTiers.has(i)} onClick={() => toggle(i)}>
-              {openTiers.has(i) ? "Show fewer" : `Show all ${tier.items.length} →`}
-            </button>
-          )}
+          {tier.items.length > MIN_VISIBLE_ITEMS && (() => {
+              const totalPages = Math.ceil(tier.items.length / MIN_VISIBLE_ITEMS);
+              const page = tierPage[i] ?? 0;
+              const isLastPage = page >= totalPages - 1;
+              const start = page * MIN_VISIBLE_ITEMS + 1;
+              const end = Math.min(start + MIN_VISIBLE_ITEMS - 1, tier.items.length);
+              return (
+                <button
+                  className="cg-more"
+                  type="button"
+                  aria-expanded={page > 0}
+                  onClick={() => (isLastPage ? resetPage(i) : nextPage(i, totalPages))}
+                >
+                  {isLastPage
+                    ? "Back to top"
+                    : `Showing ${start}-${end} of ${tier.items.length} — Show next ${Math.min(MIN_VISIBLE_ITEMS, tier.items.length - end)} →`}
+                </button>
+              );
+            })()}
         </div>
         )
       ))}
@@ -199,15 +293,20 @@ function GuidePanel({ panel, active, selectedTier }: { panel: CityGuidePanel; ac
   );
 }
 
-// Deliberately loud, not a quiet CityMap substitute — see the two call
-// sites below. This is a data problem for whoever is wiring up a city, not
-// a normal empty-state a real visitor should ever see live; it should read
-// as "fix this," not blend in as if the page were designed this way.
+// A per-city data gap (missing plan coordinates, missing event location) —
+// logged to the console for whoever's wiring up a city, but rendered to
+// real visitors as a calm, on-brand placeholder (matching CityMap's own
+// "not available yet" fallback) rather than a debug-looking error box.
+// `reason` stays dev-facing only; the visible copy is always the same
+// generic line so the page still reads as intentional, not broken.
 function MapDataMissing({ reason }: { reason: string }) {
+  useEffect(() => {
+    console.warn(`[MapDataMissing] ${reason}`);
+  }, [reason]);
   return (
     <div className={styles.mapDataMissing}>
-      <strong>Map data missing</strong>
-      <p>{reason}</p>
+      <MapPin size={22} strokeWidth={1.75} />
+      <p>Map view coming soon for this stop.</p>
     </div>
   );
 }
@@ -355,13 +454,47 @@ export default function CityPage() {
 
   const activePlanStep = planSteps[activeStepIndex];
 
+  // Agra only, for now — live Places API (New) lookups for every slot in
+  // the active day that has no coordinates on file, using each slot's own
+  // extracted place name (extractPlaceName.ts), not one hardcoded query.
+  // See places_service.py for why this is always a live call, never baked
+  // into cities.generated.json the way Pexels photos are.
+  // TEST/STAGING rollout, not a production decision — see places_service.py
+  // and this session's cost-tier estimate: live Places lookups aren't
+  // cached across visitors (Places API (New) ToS has no caching
+  // exception for photos/names), so every pageview on these city pages
+  // re-triggers the same lookups. Widen this list only after weighing
+  // that cost, or after a scheduled backfill replaces live-fetch entirely.
+  const LIVE_PLACES_TEST_CITIES = new Set(["abu-dhabi", "agra", "alleppey", "amalfi-coast", "amman-petra", "amritsar", "amsterdam", "andaman", "athens", "auckland", "bali", "bangkok", "barcelona", "bengaluru", "budapest", "buenos-aires", "cairo", "cancun", "cape-town", "cappadocia", "chennai", "colombo", "copenhagen", "cusco", "darjeeling", "delhi", "doha", "dubai", "dublin", "dubrovnik", "edinburgh", "florence", "galle", "geneva", "goa", "hanoi", "ho-chi-minh-city", "hoi-an", "hong-kong", "hyderabad", "istanbul", "jaipur", "jaisalmer", "jodhpur", "kathmandu", "kochi", "kolkata", "krabi", "kuala-lumpur", "kyoto", "lake-como", "langkawi", "las-vegas", "leh-ladakh", "lima", "lisbon", "london", "los-angeles", "madrid", "mahe-seychelles", "male-maldives", "manali", "marrakech", "mauritius-city", "melbourne", "mexico-city", "miami", "milan", "mumbai", "munich", "munnar", "muscat", "mykonos", "nairobi-mara", "new-york", "nice-riviera", "osaka", "paris", "paro", "phuket", "porto", "prague", "queenstown", "ranthambore", "reykjavik", "rio-de-janeiro", "rishikesh", "rome", "salzburg", "san-francisco", "santorini", "seoul", "shanghai", "shimla", "siem-reap", "singapore-city", "srinagar", "st-moritz", "sydney", "taipei", "tokyo", "toronto", "udaipur", "vancouver", "varanasi", "venice", "vienna", "zanzibar", "zermatt", "zurich"]);
+  const isLivePlacesEnabledCity = city ? LIVE_PLACES_TEST_CITIES.has(city.slug) : false;
+  const agraLiveCoords = useAgraLivePlanCoords(isLivePlacesEnabledCity, city?.plan.days, activePlanStep?.dayIndex);
+  const agraLiveEventLocations = useAgraLiveEventLocations(isLivePlacesEnabledCity, city?.whatsOn.events);
+  const { results: liveGuidePanelPhotos, fireLookup: fireLiveGuidePanelLookup } = useLiveGuidePanelPhotos(isLivePlacesEnabledCity, city?.slug);
+
   const activeSlotPhotos = useMemo(() => {
     if (!city || !activePlanStep) return [];
-    return planSlotPhotos(city.slug, activePlanStep.dayIndex, activePlanStep.slotIndex);
-  }, [city, activePlanStep]);
+    const slot = (city.plan.days ?? [])[activePlanStep.dayIndex]?.slots?.[activePlanStep.slotIndex];
+    const liveKey = `${activePlanStep.dayIndex}-${activePlanStep.slotIndex}`;
+    const live = isLivePlacesEnabledCity ? agraLiveCoords[liveKey] : undefined;
+    if (live?.status === "success") return [live.photoUrl];
+    return planSlotPhotos(city.slug, activePlanStep.dayIndex, activePlanStep.slotIndex, slot?.photo);
+  }, [city, activePlanStep, isLivePlacesEnabledCity, agraLiveCoords]);
 
   // The sticky map shows only the current day's stops (not the whole
-  // itinerary), highlighting whichever one is the active step's place.
+  // itinerary), highlighting whichever one is the active step's place. A
+  // slot's coordinates come from the static data when present, else — for
+  // Agra — from a live Places lookup that's already resolved for this day.
+  const resolvedSlotCoord = (
+    dayIndex: number,
+    slotIndex: number,
+    slot: { lat: number | null; lon: number | null },
+  ): { lat: number; lon: number } | null => {
+    if (typeof slot.lat === "number" && typeof slot.lon === "number") return { lat: slot.lat, lon: slot.lon };
+    if (!isLivePlacesEnabledCity) return null;
+    const live = agraLiveCoords[`${dayIndex}-${slotIndex}`];
+    return live?.status === "success" ? { lat: live.lat, lon: live.lon } : null;
+  };
+
   const activeDayStops = useMemo(() => {
     if (!city || !activePlanStep) return [];
     const day = (city.plan.days ?? [])[activePlanStep.dayIndex];
@@ -374,26 +507,31 @@ export default function CityPage() {
       const a = city.plan.arrivalPoint;
       stops.push({ lat: a.lat, lon: a.lon, dayNumber: day.dayNumber ?? "", label: a.label, place: a.label, category: "do", isAirport: true });
     }
-    for (const slot of day.slots ?? []) {
-      if (typeof slot.lat === "number" && typeof slot.lon === "number") {
+    (day.slots ?? []).forEach((slot, slotIndex) => {
+      const coord = resolvedSlotCoord(activePlanStep.dayIndex, slotIndex, slot);
+      if (coord) {
         stops.push({
-          lat: slot.lat,
-          lon: slot.lon,
+          lat: coord.lat,
+          lon: coord.lon,
           dayNumber: day.dayNumber ?? "",
           label: slot.label ?? "",
           place: slot.place ?? slot.label ?? "",
           category: slot.category,
         });
       }
-    }
+    });
     return stops;
-  }, [city, activePlanStep]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [city, activePlanStep, agraLiveCoords]);
 
   const activeDayStopIndex = useMemo(() => {
     if (!city || !activePlanStep) return -1;
     const slot = (city.plan.days ?? [])[activePlanStep.dayIndex]?.slots?.[activePlanStep.slotIndex];
-    if (!slot || typeof slot.lat !== "number" || typeof slot.lon !== "number") return -1;
-    return activeDayStops.findIndex((s) => s.lat === slot.lat && s.lon === slot.lon);
+    if (!slot) return -1;
+    const coord = resolvedSlotCoord(activePlanStep.dayIndex, activePlanStep.slotIndex, slot);
+    if (!coord) return -1;
+    return activeDayStops.findIndex((s) => s.lat === coord.lat && s.lon === coord.lon);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [city, activePlanStep, activeDayStops]);
 
   useEffect(() => {
@@ -449,26 +587,8 @@ export default function CityPage() {
             {/* Typed as required, but not runtime-guaranteed on a real API
                 response — dropping the button beats crashing the whole
                 hero. */}
-            {hero.ctaPrimary && (
-              <Link className={`btn btn-gold on-dark btn-square ${styles.heroCta}`} to={toRoute(hero.ctaPrimary.href)}>
-                <span className={styles.heroCtaLabel}>
-                  {hero.ctaPrimary.label}
-                  <span className={styles.heroCtaArrow} aria-hidden="true">
-                    →
-                  </span>
-                </span>
-              </Link>
-            )}{" "}
-            {hero.ctaSecondary && (
-              <a className={`btn btn-ghost on-dark ${styles.heroCtaSecondary}`} href={hero.ctaSecondary.href}>
-                <span className={styles.heroCtaLabel}>
-                  {hero.ctaSecondary.label}
-                  <span className={styles.heroCtaArrow} aria-hidden="true">
-                    →
-                  </span>
-                </span>
-              </a>
-            )}
+            {hero.ctaPrimary && <PrimaryInverseButton to={hero.ctaPrimary.href}>{hero.ctaPrimary.label}</PrimaryInverseButton>}{" "}
+            {hero.ctaSecondary && <SecondaryInverseButton to={hero.ctaSecondary.href}>{hero.ctaSecondary.label}</SecondaryInverseButton>}
           </div>
           <div className={`${styles.chFacts} reveal d3`}>
             {(hero.facts ?? []).map((f, i) => (
@@ -551,7 +671,7 @@ export default function CityPage() {
             <div className="reveal d2" style={{ marginTop: 20 }}>
               <Link className={`btn btn-gold btn-square ${styles.planCta}`} to={toRoute(plan.cta.href)}>
                 <span className={styles.planCtaLabel}>
-                  {plan.cta.label}
+                  {withTaraAI(plan.cta.label)}
                   <span className={styles.planCtaArrow} aria-hidden="true">
                     →
                   </span>
@@ -584,28 +704,50 @@ export default function CityPage() {
             <MapDataMissing reason="plan.days[].slots[] have no lat/lon for this city — PlanRouteMap needs at least 2 stops with coordinates (see CityDay in types/city.ts)." />
           )
         ) : calendarInView ? (
-          calendarActiveEvent?.location ? (
-            <EventMap
-              point={{
-                lat: calendarActiveEvent.location.lat,
-                lon: calendarActiveEvent.location.lon,
-                name: calendarActiveEvent.name ?? calendarActiveEvent.location.label,
-                photo: calendarActiveEvent.photo ?? placeholderPhoto(`event-${calendarActiveEvent.name}`),
-              }}
-            />
-          ) : (
+          (() => {
+            if (!calendarActiveEvent) {
+              return (
+                <MapDataMissing reason="No event is currently selectable — check that whatsOn.events[].months is populated for this city." />
+              );
+            }
+            if (calendarActiveEvent.location) {
+              return (
+                <EventMap
+                  point={{
+                    lat: calendarActiveEvent.location.lat,
+                    lon: calendarActiveEvent.location.lon,
+                    name: calendarActiveEvent.name ?? calendarActiveEvent.location.label,
+                    photo: calendarActiveEvent.photo ?? placeholderPhoto(`event-${calendarActiveEvent.name}`),
+                  }}
+                />
+              );
+            }
+            // Agra only — a live Places lookup, keyed by the event's own
+            // name, for events with no location on file. Citywide events
+            // with no single venue (e.g. "Ram Barat") are expected to
+            // correctly stay unresolved here, same "skip rather than
+            // guess" reasoning as the plan-slot lookups above.
+            const live = isLivePlacesEnabledCity ? agraLiveEventLocations[calendarActiveEvent.name ?? ""] : undefined;
+            if (live?.status === "success") {
+              return (
+                <EventMap
+                  point={{
+                    lat: live.lat,
+                    lon: live.lon,
+                    name: calendarActiveEvent.name ?? live.placeName,
+                    photo: live.photoUrl,
+                  }}
+                />
+              );
+            }
             // Same reasoning as the Plan case above — surfaced instead of
             // silently showing CityMap.
-            <MapDataMissing
-              reason={
-                calendarActiveEvent
-                  ? "This event has no location set — whatsOn.events[].location is required for EventMap (see types/city.ts)."
-                  : "No event is currently selectable — check that whatsOn.events[].months is populated for this city."
-              }
-            />
-          )
+            return (
+              <MapDataMissing reason="This event has no location set — whatsOn.events[].location is required for EventMap (see types/city.ts)." />
+            );
+          })()
         ) : (
-          <CityMap slug={city.slug} />
+          <CityMap slug={city.slug} livePlacesEnabled={isLivePlacesEnabledCity} />
         )}
       </div>
       </div>
@@ -694,6 +836,8 @@ export default function CityPage() {
                           panel={p}
                           active={activeTab === p.key}
                           selectedTier={selectedTierByPanel[p.key] ?? p.tiers.findIndex((t) => t.label)}
+                          livePhotos={activeTab === p.key ? liveGuidePanelPhotos : {}}
+                          fireLookup={fireLiveGuidePanelLookup}
                         />
                       </div>
                     ))}
@@ -790,10 +934,12 @@ export default function CityPage() {
         className="band-dark band center"
         style={{ backgroundImage: `var(--scrim), url('${hero.image}')` }}
       >
+        {slug && <LiveVenues slug={slug} />}
         <div className="wrap">
           <h2
             className="reveal d1"
             style={{ fontSize: "clamp(30px,4.4vw,58px)" }}
+
             dangerouslySetInnerHTML={{ __html: closing.headingHtml ?? "" }}
           />
           <p className="lede on-dark reveal d2" style={{ margin: "18px auto 28px" }}>
@@ -801,9 +947,7 @@ export default function CityPage() {
           </p>
           {closing.ctaPrimary && (
             <div className="btn-row center reveal d3">
-              <Link className="btn btn-gold on-dark" to={toRoute(closing.ctaPrimary.href)}>
-                {closing.ctaPrimary.label}
-              </Link>
+              <PrimaryInverseButton to={closing.ctaPrimary.href}>{withTaraAI(closing.ctaPrimary.label)}</PrimaryInverseButton>
             </div>
           )}
           <p className={`${styles.taReassure} ${styles.taReassureC} reveal d3`}>

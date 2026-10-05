@@ -1,9 +1,8 @@
 import { useEffect } from "react";
-import { Link } from "react-router-dom";
 import pointsData from "../data/points.generated.json";
 import type { PointsPageData } from "../types/points";
 import { useScrollReveal } from "../lib/useScrollReveal";
-import { toRoute } from "../lib/toRoute";
+import { PrimaryInverseButton, SecondaryInverseButton } from "../components/buttons/InverseButtons";
 import styles from "./points-page.module.css";
 
 const data = pointsData as unknown as PointsPageData;
@@ -173,11 +172,17 @@ export default function PointsPage() {
             {cta.lede}
           </p>
           <div className="btn-row center reveal d3">
-            {cta.buttons.map((b, i) => (
-              <Link className={i === 0 ? "btn btn-gold on-dark" : "btn btn-ghost on-dark"} to={toRoute(b.href)} key={i}>
-                {b.label}
-              </Link>
-            ))}
+            {cta.buttons.map((b, i) =>
+              i === 0 ? (
+                <PrimaryInverseButton to={b.href} key={i}>
+                  {b.label}
+                </PrimaryInverseButton>
+              ) : (
+                <SecondaryInverseButton to={b.href} key={i}>
+                  {b.label}
+                </SecondaryInverseButton>
+              )
+            )}
           </div>
         </div>
       </section>

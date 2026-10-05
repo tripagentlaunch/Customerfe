@@ -154,56 +154,10 @@
   font-weight: 600;
 }
 
-/* Literally the same treatment as CityPage's hero CTAs (see
- * city-page.module.css's `.hero-cta`/`.hero-cta-secondary` — same class
- * names here, minus the module's own scoping, so the two heroes render
- * with identical buttons/hover states, not just visually similar ones).
- *
- * Primary: solid white fill, dark text, unchanged on hover — only the
- * label scales up and the arrow slides in, both as children of one scaled
- * span so they move as a single unit instead of drifting apart the way a
- * sibling ::after would once the label's own transform grows it.
- */
-:global(.btn-gold.on-dark).heroCta {
-  background: #fff !important;
-  color: #1a1714 !important;
-}
-:global(.btn-gold.on-dark).heroCta::after {
-  display: none !important;
-}
-.heroCtaLabel {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  transform: scale(1);
-  transition: transform 0.4s var(--ease);
-}
-:global(.btn-gold.on-dark).heroCta:hover .heroCtaLabel {
-  transform: scale(1.1);
-}
-.heroCtaArrow {
-  display: inline-block;
-  opacity: 0;
-  transform: translateX(-6px);
-  transition: opacity 0.4s var(--ease), transform 0.4s var(--ease);
-}
-:global(.btn-gold.on-dark).heroCta:hover .heroCtaArrow {
-  opacity: 1;
-  transform: translateX(2px);
-}
-
-/* Secondary (CityPage's hero only ever has two buttons total; this hero has
- * three — the 2nd CTA gets the same ghost-pill treatment as CityPage's
- * secondary, the 3rd gets its own lighter-weight tertiary style below).
- * Keeps `.btn-ghost.on-dark`'s existing fill-on-hover untouched — the
- * scale/arrow below are added on top of that, not instead of it. */
-.heroCtaSecondary:hover .heroCtaLabel {
-  transform: scale(1.1);
-}
-.heroCtaSecondary:hover .heroCtaArrow {
-  opacity: 1;
-  transform: translateX(2px);
-}
+/* Primary/secondary CTAs ("Plan Your Trip"/"Ask Your Advisor") are now
+ * PrimaryInverseButton/SecondaryInverseButton (see
+ * components/buttons/InverseButtons.tsx+.module.css) — styled there, not
+ * here, so this hero and CityPage's identical twins share one definition. */
 
 /* Tertiary (3rd CTA, "How it works") — a genuine text button: no border, no
  * box, no fill. Not built on the global `.btn` class since that always
@@ -381,4 +335,14 @@
     opacity: 1 !important;
     transform: none !important;
   }
+}
+
+.heroSlideVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
 }

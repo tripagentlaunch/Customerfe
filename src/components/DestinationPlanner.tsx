@@ -1,7 +1,6 @@
 import { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import type { PlannerCity, PlannerData } from "../types/homepage";
-import { toRoute } from "../lib/toRoute";
 import styles from "./DestinationPlanner.module.css";
 
 // Ported from index.html's #planner inline <script> 1:1 — the same
@@ -9,7 +8,6 @@ import styles from "./DestinationPlanner.module.css";
 // keep DATA order since Array#sort is stable), defaulting to the visitor's
 // current month. Real client-side logic, no backend: see
 // tools/extract_homepage.py's docstring.
-const FOOT_LINK_TAG = /<a[^>]*>\{\{LINK\}\}<\/a>/;
 
 function rankCities(cities: PlannerCity[], month: number) {
   return cities
@@ -22,7 +20,6 @@ function rankCities(cities: PlannerCity[], month: number) {
 export default function DestinationPlanner({ planner }: { planner: PlannerData }) {
   const [month, setMonth] = useState(() => new Date().getMonth());
   const ranked = useMemo(() => rankCities(planner.cities, month), [planner.cities, month]);
-  const footPrefix = (planner.footTextHtml ?? "").replace(FOOT_LINK_TAG, "");
 
   return (
     <section className={`band ${styles.section}`} id="planner">
@@ -69,11 +66,6 @@ export default function DestinationPlanner({ planner }: { planner: PlannerData }
             </Link>
           ))}
         </div>
-
-        <p className={`${styles.plFoot} reveal`}>
-          {footPrefix}
-          <Link to={toRoute(planner.footLinkHref)}>{planner.footLinkLabel}</Link>
-        </p>
       </div>
     </section>
   );

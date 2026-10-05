@@ -251,7 +251,7 @@
     "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fsantorini.jpg&w=2048&q=80",
     "buttons": [
       {
-        "label": "Ask your advisor",
+        "label": "Ask Tara AI",
         "href": "enquire.html"
       },
       {

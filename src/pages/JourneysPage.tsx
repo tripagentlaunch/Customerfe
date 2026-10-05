@@ -4,6 +4,7 @@ import journeysData from "../data/journeys.generated.json";
 import type { JourneysPageData } from "../types/journeys";
 import { useScrollReveal } from "../lib/useScrollReveal";
 import { toRoute } from "../lib/toRoute";
+import { withTaraAI } from "../components/TaraAI";
 import styles from "./journeys-page.module.css";
 
 const data = journeysData as unknown as JourneysPageData;
@@ -51,7 +52,7 @@ export default function JourneysPage() {
             <div className="btn-row center reveal d2" style={{ marginTop: 28 }}>
               {cta.buttons.map((b, i) => (
                 <Link className={i === 0 ? "btn btn-gold" : "btn btn-ghost"} to={toRoute(b.href)} key={i}>
-                  {b.label}
+                  {withTaraAI(b.label)}
                 </Link>
               ))}
             </div>

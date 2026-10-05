@@ -6,6 +6,7 @@ import MockCityMap from "./MockCityMap";
 import MapPin from "./MapPin";
 import { catColor, catIcon } from "./cityMapCategories";
 import styles from "./CityMap.module.css";
+import { useLiveVenuePhoto } from "../hooks/useLiveVenuePhoto";
 
 const GOOGLE_MAPS_API_KEY = import.meta.env.VITE_GOOGLE_MAPS_API_KEY as string | undefined;
 
@@ -60,7 +61,7 @@ const MAP_STYLES: google.maps.MapTypeStyle[] = [
   { featureType: "administrative", elementType: "labels.text.fill", stylers: [{ color: "#8a8680" }] },
 ];
 
-export default function CityMap({ slug }: { slug: string }) {
+export default function CityMap({ slug, livePlacesEnabled = false }: { slug: string; livePlacesEnabled?: boolean }) {
   const { isLoaded, loadError } = useJsApiLoader({
     id: "ta-google-map-script",
     googleMapsApiKey: GOOGLE_MAPS_API_KEY ?? "",
@@ -68,6 +69,11 @@ export default function CityMap({ slug }: { slug: string }) {
 
   const data = useCityMapData(slug);
   const [selected, setSelected] = useState<CityMapVenue | null>(null);
+  const livePhoto = useLiveVenuePhoto(livePlacesEnabled, slug, selected);
+  const effectiveSelected: CityMapVenue | null =
+    selected && livePhoto.status === "success"
+      ? { ...selected, photos: [{ url: livePhoto.photoUrl, alt: selected.n, credit: null }] }
+      : selected;
   const [map, setMap] = useState<google.maps.Map | null>(null);
 
   const canvasRef = useRef<HTMLDivElement | null>(null);
@@ -157,7 +163,36 @@ export default function CityMap({ slug }: { slug: string }) {
           mapContainerStyle={MAP_CONTAINER_STYLE}
           center={center}
           zoom={11}
-          onLoad={(m) => setMap(m)}
+          onLoad={(m) => {
+            setMap(m);
+            // Fit to the dense in-city cluster only — day-trip venues
+            // (Fatehpur Sikri, Vrindavan, etc.) can sit 40-60km out, and
+            // including them in fitBounds would zoom out so far the main
+            // city cluster becomes tiny/unclickable. A simple distance
+            // filter around the data's own center keeps the initial view
+            // at city scale; distant pins are still there to reach by
+            // zooming/panning out manually.
+            //
+            // Deferred one frame: fitBounds computed synchronously inside
+            // onLoad can run before the map's container has its final
+            // rendered size (still mid-layout), producing a bad initial
+            // zoom/pan that only self-corrects once the user manually
+            // interacts with the map. requestAnimationFrame waits for the
+            // browser's next paint, by which point the container is
+            // reliably sized.
+            requestAnimationFrame(() => {
+              const core = visibleVenues.filter((v) => {
+                const dLat = v.lat - center.lat;
+                const dLon = v.lon - center.lng;
+                return Math.sqrt(dLat * dLat + dLon * dLon) < 0.15;
+              });
+              if (core.length > 1) {
+                const bounds = new google.maps.LatLngBounds();
+                core.forEach((v) => bounds.extend({ lat: v.lat, lng: v.lon }));
+                m.fitBounds(bounds, 40);
+              }
+            });
+          }}
           onClick={() => setSelected(null)}
           options={{
             styles: MAP_STYLES,
@@ -174,14 +209,14 @@ export default function CityMap({ slug }: { slug: string }) {
               </button>
             </OverlayViewF>
           ))}
-          {selected && (
+          {effectiveSelected && (
             <OverlayViewF
-              key={`${selected.n}-${selected.lat}-${selected.lon}`}
-              position={{ lat: selected.lat, lng: selected.lon }}
+              key={`${effectiveSelected.n}-${effectiveSelected.lat}-${effectiveSelected.lon}`}
+              position={{ lat: effectiveSelected.lat, lng: effectiveSelected.lon }}
               mapPaneName={FLOAT_PANE}
               getPixelPositionOffset={() => ({ x: 0, y: 0 })}
             >
-              <VenueCard venue={selected} map={map} mapContainerEl={canvasRef.current} onClose={closeWithFocusRestore} />
+              <VenueCard venue={effectiveSelected} map={map} mapContainerEl={canvasRef.current} onClose={closeWithFocusRestore} isLoadingPhoto={livePhoto.status === "loading"} />
             </OverlayViewF>
           )}
         </GoogleMap>

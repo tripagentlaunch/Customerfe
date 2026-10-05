@@ -4,6 +4,7 @@ import healthIndexData from "../data/health-index-page.generated.json";
 import type { HealthCard, HealthIndexPageData } from "../types/health-index-page";
 import { useScrollReveal } from "../lib/useScrollReveal";
 import { toRoute } from "../lib/toRoute";
+import { withTaraAI } from "../components/TaraAI";
 import styles from "./health-index-page.module.css";
 
 const data = healthIndexData as unknown as HealthIndexPageData;
@@ -238,7 +239,7 @@ export default function HealthIndexPage() {
           </div>
           <div className="btn-row">
             <Link className="btn btn-gold on-dark btn-square" to={toRoute(concierge.ctaHref)}>
-              {concierge.ctaLabel}
+              {withTaraAI(concierge.ctaLabel)}
             </Link>
           </div>
         </div>

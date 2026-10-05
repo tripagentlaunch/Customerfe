@@ -1,12 +1,11 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "../../lib/auth";
-import { useAdvisorHref } from "../../lib/advisor";
-import { useTripSummary } from "../../lib/tripState";
 import { useTripDrawer } from "../../lib/tripDrawer";
+import { useProfileDrawer } from "../../lib/profileDrawer";
 import { useSignInModal } from "../../lib/signInModal";
 import { useNavMenu } from "../../lib/navMenu";
-import { DiscoverMega, PlanMega } from "./HeaderMegaMenus";
+import { ExploreMega } from "./HeaderMegaMenus";
 
 // Ported from js/shell.js's header build (~line 60-80) — the real,
 // currently-live header. The previous Header.tsx had extracted the empty
@@ -24,15 +23,15 @@ const SEARCH_ICON = (
 
 export function Header() {
   const { signedIn, authError, clearAuthError } = useAuth();
-  const advisor = useAdvisorHref();
-  const tripSummary = useTripSummary();
   const tripDrawer = useTripDrawer();
+  const profileDrawer = useProfileDrawer();
   const signInModal = useSignInModal();
   const { menuOpen, openRoom, toggleMenu, toggleRoom } = useNavMenu();
   const navigate = useNavigate();
 
   const [query, setQuery] = useState("");
   const headerRef = useRef<HTMLElement>(null);
+  const edgeRef = useRef<HTMLDivElement>(null);
 
   // Auto-hiding header: peeks open on page load, then slides away; after
   // that it only reappears on hover from the top edge (or while a mega
@@ -44,7 +43,27 @@ export function Header() {
     const t = setTimeout(() => setInitialPeek(false), 1500);
     return () => clearTimeout(t);
   }, []);
-  const headerVisible = initialPeek || hovering || menuOpen || openRoom !== null;
+  // Momentary re-reveal after backing out of the Profile sidebar (cross or
+  // click outside) — same duration as the page-load peek above.
+  const [sidebarPeek, setSidebarPeek] = useState(false);
+  useEffect(() => {
+    if (!profileDrawer.peekTick) return;
+    setSidebarPeek(true);
+    const t = setTimeout(() => setSidebarPeek(false), 1500);
+    return () => clearTimeout(t);
+  }, [profileDrawer.peekTick]);
+  // The invisible reveal strip (.ta-hd-edge, 84px) is taller than the
+  // header (64px), so the two together are the "navbar area": hide only
+  // once the pointer has left both (the open Explore panel is a DOM child
+  // of the header, so it counts as inside). Leaving either one onto the
+  // other must not hide it, and leaving the strip must hide it — otherwise
+  // it stays frozen open after being revealed.
+  const onAreaLeave = (e: React.MouseEvent) => {
+    const to = e.relatedTarget;
+    if (to instanceof Node && (headerRef.current?.contains(to) || edgeRef.current?.contains(to))) return;
+    setHovering(false);
+  };
+  const headerVisible = initialPeek || sidebarPeek || hovering || menuOpen || openRoom !== null;
 
   // A magic-link click can complete a Supabase session with no linked
   // site_members row (see auth.tsx's hydrate()) — that happens on a full
@@ -67,6 +86,7 @@ export function Header() {
       if (e.key === "Escape") {
         toggleRoom(null);
         tripDrawer.close();
+        profileDrawer.close();
       }
     }
     document.addEventListener("click", onDocClick);
@@ -75,7 +95,7 @@ export function Header() {
       document.removeEventListener("click", onDocClick);
       document.removeEventListener("keydown", onKeyDown);
     };
-  }, [tripDrawer, toggleRoom]);
+  }, [tripDrawer, profileDrawer, toggleRoom]);
 
   useEffect(() => {
     document.documentElement.style.overflow = menuOpen ? "hidden" : "";
@@ -88,13 +108,13 @@ export function Header() {
 
   return (
     <>
-      <div className="ta-hd-edge" onMouseEnter={() => setHovering(true)} />
+      <div ref={edgeRef} className="ta-hd-edge" onMouseEnter={() => setHovering(true)} onMouseLeave={onAreaLeave} />
       <header
         ref={headerRef}
         className={`ta-hd${headerVisible ? " ta-hd-visible" : ""}${menuOpen ? " menu-open" : ""}`}
         data-shell
         onMouseEnter={() => setHovering(true)}
-        onMouseLeave={() => setHovering(false)}
+        onMouseLeave={onAreaLeave}
       >
       <div className="ta-hd-top">
         <Link className="ta-hd-brand" to="/">
@@ -108,6 +128,15 @@ export function Header() {
           </svg>
           <span>TripAgent</span>
         </Link>
+
+        <nav className="ta-hd-nav" aria-label="Sections">
+          <div className={`ta-room ta-room-rich${openRoom === "explore" ? " pin" : ""}`}>
+            <button type="button" className="ta-room-t" onClick={() => toggleRoom("explore")}>
+              Explore <span className="car" />
+            </button>
+            <ExploreMega />
+          </div>
+        </nav>
 
         <form className="ta-hd-search" role="search" onSubmit={submitSearch}>
           {SEARCH_ICON}
@@ -125,29 +154,13 @@ export function Header() {
         </form>
 
         <div className="ta-hd-cluster">
-          {signedIn ? (
-            <Link className="ta-hd-year" to="/portal">
-              My Year
-            </Link>
-          ) : (
-            <button
-              type="button"
-              className="ta-hd-year"
-              style={{ background: "none", border: 0, padding: 0, fontFamily: "inherit", cursor: "pointer" }}
-              onClick={() => signInModal.open("Sign in to your year.")}
-            >
-              Sign in
-            </button>
-          )}
-          <button className="ta-hd-trip" type="button" onClick={() => tripDrawer.open()}>
-            <span className="dia">◆</span> <span className="lbl">My Trip</span>{" "}
-            <span className="ct" hidden={!tripSummary}>
-              {tripSummary?.count ?? 0}
-            </span>
+          <button className="ta-hd-trip ta-hd-profile" type="button" aria-label={signedIn ? "Profile" : "Sign in"} onClick={() => (signedIn ? profileDrawer.open() : signInModal.open("Sign in to your year."))}>
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth={1.6} aria-hidden="true">
+              <circle cx="12" cy="8" r="4" />
+              <path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7" />
+            </svg>
+            <span className="lbl">{signedIn ? "Profile" : "Sign in"}</span>
           </button>
-          <a className="ta-hd-adv" href={advisor.href} target={advisor.external ? "_blank" : undefined} rel={advisor.external ? "noopener" : undefined}>
-            Talk to your advisor
-          </a>
         </div>
 
         <button
@@ -163,20 +176,6 @@ export function Header() {
         </button>
       </div>
 
-      <nav className="ta-hd-nav" aria-label="Sections">
-        <div className={`ta-room ta-room-rich${openRoom === "discover" ? " pin" : ""}`}>
-          <button type="button" className="ta-room-t" onClick={() => toggleRoom("discover")}>
-            Discover <span className="car" />
-          </button>
-          <DiscoverMega />
-        </div>
-        <div className={`ta-room ta-room-rich${openRoom === "plan" ? " pin" : ""}`}>
-          <button type="button" className="ta-room-t" onClick={() => toggleRoom("plan")}>
-            Plan <span className="car" />
-          </button>
-          <PlanMega />
-        </div>
-      </nav>
       </header>
     </>
   );

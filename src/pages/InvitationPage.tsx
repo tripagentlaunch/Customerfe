@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 import invitationData from "../data/invitation.generated.json";
 import type { InvitationPageData } from "../types/invitation";
 import { useScrollReveal } from "../lib/useScrollReveal";
+import { TaraAI } from "../components/TaraAI";
 import styles from "./invitation-page.module.css";
 
 const data = invitationData as unknown as InvitationPageData;
 
 const EMAIL_CTA_HREF = "mailto:maison@tripsure.com";
-const EMAIL_CTA_LABEL = "Email your advisor";
 
 // Same-origin in prod, VITE_API_BASE_URL for local dev — mirrors
 // EnquirePage.tsx's API_BASE convention (itself matching
@@ -433,7 +433,7 @@ export default function InvitationPage() {
                   and they'll pick it up right away.
                   <div style={{ marginTop: 14 }}>
                     <a className="btn btn-gold" href={EMAIL_CTA_HREF}>
-                      {EMAIL_CTA_LABEL}
+                      Email <TaraAI />
                     </a>
                   </div>
                 </div>

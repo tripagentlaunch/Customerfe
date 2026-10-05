@@ -59,7 +59,10 @@ import JournalIndexPage from "./JournalIndexPage";
 import WhenToGoPage from "./WhenToGoPage";
 import InvitationPage from "./InvitationPage";
 import AcceptInvitePage from "./AcceptInvitePage";
-import HomePage from "./HomePage";
+import ClaimPage from "./ClaimPage";
+import RequestAccessPage from "./RequestAccessPage";
+import ReferPage from "./ReferPage";
+import ComingSoonPage from "./ComingSoonPage";
 import routes from "../data/routes.generated.json";
 import redirects from "../data/redirects.generated.json";
 import { toRoute } from "../lib/toRoute";
@@ -243,6 +246,23 @@ const EXACT_SLUG_PAGES: Record<string, () => JSX.Element> = {
   // treatment — honest "not live yet" + a real advisor-contact fallback,
   // no fake token validation.
   "accept-invite": () => <AcceptInvitePage />,
+  // claim.html — the 8-digit-code redemption page, a separate, simpler
+  // flow from invitation.html's 16-character 4-step ceremony above: enter
+  // the code, claim it, go home, no capture/card/welcome steps. Same
+  // backend touchpoint (POST /invite/{code}/redeem) and same
+  // VITE_API_BASE_URL convention as InvitationPage.tsx.
+  claim: () => <ClaimPage />,
+  // request-access.html — the public "Request Access" lead form. POST
+  // /access-requests (access_request_router.py), reviewed via the admin
+  // panel's pending-requests screen, not this app. Approving one there
+  // issues a real invite code and emails the applicant a /claim link.
+  "request-access": () => <RequestAccessPage />,
+  // /refer — Refer a Friend, signed-in-only. POST /referrals
+  // (referral_router.py), which reuses invite_service.create_invitation_code()
+  // end to end (same code generation, same Resend send, referral email
+  // copy). The friend's claim side is unchanged — same /claim ->
+  // redeem_invite() flow as any other invite recipient.
+  refer: () => <ReferPage />,
 };
 
 // react-router v6 can't match a partial segment like "city-:slug" — a
@@ -251,11 +271,18 @@ const EXACT_SLUG_PAGES: Record<string, () => JSX.Element> = {
 // Extend HEALTH_PREFIXES/add a branch here as later phases port more
 // template groups.
 export default function PageRouter() {
-  const { pageSlug } = useParams<{ pageSlug: string }>();
+  const { pageSlug = "" } = useParams<{ pageSlug: string }>();
+
+  // SITE-WIDE GATE (2026-09-29, temporary) — the whole site is pre-launch:
+  // every route shows the Coming Soon page regardless of pageSlug, not
+  // just the index route. Remove this one `return` line (and nothing
+  // else) once ready to launch the real site; every other route below is
+  // untouched and will work immediately once this line is gone.
+  return <ComingSoonPage />;
 
   // The index route ("/", App.tsx) has no :pageSlug segment at all — that's
   // index.html itself (Batch J, part 2 of 2 — invitation.html was part 1).
-  if (!pageSlug) return <HomePage />;
+  if (!pageSlug) return <ComingSoonPage />;
 
   if (REDIRECTS[pageSlug]) return <Navigate to={toRoute(REDIRECTS[pageSlug])} replace />;
   if (pageSlug && EXACT_SLUG_PAGES[pageSlug]) return EXACT_SLUG_PAGES[pageSlug]();

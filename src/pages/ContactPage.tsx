@@ -3,6 +3,7 @@ import contactData from "../data/contact.generated.json";
 import type { ContactData } from "../types/contact";
 import { useScrollReveal } from "../lib/useScrollReveal";
 import { useNavVariant } from "../lib/navVariant";
+import { withTaraAI } from "../components/TaraAI";
 import styles from "./contact-page.module.css";
 
 const data = contactData as unknown as ContactData;
@@ -43,7 +44,7 @@ export default function ContactPage() {
           <div className={`${styles.ctMethods} reveal`}>
             {rows.map((r, i) => (
               <div className={styles.ctRow} key={i}>
-                <div className="k">{r.label}</div>
+                <div className="k">{withTaraAI(r.label)}</div>
                 <div className="v">
                   <a href={r.valueHref} target={r.valueHref.startsWith("http") ? "_blank" : undefined} rel={r.valueHref.startsWith("http") ? "noopener" : undefined}>
                     {r.valueText}

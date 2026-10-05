@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import wheretogoData from "../data/wheretogo.generated.json";
 import type { WhereToGoPageData } from "../types/wheretogo";
 import { useNavVariant } from "../lib/navVariant";
+import { TaraAI } from "../components/TaraAI";
 import styles from "./wheretogo-page.module.css";
 
 const data = wheretogoData as unknown as WhereToGoPageData;
@@ -98,7 +99,11 @@ export default function WhereToGoPage() {
             <div className={styles.wtgNotlive}>
               <p>
                 Matching is on its way. Meanwhile, browse <Link to="/collections">Collections</Link>,{" "}
-                <Link to="/destinations">Destinations</Link>, or <Link to="/enquire">tell your advisor</Link> what you're after.
+                <Link to="/destinations">Destinations</Link>, or{" "}
+                <Link to="/enquire">
+                  tell <TaraAI />
+                </Link>{" "}
+                what you're after.
               </p>
             </div>
           )}
