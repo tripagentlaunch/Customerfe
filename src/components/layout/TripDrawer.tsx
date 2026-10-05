@@ -4,6 +4,7 @@ import { useTripDrawer } from "../../lib/tripDrawer";
 import { useTripSummary, removeFromTrip, titleCase } from "../../lib/tripState";
 import { useTripHandoffHref } from "../../lib/advisor";
 import { useTripRange } from "../../lib/tripRange";
+import { TaraAI } from "../TaraAI";
 
 // Ported from js/shell.js's renderDrawer()/openCart()/closeCart() — the
 // persistent "My Trip" cart drawer. css/site.css's .ta-cart* rules apply
@@ -98,7 +99,7 @@ export function TripDrawer() {
             </div>
             <div className="ta-cart-foot">
               <a className="hand" href={handoff.href} target={handoff.external ? "_blank" : undefined} rel={handoff.external ? "noopener" : undefined}>
-                Hand to your advisor →
+                Hand to <TaraAI /> →
               </a>
               <Link className="open" to="/trip" onClick={close}>
                 Open the full builder

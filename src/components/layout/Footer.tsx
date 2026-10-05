@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { TaraAI } from "../TaraAI";
 
 // Extracted verbatim from index.html's <footer class="footer"> — same
 // content, same classes. The placeholder legal address is copied as-is from
@@ -36,7 +37,9 @@ export function Footer() {
         <div>
           <p className="fcol">Explore</p>
           <Link to="/how-it-works">How it works</Link>
-          <Link to="/how-we-work">Your advisor</Link>
+          <Link to="/how-we-work">
+            <TaraAI />
+          </Link>
           <Link to="/when-to-go">When to go</Link>
           <Link to="/services">What we handle</Link>
           <Link to="/destinations">Destinations</Link>
@@ -66,10 +69,12 @@ export function Footer() {
           <Link to="/refer">Refer a friend</Link>
           {WHATSAPP_NUMBER ? (
             <a href={ADVISOR_HREF} target="_blank" rel="noopener noreferrer">
-              Speak with your advisor
+              Speak with <TaraAI />
             </a>
           ) : (
-            <Link to={ADVISOR_HREF}>Speak with your advisor</Link>
+            <Link to={ADVISOR_HREF}>
+              Speak with <TaraAI />
+            </Link>
           )}
           <a href="mailto:maison@tripsure.com">maison@tripsure.com</a>
           <Link to="/trip">Build a trip</Link>

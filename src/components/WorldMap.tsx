@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { CSSProperties } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { geoPath, geoCentroid, geoArea } from "d3-geo";
 import { geoMiller } from "d3-geo-projection";
 import { feature, merge } from "topojson-client";
@@ -313,13 +313,166 @@ const REGION_POP_DURATION_S = 0.6;
 // (see WORLD_ANCHOR_SLUGS below) — one collective fade, not per-marker.
 const WORLD_MARKERS_DELAY_S = ((REGION_POP_ORDER.length - 1) * REGION_POP_STEP_MS) / 1000 + REGION_POP_DURATION_S;
 
-// A zoomed-in region's own city markers (activeCityMarkers below) use a
-// much shorter per-marker step, unrelated to the World-view sequence above
-// — selecting a tab shouldn't feel like a wait.
-const REGION_POP_STEP = 0.15;
+// Which floating-hover-card layout actually renders — all three are kept
+// (see the .hoverCard comment in WorldMap.module.css) purely so they're
+// easy to compare; flip this to switch. "vertical": image on top, text
+// below (compact, narrow). "horizontal": image left, text right (the
+// original FeaturedDestination layout, just sized down). "imageBg": the
+// photo itself as the card's background (4:3), white text overlaid direct
+// on it — no boxed-off image, no description/CTA.
+const HOVER_CARD_LAYOUT: "vertical" | "horizontal" | "imageBg" = "imageBg";
 
-export default function WorldMap() {
-  const [activeTab, setActiveTab] = useState(WORLD_TAB.key);
+// Floating hover card size, in the same locally-scaled coordinate space as
+// the dot/anchor it floats above (so it renders at a constant apparent
+// size regardless of zoom, same as the dot itself). GAP keeps it clear of
+// the dot's own hit area.
+const HOVER_CARD_DIMENSIONS = {
+  vertical: { w: 200, h: 190 },
+  horizontal: { w: 270, h: 100 },
+  imageBg: { w: 220, h: 165 }, // 4:3
+} as const;
+const { w: HOVER_CARD_W, h: HOVER_CARD_H } = HOVER_CARD_DIMENSIONS[HOVER_CARD_LAYOUT];
+const HOVER_CARD_GAP = 14;
+
+// Replaces the old .cityPreview square: a small card floating directly
+// above a city marker, always mounted with visibility as a pure opacity
+// transition (in both directions — unlike .cityPreview's instant hide) so
+// no tail/pointer is needed to read as attached to its dot. Not an <a>
+// itself (nested inside the marker's own Link/g in both call sites) —
+// navigates via onClick instead, to avoid nesting an anchor inside an
+// anchor.
+function CityHoverCard({
+  slug,
+  fallbackName,
+  visible,
+  isFeatured,
+  flipBelow,
+}: {
+  slug: string;
+  fallbackName: string;
+  visible: boolean;
+  // True only for the region's own actual featured/default city (its first
+  // marker) — not for whichever city merely happens to be hovered. The
+  // "Featured"/"Featured destination" label is reserved for that one city,
+  // regardless of whether it's currently showing via the idle default state
+  // or because the user is hovering that same city's own dot.
+  isFeatured: boolean;
+  // True when this dot sits too close to the top edge of the visible map
+  // for the card's normal above-the-dot placement to fit without clipping
+  // against the canvas (see CARD_FLIP_THRESHOLD_Y) — renders below the dot
+  // instead.
+  flipBelow: boolean;
+}) {
+  const navigate = useNavigate();
+  const cityData = CITIES[slug];
+  const image = cityData?.hero.image ?? null;
+  const name = cityData?.hero.name ?? fallbackName;
+  const country = cityData?.hero.breadcrumbCountry?.label ?? null;
+  const description = cityData?.hero.tagline ?? cityData?.ourTake.lede ?? null;
+
+  const wrapperProps = {
+    xmlns: "http://www.w3.org/1999/xhtml",
+    onClick: () => navigate(`/city-${slug}`),
+    role: "link" as const,
+    tabIndex: -1,
+  };
+  const foreignObjectProps = {
+    x: -HOVER_CARD_W / 2,
+    y: flipBelow ? HOVER_CARD_GAP : -HOVER_CARD_GAP - HOVER_CARD_H,
+    width: HOVER_CARD_W,
+    height: HOVER_CARD_H,
+    // pointerEvents: "none" on the <foreignObject> itself, not just its
+    // HTML content — otherwise this element's own (large) bounding box can
+    // still intercept hover/click at the SVG level in some browsers even
+    // while its content is invisible, which was triggering hover just from
+    // entering the empty space above a dot where the card would appear,
+    // not the dot itself. The visible card's own CSS re-enables
+    // pointer-events on itself (see .hoverCardVisible) — a descendant can
+    // still opt back in even though this ancestor opts out.
+    style: { overflow: "visible" as const, pointerEvents: "none" as const },
+  };
+
+  if (HOVER_CARD_LAYOUT === "imageBg") {
+    return (
+      <foreignObject {...foreignObjectProps}>
+        <div
+          {...wrapperProps}
+          className={`${styles.hoverCard} ${styles.hoverCardImg} ${visible ? styles.hoverCardVisible : ""}`}
+        >
+          {image && <img className={styles.hoverCardImgBg} src={image} alt="" />}
+          <div className={styles.hoverCardImgScrim} />
+          {isFeatured && <div className={styles.hoverCardImgFeature}>Featured</div>}
+          <div className={styles.hoverCardImgLocation}>
+            <div className={styles.hoverCardImgCity}>{name}</div>
+            {country && <div className={styles.hoverCardImgCountry}>{country}</div>}
+          </div>
+        </div>
+      </foreignObject>
+    );
+  }
+
+  const p = HOVER_CARD_LAYOUT === "vertical"
+    ? {
+        card: styles.hoverCardV,
+        imgWrap: styles.hoverCardVImgWrap,
+        body: styles.hoverCardVBody,
+        eyebrow: styles.hoverCardVEyebrow,
+        name: styles.hoverCardVName,
+        country: styles.hoverCardVCountry,
+        desc: styles.hoverCardVDesc,
+        cta: styles.hoverCardVCta,
+      }
+    : {
+        card: styles.hoverCardH,
+        imgWrap: styles.hoverCardHImgWrap,
+        body: styles.hoverCardHBody,
+        eyebrow: styles.hoverCardHEyebrow,
+        name: styles.hoverCardHName,
+        country: styles.hoverCardHCountry,
+        desc: styles.hoverCardHDesc,
+        cta: styles.hoverCardHCta,
+      };
+  return (
+    <foreignObject {...foreignObjectProps}>
+      <div
+        {...wrapperProps}
+        className={`${styles.hoverCard} ${p.card} ${visible ? styles.hoverCardVisible : ""}`}
+      >
+        {image && (
+          <div className={p.imgWrap}>
+            <img src={image} alt="" />
+          </div>
+        )}
+        <div className={p.body}>
+          {isFeatured && <div className={p.eyebrow}>Featured destination</div>}
+          <div className={p.name}>{name}</div>
+          {country && <div className={p.country}>{country}</div>}
+          {description && <p className={p.desc}>{description}</p>}
+          <span className={p.cta}>Discover</span>
+        </div>
+      </div>
+    </foreignObject>
+  );
+}
+
+export default function WorldMap({
+  activeTabOverride,
+  worldRevealKey,
+}: {
+  // Externally-driven tab (e.g. StickyWorldMap's scroll-cycling) — when set,
+  // this replaces both the click-driven tab bar's own state AND the built-in
+  // demo auto-cycle below, so the two don't fight over `activeTab`. Omit for
+  // the map's normal standalone behavior (tab-bar clicks + demo auto-cycle).
+  activeTabOverride?: string;
+  // Bumped by a parent (StickyWorldMap) each time the World-view entrance
+  // animation should replay — on becoming sticky, and each time scrolling
+  // back into World from a region while still pinned. Folded into the
+  // World-view reveal groups' own React key below to force a fresh mount
+  // (a CSS animation doesn't replay just because its class stays applied to
+  // the same, already-animated DOM node).
+  worldRevealKey?: number;
+} = {}) {
+  const [activeTab, setActiveTab] = useState(activeTabOverride ?? WORLD_TAB.key);
   // Connects three otherwise-separate elements — a region's shape on the
   // map, its name label, and its tab-bar button — so hovering ANY one of
   // them highlights all three together. Native CSS :hover can't reach
@@ -327,22 +480,19 @@ export default function WorldMap() {
   // lives nowhere near the map's own <g>), so this tracks it as state
   // instead and applies the SAME highlight classes from both directions.
   const [hoveredTab, setHoveredTab] = useState<string | null>(null);
-  // Drives the featured-destination card below — set on a city marker's own
-  // hover/focus (see activeCityMarkers rendering), cleared on leave. Not
-  // navigation state: clicking a marker still navigates via the existing
-  // <Link to={`/city-${slug}`}>, this only tracks which city's data the
-  // card should preview.
+  // Set on a city marker's own hover/focus (see activeCityMarkers
+  // rendering), cleared on leave. Not navigation state: clicking a marker
+  // still navigates; this only drives which marker's own floating
+  // CityHoverCard is shown.
   const [hoveredCity, setHoveredCity] = useState<string | null>(null);
-  // Extra zoom on top of the existing per-tab fit (activeTransform below) —
-  // applied as an outer transform wrapping the whole existing zoomGroup, so
-  // the existing region-fit/projection math is untouched; this only scales
-  // the already-computed view in/out around its own center. Reset (used by
-  // the controls' "world" button) clears this back to 1 alongside jumping
-  // activeTab back to World.
-  const [manualZoom, setManualZoom] = useState(1);
+  // Fixed at 1 now that the +/−/World controls are gone; the outer scale
+  // wrapper below stays so the zoom transform can come back without
+  // touching the region-fit math.
+  const manualZoom = 1;
   const canvasRef = useRef<HTMLDivElement | null>(null);
   
   useEffect(() => {
+    if (activeTabOverride) return; // externally controlled — skip the built-in demo auto-cycle
     let i = 0;
     const cycle = () => {
       setActiveTab(REGION_POP_ORDER[i % REGION_POP_ORDER.length]);
@@ -354,7 +504,11 @@ export default function WorldMap() {
     };
     const start = setTimeout(cycle, 1000);
     return () => clearTimeout(start);
-  }, []);
+  }, [activeTabOverride]);
+
+  useEffect(() => {
+    if (activeTabOverride) setActiveTab(activeTabOverride);
+  }, [activeTabOverride]);
 
   // The <svg>'s viewBox covers the map's FULL height (viewH below), but
   // .canvas crops that to a fixed shorter box via CSS + preserveAspectRatio
@@ -703,11 +857,12 @@ export default function WorldMap() {
   // height uncropped. Getting this wrong (as an earlier version did, by
   // always assuming the width-cropped case) understates how much height
   // is actually visible and throws off the vertical centering below.
-  const { tabTransforms, tabScales } = useMemo(() => {
+  const { tabTransforms, tabScales, tabTranslateY } = useMemo(() => {
     const viewBoxAspect = VB_W / viewH;
     const visibleViewH = !visibleAspect ? viewH : visibleAspect >= viewBoxAspect ? VB_W / visibleAspect : viewH;
     const transforms: Record<string, string> = { [WORLD_TAB.key]: "translate(0 0) scale(1)" };
     const scales: Record<string, number> = { [WORLD_TAB.key]: 1 };
+    const translateYs: Record<string, number> = { [WORLD_TAB.key]: 0 };
     for (const [key, b] of Object.entries(regionBounds)) {
       const boxW = b.x1 - b.x0;
       const boxH = b.y1 - b.y0;
@@ -723,8 +878,9 @@ export default function WorldMap() {
       const ty = visibleViewH / 2 - cy * scale + (TAB_PAN_Y_BIAS[key] ?? 0) * visibleViewH;
       transforms[key] = `translate(${tx} ${ty}) scale(${scale})`;
       scales[key] = scale;
+      translateYs[key] = ty;
     }
-    return { tabTransforms: transforms, tabScales: scales };
+    return { tabTransforms: transforms, tabScales: scales, tabTranslateY: translateYs };
   }, [regionBounds, visibleAspect, viewH]);
 
   const isZoomedIn = activeTab !== WORLD_TAB.key;
@@ -735,6 +891,31 @@ export default function WorldMap() {
   // counter-scales by 1/activeScale so it stays a constant screen size
   // instead of growing with the zoom.
   const activeScale = tabScales[activeTab] ?? 1;
+  const activeTranslateY = tabTranslateY[activeTab] ?? 0;
+
+  // Hover cards normally float ABOVE their dot (see CityHoverCard), but
+  // that clips against the canvas's own top edge for a dot near the top of
+  // whatever region is currently framed (Hanoi in SE Asia, say) — .canvas
+  // has overflow:hidden, so the card's own top just gets cut off. Below
+  // this one fixed line (in final, post-region-fit viewBox units — the
+  // same space a marker's own on-screen position is computed in, so it
+  // compares correctly across every tab's own independent zoom/pan, not
+  // just SE Asia's) a dot's card renders above as usual; at or above it,
+  // the card flips to render below the dot instead. Calibrated off Ho Chi
+  // Minh City's own position within SE Asia's fit specifically (measured
+  // here via the exact same projector/fit math used to place every other
+  // marker, not eyeballed from a screenshot) — chosen as a real dot that
+  // sits close to, without being right at, the top edge.
+  const CARD_FLIP_THRESHOLD_Y = useMemo(() => {
+    const seaCities = REGION_TABS.find((t) => t.key === "southeast-asia")?.cities ?? [];
+    const hcmc = seaCities.find((c) => c.slug === "ho-chi-minh-city");
+    if (!hcmc) return -Infinity; // never flip if the reference city is ever renamed/removed
+    const p = cityProjector(hcmc.lon, hcmc.lat);
+    if (!p) return -Infinity;
+    const scale = tabScales["southeast-asia"] ?? 1;
+    const ty = tabTranslateY["southeast-asia"] ?? 0;
+    return p[1] * scale + ty;
+  }, [cityProjector, tabScales, tabTranslateY]);
 
   // Some tabs span a huge area (Southern Europe runs Lisbon to Budapest to
   // Santorini) while also containing cities only tens of km apart (Milan/
@@ -841,6 +1022,29 @@ export default function WorldMap() {
     return markers.slice().sort((a, b) => a.x - b.x);
   }, [activeTab, isZoomedIn, activeScale, cityProjector]);
 
+  // The region's own featured city — whichever of its cities is also one
+  // of World view's curated anchors (WORLD_ANCHOR_SLUGS), the same
+  // "iconic destination" pick rather than a separate one; falling back to
+  // the westernmost city (activeCityMarkers is sorted west→east) only for
+  // a region with none of its own cities on that list.
+  const regionFeaturedSlug = useMemo(
+    () => activeCityMarkers.find((c) => WORLD_ANCHOR_SLUGS.includes(c.slug))?.slug ?? activeCityMarkers[0]?.slug,
+    [activeCityMarkers]
+  );
+
+  // The featured city's card (and its anchor-style bubble, in place of the
+  // plain dot — see activeCityMarkers rendering below) shows automatically
+  // for a few seconds right after switching into a region, as an entrance
+  // highlight — then goes back to being just like every other city,
+  // responding only to actual hover from then on. Resets on every tab
+  // switch, not just mount.
+  const [showFeaturedIntro, setShowFeaturedIntro] = useState(true);
+  useEffect(() => {
+    setShowFeaturedIntro(true);
+    const t = setTimeout(() => setShowFeaturedIntro(false), 2500);
+    return () => clearTimeout(t);
+  }, [activeTab]);
+
   // West→east delay for a serviced region's own group (see REGION_POP_ORDER
   // above) — every REGION_TABS key appears in that list, so the fallback
   // only matters if map-tabs.generated.json ever adds a region without
@@ -890,18 +1094,13 @@ export default function WorldMap() {
         // hover-highlight there. The label itself is separately withheld
         // for a couple of tabs (HIDDEN_LABEL_TABS) whose shape doesn't
         // read well with a name on it, but the hover-fill still applies.
-        // A reassigned exclave piece (French Guiana) or any tab once
-        // zoomed in — still gets the SAME west→east reveal as its own
-        // tab's main shape (same --pop-delay lookup), just without the
-        // hoverable/clickable .regionGroup wrapper below, which only makes
-        // sense for World view's own selectable blobs.
+        // A reassigned exclave piece (French Guiana), or any tab once
+        // zoomed in, renders plain/static — no pop-in — since the west→east
+        // reveal is a World-view-only entrance; it shouldn't replay every
+        // time the scroll-driven cycle (or a click) switches regions.
         if (!isBlob || isZoomedIn)
           return (
-            <g
-              key={c.key}
-              className={styles.regionReveal}
-              style={{ "--pop-delay": regionPopDelay(c.tabKey) } as CSSProperties}
-            >
+            <g key={c.key}>
               {shapePath}
             </g>
           );
@@ -923,8 +1122,14 @@ export default function WorldMap() {
             {/* The region's own complete geographic group (shape + name)
                 pops in together as one unit — see .regionReveal in
                 WorldMap.module.css — independent of this outer group's own
-                hover/click handling, which stays attached at rest. */}
-            <g className={styles.regionReveal} style={{ "--pop-delay": regionPopDelay(c.tabKey) } as CSSProperties}>
+                hover/click handling, which stays attached at rest. Keyed on
+                worldRevealKey so a bump forces a fresh mount, replaying the
+                animation (see the prop's own comment above). */}
+            <g
+              key={worldRevealKey}
+              className={styles.regionReveal}
+              style={{ "--pop-delay": regionPopDelay(c.tabKey) } as CSSProperties}
+            >
               {shapePath}
               {label &&
                 tabInfo &&
@@ -970,82 +1175,106 @@ export default function WorldMap() {
           on top of earlier ones), so every dot and its hover preview
           square below always show up above every city's name, not just
           its own. */}
-      {activeCityMarkers.map((m, i) => (
+      {activeCityMarkers.map((m) => (
         <g key={`label-${m.key}`} transform={`translate(${m.x} ${m.y}) scale(${1 / activeScale})`}>
-          <g className={styles.markerReveal} style={{ "--pop-delay": `${i * REGION_POP_STEP}s` } as CSSProperties}>
-            <text className={styles.cityLabel} x={m.labelDx} y={4 + m.labelDy} textAnchor={m.anchor}>
-              {m.name}
-            </text>
-          </g>
+          <text className={styles.cityLabel} x={m.labelDx} y={4 + m.labelDy} textAnchor={m.anchor}>
+            {m.name}
+          </text>
         </g>
       ))}
-      {/* Dots + their hover preview painted last, so they always sit above
-          every label and every other city's dot. */}
-      {activeCityMarkers.map((m, i) => {
-        // Same image CityPage.tsx's own hero section reads (CITIES[slug]
-        // .hero.image) — sourced live, not hardcoded, so if that page's
-        // hero image ever changes, this preview follows automatically.
+      {/* Dots painted last (in this pass), so they always sit above every
+          label and every other city's dot. The hover-triggering handlers
+          live on this outer <g>, not the dot's own Link, since the card's
+          clickable area (a plain div, not a nested Link — see
+          CityHoverCard) sits alongside it rather than inside it. Each
+          marker's own floating hover card is deliberately NOT rendered
+          here, in the same pass as its dot — with every marker painted in
+          one interleaved loop, a LATER city's dot would paint on top of an
+          EARLIER city's still-open card (SVG has no z-index, only document
+          order). All cards render together afterward, in their own
+          separate pass below, so a card always sits above every dot. */}
+      {activeCityMarkers.map((m) => {
+        const isHovered = hoveredCity === m.slug;
+        const isFeaturedIntro = showFeaturedIntro && !hoveredCity && m.slug === regionFeaturedSlug;
+        const showAnchorBubble = isHovered || isFeaturedIntro;
         const heroImage = CITIES[m.slug]?.hero.image ?? null;
-        const px = -40.5,
-          py = -95,
-          pw = 81,
-          ph = 81,
-          pr = 5;
         return (
-          <Link
+          <g
             key={m.key}
-            to={`/city-${m.slug}`}
-            className={styles.cityMarker}
             onMouseEnter={() => setHoveredCity(m.slug)}
             onMouseLeave={() => setHoveredCity((s) => (s === m.slug ? null : s))}
             onFocus={() => setHoveredCity(m.slug)}
             onBlur={() => setHoveredCity((s) => (s === m.slug ? null : s))}
           >
-            <g transform={`translate(${m.x} ${m.y}) scale(${1 / activeScale})`}>
-              {/* Region view's own (shorter/faster) west→east pop-in — see
-                  REGION_POP_STEP below; independent from the hover styling
-                  on .cityDot/.cityPreview, which stays a plain CSS
-                  transition unaffected by this one-shot entrance animation. */}
-              <g className={styles.markerReveal} style={{ "--pop-delay": `${i * REGION_POP_STEP}s` } as CSSProperties}>
-              <circle className={styles.cityDot} r={5} vectorEffect="non-scaling-stroke" />
-              {/* Image placeholder — painted after (so on top of) the dot,
-                  since it should cover it while showing, not sit behind
-                  it. Appears above the dot on hover, after a brief delay
-                  (so it doesn't flicker in while just passing over), but
-                  disappears the instant the cursor leaves (see the
-                  asymmetric transition-delay in WorldMap.module.css).
-                  Falls back to a plain swatch when a city has no hero
-                  image yet. */}
-              <g className={styles.cityPreview}>
-                {heroImage && (
-                  <clipPath id={`cityClip-${m.key}`}>
-                    <rect x={px} y={py} width={pw} height={ph} rx={pr} />
-                  </clipPath>
-                )}
-                <rect
-                  className={styles.cityPreviewBg}
-                  x={px}
-                  y={py}
-                  width={pw}
-                  height={ph}
-                  rx={pr}
+            <Link to={`/city-${m.slug}`} className={styles.cityMarker}>
+              {/* Region view: dots render plain/static, no pop-in — that
+                  entrance is World-view only (see the regionReveal comment
+                  above), so it doesn't replay on every region switch. */}
+              <g transform={`translate(${m.x} ${m.y}) scale(${1 / activeScale})`}>
+                {/* Invisible, larger than the visible dot — the visible r=5
+                    circle keeps a consistent apparent size across zoom levels
+                    (the 1/activeScale counter-scale above), which at a region's
+                    typical zoom shrinks its actual on-screen hit area to just
+                    a couple of CSS pixels, far too small to reliably hover.
+                    This sits on top purely for pointer events, at a fixed
+                    multiple of the visible radius so it never grows large
+                    enough to overlap a neighboring city's own dot. */}
+                <circle r={16} fill="transparent" stroke="none" />
+                <circle
+                  className={`${styles.cityDot} ${showAnchorBubble ? styles.cityDotHidden : ""}`}
+                  r={5}
                   vectorEffect="non-scaling-stroke"
                 />
+                {/* Swaps in for the plain dot on hover, OR briefly for the
+                    featured city right after switching tabs (see
+                    showFeaturedIntro) — same ring+image "anchor" styling
+                    World view uses for its own curated markers
+                    (.anchorRing/.anchorImage), so it reads as one
+                    consistent marker language across both views. */}
                 {heroImage && (
-                  <image
-                    href={heroImage}
-                    x={px}
-                    y={py}
-                    width={pw}
-                    height={ph}
-                    preserveAspectRatio="xMidYMid slice"
-                    clipPath={`url(#cityClip-${m.key})`}
-                  />
+                  <g className={`${styles.cityAnchorMarker} ${showAnchorBubble ? styles.cityAnchorMarkerVisible : ""}`}>
+                    <circle className={styles.anchorRing} r={11} vectorEffect="non-scaling-stroke" />
+                    <clipPath id={`cityAnchorClip-${m.key}`}>
+                      <circle r={8} />
+                    </clipPath>
+                    <image
+                      href={heroImage}
+                      x={-8}
+                      y={-8}
+                      width={16}
+                      height={16}
+                      preserveAspectRatio="xMidYMid slice"
+                      clipPath={`url(#cityAnchorClip-${m.key})`}
+                      className={styles.anchorImage}
+                    />
+                  </g>
                 )}
               </g>
-              </g>
-            </g>
-          </Link>
+            </Link>
+          </g>
+        );
+      })}
+      {/* Hover cards — one shared pass, painted after every dot above (see
+          the comment there) so a card is never covered by another city's
+          own dot. Shown automatically for the region's own featured city
+          (see regionFeaturedSlug) for a few seconds right after switching
+          into this tab (showFeaturedIntro), or for whichever city IS
+          hovered — otherwise nothing shows by default, same as every other
+          city, once that intro window has passed. */}
+      {activeCityMarkers.map((m) => {
+        const isRegionFeatured = m.slug === regionFeaturedSlug;
+        const cardVisible = (isRegionFeatured && showFeaturedIntro && !hoveredCity) || hoveredCity === m.slug;
+        const flipBelow = m.y * activeScale + activeTranslateY < CARD_FLIP_THRESHOLD_Y;
+        return (
+          <g key={`card-${m.key}`} transform={`translate(${m.x} ${m.y}) scale(${1 / activeScale})`}>
+            <CityHoverCard
+              slug={m.slug}
+              fallbackName={m.name}
+              visible={cardVisible}
+              isFeatured={isRegionFeatured}
+              flipBelow={flipBelow}
+            />
+          </g>
         );
       })}
       {/* Premium destination anchors — World view only (see worldAnchors
@@ -1060,95 +1289,76 @@ export default function WorldMap() {
           !isZoomedIn. */}
       {!isZoomedIn && (
         <g
+          key={worldRevealKey}
           className={styles.worldMarkersReveal}
           style={{ "--pop-delay": `${WORLD_MARKERS_DELAY_S}s` } as CSSProperties}
         >
+          {/* Anchors painted here; their hover cards render in a separate
+              pass afterward (same reasoning as the region-view dots
+              above) so a card is never covered by another anchor's own
+              icon. */}
           {worldAnchors.map((a) => (
-            <Link
+            <g
               key={`anchor-${a.key}`}
-              to={`/city-${a.slug}`}
-              className={styles.worldAnchor}
               onMouseEnter={() => setHoveredCity(a.slug)}
               onMouseLeave={() => setHoveredCity((s) => (s === a.slug ? null : s))}
               onFocus={() => setHoveredCity(a.slug)}
               onBlur={() => setHoveredCity((s) => (s === a.slug ? null : s))}
             >
-              <g transform={`translate(${a.x} ${a.y})`}>
-                {/* .anchorScale's own hover transform stays independent of
-                    the collective entrance fade above. */}
-                <g className={styles.anchorScale}>
-                  <circle className={styles.anchorRing} r={11} vectorEffect="non-scaling-stroke" />
-                  <clipPath id={`anchorClip-${a.key}`}>
-                    <circle r={8} />
-                  </clipPath>
-                  <image
-                    href={a.image}
-                    x={-8}
-                    y={-8}
-                    width={16}
-                    height={16}
-                    preserveAspectRatio="xMidYMid slice"
-                    clipPath={`url(#anchorClip-${a.key})`}
-                    className={styles.anchorImage}
-                  />
-                  <text className={styles.anchorLabel} x={0} y={25} textAnchor="middle">
-                    {a.name}
-                  </text>
+              <Link to={`/city-${a.slug}`} className={styles.worldAnchor}>
+                <g transform={`translate(${a.x} ${a.y})`}>
+                  {/* .anchorScale's own hover transform stays independent of
+                      the collective entrance fade above. */}
+                  <g className={styles.anchorScale}>
+                    {/* Invisible, slightly larger than the ring — the link's
+                        own bounding box spans both this icon and its label
+                        below, so hovering its geometric center can land in
+                        the empty gap between them and miss both; this keeps
+                        the actual icon itself comfortably hoverable. */}
+                    <circle r={14} fill="transparent" stroke="none" />
+                    <circle className={styles.anchorRing} r={11} vectorEffect="non-scaling-stroke" />
+                    <clipPath id={`anchorClip-${a.key}`}>
+                      <circle r={8} />
+                    </clipPath>
+                    <image
+                      href={a.image}
+                      x={-8}
+                      y={-8}
+                      width={16}
+                      height={16}
+                      preserveAspectRatio="xMidYMid slice"
+                      clipPath={`url(#anchorClip-${a.key})`}
+                      className={styles.anchorImage}
+                    />
+                    <text className={styles.anchorLabel} x={0} y={25} textAnchor="middle">
+                      {a.name}
+                    </text>
+                  </g>
                 </g>
-              </g>
-            </Link>
+              </Link>
+            </g>
+          ))}
+          {/* No default here (unlike region view) — World only shows a card
+              while actively hovering an anchor. */}
+          {worldAnchors.map((a) => (
+            <g key={`anchor-card-${a.key}`} transform={`translate(${a.x} ${a.y})`}>
+              <CityHoverCard
+                slug={a.slug}
+                fallbackName={a.name}
+                visible={hoveredCity === a.slug}
+                isFeatured={false}
+                flipBelow={a.y * activeScale + activeTranslateY < CARD_FLIP_THRESHOLD_Y}
+              />
+            </g>
           ))}
         </g>
       )}
     </>
   );
 
-  const activeTabInfo = ALL_TABS.find((t) => t.key === activeTab);
-
-  // Featured destination card: on a zoomed-in region, defaults to that
-  // region's first city; on World view, defaults to the first of the
-  // curated worldAnchors (see above) — either way then follows whichever
-  // marker is actually hovered/focused. Pulls only fields CityData already
-  // has (see types/city.ts) rather than inventing any.
-  const featuredSlug = isZoomedIn
-    ? (hoveredCity ?? activeCityMarkers[0]?.slug ?? null)
-    : (hoveredCity ?? worldAnchors[0]?.slug ?? null);
-  const featuredMarker = featuredSlug
-    ? ((isZoomedIn ? activeCityMarkers : worldAnchors).find((m) => m.slug === featuredSlug) ?? null)
-    : null;
-  const featuredCityData = featuredSlug ? CITIES[featuredSlug] : null;
-  const featured =
-    featuredSlug && featuredMarker
-      ? {
-          slug: featuredSlug,
-          name: featuredCityData?.hero.name ?? featuredMarker.name,
-          country: featuredCityData?.hero.breadcrumbCountry?.label ?? null,
-          image: featuredCityData?.hero.image ?? null,
-          description: featuredCityData?.hero.tagline ?? featuredCityData?.ourTake.lede ?? null,
-        }
-      : null;
-
-  const MIN_ZOOM = 0.7;
-  const MAX_ZOOM = 2.5;
-  const zoomIn = () => setManualZoom((z) => Math.min(MAX_ZOOM, +(z + 0.25).toFixed(2)));
-  const zoomOut = () => setManualZoom((z) => Math.max(MIN_ZOOM, +(z - 0.25).toFixed(2)));
-  const resetView = () => {
-    setManualZoom(1);
-    setActiveTab(WORLD_TAB.key);
-  };
-
   return (
     <div className={styles.mapArea}>
       <div className={`${styles.canvas} ${revealed ? styles.revealed : ""}`} ref={canvasRef}>
-        {isZoomedIn && activeTabInfo && (
-          <div className={styles.breadcrumb} aria-hidden="true">
-            <button type="button" onClick={() => setActiveTab(WORLD_TAB.key)}>
-              World
-            </button>
-            <span>/</span>
-            <span className={styles.breadcrumbCurrent}>{activeTabInfo.label}</span>
-          </div>
-        )}
         <div className={`cg-tabs ${styles.tabs}`} role="tablist" aria-label="Map region">
           {ALL_TABS.map((tab) => (
             <button
@@ -1199,40 +1409,7 @@ export default function WorldMap() {
             </g>
           </g>
         </svg>
-        <div className={styles.mapControls}>
-          <button type="button" onClick={zoomIn} disabled={manualZoom >= MAX_ZOOM} aria-label="Zoom in">
-            +
-          </button>
-          <button type="button" onClick={zoomOut} disabled={manualZoom <= MIN_ZOOM} aria-label="Zoom out">
-            &minus;
-          </button>
-          <button type="button" onClick={resetView} aria-label="Reset to world view">
-            World
-          </button>
-        </div>
       </div>
-      {featured && (
-        <Link
-          key={featured.slug}
-          to={`/city-${featured.slug}`}
-          className={styles.featuredCard}
-          onMouseEnter={() => setHoveredCity(featured.slug)}
-          onMouseLeave={() => setHoveredCity((s) => (s === featured.slug ? null : s))}
-        >
-          {featured.image && (
-            <div className={styles.featuredImgWrap}>
-              <img src={featured.image} alt="" />
-            </div>
-          )}
-          <div className={styles.featuredBody}>
-            <div className={styles.featuredEyebrow}>Featured destination</div>
-            <div className={styles.featuredName}>{featured.name}</div>
-            {featured.country && <div className={styles.featuredCountry}>{featured.country}</div>}
-            {featured.description && <p className={styles.featuredDesc}>{featured.description}</p>}
-            <span className={styles.featuredCta}>Discover</span>
-          </div>
-        </Link>
-      )}
     </div>
   );
 }

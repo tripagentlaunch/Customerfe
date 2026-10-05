@@ -4,6 +4,7 @@ import hotelsData from "../data/hotels.generated.json";
 import type { HotelsPageData } from "../types/hotels";
 import { useScrollReveal } from "../lib/useScrollReveal";
 import { toRoute } from "../lib/toRoute";
+import { TaraAI } from "../components/TaraAI";
 import styles from "./hotels-page.module.css";
 
 const data = hotelsData as unknown as HotelsPageData;
@@ -62,7 +63,7 @@ export default function HotelsPage() {
           <div className={styles.hsGate}>
             <p>Live search is on its way. Meanwhile, tell your advisor the dates and the destination — they'll hold rooms and rates for you directly.</p>
             <Link className="btn btn-gold" to="/enquire">
-              Plan a trip with your advisor
+              Plan a trip with <TaraAI />
             </Link>
           </div>
         </div>

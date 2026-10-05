@@ -18,6 +18,7 @@ import type {
 } from "../types/health";
 import { useScrollReveal } from "../lib/useScrollReveal";
 import { toRoute } from "../lib/toRoute";
+import { withTaraAI } from "../components/TaraAI";
 import "./health-page.module.css";
 
 const HEALTH = health as unknown as Record<string, HealthData>;
@@ -610,7 +611,7 @@ export default function HealthPage() {
           </div>
           <div className="btn-row">
             <Link className="btn btn-gold on-dark btn-square" to={toRoute(data.concierge.cta.href ?? "/enquire")}>
-              {data.concierge.cta.label}
+              {withTaraAI(data.concierge.cta.label)}
             </Link>
           </div>
         </div>

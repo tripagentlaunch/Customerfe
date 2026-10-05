@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import type { CollectionPageData } from "../types/collection-page";
 import { useScrollReveal } from "../lib/useScrollReveal";
 import { toRoute } from "../lib/toRoute";
+import { PrimaryInverseButton, SecondaryInverseButton } from "../components/buttons/InverseButtons";
 import styles from "./collection-page.module.css";
 
 export default function CollectionPageLayout({ data }: { data: CollectionPageData }) {
@@ -165,11 +166,17 @@ export default function CollectionPageLayout({ data }: { data: CollectionPageDat
             {cta.lede}
           </p>
           <div className="btn-row center reveal d2" style={{ marginTop: 28 }}>
-            {cta.buttons.map((b, i) => (
-              <Link className={i === 0 ? "btn btn-gold on-dark" : "btn btn-ghost on-dark"} to={toRoute(b.href)} key={i}>
-                {b.label}
-              </Link>
-            ))}
+            {cta.buttons.map((b, i) =>
+              i === 0 ? (
+                <PrimaryInverseButton to={b.href} key={i}>
+                  {b.label}
+                </PrimaryInverseButton>
+              ) : (
+                <SecondaryInverseButton to={b.href} key={i}>
+                  {b.label}
+                </SecondaryInverseButton>
+              )
+            )}
           </div>
         </div>
       </section>

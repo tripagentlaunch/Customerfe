@@ -1,9 +1,8 @@
 import { useEffect } from "react";
-import { Link } from "react-router-dom";
 import aboutData from "../data/about-page.generated.json";
 import type { AboutPageData } from "../types/about-page";
 import { useScrollReveal } from "../lib/useScrollReveal";
-import { toRoute } from "../lib/toRoute";
+import { PrimaryInverseButton, SecondaryInverseButton } from "../components/buttons/InverseButtons";
 import styles from "./about-page.module.css";
 
 const data = aboutData as unknown as AboutPageData;
@@ -149,27 +148,30 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* "Values"'s own copy was replaced by the former closing CTA's
+          (the page's actual final CTA) per explicit request — this section
+          keeps only `values.image` as its photo background now; the plain
+          light `cta` band that used to follow it is gone, folded in here
+          instead, so the photo band is genuinely the last section before
+          the footer. */}
       <section className="band-dark band center" style={{ backgroundImage: `var(--scrim), url('${values.image}')` }}>
         <div className="wrap">
-          <h2 className="quote center reveal" style={{ maxWidth: "26ch" }} dangerouslySetInnerHTML={{ __html: values.headingHtml ?? "" }} />
-          <p className="lede on-dark reveal d2" style={{ margin: "24px auto 0" }}>
-            {values.lede}
-          </p>
-        </div>
-      </section>
-
-      <section className="band center">
-        <div className="wrap">
           <h2 className="reveal" style={{ fontSize: "clamp(30px,4vw,58px)" }} dangerouslySetInnerHTML={{ __html: cta.headingHtml ?? "" }} />
-          <p className="lede reveal d1" style={{ margin: "22px auto 0" }}>
+          <p className="lede on-dark reveal d1" style={{ margin: "22px auto 0" }}>
             {cta.lede}
           </p>
           <div className="btn-row center reveal d2" style={{ marginTop: 26 }}>
-            {cta.buttons.map((b, i) => (
-              <Link className={i === 0 ? "btn btn-gold" : "btn btn-ghost"} to={toRoute(b.href)} key={i}>
-                {b.label}
-              </Link>
-            ))}
+            {cta.buttons.map((b, i) =>
+              i === 0 ? (
+                <PrimaryInverseButton to={b.href} key={i}>
+                  {b.label}
+                </PrimaryInverseButton>
+              ) : (
+                <SecondaryInverseButton to={b.href} key={i}>
+                  {b.label}
+                </SecondaryInverseButton>
+              )
+            )}
           </div>
         </div>
       </section>
