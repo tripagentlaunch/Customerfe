@@ -31,7 +31,10 @@
 }
 .canvas {
   position: relative;
-  height: min(72vw, 780px);
+  /* Fills whatever height .mapArea's flex parent (StickyWorldMap's
+     .sticky) gives it — not a fixed/viewport-width-based height — so the
+     map always fits below the heading/stats block within one viewport. */
+  height: 100%;
   overflow: hidden;
 }
 .map {
@@ -61,18 +64,29 @@
   stroke-width: 0.6;
   stroke-linejoin: round;
   opacity: 0.55;
-  transition: opacity 0.5s var(--ease, ease), fill 0.3s var(--ease, ease);
+  /* Small delay on the fill specifically (not opacity) — a brief pause
+     before the hover tint starts reads as a deliberate, smoother reveal
+     rather than an instant snap; applies both on hover-in and hover-out. */
+  transition: opacity 0.5s var(--ease, ease), fill 0.3s var(--ease, ease) 0.08s;
 }
 .regionGroup {
   cursor: pointer;
 }
+/* !important: each shape plays a one-shot entrance animation on mount
+   (regionShapePopIn, see .revealed .regionReveal .country below) with
+   animation-fill-mode: both — that keeps the animation's own end-state
+   fill in control of the property indefinitely, even long after it
+   finishes running, which silently outranks a plain (non-animated) rule
+   for that same property regardless of selector specificity. Without
+   !important here, hovering would visibly retint .regionLabel (not
+   animated) but never the shape itself. */
 .regionGroup:hover .country:not(.active),
 .regionGroup.regionHovered .country:not(.active) {
-  fill: #f4ebda;
+  fill: #f4ebda !important;
 }
 :global(:root[data-theme="dark"]) .regionGroup:hover .country,
 :global(:root[data-theme="dark"]) .regionGroup.regionHovered .country {
-  fill: #1e1a14;
+  fill: #1e1a14 !important;
 }
 .regionLabel {
   font-family: var(--serif);
@@ -82,7 +96,9 @@
   text-transform: uppercase;
   fill: #b7a488;
   pointer-events: auto;
-  transition: fill 0.3s var(--ease, ease);
+  /* Same small delay as .country's own fill transition, so the shape and
+     its name tint together rather than one lagging the other. */
+  transition: fill 0.3s var(--ease, ease) 0.08s;
 }
 .regionGroup:hover .regionLabel,
 .regionGroup.regionHovered .regionLabel {
@@ -134,139 +150,255 @@
 }
 .mapArea {
   position: relative;
+  flex: 1;
+  min-height: 0;
 }
-.mapControls {
-  position: absolute;
-  right: 14px;
-  bottom: 14px;
-  z-index: 3;
+/* Floating hover card — sits directly above a city dot/anchor (positioned
+   by its parent <foreignObject>'s x/y, in the same locally-scaled
+   coordinate space as the dot itself, so it renders at a constant apparent
+   size regardless of zoom). Always mounted; visibility is a pure opacity
+   transition (both in AND out — unlike the old .cityPreview square this
+   replaces, which snapped to hidden instantly) so it never needs a tail or
+   pointer to read as "belonging" to the dot it's over.
+
+   Three layout variants, all kept (none deleted in favor of another) so
+   they're easy to compare — HOVER_CARD_LAYOUT in WorldMap.tsx picks which
+   one actually renders. .hoverCard/.hoverCardVisible are shared by all
+   three; the V-/H-/Img- prefixed classes are each layout's own inner
+   structure. */
+.hoverCard {
   display: flex;
-  gap: 1px;
-  background: var(--line, #e7e6e2);
-  border: 1px solid var(--line, #e7e6e2);
-  box-shadow: var(--shadow, 0 12px 34px rgba(22, 20, 16, 0.08));
-}
-.mapControls button {
-  min-width: 34px;
-  height: 34px;
-  padding: 0 10px;
-  border: none;
-  background: var(--paper, #fff);
-  color: var(--ink);
-  font-family: var(--fr);
-  font-size: 13px;
-  font-weight: 600;
-  letter-spacing: 0.02em;
-  cursor: pointer;
-  transition: background 0.25s var(--ease, ease), color 0.25s var(--ease, ease);
-}
-.mapControls button:hover:not(:disabled) {
-  background: var(--paper-2, #fafaf8);
-  color: var(--signature);
-}
-.mapControls button:disabled {
-  color: var(--line, #e7e6e2);
-  cursor: default;
-}
-.featuredCard {
-  display: flex;
-  gap: 14px;
-  align-items: stretch;
+  width: 100%;
+  height: 100%;
   text-decoration: none;
   color: inherit;
+  cursor: pointer;
   background: var(--paper, #fff);
   border: 1px solid var(--line, #e7e6e2);
-  box-shadow: var(--shadow, 0 12px 34px rgba(22, 20, 16, 0.08));
-  margin: 14px 20px 0;
-  padding: 12px;
-  max-width: 360px;
-  transition: box-shadow 0.35s var(--ease, ease), transform 0.35s var(--ease, ease);
+  /* !important: site.css has a global `*{box-shadow:none!important}` reset
+     (its own deliberate "flat, no shadows" design language, with a short
+     explicit exception list for floating overlays) — this floating card is
+     the same kind of exception, just declared here instead of there. */
+  box-shadow: var(--shadow-lg, 0 24px 56px rgba(22, 20, 16, 0.12)) !important;
+  padding: 9px;
+  box-sizing: border-box;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s var(--ease, ease);
 }
-.featuredCard:hover {
-  box-shadow: var(--shadow-lg, 0 24px 56px rgba(22, 20, 16, 0.12));
-  transform: translateY(-2px);
+.hoverCardVisible {
+  opacity: 1;
+  pointer-events: auto;
 }
-.featuredImgWrap {
+
+/* Vertical (image on top, text below) */
+.hoverCardV {
+  flex-direction: column;
+}
+.hoverCardVImgWrap {
   flex: none;
-  width: 92px;
+  width: 100%;
+  height: 92px;
   border-radius: 3px;
   overflow: hidden;
 }
-.featuredImgWrap img {
+.hoverCardVImgWrap img {
   display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: transform 0.5s var(--ease, ease);
 }
-.featuredCard:hover .featuredImgWrap img {
-  transform: scale(1.06);
+.hoverCardVBody {
+  flex: 1;
+  min-width: 0;
+  margin-top: 7px;
 }
-.featuredBody {
+.hoverCardVEyebrow {
+  font-family: var(--fr);
+  font-weight: 600;
+  font-size: 9px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--signature);
+}
+.hoverCardVName {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.15;
+  color: var(--ink);
+  margin-top: 3px;
+}
+.hoverCardVCountry {
+  font-family: var(--fr);
+  font-size: 10px;
+  color: var(--stone);
+  margin-top: 2px;
+}
+.hoverCardVDesc {
+  font-family: var(--fr);
+  font-size: 11px;
+  line-height: 1.4;
+  color: var(--ink-soft);
+  margin: 5px 0 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.hoverCardVCta {
+  margin-top: 6px;
+  font-family: var(--fr);
+  font-weight: 600;
+  font-size: 10.5px;
+  letter-spacing: 0.04em;
+  color: var(--signature);
+}
+
+/* Horizontal (image left, text right) — the original FeaturedDestination
+   layout, just sized down to suit floating over a single map point rather
+   than a fixed corner placement with room to spread out to 320-360px. */
+.hoverCardH {
+  flex-direction: row;
+  gap: 10px;
+  align-items: stretch;
+}
+.hoverCardHImgWrap {
+  flex: none;
+  width: 78px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+.hoverCardHImgWrap img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hoverCardHBody {
   flex: 1;
   min-width: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.featuredEyebrow {
+.hoverCardHEyebrow {
   font-family: var(--fr);
   font-weight: 600;
-  font-size: 9.5px;
+  font-size: 8.5px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--signature);
 }
-.featuredName {
+.hoverCardHName {
   font-family: var(--serif);
   font-weight: 500;
-  font-size: 19px;
+  font-size: 15px;
   line-height: 1.15;
   color: var(--ink);
-  margin-top: 4px;
+  margin-top: 3px;
 }
-.featuredCountry {
+.hoverCardHCountry {
   font-family: var(--fr);
-  font-size: 11px;
+  font-size: 9.5px;
   color: var(--stone);
   margin-top: 2px;
 }
-.featuredDesc {
+.hoverCardHDesc {
   font-family: var(--fr);
-  font-size: 12.5px;
-  line-height: 1.45;
+  font-size: 10.5px;
+  line-height: 1.35;
   color: var(--ink-soft);
-  margin: 6px 0 0;
+  margin: 4px 0 0;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
-.featuredCta {
-  margin-top: 8px;
+.hoverCardHCta {
+  margin-top: 5px;
   font-family: var(--fr);
   font-weight: 600;
-  font-size: 11.5px;
+  font-size: 10px;
   letter-spacing: 0.04em;
   color: var(--signature);
 }
-.featuredCta::after {
-  content: " \2192";
-  transition: transform 0.3s var(--ease, ease);
-  display: inline-block;
+
+/* Image-background (4:3) — the photo itself is the card, white text
+   overlaid directly on it: "Feature" top-left, city + country bottom-left.
+   No boxed-off image area and no separate body/desc/CTA — just the two
+   overlaid labels. Subtle elevation (var(--shadow), the site's own
+   "regular" token) rather than the heavier --shadow-lg the other two
+   variants use underneath (see .hoverCard), since the photo background
+   already gives it plenty of visual weight. */
+.hoverCardImg {
+  position: relative;
+  padding: 0;
+  border: none;
+  /* No overflow:hidden here — harmless either way for the box-shadow site.css
+     fights over (see the !important note on .hoverCard above), but corner-
+     rounding lives on the two full-bleed layers below (the image and the
+     scrim) regardless, each with their own border-radius. */
+  box-shadow: var(--shadow, 0 12px 34px rgba(22, 20, 16, 0.08)) !important;
+  border-radius: 4px;
 }
-.featuredCard:hover .featuredCta::after {
-  transform: translateX(3px);
+.hoverCardImgBg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
 }
-@media (min-width: 900px) {
-  .featuredCard {
-    position: absolute;
-    left: 20px;
-    bottom: 20px;
-    margin: 0;
-    width: 320px;
-    max-width: calc(100% - 40px);
-  }
+.hoverCardImgScrim {
+  position: absolute;
+  inset: 0;
+  border-radius: 4px;
+  /* Dark at both the top (for "Feature") and bottom (for city/country),
+     lighter through the middle — legible over any photo regardless of its
+     own tonal range, without flattening the whole image to one dark tint. */
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.4) 0%,
+    rgba(0, 0, 0, 0) 32%,
+    rgba(0, 0, 0, 0) 55%,
+    rgba(0, 0, 0, 0.62) 100%
+  );
+}
+.hoverCardImgFeature {
+  position: absolute;
+  top: 9px;
+  left: 10px;
+  font-family: var(--fr);
+  font-weight: 600;
+  font-size: 9px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: var(--shadow-dark, 0 2px 28px rgba(0, 0, 0, 0.4));
+}
+.hoverCardImgLocation {
+  position: absolute;
+  bottom: 9px;
+  left: 10px;
+  right: 10px;
+  color: #fff;
+}
+.hoverCardImgCity {
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 1.2;
+  text-shadow: var(--shadow-dark, 0 2px 28px rgba(0, 0, 0, 0.4));
+}
+.hoverCardImgCountry {
+  font-family: var(--fr);
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 1.3;
+  margin-top: 2px;
+  color: rgba(255, 255, 255, 0.85);
+  text-shadow: var(--shadow-dark, 0 2px 28px rgba(0, 0, 0, 0.4));
 }
 @keyframes markerPopIn {
   0% {
@@ -299,18 +431,15 @@
 @keyframes regionPopIn {
   0% {
     opacity: 0;
-    transform: scale(0.6);
   }
   100% {
     opacity: 1;
-    transform: scale(1);
   }
 }
 .regionReveal {
   transform-box: fill-box;
   transform-origin: 50% 50%;
   opacity: 0;
-  transform: scale(0.6);
 }
 .revealed .regionReveal {
   animation: regionPopIn 2s cubic-bezier(0.22, 0.61, 0.36, 1) both;
@@ -368,12 +497,26 @@
   fill: #d4af37;
   stroke: var(--paper, #fff);
   stroke-width: 1.5;
-  transition: fill 0.25s var(--ease, ease), filter 0.25s var(--ease, ease);
+  transition: fill 0.25s var(--ease, ease), filter 0.25s var(--ease, ease), opacity 0.15s var(--ease, ease);
 }
 .cityMarker:hover .cityDot,
 .cityMarker:focus-visible .cityDot {
   fill: var(--ink);
   filter: drop-shadow(0 0 4px rgba(110, 42, 56, 0.55));
+}
+.cityDotHidden {
+  opacity: 0;
+}
+/* Swapped in on hover in place of the plain dot (see .cityDotHidden above)
+   — same .anchorRing/.anchorImage styling World view's own markers use, so
+   both views read as one marker language, just reserved for the hover
+   moment here rather than being the resting state. */
+.cityAnchorMarker {
+  opacity: 0;
+  transition: opacity 0.15s var(--ease, ease);
+}
+.cityAnchorMarkerVisible {
+  opacity: 1;
 }
 .cityLabel {
   font-family: var(--fr, sans-serif);

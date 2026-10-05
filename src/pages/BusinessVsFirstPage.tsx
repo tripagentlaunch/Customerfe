@@ -4,6 +4,8 @@ import bvfData from "../data/business-vs-first.generated.json";
 import type { BusinessVsFirstPageData, VRowSection } from "../types/business-vs-first";
 import { useScrollReveal } from "../lib/useScrollReveal";
 import { toRoute } from "../lib/toRoute";
+import { PrimaryInverseButton, SecondaryInverseButton } from "../components/buttons/InverseButtons";
+import { withTaraAI } from "../components/TaraAI";
 import styles from "./business-vs-first-page.module.css";
 
 const data = bvfData as unknown as BusinessVsFirstPageData;
@@ -66,7 +68,7 @@ export default function BusinessVsFirstPage() {
             <p className="lede on-dark reveal d2">{hero.lede}</p>
             <div className={`${styles.dpCta} reveal d2`}>
               <Link className="btn btn-gold on-dark btn-square" to={toRoute(hero.ctaGold.href)}>
-                {hero.ctaGold.label}
+                {withTaraAI(hero.ctaGold.label)}
               </Link>
               <a className="cta on-dark" href={hero.ctaText.href}>
                 {hero.ctaText.label}
@@ -165,11 +167,17 @@ export default function BusinessVsFirstPage() {
             {cta.lede}
           </p>
           <div className="btn-row center reveal d2" style={{ marginTop: 28 }}>
-            {cta.buttons.map((b, i) => (
-              <Link className={i === 0 ? "btn btn-gold on-dark" : "btn btn-ghost on-dark"} to={toRoute(b.href)} key={i}>
-                {b.label}
-              </Link>
-            ))}
+            {cta.buttons.map((b, i) =>
+              i === 0 ? (
+                <PrimaryInverseButton to={b.href} key={i}>
+                  {withTaraAI(b.label)}
+                </PrimaryInverseButton>
+              ) : (
+                <SecondaryInverseButton to={b.href} key={i}>
+                  {withTaraAI(b.label)}
+                </SecondaryInverseButton>
+              )
+            )}
           </div>
         </div>
       </section>

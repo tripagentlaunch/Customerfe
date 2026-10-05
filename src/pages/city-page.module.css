@@ -43,38 +43,11 @@
  .plan-cta-arrow{display:inline-block;opacity:0;transform:translateX(-6px);transition:opacity .4s var(--ease-lux,var(--ease)),transform .4s var(--ease-lux,var(--ease))}
  :global(.btn-gold).plan-cta:hover .plan-cta-arrow{opacity:1;transform:translateX(2px)}
 
- /* The hero's own primary CTA ("Plan Santorini") — same white fill and dark
-    text at rest as .plan-cta above (site.css's .btn-gold.on-dark is
-    transparent with white text, meant for an outline button over a photo).
-    Fill/color stay exactly the same on hover — no fill reveal, just the
-    text itself. Same technique as the Guide cards' own text column
-    (.card-body: scale(1.08) at rest, settling to scale(1) on hover) but
-    reversed: small at rest, full-size on hover, so the label reads as
-    "growing" rather than "settling". transform, not letter-spacing/margin,
-    specifically because it never affects layout — the button's own box
-    can't be pushed wider by it, unlike the margin-based attempt before
-    this (visible growing-button bug) or a letter-spacing one (blocked by
-    site.css's .btn{letter-spacing:.14em!important} on this same element
-    anyway). site.css's own .btn-square::after arrow is suppressed here in
-    favour of the same child-of-the-scaled-label arrow used by .plan-cta —
-    a sibling pseudo-element positioned off the unscaled label would drift
-    apart from it once the label grows. */
- :global(.btn-gold.on-dark).hero-cta{background:#fff!important;color:#1A1714!important}
- :global(.btn-gold.on-dark).hero-cta::after{display:none!important}
- .hero-cta-label{display:inline-flex;align-items:center;gap:8px;transform:scale(1);transition:transform .4s var(--ease)}
- :global(.btn-gold.on-dark).hero-cta:hover .hero-cta-label{transform:scale(1.1)}
- .hero-cta-arrow{display:inline-block;opacity:0;transform:translateX(-6px);transition:opacity .4s var(--ease),transform .4s var(--ease)}
- :global(.btn-gold.on-dark).hero-cta:hover .hero-cta-arrow{opacity:1;transform:translateX(2px)}
-
- /* The hero's secondary CTA ("Guide") — same idle/hover text-scale and
-    arrow-in-label treatment as .hero-cta above, sharing its .hero-cta-label
-    and .hero-cta-arrow rules. Unlike the primary button, this one keeps its
-    existing fill-on-hover (site.css's .btn-ghost.on-dark:hover{background:
-    rgba(255,255,255,.1)}) untouched — the scale/arrow are added on top of
-    that, not instead of it; it has no site.css ::after to suppress since
-    .btn-ghost never had one. */
- .hero-cta-secondary:hover .hero-cta-label{transform:scale(1.1)}
- .hero-cta-secondary:hover .hero-cta-arrow{opacity:1;transform:translateX(2px)}
+ /* The hero's primary/secondary CTAs ("Plan Santorini"/"Guide") are now
+    PrimaryInverseButton/SecondaryInverseButton (see
+    components/buttons/InverseButtons.tsx+.module.css) — styled there, not
+    here, so this hero and HeroCarousel's identical twins share one
+    definition. */
 
  :global(.city-hero){position:relative;min-height:100svh;display:flex;align-items:flex-end;color:#fff;background-size:cover;background-position:center;background-color:#15110d}
  :global(.city-hero)::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.28) 0%,transparent 26%,transparent 42%,rgba(0,0,0,.72) 100%)}

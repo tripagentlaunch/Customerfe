@@ -1,0 +1,23 @@
+/* Shared styling for PrimaryInverseButton/SecondaryInverseButton — see
+   InverseButtons.tsx. Merged from what were two byte-identical copies
+   (HeroCarousel.module.css's .heroCta* and city-page.module.css's
+   .hero-cta*) kept in sync by hand; now there's one definition. */
+
+.primary {
+  background: #fff !important;
+  color: #1a1714 !important;
+}
+.primary::after {
+  display: none !important;
+}
+
+.label {
+  display: inline-flex;
+  align-items: center;
+  transform: scale(1);
+  transition: transform 0.4s var(--ease);
+}
+.primary:hover .label,
+.secondary:hover .label {
+  transform: scale(1.1);
+}

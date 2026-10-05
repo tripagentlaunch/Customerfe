@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { useLocation } from "react-router-dom";
 import { useAdvisorHref } from "../../lib/advisor";
+import { TaraAI } from "../TaraAI";
 
 // Ported from js/site.js's EXPERT HANDOFF block — the fixed, page-context-
 // aware floating "Talk to your advisor" button, present on (almost) every
@@ -70,7 +71,7 @@ export function AdvisorButton() {
     <a
       ref={buttonRef}
       className={`ta-advisor${onHero ? " ta-advisor-on-hero" : ""}`}
-      aria-label="Talk to your advisor"
+      aria-label="Talk to Tara AI"
       href={advisor.href}
       target={advisor.external ? "_blank" : "_self"}
       rel="noopener"
@@ -79,7 +80,9 @@ export function AdvisorButton() {
         <svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" strokeWidth={1.7}>
           <path d="M21 11.5a8.5 8.5 0 0 1-12.4 7.5L3 20l1.1-5.4A8.5 8.5 0 1 1 21 11.5z" />
         </svg>
-        <span>Talk to your advisor</span>
+        <span>
+          Talk to <TaraAI />
+        </span>
       </span>
     </a>
   );

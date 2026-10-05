@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import tripData from "../data/trip.generated.json";
 import type { TripPageData } from "../types/trip";
 import { useNavVariant } from "../lib/navVariant";
+import { TaraAI } from "../components/TaraAI";
 import styles from "./trip-page.module.css";
 
 const data = tripData as unknown as TripPageData;
@@ -26,7 +27,7 @@ export default function TripPage() {
         <h1>The trip builder is on its way.</h1>
         <p>In the meantime, tell your advisor the cities, the dates and what you have in mind — they'll build the trip with you, flights, hotels and visas, all of it.</p>
         <Link className="btn btn-gold" to="/enquire">
-          Plan a trip with your advisor
+          Plan a trip with <TaraAI />
         </Link>
       </div>
     </div>

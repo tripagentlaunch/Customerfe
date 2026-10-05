@@ -4,12 +4,14 @@ import { Header } from "./Header";
 import { Footer } from "./Footer";
 import { ThemeToggle } from "./ThemeToggle";
 import { TripDrawer } from "./TripDrawer";
+import { ProfileDrawer } from "./ProfileDrawer";
 import { AdvisorButton } from "./AdvisorButton";
 import { MobileTabbar } from "./MobileTabbar";
 import { SignInModal } from "./SignInModal";
 import { NavVariantProvider } from "../../lib/navVariant";
 import { NavMenuProvider } from "../../lib/navMenu";
 import { TripDrawerProvider } from "../../lib/tripDrawer";
+import { ProfileDrawerProvider } from "../../lib/profileDrawer";
 import { SignInModalProvider } from "../../lib/signInModal";
 
 // concierge.html is full-screen, chat-only — no site chrome (nav/tab-bar/
@@ -82,6 +84,7 @@ export function Layout() {
     <NavVariantProvider>
       <NavMenuProvider>
         <TripDrawerProvider>
+          <ProfileDrawerProvider>
           <SignInModalProvider>
             {!isFullscreenChat && !hideHeader && <Header />}
             <main id="content" style={isFullscreenChat ? { height: "100dvh", display: "flex" } : undefined}>
@@ -92,12 +95,14 @@ export function Layout() {
                 <Footer />
                 <ThemeToggle />
                 <AdvisorButton />
+                <ProfileDrawer />
                 <TripDrawer />
                 <MobileTabbar />
               </>
             )}
             <SignInModal />
           </SignInModalProvider>
+          </ProfileDrawerProvider>
         </TripDrawerProvider>
       </NavMenuProvider>
     </NavVariantProvider>

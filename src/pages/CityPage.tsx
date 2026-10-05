@@ -30,6 +30,8 @@ import { useAgraLivePlanCoords } from "../hooks/useAgraLivePlanCoords";
 import { useAgraLiveEventLocations } from "../hooks/useAgraLiveEventLocations";
 import { useLiveGuidePanelPhotos, type LivePanelPhoto } from "../hooks/useLiveGuidePanelPhotos";
 import { placeholderPhoto } from "../lib/placeholderPhoto";
+import { PrimaryInverseButton, SecondaryInverseButton } from "../components/buttons/InverseButtons";
+import { withTaraAI } from "../components/TaraAI";
 import styles from "./city-page.module.css";
 import LiveVenues from "../components/LiveVenues";
 
@@ -585,26 +587,8 @@ export default function CityPage() {
             {/* Typed as required, but not runtime-guaranteed on a real API
                 response — dropping the button beats crashing the whole
                 hero. */}
-            {hero.ctaPrimary && (
-              <Link className={`btn btn-gold on-dark btn-square ${styles.heroCta}`} to={toRoute(hero.ctaPrimary.href)}>
-                <span className={styles.heroCtaLabel}>
-                  {hero.ctaPrimary.label}
-                  <span className={styles.heroCtaArrow} aria-hidden="true">
-                    →
-                  </span>
-                </span>
-              </Link>
-            )}{" "}
-            {hero.ctaSecondary && (
-              <a className={`btn btn-ghost on-dark ${styles.heroCtaSecondary}`} href={hero.ctaSecondary.href}>
-                <span className={styles.heroCtaLabel}>
-                  {hero.ctaSecondary.label}
-                  <span className={styles.heroCtaArrow} aria-hidden="true">
-                    →
-                  </span>
-                </span>
-              </a>
-            )}
+            {hero.ctaPrimary && <PrimaryInverseButton to={hero.ctaPrimary.href}>{hero.ctaPrimary.label}</PrimaryInverseButton>}{" "}
+            {hero.ctaSecondary && <SecondaryInverseButton to={hero.ctaSecondary.href}>{hero.ctaSecondary.label}</SecondaryInverseButton>}
           </div>
           <div className={`${styles.chFacts} reveal d3`}>
             {(hero.facts ?? []).map((f, i) => (
@@ -687,7 +671,7 @@ export default function CityPage() {
             <div className="reveal d2" style={{ marginTop: 20 }}>
               <Link className={`btn btn-gold btn-square ${styles.planCta}`} to={toRoute(plan.cta.href)}>
                 <span className={styles.planCtaLabel}>
-                  {plan.cta.label}
+                  {withTaraAI(plan.cta.label)}
                   <span className={styles.planCtaArrow} aria-hidden="true">
                     →
                   </span>
@@ -963,9 +947,7 @@ export default function CityPage() {
           </p>
           {closing.ctaPrimary && (
             <div className="btn-row center reveal d3">
-              <Link className="btn btn-gold on-dark" to={toRoute(closing.ctaPrimary.href)}>
-                {closing.ctaPrimary.label}
-              </Link>
+              <PrimaryInverseButton to={closing.ctaPrimary.href}>{withTaraAI(closing.ctaPrimary.label)}</PrimaryInverseButton>
             </div>
           )}
           <p className={`${styles.taReassure} ${styles.taReassureC} reveal d3`}>

@@ -7,6 +7,7 @@ import { useNavVariant } from "../lib/navVariant";
 import { titleCase } from "../lib/tripState";
 import { useAuth } from "../lib/auth";
 import { useSignInModal } from "../lib/signInModal";
+import { withTaraAI } from "../components/TaraAI";
 import styles from "./enquire-page.module.css";
 
 const data = enquireData as unknown as EnquirePageData;
@@ -176,7 +177,7 @@ export default function EnquirePage() {
                     style={{ width: "100%", justifyContent: "center" }}
                     disabled={submitting}
                   >
-                    {submitting ? "Sending…" : form.submitLabel}
+                    {submitting ? "Sending…" : withTaraAI(form.submitLabel)}
                   </button>
                 </form>
                 <div style={{ textAlign: "center", marginTop: 20, paddingTop: 18, borderTop: "1px solid var(--line-soft)" }}>
@@ -184,7 +185,7 @@ export default function EnquirePage() {
                     {form.emailPrompt}
                   </p>
                   <a className="btn btn-ghost" href={form.emailCta.href} style={{ width: "100%", justifyContent: "center" }}>
-                    {form.emailCta.label}
+                    {withTaraAI(form.emailCta.label)}
                   </a>
                 </div>
               </div>
@@ -212,7 +213,7 @@ export default function EnquirePage() {
                       Enquiry submission is on its way. For now, please write to your advisor directly and they'll pick it up right away.
                     </p>
                     <a className="btn btn-gold" href={form.emailCta.href}>
-                      {form.emailCta.label}
+                      {withTaraAI(form.emailCta.label)}
                     </a>
                   </>
                 )}

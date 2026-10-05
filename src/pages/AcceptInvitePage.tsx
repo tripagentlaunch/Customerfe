@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { TaraAI } from "../components/TaraAI";
 
 // /accept-invite?token=... — where a customer lands from the advisor panel's
 // "Invite Customer" email. NOT the same system as invitation.html's 16-char
@@ -16,7 +17,6 @@ import { Link } from "react-router-dom";
 // fake preview/accept flow pretending to validate a token this app can't
 // reach.
 const EMAIL_CTA_HREF = "mailto:maison@tripsure.com";
-const EMAIL_CTA_LABEL = "Email your advisor";
 
 export default function AcceptInvitePage() {
   const [hasToken, setHasToken] = useState(false);
@@ -44,7 +44,7 @@ export default function AcceptInvitePage() {
         </p>
         <div className="btn-row center" style={{ marginTop: 28 }}>
           <a className="btn btn-gold" href={EMAIL_CTA_HREF}>
-            {EMAIL_CTA_LABEL}
+            Email <TaraAI />
           </a>
           <Link className="btn btn-ghost" to="/">
             Back to TripAgent

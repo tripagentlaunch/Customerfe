@@ -1,9 +1,8 @@
 import { useEffect } from "react";
-import { Link } from "react-router-dom";
 import offersData from "../data/offers.generated.json";
 import type { OffersPageData } from "../types/offers";
 import { useScrollReveal } from "../lib/useScrollReveal";
-import { toRoute } from "../lib/toRoute";
+import { PrimaryInverseButton, SecondaryInverseButton } from "../components/buttons/InverseButtons";
 import styles from "./offers-page.module.css";
 
 const data = offersData as unknown as OffersPageData;
@@ -100,11 +99,17 @@ export default function OffersPage() {
               {cta.lede}
             </p>
             <div className="btn-row center reveal d3">
-              {cta.buttons.map((b, i) => (
-                <Link className={i === 0 ? "btn btn-gold on-dark" : "btn btn-ghost on-dark"} to={toRoute(b.href)} key={i}>
-                  {b.label}
-                </Link>
-              ))}
+              {cta.buttons.map((b, i) =>
+                b.label && /plan/i.test(b.label) ? (
+                  <PrimaryInverseButton to={b.href} key={i}>
+                    {b.label}
+                  </PrimaryInverseButton>
+                ) : (
+                  <SecondaryInverseButton to={b.href} key={i}>
+                    {b.label}
+                  </SecondaryInverseButton>
+                )
+              )}
             </div>
           </div>
         </section>

@@ -15,7 +15,7 @@ import { createContext, useContext, useState, type ReactNode } from "react";
 // a new room alongside "discover"/"plan" (additive here + a new panel
 // component, same pattern as DiscoverMega/PlanMega), not a redesign of
 // MobileTabbar's existing fixed layout.
-export type RoomKey = "discover" | "plan" | null;
+export type RoomKey = "explore" | "discover" | "plan" | null;
 
 type NavMenuValue = {
   menuOpen: boolean;

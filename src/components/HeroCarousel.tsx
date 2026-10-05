@@ -7,6 +7,8 @@ import "swiper/css/effect-fade";
 import "swiper/css/navigation";
 import type { HeroSlide } from "../types/homepage";
 import { toRoute } from "../lib/toRoute";
+import { PrimaryInverseButton, SecondaryInverseButton } from "./buttons/InverseButtons";
+import { withTaraAI } from "./TaraAI";
 import styles from "./HeroCarousel.module.css";
 
 const HERO_VIDEOS = [
@@ -129,26 +131,16 @@ export default function HeroCarousel({ slides }: { slides: HeroSlide[] }) {
               {content.ctaLinks.map((cta, ci) => {
                 if (ci === 0) {
                   return (
-                    <Link className={`btn btn-gold on-dark btn-square ${styles.heroCta}`} to={toRoute(cta.href)} key={ci}>
-                      <span className={styles.heroCtaLabel}>
-                        {cta.label}
-                        <span className={styles.heroCtaArrow} aria-hidden="true">
-                          →
-                        </span>
-                      </span>
-                    </Link>
+                    <PrimaryInverseButton to={cta.href} key={ci}>
+                      {cta.label}
+                    </PrimaryInverseButton>
                   );
                 }
                 if (ci === 1) {
                   return (
-                    <Link className={`btn btn-ghost on-dark ${styles.heroCtaSecondary}`} to={toRoute(cta.href)} key={ci}>
-                      <span className={styles.heroCtaLabel}>
-                        {cta.label}
-                        <span className={styles.heroCtaArrow} aria-hidden="true">
-                          →
-                        </span>
-                      </span>
-                    </Link>
+                    <SecondaryInverseButton to={cta.href} key={ci}>
+                      {withTaraAI(cta.label)}
+                    </SecondaryInverseButton>
                   );
                 }
                 // Tertiary: plain text + arrow, no border/box — underline

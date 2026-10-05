@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { toRoute } from "../../lib/toRoute";
 import { useTripSummary, titleCase } from "../../lib/tripState";
 import { useTripHandoffHref } from "../../lib/advisor";
+import { TaraAI } from "../TaraAI";
 
 // Ported from js/shell.js's discoverMega()/planMega() (~line 25-45) — same
 // content, same image-driven tile layout. IMGBASE matches shell.js exactly;
@@ -69,8 +70,64 @@ function TripRail() {
             Continue
           </Link>
           <a className="hand" href={handoff.href} target={handoff.external ? "_blank" : undefined} rel={handoff.external ? "noopener" : undefined}>
-            To your advisor →
+            To <TaraAI /> →
           </a>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function ExploreGroup({ label, items }: { label?: string; items: [string, string][] }) {
+  return (
+    <div className="ta-explore-col">
+      <span className="ll" aria-hidden={label ? undefined : true}>
+        {label ?? "\u00a0"}
+      </span>
+      {items.map(([text, href]) => (
+        <Link key={href} to={toRoute(href)}>
+          {text}
+        </Link>
+      ))}
+    </div>
+  );
+}
+
+// Eventual replacement for Discover + Plan (both still exist alongside it
+// for now). One photo tile (Destinations) plus text links: two labelled
+// categories whose headings are plain labels (not links), and an
+// uncategorised column for the rest.
+export function ExploreMega() {
+  return (
+    <div className="ta-mega ta-mega-rich">
+      <div className="ta-explore">
+        <MegaFeat slug="udaipur" eyebrow="Destinations" name="110, decided" href="destinations.html" />
+        <div className="ta-explore-links">
+          <ExploreGroup
+            label="Journeys"
+            items={[
+              ["The Exotics", "exotic.html"],
+              ["Health & Longevity", "health.html"],
+              ["Curated", "journeys.html"],
+            ]}
+          />
+          <ExploreGroup
+            label="Plan"
+            items={[
+              ["When to Go", "when-to-go.html"],
+              ["Where to Go", "where-to-go.html"],
+              ["Build your Trip", "trip.html"],
+              ["Calendar", "whats-on.html"],
+              ["Days", "days.html"],
+            ]}
+          />
+          <ExploreGroup
+            items={[
+              ["Cities", "cities.html"],
+              ["Collections", "collections.html"],
+              ["Journal", "journal.html"],
+            ]}
+          />
         </div>
       </div>
     </div>
