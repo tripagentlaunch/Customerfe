@@ -6,6 +6,8 @@ import MockCityMap from "./MockCityMap";
 import MapPin from "./MapPin";
 import { catColor, catIcon } from "./cityMapCategories";
 import styles from "./CityMap.module.css";
+import ClusterPin from "./ClusterPin";
+import { clusterPoints, worldPx } from "../lib/clusterPoints";
 import { useLiveVenuePhoto } from "../hooks/useLiveVenuePhoto";
 
 const GOOGLE_MAPS_API_KEY = import.meta.env.VITE_GOOGLE_MAPS_API_KEY as string | undefined;
@@ -43,6 +45,11 @@ function useCityMapData(slug: string) {
   return data;
 }
 
+// Pins closer than this on screen merge into a count badge; past this zoom
+// every pin shows individually, so a badge can always be split by zooming.
+const CLUSTER_RADIUS_PX = 84;
+const NO_CLUSTER_ZOOM = 17;
+
 const MAP_CONTAINER_STYLE = { width: "100%", height: "100%" };
 const PIN_BUTTON_STYLE: CSSProperties = { transform: "translate(-50%, -50%)", background: "none", border: "none", padding: 0, cursor: "pointer" };
 
@@ -75,6 +82,7 @@ export default function CityMap({ slug, livePlacesEnabled = false }: { slug: str
       ? { ...selected, photos: [{ url: livePhoto.photoUrl, alt: selected.n, credit: null }] }
       : selected;
   const [map, setMap] = useState<google.maps.Map | null>(null);
+  const [zoom, setZoom] = useState(11);
 
   const canvasRef = useRef<HTMLDivElement | null>(null);
   // The marker's own DOM node (best-effort focus target on close — see
@@ -104,6 +112,23 @@ export default function CityMap({ slug, livePlacesEnabled = false }: { slug: str
   }
 
   const visibleVenues = data?.venues ?? [];
+
+  // The open card's pin is never folded into a badge, so it stays put under
+  // its card.
+  const clusters = useMemo(() => {
+    const pts = visibleVenues
+      .map((v, i) => ({ v, i }))
+      .filter(({ v }) => !(selected && selected.n === v.n && selected.lat === v.lat))
+      .map((item) => ({ item, ...worldPx(item.v.lat, item.v.lon, zoom) }));
+    return zoom >= NO_CLUSTER_ZOOM ? pts.map((p) => ({ x: p.x, y: p.y, items: [p.item] })) : clusterPoints(pts, CLUSTER_RADIUS_PX);
+  }, [visibleVenues, zoom, selected]);
+
+  function expandCluster(items: { v: CityMapVenue }[]) {
+    if (!map) return;
+    const bounds = new google.maps.LatLngBounds();
+    items.forEach(({ v }) => bounds.extend({ lat: v.lat, lng: v.lon }));
+    map.fitBounds(bounds, 70);
+  }
 
   const center = useMemo(
     () => (data ? { lat: data.center[0], lng: data.center[1] } : { lat: 20, lng: 0 }),
@@ -165,6 +190,7 @@ export default function CityMap({ slug, livePlacesEnabled = false }: { slug: str
           zoom={11}
           onLoad={(m) => {
             setMap(m);
+            setZoom(m.getZoom() ?? 11);
             // Fit to the dense in-city cluster only — day-trip venues
             // (Fatehpur Sikri, Vrindavan, etc.) can sit 40-60km out, and
             // including them in fitBounds would zoom out so far the main
@@ -194,6 +220,7 @@ export default function CityMap({ slug, livePlacesEnabled = false }: { slug: str
             });
           }}
           onClick={() => setSelected(null)}
+          onZoomChanged={() => map && setZoom(map.getZoom() ?? 11)}
           options={{
             styles: MAP_STYLES,
             disableDefaultUI: true,
@@ -202,13 +229,34 @@ export default function CityMap({ slug, livePlacesEnabled = false }: { slug: str
             clickableIcons: false,
           }}
         >
-          {visibleVenues.map((v, i) => (
-            <OverlayViewF key={`${v.n}-${i}`} position={{ lat: v.lat, lng: v.lon }} mapPaneName={OVERLAY_MOUSE_TARGET}>
-              <button type="button" aria-label={v.n} style={PIN_BUTTON_STYLE} onClick={(e) => selectVenue(v, e.nativeEvent)}>
-                <MapPin Icon={catIcon(v.cat)} color={catColor(v.cat)} active={selected?.n === v.n && selected.lat === v.lat} />
+          {clusters.map((c) => {
+            if (c.items.length > 1) {
+              const lat = c.items.reduce((a, { v }) => a + v.lat, 0) / c.items.length;
+              const lng = c.items.reduce((a, { v }) => a + v.lon, 0) / c.items.length;
+              return (
+                <OverlayViewF key={`cluster-${c.items.map((x) => x.i).join("-")}`} position={{ lat, lng }} mapPaneName={OVERLAY_MOUSE_TARGET}>
+                  <div style={{ transform: "translate(-50%, -50%)" }}>
+                    <ClusterPin count={c.items.length} onClick={() => expandCluster(c.items)} />
+                  </div>
+                </OverlayViewF>
+              );
+            }
+            const { v, i } = c.items[0];
+            return (
+              <OverlayViewF key={`${v.n}-${i}`} position={{ lat: v.lat, lng: v.lon }} mapPaneName={OVERLAY_MOUSE_TARGET}>
+                <button type="button" aria-label={v.n} style={PIN_BUTTON_STYLE} onClick={(e) => selectVenue(v, e.nativeEvent)}>
+                  <MapPin Icon={catIcon(v.cat)} color={catColor(v.cat)} active={false} />
+                </button>
+              </OverlayViewF>
+            );
+          })}
+          {selected && (
+            <OverlayViewF key={`sel-${selected.n}-${selected.lat}`} position={{ lat: selected.lat, lng: selected.lon }} mapPaneName={OVERLAY_MOUSE_TARGET}>
+              <button type="button" aria-label={selected.n} style={PIN_BUTTON_STYLE} onClick={(e) => selectVenue(selected, e.nativeEvent)}>
+                <MapPin Icon={catIcon(selected.cat)} color={catColor(selected.cat)} active />
               </button>
             </OverlayViewF>
-          ))}
+          )}
           {effectiveSelected && (
             <OverlayViewF
               key={`${effectiveSelected.n}-${effectiveSelected.lat}-${effectiveSelected.lon}`}

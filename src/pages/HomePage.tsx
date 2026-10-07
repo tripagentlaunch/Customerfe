@@ -6,7 +6,7 @@ import { useScrollReveal } from "../lib/useScrollReveal";
 import { toRoute } from "../lib/toRoute";
 import HeroCarousel from "../components/HeroCarousel";
 import DestinationPlanner from "../components/DestinationPlanner";
-import StickyWorldMap from "../components/StickyWorldMap";
+import WorldMapSection from "../components/WorldMapSection";
 import HowItWorksTabs from "../components/HowItWorksTabs";
 import { PrimaryInverseButton } from "../components/buttons/InverseButtons";
 import { withTaraAI } from "../components/TaraAI";
@@ -132,40 +132,7 @@ export default function HomePage() {
           so it sits directly in the section instead (`.band`/`.tight`
           only add vertical padding, no horizontal, so a direct child here
           already spans edge-to-edge with no extra work). */}
-      <section className="band tight">
-        <div className={styles.worldMapWrap}>
-          <StickyWorldMap>
-            <div className="wrap">
-              <div className={styles.mapIntro}>
-                <div>
-                  <div className="eyebrow reveal">Where we go</div>
-                  <div className="rule" />
-                  <h2 className={`reveal d1 ${styles.mapHeading}`}>
-                    The world, within <em>reach.</em>
-                  </h2>
-                  <p className={`reveal d1 ${styles.mapSub}`}>
-                    Explore extraordinary destinations and start planning your next journey with our expert advisors.
-                  </p>
-                </div>
-                <dl className={`reveal d2 ${styles.mapStats}`}>
-                  <div>
-                    <dt>100+</dt>
-                    <dd>Destinations</dd>
-                  </div>
-                  <div>
-                    <dt>50+</dt>
-                    <dd>Expert advisors</dd>
-                  </div>
-                  <div>
-                    <dt>24/7</dt>
-                    <dd>Personal support</dd>
-                  </div>
-                </dl>
-              </div>
-            </div>
-          </StickyWorldMap>
-        </div>
-      </section>
+      <WorldMapSection sticky />
 
       {/* DISCOVER — the first interaction */}
       <section className={`band tight ${styles.disc}`} aria-label="Where shall we take you?">

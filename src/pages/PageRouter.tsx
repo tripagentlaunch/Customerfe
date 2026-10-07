@@ -22,7 +22,6 @@ import JourneysPage from "./JourneysPage";
 import OffersPage from "./OffersPage";
 import ItinerariesPage from "./ItinerariesPage";
 import WhatsOnPage from "./WhatsOnPage";
-import CitiesIndexPage from "./CitiesIndexPage";
 import WhereToGoPage from "./WhereToGoPage";
 import DestinationsIndexPage from "./DestinationsIndexPage";
 import FlightsPage from "./FlightsPage";
@@ -126,7 +125,6 @@ const EXACT_SLUG_PAGES: Record<string, () => JSX.Element> = {
   offers: () => <OffersPage />,
   itineraries: () => <ItinerariesPage />,
   "whats-on": () => <WhatsOnPage />,
-  cities: () => <CitiesIndexPage />,
   "where-to-go": () => <WhereToGoPage />,
   destinations: () => <DestinationsIndexPage />,
   // Standalone-page batch D: flights/visas/flight-guides/stay-guides/points
