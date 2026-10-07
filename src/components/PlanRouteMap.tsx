@@ -3,8 +3,7 @@ import { FLOAT_PANE, GoogleMap, OVERLAY_MOUSE_TARGET, OverlayViewF, PolylineF, u
 import MapPin from "./MapPin";
 import { CAT_COLOR, CAT_ICON, type CatKey } from "./cityMapCategories";
 import styles from "./PlanRouteMap.module.css";
-
-const GOOGLE_MAPS_API_KEY = import.meta.env.VITE_GOOGLE_MAPS_API_KEY as string | undefined;
+import { useRemoteConfig } from "../hooks/useRemoteConfig";
 
 // One stop per plan day (that day's highlight), in day order.
 export interface PlanStop {
@@ -53,10 +52,10 @@ function activeLegIndex(activeIndex: number) {
   return activeIndex <= 0 ? 0 : activeIndex - 1;
 }
 
-function RealPlanRouteMap({ stops, activeIndex }: { stops: PlanStop[]; activeIndex: number }) {
+function RealPlanRouteMap({ stops, activeIndex, mapsKey }: { stops: PlanStop[]; activeIndex: number; mapsKey: string }) {
   const { isLoaded, loadError } = useJsApiLoader({
     id: "ta-google-map-script",
-    googleMapsApiKey: GOOGLE_MAPS_API_KEY ?? "",
+    googleMapsApiKey: mapsKey,
   });
   const mapRef = useRef<google.maps.Map | null>(null);
   const stopsKey = stops.map((s) => `${s.lat},${s.lon}`).join("|");
@@ -185,6 +184,8 @@ function FallbackPlanRouteMap({ stops, activeIndex }: { stops: PlanStop[]; activ
 }
 
 export default function PlanRouteMap({ stops, activeIndex }: { stops: PlanStop[]; activeIndex: number }) {
-  if (GOOGLE_MAPS_API_KEY) return <RealPlanRouteMap stops={stops} activeIndex={activeIndex} />;
+  const config = useRemoteConfig();
+  const mapsKey = config?.google_maps_api_key;
+  if (mapsKey) return <RealPlanRouteMap stops={stops} activeIndex={activeIndex} mapsKey={mapsKey} />;
   return <FallbackPlanRouteMap stops={stops} activeIndex={activeIndex} />;
 }

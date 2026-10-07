@@ -12,14 +12,9 @@ import { PrimaryInverseButton } from "../components/buttons/InverseButtons";
 import { withTaraAI } from "../components/TaraAI";
 // import ConciergeChatDemo from "../components/ConciergeChatDemo"; — shelved with the HOW IT WORKS section below, not deleted
 import styles from "./home-page.module.css";
+import { useWhatsAppNumber } from "../lib/useWhatsAppNumber";
 
 const data = homepageData as unknown as HomepageData;
-
-// Same real/fallback wa.me pattern as Footer.tsx (VITE_WHATSAPP_NUMBER unset
-// today -> /enquire, a real working page, instead of the dead
-// wa.me/REPLACE_NUMBER placeholder the source hardcodes here too).
-const WHATSAPP_NUMBER = import.meta.env.VITE_WHATSAPP_NUMBER as string | undefined;
-const ADVISOR_HREF = WHATSAPP_NUMBER ? `https://wa.me/${WHATSAPP_NUMBER}` : "/enquire";
 
 function titleCase(s: string) {
   return s.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
@@ -35,6 +30,8 @@ function readJSON(key: string): unknown {
 }
 
 export default function HomePage() {
+  const whatsappNumber = useWhatsAppNumber();
+  const advisorHref = whatsappNumber ? `https://wa.me/${whatsappNumber}` : "/enquire";
   useEffect(() => {
     if (data.seo.title) document.title = data.seo.title;
   }, []);
@@ -358,9 +355,9 @@ export default function HomePage() {
           <h2 className="reveal d1" style={{ fontSize: "clamp(34px,5vw,72px)", marginBottom: 30 }} dangerouslySetInnerHTML={{ __html: finalCta.headingHtml ?? "" }} />
           <div className="btn-row center reveal d3">
             <PrimaryInverseButton
-              to={ADVISOR_HREF}
-              target={WHATSAPP_NUMBER ? "_blank" : undefined}
-              rel={WHATSAPP_NUMBER ? "noopener noreferrer" : undefined}
+              to={advisorHref}
+              target={whatsappNumber ? "_blank" : undefined}
+              rel={whatsappNumber ? "noopener noreferrer" : undefined}
             >
               {withTaraAI(finalCta.secondaryLabel)}
             </PrimaryInverseButton>

@@ -9,8 +9,7 @@ import styles from "./CityMap.module.css";
 import ClusterPin from "./ClusterPin";
 import { clusterPoints, worldPx } from "../lib/clusterPoints";
 import { useLiveVenuePhoto } from "../hooks/useLiveVenuePhoto";
-
-const GOOGLE_MAPS_API_KEY = import.meta.env.VITE_GOOGLE_MAPS_API_KEY as string | undefined;
+import { useRemoteConfig } from "../hooks/useRemoteConfig";
 
 const VENUE_COORD_LOADERS = import.meta.glob("../data/venue-coords/*.json") as Record<
   string,
@@ -73,9 +72,15 @@ export default function CityMap({
   livePlacesEnabled?: boolean;
   onReady?: () => void;
 }) {
+  const config = useRemoteConfig();
+  // undefined = /config hasn't resolved yet; "" = resolved with no key
+  // (or the fetch failed) — both render the same loading/mock branches
+  // below as "falsy", only the first also skips straight past the mock.
+  const mapsKey = config === undefined ? undefined : config?.google_maps_api_key ?? "";
+
   const { isLoaded, loadError } = useJsApiLoader({
     id: "ta-google-map-script",
-    googleMapsApiKey: GOOGLE_MAPS_API_KEY ?? "",
+    googleMapsApiKey: mapsKey ?? "",
   });
 
   const data = useCityMapData(slug);
@@ -156,16 +161,17 @@ export default function CityMap({
     return <div className={styles.fallback}>Map not available for this destination yet.</div>;
   }
 
-  if (!GOOGLE_MAPS_API_KEY) {
-    if (data === undefined) {
-      return (
-        <div className={styles.wrap}>
-          <div className={styles.canvas}>
-            <div className={styles.fallback}>Loading map…</div>
-          </div>
+  if (mapsKey === undefined || data === undefined) {
+    return (
+      <div className={styles.wrap}>
+        <div className={styles.canvas}>
+          <div className={styles.fallback}>Loading map…</div>
         </div>
-      );
-    }
+      </div>
+    );
+  }
+
+  if (!mapsKey) {
     // Mock map has no async load step of its own — safe to fire immediately.
     fireReadyOnce();
     return (
@@ -187,7 +193,7 @@ export default function CityMap({
     return <div className={styles.fallback}>The map could not be loaded right now.</div>;
   }
 
-  if (!isLoaded || data === undefined) {
+  if (!isLoaded) {
     return (
       <div className={styles.wrap}>
         <div className={styles.canvas}>

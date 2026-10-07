@@ -204,7 +204,7 @@ export default function InvitationPage() {
     setAnn({ text: "Verifying your key…", kind: "hint" });
     setRedeeming(true);
     try {
-      const res = await fetch(`${API_BASE}/invite/${encodeURIComponent(code)}/redeem`, {
+      const res = await fetch(`/invite/${encodeURIComponent(code)}/redeem`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({}),
@@ -272,7 +272,7 @@ export default function InvitationPage() {
     setCapError(null);
     setCapturing(true);
     try {
-      const res = await fetch(`${API_BASE}/invite/${encodeURIComponent(redeemedCode ?? "")}/capture`, {
+      const res = await fetch(`/invite/${encodeURIComponent(redeemedCode ?? "")}/capture`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),

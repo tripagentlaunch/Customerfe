@@ -42,7 +42,7 @@ const BENEFITS = [
 
 export default function ReferPage() {
   useNavVariant("solid");
-  const { signedIn, session } = useAuth();
+  const { signedIn} = useAuth();
   const signInModal = useSignInModal();
 
   useEffect(() => {
@@ -78,7 +78,7 @@ export default function ReferPage() {
     e.preventDefault();
     if (submitting) return;
 
-    if (!signedIn || !session) {
+    if (!signedIn) {
       signInModal.open("Sign in to refer a friend.");
       return;
     }
@@ -113,9 +113,10 @@ export default function ReferPage() {
     let succeeded = false;
     let errorDetail = "";
     try {
-      const r = await fetch(`${API_BASE}/referrals`, {
+      const r = await fetch(`/referrals`, {
         method: "POST",
-        headers: { "Content-Type": "application/json", Authorization: `Bearer ${session.access_token}` },
+        headers: { "Content-Type": "application/json"},
+        credentials: "include",
         body: JSON.stringify({
           // Known-accepted keys — unchanged from before this redesign.
           friend_name: friendName,

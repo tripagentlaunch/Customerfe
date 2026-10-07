@@ -1,13 +1,12 @@
 import { useEffect, useMemo, useState } from "react";
-import { supabase } from "../lib/supabaseClient";
 import type { SiteMemberRow, SiteSavedItemRow } from "../lib/database.types";
 import { useAuth } from "../lib/auth";
 import { TaraAI } from "./TaraAI";
 
 // React port of js/account.js's renderMyYear() (docs/ACCOUNTS-CALENDAR-ARCH.md
-// §4.3, H4) — the personal 12-month calendar. Unlike the legacy version,
-// this reads/writes site_saved_items directly (RLS-scoped to the signed-in
-// member) instead of the localStorage TA_YEAR stub; there is no 'local' mode.
+// §4.3, H4) — the personal 12-month calendar. Reads/writes site_saved_items
+// via the backend's /my-year/items endpoints (cookie-authenticated), not
+// the Supabase client directly — there is no 'local' mode.
 const MONF = [
   "January", "February", "March", "April", "May", "June",
   "July", "August", "September", "October", "November", "December",
@@ -108,21 +107,20 @@ export default function MyYearCalendar({ member }: { member: SiteMemberRow }) {
     let cancelled = false;
     setItems(null);
     setFetchError(null);
-    supabase
-      .from("site_saved_items")
-      .select("*")
-      .eq("member_id", member.id)
-      .order("created_at", { ascending: false })
-      .then(({ data, error }) => {
+    (async () => {
+      try {
+        const res = await fetch("/my-year/items", { credentials: "include" });
+        if (!res.ok) throw new Error(`fetch failed: ${res.status}`);
+        const data = (await res.json()) as SiteSavedItemRow[];
         if (cancelled) return;
-        if (error) {
-          console.error("[my-year] site_saved_items fetch failed:", error.message);
-          setFetchError(error.message);
-          setItems([]);
-          return;
-        }
         setItems(data ?? []);
-      });
+      } catch (err) {
+        if (cancelled) return;
+        console.error("[my-year] site_saved_items fetch failed:", err);
+        setFetchError(err instanceof Error ? err.message : "fetch failed");
+        setItems([]);
+      }
+    })();
     return () => {
       cancelled = true;
     };
@@ -191,25 +189,32 @@ export default function MyYearCalendar({ member }: { member: SiteMemberRow }) {
   }, [selectedDate]);
 
   async function removeItem(id: string) {
-    const { error } = await supabase.from("site_saved_items").delete().eq("id", id);
-    if (error) {
-      console.error("[my-year] remove failed:", error.message);
-      return;
+    try {
+      const res = await fetch(`/my-year/items/${id}`, { method: "DELETE", credentials: "include" });
+      if (!res.ok) throw new Error(`delete failed: ${res.status}`);
+      setItems((prev) => (prev ? prev.filter((x) => x.id !== id) : prev));
+    } catch (err) {
+      console.error("[my-year] remove failed:", err);
     }
-    setItems((prev) => (prev ? prev.filter((x) => x.id !== id) : prev));
   }
 
   async function placeOnDate(id: string) {
     if (!dpStart) return;
     const start = dpStart;
     const end = dpEnd || dpStart;
-    const { error } = await supabase.from("site_saved_items").update({ when_start: start, when_end: end }).eq("id", id);
-    if (error) {
-      console.error("[my-year] set dates failed:", error.message);
-      return;
+    try {
+      const res = await fetch(`/my-year/items/${id}`, {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json" },
+        credentials: "include",
+        body: JSON.stringify({ when_start: start, when_end: end }),
+      });
+      if (!res.ok) throw new Error(`update failed: ${res.status}`);
+      setItems((prev) => (prev ? prev.map((x) => (x.id === id ? { ...x, when_start: start, when_end: end } : x)) : prev));
+      setPlacingId(null);
+    } catch (err) {
+      console.error("[my-year] set dates failed:", err);
     }
-    setItems((prev) => (prev ? prev.map((x) => (x.id === id ? { ...x, when_start: start, when_end: end } : x)) : prev));
-    setPlacingId(null);
   }
 
   const firstName = (member.name ?? "").split(" ")[0];

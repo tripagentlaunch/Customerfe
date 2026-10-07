@@ -12,11 +12,6 @@ import styles from "./enquire-page.module.css";
 
 const data = enquireData as unknown as EnquirePageData;
 
-// Same-origin in prod (mirrors concierge-chat/src/api.ts's
-// PROD_DEFAULT_ENDPOINT convention) — set VITE_API_BASE_URL for local dev,
-// where the backend runs on its own port.
-const API_BASE = (import.meta.env.VITE_API_BASE_URL as string | undefined) ?? "";
-
 // Phase A: gated behind sign-in (site_members already holds name/email/
 // phone — enquiries.member_id links to that row server-side, resolved from
 // the caller's session token, never duplicated onto the enquiry itself).
@@ -26,7 +21,7 @@ const API_BASE = (import.meta.env.VITE_API_BASE_URL as string | undefined) ?? ""
 // down, session rejected) — not unconditionally.
 export default function EnquirePage() {
   useNavVariant("solid");
-  const { signedIn, session } = useAuth();
+  const { signedIn} = useAuth();
   const signInModal = useSignInModal();
   const [submitting, setSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
@@ -61,7 +56,7 @@ export default function EnquirePage() {
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    if (!signedIn || !session) {
+    if (!signedIn) {
       signInModal.open("Sign in to send your enquiry.");
       return;
     }
@@ -78,9 +73,10 @@ export default function EnquirePage() {
       notes: (fd.get("notes") as string) || undefined,
     };
     try {
-      const res = await fetch(`${API_BASE}/enquiries`, {
+      const res = await fetch(`/enquiries`, {
         method: "POST",
-        headers: { "Content-Type": "application/json", Authorization: `Bearer ${session.access_token}` },
+        headers: { "Content-Type": "application/json"},
+        credentials: "include",
         body: JSON.stringify(body),
       });
       if (!res.ok) throw new Error(`enquiry submit failed: ${res.status}`);

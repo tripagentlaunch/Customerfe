@@ -5,8 +5,7 @@ import { createCameraTween } from "../lib/mapCamera";
 import MapPin from "./MapPin";
 import styles from "./PlanRouteMap.module.css";
 import eventStyles from "./EventMap.module.css";
-
-const GOOGLE_MAPS_API_KEY = import.meta.env.VITE_GOOGLE_MAPS_API_KEY as string | undefined;
+import { useRemoteConfig } from "../hooks/useRemoteConfig";
 
 export interface EventPoint {
   lat: number;
@@ -45,10 +44,10 @@ const SIGNATURE = "#6e2a38";
 const PAN_MS = 900;
 const ZOOM = 14;
 
-function RealEventMap({ point }: { point: EventPoint | null }) {
+function RealEventMap({ point, mapsKey }: { point: EventPoint | null; mapsKey: string }) {
   const { isLoaded, loadError } = useJsApiLoader({
     id: "ta-google-map-script",
-    googleMapsApiKey: GOOGLE_MAPS_API_KEY ?? "",
+    googleMapsApiKey: mapsKey,
   });
   const mapRef = useRef<google.maps.Map | null>(null);
   const tweenRef = useRef<ReturnType<typeof createCameraTween> | null>(null);
@@ -120,6 +119,8 @@ function FallbackEventMap({ point }: { point: EventPoint | null }) {
 }
 
 export default function EventMap({ point }: { point: EventPoint | null }) {
-  if (GOOGLE_MAPS_API_KEY) return <RealEventMap point={point} />;
+  const config = useRemoteConfig();
+  const mapsKey = config?.google_maps_api_key;
+  if (mapsKey) return <RealEventMap point={point} mapsKey={mapsKey} />;
   return <FallbackEventMap point={point} />;
 }
