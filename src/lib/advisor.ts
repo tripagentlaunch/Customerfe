@@ -1,6 +1,6 @@
 import { useLocation } from "react-router-dom";
 import { titleCase, type TripSummary } from "./tripState";
-import { useWhatsAppNumber } from "../hooks/useWhatsAppNumber";
+import { useWhatsAppNumber } from "./useWhatsAppNumber";
 
 // Ported from js/site.js's EXPERT HANDOFF block (~line 1055-1095) — the
 // context-carrying "Talk to your advisor" logic, core CONVERT KRA. Route

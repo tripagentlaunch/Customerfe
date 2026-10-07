@@ -1,23 +1,12 @@
 import { useEffect, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import styles from "./claim-page.module.css";
-import { useAuth } from "../lib/auth";
 
 // Ported from claim.html — the 8-digit-code redemption page (distinct from
 // invitation.html's 16-character, 4-step ceremony: InvitationPage.tsx).
 // Deliberately simple in the source too: enter the code, claim it, go home.
 // No capture/card/welcome-ceremony steps — those only exist on the
 // invitation.html flow.
-
-// Same-origin in prod, VITE_API_BASE_URL for local dev — mirrors
-// InvitationPage.tsx / EnquirePage.tsx's API_BASE convention (itself
-// matching concierge-chat/src/api.ts's PROD_DEFAULT_ENDPOINT pattern).
-// The source (js/api.js's TA_INVITE.redeem) additionally special-cased a
-// hardcoded http://localhost:8000 for local dev via its own
-// _taInviteIsLocalDevHost() check; VITE_API_BASE_URL is this project's
-// existing equivalent seam for exactly that same local-dev override, so it
-// is reused rather than re-implemented.
-const API_BASE = (import.meta.env.VITE_API_BASE_URL as string | undefined) ?? "";
 
 type RedeemResponse = {
   valid?: boolean;
@@ -41,7 +30,6 @@ const VIDEO_SRC = "/videos/tripagent-claim-loop.mp4";
 const VIDEO_FALLBACK_SRC = "/images/tripagent-claim-fallback.jpg";
 
 export default function ClaimPage() {
-  const {refresh} = useAuth;
   useEffect(() => {
     document.title = "Claim your invitation — TripAgent";
   }, []);
