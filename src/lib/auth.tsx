@@ -4,12 +4,6 @@ import type { SiteMemberRow } from "./database.types";
 
 export type LoginResult = { ok: true } | { ok: false; error: "not_invited" | string };
 
-// Supabase's free tier has no built-in "force re-login after N days" setting
-// (that's a Pro-plan-only feature). This approximates it client-side: the
-// first time a session is established, we stamp "when did this login
-// start" into localStorage; every subsequent hydrate() checks that stamp
-// and force-signs-out once it's older than SESSION_MAX_AGE_MS. Not a
-// substitute for a real server-side control — a soft, client-side nudge.
 const SESSION_STAMP_KEY = "ta_session_started_at";
 const SESSION_MAX_AGE_MS = 90 * 24 * 60 * 60 * 1000; // ~3 months
 
@@ -31,10 +25,6 @@ function clearSessionStamp(): void {
   localStorage.removeItem(SESSION_STAMP_KEY);
 }
 
-// Frontend-only mock sign-in for refining the signed-in UI without a
-// backend. Dev server only (import.meta.env.DEV — compiled out of
-// production builds): visit any page with ?mock-auth=1 to be "signed in" as
-// a fake member (persisted in localStorage across reloads).
 const MOCK_KEY = "ta_mock_auth";
 const MOCK_MEMBER = {
   id: "mock-member",
@@ -70,24 +60,19 @@ function readMockAuth(): boolean {
   return localStorage.getItem(MOCK_KEY) === "1";
 }
 
+// Sent on every state-changing request to this backend — see
+// app/dependencies/csrf.py for why this specific header defeats
+// cross-site forged requests.
+const CSRF_HEADERS = { "X-Requested-With": "XMLHttpRequest" } as const;
+
 type AuthContextValue = {
   member: SiteMemberRow | null;
-  loading: boolean; // true until the first GET /auth/session resolves
+  loading: boolean;
   signedIn: boolean;
-  // Set when OTP verification succeeded but no site_members row is linked
-  // (see /auth/verify-otp's "not_invited" response). Consumed by whichever
-  // UI wants to surface it (Header opens the sign-in modal with it), then
-  // cleared with clearAuthError().
   authError: "not_invited" | null;
   clearAuthError: () => void;
   requestLogin: (email: string) => Promise<LoginResult>;
   verifyLogin: (email: string, token: string) => Promise<LoginResult>;
-  // Re-checks GET /auth/session and updates `member` — needed anywhere a
-  // session cookie gets set OUTSIDE verifyLogin() (e.g. ClaimPage.tsx's
-  // invite-redeem flow, which signs the member in via /invite/{code}/redeem,
-  // not /auth/verify-otp). AuthProvider only hydrates once on mount with no
-  // listener (no more supabase-js onAuthStateChange), so nothing else would
-  // ever notice that cookie without this being called explicitly.
   refresh: () => Promise<void>;
   logout: () => Promise<void>;
 };
@@ -104,13 +89,9 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   const [authError, setAuthError] = useState<"not_invited" | null>(null);
   const [mockSignedIn, setMockSignedIn] = useState(readMockAuth);
 
-  // The session cookie (HttpOnly, set by /auth/verify-otp or
-  // /invite/{code}/redeem) is invisible to this code — GET /auth/session is
-  // the only way to ask "is there a valid session, and if so who is this
-  // member," replacing supabase-js's getSession()+onAuthStateChange.
   const checkSession = useCallback(async () => {
     if (isSessionTooOld()) {
-      await fetch("/auth/logout", { method: "POST", credentials: "include" }).catch(() => {});
+      await fetch("/auth/logout", { method: "POST", credentials: "include", headers: CSRF_HEADERS }).catch(() => {});
       clearSessionStamp();
       setMember(null);
       return;
@@ -153,10 +134,11 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         try {
           const res = await fetch("/auth/request-otp", {
             method: "POST",
-            headers: { "Content-Type": "application/json" },
+            headers: { "Content-Type": "application/json", ...CSRF_HEADERS },
             credentials: "include",
             body: JSON.stringify({ email: email.trim() }),
           });
+          if (res.status === 429) return { ok: false, error: "Too many attempts — please wait a few minutes and try again." };
           const data = (await res.json()) as RequestOtpApiResponse;
           if (!data.ok) return { ok: false, error: data.error ?? "request_failed" };
           return { ok: true };
@@ -168,10 +150,11 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         try {
           const res = await fetch("/auth/verify-otp", {
             method: "POST",
-            headers: { "Content-Type": "application/json" },
+            headers: { "Content-Type": "application/json", ...CSRF_HEADERS },
             credentials: "include",
             body: JSON.stringify({ email: email.trim(), token: token.trim() }),
           });
+          if (res.status === 429) return { ok: false, error: "Too many attempts — please wait a few minutes and try again." };
           const data = (await res.json()) as VerifyOtpApiResponse;
           if (!data.ok || !data.member) return { ok: false, error: data.error ?? "verify_failed" };
           stampSessionStart();
@@ -186,7 +169,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
           localStorage.removeItem(MOCK_KEY);
           setMockSignedIn(false);
         }
-        await fetch("/auth/logout", { method: "POST", credentials: "include" }).catch(() => {});
+        await fetch("/auth/logout", { method: "POST", credentials: "include", headers: CSRF_HEADERS }).catch(() => {});
         clearSessionStamp();
         setMember(null);
       },

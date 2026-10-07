@@ -190,7 +190,13 @@ export default function MyYearCalendar({ member }: { member: SiteMemberRow }) {
 
   async function removeItem(id: string) {
     try {
-      const res = await fetch(`/my-year/items/${id}`, { method: "DELETE", credentials: "include" });
+      // const res = await fetch(`/my-year/items/${id}`, { method: "DELETE", credentials: "include" });
+      const res = await fetch(`/my-year/items/${id}`, {
+        method: "DELETE",
+        credentials: "include",
+        headers: { "X-Requested-With": "XMLHttpRequest" },
+      });
+
       if (!res.ok) throw new Error(`delete failed: ${res.status}`);
       setItems((prev) => (prev ? prev.filter((x) => x.id !== id) : prev));
     } catch (err) {
@@ -205,7 +211,7 @@ export default function MyYearCalendar({ member }: { member: SiteMemberRow }) {
     try {
       const res = await fetch(`/my-year/items/${id}`, {
         method: "PATCH",
-        headers: { "Content-Type": "application/json" },
+        headers: { "Content-Type": "application/json", "X-Requested-With": "XMLHttpRequest" },
         credentials: "include",
         body: JSON.stringify({ when_start: start, when_end: end }),
       });

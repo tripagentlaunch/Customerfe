@@ -75,7 +75,7 @@ export default function EnquirePage() {
     try {
       const res = await fetch(`/enquiries`, {
         method: "POST",
-        headers: { "Content-Type": "application/json"},
+        headers: { "Content-Type": "application/json", "X-Requested-With": "XMLHttpRequest" },
         credentials: "include",
         body: JSON.stringify(body),
       });

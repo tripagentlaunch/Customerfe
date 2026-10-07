@@ -115,7 +115,7 @@ export default function ReferPage() {
     try {
       const r = await fetch(`/referrals`, {
         method: "POST",
-        headers: { "Content-Type": "application/json"},
+        headers: { "Content-Type": "application/json", "X-Requested-With": "XMLHttpRequest" },
         credentials: "include",
         body: JSON.stringify({
           // Known-accepted keys — unchanged from before this redesign.
