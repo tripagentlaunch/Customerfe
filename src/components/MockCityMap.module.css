@@ -3,6 +3,8 @@
   width: 100%;
   height: 100%;
   background: var(--bone);
+  overflow: hidden;
+  cursor: grab;
 }
 
 /* Just a positioning wrapper now — MapPin supplies its own size, fill,
@@ -26,4 +28,36 @@
   position: absolute;
   width: 0;
   height: 0;
+}
+
+.zoomCtl {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--line);
+  background: #fff;
+  cursor: default;
+}
+
+.zoomCtl button {
+  width: 34px;
+  height: 34px;
+  border: none;
+  background: none;
+  font-family: var(--fr);
+  font-size: 18px;
+  line-height: 1;
+  color: var(--ink);
+  cursor: pointer;
+}
+
+.zoomCtl button + button {
+  border-top: 1px solid var(--line);
+}
+
+.zoomCtl button:disabled {
+  color: var(--stone);
+  cursor: default;
 }

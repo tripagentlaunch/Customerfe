@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState, type ReactNode } from "react";
+import { useEffect, useLayoutEffect, useMemo, useRef, useState, type ReactNode } from "react";
 import { Link, useParams } from "react-router-dom";
 import {
   Gem,
@@ -15,6 +15,8 @@ import {
   Sunset,
   Mountain,
   Camera,
+  ChevronLeft,
+  ChevronRight,
 } from "lucide-react";
 import cities from "../data/cities.generated.json";
 import type { CityData, CityGuidePanel } from "../types/city";
@@ -24,10 +26,10 @@ import CityMap from "../components/CityMap";
 import PlanRouteMap, { type PlanStop } from "../components/PlanRouteMap";
 import PlanCarousel from "../components/PlanCarousel";
 import CalendarSection from "../components/CalendarSection";
-import EventMap from "../components/EventMap";
-import { planSlotPhotos, PHOTOS_PER_SLOT } from "../lib/planPhotos";
-import { useAgraLivePlanCoords } from "../hooks/useAgraLivePlanCoords";
-import { useAgraLiveEventLocations } from "../hooks/useAgraLiveEventLocations";
+// import EventMap from "../components/EventMap"; // commented out: When-to-go now reuses the first section's CityMap
+import { pickHighlightSlots } from "../lib/planHighlights";
+import { useAgraLivePlanCoords, type PlanTarget } from "../hooks/useAgraLivePlanCoords";
+// import { useAgraLiveEventLocations } from "../hooks/useAgraLiveEventLocations";
 import { useLiveGuidePanelPhotos, type LivePanelPhoto } from "../hooks/useLiveGuidePanelPhotos";
 import { placeholderPhoto } from "../lib/placeholderPhoto";
 import { PrimaryInverseButton, SecondaryInverseButton } from "../components/buttons/InverseButtons";
@@ -117,6 +119,18 @@ function shortCredential(full: string): string {
 // regardless of how any one city's data happens to be authored.
 const MIN_VISIBLE_ITEMS = 6;
 
+// Which page buttons to show. Always the same number of slots (7) once there
+// are more than seven pages, so the pager never changes width or shifts as
+// you move through it: near the start it's 1 2 3 4 5 … N, near the end
+// 1 … N-4 … N, and in the middle 1 … c-1 c c+1 … N ("gap" is an ellipsis).
+function pagerItems(total: number, current: number): (number | "gap")[] {
+  if (total <= 7) return Array.from({ length: total }, (_, p) => p);
+  const last = total - 1;
+  if (current < 4) return [0, 1, 2, 3, 4, "gap", last];
+  if (current > last - 4) return [0, "gap", last - 4, last - 3, last - 2, last - 1, last];
+  return [0, "gap", current - 1, current, current + 1, "gap", last];
+}
+
 // Two independent boxes, not one shared hover treatment: the thumbnail is a
 // constant square that never reacts to hover. Fixed at 150px (card-page.module.css)
 // rather than measured off the text column, as an earlier JS/ResizeObserver
@@ -175,23 +189,47 @@ function GuidePanel({
   // jumping straight from 6 to all 44 at once, so a visitor who never
   // clicks past the first batch or two never triggers the later items'
   // image loads at all.
-  // Per-tier PAGE index (0-based) — "Show next 6" advances to the next
-  // page and shows ONLY that batch, not a cumulative reveal. Page 0 is
+  // Per-tier PAGE index (0-based) — the numbered pager under each tier
+  // shows ONLY that page's batch, not a cumulative reveal. Page 0 is
   // items[0:6], page 1 is items[6:12], etc.
   const [tierPage, setTierPage] = useState<Record<number, number>>({});
 
-  function nextPage(i: number, totalPages: number) {
-    setTierPage((prev) => {
-      const current = prev[i] ?? 0;
-      return { ...prev, [i]: Math.min(current + 1, totalPages - 1) };
-    });
-  }
+  const tierRefs = useRef<Record<number, HTMLDivElement | null>>({});
 
-  function resetPage(i: number) {
-    setTierPage((prev) => {
-      const next = { ...prev };
-      delete next[i];
-      return next;
+  // Keeps each tier's list at the height of a FULL page, so a shorter last
+  // page (e.g. 1 entry) doesn't pull the pager upward: the height is
+  // measured whenever a full page is showing, and applied as a min-height.
+  // Cleared on resize (card heights change with the layout) and re-measured
+  // the next time a full page is on screen.
+  const listRefs = useRef<Record<number, HTMLUListElement | null>>({});
+  const [listMinH, setListMinH] = useState<Record<number, number>>({});
+  useEffect(() => {
+    const clear = () => setListMinH({});
+    window.addEventListener("resize", clear);
+    return () => window.removeEventListener("resize", clear);
+  }, []);
+  useLayoutEffect(() => {
+    panel.tiers.forEach((tier, i) => {
+      const el = listRefs.current[i];
+      if (!el) return;
+      const page = tierPage[i] ?? 0;
+      if (tier.items.slice(page * MIN_VISIBLE_ITEMS, (page + 1) * MIN_VISIBLE_ITEMS).length < MIN_VISIBLE_ITEMS) return;
+      const h = el.offsetHeight;
+      if (h > 0) setListMinH((prev) => (prev[i] && prev[i] >= h ? prev : { ...prev, [i]: h }));
+    });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [tierPage, active, selectedTier, listMinH]);
+
+  function goToPage(i: number, page: number) {
+    setTierPage((prev) => ({ ...prev, [i]: page }));
+    // The pager sits under the list, so after a page change the new page's
+    // first entries can be above the viewport — bring the tier's top back
+    // into view (only when it has scrolled off, below the sticky header).
+    requestAnimationFrame(() => {
+      const el = tierRefs.current[i];
+      if (!el) return;
+      const top = el.getBoundingClientRect().top;
+      if (top < 96) window.scrollTo({ top: window.scrollY + top - 110, behavior: "smooth" });
     });
   }
 
@@ -220,8 +258,8 @@ function GuidePanel({
     <div className={`cg-panel${active ? " on" : ""}`} data-cg={panel.key}>
       {panel.tiers.map((tier, i) => (
         (labelledTiers.length <= 1 || i === selectedTier) && (
-        <div className={`cg-tier${(tierPage[i] ?? 0) > 0 ? " cg-more-open" : ""}`} key={i}>
-          <ul className="cg-list">
+        <div className={`cg-tier${(tierPage[i] ?? 0) > 0 ? " cg-more-open" : ""}`} key={i} ref={(el) => { tierRefs.current[i] = el; }}>
+          <ul className="cg-list" ref={(el) => { listRefs.current[i] = el; }} style={listMinH[i] ? { minHeight: listMinH[i], alignContent: "start" } : undefined}>
             {tier.items.map((item, j) => {
               // `credentials` is typed required, but that's a compile-time
               // guarantee for hand-authored JSON only — a live API response
@@ -270,20 +308,52 @@ function GuidePanel({
           {tier.items.length > MIN_VISIBLE_ITEMS && (() => {
               const totalPages = Math.ceil(tier.items.length / MIN_VISIBLE_ITEMS);
               const page = tierPage[i] ?? 0;
-              const isLastPage = page >= totalPages - 1;
               const start = page * MIN_VISIBLE_ITEMS + 1;
               const end = Math.min(start + MIN_VISIBLE_ITEMS - 1, tier.items.length);
               return (
-                <button
-                  className="cg-more"
-                  type="button"
-                  aria-expanded={page > 0}
-                  onClick={() => (isLastPage ? resetPage(i) : nextPage(i, totalPages))}
-                >
-                  {isLastPage
-                    ? "Back to top"
-                    : `Showing ${start}-${end} of ${tier.items.length} — Show next ${Math.min(MIN_VISIBLE_ITEMS, tier.items.length - end)} →`}
-                </button>
+                <nav className={styles.pager} aria-label="Guide pages">
+                  <span className={styles.pagerStatus}>
+                    Showing {start}-{end} of {tier.items.length}
+                  </span>
+                  <div className={styles.pagerPages}>
+                    <button
+                      type="button"
+                      className={styles.pagerBtn}
+                      aria-label="Previous page"
+                      disabled={page === 0}
+                      onClick={() => goToPage(i, page - 1)}
+                    >
+                      <ChevronLeft size={16} strokeWidth={2} aria-hidden="true" />
+                    </button>
+                    {pagerItems(totalPages, page).map((p, k) =>
+                      p === "gap" ? (
+                        <span key={`gap-${k}`} className={styles.pagerGap} aria-hidden="true">
+                          …
+                        </span>
+                      ) : (
+                        <button
+                          key={p}
+                          type="button"
+                          className={`${styles.pagerBtn}${p === page ? ` ${styles.pagerBtnActive}` : ""}`}
+                          aria-label={`Page ${p + 1}`}
+                          aria-current={p === page ? "page" : undefined}
+                          onClick={() => goToPage(i, p)}
+                        >
+                          {p + 1}
+                        </button>
+                      ),
+                    )}
+                    <button
+                      type="button"
+                      className={styles.pagerBtn}
+                      aria-label="Next page"
+                      disabled={page >= totalPages - 1}
+                      onClick={() => goToPage(i, page + 1)}
+                    >
+                      <ChevronRight size={16} strokeWidth={2} aria-hidden="true" />
+                    </button>
+                  </div>
+                </nav>
               );
             })()}
         </div>
@@ -386,26 +456,13 @@ export default function CityPage() {
     return () => ro.disconnect();
   }, []);
 
-  // "The plan" is a day-tabs + single-place carousel: normal page scroll
-  // (not scroll-hijacked/sticky), advanced by arrow clicks, day-tab clicks,
-  // or a 6s auto-advance timer — all three just set activeStepIndex
-  // directly, since there's no scroll-linkage to keep in sync with anymore.
-  type PlanStep = { dayIndex: number; slotIndex: number; photoIndex: number };
-
-  const planSteps = useMemo<PlanStep[]>(() => {
-    if (!city) return [];
-    const steps: PlanStep[] = [];
-    (city.plan.days ?? []).forEach((day, dayIndex) => {
-      (day.slots ?? []).forEach((_, slotIndex) => {
-        for (let photoIndex = 0; photoIndex < PHOTOS_PER_SLOT; photoIndex++) {
-          steps.push({ dayIndex, slotIndex, photoIndex });
-        }
-      });
-    });
-    return steps;
-  }, [city]);
-
-  const [activeStepIndex, setActiveStepIndex] = useState(0);
+  // "The plan" is a day-tabs view with ONE highlight per day (picked by
+  // lib/planHighlights.ts): normal page scroll (not scroll-hijacked/sticky),
+  // advanced by day-tab clicks or a 4s auto-advance timer — both just set
+  // activeDayIndex, since there's no scroll-linkage to keep in sync.
+  const highlightSlots = useMemo(() => pickHighlightSlots(city?.plan.days ?? []), [city]);
+  const dayCount = city?.plan.days?.length ?? 0;
+  const [activeDayIndex, setActiveDayIndex] = useState(0);
   const [planInView, setPlanInView] = useState(false);
   const planSectionRef = useRef<HTMLElement | null>(null);
 
@@ -414,20 +471,27 @@ export default function CityPage() {
   // while that section is in view — same pattern as planInView/PlanRouteMap
   // below, just driven from a sibling section instead of a ref+observer
   // here, since CalendarSection owns its own section element.
-  const [calendarInView, setCalendarInView] = useState(false);
-  const [calendarActiveEvent, setCalendarActiveEvent] = useState<CityData["whatsOn"]["events"][number] | null>(null);
+  // Commented out: the When-to-go section no longer swaps the sticky map for
+  // a single-event EventMap — it keeps the first section's CityMap.
+  // const [calendarInView, setCalendarInView] = useState(false);
+  // const [calendarActiveEvent, setCalendarActiveEvent] = useState<CityData["whatsOn"]["events"][number] | null>(null);
 
-  function stepPlanBy(delta: number) {
-    setActiveStepIndex((i) => {
-      const n = planSteps.length;
-      if (n === 0) return i;
-      return (i + delta + n) % n;
-    });
-  }
+  // The "Events" tab after the last day: a static list (not part of the
+  // day auto-cycle, not tied to any map) of the city's events in calendar
+  // order. Absent when the city has none.
+  const [eventsTabOpen, setEventsTabOpen] = useState(false);
+  const planEvents = useMemo(() => {
+    const order = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+    const first = (ev: CityData["whatsOn"]["events"][number]) => {
+      const idx = (ev.months ?? []).map((m) => order.indexOf(m)).filter((i) => i >= 0);
+      return idx.length ? Math.min(...idx) : order.length;
+    };
+    return [...(city?.whatsOn.events ?? [])].sort((a, b) => first(a) - first(b));
+  }, [city]);
 
   function selectPlanDay(dayIndex: number) {
-    const stepIndex = planSteps.findIndex((s) => s.dayIndex === dayIndex);
-    if (stepIndex >= 0) setActiveStepIndex(stepIndex);
+    setEventsTabOpen(false);
+    setActiveDayIndex(dayIndex);
   }
 
   // The sticky map (to the right) still needs to know when the Plan section
@@ -447,12 +511,10 @@ export default function CityPage() {
   }, []);
 
   useEffect(() => {
-    if (!planInView || planSteps.length < 2) return;
-    const id = setTimeout(() => stepPlanBy(1), 4000);
+    if (!planInView || eventsTabOpen || dayCount < 2) return;
+    const id = setTimeout(() => setActiveDayIndex((i) => (i + 1) % dayCount), 4000);
     return () => clearTimeout(id);
-  }, [planInView, planSteps.length, activeStepIndex]);
-
-  const activePlanStep = planSteps[activeStepIndex];
+  }, [planInView, eventsTabOpen, dayCount, activeDayIndex]);
 
   // Agra only, for now — live Places API (New) lookups for every slot in
   // the active day that has no coordinates on file, using each slot's own
@@ -467,72 +529,53 @@ export default function CityPage() {
   // that cost, or after a scheduled backfill replaces live-fetch entirely.
   const LIVE_PLACES_TEST_CITIES = new Set(["abu-dhabi", "agra", "alleppey", "amalfi-coast", "amman-petra", "amritsar", "amsterdam", "andaman", "athens", "auckland", "bali", "bangkok", "barcelona", "bengaluru", "budapest", "buenos-aires", "cairo", "cancun", "cape-town", "cappadocia", "chennai", "colombo", "copenhagen", "cusco", "darjeeling", "delhi", "doha", "dubai", "dublin", "dubrovnik", "edinburgh", "florence", "galle", "geneva", "goa", "hanoi", "ho-chi-minh-city", "hoi-an", "hong-kong", "hyderabad", "istanbul", "jaipur", "jaisalmer", "jodhpur", "kathmandu", "kochi", "kolkata", "krabi", "kuala-lumpur", "kyoto", "lake-como", "langkawi", "las-vegas", "leh-ladakh", "lima", "lisbon", "london", "los-angeles", "madrid", "mahe-seychelles", "male-maldives", "manali", "marrakech", "mauritius-city", "melbourne", "mexico-city", "miami", "milan", "mumbai", "munich", "munnar", "muscat", "mykonos", "nairobi-mara", "new-york", "nice-riviera", "osaka", "paris", "paro", "phuket", "porto", "prague", "queenstown", "ranthambore", "reykjavik", "rio-de-janeiro", "rishikesh", "rome", "salzburg", "san-francisco", "santorini", "seoul", "shanghai", "shimla", "siem-reap", "singapore-city", "srinagar", "st-moritz", "sydney", "taipei", "tokyo", "toronto", "udaipur", "vancouver", "varanasi", "venice", "vienna", "zanzibar", "zermatt", "zurich"]);
   const isLivePlacesEnabledCity = city ? LIVE_PLACES_TEST_CITIES.has(city.slug) : false;
-  const agraLiveCoords = useAgraLivePlanCoords(isLivePlacesEnabledCity, city?.plan.days, activePlanStep?.dayIndex);
-  const agraLiveEventLocations = useAgraLiveEventLocations(isLivePlacesEnabledCity, city?.whatsOn.events);
+  const planTargets = useMemo<PlanTarget[]>(
+    () => highlightSlots.map((slotIndex, dayIndex) => ({ dayIndex, slotIndex })).filter((t) => t.slotIndex >= 0),
+    [highlightSlots],
+  );
+  const agraLiveCoords = useAgraLivePlanCoords(isLivePlacesEnabledCity, city?.plan.days, planTargets);
+  // const agraLiveEventLocations = useAgraLiveEventLocations(isLivePlacesEnabledCity, city?.whatsOn.events);
   const { results: liveGuidePanelPhotos, fireLookup: fireLiveGuidePanelLookup } = useLiveGuidePanelPhotos(isLivePlacesEnabledCity, city?.slug);
 
-  const activeSlotPhotos = useMemo(() => {
-    if (!city || !activePlanStep) return [];
-    const slot = (city.plan.days ?? [])[activePlanStep.dayIndex]?.slots?.[activePlanStep.slotIndex];
-    const liveKey = `${activePlanStep.dayIndex}-${activePlanStep.slotIndex}`;
-    const live = isLivePlacesEnabledCity ? agraLiveCoords[liveKey] : undefined;
-    if (live?.status === "success") return [live.photoUrl];
-    return planSlotPhotos(city.slug, activePlanStep.dayIndex, activePlanStep.slotIndex, slot?.photo);
-  }, [city, activePlanStep, isLivePlacesEnabledCity, agraLiveCoords]);
-
-  // The sticky map shows only the current day's stops (not the whole
-  // itinerary), highlighting whichever one is the active step's place. A
-  // slot's coordinates come from the static data when present, else — for
-  // Agra — from a live Places lookup that's already resolved for this day.
-  const resolvedSlotCoord = (
-    dayIndex: number,
-    slotIndex: number,
-    slot: { lat: number | null; lon: number | null },
-  ): { lat: number; lon: number } | null => {
-    if (typeof slot.lat === "number" && typeof slot.lon === "number") return { lat: slot.lat, lon: slot.lon };
-    if (!isLivePlacesEnabledCity) return null;
-    const live = agraLiveCoords[`${dayIndex}-${slotIndex}`];
-    return live?.status === "success" ? { lat: live.lat, lon: live.lon } : null;
-  };
-
-  const activeDayStops = useMemo(() => {
-    if (!city || !activePlanStep) return [];
-    const day = (city.plan.days ?? [])[activePlanStep.dayIndex];
-    if (!day) return [];
-    const stops: PlanStop[] = [];
-    // Day one starts from the airport, if the city has one on record — the
-    // first leg then reads as "arrival -> first stop" instead of starting
-    // mid-trip with no lead-in.
-    if (activePlanStep.dayIndex === 0 && city.plan.arrivalPoint) {
-      const a = city.plan.arrivalPoint;
-      stops.push({ lat: a.lat, lon: a.lon, dayNumber: day.dayNumber ?? "", label: a.label, place: a.label, category: "do", isAirport: true });
-    }
-    (day.slots ?? []).forEach((slot, slotIndex) => {
-      const coord = resolvedSlotCoord(activePlanStep.dayIndex, slotIndex, slot);
-      if (coord) {
-        stops.push({
-          lat: coord.lat,
-          lon: coord.lon,
+  // Each day's highlight, resolved: its coordinates come from the static
+  // data when present, else from the live lookup (test cities) if it has
+  // come back; photo likewise (static, else live, else a placeholder).
+  const dayHighlights = useMemo(
+    () =>
+      (city?.plan.days ?? []).map((day, dayIndex) => {
+        const slotIndex = highlightSlots[dayIndex] ?? -1;
+        const slot = slotIndex >= 0 ? day.slots[slotIndex] : undefined;
+        const liveResult = isLivePlacesEnabledCity && slotIndex >= 0 ? agraLiveCoords[`${dayIndex}-${slotIndex}`] : undefined;
+        const live = liveResult?.status === "success" ? liveResult : undefined;
+        const coord =
+          slot && typeof slot.lat === "number" && typeof slot.lon === "number"
+            ? { lat: slot.lat, lon: slot.lon }
+            : live
+              ? { lat: live.lat, lon: live.lon }
+              : null;
+        return {
+          dayIndex,
           dayNumber: day.dayNumber ?? "",
-          label: slot.label ?? "",
-          place: slot.place ?? slot.label ?? "",
-          category: slot.category,
-        });
-      }
-    });
-    return stops;
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [city, activePlanStep, agraLiveCoords]);
+          label: slot?.label ?? "",
+          place: slot?.place ?? slot?.label ?? day.title ?? "",
+          text: slot?.text ?? null,
+          category: slot?.category ?? null,
+          photo: slot?.photo || live?.photoUrl || placeholderPhoto(`${city?.slug}-plan-${dayIndex}-${slotIndex}-0`),
+          coord,
+        };
+      }),
+    [city, highlightSlots, isLivePlacesEnabledCity, agraLiveCoords],
+  );
 
-  const activeDayStopIndex = useMemo(() => {
-    if (!city || !activePlanStep) return -1;
-    const slot = (city.plan.days ?? [])[activePlanStep.dayIndex]?.slots?.[activePlanStep.slotIndex];
-    if (!slot) return -1;
-    const coord = resolvedSlotCoord(activePlanStep.dayIndex, activePlanStep.slotIndex, slot);
-    if (!coord) return -1;
-    return activeDayStops.findIndex((s) => s.lat === coord.lat && s.lon === coord.lon);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [city, activePlanStep, activeDayStops]);
+  // The sticky map shows the WHOLE route at once: one pin per day (the days
+  // that have coordinates), joined in day order. The active day's pin and its
+  // leg are what the map highlights.
+  const routeDays = useMemo(() => dayHighlights.filter((h) => h.coord), [dayHighlights]);
+  const planStops = useMemo<PlanStop[]>(
+    () => routeDays.map((h) => ({ lat: h.coord!.lat, lon: h.coord!.lon, dayNumber: h.dayNumber, label: h.label, place: h.place, category: h.category })),
+    [routeDays],
+  );
+  const activeStopIndex = routeDays.findIndex((h) => h.dayIndex === activeDayIndex);
 
   useEffect(() => {
     if (city?.seo.title) document.title = city.seo.title;
@@ -561,7 +604,7 @@ export default function CityPage() {
     );
   }
 
-  const { hero, ourTake, firstLook, whenToGo, guide, plan, neighbourhoods, whatsOn, goodToKnow, collections, closing } =
+  const { hero, ourTake, firstLook, whenToGo, guide, plan, neighbourhoods, goodToKnow, closing } =
     city;
 
   return (
@@ -638,12 +681,7 @@ export default function CityPage() {
         </div>
       </section>
 
-      <CalendarSection
-        whenToGo={whenToGo}
-        whatsOn={whatsOn}
-        onInViewChange={setCalendarInView}
-        onActiveEventChange={setCalendarActiveEvent}
-      />
+      <CalendarSection whenToGo={whenToGo} />
 
       <section className="band ta-content ta-itin" ref={planSectionRef}>
         <div className={styles.planIntro}>
@@ -655,16 +693,15 @@ export default function CityPage() {
               {plan.lede}
             </p>
           </div>
-          {activePlanStep && (
+          {dayHighlights[activeDayIndex] && (
             <PlanCarousel
               days={plan.days}
-              activeDayIndex={activePlanStep.dayIndex}
-              activeSlotIndex={activePlanStep.slotIndex}
-              activePhotoIndex={activePlanStep.photoIndex}
-              photos={activeSlotPhotos}
+              activeDayIndex={activeDayIndex}
+              highlight={dayHighlights[activeDayIndex]}
               onSelectDay={selectPlanDay}
-              onPrev={() => stepPlanBy(-1)}
-              onNext={() => stepPlanBy(1)}
+              events={planEvents}
+              eventsActive={eventsTabOpen}
+              onSelectEvents={() => setEventsTabOpen(true)}
             />
           )}
           {plan.cta && (
@@ -685,15 +722,15 @@ export default function CityPage() {
       </div>
 
       <div className={styles.taSplitMap}>
-        {planInView ? (
+        {planInView && !eventsTabOpen ? (
           // Checked ahead of the calendar's own EventMap below: Plan sits
           // right under the Calendar section, and planInView only goes true
           // once 50%+ of Plan is actually on screen (see its observer's own
           // comment) — by then the user has genuinely moved on, so Plan
           // should win even if Calendar's own observer hasn't flipped false
           // yet (its threshold is a plain "any pixel visible").
-          activeDayStops.length > 1 ? (
-            <PlanRouteMap stops={activeDayStops} activeIndex={activeDayStopIndex} />
+          planStops.length > 1 ? (
+            <PlanRouteMap stops={planStops} activeIndex={activeStopIndex} />
           ) : (
             // Deliberately NOT a silent fallback to CityMap — that used to
             // make missing per-city plan-coordinate data invisible (looked
@@ -701,9 +738,10 @@ export default function CityPage() {
             // route). This section is supposed to show PlanRouteMap; if it
             // can't, that should be obvious to whoever's wiring up data for
             // a new city, not something that quietly degrades.
-            <MapDataMissing reason="plan.days[].slots[] have no lat/lon for this city — PlanRouteMap needs at least 2 stops with coordinates (see CityDay in types/city.ts)." />
+            <MapDataMissing reason="fewer than 2 plan days have a highlight with coordinates for this city — PlanRouteMap needs at least 2 (see CityDay in types/city.ts)." />
           )
-        ) : calendarInView ? (
+        ) : /* EventMap branch commented out — When-to-go reuses the first section's CityMap
+        calendarInView ? (
           (() => {
             if (!calendarActiveEvent) {
               return (
@@ -746,7 +784,7 @@ export default function CityPage() {
               <MapDataMissing reason="This event has no location set — whatsOn.events[].location is required for EventMap (see types/city.ts)." />
             );
           })()
-        ) : (
+        ) : */ (
           <CityMap slug={city.slug} livePlacesEnabled={isLivePlacesEnabledCity} />
         )}
       </div>
@@ -905,6 +943,7 @@ export default function CityPage() {
         </div>
       </section>
 
+      {/* "More ways to explore" (collections) section removed — kept here commented out.
       <section className="band tight ta-collections" style={{ background: "var(--bone)" }}>
         <div className="wrap">
           <div className="reveal" style={{ maxWidth: "56ch" }}>
@@ -929,6 +968,7 @@ export default function CityPage() {
           </div>
         </div>
       </section>
+      */}
 
       <section
         className="band-dark band center"

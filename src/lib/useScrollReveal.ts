@@ -17,16 +17,25 @@ export function useScrollReveal(deps: unknown[] = []) {
       return;
     }
 
+    // A fixed 14% threshold can never be reached by an element taller than
+    // ~7x the viewport (e.g. /cities' results block, ~10,000px: at most ~7%
+    // of it can ever be on screen), so such elements stayed at opacity:0
+    // forever. Reveal once EITHER 14% of the element OR 30% of the viewport's
+    // height is inside it, and fire at fine-grained steps so tall elements
+    // actually get a callback at that point.
+    const thresholds = Array.from({ length: 101 }, (_, i) => i / 100);
     const io = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
-          if (entry.isIntersecting) {
+          const rootH = entry.rootBounds?.height ?? window.innerHeight;
+          const enough = entry.intersectionRatio >= 0.14 || entry.intersectionRect.height >= rootH * 0.3;
+          if (entry.isIntersecting && enough) {
             entry.target.classList.add("in");
             io.unobserve(entry.target);
           }
         });
       },
-      { threshold: 0.14 }
+      { threshold: thresholds }
     );
     targets.forEach((el) => io.observe(el));
     return () => io.disconnect();

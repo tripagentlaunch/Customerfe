@@ -43,7 +43,6 @@ export function Footer() {
           <Link to="/when-to-go">When to go</Link>
           <Link to="/services">What we handle</Link>
           <Link to="/destinations">Destinations</Link>
-          <Link to="/cities">Cities</Link>
           <Link to="/journeys">Journeys</Link>
           <Link to="/membership">Membership</Link>
           <Link to="/portal">Member portal</Link>
