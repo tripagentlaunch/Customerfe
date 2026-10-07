@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import styles from "./claim-page.module.css";
-import { supabase } from "../lib/supabaseClient";
+import { useAuth } from "../lib/auth";
 
 // Ported from claim.html — the 8-digit-code redemption page (distinct from
 // invitation.html's 16-character, 4-step ceremony: InvitationPage.tsx).
@@ -26,10 +26,6 @@ type RedeemResponse = {
   months?: number;
   memberId?: string | null;
   advisorName?: string | null;
-  session?: {
-    access_token: string;
-    refresh_token: string;
-  } | null;
 };
 
 // Cinematic full-screen background video, muted/looping/autoplaying behind
@@ -45,6 +41,7 @@ const VIDEO_SRC = "/videos/tripagent-claim-loop.mp4";
 const VIDEO_FALLBACK_SRC = "/images/tripagent-claim-fallback.jpg";
 
 export default function ClaimPage() {
+  const {refresh} = useAuth;
   useEffect(() => {
     document.title = "Claim your invitation — TripAgent";
   }, []);
@@ -111,7 +108,7 @@ export default function ClaimPage() {
     const [res] = await Promise.all([
       (async (): Promise<RedeemResponse> => {
         try {
-          const r = await fetch(`${API_BASE}/invite/${encodeURIComponent(clean)}/redeem`, {
+          const r = await fetch(`/invite/${encodeURIComponent(clean)}/redeem`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({}),
@@ -130,18 +127,18 @@ export default function ClaimPage() {
     // GUARDRAIL: validity + free-months are decided by the backend only —
     // a "valid" response with no usable months is never trusted client-side.
     if (res.valid === true && Number.isFinite(months) && months >= 1 && months <= 24) {
-      if (res.session?.access_token && res.session?.refresh_token) {
-        try {
-          await supabase.auth.setSession({
-            access_token: res.session.access_token,
-            refresh_token: res.session.refresh_token,
-          });
-        } catch {
-          // Non-fatal: worst case the header still shows "Sign in" and the
-          // person can sign in manually with the same email — the
-          // membership itself was already created successfully above.
-        }
-      }
+      // if (res.session?.access_token && res.session?.refresh_token) {
+      //   try {
+      //     await supabase.auth.setSession({
+      //       access_token: res.session.access_token,
+      //       refresh_token: res.session.refresh_token,
+      //     });
+      //   } catch {
+      //     // Non-fatal: worst case the header still shows "Sign in" and the
+      //     // person can sign in manually with the same email — the
+      //     // membership itself was already created successfully above.
+      //   }
+      // }
       setAnn(null);
       setClaimed(true);
       try {

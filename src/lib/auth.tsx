@@ -1,27 +1,15 @@
-import { createContext, useContext, useEffect, useMemo, useState } from "react";
+import { createContext, useCallback, useContext, useEffect, useMemo, useState } from "react";
 import type { ReactNode } from "react";
-import type { Session } from "@supabase/supabase-js";
-import { supabase } from "./supabaseClient";
 import type { SiteMemberRow } from "./database.types";
 
 export type LoginResult = { ok: true } | { ok: false; error: "not_invited" | string };
 
-// Supabase's free tier has no built-in "force re-login after N days" setting
-// (that's a Pro-plan-only feature — see Project Settings > Authentication >
-// Sessions, greyed out below Pro). This approximates it client-side: the
-// first time a session is established, we stamp "when did this login
-// start" into localStorage; every subsequent hydrate() checks that stamp
-// and force-signs-out once it's older than SESSION_MAX_AGE_MS, same as if
-// Supabase's own Time-box setting had expired it. Not a substitute for the
-// real Pro feature (a user could clear/edit localStorage to bypass it) —
-// this is a soft, client-side nudge for genuine users, not a security
-// control against a determined attacker.
 const SESSION_STAMP_KEY = "ta_session_started_at";
 const SESSION_MAX_AGE_MS = 90 * 24 * 60 * 60 * 1000; // ~3 months
 
 function isSessionTooOld(): boolean {
   const raw = localStorage.getItem(SESSION_STAMP_KEY);
-  if (!raw) return false; // no stamp yet — treat as fresh, hydrate() will stamp it below
+  if (!raw) return false;
   const startedAt = Number(raw);
   if (!Number.isFinite(startedAt)) return false;
   return Date.now() - startedAt > SESSION_MAX_AGE_MS;
@@ -37,14 +25,6 @@ function clearSessionStamp(): void {
   localStorage.removeItem(SESSION_STAMP_KEY);
 }
 
-// Frontend-only mock sign-in for refining the signed-in UI without a
-// backend. Dev server only (import.meta.env.DEV — compiled out of
-// production builds): visit any page with ?mock-auth=1 to be "signed in" as
-// a fake member (persisted in localStorage across reloads), ?mock-auth=0 or
-// the Sign out button to leave. Everything that reads useAuth() — header,
-// Profile sidebar, portal gating — sees an ordinary signed-in member; the
-// only thing that isn't real is that no Supabase session exists, so
-// anything that queries Supabase as the member just returns nothing.
 const MOCK_KEY = "ta_mock_auth";
 const MOCK_MEMBER = {
   id: "mock-member",
@@ -80,157 +60,121 @@ function readMockAuth(): boolean {
   return localStorage.getItem(MOCK_KEY) === "1";
 }
 
+// Sent on every state-changing request to this backend — see
+// app/dependencies/csrf.py for why this specific header defeats
+// cross-site forged requests.
+const CSRF_HEADERS = { "X-Requested-With": "XMLHttpRequest" } as const;
+
 type AuthContextValue = {
-  session: Session | null;
   member: SiteMemberRow | null;
-  loading: boolean; // true until the first getSession()+site_members lookup resolves
+  loading: boolean;
   signedIn: boolean;
-  // Set when a session was established (typically via the magic-link click,
-  // which supabase-js's detectSessionInUrl completes with no code in this
-  // app ever seeing it) but no site_members row is linked — see hydrate()'s
-  // doc comment. Consumed by whichever UI wants to surface it (Header opens
-  // the sign-in modal with it), then cleared with clearAuthError().
   authError: "not_invited" | null;
   clearAuthError: () => void;
   requestLogin: (email: string) => Promise<LoginResult>;
   verifyLogin: (email: string, token: string) => Promise<LoginResult>;
+  refresh: () => Promise<void>;
   logout: () => Promise<void>;
 };
 
 const AuthContext = createContext<AuthContextValue | null>(null);
 
-// Mirrors js/backend.js's remote-mode hydrate(): look up the site_members row
-// linked to this auth user via auth_uid. Returns null if OTP succeeded but no
-// site_members row is linked yet — this is the invite gate, enforced the same
-// way js/account.js's verifyLogin does (a valid login with no linked
-// membership is not a member).
-async function loadMember(session: Session | null): Promise<SiteMemberRow | null> {
-  if (!session) return null;
-  const { data, error } = await supabase
-    .from("site_members")
-    .select("*")
-    .eq("auth_uid", session.user.id)
-    .limit(1)
-    .maybeSingle();
-  if (error) {
-    console.error("[auth] site_members lookup failed:", error.message);
-    return null;
-  }
-  return data;
-}
+type SessionCheckResponse = { signed_in: boolean; member: SiteMemberRow | null };
+type VerifyOtpApiResponse = { ok: boolean; error?: string; member?: SiteMemberRow };
+type RequestOtpApiResponse = { ok: boolean; error?: string };
 
 export function AuthProvider({ children }: { children: ReactNode }) {
-  const [session, setSession] = useState<Session | null>(null);
   const [member, setMember] = useState<SiteMemberRow | null>(null);
   const [loading, setLoading] = useState(true);
   const [authError, setAuthError] = useState<"not_invited" | null>(null);
   const [mockSignedIn, setMockSignedIn] = useState(readMockAuth);
 
+  const checkSession = useCallback(async () => {
+    if (isSessionTooOld()) {
+      await fetch("/auth/logout", { method: "POST", credentials: "include", headers: CSRF_HEADERS }).catch(() => {});
+      clearSessionStamp();
+      setMember(null);
+      return;
+    }
+    try {
+      const res = await fetch("/auth/session", { credentials: "include" });
+      const data = (await res.json()) as SessionCheckResponse;
+      if (data.signed_in && data.member) {
+        stampSessionStart();
+        setMember(data.member);
+      } else {
+        clearSessionStamp();
+        setMember(null);
+      }
+    } catch {
+      setMember(null);
+    }
+  }, []);
+
   useEffect(() => {
     let cancelled = false;
-
-    // A session can arrive here two ways: verifyLogin() below (typed code —
-    // already gates itself and signs back out on no-member), or a magic-link
-    // click completing entirely inside supabase-js's own detectSessionInUrl
-    // handling before any of this app's code runs — that path has no other
-    // gate, so it's enforced here too. Without this, a non-member's session
-    // would sit signed-in-at-Supabase but member:null forever: signedIn
-    // reads false (so the UI looks unchanged/signed-out) while a live
-    // session lingers in storage — sign it back out and surface why.
-    async function hydrate(nextSession: Session | null) {
-      if (nextSession && isSessionTooOld()) {
-        await supabase.auth.signOut();
-        if (cancelled) return;
-        clearSessionStamp();
-        setSession(null);
-        setMember(null);
-        setLoading(false);
-        return;
-      }
-      const m = await loadMember(nextSession);
-      if (cancelled) return;
-      if (nextSession && !m) {
-        await supabase.auth.signOut();
-        if (cancelled) return;
-        setSession(null);
-        setMember(null);
-        setLoading(false);
-        setAuthError("not_invited");
-        return;
-      }
-      stampSessionStart();
-      setSession(nextSession);
-      setMember(m);
-      setLoading(false);
-    }
-
-    supabase.auth.getSession().then(({ data }) => hydrate(data.session));
-
-    const { data: sub } = supabase.auth.onAuthStateChange((_event, nextSession) => {
-      setLoading(true);
-      hydrate(nextSession);
-    });
-
+    (async () => {
+      await checkSession();
+      if (!cancelled) setLoading(false);
+    })();
     return () => {
       cancelled = true;
-      sub.subscription.unsubscribe();
     };
-  }, []);
+  }, [checkSession]);
 
   const value = useMemo<AuthContextValue>(
     () => ({
-      session,
       member: mockSignedIn ? MOCK_MEMBER : member,
       loading,
-      signedIn: mockSignedIn || (!!session && !!member),
+      signedIn: mockSignedIn || !!member,
       authError,
       clearAuthError: () => setAuthError(null),
+      refresh: checkSession,
       async requestLogin(email) {
-        const { error } = await supabase.auth.signInWithOtp({
-          email: email.trim(),
-          options: { emailRedirectTo: window.location.origin },
-        });
-        if (error) {
-          const notInvited = /not_invited|not on the invitation/i.test(error.message);
-          return { ok: false, error: notInvited ? "not_invited" : error.message };
+        try {
+          const res = await fetch("/auth/request-otp", {
+            method: "POST",
+            headers: { "Content-Type": "application/json", ...CSRF_HEADERS },
+            credentials: "include",
+            body: JSON.stringify({ email: email.trim() }),
+          });
+          if (res.status === 429) return { ok: false, error: "Too many attempts — please wait a few minutes and try again." };
+          const data = (await res.json()) as RequestOtpApiResponse;
+          if (!data.ok) return { ok: false, error: data.error ?? "request_failed" };
+          return { ok: true };
+        } catch {
+          return { ok: false, error: "network" };
         }
-        return { ok: true };
       },
       async verifyLogin(email, token) {
-        const { data, error } = await supabase.auth.verifyOtp({
-          email: email.trim(),
-          token: token.trim(),
-          type: "email",
-        });
-        if (error) return { ok: false, error: error.message };
-
-        // Invite gate (see loadMember's doc comment above): a verified OTP
-        // with no linked site_members row is not a member — sign back out,
-        // same as js/account.js's verifyLogin.
-        const m = await loadMember(data.session);
-        if (!m) {
-          await supabase.auth.signOut();
-          setSession(null);
-          setMember(null);
-          return { ok: false, error: "not_invited" };
+        try {
+          const res = await fetch("/auth/verify-otp", {
+            method: "POST",
+            headers: { "Content-Type": "application/json", ...CSRF_HEADERS },
+            credentials: "include",
+            body: JSON.stringify({ email: email.trim(), token: token.trim() }),
+          });
+          if (res.status === 429) return { ok: false, error: "Too many attempts — please wait a few minutes and try again." };
+          const data = (await res.json()) as VerifyOtpApiResponse;
+          if (!data.ok || !data.member) return { ok: false, error: data.error ?? "verify_failed" };
+          stampSessionStart();
+          setMember(data.member);
+          return { ok: true };
+        } catch {
+          return { ok: false, error: "network" };
         }
-        stampSessionStart();
-        setSession(data.session);
-        setMember(m);
-        return { ok: true };
       },
       async logout() {
         if (mockSignedIn) {
           localStorage.removeItem(MOCK_KEY);
           setMockSignedIn(false);
         }
-        await supabase.auth.signOut();
+        await fetch("/auth/logout", { method: "POST", credentials: "include", headers: CSRF_HEADERS }).catch(() => {});
         clearSessionStamp();
-        setSession(null);
         setMember(null);
       },
     }),
-    [session, member, loading, authError, mockSignedIn]
+    [member, loading, authError, mockSignedIn, checkSession]
   );
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;

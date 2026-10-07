@@ -10,26 +10,27 @@ export type LiveSlotCoord =
 
 type SlotKey = string; // `${dayIndex}-${slotIndex}`
 
-// Live-fetches Places (New) lookups for every slot in the ACTIVE day that
-// has no coordinates on file, extracting a candidate name from each
-// slot's own text (extractPlaceName.ts) rather than one hardcoded query —
-// so multiple slots on the same day can resolve real coordinates, letting
-// PlanRouteMap's "needs >=2 stops" condition actually be satisfied once
-// enough of them come back. Scoped to Agra only via `enabled`; results
-// persist across day switches (a ref of already-attempted keys prevents
-// re-fetching a slot that already resolved or already came back empty).
+// Live-fetches a Places (New) lookup for each TARGET slot (one highlight
+// per plan day — see lib/planHighlights.ts) that is missing a photo or
+// coordinates, extracting a candidate name from the slot's own text
+// (extractPlaceName.ts). Scoped to the test cities via `enabled`; results
+// persist (a ref of already-attempted keys prevents re-fetching a slot that
+// already resolved or already came back empty).
+export interface PlanTarget {
+  dayIndex: number;
+  slotIndex: number;
+}
+
 export function useAgraLivePlanCoords(
   enabled: boolean,
   days: CityDay[] | undefined,
-  dayIndex: number | undefined,
+  targets: PlanTarget[],
 ): Record<SlotKey, LiveSlotCoord> {
   const [results, setResults] = useState<Record<SlotKey, LiveSlotCoord>>({});
   const attempted = useRef<Set<SlotKey>>(new Set());
 
   useEffect(() => {
-    if (!enabled || !days || dayIndex == null) return;
-    const day = days[dayIndex];
-    if (!day) return;
+    if (!enabled || !days) return;
 
     // No cancel-on-cleanup flag here, deliberately: StrictMode's dev-only
     // mount->cleanup->mount double-invoke marks every slot's key in
@@ -41,13 +42,13 @@ export function useAgraLivePlanCoords(
     // idempotent and cheap, and setState after unmount is safe in React
     // 18, so results are always applied once they arrive; `attempted`
     // alone is what prevents duplicate network calls.
-    (day.slots ?? []).forEach((slot, slotIndex) => {
-      // Skip whenever a static photo already exists — free, instant, no
-      // API call — even if lat/lon are still null. Only a genuine gap
-      // (no photo on file at all) triggers a live Places lookup; this is
-      // deliberately NOT gated on lat/lon alone, which would re-fetch a
-      // slot Pexels (or a future backfill) already solved for free.
-      if (slot.photo) return;
+    targets.forEach(({ dayIndex, slotIndex }) => {
+      const slot = days[dayIndex]?.slots?.[slotIndex];
+      if (!slot) return;
+      // Skip when the slot already has BOTH a static photo and coordinates
+      // — free, instant, no API call. A missing photo or missing coords is
+      // a genuine gap worth one live lookup.
+      if (slot.photo && typeof slot.lat === "number" && typeof slot.lon === "number") return;
       const key = `${dayIndex}-${slotIndex}`;
       if (attempted.current.has(key)) return;
       attempted.current.add(key);
@@ -60,7 +61,7 @@ export function useAgraLivePlanCoords(
 
       setResults((prev) => ({ ...prev, [key]: { status: "loading" } }));
       fetchPlaceLookup(candidate, "Agra").then((result) => {
-        if (!result || !result.found || !result.photo_url || result.lat == null || result.lon == null) {
+        if (!result || !result.found || result.lat == null || result.lon == null) {
           setResults((prev) => ({ ...prev, [key]: { status: result ? "not-found" : "error" } }));
           return;
         }
@@ -68,7 +69,7 @@ export function useAgraLivePlanCoords(
           ...prev,
           [key]: {
             status: "success",
-            photoUrl: resolvePlacePhotoUrl(result.photo_url!),
+            photoUrl: result.photo_url ? resolvePlacePhotoUrl(result.photo_url) : "",
             lat: result.lat!,
             lon: result.lon!,
             placeName: result.place_name ?? candidate,
@@ -76,7 +77,8 @@ export function useAgraLivePlanCoords(
         }));
       });
     });
-  }, [enabled, days, dayIndex]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [enabled, days, targets.map((t) => `${t.dayIndex}-${t.slotIndex}`).join(",")]);
 
   return results;
 }

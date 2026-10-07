@@ -111,7 +111,7 @@
     sitting flush against each other with the hand-off between them
     depending on exactly where this section's own (often near-blank —
     Santorini's photo is bright/pale) hero photo happens to end. */
- .ta-look{padding:0;margin-bottom:100px}
+ .ta-look{padding:0;margin-bottom:32px}
  /* Was clamp(360-640px) — sized for a full-page-width hero photo. Squeezed
     into this split layout's 55% column, that same height reads as a wall of
     near-empty space (Santorini's own photo is bright/pale, so it barely
@@ -326,7 +326,13 @@
     same way — the three of those stacked was the "huge gap" between Our
     take and When to go. */
  .ta-split-info>:global(.ta-take){padding-top:12px;padding-bottom:32px}
- .ta-split-info :global(.ta-when-go){padding-top:32px}
+ /* Bottom padding mirrors the Our take -> When to go gap, so the two gaps match at
+    every screen height: take's 32px + the photo strip (same clamp as .ta-look-hero)
+    + its 32px margin + When to go's 32px top padding = 96px + strip, minus the
+    12px The plan adds above itself = 84px + strip.
+    .band.ta-when-go (not just .ta-when-go): site.css's .band.tight padding ties a
+    two-class selector on specificity and loads later, so it was silently winning. */
+ .ta-split-info :global(.band.ta-when-go){padding-top:32px;padding-bottom:calc(84px + clamp(100px,calc(26vh - 100px),220px))}
  /* Full-bleed on three sides: flush to the very top (no gap under the
     hero), flush to the true viewport right edge (flex:1, no max-width cap
     — .ta-split-info's own margin-left is what keeps text from being
@@ -391,3 +397,70 @@
 @keyframes cardSpin{to{transform:rotate(360deg)}}
 @media (prefers-reduced-motion: reduce){.card-spinner{animation:none}}
 
+/* Guide pagination: the current page's number is a black fill with white
+   text, the other pages black outline with black text. */
+.pager {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  text-align: center;
+}
+
+.pagerStatus {
+  font-family: var(--fr);
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--signature);
+}
+
+.pagerPages {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.pagerGap {
+  width: 20px;
+  text-align: center;
+  font-family: var(--fr);
+  font-weight: 600;
+  color: #000;
+}
+
+.pagerBtn {
+  width: 38px;
+  height: 38px;
+  padding: 0;
+  font-family: var(--fr);
+  font-weight: 600;
+  font-size: 13px;
+  color: #000;
+  background: transparent;
+  border: 1px solid #000;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s var(--ease), color 0.2s var(--ease);
+}
+
+.pagerBtn:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+
+.pagerBtn:hover:not(:disabled):not(.pagerBtnActive) {
+  background: rgba(0, 0, 0, 0.06);
+}
+
+.pagerBtnActive {
+  background: #000;
+  color: #fff;
+  cursor: default;
+}

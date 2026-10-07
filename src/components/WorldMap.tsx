@@ -491,19 +491,41 @@ export default function WorldMap({
   const manualZoom = 1;
   const canvasRef = useRef<HTMLDivElement | null>(null);
   
+  // Standalone demo auto-cycle. Once the visitor picks a region themselves
+  // (tab bar or clicking a region on the map) it stops for good and every
+  // pending step is cancelled — otherwise the next scheduled step would
+  // yank the map away from what they just chose.
+  const userPickedRef = useRef(false);
+  const cycleTimersRef = useRef<number[]>([]);
+  const pickTab = (key: string) => {
+    userPickedRef.current = true;
+    cycleTimersRef.current.forEach((id) => window.clearTimeout(id));
+    cycleTimersRef.current = [];
+    setActiveTab(key);
+  };
+
   useEffect(() => {
     if (activeTabOverride) return; // externally controlled — skip the built-in demo auto-cycle
+    const later = (fn: () => void, ms: number) => {
+      const id = window.setTimeout(() => {
+        if (!userPickedRef.current) fn();
+      }, ms);
+      cycleTimersRef.current.push(id);
+    };
     let i = 0;
     const cycle = () => {
       setActiveTab(REGION_POP_ORDER[i % REGION_POP_ORDER.length]);
-      setTimeout(() => {
+      later(() => {
         setActiveTab(WORLD_TAB.key);
         i++;
-        setTimeout(cycle, 1000);
+        later(cycle, 1000);
       }, 2000);
     };
-    const start = setTimeout(cycle, 1000);
-    return () => clearTimeout(start);
+    later(cycle, 1000);
+    return () => {
+      cycleTimersRef.current.forEach((id) => window.clearTimeout(id));
+      cycleTimersRef.current = [];
+    };
   }, [activeTabOverride]);
 
   useEffect(() => {
@@ -1112,11 +1134,11 @@ export default function WorldMap({
             className={`${styles.regionGroup} ${hoveredTab === c.tabKey ? styles.regionHovered : ""}`}
             onMouseEnter={() => setHoveredTab(c.tabKey)}
             onMouseLeave={() => setHoveredTab((k) => (k === c.tabKey ? null : k))}
-            onClick={() => setActiveTab(c.tabKey)}
+            onClick={() => pickTab(c.tabKey)}
             role="button"
             tabIndex={0}
             onKeyDown={(e) => {
-              if (e.key === "Enter" || e.key === " ") setActiveTab(c.tabKey);
+              if (e.key === "Enter" || e.key === " ") pickTab(c.tabKey);
             }}
           >
             {/* The region's own complete geographic group (shape + name)
@@ -1367,7 +1389,7 @@ export default function WorldMap({
               role="tab"
               aria-selected={tab.key === activeTab}
               className={hoveredTab === tab.key ? styles.tabHovered : undefined}
-              onClick={() => setActiveTab(tab.key)}
+              onClick={() => pickTab(tab.key)}
               onMouseEnter={() => setHoveredTab(tab.key)}
               onMouseLeave={() => setHoveredTab((k) => (k === tab.key ? null : k))}
             >

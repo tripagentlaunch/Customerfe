@@ -7,8 +7,9 @@
 // caching exception in Google's terms, so every render that needs this
 // data makes a fresh live call. The backend's own cache is a few-minutes
 // request-dedup only, not a substitute for this being live per pageview.
-
-const API_BASE = import.meta.env.VITE_API_BASE_URL || "http://localhost:8002";
+//
+// Relative paths throughout — same-origin in prod, proxied to the backend
+// by vite.config.ts's dev proxy in local dev. No env var needed.
 
 export interface PlaceLookupResult {
   found: boolean;
@@ -21,7 +22,7 @@ export interface PlaceLookupResult {
 
 export async function fetchPlaceLookup(name: string, city: string): Promise<PlaceLookupResult | null> {
   try {
-    const url = `${API_BASE}/api/places/lookup?name=${encodeURIComponent(name)}&city=${encodeURIComponent(city)}`;
+    const url = `/api/places/lookup?name=${encodeURIComponent(name)}&city=${encodeURIComponent(city)}`;
     const res = await fetch(url, { signal: AbortSignal.timeout(8000) });
     if (!res.ok) return null;
     return (await res.json()) as PlaceLookupResult;
@@ -30,12 +31,11 @@ export async function fetchPlaceLookup(name: string, city: string): Promise<Plac
   }
 }
 
-// The lookup's `photo_url` is already a same-origin-shaped path off our
-// own backend (`/api/places/photo?ref=...`), not a fetchable frontend URL
-// on its own — this resolves it against the API base the same way the
-// lookup call itself was made.
+// The lookup's `photo_url` is already a same-origin-shaped path off our own
+// backend (`/api/places/photo?ref=...`) — it resolves as-is, relative to
+// whatever origin served this page (same-origin prod, proxied dev).
 export function resolvePlacePhotoUrl(photoUrl: string): string {
-  return `${API_BASE}${photoUrl}`;
+  return photoUrl;
 }
 
 // Combined lookup+photo in one request (backend fetches the photo bytes
@@ -54,7 +54,7 @@ export interface PlaceLookupWithPhotoResult {
 
 export async function fetchPlaceLookupWithPhoto(name: string, city: string): Promise<PlaceLookupWithPhotoResult | null> {
   try {
-    const url = `${API_BASE}/api/places/lookup-with-photo?name=${encodeURIComponent(name)}&city=${encodeURIComponent(city)}`;
+    const url = `/api/places/lookup-with-photo?name=${encodeURIComponent(name)}&city=${encodeURIComponent(city)}`;
     const res = await fetch(url, { signal: AbortSignal.timeout(8000) });
     if (!res.ok) return null;
     return (await res.json()) as PlaceLookupWithPhotoResult;

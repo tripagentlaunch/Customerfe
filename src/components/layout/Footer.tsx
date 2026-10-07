@@ -1,19 +1,21 @@
 import { Link } from "react-router-dom";
 import { TaraAI } from "../TaraAI";
+import { useWhatsAppNumber } from "../../hooks/useWhatsAppNumber";
 
 // Extracted verbatim from index.html's <footer class="footer"> — same
 // content, same classes. The placeholder legal address is copied as-is from
 // the live site (see GAPS.md item A2); not fixed here, since this is a
 // structural port, not a content pass. The WhatsApp link *was* also a
-// hardcoded dead "REPLACE_NUMBER" placeholder (GAPS.md item A1) — fixed
-// below by porting js/account.js's own handoff() fallback (WA configured ?
-// real wa.me link : /enquire), the same known-correct pattern already used
-// elsewhere in the source, via VITE_WHATSAPP_NUMBER (unset today, so this
-// resolves to /enquire until a real number is configured).
-const WHATSAPP_NUMBER = import.meta.env.VITE_WHATSAPP_NUMBER as string | undefined;
-const ADVISOR_HREF = WHATSAPP_NUMBER ? `https://wa.me/${WHATSAPP_NUMBER}` : "/enquire";
+// hardcoded dead "REPLACE_NUMBER" placeholder (GAPS.md item A1) — fixed by
+// porting js/account.js's own handoff() fallback (WA configured ? real
+// wa.me link : /enquire), the same known-correct pattern already used
+// elsewhere in the source, via the backend's /config endpoint (unset there
+// today, so this resolves to /enquire until a real number is configured).
 
 export function Footer() {
+  const whatsappNumber = useWhatsAppNumber();
+  const advisorHref = whatsappNumber ? `https://wa.me/${whatsappNumber}` : "/enquire";
+
   return (
     <footer className="footer">
       <div className="wrap">
@@ -43,7 +45,6 @@ export function Footer() {
           <Link to="/when-to-go">When to go</Link>
           <Link to="/services">What we handle</Link>
           <Link to="/destinations">Destinations</Link>
-          <Link to="/cities">Cities</Link>
           <Link to="/journeys">Journeys</Link>
           <Link to="/membership">Membership</Link>
           <Link to="/portal">Member portal</Link>
@@ -67,12 +68,12 @@ export function Footer() {
           <p className="fcol">Get started</p>
           <Link to="/invitation">By invitation</Link>
           <Link to="/refer">Refer a friend</Link>
-          {WHATSAPP_NUMBER ? (
-            <a href={ADVISOR_HREF} target="_blank" rel="noopener noreferrer">
+          {whatsappNumber ? (
+            <a href={advisorHref} target="_blank" rel="noopener noreferrer">
               Speak with <TaraAI />
             </a>
           ) : (
-            <Link to={ADVISOR_HREF}>
+            <Link to={advisorHref}>
               Speak with <TaraAI />
             </Link>
           )}

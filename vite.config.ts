@@ -37,15 +37,30 @@ function vercelImageProxy(): Plugin {
   };
 }
 
+// Every prefix the FastAPI backend (../backend/main.py) actually serves,
+// proxied to the local backend so the frontend can call plain relative paths
+// in both dev and prod — no VITE_API_BASE_URL/VITE_ASSISTANT_ENDPOINT needed.
+const BACKEND_PROXY = {
+  target: "http://localhost:8000",
+  changeOrigin: true,
+};
+
 export default defineConfig({
   plugins: [react(), vercelImageProxy()],
   server: {
     fs: { allow: [".."] },
     proxy: {
-      "/api": {
-        target: "http://localhost:8002",
-        changeOrigin: true,
-      },
+      "/cities": BACKEND_PROXY,
+      "/config": BACKEND_PROXY,
+      "/auth": BACKEND_PROXY,
+      "/me": BACKEND_PROXY,
+      "/my-year": BACKEND_PROXY,
+      "/api": BACKEND_PROXY,
+      "/ai": BACKEND_PROXY,
+      "/enquiries": BACKEND_PROXY,
+      "/invite": BACKEND_PROXY,
+      "/access-requests": BACKEND_PROXY,
+      "/referrals": BACKEND_PROXY,
     },
   },
   // Page-scoped CSS files (app/src/pages/*.module.css) auto-hash their class

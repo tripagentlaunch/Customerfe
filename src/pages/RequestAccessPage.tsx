@@ -98,7 +98,7 @@ export default function RequestAccessPage() {
     setSubmitting(true);
     let succeeded = false;
     try {
-      const r = await fetch(`${API_BASE}/access-requests`, {
+       const r = await fetch(`/access-requests`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({

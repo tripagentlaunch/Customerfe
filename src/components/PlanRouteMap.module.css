@@ -13,25 +13,20 @@
   height: 100%;
 }
 
-/* Upcoming leg: dotted, muted — not yet traveled. */
+/* Every leg is dashed and muted... */
 .leg {
-  stroke: var(--stone, #8b8578);
+  stroke: var(--ink-soft, #3e3a35);
   stroke-width: 1.5;
   stroke-dasharray: 3 4;
-  opacity: 0.45;
-  transition: stroke-dasharray 0.4s ease, opacity 0.6s ease, stroke 0.4s ease;
+  opacity: 0.55;
+  transition: stroke 0.4s ease, opacity 0.4s ease;
 }
 
-/* Already-traveled leg: solid, but recedes once it's no longer the current one. */
-.leg.traveled {
-  stroke-dasharray: none;
-  stroke: var(--ink-soft, #3e3a35);
-  opacity: 0.35;
-}
-
-/* The one leg leading into the active stop: full solid, arrowhead, most prominent. */
+/* ...except the one leg tied to the active day: solid and prominent. */
 .leg.current {
   stroke: var(--signature, #6e2a38);
+  stroke-width: 3;
+  stroke-dasharray: none;
   opacity: 1;
 }
 
