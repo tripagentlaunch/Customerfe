@@ -347,12 +347,14 @@ export default function CityPage() {
   const criticalImages = useMemo(() => {
     if (city === undefined) return [];
     const urls: string[] = [];
+    if (city.hero?.image) urls.push(city.hero.image);
     if (city.firstLook?.heroImage) urls.push(city.firstLook.heroImage);
     const panels = orderedPanels(city.guide.panels ?? []);
-    const firstPanel = panels[0];
-    firstPanel?.tiers.forEach((tier) => {
-      tier.items.slice(0, 6).forEach((item) => {
-        if (item.photo) urls.push(item.photo);
+    panels.forEach((panel) => {
+      panel.tiers.forEach((tier) => {
+        tier.items.slice(0, 6).forEach((item) => {
+          if (item.photo) urls.push(item.photo);
+        });
       });
     });
     return urls;

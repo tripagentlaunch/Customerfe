@@ -6,6 +6,12 @@
   align-items: center;
   justify-content: center;
   background: var(--bone, #faf9f6);
+  transition: opacity 0.5s ease;
+}
+
+.loaderWrap.hiding {
+  opacity: 0;
+  pointer-events: none;
 }
 
 .loaderInner {
@@ -15,22 +21,9 @@
   gap: 16px;
 }
 
-.spinner {
-  width: 36px;
-  height: 36px;
-  border: 2px solid #e7e6e2;
-  border-top-color: #6e2a38;
-  border-radius: 50%;
-  animation: spin 0.8s linear infinite;
-}
-
 .label {
   font-size: 14px;
   letter-spacing: 0.04em;
   color: #5f5f5f;
   text-transform: uppercase;
-}
-
-@keyframes spin {
-  to { transform: rotate(360deg); }
 }

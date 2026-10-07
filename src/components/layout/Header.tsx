@@ -150,6 +150,7 @@ export function Header() {
             spellCheck={false}
             value={query}
             onChange={(e) => setQuery(e.target.value)}
+            onFocus={() => navigate("/search")}
           />
         </form>
 
