@@ -123,7 +123,6 @@ export function ExploreMega() {
           />
           <ExploreGroup
             items={[
-              ["Cities", "cities.html"],
               ["Collections", "collections.html"],
               ["Journal", "journal.html"],
             ]}
@@ -148,7 +147,7 @@ export function DiscoverMega() {
         <LinkList
           label="Also"
           items={[
-            ["All 110 cities", "cities.html"],
+            ["All 110 cities", "destinations.html"],
             ["When to go", "when-to-go.html"],
             ["Collections", "collections.html"],
             ["The Journal", "journal.html"],

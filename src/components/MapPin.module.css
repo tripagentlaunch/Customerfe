@@ -1,5 +1,7 @@
 .pin {
-  border-radius: 50%;
+  /* !important: site.css forces border-radius:0 on everything (sharp-edge
+     brand rule); map pins are the one deliberate exception. */
+  border-radius: 50% !important;
   border: 2px solid #fff;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.35);
   display: flex;

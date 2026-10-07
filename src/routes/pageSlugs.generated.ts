@@ -29,7 +29,6 @@ export const PAGE_SLUGS: string[] = [
   "cabin-guide",
   "careers",
   "claim",
-  "cities",
   "city-abu-dhabi",
   "city-agra",
   "city-alleppey",
