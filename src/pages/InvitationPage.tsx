@@ -10,12 +10,6 @@ const data = invitationData as unknown as InvitationPageData;
 
 const EMAIL_CTA_HREF = "mailto:maison@tripsure.com";
 
-// Same-origin in prod, VITE_API_BASE_URL for local dev — mirrors
-// EnquirePage.tsx's API_BASE convention (itself matching
-// concierge-chat/src/api.ts's PROD_DEFAULT_ENDPOINT pattern). Points at the
-// real, deployed backend/app/routers/invite_router.py.
-const API_BASE = (import.meta.env.VITE_API_BASE_URL as string | undefined) ?? "";
-
 type RedeemResponse = {
   valid?: boolean;
   used?: boolean;

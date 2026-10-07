@@ -20,8 +20,6 @@ import styles from "./refer-page.module.css";
 
 const EMAIL_RE = /^[^@\s]+@[^@\s]+\.[^@\s]+$/;
 
-const API_BASE = (import.meta.env.VITE_API_BASE_URL as string | undefined) ?? "";
-
 const COUNTRY_CODES = ["+91", "+1", "+44", "+971", "+65", "+61", "+49", "+33", "+41"];
 
 // Real, already-present assets (public/img/cities/*) — no new images

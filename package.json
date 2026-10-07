@@ -11,6 +11,7 @@
   "dependencies": {
     "@lottiefiles/react-lottie-player": "^3.6.0",
     "@react-google-maps/api": "^2.20.8",
+    "@supabase/supabase-js": "^2.117.3",
     "d3-geo": "^3.1.1",
     "d3-geo-projection": "^4.0.0",
     "lucide-react": "^1.44.0",

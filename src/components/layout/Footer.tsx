@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { TaraAI } from "../TaraAI";
-import { useWhatsAppNumber } from "../../hooks/useWhatsAppNumber";
+import { useWhatsAppNumber } from "../../lib/useWhatsAppNumber";
 
 // Extracted verbatim from index.html's <footer class="footer"> — same
 // content, same classes. The placeholder legal address is copied as-is from

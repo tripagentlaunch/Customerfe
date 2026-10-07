@@ -20,15 +20,6 @@ import styles from "./request-access-page.module.css";
 
 const EMAIL_RE = /^[^@\s]+@[^@\s]+\.[^@\s]+$/;
 
-// Same-origin in prod, VITE_API_BASE_URL for local dev — mirrors
-// ClaimPage.tsx/InvitationPage.tsx/EnquirePage.tsx's API_BASE convention.
-// The source (request-access.html's inline script) instead re-implemented
-// its own isLocalDevHost()/localhost:8000 check, since it has no build
-// step and no access to Vite env vars — that's this project's existing
-// equivalent seam for the same local-dev override, reused rather than
-// re-implemented.
-const API_BASE = (import.meta.env.VITE_API_BASE_URL as string | undefined) ?? "";
-
 // Same real-video-background pattern as ClaimPage.tsx's VIDEO_SRC/
 // VIDEO_FALLBACK_SRC — drop the real clip in at this exact path to
 // replace the placeholder, no other code changes needed.
