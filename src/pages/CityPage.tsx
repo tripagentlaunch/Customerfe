@@ -36,6 +36,7 @@ import { PrimaryInverseButton, SecondaryInverseButton } from "../components/butt
 import { withTaraAI } from "../components/TaraAI";
 import styles from "./city-page.module.css";
 import LiveVenues from "../components/LiveVenues";
+import { useEngineGuide } from "../hooks/useEngineGuide";
 import CityPageLoader, { useCityPageReady } from "../components/CityPageLoader";
 
 const CITIES = cities as unknown as Record<string, CityData>;
@@ -412,7 +413,15 @@ function AccordionRow({ label, value }: { label: string; value: string }) {
 export default function CityPage() {
   const { pageSlug } = useParams<{ pageSlug: string }>();
   const slug = pageSlug?.startsWith("city-") ? pageSlug.slice("city-".length) : undefined;
-  const city = slug ? CITIES[slug] : undefined;
+  const baseCity = slug ? CITIES[slug] : undefined;
+  // Guide content comes from the sourcing engine when it has any for this
+  // city (useEngineGuide.ts); everything else on the page, and the guide
+  // itself as a fallback, stays the bundled data.
+  const engineGuide = useEngineGuide(slug, baseCity?.guide);
+  const city = useMemo(
+    () => (baseCity && engineGuide.guide ? { ...baseCity, guide: engineGuide.guide } : baseCity),
+    [baseCity, engineGuide.guide]
+  );
   const [mapReady, setMapReady] = useState(false);
   const criticalImages = useMemo(() => {
     if (city === undefined) return [];
@@ -429,7 +438,10 @@ export default function CityPage() {
     });
     return urls;
   }, [city]);
-  const pageReady = useCityPageReady({ heroImage: city?.hero.image ?? undefined, mapReady, criticalImages });
+  // Held until the engine guide has loaded (or fallen back), so the guide
+  // doesn't visibly swap from the bundled content to the engine's.
+  const loaderReady = useCityPageReady({ heroImage: city?.hero.image ?? undefined, mapReady, criticalImages });
+  const pageReady = loaderReady && engineGuide.status !== "loading";
   const [activeTab, setActiveTab] = useState<string>("stay");
   // Keyed by panel key, not a single shared value — so switching from
   // "stay" (say, Grand selected) to "eat" and back still remembers Grand,
