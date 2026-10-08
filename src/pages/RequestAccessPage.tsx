@@ -1,21 +1,18 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import { useAuth } from "../lib/auth";
 import { useBareChromeForGuests } from "../lib/bareChrome";
-import { useSignInModal } from "../lib/signInModal";
 import styles from "./request-access-page.module.css";
 
 // The public "Request Access" form — a stranger applying has no session.
 // POSTs to Customerbe's /access-requests; an admin reviews it in adminfe's
 // Access requests panel, and approval emails a /claim code.
 //
-// 2026-10-08 (direct request): same two-column layout and fields as before,
-// restyled dark — rounded filled fields with labels above, cream pill CTA,
-// serif heading with a gold italic accent. Required: first name, last name,
-// email, mobile. Destination, timing and "why" are optional. Signed-out
-// visitors get no site chrome (useBareChromeForGuests) — just this page's
-// own minimal navbar: brand, Sign in, Have a code? — no section links.
-// Signed-in members see the normal site Header instead.
+// 2026-10-08 (direct request): form follows the "Ask for an invitation"
+// mock — Your name / Email / Mobile required, "Anything we should know"
+// optional, "Send to the Desk", code + email links underneath — in the
+// page's original colours (cream frosted card, oxblood accents, gold
+// eyebrow over the video). No navbar of any kind for signed-out visitors
+// (useBareChromeForGuests); signed-in members get the normal site Header.
 
 const EMAIL_RE = /^[^@\s]+@[^@\s]+\.[^@\s]+$/;
 // At least 7 digits once spaces/dashes/+ are stripped — loose on purpose,
@@ -29,14 +26,19 @@ const VIDEO_FALLBACK_SRC = "/images/tripagent-request-access-fallback.jpg";
 
 const DESK_EMAIL = "invite@tripagent.vip";
 
-type FieldName = "first_name" | "last_name" | "email" | "phone";
+type FieldName = "name" | "email" | "phone";
 type FieldErrors = Partial<Record<FieldName, string>>;
-const REQUIRED_ORDER: FieldName[] = ["first_name", "last_name", "email", "phone"];
+const REQUIRED_ORDER: FieldName[] = ["name", "email", "phone"];
+
+// "First and last name" in one box — first word is first_name, the rest
+// last_name (may be empty; the backend accepts a single-word name).
+function splitName(full: string): { first: string; last: string } {
+  const parts = full.trim().split(/\s+/);
+  return { first: parts[0] || "", last: parts.slice(1).join(" ") };
+}
 
 export default function RequestAccessPage() {
   useBareChromeForGuests();
-  const { signedIn } = useAuth();
-  const signInModal = useSignInModal();
 
   useEffect(() => {
     document.title = "Request access — TripAgent";
@@ -69,14 +71,12 @@ export default function RequestAccessPage() {
     const form = e.currentTarget;
     const fd = new FormData(form);
     const val = (k: string) => String(fd.get(k) || "").trim();
-    const firstName = val("first_name");
-    const lastName = val("last_name");
+    const name = val("name");
     const email = val("email");
     const phone = val("phone");
 
     const next: FieldErrors = {};
-    if (!firstName) next.first_name = "Please enter your first name.";
-    if (!lastName) next.last_name = "Please enter your last name.";
+    if (!name) next.name = "Please tell us your name.";
     if (!EMAIL_RE.test(email)) next.email = "Please enter a valid email.";
     if (phone.replace(/\D/g, "").length < MIN_PHONE_DIGITS) next.phone = "Please enter a valid mobile number.";
     setErrors(next);
@@ -87,6 +87,7 @@ export default function RequestAccessPage() {
       return;
     }
 
+    const { first, last } = splitName(name);
     setSubmitting(true);
     let succeeded = false;
     try {
@@ -94,12 +95,10 @@ export default function RequestAccessPage() {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          first_name: firstName,
-          last_name: lastName,
+          first_name: first,
+          last_name: last,
           email,
           phone,
-          destination: val("destination"),
-          travel_date: val("travel_timing"),
           reason: val("reason"),
         }),
       });
@@ -152,30 +151,6 @@ export default function RequestAccessPage() {
       )}
       <div className={styles.bgOverlay} aria-hidden="true" />
 
-      {!signedIn && (
-        <header className={styles.raNav}>
-          <span className={styles.raBrand}>
-            <svg width="20" height="20" viewBox="0 0 420 420" fill="none" aria-hidden="true">
-              <g stroke="currentColor" strokeWidth={26} strokeLinecap="round" strokeLinejoin="round">
-                <path d="M140,150 L280,150" />
-                <path d="M210,150 L210,212" />
-                <path d="M140,300 L210,212 L280,300" />
-                <path d="M174,256 L246,256" />
-              </g>
-            </svg>
-            TripAgent
-          </span>
-          <div className={styles.raNavActions}>
-            <button type="button" className={styles.navGhost} onClick={() => signInModal.open("Sign in to your year.")}>
-              Sign in
-            </button>
-            <Link to="/claim" className={styles.navPill}>
-              Have a code?
-            </Link>
-          </div>
-        </header>
-      )}
-
       <div className={styles.raWrap}>
         <div className={styles.raAside}>
           <div className={styles.eyebrow}>By invitation</div>
@@ -183,25 +158,19 @@ export default function RequestAccessPage() {
             Your next journey starts with a <span className={styles.it}>request.</span>
           </h1>
           <p className={styles.lede}>
-            Tell us how to reach you. A person at the Desk reads every request — no code is issued automatically,
-            and nothing here creates an account.
+            Personal travel planning, curated experiences and expert advisors — for members, by invitation.
           </p>
-          <ul className={styles.credList}>
-            <li>Personal travel planning</li>
-            <li>Curated experiences</li>
-            <li>Expert advisors</li>
-            <li>Trusted &amp; secure</li>
-          </ul>
         </div>
 
         <div className={styles.card}>
           {submitted ? (
             <div className={styles.thanks} role="status" aria-live="polite" tabIndex={-1} ref={thanksRef}>
               <h2 className={styles.cardHeading}>
-                Thank <span className={styles.it}>you.</span>
+                Thank <span className={styles.cardIt}>you.</span>
               </h2>
               <p className={styles.cardSub}>
-                Your request is with the Desk. If it's a fit, your invitation code will arrive by email.
+                Your request is with the Desk. A person reads every one — if it's a fit, your invitation code will
+                arrive by email.
               </p>
               <p className={styles.footLine}>
                 Already have a code?{" "}
@@ -213,38 +182,26 @@ export default function RequestAccessPage() {
           ) : (
             <>
               <h2 className={styles.cardHeading}>
-                Ask for an <span className={styles.it}>invitation.</span>
+                Ask for an <span className={styles.cardIt}>invitation.</span>
               </h2>
-              <p className={styles.cardSub}>A few details and we'll be in touch.</p>
+              <p className={styles.cardSub}>
+                Tell us how to reach you. A person at the Desk reads every request — no code is issued automatically,
+                and nothing here creates an account.
+              </p>
 
               <form className={styles.form} noValidate onSubmit={handleSubmit}>
-                <div className={styles.row2}>
-                  <div className={styles.field}>
-                    <label htmlFor="ra-first-name">First name</label>
-                    <input
-                      className="ra-input"
-                      id="ra-first-name"
-                      name="first_name"
-                      type="text"
-                      placeholder="First name"
-                      autoComplete="given-name"
-                      {...errProps("first_name")}
-                    />
-                    {errLine("first_name")}
-                  </div>
-                  <div className={styles.field}>
-                    <label htmlFor="ra-last-name">Last name</label>
-                    <input
-                      className="ra-input"
-                      id="ra-last-name"
-                      name="last_name"
-                      type="text"
-                      placeholder="Last name"
-                      autoComplete="family-name"
-                      {...errProps("last_name")}
-                    />
-                    {errLine("last_name")}
-                  </div>
+                <div className={styles.field}>
+                  <label htmlFor="ra-name">Your name</label>
+                  <input
+                    className="ra-input"
+                    id="ra-name"
+                    name="name"
+                    type="text"
+                    placeholder="First and last name"
+                    autoComplete="name"
+                    {...errProps("name")}
+                  />
+                  {errLine("name")}
                 </div>
 
                 <div className={styles.field}>
@@ -277,45 +234,17 @@ export default function RequestAccessPage() {
                   {errLine("phone")}
                 </div>
 
-                <div className={styles.row2}>
-                  <div className={styles.field}>
-                    <label htmlFor="ra-destination">
-                      Where to <span className={styles.optional}>· optional</span>
-                    </label>
-                    <input
-                      className="ra-input"
-                      id="ra-destination"
-                      name="destination"
-                      type="text"
-                      placeholder="Maldives, Tokyo…"
-                      autoComplete="off"
-                    />
-                  </div>
-                  <div className={styles.field}>
-                    <label htmlFor="ra-travel-timing">
-                      When <span className={styles.optional}>· optional</span>
-                    </label>
-                    <input
-                      className="ra-input"
-                      id="ra-travel-timing"
-                      name="travel_timing"
-                      type="text"
-                      placeholder="Late Nov, or flexible"
-                      autoComplete="off"
-                    />
-                  </div>
-                </div>
-
                 <div className={styles.field}>
                   <label htmlFor="ra-reason">
                     Anything we should know <span className={styles.optional}>· optional</span>
                   </label>
-                  <textarea
+                  <input
                     className="ra-input"
                     id="ra-reason"
                     name="reason"
-                    rows={2}
-                    placeholder="Where you are hoping to go, or who introduced you"
+                    type="text"
+                    placeholder="Where to, or who introduced you"
+                    autoComplete="off"
                   />
                 </div>
 
@@ -326,12 +255,7 @@ export default function RequestAccessPage() {
                 )}
 
                 <button type="submit" className={styles.submitBtn} disabled={submitting}>
-                  {submitting ? "One moment…" : "Request access"}
-                  {!submitting && (
-                    <span className={styles.arrow} aria-hidden="true">
-                      →
-                    </span>
-                  )}
+                  {submitting ? "One moment…" : "Send to the Desk"}
                 </button>
               </form>
 
