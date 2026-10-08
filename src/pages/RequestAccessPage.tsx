@@ -101,18 +101,13 @@ export default function RequestAccessPage() {
           email,
           phone: fd.get("phone"),
           reason: fd.get("reason"),
-          // Best-effort additions for the new "Where would you like to
-          // go?" / "When were you thinking?" fields — this repo has no
-          // access to the backend's actual Pydantic model, so whether
-          // these two are persisted or simply dropped as unrecognised JSON
-          // keys is unverified. Sent regardless, since most JSON-body
-          // backends tolerate (rather than reject) unknown fields, and
-          // dropping user-entered data silently would be worse. NOTE: if
-          // the backend doesn't yet accept `destination`/`travel_timing`,
-          // add them to the /access-requests request model to persist
-          // these two answers.
+          // "Where would you like to go?" / "When were you thinking?" —
+          // Customerbe's create_access_request() persists these as
+          // `destination` and `travel_date` (the admin panel shows both).
+          // The field was previously sent as `travel_timing`, which the
+          // backend ignored, so the answer was silently dropped.
           destination: fd.get("destination"),
-          travel_timing: fd.get("travel_timing"),
+          travel_date: fd.get("travel_timing"),
         }),
       });
       succeeded = r.ok;
@@ -236,52 +231,48 @@ export default function RequestAccessPage() {
               <form id="accessLeadForm" noValidate onSubmit={handleSubmit}>
                 <div className="field two">
                   <div>
-                    <label htmlFor="ra-first-name">First name *</label>
-                    <input id="ra-first-name" type="text" name="first_name" required placeholder="Your first name" autoComplete="given-name" />
+                    <input id="ra-first-name" aria-label="First name" type="text" name="first_name" required placeholder="Your first name" autoComplete="given-name" />
                   </div>
                   <div>
-                    <label htmlFor="ra-last-name">Last name *</label>
-                    <input id="ra-last-name" type="text" name="last_name" required placeholder="Your last name" autoComplete="family-name" />
+                    <input id="ra-last-name" aria-label="Last name" type="text" name="last_name" required placeholder="Your last name" autoComplete="family-name" />
                   </div>
                 </div>
                 <div className="field">
-                  <label htmlFor="ra-email">Email address *</label>
-                  <input id="ra-email" type="email" name="email" required placeholder="you@email.com" autoComplete="email" inputMode="email" />
+                  <input id="ra-email" aria-label="Email address" type="email" name="email" required placeholder="you@email.com" autoComplete="email" inputMode="email" />
                   <div className="err" id="ra-email-err" aria-live="polite">
                     {emailErr}
                   </div>
                 </div>
                 <div className="field">
-                  <label htmlFor="ra-phone">Mobile *</label>
-                  <input id="ra-phone" type="tel" name="phone" required placeholder="+91" autoComplete="tel" inputMode="tel" />
+                  <input id="ra-phone" aria-label="Mobile" type="tel" name="phone" required placeholder="Mobile number (+91)" autoComplete="tel" inputMode="tel" />
                 </div>
                 <div className="field">
-                  <label htmlFor="ra-destination">Where would you like to go?</label>
                   <input
                     id="ra-destination"
+                    aria-label="Where would you like to go?"
                     type="text"
                     name="destination"
-                    placeholder="Maldives, Amalfi, Tokyo…"
+                    placeholder="Where would you like to go?"
                     autoComplete="off"
                   />
                 </div>
                 <div className="field">
-                  <label htmlFor="ra-travel-timing">When were you thinking?</label>
                   <input
                     id="ra-travel-timing"
+                    aria-label="When were you thinking?"
                     type="text"
                     name="travel_timing"
-                    placeholder="Late November, or flexible"
+                    placeholder="When were you thinking?"
                     autoComplete="off"
                   />
                 </div>
                 <div className="field">
-                  <label htmlFor="ra-reason">Why TripAgent?</label>
                   <textarea
                     id="ra-reason"
+                    aria-label="Why TripAgent?"
                     name="reason"
                     rows={2}
-                    placeholder="A line or two on why you'd like an invitation."
+                    placeholder="Why TripAgent? A line or two on why you'd like an invitation."
                   />
                 </div>
                 <div className="err" id="ra-submit-err" aria-live="polite" style={{ marginBottom: 14 }}>

@@ -223,6 +223,10 @@ export default function InvitationPage() {
         setAnn({ text: "This invitation has already been opened.", kind: "err" });
         return;
       }
+      if (data.error === "expired") {
+        setAnn({ text: "This invitation has expired.", kind: "err" });
+        return;
+      }
       setAnn({ text: "That key isn't recognised.", kind: "err" });
     } catch {
       setAnn({ text: "We couldn't reach the door just now. Please try again in a moment.", kind: "err" });

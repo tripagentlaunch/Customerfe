@@ -144,6 +144,11 @@ export default function ClaimPage() {
         text: "That email is already attached to another membership. Please reach us on WhatsApp or write to maison@tripsure.com.",
         kind: "err",
       });
+    } else if (res.error === "expired") {
+      setAnn({
+        text: "This invitation has expired. Please reach us on WhatsApp or write to maison@tripsure.com for a new one.",
+        kind: "err",
+      });
     } else if (res.error === "network") {
       setAnn({ text: "We could not reach the door just now. Please try again in a moment.", kind: "err" });
     } else {
