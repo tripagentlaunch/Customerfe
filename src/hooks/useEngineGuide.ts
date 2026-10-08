@@ -22,7 +22,9 @@ const SUPABASE_ANON_KEY = import.meta.env.VITE_SUPABASE_ANON_KEY ?? "";
 type EngineGuideRow = {
   guide: {
     verified?: string | null;
-    heading?: string | null;
+    // { text: "Agra, in hand.", accent: "in hand" } from engine/city_guide.py;
+    // a plain string is accepted too.
+    heading?: { text?: unknown; accent?: unknown } | string | null;
     lede?: string | null;
     panels?: { key?: string; tiers?: { label?: string | null; items?: Partial<CityGuideItem>[] }[] }[];
   } | null;
@@ -39,15 +41,35 @@ function escapeHtml(s: string) {
   return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 }
 
+// Engine rows are external data rendered straight into the page — every
+// field is type-checked so a shape change degrades to null (or the bundled
+// value) instead of crashing CityPage.
+function str(v: unknown): string | null {
+  return typeof v === "string" && v.trim() ? v : null;
+}
+
 function toItem(raw: Partial<CityGuideItem>): CityGuideItem | null {
-  if (!raw || !raw.name) return null;
+  const name = raw ? str(raw.name) : null;
+  if (!name) return null;
   return {
-    name: raw.name,
-    area: raw.area ?? null,
-    credentials: Array.isArray(raw.credentials) ? raw.credentials.filter(Boolean) : [],
-    description: raw.description ?? null,
-    photo: raw.photo ?? null,
+    name,
+    area: str(raw.area),
+    credentials: Array.isArray(raw.credentials) ? raw.credentials.filter((c): c is string => !!str(c)) : [],
+    description: str(raw.description),
+    photo: str(raw.photo),
   };
+}
+
+// Same markup as the bundled headingHtml: `Agra, <span class="it">in hand</span>.`
+function headingHtml(h: NonNullable<EngineGuideRow["guide"]>["heading"]): string | null {
+  const text = typeof h === "string" ? str(h) : h ? str(h.text) : null;
+  if (!text) return null;
+  const html = escapeHtml(text);
+  const accent = h && typeof h === "object" ? str(h.accent) : null;
+  if (!accent) return html;
+  const acc = escapeHtml(accent);
+  const i = html.indexOf(acc);
+  return i === -1 ? html : `${html.slice(0, i)}<span class="it">${acc}</span>${html.slice(i + acc.length)}`;
 }
 
 // Engine guide -> this page's guide. Empty tiers/panels are dropped.
@@ -55,23 +77,23 @@ function toItem(raw: Partial<CityGuideItem>): CityGuideItem | null {
 // headingHtml (rendered with dangerouslySetInnerHTML).
 function toGuide(row: EngineGuideRow, base: CityData["guide"]): CityData["guide"] | null {
   const g = row.guide;
-  if (!g || !Array.isArray(g.panels)) return null;
+  if (!g || typeof g !== "object" || !Array.isArray(g.panels)) return null;
   const panels: CityGuidePanel[] = [];
   for (const p of g.panels) {
     if (!p.key || !PANEL_KEYS.has(p.key)) continue;
-    const tiers = (p.tiers ?? [])
+    const tiers = (Array.isArray(p.tiers) ? p.tiers : [])
       .map((t) => ({
-        label: t.label ?? null,
-        items: (t.items ?? []).map(toItem).filter((i): i is CityGuideItem => i !== null),
+        label: str(t.label),
+        items: (Array.isArray(t.items) ? t.items : []).map(toItem).filter((i): i is CityGuideItem => i !== null),
       }))
       .filter((t) => t.items.length > 0);
     if (tiers.length) panels.push({ key: p.key as CityGuidePanel["key"], tiers });
   }
   if (!panels.length) return null;
   return {
-    verified: g.verified ?? base.verified,
-    headingHtml: g.heading ? escapeHtml(g.heading) : base.headingHtml,
-    lede: g.lede ?? base.lede,
+    verified: str(g.verified) ?? base.verified,
+    headingHtml: headingHtml(g.heading) ?? base.headingHtml,
+    lede: str(g.lede) ?? base.lede,
     note: base.note,
     panels,
   };
@@ -99,7 +121,12 @@ export function useEngineGuide(slug: string | undefined, base: CityData["guide"]
       .catch(() => null)
       .then((rows: EngineGuideRow[] | null) => {
         if (cancelled) return;
-        const guide = Array.isArray(rows) && rows[0] ? toGuide(rows[0], base) : null;
+        let guide: CityData["guide"] | null = null;
+        try {
+          guide = Array.isArray(rows) && rows[0] ? toGuide(rows[0], base) : null;
+        } catch {
+          guide = null; // malformed engine data: show the bundled guide
+        }
         setState(guide ? { status: "ready", guide } : { status: "fallback", guide: null });
       })
       .finally(() => clearTimeout(timer));
