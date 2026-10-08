@@ -38,18 +38,95 @@
     linear-gradient(180deg, rgba(8, 7, 7, 0.2) 0%, rgba(8, 7, 7, 0.75) 100%);
 }
 
-.raBrand {
+/* Guest navbar — same dark glass surface as the form card. */
+.raNav {
   position: relative;
-  z-index: 2;
+  z-index: 3;
+  max-width: 1200px;
+  margin: 20px auto 0;
+  padding: 0 48px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 64px;
+}
+
+.raNav > * {
+  position: relative;
+}
+
+.raNav::before {
+  content: "";
+  position: absolute;
+  inset: 0 48px;
+  background: rgba(16, 15, 15, 0.72);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 20px !important;
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.35);
+}
+
+.raBrand {
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  padding: 28px 48px 0;
+  padding-left: 22px;
   font-family: var(--serif);
   font-size: 22px;
   font-weight: 500;
   letter-spacing: 0.02em;
   color: #f6f1e8;
+}
+
+.raNavActions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-right: 12px;
+}
+
+.navGhost,
+.navPill {
+  height: 40px;
+  padding: 0 18px;
+  border-radius: 999px !important;
+  font-family: var(--sans);
+  font-size: 14px;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.15s ease, border-color 0.15s ease;
+}
+
+.navGhost {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  color: #f1ece4;
+}
+
+.navGhost:hover {
+  border-color: rgba(231, 211, 168, 0.6);
+}
+
+.navPill {
+  background: #f1ece4;
+  border: 1px solid #f1ece4;
+  color: #141210;
+  font-weight: 600;
+}
+
+.navPill:hover {
+  background: #fff;
+}
+
+.navGhost:focus-visible,
+.navPill:focus-visible {
+  outline: 2px solid #e7d3a8;
+  outline-offset: 2px;
 }
 
 .raWrap {
@@ -309,8 +386,11 @@
 /* ---------- tablet: stack, intro above the card ---------- */
 
 @media (max-width: 960px) {
-  .raBrand {
-    padding: 24px 32px 0;
+  .raNav {
+    padding: 0 32px;
+  }
+  .raNav::before {
+    inset: 0 32px;
   }
   .raWrap {
     grid-template-columns: 1fr;
@@ -327,9 +407,28 @@
 /* ---------- phone ---------- */
 
 @media (max-width: 600px) {
+  .raNav {
+    margin-top: 12px;
+    padding: 0 16px;
+    min-height: 56px;
+  }
+  .raNav::before {
+    inset: 0 16px;
+    border-radius: 16px !important;
+  }
   .raBrand {
-    padding: 20px 16px 0;
+    padding-left: 16px;
     font-size: 20px;
+  }
+  .raNavActions {
+    padding-right: 8px;
+    gap: 6px;
+  }
+  .navGhost,
+  .navPill {
+    height: 36px;
+    padding: 0 14px;
+    font-size: 13px;
   }
   .raWrap {
     padding: 24px 16px 40px;

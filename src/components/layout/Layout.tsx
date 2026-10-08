@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { Outlet, useLocation } from "react-router-dom";
 import { Header } from "./Header";
 import { Footer } from "./Footer";
@@ -22,19 +22,21 @@ import { useAuth } from "../../lib/auth";
 // viewport) since Layout renders the same chrome on every other route.
 const FULLSCREEN_CHAT_PATHS = new Set(["/concierge"]);
 
-// request-access.html is a cold, unauthenticated lead form. Visitors who
-// aren't signed-in (i.e. not yet approved) see the form only — no Header,
-// footer, tab bar, theme toggle, advisor button or drawers (2026-10-08,
-// direct request). A signed-in member who lands here gets the normal site
-// chrome like on any other page.
-const BARE_FOR_GUESTS_PATHS = new Set(["/request-access"]);
+// A page can ask for "bare" chrome via useBareChromeForGuests() (below):
+// visitors who aren't signed in (i.e. not yet approved) then see only the
+// page — no Header, footer, tab bar, theme toggle, advisor button or
+// drawers; signed-in members get the normal site chrome. Page-driven rather
+// than path-driven because RequestAccessPage renders at both
+// /request-access and, on the dev preview, at "/" (PageRouter.tsx).
+export type LayoutOutletContext = { setBareForGuests: (bare: boolean) => void };
 
 export function Layout() {
   const { pathname } = useLocation();
   const isFullscreenChat = FULLSCREEN_CHAT_PATHS.has(pathname);
   const { signedIn, loading } = useAuth();
+  const [bareForGuests, setBareForGuests] = useState(false);
   // Bare until auth has resolved too, so a guest never sees the chrome flash.
-  const isBare = BARE_FOR_GUESTS_PATHS.has(pathname) && (loading || !signedIn);
+  const isBare = bareForGuests && (loading || !signedIn);
   const hideChrome = isFullscreenChat || isBare;
 
   // js/shell.js sets this on <html> once the shell header is built; several
@@ -89,7 +91,7 @@ export function Layout() {
           <SignInModalProvider>
             {!hideChrome && <Header />}
             <main id="content" style={isFullscreenChat ? { height: "100dvh", display: "flex" } : undefined}>
-              <Outlet />
+              <Outlet context={{ setBareForGuests } satisfies LayoutOutletContext} />
             </main>
             {!hideChrome && (
               <>

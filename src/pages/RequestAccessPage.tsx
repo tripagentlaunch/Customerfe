@@ -1,5 +1,8 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
+import { useAuth } from "../lib/auth";
+import { useBareChromeForGuests } from "../lib/bareChrome";
+import { useSignInModal } from "../lib/signInModal";
 import styles from "./request-access-page.module.css";
 
 // The public "Request Access" form — a stranger applying has no session.
@@ -9,9 +12,10 @@ import styles from "./request-access-page.module.css";
 // 2026-10-08 (direct request): same two-column layout and fields as before,
 // restyled dark — rounded filled fields with labels above, cream pill CTA,
 // serif heading with a gold italic accent. Required: first name, last name,
-// email, mobile. Destination, timing and "why" are optional. No page-local
-// nav: site chrome is hidden on this route for signed-out visitors (see
-// Layout.tsx's BARE_FOR_GUESTS_PATHS).
+// email, mobile. Destination, timing and "why" are optional. Signed-out
+// visitors get no site chrome (useBareChromeForGuests) — just this page's
+// own minimal navbar: brand, Sign in, Have a code? — no section links.
+// Signed-in members see the normal site Header instead.
 
 const EMAIL_RE = /^[^@\s]+@[^@\s]+\.[^@\s]+$/;
 // At least 7 digits once spaces/dashes/+ are stripped — loose on purpose,
@@ -30,6 +34,10 @@ type FieldErrors = Partial<Record<FieldName, string>>;
 const REQUIRED_ORDER: FieldName[] = ["first_name", "last_name", "email", "phone"];
 
 export default function RequestAccessPage() {
+  useBareChromeForGuests();
+  const { signedIn } = useAuth();
+  const signInModal = useSignInModal();
+
   useEffect(() => {
     document.title = "Request access — TripAgent";
   }, []);
@@ -144,17 +152,29 @@ export default function RequestAccessPage() {
       )}
       <div className={styles.bgOverlay} aria-hidden="true" />
 
-      <div className={styles.raBrand}>
-        <svg width="20" height="20" viewBox="0 0 420 420" fill="none" aria-hidden="true">
-          <g stroke="currentColor" strokeWidth={26} strokeLinecap="round" strokeLinejoin="round">
-            <path d="M140,150 L280,150" />
-            <path d="M210,150 L210,212" />
-            <path d="M140,300 L210,212 L280,300" />
-            <path d="M174,256 L246,256" />
-          </g>
-        </svg>
-        TripAgent
-      </div>
+      {!signedIn && (
+        <header className={styles.raNav}>
+          <span className={styles.raBrand}>
+            <svg width="20" height="20" viewBox="0 0 420 420" fill="none" aria-hidden="true">
+              <g stroke="currentColor" strokeWidth={26} strokeLinecap="round" strokeLinejoin="round">
+                <path d="M140,150 L280,150" />
+                <path d="M210,150 L210,212" />
+                <path d="M140,300 L210,212 L280,300" />
+                <path d="M174,256 L246,256" />
+              </g>
+            </svg>
+            TripAgent
+          </span>
+          <div className={styles.raNavActions}>
+            <button type="button" className={styles.navGhost} onClick={() => signInModal.open("Sign in to your year.")}>
+              Sign in
+            </button>
+            <Link to="/claim" className={styles.navPill}>
+              Have a code?
+            </Link>
+          </div>
+        </header>
+      )}
 
       <div className={styles.raWrap}>
         <div className={styles.raAside}>
