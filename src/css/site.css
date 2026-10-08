@@ -2072,16 +2072,16 @@ main > section.ta-ess{display:none}                /* "Before you go" — climat
    The enquiry form is the convert front door: it should feel like signing a guest book.
    ============================================================ */
 input:not([type=checkbox]):not([type=radio]):not([type=range]):not([type=submit]):not([type=button]):not(.ta-hd-q):not(.sp-input):not(.ra-input),
-textarea, select{
+textarea:not(.ra-input), select{
   background:transparent!important; border:0!important; border-bottom:1px solid var(--line)!important;
   border-radius:0!important; padding:12px 0!important; font-family:var(--sans); font-size:15px; color:var(--ink);
   box-shadow:none!important; transition:border-color .4s ease;
 }
-input:not(.ta-hd-q):not(.sp-input):not(.ra-input):focus, textarea:focus, select:focus{ border-bottom-color:var(--ink)!important; outline:none; }
+input:not(.ta-hd-q):not(.sp-input):not(.ra-input):focus, textarea:not(.ra-input):focus, select:focus{ border-bottom-color:var(--ink)!important; outline:none; }
 /* a11y (WCAG 2.4.7): a clear keyboard-focus ring on form controls — the base box-shadow:none
    stripped the earlier ring, leaving keyboard users almost no cue. :focus-visible keeps mouse
    clicks clean; outline (not box-shadow) sidesteps the !important above; sharp, single oxblood. */
-input:not(.ta-hd-q):not(.sp-input):not(.ra-input):focus-visible, textarea:focus-visible, select:focus-visible{ outline:2px solid var(--accent-2,#6E2A38)!important; outline-offset:2px; }
+input:not(.ta-hd-q):not(.sp-input):not(.ra-input):focus-visible, textarea:not(.ra-input):focus-visible, select:focus-visible{ outline:2px solid var(--accent-2,#6E2A38)!important; outline-offset:2px; }
 input::placeholder, textarea::placeholder{ color:var(--stone); }
 /* form labels → quiet tracked caps */
 form label, .field label, .form-label{ text-transform:uppercase; letter-spacing:.14em; font-size:10.5px; font-weight:600; color:var(--stone); }
