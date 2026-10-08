@@ -208,7 +208,7 @@ export default function ClaimPage() {
                   inputMode="text"
                   maxLength={8}
                   autoComplete="one-time-code"
-                  placeholder="ABCD1234"
+                  placeholder="AB1234CD"
                   spellCheck={false}
                   value={code}
                   onChange={handleInput}
