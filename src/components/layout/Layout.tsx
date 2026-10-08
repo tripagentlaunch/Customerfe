@@ -13,6 +13,7 @@ import { NavMenuProvider } from "../../lib/navMenu";
 import { TripDrawerProvider } from "../../lib/tripDrawer";
 import { ProfileDrawerProvider } from "../../lib/profileDrawer";
 import { SignInModalProvider } from "../../lib/signInModal";
+import { useAuth } from "../../lib/auth";
 
 // concierge.html is full-screen, chat-only — no site chrome (nav/tab-bar/
 // floating helpers), matching a messaging app's own window rather than a
@@ -21,20 +22,20 @@ import { SignInModalProvider } from "../../lib/signInModal";
 // viewport) since Layout renders the same chrome on every other route.
 const FULLSCREEN_CHAT_PATHS = new Set(["/concierge"]);
 
-// request-access.html is a cold, unauthenticated lead form — direct
-// request to drop the site's global mega-menu Header on this route (its
-// own page-local minimal nav — RequestAccessPage.tsx — replaces it
-// instead), while everything else (footer/tab-bar/trip-drawer/theme
-// toggle) stays exactly as on every other page. The floating "Talk to
-// your advisor" button was dropped here too in an earlier pass but is
-// wanted back (2026-09-24 direct request) — re-enabled below, so only
-// Header is still suppressed on this route.
-const NO_HEADER_PATHS = new Set(["/request-access"]);
+// request-access.html is a cold, unauthenticated lead form. Visitors who
+// aren't signed-in (i.e. not yet approved) see the form only — no Header,
+// footer, tab bar, theme toggle, advisor button or drawers (2026-10-08,
+// direct request). A signed-in member who lands here gets the normal site
+// chrome like on any other page.
+const BARE_FOR_GUESTS_PATHS = new Set(["/request-access"]);
 
 export function Layout() {
   const { pathname } = useLocation();
   const isFullscreenChat = FULLSCREEN_CHAT_PATHS.has(pathname);
-  const hideHeader = NO_HEADER_PATHS.has(pathname);
+  const { signedIn, loading } = useAuth();
+  // Bare until auth has resolved too, so a guest never sees the chrome flash.
+  const isBare = BARE_FOR_GUESTS_PATHS.has(pathname) && (loading || !signedIn);
+  const hideChrome = isFullscreenChat || isBare;
 
   // js/shell.js sets this on <html> once the shell header is built; several
   // mobile (<900px) rules in css/site.css key off it — bottom padding for
@@ -42,13 +43,13 @@ export function Layout() {
   // bar's own "Advisor" tab. Skipped on the full-screen chat route, which
   // renders neither.
   useEffect(() => {
-    if (isFullscreenChat) {
+    if (hideChrome) {
       document.documentElement.classList.remove("ta-has-shell");
       return;
     }
     document.documentElement.classList.add("ta-has-shell");
     return () => document.documentElement.classList.remove("ta-has-shell");
-  }, [isFullscreenChat]);
+  }, [hideChrome]);
 
   useEffect(() => {
     if (!isFullscreenChat) return;
@@ -86,11 +87,11 @@ export function Layout() {
         <TripDrawerProvider>
           <ProfileDrawerProvider>
           <SignInModalProvider>
-            {!isFullscreenChat && !hideHeader && <Header />}
+            {!hideChrome && <Header />}
             <main id="content" style={isFullscreenChat ? { height: "100dvh", display: "flex" } : undefined}>
               <Outlet />
             </main>
-            {!isFullscreenChat && (
+            {!hideChrome && (
               <>
                 <Footer />
                 <ThemeToggle />

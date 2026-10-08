@@ -1,53 +1,44 @@
 import { useEffect, useRef, useState } from "react";
-import { useScrollReveal } from "../lib/useScrollReveal";
+import { Link, useNavigate } from "react-router-dom";
 import styles from "./request-access-page.module.css";
 
-// Ported from request-access.html — the public "Request Access" lead form
-// (distinct from EnquirePage.tsx's signed-in-only enquiry form, though the
-// two share the same field/trust/thanks markup shape in the source, since
-// they're siblings on the backend: access_request_router.py next to
-// enquiry_router.py). No auth here — a stranger applying has no session.
+// The public "Ask for an invitation" form — a stranger applying has no
+// session. POSTs to Customerbe's /access-requests; an admin reviews it in
+// adminfe's Access requests panel, and approval emails a /claim code.
 //
-// Redesigned 2026-09-24 into a full-screen cinematic video-hero landing
-// page (same real-<video>-with-graceful-fallback architecture already
-// built for ClaimPage.tsx) — visual/UI pass, the submit handler's actual
-// accepted payload keys (first_name/last_name/email/phone/destination/
-// travel_date/reason) are UNCHANGED from what the live /access-requests
-// endpoint already accepts, since that backend isn't in this checkout to
-// safely extend. The new "Country" and "Travel preferences" fields are
-// sent as additional, best-effort JSON keys alongside the known-good ones
-// — see handleSubmit below.
+// Redesigned 2026-10-08 (direct request) as a single-column, dark,
+// mobile-first form. Only name, email and mobile are required; "Anything
+// we should know" is optional and is stored as `reason`. Site chrome (nav,
+// footer, tab bar) is hidden on this route for signed-out visitors — see
+// Layout.tsx's BARE_FOR_GUESTS_PATHS.
 
 const EMAIL_RE = /^[^@\s]+@[^@\s]+\.[^@\s]+$/;
+// At least 7 digits once spaces/dashes/+ are stripped — loose on purpose,
+// numbers are checked by a person at the Desk.
+const MIN_PHONE_DIGITS = 7;
 
-// Same real-video-background pattern as ClaimPage.tsx's VIDEO_SRC/
-// VIDEO_FALLBACK_SRC — drop the real clip in at this exact path to
-// replace the placeholder, no other code changes needed.
-const VIDEO_SRC = "/videos/travel-background.mp4";
-// Reuses the same golden-hour Santorini photo already used elsewhere on
-// this page's own collage — a real, already-present asset, shown whenever
-// the video can't load, and permanently for prefers-reduced-motion.
-const VIDEO_FALLBACK_SRC = "/images/tripagent-request-access-fallback.jpg";
+// Hero photo — replace this file to change the image; no code change needed.
+const HERO_SRC = "/images/tripagent-request-access-fallback.jpg";
+
+const DESK_EMAIL = "invite@tripagent.vip";
+
+type FieldErrors = Partial<Record<"name" | "email" | "phone", string>>;
+
+function splitName(full: string): { first: string; last: string } {
+  const parts = full.trim().split(/\s+/);
+  return { first: parts[0] || "", last: parts.slice(1).join(" ") };
+}
 
 export default function RequestAccessPage() {
-  // No useNavVariant("solid") here — this page renders its own page-local
-  // nav (below) instead of the shared site Header (Layout.tsx suppresses
-  // Header, not this page's own markup), so there's no shared nav to set a
-  // variant on.
-  useScrollReveal([]);
+  const navigate = useNavigate();
 
   useEffect(() => {
-    document.title = "Request access — TripAgent";
+    document.title = "Ask for an invitation — TripAgent";
   }, []);
-
-  const [reduceMotion] = useState(
-    () => typeof window !== "undefined" && window.matchMedia("(prefers-reduced-motion: reduce)").matches
-  );
-  const [videoFailed, setVideoFailed] = useState(false);
 
   const [submitting, setSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
-  const [emailErr, setEmailErr] = useState("");
+  const [errors, setErrors] = useState<FieldErrors>({});
   const [submitErr, setSubmitErr] = useState("");
   const thanksRef = useRef<HTMLDivElement>(null);
 
@@ -61,53 +52,47 @@ export default function RequestAccessPage() {
     }
   }, [submitted]);
 
+  function goBack() {
+    if (window.history.length > 1) navigate(-1);
+    else navigate("/claim");
+  }
+
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    // Guards against a second submit landing while the first is still
-    // in-flight (e.g. a fast double Enter) — the button is also disabled
-    // while submitting, this is the belt-and-braces version of the same
-    // check ClaimPage.tsx's own handleSubmit already uses.
     if (submitting) return;
 
     const form = e.currentTarget;
-    setEmailErr("");
-    setSubmitErr("");
-
-    if (!form.checkValidity()) {
-      form.reportValidity();
-      return;
-    }
-
     const fd = new FormData(form);
+    const name = String(fd.get("name") || "").trim();
     const email = String(fd.get("email") || "").trim();
-    if (!EMAIL_RE.test(email)) {
-      setEmailErr("Please enter a valid email.");
-      form.querySelector<HTMLInputElement>("#ra-email")?.focus();
+    const phone = String(fd.get("phone") || "").trim();
+    const note = String(fd.get("note") || "").trim();
+
+    const next: FieldErrors = {};
+    if (!name) next.name = "Please tell us your name.";
+    if (!EMAIL_RE.test(email)) next.email = "Please enter a valid email.";
+    if (phone.replace(/\D/g, "").length < MIN_PHONE_DIGITS) next.phone = "Please enter a valid mobile number.";
+    setErrors(next);
+    setSubmitErr("");
+    const firstBad = (["name", "email", "phone"] as const).find((k) => next[k]);
+    if (firstBad) {
+      form.querySelector<HTMLInputElement>(`#ra-${firstBad}`)?.focus();
       return;
     }
 
+    const { first, last } = splitName(name);
     setSubmitting(true);
     let succeeded = false;
     try {
-       const r = await fetch(`/access-requests`, {
+      const r = await fetch(`/access-requests`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          // The live endpoint's known-accepted keys — unchanged from
-          // before this redesign, verified against the currently deployed
-          // backend contract.
-          first_name: fd.get("first_name"),
-          last_name: fd.get("last_name"),
+          first_name: first,
+          last_name: last,
           email,
-          phone: fd.get("phone"),
-          reason: fd.get("reason"),
-          // "Where would you like to go?" / "When were you thinking?" —
-          // Customerbe's create_access_request() persists these as
-          // `destination` and `travel_date` (the admin panel shows both).
-          // The field was previously sent as `travel_timing`, which the
-          // backend ignored, so the answer was silently dropped.
-          destination: fd.get("destination"),
-          travel_date: fd.get("travel_timing"),
+          phone,
+          reason: note,
         }),
       });
       succeeded = r.ok;
@@ -117,213 +102,143 @@ export default function RequestAccessPage() {
     setSubmitting(false);
 
     if (!succeeded) {
-      // A real failure — never silently show the confirmation for one.
-      setSubmitErr(
-        "We couldn't send that just now. Please try again in a moment, or write to us directly at maison@tripsure.com."
-      );
+      setSubmitErr(`We couldn't send that just now. Please try again in a moment, or write to ${DESK_EMAIL}.`);
       return;
     }
-
     setSubmitted(true);
   }
 
   return (
-    // "hero" (global, unwrapped) is the same class AdvisorButton scans for
-    // (see ClaimPage.tsx's identical trick) so the shared floating "Talk to
-    // your advisor" button automatically renders its on-dark-hero skin
-    // against this page's own video, without touching that component.
-    <section className={`hero ${styles.raRoot}`}>
-      <img className={styles.bgFallback} src={VIDEO_FALLBACK_SRC} alt="" aria-hidden="true" />
-      {!reduceMotion && !videoFailed && (
-        <video
-          className={styles.bgVideo}
-          autoPlay
-          muted
-          loop
-          playsInline
-          preload="auto"
-          poster={VIDEO_FALLBACK_SRC}
-          aria-hidden="true"
-          onError={() => setVideoFailed(true)}
-        >
-          <source src={VIDEO_SRC} type="video/mp4" />
-        </video>
-      )}
-      <div className={styles.bgOverlay} aria-hidden="true" />
-
-      <nav className={styles.raNav} aria-label="Primary">
-        <span className={styles.raBrand}>
-          {/* Same brand mark used by the site's own global Header
-              (src/components/layout/Header.tsx's .ta-hd-brand svg) — reused
-              here rather than inventing a new logo, since this page's own
-              nav replaces (not duplicates) that shared component. */}
-          <svg className={styles.raBrandMark} width="20" height="20" viewBox="0 0 420 420" fill="none" aria-hidden="true">
-            <g stroke="currentColor" strokeWidth={26} strokeLinecap="round" strokeLinejoin="round">
-              <path d="M140,150 L280,150" />
-              <path d="M210,150 L210,212" />
-              <path d="M140,300 L210,212 L280,300" />
-              <path d="M174,256 L246,256" />
-            </g>
-          </svg>
-          TripAgent
-        </span>
-        <div className={styles.raNavLinks}>
-          <a href="/flights">Flights</a>
-          <a href="/hotels">Hotels</a>
-          <a href="/visas">Visas</a>
-          <a href="/experiences">Experiences</a>
-        </div>
-        <span className={styles.raNavTag}>Travel smarter</span>
-      </nav>
-
-      <main className={styles.raMain}>
-      <div className={styles.raWrap}>
-        <div className={`${styles.raAside} reveal`}>
-          <div className={styles.raEyebrow}>Better trips. Personalized.</div>
-          <h1 className={styles.raHeading}>
-            Your next journey
-            <br />
-            starts with a <span className={styles.it}>request.</span>
-          </h1>
-          <p className={styles.raLede}>
-            Get exclusive access to personalized travel planning, curated experiences and expert advisor support —
-            all in one place.
-          </p>
-
-          <div className={styles.collage} aria-hidden="true">
-            <img className={styles.collagePhoto} src="/img/cities/venice.jpg" alt="" loading="lazy" />
-            <img className={styles.collagePhoto} src="/img/dest-santorini-goldenhour.jpg" alt="" loading="lazy" />
-            <img className={styles.collagePhoto} src="/img/cities/male-maldives.jpg" alt="" loading="lazy" />
-            <img className={styles.collagePhoto} src="/img/cities/st-moritz.jpg" alt="" loading="lazy" />
-            <img className={styles.collagePhoto} src="/img/cities/amalfi-coast.jpg" alt="" loading="lazy" />
-          </div>
-
-          <div className={styles.credList}>
-            <div className={styles.credItem}>
-              <span className={styles.credDot} />
-              Trusted &amp; secure
-            </div>
-            <div className={styles.credItem}>
-              <span className={styles.credDot} />
-              Global destinations
-            </div>
-            <div className={styles.credItem}>
-              <span className={styles.credDot} />
-              Expert advisors
-            </div>
-            <div className={styles.credItem}>
-              <span className={styles.credDot} />
-              Curated experiences
-            </div>
-          </div>
+    <section className={styles.raRoot}>
+      <div className={styles.raColumn}>
+        <div className={styles.hero}>
+          <img className={styles.heroImg} src={HERO_SRC} alt="" aria-hidden="true" />
+          <button type="button" className={styles.backBtn} onClick={goBack} aria-label="Go back">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+              <path d="M15 18l-6-6 6-6" />
+            </svg>
+          </button>
         </div>
 
-        <div className="reveal d2">
-          <div className={`${styles.form}${submitted ? ` ${styles.sent}` : ""}`} id="accessForm">
-            <div className={styles.formBody}>
-              <div className={styles.raEyebrowCard}>Request access</div>
-              <h3 className={styles.formHeading}>
-                Unlock a world of
-                <br />
-                extraordinary travel.
-              </h3>
-              <p className={styles.formSub}>Complete the form below to request access and start planning your next adventure.</p>
-              <form id="accessLeadForm" noValidate onSubmit={handleSubmit}>
-                <div className="field two">
-                  <div>
-                    <input id="ra-first-name" aria-label="First name" type="text" name="first_name" required placeholder="Your first name" autoComplete="given-name" />
-                  </div>
-                  <div>
-                    <input id="ra-last-name" aria-label="Last name" type="text" name="last_name" required placeholder="Your last name" autoComplete="family-name" />
-                  </div>
-                </div>
-                <div className="field">
-                  <input id="ra-email" aria-label="Email address" type="email" name="email" required placeholder="you@email.com" autoComplete="email" inputMode="email" />
-                  <div className="err" id="ra-email-err" aria-live="polite">
-                    {emailErr}
-                  </div>
-                </div>
-                <div className="field">
-                  <input id="ra-phone" aria-label="Mobile" type="tel" name="phone" required placeholder="Mobile number (+91)" autoComplete="tel" inputMode="tel" />
-                </div>
-                <div className="field">
-                  <input
-                    id="ra-destination"
-                    aria-label="Where would you like to go?"
-                    type="text"
-                    name="destination"
-                    placeholder="Where would you like to go?"
-                    autoComplete="off"
-                  />
-                </div>
-                <div className="field">
-                  <input
-                    id="ra-travel-timing"
-                    aria-label="When were you thinking?"
-                    type="text"
-                    name="travel_timing"
-                    placeholder="When were you thinking?"
-                    autoComplete="off"
-                  />
-                </div>
-                <div className="field">
-                  <textarea
-                    id="ra-reason"
-                    aria-label="Why TripAgent?"
-                    name="reason"
-                    rows={2}
-                    placeholder="Why TripAgent? A line or two on why you'd like an invitation."
-                  />
-                </div>
-                <div className="err" id="ra-submit-err" aria-live="polite" style={{ marginBottom: 14 }}>
-                  {submitErr}
-                </div>
-                <button type="submit" className={`btn btn-gold ${styles.submitBtn}`} id="raBtn" style={{ width: "100%", justifyContent: "center" }} disabled={submitting}>
-                  {submitting ? (
-                    "One moment…"
-                  ) : (
-                    <>
-                      Request access <span className={styles.arrow}>→</span>
-                    </>
-                  )}
-                </button>
-                <p className={styles.safeNote}>
-                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.8} aria-hidden="true">
-                    <rect x="5" y="11" width="14" height="9" rx="1.5" />
-                    <path d="M8 11V7a4 4 0 0 1 8 0v4" />
-                  </svg>
-                  Your information is safe with us.
-                </p>
-              </form>
-            </div>
-            <div
-              className={`${styles.thanks}${submitted ? ` ${styles.show}` : ""}`}
-              id="raThanks"
-              role="status"
-              aria-live="polite"
-              tabIndex={-1}
-              ref={thanksRef}
-            >
-              <svg width={54} height={54} viewBox="0 0 420 420" fill="none" style={{ margin: "0 auto 18px" }}>
-                <g stroke="#785C12" strokeWidth={22} strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M140,150 L280,150" />
-                  <path d="M210,150 L210,212" />
-                  <path d="M140,300 L210,212 L280,300" />
-                  <path d="M174,256 L246,256" />
-                </g>
-              </svg>
-              <h3 className={styles.thanksHeading}>
-                Thank <span className={styles.it}>you</span>.
-              </h3>
-              <p className={styles.thanksBody}>
-                Your request has been received. One of our travel advisors will be in touch shortly to understand
-                your plans and help shape your journey.
+        <div className={styles.body}>
+          {submitted ? (
+            <div className={styles.thanks} role="status" aria-live="polite" tabIndex={-1} ref={thanksRef}>
+              <h1 className={styles.heading}>
+                Thank <span className={styles.it}>you.</span>
+              </h1>
+              <p className={styles.lede}>
+                Your request is with the Desk. A person reads every one — if it's a fit, your invitation code will
+                arrive by email.
+              </p>
+              <p className={styles.footLine}>
+                Already have a code?{" "}
+                <Link to="/claim" className={styles.footLink}>
+                  Open the door
+                </Link>
               </p>
             </div>
-          </div>
+          ) : (
+            <>
+              <h1 className={styles.heading}>
+                Ask for an <span className={styles.it}>invitation.</span>
+              </h1>
+              <p className={styles.lede}>
+                Tell us how to reach you. A person at the Desk reads every request — no code is issued
+                automatically, and nothing here creates an account.
+              </p>
+
+              <form className={styles.form} noValidate onSubmit={handleSubmit}>
+                <div className={styles.field}>
+                  <label htmlFor="ra-name">Your name</label>
+                  <input
+                    className="ra-input"
+                    id="ra-name"
+                    name="name"
+                    type="text"
+                    required
+                    placeholder="First and last name"
+                    autoComplete="name"
+                    aria-invalid={!!errors.name}
+                    aria-describedby={errors.name ? "ra-name-err" : undefined}
+                  />
+                  {errors.name && <div className={styles.err} id="ra-name-err">{errors.name}</div>}
+                </div>
+
+                <div className={styles.field}>
+                  <label htmlFor="ra-email">Email</label>
+                  <input
+                    className="ra-input"
+                    id="ra-email"
+                    name="email"
+                    type="email"
+                    required
+                    placeholder="you@example.com"
+                    autoComplete="email"
+                    inputMode="email"
+                    aria-invalid={!!errors.email}
+                    aria-describedby={errors.email ? "ra-email-err" : undefined}
+                  />
+                  {errors.email && <div className={styles.err} id="ra-email-err">{errors.email}</div>}
+                </div>
+
+                <div className={styles.field}>
+                  <label htmlFor="ra-phone">Mobile</label>
+                  <input
+                    className="ra-input"
+                    id="ra-phone"
+                    name="phone"
+                    type="tel"
+                    required
+                    placeholder="+91 ....."
+                    autoComplete="tel"
+                    inputMode="tel"
+                    aria-invalid={!!errors.phone}
+                    aria-describedby={errors.phone ? "ra-phone-err" : undefined}
+                  />
+                  {errors.phone && <div className={styles.err} id="ra-phone-err">{errors.phone}</div>}
+                </div>
+
+                <div className={styles.field}>
+                  <label htmlFor="ra-note">
+                    Anything we should know <span className={styles.optional}>· optional</span>
+                  </label>
+                  <input
+                    className="ra-input"
+                    id="ra-note"
+                    name="note"
+                    type="text"
+                    placeholder="Where you are hoping to go, or who introduced you"
+                    autoComplete="off"
+                  />
+                </div>
+
+                {submitErr && (
+                  <div className={styles.err} role="alert">
+                    {submitErr}
+                  </div>
+                )}
+
+                <button type="submit" className={styles.submitBtn} disabled={submitting}>
+                  {submitting ? "One moment…" : "Send to the Desk"}
+                </button>
+              </form>
+
+              <p className={styles.footLine}>
+                Already have a code?{" "}
+                <Link to="/claim" className={styles.footLink}>
+                  Open the door
+                </Link>
+              </p>
+              <p className={styles.footLine}>
+                Or write to{" "}
+                <a href={`mailto:${DESK_EMAIL}`} className={styles.footLink}>
+                  {DESK_EMAIL}
+                </a>
+              </p>
+            </>
+          )}
         </div>
       </div>
-      </main>
     </section>
   );
 }
