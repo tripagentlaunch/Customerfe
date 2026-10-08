@@ -1,5 +1,8 @@
 {
   "rewrites": [
+    { "source": "/config", "destination": "https://customerbe-dev.onrender.com/config/" },
+    { "source": "/cities", "destination": "https://customerbe-dev.onrender.com/cities/" },
+    { "source": "/:prefix(cities|config|auth|me|my-year|api|ai|enquiries|invite|access-requests|referrals)/:path*", "destination": "https://customerbe-dev.onrender.com/:prefix/:path*" },
     { "source": "/(.*)", "destination": "/index.html" }
   ],
   "images": {
