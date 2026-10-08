@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useBareChromeForGuests } from "../lib/bareChrome";
+import { useAuth } from "../lib/auth";
 import styles from "./claim-page.module.css";
 
 // Ported from claim.html — the 8-digit-code redemption page (distinct from
@@ -44,6 +45,7 @@ export default function ClaimPage() {
   }, []);
 
   const navigate = useNavigate();
+  const { refresh, signedIn, loading } = useAuth();
   const inputRef = useRef<HTMLInputElement>(null);
   const welcomeRef = useRef<HTMLDivElement>(null);
 
@@ -62,6 +64,13 @@ export default function ClaimPage() {
   const [ann, setAnn] = useState<{ text: string; kind: "hint" | "err" | "busy" } | null>(null);
   const [busy, setBusy] = useState(false);
   const [claimed, setClaimed] = useState(false);
+
+  // Already a signed-in member (e.g. reopened the email link): nothing to
+  // claim — straight to the home page. Not while this page's own claim is
+  // finishing, which navigates on its own after the welcome.
+  useEffect(() => {
+    if (!loading && signedIn && !claimed && !busy) navigate("/", { replace: true });
+  }, [loading, signedIn, claimed, busy, navigate]);
 
   // Auto-fill (never auto-submit) a code carried in ?code= — same
   // convention as invitation.html's emailed-link handling.
@@ -107,6 +116,7 @@ export default function ClaimPage() {
         try {
           const r = await fetch(`/invite/${encodeURIComponent(clean)}/redeem`, {
             method: "POST",
+            credentials: "include",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({}),
           });
@@ -143,7 +153,12 @@ export default function ClaimPage() {
       } catch {
         // no-op
       }
-      setTimeout(() => navigate("/"), 1400);
+      // The redeem response set the session cookie server-side; refresh
+      // the auth state from it while the welcome shows, so the home page
+      // opens signed in (full site chrome, profile) instead of as a guest
+      // until the next reload.
+      await Promise.all([refresh(), new Promise((r) => setTimeout(r, 1400))]);
+      navigate("/", { replace: true });
       return;
     }
     if (res.used === true) {
