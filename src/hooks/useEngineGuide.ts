@@ -1,6 +1,4 @@
 import { useEffect, useState } from "react";
-import type { SupabaseClient } from "@supabase/supabase-js";
-import { supabase } from "../lib/supabaseClient";
 import type { CityData, CityGuideItem, CityGuidePanel } from "../types/city";
 
 // City guide content from the sourcing engine (2026-10-09). The engine
@@ -13,6 +11,13 @@ import type { CityData, CityGuideItem, CityGuidePanel } from "../types/city";
 // engine has nothing usable for the city: the table isn't in this
 // Supabase project yet, the read fails or times out, or the city has no
 // places. A page is never left with an empty guide.
+//
+// Reads over plain REST rather than through lib/supabaseClient.ts: that
+// module throws at import when VITE_SUPABASE_URL / VITE_SUPABASE_ANON_KEY
+// are unset, and importing it here took the whole site down (white screen)
+// on a deploy without them. Unset now just means the bundled guide.
+const SUPABASE_URL = (import.meta.env.VITE_SUPABASE_URL ?? "").replace(/\/$/, "");
+const SUPABASE_ANON_KEY = import.meta.env.VITE_SUPABASE_ANON_KEY ?? "";
 
 type EngineGuideRow = {
   guide: {
@@ -76,33 +81,33 @@ export function useEngineGuide(slug: string | undefined, base: CityData["guide"]
   const [state, setState] = useState<EngineGuideState>({ status: "loading", guide: null });
 
   useEffect(() => {
-    if (!slug || !base) {
+    if (!slug || !base || !SUPABASE_URL || !SUPABASE_ANON_KEY) {
       setState({ status: "fallback", guide: null });
       return;
     }
     let cancelled = false;
     setState({ status: "loading", guide: null });
-    const timer = setTimeout(() => {
-      if (!cancelled) setState({ status: "fallback", guide: null });
-    }, TIMEOUT_MS);
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), TIMEOUT_MS);
 
-    // sourcing_city_guide isn't in the generated Database types (the table
-    // is created by the engine's own migration), so read it untyped.
-    (supabase as unknown as SupabaseClient)
-      .from("sourcing_city_guide")
-      .select("guide")
-      .eq("slug", slug)
-      .maybeSingle()
-      .then(({ data, error }) => {
+    const url = `${SUPABASE_URL}/rest/v1/sourcing_city_guide?select=guide&slug=eq.${encodeURIComponent(slug)}&limit=1`;
+    fetch(url, {
+      headers: { apikey: SUPABASE_ANON_KEY, Authorization: `Bearer ${SUPABASE_ANON_KEY}` },
+      signal: controller.signal,
+    })
+      .then((r) => (r.ok ? r.json() : null))
+      .catch(() => null)
+      .then((rows: EngineGuideRow[] | null) => {
         if (cancelled) return;
-        clearTimeout(timer);
-        const guide = !error && data ? toGuide(data as EngineGuideRow, base) : null;
+        const guide = Array.isArray(rows) && rows[0] ? toGuide(rows[0], base) : null;
         setState(guide ? { status: "ready", guide } : { status: "fallback", guide: null });
-      });
+      })
+      .finally(() => clearTimeout(timer));
 
     return () => {
       cancelled = true;
       clearTimeout(timer);
+      controller.abort();
     };
   }, [slug, base]);
 
