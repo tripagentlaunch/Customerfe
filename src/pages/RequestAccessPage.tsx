@@ -14,10 +14,30 @@ import styles from "./request-access-page.module.css";
 // eyebrow over the video). No navbar of any kind for signed-out visitors
 // (useBareChromeForGuests); signed-in members get the normal site Header.
 
-const EMAIL_RE = /^[^@\s]+@[^@\s]+\.[^@\s]+$/;
-// At least 7 digits once spaces/dashes/+ are stripped — loose on purpose,
-// numbers are checked by a person at the Desk.
-const MIN_PHONE_DIGITS = 7;
+// 2026-10-09: inputs are constrained as they're typed and checked again on
+// submit; Customerbe's /access-requests applies the same rules server-side
+// (the real gate — anyone can POST there directly).
+const EMAIL_RE =
+  /^[A-Za-z0-9.!#$%&'*+/=?^_`{|}~-]+@[A-Za-z0-9](?:[A-Za-z0-9-]{0,61}[A-Za-z0-9])?(?:\.[A-Za-z0-9](?:[A-Za-z0-9-]{0,61}[A-Za-z0-9])?)+$/;
+// Indian mobile: exactly 10 digits, starting 6-9. Sent as +91XXXXXXXXXX.
+const MOBILE_RE = /^[6-9]\d{9}$/;
+// Letters (any script), spaces and . ' - — no digits, markup or symbols.
+const NAME_RE = /^\p{L}[\p{L} .'-]*$/u;
+const NAME_MAX = 100;
+const EMAIL_MAX = 254;
+const REASON_MAX = 500;
+
+// Digits only, max 10. A pasted/autofilled "+91 98765 43210" or
+// "098765 43210" keeps the 10-digit number, not the country/trunk prefix.
+const onlyDigits = (v: string) => {
+  let d = v.replace(/\D/g, "");
+  if (d.length > 10 && d.startsWith("91")) d = d.slice(2);
+  else if (d.length > 10 && d.startsWith("0")) d = d.slice(1);
+  return d.slice(0, 10);
+};
+const nameChars = (v: string) => v.replace(/[^\p{L} .'-]/gu, "").slice(0, NAME_MAX);
+// Invisible/control characters never belong in a form field.
+const stripControl = (v: string) => v.replace(/[\u0000-\u001f\u007f\u200b-\u200f\u2028\u2029\ufeff]/g, "");
 
 // Drop a real clip at VIDEO_SRC to replace the background; the photo shows
 // whenever the video can't load, and always for prefers-reduced-motion.
@@ -53,6 +73,7 @@ export default function RequestAccessPage() {
   const [submitted, setSubmitted] = useState(false);
   const [errors, setErrors] = useState<FieldErrors>({});
   const [submitErr, setSubmitErr] = useState("");
+  const [phoneDigits, setPhoneDigits] = useState("");
   const thanksRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -71,14 +92,15 @@ export default function RequestAccessPage() {
     const form = e.currentTarget;
     const fd = new FormData(form);
     const val = (k: string) => String(fd.get(k) || "").trim();
-    const name = val("name");
-    const email = val("email");
-    const phone = val("phone");
+    const name = stripControl(val("name")).replace(/\s+/g, " ");
+    const email = stripControl(val("email")).toLowerCase();
+    const phone = phoneDigits;
 
     const next: FieldErrors = {};
     if (!name) next.name = "Please tell us your name.";
-    if (!EMAIL_RE.test(email)) next.email = "Please enter a valid email.";
-    if (phone.replace(/\D/g, "").length < MIN_PHONE_DIGITS) next.phone = "Please enter a valid mobile number.";
+    else if (!NAME_RE.test(name)) next.name = "Please use letters only.";
+    if (!EMAIL_RE.test(email) || email.length > EMAIL_MAX) next.email = "Please enter a valid email.";
+    if (!MOBILE_RE.test(phone)) next.phone = "Please enter a valid 10-digit mobile number.";
     setErrors(next);
     setSubmitErr("");
     const firstBad = REQUIRED_ORDER.find((k) => next[k]);
@@ -93,16 +115,35 @@ export default function RequestAccessPage() {
     try {
       const r = await fetch(`/access-requests`, {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        // X-Requested-With: the backend's CSRF check (same as /auth).
+        headers: { "Content-Type": "application/json", "X-Requested-With": "XMLHttpRequest" },
         body: JSON.stringify({
           first_name: first,
           last_name: last,
           email,
-          phone,
-          reason: val("reason"),
+          phone: `+91${phone}`,
+          reason: stripControl(val("reason")).slice(0, REASON_MAX),
         }),
       });
       succeeded = r.ok;
+      if (!r.ok) {
+        const detail = ((await r.json().catch(() => ({}))) as { detail?: string }).detail;
+        const fieldErr: FieldErrors =
+          detail === "bad_phone" ? { phone: "Please enter a valid 10-digit mobile number." }
+          : detail === "bad_email" ? { email: "Please enter a valid email." }
+          : detail === "bad_name" ? { name: "Please use letters only." }
+          : {};
+        if (Object.keys(fieldErr).length) {
+          setSubmitting(false);
+          setErrors(fieldErr);
+          return;
+        }
+        if (r.status === 429) {
+          setSubmitting(false);
+          setSubmitErr(`Too many requests from this connection. Please try again in a few minutes, or write to ${DESK_EMAIL}.`);
+          return;
+        }
+      }
     } catch {
       succeeded = false;
     }
@@ -199,6 +240,11 @@ export default function RequestAccessPage() {
                     type="text"
                     placeholder="First and last name"
                     autoComplete="name"
+                    maxLength={NAME_MAX}
+                    onChange={(e) => {
+                      const v = nameChars(e.target.value);
+                      if (v !== e.target.value) e.target.value = v;
+                    }}
                     {...errProps("name")}
                   />
                   {errLine("name")}
@@ -214,6 +260,7 @@ export default function RequestAccessPage() {
                     placeholder="you@example.com"
                     autoComplete="email"
                     inputMode="email"
+                    maxLength={EMAIL_MAX}
                     {...errProps("email")}
                   />
                   {errLine("email")}
@@ -226,9 +273,12 @@ export default function RequestAccessPage() {
                     id="ra-phone"
                     name="phone"
                     type="tel"
-                    placeholder="+91 ....."
-                    autoComplete="tel"
-                    inputMode="tel"
+                    placeholder="10-digit mobile number"
+                    autoComplete="tel-national"
+                    inputMode="numeric"
+                    pattern="[6-9][0-9]{9}"
+                    value={phoneDigits}
+                    onChange={(e) => setPhoneDigits(onlyDigits(e.target.value))}
                     {...errProps("phone")}
                   />
                   {errLine("phone")}
@@ -245,6 +295,7 @@ export default function RequestAccessPage() {
                     type="text"
                     placeholder="Where to, or who introduced you"
                     autoComplete="off"
+                    maxLength={REASON_MAX}
                   />
                 </div>
 
