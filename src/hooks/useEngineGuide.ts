@@ -95,8 +95,40 @@ function toGuide(row: EngineGuideRow, base: CityData["guide"]): CityData["guide"
     headingHtml: headingHtml(g.heading) ?? base.headingHtml,
     lede: str(g.lede) ?? base.lede,
     note: base.note,
-    panels,
+    panels: withBundledFill(panels, base.panels ?? []),
   };
+}
+
+// Every category shows at least MIN_PER_PANEL options (2026-10-09). The
+// engine's guides can be thin (Agra had one hotel and no other tabs) until
+// its next run, so: engine picks first, then the city's own bundled guide
+// items it doesn't already have; a category the engine has nothing for
+// shows the bundled one as-is (with its tiers).
+const MIN_PER_PANEL = 5;
+
+function sameName(a: string | null, b: string | null): boolean {
+  const norm = (s: string | null) => (s || "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+  const x = norm(a), y = norm(b);
+  return !!x && !!y && (x === y || x.startsWith(y + " ") || y.startsWith(x + " "));
+}
+
+function withBundledFill(engine: CityGuidePanel[], bundled: CityGuidePanel[]): CityGuidePanel[] {
+  const keys = [...new Set([...engine.map((p) => p.key), ...bundled.map((p) => p.key)])];
+  return keys
+    .map((key) => {
+      const mine = engine.find((p) => p.key === key);
+      const theirs = bundled.find((p) => p.key === key);
+      if (!mine) return theirs ?? null;
+      const items = mine.tiers.flatMap((t) => t.items);
+      if (items.length >= MIN_PER_PANEL || !theirs) return mine;
+      const extra: CityGuideItem[] = [];
+      for (const item of theirs.tiers.flatMap((t) => t.items)) {
+        if (items.length + extra.length >= MIN_PER_PANEL) break;
+        if (![...items, ...extra].some((i) => sameName(i.name, item.name))) extra.push(item);
+      }
+      return extra.length ? { key, tiers: [{ label: mine.tiers[0]?.label ?? null, items: [...items, ...extra] }] } : mine;
+    })
+    .filter((p): p is CityGuidePanel => !!p && p.tiers.some((t) => t.items.length > 0));
 }
 
 export function useEngineGuide(slug: string | undefined, base: CityData["guide"] | undefined): EngineGuideState {
