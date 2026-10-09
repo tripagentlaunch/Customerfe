@@ -15,6 +15,7 @@ import { ProfileDrawerProvider } from "../../lib/profileDrawer";
 import { SignInModalProvider } from "../../lib/signInModal";
 import { useAuth } from "../../lib/auth";
 import { useScrollRestoration } from "../../lib/useScrollRestoration";
+import { useTaraChatLinks } from "../../lib/taraChat";
 
 // concierge.html is full-screen, chat-only — no site chrome (nav/tab-bar/
 // floating helpers), matching a messaging app's own window rather than a
@@ -78,6 +79,8 @@ export function Layout() {
   // on that page (it used to jump to the top on every URL change, Back
   // included). See useScrollRestoration.
   useScrollRestoration();
+  // Every "Talk to Tara AI" CTA opens the Tara chatbot (see taraChat.ts).
+  useTaraChatLinks();
 
   return (
     <NavVariantProvider>
