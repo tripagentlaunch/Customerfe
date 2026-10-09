@@ -33,12 +33,11 @@ export default function LiveVenues({ slug }: LiveVenuesProps) {
     };
   }, [slug]);
 
-  if (loading) {
-    return <div className={styles.loading}>Loading venues…</div>;
-  }
-
-  if (error) {
-    return <div className={styles.error}>{error}</div>;
+  // 2026-10-09: nothing at all unless there are venues to show — this sits in
+  // the closing CTA band, where "Loading venues…" / "Failed to load venues."
+  // (the endpoint 500s/503s or returns none for most cities) read as a bug.
+  if (loading || error || venues.length === 0) {
+    return null;
   }
 
   return (
