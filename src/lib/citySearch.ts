@@ -3,6 +3,7 @@
 // flight-distance), same matching/scoring/chip logic, reused verbatim
 // where the shape allows (React owns state instead of DOM mutation).
 import { useEffect, useMemo, useState } from "react";
+import cityPages from "../data/cities.generated.json";
 export type FlightFrom = { hours: number | null; direct?: boolean };
 export type CityDecision = {
   budget_week_inr?: { comfort_lakh?: number; luxury_lakh?: number };
@@ -16,6 +17,20 @@ export type CityDecision = {
 type CitiesJson = Record<string, { name: string; country: string; region: string }>;
 type CityDecisionJson = Record<string, CityDecision>;
 type CityImagesJson = Record<string, { band?: { src?: string } }>;
+
+// Each city's own photo — the hero of its city page (/img/cities/<slug>.jpg).
+// (2026-10-09) Card photos used to come from city-images.json's `band`,
+// where 48 cities shared one generic pool-villa shot and 9 Indian cities
+// one palace-tent shot, so most cards didn't show their city. Stored in
+// cities.generated.json as a /_vercel/image URL; the raw path is returned
+// because CityRegions builds its own (card-sized) optimizer URL.
+function cityPagePhoto(slug: string): string | null {
+  const hero = (cityPages as unknown as Record<string, { hero?: { image?: string | null } }>)[slug]?.hero?.image;
+  if (!hero) return null;
+  if (!hero.startsWith("/_vercel/image")) return hero;
+  const inner = new URLSearchParams(hero.split("?")[1] || "").get("url");
+  return inner || null;
+}
 
 export type CityRecord = {
   slug: string;
@@ -223,7 +238,7 @@ export async function loadCityList(): Promise<CityRecord[]> {
       country: base.country || "",
       region: base.region || "",
       d: dec[slug] || {},
-      band: img[slug]?.band?.src || null,
+      band: cityPagePhoto(slug) || img[slug]?.band?.src || null,
     };
   });
 }
