@@ -35,7 +35,7 @@ export type EngineGuideState = { status: "loading" | "ready" | "fallback"; guide
 const PANEL_KEYS = new Set(["stay", "do", "eat", "party"]);
 // Don't hold the page loader hostage to a slow read — after this the
 // static guide shows.
-const TIMEOUT_MS = 4000;
+const TIMEOUT_MS = 3000;
 
 function escapeHtml(s: string) {
   return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");

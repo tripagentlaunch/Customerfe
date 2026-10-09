@@ -3,8 +3,14 @@ import { Player } from "@lottiefiles/react-lottie-player";
 import animationData from "./travel-loader.json";
 import styles from "./CityPageLoader.module.css";
 
-const MIN_DISPLAY_MS = 10000;
-const MAX_WAIT_MS = 15000;
+// 2026-10-09: city pages showed the loader for ~11-12s although their
+// content was ready in ~3s — MIN_DISPLAY_MS forced 10s, and the map and
+// every critical image could hold it for up to 15s. Now: a short minimum
+// so it doesn't flicker, the map waited for at most MAP_WAIT_MS, and the
+// whole loader capped at MAX_WAIT_MS on slow connections.
+const MIN_DISPLAY_MS = 400;
+const MAP_WAIT_MS = 2500;
+const MAX_WAIT_MS = 3000;
 
 export function useCityPageReady(opts: {
   heroImage?: string;
@@ -24,7 +30,7 @@ export function useCityPageReady(opts: {
 
   useEffect(() => {
     setMapTimedOut(false);
-    const t = setTimeout(() => setMapTimedOut(true), MAX_WAIT_MS);
+    const t = setTimeout(() => setMapTimedOut(true), MAP_WAIT_MS);
     return () => clearTimeout(t);
   }, [opts.heroImage]);
 

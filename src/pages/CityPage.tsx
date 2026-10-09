@@ -423,23 +423,10 @@ export default function CityPage() {
     [baseCity, engineGuide.guide]
   );
   const [mapReady, setMapReady] = useState(false);
-  const criticalImages = useMemo(() => {
-    if (city === undefined) return [];
-    const urls: string[] = [];
-    if (city.hero?.image) urls.push(city.hero.image);
-    if (city.firstLook?.heroImage) urls.push(city.firstLook.heroImage);
-    const panels = orderedPanels(city.guide.panels ?? []);
-    panels.forEach((panel) => {
-      panel.tiers.forEach((tier) => {
-        tier.items.slice(0, 6).forEach((item) => {
-          if (item.photo) urls.push(item.photo);
-        });
-      });
-    });
-    return urls;
-  }, [city]);
-  // Held until the engine guide has loaded (or fallen back), so the guide
-  // doesn't visibly swap from the bundled content to the engine's.
+  // What the loader waits for: only the hero photo — the first thing on
+  // screen. Guide/grid photos further down load in as the page is read;
+  // waiting for dozens of them is what kept the loader up (2026-10-09).
+  const criticalImages = useMemo(() => (city?.hero?.image ? [city.hero.image] : []), [city]);
   const loaderReady = useCityPageReady({ heroImage: city?.hero.image ?? undefined, mapReady, criticalImages });
   const pageReady = loaderReady && engineGuide.status !== "loading";
   const [activeTab, setActiveTab] = useState<string>("stay");
