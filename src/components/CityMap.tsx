@@ -10,6 +10,7 @@ import ClusterPin from "./ClusterPin";
 import { clusterPoints, worldPx } from "../lib/clusterPoints";
 import { useLiveVenuePhoto } from "../hooks/useLiveVenuePhoto";
 import { useRemoteConfig } from "../hooks/useRemoteConfig";
+import { BUILD_MAPS_KEY } from "../lib/remoteConfig";
 
 const VENUE_COORD_LOADERS = import.meta.glob("../data/venue-coords/*.json") as Record<
   string,
@@ -76,7 +77,10 @@ export default function CityMap({
   // undefined = /config hasn't resolved yet; "" = resolved with no key
   // (or the fetch failed) — both render the same loading/mock branches
   // below as "falsy", only the first also skips straight past the mock.
-  const mapsKey = config === undefined ? undefined : config?.google_maps_api_key ?? "";
+  // The build's key when there is one (available on the first render — the
+  // loader below fires immediately and only ever loads once, so starting it
+  // before /config resolved loaded Maps with no key: Google's NoApiKeys).
+  const mapsKey = BUILD_MAPS_KEY || (config === undefined ? undefined : config?.google_maps_api_key ?? "");
 
   const { isLoaded, loadError } = useJsApiLoader({
     id: "ta-google-map-script",
