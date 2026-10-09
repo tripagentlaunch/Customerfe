@@ -1,5 +1,7 @@
 import { useEffect, useRef, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import { useBareChromeForGuests } from "../lib/bareChrome";
+import { useAuth } from "../lib/auth";
 import styles from "./claim-page.module.css";
 
 // Ported from claim.html — the 8-digit-code redemption page (distinct from
@@ -7,6 +9,10 @@ import styles from "./claim-page.module.css";
 // Deliberately simple in the source too: enter the code, claim it, go home.
 // No capture/card/welcome-ceremony steps — those only exist on the
 // invitation.html flow.
+//
+// 2026-10-08 (direct request): restyled to match RequestAccessPage — cream
+// frosted card, oxblood accents, rounded code field, pill CTA — and no site
+// chrome (nav, tab bar, floating helpers) for signed-out visitors.
 
 type RedeemResponse = {
   valid?: boolean;
@@ -29,12 +35,17 @@ const VIDEO_SRC = "/videos/tripagent-claim-loop.mp4";
 // the still.
 const VIDEO_FALLBACK_SRC = "/images/tripagent-claim-fallback.jpg";
 
+const DESK_EMAIL = "invite@tripagent.vip";
+
 export default function ClaimPage() {
+  useBareChromeForGuests();
+
   useEffect(() => {
     document.title = "Claim your invitation — TripAgent";
   }, []);
 
   const navigate = useNavigate();
+  const { refresh, signedIn, loading } = useAuth();
   const inputRef = useRef<HTMLInputElement>(null);
   const welcomeRef = useRef<HTMLDivElement>(null);
 
@@ -53,6 +64,13 @@ export default function ClaimPage() {
   const [ann, setAnn] = useState<{ text: string; kind: "hint" | "err" | "busy" } | null>(null);
   const [busy, setBusy] = useState(false);
   const [claimed, setClaimed] = useState(false);
+
+  // Already a signed-in member (e.g. reopened the email link): nothing to
+  // claim — straight to the home page. Not while this page's own claim is
+  // finishing, which navigates on its own after the welcome.
+  useEffect(() => {
+    if (!loading && signedIn && !claimed && !busy) navigate("/", { replace: true });
+  }, [loading, signedIn, claimed, busy, navigate]);
 
   // Auto-fill (never auto-submit) a code carried in ?code= — same
   // convention as invitation.html's emailed-link handling.
@@ -98,6 +116,7 @@ export default function ClaimPage() {
         try {
           const r = await fetch(`/invite/${encodeURIComponent(clean)}/redeem`, {
             method: "POST",
+            credentials: "include",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({}),
           });
@@ -134,7 +153,12 @@ export default function ClaimPage() {
       } catch {
         // no-op
       }
-      setTimeout(() => navigate("/"), 1400);
+      // The redeem response set the session cookie server-side; refresh
+      // the auth state from it while the welcome shows, so the home page
+      // opens signed in (full site chrome, profile) instead of as a guest
+      // until the next reload.
+      await Promise.all([refresh(), new Promise((r) => setTimeout(r, 1400))]);
+      navigate("/", { replace: true });
       return;
     }
     if (res.used === true) {
@@ -142,6 +166,11 @@ export default function ClaimPage() {
     } else if (res.error === "email_taken") {
       setAnn({
         text: "That email is already attached to another membership. Please reach us on WhatsApp or write to maison@tripsure.com.",
+        kind: "err",
+      });
+    } else if (res.error === "expired") {
+      setAnn({
+        text: "This invitation has expired. Please reach us on WhatsApp or write to maison@tripsure.com for a new one.",
         kind: "err",
       });
     } else if (res.error === "network") {
@@ -152,22 +181,12 @@ export default function ClaimPage() {
   }
 
   return (
-    // "hero" (global, unwrapped) is the same class AdvisorButton already
-    // scans for (document.querySelectorAll(".hero, .city-hero, ...")) to
-    // switch itself into its on-dark-hero skin — reusing that existing
-    // sitewide mechanism, rather than reaching into AdvisorButton itself,
-    // is what makes the floating advisor button read correctly against
-    // this page's own dark video without touching a shared component.
-    <section className={`hero ${styles.claimWrap}`}>
-      <img
-        className={styles.claimFallback}
-        src={VIDEO_FALLBACK_SRC}
-        alt=""
-        aria-hidden="true"
-      />
-      {!reduceMotion && !videoFailed && (
+    <section className={styles.claimRoot}>
+      {reduceMotion || videoFailed ? (
+        <img className={styles.bg} src={VIDEO_FALLBACK_SRC} alt="" aria-hidden="true" />
+      ) : (
         <video
-          className={styles.claimVideo}
+          className={styles.bg}
           autoPlay
           muted
           loop
@@ -180,67 +199,80 @@ export default function ClaimPage() {
           <source src={VIDEO_SRC} type="video/mp4" />
         </video>
       )}
-      <div className={styles.claimScrim} aria-hidden="true" />
-      <div className={styles.claimVignette} aria-hidden="true" />
-      <div className={styles.claimGrain} aria-hidden="true" />
-      <div className={styles.claimCard}>
-        {!claimed ? (
-          <div>
-            <div className="eyebrow">Claim your invitation</div>
-            <div className="rule center" />
-            <h1 style={{ fontFamily: "var(--serif)", fontWeight: 500, fontSize: "clamp(38px,5.6vw,60px)", lineHeight: 1.06 }}>
-              You&apos;ve been <span className={styles.it}>invited</span>.
-            </h1>
-            <p className="lede" style={{ margin: "18px auto 0", maxWidth: "36ch" }}>
-              Enter the 8-digit code from your invitation email.
-            </p>
+      <div className={styles.bgOverlay} aria-hidden="true" />
 
-            <form onSubmit={handleSubmit} noValidate>
-              <div className={styles.codeField}>
-                <label htmlFor="claim-code" style={{ position: "absolute", width: 1, height: 1, overflow: "hidden", clip: "rect(0,0,0,0)" }}>
+      <div className={styles.claimWrap}>
+        <div className={styles.card}>
+          {!claimed ? (
+            <>
+              <div className={styles.eyebrow}>Claim your invitation</div>
+              <h1 className={styles.heading}>
+                You&apos;ve been <span className={styles.it}>invited.</span>
+              </h1>
+              <p className={styles.sub}>Enter the 8-character code from your invitation email.</p>
+
+              <form className={styles.form} onSubmit={handleSubmit} noValidate>
+                <label htmlFor="claim-code" className={styles.label}>
                   Invitation code
                 </label>
                 <input
                   ref={inputRef}
+                  className={`ra-input ${styles.codeInput}`}
                   id="claim-code"
                   type="text"
                   inputMode="text"
                   maxLength={8}
                   autoComplete="one-time-code"
-                  placeholder="ABCD1234"
+                  placeholder="AB1234CD"
                   spellCheck={false}
                   value={code}
                   onChange={handleInput}
+                  aria-invalid={ann?.kind === "err"}
+                  aria-describedby="claim-ann"
                 />
-              </div>
-              <div
-                className={`${styles.ann}${ann ? ` ${ann.kind === "err" ? styles.annErr : ann.kind === "busy" ? styles.annBusy : styles.annHint}` : ""}`}
-                aria-live="polite"
-              >
-                {ann?.text}
-              </div>
-              <div className={styles.ctaRow}>
-                <button type="submit" className="btn btn-gold" disabled={busy}>
-                  Claim your invitation <span className={styles.ctaArrow}>→</span>
+                <div
+                  id="claim-ann"
+                  className={`${styles.ann}${ann ? ` ${ann.kind === "err" ? styles.annErr : ann.kind === "busy" ? styles.annBusy : styles.annHint}` : ""}`}
+                  aria-live="polite"
+                >
+                  {ann?.text}
+                </div>
+                <button type="submit" className={styles.submitBtn} disabled={busy}>
+                  {busy ? "Verifying…" : "Claim your invitation"}
+                  {!busy && (
+                    <span className={styles.arrow} aria-hidden="true">
+                      →
+                    </span>
+                  )}
                 </button>
-              </div>
-            </form>
-          </div>
-        ) : (
-          <div className={styles.claimWelcome} role="status" aria-live="polite" tabIndex={-1} ref={welcomeRef}>
-            <div className="eyebrow">You&apos;re in</div>
-            <div className="rule center" />
-            <h1 style={{ fontFamily: "var(--serif)", fontWeight: 500, fontSize: "clamp(38px,5.6vw,60px)", lineHeight: 1.06 }}>
-              Welcome to <span className={styles.it}>TripAgent</span>.
-            </h1>
-            <p className="lede" style={{ margin: "18px auto 0", maxWidth: "36ch" }}>
-              Taking you home…
-            </p>
-          </div>
-        )}
-      </div>
-      <div className={styles.claimFooter} aria-hidden="true">
-        Exclusive travel &nbsp;·&nbsp; Personal advisors &nbsp;·&nbsp; Curated experiences
+              </form>
+
+              <p className={styles.footLine}>
+                Don&apos;t have a code?{" "}
+                <Link to="/request-access" className={styles.footLink}>
+                  Ask for an invitation
+                </Link>
+              </p>
+              <p className={styles.footLine}>
+                Or write to{" "}
+                <a href={`mailto:${DESK_EMAIL}`} className={styles.footLink}>
+                  {DESK_EMAIL}
+                </a>
+              </p>
+            </>
+          ) : (
+            <div className={styles.welcome} role="status" aria-live="polite" tabIndex={-1} ref={welcomeRef}>
+              <div className={styles.eyebrow}>You&apos;re in</div>
+              <h1 className={styles.heading}>
+                Welcome to <span className={styles.it}>TripAgent.</span>
+              </h1>
+              <p className={styles.sub}>Taking you home…</p>
+            </div>
+          )}
+        </div>
+        <div className={styles.claimFooter} aria-hidden="true">
+          Exclusive travel · Personal advisors · Curated experiences
+        </div>
       </div>
     </section>
   );

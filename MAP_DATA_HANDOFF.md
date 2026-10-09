@@ -1,7 +1,7 @@
 # Map data handoff — EventMap & PlanRouteMap
 
 Both `EventMap` (the Calendar section's map) and `PlanRouteMap` (the Plan
-section's map) are **fully generic, data-driven components** — there is no
+section's map) are **fully generic, data-driven components** — there is not
 per-city code anywhere in this template (verified: zero city-name string
 checks in `CityPage.tsx`, `CalendarSection.tsx`, `PlanRouteMap.tsx`, or
 `EventMap.tsx`). Every city gets these features automatically the moment its

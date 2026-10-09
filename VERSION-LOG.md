@@ -2,7 +2,7 @@
 
 Tracks every push to the `demo` branch. Each push gets a version tag (`demo-v1`, `demo-v2`, ...)
 so you can roll back to any point with:
-
+commit
 ```bash
 git checkout demo-v<N>
 ```

@@ -1,284 +1,281 @@
-/* Converted from claim.html's inline <style> block.
+/* Claim your invitation — same palette and surfaces as
+ * request-access-page.module.css (video under a light warm overlay, cream
+ * frosted card, oxblood accents), centred single card (2026-10-08).
  *
- * .claim-wrap/.claim-bg/.claim-video/.claim-scrim/.claim-card/etc. are
- * page-scoped module classes; .eyebrow/.lede/.btn/.btn-gold/.on-dark stay
- * unwrapped — global site.css utilities, same convention as
- * invitation-page.module.css.
- *
- * Redesigned 2026-09-24 into a cinematic, full-screen video-background
- * invitation experience — visual pass only, ClaimPage.tsx's redeem
- * logic/validation/states above are untouched. See ClaimPage.tsx's own
- * VIDEO_SRC/VIDEO_FALLBACK_SRC comments for the two asset paths this
- * layer expects.
- */
+ * site.css underlines every input with !important and squares every
+ * corner (`* { border-radius: 0 !important }`); the code field carries the
+ * global `ra-input` opt-out class, and radii are restated per element. */
+
+.claimRoot {
+  position: relative;
+  min-height: 100svh;
+  background-color: #171414;
+  color: #f5efe6;
+  font-family: var(--sans);
+  overflow: hidden;
+}
+
+.bg {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.bgOverlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background-image:
+    linear-gradient(180deg, rgba(10, 7, 5, 0.46) 0%, rgba(10, 7, 5, 0.18) 35%, rgba(10, 7, 5, 0.22) 65%, rgba(10, 7, 5, 0.6) 100%),
+    radial-gradient(ellipse at center, rgba(10, 7, 5, 0) 40%, rgba(10, 7, 5, 0.35) 100%);
+}
 
 .claimWrap {
-  min-height: 100svh;
   position: relative;
+  z-index: 2;
+  min-height: 100svh;
+  padding: 48px 24px;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 128px var(--pad) 64px;
-  color: var(--cream);
-  overflow: hidden;
-  background-color: #171414;
+  gap: 24px;
 }
 
-/* Sits behind the video at all times — the video (when present/allowed)
-   paints over this; when it's skipped (prefers-reduced-motion) or fails to
-   load (onError in ClaimPage.tsx), this is what's left showing, so the
-   destination is never blank either way. */
-.claimFallback {
-  position: absolute;
-  inset: 0;
-  z-index: 0;
+.card {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-}
-
-.claimVideo {
-  position: absolute;
-  inset: 0;
-  z-index: 1;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-}
-
-/* Layer 1 of the cinematic overlay stack: a dark gradient, heavier at top
-   (under the nav) and bottom (under the card/footer) than the middle, so
-   the destination itself stays clearly visible through the center of the
-   frame rather than being flattened by a uniform dark wash. */
-.claimScrim {
-  position: absolute;
-  inset: 0;
-  z-index: 2;
-  pointer-events: none;
-  background-image: linear-gradient(
-      180deg,
-      rgba(10, 7, 5, 0.58) 0%,
-      rgba(10, 7, 5, 0.16) 26%,
-      rgba(10, 7, 5, 0.1) 60%,
-      rgba(10, 7, 5, 0.62) 100%
-    );
-}
-
-/* Layer 2: a soft warm vignette pulling the eye to center — subtle enough
-   that the corners still read as the same photograph, not a hard fade. */
-.claimVignette {
-  position: absolute;
-  inset: 0;
-  z-index: 3;
-  pointer-events: none;
-  background-image: radial-gradient(120% 90% at 50% 46%, transparent 48%, rgba(23, 16, 11, 0.4) 100%);
-}
-
-/* Layer 3 (optional per spec, kept extremely subtle): a faint static film
-   grain via SVG noise, at very low opacity — reads as texture, not as a
-   visible pattern. */
-.claimGrain {
-  position: absolute;
-  inset: 0;
-  z-index: 4;
-  pointer-events: none;
-  opacity: 0.05;
-  mix-blend-mode: overlay;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
-}
-
-.claimWrap :global(.eyebrow) {
-  color: rgba(245, 239, 230, 0.92);
-  letter-spacing: 0.22em;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.85), 0 2px 20px rgba(0, 0, 0, 0.5);
-}
-
-.claimWrap h1 {
-  color: var(--cream);
-  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.55), 0 2px 40px rgba(5, 3, 1, 0.6);
-}
-
-/* Restrained warm-wine accent (spec's #5A2330 deep burgundy, lightened for
-   legibility set directly against the dark video — the exact deep tone is
-   used elsewhere on this page where it sits on lighter/glass surfaces:
-   the button fill and the input's focus ring below). */
-.claimWrap h1 .it {
-  font-style: italic;
-  color: #d9a08f;
-}
-
-.claimWrap :global(.lede) {
-  color: rgba(246, 241, 230, 0.92);
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.7), 0 1px 16px rgba(5, 3, 1, 0.7);
-}
-
-.claimCard {
-  position: relative;
-  z-index: 5;
   max-width: 460px;
-  width: 100%;
+  box-sizing: border-box;
+  background: rgba(255, 250, 244, 0.86);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 24px !important;
+  padding: 40px 36px 30px;
+  box-shadow: 0 28px 70px rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  color: #1a1714;
   text-align: center;
 }
 
-.codeField {
-  margin: 40px 0 0;
+.eyebrow {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #5a2330;
+  margin-bottom: 14px;
 }
 
-/* Transparent/glass-dark, thin champagne border — one visual box per
-   8-digit code (achieved via letter-spacing on the whole field, not eight
-   separate inputs — the underlying <input> stays exactly as it was:
-   single field, same id/name/maxLength/handlers). */
-.codeField input {
+.heading {
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 1.05;
+  color: #1a1714;
+  margin: 0 0 12px;
+}
+
+.it {
+  font-style: italic;
+  color: #5a2330;
+}
+
+.sub {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #5f5f5f;
+  margin: 0 auto 26px;
+  max-width: 32ch;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+/* Restated over site.css's `form label` tracked-caps rule. */
+.claimRoot .form .label {
+  text-transform: none;
+  letter-spacing: normal;
+  font-size: 14px;
+  font-weight: 600;
+  color: #4a4540;
+  margin-bottom: 8px;
+}
+
+.codeInput {
   width: 100%;
-  text-align: center;
-  background: rgba(23, 16, 11, 0.32);
-  backdrop-filter: blur(6px);
-  -webkit-backdrop-filter: blur(6px);
-  border: 1px solid rgba(199, 166, 106, 0.4);
-  border-radius: 2px;
-  padding: 18px 2px;
+  box-sizing: border-box;
+  height: 60px;
+  padding: 0 18px;
+  border-radius: 14px !important;
+  border: 1px solid rgba(80, 60, 50, 0.22);
+  background: rgba(255, 255, 255, 0.6);
+  color: #1a1714;
   font-family: var(--sans);
-  font-size: clamp(26px, 6.4vw, 34px);
-  letter-spacing: 0.42em;
-  text-indent: 0.42em;
-  color: var(--cream);
-  font-variant-numeric: tabular-nums;
-  transition: border-color 0.35s var(--ease), box-shadow 0.35s var(--ease), background-color 0.35s var(--ease);
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 0.32em;
+  /* letter-spacing trails the last glyph — indent by the same amount so
+     the code reads optically centred. */
+  text-indent: 0.32em;
+  text-align: center;
+  text-transform: uppercase;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
 }
 
-.codeField input::placeholder {
-  color: rgba(246, 241, 230, 0.28);
-  letter-spacing: 0.42em;
+.codeInput::placeholder {
+  color: #b5aca2;
+  font-weight: 500;
 }
 
-.codeField input:focus {
+.codeInput:focus {
   outline: none;
-  background: rgba(23, 16, 11, 0.46);
-  border-color: #c7a66a;
-  box-shadow: 0 0 0 3px rgba(199, 166, 106, 0.16);
+  border-color: #5a2330;
+  background: rgba(255, 255, 255, 0.85);
+  box-shadow: 0 0 0 3px rgba(90, 35, 48, 0.1);
+}
+
+.codeInput:focus-visible {
+  outline: 2px solid rgba(90, 35, 48, 0.45);
+  outline-offset: 1px;
+}
+
+.codeInput[aria-invalid="true"] {
+  border-color: #b3441f;
 }
 
 .ann {
   min-height: 20px;
-  margin-top: 18px;
-  font-size: 13.5px;
-  letter-spacing: 0.01em;
-  transition: opacity 0.3s;
-  font-family: var(--sans);
+  margin: 10px 0 14px;
+  font-size: 13px;
+  line-height: 1.5;
+  text-align: center;
 }
 
 .annHint {
-  color: rgba(246, 241, 230, 0.55);
-}
-
-.annErr {
-  color: #e3a878;
+  color: #6b635b;
 }
 
 .annBusy {
-  color: rgba(246, 241, 230, 0.82);
-  font-family: var(--serif);
-  font-style: italic;
-  font-size: 16px;
+  color: #5a2330;
 }
 
-/* Deep burgundy fill, thin light border, uppercase — replaces the
-   transparent/gold-sweep treatment .btn-gold uses elsewhere so this reads
-   as this page's own primary action, not a generic site button. */
-.claimWrap :global(.btn-gold) {
+.annErr {
+  color: #b3441f;
+}
+
+.submitBtn {
+  height: 54px;
+  border: 0;
+  border-radius: 999px !important;
   background: #5a2330;
-  color: var(--cream);
-  border: 1px solid rgba(245, 239, 230, 0.4);
-  letter-spacing: 0.18em;
-  transition: background-color 0.35s var(--ease), border-color 0.35s var(--ease), filter 0.35s var(--ease),
-    transform 0.35s var(--ease);
+  color: #fff;
+  font-family: var(--sans);
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: background-color 0.2s ease, transform 0.15s ease;
 }
 
-.claimWrap :global(.btn-gold)::before {
-  display: none;
+.submitBtn:hover:not(:disabled) {
+  background: #4a1c27;
 }
 
-.claimWrap :global(.btn-gold):hover {
-  background: #6e2c3c;
-  border-color: rgba(245, 239, 230, 0.7);
-  filter: brightness(1.06);
-  transform: translateY(-1px);
+.submitBtn:active:not(:disabled) {
+  transform: translateY(1px);
 }
 
-.ctaArrow {
-  display: inline-block;
-  margin-left: 2px;
-  transition: transform 0.3s var(--ease);
+.submitBtn:disabled {
+  opacity: 0.6;
+  cursor: default;
 }
 
-.claimWrap :global(.btn-gold):hover .ctaArrow {
+.submitBtn:focus-visible {
+  outline: 2px solid #5a2330;
+  outline-offset: 3px;
+}
+
+.arrow {
+  transition: transform 0.2s ease;
+}
+
+.submitBtn:hover:not(:disabled) .arrow {
   transform: translateX(3px);
 }
 
-.ctaRow {
-  margin-top: 32px;
+.footLine {
+  font-size: 14px;
+  color: #6b635b;
+  margin: 20px 0 0;
 }
 
-.ctaRow :global(.btn) {
-  width: 100%;
-  justify-content: center;
+.footLine + .footLine {
+  margin-top: 10px;
 }
 
-.claimWelcome {
-  animation: fade 0.8s var(--ease) both;
+.footLink {
+  color: #5a2330;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(90, 35, 48, 0.4);
+  padding-bottom: 1px;
 }
 
-/* Small, understated editorial line near the bottom of the frame — sits
-   below the card, never overlapping or competing with the form. */
+.footLink:hover {
+  border-bottom-color: #5a2330;
+}
+
+.welcome {
+  outline: none;
+  padding: 12px 0;
+}
+
 .claimFooter {
-  position: relative;
-  z-index: 5;
-  margin-top: 56px;
-  font-family: var(--eyebrow);
-  font-size: 10.5px;
-  font-weight: 500;
-  letter-spacing: 0.24em;
+  font-size: 11px;
+  letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: rgba(245, 239, 230, 0.62);
-  text-align: center;
+  color: rgba(245, 239, 230, 0.8);
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+  text-align: center;
 }
 
-@keyframes fade {
-  from {
-    opacity: 0;
-    transform: translateY(12px);
-  }
-  to {
-    opacity: 1;
-    transform: none;
-  }
-}
-
-@media (max-width: 640px) {
+@media (max-width: 600px) {
   .claimWrap {
-    padding-top: 108px;
-    padding-bottom: 48px;
+    padding: 32px 16px;
   }
-  .codeField input {
-    letter-spacing: 0.3em;
-    text-indent: 0.3em;
+  .card {
+    padding: 32px 20px 24px;
+    border-radius: 20px !important;
+  }
+  .heading {
+    font-size: 34px;
+  }
+  .codeInput {
+    font-size: 20px;
+    letter-spacing: 0.24em;
+    text-indent: 0.24em;
   }
   .claimFooter {
-    margin-top: 40px;
-    font-size: 9.5px;
-    letter-spacing: 0.16em;
+    font-size: 10px;
+    letter-spacing: 0.12em;
   }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .claimWelcome {
-    animation: none;
-  }
-  .claimWrap :global(.btn-gold):hover {
-    transform: none;
+  .submitBtn,
+  .arrow,
+  .codeInput {
+    transition: none;
   }
 }
