@@ -4,6 +4,7 @@
 // where the shape allows (React owns state instead of DOM mutation).
 import { useEffect, useMemo, useState } from "react";
 import cityPages from "../data/cities.generated.json";
+import { bestMonthNumbers } from "./bestMonths";
 export type FlightFrom = { hours: number | null; direct?: boolean };
 export type CityDecision = {
   budget_week_inr?: { comfort_lakh?: number; luxury_lakh?: number };
@@ -24,6 +25,14 @@ type CityImagesJson = Record<string, { band?: { src?: string } }>;
 // one palace-tent shot, so most cards didn't show their city. Stored in
 // cities.generated.json as a /_vercel/image URL; the raw path is returned
 // because CityRegions builds its own (card-sized) optimizer URL.
+function windowOr(window: number[], fallback: number[] | undefined): number[] | undefined {
+  return window.length ? window : fallback;
+}
+
+function cityPageMonths(slug: string) {
+  return (cityPages as unknown as Record<string, { whenToGo?: { months?: { code: string | null; tier: string }[] } }>)[slug]?.whenToGo?.months;
+}
+
 function cityPagePhoto(slug: string): string | null {
   const hero = (cityPages as unknown as Record<string, { hero?: { image?: string | null } }>)[slug]?.hero?.image;
   if (!hero) return null;
@@ -237,7 +246,9 @@ export async function loadCityList(): Promise<CityRecord[]> {
       name: base.name || slug,
       country: base.country || "",
       region: base.region || "",
-      d: dec[slug] || {},
+      // Same 2-4 month best window as the city page (bestMonths.ts), not
+      // city-decision.json's own list, which disagreed with it.
+      d: { ...(dec[slug] || {}), best_months: windowOr(bestMonthNumbers(cityPageMonths(slug)), dec[slug]?.best_months) },
       band: cityPagePhoto(slug) || img[slug]?.band?.src || null,
     };
   });
