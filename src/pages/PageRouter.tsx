@@ -26,6 +26,7 @@ import WhereToGoPage from "./WhereToGoPage";
 import DestinationsIndexPage from "./DestinationsIndexPage";
 import FlightsPage from "./FlightsPage";
 import HotelsPage from "./HotelsPage";
+import VisaGuidesPage from "./VisaGuidesPage";
 import VisasPage from "./VisasPage";
 import FlightGuidesPage from "./FlightGuidesPage";
 import StayGuidesPage from "./StayGuidesPage";
@@ -141,6 +142,7 @@ const EXACT_SLUG_PAGES: Record<string, () => JSX.Element> = {
   flights: () => <FlightsPage />,
   hotels: () => <HotelsPage />,
   visas: () => <VisasPage />,
+  "visa-guides": () => <VisaGuidesPage />,
   "flight-guides": () => <FlightGuidesPage />,
   "stay-guides": () => <StayGuidesPage />,
   points: () => <PointsPage />,
@@ -318,9 +320,8 @@ export default function PageRouter() {
   if (pageSlug?.startsWith("browse-")) return <BrowsePage />;
   if (pageSlug?.startsWith("go-in-")) return <GoInPage />;
   if (pageSlug?.startsWith("journal-")) return <JournalPage />;
-  // "visa-" also matches visa-guides.html (a standalone index, not in this
-  // dataset) — VisaPage's own lookup falls through to the placeholder for
-  // it, same as every other not-yet-ported slug.
+  // visa-guides is its own index page (VisaGuidesPage, matched above as an
+  // exact slug), so "visa-" here is only the country guides.
   if (pageSlug?.startsWith("visa-")) return <VisaPage />;
 
   return (
