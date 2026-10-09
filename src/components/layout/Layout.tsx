@@ -14,6 +14,7 @@ import { TripDrawerProvider } from "../../lib/tripDrawer";
 import { ProfileDrawerProvider } from "../../lib/profileDrawer";
 import { SignInModalProvider } from "../../lib/signInModal";
 import { useAuth } from "../../lib/auth";
+import { useScrollRestoration } from "../../lib/useScrollRestoration";
 
 // concierge.html is full-screen, chat-only — no site chrome (nav/tab-bar/
 // floating helpers), matching a messaging app's own window rather than a
@@ -72,16 +73,11 @@ export function Layout() {
     };
   }, [isFullscreenChat]);
 
-  // React Router doesn't reset scroll on client-side navigation (unlike a
-  // full page load) — without this, a new route inherits whatever scrollY
-  // the previous page was at, clamped to its own (often shorter) height, so
-  // it can land at the bottom instead of the top. css/site.css sets a global
-  // html{scroll-behavior:smooth} — per spec, behavior:"auto" just defers to
-  // that CSS property (so it would still animate); "instant" is what
-  // actually bypasses it for the jump a normal page load gives you.
-  useEffect(() => {
-    window.scrollTo({ top: 0, left: 0, behavior: "instant" as ScrollBehavior });
-  }, [pathname]);
+  // React Router doesn't manage scroll on client-side navigation. A new
+  // page starts at the top; Back/Forward return to where the visitor was
+  // on that page (it used to jump to the top on every URL change, Back
+  // included). See useScrollRestoration.
+  useScrollRestoration();
 
   return (
     <NavVariantProvider>
