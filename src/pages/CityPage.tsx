@@ -37,6 +37,7 @@ import { withTaraAI } from "../components/TaraAI";
 import styles from "./city-page.module.css";
 import LiveVenues from "../components/LiveVenues";
 import { useEngineGuide } from "../hooks/useEngineGuide";
+import { withBestWindow } from "../lib/bestMonths";
 import CityPageLoader, { useCityPageReady } from "../components/CityPageLoader";
 
 const CITIES = cities as unknown as Record<string, CityData>;
@@ -413,7 +414,8 @@ function AccordionRow({ label, value }: { label: string; value: string }) {
 export default function CityPage() {
   const { pageSlug } = useParams<{ pageSlug: string }>();
   const slug = pageSlug?.startsWith("city-") ? pageSlug.slice("city-".length) : undefined;
-  const baseCity = slug ? CITIES[slug] : undefined;
+  // Best months on one 2-4 month window everywhere on the page (bestMonths.ts).
+  const baseCity = useMemo(() => (slug && CITIES[slug] ? withBestWindow(CITIES[slug]) : undefined), [slug]);
   // Guide content comes from the sourcing engine when it has any for this
   // city (useEngineGuide.ts); everything else on the page, and the guide
   // itself as a fallback, stays the bundled data.
