@@ -90,6 +90,9 @@ export default function ClaimPage() {
     // Alphanumeric, not digits-only (2026-09-29 fix) — invite codes now
     // include letters (e.g. BH0325AN), matching handleSubmit's own
     // .toUpperCase().replace(/[^A-Z0-9]/g, "") sanitization below.
+    // No maxLength on the input (2026-10-12): the browser cut a paste to 8
+    // characters before this cleanup ran, so "K E 1 1 8 B H" (a key copied
+    // with spaces) became "KE11". Cleaned first, then trimmed to 8.
     setCode(e.target.value.toUpperCase().replace(/[^A-Z0-9]/g, "").slice(0, 8));
     setAnn(null);
   }
@@ -228,7 +231,6 @@ export default function ClaimPage() {
                   id="claim-code"
                   type="text"
                   inputMode="text"
-                  maxLength={8}
                   autoComplete="one-time-code"
                   placeholder="AB1234CD"
                   spellCheck={false}
