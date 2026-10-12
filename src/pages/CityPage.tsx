@@ -187,13 +187,22 @@ function GuideCard({
 // Tabs + tier chips both moved out of here into one shared sticky wrapper
 // in CityPage itself (see .guideSticky) — this component now renders only
 // the actual tier list content, driven by the selectedTier prop it's given.
+// A place's location opens Google Maps (2026-10-09, direct request) —
+// searched by name, area and city so it lands on the place itself.
+function mapsUrl(name: string | null, area: string | null, city: string | undefined): string {
+  const query = [name, area, city].filter(Boolean).join(", ");
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
+}
+
 function GuidePanel({
   panel,
   active,
   selectedTier,
   livePhotos,
   fireLookup,
+  cityName,
 }: {
+  cityName?: string;
   panel: CityGuidePanel;
   active: boolean;
   selectedTier: number;
@@ -303,18 +312,28 @@ function GuidePanel({
                     <span className="nm">{item.name}</span>
                   </span>
                   {!noTag && (
+                    // Every credential, in full (publication and list) — they
+                    // used to be cut to the first one, shortened and ellipsed.
                     <span className="cg-creds">
-                      <span className="cg-cred" title={credentials[0]}>
-                        {shortCredential(credentials[0])}
-                      </span>
+                      {credentials.map((c, k) => (
+                        <span className="cg-cred" key={k}>
+                          {c}
+                        </span>
+                      ))}
                     </span>
                   )}
                   <span className={`ds${noTag ? ` ${styles.dsExtra}` : ""}`}>{item.description}</span>
                   {item.area && (
-                    <span className={`${styles.itemLocation}${noTag ? ` ${styles.itemLocationWide}` : ""}`}>
+                    <a
+                      className={`${styles.itemLocation}${noTag ? ` ${styles.itemLocationWide}` : ""}`}
+                      href={mapsUrl(item.name, item.area, cityName)}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      title={`Open ${item.name ?? "this place"} in Google Maps`}
+                    >
                       {LOCATION_ICON}
                       {item.area}
-                    </span>
+                    </a>
                   )}
                 </GuideCard>
               </li>
@@ -957,6 +976,7 @@ export default function CityPage() {
                           selectedTier={selectedTierByPanel[p.key] ?? p.tiers.findIndex((t) => t.label)}
                           livePhotos={activeTab === p.key ? liveGuidePanelPhotos : {}}
                           fireLookup={fireLiveGuidePanelLookup}
+                          cityName={hero.name ?? undefined}
                         />
                       </div>
                     ))}
