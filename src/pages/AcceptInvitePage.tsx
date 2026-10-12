@@ -16,7 +16,7 @@ import { TaraAI } from "../components/TaraAI";
 // honest "not live yet" message and a real advisor-contact fallback, no
 // fake preview/accept flow pretending to validate a token this app can't
 // reach.
-const EMAIL_CTA_HREF = "mailto:maison@tripsure.com";
+const EMAIL_CTA_HREF = "mailto:invite@tripagent.vip";
 
 export default function AcceptInvitePage() {
   const [hasToken, setHasToken] = useState(false);
