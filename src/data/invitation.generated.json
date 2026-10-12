@@ -36,8 +36,8 @@
         {
           "id": "rq-note",
           "type": "text",
-          "labelHtml": "Anything we should know? <span style=\"text-transform:none;letter-spacing:0\">(optional)</span>",
-          "placeholder": "A referral, how you found us…"
+          "labelHtml": "Tell us about your travel plans <span style=\"text-transform:none;letter-spacing:0\">(optional)</span>",
+          "placeholder": "Where you'd like to go, or who referred you"
         }
       ],
       "submitLabel": "Request an invitation"

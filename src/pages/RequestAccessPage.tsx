@@ -8,7 +8,7 @@ import styles from "./request-access-page.module.css";
 // Access requests panel, and approval emails a /claim code.
 //
 // 2026-10-08 (direct request): form follows the "Ask for an invitation"
-// mock — Your name / Email / Mobile required, "Anything we should know"
+// mock — Your name / Email / Mobile required, "Tell us about your travel plans"
 // optional, "Send to the Desk", code + email links underneath — in the
 // page's original colours (cream frosted card, oxblood accents, gold
 // eyebrow over the video). No navbar of any kind for signed-out visitors
@@ -286,14 +286,14 @@ export default function RequestAccessPage() {
 
                 <div className={styles.field}>
                   <label htmlFor="ra-reason">
-                    Anything we should know <span className={styles.optional}>· optional</span>
+                    Tell us about your travel plans <span className={styles.optional}>· optional</span>
                   </label>
                   <input
                     className="ra-input"
                     id="ra-reason"
                     name="reason"
                     type="text"
-                    placeholder="Where to, or who introduced you"
+                    placeholder="Where you'd like to go, or who referred you"
                     autoComplete="off"
                     maxLength={REASON_MAX}
                   />
