@@ -157,6 +157,13 @@ export default function ClaimPage() {
       // the auth state from it while the welcome shows, so the home page
       // opens signed in (full site chrome, profile) instead of as a guest
       // until the next reload.
+      // A code entry is a new 30-day login: restart the site's own clock
+      // too (auth.tsx only stamps when none exists), matching the backend.
+      try {
+        localStorage.removeItem("ta_session_started_at");
+      } catch {
+        // storage unavailable
+      }
       await Promise.all([refresh(), new Promise((r) => setTimeout(r, 1400))]);
       navigate("/", { replace: true });
       return;
