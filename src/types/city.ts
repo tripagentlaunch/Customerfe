@@ -24,6 +24,13 @@ export interface CityGuideItem {
   // placeholder (see src/lib/placeholderPhoto.ts) rather than showing
   // nothing.
   photo: string | null;
+  // Short card labels written by the sourcing engine's AI from the item's
+  // own facts (2026-10-09), sized to fit: photo badge (2-4 words), one
+  // headline tag, one-sentence blurb. Optional — the card falls back to
+  // trimmed credentials / the full description without them.
+  badge?: string | null;
+  tag?: string | null;
+  blurb?: string | null;
 }
 
 export interface CityGuideTier {
