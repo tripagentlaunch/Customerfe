@@ -33,7 +33,7 @@ export function Footer() {
           </div>
           <div className="tagline">Until you are home.</div>
           <p style={{ fontSize: 13, maxWidth: "30ch" }}>
-            A private travel maison by Tripsure. Flights, hotels and visas — handled, completely.
+            A private travel maison. Flights, hotels and visas — handled, completely.
           </p>
         </div>
         <div>
@@ -77,7 +77,7 @@ export function Footer() {
               Speak with <TaraAI />
             </Link>
           )}
-          <a href="mailto:maison@tripsure.com">maison@tripsure.com</a>
+          <a href="mailto:invite@tripagent.vip">invite@tripagent.vip</a>
           <Link to="/trip">Build a trip</Link>
           <Link to="/enquire">Plan a trip</Link>
           <Link to="/careers">Careers</Link>
@@ -90,7 +90,7 @@ export function Footer() {
           <Link to="/contact">Contact</Link>
         </div>
         <div className="legal">
-          <span>© 2026 TripAgent · Tripsure · 44 Kingfisher Towers, Bangalore 560 001</span>
+          <span>© 2026 TripAgent · 44 Kingfisher Towers, Bangalore 560 001</span>
           <span>We stay.</span>
         </div>
       </div>

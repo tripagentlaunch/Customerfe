@@ -212,7 +212,7 @@
         },
         {
           "question": "Can I ask you to delete my data?",
-          "answerHtml": "Yes. Ask us what we hold and to remove it, subject to records we're legally required to keep. One message to your advisor, or to <a href=\"mailto:maison@tripsure.com\">maison@tripsure.com</a>, starts it.",
+          "answerHtml": "Yes. Ask us what we hold and to remove it, subject to records we're legally required to keep. One message to your advisor, or to <a href=\"mailto:invite@tripagent.vip\">invite@tripagent.vip</a>, starts it.",
           "open": false
         }
       ]
@@ -239,7 +239,7 @@
         },
         {
           "question": "I still have a question that isn't here.",
-          "answerHtml": "Then ask it. The fastest answer is your advisor — message us and a person replies. Or write to <a href=\"mailto:maison@tripsure.com\">maison@tripsure.com</a> or visit <a href=\"/contact\">contact</a>.",
+          "answerHtml": "Then ask it. The fastest answer is your advisor — message us and a person replies. Or write to <a href=\"mailto:invite@tripagent.vip\">invite@tripagent.vip</a> or visit <a href=\"/contact\">contact</a>.",
           "open": false
         }
       ]

@@ -165,12 +165,12 @@ export default function ClaimPage() {
       setAnn({ text: "This invitation has already been claimed.", kind: "err" });
     } else if (res.error === "email_taken") {
       setAnn({
-        text: "That email is already attached to another membership. Please reach us on WhatsApp or write to maison@tripsure.com.",
+        text: "That email is already attached to another membership. Please reach us on WhatsApp or write to invite@tripagent.vip.",
         kind: "err",
       });
     } else if (res.error === "expired") {
       setAnn({
-        text: "This invitation has expired. Please reach us on WhatsApp or write to maison@tripsure.com for a new one.",
+        text: "This invitation has expired. Please reach us on WhatsApp or write to invite@tripagent.vip for a new one.",
         kind: "err",
       });
     } else if (res.error === "network") {

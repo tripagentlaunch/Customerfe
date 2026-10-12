@@ -1,7 +1,7 @@
 {
   "seo": {
     "title": "Contact — TripAgent",
-    "description": "Reach TripAgent on WhatsApp or at maison@tripsure.com — members hear back within the hour."
+    "description": "Reach TripAgent on WhatsApp or at invite@tripagent.vip — members hear back within the hour."
   },
   "hero": {
     "eyebrow": "Contact",
@@ -19,8 +19,8 @@
     },
     {
       "label": "Email",
-      "valueText": "maison@tripsure.com",
-      "valueHref": "mailto:maison@tripsure.com",
+      "valueText": "invite@tripagent.vip",
+      "valueHref": "mailto:invite@tripagent.vip",
       "note": "For anything you'd rather put in writing."
     }
   ],
@@ -34,5 +34,5 @@
       "bodyHtml": "Membership is <a href=\"/invitation\">by invitation</a>. Hold one? <a href=\"/invitation\">Enter through your private link</a>, and your advisor introduces themselves the same day."
     }
   ],
-  "noteHtml": "TripAgent is operated by <b>Tripsure</b>, 44 Kingfisher Towers, Bangalore 560 001, India. For press or partnerships, write to <a href=\"mailto:maison@tripsure.com\">maison@tripsure.com</a>. <span style=\"color:var(--muted)\">Last updated · June 2026.</span>"
+  "noteHtml": "TripAgent is operated by <b>Tripsure</b>, 44 Kingfisher Towers, Bangalore 560 001, India. For press or partnerships, write to <a href=\"mailto:invite@tripagent.vip\">invite@tripagent.vip</a>. <span style=\"color:var(--muted)\">Last updated · June 2026.</span>"
 }

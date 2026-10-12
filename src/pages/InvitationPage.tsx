@@ -8,7 +8,7 @@ import styles from "./invitation-page.module.css";
 
 const data = invitationData as unknown as InvitationPageData;
 
-const EMAIL_CTA_HREF = "mailto:maison@tripsure.com";
+const EMAIL_CTA_HREF = "mailto:invite@tripagent.vip";
 
 type RedeemResponse = {
   valid?: boolean;
