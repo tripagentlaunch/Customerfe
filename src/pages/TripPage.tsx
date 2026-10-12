@@ -22,13 +22,24 @@ export default function TripPage() {
 
   return (
     <div className={styles.tpWrap}>
+      {/* "Build your trip" in the nav lands here (2026-10-09): a clear coming-soon
+          page whose main option is planning with Tara AI — that button opens
+          the Tara chatbot (any Tara AI CTA does, see lib/taraChat.ts). */}
       <div className={styles.tpPanel}>
-        <div className="eyebrow">Build a trip</div>
-        <h1>The trip builder is on its way.</h1>
-        <p>In the meantime, tell your advisor the cities, the dates and what you have in mind — they'll build the trip with you, flights, hotels and visas, all of it.</p>
-        <Link className="btn btn-gold" to="/enquire">
-          Plan a trip with <TaraAI />
-        </Link>
+        <div className="eyebrow">Coming soon</div>
+        <h1>Build your trip</h1>
+        <p>
+          The trip builder is on its way. Until then, plan it with <TaraAI /> — tell it the cities, the dates and what you
+          have in mind, and your advisor builds the trip with you: flights, hotels and visas, all of it.
+        </p>
+        <div className="btn-row" style={{ justifyContent: "center", marginTop: 8 }}>
+          <Link className="btn btn-gold" to="/enquire">
+            Plan with <TaraAI />
+          </Link>
+          <Link className="btn btn-ghost" to="/destinations">
+            Explore destinations
+          </Link>
+        </div>
       </div>
     </div>
   );
