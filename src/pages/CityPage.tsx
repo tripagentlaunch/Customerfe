@@ -107,6 +107,54 @@ function tierIcon(label: string) {
 // that's still long; the whole string if there's no dash to split on, since
 // those tend to already be short award names). The full text is still
 // available via the badge's native title tooltip on hover.
+// Card metadata (2026-10-09, direct request): short labels, never cut
+// mid-word. The engine's AI writes item.badge / item.tag / item.blurb to
+// fit; until it does, these trim the credentials sensibly instead.
+const BADGE_MAX = 18; // fits the 150px photo at the badge's 10.5px
+const TAG_MAX = 40;
+
+// "Established 1916 — a living Amritsar institution" -> its shorter
+// meaningful half ("Established 1916"), or the whole when it already fits.
+function headlineTag(full: string): string {
+  if (full.length <= TAG_MAX) return full;
+  const halves = full.split(/\s+[—–-]\s+/).map((h) => h.trim()).filter((h) => h.length >= 6);
+  const fits = halves.filter((h) => h.length <= TAG_MAX).sort((a, b) => a.length - b.length);
+  return fits[0] ?? full;
+}
+
+function photoBadge(item: { badge?: string | null }, credentials: string[]): string | undefined {
+  if (item.badge) return item.badge;
+  if (!credentials[0]) return undefined;
+  const short = shortCredential(credentials[0]);
+  return short.length <= BADGE_MAX ? short : undefined;
+}
+
+// One headline tag; the rest of the credentials, in full, behind "+N".
+function CardTags({ tag, credentials }: { tag?: string | null; credentials: string[] }) {
+  const [open, setOpen] = useState(false);
+  const headline = tag || headlineTag(credentials[0]);
+  const rest = tag ? credentials : credentials.slice(1);
+  return (
+    <span className="cg-creds">
+      <span className="cg-cred" title={credentials.join(" · ")}>
+        {headline}
+      </span>
+      {open && rest.map((c, k) => <span className="cg-cred cg-cred-lo" key={k}>{c}</span>)}
+      {rest.length > 0 && (
+        <button
+          type="button"
+          className="cg-cred cg-cred-lo"
+          style={{ cursor: "pointer", background: "none" }}
+          aria-expanded={open}
+          onClick={() => setOpen((o) => !o)}
+        >
+          {open ? "Less" : `+${rest.length}`}
+        </button>
+      )}
+    </span>
+  );
+}
+
 function shortCredential(full: string): string {
   const dashIdx = full.indexOf("—");
   let short = dashIdx >= 0 ? full.slice(dashIdx + 1).trim() : full;
@@ -307,22 +355,12 @@ function GuidePanel({
                 })()}
                 key={j}
               >
-                <GuideCard photo={photo} badge={credentials[0] ? shortCredential(credentials[0]) : undefined} isLoading={isLoadingLivePhoto}>
+                <GuideCard photo={photo} badge={photoBadge(item, credentials)} isLoading={isLoadingLivePhoto}>
                   <span className="cg-nm-row">
                     <span className="nm">{item.name}</span>
                   </span>
-                  {!noTag && (
-                    // Every credential, in full (publication and list) — they
-                    // used to be cut to the first one, shortened and ellipsed.
-                    <span className="cg-creds">
-                      {credentials.map((c, k) => (
-                        <span className="cg-cred" key={k}>
-                          {c}
-                        </span>
-                      ))}
-                    </span>
-                  )}
-                  <span className={`ds${noTag ? ` ${styles.dsExtra}` : ""}`}>{item.description}</span>
+                  {!noTag && <CardTags tag={item.tag} credentials={credentials} />}
+                  <span className={`ds${noTag ? ` ${styles.dsExtra}` : ""}`}>{item.blurb || item.description}</span>
                   {item.area && (
                     <a
                       className={`${styles.itemLocation}${noTag ? ` ${styles.itemLocationWide}` : ""}`}
