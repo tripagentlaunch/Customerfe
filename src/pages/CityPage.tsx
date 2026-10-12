@@ -38,6 +38,7 @@ import styles from "./city-page.module.css";
 import LiveVenues from "../components/LiveVenues";
 import { useEngineGuide } from "../hooks/useEngineGuide";
 import { withBestWindow } from "../lib/bestMonths";
+import { ORIGINS, flightTimes, hoursLabel, useOrigin, type FlightFrom } from "../lib/origin";
 import CityPageLoader, { useCityPageReady } from "../components/CityPageLoader";
 
 const CITIES = cities as unknown as Record<string, CityData>;
@@ -420,6 +421,16 @@ export default function CityPage() {
   // city (useEngineGuide.ts); everything else on the page, and the guide
   // itself as a fallback, stays the bundled data.
   const engineGuide = useEngineGuide(slug, baseCity?.guide);
+  const [origin, setOrigin] = useOrigin();
+  const [flightFrom, setFlightFrom] = useState<Record<string, FlightFrom> | null>(null);
+  useEffect(() => {
+    let cancelled = false;
+    setFlightFrom(null);
+    if (slug) flightTimes(slug).then((f) => !cancelled && setFlightFrom(f));
+    return () => {
+      cancelled = true;
+    };
+  }, [slug]);
   const city = useMemo(
     () => (baseCity && engineGuide.guide ? { ...baseCity, guide: engineGuide.guide } : baseCity),
     [baseCity, engineGuide.guide]
@@ -666,14 +677,52 @@ export default function CityPage() {
             {hero.ctaSecondary && <SecondaryInverseButton to={hero.ctaSecondary.href}>{hero.ctaSecondary.label}</SecondaryInverseButton>}
           </div>
           <div className={`${styles.chFacts} reveal d3`}>
-            {(hero.facts ?? []).map((f, i) => (
-              <div className={styles.chFact} key={i}>
-                <span className="fk">{f.label}</span>
-                <span className={styles.fv}>
-                  {f.value} {f.small && <small>{f.small}</small>}
-                </span>
-              </div>
-            ))}
+            {(hero.facts ?? []).map((f, i) =>
+              f.label === "From India" && flightFrom ? (
+                // "From India" was Delhi's time; show the visitor's own city
+                // (Bengaluru by default) and let them change it (lib/origin.ts).
+                <div className={styles.chFact} key={i}>
+                  <span className="fk">
+                    From{" "}
+                    {/* The visible text is a styled span; the real <select> sits
+                        invisibly on top of it, because site.css forces padding
+                        and a border onto every select with !important. */}
+                    <span style={{ position: "relative", display: "inline-block", textDecoration: "underline dotted", textUnderlineOffset: 3 }}>
+                      {ORIGINS[origin]} ▾
+                      <select
+                        aria-label="Flying from"
+                        value={origin}
+                        onChange={(e) => setOrigin(e.target.value)}
+                        style={{ position: "absolute", inset: 0, width: "100%", height: "100%", opacity: 0, cursor: "pointer" }}
+                      >
+                        {Object.entries(ORIGINS).map(([code, name]) => (
+                          <option key={code} value={code}>
+                            {name}
+                          </option>
+                        ))}
+                      </select>
+                    </span>
+                  </span>
+                  <span className={styles.fv}>
+                    {flightFrom[origin]?.hours === 0 ? (
+                      "You're here"
+                    ) : (
+                      <>
+                        {hoursLabel(flightFrom[origin]?.hours) ?? f.value}{" "}
+                        <small>{flightFrom[origin] ? (flightFrom[origin].direct ? "nonstop" : "1 stop") : f.small}</small>
+                      </>
+                    )}
+                  </span>
+                </div>
+              ) : (
+                <div className={styles.chFact} key={i}>
+                  <span className="fk">{f.label}</span>
+                  <span className={styles.fv}>
+                    {f.value} {f.small && <small>{f.small}</small>}
+                  </span>
+                </div>
+              )
+            )}
           </div>
         </div>
       </header>

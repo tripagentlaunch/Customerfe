@@ -5,7 +5,7 @@ import styles from "./CityFilters.module.css";
 // search (useCitySearch). Lives on the Destinations page; whatever list sits
 // beneath it filters itself from the same `search` object.
 export default function CityFilters({ search }: { search: CitySearch }) {
-  const originLabel = ORIGINS[search.origin] || "Delhi";
+  const originLabel = ORIGINS[search.origin] || "Bengaluru";
   return (
     <div>
       <div className={styles.csSearchwrap}>
