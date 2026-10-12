@@ -35,7 +35,7 @@ export type LayoutOutletContext = { setBareForGuests: (bare: boolean) => void };
 export function Layout() {
   const { pathname } = useLocation();
   const isFullscreenChat = FULLSCREEN_CHAT_PATHS.has(pathname);
-  const { signedIn, loading } = useAuth();
+  const { signedIn, loading, member } = useAuth();
   const [bareForGuests, setBareForGuests] = useState(false);
   // Bare until auth has resolved too, so a guest never sees the chrome flash.
   const isBare = bareForGuests && (loading || !signedIn);
@@ -80,7 +80,7 @@ export function Layout() {
   // included). See useScrollRestoration.
   useScrollRestoration();
   // Every "Talk to Tara AI" CTA opens the Tara chatbot (see taraChat.ts).
-  useTaraChatLinks();
+  useTaraChatLinks(signedIn ? member?.invitation_code : null);
 
   return (
     <NavVariantProvider>

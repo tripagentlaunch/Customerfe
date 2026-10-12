@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 
 // "Talk to Tara AI" opens the Tara chatbot (2026-10-09, direct request).
 // Every Tara CTA on the site — ~140 of them: city pages, the floating button,
@@ -28,11 +28,17 @@ function isTaraCta(el: Element): boolean {
   return TARA_LABEL.test(label);
 }
 
-export function openTaraChat(): void {
-  window.open(taraChatUrl(), "_blank", "noopener");
+// One login across the site and the chatbot (2026-10-09): a signed-in
+// member's invite code rides in the #fragment — never sent to a server or
+// logged — and the chatbot's login page signs them in with it and clears it.
+export function openTaraChat(memberCode?: string | null): void {
+  const url = taraChatUrl() + (memberCode ? `#code=${encodeURIComponent(memberCode)}` : "");
+  window.open(url, "_blank", "noopener");
 }
 
-export function useTaraChatLinks(): void {
+export function useTaraChatLinks(memberCode?: string | null): void {
+  const code = useRef(memberCode);
+  code.current = memberCode;
   useEffect(() => {
     const onClick = (e: MouseEvent) => {
       if (e.defaultPrevented || e.button !== 0) return;
@@ -40,7 +46,7 @@ export function useTaraChatLinks(): void {
       if (!el || !isTaraCta(el)) return;
       e.preventDefault();
       e.stopPropagation();
-      openTaraChat();
+      openTaraChat(code.current);
     };
     // Capture phase: runs before React Router's <Link> handler navigates.
     document.addEventListener("click", onClick, true);
