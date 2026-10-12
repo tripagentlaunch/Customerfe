@@ -5,6 +5,7 @@
 import { useEffect, useMemo, useState } from "react";
 import cityPages from "../data/cities.generated.json";
 import { bestMonthNumbers } from "./bestMonths";
+import { ORIGINS, readOrigin, useOrigin } from "./origin";
 export type FlightFrom = { hours: number | null; direct?: boolean };
 export type CityDecision = {
   budget_week_inr?: { comfort_lakh?: number; luxury_lakh?: number };
@@ -84,7 +85,8 @@ export const FLIGHT = [
   { v: "8", label: "Within 8 hours", max: 8 },
 ] as const;
 
-export const ORIGINS: Record<string, string> = { del: "Delhi", bom: "Mumbai", blr: "Bengaluru" };
+// Where the visitor flies from: shared with the city hero (lib/origin.ts).
+export { ORIGINS };
 
 export const MONTHS = [
   "January", "February", "March", "April", "May", "June",
@@ -220,16 +222,6 @@ export function cardChips(c: CityRecord, origin: string): string[] {
   return chips.slice(0, 2);
 }
 
-function readOrigin(): string {
-  try {
-    const raw = localStorage.getItem("ta_profile");
-    const p = raw ? JSON.parse(raw) : null;
-    if (p && p.origin && ORIGINS[p.origin]) return p.origin;
-  } catch {
-    // ignore
-  }
-  return "del";
-}
 
 export async function loadCityList(): Promise<CityRecord[]> {
   const [cities, dec, img] = await Promise.all([
@@ -273,12 +265,11 @@ export type CitySearch = {
 export function useCitySearch(): CitySearch {
   const [status, setStatus] = useState<CitySearch["status"]>("loading");
   const [list, setList] = useState<CityRecord[]>([]);
-  const [origin, setOrigin] = useState("del");
+  const [origin] = useOrigin();
   const [state, setState] = useState<SearchState>(EMPTY_STATE);
 
   useEffect(() => {
     let cancelled = false;
-    setOrigin(readOrigin());
     loadCityList()
       .then((l) => {
         if (cancelled) return;
