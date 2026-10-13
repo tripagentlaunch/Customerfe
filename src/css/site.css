@@ -2491,6 +2491,19 @@ form label, .field label, .form-label{ text-transform:uppercase; letter-spacing:
 .reveal.d3{ transition-delay:.29s; }
 .reveal.d4{ transition-delay:.39s; }
 
+/* 1a-bis (2026-10-13, direct request). Content never waits on its
+   entrance: starting at opacity 0 and fading over ~.8s+delays left whole
+   sections white with faint text, which read as a page that failed to
+   load. Text is fully visible from the first paint; the only motion left
+   is one short rise. */
+.reveal,.reveal:not(.in){ opacity:1; will-change:auto; }
+.reveal{ transform:translateY(8px); transition:transform .4s var(--ease-out-soft,cubic-bezier(.16,.84,.34,1)); }
+.reveal.in{ transform:none; }
+.reveal.d1{ transition-delay:.03s; }
+.reveal.d2{ transition-delay:.06s; }
+.reveal.d3{ transition-delay:.09s; }
+.reveal.d4{ transition-delay:.12s; }
+
 /* 1b. Card hover motion — ease the lift/shadow to ~.7s so tiles rise slowly.
    Image-scale hovers eased to ~1.05s for an even statelier push-in. */
 .trip,

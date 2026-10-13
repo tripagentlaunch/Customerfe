@@ -6,6 +6,52 @@ import styles from "../pages/home-page.module.css";
 
 const SHOWN = 8;
 
+// Typed one after another in the empty bar (2026-10-13, direct request).
+// Each example is a real search that returns results — checked against
+// public/data/search-index.json — so the bar never promises what search
+// can't find.
+const TYPED_EXAMPLES = ["a city — Kyoto", "a hotel — Aman Tokyo", "a mood — honeymoon", "a visa — Japan"];
+
+// Types each example, holds it, deletes it, moves to the next. Off under
+// reduced motion — the static label shows instead.
+function useTypedExample(active: boolean): string | null {
+  const [text, setText] = useState("");
+  const reduce = typeof window !== "undefined" && window.matchMedia?.("(prefers-reduced-motion: reduce)").matches;
+  useEffect(() => {
+    if (!active || reduce) return;
+    let i = 0;
+    let len = 0;
+    let deleting = false;
+    let timer = 0;
+    const tick = () => {
+      const full = TYPED_EXAMPLES[i];
+      if (!deleting) {
+        len += 1;
+        setText(full.slice(0, len));
+        if (len === full.length) {
+          deleting = true;
+          timer = window.setTimeout(tick, 1700);
+          return;
+        }
+        timer = window.setTimeout(tick, 65);
+      } else {
+        len -= 1;
+        setText(full.slice(0, len));
+        if (len === 0) {
+          deleting = false;
+          i = (i + 1) % TYPED_EXAMPLES.length;
+          timer = window.setTimeout(tick, 350);
+          return;
+        }
+        timer = window.setTimeout(tick, 28);
+      }
+    };
+    timer = window.setTimeout(tick, 600);
+    return () => window.clearTimeout(timer);
+  }, [active, reduce]);
+  return reduce ? null : text;
+}
+
 // The homepage's "Where shall we take you?" bar (2026-10-13, direct
 // request): searches right here as you type instead of opening /search.
 // Same index and scoring as the /search page; the full list stays one
@@ -14,6 +60,8 @@ export default function HomeSearch({ labelHtml }: { labelHtml: string }) {
   const [query, setQuery] = useState("");
   const [index, setIndex] = useState<SearchEntry[] | null>(null);
   const inputRef = useRef<HTMLInputElement>(null);
+  const [focused, setFocused] = useState(false);
+  const typed = useTypedExample(!query && !focused);
 
   const q = query.trim();
 
@@ -48,7 +96,16 @@ export default function HomeSearch({ labelHtml }: { labelHtml: string }) {
           <line x1="20.5" y1="20.5" x2="16.5" y2="16.5" />
         </svg>
         <span className={styles.dsField}>
-          {!query && <span className={styles.dsLabel} aria-hidden="true" dangerouslySetInnerHTML={{ __html: labelHtml }} />}
+          {!query &&
+            (typed === null ? (
+              <span className={styles.dsLabel} aria-hidden="true" dangerouslySetInnerHTML={{ __html: labelHtml }} />
+            ) : (
+              <span className={styles.dsLabel} aria-hidden="true">
+                Search{"\u00a0"}
+                <em>{focused ? "a city, a hotel, a visa…" : typed}</em>
+                {!focused && <span className={styles.dsCaret} />}
+              </span>
+            ))}
           <input
             ref={inputRef}
             type="search"
@@ -56,7 +113,11 @@ export default function HomeSearch({ labelHtml }: { labelHtml: string }) {
             aria-label="Search a place, a hotel, or a city"
             spellCheck={false}
             value={query}
-            onFocus={warm}
+            onFocus={() => {
+              warm();
+              setFocused(true);
+            }}
+            onBlur={() => setFocused(false)}
             onChange={(e) => setQuery(e.target.value)}
             onKeyDown={(e) => {
               if (e.key === "Escape") setQuery("");

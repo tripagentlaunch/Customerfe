@@ -28,7 +28,9 @@ export function useScrollReveal(deps: unknown[] = []) {
       (entries) => {
         entries.forEach((entry) => {
           const rootH = entry.rootBounds?.height ?? window.innerHeight;
-          const enough = entry.intersectionRatio >= 0.14 || entry.intersectionRect.height >= rootH * 0.3;
+          // Any part on screen is enough — content is visible regardless
+          // (see site.css 1a-bis), this only plays the short rise.
+          const enough = entry.intersectionRatio > 0 || entry.intersectionRect.height >= rootH * 0.3;
           if (entry.isIntersecting && enough) {
             entry.target.classList.add("in");
             io.unobserve(entry.target);

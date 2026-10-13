@@ -115,7 +115,7 @@
     "eyebrow": "Begin here",
     "headingHtml": "Where shall we <span class=\"it\">take you?</span>",
     "sub": "Search a place, a hotel, a city \u2014 or let us read your mood and point the way. Everything you would open twenty tabs for, in one quiet place.",
-    "searchLabelHtml": "Search a place, a hotel, a city <em>\u2014 or \u201choneymoon\u201d, \u201cwhen to go\u201d, \u201cvisa\u201d</em>",
+    "searchLabelHtml": "Search a city, a hotel, a visa <em>\u2014 or \u201choneymoon\u201d, \u201csafari\u201d</em>",
     "recommenderLead": "Not sure where?",
     "recommenderRestHtml": "Answer five questions",
     "recommenderHref": "where-to-go.html",
