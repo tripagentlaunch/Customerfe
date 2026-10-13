@@ -3174,3 +3174,16 @@ main > section[id], main > header[id]{scroll-margin-top:64px}
    honeymoon · March 2026" — set per quote in homepage.generated.json. */
 .tq figcaption .tq-trip{display:block;margin-top:6px;font-weight:500;font-size:13px;letter-spacing:.02em;text-transform:none;color:var(--stone)}
 
+/* ===== Footer: key links + "More", columns fold on phones (2026-10-13) ===== */
+.footer .fmore{margin-top:2px}
+.footer .fmore>summary{list-style:none;cursor:pointer;display:inline-flex;align-items:center;gap:6px;font-size:13.5px;color:var(--ink);padding:4px 0}
+.footer .fmore>summary::-webkit-details-marker,.footer .fcol-fold>summary::-webkit-details-marker{display:none}
+.footer .fmore>summary::after{content:"";width:6px;height:6px;border-right:1.3px solid currentColor;border-bottom:1.3px solid currentColor;transform:translateY(-2px) rotate(45deg);transition:transform .25s var(--ease,ease)}
+.footer .fmore[open]>summary::after{transform:translateY(1px) rotate(-135deg)}
+.footer .fcol-fold{border-bottom:1px solid var(--line)}
+.footer .fcol-fold>summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;margin:0;padding:14px 0}
+.footer .fcol-fold>summary::after{content:"+";font-size:18px;font-weight:400;letter-spacing:0;color:var(--stone)}
+.footer .fcol-fold[open]>summary::after{content:"\2212"}
+.footer .fcol-fold[open]{padding-bottom:12px}
+@media(max-width:640px){ .footer .wrap{grid-template-columns:1fr;gap:0} .footer .wrap>div:first-child{margin-bottom:22px} }
+
