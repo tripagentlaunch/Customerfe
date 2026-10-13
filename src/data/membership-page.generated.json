@@ -1,7 +1,7 @@
 {
   "seo": {
     "title": "Membership — TripAgent",
-    "description": "Membership by invitation: ₹12,000 a year. A named advisor who knows you — flights, hotels and visas, looked after."
+    "description": "Membership by invitation. A named advisor who knows you — flights, hotels and visas, looked after."
   },
   "hero": {
     "eyebrow": "Membership · by invitation",
@@ -19,7 +19,7 @@
   },
   "price": {
     "tier": "TripAgent Membership",
-    "amountHtml": "₹12,000<small>/ year</small>",
+    "amountHtml": "",
     "free": "★ By invitation only",
     "items": [
       "<b>Your own named advisor</b> — a real person who learns how you travel.",
@@ -35,13 +35,13 @@
       "label": "Enter your invitation",
       "href": "invitation.html"
     },
-    "note": "By invitation only. ₹12,000 a year."
+    "note": "By invitation only."
   },
   "value": {
-    "eyebrow": "Why it pays for itself",
-    "note": "The fee is small. The time and the peace of mind are not.",
-    "statement": "One trip looked after well is worth more than the year.",
-    "lede": "One flight re-booked at 2 a.m. One upgrade quietly arranged. One visa saved. Any one, and the year has paid for itself.",
+    "eyebrow": "Why it matters",
+    "note": "",
+    "statement": "One trip looked after well says everything.",
+    "lede": "One flight re-booked at 2 a.m. One upgrade quietly arranged. One visa saved. That is the difference.",
     "stats": [
       {
         "value": "190+",
@@ -92,11 +92,11 @@
     "items": [
       {
         "question": "How does membership work?",
-        "answerHtml": "By invitation, at ₹12,000 a year. A named advisor, and your flights, hotels and visas looked after end to end.",
+        "answerHtml": "By invitation. A named advisor, and your flights, hotels and visas looked after end to end.",
         "open": true
       },
       {
-        "question": "What does the ₹12,000 cover, exactly?",
+        "question": "What does membership cover, exactly?",
         "answerHtml": "The membership: a named advisor, and your flights, hotels and visas handled end to end. Fares and rooms are paid per trip, taxes shown — points or card.",
         "open": false
       },
@@ -124,7 +124,7 @@
   },
   "cta": {
     "heading": "Begin with your invitation.",
-    "lede": "By invitation only. ₹12,000 a year.",
+    "lede": "By invitation only.",
     "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fsantorini.jpg&w=2048&q=80",
     "buttons": [
       {
