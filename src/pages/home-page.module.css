@@ -116,6 +116,20 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
+.dsCaret {
+  display: inline-block;
+  width: 1px;
+  height: 1.05em;
+  margin-left: 3px;
+  background: var(--signature);
+  vertical-align: -0.15em;
+  animation: dsBlink 1s steps(1) infinite;
+}
+@keyframes dsBlink {
+  50% {
+    opacity: 0;
+  }
+}
 .dsInput {
   width: 100%;
   border: 0;
