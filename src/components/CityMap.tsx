@@ -43,10 +43,23 @@ function useCityMapData(slug: string) {
   return data;
 }
 
-// Pins closer than this on screen merge into a count badge; past this zoom
-// every pin shows individually, so a badge can always be split by zooming.
+// Pins closer than this on screen merge into a count badge; from
+// NO_CLUSTER_ZOOM (street level) every pin shows individually, and pins that
+// would still sit on top of each other are fanned out in a small ring
+// around their shared spot (2026-10-13, direct request: badges zoomed right
+// in read as stuck).
 const CLUSTER_RADIUS_PX = 84;
-const NO_CLUSTER_ZOOM = 17;
+const NO_CLUSTER_ZOOM = 14;
+const OVERLAP_PX = 30;
+
+// Screen offsets that fan out pins sharing (or nearly sharing) a spot.
+function fanOffsets(n: number): { dx: number; dy: number }[] {
+  const r = 18 + n * 3;
+  return Array.from({ length: n }, (_, k) => {
+    const a = -Math.PI / 2 + (2 * Math.PI * k) / n;
+    return { dx: Math.round(r * Math.cos(a)), dy: Math.round(r * Math.sin(a)) };
+  });
+}
 
 const MAP_CONTAINER_STYLE = { width: "100%", height: "100%" };
 const PIN_BUTTON_STYLE: CSSProperties = { transform: "translate(-50%, -50%)", background: "none", border: "none", padding: 0, cursor: "pointer" };
@@ -146,13 +159,25 @@ export default function CityMap({
     const pts = visibleVenues
       .map((v, i) => ({ v, i }))
       .map((item) => ({ item, ...worldPx(item.v.lat, item.v.lon, zoom) }));
-    return zoom >= NO_CLUSTER_ZOOM ? pts.map((p) => ({ x: p.x, y: p.y, items: [p.item] })) : clusterPoints(pts, CLUSTER_RADIUS_PX);
+    if (zoom < NO_CLUSTER_ZOOM) return clusterPoints(pts, CLUSTER_RADIUS_PX).map((c) => ({ ...c, offsets: null }));
+    return clusterPoints(pts, OVERLAP_PX).flatMap((c) => {
+      const offsets = c.items.length > 1 ? fanOffsets(c.items.length) : [{ dx: 0, dy: 0 }];
+      return c.items.map((item, k) => ({ x: c.x, y: c.y, items: [item], offsets: offsets[k] }));
+    });
   }, [visibleVenues, zoom]);
 
   function expandCluster(items: { v: CityMapVenue }[]) {
     if (!map) return;
     const bounds = new google.maps.LatLngBounds();
     items.forEach(({ v }) => bounds.extend({ lat: v.lat, lng: v.lon }));
+    // Places on (nearly) one spot: fitBounds would dive to the map's
+    // maximum zoom — street level is enough to fan them out.
+    const span = bounds.toSpan();
+    if (span.lat() < 0.002 && span.lng() < 0.002) {
+      map.setCenter(bounds.getCenter());
+      map.setZoom(NO_CLUSTER_ZOOM + 2);
+      return;
+    }
     map.fitBounds(bounds, 70);
   }
 
@@ -269,12 +294,13 @@ export default function CityMap({
               );
             }
             const { v, i } = c.items[0];
+            const shift = c.offsets && (c.offsets.dx || c.offsets.dy) ? ` translate(${c.offsets.dx}px, ${c.offsets.dy}px)` : "";
             return (
               <OverlayViewF key={`${v.n}-${i}`} position={{ lat: v.lat, lng: v.lon }} mapPaneName={OVERLAY_MOUSE_TARGET}>
                 <button
                   type="button"
                   aria-label={v.n}
-                  style={PIN_BUTTON_STYLE}
+                  style={shift ? { ...PIN_BUTTON_STYLE, transform: PIN_BUTTON_STYLE.transform + shift } : PIN_BUTTON_STYLE}
                   onMouseEnter={(e) => selectVenue(v, e.nativeEvent)}
                   onMouseLeave={() => setSelected(null)}
                 >
