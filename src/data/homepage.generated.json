@@ -1755,15 +1755,18 @@
     "quotes": [
       {
         "quote": "They rebooked our cancelled flight home before we'd even left the lounge. We didn't lift a finger.",
-        "attribution": "A. M. \u00b7 Mumbai"
+        "attribution": "A. M. \u00b7 Mumbai",
+        "trip": null
       },
       {
         "quote": "One message, and the whole trip \u2014 flights, the villa, the visas \u2014 simply happened. It felt like having a person, not an app.",
-        "attribution": "R. K. \u00b7 Delhi"
+        "attribution": "R. K. \u00b7 Delhi",
+        "trip": null
       },
       {
         "quote": "They remembered our anniversary and the wine we love. That is the difference between booking and being cared for.",
-        "attribution": "S. & V. \u00b7 Bengaluru"
+        "attribution": "S. & V. \u00b7 Bengaluru",
+        "trip": null
       }
     ],
     "footnote": "Member experiences. Names abbreviated for privacy."

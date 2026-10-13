@@ -3170,3 +3170,7 @@ main > section[id], main > header[id]{scroll-margin-top:64px}
 .ta-advisor.ta-advisor-compact:hover .ta-advisor-label,
 .ta-advisor.ta-advisor-compact:focus-visible .ta-advisor-label{ max-width:12em; opacity:1; }
 
+/* Testimonial trip line under the attribution (2026-10-13), e.g. "Maldives
+   honeymoon · March 2026" — set per quote in homepage.generated.json. */
+.tq figcaption .tq-trip{display:block;margin-top:6px;font-weight:500;font-size:13px;letter-spacing:.02em;text-transform:none;color:var(--stone)}
+

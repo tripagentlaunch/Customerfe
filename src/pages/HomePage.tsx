@@ -323,7 +323,10 @@ export default function HomePage() {
             {testimonials.quotes.map((q, i) => (
               <figure className={`tq reveal d${i + 1}`} key={i}>
                 <blockquote>{q.quote}</blockquote>
-                <figcaption>{q.attribution}</figcaption>
+                <figcaption>
+                  {q.attribution}
+                  {q.trip && <span className="tq-trip">{q.trip}</span>}
+                </figcaption>
               </figure>
             ))}
           </div>

@@ -130,6 +130,9 @@ export interface SignatureNode {
 export interface TestimonialQuote {
   quote: string | null;
   attribution: string | null;
+  // The guest's trip and month, e.g. "Maldives honeymoon · March 2026" —
+  // only with the guest's consent; shown under the attribution when set.
+  trip?: string | null;
 }
 
 export interface HomepageData {
