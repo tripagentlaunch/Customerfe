@@ -47,7 +47,7 @@ export default function MembershipPage() {
         <div className="wrap">
           <div className="price-card reveal">
             <div className="tier">{price.tier}</div>
-            <div className="amt" dangerouslySetInnerHTML={{ __html: price.amountHtml ?? "" }} />
+            {price.amountHtml && <div className="amt" dangerouslySetInnerHTML={{ __html: price.amountHtml }} />}
             <div className="free">{price.free}</div>
             <ul className="incl lux-list">
               {price.items.map((it, i) => (
@@ -73,7 +73,7 @@ export default function MembershipPage() {
         <div className="wrap ed-grid editorial">
           <div className="ed-meta reveal">
             <div className="eyebrow">{value.eyebrow}</div>
-            <p className="ed-note">{value.note}</p>
+            {value.note && <p className="ed-note">{value.note}</p>}
           </div>
           <div className={`${styles.edMain} reveal d1`}>
             <h2 className="ed-statement">{value.statement}</h2>

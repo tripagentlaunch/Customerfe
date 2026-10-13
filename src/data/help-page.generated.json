@@ -9,7 +9,7 @@
     "lede": "The honest detail on membership, payments, the three things we handle, and how your data is held. If a question isn't here, your advisor is a message away.",
     "toc": [
       {
-        "label": "Membership & pricing",
+        "label": "Membership",
         "href": "#membership"
       },
       {
@@ -43,31 +43,21 @@
     {
       "id": "membership",
       "eyebrow": "01",
-      "heading": "Membership & pricing",
+      "heading": "Membership",
       "items": [
         {
-          "question": "When am I charged for membership?",
-          "answerHtml": "By invitation, at <b>₹12,000 a year</b>, charged to the card you hold when you redeem. You always know before you are billed.",
+          "question": "What does membership cover, and what is paid per trip?",
+          "answerHtml": "Membership brings a named advisor, the AI concierge, and your flights, hotels and visas handled end to end. Travel itself — fares, rooms, government visa charges — is paid <b>per trip</b>, with taxes shown. More on <a href=\"/membership\">membership</a>.",
           "open": true
         },
         {
-          "question": "Is there any lock-in?",
-          "answerHtml": "None. No exit penalty. If you choose not to continue, it simply does not renew. The relationship is <span class=\"it\">earned</span>, not enforced.",
-          "open": false
-        },
-        {
-          "question": "What does the ₹12,000 cover, and what is paid per trip?",
-          "answerHtml": "The ₹12,000 is the membership: a named advisor, the AI concierge, and your flights, hotels and visas handled end to end. Travel itself — fares, rooms, government visa charges — is paid <b>per trip</b>, with taxes shown. See the full breakdown on <a href=\"/membership\">membership</a>.",
-          "open": false
-        },
-        {
           "question": "Is the membership the same as paying per trip elsewhere?",
-          "answerHtml": "No. A booking site is gone the moment you've paid. Membership is a person who knows you, holds your details, and is there when a flight cancels overnight. One re-booked trip usually returns the year over.",
+          "answerHtml": "No. A booking site is gone the moment you've paid. Membership is a person who knows you, holds your details, and is there when a flight cancels overnight.",
           "open": false
         },
         {
           "question": "How does an invitation work?",
-          "answerHtml": "Each invitation carries a one-time code. You redeem it, your card is held, and the service begins. If you have a code, you'll know.",
+          "answerHtml": "Each invitation carries a one-time code. You redeem it and the service begins. If you have a code, you'll know.",
           "open": false
         },
         {
@@ -99,12 +89,12 @@
         },
         {
           "question": "How do refunds work?",
-          "answerHtml": "Travel refunds follow each fare's or rate's own rules, which your advisor knows before you book. When something is owed back, we pursue it and make sure no penalty, credit or residual is missed. The membership fee is covered by our <a href=\"/refund\">refund of fees</a> terms.",
+          "answerHtml": "Travel refunds follow each fare's or rate's own rules, which your advisor knows before you book. When something is owed back, we pursue it and make sure no penalty, credit or residual is missed.",
           "open": false
         },
         {
           "question": "What currencies can I pay in?",
-          "answerHtml": "Membership is billed in Indian rupees. Travel is quoted and settled in the currency that serves each booking best, with the conversion shown plainly.",
+          "answerHtml": "Travel is quoted and settled in the currency that serves each booking best, with the conversion shown plainly.",
           "open": false
         }
       ]
