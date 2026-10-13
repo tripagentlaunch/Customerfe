@@ -18,7 +18,11 @@
   background-color: #1e1a14;
 }
 
+/* --inset: half a step's label width, so the first and last labels sit
+   inside the track instead of hanging off its ends ("Enquiry" was clipped
+   at the left edge, 2026-10-13). */
 .track {
+  --inset: 75px;
   position: relative;
   height: 96px;
   max-width: 1100px;
@@ -30,8 +34,8 @@
 .line {
   position: absolute;
   top: 0;
-  left: 0;
-  right: 0;
+  left: var(--inset);
+  right: var(--inset);
   height: 2px;
   background: rgba(255, 255, 255, 0.4);
 }
@@ -84,6 +88,9 @@
   width: 30px;
   height: 30px;
   top: -14px;
+  /* Takes the same 12px of flow as the other dots, so "Home" lines up
+     with the other labels instead of sitting 18px lower. */
+  margin-bottom: -18px;
   border-radius: 50%;
   background: #4a4a4a;
   border: none;
