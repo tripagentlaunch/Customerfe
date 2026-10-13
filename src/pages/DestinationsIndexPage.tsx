@@ -1,12 +1,13 @@
-import { useEffect } from "react";
+import { Suspense, lazy, useEffect } from "react";
 import destinationsData from "../data/destinations-index.generated.json";
 import type { DestinationsIndexPageData } from "../types/destinations-index";
 import { useScrollReveal } from "../lib/useScrollReveal";
 import { PrimaryInverseButton, SecondaryInverseButton } from "../components/buttons/InverseButtons";
-import WorldMapSection from "../components/WorldMapSection";
-import CityFilters from "../components/CityFilters";
-import CityRegions from "../components/CityRegions";
-import { useCitySearch } from "../lib/citySearch";
+// The map and the city list both carry the full city data (~6 MB), so they
+// load as their own chunks after the hero has drawn — the title used to
+// wait ~5s for that data (2026-10-13).
+const WorldMapSection = lazy(() => import("../components/WorldMapSection"));
+const DestinationsCityList = lazy(() => import("../components/DestinationsCityList"));
 import styles from "./destinations-index-page.module.css";
 
 const data = destinationsData as unknown as DestinationsIndexPageData;
@@ -16,13 +17,7 @@ export default function DestinationsIndexPage() {
     if (data.seo.title) document.title = data.seo.title;
   }, []);
 
-
-  const search = useCitySearch();
-
-  // Re-observe when the search data arrives: the filter block below only
-  // renders once status flips to "ready", i.e. after the mount-time pass
-  // that collects `.reveal` elements, so it would otherwise stay at opacity:0.
-  useScrollReveal([search.status]);
+  useScrollReveal([]);
   const { hero, groupsIntro, beyond, cta } = data;
 
   return (
@@ -45,7 +40,9 @@ export default function DestinationsIndexPage() {
         </div>
       </header>
 
-      <WorldMapSection />
+      <Suspense fallback={<div style={{ minHeight: "70vh" }} />}>
+        <WorldMapSection />
+      </Suspense>
 
       <section className="band tight ta-dx" style={{ background: "var(--bone)" }}>
         <div className="wrap">
@@ -56,13 +53,9 @@ export default function DestinationsIndexPage() {
               {groupsIntro.heading}
             </h2>
           </div>
-          {search.status === "ready" && (
-            <div className="reveal d1" style={{ marginBottom: "clamp(24px,3vw,44px)" }}>
-              <CityFilters search={search} />
-            </div>
-          )}
-          {search.status === "ready" && <CityRegions search={search} />}
-          {search.status === "error" && <p className="lede">The city list couldn't load just now — please refresh.</p>}
+          <Suspense fallback={<div style={{ minHeight: "60vh" }} />}>
+            <DestinationsCityList />
+          </Suspense>
         </div>
       </section>
 

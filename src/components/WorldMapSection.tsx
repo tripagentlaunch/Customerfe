@@ -1,6 +1,7 @@
 import WorldMap from "./WorldMap";
 import StickyWorldMap from "./StickyWorldMap";
 import styles from "./WorldMapSection.module.css";
+import { useScrollReveal } from "../lib/useScrollReveal";
 
 // The "Where we go" world-map section — heading, stats and the interactive
 // map — shared by the homepage (sticky scroll-cycling) and the Destinations
@@ -41,6 +42,9 @@ function Intro() {
 // The map runs full page width (not inside a `.wrap`) — `.band`/`.tight`
 // only add vertical padding, so a direct child already spans edge-to-edge.
 export default function WorldMapSection({ sticky = false }: { sticky?: boolean }) {
+  // Its own reveal pass: on /destinations it mounts after the page's (it
+  // loads on demand), so the page-level pass never saw its elements.
+  useScrollReveal([]);
   return (
     <section className="band tight">
       <div className={styles.worldMapWrap}>

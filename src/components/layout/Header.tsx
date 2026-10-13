@@ -33,8 +33,8 @@ export function Header() {
   const headerRef = useRef<HTMLElement>(null);
   const edgeRef = useRef<HTMLDivElement>(null);
 
-  // Auto-hiding header: peeks open on page load, then slides away; after
-  // that it only reappears on hover from the top edge (or while a mega
+  // Auto-hiding header: peeks open on page load; after that see the
+  // activity rules below (and it stays open while hovered or while a mega
   // menu / the mobile menu is open, so interacting with it never gets cut
   // off mid-use).
   const [initialPeek, setInitialPeek] = useState(true);
@@ -63,7 +63,50 @@ export function Header() {
     if (to instanceof Node && (headerRef.current?.contains(to) || edgeRef.current?.contains(to))) return;
     setHovering(false);
   };
-  const headerVisible = initialPeek || sidebarPeek || hovering || menuOpen || openRoom !== null;
+  // Shown whenever the visitor is doing something (2026-10-13, direct
+  // request — it used to come back only from the top 84px, so most people
+  // never found it and pages looked header-less): at the top of the page,
+  // on any mouse movement, and when scrolling up. It tucks away after a
+  // short idle, or on scrolling down, so it stays out of the way of reading.
+  const [atTop, setAtTop] = useState(true);
+  const [active, setActive] = useState(false);
+  useEffect(() => {
+    let idle = 0;
+    let lastY = window.scrollY;
+    let raf = 0;
+    const wake = () => {
+      setActive(true);
+      window.clearTimeout(idle);
+      idle = window.setTimeout(() => setActive(false), 2500);
+    };
+    const onScroll = () => {
+      if (raf) return;
+      raf = requestAnimationFrame(() => {
+        raf = 0;
+        const y = window.scrollY;
+        setAtTop(y < 80);
+        if (y < lastY - 4) wake();
+        else if (y > lastY + 4) {
+          window.clearTimeout(idle);
+          setActive(false);
+        }
+        lastY = y;
+      });
+    };
+    const onMove = (e: PointerEvent) => {
+      if (e.pointerType === "mouse") wake();
+    };
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    window.addEventListener("pointermove", onMove, { passive: true });
+    return () => {
+      window.removeEventListener("scroll", onScroll);
+      window.removeEventListener("pointermove", onMove);
+      window.clearTimeout(idle);
+      if (raf) cancelAnimationFrame(raf);
+    };
+  }, []);
+  const headerVisible = atTop || active || initialPeek || sidebarPeek || hovering || menuOpen || openRoom !== null;
 
   // A magic-link click can complete a Supabase session with no linked
   // site_members row (see auth.tsx's hydrate()) — that happens on a full

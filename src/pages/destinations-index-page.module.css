@@ -3,10 +3,13 @@
   linear-gradient(100deg,rgba(0,0,0,.72) 0%,rgba(0,0,0,.5) 30%,rgba(0,0,0,.16) 58%,transparent 76%),
   linear-gradient(180deg,rgba(0,0,0,.22) 0%,transparent 34%,transparent 60%,rgba(0,0,0,.46) 100%)}
 .hero-ix :global(.display){font-size:clamp(46px,7vw,94px);line-height:1.02;margin:0}
-.hero-ix .index-count{position:absolute;right:var(--gutter);bottom:38px;z-index:2;text-align:right;color:#fff;text-shadow:var(--shadow-dark);opacity:0;animation:ixRise 1.1s cubic-bezier(.22,.61,.36,1) .6s forwards}
+/* bottom clears the fixed Talk to Tara button (bottom-right, ~76px tall
+   with its offset) and the hero's own bottom edge; visible from the first
+   paint — it used to fade in late and sit clipped under that button
+   (2026-10-13). */
+.hero-ix .index-count{position:absolute;right:var(--gutter);bottom:clamp(104px,14vh,140px);z-index:2;text-align:right;color:#fff;text-shadow:var(--shadow-dark)}
 .hero-ix .index-count :global(.n){font-family:var(--logo);font-weight:500;font-size:clamp(54px,7vw,92px);line-height:.92}
 .hero-ix .index-count :global(.k){font-family:var(--fr);font-weight:600;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:rgba(255,255,255,.82);margin-top:4px}
-@keyframes ixRise{to{opacity:1}}
 @media(max-width:760px){.hero-ix .index-count{display:none}}
 .hero-ix :global(.hero-inner)>:global(.eyebrow):global(.on-dark){display:flex;flex-wrap:wrap;column-gap:.5ch;row-gap:6px;max-width:100%}
 @media(max-width:480px){.hero-ix :global(.hero-inner)>:global(.eyebrow):global(.on-dark){letter-spacing:.1em}}
