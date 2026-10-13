@@ -11,15 +11,16 @@ import { PrimaryInverseButton, SecondaryInverseButton } from "./buttons/InverseB
 import { withTaraAI } from "./TaraAI";
 import styles from "./HeroCarousel.module.css";
 
+// 720p web encodes (public/videos/homepage/web/, 2026-10-13) of the 1080p
+// originals beside them — the hero sits under a dark scrim, so 720p reads
+// the same at a fraction of the bytes. Each has a first-frame poster (.jpg)
+// so the hero is never blank while a video loads.
 const HERO_VIDEOS = [
-  "/videos/homepage/13707600_1920_1080_25fps.mp4",
-  "/videos/homepage/4383103-hd_1920_1080_30fps.mp4",
-  "/videos/homepage/20186335-hd_1920_1080_60fps.mp4",
-  "/videos/homepage/12612854_1920_1080_30fps.mp4",
-  "/videos/homepage/4135118-hd_1920_1080_30fps.mp4",
-  "/videos/homepage/7913483-hd_1920_1080_30fps.mp4",
-  "/videos/homepage/14573857_1080_1920_60fps.mp4",
-];
+  "13707600_1920_1080_25fps",
+  "4383103-hd_1920_1080_30fps",
+  "20186335-hd_1920_1080_60fps",
+  "12612854_1920_1080_30fps",
+].map((name) => ({ src: `/videos/homepage/web/${name}.mp4`, poster: `/videos/homepage/web/${name}.jpg` }));
 
 // Ported from index.html's own boot() script 1:1 — loop + fade cross-fade,
 // keyboard/a11y on, autoplay paused under reduced motion, hairline
@@ -59,6 +60,24 @@ export default function HeroCarousel({ slides }: { slides: HeroSlide[] }) {
       },
     });
 
+    // Only the slide on screen plays; the rest wait with preload="none"
+    // until their turn, so the first video doesn't share bandwidth with all
+    // the others on page load.
+    const playActive = () => {
+      el.querySelectorAll<HTMLVideoElement>("video").forEach((v) => {
+        const slide = v.closest(".swiper-slide");
+        if (slide?.classList.contains("swiper-slide-active") && !reduce) {
+          if (v.preload !== "auto") v.preload = "auto";
+          v.play().catch(() => {});
+        } else {
+          v.pause();
+        }
+      });
+    };
+    swiper.on("slideChange", playActive);
+    swiper.on("slideChangeTransitionStart", playActive);
+    playActive();
+
     return () => {
       swiper.destroy(true, true);
     };
@@ -83,11 +102,12 @@ export default function HeroCarousel({ slides }: { slides: HeroSlide[] }) {
                   since nothing re-renders this subtree afterward. Swiper
                   never touches a slide's children, only the slide/wrapper/
                   container elements' own style attributes. */}
-              <div className={styles.heroSlideBg}>
+              <div className={styles.heroSlideBg} style={{ backgroundImage: `url('${HERO_VIDEOS[i % HERO_VIDEOS.length].poster}')` }}>
                 <video
                   className={styles.heroSlideVideo}
-                  src={HERO_VIDEOS[i % HERO_VIDEOS.length]}
-                  autoPlay
+                  src={HERO_VIDEOS[i % HERO_VIDEOS.length].src}
+                  poster={HERO_VIDEOS[i % HERO_VIDEOS.length].poster}
+                  preload={i === 0 ? "auto" : "none"}
                   loop
                   muted
                   playsInline
