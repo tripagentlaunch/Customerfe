@@ -116,16 +116,26 @@ export default function ClaimPage() {
     const clean = code.toUpperCase().replace(/[^A-Z0-9]/g, "");
     const [res] = await Promise.all([
       (async (): Promise<RedeemResponse> => {
-        try {
-          const r = await fetch(`/invite/${encodeURIComponent(clean)}/redeem`, {
-            method: "POST",
-            credentials: "include",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({}),
-          });
-          return (await r.json()) as RedeemResponse;
-        } catch {
-          return { valid: false, error: "network" };
+        // The backend can be asleep or mid-deploy (2026-10-13): the request
+        // then fails outright or comes back 502-504, which used to read as
+        // a wrong code. Retried a few times; a retry after a redeem that did
+        // go through is safe — a claimed code signs its member back in.
+        const waits = [1500, 4000, 8000];
+        for (let attempt = 0; ; attempt++) {
+          try {
+            const r = await fetch(`/invite/${encodeURIComponent(clean)}/redeem`, {
+              method: "POST",
+              credentials: "include",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({}),
+            });
+            if (r.ok) return (await r.json()) as RedeemResponse;
+            if (r.status === 429) return { valid: false, error: "too_many" };
+            if (r.status < 502 || attempt >= waits.length) return { valid: false, error: "network" };
+          } catch {
+            if (attempt >= waits.length) return { valid: false, error: "network" };
+          }
+          await new Promise((w) => setTimeout(w, waits[attempt]));
         }
       })(),
       new Promise((r) => setTimeout(r, 700)),
@@ -183,6 +193,8 @@ export default function ClaimPage() {
         text: "This invitation has expired. Please reach us on WhatsApp or write to invite@tripagent.vip for a new one.",
         kind: "err",
       });
+    } else if (res.error === "too_many") {
+      setAnn({ text: "Too many tries just now. Please wait a few minutes and try again.", kind: "err" });
     } else if (res.error === "network") {
       setAnn({ text: "We could not reach the door just now. Please try again in a moment.", kind: "err" });
     } else {
