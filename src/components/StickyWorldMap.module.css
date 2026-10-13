@@ -37,27 +37,33 @@
 }
 
 /* Lets the viewer skip the sticky/region-cycling scroll experience — see
-   handleExitMap. Fixed (not tied to the map's own box) at the same bottom
-   offset as the site's theme toggle/advisor pill (.ta-theme/.ta-advisor,
-   both clamp(16px,2.5vw,30px) — see site.css), sitting a small gap to the
-   right of the theme toggle specifically (`left` set inline, measured off
-   its actual rendered position — see StickyWorldMap.tsx). */
+   handleExitMap. Sits on the map itself, bottom centre, clear of the
+   fixed theme toggle (bottom-left) and Tara button (bottom-right). */
 .exitMapButton {
-  position: fixed;
+  position: absolute;
   bottom: clamp(16px, 2.5vw, 30px);
-  z-index: 90;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 5;
   display: inline-flex;
   align-items: center;
   padding: 10px 18px;
-  border: none;
-  border-radius: 999px;
-  background: #6b4226;
-  color: #fff;
+  border: 1px solid var(--ink, #1a1714);
+  background: var(--paper, #fff);
+  color: var(--ink, #1a1714);
   font-family: var(--fr);
   font-weight: 600;
-  font-size: 12.5px;
-  letter-spacing: 0.04em;
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
   cursor: pointer;
+  box-shadow: 0 6px 18px -10px rgba(0, 0, 0, 0.35);
+  transition: background 0.3s var(--ease), color 0.3s var(--ease);
+}
+.exitMapButton:hover,
+.exitMapButton:focus-visible {
+  background: var(--ink, #1a1714);
+  color: var(--paper, #fff);
 }
 /* Label + icon scale together as one unit on hover — same treatment as the
    hero section's own CTAs (see HeroCarousel.module.css's .heroCtaLabel):
@@ -70,9 +76,7 @@
   transform: scale(1);
   transition: transform 0.4s var(--ease);
 }
-.exitMapButton:hover .exitMapLabel {
-  transform: scale(1.1);
-}
+
 .exitMapButton svg {
   flex: none;
 }

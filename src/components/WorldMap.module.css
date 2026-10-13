@@ -48,9 +48,6 @@
 .manualZoomGroup {
   transition: transform 0.5s var(--ease, ease);
 }
-.wrapGhost {
-  opacity: 0.01;
-}
 .background {
   fill: none;
   stroke: var(--stone);
