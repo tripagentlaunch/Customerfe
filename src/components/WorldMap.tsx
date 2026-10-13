@@ -69,17 +69,11 @@ const TAB_PAN_Y_BIAS: Record<string, number> = {
   india: 0.08,
 };
 
-// Oceania (far east) and North America (far west, once exclaves are
-// stripped — see splitMainlandAndExclaves below) sit close enough to the map's edge
-// that centering them can pan past where any content was ever drawn,
-// exposing blank canvas. Rather than fight that with padding math (every
-// attempt either broke centering or spiralled — see the conversation this
-// was built from), this draws a genuine wrapped duplicate of the whole
-// map shifted a full VIEW_W to either side — geographically correct,
-// since the map really does wrap at the antimeridian — so panning into
-// that space reveals real content instead of nothing. The scale/centering
-// formulas below are completely unchanged by this; it's purely extra
-// rendering plus a wider viewBox to show it.
+// Room either side of the map in the viewBox, so centering Oceania (far
+// east) or North America (far west) has canvas to pan into. It stays empty:
+// the map used to draw wrapped duplicates of the whole world here, which
+// showed continents repeating at the edges of region views (removed
+// 2026-10-13, direct request).
 const WRAP_BUFFER = 350;
 // The <svg>'s declared viewBox width (what actually maps 1:1 to the
 // container's physical width — see the visibleViewH comment below), i.e.
@@ -893,9 +887,7 @@ export default function WorldMap({
       const cy = (b.y0 + b.y1) / 2;
       // Always dead-centered, even for a region near the edge of the world
       // (Oceania, at the far right; North America, at the far left) — no
-      // clamping. This is unchanged from before; what's different is that
-      // WRAP_BUFFER + the duplicated <g>s below now give these two
-      // something real to pan into instead of blank canvas.
+      // clamping; WRAP_BUFFER gives these two empty canvas to pan into.
       const tx = VIEW_W / 2 - cx * scale;
       const ty = visibleViewH / 2 - cy * scale + (TAB_PAN_Y_BIAS[key] ?? 0) * visibleViewH;
       transforms[key] = `translate(${tx} ${ty}) scale(${scale})`;
@@ -1413,21 +1405,7 @@ export default function WorldMap({
             transform={`translate(${VIEW_W / 2} ${viewH / 2}) scale(${manualZoom}) translate(${-VIEW_W / 2} ${-viewH / 2})`}
           >
             <g className={styles.zoomGroup} transform={activeTransform}>
-              <g
-                transform={`translate(${-VIEW_W} 0)`}
-                aria-hidden="true"
-                className={isZoomedIn ? undefined : styles.wrapGhost}
-              >
-                {mapBody}
-              </g>
               {mapBody}
-              <g
-                transform={`translate(${VIEW_W} 0)`}
-                aria-hidden="true"
-                className={isZoomedIn ? undefined : styles.wrapGhost}
-              >
-                {mapBody}
-              </g>
             </g>
           </g>
         </svg>

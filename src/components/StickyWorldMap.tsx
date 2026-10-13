@@ -171,22 +171,6 @@ export default function StickyWorldMap({ children }: { children?: ReactNode }) {
     setReleased(true);
   };
 
-  // Fixed alongside the site's own theme toggle (.ta-theme, a separate
-  // always-on-screen element this component doesn't render) — same bottom
-  // offset, positioned a small gap to its right. Measured off its actual
-  // rendered position rather than a guessed pixel offset, so it stays
-  // correctly placed if that button's own width ever changes.
-  const [exitBtnLeft, setExitBtnLeft] = useState<number | null>(null);
-  useEffect(() => {
-    const measure = () => {
-      const themeEl = document.querySelector<HTMLElement>(".ta-theme");
-      if (themeEl) setExitBtnLeft(themeEl.getBoundingClientRect().right + 12);
-    };
-    measure();
-    window.addEventListener("resize", measure);
-    return () => window.removeEventListener("resize", measure);
-  }, []);
-
   // Fires once, the instant `released` flips true — synchronously, before
   // the browser paints the collapsed layout, so this correction is never
   // visible as a separate jump. Collapsing the tall wrapper down to the
@@ -201,9 +185,17 @@ export default function StickyWorldMap({ children }: { children?: ReactNode }) {
   // ms instead of applying before paint, turning the fix into exactly the
   // "shorten then visibly scroll back" jump it exists to prevent.
   useLayoutEffect(() => {
-    if (released && frozen && frozen.consumed > 0) {
+    if (!released || !frozen) return;
+    if (frozen.consumed > 0) {
       window.scrollBy({ top: -frozen.consumed, behavior: "instant" });
     }
+    // Then carry on past the map to the next section — "Exit Map" should
+    // leave the map, not leave the visitor parked on it (2026-10-13).
+    const raf = requestAnimationFrame(() => {
+      const el = wrapRef.current;
+      if (el) window.scrollBy({ top: el.getBoundingClientRect().bottom, behavior: "smooth" });
+    });
+    return () => cancelAnimationFrame(raf);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [released]);
 
@@ -242,19 +234,12 @@ export default function StickyWorldMap({ children }: { children?: ReactNode }) {
         }
       >
         {children}
-        {/* Only while actually pinned — before that, scrolling already
-            works normally; once released (whether by finishing the cycle or
-            by this button), there's nothing left to exit. Fixed (not
-            absolute within .sticky) since it sits alongside the theme
-            toggle at the very bottom of the viewport, not anchored to the
-            map itself. */}
-        {!isReleased && stuck && exitBtnLeft !== null && (
-          <button
-            type="button"
-            className={styles.exitMapButton}
-            style={{ left: exitBtnLeft }}
-            onClick={handleExitMap}
-          >
+        {/* Only while the map is pinned and cycling. Part of the map itself
+            (absolute within .sticky), not fixed to the window — it used to
+            sit beside the theme toggle and read as a site-wide control
+            stuck on screen (2026-10-13). */}
+        {!isReleased && stuck && (
+          <button type="button" className={styles.exitMapButton} onClick={handleExitMap}>
             <span className={styles.exitMapLabel}>
               <svg viewBox="0 0 16 16" width="12" height="12" aria-hidden="true">
                 <path
@@ -265,7 +250,7 @@ export default function StickyWorldMap({ children }: { children?: ReactNode }) {
                   fill="none"
                 />
               </svg>
-              Exit Map
+              Exit map
             </span>
           </button>
         )}
