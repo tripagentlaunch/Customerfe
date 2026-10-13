@@ -20,6 +20,7 @@ import { useScrollReveal } from "../lib/useScrollReveal";
 import { toRoute } from "../lib/toRoute";
 import { withTaraAI } from "../components/TaraAI";
 import "./health-page.module.css";
+import NotFoundPage from "./NotFoundPage";
 
 const HEALTH = health as unknown as Record<string, HealthData>;
 
@@ -560,11 +561,7 @@ export default function HealthPage() {
   useScrollReveal([data]);
 
   if (!data) {
-    return (
-      <div className="wrap band">
-        <p>Not yet ported to the app.</p>
-      </div>
-    );
+    return <NotFoundPage />;
   }
 
   return (

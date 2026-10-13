@@ -5,6 +5,7 @@ import type { DestBlock, DestinationData, DestGuidePanel } from "../types/destin
 import { useScrollReveal } from "../lib/useScrollReveal";
 import { toRoute } from "../lib/toRoute";
 import { PrimaryInverseButton, SecondaryInverseButton } from "../components/buttons/InverseButtons";
+import NotFoundPage from "./NotFoundPage";
 
 const DESTINATIONS = destinations as unknown as Record<string, DestinationData>;
 
@@ -374,11 +375,7 @@ export default function DestinationPage() {
   useScrollReveal([data]);
 
   if (!data) {
-    return (
-      <div className="wrap band">
-        <p>Not yet ported to the app.</p>
-      </div>
-    );
+    return <NotFoundPage />;
   }
 
   const hero = data.blocks.find((b) => b.type === "hero") as Extract<DestBlock, { type: "hero" }> | undefined;

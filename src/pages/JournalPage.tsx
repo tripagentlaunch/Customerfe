@@ -6,6 +6,7 @@ import { useScrollReveal } from "../lib/useScrollReveal";
 import { toRoute } from "../lib/toRoute";
 import { PrimaryInverseButton, SecondaryInverseButton } from "../components/buttons/InverseButtons";
 import styles from "./journal-page.module.css";
+import NotFoundPage from "./NotFoundPage";
 
 const JOURNAL = journal as unknown as Record<string, JournalData>;
 
@@ -47,11 +48,7 @@ export default function JournalPage() {
   useScrollReveal([data]);
 
   if (!data) {
-    return (
-      <div className="wrap band">
-        <p>Not yet ported to the app.</p>
-      </div>
-    );
+    return <NotFoundPage />;
   }
 
   const { hero, prose, miniQuote, closing } = data;

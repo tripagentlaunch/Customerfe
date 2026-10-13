@@ -40,6 +40,7 @@ import { useEngineGuide } from "../hooks/useEngineGuide";
 import { withBestWindow } from "../lib/bestMonths";
 import { ORIGINS, flightTimes, hoursLabel, useOrigin, type FlightFrom } from "../lib/origin";
 import CityPageLoader, { useCityPageReady } from "../components/CityPageLoader";
+import NotFoundPage from "./NotFoundPage";
 
 const CITIES = cities as unknown as Record<string, CityData>;
 
@@ -696,11 +697,7 @@ export default function CityPage() {
   if (!city) {
     // Not a city-*.html slug (or an unrecognised one) — other page-template
     // groups aren't ported yet; later phases replace this fallback.
-    return (
-      <div className="wrap band">
-        <p>Not yet ported to the app.</p>
-      </div>
-    );
+    return <NotFoundPage />;
   }
 
   const { hero, ourTake, firstLook, whenToGo, guide, plan, neighbourhoods, goodToKnow, closing } =

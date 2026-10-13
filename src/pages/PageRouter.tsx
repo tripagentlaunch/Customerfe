@@ -324,9 +324,5 @@ export default function PageRouter() {
   // exact slug), so "visa-" here is only the country guides.
   if (pageSlug?.startsWith("visa-")) return <VisaPage />;
 
-  return (
-    <div className="wrap band">
-      <p>Not yet ported to the app.</p>
-    </div>
-  );
+  return <NotFoundPage />;
 }
