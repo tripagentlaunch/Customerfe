@@ -1,73 +1,51 @@
 /* border-radius !important: site.css forces sharp corners everywhere; map
    pins and badges are the deliberate exception. */
 .cluster {
-  position: relative;
-  width: 52px;
-  height: 44px;
-  padding: 0;
-  border: none;
-  background: none;
-  cursor: pointer;
-}
-
-.disc {
-  position: absolute;
-  border-radius: 50% !important;
-  border: 2px solid #fff;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.35);
-  transition: transform 0.25s ease;
-}
-
-/* Left and right circles sit behind; the middle one is stacked over both. */
-.left,
-.right {
-  width: 30px;
-  height: 30px;
-  top: 11px;
-  background: #8b8578;
-}
-
-.left {
-  left: 0;
-}
-
-.right {
-  right: 0;
-}
-
-.mid {
-  left: 6px;
-  top: 2px;
-  width: 40px;
-  height: 40px;
-  background: var(--ink, #1c1917);
-  color: #fff;
-  font-family: var(--fr);
-  font-weight: 700;
-  font-size: 15px;
-  line-height: 1;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 0;
+  border-radius: 50% !important;
+  border: 1.5px solid var(--signature, #6e2a38);
+  background: #fff;
+  color: var(--signature, #6e2a38);
+  font-family: var(--fr);
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0.01em;
+  cursor: pointer;
+  /* The halo says "several places here" without stacking extra discs. */
+  box-shadow: 0 0 0 5px rgba(110, 42, 56, 0.14), 0 2px 6px rgba(0, 0, 0, 0.18);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease, color 0.25s ease;
 }
 
-.cluster:hover .mid,
-.cluster:focus-visible .mid {
-  transform: scale(1.12);
+.sm {
+  width: 28px;
+  height: 28px;
+  font-size: 12px;
 }
 
-/* On hover the circles behind slide outwards, fanning the stack open. */
-.cluster:hover .left,
-.cluster:focus-visible .left {
-  transform: translateX(-7px);
+.md {
+  width: 32px;
+  height: 32px;
+  font-size: 13px;
 }
 
-.cluster:hover .right,
-.cluster:focus-visible .right {
-  transform: translateX(7px);
+.lg {
+  width: 36px;
+  height: 36px;
+  font-size: 12.5px;
+}
+
+.cluster:hover,
+.cluster:focus-visible {
+  background: var(--signature, #6e2a38);
+  color: #fff;
+  transform: scale(1.08);
+  box-shadow: 0 0 0 7px rgba(110, 42, 56, 0.18), 0 3px 8px rgba(0, 0, 0, 0.22);
 }
 
 .cluster:focus-visible {
   outline: 2px solid var(--accent-2, #6e2a38);
-  outline-offset: 2px;
+  outline-offset: 4px;
 }
