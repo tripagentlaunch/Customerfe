@@ -5,6 +5,7 @@ import type { VisaData, VisaLines } from "../types/visa";
 import { useScrollReveal } from "../lib/useScrollReveal";
 import { toRoute } from "../lib/toRoute";
 import styles from "./visa-page.module.css";
+import NotFoundPage from "./NotFoundPage";
 
 const VISAS = visas as unknown as Record<string, VisaData>;
 
@@ -32,11 +33,7 @@ export default function VisaPage() {
   useScrollReveal([data]);
 
   if (!data) {
-    return (
-      <div className="wrap band">
-        <p>Not yet ported to the app.</p>
-      </div>
-    );
+    return <NotFoundPage />;
   }
 
   const { hero, facts, what, docs, process, pitfalls, signature, how, faq, closing } = data;

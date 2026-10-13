@@ -10,6 +10,7 @@ import { toRoute } from "../lib/toRoute";
 // not like two different templates that happen to sit next to each other.
 import cityStyles from "./city-page.module.css";
 import styles from "./zone-page.module.css";
+import NotFoundPage from "./NotFoundPage";
 
 const ZONES = zones as unknown as Record<string, ZoneData>;
 const CITIES = cities as unknown as Record<string, CityData>;
@@ -26,11 +27,7 @@ export default function ZonePage() {
   useScrollReveal([zone]);
 
   if (!zone) {
-    return (
-      <div className="wrap band">
-        <p>Not yet ported to the app.</p>
-      </div>
-    );
+    return <NotFoundPage />;
   }
 
   const { hero, intro, cities: memberSlugs } = zone;

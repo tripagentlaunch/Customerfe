@@ -6,6 +6,7 @@ import { useScrollReveal } from "../lib/useScrollReveal";
 import { toRoute } from "../lib/toRoute";
 import { PrimaryInverseButton, SecondaryInverseButton } from "../components/buttons/InverseButtons";
 import styles from "./goin-page.module.css";
+import NotFoundPage from "./NotFoundPage";
 
 const GOIN = goin as unknown as Record<string, GoInData>;
 
@@ -33,11 +34,7 @@ export default function GoInPage() {
   useScrollReveal([data]);
 
   if (!data) {
-    return (
-      <div className="wrap band">
-        <p>Not yet ported to the app.</p>
-      </div>
-    );
+    return <NotFoundPage />;
   }
 
   const { hero, intro, where, avoid, indianAngle, signature, flightsVisas, monthNav, closing } = data;

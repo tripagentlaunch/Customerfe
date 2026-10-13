@@ -6,6 +6,7 @@ import { useScrollReveal } from "../lib/useScrollReveal";
 import { toRoute } from "../lib/toRoute";
 import { PrimaryInverseButton, SecondaryInverseButton } from "../components/buttons/InverseButtons";
 import styles from "./route-page.module.css";
+import NotFoundPage from "./NotFoundPage";
 
 const ROUTES = routes as unknown as Record<string, RouteData>;
 
@@ -20,11 +21,7 @@ export default function RoutePage() {
   useScrollReveal([data]);
 
   if (!data) {
-    return (
-      <div className="wrap band">
-        <p>Not yet ported to the app.</p>
-      </div>
-    );
+    return <NotFoundPage />;
   }
 
   const { hero, facts, intro, list, connection, signature, traps, secure, whenToBook, closing } = data;

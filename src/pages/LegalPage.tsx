@@ -5,6 +5,7 @@ import type { LegalData, LegalNode } from "../types/legal";
 import { useScrollReveal } from "../lib/useScrollReveal";
 import { useNavVariant } from "../lib/navVariant";
 import styles from "./legal-page.module.css";
+import NotFoundPage from "./NotFoundPage";
 
 const LEGAL = legal as unknown as Record<string, LegalData>;
 
@@ -42,11 +43,7 @@ export default function LegalPage() {
   useScrollReveal([data]);
 
   if (!data) {
-    return (
-      <div className="wrap band">
-        <p>Not yet ported to the app.</p>
-      </div>
-    );
+    return <NotFoundPage />;
   }
 
   const { hero, nodes, note } = data;

@@ -5,6 +5,7 @@ import type { BrowseData } from "../types/browse";
 import { useScrollReveal } from "../lib/useScrollReveal";
 import { toRoute } from "../lib/toRoute";
 import styles from "./browse-page.module.css";
+import NotFoundPage from "./NotFoundPage";
 
 const BROWSE = browse as unknown as Record<string, BrowseData>;
 
@@ -19,11 +20,7 @@ export default function BrowsePage() {
   useScrollReveal([data]);
 
   if (!data) {
-    return (
-      <div className="wrap band">
-        <p>Not yet ported to the app.</p>
-      </div>
-    );
+    return <NotFoundPage />;
   }
 
   const { hero, cards } = data;

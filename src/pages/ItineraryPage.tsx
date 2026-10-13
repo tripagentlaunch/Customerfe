@@ -6,6 +6,7 @@ import { useScrollReveal } from "../lib/useScrollReveal";
 import { toRoute } from "../lib/toRoute";
 import { withTaraAI } from "../components/TaraAI";
 import styles from "./itinerary-page.module.css";
+import NotFoundPage from "./NotFoundPage";
 
 const ITINERARIES = itineraries as unknown as Record<string, ItineraryData>;
 
@@ -20,11 +21,7 @@ export default function ItineraryPage() {
   useScrollReveal([data]);
 
   if (!data) {
-    return (
-      <div className="wrap band">
-        <p>Not yet ported to the app.</p>
-      </div>
-    );
+    return <NotFoundPage />;
   }
 
   const { hero, legs, note, cta } = data;
