@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import searchData from "../data/search.generated.json";
 import type { SearchPageData } from "../types/search";
 import { useNavVariant } from "../lib/navVariant";
-import { toRoute } from "../lib/toRoute";
-import { KIND_LABEL, RESULT_GROUPS, loadSearchIndex, matches, type SearchEntry } from "../lib/searchIndex";
+import { RESULT_GROUPS, loadSearchIndex, matches, type SearchEntry } from "../lib/searchIndex";
+import SearchResultRow from "../components/SearchResultRow";
 
 const data = searchData as unknown as SearchPageData;
 
@@ -16,40 +16,6 @@ const data = searchData as unknown as SearchPageData;
 // deferred, per the approved plan. Results update live as you type (the
 // source only did this for the header autocomplete, not this page — a
 // strict improvement, not a fidelity gap).
-function citySlug(e: SearchEntry): string | null {
-  if (e.u.indexOf("city-") === 0) return e.u.slice(5).replace(".html", "").replace(/[#?].*$/, "");
-  return null;
-}
-
-function truncate(d: string, max: number): string {
-  return d.length > max ? d.slice(0, max - 2).replace(/\s+\S*$/, "") + "…" : d;
-}
-
-function ResultRow({ entry }: { entry: SearchEntry }) {
-  const slug = citySlug(entry);
-  return (
-    <div className="sp-row">
-      <Link className="sp-row-main" to={toRoute(entry.u)}>
-        {slug ? (
-          <span className="sp-th" style={{ backgroundImage: `url('/_vercel/image?url=%2Fimg%2Fcities%2F${slug}.jpg&w=96&q=70')` }} />
-        ) : (
-          <span className="sp-th sp-th-ph">{(entry.t || "?").charAt(0)}</span>
-        )}
-        <span className="sp-row-tw">
-          <span className="sp-row-top">
-            <span className="sp-row-t">{entry.t}</span>
-            <span className="sp-row-k">
-              {KIND_LABEL[entry.k] || entry.k}
-              {entry.city && <> <em>{entry.city}</em></>}
-            </span>
-          </span>
-          {entry.d && <span className="sp-row-d">{truncate(entry.d, 128)}</span>}
-        </span>
-      </Link>
-    </div>
-  );
-}
-
 export default function SearchPage() {
   useNavVariant("solid");
   const [query, setQuery] = useState(() => {
@@ -143,7 +109,7 @@ export default function SearchPage() {
                     </h2>
                     <div className="sp-rows">
                       {items.map((e, i) => (
-                        <ResultRow entry={e} key={e.u + i} />
+                        <SearchResultRow entry={e} key={e.u + i} />
                       ))}
                     </div>
                   </section>

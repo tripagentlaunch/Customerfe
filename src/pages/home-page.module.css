@@ -94,6 +94,64 @@
   font-style: italic;
   color: var(--stone);
 }
+.discSearch:focus-within {
+  border-color: var(--signature);
+  background: var(--paper);
+}
+/* The styled label sits behind the input as its placeholder while empty. */
+.dsField {
+  position: relative;
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+}
+.dsField .dsLabel {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  pointer-events: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.dsInput {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  padding: 0;
+  font-family: var(--logo);
+  font-weight: 400;
+  font-size: clamp(18px, 1.9vw, 24px);
+  color: var(--ink);
+  letter-spacing: 0.005em;
+}
+.dsInput:focus,
+.dsInput:focus-visible {
+  outline: none;
+  box-shadow: none;
+}
+.dsInput::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  appearance: none;
+}
+.dsResults {
+  border: 1px solid var(--line);
+  border-top: 0;
+  background: var(--paper);
+  padding: 4px clamp(22px, 2.2vw, 30px) 18px;
+}
+.dsAll {
+  display: inline-block;
+  margin-top: 16px;
+  font-family: var(--fr);
+  font-size: 14px;
+  color: var(--signature);
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+}
 
 .discPaths {
   display: flex;
@@ -210,6 +268,12 @@
   }
   .dsLabel :global(em) {
     display: none;
+  }
+  .dsInput {
+    font-size: 17px;
+  }
+  .dsResults {
+    padding: 0 18px 14px;
   }
   .discRec {
     flex-wrap: wrap;

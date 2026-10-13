@@ -6,6 +6,7 @@ import { useScrollReveal } from "../lib/useScrollReveal";
 import { toRoute } from "../lib/toRoute";
 import HeroCarousel from "../components/HeroCarousel";
 import DestinationPlanner from "../components/DestinationPlanner";
+import HomeSearch from "../components/HomeSearch";
 import WorldMapSection from "../components/WorldMapSection";
 import HowItWorksTabs from "../components/HowItWorksTabs";
 import { PrimaryInverseButton } from "../components/buttons/InverseButtons";
@@ -141,16 +142,7 @@ export default function HomePage() {
             <p className={`${styles.discSub} reveal`}>{discover.sub}</p>
           </div>
 
-          {/* index.html's own search affordance opens a site-wide ⌘K palette
-              (js/site.js) that isn't ported into this app — routes to the
-              real (if shell-only) /search page instead of a dead trigger. */}
-          <Link className={`${styles.discSearch} reveal d1`} to="/search" aria-label="Search a place, a hotel, or a city">
-            <svg className={styles.dsIc} width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5}>
-              <circle cx="11" cy="11" r="7" />
-              <line x1="20.5" y1="20.5" x2="16.5" y2="16.5" />
-            </svg>
-            <span className={styles.dsLabel} dangerouslySetInnerHTML={{ __html: discover.searchLabelHtml ?? "" }} />
-          </Link>
+          <HomeSearch labelHtml={discover.searchLabelHtml ?? ""} />
 
           {/* Moved here from its own former "DECIDE" section (which only
               ever held this card grid — no longer rendered separately) so
