@@ -1,0 +1,56 @@
+.sk {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 720px;
+  padding-top: clamp(24px, 4vw, 56px);
+  min-height: 60vh;
+}
+
+.bar {
+  display: block;
+  height: 14px;
+  background: linear-gradient(90deg, var(--line-soft, #eeebe6) 0%, var(--paper-2, #f7f5f2) 50%, var(--line-soft, #eeebe6) 100%);
+  background-size: 200% 100%;
+  animation: skShimmer 1.4s ease-in-out infinite;
+}
+
+.eyebrow {
+  width: 90px;
+  height: 10px;
+  margin-bottom: 8px;
+}
+
+.title {
+  width: 70%;
+  height: 44px;
+}
+
+.title2 {
+  width: 45%;
+  height: 44px;
+  margin-bottom: 12px;
+}
+
+.line {
+  width: 100%;
+}
+
+.short {
+  width: 60%;
+}
+
+@keyframes skShimmer {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: -100% 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bar {
+    animation: none;
+  }
+}

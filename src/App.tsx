@@ -1,8 +1,10 @@
+import { Suspense } from "react";
 import { Route, Routes } from "react-router-dom";
 import { Layout } from "./components/layout/Layout";
 import { AuthProvider } from "./lib/auth";
 import { ThemeProvider } from "./lib/theme";
 import PageRouter from "./pages/PageRouter";
+import PageSkeleton from "./components/PageSkeleton";
 import DesignInspector from "./components/DesignInspector";
 
 // AuthProvider is mounted here because Header.tsx calls useAuth()
@@ -26,8 +28,8 @@ export default function App() {
       <AuthProvider>
         <Routes>
           <Route element={<Layout />}>
-            <Route index element={<PageRouter />} />
-            <Route path=":pageSlug" element={<PageRouter />} />
+            <Route index element={<Suspense fallback={<PageSkeleton />}><PageRouter /></Suspense>} />
+            <Route path=":pageSlug" element={<Suspense fallback={<PageSkeleton />}><PageRouter /></Suspense>} />
           </Route>
         </Routes>
       </AuthProvider>
