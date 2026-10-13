@@ -46,6 +46,8 @@
   position: absolute;
   inset: 0;
   z-index: 0;
+  background-color: #2a2622;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -287,11 +289,16 @@
   font-size: 15px;
   font-weight: 700;
 }
+/* Both arrows stacked on the right edge — the copy is left-aligned, so a
+   left arrow ran into the headline on narrower desktops (2026-10-13). */
 .heroEd :global(.swiper-button-prev) {
-  left: clamp(12px, 2.4vw, 28px);
+  left: auto;
+  right: clamp(12px, 2.4vw, 28px);
+  top: calc(50% - 30px);
 }
 .heroEd :global(.swiper-button-next) {
   right: clamp(12px, 2.4vw, 28px);
+  top: calc(50% + 30px);
 }
 
 @media (max-width: 980px) {
