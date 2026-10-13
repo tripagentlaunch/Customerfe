@@ -12565,10 +12565,10 @@
     "seo": {
       "title": "Bangkok — TripAgent",
       "description": "Bangkok, in hand: where to stay, what to do, where to eat and where the night goes — the addresses worth knowing.",
-      "ogImage": "https://tripagent-site.vercel.app/img/cities/bangkok.jpg"
+      "ogImage": "https://tripagent-site.vercel.app/img/cities/bangkok-v2.jpg"
     },
     "hero": {
-      "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fbangkok.jpg&w=2560&q=80",
+      "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fbangkok-v2.jpg&w=2560&q=80",
       "breadcrumbCountry": {
         "label": "Thailand",
         "href": "destination-thailand.html"
@@ -12612,15 +12612,15 @@
       "skipIf": "You want quiet and calm; Bangkok is loud, dense and always in motion."
     },
     "firstLook": {
-      "heroImage": "/_vercel/image?url=%2Fimg%2Fcities%2Fbangkok.jpg&w=2048&q=80",
+      "heroImage": "/_vercel/image?url=%2Fimg%2Fcities%2Fbangkok-v2.jpg&w=2048&q=80",
       "heroCaption": "Grand Palace golden spires and white temple courtyard",
       "grid": [
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fbangkok.jpg&w=1280&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fbangkok-v2.jpg&w=1280&q=80",
           "caption": "purple allium blooms in soft focus"
         },
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fbangkok.jpg&w=1280&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fbangkok-v2.jpg&w=1280&q=80",
           "caption": "Leopard resting on rock beside tree trunk"
         }
       ]
@@ -13802,22 +13802,22 @@
       "heading": "The things worth the journey.",
       "items": [
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fbangkok.jpg&w=900&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fbangkok-v2.jpg&w=900&q=80",
           "title": "Private long-tail boat through the Thonburi canals",
           "description": "A dawn run along the old klongs and past the riverside temples, seeing the city from the water it grew around."
         },
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fbangkok.jpg&w=900&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fbangkok-v2.jpg&w=900&q=80",
           "title": "Chef's table at a Bangkok Michelin kitchen",
           "description": "The city's fine-dining scene rivals any in Asia; a tasting counter at the top rooms is worth booking well ahead."
         },
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fbangkok.jpg&w=900&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fbangkok-v2.jpg&w=900&q=80",
           "title": "Private after-hours visit to a temple or palace",
           "description": "Wat Pho or a royal site walked with a guide in the quiet before or after public hours."
         },
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fbangkok.jpg&w=900&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fbangkok-v2.jpg&w=900&q=80",
           "title": "Sunset cocktails on a private rooftop terrace",
           "description": "The sky bars are famous, but a reserved corner at the right one, above the river, is the version worth having."
         }
@@ -23367,10 +23367,10 @@
     "seo": {
       "title": "Chennai — TripAgent",
       "description": "Chennai, in hand: where to stay, what to do, where to eat and where the night goes — the addresses worth knowing.",
-      "ogImage": "https://tripagent-site.vercel.app/img/cities/chennai.jpg"
+      "ogImage": "https://tripagent-site.vercel.app/img/cities/chennai-v2.jpg"
     },
     "hero": {
-      "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fchennai.jpg&w=2560&q=80",
+      "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fchennai-v2.jpg&w=2560&q=80",
       "breadcrumbCountry": null,
       "name": "Chennai",
       "tagline": "Temple gateways, Carnatic music and a long Bay of Bengal shore.",
@@ -23411,15 +23411,15 @@
       "skipIf": "You are after a resort holiday or nightlife; this is a working city, best for its heritage and its food."
     },
     "firstLook": {
-      "heroImage": "/_vercel/image?url=%2Fimg%2Fcities%2Fchennai.jpg&w=2048&q=80",
+      "heroImage": "/_vercel/image?url=%2Fimg%2Fcities%2Fchennai-v2.jpg&w=2048&q=80",
       "heroCaption": "Modern pool villa with palms and umbrella",
       "grid": [
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fchennai.jpg&w=1280&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fchennai-v2.jpg&w=1280&q=80",
           "caption": "purple allium blooms in soft focus"
         },
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fchennai.jpg&w=1280&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fchennai-v2.jpg&w=1280&q=80",
           "caption": "Leopard resting on rock beside tree trunk"
         }
       ]
@@ -24134,22 +24134,22 @@
       "heading": "The things worth the journey.",
       "items": [
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fchennai.jpg&w=900&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fchennai-v2.jpg&w=900&q=80",
           "title": "Dawn at Kapaleeshwarar Temple, Mylapore",
           "description": "The great Dravidian temple in the early morning ritual hour, with a guide to the iconography and the tank."
         },
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fchennai.jpg&w=900&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fchennai-v2.jpg&w=900&q=80",
           "title": "Private Carnatic music or Bharatanatyam recital",
           "description": "An intimate performance of South India's classical music or dance in a heritage setting."
         },
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fchennai.jpg&w=900&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fchennai-v2.jpg&w=900&q=80",
           "title": "Day to the Mahabalipuram shore temples",
           "description": "The UNESCO-listed Pallava rock-cut monuments by the sea, best at dawn before the day-trippers."
         },
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fchennai.jpg&w=900&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fchennai-v2.jpg&w=900&q=80",
           "title": "Chettinad and Tamil culinary table",
           "description": "A curated meal of the region's layered, spice-forward cooking, from a specialist kitchen or private chef."
         }
@@ -40346,10 +40346,10 @@
     "seo": {
       "title": "Hanoi — TripAgent",
       "description": "Hanoi, in hand: where to stay, what to do, where to eat and where the night goes — the addresses worth knowing.",
-      "ogImage": "https://tripagent-site.vercel.app/img/cities/hanoi.jpg"
+      "ogImage": "https://tripagent-site.vercel.app/img/cities/hanoi-v2.jpg"
     },
     "hero": {
-      "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fhanoi.jpg&w=2560&q=80",
+      "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fhanoi-v2.jpg&w=2560&q=80",
       "breadcrumbCountry": {
         "label": "Vietnam",
         "href": "destination-vietnam.html"
@@ -40393,15 +40393,15 @@
       "skipIf": "You want beaches and resorts; Hanoi is a city of culture, not a place to lie still."
     },
     "firstLook": {
-      "heroImage": "/_vercel/image?url=%2Fimg%2Fcities%2Fhanoi.jpg&w=2048&q=80",
+      "heroImage": "/_vercel/image?url=%2Fimg%2Fcities%2Fhanoi-v2.jpg&w=2048&q=80",
       "heroCaption": "Modern pool villa with palms and umbrella",
       "grid": [
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fhanoi.jpg&w=1280&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fhanoi-v2.jpg&w=1280&q=80",
           "caption": "purple allium blooms in soft focus"
         },
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fhanoi.jpg&w=1280&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fhanoi-v2.jpg&w=1280&q=80",
           "caption": "Leopard resting on rock beside tree trunk"
         }
       ]
@@ -41126,22 +41126,22 @@
       "heading": "The things worth the journey.",
       "items": [
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fhanoi.jpg&w=900&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fhanoi-v2.jpg&w=900&q=80",
           "title": "Private seaplane transfer to Ha Long Bay",
           "description": "A 45-minute Hai Au seaplane flight from Hanoi lands you on the water at Ha Long, turning a four-hour road slog into an aerial reading of the karst-studded gulf."
         },
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fhanoi.jpg&w=900&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fhanoi-v2.jpg&w=900&q=80",
           "title": "After-hours dinner at a restored French villa",
           "description": "Chefs at addresses like La Badiane and Home Hanoi open private dining rooms in colonial villas for tasting menus that trace northern Vietnamese cooking away from the crowds."
         },
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fhanoi.jpg&w=900&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fhanoi-v2.jpg&w=900&q=80",
           "title": "Dawn on Hoan Kiem Lake before the city wakes",
           "description": "Arrive at first light to have the red Huc Bridge and Ngoc Son Temple to yourself as the neighbourhood's tai chi and badminton games unfold along the water."
         },
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fhanoi.jpg&w=900&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fhanoi-v2.jpg&w=900&q=80",
           "title": "Private overnight junk in a quiet Bai Tu Long corner",
           "description": "Charter a small wooden junk into Bai Tu Long, the emptier arm of the bay, for kayaking through hidden lagoons and a night at anchor far from the day-tripper fleet."
         }
@@ -41420,10 +41420,10 @@
     "seo": {
       "title": "Ho Chi Minh City — TripAgent",
       "description": "Ho Chi Minh City, in hand: where to stay, what to do, where to eat and where the night goes — the addresses worth knowing.",
-      "ogImage": "https://tripagent-site.vercel.app/img/cities/ho-chi-minh-city.jpg"
+      "ogImage": "https://tripagent-site.vercel.app/img/cities/ho-chi-minh-city-v2.jpg"
     },
     "hero": {
-      "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fho-chi-minh-city.jpg&w=2560&q=80",
+      "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fho-chi-minh-city-v2.jpg&w=2560&q=80",
       "breadcrumbCountry": {
         "label": "Vietnam",
         "href": "destination-vietnam.html"
@@ -41467,15 +41467,15 @@
       "skipIf": "You want calm and space; the city is fast, dense and relentless in its traffic."
     },
     "firstLook": {
-      "heroImage": "/_vercel/image?url=%2Fimg%2Fcities%2Fho-chi-minh-city.jpg&w=2048&q=80",
+      "heroImage": "/_vercel/image?url=%2Fimg%2Fcities%2Fho-chi-minh-city-v2.jpg&w=2048&q=80",
       "heroCaption": "Colonial People's Committee building under blue sky",
       "grid": [
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fho-chi-minh-city.jpg&w=1280&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fho-chi-minh-city-v2.jpg&w=1280&q=80",
           "caption": "purple allium blooms in soft focus"
         },
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fho-chi-minh-city.jpg&w=1280&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fho-chi-minh-city-v2.jpg&w=1280&q=80",
           "caption": "Leopard resting on rock beside tree trunk"
         }
       ]
@@ -42199,22 +42199,22 @@
       "heading": "The things worth the journey.",
       "items": [
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fho-chi-minh-city.jpg&w=900&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fho-chi-minh-city-v2.jpg&w=900&q=80",
           "title": "Private Vespa food ride after dark",
           "description": "A guided pillion tour by classic Vespa threads the back-alley kitchens and night markets you'd never find alone, ending at a local rooftop."
         },
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fho-chi-minh-city.jpg&w=900&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fho-chi-minh-city-v2.jpg&w=900&q=80",
           "title": "Chef's table at Anan Saigon",
           "description": "Vietnam's first Michelin-recognised fine-dining reinvention of street food, best taken as the counter tasting with a wine or cocktail pairing."
         },
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fho-chi-minh-city.jpg&w=900&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fho-chi-minh-city-v2.jpg&w=900&q=80",
           "title": "Cu Chi tunnels before opening",
           "description": "A privately timed early visit to the Vietcong tunnel network with a specialist historian, ahead of the coach crowds and the midday heat."
         },
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fho-chi-minh-city.jpg&w=900&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fho-chi-minh-city-v2.jpg&w=900&q=80",
           "title": "Sunset at a colonial-era rooftop",
           "description": "A reserved table high above Dong Khoi as the district lights come on, tracing the French-colonial spine of the old city from above."
         }
@@ -43465,10 +43465,10 @@
     "seo": {
       "title": "Hong Kong — TripAgent",
       "description": "Hong Kong, in hand: where to stay, what to do, where to eat and where the night goes — the addresses worth knowing.",
-      "ogImage": "https://tripagent-site.vercel.app/img/cities/hong-kong.jpg"
+      "ogImage": "https://tripagent-site.vercel.app/img/cities/hong-kong-v2.jpg"
     },
     "hero": {
-      "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fhong-kong.jpg&w=2560&q=80",
+      "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fhong-kong-v2.jpg&w=2560&q=80",
       "breadcrumbCountry": null,
       "name": "Hong Kong",
       "tagline": "Vertical glamour where harbour, peak and dim sum meet.",
@@ -43509,15 +43509,15 @@
       "skipIf": "You are after quiet nature, beaches or a slow, unhurried pace."
     },
     "firstLook": {
-      "heroImage": "/_vercel/image?url=%2Fimg%2Fcities%2Fhong-kong.jpg&w=2048&q=80",
+      "heroImage": "/_vercel/image?url=%2Fimg%2Fcities%2Fhong-kong-v2.jpg&w=2048&q=80",
       "heroCaption": "Hong Kong financial district skyline at dusk",
       "grid": [
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fhong-kong.jpg&w=1280&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fhong-kong-v2.jpg&w=1280&q=80",
           "caption": "purple allium blooms in soft focus"
         },
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fhong-kong.jpg&w=1280&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fhong-kong-v2.jpg&w=1280&q=80",
           "caption": "Leopard resting on rock beside tree trunk"
         }
       ]
@@ -44883,22 +44883,22 @@
       "heading": "The things worth the journey.",
       "items": [
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fhong-kong.jpg&w=900&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fhong-kong-v2.jpg&w=900&q=80",
           "title": "Private junk charter across Victoria Harbour at dusk",
           "description": "A traditional red-sail junk to yourselves, timed for the harbour light show, is the city seen the way it should be."
         },
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fhong-kong.jpg&w=900&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fhong-kong-v2.jpg&w=900&q=80",
           "title": "Three-star Cantonese banquet at Lung King Heen or Forum",
           "description": "Hong Kong is the world capital of Cantonese cooking, and its top rooms serve it at a level found nowhere else."
         },
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fhong-kong.jpg&w=900&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fhong-kong-v2.jpg&w=900&q=80",
           "title": "Helicopter transfer to Macau or over the islands",
           "description": "A short heli-hop lays the whole territory of harbour, peaks, and outer islands out beneath you in minutes."
         },
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fhong-kong.jpg&w=900&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fhong-kong-v2.jpg&w=900&q=80",
           "title": "Dawn hike on Dragon's Back before breakfast",
           "description": "A guided early walk along the ridge trail delivers sea, city, and beach within an hour of the towers."
         }
@@ -51088,10 +51088,10 @@
     "seo": {
       "title": "Kochi — TripAgent",
       "description": "Kochi, in hand: where to stay, what to do, where to eat and where the night goes — the addresses worth knowing.",
-      "ogImage": "https://tripagent-site.vercel.app/img/cities/kochi.jpg"
+      "ogImage": "https://tripagent-site.vercel.app/img/cities/kochi-v2.jpg"
     },
     "hero": {
-      "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fkochi.jpg&w=2560&q=80",
+      "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fkochi-v2.jpg&w=2560&q=80",
       "breadcrumbCountry": null,
       "name": "Kochi",
       "tagline": "Spice-trade port where colonial Kerala meets the sea.",
@@ -51132,15 +51132,15 @@
       "skipIf": "You want nightlife or a beach holiday; this is a quiet, cultural port town."
     },
     "firstLook": {
-      "heroImage": "/_vercel/image?url=%2Fimg%2Fcities%2Fkochi.jpg&w=2048&q=80",
+      "heroImage": "/_vercel/image?url=%2Fimg%2Fcities%2Fkochi-v2.jpg&w=2048&q=80",
       "heroCaption": "Modern pool villa with palms and umbrella",
       "grid": [
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fkochi.jpg&w=1280&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fkochi-v2.jpg&w=1280&q=80",
           "caption": "purple allium blooms in soft focus"
         },
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fkochi.jpg&w=1280&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fkochi-v2.jpg&w=1280&q=80",
           "caption": "Leopard resting on rock beside tree trunk"
         }
       ]
@@ -51781,22 +51781,22 @@
       "heading": "The things worth the journey.",
       "items": [
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fkochi.jpg&w=900&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fkochi-v2.jpg&w=900&q=80",
           "title": "Private heritage walk of Fort Kochi and Mattancherry",
           "description": "A historian-led morning through the Portuguese, Dutch and Jewish quarters, ending at the Paradesi Synagogue."
         },
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fkochi.jpg&w=900&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fkochi-v2.jpg&w=900&q=80",
           "title": "Private Kathakali or Kalaripayattu performance",
           "description": "An intimate viewing of Kerala's classical dance-drama or its ancient martial art, with the make-up ritual explained."
         },
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fkochi.jpg&w=900&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fkochi-v2.jpg&w=900&q=80",
           "title": "Chef's table of coastal Malabar and Syrian-Christian cuisine",
           "description": "A curated meal of the region's layered spice cooking, from meen curry to Nasrani specialities."
         },
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fkochi.jpg&w=900&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fkochi-v2.jpg&w=900&q=80",
           "title": "Private day into the backwaters from the city",
           "description": "A tailored houseboat or country-boat excursion into the quieter canals of the Vembanad system."
         }
@@ -58722,10 +58722,10 @@
     "seo": {
       "title": "Las Vegas — TripAgent",
       "description": "Las Vegas, in hand: where to stay, what to do, where to eat and where the night goes — the addresses worth knowing.",
-      "ogImage": "https://tripagent-site.vercel.app/img/cities/las-vegas.jpg"
+      "ogImage": "https://tripagent-site.vercel.app/img/cities/las-vegas-v2.jpg"
     },
     "hero": {
-      "image": "/_vercel/image?url=%2Fimg%2Fcities%2Flas-vegas.jpg&w=2560&q=80",
+      "image": "/_vercel/image?url=%2Fimg%2Fcities%2Flas-vegas-v2.jpg&w=2560&q=80",
       "breadcrumbCountry": {
         "label": "USA",
         "href": "destination-united-states.html"
@@ -58769,15 +58769,15 @@
       "skipIf": "You dislike crowds and casinos; the appeal is loud and unapologetic."
     },
     "firstLook": {
-      "heroImage": "/_vercel/image?url=%2Fimg%2Fcities%2Flas-vegas.jpg&w=2048&q=80",
+      "heroImage": "/_vercel/image?url=%2Fimg%2Fcities%2Flas-vegas-v2.jpg&w=2048&q=80",
       "heroCaption": "Modern pool villa with palms and umbrella",
       "grid": [
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Flas-vegas.jpg&w=1280&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Flas-vegas-v2.jpg&w=1280&q=80",
           "caption": "purple allium blooms in soft focus"
         },
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Flas-vegas.jpg&w=1280&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Flas-vegas-v2.jpg&w=1280&q=80",
           "caption": "Leopard resting on rock beside tree trunk"
         }
       ]
@@ -59600,22 +59600,22 @@
       "heading": "The things worth the journey.",
       "items": [
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Flas-vegas.jpg&w=900&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Flas-vegas-v2.jpg&w=900&q=80",
           "title": "Grand Canyon by private helicopter",
           "description": "A morning flight to the West Rim and back is the one excursion that genuinely justifies its price."
         },
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Flas-vegas.jpg&w=900&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Flas-vegas-v2.jpg&w=900&q=80",
           "title": "A chef's-table dinner off the floor",
           "description": "Vegas quietly holds one of the densest concentrations of marquee restaurants in the US — book the counter, not the dining room."
         },
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Flas-vegas.jpg&w=900&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Flas-vegas-v2.jpg&w=900&q=80",
           "title": "Sphere at night",
           "description": "The immersive shows inside the Exosphere are unlike any other venue; catch a residency built specifically for the room."
         },
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Flas-vegas.jpg&w=900&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Flas-vegas-v2.jpg&w=900&q=80",
           "title": "Red Rock Canyon at dawn",
           "description": "Twenty minutes from the Strip, the scenic loop and quiet trails are a startling contrast before the city wakes."
         }
@@ -65052,10 +65052,10 @@
     "seo": {
       "title": "Los Angeles — TripAgent",
       "description": "Los Angeles, in hand: where to stay, what to do, where to eat and where the night goes — the addresses worth knowing.",
-      "ogImage": "https://tripagent-site.vercel.app/img/cities/los-angeles.jpg"
+      "ogImage": "https://tripagent-site.vercel.app/img/cities/los-angeles-v2.jpg"
     },
     "hero": {
-      "image": "/_vercel/image?url=%2Fimg%2Fcities%2Flos-angeles.jpg&w=2560&q=80",
+      "image": "/_vercel/image?url=%2Fimg%2Fcities%2Flos-angeles-v2.jpg&w=2560&q=80",
       "breadcrumbCountry": {
         "label": "USA",
         "href": "destination-united-states.html"
@@ -65099,15 +65099,15 @@
       "skipIf": "You want a walkable city or a short flight."
     },
     "firstLook": {
-      "heroImage": "/_vercel/image?url=%2Fimg%2Fcities%2Flos-angeles.jpg&w=2048&q=80",
+      "heroImage": "/_vercel/image?url=%2Fimg%2Fcities%2Flos-angeles-v2.jpg&w=2048&q=80",
       "heroCaption": "Modern pool villa with palms and umbrella",
       "grid": [
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Flos-angeles.jpg&w=1280&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Flos-angeles-v2.jpg&w=1280&q=80",
           "caption": "purple allium blooms in soft focus"
         },
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Flos-angeles.jpg&w=1280&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Flos-angeles-v2.jpg&w=1280&q=80",
           "caption": "Leopard resting on rock beside tree trunk"
         }
       ]
@@ -66177,22 +66177,22 @@
       "heading": "The things worth the journey.",
       "items": [
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Flos-angeles.jpg&w=900&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Flos-angeles-v2.jpg&w=900&q=80",
           "title": "The Getty Center at closing light",
           "description": "Richard Meier's travertine campus with the garden and the city spread below is best in the last hour before the crowds thin."
         },
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Flos-angeles.jpg&w=900&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Flos-angeles-v2.jpg&w=900&q=80",
           "title": "A show at the Hollywood Bowl",
           "description": "Summer nights under the shell with a picnic in the box seats is the quintessential LA evening out."
         },
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Flos-angeles.jpg&w=900&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Flos-angeles-v2.jpg&w=900&q=80",
           "title": "Malibu coast and canyon drive",
           "description": "Pacific Coast Highway to a private beach club or a table at Nobu, then back through the canyons at dusk."
         },
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Flos-angeles.jpg&w=900&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Flos-angeles-v2.jpg&w=900&q=80",
           "title": "Griffith Observatory after dark",
           "description": "The city lights and the telescope draw from the Observatory lawn are worth the timed evening visit."
         }
@@ -74894,10 +74894,10 @@
     "seo": {
       "title": "Mexico City — TripAgent",
       "description": "Mexico City, in hand: where to stay, what to do, where to eat and where the night goes — the addresses worth knowing.",
-      "ogImage": "https://tripagent-site.vercel.app/img/cities/mexico-city.jpg"
+      "ogImage": "https://tripagent-site.vercel.app/img/cities/mexico-city-v2.jpg"
     },
     "hero": {
-      "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fmexico-city.jpg&w=2560&q=80",
+      "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fmexico-city-v2.jpg&w=2560&q=80",
       "breadcrumbCountry": {
         "label": "Mexico",
         "href": "destination-mexico.html"
@@ -74941,15 +74941,15 @@
       "skipIf": "You want an easy, short-haul trip or you are nervous about a big city."
     },
     "firstLook": {
-      "heroImage": "/_vercel/image?url=%2Fimg%2Fcities%2Fmexico-city.jpg&w=2048&q=80",
+      "heroImage": "/_vercel/image?url=%2Fimg%2Fcities%2Fmexico-city-v2.jpg&w=2048&q=80",
       "heroCaption": "Jungle pool with loungers flanked by greenery",
       "grid": [
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fmexico-city.jpg&w=1280&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fmexico-city-v2.jpg&w=1280&q=80",
           "caption": "Modern pool villa with palms and umbrella"
         },
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fmexico-city.jpg&w=1280&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fmexico-city-v2.jpg&w=1280&q=80",
           "caption": "purple allium blooms in soft focus"
         }
       ]
@@ -75802,22 +75802,22 @@
       "heading": "The things worth the journey.",
       "items": [
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fmexico-city.jpg&w=900&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fmexico-city-v2.jpg&w=900&q=80",
           "title": "Hot-air balloon over Teotihuacán",
           "description": "A dawn flight over the Pyramids of the Sun and Moon before the site opens to visitors."
         },
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fmexico-city.jpg&w=900&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fmexico-city-v2.jpg&w=900&q=80",
           "title": "Chef's table at Pujol or Quintonil",
           "description": "A tasting menu at two of the world's fifty best restaurants, booked far ahead."
         },
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fmexico-city.jpg&w=900&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fmexico-city-v2.jpg&w=900&q=80",
           "title": "Private trajinera on the Xochimilco canals",
           "description": "A decorated boat with a mariachi and a chef-prepared lunch, away from the party crowds."
         },
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fmexico-city.jpg&w=900&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fmexico-city-v2.jpg&w=900&q=80",
           "title": "After-hours at a great museum",
           "description": "A private walk through the Anthropology Museum or a Kahlo/Rivera collection with a curator."
         }
@@ -78647,10 +78647,10 @@
     "seo": {
       "title": "Mumbai — TripAgent",
       "description": "Mumbai, in hand: where to stay, what to do, where to eat and where the night goes — the addresses worth knowing.",
-      "ogImage": "https://tripagent-site.vercel.app/img/cities/mumbai.jpg"
+      "ogImage": "https://tripagent-site.vercel.app/img/cities/mumbai-v2.jpg"
     },
     "hero": {
-      "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fmumbai.jpg&w=2560&q=80",
+      "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fmumbai-v2.jpg&w=2560&q=80",
       "breadcrumbCountry": null,
       "name": "Mumbai",
       "tagline": "India's restless maximum city of sea, cinema and commerce.",
@@ -78691,15 +78691,15 @@
       "skipIf": "You are after quiet, nature or a slow escape; Mumbai is dense, loud and relentless."
     },
     "firstLook": {
-      "heroImage": "/_vercel/image?url=%2Fimg%2Fcities%2Fmumbai.jpg&w=2048&q=80",
+      "heroImage": "/_vercel/image?url=%2Fimg%2Fcities%2Fmumbai-v2.jpg&w=2048&q=80",
       "heroCaption": "Woman walking poolside royal tent courtyard",
       "grid": [
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fmumbai.jpg&w=1280&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fmumbai-v2.jpg&w=1280&q=80",
           "caption": "purple allium blooms in soft focus"
         },
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fmumbai.jpg&w=1280&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fmumbai-v2.jpg&w=1280&q=80",
           "caption": "Leopard resting on rock beside tree trunk"
         }
       ]
@@ -79504,22 +79504,22 @@
       "heading": "The things worth the journey.",
       "items": [
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fmumbai.jpg&w=900&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fmumbai-v2.jpg&w=900&q=80",
           "title": "Private sunrise at the Gateway and a chartered boat to Elephanta",
           "description": "Reach the rock-cut caves before the ferries, with a private guide to the Shiva sculptures."
         },
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fmumbai.jpg&w=900&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fmumbai-v2.jpg&w=900&q=80",
           "title": "Heritage architecture walk through the Fort and Kala Ghoda",
           "description": "A curator-led morning among the Gothic and Art Deco facades, a UNESCO-listed ensemble most visitors rush past."
         },
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fmumbai.jpg&w=900&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fmumbai-v2.jpg&w=900&q=80",
           "title": "Chef's table at Masque",
           "description": "Mumbai's most ambitious ingredient-led tasting menu, sourced from small Indian farms and best reserved weeks ahead."
         },
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fmumbai.jpg&w=900&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fmumbai-v2.jpg&w=900&q=80",
           "title": "Private tabla or classical evening with a leading musician",
           "description": "An intimate baithak-style recital arranged in a private home or heritage space."
         }
@@ -88109,10 +88109,10 @@
     "seo": {
       "title": "Osaka — TripAgent",
       "description": "Osaka, in hand: where to stay, what to do, where to eat and where the night goes — the addresses worth knowing.",
-      "ogImage": "https://tripagent-site.vercel.app/img/cities/osaka.jpg"
+      "ogImage": "https://tripagent-site.vercel.app/img/cities/osaka-v2.jpg"
     },
     "hero": {
-      "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fosaka.jpg&w=2560&q=80",
+      "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fosaka-v2.jpg&w=2560&q=80",
       "breadcrumbCountry": {
         "label": "Japan",
         "href": "destination-japan.html"
@@ -88156,15 +88156,15 @@
       "skipIf": "You are strictly vegetarian and inflexible; dashi and seafood run through the cuisine."
     },
     "firstLook": {
-      "heroImage": "/_vercel/image?url=%2Fimg%2Fcities%2Fosaka.jpg&w=2048&q=80",
+      "heroImage": "/_vercel/image?url=%2Fimg%2Fcities%2Fosaka-v2.jpg&w=2048&q=80",
       "heroCaption": "Tokyo Tower over hazy city skyline at dusk",
       "grid": [
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fosaka.jpg&w=1280&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fosaka-v2.jpg&w=1280&q=80",
           "caption": "Painted Japanese folding fan, Edo townscape art"
         },
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fosaka.jpg&w=1280&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fosaka-v2.jpg&w=1280&q=80",
           "caption": "Leopard resting on rock beside tree trunk"
         }
       ]
@@ -88942,22 +88942,22 @@
       "heading": "The things worth the journey.",
       "items": [
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fosaka.jpg&w=900&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fosaka-v2.jpg&w=900&q=80",
           "title": "Kappo counter dinner at a chef's table",
           "description": "Osaka's kappo tradition puts you an arm's length from the knife; the great counters serve a running, improvised menu shaped by what came in that morning."
         },
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fosaka.jpg&w=900&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fosaka-v2.jpg&w=900&q=80",
           "title": "Private kuidaore food crawl with a local guide",
           "description": "A well-connected guide gets you past the queues at the takoyaki and kushikatsu institutions that tourists never find."
         },
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fosaka.jpg&w=900&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fosaka-v2.jpg&w=900&q=80",
           "title": "Bunraku puppet theatre at the National Bunraku Theatre",
           "description": "Osaka is the home of this UNESCO-listed puppet art; a single act with commentary is a rare, intimate performance."
         },
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fosaka.jpg&w=900&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fosaka-v2.jpg&w=900&q=80",
           "title": "After-hours Osaka Castle grounds walk",
           "description": "A guided early or late visit to the keep and its moats sidesteps the daytime crush around the tower."
         }
@@ -105687,10 +105687,10 @@
     "seo": {
       "title": "Seoul — TripAgent",
       "description": "Seoul, in hand: where to stay, what to do, where to eat and where the night goes — the addresses worth knowing.",
-      "ogImage": "https://tripagent-site.vercel.app/img/cities/seoul.jpg"
+      "ogImage": "https://tripagent-site.vercel.app/img/cities/seoul-v2.jpg"
     },
     "hero": {
-      "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fseoul.jpg&w=2560&q=80",
+      "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fseoul-v2.jpg&w=2560&q=80",
       "breadcrumbCountry": null,
       "name": "Seoul",
       "tagline": "Palaces and hypermodernity, served at every hour.",
@@ -105731,15 +105731,15 @@
       "skipIf": "You want beaches, warmth or a relaxed, slow pace."
     },
     "firstLook": {
-      "heroImage": "/_vercel/image?url=%2Fimg%2Fcities%2Fseoul.jpg&w=2048&q=80",
+      "heroImage": "/_vercel/image?url=%2Fimg%2Fcities%2Fseoul-v2.jpg&w=2048&q=80",
       "heroCaption": "Traditional Korean hanok tiled rooftops against blue sky",
       "grid": [
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fseoul.jpg&w=1280&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fseoul-v2.jpg&w=1280&q=80",
           "caption": "purple allium blooms in soft focus"
         },
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fseoul.jpg&w=1280&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fseoul-v2.jpg&w=1280&q=80",
           "caption": "Leopard resting on rock beside tree trunk"
         }
       ]
@@ -106779,22 +106779,22 @@
       "heading": "The things worth the journey.",
       "items": [
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fseoul.jpg&w=900&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fseoul-v2.jpg&w=900&q=80",
           "title": "Private hanbok dawn at Gyeongbokgung",
           "description": "An early palace walk in period dress before the day-trippers, with the throne hall to yourself."
         },
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fseoul.jpg&w=900&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fseoul-v2.jpg&w=900&q=80",
           "title": "Temple stay at a mountain monastery",
           "description": "An overnight at a Bukhansan or nearby temple with monks — dawn chanting and templefood."
         },
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fseoul.jpg&w=900&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fseoul-v2.jpg&w=900&q=80",
           "title": "Chef's table at a three-star kitchen",
           "description": "A seat at Mingles or La Yeon for the refined edge of Korean fine dining, booked well ahead."
         },
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fseoul.jpg&w=900&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fseoul-v2.jpg&w=900&q=80",
           "title": "Private night market and pojangmacha crawl",
           "description": "A guided walk through Gwangjang's stalls and street tents where the city really eats."
         }
@@ -107091,10 +107091,10 @@
     "seo": {
       "title": "Shanghai — TripAgent",
       "description": "Shanghai, in hand: where to stay, what to do, where to eat and where the night goes — the addresses worth knowing.",
-      "ogImage": "https://tripagent-site.vercel.app/img/cities/shanghai.jpg"
+      "ogImage": "https://tripagent-site.vercel.app/img/cities/shanghai-v2.jpg"
     },
     "hero": {
-      "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fshanghai.jpg&w=2560&q=80",
+      "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fshanghai-v2.jpg&w=2560&q=80",
       "breadcrumbCountry": null,
       "name": "Shanghai",
       "tagline": "Art-deco riverfront facing a skyline of tomorrow.",
@@ -107135,15 +107135,15 @@
       "skipIf": "You want nature, quiet or an unfiltered, budget-first experience."
     },
     "firstLook": {
-      "heroImage": "/_vercel/image?url=%2Fimg%2Fcities%2Fshanghai.jpg&w=2048&q=80",
+      "heroImage": "/_vercel/image?url=%2Fimg%2Fcities%2Fshanghai-v2.jpg&w=2048&q=80",
       "heroCaption": "Pudong skyline and Oriental Pearl across river",
       "grid": [
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fshanghai.jpg&w=1280&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fshanghai-v2.jpg&w=1280&q=80",
           "caption": "purple allium blooms in soft focus"
         },
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fshanghai.jpg&w=1280&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fshanghai-v2.jpg&w=1280&q=80",
           "caption": "Leopard resting on rock beside tree trunk"
         }
       ]
@@ -107976,22 +107976,22 @@
       "heading": "The things worth the journey.",
       "items": [
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fshanghai.jpg&w=900&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fshanghai-v2.jpg&w=900&q=80",
           "title": "Rooftop dinner on the Bund facing Pudong",
           "description": "A table at one of the Bund's historic buildings, timed for the skyline lighting across the Huangpu, is Shanghai's signature evening."
         },
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fshanghai.jpg&w=900&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fshanghai-v2.jpg&w=900&q=80",
           "title": "Private tailoring at a South Bund fabric master",
           "description": "A made-to-measure commission with a trusted tailor, fitted over a few days, is a genuinely Shanghai souvenir."
         },
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fshanghai.jpg&w=900&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fshanghai-v2.jpg&w=900&q=80",
           "title": "Yu Garden and Old City before opening",
           "description": "A guided early walk through the Ming-dynasty garden and tea house avoids the daytime crush entirely."
         },
         {
-          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fshanghai.jpg&w=900&q=80",
+          "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fshanghai-v2.jpg&w=900&q=80",
           "title": "Private jazz evening in a Concession-era club",
           "description": "Shanghai's old jazz tradition survives in a handful of clubs; a reserved table is the elegant late-night close."
         }

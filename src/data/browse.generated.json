@@ -303,7 +303,7 @@
       },
       {
         "href": "/city-hong-kong",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fhong-kong.jpg&w=800&q=78",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fhong-kong-v2.jpg&w=800&q=78",
         "country": "Hong Kong",
         "name": "Hong Kong",
         "description": "A vertical city where the harbour, the markets and the tasting menus all run late into the night.",
@@ -315,7 +315,7 @@
       },
       {
         "href": "/city-shanghai",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fshanghai.jpg&w=800&q=78",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fshanghai-v2.jpg&w=800&q=78",
         "country": "China",
         "name": "Shanghai",
         "description": "The Bund at dusk, and a city that never stops rewriting its own skyline.",
@@ -327,7 +327,7 @@
       },
       {
         "href": "/city-seoul",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fseoul.jpg&w=800&q=78",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fseoul-v2.jpg&w=800&q=78",
         "country": "South Korea",
         "name": "Seoul",
         "description": "Ancient palaces and a restless present, side by side.",
@@ -651,7 +651,7 @@
       },
       {
         "href": "/city-los-angeles",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Flos-angeles.jpg&w=800&q=78",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Flos-angeles-v2.jpg&w=800&q=78",
         "country": "USA",
         "name": "Los Angeles",
         "description": "Sun, screens and hillside pools \u2014 if you're willing to drive for them.",
@@ -675,7 +675,7 @@
       },
       {
         "href": "/city-mexico-city",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fmexico-city.jpg&w=800&q=78",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fmexico-city-v2.jpg&w=800&q=78",
         "country": "Mexico",
         "name": "Mexico City",
         "description": "A vast, art-heavy capital where the food alone justifies the journey. A valid US visa waives the visa requirement.",
@@ -722,7 +722,7 @@
       },
       {
         "href": "/city-mumbai",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fmumbai.jpg&w=800&q=78",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fmumbai-v2.jpg&w=800&q=78",
         "country": "India",
         "name": "Mumbai",
         "description": "The city that never quite sleeps, seen from a suite above the Arabian Sea.",
@@ -758,7 +758,7 @@
     "cards": [
       {
         "href": "/city-chennai",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fchennai.jpg&w=800&q=78",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fchennai-v2.jpg&w=800&q=78",
         "country": "India",
         "name": "Chennai",
         "description": "The gateway to the temple south, where Carnatic music, filter coffee and granite gopurams keep their own slow time.",
@@ -1070,7 +1070,7 @@
       },
       {
         "href": "/city-los-angeles",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Flos-angeles.jpg&w=800&q=78",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Flos-angeles-v2.jpg&w=800&q=78",
         "country": "USA",
         "name": "Los Angeles",
         "description": "Sun, screens and hillside pools \u2014 if you're willing to drive for them.",
@@ -1156,7 +1156,7 @@
       },
       {
         "href": "/city-chennai",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fchennai.jpg&w=800&q=78",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fchennai-v2.jpg&w=800&q=78",
         "country": "India",
         "name": "Chennai",
         "description": "The gateway to the temple south, where Carnatic music, filter coffee and granite gopurams keep their own slow time.",
@@ -1240,7 +1240,7 @@
       },
       {
         "href": "/city-kochi",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fkochi.jpg&w=800&q=78",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fkochi-v2.jpg&w=800&q=78",
         "country": "India",
         "name": "Kochi",
         "description": "A trading port layered with Portuguese, Dutch and Malabar histories, where the water still sets the pace.",
@@ -1360,7 +1360,7 @@
       },
       {
         "href": "/city-bangkok",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fbangkok.jpg&w=800&q=78",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fbangkok-v2.jpg&w=800&q=78",
         "country": "Thailand",
         "name": "Bangkok",
         "description": "A city of river light and long dinners, generous to anyone who arrives hungry.",
@@ -1384,7 +1384,7 @@
       },
       {
         "href": "/city-ho-chi-minh-city",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fho-chi-minh-city.jpg&w=800&q=78",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fho-chi-minh-city-v2.jpg&w=800&q=78",
         "country": "Vietnam",
         "name": "Ho Chi Minh City",
         "description": "A city that runs on its own current, fast and warm and unmistakably alive.",
@@ -1420,7 +1420,7 @@
       },
       {
         "href": "/city-hanoi",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fhanoi.jpg&w=800&q=78",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fhanoi-v2.jpg&w=800&q=78",
         "country": "Vietnam",
         "name": "Hanoi",
         "description": "A city of narrow lanes and slow coffee, with the bay held quietly to the east.",
@@ -1432,7 +1432,7 @@
       },
       {
         "href": "/city-hong-kong",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fhong-kong.jpg&w=800&q=78",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fhong-kong-v2.jpg&w=800&q=78",
         "country": "Hong Kong",
         "name": "Hong Kong",
         "description": "A vertical city where the harbour, the markets and the tasting menus all run late into the night.",
@@ -1468,7 +1468,7 @@
       },
       {
         "href": "/city-shanghai",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fshanghai.jpg&w=800&q=78",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fshanghai-v2.jpg&w=800&q=78",
         "country": "China",
         "name": "Shanghai",
         "description": "The Bund at dusk, and a city that never stops rewriting its own skyline.",
@@ -1492,7 +1492,7 @@
       },
       {
         "href": "/city-seoul",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fseoul.jpg&w=800&q=78",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fseoul-v2.jpg&w=800&q=78",
         "country": "South Korea",
         "name": "Seoul",
         "description": "Ancient palaces and a restless present, side by side.",
@@ -1684,7 +1684,7 @@
       },
       {
         "href": "/city-osaka",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fosaka.jpg&w=800&q=78",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fosaka-v2.jpg&w=800&q=78",
         "country": "Japan",
         "name": "Osaka",
         "description": "Japan's kitchen city, brash and appetite-forward, minutes from Kyoto's calm.",
@@ -1924,7 +1924,7 @@
       },
       {
         "href": "/city-mexico-city",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fmexico-city.jpg&w=800&q=78",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fmexico-city-v2.jpg&w=800&q=78",
         "country": "Mexico",
         "name": "Mexico City",
         "description": "A vast, art-heavy capital where the food alone justifies the journey. A valid US visa waives the visa requirement.",
@@ -1983,7 +1983,7 @@
       },
       {
         "href": "/city-mumbai",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fmumbai.jpg&w=800&q=78",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fmumbai-v2.jpg&w=800&q=78",
         "country": "India",
         "name": "Mumbai",
         "description": "The city that never quite sleeps, seen from a suite above the Arabian Sea.",
@@ -2177,7 +2177,7 @@
       },
       {
         "href": "/city-chennai",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fchennai.jpg&w=800&q=78",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fchennai-v2.jpg&w=800&q=78",
         "country": "India",
         "name": "Chennai",
         "description": "The gateway to the temple south, where Carnatic music, filter coffee and granite gopurams keep their own slow time.",
@@ -2273,7 +2273,7 @@
       },
       {
         "href": "/city-kochi",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fkochi.jpg&w=800&q=78",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fkochi-v2.jpg&w=800&q=78",
         "country": "India",
         "name": "Kochi",
         "description": "A trading port layered with Portuguese, Dutch and Malabar histories, where the water still sets the pace.",
@@ -2429,7 +2429,7 @@
       },
       {
         "href": "/city-bangkok",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fbangkok.jpg&w=800&q=78",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fbangkok-v2.jpg&w=800&q=78",
         "country": "Thailand",
         "name": "Bangkok",
         "description": "A city of river light and long dinners, generous to anyone who arrives hungry.",
@@ -2453,7 +2453,7 @@
       },
       {
         "href": "/city-ho-chi-minh-city",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fho-chi-minh-city.jpg&w=800&q=78",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fho-chi-minh-city-v2.jpg&w=800&q=78",
         "country": "Vietnam",
         "name": "Ho Chi Minh City",
         "description": "A city that runs on its own current, fast and warm and unmistakably alive.",
@@ -2489,7 +2489,7 @@
       },
       {
         "href": "/city-hanoi",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fhanoi.jpg&w=800&q=78",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fhanoi-v2.jpg&w=800&q=78",
         "country": "Vietnam",
         "name": "Hanoi",
         "description": "A city of narrow lanes and slow coffee, with the bay held quietly to the east.",
@@ -2501,7 +2501,7 @@
       },
       {
         "href": "/city-hong-kong",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fhong-kong.jpg&w=800&q=78",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fhong-kong-v2.jpg&w=800&q=78",
         "country": "Hong Kong",
         "name": "Hong Kong",
         "description": "A vertical city where the harbour, the markets and the tasting menus all run late into the night.",
@@ -2585,7 +2585,7 @@
       },
       {
         "href": "/city-shanghai",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fshanghai.jpg&w=800&q=78",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fshanghai-v2.jpg&w=800&q=78",
         "country": "China",
         "name": "Shanghai",
         "description": "The Bund at dusk, and a city that never stops rewriting its own skyline.",
@@ -2621,7 +2621,7 @@
       },
       {
         "href": "/city-seoul",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fseoul.jpg&w=800&q=78",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fseoul-v2.jpg&w=800&q=78",
         "country": "South Korea",
         "name": "Seoul",
         "description": "Ancient palaces and a restless present, side by side.",
@@ -2777,7 +2777,7 @@
       },
       {
         "href": "/city-osaka",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fosaka.jpg&w=800&q=78",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fosaka-v2.jpg&w=800&q=78",
         "country": "Japan",
         "name": "Osaka",
         "description": "Japan's kitchen city, brash and appetite-forward, minutes from Kyoto's calm.",
@@ -2969,7 +2969,7 @@
       },
       {
         "href": "/city-los-angeles",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Flos-angeles.jpg&w=800&q=78",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Flos-angeles-v2.jpg&w=800&q=78",
         "country": "USA",
         "name": "Los Angeles",
         "description": "Sun, screens and hillside pools \u2014 if you're willing to drive for them.",
@@ -3016,7 +3016,7 @@
       },
       {
         "href": "/city-mumbai",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fmumbai.jpg&w=800&q=78",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fmumbai-v2.jpg&w=800&q=78",
         "country": "India",
         "name": "Mumbai",
         "description": "The city that never quite sleeps, seen from a suite above the Arabian Sea.",
@@ -3064,7 +3064,7 @@
       },
       {
         "href": "/city-chennai",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fchennai.jpg&w=800&q=78",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fchennai-v2.jpg&w=800&q=78",
         "country": "India",
         "name": "Chennai",
         "description": "The gateway to the temple south, where Carnatic music, filter coffee and granite gopurams keep their own slow time.",
@@ -3112,7 +3112,7 @@
       },
       {
         "href": "/city-kochi",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fkochi.jpg&w=800&q=78",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fkochi-v2.jpg&w=800&q=78",
         "country": "India",
         "name": "Kochi",
         "description": "A trading port layered with Portuguese, Dutch and Malabar histories, where the water still sets the pace.",
@@ -3160,7 +3160,7 @@
       },
       {
         "href": "/city-bangkok",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fbangkok.jpg&w=800&q=78",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fbangkok-v2.jpg&w=800&q=78",
         "country": "Thailand",
         "name": "Bangkok",
         "description": "A city of river light and long dinners, generous to anyone who arrives hungry.",
@@ -3172,7 +3172,7 @@
       },
       {
         "href": "/city-ho-chi-minh-city",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fho-chi-minh-city.jpg&w=800&q=78",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fho-chi-minh-city-v2.jpg&w=800&q=78",
         "country": "Vietnam",
         "name": "Ho Chi Minh City",
         "description": "A city that runs on its own current, fast and warm and unmistakably alive.",
@@ -3208,7 +3208,7 @@
       },
       {
         "href": "/city-hanoi",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fhanoi.jpg&w=800&q=78",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fhanoi-v2.jpg&w=800&q=78",
         "country": "Vietnam",
         "name": "Hanoi",
         "description": "A city of narrow lanes and slow coffee, with the bay held quietly to the east.",
@@ -3220,7 +3220,7 @@
       },
       {
         "href": "/city-hong-kong",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fhong-kong.jpg&w=800&q=78",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fhong-kong-v2.jpg&w=800&q=78",
         "country": "Hong Kong",
         "name": "Hong Kong",
         "description": "A vertical city where the harbour, the markets and the tasting menus all run late into the night.",
@@ -3232,7 +3232,7 @@
       },
       {
         "href": "/city-shanghai",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fshanghai.jpg&w=800&q=78",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fshanghai-v2.jpg&w=800&q=78",
         "country": "China",
         "name": "Shanghai",
         "description": "The Bund at dusk, and a city that never stops rewriting its own skyline.",
@@ -3256,7 +3256,7 @@
       },
       {
         "href": "/city-seoul",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fseoul.jpg&w=800&q=78",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fseoul-v2.jpg&w=800&q=78",
         "country": "South Korea",
         "name": "Seoul",
         "description": "Ancient palaces and a restless present, side by side.",
@@ -3400,7 +3400,7 @@
       },
       {
         "href": "/city-osaka",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fosaka.jpg&w=800&q=78",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fosaka-v2.jpg&w=800&q=78",
         "country": "Japan",
         "name": "Osaka",
         "description": "Japan's kitchen city, brash and appetite-forward, minutes from Kyoto's calm.",
@@ -3628,7 +3628,7 @@
       },
       {
         "href": "/city-los-angeles",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Flos-angeles.jpg&w=800&q=78",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Flos-angeles-v2.jpg&w=800&q=78",
         "country": "USA",
         "name": "Los Angeles",
         "description": "Sun, screens and hillside pools \u2014 if you're willing to drive for them.",
@@ -3664,7 +3664,7 @@
       },
       {
         "href": "/city-mexico-city",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fmexico-city.jpg&w=800&q=78",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fmexico-city-v2.jpg&w=800&q=78",
         "country": "Mexico",
         "name": "Mexico City",
         "description": "A vast, art-heavy capital where the food alone justifies the journey. A valid US visa waives the visa requirement.",
@@ -3711,7 +3711,7 @@
       },
       {
         "href": "/city-mumbai",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fmumbai.jpg&w=800&q=78",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fmumbai-v2.jpg&w=800&q=78",
         "country": "India",
         "name": "Mumbai",
         "description": "The city that never quite sleeps, seen from a suite above the Arabian Sea.",
@@ -4337,7 +4337,7 @@
       },
       {
         "href": "/city-chennai",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fchennai.jpg&w=800&q=78",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fchennai-v2.jpg&w=800&q=78",
         "country": "India",
         "name": "Chennai",
         "description": "The gateway to the temple south, where Carnatic music, filter coffee and granite gopurams keep their own slow time.",
@@ -4421,7 +4421,7 @@
       },
       {
         "href": "/city-kochi",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fkochi.jpg&w=800&q=78",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fkochi-v2.jpg&w=800&q=78",
         "country": "India",
         "name": "Kochi",
         "description": "A trading port layered with Portuguese, Dutch and Malabar histories, where the water still sets the pace.",
@@ -4577,7 +4577,7 @@
       },
       {
         "href": "/city-bangkok",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fbangkok.jpg&w=800&q=78",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fbangkok-v2.jpg&w=800&q=78",
         "country": "Thailand",
         "name": "Bangkok",
         "description": "A city of river light and long dinners, generous to anyone who arrives hungry.",
@@ -4625,7 +4625,7 @@
       },
       {
         "href": "/city-hanoi",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fhanoi.jpg&w=800&q=78",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fhanoi-v2.jpg&w=800&q=78",
         "country": "Vietnam",
         "name": "Hanoi",
         "description": "A city of narrow lanes and slow coffee, with the bay held quietly to the east.",
@@ -5046,7 +5046,7 @@
       },
       {
         "href": "/city-bangkok",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fbangkok.jpg&w=800&q=78",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fbangkok-v2.jpg&w=800&q=78",
         "country": "Thailand",
         "name": "Bangkok",
         "description": "A city of river light and long dinners, generous to anyone who arrives hungry.",
@@ -5058,7 +5058,7 @@
       },
       {
         "href": "/city-ho-chi-minh-city",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fho-chi-minh-city.jpg&w=800&q=78",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fho-chi-minh-city-v2.jpg&w=800&q=78",
         "country": "Vietnam",
         "name": "Ho Chi Minh City",
         "description": "A city that runs on its own current, fast and warm and unmistakably alive.",
@@ -5094,7 +5094,7 @@
       },
       {
         "href": "/city-hong-kong",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fhong-kong.jpg&w=800&q=78",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fhong-kong-v2.jpg&w=800&q=78",
         "country": "Hong Kong",
         "name": "Hong Kong",
         "description": "A vertical city where the harbour, the markets and the tasting menus all run late into the night.",
@@ -5106,7 +5106,7 @@
       },
       {
         "href": "/city-shanghai",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fshanghai.jpg&w=800&q=78",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fshanghai-v2.jpg&w=800&q=78",
         "country": "China",
         "name": "Shanghai",
         "description": "The Bund at dusk, and a city that never stops rewriting its own skyline.",
@@ -5118,7 +5118,7 @@
       },
       {
         "href": "/city-seoul",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fseoul.jpg&w=800&q=78",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fseoul-v2.jpg&w=800&q=78",
         "country": "South Korea",
         "name": "Seoul",
         "description": "Ancient palaces and a restless present, side by side.",
@@ -5166,7 +5166,7 @@
       },
       {
         "href": "/city-osaka",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fosaka.jpg&w=800&q=78",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fosaka-v2.jpg&w=800&q=78",
         "country": "Japan",
         "name": "Osaka",
         "description": "Japan's kitchen city, brash and appetite-forward, minutes from Kyoto's calm.",
@@ -5262,7 +5262,7 @@
       },
       {
         "href": "/city-los-angeles",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Flos-angeles.jpg&w=800&q=78",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Flos-angeles-v2.jpg&w=800&q=78",
         "country": "USA",
         "name": "Los Angeles",
         "description": "Sun, screens and hillside pools \u2014 if you're willing to drive for them.",
@@ -5274,7 +5274,7 @@
       },
       {
         "href": "/city-las-vegas",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Flas-vegas.jpg&w=800&q=78",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Flas-vegas-v2.jpg&w=800&q=78",
         "country": "USA",
         "name": "Las Vegas",
         "description": "A city built for the evening, with the desert's grandest canyon a short drive away.",
@@ -5310,7 +5310,7 @@
       },
       {
         "href": "/city-mexico-city",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fmexico-city.jpg&w=800&q=78",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fmexico-city-v2.jpg&w=800&q=78",
         "country": "Mexico",
         "name": "Mexico City",
         "description": "A vast, art-heavy capital where the food alone justifies the journey. A valid US visa waives the visa requirement.",
@@ -5357,7 +5357,7 @@
       },
       {
         "href": "/city-mumbai",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fmumbai.jpg&w=800&q=78",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fmumbai-v2.jpg&w=800&q=78",
         "country": "India",
         "name": "Mumbai",
         "description": "The city that never quite sleeps, seen from a suite above the Arabian Sea.",
@@ -5394,7 +5394,7 @@
       },
       {
         "href": "/city-chennai",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fchennai.jpg&w=800&q=78",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fchennai-v2.jpg&w=800&q=78",
         "country": "India",
         "name": "Chennai",
         "description": "The gateway to the temple south, where Carnatic music, filter coffee and granite gopurams keep their own slow time.",
@@ -6314,7 +6314,7 @@
       },
       {
         "href": "/city-kochi",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fkochi.jpg&w=800&q=78",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fkochi-v2.jpg&w=800&q=78",
         "country": "India",
         "name": "Kochi",
         "description": "A trading port layered with Portuguese, Dutch and Malabar histories, where the water still sets the pace.",
@@ -6506,7 +6506,7 @@
       },
       {
         "href": "/city-hanoi",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fhanoi.jpg&w=800&q=78",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fhanoi-v2.jpg&w=800&q=78",
         "country": "Vietnam",
         "name": "Hanoi",
         "description": "A city of narrow lanes and slow coffee, with the bay held quietly to the east.",
@@ -7253,7 +7253,7 @@
       },
       {
         "href": "/city-bangkok",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fbangkok.jpg&w=800&q=78",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fbangkok-v2.jpg&w=800&q=78",
         "country": "Thailand",
         "name": "Bangkok",
         "description": "A city of river light and long dinners, generous to anyone who arrives hungry.",
@@ -7337,7 +7337,7 @@
       },
       {
         "href": "/city-seoul",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fseoul.jpg&w=800&q=78",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fseoul-v2.jpg&w=800&q=78",
         "country": "South Korea",
         "name": "Seoul",
         "description": "Ancient palaces and a restless present, side by side.",

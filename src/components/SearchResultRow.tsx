@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { toRoute } from "../lib/toRoute";
 import { KIND_LABEL, type SearchEntry } from "../lib/searchIndex";
+import { cityPhotoPath } from "../lib/cityPhotos";
 
 // One search result — shared by the /search page and the homepage's inline
 // search, styled by css/site.css's .sp-row rules.
@@ -19,7 +20,7 @@ export default function SearchResultRow({ entry }: { entry: SearchEntry }) {
     <div className="sp-row">
       <Link className="sp-row-main" to={toRoute(entry.u)}>
         {slug ? (
-          <span className="sp-th" style={{ backgroundImage: `url('/_vercel/image?url=%2Fimg%2Fcities%2F${slug}.jpg&w=96&q=70')` }} />
+          <span className="sp-th" style={{ backgroundImage: `url('/_vercel/image?url=${encodeURIComponent(cityPhotoPath(slug))}&w=96&q=70')` }} />
         ) : (
           <span className="sp-th sp-th-ph">{(entry.t || "?").charAt(0)}</span>
         )}

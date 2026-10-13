@@ -3,6 +3,13 @@ import { Link } from "react-router-dom";
 import type { PlannerCity, PlannerData } from "../types/homepage";
 import styles from "./DestinationPlanner.module.css";
 
+// Cards are at most ~300px wide, so a 640px rendition covers 2x screens —
+// the data's 1024px/q80 version was ~2.5x the bytes on phones (2026-10-13).
+function cardImage(src: string | null | undefined): string {
+  if (!src) return "";
+  return src.replace(/&w=\d+/, "&w=640").replace(/&q=\d+/, "&q=75");
+}
+
 // Ported from index.html's #planner inline <script> 1:1 — the same
 // month -> top-8-cities ranking (by that month's digit in monthScore, ties
 // keep DATA order since Array#sort is stable), defaulting to the visitor's
@@ -51,7 +58,7 @@ export default function DestinationPlanner({ planner }: { planner: PlannerData }
             >
               <div className={styles.cardOuter}>
                 <div className={styles.pic}>
-                  <span style={{ backgroundImage: `url('${city.image}')` }} />
+                  <span style={{ backgroundImage: `url('${cardImage(city.image)}')` }} />
                 </div>
                 <div className={styles.cardBody}>
                   <h3>{city.name}</h3>

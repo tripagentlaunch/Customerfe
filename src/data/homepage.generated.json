@@ -242,7 +242,7 @@
         "name": "Bangkok",
         "slug": "bangkok",
         "monthScore": "221110000122",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fbangkok.jpg&w=1024&q=80",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fbangkok-v2.jpg&w=1024&q=80",
         "topStays": [
           "Mandarin Oriental Bangkok",
           "The Peninsula Bangkok",
@@ -308,7 +308,7 @@
         "name": "Hanoi",
         "slug": "hanoi",
         "monthScore": "111221110122",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fhanoi.jpg&w=1024&q=80",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fhanoi-v2.jpg&w=1024&q=80",
         "topStays": [
           "Sofitel Legend Metropole",
           "Capella Hanoi",
@@ -319,7 +319,7 @@
         "name": "Ho Chi Minh City",
         "slug": "ho-chi-minh-city",
         "monthScore": "222111100122",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fho-chi-minh-city.jpg&w=1024&q=80",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fho-chi-minh-city-v2.jpg&w=1024&q=80",
         "topStays": [
           "The Reverie Saigon",
           "Park Hyatt Saigon",
@@ -374,7 +374,7 @@
         "name": "Osaka",
         "slug": "osaka",
         "monthScore": "112221002221",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fosaka.jpg&w=1024&q=80",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fosaka-v2.jpg&w=1024&q=80",
         "topStays": [
           "The Ritz-Carlton, Osaka",
           "Conrad Osaka",
@@ -385,7 +385,7 @@
         "name": "Hong Kong",
         "slug": "hong-kong",
         "monthScore": "222110002222",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fhong-kong.jpg&w=1024&q=80",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fhong-kong-v2.jpg&w=1024&q=80",
         "topStays": [
           "The Peninsula Hong Kong",
           "Rosewood Hong Kong",
@@ -396,7 +396,7 @@
         "name": "Seoul",
         "slug": "seoul",
         "monthScore": "002221002220",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fseoul.jpg&w=1024&q=80",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fseoul-v2.jpg&w=1024&q=80",
         "topStays": [
           "Four Seasons Hotel Seoul",
           "Signiel Seoul",
@@ -407,7 +407,7 @@
         "name": "Shanghai",
         "slug": "shanghai",
         "monthScore": "002221102220",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fshanghai.jpg&w=1024&q=80",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fshanghai-v2.jpg&w=1024&q=80",
         "topStays": [
           "The Peninsula Shanghai",
           "Bulgari Hotel Shanghai",
@@ -935,7 +935,7 @@
         "name": "Los Angeles",
         "slug": "los-angeles",
         "monthScore": "222222221122",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Flos-angeles.jpg&w=1024&q=80",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Flos-angeles-v2.jpg&w=1024&q=80",
         "topStays": [
           "The Beverly Hills Hotel",
           "Hotel Bel-Air",
@@ -957,7 +957,7 @@
         "name": "Las Vegas",
         "slug": "las-vegas",
         "monthScore": "221122000122",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Flas-vegas.jpg&w=1024&q=80",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Flas-vegas-v2.jpg&w=1024&q=80",
         "topStays": [
           "Waldorf Astoria Las Vegas",
           "The Venetian Resort",
@@ -1001,7 +1001,7 @@
         "name": "Mexico City",
         "slug": "mexico-city",
         "monthScore": "212222111222",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fmexico-city.jpg&w=1024&q=80",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fmexico-city-v2.jpg&w=1024&q=80",
         "topStays": [
           "Four Seasons Hotel Mexico City",
           "St. Regis Mexico City",
@@ -1122,7 +1122,7 @@
         "name": "Mumbai",
         "slug": "mumbai",
         "monthScore": "222110000122",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fmumbai.jpg&w=1024&q=80",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fmumbai-v2.jpg&w=1024&q=80",
         "topStays": [
           "The Taj Mahal Palace",
           "The Oberoi Mumbai",
@@ -1254,7 +1254,7 @@
         "name": "Kochi",
         "slug": "kochi",
         "monthScore": "221100000122",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fkochi.jpg&w=1024&q=80",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fkochi-v2.jpg&w=1024&q=80",
         "topStays": [
           "Brunton Boatyard",
           "Taj Malabar Resort & Spa",
@@ -1342,7 +1342,7 @@
         "name": "Chennai",
         "slug": "chennai",
         "monthScore": "221100001122",
-        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fchennai.jpg&w=1024&q=80",
+        "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fchennai-v2.jpg&w=1024&q=80",
         "topStays": [
           "ITC Grand Chola",
           "Taj Coromandel",
