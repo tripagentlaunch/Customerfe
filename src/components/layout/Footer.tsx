@@ -1,3 +1,4 @@
+import { useEffect, useState, type ReactNode } from "react";
 import { Link } from "react-router-dom";
 import { TaraAI } from "../TaraAI";
 import { useWhatsAppNumber } from "../../lib/useWhatsAppNumber";
@@ -12,9 +13,139 @@ import { useWhatsAppNumber } from "../../lib/useWhatsAppNumber";
 // elsewhere in the source, via the backend's /config endpoint (unset there
 // today, so this resolves to /enquire until a real number is configured).
 
+// Footer columns (2026-10-13, direct request: it read like a site map —
+// Explore alone had 13 links). Each column shows its few key links; the
+// rest sit behind a "More" toggle so every page stays reachable. On
+// phones each column also folds into its own dropdown.
+type FooterLink = { to: string; label: ReactNode; external?: boolean };
+type FooterColumn = { title: string; links: FooterLink[]; more?: FooterLink[] };
+
+function FooterLinkItem({ link }: { link: FooterLink }) {
+  if (link.external || /^(https?:|mailto:)/.test(link.to)) {
+    return (
+      <a href={link.to} {...(link.to.startsWith("http") ? { target: "_blank", rel: "noopener noreferrer" } : {})}>
+        {link.label}
+      </a>
+    );
+  }
+  return <Link to={link.to}>{link.label}</Link>;
+}
+
+// Columns open on wider screens, folded into dropdowns on phones.
+function useWideFooter(): boolean {
+  const query = "(min-width: 641px)";
+  const [wide, setWide] = useState(() => (typeof window === "undefined" ? true : window.matchMedia(query).matches));
+  useEffect(() => {
+    const mq = window.matchMedia(query);
+    const onChange = () => setWide(mq.matches);
+    mq.addEventListener("change", onChange);
+    return () => mq.removeEventListener("change", onChange);
+  }, []);
+  return wide;
+}
+
+function FooterCol({ col, wide }: { col: FooterColumn; wide: boolean }) {
+  const body = (
+    <>
+      {col.links.map((l, i) => (
+        <FooterLinkItem link={l} key={i} />
+      ))}
+      {col.more && (
+        <details className="fmore">
+          <summary>More</summary>
+          {col.more.map((l, i) => (
+            <FooterLinkItem link={l} key={i} />
+          ))}
+        </details>
+      )}
+    </>
+  );
+  if (wide) {
+    return (
+      <div>
+        <p className="fcol">{col.title}</p>
+        {body}
+      </div>
+    );
+  }
+  return (
+    <details className="fcol-fold">
+      <summary className="fcol">{col.title}</summary>
+      {body}
+    </details>
+  );
+}
+
 export function Footer() {
   const whatsappNumber = useWhatsAppNumber();
   const advisorHref = whatsappNumber ? `https://wa.me/${whatsappNumber}` : "/enquire";
+  const wide = useWideFooter();
+
+  const columns: FooterColumn[] = [
+    {
+      title: "Explore",
+      links: [
+        { to: "/destinations", label: "Destinations" },
+        { to: "/when-to-go", label: "When to go" },
+        { to: "/how-it-works", label: "How it works" },
+        { to: "/how-we-work", label: <TaraAI /> },
+        { to: "/journal", label: "Journal" },
+        { to: "/about", label: "About" },
+      ],
+      more: [
+        { to: "/journeys", label: "Journeys" },
+        { to: "/services", label: "What we handle" },
+        { to: "/membership", label: "Membership" },
+        { to: "/portal", label: "Member portal" },
+        { to: "/protection", label: "Protection" },
+        { to: "/careers", label: "Careers" },
+      ],
+    },
+    {
+      title: "Services",
+      links: [
+        { to: "/flights", label: "Flights" },
+        { to: "/hotels", label: "Hotels" },
+        { to: "/visas", label: "Visas" },
+        { to: "/points", label: "Points & payments" },
+        { to: "/offers", label: "Offers" },
+      ],
+      more: [
+        { to: "/visa-guides", label: "Visa guides" },
+        { to: "/flight-guides", label: "Flight guides" },
+        { to: "/stay-guides", label: "Stay guides" },
+      ],
+    },
+    {
+      title: "Get started",
+      links: [
+        { to: "/enquire", label: "Plan a trip" },
+        { to: "/invitation", label: "By invitation" },
+        {
+          to: advisorHref,
+          external: !!whatsappNumber,
+          label: (
+            <>
+              Speak with <TaraAI />
+            </>
+          ),
+        },
+        { to: "/refer", label: "Refer a friend" },
+        { to: "/trip", label: "Build a trip" },
+        { to: "mailto:invite@tripagent.vip", label: "invite@tripagent.vip" },
+      ],
+    },
+    {
+      title: "Help & legal",
+      links: [
+        { to: "/help", label: "Help" },
+        { to: "/contact", label: "Contact" },
+        { to: "/terms", label: "Terms" },
+        { to: "/privacy", label: "Privacy" },
+        { to: "/refund", label: "Refund of fees" },
+      ],
+    },
+  ];
 
   return (
     <footer className="footer">
@@ -36,59 +167,9 @@ export function Footer() {
             A private travel maison. Flights, hotels and visas — handled, completely.
           </p>
         </div>
-        <div>
-          <p className="fcol">Explore</p>
-          <Link to="/how-it-works">How it works</Link>
-          <Link to="/how-we-work">
-            <TaraAI />
-          </Link>
-          <Link to="/when-to-go">When to go</Link>
-          <Link to="/services">What we handle</Link>
-          <Link to="/destinations">Destinations</Link>
-          <Link to="/journeys">Journeys</Link>
-          <Link to="/membership">Membership</Link>
-          <Link to="/portal">Member portal</Link>
-          <Link to="/protection">Protection</Link>
-          <Link to="/about">About</Link>
-          <Link to="/journal">Journal</Link>
-          <Link to="/help">Help</Link>
-        </div>
-        <div>
-          <p className="fcol">Services</p>
-          <Link to="/flights">Flights</Link>
-          <Link to="/hotels">Hotels</Link>
-          <Link to="/visas">Visas</Link>
-          <Link to="/visa-guides">Visa guides</Link>
-          <Link to="/flight-guides">Flight guides</Link>
-          <Link to="/stay-guides">Stay guides</Link>
-          <Link to="/points">Points &amp; payments</Link>
-          <Link to="/offers">Offers</Link>
-        </div>
-        <div>
-          <p className="fcol">Get started</p>
-          <Link to="/invitation">By invitation</Link>
-          <Link to="/refer">Refer a friend</Link>
-          {whatsappNumber ? (
-            <a href={advisorHref} target="_blank" rel="noopener noreferrer">
-              Speak with <TaraAI />
-            </a>
-          ) : (
-            <Link to={advisorHref}>
-              Speak with <TaraAI />
-            </Link>
-          )}
-          <a href="mailto:invite@tripagent.vip">invite@tripagent.vip</a>
-          <Link to="/trip">Build a trip</Link>
-          <Link to="/enquire">Plan a trip</Link>
-          <Link to="/careers">Careers</Link>
-        </div>
-        <div>
-          <p className="fcol">Legal</p>
-          <Link to="/terms">Terms</Link>
-          <Link to="/privacy">Privacy</Link>
-          <Link to="/refund">Refund of fees</Link>
-          <Link to="/contact">Contact</Link>
-        </div>
+        {columns.map((col) => (
+          <FooterCol col={col} wide={wide} key={col.title} />
+        ))}
         <div className="legal">
           <span>© 2026 TripAgent · 44 Kingfisher Towers, Bangalore 560 001</span>
           <span>We stay.</span>
