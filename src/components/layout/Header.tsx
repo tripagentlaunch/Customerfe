@@ -22,7 +22,7 @@ const SEARCH_ICON = (
 );
 
 export function Header() {
-  const { signedIn, authError, clearAuthError } = useAuth();
+  const { signedIn, loading: authLoading, authError, clearAuthError } = useAuth();
   const tripDrawer = useTripDrawer();
   const profileDrawer = useProfileDrawer();
   const signInModal = useSignInModal();
@@ -155,7 +155,14 @@ export function Header() {
         </form>
 
         <div className="ta-hd-cluster">
-          <button className="ta-hd-trip ta-hd-profile" type="button" aria-label={signedIn ? "Profile" : "Sign in"} onClick={() => (signedIn ? profileDrawer.open() : signInModal.open("Sign in to your year."))}>
+          {/* Not shown as "Sign in" until the session check has answered —
+              it used to flash "Sign in" at members (2026-10-13). */}
+          <button
+            className="ta-hd-trip ta-hd-profile"
+            type="button"
+            style={!signedIn && authLoading ? { visibility: "hidden" } : undefined}
+            aria-label={signedIn ? "Profile" : "Sign in"}
+            onClick={() => (signedIn ? profileDrawer.open() : signInModal.open("Sign in to your year."))}>
             <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth={1.6} aria-hidden="true">
               <circle cx="12" cy="8" r="4" />
               <path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7" />
