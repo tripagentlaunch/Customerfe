@@ -1,0 +1,148 @@
+{
+  "_about": "City photos shown on city pages and homepage cards. Every photo must be properly licensed (Pexels License or commissioned) and reviewed once for the brand's aspirational style (a landmark, hotel or experience — not traffic, roads or office blocks). Once reviewed, keep it; replace only through this file.",
+  "photos": {
+    "osaka": {
+      "pexelsId": 39459442,
+      "photographer": "Zeki Land",
+      "page": "https://www.pexels.com/photo/majestic-osaka-castle-against-clear-blue-sky-39459442/",
+      "alt": "Stunning view of Osaka Castle with vibrant blue sky and autumn foliage.",
+      "license": "Pexels License (https://www.pexels.com/license/)",
+      "file": "/img/cities/osaka-v2.jpg",
+      "replaced": "/img/cities/osaka.jpg (everyday street/traffic shot)",
+      "chosen": "2026-10-13",
+      "reviewed": false
+    },
+    "hong-kong": {
+      "pexelsId": 27228788,
+      "photographer": "King  Ho",
+      "page": "https://www.pexels.com/photo/hong-kong-skyline-at-night-27228788/",
+      "alt": "A stunning night view of Hong Kong's illuminated skyline reflecting on Victoria Harbour.",
+      "license": "Pexels License (https://www.pexels.com/license/)",
+      "file": "/img/cities/hong-kong-v2.jpg",
+      "replaced": "/img/cities/hong-kong.jpg (everyday street/traffic shot)",
+      "chosen": "2026-10-13",
+      "reviewed": false
+    },
+    "seoul": {
+      "pexelsId": 6435268,
+      "photographer": "대정 김",
+      "page": "https://www.pexels.com/photo/gyeongbokgung-palace-in-the-middle-of-the-lake-surrounded-with-autumn-trees-6435268/",
+      "alt": "Tranquil autumn scene at Gyeongbokgung Palace with colorful trees and a serene lake reflection.",
+      "license": "Pexels License (https://www.pexels.com/license/)",
+      "file": "/img/cities/seoul-v2.jpg",
+      "replaced": "/img/cities/seoul.jpg (everyday street/traffic shot)",
+      "chosen": "2026-10-13",
+      "reviewed": false
+    },
+    "shanghai": {
+      "pexelsId": 32062049,
+      "photographer": "Olivia Cai",
+      "page": "https://www.pexels.com/photo/shanghai-skyline-at-dusk-with-bund-view-32062049/",
+      "alt": "Panoramic view of the illuminated Shanghai skyline and Huangpu River during twilight with iconic landmarks.",
+      "license": "Pexels License (https://www.pexels.com/license/)",
+      "file": "/img/cities/shanghai-v2.jpg",
+      "replaced": "/img/cities/shanghai.jpg (everyday street/traffic shot)",
+      "chosen": "2026-10-13",
+      "reviewed": false
+    },
+    "bangkok": {
+      "pexelsId": 35981279,
+      "photographer": "Margarita K",
+      "page": "https://www.pexels.com/photo/stunning-sunset-over-wat-arun-temple-in-bangkok-35981279/",
+      "alt": "Beautiful sunset view of Wat Arun temple silhouetted against a colorful sky in Bangkok, Thailand.",
+      "license": "Pexels License (https://www.pexels.com/license/)",
+      "file": "/img/cities/bangkok-v2.jpg",
+      "replaced": "/img/cities/bangkok.jpg (everyday street/traffic shot)",
+      "chosen": "2026-10-13",
+      "reviewed": false
+    },
+    "mumbai": {
+      "pexelsId": 6522114,
+      "photographer": "Shubam Bhasin",
+      "page": "https://www.pexels.com/photo/gateway-of-india-mumbai-under-clear-blue-sky-6522114/",
+      "alt": "The iconic Gateway of India in Mumbai, a popular tourist attraction and historical landmark, on a sunny day.",
+      "license": "Pexels License (https://www.pexels.com/license/)",
+      "file": "/img/cities/mumbai-v2.jpg",
+      "replaced": "/img/cities/mumbai.jpg (everyday street/traffic shot)",
+      "chosen": "2026-10-13",
+      "reviewed": false
+    },
+    "las-vegas": {
+      "pexelsId": 3636055,
+      "photographer": "Antonio Janeski",
+      "page": "https://www.pexels.com/photo/white-concrete-building-near-water-fountain-3636055/",
+      "alt": "Capturing the breathtaking Bellagio Fountain against the iconic Las Vegas skyline at twilight.",
+      "license": "Pexels License (https://www.pexels.com/license/)",
+      "file": "/img/cities/las-vegas-v2.jpg",
+      "replaced": "/img/cities/las-vegas.jpg (everyday street/traffic shot)",
+      "chosen": "2026-10-13",
+      "reviewed": false
+    },
+    "los-angeles": {
+      "pexelsId": 35120545,
+      "photographer": "Stephen Leonardi",
+      "page": "https://www.pexels.com/photo/griffith-observatory-with-los-angeles-skyline-at-twilight-35120545/",
+      "alt": "Griffith Observatory against the Los Angeles skyline during twilight, showcasing city lights and architectural beauty.",
+      "license": "Pexels License (https://www.pexels.com/license/)",
+      "file": "/img/cities/los-angeles-v2.jpg",
+      "replaced": "/img/cities/los-angeles.jpg (everyday street/traffic shot)",
+      "chosen": "2026-10-13",
+      "reviewed": false
+    },
+    "ho-chi-minh-city": {
+      "pexelsId": 32499988,
+      "photographer": "Đan Thy Nguyễn Mai",
+      "page": "https://www.pexels.com/photo/vibrant-night-cityscape-of-ho-chi-minh-city-32499988/",
+      "alt": "Stunning night view of Ho Chi Minh City's skyline reflecting on the Saigon River.",
+      "license": "Pexels License (https://www.pexels.com/license/)",
+      "file": "/img/cities/ho-chi-minh-city-v2.jpg",
+      "replaced": "/img/cities/ho-chi-minh-city.jpg (everyday street/traffic shot)",
+      "chosen": "2026-10-13",
+      "reviewed": false
+    },
+    "hanoi": {
+      "pexelsId": 28494588,
+      "photographer": "Boser Đàm",
+      "page": "https://www.pexels.com/photo/tranquil-scene-of-turtle-tower-in-hoan-kiem-lake-28494588/",
+      "alt": "Serene view of Turtle Tower in Hanoi's Hoan Kiem Lake surrounded by lush greenery.",
+      "license": "Pexels License (https://www.pexels.com/license/)",
+      "file": "/img/cities/hanoi-v2.jpg",
+      "replaced": "/img/cities/hanoi.jpg (everyday street/traffic shot)",
+      "chosen": "2026-10-13",
+      "reviewed": false
+    },
+    "mexico-city": {
+      "pexelsId": 15118186,
+      "photographer": "Ludovic Delot",
+      "page": "https://www.pexels.com/photo/palace-of-fine-arts-in-mexico-city-15118186/",
+      "alt": "Aerial view of the Palacio de Bellas Artes in Mexico City, surrounded by people and urban landscape.",
+      "license": "Pexels License (https://www.pexels.com/license/)",
+      "file": "/img/cities/mexico-city-v2.jpg",
+      "replaced": "/img/cities/mexico-city.jpg (everyday street/traffic shot)",
+      "chosen": "2026-10-13",
+      "reviewed": false
+    },
+    "kochi": {
+      "pexelsId": 20214378,
+      "photographer": "Nithin Thenkara",
+      "page": "https://www.pexels.com/photo/chinese-fishing-net-20214378/",
+      "alt": "A picturesque view of a large Chinese fishing net on a tranquil coastline under a blue sky.",
+      "license": "Pexels License (https://www.pexels.com/license/)",
+      "file": "/img/cities/kochi-v2.jpg",
+      "replaced": "/img/cities/kochi.jpg (everyday street/traffic shot)",
+      "chosen": "2026-10-13",
+      "reviewed": false
+    },
+    "chennai": {
+      "pexelsId": 34071591,
+      "photographer": "Nomadic Journey (VikramSingh Valera)",
+      "page": "https://www.pexels.com/photo/colorful-dravidian-temple-gopuram-against-blue-sky-34071591/",
+      "alt": "Vibrant Dravidian style temple gopuram with intricate carvings and colorful design under a clear blue sky.",
+      "license": "Pexels License (https://www.pexels.com/license/)",
+      "file": "/img/cities/chennai-v2.jpg",
+      "replaced": "/img/cities/chennai.jpg (everyday street/traffic shot)",
+      "chosen": "2026-10-13",
+      "reviewed": false
+    }
+  }
+}
