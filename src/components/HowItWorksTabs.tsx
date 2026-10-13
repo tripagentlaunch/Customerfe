@@ -38,7 +38,7 @@ export default function HowItWorksTabs() {
                 key={s.key}
                 type="button"
                 className={`${styles.node} ${i <= active ? styles.on : ""} ${i === active ? styles.current : ""} ${isHome ? styles.seal : ""}`}
-                style={{ left: `${(i / LAST) * 100}%` }}
+                style={{ left: `calc(var(--inset) + (100% - 2 * var(--inset)) * ${i / LAST})` }}
                 onClick={() => setActive(i)}
                 aria-current={i === active}
               >
