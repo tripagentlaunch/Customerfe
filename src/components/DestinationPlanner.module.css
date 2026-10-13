@@ -39,7 +39,9 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: clamp(48px, 5vw, 72px) clamp(16px, 1.7vw, 26px);
-  align-items: start;
+  /* Cards in a row share one height, so a hotel name that wraps lengthens
+     its whole row evenly instead of one card (see .plStays li). */
+  align-items: stretch;
 }
 @media (max-width: 980px) {
   .plGrid {
@@ -66,6 +68,7 @@
  * transform, and the background-color fill that was on the li. */
 .plCard {
   display: block;
+  height: 100%;
   overflow: hidden;
   background: transparent;
   text-decoration: none;
@@ -91,6 +94,7 @@
   display: grid;
   grid-template-rows: auto 1fr;
   gap: 16px;
+  height: 100%;
 }
 /* The text block's hover reveal. Top-anchored (transform-origin 50% 0%):
  * the top edge is fixed (matches zero top padding, flush against the
@@ -103,6 +107,8 @@
  * formula) across every current card before landing on these values;
  * re-verify the same way if padding or font-size here changes again. */
 .cardBody {
+  display: flex;
+  flex-direction: column;
   min-width: 0;
   padding: 0 10px 10px;
   transform: scale(1.06);
@@ -150,12 +156,9 @@
   color: var(--stone);
   padding: 5px 0 5px 13px;
   position: relative;
-  /* Longer hotel names (e.g. "Four Seasons Hotel Tokyo at Otemachi") were
-     wrapping to a second line, making that one card taller than its row
-     siblings even though the card's own box is otherwise fixed-size. */
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  /* Full names wrap (2026-10-13, direct request — they were cut off with
+     "…", e.g. "Four Seasons Hotel Tokyo at Ote…"); the row keeps one
+     height via .plGrid's stretch and .go's margin-top:auto. */
 }
 .plCard .plStays li::before {
   content: "";
@@ -172,7 +175,9 @@
   font-size: 15px;
   letter-spacing: 0.02em;
   color: var(--ink-soft);
-  margin-top: 14px;
+  margin-top: auto;
+  padding-top: 14px;
+  align-self: flex-start;
   padding-bottom: 3px;
   display: inline-flex;
   gap: 7px;
