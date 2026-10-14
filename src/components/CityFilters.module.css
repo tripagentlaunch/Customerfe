@@ -21,3 +21,40 @@
 .csMood{font-family:var(--fr);font-size:12.5px;letter-spacing:.02em;color:var(--ink-soft);background:transparent;border:1px solid var(--line);border-radius:0;padding:8px 16px;cursor:pointer;transition:border-color .22s var(--ease),color .22s var(--ease),background .22s var(--ease)}
 .csMood:hover{border-color:var(--ink)}
 .csMoodOn{background:var(--signature,#6E2A38);border-color:var(--signature,#6E2A38);color:#fff}
+
+/* Phone: the mood chips are one horizontally scrolling row (no "Mood" label;
+   the group keeps aria-label="Mood"). Tap a chip to select it, tap again to
+   remove it — a selected chip shows a close mark to say so. */
+@media(max-width:720px){
+  .csMoods{flex-wrap:nowrap;overflow-x:auto;gap:8px;margin-left:calc(var(--gutter) * -1);margin-right:calc(var(--gutter) * -1);padding-left:var(--gutter);padding-right:var(--gutter);scrollbar-width:none;-webkit-overflow-scrolling:touch}
+  .csMoods::-webkit-scrollbar{display:none}
+  .csMoodlbl{display:none}
+  .csMood{flex:none;white-space:nowrap}
+  .csMoodOn::after{content:"\00d7";margin-left:8px;font-size:15px;line-height:1;opacity:.85}
+}
+
+/* ---- Phone: one Filters button + bottom sheet (markup in CityFilters.tsx) ---- */
+.csBarM{display:flex;align-items:center;justify-content:space-between;gap:14px;margin-top:20px}
+.csFilterBtn{display:inline-flex;align-items:center;gap:9px;font-family:var(--fr);font-weight:600;font-size:12.5px;letter-spacing:.04em;color:var(--ink);background:transparent;border:1px solid var(--ink);padding:10px 16px;cursor:pointer}
+.csBadge{display:inline-flex;align-items:center;justify-content:center;min-width:18px;height:18px;padding:0 5px;border-radius:9px;background:var(--signature,#6E2A38);color:#fff;font-size:11px;font-weight:600;letter-spacing:0}
+.csBarM .csMeta{margin-left:0;padding-bottom:0}
+
+.sheetRoot{position:fixed;inset:0;z-index:1200}
+.sheetScrim{position:absolute;inset:0;background:rgba(16,12,9,.42);animation:sheetFade .24s ease both}
+.sheet{position:absolute;left:0;right:0;bottom:0;max-height:88svh;display:flex;flex-direction:column;background:var(--paper,#fff);border-radius:18px 18px 0 0;box-shadow:0 -20px 60px -20px rgba(16,12,9,.45);padding-bottom:env(safe-area-inset-bottom);animation:sheetUp .3s cubic-bezier(.22,.61,.36,1) both}
+.sheetGrab{width:38px;height:4px;border-radius:2px;background:var(--line);margin:10px auto 0;flex:none}
+.sheetHead{display:flex;align-items:center;justify-content:space-between;padding:12px 20px 4px;flex:none}
+.sheetHead h3{margin:0;font-family:var(--logo);font-weight:500;font-size:18px;color:var(--ink)}
+.sheetClose{width:36px;height:36px;display:flex;align-items:center;justify-content:center;background:none;border:0;color:var(--ink);cursor:pointer}
+.sheetBody{display:flex;flex-direction:column;gap:22px;padding:14px 20px 22px;overflow-y:auto}
+.sheetBody .csSelect{width:100%;min-width:0}
+.sheetFoot{display:flex;align-items:center;gap:12px;padding:14px 20px 18px;border-top:1px solid var(--line-soft,var(--line));flex:none}
+.sheetClear{font-family:var(--fr);font-size:10.5px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--signature,#6E2A38);background:none;border:0;cursor:pointer;padding:12px 4px}
+.sheetDone{flex:1;font-family:var(--fr);font-weight:600;font-size:13px;letter-spacing:.04em;color:#fff;background:var(--ink);border:0;padding:14px 16px;cursor:pointer}
+.sheetClosing .sheet{animation:sheetDown .24s ease-in both}
+.sheetClosing .sheetScrim{animation:sheetFadeOut .24s ease-in both}
+@keyframes sheetUp{from{transform:translateY(100%)}to{transform:none}}
+@keyframes sheetDown{from{transform:none}to{transform:translateY(100%)}}
+@keyframes sheetFade{from{opacity:0}to{opacity:1}}
+@keyframes sheetFadeOut{from{opacity:1}to{opacity:0}}
+@media(prefers-reduced-motion:reduce){.sheet,.sheetScrim,.sheetClosing .sheet,.sheetClosing .sheetScrim{animation-duration:.01s}}

@@ -1,8 +1,9 @@
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import destinationsData from "../data/destinations-index.generated.json";
 import type { DestinationsIndexPageData } from "../types/destinations-index";
 import { cardChips, type CitySearch, type CityRecord } from "../lib/citySearch";
+import { useIsMobile } from "../hooks/useIsMobile";
 import styles from "./CityRegions.module.css";
 
 // Same region > country > city scheme as the Destinations page's data file
@@ -38,20 +39,38 @@ function CityCard({ city, origin }: { city: CityRecord; origin: string }) {
 }
 
 export default function CityRegions({ search }: { search: CitySearch }) {
-  // Regions the visitor has collapsed; empty = everything expanded (default).
+  // Desktop: regions the visitor has collapsed; empty = everything expanded.
   const [collapsed, setCollapsed] = useState<Set<string>>(new Set());
-  const toggle = (label: string) =>
+  // Phone (mobile handoff): one region open at a time — opening one closes
+  // the others, and all can be closed. Starts with everything closed.
+  const isMobile = useIsMobile();
+  const [openLabel, setOpenLabel] = useState<string | null>(null);
+  const toggle = (label: string) => {
+    if (isMobile) {
+      setOpenLabel((cur) => (cur === label ? null : label));
+      return;
+    }
     setCollapsed((cur) => {
       const next = new Set(cur);
       if (next.has(label)) next.delete(label);
       else next.add(label);
       return next;
     });
+  };
   const bySlug = new Map(search.results.map((c) => [c.slug, c]));
   const regions = REGIONS.map((r) => ({
     label: r.label,
     cities: r.groups.flatMap((g) => g.cities).map((c) => bySlug.get(c.slug)).filter((c): c is CityRecord => !!c),
   })).filter((r) => r.cities.length > 0);
+
+  // Phone: when a search/filter first narrows the list, open the first
+  // region with a match so results aren't hidden behind closed headings.
+  const wasFiltered = useRef(false);
+  const firstLabel = regions[0]?.label ?? null;
+  useEffect(() => {
+    if (isMobile && search.filtered && !wasFiltered.current && firstLabel) setOpenLabel(firstLabel);
+    wasFiltered.current = search.filtered;
+  }, [isMobile, search.filtered, firstLabel]);
 
   if (regions.length === 0) {
     return <p className="lede">Nothing fits all of that — loosen a filter, or use Clear above.</p>;
@@ -59,7 +78,7 @@ export default function CityRegions({ search }: { search: CitySearch }) {
   return (
     <>
       {regions.map((r) => {
-        const isCollapsed = collapsed.has(r.label);
+        const isCollapsed = isMobile ? openLabel !== r.label : collapsed.has(r.label);
         const bodyId = `ci-region-${r.label.replace(/[^a-z0-9]+/gi, "-").toLowerCase()}`;
         return (
           <section className={`${styles.ciRegion}${isCollapsed ? ` ${styles.ciCollapsed}` : ""}`} key={r.label}>

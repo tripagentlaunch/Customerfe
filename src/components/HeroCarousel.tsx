@@ -9,6 +9,7 @@ import type { HeroSlide } from "../types/homepage";
 import { toRoute } from "../lib/toRoute";
 import { PrimaryInverseButton, SecondaryInverseButton } from "./buttons/InverseButtons";
 import { withTaraAI } from "./TaraAI";
+import { useIsMobile } from "../hooks/useIsMobile";
 import styles from "./HeroCarousel.module.css";
 
 // 720p web encodes (public/videos/homepage/web/, 2026-10-13) of the 1080p
@@ -86,6 +87,8 @@ export default function HeroCarousel({ slides }: { slides: HeroSlide[] }) {
   // Content is fixed — only the background photo cycles between slides.
   // Taken from the first slide, once, rather than re-read per active slide.
   const content = slides[0];
+  // Phone (mobile handoff): the first CTA reads "Browse cities".
+  const isMobile = useIsMobile();
 
   return (
     <header className={`hero left ${styles.heroEd}`} aria-roledescription="carousel" aria-label="A private travel maison">
@@ -152,7 +155,7 @@ export default function HeroCarousel({ slides }: { slides: HeroSlide[] }) {
                 if (ci === 0) {
                   return (
                     <PrimaryInverseButton to={cta.href} key={ci}>
-                      {cta.label}
+                      {isMobile ? "Browse cities" : cta.label}
                     </PrimaryInverseButton>
                   );
                 }
