@@ -2,6 +2,7 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 import App from "./App";
+import { PhoneFrame, PhoneFrameRouteSync, wantsPhoneFrame } from "./DevPhoneFrame";
 // Real site stylesheets, imported directly — same files the static .html
 // pages link, so pages render with real visual parity (see vite.config.ts's
 // server.fs.allow comment). fonts.css must load before site.css uses the
@@ -33,8 +34,13 @@ window.addEventListener("load", () => {
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <BrowserRouter future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
-      <App />
-    </BrowserRouter>
+    {wantsPhoneFrame() ? (
+      <PhoneFrame />
+    ) : (
+      <BrowserRouter future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
+        <PhoneFrameRouteSync />
+        <App />
+      </BrowserRouter>
+    )}
   </StrictMode>
 );
