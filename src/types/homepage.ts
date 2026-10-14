@@ -127,12 +127,13 @@ export interface SignatureNode {
   sublabel: string | null;
 }
 
-export interface TestimonialQuote {
-  quote: string | null;
-  attribution: string | null;
-  // The guest's trip and month, e.g. "Maldives honeymoon · March 2026" —
-  // only with the guest's consent; shown under the attribution when set.
-  trip?: string | null;
+// An illustrative trip on the homepage — clearly labelled as an example,
+// not a member review (2026-10-14: the section held placeholder quotes
+// presented as real members; real, consented testimonials can replace it).
+export interface ExampleTrip {
+  label: string | null;
+  title: string | null;
+  body: string | null;
 }
 
 export interface HomepageData {
@@ -229,7 +230,7 @@ export interface HomepageData {
     placeholder: boolean;
     eyebrow: string | null;
     heading: string | null;
-    quotes: TestimonialQuote[];
+    examples: ExampleTrip[];
     footnote: string | null;
   };
   finalCta: {

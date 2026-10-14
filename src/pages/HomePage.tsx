@@ -308,10 +308,9 @@ export default function HomePage() {
       </section>
       */}
 
-      {/* TESTIMONIALS — source marks this copy as placeholder pending real
-          member quotes before launch (testimonials.placeholder === true in
-          homepage.generated.json); same "known placeholder, not a content
-          pass" treatment as Footer.tsx's legal address. */}
+      {/* EXAMPLE TRIPS — this slot held placeholder member quotes signed
+          as real people; it now shows clearly labelled example trips until
+          real, consented testimonials exist (2026-10-14). */}
       <section className="band center">
         <div className="wrap">
           <div className="eyebrow reveal">{testimonials.eyebrow}</div>
@@ -320,14 +319,12 @@ export default function HomePage() {
             {testimonials.heading}
           </h2>
           <div className="quote-grid">
-            {testimonials.quotes.map((q, i) => (
-              <figure className={`tq reveal d${i + 1}`} key={i}>
-                <blockquote>{q.quote}</blockquote>
-                <figcaption>
-                  {q.attribution}
-                  {q.trip && <span className="tq-trip">{q.trip}</span>}
-                </figcaption>
-              </figure>
+            {testimonials.examples.map((ex, i) => (
+              <article className={`tq tq-example reveal d${i + 1}`} key={i}>
+                <div className="tq-label">{ex.label}</div>
+                <h3 className="tq-title">{ex.title}</h3>
+                <p className="tq-body">{ex.body}</p>
+              </article>
             ))}
           </div>
           <p className="muted reveal d3" style={{ fontSize: 12, marginTop: 34, letterSpacing: "0.04em" }}>
