@@ -1,5 +1,3 @@
-import { useEffect, useState } from "react";
-import { useLocation } from "react-router-dom";
 import { useAdvisorHref } from "../../lib/advisor";
 import { TaraAI } from "../TaraAI";
 
@@ -9,35 +7,14 @@ import { TaraAI } from "../TaraAI";
 // block at the end of that file).
 export function AdvisorButton() {
   const advisor = useAdvisorHref();
-  const { pathname } = useLocation();
 
-  // One look everywhere (2026-10-13, direct request): it used to turn pink
-  // over dark sections and black elsewhere, which read as a glitch. Past
-  // the first screen it shrinks to a round icon so it covers less of the
-  // page; hovering it, or being back near the top, shows the label again.
-  const [compact, setCompact] = useState(false);
-  useEffect(() => {
-    let raf = 0;
-    const measure = () => {
-      raf = 0;
-      setCompact(window.scrollY > window.innerHeight * 0.6);
-    };
-    const onScroll = () => {
-      if (!raf) raf = requestAnimationFrame(measure);
-    };
-    measure();
-    window.addEventListener("scroll", onScroll, { passive: true });
-    window.addEventListener("resize", onScroll);
-    return () => {
-      if (raf) cancelAnimationFrame(raf);
-      window.removeEventListener("scroll", onScroll);
-      window.removeEventListener("resize", onScroll);
-    };
-  }, [pathname]);
-
+  // Always the compact icon (2026-10-14, direct request): as a wide pill,
+  // or even as an icon at the old size and offset, it sat over text near
+  // the right edge (the "How it works" copy, the footer). The label opens
+  // on hover/focus; site.css sizes and places it inside the page margin.
   return (
     <a
-      className={`ta-advisor${compact ? " ta-advisor-compact" : ""}`}
+      className="ta-advisor ta-advisor-compact"
       aria-label="Talk to Tara AI"
       href={advisor.href}
       target={advisor.external ? "_blank" : "_self"}
