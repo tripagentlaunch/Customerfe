@@ -50,7 +50,9 @@
     definition. */
 
  :global(.city-hero){position:relative;min-height:100svh;display:flex;align-items:flex-end;color:#fff;background-size:cover;background-position:center;background-color:#15110d}
- :global(.city-hero)::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.28) 0%,transparent 26%,transparent 42%,rgba(0,0,0,.72) 100%)}
+ /* Left wash behind the copy + a deeper bottom, so the tagline reads on
+    busy, bright photos (2026-10-14, direct request). */
+ :global(.city-hero)::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,0,0,.55) 0%,rgba(0,0,0,.34) 36%,rgba(0,0,0,.08) 62%,transparent 78%),linear-gradient(180deg,rgba(0,0,0,.3) 0%,transparent 24%,transparent 36%,rgba(0,0,0,.82) 100%)}
  :global(.city-hero) :global(.wrap){position:relative;z-index:2;width:100%;text-align:left;padding-bottom:150px}
  :global(.city-hero) .bc{font-family:var(--fr);font-weight:600;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.85);text-decoration:none;display:block;margin-bottom:14px}
  :global(.city-hero) :global(.eyebrow){display:block;margin-bottom:6px}
@@ -68,13 +70,15 @@
  :global(.city-hero) h1{font-family:var(--serif);font-weight:600;font-size:clamp(56px,9.4vw,124px);line-height:.98;letter-spacing:-.004em;margin:0;text-shadow:0 2px 30px rgba(0,0,0,.4)}
  :global(.city-hero) .ess{font-size:clamp(17px,1.5vw,21px);line-height:1.5;color:rgba(255,255,255,.93);margin:16px 0 0;max-width:44ch;text-shadow:0 1px 3px rgba(0,0,0,.55)}
  /* decision ribbon in the hero foot */
- .ch-facts{display:flex;flex-wrap:wrap;gap:0;margin:26px 0 0;border-top:1px solid rgba(255,255,255,.24)}
- .ch-fact{padding:16px 30px 2px 0;margin-right:30px;border-right:1px solid rgba(255,255,255,.18)}
+ /* Key facts sit on a solid dark band so they read over any photo
+    (2026-10-14) — they used to float straight on the image. */
+ .ch-facts{display:inline-flex;flex-wrap:wrap;gap:0;margin:28px 0 0;padding:2px 24px 14px;background:rgba(14,11,8,.78);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,.12);max-width:100%}
+ .ch-fact{padding:14px 26px 2px 0;margin-right:26px;border-right:1px solid rgba(255,255,255,.18)}
  .ch-fact:last-child{border-right:0;margin-right:0}
  .ch-fact :global(.fk){display:block;font-family:var(--fr);font-weight:600;font-size:9.5px;letter-spacing:.15em;text-transform:uppercase;color:rgba(255,255,255,.72);margin-bottom:5px}
  .ch-fact .fv{display:block;font-family:var(--logo);font-weight:500;font-size:clamp(17px,1.6vw,21px);line-height:1.1;color:#fff;text-shadow:0 1px 3px rgba(0,0,0,.5)}
  .ch-fact .fv small{font-family:var(--fr);font-weight:500;font-size:12px;letter-spacing:.02em;color:rgba(255,255,255,.8)}
- @media(max-width:720px){.ch-fact{padding-right:20px;margin-right:20px}.ch-facts{gap:6px 0}}
+ @media(max-width:720px){.ch-fact{padding-right:16px;margin-right:16px}.ch-facts{gap:6px 0;padding:2px 16px 12px}}
  /* When to go / What's on now render via CalendarSection.tsx (its own
     module has the pill-strip and blurb styles) instead of inline here —
     only the two CityPage-only rules above that block used are gone.
