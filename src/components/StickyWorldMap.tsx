@@ -1,6 +1,8 @@
 import { useEffect, useLayoutEffect, useRef, useState } from "react";
 import type { ReactNode } from "react";
 import WorldMap from "./WorldMap";
+import PhoneWorldMap from "./PhoneWorldMap";
+import { useIsMobile } from "../hooks/useIsMobile";
 import mapTabsData from "../data/map-tabs.generated.json";
 import type { MapTabsData } from "../types/mapTabs";
 import styles from "./StickyWorldMap.module.css";
@@ -37,6 +39,10 @@ const LEFT_TO_RIGHT_ORDER = [
   "oceania",
 ];
 
+// The phone map's regions (src/data/worldmap-mobile/map-tabs.json), same
+// west-to-east order.
+const PHONE_LEFT_TO_RIGHT_ORDER = ["americas", "europe", "africa", "middle-east", "india", "east-asia", "southeast-asia", "oceania"];
+
 // Pins the map in place while the page scrolls through it. Before the
 // section actually sticks (normal scrolling, header still scrolling past
 // above it), it stays on World. The moment it sticks — normal scrolling
@@ -52,20 +58,25 @@ const LEFT_TO_RIGHT_ORDER = [
 // plain CSS sticky lets go on its own, and scrolling back up into the range
 // pins and cycles again, since nothing was released.
 export default function StickyWorldMap({ children }: { children?: ReactNode }) {
+  // Phone (mobile handoff): the header auto-hides and overlays the page, so
+  // the map pins 12px from the top instead of under the header.
+  const isMobile = useIsMobile();
   // Always North America first, then west to east (2026-10-14, direct
-  // request — it used to start at a random region, e.g. Oceania).
-  const segments = LEFT_TO_RIGHT_ORDER;
+  // request — it used to start at a random region, e.g. Oceania). Phones
+  // step through the phone map's own regions (Americas and Europe are one
+  // tab each there; the desktop keys would leave it on World).
+  const segments = isMobile ? PHONE_LEFT_TO_RIGHT_ORDER : LEFT_TO_RIGHT_ORDER;
 
   const [activeIndex, setActiveIndex] = useState(0);
   const stickyTopRef = useRef(STICKY_TOP);
   const [stickyTop, setStickyTop] = useState(STICKY_TOP);
   useEffect(() => {
-    const h = document.querySelector<HTMLElement>(".ta-hd")?.offsetHeight;
+    const h = isMobile ? 12 : document.querySelector<HTMLElement>(".ta-hd")?.offsetHeight;
     if (h) {
       stickyTopRef.current = h;
       setStickyTop(h);
     }
-  }, []);
+  }, [isMobile]);
   // Whether the section is actually pinned right now — i.e. the viewport is
   // currently somewhere inside the wrapper's tall span, with room on both
   // sides for the sticky child to hold its position. False for all normal
@@ -174,10 +185,12 @@ export default function StickyWorldMap({ children }: { children?: ReactNode }) {
   // drives the map, so the header's "hide on scroll down" rule made it
   // vanish for the whole section (2026-10-14). site.css reads this class.
   useEffect(() => {
-    const pinned = stuck && !released;
+    // Desktop only: on phones the header has its own auto-hide and the map
+    // pins near the top of the screen.
+    const pinned = stuck && !released && !isMobile;
     document.documentElement.classList.toggle("ta-map-pinned", pinned);
     return () => document.documentElement.classList.remove("ta-map-pinned");
-  }, [stuck, released]);
+  }, [stuck, released, isMobile]);
 
   // Lets the viewer bail out of the sticky/cycling experience early,
   // instead of scrolling through however many regions are left. Freezes in
@@ -249,8 +262,8 @@ export default function StickyWorldMap({ children }: { children?: ReactNode }) {
         className={styles.sticky}
         style={
           isReleased
-            ? { position: "static", height: `calc(100vh - ${stickyTop}px)` }
-            : { top: stickyTop, height: `calc(100vh - ${stickyTop}px)` }
+            ? { position: "static", height: `calc(100svh - ${stickyTop}px)` }
+            : { top: stickyTop, height: `calc(100svh - ${stickyTop}px)` }
         }
       >
         {children}
@@ -274,10 +287,14 @@ export default function StickyWorldMap({ children }: { children?: ReactNode }) {
             </span>
           </button>
         )}
-        <WorldMap
-          activeTabOverride={isReleased ? frozen.tab : stuck && !dwelling ? segments[activeIndex] : WORLD_TAB.key}
-          worldRevealKey={worldRevealKey}
-        />
+        {(() => {
+          const tab = isReleased ? frozen.tab : stuck && !dwelling ? segments[activeIndex] : WORLD_TAB.key;
+          return isMobile ? (
+            <PhoneWorldMap activeTabOverride={tab} worldRevealKey={worldRevealKey} scrollFriendly={!isReleased} />
+          ) : (
+            <WorldMap activeTabOverride={tab} worldRevealKey={worldRevealKey} />
+          );
+        })()}
       </div>
     </div>
   );
