@@ -4,8 +4,27 @@
  * the shared .band-dark background (#111, site.css) in light mode rather
  * than a section-specific override — tried a medium-dark brown here,
  * reverted back to black. */
+/* --hiw-t: one duration for every step change — line, dots, labels,
+   image and copy move together, so they never show different steps. */
 .section {
   overflow: hidden;
+  --hiw-t: 0.35s;
+}
+.copy {
+  animation: hiwCopyIn var(--hiw-t) var(--ease, ease);
+}
+@keyframes hiwCopyIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .section {
+    --hiw-t: 0.01s;
+  }
 }
 /* Site dark mode (:root[data-theme="dark"], see site.css) only — a dark
  * grey, distinguishably lighter than .band-dark's near-black #111 but not
@@ -45,7 +64,7 @@
   left: 0;
   height: 100%;
   background: #fff;
-  transition: width 0.6s var(--ease, ease);
+  transition: width var(--hiw-t) var(--ease, ease);
 }
 
 .node {
@@ -75,7 +94,7 @@
   border-radius: 50%;
   background: #14110d;
   border: 2px solid rgba(255, 255, 255, 0.45);
-  transition: border-color 0.4s var(--ease, ease), transform 0.4s var(--ease, ease), background 0.4s var(--ease, ease);
+  transition: border-color var(--hiw-t) var(--ease, ease), transform var(--hiw-t) var(--ease, ease), background var(--hiw-t) var(--ease, ease);
 }
 .node.on .dot {
   background: #fff;
@@ -98,7 +117,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: background 0.4s var(--ease, ease), color 0.4s var(--ease, ease), box-shadow 0.4s var(--ease, ease);
+  transition: background var(--hiw-t) var(--ease, ease), color var(--hiw-t) var(--ease, ease), box-shadow var(--hiw-t) var(--ease, ease);
 }
 .node.seal.on .dot {
   background: #fff;
@@ -117,7 +136,7 @@
   letter-spacing: -0.01em;
   color: #fff;
   opacity: 0.55;
-  transition: opacity 0.4s var(--ease, ease);
+  transition: opacity var(--hiw-t) var(--ease, ease);
 }
 .node.on .lab b {
   opacity: 1;
@@ -154,7 +173,7 @@
   height: 100%;
   object-fit: contain;
   opacity: 0;
-  transition: opacity 0.6s var(--ease, ease);
+  transition: opacity var(--hiw-t) var(--ease, ease);
 }
 .illustrationImgActive {
   opacity: 1;

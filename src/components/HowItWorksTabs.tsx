@@ -1,8 +1,7 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { HOW_IT_WORKS_STAGES as STAGES } from "../data/how-it-works-stages";
 import styles from "./HowItWorksTabs.module.css";
 
-const INTERVAL_MS = 6000;
 const LAST = STAGES.length - 1;
 
 // The horizontal line + dot/label track visually reuses the "Our Promise"
@@ -15,17 +14,50 @@ const LAST = STAGES.length - 1;
 // (line, dot, label/sublabel below, a distinct treatment for the final
 // stop) instead.
 export default function HowItWorksTabs() {
+  // One `active` step drives the track highlight, the image and the copy
+  // together. It changes only on scroll or click — no timer (2026-10-14,
+  // direct request: a 6s auto-advance, plus copy that switched instantly
+  // while the image and dots were still fading, left the highlight and the
+  // text on different steps).
   const [active, setActive] = useState(0);
+  const sectionRef = useRef<HTMLElement | null>(null);
 
+  // Scrolling through the section steps through the stages: as the section
+  // passes the middle of the screen, each fifth of it is one step. Applied
+  // only when the scroll position crosses into a different step, so a
+  // clicked step stays until the visitor scrolls on.
   useEffect(() => {
-    const id = setInterval(() => setActive((i) => (i + 1) % STAGES.length), INTERVAL_MS);
-    return () => clearInterval(id);
-  }, [active]);
+    let raf = 0;
+    let lastScrollStep = -1;
+    const measure = () => {
+      raf = 0;
+      const el = sectionRef.current;
+      if (!el) return;
+      const r = el.getBoundingClientRect();
+      const p = Math.min(0.999, Math.max(0, (window.innerHeight * 0.55 - r.top) / r.height));
+      const step = Math.floor(p * STAGES.length);
+      if (step !== lastScrollStep) {
+        lastScrollStep = step;
+        setActive(step);
+      }
+    };
+    const onScroll = () => {
+      if (!raf) raf = requestAnimationFrame(measure);
+    };
+    measure();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    window.addEventListener("resize", onScroll);
+    return () => {
+      window.removeEventListener("scroll", onScroll);
+      window.removeEventListener("resize", onScroll);
+      if (raf) cancelAnimationFrame(raf);
+    };
+  }, []);
 
   const current = STAGES[active];
 
   return (
-    <section className={`band-dark band how-it-works-band ${styles.section}`}>
+    <section ref={sectionRef} className={`band-dark band how-it-works-band ${styles.section}`}>
       <div className="wrap">
         <div className={styles.track}>
           <div className={styles.line}>
@@ -74,7 +106,7 @@ export default function HowItWorksTabs() {
               />
             ))}
           </div>
-          <div className={styles.copy}>
+          <div className={styles.copy} key={active}>
             <div className="eyebrow on-dark">
               {String(active + 1).padStart(2, "0")} — {current.label}
             </div>
