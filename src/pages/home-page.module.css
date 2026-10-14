@@ -275,11 +275,11 @@
 }
 @media (max-width: 640px) {
   .discSearch {
-    gap: 13px;
-    padding: 18px;
+    gap: 12px;
+    padding: 12px 14px;
   }
   .dsLabel {
-    font-size: 17px;
+    font-size: 14px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -288,7 +288,7 @@
     display: none;
   }
   .dsInput {
-    font-size: 17px;
+    font-size: 14px;
   }
   .dsResults {
     padding: 0 18px 14px;
@@ -505,5 +505,22 @@
 @media (max-width: 480px) {
   .servicesLede {
     white-space: normal;
+  }
+}
+
+/* Phone: 18px headings, and the card hugs its content (no fixed min-height, so
+   the link follows the copy instead of being pushed to the bottom). */
+@media (max-width: 720px) {
+  .decCard {
+    min-height: 0;
+  }
+  .decCard h3 {
+    font-size: 18px;
+  }
+  .decCard p {
+    margin-bottom: 8px;
+  }
+  .decCard .go {
+    margin-top: 0;
   }
 }
