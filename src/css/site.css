@@ -3187,3 +3187,12 @@ main > section[id], main > header[id]{scroll-margin-top:64px}
 .footer .fcol-fold[open]{padding-bottom:12px}
 @media(max-width:640px){ .footer .wrap{grid-template-columns:1fr;gap:0} .footer .wrap>div:first-child{margin-bottom:22px} }
 
+
+/* Testimonial trip line under the attribution (2026-10-13), e.g. "Maldives
+   honeymoon · March 2026" — set per quote in homepage.generated.json. */
+.tq figcaption .tq-trip{display:block;margin-top:6px;font-weight:500;font-size:13px;letter-spacing:.02em;text-transform:none;color:var(--stone)}
+
+/* Header stays visible while the homepage world map is pinned
+   (StickyWorldMap.tsx toggles html.ta-map-pinned) — 2026-10-14. */
+html.ta-map-pinned .ta-hd{transform:translateY(0)}
+

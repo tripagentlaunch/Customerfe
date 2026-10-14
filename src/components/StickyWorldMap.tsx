@@ -1,4 +1,4 @@
-import { useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useLayoutEffect, useRef, useState } from "react";
 import type { ReactNode } from "react";
 import WorldMap from "./WorldMap";
 import mapTabsData from "../data/map-tabs.generated.json";
@@ -10,7 +10,10 @@ const { world: WORLD_TAB } = mapTabsData as MapTabsData;
 // Fixed pin offset from the viewport top — was measured off the site
 // header's own height, but that left a visible gap above the section once
 // pinned.
-const STICKY_TOP = 30;
+// Fallback for the pin offset; the real value is the site header's height,
+// measured on mount, because the header now stays on screen while the map
+// is pinned (2026-10-14) and the map pins just below it.
+const STICKY_TOP = 64;
 
 // Extra scroll on World right after the section sticks, before the
 // scroll-driven region cycle takes over — expressed as a fraction of the
@@ -49,12 +52,20 @@ const LEFT_TO_RIGHT_ORDER = [
 // plain CSS sticky lets go on its own, and scrolling back up into the range
 // pins and cycles again, since nothing was released.
 export default function StickyWorldMap({ children }: { children?: ReactNode }) {
-  const segments = useMemo(() => {
-    const startIdx = Math.floor(Math.random() * LEFT_TO_RIGHT_ORDER.length);
-    return [...LEFT_TO_RIGHT_ORDER.slice(startIdx), ...LEFT_TO_RIGHT_ORDER.slice(0, startIdx)];
-  }, []);
+  // Always North America first, then west to east (2026-10-14, direct
+  // request — it used to start at a random region, e.g. Oceania).
+  const segments = LEFT_TO_RIGHT_ORDER;
 
   const [activeIndex, setActiveIndex] = useState(0);
+  const stickyTopRef = useRef(STICKY_TOP);
+  const [stickyTop, setStickyTop] = useState(STICKY_TOP);
+  useEffect(() => {
+    const h = document.querySelector<HTMLElement>(".ta-hd")?.offsetHeight;
+    if (h) {
+      stickyTopRef.current = h;
+      setStickyTop(h);
+    }
+  }, []);
   // Whether the section is actually pinned right now — i.e. the viewport is
   // currently somewhere inside the wrapper's tall span, with room on both
   // sides for the sticky child to hold its position. False for all normal
@@ -100,7 +111,7 @@ export default function StickyWorldMap({ children }: { children?: ReactNode }) {
   const computeFreeze = (tab: string) => {
     const el = wrapRef.current;
     if (!el) return null;
-    const consumed = Math.max(0, STICKY_TOP - el.getBoundingClientRect().top);
+    const consumed = Math.max(0, stickyTopRef.current - el.getBoundingClientRect().top);
     return { consumed, tab };
   };
 
@@ -118,7 +129,7 @@ export default function StickyWorldMap({ children }: { children?: ReactNode }) {
         // Shifted by STICKY_TOP since the sticky child pins at
         // `top: STICKY_TOP`, not `top: 0` — it engages once the wrapper's
         // own top has scrolled up to that offset, not all the way to 0.
-        const adjustedTop = rect.top - STICKY_TOP;
+        const adjustedTop = rect.top - stickyTopRef.current;
         const isStuck = adjustedTop <= 0 && rect.bottom >= viewportH;
         // Scrolling through to the end does nothing special: plain CSS
         // `position: sticky` lets go on its own once the wrapper's bottom
@@ -158,6 +169,15 @@ export default function StickyWorldMap({ children }: { children?: ReactNode }) {
       if (raf) cancelAnimationFrame(raf);
     };
   }, [segments.length]);
+
+  // Keeps the site header on screen while the map is pinned: scrolling here
+  // drives the map, so the header's "hide on scroll down" rule made it
+  // vanish for the whole section (2026-10-14). site.css reads this class.
+  useEffect(() => {
+    const pinned = stuck && !released;
+    document.documentElement.classList.toggle("ta-map-pinned", pinned);
+    return () => document.documentElement.classList.remove("ta-map-pinned");
+  }, [stuck, released]);
 
   // Lets the viewer bail out of the sticky/cycling experience early,
   // instead of scrolling through however many regions are left. Freezes in
@@ -229,8 +249,8 @@ export default function StickyWorldMap({ children }: { children?: ReactNode }) {
         className={styles.sticky}
         style={
           isReleased
-            ? { position: "static", height: `calc(100vh - ${STICKY_TOP}px)` }
-            : { top: STICKY_TOP, height: `calc(100vh - ${STICKY_TOP}px)` }
+            ? { position: "static", height: `calc(100vh - ${stickyTop}px)` }
+            : { top: stickyTop, height: `calc(100vh - ${stickyTop}px)` }
         }
       >
         {children}
@@ -238,7 +258,7 @@ export default function StickyWorldMap({ children }: { children?: ReactNode }) {
             (absolute within .sticky), not fixed to the window — it used to
             sit beside the theme toggle and read as a site-wide control
             stuck on screen (2026-10-13). */}
-        {!isReleased && stuck && (
+        {!isReleased && stuck && !dwelling && (
           <button type="button" className={styles.exitMapButton} onClick={handleExitMap}>
             <span className={styles.exitMapLabel}>
               <svg viewBox="0 0 16 16" width="12" height="12" aria-hidden="true">
