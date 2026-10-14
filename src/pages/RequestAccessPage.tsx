@@ -201,6 +201,13 @@ export default function RequestAccessPage() {
           <p className={styles.lede}>
             Personal travel planning, curated experiences and expert advisors — for members, by invitation.
           </p>
+          {/* Phone only (CSS): members with a code reach the door without
+              scrolling past the whole request form — on phones the only
+              other "Open the door" link sits below it (2026-10-14). */}
+          <Link to="/claim" className={styles.doorTop}>
+            <span>Already have a code?</span>
+            <b>Open the door →</b>
+          </Link>
         </div>
 
         <div className={styles.card}>
