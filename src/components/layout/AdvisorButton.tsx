@@ -1,4 +1,6 @@
+import { useEffect, useState } from "react";
 import { useAdvisorHref } from "../../lib/advisor";
+import { useIsMobile } from "../../hooks/useIsMobile";
 import { TaraAI } from "../TaraAI";
 
 // Ported from js/site.js's EXPERT HANDOFF block — the fixed, page-context-
@@ -8,13 +10,28 @@ import { TaraAI } from "../TaraAI";
 export function AdvisorButton() {
   const advisor = useAdvisorHref();
 
-  // Always the compact icon (2026-10-14, direct request): as a wide pill,
-  // or even as an icon at the old size and offset, it sat over text near
-  // the right edge (the "How it works" copy, the footer). The label opens
-  // on hover/focus; site.css sizes and places it inside the page margin.
+  // Desktop: always the compact icon (2026-10-14, direct request) — as a
+  // wide pill it sat over text near the right edge; the label opens on
+  // hover/focus and site.css keeps it inside the page margin.
+  // Phone (<=900px, mobile handoff): loads as the icon, opens to show its
+  // label after 0.5s, holds it for 5s, then settles back to the icon.
+  const isMobile = useIsMobile(900);
+  const [phoneCompact, setPhoneCompact] = useState(true);
+  useEffect(() => {
+    if (!isMobile) return;
+    setPhoneCompact(true);
+    const open = window.setTimeout(() => setPhoneCompact(false), 500);
+    const close = window.setTimeout(() => setPhoneCompact(true), 5500);
+    return () => {
+      window.clearTimeout(open);
+      window.clearTimeout(close);
+    };
+  }, [isMobile]);
+  const compact = !isMobile || phoneCompact;
+
   return (
     <a
-      className="ta-advisor ta-advisor-compact"
+      className={`ta-advisor${compact ? " ta-advisor-compact" : ""}`}
       aria-label="Talk to Tara AI"
       href={advisor.href}
       target={advisor.external ? "_blank" : "_self"}

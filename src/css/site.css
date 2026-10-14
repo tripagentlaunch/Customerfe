@@ -1441,7 +1441,6 @@ section.sig::after{background:linear-gradient(180deg,rgba(0,0,0,.46),rgba(0,0,0,
    unit on hover, same reasoning as the arrow-in-label fix on .plan-cta. */
 .ta-advisor-inner{display:inline-flex;align-items:center;gap:9px;transform:scale(1);transition:transform .3s var(--ease)}
 .ta-advisor:hover .ta-advisor-inner{transform:scale(1.1)}
-@media(max-width:560px){.ta-advisor{padding:15px;border-radius:50%}.ta-advisor-inner{gap:0}.ta-advisor-inner span{display:none}}
 @media print{.ta-advisor{display:none}}
 
 /* ===== CITY ITINERARY — day-by-day "The plan" (KRA) ===== */
@@ -3272,3 +3271,12 @@ html.ta-map-pinned .ta-hd{transform:translateY(0)}
 @media(max-width:720px){
   .ta-theme{display:none!important}
 }
+
+/* Phone Tara button (<=900px, mobile handoff): 40px tall like the other
+   floating controls. Its label opens for ~5s after load (AdvisorButton.tsx);
+   the compact icon state is the shared .ta-advisor-compact rules above. */
+@media(max-width:900px){
+  .ta-advisor{box-sizing:border-box;height:40px;padding:0 16px 0 14px}
+  .ta-advisor.ta-advisor-compact{padding:0 10px}
+}
+
