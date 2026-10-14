@@ -1,5 +1,7 @@
 import WorldMap from "./WorldMap";
 import StickyWorldMap from "./StickyWorldMap";
+import PhoneWorldMap from "./PhoneWorldMap";
+import { useIsMobile } from "../hooks/useIsMobile";
 import styles from "./WorldMapSection.module.css";
 import { useScrollReveal } from "../lib/useScrollReveal";
 
@@ -42,6 +44,7 @@ function Intro() {
 // The map runs full page width (not inside a `.wrap`) — `.band`/`.tight`
 // only add vertical padding, so a direct child already spans edge-to-edge.
 export default function WorldMapSection({ sticky = false }: { sticky?: boolean }) {
+  const isMobile = useIsMobile();
   // Its own reveal pass: on /destinations it mounts after the page's (it
   // loads on demand), so the page-level pass never saw its elements.
   useScrollReveal([]);
@@ -55,7 +58,14 @@ export default function WorldMapSection({ sticky = false }: { sticky?: boolean }
         ) : (
           <>
             <Intro />
-            <WorldMap />
+            {isMobile ? (
+              // The phone map fills its parent's height, so give it one.
+              <div style={{ height: "72svh", display: "flex", flexDirection: "column" }}>
+                <PhoneWorldMap />
+              </div>
+            ) : (
+              <WorldMap />
+            )}
           </>
         )}
       </div>
