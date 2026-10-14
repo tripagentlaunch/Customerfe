@@ -1,7 +1,11 @@
 /* Converted from index.html's #planner inline <style> block. */
 
+/* No bottom padding: the next section ("What we handle") brings its own
+   top padding, and the two stacked left ~300px of blank space after the
+   city grid (2026-10-14) — now about half. */
 .section {
   background: var(--paper);
+  padding-bottom: 0;
 }
 .plHead {
   max-width: 52ch;
