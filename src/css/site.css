@@ -3287,3 +3287,25 @@ html.ta-map-pinned .ta-hd{transform:translateY(0)}
 @media(max-width:720px){
   html .hero,html .hero.left,html .city-hero{min-height:85svh}
 }
+
+/* ===== Phone testimonials (<=720px): one swipeable row with dots =====
+   Cards narrower than the screen so the next one peeks in; padding trimmed. */
+.quote-dots{display:none}
+@media(max-width:720px){
+  .quote-grid{display:flex;grid-template-columns:none;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;margin:0 calc(var(--gutter) * -1);padding:0 var(--gutter);scroll-padding-inline:var(--gutter);scrollbar-width:none;-webkit-overflow-scrolling:touch}
+  .quote-grid::-webkit-scrollbar{display:none}
+  .quote-grid>.tq{flex:0 0 80%;scroll-snap-align:start;padding:22px 20px}
+  .tq figcaption{margin-top:14px}
+  .quote-dots{display:flex;justify-content:center;gap:8px;margin-top:18px}
+  .quote-dots button{width:6px;height:6px;padding:0;border:0;border-radius:50%;background:var(--line);cursor:pointer;transition:background .25s,transform .25s}
+  .quote-dots button[aria-selected="true"]{background:var(--ink);transform:scale(1.25)}
+}
+
+/* Phone testimonials: the "Member experiences" footnote moves up to sit right
+   under the heading (CSS order only; DOM and desktop unchanged). */
+@media(max-width:720px){
+  .wrap:has(>.quote-grid){display:flex;flex-direction:column}
+  .wrap:has(>.quote-grid)>.quote-grid,.wrap:has(>.quote-grid)>.quote-dots{order:2}
+  .wrap:has(>.quote-grid)>h2{margin-bottom:12px!important}
+  .wrap:has(>.quote-grid)>p.muted{order:1;margin:0 0 26px!important}
+}

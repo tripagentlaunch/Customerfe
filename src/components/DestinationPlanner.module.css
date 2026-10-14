@@ -39,6 +39,26 @@
   color: #fff;
 }
 
+/* Phone: one scrolling row, tighter vertical spacing, bleeding to the screen
+   edges (the glide-to-current-month animation lives in DestinationPlanner.tsx). */
+@media (max-width: 720px) {
+  .plMonths {
+    position: relative;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    margin: 16px calc(var(--gutter) * -1) 20px;
+    padding: 0 var(--gutter);
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
+  .plMonths::-webkit-scrollbar {
+    display: none;
+  }
+  .plMonths button {
+    flex: none;
+  }
+}
+
 .plGrid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -147,6 +167,17 @@
   line-height: 1.08;
   margin: 15px 0 0;
 }
+/* Phone: 18px city names, and the name sits close under the photo
+   (the 16px grid gap + 15px heading margin collapse to 8px total). */
+@media (max-width: 720px) {
+  .cardOuter {
+    gap: 8px;
+  }
+  .plCard h3 {
+    font-size: 18px;
+    margin-top: 0;
+  }
+}
 .plCard .plStays {
   list-style: none;
   margin: 11px 0 0;
@@ -213,4 +244,39 @@
 .plFoot :global(a) {
   color: var(--accent-2);
   font-weight: 600;
+}
+
+/* Phone pager: arrows either side of "1 / 4", under the single visible row. */
+.plPager {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  margin-top: 28px;
+  font-family: var(--fr);
+  font-weight: 600;
+  font-size: 12.5px;
+  letter-spacing: 0.06em;
+  color: var(--ink-soft);
+}
+.plPager button {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--card);
+  color: var(--ink);
+  cursor: pointer;
+  transition: border-color 0.25s var(--ease), opacity 0.25s var(--ease);
+}
+.plPager button:not(:disabled):hover {
+  border-color: var(--ink);
+}
+.plPager button:disabled {
+  opacity: 0.35;
+  cursor: default;
 }

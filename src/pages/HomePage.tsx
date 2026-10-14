@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react"; // useRef unused while the "Our Promise" scroll-drawn line is shelved (see below) — restore alongside it
+import { useEffect, useRef, useState } from "react"; // useRef unused while the "Our Promise" scroll-drawn line is shelved (see below) — restore alongside it
 import { Link } from "react-router-dom";
 import homepageData from "../data/homepage.generated.json";
 import type { HomepageData } from "../types/homepage";
@@ -42,6 +42,24 @@ export default function HomePage() {
   // today"), `way` ("What we did"), and `membership` were all removed from
   // the homepage per request — sections and data references alike.
   const { discover, decide, planner, services, testimonials, finalCta } = data;
+
+  // Phone example-trip carousel (mobile handoff): which card is in view
+  // (drives the dots).
+  const quotesRef = useRef<HTMLDivElement>(null);
+  const [quoteIdx, setQuoteIdx] = useState(0);
+  const onQuotesScroll = () => {
+    const row = quotesRef.current;
+    const first = row?.firstElementChild as HTMLElement | null;
+    if (!row || !first) return;
+    const step = first.offsetWidth + parseFloat(getComputedStyle(row).columnGap || "0");
+    setQuoteIdx(Math.max(0, Math.min(testimonials.examples.length - 1, Math.round(row.scrollLeft / step))));
+  };
+  const scrollToQuote = (i: number) => {
+    const row = quotesRef.current;
+    const card = row?.children[i] as HTMLElement | undefined;
+    if (!row || !card) return;
+    row.scrollTo({ left: card.offsetLeft - (row.firstElementChild as HTMLElement).offsetLeft, behavior: "smooth" });
+  };
   // `howItWorks` and `stats`/`signature` (data.howItWorks/.stats/.signature) are unused while their sections below are shelved — restore these destructures alongside them.
 
   // ---------------- Discover: "Continue planning" rail ----------------
@@ -318,13 +336,27 @@ export default function HomePage() {
           <h2 className="reveal d1" style={{ margin: "0 auto 50px" }}>
             {testimonials.heading}
           </h2>
-          <div className="quote-grid">
+          <div className="quote-grid" ref={quotesRef} onScroll={onQuotesScroll}>
             {testimonials.examples.map((ex, i) => (
               <article className={`tq tq-example reveal d${i + 1}`} key={i}>
                 <div className="tq-label">{ex.label}</div>
                 <h3 className="tq-title">{ex.title}</h3>
                 <p className="tq-body">{ex.body}</p>
               </article>
+            ))}
+          </div>
+          {/* Phone only (hidden above 720px in site.css): the cards are one
+              swipeable row; these dots track and jump between them. */}
+          <div className="quote-dots" role="tablist" aria-label="Example trips">
+            {testimonials.examples.map((_, i) => (
+              <button
+                type="button"
+                role="tab"
+                aria-selected={i === quoteIdx}
+                aria-label={`Example ${i + 1}`}
+                key={i}
+                onClick={() => scrollToQuote(i)}
+              />
             ))}
           </div>
           <p className="muted reveal d3" style={{ fontSize: 12, marginTop: 34, letterSpacing: "0.04em" }}>
