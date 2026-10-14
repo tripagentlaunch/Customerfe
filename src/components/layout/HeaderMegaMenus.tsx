@@ -101,7 +101,7 @@ export function ExploreMega() {
   return (
     <div className="ta-mega ta-mega-rich">
       <div className="ta-explore">
-        <MegaFeat slug="udaipur" eyebrow="Destinations" name="110, decided" href="destinations.html" />
+        <MegaFeat slug="udaipur" eyebrow="All destinations" name="110, decided" href="destinations.html" />
         <div className="ta-explore-links">
           <ExploreGroup
             label="Journeys"

@@ -1,10 +1,11 @@
 import { useEffect, useRef, useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useAuth } from "../../lib/auth";
 import { useTripDrawer } from "../../lib/tripDrawer";
 import { useProfileDrawer } from "../../lib/profileDrawer";
 import { useSignInModal } from "../../lib/signInModal";
 import { useNavMenu } from "../../lib/navMenu";
+import { useIsMobile } from "../../hooks/useIsMobile";
 import { ExploreMega } from "./HeaderMegaMenus";
 
 // Ported from js/shell.js's header build (~line 60-80) — the real,
@@ -26,12 +27,13 @@ export function Header() {
   const tripDrawer = useTripDrawer();
   const profileDrawer = useProfileDrawer();
   const signInModal = useSignInModal();
-  const { menuOpen, openRoom, toggleMenu, toggleRoom } = useNavMenu();
+  const { menuOpen, openRoom, toggleRoom } = useNavMenu();
   const navigate = useNavigate();
 
   const [query, setQuery] = useState("");
   const headerRef = useRef<HTMLElement>(null);
   const edgeRef = useRef<HTMLDivElement>(null);
+  const searchRef = useRef<HTMLFormElement>(null);
 
   // Auto-hiding header: peeks open on page load; after that see the
   // activity rules below (and it stays open while hovered or while a mega
@@ -106,7 +108,69 @@ export function Header() {
       if (raf) cancelAnimationFrame(raf);
     };
   }, []);
-  const headerVisible = atTop || active || initialPeek || sidebarPeek || hovering || menuOpen || openRoom !== null;
+  const desktopVisible = atTop || active || initialPeek || sidebarPeek || hovering || menuOpen || openRoom !== null;
+
+  // Phone (mobile handoff, 2026-10-14): no hover. In the first half of a
+  // page's hero (.hero or .city-hero, measured from the element itself) the
+  // bar stays visible. Past that point it hides, comes back only when the
+  // page is scrolled UP, then hides again on the next scroll DOWN or after
+  // PHONE_SHOW_MS — whichever is first. Pages with no hero: visible on load,
+  // hidden after PHONE_PEEK_MS. It stays put while the Explore panel is open
+  // or the search field has focus.
+  const isMobile = useIsMobile();
+  const { pathname } = useLocation();
+  const [phoneShown, setPhoneShown] = useState(true);
+  const [focusWithin, setFocusWithin] = useState(false);
+  useEffect(() => {
+    if (!isMobile) return;
+    const PHONE_PEEK_MS = 2500;
+    const PHONE_SHOW_MS = 3000;
+    const MIN_DELTA = 6; // px of travel before a direction counts
+    const inHeroZone = () => {
+      const hero = document.querySelector<HTMLElement>(".hero, .city-hero");
+      if (!hero) return false;
+      const r = hero.getBoundingClientRect();
+      return window.scrollY < r.top + window.scrollY + r.height / 2;
+    };
+    setPhoneShown(true);
+    let timer = window.setTimeout(() => {
+      if (!inHeroZone()) setPhoneShown(false);
+    }, PHONE_PEEK_MS);
+    let lastY = window.scrollY;
+    let raf = 0;
+    const tick = () => {
+      raf = 0;
+      const y = window.scrollY;
+      if (inHeroZone()) {
+        window.clearTimeout(timer);
+        lastY = y;
+        setPhoneShown(true);
+        return;
+      }
+      const dy = y - lastY;
+      if (Math.abs(dy) < MIN_DELTA) return;
+      lastY = y;
+      window.clearTimeout(timer);
+      if (dy < 0) {
+        setPhoneShown(true);
+        timer = window.setTimeout(() => setPhoneShown(false), PHONE_SHOW_MS);
+      } else {
+        setPhoneShown(false);
+      }
+    };
+    const onScroll = () => {
+      if (!raf) raf = requestAnimationFrame(tick);
+    };
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => {
+      window.removeEventListener("scroll", onScroll);
+      window.clearTimeout(timer);
+      if (raf) cancelAnimationFrame(raf);
+    };
+  }, [isMobile, pathname]);
+  const headerVisible = isMobile
+    ? phoneShown || sidebarPeek || menuOpen || openRoom !== null || focusWithin
+    : desktopVisible;
 
   // A magic-link click can complete a Supabase session with no linked
   // site_members row (see auth.tsx's hydrate()) — that happens on a full
@@ -140,6 +204,24 @@ export function Header() {
     };
   }, [tripDrawer, profileDrawer, toggleRoom]);
 
+  // Publishes the header's height (--ta-hd-h) and where the search row starts
+  // (--ta-hd-search-top), which anchors the phone Explore panel over it.
+  useEffect(() => {
+    const el = headerRef.current;
+    if (!el) return;
+    const set = () => {
+      const root = document.documentElement.style;
+      root.setProperty("--ta-hd-h", `${el.offsetHeight}px`);
+      const search = searchRef.current;
+      if (search) root.setProperty("--ta-hd-search-top", `${search.getBoundingClientRect().top - el.getBoundingClientRect().top}px`);
+    };
+    set();
+    const ro = new ResizeObserver(set);
+    ro.observe(el);
+    if (searchRef.current) ro.observe(searchRef.current);
+    return () => ro.disconnect();
+  }, []);
+
   useEffect(() => {
     document.documentElement.style.overflow = menuOpen ? "hidden" : "";
   }, [menuOpen]);
@@ -158,6 +240,10 @@ export function Header() {
         data-shell
         onMouseEnter={() => setHovering(true)}
         onMouseLeave={onAreaLeave}
+        // Only typing in search holds the phone header open — a tapped button
+        // (Explore, Profile) keeps focus and used to pin it open for good.
+        onFocus={(e) => setFocusWithin(e.target instanceof HTMLInputElement)}
+        onBlur={() => setFocusWithin(false)}
       >
       <div className="ta-hd-top">
         <Link className="ta-hd-brand" to="/">
@@ -181,7 +267,7 @@ export function Header() {
           </div>
         </nav>
 
-        <form className="ta-hd-search" role="search" onSubmit={submitSearch}>
+        <form ref={searchRef} className="ta-hd-search" role="search" onSubmit={submitSearch}>
           {SEARCH_ICON}
           <input
             type="search"
@@ -213,18 +299,6 @@ export function Header() {
             <span className="lbl">{signedIn ? "Profile" : "Sign in"}</span>
           </button>
         </div>
-
-        <button
-          type="button"
-          className="ta-hd-burger"
-          aria-label="Menu"
-          aria-expanded={menuOpen}
-          onClick={toggleMenu}
-        >
-          <span />
-          <span />
-          <span />
-        </button>
       </div>
 
       </header>

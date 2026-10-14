@@ -5,6 +5,7 @@ import { useAdvisorHref } from "../../lib/advisor";
 import { useTripSummary } from "../../lib/tripState";
 import { useTripDrawer } from "../../lib/tripDrawer";
 import { useProfileDrawer } from "../../lib/profileDrawer";
+import { useTheme } from "../../lib/theme";
 import { TaraAI } from "../TaraAI";
 
 // Right-hand Profile sidebar, built on the My Trip drawer's own markup and
@@ -19,6 +20,7 @@ export function ProfileDrawer() {
   const advisor = useAdvisorHref();
   const tripSummary = useTripSummary();
   const tripDrawer = useTripDrawer();
+  const { theme, setTheme } = useTheme();
 
   const [mounted, setMounted] = useState(false);
   const [entered, setEntered] = useState(false);
@@ -77,6 +79,11 @@ export function ProfileDrawer() {
           <Link className="ta-prof-link" to="/refer" onClick={close}>
             Refer a friend
           </Link>
+          {/* The floating theme switch is hidden on phones; this is where dark
+              mode lives there (and a second way to reach it everywhere else). */}
+          <button type="button" className="ta-prof-link ta-prof-theme" onClick={() => setTheme(theme === "dark" ? "ivory" : "dark")}>
+            {theme === "dark" ? "Light mode" : "Dark mode"}
+          </button>
         </nav>
         <div className="ta-prof-foot">
           <button

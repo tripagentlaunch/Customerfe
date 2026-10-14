@@ -6,7 +6,6 @@ import { ThemeToggle } from "./ThemeToggle";
 import { TripDrawer } from "./TripDrawer";
 import { ProfileDrawer } from "./ProfileDrawer";
 import { AdvisorButton } from "./AdvisorButton";
-import { MobileTabbar } from "./MobileTabbar";
 import { SignInModal } from "./SignInModal";
 import { NavVariantProvider } from "../../lib/navVariant";
 import { NavMenuProvider } from "../../lib/navMenu";
@@ -99,7 +98,6 @@ export function Layout() {
                 <AdvisorButton />
                 <ProfileDrawer />
                 <TripDrawer />
-                <MobileTabbar />
               </>
             )}
             <SignInModal />
