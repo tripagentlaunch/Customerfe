@@ -476,3 +476,18 @@
   color: #fff;
   cursor: default;
 }
+
+/* Phone: the hero copy sits at the very bottom of the hero (the 150px of
+   desktop bottom padding becomes the same 32px the home hero uses). */
+@media (max-width: 720px) {
+  html :global(.city-hero) :global(.wrap) { padding-bottom: 32px; }
+}
+
+/* Phone hero facts ribbon: a 2 x 2 grid, each cell exactly half the width
+   (the divider sits between the two columns only). */
+@media (max-width: 720px) {
+  .ch-facts { display: grid; grid-template-columns: 1fr 1fr; }
+  .ch-fact { margin-right: 0; padding: 14px 12px 2px 0; border-right: 1px solid rgba(255, 255, 255, 0.18); }
+  .ch-fact:nth-child(2n) { border-right: 0; padding-left: 16px; }
+  .ch-fact:last-child { border-right: 0; }
+}

@@ -3281,3 +3281,9 @@ html.ta-map-pinned .ta-hd{transform:translateY(0)}
   .ta-advisor.ta-advisor-compact{padding:0 10px}
 }
 
+/* ===== Phone heroes (<=720px): every image-background hero is 85% of the
+   screen (home carousel hero: HeroCarousel.module.css). Overrides the global
+   100svh / 92svh / 80svh values and the city hero's 100svh. */
+@media(max-width:720px){
+  html .hero,html .hero.left,html .city-hero{min-height:85svh}
+}
