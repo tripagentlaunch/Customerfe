@@ -1,3 +1,4 @@
+import { useEffect, useRef } from "react";
 import type { CityData, CityDay } from "../types/city";
 import styles from "./PlanCarousel.module.css";
 
@@ -24,6 +25,15 @@ export default function PlanCarousel({
   eventsActive?: boolean;
   onSelectEvents?: () => void;
 }) {
+  // Keep the selected tab in view when the bar scrolls sideways (phone).
+  const tabsRef = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    const row = tabsRef.current;
+    const on = row?.querySelector<HTMLElement>('[aria-selected="true"]');
+    if (!row || !on) return;
+    row.scrollTo({ left: on.offsetLeft - (row.clientWidth - on.offsetWidth) / 2, behavior: "smooth" });
+  }, [activeDayIndex, eventsActive]);
+
   const day = days[activeDayIndex];
   if (!day) return null;
 
@@ -31,7 +41,7 @@ export default function PlanCarousel({
     <div className={styles.carousel}>
       {/* The tabs bar sits directly above the header, not inside it — its
           own full-width bar, not subject to the header's padding. */}
-      <div className={styles.tabs} role="tablist" aria-label="Day">
+      <div ref={tabsRef} className={styles.tabs} role="tablist" aria-label="Day">
         {days.map((d, i) => (
           <button
             key={i}
