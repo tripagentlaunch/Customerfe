@@ -2910,18 +2910,6 @@ body:has(.ta-cart.on) .ta-advisor, body:has(.ta-cart.on) .ta-theme{opacity:0;poi
 /* shell: the old fixed utility bar is redundant (header carries advisor + invitation) */
 .ta-has-shell .ak-utility{display:none}
 
-/* ===== Mobile bottom tab-bar (shell) ===== */
-.ta-tabbar{display:none}
-@media(max-width:900px){
-  .ta-tabbar{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:190;background:var(--paper);border-top:1px solid var(--line);height:56px}
-  .ta-tabbar button,.ta-tabbar a{flex:1;background:none;border:0;cursor:pointer;font-family:var(--logo);font-weight:400;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink);text-decoration:none;display:flex;align-items:center;justify-content:center;gap:6px}
-  .ta-tabbar button:active,.ta-tabbar a:active{color:var(--signature)}
-  .ta-tabbar .tct{background:var(--signature);color:#fff;font-family:var(--fr);font-size:10px;font-weight:600;min-width:16px;height:16px;border-radius:8px;display:inline-flex;align-items:center;justify-content:center;padding:0 4px}
-  .ta-tabbar .tct[hidden]{display:none}
-  .ta-has-shell body,body.ta-has-shell{padding-bottom:56px}
-  .ta-has-shell .ta-advisor{display:none}
-  .ta-theme{bottom:calc(clamp(16px,2.5vw,30px) + 64px)!important}
-}
 
 /* shell mobile corrections */
 @media(max-width:900px){
@@ -2929,7 +2917,6 @@ body:has(.ta-cart.on) .ta-advisor, body:has(.ta-cart.on) .ta-theme{opacity:0;poi
   .ta-hd-trip{padding:8px 11px}
   .ta-hd-trip .lbl{display:none}
   .ta-hd-search{max-width:none}
-  .ta-has-shell .ta-advisor{display:none!important}
 }
 
 /* shell mobile: search gets its own full-width row (the front door) */
@@ -3254,3 +3241,35 @@ html.ta-map-pinned .ta-hd{transform:translateY(0)}
   html :is(h1,h2,h3,.display) :is(.it,em){font-size:inherit!important}
 }
 
+/* ===== Phone header (<=900px): always visible, no hamburger =====
+   Row 1: brand · Explore · Profile (pushed to the right margin).
+   Row 2: search, full width. Explore opens its mega as a panel under the
+   header on tap only (the .pin state), never on hover. */
+@media(max-width:900px){
+  .ta-hd-edge{display:none}
+  .ta-hd-burger{display:none}
+  .ta-hd-nav{position:static;transform:none;opacity:1;pointer-events:auto;height:auto;flex-direction:row;align-items:center;justify-content:flex-start;padding:0;background:none;overflow:visible;z-index:auto;border:0;gap:0;margin-left:auto;align-self:stretch}
+  .ta-hd-nav .ta-room{width:auto;display:flex;align-items:stretch}
+  .ta-hd-nav .ta-room>.ta-room-t{font-size:12px;letter-spacing:.18em;padding:0 4px;border:0;width:auto;justify-content:flex-start}
+  .ta-hd-cluster{margin-left:0}
+  .ta-room-rich{position:static}
+  .ta-mega-rich{position:absolute;left:0;right:0;top:var(--ta-hd-search-top,68px);width:auto;min-width:0;margin:0;max-height:calc(100svh - var(--ta-hd-search-top,68px));overflow-y:auto;box-shadow:0 30px 50px -30px rgba(26,20,14,.4)}
+  /* Slide in/out: always rendered, revealed top-down with a clip + small drop.
+     Open state is the tap-driven .pin only (never hover). */
+  .ta-hd .ta-mega-rich{display:block;visibility:hidden;pointer-events:none;opacity:0;transform:translateY(-28px);clip-path:inset(0 0 100% 0);transition:transform .38s cubic-bezier(.22,.61,.36,1),clip-path .38s cubic-bezier(.22,.61,.36,1),opacity .25s ease,visibility 0s linear .38s}
+  .ta-hd .ta-room.pin>.ta-mega-rich{visibility:visible;pointer-events:auto;opacity:1;transform:none;clip-path:inset(0);transition-delay:0s}
+  /* Explore panel sits over the search row (anchored under row 1) so it reads
+     as the Explore menu. Links: Journeys and the unlabelled group stack in the
+     left column while Plan runs down the right, so no empty band under Journeys. */
+  .ta-explore-links{align-content:start;align-items:start;grid-template-rows:auto 1fr;row-gap:22px}
+  .ta-explore-links>.ta-explore-col:nth-child(2){grid-column:2;grid-row:1 / span 2}
+  .ta-explore-links>.ta-explore-col:nth-child(3){grid-column:1;grid-row:2}
+  .ta-explore .ta-feat-cap .fk{text-decoration:underline;text-underline-offset:5px;text-decoration-thickness:1px}
+}
+
+/* Phone: no floating dark-mode switch — it lives in the Profile menu
+   (ProfileDrawer.tsx). The row there has no trailing arrow. */
+.ta-prof-theme::after{content:none}
+@media(max-width:720px){
+  .ta-theme{display:none!important}
+}
