@@ -18,22 +18,6 @@ import react from "@vitejs/plugin-react";
 // query param and serves that file directly from public/img (symlinked to
 // ../../img, same pattern as public/fonts -> ../../fonts), which is exactly
 // what Vercel does in production minus the resizing/compression.
-// Vercel serves dist/404.html, with a real 404 status, for any address not
-// listed in vercel.json's page rules (tools/gen-page-routes.mjs). It is a
-// copy of the app, so the router still shows the "This door doesn't open"
-// page — but search engines and checkers now get 404, not 200.
-function notFoundPage(): Plugin {
-  return {
-    name: "not-found-page",
-    apply: "build",
-    enforce: "post",
-    generateBundle(_options, bundle) {
-      const index = bundle["index.html"];
-      if (index && index.type === "asset") this.emitFile({ type: "asset", fileName: "404.html", source: index.source });
-    },
-  };
-}
-
 function vercelImageProxy(): Plugin {
   return {
     name: "vercel-image-proxy-dev",
@@ -62,7 +46,7 @@ const BACKEND_PROXY = {
 };
 
 export default defineConfig({
-  plugins: [react(), vercelImageProxy(), notFoundPage()],
+  plugins: [react(), vercelImageProxy()],
   server: {
     fs: { allow: [".."] },
     proxy: {
