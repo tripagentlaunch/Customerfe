@@ -1750,26 +1750,26 @@
   },
   "testimonials": {
     "placeholder": true,
-    "eyebrow": "In their words",
+    "eyebrow": "How a trip is looked after",
     "heading": "Quietly, completely looked after.",
-    "quotes": [
+    "examples": [
       {
-        "quote": "They rebooked our cancelled flight home before we'd even left the lounge. We didn't lift a finger.",
-        "attribution": "A. M. \u00b7 Mumbai",
-        "trip": null
+        "label": "Example \u00b7 Maldives honeymoon \u00b7 March",
+        "title": "A cancelled flight home, rebooked before the lounge closed.",
+        "body": "The return leg is cancelled overnight. Your advisor has you on the next sensible flight in the same cabin, with the transfer moved to match \u2014 before you would have reached the airline\u2019s queue."
       },
       {
-        "quote": "One message, and the whole trip \u2014 flights, the villa, the visas \u2014 simply happened. It felt like having a person, not an app.",
-        "attribution": "R. K. \u00b7 Delhi",
-        "trip": null
+        "label": "Example \u00b7 Japan, family of four \u00b7 April",
+        "title": "One message, and the whole trip comes together.",
+        "body": "Flights for four, connecting rooms in Kyoto and Tokyo, and visas filed in parallel \u2014 from a single message to an itinerary you only have to approve."
       },
       {
-        "quote": "They remembered our anniversary and the wine we love. That is the difference between booking and being cared for.",
-        "attribution": "S. & V. \u00b7 Bengaluru",
-        "trip": null
+        "label": "Example \u00b7 Anniversary in Udaipur \u00b7 November",
+        "title": "The anniversary, remembered.",
+        "body": "Your advisor already knows the date and the wine you like, so the lake-view table and the bottle are waiting \u2014 without you having to ask."
       }
     ],
-    "footnote": "Member experiences. Names abbreviated for privacy."
+    "footnote": "Illustrative examples of what your advisor handles \u2014 not member reviews."
   },
   "finalCta": {
     "headingHtml": "Until you are <span class=\"em\">home</span>.",
