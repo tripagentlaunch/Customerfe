@@ -1,5 +1,6 @@
 import type { CityData } from "../types/city";
 import styles from "./CalendarSection.module.css";
+import { useIsMobile } from "../hooks/useIsMobile";
 
 type WhenToGo = CityData["whenToGo"];
 
@@ -13,13 +14,20 @@ const ROWS: { tier: string; label: string }[] = [
 ];
 
 export default function CalendarSection({ whenToGo }: { whenToGo: WhenToGo }) {
+  const isPhone = useIsMobile();
   return (
     <section className="band tight ta-when-go">
       <div className="reveal" style={{ maxWidth: "60ch" }}>
         <div className="eyebrow">When to go</div>
         <div className="rule" />
-        <p className={styles.wmBest}>{whenToGo.bestMonths}</p>
-        <p className={styles.wmBlurb}>{whenToGo.blurb}</p>
+        {/* Phone (mobile handoff): the best-months line and blurb are left out
+            to keep the stacked page short; desktop shows them as before. */}
+        {!isPhone && (
+          <>
+            <p className={styles.wmBest}>{whenToGo.bestMonths}</p>
+            <p className={styles.wmBlurb}>{whenToGo.blurb}</p>
+          </>
+        )}
       </div>
 
       <div className={`${styles.rows} reveal d1`}>

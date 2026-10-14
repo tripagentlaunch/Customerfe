@@ -483,6 +483,89 @@
   html :global(.city-hero) :global(.wrap) { padding-bottom: 32px; }
 }
 
+/* Phone "Our take": 16px quote, 14px Come if / Perhaps not, if text. */
+@media (max-width: 720px) {
+  html :global(.ta-take) :global(.lede) { font-size: 16px !important; line-height: 1.4 !important; }
+  html .ta-fit-col p { font-size: 14px; line-height: 1.5; }
+}
+
+/* Phone guide bar: exactly two rows — the tab row (Where to stay / What to do /
+   ...) and the tier chip row (Ultra / Grand / ...) — each on a single line that
+   scrolls sideways inside the column (no wrapping, no overflow past the box). */
+@media (max-width: 720px) {
+  .guide-sticky :global(.cg-tabs),
+  .tier-chips { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+  .guide-sticky :global(.cg-tabs)::-webkit-scrollbar,
+  .tier-chips::-webkit-scrollbar { display: none; }
+  /* The row's own bottom rule is drawn inside (inset shadow) so the active
+     tab's underline isn't clipped by the scroll container. */
+  .guide-sticky :global(.cg-tabs) { gap: 0 24px; border-bottom: 0; box-shadow: inset 0 -1px 0 var(--line); }
+  .guide-sticky :global(.cg-tabs) button { margin-bottom: 0; }
+  .guide-sticky :global(.cg-tabs) button,
+  .tier-chip { flex: none; white-space: nowrap; }
+}
+
+/* Stacked layout: the inline maps (before "Our take" and before the day-wise
+   planner). The map components fill their parent, so this gives them a height. */
+.ta-inline-map { position: relative; width: 100%; height: min(60svh, 460px); margin: 8px 0 28px; overflow: hidden; }
+
+/* Phone guide cards: tighter spacing between entries (page size of 4 is set in
+   GuidePanel, CityPage.tsx). */
+@media (max-width: 720px) {
+  html :global(.ta-guide .cg-list) { row-gap: 12px; }
+  html .card-body { padding-top: 8px; padding-bottom: 8px; }
+}
+
+/* Phone pager: always one row — arrow, 5 page slots, arrow — never wrapping. */
+@media (max-width: 720px) {
+  .pagerPages { flex-wrap: nowrap; justify-content: center; }
+}
+
+/* Phone dropdown bodies ("On the ground" / "Where to base yourself"). */
+.prac-drop { padding: 14px 0 6px; }
+
+/* Stacked layout: "Our take" sits close under the first (city) map. The stacked
+   rule above gave it the full --sec top padding on top of the map's own margin. */
+@media (max-width: 900px) {
+  .ta-split-info > :global(.ta-take) { padding-top: 24px; padding-bottom: var(--sec-m, 56px); }
+  .ta-inline-map:first-child { margin-bottom: 0; }
+}
+
+/* Stacked: city map + "Our take" fill one screen. The wrapper is at least the
+   viewport tall; "Our take" keeps its natural height and the map takes the
+   rest (never under 140px, so a long take simply scrolls). */
+@media (max-width: 900px) {
+  .ta-first-screen { display: flex; flex-direction: column; min-height: 100svh; }
+  .ta-first-screen > .ta-inline-map { flex: 1 1 0; height: auto; min-height: 140px; margin: 0; }
+  .ta-first-screen > :global(.ta-take) { padding-top: 24px; padding-bottom: var(--sec-m, 56px); }
+}
+
+/* Stacked layout: "When to go" sits at the 56px section rhythm with the photo
+   strip before it and The plan after it. The desktop rule reserves the sticky
+   map's strip height (84px + up to 220px) under it, which is far too much once
+   the map is inline. */
+@media (max-width: 900px) {
+  .ta-look { margin-bottom: 0; }
+  html .ta-split-info :global(.band.ta-when-go) { padding-top: var(--sec-m, 56px); padding-bottom: var(--sec-m, 56px); }
+}
+
+/* The plan's inline route map is shorter than the first (city) map. */
+.ta-plan-map { height: min(36svh, 300px); margin-bottom: 20px; }
+
+/* Stacked layout: tighter gap around the first-look photo strip (between "Our
+   take" and "When to go"): 16px either side of a 64px strip. */
+@media (max-width: 900px) {
+  .ta-first-screen > :global(.ta-take) { padding-bottom: 16px; }
+  html .ta-split-info :global(.band.ta-when-go) { padding-top: 16px; }
+  .ta-look-hero { height: 64px; }
+}
+
+/* Phone: the "Have Tara AI arrange the stay" button is centred under the plan. */
+@media (max-width: 720px) {
+  .plan-cta-wrap { display: flex; justify-content: center; }
+  .plan-cta-wrap :global(.btn-gold).plan-cta { width: auto; max-width: 100%; justify-content: center; text-align: center; }
+}
+
 /* Phone hero facts ribbon: a 2 x 2 grid, each cell exactly half the width
    (the divider sits between the two columns only). */
 @media (max-width: 720px) {

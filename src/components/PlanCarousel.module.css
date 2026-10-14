@@ -203,3 +203,21 @@
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+
+/* Phone: the day tabs stay on one line and scroll sideways inside their own
+   box (the bar never wider than the carousel); tabs keep their label width
+   instead of squeezing "DAY 1" onto two lines. */
+@media (max-width: 720px) {
+  .tabs {
+    overflow-x: auto;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
+  .tabs::-webkit-scrollbar {
+    display: none;
+  }
+  .tab {
+    flex: 1 0 auto;
+    white-space: nowrap;
+  }
+}
