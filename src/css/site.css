@@ -3202,3 +3202,55 @@ html.ta-map-pinned .ta-hd{transform:translateY(0)}
 .ta-advisor.ta-advisor-compact svg{width:18px;height:18px}
 .footer{padding-bottom:76px}
 
+/* ===================================================================
+   Mobile layer (from the mobile handoff, ported section by section,
+   2026-10-14). Everything below is phone-only (max-width media queries).
+   =================================================================== */
+
+/* ===== Phone type scale for heading + caption pairs (<=720px) =====
+   Any h1/h2 directly followed by its caption (.lede, or a module class ending
+   in Lede/Sub such as discSub, mapSub, servicesLede) is 24px over 14px.
+   !important because many of these headings carry inline clamp() sizes. */
+@media(max-width:720px){
+  :is(h1,h2):has(+ :is(.lede,[class*="Lede"],[class*="Sub"])){font-size:24px!important;line-height:1.15}
+  :is(h1,h2) + :is(.lede,[class*="Lede"],[class*="Sub"]){font-size:14px!important}
+}
+
+/* Phone card type scale (<=720px): service/feature/step cards are 18px
+   heading over 14px body. */
+@media(max-width:720px){
+  :is(.svc,.feat) h3,.step h4{font-size:18px!important;line-height:1.2}
+  :is(.svc,.feat,.step) p{font-size:14px!important}
+  /* more air between the stacked cards */
+  .grid-3:has(>.svc){gap:44px}
+}
+
+/* ===== Phone section rhythm (<=720px): one token for every section =====
+   --sec-m is the top AND bottom padding of every .band / .band.tight section
+   (so two adjacent sections sit 2 x --sec-m apart), replacing the mix of
+   vh-based clamps (~68-140px) and one-off module paddings. `html` in the
+   selectors lifts specificity above module rules such as home .disc. */
+:root{--sec-m:56px}
+@media(max-width:720px){
+  html .band,html .band.tight,html .band-tight,html .band-dark.band.center{padding-top:var(--sec-m);padding-bottom:var(--sec-m)}
+}
+
+
+/* ===== Phone buttons (<=720px): smaller, and rows stay on one line =====
+   Covers every .btn-row (closing CTA bands, hero CTAs on other pages) and the
+   buttons themselves (.btn, .btn-square, the inverse pair). The home hero's own
+   row is handled in HeroCarousel.module.css. */
+@media(max-width:720px){
+  .btn-row{flex-wrap:nowrap;gap:10px}
+  .btn-row>*{flex:0 1 auto;min-width:0}
+  html .btn,html .btn.btn-square{min-height:40px;padding:11px 18px!important;font-size:11px;letter-spacing:.1em!important;line-height:1.25;text-align:center}
+}
+
+/* ===== Phone: italic accent words match their heading (<=720px) =====
+   The accent in headings ("Sydney, <em>in hand</em>.") must be the same size
+   as the rest of the heading. The city guide had a fixed 44px accent that was
+   larger than its 30px heading on phones; this standardises every heading. */
+@media(max-width:720px){
+  html :is(h1,h2,h3,.display) :is(.it,em){font-size:inherit!important}
+}
+
