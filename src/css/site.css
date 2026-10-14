@@ -3170,9 +3170,6 @@ main > section[id], main > header[id]{scroll-margin-top:64px}
 .ta-advisor.ta-advisor-compact:hover .ta-advisor-label,
 .ta-advisor.ta-advisor-compact:focus-visible .ta-advisor-label{ max-width:12em; opacity:1; }
 
-/* Testimonial trip line under the attribution (2026-10-13), e.g. "Maldives
-   honeymoon · March 2026" — set per quote in homepage.generated.json. */
-.tq figcaption .tq-trip{display:block;margin-top:6px;font-weight:500;font-size:13px;letter-spacing:.02em;text-transform:none;color:var(--stone)}
 
 /* ===== Footer: key links + "More", columns fold on phones (2026-10-13) ===== */
 .footer .fmore{margin-top:2px}
@@ -3187,19 +3184,12 @@ main > section[id], main > header[id]{scroll-margin-top:64px}
 .footer .fcol-fold[open]{padding-bottom:12px}
 @media(max-width:640px){ .footer .wrap{grid-template-columns:1fr;gap:0} .footer .wrap>div:first-child{margin-bottom:22px} }
 
-<<<<<<< HEAD
-
-/* Testimonial trip line under the attribution (2026-10-13), e.g. "Maldives
-   honeymoon · March 2026" — set per quote in homepage.generated.json. */
-.tq figcaption .tq-trip{display:block;margin-top:6px;font-weight:500;font-size:13px;letter-spacing:.02em;text-transform:none;color:var(--stone)}
-=======
 /* Homepage example trips (2026-10-14): labelled examples in the old
    testimonial cards — label, short headline, a line of detail. */
 .tq-example{text-align:left;display:flex;flex-direction:column;gap:12px}
 .tq-example .tq-label{font-family:var(--fr);font-weight:600;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent-2)}
 .tq-example .tq-title{margin:0;font-family:var(--logo);font-weight:500;font-size:clamp(21px,1.8vw,25px);line-height:1.25;color:var(--ink)}
 .tq-example .tq-body{margin:0;font-family:var(--fr);font-size:15px;line-height:1.6;color:var(--ink-soft)}
->>>>>>> 2620d70 (Homepage: labelled example trips instead of placeholder testimonials)
 
 /* Header stays visible while the homepage world map is pinned
    (StickyWorldMap.tsx toggles html.ta-map-pinned) — 2026-10-14. */
