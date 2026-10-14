@@ -3195,3 +3195,10 @@ main > section[id], main > header[id]{scroll-margin-top:64px}
    (StickyWorldMap.tsx toggles html.ta-map-pinned) — 2026-10-14. */
 html.ta-map-pinned .ta-hd{transform:translateY(0)}
 
+/* Talk to Tara sits in the page margin, not over text (2026-10-14): a
+   40px icon set 6-16px from the corner stays outside the 5vw content
+   gutter at every desktop width. The footer's last line keeps clear of it. */
+.ta-advisor.ta-advisor-compact{right:clamp(6px,.8vw,16px);bottom:clamp(6px,.8vw,16px);padding:10px}
+.ta-advisor.ta-advisor-compact svg{width:18px;height:18px}
+.footer{padding-bottom:76px}
+
