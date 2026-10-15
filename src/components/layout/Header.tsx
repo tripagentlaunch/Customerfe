@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useAuth } from "../../lib/auth";
 import { useTripDrawer } from "../../lib/tripDrawer";
@@ -7,6 +7,8 @@ import { useSignInModal } from "../../lib/signInModal";
 import { useNavMenu } from "../../lib/navMenu";
 import { useIsMobile } from "../../hooks/useIsMobile";
 import { ExploreMega } from "./HeaderMegaMenus";
+import { loadSearchIndex, matches, type SearchEntry } from "../../lib/searchIndex";
+import SearchResultRow from "../SearchResultRow";
 
 // Ported from js/shell.js's header build (~line 60-80) — the real,
 // currently-live header. The previous Header.tsx had extracted the empty
@@ -15,6 +17,8 @@ import { ExploreMega } from "./HeaderMegaMenus";
 // that markup was dead code, never actually seen by a visitor. This is the
 // structure real visitors get today. css/site.css's .ta-hd rules (added
 // 2026-07-07) apply with zero new CSS.
+const SUGGESTIONS_SHOWN = 8;
+
 const SEARCH_ICON = (
   <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth={1.6}>
     <circle cx="11" cy="11" r="7" />
@@ -110,39 +114,46 @@ export function Header() {
   }, []);
   const desktopVisible = atTop || active || initialPeek || sidebarPeek || hovering || menuOpen || openRoom !== null;
 
-  // Phone (mobile handoff, 2026-10-14): no hover. In the first half of a
-  // page's hero (.hero or .city-hero, measured from the element itself) the
-  // bar stays visible. Past that point it hides, comes back only when the
-  // page is scrolled UP, then hides again on the next scroll DOWN or after
-  // PHONE_SHOW_MS — whichever is first. Pages with no hero: visible on load,
-  // hidden after PHONE_PEEK_MS. It stays put while the Explore panel is open
-  // or the search field has focus.
+  // Phone: no hover. Standard direction-based bar — always visible near the
+  // top of the page, hides as soon as the page is scrolled DOWN, and comes
+  // straight back on the next scroll UP (it stays until the next scroll
+  // down). Stays put while the Explore panel is open or search has focus.
   const isMobile = useIsMobile();
   const { pathname } = useLocation();
   const [phoneShown, setPhoneShown] = useState(true);
   const [focusWithin, setFocusWithin] = useState(false);
+  // Phone: search suggests right under the bar as you type, on the same
+  // screen, instead of jumping to /search (desktop still does).
+  const [searchOpen, setSearchOpen] = useState(false);
+  const [searchIndex, setSearchIndex] = useState<SearchEntry[] | null>(null);
+  const q = query.trim();
+  useEffect(() => {
+    if (isMobile && searchOpen && !searchIndex) loadSearchIndex().then(setSearchIndex);
+  }, [isMobile, searchOpen, searchIndex]);
+  const suggestions = useMemo(() => (searchIndex && q ? matches(searchIndex, q) : []), [searchIndex, q]);
+  useEffect(() => {
+    setSearchOpen(false);
+  }, [pathname]);
+  // A page change closes the Explore panel (it used to stay open over the new
+  // page after tapping one of its links).
+  useEffect(() => {
+    toggleRoom(null);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [pathname]);
   useEffect(() => {
     if (!isMobile) return;
-    const PHONE_PEEK_MS = 2500;
-    const PHONE_SHOW_MS = 3000;
+    const TOP_ZONE = 80; // px from the top where the bar is always shown
     const MIN_DELTA = 6; // px of travel before a direction counts
-    const inHeroZone = () => {
-      const hero = document.querySelector<HTMLElement>(".hero, .city-hero");
-      if (!hero) return false;
-      const r = hero.getBoundingClientRect();
-      return window.scrollY < r.top + window.scrollY + r.height / 2;
-    };
-    setPhoneShown(true);
-    let timer = window.setTimeout(() => {
-      if (!inHeroZone()) setPhoneShown(false);
-    }, PHONE_PEEK_MS);
+    // City pages: hidden on arrival (the hero gets the whole screen), shown only
+    // by scrolling up. Every other page: shown at the top.
+    const hiddenAtTop = pathname.startsWith("/city-");
+    setPhoneShown(!hiddenAtTop);
     let lastY = window.scrollY;
     let raf = 0;
     const tick = () => {
       raf = 0;
-      const y = window.scrollY;
-      if (inHeroZone()) {
-        window.clearTimeout(timer);
+      const y = Math.max(0, window.scrollY);
+      if (y < TOP_ZONE && !hiddenAtTop) {
         lastY = y;
         setPhoneShown(true);
         return;
@@ -150,13 +161,7 @@ export function Header() {
       const dy = y - lastY;
       if (Math.abs(dy) < MIN_DELTA) return;
       lastY = y;
-      window.clearTimeout(timer);
-      if (dy < 0) {
-        setPhoneShown(true);
-        timer = window.setTimeout(() => setPhoneShown(false), PHONE_SHOW_MS);
-      } else {
-        setPhoneShown(false);
-      }
+      setPhoneShown(dy < 0);
     };
     const onScroll = () => {
       if (!raf) raf = requestAnimationFrame(tick);
@@ -164,7 +169,6 @@ export function Header() {
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => {
       window.removeEventListener("scroll", onScroll);
-      window.clearTimeout(timer);
       if (raf) cancelAnimationFrame(raf);
     };
   }, [isMobile, pathname]);
@@ -187,11 +191,18 @@ export function Header() {
   useEffect(() => {
     function onDocClick(e: MouseEvent) {
       if (!(e.target instanceof Node)) return;
-      if (headerRef.current && !headerRef.current.contains(e.target)) toggleRoom(null);
+      if (headerRef.current && !headerRef.current.contains(e.target)) {
+        toggleRoom(null);
+        setSearchOpen(false);
+      }
+      // Tapping a link inside the Explore panel closes it — including a link to the
+      // page you're already on, where the route (and so the effect above) doesn't change.
+      else if (e.target instanceof Element && e.target.closest(".ta-room a")) toggleRoom(null);
     }
     function onKeyDown(e: KeyboardEvent) {
       if (e.key === "Escape") {
         toggleRoom(null);
+        setSearchOpen(false);
         tripDrawer.close();
         profileDrawer.close();
       }
@@ -222,9 +233,11 @@ export function Header() {
     return () => ro.disconnect();
   }, []);
 
+  // Phone: the Explore panel is modal-ish — page behind it is dimmed and doesn't scroll.
+  const exploreOpenOnPhone = isMobile && openRoom === "explore";
   useEffect(() => {
-    document.documentElement.style.overflow = menuOpen ? "hidden" : "";
-  }, [menuOpen]);
+    document.documentElement.style.overflow = menuOpen || exploreOpenOnPhone ? "hidden" : "";
+  }, [menuOpen, exploreOpenOnPhone]);
 
   function submitSearch(e: React.FormEvent) {
     e.preventDefault();
@@ -233,6 +246,7 @@ export function Header() {
 
   return (
     <>
+      {exploreOpenOnPhone && <div className="ta-hd-scrim" aria-hidden="true" onClick={() => toggleRoom(null)} />}
       <div ref={edgeRef} className="ta-hd-edge" onMouseEnter={() => setHovering(true)} onMouseLeave={onAreaLeave} />
       <header
         ref={headerRef}
@@ -263,7 +277,7 @@ export function Header() {
             <button type="button" className="ta-room-t" onClick={() => toggleRoom("explore")}>
               Explore <span className="car" />
             </button>
-            <ExploreMega />
+            <ExploreMega onClose={() => toggleRoom(null)} />
           </div>
         </nav>
 
@@ -279,9 +293,36 @@ export function Header() {
             spellCheck={false}
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            onFocus={() => navigate("/search")}
+            onFocus={() => (isMobile ? setSearchOpen(true) : navigate("/search"))}
           />
         </form>
+
+        {isMobile && searchOpen && q && (
+          <div className="ta-hd-suggest" aria-live="polite">
+            {!searchIndex ? null : suggestions.length === 0 ? (
+              <div className="sp-empty">
+                <p>Nothing in the library matched “{q}”.</p>
+                <p>
+                  Your advisor can still find it —{" "}
+                  <Link to={`/enquire?about=${encodeURIComponent(q)}`}>tell them what you have in mind →</Link>
+                </p>
+              </div>
+            ) : (
+              <>
+                <div className="sp-rows">
+                  {suggestions.slice(0, SUGGESTIONS_SHOWN).map((e, i) => (
+                    <SearchResultRow entry={e} key={e.u + i} />
+                  ))}
+                </div>
+                {suggestions.length > SUGGESTIONS_SHOWN && (
+                  <Link className="ta-hd-suggest-all" to={`/search?q=${encodeURIComponent(q)}`}>
+                    See all results →
+                  </Link>
+                )}
+              </>
+            )}
+          </div>
+        )}
 
         <div className="ta-hd-cluster">
           {/* Not shown as "Sign in" until the session check has answered —
@@ -289,7 +330,7 @@ export function Header() {
           <button
             className="ta-hd-trip ta-hd-profile"
             type="button"
-            style={!signedIn && authLoading ? { visibility: "hidden" } : undefined}
+            style={!isMobile && !signedIn && authLoading ? { visibility: "hidden" } : undefined}
             aria-label={signedIn ? "Profile" : "Sign in"}
             onClick={() => (signedIn ? profileDrawer.open() : signInModal.open("Sign in to your year."))}>
             <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth={1.6} aria-hidden="true">

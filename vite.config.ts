@@ -49,19 +49,26 @@ export default defineConfig({
   plugins: [react(), vercelImageProxy()],
   server: {
     fs: { allow: [".."] },
-    proxy: {
-      "/cities": BACKEND_PROXY,
-      "/config": BACKEND_PROXY,
-      "/auth": BACKEND_PROXY,
-      "/me": BACKEND_PROXY,
-      "/my-year": BACKEND_PROXY,
-      "/api": BACKEND_PROXY,
-      "/ai": BACKEND_PROXY,
-      "/enquiries": BACKEND_PROXY,
-      "/invite": BACKEND_PROXY,
-      "/access-requests": BACKEND_PROXY,
-      "/referrals": BACKEND_PROXY,
-    },
+    // Keys are regexes matching a WHOLE first path segment ("^/me(/|$)"), not a
+    // prefix: the plain "/me" key also caught the /membership page and sent it
+    // to the (possibly not running) backend, which came back as an empty 500.
+    // vercel.json's rewrites already match whole segments in production.
+    proxy: [
+      "cities",
+      "config",
+      "auth",
+      "me",
+      "my-year",
+      "api",
+      "ai",
+      "enquiries",
+      "invite",
+      "access-requests",
+      "referrals",
+    ].reduce<Record<string, typeof BACKEND_PROXY>>((acc, seg) => {
+      acc[`^/${seg}(/|\\?|$)`] = BACKEND_PROXY;
+      return acc;
+    }, {}),
   },
   // Page-scoped CSS files (app/src/pages/*.module.css) auto-hash their class
   // names per file, so short names like .pull/.sig/.idx can never collide

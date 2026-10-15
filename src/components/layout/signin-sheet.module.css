@@ -1,0 +1,66 @@
+/* Phone sign-in: the claim page's frosted cream card (claim-page.module.css
+ * supplies card, heading, button, links) floating over a dimmed, blurred
+ * copy of the page instead of the full-screen video. */
+.overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 16px;
+  box-sizing: border-box;
+  overflow-y: auto;
+  background: rgba(14, 10, 8, 0.55);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+}
+
+.cardWrap {
+  position: relative;
+  width: 100%;
+  max-width: 460px;
+  margin: auto;
+}
+
+.close {
+  position: absolute;
+  top: 12px;
+  right: 14px;
+  z-index: 1;
+  width: 36px;
+  height: 36px;
+  border: 0;
+  background: none;
+  color: #5f5f5f;
+  font-size: 26px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+/* Restated over site.css's underlined-input rule (see claim-page.module.css). */
+.emailInput {
+  width: 100%;
+  box-sizing: border-box;
+  height: 56px;
+  padding: 0 18px;
+  border-radius: 14px !important;
+  border: 1px solid rgba(80, 60, 50, 0.22);
+  background: rgba(255, 255, 255, 0.6);
+  color: #1a1714;
+  font-family: var(--sans);
+  font-size: 16px;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+}
+.emailInput::placeholder {
+  color: #b5aca2;
+}
+.emailInput:focus {
+  outline: none;
+  border-color: #5a2330;
+  background: rgba(255, 255, 255, 0.85);
+  box-shadow: 0 0 0 3px rgba(90, 35, 48, 0.1);
+}
+.emailInput[aria-invalid="true"] {
+  border-color: #b3441f;
+}

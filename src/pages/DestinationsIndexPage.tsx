@@ -36,11 +36,10 @@ export default function DestinationsIndexPage() {
           <p className="lede on-dark reveal d2" style={{ marginTop: 22, maxWidth: "46ch" }}>
             {hero.lede}
           </p>
-          {/* Phone (mobile handoff): the same two CTAs as the home hero;
-              "Browse cities" jumps to the all-cities list below. */}
+          {/* Phone: just "Ask Tara" — the visitor arrived by tapping "Browse
+              cities", so repeating it here pointed at the page they're on. */}
           {isMobile && (
             <div className="btn-row reveal d3" style={{ marginTop: 32 }}>
-              <PrimaryInverseButton to="#all-cities">Browse cities</PrimaryInverseButton>
               <SecondaryInverseButton to="concierge.html">{withTaraAI("Ask Tara AI")}</SecondaryInverseButton>
             </div>
           )}
@@ -51,14 +50,18 @@ export default function DestinationsIndexPage() {
         </div>
       </header>
 
-      <Suspense fallback={<div style={{ minHeight: "70vh" }} />}>
-        <WorldMapSection />
-      </Suspense>
+      {/* Phones skip the world map here (it repeats the homepage's) and go
+          straight to "Chosen, not listed." */}
+      {!isMobile && (
+        <Suspense fallback={<div style={{ minHeight: "70vh" }} />}>
+          <WorldMapSection />
+        </Suspense>
+      )}
 
       <section id="all-cities" className="band tight ta-dx" style={{ background: "var(--bone)", scrollMarginTop: 96 }}>
         <div className="wrap">
           <div className="dx-head">
-            <div className="eyebrow reveal">{groupsIntro.eyebrow}</div>
+            <div className="eyebrow reveal">{isMobile ? "110+ destinations to begin with" : groupsIntro.eyebrow}</div>
             <div className="rule reveal d1" />
             <h2 className="reveal d1" style={{ marginBottom: "clamp(20px,2.6vw,34px)" }}>
               {groupsIntro.heading}

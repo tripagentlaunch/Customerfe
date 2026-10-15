@@ -75,3 +75,18 @@
 .wtg-bydate{border-top:1px solid var(--line);padding:clamp(48px,7vh,88px) 0}
 .wtg-bydate-panel{max-width:60ch}
 .wtg-bydate-panel :global(.btn){margin-top:22px}
+
+/* Phone: the destination × month grid fits the screen — a narrow name column
+   (names may wrap), twelve slim month columns with single-letter headers, and
+   no horizontal scroll (the dots used to sit off-screen to the right). */
+@media(max-width:720px){
+  #best-time .btm-wrap{overflow-x:visible;margin-top:26px}
+  #best-time table.btm{min-width:0;width:100%;table-layout:fixed}
+  #best-time .btm thead th{font-size:10px;letter-spacing:0;padding:0 0 10px;position:static}
+  #best-time .btm thead th.btm-corner{width:34%;font-size:9.5px;letter-spacing:.08em}
+  #best-time .btm tbody th{font-size:14px;line-height:1.2;white-space:normal;padding:9px 6px 9px 0}
+  #best-time .btm td{padding:9px 0}
+  #best-time .btm tr.btm-region th{text-align:left;font-size:10px;padding:20px 0 8px}
+  #best-time .btm-dot{width:8px;height:8px}
+  #best-time .btm-legend{gap:18px;margin-top:20px}
+}

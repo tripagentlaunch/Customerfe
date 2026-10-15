@@ -3309,3 +3309,94 @@ html.ta-map-pinned .ta-hd{transform:translateY(0)}
   .wrap:has(>.quote-grid)>h2{margin-bottom:12px!important}
   .wrap:has(>.quote-grid)>p.muted{order:1;margin:0 0 26px!important}
 }
+
+/* Phone footer: the image banner just above already carries the mark and
+   "Until you are home." — don't repeat them in the footer's brand block, and
+   the description line goes too so the footer opens straight on Explore. */
+@media(max-width:720px){
+  .footer .brand,.footer .tagline,.footer .fdesc{display:none}
+  /* The footer ends with just "© 2026 TripAgent" (legal assurance): no address and no
+     "We stay." on phones. Room under it so the chat button never covers it. */
+  .footer .legal .faddr,.footer .legal .fstay{display:none}
+  .footer{padding-bottom:72px}
+}
+
+/* Phone header search: suggestions drop down under the bar (Header.tsx). */
+@media(max-width:900px){
+  .ta-hd-suggest{order:6;flex-basis:100%;max-height:calc(100svh - 150px);overflow-y:auto;overscroll-behavior:contain;border-top:1px solid var(--line-soft);padding:4px 0 14px;margin:0 calc(var(--gutter) * -1);padding-left:var(--gutter);padding-right:var(--gutter)}
+  .ta-hd-suggest-all{display:inline-block;margin-top:12px;font-family:var(--fr);font-size:14px;color:var(--signature);text-decoration:none}
+}
+
+/* Phone: the chat button fades out while a form or the footer is on screen
+   (AdvisorButton.tsx), and selects get their chevron back — the form-field
+   reset above (`background:transparent!important`) was wiping it, so the
+   enquiry form's dropdowns looked like plain text. */
+.ta-advisor{transition:transform .4s var(--ease-lux),box-shadow .4s var(--ease-lux),opacity .3s ease}
+.ta-advisor.ta-advisor-away{opacity:0;pointer-events:none;transform:translateY(8px)}
+.ta-advisor.ta-advisor-dim{opacity:.28}
+@media(max-width:720px){
+  main select:not([class*="csSelect"]){
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%236E2A38' stroke-width='1.4' stroke-linecap='round'/%3E%3C/svg%3E")!important;
+    background-repeat:no-repeat!important;
+    background-position:right 4px center!important;
+    background-size:12px 8px!important;
+    padding-right:28px!important;
+    appearance:none;-webkit-appearance:none;
+  }
+}
+
+/* Phone closing CTA bands ("Where to next"): the two buttons stack at one
+   shared width and height instead of sitting side by side at different sizes
+   with the second label wrapping to two lines. */
+@media(max-width:720px){
+  .band-dark .btn-row{flex-direction:column;align-items:stretch;gap:12px;width:100%;max-width:320px;margin-left:auto;margin-right:auto}
+  .band-dark .btn-row>*{flex:none;width:100%;box-sizing:border-box;white-space:nowrap}
+}
+
+/* iOS Safari zooms the page in whenever a field under 16px gets focus — the
+   header search (14px) did it on every page. Every text field, select and
+   textarea is 16px on phones/small tablets; !important because several page
+   modules and the form reset set their own smaller sizes. */
+@media(max-width:767px){
+  html input:not([type=checkbox]):not([type=radio]):not([type=range]):not([type=submit]):not([type=button]):not([type=file]):not([type=color]),
+  html select,
+  html textarea{font-size:16px!important}
+}
+
+/* ===== Phone usability pass (<=720px) =====
+   Tap targets of at least 44px, a shorter header, a real Explore overlay, and
+   no text under 12px. */
+@media(max-width:720px){
+  /* -- header: shorter (was 115px) while its buttons reach 44px -- */
+  .ta-hd-top{padding-top:6px!important;padding-bottom:8px!important;gap:6px 12px!important}
+  .ta-hd-brand{min-height:44px;display:inline-flex;align-items:center}
+  .ta-hd-nav .ta-room>.ta-room-t{min-height:44px;padding:0 10px!important}
+  .ta-hd-trip.ta-hd-profile{min-width:44px;min-height:44px;padding:0!important;justify-content:center}
+  .ta-hd-search{height:40px!important}
+  .ta-hd-q{height:40px!important}
+
+  /* -- Explore panel: dimmed page behind it, a close button, roomy rows -- */
+  .ta-hd-scrim{position:fixed;inset:0;z-index:150;background:rgba(14,10,8,.5)}
+  .ta-mega-close{display:flex;position:absolute;top:6px;right:6px;z-index:3;width:44px;height:44px;align-items:center;justify-content:center;border:0;border-radius:50%;background:rgba(255,255,255,.92);color:var(--ink);font-size:28px;line-height:1;cursor:pointer;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+  .ta-explore-links a{display:flex;align-items:center;min-height:44px;font-size:16px}
+  .ta-mega-rich{max-height:calc(100svh - var(--ta-hd-search-top,68px) - 8px)}
+
+  /* -- footer: every link row is a 44px target -- */
+  .footer a{display:flex;align-items:center;min-height:44px}
+  .footer .fcol-fold>summary{min-height:48px}
+  .footer .fmore>summary{min-height:44px;display:flex;align-items:center}
+
+  /* -- other inline links / call-to-action links -- */
+  a.cta{display:inline-flex;align-items:center;min-height:44px}
+  html .btn,html .btn.btn-square{min-height:44px;font-size:12px}
+  .ta-advisor{min-height:44px}
+  .ta-advisor.ta-advisor-compact{min-width:44px;justify-content:center}
+
+  /* -- carousel dots keep their look but get a 44px touch area -- */
+  .quote-dots button{position:relative}
+  .quote-dots button::after{content:"";position:absolute;inset:-18px -9px}
+
+  /* -- text: nothing under 12px -- */
+  .eyebrow,.k,.ta-cart-h .k,.ta-feat-cap .fk,.ta-mll .ll,.ta-explore-col .ll,.tq-example .tq-label,.ch-fact .fk{font-size:12px!important}
+  .footer .legal{font-size:12px}
+}
