@@ -24,7 +24,7 @@ function Intro() {
         </div>
         <dl className={`reveal d2 ${styles.mapStats}`}>
           <div>
-            <dt>100+</dt>
+            <dt>110+</dt>
             <dd>Destinations</dd>
           </div>
           <div>
@@ -49,9 +49,9 @@ export default function WorldMapSection({ sticky = false }: { sticky?: boolean }
   // loads on demand), so the page-level pass never saw its elements.
   useScrollReveal([]);
   return (
-    <section className="band tight">
+    <section className="band tight" style={isMobile ? { paddingBottom: 8 } : undefined}>
       <div className={styles.worldMapWrap}>
-        {sticky ? (
+        {sticky && !isMobile ? (
           <StickyWorldMap>
             <Intro />
           </StickyWorldMap>
@@ -59,9 +59,12 @@ export default function WorldMapSection({ sticky = false }: { sticky?: boolean }
           <>
             <Intro />
             {isMobile ? (
-              // The phone map fills its parent's height, so give it one.
-              <div style={{ height: "72svh", display: "flex", flexDirection: "column" }}>
-                <PhoneWorldMap />
+              // The phone map fills its parent's height, so give it one. Phones
+              // never pin/cycle (that was ~9 screens of scrolling): the map rests
+              // on World, region chips and map taps still switch regions, and a
+              // one-finger vertical drag scrolls the page past it.
+              <div style={{ height: "clamp(460px, 70svh, 620px)", display: "flex", flexDirection: "column", overflow: "hidden" }}>
+                <PhoneWorldMap activeTabOverride="world" scrollFriendly />
               </div>
             ) : (
               <WorldMap />

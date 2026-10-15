@@ -4,6 +4,7 @@ import homepageData from "../data/homepage.generated.json";
 import type { HomepageData } from "../types/homepage";
 import { useScrollReveal } from "../lib/useScrollReveal";
 import { toRoute } from "../lib/toRoute";
+import { useIsMobile } from "../hooks/useIsMobile";
 import HeroCarousel from "../components/HeroCarousel";
 import DestinationPlanner from "../components/DestinationPlanner";
 import HomeSearch from "../components/HomeSearch";
@@ -42,6 +43,7 @@ export default function HomePage() {
   // today"), `way` ("What we did"), and `membership` were all removed from
   // the homepage per request — sections and data references alike.
   const { discover, decide, planner, services, testimonials, finalCta } = data;
+  const isMobile = useIsMobile();
 
   // Phone example-trip carousel (mobile handoff): which card is in view
   // (drives the dots).
@@ -196,7 +198,7 @@ export default function HomePage() {
       {/* SERVICES */}
       <section className="band">
         <div className="wrap">
-          <div className="reveal" style={{ display: "flex", flexWrap: "wrap", alignItems: "flex-end", justifyContent: "space-between", gap: "24px 40px", marginBottom: 50 }}>
+          <div className={`reveal ${styles.servicesHead}`} style={{ display: "flex", flexWrap: "wrap", alignItems: "flex-end", justifyContent: "space-between", gap: "24px 40px", marginBottom: 50 }}>
             <div style={{ maxWidth: "72ch" }}>
               <div className="eyebrow">{services.eyebrow}</div>
               <div className="rule" />
@@ -209,14 +211,26 @@ export default function HomePage() {
               {services.allLabel}
             </Link>
           </div>
-          <div className="grid-3" style={{ textAlign: "left" }}>
-            {services.cards.map((card, i) => (
-              <div className={`svc reveal d${i + 1}`} key={i}>
-                <div className="pic" style={{ backgroundImage: `url('${card.image}')` }} />
-                <h3 style={{ marginTop: 22 }}>{card.heading}</h3>
-                <p>{card.body}</p>
-              </div>
-            ))}
+          <div className={`grid-3 ${styles.servicesGrid}`} style={{ textAlign: "left" }}>
+            {services.cards.map((card, i) => {
+              const inner = (
+                <>
+                  <div className="pic" style={{ backgroundImage: `url('${card.image}')` }} />
+                  <h3 style={{ marginTop: 22 }}>{card.heading}</h3>
+                  <p>{card.body}</p>
+                </>
+              );
+              // Phone: each card is a link to its own page (Flights, Hotels, Visas).
+              return isMobile ? (
+                <Link className={`svc reveal d${i + 1} ${styles.svcLink}`} to={toRoute(card.ctaHref)} aria-label={card.ctaLabel ?? card.heading ?? undefined} key={i}>
+                  {inner}
+                </Link>
+              ) : (
+                <div className={`svc reveal d${i + 1}`} key={i}>
+                  {inner}
+                </div>
+              );
+            })}
           </div>
         </div>
       </section>

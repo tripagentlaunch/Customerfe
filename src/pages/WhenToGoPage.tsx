@@ -5,6 +5,7 @@ import type { WhenToGoPageData } from "../types/when-to-go-page";
 import { useScrollReveal } from "../lib/useScrollReveal";
 import { toRoute } from "../lib/toRoute";
 import { PrimaryInverseButton, SecondaryInverseButton } from "../components/buttons/InverseButtons";
+import { useIsMobile } from "../hooks/useIsMobile";
 import styles from "./when-to-go-page.module.css";
 
 const data = whenToGoData as unknown as WhenToGoPageData;
@@ -15,6 +16,9 @@ const data = whenToGoData as unknown as WhenToGoPageData;
 // than deferred, same category as destinations.js.
 function BestTimeTable({ bestTime }: { bestTime: WhenToGoPageData["bestTime"] }) {
   const [col, setCol] = useState<number | null>(null);
+  // Phone: single-letter months so all twelve columns fit the screen width
+  // (no sideways scrolling, with the dots off-screen).
+  const isMobile = useIsMobile();
 
   return (
     <div className={`${styles.btmWrap} reveal d1`}>
@@ -26,7 +30,7 @@ function BestTimeTable({ bestTime }: { bestTime: WhenToGoPageData["bestTime"] })
             </th>
             {bestTime.months.map((m, i) => (
               <th scope="col" key={i} className={col === i ? styles.colHi : undefined} onMouseEnter={() => setCol(i)} onMouseLeave={() => setCol(null)}>
-                {m}
+                {isMobile ? <abbr title={m} aria-label={m} style={{ textDecoration: "none" }}>{m.charAt(0)}</abbr> : m}
               </th>
             ))}
           </tr>

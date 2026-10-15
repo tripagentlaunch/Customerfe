@@ -295,35 +295,11 @@
   }
 }
 
-/* "Already have a code? Open the door" near the top — phones only; on
-   wider screens the link beside the form is already on the first screen. */
-.doorTop {
-  display: none;
-}
+/* Phones: room under the card so the "Open the door" link at its foot always
+   clears the bottom edge (and the floating chat button). */
 @media (max-width: 720px) {
-  .doorTop {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 12px;
-    margin-top: 20px;
-    padding: 13px 16px;
-    border: 1px solid rgba(255, 255, 255, 0.55);
-    border-radius: 12px;
-    background: rgba(20, 16, 12, 0.35);
-    -webkit-backdrop-filter: blur(6px);
-    backdrop-filter: blur(6px);
-    color: #fff;
-    text-decoration: none;
-    font-size: 14px;
-  }
-  .doorTop span {
-    opacity: 0.85;
-  }
-  .doorTop b {
-    font-weight: 600;
-    letter-spacing: 0.02em;
-    white-space: nowrap;
+  .raWrap {
+    padding-bottom: 96px;
   }
 }
 

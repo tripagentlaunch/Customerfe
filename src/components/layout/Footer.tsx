@@ -1,5 +1,5 @@
-import { useEffect, useState, type ReactNode } from "react";
-import { Link } from "react-router-dom";
+import { useEffect, useRef, useState, type ReactNode } from "react";
+import { Link, useLocation } from "react-router-dom";
 import { TaraAI } from "../TaraAI";
 import { useWhatsAppNumber } from "../../lib/useWhatsAppNumber";
 
@@ -80,6 +80,15 @@ export function Footer() {
   const whatsappNumber = useWhatsAppNumber();
   const advisorHref = whatsappNumber ? `https://wa.me/${whatsappNumber}` : "/enquire";
   const wide = useWideFooter();
+  // The footer outlives page changes, so a folded column (or its "More") the
+  // visitor opened stayed open on the next page. Close them all on navigation,
+  // and when a link in one is tapped (covers a link to the page you're on).
+  const footerRef = useRef<HTMLElement>(null);
+  const { pathname } = useLocation();
+  const closeFolds = () => {
+    footerRef.current?.querySelectorAll("details[open]").forEach((d) => d.removeAttribute("open"));
+  };
+  useEffect(closeFolds, [pathname]);
 
   const columns: FooterColumn[] = [
     {
@@ -148,7 +157,13 @@ export function Footer() {
   ];
 
   return (
-    <footer className="footer">
+    <footer
+      className="footer"
+      ref={footerRef}
+      onClick={(e) => {
+        if (e.target instanceof Element && e.target.closest("a")) closeFolds();
+      }}
+    >
       <div className="wrap">
         <div>
           <div className="brand">
@@ -163,7 +178,7 @@ export function Footer() {
             TripAgent
           </div>
           <div className="tagline">Until you are home.</div>
-          <p style={{ fontSize: 13, maxWidth: "30ch" }}>
+          <p className="fdesc" style={{ fontSize: 13, maxWidth: "30ch" }}>
             A private travel maison. Flights, hotels and visas — handled, completely.
           </p>
         </div>
@@ -171,8 +186,10 @@ export function Footer() {
           <FooterCol col={col} wide={wide} key={col.title} />
         ))}
         <div className="legal">
-          <span>© 2026 TripAgent · 44 Kingfisher Towers, Bangalore 560 001</span>
-          <span>We stay.</span>
+          <span>
+            © 2026 TripAgent<span className="faddr"> · 44 Kingfisher Towers, Bangalore 560 001</span>
+          </span>
+          <span className="fstay">We stay.</span>
         </div>
       </div>
     </footer>

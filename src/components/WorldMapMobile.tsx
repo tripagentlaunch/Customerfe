@@ -94,14 +94,15 @@ const LABEL_POSITION_OFFSET: Record<string, { dx: number; dy: number }> = {
 // 1 css px), so the whole world fits the width and every region is framed
 // inside the area left under the chip row, with these margins (px). The old
 // per-tab zoom multipliers and pan biases are no longer used.
-const TAB_BAR_PX = 52;
+const TAB_BAR_PX = 64;
 const FIT_PAD_X = 16;
 const FIT_PAD_TOP = 8;
 const FIT_PAD_BOTTOM = 20;
 const REGION_FIT = 0.94;
+const WORLD_FIT = 1.14;
 // Regions that read better a little closer than a plain fit (still centred).
 const TAB_ZOOM: Record<string, number> = {
-  europe: 2.5,
+  europe: 3.3, // crowded: zoomed in so cities spread out instead of stacking into name lists
   "middle-east": 2.5,
   americas: 1.55,
   india: 3, // South Asia (doubled from 1.5)
@@ -123,7 +124,11 @@ const CITY_MARKER_SCALE = 1.45;
 const CIRCLE_GROWTH = 0;
 // Two cities merge into one numbered cluster while they sit closer than this many
 // circle-diameters on screen.
-const CLUSTER_GAP = 1.1;
+const CLUSTER_GAP = 1.8;
+// A cluster is just its numbered photo stack — no list of its cities' names beside it
+// (those lists made busy regions like South Asia read as a wall of text). Tap a stack
+// to zoom in and split it into named cities.
+const SHOW_CLUSTER_NAMES = false;
 
 type CountryProps = { name: string };
 const countryName = (g: GeometryObject<CountryProps>) => (g as { properties: CountryProps }).properties.name;
@@ -501,8 +506,14 @@ export default function WorldMapMobile({
   const tabScrollRef = useRef<HTMLDivElement | null>(null);
   useEffect(() => {
     const row = tabScrollRef.current;
-    const chip = row?.querySelector<HTMLElement>(`[data-tab="${activeTab}"]`);
-    if (!row || !chip) return;
+    if (!row) return;
+    // World is pinned beside the row, so picking it just rewinds the row.
+    if (activeTab === WORLD_TAB.key) {
+      row.scrollTo({ left: 0, behavior: "smooth" });
+      return;
+    }
+    const chip = row.querySelector<HTMLElement>(`[data-tab="${activeTab}"]`);
+    if (!chip) return;
     row.scrollTo({ left: chip.offsetLeft - row.clientWidth / 2 + chip.offsetWidth / 2, behavior: "smooth" });
   }, [activeTab]);
   
@@ -621,6 +632,24 @@ export default function WorldMapMobile({
     const next = clampCam({ k, x: mid.x - (mid.x - c.x) * r, y: mid.y - (mid.y - c.y) * r });
     syncTabToCam(next);
     animateTo(next, 420);
+  };
+
+  // One tap on a numbered stack: glide in, centred on it, far enough that every city in it
+  // stands clear of the others — no second tap needed. The zoom needed comes from the
+  // closest pair inside the stack (the circles keep one size on screen, so the pair
+  // has to end up a full marker gap apart).
+  const zoomToSplit = (items: { x: number; y: number }[], cx: number, cy: number) => {
+    stopCycle();
+    const c = animTargetRef.current ?? camRef.current;
+    let closest = Infinity;
+    for (let i = 0; i < items.length; i++)
+      for (let j = i + 1; j < items.length; j++)
+        closest = Math.min(closest, Math.hypot(items[i].x - items[j].x, items[i].y - items[j].y));
+    const gap = CLUSTER_GAP * 2 * 8 * CITY_MARKER_SCALE * circleScale;
+    const need = Number.isFinite(closest) && closest > 0 ? (gap * 1.15) / closest : c.k * 2;
+    const k = Math.min(kMaxCam, Math.max(c.k * 1.5, need));
+    const mid = centreOfView();
+    animateTo(clampCam({ k, x: mid.x - cx * k, y: mid.y - cy * k }), 520);
   };
 
   // Pointer gestures. One finger drags; two fingers pinch (and drag together);
@@ -1117,7 +1146,9 @@ export default function WorldMapMobile({
     const centreY = areaY + areaH / 2;
 
     // World: the whole map, as large as fits, centred in the frame.
-    const worldScale = Math.min(areaW / W, areaH / viewH);
+    // A little past the width fit: the world is about twice as wide as tall, so a plain fit
+    // leaves a thin strip on a phone. The edges wrap around, so nothing is lost.
+    const worldScale = WORLD_FIT * Math.min(areaW / W, areaH / viewH);
     const transforms: Record<string, string> = {
       [WORLD_TAB.key]: `translate(${centreX - (W / 2) * worldScale} ${centreY - (viewH / 2) * worldScale}) scale(${worldScale})`,
     };
@@ -1153,7 +1184,7 @@ export default function WorldMapMobile({
   );
   // Zoom limits: no further out than the whole world; a good way in past the closest region.
   const kMinCam = fits[WORLD_TAB.key]?.k ?? 1;
-  const kMaxCam = Math.max(...Object.values(fits).map((f) => f.k), 1) * 2.5;
+  const kMaxCam = Math.max(...Object.values(fits).map((f) => f.k), 1) * 6;
   // From this zoom up, the map shows cities (and per-country shapes) instead of region pills.
   const kCities =
     0.85 *
@@ -1468,7 +1499,7 @@ export default function WorldMapMobile({
 
   // World-view region names, the old map's way: a glass pill at a fixed size over each
   // region (no count). Biggest region first; a pill that would overlap one already
-  // placed, or run off the screen, is left off - the chips above still reach every region.
+  // placed is nudged to a free row, so every region is on the world map.
   const regionPills = (() => {
     if (isZoomedIn) return [] as { key: string; label: string; x: number; y: number }[];
     const Hc = H || viewH;
@@ -1482,12 +1513,24 @@ export default function WorldMapMobile({
         x: W / 2 + pan.x + manualZoom * (p.x * activeScale + activeTranslateX - W / 2),
         y: Hc / 2 + pan.y + manualZoom * (p.y * activeScale + activeTranslateY - Hc / 2),
       }))
-      .filter((g) => {
+      .map((g) => {
+        // Every region gets its pill: one that would sit on another is nudged up or
+        // down a row at a time (and kept on screen sideways) instead of being dropped.
         const w = g.label.length * 6.4 + 20;
-        if (g.x - w / 2 < 4 || g.x + w / 2 > W - 4) return false;
-        const ok = placed.every((q) => Math.abs(q.y - g.y) > 17 || Math.abs(q.x - g.x) > (q.w + w) / 2 + 2);
-        if (ok) placed.push({ x: g.x, y: g.y, w });
-        return ok;
+        const x = Math.min(W - 4 - w / 2, Math.max(4 + w / 2, g.x));
+        let y = g.y;
+        // Pills are 24px tall (.regionPill), so two clear of each other sit > 26px apart
+        // vertically or have no horizontal overlap.
+        for (let step = 0; step <= 12; step++) {
+          const off = step === 0 ? 0 : (step % 2 ? 1 : -1) * Math.ceil(step / 2) * 14;
+          const cand = g.y + off;
+          if (placed.every((q) => Math.abs(q.y - cand) > 26 || Math.abs(q.x - x) > (q.w + w) / 2 + 3)) {
+            y = cand;
+            break;
+          }
+        }
+        placed.push({ x, y, w });
+        return { ...g, x, y };
       });
   })();
 
@@ -1621,7 +1664,7 @@ export default function WorldMapMobile({
       ))}
       {/* A cluster keeps its cities' names: a short list beside the stack, one name per
           line, top to bottom as the cities lie on the map, on whichever side has room. */}
-      {clusterNames.map(({ c, idx, names, side, off }) => {
+      {(SHOW_CLUSTER_NAMES ? clusterNames : []).map(({ c, idx, names, side, off }) => {
         const lineH = 13;
         const first = (-(names.length - 1) * lineH) / 2 + 4 + off;
         return (
@@ -1743,8 +1786,6 @@ export default function WorldMapMobile({
                 [-7, 5],
                 [7, 5],
               ];
-        const sx = W / 2 + pan.x + manualZoom * (c.x * activeScale + activeTranslateX - W / 2);
-        const sy = (H || viewH) / 2 + pan.y + manualZoom * (c.y * activeScale + activeTranslateY - (H || viewH) / 2);
         return (
           <g
             key={`cluster-${ci}-${c.items.map((m) => m.slug).join("-")}`}
@@ -1753,15 +1794,9 @@ export default function WorldMapMobile({
             tabIndex={0}
             aria-label={`${c.items.length} destinations here. Zoom in.`}
             style={{ cursor: "pointer" }}
-            onClick={() => {
-              stopCycle();
-              zoomAt(2, sx, sy);
-            }}
+            onClick={() => zoomToSplit(c.items, c.x, c.y)}
             onKeyDown={(e) => {
-              if (e.key === "Enter" || e.key === " ") {
-                stopCycle();
-                zoomAt(2, sx, sy);
-              }
+              if (e.key === "Enter" || e.key === " ") zoomToSplit(c.items, c.x, c.y);
             }}
           >
             <g transform={`scale(${CITY_MARKER_SCALE})`}>

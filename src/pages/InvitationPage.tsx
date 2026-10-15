@@ -62,6 +62,9 @@ function useReducedMotion() {
   return reduced;
 }
 
+// The invitation key is 8 characters: two groups of four.
+const SEG_COUNT = 2;
+
 export default function InvitationPage() {
   useEffect(() => {
     if (data.seo.title) document.title = data.seo.title;
@@ -116,7 +119,7 @@ export default function InvitationPage() {
     const v = el.value.toUpperCase().replace(CODE_FILTER, "").slice(0, 4);
     setSegValue(i, v);
     setAnn(null);
-    if (v.length === 4 && i < 3) {
+    if (v.length === 4 && i < SEG_COUNT - 1) {
       const next = segRefs.current[i + 1];
       next?.focus();
       next?.select();
@@ -133,15 +136,15 @@ export default function InvitationPage() {
       if (prev) setSegValue(i - 1, prev.value.slice(0, -1));
     }
     if (e.key === "ArrowLeft" && el.selectionStart === 0 && i > 0) segRefs.current[i - 1]?.focus();
-    if (e.key === "ArrowRight" && el.selectionStart === el.value.length && i < 3) segRefs.current[i + 1]?.focus();
+    if (e.key === "ArrowRight" && el.selectionStart === el.value.length && i < SEG_COUNT - 1) segRefs.current[i + 1]?.focus();
   }
 
   function distributeCode(clean: string, focusPreference: "last-filled" | "none") {
-    for (let k = 0; k < 4; k++) {
+    for (let k = 0; k < SEG_COUNT; k++) {
       setSegValue(k, clean.slice(k * 4, k * 4 + 4));
     }
     if (focusPreference === "last-filled") {
-      const last = Math.min(3, Math.max(0, Math.floor((clean.length - 1) / 4)));
+      const last = Math.min(SEG_COUNT - 1, Math.max(0, Math.floor((clean.length - 1) / 4)));
       segRefs.current[last]?.focus();
     }
   }
@@ -188,8 +191,8 @@ export default function InvitationPage() {
   async function handleKeySubmit(e: React.FormEvent) {
     e.preventDefault();
     const code = fullCode();
-    if (code.length < 16) {
-      setAnn({ text: "Your key has 16 characters — a few are still missing.", kind: "hint" });
+    if (code.length < SEG_COUNT * 4) {
+      setAnn({ text: "Your key has 8 characters — a few are still missing.", kind: "hint" });
       const firstIncomplete = segRefs.current.find((el) => el && el.value.length < 4);
       (firstIncomplete ?? segRefs.current[0])?.focus();
       return;
@@ -363,7 +366,7 @@ export default function InvitationPage() {
                   {data.step1.keyLabel}
                 </div>
                 <div className={styles.segs} role="group" aria-labelledby="codeLabel">
-                  {[0, 1, 2, 3].map((i) => (
+                  {Array.from({ length: SEG_COUNT }, (_, i) => i).map((i) => (
                     <div key={i} className={`${styles.seg}${filled[i] ? ` ${styles.filled}` : ""}`}>
                       {i > 0 && <span className={styles.dash} aria-hidden="true" />}
                       <input
@@ -375,7 +378,7 @@ export default function InvitationPage() {
                         autoComplete={i === 0 ? "one-time-code" : "off"}
                         maxLength={4}
                         placeholder="••••"
-                        aria-label={`Key, group ${i + 1} of 4`}
+                        aria-label={`Key, group ${i + 1} of ${SEG_COUNT}`}
                         spellCheck={false}
                         onInput={() => handleSegInput(i)}
                         onKeyDown={(e) => handleSegKeyDown(i, e)}
