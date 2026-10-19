@@ -1,4 +1,6 @@
 import { useEffect, useLayoutEffect, useMemo, useRef, useState, type ReactNode } from "react";
+import { createContext, useContext } from "react";
+import { createPortal } from "react-dom";
 import { Link, useParams } from "react-router-dom";
 import {
   Gem,
@@ -24,6 +26,7 @@ import { useScrollReveal } from "../lib/useScrollReveal";
 import { toRoute } from "../lib/toRoute";
 import CityMap from "../components/CityMap";
 import { useIsMobile } from "../hooks/useIsMobile";
+import { useWishlist, type WishlistEntry } from "../lib/wishlist";
 import PlanRouteMap, { type PlanStop } from "../components/PlanRouteMap";
 import PlanCarousel from "../components/PlanCarousel";
 import CalendarSection from "../components/CalendarSection";
@@ -131,9 +134,14 @@ function photoBadge(item: { badge?: string | null }, credentials: string[]): str
   return short.length <= BADGE_MAX ? short : undefined;
 }
 
+// In the "full entry" sheet every tag is shown open — no "+N" to tap.
+const TagsExpanded = createContext(false);
+
 // One headline tag; the rest of the credentials, in full, behind "+N".
 function CardTags({ tag, credentials }: { tag?: string | null; credentials: string[] }) {
-  const [open, setOpen] = useState(false);
+  const [openLocal, setOpen] = useState(false);
+  const always = useContext(TagsExpanded);
+  const open = always || openLocal;
   const headline = tag || headlineTag(credentials[0]);
   const rest = tag ? credentials : credentials.slice(1);
   return (
@@ -142,7 +150,7 @@ function CardTags({ tag, credentials }: { tag?: string | null; credentials: stri
         {headline}
       </span>
       {open && rest.map((c, k) => <span className="cg-cred cg-cred-lo" key={k}>{c}</span>)}
-      {rest.length > 0 && (
+      {rest.length > 0 && !always && (
         <button
           type="button"
           className="cg-cred cg-cred-lo"
@@ -210,11 +218,13 @@ function GuideCard({
   photo,
   badge,
   isLoading,
+  save,
   children,
 }: {
   photo: string;
   badge?: string;
   isLoading?: boolean;
+  save?: WishlistEntry;
   children: ReactNode;
 }) {
   const [imgLoaded, setImgLoaded] = useState(false);
@@ -222,26 +232,109 @@ function GuideCard({
     setImgLoaded(false);
   }, [photo]);
   const showSpinner = isLoading || !imgLoaded;
+  // Phone: the card shows a fixed amount of text (so every card is the same size);
+  // "Read more" (or tapping the card) opens the whole entry in a sheet over the page,
+  // so reading it never stretches the card or the photo.
+  const isPhone = useIsMobile();
+  const [open, setOpen] = useState(false);
+  const wishlist = useWishlist();
+  const saved = !!save && wishlist.isSaved(save.ref);
+  useEffect(() => {
+    if (!open) return;
+    const onKey = (e: KeyboardEvent) => e.key === "Escape" && setOpen(false);
+    document.addEventListener("keydown", onKey);
+    document.documentElement.style.overflow = "hidden";
+    return () => {
+      document.removeEventListener("keydown", onKey);
+      document.documentElement.style.overflow = "";
+    };
+  }, [open]);
+  useEffect(() => {
+    if (!isPhone) setOpen(false);
+  }, [isPhone]);
+
+  // Swipe down on the sheet (when it's scrolled to the top) closes it.
+  const dragY = useRef<number | null>(null);
+  const heart = (cls: string, label: string) => (
+    <button
+      type="button"
+      className={`${cls}${saved ? ` ${styles.hearted}` : ""}`}
+      aria-pressed={saved}
+      aria-label={saved ? "Remove from your shortlist" : "Add to your shortlist"}
+      onClick={(e) => {
+        e.stopPropagation();
+        if (save) void wishlist.toggle(save);
+      }}
+    >
+      <span className={styles.heartIcon}>
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+          {saved ? <path d="M5 12.5l4.5 4.5L19 7.5" /> : <path d="M12 5v14M5 12h14" />}
+        </svg>
+      </span>
+      {label}
+    </button>
+  );
   return (
-    <div className={styles.cardInner}>
-      <div className={styles.cardThumbWrap}>
-        <img
-          className={styles.cardThumb}
-          src={photo}
-          alt=""
-          loading="lazy"
-          onLoad={() => setImgLoaded(true)}
-          onError={() => setImgLoaded(true)}
-        />
-        {badge && <span className={styles.cardThumbBadge}>{badge}</span>}
-        {showSpinner && (
-          <div className={styles["card-thumb-loading"]}>
-            <span className={styles["card-spinner"]} />
-          </div>
-        )}
+    <>
+      <div
+        className={styles.cardInner}
+        onClick={(e) => {
+          // A tap on the card opens the sheet, except on a link inside it (the map link).
+          if (isPhone && !(e.target instanceof Element && e.target.closest("a"))) setOpen(true);
+        }}
+      >
+        <div className={styles.cardThumbWrap}>
+          <img
+            className={styles.cardThumb}
+            src={photo}
+            alt=""
+            loading="lazy"
+            onLoad={() => setImgLoaded(true)}
+            onError={() => setImgLoaded(true)}
+          />
+          {badge && <span className={styles.cardThumbBadge}>{badge}</span>}
+          {showSpinner && (
+            <div className={styles["card-thumb-loading"]}>
+              <span className={styles["card-spinner"]} />
+            </div>
+          )}
+          {isPhone && save && heart(styles.cardHeart, "")}
+        </div>
+        <div className={styles.cardBody}>{children}</div>
       </div>
-      <div className={styles.cardBody}>{children}</div>
-    </div>
+      {/* Outside the card's own element: a tap on the sheet or the dimmed area
+          above it must not bubble into the card's tap-to-open handler. */}
+      {open &&
+        createPortal(
+          <div className={styles.sheetScrim} onClick={() => setOpen(false)}>
+            <div
+              className={styles.sheet}
+              role="dialog"
+              aria-modal="true"
+              onClick={(e) => e.stopPropagation()}
+              onTouchStart={(e) => {
+                dragY.current = e.currentTarget.scrollTop <= 0 ? e.touches[0].clientY : null;
+              }}
+              onTouchEnd={(e) => {
+                if (dragY.current !== null && e.changedTouches[0].clientY - dragY.current > 90) setOpen(false);
+                dragY.current = null;
+              }}
+            >
+              <div className={styles.sheetGrip} aria-hidden="true" />
+              <div className={styles.sheetPhoto} style={{ backgroundImage: `url('${photo}')` }} />
+              <div className={`ta-guide ${styles.sheetBody}`}>
+                <TagsExpanded.Provider value={true}>
+                  <ul className="cg-list">
+                    <li>{children}</li>
+                  </ul>
+                </TagsExpanded.Provider>
+                {save && <div className={styles.sheetFoot}>{heart(styles.sheetSave, saved ? "Saved to my journey" : "Save to my journey")}</div>}
+              </div>
+            </div>
+          </div>,
+          document.body
+        )}
+    </>
   );
 }
 
@@ -262,8 +355,10 @@ function GuidePanel({
   livePhotos,
   fireLookup,
   cityName,
+  citySlug,
 }: {
   cityName?: string;
+  citySlug?: string;
   panel: CityGuidePanel;
   active: boolean;
   selectedTier: number;
@@ -381,7 +476,24 @@ function GuidePanel({
                 })()}
                 key={j}
               >
-                <GuideCard photo={photo} badge={photoBadge(item, credentials)} isLoading={isLoadingLivePhoto}>
+                <GuideCard
+                  photo={photo}
+                  badge={photoBadge(item, credentials)}
+                  isLoading={isLoadingLivePhoto}
+                  save={
+                    citySlug && item.name
+                      ? {
+                          ref: `${citySlug}:${panel.key}:${item.name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}`,
+                          // "stay" is a hotel; "party" a moment; "do" and "eat" are experiences
+                          kind: panel.key === "stay" ? "hotel" : panel.key === "party" ? "event" : "experience",
+                          title: item.name,
+                          city: citySlug,
+                          cityLabel: cityName ?? citySlug,
+                          meta: { section: panel.key, area: item.area ?? null, tier: tier.label ?? null, photo: item.photo ?? null },
+                        }
+                      : undefined
+                  }
+                >
                   <span className="cg-nm-row">
                     <span className="nm">{item.name}</span>
                   </span>
@@ -1134,6 +1246,7 @@ export default function CityPage() {
                           livePhotos={activeTab === p.key ? liveGuidePanelPhotos : {}}
                           fireLookup={fireLiveGuidePanelLookup}
                           cityName={hero.name ?? undefined}
+                          citySlug={slug}
                         />
                       </div>
                     ))}

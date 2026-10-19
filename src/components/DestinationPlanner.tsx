@@ -13,15 +13,30 @@ function cardImage(src: string | null | undefined): string {
 
 // Ported from index.html's #planner inline <script> 1:1 — the same
 // month -> top-8-cities ranking (by that month's digit in monthScore, ties
-// keep DATA order since Array#sort is stable), defaulting to the visitor's
+// broken per month - see tieBreak), defaulting to the visitor's
 // current month. Real client-side logic, no backend: see
 // tools/extract_homepage.py's docstring.
+
+// Cities with the same score for a month used to keep data order, so the same few
+// (Dubai, Abu Dhabi…) led every month they were in season. Ties are now ordered by
+// a hash of the city AND the month: stable on a given month (no reshuffle on
+// re-render), different from one month to the next. Better-scoring cities still
+// always come first.
+function tieBreak(slug: string, month: number): number {
+  let h = 2166136261;
+  const key = `${month}:${slug}`;
+  for (let i = 0; i < key.length; i++) {
+    h ^= key.charCodeAt(i);
+    h = Math.imul(h, 16777619);
+  }
+  return h >>> 0;
+}
 
 function rankCities(cities: PlannerCity[], month: number) {
   return cities
     .map((city) => ({ city, score: parseInt(city.monthScore.charAt(month), 10) }))
     .filter((x) => x.score > 0)
-    .sort((a, b) => b.score - a.score)
+    .sort((a, b) => b.score - a.score || tieBreak(a.city.slug, month) - tieBreak(b.city.slug, month))
     .slice(0, 8);
 }
 
