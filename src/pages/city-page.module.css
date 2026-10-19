@@ -514,6 +514,22 @@
 @media (max-width: 720px) {
   html :global(.ta-guide .cg-list) { row-gap: 12px; }
   html .card-body { padding-top: 8px; padding-bottom: 8px; }
+  /* The photo stretches to the full height of its card (it's a fixed 150px square
+     otherwise), so a long description never runs on below the picture. */
+  html .card-inner { align-items: stretch; }
+  html .card-thumb-wrap { width: 116px; height: auto; min-height: 130px; align-self: stretch; }
+  html .card-inner { gap: 12px; }
+  /* Every card is capped to a fixed amount of text — full name, a row of tags,
+     description 3 lines, one location line — so cards stay a similar,
+     balanced height however long the copy is (the photo stretches to it). */
+  /* The name is never shortened — it can run to three lines, because a cut-off name
+     leaves the visitor guessing which place it is. */
+  html :global(.ta-guide .cg-list li .nm) { display: block !important; }
+  html :global(.ta-guide .cg-list li .ds) {
+    display: -webkit-box !important; -webkit-box-orient: vertical; -webkit-line-clamp: 3; overflow: hidden;
+  }
+  /* Tags wrap (never cut mid-word with an ellipsis) but are limited to two rows. */
+  html :global(.ta-guide .cg-list li .cg-creds) { max-height: 3.4em; overflow: hidden; }
 }
 
 /* Phone pager: always one row — arrow, 5 page slots, arrow — never wrapping. */
@@ -573,4 +589,112 @@
   .ch-fact { margin-right: 0; padding: 14px 12px 2px 0; border-right: 1px solid rgba(255, 255, 255, 0.18); }
   .ch-fact:nth-child(2n) { border-right: 0; padding-left: 16px; }
   .ch-fact:last-child { border-right: 0; }
+}
+
+
+/* Phone: "Read more" under each card, and the sheet it opens with the whole entry.
+   (The card itself stays a fixed amount of text so every card is the same size.) */
+.sheet-scrim {
+  position: fixed;
+  inset: 0;
+  z-index: 1100;
+  display: flex;
+  align-items: flex-end;
+  background: rgba(14, 10, 8, 0.5);
+}
+.sheet {
+  position: relative;
+  width: 100%;
+  max-height: 74svh;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  background: var(--paper, #fff);
+  border-radius: 18px 18px 0 0;
+  box-shadow: 0 -20px 50px -20px rgba(0, 0, 0, 0.4);
+}
+.sheet-grip {
+  position: absolute;
+  top: 8px;
+  left: 50%;
+  z-index: 2;
+  width: 40px;
+  height: 4px;
+  margin-left: -20px;
+  border-radius: 2px;
+  background: rgba(255, 255, 255, 0.85);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+}
+.sheet-photo {
+  height: 170px;
+  background-size: cover;
+  background-position: center;
+  background-color: var(--bone);
+  border-radius: 18px 18px 0 0;
+}
+.sheet-body { padding: 18px var(--gutter, 20px) 28px; }
+/* Inside the sheet the text is complete: undo the card's line limits. */
+html .sheet-body :global(.cg-list li .nm) { display: block !important; -webkit-line-clamp: unset; overflow: visible; font-size: 24px; line-height: 1.15; }
+html .sheet-body :global(.cg-list li .ds) { display: block !important; -webkit-line-clamp: unset; overflow: visible; font-size: 16px; line-height: 1.6; margin-top: 12px; }
+html .sheet-body :global(.cg-list li .cg-creds) { max-height: none; overflow: visible; margin-top: 10px; }
+html .sheet-body :global(.cg-list) { display: block; }
+html .sheet-body :global(.cg-list li) { padding: 0; border: 0; }
+
+/* Shortlist: a small square "+" (a tick once saved) in the corner of each card's photo,
+   and a "Save to my journey" button at the foot of the sheet — the site's own square,
+   tracked-caps button style. */
+.card-heart {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 3;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+.heart-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  background: rgba(255, 255, 255, 0.94);
+  color: var(--ink, #1a1714);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.25);
+}
+.card-heart.hearted .heart-icon { background: var(--ink, #1a1714); color: #fff; }
+.sheet-save {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  min-height: 48px;
+  border: 1px solid var(--ink, #1a1714);
+  border-radius: 0;
+  background: none;
+  color: var(--ink, #1a1714);
+  font-family: var(--fr);
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.sheet-save .heart-icon { width: auto; height: auto; background: none; box-shadow: none; color: inherit; }
+.sheet-save.hearted { background: var(--ink, #1a1714); color: #fff; }
+
+/* The save button stays pinned to the bottom of the sheet however long the text is. */
+.sheet-foot {
+  position: sticky;
+  bottom: 0;
+  margin: 16px calc(var(--gutter, 20px) * -1) -28px;
+  padding: 12px var(--gutter, 20px) calc(16px + env(safe-area-inset-bottom, 0px));
+  background: var(--paper, #fff);
+  border-top: 1px solid var(--line-soft, #eee);
 }
