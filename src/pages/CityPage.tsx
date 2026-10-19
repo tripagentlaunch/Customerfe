@@ -292,7 +292,8 @@ function GuideCard({
             onLoad={() => setImgLoaded(true)}
             onError={() => setImgLoaded(true)}
           />
-          {badge && <span className={styles.cardThumbBadge}>{badge}</span>}
+          {/* On phones the tag already shows beside the photo; a label on the small photo too just crowds it. */}
+          {badge && !isPhone && <span className={styles.cardThumbBadge}>{badge}</span>}
           {showSpinner && (
             <div className={styles["card-thumb-loading"]}>
               <span className={styles["card-spinner"]} />
@@ -1363,7 +1364,7 @@ export default function CityPage() {
               <PrimaryInverseButton to={closing.ctaPrimary.href}>{withTaraAI(closing.ctaPrimary.label)}</PrimaryInverseButton>
             </div>
           )}
-          <p className={`${styles.taReassure} ${styles.taReassureC} reveal d3`}>
+          <p className={`${styles.taReassure} ${styles.taReassureC} ${styles.hideOnPhone} reveal d3`}>
             <span className={styles.taReassureDot} />A private advisor, not a call centre — usually a reply within the hour. No
             obligation.
           </p>

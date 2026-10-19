@@ -698,3 +698,9 @@ html .sheet-body :global(.cg-list li) { padding: 0; border: 0; }
   background: var(--paper, #fff);
   border-top: 1px solid var(--line-soft, #eee);
 }
+
+/* Phone: the closing band ends at its button — the reassurance line under it only repeated
+   what the headline and button already say. */
+@media (max-width: 720px) {
+  .hide-on-phone { display: none; }
+}

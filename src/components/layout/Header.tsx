@@ -144,9 +144,9 @@ export function Header() {
     if (!isMobile) return;
     const TOP_ZONE = 80; // px from the top where the bar is always shown
     const MIN_DELTA = 6; // px of travel before a direction counts
-    // City pages: hidden on arrival (the hero gets the whole screen), shown only
+    // City pages and the home page: hidden on arrival (the hero gets the whole screen), shown only
     // by scrolling up. Every other page: shown at the top.
-    const hiddenAtTop = pathname.startsWith("/city-");
+    const hiddenAtTop = pathname.startsWith("/city-") || pathname === "/";
     setPhoneShown(!hiddenAtTop);
     let lastY = window.scrollY;
     let raf = 0;
@@ -166,9 +166,18 @@ export function Header() {
     const onScroll = () => {
       if (!raf) raf = requestAnimationFrame(tick);
     };
+    // Where the header starts hidden, a tap on the page (not on a link, button or field)
+    // brings it down — it's also the way to the search bar.
+    const onTap = (e: MouseEvent) => {
+      if (!hiddenAtTop || !(e.target instanceof Element)) return;
+      if (e.target.closest("a,button,input,select,textarea,summary,label,[role=button],[role=tab],header.ta-hd")) return;
+      setPhoneShown(true);
+    };
     window.addEventListener("scroll", onScroll, { passive: true });
+    document.addEventListener("click", onTap);
     return () => {
       window.removeEventListener("scroll", onScroll);
+      document.removeEventListener("click", onTap);
       if (raf) cancelAnimationFrame(raf);
     };
   }, [isMobile, pathname]);
