@@ -63,10 +63,6 @@
  .bc-trail a:hover{color:#fff}
  .bc-trail .bc-sep{color:rgba(255,255,255,.4)}
  .bc-trail .bc-cur{color:rgba(255,255,255,.95)}
- /* reassurance beside advisor CTAs (#36) */
- .ta-reassure{display:flex;align-items:center;gap:9px;font-family:var(--fr);font-size:12.5px;letter-spacing:.01em;color:rgba(255,255,255,.82);margin:16px 0 0;text-shadow:0 1px 3px rgba(0,0,0,.5)}
- .ta-reassure-c{justify-content:center}
- .ta-reassure-dot{width:6px;height:6px;border-radius:50%;background:#7DBE8A;box-shadow:0 0 0 3px rgba(125,190,138,.22);flex:none}
  :global(.city-hero) h1{font-family:var(--serif);font-weight:600;font-size:clamp(56px,9.4vw,124px);line-height:.98;letter-spacing:-.004em;margin:0;text-shadow:0 2px 30px rgba(0,0,0,.4)}
  :global(.city-hero) .ess{font-size:clamp(17px,1.5vw,21px);line-height:1.5;color:rgba(255,255,255,.93);margin:16px 0 0;max-width:44ch;text-shadow:0 1px 3px rgba(0,0,0,.55)}
  /* decision ribbon in the hero foot */
@@ -115,12 +111,12 @@
     sitting flush against each other with the hand-off between them
     depending on exactly where this section's own (often near-blank —
     Santorini's photo is bright/pale) hero photo happens to end. */
- .ta-look{padding:0;margin-bottom:32px}
+ .ta-look{padding:0;margin-bottom:20px}
  /* Was clamp(360-640px) — sized for a full-page-width hero photo. Squeezed
     into this split layout's 55% column, that same height reads as a wall of
     near-empty space (Santorini's own photo is bright/pale, so it barely
     registers as content at a glance) between Our take and When to go. */
- .ta-look-hero{position:relative;height:clamp(100px,calc(26vh - 100px),220px);background-size:cover;background-position:center;background-color:#15110d}
+ .ta-look-hero{position:relative;height:clamp(100px,calc(26vh - 100px),180px);background-size:cover;background-position:center;background-color:#15110d}
  .ta-look-hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 55%,rgba(0,0,0,.55))}
  .ta-look-cap{position:absolute;left:0;right:0;bottom:0;z-index:2;padding:clamp(22px,3vw,40px) var(--gutter)}
  .ta-look-cap span{font-family:var(--fr);font-weight:500;font-size:13px;letter-spacing:.02em;color:rgba(255,255,255,.92);text-shadow:0 1px 3px rgba(0,0,0,.6)}
@@ -337,14 +333,13 @@
     photo section + When to go's own top padding just below are trimmed the
     same way — the three of those stacked was the "huge gap" between Our
     take and When to go. */
- .ta-split-info>:global(.ta-take){padding-top:12px;padding-bottom:32px}
- /* Bottom padding mirrors the Our take -> When to go gap, so the two gaps match at
-    every screen height: take's 32px + the photo strip (same clamp as .ta-look-hero)
-    + its 32px margin + When to go's 32px top padding = 96px + strip, minus the
-    12px The plan adds above itself = 84px + strip.
+ .ta-split-info>:global(.ta-take){padding-top:12px;padding-bottom:16px}
+ /* Bottom padding: a plain section break before The plan (which adds 12px of
+    its own). It used to mirror the Our take -> When to go gap, photo strip
+    included, which left ~150-230px of blank space here with no photo in it.
     .band.ta-when-go (not just .ta-when-go): site.css's .band.tight padding ties a
     two-class selector on specificity and loads later, so it was silently winning. */
- .ta-split-info :global(.band.ta-when-go){padding-top:32px;padding-bottom:calc(84px + clamp(100px,calc(26vh - 100px),220px))}
+ .ta-split-info :global(.band.ta-when-go){padding-top:20px;padding-bottom:clamp(56px,7vh,88px)}
  /* Full-bleed on three sides: flush to the very top (no gap under the
     hero), flush to the true viewport right edge (flex:1, no max-width cap
     — .ta-split-info's own margin-left is what keeps text from being
@@ -704,3 +699,64 @@ html .sheet-body :global(.cg-list li) { padding: 0; border: 0; }
 @media (max-width: 720px) {
   .hide-on-phone { display: none; }
 }
+
+/* ===== Desktop guide cards: bounded text + larger photo (2026-10-19) =====
+   Long entries (multi-line credential tags, 5+ line descriptions, long
+   areas) stretched a card past its photo. Desktop now caps them — headline
+   tag 1 line (the "+N" stays beside it), description 4 lines, location 2
+   lines — and GuideCard shows "More" only when something is cut, which
+   opens the full entry in place (data-expanded). "+N" still unfolds the
+   other credentials. Photo 150 -> 190px: it's the card's main draw.
+   The open-state rules repeat the clamp rules' `html .ta-guide .cg-list li`
+   prefix plus .card-body[data-expanded], so they always out-rank them
+   (they didn't at first, which made More/Less look dead).
+   Phones are untouched (their own clamp + sheet). */
+@media (min-width: 721px) {
+  .card-thumb-wrap { width: 190px; height: 190px; }
+  .card-inner { gap: 20px; }
+  /* Title starts near the photo's top edge (was 20px down, which read as a
+     gap); the other three sides keep their 20px for the hover background. */
+  .card-body { padding-top: 6px; }
+
+  html :global(.ta-guide .cg-list li .cg-creds) { flex-wrap: nowrap; }
+  html :global(.ta-guide .cg-list li .cg-creds .cg-cred) {
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; flex: 0 1 auto;
+  }
+  html :global(.ta-guide .cg-list li .cg-creds .cg-cred-lo) { flex-shrink: 0; }
+  /* Same caps on every tab (stay / do / eat / night). `.card-body` in the
+     selector out-ranks the untagged-card `.ds.ds-extra{display:block}` rule,
+     which had silently switched the clamp off for cards without a tag —
+     most of "What to do" — so they ran 10+ lines. Titles cap at 2 lines. */
+  html :global(.ta-guide .cg-list li) .card-body :global(.ds) {
+    display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 4; line-clamp: 4; overflow: hidden;
+  }
+  /* No tag row: that line goes to the description (5 lines), so tagged and
+     untagged cards come out the same height — as the base rules intend. */
+  html :global(.ta-guide .cg-list li) .card-body :global(.ds).ds-extra { -webkit-line-clamp: 5; line-clamp: 5; }
+  html :global(.ta-guide .cg-list li) .card-body :global(.nm) {
+    display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; line-clamp: 2; overflow: hidden;
+  }
+  html :global(.ta-guide .cg-list li) .item-location { max-width: 100%; align-items: flex-start; }
+  html :global(.ta-guide .cg-list li) .item-location svg { flex: none; margin-top: 1px; }
+  html :global(.ta-guide .cg-list li .cg-loc-text) {
+    min-width: 0; overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; line-clamp: 2;
+  }
+
+  /* Open: everything at full length. */
+  html :global(.ta-guide .cg-list li .cg-creds.cg-creds-open),
+  html :global(.ta-guide .cg-list li) .card-body[data-expanded] :global(.cg-creds) { flex-wrap: wrap; }
+  html :global(.ta-guide .cg-list li .cg-creds.cg-creds-open .cg-cred),
+  html :global(.ta-guide .cg-list li) .card-body[data-expanded] :global(.cg-creds .cg-cred) { white-space: normal; overflow: visible; }
+  html :global(.ta-guide .cg-list li) .card-body[data-expanded] :global(.ds),
+  html :global(.ta-guide .cg-list li) .card-body[data-expanded] :global(.nm),
+  html :global(.ta-guide .cg-list li) .card-body[data-expanded] :global(.cg-loc-text) {
+    display: block; -webkit-line-clamp: unset; line-clamp: none; overflow: visible;
+  }
+}
+
+.card-more {
+  display: inline-block; margin-top: 8px; padding: 0; background: none; border: 0; cursor: pointer;
+  font-family: var(--fr); font-weight: 600; font-size: 11px; letter-spacing: .1em; text-transform: uppercase;
+  color: var(--signature); text-decoration: underline; text-underline-offset: 3px;
+}
+.card-more:hover { color: var(--ink); }

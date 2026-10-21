@@ -220,15 +220,18 @@ export default function HomePage() {
                   <p>{card.body}</p>
                 </>
               );
-              // Phone: each card is a link to its own page (Flights, Hotels, Visas).
+              // Each card is a link to its own page (Flights, Hotels, Visas).
+              // Phone: chevron row. Desktop: whole card clickable, with an
+              // "Explore flights →" line so it reads as a link.
               return isMobile ? (
                 <Link className={`svc reveal d${i + 1} ${styles.svcLink}`} to={toRoute(card.ctaHref)} aria-label={card.ctaLabel ?? card.heading ?? undefined} key={i}>
                   {inner}
                 </Link>
               ) : (
-                <div className={`svc reveal d${i + 1}`} key={i}>
+                <Link className={`svc reveal d${i + 1} ${styles.svcCard}`} to={toRoute(card.ctaHref)} key={i}>
                   {inner}
-                </div>
+                  {card.ctaLabel && <span className={`go ${styles.svcGo}`}>{card.ctaLabel}</span>}
+                </Link>
               );
             })}
           </div>

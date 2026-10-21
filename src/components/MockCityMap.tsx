@@ -6,6 +6,7 @@ import ClusterPin from "./ClusterPin";
 import { clusterPoints } from "../lib/clusterPoints";
 import { catColor, catIcon } from "./cityMapCategories";
 import styles from "./MockCityMap.module.css";
+import { useIsMobile } from "../hooks/useIsMobile";
 
 // Placeholder for when there's no Google Maps key yet: venues plotted by
 // lat/lon on a plain projected canvas (linear min/max normalisation across
@@ -14,6 +15,13 @@ import styles from "./MockCityMap.module.css";
 // deleting this component's branch in CityMap.tsx, not rewiring anything.
 const PAD = 0.08;
 const CLUSTER_RADIUS_PX = 84;
+// Desktop only (phones keep the values above / the full overview): smaller
+// clusters, a bigger zoom per badge click (scale factor; phones use 1.5), and
+// opening on the city core — the same radius CityMap.tsx's initial fitBounds
+// uses — so far-out day-trip venues don't shrink the city to one badge.
+const DESKTOP_CLUSTER_RADIUS_PX = 56;
+const MIN_CLUSTER_ZOOM_STEP = 2.5;
+const CORE_RADIUS_DEG = 0.15;
 const MAX_SCALE = 8;
 const FIT_PADDING_PX = 80;
 
@@ -80,8 +88,20 @@ export default function MockCityMap({
     return () => ro.disconnect();
   }, []);
 
-  // A different city's data starts from the full overview again.
-  useEffect(() => setView({ s: 1, tx: 0, ty: 0 }), [data]);
+  // A different city's data starts on its core (as the Google map does):
+  // venues within CORE_RADIUS_DEG of the city's center. Zoom out for the rest.
+  const isMobile = useIsMobile();
+  const hasSize = size.w > 0;
+  useEffect(() => {
+    if (!hasSize || isMobile) {
+      setView({ s: 1, tx: 0, ty: 0 });
+      return;
+    }
+    const [lat, lon] = data.center;
+    const core = data.venues.filter((v) => Math.hypot(v.lat - lat, v.lon - lon) < CORE_RADIUS_DEG);
+    setView(core.length > 1 && core.length < data.venues.length ? fitView(core, 1) : { s: 1, tx: 0, ty: 0 });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [data, hasSize, isMobile]);
 
   // Base (unzoomed) pixel position, then the on-screen position under the view.
   function base(v: CityMapVenue) {
@@ -99,9 +119,9 @@ export default function MockCityMap({
       .map((v, i) => ({ v, i }))
       .filter(({ v }) => !(selected && selected.n === v.n && selected.lat === v.lat))
       .map((item) => ({ item, ...screen(item.v) }));
-    return view.s >= MAX_SCALE ? pts.map((p) => ({ x: p.x, y: p.y, items: [p.item] })) : clusterPoints(pts, CLUSTER_RADIUS_PX);
+    return view.s >= MAX_SCALE ? pts.map((p) => ({ x: p.x, y: p.y, items: [p.item] })) : clusterPoints(pts, isMobile ? CLUSTER_RADIUS_PX : DESKTOP_CLUSTER_RADIUS_PX);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [visibleVenues, selected, size, view, project]);
+  }, [visibleVenues, selected, size, view, project, isMobile]);
 
   function zoomAround(cx: number, cy: number, factor: number) {
     setView((cur) => {
@@ -112,16 +132,21 @@ export default function MockCityMap({
   }
 
   function expandCluster(items: { v: CityMapVenue }[]) {
-    const pts = items.map(({ v }) => base(v));
+    setView(fitView(items.map(({ v }) => v), view.s * (isMobile ? 1.5 : MIN_CLUSTER_ZOOM_STEP)));
+  }
+
+  // View that fits these venues, zoomed in to at least `minScale`.
+  function fitView(venues: CityMapVenue[], minScale: number): View {
+    const pts = venues.map(base);
     const minX = Math.min(...pts.map((p) => p.x));
     const maxX = Math.max(...pts.map((p) => p.x));
     const minY = Math.min(...pts.map((p) => p.y));
     const maxY = Math.max(...pts.map((p) => p.y));
     const fit = Math.min((size.w - 2 * FIT_PADDING_PX) / (maxX - minX || 1), (size.h - 2 * FIT_PADDING_PX) / (maxY - minY || 1));
-    const s = Math.min(MAX_SCALE, Math.max(view.s * 1.5, fit));
+    const s = Math.min(MAX_SCALE, Math.max(minScale, fit));
     const cx = (minX + maxX) / 2;
     const cy = (minY + maxY) / 2;
-    setView(clampView({ s, tx: size.w / 2 - cx * s, ty: size.h / 2 - cy * s }, size.w, size.h));
+    return clampView({ s, tx: size.w / 2 - cx * s, ty: size.h / 2 - cy * s }, size.w, size.h);
   }
 
   // Drag-to-pan for mouse/pen; touch is left to scroll the page.

@@ -7,6 +7,14 @@
   background: var(--paper);
   padding-bottom: 0;
 }
+/* Desktop: lighter lead-in from the discover cards above (the site-wide
+   --sec top padding left a break in the flow). `html` + `.band` lift
+   specificity over site.css's `.band`. Phones use --sec-m. */
+@media (min-width: 721px) {
+  :global(html) .section:global(.band) {
+    padding-top: clamp(80px, 9vh, 140px);
+  }
+}
 .plHead {
   max-width: 52ch;
 }

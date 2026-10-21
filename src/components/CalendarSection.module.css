@@ -1,21 +1,10 @@
-.wmBest {
-  font-family: var(--serif);
-  font-size: 28px;
-  font-style: italic;
-  line-height: 1.16;
-  color: var(--ink);
-  font-weight: 500;
-  letter-spacing: -0.01em;
-  margin: 0;
-}
-
 .wmBlurb {
   font-family: var(--sans);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.34;
   color: var(--ink-soft);
-  margin: 14px 0 0;
+  margin: 0;
 }
 
 /* The two labelled rows: Best time, Fine shoulder. */
@@ -64,4 +53,74 @@
 .chipBest {
   background: #000;
   color: #fff;
+}
+
+/* Desktop: the whole year as one strip. Tier sets the shade:
+   wm2 best = burgundy fill, wm1 good = black fill, wm0 quieter = white with
+   a black outline — three solid steps, none faded. */
+.year {
+  margin-top: 28px;
+}
+
+.strip {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: 4px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cell {
+  padding: 11px 0;
+  text-align: center;
+  font-family: var(--fr);
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  border: 1px solid transparent;
+}
+
+.wm2 {
+  background: var(--signature);
+  border-color: var(--signature);
+  color: var(--paper);
+}
+
+.wm1 {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--paper);
+}
+
+.wm0 {
+  background: var(--paper);
+  border-color: var(--ink);
+  color: var(--ink);
+}
+
+.key {
+  display: flex;
+  gap: 20px;
+  margin-top: 14px;
+  font-family: var(--fr);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--stone);
+}
+
+.keyItem {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Width/style only — a `border` shorthand here would reset the tier's
+   border-color (this rule loads after .wm1/.wm0), hiding Good/Quieter. */
+.swatch {
+  width: 12px;
+  height: 12px;
+  border-width: 1px;
+  border-style: solid;
 }

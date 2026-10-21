@@ -66,7 +66,12 @@ export default function WorldMapSection({ sticky = false }: { sticky?: boolean }
   // loads on demand), so the page-level pass never saw its elements.
   useScrollReveal([]);
   return (
-    <section className="band tight" style={isMobile ? { paddingBottom: 8 } : undefined}>
+    <section
+      className="band tight"
+      // Desktop homepage: the pinned map box already ends in open space, so
+      // no extra bottom padding before "Begin here".
+      style={isMobile ? { paddingBottom: 8 } : sticky ? { paddingBottom: 0 } : undefined}
+    >
       <div className={styles.worldMapWrap}>
         {sticky && !isMobile ? (
           <StickyWorldMap>
