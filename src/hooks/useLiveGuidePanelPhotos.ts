@@ -49,7 +49,10 @@ export function useLiveGuidePanelPhotos(
       // was seen in an earlier session on a different branch state.
       // Every request 404'd, breaking image loading entirely. Reverted to
       // the real, working two-step endpoint this branch actually has.
-      fetchPlaceLookup(candidate, itemArea ?? citySlug).then((result) => {
+      // Search "<name>, <city>", not the area: "Taj Hari Mahal, Civil Lines /
+      // Ratanada" let Google answer with another city's Taj (2026-10-21).
+      void itemArea;
+      fetchPlaceLookup(candidate, citySlug.replace(/-/g, " ")).then((result) => {
         if (!result || !result.found || !result.photo_url) {
           setResults((prev) => ({ ...prev, [key]: { status: result ? "not-found" : "error" } }));
           return;
