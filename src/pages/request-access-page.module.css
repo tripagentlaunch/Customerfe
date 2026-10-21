@@ -294,3 +294,12 @@
     transition: none;
   }
 }
+
+/* Phones: room under the card so the "Open the door" link at its foot always
+   clears the bottom edge (and the floating chat button). */
+@media (max-width: 720px) {
+  .raWrap {
+    padding-bottom: 96px;
+  }
+}
+

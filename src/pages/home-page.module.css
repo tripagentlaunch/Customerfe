@@ -275,20 +275,17 @@
 }
 @media (max-width: 640px) {
   .discSearch {
-    gap: 13px;
-    padding: 18px;
+    gap: 12px;
+    padding: 12px 14px;
   }
   .dsLabel {
-    font-size: 17px;
+    font-size: 14px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
   }
-  .dsLabel :global(em) {
-    display: none;
-  }
   .dsInput {
-    font-size: 17px;
+    font-size: 14px;
   }
   .dsResults {
     padding: 0 18px 14px;
@@ -335,7 +332,7 @@
 .decCard .dn {
   font-family: var(--fr);
   font-weight: 600;
-  font-size: 10.5px;
+  font-size: 12px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--accent-2, #6e2a38);
@@ -505,5 +502,85 @@
 @media (max-width: 480px) {
   .servicesLede {
     white-space: normal;
+  }
+}
+
+/* Phone: 18px headings, and the card hugs its content (no fixed min-height, so
+   the link follows the copy instead of being pushed to the bottom). */
+@media (max-width: 720px) {
+  .decCard {
+    min-height: 0;
+  }
+  .decCard h3 {
+    font-size: 18px;
+  }
+  .decCard p {
+    margin-bottom: 8px;
+  }
+  .decCard .go {
+    margin-top: 0;
+  }
+}
+
+/* Phone "What we handle": the three cards aren't links, so they sit as
+   compact rows (thumbnail beside text) and the section fits one screen
+   instead of running ~1.5 screens of full-width photos. */
+@media (max-width: 640px) {
+  .servicesHead {
+    margin-bottom: 22px !important;
+    gap: 14px 24px !important;
+  }
+  .servicesGrid {
+    display: flex !important;
+    flex-direction: column;
+    gap: 16px !important;
+  }
+  .servicesGrid :global(.svc) {
+    display: grid;
+    grid-template-columns: 112px 1fr;
+    column-gap: 16px;
+    align-items: start;
+  }
+  .servicesGrid :global(.svc .pic) {
+    grid-row: 1 / span 2;
+    width: 112px;
+    /* stretches to the full height of the text beside it, so a longer
+       description never hangs below the photo */
+    align-self: stretch;
+    height: auto;
+    min-height: 112px;
+    aspect-ratio: auto;
+  }
+  .servicesGrid :global(.svc) h3 {
+    margin: 0 0 4px !important;
+    font-size: 20px;
+    align-self: start;
+  }
+  .servicesGrid :global(.svc) p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.45;
+    align-self: start;
+  }
+}
+
+/* Phone service rows are links: no underline, and a chevron at the right edge
+   shows they open their own page. */
+@media (max-width: 640px) {
+  .svcLink {
+    position: relative;
+    color: inherit;
+    text-decoration: none;
+    padding-right: 22px;
+  }
+  .svcLink::after {
+    content: "›";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 26px;
+    line-height: 1;
+    color: var(--stone);
   }
 }

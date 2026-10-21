@@ -9,18 +9,26 @@ import type { HeroSlide } from "../types/homepage";
 import { toRoute } from "../lib/toRoute";
 import { PrimaryInverseButton, SecondaryInverseButton } from "./buttons/InverseButtons";
 import { withTaraAI } from "./TaraAI";
+import { useIsMobile } from "../hooks/useIsMobile";
 import styles from "./HeroCarousel.module.css";
 
 // 720p web encodes (public/videos/homepage/web/, 2026-10-13) of the 1080p
 // originals beside them — the hero sits under a dark scrim, so 720p reads
 // the same at a fraction of the bytes. Each has a first-frame poster (.jpg)
 // so the hero is never blank while a video loads.
-const HERO_VIDEOS = [
+const toVideos = (names: string[]) =>
+  names.map((name) => ({ src: `/videos/homepage/web/${name}.mp4`, poster: `/videos/homepage/web/${name}.jpg` }));
+const HERO_VIDEOS = toVideos([
   "13707600_1920_1080_25fps",
   "4383103-hd_1920_1080_30fps",
   "20186335-hd_1920_1080_60fps",
   "12612854_1920_1080_30fps",
-].map((name) => ({ src: `/videos/homepage/web/${name}.mp4`, poster: `/videos/homepage/web/${name}.jpg` }));
+]);
+// Phones get the portrait "Dream Destinations" clip (2026-10-16), 17s long. The four
+// slides each start it at a different point, so a 5.5s slide never replays what the
+// previous one just showed.
+const PHONE_HERO_VIDEOS = toVideos(["dream-destinations", "dream-destinations", "dream-destinations", "dream-destinations"]);
+const PHONE_CLIP_SECONDS = 17;
 
 // Ported from index.html's own boot() script 1:1 — loop + fade cross-fade,
 // keyboard/a11y on, autoplay paused under reduced motion, hairline
@@ -86,6 +94,9 @@ export default function HeroCarousel({ slides }: { slides: HeroSlide[] }) {
   // Content is fixed — only the background photo cycles between slides.
   // Taken from the first slide, once, rather than re-read per active slide.
   const content = slides[0];
+  // Phone (mobile handoff): the first CTA reads "Browse cities".
+  const isMobile = useIsMobile();
+  const heroVideos = isMobile ? PHONE_HERO_VIDEOS : HERO_VIDEOS;
 
   return (
     <header className={`hero left ${styles.heroEd}`} aria-roledescription="carousel" aria-label="A private travel maison">
@@ -102,15 +113,18 @@ export default function HeroCarousel({ slides }: { slides: HeroSlide[] }) {
                   since nothing re-renders this subtree afterward. Swiper
                   never touches a slide's children, only the slide/wrapper/
                   container elements' own style attributes. */}
-              <div className={styles.heroSlideBg} style={{ backgroundImage: `url('${HERO_VIDEOS[i % HERO_VIDEOS.length].poster}')` }}>
+              <div className={styles.heroSlideBg} style={{ backgroundImage: `url('${heroVideos[i % heroVideos.length].poster}')` }}>
                 <video
                   className={styles.heroSlideVideo}
-                  src={HERO_VIDEOS[i % HERO_VIDEOS.length].src}
-                  poster={HERO_VIDEOS[i % HERO_VIDEOS.length].poster}
+                  src={heroVideos[i % heroVideos.length].src}
+                  poster={heroVideos[i % heroVideos.length].poster}
                   preload={i === 0 ? "auto" : "none"}
                   loop
                   muted
                   playsInline
+                  onLoadedMetadata={(e) => {
+                    if (isMobile) e.currentTarget.currentTime = (i % 4) * (PHONE_CLIP_SECONDS / 4);
+                  }}
                 />
               </div>
               {/* Kept in the DOM for data parity with the source, but hidden by
@@ -141,7 +155,7 @@ export default function HeroCarousel({ slides }: { slides: HeroSlide[] }) {
       <div className={styles.slideInner}>
         <div className="wrap">
           <div className={styles.hsCopy}>
-            <div className="eyebrow on-dark">{content.eyebrow}</div>
+            <div className="eyebrow on-dark">{isMobile ? (content.eyebrow ?? "").replace(/\s*·\s*by invitation\s*$/i, "") : content.eyebrow}</div>
             <div className="rule" />
             <h1 className={`display ${styles.display}`} dangerouslySetInnerHTML={{ __html: content.headingHtml ?? "" }} />
             <p className={`lede on-dark ${styles.lede}`} style={{ marginTop: 24 }}>
@@ -152,7 +166,7 @@ export default function HeroCarousel({ slides }: { slides: HeroSlide[] }) {
                 if (ci === 0) {
                   return (
                     <PrimaryInverseButton to={cta.href} key={ci}>
-                      {cta.label}
+                      {isMobile ? "Browse cities" : cta.label}
                     </PrimaryInverseButton>
                   );
                 }

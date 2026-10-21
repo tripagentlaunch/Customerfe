@@ -5,7 +5,7 @@ import { useAuth } from "../lib/auth";
 import styles from "./claim-page.module.css";
 
 // Ported from claim.html — the 8-digit-code redemption page (distinct from
-// invitation.html's 16-character, 4-step ceremony: InvitationPage.tsx).
+// invitation.html's 8-character, 4-step ceremony: InvitationPage.tsx).
 // Deliberately simple in the source too: enter the code, claim it, go home.
 // No capture/card/welcome-ceremony steps — those only exist on the
 // invitation.html flow.

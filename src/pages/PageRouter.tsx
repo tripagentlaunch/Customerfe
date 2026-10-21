@@ -1,5 +1,6 @@
 import { lazy } from "react";
 import { Navigate, useParams } from "react-router-dom";
+import { useIsMobile } from "../hooks/useIsMobile";
 import NotFoundPage from "./NotFoundPage";
 import EnquirePage from "./EnquirePage";
 import ComingSoonPage from "./ComingSoonPage";
@@ -72,6 +73,13 @@ const WhenToGoPage = lazy(() => import("./WhenToGoPage"));
 const InvitationPage = lazy(() => import("./InvitationPage"));
 const AcceptInvitePage = lazy(() => import("./AcceptInvitePage"));
 const ClaimPage = lazy(() => import("./ClaimPage"));
+
+// Phones get the 8-character claim screen (ClaimPage) at /invitation instead
+// of the 8-character two-box ceremony; larger screens keep the ceremony.
+function InvitationRoute() {
+  const isMobile = useIsMobile();
+  return isMobile ? <ClaimPage /> : <InvitationPage />;
+}
 const RequestAccessPage = lazy(() => import("./RequestAccessPage"));
 const ReferPage = lazy(() => import("./ReferPage"));
 const HomePage = lazy(() => import("./HomePage"));
@@ -244,9 +252,9 @@ const EXACT_SLUG_PAGES: Record<string, () => JSX.Element> = {
   // submission shows a visible "not live yet" message immediately rather
   // than a silent no-op. See the TODO(backend) block at the top of
   // InvitationPage.tsx for what each of the four endpoints needs.
-  invitation: () => <InvitationPage />,
+  invitation: () => <InvitationRoute />,
   // /accept-invite?token=... — the advisor panel's "Invite Customer" email
-  // link. A different token system entirely from invitation.html's 16-char
+  // link. A different token system entirely from invitation.html's 8-char
   // "code" above (see AcceptInvitePage.tsx's header comment): minted and
   // meant to be validated by a completely separate backend project
   // (tripagent-full/backend), not reachable from here (a real request
@@ -256,7 +264,7 @@ const EXACT_SLUG_PAGES: Record<string, () => JSX.Element> = {
   // no fake token validation.
   "accept-invite": () => <AcceptInvitePage />,
   // claim.html — the 8-digit-code redemption page, a separate, simpler
-  // flow from invitation.html's 16-character 4-step ceremony above: enter
+  // flow from invitation.html's 8-character 4-step ceremony above: enter
   // the code, claim it, go home, no capture/card/welcome steps. Same
   // backend touchpoint (POST /invite/{code}/redeem) and same
   // VITE_API_BASE_URL convention as InvitationPage.tsx.

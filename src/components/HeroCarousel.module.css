@@ -332,16 +332,50 @@
   }
 }
 @media (max-width: 720px) {
+  /* Phone: all CTAs stay on one row at a smaller size (was stacked, with the
+     primary full-width). */
   .heroCtaRow {
-    gap: 20px;
-    flex-wrap: wrap;
+    gap: 10px;
+    flex-wrap: nowrap;
+    margin-top: 24px;
+  }
+  .heroCtaRow > * {
+    flex-shrink: 1;
+    min-width: 0;
   }
   :global(.btn-square) {
-    width: 100%;
+    width: auto;
     justify-content: center;
   }
+  /* Phone hero: just the two buttons — the "How it works" link is dropped. */
+  .heroCtaTertiary {
+    display: none;
+  }
+  /* 85svh tall like every phone hero (the global 120px/90px .hero padding is
+     dropped); the copy layer is back in normal flow, anchored to the bottom
+     with 32px above/below (the slide photos stay absolutely behind it). */
+  .heroEd:global(.hero):global(.left) {
+    min-height: 85svh;
+    padding: 0;
+  }
+  .slideInner {
+    position: relative;
+    inset: auto;
+  }
   .slideInner :global(.wrap) {
-    padding-bottom: 96px;
+    height: auto;
+    min-height: 85svh; /* the hero is 85% of the screen; the copy stays at its bottom */
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+  /* Phone type scale for the home hero. !important (with higher specificity)
+     because site.css's phone heading/caption rule (24px over 14px, !important)
+     also matches this h1 + .lede pair and would otherwise win. */
+  .heroEd .slideInner .display {
+    font-size: 40px !important;
+  }
+  .heroEd .slideInner .lede {
+    font-size: 18px !important;
   }
 }
 @media (prefers-reduced-motion: reduce) {

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { TaraAI } from "../components/TaraAI";
 
 // /accept-invite?token=... — where a customer lands from the advisor panel's
-// "Invite Customer" email. NOT the same system as invitation.html's 16-char
+// "Invite Customer" email. NOT the same system as invitation.html's 8-char
 // "code" ceremony (InvitationPage.tsx): this token is minted by a completely
 // separate backend (tripagent-full/backend's POST /advisor/customers/invite,
 // a different project from this one) against a different table

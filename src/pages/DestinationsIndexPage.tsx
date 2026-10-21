@@ -3,6 +3,8 @@ import destinationsData from "../data/destinations-index.generated.json";
 import type { DestinationsIndexPageData } from "../types/destinations-index";
 import { useScrollReveal } from "../lib/useScrollReveal";
 import { PrimaryInverseButton, SecondaryInverseButton } from "../components/buttons/InverseButtons";
+import { withTaraAI } from "../components/TaraAI";
+import { useIsMobile } from "../hooks/useIsMobile";
 // The map and the city list both carry the full city data (~6 MB), so they
 // load as their own chunks after the hero has drawn — the title used to
 // wait ~5s for that data (2026-10-13).
@@ -18,6 +20,7 @@ export default function DestinationsIndexPage() {
   }, []);
 
   useScrollReveal([]);
+  const isMobile = useIsMobile();
   const { hero, groupsIntro, beyond, cta } = data;
 
   return (
@@ -33,6 +36,13 @@ export default function DestinationsIndexPage() {
           <p className="lede on-dark reveal d2" style={{ marginTop: 22, maxWidth: "46ch" }}>
             {hero.lede}
           </p>
+          {/* Phone: just "Ask Tara" — the visitor arrived by tapping "Browse
+              cities", so repeating it here pointed at the page they're on. */}
+          {isMobile && (
+            <div className="btn-row reveal d3" style={{ marginTop: 32 }}>
+              <SecondaryInverseButton to="concierge.html">{withTaraAI("Ask Tara AI")}</SecondaryInverseButton>
+            </div>
+          )}
         </div>
         <div className={styles.indexCount}>
           <div className="n">{hero.count.n}</div>
@@ -40,14 +50,18 @@ export default function DestinationsIndexPage() {
         </div>
       </header>
 
-      <Suspense fallback={<div style={{ minHeight: "70vh" }} />}>
-        <WorldMapSection />
-      </Suspense>
+      {/* Phones skip the world map here (it repeats the homepage's) and go
+          straight to "Chosen, not listed." */}
+      {!isMobile && (
+        <Suspense fallback={<div style={{ minHeight: "70vh" }} />}>
+          <WorldMapSection />
+        </Suspense>
+      )}
 
-      <section className="band tight ta-dx" style={{ background: "var(--bone)" }}>
+      <section id="all-cities" className="band tight ta-dx" style={{ background: "var(--bone)", scrollMarginTop: 96 }}>
         <div className="wrap">
           <div className="dx-head">
-            <div className="eyebrow reveal">{groupsIntro.eyebrow}</div>
+            <div className="eyebrow reveal">{isMobile ? "110+ destinations to begin with" : groupsIntro.eyebrow}</div>
             <div className="rule reveal d1" />
             <h2 className="reveal d1" style={{ marginBottom: "clamp(20px,2.6vw,34px)" }}>
               {groupsIntro.heading}

@@ -1441,7 +1441,6 @@ section.sig::after{background:linear-gradient(180deg,rgba(0,0,0,.46),rgba(0,0,0,
    unit on hover, same reasoning as the arrow-in-label fix on .plan-cta. */
 .ta-advisor-inner{display:inline-flex;align-items:center;gap:9px;transform:scale(1);transition:transform .3s var(--ease)}
 .ta-advisor:hover .ta-advisor-inner{transform:scale(1.1)}
-@media(max-width:560px){.ta-advisor{padding:15px;border-radius:50%}.ta-advisor-inner{gap:0}.ta-advisor-inner span{display:none}}
 @media print{.ta-advisor{display:none}}
 
 /* ===== CITY ITINERARY — day-by-day "The plan" (KRA) ===== */
@@ -2910,18 +2909,6 @@ body:has(.ta-cart.on) .ta-advisor, body:has(.ta-cart.on) .ta-theme{opacity:0;poi
 /* shell: the old fixed utility bar is redundant (header carries advisor + invitation) */
 .ta-has-shell .ak-utility{display:none}
 
-/* ===== Mobile bottom tab-bar (shell) ===== */
-.ta-tabbar{display:none}
-@media(max-width:900px){
-  .ta-tabbar{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:190;background:var(--paper);border-top:1px solid var(--line);height:56px}
-  .ta-tabbar button,.ta-tabbar a{flex:1;background:none;border:0;cursor:pointer;font-family:var(--logo);font-weight:400;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink);text-decoration:none;display:flex;align-items:center;justify-content:center;gap:6px}
-  .ta-tabbar button:active,.ta-tabbar a:active{color:var(--signature)}
-  .ta-tabbar .tct{background:var(--signature);color:#fff;font-family:var(--fr);font-size:10px;font-weight:600;min-width:16px;height:16px;border-radius:8px;display:inline-flex;align-items:center;justify-content:center;padding:0 4px}
-  .ta-tabbar .tct[hidden]{display:none}
-  .ta-has-shell body,body.ta-has-shell{padding-bottom:56px}
-  .ta-has-shell .ta-advisor{display:none}
-  .ta-theme{bottom:calc(clamp(16px,2.5vw,30px) + 64px)!important}
-}
 
 /* shell mobile corrections */
 @media(max-width:900px){
@@ -2929,7 +2916,6 @@ body:has(.ta-cart.on) .ta-advisor, body:has(.ta-cart.on) .ta-theme{opacity:0;poi
   .ta-hd-trip{padding:8px 11px}
   .ta-hd-trip .lbl{display:none}
   .ta-hd-search{max-width:none}
-  .ta-has-shell .ta-advisor{display:none!important}
 }
 
 /* shell mobile: search gets its own full-width row (the front door) */
@@ -3202,3 +3188,215 @@ html.ta-map-pinned .ta-hd{transform:translateY(0)}
 .ta-advisor.ta-advisor-compact svg{width:18px;height:18px}
 .footer{padding-bottom:76px}
 
+/* ===================================================================
+   Mobile layer (from the mobile handoff, ported section by section,
+   2026-10-14). Everything below is phone-only (max-width media queries).
+   =================================================================== */
+
+/* ===== Phone type scale for heading + caption pairs (<=720px) =====
+   Any h1/h2 directly followed by its caption (.lede, or a module class ending
+   in Lede/Sub such as discSub, mapSub, servicesLede) is 24px over 14px.
+   !important because many of these headings carry inline clamp() sizes. */
+@media(max-width:720px){
+  :is(h1,h2):has(+ :is(.lede,[class*="Lede"],[class*="Sub"])){font-size:24px!important;line-height:1.15}
+  :is(h1,h2) + :is(.lede,[class*="Lede"],[class*="Sub"]){font-size:14px!important}
+}
+
+/* Phone card type scale (<=720px): service/feature/step cards are 18px
+   heading over 14px body. */
+@media(max-width:720px){
+  :is(.svc,.feat) h3,.step h4{font-size:18px!important;line-height:1.2}
+  :is(.svc,.feat,.step) p{font-size:14px!important}
+  /* more air between the stacked cards */
+  .grid-3:has(>.svc){gap:44px}
+}
+
+/* ===== Phone section rhythm (<=720px): one token for every section =====
+   --sec-m is the top AND bottom padding of every .band / .band.tight section
+   (so two adjacent sections sit 2 x --sec-m apart), replacing the mix of
+   vh-based clamps (~68-140px) and one-off module paddings. `html` in the
+   selectors lifts specificity above module rules such as home .disc. */
+:root{--sec-m:56px}
+@media(max-width:720px){
+  html .band,html .band.tight,html .band-tight,html .band-dark.band.center{padding-top:var(--sec-m);padding-bottom:var(--sec-m)}
+}
+
+
+/* ===== Phone buttons (<=720px): smaller, and rows stay on one line =====
+   Covers every .btn-row (closing CTA bands, hero CTAs on other pages) and the
+   buttons themselves (.btn, .btn-square, the inverse pair). The home hero's own
+   row is handled in HeroCarousel.module.css. */
+@media(max-width:720px){
+  .btn-row{flex-wrap:nowrap;gap:10px}
+  .btn-row>*{flex:0 1 auto;min-width:0}
+  html .btn,html .btn.btn-square{min-height:40px;padding:11px 18px!important;font-size:11px;letter-spacing:.1em!important;line-height:1.25;text-align:center}
+}
+
+/* ===== Phone: italic accent words match their heading (<=720px) =====
+   The accent in headings ("Sydney, <em>in hand</em>.") must be the same size
+   as the rest of the heading. The city guide had a fixed 44px accent that was
+   larger than its 30px heading on phones; this standardises every heading. */
+@media(max-width:720px){
+  html :is(h1,h2,h3,.display) :is(.it,em){font-size:inherit!important}
+}
+
+/* ===== Phone header (<=900px): always visible, no hamburger =====
+   Row 1: brand · Explore · Profile (pushed to the right margin).
+   Row 2: search, full width. Explore opens its mega as a panel under the
+   header on tap only (the .pin state), never on hover. */
+@media(max-width:900px){
+  .ta-hd-edge{display:none}
+  .ta-hd-burger{display:none}
+  .ta-hd-nav{position:static;transform:none;opacity:1;pointer-events:auto;height:auto;flex-direction:row;align-items:center;justify-content:flex-start;padding:0;background:none;overflow:visible;z-index:auto;border:0;gap:0;margin-left:auto;align-self:stretch}
+  .ta-hd-nav .ta-room{width:auto;display:flex;align-items:stretch}
+  .ta-hd-nav .ta-room>.ta-room-t{font-size:12px;letter-spacing:.18em;padding:0 4px;border:0;width:auto;justify-content:flex-start}
+  .ta-hd-cluster{margin-left:0}
+  .ta-room-rich{position:static}
+  .ta-mega-rich{position:absolute;left:0;right:0;top:var(--ta-hd-search-top,68px);width:auto;min-width:0;margin:0;max-height:calc(100svh - var(--ta-hd-search-top,68px));overflow-y:auto;box-shadow:0 30px 50px -30px rgba(26,20,14,.4)}
+  /* Slide in/out: always rendered, revealed top-down with a clip + small drop.
+     Open state is the tap-driven .pin only (never hover). */
+  .ta-hd .ta-mega-rich{display:block;visibility:hidden;pointer-events:none;opacity:0;transform:translateY(-28px);clip-path:inset(0 0 100% 0);transition:transform .38s cubic-bezier(.22,.61,.36,1),clip-path .38s cubic-bezier(.22,.61,.36,1),opacity .25s ease,visibility 0s linear .38s}
+  .ta-hd .ta-room.pin>.ta-mega-rich{visibility:visible;pointer-events:auto;opacity:1;transform:none;clip-path:inset(0);transition-delay:0s}
+  /* Explore panel sits over the search row (anchored under row 1) so it reads
+     as the Explore menu. Links: Journeys and the unlabelled group stack in the
+     left column while Plan runs down the right, so no empty band under Journeys. */
+  .ta-explore-links{align-content:start;align-items:start;grid-template-rows:auto 1fr;row-gap:22px}
+  .ta-explore-links>.ta-explore-col:nth-child(2){grid-column:2;grid-row:1 / span 2}
+  .ta-explore-links>.ta-explore-col:nth-child(3){grid-column:1;grid-row:2}
+  .ta-explore .ta-feat-cap .fk{text-decoration:underline;text-underline-offset:5px;text-decoration-thickness:1px}
+}
+
+/* Phone: no floating dark-mode switch — it lives in the Profile menu
+   (ProfileDrawer.tsx). The row there has no trailing arrow. */
+.ta-prof-theme::after{content:none}
+@media(max-width:720px){
+  .ta-theme{display:none!important}
+}
+
+/* Phone Tara button (<=900px, mobile handoff): 40px tall like the other
+   floating controls. Its label opens for ~5s after load (AdvisorButton.tsx);
+   the compact icon state is the shared .ta-advisor-compact rules above. */
+@media(max-width:900px){
+  .ta-advisor{box-sizing:border-box;height:40px;padding:0 16px 0 14px}
+  .ta-advisor.ta-advisor-compact{padding:0 10px}
+}
+
+/* ===== Phone heroes (<=720px): every image-background hero is 85% of the
+   screen (home carousel hero: HeroCarousel.module.css). Overrides the global
+   100svh / 92svh / 80svh values and the city hero's 100svh. */
+@media(max-width:720px){
+  html .hero,html .hero.left,html .city-hero{min-height:85svh}
+}
+
+/* ===== Phone testimonials (<=720px): one swipeable row with dots =====
+   Cards narrower than the screen so the next one peeks in; padding trimmed. */
+.quote-dots{display:none}
+@media(max-width:720px){
+  .quote-grid{display:flex;grid-template-columns:none;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;margin:0 calc(var(--gutter) * -1);padding:0 var(--gutter);scroll-padding-inline:var(--gutter);scrollbar-width:none;-webkit-overflow-scrolling:touch}
+  .quote-grid::-webkit-scrollbar{display:none}
+  .quote-grid>.tq{flex:0 0 80%;scroll-snap-align:start;padding:22px 20px}
+  .tq figcaption{margin-top:14px}
+  .quote-dots{display:flex;justify-content:center;gap:8px;margin-top:18px}
+  .quote-dots button{width:6px;height:6px;padding:0;border:0;border-radius:50%;background:var(--line);cursor:pointer;transition:background .25s,transform .25s}
+  .quote-dots button[aria-selected="true"]{background:var(--ink);transform:scale(1.25)}
+}
+
+/* Phone testimonials: the "Member experiences" footnote moves up to sit right
+   under the heading (CSS order only; DOM and desktop unchanged). */
+@media(max-width:720px){
+  .wrap:has(>.quote-grid){display:flex;flex-direction:column}
+  .wrap:has(>.quote-grid)>.quote-grid,.wrap:has(>.quote-grid)>.quote-dots{order:2}
+  .wrap:has(>.quote-grid)>h2{margin-bottom:12px!important}
+  .wrap:has(>.quote-grid)>p.muted{order:1;margin:0 0 26px!important}
+}
+
+/* Phone footer: the image banner just above already carries the mark and
+   "Until you are home." — don't repeat them in the footer's brand block, and
+   the description line goes too so the footer opens straight on Explore. */
+@media(max-width:720px){
+  .footer .brand,.footer .tagline,.footer .fdesc{display:none}
+  /* The footer ends with just "© 2026 TripAgent" (legal assurance): no address and no
+     "We stay." on phones. Room under it so the chat button never covers it. */
+  .footer .legal .faddr,.footer .legal .fstay{display:none}
+  .footer{padding-bottom:72px}
+}
+
+/* Phone header search: suggestions drop down under the bar (Header.tsx). */
+@media(max-width:900px){
+  .ta-hd-suggest{order:6;flex-basis:100%;max-height:calc(100svh - 150px);overflow-y:auto;overscroll-behavior:contain;border-top:1px solid var(--line-soft);padding:4px 0 14px;margin:0 calc(var(--gutter) * -1);padding-left:var(--gutter);padding-right:var(--gutter)}
+  .ta-hd-suggest-all{display:inline-block;margin-top:12px;font-family:var(--fr);font-size:14px;color:var(--signature);text-decoration:none}
+}
+
+/* Phone: the chat button fades out while a form or the footer is on screen
+   (AdvisorButton.tsx), and selects get their chevron back — the form-field
+   reset above (`background:transparent!important`) was wiping it, so the
+   enquiry form's dropdowns looked like plain text. */
+.ta-advisor{transition:transform .4s var(--ease-lux),box-shadow .4s var(--ease-lux),opacity .3s ease}
+.ta-advisor.ta-advisor-away{opacity:0;pointer-events:none;transform:translateY(8px)}
+.ta-advisor.ta-advisor-dim{opacity:.28}
+@media(max-width:720px){
+  main select:not([class*="csSelect"]){
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%236E2A38' stroke-width='1.4' stroke-linecap='round'/%3E%3C/svg%3E")!important;
+    background-repeat:no-repeat!important;
+    background-position:right 4px center!important;
+    background-size:12px 8px!important;
+    padding-right:28px!important;
+    appearance:none;-webkit-appearance:none;
+  }
+}
+
+/* Phone closing CTA bands ("Where to next"): the two buttons stack at one
+   shared width and height instead of sitting side by side at different sizes
+   with the second label wrapping to two lines. */
+@media(max-width:720px){
+  .band-dark .btn-row{flex-direction:column;align-items:stretch;gap:12px;width:100%;max-width:320px;margin-left:auto;margin-right:auto}
+  .band-dark .btn-row>*{flex:none;width:100%;box-sizing:border-box;white-space:nowrap}
+}
+
+/* iOS Safari zooms the page in whenever a field under 16px gets focus — the
+   header search (14px) did it on every page. Every text field, select and
+   textarea is 16px on phones/small tablets; !important because several page
+   modules and the form reset set their own smaller sizes. */
+@media(max-width:767px){
+  html input:not([type=checkbox]):not([type=radio]):not([type=range]):not([type=submit]):not([type=button]):not([type=file]):not([type=color]),
+  html select,
+  html textarea{font-size:16px!important}
+}
+
+/* ===== Phone usability pass (<=720px) =====
+   Tap targets of at least 44px, a shorter header, a real Explore overlay, and
+   no text under 12px. */
+@media(max-width:720px){
+  /* -- header: shorter (was 115px) while its buttons reach 44px -- */
+  .ta-hd-top{padding-top:6px!important;padding-bottom:8px!important;gap:6px 12px!important}
+  .ta-hd-brand{min-height:44px;display:inline-flex;align-items:center}
+  .ta-hd-nav .ta-room>.ta-room-t{min-height:44px;padding:0 10px!important}
+  .ta-hd-trip.ta-hd-profile{min-width:44px;min-height:44px;padding:0!important;justify-content:center}
+  .ta-hd-search{height:40px!important}
+  .ta-hd-q{height:40px!important}
+
+  /* -- Explore panel: dimmed page behind it, a close button, roomy rows -- */
+  .ta-hd-scrim{position:fixed;inset:0;z-index:150;background:rgba(14,10,8,.5)}
+  .ta-mega-close{display:flex;position:absolute;top:6px;right:6px;z-index:3;width:44px;height:44px;align-items:center;justify-content:center;border:0;border-radius:50%;background:rgba(255,255,255,.92);color:var(--ink);font-size:28px;line-height:1;cursor:pointer;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+  .ta-explore-links a{display:flex;align-items:center;min-height:44px;font-size:16px}
+  .ta-mega-rich{max-height:calc(100svh - var(--ta-hd-search-top,68px) - 8px)}
+
+  /* -- footer: every link row is a 44px target -- */
+  .footer a{display:flex;align-items:center;min-height:44px}
+  .footer .fcol-fold>summary{min-height:48px}
+  .footer .fmore>summary{min-height:44px;display:flex;align-items:center}
+
+  /* -- other inline links / call-to-action links -- */
+  a.cta{display:inline-flex;align-items:center;min-height:44px}
+  html .btn,html .btn.btn-square{min-height:44px;font-size:12px}
+  .ta-advisor{min-height:44px}
+  .ta-advisor.ta-advisor-compact{min-width:44px;justify-content:center}
+
+  /* -- carousel dots keep their look but get a 44px touch area -- */
+  .quote-dots button{position:relative}
+  .quote-dots button::after{content:"";position:absolute;inset:-18px -9px}
+
+  /* -- text: nothing under 12px -- */
+  .eyebrow,.k,.ta-cart-h .k,.ta-feat-cap .fk,.ta-mll .ll,.ta-explore-col .ll,.tq-example .tq-label,.ch-fact .fk{font-size:12px!important}
+  .footer .legal{font-size:12px}
+}

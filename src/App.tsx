@@ -6,6 +6,7 @@ import { ThemeProvider } from "./lib/theme";
 import PageRouter from "./pages/PageRouter";
 import PageSkeleton from "./components/PageSkeleton";
 import DesignInspector from "./components/DesignInspector";
+import RouteErrorBoundary from "./components/RouteErrorBoundary";
 
 // AuthProvider is mounted here because Header.tsx calls useAuth()
 // unconditionally and throws without it — with no session yet this is just
@@ -28,8 +29,8 @@ export default function App() {
       <AuthProvider>
         <Routes>
           <Route element={<Layout />}>
-            <Route index element={<Suspense fallback={<PageSkeleton />}><PageRouter /></Suspense>} />
-            <Route path=":pageSlug" element={<Suspense fallback={<PageSkeleton />}><PageRouter /></Suspense>} />
+            <Route index element={<RouteErrorBoundary><Suspense fallback={<PageSkeleton />}><PageRouter /></Suspense></RouteErrorBoundary>} />
+            <Route path=":pageSlug" element={<RouteErrorBoundary><Suspense fallback={<PageSkeleton />}><PageRouter /></Suspense></RouteErrorBoundary>} />
           </Route>
         </Routes>
       </AuthProvider>

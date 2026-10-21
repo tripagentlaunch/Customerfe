@@ -97,11 +97,17 @@ function ExploreGroup({ label, items }: { label?: string; items: [string, string
 // for now). One photo tile (Destinations) plus text links: two labelled
 // categories whose headings are plain labels (not links), and an
 // uncategorised column for the rest.
-export function ExploreMega() {
+export function ExploreMega({ onClose }: { onClose?: () => void }) {
   return (
     <div className="ta-mega ta-mega-rich">
+      {/* Phone only (CSS): a visible way out of the panel. */}
+      {onClose && (
+        <button type="button" className="ta-mega-close" aria-label="Close menu" onClick={onClose}>
+          ×
+        </button>
+      )}
       <div className="ta-explore">
-        <MegaFeat slug="udaipur" eyebrow="Destinations" name="110, decided" href="destinations.html" />
+        <MegaFeat slug="udaipur" eyebrow="All destinations" name="110+, decided" href="destinations.html" />
         <div className="ta-explore-links">
           <ExploreGroup
             label="Journeys"
@@ -122,6 +128,7 @@ export function ExploreMega() {
             ]}
           />
           <ExploreGroup
+            label="Discover"
             items={[
               ["Collections", "collections.html"],
               ["Journal", "journal.html"],
@@ -137,7 +144,7 @@ export function DiscoverMega() {
   return (
     <div className="ta-mega ta-mega-rich">
       <div className="ta-feats">
-        <MegaFeat slug="udaipur" eyebrow="The cities" name="110, decided" href="destinations.html" />
+        <MegaFeat slug="udaipur" eyebrow="The cities" name="110+, decided" href="destinations.html" />
         <MegaFeat slug="reykjavik" eyebrow="Exotic" name="The ends of the earth" href="exotic.html" />
         <MegaFeat slug="zermatt" eyebrow="Health & longevity" name="Medicine & retreats, arranged" href="health.html" />
         <MegaFeat slug="lake-como" eyebrow="Journeys" name="Curated, multi-city" href="journeys.html" />
@@ -147,7 +154,7 @@ export function DiscoverMega() {
         <LinkList
           label="Also"
           items={[
-            ["All 110 cities", "destinations.html"],
+            ["All 110+ cities", "destinations.html"],
             ["When to go", "when-to-go.html"],
             ["Collections", "collections.html"],
             ["The Journal", "journal.html"],

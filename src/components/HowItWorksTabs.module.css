@@ -10,6 +10,13 @@
   overflow: hidden;
   --hiw-t: 0.35s;
 }
+/* Phone: the shared --sec-m section padding (site.css) instead of ~118px. */
+@media (max-width: 720px) {
+  .section:global(.band) {
+    padding-top: var(--sec-m, 56px);
+    padding-bottom: var(--sec-m, 56px);
+  }
+}
 .copy {
   animation: hiwCopyIn var(--hiw-t) var(--ease, ease);
 }
@@ -149,8 +156,25 @@
   display: block;
 }
 
+/* Phone (mobile handoff): keep the stage line + dots + labels (it used to
+   be hidden here), compacted: five labels across the width, no sublabels.
+   --inset is half the 64px phone label, so the end labels stay on screen. */
 @media (max-width: 820px) {
   .track {
+    --inset: 32px;
+    height: 56px;
+    margin: 0 0 28px;
+  }
+  .node {
+    width: 64px;
+  }
+  .lab {
+    margin-top: 16px;
+  }
+  .lab b {
+    font-size: 12px;
+  }
+  .lab i {
     display: none;
   }
 }

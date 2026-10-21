@@ -18,7 +18,7 @@
     "steps": [
       {
         "n": "i",
-        "html": "<b>You receive a key.</b> A one-time 16-digit invitation, handed to you — four groups of four."
+        "html": "<b>You receive a key.</b> A one-time 8-character invitation, handed to you."
       },
       {
         "n": "ii",

@@ -385,17 +385,19 @@ function DesignInspectorInner() {
     return () => window.removeEventListener("click", onClick, { capture: true });
   }, [active]);
 
+  // Idle state shows no pill (the "I" shortcut still works); the ON / LOCKED /
+  // Copied states stay as feedback while inspecting.
   const pillLabel = justCopied
     ? "Copied to clipboard"
     : !active
-      ? 'Press "I" to inspect'
+      ? null
       : locked
         ? 'Inspect: LOCKED ("L" to unlock)'
         : 'Inspect: ON ("L" to lock, click to copy)';
 
   return (
     <div {...{ [ROOT_MARKER]: "true" }}>
-      <div style={PILL_STYLE}>{pillLabel}</div>
+      {pillLabel && <div style={PILL_STYLE}>{pillLabel}</div>}
       {active && snapshot && (
         <div style={{ ...TOOLTIP_BASE_STYLE, left: pos.x, top: pos.y }}>{formatSnapshotText(snapshot)}</div>
       )}

@@ -1,4 +1,6 @@
 import { useEffect, useLayoutEffect, useMemo, useRef, useState, type ReactNode } from "react";
+import { createContext, useContext } from "react";
+import { createPortal } from "react-dom";
 import { Link, useParams } from "react-router-dom";
 import {
   Gem,
@@ -23,6 +25,8 @@ import type { CityData, CityGuidePanel } from "../types/city";
 import { useScrollReveal } from "../lib/useScrollReveal";
 import { toRoute } from "../lib/toRoute";
 import CityMap from "../components/CityMap";
+import { useIsMobile } from "../hooks/useIsMobile";
+import { useWishlist, type WishlistEntry } from "../lib/wishlist";
 import PlanRouteMap, { type PlanStop } from "../components/PlanRouteMap";
 import PlanCarousel from "../components/PlanCarousel";
 import CalendarSection from "../components/CalendarSection";
@@ -130,9 +134,14 @@ function photoBadge(item: { badge?: string | null }, credentials: string[]): str
   return short.length <= BADGE_MAX ? short : undefined;
 }
 
+// In the "full entry" sheet every tag is shown open — no "+N" to tap.
+const TagsExpanded = createContext(false);
+
 // One headline tag; the rest of the credentials, in full, behind "+N".
 function CardTags({ tag, credentials }: { tag?: string | null; credentials: string[] }) {
-  const [open, setOpen] = useState(false);
+  const [openLocal, setOpen] = useState(false);
+  const always = useContext(TagsExpanded);
+  const open = always || openLocal;
   const headline = tag || headlineTag(credentials[0]);
   const rest = tag ? credentials : credentials.slice(1);
   return (
@@ -141,7 +150,7 @@ function CardTags({ tag, credentials }: { tag?: string | null; credentials: stri
         {headline}
       </span>
       {open && rest.map((c, k) => <span className="cg-cred cg-cred-lo" key={k}>{c}</span>)}
-      {rest.length > 0 && (
+      {rest.length > 0 && !always && (
         <button
           type="button"
           className="cg-cred cg-cred-lo"
@@ -176,7 +185,18 @@ const MIN_VISIBLE_ITEMS = 6;
 // are more than seven pages, so the pager never changes width or shifts as
 // you move through it: near the start it's 1 2 3 4 5 … N, near the end
 // 1 … N-4 … N, and in the middle 1 … c-1 c c+1 … N ("gap" is an ellipsis).
-function pagerItems(total: number, current: number): (number | "gap")[] {
+//
+// Phone (`compact`): 7 boxes in all counting the two arrows, so 5 page slots —
+// always the first and last page plus three between: 1 2 3 … N near the start,
+// 1 … N-2 N-1 N near the end, 1 … c … N in the middle.
+function pagerItems(total: number, current: number, compact = false): (number | "gap")[] {
+  if (compact) {
+    if (total <= 5) return Array.from({ length: total }, (_, p) => p);
+    const last = total - 1;
+    if (current < 3) return [0, 1, 2, "gap", last];
+    if (current > last - 3) return [0, "gap", last - 2, last - 1, last];
+    return [0, "gap", current, "gap", last];
+  }
   if (total <= 7) return Array.from({ length: total }, (_, p) => p);
   const last = total - 1;
   if (current < 4) return [0, 1, 2, 3, 4, "gap", last];
@@ -198,11 +218,13 @@ function GuideCard({
   photo,
   badge,
   isLoading,
+  save,
   children,
 }: {
   photo: string;
   badge?: string;
   isLoading?: boolean;
+  save?: WishlistEntry;
   children: ReactNode;
 }) {
   const [imgLoaded, setImgLoaded] = useState(false);
@@ -210,26 +232,110 @@ function GuideCard({
     setImgLoaded(false);
   }, [photo]);
   const showSpinner = isLoading || !imgLoaded;
+  // Phone: the card shows a fixed amount of text (so every card is the same size);
+  // "Read more" (or tapping the card) opens the whole entry in a sheet over the page,
+  // so reading it never stretches the card or the photo.
+  const isPhone = useIsMobile();
+  const [open, setOpen] = useState(false);
+  const wishlist = useWishlist();
+  const saved = !!save && wishlist.isSaved(save.ref);
+  useEffect(() => {
+    if (!open) return;
+    const onKey = (e: KeyboardEvent) => e.key === "Escape" && setOpen(false);
+    document.addEventListener("keydown", onKey);
+    document.documentElement.style.overflow = "hidden";
+    return () => {
+      document.removeEventListener("keydown", onKey);
+      document.documentElement.style.overflow = "";
+    };
+  }, [open]);
+  useEffect(() => {
+    if (!isPhone) setOpen(false);
+  }, [isPhone]);
+
+  // Swipe down on the sheet (when it's scrolled to the top) closes it.
+  const dragY = useRef<number | null>(null);
+  const heart = (cls: string, label: string) => (
+    <button
+      type="button"
+      className={`${cls}${saved ? ` ${styles.hearted}` : ""}`}
+      aria-pressed={saved}
+      aria-label={saved ? "Remove from your shortlist" : "Add to your shortlist"}
+      onClick={(e) => {
+        e.stopPropagation();
+        if (save) void wishlist.toggle(save);
+      }}
+    >
+      <span className={styles.heartIcon}>
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+          {saved ? <path d="M5 12.5l4.5 4.5L19 7.5" /> : <path d="M12 5v14M5 12h14" />}
+        </svg>
+      </span>
+      {label}
+    </button>
+  );
   return (
-    <div className={styles.cardInner}>
-      <div className={styles.cardThumbWrap}>
-        <img
-          className={styles.cardThumb}
-          src={photo}
-          alt=""
-          loading="lazy"
-          onLoad={() => setImgLoaded(true)}
-          onError={() => setImgLoaded(true)}
-        />
-        {badge && <span className={styles.cardThumbBadge}>{badge}</span>}
-        {showSpinner && (
-          <div className={styles["card-thumb-loading"]}>
-            <span className={styles["card-spinner"]} />
-          </div>
-        )}
+    <>
+      <div
+        className={styles.cardInner}
+        onClick={(e) => {
+          // A tap on the card opens the sheet, except on a link inside it (the map link).
+          if (isPhone && !(e.target instanceof Element && e.target.closest("a"))) setOpen(true);
+        }}
+      >
+        <div className={styles.cardThumbWrap}>
+          <img
+            className={styles.cardThumb}
+            src={photo}
+            alt=""
+            loading="lazy"
+            onLoad={() => setImgLoaded(true)}
+            onError={() => setImgLoaded(true)}
+          />
+          {/* On phones the tag already shows beside the photo; a label on the small photo too just crowds it. */}
+          {badge && !isPhone && <span className={styles.cardThumbBadge}>{badge}</span>}
+          {showSpinner && (
+            <div className={styles["card-thumb-loading"]}>
+              <span className={styles["card-spinner"]} />
+            </div>
+          )}
+          {isPhone && save && heart(styles.cardHeart, "")}
+        </div>
+        <div className={styles.cardBody}>{children}</div>
       </div>
-      <div className={styles.cardBody}>{children}</div>
-    </div>
+      {/* Outside the card's own element: a tap on the sheet or the dimmed area
+          above it must not bubble into the card's tap-to-open handler. */}
+      {open &&
+        createPortal(
+          <div className={styles.sheetScrim} onClick={() => setOpen(false)}>
+            <div
+              className={styles.sheet}
+              role="dialog"
+              aria-modal="true"
+              onClick={(e) => e.stopPropagation()}
+              onTouchStart={(e) => {
+                dragY.current = e.currentTarget.scrollTop <= 0 ? e.touches[0].clientY : null;
+              }}
+              onTouchEnd={(e) => {
+                if (dragY.current !== null && e.changedTouches[0].clientY - dragY.current > 90) setOpen(false);
+                dragY.current = null;
+              }}
+            >
+              <div className={styles.sheetGrip} aria-hidden="true" />
+              <div className={styles.sheetPhoto} style={{ backgroundImage: `url('${photo}')` }} />
+              <div className={`ta-guide ${styles.sheetBody}`}>
+                <TagsExpanded.Provider value={true}>
+                  <ul className="cg-list">
+                    <li>{children}</li>
+                  </ul>
+                </TagsExpanded.Provider>
+                {save && <div className={styles.sheetFoot}>{heart(styles.sheetSave, saved ? "Saved to my journey" : "Save to my journey")}</div>}
+              </div>
+            </div>
+          </div>,
+          document.body
+        )}
+    </>
   );
 }
 
@@ -250,16 +356,22 @@ function GuidePanel({
   livePhotos,
   fireLookup,
   cityName,
+  citySlug,
 }: {
   cityName?: string;
+  citySlug?: string;
   panel: CityGuidePanel;
   active: boolean;
   selectedTier: number;
   livePhotos: Record<string, LivePanelPhoto>;
   fireLookup: (key: string, itemName: string, itemArea: string | undefined) => void;
 }) {
+  // Entries per page: 6 on desktop, 4 on phones (the numbered pager appears
+  // once a tier has more than one page).
+  const isPhone = useIsMobile();
+  const pageSize = isPhone ? 4 : MIN_VISIBLE_ITEMS;
   // Per-tier reveal COUNT, not a binary open/closed flag — "Show all"
-  // now reveals MIN_VISIBLE_ITEMS more each click (batched), rather than
+  // now reveals pageSize more each click (batched), rather than
   // jumping straight from 6 to all 44 at once, so a visitor who never
   // clicks past the first batch or two never triggers the later items'
   // image loads at all.
@@ -267,9 +379,12 @@ function GuidePanel({
   // shows ONLY that page's batch, not a cumulative reveal. Page 0 is
   // items[0:6], page 1 is items[6:12], etc.
   const [tierPage, setTierPage] = useState<Record<number, number>>({});
+  // A different page size invalidates the page indexes: back to page 1.
+
 
   const tierRefs = useRef<Record<number, HTMLDivElement | null>>({});
 
+  // (Desktop only — on phones the pager follows the last entry directly.)
   // Keeps each tier's list at the height of a FULL page, so a shorter last
   // page (e.g. 1 entry) doesn't pull the pager upward: the height is
   // measured whenever a full page is showing, and applied as a min-height.
@@ -282,12 +397,18 @@ function GuidePanel({
     window.addEventListener("resize", clear);
     return () => window.removeEventListener("resize", clear);
   }, []);
+  // A different page size invalidates both the page indexes (back to page 1)
+  // and the measured full-page list heights.
+  useEffect(() => {
+    setTierPage({});
+    setListMinH({});
+  }, [pageSize]);
   useLayoutEffect(() => {
     panel.tiers.forEach((tier, i) => {
       const el = listRefs.current[i];
       if (!el) return;
       const page = tierPage[i] ?? 0;
-      if (tier.items.slice(page * MIN_VISIBLE_ITEMS, (page + 1) * MIN_VISIBLE_ITEMS).length < MIN_VISIBLE_ITEMS) return;
+      if (tier.items.slice(page * pageSize, (page + 1) * pageSize).length < pageSize) return;
       const h = el.offsetHeight;
       if (h > 0) setListMinH((prev) => (prev[i] && prev[i] >= h ? prev : { ...prev, [i]: h }));
     });
@@ -317,8 +438,8 @@ function GuidePanel({
   useEffect(() => {
     panel.tiers.forEach((tier, i) => {
       const page = tierPage[i] ?? 0;
-      const start = page * MIN_VISIBLE_ITEMS;
-      const end = start + MIN_VISIBLE_ITEMS;
+      const start = page * pageSize;
+      const end = start + pageSize;
       tier.items.slice(start, end).forEach((item, offset) => {
         const j = start + offset;
         if (item.photo) return; // static photo already present — no live fetch needed
@@ -333,7 +454,7 @@ function GuidePanel({
       {panel.tiers.map((tier, i) => (
         (labelledTiers.length <= 1 || i === selectedTier) && (
         <div className={`cg-tier${(tierPage[i] ?? 0) > 0 ? " cg-more-open" : ""}`} key={i} ref={(el) => { tierRefs.current[i] = el; }}>
-          <ul className="cg-list" ref={(el) => { listRefs.current[i] = el; }} style={listMinH[i] ? { minHeight: listMinH[i], alignContent: "start" } : undefined}>
+          <ul className="cg-list" ref={(el) => { listRefs.current[i] = el; }} style={!isPhone && listMinH[i] ? { minHeight: listMinH[i], alignContent: "start" } : undefined}>
             {tier.items.map((item, j) => {
               // `credentials` is typed required, but that's a compile-time
               // guarantee for hand-authored JSON only — a live API response
@@ -350,13 +471,30 @@ function GuidePanel({
               <li
                 className={(() => {
                   const page = tierPage[i] ?? 0;
-                  const start = page * MIN_VISIBLE_ITEMS;
-                  const end = start + MIN_VISIBLE_ITEMS;
+                  const start = page * pageSize;
+                  const end = start + pageSize;
                   return j >= start && j < end ? "" : "cg-hide";
                 })()}
                 key={j}
               >
-                <GuideCard photo={photo} badge={photoBadge(item, credentials)} isLoading={isLoadingLivePhoto}>
+                <GuideCard
+                  photo={photo}
+                  badge={photoBadge(item, credentials)}
+                  isLoading={isLoadingLivePhoto}
+                  save={
+                    citySlug && item.name
+                      ? {
+                          ref: `${citySlug}:${panel.key}:${item.name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}`,
+                          // "stay" is a hotel; "party" a moment; "do" and "eat" are experiences
+                          kind: panel.key === "stay" ? "hotel" : panel.key === "party" ? "event" : "experience",
+                          title: item.name,
+                          city: citySlug,
+                          cityLabel: cityName ?? citySlug,
+                          meta: { section: panel.key, area: item.area ?? null, tier: tier.label ?? null, photo: item.photo ?? null },
+                        }
+                      : undefined
+                  }
+                >
                   <span className="cg-nm-row">
                     <span className="nm">{item.name}</span>
                   </span>
@@ -379,11 +517,11 @@ function GuidePanel({
               );
             })}
           </ul>
-          {tier.items.length > MIN_VISIBLE_ITEMS && (() => {
-              const totalPages = Math.ceil(tier.items.length / MIN_VISIBLE_ITEMS);
+          {tier.items.length > pageSize && (() => {
+              const totalPages = Math.ceil(tier.items.length / pageSize);
               const page = tierPage[i] ?? 0;
-              const start = page * MIN_VISIBLE_ITEMS + 1;
-              const end = Math.min(start + MIN_VISIBLE_ITEMS - 1, tier.items.length);
+              const start = page * pageSize + 1;
+              const end = Math.min(start + pageSize - 1, tier.items.length);
               return (
                 <nav className={styles.pager} aria-label="Guide pages">
                   <span className={styles.pagerStatus}>
@@ -399,7 +537,7 @@ function GuidePanel({
                     >
                       <ChevronLeft size={16} strokeWidth={2} aria-hidden="true" />
                     </button>
-                    {pagerItems(totalPages, page).map((p, k) =>
+                    {pagerItems(totalPages, page, isPhone).map((p, k) =>
                       p === "gap" ? (
                         <span key={`gap-${k}`} className={styles.pagerGap} aria-hidden="true">
                           …
@@ -455,11 +593,12 @@ function MapDataMissing({ reason }: { reason: string }) {
   );
 }
 
-function AccordionRow({ label, value }: { label: string; value: string }) {
-  const [open, setOpen] = useState(false);
+// Controlled by the parent so the "Before you go" rows exclude each other:
+// opening one closes the others, and all can be closed at once.
+function AccordionRow({ label, value, open, onToggle }: { label: string; value: string; open: boolean; onToggle: () => void }) {
   return (
     <div className={styles.accordionRow}>
-      <button type="button" className={styles.accordionButton} aria-expanded={open} onClick={() => setOpen((o) => !o)}>
+      <button type="button" className={styles.accordionButton} aria-expanded={open} onClick={onToggle}>
         {label}
         <span className={`${styles.accordionChevron}${open ? ` ${styles.open}` : ""}`} aria-hidden="true">
           ⌄
@@ -505,6 +644,20 @@ export default function CityPage() {
   // "stay" (say, Grand selected) to "eat" and back still remembers Grand,
   // instead of resetting every panel's tier selection on every tab switch.
   const [selectedTierByPanel, setSelectedTierByPanel] = useState<Record<string, number>>({});
+
+  // Phone: the guide's tab row and tier-chip row scroll sideways, so whenever
+  // the selected tab/chip changes, scroll its row to bring it into view.
+  useEffect(() => {
+    const bar = guideBarRef.current;
+    if (!bar) return;
+    bar.querySelectorAll<HTMLElement>('[role="tablist"], [role="radiogroup"]').forEach((row) => {
+      const on = row.querySelector<HTMLElement>('[aria-selected="true"], [aria-checked="true"]');
+      if (!on || row.scrollWidth <= row.clientWidth) return;
+      const r = row.getBoundingClientRect();
+      const o = on.getBoundingClientRect();
+      row.scrollTo({ left: row.scrollLeft + (o.left - r.left) - (row.clientWidth - o.width) / 2, behavior: "smooth" });
+    });
+  }, [activeTab, selectedTierByPanel]);
 
   useEffect(() => {
     // "stay" is the conventional first tab, but the contract doesn't
@@ -580,6 +733,10 @@ export default function CityPage() {
   // day auto-cycle, not tied to any map) of the city's events in calendar
   // order. Absent when the city has none.
   const [eventsTabOpen, setEventsTabOpen] = useState(false);
+  // Stacked layout (<=900px, same breakpoint as the split in city-page.module.css):
+  // no side map. Instead the map appears inline twice — before "Our take" and
+  // before the day-wise planner in The plan.
+  const stacked = useIsMobile(900);
   const planEvents = useMemo(() => {
     const order = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
     const first = (ev: CityData["whatsOn"]["events"][number]) => {
@@ -703,6 +860,61 @@ export default function CityPage() {
   const { hero, ourTake, firstLook, whenToGo, guide, plan, neighbourhoods, goodToKnow, closing } =
     city;
 
+  // Phone: "On the ground" and "Where to base yourself" are two dropdowns that
+  // exclude each other — opening one closes the other, and both can be closed.
+  const isPhone = useIsMobile();
+  const [openPrac, setOpenPrac] = useState<"ground" | "base" | null>(null);
+  // "Before you go" rows: one open at a time (index), or none.
+  // "Before you go" rows: one open at a time on phones (mobile handoff);
+  // desktop keeps any number open, as before.
+  const [openBeforeRows, setOpenBeforeRows] = useState<Set<number>>(new Set());
+  const toggleBeforeRow = (i: number) =>
+    setOpenBeforeRows((cur) => {
+      if (isPhone) return cur.has(i) ? new Set() : new Set([i]);
+      const next = new Set(cur);
+      if (next.has(i)) next.delete(i);
+      else next.add(i);
+      return next;
+    });
+  const togglePrac = (k: "ground" | "base") => setOpenPrac((cur) => (cur === k ? null : k));
+  const pracChevron = (open: boolean) => (
+    <span className={`${styles.accordionChevron}${open ? ` ${styles.open}` : ""}`} aria-hidden="true">
+      ⌄
+    </span>
+  );
+  const groundBody = (
+    <>
+      <div className={styles.cardGrid}>
+        {goodToKnow.onGround.rows.map((r, i) => (
+          <div className={styles.pracCard} key={i}>
+            <div className="eyebrow">{r.label}</div>
+            {r.keyword && <div className={styles.cardKeyword}>{r.keyword}</div>}
+            {r.value && <p className={styles.cardDesc}>{r.value}</p>}
+          </div>
+        ))}
+      </div>
+      {goodToKnow.onGround.note && <p className={`${styles.taGuideNote} reveal d1`}>{goodToKnow.onGround.note}</p>}
+    </>
+  );
+  const baseBody = (
+    <>
+      <div className={styles.cardGrid}>
+        {neighbourhoods.items.map((n, i) => (
+          <div className={styles.pracCard} key={i}>
+            <div className={styles.cardKeyword}>{n.name}</div>
+            {n.description && <p className={styles.cardDesc}>{n.description}</p>}
+          </div>
+        ))}
+      </div>
+      {neighbourhoods.pairWith && (
+        <div className={`${styles.taPair}`} style={{ marginTop: 20 }}>
+          <strong>Pair it with</strong>
+          {neighbourhoods.pairWith}
+        </div>
+      )}
+    </>
+  );
+
   return (
     <>
       {!pageReady && <CityPageLoader cityName={hero.name ?? ""} />}
@@ -784,29 +996,45 @@ export default function CityPage() {
       <div className={styles.taSplit}>
       <div className={styles.taSplitInfo}>
 
-      <section className="band ta-content ta-take">
-        <div className="reveal" style={{ maxWidth: "60ch" }}>
-          <div className="eyebrow">Our take</div>
-          <div className="rule" />
-          <p className="lede">{ourTake.lede}</p>
-        </div>
-        <div className={`${styles.taFit} reveal d1`}>
-          <div className={styles.taFitCol}>
-            <div className={styles.fitK}>
-              <i />
-              Come if
-            </div>
-            <p>{ourTake.comeIf}</p>
+      {(() => {
+        const take = (
+        <section className="band ta-content ta-take">
+          <div className="reveal" style={{ maxWidth: "60ch" }}>
+            <div className="eyebrow">Our take</div>
+            <div className="rule" />
+            <p className="lede">{ourTake.lede}</p>
           </div>
-          <div className={`${styles.taFitCol} ${styles.skip}`}>
-            <div className={styles.fitK}>
-              <i />
-              Perhaps not, if
+          <div className={`${styles.taFit} reveal d1`}>
+            <div className={styles.taFitCol}>
+              <div className={styles.fitK}>
+                <i />
+                Come if
+              </div>
+              <p>{ourTake.comeIf}</p>
             </div>
-            <p>{ourTake.skipIf}</p>
+            <div className={`${styles.taFitCol} ${styles.skip}`}>
+              <div className={styles.fitK}>
+                <i />
+                Perhaps not, if
+              </div>
+              <p>{ourTake.skipIf}</p>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+        );
+        // Stacked (phone): the city map and "Our take" form one first screen —
+        // the map flexes to whatever height is left so both fit in the viewport.
+        return stacked ? (
+          <div className={styles.taFirstScreen}>
+            <div className={styles.taInlineMap}>
+              <CityMap slug={city.slug} livePlacesEnabled={isLivePlacesEnabledCity} />
+            </div>
+            {take}
+          </div>
+        ) : (
+          take
+        );
+      })()}
 
       <section className={styles.taLook}>
         <div className={`${styles.taLookHero} reveal-clip`} style={{ backgroundImage: `url('${firstLook.heroImage}')` }}>
@@ -828,6 +1056,11 @@ export default function CityPage() {
               {plan.lede}
             </p>
           </div>
+          {stacked && planStops.length > 1 && (
+            <div className={`${styles.taInlineMap} ${styles.taPlanMap}`}>
+              <PlanRouteMap stops={planStops} activeIndex={activeStopIndex} />
+            </div>
+          )}
           {dayHighlights[activeDayIndex] && (
             <PlanCarousel
               days={plan.days}
@@ -840,7 +1073,7 @@ export default function CityPage() {
             />
           )}
           {plan.cta && (
-            <div className="reveal d2" style={{ marginTop: 20 }}>
+            <div className={`reveal d2 ${styles.planCtaWrap}`} style={{ marginTop: 20 }}>
               <Link className={`btn btn-gold btn-square ${styles.planCta}`} to={toRoute(plan.cta.href)}>
                 <span className={styles.planCtaLabel}>
                   {withTaraAI(plan.cta.label)}
@@ -856,6 +1089,7 @@ export default function CityPage() {
 
       </div>
 
+      {!stacked && (
       <div className={styles.taSplitMap}>
         {planInView && !eventsTabOpen ? (
           // Checked ahead of the calendar's own EventMap below: Plan sits
@@ -923,6 +1157,7 @@ export default function CityPage() {
           <CityMap slug={city.slug} livePlacesEnabled={isLivePlacesEnabledCity} onReady={() => setMapReady(true)} />
         )}
       </div>
+      )}
       </div>
 
       <section className="band ta-guide" id="stay" style={{ scrollMarginTop: 96 }}>
@@ -1012,6 +1247,7 @@ export default function CityPage() {
                           livePhotos={activeTab === p.key ? liveGuidePanelPhotos : {}}
                           fireLookup={fireLiveGuidePanelLookup}
                           cityName={hero.name ?? undefined}
+                          citySlug={slug}
                         />
                       </div>
                     ))}
@@ -1040,40 +1276,42 @@ export default function CityPage() {
             <h3 className={styles.pracHeading}>{goodToKnow.beforeYouGo.heading}</h3>
             <div className={styles.accordionList}>
               {goodToKnow.beforeYouGo.rows.map((r, i) => (
-                <AccordionRow key={i} label={r.label} value={r.value} />
+                <AccordionRow key={i} label={r.label} value={r.value} open={openBeforeRows.has(i)} onToggle={() => toggleBeforeRow(i)} />
               ))}
             </div>
           </div>
 
           <div className={`${styles.pracSection} reveal d2`}>
-            <h3 className={styles.pracHeading}>{goodToKnow.onGround.heading}</h3>
-            <div className={styles.cardGrid}>
-              {goodToKnow.onGround.rows.map((r, i) => (
-                <div className={styles.pracCard} key={i}>
-                  <div className="eyebrow">{r.label}</div>
-                  {r.keyword && <div className={styles.cardKeyword}>{r.keyword}</div>}
-                  {r.value && <p className={styles.cardDesc}>{r.value}</p>}
-                </div>
-              ))}
-            </div>
-            {goodToKnow.onGround.note && <p className={`${styles.taGuideNote} reveal d1`}>{goodToKnow.onGround.note}</p>}
+            {isPhone ? (
+              <div className={styles.accordionRow}>
+                <button type="button" className={styles.accordionButton} aria-expanded={openPrac === "ground"} onClick={() => togglePrac("ground")}>
+                  {goodToKnow.onGround.heading}
+                  {pracChevron(openPrac === "ground")}
+                </button>
+                {openPrac === "ground" && <div className={styles.pracDrop}>{groundBody}</div>}
+              </div>
+            ) : (
+              <>
+                <h3 className={styles.pracHeading}>{goodToKnow.onGround.heading}</h3>
+                {groundBody}
+              </>
+            )}
           </div>
 
           <div className={`${styles.pracSection} reveal d3`}>
-            <h3 className={styles.pracHeading}>{neighbourhoods.heading}</h3>
-            <div className={styles.cardGrid}>
-              {neighbourhoods.items.map((n, i) => (
-                <div className={styles.pracCard} key={i}>
-                  <div className={styles.cardKeyword}>{n.name}</div>
-                  {n.description && <p className={styles.cardDesc}>{n.description}</p>}
-                </div>
-              ))}
-            </div>
-            {neighbourhoods.pairWith && (
-              <div className={`${styles.taPair}`} style={{ marginTop: 20 }}>
-                <strong>Pair it with</strong>
-                {neighbourhoods.pairWith}
+            {isPhone ? (
+              <div className={styles.accordionRow}>
+                <button type="button" className={styles.accordionButton} aria-expanded={openPrac === "base"} onClick={() => togglePrac("base")}>
+                  {neighbourhoods.heading}
+                  {pracChevron(openPrac === "base")}
+                </button>
+                {openPrac === "base" && <div className={styles.pracDrop}>{baseBody}</div>}
               </div>
+            ) : (
+              <>
+                <h3 className={styles.pracHeading}>{neighbourhoods.heading}</h3>
+                {baseBody}
+              </>
             )}
           </div>
         </div>
@@ -1126,7 +1364,7 @@ export default function CityPage() {
               <PrimaryInverseButton to={closing.ctaPrimary.href}>{withTaraAI(closing.ctaPrimary.label)}</PrimaryInverseButton>
             </div>
           )}
-          <p className={`${styles.taReassure} ${styles.taReassureC} reveal d3`}>
+          <p className={`${styles.taReassure} ${styles.taReassureC} ${styles.hideOnPhone} reveal d3`}>
             <span className={styles.taReassureDot} />A private advisor, not a call centre — usually a reply within the hour. No
             obligation.
           </p>
