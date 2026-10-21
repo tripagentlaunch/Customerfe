@@ -39,6 +39,14 @@
   padding-top: clamp(40px, 5vw, 72px);
   padding-bottom: clamp(40px, 5vw, 72px);
 }
+/* Desktop: tighter lead-in from the world map above. `html` + `.band` lift
+   specificity over site.css's `.band.tight` padding. Phones use --sec-m. */
+@media (min-width: 721px) {
+  :global(html) .disc:global(.band) {
+    padding-top: clamp(24px, 3vw, 48px);
+    padding-bottom: clamp(48px, 6vh, 80px);
+  }
+}
 .discHead {
   max-width: 56ch;
 }
@@ -583,4 +591,16 @@
     line-height: 1;
     color: var(--stone);
   }
+}
+
+/* Desktop service cards (Flights, Hotels, Visas) are links to their pages:
+   keep the card's own type colours, and an "Explore …  →" line at the foot. */
+.svcCard {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+.svcGo {
+  display: inline-block;
+  margin-top: 14px;
 }

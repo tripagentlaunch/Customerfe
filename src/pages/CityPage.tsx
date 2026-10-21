@@ -136,27 +136,36 @@ function photoBadge(item: { badge?: string | null }, credentials: string[]): str
 
 // In the "full entry" sheet every tag is shown open — no "+N" to tap.
 const TagsExpanded = createContext(false);
+// Desktop: one open state per guide card (set by GuideCard). Clicking the
+// card, "More" or "+N" opens the whole entry — text and every credential —
+// in one go; a single "Less" closes it. Null on phones (sheet instead).
+const CardExpand = createContext<{ expanded: boolean; open: () => void } | null>(null);
 
 // One headline tag; the rest of the credentials, in full, behind "+N".
 function CardTags({ tag, credentials }: { tag?: string | null; credentials: string[] }) {
   const [openLocal, setOpen] = useState(false);
   const always = useContext(TagsExpanded);
-  const open = always || openLocal;
+  const card = useContext(CardExpand);
+  const open = always || (card ? card.expanded : openLocal);
   const headline = tag || headlineTag(credentials[0]);
   const rest = tag ? credentials : credentials.slice(1);
   return (
-    <span className="cg-creds">
+    <span className={`cg-creds${open ? " cg-creds-open" : ""}`}>
       <span className="cg-cred" title={credentials.join(" · ")}>
         {headline}
       </span>
       {open && rest.map((c, k) => <span className="cg-cred cg-cred-lo" key={k}>{c}</span>)}
-      {rest.length > 0 && !always && (
+      {rest.length > 0 && !always && !(card && card.expanded) && (
         <button
           type="button"
           className="cg-cred cg-cred-lo"
           style={{ cursor: "pointer", background: "none" }}
           aria-expanded={open}
-          onClick={() => setOpen((o) => !o)}
+          onClick={(e) => {
+            e.stopPropagation();
+            if (card) card.open();
+            else setOpen((o) => !o);
+          }}
         >
           {open ? "Less" : `+${rest.length}`}
         </button>
@@ -253,6 +262,30 @@ function GuideCard({
     if (!isPhone) setOpen(false);
   }, [isPhone]);
 
+  // Desktop: description, headline tag and location are capped (4 lines /
+  // 1 line / 1 line, see city-page.module.css) so one long entry can't
+  // stretch its card past the photo. "More" appears only when something is
+  // actually cut, and opens the whole entry in place.
+  const bodyRef = useRef<HTMLDivElement | null>(null);
+  const [expanded, setExpanded] = useState(false);
+  const [clipped, setClipped] = useState(false);
+  const [hasExtras, setHasExtras] = useState(false);
+  const expandable = clipped || hasExtras;
+  const cardExpand = useMemo(() => ({ expanded, open: () => setExpanded(true) }), [expanded]);
+  useLayoutEffect(() => {
+    const el = bodyRef.current;
+    if (!el || isPhone || expanded) return;
+    const check = () => {
+      const parts = el.querySelectorAll<HTMLElement>(".nm, .ds, .cg-creds > .cg-cred:first-child, .cg-loc-text");
+      setClipped(Array.from(parts).some((p) => p.scrollHeight > p.clientHeight + 1 || p.scrollWidth > p.clientWidth + 1));
+      setHasExtras(!!el.querySelector(".cg-cred-lo"));
+    };
+    check();
+    const ro = new ResizeObserver(check);
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, [isPhone, expanded]);
+
   // Swipe down on the sheet (when it's scrolled to the top) closes it.
   const dragY = useRef<number | null>(null);
   const heart = (cls: string, label: string) => (
@@ -281,7 +314,10 @@ function GuideCard({
         onClick={(e) => {
           // A tap on the card opens the sheet, except on a link inside it (the map link).
           if (isPhone && !(e.target instanceof Element && e.target.closest("a"))) setOpen(true);
+          // Desktop: a click anywhere on the card (not a link/button) opens it fully.
+          if (!isPhone && expandable && !expanded && !(e.target instanceof Element && e.target.closest("a, button"))) setExpanded(true);
         }}
+        style={!isPhone && expandable && !expanded ? { cursor: "pointer" } : undefined}
       >
         <div className={styles.cardThumbWrap}>
           <img
@@ -301,7 +337,22 @@ function GuideCard({
           )}
           {isPhone && save && heart(styles.cardHeart, "")}
         </div>
-        <div className={styles.cardBody}>{children}</div>
+        <div className={styles.cardBody} ref={bodyRef} data-expanded={expanded || undefined}>
+          <CardExpand.Provider value={isPhone ? null : cardExpand}>{children}</CardExpand.Provider>
+          {!isPhone && (clipped || expanded) && (
+            <button
+              type="button"
+              className={styles.cardMore}
+              aria-expanded={expanded}
+              onClick={(e) => {
+                e.stopPropagation();
+                setExpanded((x) => !x);
+              }}
+            >
+              {expanded ? "Less" : "More"}
+            </button>
+          )}
+        </div>
       </div>
       {/* Outside the card's own element: a tap on the sheet or the dimmed area
           above it must not bubble into the card's tap-to-open handler. */}
@@ -509,7 +560,7 @@ function GuidePanel({
                       title={`Open ${item.name ?? "this place"} in Google Maps`}
                     >
                       {LOCATION_ICON}
-                      {item.area}
+                      <span className="cg-loc-text">{item.area}</span>
                     </a>
                   )}
                 </GuideCard>
@@ -1160,9 +1211,14 @@ export default function CityPage() {
       )}
       </div>
 
-      <section className="band ta-guide" id="stay" style={{ scrollMarginTop: 96 }}>
+      {/* "The guide" (#stay) lands with the eyebrow near the top of the screen.
+          Desktop anchors on the heading block itself: anchoring on the section
+          left its tall band padding (plus the 96px margin) showing above, so the
+          jump stopped well short. Phones keep the section anchor + 96px for
+          their header. */}
+      <section className="band ta-guide" id={isPhone ? "stay" : undefined} style={isPhone ? { scrollMarginTop: 96 } : undefined}>
         <div className="wrap">
-          <div className="reveal cg-head">
+          <div className="reveal cg-head" id={isPhone ? undefined : "stay"} style={isPhone ? undefined : { scrollMarginTop: 32 }}>
             <div className="eyebrow">
               The guide {guide.verified && <span className="ta-verified">{guide.verified}</span>}
             </div>
@@ -1364,10 +1420,6 @@ export default function CityPage() {
               <PrimaryInverseButton to={closing.ctaPrimary.href}>{withTaraAI(closing.ctaPrimary.label)}</PrimaryInverseButton>
             </div>
           )}
-          <p className={`${styles.taReassure} ${styles.taReassureC} ${styles.hideOnPhone} reveal d3`}>
-            <span className={styles.taReassureDot} />A private advisor, not a call centre — usually a reply within the hour. No
-            obligation.
-          </p>
         </div>
       </section>
     </>

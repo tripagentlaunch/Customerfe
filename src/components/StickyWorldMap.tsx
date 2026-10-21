@@ -93,6 +93,36 @@ export default function StickyWorldMap({ children }: { children?: ReactNode }) {
   // firing on every scroll tick while World happens to be showing.
   const prevRef = useRef({ stuck: false, showingWorld: true });
   const wrapRef = useRef<HTMLDivElement | null>(null);
+  // Desktop: while pinned, one continuous line runs under the whole tab row
+  // (World -> Oceania) and fills left to right with scroll: it reaches each
+  // tab as the map arrives on that region and is full at Oceania, so it's
+  // clear the scroll is what moves the map on. Written straight onto the
+  // tab bar as CSS variables (--fill-x0/--fill-x/--fill-x1/--fill-y, px)
+  // plus a data-scroll-cycle flag on the sticky element — no React
+  // re-render per scroll tick. WorldMap.module.css draws the track + fill.
+  const stickyRef = useRef<HTMLDivElement | null>(null);
+  const setFill = (tabKey: string | null, f = 0) => {
+    const s = stickyRef.current;
+    const bar = s?.querySelector<HTMLElement>('[role="tablist"]');
+    if (!s || !bar) return;
+    const btn = tabKey ? bar.querySelector<HTMLElement>(`[data-tab="${tabKey}"]`) : null;
+    if (!btn) {
+      delete s.dataset.scrollCycle;
+      return;
+    }
+    const tabs = bar.querySelectorAll<HTMLElement>('[role="tab"]');
+    const first = tabs[0];
+    const last = tabs[tabs.length - 1];
+    const next = btn.nextElementSibling as HTMLElement | null;
+    const p = Math.min(1, Math.max(0, f));
+    // Spans the gap to the next tab too, so the line moves continuously.
+    const x = btn.offsetLeft + p * (next ? next.offsetLeft - btn.offsetLeft : btn.offsetWidth);
+    bar.style.setProperty("--fill-x0", `${first.offsetLeft}px`);
+    bar.style.setProperty("--fill-x1", `${last.offsetLeft + last.offsetWidth}px`);
+    bar.style.setProperty("--fill-x", `${x}px`);
+    bar.style.setProperty("--fill-y", `${btn.offsetTop + btn.offsetHeight - 1}px`);
+    s.dataset.scrollCycle = "";
+  };
 
   // One-way "this is over" flag — once true, the section renders as a plain
   // static block forever (see the render branch below) and the scroll
@@ -171,6 +201,10 @@ export default function StickyWorldMap({ children }: { children?: ReactNode }) {
         const progress = Math.min(1, Math.max(0, (scrolledSinceStuck - dwellPx) / scrollable));
         const idx = Math.min(segments.length - 1, Math.floor(progress * segments.length));
         setActiveIndex(idx);
+        // World fills over the dwell, then each region over its own segment.
+        if (!isStuck || isMobile) setFill(null);
+        else if (isDwelling) setFill(WORLD_TAB.key, scrolledSinceStuck / dwellPx);
+        else setFill(segments[idx], progress * segments.length - idx);
       });
     };
     window.addEventListener("scroll", onScroll, { passive: true });
@@ -179,7 +213,13 @@ export default function StickyWorldMap({ children }: { children?: ReactNode }) {
       window.removeEventListener("scroll", onScroll);
       if (raf) cancelAnimationFrame(raf);
     };
-  }, [segments.length]);
+  }, [segments.length, isMobile]);
+
+  // Exit Map stops the scroll handler; drop the fill so the tab bar returns
+  // to its normal full underline.
+  useEffect(() => {
+    if (released) setFill(null);
+  }, [released]);
 
   // Keeps the site header on screen while the map is pinned: scrolling here
   // drives the map, so the header's "hide on scroll down" rule made it
@@ -259,6 +299,7 @@ export default function StickyWorldMap({ children }: { children?: ReactNode }) {
       style={isReleased ? undefined : { height: `${(segments.length + 1 + WORLD_DWELL_VH) * 100}vh` }}
     >
       <div
+        ref={stickyRef}
         className={styles.sticky}
         style={
           isReleased
