@@ -47,11 +47,13 @@ function jumpTo(y: number) {
 
 // How this document was loaded. React Router reports POP for the first
 // page of every full load, even one reached by clicking a link, so for that
-// first page only Back/Forward and reload restore a saved position.
+// first page only Back/Forward restores a saved position. A reload starts at
+// the top (2026-10-21, direct request: refreshing near the bottom landed on
+// the footer instead of the page).
 function documentLoadWasHistory(): boolean {
   try {
     const nav = performance.getEntriesByType("navigation")[0] as PerformanceNavigationTiming | undefined;
-    return !!nav && (nav.type === "back_forward" || nav.type === "reload");
+    return !!nav && nav.type === "back_forward";
   } catch {
     return false;
   }
@@ -99,8 +101,8 @@ export function useScrollRestoration(): void {
     const isFirstEntry = firstEntry.current;
     firstEntry.current = false;
 
-    // PUSH/REPLACE (a link, a redirect), a fresh full page load, or an
-    // entry with nothing saved: start at the top.
+    // PUSH/REPLACE (a link, a redirect), a fresh full page load or a
+    // reload, or an entry with nothing saved: start at the top.
     if (navigationType !== "POP" || saved === undefined || (isFirstEntry && !documentLoadWasHistory())) {
       jumpTo(0);
       return;
