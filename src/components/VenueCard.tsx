@@ -120,7 +120,13 @@ export default function VenueCard({ venue, map, mapContainerEl, onClose, isLoadi
       return () => cancelAnimationFrame(raf);
     }
 
-    const mapRect = mapEl.getBoundingClientRect();
+    // In Google's own fullscreen mode the map's inner div fills the screen
+    // while mapEl (its in-page wrapper) keeps its small layout box — measuring
+    // against that made every right/bottom-side pin look like it overflowed,
+    // and the pan below shoved the map left on hover. Measure against the
+    // fullscreen element whenever the card is inside it.
+    const fsEl = document.fullscreenElement;
+    const mapRect = (fsEl && fsEl.contains(card) ? fsEl : mapEl).getBoundingClientRect();
 
     let nextValign = valign;
     let nextHalign = halign;

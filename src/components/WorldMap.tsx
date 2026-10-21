@@ -1379,6 +1379,7 @@ export default function WorldMap({
               key={tab.key}
               type="button"
               role="tab"
+              data-tab={tab.key}
               aria-selected={tab.key === activeTab}
               className={hoveredTab === tab.key ? styles.tabHovered : undefined}
               onClick={() => pickTab(tab.key)}

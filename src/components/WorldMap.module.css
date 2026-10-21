@@ -29,6 +29,31 @@
   transform: translateY(-2px);
   color: var(--ink);
 }
+/* Homepage scroll-through (StickyWorldMap sets data-scroll-cycle and the
+   --fill-* variables while pinned, desktop only): one continuous line under
+   the whole tab row, World -> Oceania — a light track (::before) and a dark
+   fill (::after) that grows with scroll and reaches each tab as the map
+   arrives there. Per-tab underlines step aside meanwhile. */
+:global([data-scroll-cycle]) :global(.cg-tabs).tabs button[aria-selected="true"] {
+  border-bottom-color: transparent;
+}
+:global([data-scroll-cycle]) :global(.cg-tabs).tabs::before,
+:global([data-scroll-cycle]) :global(.cg-tabs).tabs::after {
+  content: "";
+  position: absolute;
+  top: var(--fill-y, 0);
+  left: var(--fill-x0, 0);
+  height: 1px;
+  pointer-events: none;
+}
+:global([data-scroll-cycle]) :global(.cg-tabs).tabs::before {
+  width: calc(var(--fill-x1, 0px) - var(--fill-x0, 0px));
+  background: var(--line-soft);
+}
+:global([data-scroll-cycle]) :global(.cg-tabs).tabs::after {
+  width: calc(var(--fill-x, 0px) - var(--fill-x0, 0px));
+  background: var(--stone);
+}
 .canvas {
   position: relative;
   /* Fills whatever height .mapArea's flex parent (StickyWorldMap's

@@ -11,6 +11,7 @@ import { clusterPoints, worldPx } from "../lib/clusterPoints";
 import { useLiveVenuePhoto } from "../hooks/useLiveVenuePhoto";
 import { useRemoteConfig } from "../hooks/useRemoteConfig";
 import { BUILD_MAPS_KEY } from "../lib/remoteConfig";
+import { useIsMobile } from "../hooks/useIsMobile";
 
 const VENUE_COORD_LOADERS = import.meta.glob("../data/venue-coords/*.json") as Record<
   string,
@@ -49,6 +50,12 @@ function useCityMapData(slug: string) {
 // around their shared spot (2026-10-13, direct request: badges zoomed right
 // in read as stuck).
 const CLUSTER_RADIUS_PX = 84;
+// Desktop: 56px clusters, and a badge click always zooms in at least
+// MIN_CLUSTER_ZOOM_STEP levels (fitBounds alone barely moves when a big badge
+// already spans most of the view). With 100+ venues the old behaviour took
+// 4-5 clicks to reach a place. Phones keep the original behaviour.
+const DESKTOP_CLUSTER_RADIUS_PX = 56;
+const MIN_CLUSTER_ZOOM_STEP = 2;
 const NO_CLUSTER_ZOOM = 14;
 const OVERLAP_PX = 30;
 
@@ -109,6 +116,8 @@ export default function CityMap({
       : selected;
   const [map, setMap] = useState<google.maps.Map | null>(null);
   const [zoom, setZoom] = useState(11);
+  const isMobile = useIsMobile();
+  const clusterRadius = isMobile ? CLUSTER_RADIUS_PX : DESKTOP_CLUSTER_RADIUS_PX;
 
   const canvasRef = useRef<HTMLDivElement | null>(null);
   const triggerElRef = useRef<HTMLElement | null>(null);
@@ -159,12 +168,12 @@ export default function CityMap({
     const pts = visibleVenues
       .map((v, i) => ({ v, i }))
       .map((item) => ({ item, ...worldPx(item.v.lat, item.v.lon, zoom) }));
-    if (zoom < NO_CLUSTER_ZOOM) return clusterPoints(pts, CLUSTER_RADIUS_PX).map((c) => ({ ...c, offsets: null }));
+    if (zoom < NO_CLUSTER_ZOOM) return clusterPoints(pts, clusterRadius).map((c) => ({ ...c, offsets: null }));
     return clusterPoints(pts, OVERLAP_PX).flatMap((c) => {
       const offsets = c.items.length > 1 ? fanOffsets(c.items.length) : [{ dx: 0, dy: 0 }];
       return c.items.map((item, k) => ({ x: c.x, y: c.y, items: [item], offsets: offsets[k] }));
     });
-  }, [visibleVenues, zoom]);
+  }, [visibleVenues, zoom, clusterRadius]);
 
   function expandCluster(items: { v: CityMapVenue }[]) {
     if (!map) return;
@@ -178,7 +187,15 @@ export default function CityMap({
       map.setZoom(NO_CLUSTER_ZOOM + 2);
       return;
     }
+    const before = map.getZoom() ?? 11;
     map.fitBounds(bounds, 70);
+    if (isMobile) return;
+    google.maps.event.addListenerOnce(map, "idle", () => {
+      if ((map.getZoom() ?? 0) < before + MIN_CLUSTER_ZOOM_STEP) {
+        map.setCenter(bounds.getCenter());
+        map.setZoom(before + MIN_CLUSTER_ZOOM_STEP);
+      }
+    });
   }
 
   const center = useMemo(

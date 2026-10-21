@@ -3399,3 +3399,15 @@ html.ta-map-pinned .ta-hd{transform:translateY(0)}
   .eyebrow,.k,.ta-cart-h .k,.ta-feat-cap .fk,.ta-mll .ll,.ta-explore-col .ll,.tq-example .tq-label,.ch-fact .fk{font-size:12px!important}
   .footer .legal{font-size:12px}
 }
+
+/* Desktop footer ends with the link columns: no divider, copyright/address or
+   "We stay." row. Bottom padding matches the top so the block feels balanced.
+   (Breakpoint mirrors useIsMobile's 720px; mobile footer is untouched.) */
+@media(min-width:721px){
+  /* The footer's "Until you are home." tagline sat right under closing
+     banners that already say it (home, services, visas, ...) — the logo and
+     description carry the brand block on their own. */
+  .footer .tagline{display:none}
+  .footer .legal{display:none}
+  .footer{padding-bottom:clamp(56px,6vw,80px)}
+}

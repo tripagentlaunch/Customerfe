@@ -18,12 +18,17 @@ import styles from "./HeroCarousel.module.css";
 // so the hero is never blank while a video loads.
 const toVideos = (names: string[]) =>
   names.map((name) => ({ src: `/videos/homepage/web/${name}.mp4`, poster: `/videos/homepage/web/${name}.jpg` }));
-const HERO_VIDEOS = toVideos([
-  "13707600_1920_1080_25fps",
-  "4383103-hd_1920_1080_30fps",
-  "20186335-hd_1920_1080_60fps",
-  "12612854_1920_1080_30fps",
-]);
+// Desktop (2026-10-21): the landscape "Dream Destinations" montage — the 4K
+// master (Tripagent-Desktop-4K-Mixed-Source-Master.mp4, 3840x2160, 17.1s),
+// served byte-for-byte as supplied, no re-encode — is the main hero, then the Bali water temple at dusk. Each plays through
+// to its own end before the carousel fades on (see the effect below), so a
+// fixed slide timer never cuts either one off mid-shot. `end` stops a clip
+// early: the montage's last ~0.7s is a baked-in dissolve back to its opening
+// Eiffel Tower shot (made for looping), which flashed Paris just before Bali.
+const HERO_VIDEOS: { src: string; poster: string; end?: number }[] = [
+  { ...toVideos(["tripagent-desktop-4k"])[0], end: 16 },
+  ...toVideos(["13707600_1920_1080_25fps"]),
+];
 // Phones get the portrait "Dream Destinations" clip (2026-10-16), 17s long. The four
 // slides each start it at a different point, so a 5.5s slide never replays what the
 // previous one just showed.
@@ -46,6 +51,7 @@ export default function HeroCarousel({ slides }: { slides: HeroSlide[] }) {
     if (!el) return;
     const reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
+    const playThrough = window.matchMedia("(min-width: 721px)").matches;
     const swiper = new Swiper(el, {
       modules: [EffectFade, Autoplay, Keyboard, A11y, Navigation],
       loop: true,
@@ -55,7 +61,8 @@ export default function HeroCarousel({ slides }: { slides: HeroSlide[] }) {
       grabCursor: false,
       keyboard: { enabled: true },
       a11y: { enabled: true },
-      autoplay: reduce
+      // Desktop advances when the active video ends (below), not on a timer.
+      autoplay: reduce || playThrough
         ? false
         : {
             delay: 5500,
@@ -76,17 +83,39 @@ export default function HeroCarousel({ slides }: { slides: HeroSlide[] }) {
         const slide = v.closest(".swiper-slide");
         if (slide?.classList.contains("swiper-slide-active") && !reduce) {
           if (v.preload !== "auto") v.preload = "auto";
-          v.play().catch(() => {});
+          // Desktop: every video starts from its beginning when its slide comes up.
+          if (playThrough && v.paused && v.readyState > 0) v.currentTime = 0;
+          v.play().catch(() => {
+            // Autoplay blocked: fall back to a timed advance so the hero never sticks.
+            if (playThrough && !reduce) fallback = window.setTimeout(() => swiper.slideNext(), 8000);
+          });
         } else {
           v.pause();
         }
       });
     };
+    // Desktop: the active video ending is what moves the carousel on.
+    let fallback = 0;
+    const onEnded = (e: Event) => {
+      if (playThrough && !reduce && (e.target as HTMLElement).closest(".swiper-slide-active")) swiper.slideNext();
+    };
+    el.addEventListener("ended", onEnded, true);
+    // A clip with an `end` (data-end) moves on there instead, before its tail.
+    const onTime = (e: Event) => {
+      const v = e.target as HTMLVideoElement;
+      const end = Number(v.dataset.end);
+      if (playThrough && !reduce && end && v.currentTime >= end && v.closest(".swiper-slide-active")) swiper.slideNext();
+    };
+    el.addEventListener("timeupdate", onTime, true);
+    swiper.on("slideChange", () => window.clearTimeout(fallback));
     swiper.on("slideChange", playActive);
     swiper.on("slideChangeTransitionStart", playActive);
     playActive();
 
     return () => {
+      el.removeEventListener("ended", onEnded, true);
+      el.removeEventListener("timeupdate", onTime, true);
+      window.clearTimeout(fallback);
       swiper.destroy(true, true);
     };
   }, []);
@@ -96,7 +125,7 @@ export default function HeroCarousel({ slides }: { slides: HeroSlide[] }) {
   const content = slides[0];
   // Phone (mobile handoff): the first CTA reads "Browse cities".
   const isMobile = useIsMobile();
-  const heroVideos = isMobile ? PHONE_HERO_VIDEOS : HERO_VIDEOS;
+  const heroVideos: { src: string; poster: string; end?: number }[] = isMobile ? PHONE_HERO_VIDEOS : HERO_VIDEOS;
 
   return (
     <header className={`hero left ${styles.heroEd}`} aria-roledescription="carousel" aria-label="A private travel maison">
@@ -119,7 +148,8 @@ export default function HeroCarousel({ slides }: { slides: HeroSlide[] }) {
                   src={heroVideos[i % heroVideos.length].src}
                   poster={heroVideos[i % heroVideos.length].poster}
                   preload={i === 0 ? "auto" : "none"}
-                  loop
+                  loop={isMobile}
+                  data-end={isMobile ? undefined : heroVideos[i % heroVideos.length].end}
                   muted
                   playsInline
                   onLoadedMetadata={(e) => {
@@ -159,7 +189,9 @@ export default function HeroCarousel({ slides }: { slides: HeroSlide[] }) {
             <div className="rule" />
             <h1 className={`display ${styles.display}`} dangerouslySetInnerHTML={{ __html: content.headingHtml ?? "" }} />
             <p className={`lede on-dark ${styles.lede}`} style={{ marginTop: 24 }}>
-              {content.lede}
+              {/* Desktop: the promise "until you are home" is the closing banner's
+                  headline and the signature section's line — not repeated here. */}
+              {isMobile ? content.lede : (content.lede ?? "").replace(/\s*—\s*until you are home\.?$/i, ".")}
             </p>
             <div className={styles.heroCtaRow}>
               {content.ctaLinks.map((cta, ci) => {
