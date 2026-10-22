@@ -326,7 +326,13 @@ function GuideCard({
             alt=""
             loading="lazy"
             onLoad={() => setImgLoaded(true)}
-            onError={() => setImgLoaded(true)}
+            onError={(e) => {
+              // A photo that can't load shows the same quiet placeholder as a
+              // place with none, never a broken image (2026-10-22).
+              const fallback = placeholderPhoto(photo);
+              if (e.currentTarget.src !== fallback) e.currentTarget.src = fallback;
+              setImgLoaded(true);
+            }}
           />
           {/* On phones the tag already shows beside the photo; a label on the small photo too just crowds it. */}
           {badge && !isPhone && <span className={styles.cardThumbBadge}>{badge}</span>}
@@ -843,7 +849,14 @@ export default function CityPage() {
   );
   const agraLiveCoords = useAgraLivePlanCoords(isLivePlacesEnabledCity, city?.plan.days, planTargets);
   // const agraLiveEventLocations = useAgraLiveEventLocations(isLivePlacesEnabledCity, city?.whatsOn.events);
-  const { results: liveGuidePanelPhotos, fireLookup: fireLiveGuidePanelLookup } = useLiveGuidePanelPhotos(isLivePlacesEnabledCity, city?.slug);
+  // The engine's guide already chose each photo, checked to be the exact
+  // place; a card it left without one shows the placeholder, not a live
+  // Google guess that may be another place (2026-10-22). The live lookup is
+  // only for the bundled guide.
+  const { results: liveGuidePanelPhotos, fireLookup: fireLiveGuidePanelLookup } = useLiveGuidePanelPhotos(
+    isLivePlacesEnabledCity && engineGuide.status === "fallback",
+    city?.slug,
+  );
 
   // Each day's highlight, resolved: its coordinates come from the static
   // data when present, else from the live lookup (test cities) if it has
