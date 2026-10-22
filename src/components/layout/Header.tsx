@@ -119,7 +119,7 @@ export function Header() {
   // straight back on the next scroll UP (it stays until the next scroll
   // down). Stays put while the Explore panel is open or search has focus.
   const isMobile = useIsMobile();
-  const { pathname } = useLocation();
+  const { pathname, search } = useLocation();
   const [phoneShown, setPhoneShown] = useState(true);
   const [focusWithin, setFocusWithin] = useState(false);
   // Phone: search suggests right under the bar as you type, on the same
@@ -248,9 +248,34 @@ export function Header() {
     document.documentElement.style.overflow = menuOpen || exploreOpenOnPhone ? "hidden" : "";
   }, [menuOpen, exploreOpenOnPhone]);
 
+  // The header bar is the site's only search box (2026-10-22): on /search it
+  // drives the results as you type, Enter included; landing on /search?q=
+  // shows that query in the bar.
+  const onSearchPage = pathname === "/search";
+  const urlQuery = onSearchPage ? new URLSearchParams(search).get("q") || "" : "";
+  // Only when the URL's query changes (a link, Back): arriving on /search
+  // must not wipe what is already being typed.
+  const lastUrlQuery = useRef(urlQuery);
+  useEffect(() => {
+    if (urlQuery === lastUrlQuery.current) return;
+    lastUrlQuery.current = urlQuery;
+    if (onSearchPage) setQuery((cur) => (cur.trim() === urlQuery.trim() ? cur : urlQuery));
+  }, [onSearchPage, urlQuery]);
+
+  function searchUrl(value: string) {
+    const v = value.trim();
+    return `/search${v ? `?q=${encodeURIComponent(v)}` : ""}`;
+  }
+
+  function onSearchChange(value: string) {
+    setQuery(value);
+    if (onSearchPage) navigate(searchUrl(value), { replace: true });
+  }
+
   function submitSearch(e: React.FormEvent) {
     e.preventDefault();
-    navigate(`/search${query ? `?q=${encodeURIComponent(query)}` : ""}`);
+    setSearchOpen(false);
+    navigate(searchUrl(query), { replace: onSearchPage });
   }
 
   return (
@@ -301,12 +326,12 @@ export function Header() {
             autoComplete="off"
             spellCheck={false}
             value={query}
-            onChange={(e) => setQuery(e.target.value)}
-            onFocus={() => (isMobile ? setSearchOpen(true) : navigate("/search"))}
+            onChange={(e) => onSearchChange(e.target.value)}
+            onFocus={() => (isMobile ? setSearchOpen(true) : onSearchPage ? undefined : navigate(searchUrl(query)))}
           />
         </form>
 
-        {isMobile && searchOpen && q && (
+        {isMobile && searchOpen && q && !onSearchPage && (
           <div className="ta-hd-suggest" aria-live="polite">
             {!searchIndex ? null : suggestions.length === 0 ? (
               <div className="sp-empty">
