@@ -1,7 +1,7 @@
 {
   "seo": {
-    "title": "Stay Intelligence \u2014 TripAgent",
-    "description": "How your advisor chooses the suite, the villa or the room itself \u2014 and how preferred-partner programmes add upgrades, breakfast and credits to a stay."
+    "title": "Stay Intelligence | TripAgent",
+    "description": "How your advisor chooses the suite, the villa or the room itself, and how preferred-partner programmes add upgrades, breakfast and credits to a stay."
   },
   "hero": {
     "back": {
@@ -10,7 +10,7 @@
     },
     "eyebrow": "Stay Intelligence",
     "headingHtml": "The <span class=\"it\">right</span> room,<br/>not just a room.",
-    "lede": "A quiet library on staying well. When a suite is worth it. When a villa beats a hotel. How the room itself is chosen \u2014 and how preferred-partner programmes add upgrades, breakfast and credits. Two rooms at the same rate can be worlds apart. This is how we tell.",
+    "lede": "A quiet library on staying well. When a suite is worth it. When a villa beats a hotel. How the room itself is chosen, and how preferred-partner programmes add upgrades, breakfast and credits. Two rooms at the same rate can be worlds apart. This is how we tell.",
     "image": "/_vercel/image?url=%2Fimg%2Fh%2Fstay-guides.jpg&w=2560&q=80",
     "buttons": [
       {
@@ -32,7 +32,7 @@
   "routeGuides": {
     "eyebrow": "Choosing the stay",
     "heading": "How a stay is really chosen.",
-    "lede": "The suite, the villa, the room, the occasion \u2014 and how your advisor weighs each one for you.",
+    "lede": "The suite, the villa, the room, the occasion, and how your advisor weighs each one for you.",
     "cards": [
       {
         "route": "Suite vs. room",
@@ -51,28 +51,28 @@
       {
         "route": "The room itself",
         "heading": "How the right room is chosen",
-        "body": "Two rooms, one rate, worlds apart. The view, the floor, the wing \u2014 and how your advisor asks for the right one.",
+        "body": "Two rooms, one rate, worlds apart. The view, the floor, the wing, and how your advisor asks for the right one.",
         "image": "/_vercel/image?url=%2Fimg%2Fh%2Fthe-right-room.jpg&w=1280&q=80",
         "href": "the-right-room.html"
       },
       {
         "route": "For families",
         "heading": "Stays that work for families",
-        "body": "Connecting rooms, a villa with a pool, the layout that keeps everyone together \u2014 and what to confirm before you go.",
+        "body": "Connecting rooms, a villa with a pool, the layout that keeps everyone together, and what to confirm before you go.",
         "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fnice-riviera.jpg&w=1280&q=80",
         "href": "family-stays.html"
       },
       {
         "route": "For two",
         "heading": "A honeymoon, done right",
-        "body": "Romance without the clich\u00e9 \u2014 the right suite, the quiet table, and an occasion the property already knows about.",
+        "body": "Romance without the clich\u00e9: the right suite, the quiet table, and an occasion the property already knows about.",
         "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fmarrakech.jpg&w=1280&q=80",
         "href": "honeymoon-stays.html"
       },
       {
         "route": "Preferred partners",
         "heading": "How programmes add value",
-        "body": "Upgrades, breakfast, a property credit, a later checkout \u2014 what preferred-partner programmes include, and how they reach you.",
+        "body": "Upgrades, breakfast, a property credit, a later checkout: what preferred-partner programmes include, and how they reach you.",
         "image": "/_vercel/image?url=%2Fimg%2Fcities%2Famalfi-coast.jpg&w=1280&q=80",
         "href": "hotel-programmes.html"
       }
@@ -91,8 +91,8 @@
       },
       {
         "eyebrow": "Category guide",
-        "heading": "Suite vs. room \u2014 the honest line",
-        "body": "When the second room, the larger terrace and the lounge are worth the premium \u2014 and when a good room is the smarter call.",
+        "heading": "Suite vs. room: the honest line",
+        "body": "When the second room, the larger terrace and the lounge are worth the premium, and when a good room is the smarter call.",
         "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fsingapore-city.jpg&w=2048&q=80",
         "href": "suites-worth-it.html"
       }
@@ -101,7 +101,7 @@
   "cta": {
     "eyebrow": "Our promise",
     "headingHtml": "Knowing the room is one thing.<br/>Securing it is <span class=\"it\">ours</span>.",
-    "lede": "These guides set the questions. Your advisor asks for the right room and the upgrade in writing, holds it while you decide, and briefs the property so you arrive expected \u2014 with the inclusions a public rate never carries.",
+    "lede": "These guides set the questions. Your advisor asks for the right room and the upgrade in writing, holds it while you decide, and briefs the property so you arrive expected: with the inclusions a public rate never carries.",
     "buttons": [
       {
         "label": "Plan a trip",

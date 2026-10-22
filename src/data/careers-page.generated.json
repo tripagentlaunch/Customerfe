@@ -1,6 +1,6 @@
 {
   "seo": {
-    "title": "Careers — TripAgent",
+    "title": "Careers | TripAgent",
     "description": "Become a TripAgent advisor. One traveller at a time, by name, until they are home. Quiet tools at your side. Backed by Tripsure and Reward360."
   },
   "hero": {
@@ -17,7 +17,7 @@
     "eyebrow": "The model",
     "heading": "A human craft, carried further.",
     "ledes": [
-      "Travel this considered is still done by people. We hire and train advisors, and grow through a host-agency network — so more travellers are looked after, and no one less.",
+      "Travel this considered is still done by people. We hire and train advisors, and grow through a host-agency network, so more travellers are looked after, and no one less.",
       "Not a call centre. One named advisor, one traveller, held for years, with the tools to do it well."
     ],
     "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fparis.jpg&w=2048&q=80"
@@ -34,12 +34,12 @@
       {
         "label": "Care",
         "heading": "You carry it like your own",
-        "body": "A delayed flight at midnight is your problem too. You answer, you fix, you follow through — no one asks twice."
+        "body": "A delayed flight at midnight is your problem too. You answer, you fix, you follow through: no one asks twice."
       },
       {
         "label": "Composure",
         "heading": "You are calm when it matters",
-        "body": "Borders close. Plans break. The traveller feels none of it — you took it first and quietly put it right."
+        "body": "Borders close. Plans break. The traveller feels none of it: you took it first and quietly put it right."
       },
       {
         "label": "Curiosity",
@@ -51,7 +51,7 @@
   "role": {
     "eyebrow": "The role",
     "heading": "One traveller, looked after completely.",
-    "lede": "You become a traveller's named advisor — flights, hotels and visas, before, during and long after the trip. You plan, you book, you stay a step ahead. When something goes wrong, you make it right.",
+    "lede": "You become a traveller's named advisor: flights, hotels and visas, before, during and long after the trip. You plan, you book, you stay a step ahead. When something goes wrong, you make it right.",
     "items": [
       "A book of members you know by name, never a ticket number.",
       "Plan, hold, book and manage the whole journey, end to end.",
@@ -63,7 +63,7 @@
   "ai": {
     "eyebrow": "AI at your side",
     "heading": "It does the searching. You do the caring.",
-    "lede": "Behind you, quiet tools read the fares, watch the schedules, draft the options and flag the risks. The hours you'd lose to screens go to people instead. The work stays yours — never done in your place.",
+    "lede": "Behind you, quiet tools read the fares, watch the schedules, draft the options and flag the risks. The hours you'd lose to screens go to people instead. The work stays yours: never done in your place.",
     "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fdubai.jpg&w=2048&q=80"
   },
   "steps": {
@@ -88,7 +88,7 @@
   "why": {
     "eyebrow": "Why join",
     "heading": "Real backing, serious ambition.",
-    "lede": "TripAgent is built by Tripsure, part of Reward360 — an established team in travel and loyalty, serving affluent Indian travellers. Not a fragile start-up bet. A maison with the means to grow well, and room for advisors to grow with it.",
+    "lede": "TripAgent is built by Tripsure, part of Reward360: an established team in travel and loyalty, serving affluent Indian travellers. Not a fragile start-up bet. A maison with the means to grow well, and room for advisors to grow with it.",
     "items": [
       "The backing and reach of Tripsure and Reward360.",
       "Real training in the craft, not a script.",
@@ -100,7 +100,7 @@
   "close": {
     "eyebrow": "Express interest",
     "headingHtml": "If this is the craft you've been looking <span class=\"it\">for</span>.",
-    "lede": "Tell us about yourself — where you've worked, who you've looked after, why this. A real person reads every note.",
+    "lede": "Tell us about yourself, where you've worked, who you've looked after, why this. A real person reads every note.",
     "buttons": [
       {
         "label": "Email careers@tripsure.com",

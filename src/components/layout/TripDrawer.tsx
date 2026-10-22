@@ -47,7 +47,7 @@ export function TripDrawer() {
             </div>
             <div className="ta-cart-empty">
               <p>Your trip starts with a place.</p>
-              <p className="sub">Add a city, a hotel or a month as you browse — it gathers here, then a person makes it real.</p>
+              <p className="sub">Add a city, a hotel or a month as you browse: it gathers here, then a person makes it real.</p>
               <div className="ta-cart-empty-a">
                 <Link className="go" to="/destinations" onClick={close}>
                   Browse cities

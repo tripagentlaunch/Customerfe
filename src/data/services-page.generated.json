@@ -1,6 +1,6 @@
 {
   "seo": {
-    "title": "What we handle \u2014 TripAgent",
+    "title": "What we handle | TripAgent",
     "description": "We book three things: Flights, Hotels and Visas. A named advisor looks after all three, until you are home."
   },
   "hero": {
@@ -88,18 +88,18 @@
   "health": {
     "tag": "Beyond the three \u00b7 Research & coordination",
     "headingHtml": "Health &amp; <span class=\"it\">longevity</span>, quietly navigated.",
-    "body": "Some journeys are about the body, not the map. When a member is weighing the world's finest hospitals, specialists or longevity clinics, we help them navigate it \u2014 reading the field, opening the right doors, and arranging the flights, stays and visas around the visit.",
-    "note": "This is guidance and coordination, not a service we sell. The care itself always rests with accredited providers and your own physicians \u2014 we never book medical treatment.",
+    "body": "Some journeys are about the body, not the map. When a member is weighing the world's finest hospitals, specialists or longevity clinics, we help them navigate it: reading the field, opening the right doors, and arranging the flights, stays and visas around the visit.",
+    "note": "This is guidance and coordination, not a service we sell. The care itself always rests with accredited providers and your own physicians: we never book medical treatment.",
     "cta": {
       "label": "Explore Health & Longevity",
       "href": "health.html"
     },
-    "asideLede": "Only three things are ever booked here \u2014 flights, hotels and visas. Everything else, this included, is research that helps you decide."
+    "asideLede": "Only three things are ever booked here: flights, hotels and visas. Everything else, this included, is research that helps you decide."
   },
   "signature": {
     "eyebrow": "Our promise",
-    "lineHtml": "All three, looked after \u2014<br/>until you are <span class=\"it\">home</span>.",
-    "sub": "Most agents are gone the moment you pay. We stay \u2014 through departure, the 2 a.m. call, the homecoming. There for every step, including the ones no one else shows up for.",
+    "lineHtml": "All three, looked after,<br/>until you are <span class=\"it\">home</span>.",
+    "sub": "Most agents are gone the moment you pay. We stay: through departure, the 2 a.m. call, the homecoming. There for every step, including the ones no one else shows up for.",
     "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fmarrakech.jpg&w=2560&q=80",
     "buttons": [
       {

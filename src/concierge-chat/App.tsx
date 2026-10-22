@@ -26,7 +26,7 @@ export default function App() {
         // context (the old city-page-aware variant invited open-ended
         // "ask me anything" Q&A, which doesn't fit this flow's strict
         // turn sequence).
-        text: "I'm Aanya, your TripAgent concierge. Tell me what you're dreaming of — where, roughly when, and who with. I'll take it from there. 🌏",
+        text: "I'm Aanya, your TripAgent concierge. Tell me what you're dreaming of: where, roughly when, and who with. I'll take it from there. 🌏",
       },
     ]);
     // Seeded once on mount — citySlug comes from the URL and won't change
@@ -80,7 +80,7 @@ export default function App() {
           id: newId(),
           role: "aanya",
           timestamp: Date.now(),
-          text: "Something went wrong on my end — no message sent, and no advisor notified.",
+          text: "Something went wrong on my end: no message sent, and no advisor notified.",
           retry: { retryText: text },
         },
       ]);

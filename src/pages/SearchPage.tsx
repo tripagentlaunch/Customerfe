@@ -94,7 +94,7 @@ export default function SearchPage() {
                 <div className="sp-empty">
                   <p>Nothing in the library matched “{q}”.</p>
                   <p>
-                    Your advisor can still find it —{" "}
+                    Your advisor can still find it: {" "}
                     <Link to={`/enquire?about=${encodeURIComponent(q)}`}>tell them what you have in mind →</Link>
                   </p>
                 </div>

@@ -61,7 +61,7 @@ export default function RequestAccessPage() {
   useBareChromeForGuests();
 
   useEffect(() => {
-    document.title = "Request access — TripAgent";
+    document.title = "Request access | TripAgent";
   }, []);
 
   const [reduceMotion] = useState(
@@ -199,7 +199,7 @@ export default function RequestAccessPage() {
             Your next journey starts with a <span className={styles.it}>request.</span>
           </h1>
           <p className={styles.lede}>
-            Personal travel planning, curated experiences and expert advisors — for members, by invitation.
+            Personal travel planning, curated experiences and expert advisors: for members, by invitation.
           </p>
         </div>
 
@@ -210,7 +210,7 @@ export default function RequestAccessPage() {
                 Thank <span className={styles.cardIt}>you.</span>
               </h2>
               <p className={styles.cardSub}>
-                Your request is with the Desk. A person reads every one — if it's a fit, your invitation code will
+                Your request is with the Desk. A person reads every one: if it's a fit, your invitation code will
                 arrive by email.
               </p>
               <p className={styles.footLine}>
@@ -226,7 +226,7 @@ export default function RequestAccessPage() {
                 Ask for an <span className={styles.cardIt}>invitation.</span>
               </h2>
               <p className={styles.cardSub}>
-                Tell us how to reach you. A person at the Desk reads every request — no code is issued automatically,
+                Tell us how to reach you. A person at the Desk reads every request: no code is issued automatically,
                 and nothing here creates an account.
               </p>
 

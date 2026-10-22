@@ -45,7 +45,7 @@ export default function ComingSoonPage() {
         }}
       >
         A private travel maison, by invitation. We're putting the final
-        touches in place — check back soon.
+        touches in place: check back soon.
       </p>
     </div>
   );

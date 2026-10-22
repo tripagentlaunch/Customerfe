@@ -2,8 +2,8 @@
   "route-australia-classic": {
     "slug": "route-australia-classic",
     "seo": {
-      "title": "Sydney & Melbourne — a TripAgent journey — TripAgent",
-      "description": "Harbour and headland, then the quiet confidence of the south. — the ideal multi-city route, night by night, planned and booked by your advisor.",
+      "title": "Sydney & Melbourne: a TripAgent journey | TripAgent",
+      "description": "Harbour and headland, then the quiet confidence of the south. the ideal multi-city route, night by night, planned and booked by your advisor.",
       "ogImage": null
     },
     "hero": {
@@ -56,8 +56,8 @@
   "route-bali-singapore": {
     "slug": "route-bali-singapore",
     "seo": {
-      "title": "Singapore & Bali — a TripAgent journey — TripAgent",
-      "description": "A polished city overture before the island slows everything down. — the ideal multi-city route, night by night, planned and booked by your advisor.",
+      "title": "Singapore & Bali: a TripAgent journey | TripAgent",
+      "description": "A polished city overture before the island slows everything down. the ideal multi-city route, night by night, planned and booked by your advisor.",
       "ogImage": null
     },
     "hero": {
@@ -110,8 +110,8 @@
   "route-classic-japan": {
     "slug": "route-classic-japan",
     "seo": {
-      "title": "Classic Japan — a TripAgent journey — TripAgent",
-      "description": "The capital, the old court city, and the kitchen of the nation, linked by the fastest train on earth. — the ideal multi-city route, night by night, planned and booked by your advisor.",
+      "title": "Classic Japan: a TripAgent journey | TripAgent",
+      "description": "The capital, the old court city, and the kitchen of the nation, linked by the fastest train on earth. the ideal multi-city route, night by night, planned and booked by your advisor.",
       "ogImage": null
     },
     "hero": {
@@ -174,8 +174,8 @@
   "route-emirates-gulf": {
     "slug": "route-emirates-gulf",
     "seo": {
-      "title": "Dubai & Abu Dhabi — a TripAgent journey — TripAgent",
-      "description": "The theatre of the new city, then the calmer, cultural capital. — the ideal multi-city route, night by night, planned and booked by your advisor.",
+      "title": "Dubai & Abu Dhabi: a TripAgent journey | TripAgent",
+      "description": "The theatre of the new city, then the calmer, cultural capital. the ideal multi-city route, night by night, planned and booked by your advisor.",
       "ogImage": null
     },
     "hero": {
@@ -219,7 +219,7 @@
         }
       }
     ],
-    "note": "Dubai first for the arrival energy, then a 75-minute private transfer down the E11 to Abu Dhabi. Travel November to March — the summer months are unbearably hot.",
+    "note": "Dubai first for the arrival energy, then a 75-minute private transfer down the E11 to Abu Dhabi. Travel November to March: the summer months are unbearably hot.",
     "cta": {
       "label": "Have Tara AI plan this journey",
       "href": "enquire.html?journey=emirates-gulf"
@@ -228,8 +228,8 @@
   "route-golden-triangle": {
     "slug": "route-golden-triangle",
     "seo": {
-      "title": "The Golden Triangle — a TripAgent journey — TripAgent",
-      "description": "The founding circuit of Indian travel, paced so no city is rushed and Agra is seen at dawn. — the ideal multi-city route, night by night, planned and booked by your advisor.",
+      "title": "The Golden Triangle: a TripAgent journey | TripAgent",
+      "description": "The founding circuit of Indian travel, paced so no city is rushed and Agra is seen at dawn. the ideal multi-city route, night by night, planned and booked by your advisor.",
       "ogImage": null
     },
     "hero": {
@@ -292,14 +292,14 @@
   "route-grand-italy": {
     "slug": "route-grand-italy",
     "seo": {
-      "title": "Grand Italy — a TripAgent journey — TripAgent",
-      "description": "The classic triangle, taken slowly — antiquity, the Renaissance, then the lagoon. — the ideal multi-city route, night by night, planned and booked by your advisor.",
+      "title": "Grand Italy: a TripAgent journey | TripAgent",
+      "description": "The classic triangle, taken slowly: antiquity, the Renaissance, then the lagoon. the ideal multi-city route, night by night, planned and booked by your advisor.",
       "ogImage": null
     },
     "hero": {
       "eyebrow": "The journey",
       "name": "Grand Italy",
-      "lede": "The classic triangle, taken slowly — antiquity, the Renaissance, then the lagoon.",
+      "lede": "The classic triangle, taken slowly: antiquity, the Renaissance, then the lagoon.",
       "meta": [
         {
           "label": "The trip",
@@ -347,7 +347,7 @@
         }
       }
     ],
-    "note": "All three connect on the Frecciarossa high-speed line — Rome to Florence in ninety minutes, Florence to Venice in two hours. End in Venice so you finish on the water and fly home from Marco Polo.",
+    "note": "All three connect on the Frecciarossa high-speed line: Rome to Florence in ninety minutes, Florence to Venice in two hours. End in Venice so you finish on the water and fly home from Marco Polo.",
     "cta": {
       "label": "Have Tara AI plan this journey",
       "href": "enquire.html?journey=grand-italy"
@@ -356,8 +356,8 @@
   "route-greek-isles": {
     "slug": "route-greek-isles",
     "seo": {
-      "title": "Athens & the Greek Isles — a TripAgent journey — TripAgent",
-      "description": "Antiquity first, then two islands with distinct tempers. — the ideal multi-city route, night by night, planned and booked by your advisor.",
+      "title": "Athens & the Greek Isles: a TripAgent journey | TripAgent",
+      "description": "Antiquity first, then two islands with distinct tempers. the ideal multi-city route, night by night, planned and booked by your advisor.",
       "ogImage": null
     },
     "hero": {
@@ -404,7 +404,7 @@
         "n": "3",
         "nights": "3 nights",
         "city": "Mykonos",
-        "text": "Close on the lighter note — a villa or Belvedere, beach clubs at Scorpios, and long lunches before the evening turns.",
+        "text": "Close on the lighter note: a villa or Belvedere, beach clubs at Scorpios, and long lunches before the evening turns.",
         "guideLink": {
           "label": "Mykonos guide →",
           "href": "/city-mykonos"
@@ -420,8 +420,8 @@
   "route-himalayan-kingdoms": {
     "slug": "route-himalayan-kingdoms",
     "seo": {
-      "title": "Kathmandu & Bhutan — a TripAgent journey — TripAgent",
-      "description": "From the temple-dense valley of Nepal to the quiet, guarded kingdom next door. — the ideal multi-city route, night by night, planned and booked by your advisor.",
+      "title": "Kathmandu & Bhutan: a TripAgent journey | TripAgent",
+      "description": "From the temple-dense valley of Nepal to the quiet, guarded kingdom next door. the ideal multi-city route, night by night, planned and booked by your advisor.",
       "ogImage": null
     },
     "hero": {
@@ -458,7 +458,7 @@
         "n": "2",
         "nights": "5 nights",
         "city": "Paro & Thimphu",
-        "text": "Move through Amankora's lodges — Thimphu and Punakha first to acclimatise, closing at Paro for the dawn walk up to Tiger's Nest.",
+        "text": "Move through Amankora's lodges: Thimphu and Punakha first to acclimatise, closing at Paro for the dawn walk up to Tiger's Nest.",
         "guideLink": {
           "label": "Paro & Thimphu guide →",
           "href": "/city-paro"
@@ -474,8 +474,8 @@
   "route-himalayan-north": {
     "slug": "route-himalayan-north",
     "seo": {
-      "title": "The Himalayan North — a TripAgent journey — TripAgent",
-      "description": "Vale of Kashmir first, then the high desert of Ladakh, so the body climbs by degrees. — the ideal multi-city route, night by night, planned and booked by your advisor.",
+      "title": "The Himalayan North: a TripAgent journey | TripAgent",
+      "description": "Vale of Kashmir first, then the high desert of Ladakh, so the body climbs by degrees. the ideal multi-city route, night by night, planned and booked by your advisor.",
       "ogImage": null
     },
     "hero": {
@@ -528,8 +528,8 @@
   "route-italian-lakes-milan": {
     "slug": "route-italian-lakes-milan",
     "seo": {
-      "title": "Milan & the Italian Lakes — a TripAgent journey — TripAgent",
-      "description": "A short city opening, then the water and mountains of Como. — the ideal multi-city route, night by night, planned and booked by your advisor.",
+      "title": "Milan & the Italian Lakes: a TripAgent journey | TripAgent",
+      "description": "A short city opening, then the water and mountains of Como. the ideal multi-city route, night by night, planned and booked by your advisor.",
       "ogImage": null
     },
     "hero": {
@@ -573,7 +573,7 @@
         }
       }
     ],
-    "note": "Como is under an hour from Milan by car — arrange a transfer rather than the train so you arrive at the villa by the water. Fly in and out of Milan Malpensa.",
+    "note": "Como is under an hour from Milan by car: arrange a transfer rather than the train so you arrive at the villa by the water. Fly in and out of Milan Malpensa.",
     "cta": {
       "label": "Have Tara AI plan this journey",
       "href": "enquire.html?journey=italian-lakes-milan"
@@ -582,8 +582,8 @@
   "route-kenya-zanzibar": {
     "slug": "route-kenya-zanzibar",
     "seo": {
-      "title": "Safari & Zanzibar — a TripAgent journey — TripAgent",
-      "description": "The plains of the Mara first, then the Indian Ocean to soften the landing. — the ideal multi-city route, night by night, planned and booked by your advisor.",
+      "title": "Safari & Zanzibar: a TripAgent journey | TripAgent",
+      "description": "The plains of the Mara first, then the Indian Ocean to soften the landing. the ideal multi-city route, night by night, planned and booked by your advisor.",
       "ogImage": null
     },
     "hero": {
@@ -610,7 +610,7 @@
         "n": "1",
         "nights": "5 nights",
         "city": "Nairobi & the Mara",
-        "text": "A night at Hemingways or Giraffe Manor, then a private conservancy camp — Angama Mara or Mahali Mzuri — with off-road game drives and a bush breakfast on the escarpment.",
+        "text": "A night at Hemingways or Giraffe Manor, then a private conservancy camp: Angama Mara or Mahali Mzuri, with off-road game drives and a bush breakfast on the escarpment.",
         "guideLink": {
           "label": "Nairobi & the Mara guide →",
           "href": "/city-nairobi-mara"
@@ -636,8 +636,8 @@
   "route-kerala-backwaters": {
     "slug": "route-kerala-backwaters",
     "seo": {
-      "title": "Kerala, Coast to Hills — a TripAgent journey — TripAgent",
-      "description": "From colonial port up to the tea hills and down to the still water, following the land as it descends. — the ideal multi-city route, night by night, planned and booked by your advisor.",
+      "title": "Kerala, Coast to Hills: a TripAgent journey | TripAgent",
+      "description": "From colonial port up to the tea hills and down to the still water, following the land as it descends. the ideal multi-city route, night by night, planned and booked by your advisor.",
       "ogImage": null
     },
     "hero": {
@@ -700,8 +700,8 @@
   "route-new-zealand-classic": {
     "slug": "route-new-zealand-classic",
     "seo": {
-      "title": "Auckland & Queenstown — a TripAgent journey — TripAgent",
-      "description": "A soft landing in the north, then the drama of the Southern Alps. — the ideal multi-city route, night by night, planned and booked by your advisor.",
+      "title": "Auckland & Queenstown: a TripAgent journey | TripAgent",
+      "description": "A soft landing in the north, then the drama of the Southern Alps. the ideal multi-city route, night by night, planned and booked by your advisor.",
       "ogImage": null
     },
     "hero": {
@@ -754,8 +754,8 @@
   "route-paris-riviera": {
     "slug": "route-paris-riviera",
     "seo": {
-      "title": "Paris & the Riviera — a TripAgent journey — TripAgent",
-      "description": "The city in full, then down to the sea and the light of the Côte d'Azur. — the ideal multi-city route, night by night, planned and booked by your advisor.",
+      "title": "Paris & the Riviera: a TripAgent journey | TripAgent",
+      "description": "The city in full, then down to the sea and the light of the Côte d'Azur. the ideal multi-city route, night by night, planned and booked by your advisor.",
       "ogImage": null
     },
     "hero": {
@@ -799,7 +799,7 @@
         }
       }
     ],
-    "note": "Fly Paris to Nice in ninety minutes, or take the TGV south if you want the country to unfold. Paris first, then the sea — the Riviera is where the trip should end.",
+    "note": "Fly Paris to Nice in ninety minutes, or take the TGV south if you want the country to unfold. Paris first, then the sea: the Riviera is where the trip should end.",
     "cta": {
       "label": "Have Tara AI plan this journey",
       "href": "enquire.html?journey=paris-riviera"
@@ -808,8 +808,8 @@
   "route-peru-inca": {
     "slug": "route-peru-inca",
     "seo": {
-      "title": "Lima to Machu Picchu — a TripAgent journey — TripAgent",
-      "description": "Coast to high Andes, ending at the citadel above the clouds. — the ideal multi-city route, night by night, planned and booked by your advisor.",
+      "title": "Lima to Machu Picchu: a TripAgent journey | TripAgent",
+      "description": "Coast to high Andes, ending at the citadel above the clouds. the ideal multi-city route, night by night, planned and booked by your advisor.",
       "ogImage": null
     },
     "hero": {
@@ -862,8 +862,8 @@
   "route-portugal-classic": {
     "slug": "route-portugal-classic",
     "seo": {
-      "title": "Lisbon & Porto — a TripAgent journey — TripAgent",
-      "description": "The light of the south, then the river and the wine. — the ideal multi-city route, night by night, planned and booked by your advisor.",
+      "title": "Lisbon & Porto: a TripAgent journey | TripAgent",
+      "description": "The light of the south, then the river and the wine. the ideal multi-city route, night by night, planned and booked by your advisor.",
       "ogImage": null
     },
     "hero": {
@@ -907,7 +907,7 @@
         }
       }
     ],
-    "note": "Lisbon first, then the 3-hour Alfa Pendular train up the coast to Porto — comfortable and scenic. Consider extending into the Douro Valley if the wine draws you.",
+    "note": "Lisbon first, then the 3-hour Alfa Pendular train up the coast to Porto: comfortable and scenic. Consider extending into the Douro Valley if the wine draws you.",
     "cta": {
       "label": "Have Tara AI plan this journey",
       "href": "enquire.html?journey=portugal-classic"
@@ -916,8 +916,8 @@
   "route-rome-amalfi": {
     "slug": "route-rome-amalfi",
     "seo": {
-      "title": "Rome & the Amalfi Coast — a TripAgent journey — TripAgent",
-      "description": "The eternal city first, then down to the cliffs to let the pace fall away. — the ideal multi-city route, night by night, planned and booked by your advisor.",
+      "title": "Rome & the Amalfi Coast: a TripAgent journey | TripAgent",
+      "description": "The eternal city first, then down to the cliffs to let the pace fall away. the ideal multi-city route, night by night, planned and booked by your advisor.",
       "ogImage": null
     },
     "hero": {
@@ -961,7 +961,7 @@
         }
       }
     ],
-    "note": "Rome to the coast is best by private car to Positano (about four hours) or the fast train to Naples then transfer — either way, do Rome first and unwind on the cliffs, not the reverse.",
+    "note": "Rome to the coast is best by private car to Positano (about four hours) or the fast train to Naples then transfer: either way, do Rome first and unwind on the cliffs, not the reverse.",
     "cta": {
       "label": "Have Tara AI plan this journey",
       "href": "enquire.html?journey=rome-amalfi"
@@ -970,8 +970,8 @@
   "route-royal-rajasthan": {
     "slug": "route-royal-rajasthan",
     "seo": {
-      "title": "Royal Rajasthan — a TripAgent journey — TripAgent",
-      "description": "Four princely cities in descending scale, ending on the lake so the desert gives way to water. — the ideal multi-city route, night by night, planned and booked by your advisor.",
+      "title": "Royal Rajasthan: a TripAgent journey | TripAgent",
+      "description": "Four princely cities in descending scale, ending on the lake so the desert gives way to water. the ideal multi-city route, night by night, planned and booked by your advisor.",
       "ogImage": null
     },
     "hero": {
@@ -1044,8 +1044,8 @@
   "route-spain-classic": {
     "slug": "route-spain-classic",
     "seo": {
-      "title": "Barcelona & Madrid — a TripAgent journey — TripAgent",
-      "description": "Mediterranean modernism, then the weight of the capital. — the ideal multi-city route, night by night, planned and booked by your advisor.",
+      "title": "Barcelona & Madrid: a TripAgent journey | TripAgent",
+      "description": "Mediterranean modernism, then the weight of the capital. the ideal multi-city route, night by night, planned and booked by your advisor.",
       "ogImage": null
     },
     "hero": {
@@ -1089,7 +1089,7 @@
         }
       }
     ],
-    "note": "Barcelona first to ease off the flight by the sea, then the 2.5-hour AVE high-speed train to Madrid — city-centre to city-centre, no airport. Avoid August heat.",
+    "note": "Barcelona first to ease off the flight by the sea, then the 2.5-hour AVE high-speed train to Madrid: city-centre to city-centre, no airport. Avoid August heat.",
     "cta": {
       "label": "Have Tara AI plan this journey",
       "href": "enquire.html?journey=spain-classic"
@@ -1098,8 +1098,8 @@
   "route-sri-lanka-south": {
     "slug": "route-sri-lanka-south",
     "seo": {
-      "title": "Colombo & the Southern Coast — a TripAgent journey — TripAgent",
-      "description": "A brief city start, then the fort towns and beaches of the south. — the ideal multi-city route, night by night, planned and booked by your advisor.",
+      "title": "Colombo & the Southern Coast: a TripAgent journey | TripAgent",
+      "description": "A brief city start, then the fort towns and beaches of the south. the ideal multi-city route, night by night, planned and booked by your advisor.",
       "ogImage": null
     },
     "hero": {
@@ -1152,8 +1152,8 @@
   "route-swiss-alps": {
     "slug": "route-swiss-alps",
     "seo": {
-      "title": "The Swiss Alps — a TripAgent journey — TripAgent",
-      "description": "A gentle arrival, the Matterhorn, then the light of the Engadine. — the ideal multi-city route, night by night, planned and booked by your advisor.",
+      "title": "The Swiss Alps: a TripAgent journey | TripAgent",
+      "description": "A gentle arrival, the Matterhorn, then the light of the Engadine. the ideal multi-city route, night by night, planned and booked by your advisor.",
       "ogImage": null
     },
     "hero": {
@@ -1180,7 +1180,7 @@
         "n": "1",
         "nights": "1 night",
         "city": "Zurich",
-        "text": "One night at the Baur au Lac on the lake to land and reset before the mountains — dinner in the old town, an early start the next day.",
+        "text": "One night at the Baur au Lac on the lake to land and reset before the mountains: dinner in the old town, an early start the next day.",
         "guideLink": {
           "label": "Zurich guide →",
           "href": "/city-zurich"
@@ -1207,7 +1207,7 @@
         }
       }
     ],
-    "note": "Take the scenic rail throughout — Zurich to Zermatt via Visp, then the Glacier Express or a private car across to St. Moritz. Winter for snow, high summer for the passes and hiking.",
+    "note": "Take the scenic rail throughout: Zurich to Zermatt via Visp, then the Glacier Express or a private car across to St. Moritz. Winter for snow, high summer for the passes and hiking.",
     "cta": {
       "label": "Have Tara AI plan this journey",
       "href": "enquire.html?journey=swiss-alps"
@@ -1216,8 +1216,8 @@
   "route-thailand-beach-city": {
     "slug": "route-thailand-beach-city",
     "seo": {
-      "title": "Bangkok & the Andaman Coast — a TripAgent journey — TripAgent",
-      "description": "City first, then a slow unwind west into the Andaman Sea. — the ideal multi-city route, night by night, planned and booked by your advisor.",
+      "title": "Bangkok & the Andaman Coast: a TripAgent journey | TripAgent",
+      "description": "City first, then a slow unwind west into the Andaman Sea. the ideal multi-city route, night by night, planned and booked by your advisor.",
       "ogImage": null
     },
     "hero": {
@@ -1280,8 +1280,8 @@
   "route-turkiye-classic": {
     "slug": "route-turkiye-classic",
     "seo": {
-      "title": "Istanbul & Cappadocia — a TripAgent journey — TripAgent",
-      "description": "The city of two continents, then the quiet of the high plateau. — the ideal multi-city route, night by night, planned and booked by your advisor.",
+      "title": "Istanbul & Cappadocia: a TripAgent journey | TripAgent",
+      "description": "The city of two continents, then the quiet of the high plateau. the ideal multi-city route, night by night, planned and booked by your advisor.",
       "ogImage": null
     },
     "hero": {
@@ -1334,8 +1334,8 @@
   "route-usa-east-sun": {
     "slug": "route-usa-east-sun",
     "seo": {
-      "title": "New York & Miami — a TripAgent journey — TripAgent",
-      "description": "The city's pace, then warm water and slower days. — the ideal multi-city route, night by night, planned and booked by your advisor.",
+      "title": "New York & Miami: a TripAgent journey | TripAgent",
+      "description": "The city's pace, then warm water and slower days. the ideal multi-city route, night by night, planned and booked by your advisor.",
       "ogImage": null
     },
     "hero": {
@@ -1388,8 +1388,8 @@
   "route-usa-west": {
     "slug": "route-usa-west",
     "seo": {
-      "title": "California & Las Vegas — a TripAgent journey — TripAgent",
-      "description": "Pacific light and hills, then a night of the desert's excess. — the ideal multi-city route, night by night, planned and booked by your advisor.",
+      "title": "California & Las Vegas: a TripAgent journey | TripAgent",
+      "description": "Pacific light and hills, then a night of the desert's excess. the ideal multi-city route, night by night, planned and booked by your advisor.",
       "ogImage": null
     },
     "hero": {
@@ -1452,8 +1452,8 @@
   "route-vietnam-north-south": {
     "slug": "route-vietnam-north-south",
     "seo": {
-      "title": "Vietnam, North to South — a TripAgent journey — TripAgent",
-      "description": "The country read top to bottom, from northern mist to the Mekong's warmth. — the ideal multi-city route, night by night, planned and booked by your advisor.",
+      "title": "Vietnam, North to South: a TripAgent journey | TripAgent",
+      "description": "The country read top to bottom, from northern mist to the Mekong's warmth. the ideal multi-city route, night by night, planned and booked by your advisor.",
       "ogImage": null
     },
     "hero": {

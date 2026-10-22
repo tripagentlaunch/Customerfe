@@ -1,6 +1,6 @@
 {
   "seo": {
-    "title": "Destinations — TripAgent",
+    "title": "Destinations | TripAgent",
     "description": "Where our members go, and how we look after them there. Thirty-six countries and 110+ cities we know first-hand: the flights we secure, the stays we choose, the visa that sets your dates."
   },
   "hero": {
@@ -684,9 +684,9 @@
   },
   "intro": {
     "eyebrow": "A note on this list",
-    "note": "Thirty-six countries, 110+ cities — every one known first-hand. For each, the things that matter: the flights we'd secure, the stays worth the airfare, and the visa that sets your dates.",
+    "note": "Thirty-six countries, 110+ cities: every one known first-hand. For each, the things that matter: the flights we'd secure, the stays worth the airfare, and the visa that sets your dates.",
     "statementHtml": "Not a <span class=\"em\">catalogue</span>. A short list we stand behind.",
-    "lede": "Anyone can list a thousand places. We'd rather know ours well — and then do the three things that turn a wish into a journey: a seat at the front of the plane, a room held in your name, the paperwork filed and tracked. Open any country to see how."
+    "lede": "Anyone can list a thousand places. We'd rather know ours well, and then do the three things that turn a wish into a journey: a seat at the front of the plane, a room held in your name, the paperwork filed and tracked. Open any country to see how."
   },
   "groupsIntro": {
     "eyebrow": "Thirty-six countries to begin with",
@@ -1525,13 +1525,13 @@
   "beyond": {
     "eyebrow": "Beyond the thirty-six",
     "heading": "The world is wider than this page.",
-    "lede": "A stopover in Singapore, a villa in Bali, the fjords in summer light. If you have a place in mind, we already know someone who has been — and the right time to send you.",
+    "lede": "A stopover in Singapore, a villa in Bali, the fjords in summer light. If you have a place in mind, we already know someone who has been, and the right time to send you.",
     "image": "/_vercel/image?url=%2Fimg%2Fcities%2Famalfi-coast.jpg&w=2048&q=80"
   },
   "cta": {
     "eyebrow": "Where to next",
     "heading": "Tell us where you dream of going.",
-    "lede": "Name the place, or just the feeling. Your advisor takes it from there — flights, stays and visas, all looked after.",
+    "lede": "Name the place, or just the feeling. Your advisor takes it from there: flights, stays and visas, all looked after.",
     "buttons": [
       {
         "label": "Plan a trip",

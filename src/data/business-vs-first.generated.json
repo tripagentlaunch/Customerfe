@@ -1,6 +1,6 @@
 {
   "seo": {
-    "title": "Business vs. First \u2014 When Each Is Worth It \u2014 TripAgent",
+    "title": "Business vs. First: When Each Is Worth It | TripAgent",
     "description": "The honest line between business and first, by flight length and aircraft. When first is worth it, when the best business seat is the smarter buy, and how your advisor secures it ex-India."
   },
   "hero": {
@@ -10,7 +10,7 @@
     },
     "eyebrow": "Product guide \u00b7 The cabins",
     "headingHtml": "Business or first?<br/>The honest <span class=\"it\">line</span>.",
-    "lede": "First isn't simply better than business. It's a different thing \u2014 worth it on some flights, not on others. Here's how we judge it.",
+    "lede": "First isn't simply better than business. It's a different thing: worth it on some flights, not on others. Here's how we judge it.",
     "image": "/_vercel/image?url=%2Fimg%2Fh%2Fbusiness-vs-first.jpg&w=2560&q=80",
     "ctaGold": {
       "label": "Ask Tara AI",
@@ -26,14 +26,14 @@
   "compare": {
     "eyebrow": "What they really are",
     "heading": "Two cabins, two ideas.",
-    "lede": "Modern business has closed the gap. On many aircraft, it's the value choice. First earns its place where it gives you what business can't \u2014 space, privacy and a ground experience that change the journey.",
+    "lede": "Modern business has closed the gap. On many aircraft, it's the value choice. First earns its place where it gives you what business can't: space, privacy and a ground experience that change the journey.",
     "cols": [
       {
         "tag": "Business class",
         "heading": "The sensible flat-bed.",
         "items": [
           "On the best aircraft: 1-2-1 layout, direct aisle access, a fully flat bed.",
-          "Quietly private \u2014 sliding doors and high partitions on the newest \"suite\" cabins.",
+          "Quietly private: sliding doors and high partitions on the newest \"suite\" cabins.",
           "Lounge, priority and good dining, without the first-class premium.",
           "The right answer on most routes, and the benchmark we measure against."
         ]
@@ -42,9 +42,9 @@
         "tag": "First class",
         "heading": "The private suite.",
         "items": [
-          "A separate suite \u2014 often with a door, a wider seat and a distinct bed.",
+          "A separate suite: often with a door, a wider seat and a distinct bed.",
           "On flagships, what business doesn't have: an onboard shower, a bar, \u00e0-la-carte dining.",
-          "A different ground experience \u2014 dedicated lounges, sometimes a private terminal and transfer.",
+          "A different ground experience: dedicated lounges, sometimes a private terminal and transfer.",
           "Worth it only when it's truly first, not a slightly wider seat with the same bed."
         ]
       }
@@ -53,10 +53,10 @@
   "decide": {
     "eyebrow": "How we decide",
     "heading": "By the flight, not the brochure.",
-    "lede": "The right cabin depends on the length, the time of day, the aircraft and what you need on arrival. We weigh all four \u2014 never just the name on the fare.",
+    "lede": "The right cabin depends on the length, the time of day, the aircraft and what you need on arrival. We weigh all four: never just the name on the fare.",
     "items": [
       {
-        "bodyHtml": "<strong>Length first.</strong> Under five or six hours, a flat-bed is a bonus, not a need, and first is rarely justified. Beyond ten hours overnight, a true bed matters \u2014 and on the longest flights, a real first suite can be worth it."
+        "bodyHtml": "<strong>Length first.</strong> Under five or six hours, a flat-bed is a bonus, not a need, and first is rarely justified. Beyond ten hours overnight, a true bed matters, and on the longest flights, a real first suite can be worth it."
       },
       {
         "bodyHtml": "<strong>Day or night.</strong> An overnight rewards a bed and privacy. A daytime flight forgives a good seat. In daylight, business often beats first at night-time prices."
@@ -77,7 +77,7 @@
     "eyebrow": "When first wins",
     "heading": "The case for the suite.",
     "ledes": [
-      "First is worth it when it's a real private suite on a long overnight, or when the ground experience is the point. On the right flagship, it's a different journey \u2014 not just a wider seat.",
+      "First is worth it when it's a real private suite on a long overnight, or when the ground experience is the point. On the right flagship, it's a different journey, not just a wider seat.",
       "It isn't worth it when \"first\" is a token cabin barely beyond business, when the flight is short, or when the best business seat on the route already gives you privacy and a flat-bed. We'll always tell you which it is."
     ],
     "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fsingapore-city.jpg&w=2048&q=80",
@@ -93,7 +93,7 @@
     "eyebrow": "When business wins",
     "heading": "The value is often up front.",
     "ledes": [
-      "On the newest aircraft, a \"suite\" business cabin gives you a door, a fully flat bed and direct aisle access \u2014 most of what first once promised, for far less than first.",
+      "On the newest aircraft, a \"suite\" business cabin gives you a door, a fully flat bed and direct aisle access: most of what first once promised, for far less than first.",
       "On shorter flights, daytime departures, or routes where first is only a token cabin, the best business seat is simply the smarter buy. Spend the difference where it changes the journey."
     ],
     "image": "/_vercel/image?url=%2Fimg%2Fh%2Fbusiness-vs-first.jpg&w=2048&q=80",
@@ -102,12 +102,12 @@
   },
   "ask": {
     "eyebrow": "The short version",
-    "text": "A long overnight, a true suite, or a ground experience that matters \u2014 first can be worth it. Shorter, daytime, or a token first \u2014 business is the smarter buy. Your advisor judges it flight by flight."
+    "text": "A long overnight, a true suite, or a ground experience that matters: first can be worth it. Shorter, daytime, or a token first: business is the smarter buy. Your advisor judges it flight by flight."
   },
   "cta": {
     "eyebrow": "Your move",
     "heading": "Not sure which to book?",
-    "lede": "Tell us the route and your dates. We'll tell you honestly whether first is worth it or the best business cabin is the smarter call \u2014 and secure the seat.",
+    "lede": "Tell us the route and your dates. We'll tell you honestly whether first is worth it or the best business cabin is the smarter call, and secure the seat.",
     "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fsingapore-city.jpg&w=2048&q=80",
     "buttons": [
       {

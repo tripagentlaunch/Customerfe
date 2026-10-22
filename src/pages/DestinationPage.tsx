@@ -74,7 +74,7 @@ function TheCities({ block }: { block: Extract<DestBlock, { type: "theCities" }>
             Where to go in <span className="it">{block.country}</span>.
           </h2>
           <p className="lede" style={{ marginTop: 12 }}>
-            Each one, in full — the guide, the calendar, the flights and the stays.
+            Each one, in full: the guide, the calendar, the flights and the stays.
           </p>
         </div>
         <div className="dh-grid reveal d1">

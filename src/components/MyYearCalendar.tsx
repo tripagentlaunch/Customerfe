@@ -66,7 +66,7 @@ function DaySheet({
                 Ask <TaraAI /> to arrange this
               </>
             );
-            const msg = `Hello — regarding ${x.title}${x.city_label ? ` in ${x.city_label}` : ""} on ${label}. Could your advisor help?`;
+            const msg = `Hello, regarding ${x.title}${x.city_label ? ` in ${x.city_label}` : ""} on ${label}. Could your advisor help?`;
             return (
               <div className="my-sheet-row" key={x.id}>
                 <div>
@@ -224,7 +224,7 @@ export default function MyYearCalendar({ member }: { member: SiteMemberRow }) {
   }
 
   const firstName = (member.name ?? "").split(" ")[0];
-  const advMsg = `Hello — a word about my year on TripAgent${items && items.length ? ` (${items.length} saved)` : ""}. Could my advisor help me shape it?`;
+  const advMsg = `Hello, a word about my year on TripAgent${items && items.length ? ` (${items.length} saved)` : ""}. Could my advisor help me shape it?`;
 
   return (
     <section className="band ta-my">
@@ -238,8 +238,8 @@ export default function MyYearCalendar({ member }: { member: SiteMemberRow }) {
               {items === null
                 ? "Loading your year…"
                 : items.length
-                  ? "Everything you save lands here on its day — hotels, moments to time a trip around, whole cities. Your calendar of the year. Your advisor sees it, and reaches out when the time is right."
-                  : "Your calendar is empty. As you browse, tap Add to my year on any stay, moment or city — it lands here on its date, and we carry it with you."}
+                  ? "Everything you save lands here on its day: hotels, moments to time a trip around, whole cities. Your calendar of the year. Your advisor sees it, and reaches out when the time is right."
+                  : "Your calendar is empty. As you browse, tap Add to my year on any stay, moment or city: it lands here on its date, and we carry it with you."}
             </p>
           </div>
           <button type="button" className="my-signout" onClick={() => logout()}>
@@ -247,7 +247,7 @@ export default function MyYearCalendar({ member }: { member: SiteMemberRow }) {
           </button>
         </div>
 
-        {fetchError && <p className="my-sheet-err lede">Your year couldn’t be loaded just now — please try again shortly.</p>}
+        {fetchError && <p className="my-sheet-err lede">Your year couldn’t be loaded just now: please try again shortly.</p>}
 
         {items !== null && (
           <>
@@ -319,7 +319,7 @@ export default function MyYearCalendar({ member }: { member: SiteMemberRow }) {
             {undated.length > 0 && (
               <div className="my-tray">
                 <div className="my-tray-h">
-                  Not yet dated <span>— place them on your year</span>
+                  Not yet dated <span>· place them on your year</span>
                 </div>
                 <div className="my-tray-items">
                   {undated.map((x) => (

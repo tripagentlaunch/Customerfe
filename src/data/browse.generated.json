@@ -2,7 +2,7 @@
   "browse-adventure": {
     "slug": "browse-adventure",
     "seo": {
-      "title": "Adventure \u2014 where to go \u2014 TripAgent",
+      "title": "Adventure, where to go | TripAgent",
       "description": "Where to go for adventure, with budgets, flight times from India and visa notes."
     },
     "hero": {
@@ -136,7 +136,7 @@
         "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fcappadocia.jpg&w=800&q=78",
         "country": "T\u00fcrkiye",
         "name": "Cappadocia",
-        "description": "Dawn over the fairy chimneys with a hundred balloons rising \u2014 brief, singular, and best paired with Istanbul.",
+        "description": "Dawn over the fairy chimneys with a hundred balloons rising: brief, singular, and best paired with Istanbul.",
         "meta": [
           "\u20b94\u20139L",
           "9.5h from India",
@@ -220,7 +220,7 @@
         "image": "/_vercel/image?url=%2Fimg%2Fcities%2Frio-de-janeiro.jpg&w=800&q=78",
         "country": "Brazil",
         "name": "Rio de Janeiro",
-        "description": "Mountains, sea and samba \u2014 the most dramatic setting of any city.",
+        "description": "Mountains, sea and samba: the most dramatic setting of any city.",
         "meta": [
           "\u20b96\u201313L",
           "24h from India",
@@ -244,7 +244,7 @@
   "browse-art": {
     "slug": "browse-art",
     "seo": {
-      "title": "Art & Museums \u2014 where to go \u2014 TripAgent",
+      "title": "Art & Museums, where to go | TripAgent",
       "description": "Where to go for art & museums, with budgets, flight times from India and visa notes."
     },
     "hero": {
@@ -354,7 +354,7 @@
         "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fistanbul.jpg&w=800&q=78",
         "country": "T\u00fcrkiye",
         "name": "Istanbul",
-        "description": "Where Europe and Asia meet across the water \u2014 Hagia Sophia, the Bosphorus at dusk, and a table that never disappoints.",
+        "description": "Where Europe and Asia meet across the water: Hagia Sophia, the Bosphorus at dusk, and a table that never disappoints.",
         "meta": [
           "\u20b94\u201310L",
           "7.5h from India",
@@ -630,7 +630,7 @@
         "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fnew-york.jpg&w=800&q=78",
         "country": "USA",
         "name": "New York",
-        "description": "The one city that rewards ambition \u2014 arrive with a list and let it out-pace you.",
+        "description": "The one city that rewards ambition: arrive with a list and let it out-pace you.",
         "meta": [
           "\u20b98.5\u201318L",
           "15.5h from India",
@@ -654,7 +654,7 @@
         "image": "/_vercel/image?url=%2Fimg%2Fcities%2Flos-angeles-v2.jpg&w=800&q=78",
         "country": "USA",
         "name": "Los Angeles",
-        "description": "Sun, screens and hillside pools \u2014 if you're willing to drive for them.",
+        "description": "Sun, screens and hillside pools: if you're willing to drive for them.",
         "meta": [
           "\u20b96\u201314L",
           "17h from India",
@@ -747,13 +747,13 @@
   "browse-beach": {
     "slug": "browse-beach",
     "seo": {
-      "title": "Beach & Sun \u2014 where to go \u2014 TripAgent",
+      "title": "Beach & Sun, where to go | TripAgent",
       "description": "Where to go for beach and sun, with budgets, flight times from India and visa notes."
     },
     "hero": {
       "eyebrow": "Where to go for",
       "name": "Beach & Sun",
-      "lede": "Sand, sea and a slow tan \u2014 where to find it, and when it is at its finest."
+      "lede": "Sand, sea and a slow tan, where to find it, and when it is at its finest."
     },
     "cards": [
       {
@@ -1073,7 +1073,7 @@
         "image": "/_vercel/image?url=%2Fimg%2Fcities%2Flos-angeles-v2.jpg&w=800&q=78",
         "country": "USA",
         "name": "Los Angeles",
-        "description": "Sun, screens and hillside pools \u2014 if you're willing to drive for them.",
+        "description": "Sun, screens and hillside pools: if you're willing to drive for them.",
         "meta": [
           "\u20b96\u201314L",
           "17h from India",
@@ -1109,7 +1109,7 @@
         "image": "/_vercel/image?url=%2Fimg%2Fcities%2Frio-de-janeiro.jpg&w=800&q=78",
         "country": "Brazil",
         "name": "Rio de Janeiro",
-        "description": "Mountains, sea and samba \u2014 the most dramatic setting of any city.",
+        "description": "Mountains, sea and samba: the most dramatic setting of any city.",
         "meta": [
           "\u20b96\u201313L",
           "24h from India",
@@ -1121,7 +1121,7 @@
   "browse-culture": {
     "slug": "browse-culture",
     "seo": {
-      "title": "Culture & History \u2014 where to go \u2014 TripAgent",
+      "title": "Culture & History, where to go | TripAgent",
       "description": "Where to go for culture & history, with budgets, flight times from India and visa notes."
     },
     "hero": {
@@ -1267,7 +1267,7 @@
         "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fsrinagar.jpg&w=800&q=78",
         "country": "India",
         "name": "Srinagar",
-        "description": "Lake, gardens and mountains \u2014 the valley the Mughals called paradise.",
+        "description": "Lake, gardens and mountains: the valley the Mughals called paradise.",
         "meta": [
           "\u20b92\u20135.5L",
           "1.5h from India",
@@ -1543,7 +1543,7 @@
         "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fistanbul.jpg&w=800&q=78",
         "country": "T\u00fcrkiye",
         "name": "Istanbul",
-        "description": "Where Europe and Asia meet across the water \u2014 Hagia Sophia, the Bosphorus at dusk, and a table that never disappoints.",
+        "description": "Where Europe and Asia meet across the water: Hagia Sophia, the Bosphorus at dusk, and a table that never disappoints.",
         "meta": [
           "\u20b94\u201310L",
           "7.5h from India",
@@ -1663,7 +1663,7 @@
         "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fcappadocia.jpg&w=800&q=78",
         "country": "T\u00fcrkiye",
         "name": "Cappadocia",
-        "description": "Dawn over the fairy chimneys with a hundred balloons rising \u2014 brief, singular, and best paired with Istanbul.",
+        "description": "Dawn over the fairy chimneys with a hundred balloons rising: brief, singular, and best paired with Istanbul.",
         "meta": [
           "\u20b94\u20139L",
           "9.5h from India",
@@ -1867,7 +1867,7 @@
         "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fnew-york.jpg&w=800&q=78",
         "country": "USA",
         "name": "New York",
-        "description": "The one city that rewards ambition \u2014 arrive with a list and let it out-pace you.",
+        "description": "The one city that rewards ambition: arrive with a list and let it out-pace you.",
         "meta": [
           "\u20b98.5\u201318L",
           "15.5h from India",
@@ -2008,7 +2008,7 @@
   "browse-dive": {
     "slug": "browse-dive",
     "seo": {
-      "title": "Diving & Snorkelling \u2014 where to go \u2014 TripAgent",
+      "title": "Diving & Snorkelling, where to go | TripAgent",
       "description": "Where to go for diving & snorkelling, with budgets, flight times from India and visa notes."
     },
     "hero": {
@@ -2142,7 +2142,7 @@
   "browse-family-kids": {
     "slug": "browse-family-kids",
     "seo": {
-      "title": "With Children \u2014 where to go \u2014 TripAgent",
+      "title": "With Children, where to go | TripAgent",
       "description": "Where to go with children. Indicative budgets, flight times from India, visa notes."
     },
     "hero": {
@@ -2312,7 +2312,7 @@
         "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fsrinagar.jpg&w=800&q=78",
         "country": "India",
         "name": "Srinagar",
-        "description": "Lake, gardens and mountains \u2014 the valley the Mughals called paradise.",
+        "description": "Lake, gardens and mountains: the valley the Mughals called paradise.",
         "meta": [
           "\u20b92\u20135.5L",
           "1.5h from India",
@@ -2648,7 +2648,7 @@
         "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fistanbul.jpg&w=800&q=78",
         "country": "T\u00fcrkiye",
         "name": "Istanbul",
-        "description": "Where Europe and Asia meet across the water \u2014 Hagia Sophia, the Bosphorus at dusk, and a table that never disappoints.",
+        "description": "Where Europe and Asia meet across the water: Hagia Sophia, the Bosphorus at dusk, and a table that never disappoints.",
         "meta": [
           "\u20b94\u201310L",
           "7.5h from India",
@@ -2924,7 +2924,7 @@
         "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fnew-york.jpg&w=800&q=78",
         "country": "USA",
         "name": "New York",
-        "description": "The one city that rewards ambition \u2014 arrive with a list and let it out-pace you.",
+        "description": "The one city that rewards ambition: arrive with a list and let it out-pace you.",
         "meta": [
           "\u20b98.5\u201318L",
           "15.5h from India",
@@ -2972,7 +2972,7 @@
         "image": "/_vercel/image?url=%2Fimg%2Fcities%2Flos-angeles-v2.jpg&w=800&q=78",
         "country": "USA",
         "name": "Los Angeles",
-        "description": "Sun, screens and hillside pools \u2014 if you're willing to drive for them.",
+        "description": "Sun, screens and hillside pools: if you're willing to drive for them.",
         "meta": [
           "\u20b96\u201314L",
           "17h from India",
@@ -3041,13 +3041,13 @@
   "browse-food": {
     "slug": "browse-food",
     "seo": {
-      "title": "For the Food \u2014 where to go \u2014 TripAgent",
+      "title": "For the Food, where to go | TripAgent",
       "description": "Where to go for the food, with indicative budgets, flight times from India and visa notes."
     },
     "hero": {
       "eyebrow": "Where to go for",
       "name": "For the Food",
-      "lede": "Trips planned around the table \u2014 markets, street stalls and three-star rooms."
+      "lede": "Trips planned around the table: markets, street stalls and three-star rooms."
     },
     "cards": [
       {
@@ -3295,7 +3295,7 @@
         "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fistanbul.jpg&w=800&q=78",
         "country": "T\u00fcrkiye",
         "name": "Istanbul",
-        "description": "Where Europe and Asia meet across the water \u2014 Hagia Sophia, the Bosphorus at dusk, and a table that never disappoints.",
+        "description": "Where Europe and Asia meet across the water: Hagia Sophia, the Bosphorus at dusk, and a table that never disappoints.",
         "meta": [
           "\u20b94\u201310L",
           "7.5h from India",
@@ -3583,7 +3583,7 @@
         "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fnew-york.jpg&w=800&q=78",
         "country": "USA",
         "name": "New York",
-        "description": "The one city that rewards ambition \u2014 arrive with a list and let it out-pace you.",
+        "description": "The one city that rewards ambition: arrive with a list and let it out-pace you.",
         "meta": [
           "\u20b98.5\u201318L",
           "15.5h from India",
@@ -3631,7 +3631,7 @@
         "image": "/_vercel/image?url=%2Fimg%2Fcities%2Flos-angeles-v2.jpg&w=800&q=78",
         "country": "USA",
         "name": "Los Angeles",
-        "description": "Sun, screens and hillside pools \u2014 if you're willing to drive for them.",
+        "description": "Sun, screens and hillside pools: if you're willing to drive for them.",
         "meta": [
           "\u20b96\u201314L",
           "17h from India",
@@ -3736,13 +3736,13 @@
   "browse-honeymoon": {
     "slug": "browse-honeymoon",
     "seo": {
-      "title": "Honeymoons \u2014 where to go \u2014 TripAgent",
+      "title": "Honeymoons, where to go | TripAgent",
       "description": "Where to go for a honeymoon, with rough budgets, flight times from India and visa notes."
     },
     "hero": {
       "eyebrow": "Where to go for",
       "name": "Honeymoons",
-      "lede": "The first trip as two \u2014 chosen for privacy, beauty and ease."
+      "lede": "The first trip as two: chosen for privacy, beauty and ease."
     },
     "cards": [
       {
@@ -3846,7 +3846,7 @@
         "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fsrinagar.jpg&w=800&q=78",
         "country": "India",
         "name": "Srinagar",
-        "description": "Lake, gardens and mountains \u2014 the valley the Mughals called paradise.",
+        "description": "Lake, gardens and mountains: the valley the Mughals called paradise.",
         "meta": [
           "\u20b92\u20135.5L",
           "1.5h from India",
@@ -4062,7 +4062,7 @@
         "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fcappadocia.jpg&w=800&q=78",
         "country": "T\u00fcrkiye",
         "name": "Cappadocia",
-        "description": "Dawn over the fairy chimneys with a hundred balloons rising \u2014 brief, singular, and best paired with Istanbul.",
+        "description": "Dawn over the fairy chimneys with a hundred balloons rising: brief, singular, and best paired with Istanbul.",
         "meta": [
           "\u20b94\u20139L",
           "9.5h from India",
@@ -4302,7 +4302,7 @@
   "browse-multigen": {
     "slug": "browse-multigen",
     "seo": {
-      "title": "Three Generations \u2014 where to go \u2014 TripAgent",
+      "title": "Three Generations, where to go | TripAgent",
       "description": "Where to go for three generations, with budgets, flight times from India and visa notes."
     },
     "hero": {
@@ -4448,7 +4448,7 @@
         "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fsrinagar.jpg&w=800&q=78",
         "country": "India",
         "name": "Srinagar",
-        "description": "Lake, gardens and mountains \u2014 the valley the Mughals called paradise.",
+        "description": "Lake, gardens and mountains: the valley the Mughals called paradise.",
         "meta": [
           "\u20b92\u20135.5L",
           "1.5h from India",
@@ -5011,7 +5011,7 @@
   "browse-nightlife": {
     "slug": "browse-nightlife",
     "seo": {
-      "title": "After Dark \u2014 where to go \u2014 TripAgent",
+      "title": "After Dark, where to go | TripAgent",
       "description": "Where to go for after dark, with budgets, flight times from India and visa notes."
     },
     "hero": {
@@ -5253,7 +5253,7 @@
         "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fnew-york.jpg&w=800&q=78",
         "country": "USA",
         "name": "New York",
-        "description": "The one city that rewards ambition \u2014 arrive with a list and let it out-pace you.",
+        "description": "The one city that rewards ambition: arrive with a list and let it out-pace you.",
         "meta": [
           "\u20b98.5\u201318L",
           "15.5h from India",
@@ -5265,7 +5265,7 @@
         "image": "/_vercel/image?url=%2Fimg%2Fcities%2Flos-angeles-v2.jpg&w=800&q=78",
         "country": "USA",
         "name": "Los Angeles",
-        "description": "Sun, screens and hillside pools \u2014 if you're willing to drive for them.",
+        "description": "Sun, screens and hillside pools: if you're willing to drive for them.",
         "meta": [
           "\u20b96\u201314L",
           "17h from India",
@@ -5337,7 +5337,7 @@
         "image": "/_vercel/image?url=%2Fimg%2Fcities%2Frio-de-janeiro.jpg&w=800&q=78",
         "country": "Brazil",
         "name": "Rio de Janeiro",
-        "description": "Mountains, sea and samba \u2014 the most dramatic setting of any city.",
+        "description": "Mountains, sea and samba: the most dramatic setting of any city.",
         "meta": [
           "\u20b96\u201313L",
           "24h from India",
@@ -5371,7 +5371,7 @@
   "browse-pilgrimage": {
     "slug": "browse-pilgrimage",
     "seo": {
-      "title": "Sacred Places \u2014 where to go \u2014 TripAgent",
+      "title": "Sacred Places, where to go | TripAgent",
       "description": "Where to go for sacred places, with budgets, flight times from India and visa notes."
     },
     "hero": {
@@ -5481,7 +5481,7 @@
   "browse-romance": {
     "slug": "browse-romance",
     "seo": {
-      "title": "Romantic Escapes \u2014 where to go \u2014 TripAgent",
+      "title": "Romantic Escapes, where to go | TripAgent",
       "description": "Where to go for romantic escapes, with budgets, flight times from India and visa notes."
     },
     "hero": {
@@ -5603,7 +5603,7 @@
         "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fsrinagar.jpg&w=800&q=78",
         "country": "India",
         "name": "Srinagar",
-        "description": "Lake, gardens and mountains \u2014 the valley the Mughals called paradise.",
+        "description": "Lake, gardens and mountains: the valley the Mughals called paradise.",
         "meta": [
           "\u20b92\u20135.5L",
           "1.5h from India",
@@ -5759,7 +5759,7 @@
         "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fistanbul.jpg&w=800&q=78",
         "country": "T\u00fcrkiye",
         "name": "Istanbul",
-        "description": "Where Europe and Asia meet across the water \u2014 Hagia Sophia, the Bosphorus at dusk, and a table that never disappoints.",
+        "description": "Where Europe and Asia meet across the water: Hagia Sophia, the Bosphorus at dusk, and a table that never disappoints.",
         "meta": [
           "\u20b94\u201310L",
           "7.5h from India",
@@ -5831,7 +5831,7 @@
         "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fcappadocia.jpg&w=800&q=78",
         "country": "T\u00fcrkiye",
         "name": "Cappadocia",
-        "description": "Dawn over the fairy chimneys with a hundred balloons rising \u2014 brief, singular, and best paired with Istanbul.",
+        "description": "Dawn over the fairy chimneys with a hundred balloons rising: brief, singular, and best paired with Istanbul.",
         "meta": [
           "\u20b94\u20139L",
           "9.5h from India",
@@ -6071,8 +6071,8 @@
   "browse-safari": {
     "slug": "browse-safari",
     "seo": {
-      "title": "Safaris \u2014 where to go \u2014 TripAgent",
-      "description": "Where to go on safari \u2014 with budgets, flight times from India and visa notes. Chosen by your advisor."
+      "title": "Safaris, where to go | TripAgent",
+      "description": "Where to go on safari: with budgets, flight times from India and visa notes. Chosen by your advisor."
     },
     "hero": {
       "eyebrow": "Where to go for",
@@ -6121,7 +6121,7 @@
   "browse-ski": {
     "slug": "browse-ski",
     "seo": {
-      "title": "Skiing \u2014 where to go \u2014 TripAgent",
+      "title": "Skiing, where to go | TripAgent",
       "description": "Where to go for skiing, with budgets, flight times from India and visa notes."
     },
     "hero": {
@@ -6207,13 +6207,13 @@
   "browse-slow": {
     "slug": "browse-slow",
     "seo": {
-      "title": "Slow & Quiet \u2014 where to go \u2014 TripAgent",
+      "title": "Slow & Quiet, where to go | TripAgent",
       "description": "Where to go for slow & quiet, with budgets, flight times from India and visa notes."
     },
     "hero": {
       "eyebrow": "Where to go for",
       "name": "Slow & Quiet",
-      "lede": "No rush, no crowds \u2014 the places to simply be."
+      "lede": "No rush, no crowds: the places to simply be."
     },
     "cards": [
       {
@@ -6365,7 +6365,7 @@
         "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fsrinagar.jpg&w=800&q=78",
         "country": "India",
         "name": "Srinagar",
-        "description": "Lake, gardens and mountains \u2014 the valley the Mughals called paradise.",
+        "description": "Lake, gardens and mountains: the valley the Mughals called paradise.",
         "meta": [
           "\u20b92\u20135.5L",
           "1.5h from India",
@@ -6677,7 +6677,7 @@
         "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fcappadocia.jpg&w=800&q=78",
         "country": "T\u00fcrkiye",
         "name": "Cappadocia",
-        "description": "Dawn over the fairy chimneys with a hundred balloons rising \u2014 brief, singular, and best paired with Istanbul.",
+        "description": "Dawn over the fairy chimneys with a hundred balloons rising: brief, singular, and best paired with Istanbul.",
         "meta": [
           "\u20b94\u20139L",
           "9.5h from India",
@@ -6976,7 +6976,7 @@
   "browse-snow": {
     "slug": "browse-snow",
     "seo": {
-      "title": "Snow & Mountains \u2014 where to go \u2014 TripAgent",
+      "title": "Snow & Mountains, where to go | TripAgent",
       "description": "Where to go for snow & mountains, with budgets, flight times from India and visa notes."
     },
     "hero": {
@@ -7062,7 +7062,7 @@
   "browse-spa": {
     "slug": "browse-spa",
     "seo": {
-      "title": "Spa & Retreats \u2014 where to go \u2014 TripAgent",
+      "title": "Spa & Retreats, where to go | TripAgent",
       "description": "Where to go for spa & retreats, with budgets, flight times from India and visa notes."
     },
     "hero": {
@@ -7532,7 +7532,7 @@
   "browse-wellness": {
     "slug": "browse-wellness",
     "seo": {
-      "title": "Wellness & Calm \u2014 where to go \u2014 TripAgent",
+      "title": "Wellness & Calm, where to go | TripAgent",
       "description": "Where to go to slow down. Indicative budgets, flight times from India and visa notes for each."
     },
     "hero": {
@@ -7738,7 +7738,7 @@
   "browse-wildlife": {
     "slug": "browse-wildlife",
     "seo": {
-      "title": "Wildlife & Safari \u2014 where to go \u2014 TripAgent",
+      "title": "Wildlife & Safari, where to go | TripAgent",
       "description": "Where to go for wildlife & safari, with budgets, flight times from India and visa notes."
     },
     "hero": {
@@ -7776,7 +7776,7 @@
   "browse-wine": {
     "slug": "browse-wine",
     "seo": {
-      "title": "Wine Country \u2014 where to go \u2014 TripAgent",
+      "title": "Wine Country, where to go | TripAgent",
       "description": "Where to go for wine country, with budgets, flight times from India and visa notes."
     },
     "hero": {

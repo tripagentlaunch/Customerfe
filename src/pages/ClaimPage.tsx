@@ -41,7 +41,7 @@ export default function ClaimPage() {
   useBareChromeForGuests();
 
   useEffect(() => {
-    document.title = "Claim your invitation — TripAgent";
+    document.title = "Claim your invitation | TripAgent";
   }, []);
 
   const navigate = useNavigate();
@@ -104,7 +104,7 @@ export default function ClaimPage() {
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     if (code.length < 8) {
-      setAnn({ text: "Your code has 8 characters — a few are still missing.", kind: "hint" });
+      setAnn({ text: "Your code has 8 characters: a few are still missing.", kind: "hint" });
       inputRef.current?.focus();
       return;
     }

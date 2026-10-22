@@ -1,7 +1,7 @@
 {
   "seo": {
-    "title": "Flights \u2014 TripAgent",
-    "description": "Fares in every cabin, business and first our care \u2014 held, ticketed and watched by an advisor who knows you."
+    "title": "Flights | TripAgent",
+    "description": "Fares in every cabin, business and first our care: held, ticketed and watched by an advisor who knows you."
   },
   "hero": {
     "eyebrow": "Flights",
@@ -23,21 +23,21 @@
   },
   "pullq": {
     "quoteHtml": "Anyone can sell a seat.<br/>We find the <span class=\"it\">right</span> one.",
-    "lede": "A ticket is easy. The right ticket \u2014 the flat-bed that lies flat, the fare that stays refundable, the connection that holds \u2014 comes from someone who does this every day and knows how you travel."
+    "lede": "A ticket is easy. The right ticket: the flat-bed that lies flat, the fare that stays refundable, the connection that holds, comes from someone who does this every day and knows how you travel."
   },
   "idx": {
     "eyebrow": "What we handle",
-    "heading": "Every part of it \u2014 and the parts you never see.",
+    "heading": "Every part of it, and the parts you never see.",
     "lede": "Six things, handled end to end. Most agents stop at the first.",
     "rows": [
       {
         "no": "01",
         "heading": "Every airline & alliance",
-        "body": "Every carrier, every alliance, every cabin from economy to first \u2014 chosen for you, never handed over as a list."
+        "body": "Every carrier, every alliance, every cabin from economy to first: chosen for you, never handed over as a list."
       },
       {
         "no": "02",
-        "heading": "Business & first \u2014 our particular care",
+        "heading": "Business & first: our particular care",
         "body": "We know the front of the aircraft: the right suite, the real flat-bed with direct aisle access, the fare that makes sense."
       },
       {
@@ -48,17 +48,17 @@
       {
         "no": "04",
         "heading": "Seats, meals & lounges",
-        "body": "The seat that suits you, the meal you prefer, lounge access before you land \u2014 the small things that make the hours pass well."
+        "body": "The seat that suits you, the meal you prefer, lounge access before you land: the small things that make the hours pass well."
       },
       {
         "no": "05",
         "heading": "Miles, upgrades & status",
-        "body": "We put your miles and status to work \u2014 and find upgrade and award space you wouldn\u2019t see yourself, timed to clear."
+        "body": "We put your miles and status to work, and find upgrade and award space you wouldn\u2019t see yourself, timed to clear."
       },
       {
         "no": "06",
         "heading": "Changes & refunds, handled",
-        "body": "Plans move. Your advisor reworks it \u2014 no queue, no hold music, no credit quietly lost."
+        "body": "Plans move. Your advisor reworks it: no queue, no hold music, no credit quietly lost."
       }
     ]
   },
@@ -66,24 +66,24 @@
     "leadNum": "i.",
     "eyebrow": "Business & first",
     "headingHtml": "Where most see a price,<br/>we see a <span class=\"it\">cabin</span>.",
-    "lede": "This is where the difference is felt \u2014 and where the traps hide. A \u201cbusiness\u201d seat can be a suite with a door and a flat-bed you stretch out in, or an angled recliner in a 2-2-2 row with a stranger at your elbow. Same name; different night. We know which is which on every aircraft a route flies.",
+    "lede": "This is where the difference is felt, and where the traps hide. A \u201cbusiness\u201d seat can be a suite with a door and a flat-bed you stretch out in, or an angled recliner in a 2-2-2 row with a stranger at your elbow. Same name; different night. We know which is which on every aircraft a route flies.",
     "items": [
-      "A true flat-bed with direct aisle access \u2014 not an angled recliner sold as \u201cbusiness\u201d.",
+      "A true flat-bed with direct aisle access, not an angled recliner sold as \u201cbusiness\u201d.",
       "The newer cabin when two aircraft fly a route, so the seat matches the fare.",
-      "Award and upgrade space others can\u2019t see \u2014 paired with your miles or status to clear it."
+      "Award and upgrade space others can\u2019t see: paired with your miles or status to clear it."
     ],
     "image": "/_vercel/image?url=%2Fimg%2Fh%2Fflights.jpg&w=2048&q=80"
   },
   "signature": {
     "eyebrow": "When it matters",
     "lineHtml": "The test is 2 a.m.,<br/>not the <span class=\"it\">booking</span>.",
-    "sub": "A cancelled flight in a city you don\u2019t know is the real moment. Because we already hold your details and onward plans, the rebooking is done before you\u2019ve fully woken \u2014 same cabin, next flight, a message already waiting. No queue. No hold music. We stay with you for the flight, not just the sale.",
+    "sub": "A cancelled flight in a city you don\u2019t know is the real moment. Because we already hold your details and onward plans, the rebooking is done before you\u2019ve fully woken: same cabin, next flight, a message already waiting. No queue. No hold music. We stay with you for the flight, not just the sale.",
     "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fdubai.jpg&w=2560&q=80"
   },
   "examples": {
     "eyebrow": "By example",
     "heading": "What \u201cthe right seat\u201d looks like.",
-    "lede": "Three routes our members fly often \u2014 and the call we\u2019d make on each.",
+    "lede": "Three routes our members fly often, and the call we\u2019d make on each.",
     "tiles": [
       {
         "label": "Delhi \u2192 London",
@@ -93,7 +93,7 @@
       {
         "label": "Mumbai \u2192 New York",
         "heading": "First, or the right business",
-        "body": "Sixteen hours rewards first class where it is genuinely a suite. Where it isn\u2019t, we say so \u2014 and put you in the best business cabin rather than pay first-class money for a wider seat."
+        "body": "Sixteen hours rewards first class where it is genuinely a suite. Where it isn\u2019t, we say so, and put you in the best business cabin rather than pay first-class money for a wider seat."
       },
       {
         "label": "Bengaluru \u2192 Singapore",
@@ -105,7 +105,7 @@
   "howItWorks": {
     "eyebrow": "How it works",
     "heading": "From a line of text to a boarding pass.",
-    "lede": "It begins the same way every time \u2014 one message on WhatsApp. Your advisor takes it from there.",
+    "lede": "It begins the same way every time: one message on WhatsApp. Your advisor takes it from there.",
     "cta": {
       "label": "Become a member",
       "href": "join.html"
@@ -114,7 +114,7 @@
       {
         "n": "1",
         "heading": "Tell us the trip",
-        "body": "One line on WhatsApp \u2014 where, when, who, and how you like to fly."
+        "body": "One line on WhatsApp, where, when, who, and how you like to fly."
       },
       {
         "n": "2",
@@ -129,7 +129,7 @@
       {
         "n": "4",
         "heading": "We stay, in the air too",
-        "body": "Changes, delays, disruption \u2014 handled as they happen, until you are home."
+        "body": "Changes, delays, disruption: handled as they happen, until you are home."
       }
     ]
   },
@@ -139,11 +139,11 @@
     "items": [
       {
         "summary": "Are there hidden markups on fares?",
-        "bodyHtml": "No. You see the sell price, with taxes and surcharges shown plainly. Where a service fee applies, it is named and agreed before you confirm \u2014 never folded into the fare. The economics are stated, because trust is the whole point."
+        "bodyHtml": "No. You see the sell price, with taxes and surcharges shown plainly. Where a service fee applies, it is named and agreed before you confirm: never folded into the fare. The economics are stated, because trust is the whole point."
       },
       {
         "summary": "Do you only book business and first class?",
-        "bodyHtml": "The front of the aircraft is our specialty, but we book every cabin \u2014 economy and premium economy included. And we tell you when a premium cabin is worth it and when it is not. A short daytime hop rarely justifies first; a fourteen-hour overnight almost always does."
+        "bodyHtml": "The front of the aircraft is our specialty, but we book every cabin: economy and premium economy included. And we tell you when a premium cabin is worth it and when it is not. A short daytime hop rarely justifies first; a fourteen-hour overnight almost always does."
       },
       {
         "summary": "Can I use my miles and points?",
@@ -151,15 +151,15 @@
       },
       {
         "summary": "How do upgrades and award space actually work?",
-        "bodyHtml": "Upgrade and award inventory is rarely visible on public sites, and what shows there is often stale. We see live premium-cabin availability across carriers, watch for space to open after booking, and time the request \u2014 with your status, miles, or a paid instrument \u2014 to the moment it is most likely to clear. Nothing is left to the gate."
+        "bodyHtml": "Upgrade and award inventory is rarely visible on public sites, and what shows there is often stale. We see live premium-cabin availability across carriers, watch for space to open after booking, and time the request: with your status, miles, or a paid instrument, to the moment it is most likely to clear. Nothing is left to the gate."
       },
       {
         "summary": "What happens when plans change or I need to cancel?",
-        "bodyHtml": "You send one message; your advisor handles the rest. We know each fare\u2019s change and refund rules before you book, and choose them with your flexibility in mind. When something moves, we rework the ticket without the queue or the hold music \u2014 and make sure no penalty, refund or credit is quietly missed."
+        "bodyHtml": "You send one message; your advisor handles the rest. We know each fare\u2019s change and refund rules before you book, and choose them with your flexibility in mind. When something moves, we rework the ticket without the queue or the hold music, and make sure no penalty, refund or credit is quietly missed."
       },
       {
         "summary": "What if my flight is cancelled overnight in a city I don\u2019t know?",
-        "bodyHtml": "That is the real test, and the one we are built for. Because we already hold your full itinerary and onward plans, your advisor rebooks you \u2014 usually before the airline\u2019s own queue has moved \u2014 same cabin, next sensible flight \u2014 and re-sequences your hotels and transfers to match. Often the fix is waiting before you\u2019ve fully woken."
+        "bodyHtml": "That is the real test, and the one we are built for. Because we already hold your full itinerary and onward plans, your advisor rebooks you: usually before the airline\u2019s own queue has moved, same cabin, next sensible flight, and re-sequences your hotels and transfers to match. Often the fix is waiting before you\u2019ve fully woken."
       },
       {
         "summary": "Which airlines and routings do you actually recommend?",
@@ -167,15 +167,15 @@
       },
       {
         "summary": "Can you handle family, group and multi-city travel?",
-        "bodyHtml": "Yes. Families seated together, a group on one record, a multi-city itinerary that holds across several carriers \u2014 this is where careful hands matter most. We keep everyone on aligned timings, manage the seat map deliberately, and make sure one change does not unravel the whole journey."
+        "bodyHtml": "Yes. Families seated together, a group on one record, a multi-city itinerary that holds across several carriers: this is where careful hands matter most. We keep everyone on aligned timings, manage the seat map deliberately, and make sure one change does not unravel the whole journey."
       },
       {
         "summary": "What about baggage, special meals and other requests?",
-        "bodyHtml": "Baggage allowances, extra pieces, sporting and musical equipment, dietary and medical meals, wheelchair and mobility assistance, bassinets, unaccompanied minors \u2014 all noted with your booking and confirmed with the airline in advance, so they are arranged rather than improvised at the desk."
+        "bodyHtml": "Baggage allowances, extra pieces, sporting and musical equipment, dietary and medical meals, wheelchair and mobility assistance, bassinets, unaccompanied minors: all noted with your booking and confirmed with the airline in advance, so they are arranged rather than improvised at the desk."
       },
       {
         "summary": "Do you handle corporate and business travel?",
-        "bodyHtml": "We do. We respect company travel policy where it applies, keep documentation clean for expense and reconciliation, and look after what business travellers value most \u2014 protected connections, lounge access, and a quiet fix when a meeting moves. The discretion of a private advisor, on a working schedule."
+        "bodyHtml": "We do. We respect company travel policy where it applies, keep documentation clean for expense and reconciliation, and look after what business travellers value most: protected connections, lounge access, and a quiet fix when a meeting moves. The discretion of a private advisor, on a working schedule."
       },
       {
         "summary": "How is my data and privacy handled?",
@@ -183,13 +183,13 @@
       },
       {
         "summary": "Is this only flights?",
-        "bodyHtml": "Flights are one of three things we do completely \u2014 alongside <a href=\"/hotels\">hotels</a> and <a href=\"/visas\">visas</a>, sequenced into one trip."
+        "bodyHtml": "Flights are one of three things we do completely: alongside <a href=\"/hotels\">hotels</a> and <a href=\"/visas\">visas</a>, sequenced into one trip."
       }
     ]
   },
   "cta": {
     "eyebrow": "Our promise",
-    "headingHtml": "Your next flight \u2014 looked after<br/>until you are <span class=\"it\">home</span>.",
+    "headingHtml": "Your next flight: looked after<br/>until you are <span class=\"it\">home</span>.",
     "lede": "A private travel maison, by invitation. If you hold one, a seat at the front is already kept for you.",
     "buttons": [
       {

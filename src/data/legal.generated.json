@@ -2,13 +2,13 @@
   "terms": {
     "slug": "terms",
     "seo": {
-      "title": "Membership terms — TripAgent",
-      "description": "How TripAgent membership works — invitation and complimentary period, billing, cancellation and what the fee covers."
+      "title": "Membership terms | TripAgent",
+      "description": "How TripAgent membership works: invitation and complimentary period, billing, cancellation and what the fee covers."
     },
     "hero": {
       "eyebrow": "Legal · Membership",
       "heading": "Membership terms",
-      "standfirst": "How membership works, in plain words — kept as it should be: clear, and without surprises.",
+      "standfirst": "How membership works, in plain words: kept as it should be: clear, and without surprises.",
       "updated": "Last updated · June 2026"
     },
     "nodes": [
@@ -31,7 +31,7 @@
       {
         "kind": "list",
         "items": [
-          "Membership is <b>by invitation</b>. Each invitation carries a one-time code that grants a <b>complimentary period</b> — set per invitation, ranging from <b>three months to twelve months</b> — with the full service, at no membership fee.",
+          "Membership is <b>by invitation</b>. Each invitation carries a one-time code that grants a <b>complimentary period</b>set per invitation, ranging from <b>three months to twelve months</b>with the full service, at no membership fee.",
           "A valid card is captured when you redeem your invitation. You are never charged during the complimentary period.",
           "After the complimentary period, membership <b>continues at ₹12,000 per year</b>, charged to the card captured at sign-up, unless you cancel first.",
           "We remind you before your complimentary period ends, so the renewal is never a surprise."
@@ -43,15 +43,15 @@
       },
       {
         "kind": "paragraph",
-        "html": "Cancel at any time — message your advisor or write to <a href=\"mailto:invite@tripagent.vip\">invite@tripagent.vip</a>. Cancel before your complimentary period ends and you are charged nothing. Cancel during a paid year and your membership runs to the end of that year; it simply does not renew."
+        "html": "Cancel at any time: message your advisor or write to <a href=\"mailto:invite@tripagent.vip\">invite@tripagent.vip</a>. Cancel before your complimentary period ends and you are charged nothing. Cancel during a paid year and your membership runs to the end of that year; it simply does not renew."
       },
       {
         "kind": "heading",
-        "html": "What the fee covers — and what it doesn’t"
+        "html": "What the fee covers, and what it doesn’t"
       },
       {
         "kind": "paragraph",
-        "html": "The ₹12,000 covers your <b>membership</b>: the advisor relationship and the concierge. <b>Travel itself</b> — air fares, hotel rooms, visa government fees — is paid per trip, transparently, with taxes shown. We never add hidden markups; any service fee is disclosed before you confirm."
+        "html": "The ₹12,000 covers your <b>membership</b>: the advisor relationship and the concierge. <b>Travel itself</b>air fares, hotel rooms, visa government fees: is paid per trip, transparently, with taxes shown. We never add hidden markups; any service fee is disclosed before you confirm."
       },
       {
         "kind": "heading",
@@ -86,13 +86,13 @@
         "html": "These terms are governed by the laws of India; disputes are subject to the courts of Bangalore, India."
       }
     ],
-    "note": "This is a plain-language summary for our members. The membership is operated by <b>Tripsure</b>, 44, Kingfisher Towers, Bangalore 560 001. Where this summary and our full published policies differ, the full policies — confirmed by Tripsure — govern. Questions: <a href=\"mailto:invite@tripagent.vip\">invite@tripagent.vip</a>."
+    "note": "This is a plain-language summary for our members. The membership is operated by <b>Tripsure</b>, 44, Kingfisher Towers, Bangalore 560 001. Where this summary and our full published policies differ, the full policies: confirmed by Tripsure, govern. Questions: <a href=\"mailto:invite@tripagent.vip\">invite@tripagent.vip</a>."
   },
   "privacy": {
     "slug": "privacy",
     "seo": {
-      "title": "Privacy — TripAgent",
-      "description": "What we collect, why, and the control you keep — under India's DPDP Act."
+      "title": "Privacy | TripAgent",
+      "description": "What we collect, why, and the control you keep: under India's DPDP Act."
     },
     "hero": {
       "eyebrow": "Legal · Privacy",
@@ -103,7 +103,7 @@
     "nodes": [
       {
         "kind": "paragraph",
-        "html": "This explains what we collect, why we collect it, and the control you keep over it — under India's Digital Personal Data Protection Act."
+        "html": "This explains what we collect, why we collect it, and the control you keep over it: under India's Digital Personal Data Protection Act."
       },
       {
         "kind": "heading",
@@ -155,7 +155,7 @@
       },
       {
         "kind": "paragraph",
-        "html": "Ask us to show, correct or delete your data, or to withdraw consent — write to <a href=\"mailto:invite@tripagent.vip\">invite@tripagent.vip</a> and we act promptly."
+        "html": "Ask us to show, correct or delete your data, or to withdraw consent: write to <a href=\"mailto:invite@tripagent.vip\">invite@tripagent.vip</a> and we act promptly."
       },
       {
         "kind": "heading",
@@ -166,12 +166,12 @@
         "html": "We hold your data on bank-grade infrastructure with access controls and encryption in transit. Payments run on PCI-compliant rails."
       }
     ],
-    "note": "This is a plain-language summary for our members. The membership is operated by <b>Tripsure</b>, 44, Kingfisher Towers, Bangalore 560 001. Where this summary and our full published policies differ, the full policies — confirmed by Tripsure — govern. Questions: <a href=\"mailto:invite@tripagent.vip\">invite@tripagent.vip</a>."
+    "note": "This is a plain-language summary for our members. The membership is operated by <b>Tripsure</b>, 44, Kingfisher Towers, Bangalore 560 001. Where this summary and our full published policies differ, the full policies: confirmed by Tripsure, govern. Questions: <a href=\"mailto:invite@tripagent.vip\">invite@tripagent.vip</a>."
   },
   "refund": {
     "slug": "refund",
     "seo": {
-      "title": "Refund of fees — TripAgent",
+      "title": "Refund of fees | TripAgent",
       "description": "Our plain-language stance on membership refunds and refunds on travel you book."
     },
     "hero": {
@@ -191,7 +191,7 @@
       },
       {
         "kind": "paragraph",
-        "html": "Membership is by invitation. Each invitation carries a complimentary period — set per invitation, from <b>three to twelve months</b> — at no membership fee. Cancel before it ends and <b>you are charged nothing</b>; there is nothing to refund."
+        "html": "Membership is by invitation. Each invitation carries a complimentary period: set per invitation, from <b>three to twelve months</b>at no membership fee. Cancel before it ends and <b>you are charged nothing</b>; there is nothing to refund."
       },
       {
         "kind": "heading",
@@ -201,7 +201,7 @@
         "kind": "list",
         "items": [
           "If a renewal is charged in error, or within <b>7 days</b> of a charge you have not used, write to us and we refund the ₹12,000 in full.",
-          "Otherwise the annual fee is non-refundable, but cancelling stops the next renewal — you keep the service to the end of the year already paid."
+          "Otherwise the annual fee is non-refundable, but cancelling stops the next renewal: you keep the service to the end of the year already paid."
         ]
       },
       {
@@ -210,7 +210,7 @@
       },
       {
         "kind": "paragraph",
-        "html": "Air fares, hotel rooms and visa fees follow the airline’s, hotel’s or authority’s own rules — some refundable, some not. Your advisor tells you the cancellation terms <b>before</b> you confirm, and handles any eligible refund for you, chasing it to completion."
+        "html": "Air fares, hotel rooms and visa fees follow the airline’s, hotel’s or authority’s own rules: some refundable, some not. Your advisor tells you the cancellation terms <b>before</b> you confirm, and handles any eligible refund for you, chasing it to completion."
       },
       {
         "kind": "heading",
@@ -221,6 +221,6 @@
         "html": "Message your advisor or email <a href=\"mailto:invite@tripagent.vip\">invite@tripagent.vip</a>. Approved refunds return to your original payment method, typically within 5–7 business days."
       }
     ],
-    "note": "This is a plain-language summary for our members. The membership is operated by <b>Tripsure</b>, 44, Kingfisher Towers, Bangalore 560 001. Where this summary and our full published policies differ, the full policies — confirmed by Tripsure — govern. Questions: <a href=\"mailto:invite@tripagent.vip\">invite@tripagent.vip</a>."
+    "note": "This is a plain-language summary for our members. The membership is operated by <b>Tripsure</b>, 44, Kingfisher Towers, Bangalore 560 001. Where this summary and our full published policies differ, the full policies: confirmed by Tripsure, govern. Questions: <a href=\"mailto:invite@tripagent.vip\">invite@tripagent.vip</a>."
   }
 }

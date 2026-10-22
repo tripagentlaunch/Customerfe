@@ -8,7 +8,7 @@ import styles from "./ClusterPin.module.css";
 export default function ClusterPin({ count, onClick }: { count: number; onClick: () => void }) {
   const size = count >= 100 ? styles.lg : count >= 10 ? styles.md : styles.sm;
   return (
-    <button type="button" className={`${styles.cluster} ${size}`} aria-label={`${count} places — zoom in`} onClick={onClick}>
+    <button type="button" className={`${styles.cluster} ${size}`} aria-label={`${count} places: zoom in`} onClick={onClick}>
       {count}
     </button>
   );

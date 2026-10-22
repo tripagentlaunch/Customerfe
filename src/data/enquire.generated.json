@@ -1,12 +1,12 @@
 {
   "seo": {
-    "title": "Plan a trip — TripAgent",
+    "title": "Plan a trip | TripAgent",
     "description": "Tell us where you'd like to go, and when. Your advisor reads it, shapes the journey, and is in touch within the hour."
   },
   "aside": {
     "eyebrow": "Plan a trip",
     "headingHtml": "Tell us the trip.<br/>We take it <span class=\"it\">from here</span>.",
-    "lede": "A few lines are enough. Your named advisor reads them, shapes the journey, and comes back to you — flights, hotels and visas, all of it.",
+    "lede": "A few lines are enough. Your named advisor reads them, shapes the journey, and comes back to you: flights, hotels and visas, all of it.",
     "incl": [
       "A real advisor replies, within the hour.",
       "Nothing to chase. The arranging is ours.",
@@ -42,7 +42,7 @@
         "tag": "input",
         "type": "text",
         "name": "destination",
-        "labelHtml": "Where to? <span style=\"text-transform:none;letter-spacing:0;color:var(--stone)\">— or the trip you've been building</span>",
+        "labelHtml": "Where to? <span style=\"text-transform:none;letter-spacing:0;color:var(--stone)\">or the trip you've been building</span>",
         "placeholder": "Maldives, Amalfi, Tokyo…",
         "required": false,
         "options": null

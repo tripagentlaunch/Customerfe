@@ -27,8 +27,8 @@ export default function HandoffCard({ handoff }: { handoff: Handoff }) {
         <div className="ta-cc-handoff-title">{TITLE[handoff.kind] ?? handoff.label}</div>
         {handoff.summary ? <div className="ta-cc-handoff-summary">{handoff.summary}</div> : null}
         <div className="ta-cc-handoff-note">
-          Your TripAgent advisor has this and will reach out to confirm and complete it —
-          nothing further needed from you here.
+          Your TripAgent advisor has this and will reach out to confirm and complete it.
+          Nothing further needed from you here.
         </div>
       </div>
     </div>
