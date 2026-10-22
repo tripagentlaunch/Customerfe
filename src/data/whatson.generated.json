@@ -1,12 +1,12 @@
 {
   "seo": {
-    "title": "What's on, month by month — TripAgent",
-    "description": "The festivals, races and moments worth timing a trip around — a year of the world's great events, month by month, across our cities."
+    "title": "What's on, month by month | TripAgent",
+    "description": "The festivals, races and moments worth timing a trip around: a year of the world's great events, month by month, across our cities."
   },
   "hero": {
     "eyebrow": "The calendar",
     "headingHtml": "What's on, <span class=\"it\">month by month</span>.",
-    "lede": "The festivals, races and rare moments worth building a trip around — a year of the world, across our cities. Find the month, find the reason to go."
+    "lede": "The festivals, races and rare moments worth building a trip around: a year of the world, across our cities. Find the month, find the reason to go."
   },
   "monthLinks": [
     {
@@ -73,7 +73,7 @@
         {
           "name": "Al Dhafra Festival",
           "meta": "Abu Dhabi · late Oct–Jan",
-          "body": "A serious Emirati heritage festival in the Liwa region built around camel-beauty (mazayna) contests — the country's Bedouin culture, not its skyline.",
+          "body": "A serious Emirati heritage festival in the Liwa region built around camel-beauty (mazayna) contests: the country's Bedouin culture, not its skyline.",
           "href": "/city-abu-dhabi"
         },
         {
@@ -103,7 +103,7 @@
         {
           "name": "Cape Town Minstrel Carnival (Kaapse Klopse)",
           "meta": "Cape Town · early January (5 Jan 2026)",
-          "body": "The city's oldest carnival — thousands of costumed minstrels with banjos and ghoema drums parade through the streets.",
+          "body": "The city's oldest carnival: thousands of costumed minstrels with banjos and ghoema drums parade through the streets.",
           "href": "/city-cape-town"
         },
         {
@@ -157,7 +157,7 @@
         {
           "name": "Galle Literary Festival",
           "meta": "Galle · late Jan",
-          "body": "South Asia's leading literary gathering, staged in the fort's colonial buildings — the 2026 edition runs 22–25 January.",
+          "body": "South Asia's leading literary gathering, staged in the fort's colonial buildings: the 2026 edition runs 22–25 January.",
           "href": "/city-galle"
         },
         {
@@ -187,7 +187,7 @@
         {
           "name": "Royal Langkawi International Regatta",
           "meta": "Langkawi · January",
-          "body": "An international fleet racing in the Andaman Sea off the island — the calmest, driest month to visit.",
+          "body": "An international fleet racing in the Andaman Sea off the island: the calmest, driest month to visit.",
           "href": "/city-langkawi"
         },
         {
@@ -253,7 +253,7 @@
         {
           "name": "Chinese New Year",
           "meta": "Singapore · late Jan–Feb",
-          "body": "Chinatown lights up and the Chingay parade fills the streets — the city's biggest celebration.",
+          "body": "Chinatown lights up and the Chingay parade fills the streets: the city's biggest celebration.",
           "href": "/city-singapore-city"
         },
         {
@@ -320,7 +320,7 @@
         {
           "name": "Feast of St Blaise (Sveti Vlaho)",
           "meta": "Dubrovnik · 3 February",
-          "body": "The patron saint's day, a UNESCO-listed procession — the Old Town at its most local, with no cruise ships in sight.",
+          "body": "The patron saint's day, a UNESCO-listed procession: the Old Town at its most local, with no cruise ships in sight.",
           "href": "/city-dubrovnik"
         },
         {
@@ -368,7 +368,7 @@
         {
           "name": "Maha Shivaratri",
           "meta": "Mauritius · February–March",
-          "body": "Hundreds of thousands walk barefoot to Grand Bassin carrying kanwars — the island's largest Hindu pilgrimage.",
+          "body": "Hundreds of thousands walk barefoot to Grand Bassin carrying kanwars: the island's largest Hindu pilgrimage.",
           "href": "/city-mauritius-city"
         },
         {
@@ -410,7 +410,7 @@
         {
           "name": "Fête du Citron (Menton Lemon Festival)",
           "meta": "Nice & the Riviera · mid-February–early March",
-          "body": "Giant sculptures built from citrus fruit in nearby Menton — a short train ride east.",
+          "body": "Giant sculptures built from citrus fruit in nearby Menton: a short train ride east.",
           "href": "/city-nice-riviera"
         },
         {
@@ -428,7 +428,7 @@
         {
           "name": "Winter Lights Festival",
           "meta": "Reykjavik · February",
-          "body": "Museums, pools and buildings lit up across the darkest weeks — paired well with aurora season.",
+          "body": "Museums, pools and buildings lit up across the darkest weeks: paired well with aurora season.",
           "href": "/city-reykjavik"
         },
         {
@@ -488,7 +488,7 @@
         {
           "name": "Carnevale di Venezia",
           "meta": "Venice · February (7–17 Feb 2026)",
-          "body": "The masked carnival — costumed balls in private palazzi and the flight of the angel over St Mark's Square.",
+          "body": "The masked carnival: costumed balls in private palazzi and the flight of the angel over St Mark's Square.",
           "href": "/city-venice"
         },
         {
@@ -700,7 +700,7 @@
         {
           "name": "Sant Jordi",
           "meta": "Barcelona · 23 April",
-          "body": "Catalonia's day of books and roses — the streets fill with stalls and readers.",
+          "body": "Catalonia's day of books and roses: the streets fill with stalls and readers.",
           "href": "/city-barcelona"
         },
         {
@@ -778,13 +778,13 @@
         {
           "name": "Greek Orthodox Easter",
           "meta": "Santorini · April/May",
-          "body": "Candlelit processions and fireworks in the villages — the islands' most moving celebration; date follows the Orthodox calendar.",
+          "body": "Candlelit processions and fireworks in the villages: the islands' most moving celebration; date follows the Orthodox calendar.",
           "href": "/city-santorini"
         },
         {
           "name": "Cherry blossom season",
           "meta": "Seoul · early–mid April",
-          "body": "Yeouido and the palace grounds bloom for roughly a week — the city's prettiest, busiest moment.",
+          "body": "Yeouido and the palace grounds bloom for roughly a week: the city's prettiest, busiest moment.",
           "href": "/city-seoul"
         },
         {
@@ -814,7 +814,7 @@
         {
           "name": "Zermatt Unplugged",
           "meta": "Zermatt · April",
-          "body": "An acoustic music festival across village and mountain stages — the 2026 edition runs 7–11 April.",
+          "body": "An acoustic music festival across village and mountain stages: the 2026 edition runs 7–11 April.",
           "href": "/city-zermatt"
         },
         {
@@ -857,7 +857,7 @@
         {
           "name": "Da Nang International Fireworks Festival",
           "meta": "Hoi An & Da Nang · late May–mid Jul (Sat nights)",
-          "body": "International teams compete over successive Saturday nights along the Han River — the region's biggest set-piece event.",
+          "body": "International teams compete over successive Saturday nights along the Han River: the region's biggest set-piece event.",
           "href": "/city-hoi-an"
         },
         {
@@ -869,13 +869,13 @@
         {
           "name": "Aoi Matsuri",
           "meta": "Kyoto · 15 May",
-          "body": "The oldest of Kyoto's three great festivals — a Heian-era court procession in ox-carts and silk from the Imperial Palace to the Kamo shrines.",
+          "body": "The oldest of Kyoto's three great festivals: a Heian-era court procession in ox-carts and silk from the Imperial Palace to the Kamo shrines.",
           "href": "/city-kyoto"
         },
         {
           "name": "LIMA (Langkawi International Maritime & Aerospace Exhibition)",
           "meta": "Langkawi · May, odd years",
-          "body": "A biennial defence and aerospace showcase with public flying displays over the bay — book far ahead, the island fills.",
+          "body": "A biennial defence and aerospace showcase with public flying displays over the bay: book far ahead, the island fills.",
           "href": "/city-langkawi"
         },
         {
@@ -917,7 +917,7 @@
         {
           "name": "Buddha's Birthday / Lotus Lantern Festival",
           "meta": "Seoul · May",
-          "body": "A lantern parade through central Seoul and temples strung with color — dates follow the lunar calendar.",
+          "body": "A lantern parade through central Seoul and temples strung with color: dates follow the lunar calendar.",
           "href": "/city-seoul"
         },
         {
@@ -935,7 +935,7 @@
         {
           "name": "Sanja Matsuri",
           "meta": "Tokyo · mid-May",
-          "body": "Asakusa's wild three-day shrine festival, a hundred mikoshi carried through the streets — old Tokyo at full volume.",
+          "body": "Asakusa's wild three-day shrine festival, a hundred mikoshi carried through the streets: old Tokyo at full volume.",
           "href": "/city-tokyo"
         },
         {
@@ -978,7 +978,7 @@
         {
           "name": "Inti Raymi",
           "meta": "Cusco & Machu Picchu · 24 June",
-          "body": "The Inca Festival of the Sun, re-enacted at Sacsayhuamán — the Andes' greatest pageant, fixed on 24 June.",
+          "body": "The Inca Festival of the Sun, re-enacted at Sacsayhuamán: the Andes' greatest pageant, fixed on 24 June.",
           "href": "/city-cusco"
         },
         {
@@ -1020,7 +1020,7 @@
         {
           "name": "Sagra di San Giovanni, Isola Comacina",
           "meta": "Lake Como · last weekend of June",
-          "body": "The lake's only island lit by fireworks and floating candles, recalling its medieval destruction — Como's most atmospheric night.",
+          "body": "The lake's only island lit by fireworks and floating candles, recalling its medieval destruction: Como's most atmospheric night.",
           "href": "/city-lake-como"
         },
         {
@@ -1068,7 +1068,7 @@
         {
           "name": "Fête de la Musique",
           "meta": "Paris · 21 June",
-          "body": "The whole city becomes a free stage on the solstice — every square and street corner has live music until late.",
+          "body": "The whole city becomes a free stage on the solstice: every square and street corner has live music until late.",
           "href": "/city-paris"
         },
         {
@@ -1195,7 +1195,7 @@
         {
           "name": "Salalah Khareef",
           "meta": "Muscat · mid-Jul–Aug",
-          "body": "In Oman's far south, the monsoon turns the hills green — a summer escape unlike anywhere else in Arabia.",
+          "body": "In Oman's far south, the monsoon turns the hills green: a summer escape unlike anywhere else in Arabia.",
           "href": "/city-muscat"
         },
         {
@@ -1241,7 +1241,7 @@
           "href": "/city-toronto"
         },
         {
-          "name": "Vivid — Celebration of Light (fireworks)",
+          "name": "Vivid: Celebration of Light (fireworks)",
           "meta": "Vancouver · Late July",
           "body": "Barge-launched international fireworks competition over English Bay across several nights.",
           "href": "/city-vancouver"
@@ -1268,7 +1268,7 @@
         {
           "name": "Nehru Trophy Boat Race",
           "meta": "Alleppey · Aug",
-          "body": "Kerala's most famous snake-boat race on Punnamada Lake — the 2026 edition is 22 August.",
+          "body": "Kerala's most famous snake-boat race on Punnamada Lake: the 2026 edition is 22 August.",
           "href": "/city-alleppey"
         },
         {
@@ -1382,7 +1382,7 @@
         {
           "name": "Canadian National Exhibition (CNE)",
           "meta": "Toronto · Mid-August to Labour Day",
-          "body": "The 18-day fair with rides, pavilions and the Labour Day air show — a long-running end-of-summer tradition.",
+          "body": "The 18-day fair with rides, pavilions and the Labour Day air show: a long-running end-of-summer tradition.",
           "href": "/city-toronto"
         },
         {
@@ -1527,7 +1527,7 @@
         {
           "name": "Venice Film Festival",
           "meta": "Venice · early September (2–12 Sep 2026)",
-          "body": "The world's oldest film festival, on the Lido — red carpets, premieres and the Golden Lion.",
+          "body": "The world's oldest film festival, on the Lido: red carpets, premieres and the Golden Lion.",
           "href": "/city-venice"
         },
         {
@@ -1642,7 +1642,7 @@
         {
           "name": "Jidai Matsuri",
           "meta": "Kyoto · 22 October",
-          "body": "The 'Festival of the Ages' — a costumed pageant marching a thousand years of Japanese history through the streets.",
+          "body": "The 'Festival of the Ages': a costumed pageant marching a thousand years of Japanese history through the streets.",
           "href": "/city-kyoto"
         },
         {
@@ -1660,7 +1660,7 @@
         {
           "name": "Festival Kreol",
           "meta": "Mahé · late October",
-          "body": "The country's biggest cultural festival — Creole music, food and dance across a week.",
+          "body": "The country's biggest cultural festival: Creole music, food and dance across a week.",
           "href": "/city-mahe-seychelles"
         },
         {
@@ -1678,7 +1678,7 @@
         {
           "name": "Día de Muertos parade",
           "meta": "Mexico City · late Oct–early Nov",
-          "body": "A grand parade down Paseo de la Reforma into the Zócalo — 2025's runs on the weekend of 1–2 November.",
+          "body": "A grand parade down Paseo de la Reforma into the Zócalo: 2025's runs on the weekend of 1–2 November.",
           "href": "/city-mexico-city"
         },
         {
@@ -1702,7 +1702,7 @@
         {
           "name": "Fête des Vendanges de Montmartre",
           "meta": "Paris · October",
-          "body": "The Montmartre vineyard's harvest festival — parades, tastings and an old-Paris village mood above the city.",
+          "body": "The Montmartre vineyard's harvest festival: parades, tastings and an old-Paris village mood above the city.",
           "href": "/city-paris"
         },
         {
@@ -1841,7 +1841,7 @@
         {
           "name": "Lamu Cultural Festival",
           "meta": "Nairobi & the Mara · Late November",
-          "body": "Dhow races, poetry and Swahili weddings on the coastal island — a natural add-on if you extend beyond the safari.",
+          "body": "Dhow races, poetry and Swahili weddings on the coastal island: a natural add-on if you extend beyond the safari.",
           "href": "/city-nairobi-mara"
         },
         {
@@ -1895,7 +1895,7 @@
         {
           "name": "Dev Deepawali",
           "meta": "Varanasi · Nov",
-          "body": "The 'Diwali of the gods' — every ghat lined with thousands of oil lamps on Kartik Purnima.",
+          "body": "The 'Diwali of the gods': every ghat lined with thousands of oil lamps on Kartik Purnima.",
           "href": "/city-varanasi"
         },
         {
@@ -2004,7 +2004,7 @@
         {
           "name": "Angkor Wat International Half Marathon",
           "meta": "Siem Reap · early Dec",
-          "body": "A charity run through the temple grounds at first light — a rare way to see them car-free.",
+          "body": "A charity run through the temple grounds at first light: a rare way to see them car-free.",
           "href": "/city-siem-reap"
         },
         {

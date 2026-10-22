@@ -1,7 +1,7 @@
 {
   "seo": {
-    "title": "How to Read a Cabin by Aircraft \u2014 TripAgent",
-    "description": "What 'business' and 'first' mean depends on the aircraft: flat-bed or angled recliner, suite or open seat, 1-2-1 or 2-2-2. How to read a cabin \u2014 and how TripAgent confirms the seat before you book."
+    "title": "How to Read a Cabin by Aircraft | TripAgent",
+    "description": "What 'business' and 'first' mean depends on the aircraft: flat-bed or angled recliner, suite or open seat, 1-2-1 or 2-2-2. How to read a cabin, and how TripAgent confirms the seat before you book."
   },
   "hero": {
     "back": {
@@ -27,7 +27,7 @@
     "eyebrow": "Why it matters",
     "note": "A fare class is a promise about service. It says little about the seat you will sleep in for the next ten hours.",
     "statement": "The cabin is the aircraft, not the fare.",
-    "lede": "\"Business class\" is a label, not a specification. The product is the seat the airline fitted to that aircraft \u2014 and one airline can fly three or four business cabins across its fleet. So ignore the name and ask three things: how the seats are arranged, whether the bed is truly flat, and how much privacy you have. Answer those, and you know what you are buying."
+    "lede": "\"Business class\" is a label, not a specification. The product is the seat the airline fitted to that aircraft, and one airline can fly three or four business cabins across its fleet. So ignore the name and ask three things: how the seats are arranged, whether the bed is truly flat, and how much privacy you have. Answer those, and you know what you are buying."
   },
   "glossary": {
     "eyebrow": "The vocabulary",
@@ -37,32 +37,32 @@
       {
         "term": "Layout",
         "heading": "1-2-1 vs. 2-2-2",
-        "bodyHtml": "<strong>1-2-1</strong> gives every seat its own aisle \u2014 no climbing over a neighbour. The standard to want on long-haul. <strong>2-2-2</strong> (or 2-3-2) sets seats side by side, so the window passenger steps over you. Same badge. Different night."
+        "bodyHtml": "<strong>1-2-1</strong> gives every seat its own aisle: no climbing over a neighbour. The standard to want on long-haul. <strong>2-2-2</strong> (or 2-3-2) sets seats side by side, so the window passenger steps over you. Same badge. Different night."
       },
       {
         "term": "The bed",
         "heading": "Fully flat vs. angled",
-        "bodyHtml": "A <strong>fully flat</strong> (lie-flat) bed goes horizontal \u2014 you actually sleep. An <strong>angled flat</strong> seat lies at a slope, so you slide toward the footwell all night. Older and short-haul cabins are often angled, or just \"cradle\" recliners. On an overnight, this is the line that matters."
+        "bodyHtml": "A <strong>fully flat</strong> (lie-flat) bed goes horizontal: you actually sleep. An <strong>angled flat</strong> seat lies at a slope, so you slide toward the footwell all night. Older and short-haul cabins are often angled, or just \"cradle\" recliners. On an overnight, this is the line that matters."
       },
       {
         "term": "Privacy",
         "heading": "Suite vs. open seat",
-        "bodyHtml": "A <strong>suite</strong> adds a sliding door and high walls \u2014 your own small room. An <strong>open seat</strong> has shells or dividers, but no door. Newer business suites, doors and all, now rival what first once offered. Older open cabins feel far more public."
+        "bodyHtml": "A <strong>suite</strong> adds a sliding door and high walls: your own small room. An <strong>open seat</strong> has shells or dividers, but no door. Newer business suites, doors and all, now rival what first once offered. Older open cabins feel far more public."
       },
       {
         "term": "First class",
         "heading": "True suite vs. token first",
-        "bodyHtml": "A <strong>true first suite</strong> is a separate room \u2014 door, wider seat, distinct bed, sometimes a shower or bar. A <strong>token first</strong> is a slightly bigger business seat behind a curtain. Only the first justifies the fare. We tell you which you are being sold."
+        "bodyHtml": "A <strong>true first suite</strong> is a separate room: door, wider seat, distinct bed, sometimes a shower or bar. A <strong>token first</strong> is a slightly bigger business seat behind a curtain. Only the first justifies the fare. We tell you which you are being sold."
       },
       {
         "term": "Premium economy",
         "heading": "Not a small business",
-        "bodyHtml": "<strong>Premium economy</strong> is a wider seat with more recline and better service \u2014 but it does not lie flat. Good value on some routes; never business. We tell you where it fits, and where it does not."
+        "bodyHtml": "<strong>Premium economy</strong> is a wider seat with more recline and better service, but it does not lie flat. Good value on some routes; never business. We tell you where it fits, and where it does not."
       },
       {
         "term": "Fleet variation",
         "heading": "Same airline, different seat",
-        "bodyHtml": "One carrier can fly an old angled cabin and a new 1-2-1 suite under the same flight number on different days. The seat map and aircraft type \u2014 not the brand \u2014 tell the truth. This is where your advisor earns their place."
+        "bodyHtml": "One carrier can fly an old angled cabin and a new 1-2-1 suite under the same flight number on different days. The seat map and aircraft type, not the brand: tell the truth. This is where your advisor earns their place."
       }
     ]
   },
@@ -71,10 +71,10 @@
     "heading": "Four checks before you book.",
     "lede": "These settle what a cabin actually is. We run them on every booking, and hold out for the better aircraft when it matters.",
     "items": [
-      "<strong>The aircraft type</strong> \u2014 which wide-body is scheduled. The seat lives with the airframe, not the route.",
-      "<strong>The seat layout</strong> \u2014 1-2-1 with direct aisle access, or something denser.",
-      "<strong>Flat or angled</strong> \u2014 a true lie-flat bed, not a slope you fight until dawn.",
-      "<strong>Sub-fleet swaps</strong> \u2014 whether the airline might switch to an older cabin, and what we do if it does."
+      "<strong>The aircraft type</strong>which wide-body is scheduled. The seat lives with the airframe, not the route.",
+      "<strong>The seat layout</strong>1-2-1 with direct aisle access, or something denser.",
+      "<strong>Flat or angled</strong>a true lie-flat bed, not a slope you fight until dawn.",
+      "<strong>Sub-fleet swaps</strong>whether the airline might switch to an older cabin, and what we do if it does."
     ],
     "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fsingapore-city.jpg&w=2048&q=80",
     "imageAlt": "Modern flat-bed business class suite"
@@ -95,7 +95,7 @@
         "bodyHtml": "<strong>The aircraft swap.</strong> Airlines change equipment, and a new 1-2-1 can become an old 2-2-2 overnight. We watch for it and re-seat or rebook you if the cabin slips."
       },
       {
-        "bodyHtml": "<strong>Short-haul business on a long flight.</strong> On some routes a domestic recliner is sold as \"business\" \u2014 fine for two hours, punishing for ten. We catch it before you book."
+        "bodyHtml": "<strong>Short-haul business on a long flight.</strong> On some routes a domestic recliner is sold as \"business\"fine for two hours, punishing for ten. We catch it before you book."
       },
       {
         "bodyHtml": "<strong>A token first.</strong> First-class money for a slightly wider seat with the same bed. We weigh it against the best business, and tell you the truth."
@@ -109,7 +109,7 @@
   "cta": {
     "eyebrow": "Your move",
     "heading": "Let us read the cabin for you.",
-    "lede": "Tell us the route and your dates. We confirm the aircraft, the layout and the bed \u2014 and hold out for the seat that is truly flat.",
+    "lede": "Tell us the route and your dates. We confirm the aircraft, the layout and the bed, and hold out for the seat that is truly flat.",
     "image": "/_vercel/image?url=%2Fimg%2Fh%2Fcabin-guide.jpg&w=2048&q=80",
     "buttons": [
       {

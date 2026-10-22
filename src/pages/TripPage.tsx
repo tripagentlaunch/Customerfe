@@ -29,7 +29,7 @@ export default function TripPage() {
         <div className="eyebrow">Coming soon</div>
         <h1>Build your trip</h1>
         <p>
-          The trip builder is on its way. Until then, plan it with <TaraAI /> — tell it the cities, the dates and what you
+          The trip builder is on its way. Until then, plan it with <TaraAI />: tell it the cities, the dates and what you
           have in mind, and your advisor builds the trip with you: flights, hotels and visas, all of it.
         </p>
         <div className="btn-row" style={{ justifyContent: "center", marginTop: 8 }}>

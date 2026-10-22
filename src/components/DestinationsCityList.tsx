@@ -18,7 +18,7 @@ export default function DestinationsCityList() {
         </div>
       )}
       {search.status === "ready" && <CityRegions search={search} />}
-      {search.status === "error" && <p className="lede">The city list couldn't load just now — please refresh.</p>}
+      {search.status === "error" && <p className="lede">The city list couldn't load just now: please refresh.</p>}
     </>
   );
 }

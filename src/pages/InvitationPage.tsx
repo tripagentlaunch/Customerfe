@@ -192,7 +192,7 @@ export default function InvitationPage() {
     e.preventDefault();
     const code = fullCode();
     if (code.length < SEG_COUNT * 4) {
-      setAnn({ text: "Your key has 8 characters — a few are still missing.", kind: "hint" });
+      setAnn({ text: "Your key has 8 characters: a few are still missing.", kind: "hint" });
       const firstIncomplete = segRefs.current.find((el) => el && el.value.length < 4);
       (firstIncomplete ?? segRefs.current[0])?.focus();
       return;
@@ -430,7 +430,7 @@ export default function InvitationPage() {
               )}
               {reqDeferred && (
                 <div className={styles.deferredNote} role="status" aria-live="polite" tabIndex={-1} ref={reqThanksRef}>
-                  Not quite live yet — request submission is on its way. For now, please write to your advisor directly
+                  Not quite live yet: request submission is on its way. For now, please write to your advisor directly
                   and they'll pick it up right away.
                   <div style={{ marginTop: 14 }}>
                     <a className="btn btn-gold" href={EMAIL_CTA_HREF}>

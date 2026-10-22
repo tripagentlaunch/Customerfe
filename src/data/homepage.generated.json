@@ -1,7 +1,7 @@
 {
   "seo": {
-    "title": "TripAgent \u2014 A private travel maison",
-    "description": "A private travel maison, by invitation. One person who knows you plans, books and looks after every journey \u2014 flights, hotels and visas \u2014 until you are home."
+    "title": "TripAgent: A private travel maison",
+    "description": "A private travel maison, by invitation. One person who knows you plans, books and looks after every journey: flights, hotels and visas, until you are home."
   },
   "hero": {
     "slides": [
@@ -9,7 +9,7 @@
         "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fjaipur.jpg&w=2560&q=80",
         "eyebrow": "A private travel maison \u00b7 by invitation",
         "headingHtml": "Someone who<br/>travels <span class=\"it\">with</span> you.",
-        "lede": "One person who knows you, and knows travel. They plan it, book it and stay with it \u2014 flights, hotels, visas \u2014 until you are home.",
+        "lede": "One person who knows you, and knows travel. They plan it, book it and stay with it: flights, hotels, visas, until you are home.",
         "ctaLinks": [
           {
             "label": "Browse Destinations",
@@ -35,7 +35,7 @@
         "image": "/_vercel/image?url=%2Fimg%2Fh%2Fflights.jpg&w=2560&q=80",
         "eyebrow": "Flights \u00b7 business & first",
         "headingHtml": "The front of the<br/>plane, <span class=\"it\">every</span> time.",
-        "lede": "Your advisor holds the seat, settles the fare, arranges the upgrade \u2014 quietly. The long flight becomes the part you look forward to.",
+        "lede": "Your advisor holds the seat, settles the fare, arranges the upgrade: quietly. The long flight becomes the part you look forward to.",
         "ctaLinks": [
           {
             "label": "Browse Destinations",
@@ -61,7 +61,7 @@
         "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fudaipur.jpg&w=2560&q=80",
         "eyebrow": "The stay \u00b7 hotels & suites",
         "headingHtml": "A room that's<br/>expecting <span class=\"it\">you</span>.",
-        "lede": "The suite you prefer, the floor you ask for, the welcome already arranged \u2014 booked by someone the house knows by name.",
+        "lede": "The suite you prefer, the floor you ask for, the welcome already arranged: booked by someone the house knows by name.",
         "ctaLinks": [
           {
             "label": "Browse Destinations",
@@ -87,7 +87,7 @@
         "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fagra.jpg&w=2560&q=80",
         "eyebrow": "The whole journey \u00b7 end to end",
         "headingHtml": "Looked after, until<br/>you are <span class=\"it\">home</span>.",
-        "lede": "From the first idea to the last mile \u2014 visas, changes, the 2 a.m. call from abroad. One advisor, the whole way.",
+        "lede": "From the first idea to the last mile: visas, changes, the 2 a.m. call from abroad. One advisor, the whole way.",
         "ctaLinks": [
           {
             "label": "Browse Destinations",
@@ -114,8 +114,8 @@
   "discover": {
     "eyebrow": "Begin here",
     "headingHtml": "Where shall we <span class=\"it\">take you?</span>",
-    "sub": "Search a place, a hotel, a city \u2014 or let us read your mood and point the way. Everything you would open twenty tabs for, in one quiet place.",
-    "searchLabelHtml": "Search a city, a hotel, a visa <em>\u2014 or \u201choneymoon\u201d, \u201csafari\u201d</em>",
+    "sub": "Search a place, a hotel, a city, or let us read your mood and point the way. Everything you would open twenty tabs for, in one quiet place.",
+    "searchLabelHtml": "Search a city, a hotel, a visa <em>or \u201choneymoon\u201d, \u201csafari\u201d</em>",
     "recommenderLead": "Not sure where?",
     "recommenderRestHtml": "Answer five questions",
     "recommenderHref": "where-to-go.html",
@@ -125,19 +125,19 @@
   "decide": {
     "eyebrow": "Or explore another way",
     "headingHtml": "Three more ways to <span class=\"it\">decide.</span>",
-    "lede": "Start from a feeling, answer five questions, or let the calendar choose the moment \u2014 whichever is how your mind is working today.",
+    "lede": "Start from a feeling, answer five questions, or let the calendar choose the moment: whichever is how your mind is working today.",
     "cards": [
       {
         "kicker": "Browse",
         "heading": "By the trip you want",
-        "body": "Beaches, honeymoons, safaris, wine country \u2014 start from a feeling, not a map.",
+        "body": "Beaches, honeymoons, safaris, wine country: start from a feeling, not a map.",
         "goLabel": "Browse collections",
         "href": "collections.html"
       },
       {
         "kicker": "Match",
         "heading": "Five questions, one answer",
-        "body": "Tell us when you are free, who is travelling and the mood \u2014 we will show you where.",
+        "body": "Tell us when you are free, who is travelling and the mood: we will show you where.",
         "goLabel": "Answer five questions",
         "href": "where-to-go.html"
       },
@@ -152,8 +152,8 @@
   },
   "planner": {
     "eyebrow": "Plan by your dates",
-    "headingHtml": "When are you free? <span class=\"em\">We will show you where \u2014 and where to stay.</span>",
-    "lede": "Choose a month. We show the few places at their best then, with the rooms we would hold \u2014 the start of a conversation with your advisor.",
+    "headingHtml": "When are you free? <span class=\"em\">We will show you where, and where to stay.</span>",
+    "lede": "Choose a month. We show the few places at their best then, with the rooms we would hold: the start of a conversation with your advisor.",
     "months": [
       "January",
       "February",
@@ -1387,7 +1387,7 @@
   "problem": {
     "eyebrow": "The world today",
     "note": "A thousand tabs. Ten reviews. An assistant that forgets your name by morning.",
-    "statementHtml": "We made the whole world bookable \u2014 and somehow, <span class=\"em\">lonelier</span>.",
+    "statementHtml": "We made the whole world bookable, and somehow, <span class=\"em\">lonelier</span>.",
     "lede": "When something breaks at 2 a.m. abroad, no one knows you. The more there is to book, the less anyone looks after you."
   },
   "way": {
@@ -1399,7 +1399,7 @@
       {
         "kicker": "Yours",
         "heading": "A real person",
-        "body": "One named advisor who knows you \u2014 not a queue, not a ticket number."
+        "body": "One named advisor who knows you, not a queue, not a ticket number."
       },
       {
         "kicker": "In seconds",
@@ -1409,7 +1409,7 @@
       {
         "kicker": "Always",
         "heading": "On WhatsApp",
-        "body": "One message away, at every hour \u2014 wherever you happen to be."
+        "body": "One message away, at every hour: wherever you happen to be."
       }
     ],
     "ctaLabel": "How it works",
@@ -1418,7 +1418,7 @@
   "services": {
     "eyebrow": "What we handle",
     "headingHtml": "You bring the <span class=\"it\">why</span>. We handle the <span class=\"it\">how</span>.",
-    "lede": "Three things, done completely \u2014 so all you carry is anticipation.",
+    "lede": "Three things, done completely, so all you carry is anticipation.",
     "allLabel": "All we handle",
     "allHref": "services.html",
     "cards": [
@@ -1426,7 +1426,7 @@
         "image": "/_vercel/image?url=%2Fimg%2Fh%2Fflights.jpg&w=2048&q=80",
         "number": "01",
         "heading": "Flights",
-        "body": "Global fares in every cabin \u2014 with business and first class our specialty. Held, priced and ticketed, with the seat that suits you.",
+        "body": "Global fares in every cabin: with business and first class our specialty. Held, priced and ticketed, with the seat that suits you.",
         "ctaLabel": "Explore flights",
         "ctaHref": "flights.html"
       },
@@ -1434,7 +1434,7 @@
         "image": "/_vercel/image?url=%2Fimg%2Fh%2Fhotels-new.jpg&w=2048&q=80",
         "number": "02",
         "heading": "Hotels",
-        "body": "From the right room to the whole villa \u2014 booked at rates and with touches you won't find yourself.",
+        "body": "From the right room to the whole villa: booked at rates and with touches you won't find yourself.",
         "ctaLabel": "Explore hotels",
         "ctaHref": "hotels.html"
       },
@@ -1442,7 +1442,7 @@
         "image": "/_vercel/image?url=%2Fimg%2Fh%2Fvisas.jpg&w=2048&q=80",
         "number": "03",
         "heading": "Visas",
-        "body": "The paperwork no one enjoys \u2014 checked, filed and tracked, so the only thing you pack is your bag.",
+        "body": "The paperwork no one enjoys: checked, filed and tracked, so the only thing you pack is your bag.",
         "ctaLabel": "Explore visas",
         "ctaHref": "visas.html"
       }
@@ -1486,7 +1486,7 @@
   "shift": {
     "eyebrow": "The shift",
     "headingHtml": "India's most discerning travellers are coming into their own.",
-    "lede": "Not a trend \u2014 a measured shift, in the data.",
+    "lede": "Not a trend: a measured shift, in the data.",
     "items": [
       {
         "value": "89%",
@@ -1495,7 +1495,7 @@
       },
       {
         "value": "30.9M",
-        "labelHtml": "Indian international departures in 2024 \u2014 up ~11% on the year",
+        "labelHtml": "Indian international departures in 2024: up ~11% on the year",
         "source": "Skift \u00b7 2024"
       },
       {
@@ -1515,7 +1515,7 @@
       {
         "number": "1",
         "heading": "Tell us, in a line",
-        "body": "Message TripAgent on WhatsApp. The AI replies in seconds \u2014 already knowing how you travel."
+        "body": "Message TripAgent on WhatsApp. The AI replies in seconds: already knowing how you travel."
       },
       {
         "number": "2",
@@ -1550,19 +1550,19 @@
       "maldives": [
         {
           "who": "me",
-          "t": "Our anniversary's the first week of December. Somewhere warm, just the two of us \u2014 over the water."
+          "t": "Our anniversary's the first week of December. Somewhere warm, just the two of us: over the water."
         },
         {
           "who": "ai",
-          "t": "The Maldives is at its best then \u2014 dry, the lagoon at its clearest. An over-water villa with a private pool, and the seaplane timed for golden hour?"
+          "t": "The Maldives is at its best then: dry, the lagoon at its clearest. An over-water villa with a private pool, and the seaplane timed for golden hour?"
         },
         {
           "who": "ai",
-          "t": "I can hold business class from Mumbai at a good fare. Visa on arrival \u2014 nothing for you to file."
+          "t": "I can hold business class from Mumbai at a good fare. Visa on arrival: nothing for you to file."
         },
         {
           "who": "human",
-          "t": "It's Aarav. I've held villas at Soneva and Cheval Blanc \u2014 photos tonight. And the corner table you loved last year is noted."
+          "t": "It's Aarav. I've held villas at Soneva and Cheval Blanc: photos tonight. And the corner table you loved last year is noted."
         },
         {
           "who": "me",
@@ -1580,7 +1580,7 @@
         },
         {
           "who": "ai",
-          "t": "Bloom peaks the last week of March and shifts by the day \u2014 we hold flexible dates and watch the forecast. ANA business non-stop from Delhi is the cabin to be in."
+          "t": "Bloom peaks the last week of March and shifts by the day: we hold flexible dates and watch the forecast. ANA business non-stop from Delhi is the cabin to be in."
         },
         {
           "who": "human",
@@ -1588,7 +1588,7 @@
         },
         {
           "who": "me",
-          "t": "Yes \u2014 please."
+          "t": "Yes: please."
         },
         {
           "who": "human",
@@ -1602,7 +1602,7 @@
         },
         {
           "who": "ai",
-          "t": "Held a flat-bed on the non-stop \u2014 the one that's genuinely flat. A private terminal at departure, if you'd like to skip the hall."
+          "t": "Held a flat-bed on the non-stop: the one that's genuinely flat. A private terminal at departure, if you'd like to skip the hall."
         },
         {
           "who": "human",
@@ -1670,12 +1670,12 @@
     "amountHtml": "By invitation",
     "free": "A single membership. Nothing held back.",
     "included": [
-      "<b>Your own named advisor</b> \u2014 a real person who knows how you travel.",
+      "<b>Your own named advisor</b>a real person who knows how you travel.",
       "<b>AI concierge on WhatsApp</b>, 24/7, in seconds.",
       "<b>Flights, hotels &amp; visas</b> planned, booked and handled end to end.",
-      "<b>Pay with points or card</b> \u2014 in a single, transparent transaction.",
-      "<b>On-trip care</b> \u2014 disruptions fixed before you wake.",
-      "<b>We stay after you land</b> \u2014 remembered, and ready for the next journey."
+      "<b>Pay with points or card</b>in a single, transparent transaction.",
+      "<b>On-trip care</b>disruptions fixed before you wake.",
+      "<b>We stay after you land</b>remembered, and ready for the next journey."
     ],
     "ctaPrimary": {
       "label": "Enter your invitation",
@@ -1756,20 +1756,20 @@
       {
         "label": "Example \u00b7 Maldives honeymoon \u00b7 March",
         "title": "A cancelled flight home, rebooked before the lounge closed.",
-        "body": "The return leg is cancelled overnight. Your advisor has you on the next sensible flight in the same cabin, with the transfer moved to match \u2014 before you would have reached the airline\u2019s queue."
+        "body": "The return leg is cancelled overnight. Your advisor has you on the next sensible flight in the same cabin, with the transfer moved to match: before you would have reached the airline\u2019s queue."
       },
       {
         "label": "Example \u00b7 Japan, family of four \u00b7 April",
         "title": "One message, and the whole trip comes together.",
-        "body": "Flights for four, connecting rooms in Kyoto and Tokyo, and visas filed in parallel \u2014 from a single message to an itinerary you only have to approve."
+        "body": "Flights for four, connecting rooms in Kyoto and Tokyo, and visas filed in parallel: from a single message to an itinerary you only have to approve."
       },
       {
         "label": "Example \u00b7 Anniversary in Udaipur \u00b7 November",
         "title": "The anniversary, remembered.",
-        "body": "Your advisor already knows the date and the wine you like, so the lake-view table and the bottle are waiting \u2014 without you having to ask."
+        "body": "Your advisor already knows the date and the wine you like, so the lake-view table and the bottle are waiting: without you having to ask."
       }
     ],
-    "footnote": "Illustrative examples of what your advisor handles \u2014 not member reviews."
+    "footnote": "Illustrative examples of what your advisor handles, not member reviews."
   },
   "finalCta": {
     "headingHtml": "Until you are <span class=\"em\">home</span>.",

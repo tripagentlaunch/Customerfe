@@ -1,12 +1,12 @@
 {
   "seo": {
-    "title": "Where to go, when — TripAgent",
-    "description": "A month-by-month guide to where it's the right time to be — read against your own calendar: Diwali, Christmas and New Year, the May–June school break, and the long weekends. Seasonal guidance, with the flights and visas to match."
+    "title": "Where to go, when | TripAgent",
+    "description": "A month-by-month guide to where it's the right time to be: read against your own calendar: Diwali, Christmas and New Year, the May–June school break, and the long weekends. Seasonal guidance, with the flights and visas to match."
   },
   "hero": {
     "eyebrow": "The calendar · by invitation",
     "headingHtml": "Where to go, <span class=\"it\">when</span>.",
-    "lede": "Start with the month you can travel. We'll tell you where it's at its best — set against your own holidays and long weekends.",
+    "lede": "Start with the month you can travel. We'll tell you where it's at its best: set against your own holidays and long weekends.",
     "image": "/_vercel/image?url=%2Fimg%2Fh%2Fwhen-to-go.jpg&w=2560&q=80",
     "ctaLabel": "Plan around a date",
     "ctaHref": "enquire.html",
@@ -15,9 +15,9 @@
   },
   "intro": {
     "eyebrow": "The idea",
-    "note": "Most people pick the place, then fight the season. We start the other way round — from the month you can go.",
+    "note": "Most people pick the place, then fight the season. We start the other way round: from the month you can go.",
     "statement": "Timing is the whole trip.",
-    "ledeHtml": "The same island is a postcard in May and a crush in August. The same city is golden in October and shuttered in February. Read against your own calendar — Diwali, the winter break, the long May–June school holidays, the scattered long weekends — the question is rarely <em>where</em>. It is <em>when</em>, and what's at its best then. Here is the year, month by month, with the flights and the visas each one asks for."
+    "ledeHtml": "The same island is a postcard in May and a crush in August. The same city is golden in October and shuttered in February. Read against your own calendar: Diwali, the winter break, the long May–June school holidays, the scattered long weekends, the question is rarely <em>where</em>. It is <em>when</em>, and what's at its best then. Here is the year, month by month, with the flights and the visas each one asks for."
   },
   "months": {
     "eyebrow": "The calendar",
@@ -29,95 +29,95 @@
         "image": "/_vercel/image?url=%2Fimg%2Fmcal%2F01.jpg&w=1024&q=80",
         "no": "Month 01",
         "name": "January",
-        "body": "Deep-winter sun and the Southern summer — Maldives, the Cape, New Zealand."
+        "body": "Deep-winter sun and the Southern summer: Maldives, the Cape, New Zealand."
       },
       {
         "href": "go-in-february.html",
         "image": "/_vercel/image?url=%2Fimg%2Fmcal%2F02.jpg&w=1024&q=80",
         "no": "Month 02",
         "name": "February",
-        "body": "Dry-season clarity — Sri Lanka, Thailand, Egypt, and the desert at its kindest."
+        "body": "Dry-season clarity: Sri Lanka, Thailand, Egypt, and the desert at its kindest."
       },
       {
         "href": "go-in-march.html",
         "image": "/_vercel/image?url=%2Fimg%2Fmcal%2F03.jpg&w=1024&q=80",
         "no": "Month 03",
         "name": "March",
-        "body": "Spring opens — Japan's blossom, Jordan and Oman before the heat, Europe waking."
+        "body": "Spring opens: Japan's blossom, Jordan and Oman before the heat, Europe waking."
       },
       {
         "href": "go-in-april.html",
         "image": "/_vercel/image?url=%2Fimg%2Fmcal%2F04.jpg&w=1024&q=80",
         "no": "Month 04",
         "name": "April",
-        "body": "The shoulder sweet spot — Spain, Portugal, Türkiye, and the last clear desert days."
+        "body": "The shoulder sweet spot: Spain, Portugal, Türkiye, and the last clear desert days."
       },
       {
         "href": "go-in-may.html",
         "image": "/_vercel/image?url=%2Fimg%2Fmcal%2F05.jpg&w=1024&q=80",
         "no": "Month 05",
         "name": "May",
-        "body": "School's out — the Mediterranean before peak, Iceland's long light, Bali dry."
+        "body": "School's out: the Mediterranean before peak, Iceland's long light, Bali dry."
       },
       {
         "href": "go-in-june.html",
         "image": "/_vercel/image?url=%2Fimg%2Fmcal%2F06.jpg&w=1024&q=80",
         "no": "Month 06",
         "name": "June",
-        "body": "The summer break in full — Switzerland, Scandinavia, the white nights up north."
+        "body": "The summer break in full: Switzerland, Scandinavia, the white nights up north."
       },
       {
         "href": "go-in-july.html",
         "image": "/_vercel/image?url=%2Fimg%2Fmcal%2F07.jpg&w=1024&q=80",
         "no": "Month 07",
         "name": "July",
-        "body": "Monsoon at home, winter sun abroad — South Africa, the Alps in summer, Bali."
+        "body": "Monsoon at home, winter sun abroad: South Africa, the Alps in summer, Bali."
       },
       {
         "href": "go-in-august.html",
         "image": "/_vercel/image?url=%2Fimg%2Fmcal%2F08.jpg&w=1024&q=80",
         "no": "Month 08",
         "name": "August",
-        "body": "Independence-week escapes — East Africa's migration, the Nordics, the high Alps."
+        "body": "Independence-week escapes: East Africa's migration, the Nordics, the high Alps."
       },
       {
         "href": "go-in-september.html",
         "image": "/_vercel/image?url=%2Fimg%2Fmcal%2F09.jpg&w=1024&q=80",
         "no": "Month 09",
         "name": "September",
-        "body": "The connoisseur's month — Greece and Italy emptied, the warm sea still in."
+        "body": "The connoisseur's month: Greece and Italy emptied, the warm sea still in."
       },
       {
         "href": "go-in-october.html",
         "image": "/_vercel/image?url=%2Fimg%2Fmcal%2F10.jpg&w=1024&q=80",
         "no": "Month 10",
         "name": "October",
-        "body": "Diwali season — Japan's autumn, Jordan and Oman cooling, the islands re-opening."
+        "body": "Diwali season: Japan's autumn, Jordan and Oman cooling, the islands re-opening."
       },
       {
         "href": "go-in-november.html",
         "image": "/_vercel/image?url=%2Fimg%2Fmcal%2F11.jpg&w=1024&q=80",
         "no": "Month 11",
         "name": "November",
-        "body": "The dry season returns — the Maldives, Vietnam's centre, the Emirates outdoors."
+        "body": "The dry season returns: the Maldives, Vietnam's centre, the Emirates outdoors."
       },
       {
         "href": "go-in-december.html",
         "image": "/_vercel/image?url=%2Fimg%2Fmcal%2F12.jpg&w=1024&q=80",
         "no": "Month 12",
         "name": "December",
-        "body": "The winter break — alpine snow, the Southern summer, the Gulf at its best."
+        "body": "The winter break: alpine snow, the Southern summer, the Gulf at its best."
       }
     ]
   },
   "bestTime": {
     "eyebrow": "The year, at a glance",
     "heading": "When each place is at itsbest.",
-    "lede": "73 destinations against the twelve months, by region. A filled mark is the peak window; an open mark, a fine shoulder. Hover a place or a month — then tell us yours.",
+    "lede": "73 destinations against the twelve months, by region. A filled mark is the peak window; an open mark, a fine shoulder. Hover a place or a month, then tell us yours.",
     "legend": [
       "At its best",
       "A fine shoulder",
-      "Tap a destination for the detail — your advisor plans around your own dates."
+      "Tap a destination for the detail: your advisor plans around your own dates."
     ],
     "months": [
       "Jan",
@@ -538,17 +538,17 @@
       {
         "kicker": "Chase the sun",
         "heading": "When home turns grey",
-        "body": "Through the Indian winter, and again in the monsoon, the answer is somewhere warm and dry — the Maldives and Seychelles, the Southern-hemisphere summer of South Africa, Australia and New Zealand, the steady Gulf. We book the festive and New-Year peaks early. The best water villas and suites go first."
+        "body": "Through the Indian winter, and again in the monsoon, the answer is somewhere warm and dry: the Maldives and Seychelles, the Southern-hemisphere summer of South Africa, Australia and New Zealand, the steady Gulf. We book the festive and New-Year peaks early. The best water villas and suites go first."
       },
       {
         "kicker": "Chase the snow",
         "heading": "When you want winter",
-        "body": "December to March is the Alps, Hokkaido and the high north — Switzerland, France, Japan, the aurora latitudes. It overlaps the Christmas–New-Year break and the long weekends of the new year. That is exactly why the planning starts months ahead, not weeks."
+        "body": "December to March is the Alps, Hokkaido and the high north: Switzerland, France, Japan, the aurora latitudes. It overlaps the Christmas–New-Year break and the long weekends of the new year. That is exactly why the planning starts months ahead, not weeks."
       },
       {
         "kicker": "Chase the value",
         "heading": "The shoulder seasons",
-        "body": "The quiet art is the in-between — late April–June and September–October — when Europe and the Mediterranean are warm but emptied, fares ease, and the famous places feel like yours. The shoulder rewards anyone who can travel a week either side of the crowd. We plan for it."
+        "body": "The quiet art is the in-between: late April–June and September–October, when Europe and the Mediterranean are warm but emptied, fares ease, and the famous places feel like yours. The shoulder rewards anyone who can travel a week either side of the crowd. We plan for it."
       }
     ]
   },
@@ -559,11 +559,11 @@
     "items": [
       {
         "tag": "Oct–Nov · Diwali",
-        "body": "The festival of lights falls in the autumn — a natural break, and a peak. Demand on long-haul and the nearer escapes climbs sharply. We hold flights and stays well ahead, because the good fares are gone weeks before the dates."
+        "body": "The festival of lights falls in the autumn: a natural break, and a peak. Demand on long-haul and the nearer escapes climbs sharply. We hold flights and stays well ahead, because the good fares are gone weeks before the dates."
       },
       {
         "tag": "Dec–Jan · Winter break",
-        "body": "Christmas through New Year is the single busiest stretch of the travel year. Alpine snow, the Southern summer and the Gulf all peak together; this is the window to plan furthest in advance — six months is not too early."
+        "body": "Christmas through New Year is the single busiest stretch of the travel year. Alpine snow, the Southern summer and the Gulf all peak together; this is the window to plan furthest in advance: six months is not too early."
       },
       {
         "tag": "May–Jun · Summer holidays",
@@ -571,13 +571,13 @@
       },
       {
         "tag": "The long weekends",
-        "body": "Scattered through the year — Republic Day, Holi, the August cluster, and others — each is a chance at a short, nearer journey. They reward booking early and choosing places within a comfortable flight: the Gulf, Sri Lanka, Thailand, Singapore."
+        "body": "Scattered through the year: Republic Day, Holi, the August cluster, and others, each is a chance at a short, nearer journey. They reward booking early and choosing places within a comfortable flight: the Gulf, Sri Lanka, Thailand, Singapore."
       }
     ]
   },
   "sig": {
     "by": "The advantage of timing",
-    "pull": "Tell us when you can go. We'll tell you where it's at its best — and we'll have started early.",
+    "pull": "Tell us when you can go. We'll tell you where it's at its best, and we'll have started early.",
     "image": "/_vercel/image?url=%2Fimg%2Fh3%2Fwhen-to-go.jpg&w=2560&q=80"
   },
   "quiet": {
@@ -587,7 +587,7 @@
   "cta": {
     "eyebrow": "Your move",
     "heading": "Start from the month.",
-    "lede": "Tell us the dates you can travel, and who's coming. We'll come back with where it's the right time to be — the cabin and the visa already in hand.",
+    "lede": "Tell us the dates you can travel, and who's coming. We'll come back with where it's the right time to be: the cabin and the visa already in hand.",
     "buttons": [
       {
         "label": "Plan around a date →",

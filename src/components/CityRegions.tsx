@@ -73,7 +73,7 @@ export default function CityRegions({ search }: { search: CitySearch }) {
   }, [isMobile, search.filtered, firstLabel]);
 
   if (regions.length === 0) {
-    return <p className="lede">Nothing fits all of that — loosen a filter, or use Clear above.</p>;
+    return <p className="lede">Nothing fits all of that: loosen a filter, or use Clear above.</p>;
   }
   return (
     <>

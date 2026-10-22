@@ -1,6 +1,6 @@
 {
   "seo": {
-    "title": "Help & FAQ — TripAgent",
+    "title": "Help & FAQ | TripAgent",
     "description": "Answers on membership, payments, flights, hotels, visas and privacy. Or message your advisor."
   },
   "hero": {
@@ -47,7 +47,7 @@
       "items": [
         {
           "question": "What does membership cover, and what is paid per trip?",
-          "answerHtml": "Membership brings a named advisor, the AI concierge, and your flights, hotels and visas handled end to end. Travel itself — fares, rooms, government visa charges — is paid <b>per trip</b>, with taxes shown. More on <a href=\"/membership\">membership</a>.",
+          "answerHtml": "Membership brings a named advisor, the AI concierge, and your flights, hotels and visas handled end to end. Travel itself: fares, rooms, government visa charges, is paid <b>per trip</b>, with taxes shown. More on <a href=\"/membership\">membership</a>.",
           "open": true
         },
         {
@@ -79,12 +79,12 @@
         },
         {
           "question": "Are there hidden markups on what I book?",
-          "answerHtml": "No. You see the <span class=\"it\">sell price</span> with taxes shown. Any service fee is named and agreed before you confirm — never folded into a fare or room rate. The price is the price.",
+          "answerHtml": "No. You see the <span class=\"it\">sell price</span> with taxes shown. Any service fee is named and agreed before you confirm: never folded into a fare or room rate. The price is the price.",
           "open": false
         },
         {
           "question": "Is my payment secure?",
-          "answerHtml": "Yes. Payments run through <b>Razorpay</b> on PCI-compliant infrastructure. We never see or store your full card number — it is handled by the gateway and encrypted end to end.",
+          "answerHtml": "Yes. Payments run through <b>Razorpay</b> on PCI-compliant infrastructure. We never see or store your full card number: it is handled by the gateway and encrypted end to end.",
           "open": false
         },
         {
@@ -106,7 +106,7 @@
       "items": [
         {
           "question": "Do you only book business and first class?",
-          "answerHtml": "The front of the aircraft is our specialty, but we book every cabin well — economy and premium economy included. We'll also say honestly when a premium cabin is worth it and when it isn't. More on <a href=\"/flights\">flights</a>.",
+          "answerHtml": "The front of the aircraft is our specialty, but we book every cabin well: economy and premium economy included. We'll also say honestly when a premium cabin is worth it and when it isn't. More on <a href=\"/flights\">flights</a>.",
           "open": false
         },
         {
@@ -116,7 +116,7 @@
         },
         {
           "question": "What happens if my flight is cancelled at 2 a.m.?",
-          "answerHtml": "This is what we're built for. Because we already hold your full itinerary, your advisor rebooks you — often before the airline's queue has moved — in the same cabin on the next sensible flight, and moves your hotels and transfers to match.",
+          "answerHtml": "This is what we're built for. Because we already hold your full itinerary, your advisor rebooks you: often before the airline's queue has moved, in the same cabin on the next sensible flight, and moves your hotels and transfers to match.",
           "open": false
         },
         {
@@ -133,22 +133,22 @@
       "items": [
         {
           "question": "What kind of stays do you arrange?",
-          "answerHtml": "From the right room in a city hotel to a villa for a family gathering — and the small houses and lodges that never appear on the large sites. We match the place to the moment. More on <a href=\"/hotels\">hotels</a>.",
+          "answerHtml": "From the right room in a city hotel to a villa for a family gathering, and the small houses and lodges that never appear on the large sites. We match the place to the moment. More on <a href=\"/hotels\">hotels</a>.",
           "open": false
         },
         {
           "question": "Do members get better rates or perks?",
-          "answerHtml": "Often, yes. Through preferred-partner programmes we secure upgrades, breakfast, resort credits and early or late check-out that aren't on the public rate — and we'll say plainly when a member rate genuinely beats what you found.",
+          "answerHtml": "Often, yes. Through preferred-partner programmes we secure upgrades, breakfast, resort credits and early or late check-out that aren't on the public rate, and we'll say plainly when a member rate genuinely beats what you found.",
           "open": false
         },
         {
           "question": "Can you arrange the details on arrival?",
-          "answerHtml": "Yes. A note on your preferences travels with the booking — the high floor, the quiet side, the anniversary, the dietary need — so the room is ready for <span class=\"it\">you</span>.",
+          "answerHtml": "Yes. A note on your preferences travels with the booking: the high floor, the quiet side, the anniversary, the dietary need, so the room is ready for <span class=\"it\">you</span>.",
           "open": false
         },
         {
           "question": "What if a hotel disappoints once I'm there?",
-          "answerHtml": "You message us. A room that isn't right is your advisor's problem, not yours — we'll press the hotel, move you if need be, and make it right while you carry on.",
+          "answerHtml": "You message us. A room that isn't right is your advisor's problem, not yours: we'll press the hotel, move you if need be, and make it right while you carry on.",
           "open": false
         }
       ]
@@ -160,22 +160,22 @@
       "items": [
         {
           "question": "What does the visa service actually do?",
-          "answerHtml": "We check what you need, prepare and file the application, and track it to the decision — so you only pack a bag. Government visa charges are paid per application. More on <a href=\"/visas\">visas</a>.",
+          "answerHtml": "We check what you need, prepare and file the application, and track it to the decision, so you only pack a bag. Government visa charges are paid per application. More on <a href=\"/visas\">visas</a>.",
           "open": false
         },
         {
           "question": "Can you help if a visa is at risk of refusal?",
-          "answerHtml": "This is where experience earns its place. We know which documents matter and how each consulate reads an application — and we'll tell you honestly when timing or paperwork needs to change before we file.",
+          "answerHtml": "This is where experience earns its place. We know which documents matter and how each consulate reads an application, and we'll tell you honestly when timing or paperwork needs to change before we file.",
           "open": false
         },
         {
           "question": "How far ahead should I start?",
-          "answerHtml": "As early as you can — processing times vary widely by country and season, and some require biometrics in person. Tell us the trip and we'll work back from your dates.",
+          "answerHtml": "As early as you can: processing times vary widely by country and season, and some require biometrics in person. Tell us the trip and we'll work back from your dates.",
           "open": false
         },
         {
           "question": "Do you handle visas alongside the flights and hotels?",
-          "answerHtml": "Yes — that's the point. Visa, flights and rooms are sequenced as one trip, so the dates line up and nothing is booked that a visa timeline can't support.",
+          "answerHtml": "Yes: that's the point. Visa, flights and rooms are sequenced as one trip, so the dates line up and nothing is booked that a visa timeline can't support.",
           "open": false
         }
       ]
@@ -187,7 +187,7 @@
       "items": [
         {
           "question": "What information do you hold about me?",
-          "answerHtml": "Only what's needed to arrange your travel — passport details, contact details, travel preferences and the payment information a booking requires. Nothing for its own sake.",
+          "answerHtml": "Only what's needed to arrange your travel: passport details, contact details, travel preferences and the payment information a booking requires. Nothing for its own sake.",
           "open": false
         },
         {
@@ -229,7 +229,7 @@
         },
         {
           "question": "I still have a question that isn't here.",
-          "answerHtml": "Then ask it. The fastest answer is your advisor — message us and a person replies. Or write to <a href=\"mailto:invite@tripagent.vip\">invite@tripagent.vip</a> or visit <a href=\"/contact\">contact</a>.",
+          "answerHtml": "Then ask it. The fastest answer is your advisor: message us and a person replies. Or write to <a href=\"mailto:invite@tripagent.vip\">invite@tripagent.vip</a> or visit <a href=\"/contact\">contact</a>.",
           "open": false
         }
       ]

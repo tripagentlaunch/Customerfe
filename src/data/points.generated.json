@@ -1,6 +1,6 @@
 {
   "seo": {
-    "title": "Points & payments — TripAgent",
+    "title": "Points & payments | TripAgent",
     "description": "Your bank points and your card, in one clear transaction. Sell prices only. No hidden markups. The fee shown before you confirm."
   },
   "hero": {
@@ -19,7 +19,7 @@
       {
         "n": "1",
         "heading": "Tell us your cards & programmes",
-        "body": "Once. We note your cards and programmes — bank, airline, hotel — and keep them on file for every trip."
+        "body": "Once. We note your cards and programmes: bank, airline, hotel, and keep them on file for every trip."
       },
       {
         "n": "2",
@@ -29,7 +29,7 @@
       {
         "n": "3",
         "heading": "Pay points + card, one transaction",
-        "body": "Settle your split in one clear checkout — points for one part, card for the rest. Taxes and any fee shown, before you confirm."
+        "body": "Settle your split in one clear checkout: points for one part, card for the rest. Taxes and any fee shown, before you confirm."
       },
       {
         "n": "4",
@@ -81,7 +81,7 @@
   "whatWorks": {
     "eyebrow": "What works",
     "heading": "The currencies we put to work.",
-    "lede": "The reward currencies Indian travellers actually hold — banks, airlines, hotels. Tell us yours; we tell you where each goes furthest.",
+    "lede": "The reward currencies Indian travellers actually hold: banks, airlines, hotels. Tell us yours; we tell you where each goes furthest.",
     "tiles": [
       {
         "heading": "Leading Indian bank reward programmes",
@@ -89,11 +89,11 @@
       },
       {
         "heading": "Major airline & hotel loyalty",
-        "body": "Frequent-flyer miles and hotel points, applied to fares, rooms and suites — including award space when it's better value."
+        "body": "Frequent-flyer miles and hotel points, applied to fares, rooms and suites: including award space when it's better value."
       },
       {
         "heading": "Transfer partners",
-        "body": "Where moving points between programmes is worth more, we map the route — so a balance in one place can pay in another."
+        "body": "Where moving points between programmes is worth more, we map the route, so a balance in one place can pay in another."
       }
     ],
     "note": "Programmes and eligibility vary, and are confirmed for your cards and bookings. Categories shown are indicative, not a list of partnerships."
@@ -103,7 +103,7 @@
     "headingHtml": "What you're quoted is what you <span class=\"it\">pay</span>.",
     "columns": [
       [
-        "<b>Sell prices only.</b> The real price of the fare or room — never quietly inflated on its way to you.",
+        "<b>Sell prices only.</b> The real price of the fare or room: never quietly inflated on its way to you.",
         "<b>No hidden markups.</b> Taxes and airline charges itemised. Nothing buried in the total."
       ],
       [
@@ -118,7 +118,7 @@
     "items": [
       {
         "summary": "Can I mix points and cash?",
-        "bodyHtml": "Yes. Almost any booking can be part points, part card, in one checkout. You choose the split, or your advisor suggests one — all points, all card, or anything between.",
+        "bodyHtml": "Yes. Almost any booking can be part points, part card, in one checkout. You choose the split, or your advisor suggests one: all points, all card, or anything between.",
         "open": true
       },
       {
@@ -138,14 +138,14 @@
       },
       {
         "summary": "Is payment secure?",
-        "bodyHtml": "Yes. Payments run through Razorpay on PCI-DSS compliant infrastructure — a regulated Indian gateway. We never store your full card details.",
+        "bodyHtml": "Yes. Payments run through Razorpay on PCI-DSS compliant infrastructure: a regulated Indian gateway. We never store your full card details.",
         "open": false
       }
     ]
   },
   "cta": {
     "headingHtml": "Let your points <span class=\"em\">carry you further</span>.",
-    "lede": "Once you're a member, your advisor maps your programmes the same day — so your next trip is paid the smart way.",
+    "lede": "Once you're a member, your advisor maps your programmes the same day, so your next trip is paid the smart way.",
     "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fmale-maldives.jpg&w=2048&q=80",
     "buttons": [
       {

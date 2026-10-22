@@ -27,7 +27,7 @@ export default function DaysPage() {
       <div className={styles.dyPanel}>
         <div className="eyebrow">Your days, mapped</div>
         <h1>The day-planning map is on its way.</h1>
-        <p>In the meantime, tell your advisor the places you love and how you like to move — they'll lay out genuinely walkable days with you, and turn it into a booked trip.</p>
+        <p>In the meantime, tell your advisor the places you love and how you like to move: they'll lay out genuinely walkable days with you, and turn it into a booked trip.</p>
         <Link className="btn btn-gold" to="/enquire">
           Plan your days with <TaraAI />
         </Link>

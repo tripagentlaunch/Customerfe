@@ -1,12 +1,12 @@
 {
   "seo": {
-    "title": "The Journal — Where to go, where to stay · TripAgent",
-    "description": "A trend-led journal of destination and stay recommendations from TripAgent's advisors — the new openings and the places worth your year, with a quiet word on how we secure them."
+    "title": "The Journal: Where to go, where to stay · TripAgent",
+    "description": "A trend-led journal of destination and stay recommendations from TripAgent's advisors: the new openings and the places worth your year, with a quiet word on how we secure them."
   },
   "magazine": {
     "kicker": "World of TripAgent",
     "heading": "The Journal",
-    "lede": "Where to go and where to stay, read against the year — the cabin, the suite, the visa, and the quiet art of arriving well.",
+    "lede": "Where to go and where to stay, read against the year: the cabin, the suite, the visa, and the quiet art of arriving well.",
     "tabs": [
       {
         "cat": "all",
@@ -38,7 +38,7 @@
       "image": "/_vercel/image?url=%2Fimg%2Fh%2Fjournal-the-art-of-arrival.jpg&w=1600&q=80",
       "kicker": "The Art of Travel",
       "heading": "The art of arrival.",
-      "body": "The right car, the right door, a room already prepared — what the first hour of a journey does to all the ones after it.",
+      "body": "The right car, the right door, a room already prepared: what the first hour of a journey does to all the ones after it.",
       "meta": "6 min read"
     },
     "cards": [
@@ -199,9 +199,9 @@
   "library": {
     "kicker": "The Library",
     "heading": "The reading room.",
-    "lede": "Everything worth reading before you go — read against the seasons, against the mood, and the quiet craft of travelling well. The essays above; the indexes below. When you're ready to plan, your advisor is one tap away.",
+    "lede": "Everything worth reading before you go: read against the seasons, against the mood, and the quiet craft of travelling well. The essays above; the indexes below. When you're ready to plan, your advisor is one tap away.",
     "season": {
-      "leadLabel": "When to go — tell us when, we'll tell you where →",
+      "leadLabel": "When to go: tell us when, we'll tell you where →",
       "leadHref": "when-to-go.html",
       "links": [
         {
@@ -255,7 +255,7 @@
       ]
     },
     "mood": {
-      "leadLabel": "The collections — every way to travel →",
+      "leadLabel": "The collections: every way to travel →",
       "leadHref": "collections.html",
       "links": [
         {
@@ -345,7 +345,7 @@
       "leadHref": "first-international-trip.html",
       "links": [
         {
-          "label": "Flight guides — routes from India",
+          "label": "Flight guides: routes from India",
           "href": "flight-guides.html"
         },
         {
@@ -357,11 +357,11 @@
           "href": "business-vs-first.html"
         },
         {
-          "label": "Stay guides — the maison groups",
+          "label": "Stay guides: the maison groups",
           "href": "stay-guides.html"
         },
         {
-          "label": "Visa guides — for the Indian passport",
+          "label": "Visa guides: for the Indian passport",
           "href": "visa-guides.html"
         },
         {

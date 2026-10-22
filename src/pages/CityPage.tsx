@@ -122,7 +122,7 @@ const TAG_MAX = 40;
 // meaningful half ("Established 1916"), or the whole when it already fits.
 function headlineTag(full: string): string {
   if (full.length <= TAG_MAX) return full;
-  const halves = full.split(/\s+[—–-]\s+/).map((h) => h.trim()).filter((h) => h.length >= 6);
+  const halves = full.split(/\s+[—–-]\s+|:\s+/).map((h) => h.trim()).filter((h) => h.length >= 6);
   const fits = halves.filter((h) => h.length <= TAG_MAX).sort((a, b) => a.length - b.length);
   return fits[0] ?? full;
 }
@@ -175,8 +175,9 @@ function CardTags({ tag, credentials }: { tag?: string | null; credentials: stri
 }
 
 function shortCredential(full: string): string {
-  const dashIdx = full.indexOf("—");
-  let short = dashIdx >= 0 ? full.slice(dashIdx + 1).trim() : full;
+  // "Publication: the list" (once "Publication — the list"): the part after the mark.
+  const m = full.match(/\s*(?:—|:\s)\s*/);
+  let short = m && m.index !== undefined ? full.slice(m.index + m[0].length).trim() : full;
   const commaIdx = short.indexOf(",");
   if (commaIdx > 0 && short.length > 40) short = short.slice(0, commaIdx).trim();
   return short;
@@ -1171,7 +1172,7 @@ export default function CityPage() {
             // route). This section is supposed to show PlanRouteMap; if it
             // can't, that should be obvious to whoever's wiring up data for
             // a new city, not something that quietly degrades.
-            <MapDataMissing reason="fewer than 2 plan days have a highlight with coordinates for this city — PlanRouteMap needs at least 2 (see CityDay in types/city.ts)." />
+            <MapDataMissing reason="fewer than 2 plan days have a highlight with coordinates for this city: PlanRouteMap needs at least 2 (see CityDay in types/city.ts)." />
           )
         ) : /* EventMap branch commented out — When-to-go reuses the first section's CityMap
         calendarInView ? (

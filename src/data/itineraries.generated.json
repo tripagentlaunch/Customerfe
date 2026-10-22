@@ -1,12 +1,12 @@
 {
   "seo": {
-    "title": "Sample journeys \u2014 TripAgent",
-    "description": "A few journeys we've shaped for travellers from India \u2014 the flight, the hotel, the visa. Business and first-class fares, suites secured, Schengen and beyond. Each one built for one couple, never templated."
+    "title": "Sample journeys | TripAgent",
+    "description": "A few journeys we've shaped for travellers from India: the flight, the hotel, the visa. Business and first-class fares, suites secured, Schengen and beyond. Each one built for one couple, never templated."
   },
   "hero": {
     "eyebrow": "Sample journeys",
     "headingHtml": "The flights, the hotel,<br/>the <span class=\"it\">visa</span>.",
-    "lede": "A few journeys we've shaped for travellers from India. We look after three things \u2014 the cabin, the suite, the visa. Read these for the feeling of how we work. They are not a menu.",
+    "lede": "A few journeys we've shaped for travellers from India. We look after three things: the cabin, the suite, the visa. Read these for the feeling of how we work. They are not a menu.",
     "image": "/_vercel/image?url=%2Fimg%2Fh%2Fitineraries.jpg&w=2560&q=80",
     "metaK": "Built from nothing",
     "metaT": "Built for one couple. Never for sale."
@@ -19,15 +19,15 @@
       "handles": [
         {
           "label": "Flights",
-          "html": "<b>Business class, Mumbai\u2013Mal\u00e9</b> \u2014 held at a partner fare, with the seats on the water side confirmed."
+          "html": "<b>Business class, Mumbai\u2013Mal\u00e9</b>held at a partner fare, with the seats on the water side confirmed."
         },
         {
           "label": "Hotel",
-          "html": "<b>An overwater villa with a private pool</b> \u2014 our rate, with the seaplane transfer and a late checkout included."
+          "html": "<b>An overwater villa with a private pool</b>our rate, with the seaplane transfer and a late checkout included."
         },
         {
           "label": "Visa",
-          "html": "<b>Maldives</b> \u2014 issued on arrival; we confirm your documents and check you in ahead."
+          "html": "<b>Maldives</b>issued on arrival; we confirm your documents and check you in ahead."
         }
       ],
       "noteLabel": "Your advisor's note",
@@ -44,15 +44,15 @@
       "handles": [
         {
           "label": "Flights",
-          "html": "<b>First class, Delhi\u2013Dubai</b> \u2014 held at a partner fare, with the real suite cabin confirmed, not just a wide seat."
+          "html": "<b>First class, Delhi\u2013Dubai</b>held at a partner fare, with the real suite cabin confirmed, not just a wide seat."
         },
         {
           "label": "Hotel",
-          "html": "<b>A suite at a Palm or Downtown address</b> \u2014 our rate, with the upgrade and lounge access secured."
+          "html": "<b>A suite at a Palm or Downtown address</b>our rate, with the upgrade and lounge access secured."
         },
         {
           "label": "Visa",
-          "html": "<b>UAE tourist visa</b> \u2014 prepared, filed and tracked; the approval in hand before you leave."
+          "html": "<b>UAE tourist visa</b>prepared, filed and tracked; the approval in hand before you leave."
         }
       ],
       "noteLabel": "Your advisor's note",
@@ -69,15 +69,15 @@
       "handles": [
         {
           "label": "Flights",
-          "html": "<b>Business class, Mumbai\u2013Zurich</b> \u2014 held at a partner fare, with the upgrade confirmed and the real lie-flat, not an angled seat."
+          "html": "<b>Business class, Mumbai\u2013Zurich</b>held at a partner fare, with the upgrade confirmed and the real lie-flat, not an angled seat."
         },
         {
           "label": "Hotel",
-          "html": "<b>An alpine suite at a grand hotel</b> \u2014 our rate, with the mountain view and late checkout secured."
+          "html": "<b>An alpine suite at a grand hotel</b>our rate, with the mountain view and late checkout secured."
         },
         {
           "label": "Visa",
-          "html": "<b>Schengen (Switzerland)</b> \u2014 prepared, filed, tracked, with the appointment held for you."
+          "html": "<b>Schengen (Switzerland)</b>prepared, filed, tracked, with the appointment held for you."
         }
       ],
       "noteLabel": "Your advisor's note",
@@ -94,15 +94,15 @@
       "handles": [
         {
           "label": "Flights",
-          "html": "<b>First class, Delhi\u2013Paris</b> \u2014 held at a partner fare, with the upgrade confirmed and the lie-flat suite on the way out."
+          "html": "<b>First class, Delhi\u2013Paris</b>held at a partner fare, with the upgrade confirmed and the lie-flat suite on the way out."
         },
         {
           "label": "Hotel",
-          "html": "<b>A suite at a Left Bank palace hotel</b> \u2014 our rate, with late checkout and breakfast secured."
+          "html": "<b>A suite at a Left Bank palace hotel</b>our rate, with late checkout and breakfast secured."
         },
         {
           "label": "Visa",
-          "html": "<b>Schengen (France)</b> \u2014 prepared, filed, tracked, end to end."
+          "html": "<b>Schengen (France)</b>prepared, filed, tracked, end to end."
         }
       ],
       "noteLabel": "Your advisor's note",
@@ -119,15 +119,15 @@
       "handles": [
         {
           "label": "Flights",
-          "html": "<b>First class out, business back, Bengaluru\u2013Tokyo</b> \u2014 held at a partner fare, with the upgrade confirmed for the flight east."
+          "html": "<b>First class out, business back, Bengaluru\u2013Tokyo</b>held at a partner fare, with the upgrade confirmed for the flight east."
         },
         {
           "label": "Hotel",
-          "html": "<b>A city-view suite in Otemachi</b> \u2014 our rate, with the high-floor room and late checkout secured."
+          "html": "<b>A city-view suite in Otemachi</b>our rate, with the high-floor room and late checkout secured."
         },
         {
           "label": "Visa",
-          "html": "<b>Japan tourist visa</b> \u2014 prepared, filed, tracked, with the documents readied for you."
+          "html": "<b>Japan tourist visa</b>prepared, filed, tracked, with the documents readied for you."
         }
       ],
       "noteLabel": "Your advisor's note",
@@ -144,15 +144,15 @@
       "handles": [
         {
           "label": "Flights",
-          "html": "<b>Business class, Mumbai\u2013Denpasar</b> \u2014 held at a partner fare, with the lie-flat and the upgrade confirmed."
+          "html": "<b>Business class, Mumbai\u2013Denpasar</b>held at a partner fare, with the lie-flat and the upgrade confirmed."
         },
         {
           "label": "Hotel",
-          "html": "<b>A private-pool villa in Ubud or the Bukit</b> \u2014 our rate, with the upgrade and airport transfer secured."
+          "html": "<b>A private-pool villa in Ubud or the Bukit</b>our rate, with the upgrade and airport transfer secured."
         },
         {
           "label": "Visa",
-          "html": "<b>Indonesia visa on arrival</b> \u2014 pre-registered online so you walk straight through."
+          "html": "<b>Indonesia visa on arrival</b>pre-registered online so you walk straight through."
         }
       ],
       "noteLabel": "Your advisor's note",
@@ -167,13 +167,13 @@
   "reassurance": {
     "eyebrow": "A note on these",
     "headingHtml": "None of these is for sale. <span class=\"it\">Yours</span> is.",
-    "lede": "We don't sell packages. Each of these began as a conversation and was built from nothing \u2014 for one couple, one set of dates, one reason to go. Tell us yours, and we'll do the same.",
+    "lede": "We don't sell packages. Each of these began as a conversation and was built from nothing: for one couple, one set of dates, one reason to go. Tell us yours, and we'll do the same.",
     "image": "/_vercel/image?url=%2Fimg%2Fcities%2Famalfi-coast.jpg&w=2048&q=80"
   },
   "cta": {
     "eyebrow": "Yours next",
     "headingHtml": "Let's shape <span class=\"it\">yours</span>.",
-    "lede": "A named advisor, a single conversation, and a journey that exists only for you \u2014 held, priced and looked after, until you are home.",
+    "lede": "A named advisor, a single conversation, and a journey that exists only for you: held, priced and looked after, until you are home.",
     "buttons": [
       {
         "label": "Plan a trip",

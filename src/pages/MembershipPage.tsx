@@ -111,7 +111,7 @@ export default function MembershipPage() {
             <ul className="incl" style={{ marginTop: 24, maxWidth: "none" }}>
               {compare.alone.items.map((it, i) => (
                 <li key={i}>
-                  <span className="ck muted">—</span>
+                  <span className="ck muted">·</span>
                   <span>{it}</span>
                 </li>
               ))}

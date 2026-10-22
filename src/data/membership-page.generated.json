@@ -1,7 +1,7 @@
 {
   "seo": {
-    "title": "Membership — TripAgent",
-    "description": "Membership by invitation. A named advisor who knows you — flights, hotels and visas, looked after."
+    "title": "Membership | TripAgent",
+    "description": "Membership by invitation. A named advisor who knows you: flights, hotels and visas, looked after."
   },
   "hero": {
     "eyebrow": "Membership · by invitation",
@@ -22,14 +22,14 @@
     "amountHtml": "",
     "free": "★ By invitation only",
     "items": [
-      "<b>Your own named advisor</b> — a real person who learns how you travel.",
-      "<b>Answers on WhatsApp</b> — options in seconds, any hour.",
-      "<b>Flights</b> — any airline, any class, held and ticketed.",
-      "<b>Hotels</b> — the right room, or the whole villa, at rates you won't find alone.",
-      "<b>Visas</b> — checked, filed and tracked. You just pack.",
-      "<b>Points or card</b> — one clear transaction, taxes shown.",
-      "<b>On-trip care</b> — what goes wrong is put right, often before you wake.",
-      "<b>We stay after you land</b> — the part no one else looks after."
+      "<b>Your own named advisor</b>a real person who learns how you travel.",
+      "<b>Answers on WhatsApp</b>options in seconds, any hour.",
+      "<b>Flights</b>any airline, any class, held and ticketed.",
+      "<b>Hotels</b>the right room, or the whole villa, at rates you won't find alone.",
+      "<b>Visas</b>checked, filed and tracked. You just pack.",
+      "<b>Points or card</b>one clear transaction, taxes shown.",
+      "<b>On-trip care</b>what goes wrong is put right, often before you wake.",
+      "<b>We stay after you land</b>the part no one else looks after."
     ],
     "cta": {
       "label": "Enter your invitation",
@@ -81,7 +81,7 @@
         "A few right options in seconds, from someone who knows you.",
         "A named advisor, one message away, any hour.",
         "Visas checked, filed and tracked for you.",
-        "Looked after all the way home — and after."
+        "Looked after all the way home, and after."
       ]
     }
   },
@@ -97,7 +97,7 @@
       },
       {
         "question": "What does membership cover, exactly?",
-        "answerHtml": "The membership: a named advisor, and your flights, hotels and visas handled end to end. Fares and rooms are paid per trip, taxes shown — points or card.",
+        "answerHtml": "The membership: a named advisor, and your flights, hotels and visas handled end to end. Fares and rooms are paid per trip, taxes shown: points or card.",
         "open": false
       },
       {
@@ -112,7 +112,7 @@
       },
       {
         "question": "What happens when something goes wrong on a trip?",
-        "answerHtml": "You message us. A cancelled flight, a missed connection, a hotel that disappoints — your advisor handles it, often before you wake.",
+        "answerHtml": "You message us. A cancelled flight, a missed connection, a hotel that disappoints: your advisor handles it, often before you wake.",
         "open": false
       },
       {

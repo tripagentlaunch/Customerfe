@@ -1,6 +1,6 @@
 {
   "seo": {
-    "title": "By invitation — TripAgent",
+    "title": "By invitation | TripAgent",
     "description": "TripAgent membership is by invitation. If someone has given you a key, enter it. The door opens."
   },
   "step1": {
@@ -13,7 +13,7 @@
     "requestLinkLabel": "Request an invitation →",
     "scarcity": "A small number of places open each season.",
     "requestForm": {
-      "introText": "Leave your details. If a place opens, your advisor reaches out — discreetly, never a mailing list.",
+      "introText": "Leave your details. If a place opens, your advisor reaches out: discreetly, never a mailing list.",
       "fields": [
         {
           "id": "rq-name",
@@ -42,11 +42,11 @@
       ],
       "submitLabel": "Request an invitation"
     },
-    "requestThanks": "Thank you — your request is with us. If a place opens, your advisor will be in touch, discreetly."
+    "requestThanks": "Thank you: your request is with us. If a place opens, your advisor will be in touch, discreetly."
   },
   "step2": {
-    "eyebrow": "Welcome — the door is open",
-    "headingHtml": "Your invitation carries<br/><b id=\"revealMonths\">—</b>, as our guest.",
+    "eyebrow": "Welcome: the door is open",
+    "headingHtml": "Your invitation carries<br/><b id=\"revealMonths\"></b>, as our guest.",
     "lede": "Your membership begins now, with our compliments.",
     "continueLabel": "Continue"
   },
@@ -98,8 +98,8 @@
     "headingHtml": "So nothing interrupts you,<br/>when the time <span class=\"it\">comes</span>.",
     "lede": "Nothing is charged today.",
     "stubTag": "Securely held · Razorpay",
-    "chargeLineTemplate": "Nothing is charged until <b id=\"trialEnd\">—</b>. Add a card now or later — your membership is active either way.",
-    "chargeNote": "Cancel any time before then — a single message to your advisor, nothing to explain.",
+    "chargeLineTemplate": "Nothing is charged until <b id=\"trialEnd\"></b>. Add a card now or later: your membership is active either way.",
+    "chargeNote": "Cancel any time before then: a single message to your advisor, nothing to explain.",
     "enterLabel": "Enter the maison.",
     "laterLabel": "Later"
   },

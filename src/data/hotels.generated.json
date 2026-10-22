@@ -1,6 +1,6 @@
 {
   "seo": {
-    "title": "Hotels — TripAgent",
+    "title": "Hotels | TripAgent",
     "description": "The right room, the right rate, and a welcome that knows your name. One advisor, the whole stay."
   },
   "hero": {
@@ -138,7 +138,7 @@
       {
         "n": "2",
         "heading": "See a shortlist",
-        "body": "A considered few with honest notes — never an endless list."
+        "body": "A considered few with honest notes: never an endless list."
       },
       {
         "n": "3",
@@ -159,7 +159,7 @@
     "items": [
       {
         "summary": "Can you really get a better rate than I find online?",
-        "bodyHtml": "Often, yes — and almost always more value. Through preferred-partner and net-rate programmes we frequently match or beat the public price while adding what it never includes: an upgrade, daily breakfast, a property or spa credit, a later checkout. Where a rate is genuinely best booked direct, we will tell you so."
+        "bodyHtml": "Often, yes, and almost always more value. Through preferred-partner and net-rate programmes we frequently match or beat the public price while adding what it never includes: an upgrade, daily breakfast, a property or spa credit, a later checkout. Where a rate is genuinely best booked direct, we will tell you so."
       },
       {
         "summary": "What are negotiated and net rates, exactly?",
@@ -171,15 +171,15 @@
       },
       {
         "summary": "Do you book villas, residences and private homes?",
-        "bodyHtml": "Yes — whole villas, private residences and serviced homes, staffed and catered where you wish, from a chef and housekeeping to a butler or driver. We vet each one first-hand or through trusted eyes, and arrange the practicalities — provisioning, transfers, a welcome stocked to your taste — so the home is ready the moment you arrive."
+        "bodyHtml": "Yes: whole villas, private residences and serviced homes, staffed and catered where you wish, from a chef and housekeeping to a butler or driver. We vet each one first-hand or through trusted eyes, and arrange the practicalities: provisioning, transfers, a welcome stocked to your taste, so the home is ready the moment you arrive."
       },
       {
         "summary": "Can you handle families and connecting rooms?",
-        "bodyHtml": "This is where we are most useful. Connecting rooms, adjoining suites and whole-floor takeovers, so everyone is together rather than scattered down a corridor. We brief the property on cots, extra beds, childcare and early dining, and confirm it all before you travel — not after the lift doors open."
+        "bodyHtml": "This is where we are most useful. Connecting rooms, adjoining suites and whole-floor takeovers, so everyone is together rather than scattered down a corridor. We brief the property on cots, extra beds, childcare and early dining, and confirm it all before you travel, not after the lift doors open."
       },
       {
         "summary": "Can you arrange a special occasion?",
-        "bodyHtml": "An anniversary, a milestone birthday, a proposal, a honeymoon — tell us and we make the property part of it. Discreetly: the right table, the room dressed on arrival, a quiet word with the chef, a surprise timed to the moment. The hotel knows what matters before you walk in."
+        "bodyHtml": "An anniversary, a milestone birthday, a proposal, a honeymoon: tell us and we make the property part of it. Discreetly: the right table, the room dressed on arrival, a quiet word with the chef, a surprise timed to the moment. The hotel knows what matters before you walk in."
       },
       {
         "summary": "How do payment and cancellation work?",
@@ -187,11 +187,11 @@
       },
       {
         "summary": "Do I keep my own loyalty status and points?",
-        "bodyHtml": "Yes. We book so you keep earning and recognising your own loyalty status wherever the rate allows. In the rare case where a special rate and a loyalty benefit can’t both apply, we flag it — so you decide with the trade-off in front of you, never behind it."
+        "bodyHtml": "Yes. We book so you keep earning and recognising your own loyalty status wherever the rate allows. In the rare case where a special rate and a loyalty benefit can’t both apply, we flag it, so you decide with the trade-off in front of you, never behind it."
       },
       {
         "summary": "What if something goes wrong during the stay?",
-        "bodyHtml": "One message to your advisor, not a negotiation at reception. A room that disappoints, a noise next door, a late checkout, a change of plan — we handle it with the property directly, while you carry on with your trip. We are there for the whole stay, not just the booking."
+        "bodyHtml": "One message to your advisor, not a negotiation at reception. A room that disappoints, a noise next door, a late checkout, a change of plan: we handle it with the property directly, while you carry on with your trip. We are there for the whole stay, not just the booking."
       },
       {
         "summary": "How is my data and privacy handled?",
@@ -199,13 +199,13 @@
       },
       {
         "summary": "Is this only hotels?",
-        "bodyHtml": "Hotels are one of three things we do completely — alongside <a href=\"/flights\">flights</a> and <a href=\"/visas\">visas</a>, sequenced into one trip."
+        "bodyHtml": "Hotels are one of three things we do completely: alongside <a href=\"/flights\">flights</a> and <a href=\"/visas\">visas</a>, sequenced into one trip."
       }
     ]
   },
   "cta": {
     "eyebrow": "Our promise",
-    "headingHtml": "Your next stay — looked after<br/>until you are <span class=\"it\">home</span>.",
+    "headingHtml": "Your next stay: looked after<br/>until you are <span class=\"it\">home</span>.",
     "lede": "A private travel maison, by invitation. If you hold one, the door is already held.",
     "buttons": [
       {

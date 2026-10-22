@@ -50,7 +50,7 @@ function TripRail() {
   if (!summary) {
     return (
       <div className="ta-triprail">
-        <span className="ta-rail-empty">Your trip is empty — add a city from Discover, or ask your advisor.</span>
+        <span className="ta-rail-empty">Your trip is empty: add a city from Discover, or ask your advisor.</span>
       </div>
     );
   }
@@ -62,7 +62,7 @@ function TripRail() {
         <div>
           <span className="rk">Your trip so far</span>
           <div className="rtt">
-            {names} — {summary.nights} night{summary.nights === 1 ? "" : "s"}
+            {names}: {summary.nights} night{summary.nights === 1 ? "" : "s"}
           </div>
         </div>
         <div className="rb">

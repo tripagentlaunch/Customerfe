@@ -192,7 +192,7 @@ export function Header() {
   // path shows inline.
   useEffect(() => {
     if (authError === "not_invited") {
-      signInModal.open("This email isn't on the invitation list — please speak to your advisor.");
+      signInModal.open("This email isn't on the invitation list: please speak to your advisor.");
       clearAuthError();
     }
   }, [authError, clearAuthError, signInModal]);
@@ -312,7 +312,7 @@ export function Header() {
               <div className="sp-empty">
                 <p>Nothing in the library matched “{q}”.</p>
                 <p>
-                  Your advisor can still find it —{" "}
+                  Your advisor can still find it: {" "}
                   <Link to={`/enquire?about=${encodeURIComponent(q)}`}>tell them what you have in mind →</Link>
                 </p>
               </div>

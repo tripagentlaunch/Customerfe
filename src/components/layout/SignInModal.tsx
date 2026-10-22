@@ -104,7 +104,7 @@ function SignInModalCard({ message, close }: { message: string | null; close: ()
     } else {
       setError(
         r.error === "not_invited"
-          ? "This email isn't on the invitation list — please speak to your advisor."
+          ? "This email isn't on the invitation list: please speak to your advisor."
           : "We couldn't send the code. Please try again."
       );
     }
@@ -153,7 +153,7 @@ function SignInModalCard({ message, close }: { message: string | null; close: ()
                 <h1 className={claim.heading}>
                   Welcome <span className={claim.it}>back.</span>
                 </h1>
-                <p className={claim.sub}>{message ?? "Sign in with the email on your invitation — we'll send you a one-time code."}</p>
+                <p className={claim.sub}>{message ?? "Sign in with the email on your invitation: we'll send you a one-time code."}</p>
                 <form className={claim.form} onSubmit={submitEmail} noValidate>
                   <label htmlFor="ta-si-email-m" className={claim.label}>
                     Email
@@ -253,7 +253,7 @@ function SignInModalCard({ message, close }: { message: string | null; close: ()
           <form onSubmit={submitEmail}>
             <h3 className="ta-si-h">{message ?? "Sign in to save it to your year."}</h3>
             <p className="ta-si-sub">
-              TripAgent is by invitation. Sign in with the email on your invitation — we'll send a one-time
+              TripAgent is by invitation. Sign in with the email on your invitation: we'll send a one-time
               code, and keep your year, your dates and your plans in one place.
             </p>
             <div className="ta-si-f">
@@ -313,7 +313,7 @@ function SignInModalCard({ message, close }: { message: string | null; close: ()
           <form onSubmit={submitCode}>
             <h3 className="ta-si-h">Check your email.</h3>
             <p className="ta-si-sub">
-              We've emailed {email} a secure sign-in link — click it to open your year. If your email
+              We've emailed {email} a secure sign-in link: click it to open your year. If your email
               includes a code instead, enter it below.
             </p>
             <div className="ta-si-f">

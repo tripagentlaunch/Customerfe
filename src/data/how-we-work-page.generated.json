@@ -1,12 +1,12 @@
 {
   "seo": {
-    "title": "How we work — TripAgent",
-    "description": "One advisor, the whole way — enquiry to arrival to after. A person on WhatsApp who knows you, from the first message until you are home."
+    "title": "How we work | TripAgent",
+    "description": "One advisor, the whole way: enquiry to arrival to after. A person on WhatsApp who knows you, from the first message until you are home."
   },
   "hero": {
     "eyebrow": "How we work",
     "headingHtml": "One advisor.<br/>The whole way <span class=\"it\">there</span>.",
-    "lede": "Most sell you a booking, then go quiet. We give you a person — a name you can write to, from the first message to the morning after you're home.",
+    "lede": "Most sell you a booking, then go quiet. We give you a person: a name you can write to, from the first message to the morning after you're home.",
     "image": "/_vercel/image?url=%2Fimg%2Fh%2Fhow-we-work.jpg&w=2560&q=80",
     "ctaLabel": "Enter your invitation",
     "ctaHref": "invitation.html",
@@ -20,22 +20,22 @@
   },
   "why": {
     "eyebrow": "Why a membership",
-    "note": "A booking is a transaction. We offer a person — one who knows how you travel, and is still there when something goes wrong.",
+    "note": "A booking is a transaction. We offer a person: one who knows how you travel, and is still there when something goes wrong.",
     "statementHtml": "You don't book with us. You're known by <span class=\"em\">someone</span>.",
-    "lede": "A flight costs much the same anywhere. What you can't buy elsewhere is one person who carries the whole trip — holds the fare while you decide, files the visa before you ask, and is awake when your connection falls apart at 2 a.m. That's the membership."
+    "lede": "A flight costs much the same anywhere. What you can't buy elsewhere is one person who carries the whole trip: holds the fare while you decide, files the visa before you ask, and is awake when your connection falls apart at 2 a.m. That's the membership."
   },
   "lifecycle": {
     "eyebrow": "Enquiry → home → after",
     "heading": "Six stages. One advisor through all of them.",
-    "lede": "What your advisor does at each step — and where most stop.",
+    "lede": "What your advisor does at each step, and where most stop.",
     "items": [
       {
         "nn": "01",
         "phase": "Enquiry",
         "heading": "You send one line. We listen.",
-        "body": "You write on WhatsApp — the app already in your pocket. No portal, no form, no queue. A concierge replies in seconds; your advisor reads the thread and takes it from there.",
+        "body": "You write on WhatsApp: the app already in your pocket. No portal, no form, no queue. A concierge replies in seconds; your advisor reads the thread and takes it from there.",
         "did": [
-          "We learn the occasion, the dates, the party, the feeling you're after — not just a route and a budget.",
+          "We learn the occasion, the dates, the party, the feeling you're after, not just a route and a budget.",
           "What you tell us is remembered. You never explain yourself twice."
         ]
       },
@@ -43,7 +43,7 @@
         "nn": "02",
         "phase": "Curation",
         "heading": "Two or three considered choices.",
-        "body": "Never a wall of results. Your advisor sends a short set — the right cabin, the right room, matched to the season and a connection that works. You see the price, not the workings.",
+        "body": "Never a wall of results. Your advisor sends a short set: the right cabin, the right room, matched to the season and a connection that works. You see the price, not the workings.",
         "did": [
           "Held fares and award space we can see and you can't, secured while you decide.",
           "Suites held before they're gone, the arrival already thought through."
@@ -53,9 +53,9 @@
         "nn": "03",
         "phase": "Booking",
         "heading": "A human confirms. Then you pay.",
-        "body": "Nothing is booked by a machine. Your advisor checks every detail, locks it in, then asks you to pay — points or card, taxes shown, one tap. The visa is filed in the same thread, in good time.",
+        "body": "Nothing is booked by a machine. Your advisor checks every detail, locks it in, then asks you to pay: points or card, taxes shown, one tap. The visa is filed in the same thread, in good time.",
         "did": [
-          "Tickets, documents and visa paperwork in one place — the chat — not five inboxes.",
+          "Tickets, documents and visa paperwork in one place: the chat, not five inboxes.",
           "Price, taxes, points, shown plainly. Nothing hidden in the fold."
         ]
       },
@@ -63,17 +63,17 @@
         "nn": "04",
         "phase": "In-trip",
         "heading": "Awake when it breaks.",
-        "body": "The stage no one else shows up for. A storm, a strike, a cancelled flight in a city you don't know — your advisor has your details and acts before you finish typing. Often before you've woken.",
+        "body": "The stage no one else shows up for. A storm, a strike, a cancelled flight in a city you don't know: your advisor has your details and acts before you finish typing. Often before you've woken.",
         "did": [
           "A flight rebooked at 2 a.m., same cabin, no change fee, while you sleep.",
-          "A late checkout, a transfer re-timed, a table moved — one message, handled."
+          "A late checkout, a transfer re-timed, a table moved: one message, handled."
         ]
       },
       {
         "nn": "05",
         "phase": "Arrival",
         "heading": "The landing, smoothed.",
-        "body": "The transfer timed to your gate, the suite ready, the room expecting you. The hour that usually undoes a long-haul — the queue, the confusion, the chasing — we quietly take off your hands.",
+        "body": "The transfer timed to your gate, the suite ready, the room expecting you. The hour that usually undoes a long-haul: the queue, the confusion, the chasing, we quietly take off your hands.",
         "did": [
           "Onward legs timed to your landing. Nothing left for you to chase.",
           "Your advisor on the same thread, in your hour or theirs."
@@ -83,9 +83,9 @@
         "nn": "06",
         "phase": "After",
         "heading": "The follow-up no one else does.",
-        "body": "Home again, your advisor checks in — how it went, what to keep, what to change. We stay. The relationship doesn't end at the airport; each trip is the quiet beginning of the next.",
+        "body": "Home again, your advisor checks in: how it went, what to keep, what to change. We stay. The relationship doesn't end at the airport; each trip is the quiet beginning of the next.",
         "did": [
-          "A note after you land, not a survey — a person asking how it really was.",
+          "A note after you land, not a survey: a person asking how it really was.",
           "What we learn is kept, so each trip begins further along than the last."
         ]
       }
@@ -95,7 +95,7 @@
     "eyebrow": "The model",
     "headingHtml": "One thread. The whole <span class=\"it\">journey</span>.",
     "ledes": [
-      "Everything happens where you already are — on WhatsApp. The first reply is instant, and it remembers how you travel. Your advisor holds, confirms and stays. Flights, hotels and visas, all in one conversation.",
+      "Everything happens where you already are: on WhatsApp. The first reply is instant, and it remembers how you travel. Your advisor holds, confirms and stays. Flights, hotels and visas, all in one conversation.",
       "No app to download. No login to forget. No call-centre script. A person who knows you, on the app in your hand."
     ],
     "ctaLabel": "What we handle",
@@ -157,7 +157,7 @@
     "eyebrow": "When it matters",
     "headingHtml": "The whole point is <span class=\"it\">2 a.m.</span>",
     "ledes": [
-      "Anyone can sell a ticket on a calm afternoon. The test is the moment it breaks — you're tired, far from home, in a language you don't speak. That's when a name you've already saved, a person with your whole trip in front of them, is worth everything.",
+      "Anyone can sell a ticket on a calm afternoon. The test is the moment it breaks: you're tired, far from home, in a language you don't speak. That's when a name you've already saved, a person with your whole trip in front of them, is worth everything.",
       "Most vanish the moment you pay. We're built to do the opposite."
     ],
     "phone": {
@@ -175,7 +175,7 @@
           "whoKind": "human",
           "whoLabel": "Your advisor",
           "whoAvatar": "·",
-          "text": "Already rebooked — 9:40 tomorrow, same cabin, no change fee. Hotel for tonight is held downstairs. Go back to sleep."
+          "text": "Already rebooked: 9:40 tomorrow, same cabin, no change fee. Hotel for tonight is held downstairs. Go back to sleep."
         }
       ]
     }
@@ -190,18 +190,18 @@
       },
       {
         "heading": "One thread, end to end",
-        "body": "Your whole trip lives in one WhatsApp conversation — enquiry, options, payment, documents, visas, the 2 a.m. rescue, the note when you're home. Nothing scattered. Nothing lost."
+        "body": "Your whole trip lives in one WhatsApp conversation: enquiry, options, payment, documents, visas, the 2 a.m. rescue, the note when you're home. Nothing scattered. Nothing lost."
       },
       {
         "heading": "We stay past the sale",
-        "body": "The relationship doesn't end when you pay or when you land. We're there in-trip and we follow up after — the stages most treat as someone else's problem."
+        "body": "The relationship doesn't end when you pay or when you land. We're there in-trip and we follow up after: the stages most treat as someone else's problem."
       }
     ]
   },
   "sig": {
     "eyebrow": "The whole way",
     "headingHtml": "Most stop when you <span class=\"em\">pay</span>.<br/>We stay until you are <span class=\"em\">home</span>.",
-    "lede": "Enquiry, curation, booking, in-trip, arrival, after — one advisor at every step, including the ones no one else shows up for.",
+    "lede": "Enquiry, curation, booking, in-trip, arrival, after: one advisor at every step, including the ones no one else shows up for.",
     "image": "/_vercel/image?url=%2Fimg%2Fh3%2Fhow-we-work.jpg&w=2560&q=80"
   },
   "cta": {

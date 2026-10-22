@@ -29,14 +29,14 @@ const reading = ["journal-evisa-or-sticker", "journal-visa-free-for-indians"]
 
 const data: GuidesHubPageData = {
   seo: {
-    title: "Visa Guides for Indian Passport Holders — TripAgent",
+    title: "Visa Guides for Indian Passport Holders | TripAgent",
     description: "Visa guides for Indian passport holders: the visa type, documents, timings and pitfalls for each country, kept current.",
   },
   hero: {
     back: { label: "Visas", href: "visas.html" },
     eyebrow: "Visa guides · Indian passport",
     headingHtml: 'Visa guides, <span class="it">plainly</span>.',
-    lede: "What each country asks of an Indian passport — the visa type, the documents, the timings and the pitfalls, in one place.",
+    lede: "What each country asks of an Indian passport: the visa type, the documents, the timings and the pitfalls, in one place.",
     image: guides.find((g) => g.slug === "schengen")?.hero.image ?? guides[0]?.hero.image ?? null,
     buttons: [{ label: "How we handle visas", href: "visas.html", kind: "square" }],
   },
