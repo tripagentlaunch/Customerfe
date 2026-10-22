@@ -45,10 +45,17 @@
   transition: background-color 0.2s var(--ease), color 0.2s var(--ease);
 }
 
-.tabActive {
+.tab:hover:not(.tabActive) {
   background: var(--paper-2);
-  border-bottom-color: transparent;
   color: var(--ink);
+}
+
+/* The chosen day reads at a glance (2026-10-22, direct request): solid ink
+   with paper text, not the faint tint it was. */
+.tabActive {
+  background: var(--ink);
+  border-bottom-color: var(--ink);
+  color: var(--paper);
 }
 
 .dayTitle {

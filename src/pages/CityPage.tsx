@@ -848,7 +848,7 @@ export default function CityPage() {
     () => highlightSlots.map((slotIndex, dayIndex) => ({ dayIndex, slotIndex })).filter((t) => t.slotIndex >= 0),
     [highlightSlots],
   );
-  const agraLiveCoords = useAgraLivePlanCoords(isLivePlacesEnabledCity, city?.plan.days, planTargets);
+  const agraLiveCoords = useAgraLivePlanCoords(isLivePlacesEnabledCity, city?.plan.days, planTargets, city?.hero.name || city?.slug || "");
   // const agraLiveEventLocations = useAgraLiveEventLocations(isLivePlacesEnabledCity, city?.whatsOn.events);
   // The engine's guide already chose each photo, checked to be the exact
   // place; a card it left without one shows the placeholder, not a live
@@ -862,6 +862,10 @@ export default function CityPage() {
   // Each day's highlight, resolved: its coordinates come from the static
   // data when present, else from the live lookup (test cities) if it has
   // come back; photo likewise (static, else live, else a placeholder).
+  const cityPhotos = useMemo(
+    () => [city?.hero.image, city?.firstLook.heroImage, ...(city?.firstLook.grid ?? []).map((g) => g.image)].filter((u): u is string => !!u),
+    [city],
+  );
   const dayHighlights = useMemo(
     () =>
       (city?.plan.days ?? []).map((day, dayIndex) => {
@@ -882,11 +886,13 @@ export default function CityPage() {
           place: slot?.place ?? slot?.label ?? day.title ?? "",
           text: slot?.text ?? null,
           category: slot?.category ?? null,
-          photo: slot?.photo || live?.photoUrl || placeholderPhoto(`${city?.slug}-plan-${dayIndex}-${slotIndex}-0`),
+          // No photo of the place: one of the city's own photos rather than
+          // a flat colour block.
+          photo: slot?.photo || live?.photoUrl || cityPhotos[dayIndex % Math.max(1, cityPhotos.length)] || placeholderPhoto(`${city?.slug}-plan-${dayIndex}-${slotIndex}-0`),
           coord,
         };
       }),
-    [city, highlightSlots, isLivePlacesEnabledCity, agraLiveCoords],
+    [city, cityPhotos, highlightSlots, isLivePlacesEnabledCity, agraLiveCoords],
   );
 
   // The sticky map shows the WHOLE route at once: one pin per day (the days

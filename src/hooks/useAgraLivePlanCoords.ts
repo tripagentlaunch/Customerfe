@@ -21,10 +21,15 @@ export interface PlanTarget {
   slotIndex: number;
 }
 
+// Searched in the page's own city (2026-10-22): it was hard-coded to "Agra"
+// from the first test city, so every other city's places came back
+// not-found and the days showed a flat placeholder instead of a photo.
+// The slot's own place name is tried first, then a name taken from its text.
 export function useAgraLivePlanCoords(
   enabled: boolean,
   days: CityDay[] | undefined,
   targets: PlanTarget[],
+  cityName: string,
 ): Record<SlotKey, LiveSlotCoord> {
   const [results, setResults] = useState<Record<SlotKey, LiveSlotCoord>>({});
   const attempted = useRef<Set<SlotKey>>(new Set());
@@ -53,14 +58,22 @@ export function useAgraLivePlanCoords(
       if (attempted.current.has(key)) return;
       attempted.current.add(key);
 
-      const candidate = extractPlaceCandidate(slot.text);
-      if (!candidate) {
+      const candidates = [...new Set([slot.place, extractPlaceCandidate(slot.text)].filter((c): c is string => !!c && !!c.trim()))];
+      if (!candidates.length) {
         setResults((prev) => ({ ...prev, [key]: { status: "no-candidate" } }));
         return;
       }
+      const candidate = candidates[0];
 
       setResults((prev) => ({ ...prev, [key]: { status: "loading" } }));
-      fetchPlaceLookup(candidate, "Agra").then((result) => {
+      (async () => {
+        for (const name of candidates) {
+          const r = await fetchPlaceLookup(name, cityName);
+          if (r && r.found && r.lat != null && r.lon != null) return r;
+          if (!r && name === candidates[candidates.length - 1]) return null;
+        }
+        return { found: false } as const;
+      })().then((result) => {
         if (!result || !result.found || result.lat == null || result.lon == null) {
           setResults((prev) => ({ ...prev, [key]: { status: result ? "not-found" : "error" } }));
           return;
@@ -78,7 +91,7 @@ export function useAgraLivePlanCoords(
       });
     });
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [enabled, days, targets.map((t) => `${t.dayIndex}-${t.slotIndex}`).join(",")]);
+  }, [enabled, days, cityName, targets.map((t) => `${t.dayIndex}-${t.slotIndex}`).join(",")]);
 
   return results;
 }
