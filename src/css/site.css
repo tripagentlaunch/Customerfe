@@ -2997,6 +2997,44 @@ body:has(.ta-cart.on) .ta-advisor, body:has(.ta-cart.on) .ta-theme{opacity:0;poi
   .ta-mega-rich .ta-triprail{padding:16px var(--gutter)}
 }
 
+/* ===== Desktop mega: eased reveal (2026-10-22) =====
+   Always rendered (so the photo loads with the page, not on first hover),
+   hidden with visibility and a clip instead of display so it can ease: the
+   panel stays opaque and wipes down; only its photo and links fade. Opens
+   after a 60ms hover intent; closes after 140ms so crossing from EXPLORE
+   into the panel never flickers. Links rise in after the panel, one column
+   at a time. */
+@media(min-width:901px){
+  .ta-hd .ta-mega-rich{display:block;visibility:hidden;pointer-events:none;transform:translateY(-10px);clip-path:inset(0 0 100% 0);
+    transition:transform .44s cubic-bezier(.22,.61,.36,1) .14s,clip-path .44s cubic-bezier(.22,.61,.36,1) .14s,visibility 0s linear .58s}
+  .ta-hd .ta-room.pin>.ta-mega-rich{visibility:visible;pointer-events:auto;transform:none;clip-path:inset(0 0 -90px 0);
+    transition:transform .56s cubic-bezier(.22,.61,.36,1) .06s,clip-path .56s cubic-bezier(.22,.61,.36,1) .06s,visibility 0s linear 0s}
+  .ta-hd .ta-mega-rich .ta-feat-img{transform:scale(1.045);opacity:.35;transition:transform 1.2s cubic-bezier(.22,.61,.36,1),opacity .5s ease}
+  .ta-hd .ta-room.pin>.ta-mega-rich .ta-feat-img{transform:none;opacity:1}
+  .ta-hd .ta-mega-rich .ta-feat:hover .ta-feat-img{transform:scale(1.04)}
+  .ta-hd .ta-mega-rich .ta-explore-col{opacity:0;transform:translateY(8px);transition:opacity .2s ease,transform .2s ease}
+  .ta-hd .ta-room.pin>.ta-mega-rich .ta-explore-col{opacity:1;transform:none;transition:opacity .5s ease,transform .6s cubic-bezier(.22,.61,.36,1)}
+  .ta-hd .ta-room.pin>.ta-mega-rich .ta-explore-col:nth-child(1){transition-delay:.16s}
+  .ta-hd .ta-room.pin>.ta-mega-rich .ta-explore-col:nth-child(2){transition-delay:.22s}
+  .ta-hd .ta-room.pin>.ta-mega-rich .ta-explore-col:nth-child(3){transition-delay:.28s}
+  .ta-hd .ta-mega-rich .ta-explore-col a{transition:color .2s ease}
+}
+@media(min-width:901px) and (hover:hover){
+  .ta-hd .ta-room:hover>.ta-mega-rich{visibility:visible;pointer-events:auto;transform:none;clip-path:inset(0 0 -90px 0);
+    transition:transform .56s cubic-bezier(.22,.61,.36,1) .06s,clip-path .56s cubic-bezier(.22,.61,.36,1) .06s,visibility 0s linear 0s}
+  .ta-hd .ta-room:hover>.ta-mega-rich .ta-feat-img{transform:none;opacity:1}
+  .ta-hd .ta-room:hover>.ta-mega-rich .ta-feat:hover .ta-feat-img{transform:scale(1.04)}
+  .ta-hd .ta-room:hover>.ta-mega-rich .ta-explore-col{opacity:1;transform:none;transition:opacity .5s ease,transform .6s cubic-bezier(.22,.61,.36,1)}
+  .ta-hd .ta-room:hover>.ta-mega-rich .ta-explore-col:nth-child(1){transition-delay:.16s}
+  .ta-hd .ta-room:hover>.ta-mega-rich .ta-explore-col:nth-child(2){transition-delay:.22s}
+  .ta-hd .ta-room:hover>.ta-mega-rich .ta-explore-col:nth-child(3){transition-delay:.28s}
+}
+@media(min-width:901px) and (prefers-reduced-motion:reduce){
+  .ta-hd .ta-mega-rich,.ta-hd .ta-mega-rich .ta-feat-img,.ta-hd .ta-mega-rich .ta-explore-col{transition:none!important;transform:none!important}
+}
+/* The phone-only close button (shown in the 720px block below); never on desktop. */
+.ta-mega-close{display:none}
+
 /* ===== Footer polish — fix legal row + brand CTA ===== */
 .footer .fbrand-p{font-family:var(--fr);font-size:13.5px;line-height:1.62;color:var(--stone);max-width:34ch;margin:0 0 20px}
 .footer .fbrand-cta{display:inline-flex;align-items:center;gap:8px;font-family:var(--logo);font-weight:500;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--signature);text-decoration:none;background:none;padding:0}
