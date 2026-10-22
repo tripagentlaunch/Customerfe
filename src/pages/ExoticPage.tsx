@@ -1,4 +1,5 @@
-import { Fragment, useEffect, useState } from "react";
+import { Fragment, useCallback, useEffect, useRef, useState } from "react";
+import { createPortal } from "react-dom";
 import { Link } from "react-router-dom";
 import exoticData from "../data/exotic-page.generated.json";
 import type { ExoticPageData, ExoticSpot } from "../types/exotic-page";
@@ -49,55 +50,121 @@ function shortRegion(region: string): string {
   return region.replace(/\s*\(.*$/, "");
 }
 
-function Card({ s }: { s: ExoticSpot }) {
-  const [open, setOpen] = useState(false);
-  const best = bestMonths(s.season);
-  const facts: [string, string | null][] = [
+function facts(s: ExoticSpot): [string, string][] {
+  const all: [string, string | null][] = [
     ["Getting there", s.getting_there],
     ["When", s.season],
     ["From India", s.india],
     ["We handle", s.handle],
     ["Where you stay", s.stay],
   ];
-  const detailsId = `ex-details-${s.id}`;
+  return all.filter((f): f is [string, string] => !!f[1]);
+}
+
+// Every card the same shape (2026-10-22): fixed slots for the name and the
+// line under it, the season and access note on one meta row, and the actions
+// pinned to the foot. The write-up opens over the page, never inside the
+// card, so a row never changes height.
+function Card({ s, onDetails }: { s: ExoticSpot; onDetails: () => void }) {
+  const best = bestMonths(s.season);
   return (
-    <article className={`${styles.exCard}${open ? ` ${styles.exOpen}` : ""}`}>
-      <div className={styles.exCardHead}>
-        {s.access_flag && <span className={styles.exFlag}>Access-dependent</span>}
-        <div className={styles.exRegion}>{shortRegion(s.region)}</div>
-        <h3 className={styles.exName}>{s.name}</h3>
-        {s.tagline && <p className={styles.exTag}>{s.tagline}</p>}
-      </div>
-      {best && (
-        <p className={styles.exBest}>
-          <span>Best</span> {best}
-        </p>
-      )}
-      <div className={styles.exMore} id={detailsId} aria-hidden={!open}>
-        <div className={styles.exMoreIn}>
-          {s.why && <p className={styles.exWhy}>{s.why}</p>}
-          <dl className={styles.exFacts}>
-            {facts
-              .filter(([, v]) => v)
-              .map(([label, value]) => (
-                <Fragment key={label}>
-                  <dt>{label}</dt>
-                  <dd>{value}</dd>
-                </Fragment>
-              ))}
-          </dl>
-        </div>
-      </div>
+    <article className={styles.exCard}>
+      <div className={styles.exRegion}>{shortRegion(s.region)}</div>
+      <h3 className={styles.exName}>{s.name}</h3>
+      <p className={styles.exTag}>{s.tagline ?? "\u00a0"}</p>
+      <p className={styles.exMeta}>
+        {best && (
+          <>
+            <span className={styles.exMetaK}>Best</span> {best}
+          </>
+        )}
+        {s.access_flag && <span className={styles.exAccess}>Access-dependent</span>}
+      </p>
       <div className={styles.exActions}>
         <Link className={styles.exCta} to={advisorHref(s.name)}>
           Have <TaraAI /> plan it →
         </Link>
-        <button type="button" className={styles.exToggle} aria-expanded={open} aria-controls={detailsId} onClick={() => setOpen((o) => !o)}>
-          {open ? "Less" : "The details"}
-          <span className={styles.exCaret} aria-hidden="true" />
+        <button type="button" className={styles.exToggle} onClick={onDetails} aria-haspopup="dialog">
+          Details
+          <span className={styles.exPlus} aria-hidden="true" />
         </button>
       </div>
     </article>
+  );
+}
+
+const SHEET_MS = 320;
+
+function DetailsSheet({ spot, onClose }: { spot: ExoticSpot | null; onClose: () => void }) {
+  // Kept on screen through the closing fade, then unmounted.
+  const [shown, setShown] = useState<ExoticSpot | null>(spot);
+  const [visible, setVisible] = useState(false);
+  const closeRef = useRef<HTMLButtonElement>(null);
+
+  useEffect(() => {
+    if (spot) {
+      setShown(spot);
+      const id = requestAnimationFrame(() => requestAnimationFrame(() => setVisible(true)));
+      return () => cancelAnimationFrame(id);
+    }
+    setVisible(false);
+    const t = window.setTimeout(() => setShown(null), SHEET_MS);
+    return () => window.clearTimeout(t);
+  }, [spot]);
+
+  useEffect(() => {
+    if (!spot) return;
+    const prev = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    const onKey = (e: KeyboardEvent) => e.key === "Escape" && onClose();
+    window.addEventListener("keydown", onKey);
+    closeRef.current?.focus();
+    return () => {
+      document.body.style.overflow = prev;
+      window.removeEventListener("keydown", onKey);
+    };
+  }, [spot, onClose]);
+
+  if (!shown) return null;
+  const best = bestMonths(shown.season);
+  return createPortal(
+    <div className={`${styles.exSheetWrap}${visible ? ` ${styles.exSheetOn}` : ""}`} onClick={onClose}>
+      <div
+        className={styles.exSheet}
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="ex-sheet-title"
+        onClick={(e) => e.stopPropagation()}
+      >
+        <button ref={closeRef} type="button" className={styles.exSheetClose} aria-label="Close" onClick={onClose} />
+        <div className={styles.exRegion}>{shortRegion(shown.region)}</div>
+        <h3 id="ex-sheet-title" className={styles.exSheetName}>{shown.name}</h3>
+        {shown.tagline && <p className={styles.exSheetTag}>{shown.tagline}</p>}
+        {(best || shown.access_flag) && (
+          <p className={styles.exMeta}>
+            {best && (
+              <>
+                <span className={styles.exMetaK}>Best</span> {best}
+              </>
+            )}
+            {shown.access_flag && <span className={styles.exAccess}>Access-dependent</span>}
+          </p>
+        )}
+        {shown.why && <p className={styles.exWhy}>{shown.why}</p>}
+        <dl className={styles.exFacts}>
+          {facts(shown).map(([label, value]) => (
+            <Fragment key={label}>
+              <dt>{label}</dt>
+              <dd>{value}</dd>
+            </Fragment>
+          ))}
+        </dl>
+        <Link className={styles.exCta} to={advisorHref(shown.name)} onClick={onClose}>
+          Have <TaraAI /> plan it →
+        </Link>
+      </div>
+    </div>,
+    document.body,
   );
 }
 
@@ -109,6 +176,8 @@ export default function ExoticPage() {
   useScrollReveal([]);
 
   const { hero, groups, note } = data;
+  const [detailsOf, setDetailsOf] = useState<ExoticSpot | null>(null);
+  const closeDetails = useCallback(() => setDetailsOf(null), []);
 
   return (
     <main>
@@ -124,7 +193,7 @@ export default function ExoticPage() {
             <h2 className={styles.exGroupH}>{g.category}</h2>
             <div className={styles.exGrid}>
               {g.spots.map((s) => (
-                <Card s={s} key={s.id} />
+                <Card s={s} key={s.id} onDetails={() => setDetailsOf(s)} />
               ))}
             </div>
           </section>
@@ -132,6 +201,7 @@ export default function ExoticPage() {
       </div>
 
       <p className={`${styles.exNote} reveal`}>{note}</p>
+      <DetailsSheet spot={detailsOf} onClose={closeDetails} />
     </main>
   );
 }
