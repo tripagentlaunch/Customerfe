@@ -1,12 +1,12 @@
 {
   "seo": {
-    "title": "Where should you go? — TripAgent",
-    "description": "Tell us when you are free, who is travelling and the mood you are after — and we will show you where to go, at its best, in your budget."
+    "title": "Where should you go? | TripAgent",
+    "description": "Tell us when you are free, who is travelling and the mood you are after, and we will show you where to go, at its best, in your budget."
   },
   "hero": {
     "eyebrow": "The decision, made simple",
     "headingHtml": "Where should <span class=\"it\">you</span> go?",
-    "lede": "Tell us when you are free, who is travelling and the mood you are after. We will show you where — at its best, in your budget, and how far it is from home."
+    "lede": "Tell us when you are free, who is travelling and the mood you are after. We will show you where: at its best, in your budget, and how far it is from home."
   },
   "questions": [
     {
@@ -153,7 +153,7 @@
       ]
     },
     {
-      "labelHtml": "What are you <b>in the mood</b> for? <span style=\"font-size:14px;color:var(--stone)\">— pick a few</span>",
+      "labelHtml": "What are you <b>in the mood</b> for? <span style=\"font-size:14px;color:var(--stone)\">pick a few</span>",
       "options": [
         {
           "label": "Beach & sun",

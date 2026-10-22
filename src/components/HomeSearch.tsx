@@ -10,7 +10,7 @@ const SHOWN = 8;
 // Each example is a real search that returns results — checked against
 // public/data/search-index.json — so the bar never promises what search
 // can't find.
-const TYPED_EXAMPLES = ["a city — Kyoto", "a hotel — Aman Tokyo", "a mood — honeymoon", "a visa — Japan"];
+const TYPED_EXAMPLES = ["a city: Kyoto", "a hotel: Aman Tokyo", "a mood: honeymoon", "a visa: Japan"];
 
 // Types each example, holds it, deletes it, moves to the next. Off under
 // reduced motion — the static label shows instead.
@@ -132,7 +132,7 @@ export default function HomeSearch({ labelHtml }: { labelHtml: string }) {
             <div className="sp-empty">
               <p>Nothing in the library matched “{q}”.</p>
               <p>
-                Your advisor can still find it —{" "}
+                Your advisor can still find it: {" "}
                 <Link to={`/enquire?about=${encodeURIComponent(q)}`}>tell them what you have in mind →</Link>
               </p>
             </div>

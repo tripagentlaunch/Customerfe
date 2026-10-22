@@ -187,7 +187,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
             credentials: "include",
             body: JSON.stringify({ email: email.trim() }),
           });
-          if (res.status === 429) return { ok: false, error: "Too many attempts — please wait a few minutes and try again." };
+          if (res.status === 429) return { ok: false, error: "Too many attempts: please wait a few minutes and try again." };
           const data = (await res.json()) as RequestOtpApiResponse;
           if (!data.ok) return { ok: false, error: data.error ?? "request_failed" };
           return { ok: true };
@@ -203,7 +203,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
             credentials: "include",
             body: JSON.stringify({ email: email.trim(), token: token.trim() }),
           });
-          if (res.status === 429) return { ok: false, error: "Too many attempts — please wait a few minutes and try again." };
+          if (res.status === 429) return { ok: false, error: "Too many attempts: please wait a few minutes and try again." };
           const data = (await res.json()) as VerifyOtpApiResponse;
           if (!data.ok || !data.member) return { ok: false, error: data.error ?? "verify_failed" };
           stampSessionStart();

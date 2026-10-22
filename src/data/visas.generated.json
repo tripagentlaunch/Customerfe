@@ -1,12 +1,12 @@
 {
   "seo": {
-    "title": "Visas — TripAgent",
+    "title": "Visas | TripAgent",
     "description": "The paperwork no one enjoys, handled for you. Eligibility checked, documents prepared, applications filed and tracked, timed to your trip."
   },
   "hero": {
     "eyebrow": "Visas",
     "headingHtml": "The paperwork<br/>no one <span class=\"it\">enjoys</span>.",
-    "lede": "We check it, prepare it, file it and track it. We know the rules, the forms and the timelines — so a refusal or a missed window never costs you the trip.",
+    "lede": "We check it, prepare it, file it and track it. We know the rules, the forms and the timelines, so a refusal or a missed window never costs you the trip.",
     "image": "/_vercel/image?url=%2Fimg%2Fh%2Fvisas.jpg&w=2560&q=80",
     "buttons": [
       {
@@ -33,7 +33,7 @@
       {
         "no": "01",
         "heading": "Eligibility, checked",
-        "body": "We confirm what you need against the current rules — before you book anything that depends on it."
+        "body": "We confirm what you need against the current rules: before you book anything that depends on it."
       },
       {
         "no": "02",
@@ -66,12 +66,12 @@
     "leadNum": "i.",
     "eyebrow": "How it’s handled",
     "headingHtml": "We take the paperwork. You <span class=\"it\">pack</span> a bag.",
-    "lede": "From the first eligibility check to the passport back in your hand, your advisor holds the paperwork — forms, documents, appointment, follow-up — and keeps you posted at every step.",
+    "lede": "From the first eligibility check to the passport back in your hand, your advisor holds the paperwork: forms, documents, appointment, follow-up, and keeps you posted at every step.",
     "items": [
       "Eligibility and documents checked against current rules.",
       "Applications prepared and submitted on your behalf.",
       "Appointments booked, biometrics scheduled, status tracked.",
-      "Filed through VFS Global and the consulates’ official channels — the countries they cover, online and offline."
+      "Filed through VFS Global and the consulates’ official channels: the countries they cover, online and offline."
     ],
     "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fvisa-paperwork.jpg&w=2048&q=80"
   },
@@ -80,16 +80,16 @@
     "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fvisa-travel-essentials.jpg&w=2048&q=80",
     "eyebrow": "Start early",
     "heading": "Begun early, so the window stays open.",
-    "lede": "The most common way a trip is lost is a visa left too late. We time the paperwork against your flights and hotels from the start, so it is filed with room to spare — and tracked until it is approved.",
+    "lede": "The most common way a trip is lost is a visa left too late. We time the paperwork against your flights and hotels from the start, so it is filed with room to spare, and tracked until it is approved.",
     "items": [
       "Visa timelines mapped against your travel dates from day one.",
       "Buffer built in for processing, appointments and delays.",
-      "Tracked to approval — and chased if it stalls."
+      "Tracked to approval, and chased if it stalls."
     ]
   },
   "vtable": {
     "eyebrow": "At a glance",
-    "heading": "Where our members travel — and what it takes.",
+    "heading": "Where our members travel, and what it takes.",
     "lede": "Indicative guidance for Indian passport holders on tourist travel. Your advisor confirms the current requirement before anything is booked.",
     "headers": [
       "Destination",
@@ -121,7 +121,7 @@
         "processing": "Interview wait varies widely by city; plan months ahead",
         "biometrics": "Yes",
         "biometricsYes": true,
-        "note": "File the DS-160, secure the earliest viable interview slot, and prepare you for it — or pursue an interview waiver where a renewal qualifies."
+        "note": "File the DS-160, secure the earliest viable interview slot, and prepare you for it, or pursue an interview waiver where a renewal qualifies."
       },
       {
         "dest": "United Arab Emirates",
@@ -129,7 +129,7 @@
         "processing": "3–5 working days; express available",
         "biometrics": "No",
         "biometricsYes": false,
-        "note": "Arrange the e-visa end to end — no consulate visit. Among the fastest to issue; express handled when a trip is close."
+        "note": "Arrange the e-visa end to end: no consulate visit. Among the fastest to issue; express handled when a trip is close."
       },
       {
         "dest": "Singapore",
@@ -196,18 +196,18 @@
         "note": "Apply via Switzerland when it’s your main destination; secure the appointment early and prepare the full Schengen file."
       }
     ],
-    "note": "Guidance only — visa rules, fees and timelines change often and depend on your passport, history and purpose of travel. Nothing here guarantees issuance. Your advisor confirms the current, exact requirements before you commit to dates."
+    "note": "Guidance only: visa rules, fees and timelines change often and depend on your passport, history and purpose of travel. Nothing here guarantees issuance. Your advisor confirms the current, exact requirements before you commit to dates."
   },
   "signature": {
     "eyebrow": "Timing is everything",
     "lineHtml": "A visa left to the last week<br/>is how good trips quietly <span class=\"it\">fall apart</span>.",
-    "sub": "So it is the first thing we set in motion. We begin early and track it to approval — so the window stays open, and the only thing you pack is your bag.",
+    "sub": "So it is the first thing we set in motion. We begin early and track it to approval, so the window stays open, and the only thing you pack is your bag.",
     "image": "/_vercel/image?url=%2Fimg%2Fcities%2Famalfi-coast.jpg&w=2560&q=80"
   },
   "howItWorks": {
     "eyebrow": "How it works",
     "heading": "From one message to a stamp in your passport.",
-    "lede": "It begins the same way every time — one message on WhatsApp. Your advisor takes it from there.",
+    "lede": "It begins the same way every time: one message on WhatsApp. Your advisor takes it from there.",
     "cta": {
       "label": "Become a member",
       "href": "join.html"
@@ -241,7 +241,7 @@
     "items": [
       {
         "summary": "Which visas can you handle?",
-        "bodyHtml": "Tourist and visitor visas for the destinations our members travel to most — Schengen Europe, the UK, the US, the UAE, Singapore, Japan, Australia, Thailand and many more. Tell us where you are headed and we confirm what is required for your passport and itinerary. For specialist categories such as work or study, we say plainly when an immigration lawyer is the right hand."
+        "bodyHtml": "Tourist and visitor visas for the destinations our members travel to most: Schengen Europe, the UK, the US, the UAE, Singapore, Japan, Australia, Thailand and many more. Tell us where you are headed and we confirm what is required for your passport and itinerary. For specialist categories such as work or study, we say plainly when an immigration lawyer is the right hand."
       },
       {
         "summary": "Do you fill in the forms for me?",
@@ -249,11 +249,11 @@
       },
       {
         "summary": "How early should we start?",
-        "bodyHtml": "As soon as your trip is confirmed. Some visas clear in days; others — a US interview slot, a Schengen appointment in peak summer — can take weeks or months. We map the timeline against your travel dates from day one and build in a buffer for processing, appointments and delays, so the window never closes on you."
+        "bodyHtml": "As soon as your trip is confirmed. Some visas clear in days; others: a US interview slot, a Schengen appointment in peak summer, can take weeks or months. We map the timeline against your travel dates from day one and build in a buffer for processing, appointments and delays, so the window never closes on you."
       },
       {
         "summary": "What if a visa is refused?",
-        "bodyHtml": "We lower that risk sharply by checking eligibility honestly and preparing thoroughly — most refusals come from avoidable gaps. No one can promise an outcome; the decision rests with the consulate. If a problem arises, your advisor guides the next step, and we never let a trip hinge on a visa we have not planned for."
+        "bodyHtml": "We lower that risk sharply by checking eligibility honestly and preparing thoroughly: most refusals come from avoidable gaps. No one can promise an outcome; the decision rests with the consulate. If a problem arises, your advisor guides the next step, and we never let a trip hinge on a visa we have not planned for."
       },
       {
         "summary": "Do I have to go in person, or give biometrics?",
@@ -261,7 +261,7 @@
       },
       {
         "summary": "Can you arrange visas for my whole family or group?",
-        "bodyHtml": "Yes — families, multi-generation trips and groups travelling together. We keep everyone’s applications on the same timeline, manage children’s and dependants’ paperwork, and make sure no one application falls behind and holds up the rest."
+        "bodyHtml": "Yes: families, multi-generation trips and groups travelling together. We keep everyone’s applications on the same timeline, manage children’s and dependants’ paperwork, and make sure no one application falls behind and holds up the rest."
       },
       {
         "summary": "What about transit visas and multi-country trips?",
@@ -269,17 +269,17 @@
       },
       {
         "summary": "How is my data and privacy handled?",
-        "bodyHtml": "Visa applications involve sensitive documents — passports, financial papers, personal details. We collect only what an application requires, share it only with the relevant consulate or authorised visa centre, and never sell it. Your advisor is bound to discretion. The detail is in our <a href=\"/privacy\">privacy policy</a>."
+        "bodyHtml": "Visa applications involve sensitive documents: passports, financial papers, personal details. We collect only what an application requires, share it only with the relevant consulate or authorised visa centre, and never sell it. Your advisor is bound to discretion. The detail is in our <a href=\"/privacy\">privacy policy</a>."
       },
       {
         "summary": "Is this only visas?",
-        "bodyHtml": "Visas are one of three things we do completely — alongside <a href=\"/flights\">flights</a> and <a href=\"/hotels\">hotels</a>, sequenced into one seamless trip."
+        "bodyHtml": "Visas are one of three things we do completely: alongside <a href=\"/flights\">flights</a> and <a href=\"/hotels\">hotels</a>, sequenced into one seamless trip."
       }
     ]
   },
   "cta": {
     "eyebrow": "Our promise",
-    "headingHtml": "Your next visa — handled,<br/>until you are <span class=\"it\">home</span>.",
+    "headingHtml": "Your next visa: handled,<br/>until you are <span class=\"it\">home</span>.",
     "lede": "A private travel maison, by invitation. If you hold one, the paperwork is already in hand.",
     "buttons": [
       {

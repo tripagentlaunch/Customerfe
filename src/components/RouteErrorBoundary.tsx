@@ -27,7 +27,7 @@ class Boundary extends Component<{ children: ReactNode }, { failed: boolean }> {
               This page <span className="it">didn't open.</span>
             </h1>
             <p className="lede" style={{ margin: "18px auto 0", maxWidth: "44ch" }}>
-              It's on our side, not yours. Try again in a moment — or head back home and carry on from there.
+              It's on our side, not yours. Try again in a moment, or head back home and carry on from there.
             </p>
             <div className="btn-row center" style={{ marginTop: 28 }}>
               <button type="button" className="btn btn-gold" onClick={() => window.location.reload()}>

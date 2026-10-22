@@ -122,7 +122,7 @@ export default function EnquirePage() {
                 <div className={styles.formBody}>
                   <h3 style={{ fontSize: 26, marginBottom: 4 }}>Sign in to send your enquiry.</h3>
                   <p className="muted" style={{ fontSize: 14, marginBottom: 22 }}>
-                    TripAgent is by invitation — sign in with the email on your invitation so your advisor knows
+                    TripAgent is by invitation: sign in with the email on your invitation so your advisor knows
                     exactly who's reaching out.
                   </p>
                   <button
@@ -197,7 +197,7 @@ export default function EnquirePage() {
                 </svg>
                 {submitted ? (
                   <>
-                    <h3 style={{ fontSize: 30 }}>Thank you — we've got it.</h3>
+                    <h3 style={{ fontSize: 30 }}>Thank you. We've got it.</h3>
                     <p className="lede" style={{ margin: "12px auto 8px", maxWidth: "40ch" }}>
                       Your advisor will be in touch shortly to help shape this trip.
                     </p>

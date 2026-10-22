@@ -1,7 +1,7 @@
 {
   "seo": {
-    "title": "How it works — TripAgent",
-    "description": "One message. A named advisor plans, books and looks after every journey — flights, hotels and visas — and stays with you until you are home."
+    "title": "How it works | TripAgent",
+    "description": "One message. A named advisor plans, books and looks after every journey: flights, hotels and visas, and stays with you until you are home."
   },
   "hero": {
     "eyebrow": "How it works",
@@ -36,7 +36,7 @@
       {
         "nn": "02",
         "heading": "A few good options",
-        "body": "Two or three worth your time — never a wall of results. You see the price, not the workings."
+        "body": "Two or three worth your time: never a wall of results. You see the price, not the workings."
       },
       {
         "nn": "03",
@@ -51,7 +51,7 @@
       {
         "nn": "05",
         "heading": "We stay until you're home",
-        "body": "A change, a delay, a flight rebooked before you wake — handled. We check in after you land."
+        "body": "A change, a delay, a flight rebooked before you wake: handled. We check in after you land."
       }
     ]
   },
@@ -60,7 +60,7 @@
     "liveLabel": "Live",
     "headingHtml": "From a wish to a <span class=\"it\">journey</span>.",
     "ledes": [
-      "A real exchange. Answered in moments, suites held, visas filed before you've decided — all in one thread.",
+      "A real exchange. Answered in moments, suites held, visas filed before you've decided: all in one thread.",
       "No portal. No forms. No queue. A person who already knows you, on the app in your pocket."
     ],
     "ctaLabel": "What we handle",
@@ -72,7 +72,7 @@
       "messages": [
         {
           "type": "out",
-          "text": "An anniversary in May. Italy — seven nights, somewhere unforgettable.",
+          "text": "An anniversary in May. Italy: seven nights, somewhere unforgettable.",
           "faded": false
         },
         {
@@ -80,7 +80,7 @@
           "whoKind": "ai",
           "whoLabel": "AI Concierge",
           "whoAvatar": null,
-          "text": "Lovely. Lakes and old-world rooms over crowds — does that sound right?"
+          "text": "Lovely. Lakes and old-world rooms over crowds: does that sound right?"
         },
         {
           "type": "in",
@@ -117,12 +117,12 @@
       ]
     }
   },
-  "pq": "A flight rebooked before you wake — handled.",
+  "pq": "A flight rebooked before you wake: handled.",
   "rescue": {
     "eyebrow": "When it matters",
     "headingHtml": "The difference shows at <span class=\"it\">2 a.m.</span>",
     "ledes": [
-      "Anyone can sell a ticket. The test is when it goes wrong — a storm, a strike, a missed connection in a city you don't know. That's when one person who already has your details is worth everything.",
+      "Anyone can sell a ticket. The test is when it goes wrong: a storm, a strike, a missed connection in a city you don't know. That's when one person who already has your details is worth everything.",
       "Most disappear the moment you pay. We do the opposite."
     ],
     "phone": {
@@ -140,7 +140,7 @@
           "whoKind": "human",
           "whoLabel": "Priya · your advisor",
           "whoAvatar": "P",
-          "text": "Already rebooked — 9:40 tomorrow, same cabin, no change fee. Rest."
+          "text": "Already rebooked: 9:40 tomorrow, same cabin, no change fee. Rest."
         }
       ]
     }
@@ -148,7 +148,7 @@
   "sig": {
     "eyebrow": "The whole way",
     "headingHtml": "Most stop when you <span class=\"em\">pay</span>.<br/>We stay until you are <span class=\"em\">home</span>.",
-    "lede": "Enquiry, booking, departure, the trip, the way home — every step, including the ones no one else shows up for.",
+    "lede": "Enquiry, booking, departure, the trip, the way home: every step, including the ones no one else shows up for.",
     "image": "/_vercel/image?url=%2Fimg%2Fh3%2Fhow-it-works.jpg&w=2560&q=80"
   },
   "cta": {

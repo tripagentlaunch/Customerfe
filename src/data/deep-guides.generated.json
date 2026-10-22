@@ -2,8 +2,8 @@
   "suites-worth-it": {
     "slug": "suites-worth-it",
     "seo": {
-      "title": "When a Suite Is Worth It \u2014 TripAgent",
-      "description": "What an upgrade truly gives you \u2014 space, a room apart, lounge access and the view \u2014 and the nights a suite earns its price against a well-chosen room."
+      "title": "When a Suite Is Worth It | TripAgent",
+      "description": "What an upgrade truly gives you: space, a room apart, lounge access and the view, and the nights a suite earns its price against a well-chosen room."
     },
     "hero": {
       "back": {
@@ -27,7 +27,7 @@
       "eyebrow": "The question",
       "note": "A suite can cost twice the room. Some trips, it's the best money you spend. Others, it's the first thing to let go.",
       "statement": "Buy the use, not the size.",
-      "lede": "A suite is judged by how you'll live in it, not its dimensions on a rate sheet. Two of you, two nights, out most of the day \u2014 a fine room with the right view will serve you better. A family of four, a week in one place, an occasion to mark, or work to finish while someone naps \u2014 and a sitting room of your own stops being a luxury. It becomes the reason the trip works. The art is matching the room to the life you'll lead in it."
+      "lede": "A suite is judged by how you'll live in it, not its dimensions on a rate sheet. Two of you, two nights, out most of the day: a fine room with the right view will serve you better. A family of four, a week in one place, an occasion to mark, or work to finish while someone naps, and a sitting room of your own stops being a luxury. It becomes the reason the trip works. The art is matching the room to the life you'll lead in it."
     },
     "idx": {
       "eyebrow": "What it buys",
@@ -35,10 +35,10 @@
       "lede": "Past the square footage, an upgrade tends to carry five things that quietly change a stay.",
       "items": [
         {
-          "bodyHtml": "<strong>A second room.</strong> The biggest difference by far. Somewhere to take a call, mind a sleeping child, dress for dinner or simply sit apart \u2014 so two or more of you aren't living in one room for a week."
+          "bodyHtml": "<strong>A second room.</strong> The biggest difference by far. Somewhere to take a call, mind a sleeping child, dress for dinner or simply sit apart, so two or more of you aren't living in one room for a week."
         },
         {
-          "bodyHtml": "<strong>The better outlook.</strong> Suites sit where the view is \u2014 the corner, the higher floor, the side that faces the sea or the park rather than the car court. Much of the price is really for the position."
+          "bodyHtml": "<strong>The better outlook.</strong> Suites sit where the view is: the corner, the higher floor, the side that faces the sea or the park rather than the car court. Much of the price is really for the position."
         },
         {
           "bodyHtml": "<strong>Lounge and club access.</strong> Many suites carry club-floor privileges: a quiet breakfast, refreshments through the day, evening canap\u00e9s and a private check-in. On a longer or family stay, that can return a real part of the cost in food and calm."
@@ -47,7 +47,7 @@
           "bodyHtml": "<strong>Room for an occasion.</strong> A terrace for a private dinner, a sitting room for a toast, space for the hotel to dress it for an anniversary or a proposal. The suite becomes the setting, not just the bed."
         },
         {
-          "bodyHtml": "<strong>Recognition.</strong> A suite tends to draw the property's closest attention \u2014 the unpacking, the earlier check-in, the manager's note. The care often rises with the category."
+          "bodyHtml": "<strong>Recognition.</strong> A suite tends to draw the property's closest attention: the unpacking, the earlier check-in, the manager's note. The care often rises with the category."
         }
       ]
     },
@@ -59,12 +59,12 @@
     "vrow": {
       "eyebrow": "The call we'd make",
       "heading": "Worth it, and not.",
-      "lede": "The way we weigh it before suggesting the upgrade \u2014 though the right answer is always the one that fits your trip.",
+      "lede": "The way we weigh it before suggesting the upgrade, though the right answer is always the one that fits your trip.",
       "items": [
-        "<strong>Worth it</strong> \u2014 three or more nights in one place; travelling as a family or a group; an occasion to mark; or a property where the suites hold the only real views.",
-        "<strong>Worth it</strong> \u2014 when club access comes with it and you'll use the breakfast and the evening service; the value quietly closes much of the gap.",
-        "<strong>Often not</strong> \u2014 a night or two in the city, out all day, where a well-chosen high room serves you just as well for far less.",
-        "<strong>Our move</strong> \u2014 book the right room and let us pursue the suite as a complimentary upgrade through a preferred-partner programme, so you may arrive in one without paying for it."
+        "<strong>Worth it</strong>three or more nights in one place; travelling as a family or a group; an occasion to mark; or a property where the suites hold the only real views.",
+        "<strong>Worth it</strong>when club access comes with it and you'll use the breakfast and the evening service; the value quietly closes much of the gap.",
+        "<strong>Often not</strong>a night or two in the city, out all day, where a well-chosen high room serves you just as well for far less.",
+        "<strong>Our move</strong>book the right room and let us pursue the suite as a complimentary upgrade through a preferred-partner programme, so you may arrive in one without paying for it."
       ],
       "image": "/_vercel/image?url=%2Fimg%2Fh%2Fsuites-worth-it.jpg&w=2048&q=80"
     },
@@ -92,8 +92,8 @@
   "the-right-room": {
     "slug": "the-right-room",
     "seo": {
-      "title": "How the Right Room Is Chosen \u2014 TripAgent",
-      "description": "Two rooms at the same rate can be far apart \u2014 the view, the floor, the wing, away from the lift. How we find the right room within a category, and ask for it."
+      "title": "How the Right Room Is Chosen | TripAgent",
+      "description": "Two rooms at the same rate can be far apart: the view, the floor, the wing, away from the lift. How we find the right room within a category, and ask for it."
     },
     "hero": {
       "back": {
@@ -102,7 +102,7 @@
       },
       "eyebrow": "Stay guide \u00b7 the room itself",
       "headingHtml": "The same rate.<br/>Not the same <span class=\"it\">room</span>.",
-      "lede": "Within one category, two rooms can be far apart \u2014 the side facing the sea or the car park, the floor that is quiet or the one above the bar. The right room is half the stay.",
+      "lede": "Within one category, two rooms can be far apart: the side facing the sea or the car park, the floor that is quiet or the one above the bar. The right room is half the stay.",
       "image": "/_vercel/image?url=%2Fimg%2Fh%2Fthe-right-room.jpg&w=2560&q=80",
       "ctaGold": {
         "label": "Plan a trip",
@@ -117,24 +117,24 @@
       "eyebrow": "The thing nobody books",
       "note": "A booking site sells you a category. It won't tell you that rooms 412 and 419 share a wall with the lift shaft.",
       "statement": "The category is the start, not the answer.",
-      "lede": "Book a \"deluxe king\" and you have chosen a price band, not a place. One category can hold the best corner with the view and the worst room over the kitchen extractor. Hotels keep this in their floor plans and rarely offer it. Our work is to know, property by property, which rooms are which \u2014 and to ask for the right one inside the category you have paid for."
+      "lede": "Book a \"deluxe king\" and you have chosen a price band, not a place. One category can hold the best corner with the view and the worst room over the kitchen extractor. Hotels keep this in their floor plans and rarely offer it. Our work is to know, property by property, which rooms are which, and to ask for the right one inside the category you have paid for."
     },
     "idx": {
       "eyebrow": "What we weigh",
       "heading": "How the room is chosen.",
-      "lede": "The questions we work through before a request reaches the property \u2014 most of them invisible on a booking page.",
+      "lede": "The questions we work through before a request reaches the property: most of them invisible on a booking page.",
       "items": [
         {
           "bodyHtml": "<strong>The view, honestly.</strong> Sea-facing and \"sea-view\" are not the same; a sliver past a wall is sold as both. We ask which rooms truly hold the outlook, and which \"view\" is a technicality."
         },
         {
-          "bodyHtml": "<strong>The floor.</strong> High for the outlook and the quiet, or low for a short walk to the pool and the garden \u2014 and never the floor directly above the lobby bar, the kitchen or the nightclub."
+          "bodyHtml": "<strong>The floor.</strong> High for the outlook and the quiet, or low for a short walk to the pool and the garden, and never the floor directly above the lobby bar, the kitchen or the nightclub."
         },
         {
           "bodyHtml": "<strong>Away from the noise.</strong> Off the lift shaft and the ice machine, clear of the service corridor and the rooftop speakers. The room you don't hear is the one you sleep in."
         },
         {
-          "bodyHtml": "<strong>The wing and aspect.</strong> The renovated wing over the older one, the garden side over the street, the morning sun or the sunset \u2014 depending on how you wake and how you unwind."
+          "bodyHtml": "<strong>The wing and aspect.</strong> The renovated wing over the older one, the garden side over the street, the morning sun or the sunset: depending on how you wake and how you unwind."
         },
         {
           "bodyHtml": "<strong>The shape of the room.</strong> A corner for the light and the space, a connecting door for a family, a balcony you would use, a bath you would choose."
@@ -146,7 +146,7 @@
     },
     "signature": {
       "by": "The detail that decides it",
-      "pullHtml": "A room number is just a number \u2014 until someone who knows the building tells you which one to ask for.",
+      "pullHtml": "A room number is just a number, until someone who knows the building tells you which one to ask for.",
       "image": "/_vercel/image?url=%2Fimg%2Fh3%2Fthe-right-room.jpg&w=2560&q=80"
     },
     "vrow": {
@@ -154,16 +154,16 @@
       "heading": "Asked in writing, not at the desk.",
       "lede": "Knowing the right room only matters if you get it. The difference is in how the request is made, and when.",
       "items": [
-        "The preference is lodged with the property in writing at the time of booking \u2014 specific rooms or attributes named, not a vague \"high floor please\" at check-in.",
+        "The preference is lodged with the property in writing at the time of booking: specific rooms or attributes named, not a vague \"high floor please\" at check-in.",
         "We confirm again the day before you arrive, when the next night's allocation is being set and a request is most likely to land.",
-        "Where we know the property well, we ask for the room we would choose ourselves \u2014 and name the ones to avoid.",
+        "Where we know the property well, we ask for the room we would choose ourselves, and name the ones to avoid.",
         "If the right room can't be promised, we say so, and arrange for you to be first in line if a better one frees up."
       ],
       "image": "/_vercel/image?url=%2Fimg%2Fh%2Fthe-right-room.jpg&w=2048&q=80"
     },
     "line": {
       "eyebrow": "Where we come in",
-      "text": "The rate gets you the category. We get you the room within it \u2014 the view that's real, the floor that's quiet, the side that's yours. Tell us how you like to wake, and we will ask for the rest."
+      "text": "The rate gets you the category. We get you the room within it: the view that's real, the floor that's quiet, the side that's yours. Tell us how you like to wake, and we will ask for the rest."
     },
     "cta": {
       "eyebrow": "Your move",
@@ -185,8 +185,8 @@
   "hotel-programmes": {
     "slug": "hotel-programmes",
     "seo": {
-      "title": "How Preferred-Partner Programmes Work \u2014 TripAgent",
-      "description": "The same room can carry more \u2014 an upgrade, breakfast, a property credit, a later checkout. How preferred-partner programmes work, and how your advisor books one."
+      "title": "How Preferred-Partner Programmes Work | TripAgent",
+      "description": "The same room can carry more: an upgrade, breakfast, a property credit, a later checkout. How preferred-partner programmes work, and how your advisor books one."
     },
     "hero": {
       "back": {
@@ -195,7 +195,7 @@
       },
       "eyebrow": "Stay guide \u00b7 preferred partners",
       "headingHtml": "The same room,<br/>worth <span class=\"it\">more</span>.",
-      "lede": "Booked through a preferred-partner programme, a stay carries what the public rate does not \u2014 an upgrade, breakfast, a credit, a later checkout. Here is how that works, plainly.",
+      "lede": "Booked through a preferred-partner programme, a stay carries what the public rate does not: an upgrade, breakfast, a credit, a later checkout. Here is how that works, plainly.",
       "image": "/_vercel/image?url=%2Fimg%2Fh%2Fhotel-programmes.jpg&w=2560&q=80",
       "ctaGold": {
         "label": "Plan a trip",
@@ -210,27 +210,27 @@
       "eyebrow": "The idea",
       "note": "A hotel values a guest who arrives well-known and likely to return. A trusted travel relationship is how that value reaches you.",
       "statement": "Recognition, built into the booking.",
-      "lede": "The world's leading hotel groups run formal programmes for the travel houses they trust. The relationship lets a property add real value to a stay, settled before you arrive rather than asked for at the desk. The room is often the same room. What changes is what comes with it, and the welcome that meets it. Inclusions vary by group and property, so we confirm the current terms for your booking \u2014 and never quote fine print we cannot verify."
+      "lede": "The world's leading hotel groups run formal programmes for the travel houses they trust. The relationship lets a property add real value to a stay, settled before you arrive rather than asked for at the desk. The room is often the same room. What changes is what comes with it, and the welcome that meets it. Inclusions vary by group and property, so we confirm the current terms for your booking, and never quote fine print we cannot verify."
     },
     "idx": {
       "eyebrow": "What's typically included",
       "heading": "The same night, with more.",
-      "lede": "Across most preferred programmes you'll find a familiar set of inclusions \u2014 subject to availability, and confirmed for your stay.",
+      "lede": "Across most preferred programmes you'll find a familiar set of inclusions: subject to availability, and confirmed for your stay.",
       "items": [
         {
-          "bodyHtml": "<strong>A room upgrade.</strong> One category up on arrival where rooms allow \u2014 a higher floor, a better view, more space \u2014 asked for ahead and confirmed, not left to chance at the desk."
+          "bodyHtml": "<strong>A room upgrade.</strong> One category up on arrival where rooms allow: a higher floor, a better view, more space, asked for ahead and confirmed, not left to chance at the desk."
         },
         {
-          "bodyHtml": "<strong>Daily breakfast.</strong> Full breakfast for two, most days \u2014 a quiet saving that adds up over a stay, and one less thing to settle each morning."
+          "bodyHtml": "<strong>Daily breakfast.</strong> Full breakfast for two, most days: a quiet saving that adds up over a stay, and one less thing to settle each morning."
         },
         {
-          "bodyHtml": "<strong>A property credit.</strong> An amount to spend on dining, the spa or the bar \u2014 often in the region of US$100 per stay, applied to your account, varying by group and property."
+          "bodyHtml": "<strong>A property credit.</strong> An amount to spend on dining, the spa or the bar: often in the region of US$100 per stay, applied to your account, varying by group and property."
         },
         {
-          "bodyHtml": "<strong>Early in, late out.</strong> Early check-in and late checkout where the house can offer it \u2014 so a dawn arrival or an evening flight home isn't spent in a lobby."
+          "bodyHtml": "<strong>Early in, late out.</strong> Early check-in and late checkout where the house can offer it, so a dawn arrival or an evening flight home isn't spent in a lobby."
         },
         {
-          "bodyHtml": "<strong>The welcome.</strong> A note, a small amenity, your preferences already known \u2014 the sense that the property was expecting you by name."
+          "bodyHtml": "<strong>The welcome.</strong> A note, a small amenity, your preferences already known: the sense that the property was expecting you by name."
         }
       ]
     },
@@ -244,7 +244,7 @@
       "heading": "Honest about the rules.",
       "lede": "These programmes are real, not magic. We'd rather you knew the edges before you book.",
       "items": [
-        "The booking is made through our relationship with the group, so the inclusions belong to your reservation \u2014 not a favour asked at reception.",
+        "The booking is made through our relationship with the group, so the inclusions belong to your reservation, not a favour asked at reception.",
         "The upgrade and the better room depend on availability on the day. We ask in writing ahead, confirm the day before, and tell you the odds at a full house.",
         "Inclusions vary by hotel group and property, and they can change. We read the current terms for your dates and tell you exactly what your stay carries.",
         "The rate is often at or below the public price. Where a hotel's own loyalty rate would serve you better, we say so."
@@ -253,7 +253,7 @@
     },
     "line": {
       "eyebrow": "A word on your own status",
-      "text": "In most cases you keep earning and enjoying your own loyalty status alongside these inclusions. On the rare night a special rate and a loyalty benefit can't both apply, we put the choice in front of you \u2014 so you decide, never us."
+      "text": "In most cases you keep earning and enjoying your own loyalty status alongside these inclusions. On the rare night a special rate and a loyalty benefit can't both apply, we put the choice in front of you, so you decide, never us."
     },
     "cta": {
       "eyebrow": "Your move",

@@ -2,7 +2,7 @@
   "journal-business-or-first": {
     "slug": "journal-business-or-first",
     "seo": {
-      "title": "Business or first? \u2014 The Journal \u00b7 TripAgent",
+      "title": "Business or first? The Journal \u00b7 TripAgent",
       "description": "When first class is worth it, and when business is the wiser buy. An honest guide for the long flights you take most.",
       "ogImage": "https://tripagent-site.vercel.app/img/og.jpg"
     },
@@ -27,7 +27,7 @@
       "nodes": [
         {
           "kind": "leadPara",
-          "html": "Business class has changed a great deal. On a good long-haul aircraft today, business gives you a fully flat bed, a closing door, direct aisle access and a meal worth sitting up for. Twenty years ago that was first. So the real question is no longer <b>\"is the front cabin good?\"</b> \u2014 it is \u2014 but <b>\"what does first give me that business no longer does, and is that worth the gap on this flight?\"</b>"
+          "html": "Business class has changed a great deal. On a good long-haul aircraft today, business gives you a fully flat bed, a closing door, direct aisle access and a meal worth sitting up for. Twenty years ago that was first. So the real question is no longer <b>\"is the front cabin good?\"</b>it is, but <b>\"what does first give me that business no longer does, and is that worth the gap on this flight?\"</b>"
         },
         {
           "kind": "heading",
@@ -47,11 +47,11 @@
         },
         {
           "kind": "paragraph",
-          "html": "There are flights where the front cabin earns its price, and they have a few things in common. <b>The very long ones</b> \u2014 the ultra-long-hauls, where arriving rested is the whole point of the trip. <b>The ones that matter</b> \u2014 the journey before a wedding, a milestone, a celebration you make once in a decade, where the flight is part of the occasion. And the routes flown by the few airlines whose first class is a reason to choose them at all."
+          "html": "There are flights where the front cabin earns its price, and they have a few things in common. <b>The very long ones</b>the ultra-long-hauls, where arriving rested is the whole point of the trip. <b>The ones that matter</b>the journey before a wedding, a milestone, a celebration you make once in a decade, where the flight is part of the occasion. And the routes flown by the few airlines whose first class is a reason to choose them at all."
         },
         {
           "kind": "paragraph",
-          "html": "There is a quieter case too. Sometimes the gap to first is smaller than the headline price suggests \u2014 through the right fare, a points redemption, or an upgrade that clears. On those days, the better cabin is closer than it looks, and worth taking."
+          "html": "There is a quieter case too. Sometimes the gap to first is smaller than the headline price suggests: through the right fare, a points redemption, or an upgrade that clears. On those days, the better cabin is closer than it looks, and worth taking."
         },
         {
           "kind": "heading",
@@ -67,7 +67,7 @@
           "items": [
             "The flight is short of the very longest hauls, where business already gives you a full flat-bed rest.",
             "It's a daytime sector you'll spend working or watching, not sleeping.",
-            "The first class on the route isn't much better than the business \u2014 not every airline's is.",
+            "The first class on the route isn't much better than the business, not every airline's is.",
             "You'd rather the difference went to the stay, the suite or what's waiting for you."
           ]
         },
@@ -76,7 +76,7 @@
         },
         {
           "kind": "paragraph",
-          "html": "We don't push the most expensive cabin. We read the flight \u2014 the length, the timing, the airline, the occasion \u2014 and tell you honestly where your money does the most good. Then we hold the fare, the seat and the cabin to match. The point was never to fly first for its own sake. It was to arrive the way you wanted, and to spend well on the way. That is ours to get right, on every flight we book for you."
+          "html": "We don't push the most expensive cabin. We read the flight: the length, the timing, the airline, the occasion, and tell you honestly where your money does the most good. Then we hold the fare, the seat and the cabin to match. The point was never to fly first for its own sake. It was to arrive the way you wanted, and to spend well on the way. That is ours to get right, on every flight we book for you."
         }
       ]
     },
@@ -99,8 +99,8 @@
   "journal-diwali-getaways": {
     "slug": "journal-diwali-getaways",
     "seo": {
-      "title": "Away for Diwali \u2014 The Journal \u00b7 TripAgent",
-      "description": "Where to go for Diwali \u2014 a guide for the long weekend or the full week, why the festival window fills first, and how your advisor plans it well ahead.",
+      "title": "Away for Diwali: The Journal \u00b7 TripAgent",
+      "description": "Where to go for Diwali: a guide for the long weekend or the full week, why the festival window fills first, and how your advisor plans it well ahead.",
       "ogImage": "https://tripagent-site.vercel.app/img/og.jpg"
     },
     "hero": {
@@ -132,7 +132,7 @@
         },
         {
           "kind": "paragraph",
-          "html": "If you have a few days rather than a fortnight, stay within easy reach and arrive quickly. <b>Dubai and Abu Dhabi</b> are at their seasonal best as the heat breaks \u2014 a short flight, no jet lag, and bright with the festival. <b>Sri Lanka and the Maldives</b> sit a short hop away, the islands turning toward their finest months. <b>Singapore and Bangkok</b> reward a city-and-spa long weekend. The whole art of the short Diwali break is choosing somewhere close enough that the travel never eats the holiday."
+          "html": "If you have a few days rather than a fortnight, stay within easy reach and arrive quickly. <b>Dubai and Abu Dhabi</b> are at their seasonal best as the heat breaks: a short flight, no jet lag, and bright with the festival. <b>Sri Lanka and the Maldives</b> sit a short hop away, the islands turning toward their finest months. <b>Singapore and Bangkok</b> reward a city-and-spa long weekend. The whole art of the short Diwali break is choosing somewhere close enough that the travel never eats the holiday."
         },
         {
           "kind": "blockquote",
@@ -144,7 +144,7 @@
         },
         {
           "kind": "paragraph",
-          "html": "With the longer break, the world opens up \u2014 and the cooling weather at home means much of it is in fine season too. <b>Europe in autumn</b> is gentle and uncrowded, the cities at their most walkable. <b>South-East Asia</b> moves into its dry months. <b>Japan</b> in late October and November is at its peak as the leaves turn. Use the rare run of consecutive days for somewhere a long weekend could never reach \u2014 and settle it before the festival rush does."
+          "html": "With the longer break, the world opens up, and the cooling weather at home means much of it is in fine season too. <b>Europe in autumn</b> is gentle and uncrowded, the cities at their most walkable. <b>South-East Asia</b> moves into its dry months. <b>Japan</b> in late October and November is at its peak as the leaves turn. Use the rare run of consecutive days for somewhere a long weekend could never reach, and settle it before the festival rush does."
         },
         {
           "kind": "heading",
@@ -152,14 +152,14 @@
         },
         {
           "kind": "paragraph",
-          "html": "Diwali is the hardest window of the Indian travel year to book well. Premium-cabin seats out of the major cities go first; the finest hotels and villas take their festival-week reservations months ahead; and the visa centres, already busy, feel the same surge. None of this is a reason not to go. It is simply a reason to decide now \u2014 because the difference between a wonderful Diwali abroad and an anxious one is, almost entirely, a matter of timing."
+          "html": "Diwali is the hardest window of the Indian travel year to book well. Premium-cabin seats out of the major cities go first; the finest hotels and villas take their festival-week reservations months ahead; and the visa centres, already busy, feel the same surge. None of this is a reason not to go. It is simply a reason to decide now, because the difference between a wonderful Diwali abroad and an anxious one is, almost entirely, a matter of timing."
         },
         {
           "kind": "list",
           "className": "lux-list",
           "items": [
             "We plan the festival window early, while the best seats, rooms and villas are still there to be had.",
-            "We match the destination to the days you actually have \u2014 a long weekend close by, or a full week further out.",
+            "We match the destination to the days you actually have: a long weekend close by, or a full week further out.",
             "We secure the visa ahead of the rush, confirmed against the current requirements for your route.",
             "We hold flexible fares where we can, so a shifting festival date never unsettles your plans."
           ]
@@ -169,7 +169,7 @@
         },
         {
           "kind": "paragraph",
-          "html": "A Diwali away should feel like a gift, not a scramble. Tell us the days you'll have and the kind of break you want. We'll plan it well ahead \u2014 the flights, the stay, the visa \u2014 and look after the whole journey until you are home."
+          "html": "A Diwali away should feel like a gift, not a scramble. Tell us the days you'll have and the kind of break you want. We'll plan it well ahead: the flights, the stay, the visa, and look after the whole journey until you are home."
         }
       ]
     },
@@ -178,7 +178,7 @@
       "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fmarrakech.jpg&w=2048&q=80",
       "eyebrow": "Your move",
       "heading": "Plan the festival break early.",
-      "lede": "Tell us the days you'll have for Diwali. We'll find where to spend them and settle it before the rush \u2014 flights, stay and visa.",
+      "lede": "Tell us the days you'll have for Diwali. We'll find where to spend them and settle it before the rush: flights, stay and visa.",
       "ctaPrimary": {
         "label": "Plan a trip",
         "href": "enquire.html"
@@ -192,8 +192,8 @@
   "journal-evisa-or-sticker": {
     "slug": "journal-evisa-or-sticker",
     "seo": {
-      "title": "eVisa or sticker visa? \u2014 The Journal \u00b7 TripAgent",
-      "description": "An eVisa or a sticker visa, explained plainly for Indian travellers \u2014 what changes for you, and what your advisor takes care of either way.",
+      "title": "eVisa or sticker visa? The Journal \u00b7 TripAgent",
+      "description": "An eVisa or a sticker visa, explained plainly for Indian travellers: what changes for you, and what your advisor takes care of either way.",
       "ogImage": "https://tripagent-site.vercel.app/img/og.jpg"
     },
     "hero": {
@@ -205,7 +205,7 @@
       },
       "kicker": "The Journal \u00b7 Plainly put",
       "headingHtml": "eVisa, or <span class=\"it\">sticker</span> visa?",
-      "lede": "Two words that decide how your trip begins. Here is the difference, in plain English \u2014 and what changes for you when it's looked after.",
+      "lede": "Two words that decide how your trip begins. Here is the difference, in plain English, and what changes for you when it's looked after.",
       "meta": [
         "The Journal",
         "Visas",
@@ -217,7 +217,7 @@
       "nodes": [
         {
           "kind": "leadPara",
-          "html": "Set the jargon aside, and a visa is simply a country's permission to enter, recorded in one of two ways. An <b>eVisa</b> is issued electronically \u2014 you apply online, and the approval arrives as a document you carry or that is linked to your passport number. A <b>sticker visa</b> is the physical label fixed into your passport, which usually means the passport itself must reach the consulate. Almost everything that feels anxious about visas comes from that one difference."
+          "html": "Set the jargon aside, and a visa is simply a country's permission to enter, recorded in one of two ways. An <b>eVisa</b> is issued electronically: you apply online, and the approval arrives as a document you carry or that is linked to your passport number. A <b>sticker visa</b> is the physical label fixed into your passport, which usually means the passport itself must reach the consulate. Almost everything that feels anxious about visas comes from that one difference."
         },
         {
           "kind": "heading",
@@ -225,7 +225,7 @@
         },
         {
           "kind": "paragraph",
-          "html": "An eVisa is the gentler of the two. You complete a form on an official portal, upload your photograph and documents, pay the fee, and wait for an emailed approval. Your passport stays in your hand the whole time \u2014 which matters if you travel often, or hold visas for several countries at once."
+          "html": "An eVisa is the gentler of the two. You complete a form on an official portal, upload your photograph and documents, pay the fee, and wait for an emailed approval. Your passport stays in your hand the whole time, which matters if you travel often, or hold visas for several countries at once."
         },
         {
           "kind": "paragraph",
@@ -233,7 +233,7 @@
         },
         {
           "kind": "blockquote",
-          "html": "An eVisa looks effortless. It is \u2014 once the form is filled the way the portal quietly expects."
+          "html": "An eVisa looks effortless. It is: once the form is filled the way the portal quietly expects."
         },
         {
           "kind": "heading",
@@ -245,7 +245,7 @@
         },
         {
           "kind": "paragraph",
-          "html": "It asks more of you, and it rewards an early start. The document list runs longer \u2014 proof of funds, confirmed bookings, travel insurance, a clear day-by-day plan \u2014 and appointment slots in peak season fill weeks ahead. None of it is hard. It is simply unforgiving of being left late."
+          "html": "It asks more of you, and it rewards an early start. The document list runs longer: proof of funds, confirmed bookings, travel insurance, a clear day-by-day plan, and appointment slots in peak season fill weeks ahead. None of it is hard. It is simply unforgiving of being left late."
         },
         {
           "kind": "heading",
@@ -257,13 +257,13 @@
         },
         {
           "kind": "paragraph",
-          "html": "This is where having someone alongside you earns its place. We don't ask you to read the rulebook \u2014 <b>your advisor confirms the current requirement for your passport and route before anything is filed</b>, so you never plan around an assumption that has quietly gone out of date."
+          "html": "This is where having someone alongside you earns its place. We don't ask you to read the rulebook<b>your advisor confirms the current requirement for your passport and route before anything is filed</b>, so you never plan around an assumption that has quietly gone out of date."
         },
         {
           "kind": "list",
           "className": "lux-list",
           "items": [
-            "We tell you which format applies for your nationality and trip, checked against current rules \u2014 never from memory.",
+            "We tell you which format applies for your nationality and trip, checked against current rules: never from memory.",
             "For an eVisa, we prepare the form, the photo, the schedule and the proof of funds to the portal's exact spec, then submit it and watch it through.",
             "For a sticker, we book the appointment, assemble the file, and manage the passport-lodging window around your travel dates.",
             "We start early enough that peak-season demand stays our concern, not yours."
@@ -274,7 +274,7 @@
         },
         {
           "kind": "paragraph",
-          "html": "The format is a detail you should be free to forget. Whether your visa arrives as an email or a label in your passport, the work of getting it right is ours \u2014 prepared, filed and tracked to the issued approval, so the only thing left for you is to pack. That is how we'd rather every journey began."
+          "html": "The format is a detail you should be free to forget. Whether your visa arrives as an email or a label in your passport, the work of getting it right is ours: prepared, filed and tracked to the issued approval, so the only thing left for you is to pack. That is how we'd rather every journey began."
         }
       ]
     },
@@ -283,7 +283,7 @@
       "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fdubai.jpg&w=2048&q=80",
       "eyebrow": "Your move",
       "heading": "Tell us where, and leave the visa to us.",
-      "lede": "Name the country and the dates. We'll confirm what's required, prepare it, file it and see it through \u2014 alongside the flights and the stay.",
+      "lede": "Name the country and the dates. We'll confirm what's required, prepare it, file it and see it through: alongside the flights and the stay.",
       "ctaPrimary": {
         "label": "Plan a trip",
         "href": "enquire.html"
@@ -297,8 +297,8 @@
   "journal-india-to-europe-spring": {
     "slug": "journal-india-to-europe-spring",
     "seo": {
-      "title": "India to Europe, in spring \u2014 The Journal \u00b7 TripAgent",
-      "description": "Why spring is the loveliest time to travel from India to Europe \u2014 the weather, the flights, and the Schengen visa that rewards starting early.",
+      "title": "India to Europe, in spring: The Journal \u00b7 TripAgent",
+      "description": "Why spring is the loveliest time to travel from India to Europe: the weather, the flights, and the Schengen visa that rewards starting early.",
       "ogImage": "https://tripagent-site.vercel.app/img/og.jpg"
     },
     "hero": {
@@ -310,7 +310,7 @@
       },
       "kicker": "The Journal \u00b7 The crossing",
       "headingHtml": "India to Europe, in <span class=\"it\">spring</span>.",
-      "lede": "The loveliest weeks to leave the heat at home and arrive in a Europe just coming into bloom \u2014 and the one piece of paperwork worth starting early.",
+      "lede": "The loveliest weeks to leave the heat at home and arrive in a Europe just coming into bloom, and the one piece of paperwork worth starting early.",
       "meta": [
         "The Journal",
         "Europe \u00b7 ex-India",
@@ -322,7 +322,7 @@
       "nodes": [
         {
           "kind": "leadPara",
-          "html": "By April and May, much of India is bracing for summer while Europe is doing the opposite \u2014 easing into its gentlest season. The gardens are in flower. The caf\u00e9 terraces have reopened. The great cities are warm by day and cool by evening, and the crowds of high summer are still weeks away. For an Indian traveller, the timing is ideal: out of the building heat at home, into Europe at its best."
+          "html": "By April and May, much of India is bracing for summer while Europe is doing the opposite: easing into its gentlest season. The gardens are in flower. The caf\u00e9 terraces have reopened. The great cities are warm by day and cool by evening, and the crowds of high summer are still weeks away. For an Indian traveller, the timing is ideal: out of the building heat at home, into Europe at its best."
         },
         {
           "kind": "heading",
@@ -330,7 +330,7 @@
         },
         {
           "kind": "paragraph",
-          "html": "Spring is the season after the weather turns and before the crowds arrive. The Mediterranean is warming without the August crush. Paris and the great northern capitals are at their most walkable. The countryside \u2014 Tuscany, Provence, the Douro, the Andalusian hills \u2014 is green and in bloom in a way the dry months never match. And because it comes before the peak, the rooms and the fares are kinder than they will be in July."
+          "html": "Spring is the season after the weather turns and before the crowds arrive. The Mediterranean is warming without the August crush. Paris and the great northern capitals are at their most walkable. The countryside: Tuscany, Provence, the Douro, the Andalusian hills, is green and in bloom in a way the dry months never match. And because it comes before the peak, the rooms and the fares are kinder than they will be in July."
         },
         {
           "kind": "paragraph",
@@ -346,7 +346,7 @@
         },
         {
           "kind": "paragraph",
-          "html": "From Delhi and Mumbai, much of Europe is within comfortable non-stop reach, with good direct service to the major hubs. From Bengaluru, Hyderabad and the southern cities, a single connection through the Gulf or a European gateway often buys a better cabin for the same money than a direct routing would. Spring is busy, so the seats you actually want \u2014 the flat bed, the daytime arrival, the easy connection \u2014 go to those who book ahead, not those who chase them late."
+          "html": "From Delhi and Mumbai, much of Europe is within comfortable non-stop reach, with good direct service to the major hubs. From Bengaluru, Hyderabad and the southern cities, a single connection through the Gulf or a European gateway often buys a better cabin for the same money than a direct routing would. Spring is busy, so the seats you actually want: the flat bed, the daytime arrival, the easy connection, go to those who book ahead, not those who chase them late."
         },
         {
           "kind": "heading",
@@ -354,11 +354,11 @@
         },
         {
           "kind": "paragraph",
-          "html": "Most of Europe's headline destinations sit within the Schengen area, which for Indian passport holders means a visa applied for ahead of travel \u2014 and spring is exactly when demand for appointments peaks, because the whole world is planning the same season. This is the part of a Europe trip that quietly decides everything. The best thing you can do is begin it early."
+          "html": "Most of Europe's headline destinations sit within the Schengen area, which for Indian passport holders means a visa applied for ahead of travel, and spring is exactly when demand for appointments peaks, because the whole world is planning the same season. This is the part of a Europe trip that quietly decides everything. The best thing you can do is begin it early."
         },
         {
           "kind": "paragraph",
-          "html": "So we do. <b>Your advisor confirms the current Schengen requirement for your route and nationality</b>, prepares the file, books the appointment in good time, and follows it through to the issued visa \u2014 all around the same dates we have held your flights and rooms for."
+          "html": "So we do. <b>Your advisor confirms the current Schengen requirement for your route and nationality</b>, prepares the file, books the appointment in good time, and follows it through to the issued visa: all around the same dates we have held your flights and rooms for."
         },
         {
           "kind": "list",
@@ -375,11 +375,11 @@
         },
         {
           "kind": "paragraph",
-          "html": "Spring in Europe is one of the best-timed journeys an Indian traveller can make, when the dates, the cabin and the visa all line up. Tell us the corner of Europe you have in mind. We will find the weeks it is at its finest, hold the flights and the rooms, and see the visa through \u2014 so the only thing left to do is go."
+          "html": "Spring in Europe is one of the best-timed journeys an Indian traveller can make, when the dates, the cabin and the visa all line up. Tell us the corner of Europe you have in mind. We will find the weeks it is at its finest, hold the flights and the rooms, and see the visa through, so the only thing left to do is go."
         }
       ]
     },
-    "miniQuote": "Judgement is the part we look after \u2014 the line between a good trip and a faultless one.",
+    "miniQuote": "Judgement is the part we look after: the line between a good trip and a faultless one.",
     "closing": {
       "image": "/_vercel/image?url=%2Fimg%2Fh%2Fjournal-india-to-europe-spring.jpg&w=2048&q=80",
       "eyebrow": "Your move",
@@ -398,7 +398,7 @@
   "journal-long-haul-with-children": {
     "slug": "journal-long-haul-with-children",
     "seo": {
-      "title": "Long-haul with children, done well \u2014 The Journal \u00b7 TripAgent",
+      "title": "Long-haul with children, done well: The Journal \u00b7 TripAgent",
       "description": "How to fly long-haul with children and arrive rested. The seats, the timing, the stays and the quiet arrangements made for you in advance.",
       "ogImage": "https://tripagent-site.vercel.app/img/og.jpg"
     },
@@ -462,9 +462,9 @@
           "className": "lux-list",
           "items": [
             "We time the flights to your children's ages and the time difference, so the long leg works <em>for</em> you.",
-            "We secure the seats, the bassinet, the children's meals and the stroller at the door \u2014 booked and confirmed, not hoped for.",
+            "We secure the seats, the bassinet, the children's meals and the stroller at the door: booked and confirmed, not hoped for.",
             "We choose routings and connections with margin, and a place to reset if a layover can't be avoided.",
-            "We arrange the car seats, the early-ready room and the cot, so arrival is a soft landing \u2014 and confirm any visas the children need."
+            "We arrange the car seats, the early-ready room and the cot, so arrival is a soft landing, and confirm any visas the children need."
           ]
         },
         {
@@ -472,7 +472,7 @@
         },
         {
           "kind": "paragraph",
-          "html": "A family holiday should feel like a holiday from the first hour, not from the second day once everyone has recovered. Tell us your children's ages and where you're headed, and we'll plan the flights, the seats, the connections and the arrival around them \u2014 and stay with all of it until you are home, the whole family, rested."
+          "html": "A family holiday should feel like a holiday from the first hour, not from the second day once everyone has recovered. Tell us your children's ages and where you're headed, and we'll plan the flights, the seats, the connections and the arrival around them, and stay with all of it until you are home, the whole family, rested."
         }
       ]
     },
@@ -495,8 +495,8 @@
   "journal-monsoon-escapes": {
     "slug": "journal-monsoon-escapes",
     "seo": {
-      "title": "When the rains come \u2014 The Journal \u00b7 TripAgent",
-      "description": "Where to go when India's monsoon settles in \u2014 dry, bright escapes within easy reach, from the southern hemisphere to the deserts, chosen for July and August travel.",
+      "title": "When the rains come: The Journal \u00b7 TripAgent",
+      "description": "Where to go when India's monsoon settles in: dry, bright escapes within easy reach, from the southern hemisphere to the deserts, chosen for July and August travel.",
       "ogImage": "https://tripagent-site.vercel.app/img/og.jpg"
     },
     "hero": {
@@ -508,7 +508,7 @@
       },
       "kicker": "The Journal \u00b7 On where to go",
       "headingHtml": "When the rains <span class=\"it\">come</span>.",
-      "lede": "The monsoon is the season half of India waits to leave. Here is where the weather is doing the opposite \u2014 dry, bright and waiting for you.",
+      "lede": "The monsoon is the season half of India waits to leave. Here is where the weather is doing the opposite: dry, bright and waiting for you.",
       "meta": [
         "The Journal",
         "Destinations",
@@ -520,7 +520,7 @@
       "nodes": [
         {
           "kind": "leadPara",
-          "html": "When the monsoon settles over India, there is one kind of trip worth taking: the one that flies out of the weather entirely. The logic is simple geography. When it is wet and warm here, it is <b>dry and cool</b> below the equator, bright across the deserts, and at its kindest in parts of Europe the crowds have not yet found. Every place below is chosen for one reason \u2014 it is at its best precisely when home is at its wettest."
+          "html": "When the monsoon settles over India, there is one kind of trip worth taking: the one that flies out of the weather entirely. The logic is simple geography. When it is wet and warm here, it is <b>dry and cool</b> below the equator, bright across the deserts, and at its kindest in parts of Europe the crowds have not yet found. Every place below is chosen for one reason: it is at its best precisely when home is at its wettest."
         },
         {
           "kind": "heading",
@@ -528,7 +528,7 @@
         },
         {
           "kind": "paragraph",
-          "html": "The cleanest escape is to fly south. <b>South Africa</b> in our monsoon months is in its dry winter \u2014 the bush at its finest for game viewing, the air crisp, the malaria risk lower. The <b>Cape</b> is quieter, and the winelands are bare and beautiful. Further out, the <b>Indian Ocean islands</b> sit in their own gentler season; the Seychelles and parts of Mauritius see steadier weather, and a good villa or resort comes with the beach largely to yourself."
+          "html": "The cleanest escape is to fly south. <b>South Africa</b> in our monsoon months is in its dry winter: the bush at its finest for game viewing, the air crisp, the malaria risk lower. The <b>Cape</b> is quieter, and the winelands are bare and beautiful. Further out, the <b>Indian Ocean islands</b> sit in their own gentler season; the Seychelles and parts of Mauritius see steadier weather, and a good villa or resort comes with the beach largely to yourself."
         },
         {
           "kind": "blockquote",
@@ -540,7 +540,7 @@
         },
         {
           "kind": "paragraph",
-          "html": "The Gulf and the Levant are hot in these months, but reliably dry \u2014 and the indoor world is built for it. <b>Dubai and Abu Dhabi</b> turn inward in summer, with the year's best hotel value, near-empty attractions and the cool of the malls, museums and resorts. For something quieter, the <b>high deserts of Jordan and the heights of Oman's mountains</b> give you dramatic, rain-free landscapes. None of it is the season's headline. That is the point \u2014 you arrive to space."
+          "html": "The Gulf and the Levant are hot in these months, but reliably dry, and the indoor world is built for it. <b>Dubai and Abu Dhabi</b> turn inward in summer, with the year's best hotel value, near-empty attractions and the cool of the malls, museums and resorts. For something quieter, the <b>high deserts of Jordan and the heights of Oman's mountains</b> give you dramatic, rain-free landscapes. None of it is the season's headline. That is the point: you arrive to space."
         },
         {
           "kind": "heading",
@@ -548,16 +548,16 @@
         },
         {
           "kind": "paragraph",
-          "html": "High summer in Europe is crowded, but it is not uniform. The <b>Nordic countries</b> are in their long, mild light \u2014 Iceland, the fjords of Norway, the Baltic capitals \u2014 dry, green and uncrowded by Mediterranean standards. For a city, the cooler north rewards you while the south swelters. The point is not to chase the obvious. It is to find the corner of the map where the weather and the calendar are both on your side."
+          "html": "High summer in Europe is crowded, but it is not uniform. The <b>Nordic countries</b> are in their long, mild light: Iceland, the fjords of Norway, the Baltic capitals, dry, green and uncrowded by Mediterranean standards. For a city, the cooler north rewards you while the south swelters. The point is not to chase the obvious. It is to find the corner of the map where the weather and the calendar are both on your side."
         },
         {
           "kind": "list",
           "className": "lux-list",
           "items": [
-            "We match the destination to the exact weeks you can travel \u2014 school holidays, a clear fortnight, a long weekend.",
+            "We match the destination to the exact weeks you can travel: school holidays, a clear fortnight, a long weekend.",
             "We weigh weather, crowds and value together, so you arrive in the dry season and the quiet one at once.",
             "We handle the visa for the route, confirmed against current requirements before anything is booked.",
-            "We watch the monsoon at home, too \u2014 the flights out, the connections, the days either side."
+            "We watch the monsoon at home, too: the flights out, the connections, the days either side."
           ]
         },
         {
@@ -588,8 +588,8 @@
   "journal-multi-city-europe": {
     "slug": "journal-multi-city-europe",
     "seo": {
-      "title": "Europe, city by city \u2014 The Journal \u00b7 TripAgent",
-      "description": "Multi-city Europe, planned to flow \u2014 open-jaw routing, the order that saves you a day, and how your advisor joins the flights, trains and stays into one trip.",
+      "title": "Europe, city by city: The Journal \u00b7 TripAgent",
+      "description": "Multi-city Europe, planned to flow: open-jaw routing, the order that saves you a day, and how your advisor joins the flights, trains and stays into one trip.",
       "ogImage": "https://tripagent-site.vercel.app/img/og.jpg"
     },
     "hero": {
@@ -601,7 +601,7 @@
       },
       "kicker": "The Journal \u00b7 On the wing",
       "headingHtml": "Europe, city by <span class=\"it\">city</span>.",
-      "lede": "Three cities, two weeks, one trip that should flow rather than double back. How a multi-city Europe is routed \u2014 and the small mistakes that cost you whole days.",
+      "lede": "Three cities, two weeks, one trip that should flow rather than double back. How a multi-city Europe is routed, and the small mistakes that cost you whole days.",
       "meta": [
         "The Journal",
         "Flights",
@@ -613,7 +613,7 @@
       "nodes": [
         {
           "kind": "leadPara",
-          "html": "The instinct is to book a return to one city and work the rest out from there. It is almost always the wrong shape. A trip routed well <b>flies into one city and home from another</b> \u2014 an open jaw, in the trade \u2014 so you never return to where you began. The cities follow the map. The hops between them use the right mode. The long-haul legs are timed to suit your body, not the schedule. You never see any of this. All of it decides whether the trip flows or drags."
+          "html": "The instinct is to book a return to one city and work the rest out from there. It is almost always the wrong shape. A trip routed well <b>flies into one city and home from another</b>an open jaw, in the trade, so you never return to where you began. The cities follow the map. The hops between them use the right mode. The long-haul legs are timed to suit your body, not the schedule. You never see any of this. All of it decides whether the trip flows or drags."
         },
         {
           "kind": "heading",
@@ -621,7 +621,7 @@
         },
         {
           "kind": "paragraph",
-          "html": "The most useful decision is to <b>arrive and depart from different cities</b>. Fly into Rome, work north, fly home from Paris \u2014 and you save a wasted return leg and a day of doubling back. Long-haul carriers price these open-jaw tickets fairly, often little more than a straight return, and they let the trip follow the land. The cities then sit in a line, not a loop, and the same number of nights buys you a shorter, calmer, richer holiday."
+          "html": "The most useful decision is to <b>arrive and depart from different cities</b>. Fly into Rome, work north, fly home from Paris, and you save a wasted return leg and a day of doubling back. Long-haul carriers price these open-jaw tickets fairly, often little more than a straight return, and they let the trip follow the land. The cities then sit in a line, not a loop, and the same number of nights buys you a shorter, calmer, richer holiday."
         },
         {
           "kind": "blockquote",
@@ -633,7 +633,7 @@
         },
         {
           "kind": "paragraph",
-          "html": "Within Europe, the right hop depends on the pair. For the <b>short city-to-city runs</b> \u2014 Paris to London, Milan to Rome, Amsterdam to Brussels \u2014 the fast train beats flying door to door once you count the airports, and it is far more pleasant. For the <b>longer jumps</b> \u2014 Lisbon to Vienna, a Greek island to the mainland and on \u2014 a short flight wins clearly. The work is knowing which is which, and booking the trains with the same care as the flights: seats reserved, the right station, luggage that suits the journey."
+          "html": "Within Europe, the right hop depends on the pair. For the <b>short city-to-city runs</b>Paris to London, Milan to Rome, Amsterdam to Brussels: the fast train beats flying door to door once you count the airports, and it is far more pleasant. For the <b>longer jumps</b>Lisbon to Vienna, a Greek island to the mainland and on: a short flight wins clearly. The work is knowing which is which, and booking the trains with the same care as the flights: seats reserved, the right station, luggage that suits the journey."
         },
         {
           "kind": "heading",
@@ -641,14 +641,14 @@
         },
         {
           "kind": "paragraph",
-          "html": "A good multi-city trip is paced, not crammed. Three cities in ten days, not five. Enough nights in each to settle, not just sleep. The long travel days placed where they won't cost you a good morning. The failures are familiar \u2014 a tight connection that loses the bags, the cities in an order that makes you cross your own path, a last night at an airport hotel because the flight home left too early. These are all matters of order, and order is what a good plan settles before you ever leave."
+          "html": "A good multi-city trip is paced, not crammed. Three cities in ten days, not five. Enough nights in each to settle, not just sleep. The long travel days placed where they won't cost you a good morning. The failures are familiar: a tight connection that loses the bags, the cities in an order that makes you cross your own path, a last night at an airport hotel because the flight home left too early. These are all matters of order, and order is what a good plan settles before you ever leave."
         },
         {
           "kind": "list",
           "className": "lux-list",
           "items": [
             "We route the trip open-jaw, in and out of different cities, so no leg is wasted.",
-            "We choose train or plane for each hop on its merits \u2014 and book the seats, not just the tickets.",
+            "We choose train or plane for each hop on its merits, and book the seats, not just the tickets.",
             "We set the order of the cities to follow the map, with the nights and the pace right for each.",
             "We handle the one Schengen visa that usually covers the whole route, confirmed against current requirements, and the transfers that join it all up."
           ]
@@ -658,7 +658,7 @@
         },
         {
           "kind": "paragraph",
-          "html": "A multi-city Europe should feel like one flowing journey, not a stack of bookings you pieced together at midnight. Tell us the cities you have in mind, and we'll route the whole trip \u2014 flights, trains, stays and visa \u2014 and look after it until you are home."
+          "html": "A multi-city Europe should feel like one flowing journey, not a stack of bookings you pieced together at midnight. Tell us the cities you have in mind, and we'll route the whole trip: flights, trains, stays and visa, and look after it until you are home."
         }
       ]
     },
@@ -681,8 +681,8 @@
   "journal-points-vs-cash": {
     "slug": "journal-points-vs-cash",
     "seo": {
-      "title": "Points or cash? \u2014 The Journal \u00b7 TripAgent",
-      "description": "When airline and card points beat cash \u2014 and when they quietly don't. A clear-eyed look at spending miles well, and what your advisor weighs before you spend them.",
+      "title": "Points or cash? The Journal \u00b7 TripAgent",
+      "description": "When airline and card points beat cash, and when they quietly don't. A clear-eyed look at spending miles well, and what your advisor weighs before you spend them.",
       "ogImage": "https://tripagent-site.vercel.app/img/og.jpg"
     },
     "hero": {
@@ -714,7 +714,7 @@
         },
         {
           "kind": "paragraph",
-          "html": "Points go furthest on the things you would rarely pay cash for. A <b>premium-cabin long-haul seat</b> \u2014 business or first across an ocean \u2014 is where miles return many times their everyday value, because the cash fare was so high to begin with. <b>Peak-date travel</b>, when cash prices spike but award charts hold steadier, is another. And <b>the trip you've been saving for</b> \u2014 a marquee suite, a milestone journey \u2014 can be reached on points for a fraction of what cash would ask. These are the moments to spend."
+          "html": "Points go furthest on the things you would rarely pay cash for. A <b>premium-cabin long-haul seat</b>business or first across an ocean: is where miles return many times their everyday value, because the cash fare was so high to begin with. <b>Peak-date travel</b>, when cash prices spike but award charts hold steadier, is another. And <b>the trip you've been saving for</b>a marquee suite, a milestone journey: can be reached on points for a fraction of what cash would ask. These are the moments to spend."
         },
         {
           "kind": "blockquote",
@@ -734,7 +734,7 @@
         },
         {
           "kind": "paragraph",
-          "html": "Beyond the headline rate, a few quiet details decide whether a redemption is good. <b>Award availability</b> \u2014 the seat must actually be released, and the best ones go early. <b>Transfer partners</b> \u2014 many card points move to several airlines, and one partner's chart can be far kinder than another's for the same flight. <b>Taxes and surcharges</b> \u2014 some \"free\" award tickets carry fees that eat into the saving. None of this is plain from inside one app. Which is exactly why it's worth a second pair of eyes before you spend a balance you took years to build."
+          "html": "Beyond the headline rate, a few quiet details decide whether a redemption is good. <b>Award availability</b>the seat must actually be released, and the best ones go early. <b>Transfer partners</b>many card points move to several airlines, and one partner's chart can be far kinder than another's for the same flight. <b>Taxes and surcharges</b>some \"free\" award tickets carry fees that eat into the saving. None of this is plain from inside one app. Which is exactly why it's worth a second pair of eyes before you spend a balance you took years to build."
         },
         {
           "kind": "list",
@@ -751,7 +751,7 @@
         },
         {
           "kind": "paragraph",
-          "html": "Points are worth most when spent with intent. Tell us what you've collected and where you're going, and we'll tell you the best way to pay \u2014 points, cash, or a deliberate mix \u2014 then book it, and look after the whole journey until you are home."
+          "html": "Points are worth most when spent with intent. Tell us what you've collected and where you're going, and we'll tell you the best way to pay: points, cash, or a deliberate mix, then book it, and look after the whole journey until you are home."
         }
       ]
     },
@@ -774,8 +774,8 @@
   "journal-private-terminals": {
     "slug": "journal-private-terminals",
     "seo": {
-      "title": "The private terminal \u2014 The Journal \u00b7 TripAgent",
-      "description": "Private terminals and FBOs for travellers flying commercial premium \u2014 what they are, when they are worth it, and how your advisor arranges a quieter departure.",
+      "title": "The private terminal: The Journal \u00b7 TripAgent",
+      "description": "Private terminals and FBOs for travellers flying commercial premium: what they are, when they are worth it, and how your advisor arranges a quieter departure.",
       "ogImage": "https://tripagent-site.vercel.app/img/og.jpg"
     },
     "hero": {
@@ -807,7 +807,7 @@
         },
         {
           "kind": "paragraph",
-          "html": "The names vary. At London Heathrow it is the Windsor Suite; some airlines run their own \u2014 Lufthansa's First Class Terminal in Frankfurt, the dedicated suites in Dubai and Doha for premium cabins. The principle is the same. A building, or a wing, set apart from the public terminal, where check-in, immigration and security happen privately, often in your own room. Many work whatever cabin you've booked \u2014 economy included \u2014 for a per-traveller fee. Others come with a premium ticket. <b>An FBO</b>, the term you'll see for private-jet handling, is the same idea taken further: a small terminal where the walk from car to cabin is a matter of steps."
+          "html": "The names vary. At London Heathrow it is the Windsor Suite; some airlines run their own: Lufthansa's First Class Terminal in Frankfurt, the dedicated suites in Dubai and Doha for premium cabins. The principle is the same. A building, or a wing, set apart from the public terminal, where check-in, immigration and security happen privately, often in your own room. Many work whatever cabin you've booked: economy included, for a per-traveller fee. Others come with a premium ticket. <b>An FBO</b>, the term you'll see for private-jet handling, is the same idea taken further: a small terminal where the walk from car to cabin is a matter of steps."
         },
         {
           "kind": "blockquote",
@@ -834,7 +834,7 @@
           "className": "lux-list",
           "items": [
             "We know which airports on your route offer a private terminal to scheduled passengers, and which reserve it for premium cabins.",
-            "We book it into the itinerary itself \u2014 met on arrival, formalities handled, driven to the aircraft \u2014 not as an afterthought at the door.",
+            "We book it into the itinerary itself: met on arrival, formalities handled, driven to the aircraft, not as an afterthought at the door.",
             "For connections, we time the meet-and-assist so the transfer is calm rather than a chase.",
             "Where it isn't worth it, we tell you, and put the saving toward something that is."
           ]
@@ -844,16 +844,16 @@
         },
         {
           "kind": "paragraph",
-          "html": "A departure should feel like the start of the trip, not the price you pay for it. Tell us where you're flying and who is travelling, and we'll arrange the quietest way through the airport that your route allows \u2014 booked alongside the flight and the stay, and looked after until you are home."
+          "html": "A departure should feel like the start of the trip, not the price you pay for it. Tell us where you're flying and who is travelling, and we'll arrange the quietest way through the airport that your route allows: booked alongside the flight and the stay, and looked after until you are home."
         }
       ]
     },
-    "miniQuote": "A departure should feel like the start of the trip \u2014 not its price.",
+    "miniQuote": "A departure should feel like the start of the trip, not its price.",
     "closing": {
       "image": "/_vercel/image?url=%2Fimg%2Fh%2Fjournal-private-terminals.jpg&w=2048&q=80",
       "eyebrow": "Your move",
       "heading": "Let the airport be the calm part.",
-      "lede": "Tell us your route and who is flying. We'll arrange the quietest path through every airport on it \u2014 met, handled, and driven to the door.",
+      "lede": "Tell us your route and who is flying. We'll arrange the quietest path through every airport on it: met, handled, and driven to the door.",
       "ctaPrimary": {
         "label": "Plan a trip",
         "href": "enquire.html"
@@ -867,8 +867,8 @@
   "journal-schengen-first-time": {
     "slug": "journal-schengen-first-time",
     "seo": {
-      "title": "Your first Schengen \u2014 The Journal \u00b7 TripAgent",
-      "description": "A first Schengen visa, made plain for Indian travellers \u2014 what the file needs, where people stumble, and what your advisor confirms and handles for you.",
+      "title": "Your first Schengen: The Journal \u00b7 TripAgent",
+      "description": "A first Schengen visa, made plain for Indian travellers: what the file needs, where people stumble, and what your advisor confirms and handles for you.",
       "ogImage": "https://tripagent-site.vercel.app/img/og.jpg"
     },
     "hero": {
@@ -888,23 +888,23 @@
       ]
     },
     "prose": {
-      "standfirst": "The Schengen visa has a fearsome reputation, mostly unearned. It is not hard so much as exacting \u2014 a file that has to be complete, consistent and started in good time. Get those three right and the rest follows.",
+      "standfirst": "The Schengen visa has a fearsome reputation, mostly unearned. It is not hard so much as exacting: a file that has to be complete, consistent and started in good time. Get those three right and the rest follows.",
       "nodes": [
         {
           "kind": "leadPara",
-          "html": "The Schengen area is a group of European countries that share one visa, so a single approval lets you move freely between them. For a first-time Indian applicant, the route is a short-stay (Type C) visa, applied for through the appropriate consulate's official visa centre. The application is a sticker placed in your passport, which means the passport travels and you usually attend in person to give biometrics. None of it is mysterious. It only feels so because the rules are precise and unforgiving of small mistakes. <b>Your advisor confirms the current requirements for your nationality and route before anything is lodged</b> \u2014 so you never plan around an assumption that has quietly gone out of date."
+          "html": "The Schengen area is a group of European countries that share one visa, so a single approval lets you move freely between them. For a first-time Indian applicant, the route is a short-stay (Type C) visa, applied for through the appropriate consulate's official visa centre. The application is a sticker placed in your passport, which means the passport travels and you usually attend in person to give biometrics. None of it is mysterious. It only feels so because the rules are precise and unforgiving of small mistakes. <b>Your advisor confirms the current requirements for your nationality and route before anything is lodged</b>so you never plan around an assumption that has quietly gone out of date."
         },
         {
           "kind": "heading",
-          "html": "Where to apply \u2014 and it matters"
+          "html": "Where to apply, and it matters"
         },
         {
           "kind": "paragraph",
-          "html": "The first real decision is which country's consulate handles your file. The rule: you apply to the country where you'll spend the <b>most nights</b>, and if nights are equal, to the country you <b>enter first</b>. Get this wrong and the application can be turned down on a technicality before anyone reads it. On a multi-country trip, this one choice decides everything that follows \u2014 which centre, which appointment, which document list \u2014 and it's the first thing we settle."
+          "html": "The first real decision is which country's consulate handles your file. The rule: you apply to the country where you'll spend the <b>most nights</b>, and if nights are equal, to the country you <b>enter first</b>. Get this wrong and the application can be turned down on a technicality before anyone reads it. On a multi-country trip, this one choice decides everything that follows, which centre, which appointment, which document list, and it's the first thing we settle."
         },
         {
           "kind": "blockquote",
-          "html": "The visa isn't hard. It's exact. Complete, consistent, and started early \u2014 that is the whole of it."
+          "html": "The visa isn't hard. It's exact. Complete, consistent, and started early: that is the whole of it."
         },
         {
           "kind": "heading",
@@ -912,7 +912,7 @@
         },
         {
           "kind": "paragraph",
-          "html": "Behind the long checklist, the consulate is settling three questions: that you can <b>afford the trip</b>, that you have a <b>genuine plan</b>, and that you will <b>return home</b>. So the file pairs a confirmed itinerary \u2014 flights, hotels, a coherent day-by-day \u2014 with proof of funds, travel insurance to the required medical cover, and evidence of ties to India: employment, business, property, family. None of it is a hoop; each document answers one of those three questions. When they all tell the same story, the application is strong."
+          "html": "Behind the long checklist, the consulate is settling three questions: that you can <b>afford the trip</b>, that you have a <b>genuine plan</b>, and that you will <b>return home</b>. So the file pairs a confirmed itinerary: flights, hotels, a coherent day-by-day, with proof of funds, travel insurance to the required medical cover, and evidence of ties to India: employment, business, property, family. None of it is a hoop; each document answers one of those three questions. When they all tell the same story, the application is strong."
         },
         {
           "kind": "heading",
@@ -926,7 +926,7 @@
           "kind": "list",
           "className": "",
           "items": [
-            "We confirm the right consulate for your route and the current document list \u2014 checked against today's rules, never from memory.",
+            "We confirm the right consulate for your route and the current document list: checked against today's rules, never from memory.",
             "We assemble the file so it is complete and consistent: itinerary, funds, insurance and ties all telling one story.",
             "We book the appointment early, well ahead of peak-season demand, and manage the passport-lodging window around your dates.",
             "We ready you for the centre visit, so biometrics day is short and uneventful."
@@ -937,7 +937,7 @@
         },
         {
           "kind": "paragraph",
-          "html": "A first Schengen should be the start of many. Tell us where in Europe you're headed and when. We'll confirm what's required, build the file properly, book the appointment in time and track it to the issued visa \u2014 alongside the flights and the stay, and looked after until you are home."
+          "html": "A first Schengen should be the start of many. Tell us where in Europe you're headed and when. We'll confirm what's required, build the file properly, book the appointment in time and track it to the issued visa: alongside the flights and the stay, and looked after until you are home."
         }
       ]
     },
@@ -960,8 +960,8 @@
   "journal-shoulder-season": {
     "slug": "journal-shoulder-season",
     "seo": {
-      "title": "The case for the shoulder season \u2014 The Journal \u00b7 TripAgent",
-      "description": "The weeks on either side of peak are the quiet way to travel \u2014 warmer welcomes, gentler prices, rooms that breathe. And how to find them.",
+      "title": "The case for the shoulder season: The Journal \u00b7 TripAgent",
+      "description": "The weeks on either side of peak are the quiet way to travel: warmer welcomes, gentler prices, rooms that breathe. And how to find them.",
       "ogImage": "https://tripagent-site.vercel.app/img/og.jpg"
     },
     "hero": {
@@ -973,7 +973,7 @@
       },
       "kicker": "The Journal \u00b7 On timing",
       "headingHtml": "The case for the <span class=\"it\">shoulder</span>.",
-      "lede": "The weeks on either side of peak are the quiet way to travel \u2014 warmer welcomes, softer rooms, a place that breathes again. Here is how to find them.",
+      "lede": "The weeks on either side of peak are the quiet way to travel: warmer welcomes, softer rooms, a place that breathes again. Here is how to find them.",
       "meta": [
         "The Journal",
         "When to go",
@@ -981,7 +981,7 @@
       ]
     },
     "prose": {
-      "standfirst": "High season is when a place is at its most crowded, not its most beautiful. Those two rarely fall in the same week \u2014 and the gap between them is the shoulder season.",
+      "standfirst": "High season is when a place is at its most crowded, not its most beautiful. Those two rarely fall in the same week, and the gap between them is the shoulder season.",
       "nodes": [
         {
           "kind": "leadPara",
@@ -1023,7 +1023,7 @@
           "kind": "list",
           "className": "",
           "items": [
-            "We know the real shoulder weeks for each place \u2014 not the brochure version, the true one.",
+            "We know the real shoulder weeks for each place, not the brochure version, the true one.",
             "We weigh weather, local events and school holidays, so a quiet week stays quiet.",
             "We hold the better rooms and the easier fares those weeks open up, before others notice them.",
             "And we watch the visa lead time, so an earlier trip never means a rushed application."
@@ -1057,7 +1057,7 @@
   "journal-the-2am-save": {
     "slug": "journal-the-2am-save",
     "seo": {
-      "title": "The 2am save \u2014 The Journal \u00b7 TripAgent",
+      "title": "The 2am save: The Journal \u00b7 TripAgent",
       "description": "A cancelled flight, a foreign airport, the middle of the night. The only thing that helps is someone awake on your side.",
       "ogImage": "https://tripagent-site.vercel.app/img/og.jpg"
     },
@@ -1094,7 +1094,7 @@
         },
         {
           "kind": "blockquote",
-          "html": "The plan working is ordinary. The plan breaking \u2014 and someone catching it before you do \u2014 is the whole point."
+          "html": "The plan working is ordinary. The plan breaking, and someone catching it before you do: is the whole point."
         },
         {
           "kind": "heading",
@@ -1102,11 +1102,11 @@
         },
         {
           "kind": "paragraph",
-          "html": "Now run it again. The same cancellation appears \u2014 but it reaches your advisor the instant it reaches the board, because your itinerary is watched, not filed away. By the time you've found a seat to sit on, a message is waiting: <b>we've seen it, here's the plan, you don't need to do anything yet.</b>"
+          "html": "Now run it again. The same cancellation appears, but it reaches your advisor the instant it reaches the board, because your itinerary is watched, not filed away. By the time you've found a seat to sit on, a message is waiting: <b>we've seen it, here's the plan, you don't need to do anything yet.</b>"
         },
         {
           "kind": "paragraph",
-          "html": "While the queue lengthens behind you, the work happens out of sight. A seat held on the first flight out. A room secured near the airport for the few hours you'll need it, the kind that doesn't blink at a 2am arrival. A car arranged to take you there. And a quiet check on the one thing you'd never think of at that hour \u2014 whether the visa rules of this country let you step out into it tonight, and word back that they do."
+          "html": "While the queue lengthens behind you, the work happens out of sight. A seat held on the first flight out. A room secured near the airport for the few hours you'll need it, the kind that doesn't blink at a 2am arrival. A car arranged to take you there. And a quiet check on the one thing you'd never think of at that hour: whether the visa rules of this country let you step out into it tonight, and word back that they do."
         },
         {
           "kind": "heading",
@@ -1114,13 +1114,13 @@
         },
         {
           "kind": "paragraph",
-          "html": "Anyone can book a flight. The difference is what happens when that flight falls apart at an hour when no help desk is awake and no app has an answer. That is the work we built the maison around \u2014 not the easy days, the hard nights."
+          "html": "Anyone can book a flight. The difference is what happens when that flight falls apart at an hour when no help desk is awake and no app has an answer. That is the work we built the maison around, not the easy days, the hard nights."
         },
         {
           "kind": "list",
           "className": "",
           "items": [
-            "Your journey is monitored, so a disruption reaches us as fast as it reaches you \u2014 often faster.",
+            "Your journey is monitored, so a disruption reaches us as fast as it reaches you: often faster.",
             "The rebooking, the room, the car and the onward plan are arranged while you simply wait to hear.",
             "The visa and entry questions you wouldn't think to ask are checked before they become a problem.",
             "One named person, reachable at the hour it actually matters, who already knows your whole trip."
@@ -1131,7 +1131,7 @@
         },
         {
           "kind": "paragraph",
-          "html": "We hope you never need the 2am save. Most journeys go to plan, and you'll never know we were watching. But on the night one doesn't, the difference between a story you laugh about later and a night you'd rather forget is having someone awake, informed and already moving. That is what it means to stay with you until you are home \u2014 not most of the way, all of it."
+          "html": "We hope you never need the 2am save. Most journeys go to plan, and you'll never know we were watching. But on the night one doesn't, the difference between a story you laugh about later and a night you'd rather forget is having someone awake, informed and already moving. That is what it means to stay with you until you are home, not most of the way, all of it."
         }
       ]
     },
@@ -1140,7 +1140,7 @@
       "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fcusco.jpg&w=2048&q=80",
       "eyebrow": "Your move",
       "heading": "Travel with someone awake on your side.",
-      "lede": "Tell us where you're headed. We'll book the trip and watch over it \u2014 so if a night comes apart, you are never the one holding it alone.",
+      "lede": "Tell us where you're headed. We'll book the trip and watch over it, so if a night comes apart, you are never the one holding it alone.",
       "ctaPrimary": {
         "label": "Plan a trip",
         "href": "enquire.html"
@@ -1154,8 +1154,8 @@
   "journal-the-art-of-arrival": {
     "slug": "journal-the-art-of-arrival",
     "seo": {
-      "title": "The art of arrival \u2014 The Journal \u00b7 TripAgent",
-      "description": "The soft landing \u2014 why the first few hours of a trip set the tone, and how a well-planned arrival lets a long journey end in the gentle start a holiday deserves.",
+      "title": "The art of arrival: The Journal \u00b7 TripAgent",
+      "description": "The soft landing: why the first few hours of a trip set the tone, and how a well-planned arrival lets a long journey end in the gentle start a holiday deserves.",
       "ogImage": "https://tripagent-site.vercel.app/img/og.jpg"
     },
     "hero": {
@@ -1167,7 +1167,7 @@
       },
       "kicker": "The Journal \u00b7 On arriving well",
       "headingHtml": "The art of <span class=\"it\">arrival</span>.",
-      "lede": "The first few hours decide how a holiday feels. A soft landing \u2014 met, eased through, settled gently \u2014 is the difference between starting a trip and surviving one.",
+      "lede": "The first few hours decide how a holiday feels. A soft landing: met, eased through, settled gently, is the difference between starting a trip and surviving one.",
       "meta": [
         "The Journal",
         "The journey",
@@ -1175,11 +1175,11 @@
       ]
     },
     "prose": {
-      "standfirst": "A trip doesn't begin when you book it, or even when you board. It begins when the doors open at the far end. Those first hours \u2014 handled well, or left to chance \u2014 set the tone for everything that follows.",
+      "standfirst": "A trip doesn't begin when you book it, or even when you board. It begins when the doors open at the far end. Those first hours: handled well, or left to chance, set the tone for everything that follows.",
       "nodes": [
         {
           "kind": "leadPara",
-          "html": "Everyone remembers a bad arrival. The long queue at immigration after a longer flight. The bag that didn't come. The taxi rank in an unfamiliar language, the address that wasn't quite right, the front desk that couldn't find the booking and the room that wasn't ready. None of it ruins a holiday outright. But it asks the most of you at the moment you have the least to give \u2014 tired, far from home, hoping only to lie down. <b>The art of arrival is quietly removing each of those small frictions before you ever meet them.</b>"
+          "html": "Everyone remembers a bad arrival. The long queue at immigration after a longer flight. The bag that didn't come. The taxi rank in an unfamiliar language, the address that wasn't quite right, the front desk that couldn't find the booking and the room that wasn't ready. None of it ruins a holiday outright. But it asks the most of you at the moment you have the least to give: tired, far from home, hoping only to lie down. <b>The art of arrival is quietly removing each of those small frictions before you ever meet them.</b>"
         },
         {
           "kind": "heading",
@@ -1187,7 +1187,7 @@
         },
         {
           "kind": "paragraph",
-          "html": "Fatigue narrows everything. After a night in the air, even seasoned travellers find a new city briefly overwhelming, and small problems loom large. That is exactly why the arrival deserves a kind of planning the rest of the trip doesn't. A <b>known car waiting</b>, a driver holding your name, a route already settled \u2014 these turn the most exposed hour of the journey into the calmest. From the moment you step off the aircraft, you simply follow. The decisions are already made."
+          "html": "Fatigue narrows everything. After a night in the air, even seasoned travellers find a new city briefly overwhelming, and small problems loom large. That is exactly why the arrival deserves a kind of planning the rest of the trip doesn't. A <b>known car waiting</b>, a driver holding your name, a route already settled: these turn the most exposed hour of the journey into the calmest. From the moment you step off the aircraft, you simply follow. The decisions are already made."
         },
         {
           "kind": "blockquote",
@@ -1199,7 +1199,7 @@
         },
         {
           "kind": "paragraph",
-          "html": "The hardest moment of many arrivals is reaching the hotel only to be told the room won't be ready for hours. After a long flight, it is a small heartbreak. A good arrival sees it coming \u2014 an <b>early check-in arranged in advance</b>, the room held and prepared, or somewhere comfortable to rest and freshen if the timing is genuinely tight. Where we've booked the stay, the front desk knows you're coming, knows the shape of your trip, and has the welcome waiting. A room you wait for and a room that's ready are the difference between starting tired and starting well."
+          "html": "The hardest moment of many arrivals is reaching the hotel only to be told the room won't be ready for hours. After a long flight, it is a small heartbreak. A good arrival sees it coming: an <b>early check-in arranged in advance</b>, the room held and prepared, or somewhere comfortable to rest and freshen if the timing is genuinely tight. Where we've booked the stay, the front desk knows you're coming, knows the shape of your trip, and has the welcome waiting. A room you wait for and a room that's ready are the difference between starting tired and starting well."
         },
         {
           "kind": "heading",
@@ -1207,7 +1207,7 @@
         },
         {
           "kind": "paragraph",
-          "html": "The last art is restraint. A first day crammed with plans, after a long journey and a shift in time, is a day half-lost on a body that hasn't caught up. The gentlest arrivals leave the first hours open \u2014 a slow lunch, a walk, an early night \u2014 and keep the ambition for day two, when you're truly there. Arriving well isn't only logistics. It's letting the trip begin softly, so that by the next morning you've genuinely arrived, not merely landed."
+          "html": "The last art is restraint. A first day crammed with plans, after a long journey and a shift in time, is a day half-lost on a body that hasn't caught up. The gentlest arrivals leave the first hours open: a slow lunch, a walk, an early night, and keep the ambition for day two, when you're truly there. Arriving well isn't only logistics. It's letting the trip begin softly, so that by the next morning you've genuinely arrived, not merely landed."
         },
         {
           "kind": "list",
@@ -1216,7 +1216,7 @@
             "We arrange the meet and the car, so the first hour is followed, not navigated.",
             "We secure early check-in and brief the hotel, so the room and the welcome are ready when you are.",
             "We keep the first day gentle, leaving room to land before the holiday properly begins.",
-            "We stay reachable through the arrival \u2014 a real person, not a hotline \u2014 if anything needs smoothing."
+            "We stay reachable through the arrival: a real person, not a hotline, if anything needs smoothing."
           ]
         },
         {
@@ -1224,7 +1224,7 @@
         },
         {
           "kind": "paragraph",
-          "html": "How a trip begins is how it's remembered. Tell us where you're arriving, and when, and we'll plan the soft landing \u2014 the car, the early room, the gentle first day \u2014 alongside the flights and the stay, and look after the whole journey until you are home."
+          "html": "How a trip begins is how it's remembered. Tell us where you're arriving, and when, and we'll plan the soft landing: the car, the early room, the gentle first day, alongside the flights and the stay, and look after the whole journey until you are home."
         }
       ]
     },
@@ -1233,7 +1233,7 @@
       "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fcusco.jpg&w=2048&q=80",
       "eyebrow": "Your move",
       "heading": "Let the trip begin the moment you land.",
-      "lede": "Tell us where you're arriving, and when. We'll plan the soft landing \u2014 the car, the early room, the gentle first day.",
+      "lede": "Tell us where you're arriving, and when. We'll plan the soft landing: the car, the early room, the gentle first day.",
       "ctaPrimary": {
         "label": "Plan a trip",
         "href": "enquire.html"
@@ -1247,8 +1247,8 @@
   "journal-the-art-of-the-upgrade": {
     "slug": "journal-the-art-of-the-upgrade",
     "seo": {
-      "title": "The art of the upgrade \u2014 The Journal \u00b7 TripAgent",
-      "description": "How upgrades really work \u2014 and why a quiet word from your advisor does more than any request you make yourself. The honest guide to better seats and better rooms.",
+      "title": "The art of the upgrade: The Journal \u00b7 TripAgent",
+      "description": "How upgrades really work, and why a quiet word from your advisor does more than any request you make yourself. The honest guide to better seats and better rooms.",
       "ogImage": "https://tripagent-site.vercel.app/img/og.jpg"
     },
     "hero": {
@@ -1260,7 +1260,7 @@
       },
       "kicker": "The Journal \u00b7 Field notes",
       "headingHtml": "The art of the <span class=\"it\">upgrade</span>.",
-      "lede": "What actually moves you forward \u2014 on the aircraft and at the front desk \u2014 and why the quiet route is usually the surest one.",
+      "lede": "What actually moves you forward: on the aircraft and at the front desk, and why the quiet route is usually the surest one.",
       "meta": [
         "The Journal",
         "Flights & stays",
@@ -1268,7 +1268,7 @@
       ]
     },
     "prose": {
-      "standfirst": "Everyone wants the upgrade. Few people know how it is actually given. The truth is plainer than the airport stories \u2014 and far more useful once you have it.",
+      "standfirst": "Everyone wants the upgrade. Few people know how it is actually given. The truth is plainer than the airport stories, and far more useful once you have it.",
       "nodes": [
         {
           "kind": "leadPara",
@@ -1280,7 +1280,7 @@
         },
         {
           "kind": "paragraph",
-          "html": "Airlines fill premium cabins in a strict order, and goodwill sits near the bottom of it. Paid fares come first, then elite members clearing on status, then those redeeming miles or a confirmable upgrade instrument. Only when seats are still empty after all of that does discretion enter \u2014 and by then there is rarely much left to give."
+          "html": "Airlines fill premium cabins in a strict order, and goodwill sits near the bottom of it. Paid fares come first, then elite members clearing on status, then those redeeming miles or a confirmable upgrade instrument. Only when seats are still empty after all of that does discretion enter, and by then there is rarely much left to give."
         },
         {
           "kind": "paragraph",
@@ -1296,7 +1296,7 @@
         },
         {
           "kind": "paragraph",
-          "html": "Rooms move differently. A front desk has more freedom than a gate agent, and more reason to use it \u2014 a better room costs them little and earns a guest's loyalty for years. But that freedom goes to the names they know: the trade rate that marks a repeat house, the preferred-partner booking, the guest a trusted advisor has asked them to look after."
+          "html": "Rooms move differently. A front desk has more freedom than a gate agent, and more reason to use it: a better room costs them little and earns a guest's loyalty for years. But that freedom goes to the names they know: the trade rate that marks a repeat house, the preferred-partner booking, the guest a trusted advisor has asked them to look after."
         },
         {
           "kind": "paragraph",
@@ -1308,18 +1308,18 @@
         },
         {
           "kind": "paragraph",
-          "html": "When we book you into a hotel, the request does not start at check-in. It starts with a relationship the property values \u2014 a preferred-partner programme, a rate that marks you as a guest worth keeping, an advisor the front-office manager has worked with for years. The request reads differently because of who is making it."
+          "html": "When we book you into a hotel, the request does not start at check-in. It starts with a relationship the property values: a preferred-partner programme, a rate that marks you as a guest worth keeping, an advisor the front-office manager has worked with for years. The request reads differently because of who is making it."
         },
         {
           "kind": "paragraph",
-          "html": "None of this is a guarantee, and we will never pretend it is. Inventory is inventory; a sold-out cabin is sold out. What we can do is make sure you are in line for the better seat and the better room when one exists \u2014 and that, far more often than chance alone would allow, is what happens."
+          "html": "None of this is a guarantee, and we will never pretend it is. Inventory is inventory; a sold-out cabin is sold out. What we can do is make sure you are in line for the better seat and the better room when one exists, and that, far more often than chance alone would allow, is what happens."
         },
         {
           "kind": "list",
           "className": "",
           "items": [
             "The fare and the room are booked into categories that can move up, not ones stranded at the bottom.",
-            "Your preferences \u2014 the higher floor, the flat bed, the late checkout \u2014 are on file before you arrive, not asked for at the desk.",
+            "Your preferences: the higher floor, the flat bed, the late checkout, are on file before you arrive, not asked for at the desk.",
             "The property hears from a name it trusts that you are a guest worth the better room.",
             "Where status or partner benefits apply, they are claimed correctly, every time, without you chasing them."
           ]
@@ -1329,7 +1329,7 @@
         },
         {
           "kind": "paragraph",
-          "html": "The travellers who always seem to be at the front of the plane and on the best floor are rarely luckier than you. They have simply stopped asking at the worst moment and started arranging at the best one. That is the whole of it \u2014 and it is ours to do for you, on every flight we book and every room we hold, until you are home."
+          "html": "The travellers who always seem to be at the front of the plane and on the best floor are rarely luckier than you. They have simply stopped asking at the worst moment and started arranging at the best one. That is the whole of it, and it is ours to do for you, on every flight we book and every room we hold, until you are home."
         }
       ]
     },
@@ -1338,7 +1338,7 @@
       "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fnice-riviera.jpg&w=2048&q=80",
       "eyebrow": "Your move",
       "heading": "Let us arrange the better seat, and the better room.",
-      "lede": "Tell us where you are headed. We will book the flight and the stay in the way that leaves the door open \u2014 and look after the visa while we are at it.",
+      "lede": "Tell us where you are headed. We will book the flight and the stay in the way that leaves the door open, and look after the visa while we are at it.",
       "ctaPrimary": {
         "label": "Plan a trip",
         "href": "enquire.html"
@@ -1352,8 +1352,8 @@
   "journal-the-overnight-flight": {
     "slug": "journal-the-overnight-flight",
     "seo": {
-      "title": "The overnight flight \u2014 The Journal \u00b7 TripAgent",
-      "description": "The overnight flight, done well \u2014 sleeping at altitude, timing the meal, arriving rested. The quiet craft of the red-eye, and how we set it up for you.",
+      "title": "The overnight flight: The Journal \u00b7 TripAgent",
+      "description": "The overnight flight, done well: sleeping at altitude, timing the meal, arriving rested. The quiet craft of the red-eye, and how we set it up for you.",
       "ogImage": "https://tripagent-site.vercel.app/img/og.jpg"
     },
     "hero": {
@@ -1377,7 +1377,7 @@
       "nodes": [
         {
           "kind": "leadPara",
-          "html": "Most people endure the overnight flight rather than use it. They eat the meal because it is offered, watch films they will not remember, and land hollow-eyed into a day they had hoped to enjoy. Yet the long-haul night is one of travel's quiet gifts \u2014 a chance to <b>cross the world while you sleep</b> and step off into the morning. The whole of it is one decision: treat the flight as a night's rest, not an event, and set it up that way before you board."
+          "html": "Most people endure the overnight flight rather than use it. They eat the meal because it is offered, watch films they will not remember, and land hollow-eyed into a day they had hoped to enjoy. Yet the long-haul night is one of travel's quiet gifts: a chance to <b>cross the world while you sleep</b> and step off into the morning. The whole of it is one decision: treat the flight as a night's rest, not an event, and set it up that way before you board."
         },
         {
           "kind": "heading",
@@ -1385,7 +1385,7 @@
         },
         {
           "kind": "paragraph",
-          "html": "Everything that matters on a red-eye serves one thing: real sleep. It begins with the <b>seat</b> \u2014 a flat bed, away from the galley and the toilets, on a quiet aircraft. Then the <b>routine</b>: change into something soft, decline the long meal service, move to the destination's time the moment you settle, and let the cabin go dark. Eye mask, good earplugs or noise-cancelling, your own neck support, water within reach. Skip the drink that promises sleep and steals it. None of this is exotic. It is simply doing on a plane what you would do to sleep well anywhere."
+          "html": "Everything that matters on a red-eye serves one thing: real sleep. It begins with the <b>seat</b>a flat bed, away from the galley and the toilets, on a quiet aircraft. Then the <b>routine</b>: change into something soft, decline the long meal service, move to the destination's time the moment you settle, and let the cabin go dark. Eye mask, good earplugs or noise-cancelling, your own neck support, water within reach. Skip the drink that promises sleep and steals it. None of this is exotic. It is simply doing on a plane what you would do to sleep well anywhere."
         },
         {
           "kind": "blockquote",
@@ -1414,7 +1414,7 @@
             "We choose the flight and aircraft whose timing and cabin let you truly sleep, not just the cheapest red-eye.",
             "We hold a flat-bed seat in the quiet part of the cabin, away from galleys and traffic.",
             "Where the airline allows, we arrange dine-before-you-fly and an undisturbed night, with a light breakfast before landing.",
-            "We plan the arrival day \u2014 early check-in, a gentle first evening \u2014 so the night gives you a rested morning."
+            "We plan the arrival day: early check-in, a gentle first evening, so the night gives you a rested morning."
           ]
         },
         {
@@ -1422,7 +1422,7 @@
         },
         {
           "kind": "paragraph",
-          "html": "The overnight flight can be the best night's sleep of your trip, or the reason you lose a day recovering. Tell us where you are flying, and we will set the whole night up to arrive rested \u2014 the seat, the timing, the morning after \u2014 and look after the journey until you are home."
+          "html": "The overnight flight can be the best night's sleep of your trip, or the reason you lose a day recovering. Tell us where you are flying, and we will set the whole night up to arrive rested: the seat, the timing, the morning after, and look after the journey until you are home."
         }
       ]
     },
@@ -1445,7 +1445,7 @@
   "journal-the-quiet-suite": {
     "slug": "journal-the-quiet-suite",
     "seo": {
-      "title": "The quiet suite \u2014 The Journal \u00b7 TripAgent",
+      "title": "The quiet suite: The Journal \u00b7 TripAgent",
       "description": "What makes a suite worth it, and what doesn't. An honest look at when the bigger room earns its place, and when a quieter one is the better stay.",
       "ogImage": "https://tripagent-site.vercel.app/img/og.jpg"
     },
@@ -1470,7 +1470,7 @@
       "nodes": [
         {
           "kind": "leadPara",
-          "html": "Ask most people what a suite is and they describe more. More floor. More furniture. A second television no one will watch. That is the version the photographs sell, and on a short city stay it is often money spent on rooms you walk through rather than live in. The suites that change a trip do something else. They give you not more space, but the <b>right</b> space \u2014 and a few things you only notice once you have them."
+          "html": "Ask most people what a suite is and they describe more. More floor. More furniture. A second television no one will watch. That is the version the photographs sell, and on a short city stay it is often money spent on rooms you walk through rather than live in. The suites that change a trip do something else. They give you not more space, but the <b>right</b> space, and a few things you only notice once you have them."
         },
         {
           "kind": "heading",
@@ -1478,7 +1478,7 @@
         },
         {
           "kind": "paragraph",
-          "html": "The real upgrade rarely shows in a photograph. A separate sitting room means a family isn't held to one bed when a child sleeps early. A corner position means light from two sides, and quiet away from the lift and the ice machine. A proper terrace means the view is somewhere you sit, not somewhere you glance at through glass. And the best suites come with people \u2014 a butler, or a host who clears the small frictions of a stay before you meet them."
+          "html": "The real upgrade rarely shows in a photograph. A separate sitting room means a family isn't held to one bed when a child sleeps early. A corner position means light from two sides, and quiet away from the lift and the ice machine. A proper terrace means the view is somewhere you sit, not somewhere you glance at through glass. And the best suites come with people: a butler, or a host who clears the small frictions of a stay before you meet them."
         },
         {
           "kind": "blockquote",
@@ -1490,7 +1490,7 @@
         },
         {
           "kind": "paragraph",
-          "html": "Some stays pay the suite back many times over. They tend to be the ones where you spend real time in the room. <b>A resort you've travelled far to enjoy</b> \u2014 where the terrace, the plunge pool and the view are the holiday, not the backdrop. <b>A family trip</b>, where a second room is the difference between rest and a long, cramped few days. <b>An occasion</b> \u2014 the anniversary, the milestone \u2014 where the room is part of the memory. On those trips, the suite isn't an indulgence. It's the point."
+          "html": "Some stays pay the suite back many times over. They tend to be the ones where you spend real time in the room. <b>A resort you've travelled far to enjoy</b>where the terrace, the plunge pool and the view are the holiday, not the backdrop. <b>A family trip</b>, where a second room is the difference between rest and a long, cramped few days. <b>An occasion</b>the anniversary, the milestone, where the room is part of the memory. On those trips, the suite isn't an indulgence. It's the point."
         },
         {
           "kind": "heading",
@@ -1498,15 +1498,15 @@
         },
         {
           "kind": "paragraph",
-          "html": "Just as honestly: on a busy two-night city stay spent mostly out, a well-chosen room often beats a suite you'll barely sit in. We'd rather put you in the best room on the best floor \u2014 the higher corner, the view, the quiet side \u2014 than in space you've paid for and won't use. Sometimes the smarter spend is a better room, with the difference saved for the dinner you'll remember."
+          "html": "Just as honestly: on a busy two-night city stay spent mostly out, a well-chosen room often beats a suite you'll barely sit in. We'd rather put you in the best room on the best floor: the higher corner, the view, the quiet side, than in space you've paid for and won't use. Sometimes the smarter spend is a better room, with the difference saved for the dinner you'll remember."
         },
         {
           "kind": "list",
           "className": "lux-list",
           "items": [
-            "We read the trip \u2014 resort or city, family or two, ordinary week or once-a-decade occasion \u2014 before we recommend the category.",
+            "We read the trip: resort or city, family or two, ordinary week or once-a-decade occasion, before we recommend the category.",
             "We know which suites in a given house are truly special, and which are simply larger.",
-            "Where a room beats a suite, we say so \u2014 and hold the best room in the building instead.",
+            "Where a room beats a suite, we say so, and hold the best room in the building instead.",
             "Our rates often add what the suite was really for: the view, the late checkout, the host, the welcome."
           ]
         },
@@ -1515,7 +1515,7 @@
         },
         {
           "kind": "paragraph",
-          "html": "A suite should earn its place. The only way to know whether it does is to understand the stay it belongs to. Tell us where you're going and what the trip is for. We'll tell you honestly whether the suite is worth it \u2014 then hold the right room, at our rate, with the things that matter included, and look after it until you're home."
+          "html": "A suite should earn its place. The only way to know whether it does is to understand the stay it belongs to. Tell us where you're going and what the trip is for. We'll tell you honestly whether the suite is worth it, then hold the right room, at our rate, with the things that matter included, and look after it until you're home."
         }
       ]
     },
@@ -1524,7 +1524,7 @@
       "image": "",
       "eyebrow": "Your move",
       "heading": "Let us choose the room that fits the trip.",
-      "lede": "Tell us where you're staying and what the trip is for. We'll find the right room \u2014 suite or not \u2014 and hold it at our rate, with the welcome included.",
+      "lede": "Tell us where you're staying and what the trip is for. We'll find the right room: suite or not, and hold it at our rate, with the welcome included.",
       "ctaPrimary": {
         "label": "Plan a trip",
         "href": "enquire.html"
@@ -1538,8 +1538,8 @@
   "journal-the-return-home": {
     "slug": "journal-the-return-home",
     "seo": {
-      "title": "The return home \u2014 The Journal \u00b7 TripAgent",
-      "description": "A trip doesn't end at the destination. It ends at your own door. On the homecoming \u2014 the part of travel most people forget, and we never do.",
+      "title": "The return home: The Journal \u00b7 TripAgent",
+      "description": "A trip doesn't end at the destination. It ends at your own door. On the homecoming: the part of travel most people forget, and we never do.",
       "ogImage": "https://tripagent-site.vercel.app/img/og.jpg"
     },
     "hero": {
@@ -1551,7 +1551,7 @@
       },
       "kicker": "The Journal \u00b7 A reflection",
       "headingHtml": "The return <span class=\"it\">home</span>.",
-      "lede": "The part of travel most people forget \u2014 the way back, and the door you walk through at the end of it. The part we were built around.",
+      "lede": "The part of travel most people forget: the way back, and the door you walk through at the end of it. The part we were built around.",
       "meta": [
         "The Journal",
         "The maison",
@@ -1559,11 +1559,11 @@
       ]
     },
     "prose": {
-      "standfirst": "A trip is remembered for the places it reached. But it is <span class=\"it\">felt</span> for the way it ended \u2014 the last flight, the last car, the key in your own door. Most people overlook this. We never have.",
+      "standfirst": "A trip is remembered for the places it reached. But it is <span class=\"it\">felt</span> for the way it ended: the last flight, the last car, the key in your own door. Most people overlook this. We never have.",
       "nodes": [
         {
           "kind": "leadPara",
-          "html": "Travel is sold in one direction. Every brochure ends at the destination \u2014 the suite, the view, the first evening \u2014 as though the journey simply stops there. But you know it doesn't. There is a way back. The last morning, the packing, the airport again, the long flight home, and finally your own door, where the trip really ends. That second half is rarely planned with any care. We think it deserves the most."
+          "html": "Travel is sold in one direction. Every brochure ends at the destination: the suite, the view, the first evening, as though the journey simply stops there. But you know it doesn't. There is a way back. The last morning, the packing, the airport again, the long flight home, and finally your own door, where the trip really ends. That second half is rarely planned with any care. We think it deserves the most."
         },
         {
           "kind": "heading",
@@ -1571,7 +1571,7 @@
         },
         {
           "kind": "paragraph",
-          "html": "By the return leg, the lift of departure is gone. You are tired in a way you weren't on the way out. You've shifted across time zones, gathered things, perhaps grown a little reluctant to leave. This is the moment a journey is most likely to fray \u2014 a tight connection, a delayed flight, a car that doesn't come \u2014 and the moment travellers plan for least. The outbound gets all the attention. The way back is left to chance."
+          "html": "By the return leg, the lift of departure is gone. You are tired in a way you weren't on the way out. You've shifted across time zones, gathered things, perhaps grown a little reluctant to leave. This is the moment a journey is most likely to fray: a tight connection, a delayed flight, a car that doesn't come, and the moment travellers plan for least. The outbound gets all the attention. The way back is left to chance."
         },
         {
           "kind": "blockquote",
@@ -1583,11 +1583,11 @@
         },
         {
           "kind": "paragraph",
-          "html": "Our promise is four words long \u2014 <b>until you are home</b> \u2014 and we mean it plainly. Not until you check in. Not until you reach the resort. Until you are home, your own door closed behind you, the journey done. Everything we do bends toward that ending: the return flight watched as closely as the outbound, the connection given room to breathe, the car confirmed for your arrival, the small frictions of coming back handled before they reach you."
+          "html": "Our promise is four words long<b>until you are home</b>and we mean it plainly. Not until you check in. Not until you reach the resort. Until you are home, your own door closed behind you, the journey done. Everything we do bends toward that ending: the return flight watched as closely as the outbound, the connection given room to breathe, the car confirmed for your arrival, the small frictions of coming back handled before they reach you."
         },
         {
           "kind": "paragraph",
-          "html": "It is the half of travel no one talks about, and the half that stays with you. A trip that began well and ended in a scramble leaves a different memory than one that closed as gently as it opened. We would rather you keep the whole arc \u2014 the going, the being there, and the quiet landing back into your own life."
+          "html": "It is the half of travel no one talks about, and the half that stays with you. A trip that began well and ended in a scramble leaves a different memory than one that closed as gently as it opened. We would rather you keep the whole arc: the going, the being there, and the quiet landing back into your own life."
         },
         {
           "kind": "heading",
@@ -1601,9 +1601,9 @@
           "kind": "list",
           "className": "",
           "items": [
-            "Your return is monitored as closely as your outbound \u2014 a disruption on the way back reaches us just as fast.",
+            "Your return is monitored as closely as your outbound: a disruption on the way back reaches us just as fast.",
             "Connections home are planned with margin, and the arrival car is confirmed for your real landing time.",
-            "The small things at the end \u2014 the lounge, the late checkout, the smooth transfer \u2014 are arranged, not left to chance.",
+            "The small things at the end: the lounge, the late checkout, the smooth transfer, are arranged, not left to chance.",
             "One person, who knows your whole journey, stays with it until the door closes behind you."
           ]
         },
@@ -1612,7 +1612,7 @@
         },
         {
           "kind": "paragraph",
-          "html": "A journey isn't finished when you reach the beautiful place. It's finished when you're home, rested, the trip behind you and entirely yours to keep. That ending is the part we care about most \u2014 and the reason our signature is two words long. We stay. Until you are home."
+          "html": "A journey isn't finished when you reach the beautiful place. It's finished when you're home, rested, the trip behind you and entirely yours to keep. That ending is the part we care about most, and the reason our signature is two words long. We stay. Until you are home."
         }
       ]
     },
@@ -1621,7 +1621,7 @@
       "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fmarrakech.jpg&w=2048&q=80",
       "eyebrow": "Your move",
       "heading": "Travel with someone who stays.",
-      "lede": "Tell us where you're going. We'll look after the whole of it \u2014 the flights, the rooms, the visa, and the journey back \u2014 until you are home.",
+      "lede": "Tell us where you're going. We'll look after the whole of it: the flights, the rooms, the visa, and the journey back, until you are home.",
       "ctaPrimary": {
         "label": "Plan a trip",
         "href": "enquire.html"
@@ -1635,7 +1635,7 @@
   "journal-the-right-seat": {
     "slug": "journal-the-right-seat",
     "seo": {
-      "title": "The right seat \u2014 The Journal \u00b7 TripAgent",
+      "title": "The right seat: The Journal \u00b7 TripAgent",
       "description": "The seat matters as much as the class. How your advisor reads the seat map, and chooses the aircraft and the exact seat, so you arrive rested.",
       "ogImage": "https://tripagent-site.vercel.app/img/og.jpg"
     },
@@ -1668,7 +1668,7 @@
         },
         {
           "kind": "paragraph",
-          "html": "Before the seat number, there's the aircraft itself. Carriers fly different aircraft on different routes, and even on the same route at different times of day, and the cabins are not equal. A modern widebody \u2014 the A350, the 787, the latest A380 configurations \u2014 tends to mean newer seats, better air, quieter cabins and lower pressure altitude, all of which matter on a long night. The first question worth asking isn't \"which airline?\" but \"<b>which aircraft is operating my flight, on my date?</b>\" \u2014 because that quietly changes everything."
+          "html": "Before the seat number, there's the aircraft itself. Carriers fly different aircraft on different routes, and even on the same route at different times of day, and the cabins are not equal. A modern widebody: the A350, the 787, the latest A380 configurations, tends to mean newer seats, better air, quieter cabins and lower pressure altitude, all of which matter on a long night. The first question worth asking isn't \"which airline?\" but \"<b>which aircraft is operating my flight, on my date?</b>\"because that quietly changes everything."
         },
         {
           "kind": "blockquote",
@@ -1680,7 +1680,7 @@
         },
         {
           "kind": "paragraph",
-          "html": "Within a good cabin, small choices add up. <b>For sleeping</b>, a seat away from the galley and the toilets escapes the clatter and the traffic; a position behind a cabin divider avoids the steady stream of people past your shoulder. <b>For couples</b>, the centre pairs on many widebodies sit you side by side, while a \"honeymoon\" middle on others all but joins the two seats. <b>For solo travellers</b>, the single window seats \u2014 the true windows, with direct aisle access \u2014 are the quietest real estate on the plane. <b>For long legs</b>, a bulkhead or exit row in premium economy can be the difference between comfort and a cramped night."
+          "html": "Within a good cabin, small choices add up. <b>For sleeping</b>, a seat away from the galley and the toilets escapes the clatter and the traffic; a position behind a cabin divider avoids the steady stream of people past your shoulder. <b>For couples</b>, the centre pairs on many widebodies sit you side by side, while a \"honeymoon\" middle on others all but joins the two seats. <b>For solo travellers</b>, the single window seats: the true windows, with direct aisle access, are the quietest real estate on the plane. <b>For long legs</b>, a bulkhead or exit row in premium economy can be the difference between comfort and a cramped night."
         },
         {
           "kind": "heading",
@@ -1694,10 +1694,10 @@
           "kind": "list",
           "className": "",
           "items": [
-            "We confirm the aircraft type and seat product for your exact flight and date \u2014 not the route's average.",
+            "We confirm the aircraft type and seat product for your exact flight and date, not the route's average.",
             "We read the seat map for your trip: sleeping or working, solo or together, one leg or four.",
             "We hold the right seats early, before the good ones go, and watch for an aircraft swap that changes the cabin.",
-            "Where a better seat lives on a slightly different flight, we'll tell you \u2014 and price the trade honestly."
+            "Where a better seat lives on a slightly different flight, we'll tell you, and price the trade honestly."
           ]
         },
         {
@@ -1705,7 +1705,7 @@
         },
         {
           "kind": "paragraph",
-          "html": "A seat is a small thing until it's the reason you arrived tired. Tell us how you like to fly and we'll choose the aircraft, the cabin and the exact seat to match \u2014 held early, checked again before you travel, and looked after as part of the whole journey until you are home."
+          "html": "A seat is a small thing until it's the reason you arrived tired. Tell us how you like to fly and we'll choose the aircraft, the cabin and the exact seat to match: held early, checked again before you travel, and looked after as part of the whole journey until you are home."
         }
       ]
     },
@@ -1728,7 +1728,7 @@
   "journal-the-villa-week": {
     "slug": "journal-the-villa-week",
     "seo": {
-      "title": "The villa week \u2014 The Journal \u00b7 TripAgent",
+      "title": "The villa week: The Journal \u00b7 TripAgent",
       "description": "When a house, a cook and a private pool make the holiday, and when a hotel is still the better call. The case for a villa week, and what your advisor checks first.",
       "ogImage": "https://tripagent-site.vercel.app/img/og.jpg"
     },
@@ -1741,7 +1741,7 @@
       },
       "kicker": "The Journal \u00b7 On the stay",
       "headingHtml": "The villa <span class=\"it\">week</span>.",
-      "lede": "A house, not a room. A cook who knows your breakfast by the third morning. When a villa is the right call for a week away \u2014 and when a hotel still wins.",
+      "lede": "A house, not a room. A cook who knows your breakfast by the third morning. When a villa is the right call for a week away, and when a hotel still wins.",
       "meta": [
         "The Journal",
         "Hotels",
@@ -1753,7 +1753,7 @@
       "nodes": [
         {
           "kind": "leadPara",
-          "html": "A good villa changes the shape of a trip. Instead of a room you return to, you have a <b>house you live in</b> \u2014 a kitchen, a garden, a pool no one shares, room enough for everyone to find their own corner. Add a cook, a housekeeper, perhaps a driver, and the week stops being a list of bookings. It becomes a private life, briefly borrowed. For the right trip, nothing a hotel offers comes close."
+          "html": "A good villa changes the shape of a trip. Instead of a room you return to, you have a <b>house you live in</b>a kitchen, a garden, a pool no one shares, room enough for everyone to find their own corner. Add a cook, a housekeeper, perhaps a driver, and the week stops being a list of bookings. It becomes a private life, briefly borrowed. For the right trip, nothing a hotel offers comes close."
         },
         {
           "kind": "heading",
@@ -1761,7 +1761,7 @@
         },
         {
           "kind": "paragraph",
-          "html": "The villa earns its place when the <b>group is the point</b>. A family across three generations, together yet apart, each on their own rhythm. A reunion of friends who want long dinners that don't end at a restaurant's closing time. A multi-family holiday where the cost per head, shared, often comes in under separate hotel rooms \u2014 and buys far more space and privacy besides. When you've gathered the people you love and want them all under one roof, the villa is the answer that fits."
+          "html": "The villa earns its place when the <b>group is the point</b>. A family across three generations, together yet apart, each on their own rhythm. A reunion of friends who want long dinners that don't end at a restaurant's closing time. A multi-family holiday where the cost per head, shared, often comes in under separate hotel rooms, and buys far more space and privacy besides. When you've gathered the people you love and want them all under one roof, the villa is the answer that fits."
         },
         {
           "kind": "blockquote",
@@ -1773,7 +1773,7 @@
         },
         {
           "kind": "paragraph",
-          "html": "The difference between a self-catering let and a true villa holiday is people. A <b>private cook</b> who shops the local market and cooks to your family's taste \u2014 the children, the dietary needs, the Indian breakfast if that is what eases the first morning \u2014 changes the whole week. A housekeeper who keeps the house quietly running. A manager a phone call away. A driver who knows the roads. They turn a beautiful empty house into a holiday that looks after you. The villa is the setting. The staff are the stay."
+          "html": "The difference between a self-catering let and a true villa holiday is people. A <b>private cook</b> who shops the local market and cooks to your family's taste: the children, the dietary needs, the Indian breakfast if that is what eases the first morning, changes the whole week. A housekeeper who keeps the house quietly running. A manager a phone call away. A driver who knows the roads. They turn a beautiful empty house into a holiday that looks after you. The villa is the setting. The staff are the stay."
         },
         {
           "kind": "heading",
@@ -1781,15 +1781,15 @@
         },
         {
           "kind": "paragraph",
-          "html": "The villa is not always right, and we will say so. For a couple on a short, romantic break, a hotel's restaurants, spa and service can beat the quiet of a private house that needs filling. For a city trip spent out and about, a villa's seclusion turns to isolation. And a villa asks a little planning \u2014 provisioning, a cook's day off, how meals work \u2014 that a hotel simply absorbs. When the trip is short, urban, or just the two of you, we will steer you back to a great room."
+          "html": "The villa is not always right, and we will say so. For a couple on a short, romantic break, a hotel's restaurants, spa and service can beat the quiet of a private house that needs filling. For a city trip spent out and about, a villa's seclusion turns to isolation. And a villa asks a little planning: provisioning, a cook's day off, how meals work, that a hotel simply absorbs. When the trip is short, urban, or just the two of you, we will steer you back to a great room."
         },
         {
           "kind": "list",
           "className": "",
           "items": [
-            "We read the group and the trip before we ever recommend a villa over a hotel \u2014 and tell you plainly when the hotel wins.",
+            "We read the group and the trip before we ever recommend a villa over a hotel, and tell you plainly when the hotel wins.",
             "We see the house for what it is: the real views, the pool's privacy, the kitchen and the bedrooms that photos flatter.",
-            "The villas worth the week come staffed \u2014 cook, housekeeper, driver, briefed on your tastes \u2014 arranged through the property. What we book is your flights, the villa and the visas.",
+            "The villas worth the week come staffed: cook, housekeeper, driver, briefed on your tastes, arranged through the property. What we book is your flights, the villa and the visas.",
             "We handle the provisioning, the transfers and the small logistics, so the house is ready and the week simply unfolds."
           ]
         },
@@ -1798,7 +1798,7 @@
         },
         {
           "kind": "paragraph",
-          "html": "A villa week, done well, is the holiday people talk about for years. Tell us who is coming and where you would gather them, and we will find the house, arrange the people, and look after every detail \u2014 the flights, the transfers, the cook's first breakfast \u2014 until you are home."
+          "html": "A villa week, done well, is the holiday people talk about for years. Tell us who is coming and where you would gather them, and we will find the house, arrange the people, and look after every detail: the flights, the transfers, the cook's first breakfast, until you are home."
         }
       ]
     },
@@ -1821,8 +1821,8 @@
   "journal-visa-free-for-indians": {
     "slug": "journal-visa-free-for-indians",
     "seo": {
-      "title": "Where Indians travel easily \u2014 The Journal \u00b7 TripAgent",
-      "description": "The places that welcome an Indian passport with little or no visa to arrange \u2014 visa-free, visa-on-arrival and eVisa \u2014 and why your advisor still confirms before you fly.",
+      "title": "Where Indians travel easily: The Journal \u00b7 TripAgent",
+      "description": "The places that welcome an Indian passport with little or no visa to arrange: visa-free, visa-on-arrival and eVisa, and why your advisor still confirms before you fly.",
       "ogImage": "https://tripagent-site.vercel.app/img/og.jpg"
     },
     "hero": {
@@ -1834,7 +1834,7 @@
       },
       "kicker": "The Journal \u00b7 The open door",
       "headingHtml": "Where Indians travel <span class=\"it\">easily</span>.",
-      "lede": "The places that welcome an Indian passport with little or no visa to arrange \u2014 and the one reason your advisor still checks before you fly.",
+      "lede": "The places that welcome an Indian passport with little or no visa to arrange, and the one reason your advisor still checks before you fly.",
       "meta": [
         "The Journal",
         "Visas",
@@ -1854,7 +1854,7 @@
         },
         {
           "kind": "paragraph",
-          "html": "It helps to know what \"no visa to arrange\" really means, because the three forms aren't the same. <b>Visa-free</b> means you simply arrive \u2014 no application, no fee, just your passport and an onward plan. <b>Visa-on-arrival</b> means the entry permit is issued at the airport when you land, usually for a fee and against a few documents. <b>eVisa</b> means a short online application before you travel, approved by email, with the passport never leaving your hands. All three are far lighter than a consulate visit. Each still carries its own conditions on length of stay, purpose and documents."
+          "html": "It helps to know what \"no visa to arrange\" really means, because the three forms aren't the same. <b>Visa-free</b> means you simply arrive: no application, no fee, just your passport and an onward plan. <b>Visa-on-arrival</b> means the entry permit is issued at the airport when you land, usually for a fee and against a few documents. <b>eVisa</b> means a short online application before you travel, approved by email, with the passport never leaving your hands. All three are far lighter than a consulate visit. Each still carries its own conditions on length of stay, purpose and documents."
         },
         {
           "kind": "blockquote",
@@ -1866,11 +1866,11 @@
         },
         {
           "kind": "paragraph",
-          "html": "The list shifts from year to year, so we'll speak in regions rather than overstate it. Across <b>Southeast Asia</b>, many of the great beach and city destinations offer visa-on-arrival or eVisa, and some are now fully visa-free for short stays. Much of the <b>Gulf and Middle East</b> is straightforward, with quick eVisas and easy connections. Parts of the <b>Indian Ocean</b> \u2014 the islands a honeymoon is made of \u2014 ask for nothing more than your arrival. And a number of places across <b>Africa, the Caucasus and beyond</b> welcome an Indian passport with an eVisa or on arrival."
+          "html": "The list shifts from year to year, so we'll speak in regions rather than overstate it. Across <b>Southeast Asia</b>, many of the great beach and city destinations offer visa-on-arrival or eVisa, and some are now fully visa-free for short stays. Much of the <b>Gulf and Middle East</b> is straightforward, with quick eVisas and easy connections. Parts of the <b>Indian Ocean</b>the islands a honeymoon is made of: ask for nothing more than your arrival. And a number of places across <b>Africa, the Caucasus and beyond</b> welcome an Indian passport with an eVisa or on arrival."
         },
         {
           "kind": "paragraph",
-          "html": "We've kept the specifics broad here, for a reason. Visa policies change \u2014 sometimes at short notice, sometimes by the season, sometimes by the route you fly. A list that was right last year can quietly mislead this one. So we won't pin you to particular countries on a journal page. We confirm them, live, for your trip."
+          "html": "We've kept the specifics broad here, for a reason. Visa policies change: sometimes at short notice, sometimes by the season, sometimes by the route you fly. A list that was right last year can quietly mislead this one. So we won't pin you to particular countries on a journal page. We confirm them, live, for your trip."
         },
         {
           "kind": "heading",
@@ -1884,9 +1884,9 @@
           "kind": "list",
           "className": "",
           "items": [
-            "<b>Your advisor confirms the current entry rule for your passport and route before you fly</b> \u2014 never from memory, always against the live position.",
+            "<b>Your advisor confirms the current entry rule for your passport and route before you fly</b>never from memory, always against the live position.",
             "Where an eVisa or visa-on-arrival applies, we prepare and file it, or have the paperwork ready for the airport.",
-            "We check the conditions that catch people out \u2014 stay length, passport validity, onward-ticket and funds requirements.",
+            "We check the conditions that catch people out: stay length, passport validity, onward-ticket and funds requirements.",
             "And we hold the flights and rooms around it, so the easy trip stays easy from start to finish."
           ]
         },

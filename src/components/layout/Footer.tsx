@@ -179,7 +179,7 @@ export function Footer() {
           </div>
           <div className="tagline">Until you are home.</div>
           <p className="fdesc" style={{ fontSize: 13, maxWidth: "30ch" }}>
-            A private travel maison. Flights, hotels and visas — handled, completely.
+            A private travel maison. Flights, hotels and visas: handled, completely.
           </p>
         </div>
         {columns.map((col) => (

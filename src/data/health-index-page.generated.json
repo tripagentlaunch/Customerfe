@@ -1,7 +1,7 @@
 {
   "seo": {
-    "title": "Health & Longevity — TripAgent",
-    "description": "The world's finest hospitals, specialists and longevity clinics — quietly arranged, from India."
+    "title": "Health & Longevity | TripAgent",
+    "description": "The world's finest hospitals, specialists and longevity clinics: quietly arranged, from India."
   },
   "hero": {
     "crumbLabel": "What we handle",
@@ -9,8 +9,8 @@
     "hereLabel": "Health & Longevity",
     "eyebrow": "What we handle/Health & Longevity",
     "heading": "Live well, for longer.",
-    "lede": "The world’s finest longevity retreats, preventive care and specialists — quietly arranged, in confidence.",
-    "kicker": "A research & coordination area — not a booked service. We help you navigate the field and arrange the travel around it; the care itself rests with accredited providers.",
+    "lede": "The world’s finest longevity retreats, preventive care and specialists: quietly arranged, in confidence.",
+    "kicker": "A research & coordination area, not a booked service. We help you navigate the field and arrange the travel around it; the care itself rests with accredited providers.",
     "iconSvg": "<path d=\"M8 3c0 4 8 6 8 9s-8 5-8 9M16 3c0 4-8 6-8 9s8 5 8 9M8.5 7h7M8.5 17h7M10 10h4M10 14h4\"></path>"
   },
   "disclaimer": {
@@ -154,7 +154,7 @@
     "eyebrowIconSvg": "<circle cx=\"12\" cy=\"12\" r=\"9\"></circle><path d=\"M15.6 8.4l-2.3 5.3-5.3 2.3 2.3-5.3z\"></path>",
     "eyebrow": "When you need the best",
     "heading": "The finest care, matched to you.",
-    "lede": "When something serious arises, the world’s leading specialists and hospitals — chosen for your case.",
+    "lede": "When something serious arises, the world’s leading specialists and hospitals: chosen for your case.",
     "buttons": [
       {
         "id": "oncology",
@@ -251,7 +251,7 @@
       {
         "id": "oncology",
         "heading": "Oncology & Cancer Care",
-        "dek": "Comprehensive cancer care — from precise diagnostics and tumour-board planning to surgery, systemic therapy and advanced radiotherapy — delivered by teams who see your case in full.",
+        "dek": "Comprehensive cancer care: from precise diagnostics and tumour-board planning to surgery, systemic therapy and advanced radiotherapy, delivered by teams who see your case in full.",
         "indexLabel": "Where the world leads",
         "rows": [
           {
@@ -318,7 +318,7 @@
             "href": "/health-hospital-narayana-health-city-bengaluru"
           },
           {
-            "name": "Medanta — The Medicity (Gurugram)",
+            "name": "Medanta: The Medicity (Gurugram)",
             "location": "Gurugram",
             "href": "/health-hospital-medanta-the-medicity-gurugram"
           },
@@ -370,7 +370,7 @@
       {
         "id": "neurology-neurosurgery-spine",
         "heading": "Neurology, Neurosurgery & Spine",
-        "dek": "Care for brain, nerve and spinal conditions — from epilepsy and movement disorders to complex tumour and spine surgery — in high-acuity academic centres.",
+        "dek": "Care for brain, nerve and spinal conditions: from epilepsy and movement disorders to complex tumour and spine surgery, in high-acuity academic centres.",
         "indexLabel": "Where the world leads",
         "rows": [
           {
@@ -394,7 +394,7 @@
             "href": null
           },
           {
-            "name": "Medanta — The Medicity (Gurugram)",
+            "name": "Medanta: The Medicity (Gurugram)",
             "location": "Gurugram",
             "href": "/health-hospital-medanta-the-medicity-gurugram"
           },
@@ -408,7 +408,7 @@
       {
         "id": "fertility-ivf",
         "heading": "Fertility & IVF",
-        "dek": "Assisted reproduction — IVF, ICSI, fertility preservation and donor programmes — handled with discretion and clear, honest counselling on expectations.",
+        "dek": "Assisted reproduction: IVF, ICSI, fertility preservation and donor programmes, handled with discretion and clear, honest counselling on expectations.",
         "indexLabel": "Where the world leads",
         "rows": [
           {
@@ -465,7 +465,7 @@
             "href": "/health-hospital-university-hospital-zurich"
           },
           {
-            "name": "Medanta — The Medicity (Gurugram)",
+            "name": "Medanta: The Medicity (Gurugram)",
             "location": "Gurugram",
             "href": "/health-hospital-medanta-the-medicity-gurugram"
           },
@@ -484,7 +484,7 @@
       {
         "id": "executive-preventive-health",
         "heading": "Executive & Preventive Health Check-ups",
-        "dek": "In-depth, single-visit health assessments — imaging, cardiology, bloodwork and specialist consults — designed to catch issues early and give you a clear plan.",
+        "dek": "In-depth, single-visit health assessments: imaging, cardiology, bloodwork and specialist consults, designed to catch issues early and give you a clear plan.",
         "indexLabel": "Where the world leads",
         "rows": [
           {
@@ -513,7 +513,7 @@
             "href": null
           },
           {
-            "name": "Medanta — The Medicity (Gurugram)",
+            "name": "Medanta: The Medicity (Gurugram)",
             "location": "Gurugram",
             "href": "/health-hospital-medanta-the-medicity-gurugram"
           }
@@ -522,7 +522,7 @@
       {
         "id": "longevity-regenerative",
         "heading": "Longevity & Regenerative Medicine",
-        "dek": "Evidence-informed healthspan programmes — advanced diagnostics, metabolic and cardiovascular optimisation and supervised recovery — framed honestly, without hype.",
+        "dek": "Evidence-informed healthspan programmes: advanced diagnostics, metabolic and cardiovascular optimisation and supervised recovery, framed honestly, without hype.",
         "indexLabel": "Where the world leads",
         "rows": [
           {
@@ -560,7 +560,7 @@
       {
         "id": "bariatric-metabolic",
         "heading": "Bariatric & Metabolic Surgery",
-        "dek": "Weight and metabolic surgery — sleeve, bypass and related procedures — with the nutrition, psychology and long-term follow-up that make results last.",
+        "dek": "Weight and metabolic surgery: sleeve, bypass and related procedures, with the nutrition, psychology and long-term follow-up that make results last.",
         "indexLabel": "Where the world leads",
         "rows": [
           {
@@ -636,7 +636,7 @@
       {
         "id": "cosmetic-reconstructive",
         "heading": "Cosmetic & Reconstructive Surgery",
-        "dek": "Aesthetic and reconstructive surgery handled with taste and discretion — from facial and body procedures to reconstruction after illness or injury.",
+        "dek": "Aesthetic and reconstructive surgery handled with taste and discretion: from facial and body procedures to reconstruction after illness or injury.",
         "indexLabel": "Where the world leads",
         "rows": [
           {
@@ -712,7 +712,7 @@
       {
         "id": "paediatric",
         "heading": "Paediatric Specialist Care",
-        "dek": "Specialist care for children — from paediatric cardiology and oncology to complex surgery — in child-focused centres with families kept close throughout.",
+        "dek": "Specialist care for children: from paediatric cardiology and oncology to complex surgery, in child-focused centres with families kept close throughout.",
         "indexLabel": "Where the world leads",
         "rows": [
           {
@@ -721,7 +721,7 @@
             "href": null
           },
           {
-            "name": "Great Ormond Street Hospital (GOSH) — International and Private Care",
+            "name": "Great Ormond Street Hospital (GOSH): International and Private Care",
             "location": "London",
             "href": "/health-hospital-great-ormond-street-hospital"
           },
@@ -750,7 +750,7 @@
       {
         "id": "robotic-minimally-invasive",
         "heading": "Robotic & Minimally-Invasive Surgery",
-        "dek": "Precision surgery through small incisions — often robot-assisted — across urology, gynaecology, gastrointestinal and thoracic procedures, aiming for faster recovery.",
+        "dek": "Precision surgery through small incisions: often robot-assisted, across urology, gynaecology, gastrointestinal and thoracic procedures, aiming for faster recovery.",
         "indexLabel": "Where the world leads",
         "rows": [
           {
@@ -769,7 +769,7 @@
             "href": null
           },
           {
-            "name": "Medanta — The Medicity (Gurugram)",
+            "name": "Medanta: The Medicity (Gurugram)",
             "location": "Gurugram",
             "href": "/health-hospital-medanta-the-medicity-gurugram"
           },
@@ -788,7 +788,7 @@
       {
         "id": "second-opinions",
         "heading": "World-Expert Second Opinions",
-        "dek": "A considered, independent review of your diagnosis and plan by a recognised expert — often remotely — before you commit to a major decision.",
+        "dek": "A considered, independent review of your diagnosis and plan by a recognised expert: often remotely, before you commit to a major decision.",
         "indexLabel": "Where the world leads",
         "rows": [
           {
@@ -812,7 +812,7 @@
             "href": null
           },
           {
-            "name": "Medanta — The Medicity (Gurugram)",
+            "name": "Medanta: The Medicity (Gurugram)",
             "location": "Gurugram",
             "href": "/health-hospital-medanta-the-medicity-gurugram"
           },
@@ -826,7 +826,7 @@
       {
         "id": "rehabilitation-recovery",
         "heading": "Rehabilitation & Recovery",
-        "dek": "Structured recovery after surgery, stroke or injury — physiotherapy, neuro-rehab and reconditioning — in dedicated units that measure progress carefully.",
+        "dek": "Structured recovery after surgery, stroke or injury: physiotherapy, neuro-rehab and reconditioning, in dedicated units that measure progress carefully.",
         "indexLabel": "Where the world leads",
         "rows": [
           {
@@ -864,7 +864,7 @@
       {
         "id": "proton-advanced-radiotherapy",
         "heading": "Proton & Advanced Radiotherapy",
-        "dek": "Highly targeted radiotherapy — proton beam and advanced techniques — that spares healthy tissue, valuable in paediatric, brain and hard-to-treat tumours.",
+        "dek": "Highly targeted radiotherapy: proton beam and advanced techniques, that spares healthy tissue, valuable in paediatric, brain and hard-to-treat tumours.",
         "indexLabel": "Where the world leads",
         "rows": [
           {
@@ -902,7 +902,7 @@
       {
         "id": "womens-health",
         "heading": "Women's Health",
-        "dek": "Comprehensive care for women — gynaecology, high-risk obstetrics, gynae-oncology and menopause medicine — delivered with sensitivity and privacy.",
+        "dek": "Comprehensive care for women: gynaecology, high-risk obstetrics, gynae-oncology and menopause medicine, delivered with sensitivity and privacy.",
         "indexLabel": "Where the world leads",
         "rows": [
           {
@@ -955,7 +955,7 @@
         "iconSvg": "<circle cx=\"12\" cy=\"12\" r=\"9\"></circle><path d=\"M3 12h18M12 3c3 3.5 3 14.5 0 18M12 3c-3 3.5-3 14.5 0 18\"></path>",
         "sub": "Germany",
         "name": "Germany",
-        "body": "A byword for rigorous, engineering-grade medicine — strong in oncology, cardiac, neurosurgery and complex surgery through large university hospitals.",
+        "body": "A byword for rigorous, engineering-grade medicine: strong in oncology, cardiac, neurosurgery and complex surgery through large university hospitals.",
         "href": "/health-destination-germany"
       },
       {
@@ -976,21 +976,21 @@
         "iconSvg": "<circle cx=\"12\" cy=\"12\" r=\"9\"></circle><path d=\"M3 12h18M12 3c3 3.5 3 14.5 0 18M12 3c-3 3.5-3 14.5 0 18\"></path>",
         "sub": "Singapore",
         "name": "Singapore",
-        "body": "Asia's benchmark for clinical quality and safety — close to India, English-speaking, with world-ranked hospitals and strong international-patient services.",
+        "body": "Asia's benchmark for clinical quality and safety: close to India, English-speaking, with world-ranked hospitals and strong international-patient services.",
         "href": "/health-destination-singapore"
       },
       {
         "iconSvg": "<circle cx=\"12\" cy=\"12\" r=\"9\"></circle><path d=\"M3 12h18M12 3c3 3.5 3 14.5 0 18M12 3c-3 3.5-3 14.5 0 18\"></path>",
         "sub": "Thailand",
         "name": "Thailand",
-        "body": "A mature, service-oriented medical-travel hub — strong value, JCI-accredited hospitals and famously smooth international-patient experiences.",
+        "body": "A mature, service-oriented medical-travel hub: strong value, JCI-accredited hospitals and famously smooth international-patient experiences.",
         "href": "/health-destination-thailand"
       },
       {
         "iconSvg": "<circle cx=\"12\" cy=\"12\" r=\"9\"></circle><path d=\"M3 12h18M12 3c3 3.5 3 14.5 0 18M12 3c-3 3.5-3 14.5 0 18\"></path>",
         "sub": "South Korea",
         "name": "South Korea",
-        "body": "A technology-forward medical power — top-ranked in oncology, transplant, robotic surgery and aesthetics, with government-backed medical-tourism support.",
+        "body": "A technology-forward medical power: top-ranked in oncology, transplant, robotic surgery and aesthetics, with government-backed medical-tourism support.",
         "href": "/health-destination-south-korea"
       },
       {
@@ -1032,21 +1032,21 @@
         "iconSvg": "<circle cx=\"12\" cy=\"12\" r=\"9\"></circle><path d=\"M3 12h18M12 3c3 3.5 3 14.5 0 18M12 3c-3 3.5-3 14.5 0 18\"></path>",
         "sub": "Israel",
         "name": "Israel",
-        "body": "A small country with outsized medical strength — a globally top-ranked flagship hospital and a standout reputation in oncology, rehabilitation and innovation.",
+        "body": "A small country with outsized medical strength: a globally top-ranked flagship hospital and a standout reputation in oncology, rehabilitation and innovation.",
         "href": "/health-destination-israel"
       },
       {
         "iconSvg": "<circle cx=\"12\" cy=\"12\" r=\"9\"></circle><path d=\"M3 12h18M12 3c3 3.5 3 14.5 0 18M12 3c-3 3.5-3 14.5 0 18\"></path>",
         "sub": "India",
         "name": "India",
-        "body": "For Indian patients, exceptional care close to home — JCI/NABH-accredited quaternary hospitals, world-class specialists and unmatched value, in your own language and culture.",
+        "body": "For Indian patients, exceptional care close to home: JCI/NABH-accredited quaternary hospitals, world-class specialists and unmatched value, in your own language and culture.",
         "href": "/health-destination-india"
       },
       {
         "iconSvg": "<circle cx=\"12\" cy=\"12\" r=\"9\"></circle><path d=\"M3 12h18M12 3c3 3.5 3 14.5 0 18M12 3c-3 3.5-3 14.5 0 18\"></path>",
         "sub": "France",
         "name": "France",
-        "body": "A strong European academic-medicine tradition — well regarded in oncology, cardiac care, transplant and reconstructive surgery through leading teaching hospitals.",
+        "body": "A strong European academic-medicine tradition: well regarded in oncology, cardiac care, transplant and reconstructive surgery through leading teaching hospitals.",
         "href": "/health-destination-france"
       },
       {
@@ -1071,19 +1071,19 @@
       {
         "iconSvg": "<path d=\"M6 4v4.5a4 4 0 008 0V4M6 4H4.5m1.5 0h1m5 0h1m1 0h1.5M14 14.2v1.3a3.5 3.5 0 003.5 3.5A3.5 3.5 0 0021 15.5v-1.6\"></path><circle cx=\"19\" cy=\"12\" r=\"2\"></circle>",
         "heading": "A world-expert view",
-        "body": "We arrange a second opinion and match you to the right team and place — often before you travel."
+        "body": "We arrange a second opinion and match you to the right team and place: often before you travel."
       },
       {
         "iconSvg": "<circle cx=\"12\" cy=\"12\" r=\"9\"></circle><path d=\"M15.6 8.4l-2.3 5.3-5.3 2.3 2.3-5.3z\"></path>",
         "heading": "Everything handled",
-        "body": "Hospital, travel, stays, interpreters, your family and continuity of care back home — one named person coordinates it all."
+        "body": "Hospital, travel, stays, interpreters, your family and continuity of care back home: one named person coordinates it all."
       }
     ]
   },
   "concierge": {
     "eyebrow": "Your medical-travel advisor",
     "heading": "You should not navigate this alone.",
-    "body": "Share as little or as much as you wish. One named person coordinates your flights, the stay near the clinic and your visa — start to safe return.",
+    "body": "Share as little or as much as you wish. One named person coordinates your flights, the stay near the clinic and your visa: start to safe return.",
     "confIconSvg": "<path d=\"M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6z\"></path><path d=\"M9.2 12l2 2 3.6-3.6\"></path>",
     "confText": "Confidential. Discreet. Handled by a named human.",
     "ctaLabel": "Speak to Tara AI",

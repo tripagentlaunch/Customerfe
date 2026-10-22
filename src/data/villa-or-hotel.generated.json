@@ -1,7 +1,7 @@
 {
   "seo": {
-    "title": "Villa or Hotel \u2014 TripAgent",
-    "description": "When a private villa is right, and when a hotel is \u2014 space and privacy against service and an address. The honest trade, and how a staffed villa is provisioned and run."
+    "title": "Villa or Hotel | TripAgent",
+    "description": "When a private villa is right, and when a hotel is: space and privacy against service and an address. The honest trade, and how a staffed villa is provisioned and run."
   },
   "hero": {
     "back": {
@@ -25,7 +25,7 @@
     "eyebrow": "The question",
     "note": "A villa gives you a house of your own. A hotel gives you a staff of dozens you never see. Two different kinds of luxury.",
     "statement": "Count the people and the nights.",
-    "lede": "Most of the time the answer arrives on its own, once you count the party and the days. A couple, three nights, a city \u2014 that is a hotel. The concierge, the restaurant downstairs, the address. A family of eight, ten days, the sea \u2014 that is a villa. The kitchen, the pool no one queues for, the long lunches no one has to ask permission for. The hard ones sit in between. That is where we earn our keep."
+    "lede": "Most of the time the answer arrives on its own, once you count the party and the days. A couple, three nights, a city: that is a hotel. The concierge, the restaurant downstairs, the address. A family of eight, ten days, the sea: that is a villa. The kitchen, the pool no one queues for, the long lunches no one has to ask permission for. The hard ones sit in between. That is where we earn our keep."
   },
   "compare": {
     "eyebrow": "The trade",
@@ -36,20 +36,20 @@
         "kch": "The villa",
         "heading": "A house of your own",
         "items": [
-          "Room to breathe \u2014 bedrooms apart, space to spread out, a garden and a pool that are yours alone.",
-          "A kitchen, so meals keep your hours \u2014 late breakfasts, children fed early, a private chef if you like.",
-          "Real privacy \u2014 no lobby, no neighbours, no one watching. The freedom to be entirely off-duty.",
-          "Better value for a group \u2014 a whole villa can cost less per head than several suites, and give far more room."
+          "Room to breathe: bedrooms apart, space to spread out, a garden and a pool that are yours alone.",
+          "A kitchen, so meals keep your hours: late breakfasts, children fed early, a private chef if you like.",
+          "Real privacy: no lobby, no neighbours, no one watching. The freedom to be entirely off-duty.",
+          "Better value for a group: a whole villa can cost less per head than several suites, and give far more room."
         ]
       },
       {
         "kch": "The hotel",
         "heading": "A staff you never see",
         "items": [
-          "Service whenever you want it \u2014 housekeeping twice a day, a concierge, room service at midnight, a problem gone with one call.",
-          "The address and the life around it \u2014 the bar, the spa, the restaurant, the people. Somewhere to be, not only to sleep.",
-          "Nothing to arrange \u2014 no provisioning, no staff to manage. You simply arrive.",
-          "Easy for short stays \u2014 a single night, a city stop, anywhere a villa makes little sense."
+          "Service whenever you want it: housekeeping twice a day, a concierge, room service at midnight, a problem gone with one call.",
+          "The address and the life around it: the bar, the spa, the restaurant, the people. Somewhere to be, not only to sleep.",
+          "Nothing to arrange: no provisioning, no staff to manage. You simply arrive.",
+          "Easy for short stays: a single night, a city stop, anywhere a villa makes little sense."
         ]
       }
     ]
@@ -64,10 +64,10 @@
     "heading": "A villa, run like a hotel.",
     "lede": "The worry with a private home is that you give up service for space. You don't have to. A staffed villa can bring a hotel's care inside your own walls.",
     "items": [
-      "Staffed to suit you \u2014 housekeeping and a cook as standard, with a butler, a driver, a nanny or a private chef wherever you want them.",
-      "Ready before you land \u2014 the fridge stocked to your list, the bar set, the first dinner waiting. The home feels lived-in from the door.",
-      "The details taken care of \u2014 transfers, a local fixer on call, tables booked and days out arranged, as a hotel concierge would.",
-      "Seen before we offer it \u2014 every home checked in person or through people we trust, so the photographs match the floor and someone real is running it."
+      "Staffed to suit you: housekeeping and a cook as standard, with a butler, a driver, a nanny or a private chef wherever you want them.",
+      "Ready before you land: the fridge stocked to your list, the bar set, the first dinner waiting. The home feels lived-in from the door.",
+      "The details taken care of: transfers, a local fixer on call, tables booked and days out arranged, as a hotel concierge would.",
+      "Seen before we offer it: every home checked in person or through people we trust, so the photographs match the floor and someone real is running it."
     ],
     "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fsantorini.jpg&w=2048&q=80"
   },
@@ -77,7 +77,7 @@
   },
   "cta": {
     "eyebrow": "Your move",
-    "heading": "Villa or hotel \u2014 we'll advise.",
+    "heading": "Villa or hotel: we'll advise.",
     "lede": "Tell us the party, the place and the days. We'll say honestly which we'd choose, and look after whichever you pick from start to finish.",
     "image": "",
     "buttons": [

@@ -1,7 +1,7 @@
 {
   "seo": {
-    "title": "Your first trip abroad \u2014 TripAgent",
-    "description": "Your first trip abroad, looked after end to end. The right flight, the right hotel, the visa filed for you \u2014 by a named advisor who stays on the line."
+    "title": "Your first trip abroad | TripAgent",
+    "description": "Your first trip abroad, looked after end to end. The right flight, the right hotel, the visa filed for you: by a named advisor who stays on the line."
   },
   "hero": {
     "back": {
@@ -25,9 +25,9 @@
   },
   "intro": {
     "eyebrow": "The thinking",
-    "note": "The destination isn't the daunting part. It's everything before it \u2014 the visa, the documents, the not-knowing. We carry that.",
+    "note": "The destination isn't the daunting part. It's everything before it: the visa, the documents, the not-knowing. We carry that.",
     "statement": "You bring the excitement. We carry the rest.",
-    "lede": "No stack of forms. No fear of getting one wrong. Tell your advisor where you'd love to go, and roughly when. They say plainly what's needed, then do it \u2014 the visa, the flights, the hotel. One person on WhatsApp, answering every question, until you're standing where you dreamed of standing."
+    "lede": "No stack of forms. No fear of getting one wrong. Tell your advisor where you'd love to go, and roughly when. They say plainly what's needed, then do it: the visa, the flights, the hotel. One person on WhatsApp, answering every question, until you're standing where you dreamed of standing."
   },
   "calm": {
     "eyebrow": "No question too small",
@@ -36,7 +36,7 @@
       {
         "k": "Before you go",
         "heading": "Everything explained, plainly",
-        "body": "What a visa is. Why each document matters. How the connection works. What happens at immigration. Ask anything \u2014 a person answers, in your own words."
+        "body": "What a visa is. Why each document matters. How the connection works. What happens at immigration. Ask anything: a person answers, in your own words."
       },
       {
         "k": "At the airport",
@@ -46,7 +46,7 @@
       {
         "k": "While you're away",
         "heading": "One number, always reachable",
-        "body": "A delayed flight, a missed gate, a question in a place you don't know. Your advisor is on the same WhatsApp thread, day or night \u2014 and acts before it becomes a problem."
+        "body": "A delayed flight, a missed gate, a question in a place you don't know. Your advisor is on the same WhatsApp thread, day or night, and acts before it becomes a problem."
       }
     ]
   },
@@ -56,16 +56,16 @@
     "lede": "On a first long-haul, a simple route matters more than the cabin. We choose the gentlest journey, and explain each leg before you reach the airport.",
     "items": [
       {
-        "bodyHtml": "A direct flight where one exists \u2014 nothing to connect. Where it doesn't, one easy connection with comfortable margin, never a tight, anxious transfer."
+        "bodyHtml": "A direct flight where one exists: nothing to connect. Where it doesn't, one easy connection with comfortable margin, never a tight, anxious transfer."
       },
       {
-        "bodyHtml": "The right cabin for the distance \u2014 premium economy or business on the overnight legs, so you land ready for day one, not recovering from the flight."
+        "bodyHtml": "The right cabin for the distance: premium economy or business on the overnight legs, so you land ready for day one, not recovering from the flight."
       },
       {
         "bodyHtml": "Seats together, the meal you prefer, and airport assistance arranged if an elderly traveller is flying for the first time too. The small asks that keep a long flight calm."
       },
       {
-        "bodyHtml": "A clear itinerary in the thread \u2014 where to be, when, what each step looks like \u2014 so nothing at the airport takes you by surprise."
+        "bodyHtml": "A clear itinerary in the thread, where to be, when, what each step looks like, so nothing at the airport takes you by surprise."
       }
     ]
   },
@@ -78,7 +78,7 @@
       {
         "place": "The location \u00b7 safe and central",
         "heading": "Somewhere easy to find your feet",
-        "body": "A well-placed hotel where you step out and feel at ease \u2014 close to the sights, simple to reach from the airport, with staff used to first-time visitors. Not the cheapest dot on a map. The right place to find your confidence."
+        "body": "A well-placed hotel where you step out and feel at ease: close to the sights, simple to reach from the airport, with staff used to first-time visitors. Not the cheapest dot on a map. The right place to find your confidence."
       },
       {
         "place": "The arrival \u00b7 smoothed",
@@ -88,7 +88,7 @@
       {
         "place": "The help \u00b7 on hand",
         "heading": "A hotel told to look after you",
-        "body": "We tell the hotel it's a first visit, so the front desk is ready with the small things that matter \u2014 directions, a good first dinner, what no guidebook tells you. And your advisor is always the easier first call."
+        "body": "We tell the hotel it's a first visit, so the front desk is ready with the small things that matter: directions, a good first dinner, what no guidebook tells you. And your advisor is always the easier first call."
       }
     ]
   },
@@ -101,10 +101,10 @@
     "id": "visa",
     "eyebrow": "The visa",
     "heading": "The visa, held from start to stamp.",
-    "lede": "For most first-timers, the visa is the frightening part \u2014 the forms, the financials, the appointment, the fear of a refusal. This is where a person makes the difference. We don't send a checklist. We do it with you, and mostly for you.",
+    "lede": "For most first-timers, the visa is the frightening part: the forms, the financials, the appointment, the fear of a refusal. This is where a person makes the difference. We don't send a checklist. We do it with you, and mostly for you.",
     "items": [
-      "We tell you plainly what your destination needs for an Indian passport \u2014 visa-free, visa-on-arrival, e-visa, or a consulate visa with an appointment.",
-      "We fill the form, write the cover letter, arrange the travel insurance, and tell you exactly which documents and financial papers to gather \u2014 with examples.",
+      "We tell you plainly what your destination needs for an Indian passport: visa-free, visa-on-arrival, e-visa, or a consulate visa with an appointment.",
+      "We fill the form, write the cover letter, arrange the travel insurance, and tell you exactly which documents and financial papers to gather: with examples.",
       "For consulate visas such as Schengen, we book the biometrics appointment, align it with your confirmed flights and hotels, and tell you what to expect on the day.",
       "We file it and track it to passport return, and confirm current requirements before you travel. Any follow-up is ours to handle, not yours to worry about."
     ],
@@ -113,12 +113,12 @@
   },
   "when": {
     "eyebrow": "A note on timing",
-    "text": "Begin early and the first trip is calm, not rushed. A consulate visa can take weeks \u2014 the sooner you tell us where you dream of going, the easier every step."
+    "text": "Begin early and the first trip is calm, not rushed. A consulate visa can take weeks: the sooner you tell us where you dream of going, the easier every step."
   },
   "cta": {
     "eyebrow": "Your move",
     "heading": "Plan your first trip abroad.",
-    "lede": "Tell us where you'd love to go, and roughly when. We'll explain it plainly, handle the visa, the flights and the hotel \u2014 and stay with you, every step, until you are home.",
+    "lede": "Tell us where you'd love to go, and roughly when. We'll explain it plainly, handle the visa, the flights and the hotel, and stay with you, every step, until you are home.",
     "image": "/_vercel/image?url=%2Fimg%2Fh%2Ffirst-international-trip.jpg&w=2048&q=80",
     "buttons": [
       {

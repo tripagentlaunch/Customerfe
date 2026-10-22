@@ -1,12 +1,12 @@
 {
   "seo": {
-    "title": "Member portal — TripAgent",
-    "description": "Your advisor, your trips, your documents — in one private place. It begins on WhatsApp, with a person who knows you."
+    "title": "Member portal | TripAgent",
+    "description": "Your advisor, your trips, your documents: in one private place. It begins on WhatsApp, with a person who knows you."
   },
   "hero": {
     "eyebrow": "Membership",
     "headingHtml": "Your maison,<br/>in one <span class=\"it\">private</span> place.",
-    "lede": "It begins on WhatsApp, with a named advisor who holds it all — your trips, your documents, the way you like to travel. The web home, in build now, keeps the record.",
+    "lede": "It begins on WhatsApp, with a named advisor who holds it all: your trips, your documents, the way you like to travel. The web home, in build now, keeps the record.",
     "image": "/_vercel/image?url=%2Fimg%2Fh%2Fportal.jpg&w=2560&q=80",
     "ctaLabel": "Become a member",
     "ctaHref": "join.html",
@@ -17,48 +17,48 @@
     "eyebrow": "No app to manage",
     "note": "Not a tool you operate. The place where you see what is already kept for you.",
     "statementHtml": "Nothing to log into. Nothing to <span class=\"em\">manage</span>.",
-    "lede": "Your advisor holds it all — the trips, the documents, the details remembered. Nothing to download, no password to keep. One thread, one person, everything in its place."
+    "lede": "Your advisor holds it all: the trips, the documents, the details remembered. Nothing to download, no password to keep. One thread, one person, everything in its place."
   },
   "what": {
     "eyebrow": "What a member has",
-    "heading": "Your advisor, your trips, your papers — one quiet record.",
+    "heading": "Your advisor, your trips, your papers: one quiet record.",
     "items": [
       {
         "nn": "01",
         "heading": "Your named advisor",
-        "body": "One person who knows you, in one thread — day or night, on the number you already use. Not a queue, not a bot."
+        "body": "One person who knows you, in one thread: day or night, on the number you already use. Not a queue, not a bot."
       },
       {
         "nn": "02",
         "heading": "Your trips",
-        "body": "Flights, hotels and visas sequenced into a single itinerary that holds together — so a change to one leg never quietly breaks the rest."
+        "body": "Flights, hotels and visas sequenced into a single itinerary that holds together, so a change to one leg never quietly breaks the rest."
       },
       {
         "nn": "03",
         "heading": "Your documents",
-        "body": "Passports, visas, tickets and vouchers, held safely and attached to the right trip — never hunted for in an old inbox, never re-sent."
+        "body": "Passports, visas, tickets and vouchers, held safely and attached to the right trip: never hunted for in an old inbox, never re-sent."
       },
       {
         "nn": "04",
         "heading": "Your travellers",
-        "body": "Family and companions — names as on passports, document numbers, the small preferences — remembered, so a trip for four is as simple as one."
+        "body": "Family and companions: names as on passports, document numbers, the small preferences, remembered, so a trip for four is as simple as one."
       },
       {
         "nn": "05",
         "heading": "Your preferences",
-        "body": "Seat and cabin, the hotel room you favour, dietary and quiet requests — kept on file and applied without your having to ask again."
+        "body": "Seat and cabin, the hotel room you favour, dietary and quiet requests: kept on file and applied without your having to ask again."
       },
       {
         "nn": "06",
         "heading": "Your history",
-        "body": "Every trip, every fare, every choice you have made with us — recallable in a line, so the next journey begins from what you already know."
+        "body": "Every trip, every fare, every choice you have made with us: recallable in a line, so the next journey begins from what you already know."
       }
     ]
   },
   "begins": {
     "eyebrow": "Where it begins",
     "heading": "It begins on WhatsApp.",
-    "lede": "The advisor is the product, not the app around it. No forms. No login. One message to someone who already knows you — and it's in motion. Everything a portal would show, your advisor already holds; the web home only opens a window onto it.",
+    "lede": "The advisor is the product, not the app around it. No forms. No login. One message to someone who already knows you, and it's in motion. Everything a portal would show, your advisor already holds; the web home only opens a window onto it.",
     "ctaLabel": "See how it works",
     "ctaHref": "how-it-works.html",
     "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fmarrakech.jpg&w=2048&q=80"
@@ -72,30 +72,30 @@
   "remembers": {
     "eyebrow": "What sets it apart",
     "heading": "And it remembers.",
-    "lede": "Most travel is arranged from scratch each time — the same details, the same scans, the same person explained again. A membership is the opposite. What you tell us once is held for good, and carried quietly into everything that follows.",
+    "lede": "Most travel is arranged from scratch each time: the same details, the same scans, the same person explained again. A membership is the opposite. What you tell us once is held for good, and carried quietly into everything that follows.",
     "items": [
-      "Preferences carried from trip to trip — seat, cabin, room and the rest applied without being asked for.",
-      "Documents you never re-send — passports and visas held once, attached to each trip as it needs them.",
-      "An advisor who knows your last trip — and begins the next one from there, not from a blank page."
+      "Preferences carried from trip to trip: seat, cabin, room and the rest applied without being asked for.",
+      "Documents you never re-send: passports and visas held once, attached to each trip as it needs them.",
+      "An advisor who knows your last trip, and begins the next one from there, not from a blank page."
     ],
     "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fagra.jpg&w=2048&q=80"
   },
   "uses": {
     "eyebrow": "How a member uses it",
     "heading": "A message, and it is held.",
-    "lede": "The whole of it fits in four small motions — and three of them happen on your advisor's side, not yours.",
+    "lede": "The whole of it fits in four small motions, and three of them happen on your advisor's side, not yours.",
     "ctaLabel": "Become a member",
     "ctaHref": "join.html",
     "steps": [
       {
         "n": "1",
         "heading": "Message your advisor",
-        "body": "One line on WhatsApp — where, when, who, and how you like to travel."
+        "body": "One line on WhatsApp, where, when, who, and how you like to travel."
       },
       {
         "n": "2",
         "heading": "See your options",
-        "body": "Two or three considered choices come back — flights, hotels, visas, sequenced — never a wall of results."
+        "body": "Two or three considered choices come back: flights, hotels, visas, sequenced, never a wall of results."
       },
       {
         "n": "3",
@@ -105,14 +105,14 @@
       {
         "n": "4",
         "heading": "Look back any time",
-        "body": "Ask for any past trip, fare or document in a line — and, soon, see it gathered in your web home."
+        "body": "Ask for any past trip, fare or document in a line, and, soon, see it gathered in your web home."
       }
     ]
   },
   "inbuild": {
     "tag": "In build now",
     "heading": "The web member home is being built.",
-    "lede": "A private, signed-in place to see everything your advisor already holds — your trips, documents, travellers and preferences, on one quiet screen. It arrives in stages, and we would rather it be exact than early. Nothing waits on it: your full membership already lives on WhatsApp, with your advisor. The screen simply gathers it in one view.",
+    "lede": "A private, signed-in place to see everything your advisor already holds: your trips, documents, travellers and preferences, on one quiet screen. It arrives in stages, and we would rather it be exact than early. Nothing waits on it: your full membership already lives on WhatsApp, with your advisor. The screen simply gathers it in one view.",
     "ctaLabel": "Ask about early access",
     "ctaHref": "enquire.html"
   },
@@ -122,23 +122,23 @@
     "items": [
       {
         "question": "Do I have to download an app?",
-        "answerHtml": "No. Nothing to download, nothing to manage. TripAgent lives where you already are — one WhatsApp thread with a named advisor. You send a message; the rest is handled. A membership means fewer things to operate, not more."
+        "answerHtml": "No. Nothing to download, nothing to manage. TripAgent lives where you already are: one WhatsApp thread with a named advisor. You send a message; the rest is handled. A membership means fewer things to operate, not more."
       },
       {
         "question": "Is there a login?",
-        "answerHtml": "Not yet, by design. Your whole membership lives in your WhatsApp thread — no password, no portal to remember. The web home is in build and will give you a private, signed-in view of the same record. Until then, your advisor holds it all."
+        "answerHtml": "Not yet, by design. Your whole membership lives in your WhatsApp thread: no password, no portal to remember. The web home is in build and will give you a private, signed-in view of the same record. Until then, your advisor holds it all."
       },
       {
         "question": "Where are my documents kept?",
-        "answerHtml": "Passports, visas, tickets and vouchers are held securely by your advisor and attached to your trips — never hunted for in old email, never re-sent. They are held only to arrange your travel, and shared with airlines, hotels and consulates strictly as a booking requires."
+        "answerHtml": "Passports, visas, tickets and vouchers are held securely by your advisor and attached to your trips: never hunted for in old email, never re-sent. They are held only to arrange your travel, and shared with airlines, hotels and consulates strictly as a booking requires."
       },
       {
         "question": "Can my family be on my account?",
-        "answerHtml": "Yes. Your membership holds family and regular companions — names as on passports, document numbers, seat and room preferences — so a trip for four is as simple as one. Your advisor remembers who travels with you. Nothing is explained twice."
+        "answerHtml": "Yes. Your membership holds family and regular companions: names as on passports, document numbers, seat and room preferences, so a trip for four is as simple as one. Your advisor remembers who travels with you. Nothing is explained twice."
       },
       {
         "question": "What if I change advisor?",
-        "answerHtml": "Your record moves with you, not the person. Your trips, documents and preferences are held by the maison, so a new advisor picks up exactly where the last left off — your history, your travellers, the way you like to travel. The thread continues; only the name at the other end changes."
+        "answerHtml": "Your record moves with you, not the person. Your trips, documents and preferences are held by the maison, so a new advisor picks up exactly where the last left off: your history, your travellers, the way you like to travel. The thread continues; only the name at the other end changes."
       },
       {
         "question": "Is my data private?",
@@ -146,11 +146,11 @@
       },
       {
         "question": "Is the portal included?",
-        "answerHtml": "Yes. The portal is part of membership — the member home, the record your advisor keeps, and the documents held for you. The full membership is set out on the <a href=\"/membership\">membership</a> page."
+        "answerHtml": "Yes. The portal is part of membership: the member home, the record your advisor keeps, and the documents held for you. The full membership is set out on the <a href=\"/membership\">membership</a> page."
       },
       {
         "question": "When is the web portal live?",
-        "answerHtml": "In build now, arriving in stages — first your trips and documents, then preferences and travellers. We would rather it be exact than early. Nothing waits on it: your full membership already works, where you use it every day. For word when it opens, simply <a href=\"/enquire\">ask</a>."
+        "answerHtml": "In build now, arriving in stages: first your trips and documents, then preferences and travellers. We would rather it be exact than early. Nothing waits on it: your full membership already works, where you use it every day. For word when it opens, simply <a href=\"/enquire\">ask</a>."
       }
     ]
   },

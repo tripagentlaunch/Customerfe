@@ -2,8 +2,8 @@
   "family-travel": {
     "slug": "family-travel",
     "seo": {
-      "title": "Family travel \u2014 TripAgent",
-      "description": "Family travel, looked after from first call to front door: the right cabin and seats together, the connecting rooms and family suites, and every passenger's visa \u2014 by a named advisor."
+      "title": "Family travel | TripAgent",
+      "description": "Family travel, looked after from first call to front door: the right cabin and seats together, the connecting rooms and family suites, and every passenger's visa: by a named advisor."
     },
     "hero": {
       "back": {
@@ -12,7 +12,7 @@
       },
       "eyebrow": "A collection \u00b7 by invitation",
       "headingHtml": "The whole family, <span class=\"it\">looked after</span>.",
-      "lede": "Travelling with children, or with three generations, is a hundred small arrangements. We make them \u2014 the seats together, the connecting rooms, every passenger's visa \u2014 so you arrive as a family, rested, with nothing left to manage.",
+      "lede": "Travelling with children, or with three generations, is a hundred small arrangements. We make them: the seats together, the connecting rooms, every passenger's visa, so you arrive as a family, rested, with nothing left to manage.",
       "image": "/_vercel/image?url=%2Fimg%2Fh%2Ffamily-travel.jpg&w=2560&q=80",
       "ctaGold": {
         "label": "Plan a family trip",
@@ -29,7 +29,7 @@
       "eyebrow": "The thinking",
       "note": "A family trip is a hundred small decisions, made under pressure. The luxury isn't the suite. It's not having to make them.",
       "statement": "The hard part is the coordination.",
-      "lede": "Four passengers, four visas, seats that scatter across the cabin, a room that sleeps two when you are four, a connection too tight for a toddler. The trip is easy. The orchestration is the work. Your advisor does that work \u2014 quietly, in one thread, before you ever feel it. You tell us the ages and the dates. We hand back a journey where everyone is together and nothing is left for you to chase."
+      "lede": "Four passengers, four visas, seats that scatter across the cabin, a room that sleeps two when you are four, a connection too tight for a toddler. The trip is easy. The orchestration is the work. Your advisor does that work: quietly, in one thread, before you ever feel it. You tell us the ages and the dates. We hand back a journey where everyone is together and nothing is left for you to chase."
     },
     "pullQuote": "Everyone together. Every visa. All looked after, in one thread.",
     "flights": {
@@ -38,16 +38,16 @@
       "lede": "The cabin for a family isn't always the grandest. It's the one that brings everyone home rested. We choose for the journey you are actually flying, and we hold the seats so no one is split across the aisle.",
       "items": [
         {
-          "bodyHtml": "For long-hauls with young children, the lie-flat cabin where it earns its place \u2014 sleep on the overnight leg matters more at four than at forty. For shorter hops, premium economy across the family is often the wiser call, and we will say so."
+          "bodyHtml": "For long-hauls with young children, the lie-flat cabin where it earns its place: sleep on the overnight leg matters more at four than at forty. For shorter hops, premium economy across the family is often the wiser call, and we will say so."
         },
         {
-          "bodyHtml": "Seats held side by side at booking \u2014 adults beside children, not left to the gate. Bassinets and bulkhead rows requested for infants, well ahead of time."
+          "bodyHtml": "Seats held side by side at booking: adults beside children, not left to the gate. Bassinets and bulkhead rows requested for infants, well ahead of time."
         },
         {
           "bodyHtml": "Connections sequenced with room to breathe, never the tight transfer that reads fine on paper and unravels with a pram. We would rather one calm stop than two rushed ones."
         },
         {
-          "bodyHtml": "Children's meals, strollers gate-checked, the airline told you are travelling as a family \u2014 the quiet asks we make so the day moves gently."
+          "bodyHtml": "Children's meals, strollers gate-checked, the airline told you are travelling as a family: the quiet asks we make so the day moves gently."
         }
       ]
     },
@@ -61,7 +61,7 @@
         {
           "place": "The configuration \u00b7 solved",
           "heading": "Connecting rooms or a family suite",
-          "body": "Two adjoining rooms with a door between them, a family suite with a space of its own for the children, or the suite that truly fits a rollaway. We confirm the configuration in writing \u2014 never the sofa bed that turns out to be a cushion."
+          "body": "Two adjoining rooms with a door between them, a family suite with a space of its own for the children, or the suite that truly fits a rollaway. We confirm the configuration in writing: never the sofa bed that turns out to be a cushion."
         },
         {
           "place": "The villa \u00b7 for the larger party",
@@ -77,7 +77,7 @@
     },
     "signature": {
       "by": "The point of it",
-      "pullHtml": "You came to be with them \u2014 not to mind four boarding passes and a missing cot.",
+      "pullHtml": "You came to be with them, not to mind four boarding passes and a missing cot.",
       "image": "/_vercel/image?url=%2Fimg%2Fh3%2Ffamily-travel.jpg&w=2560&q=80"
     },
     "visa": {
@@ -85,22 +85,22 @@
       "heading": "Every passenger, on the right lead time.",
       "lede": "A family visa is several visas at once, and children's applications carry their own rules. We handle all of them together, so no single passport is the thing that holds up the trip.",
       "items": [
-        "We confirm what the destination asks of each Indian passport in the party \u2014 visa-free, e-visa or a consulate visa \u2014 and apply for everyone on one timeline.",
-        "Children's applications often call for more \u2014 birth certificates, both parents' consent, sometimes a no-objection letter when one parent isn't travelling. We tell you exactly what is needed, up front.",
+        "We confirm what the destination asks of each Indian passport in the party: visa-free, e-visa or a consulate visa, and apply for everyone on one timeline.",
+        "Children's applications often call for more: birth certificates, both parents' consent, sometimes a no-objection letter when one parent isn't travelling. We tell you exactly what is needed, up front.",
         "For consulate routes such as Schengen, allow 4\u20138 weeks in peak season; we book the family's biometrics slots together and align them with confirmed flights and hotels.",
-        "We prepare every form, file the applications and track each passport back to your hands \u2014 and your advisor confirms current requirements for each traveller before you go."
+        "We prepare every form, file the applications and track each passport back to your hands, and your advisor confirms current requirements for each traveller before you go."
       ],
       "image": "/_vercel/image?url=%2Fimg%2Fh%2Fvisas.jpg&w=2048&q=80",
       "imageAlt": "Passports and travel documents ready for a family visa application"
     },
     "when": {
       "eyebrow": "A note on timing",
-      "text": "School holidays fill fast, and family rooms are the first to go. Tell us early \u2014 the connecting rooms, the bassinet seats and the visa slots all come easier the further ahead we begin."
+      "text": "School holidays fill fast, and family rooms are the first to go. Tell us early: the connecting rooms, the bassinet seats and the visa slots all come easier the further ahead we begin."
     },
     "cta": {
       "eyebrow": "Your move",
       "heading": "Plan a family trip.",
-      "lede": "Tell us the ages, the party and the dates. We come back with the cabin, the rooms that hold everyone and every passenger's visa \u2014 all looked after, all in one thread.",
+      "lede": "Tell us the ages, the party and the dates. We come back with the cabin, the rooms that hold everyone and every passenger's visa: all looked after, all in one thread.",
       "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fjaipur.jpg&w=2048&q=80",
       "buttons": [
         {
@@ -117,8 +117,8 @@
   "honeymoon": {
     "slug": "honeymoon",
     "seo": {
-      "title": "Honeymoons \u2014 TripAgent",
-      "description": "The one trip that should ask nothing of you. The cabin, the suite, the first evening and the visa \u2014 your honeymoon, looked after by a named advisor."
+      "title": "Honeymoons | TripAgent",
+      "description": "The one trip that should ask nothing of you. The cabin, the suite, the first evening and the visa: your honeymoon, looked after by a named advisor."
     },
     "hero": {
       "back": {
@@ -127,7 +127,7 @@
       },
       "eyebrow": "A collection \u00b7 by invitation",
       "headingHtml": "The honeymoon, <span class=\"it\">held</span> for you.",
-      "lede": "The one trip that should ask nothing of you. The flights, the suite, the first evening \u2014 all arranged before you land, by one person who stays the whole way.",
+      "lede": "The one trip that should ask nothing of you. The flights, the suite, the first evening: all arranged before you land, by one person who stays the whole way.",
       "image": "/_vercel/image?url=%2Fimg%2Fh%2Fhoneymoon.jpg&w=2560&q=80",
       "ctaGold": {
         "label": "Plan our honeymoon",
@@ -144,7 +144,7 @@
       "eyebrow": "The thinking",
       "note": "A honeymoon is not a holiday booked twice. It is the first trip of a marriage. The planning shouldn't fall on either of you.",
       "statement": "Two of you. Nothing to arrange.",
-      "lede": "You've just had a wedding. The last thing you want is a spreadsheet of flights and twelve hotel tabs. So you don't get one. You tell your advisor the feeling \u2014 over-water and unreachable, or a city and a coast \u2014 and the trip comes back done: the cabin chosen for the journey, the suite chosen for the two of you, the first evening already arranged. One thread, on WhatsApp, with someone who knows what this trip means."
+      "lede": "You've just had a wedding. The last thing you want is a spreadsheet of flights and twelve hotel tabs. So you don't get one. You tell your advisor the feeling: over-water and unreachable, or a city and a coast, and the trip comes back done: the cabin chosen for the journey, the suite chosen for the two of you, the first evening already arranged. One thread, on WhatsApp, with someone who knows what this trip means."
     },
     "pullQuote": null,
     "flights": {
@@ -153,16 +153,16 @@
       "lede": "The journey is part of the honeymoon, not the price you pay to reach it. We choose the cabin for the trip, and arrange the small things that make the two of you feel looked after from the gate.",
       "items": [
         {
-          "bodyHtml": "For the long-hauls \u2014 the Maldives, Mauritius, the Seychelles, Europe \u2014 the flat-bed business or first cabin, so you arrive rested for the first morning, not wrecked from the flight."
+          "bodyHtml": "For the long-hauls: the Maldives, Mauritius, the Seychelles, Europe, the flat-bed business or first cabin, so you arrive rested for the first morning, not wrecked from the flight."
         },
         {
-          "bodyHtml": "Seats together, the meal you prefer, the lounge before the connection \u2014 the quiet asks we make on your behalf, so the day begins gently."
+          "bodyHtml": "Seats together, the meal you prefer, the lounge before the connection: the quiet asks we make on your behalf, so the day begins gently."
         },
         {
           "bodyHtml": "Partner fares and award space we can see and you can't, paid in points or on card, with the timing built around an arrival that leaves the evening ahead of you."
         },
         {
-          "bodyHtml": "A word to the airline that it's your honeymoon \u2014 sometimes a glass on boarding, sometimes a quiet upgrade at their discretion. Never promised. Often arranged."
+          "bodyHtml": "A word to the airline that it's your honeymoon: sometimes a glass on boarding, sometimes a quiet upgrade at their discretion. Never promised. Often arranged."
         }
       ]
     },
@@ -176,17 +176,17 @@
         {
           "place": "The room \u00b7 chosen for two",
           "heading": "The over-water or the view suite",
-          "body": "Not the cheapest room with a good photo \u2014 the right one. The over-water villa with its own deck, or the suite with the view the place is known for. We hold it, confirm it, and make sure it's the one you actually wanted."
+          "body": "Not the cheapest room with a good photo: the right one. The over-water villa with its own deck, or the suite with the view the place is known for. We hold it, confirm it, and make sure it's the one you actually wanted."
         },
         {
           "place": "The arrival \u00b7 arranged",
           "heading": "The first evening, taken care of",
-          "body": "The detail that turns a check-in into a honeymoon: a quiet table held for the first night, a word to the hotel that it's the two of you. We\u2019ll ask the property on your behalf \u2014 what we book is the flights, the stay and the visas, and never promise what it doesn't."
+          "body": "The detail that turns a check-in into a honeymoon: a quiet table held for the first night, a word to the hotel that it's the two of you. We\u2019ll ask the property on your behalf: what we book is the flights, the stay and the visas, and never promise what it doesn't."
         },
         {
           "place": "The shape \u00b7 paced for you",
           "heading": "One place, or a quiet pairing",
-          "body": "A single unhurried stay, or a city and a coast \u2014 a few nights of life, then the long days of nothing. Your advisor paces it so the trip breathes, with the transfer between them already arranged."
+          "body": "A single unhurried stay, or a city and a coast: a few nights of life, then the long days of nothing. Your advisor paces it so the trip breathes, with the transfer between them already arranged."
         }
       ]
     },
@@ -198,24 +198,24 @@
     "visa": {
       "eyebrow": "The visa",
       "heading": "The paperwork, on the right lead time.",
-      "lede": "A honeymoon is booked to a fixed date \u2014 the one trip you can't move. So the visa has to be right, and it has to be early. We handle it, and we plan the lead time backwards from your wedding.",
+      "lede": "A honeymoon is booked to a fixed date: the one trip you can't move. So the visa has to be right, and it has to be early. We handle it, and we plan the lead time backwards from your wedding.",
       "items": [
-        "We confirm what each destination needs for Indian passport holders \u2014 visa-free, visa-on-arrival, e-visa or a stickered consulate visa \u2014 and tell you plainly which it is.",
-        "For the consulate routes (Schengen Europe and others), we allow 4\u20138 weeks, book the earliest biometrics slot, and align it with confirmed flights and hotels \u2014 the bookings the consulate wants to see.",
-        "We prepare the forms, the cover letter, insurance and financials, file the application, and track it to passport return \u2014 your advisor confirms current requirements before you travel.",
-        "One small thing that catches many couples: if a passport is being changed to a married name, do it after the trip or well before \u2014 we'll flag the timing so it never derails the dates."
+        "We confirm what each destination needs for Indian passport holders: visa-free, visa-on-arrival, e-visa or a stickered consulate visa, and tell you plainly which it is.",
+        "For the consulate routes (Schengen Europe and others), we allow 4\u20138 weeks, book the earliest biometrics slot, and align it with confirmed flights and hotels: the bookings the consulate wants to see.",
+        "We prepare the forms, the cover letter, insurance and financials, file the application, and track it to passport return: your advisor confirms current requirements before you travel.",
+        "One small thing that catches many couples: if a passport is being changed to a married name, do it after the trip or well before: we'll flag the timing so it never derails the dates."
       ],
       "image": "/_vercel/image?url=%2Fimg%2Fh%2Fvisas.jpg&w=2048&q=80",
       "imageAlt": "Passport and travel documents ready for a visa application"
     },
     "when": {
       "eyebrow": "A note on timing",
-      "text": "Tell us the moment the date is set. The earlier we begin, the better the suite, the better the fare, the calmer the visa \u2014 and the only thing left for you to do is arrive."
+      "text": "Tell us the moment the date is set. The earlier we begin, the better the suite, the better the fare, the calmer the visa, and the only thing left for you to do is arrive."
     },
     "cta": {
       "eyebrow": "Your move",
       "heading": "Plan your honeymoon.",
-      "lede": "Tell us the feeling and the dates. We'll come back with the cabin, the suite, the first evening and the visa \u2014 all looked after, all in one thread.",
+      "lede": "Tell us the feeling and the dates. We'll come back with the cabin, the suite, the first evening and the visa: all looked after, all in one thread.",
       "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fnice-riviera.jpg&w=2048&q=80",
       "buttons": [
         {
@@ -232,8 +232,8 @@
   "milestone-trips": {
     "slug": "milestone-trips",
     "seo": {
-      "title": "Milestone trips \u2014 TripAgent",
-      "description": "The anniversary, the big birthday, the once-only occasion \u2014 looked after end to end: the cabin worth marking it in, the suite and the moment arranged, the visa planned early. By a named advisor."
+      "title": "Milestone trips | TripAgent",
+      "description": "The anniversary, the big birthday, the once-only occasion: looked after end to end: the cabin worth marking it in, the suite and the moment arranged, the visa planned early. By a named advisor."
     },
     "hero": {
       "back": {
@@ -242,7 +242,7 @@
       },
       "eyebrow": "A collection \u00b7 by invitation",
       "headingHtml": "The trip that <span class=\"it\">marks</span> it.",
-      "lede": "An anniversary. A milestone birthday. A retirement, a reunion. The occasions you get once \u2014 planned by someone who treats them that way.",
+      "lede": "An anniversary. A milestone birthday. A retirement, a reunion. The occasions you get once: planned by someone who treats them that way.",
       "image": "/_vercel/image?url=%2Fimg%2Fh%2Fmilestone-trips.jpg&w=2560&q=80",
       "ctaGold": {
         "label": "Plan a milestone trip",
@@ -257,9 +257,9 @@
     },
     "intro": {
       "eyebrow": "The thinking",
-      "note": "Some trips you take again. A fiftieth, a golden anniversary, a retirement \u2014 you get one. It should feel made for the occasion.",
+      "note": "Some trips you take again. A fiftieth, a golden anniversary, a retirement: you get one. It should feel made for the occasion.",
       "statement": "You reach this point once.",
-      "lede": "A milestone asks for more than a good hotel. It asks for a trip built around the moment \u2014 the cabin worth raising a glass in, the suite with the view you'll remember it by, the dinner arranged so the surprise lands. Tell your advisor what you're marking, and who you're marking it with. The rest is composed for the occasion, and quietly confirmed before you arrive."
+      "lede": "A milestone asks for more than a good hotel. It asks for a trip built around the moment: the cabin worth raising a glass in, the suite with the view you'll remember it by, the dinner arranged so the surprise lands. Tell your advisor what you're marking, and who you're marking it with. The rest is composed for the occasion, and quietly confirmed before you arrive."
     },
     "pullQuote": "The evening you'll describe for years, arranged down to the minute.",
     "flights": {
@@ -268,16 +268,16 @@
       "lede": "If there's a trip to fly in first, this is it. We choose the cabin for the occasion, so the journey becomes part of the celebration, not the cost of reaching it.",
       "items": [
         {
-          "bodyHtml": "First or business on the routes that fly it well \u2014 the suites in the sky on the Gulf carriers, the flagship first cabins to Europe and beyond \u2014 so the trip begins the moment you board."
+          "bodyHtml": "First or business on the routes that fly it well: the suites in the sky on the Gulf carriers, the flagship first cabins to Europe and beyond, so the trip begins the moment you board."
         },
         {
           "bodyHtml": "For a parents' or grandparents' milestone, the comfort that matters most: direct where it exists, a single easy connection where it doesn't, the lounge and assistance arranged through."
         },
         {
-          "bodyHtml": "Partner fares and award space we can see and you can't \u2014 often the difference between first as a wish and first as a booking, paid in points or card."
+          "bodyHtml": "Partner fares and award space we can see and you can't: often the difference between first as a wish and first as a booking, paid in points or card."
         },
         {
-          "bodyHtml": "The airline told it's the occasion, the seats together, the celebration noted \u2014 so the cabin crew know before the doors close."
+          "bodyHtml": "The airline told it's the occasion, the seats together, the celebration noted, so the cabin crew know before the doors close."
         }
       ]
     },
@@ -291,12 +291,12 @@
         {
           "place": "The room \u00b7 the one you'll remember",
           "heading": "The signature suite, held",
-          "body": "The corner suite with the view the place is known for, the historic room with the story, the villa with the private pool. For a once-only trip, we hold the room you'll remember it by \u2014 confirmed, not hoped for."
+          "body": "The corner suite with the view the place is known for, the historic room with the story, the villa with the private pool. For a once-only trip, we hold the room you'll remember it by: confirmed, not hoped for."
         },
         {
           "place": "The moment \u00b7 arranged",
           "heading": "The dinner, the surprise, the toast",
-          "body": "The private table on the terrace, the cake that arrives at the right second, the room set with flowers before you walk in, the photographer for the hour that matters. We\u2019ll ask the property on your behalf \u2014 what we book is the flights, the stay and the visas and brief them precisely, so the surprise lands the way you pictured it."
+          "body": "The private table on the terrace, the cake that arrives at the right second, the room set with flowers before you walk in, the photographer for the hour that matters. We\u2019ll ask the property on your behalf: what we book is the flights, the stay and the visas and brief them precisely, so the surprise lands the way you pictured it."
         },
         {
           "place": "The gathering \u00b7 if it's a party",
@@ -307,18 +307,18 @@
     },
     "signature": {
       "by": "The occasion",
-      "pullHtml": "The evening you'll describe for years \u2014 arranged down to the minute, so all you have to do is be in it.",
+      "pullHtml": "The evening you'll describe for years: arranged down to the minute, so all you have to do is be in it.",
       "image": "/_vercel/image?url=%2Fimg%2Fh3%2Fmilestone-trips.jpg&w=2560&q=80"
     },
     "visa": {
       "eyebrow": "The visa",
       "heading": "Fixed dates, so the visa is early.",
-      "lede": "A milestone is tied to a date you can't move. So the visa is the one thing we never leave late \u2014 we plan its lead time back from the occasion and handle it for every traveller.",
+      "lede": "A milestone is tied to a date you can't move. So the visa is the one thing we never leave late: we plan its lead time back from the occasion and handle it for every traveller.",
       "items": [
-        "We confirm what each destination needs for Indian passport holders \u2014 visa-free, e-visa or a consulate visa \u2014 and tell you plainly which it is and how long it takes.",
-        "For consulate routes such as Schengen, allow 4\u20138 weeks in peak season; we book the earliest biometrics slot and align it with confirmed flights and hotels \u2014 the bookings the consulate wants to see.",
+        "We confirm what each destination needs for Indian passport holders: visa-free, e-visa or a consulate visa, and tell you plainly which it is and how long it takes.",
+        "For consulate routes such as Schengen, allow 4\u20138 weeks in peak season; we book the earliest biometrics slot and align it with confirmed flights and hotels: the bookings the consulate wants to see.",
         "For parents and grandparents, we handle the paperwork end to end and arrange any assistance needed for the in-person appointment.",
-        "We prepare the forms, file the application, and track it to passport return \u2014 your advisor confirms current requirements before you travel."
+        "We prepare the forms, file the application, and track it to passport return: your advisor confirms current requirements before you travel."
       ],
       "image": "/_vercel/image?url=%2Fimg%2Fh%2Fvisas.jpg&w=2048&q=80",
       "imageAlt": "Passport and travel documents ready for a visa application"
@@ -330,7 +330,7 @@
     "cta": {
       "eyebrow": "Your move",
       "heading": "Plan a milestone trip.",
-      "lede": "Tell us what you're marking, the dates, the party. We'll come back with the cabin, the suite, the moment arranged and the visa \u2014 all looked after, all in one thread.",
+      "lede": "Tell us what you're marking, the dates, the party. We'll come back with the cabin, the suite, the moment arranged and the visa: all looked after, all in one thread.",
       "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fvenice.jpg&w=2048&q=80",
       "buttons": [
         {

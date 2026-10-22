@@ -108,7 +108,7 @@ export default function HowItWorksTabs() {
           </div>
           <div className={styles.copy} key={active}>
             <div className="eyebrow on-dark">
-              {String(active + 1).padStart(2, "0")} — {current.label}
+              {String(active + 1).padStart(2, "0")}: {current.label}
             </div>
             <h2 className={styles.heading} style={{ marginTop: 14 }}>
               {current.heading}

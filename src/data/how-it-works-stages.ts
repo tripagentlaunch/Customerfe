@@ -26,7 +26,7 @@ export const HOW_IT_WORKS_STAGES: HowItWorksStage[] = [
     sublabel: "“Plan us something.”",
     image: "/img/how-it-works/enquiry.png",
     heading: "Say it, however loose.",
-    lede: "“Somewhere warm, just the two of us.” That's enough to start. The moment it's sent, we're already listening — to the message, the places you've saved, even the reel you watched twice last week.",
+    lede: "“Somewhere warm, just the two of us.” That's enough to start. The moment it's sent, we're already listening: to the message, the places you've saved, even the reel you watched twice last week.",
   },
   {
     key: "booking",
@@ -34,7 +34,7 @@ export const HOW_IT_WORKS_STAGES: HowItWorksStage[] = [
     sublabel: "Held, priced, ticketed.",
     image: "/img/how-it-works/booking.png",
     heading: "Held, priced, ticketed.",
-    lede: "Fares held, villas confirmed, visa cleared — the parts nobody wants to sit and do themselves, done before you've thought to ask about them.",
+    lede: "Fares held, villas confirmed, visa cleared: the parts nobody wants to sit and do themselves, done before you've thought to ask about them.",
   },
   {
     key: "departure",
@@ -42,7 +42,7 @@ export const HOW_IT_WORKS_STAGES: HowItWorksStage[] = [
     sublabel: "Every document in hand.",
     image: "/img/how-it-works/departure.png",
     heading: "Every document in hand.",
-    lede: "Boarding pass, passport, gate — nothing to dig for at the airport. Just walk up, and go.",
+    lede: "Boarding pass, passport, gate: nothing to dig for at the airport. Just walk up, and go.",
   },
   {
     key: "intrip",
@@ -50,7 +50,7 @@ export const HOW_IT_WORKS_STAGES: HowItWorksStage[] = [
     sublabel: "Fixed before you wake.",
     image: "/img/how-it-works/intrip.png",
     heading: "Fixed before you wake.",
-    lede: "A delayed flight home is the kind of thing that ruins a trip for everyone else. For you, it's already rebooked — you hear about it after it's handled, not before.",
+    lede: "A delayed flight home is the kind of thing that ruins a trip for everyone else. For you, it's already rebooked: you hear about it after it's handled, not before.",
   },
   {
     key: "home",
@@ -58,6 +58,6 @@ export const HOW_IT_WORKS_STAGES: HowItWorksStage[] = [
     sublabel: "We stay.",
     image: "/img/how-it-works/home.png",
     heading: "We stay.",
-    lede: "Long after you're back, the story isn't quite finished — just until the next one gets planned.",
+    lede: "Long after you're back, the story isn't quite finished, just until the next one gets planned.",
   },
 ];

@@ -61,7 +61,7 @@ export default function HotelsPage() {
             <h2 style={{ margin: 0 }}>{searchGate.heading}</h2>
           </div>
           <div className={styles.hsGate}>
-            <p>Live search is on its way. Meanwhile, tell your advisor the dates and the destination — they'll hold rooms and rates for you directly.</p>
+            <p>Live search is on its way. Meanwhile, tell your advisor the dates and the destination: they'll hold rooms and rates for you directly.</p>
             <Link className="btn btn-gold" to="/enquire">
               Plan a trip with <TaraAI />
             </Link>

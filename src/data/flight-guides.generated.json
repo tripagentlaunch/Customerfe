@@ -1,7 +1,7 @@
 {
   "seo": {
-    "title": "Flight Intelligence \u2014 TripAgent",
-    "description": "The right cabin, the right fare, route by route from India. Business and first are where we are at our best \u2014 the aircraft, the flat-beds, the connections, the award space others can't see."
+    "title": "Flight Intelligence | TripAgent",
+    "description": "The right cabin, the right fare, route by route from India. Business and first are where we are at our best: the aircraft, the flat-beds, the connections, the award space others can't see."
   },
   "hero": {
     "back": {
@@ -79,14 +79,14 @@
       {
         "route": "Delhi \u2192 Zurich",
         "heading": "The Alpine gateway",
-        "body": "One non-stop and several capable one-stops \u2014 and when the connection is the better seat.",
+        "body": "One non-stop and several capable one-stops, and when the connection is the better seat.",
         "image": "/_vercel/image?url=%2Fimg%2Fh%2Froute-delhi-zurich.jpg&w=1280&q=80",
         "href": "route-delhi-zurich.html"
       },
       {
         "route": "Mumbai \u2192 London",
         "heading": "The overnight flat-bed",
-        "body": "Non-stop on three carriers plus the Gulf one-stops \u2014 and which business cabin is truly flat.",
+        "body": "Non-stop on three carriers plus the Gulf one-stops, and which business cabin is truly flat.",
         "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fparis.jpg&w=1280&q=80",
         "href": "route-mumbai-london.html"
       },
@@ -114,7 +114,7 @@
       {
         "route": "Delhi \u2192 Istanbul",
         "heading": "The big-hub gateway",
-        "body": "A strong non-stop and Gulf one-stops \u2014 and the network that makes Istanbul a stopover worth keeping.",
+        "body": "A strong non-stop and Gulf one-stops, and the network that makes Istanbul a stopover worth keeping.",
         "image": "/_vercel/image?url=%2Fimg%2Fh%2Froute-delhi-istanbul.jpg&w=1280&q=80",
         "href": "route-delhi-istanbul.html"
       },
@@ -154,7 +154,7 @@
     "cards": [
       {
         "eyebrow": "Product guide",
-        "heading": "Business vs. First \u2014 when each is worth it",
+        "heading": "Business vs. First, when each is worth it",
         "body": "The honest line between the two, by flight length and aircraft. When first earns its premium, and when the best business cabin wins.",
         "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fsingapore-city.jpg&w=2048&q=80",
         "href": "business-vs-first.html"

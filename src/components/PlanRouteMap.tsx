@@ -122,7 +122,7 @@ function RealPlanRouteMap({ stops, activeIndex, mapsKey }: { stops: PlanStop[]; 
       })}
       {stops.map((s, i) => (
         <OverlayViewF key={i} position={{ lat: s.lat, lng: s.lon }} mapPaneName={OVERLAY_MOUSE_TARGET}>
-          <div title={`${s.dayNumber} — ${s.place ?? s.label}`} style={{ transform: "translate(-50%, -50%)" }}>
+          <div title={`${s.dayNumber}: ${s.place ?? s.label}`} style={{ transform: "translate(-50%, -50%)" }}>
             <MapPin Icon={pinIconFor(s)} color={pinColorFor(s)} size={i === activeIndex ? 34 : 26} active={i === activeIndex} />
           </div>
         </OverlayViewF>
@@ -174,7 +174,7 @@ function FallbackPlanRouteMap({ stops, activeIndex }: { stops: PlanStop[]; activ
         })}
       </svg>
       {points.map((p, i) => (
-        <div key={i} className={styles.stopWrap} style={{ left: `${p.x}%`, top: `${p.y}%` }} title={`${stops[i].dayNumber} — ${stops[i].place ?? stops[i].label}`}>
+        <div key={i} className={styles.stopWrap} style={{ left: `${p.x}%`, top: `${p.y}%` }} title={`${stops[i].dayNumber}: ${stops[i].place ?? stops[i].label}`}>
           <MapPin Icon={pinIconFor(stops[i])} color={pinColorFor(stops[i])} size={i === activeIndex ? 30 : 22} active={i === activeIndex} />
           {i === activeIndex && <span className={styles.stopLabel}>{stops[i].place ?? stops[i].label}</span>}
         </div>

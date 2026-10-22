@@ -191,7 +191,7 @@ export default function HeroCarousel({ slides }: { slides: HeroSlide[] }) {
             <p className={`lede on-dark ${styles.lede}`} style={{ marginTop: 24 }}>
               {/* Desktop: the promise "until you are home" is the closing banner's
                   headline and the signature section's line — not repeated here. */}
-              {isMobile ? content.lede : (content.lede ?? "").replace(/\s*—\s*until you are home\.?$/i, ".")}
+              {isMobile ? content.lede : (content.lede ?? "").replace(/\s*[—,:]\s*until you are home\.?$/i, ".")}
             </p>
             <div className={styles.heroCtaRow}>
               {content.ctaLinks.map((cta, ci) => {

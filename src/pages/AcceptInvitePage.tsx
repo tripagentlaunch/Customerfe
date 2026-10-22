@@ -22,7 +22,7 @@ export default function AcceptInvitePage() {
   const [hasToken, setHasToken] = useState(false);
 
   useEffect(() => {
-    document.title = "Accept your invitation — TripAgent";
+    document.title = "Accept your invitation | TripAgent";
     try {
       setHasToken(!!new URLSearchParams(window.location.search).get("token"));
     } catch {
