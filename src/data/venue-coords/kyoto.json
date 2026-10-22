@@ -19,7 +19,7 @@
       "cat": "stay",
       "tier": "Ultra",
       "a": "Takagamine (northern hills)",
-      "d": "An Aman sanctuary hidden in a mossy forest garden at the foot of Mount Hidari-Daimonji \u2014 pavilions of dark timber, silence, and a hot-spring onsen among the maples.",
+      "d": "An Aman sanctuary hidden in a mossy forest garden at the foot of Mount Hidari-Daimonji: pavilions of dark timber, silence, and a hot-spring onsen among the maples.",
       "lat": 35.050347,
       "lon": 135.73123,
       "photos": []
@@ -39,7 +39,7 @@
       "cat": "stay",
       "tier": "Grand",
       "a": "Nijo-Ohashi (Kamogawa riverside)",
-      "d": "A low, discreet house on the Kamo River blending Western luxury with ryokan calm \u2014 river-facing rooms, a Pierre Herm\u00e9 salon, and Mizuki's tempura and sushi counters within.",
+      "d": "A low, discreet house on the Kamo River blending Western luxury with ryokan calm: river-facing rooms, a Pierre Herm\u00e9 salon, and Mizuki's tempura and sushi counters within.",
       "lat": 35.013779,
       "lon": 135.770852,
       "photos": []
@@ -49,7 +49,7 @@
       "cat": "stay",
       "tier": "Grand",
       "a": "Higashiyama (Myohoin)",
-      "d": "Wrapped around an 800-year-old pond garden once written into 'The Tale of the Heike' \u2014 a serene Higashiyama estate with the celebrated Sushi Wakon counter in-house.",
+      "d": "Wrapped around an 800-year-old pond garden once written into 'The Tale of the Heike': a serene Higashiyama estate with the celebrated Sushi Wakon counter in-house.",
       "lat": 34.990842,
       "lon": 135.776438,
       "photos": []
@@ -79,7 +79,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Arashiyama",
-      "d": "A riverside retreat on the Hozu River in Arashiyama, beside the Tenryu-ji gardens and the bamboo grove \u2014 some rooms with private open-air hot-spring baths.",
+      "d": "A riverside retreat on the Hozu River in Arashiyama, beside the Tenryu-ji gardens and the bamboo grove: some rooms with private open-air hot-spring baths.",
       "lat": 35.014019,
       "lon": 135.673227,
       "photos": []
@@ -99,7 +99,7 @@
       "cat": "stay",
       "tier": "Ultra",
       "a": "Nakagyo (central Kyoto)",
-      "d": "Widely held to be the finest ryokan in Japan \u2014 three centuries of flawless, invisible hospitality behind a plain central-city door that has kept the world's most discerning travellers.",
+      "d": "Widely held to be the finest ryokan in Japan: three centuries of flawless, invisible hospitality behind a plain central-city door that has kept the world's most discerning travellers.",
       "lat": 35.010183,
       "lon": 135.765906,
       "photos": []
@@ -129,7 +129,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Higashiyama (Maruyama)",
-      "d": "The temple of Kyoto kaiseki \u2014 third-generation chef Yoshihiro Murata's seasonal poetry on a plate, three stars unbroken since the guide reached Kyoto.",
+      "d": "The temple of Kyoto kaiseki: third-generation chef Yoshihiro Murata's seasonal poetry on a plate, three stars unbroken since the guide reached Kyoto.",
       "lat": 35.001375,
       "lon": 135.782263,
       "photos": []
@@ -139,7 +139,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Nanzenji (Higashiyama)",
-      "d": "Four centuries and fourteen generations beside Nanzen-ji temple \u2014 the birthplace of the famous soft-boiled 'Hyotei egg' and the soul of Kyoto minimalism.",
+      "d": "Four centuries and fourteen generations beside Nanzen-ji temple: the birthplace of the famous soft-boiled 'Hyotei egg' and the soul of Kyoto minimalism.",
       "lat": 35.011415,
       "lon": 135.786734,
       "photos": []
@@ -149,7 +149,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Gion (Higashiyama)",
-      "d": "Hiroshi Sasaki's exuberant, playful kaiseki performed around an open counter \u2014 tradition with a showman's flourish, and among the hardest seats in Gion.",
+      "d": "Hiroshi Sasaki's exuberant, playful kaiseki performed around an open counter: tradition with a showman's flourish, and among the hardest seats in Gion.",
       "lat": 35.003226,
       "lon": 135.771957,
       "photos": []
@@ -159,7 +159,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Nakagyo (central Kyoto)",
-      "d": "Sixth-generation chef Motokazu Nakamura keeps Kyoto's refined imperial-court cuisine alive \u2014 subtle seasoning, centuries of technique, three stars.",
+      "d": "Sixth-generation chef Motokazu Nakamura keeps Kyoto's refined imperial-court cuisine alive: subtle seasoning, centuries of technique, three stars.",
       "lat": 34.985228,
       "lon": 135.758029,
       "photos": []
@@ -169,7 +169,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Gion (Higashiyama)",
-      "d": "An intimate Gion counter where chef Masayoshi Maruyama's precise, seasonal kaiseki has held two stars \u2014 quiet mastery in the geisha quarter.",
+      "d": "An intimate Gion counter where chef Masayoshi Maruyama's precise, seasonal kaiseki has held two stars: quiet mastery in the geisha quarter.",
       "lat": 35.003348,
       "lon": 135.780519,
       "photos": []
@@ -179,7 +179,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Gion (Higashiyama)",
-      "d": "Restrained, exact kaiseki from chef Masayoshi Nishikawa \u2014 a serene Gion room and dashi of remarkable clarity.",
+      "d": "Restrained, exact kaiseki from chef Masayoshi Nishikawa: a serene Gion room and dashi of remarkable clarity.",
       "lat": 35.003226,
       "lon": 135.771957,
       "photos": []
@@ -189,7 +189,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Kiyamachi (Nakagyo)",
-      "d": "The Kikunoi family's more relaxed riverside counter on Kiyamachi \u2014 the same seasonal artistry as the flagship, in a lighter register.",
+      "d": "The Kikunoi family's more relaxed riverside counter on Kiyamachi: the same seasonal artistry as the flagship, in a lighter register.",
       "lat": 35.003408,
       "lon": 135.77064,
       "photos": []
@@ -199,7 +199,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Gion (Higashiyama)",
-      "d": "A tiny, focused Gion room where chef Hitoshi Matayoshi cooks a deeply seasonal kaiseki with rare purity \u2014 two stars, and only a handful of seats.",
+      "d": "A tiny, focused Gion room where chef Hitoshi Matayoshi cooks a deeply seasonal kaiseki with rare purity: two stars, and only a handful of seats.",
       "lat": 35.003226,
       "lon": 135.771957,
       "photos": []
@@ -209,7 +209,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Higashiyama",
-      "d": "Chef Yoshihisa's exacting seasonal Japanese cuisine near the Higashiyama slopes \u2014 a composed, two-star counter of quiet confidence.",
+      "d": "Chef Yoshihisa's exacting seasonal Japanese cuisine near the Higashiyama slopes: a composed, two-star counter of quiet confidence.",
       "lat": 34.997093,
       "lon": 135.776464,
       "photos": []
@@ -219,7 +219,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Higashiyama (Kodaiji)",
-      "d": "Kyoto kaiseki since 1877 in a grand old villa wrapped in a pristine garden beside Kodai-ji temple \u2014 newly raised to two stars.",
+      "d": "Kyoto kaiseki since 1877 in a grand old villa wrapped in a pristine garden beside Kodai-ji temple: newly raised to two stars.",
       "lat": 35.016633,
       "lon": 135.669586,
       "photos": []
@@ -229,7 +229,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Sakyo-ku (Okazaki)",
-      "d": "Chef Ken Sakamoto's Italian cooking read through a Kyoto lens \u2014 local, seasonal produce, a strong vegetable-forward opening, and one of the city's most exciting rooms.",
+      "d": "Chef Ken Sakamoto's Italian cooking read through a Kyoto lens: local, seasonal produce, a strong vegetable-forward opening, and one of the city's most exciting rooms.",
       "lat": 35.011575,
       "lon": 135.768144,
       "photos": []
@@ -239,7 +239,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Gion (Higashiyama)",
-      "d": "Jean-Georges Vongerichten's only Kyoto table, on a Gion canal inside the Tadao Ando-designed Shinmonzen \u2014 his signature light French touch, Kyoto ingredients.",
+      "d": "Jean-Georges Vongerichten's only Kyoto table, on a Gion canal inside the Tadao Ando-designed Shinmonzen: his signature light French touch, Kyoto ingredients.",
       "lat": 35.00469,
       "lon": 135.778403,
       "photos": []
@@ -249,7 +249,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Shimogyo (central Kyoto)",
-      "d": "A century-old Kyoto institution serving classical kaiseki in a beautiful old machiya townhouse \u2014 tradition kept exactly as it should be.",
+      "d": "A century-old Kyoto institution serving classical kaiseki in a beautiful old machiya townhouse: tradition kept exactly as it should be.",
       "lat": 35.018794,
       "lon": 135.739466,
       "photos": []
@@ -259,7 +259,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Gion (Higashiyama)",
-      "d": "A refined, seasonal Gion counter where the kaiseki is precise and unhurried \u2014 a quietly excellent one-star in the heart of the old quarter.",
+      "d": "A refined, seasonal Gion counter where the kaiseki is precise and unhurried: a quietly excellent one-star in the heart of the old quarter.",
       "lat": 35.003226,
       "lon": 135.771957,
       "photos": []
@@ -269,7 +269,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Gion (Higashiyama)",
-      "d": "Warm, counter-style kappo cooking in Gion \u2014 seasonal Kyoto dishes served with easy conversation across the counter.",
+      "d": "Warm, counter-style kappo cooking in Gion: seasonal Kyoto dishes served with easy conversation across the counter.",
       "lat": 35.00233,
       "lon": 135.776457,
       "photos": []
@@ -279,7 +279,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Higashiyama",
-      "d": "Chef Toshiro Ogata's serene, produce-driven kaiseki in a hushed Higashiyama room \u2014 a deeply personal, meditative meal.",
+      "d": "Chef Toshiro Ogata's serene, produce-driven kaiseki in a hushed Higashiyama room: a deeply personal, meditative meal.",
       "lat": 34.997093,
       "lon": 135.776464,
       "photos": []
@@ -289,7 +289,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Higashiyama (Kodaiji)",
-      "d": "Refined French dining in a converted old house beside Kodai-ji temple \u2014 garden views, a graceful room, and one Michelin star.",
+      "d": "Refined French dining in a converted old house beside Kodai-ji temple: garden views, a graceful room, and one Michelin star.",
       "lat": 35.000303,
       "lon": 135.780596,
       "photos": []
@@ -299,7 +299,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Nishikyo (Katsura)",
-      "d": "The Kitcho lineage's Kyoto kaiseki \u2014 seasonal, classical Japanese cuisine from one of the great names in the tradition, at one star.",
+      "d": "The Kitcho lineage's Kyoto kaiseki: seasonal, classical Japanese cuisine from one of the great names in the tradition, at one star.",
       "lat": 35.008385,
       "lon": 135.722165,
       "photos": []
@@ -309,7 +309,7 @@
       "cat": "eat",
       "tier": "Casual",
       "a": "Nakagyo (Nishikiyamachi)",
-      "d": "A teamLab-designed room serving fully plant-based ramen of real depth \u2014 proof that Kyoto's vegetarian craft runs deep.",
+      "d": "A teamLab-designed room serving fully plant-based ramen of real depth: proof that Kyoto's vegetarian craft runs deep.",
       "lat": 35.014668,
       "lon": 135.768042,
       "photos": []
@@ -329,7 +329,7 @@
       "cat": "do",
       "tier": "",
       "a": "Fushimi",
-      "d": "Head shrine of some 30,000 Inari shrines, its Senbon Torii \u2014 thousands of vermilion gates \u2014 tunnel up sacred Mount Inari. Climb even twenty minutes past the first shrine and the tour groups thin to near silence; the full loop is a two-to-three-hour hike best done at dawn or after dark, lit and open around the clock.",
+      "d": "Head shrine of some 30,000 Inari shrines, its Senbon Torii: thousands of vermilion gates, tunnel up sacred Mount Inari. Climb even twenty minutes past the first shrine and the tour groups thin to near silence; the full loop is a two-to-three-hour hike best done at dawn or after dark, lit and open around the clock.",
       "lat": 34.967519,
       "lon": 135.77971,
       "photos": []
@@ -339,7 +339,7 @@
       "cat": "do",
       "tier": "",
       "a": "Higashiyama",
-      "d": "The great wooden stage juts thirteen metres over the hillside on a lattice of pillars joined without a single nail, framing the whole city below. Approach through the sloping lanes of Sannenzaka and Ninenzaka; the Otowa spring beneath grants long life, love or success \u2014 pick one dipper.",
+      "d": "The great wooden stage juts thirteen metres over the hillside on a lattice of pillars joined without a single nail, framing the whole city below. Approach through the sloping lanes of Sannenzaka and Ninenzaka; the Otowa spring beneath grants long life, love or success: pick one dipper.",
       "lat": 34.994303,
       "lon": 135.784439,
       "photos": []
@@ -349,7 +349,7 @@
       "cat": "do",
       "tier": "",
       "a": "Kita",
-      "d": "Fifteen stones set in raked white gravel that can never all be seen at once from the viewing veranda \u2014 the most famous Zen dry garden in the world. Sit on the wooden platform, say nothing, and let it work; ten quiet minutes here is the point of the whole visit.",
+      "d": "Fifteen stones set in raked white gravel that can never all be seen at once from the viewing veranda: the most famous Zen dry garden in the world. Sit on the wooden platform, say nothing, and let it work; ten quiet minutes here is the point of the whole visit.",
       "lat": 35.033724,
       "lon": 135.719108,
       "photos": []
@@ -369,7 +369,7 @@
       "cat": "do",
       "tier": "",
       "a": "Arashiyama",
-      "d": "A 400-metre path where towering green stalks close overhead and the wind sets them creaking \u2014 best walked at first light before the western district wakes. Free, flat and open all day; pair it with a private rickshaw ride through the back lanes to keep the family together.",
+      "d": "A 400-metre path where towering green stalks close overhead and the wind sets them creaking: best walked at first light before the western district wakes. Free, flat and open all day; pair it with a private rickshaw ride through the back lanes to keep the family together.",
       "lat": 35.016742,
       "lon": 135.671148,
       "photos": []
@@ -379,7 +379,7 @@
       "cat": "do",
       "tier": "",
       "a": "Arashiyama",
-      "d": "First of Kyoto's Five Great Zen temples, founded 1339, whose Sogen pond garden borrows the Arashiyama mountains as its backdrop \u2014 a masterpiece unchanged for seven centuries. The north gate opens straight onto the bamboo grove, and Jain and vegetarian families can book its Shigetsu shojin-ryori hall on the grounds.",
+      "d": "First of Kyoto's Five Great Zen temples, founded 1339, whose Sogen pond garden borrows the Arashiyama mountains as its backdrop: a masterpiece unchanged for seven centuries. The north gate opens straight onto the bamboo grove, and Jain and vegetarian families can book its Shigetsu shojin-ryori hall on the grounds.",
       "lat": 35.015703,
       "lon": 135.674503,
       "photos": []
@@ -399,7 +399,7 @@
       "cat": "do",
       "tier": "",
       "a": "Nakagyo",
-      "d": "A single lantern-lit lane barely wide enough for two, packed with intimate restaurants between Kamo River and Kiyamachi. From May to September the riverside houses raise noryo-yuka dining platforms over the water \u2014 book a private room facing the Kamo for a family dinner as the evening cools.",
+      "d": "A single lantern-lit lane barely wide enough for two, packed with intimate restaurants between Kamo River and Kiyamachi. From May to September the riverside houses raise noryo-yuka dining platforms over the water: book a private room facing the Kamo for a family dinner as the evening cools.",
       "lat": 35.00598,
       "lon": 135.771088,
       "photos": []
@@ -409,7 +409,7 @@
       "cat": "do",
       "tier": "",
       "a": "Nakagyo",
-      "d": "Four centuries of 'Kyoto's Kitchen' \u2014 a covered arcade of some 130 stalls selling pickles, tofu, sweets, knives and matcha. A great grazing walk with kids; plenty of vegetable and tofu-based bites for veg travellers, and the perfect place to buy a hand-forged blade to carry home.",
+      "d": "Four centuries of 'Kyoto's Kitchen': a covered arcade of some 130 stalls selling pickles, tofu, sweets, knives and matcha. A great grazing walk with kids; plenty of vegetable and tofu-based bites for veg travellers, and the perfect place to buy a hand-forged blade to carry home.",
       "lat": 35.005024,
       "lon": 135.76557,
       "photos": []
@@ -429,7 +429,7 @@
       "cat": "do",
       "tier": "",
       "a": "Higashiyama",
-      "d": "A grand head temple of Rinzai Zen at the foot of the Higashiyama hills, where a red-brick Meiji-era aqueduct arches improbably through the ancient grounds. Climb the Sanmon gate for the view, then lose the crowds in the quiet subtemples \u2014 Konchi-in's garden is a hidden reward.",
+      "d": "A grand head temple of Rinzai Zen at the foot of the Higashiyama hills, where a red-brick Meiji-era aqueduct arches improbably through the ancient grounds. Climb the Sanmon gate for the view, then lose the crowds in the quiet subtemples: Konchi-in's garden is a hidden reward.",
       "lat": 34.997093,
       "lon": 135.776464,
       "photos": []
@@ -449,7 +449,7 @@
       "cat": "do",
       "tier": "",
       "a": "Arashiyama",
-      "d": "A short hillside climb to a troupe of 100-plus wild Japanese macaques roaming free, with one of the finest panoramas over Kyoto from the summit. Children love feeding them from inside the enclosed hut (roles reversed \u2014 the humans are caged); a genuinely different half-hour from another temple.",
+      "d": "A short hillside climb to a troupe of 100-plus wild Japanese macaques roaming free, with one of the finest panoramas over Kyoto from the summit. Children love feeding them from inside the enclosed hut (roles reversed: the humans are caged); a genuinely different half-hour from another temple.",
       "lat": 35.009086,
       "lon": 135.674967,
       "photos": []
@@ -469,7 +469,7 @@
       "cat": "do",
       "tier": "",
       "a": "Higashiyama",
-      "d": "A single hall 120 metres long holding 1,001 gilded, life-sized statues of Kannon in serried ranks \u2014 an overwhelming, hushed sight found nowhere else. Photography is forbidden inside, which only sharpens the effect; wheelchair-accessible and quick to see between larger stops.",
+      "d": "A single hall 120 metres long holding 1,001 gilded, life-sized statues of Kannon in serried ranks: an overwhelming, hushed sight found nowhere else. Photography is forbidden inside, which only sharpens the effect; wheelchair-accessible and quick to see between larger stops.",
       "lat": 34.988172,
       "lon": 135.771778,
       "photos": []
@@ -479,7 +479,7 @@
       "cat": "do",
       "tier": "",
       "a": "Higashiyama",
-      "d": "A vast Zen monastery whose Tsutenkyo bridge floats over a valley of maples that turns to fire in November \u2014 Kyoto's premier autumn-leaf temple. Its modernist checkerboard moss-and-stone gardens are quietly radical; come at opening in peak season, as it draws serious crowds.",
+      "d": "A vast Zen monastery whose Tsutenkyo bridge floats over a valley of maples that turns to fire in November: Kyoto's premier autumn-leaf temple. Its modernist checkerboard moss-and-stone gardens are quietly radical; come at opening in peak season, as it draws serious crowds.",
       "lat": 34.977171,
       "lon": 135.774575,
       "photos": []
@@ -489,7 +489,7 @@
       "cat": "do",
       "tier": "",
       "a": "Kita",
-      "d": "A walled monastic town of more than twenty Zen subtemples, several with exquisite dry gardens \u2014 Daisen-in and Ryogen-in among them. The heartland of tea culture under Sen no Rikyu; wander the gravel lanes at leisure, and pause for shojin-ryori at Izusen inside the grounds.",
+      "d": "A walled monastic town of more than twenty Zen subtemples, several with exquisite dry gardens: Daisen-in and Ryogen-in among them. The heartland of tea culture under Sen no Rikyu; wander the gravel lanes at leisure, and pause for shojin-ryori at Izusen inside the grounds.",
       "lat": 35.042792,
       "lon": 135.746552,
       "photos": []
@@ -509,7 +509,7 @@
       "cat": "do",
       "tier": "",
       "a": "Nishikyo",
-      "d": "The 17th-century imperial retreat revered by modernist architects worldwide as the purest expression of Japanese design \u2014 a stroll garden choreographed shot by shot around a central pond. Visits are by advance reservation and guided tour only; a connoisseur's pilgrimage rather than a casual stop.",
+      "d": "The 17th-century imperial retreat revered by modernist architects worldwide as the purest expression of Japanese design: a stroll garden choreographed shot by shot around a central pond. Visits are by advance reservation and guided tour only; a connoisseur's pilgrimage rather than a casual stop.",
       "lat": 34.983944,
       "lon": 135.710274,
       "photos": []
@@ -519,7 +519,7 @@
       "cat": "do",
       "tier": "",
       "a": "Kamigyo",
-      "d": "The former seat of the emperor, its ceremonial halls set inside a huge gravel-and-pine park open free to all. The surrounding Gyoen is a favourite local promenade \u2014 weeping cherries in spring, cool shade in summer \u2014 and easy, flat walking for every generation.",
+      "d": "The former seat of the emperor, its ceremonial halls set inside a huge gravel-and-pine park open free to all. The surrounding Gyoen is a favourite local promenade: weeping cherries in spring, cool shade in summer, and easy, flat walking for every generation.",
       "lat": 35.025264,
       "lon": 135.762345,
       "photos": []
@@ -549,7 +549,7 @@
       "cat": "do",
       "tier": "",
       "a": "Ukyo",
-      "d": "The largest Rinzai Zen temple compound in Japan \u2014 40-plus subtemples along stone lanes, most closed to the public but a handful open for a garden or a soaring cloud-dragon ceiling painting. Taizo-in offers hands-on Zen meditation and a garden lunch, an intimate experience away from the crowds.",
+      "d": "The largest Rinzai Zen temple compound in Japan: 40-plus subtemples along stone lanes, most closed to the public but a handful open for a garden or a soaring cloud-dragon ceiling painting. Taizo-in offers hands-on Zen meditation and a garden lunch, an intimate experience away from the crowds.",
       "lat": 35.033463,
       "lon": 135.718088,
       "photos": []
@@ -619,7 +619,7 @@
       "cat": "do",
       "tier": "",
       "a": "Higashiyama",
-      "d": "Two preserved stone-stepped streets of Meiji-era wooden shophouses climbing toward Kiyomizu-dera \u2014 the postcard image of old Kyoto. Browse ceramics, sweets and incense; families often rent kimono here for the walk, and a private guide can steer you into the crafts workshops behind the frontages.",
+      "d": "Two preserved stone-stepped streets of Meiji-era wooden shophouses climbing toward Kiyomizu-dera: the postcard image of old Kyoto. Browse ceramics, sweets and incense; families often rent kimono here for the walk, and a private guide can steer you into the crafts workshops behind the frontages.",
       "lat": 34.997093,
       "lon": 135.776464,
       "photos": []
@@ -679,7 +679,7 @@
       "cat": "do",
       "tier": "",
       "a": "Higashiyama",
-      "d": "An English-guided chanoyu ceremony in a machiya near Kiyomizu-dera, where a host prepares matcha for you and explains each gesture \u2014 approachable without being touristy. Private and family sessions can be arranged; a gentle, seated introduction to Kyoto's defining ritual.",
+      "d": "An English-guided chanoyu ceremony in a machiya near Kiyomizu-dera, where a host prepares matcha for you and explains each gesture: approachable without being touristy. Private and family sessions can be arranged; a gentle, seated introduction to Kyoto's defining ritual.",
       "lat": 34.998533,
       "lon": 135.780549,
       "photos": []
@@ -689,7 +689,7 @@
       "cat": "do",
       "tier": "",
       "a": "Nakagyo",
-      "d": "The city's green spine \u2014 grassy banks where locals picnic, jog and court, spanned by stepping-stone crossings that delight children. Walk it at golden hour from Sanjo to Demachiyanagi; in summer the Pontocho restaurants above open their riverside dining decks.",
+      "d": "The city's green spine: grassy banks where locals picnic, jog and court, spanned by stepping-stone crossings that delight children. Walk it at golden hour from Sanjo to Demachiyanagi; in summer the Pontocho restaurants above open their riverside dining decks.",
       "lat": 35.010317,
       "lon": 135.751298,
       "photos": []
@@ -709,7 +709,7 @@
       "cat": "do",
       "tier": "",
       "a": "Fushimi",
-      "d": "One of Japan's great sake towns, its soft spring water lining a canal quarter of white-walled breweries you can tour and taste; Gekkeikan's Okura museum tells the whole story. Glide the willow-lined waterway by little Jikkokubune boat \u2014 an easy, atmospheric afternoon south of the centre.",
+      "d": "One of Japan's great sake towns, its soft spring water lining a canal quarter of white-walled breweries you can tour and taste; Gekkeikan's Okura museum tells the whole story. Glide the willow-lined waterway by little Jikkokubune boat: an easy, atmospheric afternoon south of the centre.",
       "lat": 34.928879,
       "lon": 135.761629,
       "photos": []
@@ -739,7 +739,7 @@
       "cat": "do",
       "tier": "",
       "a": "Uji (day trip)",
-      "d": "Twenty minutes south, the home of Japan's finest matcha and of Byodo-in, whose Phoenix Hall floats on its pond and adorns the ten-yen coin. Grind your own tea, walk the riverside setting of The Tale of Genji, and lunch on matcha everything \u2014 a serene, uncrowded half-day.",
+      "d": "Twenty minutes south, the home of Japan's finest matcha and of Byodo-in, whose Phoenix Hall floats on its pond and adorns the ten-yen coin. Grind your own tea, walk the riverside setting of The Tale of Genji, and lunch on matcha everything: a serene, uncrowded half-day.",
       "lat": 34.880764,
       "lon": 135.828026,
       "photos": []
@@ -749,7 +749,7 @@
       "cat": "do",
       "tier": "",
       "a": "Ohara (day trip)",
-      "d": "A pastoral valley an hour north where the moss gardens and Amida hall of Sanzen-in feel a world away from central Kyoto. Deeply seasonal \u2014 hydrangeas in June, maples in November \u2014 and blissfully quiet; a soft, rural day for travellers who have already ticked the icons.",
+      "d": "A pastoral valley an hour north where the moss gardens and Amida hall of Sanzen-in feel a world away from central Kyoto. Deeply seasonal: hydrangeas in June, maples in November, and blissfully quiet; a soft, rural day for travellers who have already ticked the icons.",
       "lat": 35.073154,
       "lon": 135.764441,
       "photos": []
@@ -769,7 +769,7 @@
       "cat": "party",
       "tier": "Cocktail bars",
       "a": "Kiyamachi (Nakagyo)",
-      "d": "Toru Ariyoshi's Prohibition-era speakeasy behind a plain yellow door \u2014 Roaring-Twenties classics, theatrical service, and the most decorated bar in the city.",
+      "d": "Toru Ariyoshi's Prohibition-era speakeasy behind a plain yellow door: Roaring-Twenties classics, theatrical service, and the most decorated bar in the city.",
       "lat": 35.00506,
       "lon": 135.770306,
       "photos": []
@@ -779,7 +779,7 @@
       "cat": "party",
       "tier": "Cocktail bars",
       "a": "Shimogyo (Funairi)",
-      "d": "Tomoiki Sekine's four-seat 'liquid cuisine' counter, where drinks are built by extracting flavour from seasonal Kyoto produce rather than mixing spirits \u2014 a tasting menu in a glass.",
+      "d": "Tomoiki Sekine's four-seat 'liquid cuisine' counter, where drinks are built by extracting flavour from seasonal Kyoto produce rather than mixing spirits: a tasting menu in a glass.",
       "lat": 35.011575,
       "lon": 135.768144,
       "photos": []
@@ -789,7 +789,7 @@
       "cat": "party",
       "tier": "Cocktail bars",
       "a": "Shimogyo (central Kyoto)",
-      "d": "A beloved backstreet den since 2009, mixing beautifully original cocktails from Japanese ingredients \u2014 Kyoto sansho pepper, Japanese pear, Shine muscat.",
+      "d": "A beloved backstreet den since 2009, mixing beautifully original cocktails from Japanese ingredients: Kyoto sansho pepper, Japanese pear, Shine muscat.",
       "lat": 35.000971,
       "lon": 135.766334,
       "photos": []
@@ -799,7 +799,7 @@
       "cat": "party",
       "tier": "Cocktail bars",
       "a": "Shijo-Kiyamachi (Nakagyo)",
-      "d": "A cramped, candlelit 'magician's' bar of books, decanters and curios, where flamboyant staff serve cocktails themed on mystery and alchemy \u2014 pure theatre.",
+      "d": "A cramped, candlelit 'magician's' bar of books, decanters and curios, where flamboyant staff serve cocktails themed on mystery and alchemy: pure theatre.",
       "lat": 35.001819,
       "lon": 135.769992,
       "photos": []
@@ -809,7 +809,7 @@
       "cat": "party",
       "tier": "Landmark bars",
       "a": "Nijo-Kiyamachi (Nakagyo)",
-      "d": "An elegant, spirits-deep second-floor bar overlooking the Takase canal \u2014 a vast whisky and spirits backbar and classical technique, long a Kyoto institution.",
+      "d": "An elegant, spirits-deep second-floor bar overlooking the Takase canal: a vast whisky and spirits backbar and classical technique, long a Kyoto institution.",
       "lat": 35.01332,
       "lon": 135.770557,
       "photos": []

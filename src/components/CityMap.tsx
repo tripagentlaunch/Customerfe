@@ -7,6 +7,7 @@ import MapPin from "./MapPin";
 import { catColor, catIcon } from "./cityMapCategories";
 import styles from "./CityMap.module.css";
 import ClusterPin from "./ClusterPin";
+import ClusterCard from "./ClusterCard";
 import { clusterPoints, worldPx } from "../lib/clusterPoints";
 import { useLiveVenuePhoto } from "../hooks/useLiveVenuePhoto";
 import { useRemoteConfig } from "../hooks/useRemoteConfig";
@@ -68,6 +69,20 @@ function fanOffsets(n: number): { dx: number; dy: number }[] {
   });
 }
 
+// Hover: a badge's card opens after a short pause (a mouse crossing the map
+// doesn't flash cards) and stays while the pointer is on the badge or card.
+const CARD_OPEN_MS = 120;
+const CARD_CLOSE_MS = 220;
+
+/** The city's own area: the venues around the middle of the city, ignoring a
+ *  handful of far day trips, so the first view is the city and nothing else. */
+function cityCore(venues: CityMapVenue[], center: { lat: number; lng: number }, share: number) {
+  const dist = (v: CityMapVenue) => Math.hypot(v.lat - center.lat, (v.lon - center.lng) * Math.cos((center.lat * Math.PI) / 180));
+  const near = venues.filter((v) => dist(v) < 0.15);
+  const sorted = [...near].sort((a, b) => dist(a) - dist(b));
+  return sorted.slice(0, Math.max(2, Math.ceil(sorted.length * share)));
+}
+
 const MAP_CONTAINER_STYLE = { width: "100%", height: "100%" };
 const PIN_BUTTON_STYLE: CSSProperties = { transform: "translate(-50%, -50%)", background: "none", border: "none", padding: 0, cursor: "pointer" };
 
@@ -118,6 +133,18 @@ export default function CityMap({
   const [zoom, setZoom] = useState(11);
   const isMobile = useIsMobile();
   const clusterRadius = isMobile ? CLUSTER_RADIUS_PX : DESKTOP_CLUSTER_RADIUS_PX;
+
+  // The count badge whose card is open: its places and where it sits.
+  const [openGroup, setOpenGroup] = useState<{ key: string; venues: CityMapVenue[]; lat: number; lng: number } | null>(null);
+  const hoverTimer = useRef<number | undefined>(undefined);
+  function hoverGroup(next: typeof openGroup, delay: number) {
+    window.clearTimeout(hoverTimer.current);
+    hoverTimer.current = window.setTimeout(() => setOpenGroup(next), delay);
+  }
+  function holdGroup() {
+    window.clearTimeout(hoverTimer.current);
+  }
+  useEffect(() => () => window.clearTimeout(hoverTimer.current), []);
 
   const canvasRef = useRef<HTMLDivElement | null>(null);
   const triggerElRef = useRef<HTMLElement | null>(null);
@@ -175,7 +202,44 @@ export default function CityMap({
     });
   }, [visibleVenues, zoom, clusterRadius]);
 
+  // Phone: the sheet covers the lower half of the screen, so bring the map
+  // up to the top of the screen when it sits low.
+  function revealMapAboveSheet() {
+    const el = canvasRef.current;
+    if (!el) return;
+    const top = el.getBoundingClientRect().top;
+    if (top > window.innerHeight * 0.12) window.scrollBy({ top: top - 8, behavior: "smooth" });
+  }
+
+  function pickFromGroup(v: CityMapVenue) {
+    setOpenGroup(null);
+    if (map) {
+      map.panTo({ lat: v.lat, lng: v.lon });
+      if ((map.getZoom() ?? 0) < NO_CLUSTER_ZOOM) map.setZoom(NO_CLUSTER_ZOOM);
+    }
+    setSelected(v);
+  }
+
+  // Where a desktop card goes: on whichever side of the badge has more of the
+  // map (it scrolls inside when even that is short); shifted in near an edge.
+  function cardPlacement(lat: number, lng: number): { transform: string; maxHeight: number } {
+    const b = map?.getBounds();
+    const h = map?.getDiv().clientHeight ?? 600;
+    if (!b) return { transform: "translate(-50%, calc(-100% - 26px))", maxHeight: 420 };
+    const ne = b.getNorthEast();
+    const sw = b.getSouthWest();
+    const fy = (ne.lat() - lat) / (ne.lat() - sw.lat() || 1);
+    const fx = (lng - sw.lng()) / (ne.lng() - sw.lng() || 1);
+    const x = fx < 0.3 ? "-24px" : fx > 0.7 ? "calc(-100% + 24px)" : "-50%";
+    const above = fy * h - 40;
+    const below = (1 - fy) * h - 40;
+    return above >= below
+      ? { transform: `translate(${x}, calc(-100% - 26px))`, maxHeight: Math.max(220, Math.min(460, above)) }
+      : { transform: `translate(${x}, 26px)`, maxHeight: Math.max(220, Math.min(460, below)) };
+  }
+
   function expandCluster(items: { v: CityMapVenue }[]) {
+    setOpenGroup(null);
     if (!map) return;
     const bounds = new google.maps.LatLngBounds();
     items.forEach(({ v }) => bounds.extend({ lat: v.lat, lng: v.lon }));
@@ -274,22 +338,48 @@ export default function CityMap({
             // interacts with the map. requestAnimationFrame waits for the
             // browser's next paint, by which point the container is
             // reliably sized.
+            //
+            // Phones (2026-10-22, direct request): the city and nothing else.
+            // The small map frames the closest 85% of in-city places, and
+            // panning/zooming out stops at the city's own area (every venue
+            // within reach, day trips included, plus a margin).
             requestAnimationFrame(() => {
-              const core = visibleVenues.filter((v) => {
-                const dLat = v.lat - center.lat;
-                const dLon = v.lon - center.lng;
-                return Math.sqrt(dLat * dLat + dLon * dLon) < 0.15;
-              });
+              const core = cityCore(visibleVenues, center, isMobile ? 0.85 : 1);
               if (core.length > 1) {
                 const bounds = new google.maps.LatLngBounds();
                 core.forEach((v) => bounds.extend({ lat: v.lat, lng: v.lon }));
-                m.fitBounds(bounds, 40);
+                m.fitBounds(bounds, isMobile ? 24 : 40);
+                const area = new google.maps.LatLngBounds();
+                visibleVenues
+                  .filter((v) => Math.hypot(v.lat - center.lat, v.lon - center.lng) < 0.6)
+                  .forEach((v) => area.extend({ lat: v.lat, lng: v.lon }));
+                const span = area.toSpan();
+                const padLat = Math.max(span.lat() * 0.25, 0.05);
+                const padLng = Math.max(span.lng() * 0.25, 0.05);
+                const ne = area.getNorthEast();
+                const sw = area.getSouthWest();
+                google.maps.event.addListenerOnce(m, "idle", () => {
+                  m.setOptions({
+                    restriction: {
+                      latLngBounds: { north: ne.lat() + padLat, south: sw.lat() - padLat, east: ne.lng() + padLng, west: sw.lng() - padLng },
+                      strictBounds: false,
+                    },
+                    minZoom: Math.max(3, (m.getZoom() ?? 11) - (isMobile ? 1 : 2)),
+                  });
+                });
               }
               fireReadyOnce();
             });
           }}
-          onClick={() => setSelected(null)}
-          onZoomChanged={() => map && setZoom(map.getZoom() ?? 11)}
+          onClick={() => {
+            setSelected(null);
+            setOpenGroup(null);
+          }}
+          onZoomChanged={() => {
+            if (!map) return;
+            setZoom(map.getZoom() ?? 11);
+            setOpenGroup(null);
+          }}
           options={{
             styles: MAP_STYLES,
             disableDefaultUI: true,
@@ -302,10 +392,26 @@ export default function CityMap({
             if (c.items.length > 1) {
               const lat = c.items.reduce((a, { v }) => a + v.lat, 0) / c.items.length;
               const lng = c.items.reduce((a, { v }) => a + v.lon, 0) / c.items.length;
+              const key = `cluster-${c.items.map((x) => x.i).join("-")}`;
+              const group = { key, venues: c.items.map((x) => x.v), lat, lng };
+              const isOpen = openGroup?.key === key;
               return (
-                <OverlayViewF key={`cluster-${c.items.map((x) => x.i).join("-")}`} position={{ lat, lng }} mapPaneName={OVERLAY_MOUSE_TARGET}>
+                <OverlayViewF key={key} position={{ lat, lng }} mapPaneName={OVERLAY_MOUSE_TARGET}>
                   <div style={{ transform: "translate(-50%, -50%)" }}>
-                    <ClusterPin count={c.items.length} onClick={() => expandCluster(c.items)} />
+                    <ClusterPin
+                      count={c.items.length}
+                      open={isOpen}
+                      // Desktop: hover shows what's inside, a click zooms in.
+                      // Phone: a tap shows what's inside (its card zooms in).
+                      onClick={() => {
+                        if (!isMobile) return expandCluster(c.items);
+                        setSelected(null);
+                        setOpenGroup(isOpen ? null : group);
+                        if (!isOpen) revealMapAboveSheet();
+                      }}
+                      onMouseEnter={isMobile ? undefined : () => { setSelected(null); hoverGroup(group, isOpen ? 0 : CARD_OPEN_MS); }}
+                      onMouseLeave={isMobile ? undefined : () => hoverGroup(null, CARD_CLOSE_MS)}
+                    />
                   </div>
                 </OverlayViewF>
               );
@@ -320,12 +426,35 @@ export default function CityMap({
                   style={shift ? { ...PIN_BUTTON_STYLE, transform: PIN_BUTTON_STYLE.transform + shift } : PIN_BUTTON_STYLE}
                   onMouseEnter={(e) => selectVenue(v, e.nativeEvent)}
                   onMouseLeave={() => setSelected(null)}
+                  // A tap on a phone (no hover) opens the card too.
+                  onClick={(e) => {
+                    setOpenGroup(null);
+                    selectVenue(v, e.nativeEvent);
+                  }}
                 >
                   <MapPin Icon={catIcon(v.cat)} color={catColor(v.cat)} active={selected?.n === v.n && selected.lat === v.lat} />
                 </button>
               </OverlayViewF>
             );
           })}
+          {openGroup && !isMobile && (
+            <OverlayViewF key={`card-${openGroup.key}`} position={{ lat: openGroup.lat, lng: openGroup.lng }} mapPaneName={FLOAT_PANE}>
+              <div style={{ transform: cardPlacement(openGroup.lat, openGroup.lng).transform }}>
+                <ClusterCard
+                  maxHeight={cardPlacement(openGroup.lat, openGroup.lng).maxHeight}
+                  venues={openGroup.venues}
+                  city={slug}
+                  livePhotos={livePlacesEnabled}
+                  sheet={false}
+                  onPick={pickFromGroup}
+                  onZoom={() => expandCluster(openGroup.venues.map((v) => ({ v })))}
+                  onClose={() => setOpenGroup(null)}
+                  onMouseEnter={holdGroup}
+                  onMouseLeave={() => hoverGroup(null, CARD_CLOSE_MS)}
+                />
+              </div>
+            </OverlayViewF>
+          )}
           {effectiveSelected && (
             <OverlayViewF
               key={`${effectiveSelected.n}-${effectiveSelected.lat}-${effectiveSelected.lon}`}
@@ -337,6 +466,17 @@ export default function CityMap({
             </OverlayViewF>
           )}
         </GoogleMap>
+        {openGroup && isMobile && (
+          <ClusterCard
+            venues={openGroup.venues}
+            city={slug}
+            livePhotos={livePlacesEnabled}
+            sheet
+            onPick={pickFromGroup}
+            onZoom={() => expandCluster(openGroup.venues.map((v) => ({ v })))}
+            onClose={() => setOpenGroup(null)}
+          />
+        )}
       </div>
     </div>
   );

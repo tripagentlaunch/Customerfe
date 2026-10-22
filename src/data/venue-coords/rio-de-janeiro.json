@@ -9,7 +9,7 @@
       "cat": "stay",
       "tier": "Ultra",
       "a": "Copacabana",
-      "d": "The 1923 palace on Copacabana's seafront \u2014 the definitive grand hotel of South America, and still the city's most storied address.",
+      "d": "The 1923 palace on Copacabana's seafront: the definitive grand hotel of South America, and still the city's most storied address.",
       "lat": -22.967013,
       "lon": -43.179185,
       "photos": []
@@ -19,7 +19,7 @@
       "cat": "stay",
       "tier": "Ultra",
       "a": "Ipanema",
-      "d": "Philippe Starck's dark, glamorous high-rise over Ipanema \u2014 a rooftop infinity pool and one of the great beach-front views in the city.",
+      "d": "Philippe Starck's dark, glamorous high-rise over Ipanema: a rooftop infinity pool and one of the great beach-front views in the city.",
       "lat": -22.987028,
       "lon": -43.196239,
       "photos": []
@@ -29,7 +29,7 @@
       "cat": "stay",
       "tier": "Grand",
       "a": "Copacabana",
-      "d": "A contemporary Brazilian-modernist house over Copacabana Beach \u2014 a rooftop pool, a spa and quietly impeccable service.",
+      "d": "A contemporary Brazilian-modernist house over Copacabana Beach: a rooftop pool, a spa and quietly impeccable service.",
       "lat": -22.911014,
       "lon": -43.209373,
       "photos": []
@@ -39,7 +39,7 @@
       "cat": "stay",
       "tier": "Grand",
       "a": "Copacabana / Leme",
-      "d": "At the head of Copacabana Beach \u2014 a full-service grand hotel with the finest uninterrupted sweep of the bay's white sand.",
+      "d": "At the head of Copacabana Beach: a full-service grand hotel with the finest uninterrupted sweep of the bay's white sand.",
       "lat": -22.985944,
       "lon": -43.189331,
       "photos": []
@@ -49,27 +49,27 @@
       "cat": "stay",
       "tier": "Grand",
       "a": "Leblon",
-      "d": "Designer-hotelier Oskar Metsavaht's house over Leblon Beach \u2014 Brazilian timber, sculptural furniture and floor-to-ceiling sea and sky.",
+      "d": "Designer-hotelier Oskar Metsavaht's house over Leblon Beach: Brazilian timber, sculptural furniture and floor-to-ceiling sea and sky.",
       "lat": -22.967013,
       "lon": -43.179185,
       "photos": []
     },
     {
-      "n": "Santa Teresa Hotel RJ \u2014 MGallery",
+      "n": "Santa Teresa Hotel RJ: MGallery",
       "cat": "stay",
       "tier": "Luxury",
       "a": "Santa Teresa",
-      "d": "A restored hillside coffee estate in bohemian Santa Teresa \u2014 Brazilian modernist design, hardwoods and a hilltop pool above the city.",
+      "d": "A restored hillside coffee estate in bohemian Santa Teresa: Brazilian modernist design, hardwoods and a hilltop pool above the city.",
       "lat": -22.921554,
       "lon": -43.186027,
       "photos": []
     },
     {
-      "n": "Hotel Emiliano \u2014 beachfront suites (Copacabana)",
+      "n": "Hotel Emiliano: beachfront suites (Copacabana)",
       "cat": "stay",
       "tier": "Grand",
       "a": "Copacabana",
-      "d": "The suite tier of the Emiliano \u2014 larger, sea-facing rooms with the same modernist restraint and rooftop-pool access.",
+      "d": "The suite tier of the Emiliano: larger, sea-facing rooms with the same modernist restraint and rooftop-pool access.",
       "lat": -22.965739,
       "lon": -43.188871,
       "photos": []
@@ -79,7 +79,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Copacabana",
-      "d": "A grand French-flavoured house between Copacabana and Arpoador \u2014 two rooftop pools and one of the best sunset outlooks in the city.",
+      "d": "A grand French-flavoured house between Copacabana and Arpoador: two rooftop pools and one of the best sunset outlooks in the city.",
       "lat": -22.985952,
       "lon": -43.2074,
       "photos": []
@@ -99,7 +99,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Botafogo",
-      "d": "Rafael Costa e Silva's vegetable-led room in a Botafogo townhouse \u2014 the most celebrated table in Rio, sourced from its own gardens.",
+      "d": "Rafael Costa e Silva's vegetable-led room in a Botafogo townhouse: the most celebrated table in Rio, sourced from its own gardens.",
       "lat": -22.953142,
       "lon": -43.196313,
       "photos": []
@@ -109,7 +109,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Leblon",
-      "d": "Felipe Bronze's theatre of fire and Brazilian ingredients \u2014 an inventive, hands-on tasting-menu experience, two Michelin stars strong.",
+      "d": "Felipe Bronze's theatre of fire and Brazilian ingredients: an inventive, hands-on tasting-menu experience, two Michelin stars strong.",
       "lat": -22.986051,
       "lon": -43.224759,
       "photos": []
@@ -119,7 +119,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Botafogo",
-      "d": "Alberto Landgraf's precise, seafood-led counter and small dining room \u2014 a Japanese-German hand on the finest Brazilian catch.",
+      "d": "Alberto Landgraf's precise, seafood-led counter and small dining room: a Japanese-German hand on the finest Brazilian catch.",
       "lat": -22.911014,
       "lon": -43.209373,
       "photos": []
@@ -129,7 +129,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Copacabana (Copacabana Palace)",
-      "d": "Pan-Asian fine dining inside the Copacabana Palace \u2014 a serene, poolside room and the city's most polished Asian tasting menus.",
+      "d": "Pan-Asian fine dining inside the Copacabana Palace: a serene, poolside room and the city's most polished Asian tasting menus.",
       "lat": -23.022816,
       "lon": -43.546089,
       "photos": []
@@ -139,7 +139,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Copacabana (Copacabana Palace)",
-      "d": "Chef Nello Cassese's Neapolitan-Piedmontese cooking in a chandeliered room over the palace pool \u2014 Italian fine dining of real pedigree.",
+      "d": "Chef Nello Cassese's Neapolitan-Piedmontese cooking in a chandeliered room over the palace pool: Italian fine dining of real pedigree.",
       "lat": -22.919973,
       "lon": -43.222285,
       "photos": []
@@ -149,7 +149,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Ipanema",
-      "d": "A contemporary Brazilian kitchen that earned its first Michelin star in the 2026 guide \u2014 assured, personal, of-the-moment.",
+      "d": "A contemporary Brazilian kitchen that earned its first Michelin star in the 2026 guide: assured, personal, of-the-moment.",
       "lat": -22.978347,
       "lon": -43.394682,
       "photos": []
@@ -159,7 +159,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Ipanema",
-      "d": "Thomas Troisgros's French-Brazilian room above Ipanema \u2014 a one-star kitchen from one of Brazil's great culinary families.",
+      "d": "Thomas Troisgros's French-Brazilian room above Ipanema: a one-star kitchen from one of Brazil's great culinary families.",
       "lat": -22.911014,
       "lon": -43.209373,
       "photos": []
@@ -169,7 +169,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Santa Teresa",
-      "d": "A hillside garden restaurant in Santa Teresa \u2014 modern Brazilian cooking under the trees with a sweeping view over Guanabara Bay.",
+      "d": "A hillside garden restaurant in Santa Teresa: modern Brazilian cooking under the trees with a sweeping view over Guanabara Bay.",
       "lat": -22.923466,
       "lon": -43.187018,
       "photos": []
@@ -179,7 +179,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Leblon",
-      "d": "Rio's benchmark Japanese room \u2014 a long-standing Leblon fixture for pristine fish and a see-and-be-seen crowd.",
+      "d": "Rio's benchmark Japanese room: a long-standing Leblon fixture for pristine fish and a see-and-be-seen crowd.",
       "lat": -22.984184,
       "lon": -43.227232,
       "photos": []
@@ -189,7 +189,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Leblon",
-      "d": "Claude Troisgros's all-you-can-eat parade of grilled cuts and sides \u2014 refined churrasco theatre in Leblon.",
+      "d": "Claude Troisgros's all-you-can-eat parade of grilled cuts and sides: refined churrasco theatre in Leblon.",
       "lat": -22.982038,
       "lon": -43.224333,
       "photos": []
@@ -209,7 +209,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Leblon",
-      "d": "A carnivore's institution \u2014 precise, high-quality Brazilian grilling in an unfussy, always-full room.",
+      "d": "A carnivore's institution: precise, high-quality Brazilian grilling in an unfussy, always-full room.",
       "lat": -22.903855,
       "lon": -43.176643,
       "photos": []
@@ -219,7 +219,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Ipanema",
-      "d": "A relaxed three-floor room and cocktail bar in Ipanema \u2014 playful modern Brazilian plates and a rooftop terrace.",
+      "d": "A relaxed three-floor room and cocktail bar in Ipanema: playful modern Brazilian plates and a rooftop terrace.",
       "lat": -22.973605,
       "lon": -43.284953,
       "photos": []
@@ -229,7 +229,7 @@
       "cat": "eat",
       "tier": "Casual",
       "a": "Centro",
-      "d": "Rio's belle-\u00e9poque grande dame since 1894 \u2014 Antwerp mirrors, rosewood and Art Nouveau, for coffee, pastries and old-Rio ceremony.",
+      "d": "Rio's belle-\u00e9poque grande dame since 1894: Antwerp mirrors, rosewood and Art Nouveau, for coffee, pastries and old-Rio ceremony.",
       "lat": -22.90517,
       "lon": -43.178744,
       "photos": []
@@ -239,7 +239,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Pra\u00e7a da Bandeira",
-      "d": "A warm, much-loved botequim of elevated Carioca home cooking \u2014 the famed bolinho de feijoada and a serious cacha\u00e7a list.",
+      "d": "A warm, much-loved botequim of elevated Carioca home cooking: the famed bolinho de feijoada and a serious cacha\u00e7a list.",
       "lat": -22.912934,
       "lon": -43.214112,
       "photos": []
@@ -595,7 +595,7 @@
       "photos": []
     },
     {
-      "n": "Petr\u00f3polis \u2014 the Imperial City",
+      "n": "Petr\u00f3polis: the Imperial City",
       "cat": "do",
       "tier": "",
       "a": "Serra dos \u00d3rg\u00e3os (day trip)",
@@ -625,7 +625,7 @@
       "photos": []
     },
     {
-      "n": "Escadaria & the Real Cabinet Quarter \u2014 Pra\u00e7a XV",
+      "n": "Escadaria & the Real Cabinet Quarter: Pra\u00e7a XV",
       "cat": "do",
       "tier": "",
       "a": "Centro",
@@ -659,7 +659,7 @@
       "cat": "party",
       "tier": "Cocktail bars",
       "a": "Barra da Tijuca",
-      "d": "A garden cocktail retreat widely rated among Rio's best bars \u2014 refined, fruit-led drinks from a serious bar team.",
+      "d": "A garden cocktail retreat widely rated among Rio's best bars: refined, fruit-led drinks from a serious bar team.",
       "lat": -22.91362,
       "lon": -43.181609,
       "photos": []
@@ -669,7 +669,7 @@
       "cat": "party",
       "tier": "Cocktail bars",
       "a": "Ipanema",
-      "d": "A laid-back three-floor bar and kitchen in Ipanema \u2014 playful twists on classics drawing on Brazil's distillates and ferments.",
+      "d": "A laid-back three-floor bar and kitchen in Ipanema: playful twists on classics drawing on Brazil's distillates and ferments.",
       "lat": -22.973605,
       "lon": -43.284953,
       "photos": []
@@ -679,7 +679,7 @@
       "cat": "party",
       "tier": "Cocktail bars",
       "a": "Copacabana (Copacabana Palace)",
-      "d": "The polished bar of the Copacabana Palace \u2014 impeccable classics and a discreet, grown-up room within the grand old hotel.",
+      "d": "The polished bar of the Copacabana Palace: impeccable classics and a discreet, grown-up room within the grand old hotel.",
       "lat": -22.964463,
       "lon": -43.178691,
       "photos": []
@@ -689,7 +689,7 @@
       "cat": "party",
       "tier": "Rooftops",
       "a": "Ipanema (Hotel Fasano)",
-      "d": "The Starck-designed rooftop over Ipanema \u2014 a stylish crowd, an infinity pool and one of the great beachfront outlooks in Rio.",
+      "d": "The Starck-designed rooftop over Ipanema: a stylish crowd, an infinity pool and one of the great beachfront outlooks in Rio.",
       "lat": -22.987028,
       "lon": -43.196239,
       "photos": []
@@ -699,7 +699,7 @@
       "cat": "party",
       "tier": "Rooftops",
       "a": "Copacabana",
-      "d": "A much-loved rooftop bar directly over Copacabana Beach \u2014 a classic Carioca vantage on the great arc of sand.",
+      "d": "A much-loved rooftop bar directly over Copacabana Beach: a classic Carioca vantage on the great arc of sand.",
       "lat": -22.98098,
       "lon": -43.190117,
       "photos": []
@@ -709,7 +709,7 @@
       "cat": "party",
       "tier": "Landmark bars",
       "a": "Leblon",
-      "d": "A Leblon institution since 1985 devoted to cacha\u00e7a and the caipirinha \u2014 the definitive place to learn Brazil's national spirit.",
+      "d": "A Leblon institution since 1985 devoted to cacha\u00e7a and the caipirinha: the definitive place to learn Brazil's national spirit.",
       "lat": -23.005395,
       "lon": -43.312884,
       "photos": []
@@ -719,7 +719,7 @@
       "cat": "party",
       "tier": "Landmark bars",
       "a": "Centro",
-      "d": "Belle-\u00e9poque grandeur for an aperitivo among Antwerp mirrors and rosewood \u2014 old Rio at its most theatrical.",
+      "d": "Belle-\u00e9poque grandeur for an aperitivo among Antwerp mirrors and rosewood: old Rio at its most theatrical.",
       "lat": -22.90517,
       "lon": -43.178744,
       "photos": []
@@ -729,7 +729,7 @@
       "cat": "party",
       "tier": "Late & loud",
       "a": "Lapa",
-      "d": "Rio's samba heartland beneath the aqueduct arches \u2014 live music, dancing and the antique-filled halls of Rio Scenarium.",
+      "d": "Rio's samba heartland beneath the aqueduct arches: live music, dancing and the antique-filled halls of Rio Scenarium.",
       "lat": -22.913026,
       "lon": -43.182236,
       "photos": []

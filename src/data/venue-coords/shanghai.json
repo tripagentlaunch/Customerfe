@@ -9,7 +9,7 @@
       "cat": "stay",
       "tier": "Ultra",
       "a": "Suzhou Creek / Zhabei",
-      "d": "The Roman maison's 48-storey jewel, set inside the restored 1920s Shanghai Chamber of Commerce \u2014 glamour with a Bulgari signature.",
+      "d": "The Roman maison's 48-storey jewel, set inside the restored 1920s Shanghai Chamber of Commerce: glamour with a Bulgari signature.",
       "lat": 31.220999,
       "lon": 121.455384,
       "photos": []
@@ -19,7 +19,7 @@
       "cat": "stay",
       "tier": "Ultra",
       "a": "The Bund",
-      "d": "The last great building raised on the Bund \u2014 an Art Deco grande dame with celadon walls and the river at its feet.",
+      "d": "The last great building raised on the Bund: an Art Deco grande dame with celadon walls and the river at its feet.",
       "lat": 31.243257,
       "lon": 121.484758,
       "photos": []
@@ -29,7 +29,7 @@
       "cat": "stay",
       "tier": "Ultra",
       "a": "Xuhui / Former French Concession",
-      "d": "Fifty-five restored shikumen lane houses turned into private villas \u2014 the most secluded luxury in the city.",
+      "d": "Fifty-five restored shikumen lane houses turned into private villas: the most secluded luxury in the city.",
       "lat": 31.272457,
       "lon": 121.515683,
       "photos": []
@@ -39,7 +39,7 @@
       "cat": "stay",
       "tier": "Ultra",
       "a": "Minhang (southwest Shanghai)",
-      "d": "An Aman built from a transplanted Ming forest and camphor-wood mansions \u2014 a serene estate an hour from the towers.",
+      "d": "An Aman built from a transplanted Ming forest and camphor-wood mansions: a serene estate an hour from the towers.",
       "lat": 31.232344,
       "lon": 121.469102,
       "photos": []
@@ -49,7 +49,7 @@
       "cat": "stay",
       "tier": "Grand",
       "a": "Pudong / Lujiazui riverside",
-      "d": "The group's riverside flagship \u2014 a calm, contemporary house looking straight across the Huangpu to the Bund.",
+      "d": "The group's riverside flagship: a calm, contemporary house looking straight across the Huangpu to the Bund.",
       "lat": 31.224877,
       "lon": 121.536905,
       "photos": []
@@ -69,7 +69,7 @@
       "cat": "stay",
       "tier": "Grand",
       "a": "The Bund",
-      "d": "The old Shanghai Club reborn \u2014 home of the Long Bar, all dark wood and colonial-era grandeur on the southern Bund.",
+      "d": "The old Shanghai Club reborn: home of the Long Bar, all dark wood and colonial-era grandeur on the southern Bund.",
       "lat": 31.235782,
       "lon": 121.486544,
       "photos": []
@@ -79,7 +79,7 @@
       "cat": "stay",
       "tier": "Grand",
       "a": "Jing'an / Dazhongli",
-      "d": "Piero Lissoni's serene, design-led house from the Swire stable \u2014 the quietest luxury in central Shanghai.",
+      "d": "Piero Lissoni's serene, design-led house from the Swire stable: the quietest luxury in central Shanghai.",
       "lat": 31.231834,
       "lon": 121.458209,
       "photos": []
@@ -89,7 +89,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Jing'an",
-      "d": "An urban-resort sanctuary beside Jing'an Park \u2014 a long infinity pool, a great spa, and a genuinely tranquil city retreat.",
+      "d": "An urban-resort sanctuary beside Jing'an Park: a long infinity pool, a great spa, and a genuinely tranquil city retreat.",
       "lat": 31.231338,
       "lon": 121.352894,
       "photos": []
@@ -99,7 +99,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Songjiang (Sheshan quarry)",
-      "d": "The 'deep pit' hotel built into a flooded quarry cliff \u2014 18 storeys, two of them underwater, and unlike anywhere else on earth.",
+      "d": "The 'deep pit' hotel built into a flooded quarry cliff: 18 storeys, two of them underwater, and unlike anywhere else on earth.",
       "lat": 31.061312,
       "lon": 121.149796,
       "photos": []
@@ -109,7 +109,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "secret location (Huangpu)",
-      "d": "A single table for ten, a secret address, and a psycho-taste tour of sound, scent and vision \u2014 the most theatrical meal in Asia.",
+      "d": "A single table for ten, a secret address, and a psycho-taste tour of sound, scent and vision: the most theatrical meal in Asia.",
       "lat": 31.223215,
       "lon": 121.470656,
       "photos": []
@@ -119,7 +119,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Jing'an",
-      "d": "Chef Stefan Stiller's precise, produce-led modern European tasting menu at an open counter \u2014 three stars, quietly held.",
+      "d": "Chef Stefan Stiller's precise, produce-led modern European tasting menu at an open counter: three stars, quietly held.",
       "lat": 31.223865,
       "lon": 121.428323,
       "photos": []
@@ -129,7 +129,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "The Bund (Associazione)",
-      "d": "Umberto Bombana's grand Italian on the Bund \u2014 white truffle in season and a room built for occasions.",
+      "d": "Umberto Bombana's grand Italian on the Bund: white truffle in season and a room built for occasions.",
       "lat": 31.235336,
       "lon": 121.487632,
       "photos": []
@@ -139,7 +139,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Pudong / Lujiazui",
-      "d": "The Cerea family's Bergamo institution, transplanted to Shanghai \u2014 the paccheri Vittorio is worth the crossing.",
+      "d": "The Cerea family's Bergamo institution, transplanted to Shanghai: the paccheri Vittorio is worth the crossing.",
       "lat": 31.278921,
       "lon": 121.47816,
       "photos": []
@@ -149,7 +149,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Jing'an",
-      "d": "Tony Lu's zen temple to Chinese vegetarian fine dining \u2014 meat-free courses of real depth across three hushed floors.",
+      "d": "Tony Lu's zen temple to Chinese vegetarian fine dining: meat-free courses of real depth across three hushed floors.",
       "lat": 31.23529,
       "lon": 121.476964,
       "photos": []
@@ -159,7 +159,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Huangpu",
-      "d": "Chef Chan Yan Tak's prot\u00e9g\u00e9 kitchen \u2014 pristine, classical Cantonese that has held two stars for years.",
+      "d": "Chef Chan Yan Tak's prot\u00e9g\u00e9 kitchen: pristine, classical Cantonese that has held two stars for years.",
       "lat": 31.20458,
       "lon": 121.47881,
       "photos": []
@@ -169,7 +169,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "The Bund",
-      "d": "Grand, classical Cantonese and Peking duck in a polished Bund-front room \u2014 a benchmark banquet address.",
+      "d": "Grand, classical Cantonese and Peking duck in a polished Bund-front room: a benchmark banquet address.",
       "lat": 31.235336,
       "lon": 121.487632,
       "photos": []
@@ -179,7 +179,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Huangpu",
-      "d": "Refined, restrained Cantonese cooking in a serene setting \u2014 two stars earned on precision, not spectacle.",
+      "d": "Refined, restrained Cantonese cooking in a serene setting: two stars earned on precision, not spectacle.",
       "lat": 31.231695,
       "lon": 121.455432,
       "photos": []
@@ -189,7 +189,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Suzhou Creek (Bvlgari Hotel Shanghai)",
-      "d": "Elegant Cantonese inside the Bulgari \u2014 silk-lined rooms, creek views and cooking of real finesse.",
+      "d": "Elegant Cantonese inside the Bulgari: silk-lined rooms, creek views and cooking of real finesse.",
       "lat": 31.320376,
       "lon": 121.292913,
       "photos": []
@@ -199,7 +199,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "The Bund",
-      "d": "Chef DeAille Tam's inventive Fujian-rooted cooking \u2014 named the best restaurant on the Chinese mainland.",
+      "d": "Chef DeAille Tam's inventive Fujian-rooted cooking: named the best restaurant on the Chinese mainland.",
       "lat": 31.235336,
       "lon": 121.487632,
       "photos": []
@@ -209,7 +209,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Jing'an",
-      "d": "Chef Jason Liu's set menu chases xian (umami) on a course-by-course journey across regional China \u2014 inventive and personal.",
+      "d": "Chef Jason Liu's set menu chases xian (umami) on a course-by-course journey across regional China: inventive and personal.",
       "lat": 31.140917,
       "lon": 121.411344,
       "photos": []
@@ -219,7 +219,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Suzhou Creek (Bvlgari Hotel Shanghai)",
-      "d": "Niko Romito's essential, pared-back Italian inside the Bulgari \u2014 deceptively simple, deeply exact.",
+      "d": "Niko Romito's essential, pared-back Italian inside the Bulgari: deceptively simple, deeply exact.",
       "lat": 31.459626,
       "lon": 121.130629,
       "photos": []
@@ -229,7 +229,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Huangpu",
-      "d": "The celebrated Taizhou seafood house \u2014 pristine yellow croaker and coastal Zhejiang cooking at its finest.",
+      "d": "The celebrated Taizhou seafood house: pristine yellow croaker and coastal Zhejiang cooking at its finest.",
       "lat": 31.280532,
       "lon": 121.165775,
       "photos": []
@@ -239,7 +239,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Jing'an",
-      "d": "Refined Shanghainese in a 1930s garden villa of private rooms \u2014 old-money Shanghai dining, room by room.",
+      "d": "Refined Shanghainese in a 1930s garden villa of private rooms: old-money Shanghai dining, room by room.",
       "lat": 31.230343,
       "lon": 121.510757,
       "photos": []
@@ -249,7 +249,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Jing'an (Mandarin Oriental era chef lineage)",
-      "d": "Elegant Jiangnan cooking \u2014 the delicate, sweet-savoury flavours of the Yangtze delta, beautifully rendered.",
+      "d": "Elegant Jiangnan cooking: the delicate, sweet-savoury flavours of the Yangtze delta, beautifully rendered.",
       "lat": 31.189143,
       "lon": 121.381716,
       "photos": []
@@ -259,7 +259,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Pudong / Lujiazui",
-      "d": "The Shanghai outpost of the storied three-star Burgundy house \u2014 classical French haute cuisine high over the river.",
+      "d": "The Shanghai outpost of the storied three-star Burgundy house: classical French haute cuisine high over the river.",
       "lat": 31.223305,
       "lon": 121.453626,
       "photos": []
@@ -269,7 +269,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Jing'an",
-      "d": "The roast-duck maestro's Shanghai kitchen \u2014 lean, lacquered Peking duck and modern Chinese theatre.",
+      "d": "The roast-duck maestro's Shanghai kitchen: lean, lacquered Peking duck and modern Chinese theatre.",
       "lat": 31.24192,
       "lon": 121.433587,
       "photos": []
@@ -279,7 +279,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Xuhui / Former French Concession",
-      "d": "Genteel Ningbo cooking in a former French Concession mansion \u2014 seafood-led and quietly aristocratic.",
+      "d": "Genteel Ningbo cooking in a former French Concession mansion: seafood-led and quietly aristocratic.",
       "lat": 30.996522,
       "lon": 121.218399,
       "photos": []
@@ -289,7 +289,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "The Bund",
-      "d": "Modern Cantonese and dim sum with a Bund view \u2014 an easy, polished lunch or relaxed dinner.",
+      "d": "Modern Cantonese and dim sum with a Bund view: an easy, polished lunch or relaxed dinner.",
       "lat": 31.223865,
       "lon": 121.428323,
       "photos": []
@@ -299,7 +299,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Xuhui / Former French Concession",
-      "d": "Homely, hearty Shanghainese done properly \u2014 red-braised pork and drunken crab in an unfussy neighbourhood room.",
+      "d": "Homely, hearty Shanghainese done properly: red-braised pork and drunken crab in an unfussy neighbourhood room.",
       "lat": 31.235493,
       "lon": 121.43225,
       "photos": []
@@ -729,7 +729,7 @@
       "cat": "party",
       "tier": "Cocktail bars",
       "a": "Xuhui / Former French Concession",
-      "d": "Shingo Gokan's hidden multi-floor temple of drinks \u2014 enter through a sliding bookshelf and climb toward the serious pours.",
+      "d": "Shingo Gokan's hidden multi-floor temple of drinks: enter through a sliding bookshelf and climb toward the serious pours.",
       "lat": 31.217063,
       "lon": 121.460584,
       "photos": []
@@ -739,7 +739,7 @@
       "cat": "party",
       "tier": "Cocktail bars",
       "a": "Huangpu (old town)",
-      "d": "Shingo Gokan's all-day, all-night compound \u2014 caf\u00e9, izakaya and the Sober Society cocktail den built on Chinese ingredients.",
+      "d": "Shingo Gokan's all-day, all-night compound: caf\u00e9, izakaya and the Sober Society cocktail den built on Chinese ingredients.",
       "lat": 31.190941,
       "lon": 121.59849,
       "photos": []
@@ -749,7 +749,7 @@
       "cat": "party",
       "tier": "Cocktail bars",
       "a": "The Bund",
-      "d": "A refined, spirit-forward bar with a Bund-side pedigree \u2014 precise classics and a long-standing place on the Asian list.",
+      "d": "A refined, spirit-forward bar with a Bund-side pedigree: precise classics and a long-standing place on the Asian list.",
       "lat": 31.232344,
       "lon": 121.469102,
       "photos": []
@@ -759,7 +759,7 @@
       "cat": "party",
       "tier": "Cocktail bars",
       "a": "Jing'an",
-      "d": "The agave temple's Shanghai outpost \u2014 200-plus tequilas and mezcals, and the hospitality that redefined the Asian bar.",
+      "d": "The agave temple's Shanghai outpost: 200-plus tequilas and mezcals, and the hospitality that redefined the Asian bar.",
       "lat": 31.242826,
       "lon": 121.480063,
       "photos": []
@@ -769,7 +769,7 @@
       "cat": "party",
       "tier": "Cocktail bars",
       "a": "Xuhui / Former French Concession",
-      "d": "An intimate, welcoming neighbourhood bar with real craft behind the counter \u2014 a fresh face on the Asian list.",
+      "d": "An intimate, welcoming neighbourhood bar with real craft behind the counter: a fresh face on the Asian list.",
       "lat": 31.223131,
       "lon": 121.45318,
       "photos": []
@@ -779,7 +779,7 @@
       "cat": "party",
       "tier": "Cocktail bars",
       "a": "Xuhui / Former French Concession",
-      "d": "Yao Lu's cornerstone of the modern Shanghai scene \u2014 the bar that defined what a great neighbourhood cocktail room could be.",
+      "d": "Yao Lu's cornerstone of the modern Shanghai scene: the bar that defined what a great neighbourhood cocktail room could be.",
       "lat": 31.213791,
       "lon": 121.449822,
       "photos": []
@@ -789,7 +789,7 @@
       "cat": "party",
       "tier": "Rooftops",
       "a": "Pudong / Lujiazui (The Ritz-Carlton)",
-      "d": "The Ritz-Carlton's 58th-floor terrace \u2014 the single most dramatic full-frontal view of the Bund with a drink in hand.",
+      "d": "The Ritz-Carlton's 58th-floor terrace: the single most dramatic full-frontal view of the Bund with a drink in hand.",
       "lat": 31.236428,
       "lon": 121.503271,
       "photos": []
@@ -799,7 +799,7 @@
       "cat": "party",
       "tier": "Landmark bars",
       "a": "The Bund (Waldorf Astoria)",
-      "d": "The restored 34-metre bar of the old Shanghai Club \u2014 where the city's tai-pans drank a century ago, poured with proper polish.",
+      "d": "The restored 34-metre bar of the old Shanghai Club, where the city's tai-pans drank a century ago, poured with proper polish.",
       "lat": 31.235791,
       "lon": 121.486754,
       "photos": []

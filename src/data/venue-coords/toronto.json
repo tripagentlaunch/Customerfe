@@ -9,7 +9,7 @@
       "cat": "stay",
       "tier": "Ultra",
       "a": "Yorkville",
-      "d": "The brand's flagship in its home country \u2014 the surest luxury in the city, with Caf\u00e9 Boulud downstairs and a serene spa above.",
+      "d": "The brand's flagship in its home country: the surest luxury in the city, with Caf\u00e9 Boulud downstairs and a serene spa above.",
       "lat": 43.727971,
       "lon": -79.350479,
       "photos": []
@@ -19,7 +19,7 @@
       "cat": "stay",
       "tier": "Ultra",
       "a": "Yorkville",
-      "d": "Toronto's most intimate grand hotel and its first five-star house \u2014 Canada's only independent to hold both Forbes Five-Star and Two MICHELIN Keys.",
+      "d": "Toronto's most intimate grand hotel and its first five-star house: Canada's only independent to hold both Forbes Five-Star and Two MICHELIN Keys.",
       "lat": 43.670892,
       "lon": -79.393668,
       "photos": []
@@ -29,7 +29,7 @@
       "cat": "stay",
       "tier": "Ultra",
       "a": "Financial District",
-      "d": "Old-world St. Regis service in a 58-storey tower \u2014 butler service on every floor and the city glittering from Louix Louis on the 31st.",
+      "d": "Old-world St. Regis service in a 58-storey tower: butler service on every floor and the city glittering from Louix Louis on the 31st.",
       "lat": 43.649771,
       "lon": -79.380306,
       "photos": []
@@ -39,7 +39,7 @@
       "cat": "stay",
       "tier": "Ultra",
       "a": "Downtown (University Avenue)",
-      "d": "Asian-inflected calm and warmth on University Avenue \u2014 a hushed, generous house that Indian members find instantly familiar.",
+      "d": "Asian-inflected calm and warmth on University Avenue: a hushed, generous house that Indian members find instantly familiar.",
       "lat": 43.649202,
       "lon": -79.386292,
       "photos": []
@@ -49,7 +49,7 @@
       "cat": "stay",
       "tier": "Grand",
       "a": "Downtown (Entertainment District)",
-      "d": "A grand, glass-fronted house near Roy Thomson Hall \u2014 a saltwater pool, a celebrated spa and TOCA's Italian cooking.",
+      "d": "A grand, glass-fronted house near Roy Thomson Hall: a saltwater pool, a celebrated spa and TOCA's Italian cooking.",
       "lat": 43.645339,
       "lon": -79.387085,
       "photos": []
@@ -59,7 +59,7 @@
       "cat": "stay",
       "tier": "Grand",
       "a": "Yorkville",
-      "d": "A restored Art Deco landmark reborn \u2014 the storied Roof Lounge over Yorkville and quietly assured rooms below.",
+      "d": "A restored Art Deco landmark reborn: the storied Roof Lounge over Yorkville and quietly assured rooms below.",
       "lat": 43.669196,
       "lon": -79.394618,
       "photos": []
@@ -69,7 +69,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "King West",
-      "d": "Biophilic, greenery-draped sustainable luxury in the thick of King West \u2014 a design-forward newer arrival with a rooftop scene.",
+      "d": "Biophilic, greenery-draped sustainable luxury in the thick of King West: a design-forward newer arrival with a rooftop scene.",
       "lat": 43.65842,
       "lon": -79.383138,
       "photos": []
@@ -79,7 +79,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Entertainment District",
-      "d": "A bold, sensual design hotel with a rooftop pool and K\u014dst above \u2014 theatrical and unmistakably its own.",
+      "d": "A bold, sensual design hotel with a rooftop pool and K\u014dst above: theatrical and unmistakably its own.",
       "lat": 43.645323,
       "lon": -79.392424,
       "photos": []
@@ -89,7 +89,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Downtown (Garment District)",
-      "d": "A brutalist, architecture-led newcomer with a hidden lobby lounge and Alder's live-fire cooking \u2014 cult-favourite design.",
+      "d": "A brutalist, architecture-led newcomer with a hidden lobby lounge and Alder's live-fire cooking: cult-favourite design.",
       "lat": 43.646783,
       "lon": -79.398161,
       "photos": []
@@ -99,7 +99,7 @@
       "cat": "stay",
       "tier": "Grand",
       "a": "Downtown (Union Station)",
-      "d": "The grand railway-age landmark opposite Union Station \u2014 a restored 1929 ch\u00e2teau hotel and home to the celebrated Library Bar.",
+      "d": "The grand railway-age landmark opposite Union Station: a restored 1929 ch\u00e2teau hotel and home to the celebrated Library Bar.",
       "lat": 43.645909,
       "lon": -79.381364,
       "photos": []
@@ -109,7 +109,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Yorkville",
-      "d": "The finest sushi in Canada \u2014 a serene Edomae omakase counter and the only Two-Star table in the city.",
+      "d": "The finest sushi in Canada: a serene Edomae omakase counter and the only Two-Star table in the city.",
       "lat": 43.671386,
       "lon": -79.390168,
       "photos": []
@@ -119,7 +119,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Downtown (Queen West)",
-      "d": "Toronto's benchmark fine-dining room \u2014 refined French tasting menus high above Spadina, a Top-3 fixture nationally for years.",
+      "d": "Toronto's benchmark fine-dining room: refined French tasting menus high above Spadina, a Top-3 fixture nationally for years.",
       "lat": 43.648501,
       "lon": -79.395939,
       "photos": []
@@ -129,7 +129,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "West End (Niagara)",
-      "d": "A romantic, produce-obsessed room devoted to the seasons \u2014 truffles and seafood at the very top of the national game.",
+      "d": "A romantic, produce-obsessed room devoted to the seasons: truffles and seafood at the very top of the national game.",
       "lat": 43.641968,
       "lon": -79.406553,
       "photos": []
@@ -139,7 +139,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Downtown (St. Lawrence)",
-      "d": "An intense, ingredient-driven tasting menu in a tiny St. Lawrence room \u2014 one of the most exciting kitchens in the country.",
+      "d": "An intense, ingredient-driven tasting menu in a tiny St. Lawrence room: one of the most exciting kitchens in the country.",
       "lat": 43.661338,
       "lon": -79.38403,
       "photos": []
@@ -149,7 +149,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Downtown (Church-Wellesley)",
-      "d": "Live-fire Mexican cooking over a wall of open flame \u2014 masa, agave and smoke, done with real precision.",
+      "d": "Live-fire Mexican cooking over a wall of open flame: masa, agave and smoke, done with real precision.",
       "lat": 43.65647,
       "lon": -79.406875,
       "photos": []
@@ -159,7 +159,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Yorkville",
-      "d": "An exacting, personal chef's-counter tasting menu in Yorkville \u2014 quietly one of the city's most ambitious rooms.",
+      "d": "An exacting, personal chef's-counter tasting menu in Yorkville: quietly one of the city's most ambitious rooms.",
       "lat": 43.671386,
       "lon": -79.390168,
       "photos": []
@@ -169,7 +169,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Yorkville",
-      "d": "A serene Kyoto-style kaiseki room in Yorkville \u2014 delicate, seasonal Japanese cooking of great purity.",
+      "d": "A serene Kyoto-style kaiseki room in Yorkville: delicate, seasonal Japanese cooking of great purity.",
       "lat": 43.664342,
       "lon": -79.414305,
       "photos": []
@@ -179,7 +179,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "North York (Midtown)",
-      "d": "A revered Edomae sushi counter of quiet mastery \u2014 for many, the city's connoisseur choice.",
+      "d": "A revered Edomae sushi counter of quiet mastery: for many, the city's connoisseur choice.",
       "lat": 43.731448,
       "lon": -79.404099,
       "photos": []
@@ -189,7 +189,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Midtown (Yonge & Eglinton)",
-      "d": "An intimate kappo counter where each course is prepared in front of you \u2014 precise, seasonal, deeply personal.",
+      "d": "An intimate kappo counter where each course is prepared in front of you: precise, seasonal, deeply personal.",
       "lat": 43.649659,
       "lon": -79.434235,
       "photos": []
@@ -199,7 +199,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Yorkville",
-      "d": "Elegant coastal Italian in Yorkville \u2014 handmade pasta and wood-grilled fish in one of the city's most desirable rooms.",
+      "d": "Elegant coastal Italian in Yorkville: handmade pasta and wood-grilled fish in one of the city's most desirable rooms.",
       "lat": 43.674359,
       "lon": -79.396658,
       "photos": []
@@ -209,7 +209,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Downtown (King West)",
-      "d": "Refined Amalfi-influenced Italian from a Michelin-pedigree kitchen \u2014 precise, generous and quietly luxurious.",
+      "d": "Refined Amalfi-influenced Italian from a Michelin-pedigree kitchen: precise, generous and quietly luxurious.",
       "lat": 43.653482,
       "lon": -79.383935,
       "photos": []
@@ -219,7 +219,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Downtown (Financial District)",
-      "d": "The Toronto outpost of the storied Amalfi Coast institution \u2014 grand, sun-drenched southern Italian on the 38th floor.",
+      "d": "The Toronto outpost of the storied Amalfi Coast institution: grand, sun-drenched southern Italian on the 38th floor.",
       "lat": 43.65047,
       "lon": -79.376146,
       "photos": []
@@ -229,7 +229,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Downtown (Little Italy)",
-      "d": "An inventive, personal chef's-menu drawing on Chinese roots and Canadian produce \u2014 one of the city's most original kitchens.",
+      "d": "An inventive, personal chef's-menu drawing on Chinese roots and Canadian produce: one of the city's most original kitchens.",
       "lat": 43.653482,
       "lon": -79.383935,
       "photos": []
@@ -239,7 +239,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "North York",
-      "d": "A ceremonial, traditional kaiseki experience in a tranquil North York setting \u2014 the most classical Japanese table in the city.",
+      "d": "A ceremonial, traditional kaiseki experience in a tranquil North York setting: the most classical Japanese table in the city.",
       "lat": 43.774175,
       "lon": -79.504749,
       "photos": []
@@ -249,7 +249,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "West End (College Street)",
-      "d": "Grant van Gameren's beloved Spanish room \u2014 rustic, generous tapas and a whole grilled octopus that made its name.",
+      "d": "Grant van Gameren's beloved Spanish room: rustic, generous tapas and a whole grilled octopus that made its name.",
       "lat": 43.667544,
       "lon": -79.385236,
       "photos": []
@@ -259,7 +259,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "West End (Little Italy)",
-      "d": "Nick Liu's modern Asian cooking \u2014 a decade-strong Toronto favourite of bold, personal 'New Asian' plates.",
+      "d": "Nick Liu's modern Asian cooking: a decade-strong Toronto favourite of bold, personal 'New Asian' plates.",
       "lat": 43.653482,
       "lon": -79.383935,
       "photos": []
@@ -269,7 +269,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Downtown (Kensington Market)",
-      "d": "Jen Agg's snug Kensington wine bar \u2014 oysters, natural wine and precise seasonal cooking in a room everyone loves.",
+      "d": "Jen Agg's snug Kensington wine bar: oysters, natural wine and precise seasonal cooking in a room everyone loves.",
       "lat": 43.662197,
       "lon": -79.3803,
       "photos": []
@@ -279,7 +279,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "West End (Dundas West)",
-      "d": "A warm, Roman-hearted trattoria with a cheese cave in the basement \u2014 honest pasta and a serious cellar.",
+      "d": "A warm, Roman-hearted trattoria with a cheese cave in the basement: honest pasta and a serious cellar.",
       "lat": 43.64958,
       "lon": -79.425664,
       "photos": []
@@ -289,7 +289,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Downtown (Harbord Village)",
-      "d": "A convivial, share-plate room of globe-trotting comfort cooking \u2014 reliably one of the city's most enjoyable tables.",
+      "d": "A convivial, share-plate room of globe-trotting comfort cooking: reliably one of the city's most enjoyable tables.",
       "lat": 43.662778,
       "lon": -79.404051,
       "photos": []
@@ -299,7 +299,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Midtown (Yonge & Eglinton)",
-      "d": "Refined, chaat-driven Indian cooking with real finesse \u2014 a rare Bib-listed Indian kitchen in Toronto.",
+      "d": "Refined, chaat-driven Indian cooking with real finesse: a rare Bib-listed Indian kitchen in Toronto.",
       "lat": 43.646899,
       "lon": -79.40494,
       "photos": []
@@ -309,7 +309,7 @@
       "cat": "eat",
       "tier": "Casual",
       "a": "Downtown (Kensington Market)",
-      "d": "An urban-Indian eatery in Kensington built around fresh paneer and inventive small plates \u2014 young, personal and delicious.",
+      "d": "An urban-Indian eatery in Kensington built around fresh paneer and inventive small plates: young, personal and delicious.",
       "lat": 43.656183,
       "lon": -79.402847,
       "photos": []
@@ -319,7 +319,7 @@
       "cat": "eat",
       "tier": "Casual",
       "a": "Mississauga (Greater Toronto)",
-      "d": "The region's undisputed dosa champion \u2014 pure-vegetarian South Indian home cooking in dazzling variety.",
+      "d": "The region's undisputed dosa champion: pure-vegetarian South Indian home cooking in dazzling variety.",
       "lat": 43.639315,
       "lon": -79.715938,
       "photos": []
@@ -379,7 +379,7 @@
       "cat": "do",
       "tier": "",
       "a": "Distillery District / Old Town",
-      "d": "A pedestrian-only village of red-brick Victorian industrial buildings \u2014 once the largest distillery in the British Empire \u2014 now filled with galleries, design shops, chocolatiers and restaurants. Cobblestones, no cars, and string lights make it the most photogenic evening stroll in the city, magical when the Christmas market takes over in winter.",
+      "d": "A pedestrian-only village of red-brick Victorian industrial buildings: once the largest distillery in the British Empire, now filled with galleries, design shops, chocolatiers and restaurants. Cobblestones, no cars, and string lights make it the most photogenic evening stroll in the city, magical when the Christmas market takes over in winter.",
       "lat": 43.650328,
       "lon": -79.3592,
       "photos": []
@@ -399,7 +399,7 @@
       "cat": "do",
       "tier": "",
       "a": "Toronto Islands",
-      "d": "A short ferry across the harbour lands you on car-free islands with beaches, willow-lined lagoons you can paddle, and the best postcard view back at the skyline. Centreville is an old-fashioned children's amusement park with a carousel and a small farm \u2014 an easy, gentle half-day for younger kids. Rent bikes or a quadricycle and picnic on the grass.",
+      "d": "A short ferry across the harbour lands you on car-free islands with beaches, willow-lined lagoons you can paddle, and the best postcard view back at the skyline. Centreville is an old-fashioned children's amusement park with a carousel and a small farm: an easy, gentle half-day for younger kids. Rent bikes or a quadricycle and picnic on the grass.",
       "lat": 43.62039,
       "lon": -79.373256,
       "photos": []
@@ -449,7 +449,7 @@
       "cat": "do",
       "tier": "",
       "a": "Don Mills / North York",
-      "d": "A serene Fumihiko Maki building set in geometric gardens, and North America's first museum devoted to Islamic art, with over a thousand manuscripts, miniatures, ceramics and scientific instruments spanning the Muslim world \u2014 including fine Mughal-era Indian pieces. It shares the site with the Ismaili Centre designed by the Indian architect Charles Correa, giving the whole complex a strong resonance for Indian visitors. The restaurant and evening concerts are worth building the trip around.",
+      "d": "A serene Fumihiko Maki building set in geometric gardens, and North America's first museum devoted to Islamic art, with over a thousand manuscripts, miniatures, ceramics and scientific instruments spanning the Muslim world: including fine Mughal-era Indian pieces. It shares the site with the Ismaili Centre designed by the Indian architect Charles Correa, giving the whole complex a strong resonance for Indian visitors. The restaurant and evening concerts are worth building the trip around.",
       "lat": 43.722227,
       "lon": -79.333327,
       "photos": []
@@ -459,7 +459,7 @@
       "cat": "do",
       "tier": "",
       "a": "Bloor Street / Annex",
-      "d": "A one-of-a-kind museum built around a private collection of thousands of shoes across 4,500 years \u2014 from ancient Egyptian sandals to celebrity footwear \u2014 inside a building shaped like a shoebox. Small, sharp and surprisingly absorbing, an easy hour near the ROM. Genuinely unlike anything else in the city.",
+      "d": "A one-of-a-kind museum built around a private collection of thousands of shoes across 4,500 years: from ancient Egyptian sandals to celebrity footwear, inside a building shaped like a shoebox. Small, sharp and surprisingly absorbing, an easy hour near the ROM. Genuinely unlike anything else in the city.",
       "lat": 43.667258,
       "lon": -79.400143,
       "photos": []
@@ -479,7 +479,7 @@
       "cat": "do",
       "tier": "",
       "a": "Financial District",
-      "d": "Toronto's cluster of bank towers sits above the PATH, one of the largest underground pedestrian networks in the world \u2014 kilometres of climate-controlled walkways lined with shops and food courts that let you cross downtown without stepping outside in winter. Above ground, Brookfield Place's soaring Santiago Calatrava galleria is the architectural set piece. Useful to know on a cold or wet day.",
+      "d": "Toronto's cluster of bank towers sits above the PATH, one of the largest underground pedestrian networks in the world: kilometres of climate-controlled walkways lined with shops and food courts that let you cross downtown without stepping outside in winter. Above ground, Brookfield Place's soaring Santiago Calatrava galleria is the architectural set piece. Useful to know on a cold or wet day.",
       "lat": 43.647673,
       "lon": -79.383135,
       "photos": []
@@ -509,7 +509,7 @@
       "cat": "do",
       "tier": "",
       "a": "Gerrard India Bazaar / East End",
-      "d": "The Gerrard India Bazaar is one of North America's oldest and largest South Asian shopping strips \u2014 sari and gold shops, sweet houses, spice stores and the smell of grilled corn and chaat on the air. For an Indian family it is a familiar, comforting stretch of the city and a reliable source of excellent vegetarian food. Liveliest in the evenings and during Diwali.",
+      "d": "The Gerrard India Bazaar is one of North America's oldest and largest South Asian shopping strips: sari and gold shops, sweet houses, spice stores and the smell of grilled corn and chaat on the air. For an Indian family it is a familiar, comforting stretch of the city and a reliable source of excellent vegetarian food. Liveliest in the evenings and during Diwali.",
       "lat": 43.672051,
       "lon": -79.323468,
       "photos": []
@@ -529,7 +529,7 @@
       "cat": "do",
       "tier": "",
       "a": "Fashion District / Queen West",
-      "d": "A long lane running behind Queen Street West, walls end to end in ever-changing street art and murals \u2014 the most photographed alley in the city and a favourite backdrop for photographers. Free, quick and best in daylight. Pair it with the boutiques and caf\u00e9s of West Queen West.",
+      "d": "A long lane running behind Queen Street West, walls end to end in ever-changing street art and murals: the most photographed alley in the city and a favourite backdrop for photographers. Free, quick and best in daylight. Pair it with the boutiques and caf\u00e9s of West Queen West.",
       "lat": 43.64803,
       "lon": -79.397923,
       "photos": []
@@ -539,7 +539,7 @@
       "cat": "do",
       "tier": "",
       "a": "High Park / West End",
-      "d": "Toronto's largest public park, with woodland trails, a small zoo, and \u2014 for about a week each spring \u2014 an avenue of Japanese cherry blossoms that draws the whole city. A relaxed green break from downtown, easy with children. Go early on a spring morning to beat the blossom crowds.",
+      "d": "Toronto's largest public park, with woodland trails, a small zoo, and: for about a week each spring, an avenue of Japanese cherry blossoms that draws the whole city. A relaxed green break from downtown, easy with children. Go early on a spring morning to beat the blossom crowds.",
       "lat": 43.646281,
       "lon": -79.463795,
       "photos": []
@@ -569,7 +569,7 @@
       "cat": "do",
       "tier": "",
       "a": "Fort York / Bathurst",
-      "d": "An outdoor market built entirely from stacked shipping containers, animating a large lot with rotating retail, food, a brewery and public art \u2014 young, casual and forever changing. A quick, fun stop steps from The Well. Best on a fine-weather afternoon.",
+      "d": "An outdoor market built entirely from stacked shipping containers, animating a large lot with rotating retail, food, a brewery and public art: young, casual and forever changing. A quick, fun stop steps from The Well. Best on a fine-weather afternoon.",
       "lat": 43.64083,
       "lon": -79.402492,
       "photos": []
@@ -579,7 +579,7 @@
       "cat": "do",
       "tier": "",
       "a": "Little Italy",
-      "d": "College Street's old Italian quarter is one of the city's best strips for an evening \u2014 espresso bars, trattorias, patios and late-night energy. It draws a smart, relaxed crowd. Come for dinner and stay for a passeggiata down the street.",
+      "d": "College Street's old Italian quarter is one of the city's best strips for an evening: espresso bars, trattorias, patios and late-night energy. It draws a smart, relaxed crowd. Come for dinner and stay for a passeggiata down the street.",
       "lat": 43.655191,
       "lon": -79.417295,
       "photos": []
@@ -589,7 +589,7 @@
       "cat": "do",
       "tier": "",
       "a": "Queen West / Trinity Bellwoods",
-      "d": "The spine of independent Toronto \u2014 design boutiques, galleries, record shops and buzzy restaurants \u2014 running west into Trinity Bellwoods, the park where the young city gathers on a sunny day. Once named one of the world's coolest neighbourhoods. Best explored slowly on foot.",
+      "d": "The spine of independent Toronto: design boutiques, galleries, record shops and buzzy restaurants, running west into Trinity Bellwoods, the park where the young city gathers on a sunny day. Once named one of the world's coolest neighbourhoods. Best explored slowly on foot.",
       "lat": 43.653603,
       "lon": -79.384006,
       "photos": []
@@ -635,7 +635,7 @@
       "photos": []
     },
     {
-      "n": "Scotiabank Arena \u2014 Raptors or Maple Leafs",
+      "n": "Scotiabank Arena: Raptors or Maple Leafs",
       "cat": "do",
       "tier": "",
       "a": "Waterfront / South Core",
@@ -645,11 +645,11 @@
       "photos": []
     },
     {
-      "n": "Rogers Centre \u2014 Blue Jays baseball",
+      "n": "Rogers Centre: Blue Jays baseball",
       "cat": "do",
       "tier": "",
       "a": "Entertainment District / Downtown",
-      "d": "The retractable-roof stadium under the CN Tower, home of the Toronto Blue Jays \u2014 a relaxed, all-ages summer evening of baseball, food and open sky when the roof is back. Even non-fans enjoy the spectacle. Premium and suite seating make it comfortable for a family.",
+      "d": "The retractable-roof stadium under the CN Tower, home of the Toronto Blue Jays: a relaxed, all-ages summer evening of baseball, food and open sky when the roof is back. Even non-fans enjoy the spectacle. Premium and suite seating make it comfortable for a family.",
       "lat": 43.64166,
       "lon": -79.389198,
       "photos": []
@@ -669,7 +669,7 @@
       "cat": "do",
       "tier": "",
       "a": "Riverdale / East End",
-      "d": "From the slope of Riverdale Park East you get the classic, slightly hidden postcard view of the downtown skyline across the Don Valley \u2014 the one photographers wait at for sunset. The surrounding neighbourhood is leafy and handsome. A quiet, local alternative to the tourist lookouts.",
+      "d": "From the slope of Riverdale Park East you get the classic, slightly hidden postcard view of the downtown skyline across the Don Valley: the one photographers wait at for sunset. The surrounding neighbourhood is leafy and handsome. A quiet, local alternative to the tourist lookouts.",
       "lat": 43.667766,
       "lon": -79.3535,
       "photos": []
@@ -679,7 +679,7 @@
       "cat": "do",
       "tier": "",
       "a": "Niagara (day trip)",
-      "d": "About 90 minutes from the city, and the natural wonder no first visit skips \u2014 a vast, thundering horseshoe of water you feel before you see. Ride the boat into the mist or watch from a fine-dining room set right above the falls. A private car and guide makes the round trip effortless in a day.",
+      "d": "About 90 minutes from the city, and the natural wonder no first visit skips: a vast, thundering horseshoe of water you feel before you see. Ride the boat into the mist or watch from a fine-dining room set right above the falls. A private car and guide makes the round trip effortless in a day.",
       "lat": 43.684181,
       "lon": -79.320574,
       "photos": []
@@ -699,7 +699,7 @@
       "cat": "do",
       "tier": "",
       "a": "Muskoka (day trip)",
-      "d": "Two hours north lies 'cottage country' \u2014 a landscape of granite, pine and clear lakes dotted with grand summer estates, and the natural retreat of Toronto's wealthy. Charter a classic wooden boat, dine at a lakeside resort, or take in the fiery colour in autumn. Best as an overnight at a five-star lodge rather than a rushed day.",
+      "d": "Two hours north lies 'cottage country': a landscape of granite, pine and clear lakes dotted with grand summer estates, and the natural retreat of Toronto's wealthy. Charter a classic wooden boat, dine at a lakeside resort, or take in the fiery colour in autumn. Best as an overnight at a five-star lodge rather than a rushed day.",
       "lat": 43.684181,
       "lon": -79.320574,
       "photos": []
@@ -709,7 +709,7 @@
       "cat": "do",
       "tier": "",
       "a": "Collingwood (day trip)",
-      "d": "About two hours from the city, a European-style alpine village on the Niagara Escarpment \u2014 skiing and a spa in winter, hiking, the Scenic Caves and a suspension bridge in summer. A convenient four-season mountain escape for families. Pleasant as a day out, better as a resort overnight.",
+      "d": "About two hours from the city, a European-style alpine village on the Niagara Escarpment: skiing and a spa in winter, hiking, the Scenic Caves and a suspension bridge in summer. A convenient four-season mountain escape for families. Pleasant as a day out, better as a resort overnight.",
       "lat": 43.684181,
       "lon": -79.320574,
       "photos": []
@@ -749,7 +749,7 @@
       "cat": "party",
       "tier": "Cocktail bars",
       "a": "West End (Little Italy)",
-      "d": "A jewel-box French cocktail bar with a leafy back patio \u2014 voted the best bar in the country, elegant and effortless.",
+      "d": "A jewel-box French cocktail bar with a leafy back patio: voted the best bar in the country, elegant and effortless.",
       "lat": 43.655004,
       "lon": -79.414352,
       "photos": []
@@ -759,7 +759,7 @@
       "cat": "party",
       "tier": "Landmark bars",
       "a": "Uptown (Bloordale)",
-      "d": "A no-menu Bloor Street institution \u2014 tell the bartender what you like and they build your drink; twice voted Canada's best.",
+      "d": "A no-menu Bloor Street institution: tell the bartender what you like and they build your drink; twice voted Canada's best.",
       "lat": 43.662219,
       "lon": -79.425213,
       "photos": []
@@ -769,7 +769,7 @@
       "cat": "party",
       "tier": "Landmark bars",
       "a": "Downtown (Fairmont Royal York)",
-      "d": "A hidden, wood-panelled cocktail den inside the grand railway hotel \u2014 birthplace of the Toronto 'birdbath' martini.",
+      "d": "A hidden, wood-panelled cocktail den inside the grand railway hotel: birthplace of the Toronto 'birdbath' martini.",
       "lat": 43.645579,
       "lon": -79.382034,
       "photos": []
@@ -779,7 +779,7 @@
       "cat": "party",
       "tier": "Cocktail bars",
       "a": "Downtown (Kensington Market)",
-      "d": "A cinema-inspired, design-forward cocktail room \u2014 inventive drinks and one of the country's most exciting bars.",
+      "d": "A cinema-inspired, design-forward cocktail room: inventive drinks and one of the country's most exciting bars.",
       "lat": 43.649573,
       "lon": -79.424967,
       "photos": []
@@ -789,7 +789,7 @@
       "cat": "party",
       "tier": "Cocktail bars",
       "a": "Queen West (Alexandra Park)",
-      "d": "Toronto's avant-garde cocktail laboratory since 2008 \u2014 molecular, theatrical, multi-course drink 'menus' unlike anywhere else.",
+      "d": "Toronto's avant-garde cocktail laboratory since 2008: molecular, theatrical, multi-course drink 'menus' unlike anywhere else.",
       "lat": 43.648094,
       "lon": -79.400154,
       "photos": []
@@ -799,7 +799,7 @@
       "cat": "party",
       "tier": "Late & loud",
       "a": "West End (Little Italy)",
-      "d": "A jaw-dropping Gaud\u00ed-esque Spanish bar of carved mahogany \u2014 pintxos, sherry and vermouth from morning to late.",
+      "d": "A jaw-dropping Gaud\u00ed-esque Spanish bar of carved mahogany: pintxos, sherry and vermouth from morning to late.",
       "lat": 43.655831,
       "lon": -79.409924,
       "photos": []
@@ -809,7 +809,7 @@
       "cat": "party",
       "tier": "Rooftops",
       "a": "Yorkville (Park Hyatt Toronto)",
-      "d": "The restored 18th-floor rooftop of the Park Hyatt \u2014 a Toronto institution with the classic terrace view over the city.",
+      "d": "The restored 18th-floor rooftop of the Park Hyatt: a Toronto institution with the classic terrace view over the city.",
       "lat": 43.64858,
       "lon": -79.374533,
       "photos": []
@@ -819,7 +819,7 @@
       "cat": "party",
       "tier": "Rooftops",
       "a": "Downtown (King East)",
-      "d": "A glamorous Mediterranean rooftop over King Street \u2014 share plates, cocktails and a see-and-be-seen terrace in summer.",
+      "d": "A glamorous Mediterranean rooftop over King Street: share plates, cocktails and a see-and-be-seen terrace in summer.",
       "lat": 43.653422,
       "lon": -79.362286,
       "photos": []

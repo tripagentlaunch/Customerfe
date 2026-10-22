@@ -9,7 +9,7 @@
       "cat": "stay",
       "tier": "Ultra",
       "a": "Garden City",
-      "d": "The surest hands in the city \u2014 a Nile-front tower where nothing is left to chance.",
+      "d": "The surest hands in the city: a Nile-front tower where nothing is left to chance.",
       "lat": 30.036227,
       "lon": 31.229373,
       "photos": []
@@ -19,7 +19,7 @@
       "cat": "stay",
       "tier": "Ultra",
       "a": "Giza (Nile-side, near the zoo & botanical gardens)",
-      "d": "A stately, residential Four Seasons above the First Mall \u2014 grand, calm and quietly grown-up.",
+      "d": "A stately, residential Four Seasons above the First Mall: grand, calm and quietly grown-up.",
       "lat": 30.024186,
       "lon": 31.217256,
       "photos": []
@@ -29,7 +29,7 @@
       "cat": "stay",
       "tier": "Grand",
       "a": "Giza / Pyramids",
-      "d": "The pyramids filling your window from forty acres of gardens \u2014 the most storied address in Egypt.",
+      "d": "The pyramids filling your window from forty acres of gardens: the most storied address in Egypt.",
       "lat": 29.985858,
       "lon": 31.132749,
       "photos": []
@@ -39,7 +39,7 @@
       "cat": "stay",
       "tier": "Grand",
       "a": "Downtown (Corniche / Nile-front)",
-      "d": "Butler service and gilded Nile-front glamour \u2014 the maison's Egyptian flagship.",
+      "d": "Butler service and gilded Nile-front glamour: the maison's Egyptian flagship.",
       "lat": 30.062888,
       "lon": 31.227851,
       "photos": []
@@ -59,7 +59,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Zamalek (tip of Gezira Island)",
-      "d": "An island tower ringed by the Nile on three sides \u2014 French art de vivre with the river at every window.",
+      "d": "An island tower ringed by the Nile on three sides: French art de vivre with the river at every window.",
       "lat": 30.038717,
       "lon": 31.224617,
       "photos": []
@@ -79,7 +79,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Heliopolis",
-      "d": "Art-deco grandeur near the airport \u2014 the grand hotel for arrivals, departures and business.",
+      "d": "Art-deco grandeur near the airport: the grand hotel for arrivals, departures and business.",
       "lat": 30.107183,
       "lon": 31.366045,
       "photos": []
@@ -99,7 +99,7 @@
       "cat": "stay",
       "tier": "Premium",
       "a": "New Cairo (Mirage City)",
-      "d": "A resort-scaled Marriott on the city's eastern edge \u2014 golf, spa and space to spread out.",
+      "d": "A resort-scaled Marriott on the city's eastern edge: golf, spa and space to spread out.",
       "lat": 30.072069,
       "lon": 31.434697,
       "photos": []
@@ -109,7 +109,7 @@
       "cat": "stay",
       "tier": "Premium",
       "a": "Downtown (Nile Corniche, Boulaq)",
-      "d": "A dependable Nile-front business house \u2014 capable, central and easy on the bill.",
+      "d": "A dependable Nile-front business house: capable, central and easy on the bill.",
       "lat": 30.065424,
       "lon": 31.228192,
       "photos": []
@@ -119,7 +119,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Giza / Pyramids",
-      "d": "Modern Egyptian cooking at the foot of the Great Pyramid \u2014 the finest table in the country, with the view to match.",
+      "d": "Modern Egyptian cooking at the foot of the Great Pyramid: the finest table in the country, with the view to match.",
       "lat": 30.132263,
       "lon": 31.640169,
       "photos": []
@@ -129,7 +129,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Zamalek",
-      "d": "Elevated Egyptian street food \u2014 koshary, ta'ameya and baladi bread, done with colour and real care.",
+      "d": "Elevated Egyptian street food: koshary, ta'ameya and baladi bread, done with colour and real care.",
       "lat": 30.017798,
       "lon": 31.411785,
       "photos": []
@@ -139,7 +139,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "New Cairo (Swan Lake)",
-      "d": "Contemporary Japanese cooking with real precision \u2014 the city's most serious sushi and robata.",
+      "d": "Contemporary Japanese cooking with real precision: the city's most serious sushi and robata.",
       "lat": 30.044388,
       "lon": 31.235726,
       "photos": []
@@ -149,7 +149,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Heliopolis",
-      "d": "Confident Mediterranean cooking, warm service and a proper wine list \u2014 a striking evening out.",
+      "d": "Confident Mediterranean cooking, warm service and a proper wine list: a striking evening out.",
       "lat": 30.088115,
       "lon": 31.32502,
       "photos": []
@@ -159,7 +159,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Giza (Sheikh Zayed)",
-      "d": "The Giza-side Sachi \u2014 the same polished Mediterranean cooking, on the west bank.",
+      "d": "The Giza-side Sachi: the same polished Mediterranean cooking, on the west bank.",
       "lat": 30.026812,
       "lon": 31.205919,
       "photos": []
@@ -179,7 +179,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "New Cairo",
-      "d": "Charcoal-grilled Japanese skewers from the acclaimed kushiyaki name \u2014 small food, big flavour.",
+      "d": "Charcoal-grilled Japanese skewers from the acclaimed kushiyaki name: small food, big flavour.",
       "lat": 30.01917,
       "lon": 31.503743,
       "photos": []
@@ -199,7 +199,7 @@
       "cat": "do",
       "tier": "",
       "a": "Giza",
-      "d": "The most cinematic way to first see the pyramids \u2014 riding in from the desert side at sunrise, when the light is gold and the plateau is still empty. A good operator brings well-kept Arabian horses rather than the tired camels near the gate, and multi-generation families can go at a gentle walk. Photographers get the frame everyone wants before the crowds arrive.",
+      "d": "The most cinematic way to first see the pyramids: riding in from the desert side at sunrise, when the light is gold and the plateau is still empty. A good operator brings well-kept Arabian horses rather than the tired camels near the gate, and multi-generation families can go at a gentle walk. Photographers get the frame everyone wants before the crowds arrive.",
       "lat": 30.026812,
       "lon": 31.205919,
       "photos": []
@@ -209,7 +209,7 @@
       "cat": "do",
       "tier": "",
       "a": "Giza",
-      "d": "After dark the Sphinx 'narrates' the story of the pyramids while lasers and coloured light play across the monuments \u2014 unashamedly theatrical, but a memorable evening for children and grandparents. Shows run nightly in rotating languages; a discreet private terrace or a nearby rooftop table lets you watch in comfort with dinner.",
+      "d": "After dark the Sphinx 'narrates' the story of the pyramids while lasers and coloured light play across the monuments: unashamedly theatrical, but a memorable evening for children and grandparents. Shows run nightly in rotating languages; a discreet private terrace or a nearby rooftop table lets you watch in comfort with dinner.",
       "lat": 30.026812,
       "lon": 31.205919,
       "photos": []
@@ -219,7 +219,7 @@
       "cat": "do",
       "tier": "",
       "a": "Giza",
-      "d": "The largest archaeological museum in the world, opened in full in November 2025 beside the pyramids, and now the single most important museum visit in Egypt. The complete Tutankhamun collection is shown together for the first time since its discovery, and the vast atrium staircase of colossi is breathtaking. Entry is timed and online-only \u2014 book well ahead and take a private guide to make sense of 100,000 objects.",
+      "d": "The largest archaeological museum in the world, opened in full in November 2025 beside the pyramids, and now the single most important museum visit in Egypt. The complete Tutankhamun collection is shown together for the first time since its discovery, and the vast atrium staircase of colossi is breathtaking. Entry is timed and online-only: book well ahead and take a private guide to make sense of 100,000 objects.",
       "lat": 29.994575,
       "lon": 31.119074,
       "photos": []
@@ -229,17 +229,17 @@
       "cat": "do",
       "tier": "",
       "a": "Downtown / Tahrir",
-      "d": "The grand old 1902 museum on Tahrir Square, still holding tens of thousands of masterpieces \u2014 Middle Kingdom, Late Period and Greco-Roman treasures, jewellery, papyri and coffins \u2014 even as Tutankhamun has moved to the GEM. The faded, cabinet-crammed halls have a scholarly romance the new museum can't replicate. Best paired with the GEM over two days, not one.",
+      "d": "The grand old 1902 museum on Tahrir Square, still holding tens of thousands of masterpieces: Middle Kingdom, Late Period and Greco-Roman treasures, jewellery, papyri and coffins, even as Tutankhamun has moved to the GEM. The faded, cabinet-crammed halls have a scholarly romance the new museum can't replicate. Best paired with the GEM over two days, not one.",
       "lat": 30.044585,
       "lon": 31.235609,
       "photos": []
     },
     {
-      "n": "The National Museum of Egyptian Civilization (NMEC) \u2014 the Royal Mummies",
+      "n": "The National Museum of Egyptian Civilization (NMEC): the Royal Mummies",
       "cat": "do",
       "tier": "",
       "a": "Fustat / Old Cairo",
-      "d": "Home to the hushed, reverent Royal Mummies Hall, where 22 pharaohs and queens \u2014 Ramses II, Seti I, Hatshepsut among them \u2014 lie in a specially designed climate-controlled gallery. It is a genuinely moving, dignified experience rather than a spectacle. The wider museum traces Egyptian civilisation from prehistory to today, and is calm and rarely crowded.",
+      "d": "Home to the hushed, reverent Royal Mummies Hall, where 22 pharaohs and queens: Ramses II, Seti I, Hatshepsut among them, lie in a specially designed climate-controlled gallery. It is a genuinely moving, dignified experience rather than a spectacle. The wider museum traces Egyptian civilisation from prehistory to today, and is calm and rarely crowded.",
       "lat": 30.000412,
       "lon": 31.254011,
       "photos": []
@@ -259,7 +259,7 @@
       "cat": "do",
       "tier": "",
       "a": "Islamic Cairo",
-      "d": "The masterpiece of Mamluk architecture \u2014 a colossal 14th-century mosque and school whose soaring stone courtyard and towering iwan leave most visitors silent. It stands facing Al-Rifa'i across a small square, and the pair together is one of Cairo's great architectural set-pieces. A private guide unlocks the geometry and the history of the sultans buried within.",
+      "d": "The masterpiece of Mamluk architecture: a colossal 14th-century mosque and school whose soaring stone courtyard and towering iwan leave most visitors silent. It stands facing Al-Rifa'i across a small square, and the pair together is one of Cairo's great architectural set-pieces. A private guide unlocks the geometry and the history of the sultans buried within.",
       "lat": 30.032409,
       "lon": 31.256236,
       "photos": []
@@ -269,7 +269,7 @@
       "cat": "do",
       "tier": "",
       "a": "Islamic Cairo",
-      "d": "The younger neighbour of Sultan Hassan, completed in 1912 but built to echo Mamluk grandeur, and the royal mausoleum of Egypt's last kings \u2014 as well as the tomb of the last Shah of Iran. The marble-and-gilt interior is unexpectedly opulent. Visited together with Sultan Hassan on one ticket, it makes the finest hour of Islamic architecture in the city.",
+      "d": "The younger neighbour of Sultan Hassan, completed in 1912 but built to echo Mamluk grandeur, and the royal mausoleum of Egypt's last kings: as well as the tomb of the last Shah of Iran. The marble-and-gilt interior is unexpectedly opulent. Visited together with Sultan Hassan on one ticket, it makes the finest hour of Islamic architecture in the city.",
       "lat": 30.03284,
       "lon": 31.257098,
       "photos": []
@@ -289,7 +289,7 @@
       "cat": "do",
       "tier": "",
       "a": "Sayyida Zeinab / Islamic Cairo",
-      "d": "The oldest mosque in Cairo surviving in its original form, from 879 AD \u2014 vast, austere and almost empty, with a rare spiral minaret you can climb for a sweeping rooftop view over the old city. Its serene scale is a complete contrast to the bustle outside. Next door, the little Gayer-Anderson Museum occupies two restored merchant houses worth a look.",
+      "d": "The oldest mosque in Cairo surviving in its original form, from 879 AD: vast, austere and almost empty, with a rare spiral minaret you can climb for a sweeping rooftop view over the old city. Its serene scale is a complete contrast to the bustle outside. Next door, the little Gayer-Anderson Museum occupies two restored merchant houses worth a look.",
       "lat": 30.028714,
       "lon": 31.250247,
       "photos": []
@@ -299,7 +299,7 @@
       "cat": "do",
       "tier": "",
       "a": "Islamic Cairo",
-      "d": "A pedestrianised open-air museum of medieval architecture \u2014 one of the densest concentrations of Islamic monuments anywhere, from the Qalawun complex to Bayt al-Suhaymi. Walk it in the evening when the sabils and minarets are floodlit and the heat has gone. A knowledgeable guide turns a beautiful stroll into a thousand years of history.",
+      "d": "A pedestrianised open-air museum of medieval architecture: one of the densest concentrations of Islamic monuments anywhere, from the Qalawun complex to Bayt al-Suhaymi. Walk it in the evening when the sabils and minarets are floodlit and the heat has gone. A knowledgeable guide turns a beautiful stroll into a thousand years of history.",
       "lat": 30.049309,
       "lon": 31.261169,
       "photos": []
@@ -319,7 +319,7 @@
       "cat": "do",
       "tier": "",
       "a": "Islamic Cairo / Darb al-Ahmar",
-      "d": "A gift of the Aga Khan built on what was five centuries of rubble, now a serene hilltop garden of formal terraces, fountains and a serpentine lake \u2014 with the finest panorama of every minaret in Islamic Cairo. The Citadel View restaurant at sunset is one of the loveliest tables in the city. A green, cooling pause in the middle of a dense day.",
+      "d": "A gift of the Aga Khan built on what was five centuries of rubble, now a serene hilltop garden of formal terraces, fountains and a serpentine lake: with the finest panorama of every minaret in Islamic Cairo. The Citadel View restaurant at sunset is one of the loveliest tables in the city. A green, cooling pause in the middle of a dense day.",
       "lat": 30.0401,
       "lon": 31.26408,
       "photos": []
@@ -339,7 +339,7 @@
       "cat": "do",
       "tier": "",
       "a": "Coptic Cairo / Old Cairo",
-      "d": "The oldest synagogue in Egypt, on a site linked by tradition to where the infant Moses was found, and famous among scholars for the Cairo Geniza \u2014 a treasury of a millennium of medieval manuscripts discovered in its loft. Small, atmospheric and beautifully restored. A poignant marker of Cairo's layered Jewish, Christian and Muslim history, all within a few steps.",
+      "d": "The oldest synagogue in Egypt, on a site linked by tradition to where the infant Moses was found, and famous among scholars for the Cairo Geniza: a treasury of a millennium of medieval manuscripts discovered in its loft. Small, atmospheric and beautifully restored. A poignant marker of Cairo's layered Jewish, Christian and Muslim history, all within a few steps.",
       "lat": 30.005782,
       "lon": 31.231054,
       "photos": []
@@ -349,7 +349,7 @@
       "cat": "do",
       "tier": "",
       "a": "Coptic Cairo / Old Cairo",
-      "d": "The world's finest collection of Coptic art \u2014 textiles, icons, carved wood and early Christian manuscripts \u2014 housed in a jewel-box building with mashrabiya screens and painted ceilings. Quieter and gentler than the pharaonic museums, and a revealing bridge between ancient Egypt and the Christian age. An hour here deepens the whole Coptic quarter.",
+      "d": "The world's finest collection of Coptic art: textiles, icons, carved wood and early Christian manuscripts, housed in a jewel-box building with mashrabiya screens and painted ceilings. Quieter and gentler than the pharaonic museums, and a revealing bridge between ancient Egypt and the Christian age. An hour here deepens the whole Coptic quarter.",
       "lat": 30.00575,
       "lon": 31.230201,
       "photos": []
@@ -369,7 +369,7 @@
       "cat": "do",
       "tier": "",
       "a": "The Nile / Zamalek",
-      "d": "The oldest and most graceful way onto the river \u2014 a lateen-sailed felucca, chartered privately, drifting past Zamalek and the city skyline as the sun drops. No engine, no music, just the water and the light. The most peaceful hour in Cairo, and lovely for families or a quiet couple's evening.",
+      "d": "The oldest and most graceful way onto the river: a lateen-sailed felucca, chartered privately, drifting past Zamalek and the city skyline as the sun drops. No engine, no music, just the water and the light. The most peaceful hour in Cairo, and lovely for families or a quiet couple's evening.",
       "lat": 30.036227,
       "lon": 31.229373,
       "photos": []
@@ -399,7 +399,7 @@
       "cat": "do",
       "tier": "",
       "a": "Zamalek",
-      "d": "Cairo's leafy island district is where the contemporary art scene lives \u2014 spaces like Gypsum, Ubuntu and the long-running Zamalek Art Gallery, alongside villa-lined streets, the Aisha Fahmy palace and good caf\u00e9s. A civilised half-day for collectors and anyone wanting the modern city rather than the ancient one. Easily paired with lunch and a wander.",
+      "d": "Cairo's leafy island district is where the contemporary art scene lives: spaces like Gypsum, Ubuntu and the long-running Zamalek Art Gallery, alongside villa-lined streets, the Aisha Fahmy palace and good caf\u00e9s. A civilised half-day for collectors and anyone wanting the modern city rather than the ancient one. Easily paired with lunch and a wander.",
       "lat": 30.060117,
       "lon": 31.2247,
       "photos": []
@@ -409,7 +409,7 @@
       "cat": "do",
       "tier": "",
       "a": "Bab al-Khalq / Downtown",
-      "d": "One of the greatest collections of Islamic art in the world \u2014 woodwork, metal, glass, ceramics and carpets spanning the whole Muslim world \u2014 beautifully re-displayed after restoration. Far less visited than the pharaonic museums, so it's calm and unhurried. Essential for anyone who falls for the artistry of Islamic Cairo and wants to understand it.",
+      "d": "One of the greatest collections of Islamic art in the world: woodwork, metal, glass, ceramics and carpets spanning the whole Muslim world, beautifully re-displayed after restoration. Far less visited than the pharaonic museums, so it's calm and unhurried. Essential for anyone who falls for the artistry of Islamic Cairo and wants to understand it.",
       "lat": 30.044788,
       "lon": 31.252732,
       "photos": []
@@ -429,7 +429,7 @@
       "cat": "do",
       "tier": "",
       "a": "Qarafa / Islamic Cairo",
-      "d": "A vast living necropolis where centuries of Mamluk mausolea stand among a community that has made homes among the tombs \u2014 best seen respectfully and only with a sensitive local guide who has standing there. The soaring funerary complexes of Qaitbay and Barquq are architectural marvels. A profound, humane glimpse of a Cairo few visitors reach; never treat it as a spectacle.",
+      "d": "A vast living necropolis where centuries of Mamluk mausolea stand among a community that has made homes among the tombs: best seen respectfully and only with a sensitive local guide who has standing there. The soaring funerary complexes of Qaitbay and Barquq are architectural marvels. A profound, humane glimpse of a Cairo few visitors reach; never treat it as a spectacle.",
       "lat": 30.05481,
       "lon": 31.331266,
       "photos": []
@@ -439,7 +439,7 @@
       "cat": "do",
       "tier": "",
       "a": "Islamic Cairo / Downtown",
-      "d": "Egypt's essence trade goes back to the pharaohs, and a proper old atelier will sit you down with tiny bottles of jasmine, lotus, sandalwood and 'secret of the desert' over tea. A charming, low-pressure hour \u2014 buy the pure oils, skip the alcohol-based blends. Fun for the whole party, and a fragrant, packable gift to take home.",
+      "d": "Egypt's essence trade goes back to the pharaohs, and a proper old atelier will sit you down with tiny bottles of jasmine, lotus, sandalwood and 'secret of the desert' over tea. A charming, low-pressure hour: buy the pure oils, skip the alcohol-based blends. Fun for the whole party, and a fragrant, packable gift to take home.",
       "lat": 30.048747,
       "lon": 31.263775,
       "photos": []
@@ -449,7 +449,7 @@
       "cat": "do",
       "tier": "",
       "a": "Giza / Cairo",
-      "d": "A short, genuine demonstration of how papyrus is beaten, soaked and pressed into a sheet \u2014 best at a reputable institute rather than a roadside shop, where the art is real and the paintings are hand-done on true papyrus, not banana leaf. Children love the hands-on part. A tasteful, authentic souvenir when you buy from the right place.",
+      "d": "A short, genuine demonstration of how papyrus is beaten, soaked and pressed into a sheet: best at a reputable institute rather than a roadside shop, where the art is real and the paintings are hand-done on true papyrus, not banana leaf. Children love the hands-on part. A tasteful, authentic souvenir when you buy from the right place.",
       "lat": 30.026812,
       "lon": 31.205919,
       "photos": []
@@ -465,11 +465,11 @@
       "photos": []
     },
     {
-      "n": "Dahshur \u2014 the Bent & Red Pyramids (day trip)",
+      "n": "Dahshur: the Bent & Red Pyramids (day trip)",
       "cat": "do",
       "tier": "",
       "a": "Dahshur (day trip)",
-      "d": "Two of the most important pyramids in Egypt and among the least crowded: the Bent Pyramid, where the builders changed the angle mid-construction, and the Red Pyramid, the first true smooth-sided pyramid \u2014 which you can usually enter with barely another soul inside. Combined with Saqqara and Memphis, it is the finest pyramid day beyond Giza.",
+      "d": "Two of the most important pyramids in Egypt and among the least crowded: the Bent Pyramid, where the builders changed the angle mid-construction, and the Red Pyramid, the first true smooth-sided pyramid, which you can usually enter with barely another soul inside. Combined with Saqqara and Memphis, it is the finest pyramid day beyond Giza.",
       "lat": 30.024265,
       "lon": 30.965437,
       "photos": []
@@ -479,7 +479,7 @@
       "cat": "do",
       "tier": "",
       "a": "Maadi (day trip)",
-      "d": "A dramatic limestone canyon on the very edge of the city near leafy Maadi, laced with fossils and easy walking trails through the desert quiet \u2014 a genuine escape barely half an hour from downtown. Go early for the cool and the light. A refreshing morning of nature for those who want to stretch their legs between the museums.",
+      "d": "A dramatic limestone canyon on the very edge of the city near leafy Maadi, laced with fossils and easy walking trails through the desert quiet: a genuine escape barely half an hour from downtown. Go early for the cool and the light. A refreshing morning of nature for those who want to stretch their legs between the museums.",
       "lat": 29.939397,
       "lon": 31.393998,
       "photos": []
@@ -509,7 +509,7 @@
       "cat": "do",
       "tier": "",
       "a": "Islamic Cairo",
-      "d": "El Fishawy, tucked in the lanes of Khan el-Khalili, has poured mint tea and shisha for some 250 years beneath its mirrored walls \u2014 a favourite of the Nobel laureate Naguib Mahfouz. Sit, watch the alley theatre, and let the sweet-tea sellers and rose-water hawkers come to you. The most atmospheric pause in the old city.",
+      "d": "El Fishawy, tucked in the lanes of Khan el-Khalili, has poured mint tea and shisha for some 250 years beneath its mirrored walls: a favourite of the Nobel laureate Naguib Mahfouz. Sit, watch the alley theatre, and let the sweet-tea sellers and rose-water hawkers come to you. The most atmospheric pause in the old city.",
       "lat": 30.048747,
       "lon": 31.263775,
       "photos": []
@@ -519,7 +519,7 @@
       "cat": "do",
       "tier": "",
       "a": "Islamic Cairo",
-      "d": "The spinning Sufi tanoura at the restored Wikala of al-Ghuri is hypnotic \u2014 a spiritual dance of skirts and colour rather than a tourist floor-show, staged in a beautiful Mamluk caravanserai. Free or very low cost, and mesmerising for children. A gentle, uplifting evening in the heart of the medieval city.",
+      "d": "The spinning Sufi tanoura at the restored Wikala of al-Ghuri is hypnotic: a spiritual dance of skirts and colour rather than a tourist floor-show, staged in a beautiful Mamluk caravanserai. Free or very low cost, and mesmerising for children. A gentle, uplifting evening in the heart of the medieval city.",
       "lat": 30.048747,
       "lon": 31.263775,
       "photos": []
@@ -529,17 +529,17 @@
       "cat": "do",
       "tier": "",
       "a": "Downtown / Islamic Cairo",
-      "d": "Egyptian cooking is a joy for vegetarians \u2014 koshari (the beloved lentil-rice-pasta bowl), ful medames, taameya (Egyptian falafel of fava beans), fresh mango and sugar-cane juices. A private guide takes you to the best, cleanest tables and can arrange strictly veg or Jain-aware stops. Delicious, sociable, and revealing of the real Cairo.",
+      "d": "Egyptian cooking is a joy for vegetarians: koshari (the beloved lentil-rice-pasta bowl), ful medames, taameya (Egyptian falafel of fava beans), fresh mango and sugar-cane juices. A private guide takes you to the best, cleanest tables and can arrange strictly veg or Jain-aware stops. Delicious, sociable, and revealing of the real Cairo.",
       "lat": 30.030104,
       "lon": 31.248952,
       "photos": []
     },
     {
-      "n": "A hot-air balloon is Luxor \u2014 instead, a helicopter or private-plane extension",
+      "n": "A hot-air balloon is Luxor: instead, a helicopter or private-plane extension",
       "cat": "do",
       "tier": "",
       "a": "Cairo (extension)",
-      "d": "For travellers with only days, a private-plane or fast-flight extension pairs Cairo with Luxor and Aswan \u2014 the temples of Karnak, the Valley of the Kings and a Nile dahabiya \u2014 without losing time to long drives. Your concierge sequences it as one seamless journey. The natural next chapter once Cairo's wonders are done.",
+      "d": "For travellers with only days, a private-plane or fast-flight extension pairs Cairo with Luxor and Aswan: the temples of Karnak, the Valley of the Kings and a Nile dahabiya, without losing time to long drives. Your concierge sequences it as one seamless journey. The natural next chapter once Cairo's wonders are done.",
       "lat": 30.15577,
       "lon": 31.416772,
       "photos": []
@@ -549,7 +549,7 @@
       "cat": "do",
       "tier": "",
       "a": "Old & Islamic Cairo",
-      "d": "Cairo layers Roman, Coptic, Fatimid, Ayyubid, Mamluk and Ottoman stone within a few square kilometres \u2014 a photographer's dream of mashrabiya screens, spiral minarets, painted ceilings and carved domes. A dawn walk with a guide who knows the light and the caretakers gets you inside courtyards before they open. Endlessly rewarding for anyone who loves buildings.",
+      "d": "Cairo layers Roman, Coptic, Fatimid, Ayyubid, Mamluk and Ottoman stone within a few square kilometres: a photographer's dream of mashrabiya screens, spiral minarets, painted ceilings and carved domes. A dawn walk with a guide who knows the light and the caretakers gets you inside courtyards before they open. Endlessly rewarding for anyone who loves buildings.",
       "lat": 30.048747,
       "lon": 31.263775,
       "photos": []
@@ -559,7 +559,7 @@
       "cat": "do",
       "tier": "",
       "a": "Sayyida Zeinab / Islamic Cairo",
-      "d": "Two joined 16th- and 17th-century merchant houses beside the Ibn Tulun mosque, filled by a British collector with Ottoman furniture, mashrabiya balconies and secret passages \u2014 a perfectly preserved window into old domestic Cairo (and a James Bond film set). Small, atmospheric and easily combined with the mosque next door. A charming hidden gem.",
+      "d": "Two joined 16th- and 17th-century merchant houses beside the Ibn Tulun mosque, filled by a British collector with Ottoman furniture, mashrabiya balconies and secret passages: a perfectly preserved window into old domestic Cairo (and a James Bond film set). Small, atmospheric and easily combined with the mosque next door. A charming hidden gem.",
       "lat": 30.02838,
       "lon": 31.250726,
       "photos": []
@@ -575,21 +575,21 @@
       "photos": []
     },
     {
-      "n": "The Roof \u2014 Four Seasons Cairo at Nile Plaza",
+      "n": "The Roof: Four Seasons Cairo at Nile Plaza",
       "cat": "party",
       "tier": "Landmark bars",
       "a": "Garden City",
-      "d": "An open-air bar high above the Nile at the city's most exacting hotel \u2014 the drink with the finest river view.",
+      "d": "An open-air bar high above the Nile at the city's most exacting hotel: the drink with the finest river view.",
       "lat": 30.036227,
       "lon": 31.229373,
       "photos": []
     },
     {
-      "n": "The Rooftop \u2014 Kempinski Nile Hotel",
+      "n": "The Rooftop: Kempinski Nile Hotel",
       "cat": "party",
       "tier": "Landmark bars",
       "a": "Garden City",
-      "d": "An eleventh-floor rooftop over the Nile and the skyline \u2014 a calm, grown-up nightcap above the city.",
+      "d": "An eleventh-floor rooftop over the Nile and the skyline: a calm, grown-up nightcap above the city.",
       "lat": 30.038722,
       "lon": 31.23085,
       "photos": []

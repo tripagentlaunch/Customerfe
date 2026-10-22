@@ -1,0 +1,209 @@
+/* The card a count badge opens (ClusterCard.tsx). border-radius !important:
+   site.css forces sharp corners everywhere; map cards are the exception. */
+.card {
+  width: 300px;
+  max-width: calc(100vw - 32px);
+  background: var(--paper, #fff);
+  color: var(--ink, #1a1714);
+  border: 1px solid var(--line, #e7e3dc);
+  border-radius: 14px !important;
+  box-shadow: 0 18px 44px rgba(20, 14, 10, 0.22), 0 2px 8px rgba(20, 14, 10, 0.08);
+  padding: 14px 14px 12px;
+  display: flex;
+  flex-direction: column;
+  max-height: 460px;
+  font-family: var(--fr);
+  cursor: default;
+  animation: in 0.18s ease both;
+}
+
+@keyframes in {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: none; }
+}
+
+/* Phone: along the bottom of the map, full width, the map still visible above. */
+.sheet {
+  position: fixed;
+  left: 10px;
+  right: 10px;
+  bottom: calc(10px + env(safe-area-inset-bottom, 0px));
+  width: auto;
+  max-width: none;
+  max-height: 52vh !important;
+  z-index: 1200;
+  border-radius: 18px !important;
+  animation-name: up;
+}
+
+@keyframes up {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: none; }
+}
+
+.head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 0 2px 10px;
+  border-bottom: 1px solid var(--line, #e7e3dc);
+}
+
+.title {
+  font-family: var(--serif, Georgia, serif);
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.counts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 12px;
+  margin-top: 5px;
+  font-size: 11.5px;
+  letter-spacing: 0.02em;
+  color: var(--stone, #7a736b);
+}
+
+.counts span {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.counts i {
+  width: 7px;
+  height: 7px;
+  border-radius: 50% !important;
+}
+
+.close {
+  flex: none;
+  width: 28px;
+  height: 28px;
+  border: none;
+  border-radius: 50% !important;
+  background: var(--bone, #f4f1ea);
+  color: var(--ink, #1a1714);
+  font-size: 17px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.list {
+  list-style: none;
+  margin: 6px 0 0;
+  padding: 0;
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  width: 100%;
+  padding: 7px 4px;
+  border: none;
+  border-radius: 10px !important;
+  background: none;
+  text-align: left;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.row:hover,
+.row:focus-visible {
+  background: var(--bone, #f4f1ea);
+  outline: none;
+}
+
+.thumb {
+  flex: none;
+  width: 46px;
+  height: 46px;
+  border-radius: 9px !important;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bone, #f4f1ea);
+}
+
+.thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.shimmer {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, #eee9e0 0%, #f7f4ee 50%, #eee9e0 100%);
+  background-size: 200% 100%;
+  animation: shimmer 1.2s linear infinite;
+}
+
+@keyframes shimmer {
+  to { background-position: -200% 0; }
+}
+
+.text {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.name {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.25;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.meta {
+  font-size: 12px;
+  color: var(--stone, #7a736b);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.zoom {
+  flex: none;
+  width: 100%;
+  margin-top: 8px;
+  height: 38px;
+  border: 1px solid var(--ink, #1a1714);
+  border-radius: 999px !important;
+  background: var(--ink, #1a1714);
+  color: var(--paper, #fff);
+  font-family: var(--logo, inherit);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.zoom:hover {
+  background: var(--signature, #6e2a38);
+  border-color: var(--signature, #6e2a38);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card,
+  .shimmer {
+    animation: none;
+  }
+}

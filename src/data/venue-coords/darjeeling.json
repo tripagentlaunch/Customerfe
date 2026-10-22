@@ -9,7 +9,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Observatory Hill (above Chowrasta)",
-      "d": "A time-capsule of the British Raj on the hill where Darjeeling began \u2014 coal fires, hot-water bottles, afternoon tea and the oldest heritage hotel in the Himalayas.",
+      "d": "A time-capsule of the British Raj on the hill where Darjeeling began: coal fires, hot-water bottles, afternoon tea and the oldest heritage hotel in the Himalayas.",
       "lat": 27.046067,
       "lon": 88.267702,
       "photos": []
@@ -19,7 +19,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Opposite Raj Bhawan (Governor's House)",
-      "d": "A hilltop heritage resort in the former summer palace of the Raja of Nazargunj \u2014 colonial fireplaces and carved wood, gardens, and a spa, opposite the Governor's House.",
+      "d": "A hilltop heritage resort in the former summer palace of the Raja of Nazargunj: colonial fireplaces and carved wood, gardens, and a spa, opposite the Governor's House.",
       "lat": 27.049041,
       "lon": 88.265179,
       "photos": []
@@ -29,7 +29,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Makaibari Tea Estate, Kurseong",
-      "d": "Taj's tea-country resort inside the historic Makaibari estate \u2014 bamboo, timber and stone in the mist, with a spa, indoor pool and guided estate walks.",
+      "d": "Taj's tea-country resort inside the historic Makaibari estate: bamboo, timber and stone in the mist, with a spa, indoor pool and guided estate walks.",
       "lat": 26.856644,
       "lon": 88.265706,
       "photos": []
@@ -39,7 +39,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Darjeeling town (near the Mall)",
-      "d": "A 19th-century manor house turned five-star heritage hotel \u2014 Burma-teak floors, crackling fireplaces and a grand piano, once an Oberoi-family home.",
+      "d": "A 19th-century manor house turned five-star heritage hotel: Burma-teak floors, crackling fireplaces and a grand piano, once an Oberoi-family home.",
       "lat": 27.045951,
       "lon": 88.266829,
       "photos": []
@@ -49,17 +49,17 @@
       "cat": "stay",
       "tier": "Premium",
       "a": "Ambootia estate ridge, Kurseong",
-      "d": "A colonial-era boutique hideaway on a Kurseong ridge \u2014 a British magistrate's old house restored, with unobstructed Kanchenjunga views and an Anglo-Indian tea kitchen.",
+      "d": "A colonial-era boutique hideaway on a Kurseong ridge: a British magistrate's old house restored, with unobstructed Kanchenjunga views and an Anglo-Indian tea kitchen.",
       "lat": 26.867535,
       "lon": 88.261096,
       "photos": []
     },
     {
-      "n": "Glenburn \u2014 the estate table",
+      "n": "Glenburn: the estate table",
       "cat": "eat",
       "tier": "Destination",
       "a": "Glenburn Tea Estate",
-      "d": "The finest meals in the hills are served at Glenburn \u2014 butler-hosted, produce from the estate, laid out on the verandah with Kanchenjunga in view.",
+      "d": "The finest meals in the hills are served at Glenburn: butler-hosted, produce from the estate, laid out on the verandah with Kanchenjunga in view.",
       "lat": 27.051105,
       "lon": 88.258533,
       "photos": []
@@ -69,17 +69,17 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Darjeeling town (The Elgin)",
-      "d": "A candle-lit heritage dining room with a grand piano \u2014 considered Anglo-Indian and regional cooking under oak panelling and old etchings.",
+      "d": "A candle-lit heritage dining room with a grand piano: considered Anglo-Indian and regional cooking under oak panelling and old etchings.",
       "lat": 27.045951,
       "lon": 88.266829,
       "photos": []
     },
     {
-      "n": "Windamere \u2014 afternoon tea & dining",
+      "n": "Windamere: afternoon tea & dining",
       "cat": "eat",
       "tier": "Fine",
       "a": "Observatory Hill (Windamere)",
-      "d": "The great colonial afternoon tea of the Himalayas \u2014 cucumber sandwiches, scones and Darjeeling tea by the fire, in the oldest heritage hotel in the hills.",
+      "d": "The great colonial afternoon tea of the Himalayas: cucumber sandwiches, scones and Darjeeling tea by the fire, in the oldest heritage hotel in the hills.",
       "lat": 27.047874,
       "lon": 88.268028,
       "photos": []
@@ -89,7 +89,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Nehru Road (the Mall)",
-      "d": "Darjeeling's grand old caf\u00e9-bakery since the 1880s \u2014 a first-floor restaurant, a famous ground-floor bakery, and Kanchenjunga through the windows.",
+      "d": "Darjeeling's grand old caf\u00e9-bakery since the 1880s: a first-floor restaurant, a famous ground-floor bakery, and Kanchenjunga through the windows.",
       "lat": 27.043009,
       "lon": 88.266931,
       "photos": []
@@ -99,7 +99,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Nehru Road / Clubside",
-      "d": "The 1911 rooftop breakfast institution \u2014 sausages, ham and eggs above the Mall, Kanchenjunga on the skyline, immortalised in Satyajit Ray's films.",
+      "d": "The 1911 rooftop breakfast institution: sausages, ham and eggs above the Mall, Kanchenjunga on the skyline, immortalised in Satyajit Ray's films.",
       "lat": 27.042187,
       "lon": 88.266636,
       "photos": []
@@ -109,7 +109,7 @@
       "cat": "eat",
       "tier": "Casual",
       "a": "Gandhi Road, Darjeeling town",
-      "d": "The town's most-loved Tibetan kitchen \u2014 steaming momos and thukpa in a tiny, family-run room where you may have to wait for a seat.",
+      "d": "The town's most-loved Tibetan kitchen: steaming momos and thukpa in a tiny, family-run room where you may have to wait for a seat.",
       "lat": 27.041717,
       "lon": 88.266579,
       "photos": []
@@ -119,7 +119,7 @@
       "cat": "eat",
       "tier": "Casual",
       "a": "Dr Zakir Hussain Road, Darjeeling town",
-      "d": "A tiny caf\u00e9 with a cult following \u2014 proper coffee, big breakfasts, and honest thukpa and momos, run by a local family.",
+      "d": "A tiny caf\u00e9 with a cult following: proper coffee, big breakfasts, and honest thukpa and momos, run by a local family.",
       "lat": 27.042513,
       "lon": 88.267923,
       "photos": []
@@ -539,7 +539,7 @@
       "cat": "party",
       "tier": "Landmark bars",
       "a": "Observatory Hill (Windamere Hotel)",
-      "d": "A single-room Raj-era bar unchanged since 1939 \u2014 wood, sofas, old photographs and a whisky by the fire in the oldest heritage hotel in the Himalayas.",
+      "d": "A single-room Raj-era bar unchanged since 1939: wood, sofas, old photographs and a whisky by the fire in the oldest heritage hotel in the Himalayas.",
       "lat": 26.685413,
       "lon": 88.325358,
       "photos": []
@@ -549,7 +549,7 @@
       "cat": "party",
       "tier": "Landmark bars",
       "a": "Dr S. M. Das Road, Darjeeling town",
-      "d": "Darjeeling's legendary British-style pub \u2014 beer, banter and a fire, a fixture of the town's evenings for decades and much-loved by travellers.",
+      "d": "Darjeeling's legendary British-style pub: beer, banter and a fire, a fixture of the town's evenings for decades and much-loved by travellers.",
       "lat": 27.039678,
       "lon": 88.265545,
       "photos": []
@@ -559,7 +559,7 @@
       "cat": "party",
       "tier": "Cocktail bars",
       "a": "Nehru Road (Glenary's)",
-      "d": "The basement bar of the town's grand old caf\u00e9 \u2014 the go-to for a drink and live music beneath the famous 1880s bakery.",
+      "d": "The basement bar of the town's grand old caf\u00e9: the go-to for a drink and live music beneath the famous 1880s bakery.",
       "lat": 26.699063,
       "lon": 88.316546,
       "photos": []

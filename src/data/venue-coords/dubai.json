@@ -19,7 +19,7 @@
       "cat": "stay",
       "tier": "Ultra",
       "a": "Jumeirah Beach",
-      "d": "The city's own emblem \u2014 a suites-only house where the theatre is the point.",
+      "d": "The city's own emblem: a suites-only house where the theatre is the point.",
       "lat": 25.141327,
       "lon": 55.185397,
       "photos": []
@@ -59,7 +59,7 @@
       "cat": "stay",
       "tier": "Ultra",
       "a": "Jumeirah",
-      "d": "The surest hands in the city \u2014 service you never have to think about.",
+      "d": "The surest hands in the city: service you never have to think about.",
       "lat": 25.183552,
       "lon": 55.22619,
       "photos": []
@@ -109,7 +109,7 @@
       "cat": "stay",
       "tier": "Grand",
       "a": "Burj Khalifa / Downtown",
-      "d": "Mr Armani's own hand, inside the Burj Khalifa itself \u2014 greige, hushed, exact.",
+      "d": "Mr Armani's own hand, inside the Burj Khalifa itself: greige, hushed, exact.",
       "lat": 25.197459,
       "lon": 55.274731,
       "photos": []
@@ -149,7 +149,7 @@
       "cat": "stay",
       "tier": "Ultra",
       "a": "Marasi Bay / Business Bay",
-      "d": "Dorchester's first Middle East house \u2014 restrained, exacting, waterfront.",
+      "d": "Dorchester's first Middle East house: restrained, exacting, waterfront.",
       "lat": 25.188041,
       "lon": 55.288265,
       "photos": []
@@ -159,7 +159,7 @@
       "cat": "stay",
       "tier": "Grand",
       "a": "Al Sufouh",
-      "d": "An adults-only wing in mature gardens \u2014 the grown-up corner of Dubai.",
+      "d": "An adults-only wing in mature gardens: the grown-up corner of Dubai.",
       "lat": 25.095009,
       "lon": 55.150372,
       "photos": []
@@ -189,7 +189,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Madinat Jumeirah",
-      "d": "The 'harbour' of the Madinat \u2014 a warmer, more relaxed entry to the resort.",
+      "d": "The 'harbour' of the Madinat: a warmer, more relaxed entry to the resort.",
       "lat": 25.135219,
       "lon": 55.185805,
       "photos": []
@@ -199,7 +199,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Palm Jumeirah (west crescent)",
-      "d": "Palatial, gilded and unabashedly grand \u2014 theatre with Raffles service.",
+      "d": "Palatial, gilded and unabashedly grand: theatre with Raffles service.",
       "lat": 25.111919,
       "lon": 55.109994,
       "photos": []
@@ -229,7 +229,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Culture Village / Jaddaf",
-      "d": "Full-throated Versace maximalism \u2014 Medusa on the marble and all.",
+      "d": "Full-throated Versace maximalism: Medusa on the marble and all.",
       "lat": 25.22744,
       "lon": 55.341904,
       "photos": []
@@ -239,7 +239,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Palm Jumeirah (apex)",
-      "d": "The original Palm landmark \u2014 aquarium, waterpark, and dinner by Heston or Nobu.",
+      "d": "The original Palm landmark: aquarium, waterpark, and dinner by Heston or Nobu.",
       "lat": 25.066616,
       "lon": 55.209722,
       "photos": []
@@ -289,7 +289,7 @@
       "cat": "stay",
       "tier": "Premium",
       "a": "Sheikh Zayed Road",
-      "d": "A polished city tower on the main artery \u2014 reliable, central, unshowy.",
+      "d": "A polished city tower on the main artery: reliable, central, unshowy.",
       "lat": 25.2262,
       "lon": 55.283369,
       "photos": []
@@ -349,7 +349,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Downtown / Burj Khalifa",
-      "d": "The address for the fountain show \u2014 Burj Khalifa filling your window.",
+      "d": "The address for the fountain show: Burj Khalifa filling your window.",
       "lat": 25.19404,
       "lon": 55.278912,
       "photos": []
@@ -369,7 +369,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Downtown / Business Bay",
-      "d": "The group's newer city tower \u2014 quiet precision above the canal.",
+      "d": "The group's newer city tower: quiet precision above the canal.",
       "lat": 25.184549,
       "lon": 55.26436,
       "photos": []
@@ -399,7 +399,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Al Sufouh",
-      "d": "The family wing of the Royal Mirage \u2014 the same gardens, room for everyone.",
+      "d": "The family wing of the Royal Mirage: the same gardens, room for everyone.",
       "lat": 25.104266,
       "lon": 55.163265,
       "photos": []
@@ -415,7 +415,7 @@
       "photos": []
     },
     {
-      "n": "Raffles The Palm \u2014 residences",
+      "n": "Raffles The Palm: residences",
       "cat": "stay",
       "tier": "Luxury",
       "a": "Palm Jumeirah (west crescent)",
@@ -439,7 +439,7 @@
       "cat": "stay",
       "tier": "Premium",
       "a": "Business Bay",
-      "d": "Twin towers on the canal \u2014 big, capable, and easy on the wallet.",
+      "d": "Twin towers on the canal: big, capable, and easy on the wallet.",
       "lat": 25.185686,
       "lon": 55.258087,
       "photos": []
@@ -469,7 +469,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "DIFC",
-      "d": "The first Indian restaurant in the world to hold three Michelin stars \u2014 a matter of national pride.",
+      "d": "The first Indian restaurant in the world to hold three Michelin stars: a matter of national pride.",
       "lat": 25.210411,
       "lon": 55.27915,
       "photos": []
@@ -499,7 +499,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Atlantis The Palm",
-      "d": "Dinner beside the aquarium wall \u2014 theatre that happens to be very good.",
+      "d": "Dinner beside the aquarium wall: theatre that happens to be very good.",
       "lat": 25.131154,
       "lon": 55.117577,
       "photos": []
@@ -509,7 +509,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Le M\u00e9ridien, Al Garhoud",
-      "d": "A rooftop counter for eight \u2014 the hardest, and warmest, seat in town.",
+      "d": "A rooftop counter for eight: the hardest, and warmest, seat in town.",
       "lat": 25.027571,
       "lon": 55.158971,
       "photos": []
@@ -529,7 +529,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Downtown (DIFC)",
-      "d": "Chef Kelvin Cheung's memory-cooking \u2014 Asian-American, personal, packed.",
+      "d": "Chef Kelvin Cheung's memory-cooking: Asian-American, personal, packed.",
       "lat": 25.18122,
       "lon": 55.262248,
       "photos": []
@@ -559,7 +559,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "DIFC",
-      "d": "Dani Garc\u00eda's fire-and-smoke counter \u2014 Spanish, primal, precise.",
+      "d": "Dani Garc\u00eda's fire-and-smoke counter: Spanish, primal, precise.",
       "lat": 25.188417,
       "lon": 55.271611,
       "photos": []
@@ -569,7 +569,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Mandarin Oriental Jumeira",
-      "d": "Portugal's finest, brought seaside \u2014 bright, generous, sunlit.",
+      "d": "Portugal's finest, brought seaside: bright, generous, sunlit.",
       "lat": 25.216972,
       "lon": 55.250658,
       "photos": []
@@ -589,7 +589,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Bvlgari Resort, Jumeira Bay",
-      "d": "A nine-seat omakase in a jewel-box room \u2014 the quietest luxury in town.",
+      "d": "A nine-seat omakase in a jewel-box room: the quietest luxury in town.",
       "lat": 25.027571,
       "lon": 55.158971,
       "photos": []
@@ -629,7 +629,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Jumeirah / Al Wasl",
-      "d": "Everything touched by fire \u2014 a chef's-counter ode to the flame.",
+      "d": "Everything touched by fire: a chef's-counter ode to the flame.",
       "lat": 25.029881,
       "lon": 55.156894,
       "photos": []
@@ -639,7 +639,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "DIFC",
-      "d": "The izakaya that set the template for the whole city \u2014 still full every night.",
+      "d": "The izakaya that set the template for the whole city: still full every night.",
       "lat": 25.027571,
       "lon": 55.158971,
       "photos": []
@@ -659,7 +659,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "DIFC",
-      "d": "Greek cooking with a designer's eye \u2014 as much scene as supper.",
+      "d": "Greek cooking with a designer's eye: as much scene as supper.",
       "lat": 25.027571,
       "lon": 55.158971,
       "photos": []
@@ -689,7 +689,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Jumeirah Lakes Towers",
-      "d": "A Levantine home kitchen, run like family \u2014 because it is.",
+      "d": "A Levantine home kitchen, run like family, because it is.",
       "lat": 25.070601,
       "lon": 55.141353,
       "photos": []
@@ -719,7 +719,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Sheikh Zayed Road",
-      "d": "Soulful Japanese comfort food \u2014 ramen and izakaya done properly.",
+      "d": "Soulful Japanese comfort food: ramen and izakaya done properly.",
       "lat": 25.027571,
       "lon": 55.158971,
       "photos": []
@@ -729,7 +729,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Al Wasl",
-      "d": "Balkan home cooking with heart \u2014 the antidote to Dubai gloss.",
+      "d": "Balkan home cooking with heart: the antidote to Dubai gloss.",
       "lat": 25.194903,
       "lon": 55.275923,
       "photos": []
@@ -799,7 +799,7 @@
       "cat": "eat",
       "tier": "Casual",
       "a": "Al Fahidi Historical District",
-      "d": "Emirati home cooking in a wind-tower courtyard house \u2014 the real old Dubai.",
+      "d": "Emirati home cooking in a wind-tower courtyard house: the real old Dubai.",
       "lat": 25.263757,
       "lon": 55.300674,
       "photos": []
@@ -809,7 +809,7 @@
       "cat": "eat",
       "tier": "Casual",
       "a": "Dubai",
-      "d": "Sushi and seafood done cleanly and without fuss \u2014 a neighbourhood gem.",
+      "d": "Sushi and seafood done cleanly and without fuss: a neighbourhood gem.",
       "lat": 25.027571,
       "lon": 55.158971,
       "photos": []
@@ -819,7 +819,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Dubai",
-      "d": "Indian cooking with a light, modern hand \u2014 Bib-listed and easy to love.",
+      "d": "Indian cooking with a light, modern hand: Bib-listed and easy to love.",
       "lat": 25.027571,
       "lon": 55.158971,
       "photos": []
@@ -829,7 +829,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Dubai",
-      "d": "A gastro-room that punches above its price \u2014 Bib-approved.",
+      "d": "A gastro-room that punches above its price: Bib-approved.",
       "lat": 25.027571,
       "lon": 55.158971,
       "photos": []
@@ -859,7 +859,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Jumeirah",
-      "d": "Bait Maryam's sister \u2014 the same Levantine warmth, a lighter setting.",
+      "d": "Bait Maryam's sister: the same Levantine warmth, a lighter setting.",
       "lat": 25.183552,
       "lon": 55.22619,
       "photos": []
@@ -889,7 +889,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Taj Dubai, Business Bay",
-      "d": "Grand Indian dining under the Taj's own roof \u2014 nostalgic and assured.",
+      "d": "Grand Indian dining under the Taj's own roof: nostalgic and assured.",
       "lat": 25.192273,
       "lon": 55.267339,
       "photos": []
@@ -899,13 +899,13 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "La Mer, Jumeirah",
-      "d": "Beach-side Indian street food and curries \u2014 bright, fresh, unpretentious.",
+      "d": "Beach-side Indian street food and curries: bright, fresh, unpretentious.",
       "lat": 25.227093,
       "lon": 55.256325,
       "photos": []
     },
     {
-      "n": "Burj Khalifa \u2014 At the Top",
+      "n": "Burj Khalifa: At the Top",
       "cat": "do",
       "tier": "",
       "a": "Downtown Dubai",
@@ -939,7 +939,7 @@
       "cat": "do",
       "tier": "",
       "a": "Sheikh Zayed Road / Trade Centre",
-      "d": "The torus-shaped building wrapped in Arabic calligraphy is a landmark in its own right, and inside it is Dubai's most imaginative attraction \u2014 immersive, theatrical exhibits on space, ecology and wellbeing. Book a timed slot well ahead; it sells out. Genuinely engaging for teenagers and curious adults.",
+      "d": "The torus-shaped building wrapped in Arabic calligraphy is a landmark in its own right, and inside it is Dubai's most imaginative attraction: immersive, theatrical exhibits on space, ecology and wellbeing. Book a timed slot well ahead; it sells out. Genuinely engaging for teenagers and curious adults.",
       "lat": 25.219154,
       "lon": 55.281875,
       "photos": []
@@ -949,7 +949,7 @@
       "cat": "do",
       "tier": "",
       "a": "Old Dubai / Deira & Bur Dubai",
-      "d": "Cross Dubai Creek on a wooden abra for a single dirham \u2014 the oldest, most atmospheric way to move through the city. It links the Deira souks with Bur Dubai's heritage quarter, and shows you the trading port the whole city grew from. Do it early morning or golden hour.",
+      "d": "Cross Dubai Creek on a wooden abra for a single dirham: the oldest, most atmospheric way to move through the city. It links the Deira souks with Bur Dubai's heritage quarter, and shows you the trading port the whole city grew from. Do it early morning or golden hour.",
       "lat": 25.270059,
       "lon": 55.298092,
       "photos": []
@@ -959,7 +959,7 @@
       "cat": "do",
       "tier": "",
       "a": "Old Dubai / Deira",
-      "d": "Hundreds of shops in covered lanes with windows stacked in gold \u2014 one of the largest gold markets in the world, and a rite of passage for Indian visitors who know their carat and their making-charges. Prices track the daily rate, so bargain hard on the workmanship. Best in the cooler evening.",
+      "d": "Hundreds of shops in covered lanes with windows stacked in gold: one of the largest gold markets in the world, and a rite of passage for Indian visitors who know their carat and their making-charges. Prices track the daily rate, so bargain hard on the workmanship. Best in the cooler evening.",
       "lat": 25.270059,
       "lon": 55.298092,
       "photos": []
@@ -979,7 +979,7 @@
       "cat": "do",
       "tier": "",
       "a": "Bur Dubai",
-      "d": "Dubai's best-preserved old quarter \u2014 coral-and-gypsum houses, wind-tower coolers and quiet sikkas (lanes) from the late 1800s. Wander the galleries, the Coffee Museum, and courtyard caf\u00e9s, then join the cultural centre's guided walk. A rare slow, shaded corner of the city.",
+      "d": "Dubai's best-preserved old quarter: coral-and-gypsum houses, wind-tower coolers and quiet sikkas (lanes) from the late 1800s. Wander the galleries, the Coffee Museum, and courtyard caf\u00e9s, then join the cultural centre's guided walk. A rare slow, shaded corner of the city.",
       "lat": 25.26423,
       "lon": 55.30017,
       "photos": []
@@ -989,7 +989,7 @@
       "cat": "do",
       "tier": "",
       "a": "Bur Dubai (Dubai Creek)",
-      "d": "The UAE's largest heritage museum \u2014 a stretch of restored waterfront houses telling the story of the Creek, pearling, perfume and the ruling family, with modern interactive displays. More substantial and better curated than the old Dubai Museum, and an easy, cool, family-friendly cultural afternoon.",
+      "d": "The UAE's largest heritage museum: a stretch of restored waterfront houses telling the story of the Creek, pearling, perfume and the ruling family, with modern interactive displays. More substantial and better curated than the old Dubai Museum, and an easy, cool, family-friendly cultural afternoon.",
       "lat": 25.266474,
       "lon": 55.288964,
       "photos": []
@@ -1009,7 +1009,7 @@
       "cat": "do",
       "tier": "",
       "a": "Palm Jumeirah",
-      "d": "An observation deck 240m up in the Palm Tower, giving the one photo everyone wants \u2014 the whole palm-shaped island laid out below with the sea and skyline beyond. Quieter and cheaper than the Burj Khalifa deck, and the best place to actually grasp the scale of the Palm. Book a sunset slot.",
+      "d": "An observation deck 240m up in the Palm Tower, giving the one photo everyone wants: the whole palm-shaped island laid out below with the sea and skyline beyond. Quieter and cheaper than the Burj Khalifa deck, and the best place to actually grasp the scale of the Palm. Book a sunset slot.",
       "lat": 25.11397,
       "lon": 55.139833,
       "photos": []
@@ -1029,7 +1029,7 @@
       "cat": "do",
       "tier": "",
       "a": "Dubai Desert Conservation Reserve",
-      "d": "The discerning way to do the desert \u2014 vintage 1950s Land Rovers in a protected reserve, falconry, camel treks and a private Bedouin-camp dinner, run by one of the few licensed conservation operators. Choose a private vehicle to skip the dune-bashing party crowds; excellent for families and multi-gen groups.",
+      "d": "The discerning way to do the desert: vintage 1950s Land Rovers in a protected reserve, falconry, camel treks and a private Bedouin-camp dinner, run by one of the few licensed conservation operators. Choose a private vehicle to skip the dune-bashing party crowds; excellent for families and multi-gen groups.",
       "lat": 24.862123,
       "lon": 55.646453,
       "photos": []
@@ -1049,7 +1049,7 @@
       "cat": "do",
       "tier": "",
       "a": "Al Quoz",
-      "d": "A warehouse district turned contemporary-art hub \u2014 Dubai's serious galleries, artist studios, indie cinema, specialty coffee and concept stores, all in raw industrial units. Where the city's real creative scene lives, far from the malls. Check what's showing before you go; openings are the moment.",
+      "d": "A warehouse district turned contemporary-art hub: Dubai's serious galleries, artist studios, indie cinema, specialty coffee and concept stores, all in raw industrial units. Where the city's real creative scene lives, far from the malls. Check what's showing before you go; openings are the moment.",
       "lat": 25.142004,
       "lon": 55.226279,
       "photos": []
@@ -1089,7 +1089,7 @@
       "cat": "do",
       "tier": "",
       "a": "Zabeel Park",
-      "d": "A 150m golden picture-frame you ride to the top of, with a glass-floor skywalk and Old Dubai on one side, New Dubai on the other \u2014 the city's past-and-future divide made literal. Quick, cheap and photogenic; set inside Zabeel Park for a walk afterward.",
+      "d": "A 150m golden picture-frame you ride to the top of, with a glass-floor skywalk and Old Dubai on one side, New Dubai on the other: the city's past-and-future divide made literal. Quick, cheap and photogenic; set inside Zabeel Park for a walk afterward.",
       "lat": 25.235456,
       "lon": 55.300367,
       "photos": []
@@ -1099,7 +1099,7 @@
       "cat": "do",
       "tier": "",
       "a": "Dubailand",
-      "d": "The world's largest natural flower garden \u2014 over 150 million blooms shaped into arches, hearts and a flower-covered Emirates A380. Open only in the cool season (roughly November to May) and heaving with families; go on a weekday morning. Pure spectacle, and a hit with children.",
+      "d": "The world's largest natural flower garden: over 150 million blooms shaped into arches, hearts and a flower-covered Emirates A380. Open only in the cool season (roughly November to May) and heaving with families; go on a weekday morning. Pure spectacle, and a hit with children.",
       "lat": 25.059724,
       "lon": 55.244598,
       "photos": []
@@ -1109,7 +1109,7 @@
       "cat": "do",
       "tier": "",
       "a": "Dubailand",
-      "d": "A seasonal cultural theme park where 90-plus countries set up pavilions of crafts, street food and shows \u2014 a lively bazaar-meets-carnival. Open winter only. Chaotic and fun for families and groups; a low-cost, high-energy evening with a strong South-Asian food presence.",
+      "d": "A seasonal cultural theme park where 90-plus countries set up pavilions of crafts, street food and shows: a lively bazaar-meets-carnival. Open winter only. Chaotic and fun for families and groups; a low-cost, high-energy evening with a strong South-Asian food presence.",
       "lat": 25.068753,
       "lon": 55.306833,
       "photos": []
@@ -1119,7 +1119,7 @@
       "cat": "do",
       "tier": "",
       "a": "Al Barsha (Mall of the Emirates)",
-      "d": "A full indoor snow resort inside a mall \u2014 real snow, ski and toboggan runs, and a colony of king and gentoo penguins you can meet. Absurd, and exactly why it delights children in the desert heat. Book the penguin encounter separately if that's the draw.",
+      "d": "A full indoor snow resort inside a mall: real snow, ski and toboggan runs, and a colony of king and gentoo penguins you can meet. Absurd, and exactly why it delights children in the desert heat. Book the penguin encounter separately if that's the draw.",
       "lat": 25.117393,
       "lon": 55.198145,
       "photos": []
@@ -1129,7 +1129,7 @@
       "cat": "do",
       "tier": "",
       "a": "City Walk / Al Wasl",
-      "d": "An indoor tropical rainforest under a glass biodome \u2014 one of the region's largest indoor trees, sloths, snakes and free-flying birds across four humid levels. Compact, cool and hands-on; an easy 90 minutes that younger children love.",
+      "d": "An indoor tropical rainforest under a glass biodome: one of the region's largest indoor trees, sloths, snakes and free-flying birds across four humid levels. Compact, cool and hands-on; an easy 90 minutes that younger children love.",
       "lat": 25.206063,
       "lon": 55.260399,
       "photos": []
@@ -1139,7 +1139,7 @@
       "cat": "do",
       "tier": "",
       "a": "Bur Dubai (Dubai Creek)",
-      "d": "A 1.8km stretch of Creek-front rebuilt in old-Dubai style \u2014 wind towers, sandstone lanes, floating market, caf\u00e9s and abra stations \u2014 that flows straight into the historic quarter. A pleasant, walkable evening by the water with dhows drifting past. Family-friendly and easy.",
+      "d": "A 1.8km stretch of Creek-front rebuilt in old-Dubai style: wind towers, sandstone lanes, floating market, caf\u00e9s and abra stations, that flows straight into the historic quarter. A pleasant, walkable evening by the water with dhows drifting past. Family-friendly and easy.",
       "lat": 25.264465,
       "lon": 55.30062,
       "photos": []
@@ -1149,7 +1149,7 @@
       "cat": "do",
       "tier": "",
       "a": "Umm Suqeim",
-      "d": "The best free public beach for activity \u2014 kitesurfing, paddleboarding, a running track and casual beach caf\u00e9s, all with a clean sweep of Burj Al Arab views. More energetic and local than the resort strips; good for an active family morning before the heat.",
+      "d": "The best free public beach for activity: kitesurfing, paddleboarding, a running track and casual beach caf\u00e9s, all with a clean sweep of Burj Al Arab views. More energetic and local than the resort strips; good for an active family morning before the heat.",
       "lat": 25.163004,
       "lon": 55.206719,
       "photos": []
@@ -1159,7 +1159,7 @@
       "cat": "do",
       "tier": "",
       "a": "Jumeirah 1",
-      "d": "The Riviera-style beach-club strip that replaced La Mer \u2014 13 upscale dining and beach-club concepts arriving from St-Tropez, Cannes and Tulum along a 500m shoreline. Book a daybed at one of the clubs for a polished, licensed beach day. The current centre of gravity for Dubai's beach scene.",
+      "d": "The Riviera-style beach-club strip that replaced La Mer: 13 upscale dining and beach-club concepts arriving from St-Tropez, Cannes and Tulum along a 500m shoreline. Book a daybed at one of the clubs for a polished, licensed beach day. The current centre of gravity for Dubai's beach scene.",
       "lat": 25.070929,
       "lon": 55.143717,
       "photos": []
@@ -1169,7 +1169,7 @@
       "cat": "do",
       "tier": "",
       "a": "Dubai Marina",
-      "d": "Stroll the Marina promenade past superyachts and glass towers, then the buzzing beachfront of The Walk at JBR \u2014 full of caf\u00e9s, street performers and people-watching. The most Miami-like part of the city; lovely in the evening. Add a short yacht or dhow cruise from the Marina to see it from the water.",
+      "d": "Stroll the Marina promenade past superyachts and glass towers, then the buzzing beachfront of The Walk at JBR: full of caf\u00e9s, street performers and people-watching. The most Miami-like part of the city; lovely in the evening. Add a short yacht or dhow cruise from the Marina to see it from the water.",
       "lat": 25.078647,
       "lon": 55.134475,
       "photos": []
@@ -1179,7 +1179,7 @@
       "cat": "do",
       "tier": "",
       "a": "Dubai Marina / Dubai Harbour",
-      "d": "Charter a private yacht (or join a smaller shared cruise) out past the Marina towers, Bluewaters, JBR and the Palm crescent as the skyline lights up. The private charter is the discreet, family-friendly choice \u2014 your own deck, catering and swim stop, away from the party boats.",
+      "d": "Charter a private yacht (or join a smaller shared cruise) out past the Marina towers, Bluewaters, JBR and the Palm crescent as the skyline lights up. The private charter is the discreet, family-friendly choice: your own deck, catering and swim stop, away from the party boats.",
       "lat": 25.205434,
       "lon": 55.34209,
       "photos": []
@@ -1189,7 +1189,7 @@
       "cat": "do",
       "tier": "",
       "a": "Bluewaters Island",
-      "d": "A polished dining-and-leisure island connected to JBR, dominated by Ain Dubai, the world's tallest observation wheel at 250m \u2014 a striking skyline landmark even when ride operations are paused, so check its status before counting on a spin. Come for the waterfront restaurants and the view of it either way.",
+      "d": "A polished dining-and-leisure island connected to JBR, dominated by Ain Dubai, the world's tallest observation wheel at 250m: a striking skyline landmark even when ride operations are paused, so check its status before counting on a spin. Come for the waterfront restaurants and the view of it either way.",
       "lat": 25.079906,
       "lon": 55.121916,
       "photos": []
@@ -1199,7 +1199,7 @@
       "cat": "do",
       "tier": "",
       "a": "Al Fahidi (Bur Dubai)",
-      "d": "A small, characterful museum in a heritage house tracing coffee across cultures, with antique roasters and a majlis serving traditional Emirati gahwa. A charming, quiet stop while wandering Al Fahidi \u2014 the kind of hidden gem that rewards the curious.",
+      "d": "A small, characterful museum in a heritage house tracing coffee across cultures, with antique roasters and a majlis serving traditional Emirati gahwa. A charming, quiet stop while wandering Al Fahidi: the kind of hidden gem that rewards the curious.",
       "lat": 25.263708,
       "lon": 55.300098,
       "photos": []
@@ -1209,7 +1209,7 @@
       "cat": "do",
       "tier": "",
       "a": "Al Fahidi (Bur Dubai)",
-      "d": "A leading contemporary gallery of Arab and Iranian art tucked into a courtyard heritage house, with a shaded vegetarian caf\u00e9 and a tiny boutique hotel. An unhurried, cultured pause in the old town \u2014 art, mint lemonade and wind-tower shade.",
+      "d": "A leading contemporary gallery of Arab and Iranian art tucked into a courtyard heritage house, with a shaded vegetarian caf\u00e9 and a tiny boutique hotel. An unhurried, cultured pause in the old town: art, mint lemonade and wind-tower shade.",
       "lat": 25.26352,
       "lon": 55.297365,
       "photos": []
@@ -1219,7 +1219,7 @@
       "cat": "do",
       "tier": "",
       "a": "Bur Dubai (Dubai Creek)",
-      "d": "The covered fabric market on the Bur Dubai side of the Creek \u2014 bolts of silk, pashmina and embroidered cloth, and the landing point for the abra from Deira. Bring your bargaining; it's a lively, old-world stretch that pairs with Al Fahidi next door.",
+      "d": "The covered fabric market on the Bur Dubai side of the Creek: bolts of silk, pashmina and embroidered cloth, and the landing point for the abra from Deira. Bring your bargaining; it's a lively, old-world stretch that pairs with Al Fahidi next door.",
       "lat": 25.264141,
       "lon": 55.296206,
       "photos": []
@@ -1229,7 +1229,7 @@
       "cat": "do",
       "tier": "",
       "a": "Al Qudra (Saih Al Salam desert)",
-      "d": "Man-made desert lakes on the edge of the city \u2014 a cycling and picnic spot where you'll spot swans, oryx and migratory birds, plus the two intertwined heart-shaped Love Lakes. Cool, quiet and best at dawn or dusk; bring a car and your own supplies.",
+      "d": "Man-made desert lakes on the edge of the city: a cycling and picnic spot where you'll spot swans, oryx and migratory birds, plus the two intertwined heart-shaped Love Lakes. Cool, quiet and best at dawn or dusk; bring a car and your own supplies.",
       "lat": 24.834763,
       "lon": 55.375976,
       "photos": []
@@ -1259,7 +1259,7 @@
       "cat": "do",
       "tier": "",
       "a": "Al Habtoor City (Business Bay)",
-      "d": "Dubai's resident aqua-theatre spectacular \u2014 acrobatics, high dives and stunts in a purpose-built theatre with a stage that floods with water. Slick, wordless and family-friendly; the closest thing to a Cirque-style show in the city. Book weekend seats early.",
+      "d": "Dubai's resident aqua-theatre spectacular: acrobatics, high dives and stunts in a purpose-built theatre with a stage that floods with water. Slick, wordless and family-friendly; the closest thing to a Cirque-style show in the city. Book weekend seats early.",
       "lat": 25.184303,
       "lon": 55.255313,
       "photos": []
@@ -1285,11 +1285,11 @@
       "photos": []
     },
     {
-      "n": "Skydive Dubai \u2014 Palm drop zone",
+      "n": "Skydive Dubai: Palm drop zone",
       "cat": "do",
       "tier": "",
       "a": "Palm Jumeirah / Dubai Marina",
-      "d": "A tandem jump over the Palm, freefalling with the whole island and coastline unfurling beneath you \u2014 arguably the most spectacular urban skydive on earth. No experience needed; book weeks ahead as slots go fast. The bucket-list thrill for adventurous visitors.",
+      "d": "A tandem jump over the Palm, freefalling with the whole island and coastline unfurling beneath you: arguably the most spectacular urban skydive on earth. No experience needed; book weeks ahead as slots go fast. The bucket-list thrill for adventurous visitors.",
       "lat": 25.115217,
       "lon": 55.140585,
       "photos": []
@@ -1309,7 +1309,7 @@
       "cat": "do",
       "tier": "",
       "a": "Palm Jumeirah",
-      "d": "An 11km promenade along the Palm's crescent for a sea-air walk with Atlantis and the skyline in view, ending at waterfront dining. A calmer, free way to experience the Palm on foot \u2014 best at sunset when the light is soft and the heat lifts.",
+      "d": "An 11km promenade along the Palm's crescent for a sea-air walk with Atlantis and the skyline in view, ending at waterfront dining. A calmer, free way to experience the Palm on foot: best at sunset when the light is soft and the heat lifts.",
       "lat": 25.126863,
       "lon": 55.121752,
       "photos": []
@@ -1319,7 +1319,7 @@
       "cat": "party",
       "tier": "Cocktail bars",
       "a": "Four Seasons, Jumeirah",
-      "d": "1920s Osaka glamour and serious mixology \u2014 the most decorated bar in the region, and it shows.",
+      "d": "1920s Osaka glamour and serious mixology: the most decorated bar in the region, and it shows.",
       "lat": 25.202661,
       "lon": 55.240733,
       "photos": []
@@ -1329,17 +1329,17 @@
       "cat": "party",
       "tier": "Cocktail bars",
       "a": "DIFC",
-      "d": "An intimate, constellation-lit room in the financial district \u2014 cocktails made with real intent.",
+      "d": "An intimate, constellation-lit room in the financial district: cocktails made with real intent.",
       "lat": 25.113109,
       "lon": 55.191339,
       "photos": []
     },
     {
-      "n": "La Petite Maison (LPM) \u2014 bar",
+      "n": "La Petite Maison (LPM): bar",
       "cat": "party",
       "tier": "Cocktail bars",
       "a": "DIFC",
-      "d": "The Riviera room the city never tires of \u2014 a pre-dinner drink here is a Dubai ritual.",
+      "d": "The Riviera room the city never tires of: a pre-dinner drink here is a Dubai ritual.",
       "lat": 25.210411,
       "lon": 55.27915,
       "photos": []
@@ -1349,7 +1349,7 @@
       "cat": "party",
       "tier": "Landmark bars",
       "a": "Jumeirah Beach",
-      "d": "A drink 200 metres up inside the sail \u2014 the view most first visits are chasing.",
+      "d": "A drink 200 metres up inside the sail: the view most first visits are chasing.",
       "lat": 25.141433,
       "lon": 55.18515,
       "photos": []
@@ -1359,7 +1359,7 @@
       "cat": "party",
       "tier": "Landmark bars",
       "a": "Jumeirah Beach",
-      "d": "A gilded, theatrical cocktail room high in the sail \u2014 indulgence taken entirely seriously.",
+      "d": "A gilded, theatrical cocktail room high in the sail: indulgence taken entirely seriously.",
       "lat": 25.185006,
       "lon": 55.223492,
       "photos": []
@@ -1369,7 +1369,7 @@
       "cat": "party",
       "tier": "Rooftops",
       "a": "Downtown / Address Sky View",
-      "d": "The Burj Khalifa filling the glass, 54 floors up \u2014 the rooftop that best frames Downtown.",
+      "d": "The Burj Khalifa filling the glass, 54 floors up: the rooftop that best frames Downtown.",
       "lat": 25.202032,
       "lon": 55.270836,
       "photos": []
@@ -1379,7 +1379,7 @@
       "cat": "party",
       "tier": "Rooftops",
       "a": "Palm Jumeirah / Palm West Beach",
-      "d": "A neon-lit rooftop with Peruvian-Japanese plates and skyline views \u2014 Bangkok's cult name, restaged.",
+      "d": "A neon-lit rooftop with Peruvian-Japanese plates and skyline views: Bangkok's cult name, restaged.",
       "lat": 25.106759,
       "lon": 55.143745,
       "photos": []
@@ -1389,7 +1389,7 @@
       "cat": "party",
       "tier": "Late & loud",
       "a": "DIFC",
-      "d": "The bar that set the template for grown-up Dubai nights \u2014 still full, still faultless.",
+      "d": "The bar that set the template for grown-up Dubai nights: still full, still faultless.",
       "lat": 25.097685,
       "lon": 55.179849,
       "photos": []
@@ -1399,7 +1399,7 @@
       "cat": "party",
       "tier": "Late & loud",
       "a": "DIFC",
-      "d": "Greek glamour and a dressed-up crowd \u2014 as much a scene as a supper, well past midnight.",
+      "d": "Greek glamour and a dressed-up crowd: as much a scene as a supper, well past midnight.",
       "lat": 25.027571,
       "lon": 55.158971,
       "photos": []

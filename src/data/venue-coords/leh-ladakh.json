@@ -9,7 +9,7 @@
       "cat": "stay",
       "tier": "Ultra",
       "a": "Thiksey",
-      "d": "The camp that put luxury Ladakh on the map \u2014 canvas suites facing the great monastery, run like a grand hotel under the stars.",
+      "d": "The camp that put luxury Ladakh on the map: canvas suites facing the great monastery, run like a grand hotel under the stars.",
       "lat": 34.050466,
       "lon": 77.668644,
       "photos": []
@@ -19,7 +19,7 @@
       "cat": "stay",
       "tier": "Ultra",
       "a": "Nubra",
-      "d": "TUTC's Nubra outpost \u2014 safari-style luxury in a high desert valley, apricot orchards and sand dunes at the door.",
+      "d": "TUTC's Nubra outpost: safari-style luxury in a high desert valley, apricot orchards and sand dunes at the door.",
       "lat": 34.556481,
       "lon": 77.551132,
       "photos": []
@@ -29,7 +29,7 @@
       "cat": "stay",
       "tier": "Grand",
       "a": "Sham",
-      "d": "A restored 1920s noble house at the confluence of the Indus and Zanskar \u2014 five heritage rooms and orchard glamping tents, quietly the most characterful stay in Ladakh.",
+      "d": "A restored 1920s noble house at the confluence of the Indus and Zanskar: five heritage rooms and orchard glamping tents, quietly the most characterful stay in Ladakh.",
       "lat": 34.19632,
       "lon": 77.33551,
       "photos": []
@@ -39,17 +39,17 @@
       "cat": "stay",
       "tier": "Grand",
       "a": "Stok",
-      "d": "The summer palace of Ladakh's royal family, opened to a handful of guests \u2014 you sleep inside living history, thangkas and antiques included.",
+      "d": "The summer palace of Ladakh's royal family, opened to a handful of guests: you sleep inside living history, thangkas and antiques included.",
       "lat": 34.073026,
       "lon": 77.548652,
       "photos": []
     },
     {
-      "n": "Lchang Nang Retreat \u2014 The House of Trees",
+      "n": "Lchang Nang Retreat: The House of Trees",
       "cat": "stay",
       "tier": "Luxury",
       "a": "Nubra",
-      "d": "A quiet Nubra retreat on the riverbank \u2014 private villas among elm and apricot trees, organic gardens, snow peaks all around.",
+      "d": "A quiet Nubra retreat on the riverbank: private villas among elm and apricot trees, organic gardens, snow peaks all around.",
       "lat": 34.134765,
       "lon": 77.831055,
       "photos": []
@@ -59,7 +59,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Leh",
-      "d": "Ladakh's original eco resort \u2014 yurt-style bungalows in an orchard of willow and apricot, inspired by the old Silk Road caravanserais.",
+      "d": "Ladakh's original eco resort: yurt-style bungalows in an orchard of willow and apricot, inspired by the old Silk Road caravanserais.",
       "lat": 34.164203,
       "lon": 77.584813,
       "photos": []
@@ -69,7 +69,7 @@
       "cat": "stay",
       "tier": "Premium",
       "a": "Leh",
-      "d": "Leh's only certified five-star and the town's most reliable fixed-roof address \u2014 warm floors, real service, open when the camps are shut.",
+      "d": "Leh's only certified five-star and the town's most reliable fixed-roof address: warm floors, real service, open when the camps are shut.",
       "lat": 34.156571,
       "lon": 77.58052,
       "photos": []
@@ -89,7 +89,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Leh",
-      "d": "Ladakh's most ambitious modern kitchen \u2014 regional produce and heritage recipes given a genuine fine-dining hand.",
+      "d": "Ladakh's most ambitious modern kitchen: regional produce and heritage recipes given a genuine fine-dining hand.",
       "lat": 34.164203,
       "lon": 77.584813,
       "photos": []
@@ -99,7 +99,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Leh",
-      "d": "A traditional-house setting away from the bazaar, green fields and snow peaks in view \u2014 Leh's go-to for a considered meal out.",
+      "d": "A traditional-house setting away from the bazaar, green fields and snow peaks in view: Leh's go-to for a considered meal out.",
       "lat": 34.165963,
       "lon": 77.581559,
       "photos": []
@@ -109,7 +109,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Leh",
-      "d": "The place to eat momos, thukpa and tingmo done properly \u2014 the town's most trusted name for Tibetan and Ladakhi food.",
+      "d": "The place to eat momos, thukpa and tingmo done properly: the town's most trusted name for Tibetan and Ladakhi food.",
       "lat": 34.163962,
       "lon": 77.581328,
       "photos": []
@@ -119,7 +119,7 @@
       "cat": "eat",
       "tier": "Casual",
       "a": "Leh",
-      "d": "One of Leh's oldest caf\u00e9s \u2014 decades of feeding travellers fresh bread, cakes and honest plates on the Main Bazaar.",
+      "d": "One of Leh's oldest caf\u00e9s: decades of feeding travellers fresh bread, cakes and honest plates on the Main Bazaar.",
       "lat": 34.163847,
       "lon": 77.582758,
       "photos": []
@@ -345,7 +345,7 @@
       "photos": []
     },
     {
-      "n": "The Chadar Trek (Frozen Zanskar) \u2014 Context",
+      "n": "The Chadar Trek (Frozen Zanskar): Context",
       "cat": "do",
       "tier": "",
       "a": "Zanskar",
@@ -489,13 +489,13 @@
       "cat": "party",
       "tier": "Late & loud",
       "a": "Thiksey",
-      "d": "Ladakh's real nightlife is the sky \u2014 a bonfire, a dram and one of the darkest, clearest star fields on Earth.",
+      "d": "Ladakh's real nightlife is the sky: a bonfire, a dram and one of the darkest, clearest star fields on Earth.",
       "lat": 34.050466,
       "lon": 77.668644,
       "photos": []
     },
     {
-      "n": "Leh caf\u00e9 evenings \u2014 Gesmo & the Main Bazaar",
+      "n": "Leh caf\u00e9 evenings: Gesmo & the Main Bazaar",
       "cat": "party",
       "tier": "Late & loud",
       "a": "Leh",

@@ -9,7 +9,7 @@
       "cat": "stay",
       "tier": "Ultra",
       "a": "Colaba (Apollo Bunder)",
-      "d": "India's most storied hotel, facing the Gateway of India since 1903 \u2014 the address every visiting family knows by name.",
+      "d": "India's most storied hotel, facing the Gateway of India since 1903: the address every visiting family knows by name.",
       "lat": 18.921876,
       "lon": 72.833043,
       "photos": []
@@ -19,7 +19,7 @@
       "cat": "stay",
       "tier": "Ultra",
       "a": "Nariman Point (Marine Drive)",
-      "d": "Serene, glass-walled and faultless on Marine Drive \u2014 Oberoi service at the southern tip of the city.",
+      "d": "Serene, glass-walled and faultless on Marine Drive: Oberoi service at the southern tip of the city.",
       "lat": 18.926984,
       "lon": 72.820585,
       "photos": []
@@ -29,7 +29,7 @@
       "cat": "stay",
       "tier": "Grand",
       "a": "Worli",
-      "d": "A polished uptown tower crowned by AER, the 34th-floor rooftop \u2014 the Four Seasons standard, in the middle of the city.",
+      "d": "A polished uptown tower crowned by AER, the 34th-floor rooftop: the Four Seasons standard, in the middle of the city.",
       "lat": 18.994118,
       "lon": 72.82036,
       "photos": []
@@ -39,7 +39,7 @@
       "cat": "stay",
       "tier": "Grand",
       "a": "Lower Parel",
-      "d": "A soaring tower over Lower Parel with the theatrical Asilo rooftop \u2014 St. Regis butler service above the mills.",
+      "d": "A soaring tower over Lower Parel with the theatrical Asilo rooftop: St. Regis butler service above the mills.",
       "lat": 18.994093,
       "lon": 72.824012,
       "photos": []
@@ -49,7 +49,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Colaba (Apollo Bunder)",
-      "d": "The modern tower alongside the Palace \u2014 the same Gateway views and Taj address, at a lighter tariff.",
+      "d": "The modern tower alongside the Palace: the same Gateway views and Taj address, at a lighter tariff.",
       "lat": 18.921778,
       "lon": 72.833285,
       "photos": []
@@ -59,7 +59,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Andheri (Sahar, near the airport)",
-      "d": "A lush, art-filled garden hotel by the international airport \u2014 the calm landing pad for arrivals and departures.",
+      "d": "A lush, art-filled garden hotel by the international airport: the calm landing pad for arrivals and departures.",
       "lat": 19.109243,
       "lon": 72.873758,
       "photos": []
@@ -69,7 +69,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Andheri (near the airport)",
-      "d": "An ITC grande dame near the airport \u2014 Maratha-inspired grandeur and ITC's celebrated kitchens.",
+      "d": "An ITC grande dame near the airport: Maratha-inspired grandeur and ITC's celebrated kitchens.",
       "lat": 19.105236,
       "lon": 72.861334,
       "photos": []
@@ -79,7 +79,7 @@
       "cat": "stay",
       "tier": "Premium",
       "a": "Parel",
-      "d": "A colonial-modern ITC house in Parel \u2014 well-run, central, and close to the Lower Parel dining scene.",
+      "d": "A colonial-modern ITC house in Parel: well-run, central, and close to the Lower Parel dining scene.",
       "lat": 19.008427,
       "lon": 72.842505,
       "photos": []
@@ -89,7 +89,7 @@
       "cat": "stay",
       "tier": "Premium",
       "a": "Marine Drive (Chowpatty end)",
-      "d": "A compact boutique tower on Marine Drive with a rooftop over the Queen's Necklace \u2014 the small-hotel sea view.",
+      "d": "A compact boutique tower on Marine Drive with a rooftop over the Queen's Necklace: the small-hotel sea view.",
       "lat": 18.934992,
       "lon": 72.824307,
       "photos": []
@@ -99,7 +99,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Lower Parel (Mathuradas Mills)",
-      "d": "India's most decorated tasting menu \u2014 a ten-course journey through the country's produce in a former textile mill.",
+      "d": "India's most decorated tasting menu: a ten-course journey through the country's produce in a former textile mill.",
       "lat": 18.989838,
       "lon": 72.825682,
       "photos": []
@@ -119,7 +119,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Colaba",
-      "d": "A Colaba institution for fifteen years, back on form \u2014 eclectic, produce-led global cooking to share.",
+      "d": "A Colaba institution for fifteen years, back on form: eclectic, produce-led global cooking to share.",
       "lat": 18.924182,
       "lon": 72.833084,
       "photos": []
@@ -129,7 +129,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Lower Parel (Kamala Mills)",
-      "d": "The modern-Indian restaurant that changed how the city eats \u2014 regional dishes, reimagined, ten years on.",
+      "d": "The modern-Indian restaurant that changed how the city eats: regional dishes, reimagined, ten years on.",
       "lat": 19.003234,
       "lon": 72.827583,
       "photos": []
@@ -139,7 +139,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Bandra (West)",
-      "d": "A twelve-seat chef's counter above a sandwich shop \u2014 the most exciting fine-dining ticket in Bandra.",
+      "d": "A twelve-seat chef's counter above a sandwich shop: the most exciting fine-dining ticket in Bandra.",
       "lat": 19.061657,
       "lon": 72.829166,
       "photos": []
@@ -149,7 +149,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Fort (Kitab Mahal)",
-      "d": "Niyati Rao's ingredient-led kitchen in a historic Fort building \u2014 produce-driven cooking that ignores the rulebook.",
+      "d": "Niyati Rao's ingredient-led kitchen in a historic Fort building: produce-driven cooking that ignores the rulebook.",
       "lat": 19.054999,
       "lon": 72.869203,
       "photos": []
@@ -159,7 +159,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Fort / Kala Ghoda",
-      "d": "The back-alley seafood legend of South Mumbai \u2014 the butter-pepper-garlic crab is a rite of passage.",
+      "d": "The back-alley seafood legend of South Mumbai: the butter-pepper-garlic crab is a rite of passage.",
       "lat": 18.928658,
       "lon": 72.832393,
       "photos": []
@@ -169,7 +169,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Colaba (The Taj Mahal Palace)",
-      "d": "Masaharu Morimoto's Japanese room inside the Taj Palace \u2014 the city's benchmark for sushi and omakase.",
+      "d": "Masaharu Morimoto's Japanese room inside the Taj Palace: the city's benchmark for sushi and omakase.",
       "lat": 18.921778,
       "lon": 72.833285,
       "photos": []
@@ -179,7 +179,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Nariman Point (The Oberoi, Mumbai)",
-      "d": "Contemporary Indian by Vineet Bhatia \u2014 the first Indian chef to win a Michelin star (in London) \u2014 with the sea at your feet.",
+      "d": "Contemporary Indian by Vineet Bhatia: the first Indian chef to win a Michelin star (in London), with the sea at your feet.",
       "lat": 18.92663,
       "lon": 72.820478,
       "photos": []
@@ -189,7 +189,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Bandra Kurla Complex (BKC)",
-      "d": "The Mumbai outpost of the London dim sum house \u2014 glossy, precise and reliably excellent.",
+      "d": "The Mumbai outpost of the London dim sum house: glossy, precise and reliably excellent.",
       "lat": 19.060964,
       "lon": 72.862882,
       "photos": []
@@ -199,7 +199,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Bandra (West)",
-      "d": "Dark, glamorous modern Cantonese in Bandra \u2014 the international Hakkasan name, brought to the suburbs.",
+      "d": "Dark, glamorous modern Cantonese in Bandra: the international Hakkasan name, brought to the suburbs.",
       "lat": 19.06062,
       "lon": 72.834548,
       "photos": []
@@ -209,7 +209,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Worli",
-      "d": "Mumbai's most glamorous seafood-and-scene restaurant \u2014 big flavours, bigger crowd, sea breeze on the terrace.",
+      "d": "Mumbai's most glamorous seafood-and-scene restaurant: big flavours, bigger crowd, sea breeze on the terrace.",
       "lat": 19.024994,
       "lon": 72.841535,
       "photos": []
@@ -219,7 +219,7 @@
       "cat": "eat",
       "tier": "Casual",
       "a": "Byculla",
-      "d": "A joyful reinvention of the Indian mithai shop \u2014 traditional sweets made brilliantly, by the Bombay Canteen team.",
+      "d": "A joyful reinvention of the Indian mithai shop: traditional sweets made brilliantly, by the Bombay Canteen team.",
       "lat": 19.059474,
       "lon": 72.829059,
       "photos": []
@@ -229,7 +229,7 @@
       "cat": "eat",
       "tier": "Casual",
       "a": "Ballard Estate (Fort)",
-      "d": "A century-old Parsi cafe famous for berry pulav \u2014 a living piece of old Bombay you eat lunch inside.",
+      "d": "A century-old Parsi cafe famous for berry pulav: a living piece of old Bombay you eat lunch inside.",
       "lat": 18.934473,
       "lon": 72.840358,
       "photos": []
@@ -749,7 +749,7 @@
       "cat": "party",
       "tier": "Cocktail bars",
       "a": "Lower Parel (Kamala Mills)",
-      "d": "A bar that mines the Indian pantry for its drinks the way its kitchen does for food \u2014 one of the country's most-awarded.",
+      "d": "A bar that mines the Indian pantry for its drinks the way its kitchen does for food: one of the country's most-awarded.",
       "lat": 19.003234,
       "lon": 72.827583,
       "photos": []
@@ -759,7 +759,7 @@
       "cat": "party",
       "tier": "Rooftops",
       "a": "Worli (Four Seasons Hotel Mumbai)",
-      "d": "The 34th-floor open-air lounge over Worli and the sea \u2014 for years the definitive Mumbai rooftop.",
+      "d": "The 34th-floor open-air lounge over Worli and the sea: for years the definitive Mumbai rooftop.",
       "lat": 19.129152,
       "lon": 72.835404,
       "photos": []
@@ -769,7 +769,7 @@
       "cat": "party",
       "tier": "Rooftops",
       "a": "Lower Parel (The St. Regis Mumbai)",
-      "d": "A theatrical rooftop above Lower Parel \u2014 cocktails, city lights and a scene, at the top of the St. Regis tower.",
+      "d": "A theatrical rooftop above Lower Parel: cocktails, city lights and a scene, at the top of the St. Regis tower.",
       "lat": 18.994001,
       "lon": 72.824104,
       "photos": []
@@ -779,7 +779,7 @@
       "cat": "party",
       "tier": "Landmark bars",
       "a": "Colaba (The Taj Mahal Palace)",
-      "d": "India's oldest licensed bar, facing the Gateway of India \u2014 the most storied nightcap in the city.",
+      "d": "India's oldest licensed bar, facing the Gateway of India: the most storied nightcap in the city.",
       "lat": 19.016164,
       "lon": 72.858951,
       "photos": []
@@ -799,7 +799,7 @@
       "cat": "party",
       "tier": "Rooftops",
       "a": "Marine Drive (InterContinental Marine Drive)",
-      "d": "An all-white rooftop lounge over the Queen's Necklace \u2014 the classic Marine Drive sundowner.",
+      "d": "An all-white rooftop lounge over the Queen's Necklace: the classic Marine Drive sundowner.",
       "lat": 19.007219,
       "lon": 72.813648,
       "photos": []

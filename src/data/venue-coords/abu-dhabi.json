@@ -9,7 +9,7 @@
       "cat": "stay",
       "tier": "Ultra",
       "a": "West Corniche",
-      "d": "The capital's palace \u2014 gold-domed, ceremonial, and now in the surest of hands.",
+      "d": "The capital's palace: gold-domed, ceremonial, and now in the surest of hands.",
       "lat": 24.465062,
       "lon": 54.32567,
       "photos": []
@@ -19,7 +19,7 @@
       "cat": "stay",
       "tier": "Ultra",
       "a": "Saadiyat Island",
-      "d": "A long, protected beach and butler service \u2014 the calm cultural island, done grandly.",
+      "d": "A long, protected beach and butler service: the calm cultural island, done grandly.",
       "lat": 24.538964,
       "lon": 54.423916,
       "photos": []
@@ -29,7 +29,7 @@
       "cat": "stay",
       "tier": "Ultra",
       "a": "Al Maryah Island",
-      "d": "The surest hands in the city \u2014 service you never have to think about.",
+      "d": "The surest hands in the city: service you never have to think about.",
       "lat": 24.502129,
       "lon": 54.390158,
       "photos": []
@@ -79,7 +79,7 @@
       "cat": "stay",
       "tier": "Grand",
       "a": "Saadiyat Island",
-      "d": "A low-rise beach house with room to breathe \u2014 the quiet Saadiyat choice.",
+      "d": "A low-rise beach house with room to breathe: the quiet Saadiyat choice.",
       "lat": 24.53331,
       "lon": 54.418309,
       "photos": []
@@ -99,7 +99,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Al Bateen Marina",
-      "d": "Ian Schrager cool on the marina \u2014 the city's most design-literate address.",
+      "d": "Ian Schrager cool on the marina: the city's most design-literate address.",
       "lat": 24.451964,
       "lon": 54.336691,
       "photos": []
@@ -119,7 +119,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Bain Al Jessrain / Grand Canal",
-      "d": "A souk, waterways and abras \u2014 a resort village beside the Grand Canal.",
+      "d": "A souk, waterways and abras: a resort village beside the Grand Canal.",
       "lat": 24.40663,
       "lon": 54.490538,
       "photos": []
@@ -129,7 +129,7 @@
       "cat": "stay",
       "tier": "Ultra",
       "a": "Private island, off Saadiyat",
-      "d": "A private island of villas, reached only by boat \u2014 the quietest luxury near the capital.",
+      "d": "A private island of villas, reached only by boat: the quietest luxury near the capital.",
       "lat": 24.61452,
       "lon": 54.475421,
       "photos": []
@@ -139,7 +139,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Al Wathba desert",
-      "d": "A closer, gentler desert escape \u2014 dunes and a serious spa within easy reach of the city.",
+      "d": "A closer, gentler desert escape: dunes and a serious spa within easy reach of the city.",
       "lat": 24.13765,
       "lon": 54.742404,
       "photos": []
@@ -159,7 +159,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Qasr Al Hosn",
-      "d": "Modern Emirati cooking beside the city's oldest fort \u2014 a taste of the real capital.",
+      "d": "Modern Emirati cooking beside the city's oldest fort: a taste of the real capital.",
       "lat": 24.456569,
       "lon": 54.33751,
       "photos": []
@@ -209,7 +209,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Mamsha Al Saadiyat",
-      "d": "Beachfront Japanese with real polish \u2014 and a business lunch worth crossing town for.",
+      "d": "Beachfront Japanese with real polish, and a business lunch worth crossing town for.",
       "lat": 24.53896,
       "lon": 54.407477,
       "photos": []
@@ -219,7 +219,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Yas Bay",
-      "d": "A warm, generous kitchen at the water's edge \u2014 a Bib for the bill and the cooking both.",
+      "d": "A warm, generous kitchen at the water's edge: a Bib for the bill and the cooking both.",
       "lat": 24.456569,
       "lon": 54.33751,
       "photos": []
@@ -229,7 +229,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Mina Abu Dhabi",
-      "d": "Emirati seafood at the working harbour \u2014 Michelin's Opening of the Year.",
+      "d": "Emirati seafood at the working harbour: Michelin's Opening of the Year.",
       "lat": 24.456569,
       "lon": 54.33751,
       "photos": []
@@ -259,7 +259,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Mamsha Al Saadiyat",
-      "d": "Beachfront Lebanese \u2014 bright, generous and full every night.",
+      "d": "Beachfront Lebanese: bright, generous and full every night.",
       "lat": 24.539025,
       "lon": 54.410452,
       "photos": []
@@ -279,7 +279,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "The Galleria, Al Maryah Island",
-      "d": "Armenian-Lebanese cooking with real character \u2014 a Bib regular.",
+      "d": "Armenian-Lebanese cooking with real character: a Bib regular.",
       "lat": 24.456569,
       "lon": 54.33751,
       "photos": []
@@ -289,7 +289,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "The Galleria, Al Maryah Island",
-      "d": "The izakaya template that set the tone for the region \u2014 still full every night.",
+      "d": "The izakaya template that set the tone for the region: still full every night.",
       "lat": 24.500469,
       "lon": 54.387944,
       "photos": []
@@ -339,7 +339,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Four Seasons, Al Maryah Island",
-      "d": "Polished Italian in the Four Seasons \u2014 dependable and quietly grand.",
+      "d": "Polished Italian in the Four Seasons: dependable and quietly grand.",
       "lat": 24.503051,
       "lon": 54.388074,
       "photos": []
@@ -349,7 +349,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Four Seasons, Al Maryah Island",
-      "d": "A 1920s-Chicago chophouse \u2014 serious steak and a serious bar.",
+      "d": "A 1920s-Chicago chophouse: serious steak and a serious bar.",
       "lat": 24.502926,
       "lon": 54.387357,
       "photos": []
@@ -369,7 +369,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Rosewood Abu Dhabi",
-      "d": "Seafront Lebanese from the Em Sherif name \u2014 generous and glamorous.",
+      "d": "Seafront Lebanese from the Em Sherif name: generous and glamorous.",
       "lat": 24.454257,
       "lon": 54.338709,
       "photos": []
@@ -379,7 +379,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Yas Island",
-      "d": "The Venetian classic \u2014 Bellinis, carpaccio and a room that knows its worth.",
+      "d": "The Venetian classic: Bellinis, carpaccio and a room that knows its worth.",
       "lat": 24.456569,
       "lon": 54.33751,
       "photos": []
@@ -419,7 +419,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "The St. Regis Saadiyat Island",
-      "d": "Modern Greek by the beach \u2014 bright, sunlit and generous.",
+      "d": "Modern Greek by the beach: bright, sunlit and generous.",
       "lat": 24.456569,
       "lon": 54.33751,
       "photos": []
@@ -439,7 +439,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Park Hyatt, Saadiyat Island",
-      "d": "Nikkei cooking \u2014 Japanese precision with a Latin pulse \u2014 by the beach.",
+      "d": "Nikkei cooking: Japanese precision with a Latin pulse, by the beach.",
       "lat": 24.456569,
       "lon": 54.33751,
       "photos": []
@@ -449,7 +449,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Conrad Abu Dhabi Etihad Towers",
-      "d": "Elevated Lebanese with a Corniche view \u2014 glamorous and assured.",
+      "d": "Elevated Lebanese with a Corniche view: glamorous and assured.",
       "lat": 24.458511,
       "lon": 54.321274,
       "photos": []
@@ -459,7 +459,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Conrad Abu Dhabi Etihad Towers",
-      "d": "A steak-and-view room on the 62nd floor \u2014 the city laid out below.",
+      "d": "A steak-and-view room on the 62nd floor: the city laid out below.",
       "lat": 24.414745,
       "lon": 54.490547,
       "photos": []
@@ -499,7 +499,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Shangri-La Qaryat Al Beri",
-      "d": "Vietnamese cooking in a lantern-lit room \u2014 gentle and quietly excellent.",
+      "d": "Vietnamese cooking in a lantern-lit room: gentle and quietly excellent.",
       "lat": 24.406848,
       "lon": 54.490588,
       "photos": []
@@ -509,7 +509,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Sofitel Abu Dhabi Corniche",
-      "d": "Thai cooking with real fragrance and fire \u2014 a long-standing local favourite.",
+      "d": "Thai cooking with real fragrance and fire: a long-standing local favourite.",
       "lat": 24.454612,
       "lon": 54.397084,
       "photos": []
@@ -519,7 +519,7 @@
       "cat": "eat",
       "tier": "Casual",
       "a": "Al Muneera",
-      "d": "Homestyle Emirati cooking from a young local kitchen \u2014 warm and honest.",
+      "d": "Homestyle Emirati cooking from a young local kitchen: warm and honest.",
       "lat": 24.456569,
       "lon": 54.33751,
       "photos": []
@@ -529,7 +529,7 @@
       "cat": "eat",
       "tier": "Casual",
       "a": "Embassies District",
-      "d": "Emirati family recipes served like a home lunch \u2014 the real thing.",
+      "d": "Emirati family recipes served like a home lunch: the real thing.",
       "lat": 24.430337,
       "lon": 54.433476,
       "photos": []
@@ -549,7 +549,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Al Qana",
-      "d": "Playful pan-Asian plates at the waterfront \u2014 easy, modern and fun.",
+      "d": "Playful pan-Asian plates at the waterfront: easy, modern and fun.",
       "lat": 24.456569,
       "lon": 54.33751,
       "photos": []
@@ -569,7 +569,7 @@
       "cat": "do",
       "tier": "",
       "a": "Saadiyat Island",
-      "d": "The Arab world's first universal museum \u2014 Jean Nouvel's floating dome, and its rain of light, are reason enough to come.",
+      "d": "The Arab world's first universal museum: Jean Nouvel's floating dome, and its rain of light, are reason enough to come.",
       "lat": 24.533681,
       "lon": 54.398606,
       "photos": []
@@ -579,7 +579,7 @@
       "cat": "do",
       "tier": "",
       "a": "Grand Canal",
-      "d": "The white marble heart of the capital \u2014 82 domes, a courtyard of inlaid flowers, and the world's largest hand-knotted carpet within.",
+      "d": "The white marble heart of the capital: 82 domes, a courtyard of inlaid flowers, and the world's largest hand-knotted carpet within.",
       "lat": 24.412452,
       "lon": 54.474273,
       "photos": []
@@ -589,7 +589,7 @@
       "cat": "do",
       "tier": "",
       "a": "West Corniche / Ras Al Akhdar",
-      "d": "The working Presidential Palace, opened to the public \u2014 a domed hall of gold and mosaic, and a library of 50,000 titles under it.",
+      "d": "The working Presidential Palace, opened to the public: a domed hall of gold and mosaic, and a library of 50,000 titles under it.",
       "lat": 24.456267,
       "lon": 54.311575,
       "photos": []
@@ -599,17 +599,17 @@
       "cat": "do",
       "tier": "",
       "a": "Saadiyat Island",
-      "d": "A building made only for teamLab \u2014 17,000 square metres of light, water and air that become the artwork. The children will not forget it.",
+      "d": "A building made only for teamLab: 17,000 square metres of light, water and air that become the artwork. The children will not forget it.",
       "lat": 24.52747,
       "lon": 54.405032,
       "photos": []
     },
     {
-      "n": "The Empty Quarter \u2014 Qasr Al Sarab",
+      "n": "The Empty Quarter: Qasr Al Sarab",
       "cat": "do",
       "tier": "",
       "a": "Liwa / Rub' al Khali",
-      "d": "The largest continuous sand desert on earth, met from a fortress of dunes \u2014 dawn walks, falconry, and a silence you feel.",
+      "d": "The largest continuous sand desert on earth, met from a fortress of dunes: dawn walks, falconry, and a silence you feel.",
       "lat": 24.458236,
       "lon": 54.385434,
       "photos": []
@@ -619,7 +619,7 @@
       "cat": "do",
       "tier": "",
       "a": "Saadiyat Island",
-      "d": "Frank Gehry's largest Guggenheim of all \u2014 the anchor of the cultural district, arriving on Saadiyat.",
+      "d": "Frank Gehry's largest Guggenheim of all: the anchor of the cultural district, arriving on Saadiyat.",
       "lat": 24.540193,
       "lon": 54.399317,
       "photos": []
@@ -629,7 +629,7 @@
       "cat": "do",
       "tier": "",
       "a": "Yas Island",
-      "d": "Home of the season-closing Abu Dhabi Grand Prix \u2014 Formula 1's first day-to-night race, run under the arch of the Yas hotel's shifting light.",
+      "d": "Home of the season-closing Abu Dhabi Grand Prix: Formula 1's first day-to-night race, run under the arch of the Yas hotel's shifting light.",
       "lat": 24.471847,
       "lon": 54.605802,
       "photos": []
@@ -639,7 +639,7 @@
       "cat": "do",
       "tier": "",
       "a": "Yas Island",
-      "d": "The world's first Ferrari-branded park, under its vast red roof \u2014 and Formula Rossa, still one of the fastest launch coasters ever built.",
+      "d": "The world's first Ferrari-branded park, under its vast red roof, and Formula Rossa, still one of the fastest launch coasters ever built.",
       "lat": 24.484072,
       "lon": 54.609889,
       "photos": []
@@ -649,7 +649,7 @@
       "cat": "do",
       "tier": "",
       "a": "Yas Island",
-      "d": "A new-generation marine park with no orcas \u2014 eight ocean realms and a research centre, built around one of the world's largest aquariums.",
+      "d": "A new-generation marine park with no orcas: eight ocean realms and a research centre, built around one of the world's largest aquariums.",
       "lat": 24.485869,
       "lon": 54.618987,
       "photos": []
@@ -659,7 +659,7 @@
       "cat": "do",
       "tier": "",
       "a": "Jubail Island",
-      "d": "The green lung of the coast \u2014 a boardwalk and kayak trails threading a protected mangrove forest, with flamingos and herons at the water's edge.",
+      "d": "The green lung of the coast: a boardwalk and kayak trails threading a protected mangrove forest, with flamingos and herons at the water's edge.",
       "lat": 24.545987,
       "lon": 54.486727,
       "photos": []
@@ -669,7 +669,7 @@
       "cat": "do",
       "tier": "",
       "a": "Corniche",
-      "d": "Eight kilometres of manicured waterfront \u2014 the capital's promenade, with a Blue Flag beach and the skyline laid out across the Gulf.",
+      "d": "Eight kilometres of manicured waterfront: the capital's promenade, with a Blue Flag beach and the skyline laid out across the Gulf.",
       "lat": 24.452271,
       "lon": 54.604929,
       "photos": []
@@ -679,7 +679,7 @@
       "cat": "do",
       "tier": "",
       "a": "Saadiyat Island",
-      "d": "A protected white-sand coast where hawksbill turtles still nest \u2014 the calm, wild edge of the cultural island.",
+      "d": "A protected white-sand coast where hawksbill turtles still nest: the calm, wild edge of the cultural island.",
       "lat": 24.53331,
       "lon": 54.418309,
       "photos": []
@@ -689,7 +689,7 @@
       "cat": "do",
       "tier": "",
       "a": "Downtown",
-      "d": "The oldest stone building in the city \u2014 the 1761 watchtower and fort where Abu Dhabi began, now a museum of its own story.",
+      "d": "The oldest stone building in the city: the 1761 watchtower and fort where Abu Dhabi began, now a museum of its own story.",
       "lat": 24.482338,
       "lon": 54.355276,
       "photos": []
@@ -699,7 +699,7 @@
       "cat": "do",
       "tier": "",
       "a": "Yas Island",
-      "d": "A fully indoor, fully air-conditioned world of Gotham and Cartoon Junction \u2014 a summer-proof day for families.",
+      "d": "A fully indoor, fully air-conditioned world of Gotham and Cartoon Junction: a summer-proof day for families.",
       "lat": 24.491982,
       "lon": 54.600384,
       "photos": []
@@ -709,7 +709,7 @@
       "cat": "do",
       "tier": "",
       "a": "Yas Island",
-      "d": "An Emirati-themed water park built around a pearl-diving legend \u2014 record-holding rides and gentler pools side by side.",
+      "d": "An Emirati-themed water park built around a pearl-diving legend: record-holding rides and gentler pools side by side.",
       "lat": 24.487863,
       "lon": 54.599469,
       "photos": []
@@ -719,7 +719,7 @@
       "cat": "do",
       "tier": "",
       "a": "Corniche / Al Bateen",
-      "d": "The whole capital from the air \u2014 the great mosque, the islands and the mangrove maze in a single sweep.",
+      "d": "The whole capital from the air: the great mosque, the islands and the mangrove maze in a single sweep.",
       "lat": 24.47147,
       "lon": 54.336079,
       "photos": []
@@ -729,7 +729,7 @@
       "cat": "party",
       "tier": "Landmark bars",
       "a": "Conrad Abu Dhabi Etihad Towers",
-      "d": "The capital's highest bar \u2014 Level 62, the whole city and Gulf laid out below, cocktails to match the view.",
+      "d": "The capital's highest bar: Level 62, the whole city and Gulf laid out below, cocktails to match the view.",
       "lat": 24.458238,
       "lon": 54.322258,
       "photos": []
@@ -739,7 +739,7 @@
       "cat": "party",
       "tier": "Rooftops",
       "a": "The St. Regis Abu Dhabi, Corniche",
-      "d": "Three open-air terraces on the St. Regis roof \u2014 Mediterranean plates, jazz, and an uninterrupted sweep of the Corniche.",
+      "d": "Three open-air terraces on the St. Regis roof: Mediterranean plates, jazz, and an uninterrupted sweep of the Corniche.",
       "lat": 24.465452,
       "lon": 54.327423,
       "photos": []
@@ -749,7 +749,7 @@
       "cat": "party",
       "tier": "Rooftops",
       "a": "The St. Regis Abu Dhabi, Corniche",
-      "d": "A polished seafood room below, a late, lively rooftop above \u2014 a favourite last stop of a big night on the Corniche.",
+      "d": "A polished seafood room below, a late, lively rooftop above: a favourite last stop of a big night on the Corniche.",
       "lat": 24.465452,
       "lon": 54.327423,
       "photos": []
@@ -759,7 +759,7 @@
       "cat": "party",
       "tier": "Rooftops",
       "a": "Yas Bay, Yas Island",
-      "d": "The only rooftop over Yas Bay \u2014 the Buddha-Bar signature of low light, deep house and Asian-Mediterranean plates.",
+      "d": "The only rooftop over Yas Bay: the Buddha-Bar signature of low light, deep house and Asian-Mediterranean plates.",
       "lat": 24.489448,
       "lon": 54.597363,
       "photos": []
@@ -769,7 +769,7 @@
       "cat": "party",
       "tier": "Cocktail bars",
       "a": "The Galleria, Al Maryah Island",
-      "d": "The izakaya template for the region, and its bar is among the city's finest \u2014 a crowd, a resident DJ, and drinks done properly.",
+      "d": "The izakaya template for the region, and its bar is among the city's finest: a crowd, a resident DJ, and drinks done properly.",
       "lat": 24.500469,
       "lon": 54.387944,
       "photos": []
@@ -779,7 +779,7 @@
       "cat": "party",
       "tier": "Cocktail bars",
       "a": "Al Maryah Island",
-      "d": "A day-to-night poolside lounge on the financial island \u2014 sculptural, easy, and quietly Rosewood-run.",
+      "d": "A day-to-night poolside lounge on the financial island: sculptural, easy, and quietly Rosewood-run.",
       "lat": 24.499735,
       "lon": 54.387285,
       "photos": []
@@ -789,7 +789,7 @@
       "cat": "party",
       "tier": "Cocktail bars",
       "a": "Conrad Abu Dhabi Etihad Towers",
-      "d": "A refined lounge and bar high in the Etihad Towers \u2014 a considered list and a considered crowd, above the Corniche.",
+      "d": "A refined lounge and bar high in the Etihad Towers: a considered list and a considered crowd, above the Corniche.",
       "lat": 24.485689,
       "lon": 54.370291,
       "photos": []
@@ -799,7 +799,7 @@
       "cat": "party",
       "tier": "Late & loud",
       "a": "Yas Island",
-      "d": "The biggest indoor club in the country \u2014 360-degree projection, a serious sound system, and the graffiti wall out front.",
+      "d": "The biggest indoor club in the country: 360-degree projection, a serious sound system, and the graffiti wall out front.",
       "lat": 24.486535,
       "lon": 54.607912,
       "photos": []

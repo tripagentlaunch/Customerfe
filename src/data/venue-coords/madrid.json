@@ -9,7 +9,7 @@
       "cat": "stay",
       "tier": "Ultra",
       "a": "Retiro (Golden Triangle of Art)",
-      "d": "The capital's defining address \u2014 a Belle \u00c9poque palace beside the Prado, restored to its full 1910 grandeur.",
+      "d": "The capital's defining address: a Belle \u00c9poque palace beside the Prado, restored to its full 1910 grandeur.",
       "lat": 40.41555,
       "lon": -3.692725,
       "photos": []
@@ -19,7 +19,7 @@
       "cat": "stay",
       "tier": "Ultra",
       "a": "Centro / Sol (Canalejas)",
-      "d": "Seven heritage buildings woven into one grand house at Canalejas \u2014 Four Seasons' first Spanish address, between Sol and the Prado.",
+      "d": "Seven heritage buildings woven into one grand house at Canalejas: Four Seasons' first Spanish address, between Sol and the Prado.",
       "lat": 40.417272,
       "lon": -3.700392,
       "photos": []
@@ -29,7 +29,7 @@
       "cat": "stay",
       "tier": "Ultra",
       "a": "Salamanca (Paseo de la Castellana)",
-      "d": "The Salamanca grande dame reborn \u2014 Rosewood's flagship on Madrid's most coveted boulevard, all calm and quiet polish.",
+      "d": "The Salamanca grande dame reborn: Rosewood's flagship on Madrid's most coveted boulevard, all calm and quiet polish.",
       "lat": 40.429937,
       "lon": -3.688165,
       "photos": []
@@ -39,7 +39,7 @@
       "cat": "stay",
       "tier": "Grand",
       "a": "Salamanca (Calle Vel\u00e1zquez)",
-      "d": "A contemporary luxury house on the Golden Mile, in the former Gran Hotel Vel\u00e1zquez \u2014 bold, design-led, and gastronomically serious.",
+      "d": "A contemporary luxury house on the Golden Mile, in the former Gran Hotel Vel\u00e1zquez: bold, design-led, and gastronomically serious.",
       "lat": 40.428201,
       "lon": -3.683682,
       "photos": []
@@ -49,7 +49,7 @@
       "cat": "stay",
       "tier": "Grand",
       "a": "Chamber\u00ed (Calle Zurbano)",
-      "d": "A duke's 1894 neoclassical mansion turned intimate palace hotel \u2014 a marble staircase, a garden, and deep quiet off the Castellana.",
+      "d": "A duke's 1894 neoclassical mansion turned intimate palace hotel: a marble staircase, a garden, and deep quiet off the Castellana.",
       "lat": 40.431003,
       "lon": -3.693055,
       "photos": []
@@ -79,7 +79,7 @@
       "cat": "stay",
       "tier": "Grand",
       "a": "Centro / Sol (Plaza de las Descalzas)",
-      "d": "Ian Schrager's cool, light-filled house in the old centre \u2014 a rooftop, a pool and a lively scene under one modern roof.",
+      "d": "Ian Schrager's cool, light-filled house in the old centre: a rooftop, a pool and a lively scene under one modern roof.",
       "lat": 40.417777,
       "lon": -3.70631,
       "photos": []
@@ -89,7 +89,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Chamber\u00ed / Alonso Mart\u00ednez",
-      "d": "A restored Belle \u00c9poque palace turned boutique house between Chamber\u00ed and Chueca \u2014 a Natura Biss\u00e9 spa and quiet good taste.",
+      "d": "A restored Belle \u00c9poque palace turned boutique house between Chamber\u00ed and Chueca: a Natura Biss\u00e9 spa and quiet good taste.",
       "lat": 40.427015,
       "lon": -3.698051,
       "photos": []
@@ -109,7 +109,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Centro (Plaza de las Cortes)",
-      "d": "A 1912 grand hotel between the Prado and the Thyssen \u2014 its stained-glass rotunda one of the city's great rooms.",
+      "d": "A 1912 grand hotel between the Prado and the Thyssen: its stained-glass rotunda one of the city's great rooms.",
       "lat": 40.415454,
       "lon": -3.695802,
       "photos": []
@@ -119,7 +119,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Centro (Barrio de las Letras)",
-      "d": "Madrid's oldest luxury hotel, reborn \u2014 a jewel-box in the literary quarter, restored with real depth of character.",
+      "d": "Madrid's oldest luxury hotel, reborn: a jewel-box in the literary quarter, restored with real depth of character.",
       "lat": 40.415942,
       "lon": -3.699808,
       "photos": []
@@ -129,7 +129,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Salamanca (Calle G\u00e9nova / Recoletos)",
-      "d": "Philippe Starck's exuberant, botanical Madrid house \u2014 a lush, design-forward stay near the Salamanca boutiques.",
+      "d": "Philippe Starck's exuberant, botanical Madrid house: a lush, design-forward stay near the Salamanca boutiques.",
       "lat": 40.420111,
       "lon": -3.700115,
       "photos": []
@@ -149,7 +149,7 @@
       "cat": "stay",
       "tier": "Premium",
       "a": "Chueca / Justicia",
-      "d": "A design-led townhouse in the heart of Chueca \u2014 warm, sociable and well-placed for the city's most vibrant quarter.",
+      "d": "A design-led townhouse in the heart of Chueca: warm, sociable and well-placed for the city's most vibrant quarter.",
       "lat": 40.422256,
       "lon": -3.695937,
       "photos": []
@@ -159,7 +159,7 @@
       "cat": "stay",
       "tier": "Premium",
       "a": "Retiro / Atocha",
-      "d": "A polished, contemporary house near Atocha station and the Retiro \u2014 easy connections and a rooftop terrace.",
+      "d": "A polished, contemporary house near Atocha station and the Retiro: easy connections and a rooftop terrace.",
       "lat": 40.407279,
       "lon": -3.688039,
       "photos": []
@@ -169,7 +169,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Chamart\u00edn (Hotel NH Collection Eurobuilding)",
-      "d": "Dabiz Mu\u00f1oz's wild, world-beating three-star canvas \u2014 the most audacious tasting menu in Spain, and one of the greatest on earth.",
+      "d": "Dabiz Mu\u00f1oz's wild, world-beating three-star canvas: the most audacious tasting menu in Spain, and one of the greatest on earth.",
       "lat": 40.457795,
       "lon": -3.685949,
       "photos": []
@@ -179,7 +179,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Retiro (Mandarin Oriental Ritz)",
-      "d": "Quique Dacosta's Mediterranean haute cuisine in the Ritz's Belle \u00c9poque splendour \u2014 two stars beside the Prado.",
+      "d": "Quique Dacosta's Mediterranean haute cuisine in the Ritz's Belle \u00c9poque splendour: two stars beside the Prado.",
       "lat": 40.423728,
       "lon": -3.689904,
       "photos": []
@@ -189,7 +189,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Chamber\u00ed (Calle Marqu\u00e9s del Riscal)",
-      "d": "The Sandoval brothers' theatre of a restaurant \u2014 a five-act journey from cellar to kitchen to table, held at two stars.",
+      "d": "The Sandoval brothers' theatre of a restaurant: a five-act journey from cellar to kitchen to table, held at two stars.",
       "lat": 40.430687,
       "lon": -3.690513,
       "photos": []
@@ -199,7 +199,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Centro (Casino de Madrid, Calle Alcal\u00e1)",
-      "d": "Paco Roncero's avant-garde cooking inside the grand Casino de Madrid \u2014 technical, playful, two stars.",
+      "d": "Paco Roncero's avant-garde cooking inside the grand Casino de Madrid: technical, playful, two stars.",
       "lat": 40.405145,
       "lon": -3.682806,
       "photos": []
@@ -209,7 +209,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Chueca / Justicia (Calle Regueros)",
-      "d": "Diego Guerrero's raw, industrial-chic room and free-thinking cooking \u2014 one of Madrid's most personal two-star tables.",
+      "d": "Diego Guerrero's raw, industrial-chic room and free-thinking cooking: one of Madrid's most personal two-star tables.",
       "lat": 40.424594,
       "lon": -3.696332,
       "photos": []
@@ -219,7 +219,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Chamber\u00ed (Hyatt Regency Hesperia)",
-      "d": "Dani Garc\u00eda's fire-and-smoke haute cuisine \u2014 a small, intense counter built around the embers, at two stars.",
+      "d": "Dani Garc\u00eda's fire-and-smoke haute cuisine: a small, intense counter built around the embers, at two stars.",
       "lat": 40.41936,
       "lon": -3.697854,
       "photos": []
@@ -229,7 +229,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Salamanca (Barrio de Salamanca)",
-      "d": "Ram\u00f3n Freixa's signature cooking, back at two stars in an intimate new atelier \u2014 precise, considered, personal.",
+      "d": "Ram\u00f3n Freixa's signature cooking, back at two stars in an intimate new atelier: precise, considered, personal.",
       "lat": 40.428513,
       "lon": -3.68626,
       "photos": []
@@ -249,7 +249,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Chamber\u00ed (Calle Ponzano)",
-      "d": "Rodrigo de la Calle's temple to the vegetable \u2014 'gastrobot\u00e1nica' cooking that puts produce centre-stage.",
+      "d": "Rodrigo de la Calle's temple to the vegetable: 'gastrobot\u00e1nica' cooking that puts produce centre-stage.",
       "lat": 40.444596,
       "lon": -3.69896,
       "photos": []
@@ -259,7 +259,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Chamber\u00ed (Calle Amador de los R\u00edos)",
-      "d": "Grand, gracious service and classical-contemporary cooking \u2014 a room that revived the art of the trolley and the table-side flourish.",
+      "d": "Grand, gracious service and classical-contemporary cooking: a room that revived the art of the trolley and the table-side flourish.",
       "lat": 40.427537,
       "lon": -3.691113,
       "photos": []
@@ -269,7 +269,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Barrio de las Letras (Calle San Blas)",
-      "d": "A Japanese-Spanish counter and a hidden 'bunker' below \u2014 Juli\u00e1n M\u00e1rmol's cult sushi and kaiseki.",
+      "d": "A Japanese-Spanish counter and a hidden 'bunker' below: Juli\u00e1n M\u00e1rmol's cult sushi and kaiseki.",
       "lat": 40.410646,
       "lon": -3.694651,
       "photos": []
@@ -279,7 +279,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Chamber\u00ed (Calle Duque de Sesto)",
-      "d": "Javi Est\u00e9vez's ode to offal \u2014 the humblest cuts turned into something dazzling, and a star for the effort.",
+      "d": "Javi Est\u00e9vez's ode to offal: the humblest cuts turned into something dazzling, and a star for the effort.",
       "lat": 40.44545,
       "lon": -3.69556,
       "photos": []
@@ -289,7 +289,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Chamber\u00ed (Calle Raimundo Fern\u00e1ndez Villaverde)",
-      "d": "Marcos Granda's produce-led Mediterranean cooking and an exceptional cellar \u2014 a sommelier's restaurant.",
+      "d": "Marcos Granda's produce-led Mediterranean cooking and an exceptional cellar: a sommelier's restaurant.",
       "lat": 40.446165,
       "lon": -3.699536,
       "photos": []
@@ -299,7 +299,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Centro / La Latina (Calle Morer\u00eda)",
-      "d": "A tiny, four-table gastronomic room inside the world's great flamenco tablao \u2014 dinner and pure flamenco in one night.",
+      "d": "A tiny, four-table gastronomic room inside the world's great flamenco tablao: dinner and pure flamenco in one night.",
       "lat": 40.412742,
       "lon": -3.714155,
       "photos": []
@@ -309,7 +309,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Chamart\u00edn (Calle Pr\u00edncipe de Vergara)",
-      "d": "Javier Aranda's minimalist room around an open kitchen \u2014 precise, seasonal cooking under a striking geometric ceiling.",
+      "d": "Javier Aranda's minimalist room around an open kitchen: precise, seasonal cooking under a striking geometric ceiling.",
       "lat": 40.449824,
       "lon": -3.67836,
       "photos": []
@@ -319,7 +319,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Salamanca (Hotel Wellington)",
-      "d": "The godfather of Spanish-Japanese fusion \u2014 Ricardo Sanz's nigiri and Mediterranean-inflected sushi at the Wellington.",
+      "d": "The godfather of Spanish-Japanese fusion: Ricardo Sanz's nigiri and Mediterranean-inflected sushi at the Wellington.",
       "lat": 40.447697,
       "lon": -3.625194,
       "photos": []
@@ -329,7 +329,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Chamart\u00edn (El Corte Ingl\u00e9s Serrano gastro-space)",
-      "d": "Dabiz Mu\u00f1oz's dumpling house \u2014 the DiverXO imagination poured into pasta and dumplings from around the world.",
+      "d": "Dabiz Mu\u00f1oz's dumpling house: the DiverXO imagination poured into pasta and dumplings from around the world.",
       "lat": 40.423728,
       "lon": -3.689904,
       "photos": []
@@ -339,7 +339,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Chamart\u00edn (Calle F\u00e9lix Boix)",
-      "d": "Hugo Mu\u00f1oz's free-wheeling Spanish-Japanese cooking \u2014 one of the city's most exciting recent stars.",
+      "d": "Hugo Mu\u00f1oz's free-wheeling Spanish-Japanese cooking: one of the city's most exciting recent stars.",
       "lat": 40.420663,
       "lon": -3.698249,
       "photos": []
@@ -349,7 +349,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Moncloa (Mercamadrid / Puerta de Hierro)",
-      "d": "A fish-house of extraordinary quality from a historic fishmonger \u2014 the finest seafood, treated with reverence.",
+      "d": "A fish-house of extraordinary quality from a historic fishmonger: the finest seafood, treated with reverence.",
       "lat": 40.448452,
       "lon": -3.709904,
       "photos": []
@@ -359,7 +359,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Chamber\u00ed (Calle Argensola)",
-      "d": "Edwin Rodr\u00edguez's refined Colombian cooking \u2014 the first star for a kitchen bringing South America to Madrid.",
+      "d": "Edwin Rodr\u00edguez's refined Colombian cooking: the first star for a kitchen bringing South America to Madrid.",
       "lat": 40.436101,
       "lon": -3.693194,
       "photos": []
@@ -379,7 +379,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Salamanca (Calle General Pardi\u00f1as)",
-      "d": "Miguel Carretero's cooking rooted in the Spanish countryside \u2014 game, croquetas and produce done seriously.",
+      "d": "Miguel Carretero's cooking rooted in the Spanish countryside: game, croquetas and produce done seriously.",
       "lat": 40.42898,
       "lon": -3.678214,
       "photos": []
@@ -389,7 +389,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Barrio de las Letras (Calle Lope de Vega)",
-      "d": "Safe Cruz's tribute to Canary Islands cooking \u2014 a tiny room bringing the archipelago's produce and culture to Madrid.",
+      "d": "Safe Cruz's tribute to Canary Islands cooking: a tiny room bringing the archipelago's produce and culture to Madrid.",
       "lat": 40.419329,
       "lon": -3.700166,
       "photos": []
@@ -399,7 +399,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Arganzuela (Casa del Reloj, Manzanares riverside)",
-      "d": "A young couple's produce-led tasting menu by the river \u2014 tradition and innovation in a serene, out-of-the-way room.",
+      "d": "A young couple's produce-led tasting menu by the river: tradition and innovation in a serene, out-of-the-way room.",
       "lat": 40.427937,
       "lon": -3.699499,
       "photos": []
@@ -409,7 +409,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Chamber\u00ed (Calle Blasco de Garay)",
-      "d": "Marcos Granda's intimate omakase counter \u2014 precise, seasonal Japanese cooking in a hushed, tiny room.",
+      "d": "Marcos Granda's intimate omakase counter: precise, seasonal Japanese cooking in a hushed, tiny room.",
       "lat": 40.423728,
       "lon": -3.689904,
       "photos": []
@@ -419,7 +419,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Chamart\u00edn (Calle Padre Dami\u00e1n)",
-      "d": "\u00d3scar Velasco and Montse Abell\u00e1's market-driven cooking \u2014 a first star for two of Spain's most respected hands.",
+      "d": "\u00d3scar Velasco and Montse Abell\u00e1's market-driven cooking: a first star for two of Spain's most respected hands.",
       "lat": 40.423728,
       "lon": -3.689904,
       "photos": []
@@ -429,7 +429,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Malasa\u00f1a / Universidad (Calle Ballesta)",
-      "d": "A beloved market-cuisine institution behind Gran V\u00eda \u2014 Juanjo L\u00f3pez's produce so good the menu changes by the morning.",
+      "d": "A beloved market-cuisine institution behind Gran V\u00eda: Juanjo L\u00f3pez's produce so good the menu changes by the morning.",
       "lat": 40.421321,
       "lon": -3.703529,
       "photos": []
@@ -439,7 +439,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Centro / La Latina (Calle Cuchilleros)",
-      "d": "The oldest restaurant on earth, open since 1725 \u2014 cochinillo and cordero from the original wood-fired oven.",
+      "d": "The oldest restaurant on earth, open since 1725: cochinillo and cordero from the original wood-fired oven.",
       "lat": 40.414175,
       "lon": -3.707981,
       "photos": []
@@ -449,7 +449,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Chamber\u00ed (Mercado de Vallehermoso)",
-      "d": "Roberto Mart\u00ednez Foronda's tiny market stall doing vivid Asian-Peruvian fusion \u2014 one of Madrid's most joyful tables.",
+      "d": "Roberto Mart\u00ednez Foronda's tiny market stall doing vivid Asian-Peruvian fusion: one of Madrid's most joyful tables.",
       "lat": 40.423728,
       "lon": -3.689904,
       "photos": []
@@ -459,7 +459,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Chamber\u00ed (Calle Castillo)",
-      "d": "A trio of chefs weaving Mediterranean, Japanese and Peruvian threads \u2014 creative, generous, always full.",
+      "d": "A trio of chefs weaving Mediterranean, Japanese and Peruvian threads: creative, generous, always full.",
       "lat": 40.433781,
       "lon": -3.698995,
       "photos": []
@@ -469,7 +469,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Chamber\u00ed (Calle Bret\u00f3n de los Herreros)",
-      "d": "Mario Pay\u00e1n's Japanese counter \u2014 an honest, affordable omakase and one of the city's best sushi seats for the price.",
+      "d": "Mario Pay\u00e1n's Japanese counter: an honest, affordable omakase and one of the city's best sushi seats for the price.",
       "lat": 40.423728,
       "lon": -3.689904,
       "photos": []
@@ -479,7 +479,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Malasa\u00f1a / Universidad (Calle San Vicente Ferrer)",
-      "d": "An old-fashioned Madrid tavern reborn \u2014 traditional Spanish cooking and a bar, done with real care.",
+      "d": "An old-fashioned Madrid tavern reborn: traditional Spanish cooking and a bar, done with real care.",
       "lat": 40.425898,
       "lon": -3.704833,
       "photos": []
@@ -489,7 +489,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Chueca / Justicia (Calle Pelayo)",
-      "d": "Honest, vibrant Mexican cooking in the heart of Chueca \u2014 a Bib Gourmand favourite for good, affordable food.",
+      "d": "Honest, vibrant Mexican cooking in the heart of Chueca: a Bib Gourmand favourite for good, affordable food.",
       "lat": 40.427835,
       "lon": -3.687894,
       "photos": []
@@ -499,7 +499,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Salamanca (Calle Recoletos)",
-      "d": "Classic Spanish taberna cooking of the highest order \u2014 the tortilla and croquetas that locals argue are the city's best.",
+      "d": "Classic Spanish taberna cooking of the highest order: the tortilla and croquetas that locals argue are the city's best.",
       "lat": 40.422141,
       "lon": -3.690864,
       "photos": []
@@ -509,7 +509,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Chamber\u00ed (Plaza del Descubridor Diego de Ord\u00e1s)",
-      "d": "C\u00e9sar Mart\u00edn's warm, produce-led cooking \u2014 an inventive neighbourhood room that has kept its Bib for years.",
+      "d": "C\u00e9sar Mart\u00edn's warm, produce-led cooking: an inventive neighbourhood room that has kept its Bib for years.",
       "lat": 40.440923,
       "lon": -3.700664,
       "photos": []
@@ -539,7 +539,7 @@
       "cat": "do",
       "tier": "",
       "a": "Paseo del Prado / Cortes",
-      "d": "The third point of the Golden Triangle, a former private aristocratic collection that fills the gaps the Prado and Reina Sof\u00eda leave \u2014 from early Italian gold-ground panels to Hopper and Impressionism. Its scale is human, ideal for a gentle, unhurried afternoon.",
+      "d": "The third point of the Golden Triangle, a former private aristocratic collection that fills the gaps the Prado and Reina Sof\u00eda leave: from early Italian gold-ground panels to Hopper and Impressionism. Its scale is human, ideal for a gentle, unhurried afternoon.",
       "lat": 40.416216,
       "lon": -3.694932,
       "photos": []
@@ -549,7 +549,7 @@
       "cat": "do",
       "tier": "",
       "a": "Palacio",
-      "d": "One of the largest palaces in Europe with over 3,000 rooms \u2014 grander than Versailles or Buckingham \u2014 where the Throne Room, Royal Armoury and Stradivarius collection dazzle. Private after-hours access can be arranged for discreet visits.",
+      "d": "One of the largest palaces in Europe with over 3,000 rooms: grander than Versailles or Buckingham, where the Throne Room, Royal Armoury and Stradivarius collection dazzle. Private after-hours access can be arranged for discreet visits.",
       "lat": 40.41674,
       "lon": -3.713622,
       "photos": []
@@ -579,7 +579,7 @@
       "cat": "do",
       "tier": "",
       "a": "Retiro",
-      "d": "A shimmering 1887 glass-and-iron pavilion set beside a pond in the Retiro, one of Madrid's most photographed structures. Note it is closed for restoration until around 2027, though its striking exterior \u2014 currently wrapped in Reina Sof\u00eda art interventions \u2014 is still worth the walk.",
+      "d": "A shimmering 1887 glass-and-iron pavilion set beside a pond in the Retiro, one of Madrid's most photographed structures. Note it is closed for restoration until around 2027, though its striking exterior: currently wrapped in Reina Sof\u00eda art interventions, is still worth the walk.",
       "lat": 40.413715,
       "lon": -3.681408,
       "photos": []
@@ -609,7 +609,7 @@
       "cat": "do",
       "tier": "",
       "a": "Centro",
-      "d": "Madrid's early-20th-century grand boulevard of belle-\u00e9poque and art-deco towers, cinemas and rooftop bars \u2014 the 'Spanish Broadway'. Walk it at dusk when the facades light up, or catch a Spanish-language musical.",
+      "d": "Madrid's early-20th-century grand boulevard of belle-\u00e9poque and art-deco towers, cinemas and rooftop bars: the 'Spanish Broadway'. Walk it at dusk when the facades light up, or catch a Spanish-language musical.",
       "lat": 40.420446,
       "lon": -3.703824,
       "photos": []
@@ -669,7 +669,7 @@
       "cat": "do",
       "tier": "",
       "a": "La Latina / Palacio",
-      "d": "Widely regarded as the finest flamenco tablao in the world, hosting legendary dancers since 1956 in an intimate room where you dine as you watch. Its separate gastronomic space under chef David Garc\u00eda holds a Michelin star \u2014 a rare pairing of art and haute cuisine.",
+      "d": "Widely regarded as the finest flamenco tablao in the world, hosting legendary dancers since 1956 in an intimate room where you dine as you watch. Its separate gastronomic space under chef David Garc\u00eda holds a Michelin star: a rare pairing of art and haute cuisine.",
       "lat": 40.412742,
       "lon": -3.714155,
       "photos": []
@@ -695,7 +695,7 @@
       "photos": []
     },
     {
-      "n": "Barrio de Salamanca \u2014 the Golden Mile",
+      "n": "Barrio de Salamanca: the Golden Mile",
       "cat": "do",
       "tier": "",
       "a": "Salamanca",
@@ -769,7 +769,7 @@
       "cat": "do",
       "tier": "",
       "a": "Moncloa / Madrid R\u00edo",
-      "d": "A tiny hermitage whose dome Goya frescoed in 1798 \u2014 and beneath which the painter himself is buried. A jewel-box of a stop, moving for anyone who has just seen his work in the Prado.",
+      "d": "A tiny hermitage whose dome Goya frescoed in 1798, and beneath which the painter himself is buried. A jewel-box of a stop, moving for anyone who has just seen his work in the Prado.",
       "lat": 40.425736,
       "lon": -3.72593,
       "photos": []
@@ -779,7 +779,7 @@
       "cat": "do",
       "tier": "",
       "a": "Paseo del Prado / Cortes",
-      "d": "A Herzog & de Meuron arts centre appearing to float above the street, fronted by a living wall of 15,000 plants \u2014 the first vertical garden in Spain. Ambitious rotating exhibitions make it a reliable cultural draw beside the Golden Triangle.",
+      "d": "A Herzog & de Meuron arts centre appearing to float above the street, fronted by a living wall of 15,000 plants: the first vertical garden in Spain. Ambitious rotating exhibitions make it a reliable cultural draw beside the Golden Triangle.",
       "lat": 40.411084,
       "lon": -3.693165,
       "photos": []
@@ -869,7 +869,7 @@
       "cat": "do",
       "tier": "",
       "a": "Centro / Alcal\u00e1",
-      "d": "A superb, blessedly quiet picture gallery holding Goyas \u2014 including his own self-portraits \u2014 plus Zurbar\u00e1n, Rubens and El Greco, where the great painter once served as director. The connoisseur's alternative to the Prado's crowds.",
+      "d": "A superb, blessedly quiet picture gallery holding Goyas: including his own self-portraits, plus Zurbar\u00e1n, Rubens and El Greco, where the great painter once served as director. The connoisseur's alternative to the Prado's crowds.",
       "lat": 40.417834,
       "lon": -3.700702,
       "photos": []
@@ -889,7 +889,7 @@
       "cat": "do",
       "tier": "",
       "a": "Salamanca / Recoletos",
-      "d": "Spain's national archaeology museum, whose star is the enigmatic Iberian sculpture the Lady of Elche, alongside Roman mosaics and Visigothic treasures. Beautifully modernised and rarely overwhelming \u2014 good for curious children.",
+      "d": "Spain's national archaeology museum, whose star is the enigmatic Iberian sculpture the Lady of Elche, alongside Roman mosaics and Visigothic treasures. Beautifully modernised and rarely overwhelming: good for curious children.",
       "lat": 40.423429,
       "lon": -3.688889,
       "photos": []
@@ -898,7 +898,7 @@
       "n": "Toledo",
       "cat": "do",
       "tier": "",
-      "a": "Day trip \u2014 approx. 70 km / 35 min by high-speed train",
+      "a": "Day trip: approx. 70 km / 35 min by high-speed train",
       "d": "A medieval hilltop city encircled by the Tagus where Christian, Muslim and Jewish worlds fused, home to El Greco's greatest works and a soaring Gothic cathedral. A private guide and car make an unforgettable full day; its whole historic city is a UNESCO site.",
       "lat": 40.407051,
       "lon": -3.711066,
@@ -908,8 +908,8 @@
       "n": "Segovia",
       "cat": "do",
       "tier": "",
-      "a": "Day trip \u2014 approx. 90 km / 30 min by high-speed train",
-      "d": "A storybook town crowned by a Roman aqueduct of 20,000 mortar-free granite blocks and the turreted Alc\u00e1zar that inspired Disney. Lunch on the region's famed roast \u2014 or lighter Castilian fare for veg-aware guests \u2014 before the drive back.",
+      "a": "Day trip: approx. 90 km / 30 min by high-speed train",
+      "d": "A storybook town crowned by a Roman aqueduct of 20,000 mortar-free granite blocks and the turreted Alc\u00e1zar that inspired Disney. Lunch on the region's famed roast, or lighter Castilian fare for veg-aware guests: before the drive back.",
       "lat": 40.413966,
       "lon": -3.722857,
       "photos": []
@@ -918,7 +918,7 @@
       "n": "El Escorial (Real Monasterio de San Lorenzo)",
       "cat": "do",
       "tier": "",
-      "a": "Day trip \u2014 approx. 50 km northwest",
+      "a": "Day trip: approx. 50 km northwest",
       "d": "Philip II's austere granite monastery-palace at the foot of the sierra, part royal mausoleum, part library, part basilica, and one of Spain's most powerful monuments. Cool mountain air and a grand setting make it an easy, rewarding half-day.",
       "lat": 40.589066,
       "lon": -4.147395,
@@ -928,7 +928,7 @@
       "n": "Aranjuez",
       "cat": "do",
       "tier": "",
-      "a": "Day trip \u2014 approx. 50 km south",
+      "a": "Day trip: approx. 50 km south",
       "d": "A royal spring retreat of palaces and formal riverside gardens along the Tagus, all fountains, tree-lined avenues and 18th-century calm. Arrive on the vintage Strawberry Train in season for a gentle, multi-generational outing.",
       "lat": 40.032229,
       "lon": -3.60401,
@@ -938,7 +938,7 @@
       "n": "Alcal\u00e1 de Henares",
       "cat": "do",
       "tier": "",
-      "a": "Day trip \u2014 approx. 35 km east",
+      "a": "Day trip: approx. 35 km east",
       "d": "The world's first planned university city and Cervantes's birthplace, with a golden-stone historic quarter and Spain's most storied lecture halls. A cultured, easy escape that pairs literary heritage with excellent Castilian tapas.",
       "lat": 40.481954,
       "lon": -3.363981,
@@ -948,7 +948,7 @@
       "n": "Chinch\u00f3n",
       "cat": "do",
       "tier": "",
-      "a": "Day trip \u2014 approx. 45 km southeast",
+      "a": "Day trip: approx. 45 km southeast",
       "d": "A perfectly preserved medieval town built around a circular, galleried Plaza Mayor that doubles as a bullring, ringed by taverns pouring the local an\u00eds. A charming, off-the-beaten-track lunch stop far from the crowds.",
       "lat": 40.140829,
       "lon": -3.423147,
@@ -959,7 +959,7 @@
       "cat": "party",
       "tier": "Cocktail bars",
       "a": "Barrio de las Letras (Calle Echegaray)",
-      "d": "Madrid's globally-ranked cocktail bar \u2014 Diego Cabrera's high-energy, comic-book den of bold, laboratory-made drinks.",
+      "d": "Madrid's globally-ranked cocktail bar: Diego Cabrera's high-energy, comic-book den of bold, laboratory-made drinks.",
       "lat": 40.414902,
       "lon": -3.699534,
       "photos": []
@@ -969,17 +969,17 @@
       "cat": "party",
       "tier": "Cocktail bars",
       "a": "Chueca / Justicia (Calle Reina)",
-      "d": "A dual wine bar and cocktail lab from the Villal\u00f3n brothers \u2014 500 labels upstairs, farm-to-glass drinks below.",
+      "d": "A dual wine bar and cocktail lab from the Villal\u00f3n brothers: 500 labels upstairs, farm-to-glass drinks below.",
       "lat": 40.420352,
       "lon": -3.700373,
       "photos": []
     },
     {
-      "n": "C\u00edrculo de Bellas Artes \u2014 Azotea",
+      "n": "C\u00edrculo de Bellas Artes: Azotea",
       "cat": "party",
       "tier": "Rooftops",
       "a": "Centro (Calle Alcal\u00e1)",
-      "d": "The rooftop of Madrid's grand 1880s arts club \u2014 the definitive panorama over Gran V\u00eda and the Metropolis dome.",
+      "d": "The rooftop of Madrid's grand 1880s arts club: the definitive panorama over Gran V\u00eda and the Metropolis dome.",
       "lat": 40.418267,
       "lon": -3.696363,
       "photos": []
@@ -989,7 +989,7 @@
       "cat": "party",
       "tier": "Rooftops",
       "a": "Centro (NH Collection Gran V\u00eda)",
-      "d": "A sleek rooftop over the theatre-lit canyon of Gran V\u00eda \u2014 cocktails with the city's grandest avenue at your feet.",
+      "d": "A sleek rooftop over the theatre-lit canyon of Gran V\u00eda: cocktails with the city's grandest avenue at your feet.",
       "lat": 40.420444,
       "lon": -3.705199,
       "photos": []
@@ -999,7 +999,7 @@
       "cat": "party",
       "tier": "Rooftops",
       "a": "Centro (VP Plaza Espa\u00f1a Design)",
-      "d": "A twelfth-floor rooftop and pool over Plaza de Espa\u00f1a \u2014 cocktails with the Royal Palace and Sierra beyond.",
+      "d": "A twelfth-floor rooftop and pool over Plaza de Espa\u00f1a: cocktails with the Royal Palace and Sierra beyond.",
       "lat": 40.422635,
       "lon": -3.711783,
       "photos": []
@@ -1009,27 +1009,27 @@
       "cat": "party",
       "tier": "Landmark bars",
       "a": "Chamber\u00ed (Calle Zurbano)",
-      "d": "An Art Deco cocktail bar in a duke's mansion, channelling old New York \u2014 the most discreet drink in the city.",
+      "d": "An Art Deco cocktail bar in a duke's mansion, channelling old New York: the most discreet drink in the city.",
       "lat": 40.416747,
       "lon": -3.707138,
       "photos": []
     },
     {
-      "n": "Palosanto \u2014 The Madrid EDITION",
+      "n": "Palosanto: The Madrid EDITION",
       "cat": "party",
       "tier": "Rooftops",
       "a": "Centro / Sol (Plaza de las Descalzas)",
-      "d": "The EDITION's buzzy rooftop over the old centre \u2014 a pool, a scene and a considered drink under the Madrid sky.",
+      "d": "The EDITION's buzzy rooftop over the old centre: a pool, a scene and a considered drink under the Madrid sky.",
       "lat": 40.417777,
       "lon": -3.70631,
       "photos": []
     },
     {
-      "n": "Charrada \u2014 Four Seasons Madrid",
+      "n": "Charrada: Four Seasons Madrid",
       "cat": "party",
       "tier": "Landmark bars",
       "a": "Centro / Sol (Canalejas)",
-      "d": "A polished cocktail bar inside the Four Seasons at Canalejas \u2014 expert drinks in the city's finest new luxury house.",
+      "d": "A polished cocktail bar inside the Four Seasons at Canalejas: expert drinks in the city's finest new luxury house.",
       "lat": 40.417272,
       "lon": -3.700392,
       "photos": []
