@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { Fragment, useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { useBareChromeForGuests } from "../lib/bareChrome";
 import styles from "./request-access-page.module.css";
@@ -46,6 +46,13 @@ const VIDEO_FALLBACK_SRC = "/images/tripagent-request-access-fallback.jpg";
 
 const DESK_EMAIL = "invite@tripagent.vip";
 
+// The headline's last word turns through a few of the places members go
+// (2026-10-22), and the strip at the foot drifts through more of them.
+const DESTINATIONS = ["Kyoto", "Patagonia", "Svalbard", "Udaipur", "the Maldives", "Marrakech", "Amalfi", "Bhutan"];
+const STRIP = ["Kyoto", "Patagonia", "Udaipur", "Svalbard", "Amalfi", "Marrakech", "Bhutan", "Lake Como", "Zermatt",
+  "the Maldives", "Petra", "Reykjavík", "Santorini", "Jaipur", "Namibia", "Antarctica"];
+const ROTATE_MS = 2800;
+
 type FieldName = "name" | "email" | "phone";
 type FieldErrors = Partial<Record<FieldName, string>>;
 const REQUIRED_ORDER: FieldName[] = ["name", "email", "phone"];
@@ -75,6 +82,46 @@ export default function RequestAccessPage() {
   const [submitErr, setSubmitErr] = useState("");
   const [phoneDigits, setPhoneDigits] = useState("");
   const thanksRef = useRef<HTMLDivElement>(null);
+  const rootRef = useRef<HTMLElement>(null);
+  const [dest, setDest] = useState(0);
+
+  // The destination word turns every few seconds (not with reduced motion).
+  useEffect(() => {
+    if (reduceMotion) return;
+    const t = window.setInterval(() => setDest((d) => (d + 1) % DESTINATIONS.length), ROTATE_MS);
+    return () => window.clearInterval(t);
+  }, [reduceMotion]);
+
+  // The background drifts a little against the pointer, and a soft light
+  // follows it across the card: two CSS variables on the root, one rAF.
+  useEffect(() => {
+    const root = rootRef.current;
+    if (!root || reduceMotion || !window.matchMedia("(hover: hover)").matches) return;
+    let raf = 0;
+    let px = 0.5;
+    let py = 0.5;
+    const card = root.querySelector<HTMLElement>("[data-card]");
+    const onMove = (e: PointerEvent) => {
+      px = e.clientX / window.innerWidth;
+      py = e.clientY / window.innerHeight;
+      if (card) {
+        const r = card.getBoundingClientRect();
+        card.style.setProperty("--mx", `${e.clientX - r.left}px`);
+        card.style.setProperty("--my", `${e.clientY - r.top}px`);
+      }
+      if (!raf)
+        raf = requestAnimationFrame(() => {
+          raf = 0;
+          root.style.setProperty("--px", (px - 0.5).toFixed(3));
+          root.style.setProperty("--py", (py - 0.5).toFixed(3));
+        });
+    };
+    window.addEventListener("pointermove", onMove, { passive: true });
+    return () => {
+      window.removeEventListener("pointermove", onMove);
+      if (raf) cancelAnimationFrame(raf);
+    };
+  }, [reduceMotion]);
 
   useEffect(() => {
     if (!submitted) return;
@@ -171,41 +218,80 @@ export default function RequestAccessPage() {
     ) : null;
   }
 
+  const fieldCls = (name?: FieldName) => `${styles.field}${name && errors[name] ? ` ${styles.fieldBad}` : ""}`;
+
   return (
-    <section className={styles.raRoot}>
-      {reduceMotion || videoFailed ? (
-        <img className={styles.bg} src={VIDEO_FALLBACK_SRC} alt="" aria-hidden="true" />
-      ) : (
-        <video
-          className={styles.bg}
-          autoPlay
-          muted
-          loop
-          playsInline
-          preload="auto"
-          poster={VIDEO_FALLBACK_SRC}
-          aria-hidden="true"
-          onError={() => setVideoFailed(true)}
-        >
-          <source src={VIDEO_SRC} type="video/mp4" />
-        </video>
-      )}
+    <section className={styles.raRoot} ref={rootRef}>
+      <div className={styles.bgMove} aria-hidden="true">
+        {reduceMotion || videoFailed ? (
+          <img className={styles.bg} src={VIDEO_FALLBACK_SRC} alt="" />
+        ) : (
+          <video
+            className={styles.bg}
+            autoPlay
+            muted
+            loop
+            playsInline
+            preload="auto"
+            poster={VIDEO_FALLBACK_SRC}
+            onError={() => setVideoFailed(true)}
+          >
+            <source src={VIDEO_SRC} type="video/mp4" />
+          </video>
+        )}
+      </div>
       <div className={styles.bgOverlay} aria-hidden="true" />
+      <div className={styles.grain} aria-hidden="true" />
+      <div className={`${styles.bar} ${styles.barTop}`} aria-hidden="true" />
+      <div className={`${styles.bar} ${styles.barBottom}`} aria-hidden="true" />
+
+      <header className={styles.top}>
+        <Link to="/" className={styles.brand} aria-label="TripAgent home">
+          <span className={styles.brandMark}>TA</span>
+          <span className={styles.brandName}>TripAgent</span>
+        </Link>
+        <Link to="/claim" className={styles.topLink}>
+          Have a code? <span>Open the door →</span>
+        </Link>
+      </header>
 
       <div className={styles.raWrap}>
         <div className={styles.raAside}>
-          <div className={styles.eyebrow}>By invitation</div>
+          <div className={styles.eyebrow}>
+            <span className={styles.eyebrowRule} />
+            By invitation only
+          </div>
           <h1 className={styles.heading}>
-            Your next journey starts with a <span className={styles.it}>request.</span>
+            <span className={styles.line}><span>Your next journey</span></span>
+            <span className={styles.line}><span>begins in</span></span>
+            <span className={`${styles.line} ${styles.destLine}`}>
+              <span className={styles.dest} aria-live="off">
+                {DESTINATIONS.map((d, i) => (
+                  <span key={d} className={`${styles.destWord}${i === dest ? ` ${styles.destOn}` : ""}${
+                    i === (dest + DESTINATIONS.length - 1) % DESTINATIONS.length ? ` ${styles.destOut}` : ""}`}
+                    aria-hidden={i !== dest}>
+                    {d}.
+                  </span>
+                ))}
+              </span>
+            </span>
           </h1>
           <p className={styles.lede}>
             Personal travel planning, curated experiences and expert advisors — for members, by invitation.
           </p>
+          <ol className={styles.promises}>
+            <li><span>I</span>A person reads every request — never a portal.</li>
+            <li><span>II</span>Every journey arranged end to end, by your advisor.</li>
+            <li><span>III</span>110+ destinations, each one decided.</li>
+          </ol>
         </div>
 
-        <div className={styles.card}>
+        <div className={`${styles.card}${submitted ? ` ${styles.cardDone}` : ""}`} data-card>
+          <div className={styles.cardGlow} aria-hidden="true" />
+          <div className={styles.seal} aria-hidden="true"><span>TA</span></div>
           {submitted ? (
             <div className={styles.thanks} role="status" aria-live="polite" tabIndex={-1} ref={thanksRef}>
+              <div className={styles.cardEyebrow}>Received</div>
               <h2 className={styles.cardHeading}>
                 Thank <span className={styles.cardIt}>you.</span>
               </h2>
@@ -222,23 +308,23 @@ export default function RequestAccessPage() {
             </div>
           ) : (
             <>
+              <div className={styles.cardEyebrow}>The Desk · TripAgent</div>
               <h2 className={styles.cardHeading}>
                 Ask for an <span className={styles.cardIt}>invitation.</span>
               </h2>
               <p className={styles.cardSub}>
-                Tell us how to reach you. A person at the Desk reads every request — no code is issued automatically,
-                and nothing here creates an account.
+                A person at the Desk reads every request. No code is issued automatically, and nothing here creates an
+                account.
               </p>
 
               <form className={styles.form} noValidate onSubmit={handleSubmit}>
-                <div className={styles.field}>
-                  <label htmlFor="ra-name">Your name</label>
+                <div className={fieldCls("name")}>
                   <input
                     className="ra-input"
                     id="ra-name"
                     name="name"
                     type="text"
-                    placeholder="First and last name"
+                    placeholder=" "
                     autoComplete="name"
                     maxLength={NAME_MAX}
                     onChange={(e) => {
@@ -247,33 +333,36 @@ export default function RequestAccessPage() {
                     }}
                     {...errProps("name")}
                   />
+                  <label htmlFor="ra-name">Your name</label>
+                  <span className={styles.lineFx} aria-hidden="true" />
                   {errLine("name")}
                 </div>
 
-                <div className={styles.field}>
-                  <label htmlFor="ra-email">Email</label>
+                <div className={fieldCls("email")}>
                   <input
                     className="ra-input"
                     id="ra-email"
                     name="email"
                     type="email"
-                    placeholder="you@example.com"
+                    placeholder=" "
                     autoComplete="email"
                     inputMode="email"
                     maxLength={EMAIL_MAX}
                     {...errProps("email")}
                   />
+                  <label htmlFor="ra-email">Email</label>
+                  <span className={styles.lineFx} aria-hidden="true" />
                   {errLine("email")}
                 </div>
 
-                <div className={styles.field}>
-                  <label htmlFor="ra-phone">Mobile</label>
+                <div className={`${fieldCls("phone")} ${styles.fieldPhone}`}>
+                  <span className={styles.cc} aria-hidden="true">+91</span>
                   <input
                     className="ra-input"
                     id="ra-phone"
                     name="phone"
                     type="tel"
-                    placeholder="10-digit mobile number"
+                    placeholder=" "
                     autoComplete="tel-national"
                     inputMode="numeric"
                     pattern="[6-9][0-9]{9}"
@@ -281,22 +370,25 @@ export default function RequestAccessPage() {
                     onChange={(e) => setPhoneDigits(onlyDigits(e.target.value))}
                     {...errProps("phone")}
                   />
+                  <label htmlFor="ra-phone">Mobile</label>
+                  <span className={styles.lineFx} aria-hidden="true" />
                   {errLine("phone")}
                 </div>
 
                 <div className={styles.field}>
-                  <label htmlFor="ra-reason">
-                    Tell us about your travel plans <span className={styles.optional}>· optional</span>
-                  </label>
                   <input
                     className="ra-input"
                     id="ra-reason"
                     name="reason"
                     type="text"
-                    placeholder="Where you'd like to go, or who referred you"
+                    placeholder=" "
                     autoComplete="off"
                     maxLength={REASON_MAX}
                   />
+                  <label htmlFor="ra-reason">
+                    Where you'd like to go <span className={styles.optional}>· optional</span>
+                  </label>
+                  <span className={styles.lineFx} aria-hidden="true" />
                 </div>
 
                 {submitErr && (
@@ -306,16 +398,11 @@ export default function RequestAccessPage() {
                 )}
 
                 <button type="submit" className={styles.submitBtn} disabled={submitting}>
-                  {submitting ? "One moment…" : "Send to the Desk"}
+                  <span>{submitting ? "One moment…" : "Send to the Desk"}</span>
+                  {!submitting && <span className={styles.arrow} aria-hidden="true">→</span>}
                 </button>
               </form>
 
-              <p className={styles.footLine}>
-                Already have a code?{" "}
-                <Link to="/claim" className={styles.footLink}>
-                  Open the door
-                </Link>
-              </p>
               <p className={styles.footLine}>
                 Or write to{" "}
                 <a href={`mailto:${DESK_EMAIL}`} className={styles.footLink}>
@@ -324,6 +411,21 @@ export default function RequestAccessPage() {
               </p>
             </>
           )}
+        </div>
+      </div>
+
+      <div className={styles.strip} aria-hidden="true">
+        <div className={styles.stripTrack}>
+          {[0, 1].map((k) => (
+            <span key={k}>
+              {STRIP.map((d) => (
+                <Fragment key={d}>
+                  {d}
+                  <i>·</i>
+                </Fragment>
+              ))}
+            </span>
+          ))}
         </div>
       </div>
     </section>
