@@ -14,8 +14,8 @@ export default function ClusterPin({
   label,
 }: {
   count: number;
-  onClick: () => void;
-  onMouseEnter?: () => void;
+  onClick: (e: React.MouseEvent<HTMLButtonElement>) => void;
+  onMouseEnter?: (e: React.MouseEvent<HTMLButtonElement>) => void;
   onMouseLeave?: () => void;
   open?: boolean;
   /** Screen-reader label; the default fits a badge that opens a card. A map

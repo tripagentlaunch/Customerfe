@@ -72,7 +72,39 @@ function fanOffsets(n: number): { dx: number; dy: number }[] {
 // Hover: a badge's card opens after a short pause (a mouse crossing the map
 // doesn't flash cards) and stays while the pointer is on the badge or card.
 const CARD_OPEN_MS = 120;
-const CARD_CLOSE_MS = 220;
+const CARD_CLOSE_MS = 280;
+// Moving on to another badge while a card is open waits longer, so a pointer
+// on its way from a badge to its card doesn't hand the card to a neighbour
+// it brushes past (that read as the card shaking).
+const CARD_SWITCH_MS = 420;
+// A desktop card's edge sits this far from its badge's centre, and never runs
+// up under the fixed header (+ breathing room) or off the bottom of the page.
+const CARD_GAP = 26;
+const HEADER_CLEAR = 76;
+
+type CardPlace = { transform: string; maxHeight: number };
+type OpenGroup = { key: string; venues: CityMapVenue[]; lat: number; lng: number; place?: CardPlace };
+
+/** Where a desktop card goes, decided once when it opens (not re-decided
+ *  while it's up, which let it flip sides): on whichever side of the badge has
+ *  more room on screen, and shifted in near the map's left/right edge. The
+ *  list scrolls inside when even that side is short. */
+function placeCard(badge: HTMLElement | null, mapEl: HTMLElement | null): CardPlace {
+  if (!badge) return { transform: `translate(-50%, calc(-100% - ${CARD_GAP}px))`, maxHeight: 420 };
+  const b = badge.getBoundingClientRect();
+  const m = mapEl?.getBoundingClientRect();
+  const cx = b.left + b.width / 2;
+  const cy = b.top + b.height / 2;
+  const above = cy - CARD_GAP - Math.max(m?.top ?? 0, HEADER_CLEAR);
+  const below = Math.min(m?.bottom ?? window.innerHeight, window.innerHeight - 12) - (cy + CARD_GAP);
+  const fx = m ? (cx - m.left) / (m.width || 1) : 0.5;
+  const x = fx < 0.3 ? "-24px" : fx > 0.7 ? "calc(-100% + 24px)" : "-50%";
+  const up = above >= below;
+  return {
+    transform: up ? `translate(${x}, calc(-100% - ${CARD_GAP}px))` : `translate(${x}, ${CARD_GAP}px)`,
+    maxHeight: Math.max(160, Math.min(460, up ? above : below)),
+  };
+}
 
 /** The city's own area: the venues around the middle of the city, ignoring a
  *  handful of far day trips, so the first view is the city and nothing else. */
@@ -135,16 +167,18 @@ export default function CityMap({
   const clusterRadius = isMobile ? CLUSTER_RADIUS_PX : DESKTOP_CLUSTER_RADIUS_PX;
 
   // The count badge whose card is open: its places and where it sits.
-  const [openGroup, setOpenGroup] = useState<{ key: string; venues: CityMapVenue[]; lat: number; lng: number } | null>(null);
+  const [openGroup, setOpenGroup] = useState<OpenGroup | null>(null);
   const hoverTimer = useRef<number | undefined>(undefined);
   // Desktop: a click opens the card and pins it, so it stays when the pointer
   // wanders off the badge; only its ×, Escape, a click on the map or a zoom
   // closes it. A card opened by hovering still goes when the pointer leaves.
   const pinnedRef = useRef(false);
-  function hoverGroup(next: typeof openGroup, delay: number) {
+  function hoverGroup(next: OpenGroup | null, delay: number) {
     if (pinnedRef.current && (!next || next.key === openGroup?.key)) return;
-    if (next) pinnedRef.current = false;
     window.clearTimeout(hoverTimer.current);
+    // Back on the badge whose card is already open: keep it as it is.
+    if (next && next.key === openGroup?.key) return;
+    if (next) pinnedRef.current = false;
     hoverTimer.current = window.setTimeout(() => setOpenGroup(next), delay);
   }
   function closeGroup() {
@@ -152,7 +186,7 @@ export default function CityMap({
     window.clearTimeout(hoverTimer.current);
     setOpenGroup(null);
   }
-  function pinGroup(group: NonNullable<typeof openGroup>) {
+  function pinGroup(group: OpenGroup) {
     window.clearTimeout(hoverTimer.current);
     pinnedRef.current = true;
     setSelected(null);
@@ -237,24 +271,6 @@ export default function CityMap({
     setSelected(v);
   }
 
-  // Where a desktop card goes: on whichever side of the badge has more of the
-  // map (it scrolls inside when even that is short); shifted in near an edge.
-  function cardPlacement(lat: number, lng: number): { transform: string; maxHeight: number } {
-    const b = map?.getBounds();
-    const h = map?.getDiv().clientHeight ?? 600;
-    if (!b) return { transform: "translate(-50%, calc(-100% - 26px))", maxHeight: 420 };
-    const ne = b.getNorthEast();
-    const sw = b.getSouthWest();
-    const fy = (ne.lat() - lat) / (ne.lat() - sw.lat() || 1);
-    const fx = (lng - sw.lng()) / (ne.lng() - sw.lng() || 1);
-    const x = fx < 0.3 ? "-24px" : fx > 0.7 ? "calc(-100% + 24px)" : "-50%";
-    const above = fy * h - 40;
-    const below = (1 - fy) * h - 40;
-    return above >= below
-      ? { transform: `translate(${x}, calc(-100% - 26px))`, maxHeight: Math.max(220, Math.min(460, above)) }
-      : { transform: `translate(${x}, 26px)`, maxHeight: Math.max(220, Math.min(460, below)) };
-  }
-
   function expandCluster(items: { v: CityMapVenue }[]) {
     // Phone: the places sheet stays up while the map zooms underneath it;
     // only its × (or picking a place) closes it.
@@ -285,6 +301,20 @@ export default function CityMap({
     () => (data ? { lat: data.center[0], lng: data.center[1] } : { lat: 20, lng: 0 }),
     [data]
   );
+
+  // One position object per place on the map, the same one on every render.
+  // The overlay library rebuilds an overlay whenever its `position` prop is a
+  // new object, and a rebuild pulls the element out of the page and puts it
+  // back: a pointer resting on a badge then loses its hover (no "leave" ever
+  // arrives, or "enter" fires again), and the card kept reopening and
+  // replaying its animation: the card shaking.
+  const positions = useRef(new Map<string, { lat: number; lng: number }>());
+  function stablePos(lat: number, lng: number) {
+    const k = `${lat},${lng}`;
+    let p = positions.current.get(k);
+    if (!p) positions.current.set(k, (p = { lat, lng }));
+    return p;
+  }
 
   if (data === null) {
     return <div className={styles.fallback}>Map not available for this destination yet.</div>;
@@ -416,7 +446,7 @@ export default function CityMap({
               const group = { key, venues: c.items.map((x) => x.v), lat, lng };
               const isOpen = openGroup?.key === key;
               return (
-                <OverlayViewF key={key} position={{ lat, lng }} mapPaneName={OVERLAY_MOUSE_TARGET}>
+                <OverlayViewF key={key} position={stablePos(lat, lng)} mapPaneName={OVERLAY_MOUSE_TARGET}>
                   <div style={{ transform: "translate(-50%, -50%)" }}>
                     <ClusterPin
                       count={c.items.length}
@@ -424,13 +454,17 @@ export default function CityMap({
                       // Desktop: hover or a click shows what's inside (the
                       // click pins it open); the card's footer zooms in.
                       // Phone: a tap shows what's inside (its card zooms in).
-                      onClick={() => {
-                        if (!isMobile) return pinGroup(group);
+                      onClick={(e) => {
+                        // Already open from hovering: pin it where it is, no jump.
+                        if (!isMobile) return pinGroup(isOpen && openGroup ? openGroup : { ...group, place: placeCard(e.currentTarget, map?.getDiv() ?? null) });
                         setSelected(null);
                         setOpenGroup(isOpen ? null : group);
                         if (!isOpen) revealMapAboveSheet();
                       }}
-                      onMouseEnter={isMobile ? undefined : () => { setSelected(null); hoverGroup(group, isOpen ? 0 : CARD_OPEN_MS); }}
+                      onMouseEnter={isMobile ? undefined : (e) => {
+                        setSelected(null);
+                        hoverGroup({ ...group, place: placeCard(e.currentTarget, map?.getDiv() ?? null) }, isOpen ? 0 : openGroup ? CARD_SWITCH_MS : CARD_OPEN_MS);
+                      }}
                       onMouseLeave={isMobile ? undefined : () => hoverGroup(null, CARD_CLOSE_MS)}
                     />
                   </div>
@@ -440,7 +474,7 @@ export default function CityMap({
             const { v, i } = c.items[0];
             const shift = c.offsets && (c.offsets.dx || c.offsets.dy) ? ` translate(${c.offsets.dx}px, ${c.offsets.dy}px)` : "";
             return (
-              <OverlayViewF key={`${v.n}-${i}`} position={{ lat: v.lat, lng: v.lon }} mapPaneName={OVERLAY_MOUSE_TARGET}>
+              <OverlayViewF key={`${v.n}-${i}`} position={stablePos(v.lat, v.lon)} mapPaneName={OVERLAY_MOUSE_TARGET}>
                 <button
                   type="button"
                   aria-label={v.n}
@@ -459,10 +493,16 @@ export default function CityMap({
             );
           })}
           {openGroup && !isMobile && (
-            <OverlayViewF key={`card-${openGroup.key}`} position={{ lat: openGroup.lat, lng: openGroup.lng }} mapPaneName={FLOAT_PANE}>
-              <div style={{ transform: cardPlacement(openGroup.lat, openGroup.lng).transform }}>
+            <OverlayViewF key={`card-${openGroup.key}`} position={stablePos(openGroup.lat, openGroup.lng)} mapPaneName={FLOAT_PANE}>
+              {/* Out of the layout and deaf to the pointer: as an in-flow block this
+                  wrapper made the overlay's box card-sized, anchored at the badge,
+                  in a layer above the badges. It sat over the badge the moment the
+                  card opened, so the badge lost its hover, the card closed, and
+                  it reopened: the card shaking, worst on the biggest clusters.
+                  The card itself takes the pointer again (ClusterCard's .card). */}
+              <div style={{ position: "absolute", left: 0, top: 0, pointerEvents: "none", transform: (openGroup.place ?? placeCard(null, null)).transform }}>
                 <ClusterCard
-                  maxHeight={cardPlacement(openGroup.lat, openGroup.lng).maxHeight}
+                  maxHeight={(openGroup.place ?? placeCard(null, null)).maxHeight}
                   venues={openGroup.venues}
                   city={slug}
                   livePhotos={livePlacesEnabled}
@@ -479,7 +519,7 @@ export default function CityMap({
           {effectiveSelected && (
             <OverlayViewF
               key={`${effectiveSelected.n}-${effectiveSelected.lat}-${effectiveSelected.lon}`}
-              position={{ lat: effectiveSelected.lat, lng: effectiveSelected.lon }}
+              position={stablePos(effectiveSelected.lat, effectiveSelected.lon)}
               mapPaneName={FLOAT_PANE}
               getPixelPositionOffset={() => ({ x: 0, y: 0 })}
             >
