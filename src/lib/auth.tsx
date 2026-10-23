@@ -5,9 +5,9 @@ import type { SiteMemberRow } from "./database.types";
 export type LoginResult = { ok: true } | { ok: false; error: "not_invited" | string };
 
 const SESSION_STAMP_KEY = "ta_session_started_at";
-// A login lasts 30 days from when the code was entered (2026-10-09, direct
-// request) — matches Customerbe's ta_login_at limit; then the code again.
-const SESSION_MAX_AGE_MS = 30 * 24 * 60 * 60 * 1000;
+// A login lasts 3 months (90 days) from when it began — matches Customerbe's
+// ta_login_at limit; after that the member signs in again with their email.
+const SESSION_MAX_AGE_MS = 90 * 24 * 60 * 60 * 1000;
 
 function isSessionTooOld(): boolean {
   const raw = localStorage.getItem(SESSION_STAMP_KEY);
