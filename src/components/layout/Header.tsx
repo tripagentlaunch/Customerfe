@@ -144,8 +144,11 @@ export function Header() {
   useEffect(() => {
     if (openRoom !== null) setSearchOpen(false);
   }, [openRoom]);
+  // Landing on a new page (a result was picked, a link followed) starts the
+  // search bar fresh; on /search the bar mirrors the URL's query instead.
   useEffect(() => {
     setSearchOpen(false);
+    if (pathname !== "/search") setQuery("");
   }, [pathname]);
   // A page change closes the Explore panel (it used to stay open over the new
   // page after tapping one of its links).

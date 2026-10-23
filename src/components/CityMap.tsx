@@ -137,9 +137,26 @@ export default function CityMap({
   // The count badge whose card is open: its places and where it sits.
   const [openGroup, setOpenGroup] = useState<{ key: string; venues: CityMapVenue[]; lat: number; lng: number } | null>(null);
   const hoverTimer = useRef<number | undefined>(undefined);
+  // Desktop: a click opens the card and pins it, so it stays when the pointer
+  // wanders off the badge; only its ×, Escape, a click on the map or a zoom
+  // closes it. A card opened by hovering still goes when the pointer leaves.
+  const pinnedRef = useRef(false);
   function hoverGroup(next: typeof openGroup, delay: number) {
+    if (pinnedRef.current && (!next || next.key === openGroup?.key)) return;
+    if (next) pinnedRef.current = false;
     window.clearTimeout(hoverTimer.current);
     hoverTimer.current = window.setTimeout(() => setOpenGroup(next), delay);
+  }
+  function closeGroup() {
+    pinnedRef.current = false;
+    window.clearTimeout(hoverTimer.current);
+    setOpenGroup(null);
+  }
+  function pinGroup(group: NonNullable<typeof openGroup>) {
+    window.clearTimeout(hoverTimer.current);
+    pinnedRef.current = true;
+    setSelected(null);
+    setOpenGroup(group);
   }
   function holdGroup() {
     window.clearTimeout(hoverTimer.current);
@@ -212,7 +229,7 @@ export default function CityMap({
   }
 
   function pickFromGroup(v: CityMapVenue) {
-    setOpenGroup(null);
+    closeGroup();
     if (map) {
       map.panTo({ lat: v.lat, lng: v.lon });
       if ((map.getZoom() ?? 0) < NO_CLUSTER_ZOOM) map.setZoom(NO_CLUSTER_ZOOM);
@@ -239,7 +256,9 @@ export default function CityMap({
   }
 
   function expandCluster(items: { v: CityMapVenue }[]) {
-    setOpenGroup(null);
+    // Phone: the places sheet stays up while the map zooms underneath it;
+    // only its × (or picking a place) closes it.
+    if (!isMobile) closeGroup();
     if (!map) return;
     const bounds = new google.maps.LatLngBounds();
     items.forEach(({ v }) => bounds.extend({ lat: v.lat, lng: v.lon }));
@@ -373,12 +392,13 @@ export default function CityMap({
           }}
           onClick={() => {
             setSelected(null);
-            setOpenGroup(null);
+            // Phone: the sheet is dismissed only by its ×.
+            if (!isMobile) closeGroup();
           }}
           onZoomChanged={() => {
             if (!map) return;
             setZoom(map.getZoom() ?? 11);
-            setOpenGroup(null);
+            if (!isMobile) closeGroup();
           }}
           options={{
             styles: MAP_STYLES,
@@ -401,10 +421,11 @@ export default function CityMap({
                     <ClusterPin
                       count={c.items.length}
                       open={isOpen}
-                      // Desktop: hover shows what's inside, a click zooms in.
+                      // Desktop: hover or a click shows what's inside (the
+                      // click pins it open); the card's footer zooms in.
                       // Phone: a tap shows what's inside (its card zooms in).
                       onClick={() => {
-                        if (!isMobile) return expandCluster(c.items);
+                        if (!isMobile) return pinGroup(group);
                         setSelected(null);
                         setOpenGroup(isOpen ? null : group);
                         if (!isOpen) revealMapAboveSheet();
@@ -428,7 +449,7 @@ export default function CityMap({
                   onMouseLeave={() => setSelected(null)}
                   // A tap on a phone (no hover) opens the card too.
                   onClick={(e) => {
-                    setOpenGroup(null);
+                    closeGroup();
                     selectVenue(v, e.nativeEvent);
                   }}
                 >
@@ -448,7 +469,7 @@ export default function CityMap({
                   sheet={false}
                   onPick={pickFromGroup}
                   onZoom={() => expandCluster(openGroup.venues.map((v) => ({ v })))}
-                  onClose={() => setOpenGroup(null)}
+                  onClose={closeGroup}
                   onMouseEnter={holdGroup}
                   onMouseLeave={() => hoverGroup(null, CARD_CLOSE_MS)}
                 />
@@ -474,7 +495,7 @@ export default function CityMap({
             sheet
             onPick={pickFromGroup}
             onZoom={() => expandCluster(openGroup.venues.map((v) => ({ v })))}
-            onClose={() => setOpenGroup(null)}
+            onClose={closeGroup}
           />
         )}
       </div>

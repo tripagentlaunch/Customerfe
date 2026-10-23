@@ -38,6 +38,66 @@ export function saveOrigin(code: string): void {
   window.dispatchEvent(new CustomEvent(EVENT, { detail: code }));
 }
 
+// Auto-fill from the visitor's location (2026-10-23, direct request): the
+// first time they open a city page with no origin of their own saved, ask the
+// browser where they are and pick the nearest origin in ORIGINS. A visitor
+// who denies, or whose browser can't say, keeps the default; one who picks a
+// city by hand always wins (also if they pick before the answer arrives).
+const ORIGIN_COORDS: Record<string, [number, number]> = {
+  blr: [12.9716, 77.5946],
+  del: [28.6139, 77.209],
+  bom: [19.076, 72.8777],
+};
+// Beyond this the "nearest" origin isn't near at all (someone in London is
+// not flying from Mumbai): keep the default instead.
+const MAX_ORIGIN_KM = 1500;
+const ASKED_KEY = "ta_origin_geo_asked";
+
+function distanceKm(lat1: number, lng1: number, lat2: number, lng2: number): number {
+  const rad = Math.PI / 180;
+  const a =
+    Math.sin(((lat2 - lat1) * rad) / 2) ** 2 +
+    Math.cos(lat1 * rad) * Math.cos(lat2 * rad) * Math.sin(((lng2 - lng1) * rad) / 2) ** 2;
+  return 6371 * 2 * Math.asin(Math.sqrt(a));
+}
+
+export function nearestOrigin(lat: number, lng: number): string | null {
+  let best: string | null = null;
+  let bestKm = Infinity;
+  for (const [code, [oLat, oLng]] of Object.entries(ORIGIN_COORDS)) {
+    if (!ORIGINS[code]) continue;
+    const km = distanceKm(lat, lng, oLat, oLng);
+    if (km < bestKm) {
+      best = code;
+      bestKm = km;
+    }
+  }
+  return bestKm <= MAX_ORIGIN_KM ? best : null;
+}
+
+// Asks at most once per browser session, and never once an origin is saved.
+export function detectOrigin(): void {
+  if (typeof navigator === "undefined" || !navigator.geolocation) return;
+  if (readProfile().origin) return;
+  try {
+    if (sessionStorage.getItem(ASKED_KEY)) return;
+    sessionStorage.setItem(ASKED_KEY, "1");
+  } catch {
+    // storage unavailable: ask on this page only
+  }
+  navigator.geolocation.getCurrentPosition(
+    (pos) => {
+      if (readProfile().origin) return; // they chose one while we waited
+      const code = nearestOrigin(pos.coords.latitude, pos.coords.longitude);
+      if (code) saveOrigin(code);
+    },
+    () => {
+      // denied or unavailable: the default stays
+    },
+    { timeout: 10000, maximumAge: 3600000 }
+  );
+}
+
 // [origin, setOrigin] — every component using it updates together, and
 // across tabs via the storage event.
 export function useOrigin(): [string, (code: string) => void] {

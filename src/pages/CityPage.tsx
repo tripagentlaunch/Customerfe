@@ -41,7 +41,7 @@ import styles from "./city-page.module.css";
 import LiveVenues from "../components/LiveVenues";
 import { useEngineGuide } from "../hooks/useEngineGuide";
 import { withBestWindow } from "../lib/bestMonths";
-import { ORIGINS, flightTimes, hoursLabel, useOrigin, type FlightFrom } from "../lib/origin";
+import { ORIGINS, detectOrigin, flightTimes, hoursLabel, useOrigin, type FlightFrom } from "../lib/origin";
 import CityPageLoader, { useCityPageReady } from "../components/CityPageLoader";
 import NotFoundPage from "./NotFoundPage";
 
@@ -671,6 +671,7 @@ export default function CityPage() {
   // itself as a fallback, stays the bundled data.
   const engineGuide = useEngineGuide(slug, baseCity?.guide);
   const [origin, setOrigin] = useOrigin();
+  useEffect(() => detectOrigin(), []);
   const [flightFrom, setFlightFrom] = useState<Record<string, FlightFrom> | null>(null);
   useEffect(() => {
     let cancelled = false;
@@ -769,6 +770,11 @@ export default function CityPage() {
   const dayCount = city?.plan.days?.length ?? 0;
   const [activeDayIndex, setActiveDayIndex] = useState(0);
   const [planInView, setPlanInView] = useState(false);
+  // A new city starts on its first day, not the previous city's.
+  useEffect(() => {
+    setActiveDayIndex(0);
+    setEventsTabOpen(false);
+  }, [slug]);
   const planSectionRef = useRef<HTMLElement | null>(null);
 
   // The sticky map also switches to a single-pin view of whichever event
