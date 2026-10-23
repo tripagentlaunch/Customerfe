@@ -48,7 +48,6 @@ export default function ClaimPage() {
   const navigate = useNavigate();
   const { refresh, signedIn, loading } = useAuth();
   const signIn = useSignInModal();
-  const [email, setEmail] = useState("");
   const [claimedAlready, setClaimedAlready] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
   const welcomeRef = useRef<HTMLDivElement>(null);
@@ -119,12 +118,6 @@ export default function ClaimPage() {
     setAnn({ text: "Verifying your code…", kind: "busy" });
 
     const clean = code.toUpperCase().replace(/[^A-Z0-9]/g, "");
-    const claimEmail = email.trim().toLowerCase();
-    if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(claimEmail)) {
-      setBusy(false);
-      setAnn({ text: "Please enter the email your invitation was sent to.", kind: "hint" });
-      return;
-    }
     const [res] = await Promise.all([
       (async (): Promise<RedeemResponse> => {
         // The backend can be asleep or mid-deploy (2026-10-13): the request
@@ -138,7 +131,7 @@ export default function ClaimPage() {
               method: "POST",
               credentials: "include",
               headers: { "Content-Type": "application/json" },
-              body: JSON.stringify({ email: claimEmail }),
+              body: JSON.stringify({}),
             });
             if (r.ok) return (await r.json()) as RedeemResponse;
             if (r.status === 429) return { valid: false, error: "too_many" };
@@ -195,8 +188,6 @@ export default function ClaimPage() {
     if (res.used === true) {
       setAnn({ text: "This code has already been claimed. Please sign in with your email.", kind: "err" });
       setClaimedAlready(true);
-    } else if (res.error === "wrong_email" || res.error === "email_required") {
-      setAnn({ text: "This code was issued to a different email. Please use the email your invitation was sent to.", kind: "err" });
     } else if (res.error === "email_taken") {
       setAnn({
         text: "That email is already attached to another membership. Please reach us on WhatsApp or write to invite@tripagent.vip.",
@@ -264,21 +255,6 @@ export default function ClaimPage() {
                   onChange={handleInput}
                   aria-invalid={ann?.kind === "err"}
                   aria-describedby="claim-ann"
-                />
-                <label htmlFor="claim-email" className={styles.label}>
-                  Your email
-                </label>
-                <input
-                  className={`ra-input ${styles.codeInput}`}
-                  id="claim-email"
-                  type="email"
-                  autoComplete="email"
-                  placeholder="you@example.com"
-                  value={email}
-                  onChange={(e) => {
-                    setEmail(e.target.value);
-                    setAnn(null);
-                  }}
                 />
                 <div
                   id="claim-ann"
