@@ -18,6 +18,9 @@ import SearchResultRow from "../SearchResultRow";
 // structure real visitors get today. css/site.css's .ta-hd rules (added
 // 2026-07-07) apply with zero new CSS.
 const SUGGESTIONS_SHOWN = 8;
+// The header's search row goes full-width (and its dropdown joins the header's
+// flow) at this width — matches css/site.css's max-width:900px header rules.
+const NARROW_HEADER = 900;
 
 const SEARCH_ICON = (
   <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth={1.6}>
@@ -35,6 +38,8 @@ export function Header() {
   const navigate = useNavigate();
 
   const [query, setQuery] = useState("");
+  const [searchOpen, setSearchOpen] = useState(false);
+  const q = query.trim();
   const headerRef = useRef<HTMLElement>(null);
   const edgeRef = useRef<HTMLDivElement>(null);
   const searchRef = useRef<HTMLFormElement>(null);
@@ -112,25 +117,33 @@ export function Header() {
       if (raf) cancelAnimationFrame(raf);
     };
   }, []);
-  const desktopVisible = atTop || active || initialPeek || sidebarPeek || hovering || menuOpen || openRoom !== null;
+  const desktopVisible = atTop || active || initialPeek || sidebarPeek || hovering || menuOpen || openRoom !== null || (searchOpen && !!q);
 
   // Phone: no hover. Standard direction-based bar — always visible near the
   // top of the page, hides as soon as the page is scrolled DOWN, and comes
   // straight back on the next scroll UP (it stays until the next scroll
   // down). Stays put while the Explore panel is open or search has focus.
   const isMobile = useIsMobile();
+  const narrow = useIsMobile(NARROW_HEADER);
   const { pathname, search } = useLocation();
   const [phoneShown, setPhoneShown] = useState(true);
   const [focusWithin, setFocusWithin] = useState(false);
-  // Phone: search suggests right under the bar as you type, on the same
-  // screen, instead of jumping to /search (desktop still does).
-  const [searchOpen, setSearchOpen] = useState(false);
+  // Search suggests right under the bar as you type, on the same page — on
+  // every screen size, never a jump to /search. Closes on a click outside the
+  // header, on Escape, and on a page change.
   const [searchIndex, setSearchIndex] = useState<SearchEntry[] | null>(null);
-  const q = query.trim();
+  const [showAll, setShowAll] = useState(false);
   useEffect(() => {
-    if (isMobile && searchOpen && !searchIndex) loadSearchIndex().then(setSearchIndex);
-  }, [isMobile, searchOpen, searchIndex]);
+    if (searchOpen && !searchIndex) loadSearchIndex().then(setSearchIndex);
+  }, [searchOpen, searchIndex]);
   const suggestions = useMemo(() => (searchIndex && q ? matches(searchIndex, q) : []), [searchIndex, q]);
+  useEffect(() => {
+    setShowAll(false);
+  }, [q]);
+  // Opening the Explore panel takes over the space under the bar.
+  useEffect(() => {
+    if (openRoom !== null) setSearchOpen(false);
+  }, [openRoom]);
   useEffect(() => {
     setSearchOpen(false);
   }, [pathname]);
@@ -269,14 +282,46 @@ export function Header() {
 
   function onSearchChange(value: string) {
     setQuery(value);
+    setSearchOpen(true);
     if (onSearchPage) navigate(searchUrl(value), { replace: true });
   }
 
+  // On /search Enter refreshes that page's results in place; anywhere else the
+  // results are already open under the bar and the visitor stays put.
   function submitSearch(e: React.FormEvent) {
     e.preventDefault();
-    setSearchOpen(false);
-    navigate(searchUrl(query), { replace: onSearchPage });
+    if (onSearchPage) navigate(searchUrl(query), { replace: true });
+    else if (q) setSearchOpen(true);
   }
+
+  const shownSuggestions = showAll ? suggestions : suggestions.slice(0, SUGGESTIONS_SHOWN);
+  const suggestBox =
+    searchOpen && q && !onSearchPage ? (
+      <div className="ta-hd-suggest" aria-live="polite">
+        {!searchIndex ? null : suggestions.length === 0 ? (
+          <div className="sp-empty">
+            <p>Nothing in the library matched “{q}”.</p>
+            <p>
+              Your advisor can still find it: {" "}
+              <Link to={`/enquire?about=${encodeURIComponent(q)}`}>tell them what you have in mind →</Link>
+            </p>
+          </div>
+        ) : (
+          <>
+            <div className="sp-rows">
+              {shownSuggestions.map((e, i) => (
+                <SearchResultRow entry={e} key={e.u + i} />
+              ))}
+            </div>
+            {!showAll && suggestions.length > SUGGESTIONS_SHOWN && (
+              <button type="button" className="ta-hd-suggest-all" onClick={() => setShowAll(true)}>
+                Show {suggestions.length - SUGGESTIONS_SHOWN} more →
+              </button>
+            )}
+          </>
+        )}
+      </div>
+    ) : null;
 
   return (
     <>
@@ -327,36 +372,12 @@ export function Header() {
             spellCheck={false}
             value={query}
             onChange={(e) => onSearchChange(e.target.value)}
-            onFocus={() => (isMobile ? setSearchOpen(true) : onSearchPage ? undefined : navigate(searchUrl(query)))}
+            onFocus={() => setSearchOpen(true)}
           />
+          {!narrow && suggestBox}
         </form>
 
-        {isMobile && searchOpen && q && !onSearchPage && (
-          <div className="ta-hd-suggest" aria-live="polite">
-            {!searchIndex ? null : suggestions.length === 0 ? (
-              <div className="sp-empty">
-                <p>Nothing in the library matched “{q}”.</p>
-                <p>
-                  Your advisor can still find it: {" "}
-                  <Link to={`/enquire?about=${encodeURIComponent(q)}`}>tell them what you have in mind →</Link>
-                </p>
-              </div>
-            ) : (
-              <>
-                <div className="sp-rows">
-                  {suggestions.slice(0, SUGGESTIONS_SHOWN).map((e, i) => (
-                    <SearchResultRow entry={e} key={e.u + i} />
-                  ))}
-                </div>
-                {suggestions.length > SUGGESTIONS_SHOWN && (
-                  <Link className="ta-hd-suggest-all" to={`/search?q=${encodeURIComponent(q)}`}>
-                    See all results →
-                  </Link>
-                )}
-              </>
-            )}
-          </div>
-        )}
+        {narrow && suggestBox}
 
         <div className="ta-hd-cluster">
           {/* Not shown as "Sign in" until the session check has answered —
