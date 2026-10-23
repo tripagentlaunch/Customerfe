@@ -61,6 +61,17 @@ export default function HomeSearch({ labelHtml }: { labelHtml: string }) {
   const [index, setIndex] = useState<SearchEntry[] | null>(null);
   const inputRef = useRef<HTMLInputElement>(null);
   const [focused, setFocused] = useState(false);
+  // Results hide on a click outside the bar + list, or Escape; typing or
+  // focusing the field brings them back.
+  const [open, setOpen] = useState(true);
+  const rootRef = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    const onDown = (e: MouseEvent) => {
+      if (e.target instanceof Node && !rootRef.current?.contains(e.target)) setOpen(false);
+    };
+    document.addEventListener("mousedown", onDown);
+    return () => document.removeEventListener("mousedown", onDown);
+  }, []);
   const typed = useTypedExample(!query && !focused);
 
   const q = query.trim();
@@ -77,10 +88,11 @@ export default function HomeSearch({ labelHtml }: { labelHtml: string }) {
   }, [q]);
 
   const results = useMemo(() => (index && q ? matches(index, q) : []), [index, q]);
-  const allHref = `/search?q=${encodeURIComponent(q)}`;
+  const [showAll, setShowAll] = useState(false);
+  useEffect(() => setShowAll(false), [q]);
 
   return (
-    <div className="reveal d1">
+    <div className="reveal d1" ref={rootRef}>
       <form
         className={styles.discSearch}
         role="search"
@@ -116,17 +128,24 @@ export default function HomeSearch({ labelHtml }: { labelHtml: string }) {
             onFocus={() => {
               warm();
               setFocused(true);
+              setOpen(true);
             }}
             onBlur={() => setFocused(false)}
-            onChange={(e) => setQuery(e.target.value)}
+            onChange={(e) => {
+              setQuery(e.target.value);
+              setOpen(true);
+            }}
             onKeyDown={(e) => {
-              if (e.key === "Escape") setQuery("");
+              if (e.key === "Escape") {
+                setQuery("");
+                setOpen(false);
+              }
             }}
           />
         </span>
       </form>
 
-      {q && index && (
+      {open && q && index && (
         <div className={styles.dsResults} aria-live="polite">
           {results.length === 0 ? (
             <div className="sp-empty">
@@ -139,14 +158,14 @@ export default function HomeSearch({ labelHtml }: { labelHtml: string }) {
           ) : (
             <>
               <div className="sp-rows">
-                {results.slice(0, SHOWN).map((e, i) => (
+                {(showAll ? results : results.slice(0, SHOWN)).map((e, i) => (
                   <SearchResultRow entry={e} key={e.u + i} />
                 ))}
               </div>
-              {results.length > SHOWN && (
-                <Link className={styles.dsAll} to={allHref}>
-                  See all results →
-                </Link>
+              {!showAll && results.length > SHOWN && (
+                <button type="button" className={styles.dsAll} onClick={() => setShowAll(true)}>
+                  Show {results.length - SHOWN} more →
+                </button>
               )}
             </>
           )}
