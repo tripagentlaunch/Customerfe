@@ -13,8 +13,8 @@ export default function ClusterPin({
   open = false,
 }: {
   count: number;
-  onClick: () => void;
-  onMouseEnter?: () => void;
+  onClick: (e: React.MouseEvent<HTMLButtonElement>) => void;
+  onMouseEnter?: (e: React.MouseEvent<HTMLButtonElement>) => void;
   onMouseLeave?: () => void;
   open?: boolean;
 }) {
