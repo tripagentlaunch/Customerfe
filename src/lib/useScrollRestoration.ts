@@ -67,7 +67,8 @@ export function useScrollRestoration(): void {
   const positions = useRef<Record<string, number>>(readPositions());
   const key = entryKey(location);
   const currentKey = useRef(key);
-  const firstEntry = useRef(true);
+  const firstRun = useRef<string | null>(null);
+  const leftFirst = useRef(false);
 
   // The browser's own restoration fights a client-side router; this hook
   // owns it instead.
@@ -96,12 +97,22 @@ export function useScrollRestoration(): void {
   useLayoutEffect(() => {
     currentKey.current = key;
     const saved = positions.current[key];
-    const isFirstEntry = firstEntry.current;
-    firstEntry.current = false;
+    // The first entry is the one this run is for until a different entry (or
+    // navigation type) has been seen. React StrictMode (dev) runs this effect
+    // twice for the same entry, a task apart, and the second run must still
+    // count as the first.
+    const runId = `${key}|${navigationType}`;
+    if (firstRun.current === null) firstRun.current = runId;
+    else if (firstRun.current !== runId) leftFirst.current = true;
+    const isFirstEntry = firstRun.current === runId && !leftFirst.current;
 
-    // PUSH/REPLACE (a link, a redirect), a fresh full page load, or an
-    // entry with nothing saved: start at the top.
-    if (navigationType !== "POP" || saved === undefined || (isFirstEntry && !documentLoadWasHistory())) {
+    // PUSH/REPLACE (a link, a redirect), a fresh full page load or a
+    // reload, or an entry with nothing saved: start at the top. A city page
+    // opened by a full load (a link from elsewhere, a phone restoring the
+    // tab) always opens on its overview, never part-way down the guide or
+    // plan where it was last left (2026-10-23, direct request).
+    const cityFirstLoad = isFirstEntry && location.pathname.startsWith("/city-");
+    if (navigationType !== "POP" || saved === undefined || cityFirstLoad || (isFirstEntry && !documentLoadWasHistory())) {
       jumpTo(0);
       return;
     }
