@@ -518,7 +518,7 @@ function GuidePanel({
               const noTag = credentials.length === 0;
               const live = livePhotos[`${panel.key}-${i}-${j}`];
               const isLoadingLivePhoto = !item.photo && live?.status === "loading";
-              const photo = item.photo ?? (live?.status === "success" ? live.photoUrl : null);
+              const photo = item.photo || (live?.status === "success" ? live.photoUrl : null); // "" counts as no photo: the live lookup fills it
               return (
               <li
                 className={(() => {
