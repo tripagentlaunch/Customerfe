@@ -37,7 +37,10 @@ export function Header() {
   const { menuOpen, openRoom, toggleRoom } = useNavMenu();
   const navigate = useNavigate();
 
-  const [query, setQuery] = useState("");
+  // A full load (or refresh) of /search?q=… starts with that query in the bar.
+  const [query, setQuery] = useState(() =>
+    window.location.pathname === "/search" ? new URLSearchParams(window.location.search).get("q") || "" : ""
+  );
   const [searchOpen, setSearchOpen] = useState(false);
   const q = query.trim();
   const headerRef = useRef<HTMLElement>(null);

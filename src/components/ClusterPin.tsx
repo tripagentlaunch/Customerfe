@@ -11,19 +11,23 @@ export default function ClusterPin({
   onMouseEnter,
   onMouseLeave,
   open = false,
+  label,
 }: {
   count: number;
   onClick: (e: React.MouseEvent<HTMLButtonElement>) => void;
   onMouseEnter?: (e: React.MouseEvent<HTMLButtonElement>) => void;
   onMouseLeave?: () => void;
   open?: boolean;
+  /** Screen-reader label; the default fits a badge that opens a card. A map
+   *  whose badge zooms in on click says so ("N places: zoom in"). */
+  label?: string;
 }) {
   const size = count >= 100 ? styles.lg : count >= 10 ? styles.md : styles.sm;
   return (
     <button
       type="button"
       className={`${styles.cluster} ${size}${open ? ` ${styles.open}` : ""}`}
-      aria-label={`${count} places`}
+      aria-label={label ?? `${count} places`}
       aria-expanded={open}
       onClick={onClick}
       onMouseEnter={onMouseEnter}

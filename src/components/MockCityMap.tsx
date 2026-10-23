@@ -185,7 +185,7 @@ export default function MockCityMap({
         if (c.items.length > 1) {
           return (
             <div key={`cluster-${c.items.map((x) => x.i).join("-")}`} className={styles.pin} style={{ left: c.x, top: c.y }}>
-              <ClusterPin count={c.items.length} onClick={() => expandCluster(c.items)} />
+              <ClusterPin count={c.items.length} label={`${c.items.length} places: zoom in`} onClick={() => expandCluster(c.items)} />
             </div>
           );
         }
