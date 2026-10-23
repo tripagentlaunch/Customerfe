@@ -9,7 +9,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "GT Road / near the Old City",
-      "d": "The city's flagship five-star \u2014 Taj polish and Punjabi warmth, five kilometres from the Golden Temple.",
+      "d": "The city's flagship five-star: Taj polish and Punjabi warmth, five kilometres from the Golden Temple.",
       "lat": 31.659128,
       "lon": 74.87819,
       "photos": []
@@ -29,7 +29,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Airport road (opposite ATQ airport)",
-      "d": "A grounds-set Radisson Blu with the largest ballroom in the city \u2014 the wedding address on the airport road.",
+      "d": "A grounds-set Radisson Blu with the largest ballroom in the city: the wedding address on the airport road.",
       "lat": 31.705989,
       "lon": 74.818961,
       "photos": []
@@ -39,7 +39,7 @@
       "cat": "stay",
       "tier": "Premium",
       "a": "Old City (near the Golden Temple)",
-      "d": "A 200-year-old family haveli reborn as a wellness boutique \u2014 the only true heritage stay in Amritsar.",
+      "d": "A 200-year-old family haveli reborn as a wellness boutique: the only true heritage stay in Amritsar.",
       "lat": 31.640807,
       "lon": 74.868502,
       "photos": []
@@ -49,7 +49,7 @@
       "cat": "stay",
       "tier": "Premium",
       "a": "Ranjit Avenue",
-      "d": "A dependable IHG house in the leafy Ranjit Avenue district \u2014 well-run and central to the newer city.",
+      "d": "A dependable IHG house in the leafy Ranjit Avenue district: well-run and central to the newer city.",
       "lat": 31.658231,
       "lon": 74.864988,
       "photos": []
@@ -59,7 +59,7 @@
       "cat": "eat",
       "tier": "Casual",
       "a": "Old City (Chowk Passian, near the Golden Temple)",
-      "d": "A century-old pure-vegetarian legend \u2014 dal makhani cooked overnight in copper, once served to Nehru and Lala Lajpat Rai.",
+      "d": "A century-old pure-vegetarian legend: dal makhani cooked overnight in copper, once served to Nehru and Lala Lajpat Rai.",
       "lat": 31.624196,
       "lon": 74.872824,
       "photos": []
@@ -69,7 +69,7 @@
       "cat": "eat",
       "tier": "Casual",
       "a": "Old City (near Town Hall / Golden Temple)",
-      "d": "Amritsar's oldest dhaba \u2014 pure-veg Punjabi cooking slow-simmered in desi ghee since a tent in 1912.",
+      "d": "Amritsar's oldest dhaba: pure-veg Punjabi cooking slow-simmered in desi ghee since a tent in 1912.",
       "lat": 31.62596,
       "lon": 74.877774,
       "photos": []
@@ -79,7 +79,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Majitha Road / Lawrence Road",
-      "d": "The definitive Amritsari fried fish \u2014 crisp, tender singhara fish that made the city's most famous non-veg name.",
+      "d": "The definitive Amritsari fried fish: crisp, tender singhara fish that made the city's most famous non-veg name.",
       "lat": 31.643403,
       "lon": 74.884398,
       "photos": []
@@ -89,7 +89,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Majitha Road",
-      "d": "Four decades of smoky tandoori chicken with a dry-rub the city argues over \u2014 no colour, no fuss, just fire.",
+      "d": "Four decades of smoky tandoori chicken with a dry-rub the city argues over: no colour, no fuss, just fire.",
       "lat": 31.642186,
       "lon": 74.884036,
       "photos": []
@@ -99,7 +99,7 @@
       "cat": "eat",
       "tier": "Casual",
       "a": "Lawrence Road (Dayanand Nagar)",
-      "d": "The city's morning ritual \u2014 puri chole and halwa, plus a sweet counter of pinni, kaju katli and motichoor.",
+      "d": "The city's morning ritual: puri chole and halwa, plus a sweet counter of pinni, kaju katli and motichoor.",
       "lat": 31.64627,
       "lon": 74.878043,
       "photos": []
@@ -109,7 +109,7 @@
       "cat": "eat",
       "tier": "Casual",
       "a": "Basant Avenue (Maqbool Road)",
-      "d": "The kulcha the city sends you to \u2014 crisp, many-layered, butter-soaked, praised by chef Vikas Khanna.",
+      "d": "The kulcha the city sends you to: crisp, many-layered, butter-soaked, praised by chef Vikas Khanna.",
       "lat": 31.617919,
       "lon": 74.915262,
       "photos": []
@@ -119,7 +119,7 @@
       "cat": "eat",
       "tier": "Casual",
       "a": "Old City (Hall Bazaar)",
-      "d": "A kulhad of peda lassi so rich it doubles as a meal \u2014 Hall Bazaar's most famous glass.",
+      "d": "A kulhad of peda lassi so rich it doubles as a meal: Hall Bazaar's most famous glass.",
       "lat": 31.629411,
       "lon": 74.873802,
       "photos": []
@@ -129,7 +129,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Nehru Shopping Complex (Lawrence Road)",
-      "d": "The grand old name of Amritsari non-veg \u2014 tandoori meats and fried fish with a fuller sit-down setting.",
+      "d": "The grand old name of Amritsari non-veg: tandoori meats and fried fish with a fuller sit-down setting.",
       "lat": 31.633461,
       "lon": 74.868089,
       "photos": []
@@ -139,7 +139,7 @@
       "cat": "eat",
       "tier": "Casual",
       "a": "Old City (within the Golden Temple complex)",
-      "d": "The world's largest free kitchen \u2014 a simple vegetarian meal served to around 100,000 people a day, to anyone, for free.",
+      "d": "The world's largest free kitchen: a simple vegetarian meal served to around 100,000 people a day, to anyone, for free.",
       "lat": 31.619521,
       "lon": 74.877882,
       "photos": []
@@ -569,7 +569,7 @@
       "cat": "party",
       "tier": "Landmark bars",
       "a": "GT Road (Taj Swarna)",
-      "d": "The most composed evening drink in a modest city \u2014 Taj service, well-kept spirits and quiet.",
+      "d": "The most composed evening drink in a modest city: Taj service, well-kept spirits and quiet.",
       "lat": 31.635688,
       "lon": 74.856734,
       "photos": []
@@ -579,7 +579,7 @@
       "cat": "party",
       "tier": "Rooftops",
       "a": "Old City (Golden Temple plaza)",
-      "d": "Not a bar but the city's real night view \u2014 chai or a cold coffee above the illuminated temple, mirrored in its pool.",
+      "d": "Not a bar but the city's real night view: chai or a cold coffee above the illuminated temple, mirrored in its pool.",
       "lat": 31.622651,
       "lon": 74.878582,
       "photos": []

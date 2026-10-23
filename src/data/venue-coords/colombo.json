@@ -19,7 +19,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Fort / Slave Island (Colombo waterfront)",
-      "d": "The city's newest icon \u2014 a twin-tower waterfront house from a group that knows the Indian traveller by name.",
+      "d": "The city's newest icon: a twin-tower waterfront house from a group that knows the Indian traveller by name.",
       "lat": 6.933727,
       "lon": 79.85008,
       "photos": []
@@ -39,7 +39,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Kollupitiya (Colombo 3)",
-      "d": "The city's grand social house \u2014 where Colombo comes to dine, marry and be seen.",
+      "d": "The city's grand social house, where Colombo comes to dine, marry and be seen.",
       "lat": 6.91809,
       "lon": 79.848492,
       "photos": []
@@ -69,7 +69,7 @@
       "cat": "stay",
       "tier": "Premium",
       "a": "Galle Face / Kollupitiya",
-      "d": "One of the oldest hotels east of Suez \u2014 1864 colonial grandeur, still keeping the sea at its feet.",
+      "d": "One of the oldest hotels east of Suez: 1864 colonial grandeur, still keeping the sea at its feet.",
       "lat": 6.920121,
       "lon": 79.846135,
       "photos": []
@@ -89,7 +89,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Fort",
-      "d": "Chef Dharshan Munidasa's first house \u2014 thirty years of exacting Japanese cooking with a Sri Lankan soul.",
+      "d": "Chef Dharshan Munidasa's first house: thirty years of exacting Japanese cooking with a Sri Lankan soul.",
       "lat": 6.920025,
       "lon": 79.847288,
       "photos": []
@@ -99,7 +99,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Cinnamon Gardens (Colombo 7)",
-      "d": "Fine dining inside a landmark Paradise Road mansion \u2014 the city's most elegant table.",
+      "d": "Fine dining inside a landmark Paradise Road mansion: the city's most elegant table.",
       "lat": 6.915112,
       "lon": 79.869924,
       "photos": []
@@ -109,7 +109,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Kollupitiya (Colombo 3)",
-      "d": "Sri Lankan prawn cookery turned into something joyful \u2014 the island's flavours, unfussy and bright.",
+      "d": "Sri Lankan prawn cookery turned into something joyful: the island's flavours, unfussy and bright.",
       "lat": 6.912066,
       "lon": 79.854639,
       "photos": []
@@ -499,7 +499,7 @@
       "cat": "party",
       "tier": "Rooftops",
       "a": "Kollupitiya (Colombo 3)",
-      "d": "The Cinnamon Grand's rooftop bar \u2014 the city skyline and a red-lit terrace, long the address for a considered evening drink.",
+      "d": "The Cinnamon Grand's rooftop bar: the city skyline and a red-lit terrace, long the address for a considered evening drink.",
       "lat": 6.913356,
       "lon": 79.857616,
       "photos": []
@@ -509,7 +509,7 @@
       "cat": "party",
       "tier": "Cocktail bars",
       "a": "Fort / One Galle Face",
-      "d": "Shangri-La's lobby lounge above Galle Face \u2014 a calm, polished room for cocktails and afternoon tea over the ocean.",
+      "d": "Shangri-La's lobby lounge above Galle Face: a calm, polished room for cocktails and afternoon tea over the ocean.",
       "lat": 6.928526,
       "lon": 79.844452,
       "photos": []
@@ -519,7 +519,7 @@
       "cat": "party",
       "tier": "Landmark bars",
       "a": "Galle Face / Kollupitiya",
-      "d": "A drink on the checkerboard terrace of an 1864 colonial hotel, the Indian Ocean breaking a few feet away \u2014 the most storied sundowner in the country.",
+      "d": "A drink on the checkerboard terrace of an 1864 colonial hotel, the Indian Ocean breaking a few feet away: the most storied sundowner in the country.",
       "lat": 6.920121,
       "lon": 79.846135,
       "photos": []
@@ -529,7 +529,7 @@
       "cat": "party",
       "tier": "Cocktail bars",
       "a": "Kollupitiya / Colombo waterfront",
-      "d": "A dressed-up grill room and bar for the city's unhurried dinners and late drinks \u2014 polished, contemporary, well-run.",
+      "d": "A dressed-up grill room and bar for the city's unhurried dinners and late drinks: polished, contemporary, well-run.",
       "lat": 6.928491,
       "lon": 79.844231,
       "photos": []

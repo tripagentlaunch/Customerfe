@@ -19,7 +19,7 @@
       "cat": "stay",
       "tier": "Ultra",
       "a": "Be\u015fikta\u015f / Bosphorus",
-      "d": "A 19th-century Ottoman palace on the water's edge \u2014 the group's grander, waterfront Istanbul house.",
+      "d": "A 19th-century Ottoman palace on the water's edge: the group's grander, waterfront Istanbul house.",
       "lat": 41.045486,
       "lon": 29.034387,
       "photos": []
@@ -29,7 +29,7 @@
       "cat": "stay",
       "tier": "Ultra",
       "a": "Be\u015fikta\u015f / Bosphorus",
-      "d": "A restored imperial palace on the Bosphorus \u2014 the address the city reserves for its grandest occasions.",
+      "d": "A restored imperial palace on the Bosphorus: the address the city reserves for its grandest occasions.",
       "lat": 41.044444,
       "lon": 29.016629,
       "photos": []
@@ -39,7 +39,7 @@
       "cat": "stay",
       "tier": "Ultra",
       "a": "Karak\u00f6y / Bosphorus",
-      "d": "Four heritage buildings on the Galataport waterfront \u2014 the group's exacting Istanbul debut.",
+      "d": "Four heritage buildings on the Galataport waterfront: the group's exacting Istanbul debut.",
       "lat": 41.02295,
       "lon": 28.978156,
       "photos": []
@@ -59,7 +59,7 @@
       "cat": "stay",
       "tier": "Ultra",
       "a": "Kuru\u00e7e\u015fme / Bosphorus",
-      "d": "A calm seaside retreat on the European shore \u2014 the group's quiet precision, with the water at the door.",
+      "d": "A calm seaside retreat on the European shore: the group's quiet precision, with the water at the door.",
       "lat": 41.057031,
       "lon": 29.035628,
       "photos": []
@@ -99,7 +99,7 @@
       "cat": "stay",
       "tier": "Grand",
       "a": "Ni\u015fanta\u015f\u0131 / Ma\u00e7ka",
-      "d": "An updated 1920s Italianate palazzo \u2014 discreet, design-led and steps from the boutiques.",
+      "d": "An updated 1920s Italianate palazzo: discreet, design-led and steps from the boutiques.",
       "lat": 41.047565,
       "lon": 28.993734,
       "photos": []
@@ -119,7 +119,7 @@
       "cat": "stay",
       "tier": "Grand",
       "a": "Sar\u0131yer / Bosphorus",
-      "d": "Two restored 19th-century mansions on the upper Bosphorus \u2014 a wellness-led urban resort away from the crowds.",
+      "d": "Two restored 19th-century mansions on the upper Bosphorus: a wellness-led urban resort away from the crowds.",
       "lat": 41.16532,
       "lon": 29.054594,
       "photos": []
@@ -139,7 +139,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Sultanahmet",
-      "d": "An Ottoman-Seljuk fantasy in the old city \u2014 richly detailed and warmly, traditionally run.",
+      "d": "An Ottoman-Seljuk fantasy in the old city: richly detailed and warmly, traditionally run.",
       "lat": 41.006516,
       "lon": 28.975977,
       "photos": []
@@ -159,7 +159,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Beyo\u011flu / Pera",
-      "d": "The Orient Express hotel of 1895 \u2014 Agatha Christie's rooms and a century of Istanbul history intact.",
+      "d": "The Orient Express hotel of 1895: Agatha Christie's rooms and a century of Istanbul history intact.",
       "lat": 41.031048,
       "lon": 28.973474,
       "photos": []
@@ -169,7 +169,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "\u015ei\u015fli / Mecidiyek\u00f6y",
-      "d": "A landmark tower on a restored heritage base \u2014 polished, central and generously scaled.",
+      "d": "A landmark tower on a restored heritage base: polished, central and generously scaled.",
       "lat": 41.109938,
       "lon": 29.032252,
       "photos": []
@@ -179,7 +179,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Be\u015fikta\u015f",
-      "d": "A refreshed modern house above the strait \u2014 reliable, spacious and quietly capable.",
+      "d": "A refreshed modern house above the strait: reliable, spacious and quietly capable.",
       "lat": 41.047134,
       "lon": 29.009458,
       "photos": []
@@ -209,7 +209,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Beyo\u011flu / Pera",
-      "d": "A 19th-century Italianate palazzo turned members'-club-and-hotel \u2014 the address of the creative crowd.",
+      "d": "A 19th-century Italianate palazzo turned members'-club-and-hotel: the address of the creative crowd.",
       "lat": 41.030289,
       "lon": 28.972993,
       "photos": []
@@ -229,7 +229,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Bomonti / \u015ei\u015fli",
-      "d": "The city's sole two-star \u2014 Fatih Tutak's radical, refined reimagining of Anatolian cooking.",
+      "d": "The city's sole two-star: Fatih Tutak's radical, refined reimagining of Anatolian cooking.",
       "lat": 41.022857,
       "lon": 28.978053,
       "photos": []
@@ -249,7 +249,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Beyo\u011flu / Karak\u00f6y (SALT Galata)",
-      "d": "Heritage Anatolian dishes reborn as contemporary art \u2014 tradition, plated for today.",
+      "d": "Heritage Anatolian dishes reborn as contemporary art: tradition, plated for today.",
       "lat": 41.023782,
       "lon": 28.973476,
       "photos": []
@@ -259,7 +259,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Beyo\u011flu / Pera",
-      "d": "French-influenced Turkish refinement in a historic Pera mansion \u2014 elegant, exacting, personal.",
+      "d": "French-influenced Turkish refinement in a historic Pera mansion: elegant, exacting, personal.",
       "lat": 41.03023,
       "lon": 28.977828,
       "photos": []
@@ -289,7 +289,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Be\u015fikta\u015f",
-      "d": "A minimalist Japanese haven and flawless omakase \u2014 a meditative break from the city's noise.",
+      "d": "A minimalist Japanese haven and flawless omakase: a meditative break from the city's noise.",
       "lat": 41.042847,
       "lon": 29.007528,
       "photos": []
@@ -299,7 +299,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Kad\u0131k\u00f6y (Asian shore)",
-      "d": "A pocket-sized Asian-shore kitchen doing contemporary Turkish cooking over coals \u2014 newly starred.",
+      "d": "A pocket-sized Asian-shore kitchen doing contemporary Turkish cooking over coals: newly starred.",
       "lat": 41.018507,
       "lon": 28.9531,
       "photos": []
@@ -329,7 +329,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Beyo\u011flu / Pera",
-      "d": "Small plates of modern Turkish with a lightness of touch \u2014 a Pera favourite.",
+      "d": "Small plates of modern Turkish with a lightness of touch: a Pera favourite.",
       "lat": 41.029119,
       "lon": 28.973078,
       "photos": []
@@ -339,7 +339,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Beyo\u011flu / \u00c7ukurcuma",
-      "d": "A relaxed all-day room in antique-lined \u00c7ukurcuma \u2014 Mediterranean-Turkish cooking, done simply and well.",
+      "d": "A relaxed all-day room in antique-lined \u00c7ukurcuma: Mediterranean-Turkish cooking, done simply and well.",
       "lat": 41.049891,
       "lon": 28.921608,
       "photos": []
@@ -349,7 +349,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Karak\u00f6y",
-      "d": "A beloved tiled meyhane serving the classics of Istanbul cooking \u2014 meze by day, raki tables by night.",
+      "d": "A beloved tiled meyhane serving the classics of Istanbul cooking: meze by day, raki tables by night.",
       "lat": 41.024592,
       "lon": 28.980028,
       "photos": []
@@ -359,7 +359,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Fatih / Ah\u0131rkap\u0131 (Sultanahmet)",
-      "d": "A set-menu Cretan-Aegean seafood feast in a walled old-city garden \u2014 meze that keeps coming.",
+      "d": "A set-menu Cretan-Aegean seafood feast in a walled old-city garden: meze that keeps coming.",
       "lat": 41.003659,
       "lon": 28.980732,
       "photos": []
@@ -369,7 +369,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Karak\u00f6y",
-      "d": "Traditional meze and charcoal-grilled meats in the old shipyard quarter \u2014 honest and full-flavoured.",
+      "d": "Traditional meze and charcoal-grilled meats in the old shipyard quarter: honest and full-flavoured.",
       "lat": 40.861164,
       "lon": 29.273294,
       "photos": []
@@ -389,7 +389,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Ni\u015fanta\u015f\u0131",
-      "d": "Anatolian cooking drawn from T\u00fcrkiye's five seas \u2014 regional dishes rarely seen on a city menu.",
+      "d": "Anatolian cooking drawn from T\u00fcrkiye's five seas: regional dishes rarely seen on a city menu.",
       "lat": 41.051687,
       "lon": 28.991696,
       "photos": []
@@ -399,7 +399,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "K\u00fc\u00e7\u00fckyal\u0131 (Asian shore)",
-      "d": "Meze and Aegean seafood on the Anatolian side \u2014 a locals' favourite worth the crossing.",
+      "d": "Meze and Aegean seafood on the Anatolian side: a locals' favourite worth the crossing.",
       "lat": 40.96335,
       "lon": 28.659901,
       "photos": []
@@ -419,7 +419,7 @@
       "cat": "do",
       "tier": "",
       "a": "Sultanahmet",
-      "d": "Facing Hagia Sophia across a garden, this is the great cascade of half-domes and six minarets, its interior sheathed in more than 20,000 hand-painted Iznik tiles that give it its blue glow. Freshly restored, it remains an active mosque \u2014 dress modestly and time your visit outside prayer hours.",
+      "d": "Facing Hagia Sophia across a garden, this is the great cascade of half-domes and six minarets, its interior sheathed in more than 20,000 hand-painted Iznik tiles that give it its blue glow. Freshly restored, it remains an active mosque: dress modestly and time your visit outside prayer hours.",
       "lat": 41.005384,
       "lon": 28.976853,
       "photos": []
@@ -439,7 +439,7 @@
       "cat": "do",
       "tier": "",
       "a": "Sultanahmet",
-      "d": "Descend into a cathedral-like underground reservoir built under Justinian, 336 columns rising from dark water with the famous carved Medusa heads at the base of two of them. Restored and atmospherically lit, it is cool, hushed and short \u2014 an easy, memorable stop between the big monuments.",
+      "d": "Descend into a cathedral-like underground reservoir built under Justinian, 336 columns rising from dark water with the famous carved Medusa heads at the base of two of them. Restored and atmospherically lit, it is cool, hushed and short: an easy, memorable stop between the big monuments.",
       "lat": 41.008479,
       "lon": 28.978383,
       "photos": []
@@ -449,7 +449,7 @@
       "cat": "do",
       "tier": "",
       "a": "S\u00fcleymaniye (Fatih)",
-      "d": "The masterpiece of the great architect Sinan and the finest of Istanbul's imperial mosques \u2014 calmer and more crowd-free than the Blue Mosque, crowning a hill with a sweeping terrace over the Golden Horn. The tomb-garden holds S\u00fcleyman the Magnificent and his wife Roxelana; nearby lanes hide old teahouses.",
+      "d": "The masterpiece of the great architect Sinan and the finest of Istanbul's imperial mosques: calmer and more crowd-free than the Blue Mosque, crowning a hill with a sweeping terrace over the Golden Horn. The tomb-garden holds S\u00fcleyman the Magnificent and his wife Roxelana; nearby lanes hide old teahouses.",
       "lat": 41.016229,
       "lon": 28.963955,
       "photos": []
@@ -459,7 +459,7 @@
       "cat": "do",
       "tier": "",
       "a": "Beyaz\u0131t (Fatih)",
-      "d": "One of the world's oldest and largest covered markets \u2014 thousands of shops under painted vaults, each lane once dedicated to a trade: gold, carpets, ceramics, antiques, leather. For serious buyers, the discreet dealers in the old Cevahir Bedesten (the inner hall) hold the finest antique jewellery and objects; a trusted guide gets you past the tourist stalls.",
+      "d": "One of the world's oldest and largest covered markets: thousands of shops under painted vaults, each lane once dedicated to a trade: gold, carpets, ceramics, antiques, leather. For serious buyers, the discreet dealers in the old Cevahir Bedesten (the inner hall) hold the finest antique jewellery and objects; a trusted guide gets you past the tourist stalls.",
       "lat": 41.010954,
       "lon": 28.968022,
       "photos": []
@@ -469,7 +469,7 @@
       "cat": "do",
       "tier": "",
       "a": "Emin\u00f6n\u00fc (Fatih)",
-      "d": "The L-shaped 17th-century market by the waterfront, piled with saffron, dried fruit, nuts, teas, lokum and pyramids of spice. Smaller and more sensory than the Grand Bazaar \u2014 pick up pistachio baklava and Turkish delight, and slip into the surrounding streets for the city's best coffee and cheese merchants.",
+      "d": "The L-shaped 17th-century market by the waterfront, piled with saffron, dried fruit, nuts, teas, lokum and pyramids of spice. Smaller and more sensory than the Grand Bazaar: pick up pistachio baklava and Turkish delight, and slip into the surrounding streets for the city's best coffee and cheese merchants.",
       "lat": 41.016479,
       "lon": 28.970538,
       "photos": []
@@ -479,7 +479,7 @@
       "cat": "do",
       "tier": "",
       "a": "The Bosphorus",
-      "d": "The essential Istanbul experience: gliding the strait that divides Europe and Asia, past Ottoman waterfront mansions (yal\u0131s), the fortresses, Dolmabah\u00e7e and Ortak\u00f6y, under the suspension bridges. A chartered yacht at golden hour \u2014 with a discreet crew and a private table \u2014 is the version a discerning family remembers.",
+      "d": "The essential Istanbul experience: gliding the strait that divides Europe and Asia, past Ottoman waterfront mansions (yal\u0131s), the fortresses, Dolmabah\u00e7e and Ortak\u00f6y, under the suspension bridges. A chartered yacht at golden hour: with a discreet crew and a private table, is the version a discerning family remembers.",
       "lat": 41.029894,
       "lon": 28.987046,
       "photos": []
@@ -489,7 +489,7 @@
       "cat": "do",
       "tier": "",
       "a": "Be\u015fikta\u015f",
-      "d": "The Ottomans' answer to Versailles on the European shore \u2014 285 rooms of crystal, gold leaf and the world's largest Bohemian chandelier, where the empire's last sultans lived and Atat\u00fcrk died. The ceremonial halls and the waterfront gardens are the highlight; go by boat for the full effect.",
+      "d": "The Ottomans' answer to Versailles on the European shore: 285 rooms of crystal, gold leaf and the world's largest Bohemian chandelier, where the empire's last sultans lived and Atat\u00fcrk died. The ceremonial halls and the waterfront gardens are the highlight; go by boat for the full effect.",
       "lat": 41.038961,
       "lon": 28.999773,
       "photos": []
@@ -499,7 +499,7 @@
       "cat": "do",
       "tier": "",
       "a": "Edirnekap\u0131 (Fatih)",
-      "d": "A modest exterior hiding the greatest surviving Byzantine mosaics and frescoes in the world \u2014 luminous cycles of the life of Christ and the Virgin across every vault and dome. Out near the old land walls, it rewards the detour; recently reopened after long restoration.",
+      "d": "A modest exterior hiding the greatest surviving Byzantine mosaics and frescoes in the world: luminous cycles of the life of Christ and the Virgin across every vault and dome. Out near the old land walls, it rewards the detour; recently reopened after long restoration.",
       "lat": 41.031214,
       "lon": 28.938955,
       "photos": []
@@ -509,7 +509,7 @@
       "cat": "do",
       "tier": "",
       "a": "Galata / Karak\u00f6y (Beyo\u011flu)",
-      "d": "The 14th-century Genoese watchtower that anchors the Galata skyline; the top balcony gives a full 360\u00b0 sweep across the old city, the Golden Horn and the Bosphorus. Best at sunset \u2014 book ahead to skip the line, then wander down through the steep, gallery-lined streets below.",
+      "d": "The 14th-century Genoese watchtower that anchors the Galata skyline; the top balcony gives a full 360\u00b0 sweep across the old city, the Golden Horn and the Bosphorus. Best at sunset: book ahead to skip the line, then wander down through the steep, gallery-lined streets below.",
       "lat": 41.025641,
       "lon": 28.974213,
       "photos": []
@@ -519,7 +519,7 @@
       "cat": "do",
       "tier": "",
       "a": "Beyo\u011flu",
-      "d": "The grand pedestrian spine of modern Istanbul, running from Taksim to Galata past belle-\u00e9poque arcades, patisseries, bookshops and the nostalgic red tram. Duck into the side streets \u2014 Asmal\u0131mescit, \u00c7ukurcuma, Cihangir \u2014 for the antique shops, wine bars and caf\u00e9s where the city's creative class actually spends its evenings.",
+      "d": "The grand pedestrian spine of modern Istanbul, running from Taksim to Galata past belle-\u00e9poque arcades, patisseries, bookshops and the nostalgic red tram. Duck into the side streets: Asmal\u0131mescit, \u00c7ukurcuma, Cihangir, for the antique shops, wine bars and caf\u00e9s where the city's creative class actually spends its evenings.",
       "lat": 41.033865,
       "lon": 28.978177,
       "photos": []
@@ -529,7 +529,7 @@
       "cat": "do",
       "tier": "",
       "a": "Balat / Fener (Fatih)",
-      "d": "The photogenic old Greek and Jewish quarters on the Golden Horn \u2014 rainbow terraced houses on steep lanes, antique dealers, third-wave caf\u00e9s and the Greek Orthodox Patriarchate. The most atmospheric neighbourhood in the city to simply wander a morning with a camera.",
+      "d": "The photogenic old Greek and Jewish quarters on the Golden Horn: rainbow terraced houses on steep lanes, antique dealers, third-wave caf\u00e9s and the Greek Orthodox Patriarchate. The most atmospheric neighbourhood in the city to simply wander a morning with a camera.",
       "lat": 41.029817,
       "lon": 28.950922,
       "photos": []
@@ -539,7 +539,7 @@
       "cat": "do",
       "tier": "",
       "a": "Kad\u0131k\u00f6y",
-      "d": "Take the ferry across for the real, unhurried Istanbul \u2014 the Kad\u0131k\u00f6y market quarter is one of the city's best food districts, dense with fishmongers, spice stalls, meze counters and meyhanes. Strong on vegetarian meze too; a food walk here beats any tourist restaurant across the water.",
+      "d": "Take the ferry across for the real, unhurried Istanbul: the Kad\u0131k\u00f6y market quarter is one of the city's best food districts, dense with fishmongers, spice stalls, meze counters and meyhanes. Strong on vegetarian meze too; a food walk here beats any tourist restaurant across the water.",
       "lat": 40.991295,
       "lon": 29.024563,
       "photos": []
@@ -549,7 +549,7 @@
       "cat": "do",
       "tier": "",
       "a": "Sultanahmet (G\u00fclhane)",
-      "d": "A three-museum complex just below Topkap\u0131 holding treasures like the Alexander Sarcophagus, the Ishtar Gate tiles and antiquities from across the former Ottoman lands. Uncrowded and beautifully laid out \u2014 a serious hour for anyone who wants depth beyond the mosques.",
+      "d": "A three-museum complex just below Topkap\u0131 holding treasures like the Alexander Sarcophagus, the Ishtar Gate tiles and antiquities from across the former Ottoman lands. Uncrowded and beautifully laid out: a serious hour for anyone who wants depth beyond the mosques.",
       "lat": 41.011648,
       "lon": 28.98173,
       "photos": []
@@ -579,7 +579,7 @@
       "cat": "do",
       "tier": "",
       "a": "Emirgan (Sar\u0131yer)",
-      "d": "A waterfront mansion museum up the Bosphorus with world-class Ottoman calligraphy and painting, blockbuster travelling exhibitions, and gardens over the strait. Its restaurant, MSA, is a destination in itself \u2014 an easy, refined half-day for a family, paired with Emirgan Park next door.",
+      "d": "A waterfront mansion museum up the Bosphorus with world-class Ottoman calligraphy and painting, blockbuster travelling exhibitions, and gardens over the strait. Its restaurant, MSA, is a destination in itself: an easy, refined half-day for a family, paired with Emirgan Park next door.",
       "lat": 41.106019,
       "lon": 29.055629,
       "photos": []
@@ -589,7 +589,7 @@
       "cat": "do",
       "tier": "",
       "a": "\u00c7ukurcuma (Beyo\u011flu)",
-      "d": "Nobel laureate Orhan Pamuk's novel made physical \u2014 a townhouse of vitrines filled with the everyday objects of 1970s Istanbul, from cigarette stubs to hairpins, telling a love story object by object. Quietly moving and unlike any other museum in the world; bring the book's ticket page for free entry.",
+      "d": "Nobel laureate Orhan Pamuk's novel made physical: a townhouse of vitrines filled with the everyday objects of 1970s Istanbul, from cigarette stubs to hairpins, telling a love story object by object. Quietly moving and unlike any other museum in the world; bring the book's ticket page for free entry.",
       "lat": 41.030872,
       "lon": 28.979795,
       "photos": []
@@ -599,7 +599,7 @@
       "cat": "do",
       "tier": "",
       "a": "Emin\u00f6n\u00fc (Fatih)",
-      "d": "A hidden jewel above the Spice Bazaar's warehouses \u2014 a small Sinan mosque wrapped inside and out in the most exquisite Iznik tiles in the city, tomato-red and turquoise. Easy to miss and rarely crowded; a real connoisseur's stop between the bigger sights.",
+      "d": "A hidden jewel above the Spice Bazaar's warehouses: a small Sinan mosque wrapped inside and out in the most exquisite Iznik tiles in the city, tomato-red and turquoise. Easy to miss and rarely crowded; a real connoisseur's stop between the bigger sights.",
       "lat": 41.016948,
       "lon": 28.972112,
       "photos": []
@@ -609,7 +609,7 @@
       "cat": "do",
       "tier": "",
       "a": "S\u00fcleymaniye (Fatih)",
-      "d": "Beyond the mosque itself, the old quarter of wooden houses, ateliers and the classic \u00e7orba (bean-stew) houses is one of the last authentically Ottoman neighbourhoods \u2014 and the terrace beside the mosque is arguably the finest free viewpoint over the Golden Horn.",
+      "d": "Beyond the mosque itself, the old quarter of wooden houses, ateliers and the classic \u00e7orba (bean-stew) houses is one of the last authentically Ottoman neighbourhoods, and the terrace beside the mosque is arguably the finest free viewpoint over the Golden Horn.",
       "lat": 41.013242,
       "lon": 28.963761,
       "photos": []
@@ -619,7 +619,7 @@
       "cat": "do",
       "tier": "",
       "a": "Tophane / Karak\u00f6y (Beyo\u011flu)",
-      "d": "A 16th-century Sinan-built bath, meticulously restored, offering the classic marble-slab scrub-and-foam ritual in a soaring domed hall. Well-run and refined \u2014 the most tasteful introduction to the hammam for first-timers, with separate men's and women's sessions.",
+      "d": "A 16th-century Sinan-built bath, meticulously restored, offering the classic marble-slab scrub-and-foam ritual in a soaring domed hall. Well-run and refined: the most tasteful introduction to the hammam for first-timers, with separate men's and women's sessions.",
       "lat": 41.026204,
       "lon": 28.980579,
       "photos": []
@@ -629,7 +629,7 @@
       "cat": "do",
       "tier": "",
       "a": "Ca\u011falo\u011flu (Fatih)",
-      "d": "One of the last great classical Ottoman baths, built in 1741, with a guest list running from Florence Nightingale to Kaiser Wilhelm II. Grand marble interiors and a full menu of scrubs and massages \u2014 an atmospheric, historic hammam a short walk from Hagia Sophia.",
+      "d": "One of the last great classical Ottoman baths, built in 1741, with a guest list running from Florence Nightingale to Kaiser Wilhelm II. Grand marble interiors and a full menu of scrubs and massages: an atmospheric, historic hammam a short walk from Hagia Sophia.",
       "lat": 41.010691,
       "lon": 28.975642,
       "photos": []
@@ -639,7 +639,7 @@
       "cat": "do",
       "tier": "",
       "a": "Ortak\u00f6y (Be\u015fikta\u015f)",
-      "d": "The little baroque mosque on the water, framed dead-on by the great suspension bridge, is one of Istanbul's signature views \u2014 especially at sunset. The square behind it is a lively weekend scene of caf\u00e9s, an antiques-and-crafts market and the famous stuffed-baked-potato (kumpir) stalls.",
+      "d": "The little baroque mosque on the water, framed dead-on by the great suspension bridge, is one of Istanbul's signature views: especially at sunset. The square behind it is a lively weekend scene of caf\u00e9s, an antiques-and-crafts market and the famous stuffed-baked-potato (kumpir) stalls.",
       "lat": 41.047287,
       "lon": 29.026772,
       "photos": []
@@ -659,7 +659,7 @@
       "cat": "do",
       "tier": "",
       "a": "Emirgan (Sar\u0131yer)",
-      "d": "A hillside grove of restored Ottoman pavilions and formal gardens up the European shore, and the heart of the city's April Tulip Festival with millions of blooms. Genuinely family-friendly and unhurried \u2014 pair it with the Sabanc\u0131 Museum next door.",
+      "d": "A hillside grove of restored Ottoman pavilions and formal gardens up the European shore, and the heart of the city's April Tulip Festival with millions of blooms. Genuinely family-friendly and unhurried: pair it with the Sabanc\u0131 Museum next door.",
       "lat": 41.109012,
       "lon": 29.052517,
       "photos": []
@@ -669,7 +669,7 @@
       "cat": "do",
       "tier": "",
       "a": "Galata (Beyo\u011flu)",
-      "d": "The city's oldest Mevlevi lodge, now a museum, where a genuine sema ceremony \u2014 the meditative whirling of the Sufi dervishes \u2014 is performed to live ney music. Small, ticketed and reverent; the real thing rather than the dinner-show imitations elsewhere.",
+      "d": "The city's oldest Mevlevi lodge, now a museum, where a genuine sema ceremony: the meditative whirling of the Sufi dervishes, is performed to live ney music. Small, ticketed and reverent; the real thing rather than the dinner-show imitations elsewhere.",
       "lat": 41.028015,
       "lon": 28.975116,
       "photos": []
@@ -679,7 +679,7 @@
       "cat": "do",
       "tier": "",
       "a": "Beyo\u011flu",
-      "d": "A glass-roofed 19th-century arcade of historic meyhanes off \u0130stiklal, spilling into the atmospheric fish market lanes behind \u2014 the classic setting for an evening of meze, grilled fish and raki with live fas\u0131l music. Touristy but genuinely fun; the deeper backstreet meyhanes are where locals go.",
+      "d": "A glass-roofed 19th-century arcade of historic meyhanes off \u0130stiklal, spilling into the atmospheric fish market lanes behind: the classic setting for an evening of meze, grilled fish and raki with live fas\u0131l music. Touristy but genuinely fun; the deeper backstreet meyhanes are where locals go.",
       "lat": 41.028423,
       "lon": 28.973681,
       "photos": []
@@ -689,7 +689,7 @@
       "cat": "do",
       "tier": "",
       "a": "Hask\u00f6y (Golden Horn)",
-      "d": "T\u00fcrkiye's great museum of industry and transport on the Golden Horn \u2014 restored trams, vintage cars, aircraft, a real submarine you can board, and hands-on exhibits. The most child- and grandchild-friendly museum in Istanbul, with a good waterside restaurant.",
+      "d": "T\u00fcrkiye's great museum of industry and transport on the Golden Horn: restored trams, vintage cars, aircraft, a real submarine you can board, and hands-on exhibits. The most child- and grandchild-friendly museum in Istanbul, with a good waterside restaurant.",
       "lat": 41.041973,
       "lon": 28.948569,
       "photos": []
@@ -699,7 +699,7 @@
       "cat": "do",
       "tier": "",
       "a": "\u00dcsk\u00fcdar (Asian side)",
-      "d": "The highest hill on the Asian side, with the classic panorama over the whole city, the Bosphorus and the Marmara \u2014 clear enough on a good day to see the Princes' Islands. Beside it stands the vast Grand \u00c7aml\u0131ca Mosque, the largest in T\u00fcrkiye, worth seeing for sheer scale.",
+      "d": "The highest hill on the Asian side, with the classic panorama over the whole city, the Bosphorus and the Marmara: clear enough on a good day to see the Princes' Islands. Beside it stands the vast Grand \u00c7aml\u0131ca Mosque, the largest in T\u00fcrkiye, worth seeing for sheer scale.",
       "lat": 41.034528,
       "lon": 29.070587,
       "photos": []
@@ -709,7 +709,7 @@
       "cat": "do",
       "tier": "",
       "a": "Ey\u00fcp (Golden Horn)",
-      "d": "Ride the little cable car up to the caf\u00e9 named for the French novelist for one of the loveliest views down the Golden Horn, then descend to Ey\u00fcp Sultan \u2014 one of Islam's holiest sites in T\u00fcrkiye and a deeply local pilgrimage quarter far from the tourist trail.",
+      "d": "Ride the little cable car up to the caf\u00e9 named for the French novelist for one of the loveliest views down the Golden Horn, then descend to Ey\u00fcp Sultan: one of Islam's holiest sites in T\u00fcrkiye and a deeply local pilgrimage quarter far from the tourist trail.",
       "lat": 41.041155,
       "lon": 28.945785,
       "photos": []
@@ -729,7 +729,7 @@
       "cat": "do",
       "tier": "",
       "a": "\u00c7ukurcuma (Beyo\u011flu)",
-      "d": "A steep warren of streets packed with antique dealers, vintage furniture, old maps, textiles and curiosities \u2014 the place serious collectors and interior people spend an afternoon. Cluster your browsing on Faik Pa\u015fa and \u00c7ukur Cuma streets, then coffee in Cihangir up the hill.",
+      "d": "A steep warren of streets packed with antique dealers, vintage furniture, old maps, textiles and curiosities: the place serious collectors and interior people spend an afternoon. Cluster your browsing on Faik Pa\u015fa and \u00c7ukur Cuma streets, then coffee in Cihangir up the hill.",
       "lat": 41.031247,
       "lon": 28.980096,
       "photos": []
@@ -739,7 +739,7 @@
       "cat": "do",
       "tier": "",
       "a": "Be\u015fikta\u015f",
-      "d": "A wooded royal park climbing the hillside above the Bosphorus, dotted with delicate late-Ottoman kiosks and greenhouses, once the private grounds of Sultan Abd\u00fclhamid II. Quiet, green and uncrowded \u2014 a good-weather escape with tea in a historic pavilion.",
+      "d": "A wooded royal park climbing the hillside above the Bosphorus, dotted with delicate late-Ottoman kiosks and greenhouses, once the private grounds of Sultan Abd\u00fclhamid II. Quiet, green and uncrowded: a good-weather escape with tea in a historic pavilion.",
       "lat": 41.048302,
       "lon": 29.015423,
       "photos": []
@@ -769,7 +769,7 @@
       "cat": "do",
       "tier": "",
       "a": "Sultanahmet",
-      "d": "The small, calm arcade of shops tucked behind the Blue Mosque, originally built to fund it \u2014 good-quality carpets, ceramics and textiles without the Grand Bazaar's hustle. The best place near the monuments to shop at a civilised pace; the little Mosaic Museum sits right alongside.",
+      "d": "The small, calm arcade of shops tucked behind the Blue Mosque, originally built to fund it: good-quality carpets, ceramics and textiles without the Grand Bazaar's hustle. The best place near the monuments to shop at a civilised pace; the little Mosaic Museum sits right alongside.",
       "lat": 41.004927,
       "lon": 28.977903,
       "photos": []
@@ -779,7 +779,7 @@
       "cat": "do",
       "tier": "",
       "a": "Sultanahmet",
-      "d": "A single dazzling survival of Byzantine Constantinople \u2014 the vast floor mosaics of the vanished Great Palace of the emperors, teeming with hunting scenes and everyday life, displayed in situ. Small, extraordinary and overlooked, right off the Arasta Bazaar.",
+      "d": "A single dazzling survival of Byzantine Constantinople: the vast floor mosaics of the vanished Great Palace of the emperors, teeming with hunting scenes and everyday life, displayed in situ. Small, extraordinary and overlooked, right off the Arasta Bazaar.",
       "lat": 41.004295,
       "lon": 28.977433,
       "photos": []
@@ -799,7 +799,7 @@
       "cat": "do",
       "tier": "",
       "a": "Bebek (Be\u015fikta\u015f)",
-      "d": "Istanbul's most moneyed shoreline \u2014 a curve of Bosphorus bay lined with mansions, moored yachts and the city society's favourite caf\u00e9s and restaurants. Come for a long, unhurried breakfast or waterside coffee and watch the city's smart set at ease.",
+      "d": "Istanbul's most moneyed shoreline: a curve of Bosphorus bay lined with mansions, moored yachts and the city society's favourite caf\u00e9s and restaurants. Come for a long, unhurried breakfast or waterside coffee and watch the city's smart set at ease.",
       "lat": 41.079016,
       "lon": 29.043959,
       "photos": []
@@ -809,7 +809,7 @@
       "cat": "do",
       "tier": "",
       "a": "Ni\u015fanta\u015f\u0131 (\u015ei\u015fli)",
-      "d": "Istanbul's luxury retail district \u2014 Abdi \u0130pek\u00e7i Caddesi and its side streets carry the international houses alongside the best Turkish designers, jewellers and concept stores. The natural base for discreet, appointment-led personal shopping, with elegant caf\u00e9s between.",
+      "d": "Istanbul's luxury retail district: Abdi \u0130pek\u00e7i Caddesi and its side streets carry the international houses alongside the best Turkish designers, jewellers and concept stores. The natural base for discreet, appointment-led personal shopping, with elegant caf\u00e9s between.",
       "lat": 41.051687,
       "lon": 28.991696,
       "photos": []
@@ -818,8 +818,8 @@
       "n": "Princes' Islands (B\u00fcy\u00fckada)",
       "cat": "do",
       "tier": "",
-      "a": "Day trip \u2014 Sea of Marmara",
-      "d": "A ferry hop out to a car-free island of pine woods, Belle \u00c9poque villas and sea views \u2014 you get around on foot, bicycle or electric cart. Lunch by the harbour, wander the mansion-lined lanes, and Istanbul suddenly feels a world away; an easy, gentle day for all ages.",
+      "a": "Day trip: Sea of Marmara",
+      "d": "A ferry hop out to a car-free island of pine woods, Belle \u00c9poque villas and sea views: you get around on foot, bicycle or electric cart. Lunch by the harbour, wander the mansion-lined lanes, and Istanbul suddenly feels a world away; an easy, gentle day for all ages.",
       "lat": 40.856355,
       "lon": 29.119037,
       "photos": []
@@ -828,8 +828,8 @@
       "n": "Polonezk\u00f6y",
       "cat": "do",
       "tier": "",
-      "a": "Day trip \u2014 Beykoz (Asian side)",
-      "d": "A leafy village founded by 19th-century Polish \u00e9migr\u00e9s in the forests north-east of the city \u2014 a rare pocket of quiet, walking trails and long country lunches of pork and homemade preserves. An unusual, restful escape from the metropolis, popular for weekend brunch.",
+      "a": "Day trip: Beykoz (Asian side)",
+      "d": "A leafy village founded by 19th-century Polish \u00e9migr\u00e9s in the forests north-east of the city: a rare pocket of quiet, walking trails and long country lunches of pork and homemade preserves. An unusual, restful escape from the metropolis, popular for weekend brunch.",
       "lat": 41.110036,
       "lon": 29.211811,
       "photos": []
@@ -838,8 +838,8 @@
       "n": "Edirne (Selimiye Mosque)",
       "cat": "do",
       "tier": "",
-      "a": "Day trip \u2014 Thracian border",
-      "d": "The former Ottoman capital near the Greek and Bulgarian borders, home to Sinan's crowning masterpiece, the Selimiye Mosque \u2014 the architect's own declared finest work, its dome engineered to rival Hagia Sophia's. A serious architectural pilgrimage for those who want the definitive Ottoman monument.",
+      "a": "Day trip: Thracian border",
+      "d": "The former Ottoman capital near the Greek and Bulgarian borders, home to Sinan's crowning masterpiece, the Selimiye Mosque: the architect's own declared finest work, its dome engineered to rival Hagia Sophia's. A serious architectural pilgrimage for those who want the definitive Ottoman monument.",
       "lat": 41.009649,
       "lon": 29.016355,
       "photos": []
@@ -849,7 +849,7 @@
       "cat": "party",
       "tier": "Rooftops",
       "a": "Beyo\u011flu / Pera",
-      "d": "Sunset drinks above the whole old city, atop the Marmara Pera \u2014 the rooftop attached to one of Istanbul's great restaurants.",
+      "d": "Sunset drinks above the whole old city, atop the Marmara Pera: the rooftop attached to one of Istanbul's great restaurants.",
       "lat": 41.026501,
       "lon": 28.974453,
       "photos": []
@@ -859,7 +859,7 @@
       "cat": "party",
       "tier": "Rooftops",
       "a": "Bebek / Bosphorus",
-      "d": "A mid-century landmark on the Bebek waterfront \u2014 cocktails at the water's edge in the city's most fashionable village.",
+      "d": "A mid-century landmark on the Bebek waterfront: cocktails at the water's edge in the city's most fashionable village.",
       "lat": 41.02385,
       "lon": 28.974981,
       "photos": []
@@ -879,7 +879,7 @@
       "cat": "party",
       "tier": "Cocktail bars",
       "a": "Kad\u0131k\u00f6y / Moda (Asian shore)",
-      "d": "The Asian shore's most inventive bar \u2014 house liquors, bitters and infusions built on Anatolian ingredients like sumac and pomegranate molasses.",
+      "d": "The Asian shore's most inventive bar: house liquors, bitters and infusions built on Anatolian ingredients like sumac and pomegranate molasses.",
       "lat": 41.050722,
       "lon": 29.03193,
       "photos": []
@@ -889,7 +889,7 @@
       "cat": "party",
       "tier": "Rooftops",
       "a": "Beyo\u011flu / Pera",
-      "d": "The rooftop that named the genre \u2014 a full 360\u00b0 sweep of Bosphorus, Golden Horn and Sultanahmet from one terrace.",
+      "d": "The rooftop that named the genre: a full 360\u00b0 sweep of Bosphorus, Golden Horn and Sultanahmet from one terrace.",
       "lat": 41.032744,
       "lon": 28.976723,
       "photos": []
@@ -899,7 +899,7 @@
       "cat": "party",
       "tier": "Late & loud",
       "a": "Beyo\u011flu / Asmal\u0131mescit",
-      "d": "The meyhane other meyhanes are measured against \u2014 rak\u0131, meze and long tables where strangers become regulars.",
+      "d": "The meyhane other meyhanes are measured against: rak\u0131, meze and long tables where strangers become regulars.",
       "lat": 41.030166,
       "lon": 28.974706,
       "photos": []
@@ -909,27 +909,27 @@
       "cat": "party",
       "tier": "Late & loud",
       "a": "Beyo\u011flu",
-      "d": "Chef Umut Karaku\u015f's Anatolian small-plates bar \u2014 colourful meze made for sharing over a long, loud table.",
+      "d": "Chef Umut Karaku\u015f's Anatolian small-plates bar: colourful meze made for sharing over a long, loud table.",
       "lat": 41.006381,
       "lon": 28.975872,
       "photos": []
     },
     {
-      "n": "\u00c7\u0131ra\u011fan Palace Kempinski \u2014 Bosphorus terrace bar",
+      "n": "\u00c7\u0131ra\u011fan Palace Kempinski: Bosphorus terrace bar",
       "cat": "party",
       "tier": "Landmark bars",
       "a": "Be\u015fikta\u015f / Bosphorus",
-      "d": "A drink on the terrace of a restored imperial palace, the Bosphorus lit and moving at your feet \u2014 the city's grandest nightcap.",
+      "d": "A drink on the terrace of a restored imperial palace, the Bosphorus lit and moving at your feet: the city's grandest nightcap.",
       "lat": 41.045486,
       "lon": 29.034387,
       "photos": []
     },
     {
-      "n": "Pera Palace \u2014 Orient Bar",
+      "n": "Pera Palace: Orient Bar",
       "cat": "party",
       "tier": "Landmark bars",
       "a": "Beyo\u011flu / Pera",
-      "d": "A cocktail inside the 1895 Orient Express hotel \u2014 Agatha Christie's Istanbul, in wood, brass and low light.",
+      "d": "A cocktail inside the 1895 Orient Express hotel: Agatha Christie's Istanbul, in wood, brass and low light.",
       "lat": 41.028423,
       "lon": 28.973681,
       "photos": []

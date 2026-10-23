@@ -9,7 +9,7 @@
       "cat": "stay",
       "tier": "Ultra",
       "a": "Zermatt village",
-      "d": "The 1852 grande dame at the heart of the village \u2014 the address Zermatt is measured against.",
+      "d": "The 1852 grande dame at the heart of the village: the address Zermatt is measured against.",
       "lat": 46.021133,
       "lon": 7.747058,
       "photos": []
@@ -19,7 +19,7 @@
       "cat": "stay",
       "tier": "Ultra",
       "a": "Riffelalp (2,222m)",
-      "d": "Europe's highest five-star hotel \u2014 car-free, reached only by the Gornergrat railway, alone with the Matterhorn.",
+      "d": "Europe's highest five-star hotel: car-free, reached only by the Gornergrat railway, alone with the Matterhorn.",
       "lat": 46.001929,
       "lon": 7.750871,
       "photos": []
@@ -29,7 +29,7 @@
       "cat": "stay",
       "tier": "Ultra",
       "a": "Zermatt village",
-      "d": "A Belle \u00c9poque palace built by the villagers themselves in 1879 \u2014 old-world grandeur, impeccably kept.",
+      "d": "A Belle \u00c9poque palace built by the villagers themselves in 1879: old-world grandeur, impeccably kept.",
       "lat": 46.020082,
       "lon": 7.746839,
       "photos": []
@@ -49,7 +49,7 @@
       "cat": "stay",
       "tier": "Grand",
       "a": "Zermatt village (Sunnegga base)",
-      "d": "A cluster of chalets at the foot of the Sunnegga slopes \u2014 sustainable, stylish and quietly modern.",
+      "d": "A cluster of chalets at the foot of the Sunnegga slopes: sustainable, stylish and quietly modern.",
       "lat": 46.021883,
       "lon": 7.754402,
       "photos": []
@@ -59,7 +59,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Zermatt village",
-      "d": "Artist Heinz Julen's avant-garde design hotel \u2014 sculptural, theatrical and unlike anything else in the Alps.",
+      "d": "Artist Heinz Julen's avant-garde design hotel: sculptural, theatrical and unlike anything else in the Alps.",
       "lat": 46.021979,
       "lon": 7.747839,
       "photos": []
@@ -69,7 +69,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Zermatt village (Backstage Hotel Vernissage)",
-      "d": "Ivo Adam's surprise menu cooked in an open kitchen \u2014 bread baked at your table, and the village's brightest star.",
+      "d": "Ivo Adam's surprise menu cooked in an open kitchen: bread baked at your table, and the village's brightest star.",
       "lat": 46.02193,
       "lon": 7.747865,
       "photos": []
@@ -99,7 +99,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Findeln (2,050m)",
-      "d": "The other beloved Findeln kitchen \u2014 sun-terrace mountain cooking, refined and warmly run.",
+      "d": "The other beloved Findeln kitchen: sun-terrace mountain cooking, refined and warmly run.",
       "lat": 46.010939,
       "lon": 7.764352,
       "photos": []
@@ -109,7 +109,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Zermatt village (Grand Hotel Zermatterhof)",
-      "d": "The Zermatterhof's confident brasserie \u2014 grand-hotel cooking without the ceremony.",
+      "d": "The Zermatterhof's confident brasserie: grand-hotel cooking without the ceremony.",
       "lat": 46.020011,
       "lon": 7.746659,
       "photos": []
@@ -119,7 +119,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Furi (mountain)",
-      "d": "A modern mountain kitchen at Furi \u2014 a serious table on the slopes, not just a hut.",
+      "d": "A modern mountain kitchen at Furi: a serious table on the slopes, not just a hut.",
       "lat": 46.001824,
       "lon": 7.728139,
       "photos": []
@@ -129,7 +129,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Zermatt village (CERVO Mountain Resort)",
-      "d": "Predominantly vegetarian world flavours \u2014 Arab to Chinese \u2014 at CERVO's lively base.",
+      "d": "Predominantly vegetarian world flavours: Arab to Chinese, at CERVO's lively base.",
       "lat": 46.021857,
       "lon": 7.754263,
       "photos": []
@@ -139,7 +139,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Zermatt (Aroleid, above the village)",
-      "d": "Seasonal, honest cooking that quietly won the village's only Bib Gourmand \u2014 value done right.",
+      "d": "Seasonal, honest cooking that quietly won the village's only Bib Gourmand: value done right.",
       "lat": 46.002087,
       "lon": 7.729054,
       "photos": []
@@ -439,7 +439,7 @@
       "cat": "party",
       "tier": "Landmark bars",
       "a": "Zermatt village",
-      "d": "A tiny champagne-and-wine room opposite the church, in an 1879 house \u2014 the chic address since 1961.",
+      "d": "A tiny champagne-and-wine room opposite the church, in an 1879 house: the chic address since 1961.",
       "lat": 46.019703,
       "lon": 7.746027,
       "photos": []
@@ -449,7 +449,7 @@
       "cat": "party",
       "tier": "Cocktail bars",
       "a": "Zermatt village (Sunnegga base)",
-      "d": "A two-level slope-side terrace at the foot of Sunnegga \u2014 cocktails, DJ sets and the day's best apr\u00e8s crowd.",
+      "d": "A two-level slope-side terrace at the foot of Sunnegga: cocktails, DJ sets and the day's best apr\u00e8s crowd.",
       "lat": 46.021031,
       "lon": 7.747059,
       "photos": []
@@ -459,7 +459,7 @@
       "cat": "party",
       "tier": "Cocktail bars",
       "a": "Zermatt village (Backstage Hotel)",
-      "d": "Heinz Julen's cinema-cum-gallery-cum-bar \u2014 sculptural, candlelit and unlike any other room in the Alps.",
+      "d": "Heinz Julen's cinema-cum-gallery-cum-bar: sculptural, candlelit and unlike any other room in the Alps.",
       "lat": 46.02102,
       "lon": 7.746583,
       "photos": []
@@ -469,7 +469,7 @@
       "cat": "party",
       "tier": "Late & loud",
       "a": "Blatten piste (above Zermatt)",
-      "d": "The legendary slope-side apr\u00e8s barn \u2014 J\u00e4germeister on skis, Europop and fancy dress until the light goes.",
+      "d": "The legendary slope-side apr\u00e8s barn: J\u00e4germeister on skis, Europop and fancy dress until the light goes.",
       "lat": 46.008669,
       "lon": 7.737457,
       "photos": []

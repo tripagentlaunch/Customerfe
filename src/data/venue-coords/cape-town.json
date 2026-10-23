@@ -19,7 +19,7 @@
       "cat": "stay",
       "tier": "Ultra",
       "a": "City Bowl / Gardens",
-      "d": "The Pink Lady \u2014 Cape Town's grande dame since 1899, in nine acres of gardens below Table Mountain.",
+      "d": "The Pink Lady: Cape Town's grande dame since 1899, in nine acres of gardens below Table Mountain.",
       "lat": -33.931816,
       "lon": 18.411391,
       "photos": []
@@ -49,7 +49,7 @@
       "cat": "stay",
       "tier": "Ultra",
       "a": "Stellenbosch (Winelands)",
-      "d": "Laurence Graff's jewel of a wine estate on the Helshoogte Pass \u2014 art, diamonds and vineyards at altitude.",
+      "d": "Laurence Graff's jewel of a wine estate on the Helshoogte Pass: art, diamonds and vineyards at altitude.",
       "lat": -33.921917,
       "lon": 18.922179,
       "photos": []
@@ -69,7 +69,7 @@
       "cat": "stay",
       "tier": "Grand",
       "a": "Constantia",
-      "d": "A country-house hotel in nine acres of Constantia gardens \u2014 the calm, green, old-Cape antidote to the city.",
+      "d": "A country-house hotel in nine acres of Constantia gardens: the calm, green, old-Cape antidote to the city.",
       "lat": -34.001432,
       "lon": 18.434703,
       "photos": []
@@ -79,7 +79,7 @@
       "cat": "stay",
       "tier": "Grand",
       "a": "Camps Bay",
-      "d": "A sea-facing house between mountain and Atlantic on the scenic road to Camps Bay \u2014 remote calm, minutes from town.",
+      "d": "A sea-facing house between mountain and Atlantic on the scenic road to Camps Bay: remote calm, minutes from town.",
       "lat": -33.983322,
       "lon": 18.35918,
       "photos": []
@@ -89,7 +89,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Constantia",
-      "d": "The Cape's oldest wine farm turned polished retreat \u2014 vineyards, a golf course and Cape Dutch calm.",
+      "d": "The Cape's oldest wine farm turned polished retreat: vineyards, a golf course and Cape Dutch calm.",
       "lat": -34.071398,
       "lon": 18.42557,
       "photos": []
@@ -109,7 +109,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Franschhoek (Winelands)",
-      "d": "An intimate boutique house in the heart of Franschhoek village \u2014 art, gardens and the main street at the door.",
+      "d": "An intimate boutique house in the heart of Franschhoek village: art, gardens and the main street at the door.",
       "lat": -33.920961,
       "lon": 18.42131,
       "photos": []
@@ -119,7 +119,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Franschhoek (Winelands)",
-      "d": "A legendary village inn reborn \u2014 the beating heart of Franschhoek's dining-and-village life.",
+      "d": "A legendary village inn reborn: the beating heart of Franschhoek's dining-and-village life.",
       "lat": -33.931835,
       "lon": 18.418593,
       "photos": []
@@ -139,7 +139,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "City Bowl / Wale Street",
-      "d": "The old Reserve Bank turned grand city hotel \u2014 and the address that speaks Hindi at the door.",
+      "d": "The old Reserve Bank turned grand city hotel, and the address that speaks Hindi at the door.",
       "lat": -33.924519,
       "lon": 18.419685,
       "photos": []
@@ -149,7 +149,7 @@
       "cat": "stay",
       "tier": "Premium",
       "a": "Gardens / City Bowl",
-      "d": "A restored Georgian-and-Victorian townhouse on a leafy Gardens street \u2014 a calm, characterful city base.",
+      "d": "A restored Georgian-and-Victorian townhouse on a leafy Gardens street: a calm, characterful city base.",
       "lat": -33.931831,
       "lon": 18.408305,
       "photos": []
@@ -159,7 +159,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Constantia",
-      "d": "Cape Town's most celebrated kitchen \u2014 a treehouse-like room above Silvermist, and Africa's benchmark for fine dining.",
+      "d": "Cape Town's most celebrated kitchen: a treehouse-like room above Silvermist, and Africa's benchmark for fine dining.",
       "lat": -34.015116,
       "lon": 18.403291,
       "photos": []
@@ -169,7 +169,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "City Bowl",
-      "d": "Japanese precision married to South African produce \u2014 the only stand-alone African restaurant in Relais & Ch\u00e2teaux.",
+      "d": "Japanese precision married to South African produce: the only stand-alone African restaurant in Relais & Ch\u00e2teaux.",
       "lat": -33.92465,
       "lon": 18.421747,
       "photos": []
@@ -189,7 +189,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Franschhoek (Winelands)",
-      "d": "La Colombe's Winelands sibling at Leeu Estates \u2014 theatrical tasting menus among the vines.",
+      "d": "La Colombe's Winelands sibling at Leeu Estates: theatrical tasting menus among the vines.",
       "lat": -34.015116,
       "lon": 18.403291,
       "photos": []
@@ -229,7 +229,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Paternoster",
-      "d": "Kobus van der Merwe's veldkos \u2014 foraged 'field food' from the strandveld, in a fisherman's cottage by the sea.",
+      "d": "Kobus van der Merwe's veldkos: foraged 'field food' from the strandveld, in a fisherman's cottage by the sea.",
       "lat": -34.069901,
       "lon": 18.647909,
       "photos": []
@@ -239,7 +239,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Constantia",
-      "d": "Buitenverwachting's elegant estate restaurant \u2014 refined cooking among the Constantia vines.",
+      "d": "Buitenverwachting's elegant estate restaurant: refined cooking among the Constantia vines.",
       "lat": -33.92521,
       "lon": 18.416275,
       "photos": []
@@ -269,7 +269,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "City Bowl",
-      "d": "Nic Charalambous's modern Greek-Cypriot \u2014 family recipes, Cape produce, and a buzzing Wale Street room.",
+      "d": "Nic Charalambous's modern Greek-Cypriot: family recipes, Cape produce, and a buzzing Wale Street room.",
       "lat": -33.922703,
       "lon": 18.417239,
       "photos": []
@@ -279,7 +279,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Woodstock",
-      "d": "Luke Dale Roberts's tapas-and-views room atop the Old Biscuit Mill \u2014 small plates, big city panorama.",
+      "d": "Luke Dale Roberts's tapas-and-views room atop the Old Biscuit Mill: small plates, big city panorama.",
       "lat": -33.927306,
       "lon": 18.45738,
       "photos": []
@@ -299,7 +299,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Stellenbosch (Winelands)",
-      "d": "A landmark wine-estate restaurant in a 300-year-old cellar \u2014 polished cooking and revered reds.",
+      "d": "A landmark wine-estate restaurant in a 300-year-old cellar: polished cooking and revered reds.",
       "lat": -33.935664,
       "lon": 18.516454,
       "photos": []
@@ -309,7 +309,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Franschhoek (Winelands)",
-      "d": "A spice-led tasting menu in the village \u2014 fragrant, considered, and quietly excellent.",
+      "d": "A spice-led tasting menu in the village: fragrant, considered, and quietly excellent.",
       "lat": -33.92883,
       "lon": 18.41722,
       "photos": []
@@ -329,7 +329,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Stellenbosch (Winelands)",
-      "d": "A Stellenbosch tasting room that rose to the very top \u2014 precise, ingredient-led, personal.",
+      "d": "A Stellenbosch tasting room that rose to the very top: precise, ingredient-led, personal.",
       "lat": -33.92883,
       "lon": 18.41722,
       "photos": []
@@ -339,7 +339,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "City Bowl",
-      "d": "One lunch, one dinner, no menu \u2014 a daily set feast of local, sustainable produce, cooked with heart.",
+      "d": "One lunch, one dinner, no menu: a daily set feast of local, sustainable produce, cooked with heart.",
       "lat": -33.929411,
       "lon": 18.422625,
       "photos": []
@@ -349,7 +349,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "City Bowl",
-      "d": "Sustainably caught South African seafood from the Belly of the Beast team \u2014 sea-to-table and quietly serious.",
+      "d": "Sustainably caught South African seafood from the Belly of the Beast team: sea-to-table and quietly serious.",
       "lat": -34.138003,
       "lon": 18.849946,
       "photos": []
@@ -359,7 +359,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Woodstock",
-      "d": "Luke Dale Roberts's learning kitchen \u2014 training the next generation while cooking at a starred level.",
+      "d": "Luke Dale Roberts's learning kitchen: training the next generation while cooking at a starred level.",
       "lat": -33.927562,
       "lon": 18.45711,
       "photos": []
@@ -379,7 +379,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Hout Bay",
-      "d": "Small plates at the water's edge below the Twelve Apostles \u2014 cooking and coastline in equal measure.",
+      "d": "Small plates at the water's edge below the Twelve Apostles: cooking and coastline in equal measure.",
       "lat": -34.065145,
       "lon": 18.368068,
       "photos": []
@@ -389,7 +389,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "City Bowl",
-      "d": "A pared-back, produce-first tasting room in the city \u2014 quiet, precise, ingredient-led.",
+      "d": "A pared-back, produce-first tasting room in the city: quiet, precise, ingredient-led.",
       "lat": -33.92883,
       "lon": 18.41722,
       "photos": []
@@ -399,7 +399,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "City Bowl",
-      "d": "The Chefs Warehouse group's intimate city room \u2014 small, sharing-led plates done with real polish.",
+      "d": "The Chefs Warehouse group's intimate city room: small, sharing-led plates done with real polish.",
       "lat": -33.919649,
       "lon": 18.419312,
       "photos": []
@@ -419,7 +419,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Franschhoek (Winelands)",
-      "d": "Small plates and vineyard views at a Franschhoek wine estate \u2014 relaxed, generous, sharing-led.",
+      "d": "Small plates and vineyard views at a Franschhoek wine estate: relaxed, generous, sharing-led.",
       "lat": -33.919104,
       "lon": 18.419991,
       "photos": []
@@ -439,7 +439,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "City Bowl / Gardens",
-      "d": "\u00c1ngel Le\u00f3n's Cape Town debut at the Mount Nelson \u2014 the 'chef of the sea', translated to the Atlantic.",
+      "d": "\u00c1ngel Le\u00f3n's Cape Town debut at the Mount Nelson: the 'chef of the sea', translated to the Atlantic.",
       "lat": -33.92883,
       "lon": 18.41722,
       "photos": []
@@ -449,7 +449,7 @@
       "cat": "do",
       "tier": "",
       "a": "City Bowl",
-      "d": "The flat-topped mountain the whole city arranges itself around \u2014 take the rotating cable car up, and walk the summit while the Cape falls away on every side.",
+      "d": "The flat-topped mountain the whole city arranges itself around: take the rotating cable car up, and walk the summit while the Cape falls away on every side.",
       "lat": -33.959063,
       "lon": 18.403872,
       "photos": []
@@ -469,7 +469,7 @@
       "cat": "do",
       "tier": "",
       "a": "City Bowl",
-      "d": "The dramatic, wind-carved southern tip of the peninsula \u2014 a funicular to the old lighthouse, cliffs plunging to two oceans, and the great sweep of the Cape at its wildest.",
+      "d": "The dramatic, wind-carved southern tip of the peninsula: a funicular to the old lighthouse, cliffs plunging to two oceans, and the great sweep of the Cape at its wildest.",
       "lat": -34.350917,
       "lon": 18.484128,
       "photos": []
@@ -489,7 +489,7 @@
       "cat": "do",
       "tier": "",
       "a": "Winelands",
-      "d": "Stellenbosch and Franschhoek \u2014 Cape Dutch estates among the oldest in the New World, an easy hour from the city, best taken slowly over lunch and a tasting.",
+      "d": "Stellenbosch and Franschhoek: Cape Dutch estates among the oldest in the New World, an easy hour from the city, best taken slowly over lunch and a tasting.",
       "lat": -33.769064,
       "lon": 18.740469,
       "photos": []
@@ -499,7 +499,7 @@
       "cat": "do",
       "tier": "",
       "a": "Constantia",
-      "d": "South Africa's oldest wine estate, producing since 1685 \u2014 a manor-house museum, historic cellars and a tasting of the sweet Constantia wines once shipped to Europe's courts.",
+      "d": "South Africa's oldest wine estate, producing since 1685: a manor-house museum, historic cellars and a tasting of the sweet Constantia wines once shipped to Europe's courts.",
       "lat": -34.030377,
       "lon": 18.417646,
       "photos": []
@@ -509,7 +509,7 @@
       "cat": "do",
       "tier": "",
       "a": "V&A Waterfront",
-      "d": "The largest museum of contemporary African art, carved from a 1920s grain silo by Thomas Heatherwick \u2014 the continent's cultural landmark, and its most photographed interior.",
+      "d": "The largest museum of contemporary African art, carved from a 1920s grain silo by Thomas Heatherwick: the continent's cultural landmark, and its most photographed interior.",
       "lat": -33.908398,
       "lon": 18.423001,
       "photos": []
@@ -519,7 +519,7 @@
       "cat": "do",
       "tier": "",
       "a": "City Bowl",
-      "d": "A sheltered cove at Simon's Town where a colony of African penguins nests among the granite boulders \u2014 boardwalks bring you within arm's reach, without disturbing them.",
+      "d": "A sheltered cove at Simon's Town where a colony of African penguins nests among the granite boulders: boardwalks bring you within arm's reach, without disturbing them.",
       "lat": -34.198072,
       "lon": 18.45236,
       "photos": []
@@ -529,7 +529,7 @@
       "cat": "do",
       "tier": "",
       "a": "Camps Bay",
-      "d": "One of the most beautiful coast roads on earth \u2014 a hundred and fourteen curves cut into the cliff face between Hout Bay and Noordhoek, the Atlantic straight below.",
+      "d": "One of the most beautiful coast roads on earth: a hundred and fourteen curves cut into the cliff face between Hout Bay and Noordhoek, the Atlantic straight below.",
       "lat": -34.048681,
       "lon": 18.361545,
       "photos": []
@@ -539,7 +539,7 @@
       "cat": "do",
       "tier": "",
       "a": "City Bowl",
-      "d": "The candy-coloured Cape Malay quarter on the slopes of Signal Hill \u2014 cobbled streets, a living Muslim community, and the city's oldest surviving residential fabric.",
+      "d": "The candy-coloured Cape Malay quarter on the slopes of Signal Hill: cobbled streets, a living Muslim community, and the city's oldest surviving residential fabric.",
       "lat": -33.920561,
       "lon": 18.412881,
       "photos": []
@@ -549,7 +549,7 @@
       "cat": "do",
       "tier": "",
       "a": "V&A Waterfront",
-      "d": "The working Victorian harbour reborn as the Cape's front room \u2014 the ferry to Robben Island, Zeitz MOCAA, the Two Oceans Aquarium and the best of the city's shopping, all on the water.",
+      "d": "The working Victorian harbour reborn as the Cape's front room: the ferry to Robben Island, Zeitz MOCAA, the Two Oceans Aquarium and the best of the city's shopping, all on the water.",
       "lat": -33.906002,
       "lon": 18.419526,
       "photos": []
@@ -559,7 +559,7 @@
       "cat": "do",
       "tier": "",
       "a": "City Bowl",
-      "d": "The low ridge beside Lion's Head, where locals gather for sunset over the Atlantic \u2014 and where a cannon has been fired at noon, every day, since 1806.",
+      "d": "The low ridge beside Lion's Head, where locals gather for sunset over the Atlantic, and where a cannon has been fired at noon, every day, since 1806.",
       "lat": -33.919649,
       "lon": 18.419312,
       "photos": []
@@ -569,7 +569,7 @@
       "cat": "do",
       "tier": "",
       "a": "City Bowl",
-      "d": "The city's most-loved climb \u2014 a spiralling path to a 360-degree summit above the sea, walked at dawn, at sunset, and by the light of the full moon.",
+      "d": "The city's most-loved climb: a spiralling path to a 360-degree summit above the sea, walked at dawn, at sunset, and by the light of the full moon.",
       "lat": -33.935039,
       "lon": 18.389142,
       "photos": []
@@ -579,7 +579,7 @@
       "cat": "do",
       "tier": "",
       "a": "City Bowl",
-      "d": "The full loop of the Cape Peninsula \u2014 Chapman's Peak, the Cape of Good Hope reserve, Simon's Town and Kalk Bay strung along one of the world's great day-drives.",
+      "d": "The full loop of the Cape Peninsula: Chapman's Peak, the Cape of Good Hope reserve, Simon's Town and Kalk Bay strung along one of the world's great day-drives.",
       "lat": -34.252783,
       "lon": 18.450976,
       "photos": []
@@ -589,7 +589,7 @@
       "cat": "do",
       "tier": "",
       "a": "Constantia",
-      "d": "The city's own vineyard belt, fifteen minutes from town \u2014 Groot Constantia, Klein Constantia and Buitenverwachting among leafy estates you can taste across in an afternoon.",
+      "d": "The city's own vineyard belt, fifteen minutes from town: Groot Constantia, Klein Constantia and Buitenverwachting among leafy estates you can taste across in an afternoon.",
       "lat": -34.030667,
       "lon": 18.417934,
       "photos": []
@@ -599,7 +599,7 @@
       "cat": "do",
       "tier": "",
       "a": "V&A Waterfront",
-      "d": "A window onto the meeting of the cold Atlantic and warm Indian oceans \u2014 kelp forests, ragged-tooth sharks and a turtle rehabilitation programme, on the Waterfront's edge.",
+      "d": "A window onto the meeting of the cold Atlantic and warm Indian oceans: kelp forests, ragged-tooth sharks and a turtle rehabilitation programme, on the Waterfront's edge.",
       "lat": -33.908028,
       "lon": 18.417479,
       "photos": []
@@ -609,7 +609,7 @@
       "cat": "party",
       "tier": "Rooftops",
       "a": "V&A Waterfront",
-      "d": "Drinks on the roof of the pillowed-glass Silo Hotel, above Zeitz MOCAA \u2014 the definitive Cape Town sundowner, Table Mountain on one side, the Atlantic on the other.",
+      "d": "Drinks on the roof of the pillowed-glass Silo Hotel, above Zeitz MOCAA: the definitive Cape Town sundowner, Table Mountain on one side, the Atlantic on the other.",
       "lat": -33.917539,
       "lon": 18.41833,
       "photos": []
@@ -619,7 +619,7 @@
       "cat": "party",
       "tier": "Landmark bars",
       "a": "V&A Waterfront",
-      "d": "The Silo Hotel's double-height sixth-floor bar \u2014 teal banquettes, circular chandeliers and harbour views, the sheltered counterpart to the rooftop above.",
+      "d": "The Silo Hotel's double-height sixth-floor bar: teal banquettes, circular chandeliers and harbour views, the sheltered counterpart to the rooftop above.",
       "lat": -33.972142,
       "lon": 18.565655,
       "photos": []
@@ -629,7 +629,7 @@
       "cat": "party",
       "tier": "Cocktail bars",
       "a": "V&A Waterfront",
-      "d": "Cape Town in a glass \u2014 fynbos, brandy and closed-loop, waterless technique from one of the country's most awarded bar teams, at the Waterfront and on Kloof Street.",
+      "d": "Cape Town in a glass: fynbos, brandy and closed-loop, waterless technique from one of the country's most awarded bar teams, at the Waterfront and on Kloof Street.",
       "lat": -33.905222,
       "lon": 18.419236,
       "photos": []
@@ -639,7 +639,7 @@
       "cat": "party",
       "tier": "Cocktail bars",
       "a": "City Bowl",
-      "d": "A password-only speakeasy in a Victorian warehouse \u2014 velvet, mahogany and one of the city's most inventive cocktail lists, found by those who know to look.",
+      "d": "A password-only speakeasy in a Victorian warehouse: velvet, mahogany and one of the city's most inventive cocktail lists, found by those who know to look.",
       "lat": -33.908398,
       "lon": 18.423001,
       "photos": []
@@ -649,7 +649,7 @@
       "cat": "party",
       "tier": "Landmark bars",
       "a": "V&A Waterfront",
-      "d": "At Cape Grace on its own quay \u2014 more than four hundred whiskies and a marina-side terrace, the city's most serious address for a dram.",
+      "d": "At Cape Grace on its own quay: more than four hundred whiskies and a marina-side terrace, the city's most serious address for a dram.",
       "lat": -33.908167,
       "lon": 18.420051,
       "photos": []
@@ -659,7 +659,7 @@
       "cat": "party",
       "tier": "Landmark bars",
       "a": "Bantry Bay",
-      "d": "Sundowners on a cliff-side lawn above the Atlantic, drawn from a nine-thousand-bottle cellar of South Africa's finest \u2014 arguably the most beautiful sundowner in the city.",
+      "d": "Sundowners on a cliff-side lawn above the Atlantic, drawn from a nine-thousand-bottle cellar of South Africa's finest: arguably the most beautiful sundowner in the city.",
       "lat": -33.918693,
       "lon": 18.425915,
       "photos": []
@@ -669,7 +669,7 @@
       "cat": "party",
       "tier": "Rooftops",
       "a": "Camps Bay",
-      "d": "Above the Camps Bay strip \u2014 the sun going down over the Atlantic, Lion's Head and the Twelve Apostles behind, cocktails and DJs as the beach empties.",
+      "d": "Above the Camps Bay strip: the sun going down over the Atlantic, Lion's Head and the Twelve Apostles behind, cocktails and DJs as the beach empties.",
       "lat": -33.953073,
       "lon": 18.377347,
       "photos": []
@@ -679,7 +679,7 @@
       "cat": "party",
       "tier": "Late & loud",
       "a": "City Bowl",
-      "d": "The city's coolest block after dark \u2014 wine bars, cocktail haunts and pavement tables strung along a heritage street, the natural place to begin a Cape Town night.",
+      "d": "The city's coolest block after dark: wine bars, cocktail haunts and pavement tables strung along a heritage street, the natural place to begin a Cape Town night.",
       "lat": -33.922452,
       "lon": 18.416636,
       "photos": []
@@ -689,7 +689,7 @@
       "cat": "party",
       "tier": "Late & loud",
       "a": "City Bowl",
-      "d": "The Mother City's historic nightlife spine \u2014 Victorian balconies, live music and clubs running till dawn, loud, mixed and unpretentious.",
+      "d": "The Mother City's historic nightlife spine: Victorian balconies, live music and clubs running till dawn, loud, mixed and unpretentious.",
       "lat": -33.921444,
       "lon": 18.420261,
       "photos": []

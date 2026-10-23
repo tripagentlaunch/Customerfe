@@ -5,10 +5,34 @@ import styles from "./ClusterPin.module.css";
 // (2026-10-13, direct request — replaced the heavy black stacked discs).
 // Glyph-free, so it can't be mistaken for a place. The caller owns
 // positioning and what clicking does (zoom in to the group).
-export default function ClusterPin({ count, onClick }: { count: number; onClick: () => void }) {
+export default function ClusterPin({
+  count,
+  onClick,
+  onMouseEnter,
+  onMouseLeave,
+  open = false,
+  label,
+}: {
+  count: number;
+  onClick: () => void;
+  onMouseEnter?: () => void;
+  onMouseLeave?: () => void;
+  open?: boolean;
+  /** Screen-reader label; the default fits a badge that opens a card. A map
+   *  whose badge zooms in on click says so ("N places: zoom in"). */
+  label?: string;
+}) {
   const size = count >= 100 ? styles.lg : count >= 10 ? styles.md : styles.sm;
   return (
-    <button type="button" className={`${styles.cluster} ${size}`} aria-label={`${count} places: zoom in`} onClick={onClick}>
+    <button
+      type="button"
+      className={`${styles.cluster} ${size}${open ? ` ${styles.open}` : ""}`}
+      aria-label={label ?? `${count} places`}
+      aria-expanded={open}
+      onClick={onClick}
+      onMouseEnter={onMouseEnter}
+      onMouseLeave={onMouseLeave}
+    >
       {count}
     </button>
   );

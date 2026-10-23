@@ -9,7 +9,7 @@
       "cat": "stay",
       "tier": "Ultra",
       "a": "Lake Pichola (west bank)",
-      "d": "The domes-and-water dream of Udaipur \u2014 the address the whole city is measured against.",
+      "d": "The domes-and-water dream of Udaipur: the address the whole city is measured against.",
       "lat": 24.577183,
       "lon": 73.672533,
       "photos": []
@@ -19,7 +19,7 @@
       "cat": "stay",
       "tier": "Ultra",
       "a": "Lake Pichola (island)",
-      "d": "A white marble palace that appears to float on the water \u2014 reached only by boat, and unforgettable.",
+      "d": "A white marble palace that appears to float on the water: reached only by boat, and unforgettable.",
       "lat": 24.575443,
       "lon": 73.680124,
       "photos": []
@@ -39,7 +39,7 @@
       "cat": "stay",
       "tier": "Grand",
       "a": "Aravalli outskirts (Udai Sagar Lake, private island)",
-      "d": "A private-island palace of its own \u2014 a serene, self-contained world twenty minutes from the old city.",
+      "d": "A private-island palace of its own: a serene, self-contained world twenty minutes from the old city.",
       "lat": 24.573138,
       "lon": 73.810985,
       "photos": []
@@ -49,7 +49,7 @@
       "cat": "stay",
       "tier": "Grand",
       "a": "Aravalli outskirts (Delwara, ~30 min)",
-      "d": "An 18th-century hill fort turned pared-back, all-suite retreat \u2014 heritage stripped to serene white stone.",
+      "d": "An 18th-century hill fort turned pared-back, all-suite retreat: heritage stripped to serene white stone.",
       "lat": 24.772503,
       "lon": 73.749626,
       "photos": []
@@ -59,7 +59,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Old City / City Palace complex",
-      "d": "A working wing of the Maharana's own City Palace \u2014 crystal galleries, courtyards and lake views within the walls.",
+      "d": "A working wing of the Maharana's own City Palace: crystal galleries, courtyards and lake views within the walls.",
       "lat": 24.574994,
       "lon": 73.683443,
       "photos": []
@@ -69,7 +69,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Aravalli outskirts",
-      "d": "A hill-country resort spread over 27 acres \u2014 the Aravallis for a view, and a serious spa at its heart.",
+      "d": "A hill-country resort spread over 27 acres: the Aravallis for a view, and a serious spa at its heart.",
       "lat": 24.579071,
       "lon": 73.611949,
       "photos": []
@@ -89,7 +89,7 @@
       "cat": "stay",
       "tier": "Premium",
       "a": "Lake Pichola (west bank)",
-      "d": "The Oberoi group's dependable, well-run house in mango groves beside the lake \u2014 polish without the icon's price.",
+      "d": "The Oberoi group's dependable, well-run house in mango groves beside the lake: polish without the icon's price.",
       "lat": 24.577059,
       "lon": 73.669534,
       "photos": []
@@ -108,8 +108,8 @@
       "n": "Sheesh Mahal",
       "cat": "eat",
       "tier": "Destination",
-      "a": "Lake Pichola (island \u2014 Taj Lake Palace)",
-      "d": "Royal Mewari fine dining inside the floating palace \u2014 the grandest dinner in the city, on the water.",
+      "a": "Lake Pichola (island: Taj Lake Palace)",
+      "d": "Royal Mewari fine dining inside the floating palace: the grandest dinner in the city, on the water.",
       "lat": 24.579534,
       "lon": 73.712011,
       "photos": []
@@ -119,7 +119,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Ambrai / Hanuman Ghat",
-      "d": "The lakeside table with the postcard view \u2014 the City Palace and Lake Palace lit up across the water.",
+      "d": "The lakeside table with the postcard view: the City Palace and Lake Palace lit up across the water.",
       "lat": 24.578162,
       "lon": 73.680037,
       "photos": []
@@ -149,7 +149,7 @@
       "cat": "eat",
       "tier": "Casual",
       "a": "Ambrai / Hanuman Ghat (Lake Pichola bank)",
-      "d": "A little terrace caf\u00e9 right on the water \u2014 coffee, cake and the finest slow morning in Udaipur.",
+      "d": "A little terrace caf\u00e9 right on the water: coffee, cake and the finest slow morning in Udaipur.",
       "lat": 24.580792,
       "lon": 73.681849,
       "photos": []
@@ -385,7 +385,7 @@
       "photos": []
     },
     {
-      "n": "Nagda \u2014 Sas-Bahu temples",
+      "n": "Nagda: Sas-Bahu temples",
       "cat": "do",
       "tier": "",
       "a": "Day trip, ~23 km north, near Eklingji",
@@ -489,7 +489,7 @@
       "cat": "party",
       "tier": "Landmark bars",
       "a": "Old City / City Palace (Taj Fateh Prakash Palace)",
-      "d": "A drink among royal portraits and crystal inside the City Palace walls \u2014 the grandest nightcap in Udaipur.",
+      "d": "A drink among royal portraits and crystal inside the City Palace walls: the grandest nightcap in Udaipur.",
       "lat": 24.607983,
       "lon": 73.67888,
       "photos": []

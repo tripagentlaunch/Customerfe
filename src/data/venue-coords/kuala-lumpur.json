@@ -9,7 +9,7 @@
       "cat": "stay",
       "tier": "Ultra",
       "a": "KLCC",
-      "d": "The surest hands in the city, set right beside the Twin Towers \u2014 service you never have to think about.",
+      "d": "The surest hands in the city, set right beside the Twin Towers: service you never have to think about.",
       "lat": 3.15808,
       "lon": 101.713866,
       "photos": []
@@ -19,7 +19,7 @@
       "cat": "stay",
       "tier": "Ultra",
       "a": "Merdeka 118 / City Centre",
-      "d": "The city's highest address \u2014 the top floors of Asia's tallest tower, a modern palace above the skyline.",
+      "d": "The city's highest address: the top floors of Asia's tallest tower, a modern palace above the skyline.",
       "lat": 3.141916,
       "lon": 101.700827,
       "photos": []
@@ -49,7 +49,7 @@
       "cat": "stay",
       "tier": "Grand",
       "a": "KLCC / Jalan Sultan Ismail",
-      "d": "The city's calm urban oasis \u2014 an established grande dame that quietly outpolls the newcomers.",
+      "d": "The city's calm urban oasis: an established grande dame that quietly outpolls the newcomers.",
       "lat": 3.15417,
       "lon": 101.706459,
       "photos": []
@@ -59,7 +59,7 @@
       "cat": "stay",
       "tier": "Grand",
       "a": "KLCC / Golden Triangle",
-      "d": "A Malay-inspired expression of luxury \u2014 craft, warmth and locality, moments from the Towers.",
+      "d": "A Malay-inspired expression of luxury: craft, warmth and locality, moments from the Towers.",
       "lat": 3.152416,
       "lon": 101.714374,
       "photos": []
@@ -69,7 +69,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Chinatown",
-      "d": "A slice of the old city in modern dress \u2014 boutique cool inside a 1930s Art Deco landmark.",
+      "d": "A slice of the old city in modern dress: boutique cool inside a 1930s Art Deco landmark.",
       "lat": 3.144218,
       "lon": 101.696359,
       "photos": []
@@ -89,7 +89,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Tun Razak Exchange / City Centre",
-      "d": "A spa-led sanctuary set high above the city \u2014 vertical calm in a business address.",
+      "d": "A spa-led sanctuary set high above the city: vertical calm in a business address.",
       "lat": 3.150486,
       "lon": 101.713802,
       "photos": []
@@ -109,7 +109,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "KLCC (Naza Tower, Platinum Park)",
-      "d": "Darren Teoh's pioneering ode to the Malaysian larder \u2014 the country's finest table, and its first Green Star.",
+      "d": "Darren Teoh's pioneering ode to the Malaysian larder: the country's finest table, and its first Green Star.",
       "lat": 3.154719,
       "lon": 101.718505,
       "photos": []
@@ -129,7 +129,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "TTDI",
-      "d": "Progressive Malaysian cooking with a Japanese hand \u2014 one of the newest stars in the city.",
+      "d": "Progressive Malaysian cooking with a Japanese hand: one of the newest stars in the city.",
       "lat": 3.162078,
       "lon": 101.698049,
       "photos": []
@@ -159,7 +159,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Bukit Bintang (Jalan Perak)",
-      "d": "A modern read of Malaysia's four regional kitchens \u2014 the flavours of home, refined.",
+      "d": "A modern read of Malaysia's four regional kitchens: the flavours of home, refined.",
       "lat": 3.152931,
       "lon": 101.702692,
       "photos": []
@@ -169,7 +169,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "City Centre (Jalan Sultan Ismail)",
-      "d": "French technique, Nordic restraint and an Asian turn \u2014 a considered new one-star.",
+      "d": "French technique, Nordic restraint and an Asian turn: a considered new one-star.",
       "lat": 3.158404,
       "lon": 101.704663,
       "photos": []
@@ -179,7 +179,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Imbi / Bukit Bintang",
-      "d": "Contemporary Thai of real finesse \u2014 plating and precision that earned a quick star.",
+      "d": "Contemporary Thai of real finesse: plating and precision that earned a quick star.",
       "lat": 3.159453,
       "lon": 101.720819,
       "photos": []
@@ -189,7 +189,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Taman U-Thant (MiCasa)",
-      "d": "A KL stalwart \u2014 classic French cooking built on first-rate Japanese ingredients.",
+      "d": "A KL stalwart: classic French cooking built on first-rate Japanese ingredients.",
       "lat": 3.156898,
       "lon": 101.723008,
       "photos": []
@@ -219,7 +219,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "City Centre",
-      "d": "Charred kebabs, creamy hummus and spiced seafood \u2014 Middle Eastern cooking with real fire.",
+      "d": "Charred kebabs, creamy hummus and spiced seafood: Middle Eastern cooking with real fire.",
       "lat": 3.153112,
       "lon": 101.622983,
       "photos": []
@@ -229,7 +229,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Brickfields",
-      "d": "A century of Bengaluru tradition brought to Little India \u2014 dosas, idlis and filter coffee, done properly.",
+      "d": "A century of Bengaluru tradition brought to Little India: dosas, idlis and filter coffee, done properly.",
       "lat": 3.131576,
       "lon": 101.687381,
       "photos": []
@@ -239,7 +239,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Kuala Lumpur",
-      "d": "North Indian breads and tandoor-cooked meats \u2014 honest, generous, and credentialed.",
+      "d": "North Indian breads and tandoor-cooked meats: honest, generous, and credentialed.",
       "lat": 3.163249,
       "lon": 101.724845,
       "photos": []
@@ -249,7 +249,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Kuala Lumpur",
-      "d": "Sri Lankan home cooking \u2014 curries, string hoppers and sambols, warm and unfussy.",
+      "d": "Sri Lankan home cooking: curries, string hoppers and sambols, warm and unfussy.",
       "lat": 3.149344,
       "lon": 101.653875,
       "photos": []
@@ -269,7 +269,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Bukit Bintang",
-      "d": "Long-running Vietnamese cooking \u2014 pho, spring rolls and southern flavours, quietly excellent.",
+      "d": "Long-running Vietnamese cooking: pho, spring rolls and southern flavours, quietly excellent.",
       "lat": 3.14581,
       "lon": 101.707531,
       "photos": []
@@ -279,7 +279,7 @@
       "cat": "eat",
       "tier": "Casual",
       "a": "Pudu",
-      "d": "Heritage Cantonese from a wood-fired stove \u2014 roast duck and a taste of the old city.",
+      "d": "Heritage Cantonese from a wood-fired stove: roast duck and a taste of the old city.",
       "lat": 3.143921,
       "lon": 101.697145,
       "photos": []
@@ -289,7 +289,7 @@
       "cat": "eat",
       "tier": "Casual",
       "a": "Pudu",
-      "d": "Charcoal claypot rice with chicken and lap cheong \u2014 smoky, crusted at the bottom, exactly right.",
+      "d": "Charcoal claypot rice with chicken and lap cheong: smoky, crusted at the bottom, exactly right.",
       "lat": 3.132739,
       "lon": 101.716298,
       "photos": []
@@ -299,7 +299,7 @@
       "cat": "eat",
       "tier": "Casual",
       "a": "Kuala Lumpur",
-      "d": "Rustic claypot cooking over charcoal, done the traditional way \u2014 comfort in a bowl.",
+      "d": "Rustic claypot cooking over charcoal, done the traditional way: comfort in a bowl.",
       "lat": 3.144238,
       "lon": 101.697578,
       "photos": []
@@ -309,7 +309,7 @@
       "cat": "eat",
       "tier": "Casual",
       "a": "Chinatown",
-      "d": "Fresh clams in an aromatic broth over noodles \u2014 a Chinatown breakfast worth the queue.",
+      "d": "Fresh clams in an aromatic broth over noodles: a Chinatown breakfast worth the queue.",
       "lat": 3.144599,
       "lon": 101.698706,
       "photos": []
@@ -319,7 +319,7 @@
       "cat": "eat",
       "tier": "Casual",
       "a": "Chinatown",
-      "d": "A back-lane beef-noodle stall the inspectors singled out \u2014 deep, dark, and beloved.",
+      "d": "A back-lane beef-noodle stall the inspectors singled out: deep, dark, and beloved.",
       "lat": 3.145087,
       "lon": 101.696961,
       "photos": []
@@ -355,7 +355,7 @@
       "photos": []
     },
     {
-      "n": "Merdeka 118 \u2014 'The View at 118'",
+      "n": "Merdeka 118: 'The View at 118'",
       "cat": "do",
       "tier": "",
       "a": "City Centre",
@@ -379,7 +379,7 @@
       "cat": "do",
       "tier": "",
       "a": "Gombak (north KL)",
-      "d": "A soaring limestone cave-temple reached by 272 rainbow-painted steps, guarded by a 42.7-metre golden Murugan \u2014 the tallest statue in Malaysia and a deeply resonant pilgrimage for Hindu families, spectacular at Thaipusam. Barely 30 minutes from the city, an easy morning with a private guide before the heat and crowds.",
+      "d": "A soaring limestone cave-temple reached by 272 rainbow-painted steps, guarded by a 42.7-metre golden Murugan: the tallest statue in Malaysia and a deeply resonant pilgrimage for Hindu families, spectacular at Thaipusam. Barely 30 minutes from the city, an easy morning with a private guide before the heat and crowds.",
       "lat": 3.250645,
       "lon": 101.727346,
       "photos": []
@@ -389,7 +389,7 @@
       "cat": "do",
       "tier": "",
       "a": "Perdana (Lake Gardens)",
-      "d": "Under turquoise-tiled domes sits the largest collection of Islamic art in Southeast Asia \u2014 Qur'ans, textiles, arms, and a standout India gallery with Mughal treasures. Serene, air-conditioned and scholarly; the on-site restaurant is a graceful lunch stop.",
+      "d": "Under turquoise-tiled domes sits the largest collection of Islamic art in Southeast Asia: Qur'ans, textiles, arms, and a standout India gallery with Mughal treasures. Serene, air-conditioned and scholarly; the on-site restaurant is a graceful lunch stop.",
       "lat": 3.141453,
       "lon": 101.689871,
       "photos": []
@@ -429,7 +429,7 @@
       "cat": "do",
       "tier": "",
       "a": "Robson Heights",
-      "d": "A six-tiered, dragon-wreathed temple to the sea goddess Mazu, blazing with red lanterns and commanding a hilltop view over the city \u2014 the largest Chinese temple in Southeast Asia. Photogenic and uncrowded compared with the icons; magical at Chinese New Year.",
+      "d": "A six-tiered, dragon-wreathed temple to the sea goddess Mazu, blazing with red lanterns and commanding a hilltop view over the city: the largest Chinese temple in Southeast Asia. Photogenic and uncrowded compared with the icons; magical at Chinese New Year.",
       "lat": 3.121843,
       "lon": 101.687645,
       "photos": []
@@ -439,7 +439,7 @@
       "cat": "do",
       "tier": "",
       "a": "Chinatown",
-      "d": "A restored 1888 Art Deco hall, once the city's wet market, now a curated warren of batik, pewter, songket and crafts under one roof \u2014 an easy, cool place to buy gifts without haggling in the sun. Fixed-price stalls suit unhurried family browsing.",
+      "d": "A restored 1888 Art Deco hall, once the city's wet market, now a curated warren of batik, pewter, songket and crafts under one roof: an easy, cool place to buy gifts without haggling in the sun. Fixed-price stalls suit unhurried family browsing.",
       "lat": 3.14584,
       "lon": 101.695506,
       "photos": []
@@ -459,7 +459,7 @@
       "cat": "do",
       "tier": "",
       "a": "Chinatown",
-      "d": "A once-derelict Chinatown back-lane lovingly restored with interactive 1960s murals \u2014 scan the QR codes to watch each scene come to life \u2014 and a clutch of moody cafes and bars. A charming, low-key hour that photographs beautifully.",
+      "d": "A once-derelict Chinatown back-lane lovingly restored with interactive 1960s murals: scan the QR codes to watch each scene come to life, and a clutch of moody cafes and bars. A charming, low-key hour that photographs beautifully.",
       "lat": 3.141609,
       "lon": 101.697731,
       "photos": []
@@ -469,7 +469,7 @@
       "cat": "do",
       "tier": "",
       "a": "Perdana (Lake Gardens)",
-      "d": "Over 3,000 birds across 200-plus species roam free under a vast canopy net \u2014 hornbills, flamingos and peacocks at arm's length \u2014 the world's largest free-flight walk-in aviary. A genuine hit with children and grandparents alike, walkable and shaded.",
+      "d": "Over 3,000 birds across 200-plus species roam free under a vast canopy net: hornbills, flamingos and peacocks at arm's length, the world's largest free-flight walk-in aviary. A genuine hit with children and grandparents alike, walkable and shaded.",
       "lat": 3.143569,
       "lon": 101.689002,
       "photos": []
@@ -479,7 +479,7 @@
       "cat": "do",
       "tier": "",
       "a": "Perdana (Lake Gardens)",
-      "d": "The green lung of central KL \u2014 90-plus hectares of lakes, an orchid and hibiscus garden, and shaded lawns that link the Bird Park, Butterfly Park and Islamic Arts Museum. The most restful base for a slow, multi-generational morning.",
+      "d": "The green lung of central KL: 90-plus hectares of lakes, an orchid and hibiscus garden, and shaded lawns that link the Bird Park, Butterfly Park and Islamic Arts Museum. The most restful base for a slow, multi-generational morning.",
       "lat": 3.143795,
       "lon": 101.684817,
       "photos": []
@@ -499,7 +499,7 @@
       "cat": "do",
       "tier": "",
       "a": "KLCC",
-      "d": "A million-litre oceanarium beneath the convention centre, its 90-metre moving walkway tunnel putting sharks and rays overhead \u2014 a reliable, air-conditioned crowd-pleaser for families with young children on a hot afternoon.",
+      "d": "A million-litre oceanarium beneath the convention centre, its 90-metre moving walkway tunnel putting sharks and rays overhead: a reliable, air-conditioned crowd-pleaser for families with young children on a hot afternoon.",
       "lat": 3.153344,
       "lon": 101.713059,
       "photos": []
@@ -529,7 +529,7 @@
       "cat": "do",
       "tier": "",
       "a": "Tun Razak Exchange",
-      "d": "KL's newest luxury retail destination inside the TRX financial district, crowned by a landscaped 10-acre rooftop city park \u2014 a fresh, less-crowded alternative to Bukit Bintang for high-end shopping and a garden stroll.",
+      "d": "KL's newest luxury retail destination inside the TRX financial district, crowned by a landscaped 10-acre rooftop city park: a fresh, less-crowded alternative to Bukit Bintang for high-end shopping and a garden stroll.",
       "lat": 3.141793,
       "lon": 101.718701,
       "photos": []
@@ -539,7 +539,7 @@
       "cat": "do",
       "tier": "",
       "a": "Bukit Bintang",
-      "d": "After dark this lane erupts into KL's most famous open-air hawker theatre \u2014 grilled seafood, satay and tropical fruit under plastic stools and fairy lights. A guided tasting walk keeps it manageable and can flag genuinely vegetarian-friendly stalls.",
+      "d": "After dark this lane erupts into KL's most famous open-air hawker theatre: grilled seafood, satay and tropical fruit under plastic stools and fairy lights. A guided tasting walk keeps it manageable and can flag genuinely vegetarian-friendly stalls.",
       "lat": 3.145547,
       "lon": 101.70849,
       "photos": []
@@ -549,7 +549,7 @@
       "cat": "do",
       "tier": "",
       "a": "Brickfields",
-      "d": "KL's Little India, a garland-and-spice-scented quarter of Tamil temples, sari shops and banana-leaf restaurants beside KL Sentral \u2014 the obvious anchor for pure-vegetarian and Jain-aware dining. Familiar flavours and easy comfort for Indian travellers.",
+      "d": "KL's Little India, a garland-and-spice-scented quarter of Tamil temples, sari shops and banana-leaf restaurants beside KL Sentral: the obvious anchor for pure-vegetarian and Jain-aware dining. Familiar flavours and easy comfort for Indian travellers.",
       "lat": 3.128857,
       "lon": 101.684553,
       "photos": []
@@ -589,7 +589,7 @@
       "cat": "do",
       "tier": "",
       "a": "Perdana (Lake Gardens)",
-      "d": "A Minangkabau-roofed pavilion tracing Malaysia from prehistory through the sultanates to independence \u2014 the best single primer on the country's layered history. A worthwhile, air-conditioned grounding for curious multi-generational travellers.",
+      "d": "A Minangkabau-roofed pavilion tracing Malaysia from prehistory through the sultanates to independence: the best single primer on the country's layered history. A worthwhile, air-conditioned grounding for curious multi-generational travellers.",
       "lat": 3.137101,
       "lon": 101.687383,
       "photos": []
@@ -599,7 +599,7 @@
       "cat": "do",
       "tier": "",
       "a": "Setapak",
-      "d": "The world's largest pewter manufacturer opens its craft to visitors \u2014 a museum, a hands-on 'School of Hard Knocks' pewter-dish workshop, and a flagship boutique. A tactile, gift-worthy stop that entertains children and adults; private tours can be arranged.",
+      "d": "The world's largest pewter manufacturer opens its craft to visitors: a museum, a hands-on 'School of Hard Knocks' pewter-dish workshop, and a flagship boutique. A tactile, gift-worthy stop that entertains children and adults; private tours can be arranged.",
       "lat": 3.195917,
       "lon": 101.724616,
       "photos": []
@@ -609,7 +609,7 @@
       "cat": "do",
       "tier": "",
       "a": "KLCC",
-      "d": "An interactive science-and-petroleum discovery centre inside Suria KLCC, hands-on and playful \u2014 a dependable rainy-afternoon anchor for children within the towers complex.",
+      "d": "An interactive science-and-petroleum discovery centre inside Suria KLCC, hands-on and playful: a dependable rainy-afternoon anchor for children within the towers complex.",
       "lat": 3.157528,
       "lon": 101.71187,
       "photos": []
@@ -625,11 +625,11 @@
       "photos": []
     },
     {
-      "n": "Rooftop bars \u2014 Marini's on 57 & Vertigo",
+      "n": "Rooftop bars: Marini's on 57 & Vertigo",
       "cat": "do",
       "tier": "",
       "a": "KLCC / City Centre",
-      "d": "KL's skyline is made for altitude: Marini's on 57 looks straight across at the Petronas towers, while other 50-plus-floor rooftops frame Merdeka 118. Reserve a private table for sundowners \u2014 the most glamorous way to end a KL day.",
+      "d": "KL's skyline is made for altitude: Marini's on 57 looks straight across at the Petronas towers, while other 50-plus-floor rooftops frame Merdeka 118. Reserve a private table for sundowners: the most glamorous way to end a KL day.",
       "lat": 3.156408,
       "lon": 101.711446,
       "photos": []
@@ -669,7 +669,7 @@
       "cat": "do",
       "tier": "",
       "a": "Klang Gates (north-east)",
-      "d": "A dramatic quartz-ridge hike on the city's edge with sunrise views over the Klang Gates dam \u2014 one of the longest quartz ridges in the world. For the active traveller wanting a private-guided dawn adventure close to town.",
+      "d": "A dramatic quartz-ridge hike on the city's edge with sunrise views over the Klang Gates dam: one of the longest quartz ridges in the world. For the active traveller wanting a private-guided dawn adventure close to town.",
       "lat": 3.216343,
       "lon": 101.661535,
       "photos": []
@@ -689,7 +689,7 @@
       "cat": "do",
       "tier": "",
       "a": "Federal Territory (~40 min)",
-      "d": "Malaysia's purpose-built garden administrative capital, all grand boulevards, a pink-domed lakeside mosque (Putra Mosque) and monumental bridges \u2014 best seen by lake cruise. Photogenic, orderly and easy; a striking half-day with a driver.",
+      "d": "Malaysia's purpose-built garden administrative capital, all grand boulevards, a pink-domed lakeside mosque (Putra Mosque) and monumental bridges: best seen by lake cruise. Photogenic, orderly and easy; a striking half-day with a driver.",
       "lat": 3.159287,
       "lon": 101.718286,
       "photos": []
@@ -699,7 +699,7 @@
       "cat": "do",
       "tier": "",
       "a": "Melaka (~2 hrs)",
-      "d": "The UNESCO-listed old port where Malay, Portuguese, Dutch, British and Peranakan histories collide \u2014 red Dutch square, Jonker Street antiques and Nyonya cuisine. A rich, storied full-day with a private guide and car.",
+      "d": "The UNESCO-listed old port where Malay, Portuguese, Dutch, British and Peranakan histories collide: red Dutch square, Jonker Street antiques and Nyonya cuisine. A rich, storied full-day with a private guide and car.",
       "lat": 3.104798,
       "lon": 101.669964,
       "photos": []
@@ -709,7 +709,7 @@
       "cat": "do",
       "tier": "",
       "a": "Selangor (~1.5 hrs)",
-      "d": "At dusk on the Selangor River, silent sampans glide beneath berembang trees lit by thousands of synchronously flashing fireflies \u2014 one of the few places on earth this happens. Magical and unhurried, ideally paired with a seafood dinner at nearby Pasir Penambang.",
+      "d": "At dusk on the Selangor River, silent sampans glide beneath berembang trees lit by thousands of synchronously flashing fireflies: one of the few places on earth this happens. Magical and unhurried, ideally paired with a seafood dinner at nearby Pasir Penambang.",
       "lat": 3.141912,
       "lon": 101.697204,
       "photos": []
@@ -719,7 +719,7 @@
       "cat": "do",
       "tier": "",
       "a": "Pahang (~2.5 hrs)",
-      "d": "A national conservation centre that rehabilitates rescued wild elephants, offering gentle, educational encounters \u2014 a meaningful outing for families who want substance over spectacle. Best arranged privately to avoid the busiest sessions.",
+      "d": "A national conservation centre that rehabilitates rescued wild elephants, offering gentle, educational encounters: a meaningful outing for families who want substance over spectacle. Best arranged privately to avoid the busiest sessions.",
       "lat": 3.354069,
       "lon": 101.799122,
       "photos": []
@@ -739,7 +739,7 @@
       "cat": "do",
       "tier": "",
       "a": "Kepong (~30 min)",
-      "d": "The Forest Research Institute's mature secondary rainforest offers a high canopy walkway and shaded trails just north of the city \u2014 a UNESCO-nominated site and an easy dose of jungle. A refreshing morning for active families.",
+      "d": "The Forest Research Institute's mature secondary rainforest offers a high canopy walkway and shaded trails just north of the city: a UNESCO-nominated site and an easy dose of jungle. A refreshing morning for active families.",
       "lat": 3.213131,
       "lon": 101.662805,
       "photos": []
@@ -759,7 +759,7 @@
       "cat": "do",
       "tier": "",
       "a": "Ampang (~30 min)",
-      "d": "The national zoo is home to giant pandas on loan from China and a broad Southeast Asian collection across landscaped grounds \u2014 an easy, child-friendly outing on the city's edge, best with a buggy tour for grandparents.",
+      "d": "The national zoo is home to giant pandas on loan from China and a broad Southeast Asian collection across landscaped grounds: an easy, child-friendly outing on the city's edge, best with a buggy tour for grandparents.",
       "lat": 3.110038,
       "lon": 101.673186,
       "photos": []
@@ -769,7 +769,7 @@
       "cat": "do",
       "tier": "",
       "a": "City Centre",
-      "d": "At the tower's base, a landscaped public park and heritage-lined precinct including the restored Stadium Merdeka where independence was proclaimed \u2014 a walkable, historic ground-level counterpart to the sky-high view above.",
+      "d": "At the tower's base, a landscaped public park and heritage-lined precinct including the restored Stadium Merdeka where independence was proclaimed: a walkable, historic ground-level counterpart to the sky-high view above.",
       "lat": 3.141351,
       "lon": 101.701087,
       "photos": []
@@ -779,7 +779,7 @@
       "cat": "party",
       "tier": "Cocktail bars",
       "a": "City Centre (Jalan Petaling)",
-      "d": "Jon Lee's exercise in restraint \u2014 bar-counter seating, no theatre, drinks built on a clear five-pillar logic. Quietly the finest cocktail room in the country right now.",
+      "d": "Jon Lee's exercise in restraint: bar-counter seating, no theatre, drinks built on a clear five-pillar logic. Quietly the finest cocktail room in the country right now.",
       "lat": 3.141421,
       "lon": 101.697908,
       "photos": []
@@ -789,7 +789,7 @@
       "cat": "party",
       "tier": "Cocktail bars",
       "a": "TTDI",
-      "d": "A bartenders' bar out in leafy TTDI, turning local flavour into precise, confident drinks \u2014 the Georgetown Gimlet reads like assam laksa in a glass.",
+      "d": "A bartenders' bar out in leafy TTDI, turning local flavour into precise, confident drinks: the Georgetown Gimlet reads like assam laksa in a glass.",
       "lat": 3.146956,
       "lon": 101.712879,
       "photos": []
@@ -799,7 +799,7 @@
       "cat": "party",
       "tier": "Cocktail bars",
       "a": "KLCC (Four Seasons Hotel)",
-      "d": "The most polished way to drink well in the city \u2014 sustainable, hyper-local mixology inside the Four Seasons, seven straight years on the regional list. The natural first evening for a member already staying in KLCC.",
+      "d": "The most polished way to drink well in the city: sustainable, hyper-local mixology inside the Four Seasons, seven straight years on the regional list. The natural first evening for a member already staying in KLCC.",
       "lat": 3.158093,
       "lon": 101.713682,
       "photos": []
@@ -809,7 +809,7 @@
       "cat": "party",
       "tier": "Cocktail bars",
       "a": "Damansara (Bukit Damansara)",
-      "d": "Part lounge, part laboratory \u2014 the city's most inventive drinking room, above a Damansara shophouse, entirely serious about the alchemy of flavour.",
+      "d": "Part lounge, part laboratory: the city's most inventive drinking room, above a Damansara shophouse, entirely serious about the alchemy of flavour.",
       "lat": 3.155231,
       "lon": 101.656114,
       "photos": []
@@ -819,7 +819,7 @@
       "cat": "party",
       "tier": "Cocktail bars",
       "a": "Bangsar",
-      "d": "CK Kho's small Bangsar neighbourhood bar, named for the Savoy's Ada Coleman \u2014 simple ideas done exceptionally, and on the list every year since 2018.",
+      "d": "CK Kho's small Bangsar neighbourhood bar, named for the Savoy's Ada Coleman: simple ideas done exceptionally, and on the list every year since 2018.",
       "lat": 3.151696,
       "lon": 101.694237,
       "photos": []
@@ -829,7 +829,7 @@
       "cat": "party",
       "tier": "Cocktail bars",
       "a": "Damansara (Bukit Damansara)",
-      "d": "The city's first dedicated rum bar \u2014 a tiki tribute with two hundred-odd rums and a warmth that made it a regional fixture. Easy, generous, and genuinely fun.",
+      "d": "The city's first dedicated rum bar: a tiki tribute with two hundred-odd rums and a warmth that made it a regional fixture. Easy, generous, and genuinely fun.",
       "lat": 3.151696,
       "lon": 101.694237,
       "photos": []
@@ -839,7 +839,7 @@
       "cat": "party",
       "tier": "Late & loud",
       "a": "Chinatown",
-      "d": "A speakeasy hidden behind a vintage toy-shop front on Petaling Street, unfolding into an opium den, an open courtyard and a buzzing main bar \u2014 the most theatrical night out in the old quarter.",
+      "d": "A speakeasy hidden behind a vintage toy-shop front on Petaling Street, unfolding into an opium den, an open courtyard and a buzzing main bar: the most theatrical night out in the old quarter.",
       "lat": 3.151696,
       "lon": 101.694237,
       "photos": []
@@ -849,7 +849,7 @@
       "cat": "party",
       "tier": "Rooftops",
       "a": "KLCC",
-      "d": "The highest rooftop bar in the country, on the 57th floor beside the Twin Towers \u2014 floor-to-ceiling glass, a serious single-malt and cigar list, and the towers close enough to touch.",
+      "d": "The highest rooftop bar in the country, on the 57th floor beside the Twin Towers: floor-to-ceiling glass, a serious single-malt and cigar list, and the towers close enough to touch.",
       "lat": 3.156412,
       "lon": 101.71147,
       "photos": []
@@ -859,7 +859,7 @@
       "cat": "party",
       "tier": "Rooftops",
       "a": "Tun Razak Exchange (Banyan Tree Kuala Lumpur)",
-      "d": "A 360-degree rooftop on the 59th floor of the Banyan Tree, the towers and KL Tower laid out below \u2014 the calmer, more design-led high perch for a first drink of the evening.",
+      "d": "A 360-degree rooftop on the 59th floor of the Banyan Tree, the towers and KL Tower laid out below: the calmer, more design-led high perch for a first drink of the evening.",
       "lat": 3.15058,
       "lon": 101.713823,
       "photos": []
@@ -869,7 +869,7 @@
       "cat": "party",
       "tier": "Landmark bars",
       "a": "KLCC (Menara 3 Petronas)",
-      "d": "A grand steakhouse and lounge-bar a floor below Marini's, with an in-view dry-ageing cellar and the Twin Towers filling the glass \u2014 the polished, grown-up address for a long, unhurried evening over halal wagyu and cigars.",
+      "d": "A grand steakhouse and lounge-bar a floor below Marini's, with an in-view dry-ageing cellar and the Twin Towers filling the glass: the polished, grown-up address for a long, unhurried evening over halal wagyu and cigars.",
       "lat": 3.110222,
       "lon": 101.678897,
       "photos": []

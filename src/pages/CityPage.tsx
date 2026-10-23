@@ -35,7 +35,6 @@ import { pickHighlightSlots } from "../lib/planHighlights";
 import { useAgraLivePlanCoords, type PlanTarget } from "../hooks/useAgraLivePlanCoords";
 // import { useAgraLiveEventLocations } from "../hooks/useAgraLiveEventLocations";
 import { useLiveGuidePanelPhotos, type LivePanelPhoto } from "../hooks/useLiveGuidePanelPhotos";
-import { placeholderPhoto } from "../lib/placeholderPhoto";
 import { PrimaryInverseButton, SecondaryInverseButton } from "../components/buttons/InverseButtons";
 import { withTaraAI } from "../components/TaraAI";
 import styles from "./city-page.module.css";
@@ -231,17 +230,20 @@ function GuideCard({
   save,
   children,
 }: {
-  photo: string;
+  photo?: string | null;
   badge?: string;
   isLoading?: boolean;
   save?: WishlistEntry;
   children: ReactNode;
 }) {
   const [imgLoaded, setImgLoaded] = useState(false);
+  const [broken, setBroken] = useState(false);
   useEffect(() => {
     setImgLoaded(false);
+    setBroken(false);
   }, [photo]);
-  const showSpinner = isLoading || !imgLoaded;
+  const shownPhoto = broken ? null : photo || null;
+  const showSpinner = isLoading || (!!shownPhoto && !imgLoaded);
   // Phone: the card shows a fixed amount of text (so every card is the same size);
   // "Read more" (or tapping the card) opens the whole entry in a sheet over the page,
   // so reading it never stretches the card or the photo.
@@ -320,20 +322,14 @@ function GuideCard({
         }}
         style={!isPhone && expandable && !expanded ? { cursor: "pointer" } : undefined}
       >
-        <div className={styles.cardThumbWrap}>
+        {shownPhoto && <div className={styles.cardThumbWrap}>
           <img
             className={styles.cardThumb}
-            src={photo}
+            src={shownPhoto}
             alt=""
             loading="lazy"
             onLoad={() => setImgLoaded(true)}
-            onError={(e) => {
-              // A photo that can't load shows the same quiet placeholder as a
-              // place with none, never a broken image (2026-10-22).
-              const fallback = placeholderPhoto(photo);
-              if (e.currentTarget.src !== fallback) e.currentTarget.src = fallback;
-              setImgLoaded(true);
-            }}
+            onError={() => setBroken(true)} // a photo that can't load is hidden: no image, never a broken one or a placeholder (2026-10-23)
           />
           {/* On phones the tag already shows beside the photo; a label on the small photo too just crowds it. */}
           {badge && !isPhone && <span className={styles.cardThumbBadge}>{badge}</span>}
@@ -343,7 +339,7 @@ function GuideCard({
             </div>
           )}
           {isPhone && save && heart(styles.cardHeart, "")}
-        </div>
+        </div>}
         <div className={styles.cardBody} ref={bodyRef} data-expanded={expanded || undefined}>
           <CardExpand.Provider value={isPhone ? null : cardExpand}>{children}</CardExpand.Provider>
           {!isPhone && (clipped || expanded) && (
@@ -380,7 +376,7 @@ function GuideCard({
               }}
             >
               <div className={styles.sheetGrip} aria-hidden="true" />
-              <div className={styles.sheetPhoto} style={{ backgroundImage: `url('${photo}')` }} />
+              {shownPhoto && <div className={styles.sheetPhoto} style={{ backgroundImage: `url('${shownPhoto}')` }} />}
               <div className={`ta-guide ${styles.sheetBody}`}>
                 <TagsExpanded.Provider value={true}>
                   <ul className="cg-list">
@@ -522,9 +518,7 @@ function GuidePanel({
               const noTag = credentials.length === 0;
               const live = livePhotos[`${panel.key}-${i}-${j}`];
               const isLoadingLivePhoto = !item.photo && live?.status === "loading";
-              const photo =
-                item.photo ??
-                (live?.status === "success" ? live.photoUrl : placeholderPhoto(`${panel.key}-${i}-${j}-${item.name}`));
+              const photo = item.photo ?? (live?.status === "success" ? live.photoUrl : null);
               return (
               <li
                 className={(() => {
@@ -854,7 +848,7 @@ export default function CityPage() {
     () => highlightSlots.map((slotIndex, dayIndex) => ({ dayIndex, slotIndex })).filter((t) => t.slotIndex >= 0),
     [highlightSlots],
   );
-  const agraLiveCoords = useAgraLivePlanCoords(isLivePlacesEnabledCity, city?.plan.days, planTargets);
+  const agraLiveCoords = useAgraLivePlanCoords(isLivePlacesEnabledCity, city?.plan.days, planTargets, city?.hero.name || city?.slug || "");
   // const agraLiveEventLocations = useAgraLiveEventLocations(isLivePlacesEnabledCity, city?.whatsOn.events);
   // The engine's guide already chose each photo, checked to be the exact
   // place; a card it left without one shows the placeholder, not a live
@@ -868,6 +862,10 @@ export default function CityPage() {
   // Each day's highlight, resolved: its coordinates come from the static
   // data when present, else from the live lookup (test cities) if it has
   // come back; photo likewise (static, else live, else a placeholder).
+  const cityPhotos = useMemo(
+    () => [city?.hero.image, city?.firstLook.heroImage, ...(city?.firstLook.grid ?? []).map((g) => g.image)].filter((u): u is string => !!u),
+    [city],
+  );
   const dayHighlights = useMemo(
     () =>
       (city?.plan.days ?? []).map((day, dayIndex) => {
@@ -888,11 +886,12 @@ export default function CityPage() {
           place: slot?.place ?? slot?.label ?? day.title ?? "",
           text: slot?.text ?? null,
           category: slot?.category ?? null,
-          photo: slot?.photo || live?.photoUrl || placeholderPhoto(`${city?.slug}-plan-${dayIndex}-${slotIndex}-0`),
+          // No photo of the place: none (no city photo, no placeholder).
+          photo: slot?.photo || live?.photoUrl || null,
           coord,
         };
       }),
-    [city, highlightSlots, isLivePlacesEnabledCity, agraLiveCoords],
+    [city, cityPhotos, highlightSlots, isLivePlacesEnabledCity, agraLiveCoords],
   );
 
   // The sticky map shows the WHOLE route at once: one pin per day (the days
@@ -1195,7 +1194,7 @@ export default function CityPage() {
                     lat: calendarActiveEvent.location.lat,
                     lon: calendarActiveEvent.location.lon,
                     name: calendarActiveEvent.name ?? calendarActiveEvent.location.label,
-                    photo: calendarActiveEvent.photo ?? placeholderPhoto(`event-${calendarActiveEvent.name}`),
+                    photo: calendarActiveEvent.photo ?? undefined,
                   }}
                 />
               );

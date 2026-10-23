@@ -9,7 +9,7 @@
       "cat": "stay",
       "tier": "Ultra",
       "a": "Bel-Air",
-      "d": "A twelve-acre canyon hideaway of swan lakes and secret gardens \u2014 Los Angeles at its most private.",
+      "d": "A twelve-acre canyon hideaway of swan lakes and secret gardens: Los Angeles at its most private.",
       "lat": 34.086499,
       "lon": -118.44642,
       "photos": []
@@ -19,7 +19,7 @@
       "cat": "stay",
       "tier": "Ultra",
       "a": "Beverly Hills",
-      "d": "The Pink Palace on Sunset since 1912 \u2014 the definitive myth of Beverly Hills, still gracious.",
+      "d": "The Pink Palace on Sunset since 1912: the definitive myth of Beverly Hills, still gracious.",
       "lat": 34.081715,
       "lon": -118.413797,
       "photos": []
@@ -29,7 +29,7 @@
       "cat": "stay",
       "tier": "Ultra",
       "a": "Beverly Hills",
-      "d": "A gleaming Pierre-Yves Rochon tower at Wilshire and Santa Monica \u2014 the marque's West Coast debut.",
+      "d": "A gleaming Pierre-Yves Rochon tower at Wilshire and Santa Monica: the marque's West Coast debut.",
       "lat": 34.066577,
       "lon": -118.411641,
       "photos": []
@@ -39,7 +39,7 @@
       "cat": "stay",
       "tier": "Ultra",
       "a": "Beverly Hills",
-      "d": "The group's flawless Californian house \u2014 the only Forbes Five-Star, AAA Five-Diamond hotel in Southern California, year after year.",
+      "d": "The group's flawless Californian house: the only Forbes Five-Star, AAA Five-Diamond hotel in Southern California, year after year.",
       "lat": 34.065748,
       "lon": -118.410552,
       "photos": []
@@ -49,7 +49,7 @@
       "cat": "stay",
       "tier": "Grand",
       "a": "Beverly Hills",
-      "d": "The London group's Californian address \u2014 Claridge's polish, a block from Rodeo Drive.",
+      "d": "The London group's Californian address: Claridge's polish, a block from Rodeo Drive.",
       "lat": 34.067767,
       "lon": -118.398916,
       "photos": []
@@ -59,7 +59,7 @@
       "cat": "stay",
       "tier": "Grand",
       "a": "Beverly Hills",
-      "d": "A 1928 landmark at the foot of Rodeo Drive \u2014 grand-hotel bones, Four Seasons hands.",
+      "d": "A 1928 landmark at the foot of Rodeo Drive: grand-hotel bones, Four Seasons hands.",
       "lat": 34.072954,
       "lon": -118.389214,
       "photos": []
@@ -69,7 +69,7 @@
       "cat": "stay",
       "tier": "Grand",
       "a": "Beverly Hills / West Hollywood border",
-      "d": "The surest hands in Los Angeles \u2014 a leafy, low-key garden hotel on Doheny Drive.",
+      "d": "The surest hands in Los Angeles: a leafy, low-key garden hotel on Doheny Drive.",
       "lat": 34.072954,
       "lon": -118.389214,
       "photos": []
@@ -79,7 +79,7 @@
       "cat": "stay",
       "tier": "Grand",
       "a": "Beverly Hills",
-      "d": "The longest-tenured all-suite Forbes Five-Star hotel in the world \u2014 discreet, residential calm.",
+      "d": "The longest-tenured all-suite Forbes Five-Star hotel in the world: discreet, residential calm.",
       "lat": 34.072644,
       "lon": -118.395424,
       "photos": []
@@ -89,7 +89,7 @@
       "cat": "stay",
       "tier": "Ultra",
       "a": "Malibu",
-      "d": "A sixteen-room teak ryokan on Billionaire's Beach \u2014 the ocean at the foot of the bed.",
+      "d": "A sixteen-room teak ryokan on Billionaire's Beach: the ocean at the foot of the bed.",
       "lat": 34.039111,
       "lon": -118.671224,
       "photos": []
@@ -99,7 +99,7 @@
       "cat": "stay",
       "tier": "Grand",
       "a": "West Hollywood",
-      "d": "The most storied hotel in Hollywood \u2014 a Loire-ch\u00e2teau fantasy above the Sunset Strip.",
+      "d": "The most storied hotel in Hollywood: a Loire-ch\u00e2teau fantasy above the Sunset Strip.",
       "lat": 34.09825,
       "lon": -118.368405,
       "photos": []
@@ -109,7 +109,7 @@
       "cat": "stay",
       "tier": "Grand",
       "a": "West Hollywood",
-      "d": "A sleek Sunset Strip tower with a rooftop over the whole city \u2014 contemporary and buzzing.",
+      "d": "A sleek Sunset Strip tower with a rooftop over the whole city: contemporary and buzzing.",
       "lat": 34.097166,
       "lon": -118.327443,
       "photos": []
@@ -119,7 +119,7 @@
       "cat": "stay",
       "tier": "Grand",
       "a": "West Hollywood",
-      "d": "Ian Schrager's white, garden-wrapped tower \u2014 quiet-luxury calm with a rooftop and a basement club.",
+      "d": "Ian Schrager's white, garden-wrapped tower: quiet-luxury calm with a rooftop and a basement club.",
       "lat": 34.09002,
       "lon": -118.389146,
       "photos": []
@@ -129,7 +129,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "West Hollywood",
-      "d": "An Art Deco icon of the Sunset Strip \u2014 old-Hollywood glamour, discreetly kept alive.",
+      "d": "An Art Deco icon of the Sunset Strip: old-Hollywood glamour, discreetly kept alive.",
       "lat": 34.09509,
       "lon": -118.37212,
       "photos": []
@@ -139,7 +139,7 @@
       "cat": "stay",
       "tier": "Grand",
       "a": "Santa Monica",
-      "d": "A Cape-Cod beach house right on the sand \u2014 the ocean-side heart of Santa Monica.",
+      "d": "A Cape-Cod beach house right on the sand: the ocean-side heart of Santa Monica.",
       "lat": 34.007062,
       "lon": -118.491718,
       "photos": []
@@ -149,7 +149,7 @@
       "cat": "stay",
       "tier": "Grand",
       "a": "Santa Monica",
-      "d": "A restored 1920s beach club on the sand \u2014 a grander, more romantic Santa Monica landmark.",
+      "d": "A restored 1920s beach club on the sand: a grander, more romantic Santa Monica landmark.",
       "lat": 34.006419,
       "lon": -118.491266,
       "photos": []
@@ -159,7 +159,7 @@
       "cat": "stay",
       "tier": "Grand",
       "a": "Santa Monica",
-      "d": "A palm-shaded estate above the ocean bluffs \u2014 private bungalows and a century of history.",
+      "d": "A palm-shaded estate above the ocean bluffs: private bungalows and a century of history.",
       "lat": 34.018022,
       "lon": -118.501613,
       "photos": []
@@ -169,7 +169,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Santa Monica",
-      "d": "A turquoise Art Deco jewel newly reborn on Ocean Avenue \u2014 glamour with an ocean view.",
+      "d": "A turquoise Art Deco jewel newly reborn on Ocean Avenue: glamour with an ocean view.",
       "lat": 34.013858,
       "lon": -118.497224,
       "photos": []
@@ -189,7 +189,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Downtown",
-      "d": "A 1920s landmark reborn as Kelly Wearstler's living museum \u2014 the coolest room downtown.",
+      "d": "A 1920s landmark reborn as Kelly Wearstler's living museum: the coolest room downtown.",
       "lat": 34.050503,
       "lon": -118.242713,
       "photos": []
@@ -199,7 +199,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Hollywood",
-      "d": "A members'-club hotel in the heart of Hollywood \u2014 a rooftop pool and a fashionable crowd.",
+      "d": "A members'-club hotel in the heart of Hollywood: a rooftop pool and a fashionable crowd.",
       "lat": 34.053691,
       "lon": -118.242766,
       "photos": []
@@ -209,7 +209,7 @@
       "cat": "stay",
       "tier": "Premium",
       "a": "Hollywood",
-      "d": "An intimate, design-forward hideaway in the hills above Hollywood \u2014 small and personal.",
+      "d": "An intimate, design-forward hideaway in the hills above Hollywood: small and personal.",
       "lat": 34.101079,
       "lon": -118.338327,
       "photos": []
@@ -219,7 +219,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Silver Lake / Echo Park",
-      "d": "A hilltop 1920s mansion turned private hotel \u2014 a Mediterranean villa above the city.",
+      "d": "A hilltop 1920s mansion turned private hotel: a Mediterranean villa above the city.",
       "lat": 34.094925,
       "lon": -118.271306,
       "photos": []
@@ -229,7 +229,7 @@
       "cat": "stay",
       "tier": "Premium",
       "a": "West Hollywood",
-      "d": "A residential-style boutique house on a quiet WeHo street \u2014 apartment-living ease.",
+      "d": "A residential-style boutique house on a quiet WeHo street: apartment-living ease.",
       "lat": 34.072722,
       "lon": -118.372827,
       "photos": []
@@ -239,7 +239,7 @@
       "cat": "stay",
       "tier": "Premium",
       "a": "West Hollywood",
-      "d": "A cluster of English-cottage bungalows once home to Charlie Chaplin's circle \u2014 private and green.",
+      "d": "A cluster of English-cottage bungalows once home to Charlie Chaplin's circle: private and green.",
       "lat": 34.053691,
       "lon": -118.242766,
       "photos": []
@@ -249,7 +249,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Hollywood",
-      "d": "Michael Cimarusti's temple to seafood \u2014 Los Angeles's most decorated table, newly at three stars.",
+      "d": "Michael Cimarusti's temple to seafood: Los Angeles's most decorated table, newly at three stars.",
       "lat": 34.154766,
       "lon": -118.327112,
       "photos": []
@@ -259,7 +259,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "West Hollywood",
-      "d": "Aitor Zabala's intimate fourteen-seat counter \u2014 the first three-star ever awarded in LA County.",
+      "d": "Aitor Zabala's intimate fourteen-seat counter: the first three-star ever awarded in LA County.",
       "lat": 34.053691,
       "lon": -118.242766,
       "photos": []
@@ -269,7 +269,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Palms",
-      "d": "Niki Nakayama's modern kaiseki \u2014 the most quietly revered tasting menu in Los Angeles.",
+      "d": "Niki Nakayama's modern kaiseki: the most quietly revered tasting menu in Los Angeles.",
       "lat": 34.025127,
       "lon": -118.412212,
       "photos": []
@@ -279,7 +279,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Downtown / Arts District",
-      "d": "Brandon Go's eight-seat kaiseki hidden in the Arts District \u2014 Kyoto exactitude in Los Angeles.",
+      "d": "Brandon Go's eight-seat kaiseki hidden in the Arts District: Kyoto exactitude in Los Angeles.",
       "lat": 34.033768,
       "lon": -118.241924,
       "photos": []
@@ -289,7 +289,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Santa Monica",
-      "d": "Josiah Citrin's long-held two-star \u2014 contemporary French of great polish, on the Westside.",
+      "d": "Josiah Citrin's long-held two-star: contemporary French of great polish, on the Westside.",
       "lat": 34.053691,
       "lon": -118.242766,
       "photos": []
@@ -299,7 +299,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Downtown / Arts District",
-      "d": "Jon Yao's Taiwanese-American tasting menu \u2014 personal, precise, and among the city's very best.",
+      "d": "Jon Yao's Taiwanese-American tasting menu: personal, precise, and among the city's very best.",
       "lat": 34.053691,
       "lon": -118.242766,
       "photos": []
@@ -309,7 +309,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Hancock Park / Melrose",
-      "d": "Nancy Silverton's Italian benchmark \u2014 the mozzarella bar and pasta that set the LA standard.",
+      "d": "Nancy Silverton's Italian benchmark: the mozzarella bar and pasta that set the LA standard.",
       "lat": 34.083256,
       "lon": -118.338872,
       "photos": []
@@ -319,7 +319,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Beverly Hills",
-      "d": "The most glamorous steakhouse in America \u2014 Wolfgang Puck's starred room in the Beverly Wilshire.",
+      "d": "The most glamorous steakhouse in America: Wolfgang Puck's starred room in the Beverly Wilshire.",
       "lat": 34.045395,
       "lon": -118.266676,
       "photos": []
@@ -329,7 +329,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Downtown / Historic Core",
-      "d": "Josef Centeno's intimate Italian-Japanese tasting counter \u2014 a quiet downtown gem.",
+      "d": "Josef Centeno's intimate Italian-Japanese tasting counter: a quiet downtown gem.",
       "lat": 34.048434,
       "lon": -118.247923,
       "photos": []
@@ -339,7 +339,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Downtown / Little Tokyo",
-      "d": "A ten-seat contemporary Korean counter \u2014 global technique on a Korean foundation.",
+      "d": "A ten-seat contemporary Korean counter: global technique on a Korean foundation.",
       "lat": 34.095935,
       "lon": -118.371905,
       "photos": []
@@ -349,7 +349,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Hollywood",
-      "d": "Jordan Kahn's fire-driven, live-flame cooking \u2014 theatrical, primal, singular.",
+      "d": "Jordan Kahn's fire-driven, live-flame cooking: theatrical, primal, singular.",
       "lat": 34.053691,
       "lon": -118.242766,
       "photos": []
@@ -359,7 +359,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Central LA / Larchmont",
-      "d": "Kevin Meehan's seasonal Californian cooking \u2014 refined, ingredient-led, unshowy.",
+      "d": "Kevin Meehan's seasonal Californian cooking: refined, ingredient-led, unshowy.",
       "lat": 34.139463,
       "lon": -118.354022,
       "photos": []
@@ -369,7 +369,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "West LA",
-      "d": "An eight-seat sushi counter with fish flown from Japan multiple times a week \u2014 newly starred.",
+      "d": "An eight-seat sushi counter with fish flown from Japan multiple times a week: newly starred.",
       "lat": 33.832204,
       "lon": -118.311103,
       "photos": []
@@ -379,7 +379,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Beverly Hills",
-      "d": "A hidden ten-seat omakase behind Sugarfish \u2014 pure, classic edomae sushi.",
+      "d": "A hidden ten-seat omakase behind Sugarfish: pure, classic edomae sushi.",
       "lat": 34.053499,
       "lon": -118.462879,
       "photos": []
@@ -389,7 +389,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Encino",
-      "d": "A Valley omakase counter of great purity \u2014 quiet mastery away from the Westside crowds.",
+      "d": "A Valley omakase counter of great purity: quiet mastery away from the Westside crowds.",
       "lat": 34.158757,
       "lon": -118.494259,
       "photos": []
@@ -399,7 +399,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Downtown / Little Tokyo",
-      "d": "A basement counter of exacting edomae sushi \u2014 a serious, hushed omakase downtown.",
+      "d": "A basement counter of exacting edomae sushi: a serious, hushed omakase downtown.",
       "lat": 34.158757,
       "lon": -118.494259,
       "photos": []
@@ -409,7 +409,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "West LA / Sawtelle",
-      "d": "An intimate sushi counter on Sawtelle's Japantown strip \u2014 refined and personal.",
+      "d": "An intimate sushi counter on Sawtelle's Japantown strip: refined and personal.",
       "lat": 34.053691,
       "lon": -118.242766,
       "photos": []
@@ -429,7 +429,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Encino",
-      "d": "An intimate Italian tasting counter in the Valley \u2014 pasta as a tasting menu.",
+      "d": "An intimate Italian tasting counter in the Valley: pasta as a tasting menu.",
       "lat": 34.041957,
       "lon": -118.255289,
       "photos": []
@@ -439,7 +439,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "South LA / Mercado La Paloma",
-      "d": "Gilberto Cetina's Yucat\u00e1n seafood counter \u2014 ceviches and tostadas good enough for a star.",
+      "d": "Gilberto Cetina's Yucat\u00e1n seafood counter: ceviches and tostadas good enough for a star.",
       "lat": 34.053691,
       "lon": -118.242766,
       "photos": []
@@ -449,7 +449,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Culver City",
-      "d": "Jordan Kahn's futuristic tasting menu in a Gehry-adjacent glass tower \u2014 dining as art installation.",
+      "d": "Jordan Kahn's futuristic tasting menu in a Gehry-adjacent glass tower: dining as art installation.",
       "lat": 34.024204,
       "lon": -118.381772,
       "photos": []
@@ -459,7 +459,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Silver Lake",
-      "d": "An Indian-American sports bar that became LA's most loved crossover \u2014 tandoori spaghetti and cricket on the screens.",
+      "d": "An Indian-American sports bar that became LA's most loved crossover: tandoori spaghetti and cricket on the screens.",
       "lat": 34.081065,
       "lon": -118.270411,
       "photos": []
@@ -469,7 +469,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "East Hollywood / Thai Town",
-      "d": "The fiery southern-Thai institution of LA's Thai Town \u2014 decades deep and still unrivalled.",
+      "d": "The fiery southern-Thai institution of LA's Thai Town: decades deep and still unrivalled.",
       "lat": 34.098604,
       "lon": -118.304023,
       "photos": []
@@ -479,7 +479,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Silver Lake",
-      "d": "Bright, modern Taiwanese home cooking in an airy room \u2014 fresh, fast, beloved.",
+      "d": "Bright, modern Taiwanese home cooking in an airy room: fresh, fast, beloved.",
       "lat": 34.09052,
       "lon": -118.277145,
       "photos": []
@@ -489,7 +489,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Downtown / The Row DTLA",
-      "d": "Chris Bianco's LA outpost \u2014 widely called the best pizza in America, now downtown.",
+      "d": "Chris Bianco's LA outpost: widely called the best pizza in America, now downtown.",
       "lat": 34.034425,
       "lon": -118.241554,
       "photos": []
@@ -499,7 +499,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Hollywood / Melrose",
-      "d": "Nancy Silverton and Mario Batali's blistered-crust pizzas \u2014 the room that reset LA pizza.",
+      "d": "Nancy Silverton and Mario Batali's blistered-crust pizzas: the room that reset LA pizza.",
       "lat": 34.083093,
       "lon": -118.338874,
       "photos": []
@@ -509,7 +509,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Brentwood / West Hollywood",
-      "d": "Daniele Uditi's neo-Neapolitan pizza \u2014 soft, charred, and quietly perfect.",
+      "d": "Daniele Uditi's neo-Neapolitan pizza: soft, charred, and quietly perfect.",
       "lat": 34.089333,
       "lon": -118.276496,
       "photos": []
@@ -519,7 +519,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Downtown / Fashion District",
-      "d": "Steve Samson's Bolognese cooking \u2014 handmade pasta and a warm, cavernous downtown room.",
+      "d": "Steve Samson's Bolognese cooking: handmade pasta and a warm, cavernous downtown room.",
       "lat": 34.034977,
       "lon": -118.253631,
       "photos": []
@@ -529,7 +529,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Santa Monica",
-      "d": "Bright, inventive Southeast-Asian cooking in a leafy garden room \u2014 fresh and easy to love.",
+      "d": "Bright, inventive Southeast-Asian cooking in a leafy garden room: fresh and easy to love.",
       "lat": 34.006197,
       "lon": -118.488163,
       "photos": []
@@ -549,7 +549,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Rosemead / San Gabriel Valley",
-      "d": "Cantonese dim sum of real refinement \u2014 a San Gabriel Valley institution, fairly priced.",
+      "d": "Cantonese dim sum of real refinement: a San Gabriel Valley institution, fairly priced.",
       "lat": 34.07983,
       "lon": -118.07347,
       "photos": []
@@ -559,7 +559,7 @@
       "cat": "do",
       "tier": "",
       "a": "Brentwood",
-      "d": "Richard Meier's travertine acropolis above the city \u2014 a world-class art collection, gardens and the view, all free.",
+      "d": "Richard Meier's travertine acropolis above the city: a world-class art collection, gardens and the view, all free.",
       "lat": 34.077017,
       "lon": -118.47401,
       "photos": []
@@ -569,7 +569,7 @@
       "cat": "do",
       "tier": "",
       "a": "Griffith Park / Los Feliz",
-      "d": "The city's balcony to the stars \u2014 Art Deco domes, the planetarium, and the finest view of Los Angeles and the Hollywood Sign.",
+      "d": "The city's balcony to the stars: Art Deco domes, the planetarium, and the finest view of Los Angeles and the Hollywood Sign.",
       "lat": 34.118219,
       "lon": -118.300293,
       "photos": []
@@ -579,7 +579,7 @@
       "cat": "do",
       "tier": "",
       "a": "Pacific Palisades / Malibu coast",
-      "d": "A Roman country house recreated above the Pacific \u2014 Greek and Roman antiquities in a garden of fountains.",
+      "d": "A Roman country house recreated above the Pacific: Greek and Roman antiquities in a garden of fountains.",
       "lat": 34.044982,
       "lon": -118.56502,
       "photos": []
@@ -589,7 +589,7 @@
       "cat": "do",
       "tier": "",
       "a": "Miracle Mile",
-      "d": "The largest art museum in the western United States \u2014 and Chris Burden's Urban Light, the city's most photographed lamps.",
+      "d": "The largest art museum in the western United States, and Chris Burden's Urban Light, the city's most photographed lamps.",
       "lat": 34.063736,
       "lon": -118.358938,
       "photos": []
@@ -599,7 +599,7 @@
       "cat": "do",
       "tier": "",
       "a": "Downtown / Bunker Hill",
-      "d": "Frank Gehry's billowing steel masterpiece \u2014 home of the LA Philharmonic and the icon of downtown.",
+      "d": "Frank Gehry's billowing steel masterpiece: home of the LA Philharmonic and the icon of downtown.",
       "lat": 34.055429,
       "lon": -118.249913,
       "photos": []
@@ -609,7 +609,7 @@
       "cat": "do",
       "tier": "",
       "a": "Downtown / Bunker Hill",
-      "d": "A honeycomb-veiled museum of contemporary art \u2014 Koons, Warhol and Kusama's Infinity Mirror Rooms.",
+      "d": "A honeycomb-veiled museum of contemporary art: Koons, Warhol and Kusama's Infinity Mirror Rooms.",
       "lat": 34.053691,
       "lon": -118.242766,
       "photos": []
@@ -619,7 +619,7 @@
       "cat": "do",
       "tier": "",
       "a": "San Marino",
-      "d": "A railway magnate's estate of libraries, art and 120 acres of botanical gardens \u2014 a Gutenberg Bible among the roses.",
+      "d": "A railway magnate's estate of libraries, art and 120 acres of botanical gardens: a Gutenberg Bible among the roses.",
       "lat": 34.128223,
       "lon": -118.114619,
       "photos": []
@@ -629,17 +629,17 @@
       "cat": "do",
       "tier": "",
       "a": "Santa Monica",
-      "d": "The end of Route 66 over the Pacific \u2014 the Ferris wheel, the sand, and the quintessential Californian sunset.",
+      "d": "The end of Route 66 over the Pacific: the Ferris wheel, the sand, and the quintessential Californian sunset.",
       "lat": 34.008896,
       "lon": -118.4974,
       "photos": []
     },
     {
-      "n": "Hollywood \u2014 Walk of Fame, Chinese Theatre & the Sign",
+      "n": "Hollywood: Walk of Fame, Chinese Theatre & the Sign",
       "cat": "do",
       "tier": "",
       "a": "Hollywood",
-      "d": "The centre of the movie myth \u2014 the terrazzo stars, the handprints at Grauman's, and the Sign on the hill above.",
+      "d": "The centre of the movie myth: the terrazzo stars, the handprints at Grauman's, and the Sign on the hill above.",
       "lat": 34.100581,
       "lon": -118.332101,
       "photos": []
@@ -649,7 +649,7 @@
       "cat": "do",
       "tier": "",
       "a": "Beverly Hills",
-      "d": "The most famous luxury shopping street in the world \u2014 the flagships of every great house, in three gilded blocks.",
+      "d": "The most famous luxury shopping street in the world: the flagships of every great house, in three gilded blocks.",
       "lat": 34.06763,
       "lon": -118.401355,
       "photos": []
@@ -659,7 +659,7 @@
       "cat": "do",
       "tier": "",
       "a": "Miracle Mile",
-      "d": "The definitive museum of cinema, in a Renzo Piano sphere \u2014 the art and machinery of the movies.",
+      "d": "The definitive museum of cinema, in a Renzo Piano sphere: the art and machinery of the movies.",
       "lat": 34.063818,
       "lon": -118.360835,
       "photos": []
@@ -669,7 +669,7 @@
       "cat": "do",
       "tier": "",
       "a": "Venice",
-      "d": "The bohemian edge of the city \u2014 the canals Abbot Kinney dug, the muscle-beach boardwalk, and Abbot Kinney's shops.",
+      "d": "The bohemian edge of the city: the canals Abbot Kinney dug, the muscle-beach boardwalk, and Abbot Kinney's shops.",
       "lat": 33.995044,
       "lon": -118.466887,
       "photos": []
@@ -679,7 +679,7 @@
       "cat": "do",
       "tier": "",
       "a": "Hollywood Hills",
-      "d": "The city's favourite hillside walk \u2014 a short, steep climb to a panorama of the whole basin.",
+      "d": "The city's favourite hillside walk: a short, steep climb to a panorama of the whole basin.",
       "lat": 34.12169,
       "lon": -118.346578,
       "photos": []
@@ -689,7 +689,7 @@
       "cat": "do",
       "tier": "",
       "a": "Downtown",
-      "d": "The birthplace of Los Angeles \u2014 the oldest quarter of the city, and a lively Mexican marketplace.",
+      "d": "The birthplace of Los Angeles: the oldest quarter of the city, and a lively Mexican marketplace.",
       "lat": 34.056851,
       "lon": -118.238556,
       "photos": []
@@ -699,7 +699,7 @@
       "cat": "party",
       "tier": "Cocktail bars",
       "a": "Los Feliz",
-      "d": "A rooftop mezcal-and-agave temple over Los Feliz \u2014 the highest-ranked bar in Los Angeles.",
+      "d": "A rooftop mezcal-and-agave temple over Los Feliz: the highest-ranked bar in Los Angeles.",
       "lat": 34.053691,
       "lon": -118.242766,
       "photos": []
@@ -709,7 +709,7 @@
       "cat": "party",
       "tier": "Cocktail bars",
       "a": "Historic Filipinotown / Echo Park",
-      "d": "A breezy, boundary-pushing SoCal cocktail bar \u2014 laboratory technique with a Southern soul.",
+      "d": "A breezy, boundary-pushing SoCal cocktail bar: laboratory technique with a Southern soul.",
       "lat": 34.066523,
       "lon": -118.254221,
       "photos": []
@@ -719,7 +719,7 @@
       "cat": "party",
       "tier": "Cocktail bars",
       "a": "Downtown / Arts District",
-      "d": "The New York cocktail institution's LA home \u2014 impeccable drinks in the Arts District.",
+      "d": "The New York cocktail institution's LA home: impeccable drinks in the Arts District.",
       "lat": 34.045723,
       "lon": -118.235715,
       "photos": []
@@ -729,7 +729,7 @@
       "cat": "party",
       "tier": "Cocktail bars",
       "a": "Historic Filipinotown",
-      "d": "A Filipina-run gin bar of real character \u2014 one of the city's most distinctive drinking rooms.",
+      "d": "A Filipina-run gin bar of real character: one of the city's most distinctive drinking rooms.",
       "lat": 34.053691,
       "lon": -118.242766,
       "photos": []
@@ -739,7 +739,7 @@
       "cat": "party",
       "tier": "Late & loud",
       "a": "Melrose / Larchmont",
-      "d": "A speakeasy-style hideaway beneath a restaurant \u2014 intimate, low-lit, seriously made drinks.",
+      "d": "A speakeasy-style hideaway beneath a restaurant: intimate, low-lit, seriously made drinks.",
       "lat": 34.090778,
       "lon": -118.391618,
       "photos": []
@@ -749,7 +749,7 @@
       "cat": "party",
       "tier": "Landmark bars",
       "a": "West Hollywood",
-      "d": "Old-Hollywood glamour in Bugsy Siegel's former apartment \u2014 the most storied nightcap on the Strip.",
+      "d": "Old-Hollywood glamour in Bugsy Siegel's former apartment: the most storied nightcap on the Strip.",
       "lat": 34.09509,
       "lon": -118.37212,
       "photos": []
@@ -759,7 +759,7 @@
       "cat": "party",
       "tier": "Landmark bars",
       "a": "West Hollywood",
-      "d": "A drink in the most legendary hotel in Hollywood \u2014 discreet, dimly lit, endlessly mythologised.",
+      "d": "A drink in the most legendary hotel in Hollywood: discreet, dimly lit, endlessly mythologised.",
       "lat": 34.09825,
       "lon": -118.368405,
       "photos": []
@@ -769,7 +769,7 @@
       "cat": "party",
       "tier": "Landmark bars",
       "a": "Beverly Hills",
-      "d": "The power-lunch and nightcap of Beverly Hills since 1941 \u2014 pink banquettes under the tropical garden.",
+      "d": "The power-lunch and nightcap of Beverly Hills since 1941: pink banquettes under the tropical garden.",
       "lat": 34.081715,
       "lon": -118.413797,
       "photos": []
@@ -779,7 +779,7 @@
       "cat": "party",
       "tier": "Rooftops",
       "a": "Beverly Hills",
-      "d": "The New York World's-Best bar transplanted to a Maybourne rooftop \u2014 negronis with a view.",
+      "d": "The New York World's-Best bar transplanted to a Maybourne rooftop: negronis with a view.",
       "lat": 34.067767,
       "lon": -118.398916,
       "photos": []

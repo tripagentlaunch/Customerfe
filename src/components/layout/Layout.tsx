@@ -88,7 +88,8 @@ export function Layout() {
           <ProfileDrawerProvider>
           <SignInModalProvider>
             {!hideChrome && <Header />}
-            <main id="content" style={isFullscreenChat ? { height: "100dvh", display: "flex" } : undefined}>
+            {/* At least a screen tall, so the footer never shows first while a page is still loading. */}
+            <main id="content" style={isFullscreenChat ? { height: "100dvh", display: "flex" } : { minHeight: "100vh" }}>
               <Outlet context={{ setBareForGuests } satisfies LayoutOutletContext} />
             </main>
             {!hideChrome && (

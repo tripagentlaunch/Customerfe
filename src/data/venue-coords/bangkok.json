@@ -9,7 +9,7 @@
       "cat": "stay",
       "tier": "Grand",
       "a": "Bang Rak / Chao Phraya riverfront",
-      "d": "The city's grande dame since 1876 \u2014 the address every other Bangkok hotel is measured against.",
+      "d": "The city's grande dame since 1876: the address every other Bangkok hotel is measured against.",
       "lat": 13.723885,
       "lon": 100.514155,
       "photos": []
@@ -19,7 +19,7 @@
       "cat": "stay",
       "tier": "Grand",
       "a": "Dusit / Chao Phraya riverfront",
-      "d": "An Art Deco riverside retreat of just 39 suites and pool villas \u2014 a private-collector's house, not a hotel.",
+      "d": "An Art Deco riverside retreat of just 39 suites and pool villas: a private-collector's house, not a hotel.",
       "lat": 13.781418,
       "lon": 100.505374,
       "photos": []
@@ -29,7 +29,7 @@
       "cat": "stay",
       "tier": "Ultra",
       "a": "Charoenkrung / Chao Phraya riverfront",
-      "d": "The house the world voted its very best \u2014 a low, garden-wrapped sanctuary on the river's quiet bend.",
+      "d": "The house the world voted its very best: a low, garden-wrapped sanctuary on the river's quiet bend.",
       "lat": 13.713055,
       "lon": 100.510799,
       "photos": []
@@ -49,7 +49,7 @@
       "cat": "stay",
       "tier": "Grand",
       "a": "Khlong San / Chao Phraya riverfront",
-      "d": "A W-shaped tower built to give every room the river \u2014 and a fleet of green Peninsula boats at the jetty.",
+      "d": "A W-shaped tower built to give every room the river, and a fleet of green Peninsula boats at the jetty.",
       "lat": 13.72322,
       "lon": 100.510361,
       "photos": []
@@ -59,7 +59,7 @@
       "cat": "stay",
       "tier": "Ultra",
       "a": "Nai Lert Park / Ploenchit",
-      "d": "Aman's return to Thailand \u2014 a hushed tower rising from century-old parkland in the heart of town.",
+      "d": "Aman's return to Thailand: a hushed tower rising from century-old parkland in the heart of town.",
       "lat": 13.746308,
       "lon": 100.54697,
       "photos": []
@@ -69,7 +69,7 @@
       "cat": "stay",
       "tier": "Grand",
       "a": "Ploenchit / central",
-      "d": "Two hands clasped in the wai, rendered as a tower \u2014 vertical, arty and quietly grand.",
+      "d": "Two hands clasped in the wai, rendered as a tower: vertical, arty and quietly grand.",
       "lat": 13.743535,
       "lon": 100.548994,
       "photos": []
@@ -79,7 +79,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Sathorn",
-      "d": "Lotus ponds, teak and brick pavilions \u2014 a low-rise pocket of old Siam in the business district.",
+      "d": "Lotus ponds, teak and brick pavilions: a low-rise pocket of old Siam in the business district.",
       "lat": 13.723213,
       "lon": 100.541091,
       "photos": []
@@ -99,7 +99,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Ploenchit / Central Embassy",
-      "d": "A tailored city house set atop the Central Embassy mall \u2014 refined, discreet, effortlessly connected.",
+      "d": "A tailored city house set atop the Central Embassy mall: refined, discreet, effortlessly connected.",
       "lat": 13.743899,
       "lon": 100.547138,
       "photos": []
@@ -109,7 +109,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Sathorn / MahaNakhon",
-      "d": "The Ritz-Carlton's Bangkok debut inside the pixelated MahaNakhon tower \u2014 high, sleek and central.",
+      "d": "The Ritz-Carlton's Bangkok debut inside the pixelated MahaNakhon tower: high, sleek and central.",
       "lat": 13.728265,
       "lon": 100.545738,
       "photos": []
@@ -159,7 +159,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Silom / Rama IV",
-      "d": "The reborn golden-spire landmark \u2014 a homegrown grande dame, rebuilt for a new century.",
+      "d": "The reborn golden-spire landmark: a homegrown grande dame, rebuilt for a new century.",
       "lat": 13.697306,
       "lon": 100.648754,
       "photos": []
@@ -199,7 +199,7 @@
       "cat": "stay",
       "tier": "Premium",
       "a": "Ploenchit / Wireless Road",
-      "d": "A discreet all-suite address with kitchens \u2014 an apartment's ease with a hotel's polish.",
+      "d": "A discreet all-suite address with kitchens: an apartment's ease with a hotel's polish.",
       "lat": 13.738211,
       "lon": 100.546356,
       "photos": []
@@ -219,7 +219,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Sukhumvit Soi 26",
-      "d": "The first Thai restaurant in the world to hold three Michelin stars \u2014 Southern Thai cooking raised to the summit.",
+      "d": "The first Thai restaurant in the world to hold three Michelin stars: Southern Thai cooking raised to the summit.",
       "lat": 13.737825,
       "lon": 100.466153,
       "photos": []
@@ -229,7 +229,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Sukhumvit / Ploenchit",
-      "d": "Progressive Indian theatre from Gaggan Anand \u2014 five times crowned the best restaurant in Asia.",
+      "d": "Progressive Indian theatre from Gaggan Anand: five times crowned the best restaurant in Asia.",
       "lat": 13.740759,
       "lon": 100.567568,
       "photos": []
@@ -309,7 +309,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Thonglor",
-      "d": "Royal-Thai cooking staged with ceremony \u2014 the old recipes, kept alive and exact.",
+      "d": "Royal-Thai cooking staged with ceremony: the old recipes, kept alive and exact.",
       "lat": 13.731851,
       "lon": 100.579656,
       "photos": []
@@ -319,7 +319,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Ari / North Bangkok",
-      "d": "Chef Garima Arora's fearless, ingredient-led cooking \u2014 the first Indian woman to win a Michelin star.",
+      "d": "Chef Garima Arora's fearless, ingredient-led cooking: the first Indian woman to win a Michelin star.",
       "lat": 13.727316,
       "lon": 100.578216,
       "photos": []
@@ -339,7 +339,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Gaysorn Amarin / Central",
-      "d": "Gaggan Anand inside the maison itself \u2014 dinner as a one-off collaboration between chef and house.",
+      "d": "Gaggan Anand inside the maison itself: dinner as a one-off collaboration between chef and house.",
       "lat": 13.743512,
       "lon": 100.541297,
       "photos": []
@@ -389,7 +389,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Wireless Road / Ploenchit",
-      "d": "Regional Thai home cooking, gently refined \u2014 comfort with a Michelin star.",
+      "d": "Regional Thai home cooking, gently refined: comfort with a Michelin star.",
       "lat": 13.762817,
       "lon": 100.498546,
       "photos": []
@@ -419,7 +419,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Sukhumvit Soi 31",
-      "d": "Bangkok's most sought-after sushi counter \u2014 Tokyo-grade omakase, near-impossible to book.",
+      "d": "Bangkok's most sought-after sushi counter: Tokyo-grade omakase, near-impossible to book.",
       "lat": 13.743493,
       "lon": 100.543988,
       "photos": []
@@ -469,7 +469,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Charoenkrung / ICONSIAM",
-      "d": "The Ducasse standard on the river \u2014 classical French precision with a Bangkok view.",
+      "d": "The Ducasse standard on the river: classical French precision with a Bangkok view.",
       "lat": 13.726316,
       "lon": 100.511166,
       "photos": []
@@ -479,7 +479,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Charoenkrung / Chao Phraya",
-      "d": "Andreas Caminada's shared-plate fine dining \u2014 generous, playful, refined.",
+      "d": "Andreas Caminada's shared-plate fine dining: generous, playful, refined.",
       "lat": 13.752494,
       "lon": 100.493509,
       "photos": []
@@ -569,7 +569,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Phra Nakhon / Old City",
-      "d": "The goggle-wearing grandmother who cooks her crab omelette over charcoal \u2014 and holds a Michelin star for it.",
+      "d": "The goggle-wearing grandmother who cooks her crab omelette over charcoal, and holds a Michelin star for it.",
       "lat": 13.752534,
       "lon": 100.504737,
       "photos": []
@@ -589,7 +589,7 @@
       "cat": "eat",
       "tier": "Casual",
       "a": "Samsen / Dusit",
-      "d": "Central-Thai home cooking beloved by locals \u2014 the crab-and-yellow-chilli stir-fry is legend.",
+      "d": "Central-Thai home cooking beloved by locals: the crab-and-yellow-chilli stir-fry is legend.",
       "lat": 13.755241,
       "lon": 100.501761,
       "photos": []
@@ -609,7 +609,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Sukhumvit Soi 8",
-      "d": "Phuketian Southern-Thai cooking \u2014 the famous crab curry and turmeric-rich dishes.",
+      "d": "Phuketian Southern-Thai cooking: the famous crab curry and turmeric-rich dishes.",
       "lat": 13.736668,
       "lon": 100.5562,
       "photos": []
@@ -639,7 +639,7 @@
       "cat": "eat",
       "tier": "Casual",
       "a": "Lumphini",
-      "d": "Crisp fried chicken buried under fried garlic \u2014 a Bangkok lunch pilgrimage.",
+      "d": "Crisp fried chicken buried under fried garlic: a Bangkok lunch pilgrimage.",
       "lat": 13.732573,
       "lon": 100.547966,
       "photos": []
@@ -1049,7 +1049,7 @@
       "cat": "party",
       "tier": "Landmark bars",
       "a": "Bang Rak / Chao Phraya riverfront",
-      "d": "Bangkok's original jazz bar since 1953, in the grande dame of the river \u2014 the city's most storied room for a drink.",
+      "d": "Bangkok's original jazz bar since 1953, in the grande dame of the river: the city's most storied room for a drink.",
       "lat": 13.723565,
       "lon": 100.51428,
       "photos": []
@@ -1059,7 +1059,7 @@
       "cat": "party",
       "tier": "Cocktail bars",
       "a": "Sukhumvit",
-      "d": "The bar the region rates above all others in Bangkok right now \u2014 precise, personal, and quietly brilliant.",
+      "d": "The bar the region rates above all others in Bangkok right now: precise, personal, and quietly brilliant.",
       "lat": 13.752494,
       "lon": 100.493509,
       "photos": []
@@ -1069,7 +1069,7 @@
       "cat": "party",
       "tier": "Cocktail bars",
       "a": "Sathorn",
-      "d": "The city's most talked-about newcomer \u2014 a studio-like counter that vaulted straight into the region's top five.",
+      "d": "The city's most talked-about newcomer: a studio-like counter that vaulted straight into the region's top five.",
       "lat": 13.733706,
       "lon": 100.580674,
       "photos": []
@@ -1079,7 +1079,7 @@
       "cat": "party",
       "tier": "Cocktail bars",
       "a": "Charoenkrung / Chao Phraya riverfront",
-      "d": "A golden-age Buenos Aires grand caf\u00e9 on the river, inside the Four Seasons \u2014 glamour done with real substance.",
+      "d": "A golden-age Buenos Aires grand caf\u00e9 on the river, inside the Four Seasons: glamour done with real substance.",
       "lat": 13.709172,
       "lon": 100.511893,
       "photos": []
@@ -1089,7 +1089,7 @@
       "cat": "party",
       "tier": "Late & loud",
       "a": "Yaowarat / Chinatown (Soi Nana)",
-      "d": "A run-down-cathedral cocktail temple on Chinatown's edgiest lane \u2014 creative, theatrical, open late.",
+      "d": "A run-down-cathedral cocktail temple on Chinatown's edgiest lane: creative, theatrical, open late.",
       "lat": 13.742604,
       "lon": 100.507979,
       "photos": []
@@ -1109,7 +1109,7 @@
       "cat": "party",
       "tier": "Cocktail bars",
       "a": "Yaowarat / Chinatown",
-      "d": "A speakeasy over the top floors of a 120-year-old shophouse that was once an opium den \u2014 drinks with a Chinatown soul.",
+      "d": "A speakeasy over the top floors of a 120-year-old shophouse that was once an opium den: drinks with a Chinatown soul.",
       "lat": 13.752494,
       "lon": 100.493509,
       "photos": []
@@ -1119,7 +1119,7 @@
       "cat": "party",
       "tier": "Cocktail bars",
       "a": "Sathorn",
-      "d": "Modern mixology inside an 1889 mansion that has been a merchant's home, a hotel and an embassy \u2014 history in a glass.",
+      "d": "Modern mixology inside an 1889 mansion that has been a merchant's home, a hotel and an embassy: history in a glass.",
       "lat": 13.722181,
       "lon": 100.52889,
       "photos": []
@@ -1129,7 +1129,7 @@
       "cat": "party",
       "tier": "Cocktail bars",
       "a": "Sukhumvit / Ekkamai",
-      "d": "A Thai-ingredient-led bar that has ranked among Asia's very best \u2014 refined, seasonal, deeply of this place.",
+      "d": "A Thai-ingredient-led bar that has ranked among Asia's very best: refined, seasonal, deeply of this place.",
       "lat": 13.728974,
       "lon": 100.518321,
       "photos": []
@@ -1139,7 +1139,7 @@
       "cat": "party",
       "tier": "Rooftops",
       "a": "Silom / Bang Rak",
-      "d": "The open-air perch 63 floors up that the world knows from film \u2014 the definitive Bangkok skyline drink.",
+      "d": "The open-air perch 63 floors up that the world knows from film: the definitive Bangkok skyline drink.",
       "lat": 13.721514,
       "lon": 100.516885,
       "photos": []
@@ -1159,7 +1159,7 @@
       "cat": "party",
       "tier": "Rooftops",
       "a": "Silom / Sathorn (King Power MahaNakhon)",
-      "d": "A vivid rooftop 76 floors up in the city's most striking tower \u2014 the highest of Bangkok's serious sky bars.",
+      "d": "A vivid rooftop 76 floors up in the city's most striking tower: the highest of Bangkok's serious sky bars.",
       "lat": 13.763154,
       "lon": 100.494324,
       "photos": []

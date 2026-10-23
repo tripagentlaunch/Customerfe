@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useAuth } from "../../lib/auth";
 import { useTripDrawer } from "../../lib/tripDrawer";
 import { useProfileDrawer } from "../../lib/profileDrawer";
@@ -35,8 +35,12 @@ export function Header() {
   const profileDrawer = useProfileDrawer();
   const signInModal = useSignInModal();
   const { menuOpen, openRoom, toggleRoom } = useNavMenu();
+  const navigate = useNavigate();
 
-  const [query, setQuery] = useState("");
+  // A full load (or refresh) of /search?q=… starts with that query in the bar.
+  const [query, setQuery] = useState(() =>
+    window.location.pathname === "/search" ? new URLSearchParams(window.location.search).get("q") || "" : ""
+  );
   const [searchOpen, setSearchOpen] = useState(false);
   const q = query.trim();
   const headerRef = useRef<HTMLElement>(null);
@@ -124,7 +128,7 @@ export function Header() {
   // down). Stays put while the Explore panel is open or search has focus.
   const isMobile = useIsMobile();
   const narrow = useIsMobile(NARROW_HEADER);
-  const { pathname } = useLocation();
+  const { pathname, search } = useLocation();
   const [phoneShown, setPhoneShown] = useState(true);
   const [focusWithin, setFocusWithin] = useState(false);
   // Search suggests right under the bar as you type, on the same page — on
@@ -263,16 +267,42 @@ export function Header() {
     document.documentElement.style.overflow = menuOpen || exploreOpenOnPhone ? "hidden" : "";
   }, [menuOpen, exploreOpenOnPhone]);
 
-  // Enter keeps the visitor where they are — the results are already open
-  // under the bar.
+  // The header bar is the site's only search box (2026-10-22): on /search it
+  // drives the results as you type, Enter included; landing on /search?q=
+  // shows that query in the bar.
+  const onSearchPage = pathname === "/search";
+  const urlQuery = onSearchPage ? new URLSearchParams(search).get("q") || "" : "";
+  // Only when the URL's query changes (a link, Back): arriving on /search
+  // must not wipe what is already being typed.
+  const lastUrlQuery = useRef(urlQuery);
+  useEffect(() => {
+    if (urlQuery === lastUrlQuery.current) return;
+    lastUrlQuery.current = urlQuery;
+    if (onSearchPage) setQuery((cur) => (cur.trim() === urlQuery.trim() ? cur : urlQuery));
+  }, [onSearchPage, urlQuery]);
+
+  function searchUrl(value: string) {
+    const v = value.trim();
+    return `/search${v ? `?q=${encodeURIComponent(v)}` : ""}`;
+  }
+
+  function onSearchChange(value: string) {
+    setQuery(value);
+    setSearchOpen(true);
+    if (onSearchPage) navigate(searchUrl(value), { replace: true });
+  }
+
+  // On /search Enter refreshes that page's results in place; anywhere else the
+  // results are already open under the bar and the visitor stays put.
   function submitSearch(e: React.FormEvent) {
     e.preventDefault();
-    if (q) setSearchOpen(true);
+    if (onSearchPage) navigate(searchUrl(query), { replace: true });
+    else if (q) setSearchOpen(true);
   }
 
   const shownSuggestions = showAll ? suggestions : suggestions.slice(0, SUGGESTIONS_SHOWN);
   const suggestBox =
-    searchOpen && q ? (
+    searchOpen && q && !onSearchPage ? (
       <div className="ta-hd-suggest" aria-live="polite">
         {!searchIndex ? null : suggestions.length === 0 ? (
           <div className="sp-empty">
@@ -347,10 +377,7 @@ export function Header() {
             autoComplete="off"
             spellCheck={false}
             value={query}
-            onChange={(e) => {
-              setQuery(e.target.value);
-              setSearchOpen(true);
-            }}
+            onChange={(e) => onSearchChange(e.target.value)}
             onFocus={() => setSearchOpen(true)}
           />
           {!narrow && suggestBox}

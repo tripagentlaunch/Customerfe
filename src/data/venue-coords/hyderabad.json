@@ -9,7 +9,7 @@
       "cat": "stay",
       "tier": "Ultra",
       "a": "Old City (Falaknuma)",
-      "d": "The Nizam's own palace on a hilltop above the old city \u2014 one of the greatest hotels in India, and it feels it.",
+      "d": "The Nizam's own palace on a hilltop above the old city: one of the greatest hotels in India, and it feels it.",
       "lat": 17.330928,
       "lon": 78.467262,
       "photos": []
@@ -29,7 +29,7 @@
       "cat": "stay",
       "tier": "Grand",
       "a": "Banjara Hills (Road No. 2)",
-      "d": "Contemporary Hyatt luxury in the city's most distinguished neighbourhood \u2014 calm, design-led, quietly grand.",
+      "d": "Contemporary Hyatt luxury in the city's most distinguished neighbourhood: calm, design-led, quietly grand.",
       "lat": 17.424792,
       "lon": 78.429606,
       "photos": []
@@ -39,7 +39,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Banjara Hills",
-      "d": "The Taj's grande-dame in Banjara Hills \u2014 thirteen acres of green in the heart of the old-money city.",
+      "d": "The Taj's grande-dame in Banjara Hills: thirteen acres of green in the heart of the old-money city.",
       "lat": 17.416432,
       "lon": 78.449632,
       "photos": []
@@ -49,7 +49,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "HITEC City",
-      "d": "The Oberoi group's polished HITEC City house \u2014 understated, faultlessly run, in the tech heart.",
+      "d": "The Oberoi group's polished HITEC City house: understated, faultlessly run, in the tech heart.",
       "lat": 17.40129,
       "lon": 78.560531,
       "photos": []
@@ -59,7 +59,7 @@
       "cat": "stay",
       "tier": "Premium",
       "a": "HITEC City (adjoining HICC)",
-      "d": "Fifteen garden acres beside India's largest convention centre \u2014 the natural base for a large gathering.",
+      "d": "Fifteen garden acres beside India's largest convention centre: the natural base for a large gathering.",
       "lat": 17.472993,
       "lon": 78.373961,
       "photos": []
@@ -69,7 +69,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Old City (Taj Falaknuma Palace)",
-      "d": "Royal Hyderabadi cooking on the palace terrace, the Nizam's city glittering below \u2014 the grandest table in Hyderabad.",
+      "d": "Royal Hyderabadi cooking on the palace terrace, the Nizam's city glittering below: the grandest table in Hyderabad.",
       "lat": 17.360589,
       "lon": 78.474061,
       "photos": []
@@ -79,7 +79,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Banjara Hills (and city-wide)",
-      "d": "Hyderabad's most-loved vegetarian house \u2014 South Indian tiffin and thalis done with real pride.",
+      "d": "Hyderabad's most-loved vegetarian house: South Indian tiffin and thalis done with real pride.",
       "lat": 17.496308,
       "lon": 78.396958,
       "photos": []
@@ -89,7 +89,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Jubilee Hills",
-      "d": "India's most talked-about chocolate \u2014 bean-to-bar from Indian cacao, in a caf\u00e9 that has put Hyderabad on the national food map.",
+      "d": "India's most talked-about chocolate: bean-to-bar from Indian cacao, in a caf\u00e9 that has put Hyderabad on the national food map.",
       "lat": 17.430836,
       "lon": 78.410288,
       "photos": []
@@ -99,7 +99,7 @@
       "cat": "eat",
       "tier": "Casual",
       "a": "Secunderabad (Paradise Circle)",
-      "d": "The name Hyderabad gave the world for biryani \u2014 a legend since 1953, and still the first plate visitors are told to eat.",
+      "d": "The name Hyderabad gave the world for biryani: a legend since 1953, and still the first plate visitors are told to eat.",
       "lat": 17.36209,
       "lon": 78.47507,
       "photos": []
@@ -109,7 +109,7 @@
       "cat": "eat",
       "tier": "Casual",
       "a": "Tolichowki / Old City",
-      "d": "The biryani (and Ramzan haleem) Hyderabadis choose to impress a visitor \u2014 heavier on ghee, closer to the old Nizami style.",
+      "d": "The biryani (and Ramzan haleem) Hyderabadis choose to impress a visitor: heavier on ghee, closer to the old Nizami style.",
       "lat": 17.426679,
       "lon": 78.376449,
       "photos": []
@@ -119,7 +119,7 @@
       "cat": "eat",
       "tier": "Casual",
       "a": "Old City (Ghansi Bazaar, near Charminar)",
-      "d": "The Old City institution by the Charminar \u2014 biryani, kebabs and Ramzan haleem in the thick of old Hyderabad.",
+      "d": "The Old City institution by the Charminar: biryani, kebabs and Ramzan haleem in the thick of old Hyderabad.",
       "lat": 17.368753,
       "lon": 78.47554,
       "photos": []
@@ -129,7 +129,7 @@
       "cat": "eat",
       "tier": "Casual",
       "a": "Secunderabad (RTC X Roads)",
-      "d": "A decades-old single-location legend \u2014 for many locals, simply the best mutton biryani in the city.",
+      "d": "A decades-old single-location legend: for many locals, simply the best mutton biryani in the city.",
       "lat": 17.40631,
       "lon": 78.497414,
       "photos": []
@@ -139,7 +139,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Basheerbagh / city-wide",
-      "d": "Hyderabad's home-grown dining group since 1976 \u2014 from the cavernous Gufaa to grand banquet halls, a city institution.",
+      "d": "Hyderabad's home-grown dining group since 1976: from the cavernous Gufaa to grand banquet halls, a city institution.",
       "lat": 17.444651,
       "lon": 78.376725,
       "photos": []
@@ -215,7 +215,7 @@
       "photos": []
     },
     {
-      "n": "Taj Falaknuma Palace \u2014 high tea and heritage walk",
+      "n": "Taj Falaknuma Palace: high tea and heritage walk",
       "cat": "do",
       "tier": "",
       "a": "Falaknuma",
@@ -359,17 +359,17 @@
       "cat": "do",
       "tier": "",
       "a": "Citywide",
-      "d": "The dum biryani \u2014 rice and meat sealed and slow-cooked, served with mirchi-ka-salan and dahi chutney \u2014 is the city's edible crown, and every family swears by a different house. A private food guide can run a tasting across the legends, with the vegetable and kachche-gosht versions side by side.",
+      "d": "The dum biryani: rice and meat sealed and slow-cooked, served with mirchi-ka-salan and dahi chutney, is the city's edible crown, and every family swears by a different house. A private food guide can run a tasting across the legends, with the vegetable and kachche-gosht versions side by side.",
       "lat": 17.360589,
       "lon": 78.474061,
       "photos": []
     },
     {
-      "n": "The Irani caf\u00e9 ritual \u2014 Irani chai and Osmania biscuits",
+      "n": "The Irani caf\u00e9 ritual: Irani chai and Osmania biscuits",
       "cat": "do",
       "tier": "",
       "a": "Old City / Nampally",
-      "d": "The Persian-origin caf\u00e9s of Hyderabad pour strong sweet Irani chai alongside the crumbly, faintly savoury Osmania biscuit \u2014 a century-old morning rite. Ten minutes at a marble-topped table tells you more about the city than an hour in a museum.",
+      "d": "The Persian-origin caf\u00e9s of Hyderabad pour strong sweet Irani chai alongside the crumbly, faintly savoury Osmania biscuit: a century-old morning rite. Ten minutes at a marble-topped table tells you more about the city than an hour in a museum.",
       "lat": 17.368903,
       "lon": 78.469295,
       "photos": []
@@ -389,7 +389,7 @@
       "cat": "do",
       "tier": "",
       "a": "Citywide",
-      "d": "Amid the famous meat there is a deep vegetarian table too \u2014 bagara baingan, the tamarind-and-lentil pappu, and the fiery banana-leaf Andhra meals of the tech-city restaurants. Worth booking for travellers who don't eat meat but still want the regional flavour.",
+      "d": "Amid the famous meat there is a deep vegetarian table too: bagara baingan, the tamarind-and-lentil pappu, and the fiery banana-leaf Andhra meals of the tech-city restaurants. Worth booking for travellers who don't eat meat but still want the regional flavour.",
       "lat": 17.360589,
       "lon": 78.474061,
       "photos": []
@@ -409,7 +409,7 @@
       "cat": "do",
       "tier": "",
       "a": "Old City / Shilparamam",
-      "d": "Bidriware \u2014 black zinc alloy inlaid with silver in floral Persian motifs \u2014 is a Deccan art with its own GI tag, and Hyderabad is a prime place to buy the finest pieces. A vase or a paandan makes the most characterful souvenir of the region.",
+      "d": "Bidriware: black zinc alloy inlaid with silver in floral Persian motifs, is a Deccan art with its own GI tag, and Hyderabad is a prime place to buy the finest pieces. A vase or a paandan makes the most characterful souvenir of the region.",
       "lat": 17.438877,
       "lon": 78.365017,
       "photos": []
@@ -459,7 +459,7 @@
       "cat": "do",
       "tier": "",
       "a": "Bahadurpura",
-      "d": "A gloriously eccentric private collection of hand-built working cars shaped like a shoe, a cricket bat, a burger and more \u2014 the largest such museum of its kind. Odd, joyful and a sure hit with children.",
+      "d": "A gloriously eccentric private collection of hand-built working cars shaped like a shoe, a cricket bat, a burger and more: the largest such museum of its kind. Odd, joyful and a sure hit with children.",
       "lat": 17.360589,
       "lon": 78.474061,
       "photos": []
@@ -519,7 +519,7 @@
       "cat": "party",
       "tier": "Landmark bars",
       "a": "Old City (Taj Falaknuma Palace)",
-      "d": "A drink on the Nizam's own palace terrace, the city's lights spread below \u2014 the grandest evening in Hyderabad.",
+      "d": "A drink on the Nizam's own palace terrace, the city's lights spread below: the grandest evening in Hyderabad.",
       "lat": 17.330928,
       "lon": 78.467262,
       "photos": []
@@ -529,7 +529,7 @@
       "cat": "party",
       "tier": "Cocktail bars",
       "a": "Banjara Hills (Park Hyatt)",
-      "d": "A serene, design-led lounge in the city's best-run luxury hotel \u2014 considered cocktails, quiet and adult.",
+      "d": "A serene, design-led lounge in the city's best-run luxury hotel: considered cocktails, quiet and adult.",
       "lat": 17.422069,
       "lon": 78.449209,
       "photos": []
@@ -539,7 +539,7 @@
       "cat": "party",
       "tier": "Landmark bars",
       "a": "Banjara Hills (Taj Krishna)",
-      "d": "A long-standing Banjara Hills hotel bar \u2014 clubby, discreet, part of the city's social furniture for decades.",
+      "d": "A long-standing Banjara Hills hotel bar: clubby, discreet, part of the city's social furniture for decades.",
       "lat": 17.416432,
       "lon": 78.449632,
       "photos": []

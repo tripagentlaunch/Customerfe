@@ -38,6 +38,7 @@
 }
 
 .cluster:hover,
+.cluster.open,
 .cluster:focus-visible {
   background: var(--signature, #6e2a38);
   color: #fff;

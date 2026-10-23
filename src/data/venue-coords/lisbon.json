@@ -9,7 +9,7 @@
       "cat": "stay",
       "tier": "Ultra",
       "a": "Avenida da Liberdade / Marqu\u00eas de Pombal",
-      "d": "The capital's defining grand hotel \u2014 a 1950s palace of Louis XVI and Art Deco rooms, above the city on the edge of the Liberdade.",
+      "d": "The capital's defining grand hotel: a 1950s palace of Louis XVI and Art Deco rooms, above the city on the edge of the Liberdade.",
       "lat": 38.725893,
       "lon": -9.155095,
       "photos": []
@@ -19,7 +19,7 @@
       "cat": "stay",
       "tier": "Grand",
       "a": "Avenida da Liberdade",
-      "d": "A restored 16th-century palace on the Liberdade \u2014 gardens, a rooftop pool and quiet grandeur in the city's most exclusive quarter.",
+      "d": "A restored 16th-century palace on the Liberdade: gardens, a rooftop pool and quiet grandeur in the city's most exclusive quarter.",
       "lat": 38.717315,
       "lon": -9.141238,
       "photos": []
@@ -29,17 +29,17 @@
       "cat": "stay",
       "tier": "Grand",
       "a": "Chiado / Bairro Alto",
-      "d": "An 18th-century house on Pra\u00e7a Lu\u00eds de Cam\u00f5es, restored by Pritzker laureate Eduardo Souto de Moura \u2014 the cultural heart of the city.",
+      "d": "An 18th-century house on Pra\u00e7a Lu\u00eds de Cam\u00f5es, restored by Pritzker laureate Eduardo Souto de Moura: the cultural heart of the city.",
       "lat": 38.710285,
       "lon": -9.143282,
       "photos": []
     },
     {
-      "n": "Santiago de Alfama \u2014 Boutique Hotel",
+      "n": "Santiago de Alfama: Boutique Hotel",
       "cat": "stay",
       "tier": "Luxury",
       "a": "Alfama",
-      "d": "A 15th-century palace woven into the oldest quarter, below S\u00e3o Jorge Castle \u2014 intimate, characterful, deeply Lisbon.",
+      "d": "A 15th-century palace woven into the oldest quarter, below S\u00e3o Jorge Castle: intimate, characterful, deeply Lisbon.",
       "lat": 38.71345,
       "lon": -9.127727,
       "photos": []
@@ -49,7 +49,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Amoreiras",
-      "d": "A design-forward 15-room townhouse in a leafy residential quarter \u2014 wellness-led, private and quietly indulgent.",
+      "d": "A design-forward 15-room townhouse in a leafy residential quarter: wellness-led, private and quietly indulgent.",
       "lat": 38.734579,
       "lon": -9.155617,
       "photos": []
@@ -59,7 +59,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Baixa (Pra\u00e7a do Com\u00e9rcio)",
-      "d": "A former royal ministry on the grand riverfront square \u2014 heritage rooms opening straight onto the Tagus and the Baixa.",
+      "d": "A former royal ministry on the grand riverfront square: heritage rooms opening straight onto the Tagus and the Baixa.",
       "lat": 38.707793,
       "lon": -9.136554,
       "photos": []
@@ -69,7 +69,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Bairro Alto / S\u00e3o Roque",
-      "d": "A restored baroque palace by the architect of Mafra's basilica \u2014 a wine-led house of real character above the old town.",
+      "d": "A restored baroque palace by the architect of Mafra's basilica: a wine-led house of real character above the old town.",
       "lat": 38.714271,
       "lon": -9.145661,
       "photos": []
@@ -79,7 +79,7 @@
       "cat": "stay",
       "tier": "Premium",
       "a": "Baixa / Chiado",
-      "d": "A polished, design-led house on the seam of Baixa and Chiado \u2014 art-forward and impeccably placed for the historic centre.",
+      "d": "A polished, design-led house on the seam of Baixa and Chiado: art-forward and impeccably placed for the historic centre.",
       "lat": 38.710707,
       "lon": -9.14187,
       "photos": []
@@ -89,7 +89,7 @@
       "cat": "stay",
       "tier": "Premium",
       "a": "Baixa (Rua da Assun\u00e7\u00e3o)",
-      "d": "A well-run boutique house in the heart of the Baixa grid \u2014 quietly stylish and steps from Rossio and the river.",
+      "d": "A well-run boutique house in the heart of the Baixa grid: quietly stylish and steps from Rossio and the river.",
       "lat": 38.737702,
       "lon": -9.133558,
       "photos": []
@@ -99,7 +99,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Chiado",
-      "d": "Jos\u00e9 Avillez's theatre of contemporary Portuguese cooking \u2014 the country's most celebrated table, and one of the world's finest.",
+      "d": "Jos\u00e9 Avillez's theatre of contemporary Portuguese cooking: the country's most celebrated table, and one of the world's finest.",
       "lat": 38.710061,
       "lon": -9.141488,
       "photos": []
@@ -109,7 +109,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Chiado",
-      "d": "Henrique S\u00e1 Pessoa's two-star room \u2014 Portuguese produce with an Asian hand, precise and generous in equal measure.",
+      "d": "Henrique S\u00e1 Pessoa's two-star room: Portuguese produce with an Asian hand, precise and generous in equal measure.",
       "lat": 38.71022,
       "lon": -9.141111,
       "photos": []
@@ -119,7 +119,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Chiado",
-      "d": "Jos\u00e9 Avillez's all-vegetable fine-dining room beside Belcanto \u2014 a starred, sustainability-led ode to Portuguese produce.",
+      "d": "Jos\u00e9 Avillez's all-vegetable fine-dining room beside Belcanto: a starred, sustainability-led ode to Portuguese produce.",
       "lat": 38.709939,
       "lon": -9.141471,
       "photos": []
@@ -129,7 +129,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Avenida da Liberdade (Four Seasons Ritz)",
-      "d": "Pedro Pena Bastos's minimalist, produce-led cooking inside the Ritz \u2014 refined, seasonal, quietly confident.",
+      "d": "Pedro Pena Bastos's minimalist, produce-led cooking inside the Ritz: refined, seasonal, quietly confident.",
       "lat": 38.749937,
       "lon": -9.192074,
       "photos": []
@@ -139,7 +139,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Estrela / Lapa",
-      "d": "Alexandre Silva's open-kitchen counter beside the Bas\u00edlica da Estrela \u2014 sixteen surprising 'moments' of new Portuguese cooking.",
+      "d": "Alexandre Silva's open-kitchen counter beside the Bas\u00edlica da Estrela: sixteen surprising 'moments' of new Portuguese cooking.",
       "lat": 38.713298,
       "lon": -9.136397,
       "photos": []
@@ -149,7 +149,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Chiado",
-      "d": "Vincent Farges's pared-back room above the river \u2014 French precision and Portuguese produce, with one of the city's best views.",
+      "d": "Vincent Farges's pared-back room above the river: French precision and Portuguese produce, with one of the city's best views.",
       "lat": 38.708725,
       "lon": -9.139788,
       "photos": []
@@ -159,7 +159,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Bel\u00e9m",
-      "d": "A refined, ingredient-led kitchen on the Bel\u00e9m waterfront \u2014 elegant Portuguese cooking beside the great monuments.",
+      "d": "A refined, ingredient-led kitchen on the Bel\u00e9m waterfront: elegant Portuguese cooking beside the great monuments.",
       "lat": 38.693057,
       "lon": -9.21071,
       "photos": []
@@ -169,7 +169,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Avenida da Liberdade (Ritz Galerias)",
-      "d": "Japanese-Mediterranean cooking of real finesse \u2014 the Madrid group's Lisbon star, all clean lines and precise fish.",
+      "d": "Japanese-Mediterranean cooking of real finesse: the Madrid group's Lisbon star, all clean lines and precise fish.",
       "lat": 38.725519,
       "lon": -9.154253,
       "photos": []
@@ -179,7 +179,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Bel\u00e9m",
-      "d": "Paulo Morais's eight-seat kaiseki counter \u2014 Lisbon's most serious, meticulous Japanese room.",
+      "d": "Paulo Morais's eight-seat kaiseki counter: Lisbon's most serious, meticulous Japanese room.",
       "lat": 38.698023,
       "lon": -9.22574,
       "photos": []
@@ -189,7 +189,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Parque das Na\u00e7\u00f5es (Vasco da Gama Tower)",
-      "d": "Rui Silvestre's cooking at the top of Lisbon's tallest tower \u2014 a glass room over the river and the 25 de Abril skyline.",
+      "d": "Rui Silvestre's cooking at the top of Lisbon's tallest tower: a glass room over the river and the 25 de Abril skyline.",
       "lat": 38.774749,
       "lon": -9.091398,
       "photos": []
@@ -199,7 +199,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "S\u00e3o Sebasti\u00e3o",
-      "d": "Joachim Koerper's long-held star above the Edward VII Park \u2014 classical technique and a commanding view down to the river.",
+      "d": "Joachim Koerper's long-held star above the Edward VII Park: classical technique and a commanding view down to the river.",
       "lat": 38.730775,
       "lon": -9.1558,
       "photos": []
@@ -209,7 +209,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Baixa (Rua dos Bacalhoeiros)",
-      "d": "Jo\u00e3o S\u00e1's personal, well-travelled cooking \u2014 Portuguese roots threaded with Indian, African, Brazilian and Thai notes.",
+      "d": "Jo\u00e3o S\u00e1's personal, well-travelled cooking: Portuguese roots threaded with Indian, African, Brazilian and Thai notes.",
       "lat": 38.709105,
       "lon": -9.1339,
       "photos": []
@@ -219,7 +219,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Bairro Alto",
-      "d": "Ljubomir Stanisic's spirited tasting menu in the Bairro Alto \u2014 bold, narrative cooking with a dedicated vegetarian menu.",
+      "d": "Ljubomir Stanisic's spirited tasting menu in the Bairro Alto: bold, narrative cooking with a dedicated vegetarian menu.",
       "lat": 38.714659,
       "lon": -9.144858,
       "photos": []
@@ -229,7 +229,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Parque das Na\u00e7\u00f5es",
-      "d": "Marlene Vieira's first star \u2014 assured, contemporary Portuguese cooking from one of the country's most respected chefs.",
+      "d": "Marlene Vieira's first star: assured, contemporary Portuguese cooking from one of the country's most respected chefs.",
       "lat": 38.690411,
       "lon": -9.333381,
       "photos": []
@@ -239,7 +239,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Pr\u00edncipe Real",
-      "d": "A fourteen-seat, fourteen-course counter \u2014 intimate, precise cooking and one of Lisbon's newest stars.",
+      "d": "A fourteen-seat, fourteen-course counter: intimate, precise cooking and one of Lisbon's newest stars.",
       "lat": 38.735592,
       "lon": -9.158765,
       "photos": []
@@ -249,7 +249,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Alc\u00e2ntara",
-      "d": "A wine-led star with a seasonal tasting menu \u2014 cooking built around an exceptional cellar.",
+      "d": "A wine-led star with a seasonal tasting menu: cooking built around an exceptional cellar.",
       "lat": 38.712436,
       "lon": -9.131601,
       "photos": []
@@ -259,7 +259,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Bel\u00e9m",
-      "d": "Jo\u00e3o Rodrigues's neighbourhood bistro on the edge of Bel\u00e9m \u2014 simple, superb Portuguese produce, made for sharing.",
+      "d": "Jo\u00e3o Rodrigues's neighbourhood bistro on the edge of Bel\u00e9m: simple, superb Portuguese produce, made for sharing.",
       "lat": 38.697397,
       "lon": -9.193712,
       "photos": []
@@ -269,7 +269,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Campo de Ourique",
-      "d": "A snout-to-tail ode to Portuguese pork \u2014 crackling, croquettes and the famed bifana, done with real craft.",
+      "d": "A snout-to-tail ode to Portuguese pork: crackling, croquettes and the famed bifana, done with real craft.",
       "lat": 38.707066,
       "lon": -9.145649,
       "photos": []
@@ -279,7 +279,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Bel\u00e9m",
-      "d": "A warm Alentejo tavern around a U-shaped counter \u2014 wholesome petiscos and duck rice, shared shoulder to shoulder.",
+      "d": "A warm Alentejo tavern around a U-shaped counter: wholesome petiscos and duck rice, shared shoulder to shoulder.",
       "lat": 38.707148,
       "lon": -9.146182,
       "photos": []
@@ -289,7 +289,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Baixa / Cais do Sodr\u00e9",
-      "d": "An unconventional gastrobar \u2014 a modern tasco built for sharing plates in a laid-back room.",
+      "d": "An unconventional gastrobar: a modern tasco built for sharing plates in a laid-back room.",
       "lat": 38.712434,
       "lon": -9.142632,
       "photos": []
@@ -299,7 +299,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Cais do Sodr\u00e9 (Time Out Market area)",
-      "d": "Marlene Vieira's playful gastrobar \u2014 classic Portuguese dishes given a daring, contemporary turn.",
+      "d": "Marlene Vieira's playful gastrobar: classic Portuguese dishes given a daring, contemporary turn.",
       "lat": 38.711788,
       "lon": -9.124353,
       "photos": []
@@ -309,7 +309,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Intendente / Anjos",
-      "d": "Lisbon's great seafood institution since the 1950s \u2014 prawns, spider crab, oysters and the famous prego, in cheerful chaos.",
+      "d": "Lisbon's great seafood institution since the 1950s: prawns, spider crab, oysters and the famous prego, in cheerful chaos.",
       "lat": 38.720198,
       "lon": -9.135706,
       "photos": []
@@ -319,7 +319,7 @@
       "cat": "do",
       "tier": "",
       "a": "Bel\u00e9m",
-      "d": "The masterpiece of Portugal's Manueline style, built with the wealth of the sea route to India that Vasco da Gama opened \u2014 his tomb lies just inside the door. The vast cloister, all carved rope, coral and armillary spheres, rewards a slow, unhurried walk; go early or book a timed entry to be ahead of the coaches. A logical first stop, and steps from the custard tarts.",
+      "d": "The masterpiece of Portugal's Manueline style, built with the wealth of the sea route to India that Vasco da Gama opened: his tomb lies just inside the door. The vast cloister, all carved rope, coral and armillary spheres, rewards a slow, unhurried walk; go early or book a timed entry to be ahead of the coaches. A logical first stop, and steps from the custard tarts.",
       "lat": 38.698008,
       "lon": -9.205744,
       "photos": []
@@ -329,7 +329,7 @@
       "cat": "do",
       "tier": "",
       "a": "Bel\u00e9m",
-      "d": "The little limestone fortress standing in the Tagus was the ceremonial gateway from which the great voyages of discovery set out, and it remains the postcard image of Lisbon. The Manueline carving \u2014 rope motifs, a stone rhinoceros \u2014 is best seen from the riverside walk; the interior is cramped, so many families simply admire it from the promenade at golden hour.",
+      "d": "The little limestone fortress standing in the Tagus was the ceremonial gateway from which the great voyages of discovery set out, and it remains the postcard image of Lisbon. The Manueline carving: rope motifs, a stone rhinoceros, is best seen from the riverside walk; the interior is cramped, so many families simply admire it from the promenade at golden hour.",
       "lat": 38.691586,
       "lon": -9.215929,
       "photos": []
@@ -355,11 +355,11 @@
       "photos": []
     },
     {
-      "n": "MAAT \u2014 Museum of Art, Architecture and Technology",
+      "n": "MAAT: Museum of Art, Architecture and Technology",
       "cat": "do",
       "tier": "",
       "a": "Bel\u00e9m",
-      "d": "Amanda Levete's sculptural white wave on the riverbank, clad in 15,000 three-dimensional tiles that shimmer with reflected water \u2014 you can walk right up over its roof for a low, sweeping river view. Inside, changing contemporary shows pair with the handsome old Central Tejo power station next door. A calm, design-led counterpoint to Bel\u00e9m's monuments.",
+      "d": "Amanda Levete's sculptural white wave on the riverbank, clad in 15,000 three-dimensional tiles that shimmer with reflected water: you can walk right up over its roof for a low, sweeping river view. Inside, changing contemporary shows pair with the handsome old Central Tejo power station next door. A calm, design-led counterpoint to Bel\u00e9m's monuments.",
       "lat": 38.695934,
       "lon": -9.193624,
       "photos": []
@@ -379,7 +379,7 @@
       "cat": "do",
       "tier": "",
       "a": "Alfama",
-      "d": "The oldest, most atmospheric quarter \u2014 a maze of stepped alleys, laundry lines and tiled fa\u00e7ades that survived the 1755 earthquake \u2014 and the birthplace of fado, Portugal's soulful song of longing. A discreet advisor can reserve an intimate fado house for a private, unhurried dinner rather than the tourist floor shows.",
+      "d": "The oldest, most atmospheric quarter: a maze of stepped alleys, laundry lines and tiled fa\u00e7ades that survived the 1755 earthquake, and the birthplace of fado, Portugal's soulful song of longing. A discreet advisor can reserve an intimate fado house for a private, unhurried dinner rather than the tourist floor shows.",
       "lat": 38.710853,
       "lon": -9.129499,
       "photos": []
@@ -389,7 +389,7 @@
       "cat": "do",
       "tier": "",
       "a": "Alfama",
-      "d": "Set in a former water-pumping station at the heart of Alfama, this is the place to understand fado before you hear it live \u2014 recordings, guitars, and the stories of legendary voices like Am\u00e1lia Rodrigues. Compact and well-curated, with a free audio guide; a good, cool hour when the hills tire the legs.",
+      "d": "Set in a former water-pumping station at the heart of Alfama, this is the place to understand fado before you hear it live: recordings, guitars, and the stories of legendary voices like Am\u00e1lia Rodrigues. Compact and well-curated, with a free audio guide; a good, cool hour when the hills tire the legs.",
       "lat": 38.711025,
       "lon": -9.12766,
       "photos": []
@@ -399,7 +399,7 @@
       "cat": "do",
       "tier": "",
       "a": "Alfama",
-      "d": "The most photographed terrace in Lisbon \u2014 a tiled pergola draped in bougainvillea framing the tumble of Alfama's terracotta roofs down to the river and the white dome of the National Pantheon. Come early morning to have the balustrade almost to yourself; a bench here is one of the city's great free pleasures.",
+      "d": "The most photographed terrace in Lisbon: a tiled pergola draped in bougainvillea framing the tumble of Alfama's terracotta roofs down to the river and the white dome of the National Pantheon. Come early morning to have the balustrade almost to yourself; a bench here is one of the city's great free pleasures.",
       "lat": 38.711741,
       "lon": -9.130216,
       "photos": []
@@ -409,7 +409,7 @@
       "cat": "do",
       "tier": "",
       "a": "Baixa",
-      "d": "Lisbon's grand riverfront square, once the site of the royal palace lost to the 1755 earthquake and now a vast open forecourt opening onto the Tagus. Walk beneath the triumphal Rua Augusta Arch \u2014 you can climb it for a view straight down the grid \u2014 into the Pombaline downtown. Flat, easy walking and full of caf\u00e9s for a multi-generation group.",
+      "d": "Lisbon's grand riverfront square, once the site of the royal palace lost to the 1755 earthquake and now a vast open forecourt opening onto the Tagus. Walk beneath the triumphal Rua Augusta Arch: you can climb it for a view straight down the grid, into the Pombaline downtown. Flat, easy walking and full of caf\u00e9s for a multi-generation group.",
       "lat": 38.708443,
       "lon": -9.136816,
       "photos": []
@@ -419,7 +419,7 @@
       "cat": "do",
       "tier": "",
       "a": "Baixa",
-      "d": "The dead-straight grid rebuilt by the Marquis of Pombal after 1755, using the world's first purpose-built anti-seismic 'gaiola' timber frames \u2014 a landmark of Enlightenment urban planning you walk through without noticing the engineering. Pedestrian Rua Augusta, mosaic pavements and elegant shopfronts make it the natural spine of a first day.",
+      "d": "The dead-straight grid rebuilt by the Marquis of Pombal after 1755, using the world's first purpose-built anti-seismic 'gaiola' timber frames: a landmark of Enlightenment urban planning you walk through without noticing the engineering. Pedestrian Rua Augusta, mosaic pavements and elegant shopfronts make it the natural spine of a first day.",
       "lat": 38.709383,
       "lon": -9.136177,
       "photos": []
@@ -439,7 +439,7 @@
       "cat": "do",
       "tier": "",
       "a": "Chiado",
-      "d": "The roofless Gothic nave left open to the sky by the 1755 earthquake \u2014 its bare stone arches are the most haunting, quietly moving space in the city, and a small museum of oddments (mummies, tombs, tiles) sits in the chancel. Rarely crowded, and deeply atmospheric for anyone who cares about history.",
+      "d": "The roofless Gothic nave left open to the sky by the 1755 earthquake: its bare stone arches are the most haunting, quietly moving space in the city, and a small museum of oddments (mummies, tombs, tiles) sits in the chancel. Rarely crowded, and deeply atmospheric for anyone who cares about history.",
       "lat": 38.712006,
       "lon": -9.140586,
       "photos": []
@@ -449,7 +449,7 @@
       "cat": "do",
       "tier": "",
       "a": "Chiado / Bairro Alto",
-      "d": "Chiado is Lisbon's most elegant quarter \u2014 grand caf\u00e9s, bookshops, jewellers and the storied A Brasileira with Pessoa's bronze at a pavement table \u2014 flowing uphill into bohemian Bairro Alto, sleepy by day and alive by night. The daytime browse suits a refined, unhurried afternoon; the nightlife is best sampled selectively.",
+      "d": "Chiado is Lisbon's most elegant quarter: grand caf\u00e9s, bookshops, jewellers and the storied A Brasileira with Pessoa's bronze at a pavement table, flowing uphill into bohemian Bairro Alto, sleepy by day and alive by night. The daytime browse suits a refined, unhurried afternoon; the nightlife is best sampled selectively.",
       "lat": 38.711238,
       "lon": -9.142423,
       "photos": []
@@ -459,7 +459,7 @@
       "cat": "do",
       "tier": "",
       "a": "Gra\u00e7a to Campo de Ourique",
-      "d": "The vintage 1930s 'Remodelado' tram that clatters through Alfama, Gra\u00e7a, Baixa and Estrela, threading lanes too steep and narrow for anything modern \u2014 history and scenery in one 45-minute ride. It gets packed; board early at Martim Moniz or Campo de Ourique, or charter a private vintage tram for the family to ride in comfort.",
+      "d": "The vintage 1930s 'Remodelado' tram that clatters through Alfama, Gra\u00e7a, Baixa and Estrela, threading lanes too steep and narrow for anything modern: history and scenery in one 45-minute ride. It gets packed; board early at Martim Moniz or Campo de Ourique, or charter a private vintage tram for the family to ride in comfort.",
       "lat": 38.952455,
       "lon": -9.082638,
       "photos": []
@@ -469,7 +469,7 @@
       "cat": "do",
       "tier": "",
       "a": "Avenidas Novas / S\u00e3o Sebasti\u00e3o",
-      "d": "One of the world's great private collections in a single elegant building set in serene modernist gardens \u2014 Egyptian antiquities, Islamic and East Asian art, Rembrandt and Monet, and a peerless room of Ren\u00e9 Lalique jewellery. Calm, world-class and never overwhelming; the garden caf\u00e9 is a lovely veg-friendly pause. (Note: the founder's collection has been in phased renovation \u2014 confirm current opening.)",
+      "d": "One of the world's great private collections in a single elegant building set in serene modernist gardens: Egyptian antiquities, Islamic and East Asian art, Rembrandt and Monet, and a peerless room of Ren\u00e9 Lalique jewellery. Calm, world-class and never overwhelming; the garden caf\u00e9 is a lovely veg-friendly pause. (Note: the founder's collection has been in phased renovation: confirm current opening.)",
       "lat": 38.737823,
       "lon": -9.153515,
       "photos": []
@@ -479,7 +479,7 @@
       "cat": "do",
       "tier": "",
       "a": "Xabregas / Beato",
-      "d": "Set in the golden-and-tiled Madre de Deus convent, this holds five centuries of the azulejo tilework that defines Portugal \u2014 the highlight a 23-metre panorama of Lisbon as it looked before the 1755 earthquake. A little out of the centre and all the quieter for it; the convent church alone is worth the taxi.",
+      "d": "Set in the golden-and-tiled Madre de Deus convent, this holds five centuries of the azulejo tilework that defines Portugal: the highlight a 23-metre panorama of Lisbon as it looked before the 1755 earthquake. A little out of the centre and all the quieter for it; the convent church alone is worth the taxi.",
       "lat": 38.724724,
       "lon": -9.113914,
       "photos": []
@@ -489,7 +489,7 @@
       "cat": "do",
       "tier": "",
       "a": "Bairro Alto",
-      "d": "A plain fa\u00e7ade hiding one of Europe's most sumptuous interiors \u2014 its Chapel of St John the Baptist was built in Rome from lapis lazuli, ivory, gold and silver, blessed by the Pope, then shipped to Lisbon. One of the few buildings to survive 1755 intact; ten quiet minutes that leave visitors stunned.",
+      "d": "A plain fa\u00e7ade hiding one of Europe's most sumptuous interiors: its Chapel of St John the Baptist was built in Rome from lapis lazuli, ivory, gold and silver, blessed by the Pope, then shipped to Lisbon. One of the few buildings to survive 1755 intact; ten quiet minutes that leave visitors stunned.",
       "lat": 38.71362,
       "lon": -9.143427,
       "photos": []
@@ -499,7 +499,7 @@
       "cat": "do",
       "tier": "",
       "a": "Estrela",
-      "d": "A gleaming late-Baroque and neoclassical basilica of grey-and-cream marble, its great dome a landmark on the skyline, built by Queen Maria I in thanks for the birth of an heir. Climb to the roof terrace for a lesser-known city view, then cross to the leafy Jardim da Estrela opposite \u2014 a fine green pause with a duck pond and playground.",
+      "d": "A gleaming late-Baroque and neoclassical basilica of grey-and-cream marble, its great dome a landmark on the skyline, built by Queen Maria I in thanks for the birth of an heir. Climb to the roof terrace for a lesser-known city view, then cross to the leafy Jardim da Estrela opposite: a fine green pause with a duck pond and playground.",
       "lat": 38.713251,
       "lon": -9.160513,
       "photos": []
@@ -529,7 +529,7 @@
       "cat": "do",
       "tier": "",
       "a": "Alfama",
-      "d": "A vast domed Baroque church, centuries in the building, now the resting place of Portugal's great figures \u2014 including fado's Am\u00e1lia Rodrigues and footballer Eus\u00e9bio. The rooftop terrace circling the dome gives one of the widest 360-degree views in the city, over Alfama's rooftops and the cruise port.",
+      "d": "A vast domed Baroque church, centuries in the building, now the resting place of Portugal's great figures: including fado's Am\u00e1lia Rodrigues and footballer Eus\u00e9bio. The rooftop terrace circling the dome gives one of the widest 360-degree views in the city, over Alfama's rooftops and the cruise port.",
       "lat": 38.714978,
       "lon": -9.124683,
       "photos": []
@@ -539,7 +539,7 @@
       "cat": "do",
       "tier": "",
       "a": "Gra\u00e7a",
-      "d": "The highest of the city's viewpoints, where Lisbon's panorama feels most complete \u2014 the eye travels from the castle across the whole tumble of rooftops to the Tagus and the long line of the bridge. Less trafficked than the Alfama terraces; magical at sunset, so arrive a little early for a bench.",
+      "d": "The highest of the city's viewpoints, where Lisbon's panorama feels most complete: the eye travels from the castle across the whole tumble of rooftops to the Tagus and the long line of the bridge. Less trafficked than the Alfama terraces; magical at sunset, so arrive a little early for a bench.",
       "lat": 38.719159,
       "lon": -9.13281,
       "photos": []
@@ -549,7 +549,7 @@
       "cat": "do",
       "tier": "",
       "a": "Bairro Alto",
-      "d": "One of Lisbon's largest landscaped viewing terraces, its symmetrical box hedges and busts aligned directly across the valley to the floodlit castle. Reachable by the antique Gl\u00f3ria funicular up from Avenida da Liberdade \u2014 a small, charming ride in itself \u2014 and lovely in the early evening.",
+      "d": "One of Lisbon's largest landscaped viewing terraces, its symmetrical box hedges and busts aligned directly across the valley to the floodlit castle. Reachable by the antique Gl\u00f3ria funicular up from Avenida da Liberdade: a small, charming ride in itself, and lovely in the early evening.",
       "lat": 38.715437,
       "lon": -9.144048,
       "photos": []
@@ -559,7 +559,7 @@
       "cat": "do",
       "tier": "",
       "a": "Cais do Sodr\u00e9",
-      "d": "Lisbon's oldest covered market, open since 1892, half of it reborn as a curated food hall where the city's best chefs run stalls under one roof \u2014 a painless way to graze across Portuguese cooking, with plenty of vegetarian and seafood choice for a mixed group. Busy at peak times; go early or mid-afternoon.",
+      "d": "Lisbon's oldest covered market, open since 1892, half of it reborn as a curated food hall where the city's best chefs run stalls under one roof: a painless way to graze across Portuguese cooking, with plenty of vegetarian and seafood choice for a mixed group. Busy at peak times; go early or mid-afternoon.",
       "lat": 38.706155,
       "lon": -9.146827,
       "photos": []
@@ -569,7 +569,7 @@
       "cat": "do",
       "tier": "",
       "a": "Alc\u00e2ntara",
-      "d": "A 19th-century industrial complex under the 25 de Abril Bridge reborn as a creative precinct of design shops, bookstores, caf\u00e9s and rooftop bars \u2014 including the much-photographed Ler Devagar bookshop with its flying-bicycle sculpture. Relaxed and stylish for an afternoon; the Sunday market adds vintage and artisan stalls.",
+      "d": "A 19th-century industrial complex under the 25 de Abril Bridge reborn as a creative precinct of design shops, bookstores, caf\u00e9s and rooftop bars: including the much-photographed Ler Devagar bookshop with its flying-bicycle sculpture. Relaxed and stylish for an afternoon; the Sunday market adds vintage and artisan stalls.",
       "lat": 38.7026,
       "lon": -9.178662,
       "photos": []
@@ -579,7 +579,7 @@
       "cat": "do",
       "tier": "",
       "a": "Pr\u00edncipe Real",
-      "d": "Lisbon's most refined district, its garden shaded by a vast century-old cedar trained flat like a giant parasol, ringed by independent boutiques, antique dealers and concept stores. Embaixada, a neo-Moorish palace turned design gallery, showcases the best of Portuguese fashion, ceramics and leather \u2014 ideal for discreet, high-end shopping.",
+      "d": "Lisbon's most refined district, its garden shaded by a vast century-old cedar trained flat like a giant parasol, ringed by independent boutiques, antique dealers and concept stores. Embaixada, a neo-Moorish palace turned design gallery, showcases the best of Portuguese fashion, ceramics and leather: ideal for discreet, high-end shopping.",
       "lat": 38.715756,
       "lon": -9.149423,
       "photos": []
@@ -589,7 +589,7 @@
       "cat": "do",
       "tier": "",
       "a": "Parque Eduardo VII",
-      "d": "A serene 1930s 'cold greenhouse' of shaded walkways, ponds, waterfalls and sub-tropical planting tucked into an old basalt quarry \u2014 three linked houses of green calm just off Avenida da Liberdade. A gentle, cool escape that reliably delights children and grandparents alike.",
+      "d": "A serene 1930s 'cold greenhouse' of shaded walkways, ponds, waterfalls and sub-tropical planting tucked into an old basalt quarry: three linked houses of green calm just off Avenida da Liberdade. A gentle, cool escape that reliably delights children and grandparents alike.",
       "lat": 38.700106,
       "lon": -9.202141,
       "photos": []
@@ -609,7 +609,7 @@
       "cat": "do",
       "tier": "",
       "a": "Baixa / Marqu\u00eas de Pombal",
-      "d": "Lisbon's grand tree-lined boulevard, mosaic-paved and modelled on the Champs-\u00c9lys\u00e9es, home to the flagship luxury houses \u2014 Louis Vuitton, Prada, Gucci \u2014 and the city's best hotels. The natural address for a UHNI base, with fashion, fine dining and the theatres all within a walk.",
+      "d": "Lisbon's grand tree-lined boulevard, mosaic-paved and modelled on the Champs-\u00c9lys\u00e9es, home to the flagship luxury houses: Louis Vuitton, Prada, Gucci, and the city's best hotels. The natural address for a UHNI base, with fashion, fine dining and the theatres all within a walk.",
       "lat": 38.720354,
       "lon": -9.145717,
       "photos": []
@@ -619,7 +619,7 @@
       "cat": "do",
       "tier": "",
       "a": "Bel\u00e9m",
-      "d": "A significant modern and contemporary art collection in the Bel\u00e9m Cultural Centre \u2014 Picasso, Warhol, Mondrian, Bacon and more \u2014 a strong pairing with a Bel\u00e9m monuments morning. (Note: the collection has been reorganising in recent years; confirm current status and location before visiting.)",
+      "d": "A significant modern and contemporary art collection in the Bel\u00e9m Cultural Centre: Picasso, Warhol, Mondrian, Bacon and more, a strong pairing with a Bel\u00e9m monuments morning. (Note: the collection has been reorganising in recent years; confirm current status and location before visiting.)",
       "lat": 38.695647,
       "lon": -9.20931,
       "photos": []
@@ -629,7 +629,7 @@
       "cat": "do",
       "tier": "",
       "a": "Alfama / Gra\u00e7a",
-      "d": "Lisbon's centuries-old open-air 'thieves' market', spread beside S\u00e3o Vicente de Fora on Tuesdays and Saturdays \u2014 azulejo fragments, vintage silver, old prints and genuine bric-a-brac for the patient browser. Best in the morning; a colourful, local counterpoint to the boutiques.",
+      "d": "Lisbon's centuries-old open-air 'thieves' market', spread beside S\u00e3o Vicente de Fora on Tuesdays and Saturdays: azulejo fragments, vintage silver, old prints and genuine bric-a-brac for the patient browser. Best in the morning; a colourful, local counterpoint to the boutiques.",
       "lat": 38.715393,
       "lon": -9.125929,
       "photos": []
@@ -659,7 +659,7 @@
       "cat": "do",
       "tier": "",
       "a": "Parque das Na\u00e7\u00f5es",
-      "d": "One of the world's largest and most admired aquariums, built around a single vast ocean tank you circle over two levels, in the modern riverside quarter left from Expo '98. Reliably the highlight for families travelling with children \u2014 book a timed entry to avoid the queue.",
+      "d": "One of the world's largest and most admired aquariums, built around a single vast ocean tank you circle over two levels, in the modern riverside quarter left from Expo '98. Reliably the highlight for families travelling with children: book a timed entry to avoid the queue.",
       "lat": 38.76352,
       "lon": -9.093716,
       "photos": []
@@ -669,7 +669,7 @@
       "cat": "do",
       "tier": "",
       "a": "Parque das Na\u00e7\u00f5es",
-      "d": "The sleek riverside district from Expo '98 \u2014 wide promenades, gardens, the Vasco da Gama tower and a gondola cable car gliding along the water past the Ocean\u00e1rio. Flat, pram-friendly and calm, a good half-day for a multi-generation group wanting space and modern comfort.",
+      "d": "The sleek riverside district from Expo '98: wide promenades, gardens, the Vasco da Gama tower and a gondola cable car gliding along the water past the Ocean\u00e1rio. Flat, pram-friendly and calm, a good half-day for a multi-generation group wanting space and modern comfort.",
       "lat": 38.773573,
       "lon": -9.091483,
       "photos": []
@@ -679,7 +679,7 @@
       "cat": "do",
       "tier": "",
       "a": "Ajuda",
-      "d": "A neoclassical royal palace, the last official residence of Portugal's monarchy, whose staterooms drip with silk, porcelain and chandeliers \u2014 and which now displays the Portuguese Crown Jewels in a purpose-built treasury wing. Uphill from Bel\u00e9m and blissfully uncrowded compared with the coastal monuments.",
+      "d": "A neoclassical royal palace, the last official residence of Portugal's monarchy, whose staterooms drip with silk, porcelain and chandeliers, and which now displays the Portuguese Crown Jewels in a purpose-built treasury wing. Uphill from Bel\u00e9m and blissfully uncrowded compared with the coastal monuments.",
       "lat": 38.707631,
       "lon": -9.197833,
       "photos": []
@@ -695,11 +695,11 @@
       "photos": []
     },
     {
-      "n": "Sintra \u2014 Pena Palace & Quinta da Regaleira (day trip)",
+      "n": "Sintra: Pena Palace & Quinta da Regaleira (day trip)",
       "cat": "do",
       "tier": "",
       "a": "Sintra (day trip, ~40 min)",
-      "d": "A misty, forested hill town of romantic palaces: Pena, a riot of red, yellow and tilework on a crag, and Quinta da Regaleira, with its symbolic gardens and the spiralling 27-metre Initiation Well. Cool, magical and deservedly essential \u2014 a private driver-guide is the sane way to see two or three sites in a day.",
+      "d": "A misty, forested hill town of romantic palaces: Pena, a riot of red, yellow and tilework on a crag, and Quinta da Regaleira, with its symbolic gardens and the spiralling 27-metre Initiation Well. Cool, magical and deservedly essential: a private driver-guide is the sane way to see two or three sites in a day.",
       "lat": 38.796127,
       "lon": -9.396436,
       "photos": []
@@ -719,7 +719,7 @@
       "cat": "do",
       "tier": "",
       "a": "Sintra coast (day trip)",
-      "d": "The westernmost point of continental Europe \u2014 a lighthouse on wild cliffs 140 metres above the Atlantic, where Portugal's poet Cam\u00f5es wrote that the land ends and the sea begins. A short, spectacular stop that pairs naturally with a Sintra or Cascais drive.",
+      "d": "The westernmost point of continental Europe: a lighthouse on wild cliffs 140 metres above the Atlantic, where Portugal's poet Cam\u00f5es wrote that the land ends and the sea begins. A short, spectacular stop that pairs naturally with a Sintra or Cascais drive.",
       "lat": 38.780904,
       "lon": -9.499416,
       "photos": []
@@ -739,7 +739,7 @@
       "cat": "do",
       "tier": "",
       "a": "Set\u00fabal / Arr\u00e1bida (day trip, ~50 min)",
-      "d": "A working port city famed for fresh fried cuttlefish and Moscatel wine, gateway to the Arr\u00e1bida Natural Park \u2014 limestone cliffs plunging to turquoise coves like Galapinhos and Portinho da Arr\u00e1bida, among the loveliest beaches in Portugal. Boat trips from Set\u00fabal often spot the resident bottlenose dolphins.",
+      "d": "A working port city famed for fresh fried cuttlefish and Moscatel wine, gateway to the Arr\u00e1bida Natural Park: limestone cliffs plunging to turquoise coves like Galapinhos and Portinho da Arr\u00e1bida, among the loveliest beaches in Portugal. Boat trips from Set\u00fabal often spot the resident bottlenose dolphins.",
       "lat": 38.6036,
       "lon": -8.953848,
       "photos": []
@@ -749,7 +749,7 @@
       "cat": "do",
       "tier": "",
       "a": "Azeit\u00e3o (day trip)",
-      "d": "Between Lisbon and Arr\u00e1bida lie the historic Jos\u00e9 Maria da Fonseca cellars \u2014 makers of Portugal's celebrated Moscatel de Set\u00fabal \u2014 and the villages behind the famous soft Azeit\u00e3o sheep's cheese and hand-painted azulejo workshops. A refined tasting circuit that a concierge can arrange privately.",
+      "d": "Between Lisbon and Arr\u00e1bida lie the historic Jos\u00e9 Maria da Fonseca cellars: makers of Portugal's celebrated Moscatel de Set\u00fabal, and the villages behind the famous soft Azeit\u00e3o sheep's cheese and hand-painted azulejo workshops. A refined tasting circuit that a concierge can arrange privately.",
       "lat": 38.696209,
       "lon": -9.365287,
       "photos": []
@@ -759,7 +759,7 @@
       "cat": "do",
       "tier": "",
       "a": "Amoreiras / Campolide",
-      "d": "The great 18th-century aqueduct strides across the Alc\u00e2ntara valley on colossal stone arches \u2014 one of Europe's boldest \u2014 and its terminal reservoir, the cavernous M\u00e3e d'\u00c1gua cistern, can be visited as an atmospheric, echoing water chamber. A little-known feat of engineering away from the crowds.",
+      "d": "The great 18th-century aqueduct strides across the Alc\u00e2ntara valley on colossal stone arches: one of Europe's boldest, and its terminal reservoir, the cavernous M\u00e3e d'\u00c1gua cistern, can be visited as an atmospheric, echoing water chamber. A little-known feat of engineering away from the crowds.",
       "lat": 38.816011,
       "lon": -9.230299,
       "photos": []
@@ -769,7 +769,7 @@
       "cat": "do",
       "tier": "",
       "a": "Avenidas Novas / S\u00e3o Sebasti\u00e3o",
-      "d": "The serene modernist gardens surrounding the Gulbenkian \u2014 lakes, sculpture and shade that locals treasure \u2014 wrap the Centro de Arte Moderna, home to the finest collection of 20th-century Portuguese art. A cultured, green half-day, recently reopened after a redesign of its grounds and galleries.",
+      "d": "The serene modernist gardens surrounding the Gulbenkian: lakes, sculpture and shade that locals treasure, wrap the Centro de Arte Moderna, home to the finest collection of 20th-century Portuguese art. A cultured, green half-day, recently reopened after a redesign of its grounds and galleries.",
       "lat": 38.735814,
       "lon": -9.153696,
       "photos": []
@@ -779,7 +779,7 @@
       "cat": "do",
       "tier": "",
       "a": "Cais do Sodr\u00e9 / Baixa",
-      "d": "A landscaped waterfront promenade between Cais do Sodr\u00e9 and Pra\u00e7a do Com\u00e9rcio, with tiered steps down to the Tagus where the shipyards of the discoveries once stood \u2014 the best place in the centre to sit by the water at sunset. Flat, gentle and free, threading the two riverside squares together.",
+      "d": "A landscaped waterfront promenade between Cais do Sodr\u00e9 and Pra\u00e7a do Com\u00e9rcio, with tiered steps down to the Tagus where the shipyards of the discoveries once stood: the best place in the centre to sit by the water at sunset. Flat, gentle and free, threading the two riverside squares together.",
       "lat": 38.754232,
       "lon": -9.153503,
       "photos": []
@@ -789,7 +789,7 @@
       "cat": "party",
       "tier": "Cocktail bars",
       "a": "Avenida da Liberdade / Pr\u00edncipe Real",
-      "d": "Lisbon's globally-ranked speakeasy \u2014 a hidden 'press to enter' door and one of the most inventive cocktail lists in Iberia.",
+      "d": "Lisbon's globally-ranked speakeasy: a hidden 'press to enter' door and one of the most inventive cocktail lists in Iberia.",
       "lat": 38.718276,
       "lon": -9.144706,
       "photos": []
@@ -799,7 +799,7 @@
       "cat": "party",
       "tier": "Cocktail bars",
       "a": "Bairro Alto",
-      "d": "Constan\u00e7a Cordeiro's tiny, sustainability-led bar \u2014 foraged, seasonal, locally-made drinks in an intimate den.",
+      "d": "Constan\u00e7a Cordeiro's tiny, sustainability-led bar: foraged, seasonal, locally-made drinks in an intimate den.",
       "lat": 38.71309,
       "lon": -9.141884,
       "photos": []
@@ -809,7 +809,7 @@
       "cat": "party",
       "tier": "Rooftops",
       "a": "Avenida da Liberdade (Tivoli)",
-      "d": "The refined rooftop of the Tivoli on the Liberdade \u2014 polished cocktails and an elevated sweep across the city.",
+      "d": "The refined rooftop of the Tivoli on the Liberdade: polished cocktails and an elevated sweep across the city.",
       "lat": 38.721085,
       "lon": -9.147082,
       "photos": []
@@ -819,7 +819,7 @@
       "cat": "party",
       "tier": "Rooftops",
       "a": "Martim Moniz / Mouraria",
-      "d": "A wooden terrace six floors above Pra\u00e7a Martim Moniz \u2014 a direct, dramatic view up to S\u00e3o Jorge Castle.",
+      "d": "A wooden terrace six floors above Pra\u00e7a Martim Moniz: a direct, dramatic view up to S\u00e3o Jorge Castle.",
       "lat": 38.7175,
       "lon": -9.135793,
       "photos": []
@@ -829,7 +829,7 @@
       "cat": "party",
       "tier": "Rooftops",
       "a": "Bairro Alto",
-      "d": "Lisbon's cult rooftop \u2014 a lush garden bar on top of a Bairro Alto car park, with the river and the Bas\u00edlica da Estrela beyond.",
+      "d": "Lisbon's cult rooftop: a lush garden bar on top of a Bairro Alto car park, with the river and the Bas\u00edlica da Estrela beyond.",
       "lat": 38.767819,
       "lon": -9.099221,
       "photos": []
@@ -839,7 +839,7 @@
       "cat": "party",
       "tier": "Landmark bars",
       "a": "Cais do Sodr\u00e9",
-      "d": "A former bordello turned baroque, red-velvet bar on the old sailors' street \u2014 theatrical, decadent and quintessentially Lisbon.",
+      "d": "A former bordello turned baroque, red-velvet bar on the old sailors' street: theatrical, decadent and quintessentially Lisbon.",
       "lat": 38.70731,
       "lon": -9.143535,
       "photos": []
@@ -849,7 +849,7 @@
       "cat": "party",
       "tier": "Landmark bars",
       "a": "Pr\u00edncipe Real",
-      "d": "A labyrinth of five rooms crammed with a century of curiosities \u2014 Lisbon's most famous, most eccentric old bar.",
+      "d": "A labyrinth of five rooms crammed with a century of curiosities: Lisbon's most famous, most eccentric old bar.",
       "lat": 38.715713,
       "lon": -9.146769,
       "photos": []

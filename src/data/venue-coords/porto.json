@@ -9,17 +9,17 @@
       "cat": "stay",
       "tier": "Ultra",
       "a": "Vila Nova de Gaia (across the Douro)",
-      "d": "Porto's defining luxury address \u2014 a wine hotel terraced into the Gaia hillside, every room facing the old city and the river below.",
+      "d": "Porto's defining luxury address: a wine hotel terraced into the Gaia hillside, every room facing the old city and the river below.",
       "lat": 41.133919,
       "lon": -8.612918,
       "photos": []
     },
     {
-      "n": "Maison Albar \u2014 Le Monumental Palace",
+      "n": "Maison Albar: Le Monumental Palace",
       "cat": "stay",
       "tier": "Grand",
       "a": "Baixa / Avenida dos Aliados",
-      "d": "A restored Belle \u00c9poque palace on the grand avenue \u2014 Parisian glamour and marble, in the ceremonial heart of the city.",
+      "d": "A restored Belle \u00c9poque palace on the grand avenue: Parisian glamour and marble, in the ceremonial heart of the city.",
       "lat": 41.148498,
       "lon": -8.61151,
       "photos": []
@@ -29,7 +29,7 @@
       "cat": "stay",
       "tier": "Grand",
       "a": "Campanh\u00e3 (Douro riverbank, east of centre)",
-      "d": "A UNESCO-listed baroque palace by Nasoni on the banks of the Douro \u2014 a national monument turned pousada, with gardens to the water.",
+      "d": "A UNESCO-listed baroque palace by Nasoni on the banks of the Douro: a national monument turned pousada, with gardens to the water.",
       "lat": 41.143719,
       "lon": -8.575562,
       "photos": []
@@ -39,7 +39,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Foz do Douro (Atlantic coast)",
-      "d": "A 19th-century mansion on the ocean edge, reimagined by designer Nini Andrade Silva \u2014 sea, spa and a starred table where the Douro meets the Atlantic.",
+      "d": "A 19th-century mansion on the ocean edge, reimagined by designer Nini Andrade Silva: sea, spa and a starred table where the Douro meets the Atlantic.",
       "lat": 41.161354,
       "lon": -8.684302,
       "photos": []
@@ -49,7 +49,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Miragaia / Cedofeita",
-      "d": "A design-led house tumbling down the hill toward the river \u2014 art-forward rooms, each themed to an artist, with some of the best views in the old town.",
+      "d": "A design-led house tumbling down the hill toward the river: art-forward rooms, each themed to an artist, with some of the best views in the old town.",
       "lat": 41.145442,
       "lon": -8.622636,
       "photos": []
@@ -59,7 +59,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Boavista / Rotunda",
-      "d": "Two restored 19th-century palacetes near the Casa da M\u00fasica \u2014 quiet grandeur, a garden and a pool, a step back from the tourist core.",
+      "d": "Two restored 19th-century palacetes near the Casa da M\u00fasica: quiet grandeur, a garden and a pool, a step back from the tourist core.",
       "lat": 41.142524,
       "lon": -8.574889,
       "photos": []
@@ -69,7 +69,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Foz Velha / Massarelos",
-      "d": "A restored 19th-century villa near the river's mouth \u2014 a small, polished house with a spa and a considered, contemporary hand.",
+      "d": "A restored 19th-century villa near the river's mouth: a small, polished house with a spa and a considered, contemporary hand.",
       "lat": 41.109631,
       "lon": -8.005787,
       "photos": []
@@ -79,7 +79,7 @@
       "cat": "stay",
       "tier": "Premium",
       "a": "Ribeira / Baixa",
-      "d": "A boutique house on a Ribeira square themed to the great Age of Discoveries \u2014 richly detailed rooms steps from the riverfront.",
+      "d": "A boutique house on a Ribeira square themed to the great Age of Discoveries: richly detailed rooms steps from the riverfront.",
       "lat": 41.145442,
       "lon": -8.622636,
       "photos": []
@@ -89,7 +89,7 @@
       "cat": "stay",
       "tier": "Premium",
       "a": "Baixa (Rua das Flores)",
-      "d": "A restored 16th-century palace on Porto's prettiest shopping street \u2014 a heritage courtyard hotel in the centre of the old town.",
+      "d": "A restored 16th-century palace on Porto's prettiest shopping street: a heritage courtyard hotel in the centre of the old town.",
       "lat": 41.143994,
       "lon": -8.614629,
       "photos": []
@@ -99,7 +99,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Vila Nova de Gaia (across the Douro)",
-      "d": "Ricardo Costa's two-star room high above the river \u2014 the region's most celebrated table, matched to one of Portugal's great cellars.",
+      "d": "Ricardo Costa's two-star room high above the river: the region's most celebrated table, matched to one of Portugal's great cellars.",
       "lat": 41.133919,
       "lon": -8.612918,
       "photos": []
@@ -109,7 +109,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Le\u00e7a da Palmeira, Matosinhos (coast)",
-      "d": "Rui Paula's two-star seafood kitchen inside \u00c1lvaro Siza's landmark tea house \u2014 cooking with the Atlantic breaking on the rocks below.",
+      "d": "Rui Paula's two-star seafood kitchen inside \u00c1lvaro Siza's landmark tea house: cooking with the Atlantic breaking on the rocks below.",
       "lat": 41.202999,
       "lon": -8.715109,
       "photos": []
@@ -119,7 +119,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Massarelos (Rua de Entre-Quintas)",
-      "d": "V\u00edtor Matos's two-star room in a 19th-century mansion above the Crystal Palace gardens \u2014 bold, layered reinterpretations of Portuguese flavour.",
+      "d": "V\u00edtor Matos's two-star room in a 19th-century mansion above the Crystal Palace gardens: bold, layered reinterpretations of Portuguese flavour.",
       "lat": 41.147465,
       "lon": -8.628527,
       "photos": []
@@ -129,7 +129,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Foz do Douro",
-      "d": "A long-held star in a stone townhouse near the river's mouth \u2014 precise, produce-led cooking and a lovely rooftop terrace.",
+      "d": "A long-held star in a stone townhouse near the river's mouth: precise, produce-led cooking and a lovely rooftop terrace.",
       "lat": 41.150189,
       "lon": -8.672131,
       "photos": []
@@ -139,7 +139,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Bonfim",
-      "d": "Vasco Coelho Santos's eight-seat counter facing the open kitchen \u2014 the most personal, exacting chef's-counter experience in northern Portugal.",
+      "d": "Vasco Coelho Santos's eight-seat counter facing the open kitchen: the most personal, exacting chef's-counter experience in northern Portugal.",
       "lat": 41.14457,
       "lon": -8.612519,
       "photos": []
@@ -149,7 +149,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Baixa / Avenida dos Aliados",
-      "d": "Julien Montbabut's star inside the Monumental Palace \u2014 French technique and Portuguese produce, in a Belle \u00c9poque room on the grand avenue.",
+      "d": "Julien Montbabut's star inside the Monumental Palace: French technique and Portuguese produce, in a Belle \u00c9poque room on the grand avenue.",
       "lat": 41.148444,
       "lon": -8.611519,
       "photos": []
@@ -159,7 +159,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Bonfim",
-      "d": "V\u00edtor Matos's second Porto star \u2014 a playful, contemporary tasting menu that sends the diner into the kitchen's imagination.",
+      "d": "V\u00edtor Matos's second Porto star: a playful, contemporary tasting menu that sends the diner into the kitchen's imagination.",
       "lat": 41.187918,
       "lon": -8.645088,
       "photos": []
@@ -169,7 +169,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Vila Nova de Gaia (across the Douro)",
-      "d": "Henrique S\u00e1 Pessoa's Gaia star \u2014 assured contemporary cooking over the river, from one of Portugal's most respected chefs.",
+      "d": "Henrique S\u00e1 Pessoa's Gaia star: assured contemporary cooking over the river, from one of Portugal's most respected chefs.",
       "lat": 41.141745,
       "lon": -8.643153,
       "photos": []
@@ -179,7 +179,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Baixa (Pal\u00e1cio das Artes)",
-      "d": "Rui Paula's city-centre star \u2014 refined, generous Portuguese cooking in a handsome downtown palace of the arts.",
+      "d": "Rui Paula's city-centre star: refined, generous Portuguese cooking in a handsome downtown palace of the arts.",
       "lat": 41.142569,
       "lon": -8.615039,
       "photos": []
@@ -189,7 +189,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Cedofeita (Palacete Severo)",
-      "d": "Tiago Bonito's star in a restored palacete \u2014 precise, seasonal cooking from one of the north's quiet talents.",
+      "d": "Tiago Bonito's star in a restored palacete: precise, seasonal cooking from one of the north's quiet talents.",
       "lat": 41.150219,
       "lon": -8.61035,
       "photos": []
@@ -199,7 +199,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Cedofeita",
-      "d": "Ricardo Dias Ferreira's fire-led star \u2014 wood, embers and smoke at the centre of an intense, produce-driven menu.",
+      "d": "Ricardo Dias Ferreira's fire-led star: wood, embers and smoke at the centre of an intense, produce-driven menu.",
       "lat": 41.155782,
       "lon": -8.621705,
       "photos": []
@@ -209,7 +209,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Foz do Douro",
-      "d": "Ang\u00e9lica Salvador's star near the coast \u2014 a personal, contemporary kitchen and one of Porto's newer one-star rooms.",
+      "d": "Ang\u00e9lica Salvador's star near the coast: a personal, contemporary kitchen and one of Porto's newer one-star rooms.",
       "lat": 41.15548,
       "lon": -8.676956,
       "photos": []
@@ -219,7 +219,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Baixa (Rua das Flores)",
-      "d": "Nuno Mendes's return to Portugal \u2014 fire, local produce and tradition, in an intimate room off the old town's prettiest street.",
+      "d": "Nuno Mendes's return to Portugal: fire, local produce and tradition, in an intimate room off the old town's prettiest street.",
       "lat": 41.174915,
       "lon": -8.558049,
       "photos": []
@@ -229,7 +229,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Baixa (centre)",
-      "d": "A young, well-travelled team turning out a considered tasting menu at real value \u2014 Michelin's pick for quality without ceremony.",
+      "d": "A young, well-travelled team turning out a considered tasting menu at real value: Michelin's pick for quality without ceremony.",
       "lat": 41.150219,
       "lon": -8.61035,
       "photos": []
@@ -249,7 +249,7 @@
       "cat": "do",
       "tier": "",
       "a": "Ribeira / Vila Nova de Gaia",
-      "d": "The double-deck iron bridge (1881-86) that frames every postcard of Porto, linking the old town to the port lodges across the river. Walk the upper deck alongside the metro for the finest view in the city \u2014 the whole Ribeira falling to the water on one side, Gaia's cellars on the other. Best at dusk when both banks light up.",
+      "d": "The double-deck iron bridge (1881-86) that frames every postcard of Porto, linking the old town to the port lodges across the river. Walk the upper deck alongside the metro for the finest view in the city: the whole Ribeira falling to the water on one side, Gaia's cellars on the other. Best at dusk when both banks light up.",
       "lat": 41.14017,
       "lon": -8.609458,
       "photos": []
@@ -295,11 +295,11 @@
       "photos": []
     },
     {
-      "n": "WOW \u2014 World of Wine cultural district",
+      "n": "WOW: World of Wine cultural district",
       "cat": "do",
       "tier": "",
       "a": "Vila Nova de Gaia",
-      "d": "A whole hilltop quarter of museums, restaurants and shops carved from converted port cellars \u2014 wine and cork museums, a chocolate story, a fashion collection \u2014 with terraces over the river. Genuinely multi-generational: children and teenagers have as much to do as the adults, and there are veg-friendly restaurants throughout.",
+      "d": "A whole hilltop quarter of museums, restaurants and shops carved from converted port cellars: wine and cork museums, a chocolate story, a fashion collection, with terraces over the river. Genuinely multi-generational: children and teenagers have as much to do as the adults, and there are veg-friendly restaurants throughout.",
       "lat": 41.135152,
       "lon": -8.613392,
       "photos": []
@@ -309,7 +309,7 @@
       "cat": "do",
       "tier": "",
       "a": "Vila Nova de Gaia",
-      "d": "The great Portuguese-owned house, tied to the legendary Dona Ant\u00f3nia Ferreira who shaped the Douro in the 19th century. A quieter, more historically rich tasting than the tourist-heavy lodges, with a strong story to tell \u2014 an elegant stop for those who want depth over spectacle.",
+      "d": "The great Portuguese-owned house, tied to the legendary Dona Ant\u00f3nia Ferreira who shaped the Douro in the 19th century. A quieter, more historically rich tasting than the tourist-heavy lodges, with a strong story to tell: an elegant stop for those who want depth over spectacle.",
       "lat": 41.148891,
       "lon": -8.634612,
       "photos": []
@@ -319,7 +319,7 @@
       "cat": "do",
       "tier": "",
       "a": "Cais da Ribeira",
-      "d": "A 50-minute sail in a traditional rabelo boat from the Ribeira quay, gliding under all six bridges that span the river \u2014 Dom Lu\u00eds I, Arr\u00e1bida, Maria Pia, Infante, S\u00e3o Jo\u00e3o and Freixo. For an unhurried version, charter a private boat or yacht for sunset with champagne rather than the shared hourly departures.",
+      "d": "A 50-minute sail in a traditional rabelo boat from the Ribeira quay, gliding under all six bridges that span the river: Dom Lu\u00eds I, Arr\u00e1bida, Maria Pia, Infante, S\u00e3o Jo\u00e3o and Freixo. For an unhurried version, charter a private boat or yacht for sunset with champagne rather than the shared hourly departures.",
       "lat": 41.140546,
       "lon": -8.611842,
       "photos": []
@@ -349,7 +349,7 @@
       "cat": "do",
       "tier": "",
       "a": "Baixa",
-      "d": "A working train station whose entrance hall is lined with some 20,000 blue-and-white azulejo tiles depicting Portugal's history \u2014 battles, royal weddings, the coming of the railway. Free to walk in; ten minutes with a guide turns a photo stop into a lesson in the country's founding myths. Steps from the cathedral and Lello.",
+      "d": "A working train station whose entrance hall is lined with some 20,000 blue-and-white azulejo tiles depicting Portugal's history: battles, royal weddings, the coming of the railway. Free to walk in; ten minutes with a guide turns a photo stop into a lesson in the country's founding myths. Steps from the cathedral and Lello.",
       "lat": 41.150434,
       "lon": -8.614627,
       "photos": []
@@ -379,7 +379,7 @@
       "cat": "do",
       "tier": "",
       "a": "Ribeira",
-      "d": "Behind a plain Gothic shell lies Porto's most astonishing interior \u2014 nearly every surface carved and gilded in some 400kg of Brazilian gold, a riot of baroque wood. The eerie catacombs below add a second, sombre note. Small and easy to overwhelm, so go early; a short, unforgettable stop beside the Bolsa.",
+      "d": "Behind a plain Gothic shell lies Porto's most astonishing interior: nearly every surface carved and gilded in some 400kg of Brazilian gold, a riot of baroque wood. The eerie catacombs below add a second, sombre note. Small and easy to overwhelm, so go early; a short, unforgettable stop beside the Bolsa.",
       "lat": 41.140982,
       "lon": -8.615708,
       "photos": []
@@ -399,7 +399,7 @@
       "cat": "do",
       "tier": "",
       "a": "Santa Catarina",
-      "d": "A small chapel on the corner of the main shopping street entirely sheathed in some 15,000 blue-and-white tiles depicting the lives of St Francis and St Catherine \u2014 a wall of azulejos hiding in plain sight amid the shops. A quick, rewarding detour beside the Bolh\u00e3o market.",
+      "d": "A small chapel on the corner of the main shopping street entirely sheathed in some 15,000 blue-and-white tiles depicting the lives of St Francis and St Catherine: a wall of azulejos hiding in plain sight amid the shops. A quick, rewarding detour beside the Bolh\u00e3o market.",
       "lat": 41.149831,
       "lon": -8.605579,
       "photos": []
@@ -415,11 +415,11 @@
       "photos": []
     },
     {
-      "n": "Serralves \u2014 museum, villa & park",
+      "n": "Serralves: museum, villa & park",
       "cat": "do",
       "tier": "",
       "a": "Foz / Serralves",
-      "d": "Portugal's leading contemporary-art institution: \u00c1lvaro Siza's white minimalist museum, the pink Art Deco Serralves Villa, and 18 hectares of gardens and woodland with a treetop walkway. A cultured half-day for families \u2014 art for the adults, the park and treetop trail for children. Veg-friendly cafe on site.",
+      "d": "Portugal's leading contemporary-art institution: \u00c1lvaro Siza's white minimalist museum, the pink Art Deco Serralves Villa, and 18 hectares of gardens and woodland with a treetop walkway. A cultured half-day for families: art for the adults, the park and treetop trail for children. Veg-friendly cafe on site.",
       "lat": 41.15961,
       "lon": -8.656434,
       "photos": []
@@ -429,7 +429,7 @@
       "cat": "do",
       "tier": "",
       "a": "Boavista",
-      "d": "Rem Koolhaas's bold, faceted concert hall \u2014 a landmark of modern architecture and Porto's finest room for classical, jazz and fado. Take the guided architecture tour by day, or, better, book seats for an evening concert; a striking contrast to the baroque old town.",
+      "d": "Rem Koolhaas's bold, faceted concert hall: a landmark of modern architecture and Porto's finest room for classical, jazz and fado. Take the guided architecture tour by day, or, better, book seats for an evening concert; a striking contrast to the baroque old town.",
       "lat": 41.158903,
       "lon": -8.630775,
       "photos": []
@@ -439,7 +439,7 @@
       "cat": "do",
       "tier": "",
       "a": "Foz do Douro",
-      "d": "Where the river meets the Atlantic \u2014 a genteel seaside district of villas, the Pergola da Foz promenade, lighthouses and rock pools. Drive or walk the coastal road at sunset and dine at one of the smart seafood restaurants; the most relaxed, moneyed corner of Porto, away from the tour crowds.",
+      "d": "Where the river meets the Atlantic: a genteel seaside district of villas, the Pergola da Foz promenade, lighthouses and rock pools. Drive or walk the coastal road at sunset and dine at one of the smart seafood restaurants; the most relaxed, moneyed corner of Porto, away from the tour crowds.",
       "lat": 41.151407,
       "lon": -8.670202,
       "photos": []
@@ -449,7 +449,7 @@
       "cat": "do",
       "tier": "",
       "a": "Baixa / Bolh\u00e3o",
-      "d": "Porto's grand covered market, trading since 1839 and reopened after a careful restoration \u2014 two tiers of iron galleries around an open courtyard, full of flowers, cheese, cured meats, produce and tascas. A vivid sense of daily Porto; go with a guide for tastings and the best stalls, veg options included.",
+      "d": "Porto's grand covered market, trading since 1839 and reopened after a careful restoration: two tiers of iron galleries around an open courtyard, full of flowers, cheese, cured meats, produce and tascas. A vivid sense of daily Porto; go with a guide for tastings and the best stalls, veg options included.",
       "lat": 41.149316,
       "lon": -8.606947,
       "photos": []
@@ -459,7 +459,7 @@
       "cat": "do",
       "tier": "",
       "a": "Santa Catarina",
-      "d": "Porto's main pedestrian shopping street, and on it the Majestic \u2014 a 1921 Belle \u00c9poque cafe of mirrors, carved wood and Art Nouveau flourish, all leather and marble. Take morning coffee and a pastel de nata in its gilded room, then browse the boutiques. Reserve ahead; it is deservedly busy.",
+      "d": "Porto's main pedestrian shopping street, and on it the Majestic: a 1921 Belle \u00c9poque cafe of mirrors, carved wood and Art Nouveau flourish, all leather and marble. Take morning coffee and a pastel de nata in its gilded room, then browse the boutiques. Reserve ahead; it is deservedly busy.",
       "lat": 41.147163,
       "lon": -8.606582,
       "photos": []
@@ -469,7 +469,7 @@
       "cat": "do",
       "tier": "",
       "a": "Miragaia",
-      "d": "The old riverside neighbourhood just west of the Ribeira, quieter and more lived-in \u2014 laundry on balconies, tiny squares, locals about their day. A rewarding wander for those who have seen the headline sights and want the real, unpolished Porto; lovely on a private walking tour at a slow pace.",
+      "d": "The old riverside neighbourhood just west of the Ribeira, quieter and more lived-in: laundry on balconies, tiny squares, locals about their day. A rewarding wander for those who have seen the headline sights and want the real, unpolished Porto; lovely on a private walking tour at a slow pace.",
       "lat": 41.145481,
       "lon": -8.620927,
       "photos": []
@@ -479,7 +479,7 @@
       "cat": "do",
       "tier": "",
       "a": "Vila Nova de Gaia",
-      "d": "A small hillside garden at the Gaia end of the upper bridge deck, and the classic sunset perch \u2014 the Douro turning to gold below and Porto's roofs glowing across the water. Arrive early evening; pair it with a walk down to the port lodges afterwards.",
+      "d": "A small hillside garden at the Gaia end of the upper bridge deck, and the classic sunset perch: the Douro turning to gold below and Porto's roofs glowing across the water. Arrive early evening; pair it with a walk down to the port lodges afterwards.",
       "lat": 41.137613,
       "lon": -8.608727,
       "photos": []
@@ -509,7 +509,7 @@
       "cat": "do",
       "tier": "",
       "a": "Ribeira / Batalha",
-      "d": "A short, steep funicular that spares you the climb between the riverside Ribeira and the upper town near the bridge, with fine views of the Douro on the way up. A charming, practical ride that doubles as a viewpoint \u2014 useful with children or older travellers.",
+      "d": "A short, steep funicular that spares you the climb between the riverside Ribeira and the upper town near the bridge, with fine views of the Douro on the way up. A charming, practical ride that doubles as a viewpoint: useful with children or older travellers.",
       "lat": 41.142205,
       "lon": -8.608746,
       "photos": []
@@ -519,7 +519,7 @@
       "cat": "do",
       "tier": "",
       "a": "Batalha",
-      "d": "A modest Gothic exterior hiding one of the most lavish gilded baroque interiors in Portugal, recently restored to full glory. Far less visited than S\u00e3o Francisco and all the more rewarding for it \u2014 a quiet, dazzling stop near the old city walls.",
+      "d": "A modest Gothic exterior hiding one of the most lavish gilded baroque interiors in Portugal, recently restored to full glory. Far less visited than S\u00e3o Francisco and all the more rewarding for it: a quiet, dazzling stop near the old city walls.",
       "lat": 41.142506,
       "lon": -8.609231,
       "photos": []
@@ -529,7 +529,7 @@
       "cat": "do",
       "tier": "",
       "a": "Alto Douro (day trip)",
-      "d": "The world's oldest demarcated wine region and one of the most beautiful \u2014 river-carved terraces of vines climbing impossibly steep slopes to Pinh\u00e3o. Do it privately: two or three great quintas (Quinta do Crasto, Quinta do Noval, Quinta da Pacheca) for tastings and lunch, and a rabelo cruise from Pinh\u00e3o. Veg lunches on request.",
+      "d": "The world's oldest demarcated wine region and one of the most beautiful: river-carved terraces of vines climbing impossibly steep slopes to Pinh\u00e3o. Do it privately: two or three great quintas (Quinta do Crasto, Quinta do Noval, Quinta da Pacheca) for tastings and lunch, and a rabelo cruise from Pinh\u00e3o. Veg lunches on request.",
       "lat": 41.17144,
       "lon": -8.385361,
       "photos": []
@@ -539,7 +539,7 @@
       "cat": "do",
       "tier": "",
       "a": "Alto Douro (day trip)",
-      "d": "One of the Douro's most storied estates, source of the legendary Nacional vintage ports, with a beautiful terraced vineyard above the Pinh\u00e3o river. A private visit and vertical tasting here is a pilgrimage for serious port lovers \u2014 arrange ahead through the estate.",
+      "d": "One of the Douro's most storied estates, source of the legendary Nacional vintage ports, with a beautiful terraced vineyard above the Pinh\u00e3o river. A private visit and vertical tasting here is a pilgrimage for serious port lovers: arrange ahead through the estate.",
       "lat": 41.137809,
       "lon": -8.612304,
       "photos": []
@@ -559,7 +559,7 @@
       "cat": "do",
       "tier": "",
       "a": "Guimar\u00e3es (day trip)",
-      "d": "The birthplace of Portugal and of its first king, Afonso Henriques \u2014 a beautifully preserved medieval old town of cobbled lanes and squares, crowned by a 10th-century castle and the Dukes' Palace. Under an hour from Porto; an easy, atmospheric half-day, ideally with a private guide for the history.",
+      "d": "The birthplace of Portugal and of its first king, Afonso Henriques: a beautifully preserved medieval old town of cobbled lanes and squares, crowned by a 10th-century castle and the Dukes' Palace. Under an hour from Porto; an easy, atmospheric half-day, ideally with a private guide for the history.",
       "lat": 41.170446,
       "lon": -8.655613,
       "photos": []
@@ -569,7 +569,7 @@
       "cat": "do",
       "tier": "",
       "a": "Braga (day trip)",
-      "d": "Portugal's religious capital, with its ancient cathedral and grand baroque churches, and just outside it the sanctuary of Bom Jesus do Monte \u2014 a theatrical zig-zag baroque stairway of 573 steps climbing to the church, with a water-powered funicular for those who would rather ride. Often paired with Guimar\u00e3es in one day.",
+      "d": "Portugal's religious capital, with its ancient cathedral and grand baroque churches, and just outside it the sanctuary of Bom Jesus do Monte: a theatrical zig-zag baroque stairway of 573 steps climbing to the church, with a water-powered funicular for those who would rather ride. Often paired with Guimar\u00e3es in one day.",
       "lat": 41.531793,
       "lon": -8.619231,
       "photos": []
@@ -579,7 +579,7 @@
       "cat": "do",
       "tier": "",
       "a": "Aveiro (day trip)",
-      "d": "The 'Portuguese Venice', an hour south \u2014 a lagoon town of canals plied by colourful moliceiro boats, Art Nouveau facades and salt pans. Add the striped fishermen's houses of nearby Costa Nova for the photographs. A gentle, pretty contrast to Porto's granite intensity.",
+      "d": "The 'Portuguese Venice', an hour south: a lagoon town of canals plied by colourful moliceiro boats, Art Nouveau facades and salt pans. Add the striped fishermen's houses of nearby Costa Nova for the photographs. A gentle, pretty contrast to Porto's granite intensity.",
       "lat": 40.645232,
       "lon": -8.71311,
       "photos": []
@@ -639,7 +639,7 @@
       "cat": "do",
       "tier": "",
       "a": "Foz do Douro",
-      "d": "Porto's own city beaches strung along the Atlantic promenade at Foz \u2014 Praia da Luz, Praia dos Ingleses \u2014 with beach-club cafes and sunset bars on the rocks. A relaxed afternoon of sea air after the old-town sightseeing; the water is bracing, the terraces are the draw.",
+      "d": "Porto's own city beaches strung along the Atlantic promenade at Foz: Praia da Luz, Praia dos Ingleses, with beach-club cafes and sunset bars on the rocks. A relaxed afternoon of sea air after the old-town sightseeing; the water is bracing, the terraces are the draw.",
       "lat": 41.150846,
       "lon": -8.669108,
       "photos": []
@@ -649,7 +649,7 @@
       "cat": "do",
       "tier": "",
       "a": "Massarelos / Foz",
-      "d": "Line 1's restored wooden tram trundles along the river from the Ribeira out to Foz \u2014 a slow, scenic ride past the water, ending near the Electric Tram Museum in an old power station. A characterful way to reach the coast, and a treat for children and rail enthusiasts.",
+      "d": "Line 1's restored wooden tram trundles along the river from the Ribeira out to Foz: a slow, scenic ride past the water, ending near the Electric Tram Museum in an old power station. A characterful way to reach the coast, and a treat for children and rail enthusiasts.",
       "lat": 41.14007,
       "lon": -8.615297,
       "photos": []
@@ -659,7 +659,7 @@
       "cat": "do",
       "tier": "",
       "a": "Cedofeita / Boavista",
-      "d": "Restored 19th-century merchant mansions and their gardens now open as boutique venues and tea rooms in the elegant Boavista and Cedofeita districts \u2014 a glimpse of the gilded-age Porto that port wealth built. A refined, low-key stop between Serralves and the centre.",
+      "d": "Restored 19th-century merchant mansions and their gardens now open as boutique venues and tea rooms in the elegant Boavista and Cedofeita districts: a glimpse of the gilded-age Porto that port wealth built. A refined, low-key stop between Serralves and the centre.",
       "lat": 41.151497,
       "lon": -8.622817,
       "photos": []
@@ -669,7 +669,7 @@
       "cat": "do",
       "tier": "",
       "a": "Baixa",
-      "d": "Porto takes its coffee and cakes seriously \u2014 from the historic cafes to the wave of specialty roasters around Rua das Flores and Cedofeita. A morning tasting trail of past\u00e9is de nata, francesinha (in a veg version too) and single-origin coffee, easily arranged with a food guide.",
+      "d": "Porto takes its coffee and cakes seriously: from the historic cafes to the wave of specialty roasters around Rua das Flores and Cedofeita. A morning tasting trail of past\u00e9is de nata, francesinha (in a veg version too) and single-origin coffee, easily arranged with a food guide.",
       "lat": 41.150434,
       "lon": -8.614627,
       "photos": []
@@ -679,7 +679,7 @@
       "cat": "do",
       "tier": "",
       "a": "Vit\u00f3ria",
-      "d": "A grassy garden terrace tumbling down the hillside above Miragaia, beloved by locals for picnics and one of the finest sunset spots facing west over the river mouth. Uncrowded and unhurried \u2014 bring a bottle of Douro white and watch the light go.",
+      "d": "A grassy garden terrace tumbling down the hillside above Miragaia, beloved by locals for picnics and one of the finest sunset spots facing west over the river mouth. Uncrowded and unhurried: bring a bottle of Douro white and watch the light go.",
       "lat": 41.14645,
       "lon": -8.614952,
       "photos": []
@@ -689,7 +689,7 @@
       "cat": "party",
       "tier": "Cocktail bars",
       "a": "Cedofeita (Rua da F\u00e1brica)",
-      "d": "Porto's most serious cocktail room \u2014 velvet, chandeliers and a precise, inventive list; the benchmark for a grown-up drink in the city.",
+      "d": "Porto's most serious cocktail room: velvet, chandeliers and a precise, inventive list; the benchmark for a grown-up drink in the city.",
       "lat": 41.147543,
       "lon": -8.613712,
       "photos": []
@@ -699,7 +699,7 @@
       "cat": "party",
       "tier": "Landmark bars",
       "a": "Baixa (Rua Ferreira Borges)",
-      "d": "Sommelier Diogo Amado's wine room near the river \u2014 some fifty Portuguese wines by the glass, poured with real knowledge.",
+      "d": "Sommelier Diogo Amado's wine room near the river: some fifty Portuguese wines by the glass, poured with real knowledge.",
       "lat": 41.142512,
       "lon": -8.615135,
       "photos": []
@@ -709,7 +709,7 @@
       "cat": "party",
       "tier": "Landmark bars",
       "a": "Vila Nova de Gaia (across the Douro)",
-      "d": "An evening tasting at a historic port house \u2014 vintage and tawny flights in the candlelit cellars that made the city famous.",
+      "d": "An evening tasting at a historic port house: vintage and tawny flights in the candlelit cellars that made the city famous.",
       "lat": 41.134079,
       "lon": -8.619739,
       "photos": []
@@ -719,7 +719,7 @@
       "cat": "party",
       "tier": "Rooftops",
       "a": "Baixa (Cordoaria gardens)",
-      "d": "An open-air garden bar under the pines beside the Cl\u00e9rigos tower \u2014 daytime-into-night drinks and DJs in the heart of town.",
+      "d": "An open-air garden bar under the pines beside the Cl\u00e9rigos tower: daytime-into-night drinks and DJs in the heart of town.",
       "lat": 41.146176,
       "lon": -8.614717,
       "photos": []
@@ -729,7 +729,7 @@
       "cat": "party",
       "tier": "Landmark bars",
       "a": "Baixa (Rua das Oliveiras)",
-      "d": "A cult neighbourhood bar in a former haberdashery \u2014 laid-back, characterful and the anchor of Porto's most social drinking street.",
+      "d": "A cult neighbourhood bar in a former haberdashery: laid-back, characterful and the anchor of Porto's most social drinking street.",
       "lat": 41.14892,
       "lon": -8.615045,
       "photos": []
@@ -739,7 +739,7 @@
       "cat": "party",
       "tier": "Rooftops",
       "a": "Vila Nova de Gaia (across the Douro)",
-      "d": "A glass of port or a cocktail on the terrace of Porto's grandest hotel \u2014 the whole old city and river spread out below.",
+      "d": "A glass of port or a cocktail on the terrace of Porto's grandest hotel: the whole old city and river spread out below.",
       "lat": 41.122296,
       "lon": -8.581941,
       "photos": []

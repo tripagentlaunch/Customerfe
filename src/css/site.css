@@ -3194,7 +3194,6 @@ main > section[id], main > header[id]{scroll-margin-top:64px}
 .ta-advisor.ta-advisor-compact:hover .ta-advisor-label,
 .ta-advisor.ta-advisor-compact:focus-visible .ta-advisor-label{ max-width:12em; opacity:1; }
 
-
 /* ===== Footer: key links + "More", columns fold on phones (2026-10-13) ===== */
 .footer .fmore{margin-top:2px}
 .footer .fmore>summary{list-style:none;cursor:pointer;display:inline-flex;align-items:center;gap:6px;font-size:13.5px;color:var(--ink);padding:4px 0}

@@ -9,7 +9,7 @@
       "cat": "stay",
       "tier": "Ultra",
       "a": "Coal Harbour",
-      "d": "Vancouver's defining modern grand hotel \u2014 glass and art above the harbour, faced to the sea and the mountains beyond.",
+      "d": "Vancouver's defining modern grand hotel: glass and art above the harbour, faced to the sea and the mountains beyond.",
       "lat": 49.288099,
       "lon": -123.116883,
       "photos": []
@@ -19,7 +19,7 @@
       "cat": "stay",
       "tier": "Ultra",
       "a": "Downtown",
-      "d": "A restored 1927 landmark of old-Hollywood glamour \u2014 dark wood, a saltwater infinity pool, and the city's most storied address.",
+      "d": "A restored 1927 landmark of old-Hollywood glamour: dark wood, a saltwater infinity pool, and the city's most storied address.",
       "lat": 49.283546,
       "lon": -123.119044,
       "photos": []
@@ -29,7 +29,7 @@
       "cat": "stay",
       "tier": "Grand",
       "a": "Downtown",
-      "d": "The city's tallest tower turned discreet luxury house \u2014 spacious rooms, Asian calm, MO-standard service.",
+      "d": "The city's tallest tower turned discreet luxury house: spacious rooms, Asian calm, MO-standard service.",
       "lat": 49.285731,
       "lon": -123.123802,
       "photos": []
@@ -39,7 +39,7 @@
       "cat": "stay",
       "tier": "Grand",
       "a": "Downtown / Robson Square",
-      "d": "A family-owned European jewel on Robson Square \u2014 antiques, Persian rugs, and Vancouver's most personal service.",
+      "d": "A family-owned European jewel on Robson Square: antiques, Persian rugs, and Vancouver's most personal service.",
       "lat": 49.282367,
       "lon": -123.122777,
       "photos": []
@@ -49,7 +49,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Coal Harbour",
-      "d": "A polished boutique hideaway on the quiet edge of Coal Harbour \u2014 mid-century calm with harbour and mountain light.",
+      "d": "A polished boutique hideaway on the quiet edge of Coal Harbour: mid-century calm with harbour and mountain light.",
       "lat": 49.287582,
       "lon": -123.123165,
       "photos": []
@@ -59,7 +59,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Downtown / Yaletown edge",
-      "d": "A design-led tower rising from the Parq entertainment complex \u2014 warm cedar, mountain views, and a private urban garden.",
+      "d": "A design-led tower rising from the Parq entertainment complex: warm cedar, mountain views, and a private urban garden.",
       "lat": 49.275714,
       "lon": -123.113942,
       "photos": []
@@ -69,7 +69,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Downtown",
-      "d": "The green-roofed 'Castle in the City' since 1939 \u2014 a chateau-style landmark at the heart of downtown.",
+      "d": "The green-roofed 'Castle in the City' since 1939: a chateau-style landmark at the heart of downtown.",
       "lat": 49.28377,
       "lon": -123.120986,
       "photos": []
@@ -79,7 +79,7 @@
       "cat": "stay",
       "tier": "Luxury",
       "a": "Coal Harbour / Canada Place",
-      "d": "Perched over Canada Place under the white sails \u2014 the definitive harbour-front address, ships and seaplanes at the door.",
+      "d": "Perched over Canada Place under the white sails: the definitive harbour-front address, ships and seaplanes at the door.",
       "lat": 49.287897,
       "lon": -123.113048,
       "photos": []
@@ -89,7 +89,7 @@
       "cat": "stay",
       "tier": "Premium",
       "a": "Downtown / Yaletown edge",
-      "d": "The polished flagship of the Parq complex \u2014 contemporary rooms above a rooftop park and a cluster of restaurants.",
+      "d": "The polished flagship of the Parq complex: contemporary rooms above a rooftop park and a cluster of restaurants.",
       "lat": 49.27539,
       "lon": -123.112766,
       "photos": []
@@ -99,7 +99,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Kitsilano",
-      "d": "Playful, precise contemporary cooking in a warm West-Side room \u2014 Vancouver at its most confidently modern.",
+      "d": "Playful, precise contemporary cooking in a warm West-Side room: Vancouver at its most confidently modern.",
       "lat": 49.270826,
       "lon": -123.146765,
       "photos": []
@@ -109,7 +109,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Chinatown",
-      "d": "A tiny, ingredient-obsessed counter in Chinatown \u2014 a personal tasting menu of quiet intensity.",
+      "d": "A tiny, ingredient-obsessed counter in Chinatown: a personal tasting menu of quiet intensity.",
       "lat": 49.280469,
       "lon": -123.096985,
       "photos": []
@@ -119,7 +119,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Mount Pleasant",
-      "d": "Andrea Carlson's seasonal, farm-driven cooking \u2014 Pacific Northwest terroir on a plate.",
+      "d": "Andrea Carlson's seasonal, farm-driven cooking: Pacific Northwest terroir on a plate.",
       "lat": 49.260985,
       "lon": -123.10076,
       "photos": []
@@ -129,7 +129,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Downtown",
-      "d": "The famed Beijing duck house brought to Vancouver \u2014 lacquered Peking duck of real ceremony.",
+      "d": "The famed Beijing duck house brought to Vancouver: lacquered Peking duck of real ceremony.",
       "lat": 49.276691,
       "lon": -123.112006,
       "photos": []
@@ -139,7 +139,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Chinatown",
-      "d": "A moody, 1960s-Tokyo-jazz-bar room serving singular Japanese-Italian cooking \u2014 one of the city's most-loved tables.",
+      "d": "A moody, 1960s-Tokyo-jazz-bar room serving singular Japanese-Italian cooking: one of the city's most-loved tables.",
       "lat": 49.280478,
       "lon": -123.098177,
       "photos": []
@@ -149,7 +149,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Fraser / South Vancouver",
-      "d": "Masayoshi Baba's serene sushi counter \u2014 exacting edomae craft away from the downtown crowds.",
+      "d": "Masayoshi Baba's serene sushi counter: exacting edomae craft away from the downtown crowds.",
       "lat": 49.245815,
       "lon": -123.090009,
       "photos": []
@@ -159,7 +159,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Mount Pleasant",
-      "d": "A theatrical kaiseki-and-sushi experience under lantern light \u2014 dining as performance.",
+      "d": "A theatrical kaiseki-and-sushi experience under lantern light: dining as performance.",
       "lat": 49.280707,
       "lon": -123.124984,
       "photos": []
@@ -169,7 +169,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Mount Pleasant",
-      "d": "The city's most celebrated modern room \u2014 refined, seasonal cooking on buzzing Main Street.",
+      "d": "The city's most celebrated modern room: refined, seasonal cooking on buzzing Main Street.",
       "lat": 49.252847,
       "lon": -123.101173,
       "photos": []
@@ -179,7 +179,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Railtown / Gastown edge",
-      "d": "A Qu\u00e9b\u00e9cois-French bistro dressed as a Montr\u00e9al railway diner \u2014 hearty, exact, deeply comforting.",
+      "d": "A Qu\u00e9b\u00e9cois-French bistro dressed as a Montr\u00e9al railway diner: hearty, exact, deeply comforting.",
       "lat": 49.283265,
       "lon": -123.097896,
       "photos": []
@@ -189,7 +189,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Downtown",
-      "d": "An intimate charcoal-grill counter \u2014 yakitori and sumibiyaki cooked with quiet precision.",
+      "d": "An intimate charcoal-grill counter: yakitori and sumibiyaki cooked with quiet precision.",
       "lat": 49.276691,
       "lon": -123.112006,
       "photos": []
@@ -199,7 +199,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "West End",
-      "d": "A minimalist omakase counter of great purity \u2014 fish flown in and treated with reverence.",
+      "d": "A minimalist omakase counter of great purity: fish flown in and treated with reverence.",
       "lat": 49.287308,
       "lon": -123.128401,
       "photos": []
@@ -209,7 +209,7 @@
       "cat": "eat",
       "tier": "Destination",
       "a": "Downtown",
-      "d": "A Tokyo-trained master's edomae counter \u2014 classical sushi of quiet, uncompromising standard.",
+      "d": "A Tokyo-trained master's edomae counter: classical sushi of quiet, uncompromising standard.",
       "lat": 49.255364,
       "lon": -123.101046,
       "photos": []
@@ -219,7 +219,7 @@
       "cat": "eat",
       "tier": "Fine",
       "a": "Coal Harbour",
-      "d": "Modern Canadian cooking inside the Fairmont Pacific Rim \u2014 polished, seasonal, and beautifully served.",
+      "d": "Modern Canadian cooking inside the Fairmont Pacific Rim: polished, seasonal, and beautifully served.",
       "lat": 49.288286,
       "lon": -123.116669,
       "photos": []
@@ -229,7 +229,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Cambie / South Vancouver",
-      "d": "Vikram Vij's landmark of modern Indian cooking \u2014 the restaurant that reimagined Indian food in Canada.",
+      "d": "Vikram Vij's landmark of modern Indian cooking: the restaurant that reimagined Indian food in Canada.",
       "lat": 49.257562,
       "lon": -123.114845,
       "photos": []
@@ -239,7 +239,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "South Cambie",
-      "d": "Refined, generous Indian cooking that earned Michelin's value nod \u2014 warm and familiar for Indian palates.",
+      "d": "Refined, generous Indian cooking that earned Michelin's value nod: warm and familiar for Indian palates.",
       "lat": 49.268476,
       "lon": -123.16712,
       "photos": []
@@ -249,7 +249,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Main Street",
-      "d": "Beloved, beautifully run modern Vietnamese on Main \u2014 family-owned and full of heart.",
+      "d": "Beloved, beautifully run modern Vietnamese on Main: family-owned and full of heart.",
       "lat": 49.25506,
       "lon": -123.100886,
       "photos": []
@@ -259,7 +259,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Chinatown",
-      "d": "The legendary Cambodian-Vietnamese room \u2014 its butter beef and chicken wings are a Vancouver rite of passage.",
+      "d": "The legendary Cambodian-Vietnamese room: its butter beef and chicken wings are a Vancouver rite of passage.",
       "lat": 49.278351,
       "lon": -123.098202,
       "photos": []
@@ -269,7 +269,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Kitsilano",
-      "d": "Honest farm-to-table cooking on West 4th \u2014 rustic, seasonal and consistently good.",
+      "d": "Honest farm-to-table cooking on West 4th: rustic, seasonal and consistently good.",
       "lat": 49.282927,
       "lon": -123.123798,
       "photos": []
@@ -279,7 +279,7 @@
       "cat": "eat",
       "tier": "Casual",
       "a": "Commercial Drive",
-      "d": "A Vancouver homage to Saigon's famous street-food matriarch \u2014 bright, punchy Vietnamese.",
+      "d": "A Vancouver homage to Saigon's famous street-food matriarch: bright, punchy Vietnamese.",
       "lat": 49.274969,
       "lon": -123.069283,
       "photos": []
@@ -289,7 +289,7 @@
       "cat": "eat",
       "tier": "Smart",
       "a": "Main Street",
-      "d": "An inventive, value-driven room that won Michelin's newest nod on Main \u2014 bold and unexpected.",
+      "d": "An inventive, value-driven room that won Michelin's newest nod on Main: bold and unexpected.",
       "lat": 49.255288,
       "lon": -123.101006,
       "photos": []
@@ -739,7 +739,7 @@
       "cat": "party",
       "tier": "Cocktail bars",
       "a": "Coal Harbour",
-      "d": "The bar inside Vancouver's only Forbes Five-Star hotel \u2014 botanically-driven cocktails and the city's highest-ranked drinking room.",
+      "d": "The bar inside Vancouver's only Forbes Five-Star hotel: botanically-driven cocktails and the city's highest-ranked drinking room.",
       "lat": 49.288286,
       "lon": -123.116669,
       "photos": []
@@ -749,7 +749,7 @@
       "cat": "party",
       "tier": "Cocktail bars",
       "a": "Chinatown",
-      "d": "An apothecary-themed cocktail den inspired by Chinatown's historic herbalists \u2014 dark, aromatic and thrilling.",
+      "d": "An apothecary-themed cocktail den inspired by Chinatown's historic herbalists: dark, aromatic and thrilling.",
       "lat": 49.27962,
       "lon": -123.101326,
       "photos": []
@@ -759,7 +759,7 @@
       "cat": "party",
       "tier": "Cocktail bars",
       "a": "Gastown",
-      "d": "A refined, low-lit cocktail room bringing serious drinks and hospitality to Gastown \u2014 a rising Vancouver name.",
+      "d": "A refined, low-lit cocktail room bringing serious drinks and hospitality to Gastown: a rising Vancouver name.",
       "lat": 49.283499,
       "lon": -123.118883,
       "photos": []
@@ -769,7 +769,7 @@
       "cat": "party",
       "tier": "Late & loud",
       "a": "Chinatown",
-      "d": "A hidden 1920s-Shanghai speakeasy behind a freezer door \u2014 velvet, brass and glamour, and drinks to match.",
+      "d": "A hidden 1920s-Shanghai speakeasy behind a freezer door: velvet, brass and glamour, and drinks to match.",
       "lat": 49.278708,
       "lon": -123.097977,
       "photos": []
@@ -779,7 +779,7 @@
       "cat": "party",
       "tier": "Cocktail bars",
       "a": "West End",
-      "d": "An inventive, intimate cocktail bar with a devoted following \u2014 one of the city's newest 50-Best names.",
+      "d": "An inventive, intimate cocktail bar with a devoted following: one of the city's newest 50-Best names.",
       "lat": 49.280477,
       "lon": -123.098128,
       "photos": []
@@ -789,7 +789,7 @@
       "cat": "party",
       "tier": "Landmark bars",
       "a": "Downtown",
-      "d": "A jewel-box hotel lounge under the restored 1927 ceiling \u2014 the city's most glamorous nightcap.",
+      "d": "A jewel-box hotel lounge under the restored 1927 ceiling: the city's most glamorous nightcap.",
       "lat": 49.276691,
       "lon": -123.112006,
       "photos": []
@@ -799,7 +799,7 @@
       "cat": "party",
       "tier": "Landmark bars",
       "a": "Downtown / Robson Square",
-      "d": "A clubby, wood-panelled piano bar in a Relais & Ch\u00e2teaux house \u2014 Vancouver's most European nightcap.",
+      "d": "A clubby, wood-panelled piano bar in a Relais & Ch\u00e2teaux house: Vancouver's most European nightcap.",
       "lat": 49.282367,
       "lon": -123.122777,
       "photos": []
@@ -809,7 +809,7 @@
       "cat": "party",
       "tier": "Rooftops",
       "a": "Downtown",
-      "d": "A garden terrace above the Parq complex \u2014 fire pits, greenery and open-air drinks over the city.",
+      "d": "A garden terrace above the Parq complex: fire pits, greenery and open-air drinks over the city.",
       "lat": 49.203679,
       "lon": -122.913121,
       "photos": []
