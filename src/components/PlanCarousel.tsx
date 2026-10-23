@@ -17,7 +17,7 @@ export default function PlanCarousel({
   days: CityDay[];
   activeDayIndex: number;
   // The active day's chosen highlight (see lib/planHighlights.ts).
-  highlight: { place: string; text: string | null; photo: string };
+  highlight: { place: string; text: string | null; photo: string | null };
   onSelectDay: (i: number) => void;
   // Optional extra "Events" tab after the last day: a static list, shown in
   // place of the day view. Hidden when there are no events.
@@ -85,7 +85,7 @@ export default function PlanCarousel({
           </div>
 
           <div className={styles.stage} key={activeDayIndex}>
-            <div className={styles.photo} style={{ backgroundImage: `url('${highlight.photo}')` }}>
+            <div className={styles.photo} style={highlight.photo ? { backgroundImage: `url('${highlight.photo}')` } : undefined}>
               <div className={styles.photoOverlay}>
                 <span className={styles.placeName}>{highlight.place}</span>
               </div>
