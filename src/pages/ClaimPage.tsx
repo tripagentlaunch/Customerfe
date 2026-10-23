@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useBareChromeForGuests } from "../lib/bareChrome";
 import { useAuth } from "../lib/auth";
+import { useSignInModal } from "../lib/signInModal";
 import styles from "./claim-page.module.css";
 
 // Ported from claim.html — the 8-digit-code redemption page (distinct from
@@ -46,6 +47,9 @@ export default function ClaimPage() {
 
   const navigate = useNavigate();
   const { refresh, signedIn, loading } = useAuth();
+  const signIn = useSignInModal();
+  const [email, setEmail] = useState("");
+  const [claimedAlready, setClaimedAlready] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
   const welcomeRef = useRef<HTMLDivElement>(null);
 
@@ -95,6 +99,7 @@ export default function ClaimPage() {
     // with spaces) became "KE11". Cleaned first, then trimmed to 8.
     setCode(e.target.value.toUpperCase().replace(/[^A-Z0-9]/g, "").slice(0, 8));
     setAnn(null);
+    setClaimedAlready(false);
   }
 
   // Redeems against the same backend endpoint, same fail-safe contract, as
@@ -114,12 +119,18 @@ export default function ClaimPage() {
     setAnn({ text: "Verifying your code…", kind: "busy" });
 
     const clean = code.toUpperCase().replace(/[^A-Z0-9]/g, "");
+    const claimEmail = email.trim().toLowerCase();
+    if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(claimEmail)) {
+      setBusy(false);
+      setAnn({ text: "Please enter the email your invitation was sent to.", kind: "hint" });
+      return;
+    }
     const [res] = await Promise.all([
       (async (): Promise<RedeemResponse> => {
         // The backend can be asleep or mid-deploy (2026-10-13): the request
         // then fails outright or comes back 502-504, which used to read as
         // a wrong code. Retried a few times; a retry after a redeem that did
-        // go through is safe — a claimed code signs its member back in.
+        // go through finds the code already claimed (the member then signs in with their email).
         const waits = [1500, 4000, 8000];
         for (let attempt = 0; ; attempt++) {
           try {
@@ -127,7 +138,7 @@ export default function ClaimPage() {
               method: "POST",
               credentials: "include",
               headers: { "Content-Type": "application/json" },
-              body: JSON.stringify({}),
+              body: JSON.stringify({ email: claimEmail }),
             });
             if (r.ok) return (await r.json()) as RedeemResponse;
             if (r.status === 429) return { valid: false, error: "too_many" };
@@ -170,7 +181,7 @@ export default function ClaimPage() {
       // the auth state from it while the welcome shows, so the home page
       // opens signed in (full site chrome, profile) instead of as a guest
       // until the next reload.
-      // A code entry is a new 30-day login: restart the site's own clock
+      // A code entry is a new 90-day login: restart the site's own clock
       // too (auth.tsx only stamps when none exists), matching the backend.
       try {
         localStorage.removeItem("ta_session_started_at");
@@ -182,7 +193,10 @@ export default function ClaimPage() {
       return;
     }
     if (res.used === true) {
-      setAnn({ text: "This invitation has already been claimed.", kind: "err" });
+      setAnn({ text: "This code has already been claimed. Please sign in with your email.", kind: "err" });
+      setClaimedAlready(true);
+    } else if (res.error === "wrong_email" || res.error === "email_required") {
+      setAnn({ text: "This code was issued to a different email. Please use the email your invitation was sent to.", kind: "err" });
     } else if (res.error === "email_taken") {
       setAnn({
         text: "That email is already attached to another membership. Please reach us on WhatsApp or write to invite@tripagent.vip.",
@@ -251,6 +265,21 @@ export default function ClaimPage() {
                   aria-invalid={ann?.kind === "err"}
                   aria-describedby="claim-ann"
                 />
+                <label htmlFor="claim-email" className={styles.label}>
+                  Your email
+                </label>
+                <input
+                  className={`ra-input ${styles.codeInput}`}
+                  id="claim-email"
+                  type="email"
+                  autoComplete="email"
+                  placeholder="you@example.com"
+                  value={email}
+                  onChange={(e) => {
+                    setEmail(e.target.value);
+                    setAnn(null);
+                  }}
+                />
                 <div
                   id="claim-ann"
                   className={`${styles.ann}${ann ? ` ${ann.kind === "err" ? styles.annErr : ann.kind === "busy" ? styles.annBusy : styles.annHint}` : ""}`}
@@ -258,6 +287,11 @@ export default function ClaimPage() {
                 >
                   {ann?.text}
                 </div>
+                {claimedAlready && (
+                  <button type="button" className={styles.submitBtn} onClick={() => signIn.open()}>
+                    Sign in
+                  </button>
+                )}
                 <button type="submit" className={styles.submitBtn} disabled={busy}>
                   {busy ? "Verifying…" : "Claim your invitation"}
                   {!busy && (

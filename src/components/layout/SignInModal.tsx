@@ -128,7 +128,11 @@ function SignInModalCard({ message, close }: { message: string | null; close: ()
       close();
     } else {
       setSubmitting(false);
-      setError("That code didn't match. Try again.");
+      setError(
+        r.error === "membership_expired"
+          ? "Your 3-month membership has ended. Please speak to your advisor to renew it."
+          : "That code didn't match. Try again."
+      );
     }
   }
 

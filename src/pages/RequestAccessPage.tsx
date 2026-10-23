@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import { useSignInModal } from "../lib/signInModal";
 import { Link } from "react-router-dom";
 import { useBareChromeForGuests } from "../lib/bareChrome";
 import styles from "./request-access-page.module.css";
@@ -73,6 +74,8 @@ export default function RequestAccessPage() {
   const [submitted, setSubmitted] = useState(false);
   const [errors, setErrors] = useState<FieldErrors>({});
   const [submitErr, setSubmitErr] = useState("");
+  const [alreadyApproved, setAlreadyApproved] = useState(false);
+  const signIn = useSignInModal();
   const [phoneDigits, setPhoneDigits] = useState("");
   const thanksRef = useRef<HTMLDivElement>(null);
 
@@ -127,7 +130,22 @@ export default function RequestAccessPage() {
       });
       succeeded = r.ok;
       if (!r.ok) {
-        const detail = ((await r.json().catch(() => ({}))) as { detail?: string }).detail;
+        const body = (await r.json().catch(() => ({}))) as { detail?: string | { error?: string; retry_at?: string } };
+        const detail = typeof body.detail === "string" ? body.detail : body.detail?.error;
+        if (detail === "already_approved") {
+          setSubmitting(false);
+          setAlreadyApproved(true);
+          return;
+        }
+        if (detail === "denied_recently") {
+          setSubmitting(false);
+          const at = typeof body.detail === "object" && body.detail?.retry_at ? new Date(body.detail.retry_at) : null;
+          const when = at && !Number.isNaN(at.getTime())
+            ? at.toLocaleString([], { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" })
+            : "in 24 hours";
+          setSubmitErr(`Your last request wasn't approved. You can apply again after ${when}, or write to ${DESK_EMAIL}.`);
+          return;
+        }
         const fieldErr: FieldErrors =
           detail === "bad_phone" ? { phone: "Please enter a valid 10-digit mobile number." }
           : detail === "bad_email" ? { email: "Please enter a valid email." }
@@ -230,6 +248,24 @@ export default function RequestAccessPage() {
                 and nothing here creates an account.
               </p>
 
+              {alreadyApproved && (
+                <div className={styles.err} role="alertdialog" aria-live="assertive">
+                  <p>
+                    Your request has already been approved by your advisor. Please sign in with the same email and
+                    phone number.
+                  </p>
+                  <button
+                    type="button"
+                    className={styles.submitBtn}
+                    onClick={() => {
+                      setAlreadyApproved(false);
+                      signIn.open();
+                    }}
+                  >
+                    Sign in
+                  </button>
+                </div>
+              )}
               <form className={styles.form} noValidate onSubmit={handleSubmit}>
                 <div className={styles.field}>
                   <label htmlFor="ra-name">Your name</label>
