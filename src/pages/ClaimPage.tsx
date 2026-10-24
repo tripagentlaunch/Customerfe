@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useBareChromeForGuests } from "../lib/bareChrome";
 import { useAuth } from "../lib/auth";
+import { askForOrigin, canAskForOrigin, declineOrigin } from "../lib/origin";
 import { useSignInModal } from "../lib/signInModal";
 import styles from "./claim-page.module.css";
 
@@ -67,6 +68,26 @@ export default function ClaimPage() {
   const [ann, setAnn] = useState<{ text: string; kind: "hint" | "err" | "busy" } | null>(null);
   const [busy, setBusy] = useState(false);
   const [claimed, setClaimed] = useState(false);
+  // After the code is accepted: "Allow location" / "Don't allow" before the
+  // homepage (2026-10-24, direct request). locating = the browser's own prompt
+  // is up; choiceRef resumes handleSubmit once they have chosen.
+  const [askLocation, setAskLocation] = useState(false);
+  const [locating, setLocating] = useState(false);
+  const choiceRef = useRef<(() => void) | null>(null);
+  const allowRef = useRef<HTMLButtonElement>(null);
+
+  async function onAllowLocation() {
+    if (locating) return;
+    setLocating(true);
+    await askForOrigin(); // resolves when the browser has answered
+    choiceRef.current?.();
+  }
+
+  function onDenyLocation() {
+    if (locating) return;
+    declineOrigin();
+    choiceRef.current?.();
+  }
 
   // Already a signed-in member (e.g. reopened the email link): nothing to
   // claim — straight to the home page. Not while this page's own claim is
@@ -181,7 +202,20 @@ export default function ClaimPage() {
       } catch {
         // storage unavailable
       }
-      await Promise.all([refresh(), new Promise((r) => setTimeout(r, 1400))]);
+      const refreshed = refresh();
+      if (canAskForOrigin()) {
+        // Ask where they are flying from before the homepage; the session
+        // refresh runs meanwhile. A browser with no location support skips this.
+        await new Promise<void>((resolve) => {
+          choiceRef.current = resolve;
+          setAskLocation(true);
+          window.setTimeout(() => allowRef.current?.focus({ preventScroll: true }), 50);
+        });
+        setAskLocation(false);
+        await Promise.all([refreshed, new Promise((r) => setTimeout(r, 700))]);
+      } else {
+        await Promise.all([refreshed, new Promise((r) => setTimeout(r, 1400))]);
+      }
       navigate("/", { replace: true });
       return;
     }
@@ -297,7 +331,23 @@ export default function ClaimPage() {
               <h1 className={styles.heading}>
                 Welcome to <span className={styles.it}>TripAgent.</span>
               </h1>
-              <p className={styles.sub}>Taking you home…</p>
+              {askLocation ? (
+                <>
+                  <p className={styles.sub}>
+                    Allow your location and we&apos;ll show flights from the city nearest you.
+                  </p>
+                  <div className={styles.locChoices}>
+                    <button ref={allowRef} type="button" className={styles.submitBtn} disabled={locating} onClick={onAllowLocation}>
+                      {locating ? "Waiting for your answer…" : "Allow location"}
+                    </button>
+                    <button type="button" className={styles.ghostBtn} disabled={locating} onClick={onDenyLocation}>
+                      Don&apos;t allow
+                    </button>
+                  </div>
+                </>
+              ) : (
+                <p className={styles.sub}>Taking you home…</p>
+              )}
             </div>
           )}
         </div>
