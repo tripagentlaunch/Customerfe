@@ -75,27 +75,66 @@ export function nearestOrigin(lat: number, lng: number): string | null {
   return bestKm <= MAX_ORIGIN_KM ? best : null;
 }
 
-// Asks at most once per browser session, and never once an origin is saved.
+// The browser's own location answer -> the nearest origin, saved. Resolves
+// once the browser has answered (allowed, denied or timed out); never rejects.
+function locateOrigin(overwrite: boolean): Promise<void> {
+  return new Promise((resolve) => {
+    if (typeof navigator === "undefined" || !navigator.geolocation) return resolve();
+    navigator.geolocation.getCurrentPosition(
+      (pos) => {
+        // Unless they asked for it just now, a choice made while we waited stands.
+        if (overwrite || !readProfile().origin) {
+          const code = nearestOrigin(pos.coords.latitude, pos.coords.longitude);
+          if (code) saveOrigin(code);
+        }
+        resolve();
+      },
+      () => resolve(), // denied or unavailable: the default stays
+      { timeout: 10000, maximumAge: 3600000 }
+    );
+  });
+}
+
+// "Don't allow" on the claim page's location step is remembered: nothing
+// (this auto-fill included) asks again.
+const DECLINED_KEY = "ta_origin_geo_declined";
+
+export function canAskForOrigin(): boolean {
+  return typeof navigator !== "undefined" && !!navigator.geolocation;
+}
+
+/** The claim page's "Allow location": the browser's own prompt appears now. */
+export function askForOrigin(): Promise<void> {
+  try {
+    localStorage.removeItem(DECLINED_KEY);
+  } catch {
+    // storage unavailable
+  }
+  return locateOrigin(true);
+}
+
+/** The claim page's "Don't allow". */
+export function declineOrigin(): void {
+  try {
+    localStorage.setItem(DECLINED_KEY, "1");
+  } catch {
+    // storage unavailable: it just isn't remembered
+  }
+}
+
+// Asks at most once per browser session, never once an origin is saved, and
+// never after a "Don't allow".
 export function detectOrigin(): void {
-  if (typeof navigator === "undefined" || !navigator.geolocation) return;
+  if (!canAskForOrigin()) return;
   if (readProfile().origin) return;
   try {
+    if (localStorage.getItem(DECLINED_KEY)) return;
     if (sessionStorage.getItem(ASKED_KEY)) return;
     sessionStorage.setItem(ASKED_KEY, "1");
   } catch {
     // storage unavailable: ask on this page only
   }
-  navigator.geolocation.getCurrentPosition(
-    (pos) => {
-      if (readProfile().origin) return; // they chose one while we waited
-      const code = nearestOrigin(pos.coords.latitude, pos.coords.longitude);
-      if (code) saveOrigin(code);
-    },
-    () => {
-      // denied or unavailable: the default stays
-    },
-    { timeout: 10000, maximumAge: 3600000 }
-  );
+  void locateOrigin(false);
 }
 
 // [origin, setOrigin] — every component using it updates together, and

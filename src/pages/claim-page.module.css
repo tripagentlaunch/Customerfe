@@ -188,6 +188,42 @@
   transition: background-color 0.2s ease, transform 0.15s ease;
 }
 
+/* Second choice beside .submitBtn (the location step's "Don't allow"). */
+.ghostBtn {
+  height: 54px;
+  border: 1px solid rgba(90, 35, 48, 0.35);
+  border-radius: 999px !important;
+  background: transparent;
+  color: #5a2330;
+  font-family: var(--sans);
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.ghostBtn:hover:not(:disabled) {
+  background: rgba(90, 35, 48, 0.07);
+  border-color: #5a2330;
+}
+
+.ghostBtn:disabled {
+  opacity: 0.55;
+  cursor: default;
+}
+
+.ghostBtn:focus-visible {
+  outline: 2px solid #5a2330;
+  outline-offset: 3px;
+}
+
+.locChoices {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 8px;
+}
+
 .submitBtn:hover:not(:disabled) {
   background: #4a1c27;
 }
