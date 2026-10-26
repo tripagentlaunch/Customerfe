@@ -58,6 +58,12 @@ const CLUSTER_RADIUS_PX = 84;
 // 4-5 clicks to reach a place. Phones keep the original behaviour.
 const DESKTOP_CLUSTER_RADIUS_PX = 56;
 const MIN_CLUSTER_ZOOM_STEP = 2;
+// The zoom a city map opens at, and the lowest a fit to the city may end at: below
+// it the map shows a region, not the city (a fit made before the box had a size).
+const CITY_ZOOM = 11;
+const MIN_CITY_FIT_ZOOM = 10;
+const MIN_FIT_BOX_PX = 100;      // a map box smaller than this has no size to fit to yet
+const MAX_FIT_WAIT_FRAMES = 60;  // ~1s of frames, then fit anyway
 const NO_CLUSTER_ZOOM = 14;
 const OVERLAP_PX = 30;
 
@@ -393,7 +399,7 @@ export default function CityMap({
         <GoogleMap
           mapContainerStyle={MAP_CONTAINER_STYLE}
           center={center}
-          zoom={11}
+          zoom={CITY_ZOOM}
           onLoad={(m) => {
             setMap(m);
             setZoom(m.getZoom() ?? 11);
@@ -417,7 +423,19 @@ export default function CityMap({
             // The small map frames the closest 85% of in-city places, and
             // panning/zooming out stops at the city's own area (every venue
             // within reach, day trips included, plus a margin).
-            requestAnimationFrame(() => {
+            //
+            // The phone's map box is flexed to what is left of the first screen, so
+            // its size can still be settling a frame later. fitBounds on a box with
+            // no real size comes out at country level, so the fit waits for the box
+            // to have a size, and a fit that still lands zoomed out past the city
+            // falls back to the same city zoom the desktop map opens at.
+            let waitedFrames = 0;
+            const fitCity = () => {
+              const div = m.getDiv();
+              if ((div.clientHeight < MIN_FIT_BOX_PX || div.clientWidth < MIN_FIT_BOX_PX) && waitedFrames++ < MAX_FIT_WAIT_FRAMES) {
+                requestAnimationFrame(fitCity);
+                return;
+              }
               const core = cityCore(visibleVenues, center, isMobile ? 0.85 : 1);
               if (core.length > 1) {
                 const bounds = new google.maps.LatLngBounds();
@@ -433,19 +451,26 @@ export default function CityMap({
                 const ne = area.getNorthEast();
                 const sw = area.getSouthWest();
                 google.maps.event.addListenerOnce(m, "idle", () => {
-                  fitZoomRef.current = m.getZoom() ?? null;
-                  setZoom(m.getZoom() ?? 11);
+                  let fitted = m.getZoom() ?? CITY_ZOOM;
+                  if (fitted < MIN_CITY_FIT_ZOOM) {
+                    m.setCenter(center);
+                    m.setZoom(CITY_ZOOM);
+                    fitted = CITY_ZOOM;
+                  }
+                  fitZoomRef.current = fitted;
+                  setZoom(fitted);
                   m.setOptions({
                     restriction: {
                       latLngBounds: { north: ne.lat() + padLat, south: sw.lat() - padLat, east: ne.lng() + padLng, west: sw.lng() - padLng },
                       strictBounds: false,
                     },
-                    minZoom: Math.max(3, (m.getZoom() ?? 11) - (isMobile ? 1 : 2)),
+                    minZoom: Math.max(3, fitted - (isMobile ? 1 : 2)),
                   });
                 });
               }
               fireReadyOnce();
-            });
+            };
+            requestAnimationFrame(fitCity);
           }}
           onClick={() => {
             setSelected(null);
