@@ -7,6 +7,7 @@ import { clusterPoints } from "../lib/clusterPoints";
 import { catColor, catIcon } from "./cityMapCategories";
 import styles from "./MockCityMap.module.css";
 import { useIsMobile } from "../hooks/useIsMobile";
+import { siteHeaderBottom, useEdgePan } from "../hooks/useEdgePan";
 
 // Placeholder for when there's no Google Maps key yet: venues plotted by
 // lat/lon on a plain projected canvas (linear min/max normalisation across
@@ -149,9 +150,10 @@ export default function MockCityMap({
     return clampView({ s, tx: size.w / 2 - cx * s, ty: size.h / 2 - cy * s }, size.w, size.h);
   }
 
-  // Drag-to-pan for mouse/pen; touch is left to scroll the page.
+  // Drag-to-pan (mouse, pen and finger). A finger only pans once zoomed in (see
+  // touchAction below); at the fit a swipe scrolls the page instead.
   function onPointerDown(e: React.PointerEvent) {
-    if (e.pointerType === "touch" || (e.target as HTMLElement).closest("[data-map-ctl]")) return;
+    if ((e.target as HTMLElement).closest("[data-map-ctl]")) return;
     dragRef.current = { x: e.clientX, y: e.clientY, tx: view.tx, ty: view.ty, moved: false, id: e.pointerId };
   }
   function onPointerMove(e: React.PointerEvent) {
@@ -170,11 +172,22 @@ export default function MockCityMap({
     dragRef.current = null;
   }
 
+  // Mouse near an edge slides the view that way once zoomed in (see useEdgePan).
+  useEdgePan(
+    containerRef,
+    (dx, dy) => setView((cur) => clampView({ s: cur.s, tx: cur.tx - dx, ty: cur.ty - dy }, size.w, size.h)),
+    !selected && view.s > 1,
+    siteHeaderBottom
+  );
+
   const selPos = selected && size.w ? screen(selected) : null;
 
   return (
     <div
       className={styles.plain}
+      // At the fit there is nothing to pan, so vertical swipes scroll the page; zoomed
+      // in, the map takes every gesture until the visitor zooms back out.
+      style={{ touchAction: view.s > 1 ? "none" : "pan-y" }}
       ref={containerRef}
       onPointerDown={onPointerDown}
       onPointerMove={onPointerMove}
