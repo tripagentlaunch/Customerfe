@@ -146,7 +146,14 @@ export function useEngineGuide(slug: string | undefined, base: CityData["guide"]
 
     const url = `${SUPABASE_URL}/rest/v1/sourcing_city_guide?select=guide&slug=eq.${encodeURIComponent(slug)}&limit=1`;
     fetch(url, {
-      headers: { apikey: SUPABASE_ANON_KEY, Authorization: `Bearer ${SUPABASE_ANON_KEY}` },
+      headers: {
+        apikey: SUPABASE_ANON_KEY,
+        Authorization: `Bearer ${SUPABASE_ANON_KEY}`,
+        // Name the schema: without it PostgREST uses the project's first exposed schema,
+        // which on the dev project is graphql_public ("Could not find the table
+        // 'graphql_public.sourcing_city_guide'"), so the guide never loaded there.
+        "Accept-Profile": "public",
+      },
       signal: controller.signal,
     })
       .then((r) => (r.ok ? r.json() : null))
