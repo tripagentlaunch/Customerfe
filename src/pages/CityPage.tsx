@@ -464,7 +464,14 @@ function GuidePanel({
       const page = tierPage[i] ?? 0;
       if (tier.items.slice(page * pageSize, (page + 1) * pageSize).length < pageSize) return;
       const h = el.offsetHeight;
-      if (h > 0) setListMinH((prev) => (prev[i] && prev[i] >= h ? prev : { ...prev, [i]: h }));
+      // Queue an update only when the measured height really is taller than the one we
+      // already hold. Calling setListMinH on every pass, even with an updater that hands
+      // back the same object, kept React's update queue non-empty, so this effect (which
+      // depends on listMinH) re-ran forever: "Maximum update depth exceeded", and the
+      // city page showed "This page didn't open" (Dubai, Paris, Bali).
+      if (h > 0 && !(listMinH[i] && listMinH[i] >= h)) {
+        setListMinH((prev) => (prev[i] && prev[i] >= h ? prev : { ...prev, [i]: h }));
+      }
     });
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [tierPage, active, selectedTier, listMinH]);
