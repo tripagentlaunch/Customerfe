@@ -236,7 +236,10 @@ export default function HeroCarousel({ slides }: { slides: HeroSlide[] }) {
                 }
                 if (ci === 1) {
                   return (
-                    <SecondaryInverseButton to={cta.href} key={ci}>
+                    // Desktop label is just "Ask Tara"; the aria-label keeps it a
+                    // Tara CTA, so the click opens the Tara chatbot signed in with
+                    // the member's invite code (lib/taraChat.ts), as before.
+                    <SecondaryInverseButton to={cta.href} key={ci} ariaLabel={isMobile ? undefined : "Ask Tara AI"}>
                       {isMobile ? withTaraAI(cta.label) : cta.label}
                     </SecondaryInverseButton>
                   );

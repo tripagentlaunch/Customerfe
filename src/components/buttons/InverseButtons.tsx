@@ -30,18 +30,22 @@ interface InverseButtonProps {
   // link opening in a new tab) — ignored for internal `<Link>`s.
   target?: string;
   rel?: string;
+  // Accessible name when it should differ from the visible label. Also how a
+  // shortened "Ask Tara" stays recognised as a Tara CTA (lib/taraChat.ts
+  // matches "Tara AI" in the label or aria-label).
+  ariaLabel?: string;
 }
 
-function InverseLink({ to, children, className, target, rel }: InverseButtonProps) {
+function InverseLink({ to, children, className, target, rel, ariaLabel }: InverseButtonProps) {
   if (isExternalOrAnchor(to)) {
     return (
-      <a className={className} href={to} target={target} rel={rel}>
+      <a className={className} href={to} target={target} rel={rel} aria-label={ariaLabel}>
         {children}
       </a>
     );
   }
   return (
-    <Link className={className} to={toRoute(to)}>
+    <Link className={className} to={toRoute(to)} aria-label={ariaLabel}>
       {children}
     </Link>
   );
@@ -66,12 +70,13 @@ export function PrimaryInverseButton({ to, children, className, target, rel }: I
 // Secondary: ghost outline, no fill override of its own — relies on the
 // shared `.btn-ghost.on-dark`'s own fill-on-hover; only adds the
 // label-scale hover on top of it. Template: "Ask Your Advisor".
-export function SecondaryInverseButton({ to, children, className, target, rel }: InverseButtonProps) {
+export function SecondaryInverseButton({ to, children, className, target, rel, ariaLabel }: InverseButtonProps) {
   return (
     <InverseLink
       to={to}
       target={target}
       rel={rel}
+      ariaLabel={ariaLabel}
       className={`btn btn-ghost on-dark ${styles.secondary} ${className ?? ""}`.trim()}
     >
       <span className={styles.label}>{children}</span>
