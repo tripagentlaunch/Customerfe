@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useBareChromeForGuests } from "../lib/bareChrome";
 import { useAuth } from "../lib/auth";
-import { askForOrigin, canAskForOrigin, declineOrigin } from "../lib/origin";
+import { askForOrigin, canAskForOrigin, declineOrigin, type Position } from "../lib/origin";
 import { useSignInModal } from "../lib/signInModal";
 import styles from "./claim-page.module.css";
 
@@ -23,6 +23,8 @@ type RedeemResponse = {
   months?: number;
   memberId?: string | null;
   advisorName?: string | null;
+  // Super key only: the id of this entry, which the location answer is filed against.
+  entryId?: string | null;
 };
 
 // Cinematic full-screen background video, muted/looping/autoplaying behind
@@ -75,17 +77,38 @@ export default function ClaimPage() {
   const [locating, setLocating] = useState(false);
   const choiceRef = useRef<(() => void) | null>(null);
   const allowRef = useRef<HTMLButtonElement>(null);
+  const entryIdRef = useRef<string | null>(null);
+
+  // A super key entry also reports the location answer, so the admin console can
+  // show where the visitor came in from. Fire and forget: the visitor never waits on it.
+  function reportLocation(code: string, pos: Position | null) {
+    const entryId = entryIdRef.current;
+    if (!entryId) return;
+    try {
+      void fetch(`/invite/${encodeURIComponent(code)}/location`, {
+        method: "POST",
+        credentials: "include",
+        keepalive: true,
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(pos ? { entryId, allowed: true, lat: pos.lat, lng: pos.lng } : { entryId, allowed: false }),
+      }).catch(() => {});
+    } catch {
+      // not reported: the visitor is unaffected
+    }
+  }
 
   async function onAllowLocation() {
     if (locating) return;
     setLocating(true);
-    await askForOrigin(); // resolves when the browser has answered
+    const pos = await askForOrigin(); // resolves when the browser has answered
+    reportLocation(code.toUpperCase().replace(/[^A-Z0-9]/g, ""), pos);
     choiceRef.current?.();
   }
 
   function onDenyLocation() {
     if (locating) return;
     declineOrigin();
+    reportLocation(code.toUpperCase().replace(/[^A-Z0-9]/g, ""), null);
     choiceRef.current?.();
   }
 
@@ -185,6 +208,7 @@ export default function ClaimPage() {
       //   }
       // }
       setAnn(null);
+      entryIdRef.current = res.entryId || null;
       setClaimed(true);
       try {
         welcomeRef.current?.focus({ preventScroll: true });

@@ -75,11 +75,14 @@ export function nearestOrigin(lat: number, lng: number): string | null {
   return bestKm <= MAX_ORIGIN_KM ? best : null;
 }
 
+export type Position = { lat: number; lng: number };
+
 // The browser's own location answer -> the nearest origin, saved. Resolves
-// once the browser has answered (allowed, denied or timed out); never rejects.
-function locateOrigin(overwrite: boolean): Promise<void> {
+// once the browser has answered (allowed, denied or timed out) with the
+// position when it was given, else null; never rejects.
+function locateOrigin(overwrite: boolean): Promise<Position | null> {
   return new Promise((resolve) => {
-    if (typeof navigator === "undefined" || !navigator.geolocation) return resolve();
+    if (typeof navigator === "undefined" || !navigator.geolocation) return resolve(null);
     navigator.geolocation.getCurrentPosition(
       (pos) => {
         // Unless they asked for it just now, a choice made while we waited stands.
@@ -87,9 +90,9 @@ function locateOrigin(overwrite: boolean): Promise<void> {
           const code = nearestOrigin(pos.coords.latitude, pos.coords.longitude);
           if (code) saveOrigin(code);
         }
-        resolve();
+        resolve({ lat: pos.coords.latitude, lng: pos.coords.longitude });
       },
-      () => resolve(), // denied or unavailable: the default stays
+      () => resolve(null), // denied or unavailable: the default stays
       { timeout: 10000, maximumAge: 3600000 }
     );
   });
@@ -103,8 +106,9 @@ export function canAskForOrigin(): boolean {
   return typeof navigator !== "undefined" && !!navigator.geolocation;
 }
 
-/** The claim page's "Allow location": the browser's own prompt appears now. */
-export function askForOrigin(): Promise<void> {
+/** The claim page's "Allow location": the browser's own prompt appears now.
+ *  Resolves with the position, or null when it was denied or unavailable. */
+export function askForOrigin(): Promise<Position | null> {
   try {
     localStorage.removeItem(DECLINED_KEY);
   } catch {
