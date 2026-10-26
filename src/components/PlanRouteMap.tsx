@@ -42,6 +42,19 @@ const INK_SOFT = "#3e3a35";
 const SIGNATURE = "#6e2a38";
 // Generous margin around the route so it sits zoomed out, pins close together.
 const FIT_PADDING_PX = 160;
+// That margin only fits a big map. On a phone the map box is ~300px tall: 160px on
+// every side leaves no room for the route and fitBounds answers with a country-wide
+// view. A box too small for it gets a margin in proportion to its smaller side.
+const MIN_ROUTE_ROOM_PX = 200;
+const SMALL_BOX_PADDING_SHARE = 0.18;
+const MIN_FIT_PADDING_PX = 24;
+
+function fitPadding(map: google.maps.Map): number {
+  const div = map.getDiv();
+  const side = Math.min(div.clientWidth, div.clientHeight);
+  if (side >= FIT_PADDING_PX * 2 + MIN_ROUTE_ROOM_PX) return FIT_PADDING_PX;
+  return Math.max(MIN_FIT_PADDING_PX, Math.round(side * SMALL_BOX_PADDING_SHARE));
+}
 
 // The route is shown whole and still: every day's highlight is a pin, joined
 // Day 1 -> Day N in order (an open path — Day N is NOT joined back to Day 1).
@@ -65,7 +78,7 @@ function RealPlanRouteMap({ stops, activeIndex, mapsKey }: { stops: PlanStop[]; 
     if (!map || stops.length === 0) return;
     const bounds = new google.maps.LatLngBounds();
     stops.forEach((s) => bounds.extend({ lat: s.lat, lng: s.lon }));
-    map.fitBounds(bounds, FIT_PADDING_PX);
+    map.fitBounds(bounds, fitPadding(map));
   }
 
   // Re-frame only when the set of stops changes (e.g. a live lookup resolves
