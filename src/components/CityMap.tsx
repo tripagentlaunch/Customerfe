@@ -13,6 +13,7 @@ import { useLiveVenuePhoto } from "../hooks/useLiveVenuePhoto";
 import { useRemoteConfig } from "../hooks/useRemoteConfig";
 import { BUILD_MAPS_KEY } from "../lib/remoteConfig";
 import { useIsMobile } from "../hooks/useIsMobile";
+import { siteHeaderBottom, useEdgePan } from "../hooks/useEdgePan";
 
 const VENUE_COORD_LOADERS = import.meta.glob("../data/venue-coords/*.json") as Record<
   string,
@@ -115,6 +116,21 @@ function cityCore(venues: CityMapVenue[], center: { lat: number; lng: number }, 
   return sorted.slice(0, Math.max(2, Math.ceil(sorted.length * share)));
 }
 
+/** Moves the view by (dx, dy) screen px at once. map.panBy animates every call
+ *  when the step is small, which stutters when called each frame. */
+function stepMap(map: google.maps.Map, dx: number, dy: number) {
+  const bounds = map.getBounds();
+  const center = map.getCenter();
+  const div = map.getDiv();
+  if (!bounds || !center || !div || !div.clientWidth || !div.clientHeight) return;
+  const ne = bounds.getNorthEast();
+  const sw = bounds.getSouthWest();
+  map.setCenter({
+    lat: center.lat() - dy * ((ne.lat() - sw.lat()) / div.clientHeight),
+    lng: center.lng() + dx * ((ne.lng() - sw.lng()) / div.clientWidth),
+  });
+}
+
 const MAP_CONTAINER_STYLE = { width: "100%", height: "100%" };
 const PIN_BUTTON_STYLE: CSSProperties = { transform: "translate(-50%, -50%)", background: "none", border: "none", padding: 0, cursor: "pointer" };
 
@@ -163,7 +179,12 @@ export default function CityMap({
       : selected;
   const [map, setMap] = useState<google.maps.Map | null>(null);
   const [zoom, setZoom] = useState(11);
+  // The zoom the city opened at. On a phone, at that zoom one finger scrolls the
+  // page (two fingers move the map); zoomed in past it the map takes one finger too.
+  const fitZoomRef = useRef<number | null>(null);
   const isMobile = useIsMobile();
+  // Side-panel layout (the CityPage's own "stacked" breakpoint is 900px).
+  const stacked = useIsMobile(900);
   const clusterRadius = isMobile ? CLUSTER_RADIUS_PX : DESKTOP_CLUSTER_RADIUS_PX;
 
   // The count badge whose card is open: its places and where it sits.
@@ -199,6 +220,10 @@ export default function CityMap({
 
   const canvasRef = useRef<HTMLDivElement | null>(null);
   const triggerElRef = useRef<HTMLElement | null>(null);
+
+  // Mouse near an edge slides the map that way (see useEdgePan). Paused while
+  // a place card or a badge's list is open, so nothing moves under the reader.
+  useEdgePan(canvasRef, (dx, dy) => map && stepMap(map, dx, dy), !!map && !selected && !openGroup, siteHeaderBottom);
 
   // Fires onReady exactly once per slug for every terminal state: no venue
   // data for this city, a hard script load error, or (further down) once the
@@ -408,6 +433,8 @@ export default function CityMap({
                 const ne = area.getNorthEast();
                 const sw = area.getSouthWest();
                 google.maps.event.addListenerOnce(m, "idle", () => {
+                  fitZoomRef.current = m.getZoom() ?? null;
+                  setZoom(m.getZoom() ?? 11);
                   m.setOptions({
                     restriction: {
                       latLngBounds: { north: ne.lat() + padLat, south: sw.lat() - padLat, east: ne.lng() + padLng, west: sw.lng() - padLng },
@@ -434,7 +461,17 @@ export default function CityMap({
             styles: MAP_STYLES,
             disableDefaultUI: true,
             zoomControl: true,
+            ...(stacked ? { gestureHandling: fitZoomRef.current !== null && zoom > fitZoomRef.current ? "greedy" : "cooperative" } : {}),
             fullscreenControl: true,
+            // Side panel: the top-right corner sits under the site header and the
+            // bottom-right under the Tara chat button, so both controls sit halfway
+            // down the right edge.
+            ...(stacked
+              ? {}
+              : {
+                  zoomControlOptions: { position: google.maps.ControlPosition.RIGHT_CENTER },
+                  fullscreenControlOptions: { position: google.maps.ControlPosition.RIGHT_CENTER },
+                }),
             clickableIcons: false,
           }}
         >

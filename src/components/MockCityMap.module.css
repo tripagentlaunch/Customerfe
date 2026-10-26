@@ -61,3 +61,28 @@
   color: var(--stone);
   cursor: default;
 }
+
+/* Edge pan (useEdgePan): a soft glow on the edge(s) the map is sliding towards. */
+.plain::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  pointer-events: none;
+  background:
+    linear-gradient(to right, rgba(110, 42, 56, var(--el, 0)), transparent) left / 84px 100% no-repeat,
+    linear-gradient(to left, rgba(110, 42, 56, var(--er, 0)), transparent) right / 84px 100% no-repeat,
+    linear-gradient(to bottom, rgba(110, 42, 56, var(--et, 0)), transparent) top / 100% 84px no-repeat,
+    linear-gradient(to top, rgba(110, 42, 56, var(--eb, 0)), transparent) bottom / 100% 84px no-repeat;
+}
+.plain[data-edge-pan~="left"] { --el: 0.14; }
+.plain[data-edge-pan~="right"] { --er: 0.14; }
+.plain[data-edge-pan~="top"] { --et: 0.14; }
+.plain[data-edge-pan~="bottom"] { --eb: 0.14; }
+
+/* Desktop: the map runs flush to the window's edges, with the site header (and the
+   strip that reveals it) over the top corner and the Tara chat button over the
+   bottom one, so the buttons sit halfway down the right edge. */
+@media (min-width: 901px) {
+  .zoomCtl { top: 50%; transform: translateY(-50%); }
+}
