@@ -48,13 +48,14 @@ const VIDEO_FALLBACK_SRC = "/images/tripagent-request-access-fallback.jpg";
 
 const DESK_EMAIL = "invite@tripagent.vip";
 
-// Desktop (2026-10-26, direct request): the "Invitation to a Luxury Journey"
-// mock — light sunset-lounge photo on the right fading into the sky, logo top
-// left, dark serif headline, compact cream card with field icons, and the new
-// copy ("…starts with a conversation."). Photo is the clean right-hand part
-// of the supplied mock (its left half has the mock's own text baked in).
+// Desktop (2026-10-26, direct request): the "Invitation to a Sunset Escape"
+// mock — sunset-terrace photo, logo top left, dark serif headline, compact
+// cream card with field icons, and the new copy ("…starts with a
+// conversation."). One screen, no scrolling. The background
+// (/images/request-access-desktop.jpg, set in the CSS) is the clean right-hand
+// part of the supplied mock, widened to the left by continuing each row's own
+// colour, so the sky, horizon and sea run across behind the copy.
 // Phones keep the original page, copy and video untouched.
-const DESK_PHOTO = "/images/request-access-desktop.jpg";
 const ICON = {
   name: (
     <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -247,7 +248,6 @@ export default function RequestAccessPage() {
     <section className={`${styles.raRoot}${desk ? ` ${styles.desk}` : ""}`}>
       {desk ? (
         <>
-          <img className={styles.deskPhoto} src={DESK_PHOTO} alt="" aria-hidden="true" />
           <div className={styles.brand}>
             {BRAND_MARK}
             <span>TripAgent</span>

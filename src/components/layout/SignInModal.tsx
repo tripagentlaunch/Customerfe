@@ -310,7 +310,7 @@ function SignInModalCard({ message, close }: { message: string | null; close: ()
               {submitting ? "Sending…" : "Send my code →"}
             </button>
             <div className="ta-si-alt">
-              No invitation yet? <Link to="/invitation" onClick={close}>Request one</Link>.
+              No invitation yet? <Link to="/request-access" onClick={close}>Request one</Link>.
             </div>
           </form>
         ) : (
