@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { useSignInModal } from "../lib/signInModal";
 import { Link } from "react-router-dom";
 import { useBareChromeForGuests } from "../lib/bareChrome";
+import { useIsMobile } from "../hooks/useIsMobile";
 import styles from "./request-access-page.module.css";
 
 // The public "Request Access" form — a stranger applying has no session.
@@ -47,6 +48,49 @@ const VIDEO_FALLBACK_SRC = "/images/tripagent-request-access-fallback.jpg";
 
 const DESK_EMAIL = "invite@tripagent.vip";
 
+// Desktop (2026-10-26, direct request): the "Invitation to a Sunset Escape"
+// mock — sunset-terrace photo, logo top left, dark serif headline, compact
+// cream card with field icons, and the new copy ("…starts with a
+// conversation."). One screen, no scrolling. The background
+// (/images/request-access-desktop.jpg, set in the CSS) is the clean right-hand
+// part of the supplied mock, widened to the left by continuing each row's own
+// colour, so the sky, horizon and sea run across behind the copy.
+// Phones keep the original page, copy and video untouched.
+const ICON = {
+  name: (
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <circle cx="12" cy="8" r="4" />
+      <path d="M4 20c1.6-3.6 4.6-5.4 8-5.4s6.4 1.8 8 5.4" />
+    </svg>
+  ),
+  email: (
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <rect x="3" y="5" width="18" height="14" rx="2" />
+      <path d="M3.5 6.5 12 13l8.5-6.5" />
+    </svg>
+  ),
+  phone: (
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M5 4h3.5l1.7 4.3-2.2 1.4a11 11 0 0 0 6.3 6.3l1.4-2.2L20 15.5V19a1 1 0 0 1-1 1A16 16 0 0 1 4 5a1 1 0 0 1 1-1z" />
+    </svg>
+  ),
+  reason: (
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M4 12a8 7 0 1 1 3.6 5.9L4 19l1.1-3.3A6.6 6.6 0 0 1 4 12z" />
+    </svg>
+  ),
+};
+const BRAND_MARK = (
+  <svg width="30" height="30" viewBox="0 0 420 420" fill="none" aria-hidden="true">
+    <g stroke="currentColor" strokeWidth={26} strokeLinecap="round" strokeLinejoin="round">
+      <path d="M140,150 L280,150" />
+      <path d="M210,150 L210,212" />
+      <path d="M140,300 L210,212 L280,300" />
+      <path d="M174,256 L246,256" />
+    </g>
+  </svg>
+);
+
 type FieldName = "name" | "email" | "phone";
 type FieldErrors = Partial<Record<FieldName, string>>;
 const REQUIRED_ORDER: FieldName[] = ["name", "email", "phone"];
@@ -60,6 +104,17 @@ function splitName(full: string): { first: string; last: string } {
 
 export default function RequestAccessPage() {
   useBareChromeForGuests();
+  const desk = !useIsMobile();
+  // Desktop wraps each input with its icon; phones get the bare input as before.
+  const withIcon = (icon: JSX.Element, input: JSX.Element) =>
+    desk ? (
+      <div className={styles.inWrap}>
+        {icon}
+        {input}
+      </div>
+    ) : (
+      input
+    );
 
   useEffect(() => {
     document.title = "Request access | TripAgent";
@@ -190,8 +245,15 @@ export default function RequestAccessPage() {
   }
 
   return (
-    <section className={styles.raRoot}>
-      {reduceMotion || videoFailed ? (
+    <section className={`${styles.raRoot}${desk ? ` ${styles.desk}` : ""}`}>
+      {desk ? (
+        <>
+          <div className={styles.brand}>
+            {BRAND_MARK}
+            <span>TripAgent</span>
+          </div>
+        </>
+      ) : reduceMotion || videoFailed ? (
         <img className={styles.bg} src={VIDEO_FALLBACK_SRC} alt="" aria-hidden="true" />
       ) : (
         <video
@@ -212,12 +274,15 @@ export default function RequestAccessPage() {
 
       <div className={styles.raWrap}>
         <div className={styles.raAside}>
-          <div className={styles.eyebrow}>By invitation</div>
+          <div className={styles.eyebrow}>{desk ? "Membership · By invitation" : "By invitation"}</div>
           <h1 className={styles.heading}>
-            Your next journey starts with a <span className={styles.it}>request.</span>
+            Your next journey {desk && <br />}starts with a{" "}
+            <span className={styles.it}>{desk ? "conversation." : "request."}</span>
           </h1>
           <p className={styles.lede}>
-            Personal travel planning, curated experiences and expert advisors: for members, by invitation.
+            {desk
+              ? "Personal travel, planned by a person. Tell us a little, and an advisor will be in touch."
+              : "Personal travel planning, curated experiences and expert advisors: for members, by invitation."}
           </p>
         </div>
 
@@ -243,10 +308,12 @@ export default function RequestAccessPage() {
               <h2 className={styles.cardHeading}>
                 Ask for an <span className={styles.cardIt}>invitation.</span>
               </h2>
-              <p className={styles.cardSub}>
-                Tell us how to reach you. A person at the Desk reads every request: no code is issued automatically,
-                and nothing here creates an account.
-              </p>
+              {!desk && (
+                <p className={styles.cardSub}>
+                  Tell us how to reach you. A person at the Desk reads every request: no code is issued automatically,
+                  and nothing here creates an account.
+                </p>
+              )}
 
               {alreadyApproved && (
                 <div className={styles.err} role="alertdialog" aria-live="assertive">
@@ -269,7 +336,7 @@ export default function RequestAccessPage() {
               <form className={styles.form} noValidate onSubmit={handleSubmit}>
                 <div className={styles.field}>
                   <label htmlFor="ra-name">Your name</label>
-                  <input
+                  {withIcon(ICON.name, <input
                     className="ra-input"
                     id="ra-name"
                     name="name"
@@ -282,13 +349,13 @@ export default function RequestAccessPage() {
                       if (v !== e.target.value) e.target.value = v;
                     }}
                     {...errProps("name")}
-                  />
+                  />)}
                   {errLine("name")}
                 </div>
 
                 <div className={styles.field}>
                   <label htmlFor="ra-email">Email</label>
-                  <input
+                  {withIcon(ICON.email, <input
                     className="ra-input"
                     id="ra-email"
                     name="email"
@@ -298,13 +365,13 @@ export default function RequestAccessPage() {
                     inputMode="email"
                     maxLength={EMAIL_MAX}
                     {...errProps("email")}
-                  />
+                  />)}
                   {errLine("email")}
                 </div>
 
                 <div className={styles.field}>
                   <label htmlFor="ra-phone">Mobile</label>
-                  <input
+                  {withIcon(ICON.phone, <input
                     className="ra-input"
                     id="ra-phone"
                     name="phone"
@@ -316,15 +383,16 @@ export default function RequestAccessPage() {
                     value={phoneDigits}
                     onChange={(e) => setPhoneDigits(onlyDigits(e.target.value))}
                     {...errProps("phone")}
-                  />
+                  />)}
                   {errLine("phone")}
                 </div>
 
                 <div className={styles.field}>
                   <label htmlFor="ra-reason">
-                    Tell us about your travel plans <span className={styles.optional}>· optional</span>
+                    Tell us about your travel plans{" "}
+                    <span className={styles.optional}>{desk ? "(optional)" : "· optional"}</span>
                   </label>
-                  <input
+                  {withIcon(ICON.reason, <input
                     className="ra-input"
                     id="ra-reason"
                     name="reason"
@@ -332,7 +400,7 @@ export default function RequestAccessPage() {
                     placeholder="Where you'd like to go, or who referred you"
                     autoComplete="off"
                     maxLength={REASON_MAX}
-                  />
+                  />)}
                 </div>
 
                 {submitErr && (
@@ -342,7 +410,18 @@ export default function RequestAccessPage() {
                 )}
 
                 <button type="submit" className={styles.submitBtn} disabled={submitting}>
-                  {submitting ? "One moment…" : "Send to the Desk"}
+                  {submitting ? (
+                    "One moment…"
+                  ) : desk ? (
+                    <>
+                      Send to the Desk
+                      <svg className={styles.btnArrow} viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M5 12h14M13 6l6 6-6 6" />
+                      </svg>
+                    </>
+                  ) : (
+                    "Send to the Desk"
+                  )}
                 </button>
               </form>
 

@@ -397,3 +397,34 @@
   object-fit: cover;
   z-index: 0;
 }
+
+/* Desktop photo slides (2026-10-26): a slow zoom on the slide on screen, so
+   a still photo still feels alive; it restarts each time a slide comes up. */
+.heroSlidePhoto {
+  background-size: cover;
+  background-position: center;
+  transform: scale(1);
+  will-change: transform;
+}
+:global(.swiper-slide-active) .heroSlidePhoto {
+  animation: heroPhotoZoom 7.5s ease-out forwards;
+}
+@keyframes heroPhotoZoom {
+  from { transform: scale(1); }
+  to { transform: scale(1.06); }
+}
+@media (prefers-reduced-motion: reduce) {
+  :global(.swiper-slide-active) .heroSlidePhoto { animation: none; }
+}
+
+/* Desktop: the copy overlay spans the whole hero (z-index above the
+   carousel) and was swallowing clicks on the prev/next arrows. Let clicks
+   through it, except on the copy block itself (its buttons stay live). */
+@media (min-width: 721px) {
+  .slideInner {
+    pointer-events: none;
+  }
+  .slideInner .hsCopy {
+    pointer-events: auto;
+  }
+}
