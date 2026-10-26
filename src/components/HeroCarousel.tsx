@@ -29,6 +29,31 @@ const HERO_VIDEOS: { src: string; poster: string; end?: number }[] = [
   { ...toVideos(["tripagent-desktop-4k"])[0], end: 16 },
   ...toVideos(["13707600_1920_1080_25fps"]),
 ];
+// Desktop (2026-10-26, trial): five photographs instead of video, cross-fading
+// on a timer, each with a slow zoom. Gemini-generated; their sparkle watermark
+// was retouched out before saving.
+const HERO_IMAGES = [
+  "/images/home-hero/1-lake-villa.jpg",
+  "/images/home-hero/2-desert-oasis.jpg",
+  "/images/home-hero/3-desert-lounge.jpg",
+  "/images/home-hero/4-canyon-retreat.jpg",
+  "/images/home-hero/5-tokyo-lobby.jpg",
+];
+const DESKTOP_SLIDE_MS = 6000;
+// Desktop hero copy (2026-10-26, direct request). The sub-copy stays the
+// data's own lede (the same sentence, with the site's no-long-dash
+// punctuation). Phones keep the data copy.
+const DESKTOP_COPY = {
+  // Short, and says what TripAgent is; the headline carries "human + tech",
+  // so the two no longer repeat each other. "Desk" matches the request page.
+  eyebrow: "Your private travel desk",
+  headingHtml: 'Human connection,<br/>backed by <span class="it">super intelligence</span>.',
+  ctas: [
+    { label: "Find my trip", href: "where-to-go.html" },
+    { label: "Ask Tara", href: "concierge.html" },
+    { label: "Talk to a human", href: "enquire.html" },
+  ],
+};
 // Phones get the portrait "Dream Destinations" clip (2026-10-16), 17s long. The four
 // slides each start it at a different point, so a 5.5s slide never replays what the
 // previous one just showed.
@@ -45,6 +70,8 @@ export default function HeroCarousel({ slides }: { slides: HeroSlide[] }) {
   const containerRef = useRef<HTMLDivElement | null>(null);
   const nextElRef = useRef<HTMLButtonElement | null>(null);
   const prevElRef = useRef<HTMLButtonElement | null>(null);
+  // Phone (mobile handoff): video slides; desktop: photo slides.
+  const isMobile = useIsMobile();
 
   useEffect(() => {
     const el = containerRef.current;
@@ -61,14 +88,17 @@ export default function HeroCarousel({ slides }: { slides: HeroSlide[] }) {
       grabCursor: false,
       keyboard: { enabled: true },
       a11y: { enabled: true },
-      // Desktop advances when the active video ends (below), not on a timer.
-      autoplay: reduce || playThrough
+      // Desktop photos advance on a timer (the cursor usually rests on the
+      // hero, so no pause-on-hover there); phones keep their 5.5s video timer.
+      autoplay: reduce
         ? false
-        : {
-            delay: 5500,
-            disableOnInteraction: false,
-            pauseOnMouseEnter: true,
-          },
+        : playThrough
+          ? { delay: DESKTOP_SLIDE_MS, disableOnInteraction: false }
+          : {
+              delay: 5500,
+              disableOnInteraction: false,
+              pauseOnMouseEnter: true,
+            },
       navigation: {
         nextEl: nextElRef.current,
         prevEl: prevElRef.current,
@@ -118,20 +148,24 @@ export default function HeroCarousel({ slides }: { slides: HeroSlide[] }) {
       window.clearTimeout(fallback);
       swiper.destroy(true, true);
     };
-  }, []);
+    // Re-built when crossing the phone/desktop line: the slides differ.
+  }, [isMobile]);
 
   // Content is fixed — only the background photo cycles between slides.
   // Taken from the first slide, once, rather than re-read per active slide.
   const content = slides[0];
-  // Phone (mobile handoff): the first CTA reads "Browse cities".
-  const isMobile = useIsMobile();
   const heroVideos: { src: string; poster: string; end?: number }[] = isMobile ? PHONE_HERO_VIDEOS : HERO_VIDEOS;
 
   return (
     <header className={`hero left ${styles.heroEd}`} aria-roledescription="carousel" aria-label="A private travel maison">
       <div className={`swiper ${styles.swiperRoot}`} ref={containerRef}>
         <div className="swiper-wrapper">
-          {slides.map((slide, i) => (
+          {!isMobile && HERO_IMAGES.map((src, i) => (
+            <div className={`swiper-slide ${styles.heroSlide}`} key={`img-${i}`}>
+              <div className={`${styles.heroSlideBg} ${styles.heroSlidePhoto}`} style={{ backgroundImage: `url('${src}')` }} />
+            </div>
+          ))}
+          {isMobile && slides.map((slide, i) => (
             <div className={`swiper-slide ${styles.heroSlide}`} key={i}>
               {/* Background image lives on a child, never on .swiper-slide
                   itself — Swiper's destroy(true, true) (called from this
@@ -185,16 +219,14 @@ export default function HeroCarousel({ slides }: { slides: HeroSlide[] }) {
       <div className={styles.slideInner}>
         <div className="wrap">
           <div className={styles.hsCopy}>
-            <div className="eyebrow on-dark">{isMobile ? (content.eyebrow ?? "").replace(/\s*·\s*by invitation\s*$/i, "") : content.eyebrow}</div>
+            <div className="eyebrow on-dark">{isMobile ? (content.eyebrow ?? "").replace(/\s*·\s*by invitation\s*$/i, "") : DESKTOP_COPY.eyebrow}</div>
             <div className="rule" />
-            <h1 className={`display ${styles.display}`} dangerouslySetInnerHTML={{ __html: content.headingHtml ?? "" }} />
+            <h1 className={`display ${styles.display}`} dangerouslySetInnerHTML={{ __html: (isMobile ? content.headingHtml : DESKTOP_COPY.headingHtml) ?? "" }} />
             <p className={`lede on-dark ${styles.lede}`} style={{ marginTop: 24 }}>
-              {/* Desktop: the promise "until you are home" is the closing banner's
-                  headline and the signature section's line — not repeated here. */}
-              {isMobile ? content.lede : (content.lede ?? "").replace(/\s*[—,:]\s*until you are home\.?$/i, ".")}
+              {content.lede}
             </p>
             <div className={styles.heroCtaRow}>
-              {content.ctaLinks.map((cta, ci) => {
+              {(isMobile ? content.ctaLinks : DESKTOP_COPY.ctas).map((cta, ci) => {
                 if (ci === 0) {
                   return (
                     <PrimaryInverseButton to={cta.href} key={ci}>
@@ -205,7 +237,7 @@ export default function HeroCarousel({ slides }: { slides: HeroSlide[] }) {
                 if (ci === 1) {
                   return (
                     <SecondaryInverseButton to={cta.href} key={ci}>
-                      {withTaraAI(cta.label)}
+                      {isMobile ? withTaraAI(cta.label) : cta.label}
                     </SecondaryInverseButton>
                   );
                 }
