@@ -9,7 +9,7 @@ import { useEffect, useRef } from "react";
 
 const PROD_CHAT_URL = "https://chatbot-fe-ten.vercel.app/login";
 // /chat, not /login: the chatbot signs the member in from the #code on any path. Prod stays on /login until chatbot-fe prod has the same handoff.
-const DEV_CHAT_URL = "https://chatbot-fe-dev.vercel.app/chat";
+const DEV_CHAT_URL = "https://chatbot.tripagent.vip/chat";
 // The production site's hosts; everything else (customerfe-dev, previews,
 // localhost) gets the dev chatbot.
 const PROD_HOSTS = ["tripagent.vip", "www.tripagent.vip", "customerfe-mocha.vercel.app"];
