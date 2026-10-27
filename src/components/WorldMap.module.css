@@ -21,7 +21,12 @@
 :global(.cg-tabs).tabs button {
   white-space: nowrap;
   font-size: 13px !important;
-  padding-bottom: 8px !important;
+  /* Label centred in the tab's box: 14px above it, 12px below it plus the 2px
+     underline (border) = 14px, so the space above and below match. This is
+     also what makes the strip tall enough to match the Exit map button
+     (StickyWorldMap.module.css). (Was: 0 above, 8px below.) */
+  padding-top: 14px !important;
+  padding-bottom: 12px !important;
   transition: color 0.2s var(--ease, ease), border-color 0.2s var(--ease, ease), transform 0.2s var(--ease, ease);
 }
 :global(.cg-tabs).tabs button:hover,
@@ -34,6 +39,10 @@
    the whole tab row, World -> Oceania — a light track (::before) and a dark
    fill (::after) that grows with scroll and reaches each tab as the map
    arrives there. Per-tab underlines step aside meanwhile. */
+:global([data-map-picked]) :global(.cg-tabs).tabs button[aria-selected="true"] {
+  color: var(--signature);
+  border-bottom-color: var(--signature);
+}
 :global([data-scroll-cycle]) :global(.cg-tabs).tabs button[aria-selected="true"] {
   border-bottom-color: transparent;
 }

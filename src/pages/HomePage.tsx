@@ -152,6 +152,9 @@ export default function HomePage() {
           already spans edge-to-edge with no extra work). */}
       <WorldMapSection sticky />
 
+      {/* HOW IT WORKS: the five-stage tabbed section, directly under the map. */}
+      <HowItWorksTabs />
+
       {/* DISCOVER — the first interaction */}
       <section className={`band tight ${styles.disc}`} aria-label="Where shall we take you?">
         <div className="wrap">
@@ -159,7 +162,9 @@ export default function HomePage() {
             <div className="eyebrow">{discover.eyebrow}</div>
             <div className="rule" />
             <h2 dangerouslySetInnerHTML={{ __html: discover.headingHtml ?? "" }} />
+            {/* Subtext under "Where shall we take you?" commented out (not deleted); restore to bring it back.
             <p className={`${styles.discSub} reveal`}>{discover.sub}</p>
+            */}
           </div>
 
           <HomeSearch labelHtml={discover.searchLabelHtml ?? ""} />
@@ -307,8 +312,6 @@ export default function HomePage() {
         </div>
       </section>
       */}
-
-      <HowItWorksTabs />
 
       {/* HOW IT WORKS (phone mock + live chat demo) — shelved, not deleted.
           Being replaced by a new autoadvancing 5-stage tabbed section (see

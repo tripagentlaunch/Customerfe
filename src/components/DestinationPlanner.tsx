@@ -105,9 +105,11 @@ export default function DestinationPlanner({ planner }: { planner: PlannerData }
           <div className="eyebrow">{planner.eyebrow}</div>
           <div className="rule" />
           <h2 style={{ fontSize: "clamp(30px,4.2vw,58px)" }} dangerouslySetInnerHTML={{ __html: planner.headingHtml ?? "" }} />
+          {/* Subtext under the planner heading commented out (not deleted); restore to bring it back.
           <p className="lede" style={{ marginTop: 16 }}>
             {planner.lede}
           </p>
+          */}
         </div>
 
         <div ref={monthsRef} className={`${styles.plMonths} reveal d1`} role="tablist" aria-label="Choose a month">

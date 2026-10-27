@@ -44,7 +44,6 @@ export function Header() {
   const [searchOpen, setSearchOpen] = useState(false);
   const q = query.trim();
   const headerRef = useRef<HTMLElement>(null);
-  const edgeRef = useRef<HTMLDivElement>(null);
   const searchRef = useRef<HTMLFormElement>(null);
 
   // Auto-hiding header: peeks open on page load; after that see the
@@ -66,23 +65,32 @@ export function Header() {
     const t = setTimeout(() => setSidebarPeek(false), 1500);
     return () => clearTimeout(t);
   }, [profileDrawer.peekTick]);
-  // The invisible reveal strip (.ta-hd-edge, 84px) is taller than the
-  // header (64px), so the two together are the "navbar area": hide only
-  // once the pointer has left both (the open Explore panel is a DOM child
-  // of the header, so it counts as inside). Leaving either one onto the
-  // other must not hide it, and leaving the strip must hide it — otherwise
-  // it stays frozen open after being revealed.
-  const onAreaLeave = (e: React.MouseEvent) => {
-    const to = e.relatedTarget;
-    if (to instanceof Node && (headerRef.current?.contains(to) || edgeRef.current?.contains(to))) return;
-    setHovering(false);
-  };
-  // Shown whenever the visitor is doing something (2026-10-13, direct
-  // request — it used to come back only from the top 84px, so most people
-  // never found it and pages looked header-less): at the top of the page,
-  // on any mouse movement, and when scrolling up. It tucks away after a
-  // short idle, or on scrolling down, so it stays out of the way of reading.
-  const [atTop, setAtTop] = useState(true);
+  // The hover zone: the top HOVER_ZONE_PX of the window (168px) plus the navbar
+  // itself (its open Explore panel is a DOM child, so it counts). It is tracked
+  // from the pointer's position and NOT with an invisible element laid over the
+  // page: that element swallowed every click in the top 168px (the How it Works
+  // stages, breadcrumbs, hero links...). Mouse pointers only; phones have no hover.
+  const HOVER_ZONE_PX = 168;
+  useEffect(() => {
+    const onMove = (e: PointerEvent) => {
+      if (e.pointerType !== "mouse") return;
+      const overHeader = e.target instanceof Node && !!headerRef.current?.contains(e.target);
+      setHovering(e.clientY < HOVER_ZONE_PX || overHeader);
+    };
+    const onLeaveWindow = () => setHovering(false);
+    window.addEventListener("pointermove", onMove, { passive: true });
+    document.documentElement.addEventListener("pointerleave", onLeaveWindow);
+    return () => {
+      window.removeEventListener("pointermove", onMove);
+      document.documentElement.removeEventListener("pointerleave", onLeaveWindow);
+    };
+  }, []);
+  // Desktop: the navbar peeks open on load (initialPeek, 1.5s), then hides and
+  // stays hidden. It comes back only when the pointer is over the top edge /
+  // navbar area (`hovering`, above) or when the page is scrolled UP toward the
+  // top. It hides again on scrolling down, or 1.5s after the last scroll-up
+  // movement. (This replaces the 2026-10-13 rule that also showed it at the top
+  // of the page and on any mouse movement; that left it on screen almost always.)
   const [active, setActive] = useState(false);
   useEffect(() => {
     let idle = 0;
@@ -91,14 +99,13 @@ export function Header() {
     const wake = () => {
       setActive(true);
       window.clearTimeout(idle);
-      idle = window.setTimeout(() => setActive(false), 2500);
+      idle = window.setTimeout(() => setActive(false), 1500);
     };
     const onScroll = () => {
       if (raf) return;
       raf = requestAnimationFrame(() => {
         raf = 0;
         const y = window.scrollY;
-        setAtTop(y < 80);
         if (y < lastY - 4) wake();
         else if (y > lastY + 4) {
           window.clearTimeout(idle);
@@ -107,20 +114,14 @@ export function Header() {
         lastY = y;
       });
     };
-    const onMove = (e: PointerEvent) => {
-      if (e.pointerType === "mouse") wake();
-    };
-    onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
-    window.addEventListener("pointermove", onMove, { passive: true });
     return () => {
       window.removeEventListener("scroll", onScroll);
-      window.removeEventListener("pointermove", onMove);
       window.clearTimeout(idle);
       if (raf) cancelAnimationFrame(raf);
     };
   }, []);
-  const desktopVisible = atTop || active || initialPeek || sidebarPeek || hovering || menuOpen || openRoom !== null || (searchOpen && !!q);
+  const desktopVisible = active || initialPeek || sidebarPeek || hovering || menuOpen || openRoom !== null || (searchOpen && !!q);
 
   // Phone: no hover. Standard direction-based bar — always visible near the
   // top of the page, hides as soon as the page is scrolled DOWN, and comes
@@ -332,13 +333,10 @@ export function Header() {
   return (
     <>
       {exploreOpenOnPhone && <div className="ta-hd-scrim" aria-hidden="true" onClick={() => toggleRoom(null)} />}
-      <div ref={edgeRef} className="ta-hd-edge" onMouseEnter={() => setHovering(true)} onMouseLeave={onAreaLeave} />
       <header
         ref={headerRef}
         className={`ta-hd${headerVisible ? " ta-hd-visible" : ""}${menuOpen ? " menu-open" : ""}`}
         data-shell
-        onMouseEnter={() => setHovering(true)}
-        onMouseLeave={onAreaLeave}
         // Only typing in search holds the phone header open — a tapped button
         // (Explore, Profile) keeps focus and used to pin it open for good.
         onFocus={(e) => setFocusWithin(e.target instanceof HTMLInputElement)}

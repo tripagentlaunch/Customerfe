@@ -2794,7 +2794,8 @@ body:has(.nav.menu-open) .ta-advisor{display:none}
    ============================================================ */
 .ta-hd{position:fixed;top:0;left:0;right:0;z-index:200;background:var(--paper);border-bottom:1px solid var(--line);font-family:var(--fr);transform:translateY(-100%);transition:transform .35s cubic-bezier(.4,0,.2,1) .15s}
 .ta-hd.ta-hd-visible{transform:translateY(0)}
-.ta-hd-edge{position:fixed;top:0;left:0;right:0;height:84px;z-index:199}
+/* (.ta-hd-edge, the invisible hover strip, is gone: the navbar's hover zone is now tracked from the pointer position in Header.tsx, so it no longer blocks clicks.) */
+.ta-hd-edge{display:none}
 .ta-hd-top{display:flex;align-items:center;gap:clamp(16px,2.4vw,30px);padding:0 var(--gutter);height:64px}
 .ta-hd-brand{display:flex;align-items:center;gap:9px;font-family:var(--logo);font-weight:500;font-size:19px;letter-spacing:.01em;color:var(--ink);text-decoration:none;flex:none}
 .ta-hd-brand .mk g{stroke:var(--ink)}
@@ -3214,9 +3215,9 @@ main > section[id], main > header[id]{scroll-margin-top:64px}
 .tq-example .tq-title{margin:0;font-family:var(--logo);font-weight:500;font-size:clamp(21px,1.8vw,25px);line-height:1.25;color:var(--ink)}
 .tq-example .tq-body{margin:0;font-family:var(--fr);font-size:15px;line-height:1.6;color:var(--ink-soft)}
 
-/* Header stays visible while the homepage world map is pinned
-   (StickyWorldMap.tsx toggles html.ta-map-pinned) — 2026-10-14. */
-html.ta-map-pinned .ta-hd{transform:translateY(0)}
+/* (The "header stays visible while the homepage world map is pinned" override,
+   html.ta-map-pinned .ta-hd, was removed: the navbar now follows the same
+   hide / hover / scroll-up rules there as everywhere else.) */
 
 /* Talk to Tara sits in the page margin, not over text (2026-10-14): a
    40px icon set 6-16px from the corner stays outside the 5vw content

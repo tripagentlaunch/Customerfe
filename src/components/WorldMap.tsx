@@ -1,4 +1,5 @@
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState} from "react";
+import type { ReactNode } from "react";
 import type { CSSProperties } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { geoPath, geoCentroid, geoArea } from "d3-geo";
@@ -452,7 +453,16 @@ function CityHoverCard({
 export default function WorldMap({
   activeTabOverride,
   worldRevealKey,
+  exitSlot,
+  onTabPick,
 }: {
+  // Called when a region tab is clicked (StickyWorldMap passes it only while
+  // the map is pinned and scroll-cycling, to end the cycle on that tab).
+  onTabPick?: (key: string) => void;
+  // Rendered at the end of the region tab row (StickyWorldMap's Exit map
+  // button on desktop). Not a tab: it has no data-tab, so the scroll-through
+  // underline (World to Oceania) ignores it.
+  exitSlot?: ReactNode;
   // Externally-driven tab (e.g. StickyWorldMap's scroll-cycling) — when set,
   // this replaces both the click-driven tab bar's own state AND the built-in
   // demo auto-cycle below, so the two don't fight over `activeTab`. Omit for
@@ -1382,13 +1392,17 @@ export default function WorldMap({
               data-tab={tab.key}
               aria-selected={tab.key === activeTab}
               className={hoveredTab === tab.key ? styles.tabHovered : undefined}
-              onClick={() => pickTab(tab.key)}
+              onClick={() => {
+                onTabPick?.(tab.key);
+                pickTab(tab.key);
+              }}
               onMouseEnter={() => setHoveredTab(tab.key)}
               onMouseLeave={() => setHoveredTab((k) => (k === tab.key ? null : k))}
             >
               {tab.label}
             </button>
           ))}
+          {exitSlot}
         </div>
         <svg
           className={styles.map}
