@@ -7,7 +7,8 @@ import { useEffect, useRef } from "react";
 // each link, one document-level click handler catches any link or button
 // whose label names Tara AI and opens the chatbot in a new tab instead.
 
-const PROD_CHAT_URL = "https://chatbot-fe-ten.vercel.app/login";
+// On the production site Tara lives at tripagent.vip/chat: vercel.json proxies /chat to the chatbot app.
+const PROD_CHAT_URL = "/chat";
 const DEV_CHAT_URL = "https://chatbot-fe-dev.vercel.app/login";
 // The production site's hosts; everything else (customerfe-dev, previews,
 // localhost) gets the dev chatbot.

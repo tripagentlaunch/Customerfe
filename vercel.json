@@ -4,6 +4,9 @@
     { "source": "/cities", "destination": "https://customerbe-prod.onrender.com/cities/" },
     { "source": "/:prefix(auth|me|my-year|api|ai|enquiries|invite|access-requests|referrals)", "destination": "https://customerbe-prod.onrender.com/:prefix" },
     { "source": "/:prefix(cities|config|auth|me|my-year|api|ai|enquiries|invite|access-requests|referrals)/:path*", "destination": "https://customerbe-prod.onrender.com/:prefix/:path*" },
+    { "source": "/chat", "destination": "https://chatbot-fe-ten.vercel.app/chat" },
+    { "source": "/chat/:path*", "destination": "https://chatbot-fe-ten.vercel.app/chat/:path*" },
+    { "source": "/chat-assets/:path*", "destination": "https://chatbot-fe-ten.vercel.app/chat-assets/:path*" },
     { "source": "/(.*)", "destination": "/index.html" }
   ],
   "images": {
