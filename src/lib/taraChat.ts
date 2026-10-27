@@ -8,7 +8,8 @@ import { useEffect, useRef } from "react";
 // whose label names Tara AI and opens the chatbot in a new tab instead.
 
 const PROD_CHAT_URL = "https://chatbot-fe-ten.vercel.app/login";
-const DEV_CHAT_URL = "https://chatbot-fe-dev.vercel.app/login";
+// /chat, not /login: the chatbot signs the member in from the #code on any path. Prod stays on /login until chatbot-fe prod has the same handoff.
+const DEV_CHAT_URL = "https://chatbot-fe-dev.vercel.app/chat";
 // The production site's hosts; everything else (customerfe-dev, previews,
 // localhost) gets the dev chatbot.
 const PROD_HOSTS = ["tripagent.vip", "www.tripagent.vip", "customerfe-mocha.vercel.app"];
