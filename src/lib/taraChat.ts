@@ -9,7 +9,8 @@ import { useEffect, useRef } from "react";
 
 // On the production site Tara lives at tripagent.vip/chat: vercel.json proxies /chat to the chatbot app.
 const PROD_CHAT_URL = "/chat";
-const DEV_CHAT_URL = "https://chatbot-fe-dev.vercel.app/login";
+// Dev opens the dev chatbot at its own domain (/chat: it signs the member in from the #code on any path).
+const DEV_CHAT_URL = "https://chatbot.tripagent.vip/chat";
 // The production site's hosts; everything else (customerfe-dev, previews,
 // localhost) gets the dev chatbot.
 const PROD_HOSTS = ["tripagent.vip", "www.tripagent.vip", "customerfe-mocha.vercel.app"];

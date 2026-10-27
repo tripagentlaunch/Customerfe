@@ -571,10 +571,10 @@
   .ta-look-hero { height: 64px; }
 }
 
-/* Phone: the "Have Tara AI arrange the stay" button is centred under the plan. */
+/* Phone: the "Have Tara AI arrange the stay" button spans the full width. */
 @media (max-width: 720px) {
-  .plan-cta-wrap { display: flex; justify-content: center; }
-  .plan-cta-wrap :global(.btn-gold).plan-cta { width: auto; max-width: 100%; justify-content: center; text-align: center; }
+  .plan-cta-wrap { display: block; }
+  .plan-cta-wrap :global(.btn-gold).plan-cta { display: flex; width: 100%; justify-content: center; text-align: center; }
 }
 
 /* Phone hero facts ribbon: a 2 x 2 grid, each cell exactly half the width

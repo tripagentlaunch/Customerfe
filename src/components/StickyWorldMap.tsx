@@ -1,5 +1,5 @@
 import { useEffect, useLayoutEffect, useRef, useState } from "react";
-import type { ReactNode } from "react";
+import type { CSSProperties, ReactNode } from "react";
 import WorldMap from "./WorldMap";
 import PhoneWorldMap from "./PhoneWorldMap";
 import { useIsMobile } from "../hooks/useIsMobile";
@@ -12,10 +12,12 @@ const { world: WORLD_TAB } = mapTabsData as MapTabsData;
 // Fixed pin offset from the viewport top — was measured off the site
 // header's own height, but that left a visible gap above the section once
 // pinned.
-// Fallback for the pin offset; the real value is the site header's height,
-// measured on mount, because the header now stays on screen while the map
-// is pinned (2026-10-14) and the map pins just below it.
-const STICKY_TOP = 64;
+// Where the pinned section locks on desktop: this many px from the top of the
+// viewport, so its first line ("Where we go") sits near the top of the screen.
+// It used to be the site header's height (the header was forced on screen while
+// the map was pinned); the header now hides and overlays the page like
+// everywhere else, so nothing is reserved for it.
+const STICKY_TOP = 24;
 
 // Extra scroll on World right after the section sticks, before the
 // scroll-driven region cycle takes over — expressed as a fraction of the
@@ -71,11 +73,9 @@ export default function StickyWorldMap({ children }: { children?: ReactNode }) {
   const stickyTopRef = useRef(STICKY_TOP);
   const [stickyTop, setStickyTop] = useState(STICKY_TOP);
   useEffect(() => {
-    const h = isMobile ? 12 : document.querySelector<HTMLElement>(".ta-hd")?.offsetHeight;
-    if (h) {
-      stickyTopRef.current = h;
-      setStickyTop(h);
-    }
+    const h = isMobile ? 12 : STICKY_TOP;
+    stickyTopRef.current = h;
+    setStickyTop(h);
   }, [isMobile]);
   // Whether the section is actually pinned right now — i.e. the viewport is
   // currently somewhere inside the wrapper's tall span, with room on both
@@ -137,7 +137,7 @@ export default function StickyWorldMap({ children }: { children?: ReactNode }) {
   // map at `top: STICKY_TOP` — see computeFreeze and the layout effect below
   // for how `consumed` is used to avoid a jump without leaving it behind as
   // permanent dead space.
-  const [frozen, setFrozen] = useState<{ consumed: number; tab: string } | null>(null);
+  const [frozen, setFrozen] = useState<{ consumed: number; tab: string; leave: boolean } | null>(null);
 
   // Used by the Exit Map click — the only way out. While stuck, the sticky
   // child sits at exactly `top: STICKY_TOP` in the viewport — i.e. the
@@ -153,7 +153,7 @@ export default function StickyWorldMap({ children }: { children?: ReactNode }) {
     const el = wrapRef.current;
     if (!el) return null;
     const consumed = Math.max(0, stickyTopRef.current - el.getBoundingClientRect().top);
-    return { consumed, tab };
+    return { consumed, tab, leave: true };
   };
 
   useEffect(() => {
@@ -244,6 +244,59 @@ export default function StickyWorldMap({ children }: { children?: ReactNode }) {
     setReleased(true);
   };
 
+  // Exit animation (desktop). The Exit map chip is wiped away left to right
+  // (clip-path, so its right edge stays put) while its label slides right, and the
+  // tab strip eases across by half the chip's width + the row gap, which is
+  // exactly where the centred row ends up once the chip is gone — so when the
+  // chip unmounts, nothing jumps. The chip and the tab shift are CSS driven
+  // (StickyWorldMap.module.css) off data-exit-closing and --exit-shift/--exit-w
+  // on the sticky element. Phones, and visitors who prefer reduced motion, get
+  // the immediate switch.
+  const EXIT_ANIM_MS = 480;
+  const [exitClosing, setExitClosing] = useState(false);
+  const [exitMetrics, setExitMetrics] = useState({ w: 0, shift: 0 });
+  const exitBtnRef = useRef<HTMLButtonElement | null>(null);
+  const exitTimers = useRef<number[]>([]);
+  useEffect(() => () => exitTimers.current.forEach((id) => window.clearTimeout(id)), []);
+  const startExitAnimation = (): boolean => {
+    if (isMobile || exitClosing || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return false;
+    const btn = exitBtnRef.current;
+    const bar = btn?.closest<HTMLElement>('[role="tablist"]');
+    if (!btn || !bar) return false;
+    const gap = parseFloat(getComputedStyle(bar).columnGap) || 0;
+    const w = btn.offsetWidth;
+    setExitMetrics({ w, shift: (w + gap) / 2 });
+    setExitClosing(true);
+    setFill(null); // the progress line goes first
+    exitTimers.current.push(window.setTimeout(() => setExitClosing(false), EXIT_ANIM_MS + 40));
+    return true;
+  };
+  // Exit map click: play the animation, then release (and carry on past the map).
+  const handleExitClick = () => {
+    if (!startExitAnimation()) {
+      handleExitMap();
+      return;
+    }
+    exitTimers.current.push(
+      window.setTimeout(() => {
+        if (!releasedRef.current) handleExitMap(); // a tab pick may already have released it
+      }, EXIT_ANIM_MS)
+    );
+  };
+
+  // Clicking a region tab while the map is pinned also ends the scroll-through:
+  // the progress line and Exit map go away and the map stays on the clicked
+  // region, right where it is on screen (leave: false, so unlike Exit map it
+  // does not scroll on to the next section).
+  const handleTabPick = (tabKey: string) => {
+    const freeze = computeFreeze(tabKey);
+    if (!freeze) return;
+    startExitAnimation(); // the chip wipes away as the map settles on the tab
+    releasedRef.current = true;
+    setFrozen({ ...freeze, leave: false });
+    setReleased(true);
+  };
+
   // Fires once, the instant `released` flips true — synchronously, before
   // the browser paints the collapsed layout, so this correction is never
   // visible as a separate jump. Collapsing the tall wrapper down to the
@@ -263,7 +316,9 @@ export default function StickyWorldMap({ children }: { children?: ReactNode }) {
       window.scrollBy({ top: -frozen.consumed, behavior: "instant" });
     }
     // Then carry on past the map to the next section — "Exit Map" should
-    // leave the map, not leave the visitor parked on it (2026-10-13).
+    // leave the map, not leave the visitor parked on it (2026-10-13). A tab
+    // pick (leave: false) stays on the map.
+    if (!frozen.leave) return;
     const raf = requestAnimationFrame(() => {
       const el = wrapRef.current;
       if (el) window.scrollBy({ top: el.getBoundingClientRect().bottom, behavior: "smooth" });
@@ -301,39 +356,54 @@ export default function StickyWorldMap({ children }: { children?: ReactNode }) {
       <div
         ref={stickyRef}
         className={styles.sticky}
+        data-map-picked={isReleased ? "" : undefined}
+        data-exit-closing={exitClosing ? "" : undefined}
         style={
-          isReleased
-            ? { position: "static", height: `calc(100svh - ${stickyTop}px)` }
-            : { top: stickyTop, height: `calc(100svh - ${stickyTop}px)` }
+          {
+            ...(isReleased
+              ? { position: "static", height: `calc(100svh - ${stickyTop}px)` }
+              : { top: stickyTop, height: `calc(100svh - ${stickyTop}px)` }),
+            "--exit-shift": `${exitMetrics.shift}px`,
+            "--exit-w": `${exitMetrics.w}px`,
+          } as unknown as CSSProperties
         }
       >
         {children}
-        {/* Only while the map is pinned and cycling. Part of the map itself
-            (absolute within .sticky), not fixed to the window — it used to
-            sit beside the theme toggle and read as a site-wide control
-            stuck on screen (2026-10-13). */}
-        {!isReleased && stuck && !dwelling && (
-          <button type="button" className={styles.exitMapButton} onClick={handleExitMap}>
-            <span className={styles.exitMapLabel}>
-              <svg viewBox="0 0 16 16" width="12" height="12" aria-hidden="true">
-                <path
-                  d="M2 2L14 14M14 2L2 14"
-                  stroke="currentColor"
-                  strokeWidth="1.6"
-                  strokeLinecap="round"
-                  fill="none"
-                />
-              </svg>
-              Exit map
-            </span>
-          </button>
-        )}
+        {/* Exit map: only while the map is pinned and cycling. Desktop: the last
+            item of the region tab row, next to Oceania (see exitSlot below).
+            Phone: absolute at the bottom of the map, as before. */}
         {(() => {
+          // Stays mounted while the exit animation plays (exitClosing), even though
+          // a tab pick has already released the map.
+          const showExit = (!isReleased && stuck && !dwelling) || exitClosing;
+          const exitButton = showExit ? (
+            <button
+              ref={exitBtnRef}
+              type="button"
+              className={`${styles.exitMapButton}${isMobile ? "" : ` ${styles.exitMapInBar}`}${exitClosing ? ` ${styles.exitMapClosing}` : ""}`}
+              onClick={handleExitClick}
+            >
+              <span className={styles.exitMapLabel}>
+                <svg viewBox="0 0 16 16" width="12" height="12" aria-hidden="true">
+                  <path d="M2 2L14 14M14 2L2 14" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" fill="none" />
+                </svg>
+                Exit map
+              </span>
+            </button>
+          ) : null;
           const tab = isReleased ? frozen.tab : stuck && !dwelling ? segments[activeIndex] : WORLD_TAB.key;
           return isMobile ? (
-            <PhoneWorldMap activeTabOverride={tab} worldRevealKey={worldRevealKey} scrollFriendly={!isReleased} />
+            <>
+              {exitButton}
+              <PhoneWorldMap activeTabOverride={tab} worldRevealKey={worldRevealKey} scrollFriendly={!isReleased} />
+            </>
           ) : (
-            <WorldMap activeTabOverride={tab} worldRevealKey={worldRevealKey} />
+            <WorldMap
+              activeTabOverride={tab}
+              worldRevealKey={worldRevealKey}
+              exitSlot={exitButton}
+              onTabPick={stuck && !isReleased ? handleTabPick : undefined}
+            />
           );
         })()}
       </div>

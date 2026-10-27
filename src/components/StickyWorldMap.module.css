@@ -48,9 +48,9 @@
   display: inline-flex;
   align-items: center;
   padding: 10px 18px;
-  border: 1px solid var(--ink, #1a1714);
-  background: var(--paper, #fff);
-  color: var(--ink, #1a1714);
+  border: 1px solid #111;
+  background: #111;
+  color: #fff;
   font-family: var(--fr);
   font-weight: 600;
   font-size: 11px;
@@ -62,8 +62,88 @@
 }
 .exitMapButton:hover,
 .exitMapButton:focus-visible {
-  background: var(--ink, #1a1714);
-  color: var(--paper, #fff);
+  background: #3a3631;
+  border-color: #3a3631;
+  color: #fff;
+}
+/* Desktop: the button is the last item of the region tab row, next to Oceania.
+   It stretches to the strip's full height (the tab buttons carry 14px above the
+   label and 12px + a 2px underline below it, WorldMap.module.css), so its top
+   and bottom match the strip. With that padding the tab labels sit essentially
+   in the middle of their boxes, so the button's label is simply centred too,
+   and the two are on the same line. The row's own 30px gap is the only space
+   between Oceania and the button. !important + the higher-specificity
+   selector: the tab row's own button rules (.cg-tabs button) would otherwise
+   restyle this as a tab. */
+:global(.cg-tabs) button.exitMapInBar.exitMapInBar {
+  position: static;
+  left: auto;
+  right: auto;
+  bottom: auto;
+  transform: none;
+  flex: none;
+  align-self: stretch;
+  height: auto;
+  margin: 0;
+  box-shadow: none;
+  display: inline-flex;
+  align-items: center;
+  background: #111 !important;
+  border: 1px solid #111 !important;
+  color: #fff !important;
+  padding: 0 14px !important;
+  font-size: 11px !important;
+  letter-spacing: 0.12em !important;
+  line-height: 1 !important;
+}
+:global(.cg-tabs) button.exitMapInBar.exitMapInBar {
+  /* Wiped away left to right on exit (see .exitMapClosing): the right edge stays
+     put and the left edge sweeps across. */
+  clip-path: inset(0 0 0 0);
+  transition: clip-path 480ms cubic-bezier(0.4, 0, 0.2, 1), background 0.3s var(--ease, ease), border-color 0.3s var(--ease, ease);
+}
+:global(.cg-tabs) button.exitMapInBar.exitMapInBar.exitMapClosing {
+  clip-path: inset(0 0 0 100%);
+  pointer-events: none;
+}
+/* The label slides right while the chip is wiped away. */
+:global(.cg-tabs) button.exitMapInBar .exitMapLabel {
+  translate: 0 0;
+  transition: translate 480ms cubic-bezier(0.4, 0, 0.2, 1), transform 0.4s var(--ease, ease);
+}
+:global(.cg-tabs) button.exitMapInBar.exitMapClosing .exitMapLabel {
+  translate: calc(var(--exit-w, 100px) * 0.6) 0;
+}
+/* The tab strip eases across while the chip goes (half the chip's width + the row
+   gap, set from JS): the same spot the centred row settles into once the chip is
+   removed. Uses the separate `translate` property so it never fights the tabs'
+   hover lift (`transform`), and so removing the attribute snaps back with no
+   transition (the base tab rule has no translate transition), in step with the
+   layout re-centring. */
+:global([data-exit-closing]) :global(.cg-tabs) button[data-tab] {
+  translate: var(--exit-shift, 0px) 0;
+  transition: translate 480ms cubic-bezier(0.4, 0, 0.2, 1), color 0.2s var(--ease, ease), border-color 0.2s var(--ease, ease), transform 0.2s var(--ease, ease);
+}
+@media (prefers-reduced-motion: reduce) {
+  :global(.cg-tabs) button.exitMapInBar.exitMapInBar,
+  :global(.cg-tabs) button.exitMapInBar .exitMapLabel,
+  :global([data-exit-closing]) :global(.cg-tabs) button[data-tab] {
+    transition: none;
+  }
+}
+:global(.cg-tabs) button.exitMapInBar.exitMapInBar:hover,
+:global(.cg-tabs) button.exitMapInBar.exitMapInBar:focus-visible {
+  background: #3a3631 !important;
+  border-color: #3a3631 !important;
+  color: #fff !important;
+  transform: none !important;
+}
+:global(.cg-tabs) button.exitMapInBar .exitMapLabel {
+  gap: 7px;
+}
+:global(.cg-tabs) button.exitMapInBar svg {
+  width: 9px;
+  height: 9px;
 }
 /* Label + icon scale together as one unit on hover — same treatment as the
    hero section's own CTAs (see HeroCarousel.module.css's .heroCtaLabel):

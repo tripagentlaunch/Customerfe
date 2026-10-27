@@ -187,7 +187,9 @@ export function AuthProvider({ children }: { children: ReactNode }) {
             credentials: "include",
             body: JSON.stringify({ email: email.trim() }),
           });
-          if (res.status === 429) return { ok: false, error: "Too many attempts: please wait a few minutes and try again." };
+          // Short codes, not sentences: the sign-in modal words each one.
+          if (res.status === 429) return { ok: false, error: "rate_limited" };
+          if (res.status >= 500) return { ok: false, error: "unavailable" };
           const data = (await res.json()) as RequestOtpApiResponse;
           if (!data.ok) return { ok: false, error: data.error ?? "request_failed" };
           return { ok: true };

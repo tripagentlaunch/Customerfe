@@ -30,8 +30,9 @@ const HERO_VIDEOS: { src: string; poster: string; end?: number }[] = [
   ...toVideos(["13707600_1920_1080_25fps"]),
 ];
 // Desktop (2026-10-26, trial): five photographs instead of video, cross-fading
-// on a timer, each with a slow zoom. Gemini-generated; their sparkle watermark
-// was retouched out before saving.
+// on a timer, each with a slow zoom. Gemini-generated, full 2752x1536 masters
+// (2026-10-26); the sparkle watermark (and the second one some carried) was
+// retouched out before saving.
 const HERO_IMAGES = [
   "/images/home-hero/1-lake-villa.jpg",
   "/images/home-hero/2-desert-oasis.jpg",

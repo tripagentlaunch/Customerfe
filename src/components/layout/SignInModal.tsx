@@ -18,6 +18,22 @@ import sheet from "./signin-sheet.module.css";
 // renders the "remote" copy/flow.
 const EMAIL_RE = /^\S+@\S+\.\S+$/;
 
+// Why a sign-in code could not be sent, in words the visitor can act on. The
+// codes come from requestLogin() (lib/auth.tsx) and Customerbe's /auth/request-otp.
+function sendCodeError(error: string): string {
+  switch (error) {
+    case "not_invited":
+      return "This email isn't on the invitation list: please speak to your advisor.";
+    case "rate_limited":
+      return "Too many codes have been requested just now. Please wait a few minutes and try again.";
+    case "unavailable":
+    case "network":
+      return "We couldn't reach the sign-in service. Check your connection and try again in a moment.";
+    default:
+      return "We couldn't send the code. Please try again.";
+  }
+}
+
 function readProfile(): { name?: string; phone?: string; email?: string } {
   try {
     const raw = localStorage.getItem("ta_profile");
@@ -102,11 +118,7 @@ function SignInModalCard({ message, close }: { message: string | null; close: ()
     if (r.ok) {
       setStep("otp");
     } else {
-      setError(
-        r.error === "not_invited"
-          ? "This email isn't on the invitation list: please speak to your advisor."
-          : "We couldn't send the code. Please try again."
-      );
+      setError(sendCodeError(r.error));
     }
   }
 

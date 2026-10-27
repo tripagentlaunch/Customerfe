@@ -9,7 +9,7 @@
         "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fjaipur.jpg&w=2560&q=80",
         "eyebrow": "A private travel maison \u00b7 by invitation",
         "headingHtml": "Someone who<br/>travels <span class=\"it\">with</span> you.",
-        "lede": "One person who knows you, and knows travel. They plan it, book it and stay with it: flights, hotels, visas, until you are home.",
+        "lede": "One person who knows you, and knows travel. TripAgent is your one-stop solution for everything travel.",
         "ctaLinks": [
           {
             "label": "Browse Destinations",
@@ -129,7 +129,7 @@
     "cards": [
       {
         "kicker": "Browse",
-        "heading": "By the trip you want",
+        "heading": "The trip you want",
         "body": "Beaches, honeymoons, safaris, wine country: start from a feeling, not a map.",
         "goLabel": "Browse collections",
         "href": "collections.html"
@@ -152,7 +152,7 @@
   },
   "planner": {
     "eyebrow": "Plan by your dates",
-    "headingHtml": "When are you free? <span class=\"em\">We will show you where, and where to stay.</span>",
+    "headingHtml": "When are you flying?",
     "lede": "Choose a month. We show the few places at their best then, with the rooms we would hold: the start of a conversation with your advisor.",
     "months": [
       "January",
@@ -1417,7 +1417,7 @@
   },
   "services": {
     "eyebrow": "What we handle",
-    "headingHtml": "You bring the <span class=\"it\">why</span>. We handle the <span class=\"it\">how</span>.",
+    "headingHtml": "What we do <span class=\"it\">best</span>.",
     "lede": "Three things, done completely, so all you carry is anticipation.",
     "allLabel": "All we handle",
     "allHref": "services.html",

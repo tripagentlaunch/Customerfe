@@ -7,15 +7,45 @@
 /* --hiw-t: one duration for every step change — line, dots, labels,
    image and copy move together, so they never show different steps. */
 .section {
-  overflow: hidden;
+  /* clip, not hidden: `overflow: hidden` makes this the scroll container and
+     breaks the sticky stage inside it. */
+  overflow: clip;
   --hiw-t: 0.35s;
+  --hiw-step: 70vh; /* scroll distance between two stages (desktop) */
+}
+/* The content block. Not pinned (phones): the section's usual padding. */
+.sticky {
+  padding: clamp(60px, 8vh, 118px) 0;
 }
 /* Phone: the shared --sec-m section padding (site.css) instead of ~118px. */
 @media (max-width: 720px) {
-  .section:global(.band) {
-    padding-top: var(--sec-m, 56px);
-    padding-bottom: var(--sec-m, 56px);
+  .sticky {
+    padding: var(--sec-m, 56px) 0;
   }
+}
+/* Desktop: the stage is pinned to the screen while the (tall) section scrolls
+   past it; the line fills with the scroll, so no fill transition (it would lag). */
+.pinned .sticky {
+  position: sticky;
+  top: 0;
+  height: 100svh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* 96px clear at the top: the navbar (about 65px tall) overlays the page when
+     it comes back (hover at the top / scroll up), and must not cover the track. */
+  padding: 96px 0 24px;
+}
+.pinned .sticky > :global(.wrap) {
+  width: 100%;
+}
+.pinned .lineFill {
+  transition: none;
+}
+/* The picture shrinks on short screens so track + picture + copy fit the pinned stage. */
+.pinned .illustration {
+  max-height: calc(100svh - 320px);
 }
 .copy {
   animation: hiwCopyIn var(--hiw-t) var(--ease, ease);
