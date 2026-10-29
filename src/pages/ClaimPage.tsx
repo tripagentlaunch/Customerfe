@@ -4,6 +4,7 @@ import { useBareChromeForGuests } from "../lib/bareChrome";
 import { useAuth } from "../lib/auth";
 import { askForOrigin, canAskForOrigin, declineOrigin, type Position } from "../lib/origin";
 import { useSignInModal } from "../lib/signInModal";
+// import { useIsMobile } from "../hooks/useIsMobile"; // no longer needed: phones use the desktop layout
 import styles from "./claim-page.module.css";
 
 // Ported from claim.html — the 8-digit-code redemption page (distinct from
@@ -41,8 +42,17 @@ const VIDEO_FALLBACK_SRC = "/images/tripagent-claim-fallback.jpg";
 
 const DESK_EMAIL = "invite@tripagent.vip";
 
+// Desktop (2026-10-28, direct request): the card, inputs and buttons take the
+// request-access screen's look (dark frosted glass, square white button +
+// outline glass button side by side, no arrows). The page keeps its own
+// video / fallback photo and its centred layout. Phones are unchanged.
+// (A logo mark was tried top-left and removed; this page has no logo.)
+
 export default function ClaimPage() {
   useBareChromeForGuests();
+  // 2026-10-29 (direct request): phones show the desktop layout too (the two buttons side by side, no arrow).
+  // Was: const desk = !useIsMobile();
+  const desk = true;
 
   useEffect(() => {
     document.title = "Claim your invitation | TripAgent";
@@ -266,7 +276,7 @@ export default function ClaimPage() {
   }
 
   return (
-    <section className={styles.claimRoot}>
+    <section className={`${styles.claimRoot}${desk ? ` ${styles.desk}` : ""}`}>
       {reduceMotion || videoFailed ? (
         <img className={styles.bg} src={VIDEO_FALLBACK_SRC} alt="" aria-hidden="true" />
       ) : (
@@ -326,22 +336,36 @@ export default function ClaimPage() {
                     Sign in
                   </button>
                 )}
-                <button type="submit" className={styles.submitBtn} disabled={busy}>
-                  {busy ? "Verifying…" : "Claim your invitation"}
-                  {!busy && (
-                    <span className={styles.arrow} aria-hidden="true">
-                      →
-                    </span>
-                  )}
-                </button>
+                {desk ? (
+                  <div className={styles.btnRow}>
+                    <button type="submit" className={styles.submitBtn} disabled={busy}>
+                      <span className={styles.btnLabel}>{busy ? "Verifying…" : "Claim your invitation"}</span>
+                    </button>
+                    <Link to="/request-access" className={styles.codeBtn}>
+                      <span className={styles.btnLabel}>I don&apos;t have a code</span>
+                    </Link>
+                  </div>
+                ) : (
+                  <button type="submit" className={styles.submitBtn} disabled={busy}>
+                    {busy ? "Verifying…" : "Claim your invitation"}
+                    {!busy && (
+                      <span className={styles.arrow} aria-hidden="true">
+                        →
+                      </span>
+                    )}
+                  </button>
+                )}
               </form>
 
-              <p className={styles.footLine}>
-                Don&apos;t have a code?{" "}
-                <Link to="/request-access" className={styles.footLink}>
-                  Ask for an invitation
-                </Link>
-              </p>
+              {/* Desktop: this is the "I don't have a code" button beside the submit button. */}
+              {!desk && (
+                <p className={styles.footLine}>
+                  Don&apos;t have a code?{" "}
+                  <Link to="/request-access" className={styles.footLink}>
+                    Ask for an invitation
+                  </Link>
+                </p>
+              )}
               <p className={styles.footLine}>
                 Or write to{" "}
                 <a href={`mailto:${DESK_EMAIL}`} className={styles.footLink}>

@@ -104,7 +104,11 @@ function splitName(full: string): { first: string; last: string } {
 
 export default function RequestAccessPage() {
   useBareChromeForGuests();
-  const desk = !useIsMobile();
+  // 2026-10-29 (direct request): phones show the desktop page too (logo, the headline inside the card, field
+  // icons, "Send Invite" beside "I already have a code"). The one difference is the background: the video
+  // stays on phones, not the sunset photo. Was: const desk = !useIsMobile();
+  const isPhone = useIsMobile();
+  const desk = true;
   // Desktop wraps each input with its icon; phones get the bare input as before.
   const withIcon = (icon: JSX.Element, input: JSX.Element) =>
     desk ? (
@@ -118,6 +122,13 @@ export default function RequestAccessPage() {
 
   useEffect(() => {
     document.title = "Request access | TripAgent";
+  }, []);
+
+  // Hides the floating theme and advisor buttons on this page (CSS rule keyed
+  // to this class in request-access-page.module.css).
+  useEffect(() => {
+    document.documentElement.classList.add("ra-page");
+    return () => document.documentElement.classList.remove("ra-page");
   }, []);
 
   const [reduceMotion] = useState(
@@ -244,16 +255,45 @@ export default function RequestAccessPage() {
     ) : null;
   }
 
+  // Eyebrow, headline and intro. Phones show it above the card; desktop
+  // (2026-10-28, direct request) shows it inside the card, above the form.
+  const aside = (
+    <div className={styles.raAside}>
+      <div className={styles.eyebrow}>{desk ? "Membership · By invitation" : "By invitation"}</div>
+      <h1 className={styles.heading}>
+        Your next journey {desk && <br />}starts with a{" "}
+        <span className={styles.it}>{desk ? "conversation." : "request."}</span>
+      </h1>
+      <p className={styles.lede}>
+        {desk
+          ? "Personal travel, planned by a person. Tell us a little, and an advisor will be in touch."
+          : "Personal travel planning, curated experiences and expert advisors: for members, by invitation."}
+      </p>
+    </div>
+  );
+
+  const submitButton = (
+    <button type="submit" className={styles.submitBtn} disabled={submitting}>
+      {submitting ? (
+        "One moment…"
+      ) : desk ? (
+        // 2026-10-28: "Send to the Desk" + arrow became "Send Invite", centred, no arrow.
+        <span className={styles.btnLabel}>Send Invite</span>
+      ) : (
+        "Send to the Desk"
+      )}
+    </button>
+  );
+
   return (
     <section className={`${styles.raRoot}${desk ? ` ${styles.desk}` : ""}`}>
-      {desk ? (
-        <>
-          <div className={styles.brand}>
-            {BRAND_MARK}
-            <span>TripAgent</span>
-          </div>
-        </>
-      ) : reduceMotion || videoFailed ? (
+      {desk && (
+        <div className={styles.brand}>
+          {BRAND_MARK}
+          <span>TripAgent</span>
+        </div>
+      )}
+      {!isPhone ? null : reduceMotion || videoFailed ? (
         <img className={styles.bg} src={VIDEO_FALLBACK_SRC} alt="" aria-hidden="true" />
       ) : (
         <video
@@ -273,20 +313,10 @@ export default function RequestAccessPage() {
       <div className={styles.bgOverlay} aria-hidden="true" />
 
       <div className={styles.raWrap}>
-        <div className={styles.raAside}>
-          <div className={styles.eyebrow}>{desk ? "Membership · By invitation" : "By invitation"}</div>
-          <h1 className={styles.heading}>
-            Your next journey {desk && <br />}starts with a{" "}
-            <span className={styles.it}>{desk ? "conversation." : "request."}</span>
-          </h1>
-          <p className={styles.lede}>
-            {desk
-              ? "Personal travel, planned by a person. Tell us a little, and an advisor will be in touch."
-              : "Personal travel planning, curated experiences and expert advisors: for members, by invitation."}
-          </p>
-        </div>
+        {!desk && aside}
 
         <div className={styles.card}>
+          {desk && aside}
           {submitted ? (
             <div className={styles.thanks} role="status" aria-live="polite" tabIndex={-1} ref={thanksRef}>
               <h2 className={styles.cardHeading}>
@@ -409,28 +439,28 @@ export default function RequestAccessPage() {
                   </div>
                 )}
 
-                <button type="submit" className={styles.submitBtn} disabled={submitting}>
-                  {submitting ? (
-                    "One moment…"
-                  ) : desk ? (
-                    <>
-                      Send to the Desk
-                      <svg className={styles.btnArrow} viewBox="0 0 24 24" aria-hidden="true">
-                        <path d="M5 12h14M13 6l6 6-6 6" />
-                      </svg>
-                    </>
-                  ) : (
-                    "Send to the Desk"
-                  )}
-                </button>
+                {/* Desktop (2026-10-28): submit + code link share one row, each filling half. */}
+                {desk ? (
+                  <div className={styles.btnRow}>
+                    {submitButton}
+                    <Link to="/claim" className={styles.codeBtn}>
+                      <span className={styles.btnLabel}>I already have a code</span>
+                    </Link>
+                  </div>
+                ) : (
+                  submitButton
+                )}
               </form>
 
-              <p className={styles.footLine}>
-                Already have a code?{" "}
-                <Link to="/claim" className={styles.footLink}>
-                  Open the door
-                </Link>
-              </p>
+              {/* Phones keep the "Already have a code?" text line; on desktop it is the outline button beside the submit button. */}
+              {!desk && (
+                <p className={styles.footLine}>
+                  Already have a code?{" "}
+                  <Link to="/claim" className={styles.footLink}>
+                    Open the door
+                  </Link>
+                </p>
+              )}
               <p className={styles.footLine}>
                 Or write to{" "}
                 <a href={`mailto:${DESK_EMAIL}`} className={styles.footLink}>

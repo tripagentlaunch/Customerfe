@@ -53,8 +53,8 @@
   box-sizing: border-box;
   background: rgba(255, 250, 244, 0.86);
   border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 24px !important;
-  padding: 40px 36px 30px;
+  border-radius: 12px !important; /* was 24px, then 20px; all card corners are 12px */
+  padding: 24px 28px; /* fixed on every card (2026-10-28); was 40px 36px 30px */
   box-shadow: 0 28px 70px rgba(0, 0, 0, 0.35);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
@@ -114,7 +114,7 @@
   box-sizing: border-box;
   height: 60px;
   padding: 0 18px;
-  border-radius: 14px !important;
+  border-radius: 4px !important; /* input fields are 4px; was 8px */
   border: 1px solid rgba(80, 60, 50, 0.22);
   background: rgba(255, 255, 255, 0.6);
   color: #1a1714;
@@ -291,8 +291,8 @@
     padding: 32px 16px;
   }
   .card {
-    padding: 32px 20px 24px;
-    border-radius: 20px !important;
+    padding: 20px; /* mobile: fixed too; was 32px 20px 24px */
+    border-radius: 12px !important; /* was 20px */
   }
   .heading {
     font-size: 34px;
@@ -314,4 +314,400 @@
   .codeInput {
     transition: none;
   }
+}
+
+
+/* ===================================================================
+   Desktop (2026-10-28): the card, input and buttons take the request-access
+   screen's look. The page keeps its own video / fallback photo and its
+   centred layout. Scoped to .desk, which ClaimPage adds only when
+   !useIsMobile(); phones keep the original styles above untouched.
+   =================================================================== */
+
+.desk .card {
+  background: rgba(43, 43, 43, 0.65);
+  border: 1px solid #cbcbcb;
+  border-radius: 12px !important; /* was 20px */
+  box-shadow: 0 24px 60px -20px rgba(40, 24, 16, 0.4);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  color: #fff;
+}
+
+.desk .eyebrow {
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  color: #fff;
+}
+
+.desk .heading {
+  font-weight: 500;
+  color: #fff;
+}
+.desk .it {
+  color: #fff;
+}
+
+.desk .sub {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.desk.claimRoot .form .label {
+  font-size: 13px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 6px;
+}
+
+.desk .codeInput {
+  border-radius: 4px !important; /* input fields are 4px; was 8px */
+  border: 1px solid rgba(203, 203, 203, 0.4);
+  background: rgba(165, 165, 165, 0.4);
+  color: #fff;
+}
+.desk .codeInput::placeholder {
+  color: rgba(255, 255, 255, 0.6); /* was #fff */
+  opacity: 1;
+}
+.desk .codeInput:focus {
+  border-color: #fff;
+  background: rgba(165, 165, 165, 0.4);
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.25);
+}
+.desk .codeInput:focus-visible {
+  outline: none;
+}
+.desk .codeInput[aria-invalid="true"] {
+  border-color: #ff9d85;
+}
+
+.desk .annHint {
+  color: rgba(255, 255, 255, 0.82);
+}
+.desk .annBusy {
+  color: #fff;
+}
+.desk .annErr {
+  color: #ff9d85;
+}
+
+/* Square white primary + outline glass secondary; the label grows on hover
+   (like the hero's "Find my trip" / "Ask Tara"). */
+.desk .submitBtn {
+  height: 52px;
+  background: #fff;
+  color: #8a0000;
+  border-radius: 0 !important;
+  font-size: 14.5px;
+  font-weight: 500;
+}
+.desk .submitBtn:hover:not(:disabled) {
+  background: #fff;
+}
+.desk .submitBtn:focus-visible {
+  outline-color: #fff;
+}
+
+.btnLabel {
+  display: inline-block;
+  transform: scale(1);
+  transition: transform 0.4s var(--ease);
+}
+.submitBtn:hover:not(:disabled) .btnLabel,
+.codeBtn:hover .btnLabel {
+  transform: scale(1.1);
+}
+
+.btnRow {
+  display: flex;
+  gap: 12px;
+}
+.btnRow > .submitBtn {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.codeBtn {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  height: 52px;
+  border: 1px solid #fff;
+  border-radius: 0 !important;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  color: #fff;
+  font-family: var(--sans);
+  font-size: 14.5px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.codeBtn:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
+
+/* Location step buttons in the welcome state, same treatment. */
+.desk .ghostBtn {
+  height: 52px;
+  border: 1px solid #fff;
+  border-radius: 0 !important;
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+  font-size: 14.5px;
+  font-weight: 500;
+}
+.desk .ghostBtn:hover:not(:disabled) {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: #fff;
+}
+
+.desk .footLine {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.82);
+}
+.desk .footLink {
+  font-weight: 500;
+  color: #fff;
+  border-bottom-color: rgba(255, 255, 255, 0.55);
+}
+.desk .footLink:hover {
+  border-bottom-color: #fff;
+}
+
+
+/* ===================================================================
+   Inverted (2026-10-29, direct request), the same as /request-access: the desktop card is light
+   glass, white at 72% with the background blur kept, and no outline; the text is dark; the code
+   field is an underline, not a box. Declared last so it settles the dark-card rules above (they
+   stay for reference). Phones are unchanged.
+   =================================================================== */
+.desk .card {
+  background: rgba(255, 255, 255, 0.72); /* was rgba(43, 43, 43, 0.65) */
+  border: 0; /* was 1px solid #cbcbcb */
+  color: #1a1714;
+}
+.desk .eyebrow,
+.desk .heading,
+.desk .it {
+  color: #1a1714;
+}
+.desk .sub {
+  color: rgba(26, 23, 20, 0.8);
+}
+.desk.claimRoot .form .label {
+  color: #1a1714;
+}
+
+/* The code field: a line under it, no box. */
+.desk .codeInput {
+  border: 0;
+  border-bottom: 1px solid rgba(26, 23, 20, 0.45);
+  border-radius: 0 !important;
+  background: transparent;
+  color: #1a1714;
+}
+.desk .codeInput::placeholder {
+  color: rgba(26, 23, 20, 0.5);
+}
+.desk .codeInput:focus {
+  border-bottom-color: #1a1714;
+  background: transparent;
+  box-shadow: 0 1px 0 0 #1a1714; /* the line thickens to 2px while typing */
+}
+.desk .codeInput[aria-invalid="true"] {
+  border-bottom-color: #b3441f;
+}
+.desk .annHint {
+  color: rgba(26, 23, 20, 0.75);
+}
+.desk .annBusy {
+  color: #1a1714;
+}
+.desk .annErr {
+  color: #b3441f;
+}
+
+/* Buttons: dark solid and a dark outline. */
+.desk .submitBtn,
+.desk .submitBtn:hover:not(:disabled) {
+  background: #1a1714;
+  color: #fff;
+}
+.desk .submitBtn:focus-visible,
+.codeBtn:focus-visible {
+  outline-color: #1a1714;
+}
+.codeBtn,
+.codeBtn:hover,
+.desk .ghostBtn,
+.desk .ghostBtn:hover:not(:disabled) {
+  border-color: #1a1714;
+  background: transparent;
+  color: #1a1714;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+}
+
+.desk .footLine {
+  color: rgba(26, 23, 20, 0.75);
+}
+.desk .footLink {
+  color: #1a1714;
+  border-bottom-color: rgba(26, 23, 20, 0.5);
+}
+.desk .footLink:hover {
+  border-bottom-color: #1a1714;
+}
+
+/* Background darkening, back with new values (2026-10-29, direct request): none at the top, 20% at the
+   centre, none at the bottom, and no side vignette. Was 0 / 30% / 20% a moment ago, and originally 46% at
+   the top, about 20% in the middle and 60% at the bottom plus a dark vignette (still in the .bgOverlay
+   rule above). */
+.bgOverlay {
+  display: block;
+  background-image: linear-gradient(180deg, rgba(10, 7, 5, 0) 0%, rgba(10, 7, 5, 0.2) 50%, rgba(10, 7, 5, 0) 100%);
+}
+
+/* The caption under the card is pure white (2026-10-29, direct request); was rgba(245, 239, 230, 0.8). */
+.claimFooter {
+  color: #fff;
+}
+
+
+/* ===================================================================
+   Phones, inverted too (2026-10-29, direct request): the same look as the desktop card above, for the
+   phone page (everything outside .desk): light glass (white at 72%, blur, no outline), dark text, an
+   underlined code field and square dark / outline buttons.
+   =================================================================== */
+.claimRoot:not(.desk) .card {
+  background: rgba(255, 255, 255, 0.72); /* was rgba(255, 250, 244, 0.86) */
+  border: 0; /* was 1px solid rgba(255, 255, 255, 0.5) */
+  color: #1a1714;
+}
+.claimRoot:not(.desk) .eyebrow,
+.claimRoot:not(.desk) .heading,
+.claimRoot:not(.desk) .it {
+  color: #1a1714;
+}
+.claimRoot:not(.desk) .sub {
+  color: rgba(26, 23, 20, 0.75);
+}
+.claimRoot:not(.desk) .form .label {
+  color: #1a1714;
+}
+.claimRoot:not(.desk) .codeInput {
+  border: 0;
+  border-bottom: 1px solid rgba(26, 23, 20, 0.45);
+  border-radius: 0 !important;
+  background: transparent;
+  color: #1a1714;
+}
+.claimRoot:not(.desk) .codeInput::placeholder {
+  color: rgba(26, 23, 20, 0.5);
+}
+.claimRoot:not(.desk) .codeInput:focus {
+  border-bottom-color: #1a1714;
+  background: transparent;
+  box-shadow: 0 1px 0 0 #1a1714;
+}
+.claimRoot:not(.desk) .codeInput[aria-invalid="true"] {
+  border-bottom-color: #b3441f;
+}
+.claimRoot:not(.desk) .annHint {
+  color: rgba(26, 23, 20, 0.75);
+}
+.claimRoot:not(.desk) .annBusy {
+  color: #1a1714;
+}
+.claimRoot:not(.desk) .annErr {
+  color: #b3441f;
+}
+.claimRoot:not(.desk) .submitBtn,
+.claimRoot:not(.desk) .submitBtn:hover:not(:disabled) {
+  background: #1a1714;
+  color: #fff;
+  border-radius: 0 !important; /* was a pill */
+}
+.claimRoot:not(.desk) .ghostBtn,
+.claimRoot:not(.desk) .ghostBtn:hover:not(:disabled) {
+  border-color: #1a1714;
+  border-radius: 0 !important;
+  background: transparent;
+  color: #1a1714;
+}
+.claimRoot:not(.desk) .submitBtn:focus-visible,
+.claimRoot:not(.desk) .ghostBtn:focus-visible {
+  outline-color: #1a1714;
+}
+.claimRoot:not(.desk) .footLine {
+  color: rgba(26, 23, 20, 0.75);
+}
+.claimRoot:not(.desk) .footLink {
+  color: #1a1714;
+  border-bottom-color: rgba(26, 23, 20, 0.5);
+}
+
+
+/* Phones show the desktop layout (2026-10-29, direct request): the two buttons side by side, no arrow. This
+   fits them to a phone. The "Phones, inverted" block above is no longer used. */
+@media (max-width: 420px) {
+  .desk .submitBtn,
+  .codeBtn {
+    font-size: 13px;
+  }
+  .codeBtn,
+  .desk .submitBtn {
+    padding: 0 6px;
+    line-height: 1.2;
+    text-align: center;
+  }
+}
+
+
+/* Italic text is wine-burgundy on every screen (2026-10-29, direct request): the "invited." and "TripAgent." in the
+   headings. They were dark ink on the glass card. */
+.it,
+.desk .it,
+.claimRoot:not(.desk) .it {
+  color: #6e2a38;
+}
+
+/* Italic text is semibold too (2026-10-29, direct request): Cormorant's italic comes in weights 300 to 700, so
+   600 is real. The headings around it are 500. */
+.it,
+.desk .it,
+.claimRoot:not(.desk) .it {
+  font-weight: 600;
+}
+
+
+/* Phone /claim (2026-10-29, direct request): the two buttons fill the width and stack, as on /request-access.
+   Desktop keeps them side by side. Declared after the 420px rule above, so the buttons are back to 14.5px. */
+@media (max-width: 720px) {
+  .btnRow {
+    flex-direction: column;
+    gap: 6px;
+  }
+  .btnRow > .submitBtn,
+  .btnRow > .codeBtn,
+  .desk .submitBtn,
+  .codeBtn {
+    width: 100%;
+    flex: none;
+    height: 48px;
+    font-size: 14.5px;
+    padding: 0;
+  }
+}
+
+/* The code in the code field is 24px on every screen (2026-10-29, direct request); was 20px a moment ago, and
+   originally 22px (20px on narrow phones). */
+.codeInput,
+.desk .codeInput {
+  font-size: 24px;
 }

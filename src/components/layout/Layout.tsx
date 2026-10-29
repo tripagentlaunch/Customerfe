@@ -34,10 +34,12 @@ export type LayoutOutletContext = { setBareForGuests: (bare: boolean) => void };
 export function Layout() {
   const { pathname } = useLocation();
   const isFullscreenChat = FULLSCREEN_CHAT_PATHS.has(pathname);
-  const { signedIn, loading, member } = useAuth();
+  const { signedIn, member } = useAuth(); // `loading` was used by the old guests-only bare check below
   const [bareForGuests, setBareForGuests] = useState(false);
-  // Bare until auth has resolved too, so a guest never sees the chrome flash.
-  const isBare = bareForGuests && (loading || !signedIn);
+  // 2026-10-28 (direct request): /request-access and /claim show no navbar,
+  // footer or floating buttons for anyone, signed in or not.
+  // Was (guests only, bare until auth resolved): const isBare = bareForGuests && (loading || !signedIn);
+  const isBare = bareForGuests;
   const hideChrome = isFullscreenChat || isBare;
 
   // js/shell.js sets this on <html> once the shell header is built; several
