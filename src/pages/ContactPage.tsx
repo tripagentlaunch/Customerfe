@@ -65,7 +65,7 @@ export default function ContactPage() {
             ))}
             {noteHtml ? <p className={styles.ctNote} dangerouslySetInnerHTML={{ __html: noteHtml }} /> : null}
           </div>
-          {/* Full width under the two columns (inside them it was squeezed to half). */}
+          {/* The company's registered details, once, full width under the two columns. */}
           <CompanyCard title="Company details" />
         </div>
       </section>

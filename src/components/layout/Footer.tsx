@@ -189,7 +189,6 @@ export function Footer() {
         <div className="legal">
           <span>
             © 2026 {COMPANY.brand}, a brand of {COMPANY.legalName}
-            <span className="faddr"> · {COMPANY.shortAddress} · GSTIN {COMPANY.gstin}</span>
           </span>
           <span className="fstay">We stay.</span>
         </div>

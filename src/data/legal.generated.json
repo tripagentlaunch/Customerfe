@@ -91,14 +91,6 @@
       },
       {
         "kind": "heading",
-        "html": "Who you are dealing with"
-      },
-      {
-        "kind": "paragraph",
-        "html": "TripAgent is a brand of <b>Polaris Commerce Group Private Limited</b>, a private limited company registered in India. Its registered details are set out at the end of this page."
-      },
-      {
-        "kind": "heading",
         "html": "Using the service well"
       },
       {
@@ -122,7 +114,7 @@
         "html": "These terms are governed by the laws of India; disputes are subject to the courts of Bangalore, India."
       }
     ],
-    "note": null
+    "note": "TripAgent is a brand of <b>Polaris Commerce Group Private Limited</b>. Our registered address and contact details are on the <a href=\"/contact\">Contact</a> page."
   },
   "privacy": {
     "slug": "privacy",
@@ -207,22 +199,10 @@
       },
       {
         "kind": "paragraph",
-        "html": "For any question or complaint about how we handle your personal data, contact our grievance officer:"
-      },
-      {
-        "kind": "list",
-        "items": [
-          "<b>Email</b> <a href=\"mailto:invite@tripagent.vip\">invite@tripagent.vip</a>",
-          "<b>Phone</b> <a href=\"tel:+918451871851\">+91 84518 71851</a>",
-          "<b>Response</b> acknowledged within 48 hours, resolved within 30 days, as the law requires."
-        ]
-      },
-      {
-        "kind": "paragraph",
-        "html": "The data fiduciary is <b>Polaris Commerce Group Private Limited</b>; its registered details are below."
+        "html": "For any question or complaint about how we handle your personal data, write to our grievance officer at <a href=\"mailto:invite@tripagent.vip\">invite@tripagent.vip</a>. We acknowledge within 48 hours and resolve within 30 days, as the law requires. The data fiduciary is Polaris Commerce Group Private Limited."
       }
     ],
-    "note": null
+    "note": "TripAgent is a brand of <b>Polaris Commerce Group Private Limited</b>. Our registered address and contact details are on the <a href=\"/contact\">Contact</a> page."
   },
   "refund": {
     "slug": "refund",
@@ -247,7 +227,7 @@
       },
       {
         "kind": "paragraph",
-        "html": "Message your advisor, email <a href=\"mailto:invite@tripagent.vip\">invite@tripagent.vip</a> or call <a href=\"tel:+918451871851\">+91 84518 71851</a> with your booking reference. We confirm the exact charges before we cancel or change anything, and we act only on your go-ahead."
+        "html": "Message your advisor or write to <a href=\"mailto:invite@tripagent.vip\">invite@tripagent.vip</a> with your booking reference. We confirm the exact charges before we cancel or change anything, and we act only on your go-ahead."
       },
       {
         "kind": "heading",
@@ -322,6 +302,6 @@
         "html": "Membership is by invitation and carries a complimentary period with no membership fee, so there is nothing to refund. Leave at any time."
       }
     ],
-    "note": null
+    "note": "TripAgent is a brand of <b>Polaris Commerce Group Private Limited</b>. Our registered address and contact details are on the <a href=\"/contact\">Contact</a> page."
   }
 }

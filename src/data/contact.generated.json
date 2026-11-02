@@ -1,7 +1,7 @@
 {
   "seo": {
     "title": "Contact | TripAgent",
-    "description": "Reach TripAgent at invite@tripagent.vip or +91 84518 71851: members hear back within the hour."
+    "description": "Reach TripAgent at invite@tripagent.vip: members hear back within the hour."
   },
   "hero": {
     "eyebrow": "Contact",
@@ -40,5 +40,5 @@
       "bodyHtml": "Membership is <a href=\"/invitation\">by invitation</a>. Hold one? <a href=\"/invitation\">Enter through your private link</a>, and your advisor introduces themselves the same day."
     }
   ],
-  "noteHtml": "For press or partnerships, write to <a href=\"mailto:invite@tripagent.vip\">invite@tripagent.vip</a>."
+  "noteHtml": ""
 }
