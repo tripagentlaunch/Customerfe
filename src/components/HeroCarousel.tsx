@@ -8,7 +8,7 @@ import "swiper/css/navigation";
 import type { HeroSlide } from "../types/homepage";
 import { toRoute } from "../lib/toRoute";
 import { PrimaryInverseButton, SecondaryInverseButton } from "./buttons/InverseButtons";
-import { withTaraAI } from "./TaraAI";
+// import { withTaraAI } from "./TaraAI"; // no longer used: phones show "Ask Tara" like desktop
 import { useIsMobile } from "../hooks/useIsMobile";
 import styles from "./HeroCarousel.module.css";
 
@@ -43,7 +43,7 @@ const HERO_IMAGES = [
 const DESKTOP_SLIDE_MS = 6000;
 // Desktop hero copy (2026-10-26, direct request). The sub-copy stays the
 // data's own lede (the same sentence, with the site's no-long-dash
-// punctuation). Phones keep the data copy.
+// punctuation). Phones show the same copy (2026-11-02).
 const DESKTOP_COPY = {
   // Short, and says what TripAgent is; the headline carries "human + tech",
   // so the two no longer repeat each other. "Desk" matches the request page.
@@ -220,18 +220,21 @@ export default function HeroCarousel({ slides }: { slides: HeroSlide[] }) {
       <div className={styles.slideInner}>
         <div className="wrap">
           <div className={styles.hsCopy}>
-            <div className="eyebrow on-dark">{isMobile ? (content.eyebrow ?? "").replace(/\s*·\s*by invitation\s*$/i, "") : DESKTOP_COPY.eyebrow}</div>
+            {/* 2026-11-02 (direct request): phones show the desktop copy too. Was, on phones: the data's eyebrow
+                ("A private travel maison") and headline ("Someone who travels with you."), and the buttons "Browse cities" and
+                "Ask Tara AI". The "Talk to a human" link is still left off phones (see HeroCarousel.module.css). */}
+            <div className="eyebrow on-dark">{DESKTOP_COPY.eyebrow}</div>
             <div className="rule" />
-            <h1 className={`display ${styles.display}`} dangerouslySetInnerHTML={{ __html: (isMobile ? content.headingHtml : DESKTOP_COPY.headingHtml) ?? "" }} />
+            <h1 className={`display ${styles.display}`} dangerouslySetInnerHTML={{ __html: DESKTOP_COPY.headingHtml }} />
             <p className={`lede on-dark ${styles.lede}`} style={{ marginTop: 24 }}>
               {content.lede}
             </p>
             <div className={styles.heroCtaRow}>
-              {(isMobile ? content.ctaLinks : DESKTOP_COPY.ctas).map((cta, ci) => {
+              {DESKTOP_COPY.ctas.map((cta, ci) => {
                 if (ci === 0) {
                   return (
                     <PrimaryInverseButton to={cta.href} key={ci}>
-                      {isMobile ? "Browse cities" : cta.label}
+                      {cta.label}
                     </PrimaryInverseButton>
                   );
                 }
@@ -240,8 +243,8 @@ export default function HeroCarousel({ slides }: { slides: HeroSlide[] }) {
                     // Desktop label is just "Ask Tara"; the aria-label keeps it a
                     // Tara CTA, so the click opens the Tara chatbot signed in with
                     // the member's invite code (lib/taraChat.ts), as before.
-                    <SecondaryInverseButton to={cta.href} key={ci} ariaLabel={isMobile ? undefined : "Ask Tara AI"}>
-                      {isMobile ? withTaraAI(cta.label) : cta.label}
+                    <SecondaryInverseButton to={cta.href} key={ci} ariaLabel="Ask Tara AI">
+                      {cta.label}
                     </SecondaryInverseButton>
                   );
                 }

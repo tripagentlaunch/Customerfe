@@ -2,14 +2,14 @@
   "terms": {
     "slug": "terms",
     "seo": {
-      "title": "Membership terms | TripAgent",
+      "title": "Terms & Conditions | TripAgent",
       "description": "How TripAgent membership works: invitation and complimentary period, billing, cancellation and what the fee covers."
     },
     "hero": {
-      "eyebrow": "Legal · Membership",
-      "heading": "Membership terms",
+      "eyebrow": "Terms & Conditions",
+      "heading": "Terms & Conditions",
       "standfirst": "How membership works, in plain words: kept as it should be: clear, and without surprises.",
-      "updated": "Last updated · June 2026"
+      "updated": "Last updated · November 2026"
     },
     "nodes": [
       {
@@ -31,10 +31,9 @@
       {
         "kind": "list",
         "items": [
-          "Membership is <b>by invitation</b>. Each invitation carries a one-time code that grants a <b>complimentary period</b>set per invitation, ranging from <b>three months to twelve months</b>with the full service, at no membership fee.",
-          "A valid card is captured when you redeem your invitation. You are never charged during the complimentary period.",
-          "After the complimentary period, membership <b>continues at ₹12,000 per year</b>, charged to the card captured at sign-up, unless you cancel first.",
-          "We remind you before your complimentary period ends, so the renewal is never a surprise."
+          "Membership is <b>by invitation</b>. Each invitation carries a one-time code that grants a <b>complimentary period</b>, set per invitation, with the full service and no membership fee.",
+          "A card is saved securely when you redeem your invitation, with a zero-amount check: nothing is charged.",
+          "There is no membership fee today. If we ever introduce one, we will tell you the amount well in advance, and you will be charged only if you choose to continue."
         ]
       },
       {
@@ -43,15 +42,15 @@
       },
       {
         "kind": "paragraph",
-        "html": "Cancel at any time: message your advisor or write to <a href=\"mailto:invite@tripagent.vip\">invite@tripagent.vip</a>. Cancel before your complimentary period ends and you are charged nothing. Cancel during a paid year and your membership runs to the end of that year; it simply does not renew."
+        "html": "Cancel at any time: message your advisor or write to <a href=\"mailto:invite@tripagent.vip\">invite@tripagent.vip</a>. Nothing is charged for leaving."
       },
       {
         "kind": "heading",
-        "html": "What the fee covers, and what it doesn’t"
+        "html": "What you pay for"
       },
       {
         "kind": "paragraph",
-        "html": "The ₹12,000 covers your <b>membership</b>: the advisor relationship and the concierge. <b>Travel itself</b>air fares, hotel rooms, visa government fees: is paid per trip, transparently, with taxes shown. We never add hidden markups; any service fee is disclosed before you confirm."
+        "html": "Membership itself is free during your complimentary period: the advisor relationship and the concierge. <b>Travel itself</b>, air fares, hotel rooms and visa government fees, is paid per trip, transparently, with taxes shown. We never add hidden markups; our service fee is shown before you confirm."
       },
       {
         "kind": "heading",
@@ -60,6 +59,35 @@
       {
         "kind": "paragraph",
         "html": "Flights, hotels and visas are provided by airlines, hotels, bedbanks and government authorities. Their own terms, fare rules and timelines apply to each booking. Your advisor makes these clear before you commit."
+      },
+      {
+        "kind": "heading",
+        "html": "Prices and payment"
+      },
+      {
+        "kind": "list",
+        "items": [
+          "Every price is shown in Indian rupees before you pay. It includes the airline or hotel fare, TripAgent's service fee and the GST (and, where the law requires it, TCS) on your booking, each shown on its own line.",
+          "Fares and room rates are live and can change until a booking is paid for. We check the price again just before you pay; if it has moved, we show you the new price first and you choose whether to go ahead.",
+          "You pay in one secure payment through our regulated payment partner (cards, UPI, net banking and wallets). We never see or store your full card number.",
+          "A booking is confirmed only once your payment has been received and the airline or hotel has confirmed it. We send the e-ticket or hotel confirmation to your email."
+        ]
+      },
+      {
+        "kind": "heading",
+        "html": "Your details"
+      },
+      {
+        "kind": "paragraph",
+        "html": "Names must match the passport or government ID each traveller will carry. Airlines and hotels may refuse travel or charge for corrections if they don't, and we are not responsible for refusals caused by incorrect details you gave us."
+      },
+      {
+        "kind": "heading",
+        "html": "Cancellations, changes and refunds"
+      },
+      {
+        "kind": "paragraph",
+        "html": "How cancellations, date changes and refunds work, and how long refunds take, is set out in our <a href=\"/refund\">Cancellation &amp; Refund Policy</a>, which forms part of these terms."
       },
       {
         "kind": "heading",
@@ -75,7 +103,7 @@
       },
       {
         "kind": "paragraph",
-        "html": "We take great care, but are not liable for events outside our control (airline cancellations, weather, government decisions). Where we are responsible, our liability is limited to the membership fee you have paid. Nothing here limits rights you have under Indian law."
+        "html": "We take great care, but are not liable for events outside our control (airline cancellations, weather, government decisions). Where we are responsible, our liability is limited to the amount you paid us for the booking concerned. Nothing here limits rights you have under Indian law."
       },
       {
         "kind": "heading",
@@ -86,19 +114,19 @@
         "html": "These terms are governed by the laws of India; disputes are subject to the courts of Bangalore, India."
       }
     ],
-    "note": "This is a plain-language summary for our members. The membership is operated by <b>Tripsure</b>, 44, Kingfisher Towers, Bangalore 560 001. Where this summary and our full published policies differ, the full policies: confirmed by Tripsure, govern. Questions: <a href=\"mailto:invite@tripagent.vip\">invite@tripagent.vip</a>."
+    "note": "TripAgent is a brand of <b>Polaris Commerce Group Private Limited</b>. Our registered address and contact details are on the <a href=\"/contact\">Contact</a> page."
   },
   "privacy": {
     "slug": "privacy",
     "seo": {
-      "title": "Privacy | TripAgent",
+      "title": "Privacy Policy | TripAgent",
       "description": "What we collect, why, and the control you keep: under India's DPDP Act."
     },
     "hero": {
       "eyebrow": "Legal · Privacy",
-      "heading": "Privacy",
+      "heading": "Privacy Policy",
       "standfirst": "Your trust is the thing we look after most. Here is what we hold, why, and the control you keep.",
-      "updated": "Last updated · June 2026"
+      "updated": "Last updated · November 2026"
     },
     "nodes": [
       {
@@ -113,7 +141,7 @@
         "kind": "list",
         "items": [
           "<b>You give us:</b> name, email, mobile, city, how you travel, and trip details you share with your advisor.",
-          "<b>To take payment:</b> card or UPI details are entered directly with our payment processor, <b>Razorpay</b>. We do not see or store your card number.",
+          "<b>To take payment:</b> card or UPI details are entered directly with our regulated payment partner. We do not see or store your card number.",
           "<b>Automatically:</b> basic, privacy-respecting usage data to keep the site working."
         ]
       },
@@ -123,7 +151,7 @@
       },
       {
         "kind": "paragraph",
-        "html": "To plan and book your travel, introduce your advisor, take the membership fee, send you trip and service messages, and meet legal and tax obligations in India."
+        "html": "To plan and book your travel, introduce your advisor, take payment for your bookings, send you trip and service messages, and meet legal and tax obligations in India."
       },
       {
         "kind": "heading",
@@ -164,63 +192,116 @@
       {
         "kind": "paragraph",
         "html": "We hold your data on bank-grade infrastructure with access controls and encryption in transit. Payments run on PCI-compliant rails."
+      },
+      {
+        "kind": "heading",
+        "html": "Grievances and contact"
+      },
+      {
+        "kind": "paragraph",
+        "html": "For any question or complaint about how we handle your personal data, write to our grievance officer at <a href=\"mailto:invite@tripagent.vip\">invite@tripagent.vip</a>. We acknowledge within 48 hours and resolve within 30 days, as the law requires. The data fiduciary is Polaris Commerce Group Private Limited."
       }
     ],
-    "note": "This is a plain-language summary for our members. The membership is operated by <b>Tripsure</b>, 44, Kingfisher Towers, Bangalore 560 001. Where this summary and our full published policies differ, the full policies: confirmed by Tripsure, govern. Questions: <a href=\"mailto:invite@tripagent.vip\">invite@tripagent.vip</a>."
+    "note": "TripAgent is a brand of <b>Polaris Commerce Group Private Limited</b>. Our registered address and contact details are on the <a href=\"/contact\">Contact</a> page."
   },
   "refund": {
     "slug": "refund",
     "seo": {
-      "title": "Refund of fees | TripAgent",
-      "description": "Our plain-language stance on membership refunds and refunds on travel you book."
+      "title": "Cancellation & Refund Policy | TripAgent",
+      "description": "How to cancel or change a TripAgent booking, what is refunded, and how long refunds take."
     },
     "hero": {
-      "eyebrow": "Legal · Refunds",
-      "heading": "Refund of fees",
-      "standfirst": "Plainly stated, because that is how it should be.",
-      "updated": "Last updated · June 2026"
+      "eyebrow": "Cancellation & Refunds",
+      "heading": "Cancellation & Refund Policy",
+      "standfirst": "How to cancel or change a booking, what you get back, and how long it takes: flights, hotels and visas.",
+      "updated": "Last updated · November 2026"
     },
     "nodes": [
       {
         "kind": "paragraph",
-        "html": "Where our membership fee and the travel you book are concerned, here is exactly how refunds work."
+        "html": "Here is exactly how cancellations and refunds work for the travel you book with us."
       },
       {
         "kind": "heading",
-        "html": "The complimentary period"
+        "html": "How to cancel or change a booking"
       },
       {
         "kind": "paragraph",
-        "html": "Membership is by invitation. Each invitation carries a complimentary period: set per invitation, from <b>three to twelve months</b>at no membership fee. Cancel before it ends and <b>you are charged nothing</b>; there is nothing to refund."
+        "html": "Message your advisor or write to <a href=\"mailto:invite@tripagent.vip\">invite@tripagent.vip</a> with your booking reference. We confirm the exact charges before we cancel or change anything, and we act only on your go-ahead."
       },
       {
         "kind": "heading",
-        "html": "The annual membership fee"
+        "html": "Flights"
       },
       {
         "kind": "list",
         "items": [
-          "If a renewal is charged in error, or within <b>7 days</b> of a charge you have not used, write to us and we refund the ₹12,000 in full.",
-          "Otherwise the annual fee is non-refundable, but cancelling stops the next renewal: you keep the service to the end of the year already paid."
+          "Cancellations and date or name changes follow the airline's fare rules for your ticket, which we show before you pay. Some fares are non-refundable; others refund part of the fare after the airline's cancellation fee.",
+          "What you get back is the amount the airline refunds, less the airline's cancellation or change fee. Taxes the airline refunds are passed back to you in full.",
+          "A no-show (not cancelling before departure) usually forfeits the fare; only refundable taxes are recoverable.",
+          "If the airline cancels or reschedules the flight, you can choose a free change where the airline offers one, or a full refund of what the airline returns."
         ]
       },
       {
         "kind": "heading",
-        "html": "Refunds on travel you booked"
+        "html": "Hotels"
       },
       {
-        "kind": "paragraph",
-        "html": "Air fares, hotel rooms and visa fees follow the airline’s, hotel’s or authority’s own rules: some refundable, some not. Your advisor tells you the cancellation terms <b>before</b> you confirm, and handles any eligible refund for you, chasing it to completion."
+        "kind": "list",
+        "items": [
+          "Each room rate has its own cancellation policy, shown before you pay: free cancellation up to a stated date, partially refundable, or non-refundable.",
+          "Cancel within the free-cancellation window and the room price is refunded in full. After it, or for a non-refundable rate, the hotel's cancellation charge applies, up to the full price.",
+          "Early check-out or a no-show is charged as the hotel's policy states."
+        ]
       },
       {
         "kind": "heading",
-        "html": "How to request"
+        "html": "Visas"
       },
       {
         "kind": "paragraph",
-        "html": "Message your advisor or email <a href=\"mailto:invite@tripagent.vip\">invite@tripagent.vip</a>. Approved refunds return to your original payment method, typically within 5–7 business days."
+        "html": "Government and embassy fees are not refundable once an application has been submitted, whatever the outcome. Our handling fee is refunded in full if you cancel before we submit."
+      },
+      {
+        "kind": "heading",
+        "html": "Our service fee"
+      },
+      {
+        "kind": "list",
+        "items": [
+          "TripAgent's service fee and the GST on it are refunded in full if a booking cannot be confirmed, or if the airline or hotel cancels it.",
+          "Once a booking has been issued, the service fee is not refundable when you cancel or change it yourself."
+        ]
+      },
+      {
+        "kind": "heading",
+        "html": "Failed or duplicate payments"
+      },
+      {
+        "kind": "paragraph",
+        "html": "If money left your account but the booking was not confirmed, or you were charged twice, the full amount is refunded automatically, with nothing deducted."
+      },
+      {
+        "kind": "heading",
+        "html": "How long refunds take"
+      },
+      {
+        "kind": "list",
+        "items": [
+          "We start the refund within 2 working days of the airline or hotel confirming the amount, or of the cancellation where we hold the money.",
+          "Refunds go back to the original payment method and usually reach you within 5–7 working days after that; some banks take up to 10.",
+          "We email you when the refund is initiated, with the amount and a reference you can quote to your bank."
+        ]
+      },
+      {
+        "kind": "heading",
+        "html": "Membership"
+      },
+      {
+        "kind": "paragraph",
+        "html": "Membership is by invitation and carries a complimentary period with no membership fee, so there is nothing to refund. Leave at any time."
       }
     ],
-    "note": "This is a plain-language summary for our members. The membership is operated by <b>Tripsure</b>, 44, Kingfisher Towers, Bangalore 560 001. Where this summary and our full published policies differ, the full policies: confirmed by Tripsure, govern. Questions: <a href=\"mailto:invite@tripagent.vip\">invite@tripagent.vip</a>."
+    "note": "TripAgent is a brand of <b>Polaris Commerce Group Private Limited</b>. Our registered address and contact details are on the <a href=\"/contact\">Contact</a> page."
   }
 }

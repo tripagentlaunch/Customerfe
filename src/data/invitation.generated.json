@@ -97,7 +97,7 @@
     "eyebrow": "A card on file",
     "headingHtml": "So nothing interrupts you,<br/>when the time <span class=\"it\">comes</span>.",
     "lede": "Nothing is charged today.",
-    "stubTag": "Securely held · Razorpay",
+    "stubTag": "Securely held",
     "chargeLineTemplate": "Nothing is charged until <b id=\"trialEnd\"></b>. Add a card now or later: your membership is active either way.",
     "chargeNote": "Cancel any time before then: a single message to your advisor, nothing to explain.",
     "enterLabel": "Enter the maison.",

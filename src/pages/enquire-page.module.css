@@ -39,3 +39,1905 @@
 
 .enq-notlive{padding:20px 0;text-align:center}
 .enq-notlive p{font-size:14px;color:var(--stone);margin-bottom:16px}
+
+
+/* ===================================================================
+   Desktop (2026-10-28): same look as /request-access and /claim. Used only
+   by EnquirePage's desktop branch (!useIsMobile()); phones keep the original
+   page above. One dark frosted-glass card in a single vertical column over a
+   photo, always inside the viewport height.
+   =================================================================== */
+
+.deskRoot {
+  position: relative;
+  height: 100svh;
+  overflow: hidden;
+  background: #171414 url("/images/enquire-desktop.jpg") center / cover no-repeat;
+  color: #fff;
+  font-family: var(--sans);
+}
+.deskRoot::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(180deg, rgba(10, 7, 5, 0.4) 0%, rgba(10, 7, 5, 0.12) 40%, rgba(10, 7, 5, 0.3) 100%);
+}
+
+.deskWrap {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  /* Same space above and below (clears the navbar), so the cards sit in the true centre of the page. */
+  padding: clamp(64px, 8.5vh, 92px) clamp(24px, 4vw, 64px); /* bottom was clamp(12px, 2.4vh, 28px) */
+}
+
+.deskCard {
+  width: min(1120px, 100%);
+  /* Hugs the form's content; the left card stretches to the same height. If the
+     form is taller than the window, the fields scroll inside the card. */
+  max-height: 100%;
+  margin: auto 0;
+  height: auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  gap: clamp(14px, 1.8vw, 24px);
+}
+
+/* The two glass cards (same look as /request-access and /claim). Corner radii
+   carry !important because site.css squares every corner. */
+.deskAside,
+.deskPane {
+  box-sizing: border-box;
+  padding: 24px 28px; /* fixed (2026-10-28); was clamp(14px, 3vh, 34px) clamp(22px, 2.4vw, 34px) clamp(12px, 2.6vh, 28px) */
+  background-color: rgba(0, 0, 0, 0.45); /* black at 45% (was white at 1%, before that rgba(43, 43, 43, 0.8)) */
+  /* Liquid-glass sheen: a faint diagonal light across the glass, brightest at the top-left and bottom-right. */
+  background-image: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.16) 0%,
+    rgba(255, 255, 255, 0) 38%,
+    rgba(255, 255, 255, 0) 62%,
+    rgba(255, 255, 255, 0.1) 100%
+  );
+  border: 0; /* the white stroke is gone for a glass look (was 1px solid #cbcbcb) */
+  border-radius: 12px !important; /* was 20px */
+  /* White inner shadows at the top-left and bottom-right corners, plus the soft drop shadow. */
+  box-shadow:
+    inset 1.5px 1.5px 1px rgba(255, 255, 255, 0.75), /* crisp light edge, top-left */
+    inset -1.5px -1.5px 1px rgba(255, 255, 255, 0.45), /* crisp light edge, bottom-right */
+    inset 10px 10px 24px -8px rgba(255, 255, 255, 0.4), /* soft inner glow, top-left */
+    inset -10px -10px 24px -8px rgba(255, 255, 255, 0.28), /* soft inner glow, bottom-right */
+    0 24px 60px -20px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(24px) saturate(160%);
+  -webkit-backdrop-filter: blur(24px) saturate(160%);
+}
+
+/* ---------- left card: the text that used to sit beside the form ---------- */
+.deskAside {
+  flex: 0 0 clamp(300px, 34%, 390px);
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.dEyebrow {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #fff;
+}
+.dEyebrow::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 1px;
+  margin: clamp(6px, 1vh, 10px) 0 clamp(6px, 1.2vh, 12px);
+  background: rgba(255, 255, 255, 0.4);
+}
+.dHeading {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: clamp(24px, min(2.6vw, 4.4vh), 36px);
+  line-height: 1;
+  color: #fff;
+  margin: 0 0 clamp(6px, 1.2vh, 10px);
+}
+.deskRoot .dHeading :global(.it) {
+  font-style: italic;
+  color: #fff !important; /* site.css tints .it wine red */
+}
+.dLede {
+  font-size: clamp(12.5px, 1.6vh, 14.5px);
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.85);
+  margin: 0 0 clamp(6px, 1.3vh, 12px);
+}
+.dIncl {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.dIncl li {
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+  padding: clamp(6px, 1.2vh, 11px) 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.14);
+  font-size: clamp(12.5px, 1.6vh, 14px);
+  line-height: 1.4;
+  color: #fff;
+}
+.dIncl li:last-child {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+}
+.dCk {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 10px;
+}
+
+/* ---------- right card: preview card + form ---------- */
+.deskPane {
+  flex: 1 1 auto;
+  min-width: 0;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+}
+.dPaneHeading {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: clamp(20px, 2.7vh, 25px);
+  line-height: 1.05;
+  color: #fff;
+  margin: 0 0 clamp(3px, 0.6vh, 6px);
+}
+.dMuted {
+  font-size: clamp(12px, 1.5vh, 13.5px);
+  line-height: 1.45;
+  color: rgba(255, 255, 255, 0.85);
+  margin: 0 0 clamp(6px, 1.3vh, 12px);
+}
+
+.dForm {
+  flex: 1 1 auto;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Name / mobile / email: details we already hold, shown as a preview card. */
+.dContact {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex: none;
+  box-sizing: border-box;
+  padding: clamp(6px, 1.2vh, 11px) 14px;
+  margin-bottom: clamp(32px, 6vh, 56px); /* gap to the first field row; was clamp(6px, 1.3vh, 12px) */
+  border: 1px solid rgba(203, 203, 203, 0.4);
+  border-radius: 8px !important; /* was 12px */
+  background: rgba(165, 165, 165, 0.4);
+}
+.dContactView,
+.dContactEdit {
+  flex: 1 1 auto;
+  min-width: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1.5fr;
+  gap: 12px;
+}
+.dContactItem {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.dContactLabel {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.7);
+}
+.dContactValue {
+  font-size: 13.5px;
+  color: #fff;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.dEdit {
+  flex: none;
+  background: none;
+  border: 0;
+  padding: 0 0 1px;
+  font-family: var(--sans);
+  font-size: 13px;
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.55);
+}
+.dEdit:hover {
+  border-bottom-color: #fff;
+}
+
+.dGrid {
+  flex: 1 1 auto;
+  min-height: 0;
+  display: grid;
+  /* Six columns: the city field takes five of them, travellers one (a 2-digit number
+     needs little room), and the three dropdowns two each. */
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  align-content: start;
+  gap: clamp(26px, 4.6vh, 44px) 12px; /* between rows: was clamp(20px, 3.6vh, 34px), then clamp(14px, 2.6vh, 24px), clamp(9px, 1.65vh, 16px), originally clamp(6px, 1.3vh, 13px) */
+}
+.dField {
+  min-width: 0;
+  /* no min-height: 0 here, or the grid squeezes rows below their content when the form is tall */
+  display: flex;
+  flex-direction: column;
+  gap: clamp(1px, 0.25vh, 3px); /* label to field: was clamp(3px, 0.6vh, 6px); the same amount moved to the row gap below */
+}
+.dSpan2 {
+  grid-column: span 2;
+}
+.dSpan3 {
+  grid-column: 1 / -1;
+}
+.dSpan4 {
+  grid-column: span 4;
+}
+.dSpan5 {
+  grid-column: span 5;
+}
+.dCol2 {
+  grid-column: span 2;
+}
+
+/* site.css underlines every input/select/textarea with !important; the
+   !important rules below win by specificity. */
+.deskRoot .dLabel {
+  display: block;
+  margin: 0;
+  font-family: var(--sans);
+  font-size: 12.5px;
+  font-weight: 500;
+  letter-spacing: normal;
+  text-transform: none;
+  color: #fff;
+}
+.deskRoot .dLabel span {
+  color: rgba(255, 255, 255, 0.65) !important;
+}
+.deskRoot .dControl {
+  width: 100%;
+  box-sizing: border-box;
+  height: clamp(32px, 4.6vh, 42px);
+  padding: 0 14px !important;
+  border: 1px solid rgba(203, 203, 203, 0.4) !important;
+  border-radius: 4px !important; /* input fields are 4px; was 8px */
+  background-color: rgba(165, 165, 165, 0.4) !important;
+  color: #fff;
+  color-scheme: dark; /* white calendar and clock icons in the date picker */
+  font-family: var(--sans);
+  font-size: 13.5px;
+  box-shadow: none !important;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+.deskRoot .dControl::placeholder {
+  color: rgba(255, 255, 255, 0.6); /* was #fff */
+  opacity: 1;
+}
+.deskRoot .dControl option {
+  color: #1a1714;
+}
+.deskRoot .dControl:focus,
+.deskRoot .dControl:focus-visible {
+  outline: none !important;
+  border-color: #fff !important;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.25) !important;
+}
+.deskRoot .dTextarea {
+  flex: 1 1 auto;
+  height: auto;
+  min-height: 0;
+  padding: 10px 14px !important;
+  height: clamp(56px, 11vh, 96px);
+  flex: none;
+  resize: none;
+  line-height: 1.5;
+}
+
+.dTrust {
+  flex: none;
+  text-align: center;
+  /* was margin: clamp(5px, 1vh, 9px) 0: more room between the last field and the buttons */
+  /* caption sits close to the buttons, far from the fields; was clamp(14px, 2.6vh, 24px) 0 clamp(10px, 1.8vh, 16px) */
+  margin: clamp(20px, 3.8vh, 36px) 0 clamp(4px, 0.8vh, 8px);
+  font-size: 12px;
+  line-height: 1.4;
+  color: rgba(255, 255, 255, 0.82);
+}
+
+/* One square white button; the label grows on hover (like the hero's
+   "Find my trip" / "Ask Tara"). */
+.dBtnRow {
+  flex: none;
+  display: flex;
+  gap: 12px;
+}
+.dBtnRow > .dPrimary,
+.dBtnRow > .dGhost {
+  flex: 1 1 0;
+  min-width: 0;
+  width: auto;
+}
+/* Outline glass secondary, same as /request-access and /claim. */
+.dGhost {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  height: clamp(38px, 5.4vh, 50px);
+  border: 1px solid #fff;
+  border-radius: 0;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  color: #fff;
+  font-family: var(--sans);
+  font-size: 14.5px;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+}
+.dGhost:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
+.dGhost:hover .dLabelText {
+  transform: scale(1.1);
+}
+
+.dPrimary {
+  flex: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 100%;
+  height: clamp(38px, 5.4vh, 50px);
+  border: 0;
+  border-radius: 0;
+  background: #fff;
+  color: #8a0000;
+  font-family: var(--sans);
+  font-size: 14.5px;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+}
+.dPrimary:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+.dPrimary:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
+.dLabelText {
+  display: inline-block;
+  transform: scale(1);
+  transition: transform 0.4s var(--ease);
+}
+.dPrimary:hover:not(:disabled) .dLabelText {
+  transform: scale(1.1);
+}
+.dFoot {
+  flex: none;
+  margin: clamp(6px, 1.2vh, 10px) 0 0;
+  text-align: center;
+  font-size: 12.5px;
+  color: rgba(255, 255, 255, 0.82);
+}
+.dLink {
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.55);
+  padding-bottom: 1px;
+}
+.dLink:hover {
+  border-bottom-color: #fff;
+}
+
+.dSignIn,
+.dThanks {
+  margin: auto 0;
+  outline: none;
+}
+.dSignIn .dPrimary,
+.dThanks .dPrimary {
+  margin-top: 8px;
+}
+.dThanks svg {
+  display: block;
+  margin: 0 0 18px;
+}
+
+/* ---------- form controls ---------- */
+.dNote {
+  flex: none;
+  margin: 0 0 clamp(6px, 1.2vh, 10px);
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.dHint {
+  font-size: 11.5px;
+  line-height: 1.3;
+  color: rgba(255, 255, 255, 0.7);
+}
+.dErr {
+  font-size: 12px;
+  line-height: 1.4;
+  color: #ff9d85;
+}
+.deskRoot .dControl[aria-invalid="true"] {
+  border-color: #ff9d85 !important;
+}
+
+/* A missing detail on the preview card (e.g. mobile) is flagged so it can be added. */
+.dAdd {
+  align-self: flex-start;
+  background: none;
+  border: 0;
+  padding: 2px 0;
+  font-family: var(--sans);
+  font-size: 13.5px;
+  font-weight: 500;
+  color: #ffcf8a;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(255, 207, 138, 0.6);
+}
+.dAdd:hover {
+  border-bottom-color: #ffcf8a;
+}
+.dEdit {
+  padding: 8px 6px 7px;
+  margin: -8px -6px;
+}
+.dAdd:focus-visible,
+.dEdit:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
+
+/* Dropdown arrow (the native select is kept for accessibility). */
+.deskRoot .dSelect {
+  -webkit-appearance: none;
+  appearance: none;
+  padding-right: 38px !important;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8' fill='none' stroke='white' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M1 1.5l5 5 5-5'/%3E%3C/svg%3E") !important;
+  background-repeat: no-repeat !important;
+  background-position: right 14px center !important;
+  cursor: pointer;
+}
+.deskRoot .dSelect:has(option[value=""]:checked) {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Single-choice chips (trip type, cabin). */
+.dChips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.dChip {
+  height: clamp(30px, 4.4vh, 40px);
+  padding: 0 14px;
+  border: 1px solid rgba(203, 203, 203, 0.4);
+  border-radius: 12px !important;
+  background: rgba(165, 165, 165, 0.4);
+  color: #fff;
+  font-family: var(--sans);
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+.dChip:hover {
+  border-color: #fff;
+}
+.dChipOn {
+  background: #fff;
+  border-color: #fff;
+  color: #8a0000;
+}
+.dChip:focus-visible,
+.dStepBtn:focus-visible,
+.dSegBtn:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
+
+/* Travellers stepper. */
+.dStepper {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  height: clamp(32px, 4.6vh, 42px);
+  border: 1px solid rgba(203, 203, 203, 0.4);
+  border-radius: 4px !important; /* input fields are 4px; was 8px */
+  background: rgba(165, 165, 165, 0.4);
+}
+.dStepBtn {
+  flex: none;
+  width: 30px; /* was 42px; the travellers box is narrow now */
+  height: 100%;
+  background: none;
+  border: 0;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+}
+.dStepBtn:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+.dStepVal {
+  flex: 1 1 auto;
+  text-align: center;
+  font-size: 13.5px;
+  color: #fff;
+}
+
+/* Dates: label row with a small toggle, then the pickers. */
+.dLabelRow {
+  /* Same height as any other label: the toggle is taken out of the flow (it used to
+     make this row about 28px tall, so the label-to-field gap looked bigger here). */
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.dSeg {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(calc(-50% - 4px)); /* 4px higher than centred, so there is more air above the fields; was translateY(-50%) */
+  display: inline-flex;
+  border: 1px solid rgba(203, 203, 203, 0.4);
+  border-radius: 4px !important; /* input fields are 4px; was 8px */
+  overflow: hidden;
+}
+.dSegBtn {
+  height: 22px; /* was 26px */
+  padding: 0 12px;
+  background: none;
+  border: 0;
+  color: rgba(255, 255, 255, 0.85);
+  font-family: var(--sans);
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.dSegOn {
+  background: #fff;
+  color: #8a0000;
+}
+.dDateRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+/* ---------- multi-city stops ---------- */
+.dStops {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.dStop {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.dStop > input {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+.dStopNo {
+  flex: none;
+  width: 18px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.7);
+}
+.dRemove {
+  flex: none;
+  width: 32px;
+  height: 32px;
+  background: none;
+  border: 0;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 20px;
+  line-height: 1;
+  cursor: pointer;
+}
+.dRemove:hover {
+  color: #fff;
+}
+.dRemove:focus-visible,
+.dAddStop:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
+.dStopsFoot {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+}
+.dAddStop {
+  flex: none;
+  margin-left: auto;
+  background: none;
+  border: 0;
+  padding: 0 0 1px;
+  font-family: var(--sans);
+  font-size: 12.5px;
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.55);
+}
+.dAddStop:hover {
+  border-bottom-color: #fff;
+}
+
+/* ---------- flexible dates: month or season, plus number of days ---------- */
+.dDays {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+}
+.dStepperGrow {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+.dCheck {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12.5px;
+  color: #fff;
+  cursor: pointer;
+}
+.dCheck input {
+  width: 16px;
+  height: 16px;
+  margin: 0;
+  accent-color: #fff;
+  cursor: pointer;
+}
+.deskRoot .dSelect option,
+.deskRoot .dSelect optgroup {
+  color: #1a1714;
+}
+
+/* The form area scrolls inside the card when stops or messages make it taller,
+   so the card itself always stays inside the window. */
+.deskRoot .dGrid {
+  overflow-y: auto;
+  padding-right: 4px;
+  margin-right: -4px;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.35) transparent;
+}
+
+/* ---------- date picker (our own calendar) ---------- */
+.deskRoot .dDateBtn {
+  position: relative;
+  padding-right: 40px !important;
+}
+.dDateIcon {
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  width: 16px;
+  height: 16px;
+  transform: translateY(-50%);
+  fill: none;
+  stroke: #fff;
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  pointer-events: none;
+}
+.dCal {
+  position: fixed;
+  z-index: 2000;
+  box-sizing: border-box;
+  width: 288px; /* only a fallback: the width is set from the field in EnquirePage.tsx */
+  padding: 12px;
+  background: rgba(26, 26, 26, 0.8); /* same as the menus; was #404040 (75% black), then #a5a5a5, originally rgba(34, 32, 31, 0.97) */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(203, 203, 203, 0.5);
+  border-radius: 4px !important;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.45);
+  font-family: var(--sans);
+  color: #fff;
+}
+.dCalHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+.dCalTitle {
+  font-size: 14px;
+  font-weight: 600;
+}
+.dCalNav {
+  width: 30px;
+  height: 30px;
+  background: none;
+  border: 0;
+  border-radius: 4px !important;
+  color: #fff;
+  font-size: 20px;
+  line-height: 1;
+  cursor: pointer;
+}
+.dCalNav:hover:not(:disabled) {
+  background: rgba(255, 255, 255, 0.14);
+}
+.dCalNav:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+.dCalGrid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 2px;
+}
+.dCalDow {
+  padding: 4px 0 6px;
+  text-align: center;
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.9); /* was 0.55 */
+}
+.dCalDay {
+  height: 34px;
+  padding: 0;
+  background: none;
+  border: 1px solid transparent;
+  border-radius: 4px !important;
+  color: #fff;
+  font-family: var(--sans);
+  font-size: 13px;
+  cursor: pointer;
+}
+.dCalDay:hover:not(:disabled) {
+  background: rgba(255, 255, 255, 0.14);
+}
+.dCalDay:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+.dCalToday {
+  border-color: rgba(255, 255, 255, 0.55);
+}
+.dCalRange {
+  background: rgba(255, 255, 255, 0.22); /* was 0.1 */
+}
+.deskRoot .dCalSel,
+.dCalSel {
+  background: #fff !important;
+  border-color: #fff;
+  color: #8a0000;
+  font-weight: 600;
+}
+.dCalDay:focus-visible,
+.dCalNav:focus-visible,
+.dCalLink:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 1px;
+}
+.dCalFoot {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid rgba(255, 255, 255, 0.14);
+}
+.dCalLink {
+  background: none;
+  border: 0;
+  padding: 2px 4px;
+  font-family: var(--sans);
+  font-size: 12.5px;
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
+}
+.dCalLink:hover:not(:disabled) {
+  text-decoration: underline;
+}
+.dCalLink:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+
+/* ---------- dropdown trigger (the menu itself reuses the city menu styles) ---------- */
+.deskRoot .dDropBtn {
+  display: block;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.deskRoot .dDropPlaceholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* ---------- "Where to?": one field holding chips ---------- */
+.dChipField {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  box-sizing: border-box;
+  min-height: clamp(32px, 4.6vh, 42px);
+  padding: 4px 8px;
+  border: 1px solid rgba(203, 203, 203, 0.4);
+  border-radius: 4px !important;
+  background: rgba(165, 165, 165, 0.4);
+  cursor: text;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+.dChipField:focus-within {
+  border-color: #fff;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.25);
+}
+.dCity {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  height: 26px;
+  padding: 0 4px 0 10px;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 4px !important;
+  background: rgba(255, 255, 255, 0.18);
+  color: #fff;
+  font-size: 12.5px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.dCityX {
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  background: none;
+  border: 0;
+  border-radius: 4px !important;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 16px;
+  line-height: 1;
+  cursor: pointer;
+}
+.dCityX:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.dCityX:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 1px;
+}
+/* The text box inside the chip field has no box of its own. */
+.deskRoot .dChipInput {
+  flex: 1 1 120px;
+  min-width: 0;
+  height: 26px;
+  padding: 0 4px !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  outline: none !important;
+  color: #fff;
+  font-family: var(--sans);
+  font-size: 13.5px;
+}
+.deskRoot .dChipInputIdle {
+  position: absolute;
+  flex: none;
+  width: 1px;
+  height: 1px;
+  padding: 0 !important;
+  opacity: 0;
+  pointer-events: none;
+}
+.deskRoot .dChipInput::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  opacity: 1;
+}
+
+/* ---------- "Where to?" suggestion list (portalled to <body>) ---------- */
+.dCombo {
+  position: fixed;
+  z-index: 2000;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  max-height: 340px;
+  padding: 4px;
+  background: rgba(26, 26, 26, 0.8); /* 90% black (#1a1a1a) at 80%; was #404040 (75% black), then #a5a5a5, originally rgba(34, 32, 31, 0.97) */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(203, 203, 203, 0.5);
+  border-radius: 4px !important;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.45);
+  font-family: var(--sans);
+}
+.dComboScroll {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.35) transparent;
+}
+.dComboHead {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  padding: 8px 10px 5px;
+  background: rgb(30, 30, 30); /* the sticky heading must be solid; this is the menu's colour over the dark page; was rgb(58, 58, 58) for the 75% black menu */
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.9); /* was 0.55; stronger on the lighter menu */
+}
+.dComboOpt {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 8px 10px;
+  border-radius: 4px !important;
+  color: #fff;
+  font-size: 13.5px;
+  line-height: 1.3;
+  cursor: pointer;
+}
+.dComboOpt b {
+  font-weight: 700;
+}
+.dComboOn {
+  background: rgba(255, 255, 255, 0.14);
+}
+.dComboSub {
+  flex: none;
+  font-size: 11.5px;
+  color: rgba(255, 255, 255, 0.88); /* was 0.6; stronger on the lighter menu */
+}
+/* "I'm flexible on where", pinned above the scrolling list (was under it). */
+.dComboFlex {
+  flex: none;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  margin-bottom: 4px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 4px 4px 0 0 !important;
+  padding-bottom: 10px;
+}
+
+@media (max-width: 760px) {
+  .deskAside,
+  .deskPane {
+    padding: 20px; /* mobile: fixed too */
+  }
+  .deskRoot {
+    height: auto;
+    min-height: 100svh;
+    overflow: visible;
+  }
+  .deskWrap {
+    height: auto;
+    min-height: 100svh;
+    padding-left: 24px;
+  }
+  .deskCard {
+    height: auto;
+    max-height: none;
+    flex-direction: column;
+  }
+  .deskAside {
+    flex: none;
+  }
+  .dGrid {
+    grid-template-rows: none;
+  }
+  .deskRoot .dTextarea {
+    min-height: 80px;
+  }
+}
+
+
+/* ===================================================================
+   Underlined fields (2026-10-28, direct request): no boxes, just a line under
+   each field. Text, dropdown, date, notes, the city field and the travellers
+   stepper. (Chips, menus, the calendar and the name/mobile/email preview card
+   keep their shapes.) Declared last so it settles the boxed rules above.
+   =================================================================== */
+.deskRoot .dControl {
+  border: 0 !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.55) !important;
+  border-radius: 0 !important;
+  background-color: transparent !important;
+  padding-left: 0 !important;
+}
+.deskRoot .dControl:focus,
+.deskRoot .dControl:focus-visible {
+  border-bottom-color: #fff !important;
+  box-shadow: 0 1px 0 0 #fff !important; /* the line thickens to 2px while editing */
+}
+.deskRoot .dControl[aria-invalid="true"] {
+  border-bottom-color: #ff9d85 !important;
+}
+.deskRoot .dTextarea {
+  padding: 10px 0 !important;
+}
+.deskRoot .dSelect {
+  background-position: right 2px center !important;
+}
+.dDateIcon {
+  right: 2px;
+}
+.dChipField {
+  padding: 4px 0;
+  border: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.55);
+  border-radius: 0 !important;
+  background: transparent;
+}
+.dChipField:focus-within {
+  border-bottom-color: #fff;
+  box-shadow: 0 1px 0 0 #fff;
+}
+.dStepper {
+  border: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.55);
+  border-radius: 0 !important;
+  background: transparent;
+}
+
+
+/* "Anything else" (2026-10-28, direct request): like a short-answer field, each line of text has its
+   own underline. It starts at the box's current height (min-height below) with one line under the first
+   line of text, grows with the text (the height and the number of lines are set from EnquirePage.tsx),
+   and stops at max-height, after which the box scrolls and the lines scroll with the text. */
+.deskRoot .dTextarea {
+  --ul: rgba(255, 255, 255, 0.55);
+  padding: 0 !important;
+  line-height: 28px;
+  height: auto;
+  min-height: clamp(56px, 11vh, 96px);
+  max-height: clamp(150px, 26vh, 220px);
+  overflow-y: auto;
+  border-bottom: 0 !important;
+  background-image: repeating-linear-gradient(to bottom, transparent 0, transparent 27px, var(--ul) 27px, var(--ul) 28px) !important;
+  background-repeat: no-repeat !important;
+  background-attachment: local !important;
+  background-position: 0 0 !important;
+  /* background-size is set inline: 100% (number of lines x 28px) */
+}
+.deskRoot .dTextarea:focus,
+.deskRoot .dTextarea:focus-visible {
+  --ul: #fff;
+  box-shadow: none !important;
+}
+
+
+/* ===================================================================
+   Light page (2026-10-29, direct request): back to the original /enquire look. A light page, the
+   text on the left and the form on the right, no photo and no cards, and nothing that scrolls on its
+   own. The fields, underlines, chips, stepper, date picker and menus from the earlier work are kept;
+   only their colours turn from white-on-dark to the page's ink colours (so the dark theme still
+   works). The portalled menus and the calendar stay dark glass. Declared last so it settles the
+   dark-glass rules above.
+   =================================================================== */
+.deskRoot {
+  --f-line: color-mix(in srgb, var(--ink) 35%, transparent);
+  --f-dim: color-mix(in srgb, var(--ink) 50%, transparent);
+  --f-soft: color-mix(in srgb, var(--ink) 7%, transparent);
+  height: auto;
+  min-height: 100svh;
+  overflow: visible;
+  background: var(--paper);
+  color: var(--ink);
+}
+.deskRoot::before {
+  display: none;
+}
+.deskWrap {
+  /* Everything sits in the middle of the page, both ways (2026-10-29, direct request). The same space
+     above and below keeps it clear of the navbar; was display: block, padding ... 0 clamp(16px, 3vh, 40px). */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  min-height: 100svh;
+  padding: clamp(72px, 10vh, 104px) 0;
+  box-sizing: border-box;
+}
+/* Two columns like the original page; the cards are gone. */
+.deskCard {
+  display: grid;
+  /* The form column is wider (2026-10-29, direct request); was 1fr 1.1fr with a gap of clamp(44px, 7vw, 120px). */
+  grid-template-columns: 0.9fr 1.4fr;
+  column-gap: clamp(32px, 5vw, 88px);
+  align-items: center; /* the left text and the form are centred against each other; was start */
+  width: 100%;
+  height: auto;
+  max-height: none;
+  margin: 0 auto;
+}
+.deskAside,
+.deskPane {
+  background: none;
+  box-shadow: none;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  border: 0;
+  border-radius: 0 !important;
+  padding: 0;
+  min-height: 0;
+}
+.deskAside {
+  display: block;
+  flex: none;
+  align-self: center;
+}
+.deskPane {
+  display: block;
+}
+.dForm {
+  display: block;
+}
+/* Nothing scrolls on its own: the form just takes the room it needs. */
+.deskRoot .dGrid {
+  overflow: visible;
+  padding-right: 0;
+  margin-right: 0;
+}
+
+.dPaneHeading {
+  color: var(--ink);
+}
+.dMuted,
+.dTrust,
+.dNote,
+.dHint {
+  color: var(--stone);
+}
+.deskRoot .dLabel {
+  color: var(--ink);
+}
+.deskRoot .dLabel span {
+  color: var(--stone) !important;
+}
+
+/* Fields: the underlines in ink. */
+.deskRoot .dControl {
+  color: var(--ink);
+  border-bottom-color: var(--f-line) !important;
+}
+.deskRoot .dControl::placeholder,
+.deskRoot .dChipInput::placeholder {
+  color: var(--f-dim);
+}
+.deskRoot .dDropPlaceholder {
+  color: var(--f-dim);
+}
+.deskRoot .dControl:focus,
+.deskRoot .dControl:focus-visible {
+  border-bottom-color: var(--ink) !important;
+  box-shadow: 0 1px 0 0 var(--ink) !important;
+}
+.deskRoot .dControl[aria-invalid="true"] {
+  border-bottom-color: #b3441f !important;
+}
+.deskRoot .dTextarea {
+  --ul: var(--f-line);
+}
+.deskRoot .dTextarea:focus,
+.deskRoot .dTextarea:focus-visible {
+  --ul: var(--ink);
+}
+.dErr {
+  color: #b3441f;
+}
+/* Dropdown arrow and calendar icon follow the text colour. */
+.deskRoot .dSelect {
+  background-image: none !important;
+}
+.deskRoot .dSelect::after {
+  content: "";
+  position: absolute;
+  right: 4px;
+  top: 50%;
+  width: 7px;
+  height: 7px;
+  border-right: 1.6px solid currentColor;
+  border-bottom: 1.6px solid currentColor;
+  transform: translateY(-75%) rotate(45deg);
+  pointer-events: none;
+}
+.deskRoot .dDropBtn {
+  position: relative;
+}
+.dDateIcon {
+  stroke: currentColor;
+}
+
+/* City field, chips, stepper, toggle. */
+.dChipField {
+  border-bottom-color: var(--f-line);
+}
+.dChipField:focus-within {
+  border-bottom-color: var(--ink);
+  box-shadow: 0 1px 0 0 var(--ink);
+}
+.dCity {
+  border-color: var(--f-line);
+  background: var(--f-soft);
+  color: var(--ink);
+}
+.dCityX {
+  color: var(--f-dim);
+}
+.dCityX:hover {
+  background: var(--f-soft);
+  color: var(--ink);
+}
+.deskRoot .dChipInput {
+  color: var(--ink);
+}
+.dStepper {
+  border-bottom-color: var(--f-line);
+}
+.dStepBtn,
+.dStepVal {
+  color: var(--ink);
+}
+.dSeg {
+  border-color: var(--f-line);
+}
+.dSegBtn {
+  color: var(--ink);
+}
+.dSegOn {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+/* Name / mobile / email preview card. */
+.dContact {
+  border: 0; /* outline removed (2026-10-29, direct request); was border-color: var(--f-line) */
+  background: var(--f-soft);
+}
+.dContactLabel {
+  color: var(--stone);
+}
+.dContactValue {
+  color: var(--ink);
+}
+.dEdit {
+  color: var(--ink);
+  border-bottom-color: var(--f-dim);
+}
+.dEdit:hover {
+  border-bottom-color: var(--ink);
+}
+.dAdd {
+  color: var(--accent-2, #6e2a38);
+  border-bottom-color: var(--accent-2, #6e2a38);
+}
+.dAdd:hover {
+  border-bottom-color: var(--accent-2, #6e2a38);
+}
+
+/* Buttons: solid ink and an outline, square, label grows on hover. */
+.dPrimary {
+  background: var(--ink);
+  color: var(--paper);
+}
+.dGhost {
+  border-color: var(--ink);
+  background: transparent;
+  color: var(--ink);
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+}
+.dPrimary:focus-visible,
+.dGhost:focus-visible,
+.dEdit:focus-visible,
+.dAdd:focus-visible,
+.dCityX:focus-visible,
+.dStepBtn:focus-visible,
+.dSegBtn:focus-visible {
+  outline-color: var(--ink);
+}
+
+/* A little more room overall for the wider form column (the page's wrap is 1240px). */
+.deskWrap .deskCard {
+  max-width: 1360px;
+}
+@media (max-width: 900px) {
+  .deskCard {
+    grid-template-columns: 1fr;
+    row-gap: 40px;
+  }
+}
+
+/* The italic in the headline ("from here") is semibold too (2026-10-29, direct request). */
+.deskAside h1 :global(.it) {
+  font-weight: 600;
+}
+
+
+/* ===================================================================
+   Phones (2026-10-29, direct request): the redesigned form on a phone. One column: the text, then the form. The
+   fields, controls and menus are the desktop ones; only the arrangement changes: everything full width, the
+   name / mobile / email card stacked, 16px text in the fields (it stops iOS from zooming into them), and the two
+   buttons full width and stacked. The page scrolls normally. Menus and the calendar are sized in the code
+   (EnquirePage.tsx), never narrower than 220px and 288px.
+   =================================================================== */
+@media (max-width: 720px) {
+  .deskWrap {
+    align-items: flex-start;
+    padding: 150px 0 40px; /* clears the phone header (about 150px tall) */
+  }
+  .deskCard {
+    row-gap: 36px;
+  }
+  .deskRoot .dGrid {
+    grid-template-columns: 1fr;
+    row-gap: 24px;
+  }
+  .dSpan2,
+  .dSpan3,
+  .dSpan4,
+  .dSpan5,
+  .dCol2 {
+    grid-column: 1 / -1;
+  }
+  .dContact {
+    align-items: flex-start;
+    margin-bottom: 28px;
+  }
+  .dContactView,
+  .dContactEdit {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  .deskRoot .dControl,
+  .deskRoot .dChipInput {
+    font-size: 16px;
+  }
+  .dStepVal {
+    font-size: 16px;
+  }
+  .dTrust {
+    margin-top: 24px;
+  }
+  .dBtnRow {
+    flex-direction: column;
+    gap: 6px;
+  }
+  .dBtnRow > .dPrimary,
+  .dBtnRow > .dGhost {
+    width: 100%;
+    flex: none;
+    height: 48px;
+  }
+}
+
+/* The three ticked lines are a plain list (2026-10-29, direct request): no dividers between them, the tick kept.
+   The site's .incl list put a line above each item and under the last, with 14px above and below each one. */
+.deskAside :global(.incl) li,
+.deskAside :global(.incl) li:last-child {
+  border: 0;
+  padding: 7px 0;
+}
+
+
+/* ===================================================================
+   Phone refinements to /enquire (2026-10-29, direct request): travellers and budget share a line; the caption
+   breaks after "private."; the name / mobile / email card is two lines (name and mobile; email and Edit); and
+   editing opens a bottom sheet that rides above the keyboard (see ContactSheet in EnquirePage.tsx).
+   =================================================================== */
+.dBrPhone {
+  display: none; /* the line break after "private." is for phones only */
+}
+@media (max-width: 720px) {
+  .dBrPhone {
+    display: inline;
+  }
+
+  /* Two columns: the city and the dates full width, then travellers and budget side by side, then the notes. */
+  .deskRoot .dGrid {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 12px;
+  }
+  .dSpan5 {
+    grid-column: 1 / -1;
+    order: 1;
+  }
+  .dSpan4 {
+    grid-column: 1 / -1;
+    order: 2;
+  }
+  .dTrav {
+    grid-column: auto;
+    order: 3;
+  }
+  .dBudget {
+    grid-column: auto;
+    order: 4;
+  }
+  .dSpan3 {
+    grid-column: 1 / -1;
+    order: 5;
+  }
+
+  /* The details card: the name with Edit at the top right (where Edit was), then mobile and email below.
+     (It was name and mobile on one line, email and Edit on the next.) */
+  .dContact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "name edit"
+      "phone email";
+    gap: 14px 12px;
+    align-items: start;
+  }
+  .dContactView {
+    display: contents; /* the three items and Edit become the card's own grid cells */
+  }
+  .dContactItem {
+    min-width: 0;
+  }
+  .dContactItem:nth-child(1) {
+    grid-area: name;
+  }
+  .dContactItem:nth-child(2) {
+    grid-area: phone;
+  }
+  .dContactItem:nth-child(3) {
+    grid-area: email;
+  }
+  .dEdit {
+    grid-area: edit;
+    justify-self: end;
+    align-self: start;
+  }
+}
+
+/* The bottom sheet (portalled to <body>, so it carries its own colours: the page's ink on paper). */
+.dSheetBackdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 2100;
+  background: rgba(0, 0, 0, 0.4);
+  animation: dSheetFade 0.25s ease both;
+}
+.dSheet {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 2101;
+  box-sizing: border-box;
+  padding: 10px 20px 20px;
+  overflow-y: auto;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--sans);
+  border-radius: 16px 16px 0 0 !important;
+  box-shadow: 0 -12px 40px rgba(0, 0, 0, 0.25);
+  transition: bottom 0.2s ease;
+  animation: dSheetUp 0.35s cubic-bezier(0.19, 1, 0.22, 1) both;
+}
+.dSheetHandle {
+  width: 40px;
+  height: 4px;
+  margin: 0 auto 14px;
+  border-radius: 2px !important;
+  background: color-mix(in srgb, var(--ink) 25%, transparent);
+}
+.dSheetTitle {
+  margin: 0 0 14px;
+  font-family: var(--serif);
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.1;
+  color: var(--ink);
+}
+.dSheetField {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-bottom: 14px;
+}
+.dSheetLabel {
+  font-size: 12.5px;
+  font-weight: 500;
+  letter-spacing: normal;
+  text-transform: none;
+  color: var(--ink);
+}
+.dSheet .dSheetInput {
+  width: 100%;
+  box-sizing: border-box;
+  height: 44px;
+  padding: 0 !important;
+  border: 0 !important;
+  border-bottom: 1px solid color-mix(in srgb, var(--ink) 35%, transparent) !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 16px;
+}
+.dSheet .dSheetInput::placeholder {
+  color: color-mix(in srgb, var(--ink) 50%, transparent);
+  opacity: 1;
+}
+.dSheet .dSheetInput:focus,
+.dSheet .dSheetInput:focus-visible {
+  outline: none !important;
+  border-bottom-color: var(--ink) !important;
+  box-shadow: 0 1px 0 0 var(--ink) !important;
+}
+.dSheet .dSheetInput[aria-invalid="true"] {
+  border-bottom-color: #b3441f !important;
+}
+.dSheetErr {
+  font-size: 12px;
+  color: #b3441f;
+}
+.dSheetBtns {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 6px;
+}
+.dSheetPrimary,
+.dSheetGhost {
+  box-sizing: border-box;
+  width: 100%;
+  height: 48px;
+  border-radius: 0 !important;
+  font-family: var(--sans);
+  font-size: 14.5px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.dSheetPrimary {
+  border: 0;
+  background: var(--ink);
+  color: var(--paper);
+}
+.dSheetGhost {
+  border: 1px solid var(--ink);
+  background: transparent;
+  color: var(--ink);
+}
+@keyframes dSheetUp {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: none;
+  }
+}
+@keyframes dSheetFade {
+  from {
+    opacity: 0;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .dSheet,
+  .dSheetBackdrop {
+    animation: none;
+    transition: none;
+  }
+}
+
+/* "Anything else": no line along the bottom of the box, focused or not (2026-10-29, bug fix). The focus rule for the
+   other fields draws a 1px ink line under the box (box-shadow); on this field it showed up as a second line at the
+   bottom when it was clicked. Only the line under the first line of text belongs here, and it turns ink on focus. */
+.deskRoot .dTextarea:focus,
+.deskRoot .dTextarea:focus-visible {
+  box-shadow: none !important;
+  border-bottom-color: transparent !important;
+}
+
+
+/* Dropdowns and date pickers are bottom sheets on a phone (2026-10-29, direct request): PickerSheet in EnquirePage.tsx.
+   The sheet is the same dark glass as the desktop menus (it shares .dSheet with the details sheet, which is light);
+   its rows are bigger, for a finger. */
+.dSheetGlass {
+  background: rgba(26, 26, 26, 0.9);
+  -webkit-backdrop-filter: blur(14px);
+  backdrop-filter: blur(14px);
+  color: #fff;
+}
+.dSheetGlass .dSheetHandle {
+  background: rgba(255, 255, 255, 0.3);
+}
+.dSheetGlass .dSheetTitle {
+  color: #fff;
+}
+.dSheetList {
+  margin: 0 -8px; /* the rows run nearly edge to edge */
+}
+.dSheetList .dComboOpt {
+  min-height: 48px;
+  padding: 12px 12px;
+  font-size: 16px;
+  align-items: center;
+}
+.dSheetList .dComboOpt:active {
+  background: rgba(255, 255, 255, 0.14);
+}
+.dSheetList .dComboHead {
+  position: static;
+  background: transparent;
+  padding: 14px 12px 6px;
+}
+.dCalSheet {
+  color: #fff;
+  padding-bottom: 6px;
+}
+.dCalSheet .dCalDay {
+  height: 42px;
+  font-size: 15px;
+}
+@media (max-width: 720px) {
+  .dTrust {
+    margin-bottom: 28px; /* more room between the caption and the buttons (was about 15px) */
+  }
+}
+
+/* "Anything else": ONE line, under the last line of text (2026-10-29, direct request). It used to repeat under every
+   line, like ruled paper (28px apart). Now the picture behind the text is as tall as the text (the number of lines x 28px,
+   set from EnquirePage.tsx) and draws only its bottom pixel: one line under the first line while the text is one line,
+   under the second line once it wraps to two, and so on. */
+.deskRoot .dTextarea {
+  background-image: linear-gradient(to bottom, transparent calc(100% - 1px), var(--ul) calc(100% - 1px)) !important;
+}
+
+
+/* The city list as a bottom sheet on a phone (CitySheet in EnquirePage.tsx), in the same dark glass as the other sheets.
+   It is a column: title, the chosen cities, the search box, the scrolling list, and Done. */
+.dCitySheet {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 16px;
+}
+.dCitySheetChips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+.dSheetGlass .dCity {
+  border-color: rgba(255, 255, 255, 0.35);
+  background: rgba(255, 255, 255, 0.14);
+  color: #fff;
+}
+.dSheetGlass .dCityX {
+  color: rgba(255, 255, 255, 0.85);
+}
+.dSheetGlass .dSheetSearch {
+  flex: none;
+  box-sizing: border-box;
+  width: 100%;
+  height: 44px;
+  padding: 0 !important;
+  border: 0 !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.45) !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  color: #fff;
+  font-family: var(--sans);
+  font-size: 16px;
+}
+.dSheetGlass .dSheetSearch::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  opacity: 1;
+}
+.dSheetGlass .dSheetSearch:focus {
+  outline: none !important;
+  border-bottom-color: #fff !important;
+  box-shadow: 0 1px 0 0 #fff !important;
+}
+.dCitySheetList {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  margin: 6px -8px 10px;
+}
+.dCitySheetFlex {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 4px 4px 0 0 !important;
+}
+.dSheetGlass .dSheetPrimary {
+  flex: none;
+  background: #fff;
+  color: #1a1714;
+}
+
+/* The ticked lines are set exactly like the paragraph above them (2026-10-29, direct request): their text carries the
+   site's .lede class, so the size, line height, weight, colour and letter spacing follow the paragraph on every screen
+   (they differ by screen: the paragraph is 14px on a phone and about 21px on a wide desktop). It first copied only the
+   desktop size, which left the phone list at 18px against the paragraph's 14px. */
+.dInclText {
+  max-width: none;
+  margin: 0;
+}
+@media (max-width: 720px) {
+  /* On phones the site shrinks the paragraph under the headline to 14px (site.css: `:is(h1,h2) + .lede {font-size:14px
+     !important}`); a ticked line is not that paragraph's sibling, so it follows here. The line height and letter spacing
+     are ratios of the size, so they already match. */
+  .dInclText {
+    font-size: 14px !important;
+  }
+}
+
+/* "Anything else" stops at 3 lines (2026-10-29, direct request): the box is 3 lines tall (3 x 28px) and no taller. Longer
+   text scrolls inside it, with a thin scrollbar, and the underline stays under the last line as you scroll. It used to grow
+   up to about 150-220px (min-height clamp(56px, 11vh, 96px), max-height clamp(150px, 26vh, 220px)). */
+.deskRoot .dTextarea {
+  min-height: 84px;
+  max-height: 84px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+}
+
+
+/* Motion (2026-10-29, direct request).
+   1) Bottom sheets slide down before they go (they already slide up), and follow the keyboard smoothly.
+   2) The calendar slides the new month in from the side the month moved to: arrows, a swipe, or the keyboard.
+   3) Anything else that swaps content (specific dates / flexible, the sign-in and thank-you panels, the details card's
+      two views) fades in; a plain fade, no movement. */
+.dSheetOut {
+  animation: dSheetDown 0.26s cubic-bezier(0.4, 0, 1, 1) both !important;
+}
+.dSheetBackdropOut {
+  animation: dSheetFadeOut 0.26s ease both !important;
+}
+@keyframes dSheetDown {
+  from {
+    transform: none;
+  }
+  to {
+    transform: translateY(100%);
+  }
+}
+@keyframes dSheetFadeOut {
+  to {
+    opacity: 0;
+  }
+}
+/* The sheet's bottom edge and height follow the keyboard instead of jumping. */
+.dSheet {
+  transition: bottom 0.25s cubic-bezier(0.2, 0.8, 0.2, 1), height 0.25s cubic-bezier(0.2, 0.8, 0.2, 1),
+    max-height 0.25s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.dCalNext {
+  animation: dCalInNext 0.32s cubic-bezier(0.19, 1, 0.22, 1) both;
+}
+.dCalPrev {
+  animation: dCalInPrev 0.32s cubic-bezier(0.19, 1, 0.22, 1) both;
+}
+@keyframes dCalInNext {
+  from {
+    opacity: 0;
+    transform: translateX(32px);
+  }
+}
+@keyframes dCalInPrev {
+  from {
+    opacity: 0;
+    transform: translateX(-32px);
+  }
+}
+.dCalGrid {
+  touch-action: pan-y; /* a sideways swipe is for the month, not the page */
+}
+.dCalTitle {
+  animation: dFade 0.25s ease both;
+}
+.dFadeIn {
+  animation: dFade 0.25s ease both;
+}
+@keyframes dFade {
+  from {
+    opacity: 0;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .dSheetOut,
+  .dSheetBackdropOut,
+  .dCalNext,
+  .dCalPrev,
+  .dCalTitle,
+  .dFadeIn,
+  .dSheet {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+/* "Start your enquiry" (2026-10-29, direct request): a bigger, bolder heading, more room before the line under it, and
+   (where the page is one column) a divider between the ticked lines and the heading. It was clamp(20px, 2.7vh, 25px) at
+   weight 500 with 3-6px under it. */
+.dPaneHeading {
+  font-size: clamp(30px, 3.6vh, 38px);
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+@media (max-width: 720px) { /* phones only (was max-width: 900px, which also covered tablets) */
+  /* The divider sits midway between the last ticked line and the heading: the row gap above it and this padding are equal. */
+  .deskPane {
+    padding-top: 36px;
+    border-top: 1px solid color-mix(in srgb, var(--ink) 15%, transparent);
+  }
+}
+
+/* Phones: less room above and below the divider (2026-10-29, direct request). It was 36px on each side (the row gap above
+   it and the padding below it); now 18px each, so the line is still midway. */
+@media (max-width: 720px) {
+  .deskCard {
+    row-gap: 18px;
+  }
+  .deskPane {
+    padding-top: 18px;
+  }
+}
+
+/* The name / mobile / email card has 2px more padding all round (2026-10-29, direct request); was
+   clamp(6px, 1.2vh, 11px) above and below and 14px at the sides. */
+.dContact {
+  padding: calc(clamp(6px, 1.2vh, 11px) + 2px) 16px;
+}

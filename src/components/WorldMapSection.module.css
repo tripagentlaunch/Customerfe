@@ -66,8 +66,8 @@
     font-size: 20px;
   }
   .mapStats dd {
-    font-size: 12px;
-    letter-spacing: 0.1em;
+    font-size: 10px; /* smaller labels under 110+ / 50+ / 24/7 (2026-11-02, direct request); was 12px */
+    letter-spacing: 0.08em; /* was 0.1em */
   }
 }
 

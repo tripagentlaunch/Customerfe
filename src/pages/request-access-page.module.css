@@ -97,8 +97,8 @@
 .card {
   background: rgba(255, 250, 244, 0.86);
   border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 24px !important;
-  padding: 38px 36px 30px;
+  border-radius: 12px !important; /* was 24px, then 20px; all card corners are 12px */
+  padding: 24px 28px; /* fixed on every card (2026-10-28); was 38px 36px 30px */
   box-shadow: 0 28px 70px rgba(0, 0, 0, 0.35);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
@@ -156,7 +156,7 @@
   box-sizing: border-box;
   height: 54px;
   padding: 0 18px;
-  border-radius: 14px !important;
+  border-radius: 4px !important; /* input fields are 4px; was 8px */
   border: 1px solid rgba(80, 60, 50, 0.22);
   background: rgba(255, 255, 255, 0.6);
   color: #222;
@@ -280,8 +280,8 @@
     font-size: 15px;
   }
   .card {
-    padding: 28px 20px 24px;
-    border-radius: 20px !important;
+    padding: 20px; /* mobile: fixed too; was 28px 20px 24px */
+    border-radius: 12px !important; /* was 20px */
   }
   .cardHeading {
     font-size: 32px;
@@ -361,20 +361,26 @@
   align-items: flex-start; /* left column, as in the mock (the grid centred it) */
   height: 100%;
   min-height: 0;
+  box-sizing: border-box;
   max-width: none;
   margin: 0;
-  padding: clamp(52px, 8.5vh, 100px) 0 clamp(10px, 2vh, 36px) clamp(48px, 6vw, 96px);
+  padding: clamp(50px, 6.8vh, 72px) 0 clamp(10px, 2vh, 36px) clamp(48px, 6vw, 96px); /* top was clamp(52px, 8.5vh, 100px): smaller logo-to-card gap */
 }
 
+/* Desktop: this block now sits inside the dark card (white text). The old
+   dark-on-sky colours are kept in comments. */
 .desk .raAside {
-  max-width: 560px;
+  max-width: none;
+  margin-bottom: clamp(8px, 1.8vh, 18px); /* was clamp(10px, 1.8vh, 16px) */
+  padding-bottom: clamp(8px, 1.6vh, 16px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.14); /* very subtle divider before "Ask for an invitation" */
 }
 
 .desk .eyebrow {
-  font-size: 11.5px;
+  font-size: 10px; /* was 11.5px */
   font-weight: 600;
   letter-spacing: 0.2em;
-  color: #6e2a38;
+  color: #fff; /* was #e3b3a3 (salmon), originally #6e2a38 */
   text-shadow: none;
   margin-bottom: 0;
 }
@@ -384,66 +390,84 @@
   width: 40px;
   height: 1px;
   margin: clamp(8px, 1.3vh, 12px) 0 clamp(10px, 1.6vh, 14px);
-  background: rgba(110, 42, 56, 0.45);
+  background: rgba(255, 255, 255, 0.4); /* was rgba(110, 42, 56, 0.45) */
 }
 
 .desk .heading {
   font-weight: 500;
-  font-size: clamp(30px, min(3.6vw, 5.6vh), 54px);
-  line-height: 1.08;
-  color: #2b2420;
+  font-size: clamp(24px, min(2.5vw, 4vh), 34px); /* was clamp(30px, min(3.6vw, 5.6vh), 54px), then up to 38px */
+  line-height: 1;
+  color: #fff; /* was #2b2420 */
   text-shadow: none;
   max-width: none;
   white-space: nowrap;
-  margin-bottom: clamp(8px, 1.5vh, 14px);
+  margin-bottom: clamp(6px, 1.2vh, 12px);
 }
 .desk .it {
-  color: #6e2a38;
+  color: #fff; /* was #e3b3a3 (salmon), originally #6e2a38 */
 }
 
 .desk .lede {
-  font-size: clamp(14px, 1.9vh, 16px);
-  line-height: 1.6;
-  color: #4a423d;
+  font-size: clamp(13px, 1.7vh, 15px); /* was clamp(14px, 1.9vh, 16px) */
+  line-height: 1.55;
+  color: rgba(255, 255, 255, 0.85); /* was #4a423d */
   text-shadow: none;
-  max-width: 42ch;
+  max-width: none;
 }
 
 .desk .card {
-  width: 384px;
+  width: 500px; /* was 384px; wider to hold the headline */
+  /* Hugs its content (2026-10-28). Was: fill the space under the logo, capped at 860px
+     (flex: 1 1 auto; min-height: 0; max-height: 860px). */
   flex: none;
-  margin-top: clamp(12px, 2.6vh, 24px);
-  padding: clamp(14px, 2.4vh, 22px) 26px clamp(10px, 1.8vh, 16px);
-  background: rgba(247, 242, 237, 0.93);
-  border: 1px solid rgba(255, 255, 255, 0.7);
-  border-radius: 10px !important;
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: clamp(12px, 2.6vh, 26px); /* was clamp(6px, 1.6vh, 16px), originally clamp(12px, 2.6vh, 24px) */
+  padding: 24px 28px; /* fixed; was clamp(14px, 3.2vh, 34px) 30px clamp(12px, 2.6vh, 28px) */
+  /* 2026-10-28: dark frosted-glass card (layout reference); copy unchanged.
+     Was: background rgba(247, 242, 237, 0.93); border rgba(255, 255, 255, 0.7); radius 10px. */
+  background: rgba(43, 43, 43, 0.65);
+  border: 1px solid #cbcbcb;
+  border-radius: 12px !important; /* was 20px */
   box-shadow: 0 24px 60px -20px rgba(40, 24, 16, 0.4);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  color: #fff;
+}
+
+.desk .card > :not(.form) {
+  flex-shrink: 0;
 }
 
 .desk .cardHeading {
   font-weight: 500;
   font-size: clamp(22px, 3vh, 27px);
   margin-bottom: clamp(8px, 1.5vh, 14px);
-  color: #2b2420;
+  color: #fff; /* was #2b2420 */
 }
 .desk .cardIt {
-  color: #6e2a38;
+  color: #fff; /* was #e3b3a3 (salmon), originally #6e2a38 */
 }
 
 .desk .form {
-  gap: clamp(6px, 1vh, 11px);
+  flex: 1 1 auto;
+  min-height: 0;
+  /* Fixed gap between fields (about 26px at 900px tall, was ~30px from space-between); spare height now goes above the buttons. */
+  justify-content: flex-start;
+  gap: clamp(8px, 2.3vh, 24px); /* was space-between with clamp(4px, 1vh, 14px) */
 }
 .desk .field {
-  gap: clamp(3px, 0.55vh, 5px);
+  gap: clamp(4px, 0.67vh, 7px); /* was clamp(6px, 0.9vh, 9px), originally clamp(3px, 0.55vh, 5px) */
 }
 .desk.raRoot .form .field label {
   font-size: 13px;
   line-height: 1.3;
   font-weight: 500;
-  color: #3b3430;
+  color: #fff; /* was #3b3430 */
 }
 .desk.raRoot .form .field label .optional {
-  color: #9a918a;
+  color: rgba(255, 255, 255, 0.65); /* was #9a918a */
 }
 
 .inWrap {
@@ -457,7 +481,7 @@
   height: 15px;
   transform: translateY(-50%);
   fill: none;
-  stroke: #7d736c;
+  stroke: rgba(255, 255, 255, 0.8); /* was #7d736c */
   stroke-width: 1.6;
   stroke-linecap: round;
   stroke-linejoin: round;
@@ -465,35 +489,49 @@
 }
 
 .desk .field input {
-  height: clamp(32px, 4.4vh, 40px);
+  height: clamp(32px, 4.7vh, 48px); /* was clamp(32px, 4.4vh, 40px) */
   padding: 0 14px 0 38px;
-  border-radius: 7px !important;
-  border: 1px solid rgba(60, 45, 40, 0.16);
-  background: rgba(255, 255, 255, 0.5);
+  /* Was: radius 7px; border rgba(60, 45, 40, 0.16); background rgba(255, 255, 255, 0.5). */
+  border-radius: 4px !important; /* input fields are 4px; was 8px */
+  border: 1px solid rgba(203, 203, 203, 0.4); /* #cbcbcb at 40%; was solid #cbcbcb, originally #fff */
+  background: rgba(165, 165, 165, 0.4); /* #a5a5a5 at 40%; was solid #a5a5a5, originally rgba(255, 255, 255, 0.38) */
+  color: #fff;
   font-size: 13.5px;
 }
 .desk .field input::placeholder {
-  color: #a0968e;
+  color: rgba(255, 255, 255, 0.6); /* dimmer so it doesn't read as a typed answer; was #fff, then rgba(255, 255, 255, 0.78), originally #a0968e */
+  opacity: 1; /* Firefox dims placeholders by default */
 }
 .desk .field input:focus {
-  border-color: #6e2a38;
-  background: rgba(255, 255, 255, 0.85);
-  box-shadow: 0 0 0 3px rgba(110, 42, 56, 0.1);
+  border-color: #fff;
+  background: rgba(165, 165, 165, 0.4); /* same as rest; was solid #a5a5a5, originally rgba(255, 255, 255, 0.48) */
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.25);
+}
+.desk .field input:focus-visible {
+  outline: none;
+}
+.desk .field input[aria-invalid="true"] {
+  border-color: #ff9d85;
 }
 
 .desk .submitBtn {
-  margin-top: clamp(4px, 0.9vh, 8px);
-  height: clamp(36px, 4.9vh, 44px);
+  margin-top: clamp(4px, 1.2vh, 12px); /* was clamp(4px, 0.9vh, 8px) */
+  height: clamp(36px, 5.2vh, 50px); /* was clamp(36px, 4.9vh, 44px) */
   display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: 8px;
-  background: #6e2a38;
+  background: #fff; /* was #6e2a38 */
+  border-radius: 0 !important; /* square like the reference and the site's other buttons; was a 999px pill */
+  color: #8a0000;
   font-size: 14.5px;
   font-weight: 500;
 }
 .desk .submitBtn:hover:not(:disabled) {
-  background: #5a2230;
+  background: #fff; /* unchanged on hover (only the label grows); was #5a2230, then #f1ece8 */
+}
+.desk .submitBtn:focus-visible {
+  outline-color: #fff;
 }
 .btnArrow {
   width: 15px;
@@ -509,25 +547,461 @@
   transform: translateX(3px);
 }
 
+/* "I already have a code": outline glass button, same height and square
+   corners as the primary button. */
+/* Submit + code button: one horizontal row, each filling half. */
+.btnLabel {
+  display: inline-block;
+  transform: scale(1);
+  transition: transform 0.4s var(--ease);
+}
+/* Hover: only the label grows, like the hero's "Find my trip" / "Ask Tara". */
+.submitBtn:hover:not(:disabled) .btnLabel,
+.codeBtn:hover .btnLabel {
+  transform: scale(1.1);
+}
+
+.btnRow {
+  display: flex;
+  gap: 12px;
+  margin-top: auto; /* pushes the buttons to the card's bottom; was clamp(4px, 1.2vh, 12px) */
+}
+.btnRow > .submitBtn {
+  flex: 1 1 0;
+  min-width: 0;
+  margin-top: 0;
+}
+
+.codeBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 100%;
+  flex: 1 1 0;
+  min-width: 0;
+  height: clamp(36px, 5.2vh, 50px);
+  border: 1px solid #fff;
+  border-radius: 0 !important;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  color: #fff;
+  font-family: var(--sans);
+  font-size: 14.5px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+.codeBtn:hover {
+  /* unchanged on hover (only the label grows); was background rgba(255, 255, 255, 0.2) */
+  background: rgba(255, 255, 255, 0.08);
+}
+.codeBtn:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
+
 .desk .footLine {
   font-size: 12.5px;
-  color: #6b635b;
+  color: rgba(255, 255, 255, 0.82); /* was #6b635b */
   margin-top: clamp(8px, 1.5vh, 14px);
 }
 .desk .footLine + .footLine {
   margin-top: clamp(6px, 1.1vh, 10px);
   padding-top: clamp(6px, 1.1vh, 10px);
-  border-top: 1px solid rgba(60, 45, 40, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.22); /* was rgba(60, 45, 40, 0.1) */
 }
 .desk .footLink {
   font-weight: 500;
-  color: #6e2a38;
+  color: #fff; /* was #6e2a38 */
+  border-bottom-color: rgba(255, 255, 255, 0.55);
+}
+.desk .footLink:hover {
+  border-bottom-color: #fff;
 }
 
 .desk .err {
   font-size: 12.5px;
+  color: #ff9d85;
 }
 
 .desk .bgOverlay {
   display: none;
+}
+
+/* The floating dark-mode toggle and "Talk to Tara" button are hidden on this
+   page only (RequestAccessPage adds the ra-page class to <html>). */
+:global(html.ra-page) :global(.ta-theme),
+:global(html.ra-page) :global(.ta-advisor) {
+  display: none !important;
+}
+
+/* Short desktop windows (2026-10-28): the card hugs its content with fixed padding, so
+   tighten the form a little to keep the whole card inside the window. */
+@media (max-height: 660px) {
+  .desk .form {
+    gap: 6px;
+  }
+  .desk .field input {
+    height: 30px;
+  }
+  .desk .submitBtn,
+  .codeBtn {
+    height: 34px;
+  }
+  .desk .raAside {
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+  }
+}
+
+
+/* ===================================================================
+   Inverted (2026-10-29, direct request): the desktop card is light glass, white at 25% with the
+   background blur kept, and no outline; the text is dark; the form fields are underlines, not
+   boxes. Declared last so it settles the dark-card rules above (they stay for reference).
+   Phones are unchanged.
+   =================================================================== */
+.desk .card {
+  background: rgba(255, 255, 255, 0.72); /* white at 72%; was 50%, then 25%, originally rgba(43, 43, 43, 0.65) */
+  border: 0; /* was 1px solid #cbcbcb */
+  color: #1a1714;
+}
+.desk .raAside {
+  border-bottom-color: rgba(26, 23, 20, 0.14);
+}
+.desk .eyebrow,
+.desk .heading,
+.desk .it,
+.desk .cardHeading,
+.desk .cardIt {
+  color: #1a1714;
+}
+.desk .eyebrow::after {
+  background: rgba(26, 23, 20, 0.4);
+}
+.desk .lede {
+  color: rgba(26, 23, 20, 0.8);
+}
+.desk.raRoot .form .field label {
+  color: #1a1714;
+}
+.desk.raRoot .form .field label .optional {
+  color: rgba(26, 23, 20, 0.6);
+}
+.inWrap svg {
+  stroke: rgba(26, 23, 20, 0.7);
+}
+
+/* Fields: a line under each, no box. */
+.desk .field input {
+  border: 0;
+  border-bottom: 1px solid rgba(26, 23, 20, 0.45);
+  border-radius: 0 !important;
+  background: transparent;
+  color: #1a1714;
+}
+.desk .field input::placeholder {
+  color: rgba(26, 23, 20, 0.5);
+}
+.desk .field input:focus {
+  border-bottom-color: #1a1714;
+  background: transparent;
+  box-shadow: 0 1px 0 0 #1a1714; /* the line thickens to 2px while typing */
+}
+.desk .field input[aria-invalid="true"] {
+  border-bottom-color: #b3441f;
+}
+
+/* Buttons: dark solid and a dark outline. */
+.desk .submitBtn,
+.desk .submitBtn:hover:not(:disabled) {
+  background: #1a1714;
+  color: #fff;
+}
+.desk .submitBtn:focus-visible,
+.codeBtn:focus-visible {
+  outline-color: #1a1714;
+}
+.codeBtn,
+.codeBtn:hover {
+  border-color: #1a1714;
+  background: transparent;
+  color: #1a1714;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+}
+
+.desk .footLine {
+  color: rgba(26, 23, 20, 0.75);
+}
+.desk .footLine + .footLine {
+  border-top-color: rgba(26, 23, 20, 0.15);
+}
+.desk .footLink {
+  color: #1a1714;
+  border-bottom-color: rgba(26, 23, 20, 0.5);
+}
+.desk .footLink:hover {
+  border-bottom-color: #1a1714;
+}
+.desk .err {
+  color: #b3441f;
+}
+
+
+/* ===================================================================
+   Phones, inverted too (2026-10-29, direct request): the same look as the desktop card above, for the
+   phone page (everything outside .desk): light glass (white at 72%, blur, no outline), dark text,
+   underlined fields, a square dark button. The text above the card, on the video, is unchanged.
+   =================================================================== */
+.raRoot:not(.desk) .card {
+  background: rgba(255, 255, 255, 0.72); /* was rgba(255, 250, 244, 0.86) */
+  border: 0; /* was 1px solid rgba(255, 255, 255, 0.5) */
+  color: #1a1714;
+}
+.raRoot:not(.desk) .cardHeading,
+.raRoot:not(.desk) .cardIt {
+  color: #1a1714;
+}
+.raRoot:not(.desk) .cardSub {
+  color: rgba(26, 23, 20, 0.75);
+}
+.raRoot:not(.desk) .form .field label {
+  color: #1a1714;
+}
+.raRoot:not(.desk) .form .field label .optional {
+  color: rgba(26, 23, 20, 0.6);
+}
+.raRoot:not(.desk) .field input {
+  border: 0;
+  border-bottom: 1px solid rgba(26, 23, 20, 0.45);
+  border-radius: 0 !important;
+  background: transparent;
+  color: #1a1714;
+  padding-left: 0;
+}
+.raRoot:not(.desk) .field input::placeholder {
+  color: rgba(26, 23, 20, 0.5);
+}
+.raRoot:not(.desk) .field input:focus {
+  border-bottom-color: #1a1714;
+  background: transparent;
+  box-shadow: 0 1px 0 0 #1a1714; /* the line thickens to 2px while typing */
+}
+.raRoot:not(.desk) .field input[aria-invalid="true"] {
+  border-bottom-color: #b3441f;
+}
+.raRoot:not(.desk) .submitBtn,
+.raRoot:not(.desk) .submitBtn:hover:not(:disabled) {
+  background: #1a1714;
+  color: #fff;
+  border-radius: 0 !important; /* was a pill */
+}
+.raRoot:not(.desk) .submitBtn:focus-visible {
+  outline-color: #1a1714;
+}
+.raRoot:not(.desk) .footLine {
+  color: rgba(26, 23, 20, 0.75);
+}
+.raRoot:not(.desk) .footLink {
+  color: #1a1714;
+  border-bottom-color: rgba(26, 23, 20, 0.5);
+}
+.raRoot:not(.desk) .err {
+  color: #b3441f;
+}
+
+
+/* ===================================================================
+   Phones show the desktop page (2026-10-29, direct request): the .desk layout above now applies at every
+   width (RequestAccessPage.tsx), so this makes it fit a phone. The background is the one difference:
+   the video stays on phones, not the sunset photo. The "Phones, inverted" block above is no longer used.
+   =================================================================== */
+@media (max-width: 720px) {
+  .desk {
+    background-image: none; /* no sunset photo: the video (.bg) is behind the card */
+    background-color: #171414;
+    height: auto;
+    min-height: 100svh;
+    overflow: visible;
+  }
+  .desk .bgOverlay {
+    display: block; /* the dark overlay over the video, as on the original phone page */
+  }
+  .brand {
+    left: 16px;
+    color: #fff; /* on the video */
+  }
+  .brand svg {
+    color: #fff;
+  }
+  .desk .raWrap {
+    height: auto;
+    min-height: 100svh;
+    align-items: stretch;
+    justify-content: flex-start;
+    padding: 72px 16px 28px;
+  }
+  .desk .card {
+    width: 100%;
+    max-width: none;
+    margin-top: 0;
+    padding: 20px; /* the fixed phone padding */
+  }
+  .desk .heading {
+    white-space: normal;
+  }
+}
+@media (max-width: 420px) {
+  .desk .submitBtn,
+  .codeBtn {
+    font-size: 13.5px;
+  }
+  .codeBtn {
+    padding: 0 6px;
+    line-height: 1.2;
+    text-align: center;
+  }
+}
+
+
+/* ===================================================================
+   Phone /request-access (2026-10-29, direct request): the page never grows past the screen; the form text is 16px;
+   the two buttons fill the width and stack; the gaps between the fields are bigger. Declared after the phone block
+   above, so it settles that block's "page may grow" rules. Sizes follow the screen height so the card fits; on a
+   very short screen the card scrolls inside itself instead of the page growing.
+   =================================================================== */
+@media (max-width: 720px) {
+  .desk {
+    height: 100svh; /* was height: auto; min-height: 100svh */
+    min-height: 0;
+    overflow: hidden;
+  }
+  .desk .raWrap {
+    height: 100%; /* was height: auto; min-height: 100svh */
+    min-height: 0;
+    box-sizing: border-box;
+    justify-content: flex-start;
+    padding: 64px 16px 16px; /* was 72px 16px 28px */
+  }
+  .desk .card {
+    flex: 0 1 auto;
+    min-height: 0;
+    max-height: calc(100svh - 64px - 16px); /* never taller than the screen under the logo */
+    overflow-y: auto; /* only on a very short screen */
+    scrollbar-width: none;
+  }
+  .desk .card::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Bigger gaps between the fields. */
+  .desk .form {
+    gap: clamp(14px, 3.1vh, 30px); /* was clamp(8px, 2.3vh, 24px) */
+  }
+
+  /* Input text is 16px (it also stops iOS from zooming into the field). */
+  .desk .field input {
+    font-size: 16px; /* was 13.5px */
+    height: clamp(40px, 5.2vh, 48px);
+  }
+
+  /* Both buttons fill the width and stack. */
+  .btnRow {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .btnRow > .submitBtn,
+  .btnRow > .codeBtn,
+  .desk .submitBtn,
+  .codeBtn {
+    width: 100%;
+    flex: none;
+    height: clamp(40px, 5.4vh, 48px);
+    font-size: 14.5px; /* back from the 13.5px the side-by-side buttons needed */
+  }
+  .codeBtn {
+    padding: 0;
+  }
+}
+
+
+/* ===================================================================
+   Phone /request-access, a refinement (2026-10-29, direct request): the card may run past the bottom of the
+   screen (the page clips it), but its content never does. So the card no longer scrolls inside itself (that
+   was the earlier max-height / overflow on .desk .card); it hugs its content, and the sizes are tightened on
+   shorter screens so the last line, the email address, always stays on screen. The two buttons are closer
+   together, and there is more room between the last button and the email address.
+   =================================================================== */
+@media (max-width: 720px) {
+  .desk .raWrap {
+    padding-bottom: 0; /* was 16px: the card's own bottom padding may go off-screen */
+  }
+  .desk .card {
+    max-height: none; /* was calc(100svh - 64px - 16px) with overflow-y: auto */
+    overflow: visible;
+  }
+  .btnRow {
+    gap: 6px; /* was 10px */
+  }
+  .desk .footLine {
+    margin-top: clamp(16px, 2.6vh, 24px); /* was clamp(8px, 1.5vh, 14px) */
+  }
+}
+@media (max-width: 720px) and (max-height: 760px) {
+  .desk .raAside {
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+  }
+  .desk .lede {
+    font-size: 12.5px;
+    line-height: 1.45;
+  }
+  .desk .form {
+    gap: 12px;
+  }
+  .desk .field input {
+    height: 38px;
+  }
+  .desk .submitBtn,
+  .codeBtn {
+    height: 40px;
+  }
+}
+
+
+/* Phone /request-access, another refinement (2026-10-29, direct request): the card runs off the bottom of the
+   screen, so its bottom corners are square (rounding would show as a curve at the screen edge), and it sits a fixed
+   20px under the logo (the logo ends at about 59px; the card was 5px under it). */
+@media (max-width: 720px) {
+  .desk .raWrap {
+    padding-top: 80px; /* was 64px */
+  }
+  .desk .card {
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+  }
+}
+
+
+/* Italic text is wine-burgundy on every screen (2026-10-29, direct request): the "conversation." in the headline
+   and the "invitation." in the card heading. They were dark ink on the glass card (and salmon, then white, before). */
+.it,
+.cardIt,
+.desk .it,
+.desk .cardIt,
+.raRoot:not(.desk) .cardIt {
+  color: #6e2a38;
+}
+
+/* Italic text is semibold too (2026-10-29, direct request). Cormorant's italic is loaded in weights 300 to 700,
+   so 600 is real, not synthesised. The headings around it are 500. */
+.it,
+.cardIt,
+.desk .it,
+.desk .cardIt,
+.raRoot:not(.desk) .cardIt {
+  font-weight: 600;
 }

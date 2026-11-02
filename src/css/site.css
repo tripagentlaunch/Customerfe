@@ -3461,3 +3461,46 @@ main > section[id], main > header[id]{scroll-margin-top:64px}
   .footer .legal{display:none}
   .footer{padding-bottom:clamp(56px,6vw,80px)}
 }
+
+
+/* ===================================================================
+   Floating buttons (2026-10-28, direct request).
+   1) The dark-mode toggle and the "Talk to Tara" button sit on one line along
+      the bottom, a fixed 24px up from the bottom edge, on every page (desktop;
+      phones keep their own placement). They were clamp(16px, 2.5vw, 30px) and
+      clamp(6px, .8vw, 16px), so they sat at different heights. The cookie-bar
+      and profile-chip lifts are kept, rebuilt on the same 24px.
+   2) Tara's hover is one smooth motion: padding, the gap, the label's width and
+      opacity, the colour and the lift all share one duration and easing. Before,
+      the padding and gap snapped while only the label width animated.
+   =================================================================== */
+@media (min-width: 901px) {
+  .ta-theme { bottom: 24px; }
+  .ta-theme button { height: 38px; } /* 44px pill, same height as Tara's compact button, so their centres line up */
+  .ta-advisor,
+  .ta-advisor.ta-advisor-compact { bottom: 24px; }
+  body.ta-consent-open .ta-advisor { bottom: calc(24px + 82px); }
+  body.ta-consent-open .ta-theme { bottom: calc(24px + 82px); }
+  body:has(.ta-me-chip) .ta-theme { bottom: calc(24px + 62px); }
+  body.ta-consent-open:has(.ta-me-chip) .ta-theme { bottom: calc(24px + 62px + 82px); }
+}
+
+.ta-advisor {
+  transition:
+    padding .45s var(--ease-lux),
+    transform .45s var(--ease-lux),
+    background-color .45s var(--ease-lux),
+    box-shadow .45s var(--ease-lux),
+    opacity .3s ease;
+}
+.ta-advisor-inner {
+  transition: gap .45s var(--ease-lux), transform .45s var(--ease-lux);
+}
+.ta-advisor-label {
+  transition: max-width .45s var(--ease-lux), opacity .35s var(--ease-lux);
+}
+@media (prefers-reduced-motion: reduce) {
+  .ta-advisor,
+  .ta-advisor-inner,
+  .ta-advisor-label { transition: none; }
+}
