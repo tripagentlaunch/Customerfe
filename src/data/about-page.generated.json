@@ -1,7 +1,7 @@
 {
   "seo": {
     "title": "About | TripAgent",
-    "description": "A private travel maison by Tripsure. We brought back the travel agent: one real person, with AI behind them, to look after every journey the way a private banker looks after your money."
+    "description": "TripAgent, a brand of Polaris Commerce Group. We brought back the travel agent: one real person, with AI behind them, to look after every journey the way a private banker looks after your money."
   },
   "hero": {
     "eyebrow": "About",
@@ -27,7 +27,7 @@
     "eyebrow": "The lineage",
     "headingHtml": "A quiet service, on rails trusted by <span class=\"it\">millions</span>.",
     "ledes": [
-      "TripAgent is a maison by Tripsure: part of Reward360, which quietly powers travel and rewards for some of India's most trusted banks. You've likely used these rails without ever seeing the name. That's the point.",
+      "TripAgent is a brand of Polaris Commerce Group Private Limited, a Bengaluru company that builds travel and rewards technology for some of India's most trusted institutions. You've likely used these rails without ever seeing the name. That's the point.",
       "The systems beneath your messages already move money and miles for those banks. We didn't build them in a hurry. We inherited them, and wrapped them in one human voice."
     ],
     "items": [

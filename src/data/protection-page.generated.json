@@ -37,8 +37,8 @@
       },
       {
         "n": "03",
-        "heading": "Secure payments, by Tripsure",
-        "body": "Payments run through Razorpay on PCI-DSS-compliant infrastructure, provided by Tripsure. Your card details are handled to the standard they demand."
+        "heading": "Secure payments",
+        "body": "Payments run on PCI-DSS-compliant infrastructure through a regulated payment partner. Your card details are handled to the standard they demand."
       },
       {
         "n": "04",
@@ -74,7 +74,7 @@
     "heading": "Your money, and your data, in safe hands.",
     "lede": "Trust is the whole point, so we are plain where others are vague. Payments secured to a recognised standard, prices shown honestly, and your information used only to arrange your travel: nothing more.",
     "items": [
-      "PCI-DSS-compliant payments through Razorpay, provided by Tripsure: we don\u2019t store raw card numbers.",
+      "PCI-DSS-compliant payments through a regulated payment partner: we don\u2019t store raw card numbers.",
       "Sell prices shown plainly; any fee is named and agreed before you confirm, never folded in quietly.",
       "Your data is used only to arrange travel and never sold: the detail is in our <a href=\"/privacy\">privacy policy</a> and <a href=\"/terms\">terms</a>."
     ],
@@ -131,7 +131,7 @@
       },
       {
         "question": "How are my passport and payment details kept safe?",
-        "answerHtml": "Payments run through Razorpay on PCI-DSS-compliant infrastructure, provided by Tripsure: we don\u2019t store raw card numbers. Your passport and travel documents are held securely and shared with airlines, hotels and consulates only as a booking requires, never beyond it. We do not sell your data, and we use it only to arrange your travel. Your advisor is bound to discretion. The full detail sits in our <a href=\"/privacy\">privacy policy</a> and <a href=\"/terms\">terms</a>, written plainly rather than buried."
+        "answerHtml": "Payments run on PCI-DSS-compliant infrastructure through a regulated payment partner: we don\u2019t store raw card numbers. Your passport and travel documents are held securely and shared with airlines, hotels and consulates only as a booking requires, never beyond it. We do not sell your data, and we use it only to arrange your travel. Your advisor is bound to discretion. The full detail sits in our <a href=\"/privacy\">privacy policy</a> and <a href=\"/terms\">terms</a>, written plainly rather than buried."
       },
       {
         "question": "What happens if a visa is refused?",

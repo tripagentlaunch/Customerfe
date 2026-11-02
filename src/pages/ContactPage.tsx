@@ -5,6 +5,7 @@ import { useScrollReveal } from "../lib/useScrollReveal";
 import { useNavVariant } from "../lib/navVariant";
 import { withTaraAI } from "../components/TaraAI";
 import styles from "./contact-page.module.css";
+import CompanyCard from "../components/CompanyCard";
 
 const data = contactData as unknown as ContactData;
 
@@ -62,8 +63,10 @@ export default function ContactPage() {
                 <p dangerouslySetInnerHTML={{ __html: d.bodyHtml ?? "" }} />
               </div>
             ))}
-            <p className={styles.ctNote} dangerouslySetInnerHTML={{ __html: noteHtml ?? "" }} />
+            {noteHtml ? <p className={styles.ctNote} dangerouslySetInnerHTML={{ __html: noteHtml }} /> : null}
           </div>
+          {/* Full width under the two columns (inside them it was squeezed to half). */}
+          <CompanyCard title="Company details" />
         </div>
       </section>
     </>

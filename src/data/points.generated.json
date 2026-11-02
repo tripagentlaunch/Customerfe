@@ -108,7 +108,7 @@
       ],
       [
         "<b>The fee is disclosed first.</b> Any service fee is shown before you confirm, never after.",
-        "<b>Secure by default.</b> Payments run through Razorpay on PCI-DSS compliant infrastructure. We never store your full card details."
+        "<b>Secure by default.</b> Payments run on PCI-DSS compliant infrastructure through a regulated payment partner. We never store your full card details."
       ]
     ]
   },
@@ -138,7 +138,7 @@
       },
       {
         "summary": "Is payment secure?",
-        "bodyHtml": "Yes. Payments run through Razorpay on PCI-DSS compliant infrastructure: a regulated Indian gateway. We never store your full card details.",
+        "bodyHtml": "Yes. Payments run on PCI-DSS compliant infrastructure through a regulated Indian payment gateway. We never store your full card details.",
         "open": false
       }
     ]

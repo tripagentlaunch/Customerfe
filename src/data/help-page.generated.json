@@ -84,7 +84,7 @@
         },
         {
           "question": "Is my payment secure?",
-          "answerHtml": "Yes. Payments run through <b>Razorpay</b> on PCI-compliant infrastructure. We never see or store your full card number: it is handled by the gateway and encrypted end to end.",
+          "answerHtml": "Yes. Payments run on PCI-DSS compliant infrastructure through a regulated payment partner. We never see or store your full card number: it is handled by the gateway and encrypted end to end.",
           "open": false
         },
         {
@@ -192,7 +192,7 @@
         },
         {
           "question": "Where is my data kept, and is it safe?",
-          "answerHtml": "On <b>bank-grade infrastructure</b>, encrypted, with access limited to those arranging your travel. Payment card details are handled by Razorpay's PCI-compliant gateway, not stored by us.",
+          "answerHtml": "On <b>bank-grade infrastructure</b>, encrypted, with access limited to those arranging your travel. Payment card details are handled by a PCI-DSS compliant payment gateway, not stored by us.",
           "open": false
         },
         {
@@ -224,7 +224,7 @@
         },
         {
           "question": "Who is behind TripAgent?",
-          "answerHtml": "TripAgent is a private travel maison by <b>Tripsure</b>, at 44 Kingfisher Towers, Bangalore 560 001. Real company, real advisors, and the promise to stay with you <span class=\"it\">until you are home</span>. More <a href=\"/about\">about us</a>.",
+          "answerHtml": "TripAgent is a private travel maison and a brand of <b>Polaris Commerce Group Private Limited</b>, Koramangala, Bengaluru 560034. Real company, real advisors, and the promise to stay with you <span class=\"it\">until you are home</span>. More <a href=\"/about\">about us</a>.",
           "open": false
         },
         {

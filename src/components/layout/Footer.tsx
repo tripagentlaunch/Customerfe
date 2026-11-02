@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState, type ReactNode } from "react";
+import { COMPANY } from "../../lib/company";
 import { Link, useLocation } from "react-router-dom";
 import { TaraAI } from "../TaraAI";
 import { useWhatsAppNumber } from "../../lib/useWhatsAppNumber";
@@ -149,9 +150,9 @@ export function Footer() {
       links: [
         { to: "/help", label: "Help" },
         { to: "/contact", label: "Contact" },
-        { to: "/terms", label: "Terms" },
-        { to: "/privacy", label: "Privacy" },
-        { to: "/refund", label: "Refund of fees" },
+        { to: "/terms", label: "Terms & Conditions" },
+        { to: "/privacy", label: "Privacy Policy" },
+        { to: "/refund", label: "Cancellation & Refund Policy" },
       ],
     },
   ];
@@ -187,7 +188,8 @@ export function Footer() {
         ))}
         <div className="legal">
           <span>
-            © 2026 TripAgent<span className="faddr"> · 44 Kingfisher Towers, Bangalore 560 001</span>
+            © 2026 {COMPANY.brand}, a brand of {COMPANY.legalName}
+            <span className="faddr"> · {COMPANY.shortAddress} · GSTIN {COMPANY.gstin}</span>
           </span>
           <span className="fstay">We stay.</span>
         </div>

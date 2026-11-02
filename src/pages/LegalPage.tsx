@@ -6,6 +6,7 @@ import { useScrollReveal } from "../lib/useScrollReveal";
 import { useNavVariant } from "../lib/navVariant";
 import styles from "./legal-page.module.css";
 import NotFoundPage from "./NotFoundPage";
+import CompanyCard from "../components/CompanyCard";
 
 const LEGAL = legal as unknown as Record<string, LegalData>;
 
@@ -66,6 +67,7 @@ export default function LegalPage() {
               <ProseNode node={n} key={i} />
             ))}
             {note && <div className={styles.note} dangerouslySetInnerHTML={{ __html: note }} />}
+            <CompanyCard />
           </div>
         </div>
       </section>
