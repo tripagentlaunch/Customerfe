@@ -314,9 +314,16 @@
   gap: clamp(14px, 1.6vw, 22px);
   margin-top: clamp(24px, 3vw, 40px);
 }
+/* Was two across at 860px and below; now one card per line (2026-11-02, direct request).
 @media (max-width: 860px) {
   .decGrid {
     grid-template-columns: 1fr 1fr;
+  }
+}
+*/
+@media (max-width: 860px) {
+  .decGrid {
+    grid-template-columns: 1fr;
   }
 }
 @media (max-width: 460px) {

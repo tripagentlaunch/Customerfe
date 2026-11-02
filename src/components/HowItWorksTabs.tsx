@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { useIsMobile } from "../hooks/useIsMobile";
+// import { useIsMobile } from "../hooks/useIsMobile"; // phones now use the pinned version too
 import { HOW_IT_WORKS_STAGES as STAGES } from "../data/how-it-works-stages";
 import styles from "./HowItWorksTabs.module.css";
 
@@ -17,6 +17,8 @@ const LAST = STAGES.length - 1;
 // Milliseconds of stillness before the page scrolls itself on: to the next
 // stage, and from the last stage (Home) on to the next section of the page.
 const AUTO_ADVANCE_MS = 4500;
+// How long the page's own glide from one stage to the next takes (the same for every move).
+const SCROLL_MS = 700;
 
 export default function HowItWorksTabs() {
   // Desktop: the section is pinned (a tall wrapper with a sticky 100svh stage
@@ -26,10 +28,12 @@ export default function HowItWorksTabs() {
   // scrolling for AUTO_ADVANCE_MS the page scrolls itself on to the next stage,
   // and clicking any stage scrolls smoothly (forward or back) to it. Both go
   // through goTo(), so the line fills the same way as for a manual scroll.
-  // Phones keep the simple version: the step follows where the section is on
-  // screen, and a click sets it directly (no pinning).
-  const isMobile = useIsMobile();
-  const pinnedMode = !isMobile;
+  // Phones used to keep a simple version (the step followed where the section was on
+  // screen, a click set it directly, no pinning); they now use this one too.
+  // 2026-11-02 (direct request): phones get the same pinned, scroll-driven section with auto-advance. Was:
+  // const isMobile = useIsMobile(); const pinnedMode = !isMobile; (phones: not pinned, the step followed where the
+  // section sat on screen, no auto-advance). That phone branch below is kept but no longer runs.
+  const pinnedMode = true;
   const wrapRef = useRef<HTMLElement | null>(null);
   const stickyRef = useRef<HTMLDivElement | null>(null);
 
@@ -37,8 +41,9 @@ export default function HowItWorksTabs() {
   const [q, setQ] = useState(0);
   const qRef = useRef(0);
   const idleRef = useRef(0);
-  const fallbackRef = useRef(0);
-  const autoTargetRef = useRef<number | null>(null); // scrollY we are scrolling to, while a programmatic scroll runs
+  const autoTargetRef = useRef<number | null>(null); // scrollY we are scrolling to, while our own scroll runs
+  const animRef = useRef(0); // the animation frame of our own scroll
+  const lastArmYRef = useRef(-1); // where the page was when the wait was last started
 
   // ---- phone ----
   const [activeM, setActiveM] = useState(0);
@@ -63,17 +68,37 @@ export default function HowItWorksTabs() {
 
   // Scrolls smoothly to stage i (click, or the auto-advance).
   const goTo = (i: number) => goToY(stageY(Math.max(0, Math.min(LAST, i))));
-  // Smooth-scrolls to a page position; `autoTargetRef` marks the scroll as ours.
+  // Scrolls to a page position with our own fixed-length glide (not the browser's smooth scroll, whose length and end
+  // point vary by browser and distance, and on a phone could stop a pixel short and leave the wait waiting for it).
+  // The glide always takes SCROLL_MS, and the wait starts the moment it ends, so the wait is exactly AUTO_ADVANCE_MS.
+  // `autoTargetRef` marks the scroll as ours while it runs.
   const goToY = (target: number) => {
-    autoTargetRef.current = target;
     window.clearTimeout(idleRef.current);
-    window.clearTimeout(fallbackRef.current);
-    window.scrollTo({ top: target, behavior: reduceMotion() ? "auto" : "smooth" });
-    // Safety net: if the scroll is interrupted and never lands, start counting again.
-    fallbackRef.current = window.setTimeout(() => {
+    window.cancelAnimationFrame(animRef.current);
+    const from = window.scrollY;
+    const dist = target - from;
+    if (reduceMotion() || Math.abs(dist) < 2) {
       autoTargetRef.current = null;
+      window.scrollTo(0, target);
+      lastArmYRef.current = window.scrollY;
       armIdle();
-    }, 2200);
+      return;
+    }
+    autoTargetRef.current = target;
+    const t0 = performance.now();
+    const step = (now: number) => {
+      if (autoTargetRef.current !== target) return; // the visitor took over
+      const p = Math.min(1, (now - t0) / SCROLL_MS);
+      window.scrollTo(0, from + dist * (1 - Math.pow(1 - p, 3))); // ease out
+      if (p < 1) {
+        animRef.current = window.requestAnimationFrame(step);
+      } else {
+        autoTargetRef.current = null;
+        lastArmYRef.current = window.scrollY;
+        armIdle(); // the wait starts here
+      }
+    };
+    animRef.current = window.requestAnimationFrame(step);
   };
   // After AUTO_ADVANCE_MS with no scrolling, move on to the next stage ahead, or
   // from the last stage on to the next section.
@@ -94,6 +119,7 @@ export default function HowItWorksTabs() {
   useEffect(() => {
     if (!pinnedMode) return;
     let raf = 0;
+    let arm = false; // set by a scroll event, not by a resize
     const measure = () => {
       raf = 0;
       const wrap = wrapRef.current;
@@ -103,40 +129,44 @@ export default function HowItWorksTabs() {
       const nq = Math.min(1, Math.max(0, scrolled / g.range));
       qRef.current = nq;
       setQ(nq);
-      const target = autoTargetRef.current;
-      if (target !== null) {
-        // Our own smooth scroll: not "activity". Once it lands, start counting again.
-        if (Math.abs(window.scrollY - target) < 2) {
-          autoTargetRef.current = null;
-          window.clearTimeout(fallbackRef.current);
-          armIdle();
-        }
-      } else {
+      const wasScroll = arm;
+      arm = false;
+      // Our own glide is not "activity" (it starts the wait itself when it ends). The visitor scrolling is: the wait
+      // starts again each time the page really moves. A resize (a phone's address bar showing or hiding) or a scroll event
+      // that moved nothing is not.
+      if (autoTargetRef.current === null && wasScroll && Math.abs(window.scrollY - lastArmYRef.current) >= 1) {
+        lastArmYRef.current = window.scrollY;
         armIdle();
       }
     };
     const onScroll = () => {
+      arm = true;
+      if (!raf) raf = requestAnimationFrame(measure);
+    };
+    const onResize = () => {
       if (!raf) raf = requestAnimationFrame(measure);
     };
     // The visitor taking over: a wheel / touch / key press ends our own scroll.
     const onUser = () => {
+      if (autoTargetRef.current === null) return;
       autoTargetRef.current = null;
-      window.clearTimeout(fallbackRef.current);
+      window.cancelAnimationFrame(animRef.current);
+      armIdle(); // the visitor stopped our glide: the wait starts again from now, even if they then do not scroll
     };
     measure();
     window.addEventListener("scroll", onScroll, { passive: true });
-    window.addEventListener("resize", onScroll);
+    window.addEventListener("resize", onResize);
     window.addEventListener("wheel", onUser, { passive: true });
     window.addEventListener("touchstart", onUser, { passive: true });
     window.addEventListener("keydown", onUser);
     return () => {
       window.removeEventListener("scroll", onScroll);
-      window.removeEventListener("resize", onScroll);
+      window.removeEventListener("resize", onResize);
       window.removeEventListener("wheel", onUser);
       window.removeEventListener("touchstart", onUser);
       window.removeEventListener("keydown", onUser);
       window.clearTimeout(idleRef.current);
-      window.clearTimeout(fallbackRef.current);
+      window.cancelAnimationFrame(animRef.current);
       if (raf) cancelAnimationFrame(raf);
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps

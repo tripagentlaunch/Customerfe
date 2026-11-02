@@ -240,10 +240,36 @@
 .lede {
   max-width: 46ch;
 }
+/* Pinned stage: the sub text always takes the room of four lines (2026-11-02, direct request), so every stage has the same
+   height and nothing below or above it shifts when the stage changes. */
+.pinned .lede {
+  height: 4lh;
+}
 
 @media (max-width: 820px) {
   .body {
     grid-template-columns: 1fr;
     gap: 32px;
+  }
+}
+
+
+/* Phones use the pinned, scroll-driven section too (2026-11-02, direct request). The same stage (tabs, picture, copy) has to
+   fit one phone screen, so: less padding at the top and bottom, the picture takes only the height that is left after the tabs
+   and the copy, and the tabs have more room under them (a three-line label such as "The Contingency Desk" would otherwise run
+   into the picture). The scroll distance between stages is the same as on desktop. */
+@media (max-width: 820px) {
+  .pinned .sticky {
+    padding: 72px 0 20px;
+  }
+  .pinned .track {
+    margin: 0 0 44px;
+  }
+  .pinned .body {
+    gap: 20px;
+  }
+  .pinned .illustration {
+    max-height: calc(100svh - 470px);
+    min-height: 150px;
   }
 }
