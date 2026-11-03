@@ -43,7 +43,7 @@ function vercelImageProxy(): Plugin {
 // BACKEND_PROXY_TARGET (e.g. https://customerbe-dev.onrender.com) runs the site locally against a
 // deployed backend instead, when the local one isn't running.
 const BACKEND_PROXY = {
-  target: process.env.BACKEND_PROXY_TARGET || "http://localhost:8000",
+  target: (globalThis as any).process?.env?.BACKEND_PROXY_TARGET || "http://localhost:8000",
   changeOrigin: true,
 };
 
