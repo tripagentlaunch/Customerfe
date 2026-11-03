@@ -40,8 +40,10 @@ function vercelImageProxy(): Plugin {
 // Every prefix the FastAPI backend (../backend/main.py) actually serves,
 // proxied to the local backend so the frontend can call plain relative paths
 // in both dev and prod — no VITE_API_BASE_URL/VITE_ASSISTANT_ENDPOINT needed.
+// BACKEND_PROXY_TARGET (e.g. https://customerbe-dev.onrender.com) runs the site locally against a
+// deployed backend instead, when the local one isn't running.
 const BACKEND_PROXY = {
-  target: "http://localhost:8000",
+  target: process.env.BACKEND_PROXY_TARGET || "http://localhost:8000",
   changeOrigin: true,
 };
 

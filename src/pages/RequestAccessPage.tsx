@@ -266,7 +266,7 @@ export default function RequestAccessPage() {
       </h1>
       <p className={styles.lede}>
         {desk
-          ? "Personal travel, planned by a person. Tell us a little, and an advisor will be in touch."
+          ? "TripAgent is your one-stop solution for travel. Tell us a little, and a human advisor will be in touch."
           : "Personal travel planning, curated experiences and expert advisors: for members, by invitation."}
       </p>
     </div>
@@ -277,8 +277,8 @@ export default function RequestAccessPage() {
       {submitting ? (
         "One moment…"
       ) : desk ? (
-        // 2026-10-28: "Send to the Desk" + arrow became "Send Invite", centred, no arrow.
-        <span className={styles.btnLabel}>Send Invite</span>
+        // 2026-10-28: "Send to the Desk" + arrow became "Send Invite", centred, no arrow; 2026-11-03: "Request for an invitation".
+        <span className={styles.btnLabel}>Request for an invitation</span>
       ) : (
         "Send to the Desk"
       )}
@@ -444,7 +444,7 @@ export default function RequestAccessPage() {
                   <div className={styles.btnRow}>
                     {submitButton}
                     <Link to="/claim" className={styles.codeBtn}>
-                      <span className={styles.btnLabel}>I already have a code</span>
+                      <span className={styles.btnLabel}>Already have an invitation</span>
                     </Link>
                   </div>
                 ) : (
