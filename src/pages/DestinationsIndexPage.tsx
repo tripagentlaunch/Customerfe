@@ -44,10 +44,13 @@ export default function DestinationsIndexPage() {
             </div>
           )}
         </div>
-        <div className={styles.indexCount}>
-          <div className="n">{hero.count.n}</div>
-          <div className="k">{hero.count.k}</div>
-        </div>
+        {/* The "110+ cities, known first-hand" figure is off on desktop (2026-11-03, direct request). */}
+        {isMobile && (
+          <div className={styles.indexCount}>
+            <div className="n">{hero.count.n}</div>
+            <div className="k">{hero.count.k}</div>
+          </div>
+        )}
       </header>
 
       {/* Phones skip the world map here (it repeats the homepage's) and go

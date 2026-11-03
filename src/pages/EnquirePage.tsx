@@ -1930,16 +1930,13 @@ export default function EnquirePage() {
                         Your details stay private.
                         <br className={styles.dBrPhone} /> Your advisor will read your enquiry and get back to you.
                       </div>
-                      {/* Two buttons side by side (2026-10-28): the white primary, and an outline "Email your advisor"
-                          (was the text link "Rather write to us directly? Email Tara AI"). The primary's label was
-                          withTaraAI(form.submitLabel) ("Hand it to Tara AI"). */}
+                      {/* One button (2026-11-03, direct request): the outline "Email your advisor" beside it reached
+                          the same advisor, so it was dropped. The primary's label was withTaraAI(form.submitLabel)
+                          ("Hand it to Tara AI"). */}
                       <div className={styles.dBtnRow}>
                         <button type="submit" className={styles.dPrimary} disabled={submitting}>
                           <span className={styles.dLabelText}>{submitting ? "Sending…" : "Send to your advisor"}</span>
                         </button>
-                        <a className={styles.dGhost} href={form.emailCta.href}>
-                          <span className={styles.dLabelText}>Email your advisor</span>
-                        </a>
                       </div>
                     </form>
                   </>

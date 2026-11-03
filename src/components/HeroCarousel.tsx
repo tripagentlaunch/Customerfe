@@ -50,7 +50,7 @@ const DESKTOP_COPY = {
   eyebrow: "Your private travel desk",
   headingHtml: 'Human connection,<br/>backed by <span class="it">super intelligence</span>.',
   ctas: [
-    { label: "Find my trip", href: "where-to-go.html" },
+    { label: "Find my trip", href: "destinations.html" }, // the region -> country -> city browser (2026-11-03, direct request)
     { label: "Ask Tara", href: "concierge.html" },
     { label: "Talk to a human", href: "enquire.html" },
   ],
