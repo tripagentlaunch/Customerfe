@@ -1336,7 +1336,11 @@ function ContactSheet({
 
 export default function EnquirePage() {
   useNavVariant("solid");
-  const { signedIn, member } = useAuth();
+  const { signedIn: realSignedIn, member } = useAuth();
+  // PRESENTATION MODE (2026-11-04, direct request): the sign-in gate is switched off so anyone can open and send the
+  // enquiry form. Set to false to bring the gate back.
+  const GATE_OFF = true;
+  const signedIn = GATE_OFF || realSignedIn;
   // 2026-10-29 (direct request): phones get the redesigned form too (it stacks into one column, see the phone block at
   // the end of enquire-page.module.css). Was: const desk = !useIsMobile();
   const desk = true;
@@ -1387,6 +1391,7 @@ export default function EnquirePage() {
   const [submitting, setSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
   const [notLive, setNotLive] = useState(false);
+  void setNotLive; // only used by the error path switched off in post() (presentation mode)
   const thanksRef = useRef<HTMLDivElement>(null);
   const [searchParams] = useSearchParams();
   const showThanks = submitted || notLive;
@@ -1426,11 +1431,13 @@ export default function EnquirePage() {
       });
       if (!res.ok) throw new Error(`enquiry submit failed: ${res.status}`);
       setSubmitted(true);
-    } catch {
-      // Desktop keeps the form (nothing typed is lost) and shows an inline error;
-      // phones keep the original "Not quite live yet" panel.
-      if (desk) setSubmitErr("We couldn't send that just now. Everything you entered is still here: try again, or email your advisor.");
-      else setNotLive(true);
+    } catch (err) {
+      // PRESENTATION MODE (2026-11-04, direct request): never show an error after Send. A failed send is logged to
+      // the console only and the visitor sees the thank-you panel. Restore the two lines below to show errors again.
+      console.warn("[enquiry] send failed (hidden from the visitor):", err);
+      setSubmitted(true);
+      // if (desk) setSubmitErr("We couldn't send that just now. Everything you entered is still here: try again, or email your advisor.");
+      // else setNotLive(true);
     } finally {
       setSubmitting(false);
     }
