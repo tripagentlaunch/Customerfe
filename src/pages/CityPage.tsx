@@ -4,6 +4,7 @@ import { createPortal } from "react-dom";
 import { Link, useParams } from "react-router-dom";
 import {
   Gem,
+  Ticket,
   Crown,
   Sparkle,
   Star,
@@ -97,6 +98,8 @@ const TIER_ICONS: Record<string, typeof Gem> = {
   "nature & the outdoors": Mountain,
   "history & culture": Landmark,
   "food & wine experiences": Wine,
+  // The engine's fifth "do" group (tours, classes, spas...), 2026-11-04.
+  experiences: Ticket,
 };
 
 function tierIcon(label: string) {

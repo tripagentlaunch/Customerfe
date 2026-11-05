@@ -57,6 +57,10 @@ function toItem(raw: Partial<CityGuideItem>): CityGuideItem | null {
     credentials: Array.isArray(raw.credentials) ? raw.credentials.filter((c): c is string => !!str(c)) : [],
     description: str(raw.description),
     photo: str(raw.photo),
+    // The engine's AI card copy (badge / tag / blurb), when it has written it.
+    badge: str(raw.badge),
+    tag: str(raw.tag),
+    blurb: str(raw.blurb),
   };
 }
 
@@ -99,12 +103,13 @@ function toGuide(row: EngineGuideRow, base: CityData["guide"]): CityData["guide"
   };
 }
 
-// Every category shows at least MIN_PER_PANEL options (2026-10-09). The
+// Every category shows at least MIN_PER_PANEL options (2026-10-09; raised
+// from 5 to 50 on 2026-11-04 to match the engine's target_per_panel). The
 // engine's guides can be thin (Agra had one hotel and no other tabs) until
 // its next run, so: engine picks first, then the city's own bundled guide
 // items it doesn't already have; a category the engine has nothing for
 // shows the bundled one as-is (with its tiers).
-const MIN_PER_PANEL = 5;
+const MIN_PER_PANEL = 50;
 
 function sameName(a: string | null, b: string | null): boolean {
   const norm = (s: string | null) => (s || "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
@@ -121,12 +126,25 @@ function withBundledFill(engine: CityGuidePanel[], bundled: CityGuidePanel[]): C
       if (!mine) return theirs ?? null;
       const items = mine.tiers.flatMap((t) => t.items);
       if (items.length >= MIN_PER_PANEL || !theirs) return mine;
-      const extra: CityGuideItem[] = [];
-      for (const item of theirs.tiers.flatMap((t) => t.items)) {
-        if (items.length + extra.length >= MIN_PER_PANEL) break;
-        if (![...items, ...extra].some((i) => sameName(i.name, item.name))) extra.push(item);
+      // Top up tier by tier (2026-11-04): a bundled item joins the engine's tier
+      // with the same label ("Ultra", "Fine"...), or a new tier after them, so
+      // the grouping survives instead of collapsing into one list.
+      const tiers = mine.tiers.map((t) => ({ label: t.label, items: [...t.items] }));
+      let added = 0;
+      for (const bt of theirs.tiers) {
+        for (const item of bt.items) {
+          if (items.length + added >= MIN_PER_PANEL) break;
+          if (tiers.some((t) => t.items.some((i) => sameName(i.name, item.name)))) continue;
+          let tier = tiers.find((t) => (t.label ?? "") === (bt.label ?? ""));
+          if (!tier) {
+            tier = { label: bt.label, items: [] };
+            tiers.push(tier);
+          }
+          tier.items.push(item);
+          added++;
+        }
       }
-      return extra.length ? { key, tiers: [{ label: mine.tiers[0]?.label ?? null, items: [...items, ...extra] }] } : mine;
+      return added ? { key, tiers } : mine;
     })
     .filter((p): p is CityGuidePanel => !!p && p.tiers.some((t) => t.items.length > 0));
 }
