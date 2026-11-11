@@ -874,3 +874,25 @@ html .prac-card{padding-top:10px;padding-bottom:18px}
 /* Icon beside the accordion row label ("Before you go"). */
 .prac-label-inline{display:inline-flex;align-items:center;gap:10px}
 .prac-label-inline svg{flex:none;color:var(--signature,#6E2A38)}
+
+/* Good to know cards, fixed (2026-11-11): the icon makes the label a flex row with no extra space above it, so the
+   earlier "smaller top" padding left the top cramped. Even 20px padding all round, and a gap between label and text. */
+html .prac-card{padding:20px}
+html .prac-label{margin-bottom:10px}
+
+/* Phone: the copy fills the whole hero (breadcrumb at the top, facts at the bottom), so the fade has to run the full
+   height: darkest at the bottom where the facts are, easing out towards the top but never reaching clear (2026-11-11). */
+@media (max-width: 720px) {
+  html :global(.city-hero)::after {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.4) 40%, rgba(0, 0, 0, 0.26) 100%);
+  }
+}
+
+/* Narrower tier chips (Ultra, Grand, Luxury, Premium): less side padding (2026-11-11, direct request); was 18px. */
+html .tier-chip{padding-left:11px;padding-right:11px}
+
+/* Phone: the tab row gets the same full-width rule under it as desktop (2026-11-11, direct request). The inset-shadow
+   rule above did not show on the scrolling row, so it is a plain bottom border now; the tabs sit on top of it. */
+@media (max-width: 720px) {
+  html .guide-sticky :global(.cg-tabs) { border-bottom: 1px solid var(--line); box-shadow: none; }
+}
