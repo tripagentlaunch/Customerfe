@@ -3,6 +3,7 @@ import { createPortal } from "react-dom";
 import { BUDGET, FLIGHT, MONTHS, MOOD, ORIGINS, WHO, type CitySearch } from "../lib/citySearch";
 import { useIsMobile } from "../hooks/useIsMobile";
 import styles from "./CityFilters.module.css";
+import HomeSearch from "./HomeSearch";
 
 // Search box + When/Who/Budget/Distance selects + Mood chips for the city
 // search (useCitySearch). Lives on the Destinations page; whatever list sits
@@ -109,20 +110,13 @@ export default function CityFilters({ search }: { search: CitySearch }) {
 
   return (
     <div>
-      <div className={styles.csSearchwrap}>
-        <svg className={styles.csIc} width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-          <circle cx="11" cy="11" r="7" stroke="currentColor" strokeWidth={1.5} />
-          <path d="M20 20l-3.2-3.2" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" />
-        </svg>
-        <input
-          type="search"
-          className={styles.csSearchInput}
-          autoComplete="off"
-          spellCheck={false}
-          placeholder="Search a city or country…"
-          aria-label="Search cities and countries"
+      {/* Was the plain "Search a city or country…" input (.csSearchwrap); now the homepage's bar, filtering this page's list in place. */}
+      <div className={styles.csSearchWhite}>
+        <HomeSearch
+          labelHtml="Search a city or a country"
           value={search.state.q}
-          onChange={(e) => search.setQuery(e.target.value)}
+          onValueChange={search.setQuery}
+          showResults={false}
         />
       </div>
 

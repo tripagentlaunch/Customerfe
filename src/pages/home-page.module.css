@@ -398,6 +398,56 @@
   content: " →";
 }
 
+/* Photo cards (2026-11-06, direct request): image behind, all content stacked at the
+   bottom, a soft dark overlay that fades out towards the middle. Placed after the
+   rules above so it wins (they set the link's margin-top:auto and dark text colours). */
+.decCard {
+  justify-content: flex-end;
+  min-height: 440px;
+  color: #fff;
+  border-color: transparent;
+  background-color: #1a1a1a;
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+}
+/* The photo is its own layer (::before) so it can zoom on hover; the soft overlay (::after) sits on it. */
+.decCard::before,
+.decCard::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+}
+.decCard::before {
+  background: var(--dec-img) center / cover no-repeat;
+  transition: transform 0.9s var(--ease), filter 0.6s var(--ease);
+}
+.decCard::after {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.62) 0%, rgba(0, 0, 0, 0.42) 32%, rgba(0, 0, 0, 0) 62%);
+}
+.decCard:hover::before {
+  transform: scale(1.07);
+  filter: brightness(0.8);
+}
+.decCard .dn,
+.decCard h3,
+.decCard .go {
+  color: #fff;
+}
+.decCard p {
+  color: rgba(255, 255, 255, 0.92);
+}
+.decCard h3,
+.decCard p,
+.decCard .dn {
+  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.35);
+}
+.decCard .go {
+  margin-top: 0;
+}
+
 /* TRIPS GALLERY's horizontal-scroll row: the margin here is a hard visual
  * boundary at every scroll position, not just an approximation and not
  * just at the two resting extremes — a card must never be partially
@@ -528,7 +578,7 @@
    the link follows the copy instead of being pushed to the bottom). */
 @media (max-width: 720px) {
   .decCard {
-    min-height: 0;
+    min-height: 340px;
   }
   .decCard h3 {
     font-size: 18px;
@@ -615,3 +665,6 @@
   display: inline-block;
   margin-top: 14px;
 }
+
+/* No outline on the decide cards, at rest or on hover (2026-11-11, direct request). */
+.decCard,.decCard:hover,.decCard:focus-visible{border:0;outline:none}

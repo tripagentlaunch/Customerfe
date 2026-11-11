@@ -213,6 +213,10 @@
 .body {
   align-items: center;
 }
+/* Picture + copy sit higher (same size), leaving room below for the Scroll hint. */
+.pinned .body {
+  translate: 0 -48px;
+}
 .illustration {
   position: relative;
   aspect-ratio: 3 / 4;
@@ -267,9 +271,44 @@
   }
   .pinned .body {
     gap: 20px;
+    translate: 0 -28px;
   }
   .pinned .illustration {
     max-height: calc(100svh - 470px);
     min-height: 150px;
   }
+}
+
+/* "Scroll" hint at the foot of the pinned stage: fades in slowly once the
+   section has been in view for a while, then its chevron bobs softly. */
+.scrollHint {
+  position: absolute;
+  left: 50%;
+  bottom: 28px;
+  translate: -50% 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 11px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.35s ease;
+}
+.scrollHintOn {
+  opacity: 1;
+  transition: opacity 2.4s ease;
+}
+.scrollHint svg {
+  animation: hiwBob 2.8s ease-in-out infinite;
+}
+@keyframes hiwBob {
+  0%, 100% { transform: translateY(-3px); }
+  50% { transform: translateY(5px); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .scrollHint svg { animation: none; }
 }

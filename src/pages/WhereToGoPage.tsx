@@ -11,6 +11,9 @@ import styles from "./wheretogo-page.module.css";
 
 const data = wheretogoData as unknown as WhereToGoPageData;
 
+// Hero photo (2026-11-10, direct request).
+const HERO_IMAGE = "/img/h/destinations.jpg";
+
 // The quiz UI is static and portable; "Show me where" is backed by a real
 // client-side scoring engine reading ~400KB of local data (city-decision.json,
 // city-when.json) plus localStorage origin/profile — a real JS application,
@@ -23,6 +26,53 @@ const data = wheretogoData as unknown as WhereToGoPageData;
 // Phones keep the original "Matching is on its way" note.
 type SendState = "idle" | "sending" | "sent" | "failed";
 
+// Layered questions (2026-11-10, direct request). Each step has a main question and, for some answers, a
+// follow-up that appears below it: "When" asks for months only after "I have dates in mind", and "Who"
+// asks for the occasion / children's ages / group size. Mood, length and budget keep their options from the
+// page data (data.questions[2..4]); the rest of the options are defined here. The old flat list of questions
+// is data.questions[0] and [1] (month chips, who chips).
+type Opt = { label: string; value: string };
+type Group = { group: string; multi: boolean; labelHtml: string; options: Opt[] };
+type Step = Group & { follow?: (single: Record<string, string>) => Group | null };
+const fromData = (qi: number): Opt[] => data.questions[qi].options.map((o) => ({ label: o.label ?? "", value: o.value ?? "" }));
+const mk = (labels: string[]): Opt[] => labels.map((l) => ({ label: l, value: l }));
+
+const MONTHS_FOLLOW: Group = {
+  group: "month",
+  multi: true,
+  labelHtml: 'Which <b>months</b>? <span style="font-size:14px;color:var(--stone)">pick any</span>',
+  options: fromData(0).filter((o) => o.label !== "Flexible"),
+};
+const OCCASION: Group = { group: "occasion", multi: false, labelHtml: "What's the <b>occasion</b>?", options: mk(["Honeymoon", "Anniversary", "Just us"]) };
+const AGES: Group = { group: "ages", multi: true, labelHtml: "How old are the <b>children</b>? <span style=\"font-size:14px;color:var(--stone)\">pick any</span>", options: mk(["Under 5", "5 to 12", "Teens"]) };
+const GROUP_SIZE: Group = { group: "groupsize", multi: false, labelHtml: "How many of <b>you</b>?", options: mk(["3 to 4", "5 to 8", "9 or more"]) };
+
+const STEPS: Step[] = [
+  {
+    group: "when",
+    multi: false,
+    labelHtml: data.questions[0].labelHtml ?? "",
+    options: [
+      { label: "Flexible", value: "flexible" },
+      { label: "I have dates in mind", value: "dates" },
+    ],
+    follow: (single) => (single.when === "dates" ? MONTHS_FOLLOW : null),
+  },
+  {
+    group: "who",
+    multi: false,
+    labelHtml: data.questions[1].labelHtml ?? "",
+    options: mk(["Just me", "Two of us", "Family with children", "Several generations", "A group of friends"]),
+    follow: (single) => (single.who === "Two of us" ? OCCASION : single.who === "Family with children" ? AGES : single.who === "A group of friends" ? GROUP_SIZE : null),
+  },
+  { group: "vibe", multi: true, labelHtml: data.questions[2].labelHtml ?? "", options: fromData(2) },
+  { group: "length", multi: false, labelHtml: data.questions[3].labelHtml ?? "", options: fromData(3) },
+  { group: "budget", multi: false, labelHtml: data.questions[4].labelHtml ?? "", options: fromData(4) },
+];
+const ALL_GROUPS: Group[] = [...STEPS, MONTHS_FOLLOW, OCCASION, AGES, GROUP_SIZE];
+// Answers that depend on another answer, cleared when that answer changes.
+const DEPENDENTS: Record<string, string[]> = { when: ["month"], who: ["occasion", "ages", "groupsize"] };
+
 export default function WhereToGoPage() {
   useNavVariant("solid");
   const [submitted, setSubmitted] = useState(false);
@@ -32,23 +82,11 @@ export default function WhereToGoPage() {
   const [send, setSend] = useState<SendState>("idle");
   const [summary, setSummary] = useState<{ k: string; v: string }[]>([]);
   const resultRef = useRef<HTMLDivElement>(null);
+  // Guided questionnaire (2026-11-10, direct request): one question at a time, Back / Next.
+  const [step, setStep] = useState(0);
+  const [dir, setDir] = useState<"fwd" | "back">("fwd");
 
-  const initial = useMemo(() => {
-    const single: Record<string, string> = {};
-    const multi: Record<string, Set<string>> = {};
-    data.questions.forEach((q) => {
-      q.options.forEach((o) => {
-        if (!o.group) return;
-        if (o.multi) {
-          multi[o.group] = multi[o.group] || new Set();
-          if (o.defaultOn && o.value) multi[o.group].add(o.value);
-        } else if (o.defaultOn) {
-          single[o.group] = o.value ?? "";
-        }
-      });
-    });
-    return { single, multi };
-  }, []);
+  const initial = useMemo(() => ({ single: { when: "flexible" } as Record<string, string>, multi: {} as Record<string, Set<string>> }), []);
 
   const [single, setSingle] = useState(initial.single);
   const [multi, setMulti] = useState(initial.multi);
@@ -68,21 +106,27 @@ export default function WhereToGoPage() {
         return { ...prev, [group]: next };
       });
     } else {
-      setSingle((prev) => ({ ...prev, [group]: value ?? "" }));
+      const gone = DEPENDENTS[group] ?? [];
+      setSingle((prev) => {
+        const next = { ...prev, [group]: value ?? "" };
+        gone.forEach((g) => delete next[g]);
+        return next;
+      });
+      if (gone.length) {
+        setMulti((prev) => {
+          const next = { ...prev };
+          gone.forEach((g) => delete next[g]);
+          return next;
+        });
+      }
     }
   }
 
   // The chosen option label(s) for a group, in the order the quiz lists them.
   function picked(group: string): string[] {
-    const out: string[] = [];
-    data.questions.forEach((q) =>
-      q.options.forEach((o) => {
-        if (o.group !== group) return;
-        const v = o.value ?? "";
-        if (o.multi ? multi[group]?.has(v) : group in single && single[group] === v) out.push(o.label ?? "");
-      })
-    );
-    return out;
+    const g = ALL_GROUPS.find((x) => x.group === group);
+    if (!g) return [];
+    return g.options.filter((o) => (g.multi ? multi[group]?.has(o.value) : group in single && single[group] === o.value)).map((o) => o.label);
   }
 
   async function sendToAdvisor() {
@@ -91,14 +135,20 @@ export default function WhereToGoPage() {
       signInModal.open("Sign in so your advisor can call you about this trip.");
       return;
     }
-    const when = picked("month")[0];
+    const when = single.when === "dates" ? picked("month").join(", ") : "Flexible";
     const who = picked("who")[0];
+    const occasion = picked("occasion")[0];
+    const ages = picked("ages");
+    const groupSize = picked("groupsize")[0];
     const mood = picked("vibe");
     const length = picked("length")[0];
     const budget = picked("budget")[0];
     const rows = [
       { k: "When", v: when },
       { k: "Who", v: who },
+      { k: "Occasion", v: occasion },
+      { k: "Children", v: ages.join(", ") },
+      { k: "Group size", v: groupSize },
       { k: "Mood", v: mood.join(", ") },
       { k: "How long", v: length },
       { k: "Budget", v: budget },
@@ -114,7 +164,7 @@ export default function WhereToGoPage() {
           dates: when || undefined,
           trip_type: who || undefined,
           budget: budget ? `${budget} (per couple per week)` : undefined,
-          notes: ["From the \"Where should you go?\" questions.", mood.length ? `Mood: ${mood.join(", ")}.` : "", length ? `Length: ${length}.` : ""]
+          notes: ["From the \"Where should you go?\" questions.", mood.length ? `Mood: ${mood.join(", ")}.` : "", occasion ? `Occasion: ${occasion}.` : "", ages.length ? `Children's ages: ${ages.join(", ")}.` : "", groupSize ? `Group size: ${groupSize}.` : "", length ? `Length: ${length}.` : ""]
             .filter(Boolean)
             .join(" "),
         }),
@@ -128,91 +178,175 @@ export default function WhereToGoPage() {
 
   return (
     <>
-      <header className={styles.wtgHero}>
-        <div className="wrap">
-          <div className="eyebrow">The decision, made simple</div>
-          <h1 dangerouslySetInnerHTML={{ __html: data.hero.headingHtml ?? "" }} />
-          <p>{data.hero.lede}</p>
-        </div>
-      </header>
-      <main>
-        <div className={styles.wtgQuiz}>
-          {data.questions.map((q, i) => (
-            <div className={styles.wtgQ} key={i}>
-              <div className={styles.ql} dangerouslySetInnerHTML={{ __html: q.labelHtml ?? "" }} />
-              <div className={styles.wtgOpts}>
-                {q.options.map((o, j) => {
-                  const on = o.multi ? multi[o.group ?? ""]?.has(o.value ?? "") : single[o.group ?? ""] === (o.value ?? "");
-                  return (
-                    <button
-                      type="button"
-                      className={`${styles.wtgOpt}${on ? " on" : ""}`}
-                      key={j}
-                      onClick={() => toggle(o.group, o.value, o.multi)}
-                    >
-                      {o.label}
-                    </button>
-                  );
-                })}
-              </div>
-            </div>
-          ))}
-          <div className={styles.wtgGo}>
-            {desk ? (
-              <button type="button" className="btn btn-gold btn-square" onClick={sendToAdvisor} disabled={send === "sending" || send === "sent"}>
-                {send === "sending" ? "Sending…" : send === "sent" ? "Sent to your advisor" : "Send to my advisor"}
-              </button>
-            ) : (
-              <button type="button" className="btn btn-gold btn-square" onClick={() => setSubmitted(true)}>
-                {data.goLabel}
-              </button>
-            )}
+      <main className={styles.wtgRoot}>
+        {/* Built like the access pages (2026-11-10, direct request): photo background + overlay, intro on the left, the questionnaire in a frosted card on the right. */}
+        <img className={styles.wtgBg} src={HERO_IMAGE} alt="" aria-hidden="true" />
+        <div className={styles.wtgOverlay} aria-hidden="true" />
+        <div className={styles.wtgWrap}>
+          <div className={styles.wtgIntro}>
+            {/* Matches the "Match" card on the homepage (2026-11-10, direct request). Was: data.hero.eyebrow / headingHtml / lede. */}
+            <div className={styles.wtgEyebrow}>Match</div>
+            <h1>Five questions, one answer</h1>
+            <p>Tell us when you are free, who is travelling and the mood: we will show you where.</p>
           </div>
-        </div>
-        <div className={styles.wtgResults} ref={resultRef}>
-          {desk && send === "sent" && (
-            <div className={styles.wtgSent} role="status" aria-live="polite">
-              <div className="eyebrow">With your advisor</div>
-              <h2>
-                Your advisor will <span className="it">call you shortly.</span>
-              </h2>
-              <p className={styles.wtgSentLede}>They have your answers, and will come back with where to go, when, and where to stay.</p>
-              {summary.length > 0 && (
-                <dl className={styles.wtgSummary}>
-                  {summary.map((r) => (
-                    <div key={r.k}>
-                      <dt>{r.k}</dt>
-                      <dd>{r.v}</dd>
+          <div className={styles.wtgColumn}>
+        <div className={styles.wtgCard} ref={resultRef}>
+          {(() => {
+            // After "Send": the card itself shows the confirmation or the error (2026-11-10, direct request).
+            if (desk && send === "sent") {
+              return (
+                <div className={styles.wtgPanel} role="status" aria-live="polite">
+                  <div className={styles.wtgSent}>
+                    <div className="eyebrow">With your advisor</div>
+                    <h2>
+                      Your advisor will <span className="it">call you shortly.</span>
+                    </h2>
+                    <p className={styles.wtgSentLede}>They have your answers, and will come back with where to go, when, and where to stay.</p>
+                    {summary.length > 0 && (
+                      <dl className={styles.wtgSummary}>
+                        {summary.map((r) => (
+                          <div key={r.k}>
+                            <dt>{r.k}</dt>
+                            <dd>{r.v}</dd>
+                          </div>
+                        ))}
+                      </dl>
+                    )}
+                    <p className={styles.wtgSentMore}>
+                      Until then, explore <Link to="/collections">Collections</Link>, <Link to="/destinations">Destinations</Link> or <Link to="/when-to-go">When to go</Link>.
+                    </p>
+                  </div>
+                </div>
+              );
+            }
+            if (desk && send === "failed") {
+              return (
+                <div className={styles.wtgPanel} role="alert">
+                  <div className={styles.wtgSent}>
+                    <div className="eyebrow">Not sent</div>
+                    <h2>
+                      We couldn't send <span className="it">that just now.</span>
+                    </h2>
+                    <p className={styles.wtgSentLede}>
+                      Your answers are still here. Please try again in a moment, or <Link to="/enquire">write to your advisor</Link>.
+                    </p>
+                    <div className={styles.wtgPanelBtns}>
+                      <button type="button" className="btn btn-ghost" onClick={() => setSend("idle")}>
+                        Edit answers
+                      </button>
+                      <button type="button" className="btn btn-gold" onClick={sendToAdvisor}>
+                        Try again
+                      </button>
                     </div>
-                  ))}
-                </dl>
-              )}
-              <p className={styles.wtgSentMore}>
-                Until then, explore <Link to="/collections">Collections</Link>, <Link to="/destinations">Destinations</Link> or{" "}
-                <Link to="/when-to-go">When to go</Link>.
-              </p>
-            </div>
-          )}
-          {desk && send === "failed" && (
-            <div className={styles.wtgNotlive} role="alert">
-              <p>
-                We couldn't send that just now. Please try again in a moment, or{" "}
-                <Link to="/enquire">write to your advisor</Link>.
-              </p>
-            </div>
-          )}
-          {!desk && submitted && (
-            <div className={styles.wtgNotlive}>
-              <p>
-                Matching is on its way. Meanwhile, browse <Link to="/collections">Collections</Link>,{" "}
-                <Link to="/destinations">Destinations</Link>, or{" "}
-                <Link to="/enquire">
-                  tell <TaraAI />
-                </Link>{" "}
-                what you're after.
-              </p>
-            </div>
-          )}
+                  </div>
+                </div>
+              );
+            }
+            if (!desk && submitted) {
+              return (
+                <div className={styles.wtgPanel}>
+                  <div className={styles.wtgSent}>
+                    <div className="eyebrow">Almost there</div>
+                    <h2>
+                      Matching is <span className="it">on its way.</span>
+                    </h2>
+                    <p className={styles.wtgSentMore}>
+                      Meanwhile, browse <Link to="/collections">Collections</Link>, <Link to="/destinations">Destinations</Link>, or{" "}
+                      <Link to="/enquire">
+                        tell <TaraAI />
+                      </Link>{" "}
+                      what you're after.
+                    </p>
+                    <div className={styles.wtgPanelBtns}>
+                      <button type="button" className="btn btn-ghost" onClick={() => setSubmitted(false)}>
+                        Edit answers
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              );
+            }
+            const total = STEPS.length;
+            const q = STEPS[step];
+            const last = step === total - 1;
+            const follow = q.follow?.(single) ?? null;
+            // A single-choice question needs an answer before Next (the mood question is optional); months are needed once "I have dates in mind" is picked.
+            const answered = q.multi || (q.group in single && single[q.group] !== undefined);
+            const canNext = answered && !(follow?.group === "month" && !(multi.month?.size > 0));
+            const go = (n: number) => {
+              setDir(n > step ? "fwd" : "back");
+              setStep(n);
+            };
+            return (
+              <>
+                <div className={styles.wtgProgress} aria-hidden="true">
+                  <span className={styles.wtgStepNo}>
+                    {step + 1} of {total}
+                  </span>
+                  <span className={styles.wtgSegs}>
+                    {STEPS.map((_, n) => (
+                      <span key={n} className={n <= step ? styles.wtgSegOn : undefined} />
+                    ))}
+                  </span>
+                </div>
+                {/* Keyed by step so each question animates in (direction-aware). */}
+                <div className={`${styles.wtgQ} ${dir === "fwd" ? styles.wtgInFwd : styles.wtgInBack}`} key={step} role="group" aria-label={`Question ${step + 1} of ${total}`}>
+                  <div className={styles.ql} dangerouslySetInnerHTML={{ __html: q.labelHtml ?? "" }} />
+                  <div className={styles.wtgOpts}>
+                    {q.options.map((o) => {
+                      const on = q.multi ? multi[q.group]?.has(o.value) : single[q.group] === o.value;
+                      return (
+                        <button type="button" className={`${styles.wtgOpt}${on ? " on" : ""}`} key={o.value} aria-pressed={!!on} onClick={() => toggle(q.group, o.value, q.multi)}>
+                          {o.label}
+                        </button>
+                      );
+                    })}
+                  </div>
+                  {follow && (
+                    <div className={styles.wtgFollow} key={follow.group}>
+                      <div className={styles.ql} dangerouslySetInnerHTML={{ __html: follow.labelHtml }} />
+                      <div className={styles.wtgOpts}>
+                        {follow.options.map((o) => {
+                          const on = follow.multi ? multi[follow.group]?.has(o.value) : single[follow.group] === o.value;
+                          return (
+                            <button type="button" className={`${styles.wtgOpt}${on ? " on" : ""}`} key={o.value} aria-pressed={!!on} onClick={() => toggle(follow.group, o.value, follow.multi)}>
+                              {o.label}
+                            </button>
+                          );
+                        })}
+                      </div>
+                    </div>
+                  )}
+                </div>
+                <div className={styles.wtgNav}>
+                  <button type="button" className="btn btn-ghost" onClick={() => go(step - 1)} disabled={step === 0}>
+                    Back
+                  </button>
+                  {!last && (
+                    <button type="button" className="btn btn-gold" onClick={() => go(step + 1)} disabled={!canNext}>
+                      Next
+                    </button>
+                  )}
+                  {last && (
+                    <div className={styles.wtgGoInline}>
+                      {desk ? (
+                        <button type="button" className="btn btn-gold" onClick={sendToAdvisor} disabled={send === "sending" || send === "sent"}>
+                          {send === "sending" ? "Sending…" : send === "sent" ? "Sent to your advisor" : "Send to my advisor"}
+                        </button>
+                      ) : (
+                        <button type="button" className="btn btn-gold" onClick={() => setSubmitted(true)}>
+                          {data.goLabel}
+                        </button>
+                      )}
+                    </div>
+                  )}
+                </div>
+              </>
+            );
+          })()}
+        </div>
+        {/* The confirmation / error now show inside the card (2026-11-10, direct request); this block used to render below it. */}
+          </div>
         </div>
       </main>
     </>

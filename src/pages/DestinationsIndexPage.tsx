@@ -25,6 +25,8 @@ export default function DestinationsIndexPage() {
 
   return (
     <main>
+      {/* Hero removed 2026-11-06 (direct request); `false &&` keeps the markup for easy restore. */}
+      {false && (
       <header
         className={`hero left ${styles.heroIx}`}
         style={{ backgroundImage: `url('${hero.image}')`, backgroundPosition: "60% 50%" }}
@@ -52,12 +54,20 @@ export default function DestinationsIndexPage() {
           </div>
         )}
       </header>
+      )}
 
       {/* Phones skip the world map here (it repeats the homepage's) and go
           straight to "Chosen, not listed." */}
       {!isMobile && (
         <Suspense fallback={<div style={{ minHeight: "70vh" }} />}>
-          <WorldMapSection />
+          <WorldMapSection
+            sticky
+            introCopy={{
+              eyebrow: "Destinations · By invitation",
+              headingHtml: "A few places, known <em>first-hand.</em>",
+              sub: "Where our members go, and how we look after them there. The flights, the stays, the visa, all in hand.",
+            }}
+          />
         </Suspense>
       )}
 

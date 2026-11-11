@@ -17,3 +17,52 @@
 .wo-ev .ec{font-family:var(--fr);font-weight:600;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--accent-2,#6E2A38);margin:3px 0}
 .wo-ev .eo{font-family:var(--fr);font-size:13.5px;line-height:1.55;color:var(--ink-soft,#4a453d);margin:0}
 .wo-ev:hover .en{color:var(--accent-2,#6E2A38)}
+
+/* Photo hero: white text over a dark scrim, a compact height (2026-11-10, direct request). */
+.wo-hero{display:flex;align-items:center;min-height:clamp(360px,58vh,560px);background-size:cover;background-position:center;background-color:#111;color:#fff;padding-top:clamp(90px,12vh,130px);padding-bottom:clamp(40px,6vh,70px)}
+.wo-hero>:global(.wrap){width:100%}
+.wo-hero :global(.eyebrow){color:rgba(255,255,255,.8)}
+.wo-hero h1{color:#fff}
+.wo-hero h1 :global(.it){color:#e3b3a3}
+.wo-hero p{color:rgba(255,255,255,.88)}
+
+/* Month strip: a prominent, sticky tab row like the site's other tabs (white fill, wine underline on the selected one). */
+.wo-nav{top:0;padding:0;background:#fff;border-bottom:1px solid var(--line,#E3E2DD);box-shadow:0 8px 24px -18px rgba(16,12,9,.35)}
+.wo-nav :global(.wrap){flex-wrap:nowrap;gap:0;justify-content:stretch;overflow-x:auto;scrollbar-width:none}
+.wo-nav :global(.wrap)::-webkit-scrollbar{display:none}
+.wo-mlink{position:relative;flex:1 0 auto;display:flex;align-items:center;justify-content:center;gap:6px;min-width:64px;height:64px;padding:0 14px;font-family:var(--fr);font-size:13px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:var(--ink,#1A1714);border-bottom:2px solid transparent;transition:color .25s var(--ease),border-color .25s var(--ease),background .25s var(--ease)}
+.wo-mlink:hover{color:var(--accent-2,#6E2A38)}
+.wo-mlink-on{color:var(--accent-2,#6E2A38);border-bottom-color:var(--accent-2,#6E2A38);font-weight:600}
+.wo-now-dot{width:5px;height:5px;border-radius:50%!important;background:currentColor;opacity:.55;display:inline-block}
+.wo-month{scroll-margin-top:72px}
+@media(max-width:720px){.wo-mlink{height:56px;font-size:12px}}
+
+/* Month headings: smaller, serif (2026-11-10, direct request). Was var(--logo) at clamp(30px,4vw,52px). */
+.wo-mh h2{font-family:var(--serif);font-weight:500;font-size:clamp(26px,2.8vw,36px)}
+
+/* Event cards: photo on top, text below (2026-11-10, direct request). */
+.wo-ev{display:flex;flex-direction:column;padding:0;border:1px solid var(--line,#E3E2DD);border-radius:12px;overflow:hidden;background:#fff;transition:box-shadow .4s var(--ease),transform .4s var(--ease),border-color .3s}
+.wo-ev:hover{box-shadow:0 20px 50px -22px rgba(16,12,9,.32);transform:translateY(-3px);border-color:var(--accent-2,#6E2A38)}
+.wo-ev-img{display:block;width:100%;aspect-ratio:16/10;object-fit:cover;background:#e9e5dc;transition:transform .8s var(--ease)}
+.wo-ev:hover .wo-ev-img{transform:scale(1.04)}
+.wo-ev{isolation:isolate}
+.wo-ev-body{padding:16px 18px 20px}
+.wo-grid{gap:22px}
+
+/* Hero text legibility: the italic was picking up a darker colour from a global rule, and the photo was too bright.
+   More specific + important colour, a darker scrim, and a soft text shadow (2026-11-10). */
+.wo-hero h1,.wo-hero h1 :global(.it),.wo-hero h1 em{color:#fff!important}
+.wo-hero h1 :global(.it),.wo-hero h1 em{color:#f0c4b4!important}
+.wo-hero h1,.wo-hero p,.wo-hero :global(.eyebrow){text-shadow:0 1px 3px rgba(0,0,0,.5),0 2px 28px rgba(0,0,0,.45)}
+
+/* When the navbar slides in it pushes the sticky month strip down below it, so the strip stays reachable. */
+.wo-nav{transition:top .35s cubic-bezier(.4,0,.2,1) .15s,box-shadow .3s}
+:global(body:has(.ta-hd-visible)) .wo-nav{top:var(--ta-hd-h,64px)}
+
+/* Completely white hero text, italic included (2026-11-10, direct request). */
+.wo-hero h1,.wo-hero h1 :global(.it),.wo-hero h1 em,.wo-hero p,.wo-hero :global(.eyebrow){color:#fff!important}
+
+/* Selected month: much more prominent, a solid wine tab with white text (2026-11-10, direct request). */
+.wo-mlink.wo-mlink-on{background:var(--accent-2,#6E2A38);color:#fff;border-bottom-color:var(--accent-2,#6E2A38);font-weight:600}
+.wo-mlink.wo-mlink-on .wo-now-dot{opacity:.9}
+.wo-mlink:not(.wo-mlink-on):hover{background:rgba(110,42,56,.07)}

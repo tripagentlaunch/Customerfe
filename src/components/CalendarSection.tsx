@@ -1,79 +1,70 @@
+import { useEffect, useRef } from "react";
 import type { CityData } from "../types/city";
 import styles from "./CalendarSection.module.css";
-import { useIsMobile } from "../hooks/useIsMobile";
+import WeatherIcon, { WEATHER_LABEL, type WeatherKind } from "./WeatherIcon";
 
 type WhenToGo = CityData["whenToGo"];
 
-// "When to go".
-// Desktop: the blurb (the why), then the whole year as one Jan-Dec strip,
-// each month shaded by tier — best (wm2) filled, good (wm1) outlined, quieter
-// (wm0) faint — with a small key. The old italic best-months headline is
-// gone: it always repeated the best-tier months word for word (true for all
-// 110 cities), so the strip says it once, in calendar context.
-// Phone: unchanged — no blurb, months grouped into "Best time" (wm2) and
-// "Fine shoulder" (wm1) rows; quieter months aren't shown.
-const ROWS: { tier: string; label: string }[] = [
-  { tier: "wm2", label: "Best time" },
-  { tier: "wm1", label: "Fine shoulder" },
-];
-
-const TIERS: { tier: string; label: string }[] = [
-  { tier: "wm2", label: "Best" },
-  { tier: "wm1", label: "Good" },
-  { tier: "wm0", label: "Quieter" },
-];
-const tierLabel = (tier: string) => TIERS.find((t) => t.tier === tier)?.label ?? "";
+// "When to go" (2026-11-11, direct request): one dark card. The best months as the section heading, all twelve months in
+// order (a tag, a weather icon and the month name each), the best months highlighted, and the city's summary
+// underneath. Was: the blurb + a Jan-Dec shaded strip (desktop) / "Best time" and "Fine shoulder" rows (phone).
+//
+// Weather: the city data has no weather yet. Each month's icon comes from `weather` when the backend sends one
+// (a WeatherKind key); until then it is derived from the tier, which is a placeholder, not real weather.
+const TAGS: Record<string, string> = { wm2: "Best", wm1: "Good", wm0: "Avoid" };
+// CSS-module class names are camelCased (vite localsConvention), so tag_wm2 is styles.tagWm2.
+const TAG_CLASS: Record<string, string> = { wm2: styles.tagWm2, wm1: styles.tagWm1, wm0: styles.tagWm0 };
+const FALLBACK_WEATHER: Record<string, WeatherKind> = { wm2: "sunny", wm1: "partly-cloudy", wm0: "cloudy" };
+// const MONTH_CODES = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
 export default function CalendarSection({ whenToGo }: { whenToGo: WhenToGo }) {
-  const isPhone = useIsMobile();
+  const rowRef = useRef<HTMLOListElement>(null);
+
+  // Phone: the row scrolls sideways; bring the first "best" month into view.
+  useEffect(() => {
+    const row = rowRef.current;
+    const el = row?.querySelector<HTMLElement>('[data-best="true"]');
+    if (!row || !el || row.scrollWidth <= row.clientWidth) return;
+    row.scrollTo({ left: Math.max(0, el.offsetLeft - 12), behavior: "smooth" });
+  }, []);
+
+  const best = whenToGo.months.filter((m) => m.tier === "wm2").map((m) => m.code);
+  const headline = whenToGo.bestMonths || best.join(", ");
+
   return (
     <section className="band tight ta-when-go">
-      <div className="reveal" style={{ maxWidth: "60ch" }}>
-        <div className="eyebrow">When to go</div>
-        <div className="rule" />
-        {/* Phone (mobile handoff): the blurb is left out to keep the stacked
-            page short. */}
-        {!isPhone && <p className={styles.wmBlurb}>{whenToGo.blurb}</p>}
-      </div>
+      <div className="wrap">
+        <div className="reveal" style={{ maxWidth: "60ch" }}>
+          <div className="eyebrow">When to go</div>
+          <div className="rule" />
+          {headline && <h2 style={{ fontSize: "28px" }}>{headline}</h2>}
+        </div>
 
-      {!isPhone ? (
-        <div className={`${styles.year} reveal d1`}>
-          <ol className={styles.strip} aria-label="Month by month">
-            {whenToGo.months.map((m) => (
-              <li key={m.code} className={`${styles.cell} ${styles[m.tier] ?? ""}`} aria-label={`${m.code}: ${tierLabel(m.tier)}`}>
-                {m.code}
-              </li>
-            ))}
+        <div className={`${styles.wtgCard} reveal d1`}>
+          <ol className={styles.wtgRow} ref={rowRef} aria-label="Month by month">
+            {whenToGo.months.map((m, i) => {
+              const code = m.code ?? "";
+              const kind = (m as { weather?: WeatherKind }).weather ?? FALLBACK_WEATHER[m.tier] ?? "cloudy";
+              const isBest = m.tier === "wm2";
+              return (
+                <li key={i} className={styles.wtgItem}>
+                  <div
+                    className={`${styles.wtgTile}${isBest ? ` ${styles.wtgTileOn}` : ""}`}
+                    data-best={isBest ? "true" : undefined}
+                    aria-label={`${code}: ${TAGS[m.tier] ?? ""}, ${WEATHER_LABEL[kind]}`}
+                  >
+                    <span className={`${styles.wtgTag} ${TAG_CLASS[m.tier] ?? ""}`}>{TAGS[m.tier] ?? ""}</span>
+                    <WeatherIcon kind={kind} />
+                    <span className={styles.wtgMonth}>{code}</span>
+                  </div>
+                </li>
+              );
+            })}
           </ol>
-          <div className={styles.key} aria-hidden="true">
-            {TIERS.map(({ tier, label }) => (
-              <span className={styles.keyItem} key={tier}>
-                <i className={`${styles.swatch} ${styles[tier]}`} />
-                {label}
-              </span>
-            ))}
-          </div>
+
+          {whenToGo.blurb && <p className={styles.wtgBlurb}>{whenToGo.blurb}</p>}
         </div>
-      ) : (
-        <div className={`${styles.rows} reveal d1`}>
-          {ROWS.map(({ tier, label }) => {
-            const months = whenToGo.months.filter((m) => m.tier === tier);
-            if (months.length === 0) return null;
-            return (
-              <div className={styles.row} key={tier}>
-                <span className={styles.rowLabel}>{label}</span>
-                <div className={styles.chips}>
-                  {months.map((m, i) => (
-                    <span key={i} className={`${styles.chip}${tier === "wm2" ? ` ${styles.chipBest}` : ""}`}>
-                      {m.code}
-                    </span>
-                  ))}
-                </div>
-              </div>
-            );
-          })}
-        </div>
-      )}
+      </div>
     </section>
   );
 }

@@ -56,8 +56,27 @@ function useTypedExample(active: boolean): string | null {
 // request): searches right here as you type instead of opening /search.
 // Same index and scoring as the /search page; the full list stays one
 // click away under the top results.
-export default function HomeSearch({ labelHtml }: { labelHtml: string }) {
-  const [query, setQuery] = useState("");
+//
+// Also used on /destinations (2026-11-06, direct request) with `value` /
+// `onValueChange` and `showResults={false}`: same bar and typed examples, but
+// no results menu; the page's own city list does the filtering.
+export default function HomeSearch({
+  labelHtml,
+  value,
+  onValueChange,
+  showResults = true,
+}: {
+  labelHtml: string;
+  value?: string;
+  onValueChange?: (v: string) => void;
+  showResults?: boolean;
+}) {
+  const [ownQuery, setOwnQuery] = useState("");
+  const query = value ?? ownQuery;
+  const setQuery = (v: string) => {
+    setOwnQuery(v);
+    onValueChange?.(v);
+  };
   const [index, setIndex] = useState<SearchEntry[] | null>(null);
   const inputRef = useRef<HTMLInputElement>(null);
   const [focused, setFocused] = useState(false);
@@ -78,7 +97,7 @@ export default function HomeSearch({ labelHtml }: { labelHtml: string }) {
 
   // Fetched on first focus, not on page load — most visitors never search.
   function warm() {
-    if (index) return;
+    if (index || !showResults) return;
     loadSearchIndex().then(setIndex);
   }
 
@@ -145,7 +164,7 @@ export default function HomeSearch({ labelHtml }: { labelHtml: string }) {
         </span>
       </form>
 
-      {open && q && index && (
+      {showResults && open && q && index && (
         <div className={styles.dsResults} aria-live="polite">
           {results.length === 0 ? (
             <div className="sp-empty">

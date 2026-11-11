@@ -52,8 +52,12 @@
  :global(.city-hero){position:relative;min-height:100svh;display:flex;align-items:flex-end;color:#fff;background-size:cover;background-position:center;background-color:#15110d}
  /* Left wash behind the copy + a deeper bottom, so the tagline reads on
     busy, bright photos (2026-10-14, direct request). */
+ /* Overlay removed 2026-11-10 (direct request); was:
  :global(.city-hero)::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,0,0,.55) 0%,rgba(0,0,0,.34) 36%,rgba(0,0,0,.08) 62%,transparent 78%),linear-gradient(180deg,rgba(0,0,0,.3) 0%,transparent 24%,transparent 36%,rgba(0,0,0,.82) 100%)}
- :global(.city-hero) :global(.wrap){position:relative;z-index:2;width:100%;text-align:left;padding-bottom:150px}
+ */
+ /* Light overlay that fades out just past the text (2026-11-10, direct request): darkest at the bottom-left where the copy sits. */
+ :global(.city-hero)::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(0,0,0,.36) 0%,rgba(0,0,0,.2) 34%,transparent 62%),linear-gradient(90deg,rgba(0,0,0,.2) 0%,rgba(0,0,0,.09) 40%,transparent 62%)}
+ :global(.city-hero) :global(.wrap){position:relative;z-index:2;width:100%;text-align:left;padding-bottom:84px}
  :global(.city-hero) .bc{font-family:var(--fr);font-weight:600;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.85);text-decoration:none;display:block;margin-bottom:14px}
  :global(.city-hero) :global(.eyebrow){display:block;margin-bottom:6px}
  :global(.city-hero) .bc:hover{color:#fff}
@@ -68,7 +72,7 @@
  /* decision ribbon in the hero foot */
  /* Key facts sit on a solid dark band so they read over any photo
     (2026-10-14) — they used to float straight on the image. */
- .ch-facts{display:inline-flex;flex-wrap:wrap;gap:0;margin:28px 0 0;padding:2px 24px 14px;background:rgba(14,11,8,.78);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,.12);max-width:100%}
+ .ch-facts{display:inline-flex;flex-wrap:wrap;gap:0;margin:28px 0 0;padding:2px 24px 14px;background:rgba(14,11,8,.48);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,.12);max-width:100%}
  .ch-fact{padding:14px 26px 2px 0;margin-right:26px;border-right:1px solid rgba(255,255,255,.18)}
  .ch-fact:last-child{border-right:0;margin-right:0}
  .ch-fact :global(.fk){display:block;font-family:var(--fr);font-weight:600;font-size:9.5px;letter-spacing:.15em;text-transform:uppercase;color:rgba(255,255,255,.72);margin-bottom:5px}
@@ -760,3 +764,113 @@ html .sheet-body :global(.cg-list li) { padding: 0; border: 0; }
   color: var(--signature); text-decoration: underline; text-underline-offset: 3px;
 }
 .card-more:hover { color: var(--ink); }
+
+/* City page rebuild (2026-11-11): sections sit in the normal .wrap now; the Plan's day columns keep their 3 tracks; the map has its own box. */
+.ta-solo :global(.ta-day-b){grid-template-columns:repeat(3,minmax(0,1fr))}
+.ta-map-box{position:relative;width:100%;height:clamp(380px,62vh,640px);overflow:hidden}
+@media(max-width:720px){.ta-map-box{height:min(60svh,460px)}}
+
+/* Guide cards: photo on top, text below (2026-11-11, direct request). Was a square thumbnail beside the text.
+   `html` prefix so these out-rank the breakpoint rules above. */
+html .card-inner{grid-template-columns:1fr;gap:0;align-items:stretch}
+html .card-thumb-wrap{width:100%;height:auto;min-height:0;aspect-ratio:2/1;border-radius:0;align-self:auto}
+html .card-body{width:100%;transform:none;padding:16px 18px 20px}
+html :global(.ta-guide .cg-list li:hover) .card-body{transform:none}
+
+/* Guide intro line runs the full content width (2026-11-11, direct request); was capped at 48ch / 36ch. */
+:global(.ta-guide .cg-head){max-width:none}
+:global(.ta-guide .cg-head .lede){max-width:none}
+
+/* Guide cards: a smaller gap between columns and one more card per row (2026-11-11, direct request).
+   Was 2 columns with a 36-72px gap. 3 across from 1000px, 2 across from 761px, 1 on phones (the site's own rule). */
+@media (min-width: 761px) {
+  :global(.ta-guide .cg-list) { column-gap: 20px; }
+}
+@media (min-width: 1000px) {
+  :global(.ta-guide .cg-list) { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
+/* Guide cards show everything, and cards in a row are as tall as the tallest (2026-11-11, direct request). */
+html :global(.ta-guide .cg-list) { align-items: stretch; }
+html :global(.ta-guide .cg-list li) { display: flex; flex-direction: column; }
+html .card-inner { flex: 1 1 auto; grid-template-rows: auto 1fr; }
+html :global(.ta-guide .cg-list li) .card-body :global(.ds),
+html :global(.ta-guide .cg-list li) .card-body :global(.nm),
+html :global(.ta-guide .cg-list li .cg-loc-text) {
+  display: block !important; -webkit-line-clamp: unset !important; line-clamp: none !important; overflow: visible !important; max-height: none !important;
+}
+html :global(.ta-guide .cg-list li .cg-creds) { flex-wrap: wrap !important; max-height: none !important; overflow: visible !important; }
+html :global(.ta-guide .cg-list li .cg-creds .cg-cred) { white-space: normal !important; overflow: visible !important; text-overflow: clip !important; }
+
+/* "Our take" runs the full content width (2026-11-11, direct request); site.css capped its heading block at 60ch. */
+:global(.ta-take .wrap > .reveal){max-width:none}
+
+/* Guide card hover, the same as the home page's "When are you flying?" cards (2026-11-11, direct request):
+   the photo zooms slightly, the card fills with the pale background, and the text block eases from a touch
+   larger to its natural size, revealing the padding around it. */
+html .card-thumb { transition: transform 0.85s var(--ease); }
+html :global(.ta-guide .cg-list li:hover) .card-thumb { transform: scale(1.05); }
+html .card-body { transform: scale(1.06); transform-origin: 50% 0%; transition: transform 0.9s cubic-bezier(0.4, 0, 0.2, 1); }
+html :global(.ta-guide .cg-list li:hover) .card-body { transform: scale(1); }
+@media (prefers-reduced-motion: reduce) {
+  html .card-thumb, html .card-body { transition: none; }
+}
+
+/* Guide card hover is the photo zoom only: no fill, no text-block motion (2026-11-11, direct request).
+   The text block fills the card's full width. */
+html :global(.ta-guide .cg-list li:hover) { background: transparent; }
+html .card-body,
+html :global(.ta-guide .cg-list li:hover) .card-body { transform: none; transition: none; width: 100%; max-width: none; box-sizing: border-box; }
+
+/* Guide card text lines up with the photo's edges (no side padding) and runs the full card width (2026-11-11, direct request). */
+html .card-body { padding-left: 0; padding-right: 0; }
+html :global(.ta-guide .cg-list li) .card-body :global(.nm),
+html :global(.ta-guide .cg-list li) .card-body :global(.ds),
+html :global(.ta-guide .cg-list li) .card-body :global(.cg-creds),
+html :global(.ta-guide .cg-list li) .card-body :global(.cg-loc-text) { max-width: none; text-wrap: wrap; }
+
+/* "Before you go": two cards per row (2026-11-11, direct request). */
+html .card-grid.card-grid-two{grid-template-columns:repeat(2,minmax(0,1fr))}
+@media(max-width:480px){html .card-grid.card-grid-two{grid-template-columns:1fr}}
+
+/* The plan: 4 days, 3 cards a row (2026-11-11, direct request). Guide-card look: photo on top, text below; no tags, no hover. Left aligned. */
+.plan-days{display:flex;flex-direction:column;gap:clamp(28px,3.4vw,44px)}
+.plan-day-head{text-align:left;margin-bottom:14px}
+.plan-day-head h3{font-family:var(--serif);font-weight:600;font-size:clamp(22px,2.2vw,28px);color:var(--ink);margin:6px 0 0}
+.plan-row{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;align-items:stretch}
+@media(max-width:720px){.plan-row{grid-template-columns:1fr}}
+.plan-card{display:flex;flex-direction:column;background:transparent;text-align:left}
+.plan-photo{width:100%;aspect-ratio:2/1;overflow:hidden;background:var(--bone)}
+.plan-photo img{display:block;width:100%;height:100%;object-fit:cover}
+.plan-body{padding:16px 0 20px;text-align:left}
+.plan-place{font-family:var(--serif);font-weight:600;font-size:clamp(20px,1.7vw,24px);line-height:1.15;color:var(--ink);margin:6px 0 0}
+.plan-body p{font-family:var(--fr);font-size:14.5px;line-height:1.6;color:var(--ink-soft);margin:8px 0 0}
+
+/* The plan's intro text with the CTA beside it, bottom-aligned; stacked on narrow screens (2026-11-11). */
+.plan-head{display:flex;align-items:flex-end;justify-content:space-between;gap:24px 40px;margin-bottom:26px}
+.plan-head .plan-cta-wrap{margin:0;flex:none}
+@media(max-width:900px){.plan-head{flex-direction:column;align-items:flex-start}}
+
+/* The Plan's header (title, intro and the Tara button) stays pinned at the top while the plan's days scroll under it
+   (2026-11-11, direct request). It slides down below the navbar when the navbar is showing. */
+.plan-head{position:sticky;top:0;z-index:30;background:#fff;padding:14px 0 18px;margin-bottom:18px;box-shadow:0 14px 18px -18px rgba(16,12,9,.35);transition:top .35s cubic-bezier(.4,0,.2,1) .15s}
+:global(body:has(.ta-hd-visible)) .plan-head{top:var(--ta-hd-h,64px)}
+
+/* Good to know cards: the label's line box adds about 9px of space above the text, so the top looked deeper than
+   the bottom; the bottom padding gets the same extra so both read equal (2026-11-11, direct request). */
+html .prac-card{padding-bottom:calc(clamp(18px,2vw,22px) + 10px)}
+
+/* Less space between the Guide's tab strip and the tier chips (2026-11-11, direct request); was 28px. */
+html .guide-sticky{gap:14px}
+
+/* Good to know cards: tighter top and bottom padding, roughly equal to the eye (2026-11-11, direct request).
+   Top is smaller than bottom because the label's line box already adds ~9px above its letters. */
+html .prac-card{padding-top:10px;padding-bottom:18px}
+
+/* Icon beside each Good to know card label (2026-11-11). */
+.prac-label{display:flex;align-items:center;gap:9px}
+.prac-label svg{flex:none;color:var(--signature,#6E2A38)}
+
+/* Icon beside the accordion row label ("Before you go"). */
+.prac-label-inline{display:inline-flex;align-items:center;gap:10px}
+.prac-label-inline svg{flex:none;color:var(--signature,#6E2A38)}

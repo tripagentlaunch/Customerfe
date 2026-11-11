@@ -1,4 +1,4 @@
-.wtg-hero{background:var(--ink,#1A1714);color:#fff;padding:clamp(70px,10vh,130px) 0 clamp(50px,7vh,90px);text-align:center}
+.wtg-hero{background:linear-gradient(rgba(10,8,6,.5),rgba(10,8,6,.62)) ,var(--ink,#1A1714);background-size:cover;background-position:center;min-height:clamp(380px,60vh,600px);display:flex;align-items:center;color:#fff;padding:clamp(70px,10vh,130px) 0 clamp(50px,7vh,90px);text-align:center}
 .wtg-hero :global(.eyebrow){color:rgba(255,255,255,.7)}
 .wtg-hero h1{font-family:var(--logo);font-weight:500;font-size:clamp(40px,6vw,78px);line-height:1.02;margin:14px 0 0}
 .wtg-hero h1 :global(.it){color:#fff;font-style:italic}
@@ -30,3 +30,121 @@
 .wtg-summary dd{font-family:var(--fr);font-size:14px;color:var(--ink,#1A1714);margin:4px 0 0}
 .wtg-sent-more{font-family:var(--fr);font-size:14px;color:var(--stone,#8b8578);margin:22px 0 0}
 .wtg-sent-more a{color:var(--accent-2,#6E2A38);text-decoration:underline;text-underline-offset:3px}
+
+/* Guided questionnaire (2026-11-10): one question at a time. */
+.wtg-hero{position:relative}
+.wtg-hero>:global(.wrap){width:100%}
+.wtg-progress{display:flex;align-items:center;gap:16px;margin:0 0 6px}
+.wtg-step-no{font-family:var(--fr);font-size:11px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--stone,#8b8578);white-space:nowrap}
+.wtg-bar{flex:1;height:2px;background:var(--line,#E3E2DD);position:relative;overflow:hidden}
+.wtg-bar span{position:absolute;left:0;top:0;bottom:0;background:var(--accent-2,#6E2A38);transition:width .6s var(--ease)}
+.wtg-q{min-height:260px;border-bottom:none}
+.wtg-in-fwd{animation:wtgInFwd .45s var(--ease) both}
+.wtg-in-back{animation:wtgInBack .45s var(--ease) both}
+@keyframes wtgInFwd{from{opacity:0;transform:translateX(28px)}to{opacity:1;transform:none}}
+@keyframes wtgInBack{from{opacity:0;transform:translateX(-28px)}to{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){.wtg-in-fwd,.wtg-in-back{animation:none}}
+.wtg-nav{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-top:clamp(18px,3vw,32px);padding-top:20px;border-top:1px solid var(--line,#E3E2DD)}
+.wtg-back{font-family:var(--fr);font-size:14px;font-weight:600;color:var(--ink,#1A1714);background:none;border:0;padding:10px 4px;cursor:pointer}
+.wtg-back:hover{color:var(--accent-2,#6E2A38)}
+@media(max-width:720px){.wtg-q{min-height:0}}
+
+/* ---- Access-page look (2026-11-10): photo background, intro left, frosted card right ---- */
+.wtg-root{position:relative;min-height:100svh;background:#171414;color:#f5efe6;overflow:hidden}
+.wtg-bg{position:fixed;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}
+.wtg-overlay{position:fixed;inset:0;z-index:1;pointer-events:none;background-image:linear-gradient(180deg,rgba(10,7,5,.46) 0%,rgba(10,7,5,.14) 28%,rgba(10,7,5,.18) 68%,rgba(10,7,5,.5) 100%),linear-gradient(90deg,rgba(10,7,5,.4) 0%,rgba(10,7,5,.08) 50%,rgba(10,7,5,.02) 100%)}
+.wtg-wrap{position:relative;z-index:2;max-width:1200px;min-height:100svh;margin:0 auto;padding:110px 48px 56px;box-sizing:border-box;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,520px);gap:72px;align-items:center}
+.wtg-eyebrow{font-size:12px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:#c7a66a;margin-bottom:18px;text-shadow:0 1px 3px rgba(0,0,0,.5)}
+.wtg-intro h1{font-family:var(--serif);font-weight:500;font-size:clamp(42px,4.8vw,68px);line-height:1.02;color:#fff;text-shadow:0 1px 4px rgba(0,0,0,.5),0 2px 40px rgba(5,3,1,.55);margin:0 0 20px;max-width:13ch}
+.wtg-intro h1 :global(.it){font-style:italic;color:#d9a08f}
+.wtg-intro p{font-size:17px;line-height:1.65;color:rgba(245,239,230,.9);text-shadow:0 1px 3px rgba(0,0,0,.55);max-width:40ch;margin:0}
+.wtg-column{min-width:0}
+.wtg-card{max-width:none;margin:0;padding:24px 28px;background:rgba(255,250,244,.86);border:1px solid rgba(255,255,255,.5);border-radius:12px!important;box-shadow:0 28px 70px rgba(0,0,0,.35);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);color:#1a1714}
+.wtg-card .wtg-q{min-height:240px;padding:20px 0 8px}
+.wtg-card .wtg-nav{border-top-color:rgba(80,60,50,.18)}
+.wtg-nav :global(.btn):disabled{opacity:.4;cursor:default;pointer-events:none}
+.wtg-column .wtg-results{padding:18px 0 0}
+@media(max-width:900px){
+  .wtg-wrap{grid-template-columns:1fr;gap:28px;padding:96px 20px 40px;min-height:0}
+  .wtg-intro h1{max-width:none}
+  .wtg-card .wtg-q{min-height:0}
+}
+
+/* Intro above the card, everything centred (2026-11-10, direct request). */
+.wtg-wrap{grid-template-columns:minmax(0,560px);justify-content:center;gap:32px;text-align:center;padding-top:104px}
+.wtg-intro h1{max-width:none;margin-left:auto;margin-right:auto}
+.wtg-intro p{margin-left:auto;margin-right:auto;max-width:46ch}
+.wtg-card{text-align:left}
+.wtg-card .wtg-q{text-align:center}
+.wtg-card .wtg-opts{justify-content:center}
+@media(max-width:900px){.wtg-wrap{grid-template-columns:minmax(0,1fr)}}
+
+/* Footer back to normal, and the page above it fits one screen (2026-11-10, direct request).
+   The photo and overlay were position:fixed, which painted over the footer; they now live inside
+   the section (absolute), so the footer keeps its own solid background. */
+.wtg-bg,.wtg-overlay{position:absolute}
+.wtg-root{min-height:100svh}
+.wtg-wrap{min-height:100svh;padding:clamp(76px,11svh,104px) 20px clamp(16px,3svh,40px);gap:clamp(12px,2.6svh,28px)}
+.wtg-eyebrow{margin-bottom:clamp(8px,1.6svh,18px)}
+.wtg-intro h1{font-size:clamp(28px,min(4.6vw,6.2svh),60px);margin-bottom:clamp(8px,1.8svh,20px)}
+.wtg-intro p{font-size:clamp(14px,2.1svh,17px);line-height:1.5}
+.wtg-card{padding:clamp(14px,2.6svh,24px) 28px}
+.wtg-card .wtg-q{min-height:0;padding:clamp(10px,2svh,20px) 0 4px}
+.wtg-card .ql{font-size:clamp(19px,3.2svh,28px);margin-bottom:clamp(10px,1.8svh,16px)}
+.wtg-nav{margin-top:clamp(10px,2svh,28px);padding-top:clamp(10px,1.8svh,20px)}
+@media(max-width:900px){.wtg-wrap{min-height:0}.wtg-root{min-height:calc(100svh - 0px)}}
+
+/* Wider intro, smaller heading (2026-11-10, direct request): the column is full width; only the card stays narrow. */
+.wtg-wrap{grid-template-columns:minmax(0,1fr)}
+.wtg-intro h1{font-size:clamp(26px,min(3.6vw,5svh),48px);white-space:normal}
+.wtg-intro p{max-width:min(100%,86ch)}
+.wtg-column{width:100%;max-width:560px;margin:0 auto}
+
+/* Card takes centre stage: bigger, a fixed height (does not change with the question), photo darker (2026-11-10, direct request). */
+.wtg-overlay{background-image:linear-gradient(rgba(8,6,4,.62),rgba(8,6,4,.62)),linear-gradient(180deg,rgba(10,7,5,.5) 0%,rgba(10,7,5,.2) 30%,rgba(10,7,5,.25) 70%,rgba(10,7,5,.55) 100%)}
+.wtg-column{max-width:640px}
+.wtg-card{height:clamp(380px,52svh,500px);display:flex;flex-direction:column;box-sizing:border-box}
+.wtg-card .wtg-progress{flex:none}
+.wtg-card .wtg-q{flex:1;min-height:0;overflow-y:auto;display:flex;flex-direction:column;justify-content:center;padding:clamp(8px,1.6svh,16px) 0}
+.wtg-card .wtg-nav{flex:none;margin-top:0}
+.wtg-card .wtg-go-inline{display:flex}
+@media(max-width:900px){.wtg-card{height:auto;min-height:420px}}
+
+/* Nav buttons: compact, same size, no doubled arrow (the site's btn-square adds its own on hover). */
+.wtg-nav :global(.btn){flex:none;min-width:150px;padding:15px 30px!important}
+.wtg-nav :global(.btn-ghost:disabled){opacity:.35}
+
+/* Left-aligned card content; segmented progress bar with the question starting at its left edge (2026-11-10, direct request). */
+.wtg-card .wtg-progress{flex-direction:column;align-items:stretch;gap:10px;margin:0}
+.wtg-segs{display:flex;gap:6px;width:100%}
+.wtg-segs span{flex:1;height:3px;background:rgba(80,60,50,.2);transition:background .4s var(--ease)}
+.wtg-segs span.wtg-seg-on{background:var(--accent-2,#6E2A38)}
+.wtg-card .wtg-q{text-align:left;justify-content:flex-start;padding-top:clamp(16px,3.2svh,30px)}
+.wtg-card .wtg-opts{justify-content:flex-start}
+
+/* Plain white card, no divider above the buttons (2026-11-10, direct request). */
+.wtg-card{background:#fff;backdrop-filter:none;-webkit-backdrop-filter:none;border-color:#fff}
+.wtg-card .wtg-nav{border-top:0;padding-top:0}
+
+/* Follow-up question under the main one: slides down into place. */
+.wtg-follow{margin-top:clamp(14px,2.4svh,24px);animation:wtgFollowIn .4s var(--ease) both}
+.wtg-follow .ql{font-size:clamp(17px,2.4svh,21px);margin-bottom:clamp(8px,1.4svh,12px)}
+@keyframes wtgFollowIn{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){.wtg-follow{animation:none}}
+
+/* Confirmation / error inside the card. */
+.wtg-panel{flex:1;min-height:0;overflow-y:auto;display:flex;flex-direction:column;justify-content:center;animation:wtgFollowIn .45s var(--ease) both}
+.wtg-panel .wtg-sent{max-width:none;margin:0;padding:0;border:0;background:none;text-align:left}
+.wtg-panel .wtg-sent .wtg-sent-lede{margin-left:0}
+.wtg-panel .wtg-summary{justify-content:flex-start}
+.wtg-panel .wtg-summary div{text-align:left}
+.wtg-panel-btns{display:flex;gap:12px;margin-top:22px}
+@media(prefers-reduced-motion:reduce){.wtg-panel{animation:none}}
+
+/* The confirmation / error panel is centred (2026-11-10, direct request). */
+.wtg-panel{align-items:center;text-align:center}
+.wtg-panel .wtg-sent{text-align:center}
+.wtg-panel .wtg-sent .wtg-sent-lede{margin-left:auto;margin-right:auto}
+.wtg-panel .wtg-summary{justify-content:center}
+.wtg-panel .wtg-summary div{text-align:center}
+.wtg-panel-btns{justify-content:center}

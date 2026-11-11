@@ -58,3 +58,6 @@
 @keyframes sheetFade{from{opacity:0}to{opacity:1}}
 @keyframes sheetFadeOut{from{opacity:1}to{opacity:0}}
 @media(prefers-reduced-motion:reduce){.sheet,.sheetScrim,.sheetClosing .sheet,.sheetClosing .sheetScrim{animation-duration:.01s}}
+
+/* The search bar is always white on /destinations, not only on hover/focus (2026-11-11, direct request). */
+.csSearchWhite form[role="search"]{background:var(--paper,#fff)}

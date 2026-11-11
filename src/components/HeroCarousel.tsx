@@ -51,8 +51,8 @@ const DESKTOP_COPY = {
   headingHtml: 'Human connection,<br/>backed by <span class="it">super intelligence</span>.',
   ctas: [
     { label: "Find my trip", href: "destinations.html" }, // the region -> country -> city browser (2026-11-03, direct request)
-    { label: "Ask Tara", href: "concierge.html" },
-    { label: "Talk to a human", href: "enquire.html" },
+    { label: "Chat with us", href: "concierge.html" },
+    // { label: "Talk to a human", href: "enquire.html" }, // removed 2026-11-06 (direct request)
   ],
 };
 // Phones get the portrait "Dream Destinations" clip (2026-10-16), 17s long. The four
@@ -211,8 +211,10 @@ export default function HeroCarousel({ slides }: { slides: HeroSlide[] }) {
             </div>
           ))}
         </div>
+        {/* Carousel arrows removed 2026-11-06 (direct request); slides still auto-advance.
         <button className="swiper-button-prev" type="button" aria-label="Previous slide" ref={prevElRef} />
         <button className="swiper-button-next" type="button" aria-label="Next slide" ref={nextElRef} />
+        */}
       </div>
 
       {/* Static content overlay — sits on top of the whole swiper, not tied
