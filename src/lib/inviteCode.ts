@@ -24,29 +24,6 @@ export function codeFromSearch(search: string): string {
   }
 }
 
-const EMAIL = /^[^@\s]+@[^@\s]+\.[^@\s]+$/;
-
-export interface SeatDetails {
-  name: string;
-  email: string;
-  phone: string;
-}
-
-/** What is wrong with the details a person gave to join a shared invitation, in words for them; null when they are fine. */
-export function seatDetailsProblem(d: SeatDetails): string | null {
-  if (d.name.trim().length < 2) return "Please tell us your name.";
-  if (!EMAIL.test(d.email.trim())) return "Please enter your email address.";
-  const digits = d.phone.replace(/\D/g, "");
-  if (d.phone.trim() && (digits.length < 7 || digits.length > 15)) return "That phone number doesn't look right. You can leave it blank.";
-  return null;
-}
-
-/** The body sent to claim a seat: only what was filled in. */
-export function seatBody(d: SeatDetails): { name: string; email: string; phone?: string } {
-  const phone = d.phone.trim();
-  return { name: d.name.trim(), email: d.email.trim().toLowerCase(), ...(phone ? { phone } : {}) };
-}
-
 /** First word of a name, for greeting. */
 export function firstName(name: string | null | undefined): string {
   return String(name || "").trim().split(/\s+/)[0] || "";

@@ -5,7 +5,7 @@ import { useAuth } from "../lib/auth";
 import { askForOrigin, canAskForOrigin, declineOrigin, type Position } from "../lib/origin";
 import { useSignInModal } from "../lib/signInModal";
 import { useWhatsAppNumber } from "../lib/useWhatsAppNumber";
-import { cleanCode, codeFromSearch, firstName, prettyCode, seatBody, seatDetailsProblem, welcomeMessage, whatsappLink } from "../lib/inviteCode";
+import { cleanCode, codeFromSearch, firstName, prettyCode, welcomeMessage, whatsappLink } from "../lib/inviteCode";
 // import { useIsMobile } from "../hooks/useIsMobile"; // no longer needed: phones use the desktop layout
 import styles from "./claim-page.module.css";
 
@@ -28,8 +28,6 @@ type RedeemResponse = {
   advisorName?: string | null;
   // Super key only: the id of this entry, which the location answer is filed against.
   entryId?: string | null;
-  // A shared invitation: this person must give their own name and email to take one of the free seats.
-  seatsLeft?: number;
   // Who the person is, for the welcome message to their advisor.
   name?: string | null;
 };
@@ -40,8 +38,6 @@ type Peek = {
   firstName?: string;
   used?: boolean;
   expired?: boolean;
-  joinable?: boolean;
-  seatsLeft?: number;
   superKey?: boolean;
 };
 
@@ -100,12 +96,6 @@ export default function ClaimPage() {
   const [peek, setPeek] = useState<Peek | null>(null);
   const [peeked, setPeeked] = useState(false);
   const [typeCode, setTypeCode] = useState(false); // "Use a different code" shows the box again
-  // Joining a shared invitation: the person's own details (the approved person's are not theirs).
-  const [needsJoin, setNeedsJoin] = useState(false);
-  const [seatsLeft, setSeatsLeft] = useState<number | null>(null);
-  const [jName, setJName] = useState("");
-  const [jEmail, setJEmail] = useState("");
-  const [jPhone, setJPhone] = useState("");
   // After claiming: who their advisor is, and the WhatsApp number of the desk, for the welcome.
   const [arrived, setArrived] = useState(false);
   const [welcome, setWelcome] = useState<{ advisor: string | null; name: string | null } | null>(null);
@@ -182,10 +172,6 @@ export default function ClaimPage() {
             } else if (p.expired) {
               setAnn({ text: "This invitation has expired. Please reach us on WhatsApp or write to invite@tripagent.vip for a new one.", kind: "err" });
             }
-            if (p.joinable) {
-              setNeedsJoin(true);
-              setSeatsLeft(p.seatsLeft ?? null);
-            }
           }
         })
         .catch(() => undefined) // no peek: the page works as before, with the code box
@@ -210,7 +196,6 @@ export default function ClaimPage() {
     setCode(cleanCode(e.target.value));
     setAnn(null);
     setClaimedAlready(false);
-    setNeedsJoin(false);
   }
 
   // Redeems against the same backend endpoint, same fail-safe contract, as
@@ -225,18 +210,9 @@ export default function ClaimPage() {
       return;
     }
     if (busy) return;
-    let body = {};
-    if (needsJoin) {
-      const problem = seatDetailsProblem({ name: jName, email: jEmail, phone: jPhone });
-      if (problem) {
-        setAnn({ text: problem, kind: "err" });
-        return;
-      }
-      body = seatBody({ name: jName, email: jEmail, phone: jPhone });
-    }
 
     setBusy(true);
-    setAnn({ text: needsJoin ? "Taking your seat…" : "Verifying your code…", kind: "busy" });
+    setAnn({ text: "Verifying your code…", kind: "busy" });
 
     const clean = cleanCode(code);
     const [res] = await Promise.all([
@@ -252,7 +228,7 @@ export default function ClaimPage() {
               method: "POST",
               credentials: "include",
               headers: { "Content-Type": "application/json" },
-              body: JSON.stringify(body),
+              body: JSON.stringify({}),
             });
             if (r.ok) return (await r.json()) as RedeemResponse;
             if (r.status === 429) return { valid: false, error: "too_many" };
@@ -325,22 +301,11 @@ export default function ClaimPage() {
     if (res.used === true) {
       setAnn({ text: "This code has already been claimed. Please sign in with your email.", kind: "err" });
       setClaimedAlready(true);
-    } else if (res.error === "needs_details") {
-      // A shared invitation that someone has already claimed: this person takes a seat of their own.
-      setNeedsJoin(true);
-      setSeatsLeft(res.seatsLeft ?? null);
-      setAnn({ text: "This invitation has room for you. Tell us who you are to join.", kind: "hint" });
-    } else if (res.error === "seats_full") {
-      setAnn({ text: "Every place on this invitation is taken. Please ask your advisor to add one.", kind: "err" });
     } else if (res.error === "revoked") {
       setAnn({ text: "This invitation is no longer active. Please reach us on WhatsApp or write to invite@tripagent.vip.", kind: "err" });
-    } else if (res.error === "bad_whatsapp") {
-      setAnn({ text: "That phone number doesn't look right. You can leave it blank.", kind: "err" });
     } else if (res.error === "email_taken") {
       setAnn({
-        text: needsJoin
-          ? "That email already belongs to a member. Please sign in with it, or use another email."
-          : "That email is already attached to another membership. Please reach us on WhatsApp or write to invite@tripagent.vip.",
+        text: "That email is already attached to another membership. Please reach us on WhatsApp or write to invite@tripagent.vip.",
         kind: "err",
       });
     } else if (res.error === "expired") {
@@ -412,11 +377,7 @@ export default function ClaimPage() {
                 )}
               </h1>
               <p className={styles.sub}>
-                {needsJoin
-                  ? `This invitation has room for you${seatsLeft ? ` (${seatsLeft} ${seatsLeft === 1 ? "place" : "places"} left)` : ""}. Tell us who you are.`
-                  : readyFromLink
-                    ? "Your invitation is ready. One tap and you're in."
-                    : "Enter the 8-character code from your invitation email."}
+                {readyFromLink ? "Your invitation is ready. One tap and you're in." : "Enter the 8-character code from your invitation email."}
               </p>
 
               <form className={styles.form} onSubmit={handleSubmit} noValidate>
@@ -429,7 +390,6 @@ export default function ClaimPage() {
                       className={styles.linkBtn}
                       onClick={() => {
                         setTypeCode(true);
-                        setNeedsJoin(false);
                         setAnn(null);
                         window.setTimeout(() => inputRef.current?.focus(), 0);
                       }}
@@ -458,13 +418,6 @@ export default function ClaimPage() {
                     />
                   </>
                 )}
-                {needsJoin ? (
-                  <div className={styles.joinFields}>
-                    <input className={`ra-input ${styles.joinInput}`} type="text" autoComplete="name" placeholder="Your name" aria-label="Your name" value={jName} onChange={(e) => setJName(e.target.value)} />
-                    <input className={`ra-input ${styles.joinInput}`} type="email" inputMode="email" autoComplete="email" placeholder="Your email" aria-label="Your email" value={jEmail} onChange={(e) => setJEmail(e.target.value)} />
-                    <input className={`ra-input ${styles.joinInput}`} type="tel" inputMode="tel" autoComplete="tel" placeholder="Phone (optional)" aria-label="Your phone number, optional" value={jPhone} onChange={(e) => setJPhone(e.target.value)} />
-                  </div>
-                ) : null}
                 <div
                   id="claim-ann"
                   className={`${styles.ann}${ann ? ` ${ann.kind === "err" ? styles.annErr : ann.kind === "busy" ? styles.annBusy : styles.annHint}` : ""}`}
@@ -480,7 +433,7 @@ export default function ClaimPage() {
                 {desk ? (
                   <div className={styles.btnRow}>
                     <button type="submit" className={styles.submitBtn} disabled={busy || (!!linkedCode && !peeked)}>
-                      <span className={styles.btnLabel}>{busy ? "Verifying…" : needsJoin ? "Join with this invitation" : "Claim your invitation"}</span>
+                      <span className={styles.btnLabel}>{busy ? "Verifying…" : "Claim your invitation"}</span>
                     </button>
                     {readyFromLink ? null : (
                       <Link to="/request-access" className={styles.codeBtn}>
