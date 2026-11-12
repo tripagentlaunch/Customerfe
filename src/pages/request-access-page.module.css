@@ -1005,3 +1005,68 @@
 .raRoot:not(.desk) .cardIt {
   font-weight: 600;
 }
+
+/* "Your request has already been approved": the message and a proper Sign in button, set apart from the form below it
+   (the button used the form's submit style, which has no horizontal padding and relies on its flex row to fill the width). */
+.approvedNote {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+  margin: 4px 0 22px;
+  padding: 16px 18px;
+  border: 1px solid rgba(179, 68, 31, 0.35);
+  background: rgba(179, 68, 31, 0.06);
+}
+.approvedNote p {
+  margin: 0;
+  font-size: 13.5px;
+  line-height: 1.55;
+  color: #b3441f;
+}
+.signInBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  min-width: 150px;
+  height: 46px;
+  padding: 0 34px;
+  border: 0;
+  border-radius: 999px !important;
+  background: #5a2330;
+  color: #fff;
+  font-family: var(--sans);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.15s ease;
+}
+.signInBtn:hover {
+  background: #4a1c27;
+}
+.signInBtn:active {
+  transform: translateY(1px);
+}
+.signInBtn:focus-visible {
+  outline: 2px solid #5a2330;
+  outline-offset: 3px;
+}
+/* Desktop card: square and dark like the form's own buttons. */
+.desk .signInBtn,
+.desk .signInBtn:hover {
+  border-radius: 0 !important;
+  background: #1a1714;
+  font-size: 14.5px;
+  font-weight: 500;
+}
+.desk .signInBtn:focus-visible {
+  outline-color: #1a1714;
+}
+@media (max-width: 720px) {
+  .signInBtn {
+    width: 100%;
+  }
+}

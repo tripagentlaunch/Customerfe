@@ -346,14 +346,14 @@ export default function RequestAccessPage() {
               )}
 
               {alreadyApproved && (
-                <div className={styles.err} role="alertdialog" aria-live="assertive">
+                <div className={styles.approvedNote} role="alertdialog" aria-live="assertive">
                   <p>
                     Your request has already been approved by your advisor. Please sign in with the same email and
                     phone number.
                   </p>
                   <button
                     type="button"
-                    className={styles.submitBtn}
+                    className={styles.signInBtn}
                     onClick={() => {
                       setAlreadyApproved(false);
                       signIn.open();
