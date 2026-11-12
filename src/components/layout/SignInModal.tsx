@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { useAuth } from "../../lib/auth";
 import { useSignInModal } from "../../lib/signInModal";
+import { mergeProfile, readProfile } from "../../lib/profileStore";
 import { useIsMobile } from "../../hooks/useIsMobile";
 import claim from "../../pages/claim-page.module.css";
 import sheet from "./signin-sheet.module.css";
@@ -34,35 +35,6 @@ function sendCodeError(error: string): string {
   }
 }
 
-function readProfile(): { name?: string; phone?: string; email?: string } {
-  try {
-    const raw = localStorage.getItem("ta_profile");
-    return raw ? JSON.parse(raw) : {};
-  } catch {
-    return {};
-  }
-}
-
-// Mirrors legacy's otpStep() success handler: only fills in profile fields
-// that are currently empty, never overwrites what's already there.
-function mergeProfile(name: string, phone: string) {
-  try {
-    const p = readProfile();
-    let changed = false;
-    if (name && !p.name) {
-      p.name = name;
-      changed = true;
-    }
-    if (phone && !p.phone) {
-      p.phone = phone;
-      changed = true;
-    }
-    if (changed) localStorage.setItem("ta_profile", JSON.stringify(p));
-  } catch {
-    // ignore
-  }
-}
-
 type Step = "email" | "otp";
 
 // The "Sign in" button in the code email opens the site at #signin&email=...&code=... : the code is already filled in, so nothing has to
@@ -87,13 +59,13 @@ function clearHash() {
   }
 }
 
-function SignInModalCard({ message, close, linked }: { message: string | null; close: () => void; linked: LinkedCode | null }) {
+function SignInModalCard({ message, close, linked, prefillEmail }: { message: string | null; close: () => void; linked: LinkedCode | null; prefillEmail?: string }) {
   const { requestLogin, verifyLogin } = useAuth();
   const profile = useRef(readProfile()).current;
   const isMobile = useIsMobile();
 
   const [step, setStep] = useState<Step>(linked ? "otp" : "email");
-  const [email, setEmail] = useState(linked?.email ?? profile.email ?? "");
+  const [email, setEmail] = useState(linked?.email ?? prefillEmail ?? profile.email ?? "");
   const [name, setName] = useState(profile.name ?? "");
   const [phone, setPhone] = useState(profile.phone ?? "");
   const [code, setCode] = useState(linked?.code ?? "");
@@ -138,6 +110,7 @@ function SignInModalCard({ message, close, linked }: { message: string | null; c
     const r = await requestLogin(trimmed);
     setSubmitting(false);
     if (r.ok) {
+      mergeProfile({ email: trimmed }); // remembered now, so the box has it next time even if this sign-in is not finished
       setStep("otp");
     } else {
       setError(sendCodeError(r.error));
@@ -158,7 +131,7 @@ function SignInModalCard({ message, close, linked }: { message: string | null; c
     setSubmitting(true);
     const r = await verifyLogin(email.trim(), trimmed);
     if (r.ok) {
-      mergeProfile(name.trim(), phone.trim());
+      mergeProfile({ name: name.trim(), phone: phone.trim(), email: email.trim() });
       close();
     } else {
       setSubmitting(false);
@@ -393,7 +366,7 @@ function SignInModalCard({ message, close, linked }: { message: string | null; c
 }
 
 export function SignInModal() {
-  const { isOpen, message, open, close } = useSignInModal();
+  const { isOpen, message, prefill, open, close } = useSignInModal();
   // Read once, before anything renders from it, and take the code out of the address bar straight away.
   const linked = useRef<LinkedCode | null | undefined>(undefined);
   if (linked.current === undefined) {
@@ -410,5 +383,5 @@ export function SignInModal() {
     linked.current = null;
     close();
   };
-  return <SignInModalCard message={message} close={closeAndForget} linked={linked.current} />;
+  return <SignInModalCard message={message} close={closeAndForget} linked={linked.current} prefillEmail={prefill?.email} />;
 }

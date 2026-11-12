@@ -1,3 +1,4 @@
+import { mergeProfile } from "../lib/profileStore";
 import { useEffect, useRef, useState } from "react";
 import { useSignInModal } from "../lib/signInModal";
 import { Link } from "react-router-dom";
@@ -141,6 +142,7 @@ export default function RequestAccessPage() {
   const [errors, setErrors] = useState<FieldErrors>({});
   const [submitErr, setSubmitErr] = useState("");
   const [alreadyApproved, setAlreadyApproved] = useState(false);
+  const [approvedEmail, setApprovedEmail] = useState("");
   const signIn = useSignInModal();
   const [phoneDigits, setPhoneDigits] = useState("");
   const thanksRef = useRef<HTMLDivElement>(null);
@@ -200,6 +202,8 @@ export default function RequestAccessPage() {
         const detail = typeof body.detail === "string" ? body.detail : body.detail?.error;
         if (detail === "already_approved") {
           setSubmitting(false);
+          setApprovedEmail(email);
+          mergeProfile({ name, phone, email }); // so the sign-in box that opens next is already filled in
           setAlreadyApproved(true);
           return;
         }
@@ -356,7 +360,7 @@ export default function RequestAccessPage() {
                     className={styles.signInBtn}
                     onClick={() => {
                       setAlreadyApproved(false);
-                      signIn.open();
+                      signIn.open(undefined, { email: approvedEmail });
                     }}
                   >
                     Sign in

@@ -8,7 +8,9 @@ import { createContext, useContext, useMemo, useState, type ReactNode } from "re
 type SignInModalContextValue = {
   isOpen: boolean;
   message: string | null;
-  open: (message?: string) => void;
+  /** `prefill.email`: an address the visitor already typed on this page (e.g. the request form), so the box opens with it filled in. */
+  prefill: { email?: string } | null;
+  open: (message?: string, prefill?: { email?: string }) => void;
   close: () => void;
 };
 
@@ -17,18 +19,21 @@ const SignInModalContext = createContext<SignInModalContextValue | null>(null);
 export function SignInModalProvider({ children }: { children: ReactNode }) {
   const [isOpen, setIsOpen] = useState(false);
   const [message, setMessage] = useState<string | null>(null);
+  const [prefill, setPrefill] = useState<{ email?: string } | null>(null);
 
   const value = useMemo<SignInModalContextValue>(
     () => ({
       isOpen,
       message,
-      open: (msg) => {
+      prefill,
+      open: (msg, pre) => {
         setMessage(msg ?? null);
+        setPrefill(pre ?? null);
         setIsOpen(true);
       },
       close: () => setIsOpen(false),
     }),
-    [isOpen, message]
+    [isOpen, message, prefill]
   );
 
   return <SignInModalContext.Provider value={value}>{children}</SignInModalContext.Provider>;
