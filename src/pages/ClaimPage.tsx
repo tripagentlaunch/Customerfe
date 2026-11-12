@@ -1,3 +1,4 @@
+import { claimHelpMail } from "../lib/deskMail";
 import { DeskEmailLink } from "../components/DeskEmailLink";
 import { useEffect, useRef, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
@@ -473,7 +474,11 @@ export default function ClaimPage() {
               )}
               <p className={styles.footLine}>
                 Or write to{" "}
-                <DeskEmailLink address={DESK_EMAIL} linkClassName={styles.footLink} />
+                <DeskEmailLink
+                  address={DESK_EMAIL}
+                  linkClassName={styles.footLink}
+                  getMail={() => claimHelpMail({ code: code ? prettyCode(code) : null, seen: ann && ann.kind === "err" ? ann.text : null })}
+                />
                 {deskWa ? (
                   <>
                     {" "}or{" "}

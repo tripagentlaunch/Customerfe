@@ -1,3 +1,4 @@
+import { requestHelpMail } from "../lib/deskMail";
 import { DeskEmailLink } from "../components/DeskEmailLink";
 import { mergeProfile } from "../lib/profileStore";
 import { useEffect, useRef, useState } from "react";
@@ -143,6 +144,7 @@ export default function RequestAccessPage() {
   const [errors, setErrors] = useState<FieldErrors>({});
   const [submitErr, setSubmitErr] = useState("");
   const [alreadyApproved, setAlreadyApproved] = useState(false);
+  const formRef = useRef<HTMLFormElement>(null);
   const [approvedEmail, setApprovedEmail] = useState("");
   const signIn = useSignInModal();
   const [phoneDigits, setPhoneDigits] = useState("");
@@ -368,7 +370,7 @@ export default function RequestAccessPage() {
                   </button>
                 </div>
               )}
-              <form className={styles.form} noValidate onSubmit={handleSubmit}>
+              <form ref={formRef} className={styles.form} noValidate onSubmit={handleSubmit}>
                 <div className={styles.field}>
                   <label htmlFor="ra-name">Your name</label>
                   {withIcon(ICON.name, <input
@@ -468,7 +470,20 @@ export default function RequestAccessPage() {
               )}
               <p className={styles.footLine}>
                 Or write to{" "}
-                <DeskEmailLink address={DESK_EMAIL} linkClassName={styles.footLink} />
+                <DeskEmailLink
+                  address={DESK_EMAIL}
+                  linkClassName={styles.footLink}
+                  getMail={() => {
+                    const fd = formRef.current ? new FormData(formRef.current) : null;
+                    const val = (k: string) => (fd ? String(fd.get(k) || "").trim() : "");
+                    return requestHelpMail({
+                      name: val("name"),
+                      email: val("email"),
+                      phone: phoneDigits || null,
+                      seen: submitErr || (alreadyApproved ? "Your request has already been approved by your advisor. Please sign in with the same email and phone number." : null),
+                    });
+                  }}
+                />
               </p>
             </>
           )}

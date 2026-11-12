@@ -5,11 +5,11 @@ import { useEffect, useRef, useState } from "react";
 // page is still in front a moment later, no mail app took over, and the person is offered the same message in Gmail or Outlook on the web,
 // or the address to copy. The webmail links are real clicks (a pop-up blocker would stop one opened by a timer).
 
-const SUBJECT = "My TripAgent invitation";
-const BODY = "Hello, I'd like help with my TripAgent invitation.";
+import { DEFAULT_DESK_MAIL, mailtoUrl, type DeskMail } from "../lib/deskMail";
 
-export function webmailLinks(to: string, subject: string = SUBJECT, body: string = BODY) {
+export function webmailLinks(to: string, mail: DeskMail = DEFAULT_DESK_MAIL) {
   const q = encodeURIComponent;
+  const { subject, body } = mail;
   return {
     gmail: "https://mail.google.com/mail/?view=cm&fs=1&to=" + q(to) + "&su=" + q(subject) + "&body=" + q(body),
     outlook: "https://outlook.office.com/mail/deeplink/compose?to=" + q(to) + "&subject=" + q(subject) + "&body=" + q(body),
@@ -18,13 +18,20 @@ export function webmailLinks(to: string, subject: string = SUBJECT, body: string
 
 const WAIT_MS = 1300;
 
-export function DeskEmailLink({ address, linkClassName }: { address: string; linkClassName?: string }) {
+/** `getMail` builds the message when it is needed (at the click, so it sees what the customer has typed by then). */
+export function DeskEmailLink({ address, linkClassName, getMail }: { address: string; linkClassName?: string; getMail?: () => DeskMail }) {
   const [stuck, setStuck] = useState(false); // no mail app opened
+  const [mail, setMail] = useState<DeskMail>(DEFAULT_DESK_MAIL);
   const [copied, setCopied] = useState(false);
   const timer = useRef<number | undefined>(undefined);
   useEffect(() => () => window.clearTimeout(timer.current), []);
 
-  function onClick() {
+  function onClick(e: React.MouseEvent<HTMLAnchorElement>) {
+    // Built now, so it carries the page's message and the customer's details as they are at this moment; the link
+    // the browser is about to follow is updated to it before it navigates.
+    const m = getMail ? getMail() : DEFAULT_DESK_MAIL;
+    setMail(m);
+    e.currentTarget.href = mailtoUrl(address, m);
     setStuck(false);
     setCopied(false);
     let left = false;
@@ -51,11 +58,11 @@ export function DeskEmailLink({ address, linkClassName }: { address: string; lin
     setCopied(true);
   }
 
-  const web = webmailLinks(address);
+  const web = webmailLinks(address, mail);
   const plain: React.CSSProperties = { background: "none", border: 0, padding: 0, font: "inherit", cursor: "pointer" };
   return (
     <>
-      <a href={"mailto:" + address} className={linkClassName} onClick={onClick}>
+      <a href={mailtoUrl(address, mail)} className={linkClassName} onClick={onClick}>
         {address}
       </a>
       {stuck ? (
