@@ -1,3 +1,4 @@
+import { DeskEmailLink } from "../components/DeskEmailLink";
 import { mergeProfile } from "../lib/profileStore";
 import { useEffect, useRef, useState } from "react";
 import { useSignInModal } from "../lib/signInModal";
@@ -467,9 +468,7 @@ export default function RequestAccessPage() {
               )}
               <p className={styles.footLine}>
                 Or write to{" "}
-                <a href={`mailto:${DESK_EMAIL}`} className={styles.footLink}>
-                  {DESK_EMAIL}
-                </a>
+                <DeskEmailLink address={DESK_EMAIL} linkClassName={styles.footLink} />
               </p>
             </>
           )}

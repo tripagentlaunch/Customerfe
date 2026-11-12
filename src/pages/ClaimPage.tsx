@@ -1,3 +1,4 @@
+import { DeskEmailLink } from "../components/DeskEmailLink";
 import { useEffect, useRef, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useBareChromeForGuests } from "../lib/bareChrome";
@@ -331,18 +332,6 @@ export default function ClaimPage() {
   const greetName = readyFromLink ? firstName(peek?.firstName) : "";
   const waHref = whatsappLink(whatsappNumber, welcomeMessage(welcome?.name, welcome?.advisor));
   const deskWa = whatsappLink(whatsappNumber, "Hello, I'd like help with my TripAgent invitation.");
-  // A mailto: link does nothing in a browser with no email app set up (often the case in a private window), so the address is
-  // also copied and the person is told. The link still tries to open their email app first.
-  const [emailCopied, setEmailCopied] = useState(false);
-  function copyDeskEmail() {
-    try {
-      void navigator.clipboard?.writeText(DESK_EMAIL).then(() => setEmailCopied(true), () => setEmailCopied(true));
-    } catch {
-      // clipboard not allowed: the address is on the page for them to select
-    }
-    setEmailCopied(true);
-  }
-
   return (
     <section className={`${styles.claimRoot}${desk ? ` ${styles.desk}` : ""}`}>
       {reduceMotion || videoFailed ? (
@@ -484,9 +473,7 @@ export default function ClaimPage() {
               )}
               <p className={styles.footLine}>
                 Or write to{" "}
-                <a href={`mailto:${DESK_EMAIL}`} className={styles.footLink} onClick={copyDeskEmail}>
-                  {DESK_EMAIL}
-                </a>
+                <DeskEmailLink address={DESK_EMAIL} linkClassName={styles.footLink} />
                 {deskWa ? (
                   <>
                     {" "}or{" "}
@@ -496,11 +483,6 @@ export default function ClaimPage() {
                   </>
                 ) : null}
               </p>
-              {emailCopied ? (
-                <p className={styles.footLine} role="status">
-                  No email app opened? We&apos;ve copied {DESK_EMAIL}. Paste it into your email.
-                </p>
-              ) : null}
             </>
           ) : (
             <div className={styles.welcome} role="status" aria-live="polite" tabIndex={-1} ref={welcomeRef}>
