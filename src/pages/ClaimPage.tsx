@@ -53,6 +53,10 @@ const VIDEO_SRC = "/videos/tripagent-claim-loop.mp4";
 // the still.
 const VIDEO_FALLBACK_SRC = "/images/tripagent-claim-fallback.jpg";
 
+// A claimed code opens one membership. Whoever it is for signs in; a second person approved with them has their own link from the advisor.
+const CLAIMED_TEXT =
+  "This code has already been claimed. If it's yours, sign in with your email. If you were invited alongside someone else, ask your advisor for your own link.";
+
 const DESK_EMAIL = "invite@tripagent.vip";
 
 // Desktop (2026-10-28, direct request): the card, inputs and buttons take the
@@ -167,7 +171,7 @@ export default function ClaimPage() {
           setPeek(p && p.found ? p : null);
           if (p && p.found) {
             if (p.used) {
-              setAnn({ text: "This code has already been claimed. Please sign in with your email.", kind: "err" });
+              setAnn({ text: CLAIMED_TEXT, kind: "err" });
               setClaimedAlready(true);
             } else if (p.expired) {
               setAnn({ text: "This invitation has expired. Please reach us on WhatsApp or write to invite@tripagent.vip for a new one.", kind: "err" });
@@ -299,7 +303,7 @@ export default function ClaimPage() {
       return;
     }
     if (res.used === true) {
-      setAnn({ text: "This code has already been claimed. Please sign in with your email.", kind: "err" });
+      setAnn({ text: CLAIMED_TEXT, kind: "err" });
       setClaimedAlready(true);
     } else if (res.error === "revoked") {
       setAnn({ text: "This invitation is no longer active. Please reach us on WhatsApp or write to invite@tripagent.vip.", kind: "err" });
@@ -425,12 +429,28 @@ export default function ClaimPage() {
                 >
                   {ann?.text}
                 </div>
-                {claimedAlready && (
-                  <button type="button" className={styles.submitBtn} onClick={() => signIn.open()}>
-                    Sign in
-                  </button>
-                )}
-                {desk ? (
+                {claimedAlready ? (
+                  // Claiming a claimed code can only fail again: the way forward is Sign in (or another code), in the same row as the other buttons.
+                  <div className={styles.btnRow}>
+                    <button type="button" className={styles.submitBtn} onClick={() => signIn.open()}>
+                      <span className={styles.btnLabel}>Sign in</span>
+                    </button>
+                    {linkedCode ? null : (
+                      <button
+                        type="button"
+                        className={styles.codeBtn}
+                        onClick={() => {
+                          setClaimedAlready(false);
+                          setAnn(null);
+                          setCode("");
+                          inputRef.current?.focus();
+                        }}
+                      >
+                        <span className={styles.btnLabel}>Try another code</span>
+                      </button>
+                    )}
+                  </div>
+                ) : desk ? (
                   <div className={styles.btnRow}>
                     <button type="submit" className={styles.submitBtn} disabled={busy || (!!linkedCode && !peeked)}>
                       <span className={styles.btnLabel}>{busy ? "Verifying…" : "Claim your invitation"}</span>
