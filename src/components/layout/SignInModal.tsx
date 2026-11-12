@@ -329,8 +329,8 @@ function SignInModalCard({ message, close }: { message: string | null; close: ()
           <form onSubmit={submitCode}>
             <h3 className="ta-si-h">Check your email.</h3>
             <p className="ta-si-sub">
-              We've emailed {email} a secure sign-in link: click it to open your year. If your email
-              includes a code instead, enter it below.
+              We've emailed {email} an 8-digit sign-in code. Enter it below to open your year. If you
+              don't see it in a minute, check your spam folder.
             </p>
             <div className="ta-si-f">
               <label htmlFor="ta-si-otp">One-time code</label>
@@ -340,7 +340,7 @@ function SignInModalCard({ message, close }: { message: string | null; close: ()
                 type="text"
                 inputMode="numeric"
                 className="ta-si-otp"
-                placeholder="Code from your email"
+                placeholder="8-digit code"
                 value={code}
                 onChange={(e) => setCode(e.target.value)}
               />
