@@ -2,6 +2,7 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 import App from "./App";
+import { reloadForNewVersion } from "./lib/versionReload";
 import { PhoneFrame, PhoneFrameRouteSync, wantsPhoneFrame } from "./DevPhoneFrame";
 // Real site stylesheets, imported directly — same files the static .html
 // pages link, so pages render with real visual parity (see vite.config.ts's
@@ -11,25 +12,10 @@ import { PhoneFrame, PhoneFrameRouteSync, wantsPhoneFrame } from "./DevPhoneFram
 import "./css/fonts.css";
 import "./css/site.css";
 
-// Pages load on demand (PageRouter.tsx). After a deploy, a tab opened
-// before it asks for page files that no longer exist — reload once to pick
-// up the new build instead of showing a broken page.
+// Pages load on demand (PageRouter.tsx). After a deploy, a tab opened before it asks for page files that no longer exist: reload
+// once to pick up the new build instead of showing a broken page (lib/versionReload.ts).
 window.addEventListener("vite:preloadError", (event) => {
-  try {
-    if (sessionStorage.getItem("ta_chunk_reload")) return;
-    sessionStorage.setItem("ta_chunk_reload", "1");
-  } catch {
-    return;
-  }
-  event.preventDefault();
-  window.location.reload();
-});
-window.addEventListener("load", () => {
-  try {
-    sessionStorage.removeItem("ta_chunk_reload");
-  } catch {
-    // storage unavailable
-  }
+  if (reloadForNewVersion()) event.preventDefault();
 });
 
 createRoot(document.getElementById("root")!).render(
