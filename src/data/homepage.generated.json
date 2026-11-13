@@ -1426,7 +1426,7 @@
         "image": "/_vercel/image?url=%2Fimg%2Fh%2Fflights.jpg&w=2048&q=80",
         "number": "01",
         "heading": "Flights",
-        "body": "Global fares in every cabin: with business and first class our specialty. Held, priced and ticketed, with the seat that suits you.",
+        "body": "Business and first are our specialty, ticketed for you.",
         "ctaLabel": "Explore flights",
         "ctaHref": "flights.html"
       },
@@ -1434,7 +1434,7 @@
         "image": "/_vercel/image?url=%2Fimg%2Fh%2Fhotels-new.jpg&w=2048&q=80",
         "number": "02",
         "heading": "Hotels",
-        "body": "From the right room to the whole villa: booked at rates and with touches you won't find yourself.",
+        "body": "The right room or the whole villa, at better rates.",
         "ctaLabel": "Explore hotels",
         "ctaHref": "hotels.html"
       },
@@ -1442,7 +1442,7 @@
         "image": "/_vercel/image?url=%2Fimg%2Fh%2Fvisas.jpg&w=2048&q=80",
         "number": "03",
         "heading": "Visas",
-        "body": "The paperwork no one enjoys: checked, filed and tracked, so the only thing you pack is your bag.",
+        "body": "Paperwork checked, filed and tracked. You just pack.",
         "ctaLabel": "Explore visas",
         "ctaHref": "visas.html"
       }

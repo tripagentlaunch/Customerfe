@@ -8,10 +8,7 @@
     "headingHtml": "The trip is the easy part.<br/>Being <span class=\"it\">looked after</span> is the point.",
     "lede": "Not a document you file later. Disruption watched before you notice it. Rebooking done while you sleep. Payment kept safe, the visa assessed honestly, and a discretion you never have to ask for.",
     "image": "/_vercel/image?url=%2Fimg%2Fh%2Fprotection.jpg&w=2560&q=80",
-    "ctaGold": {
-      "label": "Become a member",
-      "href": "join.html"
-    },
+    "ctaGold": null,
     "ctaText": {
       "label": "See how it works",
       "href": "how-it-works.html"
@@ -90,10 +87,7 @@
     "eyebrow": "When something goes wrong",
     "heading": "What happens, step by step.",
     "lede": "You don\u2019t manage the recovery: we do. It begins with a single message and ends with you back on track before the disruption has registered.",
-    "cta": {
-      "label": "Become a member",
-      "href": "join.html"
-    },
+    "cta": null,
     "items": [
       {
         "n": "1",
@@ -166,10 +160,6 @@
   "cta": {
     "heading": "Travel. Someone has the rest.",
     "buttons": [
-      {
-        "label": "Become a member",
-        "href": "join.html"
-      },
       {
         "label": "All three services",
         "href": "services.html"

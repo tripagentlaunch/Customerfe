@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import ChatThread from "./components/ChatThread";
 import ChatInput from "./components/ChatInput";
@@ -9,10 +9,10 @@ function newId(): string {
   return `m-${Date.now().toString(36)}-${Math.random().toString(36).slice(2)}`;
 }
 
-export default function App() {
+export default function App({ initialMessage, planSlug, autoSend }: { initialMessage?: string; planSlug?: string | null; autoSend?: boolean } = {}) {
   const [messages, setMessages] = useState<ChatMessage[]>([]);
   const [busy, setBusy] = useState(false);
-  const citySlug = citySlugFromPage();
+  const citySlug = citySlugFromPage() ?? planSlug ?? null;
 
   useEffect(() => {
     setMessages([
@@ -32,6 +32,15 @@ export default function App() {
     // Seeded once on mount — citySlug comes from the URL and won't change
     // mid-session.
   }, []);
+
+  // Auto-send (from the Where to go questionnaire): the first message goes out on the visitor's behalf, once.
+  const autoSent = useRef(false);
+  useEffect(() => {
+    if (!autoSend || !initialMessage || autoSent.current) return;
+    autoSent.current = true;
+    void handleSend(initialMessage);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [autoSend, initialMessage]);
 
   async function handleSend(text: string) {
     const memberMessage: ChatMessage = { id: newId(), role: "member", text, timestamp: Date.now() };
@@ -113,7 +122,7 @@ export default function App() {
         </button>
       </div>
       <ChatThread messages={messages} onChipClick={handleSend} />
-      <ChatInput onSend={handleSend} disabled={busy} />
+      <ChatInput onSend={handleSend} disabled={busy} initialValue={autoSend ? undefined : initialMessage} />
     </div>
   );
 }

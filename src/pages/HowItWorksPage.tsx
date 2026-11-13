@@ -5,6 +5,8 @@ import type { HowItWorksPageData } from "../types/how-it-works-page";
 import { useScrollReveal } from "../lib/useScrollReveal";
 import { toRoute } from "../lib/toRoute";
 import IPhoneMock from "./IPhoneMock";
+import HowItWorksTabs from "../components/HowItWorksTabs";
+import { PrimaryInverseButton, SecondaryInverseButton } from "../components/buttons/InverseButtons";
 import styles from "./how-it-works-page.module.css";
 
 const data = howItWorksData as unknown as HowItWorksPageData;
@@ -16,37 +18,25 @@ export default function HowItWorksPage() {
 
   useScrollReveal([]);
 
-  const { hero, model, steps, journey, pq, rescue, sig, cta } = data;
+  const { hero, model, steps, journey, pq, rescue, sig } = data;
 
   return (
     <main>
-      <header className={`hero left ${styles.heroHiw}`} style={{ backgroundImage: `url('${hero.image}')`, backgroundPosition: "60% 40%" }}>
-        <div className="wrap hero-inner">
-          <div className="hs-copy">
-            <div className="eyebrow on-dark">{hero.eyebrow}</div>
-            <div className="rule" />
-            <h1 dangerouslySetInnerHTML={{ __html: hero.headingHtml ?? "" }} />
-            <p className="lede on-dark" style={{ marginTop: 22 }}>
-              {hero.lede}
-            </p>
-            <div className="hero-cta-row">
-              <Link className="btn btn-gold on-dark btn-square" to={toRoute(hero.ctaHref)}>
-                {hero.ctaLabel}
-              </Link>
-              <a className={styles.hiwTextlink} href={hero.jumpHref}>
-                {hero.jumpLabel}
-              </a>
+      {/* Hero refreshed 2026-11-13 like Flights/Hotels/Visas: photo hero, "Find my trip" / "Chat with us". The inset photo
+          card and the old buttons ("Enter your invitation", "See how a trip comes together") are no longer shown. */}
+      <header className={styles.fHero} style={{ backgroundImage: `linear-gradient(90deg, rgba(8,6,5,.82) 0%, rgba(8,6,5,.6) 45%, rgba(8,6,5,.4) 100%), url('${hero.image}')` }}>
+        <div className="wrap">
+          <div className={styles.fHeroCopy}>
+            <div className="eyebrow on-dark reveal">{hero.eyebrow}</div>
+            <div className="rule reveal d1" />
+            <h1 className="display reveal d1" dangerouslySetInnerHTML={{ __html: hero.headingHtml ?? "" }} />
+            <p className="lede on-dark reveal d2">{hero.lede}</p>
+            <div className={`btn-row ${styles.fHeroBtns} reveal d3`}>
+              <PrimaryInverseButton to="destinations.html">Find my trip</PrimaryInverseButton>
+              <SecondaryInverseButton to="concierge.html">Chat with us</SecondaryInverseButton>
             </div>
           </div>
         </div>
-        <figure className={styles.heroInset}>
-          <div className="pic" style={{ backgroundImage: `url('${hero.inset.image}')` }} />
-          <figcaption className="cap">
-            <div className="k">{hero.inset.kicker}</div>
-            <div className="t">{hero.inset.caption}</div>
-          </figcaption>
-        </figure>
-        <div className="scrolldown">Scroll</div>
       </header>
 
       <section className="band editorial">
@@ -64,28 +54,35 @@ export default function HowItWorksPage() {
         </div>
       </section>
 
+      {/* "Five steps. The last one is where everyone else stops." removed 2026-11-13, direct request (the pinned section below covers it). */}
+      {false && (
       <section className="band tight" style={{ background: "var(--bone)" }}>
         <div className="wrap">
-          <div className="reveal" style={{ maxWidth: "30ch", marginBottom: "clamp(34px,4vw,56px)" }}>
+          <div className={`${styles.fHead} reveal`}>
             <div className="eyebrow">{steps.eyebrow}</div>
             <div className="rule" />
-            <h2 style={{ fontSize: "clamp(30px,3.8vw,54px)" }}>{steps.heading}</h2>
+            <h2>{steps.heading}</h2>
           </div>
-          <div className={`${styles.idx} reveal d1`}>
-            {steps.items.map((s, i) => (
-              <div className={styles.row} key={i}>
-                <div className="nn">{s.nn}</div>
-                <div className={styles.bd}>
-                  <h3>{s.heading}</h3>
-                  <p>{s.body}</p>
-                </div>
+          <div className={`${styles.fTiles} reveal d1`}>
+            {steps.items.map((st, i) => (
+              <div className={styles.fTile} key={i}>
+                <div className={styles.fTileLabel}>{st.nn}</div>
+                <h3>{st.heading}</h3>
+                <p>{st.body}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
+      )}
 
-      <section className="band tight" id="journey">
+      {/* "From a wish to a journey" (phone mock + copy) replaced 2026-11-13, direct request, by the home page's pinned
+          Enquiry > Booking > The Journey > The Contingency Desk > Home section, with its sticky scroll and auto-advance.
+          The old section is kept below behind `false &&` for easy restore. */}
+      <span id="journey" style={{ display: "block" }} />
+      <HowItWorksTabs />
+      {false && (
+      <section className="band tight">
         <div className="wrap grid-2">
           <div className="reveal" style={{ display: "flex", justifyContent: "center" }}>
             <IPhoneMock phone={journey.phone} />
@@ -108,7 +105,10 @@ export default function HowItWorksPage() {
           </div>
         </div>
       </section>
+      )}
 
+      {/* Pull quote ("A flight rebooked before you wake: handled.") hidden 2026-11-13, in line with Hotels and Visas. */}
+      {false && (
       <section className="band tight">
         <div className="wrap">
           <div className="pq reveal">
@@ -116,7 +116,10 @@ export default function HowItWorksPage() {
           </div>
         </div>
       </section>
+      )}
 
+      {/* "The difference shows at 2 a.m." (phone mock + copy) removed 2026-11-13, direct request. */}
+      {false && (
       <section className="band">
         <div className="wrap grid-2" style={{ direction: "rtl" }}>
           <div className="reveal" style={{ display: "flex", justifyContent: "center", direction: "ltr" }}>
@@ -134,8 +137,11 @@ export default function HowItWorksPage() {
           </div>
         </div>
       </section>
+      )}
 
-      <section className="sig" style={{ backgroundImage: `url('${sig.image}')` }}>
+      {/* "The whole way" band: its content now lives in the closing band below (2026-11-13, direct request); band kept hidden. */}
+      {false && (
+      <section className={`sig ${styles.fSig}`} style={{ backgroundImage: `url('${sig.image}')` }}>
         <div className="wrap">
           <div className="eyebrow reveal">{sig.eyebrow}</div>
           <div className="rule reveal d1" />
@@ -143,18 +149,18 @@ export default function HowItWorksPage() {
           <p className="lede reveal d2">{sig.lede}</p>
         </div>
       </section>
+      )}
 
-      <section className="band center">
+      <section className="band-dark band center" style={{ backgroundImage: `var(--scrim), url('${sig.image}')` }}>
         <div className="wrap">
-          <h2 className="reveal" style={{ fontSize: "clamp(30px,4vw,58px)" }}>
-            {cta.heading}
-          </h2>
-          <div className="btn-row center reveal d2" style={{ marginTop: 26 }}>
-            {cta.buttons.map((b, i) => (
-              <Link className={i === 0 ? "btn btn-gold" : "btn btn-ghost"} to={toRoute(b.href)} key={i}>
-                {b.label}
-              </Link>
-            ))}
+          <div className="eyebrow on-dark reveal">{sig.eyebrow}</div>
+          <div className="rule center reveal d1" />
+          <h2 className="reveal d1" style={{ maxWidth: "24ch", margin: "0 auto" }} dangerouslySetInnerHTML={{ __html: sig.headingHtml ?? "" }} />
+          <p className="lede on-dark reveal d2" style={{ margin: "22px auto 0", maxWidth: "52ch" }}>
+            {sig.lede}
+          </p>
+          <div className="btn-row center reveal d2" style={{ marginTop: 28 }}>
+            <PrimaryInverseButton to="concierge.html">Plan a trip</PrimaryInverseButton>
           </div>
         </div>
       </section>

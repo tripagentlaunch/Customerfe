@@ -5,10 +5,77 @@ import { useIsMobile } from "../hooks/useIsMobile";
 import styles from "./CityFilters.module.css";
 import HomeSearch from "./HomeSearch";
 
+type Opt = { v: string; label: string };
+
+// Styled dropdown (replaces the browser's native <select> menu, 2026-11-13).
+export function Dropdown({ id, value, options, onChange }: { id: string; value: string; options: readonly Opt[]; onChange: (v: string) => void }) {
+  const [open, setOpen] = useState(false);
+  const [active, setActive] = useState(0);
+  const ref = useRef<HTMLDivElement>(null);
+  const selIdx = Math.max(0, options.findIndex((o) => o.v === value));
+  useEffect(() => {
+    if (!open) return;
+    const onDoc = (e: MouseEvent) => !ref.current?.contains(e.target as Node) && setOpen(false);
+    document.addEventListener("mousedown", onDoc);
+    return () => document.removeEventListener("mousedown", onDoc);
+  }, [open]);
+  const toggle = () => {
+    setActive(selIdx);
+    setOpen((o) => !o);
+  };
+  const pick = (v: string) => {
+    onChange(v);
+    setOpen(false);
+  };
+  const onKey = (e: React.KeyboardEvent) => {
+    if (e.key === "Escape") return setOpen(false);
+    if (e.key === "ArrowDown" || e.key === "ArrowUp") {
+      e.preventDefault();
+      if (!open) return toggle();
+      setActive((a) => Math.min(options.length - 1, Math.max(0, a + (e.key === "ArrowDown" ? 1 : -1))));
+    } else if ((e.key === "Enter" || e.key === " ") && open) {
+      e.preventDefault();
+      pick(options[active].v);
+    }
+  };
+  return (
+    <div className={styles.csDd} ref={ref} onKeyDown={onKey}>
+      <button type="button" id={id} className={styles.csDdBtn} aria-haspopup="listbox" aria-expanded={open} onClick={toggle}>
+        <span>{options[selIdx]?.label}</span>
+        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" className={open ? styles.csDdUp : undefined}>
+          <path d="M2 4.5l4 4 4-4" />
+        </svg>
+      </button>
+      {open && (
+        <ul className={styles.csMenu} role="listbox" aria-labelledby={id}>
+          {options.map((o, i) => (
+            <li key={o.v || "any"} role="option" aria-selected={o.v === value} className={`${styles.csOpt}${o.v === value ? ` ${styles.csOptOn}` : ""}${i === active ? ` ${styles.csOptActive}` : ""}`} onMouseEnter={() => setActive(i)} onClick={() => pick(o.v)}>
+              {o.label}
+            </li>
+          ))}
+        </ul>
+      )}
+    </div>
+  );
+}
+
+// Phone sheet: single-select chips, wrapping onto as many rows as needed.
+function Chips({ value, options, onChange, label }: { value: string; options: readonly Opt[]; onChange: (v: string) => void; label: string }) {
+  return (
+    <div className={styles.csChips} role="radiogroup" aria-label={label}>
+      {options.map((o) => (
+        <button key={o.v || "any"} type="button" role="radio" aria-checked={o.v === value} className={`${styles.csChip}${o.v === value ? ` ${styles.csChipOn}` : ""}`} onClick={() => onChange(o.v)}>
+          {o.label}
+        </button>
+      ))}
+    </div>
+  );
+}
+
 // Search box + When/Who/Budget/Distance selects + Mood chips for the city
 // search (useCitySearch). Lives on the Destinations page; whatever list sits
 // beneath it filters itself from the same `search` object.
-export default function CityFilters({ search }: { search: CitySearch }) {
+export default function CityFilters({ search, showMood = true, showWho = true }: { search: CitySearch; showMood?: boolean; showWho?: boolean }) {
   const originLabel = ORIGINS[search.origin] || "Bengaluru";
   const isMobile = useIsMobile();
 
@@ -45,61 +112,33 @@ export default function CityFilters({ search }: { search: CitySearch }) {
   useEffect(() => {
     if (isMobile) moodRowRef.current?.scrollTo({ left: 0, behavior: "smooth" });
   }, [selectedMoods, isMobile]);
-  const activeFilters = [search.state.month, search.state.who, search.state.budget, search.state.flight].filter(Boolean).length;
+  const activeFilters = selectedMoods + [search.state.month, showWho ? search.state.who : "", search.state.budget, search.state.flight].filter(Boolean).length;
 
   const fields = (
     <>
       <div className={styles.csField}>
         <label htmlFor="cs-month">When</label>
-        <select id="cs-month" className={styles.csSelect} value={search.state.month} onChange={(e) => search.setField("month", e.target.value)}>
-          <option value="">Any month</option>
-          {MONTHS.map((m, i) => (
-            <option value={String(i + 1)} key={m}>
-              {m}
-            </option>
-          ))}
-        </select>
+        {isMobile ? <Chips label="cs-month" value={search.state.month} options={[{ v: "", label: "Any month" }, ...MONTHS.map((m, i) => ({ v: String(i + 1), label: m }))]} onChange={(v) => search.setField("month", v)} /> : <Dropdown id="cs-month" value={search.state.month} options={[{ v: "", label: "Any month" }, ...MONTHS.map((m, i) => ({ v: String(i + 1), label: m }))]} onChange={(v) => search.setField("month", v)} />}
       </div>
+      {showWho && (
       <div className={styles.csField}>
         <label htmlFor="cs-who">Who</label>
-        <select id="cs-who" className={styles.csSelect} value={search.state.who} onChange={(e) => search.setField("who", e.target.value)}>
-          <option value="">Anyone</option>
-          {WHO.map((w) => (
-            <option value={w.v} key={w.v}>
-              {w.label}
-            </option>
-          ))}
-        </select>
+        {isMobile ? <Chips label="cs-who" value={search.state.who} options={[{ v: "", label: "Anyone" }, ...WHO]} onChange={(v) => search.setField("who", v)} /> : <Dropdown id="cs-who" value={search.state.who} options={[{ v: "", label: "Anyone" }, ...WHO]} onChange={(v) => search.setField("who", v)} />}
       </div>
+      )}
       <div className={styles.csField}>
         <label htmlFor="cs-budget">Budget</label>
-        <select id="cs-budget" className={styles.csSelect} value={search.state.budget} onChange={(e) => search.setField("budget", e.target.value)}>
-          {BUDGET.map((b) => (
-            <option value={b.v} key={b.v}>
-              {b.label}
-            </option>
-          ))}
-        </select>
+        {isMobile ? <Chips label="cs-budget" value={search.state.budget} options={BUDGET} onChange={(v) => search.setField("budget", v)} /> : <Dropdown id="cs-budget" value={search.state.budget} options={BUDGET} onChange={(v) => search.setField("budget", v)} />}
       </div>
       <div className={styles.csField}>
         <label htmlFor="cs-flight">From {originLabel}</label>
-        <select id="cs-flight" className={styles.csSelect} value={search.state.flight} onChange={(e) => search.setField("flight", e.target.value)}>
-          {FLIGHT.map((f) => (
-            <option value={f.v} key={f.v}>
-              {f.label}
-            </option>
-          ))}
-        </select>
+        {isMobile ? <Chips label="cs-flight" value={search.state.flight} options={FLIGHT} onChange={(v) => search.setField("flight", v)} /> : <Dropdown id="cs-flight" value={search.state.flight} options={FLIGHT} onChange={(v) => search.setField("flight", v)} />}
       </div>
     </>
   );
   const meta = (
     <div className={styles.csMeta}>
-      <span className={styles.csCount} aria-live="polite">
-        {search.results.length === 0
-          ? "No places match"
-          : (search.results.length === 1 ? "1 place" : `${search.results.length} places`) + (search.filtered ? " match" : "")}
-      </span>
+      {/* Count ("110 places") removed 2026-11-13, direct request. */}
       {search.filtered && (
         <button type="button" className={styles.csClear} onClick={search.clearAll}>
           Clear
@@ -110,6 +149,8 @@ export default function CityFilters({ search }: { search: CitySearch }) {
 
   return (
     <div>
+      {!isMobile && (
+        <>
       {/* Was the plain "Search a city or country…" input (.csSearchwrap); now the homepage's bar, filtering this page's list in place. */}
       <div className={styles.csSearchWhite}>
         <HomeSearch
@@ -120,19 +161,32 @@ export default function CityFilters({ search }: { search: CitySearch }) {
         />
       </div>
 
+        </>
+      )}
       {isMobile ? (
-        <div className={styles.csBarM}>
-          <button type="button" className={styles.csFilterBtn} onClick={() => setOpen(true)} aria-haspopup="dialog">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.7} strokeLinecap="round" aria-hidden="true">
-              <path d="M4 7h10M18 7h2M4 17h2M10 17h10" />
-              <circle cx="16" cy="7" r="2" />
-              <circle cx="8" cy="17" r="2" />
-            </svg>
-            Filters
-            {activeFilters > 0 && <span className={styles.csBadge}>{activeFilters}</span>}
-          </button>
-          {meta}
-        </div>
+        <>
+          <div className={styles.csTopRow}>
+            <div className={`${styles.csSearchWhite} ${styles.csTopSearch}`}>
+              <HomeSearch labelHtml="Search a city or a country" value={search.state.q} onValueChange={search.setQuery} showResults={false} />
+            </div>
+            <button type="button" className={styles.csFilterBtn} onClick={() => setOpen(true)} aria-haspopup="dialog" aria-label="Filters">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.7} strokeLinecap="round" aria-hidden="true">
+                <path d="M4 7h10M18 7h2M4 17h2M10 17h10" />
+                <circle cx="16" cy="7" r="2" />
+                <circle cx="8" cy="17" r="2" />
+              </svg>
+              Filters
+              {activeFilters > 0 && <span className={styles.csBadge}>{activeFilters}</span>}
+            </button>
+          </div>
+          {search.filtered && (
+            <div className={styles.csBarM}>
+              <button type="button" className={styles.csClear} onClick={search.clearAll}>
+                Clear
+              </button>
+            </div>
+          )}
+        </>
       ) : (
         <div className={styles.csBar}>
           {fields}
@@ -140,6 +194,7 @@ export default function CityFilters({ search }: { search: CitySearch }) {
         </div>
       )}
 
+      {showMood && !isMobile && (
       <div ref={moodRowRef} className={styles.csMoods} role="group" aria-label="Mood">
         <span className={styles.csMoodlbl}>Mood</span>
         {moods.map((m) => (
@@ -154,6 +209,7 @@ export default function CityFilters({ search }: { search: CitySearch }) {
           </button>
         ))}
       </div>
+      )}
 
       {isMobile &&
         open &&
@@ -170,7 +226,21 @@ export default function CityFilters({ search }: { search: CitySearch }) {
                   </svg>
                 </button>
               </div>
-              <div className={styles.sheetBody}>{fields}</div>
+              <div className={styles.sheetBody}>
+                {fields}
+                {showMood && (
+                  <div className={styles.csField}>
+                    <label>Mood</label>
+                    <div className={styles.csChips} role="group" aria-label="Mood">
+                      {MOOD.map((m) => (
+                        <button key={m.v} type="button" aria-pressed={!!search.state.mood[m.v]} className={`${styles.csChip}${search.state.mood[m.v] ? ` ${styles.csChipOn}` : ""}`} onClick={() => search.toggleMood(m.v)}>
+                          {m.label}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </div>
               <div className={styles.sheetFoot}>
                 {search.filtered && (
                   <button type="button" className={styles.sheetClear} onClick={search.clearAll}>

@@ -11,8 +11,8 @@
       "image": "/_vercel/image?url=%2Fimg%2Fh%2Froute-bengaluru-dubai.jpg&w=2560&q=80",
       "imagePosition": "55% 50%",
       "backLink": {
-        "label": "\u2190 Flight Intelligence",
-        "href": "flight-guides.html"
+        "label": "\u2190 Flights",
+        "href": "flights.html"
       },
       "eyebrow": "Route guide \u00b7 BLR \u2192 DXB",
       "headingHtml": "Bengaluru to Dubai,<br/>the Gulf <span class=\"it\">shuttle</span>.",
@@ -167,7 +167,7 @@
       },
       "ctaSecondary": {
         "label": "More route guides",
-        "href": "flight-guides.html"
+        "href": "flights.html"
       }
     }
   },
@@ -183,8 +183,8 @@
       "image": "/_vercel/image?url=%2Fimg%2Fh%2Froute-bengaluru-singapore.jpg&w=2560&q=80",
       "imagePosition": "58% 50%",
       "backLink": {
-        "label": "\u2190 Flight Intelligence",
-        "href": "flight-guides.html"
+        "label": "\u2190 Flights",
+        "href": "flights.html"
       },
       "eyebrow": "Route guide \u00b7 BLR \u2192 SIN",
       "headingHtml": "Bengaluru to Singapore,<br/>the <span class=\"it\">working</span> hop.",
@@ -339,7 +339,7 @@
       },
       "ctaSecondary": {
         "label": "More route guides",
-        "href": "flight-guides.html"
+        "href": "flights.html"
       }
     }
   },
@@ -355,8 +355,8 @@
       "image": "/_vercel/image?url=%2Fimg%2Fh%2Froute-delhi-bangkok.jpg&w=2560&q=80",
       "imagePosition": "58% 50%",
       "backLink": {
-        "label": "\u2190 Flight Intelligence",
-        "href": "flight-guides.html"
+        "label": "\u2190 Flights",
+        "href": "flights.html"
       },
       "eyebrow": "Route guide \u00b7 DEL \u2192 BKK",
       "headingHtml": "Delhi to Bangkok,<br/>the <span class=\"it\">easy</span> hop.",
@@ -511,7 +511,7 @@
       },
       "ctaSecondary": {
         "label": "More route guides",
-        "href": "flight-guides.html"
+        "href": "flights.html"
       }
     }
   },
@@ -527,8 +527,8 @@
       "image": "/_vercel/image?url=%2Fimg%2Fh%2Froute-delhi-istanbul.jpg&w=2560&q=80",
       "imagePosition": "54% 50%",
       "backLink": {
-        "label": "\u2190 Flight Intelligence",
-        "href": "flight-guides.html"
+        "label": "\u2190 Flights",
+        "href": "flights.html"
       },
       "eyebrow": "Route guide \u00b7 DEL \u2192 IST",
       "headingHtml": "Delhi to Istanbul,<br/>the <span class=\"it\">crossroads</span>.",
@@ -683,7 +683,7 @@
       },
       "ctaSecondary": {
         "label": "More route guides",
-        "href": "flight-guides.html"
+        "href": "flights.html"
       }
     }
   },
@@ -699,8 +699,8 @@
       "image": "/_vercel/image?url=%2Fimg%2Fh%2Froute-delhi-london.jpg&w=2560&q=80",
       "imagePosition": "58% 50%",
       "backLink": {
-        "label": "\u2190 Flight Intelligence",
-        "href": "flight-guides.html"
+        "label": "\u2190 Flights",
+        "href": "flights.html"
       },
       "eyebrow": "Route guide \u00b7 DEL \u2192 LHR",
       "headingHtml": "Delhi to London,<br/>at the <span class=\"it\">front</span>.",
@@ -855,7 +855,7 @@
       },
       "ctaSecondary": {
         "label": "More route guides",
-        "href": "flight-guides.html"
+        "href": "flights.html"
       }
     }
   },
@@ -871,8 +871,8 @@
       "image": "/_vercel/image?url=%2Fimg%2Fh%2Froute-delhi-male.jpg&w=2560&q=80",
       "imagePosition": "54% 50%",
       "backLink": {
-        "label": "\u2190 Flight Intelligence",
-        "href": "flight-guides.html"
+        "label": "\u2190 Flights",
+        "href": "flights.html"
       },
       "eyebrow": "Route guide \u00b7 DEL \u2192 MLE",
       "headingHtml": "Delhi to the Maldives,<br/>door to <span class=\"it\">water villa</span>.",
@@ -1027,7 +1027,7 @@
       },
       "ctaSecondary": {
         "label": "More route guides",
-        "href": "flight-guides.html"
+        "href": "flights.html"
       }
     }
   },
@@ -1043,8 +1043,8 @@
       "image": "/_vercel/image?url=%2Fimg%2Fh%2Froute-delhi-singapore.jpg&w=2560&q=80",
       "imagePosition": "55% 50%",
       "backLink": {
-        "label": "\u2190 Flight Intelligence",
-        "href": "flight-guides.html"
+        "label": "\u2190 Flights",
+        "href": "flights.html"
       },
       "eyebrow": "Route guide \u00b7 DEL \u2192 SIN",
       "headingHtml": "Delhi to Singapore,<br/>the night <span class=\"it\">hop</span>.",
@@ -1199,7 +1199,7 @@
       },
       "ctaSecondary": {
         "label": "More route guides",
-        "href": "flight-guides.html"
+        "href": "flights.html"
       }
     }
   },
@@ -1215,8 +1215,8 @@
       "image": "/_vercel/image?url=%2Fimg%2Fh%2Froute-delhi-tokyo.jpg&w=2560&q=80",
       "imagePosition": "55% 50%",
       "backLink": {
-        "label": "\u2190 Flight Intelligence",
-        "href": "flight-guides.html"
+        "label": "\u2190 Flights",
+        "href": "flights.html"
       },
       "eyebrow": "Route guide \u00b7 DEL \u2192 NRT / HND",
       "headingHtml": "Delhi to Tokyo,<br/>time vs. the <span class=\"it\">bed</span>.",
@@ -1371,7 +1371,7 @@
       },
       "ctaSecondary": {
         "label": "More route guides",
-        "href": "flight-guides.html"
+        "href": "flights.html"
       }
     }
   },
@@ -1387,8 +1387,8 @@
       "image": "/_vercel/image?url=%2Fimg%2Fh%2Froute-delhi-zurich.jpg&w=2560&q=80",
       "imagePosition": "54% 50%",
       "backLink": {
-        "label": "\u2190 Flight Intelligence",
-        "href": "flight-guides.html"
+        "label": "\u2190 Flights",
+        "href": "flights.html"
       },
       "eyebrow": "Route guide \u00b7 DEL \u2192 ZRH",
       "headingHtml": "Delhi to Zurich,<br/>flown <span class=\"it\">well</span>.",
@@ -1543,7 +1543,7 @@
       },
       "ctaSecondary": {
         "label": "More route guides",
-        "href": "flight-guides.html"
+        "href": "flights.html"
       }
     }
   },
@@ -1559,8 +1559,8 @@
       "image": "/_vercel/image?url=%2Fimg%2Fh%2Froute-mumbai-london.jpg&w=2560&q=80",
       "imagePosition": "58% 50%",
       "backLink": {
-        "label": "\u2190 Flight Intelligence",
-        "href": "flight-guides.html"
+        "label": "\u2190 Flights",
+        "href": "flights.html"
       },
       "eyebrow": "Route guide \u00b7 BOM \u2192 LHR",
       "headingHtml": "Mumbai to London,<br/>at the <span class=\"it\">front</span>.",
@@ -1715,7 +1715,7 @@
       },
       "ctaSecondary": {
         "label": "More route guides",
-        "href": "flight-guides.html"
+        "href": "flights.html"
       }
     }
   },
@@ -1731,8 +1731,8 @@
       "image": "/_vercel/image?url=%2Fimg%2Fh%2Froute-mumbai-new-york.jpg&w=2560&q=80",
       "imagePosition": "55% 50%",
       "backLink": {
-        "label": "\u2190 Flight Intelligence",
-        "href": "flight-guides.html"
+        "label": "\u2190 Flights",
+        "href": "flights.html"
       },
       "eyebrow": "Route guide \u00b7 BOM \u2192 JFK / EWR",
       "headingHtml": "Mumbai to New York,<br/>the <span class=\"it\">long</span> way well.",
@@ -1887,7 +1887,7 @@
       },
       "ctaSecondary": {
         "label": "More route guides",
-        "href": "flight-guides.html"
+        "href": "flights.html"
       }
     }
   },
@@ -1903,8 +1903,8 @@
       "image": "/_vercel/image?url=%2Fimg%2Fh%2Froute-mumbai-paris.jpg&w=2560&q=80",
       "imagePosition": "50% 50%",
       "backLink": {
-        "label": "\u2190 Flight Intelligence",
-        "href": "flight-guides.html"
+        "label": "\u2190 Flights",
+        "href": "flights.html"
       },
       "eyebrow": "Route guide \u00b7 BOM \u2192 CDG",
       "headingHtml": "Mumbai to Paris,<br/>cabin over the <span class=\"it\">clock</span>.",
@@ -2059,7 +2059,7 @@
       },
       "ctaSecondary": {
         "label": "More route guides",
-        "href": "flight-guides.html"
+        "href": "flights.html"
       }
     }
   },
@@ -2075,15 +2075,15 @@
       "image": "/_vercel/image?url=%2Fimg%2Fh%2Fhub-doha.jpg&w=2560&q=80",
       "imagePosition": "58% 50%",
       "backLink": {
-        "label": "\u2190 Flight Intelligence",
-        "href": "flight-guides.html"
+        "label": "\u2190 Flights",
+        "href": "flights.html"
       },
       "eyebrow": "Hub guide \u00b7 DOH",
       "headingHtml": "Doha,<br/>the <span class=\"it\">considered</span> connection.",
       "lede": "Qatar Airways' single-terminal hub at Hamad International. Compact, calm and easy to pass through, with lounges that set the bar for premium cabins.",
       "ctaPrimary": {
         "label": "Plan a trip through DOH",
-        "href": "enquire.html"
+        "href": "concierge.html"
       },
       "ctaSecondary": {
         "label": "The lounges",
@@ -2191,7 +2191,7 @@
       "lede": "Knowing the airport is half of it. The rest is sequencing: the right connection time, the lounge confirmed, the transfer arranged, and one advisor watching the whole chain.",
       "cta": {
         "label": "Plan a trip through DOH",
-        "href": "enquire.html"
+        "href": "concierge.html"
       },
       "steps": [
         {
@@ -2227,11 +2227,11 @@
       "lede": "Tell us where you're headed and how you like to fly. We'll come back with the right cabin, a connection that holds, and a layover shaped to suit you.",
       "ctaPrimary": {
         "label": "Plan a trip through DOH \u2192",
-        "href": "enquire.html"
+        "href": "concierge.html"
       },
       "ctaSecondary": {
         "label": "More flight intelligence",
-        "href": "flight-guides.html"
+        "href": "flights.html"
       }
     }
   },
@@ -2247,15 +2247,15 @@
       "image": "/_vercel/image?url=%2Fimg%2Fh%2Fhub-dubai.jpg&w=2560&q=80",
       "imagePosition": "58% 50%",
       "backLink": {
-        "label": "\u2190 Flight Intelligence",
-        "href": "flight-guides.html"
+        "label": "\u2190 Flights",
+        "href": "flights.html"
       },
       "eyebrow": "Hub guide \u00b7 DXB",
       "headingHtml": "Dubai,<br/>where the world <span class=\"it\">connects</span>.",
       "lede": "One of the busiest hubs in the world, and one of the best to pass through: once you know the terminals, the lounges, and how much time a connection truly needs.",
       "ctaPrimary": {
         "label": "Plan a trip through DXB",
-        "href": "enquire.html"
+        "href": "concierge.html"
       },
       "ctaSecondary": {
         "label": "The lounges",
@@ -2363,7 +2363,7 @@
       "lede": "Knowing the airport is half of it. The rest is sequencing: the right connection time, the lounge confirmed, the transfer arranged, and one advisor watching the whole chain.",
       "cta": {
         "label": "Plan a trip through DXB",
-        "href": "enquire.html"
+        "href": "concierge.html"
       },
       "steps": [
         {
@@ -2399,11 +2399,11 @@
       "lede": "Tell us where you are headed and how you like to fly. We will come back with the right cabin, a connection that holds, and a layover shaped to suit you.",
       "ctaPrimary": {
         "label": "Plan a trip through DXB \u2192",
-        "href": "enquire.html"
+        "href": "concierge.html"
       },
       "ctaSecondary": {
         "label": "More flight intelligence",
-        "href": "flight-guides.html"
+        "href": "flights.html"
       }
     }
   },
@@ -2419,15 +2419,15 @@
       "image": "/_vercel/image?url=%2Fimg%2Fh%2Fhub-london-heathrow.jpg&w=2560&q=80",
       "imagePosition": "58% 50%",
       "backLink": {
-        "label": "\u2190 Flight Intelligence",
-        "href": "flight-guides.html"
+        "label": "\u2190 Flights",
+        "href": "flights.html"
       },
       "eyebrow": "Hub guide \u00b7 LHR",
       "headingHtml": "Heathrow,<br/>the <span class=\"it\">gateway</span> with five doors.",
       "lede": "Europe's great long-haul gateway. Across five terminals, the one you land in and the one you leave from decide how the day goes. We hold both ends.",
       "ctaPrimary": {
         "label": "Plan a trip through LHR",
-        "href": "enquire.html"
+        "href": "concierge.html"
       },
       "ctaSecondary": {
         "label": "The lounges",
@@ -2535,7 +2535,7 @@
       "lede": "Knowing the airport is half of it. The rest is sequencing: the right connection time, the correct terminals, the lounge confirmed, the transfer arranged, and one advisor watching the whole chain.",
       "cta": {
         "label": "Plan a trip through LHR",
-        "href": "enquire.html"
+        "href": "concierge.html"
       },
       "steps": [
         {
@@ -2571,11 +2571,11 @@
       "lede": "Tell us where you're headed and how you like to fly. We'll come back with the right cabin, the correct terminals, a connection that holds, and a calm arrival into London. We stay with it until you are home.",
       "ctaPrimary": {
         "label": "Plan a trip through LHR \u2192",
-        "href": "enquire.html"
+        "href": "concierge.html"
       },
       "ctaSecondary": {
         "label": "More flight intelligence",
-        "href": "flight-guides.html"
+        "href": "flights.html"
       }
     }
   },
@@ -2591,15 +2591,15 @@
       "image": "/_vercel/image?url=%2Fimg%2Fh%2Fhub-singapore.jpg&w=2560&q=80",
       "imagePosition": "58% 50%",
       "backLink": {
-        "label": "\u2190 Flight Intelligence",
-        "href": "flight-guides.html"
+        "label": "\u2190 Flights",
+        "href": "flights.html"
       },
       "eyebrow": "Hub guide \u00b7 SIN",
       "headingHtml": "Changi,<br/>the hub you'd <span class=\"it\">choose</span>.",
       "lede": "Routinely rated the world's best airport, and the rare hub where a layover is something to look forward to. The difference is knowing how to use it.",
       "ctaPrimary": {
         "label": "Plan a trip through SIN",
-        "href": "enquire.html"
+        "href": "concierge.html"
       },
       "ctaSecondary": {
         "label": "The lounges",
@@ -2707,7 +2707,7 @@
       "lede": "Knowing the airport is half of it. The rest is sequencing: the right connection time, the lounge confirmed, the transfer arranged, and one advisor watching the whole chain.",
       "cta": {
         "label": "Plan a trip through SIN",
-        "href": "enquire.html"
+        "href": "concierge.html"
       },
       "steps": [
         {
@@ -2743,11 +2743,11 @@
       "lede": "Tell us where you're headed and how you like to fly. We'll come back with the right cabin, a connection that holds, and a layover shaped around you.",
       "ctaPrimary": {
         "label": "Plan a trip through SIN \u2192",
-        "href": "enquire.html"
+        "href": "concierge.html"
       },
       "ctaSecondary": {
         "label": "More flight intelligence",
-        "href": "flight-guides.html"
+        "href": "flights.html"
       }
     }
   }

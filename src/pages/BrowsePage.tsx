@@ -1,14 +1,42 @@
-import { useEffect, useState } from "react";
-import { Link, useParams } from "react-router-dom";
+import { useEffect, useMemo } from "react";
+import { useParams } from "react-router-dom";
+import CityFilters from "../components/CityFilters";
+import CityRegions from "../components/CityRegions";
+import { useCitySearch } from "../lib/citySearch";
 import browse from "../data/browse.generated.json";
 import type { BrowseData } from "../types/browse";
 import { useScrollReveal } from "../lib/useScrollReveal";
-import { toRoute } from "../lib/toRoute";
-import { ORIGINS, flightTimes, hoursLabel, useOrigin, type FlightFrom } from "../lib/origin";
 import styles from "./browse-page.module.css";
 import NotFoundPage from "./NotFoundPage";
 
 const BROWSE = browse as unknown as Record<string, BrowseData>;
+
+// Pages that are already about who is travelling: no "Who" filter.
+const WHO_PAGES = new Set(["browse-romance", "browse-honeymoon", "browse-family-kids", "browse-multigen"]);
+
+// Hero photo per collection (existing site photos).
+const HERO_IMG: Record<string, string> = {
+  "browse-beach": "/img/h/destination-maldives.jpg",
+  "browse-romance": "/img/h/honeymoon.jpg",
+  "browse-culture": "/img/h/destination-italy.jpg",
+  "browse-adventure": "/img/h/destination-new-zealand.jpg",
+  "browse-wellness": "/img/h/destination-bhutan.jpg",
+  "browse-wildlife": "/img/h/destination-kenya.jpg",
+  "browse-food": "/img/h/destination-japan.jpg",
+  "browse-nightlife": "/img/h/destination-singapore.jpg",
+  "browse-snow": "/img/h/destination-switzerland.jpg",
+  "browse-slow": "/img/h/destination-seychelles.jpg",
+  "browse-honeymoon": "/img/h/honeymoon-stays.jpg",
+  "browse-family-kids": "/img/h/family-travel.jpg",
+  "browse-multigen": "/img/h/family-stays.jpg",
+  "browse-safari": "/img/h/destination-south-africa.jpg",
+  "browse-ski": "/img/h/destination-austria.jpg",
+  "browse-dive": "/img/h/destination-indonesia.jpg",
+  "browse-wine": "/img/h/destination-france.jpg",
+  "browse-art": "/img/h/destination-spain.jpg",
+  "browse-spa": "/img/h/destination-sri-lanka.jpg",
+  "browse-pilgrimage": "/img/h/destination-jordan.jpg",
+};
 
 export default function BrowsePage() {
   const { pageSlug } = useParams<{ pageSlug: string }>();
@@ -20,57 +48,42 @@ export default function BrowsePage() {
 
   useScrollReveal([data]);
 
-  // Flight times are from the visitor's own city (Bengaluru unless they chose another) —
-  // the cards used to say "1h from India", which is meaningless (and wrong for every
-  // Indian city). The same per-city table the city pages use (city-decision.json).
-  const [origin] = useOrigin();
-  const [times, setTimes] = useState<Record<string, Record<string, FlightFrom> | null>>({});
-  useEffect(() => {
-    let cancelled = false;
-    (data?.cards ?? []).forEach((c) => {
-      const slug = c.href.replace(/^\//, "").replace(/\.html$/, "").replace(/^city-/, "");
-      flightTimes(slug).then((f) => !cancelled && setTimes((t) => ({ ...t, [slug]: f })));
-    });
-    return () => {
-      cancelled = true;
-    };
-  }, [data]);
+  // Cards are the Destinations cards (city data from the live search), grouped by region.
+  const search = useCitySearch();
+  useScrollReveal([search.status]);
+  const slugs = useMemo(
+    () => new Set((data?.cards ?? []).map((c) => c.href.replace(/^\//, "").replace(/\.html$/, "").replace(/^city-/, ""))),
+    [data]
+  );
+  const scoped = useMemo(
+    () => ({ ...search, results: search.results.filter((c) => slugs.has(c.slug)), filtered: true }),
+    [search, slugs]
+  );
 
   if (!data) {
     return <NotFoundPage />;
   }
 
-  const { hero, cards } = data;
+  const { hero } = data;
+  const heroImg = HERO_IMG[data.slug] ?? "/img/h/destinations.jpg";
 
   return (
     <>
-      <header className={styles.brHero}>
+      <header className={styles.brHero} style={{ ["--br-img" as string]: `url('${heroImg}')` }}>
         <div className="wrap">
           <div className="eyebrow">{hero.eyebrow}</div>
           <h1>{hero.name}</h1>
           <p>{hero.lede}</p>
         </div>
       </header>
-      <div className={styles.wtgRgrid}>
-        {cards.map((c, i) => (
-          <Link className={styles.wtgCard} to={toRoute(c.href)} key={i}>
-            <div className={styles.wp} style={{ backgroundImage: `url('${c.image}')` }} />
-            <div className={styles.wb}>
-              <div className={styles.wc}>{c.country}</div>
-              <h3>{c.name}</h3>
-              <p className={styles.wt}>{c.description}</p>
-              <div className="wm">
-                {c.meta.map((m, j) => {
-                  if (!/ from India$/.test(m)) return <span key={j}>{m}</span>;
-                  const slug = c.href.replace(/^\//, "").replace(/\.html$/, "").replace(/^city-/, "");
-                  const h = hoursLabel(times[slug]?.[origin]?.hours);
-                  // No time for this city from here yet (or at all): show nothing rather than a wrong one.
-                  return h ? <span key={j}>{`${h} from ${ORIGINS[origin]}`}</span> : null;
-                })}
-              </div>
-            </div>
-          </Link>
-        ))}
+      <div className={styles.brResults}>
+        {search.status === "ready" && (
+          <div style={{ marginBottom: "clamp(24px,3vw,44px)" }}>
+            <CityFilters search={search} showMood={false} showWho={!WHO_PAGES.has(data.slug)} />
+          </div>
+        )}
+        {search.status === "ready" && <CityRegions search={scoped} eyebrow />}
+        {search.status === "error" && <p className="lede">The cities couldn't load just now: please refresh.</p>}
       </div>
     </>
   );

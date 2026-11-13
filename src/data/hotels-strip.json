@@ -1,0 +1,114 @@
+[
+  {
+    "slug": "paris",
+    "city": "Paris",
+    "country": "France",
+    "name": "Le Bristol Paris",
+    "area": "8th arr. / Rue du Faubourg Saint-Honoré",
+    "photo": "https://images.pexels.com/photos/16848845/pexels-photo-16848845.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+  },
+  {
+    "slug": "marrakech",
+    "city": "Marrakech",
+    "country": "Morocco",
+    "name": "Royal Mansour Marrakech",
+    "area": "Medina (ramparts)",
+    "photo": "https://images.pexels.com/photos/15531226/pexels-photo-15531226.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+  },
+  {
+    "slug": "santorini",
+    "city": "Santorini",
+    "country": "Greece",
+    "name": "Mystique, a Luxury Collection Hotel, Santorini",
+    "area": "Oia",
+    "photo": "https://images.pexels.com/photos/10182926/pexels-photo-10182926.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+  },
+  {
+    "slug": "hong-kong",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "name": "Rosewood Hong Kong",
+    "area": "Tsim Sha Tsui / Victoria Dockside",
+    "photo": "https://images.pexels.com/photos/2224894/pexels-photo-2224894.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+  },
+  {
+    "slug": "mahe-seychelles",
+    "city": "Mahé",
+    "country": "Seychelles",
+    "name": "North Island, a Luxury Collection Resort",
+    "area": "North Island (private island, ~30 km off Mahé; access by helicopter or boat)",
+    "photo": "https://images.pexels.com/photos/19730288/pexels-photo-19730288.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+  },
+  {
+    "slug": "london",
+    "city": "London",
+    "country": "United Kingdom",
+    "name": "The Connaught",
+    "area": "Mayfair",
+    "photo": "https://images.pexels.com/photos/39065764/pexels-photo-39065764.png?auto=compress&cs=tinysrgb&h=650&w=940"
+  },
+  {
+    "slug": "jaipur",
+    "city": "Jaipur",
+    "country": "India",
+    "name": "Rambagh Palace",
+    "area": "Civil Lines (Bhawani Singh Road)",
+    "photo": "https://images.pexels.com/photos/32261804/pexels-photo-32261804.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+  },
+  {
+    "slug": "amalfi-coast",
+    "city": "The Amalfi Coast",
+    "country": "Italy",
+    "name": "Il San Pietro di Positano",
+    "area": "Positano",
+    "photo": "https://images.pexels.com/photos/35493478/pexels-photo-35493478.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+  },
+  {
+    "slug": "sydney",
+    "city": "Sydney",
+    "country": "Australia",
+    "name": "Capella Sydney",
+    "area": "CBD (Circular Quay / Loftus Street)",
+    "photo": "https://images.pexels.com/photos/26834515/pexels-photo-26834515.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+  },
+  {
+    "slug": "new-york",
+    "city": "New York",
+    "country": "USA",
+    "name": "Aman New York",
+    "area": "Midtown / Fifth Avenue",
+    "photo": "https://images.pexels.com/photos/29073691/pexels-photo-29073691.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+  },
+  {
+    "slug": "istanbul",
+    "city": "Istanbul",
+    "country": "Türkiye",
+    "name": "Four Seasons Hotel Istanbul at Sultanahmet",
+    "area": "Sultanahmet",
+    "photo": "https://images.pexels.com/photos/34432900/pexels-photo-34432900.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+  },
+  {
+    "slug": "goa",
+    "city": "Goa",
+    "country": "India",
+    "name": "The St. Regis Goa Resort",
+    "area": "South Goa (Cavelossim)",
+    "photo": "https://images.pexels.com/photos/9228503/pexels-photo-9228503.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+  },
+  {
+    "slug": "lisbon",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "name": "Four Seasons Hotel Ritz Lisbon",
+    "area": "Avenida da Liberdade / Marquês de Pombal",
+    "photo": "https://images.pexels.com/photos/37122731/pexels-photo-37122731.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+  },
+  {
+    "slug": "lake-como",
+    "city": "Lake Como",
+    "country": "Italy",
+    "name": "Villa d'Este",
+    "area": "Cernobbio",
+    "photo": "https://images.pexels.com/photos/28267250/pexels-photo-28267250.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+  }
+]

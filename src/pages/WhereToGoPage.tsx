@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import wheretogoData from "../data/wheretogo.generated.json";
 import type { WhereToGoPageData } from "../types/wheretogo";
 import { useNavVariant } from "../lib/navVariant";
@@ -45,6 +45,9 @@ const MONTHS_FOLLOW: Group = {
 };
 const OCCASION: Group = { group: "occasion", multi: false, labelHtml: "What's the <b>occasion</b>?", options: mk(["Honeymoon", "Anniversary", "Just us"]) };
 const AGES: Group = { group: "ages", multi: true, labelHtml: "How old are the <b>children</b>? <span style=\"font-size:14px;color:var(--stone)\">pick any</span>", options: mk(["Under 5", "5 to 12", "Teens"]) };
+// Multi-generation trips (2026-11-13, direct request): the option was "Several generations", which read oddly and
+// asked nothing more. Now it says who is in the party and asks who is coming along.
+const GENERATIONS: Group = { group: "gens", multi: true, labelHtml: 'Who is <b>coming along</b>? <span style="font-size:14px;color:var(--stone)">pick any</span>', options: mk(["Grandparents", "Parents", "Young children", "Teens", "Aunts, uncles and cousins"]) };
 const GROUP_SIZE: Group = { group: "groupsize", multi: false, labelHtml: "How many of <b>you</b>?", options: mk(["3 to 4", "5 to 8", "9 or more"]) };
 
 const STEPS: Step[] = [
@@ -62,16 +65,20 @@ const STEPS: Step[] = [
     group: "who",
     multi: false,
     labelHtml: data.questions[1].labelHtml ?? "",
-    options: mk(["Just me", "Two of us", "Family with children", "Several generations", "A group of friends"]),
-    follow: (single) => (single.who === "Two of us" ? OCCASION : single.who === "Family with children" ? AGES : single.who === "A group of friends" ? GROUP_SIZE : null),
+    options: mk(["Just me", "Two of us", "Family with children", "Grandparents, parents and children", "A group of friends"]),
+    follow: (single) => (single.who === "Two of us" ? OCCASION : single.who === "Family with children" ? AGES : single.who === "Grandparents, parents and children" ? GENERATIONS : single.who === "A group of friends" ? GROUP_SIZE : null),
   },
   { group: "vibe", multi: true, labelHtml: data.questions[2].labelHtml ?? "", options: fromData(2) },
   { group: "length", multi: false, labelHtml: data.questions[3].labelHtml ?? "", options: fromData(3) },
   { group: "budget", multi: false, labelHtml: data.questions[4].labelHtml ?? "", options: fromData(4) },
 ];
-const ALL_GROUPS: Group[] = [...STEPS, MONTHS_FOLLOW, OCCASION, AGES, GROUP_SIZE];
+// "Send to my advisor" hands the answers to the chat instead of posting an enquiry.
+const CHAT_HANDOFF = true as boolean;
+const CHAT_HANDOFF_KEY = "ta-chat-prefill";
+
+const ALL_GROUPS: Group[] = [...STEPS, MONTHS_FOLLOW, OCCASION, AGES, GENERATIONS, GROUP_SIZE];
 // Answers that depend on another answer, cleared when that answer changes.
-const DEPENDENTS: Record<string, string[]> = { when: ["month"], who: ["occasion", "ages", "groupsize"] };
+const DEPENDENTS: Record<string, string[]> = { when: ["month"], who: ["occasion", "ages", "gens", "groupsize"] };
 
 export default function WhereToGoPage() {
   useNavVariant("solid");
@@ -79,8 +86,23 @@ export default function WhereToGoPage() {
   const desk = !useIsMobile();
   const { signedIn } = useAuth();
   const signInModal = useSignInModal();
-  const [send, setSend] = useState<SendState>("idle");
-  const [summary, setSummary] = useState<{ k: string; v: string }[]>([]);
+  const navigate = useNavigate();
+  // Preview helper (2026-11-13): /where-to-go?preview=sent or ?preview=failed shows the card's
+  // confirmation / error state without sending anything. Harmless; remove when no longer wanted.
+  const preview = typeof window !== "undefined" ? new URLSearchParams(window.location.search).get("preview") : null;
+  const [send, setSend] = useState<SendState>(preview === "sent" ? "sent" : preview === "failed" ? "failed" : "idle");
+  const [summary, setSummary] = useState<{ k: string; v: string }[]>(
+    preview === "sent"
+      ? [
+          { k: "When", v: "Flexible" },
+          { k: "Who", v: "Two of us" },
+          { k: "Occasion", v: "Honeymoon" },
+          { k: "Mood", v: "Beach & Sun, Romance" },
+          { k: "How long", v: "A week" },
+          { k: "Budget", v: "₹4-7L" },
+        ]
+      : []
+  );
   const resultRef = useRef<HTMLDivElement>(null);
   // Guided questionnaire (2026-11-10, direct request): one question at a time, Back / Next.
   const [step, setStep] = useState(0);
@@ -131,7 +153,7 @@ export default function WhereToGoPage() {
 
   async function sendToAdvisor() {
     if (send === "sending" || send === "sent") return;
-    if (!signedIn) {
+    if (!CHAT_HANDOFF && !signedIn) {
       signInModal.open("Sign in so your advisor can call you about this trip.");
       return;
     }
@@ -139,6 +161,7 @@ export default function WhereToGoPage() {
     const who = picked("who")[0];
     const occasion = picked("occasion")[0];
     const ages = picked("ages");
+    const gens = picked("gens");
     const groupSize = picked("groupsize")[0];
     const mood = picked("vibe");
     const length = picked("length")[0];
@@ -148,11 +171,28 @@ export default function WhereToGoPage() {
       { k: "Who", v: who },
       { k: "Occasion", v: occasion },
       { k: "Children", v: ages.join(", ") },
+      { k: "Travelling together", v: gens.join(", ") },
       { k: "Group size", v: groupSize },
       { k: "Mood", v: mood.join(", ") },
       { k: "How long", v: length },
       { k: "Budget", v: budget },
     ].filter((r) => r.v);
+    // 2026-11-13 (direct request): "Send to my advisor" opens the chat and sends these answers as the
+    // visitor's first message, so the conversation starts for them. The text goes through
+    // sessionStorage (not the URL). The enquiry POST below is kept as the fallback (CHAT_HANDOFF = false).
+    if (CHAT_HANDOFF) {
+      const text = [
+        "Hi, I'd like help working out where to go. Here are my answers.",
+        ...rows.map((r) => `${r.k}: ${r.v}.`),
+      ].join(" ");
+      try {
+        sessionStorage.setItem(CHAT_HANDOFF_KEY, JSON.stringify({ text, send: true }));
+      } catch {
+        /* storage blocked: the chat just opens empty */
+      }
+      navigate("/concierge?from=where-to-go");
+      return;
+    }
     setSummary(rows);
     setSend("sending");
     try {
@@ -164,7 +204,7 @@ export default function WhereToGoPage() {
           dates: when || undefined,
           trip_type: who || undefined,
           budget: budget ? `${budget} (per couple per week)` : undefined,
-          notes: ["From the \"Where should you go?\" questions.", mood.length ? `Mood: ${mood.join(", ")}.` : "", occasion ? `Occasion: ${occasion}.` : "", ages.length ? `Children's ages: ${ages.join(", ")}.` : "", groupSize ? `Group size: ${groupSize}.` : "", length ? `Length: ${length}.` : ""]
+          notes: ["From the \"Where should you go?\" questions.", mood.length ? `Mood: ${mood.join(", ")}.` : "", occasion ? `Occasion: ${occasion}.` : "", ages.length ? `Children's ages: ${ages.join(", ")}.` : "", gens.length ? `Travelling together: ${gens.join(", ")}.` : "", groupSize ? `Group size: ${groupSize}.` : "", length ? `Length: ${length}.` : ""]
             .filter(Boolean)
             .join(" "),
         }),
@@ -221,7 +261,7 @@ export default function WhereToGoPage() {
             }
             if (desk && send === "failed") {
               return (
-                <div className={styles.wtgPanel} role="alert">
+                <div className={`${styles.wtgPanel} ${styles.wtgPanelAlert}`} role="alert">
                   <div className={styles.wtgSent}>
                     <div className="eyebrow">Not sent</div>
                     <h2>

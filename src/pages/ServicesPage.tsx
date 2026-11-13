@@ -4,10 +4,12 @@ import servicesData from "../data/services-page.generated.json";
 import type { ServicesPageData } from "../types/services-page";
 import { useScrollReveal } from "../lib/useScrollReveal";
 import { toRoute } from "../lib/toRoute";
-import styles from "./services-page.module.css";
+import { PrimaryInverseButton, SecondaryInverseButton } from "../components/buttons/InverseButtons";
+// import styles from "./services-page.module.css"; // layout now uses the shared rf-* styles (css/refresh.css)
 
 const data = servicesData as unknown as ServicesPageData;
 
+// Design refresh (2026-11-13, direct request): same treatment as Flights, Hotels, Visas, Protection and About.
 export default function ServicesPage() {
   useEffect(() => {
     if (data.seo.title) document.title = data.seo.title;
@@ -16,125 +18,101 @@ export default function ServicesPage() {
   useScrollReveal([]);
 
   const { hero, services, pq, whyOnlyThree, health, signature } = data;
+  void pq;
 
   return (
     <main>
-      <header className="hero left hero-ed" style={{ backgroundImage: `url('${hero.image}')`, backgroundPosition: "58% 42%" }}>
-        <div className="wrap hero-inner">
-          <div className="hs-copy">
+      <header className="rf-hero" style={{ backgroundImage: `linear-gradient(90deg, rgba(8,6,5,.82) 0%, rgba(8,6,5,.6) 45%, rgba(8,6,5,.4) 100%), url('${hero.image}')` }}>
+        <div className="wrap">
+          <div className="rf-hero-copy">
             <div className="eyebrow on-dark reveal">{hero.eyebrow}</div>
             <div className="rule reveal d1" />
-            <h1 className="reveal d1" dangerouslySetInnerHTML={{ __html: hero.headingHtml ?? "" }} />
-            <p className="lede on-dark reveal d2" style={{ marginTop: 22 }}>
-              {hero.lede}
-            </p>
-            <div className="hero-cta-row reveal d3">
-              <Link className="btn btn-gold on-dark btn-square" to={toRoute(hero.ctaGold.href)}>
-                {hero.ctaGold.label}
-              </Link>
-              <Link className="hero-textlink" to={toRoute(hero.ctaText.href)}>
-                {hero.ctaText.label}
-              </Link>
+            <h1 className="display reveal d1" dangerouslySetInnerHTML={{ __html: hero.headingHtml ?? "" }} />
+            <p className="lede on-dark reveal d2">{hero.lede}</p>
+            <div className="btn-row rf-hero-btns reveal d3">
+              <PrimaryInverseButton to="destinations.html">Find my trip</PrimaryInverseButton>
+              <SecondaryInverseButton to="concierge.html">Chat with us</SecondaryInverseButton>
             </div>
           </div>
         </div>
-        <div className="scrolldown">Scroll</div>
       </header>
 
       {services.map((svc, i) => (
         <section className={i === 1 ? "band tight" : "band"} style={i === 1 ? { background: "var(--bone)" } : undefined} id={svc.id ?? undefined} key={i}>
-          <div className={svc.flip ? `wrap ${styles.svcBlock} ${styles.flip}` : `wrap ${styles.svcBlock}`}>
-            {svc.flip && (
-              <div className="reveal d2">
-                <img className="svc-img" src={svc.image} loading="lazy" decoding="async" alt={svc.imageAlt ?? ""} />
-              </div>
-            )}
-            <div className="reveal">
-              <span className={styles.svcNo}>{svc.no}</span>
-              <div className="eyebrow">{svc.eyebrow}</div>
+          <div className={`wrap rf-split${i % 2 === 1 ? " rev" : ""}`}>
+            <div className="rf-pic reveal" style={{ backgroundImage: `url('${svc.image}')` }} role="img" aria-label={svc.imageAlt ?? undefined} />
+            <div className="reveal d1">
+              <div className="eyebrow">{svc.no ? `${svc.no} · ` : ""}{svc.eyebrow}</div>
               <div className="rule" />
-              <h2 style={{ fontSize: "clamp(30px,3.6vw,54px)" }} dangerouslySetInnerHTML={{ __html: svc.headingHtml ?? "" }} />
-              <p className="lede" style={{ marginTop: 18 }}>
+              <h2 style={{ fontSize: "clamp(28px,3.4vw,46px)" }} dangerouslySetInnerHTML={{ __html: svc.headingHtml ?? "" }} />
+              <p className="lede" style={{ marginTop: 16 }}>
                 {svc.lede}
               </p>
-              <ul className="incl" style={{ marginTop: 24, maxWidth: "none" }}>
+              <ul className="rf-checks">
                 {svc.items.map((it, ii) => (
                   <li key={ii}>
-                    <span className="ck">✦</span>
+                    <span aria-hidden="true">✓</span>
                     <span dangerouslySetInnerHTML={{ __html: it ?? "" }} />
                   </li>
                 ))}
               </ul>
-              <Link className="cta" to={toRoute(svc.cta.href)}>
-                {svc.cta.label}
-              </Link>
-            </div>
-            {!svc.flip && (
-              <div className="reveal d2">
-                <img className="svc-img" src={svc.image} loading="lazy" decoding="async" alt={svc.imageAlt ?? ""} />
+              <div className="btn-row" style={{ marginTop: 26 }}>
+                <Link className="btn btn-gold" to={toRoute(svc.cta.href)}>
+                  {svc.cta.label}
+                </Link>
               </div>
-            )}
+            </div>
           </div>
         </section>
       ))}
 
-      <section className="band tight">
-        <div className="wrap">
-          <div className="pq reveal">
-            <p>{pq}</p>
+      {/* Pull quote ("The welcome that tells you that you were expected.") hidden 2026-11-13, in line with the other pages. */}
+      {false && (
+        <section className="band tight">
+          <div className="wrap">
+            <div className="pq">
+              <p>{pq}</p>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      )}
 
       <section className="band tight" style={{ background: "var(--bone)" }}>
-        <div className="wrap" style={{ maxWidth: 980 }}>
-          <div className="eyebrow reveal">{whyOnlyThree.eyebrow}</div>
-          <div className="rule reveal d1" />
-          <h2 className="quote reveal d1" style={{ margin: 0 }} dangerouslySetInnerHTML={{ __html: whyOnlyThree.headingHtml ?? "" }} />
-          <p className="lede reveal d2" style={{ margin: "26px 0 0", maxWidth: "54ch" }}>
-            {whyOnlyThree.lede}
-          </p>
+        <div className="wrap">
+          <div className="rf-head reveal">
+            <div className="eyebrow">{whyOnlyThree.eyebrow}</div>
+            <div className="rule" />
+            <h2 dangerouslySetInnerHTML={{ __html: whyOnlyThree.headingHtml ?? "" }} />
+            <p className="lede">{whyOnlyThree.lede}</p>
+          </div>
         </div>
       </section>
 
       <section className="band tight" id="health">
         <div className="wrap">
-          <div className={`${styles.svcAside} reveal`}>
-            <div>
-              <div className="tag">{health.tag}</div>
-              <h3 dangerouslySetInnerHTML={{ __html: health.headingHtml ?? "" }} />
-              <p>{health.body}</p>
-              <p className={styles.asideNote}>{health.note}</p>
-              <Link className="cta" to={toRoute(health.cta.href)}>
+          <div className="rf-tile reveal" style={{ padding: "clamp(24px,3vw,40px)" }}>
+            <div className="rf-label">{health.tag}</div>
+            <h3 style={{ fontSize: "clamp(24px,2.6vw,34px)" }} dangerouslySetInnerHTML={{ __html: health.headingHtml ?? "" }} />
+            <p style={{ marginTop: 12, maxWidth: "70ch" }}>{health.body}</p>
+            <p className="rf-note">{health.note}</p>
+            <p style={{ marginTop: 16, maxWidth: "70ch" }}>{health.asideLede}</p>
+            <div className="btn-row" style={{ marginTop: 22 }}>
+              <Link className="btn btn-gold" to={toRoute(health.cta.href)}>
                 {health.cta.label}
               </Link>
-            </div>
-            <div>
-              <p className="lede" style={{ margin: 0 }}>
-                {health.asideLede}
-              </p>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="signature" style={{ backgroundImage: `url('${signature.image}')` }}>
+      <section className="rf-sig" style={{ backgroundImage: `url('${signature.image}')` }}>
         <div className="wrap">
-          <div className={`${styles.sigEyebrow} reveal`}>{signature.eyebrow}</div>
-          <p className={`${styles.sigLine} reveal d1`} dangerouslySetInnerHTML={{ __html: signature.lineHtml ?? "" }} />
-          <p className={`${styles.sigSub} lede reveal d2`}>{signature.sub}</p>
-          <div className="btn-row center reveal d3" style={{ marginTop: 32 }}>
-            {signature.buttons.map((b, i) =>
-              i === 0 ? (
-                <Link className="btn btn-gold on-dark btn-square" to={toRoute(b.href)} key={i}>
-                  {b.label}
-                </Link>
-              ) : (
-                <Link className="hero-textlink" to={toRoute(b.href)} key={i}>
-                  {b.label}
-                </Link>
-              )
-            )}
+          <div className="eyebrow reveal">{signature.eyebrow}</div>
+          <div className="rule center reveal d1" />
+          <h2 className="reveal d1" dangerouslySetInnerHTML={{ __html: signature.lineHtml ?? "" }} />
+          <p className="lede reveal d2">{signature.sub}</p>
+          <div className="btn-row center reveal d2" style={{ marginTop: 28 }}>
+            <PrimaryInverseButton to="concierge.html">Plan a trip</PrimaryInverseButton>
           </div>
         </div>
       </section>

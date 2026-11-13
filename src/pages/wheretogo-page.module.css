@@ -148,3 +148,25 @@
 .wtg-panel .wtg-summary{justify-content:center}
 .wtg-panel .wtg-summary div{text-align:center}
 .wtg-panel-btns{justify-content:center}
+
+/* Selected option: maroon outline with a subtle fill, not solid black (2026-11-13). */
+html .wtg-opt:global(.on),html .wtg-opt:global(.on):hover{background:rgba(110,42,56,.08);border-color:var(--signature,#6E2A38);color:var(--signature,#6E2A38)}
+html .wtg-opt:hover{border-color:var(--signature,#6E2A38)}
+/* Tighter follow-up block so a second row of options never needs a scrollbar */
+.wtg-follow{margin-top:clamp(10px,1.8svh,18px)}
+.wtg-card .wtg-opts{gap:8px}
+
+/* Taller card so the longest answer plus its follow-up fits without scrolling (2026-11-13). */
+html .wtg-card{height:clamp(450px,60svh,590px)}
+@media(max-width:900px){html .wtg-card{height:auto;min-height:480px}}
+
+/* Main button (Next / Send to my advisor): black by default (2026-11-13). */
+html .wtg-nav :global(.btn-gold){background:var(--ink,#1A1714);color:#fff;border-color:var(--ink,#1A1714)}
+html .wtg-nav :global(.btn-gold:hover){background:var(--ink,#1A1714);color:#fff;border-color:var(--ink,#1A1714)}
+
+/* Confirmation and error panels: same primary / secondary buttons as Back / Next (2026-11-13). */
+.wtg-panel-btns :global(.btn){flex:none;min-width:150px;padding:15px 30px!important}
+html .wtg-panel-btns :global(.btn-gold),html .wtg-panel-btns :global(.btn-gold:hover){background:var(--ink,#1A1714);color:#fff;border-color:var(--ink,#1A1714)}
+
+/* Error panel: all sans-serif and black, no serif italic accent (2026-11-13). */
+html .wtg-panel-alert h2 :global(.it),html .wtg-panel-alert h2 em{font-family:inherit !important;font-style:normal !important;font-weight:inherit !important;color:inherit !important;letter-spacing:inherit !important}

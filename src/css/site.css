@@ -3401,6 +3401,12 @@ main > section[id], main > header[id]{scroll-margin-top:64px}
   .band-dark .btn-row{flex-direction:column;align-items:stretch;gap:12px;width:100%;max-width:320px;margin-left:auto;margin-right:auto}
   .band-dark .btn-row>*{flex:none;width:100%;box-sizing:border-box;white-space:nowrap}
 }
+/* 2026-11-13 (direct request): the closing CTA buttons sit side by side and span
+   the page margin to margin (replaces the stacked, 320px-wide pair above). */
+@media(max-width:720px){
+  html .band-dark .btn-row{flex-direction:row;flex-wrap:nowrap;align-items:stretch;gap:10px;width:100%;max-width:none;margin-left:0;margin-right:0}
+  html .band-dark .btn-row>*{flex:1 1 0;width:auto;min-width:0;white-space:normal;display:flex;align-items:center;justify-content:center;padding-left:8px!important;padding-right:8px!important}
+}
 
 /* iOS Safari zooms the page in whenever a field under 16px gets focus — the
    header search (14px) did it on every page. Every text field, select and
@@ -3504,3 +3510,32 @@ main > section[id], main > header[id]{scroll-margin-top:64px}
   .ta-advisor-inner,
   .ta-advisor-label { transition: none; }
 }
+
+/* Phone: text-link buttons are underlined by default (2026-11-13, direct request).
+   There is no hover state on touch, so the underline that normally grows on hover
+   is always drawn. Covers .cta, .go, .hero-textlink, every page's *-textlink, and
+   the home hero's tertiary link. */
+@media(max-width:900px){
+  html .cta,html .go,html [class*="extlink"],html [class*="heroCtaTertiary"],html .decCard .go{background-size:100% 1px !important}
+}
+
+/* Every button: only the text inside grows on hover, the button itself stays put (2026-11-13,
+   direct request), the same as the home hero's "Find my trip" / "Chat with us" (InverseButtons:
+   an inner label scaled 1.1). lib/buttonHoverScale.ts wraps a hovered button's content in
+   .ta-btn-lbl; the hero pair already has its own label and is skipped. */
+.ta-btn-lbl{display:inline-flex;align-items:center;justify-content:center;gap:inherit;transform:scale(1);transition:transform .4s var(--ease)}
+.btn:hover .ta-btn-lbl.ta-btn-lbl-go,[data-grow]:hover .ta-btn-lbl.ta-btn-lbl-go{transform:scale(1.1)}
+@media(prefers-reduced-motion:reduce){.ta-btn-lbl{transition:none}}
+
+/* 2026-11-13 (direct request), two typography rules:
+   1) Text-on-photo bands (signature bands and the closing photo bands) are fully serif, medium, no italics.
+   2) Hero sections on every page: a sans-serif medium heading with the accent word in serif italic. */
+html .sig h2,html .sig .display,html .sig [class*="pull"],html .sig .pull,html .sig [class*="sig-line"],
+html .signature h2,html .signature [class*="sig-line"],html .signature [class*="pull"],
+html .band-dark h2,html .band-dark .display{font-family:var(--serif)!important;font-weight:500!important}
+html .sig .it,html .sig em,html .signature .it,html .signature em,html .band-dark h2 .it,html .band-dark h2 em,html .band-dark .display .it{font-style:normal!important;font-family:inherit!important;font-weight:inherit!important}
+
+html .hero :is(h1,.display),html [class*="hero"] :is(h1,.display){font-family:var(--logo)!important;font-weight:500!important}
+html .hero :is(h1,.display) :is(.it,em,i),html [class*="hero"] :is(h1,.display) :is(.it,em,i){font-family:var(--serif)!important;font-style:italic!important;font-weight:500!important}
+/* Where to go: the intro above the card is that page's hero. */
+html [class*="wtg-intro"] :is(h1,.display){font-family:var(--logo)!important;font-weight:500!important}

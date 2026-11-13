@@ -106,10 +106,6 @@
     "lede": "One named advisor, rails trusted by India's most established houses, and a single conviction: you should be looked after, all the way home.",
     "buttons": [
       {
-        "label": "Become a member",
-        "href": "join.html"
-      },
-      {
         "label": "How it works",
         "href": "how-it-works.html"
       }

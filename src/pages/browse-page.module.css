@@ -20,3 +20,13 @@
 .br-links{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
 .br-link{font-family:var(--logo);font-weight:500;font-size:clamp(18px,1.8vw,22px);color:var(--ink,#1A1714);text-decoration:none;border:1px solid var(--line,#E3E2DD);border-radius:999px;padding:9px 20px;transition:all .2s var(--ease)}
 .br-link:hover{border-color:var(--accent-2);color:var(--accent-2)}
+
+/* Photo hero, all white text; results use the Destinations region layout (2026-11-13) */
+html .br-hero{background:linear-gradient(rgba(8,6,5,.66),rgba(8,6,5,.66)),var(--br-img) center/cover no-repeat;padding:clamp(120px,18vh,200px) 0 clamp(70px,10vh,120px)}
+html .br-hero :global(.eyebrow),html .br-hero h1,html .br-hero p{color:#fff !important}
+.br-results{max-width:1200px;margin:0 auto;padding:clamp(30px,4vw,56px) var(--gutter) clamp(50px,8vw,100px)}
+
+/* Tighter top: results sit closer to the hero (2026-11-13) */
+html .br-results{padding-top:clamp(28px,3vw,44px)}
+.br-results form[role="search"]{margin-top:0 !important}
+.br-results [class*="csTopRow"]{margin-top:0}

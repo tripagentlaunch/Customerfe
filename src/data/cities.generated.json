@@ -17,7 +17,7 @@
       "tagline": "Stately capital of mosques, museums and quiet luxury.",
       "ctaPrimary": {
         "label": "Plan Abu Dhabi",
-        "href": "enquire.html?dest=abu-dhabi"
+        "href": "concierge.html?plan=abu-dhabi"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -1460,7 +1460,7 @@
       "tagline": "The Mughal city forever crowned by the Taj Mahal.",
       "ctaPrimary": {
         "label": "Plan Agra",
-        "href": "enquire.html?dest=agra"
+        "href": "concierge.html?plan=agra"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -2408,7 +2408,7 @@
       "tagline": "The Venice of the East amid Kerala's backwaters.",
       "ctaPrimary": {
         "label": "Plan Alleppey",
-        "href": "enquire.html?dest=alleppey"
+        "href": "concierge.html?plan=alleppey"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -3316,7 +3316,7 @@
       "tagline": "Vertiginous cliffs, pastel villages and impossibly blue sea.",
       "ctaPrimary": {
         "label": "Plan The Amalfi Coast",
-        "href": "enquire.html?dest=amalfi-coast"
+        "href": "concierge.html?plan=amalfi-coast"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -4713,7 +4713,7 @@
       "tagline": "Hills of Roman ruins above the road to Petra.",
       "ctaPrimary": {
         "label": "Plan Amman & Petra",
-        "href": "enquire.html?dest=amman-petra"
+        "href": "concierge.html?plan=amman-petra"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -5820,7 +5820,7 @@
       "tagline": "Spiritual heart of the Sikhs around the Golden Temple.",
       "ctaPrimary": {
         "label": "Plan Amritsar",
-        "href": "enquire.html?dest=amritsar"
+        "href": "concierge.html?plan=amritsar"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -6753,7 +6753,7 @@
       "tagline": "Golden Age canals, gabled houses and easy sophistication.",
       "ctaPrimary": {
         "label": "Plan Amsterdam",
-        "href": "enquire.html?dest=amsterdam"
+        "href": "concierge.html?plan=amsterdam"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -7884,7 +7884,7 @@
       "tagline": "Coral seas, white sands and dense tropical island calm.",
       "ctaPrimary": {
         "label": "Plan Andaman Islands",
-        "href": "enquire.html?dest=andaman"
+        "href": "concierge.html?plan=andaman"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -8846,7 +8846,7 @@
       "tagline": "The ancient cradle of democracy beneath the Acropolis.",
       "ctaPrimary": {
         "label": "Plan Athens",
-        "href": "enquire.html?dest=athens"
+        "href": "concierge.html?plan=athens"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -9987,7 +9987,7 @@
       "tagline": "City of sails between two harbours and green volcanoes.",
       "ctaPrimary": {
         "label": "Plan Auckland",
-        "href": "enquire.html?dest=auckland"
+        "href": "concierge.html?plan=auckland"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -11077,7 +11077,7 @@
       "tagline": "Temple-strewn rice terraces, surf coasts and spiritual calm.",
       "ctaPrimary": {
         "label": "Plan Bali",
-        "href": "enquire.html?dest=bali"
+        "href": "concierge.html?plan=bali"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -12577,7 +12577,7 @@
       "tagline": "Gilded temples, river palaces and endless street feasts.",
       "ctaPrimary": {
         "label": "Plan Bangkok",
-        "href": "enquire.html?dest=bangkok"
+        "href": "concierge.html?plan=bangkok"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -14124,7 +14124,7 @@
       "tagline": "Gaudi's seaside capital of Catalan art and appetite.",
       "ctaPrimary": {
         "label": "Plan Barcelona",
-        "href": "enquire.html?dest=barcelona"
+        "href": "concierge.html?plan=barcelona"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -15616,7 +15616,7 @@
       "tagline": "India's garden city and easy-living tech capital.",
       "ctaPrimary": {
         "label": "Plan Bengaluru",
-        "href": "enquire.html?dest=bengaluru"
+        "href": "concierge.html?plan=bengaluru"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -16672,7 +16672,7 @@
       "tagline": "Imperial grandeur and thermal baths astride the Danube.",
       "ctaPrimary": {
         "label": "Plan Budapest",
-        "href": "enquire.html?dest=budapest"
+        "href": "concierge.html?plan=budapest"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -17729,7 +17729,7 @@
       "tagline": "A European-grand capital of tango, beef and late nights.",
       "ctaPrimary": {
         "label": "Plan Buenos Aires",
-        "href": "enquire.html?dest=buenos-aires"
+        "href": "concierge.html?plan=buenos-aires"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -18865,7 +18865,7 @@
       "tagline": "Pyramids, the Nile and a thousand years of empire.",
       "ctaPrimary": {
         "label": "Plan Cairo",
-        "href": "enquire.html?dest=cairo"
+        "href": "concierge.html?plan=cairo"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -19886,7 +19886,7 @@
       "tagline": "Turquoise Caribbean shallows along a coast of Maya antiquity.",
       "ctaPrimary": {
         "label": "Plan Cancún",
-        "href": "enquire.html?dest=cancun"
+        "href": "concierge.html?plan=cancun"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -20990,7 +20990,7 @@
       "tagline": "Table Mountain, two oceans and the winelands at its feet.",
       "ctaPrimary": {
         "label": "Plan Cape Town",
-        "href": "enquire.html?dest=cape-town"
+        "href": "concierge.html?plan=cape-town"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -22408,7 +22408,7 @@
       "tagline": "Fairy-chimney valleys drifting with dawn balloons.",
       "ctaPrimary": {
         "label": "Plan Cappadocia",
-        "href": "enquire.html?dest=cappadocia"
+        "href": "concierge.html?plan=cappadocia"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -23376,7 +23376,7 @@
       "tagline": "Temple gateways, Carnatic music and a long Bay of Bengal shore.",
       "ctaPrimary": {
         "label": "Plan Chennai",
-        "href": "enquire.html?dest=chennai"
+        "href": "concierge.html?plan=chennai"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -24439,7 +24439,7 @@
       "tagline": "Sri Lanka's seafront capital, colonial bones and Indian Ocean spice.",
       "ctaPrimary": {
         "label": "Plan Colombo",
-        "href": "enquire.html?dest=colombo"
+        "href": "concierge.html?plan=colombo"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -25397,7 +25397,7 @@
       "tagline": "Hygge, design and the world's New Nordic kitchen.",
       "ctaPrimary": {
         "label": "Plan Copenhagen",
-        "href": "enquire.html?dest=copenhagen"
+        "href": "concierge.html?plan=copenhagen"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -26501,7 +26501,7 @@
       "tagline": "The Inca capital and gateway to Machu Picchu's heights.",
       "ctaPrimary": {
         "label": "Plan Cusco & Machu Picchu",
-        "href": "enquire.html?dest=cusco"
+        "href": "concierge.html?plan=cusco"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -27604,7 +27604,7 @@
       "tagline": "Tea gardens, the toy train and Kanchenjunga at dawn.",
       "ctaPrimary": {
         "label": "Plan Darjeeling",
-        "href": "enquire.html?dest=darjeeling"
+        "href": "concierge.html?plan=darjeeling"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -28607,7 +28607,7 @@
       "tagline": "Mughal grandeur and leafy avenues at India's imperial capital.",
       "ctaPrimary": {
         "label": "Plan New Delhi",
-        "href": "enquire.html?dest=delhi"
+        "href": "concierge.html?plan=delhi"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -29661,7 +29661,7 @@
       "tagline": "Gulf capital of bold museums and desert sea.",
       "ctaPrimary": {
         "label": "Plan Doha",
-        "href": "enquire.html?dest=doha"
+        "href": "concierge.html?plan=doha"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -30924,7 +30924,7 @@
       "tagline": "Desert spectacle and skyline glamour at full throttle.",
       "ctaPrimary": {
         "label": "Plan Dubai",
-        "href": "enquire.html?dest=dubai"
+        "href": "concierge.html?plan=dubai"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -32764,7 +32764,7 @@
       "tagline": "Georgian grace, literary spirit and warm convivial pubs.",
       "ctaPrimary": {
         "label": "Plan Dublin",
-        "href": "enquire.html?dest=dublin"
+        "href": "concierge.html?plan=dublin"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -33830,7 +33830,7 @@
       "tagline": "The walled Adriatic city of marble streets and sea.",
       "ctaPrimary": {
         "label": "Plan Dubrovnik",
-        "href": "enquire.html?dest=dubrovnik"
+        "href": "concierge.html?plan=dubrovnik"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -34803,7 +34803,7 @@
       "tagline": "A dramatic stone capital of castle, crag and Enlightenment.",
       "ctaPrimary": {
         "label": "Plan Edinburgh",
-        "href": "enquire.html?dest=edinburgh"
+        "href": "concierge.html?plan=edinburgh"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -35927,7 +35927,7 @@
       "tagline": "The cradle of the Renaissance, set in Tuscan hills.",
       "ctaPrimary": {
         "label": "Plan Florence",
-        "href": "enquire.html?dest=florence"
+        "href": "concierge.html?plan=florence"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -37301,7 +37301,7 @@
       "tagline": "A ramparted Dutch fort town, gem of Sri Lanka's south coast.",
       "ctaPrimary": {
         "label": "Plan Galle",
-        "href": "enquire.html?dest=galle"
+        "href": "concierge.html?plan=galle"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -38265,7 +38265,7 @@
       "tagline": "Diplomacy, watchmaking and a lake framed by Mont Blanc",
       "ctaPrimary": {
         "label": "Plan Geneva",
-        "href": "enquire.html?dest=geneva"
+        "href": "concierge.html?plan=geneva"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -39317,7 +39317,7 @@
       "tagline": "Sun-bleached beaches, Portuguese churches and a barefoot pulse.",
       "ctaPrimary": {
         "label": "Plan Goa",
-        "href": "enquire.html?dest=goa"
+        "href": "concierge.html?plan=goa"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -40358,7 +40358,7 @@
       "tagline": "Lakeside temples, French boulevards and old-quarter bustle.",
       "ctaPrimary": {
         "label": "Plan Hanoi",
-        "href": "enquire.html?dest=hanoi"
+        "href": "concierge.html?plan=hanoi"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -41432,7 +41432,7 @@
       "tagline": "French colonial relics meet frenetic, neon-lit energy.",
       "ctaPrimary": {
         "label": "Plan Ho Chi Minh City",
-        "href": "enquire.html?dest=ho-chi-minh-city"
+        "href": "concierge.html?plan=ho-chi-minh-city"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -42481,7 +42481,7 @@
       "tagline": "Lantern-lit heritage town beside Da Nang's golden coast.",
       "ctaPrimary": {
         "label": "Plan Hoi An & Da Nang",
-        "href": "enquire.html?dest=hoi-an"
+        "href": "concierge.html?plan=hoi-an"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -43474,7 +43474,7 @@
       "tagline": "Vertical glamour where harbour, peak and dim sum meet.",
       "ctaPrimary": {
         "label": "Plan Hong Kong",
-        "href": "enquire.html?dest=hong-kong"
+        "href": "concierge.html?plan=hong-kong"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -45172,7 +45172,7 @@
       "tagline": "Nizam splendour, biryani and a thriving tech metropolis.",
       "ctaPrimary": {
         "label": "Plan Hyderabad",
-        "href": "enquire.html?dest=hyderabad"
+        "href": "concierge.html?plan=hyderabad"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -46156,7 +46156,7 @@
       "tagline": "Where Europe meets Asia across the Bosphorus straits.",
       "ctaPrimary": {
         "label": "Plan Istanbul",
-        "href": "enquire.html?dest=istanbul"
+        "href": "concierge.html?plan=istanbul"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -47458,7 +47458,7 @@
       "tagline": "The pink city of Rajput palaces, bazaars and forts.",
       "ctaPrimary": {
         "label": "Plan Jaipur",
-        "href": "enquire.html?dest=jaipur"
+        "href": "concierge.html?plan=jaipur"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -48375,7 +48375,7 @@
       "tagline": "The golden fort-city rising from the Thar desert.",
       "ctaPrimary": {
         "label": "Plan Jaisalmer",
-        "href": "enquire.html?dest=jaisalmer"
+        "href": "concierge.html?plan=jaisalmer"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -49309,7 +49309,7 @@
       "tagline": "The blue city beneath Rajasthan's mightiest hill fort.",
       "ctaPrimary": {
         "label": "Plan Jodhpur",
-        "href": "enquire.html?dest=jodhpur"
+        "href": "concierge.html?plan=jodhpur"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -50230,7 +50230,7 @@
       "tagline": "A Himalayan valley of gilded temples, stupas and living heritage.",
       "ctaPrimary": {
         "label": "Plan Kathmandu",
-        "href": "enquire.html?dest=kathmandu"
+        "href": "concierge.html?plan=kathmandu"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -51097,7 +51097,7 @@
       "tagline": "Spice-trade port where colonial Kerala meets the sea.",
       "ctaPrimary": {
         "label": "Plan Kochi",
-        "href": "enquire.html?dest=kochi"
+        "href": "concierge.html?plan=kochi"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -52088,7 +52088,7 @@
       "tagline": "Colonial grandeur, Bengali arts and unhurried intellectual soul.",
       "ctaPrimary": {
         "label": "Plan Kolkata",
-        "href": "enquire.html?dest=kolkata"
+        "href": "concierge.html?plan=kolkata"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -53149,7 +53149,7 @@
       "tagline": "Towering karsts, jade waters and tranquil Andaman shores.",
       "ctaPrimary": {
         "label": "Plan Krabi",
-        "href": "enquire.html?dest=krabi"
+        "href": "concierge.html?plan=krabi"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -54120,7 +54120,7 @@
       "tagline": "Twin towers, colonial arcades and a melting-pot table.",
       "ctaPrimary": {
         "label": "Plan Kuala Lumpur",
-        "href": "enquire.html?dest=kuala-lumpur"
+        "href": "concierge.html?plan=kuala-lumpur"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -55353,7 +55353,7 @@
       "tagline": "Imperial temples, tea ritual and lacquered restraint.",
       "ctaPrimary": {
         "label": "Plan Kyoto",
-        "href": "enquire.html?dest=kyoto"
+        "href": "concierge.html?plan=kyoto"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -56591,7 +56591,7 @@
       "tagline": "Italy's most aristocratic lake, ringed by villa gardens.",
       "ctaPrimary": {
         "label": "Plan Lake Como",
-        "href": "enquire.html?dest=lake-como"
+        "href": "concierge.html?plan=lake-como"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -57783,7 +57783,7 @@
       "tagline": "Rainforest-clad isles, mangroves and tranquil Andaman beaches.",
       "ctaPrimary": {
         "label": "Plan Langkawi",
-        "href": "enquire.html?dest=langkawi"
+        "href": "concierge.html?plan=langkawi"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -58734,7 +58734,7 @@
       "tagline": "Neon desert spectacle of appetite, chance and showmanship.",
       "ctaPrimary": {
         "label": "Plan Las Vegas",
-        "href": "enquire.html?dest=las-vegas"
+        "href": "concierge.html?plan=las-vegas"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -59871,7 +59871,7 @@
       "tagline": "High-desert moonscape of monasteries and turquoise lakes.",
       "ctaPrimary": {
         "label": "Plan Leh-Ladakh",
-        "href": "enquire.html?dest=leh-ladakh"
+        "href": "concierge.html?plan=leh-ladakh"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -60919,7 +60919,7 @@
       "tagline": "A Pacific capital crowned by the world's finest kitchens.",
       "ctaPrimary": {
         "label": "Plan Lima",
-        "href": "enquire.html?dest=lima"
+        "href": "concierge.html?plan=lima"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -61985,7 +61985,7 @@
       "tagline": "Hills, tiles and Atlantic light over the river Tagus.",
       "ctaPrimary": {
         "label": "Plan Lisbon",
-        "href": "enquire.html?dest=lisbon"
+        "href": "concierge.html?plan=lisbon"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -63129,7 +63129,7 @@
       "tagline": "Imperial grandeur and restless reinvention along the Thames.",
       "ctaPrimary": {
         "label": "Plan London",
-        "href": "enquire.html?dest=london"
+        "href": "concierge.html?plan=london"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -65064,7 +65064,7 @@
       "tagline": "Sun-drenched sprawl of cinema, ocean and reinvention.",
       "ctaPrimary": {
         "label": "Plan Los Angeles",
-        "href": "enquire.html?dest=los-angeles"
+        "href": "concierge.html?plan=los-angeles"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -66493,7 +66493,7 @@
       "tagline": "Spain's grand capital of art, terraces and golden light.",
       "ctaPrimary": {
         "label": "Plan Madrid",
-        "href": "enquire.html?dest=madrid"
+        "href": "concierge.html?plan=madrid"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -67834,7 +67834,7 @@
       "tagline": "Granite-boulder beaches and jungle peaks on the Indian Ocean.",
       "ctaPrimary": {
         "label": "Plan Mahé",
-        "href": "enquire.html?dest=mahe-seychelles"
+        "href": "concierge.html?plan=mahe-seychelles"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -68825,7 +68825,7 @@
       "tagline": "Overwater villas and luminous lagoons across scattered coral atolls.",
       "ctaPrimary": {
         "label": "Plan Malé & the Atolls",
-        "href": "enquire.html?dest=male-maldives"
+        "href": "concierge.html?plan=male-maldives"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -70220,7 +70220,7 @@
       "tagline": "Snow peaks, apple orchards and the rushing Beas river.",
       "ctaPrimary": {
         "label": "Plan Manali",
-        "href": "enquire.html?dest=manali"
+        "href": "concierge.html?plan=manali"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -71197,7 +71197,7 @@
       "tagline": "Rose-red ramparts, palm gardens and the artisan's hand.",
       "ctaPrimary": {
         "label": "Plan Marrakech",
-        "href": "enquire.html?dest=marrakech"
+        "href": "concierge.html?plan=marrakech"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -72476,7 +72476,7 @@
       "tagline": "Indian Ocean island of lagoons, sugar fields and Creole flavour.",
       "ctaPrimary": {
         "label": "Plan Mauritius",
-        "href": "enquire.html?dest=mauritius-city"
+        "href": "concierge.html?plan=mauritius-city"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -73532,7 +73532,7 @@
       "tagline": "Laneway coffee, the arts and Australia's finest tables.",
       "ctaPrimary": {
         "label": "Plan Melbourne",
-        "href": "enquire.html?dest=melbourne"
+        "href": "concierge.html?plan=melbourne"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -74906,7 +74906,7 @@
       "tagline": "A high-altitude capital of grand boulevards and world-class kitchens.",
       "ctaPrimary": {
         "label": "Plan Mexico City",
-        "href": "enquire.html?dest=mexico-city"
+        "href": "concierge.html?plan=mexico-city"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -76119,7 +76119,7 @@
       "tagline": "Tropical Art Deco glamour where Latin America meets the sea.",
       "ctaPrimary": {
         "label": "Plan Miami",
-        "href": "enquire.html?dest=miami"
+        "href": "concierge.html?plan=miami"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -77266,7 +77266,7 @@
       "tagline": "Italy's capital of fashion, design and quiet wealth.",
       "ctaPrimary": {
         "label": "Plan Milan",
-        "href": "enquire.html?dest=milan"
+        "href": "concierge.html?plan=milan"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -78656,7 +78656,7 @@
       "tagline": "India's restless maximum city of sea, cinema and commerce.",
       "ctaPrimary": {
         "label": "Plan Mumbai",
-        "href": "enquire.html?dest=mumbai"
+        "href": "concierge.html?plan=mumbai"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -79801,7 +79801,7 @@
       "tagline": "Bavarian capital of beer gardens, baroque and effortless wealth",
       "ctaPrimary": {
         "label": "Plan Munich",
-        "href": "enquire.html?dest=munich"
+        "href": "concierge.html?plan=munich"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -80953,7 +80953,7 @@
       "tagline": "Rolling tea estates high in the Western Ghats.",
       "ctaPrimary": {
         "label": "Plan Munnar",
-        "href": "enquire.html?dest=munnar"
+        "href": "concierge.html?plan=munnar"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -81940,7 +81940,7 @@
       "tagline": "Serene Arabian coast of forts, wadis and white minarets.",
       "ctaPrimary": {
         "label": "Plan Muscat",
-        "href": "enquire.html?dest=muscat"
+        "href": "concierge.html?plan=muscat"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -82944,7 +82944,7 @@
       "tagline": "Cycladic glamour, windmills and the Aegean's liveliest shores.",
       "ctaPrimary": {
         "label": "Plan Mykonos",
-        "href": "enquire.html?dest=mykonos"
+        "href": "concierge.html?plan=mykonos"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -83964,7 +83964,7 @@
       "tagline": "Kenya's vivid capital and the legendary Mara plains.",
       "ctaPrimary": {
         "label": "Plan Nairobi & the Mara",
-        "href": "enquire.html?dest=nairobi-mara"
+        "href": "concierge.html?plan=nairobi-mara"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -85052,7 +85052,7 @@
       "tagline": "Ambition, art and appetite, all at once, all night.",
       "ctaPrimary": {
         "label": "Plan New York",
-        "href": "enquire.html?dest=new-york"
+        "href": "concierge.html?plan=new-york"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -86911,7 +86911,7 @@
       "tagline": "Belle Époque glamour along the azure Mediterranean coast.",
       "ctaPrimary": {
         "label": "Plan Nice & the Riviera",
-        "href": "enquire.html?dest=nice-riviera"
+        "href": "concierge.html?plan=nice-riviera"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -88121,7 +88121,7 @@
       "tagline": "Japan's exuberant kitchen, neon-lit and warm-hearted.",
       "ctaPrimary": {
         "label": "Plan Osaka",
-        "href": "enquire.html?dest=osaka"
+        "href": "concierge.html?plan=osaka"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -89218,7 +89218,7 @@
       "tagline": "Light on the Seine, a table for every hour, elegance worn lightly.",
       "ctaPrimary": {
         "label": "Plan Paris",
-        "href": "enquire.html?dest=paris"
+        "href": "concierge.html?plan=paris"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -91121,7 +91121,7 @@
       "tagline": "Himalayan valleys of dzongs, prayer flags and cliffside monasteries.",
       "ctaPrimary": {
         "label": "Plan Paro & Thimphu",
-        "href": "enquire.html?dest=paro"
+        "href": "concierge.html?plan=paro"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -92156,7 +92156,7 @@
       "tagline": "Andaman beaches, limestone bays and barefoot luxury.",
       "ctaPrimary": {
         "label": "Plan Phuket",
-        "href": "enquire.html?dest=phuket"
+        "href": "concierge.html?plan=phuket"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -93532,7 +93532,7 @@
       "tagline": "Granite, port wine and the river Douro's working banks.",
       "ctaPrimary": {
         "label": "Plan Porto",
-        "href": "enquire.html?dest=porto"
+        "href": "concierge.html?plan=porto"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -94593,7 +94593,7 @@
       "tagline": "City of a hundred spires above the winding Vltava",
       "ctaPrimary": {
         "label": "Plan Prague",
-        "href": "enquire.html?dest=prague"
+        "href": "concierge.html?plan=prague"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -95708,7 +95708,7 @@
       "tagline": "Alpine adventure capital on a glacial mountain lake.",
       "ctaPrimary": {
         "label": "Plan Queenstown",
-        "href": "enquire.html?dest=queenstown"
+        "href": "concierge.html?plan=queenstown"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -96753,7 +96753,7 @@
       "tagline": "Tiger country where ruins meet wild jungle.",
       "ctaPrimary": {
         "label": "Plan Ranthambore",
-        "href": "enquire.html?dest=ranthambore"
+        "href": "concierge.html?plan=ranthambore"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -97650,7 +97650,7 @@
       "tagline": "A small northern capital between volcano, ocean and aurora.",
       "ctaPrimary": {
         "label": "Plan Reykjavik",
-        "href": "enquire.html?dest=reykjavik"
+        "href": "concierge.html?plan=reykjavik"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -98600,7 +98600,7 @@
       "tagline": "Mountains, beaches and samba meeting along a dazzling bay.",
       "ctaPrimary": {
         "label": "Plan Rio de Janeiro",
-        "href": "enquire.html?dest=rio-de-janeiro"
+        "href": "concierge.html?plan=rio-de-janeiro"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -99736,7 +99736,7 @@
       "tagline": "Yoga capital of the world on the upper Ganges.",
       "ctaPrimary": {
         "label": "Plan Rishikesh",
-        "href": "enquire.html?dest=rishikesh"
+        "href": "concierge.html?plan=rishikesh"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -100695,7 +100695,7 @@
       "tagline": "The Eternal City, layered in empire, faith and dolce vita.",
       "ctaPrimary": {
         "label": "Plan Rome",
-        "href": "enquire.html?dest=rome"
+        "href": "concierge.html?plan=rome"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -102116,7 +102116,7 @@
       "tagline": "Baroque city of Mozart between fortress and alpine foothills",
       "ctaPrimary": {
         "label": "Plan Salzburg",
-        "href": "enquire.html?dest=salzburg"
+        "href": "concierge.html?plan=salzburg"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -103084,7 +103084,7 @@
       "tagline": "Fog-wreathed hills, the Bay and bracing reinvention.",
       "ctaPrimary": {
         "label": "Plan San Francisco",
-        "href": "enquire.html?dest=san-francisco"
+        "href": "concierge.html?plan=san-francisco"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -104535,7 +104535,7 @@
       "tagline": "Whitewashed caldera villages above a sunken volcano.",
       "ctaPrimary": {
         "label": "Plan Santorini",
-        "href": "enquire.html?dest=santorini"
+        "href": "concierge.html?plan=santorini"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -105696,7 +105696,7 @@
       "tagline": "Palaces and hypermodernity, served at every hour.",
       "ctaPrimary": {
         "label": "Plan Seoul",
-        "href": "enquire.html?dest=seoul"
+        "href": "concierge.html?plan=seoul"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -107100,7 +107100,7 @@
       "tagline": "Art-deco riverfront facing a skyline of tomorrow.",
       "ctaPrimary": {
         "label": "Plan Shanghai",
-        "href": "enquire.html?dest=shanghai"
+        "href": "concierge.html?plan=shanghai"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -108254,7 +108254,7 @@
       "tagline": "Colonial hill-station grandeur amid Himalayan cedar forests.",
       "ctaPrimary": {
         "label": "Plan Shimla",
-        "href": "enquire.html?dest=shimla"
+        "href": "concierge.html?plan=shimla"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -109196,7 +109196,7 @@
       "tagline": "Gateway to Angkor's temples and Khmer artistry.",
       "ctaPrimary": {
         "label": "Plan Siem Reap",
-        "href": "enquire.html?dest=siem-reap"
+        "href": "concierge.html?plan=siem-reap"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -110199,7 +110199,7 @@
       "tagline": "A garden city of gleaming towers and hawker soul.",
       "ctaPrimary": {
         "label": "Plan Singapore",
-        "href": "enquire.html?dest=singapore-city"
+        "href": "concierge.html?plan=singapore-city"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -111793,7 +111793,7 @@
       "tagline": "Mughal gardens, houseboats and the still mirror of Dal Lake.",
       "ctaPrimary": {
         "label": "Plan Srinagar",
-        "href": "enquire.html?dest=srinagar"
+        "href": "concierge.html?plan=srinagar"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -112809,7 +112809,7 @@
       "tagline": "Engadine glamour where alpine sport meets old-world luxury",
       "ctaPrimary": {
         "label": "Plan St. Moritz",
-        "href": "enquire.html?dest=st-moritz"
+        "href": "concierge.html?plan=st-moritz"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -113838,7 +113838,7 @@
       "tagline": "Harbour city of sails, surf and golden light.",
       "ctaPrimary": {
         "label": "Plan Sydney",
-        "href": "enquire.html?dest=sydney"
+        "href": "concierge.html?plan=sydney"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -115233,7 +115233,7 @@
       "tagline": "Night-market warmth beneath a soaring green tower.",
       "ctaPrimary": {
         "label": "Plan Taipei",
-        "href": "enquire.html?dest=taipei"
+        "href": "concierge.html?plan=taipei"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -116331,7 +116331,7 @@
       "tagline": "Neon precision and quiet ritual in endless measure.",
       "ctaPrimary": {
         "label": "Plan Tokyo",
-        "href": "enquire.html?dest=tokyo"
+        "href": "concierge.html?plan=tokyo"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -118198,7 +118198,7 @@
       "tagline": "Canada's polyglot metropolis on the Lake Ontario shore.",
       "ctaPrimary": {
         "label": "Plan Toronto",
-        "href": "enquire.html?dest=toronto"
+        "href": "concierge.html?plan=toronto"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -119366,7 +119366,7 @@
       "tagline": "The lake city of marble palaces and Aravalli hills.",
       "ctaPrimary": {
         "label": "Plan Udaipur",
-        "href": "enquire.html?dest=udaipur"
+        "href": "concierge.html?plan=udaipur"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -120329,7 +120329,7 @@
       "tagline": "Mountains, sea and rainforest framing a glass city.",
       "ctaPrimary": {
         "label": "Plan Vancouver",
-        "href": "enquire.html?dest=vancouver"
+        "href": "concierge.html?plan=vancouver"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -121501,7 +121501,7 @@
       "tagline": "India's eternal city of light upon the Ganges.",
       "ctaPrimary": {
         "label": "Plan Varanasi",
-        "href": "enquire.html?dest=varanasi"
+        "href": "concierge.html?plan=varanasi"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -122424,7 +122424,7 @@
       "tagline": "A city of water, palaces and impossible beauty.",
       "ctaPrimary": {
         "label": "Plan Venice",
-        "href": "enquire.html?dest=venice"
+        "href": "concierge.html?plan=venice"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -123776,7 +123776,7 @@
       "tagline": "Imperial palaces, coffee houses and music in the grand manner",
       "ctaPrimary": {
         "label": "Plan Vienna",
-        "href": "enquire.html?dest=vienna"
+        "href": "concierge.html?plan=vienna"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -125273,7 +125273,7 @@
       "tagline": "Swahili spice island of dhows, coral lanes and turquoise sea.",
       "ctaPrimary": {
         "label": "Plan Zanzibar",
-        "href": "enquire.html?dest=zanzibar"
+        "href": "concierge.html?plan=zanzibar"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -126319,7 +126319,7 @@
       "tagline": "Car-free alpine village beneath the unmistakable Matterhorn",
       "ctaPrimary": {
         "label": "Plan Zermatt",
-        "href": "enquire.html?dest=zermatt"
+        "href": "concierge.html?plan=zermatt"
       },
       "ctaSecondary": {
         "label": "The guide",
@@ -127309,7 +127309,7 @@
       "tagline": "Banking grandeur, lakeside calm and Alpine air in one",
       "ctaPrimary": {
         "label": "Plan Zurich",
-        "href": "enquire.html?dest=zurich"
+        "href": "concierge.html?plan=zurich"
       },
       "ctaSecondary": {
         "label": "The guide",

@@ -3,10 +3,11 @@ import offersData from "../data/offers.generated.json";
 import type { OffersPageData } from "../types/offers";
 import { useScrollReveal } from "../lib/useScrollReveal";
 import { PrimaryInverseButton, SecondaryInverseButton } from "../components/buttons/InverseButtons";
-import styles from "./offers-page.module.css";
+// import styles from "./offers-page.module.css"; // layout now uses the shared rf-* styles (css/refresh.css)
 
 const data = offersData as unknown as OffersPageData;
 
+// Design refresh (2026-11-13, direct request): same treatment as the other service pages (shared rf-* styles).
 export default function OffersPage() {
   useEffect(() => {
     if (data.seo.title) document.title = data.seo.title;
@@ -15,38 +16,36 @@ export default function OffersPage() {
   useScrollReveal([]);
 
   const { hero, intro, features, value, cta } = data;
+  void intro;
 
   return (
     <>
-      <header
-        className="hero hero-ed"
-        style={{ backgroundImage: `url('${hero.image}')`, backgroundPosition: "60% 50%" }}
-      >
-        <div className="wrap hero-inner">
-          <div className="hs-copy">
-            <div className="eyebrow on-dark">{hero.eyebrow}</div>
-            <div className="rule" />
-            <h1 className="display" dangerouslySetInnerHTML={{ __html: hero.headingHtml ?? "" }} />
-            <p className="lede on-dark" style={{ marginTop: 24 }}>
-              {hero.lede}
-            </p>
+      <header className="rf-hero" style={{ backgroundImage: `linear-gradient(90deg, rgba(8,6,5,.82) 0%, rgba(8,6,5,.6) 45%, rgba(8,6,5,.4) 100%), url('${hero.image}')` }}>
+        <div className="wrap">
+          <div className="rf-hero-copy">
+            <div className="eyebrow on-dark reveal">{hero.eyebrow}</div>
+            <div className="rule reveal d1" />
+            <h1 className="display reveal d1" dangerouslySetInnerHTML={{ __html: hero.headingHtml ?? "" }} />
+            <p className="lede on-dark reveal d2">{hero.lede}</p>
+            <div className="btn-row rf-hero-btns reveal d3">
+              <PrimaryInverseButton to="destinations.html">Find my trip</PrimaryInverseButton>
+              <SecondaryInverseButton to="concierge.html">Chat with us</SecondaryInverseButton>
+            </div>
           </div>
         </div>
-        <div className={styles.heroMeta}>
-          <span className="k">{hero.metaK}</span>
-          <span className="t">{hero.metaT}</span>
-        </div>
-        <div className="scrolldown">Scroll</div>
       </header>
 
       <main>
-        <section className="band center tight">
-          <div className="wrap">
-            <p className="lede reveal" style={{ maxWidth: "60ch", margin: "0 auto" }}>
-              {intro}
-            </p>
-          </div>
-        </section>
+        {/* Intro statement ("Not deals. Not coupons...") hidden 2026-11-13, in line with the other pages. */}
+        {false && (
+          <section className="band center tight">
+            <div className="wrap">
+              <p className="lede" style={{ maxWidth: "60ch", margin: "0 auto" }}>
+                {intro}
+              </p>
+            </div>
+          </section>
+        )}
 
         {features.map((f, i) => (
           <section
@@ -55,38 +54,34 @@ export default function OffersPage() {
             id={f.id ?? undefined}
             key={f.id ?? i}
           >
-            <div className="wrap grid-2" style={f.imageFirst ? { direction: "rtl" } : undefined}>
-              <div className="reveal" style={f.imageFirst ? { direction: "ltr" } : undefined}>
+            <div className={`wrap rf-split${i % 2 === 1 ? " rev" : ""}`}>
+              <div className="rf-pic reveal" style={{ backgroundImage: `url('${f.image}')` }} role="img" aria-label={f.imageAlt ?? undefined} />
+              <div className="reveal d1">
                 <div className="eyebrow">{f.eyebrow}</div>
                 <div className="rule" />
-                <h2 style={{ fontSize: "clamp(30px,3.6vw,54px)" }} dangerouslySetInnerHTML={{ __html: f.headingHtml ?? "" }} />
-                <p className="lede" style={{ marginTop: 18 }}>
+                <h2 style={{ fontSize: "clamp(28px,3.4vw,46px)" }} dangerouslySetInnerHTML={{ __html: f.headingHtml ?? "" }} />
+                <p className="lede" style={{ marginTop: 16 }}>
                   {f.lede}
                 </p>
-                <ul className="incl" style={{ marginTop: 24, maxWidth: "none" }}>
+                <ul className="rf-checks">
                   {f.items.map((it, j) => (
                     <li key={j}>
-                      <span className="ck">✦</span>
+                      <span aria-hidden="true">✓</span>
                       <span>{it}</span>
                     </li>
                   ))}
                 </ul>
               </div>
-              <div className="reveal d2" style={f.imageFirst ? { direction: "ltr" } : undefined}>
-                <img className="of-img" src={f.image ?? undefined} alt={f.imageAlt ?? ""} loading="lazy" />
-              </div>
             </div>
           </section>
         ))}
 
-        <section className="band-dark band center" style={{ backgroundImage: `var(--scrim), url('${value.image}')` }}>
+        <section className="rf-sig" style={{ backgroundImage: `url('${value.image}')` }}>
           <div className="wrap">
-            <div className="eyebrow on-dark reveal">{value.eyebrow}</div>
+            <div className="eyebrow reveal">{value.eyebrow}</div>
             <div className="rule center reveal d1" />
-            <h2 className="reveal d1" style={{ maxWidth: "24ch", margin: "0 auto" }} dangerouslySetInnerHTML={{ __html: value.headingHtml ?? "" }} />
-            <p className="lede on-dark reveal d2" style={{ margin: "22px auto 0", maxWidth: "56ch" }}>
-              {value.lede}
-            </p>
+            <h2 className="reveal d1" dangerouslySetInnerHTML={{ __html: value.headingHtml ?? "" }} />
+            <p className="lede reveal d2">{value.lede}</p>
           </div>
         </section>
 
@@ -94,22 +89,12 @@ export default function OffersPage() {
           <div className="wrap">
             <div className="eyebrow on-dark reveal">{cta.eyebrow}</div>
             <div className="rule center reveal d1" />
-            <h2 className="reveal d1" style={{ fontSize: "clamp(34px,5vw,72px)" }} dangerouslySetInnerHTML={{ __html: cta.headingHtml ?? "" }} />
-            <p className="lede on-dark reveal d2" style={{ margin: "18px auto 30px", maxWidth: "48ch" }}>
+            <h2 className="reveal d1" style={{ maxWidth: "22ch", margin: "0 auto" }} dangerouslySetInnerHTML={{ __html: cta.headingHtml ?? "" }} />
+            <p className="lede on-dark reveal d2" style={{ margin: "22px auto 0", maxWidth: "48ch" }}>
               {cta.lede}
             </p>
-            <div className="btn-row center reveal d3">
-              {cta.buttons.map((b, i) =>
-                b.label && /plan/i.test(b.label) ? (
-                  <PrimaryInverseButton to={b.href} key={i}>
-                    {b.label}
-                  </PrimaryInverseButton>
-                ) : (
-                  <SecondaryInverseButton to={b.href} key={i}>
-                    {b.label}
-                  </SecondaryInverseButton>
-                )
-              )}
+            <div className="btn-row center reveal d3" style={{ marginTop: 28 }}>
+              <PrimaryInverseButton to="concierge.html">Plan a trip</PrimaryInverseButton>
             </div>
           </div>
         </section>

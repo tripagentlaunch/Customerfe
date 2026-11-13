@@ -46,9 +46,11 @@ export default function PortalPage() {
               {hero.lede}
             </p>
             <div className="hero-cta-row">
-              <Link className="btn btn-gold on-dark btn-square" to={toRoute(hero.ctaHref)}>
-                {hero.ctaLabel}
-              </Link>
+              {hero.ctaLabel && (
+                <Link className="btn btn-gold on-dark btn-square" to={toRoute(hero.ctaHref)}>
+                  {hero.ctaLabel}
+                </Link>
+              )}
               <Link className={styles.prtTextlink} to={toRoute(hero.textHref)}>
                 {hero.textLabel}
               </Link>
@@ -103,11 +105,13 @@ export default function PortalPage() {
             <p className="lede" style={{ marginTop: 16 }}>
               {begins.lede}
             </p>
-            <div className="btn-row" style={{ marginTop: 24 }}>
-              <Link className="btn btn-gold" to={toRoute(begins.ctaHref)}>
-                {begins.ctaLabel}
-              </Link>
-            </div>
+            {begins.ctaLabel && (
+              <div className="btn-row" style={{ marginTop: 24 }}>
+                <Link className="btn btn-gold" to={toRoute(begins.ctaHref)}>
+                  {begins.ctaLabel}
+                </Link>
+              </div>
+            )}
           </div>
           <div className="reveal d2">
             <div className="deep-img" style={{ backgroundImage: `url('${begins.image}')` }} />
@@ -157,11 +161,13 @@ export default function PortalPage() {
             <p className="lede" style={{ marginTop: 16 }}>
               {uses.lede}
             </p>
-            <div className="btn-row" style={{ marginTop: 24 }}>
-              <Link className="btn btn-gold" to={toRoute(uses.ctaHref)}>
-                {uses.ctaLabel}
-              </Link>
-            </div>
+            {uses.ctaLabel && (
+              <div className="btn-row" style={{ marginTop: 24 }}>
+                <Link className="btn btn-gold" to={toRoute(uses.ctaHref)}>
+                  {uses.ctaLabel}
+                </Link>
+              </div>
+            )}
           </div>
           <div className="reveal d2">
             <div className="steps">

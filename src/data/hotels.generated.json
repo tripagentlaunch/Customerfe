@@ -10,13 +10,13 @@
     "image": "/_vercel/image?url=%2Fimg%2Fh%2Fhotels.jpg&w=2560&q=80",
     "buttons": [
       {
-        "label": "Request membership",
-        "href": "join.html",
+        "label": "Find my trip",
+        "href": "destinations.html",
         "kind": "square"
       },
       {
-        "label": "How it works",
-        "href": "how-it-works.html",
+        "label": "Chat with us",
+        "href": "concierge.html",
         "kind": "text"
       }
     ]
@@ -26,7 +26,7 @@
     "heading": "Live rates, held the moment you choose."
   },
   "pullq": {
-    "quoteHtml": "The room is easy to book.<br/>The <span class=\"it\">right</span> room isn’t.",
+    "quoteHtml": "The room is easy to book.<br/>The <span class=\"it\">right</span> room isn\u2019t.",
     "lede": "Two rooms in the same hotel can be worlds apart. The view, the floor, the wing, the welcome. We know the difference, and who to call."
   },
   "idx": {
@@ -72,9 +72,9 @@
     "headingHtml": "The same room, often for less, and with <span class=\"it\">more</span>.",
     "lede": "Through preferred-partner and net-rate programmes, we often match or beat the public price, and add what it never includes: an upgrade, daily breakfast, a property credit, a later checkout.",
     "items": [
-      "Preferred-partner status at the world’s leading hotel groups.",
+      "Preferred-partner status at the world\u2019s leading hotel groups.",
       "Upgrades, credits and breakfast added to your stay.",
-      "Net and negotiated rates beyond what you’ll find online."
+      "Net and negotiated rates beyond what you\u2019ll find online."
     ],
     "image": "/_vercel/image?url=%2Fimg%2Fcities%2Famalfi-coast.jpg&w=2048&q=80"
   },
@@ -107,7 +107,7 @@
       {
         "label": "04",
         "heading": "Early in, late out",
-        "body": "Early check-in and late checkout where the house can offer it. So a morning arrival or a late flight home isn’t spent in a lobby."
+        "body": "Early check-in and late checkout where the house can offer it. So a morning arrival or a late flight home isn\u2019t spent in a lobby."
       },
       {
         "label": "05",
@@ -125,10 +125,7 @@
     "eyebrow": "How it works",
     "heading": "From a line of text to a turned-down bed.",
     "lede": "It begins the same way every time. One message on WhatsApp. Your advisor takes it from there.",
-    "cta": {
-      "label": "Become a member",
-      "href": "join.html"
-    },
+    "cta": null,
     "steps": [
       {
         "n": "1",
@@ -187,7 +184,7 @@
       },
       {
         "summary": "Do I keep my own loyalty status and points?",
-        "bodyHtml": "Yes. We book so you keep earning and recognising your own loyalty status wherever the rate allows. In the rare case where a special rate and a loyalty benefit can’t both apply, we flag it, so you decide with the trade-off in front of you, never behind it."
+        "bodyHtml": "Yes. We book so you keep earning and recognising your own loyalty status wherever the rate allows. In the rare case where a special rate and a loyalty benefit can\u2019t both apply, we flag it, so you decide with the trade-off in front of you, never behind it."
       },
       {
         "summary": "What if something goes wrong during the stay?",
@@ -209,12 +206,8 @@
     "lede": "A private travel maison, by invitation. If you hold one, the door is already held.",
     "buttons": [
       {
-        "label": "Request membership",
-        "href": "join.html"
-      },
-      {
-        "label": "All three services",
-        "href": "services.html"
+        "label": "Plan a trip",
+        "href": "concierge.html"
       }
     ]
   }

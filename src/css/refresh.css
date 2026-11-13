@@ -1,0 +1,106 @@
+/* Shared styles for the refreshed service pages (2026-11-13): Services, Points & payments, Offers.
+   Plain global classes (rf-*), the same look as the per-page modules on Flights/Hotels/Visas/Protection/About. */
+.rf-hero{position:relative;display:flex;align-items:center;min-height:clamp(520px,78vh,760px);background-size:cover;background-position:center;background-color:#111;color:#fff;padding:clamp(110px,16vh,170px) 0 clamp(60px,9vh,100px)}
+.rf-hero>.wrap{width:100%}
+.rf-hero-copy{max-width:640px}
+.rf-hero .display{font-size:clamp(40px,6vw,84px);line-height:1.04;margin:0;color:#fff}
+.rf-hero .display .it,.rf-hero .display em{color:#fff!important}
+.rf-hero .lede{max-width:48ch;margin-top:22px;color:rgba(255,255,255,.92)}
+.rf-hero-btns{margin-top:34px;justify-content:flex-start!important}
+.rf-head{max-width:760px;margin-bottom:clamp(28px,4vw,48px)}
+.rf-head h2{margin:0;font-size:clamp(28px,3.4vw,46px)}
+.rf-head .lede{margin-top:16px}
+.rf-tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(14px,1.8vw,22px)}
+.rf-tile{background:#fff;border:1px solid var(--line,#E3E2DD);padding:clamp(22px,2.4vw,30px)}
+.rf-icon{color:var(--signature,#6E2A38);margin-bottom:16px}
+.rf-label{font-family:var(--fr);font-weight:600;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent-2,#6E2A38);margin-bottom:14px}
+.rf-tile h3{font-family:var(--serif);font-weight:600;font-size:clamp(20px,1.8vw,24px);line-height:1.2;margin:0 0 8px}
+.rf-tile p{margin:0;font-size:15px;line-height:1.55;color:var(--ink-soft,#4a453d)}
+.rf-split{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:clamp(28px,5vw,72px);align-items:center}
+.rf-split.rev{grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr)}
+.rf-split.rev .rf-pic{order:2}
+.rf-pic{aspect-ratio:4/5;background-size:cover;background-position:center;background-color:#e9e5dc}
+.rf-checks{list-style:none;margin:24px 0 0;padding:0;display:grid;gap:12px}
+.rf-checks li{display:flex;gap:12px;align-items:flex-start;font-size:16px;line-height:1.5;color:var(--ink-soft,#4a453d)}
+.rf-checks li>span:first-child{flex:none;color:var(--signature,#6E2A38);font-weight:600}
+.rf-checks a{color:var(--signature,#6E2A38);text-decoration:underline}
+.rf-steps{display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(14px,1.8vw,22px)}
+.rf-step{border-top:1px solid var(--ink,#1A1714);padding-top:18px}
+.rf-step-n{font-family:var(--serif);font-size:clamp(34px,3.6vw,48px);line-height:1;color:var(--signature,#6E2A38);margin-bottom:12px}
+.rf-step h4{font-family:var(--serif);font-weight:600;font-size:clamp(19px,1.7vw,22px);margin:0 0 8px}
+.rf-step p{margin:0;font-size:15px;line-height:1.55;color:var(--ink-soft,#4a453d)}
+.rf-faq{max-width:none!important;margin:0!important;display:grid;grid-template-columns:1fr!important;border-top:0!important}
+.rf-faq details{border-bottom:1px solid var(--line,#E3E2DD)}
+.rf-faq summary{padding:16px 2px!important;font-size:clamp(16px,1.35vw,18px)!important;line-height:1.35;gap:16px}
+.rf-faq summary::after{font-size:20px!important}
+.rf-faq details p{margin:0 0 16px;font-size:14.5px;line-height:1.55;max-width:none}
+.rf-sig{position:relative;padding:clamp(90px,14vh,150px) 0;background-size:cover;background-position:center 55%;background-color:#111;color:#fff;text-align:center}
+.rf-sig::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(6,5,4,.58),rgba(6,5,4,.7));z-index:0}
+.rf-sig>.wrap{position:relative;z-index:1}
+.rf-sig .rule{margin-left:auto;margin-right:auto}
+.rf-sig h2{margin-left:auto;margin-right:auto;max-width:24ch;font-size:clamp(26px,3.6vw,48px);line-height:1.15;color:#fff}
+.rf-sig .lede{margin-left:auto;margin-right:auto;max-width:52ch;color:rgba(255,255,255,.92)}
+.rf-sig .eyebrow{color:rgba(255,255,255,.86)}
+.rf-note{font-size:13.5px;line-height:1.55;color:var(--stone,#8b8578);margin-top:20px;max-width:80ch}
+@media(max-width:900px){
+  .rf-tiles{grid-template-columns:1fr 1fr}
+  .rf-steps{grid-template-columns:1fr 1fr}
+  .rf-split,.rf-split.rev{grid-template-columns:1fr}
+  .rf-split.rev .rf-pic{order:0}
+  .rf-pic{aspect-ratio:4/3}
+}
+@media(max-width:720px){
+  .rf-hero-btns{display:flex!important;flex-wrap:nowrap!important;gap:10px!important;width:100%}
+  .rf-hero-btns>*{flex:1 1 0!important;min-width:0;width:auto;display:flex;align-items:center;justify-content:center;text-align:center}
+  html .rf-hero-btns>.btn,html .rf-hero-btns>.btn.btn-square{padding-left:8px!important;padding-right:8px!important}
+}
+@media(max-width:560px){.rf-tiles,.rf-steps{grid-template-columns:1fr}.rf-hero{min-height:560px}}
+/* Photo band heading: serif, medium, upright accent (the site-wide rule for text-on-photo bands). */
+html .rf-sig h2{font-family:var(--serif)!important;font-weight:500!important}
+html .rf-sig h2 .it,html .rf-sig h2 .em,html .rf-sig h2 em{font-style:normal!important;font-family:inherit!important;font-weight:inherit!important;color:inherit!important}
+html .rf-hero :is(h1,.display){font-family:var(--logo)!important;font-weight:500!important}
+
+/* Hospital cards (health pages), modelled on the city pages' hotel cards (2026-11-13) */
+.hc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;align-items:stretch}
+.hc-card{display:flex;flex-direction:column;background:#fff;border:1px solid var(--line,#E3E2DD);text-decoration:none;color:inherit;overflow:hidden}
+.hc-pic{aspect-ratio:16/10;overflow:hidden;background:var(--paper-2,#EFEDE8);display:flex;align-items:center;justify-content:center}
+.hc-pic img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .85s var(--ease)}
+a.hc-card:hover .hc-pic img{transform:scale(1.05)}
+.hc-pic span{font-family:var(--serif);font-size:54px;font-weight:300;color:var(--signature,#6E2A38);opacity:.4}
+.hc-body{display:flex;flex-direction:column;gap:8px;padding:18px 20px 22px;flex:1}
+.hc-area{font-family:var(--fr);font-weight:600;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent-2,#6E2A38)}
+.hc-card h3{font-family:var(--serif);font-weight:600;font-size:clamp(19px,1.7vw,22px);line-height:1.2;margin:0}
+.hc-tags{display:flex;flex-wrap:wrap;gap:6px}
+.hc-tags span{font-family:var(--fr);font-size:10.5px;letter-spacing:.06em;color:var(--stone,#8b8578);border:1px solid var(--line,#E3E2DD);padding:3px 8px}
+.hc-body p{margin:0;font-size:14.5px;line-height:1.55;color:var(--ink-soft,#4a453d)}
+.hc-more{margin-top:auto;font-family:var(--fr);font-weight:600;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink,#1A1714);padding-top:6px}
+.hc-more::after{content:" \2192"}
+.hc-plain .hc-body{padding-bottom:20px}
+@media(max-width:1000px){.hc-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:620px){.hc-grid{grid-template-columns:1fr}}
+
+/* Health closing band: the confidential line's shield icon was unsized once it left .med-concierge (2026-11-13). */
+.band-dark .med-conf{display:flex;align-items:center;justify-content:center;gap:8px;font-family:var(--fr);font-size:14px;letter-spacing:.02em;color:rgba(255,255,255,.82)}
+.band-dark .med-conf svg{width:18px;height:18px;flex:none}
+
+/* Health explorer: the specialty list fills the container's full height (it was capped at 520px, leaving empty space under
+   it), and scrolls inside if there are more specialties than fit (2026-11-13, direct request). height:0 + min-height:100%
+   keeps the list from setting the container's height, so the container stays as tall as the content panel. */
+@media(min-width:721px){
+  .med-explorer{align-items:stretch}
+  .med-ex-list{max-height:none!important;height:0;min-height:100%;overflow-y:auto!important}
+}
+
+/* Health explorer rows: every row's location lines up (linked rows have an arrow slot, plain rows now reserve it too), and
+   every row has the same hover (soft tint, maroon name); linked rows also slide and show the arrow (2026-11-13). */
+.med-ex-panel .med-index-row{transition:background .3s var(--ease,ease),padding .4s var(--ease,ease)}
+.med-ex-panel .med-index-row:hover{background:linear-gradient(90deg,rgba(110,42,56,.05),transparent);padding-left:14px}
+.med-ex-panel .med-index-row:hover .ix-n{color:var(--accent-2,#6E2A38)}
+.med-ex-panel div.med-index-row{cursor:default}
+
+/* Card pagination (Longevity & wellness) */
+.hc-pager{display:flex;justify-content:center;align-items:center;gap:6px;margin-top:32px}
+.hc-pager button{min-width:40px;height:40px;padding:0 12px;font-family:var(--fr);font-size:14px;color:var(--ink,#1A1714);background:#fff;border:1px solid var(--line,#E3E2DD);border-radius:0;cursor:pointer;transition:border-color .2s,background .2s,color .2s}
+.hc-pager button:hover:not(:disabled){border-color:var(--signature,#6E2A38)}
+.hc-pager button.on{background:rgba(110,42,56,.08);border-color:var(--signature,#6E2A38);color:var(--signature,#6E2A38);font-weight:600}
+.hc-pager button:disabled{opacity:.35;cursor:default}

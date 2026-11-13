@@ -10,13 +10,13 @@
     "image": "/_vercel/image?url=%2Fimg%2Fh%2Fflights.jpg&w=2560&q=80",
     "buttons": [
       {
-        "label": "Request membership",
-        "href": "join.html",
+        "label": "Find my trip",
+        "href": "destinations.html",
         "kind": "square"
       },
       {
-        "label": "How it works",
-        "href": "how-it-works.html",
+        "label": "Chat with us",
+        "href": "concierge.html",
         "kind": "text"
       }
     ]
@@ -106,10 +106,7 @@
     "eyebrow": "How it works",
     "heading": "From a line of text to a boarding pass.",
     "lede": "It begins the same way every time: one message on WhatsApp. Your advisor takes it from there.",
-    "cta": {
-      "label": "Become a member",
-      "href": "join.html"
-    },
+    "cta": null,
     "steps": [
       {
         "n": "1",
@@ -193,12 +190,8 @@
     "lede": "A private travel maison, by invitation. If you hold one, a seat at the front is already kept for you.",
     "buttons": [
       {
-        "label": "Request membership",
-        "href": "join.html"
-      },
-      {
-        "label": "All three services",
-        "href": "services.html"
+        "label": "Plan a trip",
+        "href": "concierge.html"
       }
     ]
   }

@@ -1,15 +1,32 @@
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import type { FormEvent, KeyboardEvent } from "react";
 
 export default function ChatInput({
   onSend,
   disabled,
+  initialValue,
 }: {
   onSend: (text: string) => void;
   disabled: boolean;
+  initialValue?: string;
 }) {
   const [value, setValue] = useState("");
   const textareaRef = useRef<HTMLTextAreaElement | null>(null);
+
+  // Pre-filled message (e.g. from a "Plan a trip" button): shown in the box for the
+  // visitor to edit and send; never auto-sent. Only fills an empty box.
+  useEffect(() => {
+    if (!initialValue) return;
+    setValue((v) => v || initialValue);
+    const el = textareaRef.current;
+    if (el) {
+      window.requestAnimationFrame(() => {
+        el.style.height = "auto";
+        el.style.height = `${Math.min(el.scrollHeight, 160)}px`;
+        el.focus();
+      });
+    }
+  }, [initialValue]);
 
   function resize(el: HTMLTextAreaElement) {
     el.style.height = "auto";

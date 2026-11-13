@@ -8,3 +8,24 @@
 .br-links{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
 .br-link{font-family:var(--logo);font-weight:500;font-size:clamp(18px,1.8vw,22px);color:var(--ink,#1A1714);text-decoration:none;border:1px solid var(--line,#E3E2DD);border-radius:999px;padding:9px 20px;transition:all .2s var(--ease)}
 .br-link:hover{border-color:var(--accent-2);color:var(--accent-2)}
+
+/* Photo hero, all white text (2026-11-13) */
+html .br-hero{background:linear-gradient(rgba(8,6,5,.72),rgba(8,6,5,.72)),url('/img/h/destination-singapore.jpg') center/cover no-repeat;padding:clamp(120px,18vh,200px) 0 clamp(70px,10vh,120px)}
+html .br-hero :global(.eyebrow),html .br-hero h1,html .br-hero p{color:#fff !important}
+
+/* Tag tiles: icon + serif label + hover arrow, even grid (2026-11-13) */
+html .br-links{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px;margin-top:20px}
+html .br-link{display:flex;align-items:center;gap:14px;padding:18px 20px;background:#fff;border:1px solid var(--line,#E3E2DD);border-radius:0;font-family:var(--serif);font-weight:600;font-size:clamp(20px,1.8vw,23px);color:var(--ink,#1A1714);transition:border-color .2s,background .2s,color .2s}
+.br-icon{flex:none;color:var(--signature,#6E2A38)}
+.br-label{flex:1;min-width:0}
+.br-arrow{flex:none;opacity:0;transform:translateX(-6px);transition:opacity .2s,transform .2s;color:var(--signature,#6E2A38)}
+html .br-link:hover,html .br-link:focus-visible{border-color:var(--signature,#6E2A38);background:rgba(110,42,56,.05);color:var(--signature,#6E2A38)}
+.br-link:hover .br-arrow,.br-link:focus-visible .br-arrow{opacity:1;transform:none}
+html .br-hub{max-width:1180px}
+@media(max-width:560px){html .br-links{grid-template-columns:1fr 1fr;gap:10px}html .br-link{padding:14px;gap:10px;font-size:17px}.br-arrow{display:none}}
+
+/* Tiles hug their content again (2026-11-13) */
+html .br-links{display:flex;flex-wrap:wrap;gap:14px}
+html .br-link{width:auto}
+.br-label{flex:0 1 auto}
+@media(max-width:560px){html .br-links{display:flex;gap:10px}}

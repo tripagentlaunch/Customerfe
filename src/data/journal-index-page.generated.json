@@ -346,7 +346,7 @@
       "links": [
         {
           "label": "Flight guides: routes from India",
-          "href": "flight-guides.html"
+          "href": "flights.html"
         },
         {
           "label": "The cabin, class by class",
@@ -358,11 +358,11 @@
         },
         {
           "label": "Stay guides: the maison groups",
-          "href": "stay-guides.html"
+          "href": "hotels.html"
         },
         {
           "label": "Visa guides: for the Indian passport",
-          "href": "visa-guides.html"
+          "href": "visas.html"
         },
         {
           "label": "Points & payments",

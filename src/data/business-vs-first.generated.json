@@ -5,8 +5,8 @@
   },
   "hero": {
     "back": {
-      "label": "\u2190 Flight Intelligence",
-      "href": "flight-guides.html"
+      "label": "Flights",
+      "href": "flights.html"
     },
     "eyebrow": "Product guide \u00b7 The cabins",
     "headingHtml": "Business or first?<br/>The honest <span class=\"it\">line</span>.",

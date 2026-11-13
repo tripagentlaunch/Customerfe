@@ -10,13 +10,13 @@
     "image": "/_vercel/image?url=%2Fimg%2Fh%2Fvisas.jpg&w=2560&q=80",
     "buttons": [
       {
-        "label": "Request membership",
-        "href": "join.html",
+        "label": "Find my trip",
+        "href": "destinations.html",
         "kind": "square"
       },
       {
-        "label": "How it works",
-        "href": "how-it-works.html",
+        "label": "Chat with us",
+        "href": "concierge.html",
         "kind": "text"
       }
     ]
@@ -38,7 +38,7 @@
       {
         "no": "02",
         "heading": "Documents prepared",
-        "body": "Forms completed, photos and papers prepared to the consulate’s exact standard. Right the first time."
+        "body": "Forms completed, photos and papers prepared to the consulate\u2019s exact standard. Right the first time."
       },
       {
         "no": "03",
@@ -64,14 +64,14 @@
   },
   "feat": {
     "leadNum": "i.",
-    "eyebrow": "How it’s handled",
+    "eyebrow": "How it\u2019s handled",
     "headingHtml": "We take the paperwork. You <span class=\"it\">pack</span> a bag.",
     "lede": "From the first eligibility check to the passport back in your hand, your advisor holds the paperwork: forms, documents, appointment, follow-up, and keeps you posted at every step.",
     "items": [
       "Eligibility and documents checked against current rules.",
       "Applications prepared and submitted on your behalf.",
       "Appointments booked, biometrics scheduled, status tracked.",
-      "Filed through VFS Global and the consulates’ official channels: the countries they cover, online and offline."
+      "Filed through VFS Global and the consulates\u2019 official channels: the countries they cover, online and offline."
     ],
     "image": "/_vercel/image?url=%2Fimg%2Fcities%2Fvisa-paperwork.jpg&w=2048&q=80"
   },
@@ -102,7 +102,7 @@
       {
         "dest": "Schengen (Europe)",
         "visaType": "Short-stay (Type C), up to 90 days in any 180",
-        "processing": "15–20 working days; longer in peak season",
+        "processing": "15\u201320 working days; longer in peak season",
         "biometrics": "Yes",
         "biometricsYes": true,
         "note": "Choose the right country to apply through, secure a scarce summer appointment, and build the cover letter, itinerary and proof of funds the consulate expects."
@@ -126,7 +126,7 @@
       {
         "dest": "United Arab Emirates",
         "visaType": "Tourist e-visa, 30 or 60 days",
-        "processing": "3–5 working days; express available",
+        "processing": "3\u20135 working days; express available",
         "biometrics": "No",
         "biometricsYes": false,
         "note": "Arrange the e-visa end to end: no consulate visit. Among the fastest to issue; express handled when a trip is close."
@@ -134,7 +134,7 @@
       {
         "dest": "Singapore",
         "visaType": "e-Visa, up to 30 days; multi-entry common",
-        "processing": "3–5 working days",
+        "processing": "3\u20135 working days",
         "biometrics": "No",
         "biometricsYes": false,
         "note": "Submit online through an authorised agent with documents complete the first time, so it clears without back-and-forth."
@@ -142,7 +142,7 @@
       {
         "dest": "Japan",
         "visaType": "eVisa, single/multiple entry, up to 90 days",
-        "processing": "About 5–7 working days",
+        "processing": "About 5\u20137 working days",
         "biometrics": "No",
         "biometricsYes": false,
         "note": "Prepare the itinerary and proof of funds Japan looks for, and file the eVisa for eligible tourist travel."
@@ -174,7 +174,7 @@
       {
         "dest": "New Zealand",
         "visaType": "Visitor visa, up to 9 months",
-        "processing": "About 2–4 weeks",
+        "processing": "About 2\u20134 weeks",
         "biometrics": "Usually no",
         "biometricsYes": false,
         "note": "Prepare and lodge online, with the funds and intent-to-return evidence the application calls for."
@@ -182,7 +182,7 @@
       {
         "dest": "China",
         "visaType": "Tourist (L), single or multiple entry",
-        "processing": "About 4–7 working days",
+        "processing": "About 4\u20137 working days",
         "biometrics": "Yes",
         "biometricsYes": true,
         "note": "Assemble the invitation or itinerary and hotel bookings, and manage the in-person biometrics appointment at the visa centre."
@@ -190,10 +190,10 @@
       {
         "dest": "Switzerland",
         "visaType": "Schengen short-stay (Type C), up to 90 days",
-        "processing": "15–20 working days; longer in summer",
+        "processing": "15\u201320 working days; longer in summer",
         "biometrics": "Yes",
         "biometricsYes": true,
-        "note": "Apply via Switzerland when it’s your main destination; secure the appointment early and prepare the full Schengen file."
+        "note": "Apply via Switzerland when it\u2019s your main destination; secure the appointment early and prepare the full Schengen file."
       }
     ],
     "note": "Guidance only: visa rules, fees and timelines change often and depend on your passport, history and purpose of travel. Nothing here guarantees issuance. Your advisor confirms the current, exact requirements before you commit to dates."
@@ -208,10 +208,7 @@
     "eyebrow": "How it works",
     "heading": "From one message to a stamp in your passport.",
     "lede": "It begins the same way every time: one message on WhatsApp. Your advisor takes it from there.",
-    "cta": {
-      "label": "Become a member",
-      "href": "join.html"
-    },
+    "cta": null,
     "steps": [
       {
         "n": "1",
@@ -245,7 +242,7 @@
       },
       {
         "summary": "Do you fill in the forms for me?",
-        "bodyHtml": "Yes. Your advisor prepares the application, specifies the photographs and supporting documents to the consulate’s precise standard, and submits it. You provide what is asked and attend biometrics or an interview where the country requires it in person. The aim is nothing wrong, first time."
+        "bodyHtml": "Yes. Your advisor prepares the application, specifies the photographs and supporting documents to the consulate\u2019s precise standard, and submits it. You provide what is asked and attend biometrics or an interview where the country requires it in person. The aim is nothing wrong, first time."
       },
       {
         "summary": "How early should we start?",
@@ -261,7 +258,7 @@
       },
       {
         "summary": "Can you arrange visas for my whole family or group?",
-        "bodyHtml": "Yes: families, multi-generation trips and groups travelling together. We keep everyone’s applications on the same timeline, manage children’s and dependants’ paperwork, and make sure no one application falls behind and holds up the rest."
+        "bodyHtml": "Yes: families, multi-generation trips and groups travelling together. We keep everyone\u2019s applications on the same timeline, manage children\u2019s and dependants\u2019 paperwork, and make sure no one application falls behind and holds up the rest."
       },
       {
         "summary": "What about transit visas and multi-country trips?",
@@ -283,12 +280,8 @@
     "lede": "A private travel maison, by invitation. If you hold one, the paperwork is already in hand.",
     "buttons": [
       {
-        "label": "Request membership",
-        "href": "join.html"
-      },
-      {
-        "label": "All three services",
-        "href": "services.html"
+        "label": "Plan a trip",
+        "href": "concierge.html"
       }
     ]
   }

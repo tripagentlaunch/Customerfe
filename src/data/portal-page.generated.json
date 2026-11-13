@@ -8,8 +8,8 @@
     "headingHtml": "Your maison,<br/>in one <span class=\"it\">private</span> place.",
     "lede": "It begins on WhatsApp, with a named advisor who holds it all: your trips, your documents, the way you like to travel. The web home, in build now, keeps the record.",
     "image": "/_vercel/image?url=%2Fimg%2Fh%2Fportal.jpg&w=2560&q=80",
-    "ctaLabel": "Become a member",
-    "ctaHref": "join.html",
+    "ctaLabel": "",
+    "ctaHref": "",
     "textLabel": "See how it works",
     "textHref": "how-it-works.html"
   },
@@ -84,8 +84,8 @@
     "eyebrow": "How a member uses it",
     "heading": "A message, and it is held.",
     "lede": "The whole of it fits in four small motions, and three of them happen on your advisor's side, not yours.",
-    "ctaLabel": "Become a member",
-    "ctaHref": "join.html",
+    "ctaLabel": "",
+    "ctaHref": "",
     "steps": [
       {
         "n": "1",
@@ -158,12 +158,8 @@
     "headingHtml": "One place. One person.<br/>One <span class=\"it\">thread</span> that holds it all.",
     "buttons": [
       {
-        "label": "Become a member",
-        "href": "join.html"
-      },
-      {
         "label": "Plan a trip",
-        "href": "enquire.html"
+        "href": "concierge.html"
       }
     ]
   }

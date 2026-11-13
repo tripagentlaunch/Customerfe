@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import health from "../data/health.generated.json";
 import type {
@@ -18,7 +18,9 @@ import type {
 } from "../types/health";
 import { useScrollReveal } from "../lib/useScrollReveal";
 import { toRoute } from "../lib/toRoute";
-import { withTaraAI } from "../components/TaraAI";
+import { healthPhoto } from "../lib/healthPhotos";
+import { PrimaryInverseButton, SecondaryInverseButton } from "../components/buttons/InverseButtons";
+// import { withTaraAI } from "../components/TaraAI"; // "Tara AI" removed from the health closing band (2026-11-13)
 import "./health-page.module.css";
 import NotFoundPage from "./NotFoundPage";
 
@@ -109,7 +111,9 @@ function CardGrid({ cards }: { cards: HealthCard[] }) {
   );
 }
 
-function IndexRows({ rows }: { rows: HealthIndexRow[] }) {
+// IndexRows (plain name + city rows) is no longer used since the hospital listings became cards (2026-11-13).
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+export function IndexRows({ rows }: { rows: HealthIndexRow[] }) {
   return (
     <div className="med-index reveal d1">
       {rows.map((r, i) => (
@@ -122,6 +126,80 @@ function IndexRows({ rows }: { rows: HealthIndexRow[] }) {
           )}
         </div>
       ))}
+    </div>
+  );
+}
+
+
+// ---------- hospital cards (2026-11-13, direct request) ----------
+// Hospital listings (destination pages' "flagship hospitals", specialty pages' "where the world leads") are cards like the
+// city pages' hotel cards: photo on top, name, city, accreditation tags, a short description, equal heights, and a link
+// when the hospital has its own page. Hospitals with their own page are matched by name; the rest show name and city only.
+const normName = (n: string) => n.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+type HospitalInfo = { slug: string; lede: string | null; city: string | null; tags: string[] };
+const HOSPITALS: Record<string, HospitalInfo> = {};
+const stripTags = (h: string | null | undefined) => (h ?? "").replace(/<[^>]+>/g, "").replace(/&amp;/g, "&").trim();
+const ACCRED = /\b(JCI|NABH|NABL|ISO\s?\d*|AACI|CAP|TEMOS|Magnet|OECI|Joint Commission|KOIHA|HAAD|DOH|ACHS)\b/g;
+for (const [slug, d] of Object.entries(HEALTH)) {
+  if (d.category !== "hospital") continue;
+  const h = (d as HospitalData).hospital;
+  const hero = (d as HospitalData).hero;
+  const chips = (h?.bestFor?.accrChips ?? []) as string[];
+  const tags = Array.from(new Set(chips.join(" ; ").match(ACCRED) ?? [])).slice(0, 3);
+  HOSPITALS[normName(hero.name ?? "")] = {
+    slug,
+    lede: hero.lede ?? null,
+    city: stripTags(hero.eyebrowHtml).split("·")[0].replace(/\(.*?\)/g, "").trim() || null,
+    tags,
+  };
+}
+
+function HospitalCards({ rows, photoKey, pageSize = 9 }: { rows: HealthIndexRow[]; photoKey?: string; pageSize?: number }) {
+  const [shown, setShown] = useState(pageSize);
+  return (
+    <div className="reveal d1">
+      <div className="hc-grid">
+        {rows.slice(0, shown).map((r, i) => {
+          const info = HOSPITALS[normName(r.name ?? "")];
+          const place = r.region || info?.city || null;
+          const inner = (
+            <>
+              <div className="hc-pic">
+                <img src={healthPhoto(place, i, photoKey)} alt="" loading="lazy" />
+              </div>
+              <div className="hc-body">
+                {place && <div className="hc-area">{place}</div>}
+                <h3>{r.name}</h3>
+                {info && info.tags.length > 0 && (
+                  <div className="hc-tags">
+                    {info.tags.map((t) => (
+                      <span key={t}>{t}</span>
+                    ))}
+                  </div>
+                )}
+                {info?.lede && <p>{info.lede}</p>}
+                {info && <span className="hc-more">View hospital</span>}
+              </div>
+            </>
+          );
+          return info ? (
+            <Link className="hc-card" to={`/${info.slug}`} key={i}>
+              {inner}
+            </Link>
+          ) : (
+            <div className="hc-card hc-plain" key={i}>
+              {inner}
+            </div>
+          );
+        })}
+      </div>
+      {shown < rows.length && (
+        <div className="btn-row" style={{ marginTop: 28 }}>
+          <button type="button" className="btn btn-gold" onClick={() => setShown((n) => n + pageSize)}>
+            Show more
+          </button>
+        </div>
+      )}
     </div>
   );
 }
@@ -288,7 +366,7 @@ function HospitalBody({ data }: { data: HospitalData["hospital"] }) {
   );
 }
 
-function DestinationBody({ data }: { data: DestinationData["destination"] }) {
+function DestinationBody({ data, photoKey }: { data: DestinationData["destination"]; photoKey?: string }) {
   return (
     <>
       <section className="band">
@@ -326,9 +404,7 @@ function DestinationBody({ data }: { data: DestinationData["destination"] }) {
             eyebrow={data.flagshipHospitals.eyebrow}
             heading={data.flagshipHospitals.heading}
           />
-          <IndexRows rows={data.flagshipHospitals.primary} />
-          <SubHeader text={data.flagshipHospitals.moreHeader} />
-          {data.flagshipHospitals.more.length > 0 && <IndexRows rows={data.flagshipHospitals.more} />}
+          <HospitalCards rows={[...data.flagshipHospitals.primary, ...data.flagshipHospitals.more]} photoKey={photoKey} />
         </div>
       </section>
       <section className="band">
@@ -384,9 +460,9 @@ function SpecialtyBody({ data }: { data: SpecialtyData["specialty"] }) {
             eyebrow={data.whereWorldLeads.eyebrow}
             heading={data.whereWorldLeads.heading}
           />
-          <IndexRows rows={data.whereWorldLeads.primary} />
+          <HospitalCards rows={data.whereWorldLeads.primary} />
           <SubHeader text={data.whereWorldLeads.indiaHeader} />
-          {data.whereWorldLeads.indiaRows.length > 0 && <IndexRows rows={data.whereWorldLeads.indiaRows} />}
+          {data.whereWorldLeads.indiaRows.length > 0 && <HospitalCards rows={data.whereWorldLeads.indiaRows} />}
         </div>
       </section>
       <section className="band tight" style={{ background: "var(--bone)" }}>
@@ -566,14 +642,22 @@ export default function HealthPage() {
 
   return (
     <>
-      <header className="med-hero">
+      {/* Hero refreshed 2026-11-13: photo hero like the service pages (country photo on destination pages, a calm stand-in elsewhere). */}
+      <header
+        className="rf-hero"
+        style={{ backgroundImage: `linear-gradient(90deg, rgba(8,6,5,.82) 0%, rgba(8,6,5,.6) 45%, rgba(8,6,5,.4) 100%), url('${healthPhoto(stripTags(data.hero.eyebrowHtml), 0, pageSlug?.startsWith("health-destination-") ? pageSlug.replace("health-destination-", "") : null)}')` }}
+      >
         <div className="wrap">
-          <div className="med-hero-ic">
-            <Icon svg={data.hero.iconSvg} />
+          <div className="rf-hero-copy">
+            <div className="eyebrow on-dark">{stripTags(data.hero.eyebrowHtml)}</div>
+            <div className="rule" />
+            <h1 className="display">{data.hero.name}</h1>
+            <p className="lede on-dark">{data.hero.lede}</p>
+            <div className="btn-row rf-hero-btns">
+              <PrimaryInverseButton to="destinations.html">Find my trip</PrimaryInverseButton>
+              <SecondaryInverseButton to="concierge.html">Chat with us</SecondaryInverseButton>
+            </div>
           </div>
-          <div className="eyebrow" dangerouslySetInnerHTML={{ __html: data.hero.eyebrowHtml ?? "" }} />
-          <h1>{data.hero.name}</h1>
-          <p className="lede">{data.hero.lede}</p>
         </div>
       </header>
 
@@ -588,28 +672,28 @@ export default function HealthPage() {
       </section>
 
       {data.category === "hospital" && <HospitalBody data={data.hospital} />}
-      {data.category === "destination" && <DestinationBody data={data.destination} />}
+      {data.category === "destination" && <DestinationBody data={data.destination} photoKey={pageSlug?.replace("health-destination-", "")} />}
       {data.category === "specialty" && <SpecialtyBody data={data.specialty} />}
       {data.category === "guide" && <GuideBody data={data.guide} />}
       {data.category === "longevity" && <LongevityBody data={data.longevity} />}
       {data.category === "pathway" && <PathwayBody data={data.pathway} />}
 
-      <section className="med-concierge">
+      {/* Closing band refreshed 2026-11-13: the shared photo band (was a plain dark gradient with a "Speak to Tara AI" button). */}
+      <section className="band-dark band center" style={{ backgroundImage: "var(--scrim), url('/img/h/destination-switzerland.jpg')" }}>
         <div className="wrap">
-          <div className="eyebrow on-dark">Your medical-travel advisor</div>
-          <h2>{data.concierge.heading}</h2>
-          <p>{data.concierge.shareText}</p>
-          <div className="med-conf">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.1} strokeLinecap="round" strokeLinejoin="round">
+          <div className="eyebrow on-dark reveal">Your medical-travel advisor</div>
+          <div className="rule center reveal d1" />
+          <h2 className="reveal d1" style={{ maxWidth: "22ch", margin: "0 auto" }}>{data.concierge.heading}</h2>
+          <p className="lede on-dark reveal d2" style={{ margin: "22px auto 0", maxWidth: "56ch" }}>{data.concierge.shareText}</p>
+          <div className="med-conf reveal d2" style={{ justifyContent: "center", marginTop: 18 }}>
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth={1.1} strokeLinecap="round" strokeLinejoin="round">
               <path d="M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6z" />
               <path d="M9.2 12l2 2 3.6-3.6" />
             </svg>
             {data.concierge.confidenceNote}
           </div>
-          <div className="btn-row">
-            <Link className="btn btn-gold on-dark btn-square" to={toRoute(data.concierge.cta.href ?? "/enquire")}>
-              {withTaraAI(data.concierge.cta.label)}
-            </Link>
+          <div className="btn-row center reveal d3" style={{ marginTop: 28 }}>
+            <PrimaryInverseButton to="concierge.html">Plan a trip</PrimaryInverseButton>
           </div>
         </div>
       </section>

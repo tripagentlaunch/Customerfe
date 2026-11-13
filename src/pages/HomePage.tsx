@@ -222,9 +222,11 @@ export default function HomePage() {
                 {services.lede}
               </p>
             </div>
-            <Link className="cta" to={toRoute(services.allHref)} style={{ whiteSpace: "nowrap", paddingBottom: 6 }}>
-              {services.allLabel}
-            </Link>
+            {!isMobile && (
+              <Link className="cta" to={toRoute(services.allHref)} style={{ whiteSpace: "nowrap", paddingBottom: 6 }}>
+                {services.allLabel}
+              </Link>
+            )}
           </div>
           <div className={`grid-3 ${styles.servicesGrid}`} style={{ textAlign: "left" }}>
             {services.cards.map((card, i) => {
@@ -250,6 +252,14 @@ export default function HomePage() {
               );
             })}
           </div>
+          {/* Phone: "All we handle" sits below the cards instead of beside the heading. */}
+          {isMobile && (
+            <div className="reveal" style={{ marginTop: 28 }}>
+              <Link className="cta" to={toRoute(services.allHref)} style={{ whiteSpace: "nowrap", paddingBottom: 6 }}>
+                {services.allLabel}
+              </Link>
+            </div>
+          )}
         </div>
       </section>
 

@@ -11,6 +11,7 @@ import { PhoneFrame, PhoneFrameRouteSync, wantsPhoneFrame } from "./DevPhoneFram
 // fonts with different metrics — this was silently missing before.
 import "./css/fonts.css";
 import "./css/site.css";
+import "./css/refresh.css";
 
 // Pages load on demand (PageRouter.tsx). After a deploy, a tab opened before it asks for page files that no longer exist: reload
 // once to pick up the new build instead of showing a broken page (lib/versionReload.ts).

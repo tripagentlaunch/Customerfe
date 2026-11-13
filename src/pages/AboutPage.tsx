@@ -7,6 +7,8 @@ import styles from "./about-page.module.css";
 
 const data = aboutData as unknown as AboutPageData;
 
+// Design refresh (2026-11-13, direct request), same treatment as Flights, Hotels, Visas and Protection. Copy is
+// unchanged; the pull quote and the one-line quote are hidden.
 export default function AboutPage() {
   useEffect(() => {
     if (data.seo.title) document.title = data.seo.title;
@@ -15,79 +17,81 @@ export default function AboutPage() {
   useScrollReveal([]);
 
   const { hero, pullQuote, belief, lineage, pq, stats, partners, people, values, cta } = data;
+  void cta;
 
   return (
     <main>
-      <header className={`hero left ${styles.heroAbt}`} style={{ backgroundImage: `url('${hero.image}')`, backgroundPosition: "55% 50%" }}>
-        <div className="wrap hero-inner">
-          <div className="hs-copy">
-            <div className="eyebrow on-dark">{hero.eyebrow}</div>
-            <div className="rule" />
-            <h1 dangerouslySetInnerHTML={{ __html: hero.headingHtml ?? "" }} />
-            <p className="lede on-dark" style={{ marginTop: 22 }}>
-              {hero.lede}
-            </p>
+      <header className={styles.fHero} style={{ backgroundImage: `linear-gradient(90deg, rgba(8,6,5,.82) 0%, rgba(8,6,5,.6) 45%, rgba(8,6,5,.4) 100%), url('${hero.image}')` }}>
+        <div className="wrap">
+          <div className={styles.fHeroCopy}>
+            <div className="eyebrow on-dark reveal">{hero.eyebrow}</div>
+            <div className="rule reveal d1" />
+            <h1 className="display reveal d1" dangerouslySetInnerHTML={{ __html: hero.headingHtml ?? "" }} />
+            <p className="lede on-dark reveal d2">{hero.lede}</p>
+            <div className={`btn-row ${styles.fHeroBtns} reveal d3`}>
+              <PrimaryInverseButton to="destinations.html">Find my trip</PrimaryInverseButton>
+              <SecondaryInverseButton to="concierge.html">Chat with us</SecondaryInverseButton>
+            </div>
           </div>
         </div>
-        <div className="scrolldown">Scroll</div>
       </header>
 
-      <section className={styles.pull}>
-        <div className="wrap">
-          <blockquote className="reveal" dangerouslySetInnerHTML={{ __html: pullQuote.quoteHtml ?? "" }} />
-          <cite className="reveal d1">{pullQuote.cite}</cite>
-        </div>
-      </section>
+      {/* Quotes ("The last luxury...", "The same person each time...") hidden 2026-11-13, in line with the other pages. */}
+      {false && (
+        <>
+          <section className={styles.pull}>
+            <div className="wrap">
+              <blockquote dangerouslySetInnerHTML={{ __html: pullQuote.quoteHtml ?? "" }} />
+              <cite>{pullQuote.cite}</cite>
+            </div>
+          </section>
+          <section className="band tight">
+            <div className="wrap">
+              <div className="pq">
+                <p>{pq}</p>
+              </div>
+            </div>
+          </section>
+        </>
+      )}
 
       <section className="band tight" style={{ background: "var(--bone)" }}>
-        <div className="wrap grid-2">
-          <div className="reveal">
+        <div className={`wrap ${styles.fSplit}`}>
+          <div className={`${styles.fSplitPic} reveal`} style={{ backgroundImage: `url('${belief.image}')` }} role="img" aria-label={belief.imageAlt ?? undefined} />
+          <div className="reveal d1">
             <div className="eyebrow">{belief.eyebrow}</div>
             <div className="rule" />
-            <h2 style={{ fontSize: "clamp(28px,3.6vw,52px)" }} dangerouslySetInnerHTML={{ __html: belief.headingHtml ?? "" }} />
+            <h2 style={{ fontSize: "clamp(28px,3.6vw,48px)" }} dangerouslySetInnerHTML={{ __html: belief.headingHtml ?? "" }} />
             {belief.ledes.map((l, i) => (
               <p className="lede" style={{ marginTop: i === 0 ? 18 : 14 }} key={i}>
                 {l}
               </p>
             ))}
           </div>
-          <div className="reveal d2" style={{ alignSelf: "center" }}>
-            <div className="deep-img" style={{ backgroundImage: `url('${belief.image}')` }} role="img" aria-label={belief.imageAlt ?? undefined} />
-          </div>
         </div>
       </section>
 
       <section className="band">
-        <div className="wrap grid-2" style={{ direction: "rtl" }}>
-          <div className="reveal" style={{ direction: "ltr" }}>
-            <div className="deep-img" style={{ backgroundImage: `url('${lineage.image}')` }} role="img" aria-label={lineage.imageAlt ?? undefined} />
-          </div>
-          <div className="reveal d2" style={{ direction: "ltr" }}>
+        <div className={`wrap ${styles.fSplit} ${styles.rev}`}>
+          <div className="reveal d1">
             <div className="eyebrow">{lineage.eyebrow}</div>
             <div className="rule" />
-            <h2 style={{ fontSize: "clamp(28px,3.4vw,50px)" }} dangerouslySetInnerHTML={{ __html: lineage.headingHtml ?? "" }} />
+            <h2 style={{ fontSize: "clamp(28px,3.4vw,46px)" }} dangerouslySetInnerHTML={{ __html: lineage.headingHtml ?? "" }} />
             {lineage.ledes.map((l, i) => (
               <p className="lede" style={{ marginTop: i === 0 ? 18 : 14 }} key={i}>
                 {l}
               </p>
             ))}
-            <ul className="incl plain" style={{ marginTop: 22, maxWidth: "none" }}>
+            <ul className={styles.fChecks}>
               {lineage.items.map((it, i) => (
                 <li key={i}>
-                  <span className="ck">✓</span>
+                  <span aria-hidden="true">✓</span>
                   <span dangerouslySetInnerHTML={{ __html: it ?? "" }} />
                 </li>
               ))}
             </ul>
           </div>
-        </div>
-      </section>
-
-      <section className="band tight">
-        <div className="wrap">
-          <div className="pq reveal">
-            <p>{pq}</p>
-          </div>
+          <div className={`${styles.fSplitPic} reveal`} style={{ backgroundImage: `url('${lineage.image}')` }} role="img" aria-label={lineage.imageAlt ?? undefined} />
         </div>
       </section>
 
@@ -109,37 +113,37 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="band tight center">
+      <section className="band tight" style={{ background: "var(--bone)" }}>
         <div className="wrap">
-          <div className="eyebrow reveal">{partners.eyebrow}</div>
-          <div className="rule center reveal d1" />
-          <h2 className="reveal d1" style={{ maxWidth: "24ch", margin: "0 auto" }}>
-            {partners.heading}
-          </h2>
-          <p className="lede reveal d2" style={{ margin: "26px auto 0" }}>
-            {partners.lede}
-          </p>
-          <div className={`${styles.partners} reveal d2`}>
+          <div className={`${styles.fHead} reveal`}>
+            <div className="eyebrow">{partners.eyebrow}</div>
+            <div className="rule" />
+            <h2>{partners.heading}</h2>
+            <p className="lede">{partners.lede}</p>
+          </div>
+          <div className={`${styles.fPartners} reveal d1`}>
             {partners.items.map((p, i) => (
-              <span key={i}>{p}</span>
+              <div className={styles.fPartner} key={i}>
+                {p}
+              </div>
             ))}
           </div>
         </div>
       </section>
 
-      <section className="band tight" style={{ background: "var(--bone)" }}>
-        <div className="wrap grid-2">
-          <div className="reveal">
+      <section className="band">
+        <div className="wrap">
+          <div className={`${styles.fHead} reveal`}>
             <div className="eyebrow">{people.eyebrow}</div>
             <div className="rule" />
-            <h2 style={{ fontSize: "clamp(28px,3.4vw,50px)" }}>{people.heading}</h2>
-            <p className="lede" style={{ marginTop: 18 }} dangerouslySetInnerHTML={{ __html: people.ledeHtml ?? "" }} />
+            <h2>{people.heading}</h2>
+            <p className="lede" dangerouslySetInnerHTML={{ __html: people.ledeHtml ?? "" }} />
             {people.lede2Html && <p className="lede" style={{ marginTop: 14 }} dangerouslySetInnerHTML={{ __html: people.lede2Html }} />}
           </div>
-          <div className="reveal d2" style={{ display: "flex", flexDirection: "column", gap: 22, alignSelf: "center" }}>
+          <div className={`${styles.fTiles} reveal d1`}>
             {people.feats.map((f, i) => (
-              <div className="feat" key={i}>
-                <div className="n">{f.label}</div>
+              <div className={styles.fTile} key={i}>
+                <div className={styles.fTileLabel}>{f.label}</div>
                 <h3>{f.heading}</h3>
                 <p>{f.body}</p>
               </div>
@@ -148,30 +152,14 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* "Values"'s own copy was replaced by the former closing CTA's
-          (the page's actual final CTA) per explicit request — this section
-          keeps only `values.image` as its photo background now; the plain
-          light `cta` band that used to follow it is gone, folded in here
-          instead, so the photo band is genuinely the last section before
-          the footer. */}
       <section className="band-dark band center" style={{ backgroundImage: `var(--scrim), url('${values.image}')` }}>
         <div className="wrap">
-          <h2 className="reveal" style={{ fontSize: "clamp(30px,4vw,58px)" }} dangerouslySetInnerHTML={{ __html: cta.headingHtml ?? "" }} />
-          <p className="lede on-dark reveal d1" style={{ margin: "22px auto 0" }}>
+          <h2 className="reveal" style={{ maxWidth: "22ch", margin: "0 auto" }} dangerouslySetInnerHTML={{ __html: cta.headingHtml ?? "" }} />
+          <p className="lede on-dark reveal d1" style={{ margin: "22px auto 0", maxWidth: "52ch" }}>
             {cta.lede}
           </p>
-          <div className="btn-row center reveal d2" style={{ marginTop: 26 }}>
-            {cta.buttons.map((b, i) =>
-              i === 0 ? (
-                <PrimaryInverseButton to={b.href} key={i}>
-                  {b.label}
-                </PrimaryInverseButton>
-              ) : (
-                <SecondaryInverseButton to={b.href} key={i}>
-                  {b.label}
-                </SecondaryInverseButton>
-              )
-            )}
+          <div className="btn-row center reveal d2" style={{ marginTop: 28 }}>
+            <PrimaryInverseButton to="concierge.html">Plan a trip</PrimaryInverseButton>
           </div>
         </div>
       </section>

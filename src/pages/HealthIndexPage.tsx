@@ -1,11 +1,14 @@
 import { useEffect, useState } from "react";
+import { useIsMobile } from "../hooks/useIsMobile";
 import { Link } from "react-router-dom";
 import healthIndexData from "../data/health-index-page.generated.json";
 import type { HealthCard, HealthIndexPageData } from "../types/health-index-page";
 import { useScrollReveal } from "../lib/useScrollReveal";
 import { toRoute } from "../lib/toRoute";
-import { withTaraAI } from "../components/TaraAI";
-import styles from "./health-index-page.module.css";
+import { healthPhoto } from "../lib/healthPhotos";
+import { PrimaryInverseButton, SecondaryInverseButton } from "../components/buttons/InverseButtons";
+// import { withTaraAI } from "../components/TaraAI"; // "Tara AI" removed from the health closing band (2026-11-13)
+import "./health-index-page.module.css"; // styles unused since the hero rebuild (2026-11-13); kept as a side-effect import
 
 const data = healthIndexData as unknown as HealthIndexPageData;
 
@@ -56,20 +59,54 @@ function SectionHead({
   );
 }
 
-function CardGrid({ cards }: { cards: HealthCard[] }) {
+// Photo cards (2026-11-13, direct request), modelled on the city pages' hotel cards: photo on top, place, name, text.
+// Photos are stand-ins (see lib/healthPhotos.ts) until real hospital / clinic photos exist.
+function CardGrid({ cards, paginate = false }: { cards: HealthCard[]; paginate?: boolean }) {
+  // Pagination (2026-11-13, direct request, used by Longevity & wellness): three rows a page, so 9 / 6 / 3 cards as the grid
+  // goes 3 / 2 / 1 across, with numbered pages and arrows beneath.
+  const oneColumn = useIsMobile(620);
+  const twoColumns = useIsMobile(1000);
+  const pageSize = !paginate ? cards.length : oneColumn ? 3 : twoColumns ? 6 : 9;
+  const pages = Math.max(1, Math.ceil(cards.length / pageSize));
+  const [page, setPage] = useState(0);
+  const cur = Math.min(page, pages - 1);
+  useEffect(() => setPage(0), [pageSize]);
+  const shown = cards.slice(cur * pageSize, (cur + 1) * pageSize);
   return (
-    <div className="med-grid cols2 reveal d1">
-      {cards.map((c, i) => (
-        <Link className="med-card" to={toRoute(c.href ?? "#")} key={i}>
-          <div className="mc-ic">
-            <Icon svg={c.iconSvg} />
-          </div>
-          <div className="mc-sub">{c.sub}</div>
-          <h3>{c.name}</h3>
-          <p>{c.body}</p>
-          <span className="mc-more">Discover →</span>
-        </Link>
-      ))}
+    <div className="reveal d1">
+      <div className="hc-grid">
+        {shown.map((c, i) => {
+          const idx = cur * pageSize + i;
+          return (
+            <Link className="hc-card" to={toRoute(c.href ?? "#")} key={idx}>
+              <div className="hc-pic">
+                <img src={healthPhoto(c.sub ?? c.name, idx)} alt="" loading="lazy" />
+              </div>
+              <div className="hc-body">
+                {c.sub && c.sub !== c.name && <div className="hc-area">{c.sub}</div>}
+                <h3>{c.name}</h3>
+                <p>{c.body}</p>
+                <span className="hc-more">Discover</span>
+              </div>
+            </Link>
+          );
+        })}
+      </div>
+      {paginate && pages > 1 && (
+        <nav className="hc-pager" aria-label="Pages">
+          <button type="button" onClick={() => setPage(Math.max(0, cur - 1))} disabled={cur === 0} aria-label="Previous page">
+            ‹
+          </button>
+          {Array.from({ length: pages }, (_, n) => (
+            <button type="button" key={n} className={n === cur ? "on" : undefined} aria-current={n === cur ? "page" : undefined} onClick={() => setPage(n)}>
+              {n + 1}
+            </button>
+          ))}
+          <button type="button" onClick={() => setPage(Math.min(pages - 1, cur + 1))} disabled={cur === pages - 1} aria-label="Next page">
+            ›
+          </button>
+        </nav>
+      )}
     </div>
   );
 }
@@ -117,6 +154,8 @@ function Explorer({ explorer }: { explorer: HealthIndexPageData["explorer"] }) {
                     <span className="ix-n">{r.name}</span>
                     <span className="ix-r">
                       <span className="ix-m">{r.location}</span>
+                      {/* empty arrow slot so the location column lines up with the linked rows (2026-11-13) */}
+                      <span className="ix-a" aria-hidden="true" />
                     </span>
                   </div>
                 )
@@ -140,20 +179,23 @@ export default function HealthIndexPage() {
 
   return (
     <main>
-      <header className="med-hero">
+      {/* Hero refreshed 2026-11-13: photo hero like the service pages. The duplicated breadcrumb + eyebrow ("What we handle /
+          Health & Longevity" twice) became one eyebrow, and the faint icon is gone. */}
+      <header className="rf-hero" style={{ backgroundImage: "linear-gradient(90deg, rgba(8,6,5,.82) 0%, rgba(8,6,5,.6) 45%, rgba(8,6,5,.4) 100%), url('/img/h/destination-switzerland.jpg')" }}>
         <div className="wrap">
-          <div className="med-hero-ic">
-            <Icon svg={hero.iconSvg} />
+          <div className="rf-hero-copy">
+            <div className="eyebrow on-dark">{hero.hereLabel}</div>
+            <div className="rule" />
+            <h1 className="display">{hero.heading}</h1>
+            <p className="lede on-dark">{hero.lede}</p>
+            <p className="lede on-dark" style={{ fontSize: 15, marginTop: 14, opacity: 0.85 }}>
+              {hero.kicker}
+            </p>
+            <div className="btn-row rf-hero-btns">
+              <PrimaryInverseButton to="destinations.html">Find my trip</PrimaryInverseButton>
+              <SecondaryInverseButton to="concierge.html">Chat with us</SecondaryInverseButton>
+            </div>
           </div>
-          <div className={`${styles.crumb} eyebrow`}>
-            <Link to={toRoute(hero.crumbHref)}>{hero.crumbLabel}</Link>
-            <span className={styles.sep}>/</span>
-            <span className={styles.here}>{hero.hereLabel}</span>
-          </div>
-          <div className="eyebrow">{hero.eyebrow}</div>
-          <h1>{hero.heading}</h1>
-          <p className="lede">{hero.lede}</p>
-          <p className={styles.medKicker}>{hero.kicker}</p>
         </div>
       </header>
 
@@ -180,10 +222,12 @@ export default function HealthIndexPage() {
       <section className="band">
         <div className="wrap">
           <SectionHead iconSvg={longevity.eyebrowIconSvg} eyebrow={longevity.eyebrow} heading={longevity.heading} lede={longevity.lede} />
-          <CardGrid cards={longevity.cards} />
+          <CardGrid cards={longevity.cards} paginate />
         </div>
       </section>
 
+      {/* "Stay ahead / Preventive & executive health." removed 2026-11-13, direct request; kept hidden for easy restore. */}
+      {false && (
       <section className="band tight" style={{ background: "var(--bone)" }}>
         <div className="wrap">
           <SectionHead iconSvg={preventive.eyebrowIconSvg} eyebrow={preventive.eyebrow} heading={preventive.heading} lede={preventive.lede} />
@@ -196,6 +240,7 @@ export default function HealthIndexPage() {
           </div>
         </div>
       </section>
+      )}
 
       <section className="band">
         <div className="wrap">
@@ -214,33 +259,32 @@ export default function HealthIndexPage() {
       <section className="band">
         <div className="wrap">
           <SectionHead iconSvg={steps.eyebrowIconSvg} eyebrow={steps.eyebrow} heading={steps.heading} />
-          <div className="feat-grid reveal d1" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(240px,1fr))", gap: 26 }}>
-            {steps.items.map((s, i) => (
-              <div className="med-card" style={{ border: 0, padding: 0, background: "none" }} key={i}>
-                <div className="mc-ic">
-                  <Icon svg={s.iconSvg} />
-                </div>
-                <h3 style={{ fontSize: 20 }}>{s.heading}</h3>
-                <p>{s.body}</p>
+          {/* Three steps as the numbered row used on the other "How it works" sections (2026-11-13). Was icon columns. */}
+          <div className="rf-steps reveal d1" style={{ gridTemplateColumns: "repeat(auto-fit,minmax(240px,1fr))" }}>
+            {steps.items.map((st, i) => (
+              <div className="rf-step" key={i}>
+                <div className="rf-step-n">{i + 1}</div>
+                <h4>{st.heading}</h4>
+                <p>{st.body}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      <section className="med-concierge">
+      {/* Closing band refreshed 2026-11-13: the shared photo band (was a plain dark gradient with a "Speak to Tara AI" button). */}
+      <section className="band-dark band center" style={{ backgroundImage: "var(--scrim), url('/img/h/destination-switzerland.jpg')" }}>
         <div className="wrap">
-          <div className="eyebrow on-dark">{concierge.eyebrow}</div>
-          <h2>{concierge.heading}</h2>
-          <p>{concierge.body}</p>
-          <div className="med-conf">
+          <div className="eyebrow on-dark reveal">{concierge.eyebrow}</div>
+          <div className="rule center reveal d1" />
+          <h2 className="reveal d1" style={{ maxWidth: "22ch", margin: "0 auto" }}>{concierge.heading}</h2>
+          <p className="lede on-dark reveal d2" style={{ margin: "22px auto 0", maxWidth: "56ch" }}>{concierge.body}</p>
+          <div className="med-conf reveal d2" style={{ justifyContent: "center", marginTop: 18 }}>
             <Icon svg={concierge.confIconSvg} />
             {concierge.confText}
           </div>
-          <div className="btn-row">
-            <Link className="btn btn-gold on-dark btn-square" to={toRoute(concierge.ctaHref)}>
-              {withTaraAI(concierge.ctaLabel)}
-            </Link>
+          <div className="btn-row center reveal d3" style={{ marginTop: 28 }}>
+            <PrimaryInverseButton to="concierge.html">Plan a trip</PrimaryInverseButton>
           </div>
         </div>
       </section>

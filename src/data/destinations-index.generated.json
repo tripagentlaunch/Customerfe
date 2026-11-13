@@ -4,7 +4,7 @@
     "description": "Where our members go, and how we look after them there. Thirty-six countries and 110+ cities we know first-hand: the flights we secure, the stays we choose, the visa that sets your dates."
   },
   "hero": {
-    "eyebrow": "Destinations · by invitation",
+    "eyebrow": "Destinations \u00b7 by invitation",
     "headingHtml": "A few places,<br/>known <span class=\"it\">first-hand</span>.",
     "lede": "Where our members go, and how we look after them there. The flights, the stays, the visa, all in hand.",
     "image": "/_vercel/image?url=%2Fimg%2Fh%2Fdestinations.jpg&w=2560&q=80",
@@ -17,7 +17,7 @@
     "eyebrow": "Where we go",
     "heading": "The world, within reach.",
     "lede": "110+ cities we know first-hand, on one map. Tap a mark for the guide, then plan the journey.",
-    "foot": "110+ cities, known first-hand · tap a mark for the place.",
+    "foot": "110+ cities, known first-hand \u00b7 tap a mark for the place.",
     "pins": [
       {
         "lon": 55.2708,
@@ -160,7 +160,7 @@
       {
         "lon": 73.5093,
         "lat": 4.1755,
-        "name": "Malé & the Atolls",
+        "name": "Mal\u00e9 & the Atolls",
         "slug": "male-maldives"
       },
       {
@@ -196,7 +196,7 @@
       {
         "lon": 55.4513,
         "lat": -4.6191,
-        "name": "Mahé",
+        "name": "Mah\u00e9",
         "slug": "mahe-seychelles"
       },
       {
@@ -478,7 +478,7 @@
       {
         "lon": -86.8515,
         "lat": 21.1619,
-        "name": "Cancún",
+        "name": "Canc\u00fan",
         "slug": "cancun"
       },
       {
@@ -823,7 +823,7 @@
           "cities": [
             {
               "slug": "male-maldives",
-              "name": "Malé & the Atolls"
+              "name": "Mal\u00e9 & the Atolls"
             }
           ]
         },
@@ -853,7 +853,7 @@
           "cities": [
             {
               "slug": "mahe-seychelles",
-              "name": "Mahé"
+              "name": "Mah\u00e9"
             }
           ]
         },
@@ -1317,10 +1317,10 @@
       ]
     },
     {
-      "label": "Türkiye",
+      "label": "T\u00fcrkiye",
       "groups": [
         {
-          "country": "Türkiye",
+          "country": "T\u00fcrkiye",
           "size": "normal",
           "cities": [
             {
@@ -1413,7 +1413,7 @@
           "cities": [
             {
               "slug": "cancun",
-              "name": "Cancún"
+              "name": "Canc\u00fan"
             },
             {
               "slug": "mexico-city",
@@ -1535,11 +1535,7 @@
     "buttons": [
       {
         "label": "Plan a trip",
-        "href": "enquire.html"
-      },
-      {
-        "label": "Become a member",
-        "href": "join.html"
+        "href": "concierge.html"
       }
     ]
   }

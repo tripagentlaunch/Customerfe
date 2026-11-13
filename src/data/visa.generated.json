@@ -11,8 +11,8 @@
       "image": "/_vercel/image?url=%2Fimg%2Fh%2Fvisa-australia.jpg&w=2560&q=80",
       "imagePosition": "55% 50%",
       "backLink": {
-        "label": "\u2190 All visa guides",
-        "href": "visa-guides.html"
+        "label": "Visas",
+        "href": "visas.html"
       },
       "eyebrow": "Asia-Pacific \u00b7 Indian passport",
       "headingHtml": "The Australia<br/><span class=\"it\">visa</span>.",
@@ -226,8 +226,8 @@
         "href": "enquire.html"
       },
       "ctaSecondary": {
-        "label": "All visa guides",
-        "href": "visa-guides.html"
+        "label": "Visas",
+        "href": "visas.html"
       },
       "image": "/_vercel/image?url=%2Fimg%2Fh%2Fvisa-australia.jpg&w=2048&q=80"
     },
@@ -259,7 +259,7 @@
       "lede": "Tell us your dates and who is travelling. We'll come back with the flights, the stays and the visa, all looked after. Membership is by invitation.",
       "ctaPrimary": {
         "label": "Plan a trip",
-        "href": "enquire.html"
+        "href": "concierge.html"
       },
       "ctaSecondary": {
         "label": "By invitation",
@@ -279,8 +279,8 @@
       "image": "/_vercel/image?url=%2Fimg%2Fh%2Fvisa-canada.jpg&w=2560&q=80",
       "imagePosition": "55% 50%",
       "backLink": {
-        "label": "\u2190 All visa guides",
-        "href": "visa-guides.html"
+        "label": "Visas",
+        "href": "visas.html"
       },
       "eyebrow": "The Americas \u00b7 Indian passport",
       "headingHtml": "The Canada<br/><span class=\"it\">visa</span>.",
@@ -494,8 +494,8 @@
         "href": "enquire.html"
       },
       "ctaSecondary": {
-        "label": "All visa guides",
-        "href": "visa-guides.html"
+        "label": "Visas",
+        "href": "visas.html"
       },
       "image": "/_vercel/image?url=%2Fimg%2Fh%2Fvisa-canada.jpg&w=2048&q=80"
     },
@@ -527,7 +527,7 @@
       "lede": "Tell us your dates and who is travelling. We come back with the flights, the stays and the visa, all looked after. Membership is by invitation.",
       "ctaPrimary": {
         "label": "Plan a trip",
-        "href": "enquire.html"
+        "href": "concierge.html"
       },
       "ctaSecondary": {
         "label": "By invitation",
@@ -547,8 +547,8 @@
       "image": "/_vercel/image?url=%2Fimg%2Fh%2Fvisa-egypt.jpg&w=2560&q=80",
       "imagePosition": "55% 50%",
       "backLink": {
-        "label": "\u2190 All visa guides",
-        "href": "visa-guides.html"
+        "label": "Visas",
+        "href": "visas.html"
       },
       "eyebrow": "Africa \u00b7 Indian passport",
       "headingHtml": "The Egypt<br/><span class=\"it\">visa</span>.",
@@ -762,8 +762,8 @@
         "href": "enquire.html"
       },
       "ctaSecondary": {
-        "label": "All visa guides",
-        "href": "visa-guides.html"
+        "label": "Visas",
+        "href": "visas.html"
       },
       "image": "/_vercel/image?url=%2Fimg%2Fh%2Fvisa-egypt.jpg&w=2048&q=80"
     },
@@ -795,7 +795,7 @@
       "lede": "Tell us your dates and who is travelling. We come back with the flights, the stays and the visa, all looked after. Membership is by invitation.",
       "ctaPrimary": {
         "label": "Plan a trip",
-        "href": "enquire.html"
+        "href": "concierge.html"
       },
       "ctaSecondary": {
         "label": "By invitation",
@@ -815,8 +815,8 @@
       "image": "/_vercel/image?url=%2Fimg%2Fh%2Fvisa-indonesia.jpg&w=2560&q=80",
       "imagePosition": "55% 50%",
       "backLink": {
-        "label": "\u2190 All visa guides",
-        "href": "visa-guides.html"
+        "label": "Visas",
+        "href": "visas.html"
       },
       "eyebrow": "Asia-Pacific \u00b7 Indian passport",
       "headingHtml": "The Indonesia<br/><span class=\"it\">visa</span>.",
@@ -1030,8 +1030,8 @@
         "href": "enquire.html"
       },
       "ctaSecondary": {
-        "label": "All visa guides",
-        "href": "visa-guides.html"
+        "label": "Visas",
+        "href": "visas.html"
       },
       "image": "/_vercel/image?url=%2Fimg%2Fh%2Fvisa-indonesia.jpg&w=2048&q=80"
     },
@@ -1063,7 +1063,7 @@
       "lede": "Tell us your dates and who is travelling. We come back with the flights, the stays and the visa, all looked after. Membership is by invitation.",
       "ctaPrimary": {
         "label": "Plan a trip",
-        "href": "enquire.html"
+        "href": "concierge.html"
       },
       "ctaSecondary": {
         "label": "By invitation",
@@ -1083,8 +1083,8 @@
       "image": "/_vercel/image?url=%2Fimg%2Fh%2Fvisa-japan.jpg&w=2560&q=80",
       "imagePosition": "55% 50%",
       "backLink": {
-        "label": "\u2190 All visa guides",
-        "href": "visa-guides.html"
+        "label": "Visas",
+        "href": "visas.html"
       },
       "eyebrow": "Asia-Pacific \u00b7 Indian passport",
       "headingHtml": "The Japan<br/><span class=\"it\">visa</span>.",
@@ -1298,8 +1298,8 @@
         "href": "enquire.html"
       },
       "ctaSecondary": {
-        "label": "All visa guides",
-        "href": "visa-guides.html"
+        "label": "Visas",
+        "href": "visas.html"
       },
       "image": "/_vercel/image?url=%2Fimg%2Fh%2Fvisa-japan.jpg&w=2048&q=80"
     },
@@ -1331,7 +1331,7 @@
       "lede": "Tell us your dates and who is travelling. We come back with the flights, the stays and the visa, all looked after. Membership is by invitation.",
       "ctaPrimary": {
         "label": "Plan a trip",
-        "href": "enquire.html"
+        "href": "concierge.html"
       },
       "ctaSecondary": {
         "label": "By invitation",
@@ -1351,8 +1351,8 @@
       "image": "/_vercel/image?url=%2Fimg%2Fh%2Fvisa-schengen.jpg&w=2560&q=80",
       "imagePosition": "55% 50%",
       "backLink": {
-        "label": "\u2190 All visa guides",
-        "href": "visa-guides.html"
+        "label": "Visas",
+        "href": "visas.html"
       },
       "eyebrow": "Schengen & Europe \u00b7 Indian passport",
       "headingHtml": "The Schengen<br/><span class=\"it\">visa</span>.",
@@ -1566,8 +1566,8 @@
         "href": "enquire.html"
       },
       "ctaSecondary": {
-        "label": "All visa guides",
-        "href": "visa-guides.html"
+        "label": "Visas",
+        "href": "visas.html"
       },
       "image": "/_vercel/image?url=%2Fimg%2Fh%2Fvisa-schengen.jpg&w=2048&q=80"
     },
@@ -1599,7 +1599,7 @@
       "lede": "Tell us your dates and who is travelling. We come back with the flights, the stays and the Schengen visa, all looked after. Membership is by invitation.",
       "ctaPrimary": {
         "label": "Plan a trip",
-        "href": "enquire.html"
+        "href": "concierge.html"
       },
       "ctaSecondary": {
         "label": "By invitation",
@@ -1619,8 +1619,8 @@
       "image": "/_vercel/image?url=%2Fimg%2Fh%2Fvisa-singapore.jpg&w=2560&q=80",
       "imagePosition": "55% 50%",
       "backLink": {
-        "label": "\u2190 All visa guides",
-        "href": "visa-guides.html"
+        "label": "Visas",
+        "href": "visas.html"
       },
       "eyebrow": "Asia-Pacific \u00b7 Indian passport",
       "headingHtml": "The Singapore<br/><span class=\"it\">visa</span>.",
@@ -1834,8 +1834,8 @@
         "href": "enquire.html"
       },
       "ctaSecondary": {
-        "label": "All visa guides",
-        "href": "visa-guides.html"
+        "label": "Visas",
+        "href": "visas.html"
       },
       "image": "/_vercel/image?url=%2Fimg%2Fh%2Fvisa-singapore.jpg&w=2048&q=80"
     },
@@ -1867,7 +1867,7 @@
       "lede": "Tell us your dates and who is travelling. We come back with the flights, the stays and the visa, all looked after. Membership is by invitation.",
       "ctaPrimary": {
         "label": "Plan a trip",
-        "href": "enquire.html"
+        "href": "concierge.html"
       },
       "ctaSecondary": {
         "label": "By invitation",
@@ -1887,8 +1887,8 @@
       "image": "/_vercel/image?url=%2Fimg%2Fh%2Fvisa-sri-lanka.jpg&w=2560&q=80",
       "imagePosition": "55% 50%",
       "backLink": {
-        "label": "\u2190 All visa guides",
-        "href": "visa-guides.html"
+        "label": "Visas",
+        "href": "visas.html"
       },
       "eyebrow": "Asia-Pacific \u00b7 Indian passport",
       "headingHtml": "The Sri Lanka<br/><span class=\"it\">visa</span>.",
@@ -2102,8 +2102,8 @@
         "href": "enquire.html"
       },
       "ctaSecondary": {
-        "label": "All visa guides",
-        "href": "visa-guides.html"
+        "label": "Visas",
+        "href": "visas.html"
       },
       "image": "/_vercel/image?url=%2Fimg%2Fh%2Fvisa-sri-lanka.jpg&w=2048&q=80"
     },
@@ -2135,7 +2135,7 @@
       "lede": "Tell us your dates and who is travelling. We come back with the flights, the stays and the visa, all looked after. Membership is by invitation.",
       "ctaPrimary": {
         "label": "Plan a trip",
-        "href": "enquire.html"
+        "href": "concierge.html"
       },
       "ctaSecondary": {
         "label": "By invitation",
@@ -2155,8 +2155,8 @@
       "image": "/_vercel/image?url=%2Fimg%2Fh%2Fvisa-thailand.jpg&w=2560&q=80",
       "imagePosition": "55% 50%",
       "backLink": {
-        "label": "\u2190 All visa guides",
-        "href": "visa-guides.html"
+        "label": "Visas",
+        "href": "visas.html"
       },
       "eyebrow": "Asia-Pacific \u00b7 Indian passport",
       "headingHtml": "The Thailand<br/><span class=\"it\">visa</span>.",
@@ -2370,8 +2370,8 @@
         "href": "enquire.html"
       },
       "ctaSecondary": {
-        "label": "All visa guides",
-        "href": "visa-guides.html"
+        "label": "Visas",
+        "href": "visas.html"
       },
       "image": "/_vercel/image?url=%2Fimg%2Fh%2Fvisa-thailand.jpg&w=2048&q=80"
     },
@@ -2403,7 +2403,7 @@
       "lede": "Tell us your dates and who is travelling. We come back with the flights, the stays and the visa, all looked after. Membership is by invitation.",
       "ctaPrimary": {
         "label": "Plan a trip",
-        "href": "enquire.html"
+        "href": "concierge.html"
       },
       "ctaSecondary": {
         "label": "By invitation",
@@ -2423,8 +2423,8 @@
       "image": "/_vercel/image?url=%2Fimg%2Fh%2Fvisa-uae.jpg&w=2560&q=80",
       "imagePosition": "55% 50%",
       "backLink": {
-        "label": "\u2190 All visa guides",
-        "href": "visa-guides.html"
+        "label": "Visas",
+        "href": "visas.html"
       },
       "eyebrow": "The Middle East \u00b7 Indian passport",
       "headingHtml": "The UAE tourist<br/><span class=\"it\">visa</span>.",
@@ -2638,8 +2638,8 @@
         "href": "enquire.html"
       },
       "ctaSecondary": {
-        "label": "All visa guides",
-        "href": "visa-guides.html"
+        "label": "Visas",
+        "href": "visas.html"
       },
       "image": "/_vercel/image?url=%2Fimg%2Fh%2Fvisa-uae.jpg&w=2048&q=80"
     },
@@ -2671,7 +2671,7 @@
       "lede": "Tell us your dates and who is travelling. We come back with the flights, the stays and the visa, all looked after. Membership is by invitation.",
       "ctaPrimary": {
         "label": "Plan a trip",
-        "href": "enquire.html"
+        "href": "concierge.html"
       },
       "ctaSecondary": {
         "label": "By invitation",
@@ -2691,8 +2691,8 @@
       "image": "/_vercel/image?url=%2Fimg%2Fh%2Fvisa-uk.jpg&w=2560&q=80",
       "imagePosition": "55% 50%",
       "backLink": {
-        "label": "\u2190 All visa guides",
-        "href": "visa-guides.html"
+        "label": "Visas",
+        "href": "visas.html"
       },
       "eyebrow": "United Kingdom \u00b7 Indian passport",
       "headingHtml": "The UK visitor<br/><span class=\"it\">visa</span>.",
@@ -2906,8 +2906,8 @@
         "href": "enquire.html"
       },
       "ctaSecondary": {
-        "label": "All visa guides",
-        "href": "visa-guides.html"
+        "label": "Visas",
+        "href": "visas.html"
       },
       "image": "/_vercel/image?url=%2Fimg%2Fh%2Fvisa-uk.jpg&w=2048&q=80"
     },
@@ -2939,7 +2939,7 @@
       "lede": "Tell us your dates and who is travelling. We come back with the flights, the stays and the visa, all looked after. Membership is by invitation.",
       "ctaPrimary": {
         "label": "Plan a trip",
-        "href": "enquire.html"
+        "href": "concierge.html"
       },
       "ctaSecondary": {
         "label": "By invitation",
@@ -2959,8 +2959,8 @@
       "image": "/_vercel/image?url=%2Fimg%2Fh%2Fvisa-usa.jpg&w=2560&q=80",
       "imagePosition": "55% 50%",
       "backLink": {
-        "label": "\u2190 All visa guides",
-        "href": "visa-guides.html"
+        "label": "Visas",
+        "href": "visas.html"
       },
       "eyebrow": "The Americas \u00b7 Indian passport",
       "headingHtml": "The US visitor<br/><span class=\"it\">visa</span>.",
@@ -3174,8 +3174,8 @@
         "href": "enquire.html"
       },
       "ctaSecondary": {
-        "label": "All visa guides",
-        "href": "visa-guides.html"
+        "label": "Visas",
+        "href": "visas.html"
       },
       "image": "/_vercel/image?url=%2Fimg%2Fh%2Fvisa-usa.jpg&w=2048&q=80"
     },
@@ -3207,7 +3207,7 @@
       "lede": "Tell us your dates and who is travelling. We come back with the flights, the stays and the visa, all looked after. Membership is by invitation.",
       "ctaPrimary": {
         "label": "Plan a trip",
-        "href": "enquire.html"
+        "href": "concierge.html"
       },
       "ctaSecondary": {
         "label": "By invitation",

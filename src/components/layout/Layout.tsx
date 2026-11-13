@@ -15,6 +15,7 @@ import { SignInModalProvider } from "../../lib/signInModal";
 import { useAuth } from "../../lib/auth";
 import { useScrollRestoration } from "../../lib/useScrollRestoration";
 import { useTaraChatLinks } from "../../lib/taraChat";
+import { installButtonHoverScale } from "../../lib/buttonHoverScale";
 
 // concierge.html is full-screen, chat-only — no site chrome (nav/tab-bar/
 // floating helpers), matching a messaging app's own window rather than a
@@ -41,6 +42,9 @@ export function Layout() {
   // Was (guests only, bare until auth resolved): const isBare = bareForGuests && (loading || !signedIn);
   const isBare = bareForGuests;
   const hideChrome = isFullscreenChat || isBare;
+
+  // Buttons: text grows on hover, button stays fixed (lib/buttonHoverScale.ts).
+  useEffect(() => installButtonHoverScale(), []);
 
   // js/shell.js sets this on <html> once the shell header is built; several
   // mobile (<900px) rules in css/site.css key off it — bottom padding for

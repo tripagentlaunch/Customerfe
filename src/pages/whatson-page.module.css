@@ -66,3 +66,41 @@
 .wo-mlink.wo-mlink-on{background:var(--accent-2,#6E2A38);color:#fff;border-bottom-color:var(--accent-2,#6E2A38);font-weight:600}
 .wo-mlink.wo-mlink-on .wo-now-dot{opacity:.9}
 .wo-mlink:not(.wo-mlink-on):hover{background:rgba(110,42,56,.07)}
+
+/* Event cards = the Destinations city cards (2026-11-13): 4:5 photo, name, place, chip, with a region / month eyebrow. */
+html .wo-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(18px,2vw,30px)}
+@media(max-width:900px){html .wo-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){html .wo-grid{grid-template-columns:1fr 1fr;gap:14px}}
+html .wo-ev{display:block;padding:0;border:0;border-radius:0;background:none;box-shadow:none;transform:none;text-decoration:none;color:inherit}
+html .wo-ev:hover{box-shadow:none;transform:none;border-color:transparent}
+.wo-pic{aspect-ratio:4/5;overflow:hidden;box-shadow:inset 0 0 0 1px rgba(22,20,16,.08);background:var(--paper-2,#EFEDE8)}
+.wo-pic .wo-ev-img{width:100%;height:100%;aspect-ratio:auto;object-fit:cover;transition:transform .85s var(--ease)}
+.wo-ev:hover .wo-pic .wo-ev-img{transform:scale(1.05)}
+.wo-cap{font-family:var(--fr);font-weight:600;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent-2,#6E2A38);margin-top:13px;line-height:1.4}
+.wo-name{font-family:var(--logo);font-weight:500;font-size:clamp(19px,1.5vw,23px);line-height:1.15;margin:5px 0 0}
+.wo-city{display:block;font-family:var(--fr);font-size:13px;color:var(--stone,#8b8578);margin-top:4px}
+.wo-chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:9px}
+.wo-chip{font-family:var(--fr);font-size:10px;letter-spacing:.06em;color:var(--stone,#8b8578);border:1px solid var(--line,#E3E2DD);padding:3px 8px}
+
+/* Filters (2026-11-13): search, then region + distance dropdowns, the Destinations look. */
+.wo-filters{padding:clamp(22px,3vw,36px) 0 clamp(18px,2.4vw,28px);background:#fff}
+.wo-search form[role="search"]{margin-top:0 !important;background:var(--paper,#fff)}
+.wo-bar{display:flex;flex-wrap:wrap;align-items:flex-end;gap:18px 40px;margin-top:clamp(12px,1.4vw,18px)}
+.wo-bar>:global(div){flex:0 1 300px;min-width:0}
+.wo-clear{font-family:var(--fr);font-size:10.5px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--signature,#6E2A38);background:none;border:0;cursor:pointer;padding:0 0 10px;margin-left:auto}
+.wo-clear:hover{opacity:.6}
+.wo-mlink-empty{opacity:.35}
+.wo-none{font-family:var(--fr);font-size:16px;color:var(--ink-soft,#4a453d);padding:48px 0}
+.wo-none button{background:none;border:0;padding:0;font:inherit;color:var(--signature,#6E2A38);text-decoration:underline;cursor:pointer}
+@media(max-width:560px){.wo-bar>:global(div){flex:1 1 100%}.wo-clear{margin-left:0}}
+
+/* Collapsible months (2026-11-13): the heading row is the toggle, chevron first, open by default. */
+button.wo-mh{display:flex;align-items:center;gap:14px;width:100%;margin-bottom:0;padding:0;background:none;border:0;font:inherit;color:inherit;text-align:left;cursor:pointer}
+.wo-mh:hover h2{color:var(--signature,#6E2A38)}
+.wo-chev{flex:none;width:9px;height:9px;border-right:1.6px solid currentColor;border-bottom:1.6px solid currentColor;transform:rotate(45deg) translate(-2px,-2px);transition:transform .3s var(--ease,ease);color:var(--stone,#8b8578)}
+.wo-shut .wo-chev{transform:rotate(-45deg) translate(-2px,-2px)}
+.wo-body{display:grid;grid-template-rows:1fr;margin-top:24px;transition:grid-template-rows .35s var(--ease,ease),margin-top .35s var(--ease,ease),visibility 0s}
+.wo-shut .wo-body{grid-template-rows:0fr;margin-top:0;visibility:hidden;transition:grid-template-rows .35s var(--ease,ease),margin-top .35s var(--ease,ease),visibility 0s .35s}
+.wo-body-in{min-height:0;overflow:hidden}
+.wo-shut.wo-month{padding-bottom:clamp(24px,3vw,34px)}
+@media(prefers-reduced-motion:reduce){.wo-chev,.wo-body,.wo-shut .wo-body{transition:none}}

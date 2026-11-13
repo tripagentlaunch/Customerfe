@@ -1,8 +1,9 @@
 import { useEffect, useRef, useState, type ReactNode } from "react";
 import { COMPANY } from "../../lib/company";
 import { Link, useLocation } from "react-router-dom";
-import { TaraAI } from "../TaraAI";
-import { useWhatsAppNumber } from "../../lib/useWhatsAppNumber";
+// import { TaraAI } from "../TaraAI"; // no longer used in the footer (2026-11-13)
+import { taraChatUrl } from "../../lib/taraChat";
+// import { useWhatsAppNumber } from "../../lib/useWhatsAppNumber";
 
 // Extracted verbatim from index.html's <footer class="footer"> — same
 // content, same classes. The placeholder legal address is copied as-is from
@@ -18,10 +19,18 @@ import { useWhatsAppNumber } from "../../lib/useWhatsAppNumber";
 // Explore alone had 13 links). Each column shows its few key links; the
 // rest sit behind a "More" toggle so every page stays reachable. On
 // phones each column also folds into its own dropdown.
-type FooterLink = { to: string; label: ReactNode; external?: boolean };
+type FooterLink = { to: string; label: ReactNode; external?: boolean; chat?: boolean };
 type FooterColumn = { title: string; links: FooterLink[]; more?: FooterLink[] };
 
 function FooterLinkItem({ link }: { link: FooterLink }) {
+  // chat: opens the Tara chatbot (lib/taraChat.ts click handler, via data-tara-chat), same as the other chat CTAs.
+  if (link.chat) {
+    return (
+      <a href={taraChatUrl()} data-tara-chat target="_blank" rel="noopener noreferrer">
+        {link.label}
+      </a>
+    );
+  }
   if (link.external || /^(https?:|mailto:)/.test(link.to)) {
     return (
       <a href={link.to} {...(link.to.startsWith("http") ? { target: "_blank", rel: "noopener noreferrer" } : {})}>
@@ -78,8 +87,8 @@ function FooterCol({ col, wide }: { col: FooterColumn; wide: boolean }) {
 }
 
 export function Footer() {
-  const whatsappNumber = useWhatsAppNumber();
-  const advisorHref = whatsappNumber ? `https://wa.me/${whatsappNumber}` : "/enquire";
+  // const whatsappNumber = useWhatsAppNumber(); // only fed advisorHref, now unused
+  // const advisorHref = whatsappNumber ? `https://wa.me/${whatsappNumber}` : "/enquire"; // unused since "Speak with Tara AI" became "Chat with us"
   const wide = useWideFooter();
   // The footer outlives page changes, so a folded column (or its "More") the
   // visitor opened stayed open on the next page. Close them all on navigation,
@@ -91,63 +100,51 @@ export function Footer() {
   };
   useEffect(closeFolds, [pathname]);
 
+  // Reorganised 2026-11-13 (direct request): the "More" toggles are gone, every link shows, and a few pages that were only
+  // reachable elsewhere are added (Collections, Where to go, Itineraries, Health & longevity, Offers moved with services).
   const columns: FooterColumn[] = [
     {
       title: "Explore",
       links: [
         { to: "/destinations", label: "Destinations" },
-        { to: "/when-to-go", label: "When to go" },
-        { to: "/how-it-works", label: "How it works" },
-        { to: "/how-we-work", label: <TaraAI /> },
-        { to: "/journal", label: "Journal" },
-        { to: "/about", label: "About" },
-      ],
-      more: [
+        { to: "/collections", label: "Collections" },
+        { to: "/where-to-go", label: "Where to go" },
+        { to: "/whats-on", label: "When to go" },
+        { to: "/itineraries", label: "Itineraries" },
         { to: "/journeys", label: "Journeys" },
-        { to: "/services", label: "What we handle" },
-        { to: "/membership", label: "Membership" },
-        { to: "/portal", label: "Member portal" },
-        { to: "/protection", label: "Protection" },
-        { to: "/careers", label: "Careers" },
+        { to: "/journal", label: "Journal" },
       ],
     },
     {
       title: "Services",
       links: [
+        { to: "/services", label: "What we handle" },
         { to: "/flights", label: "Flights" },
         { to: "/hotels", label: "Hotels" },
         { to: "/visas", label: "Visas" },
         { to: "/points", label: "Points & payments" },
+        { to: "/protection", label: "Protection" },
+        { to: "/health", label: "Health & longevity" },
         { to: "/offers", label: "Offers" },
-      ],
-      more: [
-        { to: "/visa-guides", label: "Visa guides" },
-        { to: "/flight-guides", label: "Flight guides" },
-        { to: "/stay-guides", label: "Stay guides" },
       ],
     },
     {
       title: "Get started",
       links: [
-        { to: "/enquire", label: "Plan a trip" },
-        { to: "/invitation", label: "By invitation" },
-        {
-          to: advisorHref,
-          external: !!whatsappNumber,
-          label: (
-            <>
-              Speak with <TaraAI />
-            </>
-          ),
-        },
-        { to: "/refer", label: "Refer a friend" },
+        { to: "/concierge", label: "Plan a trip", chat: true },
+        { to: "/concierge", label: "Chat with us", chat: true },
         { to: "/trip", label: "Build a trip" },
+        { to: "/portal", label: "My year" }, // was "Member portal" -> "Your Calendar" -> "My year" (2026-11-13); still opens /portal
+        { to: "/refer", label: "Refer a friend" },
         { to: "mailto:invite@tripagent.vip", label: "invite@tripagent.vip" },
       ],
     },
     {
-      title: "Help & legal",
+      title: "Company & help",
       links: [
+        { to: "/how-it-works", label: "How it works" },
+        { to: "/about", label: "About" },
+        { to: "/careers", label: "Careers" },
         { to: "/help", label: "Help" },
         { to: "/contact", label: "Contact" },
         { to: "/terms", label: "Terms & Conditions" },
