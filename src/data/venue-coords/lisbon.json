@@ -853,6 +853,26 @@
       "lat": 38.715713,
       "lon": -9.146769,
       "photos": []
+    },
+    {
+      "n": "Parque Florestal de Monsanto",
+      "cat": "do",
+      "tier": "",
+      "a": "Campo de Ourique",
+      "d": "Lisbon's national forest is the city's largest green space, with eucalyptus trees that smell incredible.",
+      "lat": 38.722553,
+      "lon": -9.19031,
+      "photos": []
+    },
+    {
+      "n": "Mesa de Frades",
+      "cat": "party",
+      "tier": "",
+      "a": "Alfama",
+      "d": "Fado drifts through Alfama each evening.",
+      "lat": 38.713039,
+      "lon": -9.126087,
+      "photos": []
     }
   ]
 }

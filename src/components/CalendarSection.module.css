@@ -212,3 +212,45 @@
 @media (max-width: 720px) {
   .wtg-card { padding: 0; }
 }
+
+/* Tighter gap between the heading and the month strip; no outlines on the month cards; only the Avoid tag keeps a
+   light grey outline (2026-11-16, direct request). */
+.wtg-card { margin-top: 20px; }
+@media (min-width: 721px) { .wtg-card { margin-top: 24px; } }
+.wtg-tile,
+.wtg-tile:not(.wtg-tile-on),
+.wtg-tile-on { border-color: transparent; }
+.tag_wm2, .tag_wm1 { border-color: transparent; }
+.tag_wm0 { border-color: #DEDCD6; }
+
+/* Bigger icon, temperature line under it, less padding above the icon and below the month (2026-11-16, direct request). */
+.wtg-tile { gap: 6px; padding-top: 26px; padding-bottom: 8px; }
+.wtg-temp { font-size: 13px; font-weight: 600; letter-spacing: .02em; color: var(--ink-soft, #4a453d); }
+
+/* More space between the tag and the icon (2026-11-16, direct request). */
+.wtg-tile { padding-top: 38px; }
+
+/* Weather icons are Meteocons line SVGs (2026-11-16, direct request); no tinting. */
+.wtg-tile { gap: 2px; }
+
+/* Month names in the serif; temperatures semibold (2026-11-16, direct request). Serif runs small, so a size up. */
+.wtg-tile .wtg-month { font-family: var(--serif); font-size: 20px; font-weight: 500; letter-spacing: 0; color: var(--ink, #1A1714); }
+.wtg-tile .wtg-temp { font-weight: 600; }
+
+/* Temperatures bold; month names all caps and 6px smaller (2026-11-16, direct request). */
+.wtg-tile .wtg-temp { font-weight: 700; }
+.wtg-tile .wtg-month { font-size: 14px; text-transform: uppercase; letter-spacing: .06em; }
+
+/* Month names semibold and brown (2026-11-16, direct request). */
+.wtg-tile .wtg-month { font-weight: 600; color: #6A4632; }
+
+/* Month names bold and black; temperatures brown (2026-11-16, direct request). */
+.wtg-tile .wtg-month { font-weight: 700; color: var(--ink, #1A1714); }
+.wtg-tile .wtg-temp { color: #6A4632; }
+
+/* Temperatures in the wine colour (2026-11-16, direct request). */
+.wtg-tile .wtg-temp { color: #6E2A38; }
+
+/* Temperatures black; month names in the wine colour (2026-11-16, direct request). */
+.wtg-tile .wtg-temp { color: var(--ink, #1A1714); }
+.wtg-tile .wtg-month { color: #6E2A38; }

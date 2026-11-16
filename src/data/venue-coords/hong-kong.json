@@ -1363,6 +1363,36 @@
       "lat": 22.280839,
       "lon": 114.155381,
       "photos": []
+    },
+    {
+      "n": "Blue House",
+      "cat": "do",
+      "tier": "",
+      "a": "Central and Sai Ying Pun",
+      "d": "In hyper-dense Hong Kong, a rare pre-World War II building that hasn't been razed or modernized.",
+      "lat": 22.273898,
+      "lon": 114.174146,
+      "photos": []
+    },
+    {
+      "n": "West Kowloon Cultural District",
+      "cat": "do",
+      "tier": "",
+      "a": "Kowloon",
+      "d": "What was once part of Victoria Harbour is now Hong Kong's dedicated hub for arts and culture.",
+      "lat": 22.301709,
+      "lon": 114.162984,
+      "photos": []
+    },
+    {
+      "n": "Maxim's Palace",
+      "cat": "party",
+      "tier": "",
+      "a": "Dolphins and islands",
+      "d": "On the second floor of City Hall in Central, channelling old-school Cantonese opulence.",
+      "lat": 22.282614,
+      "lon": 114.161579,
+      "photos": []
     }
   ]
 }

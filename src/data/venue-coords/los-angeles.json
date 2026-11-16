@@ -783,6 +783,66 @@
       "lat": 34.067767,
       "lon": -118.398916,
       "photos": []
+    },
+    {
+      "n": "Cafe Triste",
+      "cat": "do",
+      "tier": "",
+      "a": "Downtown LA",
+      "d": "Score a mah jong set and vintage, or splurge at KkCo and Eckhaus Latta, then a natty glass at Cafe Triste.",
+      "lat": 34.066311,
+      "lon": -118.235955,
+      "photos": []
+    },
+    {
+      "n": "Tiki-Ti",
+      "cat": "party",
+      "tier": "",
+      "a": "Downtown LA",
+      "d": "Sunset Boulevard's beloved little tiki bar, before finding a party or show on the Dice app.",
+      "lat": 34.09748,
+      "lon": -118.285763,
+      "photos": []
+    },
+    {
+      "n": "Griffith Park",
+      "cat": "do",
+      "tier": "",
+      "a": "East Hollywood, Los Feliz, and Silver Lake",
+      "d": "Walk through Griffith Park and its observatory.",
+      "lat": 34.134427,
+      "lon": -118.305092,
+      "photos": []
+    },
+    {
+      "n": "Tom's One Hour Photo",
+      "cat": "do",
+      "tier": "",
+      "a": "East Hollywood, Los Feliz, and Silver Lake",
+      "d": "Book ahead for a '90s-esque portrait taken by the one and only Tom: the perfect souvenir.",
+      "lat": 34.076181,
+      "lon": -118.300147,
+      "photos": []
+    },
+    {
+      "n": "Venice Beach",
+      "cat": "do",
+      "tier": "",
+      "a": "Venice, Westside, Hollywood, and Mid-City",
+      "d": "Get past the boardwalk for a surf lesson or a bike ride along the path, then the Santa Monica Pier Ferris wheel.",
+      "lat": 33.97996,
+      "lon": -118.468771,
+      "photos": []
+    },
+    {
+      "n": "Hollywood Forever Cemetery",
+      "cat": "party",
+      "tier": "",
+      "a": "Venice, Westside, Hollywood, and Mid-City",
+      "d": "Check the calendar, and if luck has it, pop into the iconic cemetery for a late-night screening.",
+      "lat": 34.088464,
+      "lon": -118.319048,
+      "photos": []
     }
   ]
 }

@@ -1,0 +1,4 @@
+.collapse{display:grid;grid-template-rows:0fr;visibility:hidden;transition:grid-template-rows .32s cubic-bezier(.22,.61,.36,1),visibility 0s .32s}
+.collapse.open{grid-template-rows:1fr;visibility:visible;transition:grid-template-rows .32s cubic-bezier(.22,.61,.36,1),visibility 0s}
+.inner{min-height:0;overflow:hidden}
+@media(prefers-reduced-motion:reduce){.collapse,.collapse.open{transition:none}}

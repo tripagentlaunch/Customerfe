@@ -22,7 +22,7 @@
 :global(.sig) :global(.eyebrow){color:rgba(255,255,255,.92)}
 :global(.sig) :global(.rule){background:#fff;opacity:.6;margin-left:0;margin-right:auto}
 :global(.sig) h2{color:#fff;font-size:clamp(40px,5.6vw,84px);line-height:1.04;max-width:15ch;text-shadow:0 2px 30px rgba(0,0,0,.4)}
-:global(.sig) :global(.em){color:#fff}
+:global(.sig) :global(.em){color:#fff!important} /* !important: site.css forces .em to wine with !important, which was unreadable on this photo (2026-11-16) */
 :global(.sig) p{color:#fff;max-width:48ch;margin-top:22px;text-shadow:0 1px 2px rgba(0,0,0,.55)}
 @media(max-width:720px){.hero-pro :global(.hero-cta-row){gap:20px}:global(.btn-square){width:100%;justify-content:center}}
 @media(prefers-reduced-motion:reduce){.hero-pro :global(.hs-copy){animation:none;opacity:1;transform:none}}

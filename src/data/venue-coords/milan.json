@@ -993,6 +993,26 @@
       "lat": 45.468721,
       "lon": 9.206707,
       "photos": []
+    },
+    {
+      "n": "Brera",
+      "cat": "do",
+      "tier": "",
+      "a": "Brera",
+      "d": "A Context Travel tour of Milan's most important buildings, with a peek into vintage couture shop Cavalli e Nastri.",
+      "lat": 45.471519,
+      "lon": 9.187735,
+      "photos": []
+    },
+    {
+      "n": "Nebbia",
+      "cat": "party",
+      "tier": "",
+      "a": "Design and contemporary art",
+      "d": "Part of a new generation of trattorias, with innovative takes on regional recipes in a minimalist space.",
+      "lat": 45.444936,
+      "lon": 9.177629,
+      "photos": []
     }
   ]
 }

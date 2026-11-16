@@ -813,6 +813,36 @@
       "lat": 49.203679,
       "lon": -122.913121,
       "photos": []
+    },
+    {
+      "n": "Bar Gobo",
+      "cat": "party",
+      "tier": "",
+      "a": "Gastown and Chinatown",
+      "d": "Chinatown's endearing 25-seater, the more casual little sister to one-Michelin-starred Burdock & Co.",
+      "lat": 49.277787,
+      "lon": -123.098373,
+      "photos": []
+    },
+    {
+      "n": "Bard on the Beach",
+      "cat": "party",
+      "tier": "",
+      "a": "Parks and the water",
+      "d": "Tents right on the water: one of Vancouver's most unique cultural venues, though seasonal.",
+      "lat": 49.276646,
+      "lon": -123.142158,
+      "photos": []
+    },
+    {
+      "n": "Pourhouse",
+      "cat": "party",
+      "tier": "",
+      "a": "Mountain and neighbourhoods",
+      "d": "A long-time Gastown staple, forever classy, in a building that dates back to 1910.",
+      "lat": 49.284131,
+      "lon": -123.108383,
+      "photos": []
     }
   ]
 }

@@ -1603,6 +1603,26 @@
       "lat": 51.511763,
       "lon": -0.118676,
       "photos": []
+    },
+    {
+      "n": "Broadway Market",
+      "cat": "do",
+      "tier": "",
+      "a": "Broadway Market",
+      "d": "Stallholders fill the street at weekends.",
+      "lat": 51.536808,
+      "lon": -0.061658,
+      "photos": []
+    },
+    {
+      "n": "Hackney City Farm",
+      "cat": "do",
+      "tier": "",
+      "a": "Broadway Market",
+      "d": "Yes, really, a farm in the middle of the city.",
+      "lat": 51.53187,
+      "lon": -0.06673,
+      "photos": []
     }
   ]
 }

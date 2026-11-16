@@ -110,8 +110,9 @@ export function Footer() {
         { to: "/collections", label: "Collections" },
         { to: "/where-to-go", label: "Where to go" },
         { to: "/whats-on", label: "When to go" },
-        { to: "/itineraries", label: "Itineraries" },
-        { to: "/journeys", label: "Journeys" },
+        // Itineraries and Journeys removed from the footer (2026-11-16, direct request):
+        // { to: "/itineraries", label: "Itineraries" },
+        // { to: "/journeys", label: "Journeys" },
         { to: "/journal", label: "Journal" },
       ],
     },

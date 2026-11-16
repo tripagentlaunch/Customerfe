@@ -773,6 +773,16 @@
       "lat": 36.117687,
       "lon": -115.171113,
       "photos": []
+    },
+    {
+      "n": "Skyfall Lounge",
+      "cat": "party",
+      "tier": "",
+      "a": "The Strip",
+      "d": "On the 64th floor of the W Las Vegas, formerly the Delano.",
+      "lat": 36.092798,
+      "lon": -115.177124,
+      "photos": []
     }
   ]
 }

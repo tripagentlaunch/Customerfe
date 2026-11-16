@@ -743,6 +743,26 @@
       "lat": -34.587657,
       "lon": -58.393595,
       "photos": []
+    },
+    {
+      "n": "La Ventana",
+      "cat": "party",
+      "tier": "",
+      "a": "San Telmo and tango",
+      "d": "A tango show in a historic conventillo in San Telmo, with exposed brick walls.",
+      "lat": -34.612858,
+      "lon": -58.370787,
+      "photos": []
+    },
+    {
+      "n": "Museo de Arte Tigre",
+      "cat": "do",
+      "tier": "",
+      "a": "Tigre",
+      "d": "Housed in one of Tigre's most stunning Belle Epoque palaces.",
+      "lat": -34.409059,
+      "lon": -58.590888,
+      "photos": []
     }
   ]
 }

@@ -124,7 +124,7 @@ export default function WhatsOnPage() {
   return (
     <>
       {/* Hero photo (2026-11-10, direct request). */}
-      <header className={styles.woHero} style={{ backgroundImage: "linear-gradient(rgba(10,8,6,.66), rgba(10,8,6,.74)), url('/img/h/when-to-go.jpg')" }}>
+      <header className={styles.woHero} style={{ backgroundImage: "url('/img/h/when-to-go.jpg')" }}>
         <div className="wrap">
           <div className="eyebrow">{hero.eyebrow}</div>
           <h1 dangerouslySetInnerHTML={{ __html: hero.headingHtml ?? "" }} />

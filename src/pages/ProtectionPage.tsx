@@ -42,7 +42,7 @@ export default function ProtectionPage() {
 
   return (
     <main>
-      <header className={styles.fHero} style={{ backgroundImage: `linear-gradient(90deg, rgba(8,6,5,.82) 0%, rgba(8,6,5,.6) 45%, rgba(8,6,5,.4) 100%), url('${HERO_PHOTO}')` }}>
+      <header className={styles.fHero} style={{ backgroundImage: `url('${HERO_PHOTO}')` }}>
         <div className="wrap">
           <div className={styles.fHeroCopy}>
             <div className="eyebrow on-dark reveal">{hero.eyebrow}</div>

@@ -973,6 +973,36 @@
       "lat": 45.426082,
       "lon": 12.318262,
       "photos": []
+    },
+    {
+      "n": "Museo Correr",
+      "cat": "do",
+      "tier": "",
+      "a": "Palaces and the opera",
+      "d": "One of the best places for a crash course in Venetian history, from the city's founding onwards.",
+      "lat": 45.433599,
+      "lon": 12.337184,
+      "photos": []
+    },
+    {
+      "n": "Museo del Vetro",
+      "cat": "do",
+      "tier": "",
+      "a": "The lagoon islands",
+      "d": "A Gothic palazzo dedicated to Venetian glassblowing, with a collection arranged chronologically.",
+      "lat": 45.456619,
+      "lon": 12.356889,
+      "photos": []
+    },
+    {
+      "n": "Vino Vero",
+      "cat": "party",
+      "tier": "",
+      "a": "The lagoon islands",
+      "d": "A beloved bacaro on a placid Cannaregio canal, with a sign reading No spritz; we love wine!",
+      "lat": 45.444049,
+      "lon": 12.333091,
+      "photos": []
     }
   ]
 }

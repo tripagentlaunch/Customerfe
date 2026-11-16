@@ -645,7 +645,7 @@ export default function HealthPage() {
       {/* Hero refreshed 2026-11-13: photo hero like the service pages (country photo on destination pages, a calm stand-in elsewhere). */}
       <header
         className="rf-hero"
-        style={{ backgroundImage: `linear-gradient(90deg, rgba(8,6,5,.82) 0%, rgba(8,6,5,.6) 45%, rgba(8,6,5,.4) 100%), url('${healthPhoto(stripTags(data.hero.eyebrowHtml), 0, pageSlug?.startsWith("health-destination-") ? pageSlug.replace("health-destination-", "") : null)}')` }}
+        style={{ backgroundImage: `url('${healthPhoto(stripTags(data.hero.eyebrowHtml), 0, pageSlug?.startsWith("health-destination-") ? pageSlug.replace("health-destination-", "") : null)}')` }}
       >
         <div className="wrap">
           <div className="rf-hero-copy">
@@ -693,7 +693,7 @@ export default function HealthPage() {
             {data.concierge.confidenceNote}
           </div>
           <div className="btn-row center reveal d3" style={{ marginTop: 28 }}>
-            <PrimaryInverseButton to="concierge.html">Plan a trip</PrimaryInverseButton>
+            <PrimaryInverseButton to="concierge.html">Chat with us</PrimaryInverseButton>
           </div>
         </div>
       </section>

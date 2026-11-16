@@ -44,6 +44,9 @@ const STRIP = stripData as StripHotel[];
 // gone. Card images are unwrapped from their /_vercel/image URLs; one card has none, so it falls back to its guide's photo.
 type GuideCard = { route?: string; heading?: string; body?: string; image?: string; href?: string; eyebrow?: string };
 const GUIDES = guidesData as unknown as { routeGuides: { eyebrow: string; heading: string; lede: string; cards: GuideCard[] }; productGuides: { eyebrow: string; heading: string; cards: GuideCard[] } };
+// The two "advantage" guides (programmes, suite vs room) were also in "Choosing the stay"; they stay in "The advantage" and are
+// left out of the strip so no guide appears twice (2026-11-13).
+const ADVANTAGE_HREFS = new Set(GUIDES.productGuides.cards.map((c) => c.href ?? ""));
 const guideImg = (c: GuideCard) => {
   if (c.image) {
     try {
@@ -68,7 +71,7 @@ export default function HotelsPage() {
 
   return (
     <main>
-      <header className={styles.fHero} style={{ backgroundImage: `linear-gradient(90deg, rgba(8,6,5,.82) 0%, rgba(8,6,5,.6) 45%, rgba(8,6,5,.4) 100%), url('${HERO_PHOTO}')` }}>
+      <header className={styles.fHero} style={{ backgroundImage: `url('${HERO_PHOTO}')` }}>
         <div className="wrap">
           <div className={styles.fHeroCopy}>
             <div className="eyebrow on-dark reveal">{hero.eyebrow}</div>
@@ -213,7 +216,7 @@ export default function HotelsPage() {
             <p className="lede">{GUIDES.routeGuides.lede}</p>
           </div>
           <div className={`${styles.fStrip} reveal d1`} role="list" aria-label="Choosing the stay">
-            {GUIDES.routeGuides.cards.map((c, i) => (
+            {GUIDES.routeGuides.cards.filter((c) => !ADVANTAGE_HREFS.has(c.href ?? "")).map((c, i) => (
               <Link className={styles.fGuide} to={toRoute(c.href ?? "")} key={i} role="listitem">
                 <div className={styles.fGuidePic}>
                   <span style={{ backgroundImage: `url('${guideImg(c)}')` }} />

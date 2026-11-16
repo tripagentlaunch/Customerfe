@@ -803,6 +803,16 @@
       "lat": 24.486535,
       "lon": 54.607912,
       "photos": []
+    },
+    {
+      "n": "Etihad Modern Art Gallery",
+      "cat": "do",
+      "tier": "",
+      "a": "Contemporary art and a spa",
+      "d": "A snazzy modern art gallery showing some of the best contemporary artworks.",
+      "lat": 24.460452,
+      "lon": 54.348793,
+      "photos": []
     }
   ]
 }

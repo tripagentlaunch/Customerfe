@@ -181,7 +181,7 @@ export default function HealthIndexPage() {
     <main>
       {/* Hero refreshed 2026-11-13: photo hero like the service pages. The duplicated breadcrumb + eyebrow ("What we handle /
           Health & Longevity" twice) became one eyebrow, and the faint icon is gone. */}
-      <header className="rf-hero" style={{ backgroundImage: "linear-gradient(90deg, rgba(8,6,5,.82) 0%, rgba(8,6,5,.6) 45%, rgba(8,6,5,.4) 100%), url('/img/h/destination-switzerland.jpg')" }}>
+      <header className="rf-hero" style={{ backgroundImage: "url('/img/h/destination-switzerland.jpg')" }}>
         <div className="wrap">
           <div className="rf-hero-copy">
             <div className="eyebrow on-dark">{hero.hereLabel}</div>
@@ -284,7 +284,7 @@ export default function HealthIndexPage() {
             {concierge.confText}
           </div>
           <div className="btn-row center reveal d3" style={{ marginTop: 28 }}>
-            <PrimaryInverseButton to="concierge.html">Plan a trip</PrimaryInverseButton>
+            <PrimaryInverseButton to="concierge.html">Chat with us</PrimaryInverseButton>
           </div>
         </div>
       </section>

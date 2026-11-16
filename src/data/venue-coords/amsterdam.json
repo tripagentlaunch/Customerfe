@@ -793,6 +793,26 @@
       "lat": 52.348619,
       "lon": 4.893199,
       "photos": []
+    },
+    {
+      "n": "Caf\u00e9 de Sluyswacht",
+      "cat": "party",
+      "tier": "",
+      "a": "Canals and history",
+      "d": "A lopsided pub whose charm is embracing its quirks, from the stone floors to the staircase.",
+      "lat": 52.369856,
+      "lon": 4.901685,
+      "photos": []
+    },
+    {
+      "n": "A'DAM Toren",
+      "cat": "party",
+      "tier": "",
+      "a": "Noord and street art",
+      "d": "The blocky A'DAM Tower, directly across from Centraal Station on the other side of the IJ.",
+      "lat": 52.383772,
+      "lon": 4.902138,
+      "photos": []
     }
   ]
 }

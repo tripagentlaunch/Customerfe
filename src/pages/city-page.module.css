@@ -38,9 +38,9 @@
     render the arrow as a real child of the same scaled label span instead,
     revealing via opacity/translateX exactly like the original did. */
  :global(.btn-gold).plan-cta::after{display:none!important}
- .plan-cta-label{display:inline-flex;align-items:center;gap:8px;transform:scale(1);transition:transform .4s var(--ease)}
+ .plan-cta-label{position:relative;display:inline-flex;align-items:center;justify-content:center;transform:scale(1);transition:transform .4s var(--ease)}
  :global(.btn-gold).plan-cta:hover .plan-cta-label{transform:scale(1.1)}
- .plan-cta-arrow{display:inline-block;opacity:0;transform:translateX(-6px);transition:opacity .4s var(--ease-lux,var(--ease)),transform .4s var(--ease-lux,var(--ease))}
+ .plan-cta-arrow{position:absolute;left:100%;margin-left:8px;top:50%;margin-top:-.5em;line-height:1;display:inline-block;opacity:0;transform:translateX(-6px);transition:opacity .4s var(--ease-lux,var(--ease)),transform .4s var(--ease-lux,var(--ease))}
  :global(.btn-gold).plan-cta:hover .plan-cta-arrow{opacity:1;transform:translateX(2px)}
 
  /* The hero's primary/secondary CTAs ("Plan Santorini"/"Guide") are now
@@ -836,18 +836,19 @@ html .card-grid.card-grid-two{grid-template-columns:repeat(2,minmax(0,1fr))}
 /* The plan: 4 days, 3 cards a row (2026-11-11, direct request). Guide-card look: photo on top, text below; no tags, no hover. Left aligned. */
 .plan-days{display:flex;flex-direction:column;gap:clamp(28px,3.4vw,44px)}
 .plan-day-head{text-align:left;margin-bottom:14px}
-.plan-day-head h3{font-family:var(--serif);font-weight:600;font-size:clamp(22px,2.2vw,28px);color:var(--ink);margin:6px 0 0}
+.plan-day-head h3{font-variant-numeric:lining-nums;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-family:var(--serif);font-weight:600;font-size:clamp(22px,2.2vw,28px);color:var(--ink);margin:6px 0 0}
 .plan-row{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;align-items:stretch}
 @media(max-width:720px){.plan-row{grid-template-columns:1fr}}
 .plan-card{display:flex;flex-direction:column;background:transparent;text-align:left}
-.plan-photo{width:100%;aspect-ratio:2/1;overflow:hidden;background:var(--bone)}
+.plan-photo{width:100%;aspect-ratio:3/2;overflow:hidden;background:var(--bone)}
 .plan-photo img{display:block;width:100%;height:100%;object-fit:cover}
-.plan-body{padding:16px 0 20px;text-align:left}
-.plan-place{font-family:var(--serif);font-weight:600;font-size:clamp(20px,1.7vw,24px);line-height:1.15;color:var(--ink);margin:6px 0 0}
-.plan-body p{font-family:var(--fr);font-size:14.5px;line-height:1.6;color:var(--ink-soft);margin:8px 0 0}
+.plan-body{padding:8px 0 20px;text-align:left}
+.plan-place{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-family:var(--logo);font-weight:500;font-size:clamp(14px,calc(1.7vw - 6px),18px);line-height:1.2;color:var(--ink);margin:2px 0 0}
+.plan-body p{font-family:var(--fr);font-size:13.5px;line-height:1.6;color:var(--stone);margin:7px 0 0}
+.plan-body :global(.eyebrow){color:var(--stone)}
 
 /* The plan's intro text with the CTA beside it, bottom-aligned; stacked on narrow screens (2026-11-11). */
-.plan-head{display:flex;align-items:flex-end;justify-content:space-between;gap:24px 40px;margin-bottom:26px}
+.plan-head{display:flex;align-items:center;justify-content:space-between;gap:24px 40px;margin-bottom:26px}
 .plan-head .plan-cta-wrap{margin:0;flex:none}
 @media(max-width:900px){.plan-head{flex-direction:column;align-items:flex-start}}
 
@@ -896,3 +897,20 @@ html .tier-chip{padding-left:11px;padding-right:11px}
 @media (max-width: 720px) {
   html .guide-sticky :global(.cg-tabs) { border-bottom: 1px solid var(--line); box-shadow: none; }
 }
+
+/* The Plan -> the map (2026-11-16): a card's heading and "View on the map" link scroll to the page's map and open that pin;
+   "Back to The Plan" (shown once you arrive that way) returns to the card. */
+.plan-place-link{display:block;max-width:100%;white-space:inherit;overflow:hidden;text-overflow:ellipsis;font:inherit;color:inherit;background:none;border:0;padding:0;margin:0;text-align:left;cursor:pointer;text-decoration:underline;text-decoration-color:transparent;text-underline-offset:4px;transition:text-decoration-color .25s var(--ease)}
+.plan-place-link:hover,.plan-place-link:focus-visible{text-decoration-color:currentColor}
+.plan-map-link{display:inline-block;margin-top:20px;padding:0;background:none;border:0;cursor:pointer;font-family:var(--fr);font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink);border-bottom:1px solid currentColor}
+.plan-map-link:hover{opacity:.7}
+.map-anchor{scroll-margin-top:84px}
+.back-to-plan{display:inline-flex;align-items:center;gap:8px;margin:0 0 12px;padding:10px 16px;background:var(--ink);color:var(--bone);border:0;cursor:pointer;font-family:var(--fr);font-size:11.5px;letter-spacing:.14em;text-transform:uppercase}
+.back-to-plan:hover{opacity:.85}
+
+/* The Plan's intro line stays on one line where there is room beside the button (2026-11-16, direct request); narrower, it wraps. */
+@media(min-width:1200px){.plan-lede{white-space:nowrap}}
+
+/* Taller map (2026-11-16, direct request): was clamp(380px,62vh,640px) and, on phones, min(60svh,460px). */
+.ta-map-box{height:clamp(520px,82vh,920px)}
+@media(max-width:720px){.ta-map-box{height:min(76svh,620px)}}

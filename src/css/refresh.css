@@ -104,3 +104,58 @@ a.hc-card:hover .hc-pic img{transform:scale(1.05)}
 .hc-pager button:hover:not(:disabled){border-color:var(--signature,#6E2A38)}
 .hc-pager button.on{background:rgba(110,42,56,.08);border-color:var(--signature,#6E2A38);color:var(--signature,#6E2A38);font-weight:600}
 .hc-pager button:disabled{opacity:.35;cursor:default}
+
+/* ===== One hero pattern for every image hero (2026-11-13, direct request) =====
+   The home hero is the template: it fills the viewport, the copy is anchored bottom-left, the photo carries the home page's
+   cinematic scrim (a dark floor plus a left wash, not a flat dark layer), and the heading is clamp(34px,4.8vw,68px) on about
+   two lines. Every other page with a photo hero and white text now follows the same pattern. */
+html .rf-hero,
+html header[class*="f-hero"],
+html header.hero:not([class*="heroEd"]),
+html header[class*="br-hero"],
+html header[class*="wo-hero"]{
+  position:relative;display:flex!important;align-items:flex-end!important;justify-content:flex-start;
+  min-height:100svh!important;padding:0!important;text-align:left;isolation:isolate;overflow:hidden;
+  background-size:cover;background-position:center;background-repeat:no-repeat;background-color:#2a2622;color:#fff;
+}
+html .rf-hero::after,
+html header[class*="f-hero"]::after,
+html header.hero:not([class*="heroEd"])::after,
+html header[class*="br-hero"]::after,
+html header[class*="wo-hero"]::after{
+  content:"";position:absolute;inset:0;z-index:0;pointer-events:none;
+  background:linear-gradient(0deg,rgba(0,0,0,.82) 0%,rgba(0,0,0,.6) 18%,rgba(0,0,0,.26) 42%,transparent 68%),
+    linear-gradient(90deg,rgba(0,0,0,.5) 0%,rgba(0,0,0,.22) 32%,transparent 62%),
+    linear-gradient(180deg,rgba(0,0,0,.3) 0%,transparent 26%)!important;
+}
+html .rf-hero>.wrap,
+html header[class*="f-hero"]>.wrap,
+html header.hero:not([class*="heroEd"])>.wrap,
+html header[class*="br-hero"]>.wrap,
+html header[class*="wo-hero"]>.wrap{
+  position:relative;z-index:2;width:100%;
+  padding-top:clamp(104px,13vh,150px)!important;padding-bottom:clamp(74px,9vh,110px)!important;
+}
+html header.hero:not([class*="heroEd"])>.hero-inner{max-width:var(--maxw)!important}
+html .rf-hero>.wrap>*,
+html header[class*="f-hero"]>.wrap>*,
+html header.hero:not([class*="heroEd"])>.wrap>*,
+html header[class*="br-hero"]>.wrap>*,
+html header[class*="wo-hero"]>.wrap>*{max-width:min(1000px,92vw)!important;margin-left:0!important;margin-right:auto!important;text-align:left}
+html .rf-hero :is(h1,.display),
+html header[class*="f-hero"] :is(h1,.display),
+html header.hero:not([class*="heroEd"]) :is(h1,.display),
+html header[class*="br-hero"] :is(h1,.display),
+html header[class*="wo-hero"] :is(h1,.display){font-size:clamp(34px,4.8vw,68px)!important;line-height:1.05!important;margin:0!important;overflow-wrap:break-word;hyphens:none}
+html .rf-hero .lede,
+html header[class*="f-hero"] .lede,
+html header.hero:not([class*="heroEd"]) .lede,
+html header[class*="br-hero"] p,
+html header[class*="wo-hero"] p{max-width:42ch!important;margin-left:0!important}
+@media(max-width:720px){
+  html .rf-hero :is(h1,.display),
+  html header[class*="f-hero"] :is(h1,.display),
+  html header.hero:not([class*="heroEd"]) :is(h1,.display),
+  html header[class*="br-hero"] :is(h1,.display),
+  html header[class*="wo-hero"] :is(h1,.display){font-size:40px!important}
+}

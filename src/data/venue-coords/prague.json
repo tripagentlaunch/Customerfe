@@ -763,6 +763,36 @@
       "lat": 50.090965,
       "lon": 14.404495,
       "photos": []
+    },
+    {
+      "n": "Kunsthalle Praha",
+      "cat": "do",
+      "tier": "",
+      "a": "Art and design",
+      "d": "Opened in 2022 in a former electric station in the centre of the city, for modern art beyond the Mucha poster.",
+      "lat": 50.092293,
+      "lon": 14.409958,
+      "photos": []
+    },
+    {
+      "n": "Manifesto Market",
+      "cat": "do",
+      "tier": "",
+      "a": "Towers, markets and Praha 7",
+      "d": "In the off-the-radar Andel district, for a snapshot of the city's contemporary street food culture.",
+      "lat": 50.069349,
+      "lon": 14.404132,
+      "photos": []
+    },
+    {
+      "n": "Hole\u0161ovice",
+      "cat": "party",
+      "tier": "",
+      "a": "Towers, markets and Praha 7",
+      "d": "A former industrial quarter in a bend of the river, reborn with street-food stalls, farmers' markets and galleries.",
+      "lat": 50.102495,
+      "lon": 14.442798,
+      "photos": []
     }
   ]
 }

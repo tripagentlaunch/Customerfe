@@ -24,7 +24,7 @@ export default function HowItWorksPage() {
     <main>
       {/* Hero refreshed 2026-11-13 like Flights/Hotels/Visas: photo hero, "Find my trip" / "Chat with us". The inset photo
           card and the old buttons ("Enter your invitation", "See how a trip comes together") are no longer shown. */}
-      <header className={styles.fHero} style={{ backgroundImage: `linear-gradient(90deg, rgba(8,6,5,.82) 0%, rgba(8,6,5,.6) 45%, rgba(8,6,5,.4) 100%), url('${hero.image}')` }}>
+      <header className={styles.fHero} style={{ backgroundImage: `url('${hero.image}')` }}>
         <div className="wrap">
           <div className={styles.fHeroCopy}>
             <div className="eyebrow on-dark reveal">{hero.eyebrow}</div>

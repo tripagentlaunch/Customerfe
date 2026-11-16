@@ -22,7 +22,7 @@
 .br-link:hover{border-color:var(--accent-2);color:var(--accent-2)}
 
 /* Photo hero, all white text; results use the Destinations region layout (2026-11-13) */
-html .br-hero{background:linear-gradient(rgba(8,6,5,.66),rgba(8,6,5,.66)),var(--br-img) center/cover no-repeat;padding:clamp(120px,18vh,200px) 0 clamp(70px,10vh,120px)}
+html .br-hero{background:var(--br-img) center/cover no-repeat;padding:clamp(120px,18vh,200px) 0 clamp(70px,10vh,120px)}
 html .br-hero :global(.eyebrow),html .br-hero h1,html .br-hero p{color:#fff !important}
 .br-results{max-width:1200px;margin:0 auto;padding:clamp(30px,4vw,56px) var(--gutter) clamp(50px,8vw,100px)}
 

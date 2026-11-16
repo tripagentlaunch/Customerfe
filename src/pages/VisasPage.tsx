@@ -50,7 +50,22 @@ const rawImg = (src?: string | null) => {
     return src;
   }
 };
+// Table destination -> country guide slug. Rows with a guide link to it; the strip below lists only the guides the table has no
+// row for, so no country appears twice (2026-11-13).
+const TABLE_GUIDE: Record<string, string> = {
+  "Schengen (Europe)": "schengen",
+  "United Kingdom": "uk",
+  "United States": "usa",
+  "United Arab Emirates": "uae",
+  Singapore: "singapore",
+  Japan: "japan",
+  Thailand: "thailand",
+  Australia: "australia",
+  Canada: "canada",
+};
+const IN_TABLE = new Set(Object.values(TABLE_GUIDE));
 const GUIDES = Object.values(COUNTRIES)
+  .filter((g) => !IN_TABLE.has(g.slug))
   .sort((a, b) => stripHtml(a.hero.headingHtml).localeCompare(stripHtml(b.hero.headingHtml)))
   .map((g) => ({
     cap: [regionOf(g.hero.eyebrow), g.facts?.[0]?.value].filter(Boolean).join(" · "),
@@ -77,7 +92,7 @@ export default function VisasPage() {
 
   return (
     <main>
-      <header className={styles.fHero} style={{ backgroundImage: `linear-gradient(90deg, rgba(8,6,5,.82) 0%, rgba(8,6,5,.6) 45%, rgba(8,6,5,.4) 100%), url('${HERO_PHOTO}')` }}>
+      <header className={styles.fHero} style={{ backgroundImage: `url('${HERO_PHOTO}')` }}>
         {/* <video autoPlay loop muted playsInline src="/videos/visas/hero.mp4" /> (replaced by the photo) */}
         <div className="wrap">
           <div className={styles.fHeroCopy}>
@@ -197,7 +212,7 @@ export default function VisasPage() {
               <tbody>
                 {vtable.rows.map((r, i) => (
                   <tr key={i}>
-                    <td className="dest">{r.dest}</td>
+                    <td className="dest">{TABLE_GUIDE[r.dest ?? ""] ? <Link className={styles.destLink} to={toRoute(`visa-${TABLE_GUIDE[r.dest ?? ""]}.html`)}>{r.dest}</Link> : r.dest}</td>
                     <td>{r.visaType}</td>
                     <td>{r.processing}</td>
                     <td className={r.biometricsYes ? styles.bioY : styles.bioN}>{r.biometrics}</td>
@@ -217,8 +232,8 @@ export default function VisasPage() {
           <div className={`${styles.fHead} reveal`}>
             <div className="eyebrow">By destination</div>
             <div className="rule" />
-            <h2>{GUIDES.length} visa guides</h2>
-            <p className="lede">Pick a country for the visa you need, what to prepare, and how long it takes.</p>
+            <h2>More visa guides</h2>
+            <p className="lede">Every country in the table above links to its own guide. These are the other destinations we have guides for.</p>
           </div>
           <div className={`${styles.fStrip} reveal d1`} role="list" aria-label="Visa guides by destination">
             {GUIDES.map((g, i) => (

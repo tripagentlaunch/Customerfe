@@ -853,6 +853,46 @@
       "lat": 19.428642,
       "lon": -99.165823,
       "photos": []
+    },
+    {
+      "n": "Lomas de Chapultepec",
+      "cat": "do",
+      "tier": "",
+      "a": "Lomas and Chapultepec",
+      "d": "Start the day with a stroll around Lomas.",
+      "lat": 19.42109,
+      "lon": -99.218464,
+      "photos": []
+    },
+    {
+      "n": "Mooni Gallery",
+      "cat": "do",
+      "tier": "",
+      "a": "Condesa and Roma",
+      "d": "The whole block is curated by the same team: a mix of art, objects and clothes from Latin American creators.",
+      "lat": 19.412982,
+      "lon": -99.174533,
+      "photos": []
+    },
+    {
+      "n": "Secretar\u00eda de Educaci\u00f3n P\u00fablica",
+      "cat": "do",
+      "tier": "",
+      "a": "Narvarte/Del Valle and Condesa",
+      "d": "The courtyard of the SEP is packed with Diego Rivera murals, and far less crowded than the typical tourist stops.",
+      "lat": 19.361787,
+      "lon": -99.168708,
+      "photos": []
+    },
+    {
+      "n": "Bar Las Brujas",
+      "cat": "party",
+      "tier": "",
+      "a": "Narvarte/Del Valle and Condesa",
+      "d": "The plaza is always alive.",
+      "lat": 19.421206,
+      "lon": -99.159791,
+      "photos": []
     }
   ]
 }

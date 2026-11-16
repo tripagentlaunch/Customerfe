@@ -12,6 +12,10 @@ import { PhoneFrame, PhoneFrameRouteSync, wantsPhoneFrame } from "./DevPhoneFram
 import "./css/fonts.css";
 import "./css/site.css";
 import "./css/refresh.css";
+import { initSmoothDetails } from "./lib/smoothDetails";
+
+// Smooth open/close for every <details> accordion (2026-11-16, direct request).
+initSmoothDetails();
 
 // Pages load on demand (PageRouter.tsx). After a deploy, a tab opened before it asks for page files that no longer exist: reload
 // once to pick up the new build instead of showing a broken page (lib/versionReload.ts).

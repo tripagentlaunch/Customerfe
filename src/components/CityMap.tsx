@@ -157,10 +157,14 @@ export default function CityMap({
   slug,
   livePlacesEnabled = false,
   onReady,
+  focus = null,
 }: {
   slug: string;
   livePlacesEnabled?: boolean;
   onReady?: () => void;
+  // Asks the map to open one pin (The Plan's cards use this). `nonce` changes on every request, so asking for
+  // the same pin twice still re-opens it. Matched on the venue's exact name in venue-coords/<slug>.json.
+  focus?: { name: string; nonce: number } | null;
 }) {
   const config = useRemoteConfig();
   // undefined = /config hasn't resolved yet; "" = resolved with no key
@@ -301,6 +305,14 @@ export default function CityMap({
     }
     setSelected(v);
   }
+
+  useEffect(() => {
+    if (!focus || !map || !data) return;
+    const v = data.venues.find((x) => x.n === focus.name);
+    if (!v) return;
+    pickFromGroup(v);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [focus, map, data]);
 
   function expandCluster(items: { v: CityMapVenue }[]) {
     // Phone: the places sheet stays up while the map zooms underneath it;

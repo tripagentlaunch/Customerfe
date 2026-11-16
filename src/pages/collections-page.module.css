@@ -10,7 +10,7 @@
 .br-link:hover{border-color:var(--accent-2);color:var(--accent-2)}
 
 /* Photo hero, all white text (2026-11-13) */
-html .br-hero{background:linear-gradient(rgba(8,6,5,.72),rgba(8,6,5,.72)),url('/img/h/destination-singapore.jpg') center/cover no-repeat;padding:clamp(120px,18vh,200px) 0 clamp(70px,10vh,120px)}
+html .br-hero{background:url('/img/h/destination-singapore.jpg') center/cover no-repeat;padding:clamp(120px,18vh,200px) 0 clamp(70px,10vh,120px)}
 html .br-hero :global(.eyebrow),html .br-hero h1,html .br-hero p{color:#fff !important}
 
 /* Tag tiles: icon + serif label + hover arrow, even grid (2026-11-13) */

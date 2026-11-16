@@ -1023,6 +1023,26 @@
       "lat": -37.829515,
       "lon": 145.070686,
       "photos": []
+    },
+    {
+      "n": "Ian Potter Centre: NGV Australia",
+      "cat": "do",
+      "tier": "",
+      "a": "Federation Square",
+      "d": "Tucked into a corner of Federation Square, with more than 20 individual galleries across three levels.",
+      "lat": -37.81758,
+      "lon": 144.969976,
+      "photos": []
+    },
+    {
+      "n": "St. Kilda Beach",
+      "cat": "party",
+      "tier": "",
+      "a": "Museums and the beach",
+      "d": "If you visit Melbourne and don't step foot on the St.",
+      "lat": -37.868107,
+      "lon": 144.974219,
+      "photos": []
     }
   ]
 }

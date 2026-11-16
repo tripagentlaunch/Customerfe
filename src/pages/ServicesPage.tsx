@@ -22,7 +22,7 @@ export default function ServicesPage() {
 
   return (
     <main>
-      <header className="rf-hero" style={{ backgroundImage: `linear-gradient(90deg, rgba(8,6,5,.82) 0%, rgba(8,6,5,.6) 45%, rgba(8,6,5,.4) 100%), url('${hero.image}')` }}>
+      <header className="rf-hero" style={{ backgroundImage: `url('${hero.image}')` }}>
         <div className="wrap">
           <div className="rf-hero-copy">
             <div className="eyebrow on-dark reveal">{hero.eyebrow}</div>

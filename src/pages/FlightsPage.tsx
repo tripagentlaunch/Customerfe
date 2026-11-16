@@ -55,7 +55,7 @@ export default function FlightsPage() {
   return (
     <main>
       {/* Photo hero with white text (was a looping video, kept below for easy restore). */}
-      <header className={styles.fHero} style={{ backgroundImage: `linear-gradient(90deg, rgba(8,6,5,.82) 0%, rgba(8,6,5,.6) 45%, rgba(8,6,5,.38) 100%), url('${HERO_PHOTO}')` }}>
+      <header className={styles.fHero} style={{ backgroundImage: `url('${HERO_PHOTO}')` }}>
         {/* <video autoPlay loop muted playsInline src="/videos/flights/hero.mp4" /> */}
         <div className="wrap">
           <div className={styles.fHeroCopy}>
@@ -142,7 +142,8 @@ export default function FlightsPage() {
         </div>
       </section>
 
-      {/* By example: three route photo cards that link to the route pages. */}
+      {/* "By example" (3 routes) hidden 2026-11-13: the same three routes are in the Route guides strip below, so they no longer appear twice. */}
+      {false && (
       <section className="band tight" style={{ background: "var(--bone)" }}>
         <div className="wrap">
           <div className={`${styles.fHead} reveal`}>
@@ -165,6 +166,7 @@ export default function FlightsPage() {
           </div>
         </div>
       </section>
+      )}
 
       {/* Route guides: premium cabins from India, a scrolling strip of cards that link to each route guide. */}
       <section className="band">

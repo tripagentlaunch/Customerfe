@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Outlet, useLocation } from "react-router-dom";
 import { Header } from "./Header";
 import { Footer } from "./Footer";
-import { ThemeToggle } from "./ThemeToggle";
+// import { ThemeToggle } from "./ThemeToggle"; // floating button removed 2026-11-13; dark mode is in ProfileDrawer
 import { TripDrawer } from "./TripDrawer";
 import { ProfileDrawer } from "./ProfileDrawer";
 import { AdvisorButton } from "./AdvisorButton";
@@ -101,7 +101,7 @@ export function Layout() {
             {!hideChrome && (
               <>
                 <Footer />
-                <ThemeToggle />
+                {/* Floating dark-mode button removed 2026-11-13 (direct request): dark mode now lives in the Profile sidebar. <ThemeToggle /> */}
                 <AdvisorButton />
                 <ProfileDrawer />
                 <TripDrawer />

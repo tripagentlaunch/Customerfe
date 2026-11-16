@@ -33,6 +33,7 @@ import {
 import cities from "../data/cities.generated.json";
 import type { CityData, CityGuidePanel } from "../types/city";
 import { useScrollReveal } from "../lib/useScrollReveal";
+import { loadCityPlan, type CityPlan } from "../lib/cityPlans";
 import { toRoute } from "../lib/toRoute";
 import CityMap from "../components/CityMap";
 import { useIsMobile } from "../hooks/useIsMobile";
@@ -40,13 +41,14 @@ import { useWishlist, type WishlistEntry } from "../lib/wishlist";
 // import PlanRouteMap, { type PlanStop } from "../components/PlanRouteMap"; // the Plan no longer has a route map (2026-11-11)
 // import PlanCarousel from "../components/PlanCarousel"; // replaced by the fixed 4-day card rows (2026-11-11)
 import CalendarSection from "../components/CalendarSection";
+import Collapse from "../components/Collapse";
 // import EventMap from "../components/EventMap"; // commented out: When-to-go now reuses the first section's CityMap
 // import { pickHighlightSlots } from "../lib/planHighlights"; // Plan highlight picking is gone with the Plan map (2026-11-11)
 // import { useAgraLivePlanCoords, type PlanTarget } from "../hooks/useAgraLivePlanCoords";
 // import { useAgraLiveEventLocations } from "../hooks/useAgraLiveEventLocations";
 import { useLiveGuidePanelPhotos, type LivePanelPhoto } from "../hooks/useLiveGuidePanelPhotos";
 import { PrimaryInverseButton, SecondaryInverseButton } from "../components/buttons/InverseButtons";
-import { withTaraAI } from "../components/TaraAI";
+// import { withTaraAI } from "../components/TaraAI";
 import styles from "./city-page.module.css";
 import LiveVenues from "../components/LiveVenues";
 import { useEngineGuide } from "../hooks/useEngineGuide";
@@ -688,7 +690,9 @@ function AccordionRow({ label, value, open, onToggle }: { label: string; value: 
           ⌄
         </span>
       </button>
-      {open && <div className={styles.accordionPanel}>{value}</div>}
+      <Collapse open={open}>
+        <div className={styles.accordionPanel}>{value}</div>
+      </Collapse>
     </div>
   );
 }
@@ -744,6 +748,26 @@ export default function CityPage() {
     [baseCity, engineGuide.guide]
   );
   const [mapReady, setMapReady] = useState(false);
+  // The Plan: a city listed in data/city-plans.json (lib/cityPlans.ts) shows that itinerary instead of the generated one.
+  // planReady holds the days back until that file has answered, so a city never flashes its old plan first.
+  const [planOverride, setPlanOverride] = useState<CityPlan | null>(null);
+  const [planReady, setPlanReady] = useState(false);
+  useEffect(() => {
+    let off = false;
+    setPlanOverride(null);
+    setPlanReady(false);
+    if (!slug) return;
+    loadCityPlan(slug).then((p) => {
+      if (off) return;
+      setPlanOverride(p);
+      setPlanReady(true);
+    });
+    return () => {
+      off = true;
+    };
+  }, [slug]);
+  // A plan card asked for a pin on the page's map: `from` is the card to scroll back to.
+  const [mapFocus, setMapFocus] = useState<{ name: string; nonce: number; from: string } | null>(null);
   // What the loader waits for: only the hero photo — the first thing on
   // screen. Guide/grid photos further down load in as the page is read;
   // waiting for dozens of them is what kept the loader up (2026-10-09).
@@ -970,7 +994,7 @@ export default function CityPage() {
     if (city?.seo.title) document.title = city.seo.title;
   }, [city]);
 
-  useScrollReveal([city]);
+  useScrollReveal([city, planReady]);
 
   const tabLabels: Record<string, string> = useMemo(
     () => ({
@@ -993,6 +1017,31 @@ export default function CityPage() {
   const { hero, ourTake, whenToGo, guide, plan, neighbourhoods, goodToKnow, closing } =
     city;
 
+  // The Plan's days: the city's own itinerary when city-plans.json has one, else the generated plan (first four days).
+  const planDays = planOverride
+    ? planOverride.days.map((d, i) => ({
+        dayNumber: `Day ${i + 1}`,
+        title: d.title,
+        slots: d.slots.map((s) => ({ label: s.label, title: s.title, text: s.text, food: s.food, venue: s.venue, photo: s.photo })),
+      }))
+    : plan.days.slice(0, 4).map((day) => ({
+        dayNumber: day.dayNumber,
+        title: day.title,
+        slots: day.slots.map((s) => ({ label: s.label, title: planCardTitle(s), text: s.text, food: null as string | null, venue: null as string | null, photo: s.photo })),
+      }));
+  const planHeading = planOverride && plan.heading ? plan.heading.replace(/^\d+/, String(planOverride.days.length)) : plan.heading;
+
+  function openOnMap(venue: string, fromId: string) {
+    setMapFocus({ name: venue, nonce: Date.now(), from: fromId });
+    document.getElementById("city-map")?.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+  function backToPlan() {
+    const from = mapFocus?.from;
+    setMapFocus(null);
+    if (from) document.getElementById(from)?.scrollIntoView({ behavior: "smooth", block: "center" });
+    else planSectionRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
   // Phone: "On the ground" and "Where to base yourself" are two dropdowns that
   // exclude each other — opening one closes the other, and both can be closed.
   const isPhone = useIsMobile();
@@ -1003,11 +1052,12 @@ export default function CityPage() {
   const [openBeforeRows, setOpenBeforeRows] = useState<Set<number>>(new Set());
   const toggleBeforeRow = (i: number) =>
     setOpenBeforeRows((cur) => {
-      if (isPhone) return cur.has(i) ? new Set() : new Set([i]);
-      const next = new Set(cur);
-      if (next.has(i)) next.delete(i);
-      else next.add(i);
-      return next;
+      // One open at a time on every screen size (2026-11-16, direct request); was: any number open on desktop.
+      return cur.has(i) ? new Set() : new Set([i]);
+      // const next = new Set(cur);
+      // if (next.has(i)) next.delete(i);
+      // else next.add(i);
+      // return next;
     });
   const togglePrac = (k: "ground" | "base") => setOpenPrac((cur) => (cur === k ? null : k));
   const pracChevron = (open: boolean) => (
@@ -1107,9 +1157,40 @@ export default function CityPage() {
         </div>
       </header>
 
-      {/* New order (2026-11-11, direct request): When to go, The guide, The plan, Map, Our take, Good to know.
+      {/* New order (2026-11-11, direct request): When to go, Our take (moved up 2026-11-16, direct request), The guide, The plan, Map, Good to know.
           The first-look photo strip (.ta-look) is dropped; the old split layout (info column beside a sticky map) is gone. */}
-      <CalendarSection whenToGo={whenToGo} />
+      <CalendarSection
+        whenToGo={whenToGo}
+        slug={slug ?? ""}
+        climate={goodToKnow.beforeYouGo.rows.find((r) => /^climate/i.test(r.label ?? ""))?.value ?? null}
+      />
+
+      {/* "Our take" now sits right under "When to go" (2026-11-16, direct request). */}
+        <section className="band tight ta-take">
+      <div className={`wrap ${styles.taSolo}`}>
+          <div className="reveal" style={{ maxWidth: "none" }}>
+            <div className="eyebrow">Our take</div>
+            <div className="rule" />
+            <p className="lede">{ourTake.lede}</p>
+          </div>
+          <div className={`${styles.taFit} reveal d1`}>
+            <div className={styles.taFitCol}>
+              <div className={styles.fitK}>
+                <i />
+                Come if
+              </div>
+              <p>{ourTake.comeIf}</p>
+            </div>
+            <div className={`${styles.taFitCol} ${styles.skip}`}>
+              <div className={styles.fitK}>
+                <i />
+                Perhaps not, if
+              </div>
+              <p>{ourTake.skipIf}</p>
+            </div>
+          </div>
+          </div>
+        </section>
 
       {/* "The guide" (#stay) lands with the eyebrow near the top of the screen.
           Desktop anchors on the heading block itself: anchoring on the section
@@ -1248,20 +1329,29 @@ export default function CityPage() {
             <div className="rule" />
           </div>
           <div className={styles.planHead}>
-          <div className="reveal" style={{ maxWidth: "58ch" }}>
-            <h2 style={{ fontSize: "28px" }}>{plan.heading}</h2>
-            <p className="lede" style={{ marginTop: 14, fontSize: 16 }}>
+          <div className="reveal" style={{ minWidth: 0 }}>
+            <h2 style={{ fontSize: "36px", fontWeight: 700, fontVariantNumeric: "lining-nums", color: "var(--signature)" }}>{planHeading && planHeading.endsWith("done well") ? (
+                <>
+                  {planHeading.slice(0, -"done well".length)}
+                  <span style={{ color: "var(--ink)" }}>done well</span>
+                </>
+              ) : (
+                planHeading
+              )}
+            </h2>
+            <p className={`lede ${styles.planLede}`} style={{ marginTop: 8, fontSize: 14, maxWidth: "none" }}>
               {plan.lede}
             </p>
           </div>
             {plan.cta && (
               <div className={`reveal d2 ${styles.planCtaWrap}`} >
-                <Link className={`btn btn-gold btn-square ${styles.planCta}`} to={toRoute(plan.cta.href)}>
+                <Link className={`btn btn-gold btn-square ${styles.planCta}`} to={toRoute(plan.cta.href)} data-tara-chat>
                   <span className={styles.planCtaLabel}>
-                    {withTaraAI(plan.cta.label)}
+                    {plan.cta.label}
+                    {/* Hover arrow removed (2026-11-16, direct request):
                     <span className={styles.planCtaArrow} aria-hidden="true">
                       →
-                    </span>
+                    </span> */}
                   </span>
                 </Link>
               </div>
@@ -1270,25 +1360,45 @@ export default function CityPage() {
           {/* A fixed 4-day itinerary (2026-11-11, direct request): one row per day, three cards (morning, afternoon,
               evening) in each. Guide-card structure, no tags, no hover. Was the day-tab PlanCarousel with an Events tab. */}
           <div className={styles.planDays}>
-            {plan.days.slice(0, 4).map((day, di) => (
+            {planReady && planDays.map((day, di) => (
               <div className={`${styles.planDay} reveal`} key={di}>
                 <div className={styles.planDayHead}>
-                  {day.dayNumber && <div className="eyebrow">{day.dayNumber}</div>}
-                  {day.title && <h3>{day.title}</h3>}
+                  {/* "Day 1" is part of the title now (2026-11-16, direct request): was a separate eyebrow above it.
+                  {day.dayNumber && <div className="eyebrow">{day.dayNumber}</div>} */}
+                  {(day.dayNumber || day.title) && (
+                    <h3 title={[day.dayNumber, day.title].filter(Boolean).join(": ")}>{[day.dayNumber, day.title].filter(Boolean).join(": ")}</h3>
+                  )}
                 </div>
                 <div className={styles.planRow}>
-                  {day.slots.map((slot, si) => (
-                    <div className={styles.planCard} key={si}>
-                      <div className={styles.planPhoto}>
-                        <img src={slot.photo || hero.image || placeholderPhoto(`${day.dayNumber}-${slot.label}`)} alt="" loading="lazy" />
+                  {day.slots.map((slot, si) => {
+                    const cardId = `plan-card-${di}-${si}`;
+                    const venue = slot.venue;
+                    return (
+                      <div className={styles.planCard} key={si} id={cardId}>
+                        <div className={styles.planPhoto}>
+                          <img src={slot.photo || hero.image || placeholderPhoto(`${day.dayNumber}-${slot.label}`)} alt="" loading="lazy" />
+                        </div>
+                        <div className={styles.planBody}>
+                          {slot.label && <div className="eyebrow">{slot.label}</div>}
+                          <h4 className={styles.planPlace} title={slot.title}>
+                            {venue ? (
+                              <button type="button" className={styles.planPlaceLink} onClick={() => openOnMap(venue, cardId)}>
+                                {slot.title}
+                              </button>
+                            ) : (
+                              slot.title
+                            )}
+                          </h4>
+                          <p>{slot.food ? `${slot.text} ${slot.food}` : slot.text}</p>
+                          {venue && (
+                            <button type="button" className={styles.planMapLink} onClick={() => openOnMap(venue, cardId)}>
+                              View on the map <span aria-hidden="true">↓</span>
+                            </button>
+                          )}
+                        </div>
                       </div>
-                      <div className={styles.planBody}>
-                        {slot.label && <div className="eyebrow">{slot.label}</div>}
-                        <h4 className={styles.planPlace}>{planCardTitle(slot)}</h4>
-                        <p>{slot.text}</p>
-                      </div>
-                    </div>
-                  ))}
+                    );
+                  })}
                 </div>
               </div>
             ))}
@@ -1309,37 +1419,18 @@ export default function CityPage() {
               Stays, sights and places to eat, pinned in one view.
             </p>
           </div>
-          <div className={`${styles.taMapBox} reveal d1`}>
-            <CityMap slug={city.slug} livePlacesEnabled={isLivePlacesEnabledCity} onReady={() => setMapReady(true)} />
+          <div id="city-map" className={styles.mapAnchor}>
+            {mapFocus && (
+              <button type="button" className={styles.backToPlan} onClick={backToPlan}>
+                <span aria-hidden="true">↑</span> Back to The Plan
+              </button>
+            )}
+            <div className={`${styles.taMapBox} reveal d1`}>
+              <CityMap slug={city.slug} livePlacesEnabled={isLivePlacesEnabledCity} onReady={() => setMapReady(true)} focus={mapFocus} />
+            </div>
           </div>
         </div>
       </section>
-
-        <section className="band tight ta-take">
-      <div className={`wrap ${styles.taSolo}`}>
-          <div className="reveal" style={{ maxWidth: "none" }}>
-            <div className="eyebrow">Our take</div>
-            <div className="rule" />
-            <p className="lede">{ourTake.lede}</p>
-          </div>
-          <div className={`${styles.taFit} reveal d1`}>
-            <div className={styles.taFitCol}>
-              <div className={styles.fitK}>
-                <i />
-                Come if
-              </div>
-              <p>{ourTake.comeIf}</p>
-            </div>
-            <div className={`${styles.taFitCol} ${styles.skip}`}>
-              <div className={styles.fitK}>
-                <i />
-                Perhaps not, if
-              </div>
-              <p>{ourTake.skipIf}</p>
-            </div>
-          </div>
-          </div>
-        </section>
 
       <section className="band tight ta-content ta-prac ta-og" id="ta-og" style={{ background: "var(--bone)" }}>
         <div className="wrap">
@@ -1351,9 +1442,12 @@ export default function CityPage() {
           <div className={`${styles.pracSection} reveal d1`}>
             <h3 className={styles.pracHeading}>{goodToKnow.beforeYouGo.heading}</h3>
             <div className={styles.accordionList}>
-              {goodToKnow.beforeYouGo.rows.map((r, i) => (
-                <AccordionRow key={i} label={r.label} value={r.value} open={openBeforeRows.has(i)} onToggle={() => toggleBeforeRow(i)} />
-              ))}
+              {/* Climate now shows in the When to go card (2026-11-16, direct request); index kept so open/close still lines up. */}
+              {goodToKnow.beforeYouGo.rows.map((r, i) =>
+                /^climate/i.test(r.label ?? "") ? null : (
+                  <AccordionRow key={i} label={r.label} value={r.value} open={openBeforeRows.has(i)} onToggle={() => toggleBeforeRow(i)} />
+                ),
+              )}
             </div>
           </div>
 
@@ -1364,7 +1458,9 @@ export default function CityPage() {
                   {goodToKnow.onGround.heading}
                   {pracChevron(openPrac === "ground")}
                 </button>
-                {openPrac === "ground" && <div className={styles.pracDrop}>{groundBody}</div>}
+                <Collapse open={openPrac === "ground"}>
+                  <div className={styles.pracDrop}>{groundBody}</div>
+                </Collapse>
               </div>
             ) : (
               <>
@@ -1381,7 +1477,9 @@ export default function CityPage() {
                   {neighbourhoods.heading}
                   {pracChevron(openPrac === "base")}
                 </button>
-                {openPrac === "base" && <div className={styles.pracDrop}>{baseBody}</div>}
+                <Collapse open={openPrac === "base"}>
+                  <div className={styles.pracDrop}>{baseBody}</div>
+                </Collapse>
               </div>
             ) : (
               <>
@@ -1432,12 +1530,13 @@ export default function CityPage() {
 
             dangerouslySetInnerHTML={{ __html: closing.headingHtml ?? "" }}
           />
-          <p className="lede on-dark reveal d2" style={{ margin: "18px auto 28px" }}>
+          <p className="lede on-dark reveal d2" style={{ margin: "18px auto 28px", maxWidth: "none" }}>
             {closing.lede}
           </p>
           {closing.ctaPrimary && (
             <div className="btn-row center reveal d3">
-              <PrimaryInverseButton to={closing.ctaPrimary.href}>{withTaraAI(closing.ctaPrimary.label)}</PrimaryInverseButton>
+              {/* Label no longer says "Tara AI"; ariaLabel keeps it opening the chat (lib/taraChat.ts matches the label or aria-label). */}
+              <PrimaryInverseButton to={closing.ctaPrimary.href} ariaLabel="Speak with Tara AI">{closing.ctaPrimary.label}</PrimaryInverseButton>
             </div>
           )}
         </div>
