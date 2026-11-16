@@ -99,55 +99,16 @@ function toGuide(row: EngineGuideRow, base: CityData["guide"]): CityData["guide"
     headingHtml: headingHtml(g.heading) ?? base.headingHtml,
     lede: str(g.lede) ?? base.lede,
     note: base.note,
-    panels: withBundledFill(panels, base.panels ?? []),
+    panels,
   };
 }
 
-// Every category shows at least MIN_PER_PANEL options (2026-10-09; raised
-// from 5 to 50 on 2026-11-04 to match the engine's target_per_panel). The
-// engine's guides can be thin (Agra had one hotel and no other tabs) until
-// its next run, so: engine picks first, then the city's own bundled guide
-// items it doesn't already have; a category the engine has nothing for
-// shows the bundled one as-is (with its tiers).
-const MIN_PER_PANEL = 50;
-
-function sameName(a: string | null, b: string | null): boolean {
-  const norm = (s: string | null) => (s || "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
-  const x = norm(a), y = norm(b);
-  return !!x && !!y && (x === y || x.startsWith(y + " ") || y.startsWith(x + " "));
-}
-
-function withBundledFill(engine: CityGuidePanel[], bundled: CityGuidePanel[]): CityGuidePanel[] {
-  const keys = [...new Set([...engine.map((p) => p.key), ...bundled.map((p) => p.key)])];
-  return keys
-    .map((key) => {
-      const mine = engine.find((p) => p.key === key);
-      const theirs = bundled.find((p) => p.key === key);
-      if (!mine) return theirs ?? null;
-      const items = mine.tiers.flatMap((t) => t.items);
-      if (items.length >= MIN_PER_PANEL || !theirs) return mine;
-      // Top up tier by tier (2026-11-04): a bundled item joins the engine's tier
-      // with the same label ("Ultra", "Fine"...), or a new tier after them, so
-      // the grouping survives instead of collapsing into one list.
-      const tiers = mine.tiers.map((t) => ({ label: t.label, items: [...t.items] }));
-      let added = 0;
-      for (const bt of theirs.tiers) {
-        for (const item of bt.items) {
-          if (items.length + added >= MIN_PER_PANEL) break;
-          if (tiers.some((t) => t.items.some((i) => sameName(i.name, item.name)))) continue;
-          let tier = tiers.find((t) => (t.label ?? "") === (bt.label ?? ""));
-          if (!tier) {
-            tier = { label: bt.label, items: [] };
-            tiers.push(tier);
-          }
-          tier.items.push(item);
-          added++;
-        }
-      }
-      return added ? { key, tiers } : mine;
-    })
-    .filter((p): p is CityGuidePanel => !!p && p.tiers.some((t) => t.items.length > 0));
-}
+// The engine's panels are shown as they come (2026-11-16). They used to be topped up here
+// to 50 from the bundled guide, but the engine already does that top-up itself
+// (engine/guide_fill.py, from the same curated guide) and then removes what must not show:
+// a place with no photo, the same place twice, another city's place, a dropped source.
+// The site's own top-up put ~900 of those back (743 with no photo), so it is gone.
+// A city whose engine row is missing or empty still gets the whole bundled guide.
 
 export function useEngineGuide(slug: string | undefined, base: CityData["guide"] | undefined): EngineGuideState {
   const [state, setState] = useState<EngineGuideState>({ status: "loading", guide: null });
