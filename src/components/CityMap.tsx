@@ -507,7 +507,9 @@ export default function CityMap({
             styles: MAP_STYLES,
             disableDefaultUI: true,
             zoomControl: true,
-            ...(stacked ? { gestureHandling: fitZoomRef.current !== null && zoom > fitZoomRef.current ? "greedy" : "cooperative" } : {}),
+            // Desktop (2026-11-17, direct request): works like Google Maps itself: the wheel zooms and a drag
+            // moves the map, with no "Use ⌘ + scroll to zoom" overlay. Narrow screens and phones unchanged.
+            gestureHandling: stacked ? (fitZoomRef.current !== null && zoom > fitZoomRef.current ? "greedy" : "cooperative") : "greedy",
             fullscreenControl: true,
             // Side panel: the top-right corner sits under the site header and the
             // bottom-right under the Tara chat button, so both controls sit halfway

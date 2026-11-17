@@ -39,6 +39,9 @@ export interface CityGuideItem {
 export interface CityGuideTier {
   label: string | null;
   items: CityGuideItem[];
+  // Stay tiers (sourcing engine, 2026-11-17): the lowest nightly rate, INR, two adults, an ordinary date.
+  priceFrom?: number | null;
+  priceTo?: number | null;
 }
 
 export interface CityGuidePanel {

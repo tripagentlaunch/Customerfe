@@ -159,6 +159,12 @@ const TagsExpanded = createContext(false);
 // in one go; a single "Less" closes it. Null on phones (sheet instead).
 const CardExpand = createContext<{ expanded: boolean; open: () => void } | null>(null);
 
+// ₹47k, ₹1.7L: a nightly rate as a traveller reads it.
+function inrShort(n: number): string {
+  if (n >= 100000) return `₹${(Math.round(n / 10000) / 10).toString()}L`;
+  return `₹${Math.round(n / 1000)}k`;
+}
+
 // A guide card's location opens the place on the page's own map (2026-11-17, direct request:
 // keep the traveller on the page rather than sending them to Google Maps). Null: no map handler.
 type OpenOnMap = (item: CityGuideItem, panelKey: string, fromId: string) => boolean;
@@ -1400,6 +1406,20 @@ export default function CityPage() {
                             )
                         )}
                       </div>
+                    )}
+                    {/* What a night costs in each stay tier (2026-11-17, direct request): one line under the
+                        tier buttons, from the sourcing engine's rates. Desktop only for now. */}
+                    {!isPhone && activeTab === "stay" && activePanel && activePanel.tiers.some((t) => t.priceFrom) && (
+                      <p className={styles.tierRates}>
+                        <span className={styles.tierRatesLead}>A night for two, roughly</span>
+                        {activePanel.tiers
+                          .filter((t) => t.label && t.priceFrom)
+                          .map((t) => (
+                            <span key={t.label} className={t.label === activePanel.tiers[activeSelectedTier]?.label ? styles.tierRateOn : undefined}>
+                              {t.label} {inrShort(t.priceFrom!)}{t.priceTo && t.priceTo > t.priceFrom! ? `–${inrShort(t.priceTo).slice(1)}` : "+"}
+                            </span>
+                          ))}
+                      </p>
                     )}
                   </div>
                   <GuideMap.Provider value={openGuideOnMap}>

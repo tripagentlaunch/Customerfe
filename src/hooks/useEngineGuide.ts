@@ -26,7 +26,7 @@ type EngineGuideRow = {
     // a plain string is accepted too.
     heading?: { text?: unknown; accent?: unknown } | string | null;
     lede?: string | null;
-    panels?: { key?: string; tiers?: { label?: string | null; items?: Partial<CityGuideItem>[] }[] }[];
+    panels?: { key?: string; tiers?: { label?: string | null; items?: Partial<CityGuideItem>[]; priceFrom?: unknown; priceTo?: unknown }[] }[];
   } | null;
 };
 
@@ -91,6 +91,8 @@ function toGuide(row: EngineGuideRow, base: CityData["guide"]): CityData["guide"
       .map((t) => ({
         label: str(t.label),
         items: (Array.isArray(t.items) ? t.items : []).map(toItem).filter((i): i is CityGuideItem => i !== null),
+        priceFrom: typeof t.priceFrom === "number" && t.priceFrom > 0 ? t.priceFrom : null,
+        priceTo: typeof t.priceTo === "number" && t.priceTo > 0 ? t.priceTo : null,
       }))
       .filter((t) => t.items.length > 0);
     if (tiers.length) panels.push({ key: p.key as CityGuidePanel["key"], tiers });
