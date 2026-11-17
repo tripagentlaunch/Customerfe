@@ -4184,5 +4184,3827 @@
         ]
       }
     ]
+  },
+  "bengaluru": {
+    "days": [
+      {
+        "title": "Flowers, gardens and Church Street",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "KR Market Flower Lanes",
+            "venue": "KR Market",
+            "text": "Wake at 4.30 or 5 a.m. and walk into lanes that smell of jasmine, marigold and incense, where the city buys its flowers.",
+            "food": null,
+            "photo": "/images/plans/bengaluru/day1-morning.jpg"
+          },
+          {
+            "label": "Afternoon",
+            "title": "Lalbagh Botanical Garden",
+            "venue": "Lalbagh Botanical Garden",
+            "text": "The slightly more serious cousin of Cubbon: a botanical garden, an ornamental lake and that iconic glasshouse.",
+            "food": null,
+            "photo": "/images/plans/bengaluru/day1-afternoon.jpg"
+          },
+          {
+            "label": "Evening",
+            "title": "Church Street crawl",
+            "venue": "Church Street",
+            "text": "The stretch connecting MG Road and Brigade Road, packed with cafés, bookshops, brews and bars.",
+            "food": null,
+            "photo": "/images/plans/bengaluru/day1-evening.jpg"
+          }
+        ]
+      },
+      {
+        "title": "Park, palace and Commercial Street",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Cubbon Park",
+            "venue": "Cubbon Park",
+            "text": "If Bengaluru had lungs, this would be it: come early and see runners, dogs, yoga classes and power-walking uncles.",
+            "food": null,
+            "photo": "/images/plans/bengaluru/day2-morning.jpg"
+          },
+          {
+            "label": "Afternoon",
+            "title": "Bengaluru Palace",
+            "venue": null,
+            "text": "The slightly royal part of the day: a Tudor-style structure built by the Wadiyars.",
+            "food": null,
+            "photo": "/images/plans/bengaluru/day2-afternoon.jpg"
+          },
+          {
+            "label": "Evening",
+            "title": "Commercial Street",
+            "venue": "Commercial Street",
+            "text": "Where Bengaluru has shopped for years, still the place for street fashion, export surplus and jutti.",
+            "food": null,
+            "photo": "/images/plans/bengaluru/day2-evening.jpg"
+          }
+        ]
+      },
+      {
+        "title": "Old Bengaluru",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Malleshwaram mural walk",
+            "venue": "Malleshwaram",
+            "text": "Old Bengaluru in textbook form: conservancy lanes, trees, and a street art trail called Malleshwaram Hogona.",
+            "food": "Breakfast on the classic darshini trail: dosa or idli, steel plate in hand, in a crowded darshini.",
+            "photo": "/images/plans/bengaluru/day3-morning.jpg"
+          },
+          {
+            "label": "Afternoon",
+            "title": "Visvesvaraya Museum and the Aquarium",
+            "venue": null,
+            "text": "Right next to Cubbon Park, a very specific kind of childhood nostalgia for science and aquariums.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "NGMA Bengaluru",
+            "venue": null,
+            "text": "Modern Indian art and international exhibitions in a beautiful old mansion with a leafy courtyard.",
+            "food": null,
+            "photo": null
+          }
+        ]
+      }
+    ]
+  },
+  "delhi": {
+    "days": [
+      {
+        "title": "Lutyens' Delhi",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "National Museum",
+            "venue": "National Museum",
+            "text": "The mother of all museums in Delhi, with a collection spanning five thousand years of history.",
+            "food": null,
+            "photo": "/images/plans/delhi/day1-morning.jpg"
+          },
+          {
+            "label": "Afternoon",
+            "title": "National Gallery of Modern Art",
+            "venue": "National Gallery of Modern Art",
+            "text": "In the heart of Lutyens' Delhi, with over 17,000 artworks, the largest repository of modern and contemporary art.",
+            "food": null,
+            "photo": "/images/plans/delhi/day1-afternoon.jpg"
+          },
+          {
+            "label": "Evening",
+            "title": "Lodhi Garden",
+            "venue": "Lodhi Gardens",
+            "text": "A 90-acre park in the centre of Delhi, housing tombs dating back to the late Delhi Sultanate.",
+            "food": "Dinner at Kwality Restaurant in the Regal building, serving Delhi since 1940.",
+            "photo": "/images/plans/delhi/day1-evening.jpg"
+          }
+        ]
+      },
+      {
+        "title": "Connaught Place",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Dhoomimal Art Gallery",
+            "venue": null,
+            "text": "Established in 1936, widely regarded as one of the country's oldest private art galleries.",
+            "food": "Breakfast at Wenger's: a bakery established in 1926 by a Swiss couple.",
+            "photo": "/images/plans/delhi/day2-morning.jpg"
+          },
+          {
+            "label": "Afternoon",
+            "title": "State Emporia Complex",
+            "venue": null,
+            "text": "An Indian handicrafts goldmine on the edge of Baba Kharak Singh Marg, built after Independence.",
+            "food": "Lunch at Kake da Hotel: famous for its butter chicken.",
+            "photo": "/images/plans/delhi/day2-afternoon.jpg"
+          },
+          {
+            "label": "Evening",
+            "title": "My Bar Headquarters",
+            "venue": null,
+            "text": "Always in the thick of after-hours: the epitome of the neighbourhood dive bar.",
+            "food": "Dinner at Kikli: a restored haveli serving chef Amninder Sandhu's family Punjabi recipes.",
+            "photo": "/images/plans/delhi/day2-evening.jpg"
+          }
+        ]
+      },
+      {
+        "title": "Gardens and memory",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Sunder Nursery",
+            "venue": "Sunder Nursery",
+            "text": "A 16th-century restored heritage park complex spread across 90 acres.",
+            "food": null,
+            "photo": "/images/plans/delhi/day3-morning.jpg"
+          },
+          {
+            "label": "Afternoon",
+            "title": "Gandhi Memorial Museum",
+            "venue": null,
+            "text": "More of a memorial than a conventional museum, with artefacts and impressions from Mahatma Gandhi's life.",
+            "food": "Lunch at Indian Coffee House, a slow, democratic city veteran.",
+            "photo": "/images/plans/delhi/day3-afternoon.jpg"
+          },
+          {
+            "label": "Evening",
+            "title": "Ikk Panjab",
+            "venue": null,
+            "text": "Vibrant colours, dark mahogany furniture and pre-Partition aesthetics, with excellent food to match.",
+            "food": null,
+            "photo": "/images/plans/delhi/day3-evening.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  "mumbai": {
+    "days": [
+      {
+        "title": "South Mumbai classics",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Gateway of India",
+            "venue": "Gateway of India",
+            "text": "Right opposite the Taj Mahal Palace, the perfect starting point for exploring old Bombay.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Art-Deco Mumbai walk",
+            "venue": "Bombay High Court & the Oval Maidan",
+            "text": "A tour of one of Asia's largest collections of Art Deco architecture, the UNESCO World Heritage cluster around Oval Maidan.",
+            "food": null,
+            "photo": "/images/plans/mumbai/day1-afternoon.jpg"
+          },
+          {
+            "label": "Evening",
+            "title": "Marine Drive",
+            "venue": "InterContinental Marine Drive, Mumbai",
+            "text": "Not cheesy but rightfully dazzling: the Queen's Necklace, beside a sprawling heritage Art Deco cluster.",
+            "food": null,
+            "photo": "/images/plans/mumbai/day1-evening.jpg"
+          }
+        ]
+      },
+      {
+        "title": "Poetry, food and a dive bar",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Bombay Poetry Crawl",
+            "venue": null,
+            "text": "A walking tribute to the city's most renowned poets, from the spaces they wrote in to the subjects of their poetry.",
+            "food": null,
+            "photo": "/images/plans/mumbai/day2-morning.jpg"
+          },
+          {
+            "label": "Afternoon",
+            "title": "Mumbai Food Tour",
+            "venue": null,
+            "text": "A voyage through Mumbai's culinary history with over 15 food-tasting stops, run by A Chef's Tour.",
+            "food": null,
+            "photo": "/images/plans/mumbai/day2-afternoon.jpg"
+          },
+          {
+            "label": "Evening",
+            "title": "Woodside Inn",
+            "venue": "Woodside Inn",
+            "text": "One of the top picks for nightlife in a city where drinks come for every tax bracket.",
+            "food": null,
+            "photo": "/images/plans/mumbai/day2-evening.jpg"
+          }
+        ]
+      },
+      {
+        "title": "Bazaars and bookshops",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Mumbai Bazaar Walk",
+            "venue": null,
+            "text": "A walking tour of the native bazaars, including Phool Galli, the Jama Masjid area and Zaveri Bazaar.",
+            "food": null,
+            "photo": "/images/plans/mumbai/day3-morning.jpg"
+          },
+          {
+            "label": "Afternoon",
+            "title": "Kitab Khana",
+            "venue": "Kitab Khana",
+            "text": "The city's most coveted independent bookstore, in a 150-year-old colonial building.",
+            "food": "Britannia is one of the city's cherished Irani cafés, worth a solo visit.",
+            "photo": "/images/plans/mumbai/day3-afternoon.jpg"
+          },
+          {
+            "label": "Evening",
+            "title": "Hill Road",
+            "venue": null,
+            "text": "Ask any Mumbaikar: for shopping, Hill Road is better.",
+            "food": null,
+            "photo": "/images/plans/mumbai/day3-evening.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  "colombo": {
+    "days": [
+      {
+        "title": "Temples and the seafront",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Gangaramaya Buddhist Temple",
+            "venue": null,
+            "text": "A Buddhist holy place that is also home to a museum and gallery, a place to find your centre in a hectic city.",
+            "food": null,
+            "photo": "/images/plans/colombo/day1-morning.jpg"
+          },
+          {
+            "label": "Afternoon",
+            "title": "Jami-Ul-Alfar Mosque",
+            "venue": "Jami Ul-Alfar Mosque (the Red Mosque)",
+            "text": "A striking candy-striped mosque in a busy commercial district.",
+            "food": null,
+            "photo": "/images/plans/colombo/day1-afternoon.jpg"
+          },
+          {
+            "label": "Evening",
+            "title": "Galle Face Green",
+            "venue": "Galle Face Green at sunset",
+            "text": "A beachfront urban park favoured by local families, with a promenade made for strolling.",
+            "food": "Tea and scones on the colonial-era verandah of the Galle Face Hotel.",
+            "photo": "/images/plans/colombo/day1-evening.jpg"
+          }
+        ]
+      },
+      {
+        "title": "Design and art",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Geoffrey Bawa's Number 11",
+            "venue": null,
+            "text": "The well-preserved home of one of Asia's greatest architects, for architecture and design fans.",
+            "food": null,
+            "photo": "/images/plans/colombo/day2-morning.jpg"
+          },
+          {
+            "label": "Afternoon",
+            "title": "Nelum Pokuna Art Street",
+            "venue": null,
+            "text": "A hot spot for Colombo's up-and-coming artists, with affordable art to take home.",
+            "food": "Lunch at Café Kumbuk: light dishes made with local, seasonal, organic ingredients.",
+            "photo": "/images/plans/colombo/day2-afternoon.jpg"
+          },
+          {
+            "label": "Evening",
+            "title": "The Cricket Club Café",
+            "venue": "The Cricket Club Café",
+            "text": "A cricket-themed bar and café with a nifty collection of cricketing memorabilia.",
+            "food": null,
+            "photo": "/images/plans/colombo/day2-evening.jpg"
+          }
+        ]
+      },
+      {
+        "title": "Kovil, massage and street food",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Sri Kailawasanathan Swami Kovil",
+            "venue": null,
+            "text": "A Hindu temple with a façade and roof adorned with ornate statues of gods and goddesses.",
+            "food": null,
+            "photo": "/images/plans/colombo/day3-morning.jpg"
+          },
+          {
+            "label": "Afternoon",
+            "title": "Thusare Talking Hands",
+            "venue": null,
+            "text": "A massage service run by vision-impaired locals, for long-haul and backpack-weary muscles.",
+            "food": null,
+            "photo": "/images/plans/colombo/day3-afternoon.jpg"
+          },
+          {
+            "label": "Evening",
+            "title": "Eat, Eat and Repeat tour",
+            "venue": null,
+            "text": "A small-group walking tour that reveals Colombo's best street eats.",
+            "food": null,
+            "photo": "/images/plans/colombo/day3-evening.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  "taipei": {
+    "days": [
+      {
+        "title": "Landmarks and a sunset",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Chiang Kai-shek Memorial Hall",
+            "venue": "Chiang Kai-shek Memorial Hall",
+            "text": "A large, ornate hall within a huge cultural precinct and a cherry blossom-filled garden.",
+            "food": null,
+            "photo": "/images/plans/taipei/day1-morning.jpg"
+          },
+          {
+            "label": "Afternoon",
+            "title": "Taipei 101 Observatory",
+            "venue": "Taipei 101 Observatory",
+            "text": "The impossible-to-miss 508-metre-tall tower.",
+            "food": "Lunch at Din Tai Fung: Michelin-starred and surprisingly affordable dumplings.",
+            "photo": "/images/plans/taipei/day1-afternoon.jpg"
+          },
+          {
+            "label": "Evening",
+            "title": "Elephant Mountain",
+            "venue": "Elephant Mountain (Xiangshan)",
+            "text": "A popular hiking trail and vantage point, for sunset over the city with the illuminated Taipei 101.",
+            "food": null,
+            "photo": "/images/plans/taipei/day1-evening.jpg"
+          }
+        ]
+      },
+      {
+        "title": "Books, Red House and Ximending",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Xinyi Eslite Bookstore",
+            "venue": null,
+            "text": "Taiwan's largest bookstore, four storeys and 8000 square meters: an oasis for book nerds and stationery lovers.",
+            "food": null,
+            "photo": "/images/plans/taipei/day2-morning.jpg"
+          },
+          {
+            "label": "Afternoon",
+            "title": "Red House",
+            "venue": "The Red House (Ximen)",
+            "text": "An octagonal cultural centre in Ximending, a weekend market and a hub for art and design.",
+            "food": null,
+            "photo": "/images/plans/taipei/day2-afternoon.jpg"
+          },
+          {
+            "label": "Evening",
+            "title": "Ximending",
+            "venue": "Ximending",
+            "text": "Taipei's youth culture and alternative fashion centre, often dubbed little America.",
+            "food": null,
+            "photo": "/images/plans/taipei/day2-evening.jpg"
+          }
+        ]
+      },
+      {
+        "title": "Jiufen and Shilin",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Jiufen",
+            "venue": "Jiufen Old Street",
+            "text": "A magical, lantern-lit town that inspired the film Spirited Away.",
+            "food": null,
+            "photo": "/images/plans/taipei/day3-morning.jpg"
+          },
+          {
+            "label": "Afternoon",
+            "title": "Taroko Gorge National Park",
+            "venue": null,
+            "text": "One of Taiwan's largest national parks, if you want a longer day trip from Taipei.",
+            "food": null,
+            "photo": "/images/plans/taipei/day3-afternoon.jpg"
+          },
+          {
+            "label": "Evening",
+            "title": "Shilin Night Market",
+            "venue": "Shilin Night Market",
+            "text": "One of Taiwan's bustling night markets, where generations of families have gone to eat, drink and socialise.",
+            "food": null,
+            "photo": "/images/plans/taipei/day3-evening.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  "vienna": {
+    "days": [
+      {
+        "title": "The Ring and the palaces",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Hofburg Palace",
+            "venue": null,
+            "text": "The beating heart of the Austro-Hungarian empire, and today the official residence of the Austrian president.",
+            "food": null,
+            "photo": "/images/plans/vienna/day1-morning.jpg"
+          },
+          {
+            "label": "Afternoon",
+            "title": "Walk the Ringstrasse",
+            "venue": "The Ringstrasse",
+            "text": "Wrapped around the historic city centre, the Ring is the result of a Habsburg emperor's grand redevelopment.",
+            "food": null,
+            "photo": "/images/plans/vienna/day1-afternoon.jpg"
+          },
+          {
+            "label": "Evening",
+            "title": "Palmenhaus",
+            "venue": "Palmenhaus",
+            "text": "In the Burggarten by the Hofburg, quite possibly the world's grandest greenhouse, and a place to dine.",
+            "food": null,
+            "photo": "/images/plans/vienna/day1-evening.jpg"
+          }
+        ]
+      },
+      {
+        "title": "Klimt, history and a terrace",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "The Kiss at Belvedere Palace",
+            "venue": null,
+            "text": "Klimt's The Kiss, the final painting of his Golden Period, is the centrepiece of the world's most significant Klimt collection.",
+            "food": null,
+            "photo": "/images/plans/vienna/day2-morning.jpg"
+          },
+          {
+            "label": "Afternoon",
+            "title": "Wien Museum",
+            "venue": null,
+            "text": "The free-to-enter museum at Karlsplatz finally reopened in late 2023 after an extensive revamp.",
+            "food": "Try Vienna's signature cake, the Sachertorte: dense chocolate sponge and dark chocolate ganache.",
+            "photo": "/images/plans/vienna/day2-afternoon.jpg"
+          },
+          {
+            "label": "Evening",
+            "title": "A Schanigarten",
+            "venue": null,
+            "text": "A typical Viennese phenomenon: a small open space in front of a restaurant, for a hot summer's day or night.",
+            "food": null,
+            "photo": "/images/plans/vienna/day2-evening.jpg"
+          }
+        ]
+      },
+      {
+        "title": "Coffee, Freud and the MQ",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Café Central",
+            "venue": "Café Central",
+            "text": "Vienna's most venerable café, opened in 1876, which commands a queue to rival any London hotspot.",
+            "food": null,
+            "photo": "/images/plans/vienna/day3-morning.jpg"
+          },
+          {
+            "label": "Afternoon",
+            "title": "Sigmund Freud Museum",
+            "venue": "Sigmund Freud Museum",
+            "text": "Freud lived and worked at Berggasse 19 until 1938, when the Nazis' persecution drove him from the city.",
+            "food": null,
+            "photo": "/images/plans/vienna/day3-afternoon.jpg"
+          },
+          {
+            "label": "Evening",
+            "title": "MuseumsQuartier",
+            "venue": "MuseumsQuartier",
+            "text": "MQ offers everything from the world's finest Egon Schiele collection to a lively courtyard.",
+            "food": null,
+            "photo": "/images/plans/vienna/day3-evening.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  "budapest": {
+    "days": [
+      {
+        "title": "Buda",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Buda Castle",
+            "venue": "Buda Castle (Budavári Palota)",
+            "text": "A short funicular climb from Clark Ádám tér takes you to the former royal palace atop Castle Hill.",
+            "food": null,
+            "photo": "/images/plans/budapest/day1-morning.jpg"
+          },
+          {
+            "label": "Afternoon",
+            "title": "Zugliget Chairlift",
+            "venue": null,
+            "text": "Glide up to Budapest's highest point, János Hill at 527 metres, in 12 panoramic minutes.",
+            "food": null,
+            "photo": "/images/plans/budapest/day1-afternoon.jpg"
+          },
+          {
+            "label": "Evening",
+            "title": "Glide along the Danube",
+            "venue": null,
+            "text": "The river defines Budapest, dividing it into Buda and Pest, and is linked by a series of bridges.",
+            "food": null,
+            "photo": "/images/plans/budapest/day1-evening.jpg"
+          }
+        ]
+      },
+      {
+        "title": "Pest",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "New York Café",
+            "venue": "New York Café",
+            "text": "Budapest's most elegant coffeehouse of the 1890s has regained its status after conversion into a five-star hotel.",
+            "food": null,
+            "photo": "/images/plans/budapest/day2-morning.jpg"
+          },
+          {
+            "label": "Afternoon",
+            "title": "House of Terror",
+            "venue": "House of Terror (Terror Háza)",
+            "text": "The house at Andrássy út 60 was headquarters of the Communist Secret Police.",
+            "food": null,
+            "photo": "/images/plans/budapest/day2-afternoon.jpg"
+          },
+          {
+            "label": "Evening",
+            "title": "Szimpla Kert",
+            "venue": "Szimpla Kert",
+            "text": "Budapest's original ruin bar, in a vast, dilapidated building, which set the tone for the rest.",
+            "food": null,
+            "photo": "/images/plans/budapest/day2-evening.jpg"
+          }
+        ]
+      },
+      {
+        "title": "Baths, murals and the river",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Széchenyi Baths",
+            "venue": null,
+            "text": "An ornate oasis of relaxation in thermal waters, surrounded by the greenery of City Park.",
+            "food": null,
+            "photo": "/images/plans/budapest/day3-morning.jpg"
+          },
+          {
+            "label": "Afternoon",
+            "title": "Budapest's murals",
+            "venue": null,
+            "text": "Numerous firewalls around Pest, particularly in District VII, are decorated with murals, some related to Hungarian history.",
+            "food": "Lunch at Time Out Market Budapest, a food and cultural hub under one roof.",
+            "photo": "/images/plans/budapest/day3-afternoon.jpg"
+          },
+          {
+            "label": "Evening",
+            "title": "A38 Boat",
+            "venue": "A38",
+            "text": "A former Ukrainian stone-carrying cargo ship, now one of Budapest's most popular nightspots for live music.",
+            "food": null,
+            "photo": "/images/plans/budapest/day3-evening.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  "munich": {
+    "days": [
+      {
+        "title": "The Altstadt",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "The Glockenspiel",
+            "venue": "Marienplatz & the Glockenspiel",
+            "text": "In Marienplatz, a famous clock depicts events from the city's history with the help of 43 bells.",
+            "food": null,
+            "photo": "/images/plans/munich/day1-morning.jpg"
+          },
+          {
+            "label": "Afternoon",
+            "title": "Viktualienmarkt",
+            "venue": "The Viktualienmarkt",
+            "text": "An open-air food market dating back over 200 years, a handy and relatively inexpensive pit stop.",
+            "food": null,
+            "photo": "/images/plans/munich/day1-afternoon.jpg"
+          },
+          {
+            "label": "Evening",
+            "title": "Glockenbachviertel",
+            "venue": "Glockenbachviertel",
+            "text": "The once-edgy heart of Munich's LGBTQ+ scene, now gentrifying but still vibrant.",
+            "food": null,
+            "photo": "/images/plans/munich/day1-evening.jpg"
+          }
+        ]
+      },
+      {
+        "title": "Parks and water",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Olympiapark",
+            "venue": "Olympiapark",
+            "text": "A colossal park originally built for the 1972 games, home to several attractions.",
+            "food": null,
+            "photo": "/images/plans/munich/day2-morning.jpg"
+          },
+          {
+            "label": "Afternoon",
+            "title": "Eisbach surfers",
+            "venue": "The English Garden & Eisbach surfers",
+            "text": "Surfing seems an unlikely sight in a landlocked city, but watch surfers master the main wave in the Eisbach.",
+            "food": null,
+            "photo": "/images/plans/munich/day2-afternoon.jpg"
+          },
+          {
+            "label": "Evening",
+            "title": "Müllersches Volksbad",
+            "venue": "Müllersches Volksbad",
+            "text": "An impressive indoor pool on the banks of the river, open since 1901 with many original features.",
+            "food": null,
+            "photo": "/images/plans/munich/day2-evening.jpg"
+          }
+        ]
+      },
+      {
+        "title": "Museums and a bakery",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Munich's museums for €1",
+            "venue": null,
+            "text": "Many of Munich's fabulous museums reduce their admission fee to one euro on Sundays.",
+            "food": "Breakfast at Bageri, the city's smallest and most unusual bakery.",
+            "photo": "/images/plans/munich/day3-morning.jpg"
+          },
+          {
+            "label": "Afternoon",
+            "title": "Haus der Kunst",
+            "venue": "Haus der Kunst",
+            "text": "A structure built for Nazi-approved art in 1937, now with a cutting-edge programme of events and exhibitions.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Kosmos unter N",
+            "venue": null,
+            "text": "A pop-up beer garden that's anything but traditional, below street level on a construction site in Schwabing.",
+            "food": null,
+            "photo": null
+          }
+        ]
+      }
+    ]
+  },
+  "siem-reap": {
+    "days": [
+      {
+        "title": "Angkor",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Angkor Wat",
+            "venue": "Angkor Wat at sunrise",
+            "text": "The most iconic of Angkor's many temples, best experienced at sunrise.",
+            "food": null,
+            "photo": "/images/plans/siem-reap/day1-morning.jpg"
+          },
+          {
+            "label": "Afternoon",
+            "title": "Angkor Thom",
+            "venue": "The faces of the Bayon at Angkor Thom",
+            "text": "The ancient walled capital of the Khmer empire; the name literally translates as Great City.",
+            "food": null,
+            "photo": "/images/plans/siem-reap/day1-afternoon.jpg"
+          },
+          {
+            "label": "Evening",
+            "title": "Old Market",
+            "venue": "The Old Market (Psar Chas) and Pub Street, framed",
+            "text": "The place for cheap souvenirs and great street food.",
+            "food": null,
+            "photo": "/images/plans/siem-reap/day1-evening.jpg"
+          }
+        ]
+      },
+      {
+        "title": "Jungle temples and a circus",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Ta Prohm",
+            "venue": "Ta Prohm, the tree temple",
+            "text": "A temple half-devoured by the jungle, where Tomb Raider was filmed.",
+            "food": null,
+            "photo": "/images/plans/siem-reap/day2-morning.jpg"
+          },
+          {
+            "label": "Afternoon",
+            "title": "More Angkor temples",
+            "venue": null,
+            "text": "An attempt to visit as many of the stone wonders as possible; you're unlikely to see them all.",
+            "food": null,
+            "photo": "/images/plans/siem-reap/day2-afternoon.jpg"
+          },
+          {
+            "label": "Evening",
+            "title": "Phare Ponleu Selpak",
+            "venue": null,
+            "text": "A Cambodian circus that helps the community, combining traditional dance, circus arts and performance.",
+            "food": null,
+            "photo": "/images/plans/siem-reap/day2-evening.jpg"
+          }
+        ]
+      },
+      {
+        "title": "Cooking, shopping and cocktails",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Cooks in Tuk Tuks",
+            "venue": null,
+            "text": "A Khmer cooking school where students shop for groceries at a market, then cook a traditional meal.",
+            "food": null,
+            "photo": "/images/plans/siem-reap/day3-morning.jpg"
+          },
+          {
+            "label": "Afternoon",
+            "title": "Kandal Village",
+            "venue": null,
+            "text": "The best spot for socially conscious shopping and great coffee, far from the chaotic Old Market.",
+            "food": null,
+            "photo": "/images/plans/siem-reap/day3-afternoon.jpg"
+          },
+          {
+            "label": "Evening",
+            "title": "Miss Wong",
+            "venue": "Miss Wong Cocktail Bar",
+            "text": "A classy cocktail bar with good music and relaxed vibes.",
+            "food": "Sombai: the best place to sample locally made Sraa Tram, a traditional soaked wine.",
+            "photo": "/images/plans/siem-reap/day3-evening.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  "auckland": {
+    "days": [
+      {
+        "title": "Central Auckland",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Sky Tower",
+            "venue": "Sky Tower",
+            "text": "Looming over the city at 328 metres, Auckland's most iconic building, with 360-degree views.",
+            "food": null,
+            "photo": "/images/plans/auckland/day1-morning.jpg"
+          },
+          {
+            "label": "Afternoon",
+            "title": "Auckland Art Gallery",
+            "venue": "Auckland Art Gallery Toi o Tāmaki",
+            "text": "Home to more than 18,000 artworks, with the world's largest permanent collection of New Zealand art.",
+            "food": null,
+            "photo": "/images/plans/auckland/day1-afternoon.jpg"
+          },
+          {
+            "label": "Evening",
+            "title": "Maungawhau / Mount Eden",
+            "venue": "Maungawhau / Mount Eden",
+            "text": "Auckland's tallest and most-visited volcanic peak: the name means mountain of the whau tree.",
+            "food": null,
+            "photo": "/images/plans/auckland/day1-evening.jpg"
+          }
+        ]
+      },
+      {
+        "title": "Museum and food",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Auckland Museum",
+            "venue": "Auckland War Memorial Museum (Tāmaki Paenga Hira)",
+            "text": "The city's leading, and free, museum, with a special insight into Māori culture and New Zealand's history.",
+            "food": null,
+            "photo": "/images/plans/auckland/day2-morning.jpg"
+          },
+          {
+            "label": "Afternoon",
+            "title": "The Big Foody food tour",
+            "venue": null,
+            "text": "More than 15 years of introducing travellers to Auckland's food, led by foodie Elle Armon-Jones.",
+            "food": null,
+            "photo": "/images/plans/auckland/day2-afternoon.jpg"
+          },
+          {
+            "label": "Evening",
+            "title": "Ponsonby Road",
+            "venue": "Ponsonby Road",
+            "text": "A trendy strip for eating, drinking, shopping and people-watching.",
+            "food": null,
+            "photo": "/images/plans/auckland/day2-evening.jpg"
+          }
+        ]
+      },
+      {
+        "title": "Coast and bikes",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Ōmanawanui Track",
+            "venue": null,
+            "text": "An epic 3.7-kilometre coastal hike in the Waitakere Ranges of West Auckland.",
+            "food": null,
+            "photo": "/images/plans/auckland/day3-morning.jpg"
+          },
+          {
+            "label": "Afternoon",
+            "title": "E-bike tour",
+            "venue": null,
+            "text": "The best way to see Auckland is on two wheels: guided e-bike tours past the city's landmarks.",
+            "food": null,
+            "photo": "/images/plans/auckland/day3-afternoon.jpg"
+          },
+          {
+            "label": "Evening",
+            "title": "All Blacks Experience",
+            "venue": null,
+            "text": "More than a museum: an immersive experience honouring the black jersey, where you can test your rugby skills.",
+            "food": null,
+            "photo": "/images/plans/auckland/day3-evening.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  "queenstown": {
+    "days": [
+      {
+        "title": "Adrenaline",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Kawarau bungy jump",
+            "venue": "Kawarau Bridge Bungy: the World's First",
+            "text": "The original and best bungy jump experience, at the home of bungy jumping, founded by AJ Hackett.",
+            "food": null,
+            "photo": "/images/plans/queenstown/day1-morning.jpg"
+          },
+          {
+            "label": "Afternoon",
+            "title": "Shotover Jet",
+            "venue": "Shotover Jet",
+            "text": "A breathtaking jet boat ride through the Shotover River canyons, with 360-degree turns.",
+            "food": "Lunch at Ferg Burger: the famous burger joint, with a line at any time.",
+            "photo": "/images/plans/queenstown/day1-afternoon.jpg"
+          },
+          {
+            "label": "Evening",
+            "title": "Skyline Queenstown",
+            "venue": "Skyline Queenstown",
+            "text": "A gondola ride up the mountain, with activities and dining at the summit and killer views.",
+            "food": null,
+            "photo": "/images/plans/queenstown/day1-evening.jpg"
+          }
+        ]
+      },
+      {
+        "title": "Wine and gold",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Queenstown Wine Trail",
+            "venue": null,
+            "text": "A family-owned wine touring company, with personalised and group experiences through Central Otago.",
+            "food": null,
+            "photo": "/images/plans/queenstown/day2-morning.jpg"
+          },
+          {
+            "label": "Afternoon",
+            "title": "Arrowtown",
+            "venue": "Arrowtown: Historic Gold-Rush Village",
+            "text": "An historic gold rush village on the Arrow River, about 20 minutes' drive from Queenstown.",
+            "food": null,
+            "photo": "/images/plans/queenstown/day2-afternoon.jpg"
+          },
+          {
+            "label": "Evening",
+            "title": "Botswana Butchery",
+            "venue": "Botswana Butchery",
+            "text": "A meat-lover's paradise in the historic Archer's Cottage, with lake views.",
+            "food": null,
+            "photo": "/images/plans/queenstown/day2-evening.jpg"
+          }
+        ]
+      },
+      {
+        "title": "Treetops and trails",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Ziptrek Ecotours",
+            "venue": "Ziptrek Ecotours",
+            "text": "Guided zip-line tours through the treetops of Queenstown, for the joy of zooming through the trees.",
+            "food": null,
+            "photo": "/images/plans/queenstown/day3-morning.jpg"
+          },
+          {
+            "label": "Afternoon",
+            "title": "Mountain biking",
+            "venue": null,
+            "text": "Hilly bike trails for all levels of riders, for fresh air and some fun.",
+            "food": null,
+            "photo": "/images/plans/queenstown/day3-afternoon.jpg"
+          },
+          {
+            "label": "Evening",
+            "title": "Jack's Point golf",
+            "venue": "Jack's Point & Alpine Golf",
+            "text": "A scenic golf course less than half an hour from downtown Queenstown.",
+            "food": null,
+            "photo": "/images/plans/queenstown/day3-evening.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  "salzburg": {
+    "days": [
+      {
+        "title": "Old town",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "St Peter's Abbey and Catacombs",
+            "venue": "St Peter's Abbey (Stift St. Peter)",
+            "text": "Free to enter and an interesting place to mooch about, with a graveyard and catacombs.",
+            "food": "Breakfast at Stiftsbäckerei St. Peter: the oldest bakery in Salzburg, still baking organic bread, next to a water mill.",
+            "photo": "/images/plans/salzburg/day1-morning.jpg"
+          },
+          {
+            "label": "Afternoon",
+            "title": "Mirabell Palace",
+            "venue": null,
+            "text": "A grand palace surrounded by lush, colourful gardens, where big scenes from The Sound of Music were shot.",
+            "food": null,
+            "photo": "/images/plans/salzburg/day1-afternoon.jpg"
+          },
+          {
+            "label": "Evening",
+            "title": "Augustiner Bräu",
+            "venue": "Augustiner Bräustübl Mülln",
+            "text": "A traditional old beer house that brews its beer using a recipe perfected by the monks who founded the brewery.",
+            "food": null,
+            "photo": "/images/plans/salzburg/day1-evening.jpg"
+          }
+        ]
+      },
+      {
+        "title": "Art and architecture",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Rudolf Budja Gallery",
+            "venue": null,
+            "text": "Not just another gallery: it feels like viewing a private collection in someone's home.",
+            "food": null,
+            "photo": "/images/plans/salzburg/day2-morning.jpg"
+          },
+          {
+            "label": "Afternoon",
+            "title": "Hangar-7",
+            "venue": "Mayday Bar & Threesixty Bar, Hangar-7",
+            "text": "A super-slick aircraft hangar owned by Red Bull co-founder Dietrich Mateschitz, full of eye-popping architecture.",
+            "food": null,
+            "photo": "/images/plans/salzburg/day2-afternoon.jpg"
+          },
+          {
+            "label": "Evening",
+            "title": "Darwin's Bar",
+            "venue": "Darwin's Bar",
+            "text": "A cosy bar in the new town, close to the river, especially good for cocktails in a laid-back atmosphere.",
+            "food": null,
+            "photo": "/images/plans/salzburg/day2-evening.jpg"
+          }
+        ]
+      },
+      {
+        "title": "Coffee and a good meal",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "220 Grad",
+            "venue": "220 Grad",
+            "text": "A modern coffee and brunch spot with its own in-house roastery and a small lunch and brunch menu.",
+            "food": null,
+            "photo": "/images/plans/salzburg/day3-morning.jpg"
+          },
+          {
+            "label": "Afternoon",
+            "title": "Balkan Grill Walter",
+            "venue": "Balkan Grill Walter",
+            "text": "A take-away sausage shop in the old town: walk up to the window and order a hot sausage, a simple yet perfect affair.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Green Garden",
+            "venue": null,
+            "text": "For a healthy and memorable meal when you've had your fill of wiener schnitzel and heavy dumplings.",
+            "food": null,
+            "photo": "/images/plans/salzburg/day3-evening.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  "reykjavik": {
+    "days": [
+      {
+        "title": "Landmarks and the harbour",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Hallgrímskirkja",
+            "venue": "Hallgrímskirkja & the Tower",
+            "text": "Reykjavik's defining landmark and one of Iceland's most striking buildings: a soaring concrete church.",
+            "food": null,
+            "photo": "/images/plans/reykjavik/day1-morning.jpg"
+          },
+          {
+            "label": "Afternoon",
+            "title": "Harpa",
+            "venue": "Harpa",
+            "text": "The second most famous landmark, on the waterfront: a concert hall and cultural centre.",
+            "food": "A hot dog from Bæjarins Beztu Pylsur, the most iconic stand in Iceland.",
+            "photo": "/images/plans/reykjavik/day1-afternoon.jpg"
+          },
+          {
+            "label": "Evening",
+            "title": "The Old Harbour",
+            "venue": "The Old Harbour (Grandi)",
+            "text": "Reykjavik's historic harbour, from where guided whale-watching tours depart.",
+            "food": null,
+            "photo": "/images/plans/reykjavik/day1-evening.jpg"
+          }
+        ]
+      },
+      {
+        "title": "Golden Circle and lagoon",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Golden Circle bus tour",
+            "venue": null,
+            "text": "No trip to Iceland is complete without the famed Golden Circle, a popular tourist route.",
+            "food": null,
+            "photo": "/images/plans/reykjavik/day2-morning.jpg"
+          },
+          {
+            "label": "Afternoon",
+            "title": "Perlan",
+            "venue": "Perlan: Wonders of Iceland",
+            "text": "Inside a gleaming glass dome on a hill above the city: part museum, part immersive nature experience.",
+            "food": null,
+            "photo": "/images/plans/reykjavik/day2-afternoon.jpg"
+          },
+          {
+            "label": "Evening",
+            "title": "Sky Lagoon",
+            "venue": "Sky Lagoon",
+            "text": "Ten minutes from downtown in Kópavogur, the city's sleekest spot for a soak.",
+            "food": null,
+            "photo": "/images/plans/reykjavik/day2-evening.jpg"
+          }
+        ]
+      },
+      {
+        "title": "History, pond and pools",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Settlement Exhibition",
+            "venue": null,
+            "text": "A look at the early days of Reykjavik, where the excavated ruins sit on one side.",
+            "food": null,
+            "photo": "/images/plans/reykjavik/day3-morning.jpg"
+          },
+          {
+            "label": "Afternoon",
+            "title": "Tjörnin Pond",
+            "venue": "Tjörnin (The Pond) & City Hall",
+            "text": "A small lake in the heart of the city, fringed by colourful houses, City Hall and outdoor sculptures.",
+            "food": null,
+            "photo": "/images/plans/reykjavik/day3-afternoon.jpg"
+          },
+          {
+            "label": "Evening",
+            "title": "A local outdoor pool",
+            "venue": null,
+            "text": "Iceland is built on its swimming pools: every neighbourhood has one, deep and shallow.",
+            "food": null,
+            "photo": "/images/plans/reykjavik/day3-evening.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  "nice-riviera": {
+    "days": [
+      {
+        "title": "The Old Town",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Nice's Old Town",
+            "venue": null,
+            "text": "Recognised by UNESCO in 2021, and more ancient than it seems, dating back to the third century BC.",
+            "food": null,
+            "photo": "/images/plans/nice-riviera/day1-morning.jpg"
+          },
+          {
+            "label": "Afternoon",
+            "title": "Marché aux Fleurs Cours Saleya",
+            "venue": "Cours Saleya Market",
+            "text": "An incredible flower market in the Old Town dating back to 1897, with fruit and vegetables too.",
+            "food": "Lunch at Chez Theresa: a cute spot in the old town that specialises in socca.",
+            "photo": "/images/plans/nice-riviera/day1-afternoon.jpg"
+          },
+          {
+            "label": "Evening",
+            "title": "Colline du Château",
+            "venue": "Colline du Château (Castle Hill)",
+            "text": "Castle hill, where the medieval castle was destroyed by Louis XIV in 1706, for lovely views.",
+            "food": null,
+            "photo": "/images/plans/nice-riviera/day1-evening.jpg"
+          }
+        ]
+      },
+      {
+        "title": "Matisse and the Promenade",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Musée Matisse",
+            "venue": "Musée Matisse",
+            "text": "Matisse lived in Nice for nearly 40 years, and this museum holds one of the world's largest collections of his work.",
+            "food": null,
+            "photo": "/images/plans/nice-riviera/day2-morning.jpg"
+          },
+          {
+            "label": "Afternoon",
+            "title": "Promenade des Anglais",
+            "venue": "Promenade des Anglais",
+            "text": "A 7km paved promenade paid for by wealthy English expats who liked to wander the seafront.",
+            "food": null,
+            "photo": "/images/plans/nice-riviera/day2-afternoon.jpg"
+          },
+          {
+            "label": "Evening",
+            "title": "Hotel Negresco",
+            "venue": null,
+            "text": "A historic hotel on the Promenade, more than 100 years old, with a pastel-pink domed roof.",
+            "food": "A cocktail at the hotel bar.",
+            "photo": "/images/plans/nice-riviera/day2-evening.jpg"
+          }
+        ]
+      },
+      {
+        "title": "Prehistory, coffee and wine",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Musée Terra Amata",
+            "venue": null,
+            "text": "Nice has incredible prehistoric sites, even if they get skipped over for the famous beach clubs.",
+            "food": null,
+            "photo": "/images/plans/nice-riviera/day3-morning.jpg"
+          },
+          {
+            "label": "Afternoon",
+            "title": "Specialty coffee tour",
+            "venue": null,
+            "text": "Nice's new wave of baristas and roasters, who really know their beans.",
+            "food": null,
+            "photo": "/images/plans/nice-riviera/day3-afternoon.jpg"
+          },
+          {
+            "label": "Evening",
+            "title": "Cave de la Tour",
+            "venue": "Cave de la Tour",
+            "text": "Founded in 1947, one of the city's oldest wine bars, with local wines and varieties from across France.",
+            "food": null,
+            "photo": "/images/plans/nice-riviera/day3-evening.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  "dubrovnik": {
+    "days": [
+      {
+        "title": "The old town",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Walk the City Walls",
+            "venue": null,
+            "text": "The easiest and most popular itinerary for visitors: a stroll around the fortifications.",
+            "food": null,
+            "photo": "/images/plans/dubrovnik/day1-morning.jpg"
+          },
+          {
+            "label": "Afternoon",
+            "title": "Rector's Palace",
+            "venue": "Rector's Palace",
+            "text": "The most historic monument in Dubrovnik, which was rebuilt twice.",
+            "food": null,
+            "photo": "/images/plans/dubrovnik/day1-afternoon.jpg"
+          },
+          {
+            "label": "Evening",
+            "title": "Jazz at the Troubadour",
+            "venue": null,
+            "text": "On any given night for six months of the year, crowds flock to this intimate enclosed square for outdoor jazz.",
+            "food": "Dinner at Nautika: calling itself Dubrovnik's finest restaurant, certainly the most prestigious.",
+            "photo": "/images/plans/dubrovnik/day1-evening.jpg"
+          }
+        ]
+      },
+      {
+        "title": "Island and views",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Lokrum island",
+            "venue": "Sea-kayak to Lokrum Island",
+            "text": "An uninhabited isle on Dubrovnik's doorstep, unspoilt and lush with pines, palms and cypress trees.",
+            "food": null,
+            "photo": "/images/plans/dubrovnik/day2-morning.jpg"
+          },
+          {
+            "label": "Afternoon",
+            "title": "The cable car to Srđ",
+            "venue": "Srđ",
+            "text": "The gleaming orange cable car scaling the steep incline above the old town.",
+            "food": null,
+            "photo": "/images/plans/dubrovnik/day2-afternoon.jpg"
+          },
+          {
+            "label": "Evening",
+            "title": "The cliff bars",
+            "venue": null,
+            "text": "Far from the downtown flock, five minutes along a back alley, panoramic terraces for a beer.",
+            "food": "Dinner at 360: a Michelin-starred meal, perhaps the best in Croatia.",
+            "photo": "/images/plans/dubrovnik/day2-evening.jpg"
+          }
+        ]
+      },
+      {
+        "title": "Pharmacy, history and cinema",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "The medieval pharmacy",
+            "venue": null,
+            "text": "Of all the old town treasures, the Franciscan Monastery and its Old Pharmacy Museum are the real gems.",
+            "food": null,
+            "photo": "/images/plans/dubrovnik/day3-morning.jpg"
+          },
+          {
+            "label": "Afternoon",
+            "title": "The Red History Museum",
+            "venue": "Red History Museum",
+            "text": "Croatia was part of the communist-ruled Yugoslav federation from 1945 until 1991.",
+            "food": null,
+            "photo": "/images/plans/dubrovnik/day3-afternoon.jpg"
+          },
+          {
+            "label": "Evening",
+            "title": "Jadran open-air cinema",
+            "venue": null,
+            "text": "An outdoor cinema nestled in the city walls, open all summer and owned by the city.",
+            "food": null,
+            "photo": "/images/plans/dubrovnik/day3-evening.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  "cusco": {
+    "days": [
+      {
+        "title": "Incan Cusco",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Qorikancha",
+            "venue": "Qorikancha (Temple of the Sun / Santo Domingo)",
+            "text": "The ruins of a once-grand sacred Incan temple, visible beneath the Church and Convent of Santo Domingo the Spanish built in the 1500s.",
+            "food": "Then Mercado San Pedro, Cusco's central market, for fruit juices and spices.",
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Museo Inka and Museo de Machu Picchu",
+            "venue": "Museo Inka",
+            "text": "Two museums to prepare for Machu Picchu: Incan culture, and the world's largest collection of Machu Picchu artifacts.",
+            "food": "Lunch at Chicha, Gastón Acurio's Cusco outpost: cuy served like Peking duck, or alpaca carpaccio.",
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Organika",
+            "venue": null,
+            "text": "A light supper where many ingredients come from their own Sacred Valley gardens, after a pisco sour lesson at the hotel.",
+            "food": "The tiradito de trucha with local trout and sweet potato chips.",
+            "photo": null
+          }
+        ]
+      },
+      {
+        "title": "Sacsayhuamán and San Blas",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Sacsayhuamán",
+            "venue": "Sacsayhuamán",
+            "text": "An archaeological site built in the 1400s above 12,000 feet, with walls of massive stone blocks fitted without mortar.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "San Blas",
+            "venue": null,
+            "text": "Walk down stone staircases and lanes lined with colourful street art, with coffee or hot chocolate at Xapiri Ground.",
+            "food": "Lunch at Green Point: plant-based dishes in the garden, such as the Vegan Cusco Grill.",
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Planetarium Cusco",
+            "venue": null,
+            "text": "A family-run star-gazing site with a presentation on the Incas' view of the cosmos and, weather permitting, a telescope.",
+            "food": "Finish with a pisco sour in the hotel bar.",
+            "photo": null
+          }
+        ]
+      },
+      {
+        "title": "The Sacred Valley",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Pisac Market",
+            "venue": "Pisac Market",
+            "text": "The vibrant Sunday fair in the Sacred Valley town of Pisac, with handwoven textiles, Inca-inspired pottery and spit-roasted cuy.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Ollantaytambo Fortress",
+            "venue": "Ollantaytambo Fortress",
+            "text": "The stone terraces of the Ollantaytambo fortress, one of the sights covered by Cusco's boleto turístico.",
+            "food": "Lunch at Mil, overlooking the Moray ruins and serving only what grows above 11,500 feet.",
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Museo del Pisco",
+            "venue": "Museo del Pisco",
+            "text": "A slick bar with locations in Cusco, Lima and Arequipa, serving pisco sours and cocktails made with coca leaves and purple corn.",
+            "food": null,
+            "photo": null
+          }
+        ]
+      }
+    ]
+  },
+  "porto": {
+    "days": [
+      {
+        "title": "Churches and the Ribeira",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "A sidecar tour",
+            "venue": null,
+            "text": "Porto Sidecar Tours offers guided rides from the sidecar of a vintage motorcycle, from the cathedral to the best coffee shops.",
+            "food": "Lunch: a francesinha at A Regaleira, widely credited as the home of the original.",
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Clérigos Church and São Francisco",
+            "venue": null,
+            "text": "Climb roughly 225 spiral steps for panoramic views, then see the Church of Saint Francis, covered in gold leaf.",
+            "food": "A pastel de nata at C'alma Coffee Room.",
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "The Ribeira",
+            "venue": "The Ribeira & Cais da Ribeira riverfront",
+            "text": "A riverside promenade, with a white port and tonic as the light shifts over the Dom Luís I Bridge.",
+            "food": "Dinner at O Antunes: a family-owned restaurant for bacalhau and pork knuckle for two; reservations a must.",
+            "photo": null
+          }
+        ]
+      },
+      {
+        "title": "Cathedral, market and World of Wine",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Porto Cathedral and the Chapel of Souls",
+            "venue": "Porto Cathedral (Sé)",
+            "text": "Built in the 12th century with Gothic cloisters, then the Chapel of Souls, covered in blue-and-white azulejo tiles.",
+            "food": "Breakfast at Zenith: bacon-and-egg pancakes or avocado toast on charcoal-cocoa bread.",
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "World of Wine",
+            "venue": "WOW: World of Wine cultural district",
+            "text": "A sprawling complex in the old port wine warehouses of Vila Nova de Gaia, with seven museums and 12 restaurants.",
+            "food": "Lunch at Mercado do Bolhão: presunto, cheese, oysters and vinho verde from the market vendors.",
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Jardim do Morro",
+            "venue": "Jardim do Morro",
+            "text": "A hilltop garden in Gaia with some of the city's best views of Porto and the Douro; arrive just before sunset.",
+            "food": "Dinner at Yeatman Gastronomic Restaurant: chef Ricardo Costa's tasting menus matched to the cellar.",
+            "photo": null
+          }
+        ]
+      },
+      {
+        "title": "The Douro, bookshops and chocolate",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "A Douro boat trip",
+            "venue": null,
+            "text": "A boat trip along the Douro wine region is described as an absolute must, with sights, scenery and wine.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Livraria Lello",
+            "venue": "Livraria Lello",
+            "text": "One of the world's most beautiful bookstores, said to have inspired J.K. Rowling. A rite of passage for book lovers.",
+            "food": "Then Porto's traditional chocolate makers: Avianense, the oldest, from 1914, and Arcádia.",
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Cervejaria Gazela",
+            "venue": null,
+            "text": "A counter in the Batalha neighbourhood famous for its cachorrinhos, a Portuguese hot dog.",
+            "food": "A toasted bun with sausage, melted cheese, butter and spicy sauce, cut into pieces.",
+            "photo": null
+          }
+        ]
+      }
+    ]
+  },
+  "doha": {
+    "days": [
+      {
+        "title": "Msheireb and the National Museum",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Msheireb Museums",
+            "venue": "Msheireb Museums",
+            "text": "Four restored heritage homes tracing Qatar's social, cultural and economic development, including Bin Jelmood House and Radwani House.",
+            "food": "Breakfast at IzuIzu on Baharat Msheireb: truffled eggs or avocado toast.",
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "National Museum of Qatar",
+            "venue": "National Museum of Qatar",
+            "text": "Designed by Jean Nouvel and inspired by the desert rose, with immersive exhibits on Qatar's history.",
+            "food": "Lunch at Jiwan: modern Qatari food with Alain Ducasse, on a terrace over the skyline.",
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Nobu Doha",
+            "venue": "Nobu Doha",
+            "text": "On its own private island at the Four Seasons, with a 360-degree rooftop terrace and the famed black cod.",
+            "food": null,
+            "photo": null
+          }
+        ]
+      },
+      {
+        "title": "Islamic art and the souq",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Museum of Islamic Art",
+            "venue": "Museum of Islamic Art",
+            "text": "An I.M. Pei building holding 1,200 years of Islamic history, including the rare Abbasid Blue Quran.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "The Mina District",
+            "venue": "Mina District",
+            "text": "Cobblestone streets and pastel-coloured buildings, with cafés and vibrant street art murals.",
+            "food": "Lunch at Baron: whole-roasted cauliflower and capellini with crab and shrimp toum.",
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Souq Waqif",
+            "venue": "Souq Waqif",
+            "text": "A living market and the best attraction to leave for last, starting at the Falcon Souq.",
+            "food": "Dinner at Al Mourjan for classic Arabic dishes, or karak and chapati at Ali Al Naama.",
+            "photo": null
+          }
+        ]
+      },
+      {
+        "title": "The Pearl, Wakrah and sunset",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Qanat Quartier at The Pearl",
+            "venue": "The Pearl",
+            "text": "A pastel, Venice-inspired shopping promenade along canals, with a replica Bridge of Sighs and piano stairs near Qanat Quartier 7.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Souq Al Wakrah",
+            "venue": null,
+            "text": "A new construction on an old site of fishing and pearl diving, with sand-coloured buildings, winding lanes and a small domed mosque.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Boho Social",
+            "venue": "Katara Cultural Village",
+            "text": "A rooftop terrace in Katara Cultural Village with panoramas across West Bay and The Pearl Qatar, made for sunset.",
+            "food": "An eclectic, South American-centric menu.",
+            "photo": null
+          }
+        ]
+      }
+    ]
+  },
+  "hoi-an": {
+    "days": [
+      {
+        "title": "The Ancient Town",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Tailors and leather in Ancient Town",
+            "venue": "Hoi An Ancient Town",
+            "text": "A bespoke leather bag at Buffalo Leather Shop or a custom jacket at Sewing Bee Tailors, with a fitting booked for the next day.",
+            "food": "Coffee at Hoi An Roastery, served with sweetened condensed milk.",
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Central Market and the Japanese Covered Bridge",
+            "venue": "Japanese Covered Bridge (Chua Cau)",
+            "text": "Browse Central Market, then the Japanese Covered Bridge, Quan Cong Temple and the Old House of Tan Ky.",
+            "food": "Lunch at Banh Mi Phuong, which Anthony Bourdain called the best banh mi in Vietnam.",
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Ancient Town by lantern light",
+            "venue": "Hoi An Ancient Town",
+            "text": "At dusk, merchants switch off the electric lights and light silk lanterns; chilled wine at White Marble Wine Bar.",
+            "food": "Dinner at Nữ Eatery: avocado salad, pork belly buns, chili lime shrimp and lemongrass ice cream.",
+            "photo": null
+          }
+        ]
+      },
+      {
+        "title": "Countryside and beach",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "A Vespa countryside tour",
+            "venue": null,
+            "text": "On refurbished 1960s Italian scooters across the Thu Bon River to Cam Kim Island, with a boatyard, rice paddies and a coffee roasting lesson.",
+            "food": "A seafood feast on the beach to finish.",
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "An Bang Beach",
+            "venue": "An Bang Beach",
+            "text": "Two miles south of the hotel, with casual cafés serving cocktails, beer and live music.",
+            "food": "Or visit the Marble Mountains.",
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Miss Ly Café",
+            "venue": null,
+            "text": "A charming family-run address with warm wood tables and ice-cold Tiger Beer.",
+            "food": "White rose dumplings and crispy cao lầu.",
+            "photo": null
+          }
+        ]
+      },
+      {
+        "title": "Cooking, assembly halls and the river",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Tra Que Gardens cooking school",
+            "venue": "Tra Que cooking class",
+            "text": "Walk the organic vegetable farm that supplies most good chefs in Hoi An, then make spring rolls, salads and peanut sauce.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Fujian Assembly Hall",
+            "venue": "Fujian Assembly Hall (Phuc Kien / Phuoc Kien)",
+            "text": "A Chinese hall built in 1690, with a shrine to Thien Hau, the sea goddess who protects sailors, and a colourful courtyard.",
+            "food": "Vietnamese coffee at Mia Coffee, or a banh mi at Madam Khanh's stall.",
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Bars on the Thu Bon River",
+            "venue": "Hoi An Ancient Town riverside bars",
+            "text": "The riverbank was once where traders drank between voyages. Try the local rice wine, or the beers at Hoi An Artisan.",
+            "food": "The Mango Chili Pale Ale or the Chocolate Mulberry Bock.",
+            "photo": null
+          }
+        ]
+      }
+    ]
+  },
+  "dubai": {
+    "days": [
+      {
+        "title": "Souks and the Burj Khalifa",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "The Spice and Gold Souks",
+            "venue": "Gold Souk",
+            "text": "Cross the creek by abra to Deira's oldest markets: sacks of saffron and cardamom, then windows dressed in gold and diamonds.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Al Fanar Restaurant and Café",
+            "venue": "Al Fanar Restaurant",
+            "text": "An interior that transports you to 1960s Dubai, serving authentic Emirati food, before the Dubai Mall.",
+            "food": "Samboosa and hobool, then machboos deyay and leqaimat.",
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "At The Top, Burj Khalifa",
+            "venue": "Burj Khalifa: At the Top",
+            "text": "Go an hour before sunset for views from the observation deck on the 124th floor of the world's tallest skyscraper.",
+            "food": "Dinner at Zaroob: crispy falafel, creamy hummus and man'oushe.",
+            "photo": null
+          }
+        ]
+      },
+      {
+        "title": "Heritage Dubai",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Dubai Museum and Al Bastakiya",
+            "venue": null,
+            "text": "Al Fahidi Fort, built in 1787, then the heritage district of Al Bastakiya, with teahouses, galleries and the XVA Art Hotel.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "The Sheikh Mohammed Centre",
+            "venue": null,
+            "text": "A cultural lunch in House 26, with a local host to talk about Emirati culture and customs (reservations only).",
+            "food": "Traditional Emirati dishes, served at 1 p.m. Sunday to Thursday.",
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Dubai Opera",
+            "venue": "Dubai Opera",
+            "text": "A boat-shaped building nodding to the city's roots as a trading port, hosting international performances.",
+            "food": "Thai seafood at Thiptara by Burj Lake, with a view of the Dubai Fountain.",
+            "photo": null
+          }
+        ]
+      },
+      {
+        "title": "Museum of the Future, beach and Trèsind Studio",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Museum of the Future",
+            "venue": "Museum of the Future",
+            "text": "A stainless steel torus covered in Arabic calligraphy. Tickets sell out, but the exterior alone is worth a visit, by day or lit up at night.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Kite Beach",
+            "venue": "Kite Beach",
+            "text": "A long-time residents' favourite with a running track, cycling path and boardwalk, clear swimmable water and sun beds to hire.",
+            "food": "Food trucks along the beach.",
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Trèsind Studio",
+            "venue": "Trèsind Studio",
+            "text": "The world's only three-Michelin-starred Indian restaurant, seating just 20 diners in two nightly seatings, Monday to Saturday.",
+            "food": "Tasting menus that journey through regions of India, led by chef Himanshu Saini.",
+            "photo": null
+          }
+        ]
+      }
+    ]
+  },
+  "phuket": {
+    "days": [
+      {
+        "title": "Temples, Old Town and street food",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Wat Chalong",
+            "venue": "Wat Chalong (Wat Chaithararam)",
+            "text": "Phuket's largest and most important Buddhist temple, with a pagoda holding a splinter of bone from the Buddha. Go early and dress modestly.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Old Town and Chinpracha House",
+            "venue": "Old Phuket Town's Sino-Portuguese quarter",
+            "text": "Colourful old buildings and boutique shops along Soi Rommannee, then Chinpracha House, with its original family furnishings.",
+            "food": "Lunch at Mor Mu Dong in the Palai mangroves: the stuffed curried mackerel is a signature dish.",
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Chillva Night Market",
+            "venue": "Chillva Market",
+            "text": "A bohemian market built from painted, upcycled shipping containers. Spend a couple of hours browsing and people watching.",
+            "food": "Eat your way around the stalls.",
+            "photo": null
+          }
+        ]
+      },
+      {
+        "title": "Phang Nga Bay by speedboat",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Phang Nga Bay and James Bond Island",
+            "venue": "James Bond Island (Khao Phing Kan / Koh Tapu)",
+            "text": "A speedboat day trip to the limestone cliffs made famous by 007, with a few smaller islands on the way.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Snorkelling and beach time",
+            "venue": null,
+            "text": "The day trip adds small islands for quality snorkelling and relaxing beach time, before the boat heads back to Phuket.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Floating restaurants at Laem Hin Pier",
+            "venue": null,
+            "text": "A free longtail boat takes five minutes from the pier to the floating restaurants near Coconut Island, and back beneath the stars.",
+            "food": "Oysters, crab, prawns and fish, cooked by traditional Thai methods.",
+            "photo": null
+          }
+        ]
+      },
+      {
+        "title": "Elephants, beach and sunset",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Phuket Elephant Sanctuary",
+            "venue": "Phuket Elephant Sanctuary",
+            "text": "An ethical sanctuary in Paklok, with no trick shows or rides. Feed the elephants and follow them as they roam.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Bangtao Beach",
+            "venue": null,
+            "text": "An eight-kilometre stretch of soft white sand and turquoise water, with upscale beach clubs and restaurants.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Promthep Cape at sunset",
+            "venue": "Promthep Cape at sunset",
+            "text": "The southernmost point of Phuket, and its best sunset view. It gets very busy, so arrive early.",
+            "food": "For a quieter sundowner meal, wait for dark and book a table at the nearby Promthep Cape restaurant.",
+            "photo": null
+          }
+        ]
+      }
+    ]
+  },
+  "cancun": {
+    "days": [
+      {
+        "title": "Maya heritage and the lagoon",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Museo Maya de Cancún",
+            "venue": "Museo Maya de Cancún & the El Rey ruins",
+            "text": "About 400 artifacts from across the Yucatán, in an air-conditioned museum. An archaeological site with temple remains sits just outside.",
+            "food": "Breakfast at Rooster, where locals go downtown for eggs benedict and avocado toast.",
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "El Rey Archaeological Zone",
+            "venue": "Museo Maya de Cancún & the El Rey ruins",
+            "text": "Small Mayan ruins in the Hotel Zone, easy to navigate, with views of the lagoon and a glimpse of Maya royal life.",
+            "food": "Lunch at El Fish Fritanga: ceviche tostadas, lobster tail or whole fried fish, on the sand by the lagoon.",
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Parque de las Palapas",
+            "venue": null,
+            "text": "Come at sunset to the downtown park where Cancún locals gather, and watch people live their evenings.",
+            "food": "Mexican cakes, empanadas and cheesy treats from the stalls.",
+            "photo": null
+          }
+        ]
+      },
+      {
+        "title": "Isla Mujeres",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Isla Mujeres and Playa Norte",
+            "venue": "Playa Norte, Isla Mujeres",
+            "text": "A 20-minute ferry from Cancún. Rent a golf cart to explore the island, then claim some sand at Playa Norte.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Punta Sur",
+            "venue": "Isla Mujeres & Punta Sur",
+            "text": "The south end of the island has stunning cliff views and ziplining, or book a snorkelling excursion in turquoise water.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Navios",
+            "venue": null,
+            "text": "Mexican fusion seafood served in romantic cabanas over the water, with a remarkable wine list.",
+            "food": "Try the robalo al pastor: sea bass carpaccio over pineapple with cilantro rice.",
+            "photo": null
+          }
+        ]
+      },
+      {
+        "title": "Underwater art, cooking and nightlife",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "MUSA underwater museum",
+            "venue": "MUSA: Museo Subacuático de Arte (underwater museum)",
+            "text": "More than 500 statues submerged in Cancún's marine park. Snorkel up close, or see them from a glass-bottomed boat.",
+            "food": "Coffee or hot chocolate at Ah Cacao Chocolate Café in La Isla Shopping Village.",
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Yum Cooking Workshop",
+            "venue": null,
+            "text": "An afternoon class in the history of Mexican cuisine, then cooking, a six-course meal and a tequila tasting.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Coco Bongo",
+            "venue": "Coco Bongo",
+            "text": "Flying acrobats, pop star tributes and a party every night of the week. Tickets include unlimited drinks, so book ahead.",
+            "food": "Dine first at Chambao Fashion GrillHouse: smoking cocktails, surf and turf, and a fashion show.",
+            "photo": null
+          }
+        ]
+      }
+    ]
+  },
+  "rio-de-janeiro": {
+    "days": [
+      {
+        "title": "Centro and the port",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Centro Cultural Banco do Brasil",
+            "venue": "Centro Cultural Banco do Brasil",
+            "text": "One of Rio's top cultural hubs, with stunning architecture and world-class exhibitions, worth visiting whatever is on.",
+            "food": "Then the recently opened Confeitaria Colombo, for the iconic Torrada Petrópolis.",
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Pequena África walking tour",
+            "venue": null,
+            "text": "Walk through Saúde, Gamboa and Santo Cristo, where enslaved Africans first arrived in Brazil and a Black community remains.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Samba at Pedra do Sal",
+            "venue": "Pedra do Sal",
+            "text": "Cap off the walk with samba at Pedra do Sal, held Friday through Monday evenings from 6pm.",
+            "food": null,
+            "photo": null
+          }
+        ]
+      },
+      {
+        "title": "Botafogo, Santa Teresa and Urca",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Casa Firjan",
+            "venue": "Casa Firjan",
+            "text": "A French-style mansion in Botafogo that hosts talks on innovation, and houses Empório Jardim.",
+            "food": "Over 90 breakfast items; don't leave without the gruyère pão de queijo.",
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Santa Teresa tram",
+            "venue": "Santa Teresa & the Bonde Tram",
+            "text": "Installed in 1872, the bondinho crosses the Arcos da Lapa and winds through the cobbled streets of Santa Teresa.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Mureta da Urca",
+            "venue": "Escadaria & the Urca Waterfront",
+            "text": "A one-kilometre seawall where young cariocas gather at golden hour, watching the sun set over Guanabara Bay.",
+            "food": "The shrimp pastel at Bar Urca, across the street.",
+            "photo": null
+          }
+        ]
+      },
+      {
+        "title": "Copacabana fort, gardens and jazz",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Café 18 do Forte de Copacabana",
+            "venue": "Forte de Copacabana",
+            "text": "Breakfast with views over Copacabana Beach, from the fort at the end of the sand.",
+            "food": "The award-winning breakfast is served all day, with house-made pão de queijo da canastra.",
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Parque Lage",
+            "venue": "Parque Lage",
+            "text": "The lush garden of a 19th-century mansion that is now the School of Visual Arts, known for its cultural events.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Armazém Cardosão",
+            "venue": "Armazém Cardosão",
+            "text": "A legendary spot for jazz and bohemian vibes in Laranjeiras, where Ney Conceição leads performances for a post-work crowd.",
+            "food": "Order the caipirinhas straight to your table.",
+            "photo": null
+          }
+        ]
+      }
+    ]
+  },
+  "zurich": {
+    "days": [
+      {
+        "title": "Old town, art and fondue",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Niederdorf",
+            "venue": "Niederdorf (Dörfli) lanes",
+            "text": "The old town's narrow streets hold quirky shops and cosy bars. Visit Cabaret Voltaire, the cradle of Dada, or climb a Grossmünster tower for views.",
+            "food": "A porchetta roll and basque cheesecake at Ora Bar.",
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Kunsthaus Zürich",
+            "venue": "Kunsthaus Zürich",
+            "text": "Switzerland's largest art museum, with a room of Giacometti, Van Gogh, Monet and Chagall upstairs, and the largest Munch collection outside Norway.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Fondue at the Widder Garden",
+            "venue": "Widder Hotel",
+            "text": "Fondue at the Widder Garden, in four-cheese, truffle and champagne versions. In winter, eat inside a portable gondola.",
+            "food": "Book ahead for the gondola seatings.",
+            "photo": null
+          }
+        ]
+      },
+      {
+        "title": "Bahnhofstrasse, football and Kronenhalle",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Bahnhofstrasse",
+            "venue": "Bahnhofstrasse: the luxury mile",
+            "text": "One of the world's most expensive shopping streets: high street brands near the station, luxury shops towards the lake.",
+            "food": "Italian coffee at Bar 45, or the tourist-popular Café Sprüngli.",
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "FIFA Museum",
+            "venue": "FIFA Museum",
+            "text": "Rent a bike and ride to the history of the game, with interactive games to compete in.",
+            "food": "A beer at the former Hürlimann brewery, at B2 Boutique Hotel.",
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Kronenhalle",
+            "venue": "Kronenhalle",
+            "text": "Zurich's institution since 1924, with a dress code, warm service, strong cocktails and a private art collection on the walls.",
+            "food": null,
+            "photo": null
+          }
+        ]
+      },
+      {
+        "title": "Chocolate, Zurich West and a bar crawl",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Lindt Home of Chocolate",
+            "venue": "Lindt Home of Chocolate, Kilchberg",
+            "text": "On the shore of Lake Zurich, with a factory tour, the largest Lindt store in Switzerland and tempering masterclasses. Book ahead.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Zurich West",
+            "venue": "Zürich West: the Viadukt",
+            "text": "Shops, restaurants and bars under the old railway viaduct, then Frau Gerolds Garten with its urban garden.",
+            "food": "Neapolitan-style pizza at Napule, a favourite of locals and Roger Federer.",
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "A bar crawl from Raygrodski",
+            "venue": "Raygrodski",
+            "text": "Start with a cocktail at Raygrodski, move to COR Wine & Pintxos, and end at Bar 1838 for open-late dancing and views.",
+            "food": null,
+            "photo": null
+          }
+        ]
+      }
+    ]
+  },
+  "geneva": {
+    "days": [
+      {
+        "title": "Lake and Old Town",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Jet d'Eau",
+            "venue": "The Jet d'Eau",
+            "text": "The fountain spouts 140m into the air. Shoot it from Pont du Mont-Blanc, or hop on a Mouette taxi-boat across the lake.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Old Town",
+            "venue": "Place du Bourg-de-Four",
+            "text": "Wander around Cathédrale Saint-Pierre and Place du Bourg-de-Four, then see the archaeological remains beneath the cathedral.",
+            "food": "A break at Birdie Food and Coffee nearby.",
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Fondue at Les Armures",
+            "venue": "Hôtel Les Armures",
+            "text": "A traditional setting for a top-flight caquelon of moitié-moitié, half gruyère and half vacherin.",
+            "food": null,
+            "photo": null
+          }
+        ]
+      },
+      {
+        "title": "Nations, the baths and fine dining",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Red Cross museum and Palais des Nations",
+            "venue": "International Red Cross & Red Crescent Museum",
+            "text": "The moving permanent exhibition on 150 years of humanitarian work, combined with a guided tour of the UN's European seat.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Bains des Pâquis",
+            "venue": "Bains des Pâquis",
+            "text": "A kitsch 1930s public bath on Lake Geneva, open year-round, for a dip, sauna or massage.",
+            "food": "Fondue or a cheap lunch in friendly, casual surroundings.",
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Arakel",
+            "venue": "Arakel",
+            "text": "A modern French and Mediterranean kitchen, added to the 2026 Michelin Guide, among Geneva's daring, ambitious chefs.",
+            "food": null,
+            "photo": null
+          }
+        ]
+      },
+      {
+        "title": "Carouge, chocolate and a rooftop",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Carouge",
+            "venue": "Carouge",
+            "text": "A short tram ride away, an Italian-style quarter built by Turin settlers, with stone arches, glass blowers and bookshops.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "A chocolate tour",
+            "venue": null,
+            "text": "The Choco Pass walks you through the best independent chocolatiers, including Guillaume Bichet, Favarger and La Maison du Rhône.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Rooftop at Le 105",
+            "venue": null,
+            "text": "Rooftop views of the Jura mountains and Mont Salève in Lancy, where locals dance the night away.",
+            "food": null,
+            "photo": null
+          }
+        ]
+      }
+    ]
+  },
+  "langkawi": {
+    "days": [
+      {
+        "title": "Cable car, waterfall and sunset",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Langkawi Cable Car and Sky Bridge",
+            "venue": "Langkawi SkyBridge",
+            "text": "One of the steepest cable cars in the world climbs about 1,700 metres to the top of Gunung Machinchang, with the Sky Bridge nearby.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Temurun Waterfall",
+            "venue": "Temurun Waterfall",
+            "text": "A trek up a three-tiered waterfall, with a natural pool at the top for a dip.",
+            "food": "Lunch at Siti Fatimah: the locals' lunchtime buffet of curries, seafood and stir-fries.",
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "The Cliff",
+            "venue": "The Cliff",
+            "text": "A bar on Pantai Cenang over the Andaman Sea, with sunsets to match, serving Malay and Western food.",
+            "food": "Sundowners and a Malay or Western dinner.",
+            "photo": null
+          }
+        ]
+      },
+      {
+        "title": "Sea, snorkelling and the night market",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Pulau Payar Marine Park",
+            "venue": "Pulau Payar Marine Park: Snorkelling & Diving",
+            "text": "A snorkelling tour with hotel pick-up and a boat out to a protected reef, with coral, colourful fish and sharks.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Helicopter over Dayang Bunting",
+            "venue": "Lake of the Pregnant Maiden (Tasik Dayang Bunting)",
+            "text": "A helicopter tour over Dayang Bunting Island and Lake Guillemard, the freshwater 'Lake of the Pregnant Maiden', best seen from above.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Kuah Night Market",
+            "venue": "Langkawi Night Market (Pasar Malam)",
+            "text": "One of the best of Langkawi's pasar malam, with cheap souvenirs to bargain over and street food.",
+            "food": "Nasi ayam eaten amongst the throng.",
+            "photo": null
+          }
+        ]
+      },
+      {
+        "title": "Temple, beach and rooftop",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Wat Koh Wanararm",
+            "venue": null,
+            "text": "A modern Buddhist temple built into the hillside just outside Kuah, with grounds to wander. Entry is free.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Pantai Pasir Tengkorak",
+            "venue": null,
+            "text": "A secluded beach with white sand and clear water backed by forest, frequented by monkeys, with toilets and showers on site.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Nest Rooftop",
+            "venue": null,
+            "text": "A halal café-bar on a rooftop over Pantai Cenang, with regular gigs. It is booze-free, though you can bring your own for a small fee.",
+            "food": null,
+            "photo": null
+          }
+        ]
+      }
+    ]
+  },
+  "kuala-lumpur": {
+    "days": [
+      {
+        "title": "Bangsar",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Coffea Coffee",
+            "venue": null,
+            "text": "A cosy, wood-panelled café on Jalan Telawi 2 in Bangsar, known for the Madonna and Maestro lattes.",
+            "food": "Try the peanut butter latte or the green tea latte.",
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Bangsar",
+            "venue": null,
+            "text": "A trendy former railway town, now known for its cafés, boutiques and restaurants. A good place for a latte, less for authentic Malaysian culture.",
+            "food": "Espressolab's outpost in the Times Bookstore at Bangsar Shopping Centre.",
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Cantaloupe",
+            "venue": null,
+            "text": "On the 23rd floor of The Troika, with floor-to-ceiling windows and 360-degree views of the KL skyline.",
+            "food": "Fine de Claires oysters with marinated anchovy cream, or chorizo-dusted scallops.",
+            "photo": null
+          }
+        ]
+      },
+      {
+        "title": "Taman Tun Dr Ismail and Publika",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Artisan Roast",
+            "venue": null,
+            "text": "The original shop in Taman Tun Dr Ismail, said to have spearheaded KL's independent coffee movement. No sugar or syrup allowed.",
+            "food": "Homemade muesli and cakes on the counter.",
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Taman Tun Dr Ismail",
+            "venue": null,
+            "text": "A leafy, quiet suburb of artisanal cafés, cosy pubs and local hawkers, with an old-fashioned charm. Good for an afternoon of exploring.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "La Vie En Rose",
+            "venue": null,
+            "text": "A distinguished fine-dining restaurant in a restored colonial house, serving classical French cuisine.",
+            "food": "Start with The Eiffel Tower champagne cocktail on the terrace, then the duck confit.",
+            "photo": null
+          }
+        ]
+      },
+      {
+        "title": "Publika, Section 17 and the rainforest",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Publika",
+            "venue": null,
+            "text": "A retail space with galleries and theatres open to the public. The original and best espressolab is tucked into its galleries.",
+            "food": "Coffee at espressolab.",
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Section 17",
+            "venue": null,
+            "text": "A charming, quiet area just starting to attract hipsters, with excellent hawker food and restaurants such as Bistro a Table.",
+            "food": "Verona Trattoria for Italian.",
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Tamarind Springs",
+            "venue": null,
+            "text": "An Indochinese restaurant in the rainforest of Ampang, with lantern-lit decking over the jungle.",
+            "food": "The Laotian coconut milk soup, or Phnom Penh-style wagyu beef lok lak.",
+            "photo": null
+          }
+        ]
+      }
+    ]
+  },
+  "shanghai": {
+    "days": [
+      {
+        "title": "Museum, old town and the Bund",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Shanghai Museum",
+            "venue": "Shanghai Museum (People's Square)",
+            "text": "Start with the history of Shanghai at the city's museum.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Yuyuan Garden",
+            "venue": "Yu Garden (Yuyuan)",
+            "text": "The old town around Yuyuan Garden, for traditional snacks and dim sum.",
+            "food": "Lunch of local snacks and dim sum in the old town.",
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "The Bund and a Huangpu cruise",
+            "venue": "Huangpu River Evening Cruise",
+            "text": "The Bund is a must-visit at night, and a cruise along the Huangpu River gives the best night view of Shanghai.",
+            "food": null,
+            "photo": null
+          }
+        ]
+      },
+      {
+        "title": "Temple, French Concession and Xintiandi",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Jade Buddha Temple",
+            "venue": "Jade Buddha Temple",
+            "text": "A temple for the history of Shanghai, to see in the morning with the city's attractions.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "The French Concession",
+            "venue": "The Plane-Tree Streets of the French Concession",
+            "text": "A walk through the French Concession, a very cosmopolitan part of the city.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Xintiandi",
+            "venue": "Xintiandi",
+            "text": "Famous for its restaurants and bars, and the place for dinner.",
+            "food": "Try Mr & Mrs Bund for French, or Canton 8 for Chinese.",
+            "photo": null
+          }
+        ]
+      },
+      {
+        "title": "Day trip to Hangzhou",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "West Lake",
+            "venue": null,
+            "text": "An hour from Shanghai by bullet train, Hangzhou's West Lake has half-moon bridges and weeping willows.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Tea plantations and pagodas",
+            "venue": null,
+            "text": "Tour the tea plantations, pagodas and temples around the lake before returning to Shanghai.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Speak Low",
+            "venue": "Speak Low",
+            "text": "Back in Shanghai, a drink at one of the city's great bars.",
+            "food": "Sober Company and Bar Rouge are other options.",
+            "photo": null
+          }
+        ]
+      }
+    ]
+  },
+  "amman-petra": {
+    "days": [
+      {
+        "title": "Citadel, Al Balad and Rainbow Street",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Citadel Hill",
+            "venue": "The Amman Citadel (Jabal al-Qala'a)",
+            "text": "Wander among ruins that include the Umayyad Palace and the Roman-style Temple of Hercules, with 360-degree views of the city.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Al Balad and the Roman Theater",
+            "venue": "The Roman Theatre, Amman",
+            "text": "The main street of old downtown for shopping, snacking and people-watching, then the restored 2nd-century Roman Theater.",
+            "food": "Kunafeh at the legendary Habibah.",
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Rainbow Street",
+            "venue": "Rainbow Street & Downtown Souks, Amman",
+            "text": "One of the oldest streets in Amman, quiet by day and alive in the evening, with galleries, shisha and cafés.",
+            "food": "Al Quds for the falafel sandwich, or sweets at Sufra.",
+            "photo": null
+          }
+        ]
+      },
+      {
+        "title": "Cooking and Al Weibdeh",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Beit Sitti cooking class",
+            "venue": "Beit Sitti",
+            "text": "Cook with local chefs in a historic villa in Al Weibdeh, a legacy of three sisters' grandmother. Meals are on the terrace.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Al Weibdeh galleries and street art",
+            "venue": "Darat al Funun, Amman",
+            "text": "Browse Arab art at Darat Al Funun, Dar Al-Anda and The National Gallery of Fine Arts, and look for street art on the alleys and stairways.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "A rooftop sunset",
+            "venue": "Cantaloupe Gastropub",
+            "text": "A city built on hills has plenty of sunset viewpoints. Reserve a rooftop terrace such as Cantaloupe Gastro Pub, Ghoroub or Wild Jordan.",
+            "food": null,
+            "photo": null
+          }
+        ]
+      },
+      {
+        "title": "Al Abdali and Iraq al-Amir",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Al Abdali and the blue mosque",
+            "venue": "King Abdullah I Mosque",
+            "text": "The 'new downtown', with The Boulevard's shops, steps from the King Abdullah I Mosque and its turquoise mosaic dome.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Iraq al-Amir",
+            "venue": null,
+            "text": "About 10 miles out, with cliffside caves and the pre-Roman palace Qasr al-Abd, which is stunning at sunset.",
+            "food": "A meal prepared by the Iraq Al-Amir Women's Cooperative.",
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Kunafeh and umm Ali at Nasim",
+            "venue": null,
+            "text": "A Bedouin-inspired setting at Fairmont Amman, for dessert after the day trip.",
+            "food": "Kunafeh, and the baked pastry pudding umm Ali.",
+            "photo": null
+          }
+        ]
+      }
+    ]
+  },
+  "st-moritz": {
+    "days": [
+      {
+        "title": "The town and the lake",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Hanselmann and the town",
+            "venue": null,
+            "text": "Explore the town on foot: Engadin houses with sgraffiti, art nouveau architecture and high-end boutiques.",
+            "food": "Hanselmann for nusstorte, hot chocolate and pretzels.",
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Lake St. Moritz",
+            "venue": null,
+            "text": "The lookout, where kite surfers skim across the lake, though it's usually frozen from December to May.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "La Baracca",
+            "venue": null,
+            "text": "A laid-back food shack and institution, across from the Kempinski, with a mix of ski instructors and late-night partiers.",
+            "food": "Polenta, carpaccio and salads, or fondue at Pichalain.",
+            "photo": null
+          }
+        ]
+      },
+      {
+        "title": "Muottas Muragl and Segantini",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Muottas Muragl",
+            "venue": "Muottas Muragl: The Funicular & the Sunset",
+            "text": "Snowshoe or hike the low-mountain trail with a local guide, or learn to ski at one of the two ski schools.",
+            "food": "Lunch at La Terrazza on Corviglia in ski season, or Piz Nair in summer.",
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Segantini Museum",
+            "venue": "The Segantini Museum",
+            "text": "Giovanni Segantini lived and worked in the Engadin for the last five years of his life, painting epic landscapes.",
+            "food": "Then the spa at Kempinski.",
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Cà d'Oro",
+            "venue": "Cà d'Oro",
+            "text": "The most clever and fun of the top restaurants, with a non-run-of-the-mill Italian menu. Winter only.",
+            "food": null,
+            "photo": null
+          }
+        ]
+      },
+      {
+        "title": "Piz Nair, the glacier and a champagne bath",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Piz Nair",
+            "venue": "Corviglia & the Piz Nair Cable Car",
+            "text": "Reached by funicular and aerial tramway, at 10,030 feet, with stunning views.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Glacier Grotto on Corvatsch",
+            "venue": "Corvatsch: Cable Car to 3,303m",
+            "text": "A journey up the summit of Corvatsch, rewarded with the natural beauty of the Glacier Grotto and Alpine lake and pasture views.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "A champagne bath and fondue",
+            "venue": "Chesa Veglia",
+            "text": "Bathe in carbonated mineral water at Medizinisches Therapie Zentrum spa, then dinner in a converted farmhouse.",
+            "food": "Fondue at Chesa Veglia, in a rustic atmosphere.",
+            "photo": null
+          }
+        ]
+      }
+    ]
+  },
+  "lima": {
+    "days": [
+      {
+        "title": "Miraflores and the coast",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "El Malecón",
+            "venue": "El Malecón cliff-top parks",
+            "text": "A six-mile coastal path through several neighbourhoods, connecting green spaces and cafés with views of the Pacific.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Huaca Pucllana",
+            "venue": "Huaca Pucllana",
+            "text": "A pre-Inca pyramid in upscale Miraflores, built from vertically stacked adobe bricks to survive earthquakes. Visit the onsite museum.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Love Park",
+            "venue": "Parque del Amor",
+            "text": "A clifftop park along El Malecón, with mosaic walls and El Beso, a sculpture of kissing lovers by Víctor Delfín.",
+            "food": null,
+            "photo": null
+          }
+        ]
+      },
+      {
+        "title": "Barranco",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Dédalo Arte y Artesanía",
+            "venue": null,
+            "text": "A mansion-turned-gallery showing Peruvian jewellery and furniture, with a brick courtyard café under an ancient ficus tree.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Jade Rivera World and street art",
+            "venue": "Casa Museo de Barranco murals & street art walk",
+            "text": "A gallery for the painter and muralist Jade Rivera, then Barranco's graffiti, including Bronik's women-centric murals.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "The Bridge of Sighs",
+            "venue": "Puente de los Suspiros (Bridge of Sighs)",
+            "text": "A wooden bridge from the 1870s. Local lore says that if you cross it holding your breath, your wish will come true.",
+            "food": "Street food such as anticuchos, then picarones for dessert.",
+            "photo": null
+          }
+        ]
+      },
+      {
+        "title": "Museums, olives and pisco",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Museo Larco",
+            "venue": "Larco Museum",
+            "text": "Lima's most famous museum, packed with pre-Columbian ceramics, gold and silver vessels, and a collection of erotic pottery.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Olive Park",
+            "venue": null,
+            "text": "A quieter green space in the financial district of San Isidro, with more than 1,600 olive trees, a pond and over 60 bird varieties.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Museo del Pisco",
+            "venue": "Museo del Pisco",
+            "text": "A slick bar introducing Peru's brandy, with pisco sour variants and cocktails made with local ingredients.",
+            "food": "Or book a tasting-menu dinner at Astrid y Gastón, Central, Mayta or Maido.",
+            "photo": null
+          }
+        ]
+      }
+    ]
+  },
+  "zermatt": {
+    "days": [
+      {
+        "title": "The Matterhorn and the sun terraces",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Matterhorn Glacier Paradise",
+            "venue": "Matterhorn Glacier Paradise",
+            "text": "A 45-minute gondola and cable car ride to Europe's highest cable car station, 3,883 metres up, with 38 four-thousanders in view.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Chez Vrony",
+            "venue": "Chez Vrony, Findeln",
+            "text": "Locally sourced ingredients with a stunning backdrop of views to the Matterhorn.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "The Cervo sun terrace",
+            "venue": "CERVO Bar & Terrace",
+            "text": "A big sun terrace with amazing views of the Matterhorn, where most of Zermatt gathers after the slopes. Live music.",
+            "food": "Alpine tapas.",
+            "photo": null
+          }
+        ]
+      },
+      {
+        "title": "Sunnegga and cheese",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Buffet Bar Sunnegga",
+            "venue": "Sunnegga & Leisee",
+            "text": "A self-service restaurant above Zermatt with standard mountain fare and one of the best angles of the Matterhorn.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Käsestube Furgg",
+            "venue": null,
+            "text": "A traditional chalet-style restaurant with incredible views, perfect for a fondue, raclette or grilled cheese sandwich.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Brown Cow Pub",
+            "venue": null,
+            "text": "A pub in the heart of the village, for après-ski.",
+            "food": null,
+            "photo": null
+          }
+        ]
+      },
+      {
+        "title": "Chocolate peaks, Italy and an open-air bar",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Bäckerei Fuchs",
+            "venue": null,
+            "text": "A bakery known for its chocolate replicas of the famous peak.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Skiing to Italy",
+            "venue": "Zermatt–Cervinia international ski area",
+            "text": "Zermatt's ski area is the highest in Switzerland and links to Italy: ski over for a pasta lunch, then return for Swiss schnapps.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Hennu Stall",
+            "venue": "Hennu Stall",
+            "text": "A lively open-air spot for après-ski.",
+            "food": null,
+            "photo": null
+          }
+        ]
+      }
+    ]
+  },
+  "cairo": {
+    "days": [
+      {
+        "title": "Giza",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "The Pyramids and the Sphinx",
+            "venue": "The Pyramids of Giza & the Great Sphinx",
+            "text": "The pyramids are 2km from the city, and new hop-on-hop-off electric buses shuttle visitors around the three pyramids and the Sphinx.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Inside the Great Pyramid",
+            "venue": "The Pyramids of Giza & the Great Sphinx",
+            "text": "A hot, cramped crawl of about 100 metres to the empty King's Chamber, with only Khufu's sarcophagus. It takes about 15 minutes.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Sachi",
+            "venue": "Sachi Cairo",
+            "text": "A sultry restobar in Heliopolis, part of a new nightlife scene of noteworthy cocktail menus in expat-heavy neighbourhoods and hip hotels.",
+            "food": null,
+            "photo": null
+          }
+        ]
+      },
+      {
+        "title": "Museums and downtown",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Grand Egyptian Museum",
+            "venue": "The Grand Egyptian Museum (GEM)",
+            "text": "The largest archaeology museum in the world, with Tutankhamun's 5,000 objects, including his gold mask, and a 36-foot Ramses II in the atrium.",
+            "food": "On-site restaurants line the atrium for lunch.",
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "The Egyptian Museum",
+            "venue": "The Egyptian Museum, Tahrir Square",
+            "text": "The Tahrir Square museum still holds an impressive stock of Pharaonic antiquities.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Downtown ahwas",
+            "venue": null,
+            "text": "The heart of Cairo's nightlife: cheap plastic chairs spill onto the streets outside all-night coffeehouses, for shisha, tea or coffee.",
+            "food": null,
+            "photo": null
+          }
+        ]
+      },
+      {
+        "title": "Old Cairo and a Zamalek rooftop",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Old Cairo",
+            "venue": "The Hanging Church (Al-Muallaqa)",
+            "text": "A UNESCO-listed area of Biblical-era churches, medieval fortresses and the oldest synagogue in the world.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "The Museum of Egyptian Civilization",
+            "venue": "The National Museum of Egyptian Civilization (NMEC): the Royal Mummies",
+            "text": "The place to see the mummies of ancient Pharaohs.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Crimson",
+            "venue": null,
+            "text": "A rooftop bar in Zamalek, with a noteworthy cocktail menu.",
+            "food": null,
+            "photo": null
+          }
+        ]
+      }
+    ]
+  },
+  "ho-chi-minh-city": {
+    "days": [
+      {
+        "title": "Pho and the Saigon River",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "The Pho Museum",
+            "venue": null,
+            "text": "A three-storey museum in Ben Thanh Ward. A guided tour of 60 to 70 minutes traces pho's 100-year evolution, ending with a bowl.",
+            "food": "Each tour ends with pho and a local dessert.",
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Bến Thành Market alleys",
+            "venue": "Ben Thanh Market",
+            "text": "Wander the scooter-filled alleys around Bến Thành Market and eat on a tiny plastic stool on the nearest corner.",
+            "food": "Pho on your knees, or a crunchy banh mi on the fly.",
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Thu Thiem Peninsula",
+            "venue": null,
+            "text": "Sunset over the Saigon River and the glittering skyscrapers, from the Thu Thiem Peninsula.",
+            "food": "Bun thit nuong, banh mi and com tam beforehand.",
+            "photo": null
+          }
+        ]
+      },
+      {
+        "title": "Nguyen Thai Binh",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Antiques and Yersin Market",
+            "venue": null,
+            "text": "Start early at Bún Riêu cua ốc Phan Rang, then Lê Công Kiều Street's antique dealers and the chaos of Yersin Market.",
+            "food": "Crab and snail noodle soup, then retro Hoàng Thị Cafe.",
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Museum of Fine Arts",
+            "venue": "Fine Arts Museum (Bao Tang My Thuat)",
+            "text": "Spend the afternoon at the Ho Chi Minh City Museum of Fine Arts.",
+            "food": "Lunch at Bếp Mẹ Ỉn for family-style dishes.",
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Madam Kew",
+            "venue": null,
+            "text": "An opium-den-turned-cocktail-bar. Then bar-hop, starting at 419. Bar behind a vintage camera cabinet.",
+            "food": "Dinner at woodfire specialists Quince Eatery, downstairs.",
+            "photo": null
+          }
+        ]
+      },
+      {
+        "title": "Tân Định",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Tân Định Market",
+            "venue": null,
+            "text": "Behind the Disney-pink church, the ward is low-rise and peaceful. Browse the silk stalls of Tân Định Market.",
+            "food": "Steamed rice rolls at Bánh Cuốn Tây Hồ 127.",
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Cà Phê Đỗ Phủ",
+            "venue": "Tan Dinh Church (the Pink Church)",
+            "text": "A café where a wardrobe conceals a Tet Offensive bunker. Flip through Vietnamese vinyl at Hãng Đĩa Thời Đại.",
+            "food": "Charcoal-fired crêpes at Bánh Xèo 46A.",
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "PK Maltroom",
+            "venue": null,
+            "text": "The country's first whisky bar, for a dram after dinner.",
+            "food": "Dinner at Ö by Hoang Tung.",
+            "photo": null
+          }
+        ]
+      }
+    ]
+  },
+  "jaipur": {
+    "days": [
+      {
+        "title": "The Old City",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Sodhani Sweets",
+            "venue": null,
+            "text": "A sweet shop since 1954, packed from 6:30am for the brown, crackly pyaz kachoris dipped in tamarind chutney.",
+            "food": "A tall kulhad lassi and crispy jalebis.",
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "The Old City bazaars",
+            "venue": "Bapu Bazaar & Nehru Bazaar",
+            "text": "Walk through the terracotta pink gates, past spices, fruit, quilts and carpets, and stop for chai.",
+            "food": "Kachoris stuffed with unpeeled potatoes at Sampat Namkeen Bhandar, going since 1936.",
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "A stepwell evening",
+            "venue": "Panna Meena ka Kund stepwell",
+            "text": "Jaipur's long-neglected baolis are making a comeback, often doubling as atmospheric venues for traditional music and dance.",
+            "food": null,
+            "photo": null
+          }
+        ]
+      },
+      {
+        "title": "Crafts and Rajasthani food",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Anokhi Museum of Hand Printing",
+            "venue": "Anokhi Museum of Hand Printing",
+            "text": "A museum reviving ancient techniques, with block-printing sessions for visitors.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Museum of Meenakari Heritage",
+            "venue": null,
+            "text": "Another museum refashioning ancient techniques into something that feels strikingly contemporary.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Spice Court",
+            "venue": null,
+            "text": "A 1930s colonial mansion for no-nonsense Rajasthani cuisine, best known for keema baatis.",
+            "food": "Spicy slow-cooked laal maas with butter naan.",
+            "photo": null
+          }
+        ]
+      },
+      {
+        "title": "Amer Fort",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Amer Fort",
+            "venue": "Amber Fort (Amer Fort) & the Sheesh Mahal",
+            "text": "The fort where royals once lived, now with a heritage restaurant at its top.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "1135 AD",
+            "venue": "1135 AD at Amber Fort: royal dining",
+            "text": "A dreamy heritage restaurant atop the fort, with an authentic Rajasthani spread cooked in the best-quality ghee.",
+            "food": "Seekh kebabs and the spicy jungle maas, lamb cooked in red chillies.",
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Mahaveer Rabri Bhandar",
+            "venue": null,
+            "text": "A fourth-generation hole-in-the-wall in Chandpole Bazar, nationally known for its aloo pyaz sabzi. Open until midnight.",
+            "food": "Crush the tikkad roti into the sabzi, then finish with laccha rabdi.",
+            "photo": null
+          }
+        ]
+      }
+    ]
+  },
+  "krabi": {
+    "days": [
+      {
+        "title": "Temple, emerald pool and hot springs",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Tiger Cave Temple",
+            "venue": "Tiger Cave Temple (Wat Tham Suea): the 1,237-step climb",
+            "text": "Climb 1,260 steep steps to a cliffside temple, with views over Krabi's forest and the Andaman Sea and a gilded Buddha. No tigers, only macaques.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Emerald Pool",
+            "venue": "The Emerald Pool (Sa Morakot)",
+            "text": "A sparkling green pool about two metres deep, fed by thermal springs, in Khao Phra Bang Khram Nature Reserve. An 800-metre path, or a 1,400-metre trail.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Khlong Tom Hot Springs",
+            "venue": "The natural hot springs (Nam Tok Ron)",
+            "text": "Warm pools from underground thermal springs, shaded by rainforest and one of the most popular places in the reserve.",
+            "food": null,
+            "photo": null
+          }
+        ]
+      },
+      {
+        "title": "Caves, islands and sunset",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Ban Bor Thor Caves",
+            "venue": null,
+            "text": "Kayak through caves of stalagmites and stalactites, home to ancient paintings left by prehistoric seafarers.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Island hopping",
+            "venue": null,
+            "text": "Krabi has heaps of white sandy beaches and dreamy islands. Third-party apps like Klook can help with where and how to go.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Romantic Sunset Cruise",
+            "venue": null,
+            "text": "Sofitel Krabi Phokeethara's cruise drifts into the sunset as the sky turns crimson and pink.",
+            "food": null,
+            "photo": null
+          }
+        ]
+      },
+      {
+        "title": "Hills, treetops and a village",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Dragon Crest Mountain",
+            "venue": null,
+            "text": "A hike of about four kilometres in north Krabi, steep and nearly vertical in places, ending in a rock ledge with views over the gulf.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Tree Top Adventure Krabi",
+            "venue": null,
+            "text": "A giant zip line through the canopy, plus rope bridges, Tarzan ropes, a flying skateboard and cycling through the trees.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Laem Sak Community",
+            "venue": null,
+            "text": "A village where Chinese, Muslim migrants and Thai Buddhists live side by side, with a sense of stepping back in time.",
+            "food": null,
+            "photo": null
+          }
+        ]
+      }
+    ]
+  },
+  "mauritius-city": {
+    "days": [
+      {
+        "title": "Gardens and sugar",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Botanic Garden",
+            "venue": "SSR Botanical Garden, Pamplemousses",
+            "text": "Often compared to Kew Gardens, with tropical plants growing outdoors. Book a private guided tour to learn what each one does.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "L'aventure du Sucre",
+            "venue": "L'Aventure du Sucre",
+            "text": "An old factory on the Beau Plan Sugar Estate tells the story of sugarcane, ending with a tasting of different sugars and rums.",
+            "food": "Le Fangourin on the estate, with local delicacies and rum cocktails.",
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Chez Tante Athalie",
+            "venue": null,
+            "text": "An authentic restaurant for the blend of European, Indian, Chinese and Creole food, overlooking grounds dotted with vintage cars.",
+            "food": null,
+            "photo": null
+          }
+        ]
+      },
+      {
+        "title": "Mountain and gorges",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Le Morne Brabant",
+            "venue": "Le Morne Brabant",
+            "text": "A rugged Unesco mountain full of caves, once a shelter for runaway slaves and now a symbol of freedom. Book a guide to climb it safely.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Black River Gorges National Park",
+            "venue": "Black River Gorges National Park",
+            "text": "An unspoilt park with about 311 native flowering plants and nine bird species found only here. Take supplies; there's no shop.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "A Creole dinner",
+            "venue": null,
+            "text": "The food of Mauritius is a blend of the tastes of its former occupiers and of migrant workers from India, China and Africa.",
+            "food": null,
+            "photo": null
+          }
+        ]
+      },
+      {
+        "title": "Zip line, crater lake and Port Louis",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Casela Nature Park",
+            "venue": "Casela Nature Parks",
+            "text": "An extra-long zip line over canyons and scenery, ending with a splash into the water. Some lines are for singles, some for four.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Ganga Talao",
+            "venue": "Grand Bassin (Ganga Talao)",
+            "text": "A crater lake about 1,800 feet up, with Hindu temples on its banks. Dress modestly and look out for monkeys.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Port Louis and Caudan Waterfront",
+            "venue": "Caudan Waterfront",
+            "text": "The capital's French colonial-inspired old city, then the relaxed Caudan Waterfront for shopping and dining, and Chinatown.",
+            "food": null,
+            "photo": null
+          }
+        ]
+      }
+    ]
+  },
+  "cappadocia": {
+    "days": [
+      {
+        "title": "Göreme and fairy chimneys",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Göreme Open Air Museum",
+            "venue": "Göreme Open-Air Museum",
+            "text": "About 150 churches adorned with frescoes, built underground by Christians fleeing persecution. Don't miss Tokalı, Elmalı and Karanlık.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Paşabağları",
+            "venue": null,
+            "text": "Formerly Monks Valley, with some of Cappadocia's densest fairy chimneys. Saint Simeon's chapel sits inside a three-headed one.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Uçhisar Castle",
+            "venue": "Uçhisar Castle",
+            "text": "The highest point in Cappadocia, with sunset views from Mount Erciyes to Hasan and Melendiz, and Pigeon Valley nearby.",
+            "food": null,
+            "photo": null
+          }
+        ]
+      },
+      {
+        "title": "Underground cities and Ürgüp",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Derinkuyu Underground City",
+            "venue": "Derinkuyu Underground City",
+            "text": "About 85 metres deep, with churches, dining halls and stables, once home to around 30,000. Only 10% can be visited.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Kaymaklı Underground City",
+            "venue": "Kaymaklı Underground City",
+            "text": "Eight floors carved underground, with houses linked by hidden passages that protected against enemies.",
+            "food": "Dried clotted cream with honey, or sherbet, in the town.",
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Ürgüp",
+            "venue": "Ürgüp & Temenni Hill",
+            "text": "The most touristic and bustling town in Cappadocia, with elegant restaurants and nightlife. See the Three Beauties fairy chimneys.",
+            "food": null,
+            "photo": null
+          }
+        ]
+      },
+      {
+        "title": "Ihlara, pottery and Zelve",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Ihlara Valley",
+            "venue": null,
+            "text": "One of Turkey's largest canyons, with a walk past cave churches with wall paintings. A 14-kilometre route reaches Belisırma.",
+            "food": "Tea in the pergolas over the Melendiz Stream.",
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Avanos pottery",
+            "venue": "Pottery workshop",
+            "text": "The centre of pottery since the Hittite period. Make your own with an instructor, and visit the 2nd-century Yamanlı Church.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Zelve",
+            "venue": "Zelve Open-Air Museum",
+            "text": "The densest site of fairy chimneys, in three valleys, which glow crimson in the setting sun.",
+            "food": null,
+            "photo": null
+          }
+        ]
+      }
+    ]
+  },
+  "hyderabad": {
+    "days": [
+      {
+        "title": "The Old City",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "The Charminar",
+            "venue": "The Charminar",
+            "text": "Built in 1591, with four soaring minarets and a bazaar at its base. Walk the precinct early to dodge the crowds.",
+            "food": "Cafe Nimrah, next to the monument, for Irani chai and an Osmania biscuit.",
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Chowmahalla Palace and Laad Bazaar",
+            "venue": "Chowmahalla Palace",
+            "text": "Where the Nizams were crowned, then Laad Bazaar for lacquered bangles and bridal finery.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Hyderabadi biryani",
+            "venue": "The Hyderabadi biryani pilgrimage",
+            "text": "Hyderabadi biryani made the top 10 of TasteAtlas's best rice dishes in 2025. Try the kacchi, pakki or sealed dum versions.",
+            "food": "Paradise, Shah Ghouse and Bawarchi, with mirchi salan or raita.",
+            "photo": null
+          }
+        ]
+      },
+      {
+        "title": "Museum, tombs and a palace",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Salar Jung Museum",
+            "venue": "Salar Jung Museum",
+            "text": "46,000 art pieces from Mughal miniatures to European sculpture, and the Veiled Rebecca. Weekday mornings avoid school trips.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Paigah Tombs",
+            "venue": "Paigah Tombs",
+            "text": "A late 18th-century necropolis blending eight architectural styles, with over 35 jaali patterns. Closed Fridays.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Falaknuma Palace",
+            "venue": "Taj Falaknuma Palace: high tea and heritage walk",
+            "text": "Italian marble staircases and chandeliers; the Adaa restaurant's 101-foot table is said to be the world's longest.",
+            "food": "Nizami cuisine, including the Jauzi halwa.",
+            "photo": null
+          }
+        ]
+      },
+      {
+        "title": "Tombs, fort and cocktails",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Qutb Shahi Tombs",
+            "venue": "Qutb Shahi Tombs",
+            "text": "The Seven Tombs sit in a 106-acre heritage park with over 70 monuments, ideal at sunrise or golden hour.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Golconda Fort",
+            "venue": "Golconda Fort",
+            "text": "Pair the tombs with the nearby fort for a full-day heritage binge.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Bar Kin Rü",
+            "venue": null,
+            "text": "A craft bar serving Mughal-inspired dishes, with theatrical cocktails on the fifth floor, in India's Top 30 Bars list for 2024.",
+            "food": "The Jackfruit Haleem.",
+            "photo": null
+          }
+        ]
+      }
+    ]
+  },
+  "galle": {
+    "days": [
+      {
+        "title": "Galle Fort",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Galle Fort and the lighthouse",
+            "venue": "Galle Lighthouse",
+            "text": "A UNESCO site over the Indian Ocean, with ramparts resembling those on Portugal's coast and a lighthouse that has guided sailors ashore.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Maritime and National museums",
+            "venue": "National Maritime Museum",
+            "text": "The Maritime Archaeology Museum in the Fort, then the Galle National Museum, in a building from 1656.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Old Dutch Hospital",
+            "venue": null,
+            "text": "The former Dutch hospital is now a shopping complex of restaurants, boutiques and gem shops.",
+            "food": null,
+            "photo": null
+          }
+        ]
+      },
+      {
+        "title": "Churches, temples and galleries",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Dutch Reformed Church",
+            "venue": "Dutch Reformed Church (Groote Kerk)",
+            "text": "An elegant church from 1754 in the Fort, with its records of marriages and baptisms. Admire the Dutch houses and the Dutch gate.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Galapatha Temple",
+            "venue": null,
+            "text": "Not far from the main city, it houses the tooth relic of Arhat Maha Kassapa.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Galleries and antique shops",
+            "venue": "The Boutique, Gem & Gallery Lanes of the Fort",
+            "text": "The Fort's houses have been turned into restaurants, art galleries, antique shops and fashionable boutiques.",
+            "food": "End at a pleasant street-side café.",
+            "photo": null
+          }
+        ]
+      },
+      {
+        "title": "The south coast",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Midigama",
+            "venue": null,
+            "text": "A golden beach near Galle with palm trees, turquoise water and the south coast's unique stilt fishermen.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Talalla",
+            "venue": "Talalla Beach",
+            "text": "A tranquil beach with soft golden sand, for swimming or surfing, away from the bustle.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Hiriketiya Bay",
+            "venue": "Hiriketiya Beach",
+            "text": "A horseshoe-shaped cove in Dickwella with a tranquil shore, turquoise water and swaying coconut palms.",
+            "food": null,
+            "photo": null
+          }
+        ]
+      }
+    ]
+  },
+  "male-maldives": {
+    "days": [
+      {
+        "title": "Dhoni cruising and an underwater dinner",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Dhoni boat cruise",
+            "venue": null,
+            "text": "A traditional dhoni takes you to a new destination each day, with snorkelling spots, reefs, uninhabited islands and local villages.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Parasailing",
+            "venue": null,
+            "text": "Led by a speedboat, a parachute lifts you high over the islands and reefs. Available at most major resorts.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "SEA at Anantara Kihavah",
+            "venue": "SEA by Anantara Kihavah",
+            "text": "An underwater restaurant where sharks, turtles and fish pass by as you eat Maldivian cuisine.",
+            "food": "The fresh Maldivian lobster.",
+            "photo": null
+          }
+        ]
+      },
+      {
+        "title": "Whale sharks and underwater firsts",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "South Ari Atoll",
+            "venue": null,
+            "text": "Swim with huge, harmless whale sharks in the South Ari Atoll, near Sun Island and Rangali Island.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Underwater spa at Huvafen Fushi",
+            "venue": null,
+            "text": "The world's first underwater spa retreat, for adults only, with massages using the island's coconut oil.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Subsix at Niyama",
+            "venue": "Subsix at Niyama",
+            "text": "The world's first underwater nightclub. The glow party runs on Wednesdays and Saturdays from 9pm.",
+            "food": null,
+            "photo": null
+          }
+        ]
+      },
+      {
+        "title": "Island culture in the Baa Atoll",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Thulhaadhoo",
+            "venue": null,
+            "text": "A small Baa Atoll island of lacquerware artisans, reached from Malé by speedboat, ferry or hydroplane.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Maalhos",
+            "venue": null,
+            "text": "A traditional fishing village of about 600 people, one of the oldest islands in the Baa Atoll, for relaxing and snorkelling.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Finolhu",
+            "venue": null,
+            "text": "An island resort with a beach club, where the 1 Oak Beach Club comes alive at sunset with cocktails and performers.",
+            "food": "Tuesday's Seafood Extravaganza at the Fish and Crab Shack.",
+            "photo": null
+          }
+        ]
+      }
+    ]
+  },
+  "leh-ladakh": {
+    "days": [
+      {
+        "title": "Leh",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Leh Palace",
+            "venue": "Leh Palace (Lachen Palkar)",
+            "text": "Spend your first days in Leh, resting while you acclimatise. The 17th-century palace shows a Tibetan influence in its architecture.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Shanti Stupa",
+            "venue": "Shanti Stupa",
+            "text": "One of Leh's most gorgeous sights, with the outskirts holding Magnetic Hill, Sangam and Gurudwara Pathar Sahib.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "Leh Market",
+            "venue": "Leh café evenings: Gesmo & the Main Bazaar",
+            "text": "Wander the market on foot after the day, with cafés and bars. Lehchen is one of the city's few bars.",
+            "food": null,
+            "photo": null
+          }
+        ]
+      },
+      {
+        "title": "Nubra Valley",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Khardung La",
+            "venue": "Khardung La (Among The World's Highest Passes)",
+            "text": "The road to Nubra climbs over one of the highest motorable passes, so start early and allow for traffic at the photo stops.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Diskit Monastery",
+            "venue": "Diskit Monastery & The Giant Buddha (Nubra)",
+            "text": "In Nubra, the cold desert turns green for a short while. One night is enough for the double-humped Bactrian camels and Diskit Monastery.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "A Nubra camp",
+            "venue": null,
+            "text": "Many travellers simply arrive and choose a stay in person, while higher-end luxury camps are worth booking ahead.",
+            "food": null,
+            "photo": null
+          }
+        ]
+      },
+      {
+        "title": "Pangong Tso",
+        "slots": [
+          {
+            "label": "Morning",
+            "title": "Chang La",
+            "venue": "Chang La",
+            "text": "Cross Chang La on the way to Pangong, allowing for the tiring altitude and for stops for tea and photos.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Afternoon",
+            "title": "Pangong Tso",
+            "venue": null,
+            "text": "The brackish lake shifts through blue, green and grey depending on the sunlight, and freezes over in winter. Part of it lies in China.",
+            "food": null,
+            "photo": null
+          },
+          {
+            "label": "Evening",
+            "title": "A night by the lake",
+            "venue": null,
+            "text": "Accommodation here is limited, dry and remote. One night is enough to experience the lake.",
+            "food": null,
+            "photo": null
+          }
+        ]
+      }
+    ]
   }
 }

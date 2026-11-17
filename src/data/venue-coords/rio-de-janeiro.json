@@ -733,6 +733,56 @@
       "lat": -22.913026,
       "lon": -43.182236,
       "photos": []
+    },
+    {
+      "n": "Centro Cultural Banco do Brasil",
+      "cat": "do",
+      "tier": "",
+      "a": "Centro and the port",
+      "d": "One of Rio's top cultural hubs, with stunning architecture and world-class exhibitions, worth visiting whatever is on.",
+      "lat": -22.901052,
+      "lon": -43.176287,
+      "photos": []
+    },
+    {
+      "n": "Pedra do Sal",
+      "cat": "party",
+      "tier": "",
+      "a": "Centro and the port",
+      "d": "Cap off the walk with samba at Pedra do Sal, held Friday through Monday evenings from 6pm.",
+      "lat": -22.898042,
+      "lon": -43.185406,
+      "photos": []
+    },
+    {
+      "n": "Casa Firjan",
+      "cat": "do",
+      "tier": "",
+      "a": "Botafogo, Santa Teresa and Urca",
+      "d": "A French-style mansion in Botafogo that hosts talks on innovation, and houses Emp\u00f3rio Jardim.",
+      "lat": -22.95022,
+      "lon": -43.18911,
+      "photos": []
+    },
+    {
+      "n": "Forte de Copacabana",
+      "cat": "do",
+      "tier": "",
+      "a": "Copacabana fort, gardens and jazz",
+      "d": "Breakfast with views over Copacabana Beach, from the fort at the end of the sand.",
+      "lat": -22.985846,
+      "lon": -43.184736,
+      "photos": []
+    },
+    {
+      "n": "Armaz\u00e9m Cardos\u00e3o",
+      "cat": "party",
+      "tier": "",
+      "a": "Copacabana fort, gardens and jazz",
+      "d": "A legendary spot for jazz and bohemian vibes in Laranjeiras, where Ney Concei\u00e7\u00e3o leads performances for a post-work crowd.",
+      "lat": -22.938089,
+      "lon": -43.188522,
+      "photos": []
     }
   ]
 }
