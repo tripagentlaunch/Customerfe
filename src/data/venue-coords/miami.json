@@ -130,8 +130,8 @@
       "tier": "Destination",
       "a": "Design District",
       "d": "The Michelin-starred Korean steakhouse from New York: smokeless grills, dry-aged beef and endless Champagne.",
-      "lat": 25.774157,
-      "lon": -80.193597,
+      "lat": 25.812915,
+      "lon": -80.191576,
       "photos": []
     },
     {
@@ -140,8 +140,8 @@
       "tier": "Fine",
       "a": "Coconut Grove",
       "d": "Michael Beltran's New-American-meets-Cuban cooking in the Grove: personal, Miami-rooted and quietly excellent.",
-      "lat": 25.770833,
-      "lon": -80.293889,
+      "lat": 25.725243,
+      "lon": -80.245048,
       "photos": []
     },
     {
@@ -150,8 +150,8 @@
       "tier": "Fine",
       "a": "Little River / Little Haiti",
       "d": "A tiny, cult Italian-American counter in a strip mall: outsized cooking, no ceremony, a real find.",
-      "lat": 25.770833,
-      "lon": -80.293889,
+      "lat": 25.824291,
+      "lon": -80.191348,
       "photos": []
     },
     {
@@ -170,8 +170,8 @@
       "tier": "Destination",
       "a": "Brickell",
       "d": "Juan Manuel Barrientos's multisensory Colombian tasting menu: theatre, memory and Andean flavour in Brickell.",
-      "lat": 25.774157,
-      "lon": -80.193597,
+      "lat": 25.769322,
+      "lon": -80.192021,
       "photos": []
     },
     {
@@ -200,8 +200,8 @@
       "tier": "Fine",
       "a": "North Miami / MiMo",
       "d": "A twelve-seat counter from Evan Burgess and Osmel Gonzalez: hyper-local, sustainable, deeply personal.",
-      "lat": 25.770833,
-      "lon": -80.293889,
+      "lat": 25.821114,
+      "lon": -80.256911,
       "photos": []
     },
     {
@@ -210,8 +210,8 @@
       "tier": "Destination",
       "a": "Coral Gables",
       "d": "Shingo Akikuni's fourteen-seat omakase in the Gables: pristine edomae sushi of great precision.",
-      "lat": 25.770833,
-      "lon": -80.293889,
+      "lat": 25.753031,
+      "lon": -80.256621,
       "photos": []
     },
     {
@@ -220,8 +220,8 @@
       "tier": "Destination",
       "a": "Wynwood",
       "d": "An eight-seat omakase behind a hidden door in Wynwood: Seijun Okano's singular, secret counter.",
-      "lat": 25.770833,
-      "lon": -80.293889,
+      "lat": 25.80088,
+      "lon": -80.201386,
       "photos": []
     },
     {
@@ -230,8 +230,8 @@
       "tier": "Destination",
       "a": "Little River",
       "d": "Refined Edomae-style omakase paired with rare Japanese whiskies: quiet mastery north of the city centre.",
-      "lat": 25.770833,
-      "lon": -80.293889,
+      "lat": 25.841529,
+      "lon": -80.200642,
       "photos": []
     },
     {
@@ -250,8 +250,8 @@
       "tier": "Fine",
       "a": "North Miami",
       "d": "The world's first kosher restaurant to earn a Michelin star: Raz Shabtai's inventive seasonal Middle Eastern.",
-      "lat": 25.770833,
-      "lon": -80.293889,
+      "lat": 25.889179,
+      "lon": -80.154044,
       "photos": []
     },
     {
@@ -270,8 +270,8 @@
       "tier": "Casual",
       "a": "Little Havana",
       "d": "The definitive Cuban sandwich, made from scratch: house-cured meats and pressed medianoche on Calle Ocho.",
-      "lat": 25.774157,
-      "lon": -80.193597,
+      "lat": 25.765808,
+      "lon": -80.228567,
       "photos": []
     },
     {
@@ -300,8 +300,8 @@
       "tier": "",
       "a": "South Beach",
       "d": "A mile of pastel 1920s\u201330s hotels in candy colours, neon and porthole windows: the largest concentration of Art Deco architecture in the world. Walk it early morning before the heat, camera in hand; the multi-gen crowd loves it and the light on the facades is best just after sunrise.",
-      "lat": 25.773959,
-      "lon": -80.134617,
+      "lat": 25.780854,
+      "lon": -80.130893,
       "photos": []
     },
     {
@@ -310,8 +310,8 @@
       "tier": "",
       "a": "South Beach",
       "d": "The definitive 90-minute guided walk from the 1001 Ocean Drive welcome centre, decoding the streamline-moderne facades, the theming, and how a preservation battle in the 1980s saved the district. A cultured, easy outing for parents and grandparents who want the story, not just the photo.",
-      "lat": 25.773959,
-      "lon": -80.134617,
+      "lat": 25.780246,
+      "lon": -80.130506,
       "photos": []
     },
     {
@@ -660,8 +660,8 @@
       "tier": "",
       "a": "Mid-Beach",
       "d": "A theatrical enclave of Alan Faena's making: a gilded Damien Hirst mammoth, a Rem Koolhaas-designed cultural forum and a hotel dripping in Baz Luhrmann drama. Come for a drink and the spectacle even if you stay elsewhere; unabashed, cinematic luxury.",
-      "lat": 25.773959,
-      "lon": -80.134617,
+      "lat": 25.808177,
+      "lon": -80.124155,
       "photos": []
     },
     {
@@ -700,8 +700,8 @@
       "tier": "",
       "a": "South Miami-Dade",
       "d": "A vast cage-free, walk-and-tram safari park with Asian and African habitats and a Florida section: one of the country's largest zoos. A full, gentle family day; go early to beat the heat, and use the tram to spare tired legs.",
-      "lat": 25.774157,
-      "lon": -80.193597,
+      "lat": 25.611426,
+      "lon": -80.398122,
       "photos": []
     },
     {
@@ -770,8 +770,8 @@
       "tier": "Cocktail bars",
       "a": "Miami",
       "d": "A refined, ingredient-driven cocktail room that broke into the region's very best: Miami's newest star bar.",
-      "lat": 25.770833,
-      "lon": -80.293889,
+      "lat": 25.77888,
+      "lon": -80.189056,
       "photos": []
     },
     {
@@ -800,8 +800,8 @@
       "tier": "Landmark bars",
       "a": "Mid-Beach",
       "d": "A drink amid Faena's gilded, red-velvet theatre: the most glamorous hotel bar in Miami Beach.",
-      "lat": 25.773959,
-      "lon": -80.134617,
+      "lat": 25.807436,
+      "lon": -80.123509,
       "photos": []
     },
     {

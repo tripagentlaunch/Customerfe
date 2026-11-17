@@ -10,8 +10,8 @@
       "tier": "Ultra",
       "a": "Kalafatis (quiet south-east coast)",
       "d": "The island's most talked-about newer address: a serene stone-and-marble retreat on Mykonos's calmer side, built for privacy rather than the party.",
-      "lat": 37.451394,
-      "lon": 25.392315,
+      "lat": 37.442944,
+      "lon": 25.425848,
       "photos": []
     },
     {
@@ -40,8 +40,8 @@
       "tier": "Grand",
       "a": "Agios Ioannis (west coast, sunset side)",
       "d": "An adults-only cliffside hideaway above Agios Ioannis beach, facing the island's best sunsets: all-white, serene, and almost every suite with its own plunge pool or jetted tub.",
-      "lat": 37.451394,
-      "lon": 25.392315,
+      "lat": 37.4236,
+      "lon": 25.308235,
       "photos": []
     },
     {
@@ -70,8 +70,8 @@
       "tier": "Luxury",
       "a": "Chora (cliffside, north of town)",
       "d": "The island's original design landmark: carved white into the cliff above the sea just north of Chora, with a saltwater infinity pool and Kiku, its long-running Japanese restaurant.",
-      "lat": 37.408252,
-      "lon": 25.360214,
+      "lat": 37.456665,
+      "lon": 25.328949,
       "photos": []
     },
     {
@@ -100,8 +100,8 @@
       "tier": "Destination",
       "a": "Chora (at Belvedere Mykonos)",
       "d": "Nobu Matsuhisa's Mykonos table at the Belvedere: the island's landmark restaurant for two decades, and the world's original poolside Matsuhisa, serving the signature black cod miso and new-style sashimi.",
-      "lat": 37.451394,
-      "lon": 25.392315,
+      "lat": 37.443287,
+      "lon": 25.330097,
       "photos": []
     },
     {
@@ -130,8 +130,8 @@
       "tier": "Fine",
       "a": "Agios Ioannis (at Bill&Coo The Coast)",
       "d": "The Mykonos outpost of the international Beefbar group: premium cuts and world grills on a beachfront terrace at Agios Ioannis, run by the Giraudi family.",
-      "lat": 37.451394,
-      "lon": 25.392315,
+      "lat": 37.423286,
+      "lon": 25.307962,
       "photos": []
     },
     {
@@ -140,8 +140,8 @@
       "tier": "Fine",
       "a": "Chora (Mykonos Town)",
       "d": "Chef Panagiotis Menardos's contemporary take on Cycladic and Greek recipes, in a restored early-1900s townhouse in the heart of town: the island's most respected Greek fine-dining room.",
-      "lat": 37.451394,
-      "lon": 25.392315,
+      "lat": 37.445935,
+      "lon": 25.329238,
       "photos": []
     },
     {
@@ -560,8 +560,8 @@
       "tier": "",
       "a": "Islandwide",
       "d": "Two things to eat before you leave: kopanisti, the peppery, tangy Mykonian cheese spread on rusk, and louza, the island's cinnamon-and-pepper cured pork, Mykonos's answer to prosciutto. Ask any good taverna: they are the true taste of the island beneath the glamour.",
-      "lat": 37.451394,
-      "lon": 25.392315,
+      "lat": 37.446677,
+      "lon": 25.338363,
       "photos": []
     },
     {
@@ -570,8 +570,8 @@
       "tier": "",
       "a": "Paradise",
       "d": "The clifftop superclub above Paradise Beach that brings the world's top DJs to Mykonos every summer, dancing under the stars until dawn. The pinnacle of the island's legendary nightlife: framed here as the scene for those who want it.",
-      "lat": 37.408252,
-      "lon": 25.360214,
+      "lat": 37.410125,
+      "lon": 25.358939,
       "photos": []
     },
     {
@@ -630,8 +630,8 @@
       "tier": "Landmark bars",
       "a": "Paraga Beach",
       "d": "The island's largest beach club: built around the biggest saltwater pool in Europe, an amphitheatre of daybeds, restaurants and stage shows on Paraga.",
-      "lat": 37.451394,
-      "lon": 25.392315,
+      "lat": 37.408452,
+      "lon": 25.348918,
       "photos": []
     },
     {
@@ -640,8 +640,8 @@
       "tier": "Late & loud",
       "a": "Paradise Beach (clifftop)",
       "d": "Mykonos's legendary open-air superclub: a clifftop dancefloor above the Aegean that has hosted the world's biggest electronic names since 1993, and the island's one internationally ranked club.",
-      "lat": 37.408252,
-      "lon": 25.360214,
+      "lat": 37.410125,
+      "lon": 25.358939,
       "photos": []
     },
     {
@@ -650,8 +650,8 @@
       "tier": "Late & loud",
       "a": "Chora (Tria Pigadia)",
       "d": "The glossy town nightclub of the Mykonos jet set: sister to London's Bonbonniere, a small, high-energy room known for star DJs, celebrity nights and theatrical champagne service.",
-      "lat": 37.451394,
-      "lon": 25.392315,
+      "lat": 37.444976,
+      "lon": 25.328121,
       "photos": []
     },
     {
@@ -660,8 +660,8 @@
       "tier": "Late & loud",
       "a": "Chora (Lakka square)",
       "d": "A three-level house-and-techno club in town: one of the island's largest indoor clubs, with a music-first programme that draws a serious dance crowd.",
-      "lat": 37.451394,
-      "lon": 25.392315,
+      "lat": 37.444282,
+      "lon": 25.328867,
       "photos": []
     }
   ]
