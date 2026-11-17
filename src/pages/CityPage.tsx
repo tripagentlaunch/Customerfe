@@ -182,7 +182,7 @@ function CardTags({ tag, credentials }: { tag?: string | null; credentials: stri
             else setOpen((o) => !o);
           }}
         >
-          {open ? "Less" : `+${rest.length}`}
+          {open ? "Less" : `+${rest.length} more`}
         </button>
       )}
     </span>
@@ -291,7 +291,7 @@ function GuideCard({
   const [clipped, setClipped] = useState(false);
   const [hasExtras, setHasExtras] = useState(false);
   const expandable = clipped || hasExtras;
-  const cardExpand = useMemo(() => ({ expanded, open: () => setExpanded(true) }), [expanded]);
+  // cardExpand (one open state for the whole card) is unused while credentials collapse on their own (2026-11-17).
   useLayoutEffect(() => {
     const el = bodyRef.current;
     if (!el || isPhone || expanded) return;
@@ -358,8 +358,10 @@ function GuideCard({
           {isPhone && save && heart(styles.cardHeart, "")}
         </div>}
         <div className={styles.cardBody} ref={bodyRef} data-expanded={expanded || undefined}>
-          <TagsExpanded.Provider value={true}>
-            <CardExpand.Provider value={isPhone ? null : cardExpand}>{children}</CardExpand.Provider>
+          {/* Desktop (2026-11-17, direct request): one credential, the strongest; the rest behind
+              "+N more" on the card itself. Phones keep every credential (unchanged). */}
+          <TagsExpanded.Provider value={isPhone}>
+            <CardExpand.Provider value={null}>{children}</CardExpand.Provider>
           </TagsExpanded.Provider>
           {/* More / Less removed (2026-11-11, direct request): cards always show the full entry.
           {!isPhone && (clipped || expanded) && (
