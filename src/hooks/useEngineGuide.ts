@@ -61,6 +61,8 @@ function toItem(raw: Partial<CityGuideItem>): CityGuideItem | null {
     badge: str(raw.badge),
     tag: str(raw.tag),
     blurb: str(raw.blurb),
+    lat: typeof raw.lat === "number" && Number.isFinite(raw.lat) ? raw.lat : null,
+    lng: typeof raw.lng === "number" && Number.isFinite(raw.lng) ? raw.lng : null,
   };
 }
 

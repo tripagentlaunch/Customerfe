@@ -1,4 +1,4 @@
-import { useEffect, useLayoutEffect, useMemo, useRef, useState, type ReactNode } from "react";
+import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState, type ReactNode } from "react";
 import { createContext, useContext } from "react";
 import { createPortal } from "react-dom";
 import { Link, useParams } from "react-router-dom";
@@ -31,11 +31,11 @@ import {
   Info,
 } from "lucide-react";
 import cities from "../data/cities.generated.json";
-import type { CityData, CityGuidePanel } from "../types/city";
+import type { CityData, CityGuideItem, CityGuidePanel, CityMapVenue } from "../types/city";
 import { useScrollReveal } from "../lib/useScrollReveal";
 import { loadCityPlan, type CityPlan } from "../lib/cityPlans";
 import { toRoute } from "../lib/toRoute";
-import CityMap from "../components/CityMap";
+import CityMap, { useCityMapData } from "../components/CityMap";
 import { useIsMobile } from "../hooks/useIsMobile";
 import { useWishlist, type WishlistEntry } from "../lib/wishlist";
 // import PlanRouteMap, { type PlanStop } from "../components/PlanRouteMap"; // the Plan no longer has a route map (2026-11-11)
@@ -156,6 +156,11 @@ const TagsExpanded = createContext(false);
 // in one go; a single "Less" closes it. Null on phones (sheet instead).
 const CardExpand = createContext<{ expanded: boolean; open: () => void } | null>(null);
 
+// A guide card's location opens the place on the page's own map (2026-11-17, direct request:
+// keep the traveller on the page rather than sending them to Google Maps). Null: no map handler.
+type OpenOnMap = (item: CityGuideItem, panelKey: string, fromId: string) => boolean;
+const GuideMap = createContext<OpenOnMap | null>(null);
+
 // One headline tag; the rest of the credentials, in full, behind "+N".
 function CardTags({ tag, credentials }: { tag?: string | null; credentials: string[] }) {
   const [openLocal, setOpen] = useState(false);
@@ -170,7 +175,7 @@ function CardTags({ tag, credentials }: { tag?: string | null; credentials: stri
         {headline}
       </span>
       {open && rest.map((c, k) => <span className="cg-cred cg-cred-lo" key={k}>{c}</span>)}
-      {rest.length > 0 && !always && !(card && card.expanded) && (
+      {rest.length > 0 && !always && (
         <button
           type="button"
           className="cg-cred cg-cred-lo"
@@ -178,7 +183,7 @@ function CardTags({ tag, credentials }: { tag?: string | null; credentials: stri
           aria-expanded={open}
           onClick={(e) => {
             e.stopPropagation();
-            if (card) card.open();
+            if (card) card.open();               // toggles the card's credentials (GuideCard)
             else setOpen((o) => !o);
           }}
         >
@@ -291,7 +296,15 @@ function GuideCard({
   const [clipped, setClipped] = useState(false);
   const [hasExtras, setHasExtras] = useState(false);
   const expandable = clipped || hasExtras;
-  // cardExpand (one open state for the whole card) is unused while credentials collapse on their own (2026-11-17).
+  // Desktop (2026-11-17, direct request): the strongest credential shows; a click anywhere on the card's
+  // lower half (or on "+N more") opens the rest, and again closes them. Links and buttons keep their own action.
+  const [credsOpen, setCredsOpen] = useState(false);
+  const credsToggle = useMemo(() => ({ expanded: credsOpen, open: () => setCredsOpen((o) => !o) }), [credsOpen]);
+  const [hasCredsMore, setHasCredsMore] = useState(false);
+  useLayoutEffect(() => {
+    const more = !!bodyRef.current?.querySelector("button.cg-cred-lo");
+    if (more !== hasCredsMore) setHasCredsMore(more);
+  });
   useLayoutEffect(() => {
     const el = bodyRef.current;
     if (!el || isPhone || expanded) return;
@@ -357,11 +370,21 @@ function GuideCard({
           )}
           {isPhone && save && heart(styles.cardHeart, "")}
         </div>}
-        <div className={styles.cardBody} ref={bodyRef} data-expanded={expanded || undefined}>
+        <div
+          className={styles.cardBody}
+          ref={bodyRef}
+          data-expanded={expanded || undefined}
+          onClick={(e) => {
+            if (isPhone || !hasCredsMore || (e.target instanceof Element && e.target.closest("a, button"))) return;
+            e.stopPropagation();
+            setCredsOpen((o) => !o);
+          }}
+          style={!isPhone && hasCredsMore ? { cursor: "pointer" } : undefined}
+        >
           {/* Desktop (2026-11-17, direct request): one credential, the strongest; the rest behind
               "+N more" on the card itself. Phones keep every credential (unchanged). */}
           <TagsExpanded.Provider value={isPhone}>
-            <CardExpand.Provider value={null}>{children}</CardExpand.Provider>
+            <CardExpand.Provider value={isPhone ? null : credsToggle}>{children}</CardExpand.Provider>
           </TagsExpanded.Provider>
           {/* More / Less removed (2026-11-11, direct request): cards always show the full entry.
           {!isPhone && (clipped || expanded) && (
@@ -446,6 +469,7 @@ function GuidePanel({
   // Entries per page: 6 on desktop, 4 on phones (the numbered pager appears
   // once a tier has more than one page).
   const isPhone = useIsMobile();
+  const openOnMap = useContext(GuideMap);
   // 3 rows per page (2026-11-11, direct request): the columns are 3 from 1000px, 2 from 761px, 1 below (city-page.module.css),
   // so 9, 6 or 3 cards. Was 4 on phones and MIN_VISIBLE_ITEMS (6) elsewhere.
   const oneColumn = useIsMobile(760);
@@ -562,6 +586,7 @@ function GuidePanel({
                   return j >= start && j < end ? "" : "cg-hide";
                 })()}
                 key={j}
+                id={`guide-${panel.key}-${i}-${j}`}
               >
                 <GuideCard
                   photo={photo}
@@ -586,16 +611,24 @@ function GuidePanel({
                   </span>
                   {!noTag && <CardTags tag={item.tag} credentials={credentials} />}
                   <span className={`ds${noTag ? ` ${styles.dsExtra}` : ""}`}>{item.blurb || item.description}</span>
-                  {item.area && (
+                  {(item.area || item.lat != null) && (
                     <a
                       className={`${styles.itemLocation}${noTag ? ` ${styles.itemLocationWide}` : ""}`}
                       href={mapsUrl(item.name, item.area, cityName)}
                       target="_blank"
                       rel="noopener noreferrer"
-                      title={`Open ${item.name ?? "this place"} in Google Maps`}
+                      title={`Show ${item.name ?? "this place"} on the map`}
+                      onClick={(e) => {
+                        // On the page's own map when the place is on it (its coordinates, or one of the map's
+                        // venues); Google Maps in a new tab only for a place we cannot pin.
+                        if (openOnMap && openOnMap(item, panel.key, `guide-${panel.key}-${i}-${j}`)) {
+                          e.preventDefault();
+                          e.stopPropagation();
+                        }
+                      }}
                     >
                       {LOCATION_ICON}
-                      <span className="cg-loc-text">{item.area}</span>
+                      <span className="cg-loc-text">{item.area ?? "See it on the map"}</span>
                     </a>
                   )}
                 </GuideCard>
@@ -769,7 +802,26 @@ export default function CityPage() {
     };
   }, [slug]);
   // A plan card asked for a pin on the page's map: `from` is the card to scroll back to.
-  const [mapFocus, setMapFocus] = useState<{ name: string; nonce: number; from: string } | null>(null);
+  const [mapFocus, setMapFocus] = useState<{ name: string; nonce: number; from: string; venue?: CityMapVenue | null; back?: string } | null>(null);
+  const mapData = useCityMapData(slug ?? "");
+  const mapNames = useMemo(() => {
+    const key = (s: string) => s.toLowerCase().normalize("NFKD").replace(/[^a-z0-9]/g, "");
+    return { key, names: new Set((mapData?.venues ?? []).map((v) => key(v.n))) };
+  }, [mapData]);
+  // A guide card's location: the place on the page's own map (2026-11-17, direct request).
+  const openGuideOnMap = useCallback<OpenOnMap>((item, panelKey, fromId) => {
+    const name = item.name ?? "";
+    const pinned = item.lat != null && item.lng != null;
+    if (!name || (!pinned && !mapNames.names.has(mapNames.key(name)))) return false;
+    const cat = (["stay", "eat", "party", "do"].includes(panelKey) ? panelKey : "do") as CityMapVenue["cat"];
+    const venue: CityMapVenue | null = pinned
+      ? { n: name, cat, tier: "", a: item.area ?? "", d: item.blurb || item.description || "", lat: item.lat!, lon: item.lng!,
+          photos: item.photo ? [{ url: item.photo, alt: name, credit: null }] : [] }
+      : null;
+    setMapFocus({ name, nonce: Date.now(), from: fromId, venue, back: "Back to the guide" });
+    document.getElementById("city-map")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    return true;
+  }, [mapNames]);
   // What the loader waits for: only the hero photo — the first thing on
   // screen. Guide/grid photos further down load in as the page is read;
   // waiting for dozens of them is what kept the loader up (2026-10-09).
@@ -1293,6 +1345,7 @@ export default function CityPage() {
                       </div>
                     )}
                   </div>
+                  <GuideMap.Provider value={openGuideOnMap}>
                   <div ref={guideListRef}>
                     {panels.map((p) => (
                       <div key={p.key} style={{ display: activeTab === p.key ? undefined : "none" }}>
@@ -1308,6 +1361,7 @@ export default function CityPage() {
                       </div>
                     ))}
                   </div>
+                  </GuideMap.Provider>
                 </div>
                 {/* Restores the 520px this section's own height "lost" above,
                     so nothing after the guide (Neighbourhoods, etc.) shifts
@@ -1424,7 +1478,7 @@ export default function CityPage() {
           <div id="city-map" className={styles.mapAnchor}>
             {mapFocus && (
               <button type="button" className={styles.backToPlan} onClick={backToPlan}>
-                <span aria-hidden="true">↑</span> Back to The Plan
+                <span aria-hidden="true">↑</span> {mapFocus.back ?? "Back to The Plan"}
               </button>
             )}
             <div className={`${styles.taMapBox} reveal d1`}>

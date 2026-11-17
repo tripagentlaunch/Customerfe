@@ -31,6 +31,9 @@ export interface CityGuideItem {
   badge?: string | null;
   tag?: string | null;
   blurb?: string | null;
+  // Where the place is (sourcing engine, 2026-11-17): its location link opens it on the page's own map.
+  lat?: number | null;
+  lng?: number | null;
 }
 
 export interface CityGuideTier {
