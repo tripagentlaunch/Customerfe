@@ -1033,6 +1033,26 @@
       "lat": 40.417272,
       "lon": -3.700392,
       "photos": []
+    },
+    {
+      "n": "Thyssen-Bornemisza Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "A hearty dose of culture",
+      "d": "Both temporary exhibitions and the collection make it one of the best museums in the world.",
+      "lat": 40.416216,
+      "lon": -3.694932,
+      "photos": []
+    },
+    {
+      "n": "Carabanchel",
+      "cat": "do",
+      "tier": "",
+      "a": "A hearty dose of culture",
+      "d": "Choose Huertas or Lavapi\u00e9s, or head to Carabanchel, the new art district, for emerging artists and galleries.",
+      "lat": 40.374211,
+      "lon": -3.744676,
+      "photos": []
     }
   ]
 }

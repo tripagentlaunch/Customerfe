@@ -7,8 +7,8 @@
     },
     "hero": {
       "back": {
-        "label": "\u2190 Stay Intelligence",
-        "href": "stay-guides.html"
+        "label": "Hotels",
+        "href": "hotels.html"
       },
       "eyebrow": "Stay guide \u00b7 suite vs. room",
       "headingHtml": "When a suite<br/>is <span class=\"it\">worth it</span>.",
@@ -16,7 +16,7 @@
       "image": "/_vercel/image?url=%2Fimg%2Fh%2Fsuites-worth-it.jpg&w=2560&q=80",
       "ctaGold": {
         "label": "Plan a trip",
-        "href": "enquire.html"
+        "href": "concierge.html"
       },
       "ctaText": {
         "label": "When it pays",
@@ -80,11 +80,11 @@
       "buttons": [
         {
           "label": "Plan a trip \u2192",
-          "href": "enquire.html"
+          "href": "concierge.html"
         },
         {
           "label": "More stay guides",
-          "href": "stay-guides.html"
+          "href": "hotels.html"
         }
       ]
     }
@@ -97,8 +97,8 @@
     },
     "hero": {
       "back": {
-        "label": "\u2190 Stay Intelligence",
-        "href": "stay-guides.html"
+        "label": "Hotels",
+        "href": "hotels.html"
       },
       "eyebrow": "Stay guide \u00b7 the room itself",
       "headingHtml": "The same rate.<br/>Not the same <span class=\"it\">room</span>.",
@@ -106,7 +106,7 @@
       "image": "/_vercel/image?url=%2Fimg%2Fh%2Fthe-right-room.jpg&w=2560&q=80",
       "ctaGold": {
         "label": "Plan a trip",
-        "href": "enquire.html"
+        "href": "concierge.html"
       },
       "ctaText": {
         "label": "What we weigh",
@@ -173,11 +173,11 @@
       "buttons": [
         {
           "label": "Plan a trip \u2192",
-          "href": "enquire.html"
+          "href": "concierge.html"
         },
         {
           "label": "More stay guides",
-          "href": "stay-guides.html"
+          "href": "hotels.html"
         }
       ]
     }
@@ -190,8 +190,8 @@
     },
     "hero": {
       "back": {
-        "label": "\u2190 Stay Intelligence",
-        "href": "stay-guides.html"
+        "label": "Hotels",
+        "href": "hotels.html"
       },
       "eyebrow": "Stay guide \u00b7 preferred partners",
       "headingHtml": "The same room,<br/>worth <span class=\"it\">more</span>.",
@@ -199,7 +199,7 @@
       "image": "/_vercel/image?url=%2Fimg%2Fh%2Fhotel-programmes.jpg&w=2560&q=80",
       "ctaGold": {
         "label": "Plan a trip",
-        "href": "enquire.html"
+        "href": "concierge.html"
       },
       "ctaText": {
         "label": "What's included",
@@ -263,11 +263,11 @@
       "buttons": [
         {
           "label": "Plan a trip \u2192",
-          "href": "enquire.html"
+          "href": "concierge.html"
         },
         {
           "label": "More stay guides",
-          "href": "stay-guides.html"
+          "href": "hotels.html"
         }
       ]
     }

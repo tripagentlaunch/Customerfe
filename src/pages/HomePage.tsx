@@ -7,11 +7,11 @@ import { toRoute } from "../lib/toRoute";
 import { useIsMobile } from "../hooks/useIsMobile";
 import HeroCarousel from "../components/HeroCarousel";
 import DestinationPlanner from "../components/DestinationPlanner";
-import HomeSearch from "../components/HomeSearch";
+// import HomeSearch from "../components/HomeSearch"; // now rendered inside DestinationPlanner (2026-11-11)
 import WorldMapSection from "../components/WorldMapSection";
 import HowItWorksTabs from "../components/HowItWorksTabs";
 import { PrimaryInverseButton } from "../components/buttons/InverseButtons";
-import { withTaraAI } from "../components/TaraAI";
+// import { withTaraAI } from "../components/TaraAI"; // unused since the final CTA became "Chat with us"
 // import ConciergeChatDemo from "../components/ConciergeChatDemo"; — shelved with the HOW IT WORKS section below, not deleted
 import styles from "./home-page.module.css";
 import { useWhatsAppNumber } from "../lib/useWhatsAppNumber";
@@ -30,6 +30,9 @@ function readJSON(key: string): unknown {
     return null;
   }
 }
+
+// Background photos for the three "decide" cards, in card order (Browse, Match, Time it).
+const DEC_CARD_IMAGES = ["/img/h/honeymoon.jpg", "/img/h/destination-maldives.jpg", "/img/h/when-to-go.jpg"];
 
 export default function HomePage() {
   const whatsappNumber = useWhatsAppNumber();
@@ -167,14 +170,21 @@ export default function HomePage() {
             */}
           </div>
 
+          {/* The search bar moved to the "When are you flying?" section, above the month strip (2026-11-11, direct request).
           <HomeSearch labelHtml={discover.searchLabelHtml ?? ""} />
+          */}
 
           {/* Moved here from its own former "DECIDE" section (which only
               ever held this card grid — no longer rendered separately) so
               it reads as more ways to search, right under the search bar. */}
           <div className={`${styles.decGrid} reveal d1`}>
             {decide.cards.map((card, i) => (
-              <Link className={styles.decCard} to={toRoute(card.href)} key={i}>
+              <Link
+                className={styles.decCard}
+                to={toRoute(card.href)}
+                key={i}
+                style={{ "--dec-img": `url('${DEC_CARD_IMAGES[i] ?? DEC_CARD_IMAGES[0]}')` } as React.CSSProperties}
+              >
                 <div className={styles.dn}>{card.kicker}</div>
                 <h3>{card.heading}</h3>
                 <p>{card.body}</p>
@@ -198,7 +208,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <DestinationPlanner planner={planner} />
+      <DestinationPlanner planner={planner} searchLabelHtml={discover.searchLabelHtml ?? ""} />
 
       {/* SERVICES */}
       <section className="band">
@@ -212,9 +222,11 @@ export default function HomePage() {
                 {services.lede}
               </p>
             </div>
-            <Link className="cta" to={toRoute(services.allHref)} style={{ whiteSpace: "nowrap", paddingBottom: 6 }}>
-              {services.allLabel}
-            </Link>
+            {!isMobile && (
+              <Link className="cta" to={toRoute(services.allHref)} style={{ whiteSpace: "nowrap", paddingBottom: 6 }}>
+                {services.allLabel}
+              </Link>
+            )}
           </div>
           <div className={`grid-3 ${styles.servicesGrid}`} style={{ textAlign: "left" }}>
             {services.cards.map((card, i) => {
@@ -240,6 +252,14 @@ export default function HomePage() {
               );
             })}
           </div>
+          {/* Phone: "All we handle" sits below the cards instead of beside the heading. */}
+          {isMobile && (
+            <div className="reveal" style={{ marginTop: 28 }}>
+              <Link className="cta" to={toRoute(services.allHref)} style={{ whiteSpace: "nowrap", paddingBottom: 6 }}>
+                {services.allLabel}
+              </Link>
+            </div>
+          )}
         </div>
       </section>
 
@@ -402,8 +422,10 @@ export default function HomePage() {
               to={advisorHref}
               target={whatsappNumber ? "_blank" : undefined}
               rel={whatsappNumber ? "noopener noreferrer" : undefined}
+              ariaLabel="Speak with Tara AI"
             >
-              {withTaraAI(finalCta.secondaryLabel)}
+              {/* Was: {withTaraAI(finalCta.secondaryLabel)} ("Speak with Tara AI"); the aria-label keeps it a Tara CTA. */}
+              Chat with us
             </PrimaryInverseButton>
           </div>
         </div>

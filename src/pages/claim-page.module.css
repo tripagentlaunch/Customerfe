@@ -711,3 +711,31 @@
 .desk .codeInput {
   font-size: 24px;
 }
+
+/* Opened from a link: the code is already in, shown as a quiet line with a way to type a different one. */
+.codeLine {
+  font-size: 14px;
+  color: #6b635b;
+  text-align: center;
+  margin: 2px 0 4px;
+}
+
+.codeLine b {
+  color: #1a1714;
+  letter-spacing: 0.12em;
+}
+
+.linkBtn {
+  background: none;
+  border: 0;
+  padding: 0;
+  font: inherit;
+  color: #5a2330;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* The welcome's WhatsApp button is a link styled as the primary button. */
+a.submitBtn {
+  text-decoration: none;
+}

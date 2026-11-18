@@ -1543,6 +1543,26 @@
       "lat": 35.69399,
       "lon": 139.7047,
       "photos": []
+    },
+    {
+      "n": "Takarabune",
+      "cat": "party",
+      "tier": "",
+      "a": "Tokyo's creative side",
+      "d": "A menu that changes weekly, only four or five tables, and a short menu based on the chef's recommendations.",
+      "lat": 35.645959,
+      "lon": 139.670205,
+      "photos": []
+    },
+    {
+      "n": "Casica",
+      "cat": "do",
+      "tier": "",
+      "a": "All about craft",
+      "d": "In Shin Kiba, known for its folkloric craft atmosphere: a good place for local snacks, crafts and special souvenirs.",
+      "lat": 35.643909,
+      "lon": 139.82426,
+      "photos": []
     }
   ]
 }

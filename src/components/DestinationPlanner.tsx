@@ -2,6 +2,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import type { PlannerCity, PlannerData } from "../types/homepage";
 import { useIsMobile } from "../hooks/useIsMobile";
+import HomeSearch from "./HomeSearch";
 import styles from "./DestinationPlanner.module.css";
 
 // Cards are at most ~300px wide, so a 640px rendition covers 2x screens —
@@ -40,7 +41,7 @@ function rankCities(cities: PlannerCity[], month: number) {
     .slice(0, 8);
 }
 
-export default function DestinationPlanner({ planner }: { planner: PlannerData }) {
+export default function DestinationPlanner({ planner, searchLabelHtml = "" }: { planner: PlannerData; searchLabelHtml?: string }) {
   const [month, setMonth] = useState(() => new Date().getMonth());
   const ranked = useMemo(() => rankCities(planner.cities, month), [planner.cities, month]);
 
@@ -110,6 +111,11 @@ export default function DestinationPlanner({ planner }: { planner: PlannerData }
             {planner.lede}
           </p>
           */}
+        </div>
+
+        {/* The homepage search bar, moved here from "Where shall we take you?" (2026-11-11, direct request). */}
+        <div style={{ marginBottom: "clamp(20px, 2.6vw, 34px)" }}>
+          <HomeSearch labelHtml={searchLabelHtml} />
         </div>
 
         <div ref={monthsRef} className={`${styles.plMonths} reveal d1`} role="tablist" aria-label="Choose a month">

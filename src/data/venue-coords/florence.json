@@ -983,6 +983,26 @@
       "lat": 43.769796,
       "lon": 11.25564,
       "photos": []
+    },
+    {
+      "n": "Museo San Marco",
+      "cat": "do",
+      "tier": "",
+      "a": "Duomo to San Marco",
+      "d": "Fra Angelico's ethereal, spiritual paintings, in a Dominican convent built between 1437 and 1443.",
+      "lat": 43.778474,
+      "lon": 11.259443,
+      "photos": []
+    },
+    {
+      "n": "Teatro del Maggio Musicale Fiorentino",
+      "cat": "party",
+      "tier": "",
+      "a": "Across the Arno",
+      "d": "Florence's opera house, in a striking contemporary building near the Cascine Park, open since 2011.",
+      "lat": 43.778877,
+      "lon": 11.234874,
+      "photos": []
     }
   ]
 }

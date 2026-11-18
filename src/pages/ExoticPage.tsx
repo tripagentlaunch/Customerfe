@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import exoticData from "../data/exotic-page.generated.json";
 import exoticPhotos from "../data/exotic-photos.json";
 import type { ExoticPageData, ExoticSpot } from "../types/exotic-page";
-import { TaraAI } from "../components/TaraAI";
+// import { TaraAI } from "../components/TaraAI"; // "Have Tara AI plan it" became "Plan with us" (2026-11-13)
 import styles from "./exotic-page.module.css";
 
 const data = exoticData as unknown as ExoticPageData;
@@ -103,8 +103,8 @@ function Card({ s, index, onDetails }: { s: ExoticSpot; index: number; onDetails
           {s.access_flag && <span className={styles.exAccess}>Access-dependent</span>}
         </p>
         <div className={styles.exActions}>
-          <Link className={styles.exCta} to={advisorHref(s.name)}>
-            Have <TaraAI /> plan it →
+          <Link className={styles.exCta} data-grow to={advisorHref(s.name)}>
+            Plan with us
           </Link>
           <button type="button" className={styles.exToggle} onClick={onDetails} aria-haspopup="dialog">
             Details
@@ -186,8 +186,8 @@ function DetailsSheet({ spot, onClose }: { spot: ExoticSpot | null; onClose: () 
               </Fragment>
             ))}
           </dl>
-          <Link className={styles.exCta} to={advisorHref(shown.name)} onClick={onClose}>
-            Have <TaraAI /> plan it →
+          <Link className={styles.exCta} data-grow to={advisorHref(shown.name)} onClick={onClose}>
+            Plan with us
           </Link>
         </div>
       </div>
@@ -333,7 +333,7 @@ export default function ExoticPage() {
             return (
               <a key={id} href={`#${id}`} onClick={goTo(id)} className={active === id ? styles.exChapOn : undefined}
                 aria-current={active === id ? "true" : undefined}>
-                <span className={styles.exChapN}>{String(i + 1).padStart(2, "0")}</span>
+                {/* chapter numbers removed 2026-11-13, direct request: <span className={styles.exChapN}>{String(i + 1).padStart(2, "0")}</span> */}
                 {g.category}
               </a>
             );

@@ -1143,6 +1143,46 @@
       "lat": 41.391381,
       "lon": 2.166914,
       "photos": []
+    },
+    {
+      "n": "Sants",
+      "cat": "do",
+      "tier": "",
+      "a": "Classic eats",
+      "d": "Culinary Backstreets' Feasting Off the Grid tour: intimate, run by food writers who know the restaurants personally.",
+      "lat": 41.375329,
+      "lon": 2.134912,
+      "photos": []
+    },
+    {
+      "n": "La Paloma",
+      "cat": "party",
+      "tier": "",
+      "a": "All about the arts",
+      "d": "On a Sunday from 6 to 9 p.m., join all ages dancing to Latin music, especially salsa, in a century-old ballroom.",
+      "lat": 41.382371,
+      "lon": 2.164223,
+      "photos": []
+    },
+    {
+      "n": "Port Ol\u00edmpic",
+      "cat": "do",
+      "tier": "",
+      "a": "The city's great outdoors",
+      "d": "Catch a Barcelona sunset at sea, with live music.",
+      "lat": 41.38613,
+      "lon": 2.199835,
+      "photos": []
+    },
+    {
+      "n": "Zumzeig",
+      "cat": "party",
+      "tier": "",
+      "a": "The city's great outdoors",
+      "d": "A neighbourhood cinema with one room showing one film at a time: precious, rare films from all over the world.",
+      "lat": 41.37732,
+      "lon": 2.145027,
+      "photos": []
     }
   ]
 }

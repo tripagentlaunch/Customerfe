@@ -16,7 +16,8 @@ const LAST = STAGES.length - 1;
 // stop) instead.
 // Milliseconds of stillness before the page scrolls itself on: to the next
 // stage, and from the last stage (Home) on to the next section of the page.
-const AUTO_ADVANCE_MS = 4500;
+const HINT_DELAY_MS = 6000;
+const AUTO_ADVANCE_MS = 12000;
 // How long the page's own glide from one stage to the next takes (the same for every move).
 const SCROLL_MS = 700;
 
@@ -36,6 +37,18 @@ export default function HowItWorksTabs() {
   const pinnedMode = true;
   const wrapRef = useRef<HTMLElement | null>(null);
   const stickyRef = useRef<HTMLDivElement | null>(null);
+
+  // "Scroll" hint: shows HINT_DELAY_MS after the section comes into view, and again HINT_DELAY_MS after
+  // each change of stage; hides at once on leaving the section or moving to another stage.
+  const [showHint, setShowHint] = useState(false);
+  const [inView, setInView] = useState(false);
+  useEffect(() => {
+    const el = wrapRef.current;
+    if (!el || typeof IntersectionObserver === "undefined") return;
+    const io = new IntersectionObserver(([e]) => setInView(e.isIntersecting));
+    io.observe(el);
+    return () => io.disconnect();
+  }, []);
 
   // ---- desktop (pinned) ----
   const [q, setQ] = useState(0);
@@ -207,6 +220,12 @@ export default function HowItWorksTabs() {
   // The stage nearest the scroll position (desktop) / the step in view (phone).
   const active = pinnedMode ? Math.round(q * LAST) : activeM;
   // How far along the track the line is filled, 0..1.
+  useEffect(() => {
+    setShowHint(false);
+    if (!inView) return;
+    const t = window.setTimeout(() => setShowHint(true), HINT_DELAY_MS);
+    return () => window.clearTimeout(t);
+  }, [inView, active]);
   const progress = pinnedMode ? q : activeM / LAST;
   const onNodeClick = (i: number) => (pinnedMode ? goTo(i) : setActiveM(i));
 
@@ -282,6 +301,12 @@ export default function HowItWorksTabs() {
             </p>
           </div>
         </div>
+      </div>
+      <div className={`${styles.scrollHint}${showHint ? ` ${styles.scrollHintOn}` : ""}`} aria-hidden="true">
+        <span>Scroll</span>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.6} strokeLinecap="round" strokeLinejoin="round">
+          <path d="M6 9l6 6 6-6" />
+        </svg>
       </div>
       </div>
     </section>

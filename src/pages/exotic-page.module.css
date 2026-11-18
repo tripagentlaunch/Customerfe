@@ -175,3 +175,14 @@
   :global(.ex-rise){opacity:1;transform:none;transition:none}
   .ex-card,.ex-card-media img,.ex-sheet,.ex-sheet-wrap,.ex-sheet-media img,.ex-plus{transition:none}
 }
+
+/* "Plan with us" button: black (2026-11-13, direct request). */
+html .ex-cta,html .ex-cta:hover{background:var(--ink,#1A1714);border-color:var(--ink,#1A1714);color:#fff}
+
+/* Chapter bar (2026-11-13, direct request): the navbar pushes it down when it appears so it stays reachable, and the
+   active chapter is much more prominent (bold ink text, a thick maroon underline). */
+.ex-chapters{transition:top .35s cubic-bezier(.4,0,.2,1) .15s}
+:global(body:has(.ta-hd-visible)) .ex-chapters{top:var(--ta-hd-h,64px)}
+.ex-chapters a{padding:20px 12px;font-size:11px}
+.ex-chapters a::after{left:0;right:0;height:3px;bottom:-1px}
+.ex-chapters a.ex-chap-on,.ex-chap-on{color:var(--ink)!important;font-weight:700}

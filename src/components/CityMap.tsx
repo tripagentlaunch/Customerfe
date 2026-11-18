@@ -20,7 +20,7 @@ const VENUE_COORD_LOADERS = import.meta.glob("../data/venue-coords/*.json") as R
   () => Promise<{ default: CityMapData }>
 >;
 
-function useCityMapData(slug: string) {
+export function useCityMapData(slug: string) {
   const [data, setData] = useState<CityMapData | null | undefined>(undefined);
 
   useEffect(() => {
@@ -157,10 +157,16 @@ export default function CityMap({
   slug,
   livePlacesEnabled = false,
   onReady,
+  focus = null,
 }: {
   slug: string;
   livePlacesEnabled?: boolean;
   onReady?: () => void;
+  // Asks the map to open one pin (The Plan's cards use this). `nonce` changes on every request, so asking for
+  // the same pin twice still re-opens it. Matched on the venue's exact name in venue-coords/<slug>.json.
+  // A guide card can also send the place itself (2026-11-17): when it is not one of the map's own venues,
+  // it is pinned at its coordinates for as long as it is open.
+  focus?: { name: string; nonce: number; venue?: CityMapVenue | null } | null;
 }) {
   const config = useRemoteConfig();
   // undefined = /config hasn't resolved yet; "" = resolved with no key
@@ -269,7 +275,11 @@ export default function CityMap({
     restoreFocus();
   }
 
-  const visibleVenues = data?.venues ?? [];
+  const [extraVenue, setExtraVenue] = useState<CityMapVenue | null>(null);
+  const visibleVenues = useMemo(
+    () => [...(data?.venues ?? []), ...(extraVenue && !(data?.venues ?? []).some((x) => x.n === extraVenue.n) ? [extraVenue] : [])],
+    [data, extraVenue],
+  );
 
   // Only single pins take hover (which opens the card), so a hovered pin is
   // never inside a badge and needs no special-casing here.
@@ -301,6 +311,17 @@ export default function CityMap({
     }
     setSelected(v);
   }
+
+  useEffect(() => {
+    if (!focus) return;                                 // the stand-in map (no key) opens it too: pickFromGroup skips the pan
+    const key = (s: string) => s.toLowerCase().normalize("NFKD").replace(/[^a-z0-9]/g, "");
+    const own = data?.venues.find((x) => x.n === focus.name) ?? data?.venues.find((x) => key(x.n) === key(focus.name));
+    const v = own ?? focus.venue ?? null;
+    if (!v) return;
+    if (!own) setExtraVenue(v);
+    pickFromGroup(v);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [focus, map, data]);
 
   function expandCluster(items: { v: CityMapVenue }[]) {
     // Phone: the places sheet stays up while the map zooms underneath it;

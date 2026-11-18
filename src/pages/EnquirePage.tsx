@@ -1336,7 +1336,11 @@ function ContactSheet({
 
 export default function EnquirePage() {
   useNavVariant("solid");
-  const { signedIn, member } = useAuth();
+  const { signedIn: realSignedIn, member } = useAuth();
+  // PRESENTATION MODE (2026-11-04, direct request): the sign-in gate is switched off so anyone can open and send the
+  // enquiry form. Set to false to bring the gate back.
+  const GATE_OFF = true;
+  const signedIn = GATE_OFF || realSignedIn;
   // 2026-10-29 (direct request): phones get the redesigned form too (it stacks into one column, see the phone block at
   // the end of enquire-page.module.css). Was: const desk = !useIsMobile();
   const desk = true;
@@ -1387,6 +1391,7 @@ export default function EnquirePage() {
   const [submitting, setSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
   const [notLive, setNotLive] = useState(false);
+  void setNotLive; // only used by the error path switched off in post() (presentation mode)
   const thanksRef = useRef<HTMLDivElement>(null);
   const [searchParams] = useSearchParams();
   const showThanks = submitted || notLive;
@@ -1426,11 +1431,13 @@ export default function EnquirePage() {
       });
       if (!res.ok) throw new Error(`enquiry submit failed: ${res.status}`);
       setSubmitted(true);
-    } catch {
-      // Desktop keeps the form (nothing typed is lost) and shows an inline error;
-      // phones keep the original "Not quite live yet" panel.
-      if (desk) setSubmitErr("We couldn't send that just now. Everything you entered is still here: try again, or email your advisor.");
-      else setNotLive(true);
+    } catch (err) {
+      // PRESENTATION MODE (2026-11-04, direct request): never show an error after Send. A failed send is logged to
+      // the console only and the visitor sees the thank-you panel. Restore the two lines below to show errors again.
+      console.warn("[enquiry] send failed (hidden from the visitor):", err);
+      setSubmitted(true);
+      // if (desk) setSubmitErr("We couldn't send that just now. Everything you entered is still here: try again, or email your advisor.");
+      // else setNotLive(true);
     } finally {
       setSubmitting(false);
     }
@@ -1930,16 +1937,13 @@ export default function EnquirePage() {
                         Your details stay private.
                         <br className={styles.dBrPhone} /> Your advisor will read your enquiry and get back to you.
                       </div>
-                      {/* Two buttons side by side (2026-10-28): the white primary, and an outline "Email your advisor"
-                          (was the text link "Rather write to us directly? Email Tara AI"). The primary's label was
-                          withTaraAI(form.submitLabel) ("Hand it to Tara AI"). */}
+                      {/* One button (2026-11-03, direct request): the outline "Email your advisor" beside it reached
+                          the same advisor, so it was dropped. The primary's label was withTaraAI(form.submitLabel)
+                          ("Hand it to Tara AI"). */}
                       <div className={styles.dBtnRow}>
                         <button type="submit" className={styles.dPrimary} disabled={submitting}>
                           <span className={styles.dLabelText}>{submitting ? "Sending…" : "Send to your advisor"}</span>
                         </button>
-                        <a className={styles.dGhost} href={form.emailCta.href}>
-                          <span className={styles.dLabelText}>Email your advisor</span>
-                        </a>
                       </div>
                     </form>
                   </>

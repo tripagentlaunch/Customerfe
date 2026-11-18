@@ -1,9 +1,10 @@
-import { useEffect, useLayoutEffect, useMemo, useRef, useState, type ReactNode } from "react";
+import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState, type ReactNode } from "react";
 import { createContext, useContext } from "react";
 import { createPortal } from "react-dom";
 import { Link, useParams } from "react-router-dom";
 import {
   Gem,
+  Ticket,
   Crown,
   Sparkle,
   Star,
@@ -19,28 +20,44 @@ import {
   Camera,
   ChevronLeft,
   ChevronRight,
+  CloudSun,
+  Plane,
+  PlaneLanding,
+  HeartPulse,
+  UtensilsCrossed,
+  Car,
+  Wifi,
+  Wallet,
+  Info,
 } from "lucide-react";
 import cities from "../data/cities.generated.json";
-import type { CityData, CityGuidePanel } from "../types/city";
+import type { CityData, CityGuideItem, CityGuidePanel, CityMapVenue } from "../types/city";
 import { useScrollReveal } from "../lib/useScrollReveal";
+import { loadCityPlan, type CityPlan } from "../lib/cityPlans";
 import { toRoute } from "../lib/toRoute";
-import CityMap from "../components/CityMap";
+import CityMap, { useCityMapData } from "../components/CityMap";
 import { useIsMobile } from "../hooks/useIsMobile";
-import { useWishlist, type WishlistEntry } from "../lib/wishlist";
-import PlanRouteMap, { type PlanStop } from "../components/PlanRouteMap";
-import PlanCarousel from "../components/PlanCarousel";
+import type { WishlistEntry } from "../lib/wishlist";
+import { TripBar } from "../components/TripBar";
+import { addItem, removeItem, useInTrip, TRIP_SLOTS, type TripSlot } from "../lib/tripState";
+import { flyToTrip } from "../lib/flyToTrip";
+// import PlanRouteMap, { type PlanStop } from "../components/PlanRouteMap"; // the Plan no longer has a route map (2026-11-11)
+// import PlanCarousel from "../components/PlanCarousel"; // replaced by the fixed 4-day card rows (2026-11-11)
 import CalendarSection from "../components/CalendarSection";
+import Collapse from "../components/Collapse";
 // import EventMap from "../components/EventMap"; // commented out: When-to-go now reuses the first section's CityMap
-import { pickHighlightSlots } from "../lib/planHighlights";
-import { useAgraLivePlanCoords, type PlanTarget } from "../hooks/useAgraLivePlanCoords";
+// import { pickHighlightSlots } from "../lib/planHighlights"; // Plan highlight picking is gone with the Plan map (2026-11-11)
+// import { useAgraLivePlanCoords, type PlanTarget } from "../hooks/useAgraLivePlanCoords";
 // import { useAgraLiveEventLocations } from "../hooks/useAgraLiveEventLocations";
 import { useLiveGuidePanelPhotos, type LivePanelPhoto } from "../hooks/useLiveGuidePanelPhotos";
 import { PrimaryInverseButton, SecondaryInverseButton } from "../components/buttons/InverseButtons";
-import { withTaraAI } from "../components/TaraAI";
+// import { withTaraAI } from "../components/TaraAI";
 import styles from "./city-page.module.css";
 import LiveVenues from "../components/LiveVenues";
 import { useEngineGuide } from "../hooks/useEngineGuide";
 import { withBestWindow } from "../lib/bestMonths";
+import { placeholderPhoto } from "../lib/placeholderPhoto";
+import { extractPlaceCandidate } from "../lib/extractPlaceName";
 import { ORIGINS, detectOrigin, flightTimes, hoursLabel, useOrigin, type FlightFrom } from "../lib/origin";
 import CityPageLoader, { useCityPageReady } from "../components/CityPageLoader";
 import NotFoundPage from "./NotFoundPage";
@@ -97,6 +114,8 @@ const TIER_ICONS: Record<string, typeof Gem> = {
   "nature & the outdoors": Mountain,
   "history & culture": Landmark,
   "food & wine experiences": Wine,
+  // The engine's fifth "do" group (tours, classes, spas...), 2026-11-04.
+  experiences: Ticket,
 };
 
 function tierIcon(label: string) {
@@ -140,6 +159,11 @@ const TagsExpanded = createContext(false);
 // in one go; a single "Less" closes it. Null on phones (sheet instead).
 const CardExpand = createContext<{ expanded: boolean; open: () => void } | null>(null);
 
+// A guide card's location opens the place on the page's own map (2026-11-17, direct request:
+// keep the traveller on the page rather than sending them to Google Maps). Null: no map handler.
+type OpenOnMap = (item: CityGuideItem, panelKey: string, fromId: string) => boolean;
+const GuideMap = createContext<OpenOnMap | null>(null);
+
 // One headline tag; the rest of the credentials, in full, behind "+N".
 function CardTags({ tag, credentials }: { tag?: string | null; credentials: string[] }) {
   const [openLocal, setOpen] = useState(false);
@@ -154,7 +178,7 @@ function CardTags({ tag, credentials }: { tag?: string | null; credentials: stri
         {headline}
       </span>
       {open && rest.map((c, k) => <span className="cg-cred cg-cred-lo" key={k}>{c}</span>)}
-      {rest.length > 0 && !always && !(card && card.expanded) && (
+      {rest.length > 0 && !always && (
         <button
           type="button"
           className="cg-cred cg-cred-lo"
@@ -162,11 +186,11 @@ function CardTags({ tag, credentials }: { tag?: string | null; credentials: stri
           aria-expanded={open}
           onClick={(e) => {
             e.stopPropagation();
-            if (card) card.open();
+            if (card) card.open();               // toggles the card's credentials (GuideCard)
             else setOpen((o) => !o);
           }}
         >
-          {open ? "Less" : `+${rest.length}`}
+          {open ? "Less" : `+${rest.length} more`}
         </button>
       )}
     </span>
@@ -188,7 +212,7 @@ function shortCredential(full: string): string {
 // on the authored hidden/moreLabel fields (which came from the original
 // static site's own, inconsistent truncation), so this rule is uniform
 // regardless of how any one city's data happens to be authored.
-const MIN_VISIBLE_ITEMS = 6;
+// const MIN_VISIBLE_ITEMS = 6; // replaced by 3 rows per page (2026-11-11)
 
 // Which page buttons to show. Always the same number of slots (7) once there
 // are more than seven pages, so the pager never changes width or shifts as
@@ -249,8 +273,9 @@ function GuideCard({
   // so reading it never stretches the card or the photo.
   const isPhone = useIsMobile();
   const [open, setOpen] = useState(false);
-  const wishlist = useWishlist();
-  const saved = !!save && wishlist.isSaved(save.ref);
+  // "Add to your trip" (2026-11-17): the card's + now adds the place to the trip kept in this browser
+  // (see lib/tripState.ts), which the /trip builder lays out by day. Was the account shortlist.
+  const saved = useInTrip(save?.ref);
   useEffect(() => {
     if (!open) return;
     const onKey = (e: KeyboardEvent) => e.key === "Escape" && setOpen(false);
@@ -270,11 +295,20 @@ function GuideCard({
   // stretch its card past the photo. "More" appears only when something is
   // actually cut, and opens the whole entry in place.
   const bodyRef = useRef<HTMLDivElement | null>(null);
-  const [expanded, setExpanded] = useState(false);
+  // Cards show everything by default (2026-11-11, direct request); the More/Less control is gone. Was useState(false).
+  const [expanded, setExpanded] = useState(true);
   const [clipped, setClipped] = useState(false);
   const [hasExtras, setHasExtras] = useState(false);
   const expandable = clipped || hasExtras;
-  const cardExpand = useMemo(() => ({ expanded, open: () => setExpanded(true) }), [expanded]);
+  // Desktop (2026-11-17, direct request): the strongest credential shows; a click anywhere on the card's
+  // lower half (or on "+N more") opens the rest, and again closes them. Links and buttons keep their own action.
+  const [credsOpen, setCredsOpen] = useState(false);
+  const credsToggle = useMemo(() => ({ expanded: credsOpen, open: () => setCredsOpen((o) => !o) }), [credsOpen]);
+  const [hasCredsMore, setHasCredsMore] = useState(false);
+  useLayoutEffect(() => {
+    const more = !!bodyRef.current?.querySelector("button.cg-cred-lo");
+    if (more !== hasCredsMore) setHasCredsMore(more);
+  });
   useLayoutEffect(() => {
     const el = bodyRef.current;
     if (!el || isPhone || expanded) return;
@@ -291,15 +325,31 @@ function GuideCard({
 
   // Swipe down on the sheet (when it's scrolled to the top) closes it.
   const dragY = useRef<number | null>(null);
+  const toggleTrip = () => {
+    if (!save) return;
+    if (saved) removeItem(save.ref);
+    else {
+      const m = (save.meta ?? {}) as { section?: string; area?: string | null; photo?: string | null };
+      addItem(save.city, save.cityLabel, { ref: save.ref, kind: save.kind, title: save.title, section: m.section ?? null, area: m.area ?? null, photo: m.photo ?? null });
+    }
+  };
   const heart = (cls: string, label: string) => (
     <button
       type="button"
       className={`${cls}${saved ? ` ${styles.hearted}` : ""}`}
       aria-pressed={saved}
-      aria-label={saved ? "Remove from your shortlist" : "Add to your shortlist"}
+      aria-label={saved ? "Remove from your trip" : "Add to your trip"}
       onClick={(e) => {
         e.stopPropagation();
-        if (save) void wishlist.toggle(save);
+        if (!save) return;
+        if (saved) removeItem(save.ref);
+        else {
+          // The sheet's dimmed cover sits above the tray, so the sheet closes as the photo takes off.
+          flyToTrip(e.currentTarget);
+          const m = (save.meta ?? {}) as { section?: string; area?: string | null; photo?: string | null };
+          addItem(save.city, save.cityLabel, { ref: save.ref, kind: save.kind, title: save.title, section: m.section ?? null, area: m.area ?? null, photo: m.photo ?? null });
+          setOpen(false);
+        }
       }}
     >
       <span className={styles.heartIcon}>
@@ -322,7 +372,7 @@ function GuideCard({
         }}
         style={!isPhone && expandable && !expanded ? { cursor: "pointer" } : undefined}
       >
-        {shownPhoto && <div className={styles.cardThumbWrap}>
+        {shownPhoto && <div className={styles.cardThumbWrap} data-fly-box>
           <img
             className={styles.cardThumb}
             src={shownPhoto}
@@ -338,10 +388,25 @@ function GuideCard({
               <span className={styles["card-spinner"]} />
             </div>
           )}
-          {isPhone && save && heart(styles.cardHeart, "")}
+          {save && <TripIconButton inTrip={saved} onToggle={toggleTrip} />}
         </div>}
-        <div className={styles.cardBody} ref={bodyRef} data-expanded={expanded || undefined}>
-          <CardExpand.Provider value={isPhone ? null : cardExpand}>{children}</CardExpand.Provider>
+        <div
+          className={`${styles.cardBody}${save && !shownPhoto ? ` ${styles.cardBodyAdd}` : ""}`}
+          ref={bodyRef}
+          data-expanded={expanded || undefined}
+          onClick={(e) => {
+            if (isPhone || !hasCredsMore || (e.target instanceof Element && e.target.closest("a, button"))) return;
+            e.stopPropagation();
+            setCredsOpen((o) => !o);
+          }}
+          style={!isPhone && hasCredsMore ? { cursor: "pointer" } : undefined}
+        >
+          {/* Desktop (2026-11-17, direct request): one credential, the strongest; the rest behind
+              "+N more" on the card itself. Phones keep every credential (unchanged). */}
+          <TagsExpanded.Provider value={isPhone}>
+            <CardExpand.Provider value={isPhone ? null : credsToggle}>{children}</CardExpand.Provider>
+          </TagsExpanded.Provider>
+          {/* More / Less removed (2026-11-11, direct request): cards always show the full entry.
           {!isPhone && (clipped || expanded) && (
             <button
               type="button"
@@ -355,6 +420,8 @@ function GuideCard({
               {expanded ? "Less" : "More"}
             </button>
           )}
+          */}
+          {save && !shownPhoto && <TripIconButton inTrip={saved} onToggle={toggleTrip} />}
         </div>
       </div>
       {/* Outside the card's own element: a tap on the sheet or the dimmed area
@@ -376,14 +443,15 @@ function GuideCard({
               }}
             >
               <div className={styles.sheetGrip} aria-hidden="true" />
-              {shownPhoto && <div className={styles.sheetPhoto} style={{ backgroundImage: `url('${shownPhoto}')` }} />}
+              {shownPhoto && <div className={styles.sheetPhoto} data-fly-box style={{ backgroundImage: `url('${shownPhoto}')` }} />}
               <div className={`ta-guide ${styles.sheetBody}`}>
                 <TagsExpanded.Provider value={true}>
                   <ul className="cg-list">
                     <li>{children}</li>
                   </ul>
                 </TagsExpanded.Provider>
-                {save && <div className={styles.sheetFoot}>{heart(styles.sheetSave, saved ? "Saved to my journey" : "Save to my journey")}</div>}
+                {save && <div className={styles.sheetFoot}>{/* was "Add to your trip" on phones; now the same words as the desktop button (2026-11-18). */}
+                {heart(styles.sheetSave, saved ? "In your trip" : "Add to trip")}</div>}
               </div>
             </div>
           </div>,
@@ -393,6 +461,41 @@ function GuideCard({
   );
 }
 
+// "Add to trip": a small square with a "+" (a tick once added) in the corner of the card's photo;
+// on hover it opens sideways to say what it does, like the Chat with us button.
+function TripIconButton({ inTrip, onToggle, className }: { inTrip: boolean; onToggle: () => void; className?: string }) {
+  const label = inTrip ? "In your trip" : "Add to trip";
+  return (
+    <button
+      type="button"
+      className={`${styles.tripBtn}${inTrip ? ` ${styles.hearted}` : ""}${className ? ` ${className}` : ""}`}
+      aria-pressed={inTrip}
+      aria-label={inTrip ? "Remove from your trip" : "Add to your trip"}
+      onClick={(e) => {
+        e.stopPropagation();
+        if (!inTrip) flyToTrip(e.currentTarget); // the card's photo flies into the tray below
+        onToggle();
+      }}
+    >
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+        {inTrip ? <path d="M5 12.5l4.5 4.5L19 7.5" /> : <path d="M12 5v14M5 12h14" />}
+      </svg>
+      <span className={styles.tripBtnLbl}>{label}</span>
+    </button>
+  );
+}
+
+// The Plan's cards ("Day 2, afternoon") can go straight into the trip, already placed on that day.
+type PlanTripItem = { ref: string; title: string; photo: string | null; day: number; slot: TripSlot };
+const planSlotOf = (label: string | null | undefined, index: number): TripSlot =>
+  (TRIP_SLOTS.find((s) => (label ?? "").toLowerCase().startsWith(s)) ?? TRIP_SLOTS[Math.min(index, 2)]) as TripSlot;
+function addPlanItems(slug: string, cityLabel: string, items: PlanTripItem[]) {
+  items.forEach((i) => addItem(slug, cityLabel, { ref: i.ref, kind: "plan", title: i.title, section: "plan", area: null, photo: i.photo, day: i.day, slot: i.slot }));
+}
+function PlanAddButton({ slug, cityLabel, item }: { slug: string; cityLabel: string; item: PlanTripItem }) {
+  const inTrip = useInTrip(item.ref);
+  return <TripIconButton inTrip={inTrip} onToggle={() => (inTrip ? removeItem(item.ref) : addPlanItems(slug, cityLabel, [item]))} />;
+}
 // Tabs + tier chips both moved out of here into one shared sticky wrapper
 // in CityPage itself (see .guideSticky) — this component now renders only
 // the actual tier list content, driven by the selectedTier prop it's given.
@@ -423,7 +526,12 @@ function GuidePanel({
   // Entries per page: 6 on desktop, 4 on phones (the numbered pager appears
   // once a tier has more than one page).
   const isPhone = useIsMobile();
-  const pageSize = isPhone ? 4 : MIN_VISIBLE_ITEMS;
+  const openOnMap = useContext(GuideMap);
+  // 3 rows per page (2026-11-11, direct request): the columns are 3 from 1000px, 2 from 761px, 1 below (city-page.module.css),
+  // so 9, 6 or 3 cards. Was 4 on phones and MIN_VISIBLE_ITEMS (6) elsewhere.
+  const oneColumn = useIsMobile(760);
+  const twoColumns = useIsMobile(999);
+  const pageSize = oneColumn ? 3 : twoColumns ? 6 : 9;
   // Per-tier reveal COUNT, not a binary open/closed flag — "Show all"
   // now reveals pageSize more each click (batched), rather than
   // jumping straight from 6 to all 44 at once, so a visitor who never
@@ -535,6 +643,7 @@ function GuidePanel({
                   return j >= start && j < end ? "" : "cg-hide";
                 })()}
                 key={j}
+                id={`guide-${panel.key}-${i}-${j}`}
               >
                 <GuideCard
                   photo={photo}
@@ -545,7 +654,7 @@ function GuidePanel({
                       ? {
                           ref: `${citySlug}:${panel.key}:${item.name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}`,
                           // "stay" is a hotel; "party" a moment; "do" and "eat" are experiences
-                          kind: panel.key === "stay" ? "hotel" : panel.key === "party" ? "event" : "experience",
+                          kind: panel.key === "stay" ? "hotel" : panel.key === "party" || (panel.key as string) === "events" ? "event" : "experience",
                           title: item.name,
                           city: citySlug,
                           cityLabel: cityName ?? citySlug,
@@ -559,16 +668,24 @@ function GuidePanel({
                   </span>
                   {!noTag && <CardTags tag={item.tag} credentials={credentials} />}
                   <span className={`ds${noTag ? ` ${styles.dsExtra}` : ""}`}>{item.blurb || item.description}</span>
-                  {item.area && (
+                  {(item.area || item.lat != null) && (
                     <a
                       className={`${styles.itemLocation}${noTag ? ` ${styles.itemLocationWide}` : ""}`}
                       href={mapsUrl(item.name, item.area, cityName)}
                       target="_blank"
                       rel="noopener noreferrer"
-                      title={`Open ${item.name ?? "this place"} in Google Maps`}
+                      title={`Show ${item.name ?? "this place"} on the map`}
+                      onClick={(e) => {
+                        // On the page's own map when the place is on it (its coordinates, or one of the map's
+                        // venues); Google Maps in a new tab only for a place we cannot pin.
+                        if (openOnMap && openOnMap(item, panel.key, `guide-${panel.key}-${i}-${j}`)) {
+                          e.preventDefault();
+                          e.stopPropagation();
+                        }
+                      }}
                     >
                       {LOCATION_ICON}
-                      <span className="cg-loc-text">{item.area}</span>
+                      <span className="cg-loc-text">{item.area ?? "See it on the map"}</span>
                     </a>
                   )}
                 </GuideCard>
@@ -640,6 +757,7 @@ function GuidePanel({
 // "not available yet" fallback) rather than a debug-looking error box.
 // `reason` stays dev-facing only; the visible copy is always the same
 // generic line so the page still reads as intentional, not broken.
+/* MapDataMissing: only the removed side-map used it (2026-11-11).
 function MapDataMissing({ reason }: { reason: string }) {
   useEffect(() => {
     console.warn(`[MapDataMissing] ${reason}`);
@@ -651,6 +769,7 @@ function MapDataMissing({ reason }: { reason: string }) {
     </div>
   );
 }
+*/
 
 // Controlled by the parent so the "Before you go" rows exclude each other:
 // opening one closes the others, and all can be closed at once.
@@ -658,14 +777,42 @@ function AccordionRow({ label, value, open, onToggle }: { label: string; value: 
   return (
     <div className={styles.accordionRow}>
       <button type="button" className={styles.accordionButton} aria-expanded={open} onClick={onToggle}>
-        {label}
+        <span className={styles.pracLabelInline}>{pracIcon(label)}{label}</span>
         <span className={`${styles.accordionChevron}${open ? ` ${styles.open}` : ""}`} aria-hidden="true">
           ⌄
         </span>
       </button>
-      {open && <div className={styles.accordionPanel}>{value}</div>}
+      <Collapse open={open}>
+        <div className={styles.accordionPanel}>{value}</div>
+      </Collapse>
     </div>
   );
+}
+
+// Title of a plan card (2026-11-11, direct request: every card has a serif place name). The slot's own place when it
+// has one, else the named place the extractor finds in its sentence, else the sentence's first clause (a few words).
+function planCardTitle(slot: { place: string | null; text: string | null }): string {
+  if (slot.place) return slot.place;
+  const found = extractPlaceCandidate(slot.text);
+  if (found) return found;
+  const clause = (slot.text ?? "").split(/[,:;.]/)[0].trim().split(/\s+/).slice(0, 6).join(" ");
+  return clause || "";
+}
+
+// Icons for the Good to know card labels (2026-11-11, direct request). Matched on keywords in the label so a reworded
+// label still lands on the right icon; anything unrecognised gets a plain info icon.
+function pracIcon(label: string | null) {
+  const l = (label ?? "").toLowerCase();
+  const props = { size: 16, strokeWidth: 1.7, "aria-hidden": true as const };
+  if (/climate|weather|season/.test(l)) return <CloudSun {...props} />;
+  if (/arriv|airport|landing/.test(l)) return <PlaneLanding {...props} />;
+  if (/flight|fly/.test(l)) return <Plane {...props} />;
+  if (/health|safety|medical|vaccin/.test(l)) return <HeartPulse {...props} />;
+  if (/dining|food|eat|veg|jain/.test(l)) return <UtensilsCrossed {...props} />;
+  if (/getting around|transport|transit|taxi|metro/.test(l)) return <Car {...props} />;
+  if (/connect|wi-?fi|sim|internet|phone/.test(l)) return <Wifi {...props} />;
+  if (/money|currency|cash|tipping|cost/.test(l)) return <Wallet {...props} />;
+  return <Info {...props} />;
 }
 
 export default function CityPage() {
@@ -693,6 +840,45 @@ export default function CityPage() {
     [baseCity, engineGuide.guide]
   );
   const [mapReady, setMapReady] = useState(false);
+  // The Plan: a city listed in data/city-plans.json (lib/cityPlans.ts) shows that itinerary instead of the generated one.
+  // planReady holds the days back until that file has answered, so a city never flashes its old plan first.
+  const [planOverride, setPlanOverride] = useState<CityPlan | null>(null);
+  const [planReady, setPlanReady] = useState(false);
+  useEffect(() => {
+    let off = false;
+    setPlanOverride(null);
+    setPlanReady(false);
+    if (!slug) return;
+    loadCityPlan(slug).then((p) => {
+      if (off) return;
+      setPlanOverride(p);
+      setPlanReady(true);
+    });
+    return () => {
+      off = true;
+    };
+  }, [slug]);
+  // A plan card asked for a pin on the page's map: `from` is the card to scroll back to.
+  const [mapFocus, setMapFocus] = useState<{ name: string; nonce: number; from: string; venue?: CityMapVenue | null; back?: string } | null>(null);
+  const mapData = useCityMapData(slug ?? "");
+  const mapNames = useMemo(() => {
+    const key = (s: string) => s.toLowerCase().normalize("NFKD").replace(/[^a-z0-9]/g, "");
+    return { key, names: new Set((mapData?.venues ?? []).map((v) => key(v.n))) };
+  }, [mapData]);
+  // A guide card's location: the place on the page's own map (2026-11-17, direct request).
+  const openGuideOnMap = useCallback<OpenOnMap>((item, panelKey, fromId) => {
+    const name = item.name ?? "";
+    const pinned = item.lat != null && item.lng != null;
+    if (!name || (!pinned && !mapNames.names.has(mapNames.key(name)))) return false;
+    const cat = (["stay", "eat", "party", "do"].includes(panelKey) ? panelKey : "do") as CityMapVenue["cat"];
+    const venue: CityMapVenue | null = pinned
+      ? { n: name, cat, tier: "", a: item.area ?? "", d: item.blurb || item.description || "", lat: item.lat!, lon: item.lng!,
+          photos: item.photo ? [{ url: item.photo, alt: name, credit: null }] : [] }
+      : null;
+    setMapFocus({ name, nonce: Date.now(), from: fromId, venue, back: "Back to the guide" });
+    document.getElementById("city-map")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    return true;
+  }, [mapNames]);
   // What the loader waits for: only the hero photo — the first thing on
   // screen. Guide/grid photos further down load in as the page is read;
   // waiting for dozens of them is what kept the loader up (2026-10-09).
@@ -773,15 +959,15 @@ export default function CityPage() {
   // lib/planHighlights.ts): normal page scroll (not scroll-hijacked/sticky),
   // advanced by day-tab clicks or a 4s auto-advance timer — both just set
   // activeDayIndex, since there's no scroll-linkage to keep in sync.
-  const highlightSlots = useMemo(() => pickHighlightSlots(city?.plan.days ?? []), [city]);
-  const dayCount = city?.plan.days?.length ?? 0;
-  const [activeDayIndex, setActiveDayIndex] = useState(0);
-  const [planInView, setPlanInView] = useState(false);
-  // A new city starts on its first day, not the previous city's.
-  useEffect(() => {
-    setActiveDayIndex(0);
-    setEventsTabOpen(false);
-  }, [slug]);
+  //   const highlightSlots = useMemo(() => pickHighlightSlots(city?.plan.days ?? []), [city]);
+  //   const dayCount = city?.plan.days?.length ?? 0;
+  //   const [activeDayIndex, setActiveDayIndex] = useState(0);
+  //   const [planInView, setPlanInView] = useState(false);
+  //   // A new city starts on its first day, not the previous city's.
+  //   useEffect(() => {
+  //     setActiveDayIndex(0);
+  //     setEventsTabOpen(false);
+  //   }, [slug]);
   const planSectionRef = useRef<HTMLElement | null>(null);
 
   // The sticky map also switches to a single-pin view of whichever event
@@ -797,11 +983,11 @@ export default function CityPage() {
   // The "Events" tab after the last day: a static list (not part of the
   // day auto-cycle, not tied to any map) of the city's events in calendar
   // order. Absent when the city has none.
-  const [eventsTabOpen, setEventsTabOpen] = useState(false);
+  // const [eventsTabOpen, setEventsTabOpen] = useState(false); // Events is a Guide tab now (2026-11-11)
   // Stacked layout (<=900px, same breakpoint as the split in city-page.module.css):
   // no side map. Instead the map appears inline twice — before "Our take" and
   // before the day-wise planner in The plan.
-  const stacked = useIsMobile(900);
+  // const stacked = useIsMobile(900); // no longer needed: one map, in its own section (2026-11-11)
   const planEvents = useMemo(() => {
     const order = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
     const first = (ev: CityData["whatsOn"]["events"][number]) => {
@@ -811,10 +997,10 @@ export default function CityPage() {
     return [...(city?.whatsOn.events ?? [])].sort((a, b) => first(a) - first(b));
   }, [city]);
 
-  function selectPlanDay(dayIndex: number) {
-    setEventsTabOpen(false);
-    setActiveDayIndex(dayIndex);
-  }
+  // function selectPlanDay(dayIndex: number) { // the day tabs are gone (2026-11-11)
+  //   setEventsTabOpen(false);
+  //   setActiveDayIndex(dayIndex);
+  // }
 
   // The sticky map (to the right) still needs to know when the Plan section
   // itself has been scrolled to, so it can switch from the venue map to the
@@ -824,19 +1010,20 @@ export default function CityPage() {
   // than most viewports, so a plain "any pixel visible" trigger flipped this
   // true (and, worse, flipped Calendar's own observer false) well before the
   // user had actually scrolled to Plan — see the map-priority comment below.
-  useEffect(() => {
-    const el = planSectionRef.current;
-    if (!el) return;
-    const observer = new IntersectionObserver(([entry]) => setPlanInView(entry.isIntersecting), { threshold: 0.5 });
-    observer.observe(el);
-    return () => observer.disconnect();
-  }, []);
+  //   useEffect(() => {
+  //     const el = planSectionRef.current;
+  //     if (!el) return;
+  //     const observer = new IntersectionObserver(([entry]) => setPlanInView(entry.isIntersecting), { threshold: 0.5 });
+  //     observer.observe(el);
+  //     return () => observer.disconnect();
+  //   }, []);
 
-  useEffect(() => {
-    if (!planInView || eventsTabOpen || dayCount < 2) return;
-    const id = setTimeout(() => setActiveDayIndex((i) => (i + 1) % dayCount), 4000);
-    return () => clearTimeout(id);
-  }, [planInView, eventsTabOpen, dayCount, activeDayIndex]);
+  // Day auto-rotation removed with the day tabs (2026-11-11).
+  // useEffect(() => {
+  //   if (!planInView || eventsTabOpen || dayCount < 2) return;
+  //   const id = setTimeout(() => setActiveDayIndex((i) => (i + 1) % dayCount), 4000);
+  //   return () => clearTimeout(id);
+  // }, [planInView, eventsTabOpen, dayCount, activeDayIndex]);
 
   // Agra only, for now — live Places API (New) lookups for every slot in
   // the active day that has no coordinates on file, using each slot's own
@@ -851,11 +1038,12 @@ export default function CityPage() {
   // that cost, or after a scheduled backfill replaces live-fetch entirely.
   const LIVE_PLACES_TEST_CITIES = new Set(["abu-dhabi", "agra", "alleppey", "amalfi-coast", "amman-petra", "amritsar", "amsterdam", "andaman", "athens", "auckland", "bali", "bangkok", "barcelona", "bengaluru", "budapest", "buenos-aires", "cairo", "cancun", "cape-town", "cappadocia", "chennai", "colombo", "copenhagen", "cusco", "darjeeling", "delhi", "doha", "dubai", "dublin", "dubrovnik", "edinburgh", "florence", "galle", "geneva", "goa", "hanoi", "ho-chi-minh-city", "hoi-an", "hong-kong", "hyderabad", "istanbul", "jaipur", "jaisalmer", "jodhpur", "kathmandu", "kochi", "kolkata", "krabi", "kuala-lumpur", "kyoto", "lake-como", "langkawi", "las-vegas", "leh-ladakh", "lima", "lisbon", "london", "los-angeles", "madrid", "mahe-seychelles", "male-maldives", "manali", "marrakech", "mauritius-city", "melbourne", "mexico-city", "miami", "milan", "mumbai", "munich", "munnar", "muscat", "mykonos", "nairobi-mara", "new-york", "nice-riviera", "osaka", "paris", "paro", "phuket", "porto", "prague", "queenstown", "ranthambore", "reykjavik", "rio-de-janeiro", "rishikesh", "rome", "salzburg", "san-francisco", "santorini", "seoul", "shanghai", "shimla", "siem-reap", "singapore-city", "srinagar", "st-moritz", "sydney", "taipei", "tokyo", "toronto", "udaipur", "vancouver", "varanasi", "venice", "vienna", "zanzibar", "zermatt", "zurich"]);
   const isLivePlacesEnabledCity = city ? LIVE_PLACES_TEST_CITIES.has(city.slug) : false;
-  const planTargets = useMemo<PlanTarget[]>(
-    () => highlightSlots.map((slotIndex, dayIndex) => ({ dayIndex, slotIndex })).filter((t) => t.slotIndex >= 0),
-    [highlightSlots],
-  );
-  const agraLiveCoords = useAgraLivePlanCoords(isLivePlacesEnabledCity, city?.plan.days, planTargets, city?.hero.name || city?.slug || "");
+  // Live plan-coordinate lookups (Places API) removed: the Plan has no map any more (2026-11-11).
+  //   const planTargets = useMemo<PlanTarget[]>(
+  //     () => highlightSlots.map((slotIndex, dayIndex) => ({ dayIndex, slotIndex })).filter((t) => t.slotIndex >= 0),
+  //     [highlightSlots],
+  //   );
+  //   const agraLiveCoords = useAgraLivePlanCoords(isLivePlacesEnabledCity, city?.plan.days, planTargets, city?.hero.name || city?.slug || "");
   // const agraLiveEventLocations = useAgraLiveEventLocations(isLivePlacesEnabledCity, city?.whatsOn.events);
   // The engine's guide already chose each photo, checked to be the exact
   // place; a card it left without one shows the placeholder, not a live
@@ -869,53 +1057,55 @@ export default function CityPage() {
   // Each day's highlight, resolved: its coordinates come from the static
   // data when present, else from the live lookup (test cities) if it has
   // come back; photo likewise (static, else live, else a placeholder).
-  const cityPhotos = useMemo(
-    () => [city?.hero.image, city?.firstLook.heroImage, ...(city?.firstLook.grid ?? []).map((g) => g.image)].filter((u): u is string => !!u),
-    [city],
-  );
-  const dayHighlights = useMemo(
-    () =>
-      (city?.plan.days ?? []).map((day, dayIndex) => {
-        const slotIndex = highlightSlots[dayIndex] ?? -1;
-        const slot = slotIndex >= 0 ? day.slots[slotIndex] : undefined;
-        const liveResult = isLivePlacesEnabledCity && slotIndex >= 0 ? agraLiveCoords[`${dayIndex}-${slotIndex}`] : undefined;
-        const live = liveResult?.status === "success" ? liveResult : undefined;
-        const coord =
-          slot && typeof slot.lat === "number" && typeof slot.lon === "number"
-            ? { lat: slot.lat, lon: slot.lon }
-            : live
-              ? { lat: live.lat, lon: live.lon }
-              : null;
-        return {
-          dayIndex,
-          dayNumber: day.dayNumber ?? "",
-          label: slot?.label ?? "",
-          place: slot?.place ?? slot?.label ?? day.title ?? "",
-          text: slot?.text ?? null,
-          category: slot?.category ?? null,
-          // No photo of the place: none (no city photo, no placeholder).
-          photo: slot?.photo || live?.photoUrl || null,
-          coord,
-        };
-      }),
-    [city, cityPhotos, highlightSlots, isLivePlacesEnabledCity, agraLiveCoords],
-  );
+  //   const cityPhotos = useMemo(
+  //     () => [city?.hero.image, city?.firstLook.heroImage, ...(city?.firstLook.grid ?? []).map((g) => g.image)].filter((u): u is string => !!u),
+  //     [city],
+  //   );
+  // dayHighlights fed the Plan carousel and its route map; both are gone (2026-11-11).
+  //   const dayHighlights = useMemo(
+  //     () =>
+  //       (city?.plan.days ?? []).map((day, dayIndex) => {
+  //         const slotIndex = highlightSlots[dayIndex] ?? -1;
+  //         const slot = slotIndex >= 0 ? day.slots[slotIndex] : undefined;
+  //         const liveResult = isLivePlacesEnabledCity && slotIndex >= 0 ? agraLiveCoords[`${dayIndex}-${slotIndex}`] : undefined;
+  //         const live = liveResult?.status === "success" ? liveResult : undefined;
+  //         const coord =
+  //           slot && typeof slot.lat === "number" && typeof slot.lon === "number"
+  //             ? { lat: slot.lat, lon: slot.lon }
+  //             : live
+  //               ? { lat: live.lat, lon: live.lon }
+  //               : null;
+  //         return {
+  //           dayIndex,
+  //           dayNumber: day.dayNumber ?? "",
+  //           label: slot?.label ?? "",
+  //           place: slot?.place ?? slot?.label ?? day.title ?? "",
+  //           text: slot?.text ?? null,
+  //           category: slot?.category ?? null,
+  //           // No photo of the place: none (no city photo, no placeholder).
+  //           photo: slot?.photo || live?.photoUrl || null,
+  //           coord,
+  //         };
+  //       }),
+  //     [city, cityPhotos, highlightSlots, isLivePlacesEnabledCity, agraLiveCoords],
+  //   );
 
   // The sticky map shows the WHOLE route at once: one pin per day (the days
   // that have coordinates), joined in day order. The active day's pin and its
   // leg are what the map highlights.
-  const routeDays = useMemo(() => dayHighlights.filter((h) => h.coord), [dayHighlights]);
-  const planStops = useMemo<PlanStop[]>(
-    () => routeDays.map((h) => ({ lat: h.coord!.lat, lon: h.coord!.lon, dayNumber: h.dayNumber, label: h.label, place: h.place, category: h.category })),
-    [routeDays],
-  );
-  const activeStopIndex = routeDays.findIndex((h) => h.dayIndex === activeDayIndex);
+  // Plan route-map stops removed with the Plan's map (2026-11-11):
+  //   const routeDays = useMemo(() => dayHighlights.filter((h) => h.coord), [dayHighlights]);
+  //   const planStops = useMemo<PlanStop[]>(
+  //     () => routeDays.map((h) => ({ lat: h.coord!.lat, lon: h.coord!.lon, dayNumber: h.dayNumber, label: h.label, place: h.place, category: h.category })),
+  //     [routeDays],
+  //   );
+  //   const activeStopIndex = routeDays.findIndex((h) => h.dayIndex === activeDayIndex);
 
   useEffect(() => {
     if (city?.seo.title) document.title = city.seo.title;
   }, [city]);
 
-  useScrollReveal([city]);
+  useScrollReveal([city, planReady]);
 
   const tabLabels: Record<string, string> = useMemo(
     () => ({
@@ -923,6 +1113,7 @@ export default function CityPage() {
       do: "What to do",
       eat: "Where to eat",
       party: "Where the night goes",
+      events: "Events",
       map: "Map",
     }),
     []
@@ -934,8 +1125,33 @@ export default function CityPage() {
     return <NotFoundPage />;
   }
 
-  const { hero, ourTake, firstLook, whenToGo, guide, plan, neighbourhoods, goodToKnow, closing } =
+  const { hero, ourTake, whenToGo, guide, plan, neighbourhoods, goodToKnow, closing } =
     city;
+
+  // The Plan's days: the city's own itinerary when city-plans.json has one, else the generated plan (first four days).
+  const planDays = planOverride
+    ? planOverride.days.map((d, i) => ({
+        dayNumber: `Day ${i + 1}`,
+        title: d.title,
+        slots: d.slots.map((s) => ({ label: s.label, title: s.title, text: s.text, food: s.food, venue: s.venue, photo: s.photo })),
+      }))
+    : plan.days.slice(0, 4).map((day) => ({
+        dayNumber: day.dayNumber,
+        title: day.title,
+        slots: day.slots.map((s) => ({ label: s.label, title: planCardTitle(s), text: s.text, food: null as string | null, venue: null as string | null, photo: s.photo })),
+      }));
+  const planHeading = planOverride && plan.heading ? plan.heading.replace(/^\d+/, String(planOverride.days.length)) : plan.heading;
+
+  function openOnMap(venue: string, fromId: string) {
+    setMapFocus({ name: venue, nonce: Date.now(), from: fromId });
+    document.getElementById("city-map")?.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+  function backToPlan() {
+    const from = mapFocus?.from;
+    setMapFocus(null);
+    if (from) document.getElementById(from)?.scrollIntoView({ behavior: "smooth", block: "center" });
+    else planSectionRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
 
   // Phone: "On the ground" and "Where to base yourself" are two dropdowns that
   // exclude each other — opening one closes the other, and both can be closed.
@@ -947,11 +1163,12 @@ export default function CityPage() {
   const [openBeforeRows, setOpenBeforeRows] = useState<Set<number>>(new Set());
   const toggleBeforeRow = (i: number) =>
     setOpenBeforeRows((cur) => {
-      if (isPhone) return cur.has(i) ? new Set() : new Set([i]);
-      const next = new Set(cur);
-      if (next.has(i)) next.delete(i);
-      else next.add(i);
-      return next;
+      // One open at a time on every screen size (2026-11-16, direct request); was: any number open on desktop.
+      return cur.has(i) ? new Set() : new Set([i]);
+      // const next = new Set(cur);
+      // if (next.has(i)) next.delete(i);
+      // else next.add(i);
+      // return next;
     });
   const togglePrac = (k: "ground" | "base") => setOpenPrac((cur) => (cur === k ? null : k));
   const pracChevron = (open: boolean) => (
@@ -964,7 +1181,7 @@ export default function CityPage() {
       <div className={styles.cardGrid}>
         {goodToKnow.onGround.rows.map((r, i) => (
           <div className={styles.pracCard} key={i}>
-            <div className="eyebrow">{r.label}</div>
+            <div className={`eyebrow ${styles.pracLabel}`}>{pracIcon(r.label)}{r.label}</div>
             {r.keyword && <div className={styles.cardKeyword}>{r.keyword}</div>}
             {r.value && <p className={styles.cardDesc}>{r.value}</p>}
           </div>
@@ -1051,13 +1268,18 @@ export default function CityPage() {
         </div>
       </header>
 
-      <div className={styles.taSplit}>
-      <div className={styles.taSplitInfo}>
+      {/* New order (2026-11-11, direct request): When to go, Our take (moved up 2026-11-16, direct request), The guide, The plan, Map, Good to know.
+          The first-look photo strip (.ta-look) is dropped; the old split layout (info column beside a sticky map) is gone. */}
+      <CalendarSection
+        whenToGo={whenToGo}
+        slug={slug ?? ""}
+        climate={goodToKnow.beforeYouGo.rows.find((r) => /^climate/i.test(r.label ?? ""))?.value ?? null}
+      />
 
-      {(() => {
-        const take = (
-        <section className="band ta-content ta-take">
-          <div className="reveal" style={{ maxWidth: "60ch" }}>
+      {/* "Our take" now sits right under "When to go" (2026-11-16, direct request). */}
+        <section className="band tight ta-take">
+      <div className={`wrap ${styles.taSolo}`}>
+          <div className="reveal" style={{ maxWidth: "none" }}>
             <div className="eyebrow">Our take</div>
             <div className="rule" />
             <p className="lede">{ourTake.lede}</p>
@@ -1078,145 +1300,8 @@ export default function CityPage() {
               <p>{ourTake.skipIf}</p>
             </div>
           </div>
+          </div>
         </section>
-        );
-        // Stacked (phone): the city map and "Our take" form one first screen —
-        // the map flexes to whatever height is left so both fit in the viewport.
-        return stacked ? (
-          <div className={styles.taFirstScreen}>
-            <div className={styles.taInlineMap}>
-              <CityMap slug={city.slug} livePlacesEnabled={isLivePlacesEnabledCity} />
-            </div>
-            {take}
-          </div>
-        ) : (
-          take
-        );
-      })()}
-
-      <section className={styles.taLook}>
-        <div className={`${styles.taLookHero} reveal-clip`} style={{ backgroundImage: `url('${firstLook.heroImage}')` }}>
-          <div className={styles.taLookCap}>
-            <span>{firstLook.heroCaption}</span>
-          </div>
-        </div>
-      </section>
-
-      <CalendarSection whenToGo={whenToGo} />
-
-      <section className="band ta-content ta-itin" ref={planSectionRef}>
-        <div className={styles.planIntro}>
-          <div className="reveal" style={{ marginBottom: 26, maxWidth: "58ch" }}>
-            <div className="eyebrow">The plan</div>
-            <div className="rule" />
-            <h2 style={{ fontSize: "28px" }}>{plan.heading}</h2>
-            <p className="lede" style={{ marginTop: 14, fontSize: 16 }}>
-              {plan.lede}
-            </p>
-          </div>
-          {stacked && planStops.length > 1 && (
-            <div className={`${styles.taInlineMap} ${styles.taPlanMap}`}>
-              <PlanRouteMap stops={planStops} activeIndex={activeStopIndex} />
-            </div>
-          )}
-          {dayHighlights[activeDayIndex] && (
-            <PlanCarousel
-              days={plan.days}
-              activeDayIndex={activeDayIndex}
-              highlight={dayHighlights[activeDayIndex]}
-              onSelectDay={selectPlanDay}
-              events={planEvents}
-              eventsActive={eventsTabOpen}
-              onSelectEvents={() => setEventsTabOpen(true)}
-            />
-          )}
-          {plan.cta && (
-            <div className={`reveal d2 ${styles.planCtaWrap}`} style={{ marginTop: 20 }}>
-              <Link className={`btn btn-gold btn-square ${styles.planCta}`} to={toRoute(plan.cta.href)}>
-                <span className={styles.planCtaLabel}>
-                  {withTaraAI(plan.cta.label)}
-                  <span className={styles.planCtaArrow} aria-hidden="true">
-                    →
-                  </span>
-                </span>
-              </Link>
-            </div>
-          )}
-        </div>
-      </section>
-
-      </div>
-
-      {!stacked && (
-      <div className={styles.taSplitMap}>
-        {planInView && !eventsTabOpen ? (
-          // Checked ahead of the calendar's own EventMap below: Plan sits
-          // right under the Calendar section, and planInView only goes true
-          // once 50%+ of Plan is actually on screen (see its observer's own
-          // comment) — by then the user has genuinely moved on, so Plan
-          // should win even if Calendar's own observer hasn't flipped false
-          // yet (its threshold is a plain "any pixel visible").
-          planStops.length > 1 ? (
-            <PlanRouteMap stops={planStops} activeIndex={activeStopIndex} />
-          ) : (
-            // Deliberately NOT a silent fallback to CityMap — that used to
-            // make missing per-city plan-coordinate data invisible (looked
-            // "fine", just showed the generic venue map instead of the
-            // route). This section is supposed to show PlanRouteMap; if it
-            // can't, that should be obvious to whoever's wiring up data for
-            // a new city, not something that quietly degrades.
-            <MapDataMissing reason="fewer than 2 plan days have a highlight with coordinates for this city: PlanRouteMap needs at least 2 (see CityDay in types/city.ts)." />
-          )
-        ) : /* EventMap branch commented out — When-to-go reuses the first section's CityMap
-        calendarInView ? (
-          (() => {
-            if (!calendarActiveEvent) {
-              return (
-                <MapDataMissing reason="No event is currently selectable — check that whatsOn.events[].months is populated for this city." />
-              );
-            }
-            if (calendarActiveEvent.location) {
-              return (
-                <EventMap
-                  point={{
-                    lat: calendarActiveEvent.location.lat,
-                    lon: calendarActiveEvent.location.lon,
-                    name: calendarActiveEvent.name ?? calendarActiveEvent.location.label,
-                    photo: calendarActiveEvent.photo ?? undefined,
-                  }}
-                />
-              );
-            }
-            // Agra only — a live Places lookup, keyed by the event's own
-            // name, for events with no location on file. Citywide events
-            // with no single venue (e.g. "Ram Barat") are expected to
-            // correctly stay unresolved here, same "skip rather than
-            // guess" reasoning as the plan-slot lookups above.
-            const live = isLivePlacesEnabledCity ? agraLiveEventLocations[calendarActiveEvent.name ?? ""] : undefined;
-            if (live?.status === "success") {
-              return (
-                <EventMap
-                  point={{
-                    lat: live.lat,
-                    lon: live.lon,
-                    name: calendarActiveEvent.name ?? live.placeName,
-                    photo: live.photoUrl,
-                  }}
-                />
-              );
-            }
-            // Same reasoning as the Plan case above — surfaced instead of
-            // silently showing CityMap.
-            return (
-              <MapDataMissing reason="This event has no location set — whatsOn.events[].location is required for EventMap (see types/city.ts)." />
-            );
-          })()
-        ) : */ (
-          <CityMap slug={city.slug} livePlacesEnabled={isLivePlacesEnabledCity} onReady={() => setMapReady(true)} />
-        )}
-      </div>
-      )}
-      </div>
 
       {/* "The guide" (#stay) lands with the eyebrow near the top of the screen.
           Desktop anchors on the heading block itself: anchoring on the section
@@ -1243,7 +1328,24 @@ export default function CityPage() {
           </div>
           <div className="cg-guide reveal d1">
             {(() => {
-              const panels = orderedPanels(guide.panels ?? []);
+              // "Events" is the last tab (2026-11-11, direct request; it used to be a tab in The plan): a synthetic panel
+              // built from whatsOn.events, shown as Guide cards. A missing photo falls back to the city's hero image.
+              const eventsPanel = {
+                key: "events",
+                tiers: [
+                  {
+                    label: null,
+                    items: planEvents.map((e) => ({
+                      name: e.name,
+                      area: null,
+                      credentials: e.when ? [e.when] : [],
+                      description: e.note,
+                      photo: e.photo || hero.image || placeholderPhoto(e.name ?? "event"),
+                    })),
+                  },
+                ],
+              } as unknown as CityGuidePanel;
+              const panels = [...orderedPanels(guide.panels ?? []), ...(planEvents.length ? [eventsPanel] : [])];
               const activePanel = panels.find((p) => p.key === activeTab);
               const activeLabelledTiers = activePanel?.tiers.filter((t) => t.label) ?? [];
               const activeSelectedTier =
@@ -1300,6 +1402,7 @@ export default function CityPage() {
                       </div>
                     )}
                   </div>
+                  <GuideMap.Provider value={openGuideOnMap}>
                   <div ref={guideListRef}>
                     {panels.map((p) => (
                       <div key={p.key} style={{ display: activeTab === p.key ? undefined : "none" }}>
@@ -1315,6 +1418,7 @@ export default function CityPage() {
                       </div>
                     ))}
                   </div>
+                  </GuideMap.Provider>
                 </div>
                 {/* Restores the 520px this section's own height "lost" above,
                     so nothing after the guide (Neighbourhoods, etc.) shifts
@@ -1324,6 +1428,126 @@ export default function CityPage() {
                 </>
               );
             })()}
+          </div>
+        </div>
+      </section>
+
+      <section className="band tight ta-itin" ref={planSectionRef}>
+      <div className={`wrap ${styles.taSolo}`}>
+        <div className={styles.planIntro}>
+          {/* The CTA sits beside the intro (2026-11-11, direct request); it used to follow the day rows. */}
+          {/* The eyebrow and rule scroll away normally; only the heading, intro and button below are sticky. */}
+          <div className="reveal">
+            <div className="eyebrow">The plan</div>
+            <div className="rule" />
+          </div>
+          <div className={styles.planHead}>
+          <div className="reveal" style={{ minWidth: 0 }}>
+            <h2 style={{ fontSize: "36px", fontWeight: 700, fontVariantNumeric: "lining-nums", color: "var(--signature)" }}>{planHeading && planHeading.endsWith("done well") ? (
+                <>
+                  {planHeading.slice(0, -"done well".length)}
+                  <span style={{ color: "var(--ink)" }}>done well</span>
+                </>
+              ) : (
+                planHeading
+              )}
+            </h2>
+            <p className={`lede ${styles.planLede}`} style={{ marginTop: 8, fontSize: 14, maxWidth: "none" }}>
+              {plan.lede}
+            </p>
+          </div>
+            {plan.cta && (
+              <div className={`reveal d2 ${styles.planCtaWrap}`} >
+                <Link className={`btn btn-gold btn-square ${styles.planCta}`} to={toRoute(plan.cta.href)} data-tara-chat>
+                  <span className={styles.planCtaLabel}>
+                    {plan.cta.label}
+                    {/* Hover arrow removed (2026-11-16, direct request):
+                    <span className={styles.planCtaArrow} aria-hidden="true">
+                      →
+                    </span> */}
+                  </span>
+                </Link>
+              </div>
+            )}
+          </div>
+          {/* A fixed 4-day itinerary (2026-11-11, direct request): one row per day, three cards (morning, afternoon,
+              evening) in each. Guide-card structure, no tags, no hover. Was the day-tab PlanCarousel with an Events tab. */}
+          <div className={styles.planDays}>
+            {planReady && planDays.map((day, di) => (
+              <div className={`${styles.planDay} reveal`} key={di}>
+                <div className={styles.planDayHead}>
+                  {/* "Day 1" is part of the title now (2026-11-16, direct request): was a separate eyebrow above it.
+                  {day.dayNumber && <div className="eyebrow">{day.dayNumber}</div>} */}
+                  {(day.dayNumber || day.title) && (
+                    <h3 title={[day.dayNumber, day.title].filter(Boolean).join(": ")}>{[day.dayNumber, day.title].filter(Boolean).join(": ")}</h3>
+                  )}
+                </div>
+                <div className={styles.planRow}>
+                  {day.slots.map((slot, si) => {
+                    const cardId = `plan-card-${di}-${si}`;
+                    const venue = slot.venue;
+                    return (
+                      <div className={styles.planCard} key={si} id={cardId}>
+                        <div className={styles.planPhoto} data-fly-box>
+                          <img src={slot.photo || hero.image || placeholderPhoto(`${day.dayNumber}-${slot.label}`)} alt="" loading="lazy" />
+                          <PlanAddButton
+                              slug={city.slug}
+                              cityLabel={hero.name ?? city.slug}
+                              item={{ ref: `${city.slug}:plan:d${di + 1}-${si + 1}`, title: slot.title ?? "", photo: slot.photo || null, day: di + 1, slot: planSlotOf(slot.label, si) }}
+                            />
+                        </div>
+                        <div className={styles.planBody}>
+                          {slot.label && <div className="eyebrow">{slot.label}</div>}
+                          <h4 className={styles.planPlace} title={slot.title}>
+                            {venue ? (
+                              <button type="button" className={styles.planPlaceLink} onClick={() => openOnMap(venue, cardId)}>
+                                {slot.title}
+                              </button>
+                            ) : (
+                              slot.title
+                            )}
+                          </h4>
+                          <p>{slot.food ? `${slot.text} ${slot.food}` : slot.text}</p>
+                          <div className={styles.planFoot}>
+                            {venue && (
+                              <button type="button" className={styles.planMapLink} onClick={() => openOnMap(venue, cardId)}>
+                                View on the map <span aria-hidden="true">↓</span>
+                              </button>
+                            )}
+                          </div>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+        </div>
+      </section>
+
+      {/* Map: the only map on the city page, in its own full-width section (2026-11-11, direct request).
+          The Plan no longer has a route map, and "Our take" no longer has the inline/sticky one. */}
+      <section className="band tight ta-map-section">
+        <div className="wrap">
+          <div className="reveal" style={{ maxWidth: "58ch", marginBottom: 26 }}>
+            <div className="eyebrow">The map</div>
+            <div className="rule" />
+            <h2 style={{ fontSize: "28px" }}>Find your way around {hero.name}</h2>
+            <p className="lede" style={{ marginTop: 14, fontSize: 16 }}>
+              Stays, sights and places to eat, pinned in one view.
+            </p>
+          </div>
+          <div id="city-map" className={styles.mapAnchor}>
+            {mapFocus && (
+              <button type="button" className={styles.backToPlan} onClick={backToPlan}>
+                <span aria-hidden="true">↑</span> {mapFocus.back ?? "Back to The Plan"}
+              </button>
+            )}
+            <div className={`${styles.taMapBox} reveal d1`}>
+              <CityMap slug={city.slug} livePlacesEnabled={isLivePlacesEnabledCity} onReady={() => setMapReady(true)} focus={mapFocus} />
+            </div>
           </div>
         </div>
       </section>
@@ -1338,9 +1562,12 @@ export default function CityPage() {
           <div className={`${styles.pracSection} reveal d1`}>
             <h3 className={styles.pracHeading}>{goodToKnow.beforeYouGo.heading}</h3>
             <div className={styles.accordionList}>
-              {goodToKnow.beforeYouGo.rows.map((r, i) => (
-                <AccordionRow key={i} label={r.label} value={r.value} open={openBeforeRows.has(i)} onToggle={() => toggleBeforeRow(i)} />
-              ))}
+              {/* Climate now shows in the When to go card (2026-11-16, direct request); index kept so open/close still lines up. */}
+              {goodToKnow.beforeYouGo.rows.map((r, i) =>
+                /^climate/i.test(r.label ?? "") ? null : (
+                  <AccordionRow key={i} label={r.label} value={r.value} open={openBeforeRows.has(i)} onToggle={() => toggleBeforeRow(i)} />
+                ),
+              )}
             </div>
           </div>
 
@@ -1351,7 +1578,9 @@ export default function CityPage() {
                   {goodToKnow.onGround.heading}
                   {pracChevron(openPrac === "ground")}
                 </button>
-                {openPrac === "ground" && <div className={styles.pracDrop}>{groundBody}</div>}
+                <Collapse open={openPrac === "ground"}>
+                  <div className={styles.pracDrop}>{groundBody}</div>
+                </Collapse>
               </div>
             ) : (
               <>
@@ -1368,7 +1597,9 @@ export default function CityPage() {
                   {neighbourhoods.heading}
                   {pracChevron(openPrac === "base")}
                 </button>
-                {openPrac === "base" && <div className={styles.pracDrop}>{baseBody}</div>}
+                <Collapse open={openPrac === "base"}>
+                  <div className={styles.pracDrop}>{baseBody}</div>
+                </Collapse>
               </div>
             ) : (
               <>
@@ -1419,16 +1650,18 @@ export default function CityPage() {
 
             dangerouslySetInnerHTML={{ __html: closing.headingHtml ?? "" }}
           />
-          <p className="lede on-dark reveal d2" style={{ margin: "18px auto 28px" }}>
+          <p className="lede on-dark reveal d2" style={{ margin: "18px auto 28px", maxWidth: "none" }}>
             {closing.lede}
           </p>
           {closing.ctaPrimary && (
             <div className="btn-row center reveal d3">
-              <PrimaryInverseButton to={closing.ctaPrimary.href}>{withTaraAI(closing.ctaPrimary.label)}</PrimaryInverseButton>
+              {/* Label no longer says "Tara AI"; ariaLabel keeps it opening the chat (lib/taraChat.ts matches the label or aria-label). */}
+              <PrimaryInverseButton to={closing.ctaPrimary.href} ariaLabel="Speak with Tara AI">{closing.ctaPrimary.label}</PrimaryInverseButton>
             </div>
           )}
         </div>
       </section>
+      <TripBar citySlug={city.slug} />
     </>
   );
 }

@@ -930,8 +930,8 @@
       "tier": "",
       "a": "Upper East Side",
       "d": "A steel baron's Fifth Avenue mansion hung with Vermeer, Rembrandt and Bellini: reopened April 2025 after a $220m restoration that finally opened the family's upstairs rooms to the public; the most civilised hour of art in the city.",
-      "lat": 40.771583,
-      "lon": -73.956577,
+      "lat": 40.771259,
+      "lon": -73.967168,
       "photos": []
     },
     {
@@ -1552,6 +1552,76 @@
       "d": "Drinks and skyline views by the Brooklyn Bridge: the river breeze on a summer night.",
       "lat": 40.580825,
       "lon": -74.154227,
+      "photos": []
+    },
+    {
+      "n": "Jacqueline Kennedy Onassis Reservoir",
+      "cat": "do",
+      "tier": "",
+      "a": "Central Park / Upper East Side",
+      "d": "The 1.58-mile loop where locals run, with skyline overlooks and resident herons and coots.",
+      "lat": 40.785451,
+      "lon": -73.96261,
+      "photos": []
+    },
+    {
+      "n": "The Jazz Club at Aman New York",
+      "cat": "party",
+      "tier": "",
+      "a": "Midtown / Fifth Avenue",
+      "d": "Grammy-winning bassists and young powerhouse vocalists in a chic room, with a DJ set to follow.",
+      "lat": 40.7625,
+      "lon": -73.9733,
+      "photos": []
+    },
+    {
+      "n": "Three Lives & Company",
+      "cat": "do",
+      "tier": "",
+      "a": "West Village",
+      "d": "The neighbourhood's indie bookstore and touchstone, with a great travel-book section.",
+      "lat": 40.734363,
+      "lon": -74.001526,
+      "photos": []
+    },
+    {
+      "n": "Comedy Cellar",
+      "cat": "party",
+      "tier": "",
+      "a": "Greenwich Village",
+      "d": "Top-talent stand-up on MacDougal Street, a short walk from Little Branch and the Village Vanguard.",
+      "lat": 40.730194,
+      "lon": -74.000565,
+      "photos": []
+    },
+    {
+      "n": "Books Are Magic",
+      "cat": "do",
+      "tier": "",
+      "a": "Carroll Gardens",
+      "d": "Novelist Emma Straub's bookshop on Smith Street, enough to fill a morning on its own.",
+      "lat": 40.684033,
+      "lon": -73.992148,
+      "photos": []
+    },
+    {
+      "n": "Cobble Hill Cinemas",
+      "cat": "do",
+      "tier": "",
+      "a": "Cobble Hill",
+      "d": "A neighbourhood cinema that opened in the 1920s as the Lido.",
+      "lat": 40.684848,
+      "lon": -73.994381,
+      "photos": []
+    },
+    {
+      "n": "Public Records",
+      "cat": "party",
+      "tier": "",
+      "a": "Gowanus",
+      "d": "A repurposed warehouse with a hi-fi listening bar, a vegan caf\u00e9 by day and a nightclub.",
+      "lat": 40.682101,
+      "lon": -73.986522,
       "photos": []
     }
   ]

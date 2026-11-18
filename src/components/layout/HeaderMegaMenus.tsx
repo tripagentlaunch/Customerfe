@@ -120,10 +120,10 @@ export function ExploreMega({ onClose }: { onClose?: () => void }) {
           <ExploreGroup
             label="Plan"
             items={[
-              ["When to Go", "when-to-go.html"],
+              ["When to Go", "whats-on.html"],
               ["Where to Go", "where-to-go.html"],
               ["Build your Trip", "trip.html"],
-              ["Calendar", "whats-on.html"],
+              // ["Calendar", "whats-on.html"], // removed 2026-11-13, direct request ("When to Go" opens the same page)
               ["Days", "days.html"],
             ]}
           />
@@ -155,7 +155,7 @@ export function DiscoverMega() {
           label="Also"
           items={[
             ["All 110+ cities", "destinations.html"],
-            ["When to go", "when-to-go.html"],
+            ["When to go", "whats-on.html"],
             ["Collections", "collections.html"],
             ["The Journal", "journal.html"],
           ]}
@@ -186,7 +186,7 @@ export function PlanMega() {
           items={[
             ["Where to go", "where-to-go.html"],
             ["Compare", "compare.html"],
-            ["When to go", "when-to-go.html"],
+            ["When to go", "whats-on.html"],
             ["Days", "days.html"],
           ]}
         />

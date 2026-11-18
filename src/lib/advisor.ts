@@ -71,7 +71,12 @@ export function useTripHandoffHref(summary: TripSummary | null): AdvisorLink {
   const whatsappNumber = useWhatsAppNumber();
   if (!summary) return fallback;
   if (whatsappNumber) {
-    const legs = summary.legs.map((l) => `${titleCase(l.city)}: ${l.nights || 0} night${(l.nights || 0) === 1 ? "" : "s"}`).join(", ");
+    const legs = summary.legs
+      .map((l) => {
+        const picks = (l.items ?? []).map((i) => i.title).slice(0, 8);
+        return `${titleCase(l.city)}: ${l.nights || 0} day${(l.nights || 0) === 1 ? "" : "s"}${picks.length ? ` (${picks.join(", ")})` : ""}`;
+      })
+      .join("; ");
     const msg = `Hello, here is the trip I have been building${summary.name ? ` (${summary.name})` : ""}: ${legs}. Could my advisor take it from here?`;
     return { href: `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(msg)}`, external: true };
   }

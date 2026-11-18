@@ -39,10 +39,10 @@ const WhereToGoPage = lazy(() => import("./WhereToGoPage"));
 const DestinationsIndexPage = lazy(() => import("./DestinationsIndexPage"));
 const FlightsPage = lazy(() => import("./FlightsPage"));
 const HotelsPage = lazy(() => import("./HotelsPage"));
-const VisaGuidesPage = lazy(() => import("./VisaGuidesPage"));
+// const VisaGuidesPage = lazy(() => import("./VisaGuidesPage")); // page removed 2026-11-13: its content moved into /visas
 const VisasPage = lazy(() => import("./VisasPage"));
-const FlightGuidesPage = lazy(() => import("./FlightGuidesPage"));
-const StayGuidesPage = lazy(() => import("./StayGuidesPage"));
+// const FlightGuidesPage = lazy(() => import("./FlightGuidesPage")); // page removed 2026-11-13: its content moved into /flights
+// const StayGuidesPage = lazy(() => import("./StayGuidesPage")); // page removed 2026-11-13: its content moved into /hotels
 const PointsPage = lazy(() => import("./PointsPage"));
 const BusinessVsFirstPage = lazy(() => import("./BusinessVsFirstPage"));
 const CabinGuidePage = lazy(() => import("./CabinGuidePage"));
@@ -89,7 +89,7 @@ const HomePage = lazy(() => import("./HomePage"));
 // honeymoon-stays->honeymoon). Checked first since e.g. "destination-"
 // stubs would otherwise be swallowed by the destination-page dispatch
 // below. See tools/extract_redirects.py.
-const REDIRECTS = redirects as unknown as Record<string, string>;
+const REDIRECTS = { ...(redirects as unknown as Record<string, string>), "flight-guides": "flights", "stay-guides": "hotels", "visa-guides": "visas" } as Record<string, string>;
 
 const HEALTH_PREFIXES = [
   "health-hospital-",
@@ -157,9 +157,9 @@ const EXACT_SLUG_PAGES: Record<string, () => JSX.Element> = {
   flights: () => <FlightsPage />,
   hotels: () => <HotelsPage />,
   visas: () => <VisasPage />,
-  "visa-guides": () => <VisaGuidesPage />,
-  "flight-guides": () => <FlightGuidesPage />,
-  "stay-guides": () => <StayGuidesPage />,
+  // "visa-guides": () => <VisaGuidesPage />, // removed 2026-11-13 (redirects to /visas below)
+  // "flight-guides": () => <FlightGuidesPage />, // removed 2026-11-13 (redirects to /flights below)
+  // "stay-guides": () => <StayGuidesPage />, // removed 2026-11-13 (redirects to /hotels below)
   points: () => <PointsPage />,
   // Standalone-page batch E: business-vs-first/cabin-guide/villa-or-hotel
   // are each bespoke; suites-worth-it/the-right-room/hotel-programmes share

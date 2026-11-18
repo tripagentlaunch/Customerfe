@@ -673,6 +673,26 @@
       "lat": 12.979411,
       "lon": 77.640628,
       "photos": []
+    },
+    {
+      "n": "KR Market",
+      "cat": "do",
+      "tier": "",
+      "a": "Flowers, gardens and Church Street",
+      "d": "Wake at 4.30 or 5 a.m.",
+      "lat": 12.96413,
+      "lon": 77.577624,
+      "photos": []
+    },
+    {
+      "n": "Malleshwaram",
+      "cat": "do",
+      "tier": "",
+      "a": "Old Bengaluru",
+      "d": "Old Bengaluru in textbook form: conservancy lanes, trees, and a street art trail called Malleshwaram Hogona.",
+      "lat": 13.007612,
+      "lon": 77.56469,
+      "photos": []
     }
   ]
 }

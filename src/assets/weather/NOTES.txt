@@ -1,0 +1,3 @@
+Weather icons: Meteocons "line" set by Bas Milius (MIT, see LICENSE-meteocons.txt), https://meteocons.com
+Cloud outlines were darkened (#E2E8F0/#E6EFFC -> slate) so they read on a white card; otherwise unmodified.
+One file per WeatherKind (sunny.svg, heavy-rain.svg, ...). Source package: @meteocons/svg-static (line/), which has ~500 more.

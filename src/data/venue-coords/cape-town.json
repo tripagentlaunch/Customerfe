@@ -693,6 +693,56 @@
       "lat": -33.921444,
       "lon": 18.420261,
       "photos": []
+    },
+    {
+      "n": "Castle of Good Hope",
+      "cat": "do",
+      "tier": "",
+      "a": "History",
+      "d": "A sprawling 17th-century site near the shoreline of Table Bay.",
+      "lat": -33.925851,
+      "lon": 18.426726,
+      "photos": []
+    },
+    {
+      "n": "District Six Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "History",
+      "d": "Tells the story of District Six, a vibrant, mixed-race community.",
+      "lat": -33.927816,
+      "lon": 18.423752,
+      "photos": []
+    },
+    {
+      "n": "Camps Bay Beach",
+      "cat": "do",
+      "tier": "",
+      "a": "Island and beach",
+      "d": "Cape Town's party beach: a long stretch of white sand bordered by a promenade.",
+      "lat": -33.950909,
+      "lon": 18.377722,
+      "photos": []
+    },
+    {
+      "n": "Iziko South African Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Art and museums",
+      "d": "Home to thousands of interesting artifacts.",
+      "lat": -33.928903,
+      "lon": 18.414918,
+      "photos": []
+    },
+    {
+      "n": "Norval Foundation",
+      "cat": "do",
+      "tier": "",
+      "a": "Art and museums",
+      "d": "The most buzzed-about art center to open in Cape Town in years.",
+      "lat": -34.076476,
+      "lon": 18.428906,
+      "photos": []
     }
   ]
 }

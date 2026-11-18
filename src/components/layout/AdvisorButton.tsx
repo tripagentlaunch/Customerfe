@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import { useAdvisorHref } from "../../lib/advisor";
 import { useIsMobile } from "../../hooks/useIsMobile";
-import { TaraAI } from "../TaraAI";
+// import { TaraAI } from "../TaraAI"; // unused since the label became "Chat with us"
 
 // Ported from js/site.js's EXPERT HANDOFF block — the fixed, page-context-
 // aware floating "Talk to your advisor" button, present on (almost) every
@@ -110,7 +110,8 @@ export function AdvisorButton() {
           <path d="M21 11.5a8.5 8.5 0 0 1-12.4 7.5L3 20l1.1-5.4A8.5 8.5 0 1 1 21 11.5z" />
         </svg>
         <span className="ta-advisor-label">
-          Talk to <TaraAI />
+          {/* Was: Talk to <TaraAI />. The aria-label above keeps it a Tara CTA. */}
+          Chat with us
         </span>
       </span>
     </a>

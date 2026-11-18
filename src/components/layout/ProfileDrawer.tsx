@@ -79,8 +79,7 @@ export function ProfileDrawer() {
           <Link className="ta-prof-link" to="/refer" onClick={close}>
             Refer a friend
           </Link>
-          {/* The floating theme switch is hidden on phones; this is where dark
-              mode lives there (and a second way to reach it everywhere else). */}
+          {/* Dark mode lives here now (2026-11-13): the floating bottom-left switch was removed. */}
           <button type="button" className="ta-prof-link ta-prof-theme" onClick={() => setTheme(theme === "dark" ? "ivory" : "dark")}>
             {theme === "dark" ? "Light mode" : "Dark mode"}
           </button>

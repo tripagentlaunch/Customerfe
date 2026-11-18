@@ -1063,6 +1063,46 @@
       "lat": -33.861292,
       "lon": 151.206592,
       "photos": []
+    },
+    {
+      "n": "Golden Age Cinema and Bar",
+      "cat": "party",
+      "tier": "",
+      "a": "The harbour",
+      "d": "A retro-chic, glamorous, intimate cinema with a handy watering hole attached.",
+      "lat": -33.879463,
+      "lon": 151.211107,
+      "photos": []
+    },
+    {
+      "n": "Brett Whiteley Studio",
+      "cat": "do",
+      "tier": "",
+      "a": "Beach, studio and waterfront",
+      "d": "The home and studio of the late Brett Whiteley, one of Australia's most talented contemporary artists.",
+      "lat": -33.888674,
+      "lon": 151.214587,
+      "photos": []
+    },
+    {
+      "n": "The Newport",
+      "cat": "party",
+      "tier": "",
+      "a": "Beach, studio and waterfront",
+      "d": "An iconic coastal gastropub with a stylish waterfront terrace, cocktails, bubbles and ros\u00e9.",
+      "lat": -33.660233,
+      "lon": 151.309079,
+      "photos": []
+    },
+    {
+      "n": "Rising Sun Workshop",
+      "cat": "do",
+      "tier": "",
+      "a": "Surry Hills",
+      "d": "A motorcycle workshop meets cafe, with local brews and Asian savouries for bike fans and foodies.",
+      "lat": -33.896138,
+      "lon": 151.181805,
+      "photos": []
     }
   ]
 }

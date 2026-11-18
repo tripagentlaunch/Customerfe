@@ -5,8 +5,8 @@
   },
   "hero": {
     "back": {
-      "label": "\u2190 Stay Intelligence",
-      "href": "stay-guides.html"
+      "label": "Hotels",
+      "href": "hotels.html"
     },
     "eyebrow": "Stay guide \u00b7 villa vs. hotel",
     "headingHtml": "A villa, or<br/>a <span class=\"it\">hotel</span>?",
@@ -14,7 +14,7 @@
     "image": "/_vercel/image?url=%2Fimg%2Fh%2Fvilla-or-hotel.jpg&w=2560&q=80",
     "ctaGold": {
       "label": "Plan a trip",
-      "href": "enquire.html"
+      "href": "concierge.html"
     },
     "ctaText": {
       "label": "The trade",
@@ -83,11 +83,11 @@
     "buttons": [
       {
         "label": "Plan a trip \u2192",
-        "href": "enquire.html"
+        "href": "concierge.html"
       },
       {
         "label": "More stay guides",
-        "href": "stay-guides.html"
+        "href": "hotels.html"
       }
     ]
   }

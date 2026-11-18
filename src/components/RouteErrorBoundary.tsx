@@ -1,18 +1,21 @@
 import { Component, type ErrorInfo, type ReactNode } from "react";
 import { Link, useLocation } from "react-router-dom";
+import { isChunkLoadError, reloadForNewVersion } from "../lib/versionReload";
 
 // A page that throws while rendering (or fails to load its code chunk) used to
 // leave a blank screen. This catches it and shows a branded message with a way
 // forward instead. Keyed by pathname below, so moving to another page clears it.
-class Boundary extends Component<{ children: ReactNode }, { failed: boolean }> {
-  state = { failed: false };
+class Boundary extends Component<{ children: ReactNode; path: string }, { failed: boolean; message: string }> {
+  state = { failed: false, message: "" };
 
-  static getDerivedStateFromError() {
-    return { failed: true };
+  static getDerivedStateFromError(error: unknown) {
+    return { failed: true, message: String((error as { message?: unknown } | null)?.message ?? error ?? "").slice(0, 300) };
   }
 
   componentDidCatch(error: Error, info: ErrorInfo) {
     console.error("Page failed to render", error, info.componentStack);
+    // A page file from an older build that no longer exists: fetch the new build once, instead of stopping here.
+    if (isChunkLoadError(error)) reloadForNewVersion();
   }
 
   render() {
@@ -37,6 +40,14 @@ class Boundary extends Component<{ children: ReactNode }, { failed: boolean }> {
                 Back to home
               </Link>
             </div>
+            {this.state.message ? (
+              <details style={{ margin: "28px auto 0", maxWidth: "60ch", textAlign: "left", opacity: 0.7, fontSize: 13 }}>
+                <summary style={{ cursor: "pointer", textAlign: "center" }}>Technical details</summary>
+                <p style={{ margin: "10px 0 0", wordBreak: "break-word" }}>
+                  {this.props.path}: {this.state.message}
+                </p>
+              </details>
+            ) : null}
           </div>
         </section>
       </main>
@@ -46,5 +57,5 @@ class Boundary extends Component<{ children: ReactNode }, { failed: boolean }> {
 
 export default function RouteErrorBoundary({ children }: { children: ReactNode }) {
   const { pathname } = useLocation();
-  return <Boundary key={pathname}>{children}</Boundary>;
+  return <Boundary key={pathname} path={pathname}>{children}</Boundary>;
 }

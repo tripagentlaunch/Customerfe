@@ -65,24 +65,59 @@ export function Header() {
     const t = setTimeout(() => setSidebarPeek(false), 1500);
     return () => clearTimeout(t);
   }, [profileDrawer.peekTick]);
-  // The hover zone: the top HOVER_ZONE_PX of the window (168px) plus the navbar
+  // The hover zone: the top HOVER_ZONE_PX of the window (80px) plus the navbar
   // itself (its open Explore panel is a DOM child, so it counts). It is tracked
   // from the pointer's position and NOT with an invisible element laid over the
-  // page: that element swallowed every click in the top 168px (the How it Works
+  // page: that element swallowed every click in the top zone (the How it Works
   // stages, breadcrumbs, hero links...). Mouse pointers only; phones have no hover.
-  const HOVER_ZONE_PX = 168;
+  //
+  // Timing (2026-11-16, direct request), meant to stop the navbar flicking in and out for someone reaching
+  // for the address bar, tabs, fullscreen or reload:
+  //  - Show: the pointer must stay in the zone HOVER_ENTER_DELAY_MS (0.5s). Sweeping through toward the
+  //    browser bar is quicker than that, and leaving the window during the wait cancels it.
+  //  - Hide: HOVER_LEAVE_DELAY_MS (1s) after the pointer leaves, or HOVER_LEAVE_TOP_DELAY_MS (1.5s) if it left
+  //    through the top edge (toward the browser bar, where it is likely to come straight back).
+  //  - While shown, the "still here" area reaches HOVER_STAY_EXTRA_PX below the navbar, so drifting a little
+  //    under it does not count as leaving.
+  // Scrolling overrides all of it (scroll up shows now, scroll down hides now: see `active` below).
+  const HOVER_ZONE_PX = 80;
+  const HOVER_ENTER_DELAY_MS = 500;
+  const HOVER_LEAVE_DELAY_MS = 1000;
+  const HOVER_LEAVE_TOP_DELAY_MS = 1500;
+  const HOVER_STAY_EXTRA_PX = 40;
+  const inZoneRef = useRef(false);
+  const hoveringRef = useRef(false);
+  const hoverTimer = useRef(0);
   useEffect(() => {
+    hoveringRef.current = hovering;
+  }, [hovering]);
+  useEffect(() => {
+    const setZone = (inZone: boolean, leaveDelay = HOVER_LEAVE_DELAY_MS) => {
+      if (inZone === inZoneRef.current) return;
+      inZoneRef.current = inZone;
+      window.clearTimeout(hoverTimer.current);
+      hoverTimer.current = window.setTimeout(
+        () => {
+          if (inZoneRef.current === inZone) setHovering(inZone);
+        },
+        inZone ? HOVER_ENTER_DELAY_MS : leaveDelay,
+      );
+    };
     const onMove = (e: PointerEvent) => {
       if (e.pointerType !== "mouse") return;
       const overHeader = e.target instanceof Node && !!headerRef.current?.contains(e.target);
-      setHovering(e.clientY < HOVER_ZONE_PX || overHeader);
+      const limit = hoveringRef.current
+        ? Math.max(HOVER_ZONE_PX, (headerRef.current?.getBoundingClientRect().bottom ?? 0) + HOVER_STAY_EXTRA_PX)
+        : HOVER_ZONE_PX;
+      setZone(e.clientY < limit || overHeader);
     };
-    const onLeaveWindow = () => setHovering(false);
+    const onLeaveWindow = (e: PointerEvent) => setZone(false, e.clientY <= 0 ? HOVER_LEAVE_TOP_DELAY_MS : HOVER_LEAVE_DELAY_MS);
     window.addEventListener("pointermove", onMove, { passive: true });
     document.documentElement.addEventListener("pointerleave", onLeaveWindow);
     return () => {
       window.removeEventListener("pointermove", onMove);
       document.documentElement.removeEventListener("pointerleave", onLeaveWindow);
+      window.clearTimeout(hoverTimer.current);
     };
   }, []);
   // Desktop: the navbar peeks open on load (initialPeek, 1.5s), then hides and
@@ -110,6 +145,10 @@ export function Header() {
         else if (y > lastY + 4) {
           window.clearTimeout(idle);
           setActive(false);
+          // Scrolling down hides it now, even with the pointer still in the zone; it only comes back
+          // by the pointer leaving the zone and re-entering it (and waiting), or by scrolling up.
+          window.clearTimeout(hoverTimer.current);
+          setHovering(false);
         }
         lastY = y;
       });

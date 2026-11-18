@@ -10,7 +10,20 @@ import styles from "./CityRegions.module.css";
 // (the source of truth for order); cities are looked up by slug in the live
 // search results, so the filters above it narrow the grid in place and a
 // region left with no matches disappears.
-const REGIONS = (destinationsData as unknown as DestinationsIndexPageData).regions;
+// Display order (2026-11-13, direct request): Europe first, India last. The data
+// file's own order is left alone; labels not listed fall in before India.
+export const REGION_ORDER = [
+  "Western Europe", "Southern Europe", "Central Europe", "Northern Europe", "Türkiye",
+  "The Middle East", "Africa", "East Asia", "South-East Asia", "The Indian Ocean & the Himalaya",
+  "Australia & New Zealand", "North America", "South America", "India",
+];
+const regionRank = (label: string) => {
+  const i = REGION_ORDER.indexOf(label);
+  return i === -1 ? REGION_ORDER.length - 1.5 : i;
+};
+const REGIONS = [...(destinationsData as unknown as DestinationsIndexPageData).regions].sort(
+  (a, b) => regionRank(a.label) - regionRank(b.label)
+);
 
 function imgUrl(src: string, w = 800, q = 72) {
   return `/_vercel/image?url=${encodeURIComponent(src)}&w=${w}&q=${q}`;
@@ -38,18 +51,20 @@ function CityCard({ city, origin }: { city: CityRecord; origin: string }) {
   );
 }
 
-export default function CityRegions({ search }: { search: CitySearch }) {
+export default function CityRegions({ search, eyebrow = false }: { search: CitySearch; eyebrow?: boolean }) {
   // Desktop: regions the visitor has collapsed; empty = everything expanded.
   const [collapsed, setCollapsed] = useState<Set<string>>(new Set());
   // Phone (mobile handoff): one region open at a time — opening one closes
   // the others, and all can be closed. Starts with everything closed.
   const isMobile = useIsMobile();
-  const [openLabel, setOpenLabel] = useState<string | null>(null);
+//   const [openLabel, setOpenLabel] = useState<string | null>(null);
   const toggle = (label: string) => {
-    if (isMobile) {
-      setOpenLabel((cur) => (cur === label ? null : label));
-      return;
-    }
+    // 2026-11-13 (direct request): phone behaves like desktop, every region open by
+    // default and toggled independently. The one-open-at-a-time accordion is off.
+    // if (isMobile) {
+    //   setOpenLabel((cur) => (cur === label ? null : label));
+    //   return;
+    // }
     setCollapsed((cur) => {
       const next = new Set(cur);
       if (next.has(label)) next.delete(label);
@@ -68,7 +83,7 @@ export default function CityRegions({ search }: { search: CitySearch }) {
   const wasFiltered = useRef(false);
   const firstLabel = regions[0]?.label ?? null;
   useEffect(() => {
-    if (isMobile && search.filtered && !wasFiltered.current && firstLabel) setOpenLabel(firstLabel);
+    // (phone auto-open of the first region no longer needed: all regions start open)
     wasFiltered.current = search.filtered;
   }, [isMobile, search.filtered, firstLabel]);
 
@@ -78,10 +93,10 @@ export default function CityRegions({ search }: { search: CitySearch }) {
   return (
     <>
       {regions.map((r) => {
-        const isCollapsed = isMobile ? openLabel !== r.label : collapsed.has(r.label);
+        const isCollapsed = collapsed.has(r.label);
         const bodyId = `ci-region-${r.label.replace(/[^a-z0-9]+/gi, "-").toLowerCase()}`;
         return (
-          <section className={`${styles.ciRegion}${isCollapsed ? ` ${styles.ciCollapsed}` : ""}`} key={r.label}>
+          <section className={`${styles.ciRegion}${isCollapsed ? ` ${styles.ciCollapsed}` : ""}${eyebrow ? ` ${styles.ciEyebrow}` : ""}`} key={r.label}>
             <h3 className={styles.ciRegionName}>
               <button type="button" className={styles.ciRegionToggle} aria-expanded={!isCollapsed} aria-controls={bodyId} onClick={() => toggle(r.label)}>
                 <span className={styles.ciChevron} aria-hidden="true" />

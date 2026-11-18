@@ -10,19 +10,23 @@ import { useScrollReveal } from "../lib/useScrollReveal";
 // The "Where we go" world-map section — heading, stats and the interactive
 // map — shared by the homepage (sticky scroll-cycling) and the Destinations
 // page (plain, no pinning). One definition, so changes land on both.
-function Intro() {
+// `copy` swaps the heading block's text only (same markup/formatting); the
+// Destinations page passes its own (2026-11-06, direct request).
+export type MapIntroCopy = { eyebrow: string; headingHtml: string; sub: string };
+const HOME_INTRO: MapIntroCopy = {
+  eyebrow: "Where we go",
+  headingHtml: "The world, within <em>reach.</em>",
+  sub: "Explore extraordinary destinations and start planning your next journey with our expert advisors.",
+};
+function Intro({ copy = HOME_INTRO }: { copy?: MapIntroCopy }) {
   return (
     <div className="wrap">
       <div className={styles.mapIntro}>
         <div>
-          <div className="eyebrow reveal">Where we go</div>
+          <div className="eyebrow reveal">{copy.eyebrow}</div>
           <div className="rule" />
-          <h2 className={`reveal d1 ${styles.mapHeading}`}>
-            The world, within <em>reach.</em>
-          </h2>
-          <p className={`reveal d1 ${styles.mapSub}`}>
-            Explore extraordinary destinations and start planning your next journey with our expert advisors.
-          </p>
+          <h2 className={`reveal d1 ${styles.mapHeading}`} dangerouslySetInnerHTML={{ __html: copy.headingHtml }} />
+          <p className={`reveal d1 ${styles.mapSub}`}>{copy.sub}</p>
         </div>
         <dl className={`reveal d2 ${styles.mapStats}`}>
           <div>
@@ -45,7 +49,7 @@ function Intro() {
 
 // The map runs full page width (not inside a `.wrap`) — `.band`/`.tight`
 // only add vertical padding, so a direct child already spans edge-to-edge.
-export default function WorldMapSection({ sticky = false }: { sticky?: boolean }) {
+export default function WorldMapSection({ sticky = false, introCopy }: { sticky?: boolean; introCopy?: MapIntroCopy }) {
   const isMobile = useIsMobile();
   // Phone: the map can open full screen — own screen, no page scrolling in the way.
   const [fullscreen, setFullscreen] = useState(false);
@@ -75,11 +79,11 @@ export default function WorldMapSection({ sticky = false }: { sticky?: boolean }
       <div className={styles.worldMapWrap}>
         {sticky && !isMobile ? (
           <StickyWorldMap>
-            <Intro />
+            <Intro copy={introCopy} />
           </StickyWorldMap>
         ) : (
           <>
-            <Intro />
+            <Intro copy={introCopy} />
             {isMobile ? (
               // The phone map fills its parent's height, so give it one. Phones
               // never pin/cycle (that was ~9 screens of scrolling): the map rests

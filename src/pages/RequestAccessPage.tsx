@@ -1,3 +1,6 @@
+import { requestHelpMail } from "../lib/deskMail";
+import { DeskEmailLink } from "../components/DeskEmailLink";
+import { mergeProfile } from "../lib/profileStore";
 import { useEffect, useRef, useState } from "react";
 import { useSignInModal } from "../lib/signInModal";
 import { Link } from "react-router-dom";
@@ -141,6 +144,8 @@ export default function RequestAccessPage() {
   const [errors, setErrors] = useState<FieldErrors>({});
   const [submitErr, setSubmitErr] = useState("");
   const [alreadyApproved, setAlreadyApproved] = useState(false);
+  const formRef = useRef<HTMLFormElement>(null);
+  const [approvedEmail, setApprovedEmail] = useState("");
   const signIn = useSignInModal();
   const [phoneDigits, setPhoneDigits] = useState("");
   const thanksRef = useRef<HTMLDivElement>(null);
@@ -200,6 +205,8 @@ export default function RequestAccessPage() {
         const detail = typeof body.detail === "string" ? body.detail : body.detail?.error;
         if (detail === "already_approved") {
           setSubmitting(false);
+          setApprovedEmail(email);
+          mergeProfile({ name, phone, email }); // so the sign-in box that opens next is already filled in
           setAlreadyApproved(true);
           return;
         }
@@ -266,7 +273,7 @@ export default function RequestAccessPage() {
       </h1>
       <p className={styles.lede}>
         {desk
-          ? "Personal travel, planned by a person. Tell us a little, and an advisor will be in touch."
+          ? "TripAgent is your one-stop solution for travel. Tell us a little, and a human advisor will be in touch."
           : "Personal travel planning, curated experiences and expert advisors: for members, by invitation."}
       </p>
     </div>
@@ -277,8 +284,8 @@ export default function RequestAccessPage() {
       {submitting ? (
         "One moment…"
       ) : desk ? (
-        // 2026-10-28: "Send to the Desk" + arrow became "Send Invite", centred, no arrow.
-        <span className={styles.btnLabel}>Send Invite</span>
+        // 2026-10-28: "Send to the Desk" + arrow became "Send Invite", centred, no arrow; 2026-11-03: "Request for an invitation".
+        <span className={styles.btnLabel}>Request for an invitation</span>
       ) : (
         "Send to the Desk"
       )}
@@ -346,24 +353,24 @@ export default function RequestAccessPage() {
               )}
 
               {alreadyApproved && (
-                <div className={styles.err} role="alertdialog" aria-live="assertive">
+                <div className={styles.approvedNote} role="alertdialog" aria-live="assertive">
                   <p>
                     Your request has already been approved by your advisor. Please sign in with the same email and
                     phone number.
                   </p>
                   <button
                     type="button"
-                    className={styles.submitBtn}
+                    className={styles.signInBtn}
                     onClick={() => {
                       setAlreadyApproved(false);
-                      signIn.open();
+                      signIn.open(undefined, { email: approvedEmail });
                     }}
                   >
                     Sign in
                   </button>
                 </div>
               )}
-              <form className={styles.form} noValidate onSubmit={handleSubmit}>
+              <form ref={formRef} className={styles.form} noValidate onSubmit={handleSubmit}>
                 <div className={styles.field}>
                   <label htmlFor="ra-name">Your name</label>
                   {withIcon(ICON.name, <input
@@ -444,7 +451,7 @@ export default function RequestAccessPage() {
                   <div className={styles.btnRow}>
                     {submitButton}
                     <Link to="/claim" className={styles.codeBtn}>
-                      <span className={styles.btnLabel}>I already have a code</span>
+                      <span className={styles.btnLabel}>Already have an invitation</span>
                     </Link>
                   </div>
                 ) : (
@@ -463,9 +470,20 @@ export default function RequestAccessPage() {
               )}
               <p className={styles.footLine}>
                 Or write to{" "}
-                <a href={`mailto:${DESK_EMAIL}`} className={styles.footLink}>
-                  {DESK_EMAIL}
-                </a>
+                <DeskEmailLink
+                  address={DESK_EMAIL}
+                  linkClassName={styles.footLink}
+                  getMail={() => {
+                    const fd = formRef.current ? new FormData(formRef.current) : null;
+                    const val = (k: string) => (fd ? String(fd.get(k) || "").trim() : "");
+                    return requestHelpMail({
+                      name: val("name"),
+                      email: val("email"),
+                      phone: phoneDigits || null,
+                      seen: submitErr || (alreadyApproved ? "Your request has already been approved by your advisor. Please sign in with the same email and phone number." : null),
+                    });
+                  }}
+                />
               </p>
             </>
           )}

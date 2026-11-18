@@ -833,6 +833,26 @@
       "lat": 48.125474,
       "lon": 11.605213,
       "photos": []
+    },
+    {
+      "n": "M\u00fcllersches Volksbad",
+      "cat": "party",
+      "tier": "",
+      "a": "Parks and water",
+      "d": "An impressive indoor pool on the banks of the river, open since 1901 with many original features.",
+      "lat": 48.132263,
+      "lon": 11.588427,
+      "photos": []
+    },
+    {
+      "n": "Haus der Kunst",
+      "cat": "do",
+      "tier": "",
+      "a": "Museums and a bakery",
+      "d": "A structure built for Nazi-approved art in 1937, now with a cutting-edge programme of events and exhibitions.",
+      "lat": 48.144117,
+      "lon": 11.585963,
+      "photos": []
     }
   ]
 }

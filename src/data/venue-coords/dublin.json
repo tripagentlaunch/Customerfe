@@ -783,6 +783,46 @@
       "lat": 53.338089,
       "lon": -6.252885,
       "photos": []
+    },
+    {
+      "n": "Loose Canon Cheese & Wine",
+      "cat": "party",
+      "tier": "",
+      "a": "Guinness and history",
+      "d": "A cheese and wine bar worth going back to for the wine and the grilled cheese sandwiches.",
+      "lat": 53.342475,
+      "lon": -6.263379,
+      "photos": []
+    },
+    {
+      "n": "Forty Foot",
+      "cat": "do",
+      "tier": "",
+      "a": "Whiskey, shops and the sea",
+      "d": "Embrace the chill of the Irish Sea at this public swimming spot on the southern tip of Dublin Bay.",
+      "lat": 53.289486,
+      "lon": -6.113699,
+      "photos": []
+    },
+    {
+      "n": "Irish Whiskey Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Whiskey, shops and the sea",
+      "d": "Exclusively for tourists, and that's okay: it's all part of the experience.",
+      "lat": 53.344138,
+      "lon": -6.259545,
+      "photos": []
+    },
+    {
+      "n": "The George",
+      "cat": "party",
+      "tier": "",
+      "a": "Whiskey, shops and the sea",
+      "d": "A bilevel pub and dance club, lined with portraits of queer icons: a gay haven.",
+      "lat": 53.343813,
+      "lon": -6.264645,
+      "photos": []
     }
   ]
 }

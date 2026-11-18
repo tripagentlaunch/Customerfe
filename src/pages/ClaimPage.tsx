@@ -1,9 +1,13 @@
+import { claimHelpMail } from "../lib/deskMail";
+import { DeskEmailLink } from "../components/DeskEmailLink";
 import { useEffect, useRef, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useBareChromeForGuests } from "../lib/bareChrome";
 import { useAuth } from "../lib/auth";
 import { askForOrigin, canAskForOrigin, declineOrigin, type Position } from "../lib/origin";
 import { useSignInModal } from "../lib/signInModal";
+import { useWhatsAppNumber } from "../lib/useWhatsAppNumber";
+import { cleanCode, codeFromSearch, firstName, prettyCode, welcomeMessage, whatsappLink } from "../lib/inviteCode";
 // import { useIsMobile } from "../hooks/useIsMobile"; // no longer needed: phones use the desktop layout
 import styles from "./claim-page.module.css";
 
@@ -26,6 +30,17 @@ type RedeemResponse = {
   advisorName?: string | null;
   // Super key only: the id of this entry, which the location answer is filed against.
   entryId?: string | null;
+  // Who the person is, for the welcome message to their advisor.
+  name?: string | null;
+};
+
+// What the server says about a code before it is claimed (GET /invite/{code}): lets a link open on a greeting and one button.
+type Peek = {
+  found: boolean;
+  firstName?: string;
+  used?: boolean;
+  expired?: boolean;
+  superKey?: boolean;
 };
 
 // Cinematic full-screen background video, muted/looping/autoplaying behind
@@ -39,6 +54,10 @@ const VIDEO_SRC = "/videos/tripagent-claim-loop.mp4";
 // visitors with prefers-reduced-motion. Replace this file directly to swap
 // the still.
 const VIDEO_FALLBACK_SRC = "/images/tripagent-claim-fallback.jpg";
+
+// A claimed code opens one membership. Whoever it is for signs in; a second person approved with them has their own link from the advisor.
+const CLAIMED_TEXT =
+  "This code has already been claimed. If it's yours, sign in with your email. If you were invited alongside someone else, ask your advisor for your own link.";
 
 const DESK_EMAIL = "invite@tripagent.vip";
 
@@ -76,7 +95,17 @@ export default function ClaimPage() {
   // showing underneath — the destination is never blank.
   const [videoFailed, setVideoFailed] = useState(false);
 
-  const [code, setCode] = useState("");
+  // The code a link carries, read once: the first paint already shows the greeting, not an empty box for a moment.
+  const [linkedCode] = useState(() => (typeof window === "undefined" ? "" : codeFromSearch(window.location.search)));
+  const [code, setCode] = useState(linkedCode);
+  // A link carries the code: the page then opens on a greeting and a single button instead of an empty box.
+  const [peek, setPeek] = useState<Peek | null>(null);
+  const [peeked, setPeeked] = useState(false);
+  const [typeCode, setTypeCode] = useState(false); // "Use a different code" shows the box again
+  // After claiming: who their advisor is, and the WhatsApp number of the desk, for the welcome.
+  const [arrived, setArrived] = useState(false);
+  const [welcome, setWelcome] = useState<{ advisor: string | null; name: string | null } | null>(null);
+  const whatsappNumber = useWhatsAppNumber();
   const [ann, setAnn] = useState<{ text: string; kind: "hint" | "err" | "busy" } | null>(null);
   const [busy, setBusy] = useState(false);
   const [claimed, setClaimed] = useState(false);
@@ -129,17 +158,37 @@ export default function ClaimPage() {
     if (!loading && signedIn && !claimed && !busy) navigate("/", { replace: true });
   }, [loading, signedIn, claimed, busy, navigate]);
 
-  // Auto-fill (never auto-submit) a code carried in ?code= — same
-  // convention as invitation.html's emailed-link handling.
+  // A code carried in ?code= is filled in, never claimed by itself (a mail scanner or a link preview opening the link
+  // must not use up someone's invitation). The page asks the server about it so it can greet the person by name and
+  // say at once if it is already claimed or has ended; they then claim with one tap.
   useEffect(() => {
-    try {
-      const raw = new URLSearchParams(window.location.search).get("code") || "";
-      const clean = raw.toUpperCase().replace(/[^A-Z0-9]/g, "").slice(0, 8);
-      if (clean) setCode(clean);
-    } catch {
-      // no-op
+    let live = true;
+    const fromLink = codeFromSearch(window.location.search);
+    if (fromLink) {
+      setCode(fromLink);
+      fetch(`/invite/${encodeURIComponent(fromLink)}`, { credentials: "include" })
+        .then((r) => (r.ok ? (r.json() as Promise<Peek>) : null))
+        .then((p) => {
+          if (!live) return;
+          setPeek(p && p.found ? p : null);
+          if (p && p.found) {
+            if (p.used) {
+              setAnn({ text: CLAIMED_TEXT, kind: "err" });
+              setClaimedAlready(true);
+            } else if (p.expired) {
+              setAnn({ text: "This invitation has expired. Please reach us on WhatsApp or write to invite@tripagent.vip for a new one.", kind: "err" });
+            }
+          }
+        })
+        .catch(() => undefined) // no peek: the page works as before, with the code box
+        .finally(() => live && setPeeked(true));
+    } else {
+      setPeeked(true);
+      inputRef.current?.focus({ preventScroll: true });
     }
-    inputRef.current?.focus({ preventScroll: true });
+    return () => {
+      live = false;
+    };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
@@ -150,7 +199,7 @@ export default function ClaimPage() {
     // No maxLength on the input (2026-10-12): the browser cut a paste to 8
     // characters before this cleanup ran, so "K E 1 1 8 B H" (a key copied
     // with spaces) became "KE11". Cleaned first, then trimmed to 8.
-    setCode(e.target.value.toUpperCase().replace(/[^A-Z0-9]/g, "").slice(0, 8));
+    setCode(cleanCode(e.target.value));
     setAnn(null);
     setClaimedAlready(false);
   }
@@ -171,7 +220,7 @@ export default function ClaimPage() {
     setBusy(true);
     setAnn({ text: "Verifying your code…", kind: "busy" });
 
-    const clean = code.toUpperCase().replace(/[^A-Z0-9]/g, "");
+    const clean = cleanCode(code);
     const [res] = await Promise.all([
       (async (): Promise<RedeemResponse> => {
         // The backend can be asleep or mid-deploy (2026-10-13): the request
@@ -219,6 +268,7 @@ export default function ClaimPage() {
       // }
       setAnn(null);
       entryIdRef.current = res.entryId || null;
+      setWelcome({ advisor: res.advisorName || null, name: res.name || null });
       setClaimed(true);
       try {
         welcomeRef.current?.focus({ preventScroll: true });
@@ -248,14 +298,17 @@ export default function ClaimPage() {
         setAskLocation(false);
         await Promise.all([refreshed, new Promise((r) => setTimeout(r, 700))]);
       } else {
-        await Promise.all([refreshed, new Promise((r) => setTimeout(r, 1400))]);
+        await Promise.all([refreshed, new Promise((r) => setTimeout(r, 900))]);
       }
-      navigate("/", { replace: true });
+      // The welcome stays until they choose to go in: it names their advisor and offers one tap to say hello on WhatsApp.
+      setArrived(true);
       return;
     }
     if (res.used === true) {
-      setAnn({ text: "This code has already been claimed. Please sign in with your email.", kind: "err" });
+      setAnn({ text: CLAIMED_TEXT, kind: "err" });
       setClaimedAlready(true);
+    } else if (res.error === "revoked") {
+      setAnn({ text: "This invitation is no longer active. Please reach us on WhatsApp or write to invite@tripagent.vip.", kind: "err" });
     } else if (res.error === "email_taken") {
       setAnn({
         text: "That email is already attached to another membership. Please reach us on WhatsApp or write to invite@tripagent.vip.",
@@ -275,6 +328,11 @@ export default function ClaimPage() {
     }
   }
 
+  // A link opened on a code: greet them and offer one button. Anything else (a typed code, an unknown or used code) gets the box.
+  const readyFromLink = !!linkedCode && code === linkedCode && !typeCode && (!peeked || (!!peek && !peek.used && !peek.expired));
+  const greetName = readyFromLink ? firstName(peek?.firstName) : "";
+  const waHref = whatsappLink(whatsappNumber, welcomeMessage(welcome?.name, welcome?.advisor));
+  const deskWa = whatsappLink(whatsappNumber, "Hello, I'd like help with my TripAgent invitation.");
   return (
     <section className={`${styles.claimRoot}${desk ? ` ${styles.desk}` : ""}`}>
       {reduceMotion || videoFailed ? (
@@ -300,30 +358,60 @@ export default function ClaimPage() {
         <div className={styles.card}>
           {!claimed ? (
             <>
-              <div className={styles.eyebrow}>Claim your invitation</div>
+              <div className={styles.eyebrow}>{readyFromLink ? "Your invitation" : "Claim your invitation"}</div>
               <h1 className={styles.heading}>
-                You&apos;ve been <span className={styles.it}>invited.</span>
+                {greetName ? (
+                  <>
+                    Welcome, <span className={styles.it}>{greetName}.</span>
+                  </>
+                ) : (
+                  <>
+                    You&apos;ve been <span className={styles.it}>invited.</span>
+                  </>
+                )}
               </h1>
-              <p className={styles.sub}>Enter the 8-character code from your invitation email.</p>
+              <p className={styles.sub}>
+                {readyFromLink ? "Your invitation is ready. One tap and you're in." : "Enter the 8-character code from your invitation email."}
+              </p>
 
               <form className={styles.form} onSubmit={handleSubmit} noValidate>
-                <label htmlFor="claim-code" className={styles.label}>
-                  Invitation code
-                </label>
-                <input
-                  ref={inputRef}
-                  className={`ra-input ${styles.codeInput}`}
-                  id="claim-code"
-                  type="text"
-                  inputMode="text"
-                  autoComplete="one-time-code"
-                  placeholder="AB1234CD"
-                  spellCheck={false}
-                  value={code}
-                  onChange={handleInput}
-                  aria-invalid={ann?.kind === "err"}
-                  aria-describedby="claim-ann"
-                />
+                {readyFromLink ? (
+                  <div className={styles.codeLine}>
+                    Code <b>{prettyCode(code)}</b>
+                    {" · "}
+                    <button
+                      type="button"
+                      className={styles.linkBtn}
+                      onClick={() => {
+                        setTypeCode(true);
+                        setAnn(null);
+                        window.setTimeout(() => inputRef.current?.focus(), 0);
+                      }}
+                    >
+                      Use a different code
+                    </button>
+                  </div>
+                ) : (
+                  <>
+                    <label htmlFor="claim-code" className={styles.label}>
+                      Invitation code
+                    </label>
+                    <input
+                      ref={inputRef}
+                      className={`ra-input ${styles.codeInput}`}
+                      id="claim-code"
+                      type="text"
+                      inputMode="text"
+                      autoComplete="one-time-code"
+                      placeholder="KM4T-QR2X"
+                      spellCheck={false}
+                      value={prettyCode(code)}
+                      onChange={handleInput}
+                      aria-invalid={ann?.kind === "err"}
+                      aria-describedby="claim-ann"
+                    />
+                  </>
+                )}
                 <div
                   id="claim-ann"
                   className={`${styles.ann}${ann ? ` ${ann.kind === "err" ? styles.annErr : ann.kind === "busy" ? styles.annBusy : styles.annHint}` : ""}`}
@@ -331,19 +419,37 @@ export default function ClaimPage() {
                 >
                   {ann?.text}
                 </div>
-                {claimedAlready && (
-                  <button type="button" className={styles.submitBtn} onClick={() => signIn.open()}>
-                    Sign in
-                  </button>
-                )}
-                {desk ? (
+                {claimedAlready ? (
+                  // Claiming a claimed code can only fail again: the way forward is Sign in (or another code), in the same row as the other buttons.
                   <div className={styles.btnRow}>
-                    <button type="submit" className={styles.submitBtn} disabled={busy}>
+                    <button type="button" className={styles.submitBtn} onClick={() => signIn.open()}>
+                      <span className={styles.btnLabel}>Sign in</span>
+                    </button>
+                    {linkedCode ? null : (
+                      <button
+                        type="button"
+                        className={styles.codeBtn}
+                        onClick={() => {
+                          setClaimedAlready(false);
+                          setAnn(null);
+                          setCode("");
+                          inputRef.current?.focus();
+                        }}
+                      >
+                        <span className={styles.btnLabel}>Try another code</span>
+                      </button>
+                    )}
+                  </div>
+                ) : desk ? (
+                  <div className={styles.btnRow}>
+                    <button type="submit" className={styles.submitBtn} disabled={busy || (!!linkedCode && !peeked)}>
                       <span className={styles.btnLabel}>{busy ? "Verifying…" : "Claim your invitation"}</span>
                     </button>
-                    <Link to="/request-access" className={styles.codeBtn}>
-                      <span className={styles.btnLabel}>I don&apos;t have a code</span>
-                    </Link>
+                    {readyFromLink ? null : (
+                      <Link to="/request-access" className={styles.codeBtn}>
+                        <span className={styles.btnLabel}>I don&apos;t have a code</span>
+                      </Link>
+                    )}
                   </div>
                 ) : (
                   <button type="submit" className={styles.submitBtn} disabled={busy}>
@@ -368,9 +474,19 @@ export default function ClaimPage() {
               )}
               <p className={styles.footLine}>
                 Or write to{" "}
-                <a href={`mailto:${DESK_EMAIL}`} className={styles.footLink}>
-                  {DESK_EMAIL}
-                </a>
+                <DeskEmailLink
+                  address={DESK_EMAIL}
+                  linkClassName={styles.footLink}
+                  getMail={() => claimHelpMail({ code: code ? prettyCode(code) : null, seen: ann && ann.kind === "err" ? ann.text : null })}
+                />
+                {deskWa ? (
+                  <>
+                    {" "}or{" "}
+                    <a href={deskWa} target="_blank" rel="noopener noreferrer" className={styles.footLink}>
+                      message us on WhatsApp
+                    </a>
+                  </>
+                ) : null}
               </p>
             </>
           ) : (
@@ -393,8 +509,26 @@ export default function ClaimPage() {
                     </button>
                   </div>
                 </>
+              ) : arrived ? (
+                <>
+                  <p className={styles.sub}>
+                    {welcome?.advisor
+                      ? `${welcome.advisor} is your personal advisor and is expecting you.`
+                      : "Your TripAgent advisors are one message away."}
+                  </p>
+                  <div className={styles.locChoices}>
+                    {waHref ? (
+                      <a className={styles.submitBtn} href={waHref} target="_blank" rel="noopener noreferrer">
+                        Say hello{welcome?.advisor ? ` to ${firstName(welcome.advisor)}` : ""} on WhatsApp
+                      </a>
+                    ) : null}
+                    <button type="button" className={waHref ? styles.ghostBtn : styles.submitBtn} onClick={() => navigate("/", { replace: true })}>
+                      Enter TripAgent
+                    </button>
+                  </div>
+                </>
               ) : (
-                <p className={styles.sub}>Taking you home…</p>
+                <p className={styles.sub}>Setting things up…</p>
               )}
             </div>
           )}

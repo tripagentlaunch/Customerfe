@@ -1103,6 +1103,46 @@
       "lat": 37.780993,
       "lon": -122.412289,
       "photos": []
+    },
+    {
+      "n": "San Francisco Museum of Modern Art",
+      "cat": "do",
+      "tier": "",
+      "a": "Downtown and North Beach",
+      "d": "Stands out among the city's elite museums for its innovative, exciting exhibits.",
+      "lat": 37.785915,
+      "lon": -122.400736,
+      "photos": []
+    },
+    {
+      "n": "Asian Art Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Downtown and North Beach",
+      "d": "A massive collection, all housed in a gorgeous Beaux Arts building.",
+      "lat": 37.780315,
+      "lon": -122.415992,
+      "photos": []
+    },
+    {
+      "n": "Club Fugazi",
+      "cat": "party",
+      "tier": "",
+      "a": "Downtown and North Beach",
+      "d": "A historic theater tucked into North Beach, once home to the long-running Beach Blanket Babylon.",
+      "lat": 37.799645,
+      "lon": -122.410278,
+      "photos": []
+    },
+    {
+      "n": "Sunset Dunes Park",
+      "cat": "do",
+      "tier": "",
+      "a": "Haight and the coast",
+      "d": "Public art installations dot the route, and sandy access points lead directly onto the beach.",
+      "lat": 37.750692,
+      "lon": -122.508513,
+      "photos": []
     }
   ]
 }

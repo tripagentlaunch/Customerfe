@@ -553,6 +553,36 @@
       "lat": 47.802945,
       "lon": 13.043881,
       "photos": []
+    },
+    {
+      "n": "Darwin's Bar",
+      "cat": "party",
+      "tier": "",
+      "a": "Art and architecture",
+      "d": "A cosy bar in the new town, close to the river, especially good for cocktails in a laid-back atmosphere.",
+      "lat": 47.801652,
+      "lon": 13.045295,
+      "photos": []
+    },
+    {
+      "n": "220 Grad",
+      "cat": "do",
+      "tier": "",
+      "a": "Coffee and a good meal",
+      "d": "A modern coffee and brunch spot with its own in-house roastery and a small lunch and brunch menu.",
+      "lat": 47.797075,
+      "lon": 13.022377,
+      "photos": []
+    },
+    {
+      "n": "Balkan Grill Walter",
+      "cat": "do",
+      "tier": "",
+      "a": "Coffee and a good meal",
+      "d": "A take-away sausage shop in the old town: walk up to the window and order a hot sausage, a simple yet perfect affair.",
+      "lat": 47.799857,
+      "lon": 13.041316,
+      "photos": []
     }
   ]
 }

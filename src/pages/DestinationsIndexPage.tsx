@@ -25,6 +25,8 @@ export default function DestinationsIndexPage() {
 
   return (
     <main>
+      {/* Hero removed 2026-11-06 (direct request); `false &&` keeps the markup for easy restore. */}
+      {false && (
       <header
         className={`hero left ${styles.heroIx}`}
         style={{ backgroundImage: `url('${hero.image}')`, backgroundPosition: "60% 50%" }}
@@ -44,17 +46,28 @@ export default function DestinationsIndexPage() {
             </div>
           )}
         </div>
-        <div className={styles.indexCount}>
-          <div className="n">{hero.count.n}</div>
-          <div className="k">{hero.count.k}</div>
-        </div>
+        {/* The "110+ cities, known first-hand" figure is off on desktop (2026-11-03, direct request). */}
+        {isMobile && (
+          <div className={styles.indexCount}>
+            <div className="n">{hero.count.n}</div>
+            <div className="k">{hero.count.k}</div>
+          </div>
+        )}
       </header>
+      )}
 
       {/* Phones skip the world map here (it repeats the homepage's) and go
           straight to "Chosen, not listed." */}
       {!isMobile && (
         <Suspense fallback={<div style={{ minHeight: "70vh" }} />}>
-          <WorldMapSection />
+          <WorldMapSection
+            sticky
+            introCopy={{
+              eyebrow: "Destinations · By invitation",
+              headingHtml: "A few places, known <em>first-hand.</em>",
+              sub: "Where our members go, and how we look after them there. The flights, the stays, the visa, all in hand.",
+            }}
+          />
         </Suspense>
       )}
 

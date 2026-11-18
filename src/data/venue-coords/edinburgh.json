@@ -733,6 +733,36 @@
       "lat": 55.952838,
       "lon": -3.189213,
       "photos": []
+    },
+    {
+      "n": "Stills Gallery",
+      "cat": "party",
+      "tier": "",
+      "a": "The galleries",
+      "d": "A photography gallery with changing exhibitions that often include video or performance.",
+      "lat": 55.950677,
+      "lon": -3.190214,
+      "photos": []
+    },
+    {
+      "n": "Midhope Castle",
+      "cat": "do",
+      "tier": "",
+      "a": "Palaces and Outlander",
+      "d": "The filming location for Lallybroch, Jamie Fraser's home in the hugely popular Outlander show.",
+      "lat": 55.992141,
+      "lon": -3.487813,
+      "photos": []
+    },
+    {
+      "n": "Royal Scottish Academy",
+      "cat": "party",
+      "tier": "",
+      "a": "Palaces and Outlander",
+      "d": "The Royal Scottish Academy of Art and Architecture, right next to the Scottish National Gallery.",
+      "lat": 55.951677,
+      "lon": -3.196291,
+      "photos": []
     }
   ]
 }

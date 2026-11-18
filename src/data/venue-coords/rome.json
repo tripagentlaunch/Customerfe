@@ -1053,6 +1053,26 @@
       "lat": 41.895364,
       "lon": 12.475982,
       "photos": []
+    },
+    {
+      "n": "Basilica di Santa Sabina",
+      "cat": "do",
+      "tier": "",
+      "a": "Sights along the Tiber River",
+      "d": "A peaceful walk past Circo Massimo and the Rose Garden.",
+      "lat": 41.884517,
+      "lon": 12.479755,
+      "photos": []
+    },
+    {
+      "n": "La Mescita",
+      "cat": "party",
+      "tier": "",
+      "a": "A day trip to Campagnano Romano",
+      "d": "Wind down at a bar usually filled with locals.",
+      "lat": 41.862977,
+      "lon": 12.484812,
+      "photos": []
     }
   ]
 }

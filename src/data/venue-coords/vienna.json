@@ -1083,6 +1083,26 @@
       "lat": 48.21272,
       "lon": 16.37979,
       "photos": []
+    },
+    {
+      "n": "Palmenhaus",
+      "cat": "party",
+      "tier": "",
+      "a": "The Ring and the palaces",
+      "d": "In the Burggarten by the Hofburg, quite possibly the world's grandest greenhouse, and a place to dine.",
+      "lat": 48.243885,
+      "lon": 16.42993,
+      "photos": []
+    },
+    {
+      "n": "Sigmund Freud Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Coffee, Freud and the MQ",
+      "d": "Freud lived and worked at Berggasse 19 until 1938, when the Nazis' persecution drove him from the city.",
+      "lat": 48.218659,
+      "lon": 16.363054,
+      "photos": []
     }
   ]
 }

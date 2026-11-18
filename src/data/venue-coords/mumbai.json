@@ -803,6 +803,26 @@
       "lat": 19.007219,
       "lon": 72.813648,
       "photos": []
+    },
+    {
+      "n": "Woodside Inn",
+      "cat": "party",
+      "tier": "",
+      "a": "Poetry, food and a dive bar",
+      "d": "One of the top picks for nightlife in a city where drinks come for every tax bracket.",
+      "lat": 19.062542,
+      "lon": 72.829387,
+      "photos": []
+    },
+    {
+      "n": "Kitab Khana",
+      "cat": "do",
+      "tier": "",
+      "a": "Bazaars and bookshops",
+      "d": "The city's most coveted independent bookstore, in a 150-year-old colonial building.",
+      "lat": 18.932061,
+      "lon": 72.831843,
+      "photos": []
     }
   ]
 }

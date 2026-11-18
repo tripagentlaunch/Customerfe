@@ -17,7 +17,7 @@ export default function DestinationsCityList() {
           <CityFilters search={search} />
         </div>
       )}
-      {search.status === "ready" && <CityRegions search={search} />}
+      {search.status === "ready" && <CityRegions search={search} eyebrow />}
       {search.status === "error" && <p className="lede">The city list couldn't load just now: please refresh.</p>}
     </>
   );

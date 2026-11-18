@@ -823,6 +823,16 @@
       "lat": 43.653422,
       "lon": -79.362286,
       "photos": []
+    },
+    {
+      "n": "Gardiner Museum",
+      "cat": "do",
+      "tier": "",
+      "a": "Museums",
+      "d": "One of those museums that leave an impression long after you've left.",
+      "lat": 43.668164,
+      "lon": -79.39306,
+      "photos": []
     }
   ]
 }

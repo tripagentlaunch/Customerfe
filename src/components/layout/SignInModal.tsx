@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { useAuth } from "../../lib/auth";
 import { useSignInModal } from "../../lib/signInModal";
+import { mergeProfile, readProfile } from "../../lib/profileStore";
 import { useIsMobile } from "../../hooks/useIsMobile";
 import claim from "../../pages/claim-page.module.css";
 import sheet from "./signin-sheet.module.css";
@@ -34,47 +35,40 @@ function sendCodeError(error: string): string {
   }
 }
 
-function readProfile(): { name?: string; phone?: string; email?: string } {
-  try {
-    const raw = localStorage.getItem("ta_profile");
-    return raw ? JSON.parse(raw) : {};
-  } catch {
-    return {};
-  }
+type Step = "email" | "otp";
+
+// The "Sign in" button in the code email opens the site at #signin&email=...&code=... : the code is already filled in, so nothing has to
+// be copied. It sits in the #fragment, which no server ever receives; it is read once here and removed from the address bar at once.
+type LinkedCode = { email: string; code: string };
+
+function readLinkedCode(): LinkedCode | null {
+  if (typeof window === "undefined") return null;
+  const hash = window.location.hash.replace(/^#/, "");
+  if (!hash.startsWith("signin")) return null;
+  const p = new URLSearchParams(hash);
+  const email = (p.get("email") ?? "").trim();
+  const code = (p.get("code") ?? "").trim();
+  return EMAIL_RE.test(email) && /^\d{8}$/.test(code) ? { email, code } : null;
 }
 
-// Mirrors legacy's otpStep() success handler: only fills in profile fields
-// that are currently empty, never overwrites what's already there.
-function mergeProfile(name: string, phone: string) {
+function clearHash() {
   try {
-    const p = readProfile();
-    let changed = false;
-    if (name && !p.name) {
-      p.name = name;
-      changed = true;
-    }
-    if (phone && !p.phone) {
-      p.phone = phone;
-      changed = true;
-    }
-    if (changed) localStorage.setItem("ta_profile", JSON.stringify(p));
+    window.history.replaceState(null, "", window.location.pathname + window.location.search);
   } catch {
     // ignore
   }
 }
 
-type Step = "email" | "otp";
-
-function SignInModalCard({ message, close }: { message: string | null; close: () => void }) {
+function SignInModalCard({ message, close, linked, prefillEmail }: { message: string | null; close: () => void; linked: LinkedCode | null; prefillEmail?: string }) {
   const { requestLogin, verifyLogin } = useAuth();
   const profile = useRef(readProfile()).current;
   const isMobile = useIsMobile();
 
-  const [step, setStep] = useState<Step>("email");
-  const [email, setEmail] = useState(profile.email ?? "");
+  const [step, setStep] = useState<Step>(linked ? "otp" : "email");
+  const [email, setEmail] = useState(linked?.email ?? prefillEmail ?? profile.email ?? "");
   const [name, setName] = useState(profile.name ?? "");
   const [phone, setPhone] = useState(profile.phone ?? "");
-  const [code, setCode] = useState("");
+  const [code, setCode] = useState(linked?.code ?? "");
   const [emailInvalid, setEmailInvalid] = useState(false);
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -116,14 +110,15 @@ function SignInModalCard({ message, close }: { message: string | null; close: ()
     const r = await requestLogin(trimmed);
     setSubmitting(false);
     if (r.ok) {
+      mergeProfile({ email: trimmed }); // remembered now, so the box has it next time even if this sign-in is not finished
       setStep("otp");
     } else {
       setError(sendCodeError(r.error));
     }
   }
 
-  async function submitCode(e: React.FormEvent) {
-    e.preventDefault();
+  async function submitCode(e?: React.FormEvent) {
+    e?.preventDefault();
     const trimmed = code.trim();
     // This project's Supabase Auth is configured to send 8-digit numeric
     // email OTPs (Authentication → Providers → Email → OTP length) — if
@@ -136,7 +131,7 @@ function SignInModalCard({ message, close }: { message: string | null; close: ()
     setSubmitting(true);
     const r = await verifyLogin(email.trim(), trimmed);
     if (r.ok) {
-      mergeProfile(name.trim(), phone.trim());
+      mergeProfile({ name: name.trim(), phone: phone.trim(), email: email.trim() });
       close();
     } else {
       setSubmitting(false);
@@ -147,6 +142,17 @@ function SignInModalCard({ message, close }: { message: string | null; close: ()
       );
     }
   }
+
+  // Eight digits typed, pasted or filled in from the email's link: sign in without another tap. Each distinct code is tried once by itself
+  // (a wrong one is not re-sent in a loop; the Sign in button still works).
+  const autoTried = useRef("");
+  useEffect(() => {
+    const c = code.trim();
+    if (step !== "otp" || submitting || !/^\d{8}$/.test(c) || autoTried.current === c) return;
+    autoTried.current = c;
+    void submitCode();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [code, step]);
 
   // Phone: the claim page's card — just the email, then the 8-digit code (no
   // optional Mobile/Name fields).
@@ -329,8 +335,8 @@ function SignInModalCard({ message, close }: { message: string | null; close: ()
           <form onSubmit={submitCode}>
             <h3 className="ta-si-h">Check your email.</h3>
             <p className="ta-si-sub">
-              We've emailed {email} a secure sign-in link: click it to open your year. If your email
-              includes a code instead, enter it below.
+              We've emailed {email} an 8-digit sign-in code. Enter it below to open your year. If you
+              don't see it in a minute, check your spam folder.
             </p>
             <div className="ta-si-f">
               <label htmlFor="ta-si-otp">One-time code</label>
@@ -340,9 +346,12 @@ function SignInModalCard({ message, close }: { message: string | null; close: ()
                 type="text"
                 inputMode="numeric"
                 className="ta-si-otp"
-                placeholder="Code from your email"
+                placeholder="8-digit code"
+                autoComplete="one-time-code"
+                spellCheck={false}
+                maxLength={8}
                 value={code}
-                onChange={(e) => setCode(e.target.value)}
+                onChange={(e) => setCode(e.target.value.replace(/\D/g, "").slice(0, 8))}
               />
             </div>
             {error && <div className="ta-si-err">{error}</div>}
@@ -357,7 +366,22 @@ function SignInModalCard({ message, close }: { message: string | null; close: ()
 }
 
 export function SignInModal() {
-  const { isOpen, message, close } = useSignInModal();
+  const { isOpen, message, prefill, open, close } = useSignInModal();
+  // Read once, before anything renders from it, and take the code out of the address bar straight away.
+  const linked = useRef<LinkedCode | null | undefined>(undefined);
+  if (linked.current === undefined) {
+    linked.current = readLinkedCode();
+    if (linked.current) clearHash();
+  }
+  useEffect(() => {
+    if (linked.current) open();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
   if (!isOpen) return null;
-  return <SignInModalCard message={message} close={close} />;
+  // The link's code is for the first opening only: once the modal is closed (signed in, or dismissed) a later opening starts clean.
+  const closeAndForget = () => {
+    linked.current = null;
+    close();
+  };
+  return <SignInModalCard message={message} close={closeAndForget} linked={linked.current} prefillEmail={prefill?.email} />;
 }
