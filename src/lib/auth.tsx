@@ -110,7 +110,12 @@ type AuthContextValue = {
 
 const AuthContext = createContext<AuthContextValue | null>(null);
 
-type SessionCheckResponse = { signed_in: boolean; member: SiteMemberRow | null };
+// revoked: this login came in through a shared code that the advisor has since switched off. shared_entry: this login
+// can be cut off from outside, so the page keeps checking it.
+type SessionCheckResponse = { signed_in: boolean; member: SiteMemberRow | null; revoked?: boolean; shared_entry?: boolean };
+
+// How often a login that came in through a shared code asks the server if it is still allowed (and when the tab is shown again).
+const SHARED_CHECK_MS = 15000;
 type VerifyOtpApiResponse = { ok: boolean; error?: string; member?: SiteMemberRow };
 type RequestOtpApiResponse = { ok: boolean; error?: string };
 
@@ -123,6 +128,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   const [loading, setLoading] = useState(true);
   const [authError, setAuthError] = useState<"not_invited" | null>(null);
   const [mockSignedIn, setMockSignedIn] = useState(readMockAuth);
+  const [sharedEntry, setSharedEntry] = useState(false);
 
   // Resolves true once the server has answered (signed in or not), false
   // when the check itself failed — the current state is then left alone.
@@ -137,6 +143,14 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       const res = await fetch("/auth/session", { credentials: "include" });
       if (!res.ok) return false;
       const data = (await res.json()) as SessionCheckResponse;
+      setSharedEntry(!!data.shared_entry && data.signed_in);
+      if (data.revoked) {
+        // The advisor stopped others using the code this login came in with: signed out, and back to the claim page, nowhere else.
+        clearSessionStamp();
+        setMember(null);
+        if (!window.location.pathname.startsWith("/claim")) window.location.replace("/claim");
+        return true;
+      }
       if (data.signed_in && data.member) {
         stampSessionStart();
         setMember(data.member);
@@ -168,6 +182,23 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       window.clearTimeout(timer);
     };
   }, [checkSession]);
+
+  // A login that came in through a shared code is checked again every few seconds and whenever the tab comes back, so switching
+  // sharing off takes effect without a reload.
+  useEffect(() => {
+    if (!sharedEntry) return;
+    const timer = window.setInterval(() => void checkSession(), SHARED_CHECK_MS);
+    const onShown = () => {
+      if (document.visibilityState === "visible") void checkSession();
+    };
+    document.addEventListener("visibilitychange", onShown);
+    window.addEventListener("focus", onShown);
+    return () => {
+      window.clearInterval(timer);
+      document.removeEventListener("visibilitychange", onShown);
+      window.removeEventListener("focus", onShown);
+    };
+  }, [sharedEntry, checkSession]);
 
   const value = useMemo<AuthContextValue>(
     () => ({
