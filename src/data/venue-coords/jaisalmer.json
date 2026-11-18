@@ -373,6 +373,26 @@
       "lat": 26.91026,
       "lon": 70.912556,
       "photos": []
+    },
+    {
+      "n": "Kuldhara",
+      "cat": "do",
+      "tier": "",
+      "a": "A museum, a haunted village and the lake",
+      "d": "A village a few kilometres out, said to be haunted.",
+      "lat": 26.869877,
+      "lon": 70.785123,
+      "photos": []
+    },
+    {
+      "n": "Jaisalmer Fort",
+      "cat": "do",
+      "tier": "",
+      "a": "The living fort",
+      "d": "Built in 1156 and still lived in, with 99 bastions and four gates.",
+      "lat": 26.912765,
+      "lon": 70.912493,
+      "photos": []
     }
   ]
 }

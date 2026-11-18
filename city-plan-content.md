@@ -971,7 +971,7 @@ To replace a photo: overwrite the file named in the table, in public/images/plan
 |---|---|---|---|---|---|---|
 | Morning | Amalfi Cathedral | none | The thousand-year-old centerpiece of Amalfi's compact historic center, with hidden courtyards and stairways beyond. |  | placeholder | none |
 | Afternoon | Museo della Carta | Museo della Carta (Paper Museum) | A history lesson in the region's papermaking tradition, inside a historic 13th-century paper mill. | Afternoon treat at Pasticceria Pansa: the dome-shaped delizia al limone, a lemon cream-filled sponge cake. | placeholder | none |
-| Evening | Le Sirenuse Mare | none | Arrive by boat and stay until sunset, from the tiered beach club to lunch under the pergolas. | The langoustine carpaccio with caviar is a must-order, then gelato or a granita at the Dolce Far Niente Bar. | placeholder | none |
+| Evening | Le Sirenuse Mare | none | Arrive by boat and stay until sunset, from the tiered beach club to lunch under the pergolas. | The langoustine carpaccio with caviar is a must-order, then gelato or a granita at the Dolce Far Niente Bar. | /images/plans/amalfi-coast/day1-evening.jpg | https://media.cntraveler.com/photos/6aac1b64b864055850d72dd1/master/w_1200,c_limit/x.jpg |
 
 ### Day 2: Ravello
 
@@ -987,7 +987,7 @@ To replace a photo: overwrite the file named in the table, in public/images/plan
 |---|---|---|---|---|---|---|
 | Morning | Path of the Gods | none | A 4.3-mile former shepherd's trail that ends above Positano; descend 1,700 timeworn stone steps to the town. |  | placeholder | none |
 | Afternoon | Vietri sul Mare | Vietri sul Mare: the Ceramics Town | A centuries-old ceramics heritage, with small workshops and family factories still making hand-painted pieces. |  | placeholder | none |
-| Evening | Positano | none | At Emporio Sirenuse, Le Sirenuse's flagship store, find caftans and accessories inspired by Amalfi. |  | placeholder | none |
+| Evening | Positano | none | At Emporio Sirenuse, Le Sirenuse's flagship store, find caftans and accessories inspired by Amalfi. |  | /images/plans/amalfi-coast/day3-evening.jpg | https://media.cntraveler.com/photos/64823876d19bbdf5ed1d10d1/master/w_1200,c_limit/x.jpg |
 
 
 ## Goa
@@ -996,8 +996,8 @@ To replace a photo: overwrite the file named in the table, in public/images/plan
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
-| Morning | Parra's coconut tree road | none | Now Instagram-famous but quiet at daybreak, when the fields are misty. |  | placeholder | none |
-| Afternoon | Fort Aguada | Fort Aguada & lighthouse | A trail winds past trees and stone outcrops to a dramatic headland where the Mandovi River meets the Arabian Sea. |  | placeholder | none |
+| Morning | Parra's coconut tree road | none | Now Instagram-famous but quiet at daybreak, when the fields are misty. |  | /images/plans/goa/day1-morning.jpg | https://media.cntraveler.com/photos/69d7b2b090b098281a80af64/master/w_1200,c_limit/x.jpg |
+| Afternoon | Fort Aguada | Fort Aguada & lighthouse | A trail winds past trees and stone outcrops to a dramatic headland where the Mandovi River meets the Arabian Sea. |  | /images/plans/goa/day1-afternoon.jpg | https://media.cntraveler.com/photos/69d7b2b0f984945ec366a111/master/w_1200,c_limit/x.jpg |
 | Evening | Pablo's, Assagao | none | Local beers and feni, a spirit made from fermented cashew apples or coconut sap: uncomplicated and very Goan. | Dinner at Izumi Assagao: the yuzu prawn tempura maki and hamachi truffle ponzu. | placeholder | none |
 
 ### Day 2: Museums and seafood
@@ -1023,9 +1023,9 @@ To replace a photo: overwrite the file named in the table, in public/images/plan
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
-| Morning | Karura Forest | none | Without a doubt the most scenic route in the city, and the second largest urban forest in the world. |  | placeholder | none |
+| Morning | Karura Forest | none | Without a doubt the most scenic route in the city, and the second largest urban forest in the world. |  | /images/plans/nairobi-mara/day1-morning.jpg | https://media.cntraveler.com/photos/6aeb593f043060bd0332089c/master/w_1200,c_limit/x.jpg |
 | Afternoon | Nairobi Gallery | none | Home to Point Zero, the spot from which all distances in Kenya are measured. |  | placeholder | none |
-| Evening | The Talisman | none | A Nairobi stalwart where a corner table by the fireplace on a chilly evening is a date-night dream. |  | placeholder | none |
+| Evening | The Talisman | none | A Nairobi stalwart where a corner table by the fireplace on a chilly evening is a date-night dream. |  | /images/plans/nairobi-mara/day1-evening.jpg | https://media.cntraveler.com/photos/6aeb581bcaeffeb9a3dbab23/master/w_1200,c_limit/x.jpg |
 
 ### Day 2: Tigoni countryside
 
@@ -1040,7 +1040,7 @@ To replace a photo: overwrite the file named in the table, in public/images/plan
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
 | Morning | Toi Market | none | Sprawling, busy and a little chaotic: an open-air flea-market vibe with thousands of stalls. |  | placeholder | none |
-| Afternoon | McMillan Memorial Library | none | A perfect little time capsule of Nairobi, architecturally and literally, now being renovated by Book Bunk. | Lunch at Tin Roof Café in Karen: the salad bar is iconic. | placeholder | none |
+| Afternoon | McMillan Memorial Library | none | A perfect little time capsule of Nairobi, architecturally and literally, now being renovated by Book Bunk. | Lunch at Tin Roof Café in Karen: the salad bar is iconic. | /images/plans/nairobi-mara/day3-afternoon.jpg | https://media.cntraveler.com/photos/6aeb58c36ef3b5be502254a6/master/w_1200,c_limit/x.jpg |
 | Evening | Geco and Cave-à-Manger | none | Geco is alive with Nairobi's music scene, especially on Wednesdays; Cave-à-Manger has an expansive wine list. |  | placeholder | none |
 
 
@@ -1051,24 +1051,24 @@ To replace a photo: overwrite the file named in the table, in public/images/plan
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
 | Morning | Gyeongbokgung Palace | Gyeongbokgung Palace | First established in 1395, burned down in the 16th century, rebuilt, plundered and rebuilt again: still singularly beautiful. |  | placeholder | none |
-| Afternoon | Changdeokgung Palace | Changdeokgung Palace & Secret Garden (Huwon) | Look up at the detailed roof of this royal palace. |  | placeholder | none |
-| Evening | Insa-dong | none | A picturesque neighbourhood of hanoks, traditional Korean houses, with art museums, galleries, restaurants and cafés. |  | placeholder | none |
+| Afternoon | Changdeokgung Palace | Changdeokgung Palace & Secret Garden (Huwon) | Look up at the detailed roof of this royal palace. |  | /images/plans/seoul/day1-afternoon.jpg | https://media.cntraveler.com/photos/69e7a6a5f50f80a497a8d09a/master/w_1200,c_limit/x.jpg |
+| Evening | Insa-dong | none | A picturesque neighbourhood of hanoks, traditional Korean houses, with art museums, galleries, restaurants and cafés. |  | /images/plans/seoul/day1-evening.jpg | https://media.cntraveler.com/photos/69e7a6a65f5f0ea3b34f0cc4/master/w_1200,c_limit/x.jpg |
 
 ### Day 2: Art and markets
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
-| Morning | Leeum Museum of Art | Leeum Museum of Art | An extraordinary permanent collection of Korean ceramics, on a slight hill in an art-rich part of the city. |  | placeholder | none |
-| Afternoon | Gyeongdong Market | none | An outdoor market where chef Kang Mingoo buys ingredients, with stalls devoted to jang, fermented pastes. | Lunch at Hansung Kalguksu: a casual Gangnam spot for knife-cut noodles. | placeholder | none |
+| Morning | Leeum Museum of Art | Leeum Museum of Art | An extraordinary permanent collection of Korean ceramics, on a slight hill in an art-rich part of the city. |  | /images/plans/seoul/day2-morning.jpg | https://media.cntraveler.com/photos/69e7a6a518edcbf72dd05d8f/master/w_1200,c_limit/x.jpg |
+| Afternoon | Gyeongdong Market | none | An outdoor market where chef Kang Mingoo buys ingredients, with stalls devoted to jang, fermented pastes. | Lunch at Hansung Kalguksu: a casual Gangnam spot for knife-cut noodles. | /images/plans/seoul/day2-afternoon.jpg | https://media.cntraveler.com/photos/69e7a6a518edcbf72dd05d8f/master/w_1200,c_limit/x.jpg |
 | Evening | Mingles | none | Kang Mingoo's Michelin-spangled restaurant in Gangnam, mixing tradition with innovative techniques and global influences. |  | placeholder | none |
 
 ### Day 3: Hanbok and Seongsu-dong
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
-| Morning | Wear a hanbok | none | Locals and tourists dress in hanboks, partly because shops in the neighbourhood often discount for anyone in a rented one. |  | placeholder | none |
+| Morning | Wear a hanbok | none | Locals and tourists dress in hanboks, partly because shops in the neighbourhood often discount for anyone in a rented one. |  | /images/plans/seoul/day3-morning.jpg | https://media.cntraveler.com/photos/69e7a6a55f5f0ea3b34f0cb8/master/w_1200,c_limit/x.jpg |
 | Afternoon | Seongsu-dong | Seongsu-dong | A trendy, formerly industrial neighbourhood, with a pop-up complex of 200 blue shipping containers and a rice mill turned café. |  | placeholder | none |
-| Evening | Frieze House | none | Frieze launched in Seoul in 2022, and its permanent art space, Frieze House, debuted last year. |  | placeholder | none |
+| Evening | Frieze House | none | Frieze launched in Seoul in 2022, and its permanent art space, Frieze House, debuted last year. |  | /images/plans/seoul/day3-evening.jpg | https://media.cntraveler.com/photos/69e7a6a6f50f80a497a8d0a4/master/w_1200,c_limit/x.jpg |
 
 
 ## Mykonos
@@ -1077,8 +1077,8 @@ To replace a photo: overwrite the file named in the table, in public/images/plan
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
-| Morning | Little Venice and the windmills | Little Venice (Alefkandra) | Many of the outdoor tables in Little Venice are just inches from the tide, with the windmills above. |  | placeholder | none |
-| Afternoon | Agios Sostis beach | Agios Sostis Beach | A quieter day at a beach away from the beach-club scene. |  | placeholder | none |
+| Morning | Little Venice and the windmills | Little Venice (Alefkandra) | Many of the outdoor tables in Little Venice are just inches from the tide, with the windmills above. |  | /images/plans/mykonos/day1-morning.jpg | https://media.cntraveler.com/photos/6a8cae4f6ea552ae9366a426/master/w_1200,c_limit/x.jpg |
+| Afternoon | Agios Sostis beach | Agios Sostis Beach | A quieter day at a beach away from the beach-club scene. |  | /images/plans/mykonos/day1-afternoon.jpg | https://media.cntraveler.com/photos/6a8cb799d5869b1bb2dee359/master/w_1200,c_limit/x.jpg |
 | Evening | Sea Satin | none | The late-night dining room beneath the windmills, where white napkins circle overhead and people climb onto the tables. |  | placeholder | none |
 
 ### Day 2: Beach clubs
@@ -1105,13 +1105,13 @@ To replace a photo: overwrite the file named in the table, in public/images/plan
 |---|---|---|---|---|---|---|
 | Morning | A sunrise run through the city | none | A 5 or 10K running tour with Running in Morocco takes in the kasbah walls, Bab Agnaou and the Mamounia gates, adapted to your pace. |  | placeholder | none |
 | Afternoon | The medina with a cultural guide | none | Walk with Najat Noudari past breadmakers, blacksmiths, weavers and tanners, and landmarks like the Koutoubia Mosque and the Saadian Tombs. | Lunch at La Table du Souk: prawn green salads and barbecue sea bass. | placeholder | none |
-| Evening | Odette Rooftop Bar | La Sultana Marrakech | A mezze menu of Moroccan ingredients with global flair, such as crispy sheep cheese cigars, and cocktails like Rock the Kasbah. |  | placeholder | none |
+| Evening | Odette Rooftop Bar | La Sultana Marrakech | A mezze menu of Moroccan ingredients with global flair, such as crispy sheep cheese cigars, and cocktails like Rock the Kasbah. |  | /images/plans/marrakech/day1-evening.jpg | https://stories.forbestravelguide.com/wp-content/uploads/2025/06/ThreeDaysinMarrakech-Odette-CreditCecileTreal.jpg |
 
 ### Day 2: Balloons and palaces
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
-| Morning | A hot-air balloon at sunrise | none | Drift above olive groves, desert ridges and Berber villages with Atlas Montgolfière, then land for a traditional desert-camp breakfast. |  | placeholder | none |
+| Morning | A hot-air balloon at sunrise | none | Drift above olive groves, desert ridges and Berber villages with Atlas Montgolfière, then land for a traditional desert-camp breakfast. |  | /images/plans/marrakech/day2-morning.jpg | https://stories.forbestravelguide.com/wp-content/uploads/2025/06/ThreeDaysinMarrakech-HotairBalloonMarrakech-CreditiStock-FredericProchasson.jpg |
 | Afternoon | Bahia Palace and Dar Si Said | Bahia Palace | A 19th-century marvel of painted ceilings and sculpted gardens, then a former palace holding Morocco's richest wood carvings and textiles. | Lunch at Terrasse des Épices, or Zeitoun Cafe for lamb tagine and harira. | placeholder | none |
 | Evening | El Fenn rooftop | El Fenn | A design oasis beside the Koutoubia Mosque, pouring outstanding drinks like the El Pacha and cooking amazing meat and fish. |  | placeholder | none |
 
@@ -1119,7 +1119,7 @@ To replace a photo: overwrite the file named in the table, in public/images/plan
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
-| Morning | Jardin Majorelle | Jardin Majorelle | Dreamed up in the 1920s by Jacques Majorelle and restored by Yves Saint Laurent and Pierre Bergé: a two-and-a-half-acre oasis in Majorelle Blue. |  | placeholder | none |
+| Morning | Jardin Majorelle | Jardin Majorelle | Dreamed up in the 1920s by Jacques Majorelle and restored by Yves Saint Laurent and Pierre Bergé: a two-and-a-half-acre oasis in Majorelle Blue. |  | /images/plans/marrakech/day3-morning.jpg | https://stories.forbestravelguide.com/wp-content/uploads/2025/06/ThreeDaysinMarrakech-JardinMajorelle-CreditiStock-BalateDorin.jpg |
 | Afternoon | Yves Saint Laurent Museum | none | Africa's first fashion museum, next door; book the combined ticket in advance. | Post-museum lounging on the sun-drenched terrace café. | placeholder | none |
 | Evening | A Royal Hammam | La Sultana Marrakech | La Sultana's Royal Hammam Signature treatment: a black-soap exfoliation, a body mask and gentle stretching. |  | placeholder | none |
 
@@ -1130,8 +1130,8 @@ To replace a photo: overwrite the file named in the table, in public/images/plan
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
-| Morning | A local-led food tour | none | Sample bun cha, bo la lot and endless varieties of che, sitting streetside on plastic stools. |  | placeholder | none |
-| Afternoon | Hoan Kiem Lake | Hoan Kiem Lake | The Lake of the Returned Sword: stroll to the scarlet Huc Bridge and Ngoc Son Temple, a 19th-century shrine. |  | placeholder | none |
+| Morning | A local-led food tour | none | Sample bun cha, bo la lot and endless varieties of che, sitting streetside on plastic stools. |  | /images/plans/hanoi/day1-morning.jpg | https://stories.forbestravelguide.com/wp-content/uploads/2026/02/Spending3DaysInHanoi-BunCha-CreditSarahBisacca.jpg |
+| Afternoon | Hoan Kiem Lake | Hoan Kiem Lake | The Lake of the Returned Sword: stroll to the scarlet Huc Bridge and Ngoc Son Temple, a 19th-century shrine. |  | /images/plans/hanoi/day1-afternoon.jpg | https://stories.forbestravelguide.com/wp-content/uploads/2026/02/Spending3DaysInHanoi-HoanKiemLakeNight-CreditSarahBisacca.jpg |
 | Evening | The Alchemist and Beer Street | none | A drink at speakeasy-style The Alchemist, then Ta Hien Street, nicknamed Beer Street, and Polite & Co. | Dinner at Gia or Home Hanoi for elevated northern Vietnamese cuisine. | placeholder | none |
 
 ### Day 2: Coffee and temples
@@ -1139,16 +1139,16 @@ To replace a photo: overwrite the file named in the table, in public/images/plan
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
 | Morning | Su Quan Roastery | none | A roughly two-hour workshop on traditional Vietnamese coffee, and turning it into egg coffee or coconut coffee. |  | placeholder | none |
-| Afternoon | Temple of Literature | Temple of Literature | Vietnam's first university, founded in 1070, then the 11th-century Quan Thanh Temple. | Lunch at Binh Banh My, a local recommendation. | placeholder | none |
-| Evening | Tran Quoc Pagoda | Tran Quoc Pagoda | The city's oldest Buddhist shrine, on West Lake, with scarlet towers that make a picture-perfect sunset. | Dinner at Pho Suong: a cash-only stall famous for beef pho. | placeholder | none |
+| Afternoon | Temple of Literature | Temple of Literature | Vietnam's first university, founded in 1070, then the 11th-century Quan Thanh Temple. | Lunch at Binh Banh My, a local recommendation. | /images/plans/hanoi/day2-afternoon.jpg | https://stories.forbestravelguide.com/wp-content/uploads/2026/02/Spending3DaysInHanoi-TempleofLiterature-CreditSarahBisacca.jpg |
+| Evening | Tran Quoc Pagoda | Tran Quoc Pagoda | The city's oldest Buddhist shrine, on West Lake, with scarlet towers that make a picture-perfect sunset. | Dinner at Pho Suong: a cash-only stall famous for beef pho. | /images/plans/hanoi/day2-evening.jpg | https://stories.forbestravelguide.com/wp-content/uploads/2026/02/Spending3DaysInHanoi-TranQuocPagoda-CreditSarahBisacca.jpg |
 
 ### Day 3: History and Train Street
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
 | Morning | Hoa Lo Prison | Hoa Lo Prison | Nicknamed the Hanoi Hilton, where Vietnamese revolutionaries and U.S. POWs were imprisoned. | Breakfast: coffee and banh mi in the Old Quarter. | placeholder | none |
-| Afternoon | Imperial Citadel of Thang Long | Imperial Citadel of Thang Long | A UNESCO World Heritage Site that was the political heart of Vietnam for more than a millennium. |  | placeholder | none |
-| Evening | Train Street | Train Street | Cafés and homes sit inches from a 19th-century railway; night trains typically pass around 7 and 9. |  | placeholder | none |
+| Afternoon | Imperial Citadel of Thang Long | Imperial Citadel of Thang Long | A UNESCO World Heritage Site that was the political heart of Vietnam for more than a millennium. |  | /images/plans/hanoi/day3-afternoon.jpg | https://stories.forbestravelguide.com/wp-content/uploads/2026/02/Spending3DaysInHanoi-CitadelofThangLong-CreditSarahBisacca.jpg |
+| Evening | Train Street | Train Street | Cafés and homes sit inches from a 19th-century railway; night trains typically pass around 7 and 9. |  | /images/plans/hanoi/day3-evening.jpg | https://stories.forbestravelguide.com/wp-content/uploads/2026/02/Spending3DaysInHanoi-TrainStreetDusk-CreditSarahBisacca.jpg |
 
 
 ## Milan
@@ -1157,8 +1157,8 @@ To replace a photo: overwrite the file named in the table, in public/images/plan
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
-| Morning | An architecture walk in Brera | Brera | A Context Travel tour of Milan's most important buildings, with a peek into vintage couture shop Cavalli e Nastri. |  | placeholder | none |
-| Afternoon | Pinacoteca di Brera | Pinacoteca di Brera | An impressive Renaissance gallery, home to the 250-plus-year-old Accademia di Belle Arti di Brera. | Aperitivo in the garden of Bvlgari Hotel Milan's Il Bar. | placeholder | none |
+| Morning | An architecture walk in Brera | Brera | A Context Travel tour of Milan's most important buildings, with a peek into vintage couture shop Cavalli e Nastri. |  | /images/plans/milan/day1-morning.jpg | https://stories.forbestravelguide.com/wp-content/uploads/2019/05/LongWeekendInMilan-StreetsofBrera-CreditPaulThuysbaert.jpg |
+| Afternoon | Pinacoteca di Brera | Pinacoteca di Brera | An impressive Renaissance gallery, home to the 250-plus-year-old Accademia di Belle Arti di Brera. | Aperitivo in the garden of Bvlgari Hotel Milan's Il Bar. | /images/plans/milan/day1-afternoon.jpg | https://stories.forbestravelguide.com/wp-content/uploads/2019/05/LongWeekendInMilan-StreetsofBrera-CreditPaulThuysbaert.jpg |
 | Evening | Voce Aimo e Nadia | Gallerie d'Italia: Piazza Scala | Dinner in the Galleria d'Italia, with changing tasting menus designed around the adjacent gallery's displays. | Milan's iconic saffron risotto. | placeholder | none |
 
 ### Day 2: Design and contemporary art
@@ -1192,7 +1192,7 @@ To replace a photo: overwrite the file named in the table, in public/images/plan
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
-| Morning | The Damaniyat Islands | none | A 40-minute speedboat from Al Mouj Marina to nine limestone islands and coral reefs, a nature reserve ideal for snorkeling. |  | placeholder | none |
+| Morning | The Damaniyat Islands | none | A 40-minute speedboat from Al Mouj Marina to nine limestone islands and coral reefs, a nature reserve ideal for snorkeling. |  | /images/plans/muscat/day2-morning.jpg | https://stories.forbestravelguide.com/wp-content/uploads/2025/05/HowToSpend3DaysInMuscat-SnorkelingatDamaniyatIslands-CreditNatashaAmar.jpg |
 | Afternoon | Guerlain Spa | none | At The St. Regis Al Mouj: arrive early for the sauna and hammam, then an Imperial Relaxing Massage on a heated bed. | Lunch at Zorba: breezy Greek food with sea vistas. | placeholder | none |
 | Evening | Coya | none | Incan-heritage-inspired interiors and modern Peruvian food, best enjoyed family-style. | The ceviche platter, prawn and sea bass gyoza, and tres leches cake. | placeholder | none |
 
@@ -1200,7 +1200,7 @@ To replace a photo: overwrite the file named in the table, in public/images/plan
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
-| Morning | Nizwa Fort | Nizwa Fort & Souq | Built over 12 years in the 17th century, with the largest circular tower in the region and notches for pouring hot date syrup on invaders. |  | placeholder | none |
+| Morning | Nizwa Fort | Nizwa Fort & Souq | Built over 12 years in the 17th century, with the largest circular tower in the region and notches for pouring hot date syrup on invaders. |  | /images/plans/muscat/day3-morning.jpg | https://stories.forbestravelguide.com/wp-content/uploads/2025/05/HowToSpend3DaysInMuscat-NizwaFort-CreditNatashaAmar.jpg |
 | Afternoon | Nizwa Souq | Nizwa Fort & Souq | Thought to date to the 3rd century, selling frankincense, silver jewelry, khanjar and pottery. Bargaining is expected. | Lunch at Liwan Nizwa: rice with curried fish and grilled seafood. | placeholder | none |
 | Evening | Roberto's | none | Contemporary Italian seafood at the hotel, starting with a frankincense-infused Spritz My Way. | Slow-roasted octopus, and a pistachio ice cream with olive oil. | placeholder | none |
 
@@ -1213,13 +1213,13 @@ To replace a photo: overwrite the file named in the table, in public/images/plan
 |---|---|---|---|---|---|---|
 | Morning | Midosuji Avenue | none | Considered the Champs-Élysées of Osaka, and a favourite of travellers who like luxury shops. |  | placeholder | none |
 | Afternoon | Afternoon tea at The St. Regis Osaka | none | On the 12th-floor rooftop Zen garden, with a seasonal Japanese sake garden. | A traditional afternoon tea service, and the signature champagne sabrage at dusk. | placeholder | none |
-| Evening | Dotonbori | Dotonbori & the Glico Sign | A district that buzzes at all hours, with the famous Glico man advertisement, then Shinsaibashi's covered arcade. | Okonomiyaki at Okonomiyaki Mizuno, crab at Kani Doraku or kitsune udon at Dotonbori Imai Honten. | placeholder | none |
+| Evening | Dotonbori | Dotonbori & the Glico Sign | A district that buzzes at all hours, with the famous Glico man advertisement, then Shinsaibashi's covered arcade. | Okonomiyaki at Okonomiyaki Mizuno, crab at Kani Doraku or kitsune udon at Dotonbori Imai Honten. | /images/plans/osaka/day1-evening.jpg | https://stories.forbestravelguide.com/wp-content/uploads/2024/12/HowToSpend3DaysInOsaka-Dotonbori-CreditGizelleLau.jpg |
 
 ### Day 2: Castle and shrines
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
-| Morning | Osaka Castle | Osaka Castle (Osaka-jo) | A reconstruction of the original with a museum-style attraction inside; book tickets online to skip the line. | Breakfast at The St. Regis Osaka: a Japanese tray of soy-glazed fish, rice and tofu. | placeholder | none |
+| Morning | Osaka Castle | Osaka Castle (Osaka-jo) | A reconstruction of the original with a museum-style attraction inside; book tickets online to skip the line. | Breakfast at The St. Regis Osaka: a Japanese tray of soy-glazed fish, rice and tofu. | /images/plans/osaka/day2-morning.jpg | https://stories.forbestravelguide.com/wp-content/uploads/2024/12/HeroHowToSpend3DaysInOsaka-OsakaCastle-CreditiStock-SeanPavonePhoto.jpg |
 | Afternoon | Sumiyoshi Taisha | Sumiyoshi Taisha | One of the oldest Shinto shrines in Japan, founded in the third century, with the iconic Sorihashi Bridge. | Or catch a bunraku show at the National Bunraku Theatre. | placeholder | none |
 | Evening | Teppanyaki Wajo | none | A high-end grill with seafood from the Seto Inland Sea and beef from Kobe, led by a chef who apprenticed under Joël Robuchon. | Finish with a matcha green tea service. | placeholder | none |
 
@@ -1229,7 +1229,7 @@ To replace a photo: overwrite the file named in the table, in public/images/plan
 |---|---|---|---|---|---|---|
 | Morning | Kuromon Market | none | Dating back hundreds of years, with fresh seafood and meat, grilled seafood and yakitori skewers. | Don't miss the takoyaki, round savory bites usually filled with octopus. | placeholder | none |
 | Afternoon | A day trip to Nara | none | Pay respect to the almost 50-foot bronze Buddha at Tōdai-ji, among the many deer roaming local sites. | Kyoto, under an hour by train, is the other option. | placeholder | none |
-| Evening | Kobe beef | none | Kobe is the day trip for foodies, with many excellent restaurants serving the region's marbled beef. |  | placeholder | none |
+| Evening | Kobe beef | none | Kobe is the day trip for foodies, with many excellent restaurants serving the region's marbled beef. |  | /images/plans/osaka/day3-evening.jpg | https://stories.forbestravelguide.com/wp-content/uploads/2024/12/HowToSpend3DaysInOsaka-Okonomiyaki-CreditGizelleLau.jpg |
 
 ## Bengaluru
 
@@ -1291,7 +1291,7 @@ To replace a photo: overwrite the file named in the table, in public/images/plan
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
-| Morning | Gateway of India | Gateway of India | Right opposite the Taj Mahal Palace, the perfect starting point for exploring old Bombay. |  | placeholder | none |
+| Morning | Gateway of India | Gateway of India | Right opposite the Taj Mahal Palace, the perfect starting point for exploring old Bombay. |  | /images/plans/mumbai/day1-morning.jpg | https://media.timeout.com/images/106369781/image.jpg |
 | Afternoon | Art-Deco Mumbai walk | Bombay High Court & the Oval Maidan | A tour of one of Asia's largest collections of Art Deco architecture, the UNESCO World Heritage cluster around Oval Maidan. |  | day1-afternoon.jpg | https://media.timeout.com/images/106442545/image.jpg |
 | Evening | Marine Drive | InterContinental Marine Drive, Mumbai | Not cheesy but rightfully dazzling: the Queen's Necklace, beside a sprawling heritage Art Deco cluster. |  | day1-evening.jpg | https://media.timeout.com/images/106369781/image.jpg |
 
@@ -1647,7 +1647,7 @@ To replace a photo: overwrite the file named in the table, in public/images/plan
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
-| Morning | Sacsayhuamán | Sacsayhuamán | An archaeological site built in the 1400s above 12,000 feet, with walls of massive stone blocks fitted without mortar. |  | placeholder | none |
+| Morning | Sacsayhuamán | Sacsayhuamán | An archaeological site built in the 1400s above 12,000 feet, with walls of massive stone blocks fitted without mortar. |  | /images/plans/cusco/day2-morning.jpg | https://stories.forbestravelguide.com/wp-content/uploads/2025/06/TwoDaysinCusco-FortalezaDeSacsayhuaman-CreditCesarVallejos-PROMPERU.jpg |
 | Afternoon | San Blas | none | Walk down stone staircases and lanes lined with colourful street art, with coffee or hot chocolate at Xapiri Ground. | Lunch at Green Point: plant-based dishes in the garden, such as the Vegan Cusco Grill. | placeholder | none |
 | Evening | Planetarium Cusco | none | A family-run star-gazing site with a presentation on the Incas' view of the cosmos and, weather permitting, a telescope. | Finish with a pisco sour in the hotel bar. | placeholder | none |
 
@@ -1656,9 +1656,9 @@ To replace a photo: overwrite the file named in the table, in public/images/plan
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
-| Morning | Pisac Market | Pisac Market | The vibrant Sunday fair in the Sacred Valley town of Pisac, with handwoven textiles, Inca-inspired pottery and spit-roasted cuy. |  | placeholder | none |
+| Morning | Pisac Market | Pisac Market | The vibrant Sunday fair in the Sacred Valley town of Pisac, with handwoven textiles, Inca-inspired pottery and spit-roasted cuy. |  | /images/plans/cusco/day3-morning.jpg | https://media.timeout.com/images/105272473/image.jpg |
 | Afternoon | Ollantaytambo Fortress | Ollantaytambo Fortress | The stone terraces of the Ollantaytambo fortress, one of the sights covered by Cusco's boleto turístico. | Lunch at Mil, overlooking the Moray ruins and serving only what grows above 11,500 feet. | placeholder | none |
-| Evening | Museo del Pisco | Museo del Pisco | A slick bar with locations in Cusco, Lima and Arequipa, serving pisco sours and cocktails made with coca leaves and purple corn. |  | placeholder | none |
+| Evening | Museo del Pisco | Museo del Pisco | A slick bar with locations in Cusco, Lima and Arequipa, serving pisco sours and cocktails made with coca leaves and purple corn. |  | /images/plans/cusco/day3-evening.jpg | https://media.timeout.com/images/105272458/image.jpg |
 
 ## Porto
 
@@ -1667,15 +1667,15 @@ To replace a photo: overwrite the file named in the table, in public/images/plan
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
 | Morning | A sidecar tour | none | Porto Sidecar Tours offers guided rides from the sidecar of a vintage motorcycle, from the cathedral to the best coffee shops. | Lunch: a francesinha at A Regaleira, widely credited as the home of the original. | placeholder | none |
-| Afternoon | Clérigos Church and São Francisco | none | Climb roughly 225 spiral steps for panoramic views, then see the Church of Saint Francis, covered in gold leaf. | A pastel de nata at C'alma Coffee Room. | placeholder | none |
+| Afternoon | Clérigos Church and São Francisco | none | Climb roughly 225 spiral steps for panoramic views, then see the Church of Saint Francis, covered in gold leaf. | A pastel de nata at C'alma Coffee Room. | /images/plans/porto/day1-afternoon.jpg | https://stories.forbestravelguide.com/wp-content/uploads/2026/06/HowToSpend2DaysInPorto-BellTower-CreditClerigosChurch.jpg |
 | Evening | The Ribeira | The Ribeira & Cais da Ribeira riverfront | A riverside promenade, with a white port and tonic as the light shifts over the Dom Luís I Bridge. | Dinner at O Antunes: a family-owned restaurant for bacalhau and pork knuckle for two; reservations a must. | placeholder | none |
 
 ### Day 2: Cathedral, market and World of Wine
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
-| Morning | Porto Cathedral and the Chapel of Souls | Porto Cathedral (Sé) | Built in the 12th century with Gothic cloisters, then the Chapel of Souls, covered in blue-and-white azulejo tiles. | Breakfast at Zenith: bacon-and-egg pancakes or avocado toast on charcoal-cocoa bread. | placeholder | none |
-| Afternoon | World of Wine | WOW: World of Wine cultural district | A sprawling complex in the old port wine warehouses of Vila Nova de Gaia, with seven museums and 12 restaurants. | Lunch at Mercado do Bolhão: presunto, cheese, oysters and vinho verde from the market vendors. | placeholder | none |
+| Morning | Porto Cathedral and the Chapel of Souls | Porto Cathedral (Sé) | Built in the 12th century with Gothic cloisters, then the Chapel of Souls, covered in blue-and-white azulejo tiles. | Breakfast at Zenith: bacon-and-egg pancakes or avocado toast on charcoal-cocoa bread. | /images/plans/porto/day2-morning.jpg | https://stories.forbestravelguide.com/wp-content/uploads/2026/06/HowToSpend2DaysInPorto-InteriorCourtyard-CreditPortoCathedral.jpg |
+| Afternoon | World of Wine | WOW: World of Wine cultural district | A sprawling complex in the old port wine warehouses of Vila Nova de Gaia, with seven museums and 12 restaurants. | Lunch at Mercado do Bolhão: presunto, cheese, oysters and vinho verde from the market vendors. | /images/plans/porto/day2-afternoon.jpg | https://stories.forbestravelguide.com/wp-content/uploads/2026/06/HowToSpend2DaysInPorto-ChocolateExperience-CreditWOW.jpg |
 | Evening | Jardim do Morro | Jardim do Morro | A hilltop garden in Gaia with some of the city's best views of Porto and the Douro; arrive just before sunset. | Dinner at Yeatman Gastronomic Restaurant: chef Ricardo Costa's tasting menus matched to the cellar. | placeholder | none |
 
 
@@ -1683,9 +1683,9 @@ To replace a photo: overwrite the file named in the table, in public/images/plan
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
-| Morning | A Douro boat trip | none | A boat trip along the Douro wine region is described as an absolute must, with sights, scenery and wine. |  | placeholder | none |
-| Afternoon | Livraria Lello | Livraria Lello | One of the world's most beautiful bookstores, said to have inspired J.K. Rowling. A rite of passage for book lovers. | Then Porto's traditional chocolate makers: Avianense, the oldest, from 1914, and Arcádia. | placeholder | none |
-| Evening | Cervejaria Gazela | none | A counter in the Batalha neighbourhood famous for its cachorrinhos, a Portuguese hot dog. | A toasted bun with sausage, melted cheese, butter and spicy sauce, cut into pieces. | placeholder | none |
+| Morning | A Douro boat trip | none | A boat trip along the Douro wine region is described as an absolute must, with sights, scenery and wine. |  | /images/plans/porto/day3-morning.jpg | https://media.timeout.com/images/105286225/image.jpg |
+| Afternoon | Livraria Lello | Livraria Lello | One of the world's most beautiful bookstores, said to have inspired J.K. Rowling. A rite of passage for book lovers. | Then Porto's traditional chocolate makers: Avianense, the oldest, from 1914, and Arcádia. | /images/plans/porto/day3-afternoon.jpg | https://media.timeout.com/images/105286224/image.jpg |
+| Evening | Cervejaria Gazela | none | A counter in the Batalha neighbourhood famous for its cachorrinhos, a Portuguese hot dog. | A toasted bun with sausage, melted cheese, butter and spicy sauce, cut into pieces. | /images/plans/porto/day3-evening.jpg | https://media.timeout.com/images/105286210/image.jpg |
 
 ## Doha
 
@@ -1695,15 +1695,15 @@ To replace a photo: overwrite the file named in the table, in public/images/plan
 |---|---|---|---|---|---|---|
 | Morning | Msheireb Museums | Msheireb Museums | Four restored heritage homes tracing Qatar's social, cultural and economic development, including Bin Jelmood House and Radwani House. | Breakfast at IzuIzu on Baharat Msheireb: truffled eggs or avocado toast. | placeholder | none |
 | Afternoon | National Museum of Qatar | National Museum of Qatar | Designed by Jean Nouvel and inspired by the desert rose, with immersive exhibits on Qatar's history. | Lunch at Jiwan: modern Qatari food with Alain Ducasse, on a terrace over the skyline. | placeholder | none |
-| Evening | Nobu Doha | Nobu Doha | On its own private island at the Four Seasons, with a 360-degree rooftop terrace and the famed black cod. |  | placeholder | none |
+| Evening | Nobu Doha | Nobu Doha | On its own private island at the Four Seasons, with a 360-degree rooftop terrace and the famed black cod. |  | /images/plans/doha/day1-evening.jpg | https://stories.forbestravelguide.com/wp-content/uploads/2025/04/SpendingTwoDaysInDoha-Rooftop-CreditNobu.jpg |
 
 ### Day 2: Islamic art and the souq
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
-| Morning | Museum of Islamic Art | Museum of Islamic Art | An I.M. Pei building holding 1,200 years of Islamic history, including the rare Abbasid Blue Quran. |  | placeholder | none |
+| Morning | Museum of Islamic Art | Museum of Islamic Art | An I.M. Pei building holding 1,200 years of Islamic history, including the rare Abbasid Blue Quran. |  | /images/plans/doha/day2-morning.jpg | https://stories.forbestravelguide.com/wp-content/uploads/2019/03/NickyHiltonInterview-Doha-CreditiStock-danefromspain.jpg |
 | Afternoon | The Mina District | Mina District | Cobblestone streets and pastel-coloured buildings, with cafés and vibrant street art murals. | Lunch at Baron: whole-roasted cauliflower and capellini with crab and shrimp toum. | placeholder | none |
-| Evening | Souq Waqif | Souq Waqif | A living market and the best attraction to leave for last, starting at the Falcon Souq. | Dinner at Al Mourjan for classic Arabic dishes, or karak and chapati at Ali Al Naama. | placeholder | none |
+| Evening | Souq Waqif | Souq Waqif | A living market and the best attraction to leave for last, starting at the Falcon Souq. | Dinner at Al Mourjan for classic Arabic dishes, or karak and chapati at Ali Al Naama. | /images/plans/doha/day2-evening.jpg | https://stories.forbestravelguide.com/wp-content/uploads/2019/01/HERO-WhereToFindTheBestShoppingInDoha-SouqWaqifMarket-CreditiStock_intek1.jpg |
 
 
 ### Day 3: The Pearl, Wakrah and sunset
@@ -1720,16 +1720,16 @@ To replace a photo: overwrite the file named in the table, in public/images/plan
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
-| Morning | Tailors and leather in Ancient Town | Hoi An Ancient Town | A bespoke leather bag at Buffalo Leather Shop or a custom jacket at Sewing Bee Tailors, with a fitting booked for the next day. | Coffee at Hoi An Roastery, served with sweetened condensed milk. | placeholder | none |
-| Afternoon | Central Market and the Japanese Covered Bridge | Japanese Covered Bridge (Chua Cau) | Browse Central Market, then the Japanese Covered Bridge, Quan Cong Temple and the Old House of Tan Ky. | Lunch at Banh Mi Phuong, which Anthony Bourdain called the best banh mi in Vietnam. | placeholder | none |
-| Evening | Ancient Town by lantern light | Hoi An Ancient Town | At dusk, merchants switch off the electric lights and light silk lanterns; chilled wine at White Marble Wine Bar. | Dinner at Nữ Eatery: avocado salad, pork belly buns, chili lime shrimp and lemongrass ice cream. | placeholder | none |
+| Morning | Tailors and leather in Ancient Town | Hoi An Ancient Town | A bespoke leather bag at Buffalo Leather Shop or a custom jacket at Sewing Bee Tailors, with a fitting booked for the next day. | Coffee at Hoi An Roastery, served with sweetened condensed milk. | /images/plans/hoi-an/day1-morning.jpg | https://media.timeout.com/images/105266003/image.jpg |
+| Afternoon | Central Market and the Japanese Covered Bridge | Japanese Covered Bridge (Chua Cau) | Browse Central Market, then the Japanese Covered Bridge, Quan Cong Temple and the Old House of Tan Ky. | Lunch at Banh Mi Phuong, which Anthony Bourdain called the best banh mi in Vietnam. | /images/plans/hoi-an/day1-afternoon.jpg | https://stories.forbestravelguide.com/wp-content/uploads/2019/09/HowToSpendTwoPerfectDaysInHoiAn-JapaneseBridge-CreditChristianBerg.jpg |
+| Evening | Ancient Town by lantern light | Hoi An Ancient Town | At dusk, merchants switch off the electric lights and light silk lanterns; chilled wine at White Marble Wine Bar. | Dinner at Nữ Eatery: avocado salad, pork belly buns, chili lime shrimp and lemongrass ice cream. | /images/plans/hoi-an/day1-evening.jpg | https://media.timeout.com/images/105265961/image.jpg |
 
 ### Day 2: Countryside and beach
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
 | Morning | A Vespa countryside tour | none | On refurbished 1960s Italian scooters across the Thu Bon River to Cam Kim Island, with a boatyard, rice paddies and a coffee roasting lesson. | A seafood feast on the beach to finish. | placeholder | none |
-| Afternoon | An Bang Beach | An Bang Beach | Two miles south of the hotel, with casual cafés serving cocktails, beer and live music. | Or visit the Marble Mountains. | placeholder | none |
+| Afternoon | An Bang Beach | An Bang Beach | Two miles south of the hotel, with casual cafés serving cocktails, beer and live music. | Or visit the Marble Mountains. | /images/plans/hoi-an/day2-afternoon.jpg | https://media.timeout.com/images/105265975/image.jpg |
 | Evening | Miss Ly Café | none | A charming family-run address with warm wood tables and ice-cold Tiger Beer. | White rose dumplings and crispy cao lầu. | placeholder | none |
 
 
@@ -1737,9 +1737,9 @@ To replace a photo: overwrite the file named in the table, in public/images/plan
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
-| Morning | Tra Que Gardens cooking school | Tra Que cooking class | Walk the organic vegetable farm that supplies most good chefs in Hoi An, then make spring rolls, salads and peanut sauce. |  | placeholder | none |
-| Afternoon | Fujian Assembly Hall | Fujian Assembly Hall (Phuc Kien / Phuoc Kien) | A Chinese hall built in 1690, with a shrine to Thien Hau, the sea goddess who protects sailors, and a colourful courtyard. | Vietnamese coffee at Mia Coffee, or a banh mi at Madam Khanh's stall. | placeholder | none |
-| Evening | Bars on the Thu Bon River | Hoi An Ancient Town riverside bars | The riverbank was once where traders drank between voyages. Try the local rice wine, or the beers at Hoi An Artisan. | The Mango Chili Pale Ale or the Chocolate Mulberry Bock. | placeholder | none |
+| Morning | Tra Que Gardens cooking school | Tra Que cooking class | Walk the organic vegetable farm that supplies most good chefs in Hoi An, then make spring rolls, salads and peanut sauce. |  | /images/plans/hoi-an/day3-morning.jpg | https://media.timeout.com/images/105265981/image.jpg |
+| Afternoon | Fujian Assembly Hall | Fujian Assembly Hall (Phuc Kien / Phuoc Kien) | A Chinese hall built in 1690, with a shrine to Thien Hau, the sea goddess who protects sailors, and a colourful courtyard. | Vietnamese coffee at Mia Coffee, or a banh mi at Madam Khanh's stall. | /images/plans/hoi-an/day3-afternoon.jpg | https://media.timeout.com/images/105265970/image.jpg |
+| Evening | Bars on the Thu Bon River | Hoi An Ancient Town riverside bars | The riverbank was once where traders drank between voyages. Try the local rice wine, or the beers at Hoi An Artisan. | The Mango Chili Pale Ale or the Chocolate Mulberry Bock. | /images/plans/hoi-an/day3-evening.jpg | https://stories.forbestravelguide.com/wp-content/uploads/2019/09/HowToSpendTwoPerfectDaysInHoiAn-ThuBonRiverHoiAn-CreditChristianBerg.jpg |
 
 ## Dubai
 
@@ -1749,7 +1749,7 @@ To replace a photo: overwrite the file named in the table, in public/images/plan
 |---|---|---|---|---|---|---|
 | Morning | The Spice and Gold Souks | Gold Souk | Cross the creek by abra to Deira's oldest markets: sacks of saffron and cardamom, then windows dressed in gold and diamonds. |  | placeholder | none |
 | Afternoon | Al Fanar Restaurant and Café | Al Fanar Restaurant | An interior that transports you to 1960s Dubai, serving authentic Emirati food, before the Dubai Mall. | Samboosa and hobool, then machboos deyay and leqaimat. | placeholder | none |
-| Evening | At The Top, Burj Khalifa | Burj Khalifa: At the Top | Go an hour before sunset for views from the observation deck on the 124th floor of the world's tallest skyscraper. | Dinner at Zaroob: crispy falafel, creamy hummus and man'oushe. | placeholder | none |
+| Evening | At The Top, Burj Khalifa | Burj Khalifa: At the Top | Go an hour before sunset for views from the observation deck on the 124th floor of the world's tallest skyscraper. | Dinner at Zaroob: crispy falafel, creamy hummus and man'oushe. | /images/plans/dubai/day1-evening.jpg | https://media.cntraveler.com/photos/67894e43a7210b0b28ae34d6/master/w_1200,c_limit/x.jpg |
 
 ### Day 2: Heritage Dubai
 
@@ -1763,9 +1763,9 @@ To replace a photo: overwrite the file named in the table, in public/images/plan
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
-| Morning | Museum of the Future | Museum of the Future | A stainless steel torus covered in Arabic calligraphy. Tickets sell out, but the exterior alone is worth a visit, by day or lit up at night. |  | placeholder | none |
+| Morning | Museum of the Future | Museum of the Future | A stainless steel torus covered in Arabic calligraphy. Tickets sell out, but the exterior alone is worth a visit, by day or lit up at night. |  | /images/plans/dubai/day3-morning.jpg | https://media.cntraveler.com/photos/5e5d63c9eedb870009088816/master/w_1200,c_limit/x.jpg |
 | Afternoon | Kite Beach | Kite Beach | A long-time residents' favourite with a running track, cycling path and boardwalk, clear swimmable water and sun beds to hire. | Food trucks along the beach. | placeholder | none |
-| Evening | Trèsind Studio | Trèsind Studio | The world's only three-Michelin-starred Indian restaurant, seating just 20 diners in two nightly seatings, Monday to Saturday. | Tasting menus that journey through regions of India, led by chef Himanshu Saini. | placeholder | none |
+| Evening | Trèsind Studio | Trèsind Studio | The world's only three-Michelin-starred Indian restaurant, seating just 20 diners in two nightly seatings, Monday to Saturday. | Tasting menus that journey through regions of India, led by chef Himanshu Saini. | /images/plans/dubai/day3-evening.jpg | https://media.cntraveler.com/photos/655254040a7af6be30942017/master/w_1200,c_limit/x.jpg |
 
 ## Phuket
 
@@ -1773,25 +1773,25 @@ To replace a photo: overwrite the file named in the table, in public/images/plan
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
-| Morning | Wat Chalong | Wat Chalong (Wat Chaithararam) | Phuket's largest and most important Buddhist temple, with a pagoda holding a splinter of bone from the Buddha. Go early and dress modestly. |  | placeholder | none |
-| Afternoon | Old Town and Chinpracha House | Old Phuket Town's Sino-Portuguese quarter | Colourful old buildings and boutique shops along Soi Rommannee, then Chinpracha House, with its original family furnishings. | Lunch at Mor Mu Dong in the Palai mangroves: the stuffed curried mackerel is a signature dish. | placeholder | none |
-| Evening | Chillva Night Market | Chillva Market | A bohemian market built from painted, upcycled shipping containers. Spend a couple of hours browsing and people watching. | Eat your way around the stalls. | placeholder | none |
+| Morning | Wat Chalong | Wat Chalong (Wat Chaithararam) | Phuket's largest and most important Buddhist temple, with a pagoda holding a splinter of bone from the Buddha. Go early and dress modestly. |  | /images/plans/phuket/day1-morning.jpg | https://media.timeout.com/images/106217750/image.jpg |
+| Afternoon | Old Town and Chinpracha House | Old Phuket Town's Sino-Portuguese quarter | Colourful old buildings and boutique shops along Soi Rommannee, then Chinpracha House, with its original family furnishings. | Lunch at Mor Mu Dong in the Palai mangroves: the stuffed curried mackerel is a signature dish. | /images/plans/phuket/day1-afternoon.jpg | https://media.timeout.com/images/106217757/image.jpg |
+| Evening | Chillva Night Market | Chillva Market | A bohemian market built from painted, upcycled shipping containers. Spend a couple of hours browsing and people watching. | Eat your way around the stalls. | /images/plans/phuket/day1-evening.jpg | https://media.timeout.com/images/106217763/image.jpg |
 
 ### Day 2: Phang Nga Bay by speedboat
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
-| Morning | Phang Nga Bay and James Bond Island | James Bond Island (Khao Phing Kan / Koh Tapu) | A speedboat day trip to the limestone cliffs made famous by 007, with a few smaller islands on the way. |  | placeholder | none |
+| Morning | Phang Nga Bay and James Bond Island | James Bond Island (Khao Phing Kan / Koh Tapu) | A speedboat day trip to the limestone cliffs made famous by 007, with a few smaller islands on the way. |  | /images/plans/phuket/day2-morning.jpg | https://media.timeout.com/images/106217752/image.jpg |
 | Afternoon | Snorkelling and beach time | none | The day trip adds small islands for quality snorkelling and relaxing beach time, before the boat heads back to Phuket. |  | placeholder | none |
-| Evening | Floating restaurants at Laem Hin Pier | none | A free longtail boat takes five minutes from the pier to the floating restaurants near Coconut Island, and back beneath the stars. | Oysters, crab, prawns and fish, cooked by traditional Thai methods. | placeholder | none |
+| Evening | Floating restaurants at Laem Hin Pier | none | A free longtail boat takes five minutes from the pier to the floating restaurants near Coconut Island, and back beneath the stars. | Oysters, crab, prawns and fish, cooked by traditional Thai methods. | /images/plans/phuket/day2-evening.jpg | https://media.timeout.com/images/106217758/image.jpg |
 
 ### Day 3: Elephants, beach and sunset
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
-| Morning | Phuket Elephant Sanctuary | Phuket Elephant Sanctuary | An ethical sanctuary in Paklok, with no trick shows or rides. Feed the elephants and follow them as they roam. |  | placeholder | none |
-| Afternoon | Bangtao Beach | none | An eight-kilometre stretch of soft white sand and turquoise water, with upscale beach clubs and restaurants. |  | placeholder | none |
-| Evening | Promthep Cape at sunset | Promthep Cape at sunset | The southernmost point of Phuket, and its best sunset view. It gets very busy, so arrive early. | For a quieter sundowner meal, wait for dark and book a table at the nearby Promthep Cape restaurant. | placeholder | none |
+| Morning | Phuket Elephant Sanctuary | Phuket Elephant Sanctuary | An ethical sanctuary in Paklok, with no trick shows or rides. Feed the elephants and follow them as they roam. |  | /images/plans/phuket/day3-morning.jpg | https://media.timeout.com/images/106217742/image.jpg |
+| Afternoon | Bangtao Beach | none | An eight-kilometre stretch of soft white sand and turquoise water, with upscale beach clubs and restaurants. |  | /images/plans/phuket/day3-afternoon.jpg | https://media.timeout.com/images/106217747/image.jpg |
+| Evening | Promthep Cape at sunset | Promthep Cape at sunset | The southernmost point of Phuket, and its best sunset view. It gets very busy, so arrive early. | For a quieter sundowner meal, wait for dark and book a table at the nearby Promthep Cape restaurant. | /images/plans/phuket/day3-evening.jpg | https://media.timeout.com/images/106217759/image.jpg |
 
 ## Cancún
 
@@ -1799,15 +1799,15 @@ To replace a photo: overwrite the file named in the table, in public/images/plan
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
-| Morning | Museo Maya de Cancún | Museo Maya de Cancún & the El Rey ruins | About 400 artifacts from across the Yucatán, in an air-conditioned museum. An archaeological site with temple remains sits just outside. | Breakfast at Rooster, where locals go downtown for eggs benedict and avocado toast. | placeholder | none |
-| Afternoon | El Rey Archaeological Zone | Museo Maya de Cancún & the El Rey ruins | Small Mayan ruins in the Hotel Zone, easy to navigate, with views of the lagoon and a glimpse of Maya royal life. | Lunch at El Fish Fritanga: ceviche tostadas, lobster tail or whole fried fish, on the sand by the lagoon. | placeholder | none |
+| Morning | Museo Maya de Cancún | Museo Maya de Cancún & the El Rey ruins | About 400 artifacts from across the Yucatán, in an air-conditioned museum. An archaeological site with temple remains sits just outside. | Breakfast at Rooster, where locals go downtown for eggs benedict and avocado toast. | /images/plans/cancun/day1-morning.jpg | https://media.timeout.com/images/105269436/image.jpg |
+| Afternoon | El Rey Archaeological Zone | Museo Maya de Cancún & the El Rey ruins | Small Mayan ruins in the Hotel Zone, easy to navigate, with views of the lagoon and a glimpse of Maya royal life. | Lunch at El Fish Fritanga: ceviche tostadas, lobster tail or whole fried fish, on the sand by the lagoon. | /images/plans/cancun/day1-afternoon.jpg | https://media.timeout.com/images/105268618/image.jpg |
 | Evening | Parque de las Palapas | none | Come at sunset to the downtown park where Cancún locals gather, and watch people live their evenings. | Mexican cakes, empanadas and cheesy treats from the stalls. | placeholder | none |
 
 ### Day 2: Isla Mujeres
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
-| Morning | Isla Mujeres and Playa Norte | Playa Norte, Isla Mujeres | A 20-minute ferry from Cancún. Rent a golf cart to explore the island, then claim some sand at Playa Norte. |  | placeholder | none |
+| Morning | Isla Mujeres and Playa Norte | Playa Norte, Isla Mujeres | A 20-minute ferry from Cancún. Rent a golf cart to explore the island, then claim some sand at Playa Norte. |  | /images/plans/cancun/day2-morning.jpg | https://media.timeout.com/images/105815437/image.jpg |
 | Afternoon | Punta Sur | Isla Mujeres & Punta Sur | The south end of the island has stunning cliff views and ziplining, or book a snorkelling excursion in turquoise water. |  | placeholder | none |
 | Evening | Navios | none | Mexican fusion seafood served in romantic cabanas over the water, with a remarkable wine list. | Try the robalo al pastor: sea bass carpaccio over pineapple with cilantro rice. | placeholder | none |
 
@@ -1815,9 +1815,9 @@ To replace a photo: overwrite the file named in the table, in public/images/plan
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
-| Morning | MUSA underwater museum | MUSA: Museo Subacuático de Arte (underwater museum) | More than 500 statues submerged in Cancún's marine park. Snorkel up close, or see them from a glass-bottomed boat. | Coffee or hot chocolate at Ah Cacao Chocolate Café in La Isla Shopping Village. | placeholder | none |
+| Morning | MUSA underwater museum | MUSA: Museo Subacuático de Arte (underwater museum) | More than 500 statues submerged in Cancún's marine park. Snorkel up close, or see them from a glass-bottomed boat. | Coffee or hot chocolate at Ah Cacao Chocolate Café in La Isla Shopping Village. | /images/plans/cancun/day3-morning.jpg | https://media.timeout.com/images/105815384/image.jpg |
 | Afternoon | Yum Cooking Workshop | none | An afternoon class in the history of Mexican cuisine, then cooking, a six-course meal and a tequila tasting. |  | placeholder | none |
-| Evening | Coco Bongo | Coco Bongo | Flying acrobats, pop star tributes and a party every night of the week. Tickets include unlimited drinks, so book ahead. | Dine first at Chambao Fashion GrillHouse: smoking cocktails, surf and turf, and a fashion show. | placeholder | none |
+| Evening | Coco Bongo | Coco Bongo | Flying acrobats, pop star tributes and a party every night of the week. Tickets include unlimited drinks, so book ahead. | Dine first at Chambao Fashion GrillHouse: smoking cocktails, surf and turf, and a fashion show. | /images/plans/cancun/day3-evening.jpg | https://media.timeout.com/images/105815379/image.jpg |
 
 ## Rio de Janeiro
 
@@ -1825,25 +1825,25 @@ To replace a photo: overwrite the file named in the table, in public/images/plan
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
-| Morning | Centro Cultural Banco do Brasil | Centro Cultural Banco do Brasil | One of Rio's top cultural hubs, with stunning architecture and world-class exhibitions, worth visiting whatever is on. | Then the recently opened Confeitaria Colombo, for the iconic Torrada Petrópolis. | placeholder | none |
-| Afternoon | Pequena África walking tour | none | Walk through Saúde, Gamboa and Santo Cristo, where enslaved Africans first arrived in Brazil and a Black community remains. |  | placeholder | none |
+| Morning | Centro Cultural Banco do Brasil | Centro Cultural Banco do Brasil | One of Rio's top cultural hubs, with stunning architecture and world-class exhibitions, worth visiting whatever is on. | Then the recently opened Confeitaria Colombo, for the iconic Torrada Petrópolis. | /images/plans/rio-de-janeiro/day1-morning.jpg | https://media.timeout.com/images/106043453/image.jpg |
+| Afternoon | Pequena África walking tour | none | Walk through Saúde, Gamboa and Santo Cristo, where enslaved Africans first arrived in Brazil and a Black community remains. |  | /images/plans/rio-de-janeiro/day1-afternoon.jpg | https://media.timeout.com/images/105332704/image.jpg |
 | Evening | Samba at Pedra do Sal | Pedra do Sal | Cap off the walk with samba at Pedra do Sal, held Friday through Monday evenings from 6pm. |  | placeholder | none |
 
 ### Day 2: Botafogo, Santa Teresa and Urca
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
-| Morning | Casa Firjan | Casa Firjan | A French-style mansion in Botafogo that hosts talks on innovation, and houses Empório Jardim. | Over 90 breakfast items; don't leave without the gruyère pão de queijo. | placeholder | none |
+| Morning | Casa Firjan | Casa Firjan | A French-style mansion in Botafogo that hosts talks on innovation, and houses Empório Jardim. | Over 90 breakfast items; don't leave without the gruyère pão de queijo. | /images/plans/rio-de-janeiro/day2-morning.jpg | https://media.timeout.com/images/106043457/image.jpg |
 | Afternoon | Santa Teresa tram | Santa Teresa & the Bonde Tram | Installed in 1872, the bondinho crosses the Arcos da Lapa and winds through the cobbled streets of Santa Teresa. |  | placeholder | none |
-| Evening | Mureta da Urca | Escadaria & the Urca Waterfront | A one-kilometre seawall where young cariocas gather at golden hour, watching the sun set over Guanabara Bay. | The shrimp pastel at Bar Urca, across the street. | placeholder | none |
+| Evening | Mureta da Urca | Escadaria & the Urca Waterfront | A one-kilometre seawall where young cariocas gather at golden hour, watching the sun set over Guanabara Bay. | The shrimp pastel at Bar Urca, across the street. | /images/plans/rio-de-janeiro/day2-evening.jpg | https://media.timeout.com/images/106043414/image.jpg |
 
 ### Day 3: Copacabana fort, gardens and jazz
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
-| Morning | Café 18 do Forte de Copacabana | Forte de Copacabana | Breakfast with views over Copacabana Beach, from the fort at the end of the sand. | The award-winning breakfast is served all day, with house-made pão de queijo da canastra. | placeholder | none |
-| Afternoon | Parque Lage | Parque Lage | The lush garden of a 19th-century mansion that is now the School of Visual Arts, known for its cultural events. |  | placeholder | none |
-| Evening | Armazém Cardosão | Armazém Cardosão | A legendary spot for jazz and bohemian vibes in Laranjeiras, where Ney Conceição leads performances for a post-work crowd. | Order the caipirinhas straight to your table. | placeholder | none |
+| Morning | Café 18 do Forte de Copacabana | Forte de Copacabana | Breakfast with views over Copacabana Beach, from the fort at the end of the sand. | The award-winning breakfast is served all day, with house-made pão de queijo da canastra. | /images/plans/rio-de-janeiro/day3-morning.jpg | https://media.timeout.com/images/106043331/image.jpg |
+| Afternoon | Parque Lage | Parque Lage | The lush garden of a 19th-century mansion that is now the School of Visual Arts, known for its cultural events. |  | /images/plans/rio-de-janeiro/day3-afternoon.jpg | https://media.timeout.com/images/106043489/image.jpg |
+| Evening | Armazém Cardosão | Armazém Cardosão | A legendary spot for jazz and bohemian vibes in Laranjeiras, where Ney Conceição leads performances for a post-work crowd. | Order the caipirinhas straight to your table. | /images/plans/rio-de-janeiro/day3-evening.jpg | https://media.timeout.com/images/106043456/image.jpg |
 
 ## Zurich
 
@@ -1851,25 +1851,25 @@ To replace a photo: overwrite the file named in the table, in public/images/plan
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
-| Morning | Niederdorf | Niederdorf (Dörfli) lanes | The old town's narrow streets hold quirky shops and cosy bars. Visit Cabaret Voltaire, the cradle of Dada, or climb a Grossmünster tower for views. | A porchetta roll and basque cheesecake at Ora Bar. | placeholder | none |
-| Afternoon | Kunsthaus Zürich | Kunsthaus Zürich | Switzerland's largest art museum, with a room of Giacometti, Van Gogh, Monet and Chagall upstairs, and the largest Munch collection outside Norway. |  | placeholder | none |
-| Evening | Fondue at the Widder Garden | Widder Hotel | Fondue at the Widder Garden, in four-cheese, truffle and champagne versions. In winter, eat inside a portable gondola. | Book ahead for the gondola seatings. | placeholder | none |
+| Morning | Niederdorf | Niederdorf (Dörfli) lanes | The old town's narrow streets hold quirky shops and cosy bars. Visit Cabaret Voltaire, the cradle of Dada, or climb a Grossmünster tower for views. | A porchetta roll and basque cheesecake at Ora Bar. | /images/plans/zurich/day1-morning.jpg | https://media.timeout.com/images/106221796/image.jpg |
+| Afternoon | Kunsthaus Zürich | Kunsthaus Zürich | Switzerland's largest art museum, with a room of Giacometti, Van Gogh, Monet and Chagall upstairs, and the largest Munch collection outside Norway. |  | /images/plans/zurich/day1-afternoon.jpg | https://media.timeout.com/images/101745863/image.jpg |
+| Evening | Fondue at the Widder Garden | Widder Hotel | Fondue at the Widder Garden, in four-cheese, truffle and champagne versions. In winter, eat inside a portable gondola. | Book ahead for the gondola seatings. | /images/plans/zurich/day1-evening.jpg | https://media.timeout.com/images/106221494/image.jpg |
 
 ### Day 2: Bahnhofstrasse, football and Kronenhalle
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
-| Morning | Bahnhofstrasse | Bahnhofstrasse: the luxury mile | One of the world's most expensive shopping streets: high street brands near the station, luxury shops towards the lake. | Italian coffee at Bar 45, or the tourist-popular Café Sprüngli. | placeholder | none |
-| Afternoon | FIFA Museum | FIFA Museum | Rent a bike and ride to the history of the game, with interactive games to compete in. | A beer at the former Hürlimann brewery, at B2 Boutique Hotel. | placeholder | none |
-| Evening | Kronenhalle | Kronenhalle | Zurich's institution since 1924, with a dress code, warm service, strong cocktails and a private art collection on the walls. |  | placeholder | none |
+| Morning | Bahnhofstrasse | Bahnhofstrasse: the luxury mile | One of the world's most expensive shopping streets: high street brands near the station, luxury shops towards the lake. | Italian coffee at Bar 45, or the tourist-popular Café Sprüngli. | /images/plans/zurich/day2-morning.jpg | https://media.timeout.com/images/106221803/image.jpg |
+| Afternoon | FIFA Museum | FIFA Museum | Rent a bike and ride to the history of the game, with interactive games to compete in. | A beer at the former Hürlimann brewery, at B2 Boutique Hotel. | /images/plans/zurich/day2-afternoon.jpg | https://media.timeout.com/images/106221844/image.jpg |
+| Evening | Kronenhalle | Kronenhalle | Zurich's institution since 1924, with a dress code, warm service, strong cocktails and a private art collection on the walls. |  | /images/plans/zurich/day2-evening.jpg | https://media.timeout.com/images/106221850/image.jpg |
 
 ### Day 3: Chocolate, Zurich West and a bar crawl
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
-| Morning | Lindt Home of Chocolate | Lindt Home of Chocolate, Kilchberg | On the shore of Lake Zurich, with a factory tour, the largest Lindt store in Switzerland and tempering masterclasses. Book ahead. |  | placeholder | none |
-| Afternoon | Zurich West | Zürich West: the Viadukt | Shops, restaurants and bars under the old railway viaduct, then Frau Gerolds Garten with its urban garden. | Neapolitan-style pizza at Napule, a favourite of locals and Roger Federer. | placeholder | none |
-| Evening | A bar crawl from Raygrodski | Raygrodski | Start with a cocktail at Raygrodski, move to COR Wine & Pintxos, and end at Bar 1838 for open-late dancing and views. |  | placeholder | none |
+| Morning | Lindt Home of Chocolate | Lindt Home of Chocolate, Kilchberg | On the shore of Lake Zurich, with a factory tour, the largest Lindt store in Switzerland and tempering masterclasses. Book ahead. |  | /images/plans/zurich/day3-morning.jpg | https://media.timeout.com/images/106468178/image.jpg |
+| Afternoon | Zurich West | Zürich West: the Viadukt | Shops, restaurants and bars under the old railway viaduct, then Frau Gerolds Garten with its urban garden. | Neapolitan-style pizza at Napule, a favourite of locals and Roger Federer. | /images/plans/zurich/day3-afternoon.jpg | https://media.timeout.com/images/106221801/image.jpg |
+| Evening | A bar crawl from Raygrodski | Raygrodski | Start with a cocktail at Raygrodski, move to COR Wine & Pintxos, and end at Bar 1838 for open-late dancing and views. |  | /images/plans/zurich/day3-evening.jpg | https://media.timeout.com/images/101745859/image.jpg |
 
 ## Geneva
 
@@ -1877,25 +1877,25 @@ To replace a photo: overwrite the file named in the table, in public/images/plan
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
-| Morning | Jet d'Eau | The Jet d'Eau | The fountain spouts 140m into the air. Shoot it from Pont du Mont-Blanc, or hop on a Mouette taxi-boat across the lake. |  | placeholder | none |
-| Afternoon | Old Town | Place du Bourg-de-Four | Wander around Cathédrale Saint-Pierre and Place du Bourg-de-Four, then see the archaeological remains beneath the cathedral. | A break at Birdie Food and Coffee nearby. | placeholder | none |
-| Evening | Fondue at Les Armures | Hôtel Les Armures | A traditional setting for a top-flight caquelon of moitié-moitié, half gruyère and half vacherin. |  | placeholder | none |
+| Morning | Jet d'Eau | The Jet d'Eau | The fountain spouts 140m into the air. Shoot it from Pont du Mont-Blanc, or hop on a Mouette taxi-boat across the lake. |  | /images/plans/geneva/day1-morning.jpg | https://media.timeout.com/images/106467740/image.jpg |
+| Afternoon | Old Town | Place du Bourg-de-Four | Wander around Cathédrale Saint-Pierre and Place du Bourg-de-Four, then see the archaeological remains beneath the cathedral. | A break at Birdie Food and Coffee nearby. | /images/plans/geneva/day1-afternoon.jpg | https://media.timeout.com/images/106223590/image.jpg |
+| Evening | Fondue at Les Armures | Hôtel Les Armures | A traditional setting for a top-flight caquelon of moitié-moitié, half gruyère and half vacherin. |  | /images/plans/geneva/day1-evening.jpg | https://media.timeout.com/images/106468265/image.jpg |
 
 ### Day 2: Nations, the baths and fine dining
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
-| Morning | Red Cross museum and Palais des Nations | International Red Cross & Red Crescent Museum | The moving permanent exhibition on 150 years of humanitarian work, combined with a guided tour of the UN's European seat. |  | placeholder | none |
-| Afternoon | Bains des Pâquis | Bains des Pâquis | A kitsch 1930s public bath on Lake Geneva, open year-round, for a dip, sauna or massage. | Fondue or a cheap lunch in friendly, casual surroundings. | placeholder | none |
+| Morning | Red Cross museum and Palais des Nations | International Red Cross & Red Crescent Museum | The moving permanent exhibition on 150 years of humanitarian work, combined with a guided tour of the UN's European seat. |  | /images/plans/geneva/day2-morning.jpg | https://media.timeout.com/images/106223622/image.jpg |
+| Afternoon | Bains des Pâquis | Bains des Pâquis | A kitsch 1930s public bath on Lake Geneva, open year-round, for a dip, sauna or massage. | Fondue or a cheap lunch in friendly, casual surroundings. | /images/plans/geneva/day2-afternoon.jpg | https://media.timeout.com/images/106223632/image.jpg |
 | Evening | Arakel | Arakel | A modern French and Mediterranean kitchen, added to the 2026 Michelin Guide, among Geneva's daring, ambitious chefs. |  | placeholder | none |
 
 ### Day 3: Carouge, chocolate and a rooftop
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
-| Morning | Carouge | Carouge | A short tram ride away, an Italian-style quarter built by Turin settlers, with stone arches, glass blowers and bookshops. |  | placeholder | none |
-| Afternoon | A chocolate tour | none | The Choco Pass walks you through the best independent chocolatiers, including Guillaume Bichet, Favarger and La Maison du Rhône. |  | placeholder | none |
-| Evening | Rooftop at Le 105 | none | Rooftop views of the Jura mountains and Mont Salève in Lancy, where locals dance the night away. |  | placeholder | none |
+| Morning | Carouge | Carouge | A short tram ride away, an Italian-style quarter built by Turin settlers, with stone arches, glass blowers and bookshops. |  | /images/plans/geneva/day3-morning.jpg | https://media.timeout.com/images/106223606/image.jpg |
+| Afternoon | A chocolate tour | none | The Choco Pass walks you through the best independent chocolatiers, including Guillaume Bichet, Favarger and La Maison du Rhône. |  | /images/plans/geneva/day3-afternoon.jpg | https://media.timeout.com/images/106223589/image.jpg |
+| Evening | Rooftop at Le 105 | none | Rooftop views of the Jura mountains and Mont Salève in Lancy, where locals dance the night away. |  | /images/plans/geneva/day3-evening.jpg | https://media.timeout.com/images/106225791/image.jpg |
 
 
 ## Langkawi
@@ -1904,25 +1904,25 @@ To replace a photo: overwrite the file named in the table, in public/images/plan
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
-| Morning | Langkawi Cable Car and Sky Bridge | Langkawi SkyBridge | One of the steepest cable cars in the world climbs about 1,700 metres to the top of Gunung Machinchang, with the Sky Bridge nearby. |  | placeholder | none |
-| Afternoon | Temurun Waterfall | Temurun Waterfall | A trek up a three-tiered waterfall, with a natural pool at the top for a dip. | Lunch at Siti Fatimah: the locals' lunchtime buffet of curries, seafood and stir-fries. | placeholder | none |
-| Evening | The Cliff | The Cliff | A bar on Pantai Cenang over the Andaman Sea, with sunsets to match, serving Malay and Western food. | Sundowners and a Malay or Western dinner. | placeholder | none |
+| Morning | Langkawi Cable Car and Sky Bridge | Langkawi SkyBridge | One of the steepest cable cars in the world climbs about 1,700 metres to the top of Gunung Machinchang, with the Sky Bridge nearby. |  | /images/plans/langkawi/day1-morning.jpg | https://media.timeout.com/images/105264562/image.jpg |
+| Afternoon | Temurun Waterfall | Temurun Waterfall | A trek up a three-tiered waterfall, with a natural pool at the top for a dip. | Lunch at Siti Fatimah: the locals' lunchtime buffet of curries, seafood and stir-fries. | /images/plans/langkawi/day1-afternoon.jpg | https://media.timeout.com/images/105264589/image.jpg |
+| Evening | The Cliff | The Cliff | A bar on Pantai Cenang over the Andaman Sea, with sunsets to match, serving Malay and Western food. | Sundowners and a Malay or Western dinner. | /images/plans/langkawi/day1-evening.jpg | https://media.timeout.com/images/105264601/image.jpg |
 
 ### Day 2: Sea, snorkelling and the night market
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
-| Morning | Pulau Payar Marine Park | Pulau Payar Marine Park: Snorkelling & Diving | A snorkelling tour with hotel pick-up and a boat out to a protected reef, with coral, colourful fish and sharks. |  | placeholder | none |
-| Afternoon | Helicopter over Dayang Bunting | Lake of the Pregnant Maiden (Tasik Dayang Bunting) | A helicopter tour over Dayang Bunting Island and Lake Guillemard, the freshwater 'Lake of the Pregnant Maiden', best seen from above. |  | placeholder | none |
-| Evening | Kuah Night Market | Langkawi Night Market (Pasar Malam) | One of the best of Langkawi's pasar malam, with cheap souvenirs to bargain over and street food. | Nasi ayam eaten amongst the throng. | placeholder | none |
+| Morning | Pulau Payar Marine Park | Pulau Payar Marine Park: Snorkelling & Diving | A snorkelling tour with hotel pick-up and a boat out to a protected reef, with coral, colourful fish and sharks. |  | /images/plans/langkawi/day2-morning.jpg | https://media.timeout.com/images/105264560/image.jpg |
+| Afternoon | Helicopter over Dayang Bunting | Lake of the Pregnant Maiden (Tasik Dayang Bunting) | A helicopter tour over Dayang Bunting Island and Lake Guillemard, the freshwater 'Lake of the Pregnant Maiden', best seen from above. |  | /images/plans/langkawi/day2-afternoon.jpg | https://media.timeout.com/images/105264564/image.jpg |
+| Evening | Kuah Night Market | Langkawi Night Market (Pasar Malam) | One of the best of Langkawi's pasar malam, with cheap souvenirs to bargain over and street food. | Nasi ayam eaten amongst the throng. | /images/plans/langkawi/day2-evening.jpg | https://media.timeout.com/images/105264596/image.jpg |
 
 ### Day 3: Temple, beach and rooftop
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
-| Morning | Wat Koh Wanararm | none | A modern Buddhist temple built into the hillside just outside Kuah, with grounds to wander. Entry is free. |  | placeholder | none |
-| Afternoon | Pantai Pasir Tengkorak | none | A secluded beach with white sand and clear water backed by forest, frequented by monkeys, with toilets and showers on site. |  | placeholder | none |
-| Evening | Nest Rooftop | none | A halal café-bar on a rooftop over Pantai Cenang, with regular gigs. It is booze-free, though you can bring your own for a small fee. |  | placeholder | none |
+| Morning | Wat Koh Wanararm | none | A modern Buddhist temple built into the hillside just outside Kuah, with grounds to wander. Entry is free. |  | /images/plans/langkawi/day3-morning.jpg | https://media.timeout.com/images/105264592/image.jpg |
+| Afternoon | Pantai Pasir Tengkorak | none | A secluded beach with white sand and clear water backed by forest, frequented by monkeys, with toilets and showers on site. |  | /images/plans/langkawi/day3-afternoon.jpg | https://media.timeout.com/images/105264598/image.jpg |
+| Evening | Nest Rooftop | none | A halal café-bar on a rooftop over Pantai Cenang, with regular gigs. It is booze-free, though you can bring your own for a small fee. |  | /images/plans/langkawi/day3-evening.jpg | https://media.timeout.com/images/105264576/image.jpg |
 
 ## Kuala Lumpur
 
@@ -2035,17 +2035,17 @@ To replace a photo: overwrite the file named in the table, in public/images/plan
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
-| Morning | El Malecón | El Malecón cliff-top parks | A six-mile coastal path through several neighbourhoods, connecting green spaces and cafés with views of the Pacific. |  | placeholder | none |
-| Afternoon | Huaca Pucllana | Huaca Pucllana | A pre-Inca pyramid in upscale Miraflores, built from vertically stacked adobe bricks to survive earthquakes. Visit the onsite museum. |  | placeholder | none |
-| Evening | Love Park | Parque del Amor | A clifftop park along El Malecón, with mosaic walls and El Beso, a sculpture of kissing lovers by Víctor Delfín. |  | placeholder | none |
+| Morning | El Malecón | El Malecón cliff-top parks | A six-mile coastal path through several neighbourhoods, connecting green spaces and cafés with views of the Pacific. |  | /images/plans/lima/day1-morning.jpg | https://stories.forbestravelguide.com/wp-content/uploads/2025/06/FiveThingsToDoInLima-Miraflores-CreditJenniferKester.jpg |
+| Afternoon | Huaca Pucllana | Huaca Pucllana | A pre-Inca pyramid in upscale Miraflores, built from vertically stacked adobe bricks to survive earthquakes. Visit the onsite museum. |  | /images/plans/lima/day1-afternoon.jpg | https://stories.forbestravelguide.com/wp-content/uploads/2025/06/FiveThingsToDoInLima-HuacaPucllana-CreditJenniferKester.jpg |
+| Evening | Love Park | Parque del Amor | A clifftop park along El Malecón, with mosaic walls and El Beso, a sculpture of kissing lovers by Víctor Delfín. |  | /images/plans/lima/day1-evening.jpg | https://stories.forbestravelguide.com/wp-content/uploads/2025/06/FiveThingsToDoInLima-LovePark-CreditJenniferKester.jpg |
 
 ### Day 2: Barranco
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
-| Morning | Dédalo Arte y Artesanía | none | A mansion-turned-gallery showing Peruvian jewellery and furniture, with a brick courtyard café under an ancient ficus tree. |  | placeholder | none |
+| Morning | Dédalo Arte y Artesanía | none | A mansion-turned-gallery showing Peruvian jewellery and furniture, with a brick courtyard café under an ancient ficus tree. |  | /images/plans/lima/day2-morning.jpg | https://stories.forbestravelguide.com/wp-content/uploads/2025/06/FiveThingsToDoInLima-Dedalo-CreditJeniniferKester.jpg |
 | Afternoon | Jade Rivera World and street art | Casa Museo de Barranco murals & street art walk | A gallery for the painter and muralist Jade Rivera, then Barranco's graffiti, including Bronik's women-centric murals. |  | placeholder | none |
-| Evening | The Bridge of Sighs | Puente de los Suspiros (Bridge of Sighs) | A wooden bridge from the 1870s. Local lore says that if you cross it holding your breath, your wish will come true. | Street food such as anticuchos, then picarones for dessert. | placeholder | none |
+| Evening | The Bridge of Sighs | Puente de los Suspiros (Bridge of Sighs) | A wooden bridge from the 1870s. Local lore says that if you cross it holding your breath, your wish will come true. | Street food such as anticuchos, then picarones for dessert. | /images/plans/lima/day2-evening.jpg | https://stories.forbestravelguide.com/wp-content/uploads/2025/06/FiveThingsToDoInLima-BarrancoBridgeOfSighs-CreditJenniferKester.jpg |
 
 ### Day 3: Museums, olives and pisco
 
@@ -2104,7 +2104,7 @@ To replace a photo: overwrite the file named in the table, in public/images/plan
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
-| Morning | Old Cairo | The Hanging Church (Al-Muallaqa) | A UNESCO-listed area of Biblical-era churches, medieval fortresses and the oldest synagogue in the world. |  | placeholder | none |
+| Morning | Old Cairo | The Hanging Church (Al-Muallaqa) | A UNESCO-listed area of Biblical-era churches, medieval fortresses and the oldest synagogue in the world. |  | /images/plans/cairo/day3-morning.jpg | https://media.timeout.com/images/106317753/image.jpg |
 | Afternoon | The Museum of Egyptian Civilization | The National Museum of Egyptian Civilization (NMEC): the Royal Mummies | The place to see the mummies of ancient Pharaohs. |  | placeholder | none |
 | Evening | Crimson | none | A rooftop bar in Zamalek, with a noteworthy cocktail menu. |  | placeholder | none |
 
@@ -2140,7 +2140,7 @@ To replace a photo: overwrite the file named in the table, in public/images/plan
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
-| Morning | Sodhani Sweets | none | A sweet shop since 1954, packed from 6:30am for the brown, crackly pyaz kachoris dipped in tamarind chutney. | A tall kulhad lassi and crispy jalebis. | placeholder | none |
+| Morning | Sodhani Sweets | none | A sweet shop since 1954, packed from 6:30am for the brown, crackly pyaz kachoris dipped in tamarind chutney. | A tall kulhad lassi and crispy jalebis. | /images/plans/jaipur/day1-morning.jpg | https://media.timeout.com/images/106426444/image.jpg |
 | Afternoon | The Old City bazaars | Bapu Bazaar & Nehru Bazaar | Walk through the terracotta pink gates, past spices, fruit, quilts and carpets, and stop for chai. | Kachoris stuffed with unpeeled potatoes at Sampat Namkeen Bhandar, going since 1936. | placeholder | none |
 | Evening | A stepwell evening | Panna Meena ka Kund stepwell | Jaipur's long-neglected baolis are making a comeback, often doubling as atmospheric venues for traditional music and dance. |  | placeholder | none |
 
@@ -2150,15 +2150,15 @@ To replace a photo: overwrite the file named in the table, in public/images/plan
 |---|---|---|---|---|---|---|
 | Morning | Anokhi Museum of Hand Printing | Anokhi Museum of Hand Printing | A museum reviving ancient techniques, with block-printing sessions for visitors. |  | placeholder | none |
 | Afternoon | Museum of Meenakari Heritage | none | Another museum refashioning ancient techniques into something that feels strikingly contemporary. |  | placeholder | none |
-| Evening | Spice Court | none | A 1930s colonial mansion for no-nonsense Rajasthani cuisine, best known for keema baatis. | Spicy slow-cooked laal maas with butter naan. | placeholder | none |
+| Evening | Spice Court | none | A 1930s colonial mansion for no-nonsense Rajasthani cuisine, best known for keema baatis. | Spicy slow-cooked laal maas with butter naan. | /images/plans/jaipur/day2-evening.jpg | https://media.timeout.com/images/106426443/image.jpg |
 
 ### Day 3: Amer Fort
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
-| Morning | Amer Fort | Amber Fort (Amer Fort) & the Sheesh Mahal | The fort where royals once lived, now with a heritage restaurant at its top. |  | placeholder | none |
+| Morning | Amer Fort | Amber Fort (Amer Fort) & the Sheesh Mahal | The fort where royals once lived, now with a heritage restaurant at its top. |  | /images/plans/jaipur/day3-morning.jpg | https://media.timeout.com/images/106426427/image.jpg |
 | Afternoon | 1135 AD | 1135 AD at Amber Fort: royal dining | A dreamy heritage restaurant atop the fort, with an authentic Rajasthani spread cooked in the best-quality ghee. | Seekh kebabs and the spicy jungle maas, lamb cooked in red chillies. | placeholder | none |
-| Evening | Mahaveer Rabri Bhandar | none | A fourth-generation hole-in-the-wall in Chandpole Bazar, nationally known for its aloo pyaz sabzi. Open until midnight. | Crush the tikkad roti into the sabzi, then finish with laccha rabdi. | placeholder | none |
+| Evening | Mahaveer Rabri Bhandar | none | A fourth-generation hole-in-the-wall in Chandpole Bazar, nationally known for its aloo pyaz sabzi. Open until midnight. | Crush the tikkad roti into the sabzi, then finish with laccha rabdi. | /images/plans/jaipur/day3-evening.jpg | https://media.timeout.com/images/106426441/image.jpg |
 
 
 ## Krabi
@@ -2167,25 +2167,25 @@ To replace a photo: overwrite the file named in the table, in public/images/plan
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
-| Morning | Tiger Cave Temple | Tiger Cave Temple (Wat Tham Suea): the 1,237-step climb | Climb 1,260 steep steps to a cliffside temple, with views over Krabi's forest and the Andaman Sea and a gilded Buddha. No tigers, only macaques. |  | placeholder | none |
-| Afternoon | Emerald Pool | The Emerald Pool (Sa Morakot) | A sparkling green pool about two metres deep, fed by thermal springs, in Khao Phra Bang Khram Nature Reserve. An 800-metre path, or a 1,400-metre trail. |  | placeholder | none |
-| Evening | Khlong Tom Hot Springs | The natural hot springs (Nam Tok Ron) | Warm pools from underground thermal springs, shaded by rainforest and one of the most popular places in the reserve. |  | placeholder | none |
+| Morning | Tiger Cave Temple | Tiger Cave Temple (Wat Tham Suea): the 1,237-step climb | Climb 1,260 steep steps to a cliffside temple, with views over Krabi's forest and the Andaman Sea and a gilded Buddha. No tigers, only macaques. |  | /images/plans/krabi/day1-morning.jpg | https://media.timeout.com/images/106200488/image.jpg |
+| Afternoon | Emerald Pool | The Emerald Pool (Sa Morakot) | A sparkling green pool about two metres deep, fed by thermal springs, in Khao Phra Bang Khram Nature Reserve. An 800-metre path, or a 1,400-metre trail. |  | /images/plans/krabi/day1-afternoon.jpg | https://media.timeout.com/images/106200479/image.jpg |
+| Evening | Khlong Tom Hot Springs | The natural hot springs (Nam Tok Ron) | Warm pools from underground thermal springs, shaded by rainforest and one of the most popular places in the reserve. |  | /images/plans/krabi/day1-evening.jpg | https://media.timeout.com/images/106200484/image.jpg |
 
 ### Day 2: Caves, islands and sunset
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
-| Morning | Ban Bor Thor Caves | none | Kayak through caves of stalagmites and stalactites, home to ancient paintings left by prehistoric seafarers. |  | placeholder | none |
-| Afternoon | Island hopping | none | Krabi has heaps of white sandy beaches and dreamy islands. Third-party apps like Klook can help with where and how to go. |  | placeholder | none |
-| Evening | Romantic Sunset Cruise | none | Sofitel Krabi Phokeethara's cruise drifts into the sunset as the sky turns crimson and pink. |  | placeholder | none |
+| Morning | Ban Bor Thor Caves | none | Kayak through caves of stalagmites and stalactites, home to ancient paintings left by prehistoric seafarers. |  | /images/plans/krabi/day2-morning.jpg | https://media.timeout.com/images/106200485/image.jpg |
+| Afternoon | Island hopping | none | Krabi has heaps of white sandy beaches and dreamy islands. Third-party apps like Klook can help with where and how to go. |  | /images/plans/krabi/day2-afternoon.jpg | https://media.timeout.com/images/106200476/image.jpg |
+| Evening | Romantic Sunset Cruise | none | Sofitel Krabi Phokeethara's cruise drifts into the sunset as the sky turns crimson and pink. |  | /images/plans/krabi/day2-evening.jpg | https://media.timeout.com/images/106200475/image.jpg |
 
 ### Day 3: Hills, treetops and a village
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
-| Morning | Dragon Crest Mountain | none | A hike of about four kilometres in north Krabi, steep and nearly vertical in places, ending in a rock ledge with views over the gulf. |  | placeholder | none |
-| Afternoon | Tree Top Adventure Krabi | none | A giant zip line through the canopy, plus rope bridges, Tarzan ropes, a flying skateboard and cycling through the trees. |  | placeholder | none |
-| Evening | Laem Sak Community | none | A village where Chinese, Muslim migrants and Thai Buddhists live side by side, with a sense of stepping back in time. |  | placeholder | none |
+| Morning | Dragon Crest Mountain | none | A hike of about four kilometres in north Krabi, steep and nearly vertical in places, ending in a rock ledge with views over the gulf. |  | /images/plans/krabi/day3-morning.jpg | https://media.timeout.com/images/106200486/image.jpg |
+| Afternoon | Tree Top Adventure Krabi | none | A giant zip line through the canopy, plus rope bridges, Tarzan ropes, a flying skateboard and cycling through the trees. |  | /images/plans/krabi/day3-afternoon.jpg | https://media.timeout.com/images/106200489/image.jpg |
+| Evening | Laem Sak Community | none | A village where Chinese, Muslim migrants and Thai Buddhists live side by side, with a sense of stepping back in time. |  | /images/plans/krabi/day3-evening.jpg | https://media.timeout.com/images/106200491/image.jpg |
 
 ## Mauritius
 
@@ -2193,25 +2193,25 @@ To replace a photo: overwrite the file named in the table, in public/images/plan
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
-| Morning | Botanic Garden | SSR Botanical Garden, Pamplemousses | Often compared to Kew Gardens, with tropical plants growing outdoors. Book a private guided tour to learn what each one does. |  | placeholder | none |
-| Afternoon | L'aventure du Sucre | L'Aventure du Sucre | An old factory on the Beau Plan Sugar Estate tells the story of sugarcane, ending with a tasting of different sugars and rums. | Le Fangourin on the estate, with local delicacies and rum cocktails. | placeholder | none |
-| Evening | Chez Tante Athalie | none | An authentic restaurant for the blend of European, Indian, Chinese and Creole food, overlooking grounds dotted with vintage cars. |  | placeholder | none |
+| Morning | Botanic Garden | SSR Botanical Garden, Pamplemousses | Often compared to Kew Gardens, with tropical plants growing outdoors. Book a private guided tour to learn what each one does. |  | /images/plans/mauritius-city/day1-morning.jpg | https://media.timeout.com/images/105273151/image.jpg |
+| Afternoon | L'aventure du Sucre | L'Aventure du Sucre | An old factory on the Beau Plan Sugar Estate tells the story of sugarcane, ending with a tasting of different sugars and rums. | Le Fangourin on the estate, with local delicacies and rum cocktails. | /images/plans/mauritius-city/day1-afternoon.jpg | https://media.timeout.com/images/105263548/image.jpg |
+| Evening | Chez Tante Athalie | none | An authentic restaurant for the blend of European, Indian, Chinese and Creole food, overlooking grounds dotted with vintage cars. |  | /images/plans/mauritius-city/day1-evening.jpg | https://media.timeout.com/images/105273156/image.jpg |
 
 ### Day 2: Mountain and gorges
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
-| Morning | Le Morne Brabant | Le Morne Brabant | A rugged Unesco mountain full of caves, once a shelter for runaway slaves and now a symbol of freedom. Book a guide to climb it safely. |  | placeholder | none |
-| Afternoon | Black River Gorges National Park | Black River Gorges National Park | An unspoilt park with about 311 native flowering plants and nine bird species found only here. Take supplies; there's no shop. |  | placeholder | none |
-| Evening | A Creole dinner | none | The food of Mauritius is a blend of the tastes of its former occupiers and of migrant workers from India, China and Africa. |  | placeholder | none |
+| Morning | Le Morne Brabant | Le Morne Brabant | A rugged Unesco mountain full of caves, once a shelter for runaway slaves and now a symbol of freedom. Book a guide to climb it safely. |  | /images/plans/mauritius-city/day2-morning.jpg | https://media.timeout.com/images/105263544/image.jpg |
+| Afternoon | Black River Gorges National Park | Black River Gorges National Park | An unspoilt park with about 311 native flowering plants and nine bird species found only here. Take supplies; there's no shop. |  | /images/plans/mauritius-city/day2-afternoon.jpg | https://media.timeout.com/images/105263565/image.jpg |
+| Evening | A Creole dinner | none | The food of Mauritius is a blend of the tastes of its former occupiers and of migrant workers from India, China and Africa. |  | /images/plans/mauritius-city/day2-evening.jpg | https://media.timeout.com/images/105273156/image.jpg |
 
 ### Day 3: Zip line, crater lake and Port Louis
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
-| Morning | Casela Nature Park | Casela Nature Parks | An extra-long zip line over canyons and scenery, ending with a splash into the water. Some lines are for singles, some for four. |  | placeholder | none |
-| Afternoon | Ganga Talao | Grand Bassin (Ganga Talao) | A crater lake about 1,800 feet up, with Hindu temples on its banks. Dress modestly and look out for monkeys. |  | placeholder | none |
-| Evening | Port Louis and Caudan Waterfront | Caudan Waterfront | The capital's French colonial-inspired old city, then the relaxed Caudan Waterfront for shopping and dining, and Chinatown. |  | placeholder | none |
+| Morning | Casela Nature Park | Casela Nature Parks | An extra-long zip line over canyons and scenery, ending with a splash into the water. Some lines are for singles, some for four. |  | /images/plans/mauritius-city/day3-morning.jpg | https://media.timeout.com/images/105263524/image.jpg |
+| Afternoon | Ganga Talao | Grand Bassin (Ganga Talao) | A crater lake about 1,800 feet up, with Hindu temples on its banks. Dress modestly and look out for monkeys. |  | /images/plans/mauritius-city/day3-afternoon.jpg | https://media.timeout.com/images/106084453/image.jpg |
+| Evening | Port Louis and Caudan Waterfront | Caudan Waterfront | The capital's French colonial-inspired old city, then the relaxed Caudan Waterfront for shopping and dining, and Chinatown. |  | /images/plans/mauritius-city/day3-evening.jpg | https://media.timeout.com/images/106084451/image.jpg |
 
 ## Cappadocia
 
@@ -2219,25 +2219,25 @@ To replace a photo: overwrite the file named in the table, in public/images/plan
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
-| Morning | Göreme Open Air Museum | Göreme Open-Air Museum | About 150 churches adorned with frescoes, built underground by Christians fleeing persecution. Don't miss Tokalı, Elmalı and Karanlık. |  | placeholder | none |
-| Afternoon | Paşabağları | none | Formerly Monks Valley, with some of Cappadocia's densest fairy chimneys. Saint Simeon's chapel sits inside a three-headed one. |  | placeholder | none |
-| Evening | Uçhisar Castle | Uçhisar Castle | The highest point in Cappadocia, with sunset views from Mount Erciyes to Hasan and Melendiz, and Pigeon Valley nearby. |  | placeholder | none |
+| Morning | Göreme Open Air Museum | Göreme Open-Air Museum | About 150 churches adorned with frescoes, built underground by Christians fleeing persecution. Don't miss Tokalı, Elmalı and Karanlık. |  | /images/plans/cappadocia/day1-morning.jpg | https://media.timeout.com/images/106096961/image.jpg |
+| Afternoon | Paşabağları | none | Formerly Monks Valley, with some of Cappadocia's densest fairy chimneys. Saint Simeon's chapel sits inside a three-headed one. |  | /images/plans/cappadocia/day1-afternoon.jpg | https://media.timeout.com/images/106096970/image.jpg |
+| Evening | Uçhisar Castle | Uçhisar Castle | The highest point in Cappadocia, with sunset views from Mount Erciyes to Hasan and Melendiz, and Pigeon Valley nearby. |  | /images/plans/cappadocia/day1-evening.jpg | https://media.timeout.com/images/106096966/image.jpg |
 
 ### Day 2: Underground cities and Ürgüp
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
-| Morning | Derinkuyu Underground City | Derinkuyu Underground City | About 85 metres deep, with churches, dining halls and stables, once home to around 30,000. Only 10% can be visited. |  | placeholder | none |
-| Afternoon | Kaymaklı Underground City | Kaymaklı Underground City | Eight floors carved underground, with houses linked by hidden passages that protected against enemies. | Dried clotted cream with honey, or sherbet, in the town. | placeholder | none |
-| Evening | Ürgüp | Ürgüp & Temenni Hill | The most touristic and bustling town in Cappadocia, with elegant restaurants and nightlife. See the Three Beauties fairy chimneys. |  | placeholder | none |
+| Morning | Derinkuyu Underground City | Derinkuyu Underground City | About 85 metres deep, with churches, dining halls and stables, once home to around 30,000. Only 10% can be visited. |  | /images/plans/cappadocia/day2-morning.jpg | https://media.timeout.com/images/106096967/image.jpg |
+| Afternoon | Kaymaklı Underground City | Kaymaklı Underground City | Eight floors carved underground, with houses linked by hidden passages that protected against enemies. | Dried clotted cream with honey, or sherbet, in the town. | /images/plans/cappadocia/day2-afternoon.jpg | https://media.timeout.com/images/106096962/image.jpg |
+| Evening | Ürgüp | Ürgüp & Temenni Hill | The most touristic and bustling town in Cappadocia, with elegant restaurants and nightlife. See the Three Beauties fairy chimneys. |  | /images/plans/cappadocia/day2-evening.jpg | https://media.timeout.com/images/106096965/image.jpg |
 
 ### Day 3: Ihlara, pottery and Zelve
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
-| Morning | Ihlara Valley | none | One of Turkey's largest canyons, with a walk past cave churches with wall paintings. A 14-kilometre route reaches Belisırma. | Tea in the pergolas over the Melendiz Stream. | placeholder | none |
-| Afternoon | Avanos pottery | Pottery workshop | The centre of pottery since the Hittite period. Make your own with an instructor, and visit the 2nd-century Yamanlı Church. |  | placeholder | none |
-| Evening | Zelve | Zelve Open-Air Museum | The densest site of fairy chimneys, in three valleys, which glow crimson in the setting sun. |  | placeholder | none |
+| Morning | Ihlara Valley | none | One of Turkey's largest canyons, with a walk past cave churches with wall paintings. A 14-kilometre route reaches Belisırma. | Tea in the pergolas over the Melendiz Stream. | /images/plans/cappadocia/day3-morning.jpg | https://media.timeout.com/images/106096960/image.jpg |
+| Afternoon | Avanos pottery | Pottery workshop | The centre of pottery since the Hittite period. Make your own with an instructor, and visit the 2nd-century Yamanlı Church. |  | /images/plans/cappadocia/day3-afternoon.jpg | https://media.timeout.com/images/106096963/image.jpg |
+| Evening | Zelve | Zelve Open-Air Museum | The densest site of fairy chimneys, in three valleys, which glow crimson in the setting sun. |  | /images/plans/cappadocia/day3-evening.jpg | https://media.timeout.com/images/106096970/image.jpg |
 
 ## Hyderabad
 
@@ -2245,23 +2245,23 @@ To replace a photo: overwrite the file named in the table, in public/images/plan
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
-| Morning | The Charminar | The Charminar | Built in 1591, with four soaring minarets and a bazaar at its base. Walk the precinct early to dodge the crowds. | Cafe Nimrah, next to the monument, for Irani chai and an Osmania biscuit. | placeholder | none |
+| Morning | The Charminar | The Charminar | Built in 1591, with four soaring minarets and a bazaar at its base. Walk the precinct early to dodge the crowds. | Cafe Nimrah, next to the monument, for Irani chai and an Osmania biscuit. | /images/plans/hyderabad/day1-morning.jpg | https://media.timeout.com/images/106375559/image.jpg |
 | Afternoon | Chowmahalla Palace and Laad Bazaar | Chowmahalla Palace | Where the Nizams were crowned, then Laad Bazaar for lacquered bangles and bridal finery. |  | placeholder | none |
-| Evening | Hyderabadi biryani | The Hyderabadi biryani pilgrimage | Hyderabadi biryani made the top 10 of TasteAtlas's best rice dishes in 2025. Try the kacchi, pakki or sealed dum versions. | Paradise, Shah Ghouse and Bawarchi, with mirchi salan or raita. | placeholder | none |
+| Evening | Hyderabadi biryani | The Hyderabadi biryani pilgrimage | Hyderabadi biryani made the top 10 of TasteAtlas's best rice dishes in 2025. Try the kacchi, pakki or sealed dum versions. | Paradise, Shah Ghouse and Bawarchi, with mirchi salan or raita. | /images/plans/hyderabad/day1-evening.jpg | https://media.timeout.com/images/106375579/image.jpg |
 
 ### Day 2: Museum, tombs and a palace
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
-| Morning | Salar Jung Museum | Salar Jung Museum | 46,000 art pieces from Mughal miniatures to European sculpture, and the Veiled Rebecca. Weekday mornings avoid school trips. |  | placeholder | none |
-| Afternoon | Paigah Tombs | Paigah Tombs | A late 18th-century necropolis blending eight architectural styles, with over 35 jaali patterns. Closed Fridays. |  | placeholder | none |
-| Evening | Falaknuma Palace | Taj Falaknuma Palace: high tea and heritage walk | Italian marble staircases and chandeliers; the Adaa restaurant's 101-foot table is said to be the world's longest. | Nizami cuisine, including the Jauzi halwa. | placeholder | none |
+| Morning | Salar Jung Museum | Salar Jung Museum | 46,000 art pieces from Mughal miniatures to European sculpture, and the Veiled Rebecca. Weekday mornings avoid school trips. |  | /images/plans/hyderabad/day2-morning.jpg | https://media.timeout.com/images/106375571/image.jpg |
+| Afternoon | Paigah Tombs | Paigah Tombs | A late 18th-century necropolis blending eight architectural styles, with over 35 jaali patterns. Closed Fridays. |  | /images/plans/hyderabad/day2-afternoon.jpg | https://media.timeout.com/images/106375580/image.jpg |
+| Evening | Falaknuma Palace | Taj Falaknuma Palace: high tea and heritage walk | Italian marble staircases and chandeliers; the Adaa restaurant's 101-foot table is said to be the world's longest. | Nizami cuisine, including the Jauzi halwa. | /images/plans/hyderabad/day2-evening.jpg | https://media.timeout.com/images/106375563/image.jpg |
 
 ### Day 3: Tombs, fort and cocktails
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
-| Morning | Qutb Shahi Tombs | Qutb Shahi Tombs | The Seven Tombs sit in a 106-acre heritage park with over 70 monuments, ideal at sunrise or golden hour. |  | placeholder | none |
+| Morning | Qutb Shahi Tombs | Qutb Shahi Tombs | The Seven Tombs sit in a 106-acre heritage park with over 70 monuments, ideal at sunrise or golden hour. |  | /images/plans/hyderabad/day3-morning.jpg | https://media.timeout.com/images/106375585/image.jpg |
 | Afternoon | Golconda Fort | Golconda Fort | Pair the tombs with the nearby fort for a full-day heritage binge. |  | placeholder | none |
 | Evening | Bar Kin Rü | none | A craft bar serving Mughal-inspired dishes, with theatrical cocktails on the fifth floor, in India's Top 30 Bars list for 2024. | The Jackfruit Haleem. | placeholder | none |
 
@@ -2297,25 +2297,25 @@ To replace a photo: overwrite the file named in the table, in public/images/plan
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
-| Morning | Dhoni boat cruise | none | A traditional dhoni takes you to a new destination each day, with snorkelling spots, reefs, uninhabited islands and local villages. |  | placeholder | none |
-| Afternoon | Parasailing | none | Led by a speedboat, a parachute lifts you high over the islands and reefs. Available at most major resorts. |  | placeholder | none |
-| Evening | SEA at Anantara Kihavah | SEA by Anantara Kihavah | An underwater restaurant where sharks, turtles and fish pass by as you eat Maldivian cuisine. | The fresh Maldivian lobster. | placeholder | none |
+| Morning | Dhoni boat cruise | none | A traditional dhoni takes you to a new destination each day, with snorkelling spots, reefs, uninhabited islands and local villages. |  | /images/plans/male-maldives/day1-morning.jpg | https://media.timeout.com/images/105258286/image.jpg |
+| Afternoon | Parasailing | none | Led by a speedboat, a parachute lifts you high over the islands and reefs. Available at most major resorts. |  | /images/plans/male-maldives/day1-afternoon.jpg | https://media.timeout.com/images/105260977/image.jpg |
+| Evening | SEA at Anantara Kihavah | SEA by Anantara Kihavah | An underwater restaurant where sharks, turtles and fish pass by as you eat Maldivian cuisine. | The fresh Maldivian lobster. | /images/plans/male-maldives/day1-evening.jpg | https://media.timeout.com/images/105258284/image.jpg |
 
 ### Day 2: Whale sharks and underwater firsts
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
-| Morning | South Ari Atoll | none | Swim with huge, harmless whale sharks in the South Ari Atoll, near Sun Island and Rangali Island. |  | placeholder | none |
-| Afternoon | Underwater spa at Huvafen Fushi | none | The world's first underwater spa retreat, for adults only, with massages using the island's coconut oil. |  | placeholder | none |
-| Evening | Subsix at Niyama | Subsix at Niyama | The world's first underwater nightclub. The glow party runs on Wednesdays and Saturdays from 9pm. |  | placeholder | none |
+| Morning | South Ari Atoll | none | Swim with huge, harmless whale sharks in the South Ari Atoll, near Sun Island and Rangali Island. |  | /images/plans/male-maldives/day2-morning.jpg | https://media.timeout.com/images/105260974/image.jpg |
+| Afternoon | Underwater spa at Huvafen Fushi | none | The world's first underwater spa retreat, for adults only, with massages using the island's coconut oil. |  | /images/plans/male-maldives/day2-afternoon.jpg | https://media.timeout.com/images/105258535/image.jpg |
+| Evening | Subsix at Niyama | Subsix at Niyama | The world's first underwater nightclub. The glow party runs on Wednesdays and Saturdays from 9pm. |  | /images/plans/male-maldives/day2-evening.jpg | https://media.timeout.com/images/105363949/image.jpg |
 
 ### Day 3: Island culture in the Baa Atoll
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
-| Morning | Thulhaadhoo | none | A small Baa Atoll island of lacquerware artisans, reached from Malé by speedboat, ferry or hydroplane. |  | placeholder | none |
-| Afternoon | Maalhos | none | A traditional fishing village of about 600 people, one of the oldest islands in the Baa Atoll, for relaxing and snorkelling. |  | placeholder | none |
-| Evening | Finolhu | none | An island resort with a beach club, where the 1 Oak Beach Club comes alive at sunset with cocktails and performers. | Tuesday's Seafood Extravaganza at the Fish and Crab Shack. | placeholder | none |
+| Morning | Thulhaadhoo | none | A small Baa Atoll island of lacquerware artisans, reached from Malé by speedboat, ferry or hydroplane. |  | /images/plans/male-maldives/day3-morning.jpg | https://media.timeout.com/images/105260975/image.jpg |
+| Afternoon | Maalhos | none | A traditional fishing village of about 600 people, one of the oldest islands in the Baa Atoll, for relaxing and snorkelling. |  | /images/plans/male-maldives/day3-afternoon.jpg | https://media.timeout.com/images/105260984/image.jpg |
+| Evening | Finolhu | none | An island resort with a beach club, where the 1 Oak Beach Club comes alive at sunset with cocktails and performers. | Tuesday's Seafood Extravaganza at the Fish and Crab Shack. | /images/plans/male-maldives/day3-evening.jpg | https://media.timeout.com/images/105260978/image.jpg |
 
 ## Leh-Ladakh
 
@@ -2343,5 +2343,584 @@ To replace a photo: overwrite the file named in the table, in public/images/plan
 | Afternoon | Pangong Tso | none | The brackish lake shifts through blue, green and grey depending on the sunlight, and freezes over in winter. Part of it lies in China. |  | placeholder | none |
 | Evening | A night by the lake | none | Accommodation here is limited, dry and remote. One night is enough to experience the lake. |  | placeholder | none |
 
+
+## Agra
+
+### Day 1: The Taj Mahal and Agra Fort
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | Taj Mahal | The Taj Mahal at Sunrise | Shah Jahan's marble tomb for Mumtaz Mahal, built from 1632 to 1648, with minarets, lotus motifs and floral patterns. Allow at least half a day. |  | /images/plans/agra/day1-morning.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2024/08/02130954/Taj-Mahal-2.jpg |
+| Afternoon | Agra Fort | Agra Fort | The seat of the Mughal court for over a century, and a UNESCO site. Exploring it takes more than three hours; pair it with the Taj. |  | /images/plans/agra/day1-afternoon.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2024/08/02131913/Agra-Fort-2.jpg |
+| Evening | Mehtab Bagh | Mehtab Bagh Garden | A garden across the Yamuna, behind the Taj, with uninterrupted views of the mausoleum and good sunset light. | Dinner at Taj Bano, one of the city's best restaurants. | /images/plans/agra/day1-evening.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2024/08/02132100/Mehtab-Bagh.jpg |
+
+### Day 2: Fatehpur Sikri
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | Fatehpur Sikri | Fatehpur Sikri | Akbar's red sandstone capital, used from 1571 to 1585: the Buland Darwaza, Panch Mahal and Diwan-i-Khas. Allow up to five hours. |  | /images/plans/agra/day2-morning.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2024/08/02132338/Fatehpur-Sikri.jpg |
+| Afternoon | Salim Chishti's tomb | The Tomb of Salim Chishti, Fatehpur Sikri | The latticework tomb of the Sufi saint Shaikh Salim Chishti, inside the Jama Masjid complex. |  | placeholder | none |
+| Evening | Dinner in the Old City | none | Back in Agra, inexpensive eating in the Old City. | Puris at Chimman Lal Poori, or spiced nihari at Mughal Nihari. | placeholder | none |
+
+### Day 3: Tombs and markets
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | Akbar's Tomb, Sikandra | Akbar's Tomb, Sikandra | Completed by Jahangir in 1613. Nearby is the tomb of Mariam-uz-Zamani, built between 1623 and 1627. |  | placeholder | none |
+| Afternoon | Chini ka Rauza | Chini ka Rauza | The Prime Minister's tomb by the Yamuna, known for its Indo-Persian style and glazed tile work, near Itimad-ud-Daulah's tomb. |  | placeholder | none |
+| Evening | Sadar Bazaar | Sadar Bazaar | Leather at Sadar Bazaar, silk at Subhash Bazar, and handicrafts and jewellery at Kinari Bazar. | Petha, the candied ash gourd, and dalmoth, a savoury snack. | placeholder | none |
+
+## Amritsar
+
+### Day 1: The Golden Temple and Jallianwala Bagh
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | The Golden Temple | Sri Harmandir Sahib (The Golden Temple) | Best at the Amrit Vela, between 4 and 6am, or when the temple lights shimmer on the water in the late evening. | Join the community meal in the langar hall. | placeholder | none |
+| Afternoon | Jallianwala Bagh | Jallianwala Bagh | A short walk from the temple: the narrow lane, the Martyrs' Well and the bullet-marked walls. It opens at 6:30am. |  | /images/plans/amritsar/day1-afternoon.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2023/08/09162240/play.jpg |
+| Evening | Town Hall | Partition Museum | A red 1860s building near the Golden Temple, now cafés, restaurants and street food stalls, lit up at night. | Dinner at Rang Punjab, a vegetarian dhaba inside. | placeholder | none |
+
+### Day 2: Partition, fort and the border
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | Partition Museum | Partition Museum | Inside Town Hall, with testimonies, letters and old trunks. Open 10am to 5pm; plan at least two hours. |  | placeholder | none |
+| Afternoon | Gobindgarh Fort | Gobindgarh Fort | Maharaja Ranjit Singh's former stronghold, with a coin museum, a 7D film and a light-and-sound show at night. | A lane of stalls with kulchas, lassi and jalebis. | placeholder | none |
+| Evening | Wagah Border | Attari-Wagah Border Beating Retreat | About 30 km from Amritsar, where the Indian and Pakistani guards put on a ceremony of energy and precision. |  | placeholder | none |
+
+### Day 3: The old city and its food
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | The walled city | Amritsar Heritage Walk (Old City) | Walk the narrow lanes before 8am, with Mughal, Sikh and colonial buildings and horse carriages. | Kulcha at Pehalwan Kulcha, open since 1953, then lassi. | /images/plans/amritsar/day3-morning.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2023/08/09163203/old-building.jpg |
+| Afternoon | Gurudwara Baba Atal Sahib | Gurdwara Baba Atal Rai | Climb to the terrace for a view of the Golden Temple and the city. The stairs open 7 to 10am and 3 to 6pm. |  | /images/plans/amritsar/day3-afternoon.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2023/08/09162603/terrace-view.jpg |
+| Evening | Crystal | none | A fine-dining restaurant on Queens Road since 1935, with Victorian ceiling and vintage European charm. | Chinese and Indian dishes, and the softy ice cream outside. | placeholder | none |
+
+## Andaman Islands
+
+### Day 1: Port Blair
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | Cellular Jail | Cellular Jail National Memorial | The chilling British-built 1906 national memorial, where political prisoners were once held. |  | placeholder | none |
+| Afternoon | Ross Island | Ross Island (Netaji Subhas Chandra Bose Dweep) | The jungle-wreathed Victorian ruins of the colonial-era administrative headquarters, used until 1941. |  | placeholder | none |
+| Evening | The ferry to Havelock | none | Private ferries link Port Blair and Havelock. They usually open for booking, including online, at least a month ahead. |  | placeholder | none |
+
+### Day 2: Havelock Island
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | Sunrise at Kalapathar | Kalapathar Beach | Catch the sunrise at Kalapathar on Havelock, the most developed of the islands, with silky beaches backed by rainforest. |  | placeholder | none |
+| Afternoon | Diving or snorkelling | none | The diving and snorkelling rival the best in South Asia, to spot wrecks, sharks, rays and turtles. |  | /images/plans/andaman/day2-afternoon.jpg | https://d2vbr83hnyiux1.cloudfront.net/image/975050285728/image_likvjhmmc57vlamjivqbidfa51/-FWEBP |
+| Evening | Radhanagar Beach | Radhanagar Beach | One of Asia's most spectacular beaches, for a stroll before dinner. | Home-cooked dinners at Full Moon Café or Anju-Coco Resto. | /images/plans/andaman/day2-evening.jpg | https://d2vbr83hnyiux1.cloudfront.net/image/975050285728/image_bm8uf62mgd7154d7bckqejts6m/-FWEBP |
+
+### Day 3: Elephant Beach and Neil Island
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | Elephant Beach | none | Hike into the lushly forested interior to Elephant Beach, or join a kayaking expedition through the mangroves. |  | placeholder | none |
+| Afternoon | Neil Island | Neil Island | A flat, easy-going world of rice fields, palm trees and rocky beaches, with excellent diving. |  | /images/plans/andaman/day3-afternoon.jpg | https://d2vbr83hnyiux1.cloudfront.net/image/975050285728/image_likvjhmmc57vlamjivqbidfa51/-FWEBP |
+| Evening | The bazaar and jetty | none | Neil has a small bazaar and a sleepy jetty that leaps into action when ferries arrive. |  | placeholder | none |
+
+## Chennai
+
+### Day 1: Beach and fort
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | Marina Beach | Marina Beach & the Promenade | One of the longest city beaches in the world, at 13km, with kite flyers, fortune tellers and beach cricket. Best early or late. |  | placeholder | none |
+| Afternoon | Fort St George | Fort St George & the Fort Museum | The first British outpost in India, built after the East India Company bought the land in 1639, with a museum and St Mary's Church. |  | /images/plans/chennai/day1-afternoon.jpg | https://d2vbr83hnyiux1.cloudfront.net/image/975050285728/image_80urh94avt36j0hvb2ohn44961/-FWEBP |
+| Evening | Madras Lighthouse | Madras Lighthouse | A lift to the top gives views along the whole of Marina Beach. Late in the day gives the best photographs. |  | placeholder | none |
+
+### Day 2: Mylapore and San Thome
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | Kapaleeshwarar Temple | Kapaleeshwarar Temple | The temple that gave Mylapore its name, 'town of peacocks', with a 40m gopuram covered in painted deities. |  | /images/plans/chennai/day2-morning.jpg | https://d2vbr83hnyiux1.cloudfront.net/image/975050285728/image_vijdkdkcrl2f15293aoc0mna33/-FWEBP |
+| Afternoon | San Thome Cathedral | San Thome Basilica | Built on the reputed site of the Apostle Thomas's tomb, over a Portuguese basilica founded in 1523, with a small museum. |  | /images/plans/chennai/day2-afternoon.jpg | https://d2vbr83hnyiux1.cloudfront.net/image/975050285728/image_r1cnvar18t03pdo9eepfp4vg73/-FWEBP |
+| Evening | Parthasarathy Temple | Parthasarathy Temple | A towering Triplicane temple founded in the 8th century, with shrines to five incarnations of Vishnu. |  | placeholder | none |
+
+### Day 3: Gardens, bazaars and a poet
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | Theosophical Society | Theosophical Society & the Adyar Banyan | Free, tree-covered grounds holding a church, mosque, Hindu temple, Buddhist shrine and Zoroastrian fire altar. |  | placeholder | none |
+| Afternoon | Pondy Bazaar and T Nagar | T Nagar Silk & Jewellery Shopping | Silk saris, slippers, glass bangles and gold jewellery, with silks around Panagal Park. Expect big crowds. |  | placeholder | none |
+| Evening | Valluvar Kottam | Valluvar Kottam | A memorial to the poet Thiruvalluvar, with a 31m stone temple chariot pulled by elephants. Entry costs three rupees. |  | placeholder | none |
+
+## Kathmandu
+
+### Day 1: The old town and Durbar Square
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | The old town backstreets | Asan & Indra Chowk bazaars | Walk from Thamel to Durbar Square past Kathesimbhu Stupa, Asan Tole, Indra Chowk and Itum Bahal, the city's largest courtyard. | A glass of chiya, Nepali milk tea, along the way. | /images/plans/kathmandu/day1-morning.jpg | https://d2vbr83hnyiux1.cloudfront.net/image/975050285728/image_9gs0lscji95at15jem1ruae64q/-FWEBP |
+| Afternoon | Durbar Square | Kathmandu Durbar Square & Hanuman Dhoka | Malla-era temples and the Hanuman Dhoka palace. Budget half a day, and look in at the Kumari Bahal. |  | /images/plans/kathmandu/day1-afternoon.jpg | https://d2vbr83hnyiux1.cloudfront.net/image/975050285728/image_6fnbi4r9857n94igu7gooprd04/-FWEBP |
+| Evening | Thamel | Thamel: the buzz, and beyond it | Global food all within two blocks, with Nepali craft beers from the Barasinghe and Sherpa breweries. | Yin Yang for Thai, Third Eye for Indian, Utse for Tibetan. | /images/plans/kathmandu/day1-evening.jpg | https://d2vbr83hnyiux1.cloudfront.net/image/975050285728/image_nbrsnls83d56999sqc2letsn65/-FWEBP |
+
+### Day 2: Stupas and shopping
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | Swayambhunath | Swayambhunath (the Monkey Temple) | A 1,500-year-old white stupa on a hill with city views, and the monkeys that give it its nickname. Follow the kora at the base. |  | placeholder | none |
+| Afternoon | Pashminas and thangkas | none | Thamel's shops sell paper goods, silver jewellery and pashmina. For singing bowls and thangkas, go to Boudhanath. |  | /images/plans/kathmandu/day2-afternoon.jpg | https://d2vbr83hnyiux1.cloudfront.net/image/975050285728/image_djtrdg3eud4pbdt9dhuedote7d/-FWEBP |
+| Evening | Boudhanath | Boudhanath Stupa & the evening kora | Nepal's biggest Buddhist stupa, lit by hundreds of butter lamps at dusk while Tibetans circle it, spinning prayer wheels. |  | /images/plans/kathmandu/day2-evening.jpg | https://d2vbr83hnyiux1.cloudfront.net/image/975050285728/image_ta2fg1k0rd1b78l5rpl4s2r05q/-FWEBP |
+
+### Day 3: Patan
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | Patan Durbar Square | Patan Durbar Square & the Krishna Mandir | A spectacular square of ornate temples and royal courtyards, plus the Patan Museum, Nepal's finest. |  | /images/plans/kathmandu/day3-morning.jpg | https://d2vbr83hnyiux1.cloudfront.net/image/975050285728/image_6fnbi4r9857n94igu7gooprd04/-FWEBP |
+| Afternoon | Patan's backstreets | none | Spend a couple of hours among the Golden Temple and the four ancient stupas dating to the emperor Ashoka, and Patan's street art. |  | placeholder | none |
+| Evening | Newari food | none | Patan is perhaps the best place to try traditional Newari food, such as wo, fried lentil pancakes. | Choila, spiced barbecue meat, at Village Cafe or Raithaane. | placeholder | none |
+
+
+## Kolkata
+
+### Day 1: Colonial Kolkata
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | Victoria Memorial | Victoria Memorial Hall | The white marble 'Taj of the Raj', set in manicured gardens, with a museum of over 30,000 colonial-era artefacts. Closed Sundays. |  | /images/plans/kolkata/day1-morning.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2025/01/08161038/Victoria-Memorial.jpg |
+| Afternoon | Dalhousie Square | BBD Bagh (Dalhousie Square) colonial core | Colonial Kolkata's heart: the Writers' Building, Raj Bhavan, High Court, General Post Office and Old Currency Building. | Kathi rolls at Nizam's, a 100-year-old street stall. | placeholder | none |
+| Evening | Howrah Bridge and Prinsep Ghat | Prinsep Ghat | Walk the riverfront at Prinsep Ghat for boat rides and views of Howrah Bridge, one of the longest cantilever bridges in the world. |  | placeholder | none |
+
+### Day 2: A museum, a palace and a temple
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | Indian Museum | Indian Museum | Founded in 1814, the oldest and largest museum in Asia-Pacific, with sculptures, Mughal paintings and mummies. Closed Mondays. | Coffee at the Indian Coffee House. | /images/plans/kolkata/day2-morning.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2022/06/14145622/Beef-steak.jpg |
+| Afternoon | Marble Palace | Marble Palace | Built in 1835 with Italian marble, with art, antiques and sculptures. Entry is free but needs permission from West Bengal Tourism. |  | placeholder | none |
+| Evening | Dakshineshwar Kali Temple | Dakshineswar Kali Temple | A revered temple on the Hooghly with a central shrine to Goddess Kali and 12 smaller shrines to Shiva. |  | /images/plans/kolkata/day2-evening.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2025/01/08164052/Dakshineshwar-Kali-Temple.jpg |
+
+### Day 3: Eden Gardens, street food and Park Street
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | Eden Gardens | none | India's oldest cricket stadium, from the 1860s. On non-match days you need permission from the Cricket Association of Bengal. |  | placeholder | none |
+| Afternoon | A street food trail | none | Hubs include Park Street, New Market, College Street, Burrabazaar and Chinatown, with puchka at Vivekananda Park. | Kachori and chola dal at Adi Haridas Modak, 250 years old. | placeholder | none |
+| Evening | Park Street | Park Street | Called the street that never sleeps, with clubs and live music venues such as Someplace Else and Tantra. |  | /images/plans/kolkata/day3-evening.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2025/01/08165155/Park-Street.jpg |
+
+## Shimla
+
+### Day 1: The Ridge and Mall Road
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | The Ridge | The Ridge | Home to Christ Church, the second oldest church in North India, with viewpoints over the mountains. No vehicles allowed. | Breakfast at Wake and Bake on Mall Road. | /images/plans/shimla/day1-morning.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2024/12/09111108/shimla-ridge.jpg |
+| Afternoon | Mall Road | The Mall Road | A one-kilometre pedestrian street of restaurants, cafés and shops, including the famous Krishna Bakers and Trishool Bakers. |  | /images/plans/shimla/day1-afternoon.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2024/12/06151840/mall-road.jpg |
+| Evening | Gaiety Heritage Cultural Complex | The Gaiety Theatre | Built in 1887 on The Ridge, with regular plays, art exhibitions and events. Check the programme before you go. |  | placeholder | none |
+
+### Day 2: Castle, lodge and the ropeway
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | Gorton Castle | none | A 1904 grey-stone castle with red roofs and Neo-Gothic towers, a gentle 20-minute walk from Mall Road. Free, closed Sundays. |  | placeholder | none |
+| Afternoon | Viceregal Lodge | The Viceregal Lodge (Indian Institute of Advanced Study) | The 1880s summer residence of the Viceroy, in Jacobethan style. Entry is by 30-minute guided tour; closed Mondays. |  | /images/plans/shimla/day2-afternoon.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2024/12/06151922/viceregal-lodge.jpg |
+| Evening | Jakhu Temple and Ropeway | Jakhoo Ropeway | Shimla's highest point, with a 108-foot Hanuman statue. The 5 to 6 minute ropeway gives a bird's-eye view of the town. | Himachali thali at Cafe Khoblu or Himachali Rasoi. | /images/plans/shimla/day2-evening.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2024/12/06152044/a-view-of-shimla.jpg |
+
+### Day 3: Museum, valley and brews
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | Himachal State Museum | Shimla State Museum | In the Victorian mansion Inveram, with 17th-century miniature Pahari paintings and sculptures. Closed Mondays. |  | placeholder | none |
+| Afternoon | Annandale | Annandale | A small valley among deodar trees, with a golf course and the Army Heritage Museum. Free entry. |  | /images/plans/shimla/day3-afternoon.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2024/12/09111711/annandale.jpg |
+| Evening | The Brew Estate | none | A local favourite for crafty cocktails and unique brews. | Chinese and Tibetan dishes at the family-run Dim Sum. | placeholder | none |
+
+## Srinagar
+
+### Day 1: Dal Lake
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | The floating vegetable market | The Floating Vegetable Market at Dawn | Take a shikara before sunrise to where vendors trade fruit, vegetables, flowers and walnut wood crafts from their boats. | Czot bread for a floating breakfast, and kahwa from Mushtaq's shikara. | placeholder | none |
+| Afternoon | Hazratbal Shrine | Hazratbal Shrine | The shrine's dome watches over a market of vegetables and fabrics. Fridays have the best food. | Fresh bread, giant puris with halwa, and spiced lentils. | /images/plans/srinagar/day1-afternoon.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2024/04/08180355/Hazratbal-shrine.jpg |
+| Evening | A shikara to Char Chinar | Char Chinar Island | A pleasant evening in a shikara, visiting stops such as the island of four chinar trees, before dinner on the houseboat. |  | /images/plans/srinagar/day1-evening.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2024/04/08175947/Dal-Lake-.jpg |
+
+### Day 2: Temple and Mughal gardens
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | Shankaracharya Temple | Shankaracharya Temple | An ancient Shiva temple on a hill near Dal Lake, with breathtaking views of Srinagar. |  | placeholder | none |
+| Afternoon | The Mughal gardens | Nishat Bagh | Laid out on the Persian chaar-bagh plan, with flowers and fountains. Shalimar, Nishat and Chashme Shahi are all options. |  | /images/plans/srinagar/day2-afternoon.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2024/04/08180749/Pari-Mahal.jpg |
+| Evening | Pari Mahal | Pari Mahal at Sunset | A 17th-century garden of seven terraces on the Zabarwan mountains, on the edge of Srinagar. |  | /images/plans/srinagar/day2-evening.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2024/04/08180749/Pari-Mahal.jpg |
+
+### Day 3: The old city
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | Shah-e-Hamdan shrine | Khanqah-e-Moula | Known for intricate woodwork and papier-mâché, in a part of town full of carpet weavers, coppersmiths and shawl makers. |  | /images/plans/srinagar/day3-morning.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2024/04/09092645/Shah-e-Hamdan-shrine.jpg |
+| Afternoon | A wazwan lunch | Ahdoos | A celebratory meal of up to 36 dishes on Residency Road, at the century-old Ahdoos or the equally iconic Mughal Darbar. | Wazwan, the Kashmiri feast. | placeholder | none |
+| Evening | The Bund and Zero Bridge | none | Polo View's market, the papier-mâché of Suffering Moses since 1840, then a walk along the Jhelum to the pedestrian Zero Bridge. | Salty pink noon chai at Chai Jaai. | placeholder | none |
+
+## Paro & Thimphu
+
+### Day 1: Paro
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | Tiger's Nest | Paro Taktsang (Tiger's Nest) | A two-hour uphill hike north of Paro to a 1692 monastery that seems to grow from the cliff, 900m above the valley. |  | /images/plans/paro/day1-morning.jpg | https://d2vbr83hnyiux1.cloudfront.net/image/975050285728/image_38qtfjpgt577l5efghjnhkss7f/-FWEBP |
+| Afternoon | The National Museum | Ta Dzong (National Museum of Bhutan) | A former watchtower, a museum since 1967, holding art, relics, thangka paintings and Bhutan's postage stamps. |  | placeholder | none |
+| Evening | Paro Dzong | Rinpung Dzong (Paro Dzong) | Light butter lamps, then cross the cantilever bridge for an evening view of the dzong and the museum. |  | /images/plans/paro/day1-evening.jpg | https://d2vbr83hnyiux1.cloudfront.net/image/975050285728/image_r96vasi9dt2u710uqgae4kbt0b/-FWEBP |
+
+### Day 2: Thimphu, south
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | Dordenma Buddha | Buddha Dordenma | A 51m bronze and steel statue with 125,000 smaller Buddhas inside, and views over the valley. Thimphu is 50km from Paro airport. |  | placeholder | none |
+| Afternoon | Takin Preserve and the market | Motithang Takin Preserve | See the takin, Bhutan's national animal, from elevated walkways, then the Centenary Farmers Market with nearly 400 stalls. |  | placeholder | none |
+| Evening | Trashi Chho Dzong | Tashichho Dzong | Arrive at 5pm as officials leave, to see the courtyards of Thimphu's most impressive building. | Ema datse and jasha maroo at Chig Ja Gye. | placeholder | none |
+
+### Day 3: Thimphu, arts and crafts
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | Zorig Chusum | none | The National Institute for Zorig Chusum, where students learn Bhutan's 13 traditional arts, from woodwork to embroidery. |  | placeholder | none |
+| Afternoon | Paper and weaving | none | Watch paper made by hand at the Jungshi Handmade Paper Factory, and weaving at the Gagyel Lhundrup Weaving Centre. |  | /images/plans/paro/day3-afternoon.jpg | https://d2vbr83hnyiux1.cloudfront.net/image/975050285728/image_4gm1oascet0q3887oufgqstd56/-FWEBP |
+| Evening | Norzin Lam | none | Thimphu's main street, just over a kilometre long, with cafés, a handicraft market of about 80 stalls and the traffic circle policeman. |  | placeholder | none |
+
+
+## Alleppey
+
+### Day 1: Museum, church and beach
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | Revi Karunakaran Memorial Museum | Revi Karunakaran Memorial Museum | A museum of Tanjore paintings, ivory and crystal, from a man known for his work in Kerala's coir industry. It closes by 2pm. |  | /images/plans/alleppey/day1-morning.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2024/10/01170826/Revi-Karunakaran-Memorial-Museum-Kerala-Tourism.jpg |
+| Afternoon | St Mary's Forane Church | St Mary's Forane Church, Champakulam | One of the oldest Syrian Catholic churches in Kerala, on the River Pamba, with Portuguese influence and historical artefacts. | Lunch at Hotel Brothers Restaurant or Choola Restaurant. | /images/plans/alleppey/day1-afternoon.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2024/10/01170727/St.-Marys-Forane-Church-Kerala-Tourism.jpg |
+| Evening | Alappuzha Beach | Alleppey Beach and the old pier | Known worldwide for the Nehru Trophy Boat Race festivities, with an ancient lighthouse. A peaceful place to settle before dusk. | Dinner at The Harbour Restaurant or Cassia. | placeholder | none |
+
+### Day 2: On the water
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | A kayak or canoe tour | none | Paddle creeks and canals too narrow for larger boats, past birdlife and waterside villages. Tours run three hours to a full day. | A Kerala-style lunch comes with the full-day tours. | /images/plans/alleppey/day2-morning.jpg | https://d2vbr83hnyiux1.cloudfront.net/image/975050285728/image_lee0la0n6147f6emqqb6nvv52p/-FWEBP |
+| Afternoon | Kumarakom Bird Sanctuary | Kumarakom Bird Sanctuary | About 30 km from Alappuzha, home to rare birds including waterfowl, cuckoo, owl, teal and the Siberian crane. |  | /images/plans/alleppey/day2-afternoon.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2024/10/01170921/Kumarakom-Bird-Sanctuary-Kerala-Tourism.jpg |
+| Evening | A Vembanad Lake sunset cruise | A sunset on Vembanad Lake | Book a boat just before sunset on India's longest lake, 83.72 km long, as the colours change. Pathiramanal island is reached only by boat. |  | /images/plans/alleppey/day2-evening.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2024/10/01165711/Alleppey-3-Pyusha-Chatterjee.jpg |
+
+### Day 3: A night on a houseboat
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | A kettuvallam cruise | The overnight kettuvallam houseboat cruise | Drift past paddy fields, palm groves and Chinese-style cantilevered fishing nets on a traditional kettuvallam houseboat. | Three meals a day cooked on board, and chai at sunrise. | /images/plans/alleppey/day3-morning.jpg | https://d2vbr83hnyiux1.cloudfront.net/image/975050285728/image_92mk816jgp73t2cjv4krst4676/-FWEBP |
+| Afternoon | A village stop | none | Houseboat trips visit local villages to see traditional work such as fishing and toddy tapping. | Try kallu, toddy, in a village toddy shop. | placeholder | none |
+| Evening | Sunset on the backwaters | none | Fiery sunsets over the water, then a night to the sound of insects. The classic overnight trip from Alleppey. |  | /images/plans/alleppey/day3-evening.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2024/10/01170054/Alleppey-1-Pyusha-Chatterjee.jpg |
+
+
+## Darjeeling
+
+### Day 1: Sunrise, trains and prayers
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | Tiger Hill sunrise | Tiger Hill Sunrise | A convoy of 4WDs climbs before dawn to a view of Khangchendzonga turning pink, with Everest beyond. Wrap up warm. | Chai-wallahs serve hot tea to the crowd. | /images/plans/darjeeling/day1-morning.jpg | https://d2vbr83hnyiux1.cloudfront.net/image/975050285728/image_6pfsau4vdl54783iql61tout5u/-FWEBP |
+| Afternoon | The Toy Train | Darjeeling Himalayan Railway Toy Train Joy Ride | Steam locomotives still run from Darjeeling to Ghum and back, past tea gardens, on the narrow-gauge railway begun in 1879. |  | /images/plans/darjeeling/day1-afternoon.jpg | https://d2vbr83hnyiux1.cloudfront.net/image/975050285728/image_nhs67n1vpl5rd03g7op8ofoc1o/-FWEBP |
+| Evening | The Peace Pagoda | none | A 28m white Japanese pagoda. Arrive at about 4:15pm to join a drumming puja in the temple below, which lasts up to 90 minutes. |  | /images/plans/darjeeling/day1-evening.jpg | https://d2vbr83hnyiux1.cloudfront.net/image/975050285728/image_a1c5690c715vj0tshp40gr927n/-FWEBP |
+
+### Day 2: Tea and Tibet
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | Happy Valley Tea Estate | Happy Valley Tea Estate | Tours of the estate and factory end with a tasting of all four flushes. Come between late March and mid-November, Tuesday to Saturday. |  | placeholder | none |
+| Afternoon | Tibetan Refugee Self-Help Centre | none | Workshops for painting, textiles and woodworking, a small monastery and a shop, on the ridge below Chowrasta. | Tea tastings at Nathmulls, which showcases more than 50 teas. | /images/plans/darjeeling/day2-afternoon.jpg | https://d2vbr83hnyiux1.cloudfront.net/image/975050285728/image_02ansh8ldp55v5dqs4slqohg0b/-FWEBP |
+| Evening | Momos and thukpa | Kunga Restaurant | Tibetan food came with the refugees. Kunga on Gandhi Road is a National Geographic pick for the best momo dumplings. | Thukpa noodle soup at Noryang Tibetan Kitchen, where the noodles are made by hand. | placeholder | none |
+
+### Day 3: Heritage and mountaineering
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | Observatory Hill | Observatory Hill & Mahakal Temple | A hilltop above Chowrasta shared by Hindus and Buddhists, with prayer flags, bells and cheeky rhesus macaques. | Breakfast at tiny Sonam's Kitchen on Dr Zakir Hussain Road. | /images/plans/darjeeling/day3-morning.jpg | https://d2vbr83hnyiux1.cloudfront.net/image/975050285728/image_g3ec0pgubt74h6b1u1tma9if07/-FWEBP |
+| Afternoon | Himalayan Mountaineering Institute | Himalayan Mountaineering Institute | The history of Himalayan expeditions, with a statue and samadhi shrine of Tenzing Norgay in the grounds of the zoological park. |  | placeholder | none |
+| Evening | High tea at the Windamere | Windamere: afternoon tea & dining | A cluster of cottages from the British Raj, with vintage furnishings, offering high tea to non-guests and views of the high Himalaya. |  | placeholder | none |
+
+
+## Jaisalmer
+
+### Day 1: A museum, a haunted village and the lake
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | Jaisalmer Government Museum | none | Artefacts from the seventh and ninth centuries AD, including a trophy of the state bird, the Godawan, plus jewellery and crockery. Closed Fridays. |  | /images/plans/jaisalmer/day1-morning.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2023/02/02164949/Jaisalmer-government-museum.jpg |
+| Afternoon | Kuldhara | Kuldhara | A village a few kilometres out, said to be haunted. Legend says its people left overnight in the 1800s. Golden-hued homes and an eerie charm. |  | /images/plans/jaisalmer/day1-afternoon.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2023/02/02140740/Kuldhara-Village-1.jpg |
+| Evening | Gadisar Lake | Gadisar Lake | Once the city's only water reservoir. Watch the sunset, go boating or catch the Laser Water Show. Entry is free. |  | /images/plans/jaisalmer/day1-evening.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2023/02/02140441/Gadisar-Lake.jpg |
+
+### Day 2: The living fort
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | Jaisalmer Fort | Jaisalmer Fort | Built in 1156 and still lived in, with 99 bastions and four gates. Allow three to four hours. Entry is INR 50 for Indians. | Buy umbrellas and dupattas inside, and bargain well. | /images/plans/jaisalmer/day2-morning.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2022/09/01125753/jaisalmer-fort.jpg |
+| Afternoon | Jain temples and the palace | Jain Temples inside the Fort | The fort's Jain temples, the Raj Mahal and the Queen's palace, with a bird's-eye view of the city from the top. |  | placeholder | none |
+| Evening | The local markets | none | Manak Chowk, Pansari Bazar and Sonaron Ka Bazar sell leheriya and bandhani clothes, turbans, pickles and handmade wares. | Dal baati churma, pyaaz ki kachori and makhania lassi. | placeholder | none |
+
+### Day 3: Havelis and the desert
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | The havelis | Patwon ki Haveli | A five-storey Patwon Ki Haveli with carvings and mirror work, half a kilometre from the fort. Salim Singh and Nathmal Ji havelis are a five-minute walk. | Gatte ki sabzi and ker sangri for lunch. | /images/plans/jaisalmer/day3-morning.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2023/02/02142633/Patwon-ki-Haveli.jpg |
+| Afternoon | Desert National Park | Desert Jeep Safari | Jeep safaris go in search of the Great Indian Bustard, eagles, falcons, desert fox, chinkara and desert cat. |  | /images/plans/jaisalmer/day3-afternoon.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2023/02/02141033/Sa-Village.jpg |
+| Evening | Sam sunset | Sam Sand Dunes | Magnificent sunset views at Sam village, where you can stay at a safari camp among the sand dunes, or head back to your hotel. |  | /images/plans/jaisalmer/day3-evening.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2023/02/02141033/Sa-Village.jpg |
+
+
+## Jodhpur
+
+### Day 1: The Citadel of the Sun
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | Mehrangarh Fort | Mehrangarh Fort | Rajasthan's biggest fort, built in 1459 on a cliff 400 feet above the city, with a museum of miniature paintings, palanquins and arms. |  | /images/plans/jodhpur/day1-morning.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2026/07/24170854/jodhpur-inline.jpg |
+| Afternoon | Jaswant Thada | Jaswant Thada | A cenotaph from 1899, built entirely of thin, carved marble sheets that glow in the sun, with a tiered garden and a small lake. |  | placeholder | none |
+| Evening | Clock Tower market | Sardar Market | The Sardar Market around the Ghantaghar sells mojaris, lehariya saris, dupattas, safas and ethnic jewellery. | Piping hot pyaz kachoris and mirchi vadas. | placeholder | none |
+
+### Day 2: Zipline, garden and palace
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | Flying Fox zipline | Flying Fox zip-line over Mehrangarh | A zipline over two desert lakes and the Rao Jodha eco-park, with views of Mehrangarh and the Blue City. |  | placeholder | none |
+| Afternoon | Mandore Garden | Mandore Gardens | Ancient temples, memorials and high-rock terraces, with monoliths from the fifth century and a government museum. |  | placeholder | none |
+| Evening | Umaid Bhawan Palace | Umaid Bhawan Palace Museum | An Indo-Saracenic palace of interlocked sandstone, with no mortar. Part is a hotel; part shows model aeroplanes, clocks and crockery. |  | placeholder | none |
+
+### Day 3: A day trip to Osian
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | Osian's temples | none | About 65 km from Jodhpur, a town called the Khajuraho of Rajasthan, with 8th to 12th century temples. Go early. |  | /images/plans/jodhpur/day3-morning.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2026/07/24172931/osian-feature-1600x900.jpg |
+| Afternoon | The dunes | none | Osian's own crowd-free sand dunes, for a stroll or a camel or jeep safari, which can take 3 to 6 hours. |  | /images/plans/jodhpur/day3-afternoon.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2025/07/08001217/jaisalmer-hero.jpg |
+| Evening | A desert camp | none | Sit on the dunes for sunset. Overnight camps have folk dances, bonfires and stargazing, or return to Jodhpur. |  | /images/plans/jodhpur/day3-evening.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2026/07/24165329/osian-desert.jpg |
+
+## Kochi
+
+### Day 1: Fort Kochi
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | A Fort Kochi walk | A Fort Kochi Heritage Walk | On foot from Fort Immanuel to St Francis Church, where Vasco da Gama was once laid to rest, the Dutch Cemetery and Santa Cruz Basilica. |  | /images/plans/kochi/day1-morning.jpg | https://assets.cntraveller.in/photos/6780d29d37b03470fb1fe5a4/master/w_1200,c_limit/x.jpg |
+| Afternoon | Kashi Art Café | Kashi Art Café | In a century-old Dutch colonial structure, an art gallery and café with a shaded courtyard. | Home-baked cakes, French toast and strong organic coffee. | placeholder | none |
+| Evening | The Chinese fishing nets | The Chinese Fishing Nets (Cheena Vala) | Swaying against the Arabian Sea at Vasco da Gama Square, they are at their most magical at sunset. |  | /images/plans/kochi/day1-evening.jpg | https://assets.cntraveller.in/photos/6780dd6e37b03470fb1fe5a8/master/w_1200,c_limit/x.jpg |
+
+### Day 2: Mattancherry
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | Mattancherry Palace | The Mattancherry (Dutch) Palace & its murals | Gifted by the Portuguese to King Veera Kerala Varma in 1555 and restored by the Dutch, hence the Dutch Palace. |  | /images/plans/kochi/day2-morning.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2019/07/Kochi_3.jpg |
+| Afternoon | Paradesi Synagogue and Jew Town | The Paradesi Synagogue | Built in 1568, with hand-painted Chinese tiles and Belgian chandeliers, and lanes of antique shops and spice shops. |  | /images/plans/kochi/day2-afternoon.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2019/07/Kochi_2.jpg |
+| Evening | Kerala Kathakali Centre | A Kathakali performance | The most popular venue in Fort Kochi for Kathakali, Mohiniattam and the martial art Kalaripayattu. | Dinner at Malabar Junction: fish pollichathu and payasam. | /images/plans/kochi/day2-evening.jpg | https://assets.cntraveller.in/photos/6780d30037b03470fb1fe5a6/master/w_1200,c_limit/x.jpg |
+
+### Day 3: A palace and the backwaters
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | Hill Palace | The Hill Palace Museum | Built in 1865 for the Cochin kings in Tripunithura, now Kerala's largest archaeological museum. |  | /images/plans/kochi/day3-morning.jpg | https://assets.cntraveller.in/photos/678491922f17135a1c33542d/master/w_1200,c_limit/x.jpg |
+| Afternoon | The backwaters by ferry | none | Ferries have linked Kochi's ten inhabited islands since 1968. The new Kochi Water Metro runs electric hybrid boats. |  | /images/plans/kochi/day3-afternoon.jpg | https://assets.cntraveller.in/photos/6780d164b30aa614cd78e0fc/master/w_1200,c_limit/x.jpg |
+| Evening | Rice Boat | Rice Boat | Styled as a kettuvalam, in the Taj Malabar on Willingdon Island, with views of the backwaters and Mattancherry. | Tiger prawns in coconut oil and white snapper in banana leaf. | /images/plans/kochi/day3-evening.jpg | https://assets.cntraveller.in/photos/6780d17583130a91cccded31/master/w_1200,c_limit/x.jpg |
+
+
+## Mahé
+
+### Day 1: Victoria and Beau Vallon
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | Victoria | The Clock Tower (Little Big Ben) | One of the world's smallest capitals, below a mountain landscape of banana plants and palms, with a market and a silver clock tower inspired by Big Ben. |  | /images/plans/mahe-seychelles/day1-morning.jpg | https://i.natgeofe.com/n/5d1fb9fd-747f-4a74-ba11-629e578a930f/seychelles_GettyImages-1413214828_ukHR_3x2.jpg |
+| Afternoon | Beau Vallon Beach | Beau Vallon beach | Mahé's hub for motorised water sports and seaside fun, on the north-west coast. |  | /images/plans/mahe-seychelles/day1-afternoon.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2025/11/19115832/3-8.jpg |
+| Evening | Beach Shak | none | An open-air bar right on the sand with a west-facing view for the sunset. Book ahead. | Try a Creole Rhum Swizzle: extra dark rum, Creole bitters and cinnamon syrup. | placeholder | none |
+
+### Day 2: Hiking, spices and rum
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | Morne Seychellois National Park | Morne Seychellois National Park | 7,525 acres of mountain jungle and mangroves, 20% of Mahé, with over nine miles of trails to the Seychelles' highest point. |  | placeholder | none |
+| Afternoon | Jardin du Roi | none | A spice garden high above the coast, where the restaurant serves curries made with fresh herbs from the grounds. | A farm-to-table lunch. | placeholder | none |
+| Evening | Takamaka Rum Distillery | Takamaka Rum Distillery, La Plaine St André | A restored plantation house, La Plaine St André, with a guided tour of the stills and a tasting. | A drink and a bite at the Rum Shack and Food Truck. | placeholder | none |
+
+### Day 3: Fruit, glass-bottom boats and Creole dinner
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | Vallée des Fruits | none | Seychelles' first organic fruit agrotourism experience: a plantation tour among mango, guava and passionfruit trees. | Sample FruitShi, fruit served sushi-style, or join a Creole cooking session. | placeholder | none |
+| Afternoon | Moyenne Island | none | A glass-bottom boat shows corals, sea meadows and schools of fish. Eden Island's semi-submarine is another way to see the reef. |  | placeholder | none |
+| Evening | Marie Antoinette | Marie Antoinette | Authentic Creole dining in Victoria, in a 150-year-old colonial-era mansion that holds the charm of old Seychelles. |  | placeholder | none |
+
+
+## Manali
+
+### Day 1: Old town and temples
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | Hadimba Temple | Hadimba Devi Temple | A four-tiered pagoda temple from 1553 set among the cedars of Dhungri forest, dedicated to Goddess Hadimba, with ancient wooden architecture and intricate carvings. |  | /images/plans/manali/day1-morning.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2025/03/04130930/7566370960_4517ceceda_k.jpg |
+| Afternoon | Old Manali and Manu Temple | Manu Temple | Wander Old Manali's bohemian lanes along the Beas River, full of shops and cosy cafes, up to Manu Temple dedicated to the sage Manu. | Sip hot chai or share Maggi noodles at a cafe like 1947 or Dylan's. | /images/plans/manali/day1-afternoon.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2025/03/04150338/15918292610_1a1c2960e3_k.jpg |
+| Evening | Mall Road | The Mall Road | Stroll the town's main promenade, lined with local shops and Tibetan handicrafts; good for Pashmina shawls, woollen caps and the iconic Himachali topi. | Grab warm momos and a softy as you walk Mall Road. | /images/plans/manali/day1-evening.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2025/03/04153311/26593846625_bee16861fb_k.jpg |
+
+### Day 2: Snow and adventure
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | Solang Valley | Solang Valley | A short drive from town, this valley of snow-capped peaks and green meadows is Manali's adventure hub, with skiing, paragliding, zorbing and a 1.5-km cable car ride. |  | /images/plans/manali/day2-morning.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2025/03/04152100/2395793636_94f10ed435_k.jpg |
+| Afternoon | Rohtang Pass | Rohtang Pass | At 13,000 feet, one of India's most famous mountain passes, with sweeping Himalayan views; the drive passes the Atal Tunnel toward Spiti. A permit is needed and it opens June to September. |  | /images/plans/manali/day2-afternoon.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2025/03/04145814/5480884958_38b5c2a797_k.jpg |
+| Evening | Vashisht hot springs | Vashisht | Unwind in the natural sulphur hot springs of this hillside hamlet an hour from town, beside wooden temples and mountains, the perfect end to a day in the snow. |  | placeholder | none |
+
+### Day 3: Waterfalls and a castle
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | Jogini Waterfalls | Jogini Falls trek | A serene one-to-two-hour hike through dense forest and streams leads to these rejuvenating falls above Vashisht, a favourite of nature lovers and adventurers. |  | /images/plans/manali/day3-morning.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2024/01/19154246/Untitled-design-2024-01-19T154157.938.jpg |
+| Afternoon | Naggar Castle | Naggar Castle | A 30-minute drive to the old Kullu capital, where a 15th-century stone-and-wood castle and the Nicholas Roerich art gallery sit against snow-capped peaks. | Enjoy a royal lunch with valley views at Naggar Castle. | /images/plans/manali/day3-afternoon.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2025/03/04162405/Naggar-near-Manali.jpg |
+| Evening | Old Manali cafes | none | Close the trip in Old Manali's buzzing cafe-and-bar scene, where spots like Cafe 1947 and The Lazy Dog Lounge host live music by the river. | Woodfired pizza or a hearty mountain meal with live tunes. | /images/plans/manali/day3-evening.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2025/03/04153738/3777570646_d72e17bba8_k.jpg |
+
+## Munnar
+
+### Day 1: Tea country
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | Tea Museum | Kannan Devan / Tata Tea Museum | A 1.5-km walk north-west of town, the closest thing to a working tea factory: colonial-era exhibits, a 1905 tea-roller and a 30-minute film on Munnar's tea history. |  | placeholder | none |
+| Afternoon | Walk the tea estates | none | Whether or not you love tea, a walk through the plantations is essential; the climate, the aroma and the quiet are breathtaking. | Refuel on parathas and biryani at Raspy Restaurant, a local favourite. | /images/plans/munnar/day1-afternoon.jpg | https://assets.cntraveller.in/photos/68870b80dfdb33223f1e96de |
+| Evening | Punarjani Traditional Village | none | About 8 km south of town, watch enchanting daily Kathakali (5pm) and Kalari (6pm) performances; arrive by 4pm to catch the ritual Kathakali makeup sessions. |  | placeholder | none |
+
+### Day 2: Hills and wildlife
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | Eravikulam National Park | Eravikulam National Park | Set among rolling hills, this park is the best place near Munnar to meet the endangered Nilgiri Tahr, a shy mountain goat, in the wild. |  | /images/plans/munnar/day2-morning.jpg | https://assets.cntraveller.in/photos/68870d0cad2e6713a008a129 |
+| Afternoon | Echo Point | Echo Point | A lakeside spot ringed by green hills where your loudest yell echoes back across the water, a fun, scenic stop that brings out the child in everyone. |  | /images/plans/munnar/day2-afternoon.jpg | https://assets.cntraveller.in/photos/68870d0eaf388d60b5fc9a6b/master/w_1200,c_limit/x.jpg |
+| Evening | Dinner in town | none | Head back into Munnar for dinner at a bright, modern eatery like Surya Soma, playing upbeat tunes over a welcoming dining room. | Affordable North Indian, local and Chinese dishes. | placeholder | none |
+
+### Day 3: Flowers, a lake and Keralan cooking
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | Blossom International Flower Park | Blossom Hydel Park | Sixteen acres of flowers to wander, with boating, cycling and even roller-blading when you need a break from the blooms. |  | placeholder | none |
+| Afternoon | Sita Devi Lake | Sita Devi Lake (Devikulam) | A pretty hill lake where, unusually for a hill station, you can sit and fish to your heart's content amid Munnar's green diversity. |  | /images/plans/munnar/day3-afternoon.jpg | https://assets.cntraveller.in/photos/68870d0c2e93fed7059adffb/master/w_1200,c_limit/x.jpg |
+| Evening | Keralan cooking class | none | Learn authentic Keralan recipes at blogger Nimi Sunilkumar's daily cooking class near the DTPC; you leave with a copy of her cookbook. | A hands-on Keralan supper you cook yourself. | placeholder | none |
+
+## Ranthambore
+
+### Day 1: Arrival and first safari
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | Settle in | none | The park is over three hours from Jaipur airport, so arrive, settle into your lodge and rest; the wild days ahead begin in earnest tomorrow. |  | placeholder | none |
+| Afternoon | Afternoon jeep safari | none | Board a jeep or canter for a three-hour safari into zones one to five, the oldest and best-maintained, where tigers roam unhindered by the cameras. |  | /images/plans/ranthambore/day1-afternoon.jpg | https://assets.cntraveller.in/photos/6886fb0e21edcddedd073d25 |
+| Evening | The Oberoi Vanyavilas | The Oberoi Vanyavilas | Unwind with open-air yoga and wellness therapies after the dust of the trail at this resort, a ten-minute drive from the gate for zones one to five. |  | placeholder | none |
+
+### Day 2: Dawn and dusk in the core zones
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | Padam Talao | Padam Talao & the Jogi Mahal | The park's largest lake, where tigers and sambar gather at the water's edge and the red-sandstone Jogi Mahal stands on the bank, a classic morning sighting spot. |  | /images/plans/ranthambore/day2-morning.jpg | https://assets.cntraveller.in/photos/63bea9b7d7caa4e531854f64 |
+| Afternoon | Ranthambore Fort | Ranthambore Fort | A 10th-century fort standing in the middle of the forest; climb for sweeping views and old temples, and you may spot a tiger on the way up. |  | placeholder | none |
+| Evening | Evening jeep safari | none | Take a second safari into the core zones at dusk; your guide knows where tigresses have laid cubs and where males are fighting over territory. |  | /images/plans/ranthambore/day2-evening.jpg | https://assets.cntraveller.in/photos/6886fb0c4dfc0cba2d2acb36 |
+
+### Day 3: River safari and farewell
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | Chambal boat safari | Chambal River | Swap the jeep for a boat on the River Chambal that rings the park, spotting gharials, alligators and birds like pintails, egrets, herons, storks and flamingos. |  | /images/plans/ranthambore/day3-morning.jpg | https://assets.cntraveller.in/photos/6886fb0ebd7a406138c982f2 |
+| Afternoon | Keoladeo detour | none | On the way out, detour to this UNESCO-listed bird sanctuary near Bharatpur, one of the world's great breeding grounds for waterfowl, spoonbills and storks. |  | /images/plans/ranthambore/day3-afternoon.jpg | https://assets.cntraveller.in/photos/6886fb0cdfdb33223f1e9431 |
+| Evening | Drive to Jaipur | none | It is about three hours back to Jaipur airport, so keep buffer time before your flight after a wild few days in the jungle. |  | placeholder | none |
+
+## Rishikesh
+
+### Day 1: Yoga and the Ganga
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | Yoga by the Ganges | none | In the 'Yoga Capital of the World', start with a riverside drop-in class at an ashram like Parmarth Niketan, stretching against a Himalayan backdrop. |  | /images/plans/rishikesh/day1-morning.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2025/06/11125744/Take-a-Yoga-Session-by-the-Ganges.jpg |
+| Afternoon | The Beatles Ashram | Beatles Ashram | Explore the graffiti-covered ruins of the Maharishi Mahesh Yogi Ashram where the Beatles once stayed, now a gallery of vivid street art among the trees. |  | placeholder | none |
+| Evening | Ganga Aarti at Triveni Ghat | The Maha Aarti at Triveni Ghat | Arrive 30 to 45 minutes early for the 6pm Ganga Aarti: incense, bells and chanting as priests offer prayers to the river and lamps shimmer on the water. |  | /images/plans/rishikesh/day1-evening.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2025/06/11125734/End-the-day-with-Ganga-Arti-at-Triveni-Ghat-.jpg |
+
+### Day 2: Adventure capital
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | White-water rafting | none | Raft the Ganga's mix of calm stretches and Grade I to V rapids; popular put-ins run from Brahmpuri and Shivpuri down to Marine Drive and Kaudiyala. |  | /images/plans/rishikesh/day2-morning.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2025/06/11125732/Enjoy-River-Rafting-.jpg |
+| Afternoon | Bungee at Jumpin Heights | none | For a bigger rush, take the leap at Jumpin Heights, an 80-metre bungee certified by the Ministry of Tourism; Himalayan Bungy nearby goes to 117 metres. |  | placeholder | none |
+| Evening | Riverside cafe | none | Wind down at a riverside cafe like the Beatles Cafe or Shambala, watching the Ganges slip past as the town's nightlife hums to life. | Wood-fired pizza and coffee with a Ganges view. | /images/plans/rishikesh/day2-evening.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2025/06/11125727/End-your-day-by-relaxing-at-a-riverside-cafe-.jpg |
+
+### Day 3: Temples, bridges and a cave
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | Neelkanth Mahadev Temple | none | A hilltop Shiva temple some 5,000 feet up, reached by a 45-minute drive or a 12-km trek, where legend says Shiva drank the poison that turned his throat blue. |  | placeholder | none |
+| Afternoon | Laxman Jhula and markets | Lakshman Jhula & Ram Jhula (the swaying footbridges) | Cross the famous suspension bridge over the Ganga and browse the lanes for Rudraksha beads, incense and bohemian souvenirs. | Taste aloo poori and kachori with a glass of chilled lassi. | /images/plans/rishikesh/day3-afternoon.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2025/06/11125737/Walk-Through-Laxman-Jhula-and-Local-Markets.jpg |
+| Evening | Vashishta Gufa | The Vashishta Gufa (meditation cave) | Meditate in this ancient cave where Sage Vashishta is said to have sat for years; bring a torch, as the long cave is dark and quiet. |  | placeholder | none |
+
+## Udaipur
+
+### Day 1: The city palace and the lake
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | City Palace | City Palace of Udaipur | Spend two or three hours in the sprawling lakeside palace complex, taking in Mewar architecture, courtyards and heritage galleries above Lake Pichola. |  | /images/plans/udaipur/day1-morning.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2024/07/31171800/City-Palace-6.jpg |
+| Afternoon | Boating on Lake Pichola | Sunset boat ride on Lake Pichola | Take a 30-minute boat ride on the lake, then walk among the lakeside pavilions; the water frames the City Palace and its island palaces. | Lunch at Ambrai, the city's most Instagrammed lakefront restaurant. | /images/plans/udaipur/day1-afternoon.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2024/07/31171820/Lake-Pichola-1.jpg |
+| Evening | Sunset at Karni Mata Temple | Karni Mata ropeway to Machla Magra | Ride the ropeway up to this hilltop temple, perched on Machla Magra, for the city's most picturesque sunset over the lakes and palaces below. |  | /images/plans/udaipur/day1-evening.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2024/07/31171825/Sunset.jpg |
+
+### Day 2: Gardens, cars and cocktails
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | Saheliyon ki Bari | Saheliyon ki Bari | Spend an hour or two in this royal fountain garden of lotus pools, marble elephants and flowerbeds, built for the ladies of the court. | Stop at The Bake Affair Cafe nearby for great coffee and eggless patisserie. | /images/plans/udaipur/day2-morning.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2024/07/31171823/Saheliyon-ki-Bari.jpg |
+| Afternoon | Vintage and Classic Car Museum | Vintage & Classic Car Collection | See the Mewar dynasty's collection of classic cars, from grand Rolls-Royces to Cadillacs, many of them still in working order. |  | /images/plans/udaipur/day2-afternoon.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2024/07/31171828/Vintage-car-museum.jpg |
+| Evening | Palasa Patio Bar | none | Escape the tourist throng at this hidden outdoor bar in leafy Shikarbadi, 30 minutes out, with alcove seating and an eclectic Western menu. | Tapas-style bites and standout G&Ts. | /images/plans/udaipur/day2-evening.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2023/01/24184738/Featured-Inside-73.jpeg |
+
+### Day 3: Lake, art and a sunset fort
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | Fateh Sagar Lake | Fateh Sagar Lake & Nehru Garden | Boat on this hill-ringed lake before the sun is overhead; it holds three small islands and is a calmer counterpart to Lake Pichola. |  | /images/plans/udaipur/day3-morning.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2024/07/31171805/Fateh-Sagar-Lake.jpg |
+| Afternoon | Rajasthan Studio | none | Spend two hours learning 16th-century miniature painting with master artist Kanhaiya Sharma, creating your own little souvenir to take home. | Lunch at Kaner Bistro Lounge, an all-veg cafe in a leafy haveli courtyard. | placeholder | none |
+| Evening | Sunset at Sajjangarh | Sajjangarh (Monsoon Palace) at sunset | Close the trip with sunset from this hilltop fort, also called the Monsoon Palace, looking out over Udaipur's lakes and the city below. |  | /images/plans/udaipur/day3-evening.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2024/07/31171802/City-view.jpg |
+
+## Varanasi
+
+### Day 1: Dawn on the ghats
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | Assi Ghat at dawn | Assi Ghat & Subah-e-Banaras | Rickshaw to Assi Ghat before dawn for the 45-minute Subah-e-Banaras aarti, shloka chanting and sunrise yoga where the Ganga meets the Assi. | Breakfast at Brown Bread Bakery, with organic and vegan options. | /images/plans/varanasi/day1-morning.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2024/09/12170032/Varanasi-Travel-11.jpg |
+| Afternoon | Shivala Ghat and BHU | The Bharat Kala Bhavan Museum | Stroll to Shivala and Shankaracharya Ghat for a 15-minute boat ride, then visit Banaras Hindu University's Indo-Gothic campus and Bharat Kala Bhavan museum. |  | placeholder | none |
+| Evening | Dashashwamedh Ghat | The Ganga Aarti at Dashashwamedh Ghat | Around 5pm, take a boat out to watch the elaborate evening Ganga aarti, with priests moving in unison, then a fire-dance ritual and prayers. | Try the best-selling tamatar chaat at Kashi Chat Bhandar. | /images/plans/varanasi/day1-evening.jpg | https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2024/09/12165758/Varanasi-Travel-10.jpg |
+
+### Day 2: Temples and Sarnath
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | Kashi Vishwanath Temple | The Kashi Vishwanath Temple | Take a rickshaw to Vishwanath Gali for one of the twelve Jyotirlinga shrines, with ornate carvings and black-stone lingams. | Start with idlis, masala dosa and filter coffee at Kerala Cafe near Bhelupur Road. | placeholder | none |
+| Afternoon | Man Singh Observatory | Man Mandir Ghat & the Man Singh Observatory (Jantar Mantar) | Climb the observatory built in 1710 by Maharaja Sawai Jai Singh for panoramic views of the Ganges' west bank. | Pehalwan Lassi in a kulhad near Ravidas Gate, then a Banarasi paan at Keshav Bhandar. | placeholder | none |
+| Evening | Dhamekh Stupa at sunset | Dhamekh Stupa | Take a taxi to Sarnath, where Buddha gave his first sermon, to watch the sun set behind this 43-metre Buddhist shrine dating back to 500 CE. |  | placeholder | none |
+
+### Day 3: River, walk and markets
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | Dawn boat on the Ganges | A Dawn Boat Ride on the Ganga | Hire a boat at dawn to watch devotees bathe and perform puja, yogis salute the sun and hawkers greet the crowds as the city lights up from the water. |  | /images/plans/varanasi/day3-morning.jpg | https://d2vbr83hnyiux1.cloudfront.net/image/975050285728/image_et3qrgg6jh7jbd4nk27eguog70/-FWEBP |
+| Afternoon | Walk to Manikarnika Ghat | Manikarnika Ghat | Walk the 3 km of ghats past temples, boatmen and bathers to Manikarnika, one of the burning ghats where pyres burn around the clock. | Stop for a fresh fruit lassi at Blue Lassi, churning 80 flavours since 1925. | placeholder | none |
+| Evening | Gaudoliya Street Market | none | Browse some of the city's oldest shops near Varanasi Cantt station for Banarasi sarees and handwoven carpets; Thatheri Bazar and Golghar are alternatives. | Finish with dal bati and bowls of kheer at Baati Chokha. | placeholder | none |
+
+## Zanzibar
+
+### Day 1: Stone Town
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | Stone Town heritage walk | The Stone Town heritage walk | Wander the UNESCO-listed coralline ragstone streets with a local guide, past carved doors and shops scented with vanilla and cloves. | Pick up an invigorating cup of spiced coffee along the way. | /images/plans/zanzibar/day1-morning.jpg | https://media.cntraveler.com/photos/6234d0f3c4357d8275f3dc97/master/w_1200,c_limit/x.jpg |
+| Afternoon | The church on the old slave market | The Anglican Cathedral & the former Slave Market | A historic church stands on what was once East Africa's largest market of enslaved people, a sobering stop in the heart of the old town. |  | placeholder | none |
+| Evening | Forodhani Gardens | Forodhani Gardens night food market | Watch the sunset over the ocean from these waterfront gardens, the perfect finish to a day on foot in Stone Town. | Taste a meat-stuffed sambusa as the sun goes down. | placeholder | none |
+
+### Day 2: The northeast coast
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | Matemwe village and fish auction | none | Walk with a guide to the nearby fishing village and its fish auction, a lively look at daily life on the island's northeast coast. | Sample biscuit-like Swahili doughnuts. | placeholder | none |
+| Afternoon | Matemwe Lodge lagoon | Matemwe Lodge | Watch dhows sail over the coral-reef lagoon from a hammock, as fisherpeople walk far out to sea when the tide ebbs more than half a mile. |  | /images/plans/zanzibar/day2-afternoon.jpg | https://media.cntraveler.com/photos/6234d0eca271de8ec79c87bc/master/w_1200,c_limit/x.jpg |
+| Evening | Dinner at LUX* Marijani | none | Opened in 2023 on the northeast coast, this whitewashed hotel puts clove, cinnamon and nutmeg at the heart of its two restaurants. | Try the aromatic octopus curry at The Beach, or vegetarian sharing plates at Samāa. | /images/plans/zanzibar/day2-evening.jpg | https://i.natgeofe.com/n/5446c17d-b82d-43ef-8e2c-8a2b99d26c21/ZanzibarLEAD_3x2.jpg |
+
+### Day 3: Beaches and rooftops
+
+| Slot | Title | Map pin | Body | Food | Photo file | Photo original |
+|---|---|---|---|---|---|---|
+| Morning | Jambiani Beach | Jambiani beach | On the southwest coast, the family-run Blue Oyster Hotel is a mainstay of this beach and gives local masseuses and craftswomen space on site. |  | placeholder | none |
+| Afternoon | Kendwa Beach | Kendwa beach | On the northwest coast, thatch-roofed suites and villas sit among tropical gardens along the sand, blending quietly into the landscape. |  | placeholder | none |
+| Evening | Emerson Spice | Emerson Spice Rooftop Tea House | Dine on the rooftop of a restored merchant's house in Stone Town, where indigenous ingredients take centre stage and local musicians perform. |  | /images/plans/zanzibar/day3-evening.jpg | https://media.cntraveler.com/photos/6234d0f6ea12a69a53a884bd/master/w_1200,c_limit/x.jpg |
 
 Note: where a stop has no photo of its own, the card uses the photo of the food place named in that card. Cards marked placeholder have no photo yet and show the city's placeholder image.

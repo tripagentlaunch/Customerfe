@@ -37,7 +37,10 @@ import { loadCityPlan, type CityPlan } from "../lib/cityPlans";
 import { toRoute } from "../lib/toRoute";
 import CityMap, { useCityMapData } from "../components/CityMap";
 import { useIsMobile } from "../hooks/useIsMobile";
-import { useWishlist, type WishlistEntry } from "../lib/wishlist";
+import type { WishlistEntry } from "../lib/wishlist";
+import { TripBar } from "../components/TripBar";
+import { addItem, removeItem, useInTrip, TRIP_SLOTS, type TripSlot } from "../lib/tripState";
+import { flyToTrip } from "../lib/flyToTrip";
 // import PlanRouteMap, { type PlanStop } from "../components/PlanRouteMap"; // the Plan no longer has a route map (2026-11-11)
 // import PlanCarousel from "../components/PlanCarousel"; // replaced by the fixed 4-day card rows (2026-11-11)
 import CalendarSection from "../components/CalendarSection";
@@ -270,8 +273,9 @@ function GuideCard({
   // so reading it never stretches the card or the photo.
   const isPhone = useIsMobile();
   const [open, setOpen] = useState(false);
-  const wishlist = useWishlist();
-  const saved = !!save && wishlist.isSaved(save.ref);
+  // "Add to your trip" (2026-11-17): the card's + now adds the place to the trip kept in this browser
+  // (see lib/tripState.ts), which the /trip builder lays out by day. Was the account shortlist.
+  const saved = useInTrip(save?.ref);
   useEffect(() => {
     if (!open) return;
     const onKey = (e: KeyboardEvent) => e.key === "Escape" && setOpen(false);
@@ -321,15 +325,31 @@ function GuideCard({
 
   // Swipe down on the sheet (when it's scrolled to the top) closes it.
   const dragY = useRef<number | null>(null);
+  const toggleTrip = () => {
+    if (!save) return;
+    if (saved) removeItem(save.ref);
+    else {
+      const m = (save.meta ?? {}) as { section?: string; area?: string | null; photo?: string | null };
+      addItem(save.city, save.cityLabel, { ref: save.ref, kind: save.kind, title: save.title, section: m.section ?? null, area: m.area ?? null, photo: m.photo ?? null });
+    }
+  };
   const heart = (cls: string, label: string) => (
     <button
       type="button"
       className={`${cls}${saved ? ` ${styles.hearted}` : ""}`}
       aria-pressed={saved}
-      aria-label={saved ? "Remove from your shortlist" : "Add to your shortlist"}
+      aria-label={saved ? "Remove from your trip" : "Add to your trip"}
       onClick={(e) => {
         e.stopPropagation();
-        if (save) void wishlist.toggle(save);
+        if (!save) return;
+        if (saved) removeItem(save.ref);
+        else {
+          // The sheet's dimmed cover sits above the tray, so the sheet closes as the photo takes off.
+          flyToTrip(e.currentTarget);
+          const m = (save.meta ?? {}) as { section?: string; area?: string | null; photo?: string | null };
+          addItem(save.city, save.cityLabel, { ref: save.ref, kind: save.kind, title: save.title, section: m.section ?? null, area: m.area ?? null, photo: m.photo ?? null });
+          setOpen(false);
+        }
       }}
     >
       <span className={styles.heartIcon}>
@@ -352,7 +372,7 @@ function GuideCard({
         }}
         style={!isPhone && expandable && !expanded ? { cursor: "pointer" } : undefined}
       >
-        {shownPhoto && <div className={styles.cardThumbWrap}>
+        {shownPhoto && <div className={styles.cardThumbWrap} data-fly-box>
           <img
             className={styles.cardThumb}
             src={shownPhoto}
@@ -368,10 +388,10 @@ function GuideCard({
               <span className={styles["card-spinner"]} />
             </div>
           )}
-          {isPhone && save && heart(styles.cardHeart, "")}
+          {save && <TripIconButton inTrip={saved} onToggle={toggleTrip} />}
         </div>}
         <div
-          className={styles.cardBody}
+          className={`${styles.cardBody}${save && !shownPhoto ? ` ${styles.cardBodyAdd}` : ""}`}
           ref={bodyRef}
           data-expanded={expanded || undefined}
           onClick={(e) => {
@@ -401,6 +421,7 @@ function GuideCard({
             </button>
           )}
           */}
+          {save && !shownPhoto && <TripIconButton inTrip={saved} onToggle={toggleTrip} />}
         </div>
       </div>
       {/* Outside the card's own element: a tap on the sheet or the dimmed area
@@ -422,14 +443,15 @@ function GuideCard({
               }}
             >
               <div className={styles.sheetGrip} aria-hidden="true" />
-              {shownPhoto && <div className={styles.sheetPhoto} style={{ backgroundImage: `url('${shownPhoto}')` }} />}
+              {shownPhoto && <div className={styles.sheetPhoto} data-fly-box style={{ backgroundImage: `url('${shownPhoto}')` }} />}
               <div className={`ta-guide ${styles.sheetBody}`}>
                 <TagsExpanded.Provider value={true}>
                   <ul className="cg-list">
                     <li>{children}</li>
                   </ul>
                 </TagsExpanded.Provider>
-                {save && <div className={styles.sheetFoot}>{heart(styles.sheetSave, saved ? "Saved to my journey" : "Save to my journey")}</div>}
+                {save && <div className={styles.sheetFoot}>{/* was "Add to your trip" on phones; now the same words as the desktop button (2026-11-18). */}
+                {heart(styles.sheetSave, saved ? "In your trip" : "Add to trip")}</div>}
               </div>
             </div>
           </div>,
@@ -439,6 +461,41 @@ function GuideCard({
   );
 }
 
+// "Add to trip": a small square with a "+" (a tick once added) in the corner of the card's photo;
+// on hover it opens sideways to say what it does, like the Chat with us button.
+function TripIconButton({ inTrip, onToggle, className }: { inTrip: boolean; onToggle: () => void; className?: string }) {
+  const label = inTrip ? "In your trip" : "Add to trip";
+  return (
+    <button
+      type="button"
+      className={`${styles.tripBtn}${inTrip ? ` ${styles.hearted}` : ""}${className ? ` ${className}` : ""}`}
+      aria-pressed={inTrip}
+      aria-label={inTrip ? "Remove from your trip" : "Add to your trip"}
+      onClick={(e) => {
+        e.stopPropagation();
+        if (!inTrip) flyToTrip(e.currentTarget); // the card's photo flies into the tray below
+        onToggle();
+      }}
+    >
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+        {inTrip ? <path d="M5 12.5l4.5 4.5L19 7.5" /> : <path d="M12 5v14M5 12h14" />}
+      </svg>
+      <span className={styles.tripBtnLbl}>{label}</span>
+    </button>
+  );
+}
+
+// The Plan's cards ("Day 2, afternoon") can go straight into the trip, already placed on that day.
+type PlanTripItem = { ref: string; title: string; photo: string | null; day: number; slot: TripSlot };
+const planSlotOf = (label: string | null | undefined, index: number): TripSlot =>
+  (TRIP_SLOTS.find((s) => (label ?? "").toLowerCase().startsWith(s)) ?? TRIP_SLOTS[Math.min(index, 2)]) as TripSlot;
+function addPlanItems(slug: string, cityLabel: string, items: PlanTripItem[]) {
+  items.forEach((i) => addItem(slug, cityLabel, { ref: i.ref, kind: "plan", title: i.title, section: "plan", area: null, photo: i.photo, day: i.day, slot: i.slot }));
+}
+function PlanAddButton({ slug, cityLabel, item }: { slug: string; cityLabel: string; item: PlanTripItem }) {
+  const inTrip = useInTrip(item.ref);
+  return <TripIconButton inTrip={inTrip} onToggle={() => (inTrip ? removeItem(item.ref) : addPlanItems(slug, cityLabel, [item]))} />;
+}
 // Tabs + tier chips both moved out of here into one shared sticky wrapper
 // in CityPage itself (see .guideSticky) — this component now renders only
 // the actual tier list content, driven by the selectedTier prop it's given.
@@ -1431,8 +1488,13 @@ export default function CityPage() {
                     const venue = slot.venue;
                     return (
                       <div className={styles.planCard} key={si} id={cardId}>
-                        <div className={styles.planPhoto}>
+                        <div className={styles.planPhoto} data-fly-box>
                           <img src={slot.photo || hero.image || placeholderPhoto(`${day.dayNumber}-${slot.label}`)} alt="" loading="lazy" />
+                          <PlanAddButton
+                              slug={city.slug}
+                              cityLabel={hero.name ?? city.slug}
+                              item={{ ref: `${city.slug}:plan:d${di + 1}-${si + 1}`, title: slot.title ?? "", photo: slot.photo || null, day: di + 1, slot: planSlotOf(slot.label, si) }}
+                            />
                         </div>
                         <div className={styles.planBody}>
                           {slot.label && <div className="eyebrow">{slot.label}</div>}
@@ -1446,11 +1508,13 @@ export default function CityPage() {
                             )}
                           </h4>
                           <p>{slot.food ? `${slot.text} ${slot.food}` : slot.text}</p>
-                          {venue && (
-                            <button type="button" className={styles.planMapLink} onClick={() => openOnMap(venue, cardId)}>
-                              View on the map <span aria-hidden="true">↓</span>
-                            </button>
-                          )}
+                          <div className={styles.planFoot}>
+                            {venue && (
+                              <button type="button" className={styles.planMapLink} onClick={() => openOnMap(venue, cardId)}>
+                                View on the map <span aria-hidden="true">↓</span>
+                              </button>
+                            )}
+                          </div>
                         </div>
                       </div>
                     );
@@ -1597,6 +1661,7 @@ export default function CityPage() {
           )}
         </div>
       </section>
+      <TripBar citySlug={city.slug} />
     </>
   );
 }

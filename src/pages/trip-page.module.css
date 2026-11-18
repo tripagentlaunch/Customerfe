@@ -1,6 +1,78 @@
-.tp-wrap{min-height:100svh;display:flex;align-items:center;justify-content:center;padding:clamp(120px,16vh,180px) var(--gutter,24px) 90px;text-align:center}
-.tp-panel{max-width:52ch}
-.tp-panel :global(.eyebrow){justify-content:center;display:flex}
-.tp-panel h1{font-family:var(--logo);font-weight:500;font-size:clamp(30px,4vw,46px);margin:16px 0 0}
-.tp-panel p{font-size:15px;color:var(--stone);line-height:1.6;margin:16px auto 0;max-width:44ch}
-.tp-panel :global(.btn){margin-top:30px}
+/* The trip builder (/trip): an image hero, then one row per city with hotels and things to do side by side. */
+.tp-page{min-height:100svh;background:var(--paper,#fff)}
+.hero{position:relative;display:flex;align-items:flex-end;min-height:clamp(380px,56vh,560px);background-size:cover;background-position:center;background-color:#15110d;color:#fff}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(0,0,0,.72) 0%,rgba(0,0,0,.35) 45%,rgba(0,0,0,.25) 100%)}
+.hero-in{position:relative;z-index:1;width:100%;max-width:1100px;margin:0 auto;padding:clamp(120px,16vh,170px) var(--gutter,24px) clamp(30px,5vh,50px)}
+.hero-eyebrow{font-family:var(--fr);font-weight:600;font-size:11px;letter-spacing:.18em;text-transform:uppercase;opacity:.85}
+.hero-title{font-family:var(--logo);font-weight:500;font-size:clamp(34px,5vw,60px);line-height:1.05;margin:14px 0 0;color:#fff}
+.hero-lede{max-width:50ch;margin:16px 0 0;font-size:16px;line-height:1.6;color:rgba(255,255,255,.9)}
+.summary{padding:30px 0 4px}
+.trip-name{display:block;width:100%;margin:0;padding:0 0 8px;border:0;border-bottom:1px solid var(--line-soft,#e6e1d8);background:none;font-family:var(--logo);font-weight:500;font-size:clamp(26px,3.4vw,38px);color:var(--ink,#1a1714);outline:none}
+.trip-name:focus{border-bottom-color:var(--ink,#1a1714)}
+.trip-name::placeholder{color:var(--stone)}
+.summary-meta{display:flex;flex-wrap:wrap;align-items:center;gap:10px 22px;margin-top:18px;font-size:14px;letter-spacing:.04em;color:var(--stone)}
+.clear-wrap{margin-left:auto}
+.summary-hint{margin:12px 0 0;font-size:13px;color:var(--stone)}
+.length-box{display:inline-flex;align-items:center;gap:10px;padding:0;border:0;color:var(--ink,#1a1714)}
+.length-k{font-family:var(--fr);font-weight:600;font-size:11px;letter-spacing:.14em;text-transform:uppercase}
+.length-num{width:64px;height:34px;padding:0 6px;border:1px solid var(--line-soft,#e6e1d8);background:#fff;color:var(--ink,#1a1714);font:inherit;font-size:18px;font-weight:600;text-align:center}
+.length-u{padding-right:6px}
+
+.body{max-width:1100px;margin:0 auto;padding:10px var(--gutter,24px) 90px}
+.actions{display:flex;flex-wrap:wrap;align-items:center;gap:14px;margin-top:26px}
+.link{border:0;background:none;padding:0;font:inherit;font-size:13px;letter-spacing:.06em;color:inherit;text-decoration:underline;text-underline-offset:3px;cursor:pointer}
+.confirm{font-size:13px}
+.body .link,.body .confirm{color:var(--ink,#1a1714)}
+
+.leg{margin-top:30px;padding:24px 0 8px;border-top:1px solid var(--ink,#1a1714);transition:background .15s}
+.legs{display:block}
+.leg-dragging{opacity:.35;background:var(--paper-2,#FAFAF8);outline:1px dashed var(--ink,#1a1714);outline-offset:-1px}
+.leg-head{cursor:grab}
+.leg-head:active{cursor:grabbing}
+.leg-head{display:flex;flex-wrap:wrap;align-items:center;gap:12px 18px}
+.grip{cursor:grab;user-select:none;color:var(--stone);font-size:18px;letter-spacing:-3px;padding:4px 2px}
+.leg-no{display:flex;align-items:center;justify-content:center;width:30px;height:30px;border:1px solid var(--ink,#1a1714);font-size:13px}
+.leg-head h2{font-family:var(--serif);font-weight:600;font-size:clamp(24px,2.6vw,32px);margin:0}
+.leg-head h2 a{color:inherit;text-decoration:none}
+.days-box{display:inline-flex;align-items:center;gap:8px;font-size:14px;color:var(--stone)}
+.days-num{width:58px;height:36px;padding:0 6px;border:1px solid var(--ink,#1a1714);background:#fff;color:var(--ink,#1a1714);font:inherit;font-size:16px;font-weight:600;text-align:center}
+.leg-tools{margin-left:auto;display:flex;align-items:center;gap:8px}
+.leg-tools button{height:34px;min-width:34px;padding:0 10px;border:1px solid var(--line-soft,#e6e1d8);background:none;cursor:pointer;color:var(--ink,#1a1714);font-size:14px}
+.leg-tools button:disabled{opacity:.3;cursor:default}
+.leg-tools .leg-remove{display:flex;align-items:center;justify-content:center;padding:0;color:#c0392b;border-color:#e8c4bf}
+.leg-tools .leg-remove:hover{background:#c0392b;border-color:#c0392b;color:#fff}
+
+.cols{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(20px,4vw,56px);margin-top:20px}
+.col{min-width:0}
+.col-k{font-family:var(--fr);font-weight:600;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--stone);padding-bottom:10px;border-bottom:1px solid var(--line-soft,#e6e1d8)}
+.list{list-style:none;margin:0;padding:0}
+.empty{font-size:14px;color:var(--stone);margin:14px 0 0}
+.empty a{color:var(--ink,#1a1714);text-decoration:underline;text-underline-offset:3px}
+.item{display:flex;align-items:center;gap:14px;padding:12px 0;border-bottom:1px solid var(--line-soft,#e6e1d8)}
+.item-img{flex:none;width:64px;height:64px;object-fit:cover;background:var(--bone,#efeae1)}
+.item-text{flex:1;min-width:0;display:flex;flex-direction:column;gap:3px}
+.item-title{font-size:15px;line-height:1.3;color:var(--ink,#1a1714)}
+.item-kind{font-size:12px;letter-spacing:.04em;color:var(--stone)}
+.item-x{width:30px;height:30px;border:0;background:none;font-size:20px;line-height:1;color:var(--stone);cursor:pointer}
+.item-x:hover{color:var(--ink,#1a1714)}
+
+.foot{margin-top:50px;padding-top:26px;border-top:1px solid var(--ink,#1a1714)}
+.range{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 12px}
+.range-k{font-family:var(--fr);font-weight:600;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--stone)}
+.range-v{font-family:var(--serif);font-size:26px;color:var(--ink,#1a1714)}
+.range-f{font-size:13px;color:var(--stone)}
+
+@media(max-width:760px){
+  .foot .actions{flex-direction:column;align-items:stretch;gap:12px}
+  .foot .actions>a{width:100%;justify-content:center;text-align:center}
+  .cols{grid-template-columns:1fr;gap:26px}
+  .leg-tools{margin-left:0;width:100%}
+  .grip{display:none}
+}
+
+/* The site's two buttons on a light page: primary is solid black, secondary is an outline. Neither changes colour
+   on hover; only the label grows (lib/buttonHoverScale.ts), as on the city page's "Plan this trip". */
+.primary,.primary:hover{background:#1A1714!important;color:#F1ECE3!important;border-color:#1A1714!important}
+.primary::before,.primary::after{display:none!important;content:none!important}
+.secondary,.secondary:hover{background:transparent!important;color:#1A1714!important;border-color:#1A1714!important}
+.secondary::before,.secondary::after{display:none!important;content:none!important}

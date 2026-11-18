@@ -231,7 +231,7 @@
     width/height from that directly, capped at MAX_THUMB_SIZE for the same
     circular-dependency reason. The 64px here is only the fallback before
     that first measurement lands. */
- .card-inner{display:grid;grid-template-columns:auto 1fr;align-items:start;gap:16px}
+ .card-inner{display:grid;grid-template-columns:auto 1fr;align-items:stretch;height:100%;gap:16px}
  .card-thumb-wrap{width:150px;height:150px;position:relative;flex:none;border-radius:8px;overflow:hidden;background:var(--bone)}
  .card-thumb{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;opacity:0;animation:cardThumbFadeIn 0.4s ease forwards}
 @keyframes cardThumbFadeIn{from{opacity:0}to{opacity:1}}
@@ -638,8 +638,8 @@ html .sheet-body :global(.cg-list li .cg-creds) { max-height: none; overflow: vi
 html .sheet-body :global(.cg-list) { display: block; }
 html .sheet-body :global(.cg-list li) { padding: 0; border: 0; }
 
-/* Shortlist: a small square "+" (a tick once saved) in the corner of each card's photo,
-   and a "Save to my journey" button at the foot of the sheet — the site's own square,
+/* Add to trip (was the shortlist): a small square "+" (a tick once added) in the corner of each card's photo,
+   and an "Add to trip" button at the foot of the sheet, the site's own square,
    tracked-caps button style. */
 .card-heart {
   position: absolute;
@@ -686,7 +686,31 @@ html .sheet-body :global(.cg-list li) { padding: 0; border: 0; }
   cursor: pointer;
 }
 .sheet-save .heart-icon { width: auto; height: auto; background: none; box-shadow: none; color: inherit; }
-.sheet-save.hearted { background: var(--ink, #1a1714); color: #fff; }
+.sheet-save.hearted { background: var(--paper-2, #f4f0e9); border-color: var(--signature, #6b2737); color: var(--signature, #6b2737); }
+/* Desktop: the same square button, small, at the foot of each guide card. */
+.card-body-add { position: relative; padding-bottom: 76px; }
+/* Pinned to the foot of the card, so it lines up across a row however tall the row is. */
+.card-add {
+  position: absolute;
+  bottom: 20px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  border: 1px solid var(--ink, #1a1714);
+  border-radius: 0;
+  background: none;
+  color: var(--ink, #1a1714);
+  font-family: var(--fr);
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.card-add .heart-icon { width: auto; height: auto; background: none; box-shadow: none; color: inherit; }
+.card-add:hover { background: var(--ink, #1a1714); color: #fff; }
+.card-add.hearted, .card-add.hearted:hover { background: var(--paper-2, #f4f0e9); border-color: var(--signature, #6b2737); color: var(--signature, #6b2737); }
 
 /* The save button stays pinned to the bottom of the sheet however long the text is. */
 .sheet-foot {
@@ -772,9 +796,10 @@ html .sheet-body :global(.cg-list li) { padding: 0; border: 0; }
 
 /* Guide cards: photo on top, text below (2026-11-11, direct request). Was a square thumbnail beside the text.
    `html` prefix so these out-rank the breakpoint rules above. */
-html .card-inner{grid-template-columns:1fr;gap:0;align-items:stretch}
+html .card-inner{display:flex;flex-direction:column;gap:0;align-items:stretch}
 html .card-thumb-wrap{width:100%;height:auto;min-height:0;aspect-ratio:2/1;border-radius:0;align-self:auto}
-html .card-body{width:100%;transform:none;padding:16px 18px 20px}
+html .card-body{width:100%;transform:none;padding:16px 18px 20px;flex:1 1 auto}
+html .card-body.card-body-add{position:relative;padding-bottom:76px}
 html :global(.ta-guide .cg-list li:hover) .card-body{transform:none}
 
 /* Guide intro line runs the full content width (2026-11-11, direct request); was capped at 48ch / 36ch. */
@@ -840,10 +865,14 @@ html .card-grid.card-grid-two{grid-template-columns:repeat(2,minmax(0,1fr))}
 .plan-row{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;align-items:stretch}
 @media(max-width:720px){.plan-row{grid-template-columns:1fr}}
 .plan-card{display:flex;flex-direction:column;background:transparent;text-align:left}
-.plan-photo{width:100%;aspect-ratio:3/2;overflow:hidden;background:var(--bone)}
+.plan-photo{position:relative;width:100%;aspect-ratio:3/2;overflow:hidden;background:var(--bone)}
 .plan-photo img{display:block;width:100%;height:100%;object-fit:cover}
-.plan-body{padding:8px 0 20px;text-align:left}
-.plan-place{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-family:var(--logo);font-weight:500;font-size:clamp(14px,calc(1.7vw - 6px),18px);line-height:1.2;color:var(--ink);margin:2px 0 0}
+.plan-body{padding:8px 0 20px;text-align:left;flex:1 1 auto;display:flex;flex-direction:column}
+/* Add button, then the map link beside it, pinned to the foot of the card: same spot whether the text runs 2 or 3 lines. */
+.plan-foot{margin-top:auto;padding-top:14px;display:flex;flex-direction:row;flex-wrap:wrap;align-items:center;gap:12px 22px}
+.plan-foot .plan-add{margin-top:0}
+.plan-foot .plan-map-link{margin-top:0}
+.plan-place{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-family:var(--logo);font-weight:500;font-size:clamp(14px,calc(1.7vw - 6px),18px);line-height:1.2;color:var(--ink);margin:10px 0 0}
 .plan-body p{font-family:var(--fr);font-size:13.5px;line-height:1.6;color:var(--stone);margin:7px 0 0}
 .plan-body :global(.eyebrow){color:var(--stone)}
 
@@ -914,3 +943,65 @@ html .tier-chip{padding-left:11px;padding-right:11px}
 /* Taller map (2026-11-16, direct request): was clamp(380px,62vh,640px) and, on phones, min(60svh,460px). */
 .ta-map-box{height:clamp(520px,82vh,920px)}
 @media(max-width:720px){.ta-map-box{height:min(76svh,620px)}}
+
+/* "Add to your trip" on the Plan's cards, and "Add all stops" in its header. */
+.plan-add {
+  display: flex;
+  width: fit-content;
+  align-items: center;
+  gap: 8px;
+  align-self: flex-start;
+  margin-top: 12px;
+  padding: 8px 12px;
+  border: 1px solid var(--ink, #1a1714);
+  border-radius: 0;
+  background: none;
+  color: var(--ink, #1a1714);
+  font-family: var(--fr);
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.plan-add:hover { background: var(--ink, #1a1714); color: #fff; }
+.plan-add.hearted, .plan-add.hearted:hover { background: var(--paper-2, #f4f0e9); border-color: var(--signature, #6b2737); color: var(--signature, #6b2737); }
+
+/* "Add to trip": a small square "+" in the bottom-right corner of the card's photo. On hover it opens
+   to the left to say "Add to trip", the way the Chat with us button opens. */
+.trip-btn {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  min-width: 40px;
+  padding: 0 12px;
+  border: 1px solid rgba(26, 23, 20, 0.15);
+  border-radius: 0;
+  background: #fff;
+  color: var(--ink, #1a1714);
+  cursor: pointer;
+  font-family: var(--fr);
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+}
+.trip-btn svg { flex: none; }
+.trip-btn-lbl {
+  max-width: 0;
+  margin-left: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-width 0.28s ease, margin-left 0.28s ease, opacity 0.2s ease;
+}
+.trip-btn:hover .trip-btn-lbl, .trip-btn:focus-visible .trip-btn-lbl { max-width: 140px; margin-left: 10px; opacity: 1; }
+.trip-btn.hearted { background: rgba(0, 0, 0, 0.4); border-color: rgba(255, 255, 255, 0.6); color: #fff; }
+/* A card with no photo: the same button sits in the text area's bottom-right corner. */
+.card-body-add { position: relative; padding-bottom: 64px; }
+html .card-body.card-body-add { position: relative; padding-bottom: 64px; }

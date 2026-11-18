@@ -47,7 +47,7 @@ export function TripDrawer() {
             </div>
             <div className="ta-cart-empty">
               <p>Your trip starts with a place.</p>
-              <p className="sub">Add a city, a hotel or a month as you browse: it gathers here, then a person makes it real.</p>
+              <p className="sub">Add a city, a hotel or a place to eat as you browse: it gathers here, day by day, then a person makes it real.</p>
               <div className="ta-cart-empty-a">
                 <Link className="go" to="/destinations" onClick={close}>
                   Browse cities
@@ -69,14 +69,15 @@ export function TripDrawer() {
             </div>
             <div className="ta-cart-body">
               <div className="ta-cmeta">
-                {summary.count} {summary.count === 1 ? "city" : "cities"} · {summary.nights} night{summary.nights === 1 ? "" : "s"}
+                {summary.count} {summary.count === 1 ? "city" : "cities"} · {summary.nights} day{summary.nights === 1 ? "" : "s"}
               </div>
               {summary.legs.map((l, i) => (
                 <div className="ta-cleg" key={l.id}>
                   <span className="ln">{i + 1}</span>
                   <span className="lname">{titleCase(l.city)}</span>
                   <span className="ln2">
-                    {l.nights || 0} night{(l.nights || 0) === 1 ? "" : "s"}
+                    {l.nights || 0} day{(l.nights || 0) === 1 ? "" : "s"}
+                    {l.items?.length ? ` · ${l.items.length} added` : ""}
                   </span>
                   <button className="ta-cleg-x" aria-label={`Remove ${titleCase(l.city)} from your trip`} onClick={() => removeFromTrip(l.city)}>
                     ×
@@ -102,7 +103,7 @@ export function TripDrawer() {
                 Hand to <TaraAI /> →
               </a>
               <Link className="open" to="/trip" onClick={close}>
-                Open the full builder
+                Open your trip
               </Link>
               <span className="assure">
                 By invitation ·{" "}

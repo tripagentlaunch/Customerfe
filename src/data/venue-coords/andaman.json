@@ -23,6 +23,56 @@
       "lat": 12.188318,
       "lon": 92.811035,
       "photos": []
+    },
+    {
+      "n": "Cellular Jail National Memorial",
+      "cat": "do",
+      "tier": "",
+      "a": "Port Blair",
+      "d": "The chilling British-built 1906 national memorial, where political prisoners were once held.",
+      "lat": 11.674446,
+      "lon": 92.747786,
+      "photos": []
+    },
+    {
+      "n": "Ross Island (Netaji Subhas Chandra Bose Dweep)",
+      "cat": "do",
+      "tier": "",
+      "a": "Port Blair",
+      "d": "The jungle-wreathed Victorian ruins of the colonial-era administrative headquarters, used until 1941.",
+      "lat": 11.675434,
+      "lon": 92.762612,
+      "photos": []
+    },
+    {
+      "n": "Kalapathar Beach",
+      "cat": "do",
+      "tier": "",
+      "a": "Havelock Island",
+      "d": "Catch the sunrise at Kalapathar on Havelock, the most developed of the islands, with silky beaches backed by rainforest.",
+      "lat": 11.976167,
+      "lon": 93.018875,
+      "photos": []
+    },
+    {
+      "n": "Radhanagar Beach",
+      "cat": "party",
+      "tier": "",
+      "a": "Havelock Island",
+      "d": "One of Asia's most spectacular beaches, for a stroll before dinner.",
+      "lat": 11.982668,
+      "lon": 92.957078,
+      "photos": []
+    },
+    {
+      "n": "Neil Island",
+      "cat": "do",
+      "tier": "",
+      "a": "Elephant Beach and Neil Island",
+      "d": "A flat, easy-going world of rice fields, palm trees and rocky beaches, with excellent diving.",
+      "lat": 11.831374,
+      "lon": 93.04193,
+      "photos": []
     }
   ]
 }
