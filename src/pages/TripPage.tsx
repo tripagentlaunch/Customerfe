@@ -4,7 +4,7 @@ import tripData from "../data/trip.generated.json";
 import type { TripPageData } from "../types/trip";
 import {
   clearTrip,
-  getTripSummary,
+  // getTripSummary,
   moveLeg,
   setLegOrder,
   removeFromTrip,
@@ -17,7 +17,8 @@ import {
   type TripItem,
   type TripLeg,
 } from "../lib/tripState";
-import { useTripHandoffHref } from "../lib/advisor";
+// import { useTripHandoffHref } from "../lib/advisor"; // "Send to advisor" now opens the chatbot instead (2026-11-19)
+import { taraChatUrl } from "../lib/taraChat";
 import { useTripRange } from "../lib/tripRange";
 import { PrimaryInverseButton, SecondaryInverseButton } from "../components/buttons/InverseButtons";
 import styles from "./trip-page.module.css";
@@ -41,9 +42,9 @@ export default function TripPage() {
   const lastTop = useRef(new Map<string, number>());
   const savedLegs = (trip?.legs ?? []).filter(Boolean);
   const legs = order ? (order.map((id) => savedLegs.find((l) => l.id === id)).filter(Boolean) as TripLeg[]) : savedLegs;
-  const summary = getTripSummary();
+  // const summary = getTripSummary(); // only fed the old advisor handoff link
   const range = useTripRange(legs);
-  const handoff = useTripHandoffHref(summary);
+  // const handoff = useTripHandoffHref(summary); // was WhatsApp / the enquiry form; the chatbot now receives the trip
   const [confirmClear, setConfirmClear] = useState(false);
 
   // Slide the blocks to their new places instead of jumping (the dragged one stays under the pointer's ghost).
@@ -188,7 +189,9 @@ export default function TripPage() {
               )}
             </div>
             <div className={styles.actions}>
-              <a className={`btn btn-gold btn-square ${styles.primary}`} href={handoff.href} target={handoff.external ? "_blank" : undefined} rel={handoff.external ? "noopener" : undefined}>
+              {/* Opens the chatbot, like "Plan this trip" (data-tara-chat is picked up by lib/taraChat.ts, which also
+                  carries a signed-in member's code). The backend turns the trip into the message waiting in the chat. */}
+              <a className={`btn btn-gold btn-square ${styles.primary}`} href={taraChatUrl()} data-tara-chat target="_blank" rel="noopener noreferrer">
                 Send to advisor
               </a>
               <Link className={`btn btn-ghost ${styles.secondary}`} to="/destinations">
