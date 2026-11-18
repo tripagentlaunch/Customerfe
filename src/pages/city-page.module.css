@@ -820,6 +820,9 @@ html :global(.ta-guide .cg-list li:hover) .card-body{transform:none}
 /* Guide cards show everything, and cards in a row are as tall as the tallest (2026-11-11, direct request). */
 html :global(.ta-guide .cg-list) { align-items: stretch; }
 html :global(.ta-guide .cg-list li) { display: flex; flex-direction: column; }
+/* The rule above outranks site.css's `.cg-list li.cg-hide{display:none}`, so every page's cards showed
+   at once under "Showing 1-9 of 30" (2026-11-18). Cards off the current page stay hidden. */
+html :global(.ta-guide .cg-list li.cg-hide) { display: none; }
 html .card-inner { flex: 1 1 auto; grid-template-rows: auto 1fr; }
 html :global(.ta-guide .cg-list li) .card-body :global(.ds),
 html :global(.ta-guide .cg-list li) .card-body :global(.nm),
