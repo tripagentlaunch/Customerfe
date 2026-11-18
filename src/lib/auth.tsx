@@ -254,9 +254,12 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         await fetch("/auth/logout", { method: "POST", credentials: "include", headers: CSRF_HEADERS }).catch(() => {});
         clearSessionStamp();
         setMember(null);
+        // Someone who came in with a shared code goes back to the claim page, nowhere else.
+        if (sharedEntry && !window.location.pathname.startsWith("/claim")) window.location.replace("/claim");
+        setSharedEntry(false);
       },
     }),
-    [member, loading, authError, mockSignedIn, checkSession, setMember]
+    [member, loading, authError, mockSignedIn, sharedEntry, checkSession, setMember]
   );
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
