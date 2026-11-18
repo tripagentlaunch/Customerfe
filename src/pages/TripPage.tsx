@@ -4,7 +4,7 @@ import tripData from "../data/trip.generated.json";
 import type { TripPageData } from "../types/trip";
 import {
   clearTrip,
-  getTripSummary,
+  // getTripSummary,
   moveLeg,
   setLegOrder,
   removeFromTrip,
@@ -42,7 +42,7 @@ export default function TripPage() {
   const lastTop = useRef(new Map<string, number>());
   const savedLegs = (trip?.legs ?? []).filter(Boolean);
   const legs = order ? (order.map((id) => savedLegs.find((l) => l.id === id)).filter(Boolean) as TripLeg[]) : savedLegs;
-  const summary = getTripSummary();
+  // const summary = getTripSummary(); // only fed the old advisor handoff link
   const range = useTripRange(legs);
   // const handoff = useTripHandoffHref(summary); // was WhatsApp / the enquiry form; the chatbot now receives the trip
   const [confirmClear, setConfirmClear] = useState(false);
