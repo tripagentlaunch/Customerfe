@@ -32,6 +32,8 @@ type RedeemResponse = {
   entryId?: string | null;
   // Who the person is, for the welcome message to their advisor.
   name?: string | null;
+  // A claimed code someone else entered: they are signed in as its owner.
+  shared?: boolean;
 };
 
 // What the server says about a code before it is claimed (GET /invite/{code}): lets a link open on a greeting and one button.
@@ -41,6 +43,8 @@ type Peek = {
   used?: boolean;
   expired?: boolean;
   superKey?: boolean;
+  // A claimed code its owner has shared: entering it signs in as the owner (their profile and Tara chats).
+  shared?: boolean;
 };
 
 // Cinematic full-screen background video, muted/looping/autoplaying behind
@@ -300,6 +304,11 @@ export default function ClaimPage() {
       } else {
         await Promise.all([refreshed, new Promise((r) => setTimeout(r, 900))]);
       }
+      // A shared code goes straight in, as the owner: no welcome card, no extra button.
+      if (res.shared === true) {
+        navigate("/", { replace: true });
+        return;
+      }
       // The welcome stays until they choose to go in: it names their advisor and offers one tap to say hello on WhatsApp.
       setArrived(true);
       return;
@@ -371,7 +380,11 @@ export default function ClaimPage() {
                 )}
               </h1>
               <p className={styles.sub}>
-                {readyFromLink ? "Your invitation is ready. One tap and you're in." : "Enter the 8-character code from your invitation email."}
+                {readyFromLink
+                  ? peek?.shared
+                    ? "This code is ready. One tap and you're in."
+                    : "Your invitation is ready. One tap and you're in."
+                  : "Enter the 8-character code from your invitation email."}
               </p>
 
               <form className={styles.form} onSubmit={handleSubmit} noValidate>
@@ -443,7 +456,7 @@ export default function ClaimPage() {
                 ) : desk ? (
                   <div className={styles.btnRow}>
                     <button type="submit" className={styles.submitBtn} disabled={busy || (!!linkedCode && !peeked)}>
-                      <span className={styles.btnLabel}>{busy ? "Verifying…" : "Claim your invitation"}</span>
+                      <span className={styles.btnLabel}>{busy ? "Verifying…" : peek?.shared && readyFromLink ? "Enter with this code" : "Claim your invitation"}</span>
                     </button>
                     {readyFromLink ? null : (
                       <Link to="/request-access" className={styles.codeBtn}>
