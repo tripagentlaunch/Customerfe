@@ -12,6 +12,7 @@
 //   --slots="Toi Market,Geco" to do only those slots; --query="Geco=Geco Cafe Bar Nairobi" to steer a search.
 //   --review=<dir>: save the place's first 6 photos as <dir>/<slot>_<n>.jpg to choose from (nothing written);
 //   --pick-file=picks.json {"nairobi-mara/day1-morning": 3}: only those slots, with that photo (preferred).
+//   --from-review=<dir>: apply the exact photos reviewed in <dir> (recorded in <dir>/photos.json).
 //   --pick="Toi Market=3" then uses photo 3 of that place instead of the first. --replace redoes slots that have a photo.
 //
 // Safe to re-run: a slot that already has a photo is skipped.
@@ -41,6 +42,10 @@ if (steerFile) Object.assign(steer, JSON.parse(readFileSync(steerFile, "utf8")))
 // --pick-file=json {"<city>/day<N>-<label>": n}: only those slots, each with its chosen photo (safe with any title).
 const pickFile = opt("pick-file");
 const slotPicks = pickFile ? JSON.parse(readFileSync(pickFile, "utf8")) : null;
+// --from-review=<dir>: use the exact photo reviewed there (Google can reorder a place's photos between calls).
+const fromReview = opt("from-review");
+const reviewed = fromReview && existsSync(path.join(fromReview, "photos.json")) ? JSON.parse(readFileSync(path.join(fromReview, "photos.json"), "utf8")) : {};
+const seen = review && existsSync(path.join(review, "photos.json")) ? JSON.parse(readFileSync(path.join(review, "photos.json"), "utf8")) : {};
 if (replace && !slotsOnly.size && !slotPicks) { console.error("--replace needs --slots or --pick-file"); process.exit(1); }
 
 const words = (s) => (s || "").toLowerCase().normalize("NFKD").replace(/[^a-z0-9 ]/g, " ").split(/\s+/)
@@ -92,6 +97,7 @@ for (const [slug, plan] of Object.entries(plans)) {
       const hit = (await place(query)).find((p) => p.photos?.length && (trustTop || sameName(matchName, p.displayName?.text)));
       if (!hit) { report.skipped.push(`${slug} day ${di + 1} ${slot.label}: ${slot.title} (no matching place for "${query}")`); continue; }
       if (review) {
+        seen[slotKey] = hit.photos.slice(0, 6).map((ph) => ph.name);
         for (const [n, ph] of hit.photos.slice(0, 6).entries())
           await download(ph.name, path.join(review, `${slug}_day${di + 1}-${(slot.label || "slot").toLowerCase()}_${n}.jpg`));
         report.done.push(`${slug} day ${di + 1} ${slot.label}: ${slot.title} <- ${hit.displayName.text}: ${Math.min(6, hit.photos.length)} photos in ${review}`);
@@ -100,12 +106,14 @@ for (const [slug, plan] of Object.entries(plans)) {
       const rel = `/images/plans/${slug}/day${di + 1}-${(slot.label || "slot").toLowerCase()}.jpg`;
       const file = path.join(IMAGES, slug, path.basename(rel));
       if (existsSync(file) && !replace) { report.skipped.push(`${slug}: ${rel} already exists`); continue; }
-      const photo = hit.photos[slotPicks?.[slotKey] ?? picks[slot.title] ?? picks[name] ?? 0] || hit.photos[0];
+      const n = slotPicks?.[slotKey] ?? picks[slot.title] ?? picks[name] ?? 0;
+      const photo = reviewed[slotKey]?.[n] ? { name: reviewed[slotKey][n] } : hit.photos[n] || hit.photos[0];
       if (!dryRun && !(await download(photo.name, file))) { report.skipped.push(`${slug}: ${slot.title} (photo download failed)`); continue; }
       if (!dryRun) slot.photo = rel;
       report.done.push(`${slug} day ${di + 1} ${slot.label}: ${slot.title} <- ${hit.displayName.text} -> ${rel}`);
     }
   }
 }
-if (!dryRun) writeFileSync(PLANS, JSON.stringify(plans, null, 2) + "\n");
+if (review) { mkdirSync(review, { recursive: true }); writeFileSync(path.join(review, "photos.json"), JSON.stringify(seen, null, 1)); }
+if (!dryRun && !review) writeFileSync(PLANS, JSON.stringify(plans, null, 2) + "\n");
 console.log(JSON.stringify(report, null, 1));
