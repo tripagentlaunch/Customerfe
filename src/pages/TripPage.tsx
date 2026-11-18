@@ -327,7 +327,7 @@ function LegRow({
             </ul>
           ) : (
             <p className={styles.empty}>
-              No hotel yet. <Link to={`/city-${leg.city}`}>Pick one in {city}</Link>.
+              No hotel yet. <Link to={`/city-${leg.city}?guide=stay`}>Pick one in {city}</Link>.
             </p>
           )}
         </div>
@@ -341,7 +341,7 @@ function LegRow({
             </ul>
           ) : (
             <p className={styles.empty}>
-              Nothing added yet. <Link to={`/city-${leg.city}`}>Browse {city}</Link>.
+              Nothing added yet. <Link to={`/city-${leg.city}?guide=do`}>Browse {city}</Link>.
             </p>
           )}
         </div>

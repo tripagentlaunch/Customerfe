@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState, type ReactNode } from "react";
 import { createContext, useContext } from "react";
 import { createPortal } from "react-dom";
-import { Link, useParams } from "react-router-dom";
+import { Link, useParams, useSearchParams } from "react-router-dom";
 import { Gem, Ticket, Crown, Sparkle, Star, MapPin, Wine, Shirt, Coffee, Martini, Landmark, Music2, Sunset, Mountain, Camera, ChevronLeft, ChevronRight, CloudSun, Plane, PlaneLanding, HeartPulse, UtensilsCrossed, Car, Wifi, Wallet, Info, Mail } from "lucide-react";
 import cities from "../data/cities.generated.json";
 import type { CityData, CityGuideItem, CityGuidePanel, CityMapVenue } from "../types/city";
@@ -898,13 +898,31 @@ export default function CityPage() {
     });
   }, [activeTab, selectedTierByPanel]);
 
+  // ?guide=stay|do|eat|party opens the guide on that tab and scrolls to it (2026-11-18, direct request:
+  // the trip page's "Pick one in New York" lands on the hotels, "Browse Paris" on things to do).
+  const [searchParams] = useSearchParams();
+  const wantedGuide = searchParams.get("guide");
+  const guideSectionRef = useRef<HTMLElement | null>(null);
   useEffect(() => {
     // "stay" is the conventional first tab, but the contract doesn't
     // guarantee a panel with that key exists — land on the first panel in
     // canonical order instead of assuming.
-    setActiveTab(orderedPanels(city?.guide.panels ?? [])[0]?.key ?? "stay");
+    const ordered = orderedPanels(city?.guide.panels ?? []);
+    const wanted = wantedGuide && ordered.find((p) => p.key === wantedGuide)?.key;
+    setActiveTab(wanted || ordered[0]?.key || "stay");
     setSelectedTierByPanel({});
-  }, [slug, city]);
+  }, [slug, city, wantedGuide]);
+  const scrolledToGuide = useRef<string | null>(null);
+  useEffect(() => {
+    if (!wantedGuide || !pageReady || scrolledToGuide.current === `${slug}:${wantedGuide}`) return;
+    scrolledToGuide.current = `${slug}:${wantedGuide}`;
+    const t = window.setTimeout(() => {
+      // The guide's heading, not the band's top padding: the tabs and the first cards are in view.
+      const el = guideSectionRef.current?.querySelector("h2") ?? guideSectionRef.current;
+      if (el) window.scrollTo({ top: window.scrollY + el.getBoundingClientRect().top - 110, behavior: "smooth" });
+    }, 150);
+    return () => window.clearTimeout(t);
+  }, [wantedGuide, pageReady, slug]);
 
   // The guide's sticky tabs+chips bar should let go ~6 boxes' worth of
   // scrolling before the list actually ends, rather than staying pinned to
@@ -1301,7 +1319,7 @@ export default function CityPage() {
           left its tall band padding (plus the 96px margin) showing above, so the
           jump stopped well short. Phones keep the section anchor + 96px for
           their header. */}
-      <section className="band ta-guide" id={isPhone ? "stay" : undefined} style={isPhone ? { scrollMarginTop: 96 } : undefined}>
+      <section ref={guideSectionRef} className="band ta-guide" id={isPhone ? "stay" : undefined} style={isPhone ? { scrollMarginTop: 96 } : undefined}>
         <div className="wrap">
           <div className="reveal cg-head" id={isPhone ? undefined : "stay"} style={isPhone ? undefined : { scrollMarginTop: 32 }}>
             <div className="eyebrow">
