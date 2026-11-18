@@ -19,6 +19,8 @@ import {
 } from "../lib/tripState";
 // import { useTripHandoffHref } from "../lib/advisor"; // "Send to advisor" now opens the chatbot instead (2026-11-19)
 import { taraChatUrl } from "../lib/taraChat";
+import { useAuth } from "../lib/auth";
+import { handTripToTara } from "../lib/tripHandoff";
 import { useTripRange } from "../lib/tripRange";
 import { PrimaryInverseButton, SecondaryInverseButton } from "../components/buttons/InverseButtons";
 import styles from "./trip-page.module.css";
@@ -46,6 +48,8 @@ export default function TripPage() {
   const range = useTripRange(legs);
   // const handoff = useTripHandoffHref(summary); // was WhatsApp / the enquiry form; the chatbot now receives the trip
   const [confirmClear, setConfirmClear] = useState(false);
+  const { member, signedIn } = useAuth();
+  const [handing, setHanding] = useState(false);
 
   // Slide the blocks to their new places instead of jumping (the dragged one stays under the pointer's ghost).
   useLayoutEffect(() => {
@@ -189,10 +193,26 @@ export default function TripPage() {
               )}
             </div>
             <div className={styles.actions}>
-              {/* Opens the chatbot, like "Plan this trip" (data-tara-chat is picked up by lib/taraChat.ts, which also
-                  carries a signed-in member's code). The backend turns the trip into the message waiting in the chat. */}
-              <a className={`btn btn-gold btn-square ${styles.primary}`} href={taraChatUrl()} data-tara-chat target="_blank" rel="noopener noreferrer">
-                Send to advisor
+              {/* Hands the whole trip to Tara (2026-11-18, as the trip drawer does: lib/tripHandoff.ts): the chat opens
+                  on it, asks only what it leaves open, then builds the itinerary. If Tara can't be reached it
+                  opens the chat as before. */}
+              <a
+                className={`btn btn-gold btn-square ${styles.primary}`}
+                href={taraChatUrl()}
+                data-tara-handoff
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-busy={handing || undefined}
+                onClick={(e) => {
+                  if (e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey) return;
+                  e.preventDefault();
+                  if (handing) return;
+                  setHanding(true);
+                  const code = signedIn ? member?.invitation_code : null;
+                  handTripToTara(range, code, taraChatUrl() + (code ? `#code=${encodeURIComponent(code)}` : "")).finally(() => setHanding(false));
+                }}
+              >
+                {handing ? "Handing over…" : "Send to advisor"}
               </a>
               <Link className={`btn btn-ghost ${styles.secondary}`} to="/destinations">
                 Add another city
