@@ -2262,7 +2262,8 @@
             "lat": 27.155348,
             "lon": 78.0665956
           },
-          "photo": "/api/places/photo?ref=places%2FChIJ3fOuDd1xdDkRAT4WJcQ6Fuo%2Fphotos%2FAa-ngMZD4asOOOEzKf4cqjA-yw4egEV4_i4ZlsHj3YxUaqE2bQER06EqM9nbbwvQBebWA3-njcxu-SIH9S7v-_WvdBDbCMS2PXJ9O8feTnZflkT2qD1-QAtl7bgyw2lQCiHx4ySf-1zbOpaJNCOBwFrk2cCRNa4QYFUN-4sAZ6zm7bsw5NAvImpIbm38UlxeEKPrduRegNGf26u9oqKjrb-I29SfkugXQ4koMN-7fMZAIR6xhzt5lNFwsd1blUQt_KLZiLkHtYwDuGY7ARMavcQblr-bXQ0De0xUClLsoZ5-809k2FFlVMMeKW8pmo7QIKQMOixs9-6572VhDYUM0M0AQUM24FP_XULvIhPQ9vVtZdPekm_H06WnmdwOZegiidxfyxjDaQYLdHFo9PaaGLxTXJR9z4Tvun1kyOp_8RsVtZcmf8zaUA201naH4sTwt9ty"
+          "photo": "/images/events/agra/taj-mahotsav.jpg",
+          "photoCredit": "Photo: Aman Saxena / Google Maps"
         },
         {
           "when": "monthly (around full moon)",
@@ -2274,7 +2275,8 @@
             "lat": 27.148235,
             "lon": 78.0438022
           },
-          "photo": "/api/places/photo?ref=places%2FChIJ8V7ttilxdDkRUWEqI2CedXw%2Fphotos%2FAa-ngMbb0b9ZUyxN9z9rpbthCl_doUv2f0t0luocqzFQw470pPMl9QwqqOHJ5JTXhzp5nACubP5iDQPilmqu63suOeyFHGHlKdHFMKVhaMrr_XUrq3fezcdTl_ht1n5Cjwu3WOg_EMJGz7B80INpi1aZv7jnV0xDPkftKxO7J-EKtxgQ2UzaLgO015xEmGDl0hlWkWeKxkq2Obut32ilsRVhcCtVjNqhnUJruGt7xKngi-W9lz0nnLeSekETFywx47Fa3ZQt_tSK2Gg7YZZ5ndnk1Slvfv-d8SxE5WlkxryBPNJ7ZQqkpkJ7U1WHEpdk7iNMqN7qlAYVYnjLLCxKOuTRQi0AcVvv49q64mZgjHxeeZZe_5Wi2JcjGD2XTfIAK1ShLQfNUk8PlLh1vxWuVZ3cpxOj5w"
+          "photo": "/images/events/agra/full-moon-night-viewings.jpg",
+          "photoCredit": "Photo: Pepa Pérez / Google Maps"
         },
         {
           "when": "Aug–Sep",
