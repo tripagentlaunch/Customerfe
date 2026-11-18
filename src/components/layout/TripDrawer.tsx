@@ -5,6 +5,8 @@ import { useTripSummary, removeFromTrip, titleCase } from "../../lib/tripState";
 import { useTripHandoffHref } from "../../lib/advisor";
 import { useTripRange } from "../../lib/tripRange";
 import { TaraAI } from "../TaraAI";
+import { useAuth } from "../../lib/auth";
+import { handTripToTara } from "../../lib/tripHandoff";
 
 // Ported from js/shell.js's renderDrawer()/openCart()/closeCart() — the
 // persistent "My Trip" cart drawer. css/site.css's .ta-cart* rules apply
@@ -14,6 +16,8 @@ export function TripDrawer() {
   const summary = useTripSummary();
   const handoff = useTripHandoffHref(summary);
   const range = useTripRange(summary?.legs);
+  const { member, signedIn } = useAuth();
+  const [handing, setHanding] = useState(false);
 
   // Mirrors js/shell.js's openCart()/closeCart(): mount+unhide a frame
   // before adding .on (so the enter transition actually plays), and delay
@@ -99,8 +103,24 @@ export function TripDrawer() {
               </div>
             </div>
             <div className="ta-cart-foot">
-              <a className="hand" href={handoff.href} target={handoff.external ? "_blank" : undefined} rel={handoff.external ? "noopener" : undefined}>
-                Hand to <TaraAI /> →
+              {/* The whole trip goes to Tara, who asks what's left and builds the itinerary (lib/tripHandoff.ts).
+                  The href is the old hand-off, for a middle-click or if scripts fail. */}
+              <a
+                className="hand"
+                data-tara-handoff
+                href={handoff.href}
+                target={handoff.external ? "_blank" : undefined}
+                rel={handoff.external ? "noopener" : undefined}
+                aria-busy={handing || undefined}
+                onClick={(e) => {
+                  if (e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey) return;
+                  e.preventDefault();
+                  if (handing) return;
+                  setHanding(true);
+                  handTripToTara(range, signedIn ? member?.invitation_code : null, handoff.href).finally(() => setHanding(false));
+                }}
+              >
+                {handing ? "Handing over…" : <>Hand to <TaraAI /> →</>}
               </a>
               <Link className="open" to="/trip" onClick={close}>
                 Open your trip

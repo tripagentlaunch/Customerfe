@@ -26,6 +26,7 @@ export function taraChatUrl(): string {
 const TARA_LABEL = /\bTara\s*AI\b/;
 
 function isTaraCta(el: Element): boolean {
+  if (el.hasAttribute("data-tara-handoff")) return false; // the trip drawer's button hands the trip over itself (tripHandoff.ts)
   if (el.hasAttribute("data-tara-chat")) return true;
   const label = `${el.getAttribute("aria-label") || ""} ${el.textContent || ""}`;
   return TARA_LABEL.test(label);
