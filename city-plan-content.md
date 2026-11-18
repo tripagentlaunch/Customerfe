@@ -2324,7 +2324,7 @@ To replace a photo: overwrite the file named in the table, in public/images/plan
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
 | Morning | Leh Palace | Leh Palace (Lachen Palkar) | Spend your first days in Leh, resting while you acclimatise. The 17th-century palace shows a Tibetan influence in its architecture. |  | placeholder | none |
-| Afternoon | Shanti Stupa | Shanti Stupa | One of Leh's most gorgeous sights, with the outskirts holding Magnetic Hill, Sangam and Gurudwara Pathar Sahib. |  | placeholder | none |
+| Afternoon | Shanti Stupa | Shanti Stupa | One of Leh's most gorgeous sights, with the outskirts holding Magnetic Hill, Sangam and Gurudwara Pathar Sahib. |  | /images/plans/leh-ladakh/day1-afternoon.jpg | supplied by user |
 | Evening | Leh Market | Leh café evenings: Gesmo & the Main Bazaar | Wander the market on foot after the day, with cafés and bars. Lehchen is one of the city's few bars. |  | placeholder | none |
 
 ### Day 2: Nubra Valley
@@ -2567,7 +2567,7 @@ To replace a photo: overwrite the file named in the table, in public/images/plan
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
-| Morning | Dordenma Buddha | Buddha Dordenma | A 51m bronze and steel statue with 125,000 smaller Buddhas inside, and views over the valley. Thimphu is 50km from Paro airport. |  | placeholder | none |
+| Morning | Dordenma Buddha | Buddha Dordenma | A 51m bronze and steel statue with 125,000 smaller Buddhas inside, and views over the valley. Thimphu is 50km from Paro airport. |  | /images/plans/paro/day2-morning.jpg | supplied by user |
 | Afternoon | Takin Preserve and the market | Motithang Takin Preserve | See the takin, Bhutan's national animal, from elevated walkways, then the Centenary Farmers Market with nearly 400 stalls. |  | placeholder | none |
 | Evening | Trashi Chho Dzong | Tashichho Dzong | Arrive at 5pm as officials leave, to see the courtyards of Thimphu's most impressive building. | Ema datse and jasha maroo at Chig Ja Gye. | placeholder | none |
 
@@ -2575,9 +2575,9 @@ To replace a photo: overwrite the file named in the table, in public/images/plan
 
 | Slot | Title | Map pin | Body | Food | Photo file | Photo original |
 |---|---|---|---|---|---|---|
-| Morning | Zorig Chusum | none | The National Institute for Zorig Chusum, where students learn Bhutan's 13 traditional arts, from woodwork to embroidery. |  | placeholder | none |
+| Morning | Zorig Chusum | none | The National Institute for Zorig Chusum, where students learn Bhutan's 13 traditional arts, from woodwork to embroidery. |  | /images/plans/paro/day3-morning.jpg | supplied by user |
 | Afternoon | Paper and weaving | none | Watch paper made by hand at the Jungshi Handmade Paper Factory, and weaving at the Gagyel Lhundrup Weaving Centre. |  | /images/plans/paro/day3-afternoon.jpg | https://d2vbr83hnyiux1.cloudfront.net/image/975050285728/image_4gm1oascet0q3887oufgqstd56/-FWEBP |
-| Evening | Norzin Lam | none | Thimphu's main street, just over a kilometre long, with cafés, a handicraft market of about 80 stalls and the traffic circle policeman. |  | placeholder | none |
+| Evening | Norzin Lam | none | Thimphu's main street, just over a kilometre long, with cafés, a handicraft market of about 80 stalls and the traffic circle policeman. |  | /images/plans/paro/day3-evening.jpg | supplied by user |
 
 
 ## Alleppey
