@@ -281,11 +281,8 @@
  .tier-chip{display:inline-flex;align-items:center;gap:7px;font-family:var(--fr);font-weight:600;font-size:11px;letter-spacing:.1em;text-transform:uppercase;padding:9px 18px;border-radius:999px;border:1px solid var(--line);background:none;color:var(--stone);cursor:pointer;transition:background-color .2s var(--ease),color .2s var(--ease),border-color .2s var(--ease)}
  .tier-chip svg{flex:none;color:var(--signature)}
  .tier-chip.active{background:var(--paper-2);border-color:var(--ink-soft);color:var(--ink)}
- /* One line under the stay tier buttons: what a night costs in each tier (2026-11-17). */
- .tier-rates{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 18px;margin:12px 0 0;font-family:var(--fr);font-size:13px;color:var(--stone)}
- .tier-rates-lead{color:var(--ink-soft)}
- .tier-rates > span:not(.tier-rates-lead){font-variant-numeric:tabular-nums}
- .tier-rate-on{color:var(--ink);font-weight:600}
+ /* Under the stay tier buttons: the selected tier's nightly price band (2026-11-17, direct request). */
+ .tier-rates{margin:12px 0 0;font-family:var(--fr);font-size:13px;letter-spacing:.01em;color:var(--stone);font-variant-numeric:tabular-nums}
  /* The guide (.ta-guide) now renders full-width, after the split. These are
     deliberate size choices, not overflow fixes, so they stay in effect
     regardless of column width — scoped to .ta-guide itself (not

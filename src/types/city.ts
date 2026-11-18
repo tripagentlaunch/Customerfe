@@ -42,6 +42,8 @@ export interface CityGuideTier {
   // Stay tiers (sourcing engine, 2026-11-17): the lowest nightly rate, INR, two adults, an ordinary date.
   priceFrom?: number | null;
   priceTo?: number | null;
+  // Stay tiers: the tier's price band, nightly INR [lowest, highest or null for "and above"].
+  band?: [number, number | null] | null;
 }
 
 export interface CityGuidePanel {

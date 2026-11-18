@@ -2,34 +2,7 @@ import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState, typ
 import { createContext, useContext } from "react";
 import { createPortal } from "react-dom";
 import { Link, useParams } from "react-router-dom";
-import {
-  Gem,
-  Ticket,
-  Crown,
-  Sparkle,
-  Star,
-  MapPin,
-  Wine,
-  Shirt,
-  Coffee,
-  Martini,
-  Landmark,
-  Music2,
-  Sunset,
-  Mountain,
-  Camera,
-  ChevronLeft,
-  ChevronRight,
-  CloudSun,
-  Plane,
-  PlaneLanding,
-  HeartPulse,
-  UtensilsCrossed,
-  Car,
-  Wifi,
-  Wallet,
-  Info,
-} from "lucide-react";
+import { Gem, Ticket, Crown, Sparkle, Star, MapPin, Wine, Shirt, Coffee, Martini, Landmark, Music2, Sunset, Mountain, Camera, ChevronLeft, ChevronRight, CloudSun, Plane, PlaneLanding, HeartPulse, UtensilsCrossed, Car, Wifi, Wallet, Info, Mail } from "lucide-react";
 import cities from "../data/cities.generated.json";
 import type { CityData, CityGuideItem, CityGuidePanel, CityMapVenue } from "../types/city";
 import { useScrollReveal } from "../lib/useScrollReveal";
@@ -102,6 +75,8 @@ const TIER_ICONS: Record<string, typeof Gem> = {
   grand: Crown,
   luxury: Sparkle,
   premium: Star,
+  // Stays not priced yet (sold only direct, or no rooms on the dates tried), 2026-11-17.
+  "on request": Mail,
   destination: MapPin,
   fine: Wine,
   smart: Shirt,
@@ -159,10 +134,22 @@ const TagsExpanded = createContext(false);
 // in one go; a single "Less" closes it. Null on phones (sheet instead).
 const CardExpand = createContext<{ expanded: boolean; open: () => void } | null>(null);
 
-// ₹47k, ₹1.7L: a nightly rate as a traveller reads it.
-function inrShort(n: number): string {
-  if (n >= 100000) return `₹${(Math.round(n / 10000) / 10).toString()}L`;
-  return `₹${Math.round(n / 1000)}k`;
+// The tier a panel opens on: for stays Luxury (2026-11-17, direct request: it has the most choice;
+// Ultra usually has few), else the first labelled tier; a stay panel with no Luxury opens on its largest tier.
+function defaultTier(panel: CityGuidePanel): number {
+  const labelled = panel.tiers.map((t, i) => (t.label ? i : -1)).filter((i) => i >= 0);
+  if (panel.key !== "stay" || !labelled.length) return panel.tiers.findIndex((t) => t.label);
+  const lux = panel.tiers.findIndex((t) => t.label === "Luxury");
+  if (lux >= 0) return lux;
+  return labelled.reduce((a, b) => (panel.tiers[b].items.length > panel.tiers[a].items.length ? b : a));
+}
+
+// A stay tier's price band, in full rupees: "Under ₹25,000", "₹25,000 – 50,000", "₹1,00,000+".
+function bandText([lo, hi]: [number, number | null]): string {
+  const inr = (n: number) => n.toLocaleString("en-IN");
+  if (!lo && hi) return `Under ₹${inr(hi)}`;
+  if (!hi) return `₹${inr(lo)}+`;
+  return `₹${inr(lo)} – ${inr(hi)}`;
 }
 
 // A guide card's location opens the place on the page's own map (2026-11-17, direct request:
@@ -1355,7 +1342,7 @@ export default function CityPage() {
               const activePanel = panels.find((p) => p.key === activeTab);
               const activeLabelledTiers = activePanel?.tiers.filter((t) => t.label) ?? [];
               const activeSelectedTier =
-                selectedTierByPanel[activeTab] ?? activePanel?.tiers.findIndex((t) => t.label) ?? -1;
+                selectedTierByPanel[activeTab] ?? (activePanel ? defaultTier(activePanel) : -1);
 
               return (
                 <>
@@ -1409,18 +1396,11 @@ export default function CityPage() {
                     )}
                     {/* What a night costs in each stay tier (2026-11-17, direct request): one line under the
                         tier buttons, from the sourcing engine's rates. Desktop only for now. */}
-                    {!isPhone && activeTab === "stay" && activePanel && activePanel.tiers.some((t) => t.priceFrom) && (
-                      <p className={styles.tierRates}>
-                        <span className={styles.tierRatesLead}>A night for two, roughly</span>
-                        {activePanel.tiers
-                          .filter((t) => t.label && t.priceFrom)
-                          .map((t) => (
-                            <span key={t.label} className={t.label === activePanel.tiers[activeSelectedTier]?.label ? styles.tierRateOn : undefined}>
-                              {t.label} {inrShort(t.priceFrom!)}{t.priceTo && t.priceTo > t.priceFrom! ? `–${inrShort(t.priceTo).slice(1)}` : "+"}
-                            </span>
-                          ))}
-                      </p>
-                    )}
+                    {(() => {
+                      // The selected stay tier's price band, on its own line (2026-11-17, direct request).
+                      const band = activeTab === "stay" ? activePanel?.tiers[activeSelectedTier]?.band : null;
+                      return !isPhone && band ? <p className={styles.tierRates}>Rates per night: {bandText(band)}</p> : null;
+                    })()}
                   </div>
                   <GuideMap.Provider value={openGuideOnMap}>
                   <div ref={guideListRef}>
@@ -1429,7 +1409,7 @@ export default function CityPage() {
                         <GuidePanel
                           panel={p}
                           active={activeTab === p.key}
-                          selectedTier={selectedTierByPanel[p.key] ?? p.tiers.findIndex((t) => t.label)}
+                          selectedTier={selectedTierByPanel[p.key] ?? defaultTier(p)}
                           livePhotos={activeTab === p.key ? liveGuidePanelPhotos : {}}
                           fireLookup={fireLiveGuidePanelLookup}
                           cityName={hero.name ?? undefined}
