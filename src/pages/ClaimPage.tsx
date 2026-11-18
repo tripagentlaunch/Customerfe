@@ -32,6 +32,8 @@ type RedeemResponse = {
   entryId?: string | null;
   // Who the person is, for the welcome message to their advisor.
   name?: string | null;
+  // A claimed code someone else entered: they are signed in as its owner.
+  shared?: boolean;
 };
 
 // What the server says about a code before it is claimed (GET /invite/{code}): lets a link open on a greeting and one button.
@@ -301,6 +303,11 @@ export default function ClaimPage() {
         await Promise.all([refreshed, new Promise((r) => setTimeout(r, 700))]);
       } else {
         await Promise.all([refreshed, new Promise((r) => setTimeout(r, 900))]);
+      }
+      // A shared code goes straight in, as the owner: no welcome card, no extra button.
+      if (res.shared === true) {
+        navigate("/", { replace: true });
+        return;
       }
       // The welcome stays until they choose to go in: it names their advisor and offers one tap to say hello on WhatsApp.
       setArrived(true);
