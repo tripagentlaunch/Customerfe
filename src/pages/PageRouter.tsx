@@ -63,7 +63,6 @@ const HowWeWorkPage = lazy(() => import("./HowWeWorkPage"));
 const CareersPage = lazy(() => import("./CareersPage"));
 const HelpPage = lazy(() => import("./HelpPage"));
 const ProtectionPage = lazy(() => import("./ProtectionPage"));
-const MembershipPage = lazy(() => import("./MembershipPage"));
 const ServicesPage = lazy(() => import("./ServicesPage"));
 const PortalPage = lazy(() => import("./PortalPage"));
 const DaysPage = lazy(() => import("./DaysPage"));
@@ -83,13 +82,14 @@ function InvitationRoute() {
 const RequestAccessPage = lazy(() => import("./RequestAccessPage"));
 const ReferPage = lazy(() => import("./ReferPage"));
 const HomePage = lazy(() => import("./HomePage"));
+const LandingPage = lazy(() => import("./LandingPage"));
 
 // The 20 old meta-refresh redirect stubs (18 destination-<country>.html
 // that now live under city-<slug>, plus family-stays->family-travel and
 // honeymoon-stays->honeymoon). Checked first since e.g. "destination-"
 // stubs would otherwise be swallowed by the destination-page dispatch
 // below. See tools/extract_redirects.py.
-const REDIRECTS = { ...(redirects as unknown as Record<string, string>), "flight-guides": "flights", "stay-guides": "hotels", "visa-guides": "visas" } as Record<string, string>;
+const REDIRECTS = { ...(redirects as unknown as Record<string, string>), "flight-guides": "flights", "stay-guides": "hotels", "visa-guides": "visas", membership: "/" } as Record<string, string>;
 
 const HEALTH_PREFIXES = [
   "health-hospital-",
@@ -190,7 +190,7 @@ const EXACT_SLUG_PAGES: Record<string, () => JSX.Element> = {
   "milestone-trips": () => <MilestoneTripsPage />,
   "first-international-trip": () => <FirstInternationalTripPage />,
   // Standalone-page batch G: about/careers/help/how-it-works/how-we-work/
-  // membership/services/protection are all fully static/editorial (no extra
+  // services/protection are all fully static/editorial (no extra
   // <script src="js/..."> beyond the standard site.js/account.js/shell.js/
   // backend.js bundle). concierge.html's #concierge-chat-root is the one
   // exception — self-mounted at runtime by a separate React app
@@ -206,7 +206,6 @@ const EXACT_SLUG_PAGES: Record<string, () => JSX.Element> = {
   careers: () => <CareersPage />,
   help: () => <HelpPage />,
   protection: () => <ProtectionPage />,
-  membership: () => <MembershipPage />,
   services: () => <ServicesPage />,
   // Standalone-page batch H: flagged in Phase 1 as riskier (account/portal &
   // interactive tools). portal.html is a hybrid — its first two <main>
@@ -280,6 +279,11 @@ const EXACT_SLUG_PAGES: Record<string, () => JSX.Element> = {
   // copy). The friend's claim side is unchanged — same /claim ->
   // redeem_invite() flow as any other invite recipient.
   refer: () => <ReferPage />,
+  // /landing — direct preview of the pre-membership LandingPage (normally
+  // only reached at "/" for a signed-out visitor, gated behind
+  // VITE_SHOW_COMING_SOON=false in a prod build; this slug makes it
+  // reachable in local dev without that flag).
+  landing: () => <LandingPage />,
 };
 
 // react-router v6 can't match a partial segment like "city-:slug" — a
@@ -310,12 +314,15 @@ export default function PageRouter() {
   if (!pageSlug) {
     if (import.meta.env.PROD && import.meta.env.VITE_SHOW_COMING_SOON === "false") {
       // A visitor who already claimed their invite and is a real site
-      // member sees the real HomePage, not the Request Access form again
-      // — the form is only for brand-new, not-yet-invited visitors.
+      // member sees the real HomePage; everyone else sees the
+      // pre-membership LandingPage (hero + "What we do best", CTA through
+      // to the real form at /request-access — see LandingPage.tsx) rather
+      // than the Request Access form itself, which is only for visitors
+      // who've already decided to ask for an invitation.
       // While auth is still hydrating, hold off rather than flashing the
-      // Request Access form at an already-claimed member.
+      // LandingPage at an already-claimed member.
       if (authLoading) return null;
-      return member ? <HomePage /> : <RequestAccessPage />;
+      return member ? <HomePage /> : <LandingPage />;
     }
     if (import.meta.env.PROD) return <ComingSoonPage />;
     return <HomePage />;
