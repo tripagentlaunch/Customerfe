@@ -2,6 +2,7 @@ import { useEffect, useMemo, useRef, useState, type CSSProperties } from "react"
 import { FLOAT_PANE, GoogleMap, OVERLAY_MOUSE_TARGET, OverlayViewF, useJsApiLoader } from "@react-google-maps/api";
 import type { CityMapData, CityMapVenue } from "../types/city";
 import VenueCard from "./VenueCard";
+import MapSearch from "./MapSearch";
 import MockCityMap from "./MockCityMap";
 import MapPin from "./MapPin";
 import { catColor, catIcon } from "./cityMapCategories";
@@ -482,6 +483,21 @@ export default function CityMap({
   return (
     <div className={styles.wrap}>
       <div className={styles.canvas} ref={canvasRef} tabIndex={-1}>
+        {!isMobile && visibleVenues.length > 0 && (
+          <MapSearch
+            venues={visibleVenues}
+            onPlace={(v) => pickFromGroup(v)}
+            onArea={(vs) => {
+              if (!map || !vs.length) return;
+              unpinVenue();
+              closeGroup();
+              if (vs.length === 1) return pickFromGroup(vs[0]);
+              const b = new google.maps.LatLngBounds();
+              vs.forEach((v) => b.extend({ lat: v.lat, lng: v.lon }));
+              map.fitBounds(b, 80);
+            }}
+          />
+        )}
         <GoogleMap
           mapContainerStyle={MAP_CONTAINER_STYLE}
           center={center}
