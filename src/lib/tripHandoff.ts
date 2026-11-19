@@ -10,6 +10,7 @@
 import { getTrip, titleCase } from "./tripState";
 import { taraChatUrl } from "./taraChat";
 import type { TripRange } from "./tripRange";
+import { ORIGINS, readOrigin } from "./origin";
 
 // Tara's API. Dev and previews use the dev backend; production needs VITE_TARA_API_URL set (until it
 // is, production keeps the WhatsApp hand-off).
@@ -45,6 +46,9 @@ export function tripHandoffPayload(range: TripRange | null) {
     // The drawer shows lakh per person; Tara takes rupees.
     indicative: range?.have && range.hi > 0 ? { lo: Math.round(range.lo * 100000), hi: Math.round(range.hi * 100000), per: "person" } : null,
     page: window.location.pathname.slice(0, 300),
+    // Where they travel from, as the city pages already show it ("From Bengaluru"): Tara confirms it
+    // on the card instead of asking (2026-11-19).
+    origin: ORIGINS[readOrigin()] ?? null,
     source: "trip-drawer",
   };
 }
