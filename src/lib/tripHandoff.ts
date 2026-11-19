@@ -74,7 +74,7 @@ export async function handTripToTara(range: TripRange | null, memberCode: string
     clearTimeout(timer);
     if (!res.ok) throw new Error(`handoff ${res.status}`);
     const { token } = (await res.json()) as { token: string };
-    const hash = new URLSearchParams({ handoff: token, ...(memberCode ? { code: memberCode } : {}) });
+    const hash = new URLSearchParams({ handoff: token, ...(memberCode ? { code: memberCode } : {}), from: window.location.href });
     go(`${taraChatUrl()}#${hash.toString()}`);
   } catch {
     go(fallback);

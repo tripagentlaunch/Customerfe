@@ -35,8 +35,10 @@ function isTaraCta(el: Element): boolean {
 // One login across the site and the chatbot (2026-10-09): a signed-in
 // member's invite code rides in the #fragment — never sent to a server or
 // logged — and the chatbot's login page signs them in with it and clears it.
+// #from= is the page they are on, for Tara's "Back to …" button (2026-11-19).
 export function openTaraChat(memberCode?: string | null): void {
-  const url = taraChatUrl() + (memberCode ? `#code=${encodeURIComponent(memberCode)}` : "");
+  const hash = new URLSearchParams({ ...(memberCode ? { code: memberCode } : {}), from: window.location.href });
+  const url = `${taraChatUrl()}#${hash.toString()}`;
   window.open(url, "_blank", "noopener");
 }
 
