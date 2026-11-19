@@ -316,7 +316,9 @@ export default function CityMap({
     if (!focus) return;                                 // the stand-in map (no key) opens it too: pickFromGroup skips the pan
     const key = (s: string) => s.toLowerCase().normalize("NFKD").replace(/[^a-z0-9]/g, "");
     const own = data?.venues.find((x) => x.n === focus.name) ?? data?.venues.find((x) => key(x.n) === key(focus.name));
-    const v = own ?? focus.venue ?? null;
+    // A card without coordinates (rare) is shown at the city's centre rather than sent to Google Maps.
+    const given = focus.venue ?? null;
+    const v = own ?? (given && !Number.isFinite(given.lat) ? { ...given, lat: center.lat, lon: center.lng } : given);
     if (!v) return;
     if (!own) setExtraVenue(v);
     pickFromGroup(v);

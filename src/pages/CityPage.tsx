@@ -89,6 +89,7 @@ const TIER_ICONS: Record<string, typeof Gem> = {
   "nature & the outdoors": Mountain,
   "history & culture": Landmark,
   "food & wine experiences": Wine,
+  "food & wine": Wine,
   // The engine's fifth "do" group (tours, classes, spas...), 2026-11-04.
   experiences: Ticket,
 };
@@ -862,12 +863,17 @@ export default function CityPage() {
   const openGuideOnMap = useCallback<OpenOnMap>((item, panelKey, fromId) => {
     const name = item.name ?? "";
     const pinned = item.lat != null && item.lng != null;
-    if (!name || (!pinned && !mapNames.names.has(mapNames.key(name)))) return false;
+    if (!name) return false;
+    // Every card opens on our own map (2026-11-19, direct request: never Google Maps). With coordinates
+    // it is pinned where it is; one of the map's own venues is found by name; anything else is shown at
+    // the city's centre (CityMap places a venue without coordinates there) with its area on the card.
     const cat = (["stay", "eat", "party", "do"].includes(panelKey) ? panelKey : "do") as CityMapVenue["cat"];
-    const venue: CityMapVenue | null = pinned
-      ? { n: name, cat, tier: "", a: item.area ?? "", d: item.blurb || item.description || "", lat: item.lat!, lon: item.lng!,
-          photos: item.photo ? [{ url: item.photo, alt: name, credit: null }] : [] }
-      : null;
+    const onMap = mapNames.names.has(mapNames.key(name));
+    const venue: CityMapVenue | null = onMap && !pinned
+      ? null
+      : { n: name, cat, tier: "", a: item.area ?? "", d: item.blurb || item.description || "",
+          lat: pinned ? item.lat! : Number.NaN, lon: pinned ? item.lng! : Number.NaN,
+          photos: item.photo ? [{ url: item.photo, alt: name, credit: null }] : [] };
     setMapFocus({ name, nonce: Date.now(), from: fromId, venue, back: "Back to the guide" });
     document.getElementById("city-map")?.scrollIntoView({ behavior: "smooth", block: "start" });
     return true;
