@@ -15,15 +15,79 @@
 }
 
 .loaderInner {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 16px;
+  display: grid;
+  justify-items: start;
+  gap: 12px;
+  padding: 0 24px;
 }
 
-.label {
-  font-size: 14px;
-  letter-spacing: 0.04em;
-  color: #5f5f5f;
+/* "Arriving in <city>" (2026-11-19): the site's own type and tokens, so it follows the dark theme too. */
+.eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--eyebrow, "Plus Jakarta Sans", sans-serif);
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 1;
+  letter-spacing: 0.24em;
   text-transform: uppercase;
+  color: var(--stone, #5f5f5f);
+  animation: fade 0.4s var(--ease, ease) both;
+}
+
+.beacon {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--signature, #6e2a38);
+  animation: beacon 1.6s ease-in-out 1.1s infinite;
+}
+
+.name {
+  font-family: var(--serif, "Cormorant Garamond", Georgia, serif);
+  font-style: italic;
+  font-weight: 400;
+  font-size: clamp(40px, 6vw, 60px);
+  line-height: 1;
+  color: var(--ink, #1a1714);
+  animation: rise 0.8s var(--ease-out-soft, ease-out) 0.1s both;
+}
+
+.coords {
+  display: flex;
+  gap: 18px;
+  padding-top: 12px;
+  border-top: 1px solid var(--line, #e7e6e2);
+  font-family: var(--sans, "Plus Jakarta Sans", sans-serif);
+  font-weight: 500;
+  font-size: 12.5px;
+  line-height: 1;
+  letter-spacing: 0.1em;
+  color: var(--ink, #1a1714);
+  font-variant-numeric: tabular-nums;
+  animation: fade 0.4s var(--ease, ease) 0.25s both;
+}
+
+.coords span {
+  min-width: 10ch;
+}
+
+@keyframes fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes rise {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: none; }
+}
+
+@keyframes beacon {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.35; transform: scale(0.7); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .eyebrow, .beacon, .name, .coords { animation: none; }
 }

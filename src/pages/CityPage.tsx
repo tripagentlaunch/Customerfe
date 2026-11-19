@@ -1228,7 +1228,7 @@ export default function CityPage() {
 
   return (
     <>
-      {!pageReady && <CityPageLoader cityName={hero.name ?? ""} />}
+      {!pageReady && <CityPageLoader cityName={hero.name ?? ""} slug={slug} />}
       <header className="city-hero" data-hero style={{ backgroundImage: `url('${hero.image}')` }}>
         <div className="wrap">
           <nav className={`${styles.bcTrail} reveal`} aria-label="Breadcrumb">
