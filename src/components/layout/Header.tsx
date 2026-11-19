@@ -211,6 +211,9 @@ export function Header() {
     const tick = () => {
       raf = 0;
       const y = Math.max(0, window.scrollY);
+      // A field in the page (the map's search) moves the page as the keyboard opens and closes: that is
+      // not the reader scrolling up, so the bar stays where it is (2026-11-19).
+      if (Date.now() < quietUntil) { lastY = y; return; }
       if (y < TOP_ZONE && !hiddenAtTop) {
         lastY = y;
         setPhoneShown(true);
@@ -228,14 +231,25 @@ export function Header() {
     // brings it down — it's also the way to the search bar.
     const onTap = (e: MouseEvent) => {
       if (!hiddenAtTop || !(e.target instanceof Element)) return;
-      if (e.target.closest("a,button,input,select,textarea,summary,label,[role=button],[role=tab],header.ta-hd")) return;
+      if (e.target.closest("a,button,input,select,textarea,summary,label,[role=button],[role=tab],[role=option],[data-map-ctl],[role=dialog],header.ta-hd")) return;
       setPhoneShown(true);
     };
+    let quietUntil = 0;
+    const onField = (e: Event) => {
+      if (e.target instanceof HTMLInputElement && !e.target.closest("header.ta-hd")) {
+        quietUntil = Date.now() + 1500;
+        setPhoneShown(false);
+      }
+    };
+    document.addEventListener("focusin", onField);
+    document.addEventListener("focusout", onField);
     window.addEventListener("scroll", onScroll, { passive: true });
     document.addEventListener("click", onTap);
     return () => {
       window.removeEventListener("scroll", onScroll);
       document.removeEventListener("click", onTap);
+      document.removeEventListener("focusin", onField);
+      document.removeEventListener("focusout", onField);
       if (raf) cancelAnimationFrame(raf);
     };
   }, [isMobile, pathname]);

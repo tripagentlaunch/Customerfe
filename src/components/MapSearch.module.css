@@ -98,3 +98,13 @@
 .empty { padding: 12px 16px; font-size: 13px; color: #6b635b; }
 
 .box .input:focus-visible { outline: none; }
+
+/* Phones (2026-11-19): along the top of the map, leaving the full-screen button its corner. */
+@media (max-width: 720px) {
+  .box { top: 10px; left: 10px; right: 64px; width: auto; }
+  .box .input { height: 42px; font-size: 16px; } /* 16px: iOS zooms the page into smaller fields */
+  .icon { top: 13px; }
+  .clear { top: 5px; }
+  .list { max-height: min(300px, 45vh); }
+  .name { font-size: 15px; }
+}

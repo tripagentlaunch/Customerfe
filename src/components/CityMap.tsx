@@ -488,7 +488,7 @@ export default function CityMap({
   return (
     <div className={styles.wrap}>
       <div className={styles.canvas} ref={canvasRef} tabIndex={-1}>
-        {!isMobile && visibleVenues.length > 0 && (
+        {visibleVenues.length > 0 && (
           <MapSearch
             venues={visibleVenues}
             onPlace={(v) => pickFromGroup(v)}

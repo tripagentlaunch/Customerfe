@@ -1439,11 +1439,11 @@ export default function CityPage() {
                       </div>
                     )}
                     {/* What a night costs in each stay tier (2026-11-17, direct request): one line under the
-                        tier buttons, from the sourcing engine's rates. Desktop only for now. */}
+                        tier buttons, from the sourcing engine's rates. Phones too since 2026-11-19. */}
                     {(() => {
                       // The selected stay tier's price band, on its own line (2026-11-17, direct request).
                       const band = activeTab === "stay" ? activePanel?.tiers[activeSelectedTier]?.band : null;
-                      return !isPhone && band ? <p className={styles.tierRates}>Rates per night: {bandText(band)}</p> : null;
+                      return band ? <p className={styles.tierRates}>Rates per night: {bandText(band)}</p> : null;
                     })()}
                   </div>
                   <GuideMap.Provider value={openGuideOnMap}>

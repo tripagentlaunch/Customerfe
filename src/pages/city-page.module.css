@@ -1023,3 +1023,24 @@ html .card-body.card-body-add { position: relative; padding-bottom: 64px; }
   html :global(.ta-guide .cg-list li .ds) { font-size: 14.5px; line-height: 1.55; }
   html :global(.ta-guide .cg-list li .cg-loc-text) { font-size: 11px; }
 }
+
+/* ---- Phone parity (2026-11-19, direct request: bring the phone in line with the current desktop) ---- */
+@media (max-width: 720px) {
+  /* The Plan's heading block no longer stays pinned: on a phone it took a quarter of the screen and hid
+     the top of every day's photos and titles as they scrolled under it. */
+  .plan-head,
+  :global(body:has(.ta-hd-visible)) .plan-head { position: static; top: auto; box-shadow: none; padding: 0; margin-bottom: 22px; }
+  /* Day titles and place names wrap instead of ending in "…". */
+  .plan-day-head h3 { white-space: normal; overflow: visible; text-overflow: clip; font-size: 22px; line-height: 1.25; }
+  .plan-place, .plan-place-link { white-space: normal; overflow: visible; text-overflow: clip; font-size: 16px; }
+  /* Up to four price tiers fit across the screen (Ultra, Luxury, Grand, Premium), no sideways scrolling;
+     a row of five or more (things to do) still scrolls. */
+  .tier-chips:not(:has(> :nth-child(5))) { gap: 6px; overflow: visible; }
+  .tier-chips:not(:has(> :nth-child(5))) .tier-chip { flex: 1 1 0; min-width: 0; justify-content: center; gap: 5px; padding: 9px 4px; font-size: 10px; letter-spacing: .06em; }
+  .tier-chips:not(:has(> :nth-child(5))) .tier-chip svg { width: 13px; height: 13px; }
+  .tier-rates { font-size: 12.5px; margin-top: 10px; }
+}
+@media (max-width: 720px) {
+  /* A place opened from a card fits the whole map between the back button and the trip bar, as on desktop. */
+  .map-focused .ta-map-box { height: max(340px, calc(100svh - 210px)); }
+}
