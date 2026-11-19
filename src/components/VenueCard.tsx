@@ -9,6 +9,10 @@ const MOBILE_QUERY = "(max-width: 640px)";
 const REDUCED_MOTION_QUERY = "(prefers-reduced-motion: reduce)";
 const GAP = 14; // px between the marker point and the floating card
 const EDGE_PAD = 10; // px keep-out from the map container's edges
+// From the pin's centre to the card's edge: the pin is a circle up to ~38px across when highlighted, so the
+// card keeps clear of all of it (a card over its own pin closed under the pointer).
+const CLEAR = 26;
+const CONTROLS_CLEAR = 64; // px kept free on the right for the map's zoom / full-screen buttons
 
 type VAlign = "above" | "below";
 type HAlign = "center" | "left" | "right";
@@ -62,6 +66,9 @@ interface VenueCardProps {
   isLoadingPhoto?: boolean;
   /** The city the map is of: when given, the card has the guide's "Add to trip" button (2026-11-19). */
   trip?: { city: string; cityLabel?: string };
+  /** Desktop hover: the map keeps the card open while the pointer is on it. */
+  onPointerEnter?: () => void;
+  onPointerLeave?: () => void;
 }
 
 // The same trip entry as the guide card of this place ("<city>:<section>:<name>"), so adding it on the
@@ -103,7 +110,7 @@ function TripButton({ venue, trip, onPhoto }: { venue: CityMapVenue; trip: { cit
   );
 }
 
-export default function VenueCard({ venue, map, mapContainerEl, onClose, isLoadingPhoto = false, trip }: VenueCardProps) {
+export default function VenueCard({ venue, map, mapContainerEl, onClose, isLoadingPhoto = false, trip, onPointerEnter, onPointerLeave }: VenueCardProps) {
   const isMobile = useMediaQuery(MOBILE_QUERY);
   const reducedMotion = useMediaQuery(REDUCED_MOTION_QUERY);
 
@@ -172,19 +179,20 @@ export default function VenueCard({ venue, map, mapContainerEl, onClose, isLoadi
     const pin = pinEl.getBoundingClientRect();
     const px = pin.left, py = pin.top;
     const w = cardRect.width, h = cardRect.height;
-    const top = m.top + EDGE_PAD, bottom = m.bottom - EDGE_PAD, left = m.left + EDGE_PAD, right = m.right - EDGE_PAD;
+    // The right edge keeps clear of the map's zoom and full-screen buttons (desktop: halfway down the right).
+    const top = m.top + EDGE_PAD, bottom = m.bottom - EDGE_PAD, left = m.left + EDGE_PAD, right = m.right - (map ? CONTROLS_CLEAR : EDGE_PAD);
     const clampX = (x: number) => Math.min(Math.max(x, left), Math.max(left, right - w));
     const clampY = (y: number) => Math.min(Math.max(y, top), Math.max(top, bottom - h));
 
     let x: number, y: number, v: VAlign, hz: HAlign;
-    if (py - GAP - h >= top) {                       // above, whole
-      v = "above"; y = py - GAP - h; x = clampX(px - w / 2);
-    } else if (py + GAP + h <= bottom) {             // below, whole
-      v = "below"; y = py + GAP; x = clampX(px - w / 2);
+    if (py - CLEAR - h >= top) {                       // above, whole
+      v = "above"; y = py - CLEAR - h; x = clampX(px - w / 2);
+    } else if (py + CLEAR + h <= bottom) {             // below, whole
+      v = "below"; y = py + CLEAR; x = clampX(px - w / 2);
     } else {                                         // beside the pin
       v = "above";
-      const roomRight = right - (px + GAP), roomLeft = px - GAP - left;
-      x = roomRight >= w || roomRight >= roomLeft ? px + GAP : px - GAP - w;
+      const roomRight = right - (px + CLEAR), roomLeft = px - CLEAR - left;
+      x = roomRight >= w || roomRight >= roomLeft ? px + CLEAR : px - CLEAR - w;
       x = clampX(x);
       y = clampY(py - h / 2);
     }
@@ -227,7 +235,18 @@ export default function VenueCard({ venue, map, mapContainerEl, onClose, isLoadi
     ro.observe(el);
     if (mapContainerEl) ro.observe(mapContainerEl);
     return () => ro.disconnect();
-  }, [isMobile, venue.n, hasPhotos, mapContainerEl]);
+  }, [isMobile, venue.n, mapContainerEl]);
+
+  // The photo arriving changes the card's height in the same render the observer above would restart on,
+  // so it is placed again here too (otherwise it grew over its own pin and closed under the pointer).
+  const firstPhotoRender = useRef(true);
+  useLayoutEffect(() => {
+    if (firstPhotoRender.current) { firstPhotoRender.current = false; return; }
+    settledRef.current = false;
+    valignFlippedRef.current = false;
+    halignFlippedRef.current = false;
+    setMeasureTick((t) => t + 1);
+  }, [hasPhotos, isLoadingPhoto]);
 
   // The map pans to the place as the card opens (and the page may still be scrolling to the map), so the
   // pin moves under a card that was placed for where it was. For the first few seconds, once the pin has
@@ -273,6 +292,28 @@ export default function VenueCard({ venue, map, mapContainerEl, onClose, isLoadi
     };
   }, [isMobile, mapContainerEl, map, venue.n, venue.lat, venue.lon]);
 
+  // Pointer on the card keeps it open (desktop hover). Listened for on the element itself: Google Maps stops
+  // the pointer events bubbling out of its panes, so React's own onPointerEnter/Leave never heard them and
+  // the card closed under the pointer.
+  const enterRef = useRef(onPointerEnter);
+  const leaveRef = useRef(onPointerLeave);
+  enterRef.current = onPointerEnter;
+  leaveRef.current = onPointerLeave;
+  useEffect(() => {
+    const el = cardRef.current;
+    if (!el) return;
+    const enter = () => enterRef.current?.();
+    const leave = () => leaveRef.current?.();
+    // Mouse events, the same family as the pin's onMouseLeave: pointer events fire first, so the card's
+    // "stay open" arrived before the pin's "close", which then won.
+    el.addEventListener("mouseenter", enter);
+    el.addEventListener("mouseleave", leave);
+    return () => {
+      el.removeEventListener("mouseenter", enter);
+      el.removeEventListener("mouseleave", leave);
+    };
+  }, [isMobile]);
+
   // Prevent swipe/drag/scroll on the card from panning or zooming the map —
   // required on both the desktop (in-pane) card and the mobile portaled one.
   useEffect(() => {
@@ -296,7 +337,7 @@ export default function VenueCard({ venue, map, mapContainerEl, onClose, isLoadi
       return () => cancelAnimationFrame(raf);
     }
     autofocusedRef.current = true;
-    closeBtnRef.current?.focus();
+    closeBtnRef.current?.focus({ preventScroll: true });
   }, [venue.n, measureTick]);
 
   // A carousel chevron can unmount the instant it's clicked (e.g. "next" at
@@ -308,7 +349,7 @@ export default function VenueCard({ venue, map, mapContainerEl, onClose, isLoadi
   // happens.
   useEffect(() => {
     if (cardRef.current && !cardRef.current.contains(document.activeElement)) {
-      closeBtnRef.current?.focus();
+      closeBtnRef.current?.focus({ preventScroll: true });
     }
   }, [index]);
 
@@ -381,6 +422,7 @@ export default function VenueCard({ venue, map, mapContainerEl, onClose, isLoadi
       role="dialog"
       aria-modal="true"
       aria-label={venue.n}
+
     >
       {hasPhotos ? (
         <div className={styles.imageArea} data-fly-box>

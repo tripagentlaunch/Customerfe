@@ -80,6 +80,9 @@ function fanOffsets(n: number): { dx: number; dy: number }[] {
 // doesn't flash cards) and stays while the pointer is on the badge or card.
 const CARD_OPEN_MS = 120;
 const CARD_CLOSE_MS = 280;
+// A single pin's card can open beside or below its pin, so the way from the pin to the card's button may
+// cross a strip of map: a little longer before it closes.
+const PIN_CARD_CLOSE_MS = 450;
 // Moving on to another badge while a card is open waits longer, so a pointer
 // on its way from a badge to its card doesn't hand the card to a neighbour
 // it brushes past (that read as the card shaking).
@@ -138,7 +141,11 @@ function stepMap(map: google.maps.Map, dx: number, dy: number) {
 }
 
 const MAP_CONTAINER_STYLE = { width: "100%", height: "100%" };
-const PIN_BUTTON_STYLE: CSSProperties = { transform: "translate(-50%, -50%)", background: "none", border: "none", padding: 0, cursor: "pointer" };
+// Absolutely placed (2026-11-19): in the flow, each pin's button gave its overlay box the pin's size, but
+// offset from the pin by the centring translate, and that invisible box sat over the neighbouring pins:
+// in a busy area most pins could not be hovered or clicked at all. Now the box is empty and only the
+// visible pin takes the pointer.
+const PIN_BUTTON_STYLE: CSSProperties = { position: "absolute", left: 0, top: 0, transform: "translate(-50%, -50%)", background: "none", border: "none", padding: 0, cursor: "pointer" };
 
 const MAP_STYLES: google.maps.MapTypeStyle[] = [
   { elementType: "geometry", stylers: [{ color: "#f4f1ea" }] },
@@ -264,6 +271,46 @@ export default function CityMap({
     setSelected(v);
   }
 
+  // A single pin's card (2026-11-19, direct request: places "not opening properly"). It used to close the
+  // moment the pointer left the pin, so nobody could reach the card to read it or press "Add to trip".
+  // Now, like a badge's list: hovering opens it after a short pause, it stays while the pointer is on the
+  // pin or the card and goes a moment after it leaves both. A click (or a place opened from the guide)
+  // keeps it open until its ×, Escape, a click on the map or another pin.
+  const pinTimer = useRef<number | undefined>(undefined);
+  const pinPinnedRef = useRef(false);
+  useEffect(() => () => window.clearTimeout(pinTimer.current), []);
+  function hoverPin(v: CityMapVenue | null, domEvent?: Event) {
+    if (pinPinnedRef.current && !v) return;
+    window.clearTimeout(pinTimer.current);
+    if (v) {
+      const same = selected?.n === v.n && selected.lat === v.lat;
+      if (same) return;
+      const target = (domEvent?.target as HTMLElement) ?? null;
+      pinTimer.current = window.setTimeout(() => {
+        pinPinnedRef.current = false;
+        closeGroup();
+        triggerElRef.current = target;
+        setSelected(v);
+      }, selected ? CARD_SWITCH_MS : CARD_OPEN_MS);
+    } else {
+      pinTimer.current = window.setTimeout(() => setSelected(null), PIN_CARD_CLOSE_MS);
+    }
+  }
+  function holdPin() {
+    window.clearTimeout(pinTimer.current);
+  }
+  function pinVenue(v: CityMapVenue, domEvent?: Event) {
+    window.clearTimeout(pinTimer.current);
+    pinPinnedRef.current = true;
+    closeGroup();
+    selectVenue(v, domEvent);
+  }
+  function unpinVenue() {
+    window.clearTimeout(pinTimer.current);
+    pinPinnedRef.current = false;
+    setSelected(null);
+  }
+
   function restoreFocus() {
     const marker = triggerElRef.current;
     if (marker && document.contains(marker) && typeof marker.focus === "function") {
@@ -274,7 +321,7 @@ export default function CityMap({
   }
 
   function closeWithFocusRestore() {
-    setSelected(null);
+    unpinVenue();
     restoreFocus();
   }
 
@@ -317,6 +364,8 @@ export default function CityMap({
         map.setCenter(at);
       } else map.panTo(at);
     }
+    window.clearTimeout(pinTimer.current);
+    pinPinnedRef.current = true;
     setSelected(v);
   }
 
@@ -510,7 +559,7 @@ export default function CityMap({
             requestAnimationFrame(fitCity);
           }}
           onClick={() => {
-            setSelected(null);
+            unpinVenue();
             // Phone: the sheet is dismissed only by its ×.
             if (!isMobile) closeGroup();
           }}
@@ -548,7 +597,7 @@ export default function CityMap({
               const isOpen = openGroup?.key === key;
               return (
                 <OverlayViewF key={key} position={stablePos(lat, lng)} mapPaneName={OVERLAY_MOUSE_TARGET}>
-                  <div style={{ transform: "translate(-50%, -50%)" }}>
+                  <div style={{ position: "absolute", left: 0, top: 0, transform: "translate(-50%, -50%)" }}>
                     <ClusterPin
                       count={c.items.length}
                       open={isOpen}
@@ -580,12 +629,12 @@ export default function CityMap({
                   type="button"
                   aria-label={v.n}
                   style={shift ? { ...PIN_BUTTON_STYLE, transform: PIN_BUTTON_STYLE.transform + shift } : PIN_BUTTON_STYLE}
-                  onMouseEnter={(e) => selectVenue(v, e.nativeEvent)}
-                  onMouseLeave={() => setSelected(null)}
-                  // A tap on a phone (no hover) opens the card too.
+                  onMouseEnter={isMobile ? undefined : (e) => hoverPin(v, e.nativeEvent)}
+                  onMouseLeave={isMobile ? undefined : () => hoverPin(null)}
+                  // A click keeps the card open; a tap on a phone (no hover) opens it.
                   onClick={(e) => {
-                    closeGroup();
-                    selectVenue(v, e.nativeEvent);
+                    e.stopPropagation();
+                    pinVenue(v, e.nativeEvent);
                   }}
                 >
                   <MapPin Icon={catIcon(v.cat)} color={catColor(v.cat)} active={selected?.n === v.n && selected.lat === v.lat} />
@@ -624,7 +673,8 @@ export default function CityMap({
               mapPaneName={FLOAT_PANE}
               getPixelPositionOffset={() => ({ x: 0, y: 0 })}
             >
-              <VenueCard venue={effectiveSelected} map={map} mapContainerEl={canvasRef.current} onClose={closeWithFocusRestore} isLoadingPhoto={livePhoto.status === "loading"} trip={{ city: slug, cityLabel: cityName }} />
+              <VenueCard venue={effectiveSelected} map={map} mapContainerEl={canvasRef.current} onClose={closeWithFocusRestore} isLoadingPhoto={livePhoto.status === "loading"} trip={{ city: slug, cityLabel: cityName }}
+                onPointerEnter={isMobile ? undefined : holdPin} onPointerLeave={isMobile ? undefined : () => hoverPin(null)} />
             </OverlayViewF>
           )}
         </GoogleMap>
