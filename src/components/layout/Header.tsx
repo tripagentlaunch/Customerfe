@@ -160,7 +160,6 @@ export function Header() {
       if (raf) cancelAnimationFrame(raf);
     };
   }, []);
-  const desktopVisible = active || initialPeek || sidebarPeek || hovering || menuOpen || openRoom !== null || (searchOpen && !!q);
 
   // Phone: no hover. Standard direction-based bar — always visible near the
   // top of the page, hides as soon as the page is scrolled DOWN, and comes
@@ -240,6 +239,23 @@ export function Header() {
       if (raf) cancelAnimationFrame(raf);
     };
   }, [isMobile, pathname]);
+  // Desktop home page (2026-11-19, direct request): the header is there on the first view and stays until
+  // the visitor first scrolls; from then on it comes and goes as on every other page.
+  const [untouched, setUntouched] = useState(true);
+  useEffect(() => {
+    setUntouched(true);
+    if (pathname !== "/") return;
+    const start = window.scrollY;
+    const onScroll = () => {
+      if (Math.abs(window.scrollY - start) > 4) {
+        setUntouched(false);
+        window.removeEventListener("scroll", onScroll);
+      }
+    };
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, [pathname]);
+  const desktopVisible = (pathname === "/" && untouched) || active || initialPeek || sidebarPeek || hovering || menuOpen || openRoom !== null || (searchOpen && !!q);
   const headerVisible = isMobile
     ? phoneShown || sidebarPeek || menuOpen || openRoom !== null || focusWithin
     : desktopVisible;

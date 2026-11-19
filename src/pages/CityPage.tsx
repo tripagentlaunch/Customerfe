@@ -815,6 +815,23 @@ function pracIcon(label: string | null) {
 // Bring the whole map on screen (2026-11-19, direct request: no scrolling further to reach it). The map
 // grows to the screen's height as it opens a place, and the page above it can still be settling, so the
 // scroll starts on the next frame and is corrected once or twice until the map sits under the header.
+// Scroll to an element on this page (its own scroll-margin-top respected), then check it landed and
+// correct once or twice: images and sections above can still be settling while the scroll runs.
+function scrollToAnchor(id: string) {
+  const go = () => {
+    const el = document.getElementById(id);
+    if (!el) return 0;
+    const off = el.getBoundingClientRect().top - (parseFloat(getComputedStyle(el).scrollMarginTop) || 0);
+    if (Math.abs(off) > 6) window.scrollTo({ top: window.scrollY + off, behavior: "smooth" });
+    return off;
+  };
+  go();
+  try { history.replaceState(history.state, "", `#${id}`); } catch { /* not allowed: fine */ }
+  let left = 3;
+  const check = () => window.setTimeout(() => { go(); if (--left > 0) check(); }, 700);
+  check();
+}
+
 function scrollToMap() {
   const go = () => document.getElementById("city-map")?.scrollIntoView({ behavior: "smooth", block: "start" });
   requestAnimationFrame(go);
@@ -1266,7 +1283,19 @@ export default function CityPage() {
           </nav>
           <h1 className="reveal d1">{hero.name}</h1>
           <p className={`${styles.ess} reveal d2`}>{hero.tagline}</p>
-          <div className="btn-row reveal d3" style={{ marginTop: 26 }}>
+          <div
+            className="btn-row reveal d3"
+            style={{ marginTop: 26 }}
+            onClickCapture={(e) => {
+              // An in-page button ("The guide" -> #stay) scrolls in code and checks it landed (2026-11-19,
+              // direct request): the browser's own jump could stop short while the page above was still settling.
+              const a = e.target instanceof Element ? e.target.closest<HTMLAnchorElement>('a[href^="#"]') : null;
+              const id = a?.getAttribute("href")?.slice(1);
+              if (!id || !document.getElementById(id)) return;
+              e.preventDefault();
+              scrollToAnchor(id);
+            }}
+          >
             {/* Typed as required, but not runtime-guaranteed on a real API
                 response — dropping the button beats crashing the whole
                 hero. */}

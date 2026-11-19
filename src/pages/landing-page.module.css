@@ -397,40 +397,65 @@
   }
 }
 
-/* "Request an invitation", fixed on screen for the whole page (2026-11-19, direct request). Ink on paper
-   with a hairline edge and a soft shadow, so it reads over the dark hero and the light sections alike. */
-.stickyCta {
+/* The invitation bar (2026-11-19, direct request: always reachable, never over the photos): a slim strip
+   across the top that slides down once the hero's own button has scrolled away. */
+.bar {
   position: fixed;
-  top: 24px;
-  right: 28px;
+  top: 0;
+  left: 0;
+  right: 0;
   z-index: 400;
+  background: rgba(250, 248, 244, 0.94);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(26, 23, 20, 0.1);
+  transform: translateY(-100%);
+  transition: transform 0.38s cubic-bezier(0.2, 0.7, 0.2, 1);
+  pointer-events: none;
+}
+.barOn {
+  transform: none;
+  pointer-events: auto;
+}
+.barIn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 12px clamp(16px, 4vw, 48px);
+}
+.barBrand {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  font-family: var(--serif);
+  font-size: 21px;
+  color: var(--ink, #1a1714);
+}
+.barBrand svg { stroke: currentColor; }
+.barCta {
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  padding: 13px 22px;
-  background: var(--paper, #fff);
-  color: var(--ink, #1a1714);
-  border: 1px solid rgba(26, 23, 20, 0.14);
-  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.18);
+  padding: 11px 20px;
+  background: var(--ink, #1a1714);
+  color: var(--paper, #fff);
   font-family: var(--fr);
   font-weight: 600;
-  font-size: 11.5px;
+  font-size: 11px;
   letter-spacing: 0.16em;
   text-transform: uppercase;
   text-decoration: none;
-  transition: background 0.2s ease, color 0.2s ease;
+  transition: opacity 0.2s ease;
 }
-.stickyCta:hover,
-.stickyCta:focus-visible {
-  background: var(--ink, #1a1714);
-  color: var(--paper, #fff);
-}
+.barCta:hover,
+.barCta:focus-visible { opacity: 0.86; }
 @media (max-width: 640px) {
-  .stickyCta {
-    top: auto;
-    right: 16px;
-    left: 16px;
-    bottom: calc(16px + env(safe-area-inset-bottom, 0px));
-    justify-content: center;
-  }
+  .barBrand { font-size: 18px; }
+  .barCta { padding: 10px 14px; letter-spacing: 0.12em; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .bar { transition: none; }
 }

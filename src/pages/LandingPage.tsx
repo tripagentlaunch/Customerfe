@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import homepageData from "../data/homepage.generated.json";
 import type { HomepageData } from "../types/homepage";
@@ -61,14 +61,40 @@ export default function LandingPage() {
   useParallax("[data-landing]");
 
   const { services } = data;
+  const heroCtaRef = useRef<HTMLDivElement | null>(null);
+  const [showBar, setShowBar] = useState(false);
+  useEffect(() => {
+    const el = heroCtaRef.current;
+    if (!el || typeof IntersectionObserver === "undefined") return;
+    // Shown when the hero's button is above the screen, not merely off-screen below it (short windows).
+    const io = new IntersectionObserver(([e]) => setShowBar(!e.isIntersecting && e.boundingClientRect.top < 0));
+    io.observe(el);
+    return () => io.disconnect();
+  }, []);
 
   return (
     <main className={styles.home} data-landing>
-      {/* Always on screen (2026-11-19, direct request): whatever a visitor is reading, the way in is one
-          click away. Fixed to the top-right corner, above every section. */}
-      <Link className={ctaStyles.stickyCta} to="/request-access">
-        Request an invitation <span aria-hidden="true">→</span>
-      </Link>
+      {/* "Request an invitation" always within reach (2026-11-19, direct requests). A floating button sat on
+          the photos as the page scrolled, so it is now a slim bar across the top: the name and the button,
+          sliding down once the hero's own button has scrolled away, and up again when it is back. */}
+      <div className={`${ctaStyles.bar}${showBar ? ` ${ctaStyles.barOn}` : ""}`} aria-hidden={!showBar}>
+        <div className={ctaStyles.barIn}>
+          <span className={ctaStyles.barBrand}>
+            <svg width="18" height="18" viewBox="0 0 420 420" fill="none" aria-hidden="true">
+              <g strokeWidth={28} strokeLinecap="round" strokeLinejoin="round">
+                <path d="M140,150 L280,150" />
+                <path d="M210,150 L210,212" />
+                <path d="M140,300 L210,212 L280,300" />
+                <path d="M174,256 L246,256" />
+              </g>
+            </svg>
+            TripAgent
+          </span>
+          <Link className={ctaStyles.barCta} to="/request-access" tabIndex={showBar ? 0 : -1}>
+            Request an invitation <span aria-hidden="true">→</span>
+          </Link>
+        </div>
+      </div>
       {/* HERO — dark panel, copy left, one framed photo flush right (no
           carousel), after the reference the user supplied. The one button
           goes to the real form; nothing else on this page is reachable yet. */}
@@ -92,7 +118,7 @@ export default function LandingPage() {
             <span className={ctaStyles.introIt}>who knows how you travel.</span>
           </h1>
           <p className={`lede on-dark ${ctaStyles.introLede}`}>{COPY.heroLede}</p>
-          <div className={ctaStyles.introCta}>
+          <div className={ctaStyles.introCta} ref={heroCtaRef}>
             <PrimaryInverseButton to="/request-access">Request an invitation</PrimaryInverseButton>
           </div>
         </div>
