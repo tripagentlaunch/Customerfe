@@ -13,21 +13,26 @@ import ctaStyles from "./landing-page.module.css";
 const data = homepageData as unknown as HomepageData;
 
 // Background photos for the 3 "What is TripAgent" cards, in card order (A
-// real person, An AI concierge, On WhatsApp) — existing lifestyle photos
+// named advisor, the plan, the journey) — existing lifestyle photos
 // already in the project, reused rather than anything new or literal.
 const WAY_CARD_IMAGES = ["/img/h/membership.jpg", "/img/h/portal.jpg", "/img/h/contact.jpg"];
 
 // Landing-page copy, kept here rather than in the generated homepage JSON
 // (which HomePage still reads). Calm, complete sentences; sentence case.
 const COPY = {
+  // Nothing on this page names the technology (2026-11-19, direct request): the service is the advisor.
   heroLede:
-    "TripAgent pairs every member with a named advisor who plans, books and looks after each journey, with AI working behind them so that nothing is missed.",
+    "TripAgent pairs every member with a named advisor who plans, books and looks after each journey, so that nothing is missed.",
+  // The second section explains how it works, plainly (2026-11-19, direct request: a clearer tagline and
+  // sub-tagline, as clean as before).
+  wayEyebrow: "How it works",
+  wayHeadingHtml: 'Tell us once. <span class="it">We take it from there.</span>',
   wayLede:
-    "Most travel is now booked alone, on a screen. We believe a journey is better looked after by someone who knows you, so every member has one named advisor, with AI working quietly behind them.",
+    "Share where you would like to go. Your advisor shapes the journey around you, books every part of it, and stays with you until you are home.",
   wayCards: [
-    { kicker: "Yours", heading: "One named advisor", body: "The same person every time, who remembers how you like to travel, so you never explain yourself twice." },
-    { kicker: "In seconds", heading: "AI behind your advisor", body: "Research and drafts are ready in moments, and your advisor checks every detail before it reaches you." },
-    { kicker: "Always", heading: "With you throughout", body: "On WhatsApp from your first message until you are home, including when plans change while you travel." },
+    { kicker: "Your advisor", heading: "One person who knows you", body: "The same named advisor every time, who remembers how you like to travel, so you never explain yourself twice." },
+    { kicker: "Your plan", heading: "Shaped and booked for you", body: "Flights, stays, tables and transfers, planned day by day and checked in every detail before anything reaches you." },
+    { kicker: "Your journey", heading: "With you until you are home", body: "On WhatsApp from your first message to your flight home, and quick to act when plans change on the way." },
   ],
   statsHeadingHtml: 'A personal service with a <span class="it">global reach</span>.',
   servicesHeadingHtml: 'What we do <span class="it">best</span>.',
@@ -55,7 +60,7 @@ export default function LandingPage() {
   useScrollReveal([]);
   useParallax("[data-landing]");
 
-  const { way, services } = data;
+  const { services } = data;
 
   return (
     <main className={styles.home} data-landing>
@@ -102,9 +107,9 @@ export default function LandingPage() {
       <section className="band" style={{ background: "var(--bone)" }}>
         <div className="wrap">
           <div className={`reveal ${styles.servicesHead}`} style={{ textAlign: "center", marginBottom: 50 }}>
-            <div className="eyebrow">{way.eyebrow}</div>
+            <div className="eyebrow">{COPY.wayEyebrow}</div>
             <div className="rule center" />
-            <h2 style={{ margin: "0 auto" }} dangerouslySetInnerHTML={{ __html: way.headingHtml ?? "" }} />
+            <h2 style={{ margin: "0 auto" }} dangerouslySetInnerHTML={{ __html: COPY.wayHeadingHtml }} />
             <p className="lede" style={{ margin: "18px auto 0" }}>
               {COPY.wayLede}
             </p>
