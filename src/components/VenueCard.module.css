@@ -295,3 +295,47 @@
     animation: none;
   }
 }
+
+/* "Add to trip" (2026-11-19, direct request): the guide card's button, in the photo's bottom-right corner;
+   a small square "+" that opens to the left on hover to say what it does. */
+.tripBtn {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  min-width: 36px;
+  padding: 0 10px;
+  border: 1px solid rgba(26, 23, 20, 0.15);
+  border-radius: 0;
+  background: #fff;
+  color: var(--ink, #1a1714);
+  cursor: pointer;
+  font-family: var(--fr);
+  font-weight: 600;
+  font-size: 12.5px;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+}
+.tripBtn svg { flex: none; }
+.tripBtnLbl {
+  max-width: 0;
+  margin-left: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-width 0.28s ease, margin-left 0.28s ease, opacity 0.2s ease;
+}
+.tripBtn:hover .tripBtnLbl, .tripBtn:focus-visible .tripBtnLbl { max-width: 140px; margin-left: 10px; opacity: 1; }
+.tripBtn.tripIn { background: rgba(0, 0, 0, 0.4); border-color: rgba(255, 255, 255, 0.6); color: #fff; }
+/* A card with no photo: the button sits at the foot of the text, in ink. */
+.tripBtn.tripBtnText { position: static; margin-top: 12px; width: fit-content; border-color: var(--ink, #1a1714); box-shadow: none; }
+.tripBtn.tripBtnText.tripIn { background: var(--paper-2, #f4f0e9); border-color: var(--signature, #6b2737); color: var(--signature, #6b2737); }
+.tripBtn.tripBtnText .tripBtnLbl { max-width: 140px; margin-left: 10px; opacity: 1; }
+
+@media (prefers-reduced-motion: reduce) {
+  .tripBtnLbl { transition: none; }
+}

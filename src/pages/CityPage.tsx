@@ -809,6 +809,23 @@ function pracIcon(label: string | null) {
   return <Info {...props} />;
 }
 
+// Bring the whole map on screen (2026-11-19, direct request: no scrolling further to reach it). The map
+// grows to the screen's height as it opens a place, and the page above it can still be settling, so the
+// scroll starts on the next frame and is corrected once or twice until the map sits under the header.
+function scrollToMap() {
+  const go = () => document.getElementById("city-map")?.scrollIntoView({ behavior: "smooth", block: "start" });
+  requestAnimationFrame(go);
+  const check = (left: number) =>
+    window.setTimeout(() => {
+      const el = document.getElementById("city-map");
+      if (!el) return;
+      const off = el.getBoundingClientRect().top - (parseFloat(getComputedStyle(el).scrollMarginTop) || 0);
+      if (Math.abs(off) > 8) go();
+      if (left > 1) check(left - 1);
+    }, 750);
+  check(2);
+}
+
 export default function CityPage() {
   const { pageSlug } = useParams<{ pageSlug: string }>();
   const slug = pageSlug?.startsWith("city-") ? pageSlug.slice("city-".length) : undefined;
@@ -875,7 +892,7 @@ export default function CityPage() {
           lat: pinned ? item.lat! : Number.NaN, lon: pinned ? item.lng! : Number.NaN,
           photos: item.photo ? [{ url: item.photo, alt: name, credit: null }] : [] };
     setMapFocus({ name, nonce: Date.now(), from: fromId, venue, back: "Back to the guide" });
-    document.getElementById("city-map")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    scrollToMap();
     return true;
   }, [mapNames]);
   // What the loader waits for: only the hero photo — the first thing on
@@ -1161,7 +1178,7 @@ export default function CityPage() {
 
   function openOnMap(venue: string, fromId: string) {
     setMapFocus({ name: venue, nonce: Date.now(), from: fromId });
-    document.getElementById("city-map")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    scrollToMap();
   }
   function backToPlan() {
     const from = mapFocus?.from;
@@ -1563,14 +1580,16 @@ export default function CityPage() {
               Stays, sights and places to eat, pinned in one view.
             </p>
           </div>
-          <div id="city-map" className={styles.mapAnchor}>
+          {/* A place opened from the guide (or The Plan) shows the whole map on screen at once (2026-11-19,
+              direct request): the map takes the height left between the header and the trip bar. */}
+          <div id="city-map" className={`${styles.mapAnchor}${mapFocus ? ` ${styles.mapFocused}` : ""}`}>
             {mapFocus && (
               <button type="button" className={styles.backToPlan} onClick={backToPlan}>
                 <span aria-hidden="true">↑</span> {mapFocus.back ?? "Back to The Plan"}
               </button>
             )}
             <div className={`${styles.taMapBox} reveal d1`}>
-              <CityMap slug={city.slug} livePlacesEnabled={isLivePlacesEnabledCity} onReady={() => setMapReady(true)} focus={mapFocus} />
+              <CityMap slug={city.slug} cityName={hero.name ?? undefined} livePlacesEnabled={isLivePlacesEnabledCity} onReady={() => setMapReady(true)} focus={mapFocus} />
             </div>
           </div>
         </div>

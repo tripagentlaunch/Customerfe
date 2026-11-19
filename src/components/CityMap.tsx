@@ -155,11 +155,14 @@ const MAP_STYLES: google.maps.MapTypeStyle[] = [
 
 export default function CityMap({
   slug,
+  cityName,
   livePlacesEnabled = false,
   onReady,
   focus = null,
 }: {
   slug: string;
+  /** The city's name, for the trip the map's "Add to trip" adds to. */
+  cityName?: string;
   livePlacesEnabled?: boolean;
   onReady?: () => void;
   // Asks the map to open one pin (The Plan's cards use this). `nonce` changes on every request, so asking for
@@ -396,6 +399,7 @@ export default function CityMap({
             selected={selected}
             onSelect={selectVenue}
             onClose={closeWithFocusRestore}
+            trip={{ city: slug, cityLabel: cityName }}
           />
         </div>
       </div>
@@ -610,7 +614,7 @@ export default function CityMap({
               mapPaneName={FLOAT_PANE}
               getPixelPositionOffset={() => ({ x: 0, y: 0 })}
             >
-              <VenueCard venue={effectiveSelected} map={map} mapContainerEl={canvasRef.current} onClose={closeWithFocusRestore} isLoadingPhoto={livePhoto.status === "loading"} />
+              <VenueCard venue={effectiveSelected} map={map} mapContainerEl={canvasRef.current} onClose={closeWithFocusRestore} isLoadingPhoto={livePhoto.status === "loading"} trip={{ city: slug, cityLabel: cityName }} />
             </OverlayViewF>
           )}
         </GoogleMap>

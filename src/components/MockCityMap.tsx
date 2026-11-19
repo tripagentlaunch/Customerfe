@@ -63,7 +63,9 @@ export default function MockCityMap({
   selected,
   onSelect,
   onClose,
+  trip,
 }: {
+  trip?: { city: string; cityLabel?: string };
   data: CityMapData;
   visibleVenues: CityMapVenue[];
   selected: CityMapVenue | null;
@@ -229,7 +231,7 @@ export default function MockCityMap({
       )}
       {selected && selPos && (
         <div className={styles.cardAnchor} style={{ left: selPos.x, top: selPos.y }}>
-          <VenueCard venue={selected} map={null} mapContainerEl={containerRef.current} onClose={onClose} />
+          <VenueCard venue={selected} map={null} mapContainerEl={containerRef.current} onClose={onClose} trip={trip} />
         </div>
       )}
       <div className={styles.zoomCtl} data-map-ctl>

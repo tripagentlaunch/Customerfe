@@ -2,6 +2,8 @@ import { useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import type { CityMapVenue } from "../types/city";
 import styles from "./VenueCard.module.css";
+import { addItem, removeItem, useInTrip } from "../lib/tripState";
+import { flyToTrip } from "../lib/flyToTrip";
 
 const MOBILE_QUERY = "(max-width: 640px)";
 const REDUCED_MOTION_QUERY = "(prefers-reduced-motion: reduce)";
@@ -58,9 +60,50 @@ interface VenueCardProps {
   mapContainerEl: HTMLDivElement | null;
   onClose: () => void;
   isLoadingPhoto?: boolean;
+  /** The city the map is of: when given, the card has the guide's "Add to trip" button (2026-11-19). */
+  trip?: { city: string; cityLabel?: string };
 }
 
-export default function VenueCard({ venue, map, mapContainerEl, onClose, isLoadingPhoto = false }: VenueCardProps) {
+// The same trip entry as the guide card of this place ("<city>:<section>:<name>"), so adding it on the
+// map ticks it in the guide too, and the other way round.
+function tripRef(city: string, venue: CityMapVenue) {
+  return `${city}:${venue.cat}:${venue.n.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}`;
+}
+
+// "Add to trip" on the map's card (2026-11-19, direct request): the guide card's square "+" that opens
+// sideways on hover, and the same flight of the photo into the tray below.
+function TripButton({ venue, trip, onPhoto }: { venue: CityMapVenue; trip: { city: string; cityLabel?: string }; onPhoto: boolean }) {
+  const ref = tripRef(trip.city, venue);
+  const inTrip = useInTrip(ref);
+  const label = inTrip ? "In your trip" : "Add to trip";
+  return (
+    <button
+      type="button"
+      className={`${styles.tripBtn}${onPhoto ? "" : ` ${styles.tripBtnText}`}${inTrip ? ` ${styles.tripIn}` : ""}`}
+      aria-pressed={inTrip}
+      aria-label={inTrip ? "Remove from your trip" : "Add to your trip"}
+      onClick={(e) => {
+        e.stopPropagation();
+        if (inTrip) {
+          removeItem(ref);
+          return;
+        }
+        flyToTrip(e.currentTarget);
+        addItem(trip.city, trip.cityLabel, {
+          ref, kind: venue.cat === "stay" ? "hotel" : venue.cat === "party" ? "event" : "experience",
+          title: venue.n, section: venue.cat, area: venue.a || null, photo: venue.photos?.[0]?.url ?? null,
+        });
+      }}
+    >
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+        {inTrip ? <path d="M5 12.5l4.5 4.5L19 7.5" /> : <path d="M12 5v14M5 12h14" />}
+      </svg>
+      <span className={styles.tripBtnLbl}>{label}</span>
+    </button>
+  );
+}
+
+export default function VenueCard({ venue, map, mapContainerEl, onClose, isLoadingPhoto = false, trip }: VenueCardProps) {
   const isMobile = useMediaQuery(MOBILE_QUERY);
   const reducedMotion = useMediaQuery(REDUCED_MOTION_QUERY);
 
@@ -285,7 +328,7 @@ export default function VenueCard({ venue, map, mapContainerEl, onClose, isLoadi
       aria-label={venue.n}
     >
       {hasPhotos ? (
-        <div className={styles.imageArea}>
+        <div className={styles.imageArea} data-fly-box>
           <img
             key={index}
             src={currentPhoto!.url}
@@ -332,6 +375,7 @@ export default function VenueCard({ venue, map, mapContainerEl, onClose, isLoadi
           <button ref={closeBtnRef} type="button" className={styles.close} onClick={onClose} aria-label="Close">
             ×
           </button>
+          {trip && <TripButton venue={venue} trip={trip} onPhoto />}
         </div>
       ) : (
         <>
@@ -354,6 +398,7 @@ export default function VenueCard({ venue, map, mapContainerEl, onClose, isLoadi
         {venue.a && <span className={styles.area}>{venue.a}</span>}
         {venue.d && <p className={styles.desc}>{venue.d}</p>}
         {currentPhoto?.credit && <span className={styles.credit}>{currentPhoto.credit}</span>}
+        {trip && !hasPhotos && <TripButton venue={venue} trip={trip} onPhoto={false} />}
       </div>
     </div>
   );

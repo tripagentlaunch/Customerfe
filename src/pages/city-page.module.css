@@ -1010,3 +1010,7 @@ html .tier-chip{padding-left:11px;padding-right:11px}
 /* A card with no photo: the same button sits in the text area's bottom-right corner. */
 .card-body-add { position: relative; padding-bottom: 64px; }
 html .card-body.card-body-add { position: relative; padding-bottom: 64px; }
+
+/* A place opened on the map from a card (2026-11-19, direct request): the whole map fits the screen, from
+   under the header (84px) and the back button to above the trip bar, so nobody has to scroll to it. */
+@media(min-width:721px){.map-focused .ta-map-box{height:max(420px,calc(100vh - 84px - 58px - 72px))}}
