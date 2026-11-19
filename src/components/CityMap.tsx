@@ -309,8 +309,13 @@ export default function CityMap({
   function pickFromGroup(v: CityMapVenue) {
     closeGroup();
     if (map) {
-      map.panTo({ lat: v.lat, lng: v.lon });
-      if ((map.getZoom() ?? 0) < NO_CLUSTER_ZOOM) map.setZoom(NO_CLUSTER_ZOOM);
+      // Zoom first, then move: a zoom during the pan's animation cut the pan short, leaving the place (and
+      // its card) off the edge of the map (2026-11-19).
+      const at = { lat: v.lat, lng: v.lon };
+      if ((map.getZoom() ?? 0) < NO_CLUSTER_ZOOM) {
+        map.setZoom(NO_CLUSTER_ZOOM);
+        map.setCenter(at);
+      } else map.panTo(at);
     }
     setSelected(v);
   }
@@ -325,6 +330,11 @@ export default function CityMap({
     if (!v) return;
     if (!own) setExtraVenue(v);
     pickFromGroup(v);
+    // The map grows to the screen's height as a place opens from the guide (CityPage): once it has,
+    // centre the place again, so it isn't left near an edge of the bigger map.
+    if (!map) return;
+    const again = window.setTimeout(() => map.panTo({ lat: v.lat, lng: v.lon }), 700);
+    return () => window.clearTimeout(again);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [focus, map, data]);
 

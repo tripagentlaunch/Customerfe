@@ -144,9 +144,11 @@ export default function VenueCard({ venue, map, mapContainerEl, onClose, isLoadi
     autofocusedRef.current = false;
   }, [venue.n, venue.lat, venue.lon]);
 
-  // Smart positioning: measure the card against the map container, flip
-  // vertically/horizontally as needed, converge in at most two passes, then
-  // pan the map just enough to bring any remaining overflow into view.
+  // Where the card sits, worked out from scratch each time (2026-11-19, direct request: never cut off):
+  // the pin's point, the card's size and the map's box. Above the pin when it fits whole there, else
+  // below, else beside the pin (right or left, whichever has room), moved up or down to stay inside the
+  // map. Only a card bigger than the map itself is left to the pan below. Offsets are from the pin.
+  const [spot, setSpot] = useState<{ top: number; left: number } | null>(null);
   useLayoutEffect(() => {
     if (isMobile) {
       settledRef.current = true;
@@ -155,73 +157,49 @@ export default function VenueCard({ venue, map, mapContainerEl, onClose, isLoadi
     if (settledRef.current) return;
     const card = cardRef.current;
     const mapEl = mapContainerEl;
-    if (!card || !mapEl) return;
+    const pinEl = card?.parentElement;
+    if (!card || !mapEl || !pinEl) return;
 
     const cardRect = card.getBoundingClientRect();
     if (cardRect.width === 0 && cardRect.height === 0) {
       const raf = requestAnimationFrame(() => setMeasureTick((t) => t + 1));
       return () => cancelAnimationFrame(raf);
     }
-
-    // In Google's own fullscreen mode the map's inner div fills the screen
-    // while mapEl (its in-page wrapper) keeps its small layout box — measuring
-    // against that made every right/bottom-side pin look like it overflowed,
-    // and the pan below shoved the map left on hover. Measure against the
-    // fullscreen element whenever the card is inside it.
+    // In Google's own fullscreen mode the map's inner div fills the screen while mapEl keeps its small
+    // layout box: measure against the fullscreen element whenever the card is inside it.
     const fsEl = document.fullscreenElement;
-    const mapRect = (fsEl && fsEl.contains(card) ? fsEl : mapEl).getBoundingClientRect();
+    const m = (fsEl && fsEl.contains(card) ? fsEl : mapEl).getBoundingClientRect();
+    const pin = pinEl.getBoundingClientRect();
+    const px = pin.left, py = pin.top;
+    const w = cardRect.width, h = cardRect.height;
+    const top = m.top + EDGE_PAD, bottom = m.bottom - EDGE_PAD, left = m.left + EDGE_PAD, right = m.right - EDGE_PAD;
+    const clampX = (x: number) => Math.min(Math.max(x, left), Math.max(left, right - w));
+    const clampY = (y: number) => Math.min(Math.max(y, top), Math.max(top, bottom - h));
 
-    let nextValign = valign;
-    let nextHalign = halign;
-
-    if (!valignFlippedRef.current) {
-      // Room on each side of the pin: the card goes where it fits whole, else where there is more room
-      // (the pan below then brings the rest into view).
-      const h = cardRect.height;
-      const pinY = valign === "above" ? cardRect.bottom + GAP : cardRect.top - GAP;
-      const roomAbove = pinY - GAP - (mapRect.top + EDGE_PAD);
-      const roomBelow = mapRect.bottom - EDGE_PAD - (pinY + GAP);
-      const best: VAlign = h <= roomAbove ? "above" : h <= roomBelow ? "below" : roomBelow > roomAbove ? "below" : "above";
-      if (best !== valign) {
-        nextValign = best;
-        valignFlippedRef.current = true;
-      }
+    let x: number, y: number, v: VAlign, hz: HAlign;
+    if (py - GAP - h >= top) {                       // above, whole
+      v = "above"; y = py - GAP - h; x = clampX(px - w / 2);
+    } else if (py + GAP + h <= bottom) {             // below, whole
+      v = "below"; y = py + GAP; x = clampX(px - w / 2);
+    } else {                                         // beside the pin
+      v = "above";
+      const roomRight = right - (px + GAP), roomLeft = px - GAP - left;
+      x = roomRight >= w || roomRight >= roomLeft ? px + GAP : px - GAP - w;
+      x = clampX(x);
+      y = clampY(py - h / 2);
     }
-
-    if (!halignFlippedRef.current) {
-      if (halign === "center" && cardRect.left < mapRect.left + EDGE_PAD) {
-        nextHalign = "left";
-        halignFlippedRef.current = true;
-      } else if (halign === "center" && cardRect.right > mapRect.right - EDGE_PAD) {
-        nextHalign = "right";
-        halignFlippedRef.current = true;
-      }
-    }
-
-    if (nextValign !== valign || nextHalign !== halign) {
-      setValign(nextValign);
-      setHalign(nextHalign);
-      return; // re-measure on the next layout pass with the new placement
-    }
-
+    hz = Math.abs(x - (px - w / 2)) < 1 ? "center" : x > px - w / 2 ? "left" : "right";
     settledRef.current = true;
+    const next = { top: Math.round(y - py), left: Math.round(x - px) };
+    if (!spot || spot.top !== next.top || spot.left !== next.left) setSpot(next);
+    if (v !== valign) setValign(v);
+    if (hz !== halign) setHalign(hz);
 
-    // Residual overflow even after the best-fit placement (e.g. the card is
-    // simply taller than the map) — pan the map so the whole card is visible.
-    const dx =
-      cardRect.left < mapRect.left + EDGE_PAD
-        ? cardRect.left - (mapRect.left + EDGE_PAD)
-        : cardRect.right > mapRect.right - EDGE_PAD
-          ? cardRect.right - (mapRect.right - EDGE_PAD)
-          : 0;
-    const dy =
-      cardRect.top < mapRect.top + EDGE_PAD
-        ? cardRect.top - (mapRect.top + EDGE_PAD)
-        : cardRect.bottom > mapRect.bottom - EDGE_PAD
-          ? cardRect.bottom - (mapRect.bottom - EDGE_PAD)
-          : 0;
+    // Only a card larger than the map can still overflow: pan the map to show as much as possible.
+    const dy = y < top ? y - top : y + h > bottom && h <= bottom - top ? y + h - bottom : 0;
+    const dx = x < left ? x - left : x + w > right && w <= right - left ? x + w - right : 0;
     if ((dx || dy) && map) panMapBy(map, dx, dy, reducedMotion);
-  }, [valign, halign, isMobile, mapContainerEl, map, reducedMotion, venue.n, measureTick]);
+  }, [isMobile, mapContainerEl, map, reducedMotion, venue.n, measureTick]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // The card can change size after it is placed: its photo arrives after the text (a live lookup), or the
   // image loads in. It used to keep the side it chose for the smaller card and grow up past the map's top
@@ -399,6 +377,7 @@ export default function VenueCard({ venue, map, mapContainerEl, onClose, isLoadi
       className={`${styles.card} ${isMobile ? styles.sheet : ""}`}
       data-valign={valign}
       data-halign={halign}
+      style={spot && !isMobile ? { top: spot.top, left: spot.left, bottom: "auto", right: "auto", transform: "none" } : undefined}
       role="dialog"
       aria-modal="true"
       aria-label={venue.n}
