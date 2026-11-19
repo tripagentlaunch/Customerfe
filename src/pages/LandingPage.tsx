@@ -42,7 +42,6 @@ const COPY = {
 const STATS = [
   { value: 300000, suffix: "+", label: "Hotels & villas" },
   { value: 190, suffix: "+", label: "Countries" },
-  { value: 110, suffix: "+", label: "Cities, planned day by day" },
   { value: 24, suffix: "/7", label: "Your advisor, on call" },
 ];
 

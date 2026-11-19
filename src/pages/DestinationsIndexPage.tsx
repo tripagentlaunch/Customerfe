@@ -46,13 +46,7 @@ export default function DestinationsIndexPage() {
             </div>
           )}
         </div>
-        {/* The "110+ cities, known first-hand" figure is off on desktop (2026-11-03, direct request). */}
-        {isMobile && (
-          <div className={styles.indexCount}>
-            <div className="n">{hero.count.n}</div>
-            <div className="k">{hero.count.k}</div>
-          </div>
-        )}
+        {/* The city count is removed everywhere (2026-11-20, direct request: TripAgent serves globally). */}
       </header>
       )}
 
@@ -74,7 +68,7 @@ export default function DestinationsIndexPage() {
       <section id="all-cities" className="band tight ta-dx" style={{ background: "var(--bone)", scrollMarginTop: 96 }}>
         <div className="wrap">
           <div className="dx-head">
-            <div className="eyebrow reveal">{isMobile ? "110+ destinations to begin with" : groupsIntro.eyebrow}</div>
+            <div className="eyebrow reveal">{isMobile ? "Destinations to begin with" : groupsIntro.eyebrow}</div>
             <div className="rule reveal d1" />
             <h2 className="reveal d1" style={{ marginBottom: "clamp(20px,2.6vw,34px)" }}>
               {groupsIntro.heading}

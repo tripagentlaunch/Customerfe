@@ -30,10 +30,6 @@ function Intro({ copy = HOME_INTRO }: { copy?: MapIntroCopy }) {
         </div>
         <dl className={`reveal d2 ${styles.mapStats}`}>
           <div>
-            <dt>110+</dt>
-            <dd>Destinations</dd>
-          </div>
-          <div>
             <dt>50+</dt>
             <dd>Expert advisors</dd>
           </div>

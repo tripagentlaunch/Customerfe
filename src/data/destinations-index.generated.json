@@ -1,7 +1,7 @@
 {
   "seo": {
     "title": "Destinations | TripAgent",
-    "description": "Where our members go, and how we look after them there. Thirty-six countries and 110+ cities we know first-hand: the flights we secure, the stays we choose, the visa that sets your dates."
+    "description": "Where our members go, and how we look after them there. Every city we know first-hand: the flights we secure, the stays we choose, the visa that sets your dates."
   },
   "hero": {
     "eyebrow": "Destinations \u00b7 by invitation",
@@ -16,8 +16,8 @@
   "map": {
     "eyebrow": "Where we go",
     "heading": "The world, within reach.",
-    "lede": "110+ cities we know first-hand, on one map. Tap a mark for the guide, then plan the journey.",
-    "foot": "110+ cities, known first-hand \u00b7 tap a mark for the place.",
+    "lede": "The cities we know first-hand, on one map. Tap a mark for the guide, then plan the journey.",
+    "foot": "Known first-hand \u00b7 tap a mark for the place.",
     "pins": [
       {
         "lon": 55.2708,
@@ -684,12 +684,12 @@
   },
   "intro": {
     "eyebrow": "A note on this list",
-    "note": "Thirty-six countries, 110+ cities: every one known first-hand. For each, the things that matter: the flights we'd secure, the stays worth the airfare, and the visa that sets your dates.",
+    "note": "Every place here known first-hand. For each, the things that matter: the flights we'd secure, the stays worth the airfare, and the visa that sets your dates.",
     "statementHtml": "Not a <span class=\"em\">catalogue</span>. A short list we stand behind.",
     "lede": "Anyone can list a thousand places. We'd rather know ours well, and then do the three things that turn a wish into a journey: a seat at the front of the plane, a room held in your name, the paperwork filed and tracked. Open any country to see how."
   },
   "groupsIntro": {
-    "eyebrow": "Thirty-six countries to begin with",
+    "eyebrow": "Countries to begin with",
     "heading": "Chosen, not listed."
   },
   "regions": [
