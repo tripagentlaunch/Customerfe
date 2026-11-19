@@ -52,7 +52,16 @@ export default function SearchPage() {
         </div>
         <div id="searchResults" className="sp-results">
           {!q
-            ? null
+            ? (
+                // No search yet (2026-11-20, phone audit: the page was blank): a few places to start.
+                <div className="sp-empty">
+                  <p>Search a city, a hotel, a restaurant or a month, using the bar above.</p>
+                  <p>
+                    Or start from <Link to="/destinations">all destinations</Link>, <Link to="/whats-on">what's on, month by month</Link> or{" "}
+                    <Link to="/when-to-go">where to go, when</Link>.
+                  </p>
+                </div>
+              )
             : !index
             ? null
             : results.length === 0

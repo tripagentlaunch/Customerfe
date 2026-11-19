@@ -1044,3 +1044,8 @@ html .card-body.card-body-add { position: relative; padding-bottom: 64px; }
   /* A place opened from a card fits the whole map between the back button and the trip bar, as on desktop. */
   .map-focused .ta-map-box { height: max(340px, calc(100svh - 210px)); }
 }
+
+/* Phones: the breadcrumb links are tall enough to tap (were 18px), without moving the text. */
+@media (max-width: 720px) {
+  .bc-trail a { display: inline-block; padding: 12px 0; margin: -12px 0; }
+}

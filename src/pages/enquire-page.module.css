@@ -1941,3 +1941,8 @@
 .dContact {
   padding: calc(clamp(6px, 1.2vh, 11px) + 2px) 16px;
 }
+
+/* Phones: "Add name" / "Add mobile" are tall enough to tap (were 22px). */
+@media (max-width: 720px) {
+  .dAdd { padding-top: 11px; padding-bottom: 11px; margin-top: -11px; margin-bottom: -11px; }
+}
