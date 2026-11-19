@@ -165,7 +165,7 @@ function SignInModalCard({ message, close, linked, prefillEmail }: { message: st
         }}
       >
         <div className={sheet.cardWrap} role="dialog" aria-modal="true" aria-label="Sign in">
-          <div className={claim.card}>
+          <div className={`${claim.card} ${claim.sheetCard}`}>
             <button type="button" className={sheet.close} aria-label="Close" onClick={close}>
               ×
             </button>

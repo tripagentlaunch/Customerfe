@@ -64,3 +64,20 @@
 .emailInput[aria-invalid="true"] {
   border-color: #b3441f;
 }
+
+/* A sheet from the bottom of the screen (2026-11-19, direct request: the same clean, square language as
+   the rest of the site). The card's own look is .sheetCard in claim-page.module.css. */
+.overlay { align-items: flex-end; padding: 0; z-index: 1000; } /* above the chat button (900) */
+.cardWrap { max-width: none; margin: 0; animation: sheetUp 0.32s cubic-bezier(0.2, 0.7, 0.2, 1); }
+@keyframes sheetUp { from { transform: translateY(24px); opacity: 0; } to { transform: none; opacity: 1; } }
+@media (prefers-reduced-motion: reduce) { .cardWrap { animation: none; } }
+.close { top: 14px; right: 12px; color: var(--ink, #1a1714); font-size: 28px; }
+.emailInput {
+  height: 50px;
+  padding: 0 2px;
+  border: 0;
+  border-bottom: 1px solid rgba(26, 23, 20, 0.22);
+  border-radius: 0 !important;
+  background: transparent;
+}
+.emailInput:focus { border-color: var(--ink, #1a1714); background: transparent; box-shadow: none; }

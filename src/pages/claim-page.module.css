@@ -739,3 +739,163 @@
 a.submitBtn {
   text-decoration: none;
 }
+
+/* ---- Phones: the clean layout (2026-11-19, direct request), the same as request access: a photo band
+   with the mark, then the heading and the code field on the site's paper; square ink buttons. ---- */
+@media (max-width: 720px) {
+  .claimRoot.desk {
+    height: auto;
+    min-height: 100svh;
+    overflow: visible;
+    display: flex;
+    flex-direction: column;
+    background: var(--paper, #faf8f4);
+    color: var(--ink, #1a1714);
+  }
+  .desk .bg {
+    position: relative;
+    inset: auto;
+    flex: none;
+    width: 100%;
+    height: min(34svh, 290px);
+    object-fit: cover;
+    z-index: 0;
+  }
+  .desk .bgOverlay {
+    position: absolute;
+    inset: 0 0 auto 0;
+    height: min(34svh, 290px);
+    background: linear-gradient(180deg, rgba(10, 7, 5, 0.55) 0%, rgba(10, 7, 5, 0.08) 45%, rgba(10, 7, 5, 0) 100%);
+  }
+  .desk .claimWrap {
+    position: relative;
+    z-index: 2;
+    display: block;
+    height: auto;
+    min-height: 0;
+    padding: 30px 22px 44px;
+  }
+  .desk .card {
+    width: auto;
+    max-width: 520px;
+    margin: 0 auto;
+    padding: 0;
+    background: none;
+    border: 0;
+    border-radius: 0 !important;
+    box-shadow: none;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    text-align: left;
+    color: var(--ink, #1a1714);
+  }
+  .desk .eyebrow { font-size: 10.5px; letter-spacing: 0.2em; color: var(--ink, #1a1714); text-align: left; }
+  .desk .heading { margin-top: 16px; font-size: 32px; line-height: 1.12; color: var(--ink, #1a1714); text-align: left; }
+  .desk .it { color: var(--signature, #6b2737); }
+  .desk .sub { margin: 14px 0 0; padding-bottom: 24px; border-bottom: 1px solid var(--line, #e6e1d8); font-size: 15px; line-height: 1.6; color: var(--stone, #6b635b); text-align: left; }
+  .desk .form { margin-top: 24px; gap: 14px; }
+  .desk .form label { font-size: 10.5px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--stone, #6b635b); }
+  .desk .codeInput {
+    height: 56px;
+    font-size: 20px; /* 16px+ so iOS doesn't zoom */
+    letter-spacing: 0.3em;
+    color: var(--ink, #1a1714);
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid rgba(26, 23, 20, 0.22);
+    border-radius: 0 !important;
+  }
+  .desk .codeInput:focus { border-bottom-color: var(--ink, #1a1714); outline: none; }
+  .desk .btnRow { display: flex; flex-direction: column; gap: 10px; margin-top: 10px; }
+  .desk .submitBtn,
+  .desk .codeBtn,
+  .desk .ghostBtn {
+    height: 52px;
+    width: 100%;
+    border-radius: 0 !important;
+    font-family: var(--fr);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+  }
+  .desk .submitBtn { background: var(--ink, #1a1714); color: #fff; border: 1px solid var(--ink, #1a1714); }
+  .desk .codeBtn,
+  .desk .ghostBtn { background: transparent; color: var(--ink, #1a1714); border: 1px solid var(--ink, #1a1714); }
+  .desk .footLine { margin-top: 22px; font-size: 13px; color: var(--stone, #6b635b); text-align: center; }
+  .desk .footLink { color: var(--ink, #1a1714); border-bottom-color: rgba(26, 23, 20, 0.4); }
+  .desk .claimFooter { position: static; margin: 8px 0 30px; color: #9a9288; font-size: 10px; letter-spacing: 0.18em; text-align: center; }
+}
+@media (max-width: 720px) {
+  .desk .sub { max-width: none; }
+  .desk.claimRoot .form .label { font-size: 10.5px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--stone, #6b635b); text-align: left; }
+  .desk .form { gap: 10px; }
+  .desk .ann { min-height: 0; }
+  .desk .btnRow { margin-top: 18px; }
+  .desk .claimFooter { text-shadow: none; }
+}
+@media (max-width: 720px) {
+  .desk .ann:empty { margin: 0; }
+  .desk .btnRow { margin-top: 14px; }
+}
+.phoneBrand { display: none; }
+@media (max-width: 720px) {
+  .phoneBrand {
+    position: absolute;
+    top: 20px;
+    left: 22px;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: var(--serif);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1;
+    color: #fff;
+  }
+}
+
+/* The sign-in sheet on phones (SignInModal.tsx): paper, square, left-aligned; ink button (2026-11-19). */
+.card.sheetCard {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 30px 22px calc(26px + env(safe-area-inset-bottom, 0px));
+  background: var(--paper, #faf8f4);
+  border: 0;
+  border-top: 1px solid var(--line, #e6e1d8);
+  border-radius: 0 !important;
+  box-shadow: 0 -18px 40px rgba(0, 0, 0, 0.18);
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  text-align: left;
+  color: var(--ink, #1a1714);
+}
+.sheetCard .eyebrow { font-size: 10.5px; letter-spacing: 0.2em; color: var(--ink, #1a1714); text-align: left; }
+.sheetCard .heading { margin-top: 12px; font-size: 30px; line-height: 1.12; color: var(--ink, #1a1714); text-align: left; }
+.sheetCard .it { color: var(--signature, #6b2737); }
+.sheetCard .sub { margin: 10px 0 0; max-width: none; font-size: 14.5px; line-height: 1.6; color: var(--stone, #6b635b); text-align: left; }
+.claimRoot .sheetCard .form .label,
+.sheetCard .form .label { font-size: 10.5px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--stone, #6b635b); text-align: left; }
+.sheetCard .form { margin-top: 22px; }
+.sheetCard .ann:empty { margin: 0; min-height: 0; }
+.sheetCard .ann { text-align: left; }
+.sheetCard .codeInput { border: 0; border-bottom: 1px solid rgba(26, 23, 20, 0.22); border-radius: 0 !important; background: transparent; font-size: 20px; }
+.sheetCard .submitBtn {
+  height: 52px;
+  width: 100%;
+  margin-top: 14px;
+  border-radius: 0 !important;
+  background: var(--ink, #1a1714);
+  border: 1px solid var(--ink, #1a1714);
+  color: #fff;
+  box-shadow: none;
+  font-family: var(--fr);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+.sheetCard .footLine { margin-top: 18px; font-size: 13px; color: var(--stone, #6b635b); text-align: center; }
+.sheetCard .footLink { color: var(--ink, #1a1714); border-bottom-color: rgba(26, 23, 20, 0.4); }

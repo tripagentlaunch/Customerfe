@@ -1089,3 +1089,106 @@
 .desk .form {
   flex: none;
 }
+
+/* ---- Phones: the clean layout (2026-11-19, direct request: "redesigned properly … cleaner, similar to
+   what other pages are following"). No video behind a frosted card: a photo band across the top with the
+   mark, then the heading and the form on the site's paper, hairline fields and square ink buttons, the
+   same language as the landing page. Desktop is unchanged. ---- */
+@media (max-width: 720px) {
+  .raRoot.desk {
+    height: auto;
+    min-height: 100svh;
+    overflow: visible;
+    display: flex;
+    flex-direction: column;
+    background: var(--paper, #faf8f4);
+    background-image: none;
+    color: var(--ink, #1a1714);
+  }
+  .desk .bg {
+    position: relative;
+    inset: auto;
+    flex: none;
+    width: 100%;
+    height: min(34svh, 290px);
+    object-fit: cover;
+    z-index: 0;
+  }
+  .desk .bgOverlay {
+    position: absolute;
+    inset: 0 0 auto 0;
+    height: min(34svh, 290px);
+    background: linear-gradient(180deg, rgba(10, 7, 5, 0.55) 0%, rgba(10, 7, 5, 0.08) 45%, rgba(10, 7, 5, 0) 100%);
+  }
+  .desk .brand {
+    position: absolute;
+    top: 20px;
+    left: 22px;
+    z-index: 3;
+    font-size: 24px;
+    color: #fff;
+  }
+  .desk .brand svg { color: #fff; }
+  .desk .raWrap {
+    position: relative;
+    z-index: 2;
+    display: block;
+    height: auto;
+    min-height: 0;
+    padding: 30px 22px 44px;
+  }
+  .desk .card {
+    width: auto;
+    max-width: 520px;
+    margin: 0 auto;
+    padding: 0;
+    background: none;
+    border: 0;
+    border-radius: 0 !important;
+    box-shadow: none;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    color: var(--ink, #1a1714);
+  }
+  .desk .raAside {
+    margin: 0 0 26px;
+    padding: 0 0 24px;
+    border-bottom: 1px solid var(--line, #e6e1d8);
+  }
+  .desk .eyebrow { font-size: 10.5px; letter-spacing: 0.2em; color: var(--ink, #1a1714); }
+  .desk .heading { margin-top: 16px; font-size: 32px; line-height: 1.12; color: var(--ink, #1a1714); }
+  .desk .heading br { display: none; }
+  .desk .it, .desk .cardIt { color: var(--signature, #6b2737); }
+  .desk .lede { margin-top: 14px; font-size: 15px; line-height: 1.6; color: var(--stone, #6b635b); }
+  .desk .cardHeading { margin: 0 0 18px; font-size: 24px; color: var(--ink, #1a1714); }
+  .desk .form { gap: 22px; }
+  .desk.raRoot .form .field label { font-size: 10.5px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--stone, #6b635b); }
+  .desk.raRoot .form .field label .optional { text-transform: none; letter-spacing: 0; }
+  .desk .field input {
+    height: 48px;
+    font-size: 16px; /* iOS zooms into smaller fields */
+    color: var(--ink, #1a1714);
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid rgba(26, 23, 20, 0.22);
+    border-radius: 0;
+  }
+  .desk .field input::placeholder { color: #9a9288; }
+  .desk .field input:focus { border-bottom-color: var(--ink, #1a1714); }
+  .desk .btnRow { display: flex; flex-direction: column; gap: 10px; margin-top: 8px; }
+  .desk .submitBtn,
+  .desk .codeBtn {
+    height: 52px;
+    width: 100%;
+    border-radius: 0 !important;
+    font-family: var(--fr);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+  }
+  .desk .submitBtn { background: var(--ink, #1a1714); color: #fff; border: 1px solid var(--ink, #1a1714); }
+  .desk .codeBtn { background: transparent; color: var(--ink, #1a1714); border: 1px solid var(--ink, #1a1714); }
+  .desk .footLine { margin-top: 22px; font-size: 13px; color: var(--stone, #6b635b); text-align: center; }
+  .desk .footLink { color: var(--ink, #1a1714); border-bottom-color: rgba(26, 23, 20, 0.4); }
+}

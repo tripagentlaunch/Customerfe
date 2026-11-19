@@ -362,6 +362,18 @@ export default function ClaimPage() {
         </video>
       )}
       <div className={styles.bgOverlay} aria-hidden="true" />
+      {/* The mark over the photo band (phones only, via CSS), as on Request access (2026-11-19). */}
+      <div className={styles.phoneBrand} aria-hidden="true">
+        <svg width="30" height="30" viewBox="0 0 420 420" fill="none">
+          <g stroke="currentColor" strokeWidth={26} strokeLinecap="round" strokeLinejoin="round">
+            <path d="M140,150 L280,150" />
+            <path d="M210,150 L210,212" />
+            <path d="M140,300 L210,212 L280,300" />
+            <path d="M174,256 L246,256" />
+          </g>
+        </svg>
+        <span>TripAgent</span>
+      </div>
 
       <div className={styles.claimWrap}>
         <div className={styles.card}>
