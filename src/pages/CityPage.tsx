@@ -298,6 +298,7 @@ function GuideCard({
   // lower half (or on "+N more") opens the rest, and again closes them. Links and buttons keep their own action.
   const [credsOpen, setCredsOpen] = useState(false);
   const credsToggle = useMemo(() => ({ expanded: credsOpen, open: () => setCredsOpen((o) => !o) }), [credsOpen]);
+  const phoneMore = useMemo(() => ({ expanded: false, open: () => setOpen(true) }), []);
   const [hasCredsMore, setHasCredsMore] = useState(false);
   useLayoutEffect(() => {
     const more = !!bodyRef.current?.querySelector("button.cg-cred-lo");
@@ -397,8 +398,10 @@ function GuideCard({
         >
           {/* Desktop (2026-11-17, direct request): one credential, the strongest; the rest behind
               "+N more" on the card itself. Phones keep every credential (unchanged). */}
-          <TagsExpanded.Provider value={isPhone}>
-            <CardExpand.Provider value={isPhone ? null : credsToggle}>{children}</CardExpand.Provider>
+          {/* Phones too now (2026-11-19, direct request): one credential on the card; "+N more" (or a tap
+              anywhere on the card) opens the sheet below, which has them all. */}
+          <TagsExpanded.Provider value={false}>
+            <CardExpand.Provider value={isPhone ? phoneMore : credsToggle}>{children}</CardExpand.Provider>
           </TagsExpanded.Provider>
           {/* More / Less removed (2026-11-11, direct request): cards always show the full entry.
           {!isPhone && (clipped || expanded) && (

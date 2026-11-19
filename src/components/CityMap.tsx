@@ -389,9 +389,11 @@ export default function CityMap({
   }, [focus, map, data]);
 
   function expandCluster(items: { v: CityMapVenue }[]) {
-    // Phone: the places sheet stays up while the map zooms underneath it;
-    // only its × (or picking a place) closes it.
-    if (!isMobile) closeGroup();
+    // "Zoom in to see all N" (2026-11-19, direct request: it did nothing on phones). The sheet used to stay
+    // up over the map while it zoomed underneath, and a badge whose places spread widely barely zoomed at
+    // all (the step below was desktop-only). Now the sheet closes on phones too, and the map always zooms
+    // in at least MIN_CLUSTER_ZOOM_STEP, centred on the badge.
+    closeGroup();
     if (!map) return;
     const bounds = new google.maps.LatLngBounds();
     items.forEach(({ v }) => bounds.extend({ lat: v.lat, lng: v.lon }));
@@ -404,11 +406,14 @@ export default function CityMap({
       return;
     }
     const before = map.getZoom() ?? 11;
-    map.fitBounds(bounds, 70);
-    if (isMobile) return;
+    const mid = {
+      lat: items.reduce((a, { v }) => a + v.lat, 0) / items.length,
+      lng: items.reduce((a, { v }) => a + v.lon, 0) / items.length,
+    };
+    map.fitBounds(bounds, isMobile ? 40 : 70);
     google.maps.event.addListenerOnce(map, "idle", () => {
       if ((map.getZoom() ?? 0) < before + MIN_CLUSTER_ZOOM_STEP) {
-        map.setCenter(bounds.getCenter());
+        map.setCenter(mid);
         map.setZoom(before + MIN_CLUSTER_ZOOM_STEP);
       }
     });

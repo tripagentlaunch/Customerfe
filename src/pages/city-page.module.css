@@ -1014,3 +1014,12 @@ html .card-body.card-body-add { position: relative; padding-bottom: 64px; }
 /* A place opened on the map from a card (2026-11-19, direct request): the whole map fits the screen, from
    under the header (84px) and the back button to above the trip bar, so nobody has to scroll to it. */
 @media(min-width:721px){.map-focused .ta-map-box{height:max(420px,calc(100vh - 84px - 58px - 72px))}}
+
+/* Phones (2026-11-19, direct request: "increase this font size a little in the mobile version"): the guide
+   card's text a step larger. */
+@media (max-width: 720px) {
+  html :global(.ta-guide .cg-list li .nm) { font-size: 19px; line-height: 1.2; }
+  html :global(.ta-guide .cg-list li .cg-cred) { font-size: 10.5px; }
+  html :global(.ta-guide .cg-list li .ds) { font-size: 14.5px; line-height: 1.55; }
+  html :global(.ta-guide .cg-list li .cg-loc-text) { font-size: 11px; }
+}
