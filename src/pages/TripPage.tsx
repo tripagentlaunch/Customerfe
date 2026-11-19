@@ -14,6 +14,10 @@ import {
   setTripDays,
   titleCase,
   useTrip,
+  legDates,
+  formatRange,
+  rangeDays,
+  type TripDates,
   type TripItem,
   type TripLeg,
 } from "../lib/tripState";
@@ -93,6 +97,8 @@ export default function TripPage() {
   }, []);
 
   const totalDays = legs.reduce((n, l) => n + (l.nights || 0), 0);
+  // Calendar-first planning (2026-11-20): with dates, each city shows the days it falls on.
+  const byLeg = legDates(trip ? { ...trip, legs } : null);
   const stops = legs.reduce((n, l) => n + (l.items?.length ?? 0), 0);
 
   return (
@@ -106,8 +112,8 @@ export default function TripPage() {
           </p>
           {legs.length === 0 && (
             <div className={styles.actions}>
-              <PrimaryInverseButton to="/destinations">Explore destinations</PrimaryInverseButton>
-              <SecondaryInverseButton to="/where-to-go">Help me choose</SecondaryInverseButton>
+              <PrimaryInverseButton to="/plan-by-dates">Start from your dates</PrimaryInverseButton>
+              <SecondaryInverseButton to="/destinations">Explore destinations</SecondaryInverseButton>
             </div>
           )}
         </div>
@@ -154,6 +160,18 @@ export default function TripPage() {
                 )}
               </span>
             </div>
+            <div className={styles.datesRow}>
+              <span className={styles.lengthK}>Dates</span>
+              {trip?.dates ? (
+                <>
+                  <span className={styles.datesVal}>{formatRange(trip.dates, true)}</span>
+                  <span className={styles.datesNights}>{rangeDays(trip.dates) - 1} nights</span>
+                  <Link to="/plan-by-dates" className={styles.link}>Change dates</Link>
+                </>
+              ) : (
+                <Link to="/plan-by-dates" className={styles.link}>Add your dates</Link>
+              )}
+            </div>
             <p className={styles.summaryHint}>The days split equally across your cities. Change a city's days and the total follows.</p>
           </div>
           <div
@@ -172,6 +190,7 @@ export default function TripPage() {
                 last={i === legs.length - 1}
                 dragging={dragId === leg.id}
                 register={(el) => (el ? els.current.set(leg.id, el) : els.current.delete(leg.id))}
+                dates={byLeg[leg.id]}
                 onDragStart={() => setDragId(leg.id)}
                 onDragEnd={() => endDrag(false)}
               />
@@ -273,7 +292,9 @@ function LegRow({
   register,
   onDragStart,
   onDragEnd,
+  dates,
 }: {
+  dates?: TripDates;
   leg: TripLeg;
   index: number;
   last: boolean;
@@ -317,6 +338,7 @@ function LegRow({
         <h2>
           <Link to={`/city-${leg.city}`}>{city}</Link>
         </h2>
+        {dates && <span className={styles.legDates}>{formatRange(dates)}</span>}
         <div className={styles.daysBox}>
           <NumField value={leg.nights || 1} min={1} max={365} label={`Days in ${city}`} onCommit={(n) => setNights(leg.id, n)} className={styles.daysNum} />
           <span>day{leg.nights === 1 ? "" : "s"}</span>

@@ -49,6 +49,8 @@ export function tripHandoffPayload(range: TripRange | null) {
     // Where they travel from, as the city pages already show it ("From Bengaluru"): Tara confirms it
     // on the card instead of asking (2026-11-19).
     origin: ORIGINS[readOrigin()] ?? null,
+    // The trip's dates when it was planned from the calendar (2026-11-20): Tara doesn't ask "when".
+    dates: t.dates ?? null,
     source: "trip-drawer",
   };
 }

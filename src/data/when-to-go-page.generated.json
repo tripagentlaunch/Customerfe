@@ -9,7 +9,7 @@
     "lede": "Start with the month you can travel. We'll tell you where it's at its best: set against your own holidays and long weekends.",
     "image": "/_vercel/image?url=%2Fimg%2Fh%2Fwhen-to-go.jpg&w=2560&q=80",
     "ctaLabel": "Plan around a date",
-    "ctaHref": "enquire.html",
+    "ctaHref": "/plan-by-dates",
     "jumpLabel": "Jump to a month",
     "jumpHref": "#months"
   },

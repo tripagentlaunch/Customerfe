@@ -289,3 +289,6 @@
   opacity: 0.35;
   cursor: default;
 }
+
+/* "Have exact dates?" link to the calendar (2026-11-20). */
+.plDates { display: inline-flex; align-items: center; gap: 8px; margin-top: 14px; padding: 6px 0; font-family: var(--fr); font-size: 13px; font-weight: 600; letter-spacing: 0.06em; color: var(--signature, #6b2737); text-decoration: none; border-bottom: 1px solid currentColor; }

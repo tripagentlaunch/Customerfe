@@ -76,3 +76,9 @@
 .primary::before,.primary::after{display:none!important;content:none!important}
 .secondary,.secondary:hover{background:transparent!important;color:#1A1714!important;border-color:#1A1714!important}
 .secondary::before,.secondary::after{display:none!important;content:none!important}
+
+/* Dates (2026-11-20, calendar-first planning). */
+.datesRow { display: flex; align-items: baseline; flex-wrap: wrap; gap: 6px 14px; margin-top: 14px; }
+.datesVal { font-family: var(--serif); font-size: 20px; color: var(--ink, #1a1714); }
+.datesNights { font-size: 13px; color: var(--stone, #6b635b); }
+.legDates { font-family: var(--fr); font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--signature, #6b2737); white-space: nowrap; }

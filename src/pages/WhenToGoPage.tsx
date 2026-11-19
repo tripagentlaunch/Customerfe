@@ -79,10 +79,10 @@ function ByDatePlaceholder() {
             Tell us when. <span className="it">We'll tell you where.</span>
           </h2>
           <p className="lede" style={{ marginTop: 12 }}>
-            The date-matched ranking is on its way. In the meantime, tell your advisor your dates and they'll find where's at its best.
+            Choose your dates and we'll rank every city for exactly those days, with what's on while you're there.
           </p>
-          <Link className="btn btn-gold" to="/enquire">
-            Plan around a date
+          <Link className="btn btn-gold" to="/plan-by-dates">
+            Plan around your dates
           </Link>
         </div>
       </div>

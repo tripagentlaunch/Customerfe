@@ -83,6 +83,7 @@ const RequestAccessPage = lazy(() => import("./RequestAccessPage"));
 const ReferPage = lazy(() => import("./ReferPage"));
 const HomePage = lazy(() => import("./HomePage"));
 const LandingPage = lazy(() => import("./LandingPage"));
+const PlanByDatesPage = lazy(() => import("./PlanByDatesPage"));
 
 // The 20 old meta-refresh redirect stubs (18 destination-<country>.html
 // that now live under city-<slug>, plus family-stays->family-travel and
@@ -284,6 +285,8 @@ const EXACT_SLUG_PAGES: Record<string, () => JSX.Element> = {
   // VITE_SHOW_COMING_SOON=false in a prod build; this slug makes it
   // reachable in local dev without that flag).
   landing: () => <LandingPage />,
+  // Calendar-first planning (2026-11-20): pick your dates, see where is best then, build the trip on them.
+  "plan-by-dates": () => <PlanByDatesPage />,
 };
 
 // react-router v6 can't match a partial segment like "city-:slug" — a

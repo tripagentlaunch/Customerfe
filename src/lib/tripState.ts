@@ -19,7 +19,10 @@ export type TripItem = {
   slot: TripSlot | null;
 };
 export type TripLeg = { id: string; city: string; nights: number; hotel: string | null; acts: string[]; label?: string; items?: TripItem[] };
-export type Trip = { name: string; legs: TripLeg[]; showCost: boolean };
+// dates (2026-11-20, calendar-first planning): the trip's first and last day, "YYYY-MM-DD". When set,
+// the trip's length follows them and each city's days fall on real dates, in order.
+export type TripDates = { start: string; end: string };
+export type Trip = { name: string; legs: TripLeg[]; showCost: boolean; dates?: TripDates | null };
 export type TripSummary = { name: string; legs: TripLeg[]; nights: number; count: number };
 
 const KEY = "ta_trip";
@@ -138,6 +141,8 @@ export function setNights(legId: string, nights: number) {
   leg.nights = Math.max(1, Math.min(365, Math.round(nights) || 1));
   // days that no longer exist send their items back to "not placed"
   for (const i of leg.items ?? []) if (i.day && i.day > leg.nights) { i.day = null; i.slot = null; }
+  // With dates, the trip's end follows its cities' days.
+  if (t.dates) t.dates = { start: t.dates.start, end: addDays(t.dates.start, t.legs.reduce((n, l) => n + (l.nights || 0), 0) - 1) };
   persist(t);
 }
 
@@ -172,11 +177,13 @@ export function setLegOrder(ids: string[]) {
 
 // The trip's length in days is the sum of its cities' days. Setting it splits the days equally
 // across the cities (any left over go to the first ones, one each); at least one day per city.
-export function setTripDays(total: number) {
+export function setTripDays(total: number, keepDates = false) {
   const t = freshTrip();
   const n = t.legs.length;
   if (!n) return;
   const days = Math.max(n, Math.min(365, Math.round(total) || n));
+  // A trip with dates keeps its start; the end follows the new length.
+  if (t.dates && !keepDates) t.dates = { start: t.dates.start, end: addDays(t.dates.start, days - 1) };
   const base = Math.floor(days / n);
   const extra = days % n;
   t.legs.forEach((l, i) => {
@@ -184,6 +191,46 @@ export function setTripDays(total: number) {
     for (const it of l.items ?? []) if (it.day && it.day > l.nights) { it.day = null; it.slot = null; }
   });
   persist(t);
+}
+
+// ---- dates (calendar-first planning, 2026-11-20) ----
+const DAY = 86400000;
+export const toIso = (d: Date) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+export const fromIso = (s: string) => { const [y, m, d] = s.split("-").map(Number); return new Date(y, m - 1, d); };
+export const addDays = (iso: string, n: number) => { const d = fromIso(iso); return toIso(new Date(d.getFullYear(), d.getMonth(), d.getDate() + n)); }; // calendar days, safe across clock changes
+/** Days in a date range, both ends counted: 12 to 19 March is 8 days. */
+export const rangeDays = (d: TripDates) => Math.round((fromIso(d.end).getTime() - fromIso(d.start).getTime()) / DAY) + 1;
+
+/** Sets the trip's dates; its days are split across its cities to match (setTripDays). */
+export function setTripDates(dates: TripDates | null) {
+  const t = freshTrip();
+  t.dates = dates;
+  persist(t);
+  if (dates && t.legs.length) setTripDays(rangeDays(dates), true);
+}
+
+/** Each city's first and last day, in trip order, when the trip has dates. */
+export function legDates(trip: Trip | null): Record<string, TripDates> {
+  const out: Record<string, TripDates> = {};
+  if (!trip?.dates) return out;
+  let day = trip.dates.start;
+  for (const l of trip.legs ?? []) {
+    if (!l) continue;
+    const n = Math.max(1, l.nights || 1);
+    out[l.id] = { start: day, end: addDays(day, n - 1) };
+    day = addDays(day, n);
+  }
+  return out;
+}
+
+/** "12–19 Mar", "28 Feb – 6 Mar", "30 Dec – 4 Jan 2027". */
+export function formatRange(d: TripDates, withYear = false): string {
+  const a = fromIso(d.start), b = fromIso(d.end);
+  const m = (x: Date) => x.toLocaleString("en-GB", { month: "short" });
+  const y = withYear || a.getFullYear() !== b.getFullYear() ? ` ${b.getFullYear()}` : "";
+  if (d.start === d.end) return `${a.getDate()} ${m(a)}${y}`;
+  if (a.getMonth() === b.getMonth() && a.getFullYear() === b.getFullYear()) return `${a.getDate()}–${b.getDate()} ${m(b)}${y}`;
+  return `${a.getDate()} ${m(a)} – ${b.getDate()} ${m(b)}${y}`;
 }
 
 export function renameTrip(name: string) {

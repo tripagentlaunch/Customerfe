@@ -106,6 +106,10 @@ export default function DestinationPlanner({ planner, searchLabelHtml = "" }: { 
           <div className="eyebrow">{planner.eyebrow}</div>
           <div className="rule" />
           <h2 style={{ fontSize: "clamp(30px,4.2vw,58px)" }} dangerouslySetInnerHTML={{ __html: planner.headingHtml ?? "" }} />
+          {/* Exact dates (2026-11-20, calendar-first planning): the calendar ranks every city for those days. */}
+          <Link to="/plan-by-dates" className={styles.plDates}>
+            Have exact dates? Plan around them <span aria-hidden="true">→</span>
+          </Link>
           {/* Subtext under the planner heading commented out (not deleted); restore to bring it back.
           <p className="lede" style={{ marginTop: 16 }}>
             {planner.lede}
