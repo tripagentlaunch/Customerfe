@@ -10,8 +10,8 @@
       "tier": "Grand",
       "a": "Embarcadero / Financial District",
       "d": "The surest hands in the city, high in a Financial-District tower with the bay at the window.",
-      "lat": 37.786,
-      "lon": -122.402812,
+      "lat": 37.792477,
+      "lon": -122.400818,
       "photos": []
     },
     {
@@ -60,8 +60,8 @@
       "tier": "Luxury",
       "a": "Embarcadero / Financial District",
       "d": "Nature-led calm on the waterfront: reclaimed wood, living green, the bay across the road.",
-      "lat": 37.792864,
-      "lon": -122.396912,
+      "lat": 37.793569,
+      "lon": -122.393087,
       "photos": []
     },
     {
@@ -100,8 +100,8 @@
       "tier": "Luxury",
       "a": "Pacific Heights",
       "d": "A gracious 1903 residence high in Pacific Heights: a calm, residential hideaway above the city.",
-      "lat": 37.79242,
-      "lon": -122.409769,
+      "lat": 37.792057,
+      "lon": -122.443211,
       "photos": []
     },
     {
@@ -120,8 +120,8 @@
       "tier": "Luxury",
       "a": "Sausalito / Golden Gate (Marin)",
       "d": "A restored army post at the foot of the Golden Gate Bridge: the bridge and skyline across the water.",
-      "lat": 37.868495,
-      "lon": -122.505756,
+      "lat": 37.837661,
+      "lon": -122.479377,
       "photos": []
     },
     {
@@ -130,8 +130,8 @@
       "tier": "Ultra",
       "a": "Healdsburg (Sonoma)",
       "d": "Five rooms above one of the world's great restaurants: a farm, an inn and a three-star table as one.",
-      "lat": 37.797066,
-      "lon": -122.457846,
+      "lat": 38.6112,
+      "lon": -122.87,
       "photos": []
     },
     {
@@ -140,8 +140,8 @@
       "tier": "Grand",
       "a": "Healdsburg (Sonoma)",
       "d": "Low-slung bungalows scattered across a Sonoma hillside of oaks and vines: space, air and quiet.",
-      "lat": 37.80055,
-      "lon": -122.404629,
+      "lat": 38.63,
+      "lon": -122.858,
       "photos": []
     },
     {
@@ -160,8 +160,8 @@
       "tier": "Luxury",
       "a": "Healdsburg (Sonoma)",
       "d": "A restored 1881 Victorian mansion in gardens: maximalist, romantic, the talk of Healdsburg.",
-      "lat": 37.798793,
-      "lon": -122.46458,
+      "lat": 38.627,
+      "lon": -122.876,
       "photos": []
     },
     {
@@ -190,8 +190,8 @@
       "tier": "Luxury",
       "a": "Yountville (Napa Valley)",
       "d": "A cool, low, sustainable retreat in the heart of Yountville: rooftop pool, and The French Laundry down the lane.",
-      "lat": 37.787936,
-      "lon": -122.40752,
+      "lat": 38.4005,
+      "lon": -122.36,
       "photos": []
     },
     {
@@ -200,8 +200,8 @@
       "tier": "Luxury",
       "a": "Yountville (Napa Valley)",
       "d": "A small Tuscan-style hotel in walkable Yountville: intimate, warm and beautifully run.",
-      "lat": 37.809749,
-      "lon": -122.410449,
+      "lat": 38.4018,
+      "lon": -122.3625,
       "photos": []
     },
     {
@@ -240,8 +240,8 @@
       "tier": "Destination",
       "a": "Cow Hollow / Marina",
       "d": "Dominique Crenn's poetic, seafood-and-vegetable cooking: the first US woman chef to hold three stars.",
-      "lat": 37.789728,
-      "lon": -122.407184,
+      "lat": 37.798331,
+      "lon": -122.43596,
       "photos": []
     },
     {
@@ -310,8 +310,8 @@
       "tier": "Destination",
       "a": "Nob Hill",
       "d": "An intimate, vegetable-forward tasting counter high on Nob Hill: Californian cooking at its most refined.",
-      "lat": 37.79023,
-      "lon": -122.409129,
+      "lat": 37.761625,
+      "lon": -122.410849,
       "photos": []
     },
     {
@@ -410,8 +410,8 @@
       "tier": "Destination",
       "a": "Geyserville (Sonoma)",
       "d": "Douglas Keane's immersive, room-to-room culinary journey: one of wine country's great experiences, reborn.",
-      "lat": 37.796232,
-      "lon": -122.417149,
+      "lat": 38.707,
+      "lon": -122.902,
       "photos": []
     },
     {
@@ -430,8 +430,8 @@
       "tier": "Destination",
       "a": "Yountville (Napa Valley)",
       "d": "Thomas Keller's temple in a Yountville stone cottage: for many, the finest restaurant in America.",
-      "lat": 37.77616,
-      "lon": -122.429746,
+      "lat": 38.4044,
+      "lon": -122.3648,
       "photos": []
     },
     {
@@ -440,8 +440,8 @@
       "tier": "Destination",
       "a": "Healdsburg (Sonoma)",
       "d": "Kyle and Katina Connaughton's farm-to-table three-star: Sonoma produce through a Japanese lens.",
-      "lat": 37.787936,
-      "lon": -122.40752,
+      "lat": 38.6112,
+      "lon": -122.87,
       "photos": []
     },
     {
@@ -450,8 +450,8 @@
       "tier": "Destination",
       "a": "Napa",
       "d": "An exquisite kaiseki counter with fish flown from Tokyo: Napa's most precise Japanese meal.",
-      "lat": 37.362628,
-      "lon": -122.073736,
+      "lat": 38.299,
+      "lon": -122.2865,
       "photos": []
     },
     {
@@ -460,8 +460,8 @@
       "tier": "Fine",
       "a": "Calistoga (Four Seasons Napa Valley)",
       "d": "A refined tasting menu that earned its star months after opening: Calistoga's first Michelin table.",
-      "lat": 37.787936,
-      "lon": -122.40752,
+      "lat": 38.5788,
+      "lon": -122.5797,
       "photos": []
     },
     {
@@ -470,8 +470,8 @@
       "tier": "Fine",
       "a": "St. Helena (Napa Valley)",
       "d": "Wood-fired steaks and one of the deepest Napa-Cabernet lists on earth: 3,000-plus bottles.",
-      "lat": 37.771418,
-      "lon": -122.467343,
+      "lat": 37.785931,
+      "lon": -122.404297,
       "photos": []
     },
     {
@@ -530,8 +530,8 @@
       "tier": "Smart",
       "a": "Yountville (Napa Valley)",
       "d": "A family Italian trattoria in the heart of Yountville: the warm, unfussy counterpoint to the valley's grand rooms.",
-      "lat": 37.769186,
-      "lon": -122.431736,
+      "lat": 38.4005,
+      "lon": -122.3599,
       "photos": []
     },
     {
@@ -540,8 +540,8 @@
       "tier": "Smart",
       "a": "Glen Ellen (Sonoma)",
       "d": "Wood-fired seasonal cooking in a Sonoma cottage: one of wine country's best-loved neighbourhood tables.",
-      "lat": 37.740324,
-      "lon": -122.441991,
+      "lat": 38.364,
+      "lon": -122.524,
       "photos": []
     },
     {
@@ -550,8 +550,8 @@
       "tier": "Smart",
       "a": "Sonoma",
       "d": "A wine bar and kitchen on the Sonoma plaza doing bright, seasonal Californian plates.",
-      "lat": 37.776314,
-      "lon": -122.423255,
+      "lat": 38.293,
+      "lon": -122.458,
       "photos": []
     },
     {
@@ -560,8 +560,8 @@
       "tier": "",
       "a": "Presidio / Golden Gate",
       "d": "The 1937 International Orange span is the image the whole family will already carry of San Francisco, and it delivers in person; walk or cycle a stretch of the pedestrian deck, or have your driver stage a slow loop between the Presidio's Battery East and the Marin side so grandparents can take it in from the car. Fog permitting, mornings and the golden hour before sunset are the cleanest for photographs.",
-      "lat": 37.807536,
-      "lon": -122.475644,
+      "lat": 37.819911,
+      "lon": -122.47856,
       "photos": []
     },
     {
@@ -570,8 +570,8 @@
       "tier": "",
       "a": "Marin Headlands",
       "d": "A short drive across the bridge and up into the Marin Headlands puts you nearly 500 feet above the water, looking straight down the length of the span toward the city with Alcatraz beyond, the single best vantage in the region. A private car makes the winding approach effortless; it is entirely outdoors and free, so pack layers against the wind.",
-      "lat": 37.794016,
-      "lon": -122.482621,
+      "lat": 37.827761,
+      "lon": -122.481669,
       "photos": []
     },
     {
@@ -600,8 +600,8 @@
       "tier": "",
       "a": "Golden Gate Park",
       "d": "A thousand acres wider than New York's Central Park, threaded with gardens, lakes, museums and meadows, it is the green heart of the city and a full multi-generational day in itself. Rent a surrey or hire a driver to move between the de Young, the Academy of Sciences and the tea garden without tiring the elders.",
-      "lat": 37.769368,
-      "lon": -122.482184,
+      "lat": 37.768022,
+      "lon": -122.46701,
       "photos": []
     },
     {
@@ -660,8 +660,8 @@
       "tier": "",
       "a": "Outer Richmond",
       "d": "A wild, cypress-edged coastal trail along the city's rocky western edge, ending at the haunting concrete shells of the 1890s Sutro Baths, once the largest indoor bathhouse in the world. Dramatic, uncrowded and cinematic; wear proper shoes and let the pace suit the group.",
-      "lat": 37.775325,
-      "lon": -122.497786,
+      "lat": 37.780444,
+      "lon": -122.51365,
       "photos": []
     },
     {
@@ -740,8 +740,8 @@
       "tier": "",
       "a": "North Beach",
       "d": "San Francisco's Little Italy and the old Beat quarter, where City Lights Bookstore, espresso in Caffe Trieste and a proper Italian dinner sit within a few blocks of each other under Coit Tower. An easy evening for grandparents; the sidewalk cafes make lingering the point.",
-      "lat": 37.809749,
-      "lon": -122.410449,
+      "lat": 37.799461,
+      "lon": -122.408907,
       "photos": []
     },
     {
@@ -780,8 +780,8 @@
       "tier": "",
       "a": "Hayes Valley",
       "d": "A compact, polished district of independent designers, wine bars and next-thing restaurants near the opera and symphony, where the city's fashion and food scene shows its newest hand. The most refined neighbourhood for an unhurried afternoon of shopping and a good dinner.",
-      "lat": 37.776685,
-      "lon": -122.422936,
+      "lat": 37.776062,
+      "lon": -122.429593,
       "photos": []
     },
     {
@@ -800,8 +800,8 @@
       "tier": "",
       "a": "Twin Peaks",
       "d": "Two hills rising over 900 feet in the geographic centre of the city, giving a near-360-degree panorama from the Golden Gate to downtown to the bay, best at dusk when the grid lights up. A five-minute drive to the top means even the least mobile of the group can take in the whole view.",
-      "lat": 37.751825,
-      "lon": -122.453554,
+      "lat": 37.75366,
+      "lon": -122.450685,
       "photos": []
     },
     {
@@ -860,8 +860,8 @@
       "tier": "",
       "a": "Golden Gate Heights",
       "d": "A 163-step mosaic staircase of sea-to-stars tilework climbing a quiet residential hill, capped by a sweeping ocean view for those who make the ascent. A charming, little-known detour that rewards the curious and photographs beautifully.",
-      "lat": 37.7596,
-      "lon": -122.473625,
+      "lat": 37.756244,
+      "lon": -122.47323,
       "photos": []
     },
     {
@@ -880,8 +880,8 @@
       "tier": "",
       "a": "Nob Hill",
       "d": "The old railroad-baron summit of the city, home to the Fairmont, the Mark Hopkins and Grace Cathedral, all discreet grandeur and cable-car clang. The most fitting neighbourhood to base a luxury stay, and a lovely early-evening walk between landmarks.",
-      "lat": 37.788706,
-      "lon": -122.421408,
+      "lat": 37.791007,
+      "lon": -122.417423,
       "photos": []
     },
     {
@@ -900,8 +900,8 @@
       "tier": "",
       "a": "Marin County (day trip)",
       "d": "A Mediterranean-feeling harbour town across the bridge, all yacht-lined marina, hillside villas, galleries and waterfront seafood, with the city skyline glinting across the water. The classic move is to arrive by car or after Muir Woods and return to San Francisco by ferry at golden hour.",
-      "lat": 37.868495,
-      "lon": -122.505756,
+      "lat": 37.859094,
+      "lon": -122.485251,
       "photos": []
     },
     {
@@ -910,8 +910,8 @@
       "tier": "",
       "a": "Napa (day trip)",
       "d": "About an hour and a half northeast, the most famous wine region in America, with 400-plus wineries, Michelin-starred tables and estates that arrange private, seated tastings for discerning guests. A chauffeured day is essential; several kitchens, including The French Laundry and La Toque, offer full vegetarian tasting menus for Indian palates.",
-      "lat": 38.304424,
-      "lon": -122.328755,
+      "lat": 38.437,
+      "lon": -122.401,
       "photos": []
     },
     {
@@ -920,8 +920,8 @@
       "tier": "",
       "a": "Sonoma (day trip)",
       "d": "Napa's quieter, more rustic neighbour, with a historic plaza town, redwood-shaded lanes and family-run estates that feel more intimate and unhurried. The better choice for travellers who want world-class wine without the polish and pace of Napa; three-star SingleThread anchors the fine dining.",
-      "lat": 38.230995,
-      "lon": -122.613177,
+      "lat": 38.293,
+      "lon": -122.458,
       "photos": []
     },
     {
@@ -940,8 +940,8 @@
       "tier": "",
       "a": "Central Coast (day trip)",
       "d": "About two hours south, the world-class Monterey Bay Aquarium, the 17-Mile Drive past Pebble Beach and the storybook village of Carmel make a memorable long day or overnight. A chauffeured car makes the coast road effortless; the aquarium is a highlight for children and adults alike.",
-      "lat": 37.787606,
-      "lon": -122.441819,
+      "lat": 36.6002,
+      "lon": -121.8947,
       "photos": []
     },
     {
@@ -960,8 +960,8 @@
       "tier": "",
       "a": "Russian Hill",
       "d": "The famous one-way switchback of eight sharp turns banked with hydrangeas, dropping down Russian Hill with the bay framed below. A quick photo stop; walk the brick sidewalk down rather than queue to drive it, and pair it with the neighbourhood's steep view streets.",
-      "lat": 37.799428,
-      "lon": -122.441633,
+      "lat": 37.802018,
+      "lon": -122.419558,
       "photos": []
     },
     {

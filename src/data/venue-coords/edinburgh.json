@@ -80,8 +80,8 @@
       "tier": "Luxury",
       "a": "Calton Hill / Broughton: 2 Greenside Place",
       "d": "A design hotel behind a preserved 1846 church fa\u00e7ade, crowned by a two-acre rooftop garden with views to Calton Hill and the Firth.",
-      "lat": 55.954749,
-      "lon": -3.181876,
+      "lat": 55.956684,
+      "lon": -3.18559,
       "photos": []
     },
     {
@@ -90,8 +90,8 @@
       "tier": "Luxury",
       "a": "St James Quarter: Calton Hill edge",
       "d": "Scotland's first W: a bold, high-design hotel in the St James Quarter with a rooftop bar and 'ribbon' architecture, for members who want the new and the loud.",
-      "lat": 55.951902,
-      "lon": -3.19042,
+      "lat": 55.954907,
+      "lon": -3.18905,
       "photos": []
     },
     {
@@ -210,8 +210,8 @@
       "tier": "Fine",
       "a": "New Town: The Kimpton Charlotte Square",
       "d": "Stuart Ralston's original Edinburgh restaurant: a surprise seasonal tasting menu now set within Kimpton Charlotte Square, a MICHELIN Guide room.",
-      "lat": 55.941801,
-      "lon": -3.178867,
+      "lat": 55.951717,
+      "lon": -3.205952,
       "photos": []
     },
     {
@@ -480,8 +480,8 @@
       "tier": "",
       "a": "Leith",
       "d": "Edinburgh's revitalised historic port: cobbled quaysides, converted warehouses and the city's densest cluster of fine dining, including its Michelin-starred kitchens. Arrive by the modern tram and make an evening of it on the waterfront.",
-      "lat": 55.972048,
-      "lon": -3.170509,
+      "lat": 55.977478,
+      "lon": -3.169074,
       "photos": []
     },
     {
@@ -530,8 +530,8 @@
       "tier": "",
       "a": "Southside",
       "d": "A broad, tree-lined common south of the Old Town, framed by the cherry-blossom avenue that draws the whole city each spring. An easy, green stroll where local Edinburgh unwinds, well away from the crowds.",
-      "lat": 55.942892,
-      "lon": -3.182898,
+      "lat": 55.939243,
+      "lon": -3.201936,
       "photos": []
     },
     {
@@ -570,8 +570,8 @@
       "tier": "",
       "a": "Citywide",
       "d": "Every August the whole city becomes a stage: the International Festival's world-class opera, theatre and orchestras alongside the Fringe, the largest arts festival on earth. Book premium tickets and a hotel far in advance; a concierge is close to essential in peak season.",
-      "lat": 55.952543,
-      "lon": -3.207889,
+      "lat": 55.948783,
+      "lon": -3.195169,
       "photos": []
     },
     {
@@ -590,8 +590,8 @@
       "tier": "",
       "a": "New Town",
       "d": "The winter city glows: a Christmas market and rink in Princes Street Gardens, and the world-famous three-day Hogmanay street party and fireworks over the Castle. Hospitality packages and a guide turn a heaving crowd into a warm, easy celebration.",
-      "lat": 55.95027,
-      "lon": -3.185902,
+      "lat": 55.95172,
+      "lon": -3.19796,
       "photos": []
     },
     {
@@ -610,8 +610,8 @@
       "tier": "",
       "a": "Stirling (day trip)",
       "d": "Under an hour away, one of Scotland's grandest and most important castles, magnificently sited on its crag with the restored golden-stone Renaissance palace of the Stuart kings. Pair it with the nearby Wallace Monument and the Kelpies for a full, cinematic day out.",
-      "lat": 55.948688,
-      "lon": -3.200418,
+      "lat": 56.1238,
+      "lon": -3.9469,
       "photos": []
     },
     {
@@ -620,8 +620,8 @@
       "tier": "",
       "a": "South Queensferry (day trip)",
       "d": "Just west of the city, the mighty red cantilever Forth Bridge: a UNESCO World Heritage Site, spans the firth beside its two road bridges. Lunch in pretty South Queensferry and take a cruise out to Inchcolm Abbey for the best perspective of all three.",
-      "lat": 55.992024,
-      "lon": -3.39618,
+      "lat": 56.001141,
+      "lon": -3.388793,
       "photos": []
     },
     {
@@ -630,8 +630,8 @@
       "tier": "",
       "a": "Glasgow (day trip)",
       "d": "Under an hour by train or car, Scotland's confident second city: the free Kelvingrove and Burrell Collection, Charles Rennie Mackintosh's architecture, and the country's best shopping and dining. A vivid, characterful contrast to genteel Edinburgh.",
-      "lat": 55.940939,
-      "lon": -3.320133,
+      "lat": 55.8611,
+      "lon": -4.2502,
       "photos": []
     },
     {
@@ -640,8 +640,8 @@
       "tier": "",
       "a": "Scottish Highlands (day trip)",
       "d": "For those with a full day and a chauffeur, the road north opens onto Rannoch Moor and the brooding grandeur of Glencoe: arguably Scotland's most dramatic glen, with the Glenfinnan viaduct and Loch Ness within reach on longer runs. Best done privately, at your own pace.",
-      "lat": 55.949553,
-      "lon": -3.207639,
+      "lat": 56.682,
+      "lon": -5.102,
       "photos": []
     },
     {
@@ -650,8 +650,8 @@
       "tier": "",
       "a": "Falkirk (day trip)",
       "d": "Half an hour west, two feats of engineering-as-art: Andy Scott's 30-metre steel horse-heads, the largest equine sculptures in the world, and the only rotating boat lift on earth. A short, memorable stop that delights children and design lovers alike.",
-      "lat": 55.968128,
-      "lon": -3.346735,
+      "lat": 56.019,
+      "lon": -3.755,
       "photos": []
     },
     {

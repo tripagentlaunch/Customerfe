@@ -28,13 +28,24 @@ const splitMeta = (meta: string | null | undefined) => {
   return { city: city ?? "", when: rest.join(" · ") };
 };
 
-// Card photo (2026-11-10, direct request): each event links to its city page, so the city's photo is
-// used. Tries /img/cities/<slug>.jpg, then <slug>-v2.jpg, then a generic fallback.
-function EventImg({ href }: { href: string }) {
+// Card photo: the event's own photo (2026-11-19, direct request: every month and city shows the event, not
+// the same city photo again), the one its city page shows (tools/link-whatson-photos.mjs). If it fails to
+// load, the city's photo (/img/cities/<slug>.jpg, then -v2), then a generic one.
+function EventImg({ href, photo, credit }: { href: string; photo?: string | null; credit?: string | null }) {
   const slug = /^\/?city-(.+?)(?:\.html)?$/.exec(href)?.[1];
-  const sources = [...(slug ? [`/img/cities/${slug}.jpg`, `/img/cities/${slug}-v2.jpg`] : []), "/img/h/when-to-go.jpg"];
+  const sources = [...(photo ? [photo] : []), ...(slug ? [`/img/cities/${slug}.jpg`, `/img/cities/${slug}-v2.jpg`] : []), "/img/h/when-to-go.jpg"];
   const [i, setI] = useState(0);
-  return <img className={styles.woEvImg} src={sources[i]} alt="" loading="lazy" onError={() => setI((n) => Math.min(n + 1, sources.length - 1))} />;
+  return (
+    <img
+      className={styles.woEvImg}
+      src={sources[i]}
+      alt=""
+      title={i === 0 && photo && credit ? credit : undefined}
+      loading="lazy"
+      referrerPolicy="no-referrer"
+      onError={() => setI((n) => Math.min(n + 1, sources.length - 1))}
+    />
+  );
 }
 
 export default function WhatsOnPage() {
@@ -189,7 +200,7 @@ export default function WhatsOnPage() {
                   return (
                     <Link className={styles.woEv} to={toRoute(ev.href)} key={j} title={ev.body ?? undefined}>
                       <div className={styles.woPic}>
-                        <EventImg href={ev.href} />
+                        <EventImg href={ev.href} photo={ev.photo} credit={ev.photoCredit} />
                       </div>
                       <div className={styles.woCap}>{[region, m.name].filter(Boolean).join(" · ")}</div>
                       <h3 className={styles.woName}>{ev.name}</h3>

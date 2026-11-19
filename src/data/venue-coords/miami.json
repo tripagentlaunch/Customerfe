@@ -180,8 +180,8 @@
       "tier": "Fine",
       "a": "Coconut Grove",
       "d": "Masa-driven modern Mexican in the Grove: a Green Star kitchen built on heirloom corn and local produce.",
-      "lat": 25.774779,
-      "lon": -80.193757,
+      "lat": 25.7275,
+      "lon": -80.243,
       "photos": []
     },
     {
@@ -200,8 +200,8 @@
       "tier": "Fine",
       "a": "North Miami / MiMo",
       "d": "A twelve-seat counter from Evan Burgess and Osmel Gonzalez: hyper-local, sustainable, deeply personal.",
-      "lat": 25.821114,
-      "lon": -80.256911,
+      "lat": 25.865892,
+      "lon": -80.193662,
       "photos": []
     },
     {
@@ -280,8 +280,8 @@
       "tier": "Smart",
       "a": "MiMo / Upper East Side",
       "d": "Vietnamese-Cajun cooking with real swagger: a beloved, boldly flavoured MiMo institution.",
-      "lat": 25.573804,
-      "lon": -80.368736,
+      "lat": 25.843,
+      "lon": -80.184,
       "photos": []
     },
     {
@@ -320,8 +320,8 @@
       "tier": "",
       "a": "Wynwood",
       "d": "The world's largest outdoor street-art museum: a curated open-air courtyard of monumental murals by 120-plus artists from 25-plus countries, rotated regularly. Entry is now timed and ticketed through the welcome centre, so pre-book; the surrounding streets are free to roam.",
-      "lat": 25.801138,
-      "lon": -80.195319,
+      "lat": 25.801018,
+      "lon": -80.199384,
       "photos": []
     },
     {
@@ -480,8 +480,8 @@
       "tier": "",
       "a": "Coral Gables",
       "d": "A leafy, Mediterranean-styled main street of boutiques, galleries and fine restaurants, with fountains and canopy trees. A civilised, low-key afternoon of strolling and shopping away from the beach crowds.",
-      "lat": 25.749399,
-      "lon": -80.260852,
+      "lat": 25.749444,
+      "lon": -80.257405,
       "photos": []
     },
     {
@@ -500,8 +500,8 @@
       "tier": "",
       "a": "Key Biscayne",
       "d": "A two-mile crescent of soft sand with shallow, gentle water and cabanas: one of the calmest, most family-friendly beaches near the city. Quieter than South Beach; good for grandparents and small children who want the sea without the scene.",
-      "lat": 25.691609,
-      "lon": -80.156584,
+      "lat": 25.709444,
+      "lon": -80.156164,
       "photos": []
     },
     {
@@ -510,8 +510,8 @@
       "tier": "",
       "a": "South Beach",
       "d": "The iconic wide white-sand beach backed by pastel lifeguard stands and the Art Deco skyline. Rent a private cabana for shade and service; the promenade behind is perfect for an evening stroll with the family.",
-      "lat": 25.774956,
-      "lon": -80.131129,
+      "lat": 25.780892,
+      "lon": -80.129948,
       "photos": []
     },
     {
@@ -530,8 +530,8 @@
       "tier": "",
       "a": "Sunny Isles",
       "d": "A broad, uncrowded beach lined with gleaming towers: favoured by international families for space and its easy villa-and-condo stays. Wide sand, warm water and a relaxed pace for a multi-day base.",
-      "lat": 25.935059,
-      "lon": -80.124158,
+      "lat": 25.942871,
+      "lon": -80.12338,
       "photos": []
     },
     {
@@ -560,8 +560,8 @@
       "tier": "",
       "a": "Biscayne Bay",
       "d": "A 90-minute sightseeing cruise from Bayside past the waterfront mansions of Star, Palm and Hibiscus Islands and the downtown skyline. Charter a private yacht instead for a bespoke sunset run: the classic way to see Miami's wealth from the water.",
-      "lat": 25.56594,
-      "lon": -80.216439,
+      "lat": 25.778,
+      "lon": -80.15,
       "photos": []
     },
     {
@@ -580,8 +580,8 @@
       "tier": "",
       "a": "Coconut Grove",
       "d": "Miami's oldest neighbourhood: leafy, bohemian and bayfront, with sidewalk cafes, sailing marinas and the CocoWalk arcade. A gentle, tree-shaded afternoon; pair it with Vizcaya just up the road.",
-      "lat": 25.712601,
-      "lon": -80.256995,
+      "lat": 25.728,
+      "lon": -80.243,
       "photos": []
     },
     {
@@ -630,8 +630,8 @@
       "tier": "",
       "a": "Florida Keys (day-trip)",
       "d": "A scenic drive down the Overseas Highway across turquoise water to Florida's southernmost city: Duval Street, Hemingway's house, Mallory Square sunsets and reef snorkelling. Long but rewarding; consider a chauffeur or a stay overnight to do it at leisure.",
-      "lat": 25.531342,
-      "lon": -80.171635,
+      "lat": 24.555,
+      "lon": -81.782,
       "photos": []
     },
     {
@@ -640,8 +640,8 @@
       "tier": "",
       "a": "Florida Keys (day-trip)",
       "d": "The gentler, closer Keys escape: sport-fishing capital, sandbar picnics, tarpon feeding and waterfront seafood, an hour and a half south. A relaxed alternative to the full Key West haul, easy as a private half-day charter.",
-      "lat": 25.531342,
-      "lon": -80.171635,
+      "lat": 24.924,
+      "lon": -80.628,
       "photos": []
     },
     {

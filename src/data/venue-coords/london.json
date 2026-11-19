@@ -50,8 +50,8 @@
       "tier": "Ultra",
       "a": "Whitehall / Westminster",
       "d": "The Old War Office reborn: Whitehall grandeur turned into a hotel of real gravity.",
-      "lat": 51.502932,
-      "lon": 0.003184,
+      "lat": 51.5047,
+      "lon": -0.126,
       "photos": []
     },
     {
@@ -130,8 +130,8 @@
       "tier": "Ultra",
       "a": "Belgravia / Hyde Park Corner",
       "d": "London's first all-suite hotel: the Maybourne group's most private new address.",
-      "lat": 51.515618,
-      "lon": -0.091998,
+      "lat": 51.502218,
+      "lon": -0.155507,
       "photos": []
     },
     {
@@ -230,8 +230,8 @@
       "tier": "Grand",
       "a": "Mayfair / Hanover Square",
       "d": "The group's newer Mayfair house: contemporary calm off Hanover Square.",
-      "lat": 51.502217,
-      "lon": -0.159988,
+      "lat": 51.5135,
+      "lon": -0.143,
       "photos": []
     },
     {
@@ -330,8 +330,8 @@
       "tier": "Premium",
       "a": "Mayfair",
       "d": "A row of Georgian townhouses in the heart of Mayfair: polished and well-placed.",
-      "lat": 51.518635,
-      "lon": -0.141909,
+      "lat": 51.506516,
+      "lon": -0.145795,
       "photos": []
     },
     {
@@ -510,8 +510,8 @@
       "tier": "Destination",
       "a": "Bermondsey / London Bridge",
       "d": "A wine-obsessed two-star from an ex-Fat Duck team: precise, and quietly brilliant.",
-      "lat": 51.222801,
-      "lon": -0.329347,
+      "lat": 51.5012,
+      "lon": -0.086,
       "photos": []
     },
     {
@@ -540,8 +540,8 @@
       "tier": "Destination",
       "a": "Bethnal Green",
       "d": "A Brazilian-Italian tasting menu with real heart: one of the East End's finest tables.",
-      "lat": 51.572004,
-      "lon": 0.141026,
+      "lat": 51.5296,
+      "lon": -0.056,
       "photos": []
     },
     {
@@ -570,8 +570,8 @@
       "tier": "Destination",
       "a": "The City / Tower Hill",
       "d": "Anne-Sophie Pic's delicate, aromatic French, inside Ten Trinity Square.",
-      "lat": 51.505386,
-      "lon": -0.113077,
+      "lat": 51.51,
+      "lon": -0.078,
       "photos": []
     },
     {
@@ -740,8 +740,8 @@
       "tier": "Smart",
       "a": "Soho / Piccadilly",
       "d": "The most wanted pub in London: a perfect pint, an open fire and Guinness done properly.",
-      "lat": 51.486364,
-      "lon": -0.25209,
+      "lat": 51.511,
+      "lon": -0.135,
       "photos": []
     },
     {
@@ -750,8 +750,8 @@
       "tier": "Fine",
       "a": "Clapham",
       "d": "Adam Byatt's neighbourhood classic: the best table south of the river.",
-      "lat": 51.509908,
-      "lon": -0.076,
+      "lat": 51.4628,
+      "lon": -0.1395,
       "photos": []
     },
     {
@@ -760,8 +760,8 @@
       "tier": "Fine",
       "a": "Farringdon / Clerkenwell",
       "d": "Full-flavoured French bistro cooking above a pub: critically adored, and good value for it.",
-      "lat": 51.486576,
-      "lon": -0.179535,
+      "lat": 51.5203,
+      "lon": -0.1043,
       "photos": []
     },
     {
@@ -790,8 +790,8 @@
       "tier": "Fine",
       "a": "Mayfair",
       "d": "Chet Sharma's inventive modern Indian: a Mayfair kitchen full of quiet ideas.",
-      "lat": 51.549722,
-      "lon": -0.19164,
+      "lat": 51.5128,
+      "lon": -0.1545,
       "photos": []
     },
     {
@@ -860,8 +860,8 @@
       "tier": "Smart",
       "a": "Farringdon / Smithfield",
       "d": "The nose-to-tail temple that reshaped British cooking: plain, honest and iconic.",
-      "lat": 51.531726,
-      "lon": -0.17419,
+      "lat": 51.5205,
+      "lon": -0.1015,
       "photos": []
     },
     {
@@ -940,8 +940,8 @@
       "tier": "Smart",
       "a": "Victoria / Pimlico",
       "d": "A small, wine-literate room doing precise modern-British plates.",
-      "lat": 51.527759,
-      "lon": -0.165441,
+      "lat": 51.4943,
+      "lon": -0.1414,
       "photos": []
     },
     {
@@ -1140,8 +1140,8 @@
       "tier": "",
       "a": "Hampstead",
       "d": "Wild, hilly heathland with the famous view from Parliament Hill, swimming ponds, and Kenwood House: a Robert Adam villa with free-entry old masters, at its northern edge. A proper lungful of countryside twenty minutes from the centre.",
-      "lat": 51.564149,
-      "lon": -0.167172,
+      "lat": 51.560829,
+      "lon": -0.162942,
       "photos": []
     },
     {
@@ -1170,8 +1170,8 @@
       "tier": "",
       "a": "West End",
       "d": "One of the two great English-language theatre capitals: long-running musicals like The Lion King and Les Mis\u00e9rables alongside new plays and star-led runs. Book premium seats ahead; a matinee suits a family day.",
-      "lat": 51.558858,
-      "lon": -0.177343,
+      "lat": 51.5117,
+      "lon": -0.1318,
       "photos": []
     },
     {
@@ -1230,8 +1230,8 @@
       "tier": "",
       "a": "South Bank",
       "d": "The riverside promenade from Westminster past the London Eye, Southbank Centre, National Theatre and Tate Modern to Tower Bridge: street food, book stalls and skyline the whole way. The single best free walk in the city.",
-      "lat": 51.481897,
-      "lon": -0.305894,
+      "lat": 51.506,
+      "lon": -0.116,
       "photos": []
     },
     {
@@ -1290,8 +1290,8 @@
       "tier": "",
       "a": "Piccadilly",
       "d": "The quintessential London ritual, served in the gilded Palm Court to a live pianist since 1906. Dress code applies (jacket and tie for gentlemen); a memorable occasion for a special family lunch.",
-      "lat": 51.520238,
-      "lon": -0.125516,
+      "lat": 51.506942,
+      "lon": -0.141495,
       "photos": []
     },
     {
@@ -1350,8 +1350,8 @@
       "tier": "",
       "a": "Shoreditch",
       "d": "East London at its most creative: street art, vintage stores, the Old Truman Brewery and one of the city's best concentrations of South Asian restaurants along Brick Lane. Sunday markets (UpMarket, Boiler House) are the day to come.",
-      "lat": 51.525032,
-      "lon": -0.071868,
+      "lat": 51.522,
+      "lon": -0.071692,
       "photos": []
     },
     {
@@ -1390,8 +1390,8 @@
       "tier": "",
       "a": "Windsor, Berkshire (day trip)",
       "d": "The oldest and largest occupied castle in the world and a favourite royal residence: the State Apartments, St George's Chapel and a Changing of the Guard of its own. Under an hour by train from Paddington or Waterloo.",
-      "lat": 51.506293,
-      "lon": -0.198398,
+      "lat": 51.4839,
+      "lon": -0.6044,
       "photos": []
     },
     {
@@ -1400,8 +1400,8 @@
       "tier": "",
       "a": "Oxfordshire (day trip)",
       "d": "The dreaming-spires university city: the Bodleian Library, Christ Church's great hall and quad, and a punt on the Cherwell. An hour by fast train from Paddington, walkable from the station.",
-      "lat": 51.515984,
-      "lon": -0.135174,
+      "lat": 51.752,
+      "lon": -1.2577,
       "photos": []
     },
     {
@@ -1410,8 +1410,8 @@
       "tier": "",
       "a": "Somerset (day trip)",
       "d": "A honey-stone Georgian city built around Roman baths and Jane Austen's world: the Roman Baths, the Royal Crescent and Bath Abbey, all on foot. About 90 minutes by train from Paddington.",
-      "lat": 51.481228,
-      "lon": -0.433644,
+      "lat": 51.3811,
+      "lon": -2.359,
       "photos": []
     },
     {
@@ -1420,8 +1420,8 @@
       "tier": "",
       "a": "Cambridgeshire (day trip)",
       "d": "The riverside university city: King's College Chapel, the colleges' hidden courts, and punting along the Backs past the great libraries. Under an hour by train from King's Cross.",
-      "lat": 51.513633,
-      "lon": -0.12653,
+      "lat": 52.2053,
+      "lon": 0.1218,
       "photos": []
     },
     {
@@ -1440,8 +1440,8 @@
       "tier": "Landmark bars",
       "a": "Mayfair",
       "d": "The bar that redefined the hotel bar: twice the world's best, and still the finest martini in London, made at your table.",
-      "lat": 51.513646,
-      "lon": -0.116819,
+      "lat": 51.510181,
+      "lon": -0.149686,
       "photos": []
     },
     {
@@ -1510,8 +1510,8 @@
       "tier": "Landmark bars",
       "a": "Covent Garden / Strand",
       "d": "The oldest surviving cocktail bar in Britain: the birthplace of drinks the whole world now orders.",
-      "lat": 51.505873,
-      "lon": -0.13992,
+      "lat": 51.510219,
+      "lon": -0.120604,
       "photos": []
     },
     {
@@ -1520,8 +1520,8 @@
       "tier": "Landmark bars",
       "a": "Mayfair",
       "d": "The Connaught's quieter salon: a fireside library of a bar, for conversation over a considered old-fashioned.",
-      "lat": 51.49474,
-      "lon": -0.137768,
+      "lat": 51.510298,
+      "lon": -0.149683,
       "photos": []
     },
     {
@@ -1550,8 +1550,8 @@
       "tier": "Cocktail bars",
       "a": "Soho",
       "d": "A quick aperitivo upstairs, a candlelit whisky den below: two moods, both faultless.",
-      "lat": 51.512299,
-      "lon": -0.228881,
+      "lat": 51.513744,
+      "lon": -0.130007,
       "photos": []
     },
     {
@@ -1570,8 +1570,8 @@
       "tier": "Landmark bars",
       "a": "Marylebone / Regent Street",
       "d": "The four-times World's Best bar at The Langham: a grand room that still makes ambitious, beautiful drinks.",
-      "lat": 51.515607,
-      "lon": -0.196307,
+      "lat": 51.517589,
+      "lon": -0.143875,
       "photos": []
     },
     {
@@ -1590,8 +1590,8 @@
       "tier": "Rooftops",
       "a": "Southbank / Bankside",
       "d": "London's longest rooftop bar: oysters, a spritz and an open sweep across the Thames to St Paul's.",
-      "lat": 52.409748,
-      "lon": 1.104272,
+      "lat": 51.505,
+      "lon": -0.105,
       "photos": []
     },
     {

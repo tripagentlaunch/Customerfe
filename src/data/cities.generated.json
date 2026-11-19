@@ -1324,7 +1324,7 @@
             "Feb"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/International_Tennis_Centre_%28Mubadala_Abu_Dhabi_Open%29.jpg/1280px-International_Tennis_Centre_%28Mubadala_Abu_Dhabi_Open%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/abu-dhabi/mubadala-abu-dhabi-open.jpg",
           "photoCredit": "Photo: ZSCmkt / CC0 (Wikimedia Commons)"
         },
         {
@@ -2287,7 +2287,7 @@
             "Sep"
           ],
           "location": null,
-          "photo": "https://images.pexels.com/photos/28749618/pexels-photo-28749618.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+          "photo": "/images/events/agra/ram-barat.jpg"
         },
         {
           "when": "Oct–Nov",
@@ -3182,7 +3182,7 @@
             "Aug"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Nehru_Trophy_Boat_Race_2012_7791.JPG/1280px-Nehru_Trophy_Boat_Race_2012_7791.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/alleppey/nehru-trophy-boat-race.jpg",
           "photoCredit": "Photo: Manoj Karingamadathil / CC BY-SA 3.0 (Wikimedia Commons)"
         },
         {
@@ -3194,7 +3194,7 @@
             "Sep"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Onam_Thriuvathira_Dance.jpg/1280px-Onam_Thriuvathira_Dance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/alleppey/onam.jpg",
           "photoCredit": "Photo: S y a m  S u b r a m a n i a n / CC BY-SA 2.0 (Wikimedia Commons)"
         },
         {
@@ -4596,7 +4596,7 @@
             "Sep"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Ravello_Festival.jpg/1280px-Ravello_Festival.jpg",
+          "photo": "/images/events/amalfi-coast/ravello-festival.jpg",
           "photoCredit": "Photo: Antonello De Nicola / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -4605,7 +4605,7 @@
           "note": "A costumed rowing race between Amalfi, Genoa, Pisa and Venice, with a medieval procession when Amalfi hosts.",
           "months": [],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Regata_delle_Antiche_Repubbliche_Marinare_collage.jpg/1280px-Regata_delle_Antiche_Repubbliche_Marinare_collage.jpg",
+          "photo": "/images/events/amalfi-coast/regatta-of-the-ancient-maritime-republics.jpg",
           "photoCredit": "Photo: Mystère Martin / CC BY-SA 3.0 (Wikimedia Commons)"
         }
       ]
@@ -5706,7 +5706,7 @@
             "lat": 31.893108,
             "lon": 35.874429
           },
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Jerash_Festival_2018_15.jpg/1280px-Jerash_Festival_2018_15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/amman-petra/jerash-festival.jpg",
           "photoCredit": "Photo: Addustour, Jordan Press &amp; Publication Co. / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -6631,7 +6631,7 @@
             "lat": 31.619521,
             "lon": 74.877882
           },
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Harmandir_Sahib_lit_up_on_Guru_Nanak_Jayanti.jpg/1280px-Harmandir_Sahib_lit_up_on_Guru_Nanak_Jayanti.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/amritsar/guru-nanak-gurpurab.jpg",
           "photoCredit": "Photo: Giridhar Appaji Nag Y / CC BY 2.0 (Wikimedia Commons)"
         },
         {
@@ -6643,7 +6643,7 @@
             "Nov"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Diwali_Festival._Jpg.jpg/1280px-Diwali_Festival._Jpg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/amritsar/diwali-bandi-chhor-divas.jpg",
           "photoCredit": "Photo: Aayush sharma 923 / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -6654,7 +6654,7 @@
             "Jan"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Lohri_Celebrations_at_Institute_of_Apparel_Management%2C_Gurgaon.jpg/1280px-Lohri_Celebrations_at_Institute_of_Apparel_Management%2C_Gurgaon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/amritsar/lohri.jpg",
           "photoCredit": "Photo: Slyronit / CC BY-SA 4.0 (Wikimedia Commons)"
         }
       ]
@@ -7780,7 +7780,7 @@
             "Jan"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Amsterdam_Light_Festival_2020%2C_Schippersgracht.JPG/1280px-Amsterdam_Light_Festival_2020%2C_Schippersgracht.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/amsterdam/amsterdam-light-festival.jpg",
           "photoCredit": "Photo: Alf van Beem / Public domain (Wikimedia Commons)"
         },
         {
@@ -7792,7 +7792,7 @@
             "May"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Keukenhof_April_2024.jpg/1280px-Keukenhof_April_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/amsterdam/tulip-season-and-keukenhof.jpg",
           "photoCredit": "Photo: Mitesh25 / CC0 (Wikimedia Commons)"
         }
       ]
@@ -8709,7 +8709,7 @@
           "note": "The islands' main cultural festival in Port Blair, with music, dance and craft from the archipelago's communities.",
           "months": [],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Guimaras_Island_Manggahan_Festival.jpg/1280px-Guimaras_Island_Manggahan_Festival.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/andaman/island-tourism-festival.jpg",
           "photoCredit": "Photo: FroyR / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -8751,7 +8751,7 @@
             "Sep"
           ],
           "location": null,
-          "photo": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Monsoon_clouds_near_Nagercoil.jpg",
+          "photo": "/images/events/andaman/monsoon-to-avoid.jpg",
           "photoCredit": "Photo: w:user:PlaneMad / CC BY-SA 3.0 (Wikimedia Commons)"
         }
       ]
@@ -9883,7 +9883,7 @@
             "lat": 37.970819,
             "lon": 23.724546
           },
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Performance_in_the_Theatre_of_Epidaurus%2C_091065.jpg/1280px-Performance_in_the_Theatre_of_Epidaurus%2C_091065.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/athens/athens-epidaurus-festival.jpg",
           "photoCredit": "Photo: Zde / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -9898,7 +9898,7 @@
             "lat": 37.968436,
             "lon": 23.740945
           },
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/34_Athens_Authentic_Marathon_%282%29.jpg/1280px-34_Athens_Authentic_Marathon_%282%29.jpg",
+          "photo": "/images/events/athens/athens-marathon-the-authentic.jpg",
           "photoCredit": "Photo: Ανώνυμος Βικιπαιδιστής / CC BY-SA 3.0 (Wikimedia Commons)"
         }
       ]
@@ -10975,7 +10975,7 @@
             "Jan"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/2001_Auckland_Anniversary_Day_Regatta_01.jpg/1280px-2001_Auckland_Anniversary_Day_Regatta_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/auckland/auckland-anniversary-regatta.jpg",
           "photoCredit": "Photo: Ewhite31 / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -10986,7 +10986,7 @@
             "Mar"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Crowd_at_the_Pasifika_Festival._%28PASF-D-2015-125%29.jpg/1280px-Crowd_at_the_Pasifika_Festival._%28PASF-D-2015-125%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/auckland/pasifika-festival.jpg",
           "photoCredit": "Photo: Adana Dobranis / CC BY 4.0 (Wikimedia Commons)"
         }
       ]
@@ -12468,7 +12468,7 @@
             "Mar"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Meditasi_Nyepi_Hindu.jpg/1280px-Meditasi_Nyepi_Hindu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/bali/nyepi-day-of-silence.jpg",
           "photoCredit": "Photo: Albert Ivan Damanik / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -12480,7 +12480,7 @@
             "Jul"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Young_girls_in_Balinese_festival%3B_John_Y._Can%3B_September_2010.jpg/1280px-Young_girls_in_Balinese_festival%3B_John_Y._Can%3B_September_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/bali/bali-arts-festival.jpg",
           "photoCredit": "Photo: John Y. Can / CC BY 2.0 (Wikimedia Commons)"
         },
         {
@@ -12489,7 +12489,7 @@
           "note": "The most important Balinese holy days, when penjor bamboo poles line the streets and temples fill with offerings.",
           "months": [],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Kuningan1.jpg/1280px-Kuningan1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/bali/galungan-kuningan.jpg",
           "photoCredit": "Photo: Spencer Weart / CC BY-SA 3.0 (Wikimedia Commons)"
         }
       ]
@@ -14027,7 +14027,7 @@
             "Apr"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/14_April_2025_-_Songkran_on_Si_Lom_Road%2C_Bangkok_-_img_05.jpg/1280px-14_April_2025_-_Songkran_on_Si_Lom_Road%2C_Bangkok_-_img_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/bangkok/songkran.jpg",
           "photoCredit": "Photo: Chainwit. / CC BY 4.0 (Wikimedia Commons)"
         },
         {
@@ -14038,7 +14038,7 @@
             "Nov"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Loy_Krathong_Bangkok_Lumpini_Park_2.jpg/1280px-Loy_Krathong_Bangkok_Lumpini_Park_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/bangkok/loy-krathong.jpg",
           "photoCredit": "Photo: Robertpollai / CC BY 2.0 at (Wikimedia Commons)"
         }
       ]
@@ -15521,7 +15521,7 @@
             "Jun"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Portishead_%40_Primavera_Sound_5.jpg/1280px-Portishead_%40_Primavera_Sound_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/barcelona/primavera-sound.jpg",
           "photoCredit": "Photo: livepict.com / CC BY-SA 3.0 (Wikimedia Commons)"
         },
         {
@@ -15536,7 +15536,7 @@
             "lat": 41.412665,
             "lon": 2.174336
           },
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/158_Carrer_Comtal_%28Barcelona%29%2C_la_diada_de_Sant_Jordi_del_2025%2C_parada_de_roses.jpg/1280px-158_Carrer_Comtal_%28Barcelona%29%2C_la_diada_de_Sant_Jordi_del_2025%2C_parada_de_roses.jpg",
+          "photo": "/images/events/barcelona/sant-jordi.jpg",
           "photoCredit": "Photo: Enric / CC BY 4.0 (Wikimedia Commons)"
         }
       ]
@@ -16563,7 +16563,7 @@
             "Apr"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Decorations_Day_Before_Karaga_Festival.jpg/1280px-Decorations_Day_Before_Karaga_Festival.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/bengaluru/karaga.jpg",
           "photoCredit": "Photo: Shri / CC BY-SA 3.0 (Wikimedia Commons)"
         },
         {
@@ -16575,7 +16575,7 @@
             "Oct"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Mysore_palace_illuminated.jpg/1280px-Mysore_palace_illuminated.jpg",
+          "photo": "/images/events/bengaluru/dasara-nearby-mysuru.jpg",
           "photoCredit": "Photo: Muhammad Mahdi Karim / GFDL 1.2 (Wikimedia Commons)"
         },
         {
@@ -16584,7 +16584,7 @@
           "note": "A strong cool-season calendar of lit-fests and cultural events across the city.",
           "months": [],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Dollu_Kunitha_Dance.jpg/1280px-Dollu_Kunitha_Dance.jpg",
+          "photo": "/images/events/bengaluru/bengaluru-literature-and-arts-festivals.jpg",
           "photoCredit": "Photo: Sujatha Bhagath / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -16596,7 +16596,7 @@
             "Nov"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Deepavali_decorations_in_shops_in_Bangalore_%282025%29.jpg/1280px-Deepavali_decorations_in_shops_in_Bangalore_%282025%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/bengaluru/deepavali.jpg",
           "photoCredit": "Photo: Gpkp / CC BY-SA 4.0 (Wikimedia Commons)"
         }
       ]
@@ -17631,7 +17631,7 @@
             "Aug"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Iggy_Pop_stand_-_Sziget_Fest_2006.jpg/1280px-Iggy_Pop_stand_-_Sziget_Fest_2006.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/budapest/sziget-festival.jpg",
           "photoCredit": "Photo: Elekes Andor ((elekes)) / CC BY 2.0 (Wikimedia Commons)"
         },
         {
@@ -17642,7 +17642,7 @@
             "Sep"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Mangalitsa_%28Paleo%29_Festival_-_Budapest%2C_2013_%284%29.JPG/1280px-Mangalitsa_%28Paleo%29_Festival_-_Budapest%2C_2013_%284%29.JPG",
+          "photo": "/images/events/budapest/budapest-wine-festival.jpg",
           "photoCredit": "Photo: Derzsi Elekes Andor / CC BY 3.0 (Wikimedia Commons)"
         },
         {
@@ -17653,7 +17653,7 @@
             "Aug"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Budapest_St._Stephen%27s_Day_fireworks_2010.jpg/1280px-Budapest_St._Stephen%27s_Day_fireworks_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/budapest/st-stephen-s-day.jpg",
           "photoCredit": "Photo: Diana / CC BY 2.0 (Wikimedia Commons)"
         }
       ]
@@ -18780,7 +18780,7 @@
             "Sep"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Festival_mundial_de_Tango_en_Buenos_Aires%2C_Argentina.jpg/1280px-Festival_mundial_de_Tango_en_Buenos_Aires%2C_Argentina.jpg",
+          "photo": "/images/events/buenos-aires/tango-ba-festival-y-mundial.jpg",
           "photoCredit": "Photo: virginiainnocenti / CC BY 2.0 (Wikimedia Commons)"
         },
         {
@@ -20920,7 +20920,7 @@
             "Feb"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Carnaval_tropical_Paris_2014_Golden_Stars_114_Guadeloupe.jpg/1280px-Carnaval_tropical_Paris_2014_Golden_Stars_114_Guadeloupe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/cancun/carnaval-cozumel-cancun.jpg",
           "photoCredit": "Photo: Myrabella / CC BY-SA 4.0 (Wikimedia Commons)"
         }
       ]
@@ -22329,7 +22329,7 @@
             "Jan"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Minstrels_-_Cape_Town%2C_South_Africa_%284028590551%29.jpg/1280px-Minstrels_-_Cape_Town%2C_South_Africa_%284028590551%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/cape-town/cape-town-minstrel-carnival-kaapse-klopse.jpg",
           "photoCredit": "Photo: South African Tourism from South Africa / CC BY 2.0 (Wikimedia Commons)"
         },
         {
@@ -22340,7 +22340,7 @@
             "Mar"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Cape_Town_International_Jazz_Festival_2010.jpg/1280px-Cape_Town_International_Jazz_Festival_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/cape-town/cape-town-international-jazz-festival.jpg",
           "photoCredit": "Photo: André-Pierre du Plessis / CC BY 2.0 (Wikimedia Commons)"
         }
       ]
@@ -23316,7 +23316,7 @@
             "lat": 38.631116,
             "lon": 34.794129
           },
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Hot_air_balloon_in_Cappadocia_02.jpg/1280px-Hot_air_balloon_in_Cappadocia_02.jpg",
+          "photo": "/images/events/cappadocia/cappadocia-balloon-festival-balonfest.jpg",
           "photoCredit": "Photo: Bernard Gagnon / CC BY-SA 3.0 (Wikimedia Commons)"
         }
       ]
@@ -24343,7 +24343,7 @@
             "lat": 13.069181,
             "lon": 80.227493
           },
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Sangeetha_Sivakumar_Live_2018_Chennai.jpg/1280px-Sangeetha_Sivakumar_Live_2018_Chennai.jpg",
+          "photo": "/images/events/chennai/margazhi-music-season.jpg",
           "photoCredit": "Photo: Sangeetha Sivakumar / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -24365,7 +24365,7 @@
             "Jan"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Kapaleeshwarar-Therottam-Mylapore-Chennai-TamilNadu-India.jpg/1280px-Kapaleeshwarar-Therottam-Mylapore-Chennai-TamilNadu-India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/chennai/mylapore-festival.jpg",
           "photoCredit": "Photo: N. Vivekananthamoorthy / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -24376,7 +24376,7 @@
             "Jan"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/2011_Dance_Drama_celebration%2C_Pongal_festival%2C_Chennai_Sangamam.jpg/1280px-2011_Dance_Drama_celebration%2C_Pongal_festival%2C_Chennai_Sangamam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/chennai/chennai-sangamam.jpg",
           "photoCredit": "Photo: B Balaji / CC BY-SA 2.0 (Wikimedia Commons)"
         }
       ]
@@ -25329,7 +25329,7 @@
             "lat": 6.916645,
             "lon": 79.856656
           },
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Navam_Perahera_of_the_Colombo_Gangarama_Temple_-_15.2.2022_Sri_Lanka.jpg/1280px-Navam_Perahera_of_the_Colombo_Gangarama_Temple_-_15.2.2022_Sri_Lanka.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/colombo/navam-perahera.jpg",
           "photoCredit": "Photo: JanManu / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -25340,7 +25340,7 @@
             "May"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/The_Prime_Minister%2C_Shri_Narendra_Modi_attends_the_inaugural_session_of_the_14th_International_Vesak_Day_celebrations%2C_in_Colombo%2C_Sri_Lanka_on_May_12%2C_2017.jpg/1280px-The_Prime_Minister%2C_Shri_Narendra_Modi_attends_the_inaugural_session_of_the_14th_International_Vesak_Day_celebrations%2C_in_Colombo%2C_Sri_Lanka_on_May_12%2C_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/colombo/vesak.jpg",
           "photoCredit": "Photo: Prime Minister's Office / GODL-India (Wikimedia Commons)"
         }
       ]
@@ -26436,7 +26436,7 @@
             "Jul"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Copenhagen_2014-07-09_%2814662668622%29.jpg/1280px-Copenhagen_2014-07-09_%2814662668622%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/copenhagen/copenhagen-jazz-festival.jpg",
           "photoCredit": "Photo: Guillaume Baviere from Copenhagen, Denmark / CC BY-SA 2.0 (Wikimedia Commons)"
         },
         {
@@ -26447,7 +26447,7 @@
             "Aug"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Copenhagen_Cooking_20130828_04-2_%289620375284%29.jpg/1280px-Copenhagen_Cooking_20130828_04-2_%289620375284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/copenhagen/copenhagen-cooking-food-festival.jpg",
           "photoCredit": "Photo: News Oresund / CC BY 2.0 (Wikimedia Commons)"
         }
       ]
@@ -27533,7 +27533,7 @@
             "Jun"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Peru_-_Cusco_121_-_Inti_Raymi_solstice_festival_%287625299478%29.jpg/1280px-Peru_-_Cusco_121_-_Inti_Raymi_solstice_festival_%287625299478%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/cusco/inti-raymi.jpg",
           "photoCredit": "Photo: McKay Savage from London, UK / CC BY 2.0 (Wikimedia Commons)"
         },
         {
@@ -27548,7 +27548,7 @@
             "lat": -13.164341,
             "lon": -72.545009
           },
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Corpus_Christi_in_Cusco%2C_Peru.jpg/1280px-Corpus_Christi_in_Cusco%2C_Peru.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/cusco/corpus-christi.jpg",
           "photoCredit": "Photo: karlnorling / CC BY 2.0 (Wikimedia Commons)"
         },
         {
@@ -27560,7 +27560,7 @@
             "Apr"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Se%C3%B1or_de_los_Temblores_procession_in_Cusco.jpg/1280px-Se%C3%B1or_de_los_Temblores_procession_in_Cusco.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/cusco/senor-de-los-temblores-holy-monday.jpg",
           "photoCredit": "Photo: Renate Zindel / CC BY 2.0 (Wikimedia Commons)"
         }
       ]
@@ -28551,7 +28551,7 @@
             "Mar"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Getting_ready_for_Losar.jpg/1280px-Getting_ready_for_Losar.jpg",
+          "photo": "/images/events/darjeeling/losar-tibetan-new-year.jpg",
           "photoCredit": "Photo: Ailiajameel / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -28563,7 +28563,7 @@
             "Apr"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Darjeeling_Tea_Garden_worker.jpg/1280px-Darjeeling_Tea_Garden_worker.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/darjeeling/first-flush-tea-season.jpg",
           "photoCredit": "Photo: Benoy / CC BY-SA 3.0 (Wikimedia Commons)"
         }
       ]
@@ -29593,7 +29593,7 @@
             "lat": 28.613836,
             "lon": 77.21044
           },
-          "photo": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Uttarakhand_tableau_depicting_%E2%80%9CManaskhand%E2%80%9D_during_the_74th_Republic_Day_Parade_at_Kartavya_Path%2C_New_Delhi%2C_on_January_26%2C_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "photo": "/images/events/delhi/republic-day-parade.jpg",
           "photoCredit": "Photo: Press Information Bureau India Ministry of Defence India Government of India / GODL-India (Wikimedia Commons)"
         },
         {
@@ -29605,7 +29605,7 @@
             "Nov"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Ram_Temple_miniature_not_to_scale_replica_Diwali_New_Delhi_3.jpg/1280px-Ram_Temple_miniature_not_to_scale_replica_Diwali_New_Delhi_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/delhi/diwali.jpg",
           "photoCredit": "Photo: DTM / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -29620,7 +29620,7 @@
             "lat": 28.524785,
             "lon": 77.186223
           },
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/PXL_20231126_133447159_Alai_Minar_Qutub_Minar_Complex_Mehrauli%2C_New_Delhi_04.jpg/1280px-PXL_20231126_133447159_Alai_Minar_Qutub_Minar_Complex_Mehrauli%2C_New_Delhi_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/delhi/qutub-india-art-fair-season.jpg",
           "photoCredit": "Photo: Sourabh.biswas003 / CC0 (Wikimedia Commons)"
         }
       ]
@@ -30867,7 +30867,7 @@
             "lat": 25.287895,
             "lon": 51.549508
           },
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/-Qatar_national_day_-doha._Decorated_cars%2C_flags_and_khaliji_dance_and_music_%286526808067%29.jpg/1280px--Qatar_national_day_-doha._Decorated_cars%2C_flags_and_khaliji_dance_and_music_%286526808067%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/doha/qatar-national-day.jpg",
           "photoCredit": "Photo: Jadi from Iran / CC BY 2.0 (Wikimedia Commons)"
         },
         {
@@ -30878,7 +30878,7 @@
             "Nov"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Doha_Katara_Cultural_Village_Katara_Square_2.jpg/1280px-Doha_Katara_Cultural_Village_Katara_Square_2.jpg",
+          "photo": "/images/events/doha/ajyal-film-festival.jpg",
           "photoCredit": "Photo: Zairon / CC BY 4.0 (Wikimedia Commons)"
         }
       ]
@@ -32687,7 +32687,7 @@
             "Jan"
           ],
           "location": null,
-          "photo": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Shopping_at_Dubai_Festival_City_Mall.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "photo": "/images/events/dubai/dubai-shopping-festival.jpg",
           "photoCredit": "Photo: Teeraza88 / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -32709,7 +32709,7 @@
             "Mar"
           ],
           "location": null,
-          "photo": "https://upload.wikimedia.org/wikipedia/commons/5/57/Al_Tayer_Motors_-_2014_Dubai_World_Cup_%2813579570713%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "photo": "/images/events/dubai/dubai-world-cup.jpg",
           "photoCredit": "Photo: Land Rover MENA / CC BY 2.0 (Wikimedia Commons)"
         },
         {
@@ -32722,7 +32722,7 @@
             "May"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Art_Dubai_2016_Gallery_Hall_1_.jpg/1280px-Art_Dubai_2016_Gallery_Hall_1_.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/dubai/art-dubai.jpg",
           "photoCredit": "Photo: Aliagilbert / CC BY-SA 4.0 (Wikimedia Commons)"
         }
       ]
@@ -33803,7 +33803,7 @@
             "Jun"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Dun_Laoghaire_-_celebrating_Bloomsday_%282011%29_%285840009563%29_%287%29.jpg/1280px-Dun_Laoghaire_-_celebrating_Bloomsday_%282011%29_%285840009563%29_%287%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/dublin/bloomsday.jpg",
           "photoCredit": "Photo: William Murphy from Dublin, Ireland / CC BY-SA 2.0 (Wikimedia Commons)"
         }
       ]
@@ -34771,7 +34771,7 @@
             "Oct"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Dubrovnik-Croatia-Rene-Cortin-5.jpg/1280px-Dubrovnik-Croatia-Rene-Cortin-5.jpg",
+          "photo": "/images/events/dubrovnik/good-food-festival.jpg",
           "photoCredit": "Photo: René Cortin / CC BY-SA 4.0 (Wikimedia Commons)"
         }
       ]
@@ -35871,7 +35871,7 @@
             "Aug"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Edinburgh_Fringe_037.jpg/1280px-Edinburgh_Fringe_037.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/edinburgh/edinburgh-festival-fringe.jpg",
           "photoCredit": "Photo: Festival Fringe Society / CC BY-SA 3.0 (Wikimedia Commons)"
         },
         {
@@ -35886,7 +35886,7 @@
             "lat": 55.952543,
             "lon": -3.207889
           },
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Edinburgh_International_Festival_Fireworks_2016_%2829246957251%29.jpg/1280px-Edinburgh_International_Festival_Fireworks_2016_%2829246957251%29.jpg",
+          "photo": "/images/events/edinburgh/edinburgh-international-festival.jpg",
           "photoCredit": "Photo: marsupium photography / CC BY-SA 2.0 (Wikimedia Commons)"
         },
         {
@@ -35898,7 +35898,7 @@
             "Jan"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Hogmanay_Torch_Parade_in_Edinburgh_Scotland.jpg/1280px-Hogmanay_Torch_Parade_in_Edinburgh_Scotland.jpg",
+          "photo": "/images/events/edinburgh/edinburgh-s-hogmanay.jpg",
           "photoCredit": "Photo: FloridaNCgirl / CC BY-SA 4.0 (Wikimedia Commons)"
         }
       ]
@@ -37270,7 +37270,7 @@
             "lat": 43.317028,
             "lon": 11.329273
           },
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Palio_di_Siena_-_Assunta_2011_-_Torre_2.jpg/1280px-Palio_di_Siena_-_Assunta_2011_-_Torre_2.jpg",
+          "photo": "/images/events/florence/palio-di-siena-nearby.jpg",
           "photoCredit": "Photo: Janus Kinase / CC BY-SA 2.0 (Wikimedia Commons)"
         }
       ]
@@ -38237,7 +38237,7 @@
             "Apr"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/A_colorful_Puthandu_welcome_to_Sinhala_and_Tamil_New_Year_in_Sri_Lanka.jpg/1280px-A_colorful_Puthandu_welcome_to_Sinhala_and_Tamil_New_Year_in_Sri_Lanka.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/galle/sinhala-tamil-new-year.jpg",
           "photoCredit": "Photo: Amila Tennakoon / CC BY 2.0 (Wikimedia Commons)"
         }
       ]
@@ -39283,7 +39283,7 @@
             "Dec"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Geneva_Escalade_marching_bands_mp3h3660.jpg/1280px-Geneva_Escalade_marching_bands_mp3h3660.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/geneva/fete-de-l-escalade.jpg",
           "photoCredit": "Photo: Rama / CC BY-SA 2.0 fr (Wikimedia Commons)"
         },
         {
@@ -39294,7 +39294,7 @@
             "Jun"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/F%C3%AAte_de_la_Musique_Balexert_2016_%2827281907483%29.jpg/1280px-F%C3%AAte_de_la_Musique_Balexert_2016_%2827281907483%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/geneva/fete-de-la-musique.jpg",
           "photoCredit": "Photo: Stéphane Gallay from Laconnex, Switzerland / CC BY 2.0 (Wikimedia Commons)"
         }
       ]
@@ -40303,7 +40303,7 @@
             "Feb"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Carnival_in_Goa_-_Panjim_2019_-_Picture_3.jpg/1280px-Carnival_in_Goa_-_Panjim_2019_-_Picture_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/goa/goa-carnival.jpg",
           "photoCredit": "Photo: Iamvardhana / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -40314,7 +40314,7 @@
             "Dec"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Sunburn_Festival%2C_Goa%2C_People.jpg/1280px-Sunburn_Festival%2C_Goa%2C_People.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/goa/sunburn-festival.jpg",
           "photoCredit": "Photo: Vyacheslav Argenberg / CC BY 4.0 (Wikimedia Commons)"
         },
         {
@@ -40325,7 +40325,7 @@
             "Dec"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Archbishop_Waliriano_D%27souza_addressing_at_a_mass_at_St._Francis_Xavier_Church_during_the_celebration_of_feast_at_old_Goa_on_December_03%2C_2007.jpg/1280px-Archbishop_Waliriano_D%27souza_addressing_at_a_mass_at_St._Francis_Xavier_Church_during_the_celebration_of_feast_at_old_Goa_on_December_03%2C_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/goa/feast-of-st-francis-xavier.jpg",
           "photoCredit": "Photo: Ministry of Tourism / GODL-India (Wikimedia Commons)"
         },
         {
@@ -40336,7 +40336,7 @@
             "Mar"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Goa_Shigmo_Parade_March_2026_20.jpg/1280px-Goa_Shigmo_Parade_March_2026_20.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/goa/shigmo.jpg",
           "photoCredit": "Photo: Fredericknoronha / CC BY-SA 4.0 (Wikimedia Commons)"
         }
       ]
@@ -41376,7 +41376,7 @@
             "Feb"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Tet_holiday_in_Vietnam.jpg/1280px-Tet_holiday_in_Vietnam.jpg",
+          "photo": "/images/events/hanoi/tet-vietnamese-lunar-new-year.jpg",
           "photoCredit": "Photo: This is Thảo / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -41418,7 +41418,7 @@
             "lat": 21.030916,
             "lon": 105.849708
           },
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Midautumn_Moon_Festival_of_Y%C3%AAn_H%C3%B2a_Parkiew_City_05-10-2025_E05.jpg/1280px-Midautumn_Moon_Festival_of_Y%C3%AAn_H%C3%B2a_Parkiew_City_05-10-2025_E05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/hanoi/mid-autumn-festival.jpg",
           "photoCredit": "Photo: YHPVE4VPH / CC BY-SA 4.0 (Wikimedia Commons)"
         }
       ]
@@ -42452,7 +42452,7 @@
             "Feb"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Ho_Chi_Minh_City_Tet_Decorations.jpg/1280px-Ho_Chi_Minh_City_Tet_Decorations.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/ho-chi-minh-city/tet-lunar-new-year.jpg",
           "photoCredit": "Photo: No machine-readable author provided. DHN assumed (based on copyright claims). / Public domain (Wikimedia Commons)"
         },
         {
@@ -42474,7 +42474,7 @@
             "Sep"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Mid-Autumn_Festival-beijing.jpg/1280px-Mid-Autumn_Festival-beijing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/ho-chi-minh-city/mid-autumn-festival.jpg",
           "photoCredit": "Photo: Shizhao / CC BY-SA 2.5 (Wikimedia Commons)"
         }
       ]
@@ -43434,7 +43434,7 @@
             "Jul"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Magic_in_Danang_International_Fireworks_Festival.jpg/1280px-Magic_in_Danang_International_Fireworks_Festival.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/hoi-an/da-nang-international-fireworks-festival.jpg",
           "photoCredit": "Photo: Vivu Vietnam / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -43446,7 +43446,7 @@
             "Apr"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Festival_Hu%E1%BA%BF_2008-14.JPG/1280px-Festival_Hu%E1%BA%BF_2008-14.JPG",
+          "photo": "/images/events/hoi-an/hue-festival.jpg",
           "photoCredit": "Photo: Lưu Ly / Public domain (Wikimedia Commons)"
         },
         {
@@ -43455,7 +43455,7 @@
           "note": "The old town switches off electric lights for silk lanterns and river offerings: held every full moon, not once a year.",
           "months": [],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Hoi_An_Full_Moon_Festival.jpg/1280px-Hoi_An_Full_Moon_Festival.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/hoi-an/hoi-an-lantern-full-moon-festival.jpg",
           "photoCredit": "Photo: Christophe95 / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -43466,7 +43466,7 @@
             "Sep"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Mid-Autumn_Festival-beijing.jpg/1280px-Mid-Autumn_Festival-beijing.jpg",
+          "photo": "/images/events/hoi-an/mid-autumn-festival.jpg",
           "photoCredit": "Photo: Shizhao / CC BY-SA 2.5 (Wikimedia Commons)"
         }
       ]
@@ -45145,7 +45145,7 @@
             "lat": 22.29527,
             "lon": 114.176158
           },
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Cathay_Pacific_International_Chinese_New_Year_Night_Parade.jpg/1280px-Cathay_Pacific_International_Chinese_New_Year_Night_Parade.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/hong-kong/chinese-new-year-night-parade.jpg",
           "photoCredit": "Photo: Exploringlife / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -45160,7 +45160,7 @@
             "lat": 22.209625,
             "lon": 114.029569
           },
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/CheungChaubun_mountain.jpg/1280px-CheungChaubun_mountain.jpg",
+          "photo": "/images/events/hong-kong/cheung-chau-bun-festival.jpg",
           "photoCredit": "Photo: ．怪貓． / CC BY 2.0 (Wikimedia Commons)"
         },
         {
@@ -45171,7 +45171,7 @@
             "Oct"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Hong_Kong_Wine_and_Dine_Festival_2014_Stage.JPG/1280px-Hong_Kong_Wine_and_Dine_Festival_2014_Stage.JPG",
+          "photo": "/images/events/hong-kong/hong-kong-wine-dine-festival.jpg",
           "photoCredit": "Photo: Ceeseven / CC BY-SA 4.0 (Wikimedia Commons)"
         }
       ]
@@ -46134,7 +46134,7 @@
             "Aug"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Hyderabad_bonalu_series_%283%29.jpg/1280px-Hyderabad_bonalu_series_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/hyderabad/bonalu.jpg",
           "photoCredit": "Photo: Storysbyharish / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -46146,7 +46146,7 @@
             "Oct"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Bathukamma_Immersion_in_Hyderabad%2C_India.jpg/1280px-Bathukamma_Immersion_in_Hyderabad%2C_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/hyderabad/bathukamma.jpg",
           "photoCredit": "Photo: Ailiajam / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -46159,7 +46159,7 @@
             "lat": 17.438877,
             "lon": 78.365017
           },
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Charminar_Ramzan_Nights.jpg/1280px-Charminar_Ramzan_Nights.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/hyderabad/ramzan-haleem-season.jpg",
           "photoCredit": "Photo: Santoshvelamala1996 / CC BY-SA 4.0 (Wikimedia Commons)"
         }
       ]
@@ -47440,7 +47440,7 @@
             "lat": 41.109012,
             "lon": 29.052517
           },
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Tulips_from_8th_Istanbul_tulip_festival%2CEmirgan.JPG/1280px-Tulips_from_8th_Istanbul_tulip_festival%2CEmirgan.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/istanbul/istanbul-tulip-festival.jpg",
           "photoCredit": "Photo: MustafaAslanbay / CC BY-SA 3.0 (Wikimedia Commons)"
         },
         {
@@ -47463,7 +47463,7 @@
             "Jul"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Max_Richter_at_Istanbul_Jazz_Festival_20250703_14.jpg/1280px-Max_Richter_at_Istanbul_Jazz_Festival_20250703_14.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/istanbul/istanbul-jazz-festival.jpg",
           "photoCredit": "Photo: Adem / CC BY 4.0 (Wikimedia Commons)"
         }
       ]
@@ -48349,7 +48349,7 @@
             "Feb"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Riddhi_Sharma_during_the_Jaipur_Literature_Festival_2026%2C_Jaipur_05.jpg/1280px-Riddhi_Sharma_during_the_Jaipur_Literature_Festival_2026%2C_Jaipur_05.jpg",
+          "photo": "/images/events/jaipur/jaipur-literature-festival.jpg",
           "photoCredit": "Photo: Suyash Dwivedi / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -48360,7 +48360,7 @@
             "Aug"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Festival_of_teej_in_India._-_panoramio_%282%29.jpg/1280px-Festival_of_teej_in_India._-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/jaipur/teej.jpg",
           "photoCredit": "Photo: pradeep kumar chatte… / CC BY 3.0 (Wikimedia Commons)"
         },
         {
@@ -48372,7 +48372,7 @@
             "Apr"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Gangaur_procession_in_Kishangarh%2C_Rajasthan.jpg/1280px-Gangaur_procession_in_Kishangarh%2C_Rajasthan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/jaipur/gangaur.jpg",
           "photoCredit": "Photo: Nikhil Vyas / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -48384,7 +48384,7 @@
             "Nov"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Jaipur_Diwali.jpg/1280px-Jaipur_Diwali.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/jaipur/diwali.jpg",
           "photoCredit": "Photo: Prateek.harshwal / CC BY-SA 4.0 (Wikimedia Commons)"
         }
       ]
@@ -49302,7 +49302,7 @@
             "Mar"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Barsana_Holi_Festival.jpg/1280px-Barsana_Holi_Festival.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/jaisalmer/holi.jpg",
           "photoCredit": "Photo: Narender9 / CC BY-SA 3.0 (Wikimedia Commons)"
         },
         {
@@ -49318,7 +49318,7 @@
             "lat": 26.912809,
             "lon": 70.913272
           },
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Diwali_celebration_India.jpg/1280px-Diwali_celebration_India.jpg",
+          "photo": "/images/events/jaisalmer/diwali.jpg",
           "photoCredit": "Photo: Keval Tank / CC BY-SA 4.0 (Wikimedia Commons)"
         }
       ]
@@ -50217,7 +50217,7 @@
             "lat": 26.299541,
             "lon": 73.019513
           },
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Glimpse_of_Rajasthan_International_Folk_Festival_inside_the_fort.jpg/1280px-Glimpse_of_Rajasthan_International_Folk_Festival_inside_the_fort.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/jodhpur/rajasthan-international-folk-festival-riff.jpg",
           "photoCredit": "Photo: Soni Richa / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -50228,7 +50228,7 @@
             "Oct"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Str%C3%A1%C5%BEnice_festival_2024_Marwar_%2812%29.jpg/1280px-Str%C3%A1%C5%BEnice_festival_2024_Marwar_%2812%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/jodhpur/marwar-festival.jpg",
           "photoCredit": "Photo: Tadeáš Bednarz / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -50251,7 +50251,7 @@
             "Nov"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Diwali_Lighting_Jodhpur_%28Suresh_Godara%29.JPG/1280px-Diwali_Lighting_Jodhpur_%28Suresh_Godara%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/jodhpur/diwali.jpg",
           "photoCredit": "Photo: Suresh Godara / CC BY-SA 4.0 (Wikimedia Commons)"
         }
       ]
@@ -51090,7 +51090,7 @@
             "Sep"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Start_of_Indra_Jatra.jpg/1280px-Start_of_Indra_Jatra.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/kathmandu/indra-jatra.jpg",
           "photoCredit": "Photo: Wikimedman / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -51101,7 +51101,7 @@
             "Oct"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Soaring_High_in_Dashain.jpg/1280px-Soaring_High_in_Dashain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/kathmandu/dashain.jpg",
           "photoCredit": "Photo: Safalphotos / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -51113,7 +51113,7 @@
             "Nov"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Tihar_Rangoli_Kathmandu_Nepal.jpg/1280px-Tihar_Rangoli_Kathmandu_Nepal.jpg",
+          "photo": "/images/events/kathmandu/tihar.jpg",
           "photoCredit": "Photo: Gunjan Raj Giri / CC BY-SA 4.0 (Wikimedia Commons)"
         }
       ]
@@ -52084,7 +52084,7 @@
             "Apr"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Kochi_muziris_biennale_12_12_12_-_panoramio_%284%29.jpg/1280px-Kochi_muziris_biennale_12_12_12_-_panoramio_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/kochi/kochi-muziris-biennale.jpg",
           "photoCredit": "Photo: Dipu TR / CC BY 3.0 (Wikimedia Commons)"
         },
         {
@@ -52112,7 +52112,7 @@
             "lat": 10.246366,
             "lon": 76.370106
           },
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Kudamatom_at_thrissur_pooram_2013_7618.JPG/1280px-Kudamatom_at_thrissur_pooram_2013_7618.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/kochi/thrissur-pooram-nearby.jpg",
           "photoCredit": "Photo: Rameshng / CC BY-SA 3.0 (Wikimedia Commons)"
         }
       ]
@@ -53136,7 +53136,7 @@
             "Oct"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/2016_Durga_Puja_Kolkata_Shobhabazar_Sarbojonin_%289%29.jpg/1280px-2016_Durga_Puja_Kolkata_Shobhabazar_Sarbojonin_%289%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/kolkata/durga-puja.jpg",
           "photoCredit": "Photo: Sumit Surai / CC BY-SA 3.0 (Wikimedia Commons)"
         },
         {
@@ -53152,7 +53152,7 @@
             "lat": 22.634864,
             "lon": 88.415476
           },
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Kali_Idols_%26_Diwali_celebration_04.jpg/1280px-Kali_Idols_%26_Diwali_celebration_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/kolkata/kali-puja-diwali.jpg",
           "photoCredit": "Photo: Goutam1962 / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -53163,7 +53163,7 @@
             "Nov"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Iman_Chakraborty_-_Manomay_Bhattacharya_-_Aditi_Munshi_-_29th_Kolkata_International_Film_Festival_Opening_Function_-_Kolkata_2023-12-05_8570.jpg/1280px-Iman_Chakraborty_-_Manomay_Bhattacharya_-_Aditi_Munshi_-_29th_Kolkata_International_Film_Festival_Opening_Function_-_Kolkata_2023-12-05_8570.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/kolkata/kolkata-international-film-festival.jpg",
           "photoCredit": "Photo: Gangulybiswarup / CC BY 4.0 (Wikimedia Commons)"
         },
         {
@@ -53174,7 +53174,7 @@
             "Dec"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Christmas_Observance_-_Poush_Mela_-_Citizens_Park_-_Kolkata_2015-12-25_8057.JPG/1280px-Christmas_Observance_-_Poush_Mela_-_Citizens_Park_-_Kolkata_2015-12-25_8057.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/kolkata/poush-mela-christmas-season.jpg",
           "photoCredit": "Photo: Biswarup Ganguly / CC BY 3.0 (Wikimedia Commons)"
         }
       ]
@@ -54135,7 +54135,7 @@
             "Nov"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Chiang_Mai%2C_Loy_Krathong_Lantern_Festival%2C_Thailand.jpg/1280px-Chiang_Mai%2C_Loy_Krathong_Lantern_Festival%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/krabi/loy-krathong.jpg",
           "photoCredit": "Photo: Vyacheslav Argenberg / CC BY 4.0 (Wikimedia Commons)"
         },
         {
@@ -54146,7 +54146,7 @@
             "Apr"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Songkran_in_Wat_Kungthapao_03.jpg/1280px-Songkran_in_Wat_Kungthapao_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/krabi/songkran.jpg",
           "photoCredit": "Photo: ผู้สร้างสรรค์ผลงาน/ส่งข้อมูลเก็บในคลังข้อมูลเสรีวิกิมีเดียคอมมอนส์ - เทวประภาส ม / CC BY 3.0 (Wikimedia Commons)"
         }
       ]
@@ -55365,7 +55365,7 @@
             "lat": 3.250645,
             "lon": 101.727346
           },
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Thaipusam_2025_Sri_Subramaniar_Swamy_Temple_and_Crowds_at_Batu_Caves_%28250211%29.jpg/1280px-Thaipusam_2025_Sri_Subramaniar_Swamy_Temple_and_Crowds_at_Batu_Caves_%28250211%29.jpg",
+          "photo": "/images/events/kuala-lumpur/thaipusam-at-batu-caves.jpg",
           "photoCredit": "Photo: *angys* / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -55374,7 +55374,7 @@
           "note": "Sepang remains a major motorsport draw for MotoGP crowds each year.",
           "months": [],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/1999_Malaysian_motorcycle_Grand_Prix_4.jpg/1280px-1999_Malaysian_motorcycle_Grand_Prix_4.jpg",
+          "photo": "/images/events/kuala-lumpur/malaysia-grand-prix-return-of-racing.jpg",
           "photoCredit": "Photo: Calistemon / CC BY-SA 3.0 (Wikimedia Commons)"
         },
         {
@@ -55383,7 +55383,7 @@
           "note": "The end of Ramadan brings open houses and the city's warmest hospitality: dates shift yearly.",
           "months": [],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Pavilion_Mall_at_Hari_Raya_Aidilfitri.jpg/1280px-Pavilion_Mall_at_Hari_Raya_Aidilfitri.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/kuala-lumpur/hari-raya-aidilfitri.jpg",
           "photoCredit": "Photo: PulauKakatua19 / CC BY-SA 4.0 (Wikimedia Commons)"
         }
       ]
@@ -56594,7 +56594,7 @@
             "lat": 35.025264,
             "lon": 135.762345
           },
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Aoi_Matsuri.jpg/1280px-Aoi_Matsuri.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/kyoto/aoi-matsuri.jpg",
           "photoCredit": "Photo: Japanexperterna / CC BY-SA 3.0 (Wikimedia Commons)"
         },
         {
@@ -56609,7 +56609,7 @@
             "lat": 35.003603,
             "lon": 135.778261
           },
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Kyoto_Gion_Matsuri_20100716_2544.jpg/1280px-Kyoto_Gion_Matsuri_20100716_2544.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/kyoto/gion-matsuri.jpg",
           "photoCredit": "Photo: Jakub Hałun / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -56620,7 +56620,7 @@
             "Oct"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Jidai_Matsuri_2009_457.jpg/1280px-Jidai_Matsuri_2009_457.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/kyoto/jidai-matsuri.jpg",
           "photoCredit": "Photo: Corpse Reviver / CC BY-SA 3.0 (Wikimedia Commons)"
         }
       ]
@@ -57817,7 +57817,7 @@
             "Aug"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Wikimania_2016_-_Festival_di_Bellagio_e_del_Lago_di_Como.jpg/1280px-Wikimania_2016_-_Festival_di_Bellagio_e_del_Lago_di_Como.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/lake-como/bellagio-e-lago-di-como-festival.jpg",
           "photoCredit": "Photo: Festival di Bellagio e del Lago di Como / CC BY-SA 4.0 (Wikimedia Commons)"
         }
       ]
@@ -59909,7 +59909,7 @@
             "lat": 36.119422,
             "lon": -115.174254
           },
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Las_Vegas_Grand_Prix_%2854942281143%29.jpg/1280px-Las_Vegas_Grand_Prix_%2854942281143%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/las-vegas/formula-1-las-vegas-grand-prix.jpg",
           "photoCredit": "Photo: DHSgov / Public domain (Wikimedia Commons)"
         },
         {
@@ -59920,7 +59920,7 @@
             "Dec"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Kristi_Noem_on_horseback_at_the_Wrangler_National_Finals_Rodeo_%28NFR%29_in_Las_Vegas%2C_Nevada%2C_December_6%2C_2025_-_9.jpg/1280px-Kristi_Noem_on_horseback_at_the_Wrangler_National_Finals_Rodeo_%28NFR%29_in_Las_Vegas%2C_Nevada%2C_December_6%2C_2025_-_9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/las-vegas/wrangler-national-finals-rodeo.jpg",
           "photoCredit": "Photo: DHSgov / Public domain (Wikimedia Commons)"
         },
         {
@@ -59931,7 +59931,7 @@
             "Dec"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/2020_New_Years_Eve_on_the_Las_Vegas_Strip.jpg/1280px-2020_New_Years_Eve_on_the_Las_Vegas_Strip.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/las-vegas/new-year-s-eve-on-the-strip.jpg",
           "photoCredit": "Photo: Tydence Davis / CC BY 2.0 (Wikimedia Commons)"
         }
       ]
@@ -60933,7 +60933,7 @@
             "Jul"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Hemis_Monastery_02.jpg/1280px-Hemis_Monastery_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/leh-ladakh/hemis-festival.jpg",
           "photoCredit": "Photo: Bernard Gagnon Canon EOS REBEL T4i / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -60944,7 +60944,7 @@
             "Sep"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Sindhu_Darshan_festival%2C_India.jpg/1280px-Sindhu_Darshan_festival%2C_India.jpg",
+          "photo": "/images/events/leh-ladakh/ladakh-festival.jpg",
           "photoCredit": "Photo: Peter Olshevsky / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -60972,7 +60972,7 @@
             "lat": 34.140948,
             "lon": 77.483101
           },
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Sindhu_Darshan_festival_performance%2C_India.jpg/1280px-Sindhu_Darshan_festival_performance%2C_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/leh-ladakh/sindhu-darshan.jpg",
           "photoCredit": "Photo: Peter Olshevsky / CC BY-SA 4.0 (Wikimedia Commons)"
         }
       ]
@@ -62030,7 +62030,7 @@
             "Oct"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Canciller%C3%ADa_rinde_homenaje_al_Se%C3%B1or_de_los_Milagros_-_48920646318.jpg/1280px-Canciller%C3%ADa_rinde_homenaje_al_Se%C3%B1or_de_los_Milagros_-_48920646318.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/lima/senor-de-los-milagros-lord-of-miracles.jpg",
           "photoCredit": "Photo: Ministerio de Relaciones Exteriores / CC BY-SA 2.0 (Wikimedia Commons)"
         },
         {
@@ -62041,7 +62041,7 @@
             "Jul"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/DESFILE_REGIONAL_DE_FIESTAS_PATRIAS_A_ORILLAS_DEL_MAR_CHALACO_CALLAO.jpg/1280px-DESFILE_REGIONAL_DE_FIESTAS_PATRIAS_A_ORILLAS_DEL_MAR_CHALACO_CALLAO.jpg",
+          "photo": "/images/events/lima/fiestas-patrias-independence.jpg",
           "photoCredit": "Photo: GORE Callao / Public domain (Wikimedia Commons)"
         }
       ]
@@ -63177,7 +63177,7 @@
             "Jun"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Festa_de_St._Ant%C3%B3nio_Lisbon_%285944356905%29.jpg/1280px-Festa_de_St._Ant%C3%B3nio_Lisbon_%285944356905%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/lisbon/festas-de-santo-antonio-santos-populares.jpg",
           "photoCredit": "Photo: Christine  Zenino from Chicago, US / CC BY 2.0 (Wikimedia Commons)"
         }
       ]
@@ -65086,7 +65086,7 @@
             "Jul"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Centre_Court%2C_28_March_2012.jpg/1280px-Centre_Court%2C_28_March_2012.jpg",
+          "photo": "/images/events/london/wimbledon.jpg",
           "photoCredit": "Photo: Daniel from United Kingdom / CC BY 2.0 (Wikimedia Commons)"
         },
         {
@@ -65101,7 +65101,7 @@
             "lat": 51.540805,
             "lon": -0.157244
           },
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Chloe_-_sculpture_at_Frieze_Art_Fair_-_geograph.org.uk_-_3704322.jpg/1280px-Chloe_-_sculpture_at_Frieze_Art_Fair_-_geograph.org.uk_-_3704322.jpg",
+          "photo": "/images/events/london/frieze-london.jpg",
           "photoCredit": "Photo: David Hawgood / CC BY-SA 2.0 (Wikimedia Commons)"
         },
         {
@@ -65112,7 +65112,7 @@
             "May"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Chelsea_Flower_Show_visitors_at_Royal_Hospital_Chelsea.jpg/1280px-Chelsea_Flower_Show_visitors_at_Royal_Hospital_Chelsea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/london/chelsea-flower-show.jpg",
           "photoCredit": "Photo: NaturalWorld1963 / CC BY-SA 4.0 (Wikimedia Commons)"
         }
       ]
@@ -66526,7 +66526,7 @@
             "Apr"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Coachella_2006_%28140153375%29.jpg/1280px-Coachella_2006_%28140153375%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/los-angeles/coachella-valley-music-and-arts-festival.jpg",
           "photoCredit": "Photo: Barry Mulling from Los Angeles, USA / CC BY-SA 2.0 (Wikimedia Commons)"
         },
         {
@@ -67880,7 +67880,7 @@
             "May"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Parque_de_San_Isidro_-_Fiestas_de_San_Isidro_2023_-_Madrid_03.jpg/1280px-Parque_de_San_Isidro_-_Fiestas_de_San_Isidro_2023_-_Madrid_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/madrid/fiestas-de-san-isidro.jpg",
           "photoCredit": "Photo: Javier Perez Montes / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -67891,7 +67891,7 @@
             "Jul"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Noria_del_Mad_Cool_2016.jpg/1280px-Noria_del_Mad_Cool_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/madrid/mad-cool-festival.jpg",
           "photoCredit": "Photo: Yosoloyo / CC BY-SA 4.0 (Wikimedia Commons)"
         }
       ]
@@ -68870,7 +68870,7 @@
             "Apr"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Combate_Naval_Mazatlan%2C_Sin._Mex._%22carnaval_de_Mazatlan%22_Oro_mar_adentro.jpg/1280px-Combate_Naval_Mazatlan%2C_Sin._Mex._%22carnaval_de_Mazatlan%22_Oro_mar_adentro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/mahe-seychelles/carnaval-international-de-victoria.jpg",
           "photoCredit": "Photo: Monica Guadalupe Delgado Del Real / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -70244,7 +70244,7 @@
           "note": "End of Ramadan, marked island-wide; dates follow the lunar calendar so confirm close to travel.",
           "months": [],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Eid_Ul_Fitr_festival_26_at_Uttara_563.jpg/1280px-Eid_Ul_Fitr_festival_26_at_Uttara_563.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/male-maldives/eid-ul-fitr-kuda-eid.jpg",
           "photoCredit": "Photo: Wasiul Bahar / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -70257,7 +70257,7 @@
             "lat": 4.124145,
             "lon": 73.463064
           },
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Eid_Prayers_at_Barashalghar%2C_Debidwar%2C_Comilla.jpg/1280px-Eid_Prayers_at_Barashalghar%2C_Debidwar%2C_Comilla.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/male-maldives/eid-ul-adha-bodu-eid.jpg",
           "photoCredit": "Photo: Mohammed Tawsif Salam / CC BY-SA 3.0 (Wikimedia Commons)"
         },
         {
@@ -71216,7 +71216,7 @@
             "Oct"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Kullu_Dussehra_-_main_procession.jpg/1280px-Kullu_Dussehra_-_main_procession.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/manali/kullu-dussehra-nearby.jpg",
           "photoCredit": "Photo: Kondephy / CC BY-SA 3.0 (Wikimedia Commons)"
         },
         {
@@ -71261,7 +71261,7 @@
             "lat": 32.262241,
             "lon": 77.026627
           },
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Spiti_River_Kaza_Himachal_Jun18_D72_7232.jpg/1280px-Spiti_River_Kaza_Himachal_Jun18_D72_7232.jpg",
+          "photo": "/images/events/manali/spiti-high-pass-access-season.jpg",
           "photoCredit": "Photo: This Photo was taken by Timothy A. Gonsalves.  Feel free to use my photos, but p / CC BY-SA 4.0 (Wikimedia Commons)"
         }
       ]
@@ -72531,7 +72531,7 @@
             "Jun"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Jemaa_el-Fnaa_at_night_-_Maroco_-_Marrakesh.jpg/1280px-Jemaa_el-Fnaa_at_night_-_Maroco_-_Marrakesh.jpg",
+          "photo": "/images/events/marrakech/marrakech-comedy-festival-marrakech-du-rire.jpg",
           "photoCredit": "Photo: Andrzej Kosiński / CC BY-SA 3.0 (Wikimedia Commons)"
         },
         {
@@ -73562,7 +73562,7 @@
             "Feb"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Thaipoosam_Cavadee_Festival_in_Mauritius_%285373110596%29.jpg/1280px-Thaipoosam_Cavadee_Festival_in_Mauritius_%285373110596%29.jpg",
+          "photo": "/images/events/mauritius-city/thaipoosam-cavadee.jpg",
           "photoCredit": "Photo: carrotmadman6 from Mauritius / CC BY 2.0 (Wikimedia Commons)"
         },
         {
@@ -73590,7 +73590,7 @@
             "Feb"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Chinese_New_Year_decorations_in_Chinatown%2C_Singapore%2C_20240122_0852_2965.jpg/1280px-Chinese_New_Year_decorations_in_Chinatown%2C_Singapore%2C_20240122_0852_2965.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/mauritius-city/chinese-new-year-spring-festival.jpg",
           "photoCredit": "Photo: Jakub Hałun / CC BY 4.0 (Wikimedia Commons)"
         },
         {
@@ -73602,7 +73602,7 @@
             "Nov"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Mauritius_Divali_Diwali_Lighting_and_Decorations_2010.jpg/1280px-Mauritius_Divali_Diwali_Lighting_and_Decorations_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/mauritius-city/divali.jpg",
           "photoCredit": "Photo: carrotmadman6 / CC BY 2.0 (Wikimedia Commons)"
         }
       ]
@@ -74956,7 +74956,7 @@
             "Jan"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Australian_Open_Kids_Tennis_Day.jpg/1280px-Australian_Open_Kids_Tennis_Day.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/melbourne/australian-open.jpg",
           "photoCredit": "Photo: KeepActive Australia from Melbourne, VIC, Australia / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -74968,7 +74968,7 @@
             "Apr"
           ],
           "location": null,
-          "photo": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Dashan_at_the_2017_Melbourne_International_Comedy_Festival.jpg",
+          "photo": "/images/events/melbourne/melbourne-international-comedy-festival.jpg",
           "photoCredit": "Photo: Arthur Jau / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -74979,7 +74979,7 @@
             "Nov"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Protectionist_before_the_2014_Melbourne_Cup.jpg/1280px-Protectionist_before_the_2014_Melbourne_Cup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/melbourne/melbourne-cup-carnival.jpg",
           "photoCredit": "Photo: Chris Phutully / CC BY 2.0 (Wikimedia Commons)"
         }
       ]
@@ -76181,7 +76181,7 @@
             "lat": 19.427,
             "lon": -99.167669
           },
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Dia_de_muertos_en_Jalisco.jpg/1280px-Dia_de_muertos_en_Jalisco.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/mexico-city/dia-de-muertos-parade.jpg",
           "photoCredit": "Photo: DANA ALEXA CORDERO CHAVEZ / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -76192,7 +76192,7 @@
             "Feb"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Zona_Maco_2017_HJ2A7246_%2832792099305%29.jpg/1280px-Zona_Maco_2017_HJ2A7246_%2832792099305%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/mexico-city/zona-maco.jpg",
           "photoCredit": "Photo: Gobierno CDMX / CC0 (Wikimedia Commons)"
         },
         {
@@ -76203,7 +76203,7 @@
             "Sep"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Ceremonia_del_Grito_de_Independencia_2023_-_3.jpg/1280px-Ceremonia_del_Grito_de_Independencia_2023_-_3.jpg",
+          "photo": "/images/events/mexico-city/grito-de-independencia.jpg",
           "photoCredit": "Photo: ProtoplasmaKid / CC BY-SA 4.0 (Wikimedia Commons)"
         }
       ]
@@ -77327,7 +77327,7 @@
             "Dec"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Art_Basel_Miami_Beach_2021_03.jpg/1280px-Art_Basel_Miami_Beach_2021_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/miami/art-basel-miami-beach.jpg",
           "photoCredit": "Photo: Jennifer 8. Lee / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -77342,7 +77342,7 @@
             "lat": 25.777383,
             "lon": -80.185472
           },
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Bayfront_Park%2C_Miami%2C_FL%2C_USA_-_2014_Ultra_Music_Festival.jpg/1280px-Bayfront_Park%2C_Miami%2C_FL%2C_USA_-_2014_Ultra_Music_Festival.jpg",
+          "photo": "/images/events/miami/ultra-music-festival.jpg",
           "photoCredit": "Photo: Pietro / CC BY-SA 3.0 (Wikimedia Commons)"
         },
         {
@@ -77353,7 +77353,7 @@
             "Feb"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Sea_Isle_Marina_Miami_Florida_right_20100213.jpg/1280px-Sea_Isle_Marina_Miami_Florida_right_20100213.jpg",
+          "photo": "/images/events/miami/miami-international-boat-show.jpg",
           "photoCredit": "Photo: Averette / CC BY 3.0 (Wikimedia Commons)"
         }
       ]
@@ -78719,7 +78719,7 @@
             "Sep"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Milan_Fashion_Week_2.jpg/1280px-Milan_Fashion_Week_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/milan/milan-fashion-week.jpg",
           "photoCredit": "Photo: br1dotcom / CC BY-SA 2.0 (Wikimedia Commons)"
         },
         {
@@ -79858,7 +79858,7 @@
             "Sep"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Ganesh_Chaturthi_festival_large-scale_production_of_statues_Mumbai_India_14Aug2006.jpg/1280px-Ganesh_Chaturthi_festival_large-scale_production_of_statues_Mumbai_India_14Aug2006.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/mumbai/ganesh-chaturthi.jpg",
           "photoCredit": "Photo: Everhard van Eimeren / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -79869,7 +79869,7 @@
             "Feb"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Entrance_gate_to_Kala_Ghoda_Arts_Festival_2026.jpg/1280px-Entrance_gate_to_Kala_Ghoda_Arts_Festival_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/mumbai/kala-ghoda-arts-festival.jpg",
           "photoCredit": "Photo: DesiBoy101 / CC BY 4.0 (Wikimedia Commons)"
         },
         {
@@ -79881,7 +79881,7 @@
             "Nov"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Diwali_celebrations_near_Marina_Skies%2C_Hyderabad.jpg/1280px-Diwali_celebrations_near_Marina_Skies%2C_Hyderabad.jpg",
+          "photo": "/images/events/mumbai/diwali.jpg",
           "photoCredit": "Photo: iMahesh / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -81025,7 +81025,7 @@
             "Mar"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Nockherberg_M%C3%BCnchen_Starkbierfest_2007.jpg/1280px-Nockherberg_M%C3%BCnchen_Starkbierfest_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/munich/starkbierfest-strong-beer-season.jpg",
           "photoCredit": "Photo: Wolfgang Kopp / CC BY-SA 2.0 de (Wikimedia Commons)"
         },
         {
@@ -81037,7 +81037,7 @@
             "Oct"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Oktoberfest_Schaugeschaeft_2007_Richard_Bartz.jpg/1280px-Oktoberfest_Schaugeschaeft_2007_Richard_Bartz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/munich/oktoberfest.jpg",
           "photoCredit": "Photo: Richard Bartz, Munich aka Makro Freak / CC BY-SA 2.5 (Wikimedia Commons)"
         },
         {
@@ -81049,7 +81049,7 @@
             "Dec"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Stand_Winter_Chalet_auf_dem_Wintertollwood_Festival_2022-12-10.jpg/1280px-Stand_Winter_Chalet_auf_dem_Wintertollwood_Festival_2022-12-10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/munich/tollwood-winter-festival.jpg",
           "photoCredit": "Photo: Strubbl / CC BY-SA 4.0 (Wikimedia Commons)"
         }
       ]
@@ -81997,7 +81997,7 @@
           "note": "The hills turn blue-violet when the rare kurinji flowers en masse; a genuine once-in-a-cycle event.",
           "months": [],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Neelakurinji_flowers_%28Strobilanthes_kunthiana%29_in_Munnar%2C_Kerala_11.jpg/1280px-Neelakurinji_flowers_%28Strobilanthes_kunthiana%29_in_Munnar%2C_Kerala_11.jpg",
+          "photo": "/images/events/munnar/neelakurinji-bloom.jpg",
           "photoCredit": "Photo: Shiv's fotografia / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -82009,7 +82009,7 @@
             "Sep"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Onam_Thriuvathira_Dance.jpg/1280px-Onam_Thriuvathira_Dance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/munnar/onam.jpg",
           "photoCredit": "Photo: S y a m  S u b r a m a n i a n / CC BY-SA 2.0 (Wikimedia Commons)"
         },
         {
@@ -82033,7 +82033,7 @@
             "Dec"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Munnar_-_Lockhart_tea_plantation.jpg/1280px-Munnar_-_Lockhart_tea_plantation.jpg",
+          "photo": "/images/events/munnar/christmas-new-year.jpg",
           "photoCredit": "Photo: Ingo Mehling / CC BY-SA 4.0 (Wikimedia Commons)"
         }
       ]
@@ -83027,7 +83027,7 @@
             "Feb"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Muscat_Festival_%2826283225478%29.jpg/1280px-Muscat_Festival_%2826283225478%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/muscat/muscat-festival.jpg",
           "photoCredit": "Photo: Orvs / CC BY 2.0 (Wikimedia Commons)"
         },
         {
@@ -83039,7 +83039,7 @@
             "Aug"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Salalah_during_khareef_season_meadows.jpg/1280px-Salalah_during_khareef_season_meadows.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/muscat/salalah-khareef.jpg",
           "photoCredit": "Photo: Poojaryroshan / CC BY-SA 4.0 (Wikimedia Commons)"
         }
       ]
@@ -84060,7 +84060,7 @@
             "Aug"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Agios_Stefanos_Mykonos.jpg/1280px-Agios_Stefanos_Mykonos.jpg",
+          "photo": "/images/events/mykonos/xlsior-festival.jpg",
           "photoCredit": "Photo: Radosław Botev / Attribution (Wikimedia Commons)"
         }
       ]
@@ -85140,7 +85140,7 @@
             "Mar"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/2021_Toyota_Yaris_WRC_Katsuta.jpg/1280px-2021_Toyota_Yaris_WRC_Katsuta.jpg",
+          "photo": "/images/events/nairobi-mara/wrc-safari-rally-kenya.jpg",
           "photoCredit": "Photo: TTTNIS / CC0 (Wikimedia Commons)"
         },
         {
@@ -87006,7 +87006,7 @@
             "Sep"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/US_OPEN_2019_%2848667665777%29.jpg/1280px-US_OPEN_2019_%2848667665777%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/new-york/us-open-tennis.jpg",
           "photoCredit": "Photo: jeff horne from Richmond, VA / CC BY 2.0 (Wikimedia Commons)"
         },
         {
@@ -87017,7 +87017,7 @@
             "Nov"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Macy%27s_Thanksgiving_Parade%2C_New_York_City%2C_2005_44.jpg/1280px-Macy%27s_Thanksgiving_Parade%2C_New_York_City%2C_2005_44.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/new-york/macy-s-thanksgiving-day-parade.jpg",
           "photoCredit": "Photo: cisc1970 / CC BY 2.0 (Wikimedia Commons)"
         }
       ]
@@ -88193,7 +88193,7 @@
             "lat": 43.685989,
             "lon": 7.237476
           },
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/CARNIVAL_PARADE_OF_LIGHTS_-_Carnaval_de_Nice_%2853534570637%29.jpg/1280px-CARNIVAL_PARADE_OF_LIGHTS_-_Carnaval_de_Nice_%2853534570637%29.jpg",
+          "photo": "/images/events/nice-riviera/nice-carnival.jpg",
           "photoCredit": "Photo: Carnaval.com Studios from The Inner Mission San Francisco, Earth / CC BY 2.0 (Wikimedia Commons)"
         },
         {
@@ -88205,7 +88205,7 @@
             "Mar"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/F%C3%AAte_du_Citron%C2%AE_Menton.jpg/1280px-F%C3%AAte_du_Citron%C2%AE_Menton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/nice-riviera/fete-du-citron-menton-lemon-festival.jpg",
           "photoCredit": "Photo: Nicolas sartore / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -88216,7 +88216,7 @@
             "Jul"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Fortier_Fest_2013.jpg/1280px-Fortier_Fest_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/nice-riviera/nice-jazz-fest.jpg",
           "photoCredit": "Photo: Bart Everson / CC BY 2.0 (Wikimedia Commons)"
         },
         {
@@ -88227,7 +88227,7 @@
             "Jul"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Stevie_Wonder_%26_Gregory_Porter_-_Jazz_%C3%A0_Juan.JPG/1280px-Stevie_Wonder_%26_Gregory_Porter_-_Jazz_%C3%A0_Juan.JPG",
+          "photo": "/images/events/nice-riviera/jazz-a-juan-juan-les-pins.jpg",
           "photoCredit": "Photo: Frantogian / CC BY-SA 4.0 (Wikimedia Commons)"
         }
       ]
@@ -89323,7 +89323,7 @@
             "lat": 34.69609,
             "lon": 135.512765
           },
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Osaka_Central_Food_Markets_Float_Boat_at_Tenjin_Matsuri_Festival_2025.jpg/1280px-Osaka_Central_Food_Markets_Float_Boat_at_Tenjin_Matsuri_Festival_2025.jpg",
+          "photo": "/images/events/osaka/tenjin-matsuri.jpg",
           "photoCredit": "Photo: Mr.ちゅらさん / CC BY 4.0 (Wikimedia Commons)"
         },
         {
@@ -89334,7 +89334,7 @@
             "Sep"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Kishiwada-Danjiri-Matsuri_Osaka_Japan.jpg/1280px-Kishiwada-Danjiri-Matsuri_Osaka_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/osaka/kishiwada-danjiri-matsuri.jpg",
           "photoCredit": "Photo: Kounosu / CC BY-SA 3.0 (Wikimedia Commons)"
         }
       ]
@@ -91192,7 +91192,7 @@
             "lat": 48.847,
             "lon": 2.2534
           },
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Maria_Sharapova_at_2009_Roland_Garros%2C_Paris%2C_France.jpg/1280px-Maria_Sharapova_at_2009_Roland_Garros%2C_Paris%2C_France.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/paris/roland-garros-french-open.jpg",
           "photoCredit": "Photo: Misty,  Sydney, Australia / CC BY-SA 3.0 (Wikimedia Commons)"
         },
         {
@@ -91207,7 +91207,7 @@
             "lat": 48.8674,
             "lon": 2.3634
           },
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/F%C3%AAte_de_la_Musique_2008%2C_Paris_2.jpg/1280px-F%C3%AAte_de_la_Musique_2008%2C_Paris_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/paris/fete-de-la-musique.jpg",
           "photoCredit": "Photo: Syced / CC0 (Wikimedia Commons)"
         },
         {
@@ -91222,7 +91222,7 @@
             "lat": 48.8566,
             "lon": 2.3522
           },
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Nuit_Blanche_Paris_2011_-_Montmartre_2.jpg/1280px-Nuit_Blanche_Paris_2011_-_Montmartre_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/paris/nuit-blanche.jpg",
           "photoCredit": "Photo: Rog01 / CC BY-SA 2.0 (Wikimedia Commons)"
         },
         {
@@ -91237,7 +91237,7 @@
             "lat": 48.8867,
             "lon": 2.3431
           },
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/F%C3%AAte_des_Vendanges_de_Montmartre_2014_009.jpg/1280px-F%C3%AAte_des_Vendanges_de_Montmartre_2014_009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/paris/fete-des-vendanges-de-montmartre.jpg",
           "photoCredit": "Photo: ErasmusOfParis / CC BY-SA 2.0 (Wikimedia Commons)"
         }
       ]
@@ -92248,7 +92248,7 @@
             "lat": 27.426693,
             "lon": 89.422666
           },
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Paro_Tshechu.jpg/1280px-Paro_Tshechu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/paro/paro-tshechu.jpg",
           "photoCredit": "Photo: Nimlham / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -92259,7 +92259,7 @@
             "Sep"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Thimphu_Tsechu_2014-10-04_a.jpg/1280px-Thimphu_Tsechu_2014-10-04_a.jpg",
+          "photo": "/images/events/paro/thimphu-tshechu.jpg",
           "photoCredit": "Photo: Cfynn / CC BY-SA 3.0 (Wikimedia Commons)"
         },
         {
@@ -93638,7 +93638,7 @@
             "Oct"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Night_streets_at_Phuket_Vegetarian_Festival._October%2C_2016._Phuket%2C_Thailand_%2830177427206%29.jpg/1280px-Night_streets_at_Phuket_Vegetarian_Festival._October%2C_2016._Phuket%2C_Thailand_%2830177427206%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/phuket/phuket-vegetarian-festival.jpg",
           "photoCredit": "Photo: Phuket@photographer.net from Phuket, Thailand / CC BY 2.0 (Wikimedia Commons)"
         },
         {
@@ -93649,7 +93649,7 @@
             "Nov"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Chiang_Mai%2C_Loy_Krathong_Lantern_Festival%2C_Thailand.jpg/1280px-Chiang_Mai%2C_Loy_Krathong_Lantern_Festival%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/phuket/loy-krathong.jpg",
           "photoCredit": "Photo: Vyacheslav Argenberg / CC BY 4.0 (Wikimedia Commons)"
         }
       ]
@@ -94708,7 +94708,7 @@
             "Jun"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Festa_de_Sao_Joao_%28Porto%29.jpg/1280px-Festa_de_Sao_Joao_%28Porto%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/porto/festa-de-sao-joao-do-porto.jpg",
           "photoCredit": "Photo: Hugo Cadavez from Portugal / CC BY 2.0 (Wikimedia Commons)"
         },
         {
@@ -94719,7 +94719,7 @@
             "Jun"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/NOS_Primavera_Sound_2015_02.jpg/1280px-NOS_Primavera_Sound_2015_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/porto/nos-primavera-sound.jpg",
           "photoCredit": "Photo: Bene Riobó / CC BY-SA 4.0 (Wikimedia Commons)"
         }
       ]
@@ -95807,7 +95807,7 @@
             "Jun"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/The_Rudolfinum%2C_Prague_-_7930.jpg/1280px-The_Rudolfinum%2C_Prague_-_7930.jpg",
+          "photo": "/images/events/prague/prague-spring-international-music-festival.jpg",
           "photoCredit": "Photo: Jorge Royan / CC BY-SA 3.0 (Wikimedia Commons)"
         },
         {
@@ -95818,7 +95818,7 @@
             "Oct"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Signal_festival_2015%2C_Rudolfinum_%2810%29.jpg/1280px-Signal_festival_2015%2C_Rudolfinum_%2810%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/prague/signal-festival.jpg",
           "photoCredit": "Photo: Shadster / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -95830,7 +95830,7 @@
             "Dec"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Prague_Christmas_Markets.jpg/1280px-Prague_Christmas_Markets.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/prague/christmas-markets.jpg",
           "photoCredit": "Photo: Pudelek / CC BY-SA 4.0 (Wikimedia Commons)"
         }
       ]
@@ -96859,7 +96859,7 @@
             "Jun"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Winter_Queenstown_9_%288168034978%29.jpg/1280px-Winter_Queenstown_9_%288168034978%29.jpg",
+          "photo": "/images/events/queenstown/queenstown-winter-festival.jpg",
           "photoCredit": "Photo: Bernard Spragg. NZ from Christchurch, New Zealand / CC0 (Wikimedia Commons)"
         },
         {
@@ -97753,7 +97753,7 @@
             "Oct"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Sambar_deer_at_Ranthambore_National_Park.jpg/1280px-Sambar_deer_at_Ranthambore_National_Park.jpg",
+          "photo": "/images/events/ranthambore/park-reopening-after-monsoon.jpg",
           "photoCredit": "Photo: Vabinik / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -98714,7 +98714,7 @@
             "Nov"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Gusgus_At_Airwaves_2012_%2825283669%29.jpeg/1280px-Gusgus_At_Airwaves_2012_%2825283669%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/reykjavik/iceland-airwaves.jpg",
           "photoCredit": "Photo: Roman G / CC BY 3.0 (Wikimedia Commons)"
         },
         {
@@ -98725,7 +98725,7 @@
             "Aug"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/StefanHilmarsson7.JPG/1280px-StefanHilmarsson7.JPG",
+          "photo": "/images/events/reykjavik/reykjavik-culture-night-menningarnott.jpg",
           "photoCredit": "Photo: Ice-72 / CC BY-SA 3.0 (Wikimedia Commons)"
         },
         {
@@ -98736,7 +98736,7 @@
             "Feb"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/2024_Winter_Festival_of_Lights_11.jpg/1280px-2024_Winter_Festival_of_Lights_11.jpg",
+          "photo": "/images/events/reykjavik/winter-lights-festival.jpg",
           "photoCredit": "Photo: Hannah Clover / CC BY-SA 4.0 (Wikimedia Commons)"
         }
       ]
@@ -99864,7 +99864,7 @@
             "lat": -22.967013,
             "lon": -43.179185
           },
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/R%C3%A9veillon_party_%2811695750415%29.jpg/1280px-R%C3%A9veillon_party_%2811695750415%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/rio-de-janeiro/reveillon-new-year-s-eve-on-copacabana.jpg",
           "photoCredit": "Photo: Leandro Neumann Ciuffo / CC BY 2.0 (Wikimedia Commons)"
         },
         {
@@ -99875,7 +99875,7 @@
             "Feb"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Carnival_in_Rio_de_Janeiro.jpg/1280px-Carnival_in_Rio_de_Janeiro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/rio-de-janeiro/rio-carnival.jpg",
           "photoCredit": "Photo: Sergio Luiz / CC BY 2.0 (Wikimedia Commons)"
         },
         {
@@ -99886,7 +99886,7 @@
             "Jan"
           ],
           "location": null,
-          "photo": "https://upload.wikimedia.org/wikipedia/commons/8/81/Prociss%C3%A3o_na_Festa_de_S%C3%A3o_Sebasti%C3%A3o%2C_em_Xapuri_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "photo": "/images/events/rio-de-janeiro/festa-de-sao-sebastiao.jpg",
           "photoCredit": "Photo: Agência de Notícias do Acre / CC BY 2.0 (Wikimedia Commons)"
         }
       ]
@@ -100799,7 +100799,7 @@
             "Mar"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/The_Vice_President%2C_Shri_M._Venkaiah_Naidu_at_the_International_Yoga_Festival%2C_at_Parmarth_Niketan%2C_Rishikesh%2C_in_Uttarakhand_.jpg/1280px-The_Vice_President%2C_Shri_M._Venkaiah_Naidu_at_the_International_Yoga_Festival%2C_at_Parmarth_Niketan%2C_Rishikesh%2C_in_Uttarakhand_.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/rishikesh/international-yoga-festival.jpg",
           "photoCredit": "Photo: Vice President's Secretariat / GODL-India (Wikimedia Commons)"
         },
         {
@@ -100826,7 +100826,7 @@
             "Nov"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Kartik_Purnima_Worship_in_Pune.jpg/1280px-Kartik_Purnima_Worship_in_Pune.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/rishikesh/kartik-purnima-ganga-aarti-season.jpg",
           "photoCredit": "Photo: आर्या जोशी / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -102232,7 +102232,7 @@
             "Apr"
           ],
           "location": null,
-          "photo": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Celebrazione_del_2777_Natale_di_Roma_-_Pietas_Comunit%C3%A0_Gentile_2.jpg",
+          "photo": "/images/events/rome/natale-di-roma.jpg",
           "photoCredit": "Photo: Giuseppe Barbera / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -102258,7 +102258,7 @@
             "Apr"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Easter_palms_waving_by_faithful_in_Liturgy_of_the_Eucharist_in_Holy_Week.jpg/1280px-Easter_palms_waving_by_faithful_in_Liturgy_of_the_Eucharist_in_Holy_Week.jpg",
+          "photo": "/images/events/rome/holy-week-easter.jpg",
           "photoCredit": "Photo: P1898 / CC BY 4.0 (Wikimedia Commons)"
         }
       ]
@@ -103205,7 +103205,7 @@
             "Jan"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/2019_01_28_Churf%C3%BCrststra%C3%9Fe%2C_Salzburg.jpg/1280px-2019_01_28_Churf%C3%BCrststra%C3%9Fe%2C_Salzburg.jpg",
+          "photo": "/images/events/salzburg/mozart-week.jpg",
           "photoCredit": "Photo: Ray Swi-hymn from Sijhih-Taipei, Taiwan / CC BY-SA 2.0 (Wikimedia Commons)"
         },
         {
@@ -103217,7 +103217,7 @@
             "Aug"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Free_Festival-Salzburg_7038.JPG/1280px-Free_Festival-Salzburg_7038.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/salzburg/salzburg-festival.jpg",
           "photoCredit": "Photo: Karl Gruber / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -103229,7 +103229,7 @@
             "Dec"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Salzburgresidenzplatz_christmasmarket_dec2024.jpg/1280px-Salzburgresidenzplatz_christmasmarket_dec2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/salzburg/christmas-market-on-residenzplatz.jpg",
           "photoCredit": "Photo: Noahidsmith / CC BY-SA 4.0 (Wikimedia Commons)"
         }
       ]
@@ -104661,7 +104661,7 @@
             "Aug"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Windmills-_Outside_Lands.jpg/1280px-Windmills-_Outside_Lands.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/san-francisco/outside-lands.jpg",
           "photoCredit": "Photo: Alejandro De La Cruz / CC BY 2.0 (Wikimedia Commons)"
         },
         {
@@ -104672,7 +104672,7 @@
             "Oct"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Laurie_Lewis_and_the_Right_Hands_Hardly_Strictly_Bluegrass_Golden_Gate_Park_San_Francisco_CA_October_2009.jpg/1280px-Laurie_Lewis_and_the_Right_Hands_Hardly_Strictly_Bluegrass_Golden_Gate_Park_San_Francisco_CA_October_2009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/san-francisco/hardly-strictly-bluegrass.jpg",
           "photoCredit": "Photo: Eric Frommer / CC BY-SA 2.0 (Wikimedia Commons)"
         },
         {
@@ -104683,7 +104683,7 @@
             "Oct"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Blue_Angels_in_delta_formation_at_Fleet_Week_San_Francisco_2016.jpg/1280px-Blue_Angels_in_delta_formation_at_Fleet_Week_San_Francisco_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/san-francisco/fleet-week.jpg",
           "photoCredit": "Photo: Dllu / CC BY-SA 4.0 (Wikimedia Commons)"
         }
       ]
@@ -105838,7 +105838,7 @@
           "note": "A re-enactment of the volcano's eruption with fireworks over the caldera at Fira.",
           "months": [],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Ifestia_Festival_2010_%284935464287%29.jpg/1280px-Ifestia_Festival_2010_%284935464287%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/santorini/ifestia-festival.jpg",
           "photoCredit": "Photo: Klearchos Kapoutsis from Santorini, Greece / CC BY 2.0 (Wikimedia Commons)"
         },
         {
@@ -105850,7 +105850,7 @@
             "May"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Greek_Easter_-_Pyrgos_village_-_Santorini_-4.jpg/1280px-Greek_Easter_-_Pyrgos_village_-_Santorini_-4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/santorini/greek-orthodox-easter.jpg",
           "photoCredit": "Photo: Georgios Michos / CC BY-SA 4.0 (Wikimedia Commons)"
         }
       ]
@@ -107231,7 +107231,7 @@
             "Apr"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Cherry_blossom_season_at_Institute_for_Nature_Study.jpg/1280px-Cherry_blossom_season_at_Institute_for_Nature_Study.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/seoul/cherry-blossom-season.jpg",
           "photoCredit": "Photo: Syced / CC0 (Wikimedia Commons)"
         },
         {
@@ -107246,7 +107246,7 @@
             "lat": 37.568436,
             "lon": 126.99395
           },
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Seoul_Lantern_Festival_01.jpg/1280px-Seoul_Lantern_Festival_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/seoul/seoul-lantern-festival.jpg",
           "photoCredit": "Photo: Misokkkim / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -107257,7 +107257,7 @@
             "May"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/2008-Buddha%27s_Birthday-Seoul-01.jpg/1280px-2008-Buddha%27s_Birthday-Seoul-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/seoul/buddha-s-birthday-lotus-lantern-festival.jpg",
           "photoCredit": "Photo: Spc. Daniel Love / Public domain (Wikimedia Commons)"
         }
       ]
@@ -108406,7 +108406,7 @@
             "lat": 31.175618,
             "lon": 121.447345
           },
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Shanghai_-_Longhua_Tempel_-_0014.jpg/1280px-Shanghai_-_Longhua_Tempel_-_0014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/shanghai/longhua-temple-fair.jpg",
           "photoCredit": "Photo: Stefan Fussan / CC BY-SA 3.0 (Wikimedia Commons)"
         },
         {
@@ -108417,7 +108417,7 @@
             "Jun"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Shanghai_Grand_Theatre_2013.jpg/1280px-Shanghai_Grand_Theatre_2013.jpg",
+          "photo": "/images/events/shanghai/shanghai-international-film-festival.jpg",
           "photoCredit": "Photo: Bruno Corpet (Quoique) / CC BY-SA 3.0 (Wikimedia Commons)"
         }
       ]
@@ -109322,7 +109322,7 @@
             "lat": 31.108416,
             "lon": 77.13904
           },
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/The_Ridge_Shimla_3.jpg/1280px-The_Ridge_Shimla_3.jpg",
+          "photo": "/images/events/shimla/summer-festival.jpg",
           "photoCredit": "Photo: Virusism / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -110355,7 +110355,7 @@
             "Nov"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Om_Touk_02.jpg/1280px-Om_Touk_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/siem-reap/bon-om-touk-water-festival.jpg",
           "photoCredit": "Photo: Jeece69 / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -111939,7 +111939,7 @@
             "Oct"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Formula_One_Grand_Prix_Singapore_2013_-_Ferrari_3.jpg/1280px-Formula_One_Grand_Prix_Singapore_2013_-_Ferrari_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/singapore-city/singapore-grand-prix.jpg",
           "photoCredit": "Photo: Benjamin Goetzinger / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -111951,7 +111951,7 @@
             "Feb"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Chinese_New_Year_decorations_in_Chinatown%2C_Singapore%2C_20240122_0852_2963.jpg/1280px-Chinese_New_Year_decorations_in_Chinatown%2C_Singapore%2C_20240122_0852_2963.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/singapore-city/chinese-new-year.jpg",
           "photoCredit": "Photo: Jakub Hałun / CC BY 4.0 (Wikimedia Commons)"
         },
         {
@@ -111962,7 +111962,7 @@
             "Jan"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Interior_of_the_National_Gallery_Singapore.jpg/1280px-Interior_of_the_National_Gallery_Singapore.jpg",
+          "photo": "/images/events/singapore-city/singapore-art-week.jpg",
           "photoCredit": "Photo: Basile Morin / CC BY-SA 4.0 (Wikimedia Commons)"
         }
       ]
@@ -112932,7 +112932,7 @@
             "lat": 34.096705,
             "lon": 74.880755
           },
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Tulip-Fastival-Kashmir-Valley-Shringar.jpg/1280px-Tulip-Fastival-Kashmir-Valley-Shringar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/srinagar/tulip-festival.jpg",
           "photoCredit": "Photo: theholidayindia.com / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -112947,7 +112947,7 @@
             "lat": 34.105964,
             "lon": 74.81639
           },
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Almond_%28250981015%29.jpeg/1280px-Almond_%28250981015%29.jpeg",
+          "photo": "/images/events/srinagar/almond-blossom-season.jpg",
           "photoCredit": "Photo: Fuoco Fotografía / CC BY-SA 3.0 (Wikimedia Commons)"
         },
         {
@@ -112963,7 +112963,7 @@
             "lat": 34.03938,
             "lon": 74.87998
           },
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Saffron_From_Pampore.jpg/1280px-Saffron_From_Pampore.jpg",
+          "photo": "/images/events/srinagar/saffron-harvest-pampore-nearby.jpg",
           "photoCredit": "Photo: Umarsami / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -112979,7 +112979,7 @@
             "lat": 34.113723,
             "lon": 74.870006
           },
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Dal_lake_srinagar.jpg/1280px-Dal_lake_srinagar.jpg",
+          "photo": "/images/events/srinagar/shikara-festival.jpg",
           "photoCredit": "Photo: Mir Auqib / CC BY-SA 4.0 (Wikimedia Commons)"
         }
       ]
@@ -113989,7 +113989,7 @@
             "Jan"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/30th_St._Moritz_Polo_World_Cup_on_Snow_-_20140202_-_Cartier_vs_Ralph_Lauren_18.jpg/1280px-30th_St._Moritz_Polo_World_Cup_on_Snow_-_20140202_-_Cartier_vs_Ralph_Lauren_18.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/st-moritz/snow-polo-world-cup-st-moritz.jpg",
           "photoCredit": "Photo: Clément Bucco-Lechat / CC BY-SA 3.0 (Wikimedia Commons)"
         },
         {
@@ -114000,7 +114000,7 @@
             "Feb"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/White_Turf_-_St._Moritz_-_Suica_%288746331414%29.jpg/1280px-White_Turf_-_St._Moritz_-_Suica_%288746331414%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/st-moritz/white-turf.jpg",
           "photoCredit": "Photo: Cesar I. Martins from Jundiai, Brazil / CC BY 2.0 (Wikimedia Commons)"
         },
         {
@@ -114011,7 +114011,7 @@
             "Aug"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Lake_St._Moritz_and_St._Moritz_town.jpg/1280px-Lake_St._Moritz_and_St._Moritz_town.jpg",
+          "photo": "/images/events/st-moritz/st-moritz-gourmet-festival.jpg",
           "photoCredit": "Photo: Etiaetia1020 / CC BY-SA 3.0 (Wikimedia Commons)"
         }
       ]
@@ -115396,7 +115396,7 @@
             "lat": -33.852117,
             "lon": 151.210781
           },
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/New_Year%27s_Eve_on_Sydney_Harbour.jpg/1280px-New_Year%27s_Eve_on_Sydney_Harbour.jpg",
+          "photo": "/images/events/sydney/sydney-new-year-s-eve.jpg",
           "photoCredit": "Photo: Rob Chandler / CC BY-SA 2.0 (Wikimedia Commons)"
         },
         {
@@ -115408,7 +115408,7 @@
             "Mar"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Australian_Army_Soldiers_marching_in_the_2020_Sydney_Gay_and_Lesbian_Mardi_Gras.jpg/1280px-Australian_Army_Soldiers_marching_in_the_2020_Sydney_Gay_and_Lesbian_Mardi_Gras.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/sydney/sydney-gay-and-lesbian-mardi-gras.jpg",
           "photoCredit": "Photo: Bruce Baker from Sydney, Australia / CC BY 2.0 (Wikimedia Commons)"
         },
         {
@@ -115420,7 +115420,7 @@
             "Jun"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/The_Sydney_skyline_during_Vivid_Sydney.jpg/1280px-The_Sydney_skyline_during_Vivid_Sydney.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/sydney/vivid-sydney.jpg",
           "photoCredit": "Photo: Robert Montgomery / CC BY 2.0 (Wikimedia Commons)"
         }
       ]
@@ -116502,7 +116502,7 @@
             "Mar"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Pingxi_Sky_Lantern_Festival_2014_in_Taiwan.jpg/1280px-Pingxi_Sky_Lantern_Festival_2014_in_Taiwan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/taipei/pingxi-taipei-lantern-festival.jpg",
           "photoCredit": "Photo: Jirka Matousek / CC BY 2.0 (Wikimedia Commons)"
         },
         {
@@ -116513,7 +116513,7 @@
             "Jun"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Tents_of_2017_Taipei_Dragon_Boat_Festival_under_Dazhi_Bridge_20170530nd.jpg/1280px-Tents_of_2017_Taipei_Dragon_Boat_Festival_under_Dazhi_Bridge_20170530nd.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/taipei/dragon-boat-festival.jpg",
           "photoCredit": "Photo: 玄史生 / CC0 (Wikimedia Commons)"
         }
       ]
@@ -118356,7 +118356,7 @@
             "Apr"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Tokyo_cherry_blossom_10.jpg/1280px-Tokyo_cherry_blossom_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/tokyo/cherry-blossom-sakura-season.jpg",
           "photoCredit": "Photo: Humanoid one / CC BY-SA 3.0 (Wikimedia Commons)"
         },
         {
@@ -118367,7 +118367,7 @@
             "May"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/View_of_mikoshi_from_sensoji_Sanja_Matsuri_2006-3.jpg/1280px-View_of_mikoshi_from_sensoji_Sanja_Matsuri_2006-3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/tokyo/sanja-matsuri.jpg",
           "photoCredit": "Photo: View_of_mikoshi_from_sensoji_Sanja_Matsuri_2006-2.jpg: *View_of_mikoshi_from_sen / CC BY-SA 3.0 (Wikimedia Commons)"
         },
         {
@@ -118382,7 +118382,7 @@
             "lat": 35.710793,
             "lon": 139.798492
           },
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Fireworks_through_a_phone_at_the_Sumida_River_%2855514264419%29.jpg/1280px-Fireworks_through_a_phone_at_the_Sumida_River_%2855514264419%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/tokyo/sumida-river-fireworks-festival.jpg",
           "photoCredit": "Photo: Sergiy Galyonkin / CC BY-SA 4.0 (Wikimedia Commons)"
         }
       ]
@@ -119534,7 +119534,7 @@
             "Sep"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Cameron_Bailey_and_Franklin_Leonard_at_the_2024_Toronto_International_Film_Festival_3.jpg/1280px-Cameron_Bailey_and_Franklin_Leonard_at_the_2024_Toronto_International_Film_Festival_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/toronto/toronto-international-film-festival-tiff.jpg",
           "photoCredit": "Photo: Jennifer 8. Lee / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -119546,7 +119546,7 @@
             "Aug"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Toronto_Caribbean_Carnival_Parade_%2842097484760%29.jpg/1280px-Toronto_Caribbean_Carnival_Parade_%2842097484760%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/toronto/toronto-caribbean-carnival-caribana.jpg",
           "photoCredit": "Photo: Peter Kudlacz / CC BY 2.0 (Wikimedia Commons)"
         },
         {
@@ -119557,7 +119557,7 @@
             "Aug"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Toronto%2C_Canadian_National_Exhibition%2C_Canada_Place.jpg/1280px-Toronto%2C_Canadian_National_Exhibition%2C_Canada_Place.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/toronto/canadian-national-exhibition-cne.jpg",
           "photoCredit": "Photo: ImagePerson / CC BY 4.0 (Wikimedia Commons)"
         }
       ]
@@ -120492,7 +120492,7 @@
             "Apr"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/20120326_Mewar_Gangaur_Festival_Udaipur_India.jpg/1280px-20120326_Mewar_Gangaur_Festival_Udaipur_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/udaipur/mewar-festival.jpg",
           "photoCredit": "Photo: Ggia / CC BY-SA 3.0 (Wikimedia Commons)"
         },
         {
@@ -121682,7 +121682,7 @@
             "Jul"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Fireworks_at_English_Bay%2C_Vancouver_%28Celebration_of_Light_2004%29.jpg/1280px-Fireworks_at_English_Bay%2C_Vancouver_%28Celebration_of_Light_2004%29.jpg",
+          "photo": "/images/events/vancouver/vivid-celebration-of-light-fireworks.jpg",
           "photoCredit": "Photo: Wikimedia Commons / CC BY 2.0 (Wikimedia Commons)"
         },
         {
@@ -121694,7 +121694,7 @@
             "Oct"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Sarah_Scherer_at_the_VIFF_2017_Vienna_Independent_Film_Festival.jpg/1280px-Sarah_Scherer_at_the_VIFF_2017_Vienna_Independent_Film_Festival.jpg",
+          "photo": "/images/events/vancouver/vancouver-international-film-festival.jpg",
           "photoCredit": "Photo: Elena Ringo / CC BY 4.0 (Wikimedia Commons)"
         }
       ]
@@ -122598,7 +122598,7 @@
             "Nov"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Ghats_of_Varanasi_Getting_ready_for_Dev_Deepawali_05.jpg/1280px-Ghats_of_Varanasi_Getting_ready_for_Dev_Deepawali_05.jpg",
+          "photo": "/images/events/varanasi/dev-deepawali.jpg",
           "photoCredit": "Photo: Goutam1962 / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -122621,7 +122621,7 @@
             "Mar"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Pandal_during_Mahashivratri.jpg/1280px-Pandal_during_Mahashivratri.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/varanasi/mahashivratri.jpg",
           "photoCredit": "Photo: SayandeepDutta / CC BY 4.0 (Wikimedia Commons)"
         }
       ]
@@ -123938,7 +123938,7 @@
             "Feb"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Carnival_of_Venice_%28Carnevale_di_Venezia%29_2013_k_01.jpg/1280px-Carnival_of_Venice_%28Carnevale_di_Venezia%29_2013_k_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/venice/carnevale-di-venezia.jpg",
           "photoCredit": "Photo: EvelinaRibarova / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -123955,7 +123955,7 @@
             "Nov"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Canale_di_Porta_Nuova_%28Venice%29.jpg/1280px-Canale_di_Porta_Nuova_%28Venice%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/venice/venice-biennale-art.jpg",
           "photoCredit": "Photo: Didier Descouens / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -123966,7 +123966,7 @@
             "Sep"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Caylee_Cowan_at_83rd_Venice_International_Film_Festival-36.jpg/1280px-Caylee_Cowan_at_83rd_Venice_International_Film_Festival-36.jpg",
+          "photo": "/images/events/venice/venice-film-festival.jpg",
           "photoCredit": "Photo: LucaFazPhoto / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -123977,7 +123977,7 @@
             "Sep"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Venezia_-_Regata_Storica_-_Corteo_08.jpg/1280px-Venezia_-_Regata_Storica_-_Corteo_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/venice/regata-storica.jpg",
           "photoCredit": "Photo: Godromil / Public domain (Wikimedia Commons)"
         }
       ]
@@ -125452,7 +125452,7 @@
             "lat": 48.203286,
             "lon": 16.369194
           },
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Vienna_opera_ball.jpg/1280px-Vienna_opera_ball.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/vienna/vienna-opera-ball.jpg",
           "photoCredit": "Photo: Gryffindor / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -125464,7 +125464,7 @@
             "Jun"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Wiener_Festwochen_2013_Er%C3%B6ffnung_20_Fatima_Spar_Adam_Rapa_Flip_Philipp_Michael_Bruckner_Philipp_Moosbrugger_Jon_Sass.jpg/1280px-Wiener_Festwochen_2013_Er%C3%B6ffnung_20_Fatima_Spar_Adam_Rapa_Flip_Philipp_Michael_Bruckner_Philipp_Moosbrugger_Jon_Sass.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/vienna/wiener-festwochen.jpg",
           "photoCredit": "Photo: Manfred Werner (Tsui) / CC BY-SA 3.0 (Wikimedia Commons)"
         },
         {
@@ -125476,7 +125476,7 @@
             "Dec"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Vienna_Karsplatz_Christmas_Market_yurt_%282024-12-13%29.jpg/1280px-Vienna_Karsplatz_Christmas_Market_yurt_%282024-12-13%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/vienna/christmas-markets.jpg",
           "photoCredit": "Photo: Malik Nursultan B / CC BY 4.0 (Wikimedia Commons)"
         }
       ]
@@ -126502,7 +126502,7 @@
             "Feb"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Amphitheatre_of_the_Old_fort_in_Zanzibar.jpg/1280px-Amphitheatre_of_the_Old_fort_in_Zanzibar.jpg",
+          "photo": "/images/events/zanzibar/sauti-za-busara.jpg",
           "photoCredit": "Photo: Erasmus Kamugisha / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -126513,7 +126513,7 @@
             "Jun"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Zanzibar_International_Film_Festival_2013.jpg/1280px-Zanzibar_International_Film_Festival_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/zanzibar/zanzibar-international-film-festival-ziff.jpg",
           "photoCredit": "Photo: Peter Bennett / ZIFF / CC BY 2.0 (Wikimedia Commons)"
         },
         {
@@ -126522,7 +126522,7 @@
           "note": "On this deeply Muslim island the end of Ramadan brings feasting and celebration; timing shifts each year with the lunar calendar.",
           "months": [],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Sail_Boat_Sunset_Stone_Town_Zanzibar_Oct26_OM3_1123.jpg/1280px-Sail_Boat_Sunset_Stone_Town_Zanzibar_Oct26_OM3_1123.jpg",
+          "photo": "/images/events/zanzibar/eid-al-fitr.jpg",
           "photoCredit": "Photo: This Photo was taken by Timothy A. Gonsalves.  Feel free to use my photos, but p / CC BY-SA 4.0 (Wikimedia Commons)"
         }
       ]
@@ -127493,7 +127493,7 @@
             "Apr"
           ],
           "location": null,
-          "photo": "https://upload.wikimedia.org/wikipedia/commons/b/be/Matterhorn_from_Zermatt3.jpg",
+          "photo": "/images/events/zermatt/zermatt-unplugged.jpg",
           "photoCredit": "Photo: Zermatt photos / CC BY-SA 3.0 (Wikimedia Commons)"
         },
         {
@@ -127504,7 +127504,7 @@
             "Jul"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Zermatt_Marathon_2017_Riffelberg.jpg/1280px-Zermatt_Marathon_2017_Riffelberg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/zermatt/zermatt-marathon.jpg",
           "photoCredit": "Photo: Johann Conus / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -127515,7 +127515,7 @@
             "Aug"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/International_folklore_festival_Veliko_Tarnovo.jpg/1280px-International_folklore_festival_Veliko_Tarnovo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/zermatt/folklore-festival.jpg",
           "photoCredit": "Photo: MalevE93 / CC BY-SA 4.0 (Wikimedia Commons)"
         }
       ]
@@ -128642,7 +128642,7 @@
             "Apr"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Sechsel%C3%A4uten_Jugendmusik_Z%C3%BCrich_11.jpg/1280px-Sechsel%C3%A4uten_Jugendmusik_Z%C3%BCrich_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/zurich/sechselauten.jpg",
           "photoCredit": "Photo: Albinfo / CC BY-SA 4.0 (Wikimedia Commons)"
         },
         {
@@ -128653,7 +128653,7 @@
             "Aug"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Zurich_Street_Parade_2007_001.jpg/1280px-Zurich_Street_Parade_2007_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/zurich/street-parade.jpg",
           "photoCredit": "Photo: pixx.ch, Andreas Schwerzmann, Zürich, CH / CC BY-SA 2.0 de (Wikimedia Commons)"
         },
         {
@@ -128665,7 +128665,7 @@
             "Oct"
           ],
           "location": null,
-          "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Zurich_Film_Festival_2008.jpg/1280px-Zurich_Film_Festival_2008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "photo": "/images/events/zurich/zurich-film-festival.jpg",
           "photoCredit": "Photo: Otto Normalverbraucher / CC BY-SA 2.0 at (Wikimedia Commons)"
         }
       ]

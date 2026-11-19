@@ -270,8 +270,8 @@
       "tier": "Smart",
       "a": "Kitsilano",
       "d": "Honest farm-to-table cooking on West 4th: rustic, seasonal and consistently good.",
-      "lat": 49.282927,
-      "lon": -123.123798,
+      "lat": 49.267933,
+      "lon": -123.149001,
       "photos": []
     },
     {
@@ -380,8 +380,8 @@
       "tier": "",
       "a": "North Vancouver",
       "d": "The Skyride gondola climbs to an alpine playground with 360-degree city and ocean views, a resident pair of grizzlies named Grinder and Coola, a lumberjack show and the Eye of the Wind turbine you can stand beneath. A single mountain that fills a whole family day, dawn to dusk.",
-      "lat": 49.379472,
-      "lon": -123.07678,
+      "lat": 49.37721,
+      "lon": -123.08142,
       "photos": []
     },
     {
@@ -410,8 +410,8 @@
       "tier": "",
       "a": "Chinatown",
       "d": "One of North America's largest historic Chinatowns, with the ornate Millennium Gate, herbalists and a growing wave of new restaurants and bars. Best explored on foot with a guide who can read the layers of old and new.",
-      "lat": 49.280367,
-      "lon": -123.101054,
+      "lat": 49.280115,
+      "lon": -123.10582,
       "photos": []
     },
     {
@@ -450,8 +450,8 @@
       "tier": "",
       "a": "Downtown",
       "d": "The white sail-roofed cruise pier juts into Burrard Inlet with a seawall promenade, the Canadian Trail interpretive walk and float planes taking off from the harbour. An easy, level introduction to the city's water-meets-mountains setting.",
-      "lat": 49.289455,
-      "lon": -123.115221,
+      "lat": 49.288825,
+      "lon": -123.111121,
       "photos": []
     },
     {
@@ -540,8 +540,8 @@
       "tier": "",
       "a": "East Vancouver",
       "d": "The city's old Italian quarter, now a bohemian stretch of espresso bars, patios and independent shops known simply as \"The Drive\". A neighbourhood to wander for anyone who wants the real, unpolished Vancouver.",
-      "lat": 49.261852,
-      "lon": -123.069117,
+      "lat": 49.283864,
+      "lon": -123.070359,
       "photos": []
     },
     {
@@ -550,8 +550,8 @@
       "tier": "",
       "a": "South Vancouver",
       "d": "The stretch of Main Street between 49th and 51st that has been Vancouver's Little India since the 1970s, with sari shops, sweet houses and institutions like the Himalaya Restaurant. A nostalgic, homely detour for Indian families, quieter now that much of the community has moved to Surrey.",
-      "lat": 49.235845,
-      "lon": -123.135979,
+      "lat": 49.225643,
+      "lon": -123.101625,
       "photos": []
     },
     {
@@ -590,8 +590,8 @@
       "tier": "",
       "a": "Richmond",
       "d": "A historic fishing village where you can buy salmon and crab straight off the boats at Fisherman's Wharf, tour a heritage cannery and stroll a boardwalk to the river's mouth. A charming, low-key half-day with genuine maritime character.",
-      "lat": 49.125223,
-      "lon": -123.183643,
+      "lat": 49.133659,
+      "lon": -123.179328,
       "photos": []
     },
     {
@@ -620,8 +620,8 @@
       "tier": "",
       "a": "Squamish",
       "d": "British Columbia's third-highest waterfall at 335 metres, a short flat walk from the Sea-to-Sky Highway to a viewing platform in the spray. A five-minute stop that feels like a proper wilderness moment.",
-      "lat": 49.226238,
-      "lon": -123.055415,
+      "lat": 49.671,
+      "lon": -123.157,
       "photos": []
     },
     {
@@ -630,8 +630,8 @@
       "tier": "",
       "a": "Whistler (day trip)",
       "d": "A pedestrian alpine resort of cobbled lanes, patios and boutiques ninety minutes north, framed by two ski mountains and buzzing summer and winter alike. The natural base for a mountain day, or an overnight for a longer stay.",
-      "lat": 49.248382,
-      "lon": -123.090398,
+      "lat": 50.116,
+      "lon": -122.957,
       "photos": []
     },
     {
@@ -640,8 +640,8 @@
       "tier": "",
       "a": "Day trip",
       "d": "A twenty-minute ferry from Horseshoe Bay lands you at Snug Cove, an artist's island of cafes, galleries, sandy coves and fifty kilometres of forest trails with no chain in sight. Vancouver's closest island escape, easy and unhurried for a half-day.",
-      "lat": 49.380338,
-      "lon": -123.337594,
+      "lat": 49.376765,
+      "lon": -123.370154,
       "photos": []
     },
     {
@@ -650,8 +650,8 @@
       "tier": "",
       "a": "West Vancouver",
       "d": "A short mountain drive above West Vancouver ends at a lookout that takes in the whole city, the Gulf Islands and, on a clear day, Mount Baker across the border. The best sunset panorama within twenty minutes of downtown.",
-      "lat": 49.39768,
-      "lon": -123.201144,
+      "lat": 49.352969,
+      "lon": -123.178072,
       "photos": []
     },
     {
@@ -680,8 +680,8 @@
       "tier": "",
       "a": "North Vancouver",
       "d": "A relentless 2.9-kilometre staircase up the face of Grouse Mountain, known as \"Mother Nature's Stairmaster\", that fit visitors climb before riding the gondola back down. For the athletic member of the party who wants a real challenge with a view.",
-      "lat": 49.377456,
-      "lon": -123.086214,
+      "lat": 49.374766,
+      "lon": -123.090969,
       "photos": []
     },
     {
@@ -810,8 +810,8 @@
       "tier": "Rooftops",
       "a": "Downtown",
       "d": "A garden terrace above the Parq complex: fire pits, greenery and open-air drinks over the city.",
-      "lat": 49.203679,
-      "lon": -122.913121,
+      "lat": 49.283436,
+      "lon": -123.119206,
       "photos": []
     },
     {

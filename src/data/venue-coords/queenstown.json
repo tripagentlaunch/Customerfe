@@ -110,8 +110,8 @@
       "tier": "Premium",
       "a": "Queenstown (central)",
       "d": "A design-led, playful house near the lakefront: style and a good bar at a gentler price.",
-      "lat": -45.032192,
-      "lon": 168.661,
+      "lat": -45.035228,
+      "lon": 168.652145,
       "photos": []
     },
     {
@@ -270,8 +270,8 @@
       "tier": "",
       "a": "Nevis Valley, private high country",
       "d": "Reached by 4WD across private farmland, the Nevis is New Zealand's highest bungy: a 134m plunge from a pod slung over a canyon, plus the world's biggest swing, which arcs a vast 300m and can be ridden tandem. This is the serious adventurer's badge; for the rest, the drive and the canyon setting alone are extraordinary.",
-      "lat": -45.02698,
-      "lon": 168.649758,
+      "lat": -45.1,
+      "lon": 168.96,
       "photos": []
     },
     {
@@ -290,8 +290,8 @@
       "tier": "",
       "a": "Remarkables drop zone, near Queenstown",
       "d": "Tandem jumps from 9,000, 12,000 or 15,000 feet fall over an almost unfair panorama: the lake, the alps and the fjords all at once. It is the once-in-a-lifetime photograph; and for family members staying on the ground, the drop zone viewing is part of the theatre.",
-      "lat": -45.024415,
-      "lon": 168.741241,
+      "lat": -45.031231,
+      "lon": 168.659772,
       "photos": []
     },
     {
@@ -330,8 +330,8 @@
       "tier": "",
       "a": "Gibbston",
       "d": "The region's oldest vineyard, first vintage 1987, is now a small estate in itself: a candlelit tasting in New Zealand's largest wine cave, an on-site cheesery, a bistro and a luxury lodge and spa. A single, elegant stop that satisfies serious wine lovers and casual visitors alike.",
-      "lat": -45.023294,
-      "lon": 168.955243,
+      "lat": -45.012201,
+      "lon": 168.915207,
       "photos": []
     },
     {
@@ -340,8 +340,8 @@
       "tier": "",
       "a": "Lake Hayes, near Arrowtown",
       "d": "A rustic converted woolshed turned into one of the country's most acclaimed dining rooms, where the celebrated 'Trust the Kitchen' tasting menu is paired with the estate's own Pinot. Reserve well ahead; it is the definitive long lunch, and the kitchen handles vegetarian and dietary requests with real care.",
-      "lat": -45.028065,
-      "lon": 168.97495,
+      "lat": -44.986569,
+      "lon": 168.815884,
       "photos": []
     },
     {
@@ -400,8 +400,8 @@
       "tier": "",
       "a": "Rees & Dart Valleys, Glenorchy",
       "d": "Guided treks cross glacial rivers and open flats beneath towering peaks, from gentle walking-pace rides for beginners to longer back-country trails. It is a soft, cinematic way into landscapes most visitors only see from a boat: well suited to a mixed-ability family group.",
-      "lat": -44.849294,
-      "lon": 168.385979,
+      "lat": -44.799032,
+      "lon": 168.376855,
       "photos": []
     },
     {
@@ -410,8 +410,8 @@
       "tier": "",
       "a": "Wakatipu Basin & Kawarau Gorge",
       "d": "A half-day 4WD tour to the real Middle-earth: the Kawarau Gorge that became the Pillars of the Kings, Deer Park Heights and The Remarkables that stood in for the Misty Mountains, with gold-panning along the way. Minimal walking and small Land Cruiser groups make it easy for every age.",
-      "lat": -45.008747,
-      "lon": 168.899647,
+      "lat": -45.031302,
+      "lon": 168.659518,
       "photos": []
     },
     {
@@ -420,8 +420,8 @@
       "tier": "",
       "a": "Between Queenstown and Arrowtown",
       "d": "A flat, beautiful 8km circuit around a mirror-still lake famous for its reflections of the surrounding hills: about two to three easy hours, or a gentle e-bike. One of the district's most relaxing outings, and a lovely stop paired with an Amisfield lunch nearby.",
-      "lat": -45.007968,
-      "lon": 168.792369,
+      "lat": -44.978475,
+      "lon": 168.80245,
       "photos": []
     },
     {
@@ -440,8 +440,8 @@
       "tier": "",
       "a": "Queenstown Airport / Fiordland",
       "d": "A 45-minute flight over the Southern Alps and glaciers to land at Milford, cruise the fjord, and fly home: often called the world's finest scenic flight, and a fraction of the driving day. The private, elevated way to see Fiordland when time and comfort matter.",
-      "lat": -45.0193,
-      "lon": 168.74344,
+      "lat": -45.025118,
+      "lon": 168.737826,
       "photos": []
     },
     {
@@ -470,8 +470,8 @@
       "tier": "",
       "a": "18km from Queenstown",
       "d": "The closest field to town on a fully sealed road, with wide open runs, a strong learners' area and New Zealand's only floodlit night skiing followed by apr\u00e8s. Between roughly June and October it is the family's easy day on the snow; out of season, the summit road still rewards with sweeping views.",
-      "lat": -45.03089,
-      "lon": 168.659533,
+      "lat": -44.927165,
+      "lon": 168.736272,
       "photos": []
     },
     {
@@ -490,8 +490,8 @@
       "tier": "",
       "a": "Crown Range, between Queenstown & Wanaka",
       "d": "The region's largest ski area and best all-rounder, reliably snowy, with terrain for every level and a beloved apr\u00e8s scene: reached over the dramatic Crown Range Road, New Zealand's highest sealed pass. Worth the drive for a change of mountain, and a fine stop en route to Wanaka.",
-      "lat": -44.865704,
-      "lon": 168.949793,
+      "lat": -44.873268,
+      "lon": 168.948797,
       "photos": []
     },
     {
@@ -520,8 +520,8 @@
       "tier": "",
       "a": "Between Queenstown and Wanaka",
       "d": "New Zealand's highest sealed road switchbacks over the Crown Range with a lookout that takes in the whole Wakatipu Basin, pausing at the 1863 Cardrona Hotel: one of the country's oldest and most photogenic pubs. A scenic drive that is a destination in itself, easy for all ages with a driver.",
-      "lat": -44.960903,
-      "lon": 168.957499,
+      "lat": -44.881483,
+      "lon": 169.0036,
       "photos": []
     },
     {
@@ -560,8 +560,8 @@
       "tier": "",
       "a": "Bob's Peak, above Queenstown",
       "d": "A guided series of ziplines and treetop platforms threads the native forest below the gondola, blending gentle thrill with a genuine conservation story and huge lake views. A crowd-pleaser that spans ages: real fun for children with an environmental lesson folded in.",
-      "lat": -45.033375,
-      "lon": 168.661133,
+      "lat": -45.030524,
+      "lon": 168.660313,
       "photos": []
     },
     {
@@ -590,8 +590,8 @@
       "tier": "",
       "a": "Queenstown centre",
       "d": "The town punches far above its size on food: from the legendary Fergburger queue to fine dining, a serious craft-beer and cocktail scene, and increasingly good Indian restaurants for a taste of home. An easy, buzzy evening out; several kitchens cater well for vegetarian and Jain preferences with notice.",
-      "lat": -44.938171,
-      "lon": 168.831766,
+      "lat": -45.031735,
+      "lon": 168.659477,
       "photos": []
     },
     {

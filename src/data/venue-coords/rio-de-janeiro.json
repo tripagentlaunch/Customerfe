@@ -80,8 +80,8 @@
       "tier": "Luxury",
       "a": "Copacabana",
       "d": "A grand French-flavoured house between Copacabana and Arpoador: two rooftop pools and one of the best sunset outlooks in the city.",
-      "lat": -22.985952,
-      "lon": -43.2074,
+      "lat": -22.986,
+      "lon": -43.189,
       "photos": []
     },
     {
@@ -90,8 +90,8 @@
       "tier": "Premium",
       "a": "Copacabana",
       "d": "A polished mid-century tower on the Copacabana seafront with a much-loved rooftop bar over the beach.",
-      "lat": -22.927155,
-      "lon": -43.176167,
+      "lat": -22.980917,
+      "lon": -43.190304,
       "photos": []
     },
     {
@@ -100,8 +100,8 @@
       "tier": "Destination",
       "a": "Botafogo",
       "d": "Rafael Costa e Silva's vegetable-led room in a Botafogo townhouse: the most celebrated table in Rio, sourced from its own gardens.",
-      "lat": -22.953142,
-      "lon": -43.196313,
+      "lat": -22.985965,
+      "lon": -43.207384,
       "photos": []
     },
     {
@@ -130,8 +130,8 @@
       "tier": "Destination",
       "a": "Copacabana (Copacabana Palace)",
       "d": "Pan-Asian fine dining inside the Copacabana Palace: a serene, poolside room and the city's most polished Asian tasting menus.",
-      "lat": -23.022816,
-      "lon": -43.546089,
+      "lat": -22.967,
+      "lon": -43.179,
       "photos": []
     },
     {
@@ -140,8 +140,8 @@
       "tier": "Destination",
       "a": "Copacabana (Copacabana Palace)",
       "d": "Chef Nello Cassese's Neapolitan-Piedmontese cooking in a chandeliered room over the palace pool: Italian fine dining of real pedigree.",
-      "lat": -22.919973,
-      "lon": -43.222285,
+      "lat": -22.967,
+      "lon": -43.179,
       "photos": []
     },
     {
@@ -220,8 +220,8 @@
       "tier": "Smart",
       "a": "Ipanema",
       "d": "A relaxed three-floor room and cocktail bar in Ipanema: playful modern Brazilian plates and a rooftop terrace.",
-      "lat": -22.973605,
-      "lon": -43.284953,
+      "lat": -22.983352,
+      "lon": -43.207176,
       "photos": []
     },
     {
@@ -370,8 +370,8 @@
       "tier": "",
       "a": "Porto Maravilha",
       "d": "The revitalised waterfront promenade of the 2016 Games, anchored by Eduardo Kobra's vast 'Etnias' mural of five indigenous faces from five continents, once the world's largest spray-paint artwork. An open-air stroll that pairs street art with harbour views.",
-      "lat": -22.903932,
-      "lon": -43.211703,
+      "lat": -22.894385,
+      "lon": -43.18716,
       "photos": []
     },
     {
@@ -380,8 +380,8 @@
       "tier": "",
       "a": "Jardim Bot\u00e2nico",
       "d": "Founded by the Portuguese crown in 1808, 140 hectares of avenues of imperial palms, orchid houses and giant Amazonian water lilies at the foot of Corcovado. Cool, shaded and gentle underfoot, it is ideal for grandparents and small children on a hot afternoon.",
-      "lat": -22.96786,
-      "lon": -43.225119,
+      "lat": -22.970678,
+      "lon": -43.223475,
       "photos": []
     },
     {
@@ -400,8 +400,8 @@
       "tier": "",
       "a": "Tijuca",
       "d": "One of the world's largest urban rainforests, hand-replanted in the 19th century, with waterfalls, the Cascatinha Taunay, jungle trails and toucans within the city limits. A private 4x4 tour lets a whole family reach the peaks and pools without a demanding hike.",
-      "lat": -22.960648,
-      "lon": -43.250593,
+      "lat": -22.9561,
+      "lon": -43.279931,
       "photos": []
     },
     {
@@ -440,8 +440,8 @@
       "tier": "",
       "a": "Centro",
       "d": "A neo-Manueline jewel-box library of 1887 holding the largest collection of Portuguese literature outside Portugal, its galleried hall often named among the world's most beautiful. A short, hushed, breathtaking visit for anyone who loves books and design.",
-      "lat": -22.909658,
-      "lon": -43.170137,
+      "lat": -22.905321,
+      "lon": -43.18224,
       "photos": []
     },
     {
@@ -490,8 +490,8 @@
       "tier": "",
       "a": "Recreio / West Zone",
       "d": "A protected crescent of golden sand backed by Atlantic rainforest, favoured by surfers and cariocas escaping the city crowds. Wilder and quieter than the postcard beaches, it makes a good half-day out west with a driver.",
-      "lat": -22.897722,
-      "lon": -43.184163,
+      "lat": -23.041,
+      "lon": -43.506,
       "photos": []
     },
     {
@@ -650,8 +650,8 @@
       "tier": "",
       "a": "Porto Maravilha",
       "d": "Beside the reborn port sits AquaRio, South America's largest marine aquarium, with a walk-through ocean tunnel that delights younger children. An easy, air-conditioned pairing with the Museum of Tomorrow when the family needs an indoor afternoon.",
-      "lat": -22.903932,
-      "lon": -43.211703,
+      "lat": -22.89332,
+      "lon": -43.19216,
       "photos": []
     },
     {
@@ -670,8 +670,8 @@
       "tier": "Cocktail bars",
       "a": "Ipanema",
       "d": "A laid-back three-floor bar and kitchen in Ipanema: playful twists on classics drawing on Brazil's distillates and ferments.",
-      "lat": -22.973605,
-      "lon": -43.284953,
+      "lat": -22.983352,
+      "lon": -43.207176,
       "photos": []
     },
     {
@@ -680,8 +680,8 @@
       "tier": "Cocktail bars",
       "a": "Copacabana (Copacabana Palace)",
       "d": "The polished bar of the Copacabana Palace: impeccable classics and a discreet, grown-up room within the grand old hotel.",
-      "lat": -22.964463,
-      "lon": -43.178691,
+      "lat": -22.976065,
+      "lon": -43.189276,
       "photos": []
     },
     {
@@ -710,8 +710,8 @@
       "tier": "Landmark bars",
       "a": "Leblon",
       "d": "A Leblon institution since 1985 devoted to cacha\u00e7a and the caipirinha: the definitive place to learn Brazil's national spirit.",
-      "lat": -23.005395,
-      "lon": -43.312884,
+      "lat": -22.980584,
+      "lon": -43.222533,
       "photos": []
     },
     {

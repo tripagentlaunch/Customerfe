@@ -10,8 +10,8 @@
       "tier": "Ultra",
       "a": "CBD (Circular Quay / Loftus Street)",
       "d": "A restored Edwardian sandstone palace off Circular Quay: the finest hotel in the country, and it knows how to wear it lightly.",
-      "lat": -33.728624,
-      "lon": 151.092437,
+      "lat": -33.8625,
+      "lon": 151.2105,
       "photos": []
     },
     {
@@ -30,8 +30,8 @@
       "tier": "Ultra",
       "a": "Barangaroo",
       "d": "Sydney's tallest luxury tower: glass, light and altitude, with the harbour laid out far below.",
-      "lat": -33.807226,
-      "lon": 150.910488,
+      "lat": -33.861,
+      "lon": 151.2017,
       "photos": []
     },
     {
@@ -80,8 +80,8 @@
       "tier": "Luxury",
       "a": "CBD (Circular Quay / Macquarie Street)",
       "d": "A grand 19th-century Treasury building at Circular Quay, reborn around a soaring heritage atrium.",
-      "lat": -33.876015,
-      "lon": 151.243046,
+      "lat": -33.863,
+      "lon": 151.2125,
       "photos": []
     },
     {
@@ -110,8 +110,8 @@
       "tier": "Luxury",
       "a": "The Rocks (Dawes Point)",
       "d": "Built out over the water on a restored finger wharf: you sleep almost on the harbour, under the Bridge.",
-      "lat": -33.862857,
-      "lon": 151.201819,
+      "lat": -33.8555,
+      "lon": 151.2085,
       "photos": []
     },
     {
@@ -170,8 +170,8 @@
       "tier": "Destination",
       "a": "The Rocks (Overseas Passenger Terminal)",
       "d": "Peter Gilmore's harbourside icon: the Opera House framed in the window and cooking to match the view.",
-      "lat": -33.857198,
-      "lon": 151.215123,
+      "lat": -33.857569,
+      "lon": 151.210084,
       "photos": []
     },
     {
@@ -180,8 +180,8 @@
       "tier": "Destination",
       "a": "Paddington (The Grand National Hotel)",
       "d": "Josh Niland's fin-to-tail seafood: the most original fish cooking in the world, in a handsome pub dining room.",
-      "lat": -33.886506,
-      "lon": 151.231885,
+      "lat": -33.915515,
+      "lon": 151.174618,
       "photos": []
     },
     {
@@ -200,8 +200,8 @@
       "tier": "Destination",
       "a": "CBD (Circular Quay)",
       "d": "A grand harbour-edge dining room staring straight at the Opera House: polished, celebratory, unmistakably Sydney.",
-      "lat": -33.950545,
-      "lon": 151.082011,
+      "lat": -33.859204,
+      "lon": 151.213263,
       "photos": []
     },
     {
@@ -220,8 +220,8 @@
       "tier": "Fine",
       "a": "Barangaroo (Crown Sydney)",
       "d": "Alessandro Pavoni's coastal Italian at Crown: pasta and seafood of real refinement, harbour at the window.",
-      "lat": -33.863422,
-      "lon": 151.219327,
+      "lat": -33.862137,
+      "lon": 151.201003,
       "photos": []
     },
     {
@@ -230,8 +230,8 @@
       "tier": "Fine",
       "a": "CBD (Radisson Blu, O'Connell Street)",
       "d": "Brent Savage and Nick Hildebrandt's progressive, wine-led cooking: one of Sydney's most quietly ambitious kitchens.",
-      "lat": -33.868319,
-      "lon": 151.209515,
+      "lat": -33.86562,
+      "lon": 151.208791,
       "photos": []
     },
     {
@@ -260,8 +260,8 @@
       "tier": "Fine",
       "a": "Bondi Beach",
       "d": "Italian cooking above the Bondi Icebergs pool: the most glamorous beach view in Sydney over a long lunch.",
-      "lat": -33.867502,
-      "lon": 151.203247,
+      "lat": -33.895022,
+      "lon": 151.274328,
       "photos": []
     },
     {
@@ -290,8 +290,8 @@
       "tier": "Fine",
       "a": "Double Bay",
       "d": "Neil Perry's warm, produce-first neighbourhood room: generous cooking in the city's smartest suburb.",
-      "lat": -33.864611,
-      "lon": 151.205835,
+      "lat": -33.876888,
+      "lon": 151.241483,
       "photos": []
     },
     {
@@ -320,8 +320,8 @@
       "tier": "Fine",
       "a": "Mosman (The Spit)",
       "d": "Alessandro Pavoni's refined Italian on the water at The Spit: pasta and a marina view in equal measure.",
-      "lat": -33.867529,
-      "lon": 151.201803,
+      "lat": -33.804278,
+      "lon": 151.245815,
       "photos": []
     },
     {
@@ -330,8 +330,8 @@
       "tier": "Fine",
       "a": "Surry Hills",
       "d": "Argentine live-fire asado in a buzzing Surry Hills room: whole animals over the coals, and a party every night.",
-      "lat": -33.890703,
-      "lon": 151.210277,
+      "lat": -33.886363,
+      "lon": 151.209347,
       "photos": []
     },
     {
@@ -350,8 +350,8 @@
       "tier": "Destination",
       "a": "Barangaroo",
       "d": "A serene sushi counter of great purity: one of Sydney's finest omakase seats.",
-      "lat": -33.865093,
-      "lon": 151.202963,
+      "lat": -33.862562,
+      "lon": 151.201276,
       "photos": []
     },
     {
@@ -390,8 +390,8 @@
       "tier": "Fine",
       "a": "Newtown",
       "d": "Pasi Petanen's idiosyncratic, personality-filled cooking: a critical darling of the inner west.",
-      "lat": -33.82494,
-      "lon": 151.197847,
+      "lat": -33.893206,
+      "lon": 151.183768,
       "photos": []
     },
     {
@@ -450,8 +450,8 @@
       "tier": "Smart",
       "a": "Surry Hills",
       "d": "The relaxed all-day sibling to Ester: modern plates and natural wine in a stripped-back Surry Hills room.",
-      "lat": -33.79919,
-      "lon": 151.093617,
+      "lat": -33.879158,
+      "lon": 151.211033,
       "photos": []
     },
     {
@@ -470,8 +470,8 @@
       "tier": "Fine",
       "a": "CBD (Martin Place)",
       "d": "A glamorous martini-and-seafood room from the Swillhouse team: the CBD's most stylish new classic.",
-      "lat": -33.86818,
-      "lon": 151.211671,
+      "lat": -33.863204,
+      "lon": 151.210973,
       "photos": []
     },
     {
@@ -480,8 +480,8 @@
       "tier": "Smart",
       "a": "North Strathfield",
       "d": "A long-running, genuinely hatted Indian kitchen: refined regional cooking well beyond the curry-house norm.",
-      "lat": -33.794475,
-      "lon": 151.264526,
+      "lat": -33.858012,
+      "lon": 151.092446,
       "photos": []
     },
     {
@@ -590,8 +590,8 @@
       "tier": "",
       "a": "Eastern Beaches",
       "d": "A 6km cliff-top path linking Bondi, Tamarama, Bronte, Clovelly and Coogee: arguably the most beautiful urban walk in Australia, with the Icebergs pool, sea, and (each October) the Sculpture by the Sea open-air gallery. Do a section rather than all of it with elders; the caf\u00e9 stops at Bronte and Coogee are excellent.",
-      "lat": -33.896579,
-      "lon": 151.274194,
+      "lat": -33.918393,
+      "lon": 151.258476,
       "photos": []
     },
     {
@@ -680,8 +680,8 @@
       "tier": "",
       "a": "Darling Harbour",
       "d": "A pedestrian waterfront of museums, aquarium and restaurants built for families: everything walkable around the water. The hub for SEA LIFE, WILD LIFE and the maritime museum, with plenty of casual dining that caters to vegetarians.",
-      "lat": -33.867552,
-      "lon": 151.199562,
+      "lat": -33.87488,
+      "lon": 151.2009,
       "photos": []
     },
     {
@@ -730,8 +730,8 @@
       "tier": "",
       "a": "Surry Hills",
       "d": "Sydney's dining heartland: narrow streets packed with acclaimed restaurants, specialty coffee and wine bars. The place to send serious eaters in the family, with strong vegetarian and modern-Australian options at every price point.",
-      "lat": -33.884512,
-      "lon": 151.21003,
+      "lat": -33.88511,
+      "lon": 151.214044,
       "photos": []
     },
     {
@@ -790,8 +790,8 @@
       "tier": "",
       "a": "Northern Beaches",
       "d": "Beyond the famous ferry and surf beach, the 10km Spit-to-Manly track threads secluded coves, Aboriginal rock engravings and bush: one of the finest coastal walks near the city. Do the ferry-and-beach version with elders, the full walk with the active.",
-      "lat": -33.801367,
-      "lon": 151.269025,
+      "lat": -33.8,
+      "lon": 151.2842,
       "photos": []
     },
     {
@@ -810,8 +810,8 @@
       "tier": "",
       "a": "Rose Bay",
       "d": "Australia's oldest seaplane base, where a private floatplane lifts off the water for a sweep over the harbour, beaches and coast, and can drop you at a waterfront lunch at Palm Beach or Cottage Point. A private-charter treat that turns a meal into a memory.",
-      "lat": -33.873762,
-      "lon": 151.242538,
+      "lat": -33.870777,
+      "lon": 151.254893,
       "photos": []
     },
     {
@@ -820,8 +820,8 @@
       "tier": "",
       "a": "Day trip: 90 min west",
       "d": "A vast wilderness of eucalypt-blue valleys, the iconic Three Sisters rock formation, and Scenic World's steepest-in-the-world railway and cliff-hugging cable cars. An easy full-day escape; charter a private guide and finish with high tea at the Hydro Majestic hotel.",
-      "lat": -33.893049,
-      "lon": 151.184999,
+      "lat": -33.732,
+      "lon": 150.312,
       "photos": []
     },
     {
@@ -830,8 +830,8 @@
       "tier": "",
       "a": "Day trip: 2.5 hrs north",
       "d": "Australia's oldest wine region: 150-plus cellar doors famed for Semillon and Shiraz, set among rolling vineyards with fine dining and hot-air balloons at dawn. A private car and a curated cellar-door route, with a vegetarian-friendly long lunch, make a superb full day or overnight.",
-      "lat": -33.884156,
-      "lon": 151.176051,
+      "lat": -32.788,
+      "lon": 151.286,
       "photos": []
     },
     {
@@ -920,8 +920,8 @@
       "tier": "",
       "a": "The Domain",
       "d": "The Governor's grand Gothic Revival residence, its rooms open on guided tours and its gardens open daily, set in the parkland above the harbour. A stately, uncrowded window onto Sydney's colonial grandeur.",
-      "lat": -33.863605,
-      "lon": 151.211317,
+      "lat": -33.860073,
+      "lon": 151.215133,
       "photos": []
     },
     {
@@ -930,8 +930,8 @@
       "tier": "",
       "a": "Newtown / Inner West",
       "d": "Sydney's bohemian spine: street art, vintage boutiques, live music and one of the city's densest, most vegetarian-friendly eat streets. A change of pace from the harbour for older kids and food-curious adults.",
-      "lat": -33.89748,
-      "lon": 151.17902,
+      "lat": -33.901457,
+      "lon": 151.178727,
       "photos": []
     },
     {
@@ -940,8 +940,8 @@
       "tier": "",
       "a": "Pyrmont",
       "d": "One of the largest fish markets in the Southern Hemisphere, with a working auction, seafood counters and waterfront eating. Go early; a lively, no-fuss stop, though a family will want to pair it with vegetarian options elsewhere.",
-      "lat": -33.873147,
-      "lon": 151.192555,
+      "lat": -33.875117,
+      "lon": 151.189992,
       "photos": []
     },
     {
@@ -980,8 +980,8 @@
       "tier": "Cocktail bars",
       "a": "The Rocks",
       "d": "Rat Pack glamour in a room of pastels and pink dinner jackets: Sydney's world-ranked cocktail bar, seven years running.",
-      "lat": -33.88239,
-      "lon": 151.216044,
+      "lat": -33.861771,
+      "lon": 151.206959,
       "photos": []
     },
     {
@@ -1000,8 +1000,8 @@
       "tier": "Rooftops",
       "a": "CBD (A by Adina, Liverpool Street)",
       "d": "A soaring 22nd-floor hotel bar of Art Deco glamour and a whisky room: the finest hotel bar in the country.",
-      "lat": -33.876522,
-      "lon": 151.207043,
+      "lat": -33.865341,
+      "lon": 151.207559,
       "photos": []
     },
     {
@@ -1050,8 +1050,8 @@
       "tier": "Landmark bars",
       "a": "CBD (Circular Quay / Loftus Street)",
       "d": "A Victorian-era drinking den reborn inside the country's finest hotel: intimate cocktails under sandstone and low light.",
-      "lat": -33.621383,
-      "lon": 150.842175,
+      "lat": -33.8625,
+      "lon": 151.2105,
       "photos": []
     },
     {

@@ -60,8 +60,8 @@
       "tier": "Grand",
       "a": "Hivernage",
       "d": "A palace-scaled resort in forty acres of gardens: the Four Seasons default when nothing should go wrong.",
-      "lat": 31.633814,
-      "lon": -8.004121,
+      "lat": 31.619645,
+      "lon": -8.017166,
       "photos": []
     },
     {
@@ -190,8 +190,8 @@
       "tier": "Premium",
       "a": "Palmeraie",
       "d": "A garden villa-hotel in the palm groves: walled, green and blessedly quiet, with the city minutes away.",
-      "lat": 31.629804,
-      "lon": -7.992882,
+      "lat": 31.657149,
+      "lon": -7.965369,
       "photos": []
     },
     {
@@ -230,8 +230,8 @@
       "tier": "Destination",
       "a": "Hivernage: La Mamounia",
       "d": "A One Thousand and One Nights dining room: Chef Rachid Agouray's Moroccan cooking, an institution for thirty years.",
-      "lat": 31.660036,
-      "lon": -8.01463,
+      "lat": 31.627606,
+      "lon": -7.993433,
       "photos": []
     },
     {
@@ -240,8 +240,8 @@
       "tier": "Destination",
       "a": "Hivernage: La Mamounia",
       "d": "Jean-Georges Vongerichten's Italian inside the Grande Dame: refined, sunlit and faultlessly served.",
-      "lat": 31.672924,
-      "lon": -7.929447,
+      "lat": 31.623,
+      "lon": -7.997,
       "photos": []
     },
     {
@@ -270,8 +270,8 @@
       "tier": "Fine",
       "a": "Gueliz",
       "d": "Season-led, permaculture-farm cooking in a restored Art Deco gallery: the most talked-about opening in the city.",
-      "lat": 31.625826,
-      "lon": -7.989161,
+      "lat": 31.635169,
+      "lon": -8.015206,
       "photos": []
     },
     {
@@ -290,8 +290,8 @@
       "tier": "Fine",
       "a": "Medina: Royal Mansour",
       "d": "Mediterranean cooking under the Royal Mansour's greenery: bright, garden-fresh, unhurried.",
-      "lat": 31.671222,
-      "lon": -7.985007,
+      "lat": 31.627,
+      "lon": -7.9985,
       "photos": []
     },
     {
@@ -350,8 +350,8 @@
       "tier": "Smart",
       "a": "Medina (near Bab el Ksour)",
       "d": "Mediterranean-Moroccan cooking in the city's most photogenic riad: colour, courtyards and a legendary roof.",
-      "lat": 31.624444,
-      "lon": -7.987015,
+      "lat": 31.626952,
+      "lon": -7.993171,
       "photos": []
     },
     {
@@ -380,8 +380,8 @@
       "tier": "Fine",
       "a": "Hivernage: La Mamounia",
       "d": "A luxury trattoria within La Mamounia: wood-fired pizza and pasta from a Ducasse-schooled chef.",
-      "lat": 31.684445,
-      "lon": -7.967749,
+      "lat": 31.623,
+      "lon": -7.997,
       "photos": []
     },
     {
@@ -570,8 +570,8 @@
       "tier": "",
       "a": "Gueliz",
       "d": "An intimate private museum in the new town tracing Orientalist painting, vintage photography and Moroccan artefacts. Small, well-curated and easy to fold into a Gueliz gallery afternoon.",
-      "lat": 31.600067,
-      "lon": -7.949914,
+      "lat": 31.635025,
+      "lon": -8.014307,
       "photos": []
     },
     {
@@ -580,8 +580,8 @@
       "tier": "",
       "a": "Gueliz",
       "d": "Founded in 2006, one of the first galleries in the Arab world dedicated to fine-art photography, showing contemporary Moroccan and international work. A quiet, collector-grade stop for those who want art beyond the souvenir trail.",
-      "lat": 31.631623,
-      "lon": -7.991025,
+      "lat": 31.635174,
+      "lon": -8.013271,
       "photos": []
     },
     {
@@ -590,8 +590,8 @@
       "tier": "",
       "a": "Hivernage / western outskirts",
       "d": "A vast 12th-century olive grove around a still reservoir, with the Atlas snow reflected behind a green-tiled pavilion: Marrakech's classic postcard. Peaceful at sunset and a gentle outing away from the medina bustle.",
-      "lat": 31.614106,
-      "lon": -8.01917,
+      "lat": 31.614327,
+      "lon": -8.022543,
       "photos": []
     },
     {
@@ -600,8 +600,8 @@
       "tier": "",
       "a": "South of the Royal Palace",
       "d": "One of the oldest gardens in the world, a 12th-century royal orchard of nearly 1,000 acres laid in geometric groves fed by ancient irrigation basins. Vast and historic; opening depends on royal use, so confirm access before setting out.",
-      "lat": 31.621882,
-      "lon": -7.980448,
+      "lat": 31.603807,
+      "lon": -7.972782,
       "photos": []
     },
     {
@@ -660,8 +660,8 @@
       "tier": "",
       "a": "Targa (Gueliz outskirts)",
       "d": "A non-profit restaurant and school that trains disadvantaged women, serving a superb daily home-style lunch and morning cooking classes. Warm, purposeful and deeply local: the kind of meaningful, values-led experience discerning travellers remember most.",
-      "lat": 31.647821,
-      "lon": -8.035785,
+      "lat": 31.639013,
+      "lon": -8.013799,
       "photos": []
     },
     {
@@ -680,8 +680,8 @@
       "tier": "",
       "a": "Gueliz",
       "d": "A restored 1920s colonial-era brasserie in the new town, all palms, ceiling fans and Art Deco, for a French-Moroccan menu away from the medina crush. A calm, elegant option for an evening when you want tablecloths and quiet conversation.",
-      "lat": 31.630429,
-      "lon": -8.017673,
+      "lat": 31.633074,
+      "lon": -8.010075,
       "photos": []
     },
     {
@@ -770,8 +770,8 @@
       "tier": "",
       "a": "Southern outskirts",
       "d": "Marrakech's championship courses lie in palm and olive country with the Atlas as backdrop: the Royal Golf dates to the 1920s and hosted royalty and Churchill. A relaxed day for golfing members of the party while others explore the city.",
-      "lat": 31.601847,
-      "lon": -7.948008,
+      "lat": 31.608856,
+      "lon": -7.950266,
       "photos": []
     },
     {
@@ -780,8 +780,8 @@
       "tier": "",
       "a": "Medina",
       "d": "A small, personal museum devoted to boucharouite: the vibrant recycled-rag rugs of rural Morocco, inside a restored medina house. A quiet, off-beat stop that textile lovers adore and few tourists find.",
-      "lat": 31.631566,
-      "lon": -7.985969,
+      "lat": 31.629082,
+      "lon": -7.984261,
       "photos": []
     },
     {
@@ -790,8 +790,8 @@
       "tier": "",
       "a": "Gueliz",
       "d": "A cluster of commercial galleries and design boutiques in the new town showing contemporary Moroccan painters, photographers and sculptors. An easy afternoon of collecting and coffee, well away from the medina's intensity.",
-      "lat": 31.630429,
-      "lon": -8.017673,
+      "lat": 31.62919,
+      "lon": -8.002849,
       "photos": []
     },
     {
@@ -800,8 +800,8 @@
       "tier": "",
       "a": "High Atlas (day trip, ~1\u20131.5 hrs)",
       "d": "A green river valley climbing into the Atlas: riverside Berber caf\u00e9s, waterfalls at Setti Fatma and cooler mountain air an hour from the city. An easy, scenic escape from summer heat, and family-friendly with a private car and guide.",
-      "lat": 31.196413,
-      "lon": -7.780065,
+      "lat": 31.225,
+      "lon": -7.674,
       "photos": []
     },
     {
@@ -850,8 +850,8 @@
       "tier": "Landmark bars",
       "a": "Hivernage: La Mamounia",
       "d": "Dark wood, deep leather and cigars: the legendary bar named for Marrakech's most famous guest, in its grandest hotel.",
-      "lat": 31.632743,
-      "lon": -8.014824,
+      "lat": 31.621377,
+      "lon": -7.99752,
       "photos": []
     },
     {
@@ -880,8 +880,8 @@
       "tier": "Rooftops",
       "a": "Hivernage: Nobu Hotel",
       "d": "Sleek, DJ-driven and international: cocktails over a lit-up city from Nobu's circular rooftop pool deck.",
-      "lat": 31.624421,
-      "lon": -7.986911,
+      "lat": 31.622318,
+      "lon": -8.000738,
       "photos": []
     },
     {

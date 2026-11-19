@@ -60,8 +60,8 @@
       "tier": "Grand",
       "a": "Porta Nuova (Piazza della Repubblica)",
       "d": "A neoclassical grand dame on Piazza della Repubblica: old-Milan splendour on a generous scale.",
-      "lat": 45.484561,
-      "lon": 9.187344,
+      "lat": 45.48,
+      "lon": 9.1985,
       "photos": []
     },
     {
@@ -110,8 +110,8 @@
       "tier": "Luxury",
       "a": "Porta Nuova / Isola",
       "d": "A sleek, design-led newcomer in the towers of Porta Nuova: contemporary Milan at its most current.",
-      "lat": 45.460805,
-      "lon": 9.169912,
+      "lat": 45.457503,
+      "lon": 9.176258,
       "photos": []
     },
     {
@@ -270,8 +270,8 @@
       "tier": "Fine",
       "a": "Porta Nuova (Eataly Smeraldo)",
       "d": "Viviana Varese's bold, sustainability-minded cooking: one of the city's most personal kitchens.",
-      "lat": 45.580754,
-      "lon": 9.052103,
+      "lat": 45.480589,
+      "lon": 9.187858,
       "photos": []
     },
     {
@@ -370,8 +370,8 @@
       "tier": "Destination",
       "a": "Porta Genova / Tortona (Via Savona)",
       "d": "Milan's glamorous seafood temple: oysters, crustaceans and the catch of the day, done with real flair.",
-      "lat": 45.467021,
-      "lon": 9.196189,
+      "lat": 45.455619,
+      "lon": 9.168618,
       "photos": []
     },
     {
@@ -470,8 +470,8 @@
       "tier": "Casual",
       "a": "Porta Romana / Isola",
       "d": "Honest, well-made Neapolitan pizza across the city: a dependable, everyday favourite.",
-      "lat": 45.458292,
-      "lon": 9.212821,
+      "lat": 45.479447,
+      "lon": 9.211878,
       "photos": []
     },
     {
@@ -490,8 +490,8 @@
       "tier": "Casual",
       "a": "Porta Venezia",
       "d": "A modern Milanese bakery beloved for its brioche and pastries: the city's best morning ritual.",
-      "lat": 45.462748,
-      "lon": 9.200918,
+      "lat": 45.479137,
+      "lon": 9.202569,
       "photos": []
     },
     {
@@ -550,8 +550,8 @@
       "tier": "",
       "a": "Montenapoleone / San Babila",
       "d": "The grid of Via Montenapoleone, Via della Spiga, Via Sant'Andrea and Via Manzoni is the densest concentration of maison flagships in the world: Armani, Prada, Versace, Dolce & Gabbana, Bottega, Hermes. Ask for private appointments and after-hours boutique openings; this is the reason many UHNI travellers come to Milan at all.",
-      "lat": 45.477595,
-      "lon": 9.184648,
+      "lat": 45.4685,
+      "lon": 9.1955,
       "photos": []
     },
     {
@@ -690,8 +690,8 @@
       "tier": "",
       "a": "Parco Sempione",
       "d": "Italy's leading museum of design and architecture, set in the elegant Palazzo dell'Arte on the edge of Parco Sempione, with the permanent Italian Design Museum and a rooftop restaurant. Essential for anyone who cares about how Milan became the world's design capital.",
-      "lat": 45.486142,
-      "lon": 9.137177,
+      "lat": 45.472233,
+      "lon": 9.173607,
       "photos": []
     },
     {
@@ -850,8 +850,8 @@
       "tier": "",
       "a": "Centro Storico / Montenapoleone",
       "d": "Camparino in Galleria (1915) is the birthplace of the Campari ritual, while Pasticceria Cova on Via Montenapoleone has served Milanese society since 1817. Both are elegant, vegetarian-friendly stops for coffee, pastries and people-watching.",
-      "lat": 45.467281,
-      "lon": 9.185974,
+      "lat": 45.468169,
+      "lon": 9.195459,
       "photos": []
     },
     {
@@ -880,8 +880,8 @@
       "tier": "",
       "a": "Day Trip: northwest of Milan",
       "d": "Around 90 minutes away, Lake Maggiore's Borromean Islands hold the baroque Palazzo Borromeo on Isola Bella, its terraced gardens roamed by white peacocks, and the fishing village of Isola dei Pescatori. Grander and quieter than Como, ideal for a private-boat day.",
-      "lat": 45.470755,
-      "lon": 9.179609,
+      "lat": 45.896,
+      "lon": 8.527,
       "photos": []
     },
     {
@@ -890,8 +890,8 @@
       "tier": "",
       "a": "Day Trip: south of Milan",
       "d": "Less than an hour south, this Carthusian charterhouse commissioned in 1396 by the Visconti dukes is one of the great masterpieces of Italian Gothic-Renaissance architecture, its facade a riot of marble sculpture. Serene, still a working monastery, and beautifully off the mainstream tourist trail.",
-      "lat": 45.317938,
-      "lon": 9.140914,
+      "lat": 45.256929,
+      "lon": 9.147959,
       "photos": []
     },
     {
@@ -900,8 +900,8 @@
       "tier": "",
       "a": "Day Trip: east of Milan",
       "d": "About an hour east toward Lake Iseo, Franciacorta is Italy's answer to Champagne: rolling vineyards producing traditional-method sparkling wine, with elegant cellars offering private tastings and lunches. A refined, adult day out for oenophiles.",
-      "lat": 45.470755,
-      "lon": 9.179609,
+      "lat": 45.599,
+      "lon": 9.97,
       "photos": []
     },
     {
@@ -910,8 +910,8 @@
       "tier": "",
       "a": "Day Trip: south of Milan",
       "d": "The medieval city on the Ticino river has one of Europe's oldest universities (1361), a distinctive covered bridge and towered skyline. Easily paired with the Certosa for a full, unhurried day away from Milan's bustle.",
-      "lat": 45.036855,
-      "lon": 9.137825,
+      "lat": 45.1847,
+      "lon": 9.1582,
       "photos": []
     },
     {
@@ -930,8 +930,8 @@
       "tier": "Cocktail bars",
       "a": "Ticinese / Colonne di San Lorenzo",
       "d": "A password-and-membership speakeasy of quiet excellence: one of Italy's most consistently ranked bars.",
-      "lat": 45.46646,
-      "lon": 9.164794,
+      "lat": 45.458689,
+      "lon": 9.178441,
       "photos": []
     },
     {

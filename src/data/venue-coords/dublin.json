@@ -10,8 +10,8 @@
       "tier": "Ultra",
       "a": "Merrion Square: Upper Merrion Street, opposite Government Buildings",
       "d": "Four restored Georgian townhouses facing the government buildings: Dublin's definitive grand hotel, with the country's only two-star kitchen downstairs.",
-      "lat": 53.318945,
-      "lon": -6.213987,
+      "lat": 53.3385,
+      "lon": -6.253,
       "photos": []
     },
     {
@@ -20,8 +20,8 @@
       "tier": "Ultra",
       "a": "St Stephen's Green: Grafton Street quarter",
       "d": "The 'Grande Dame' of Dublin, open since 1824 on St Stephen's Green, where the Irish Constitution was drafted, and still the city's most storied address.",
-      "lat": 53.340321,
-      "lon": -6.262803,
+      "lat": 53.339029,
+      "lon": -6.256097,
       "photos": []
     },
     {
@@ -60,8 +60,8 @@
       "tier": "Luxury",
       "a": "Dublin 2: Adelaide Road, by the Iveagh Gardens",
       "d": "A restored red-brick Victorian townhouse of forty-odd rooms near the Iveagh Gardens: an intimate, characterful boutique with a lovely gin-and-tea parlour.",
-      "lat": 53.344202,
-      "lon": -6.249004,
+      "lat": 53.332506,
+      "lon": -6.257533,
       "photos": []
     },
     {
@@ -240,8 +240,8 @@
       "tier": "",
       "a": "College Green",
       "d": "A 65-metre corridor of oak and marble busts, the most photographed library chamber in the world. Its books are being carefully removed in a conservation project running to 2027, and Luke Jerram's illuminated seven-metre Gaia globe currently floats at its centre. See it now, in this rare transitional state.",
-      "lat": 53.278928,
-      "lon": -6.36715,
+      "lat": 53.360591,
+      "lon": -6.253697,
       "photos": []
     },
     {
@@ -410,8 +410,8 @@
       "tier": "",
       "a": "Northwest Dublin",
       "d": "One of Europe's largest enclosed city parks, seven times the size of London's Hyde Park, with herds of wild fallow deer roaming freely. It holds the President's residence, the towering Papal Cross, and open space that feels a world away from the city.",
-      "lat": 53.358938,
-      "lon": -6.330711,
+      "lat": 53.355882,
+      "lon": -6.329813,
       "photos": []
     },
     {
@@ -510,8 +510,8 @@
       "tier": "",
       "a": "North coast (DART)",
       "d": "A fishing village on a rugged headland, thirty minutes by coastal train, with a cliff walk over the Irish Sea, seals in the harbour, and some of the freshest seafood near Dublin. A superb half-day escape, with a private car easily arranged for those who prefer not to take the train.",
-      "lat": 53.385834,
-      "lon": -6.065119,
+      "lat": 53.372762,
+      "lon": -6.058843,
       "photos": []
     },
     {
@@ -520,8 +520,8 @@
       "tier": "",
       "a": "South coast (DART)",
       "d": "Dublin's Beverly Hills, a genteel seaside village of a medieval castle, artisan caf\u00e9s and celebrity residents, with the Vico Road viewpoint often likened to the Bay of Naples. Discreet, moneyed and lovely, exactly the sort of place a member might quietly settle.",
-      "lat": 53.266571,
-      "lon": -6.110332,
+      "lat": 53.275776,
+      "lon": -6.10339,
       "photos": []
     },
     {
@@ -530,8 +530,8 @@
       "tier": "",
       "a": "South coast (DART)",
       "d": "An elegant Victorian harbour town with two grand granite piers made for a bracing seafront stroll and famous ice cream. The James Joyce Tower at nearby Sandycove, where Ulysses opens, is a literary pilgrimage.",
-      "lat": 53.292279,
-      "lon": -6.136008,
+      "lat": 53.294966,
+      "lon": -6.142669,
       "photos": []
     },
     {
@@ -550,8 +550,8 @@
       "tier": "",
       "a": "County Wicklow (day trip)",
       "d": "A 6th-century monastic city set in a glacial valley of two dark lakes and a near-perfect round tower, an hour's drive south through the Wicklow Mountains National Park. The most beautiful day trip from Dublin, best done privately with a guide and a picnic.",
-      "lat": 53.061964,
-      "lon": -6.22471,
+      "lat": 53.011,
+      "lon": -6.328,
       "photos": []
     },
     {
@@ -560,8 +560,8 @@
       "tier": "",
       "a": "Boyne Valley, Co. Meath (day trip)",
       "d": "A 5,200-year-old passage tomb older than Stonehenge and the Pyramids, aligned so the rising sun floods its inner chamber at the winter solstice. Access is only by guided tour from the visitor centre, best pre-booked, and easily paired with a private driver from the city.",
-      "lat": 53.708139,
-      "lon": -6.313692,
+      "lat": 53.6947,
+      "lon": -6.4755,
       "photos": []
     },
     {
@@ -580,8 +580,8 @@
       "tier": "",
       "a": "Enniskerry, Co. Wicklow (day trip)",
       "d": "A Palladian mansion above one of the world's great gardens, all Italianate terraces, statuary and a lake framed by the Sugarloaf Mountain. Ireland's highest waterfall sits within the estate. A refined half-day, with lunch in the terrace caf\u00e9.",
-      "lat": 53.34001,
-      "lon": -6.309808,
+      "lat": 53.18429,
+      "lon": -6.186684,
       "photos": []
     },
     {
@@ -590,8 +590,8 @@
       "tier": "",
       "a": "County Kilkenny (day trip)",
       "d": "Ireland's finest medieval city, an easy drive or train south, crowned by a great Norman castle and a walkable 'Medieval Mile' of narrow lanes, craft studios and the black-marble St Canice's Cathedral. A full, rewarding day with genuine character.",
-      "lat": 53.270044,
-      "lon": -6.114615,
+      "lat": 52.654,
+      "lon": -7.244,
       "photos": []
     },
     {
@@ -660,8 +660,8 @@
       "tier": "",
       "a": "Drumcondra",
       "d": "The 82,000-seat home of Gaelic games, Ireland's fiercely amateur national sports, with a museum and an exhilarating rooftop Skyline walk around the stadium rim. A window into a passion no visitor sees coming, and thrilling for older children.",
-      "lat": 53.272641,
-      "lon": -6.191482,
+      "lat": 53.3607,
+      "lon": -6.2512,
       "photos": []
     },
     {
@@ -690,8 +690,8 @@
       "tier": "",
       "a": "County Meath (day trip)",
       "d": "The largest Anglo-Norman castle in Ireland, a mighty 12th-century keep on the River Boyne where Braveheart was filmed. Often combined with Newgrange on a Boyne Valley day, it rewards those who love history with room to roam.",
-      "lat": 53.613295,
-      "lon": -6.20626,
+      "lat": 53.555,
+      "lon": -6.79,
       "photos": []
     },
     {
@@ -700,8 +700,8 @@
       "tier": "Landmark bars",
       "a": "St Stephen's Green: inside The Shelbourne",
       "d": "The horseshoe-shaped bar of The Shelbourne: for generations the room where Irish politics, journalism and society have met over a drink.",
-      "lat": 53.348223,
-      "lon": -6.275057,
+      "lat": 53.338997,
+      "lon": -6.255904,
       "photos": []
     },
     {

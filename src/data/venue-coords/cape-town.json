@@ -10,8 +10,8 @@
       "tier": "Ultra",
       "a": "Bantry Bay",
       "d": "A private cliff-side mansion above the Atlantic, run as a home with one of Africa's great art and wine cellars.",
-      "lat": -33.920961,
-      "lon": 18.42131,
+      "lat": -33.929037,
+      "lon": 18.377879,
       "photos": []
     },
     {
@@ -40,8 +40,8 @@
       "tier": "Ultra",
       "a": "V&A Waterfront",
       "d": "A converted grain silo crowned with faceted glass, sitting atop the Zeitz MOCAA contemporary-art museum.",
-      "lat": -33.97907,
-      "lon": 18.458709,
+      "lat": -33.9085,
+      "lon": 18.4225,
       "photos": []
     },
     {
@@ -100,8 +100,8 @@
       "tier": "Luxury",
       "a": "Franschhoek (Winelands)",
       "d": "The Royal Portfolio's flamboyant, art-filled manor on a private vine-and-olive estate in the valley.",
-      "lat": -33.928758,
-      "lon": 18.569455,
+      "lat": -33.91,
+      "lon": 19.118,
       "photos": []
     },
     {
@@ -110,8 +110,8 @@
       "tier": "Luxury",
       "a": "Franschhoek (Winelands)",
       "d": "An intimate boutique house in the heart of Franschhoek village: art, gardens and the main street at the door.",
-      "lat": -33.920961,
-      "lon": 18.42131,
+      "lat": -33.912,
+      "lon": 19.1195,
       "photos": []
     },
     {
@@ -120,8 +120,8 @@
       "tier": "Luxury",
       "a": "Franschhoek (Winelands)",
       "d": "A legendary village inn reborn: the beating heart of Franschhoek's dining-and-village life.",
-      "lat": -33.931835,
-      "lon": 18.418593,
+      "lat": -33.9125,
+      "lon": 19.1205,
       "photos": []
     },
     {
@@ -130,8 +130,8 @@
       "tier": "Luxury",
       "a": "Franschhoek (Winelands)",
       "d": "A cluster of restored village cottages and suites with private pools, run with real warmth.",
-      "lat": -33.924553,
-      "lon": 18.421897,
+      "lat": -33.915,
+      "lon": 19.1215,
       "photos": []
     },
     {
@@ -190,8 +190,8 @@
       "tier": "Destination",
       "a": "Franschhoek (Winelands)",
       "d": "La Colombe's Winelands sibling at Leeu Estates: theatrical tasting menus among the vines.",
-      "lat": -34.015116,
-      "lon": 18.403291,
+      "lat": -33.9125,
+      "lon": 19.1205,
       "photos": []
     },
     {
@@ -200,8 +200,8 @@
       "tier": "Destination",
       "a": "V&A Waterfront",
       "d": "Waterside fine dining with table-side theatre and the ocean's finest produce at its centre.",
-      "lat": -33.902023,
-      "lon": 18.426129,
+      "lat": -33.905583,
+      "lon": 18.421078,
       "photos": []
     },
     {
@@ -230,8 +230,8 @@
       "tier": "Destination",
       "a": "Paternoster",
       "d": "Kobus van der Merwe's veldkos: foraged 'field food' from the strandveld, in a fisherman's cottage by the sea.",
-      "lat": -34.069901,
-      "lon": 18.647909,
+      "lat": -32.807,
+      "lon": 17.892,
       "photos": []
     },
     {
@@ -240,8 +240,8 @@
       "tier": "Fine",
       "a": "Constantia",
       "d": "Buitenverwachting's elegant estate restaurant: refined cooking among the Constantia vines.",
-      "lat": -33.92521,
-      "lon": 18.416275,
+      "lat": -34.041849,
+      "lon": 18.416171,
       "photos": []
     },
     {
@@ -260,8 +260,8 @@
       "tier": "Fine",
       "a": "Constantia",
       "d": "Refined 'soign\u00e9' cooking in an approachable, everyday-elegant Constantia room.",
-      "lat": -34.024528,
-      "lon": 18.429882,
+      "lat": -34.012403,
+      "lon": 18.405528,
       "photos": []
     },
     {
@@ -290,8 +290,8 @@
       "tier": "Fine",
       "a": "V&A Waterfront",
       "d": "Waterside fine dining with a light, produce-led hand and harbour calm.",
-      "lat": -33.925101,
-      "lon": 18.417617,
+      "lat": -33.905779,
+      "lon": 18.421126,
       "photos": []
     },
     {
@@ -300,8 +300,8 @@
       "tier": "Fine",
       "a": "Stellenbosch (Winelands)",
       "d": "A landmark wine-estate restaurant in a 300-year-old cellar: polished cooking and revered reds.",
-      "lat": -33.935664,
-      "lon": 18.516454,
+      "lat": -34.0005,
+      "lon": 18.858,
       "photos": []
     },
     {
@@ -400,8 +400,8 @@
       "tier": "Fine",
       "a": "City Bowl",
       "d": "The Chefs Warehouse group's intimate city room: small, sharing-led plates done with real polish.",
-      "lat": -33.919649,
-      "lon": 18.419312,
+      "lat": -33.931051,
+      "lon": 18.41287,
       "photos": []
     },
     {
@@ -420,8 +420,8 @@
       "tier": "Smart",
       "a": "Franschhoek (Winelands)",
       "d": "Small plates and vineyard views at a Franschhoek wine estate: relaxed, generous, sharing-led.",
-      "lat": -33.919104,
-      "lon": 18.419991,
+      "lat": -33.91,
+      "lon": 19.125,
       "photos": []
     },
     {
@@ -430,8 +430,8 @@
       "tier": "Fine",
       "a": "Franschhoek (Winelands)",
       "d": "Classic French technique in the village, from a chef with a devoted following.",
-      "lat": -33.931835,
-      "lon": 18.418593,
+      "lat": -33.9125,
+      "lon": 19.1205,
       "photos": []
     },
     {
@@ -480,8 +480,8 @@
       "tier": "",
       "a": "Constantia",
       "d": "One of the world's great botanical gardens, set against the eastern slopes of Table Mountain, given over to the Cape's own fynbos and a treetop canopy walkway.",
-      "lat": -33.985611,
-      "lon": 18.430142,
+      "lat": -33.987501,
+      "lon": 18.432722,
       "photos": []
     },
     {
@@ -490,8 +490,8 @@
       "tier": "",
       "a": "Winelands",
       "d": "Stellenbosch and Franschhoek: Cape Dutch estates among the oldest in the New World, an easy hour from the city, best taken slowly over lunch and a tasting.",
-      "lat": -33.769064,
-      "lon": 18.740469,
+      "lat": -33.936,
+      "lon": 18.86,
       "photos": []
     },
     {
@@ -530,8 +530,8 @@
       "tier": "",
       "a": "Camps Bay",
       "d": "One of the most beautiful coast roads on earth: a hundred and fourteen curves cut into the cliff face between Hout Bay and Noordhoek, the Atlantic straight below.",
-      "lat": -34.048681,
-      "lon": 18.361545,
+      "lat": -34.073563,
+      "lon": 18.365551,
       "photos": []
     },
     {
@@ -610,8 +610,8 @@
       "tier": "Rooftops",
       "a": "V&A Waterfront",
       "d": "Drinks on the roof of the pillowed-glass Silo Hotel, above Zeitz MOCAA: the definitive Cape Town sundowner, Table Mountain on one side, the Atlantic on the other.",
-      "lat": -33.917539,
-      "lon": 18.41833,
+      "lat": -33.908428,
+      "lon": 18.422586,
       "photos": []
     },
     {
@@ -620,8 +620,8 @@
       "tier": "Landmark bars",
       "a": "V&A Waterfront",
       "d": "The Silo Hotel's double-height sixth-floor bar: teal banquettes, circular chandeliers and harbour views, the sheltered counterpart to the rooftop above.",
-      "lat": -33.972142,
-      "lon": 18.565655,
+      "lat": -33.9085,
+      "lon": 18.4225,
       "photos": []
     },
     {
@@ -660,8 +660,8 @@
       "tier": "Landmark bars",
       "a": "Bantry Bay",
       "d": "Sundowners on a cliff-side lawn above the Atlantic, drawn from a nine-thousand-bottle cellar of South Africa's finest: arguably the most beautiful sundowner in the city.",
-      "lat": -33.918693,
-      "lon": 18.425915,
+      "lat": -33.929019,
+      "lon": 18.378026,
       "photos": []
     },
     {

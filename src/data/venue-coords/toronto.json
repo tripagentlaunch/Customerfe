@@ -10,8 +10,8 @@
       "tier": "Ultra",
       "a": "Yorkville",
       "d": "The brand's flagship in its home country: the surest luxury in the city, with Caf\u00e9 Boulud downstairs and a serene spa above.",
-      "lat": 43.727971,
-      "lon": -79.350479,
+      "lat": 43.6717,
+      "lon": -79.39,
       "photos": []
     },
     {
@@ -70,8 +70,8 @@
       "tier": "Luxury",
       "a": "King West",
       "d": "Biophilic, greenery-draped sustainable luxury in the thick of King West: a design-forward newer arrival with a rooftop scene.",
-      "lat": 43.65842,
-      "lon": -79.383138,
+      "lat": 43.643042,
+      "lon": -79.401618,
       "photos": []
     },
     {
@@ -140,8 +140,8 @@
       "tier": "Destination",
       "a": "Downtown (St. Lawrence)",
       "d": "An intense, ingredient-driven tasting menu in a tiny St. Lawrence room: one of the most exciting kitchens in the country.",
-      "lat": 43.661338,
-      "lon": -79.38403,
+      "lat": 43.65,
+      "lon": -79.377,
       "photos": []
     },
     {
@@ -170,8 +170,8 @@
       "tier": "Destination",
       "a": "Yorkville",
       "d": "A serene Kyoto-style kaiseki room in Yorkville: delicate, seasonal Japanese cooking of great purity.",
-      "lat": 43.664342,
-      "lon": -79.414305,
+      "lat": 43.671001,
+      "lon": -79.392596,
       "photos": []
     },
     {
@@ -220,8 +220,8 @@
       "tier": "Fine",
       "a": "Downtown (Financial District)",
       "d": "The Toronto outpost of the storied Amalfi Coast institution: grand, sun-drenched southern Italian on the 38th floor.",
-      "lat": 43.65047,
-      "lon": -79.376146,
+      "lat": 43.640974,
+      "lon": -79.375602,
       "photos": []
     },
     {
@@ -240,8 +240,8 @@
       "tier": "Destination",
       "a": "North York",
       "d": "A ceremonial, traditional kaiseki experience in a tranquil North York setting: the most classical Japanese table in the city.",
-      "lat": 43.774175,
-      "lon": -79.504749,
+      "lat": 43.7262,
+      "lon": -79.3355,
       "photos": []
     },
     {
@@ -250,8 +250,8 @@
       "tier": "Smart",
       "a": "West End (College Street)",
       "d": "Grant van Gameren's beloved Spanish room: rustic, generous tapas and a whole grilled octopus that made its name.",
-      "lat": 43.667544,
-      "lon": -79.385236,
+      "lat": 43.65456,
+      "lon": -79.420688,
       "photos": []
     },
     {
@@ -420,8 +420,8 @@
       "tier": "",
       "a": "Waterfront / Harbourfront",
       "d": "The beloved hands-on science museum reopened in an interim home at Harbourfront Centre in 2026 after its Don Mills building closed, with a larger permanent waterfront site to follow. Expect interactive exhibits pitched squarely at curious children and teenagers. Check current exhibits before you go, as the interim space is smaller than the original.",
-      "lat": 43.714838,
-      "lon": -79.340243,
+      "lat": 43.638789,
+      "lon": -79.382889,
       "photos": []
     },
     {
@@ -450,8 +450,8 @@
       "tier": "",
       "a": "Don Mills / North York",
       "d": "A serene Fumihiko Maki building set in geometric gardens, and North America's first museum devoted to Islamic art, with over a thousand manuscripts, miniatures, ceramics and scientific instruments spanning the Muslim world: including fine Mughal-era Indian pieces. It shares the site with the Ismaili Centre designed by the Indian architect Charles Correa, giving the whole complex a strong resonance for Indian visitors. The restaurant and evening concerts are worth building the trip around.",
-      "lat": 43.722227,
-      "lon": -79.333327,
+      "lat": 43.725252,
+      "lon": -79.332223,
       "photos": []
     },
     {
@@ -590,8 +590,8 @@
       "tier": "",
       "a": "Queen West / Trinity Bellwoods",
       "d": "The spine of independent Toronto: design boutiques, galleries, record shops and buzzy restaurants, running west into Trinity Bellwoods, the park where the young city gathers on a sunny day. Once named one of the world's coolest neighbourhoods. Best explored slowly on foot.",
-      "lat": 43.653603,
-      "lon": -79.384006,
+      "lat": 43.644334,
+      "lon": -79.418016,
       "photos": []
     },
     {
@@ -620,8 +620,8 @@
       "tier": "",
       "a": "Midtown ravines",
       "d": "Toronto is threaded with wooded ravines, and the Cedarvale trail and old Beltline rail path let you walk for kilometres under a leaf canopy while the city hums just above. It is the local secret to how green Toronto feels. A restorative morning for a group that likes to walk.",
-      "lat": 43.684887,
-      "lon": -79.367097,
+      "lat": 43.690158,
+      "lon": -79.422395,
       "photos": []
     },
     {
@@ -640,8 +640,8 @@
       "tier": "",
       "a": "Waterfront / South Core",
       "d": "The downtown arena where the Maple Leafs (hockey) and Raptors (basketball) play, with electric big-league atmosphere and premium suites for a group. Catching a Leafs night is a bucket-list slice of Canadian culture. Book premium seating well ahead through a concierge, as marquee games sell out.",
-      "lat": 43.641559,
-      "lon": -79.375428,
+      "lat": 43.643466,
+      "lon": -79.379099,
       "photos": []
     },
     {
@@ -690,8 +690,8 @@
       "tier": "",
       "a": "Niagara (day trip)",
       "d": "Just beyond the falls lies a picture-perfect 19th-century town of verandahed inns and gardens, surrounded by Canada's largest wine region and its dozens of estates. Book private cellar tastings, including the icewine Canada is known for, and lunch at a vineyard restaurant. This is the refined, grown-up counterpoint to the falls, ideal with a driver so everyone can taste.",
-      "lat": 43.684181,
-      "lon": -79.320574,
+      "lat": 43.255,
+      "lon": -79.072,
       "photos": []
     },
     {
@@ -700,8 +700,8 @@
       "tier": "",
       "a": "Muskoka (day trip)",
       "d": "Two hours north lies 'cottage country': a landscape of granite, pine and clear lakes dotted with grand summer estates, and the natural retreat of Toronto's wealthy. Charter a classic wooden boat, dine at a lakeside resort, or take in the fiery colour in autumn. Best as an overnight at a five-star lodge rather than a rushed day.",
-      "lat": 43.684181,
-      "lon": -79.320574,
+      "lat": 45.117,
+      "lon": -79.578,
       "photos": []
     },
     {
@@ -710,8 +710,8 @@
       "tier": "",
       "a": "Collingwood (day trip)",
       "d": "About two hours from the city, a European-style alpine village on the Niagara Escarpment: skiing and a spa in winter, hiking, the Scenic Caves and a suspension bridge in summer. A convenient four-season mountain escape for families. Pleasant as a day out, better as a resort overnight.",
-      "lat": 43.684181,
-      "lon": -79.320574,
+      "lat": 44.501,
+      "lon": -80.312,
       "photos": []
     },
     {
@@ -720,8 +720,8 @@
       "tier": "",
       "a": "Stratford (day trip)",
       "d": "A genteel riverside town two hours west, home to one of North America's most celebrated theatre festivals, running April to October with world-class Shakespeare and contemporary work. Pair a matinee with a swan-lined riverbank walk and a good lunch. Book tickets and dining well ahead in high season.",
-      "lat": 43.684181,
-      "lon": -79.320574,
+      "lat": 43.37,
+      "lon": -80.982,
       "photos": []
     },
     {
@@ -730,8 +730,8 @@
       "tier": "",
       "a": "Elora (day trip)",
       "d": "One of Ontario's prettiest villages, wrapped around a limestone gorge with a river running through it, restored 19th-century mills, and boutiques and caf\u00e9s in old stone buildings. Quieter and more romantic than the better-known escapes. A gentle, scenic day roughly ninety minutes from the city.",
-      "lat": 43.684181,
-      "lon": -79.320574,
+      "lat": 43.684,
+      "lon": -80.43,
       "photos": []
     },
     {
@@ -740,8 +740,8 @@
       "tier": "",
       "a": "1000 Islands (day trip)",
       "d": "Roughly three hours east, where the St. Lawrence River scatters into hundreds of forested islands, many crowned by private summer homes and even a fairytale castle. Charter a boat cruise through the channels for the full effect. A memorable long day, or a leg of a Toronto\u2013Ottawa journey.",
-      "lat": 43.615194,
-      "lon": -79.37845,
+      "lat": 44.33,
+      "lon": -76.162,
       "photos": []
     },
     {
@@ -810,8 +810,8 @@
       "tier": "Rooftops",
       "a": "Yorkville (Park Hyatt Toronto)",
       "d": "The restored 18th-floor rooftop of the Park Hyatt: a Toronto institution with the classic terrace view over the city.",
-      "lat": 43.64858,
-      "lon": -79.374533,
+      "lat": 43.669,
+      "lon": -79.394,
       "photos": []
     },
     {

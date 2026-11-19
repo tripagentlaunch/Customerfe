@@ -50,8 +50,8 @@
       "tier": "Grand",
       "a": "Datai Bay",
       "d": "A rainforest-and-reef resort on Datai Bay, with a working coral nursery guests can join.",
-      "lat": 7.590808,
-      "lon": 99.033035,
+      "lat": 6.425,
+      "lon": 99.675,
       "photos": []
     },
     {
@@ -100,8 +100,8 @@
       "tier": "Destination",
       "a": "The Datai Langkawi, Datai Bay",
       "d": "Traditional Thai cuisine served on a teak pavilion atop 30-metre stilts, floating in the rainforest canopy.",
-      "lat": 6.359232,
-      "lon": 99.695727,
+      "lat": 6.423355,
+      "lon": 99.670282,
       "photos": []
     },
     {
@@ -110,8 +110,8 @@
       "tier": "Fine",
       "a": "Four Seasons Resort Langkawi, Tanjung Rhu",
       "d": "Langkawi's fishing heritage on a terrace over the Andaman Sea: traditional Malay recipes, fine local seafood.",
-      "lat": 6.291973,
-      "lon": 99.72949,
+      "lat": 6.325634,
+      "lon": 99.83607,
       "photos": []
     },
     {
@@ -130,8 +130,8 @@
       "tier": "Smart",
       "a": "Bon Ton Resort, Pantai Cenang",
       "d": "Malay and Thai home cooking in a restored antique kampung house set among lush gardens.",
-      "lat": 6.322289,
-      "lon": 99.850127,
+      "lat": 6.309701,
+      "lon": 99.723029,
       "photos": []
     },
     {
@@ -140,8 +140,8 @@
       "tier": "",
       "a": "Peak of Gunung Mat Cincang (top cable-car station)",
       "d": "A 125-metre curved suspension bridge slung from a single pylon, hanging 700 metres above the valley: you walk out over nothing but rainforest and sea, the most vertiginous, most photographed panorama on the island. Reach it by the short inclined SkyGlide lift from the top station rather than the stairs, and pick a clear late afternoon when the light goes gold over the Thai islands to the north.",
-      "lat": 6.395699,
-      "lon": 99.858323,
+      "lat": 6.386,
+      "lon": 99.662,
       "photos": []
     },
     {
@@ -150,8 +150,8 @@
       "tier": "",
       "a": "Kilim Geoforest Park, northeast",
       "d": "A limestone cave inside the mangroves where thousands of fruit and insect bats hang in the dark and ancient seashell beds in the walls mark sea levels from 5,000 years ago: a genuine geological wonder, reached only by boat and a raised boardwalk. A short, atmospheric stop that fascinates children and adds real substance to the Kilim safari.",
-      "lat": 6.385344,
-      "lon": 99.896208,
+      "lat": 6.402072,
+      "lon": 99.858934,
       "photos": []
     },
     {
@@ -190,8 +190,8 @@
       "tier": "",
       "a": "Tanjung Rhu, north coast",
       "d": "One of the most beautiful, least crowded beaches in Malaysia: a long sweep of pale sand backed by casuarina trees, with limestone islets rising from shallow, bathwater-warm water you can wade far out into. Serene and family-safe; time a visit around low tide when a sandbar links the beach to the nearest karst islets.",
-      "lat": 6.458094,
-      "lon": 99.824936,
+      "lat": 6.45439,
+      "lon": 99.821948,
       "photos": []
     },
     {
@@ -200,8 +200,8 @@
       "tier": "",
       "a": "Northwest coast",
       "d": "Consistently ranked among the world's finest beaches: ancient rainforest tumbles right down to a crescent of white sand and clear water, wild and Robinson Crusoe-quiet because only two resorts share it. The setting for The Datai and The Els Club golf course; a day here is the island at its most cinematic and secluded.",
-      "lat": 6.430581,
-      "lon": 99.669909,
+      "lat": 6.427956,
+      "lon": 99.673496,
       "photos": []
     },
     {
@@ -230,8 +230,8 @@
       "tier": "",
       "a": "Interior, centre of the island",
       "d": "The island's highest peak at 881 metres, reached by a winding jungle road that climbs through primary rainforest loud with hornbills and dusky-leaf monkeys to a viewing tower over the whole archipelago. A private car with a driver up at dawn or dusk, windows down, is a quietly spectacular hour few visitors bother with.",
-      "lat": 6.39095,
-      "lon": 99.796044,
+      "lat": 6.369056,
+      "lon": 99.818178,
       "photos": []
     },
     {
@@ -240,8 +240,8 @@
       "tier": "",
       "a": "Pulau Dayang Bunting, southern archipelago",
       "d": "A large emerald freshwater lake cradled by rainforest hills on a limestone island ringed by the sea: reached by a short climb over the ridge, then a swim or pedal-boat in still, cool water steeped in a fertility legend. Watch for the resident macaques, and go early before the day boats arrive.",
-      "lat": 6.231704,
-      "lon": 99.800186,
+      "lat": 6.207849,
+      "lon": 99.784835,
       "photos": []
     },
     {
@@ -300,8 +300,8 @@
       "tier": "",
       "a": "Kampung Mawat, centre-south",
       "d": "The white-marble tomb of the legendary princess Mahsuri, wrongly accused of adultery and executed, whose dying curse of seven generations shapes the island's founding myth: set in a small cultural village with a traditional Kedah house and diorama. A gentle, shaded half-hour that gives the island's landscape a story.",
-      "lat": 6.358726,
-      "lon": 99.786706,
+      "lat": 6.339267,
+      "lon": 99.7841,
       "photos": []
     },
     {
@@ -420,8 +420,8 @@
       "tier": "",
       "a": "Kubang Badak, north coast",
       "d": "A quieter, newer geopark route by boat and boardwalk through mangroves, old charcoal kilns, a tin-mine site and a cave with prehistoric significance: the same karst grandeur as Kilim without the crowds. For repeat visitors and nature-minded families who want the geopark on their own.",
-      "lat": 6.408871,
-      "lon": 99.726299,
+      "lat": 6.399169,
+      "lon": 99.727866,
       "photos": []
     },
     {
@@ -440,8 +440,8 @@
       "tier": "",
       "a": "North coast",
       "d": "The north-facing beaches catch Langkawi's celebrated sunsets over the karst islets, and nearby Pasir Hitam (Black Sand Beach) owes its dark streaks to mineral deposits woven into a local legend. A free, unhurried golden-hour ritual away from the Cenang crowds, easily linked with Temurun and the Ibrahim Hussein museum.",
-      "lat": 6.328583,
-      "lon": 99.819464,
+      "lat": 6.455,
+      "lon": 99.825,
       "photos": []
     },
     {

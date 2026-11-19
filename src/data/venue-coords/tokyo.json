@@ -210,8 +210,8 @@
       "tier": "Luxury",
       "a": "Kioicho / Akasaka",
       "d": "A serene, service-led wing looking over a 400-year-old garden: the best of a storied Tokyo institution.",
-      "lat": 35.680022,
-      "lon": 139.737886,
+      "lat": 35.681423,
+      "lon": 139.734032,
       "photos": []
     },
     {
@@ -260,8 +260,8 @@
       "tier": "Luxury",
       "a": "Ginza",
       "d": "EDITION's second Tokyo house, dropped into the middle of Ginza: greenery, glass and quiet cool.",
-      "lat": 35.66471,
-      "lon": 139.745445,
+      "lat": 35.672642,
+      "lon": 139.76749,
       "photos": []
     },
     {
@@ -340,8 +340,8 @@
       "tier": "Luxury",
       "a": "Shibuya (Yoyogi)",
       "d": "A small Japanese-Danish house on the edge of an urban forest: design-forward and quietly green.",
-      "lat": 35.667058,
-      "lon": 139.699779,
+      "lat": 35.666809,
+      "lon": 139.692354,
       "photos": []
     },
     {
@@ -350,8 +350,8 @@
       "tier": "Premium",
       "a": "Nihonbashi (Kabutocho)",
       "d": "Swedish design and warm concrete in a converted 1920s bank: the city's most characterful boutique stay.",
-      "lat": 35.60177,
-      "lon": 139.330661,
+      "lat": 35.682,
+      "lon": 139.779,
       "photos": []
     },
     {
@@ -360,8 +360,8 @@
       "tier": "Premium",
       "a": "Marunouchi / Tokyo Station",
       "d": "A warm, well-run house blending Japanese hospitality with an unbeatable station-side address.",
-      "lat": 35.696407,
-      "lon": 139.765684,
+      "lat": 35.683041,
+      "lon": 139.771121,
       "photos": []
     },
     {
@@ -390,8 +390,8 @@
       "tier": "Destination",
       "a": "Azabudai Hills",
       "d": "Chef Hiroyasu Kawate's theatrical, sustainability-driven French: reborn in the new Azabudai quarter.",
-      "lat": 35.672356,
-      "lon": 139.713482,
+      "lat": 35.661609,
+      "lon": 139.743447,
       "photos": []
     },
     {
@@ -400,8 +400,8 @@
       "tier": "Destination",
       "a": "Jingumae (Gaienmae)",
       "d": "The warmest kitchen in Tokyo: Zaiyu Hasegawa's playful, generous kaiseki, served with a grin.",
-      "lat": 35.596889,
-      "lon": 139.667379,
+      "lat": 35.673176,
+      "lon": 139.712722,
       "photos": []
     },
     {
@@ -410,8 +410,8 @@
       "tier": "Destination",
       "a": "Hibiya (Tokyo Midtown Hibiya)",
       "d": "Seiji Yamamoto's science-meets-tradition kaiseki: one of Japan's defining fine-dining rooms.",
-      "lat": 35.6628,
-      "lon": 139.728298,
+      "lat": 35.67427,
+      "lon": 139.759278,
       "photos": []
     },
     {
@@ -470,8 +470,8 @@
       "tier": "Destination",
       "a": "Ebisu (Yebisu Garden Place)",
       "d": "The late master's flagship ch\u00e2teau: grand, gilded French dining that has held three stars from the start.",
-      "lat": 35.660163,
-      "lon": 139.729414,
+      "lat": 35.6416,
+      "lon": 139.7132,
       "photos": []
     },
     {
@@ -550,8 +550,8 @@
       "tier": "Destination",
       "a": "Ginza",
       "d": "A benchmark Ginza edomae counter: classical, exact, and quietly warm.",
-      "lat": 35.667942,
-      "lon": 139.762702,
+      "lat": 35.6846,
+      "lon": 139.761,
       "photos": []
     },
     {
@@ -650,8 +650,8 @@
       "tier": "Fine",
       "a": "Hiroo",
       "d": "Yusuke Namai's contemporary French: inventive, personal and warmly run.",
-      "lat": 35.748085,
-      "lon": 139.753377,
+      "lat": 35.649115,
+      "lon": 139.719024,
       "photos": []
     },
     {
@@ -670,8 +670,8 @@
       "tier": "Fine",
       "a": "Nishi-Azabu",
       "d": "A serene tempura counter that climbed to two stars: course after course, impossibly light.",
-      "lat": 35.712584,
-      "lon": 139.794601,
+      "lat": 35.649535,
+      "lon": 139.707552,
       "photos": []
     },
     {
@@ -690,8 +690,8 @@
       "tier": "Fine",
       "a": "Daikanyama",
       "d": "Refined, produce-led Italian in a leafy villa: one of Tokyo's most gracious Italian rooms.",
-      "lat": 35.671621,
-      "lon": 139.763997,
+      "lat": 35.648498,
+      "lon": 139.699344,
       "photos": []
     },
     {
@@ -730,8 +730,8 @@
       "tier": "Fine",
       "a": "Meguro",
       "d": "A young, Nordic-influenced kitchen and natural-wine list that quietly became a Tokyo favourite.",
-      "lat": 35.682366,
-      "lon": 139.768668,
+      "lat": 35.631455,
+      "lon": 139.703882,
       "photos": []
     },
     {
@@ -770,8 +770,8 @@
       "tier": "Smart",
       "a": "Musashino (Kichijoji)",
       "d": "Regarded by many as the finest tonkatsu in Japan: worth the trek out of the centre.",
-      "lat": 35.710844,
-      "lon": 139.703848,
+      "lat": 35.697705,
+      "lon": 139.638745,
       "photos": []
     },
     {
@@ -1020,8 +1020,8 @@
       "tier": "",
       "a": "Bunkyo / Komagome",
       "d": "An exquisite Edo-era strolling garden built around a central pond recreating scenes from classical poetry - autumn maple illuminations here are among the city's most beautiful evenings.",
-      "lat": 35.735329,
-      "lon": 139.748073,
+      "lat": 35.7331,
+      "lon": 139.745734,
       "photos": []
     },
     {
@@ -1120,8 +1120,8 @@
       "tier": "",
       "a": "Setagaya",
       "d": "A low-rise, car-free maze of vintage shops, indie cafes, record stores and tiny theatres - Tokyo's bohemian heart, best on a slow weekend afternoon with no plan.",
-      "lat": 35.661678,
-      "lon": 139.666335,
+      "lat": 35.665786,
+      "lon": 139.669863,
       "photos": []
     },
     {
@@ -1150,8 +1150,8 @@
       "tier": "",
       "a": "Suginami",
       "d": "Retro, gritty and unpolished - vintage clothing, live-music dives and standing bars, plus the huge Awa-Odori dance festival in August. Real, un-touristed Tokyo counter-culture.",
-      "lat": 35.697886,
-      "lon": 139.648689,
+      "lat": 35.707898,
+      "lon": 139.646484,
       "photos": []
     },
     {
@@ -1190,8 +1190,8 @@
       "tier": "",
       "a": "Ginza / Shinjuku",
       "d": "The basement food halls of Isetan Shinjuku, Mitsukoshi Ginza or Takashimaya are gastronomic theatre - jewel-like sweets, pristine bento, tea and sake. A refined, air-conditioned way to taste Japan.",
-      "lat": 35.691324,
-      "lon": 139.702998,
+      "lat": 35.661804,
+      "lon": 139.701853,
       "photos": []
     },
     {
@@ -1300,8 +1300,8 @@
       "tier": "",
       "a": "Kamakura (60min)",
       "d": "A seaside former capital of Zen temples, bamboo groves at Hokoku-ji and the open-air Great Buddha of Kotoku-in. Add the Enoshima tram along the coast for a perfect, unhurried day.",
-      "lat": 35.559964,
-      "lon": 139.445077,
+      "lat": 35.3192,
+      "lon": 139.55,
       "photos": []
     },
     {
@@ -1310,8 +1310,8 @@
       "tier": "",
       "a": "Nikko (120min)",
       "d": "The lavishly carved Toshogu shrine complex - the ornate opposite of Zen restraint - set among cedar forests, waterfalls and Lake Chuzenji in the mountains. A full, rewarding day north of the city.",
-      "lat": 35.625093,
-      "lon": 139.771854,
+      "lat": 36.75,
+      "lon": 139.61,
       "photos": []
     },
     {
@@ -1320,8 +1320,8 @@
       "tier": "",
       "a": "Hakone (90min)",
       "d": "Hot-spring resort of ryokan, the Open-Air Museum's sculptures, a pirate-ship lake cruise and Fuji views from the ropeway over sulphur vents. Ideal as an overnight ryokan stay your advisor can book.",
-      "lat": 35.661674,
-      "lon": 139.333483,
+      "lat": 35.2326,
+      "lon": 139.1069,
       "photos": []
     },
     {
@@ -1330,8 +1330,8 @@
       "tier": "",
       "a": "Yokohama (30min)",
       "d": "A breezy harbour city - Japan's largest Chinatown, the Minato Mirai waterfront, the Cup Noodles museum and Sankeien garden. An easy half-day that feels a world away from Tokyo's density.",
-      "lat": 35.661674,
-      "lon": 139.333483,
+      "lat": 35.4437,
+      "lon": 139.638,
       "photos": []
     },
     {
@@ -1410,8 +1410,8 @@
       "tier": "Cocktail bars",
       "a": "Toranomon (The Tokyo EDITION)",
       "d": "EDITION's clubby ode to the punch bowl, retold through sake, yuzu and green tea: warm, low-lit, quietly glamorous.",
-      "lat": 35.763737,
-      "lon": 139.721262,
+      "lat": 35.6636,
+      "lon": 139.7447,
       "photos": []
     },
     {

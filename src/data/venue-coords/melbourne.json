@@ -20,8 +20,8 @@
       "tier": "Ultra",
       "a": "CBD (West Side Place, Spencer Street)",
       "d": "The top seventeen floors of Australia's tallest hotel: the city and Port Phillip Bay laid out beneath the glass.",
-      "lat": -37.80331,
-      "lon": 144.960876,
+      "lat": -37.814,
+      "lon": 144.953,
       "photos": []
     },
     {
@@ -130,8 +130,8 @@
       "tier": "Premium",
       "a": "CBD (Little Collins Street)",
       "d": "A sleek, art-filled hotel tucked into a heritage Collins Street arcade: central, contemporary and well-run.",
-      "lat": -37.822665,
-      "lon": 144.932262,
+      "lat": -37.816,
+      "lon": 144.962,
       "photos": []
     },
     {
@@ -210,8 +210,8 @@
       "tier": "Fine",
       "a": "CBD (Russell Street)",
       "d": "Andrew McConnell's glamorous 1920s-style dining room and bar: oysters, wood-grill and a room that never disappoints.",
-      "lat": -37.807819,
-      "lon": 144.965268,
+      "lat": -37.815881,
+      "lon": 144.969338,
       "photos": []
     },
     {
@@ -270,8 +270,8 @@
       "tier": "Fine",
       "a": "CBD (Spring Street)",
       "d": "Ronnie Di Stasio's art-filled Italian temple: precise, uncompromising, and unmistakably Melbourne.",
-      "lat": -37.861781,
-      "lon": 144.97441,
+      "lat": -37.814109,
+      "lon": 144.97401,
       "photos": []
     },
     {
@@ -300,8 +300,8 @@
       "tier": "Fine",
       "a": "Carlton (Lygon Street)",
       "d": "Japanese technique meets French finesse: a refined, quietly ambitious Carlton degustation.",
-      "lat": -37.83344,
-      "lon": 144.957053,
+      "lat": -37.804156,
+      "lon": 144.966067,
       "photos": []
     },
     {
@@ -320,8 +320,8 @@
       "tier": "Fine",
       "a": "South Yarra",
       "d": "A serene, considered Japanese room: seasonal and delicate, one of the city's most rewarding tables.",
-      "lat": -37.81984,
-      "lon": 144.944412,
+      "lat": -37.839767,
+      "lon": 144.986462,
       "photos": []
     },
     {
@@ -330,8 +330,8 @@
       "tier": "Fine",
       "a": "CBD (Queen Street)",
       "d": "A glamorous, old-school Italian room of tableside theatre and generous cooking: a return to grand hospitality.",
-      "lat": -37.867976,
-      "lon": 144.830169,
+      "lat": -37.81342,
+      "lon": 144.959796,
       "photos": []
     },
     {
@@ -340,8 +340,8 @@
       "tier": "Fine",
       "a": "CBD (Punch Lane)",
       "d": "Modern Southeast-Asian cooking in a laneway room: the roti and native-ingredient plates are the city's most creative.",
-      "lat": -37.820616,
-      "lon": 144.968414,
+      "lat": -37.810355,
+      "lon": 144.971163,
       "photos": []
     },
     {
@@ -350,8 +350,8 @@
       "tier": "Fine",
       "a": "Footscray",
       "d": "An intimate, exacting Japanese counter in the west: quietly one of Melbourne's finest kitchens.",
-      "lat": -37.777127,
-      "lon": 144.971047,
+      "lat": -37.799443,
+      "lon": 144.894997,
       "photos": []
     },
     {
@@ -410,8 +410,8 @@
       "tier": "Smart",
       "a": "CBD (Little Collins Street)",
       "d": "Regional Indian cooking with real conviction: a newcomer that earned its hat on the food alone.",
-      "lat": -37.825321,
-      "lon": 145.037511,
+      "lat": -37.823935,
+      "lon": 144.957546,
       "photos": []
     },
     {
@@ -460,8 +460,8 @@
       "tier": "Smart",
       "a": "Fitzroy (Gertrude Street)",
       "d": "Andrew McConnell's wine bar next to Cutler & Co. small plates, natural wine and Fitzroy warmth.",
-      "lat": -37.836162,
-      "lon": 144.860661,
+      "lat": -37.806,
+      "lon": 144.983,
       "photos": []
     },
     {
@@ -490,8 +490,8 @@
       "tier": "",
       "a": "CBD / laneways",
       "d": "The most famous of Melbourne's graffiti bluestone lanes, a wall-to-wall canvas that changes weekly and runs off Flinders Lane opposite Fed Square. Even a short walk-through gives the family the city's counter-culture in ten minutes; nearby Rutledge Lane extends it.",
-      "lat": -37.811288,
-      "lon": 144.964166,
+      "lat": -37.816177,
+      "lon": 144.969004,
       "photos": []
     },
     {
@@ -650,8 +650,8 @@
       "tier": "",
       "a": "Collingwood / Fitzroy border",
       "d": "Once industrial, now the city's hottest strip: Smith Street runs from cult roasters to natural-wine bars and the rooftop of the old Foy & Gibson warehouses. A cool-hunter's afternoon for younger travellers.",
-      "lat": -37.808673,
-      "lon": 144.982603,
+      "lat": -37.804979,
+      "lon": 144.983251,
       "photos": []
     },
     {
@@ -670,8 +670,8 @@
       "tier": "",
       "a": "Carlton",
       "d": "The historic Italian quarter where Melbourne's espresso culture began, lined with trattorias and gelaterie. An easy, crowd-pleasing dinner street a short hop from the Exhibition Building and museum.",
-      "lat": -37.801741,
-      "lon": 144.967016,
+      "lat": -37.804591,
+      "lon": 144.966217,
       "photos": []
     },
     {
@@ -850,8 +850,8 @@
       "tier": "",
       "a": "Dandenong Ranges (day trip)",
       "d": "An hour east into fern-gullied mountain forest, riding the century-old Puffing Billy steam train with legs dangling from open carriages: pure delight for children and grandparents alike. Add the William Ricketts sanctuary and a Sassafras tea room.",
-      "lat": -37.835269,
-      "lon": 145.358954,
+      "lat": -37.911,
+      "lon": 145.354,
       "photos": []
     },
     {
@@ -860,8 +860,8 @@
       "tier": "",
       "a": "Ballarat (day trip)",
       "d": "A vast, living re-creation of a 1850s gold-rush town about 90 minutes west: costumed streets, gold panning, and a nightly sound-and-light show. Immersive and hands-on for multi-generation groups curious about how Victoria's wealth was made.",
-      "lat": -37.779683,
-      "lon": 144.851629,
+      "lat": -37.575,
+      "lon": 143.856,
       "photos": []
     },
     {
@@ -870,8 +870,8 @@
       "tier": "",
       "a": "Werribee (day trip)",
       "d": "A grand 1870s Italianate mansion in formal gardens 30 minutes south-west, beside Shadowfax winery and the Werribee Open Range Zoo. A gentle, elegant half-day that combines heritage, wine and a safari-style drive for children.",
-      "lat": -37.898124,
-      "lon": 144.664687,
+      "lat": -37.93,
+      "lon": 144.672,
       "photos": []
     },
     {
@@ -900,8 +900,8 @@
       "tier": "",
       "a": "Albert Park",
       "d": "Formula 1 returns to the parkland circuit around Albert Park Lake each autumn, a fast street-style track minutes from the CBD. Trackside paddock and grandstand packages suit a group of enthusiasts; the city hums all weekend.",
-      "lat": -38.082544,
-      "lon": 145.371748,
+      "lat": -37.8497,
+      "lon": 144.968,
       "photos": []
     },
     {
@@ -910,8 +910,8 @@
       "tier": "",
       "a": "Flemington Racecourse",
       "d": "'The race that stops a nation': the first Tuesday of November at Flemington, the centrepiece of a spring carnival of fashion, marquees and champagne. The Birdcage enclosure is the ticket for a memorable, dressed-up day.",
-      "lat": -37.789251,
-      "lon": 144.912771,
+      "lat": -37.786882,
+      "lon": 144.920323,
       "photos": []
     },
     {
@@ -970,8 +970,8 @@
       "tier": "Cocktail bars",
       "a": "CBD",
       "d": "A handsome, ambitious newcomer that arrived as the best new bar in the land: polished, warm and expertly poured.",
-      "lat": -37.824438,
-      "lon": 144.951007,
+      "lat": -37.797289,
+      "lon": 144.978821,
       "photos": []
     },
     {
@@ -1020,8 +1020,8 @@
       "tier": "Rooftops",
       "a": "CBD (Rialto, Level 55, at Vue de Monde)",
       "d": "A glamorous 55th-floor bar beside Vue de Monde: the whole city glittering beneath the glass.",
-      "lat": -37.829515,
-      "lon": 145.070686,
+      "lat": -37.81886,
+      "lon": 144.957679,
       "photos": []
     },
     {

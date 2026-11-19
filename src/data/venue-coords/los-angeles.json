@@ -110,8 +110,8 @@
       "tier": "Grand",
       "a": "West Hollywood",
       "d": "A sleek Sunset Strip tower with a rooftop over the whole city: contemporary and buzzing.",
-      "lat": 34.097166,
-      "lon": -118.327443,
+      "lat": 34.0957,
+      "lon": -118.3747,
       "photos": []
     },
     {
@@ -250,8 +250,8 @@
       "tier": "Destination",
       "a": "Hollywood",
       "d": "Michael Cimarusti's temple to seafood: Los Angeles's most decorated table, newly at three stars.",
-      "lat": 34.154766,
-      "lon": -118.327112,
+      "lat": 34.08367,
+      "lon": -118.330025,
       "photos": []
     },
     {
@@ -320,8 +320,8 @@
       "tier": "Fine",
       "a": "Beverly Hills",
       "d": "The most glamorous steakhouse in America: Wolfgang Puck's starred room in the Beverly Wilshire.",
-      "lat": 34.045395,
-      "lon": -118.266676,
+      "lat": 34.0672,
+      "lon": -118.4003,
       "photos": []
     },
     {
@@ -810,8 +810,8 @@
       "tier": "",
       "a": "East Hollywood, Los Feliz, and Silver Lake",
       "d": "Walk through Griffith Park and its observatory.",
-      "lat": 34.134427,
-      "lon": -118.305092,
+      "lat": 34.136554,
+      "lon": -118.2942,
       "photos": []
     },
     {

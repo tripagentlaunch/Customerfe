@@ -20,8 +20,8 @@
       "tier": "Ultra",
       "a": "Duomo / Piazza della Repubblica",
       "d": "The grande dame of the city centre, on Florence's grandest square: pure Rocco Forte polish, steps from the Duomo.",
-      "lat": 44.040825,
-      "lon": 11.477169,
+      "lat": 43.7715,
+      "lon": 11.254,
       "photos": []
     },
     {
@@ -40,8 +40,8 @@
       "tier": "Ultra",
       "a": "Fiesole hills",
       "d": "A former monastery with a fa\u00e7ade attributed to Michelangelo's school, looking down on the whole of Florence from Fiesole.",
-      "lat": 43.742705,
-      "lon": 11.254639,
+      "lat": 43.803,
+      "lon": 11.288,
       "photos": []
     },
     {
@@ -140,8 +140,8 @@
       "tier": "Luxury",
       "a": "Santa Maria Novella",
       "d": "A discreet, residence-like boutique by Santa Maria Novella: more private home than hotel, and all the better for it.",
-      "lat": 43.768365,
-      "lon": 11.26302,
+      "lat": 43.772926,
+      "lon": 11.249805,
       "photos": []
     },
     {
@@ -190,8 +190,8 @@
       "tier": "Luxury",
       "a": "San Marco / Centro Storico",
       "d": "A jewel-box of maximalist design in the historic centre: small, bold and full of personality.",
-      "lat": 43.656917,
-      "lon": 11.185546,
+      "lat": 43.776976,
+      "lon": 11.238547,
       "photos": []
     },
     {
@@ -220,8 +220,8 @@
       "tier": "Premium",
       "a": "Oltrarno / Torrigiani garden",
       "d": "A quiet villa-hotel set in Europe's largest privately owned walled garden, on the Oltrarno bank.",
-      "lat": 43.770554,
-      "lon": 11.270076,
+      "lat": 43.766019,
+      "lon": 11.243182,
       "photos": []
     },
     {
@@ -250,8 +250,8 @@
       "tier": "Destination",
       "a": "Duomo / Centro Storico",
       "d": "A jewel-box two-star inside a Byzantine tower at the Brunelleschi Hotel: Tuscan produce, exactingly rendered.",
-      "lat": 43.765485,
-      "lon": 11.244248,
+      "lat": 43.77182,
+      "lon": 11.255752,
       "photos": []
     },
     {
@@ -270,8 +270,8 @@
       "tier": "Destination",
       "a": "San Marco / Four Seasons Firenze",
       "d": "Refined, produce-led cooking in the Four Seasons' neoclassical rooms, opening onto the great garden.",
-      "lat": 43.852282,
-      "lon": 11.33535,
+      "lat": 43.778,
+      "lon": 11.265,
       "photos": []
     },
     {
@@ -300,8 +300,8 @@
       "tier": "Fine",
       "a": "Oltrarno / Lungarno Cellini",
       "d": "Ariel Hagen's sustainable, garden-to-plate cooking on the Arno's quieter bank: Tuscany at its most seasonal.",
-      "lat": 43.769796,
-      "lon": 11.25564,
+      "lat": 43.7638,
+      "lon": 11.266,
       "photos": []
     },
     {
@@ -480,8 +480,8 @@
       "tier": "Fine",
       "a": "Tavarnelle / Chianti",
       "d": "Refined Tuscan cooking inside a Renaissance castle in the Chianti hills: a destination in its own right.",
-      "lat": 43.956336,
-      "lon": 11.356742,
+      "lat": 43.562,
+      "lon": 11.19,
       "photos": []
     },
     {
@@ -720,8 +720,8 @@
       "tier": "",
       "a": "Historic Centre",
       "d": "A rare intact 14th-century merchant's palace, its frescoed 'Hall of Parrots' and 'Peacock Room' showing exactly how a wealthy Florentine family lived between the medieval tower and the Renaissance palazzo. Small, calm and endlessly atmospheric: a hidden gem that lets a family picture daily life behind all the marble grandeur.",
-      "lat": 43.772234,
-      "lon": 11.256031,
+      "lat": 43.77013,
+      "lon": 11.252856,
       "photos": []
     },
     {
@@ -950,8 +950,8 @@
       "tier": "Rooftops",
       "a": "Ponte Vecchio / Arno",
       "d": "The Ferragamos' rooftop over the Ponte Vecchio: the most romantic aperitivo terrace in the city.",
-      "lat": 43.72443,
-      "lon": 11.46529,
+      "lat": 43.7685,
+      "lon": 11.253,
       "photos": []
     },
     {
@@ -970,8 +970,8 @@
       "tier": "Cocktail bars",
       "a": "Centro Storico / near Piazza della Repubblica",
       "d": "A retro bar serving only Italian spirits: vermouth, amari and gin, in a proper mid-century Florentine mood.",
-      "lat": 43.786067,
-      "lon": 11.223793,
+      "lat": 43.771943,
+      "lon": 11.249568,
       "photos": []
     },
     {
@@ -980,8 +980,8 @@
       "tier": "Late & loud",
       "a": "Oltrarno / Santo Spirito",
       "d": "A hidden 1920s-style speakeasy behind an unmarked door: Florence's cult after-dark cocktail den.",
-      "lat": 43.769796,
-      "lon": 11.25564,
+      "lat": 43.76635,
+      "lon": 11.248064,
       "photos": []
     },
     {

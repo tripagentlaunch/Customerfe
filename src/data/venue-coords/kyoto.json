@@ -220,8 +220,8 @@
       "tier": "Destination",
       "a": "Higashiyama (Kodaiji)",
       "d": "Kyoto kaiseki since 1877 in a grand old villa wrapped in a pristine garden beside Kodai-ji temple: newly raised to two stars.",
-      "lat": 35.016633,
-      "lon": 135.669586,
+      "lat": 34.9995,
+      "lon": 135.78,
       "photos": []
     },
     {
@@ -250,8 +250,8 @@
       "tier": "Fine",
       "a": "Shimogyo (central Kyoto)",
       "d": "A century-old Kyoto institution serving classical kaiseki in a beautiful old machiya townhouse: tradition kept exactly as it should be.",
-      "lat": 35.018794,
-      "lon": 135.739466,
+      "lat": 35.000354,
+      "lon": 135.769169,
       "photos": []
     },
     {
@@ -500,8 +500,8 @@
       "tier": "",
       "a": "Nishikyo",
       "d": "A garden of some 120 varieties of moss under maples, so precious it admits only reserved guests who first copy a sutra or meditate before entering. Book weeks ahead by online application; the ritual, the near-empty grounds and the emerald light make it Kyoto's most exclusive garden hour.",
-      "lat": 34.985064,
-      "lon": 135.693201,
+      "lat": 34.992178,
+      "lon": 135.68371,
       "photos": []
     },
     {
@@ -550,8 +550,8 @@
       "tier": "",
       "a": "Ukyo",
       "d": "The largest Rinzai Zen temple compound in Japan: 40-plus subtemples along stone lanes, most closed to the public but a handful open for a garden or a soaring cloud-dragon ceiling painting. Taizo-in offers hands-on Zen meditation and a garden lunch, an intimate experience away from the crowds.",
-      "lat": 35.033463,
-      "lon": 135.718088,
+      "lat": 35.023016,
+      "lon": 135.719853,
       "photos": []
     },
     {
@@ -560,8 +560,8 @@
       "tier": "",
       "a": "Sakyo",
       "d": "A bold vermilion-and-green reconstruction of the old imperial palace fronted by a giant torii, its real treasure a circling garden famous for weeping cherries mirrored in the pond. Broad, flat paths make it easy for elders and children; a striking colour break from the muted temple palette.",
-      "lat": 35.027047,
-      "lon": 135.781438,
+      "lat": 35.016,
+      "lon": 135.7825,
       "photos": []
     },
     {
@@ -640,8 +640,8 @@
       "tier": "",
       "a": "Kamigyo",
       "d": "A small, serious museum devoted to Raku tea bowls, the hand-shaped, low-fired ceramics made by one family for fifteen generations across 450 years. For anyone drawn to the tea ceremony or to wabi-sabi imperfection, an unmissable and blessedly quiet half-hour in the Nishijin district.",
-      "lat": 35.012315,
-      "lon": 135.781959,
+      "lat": 35.025548,
+      "lon": 135.753475,
       "photos": []
     },
     {
@@ -670,8 +670,8 @@
       "tier": "",
       "a": "Arashiyama",
       "d": "Zen Buddhist vegetarian cuisine served on the grounds of Tenryu-ji, entirely plant-based and built around seasonal Kyoto vegetables, tofu and yuba. A rare set-course meal that Jain and vegetarian families can eat with complete confidence; reserve at least three days ahead.",
-      "lat": 35.042216,
-      "lon": 135.746132,
+      "lat": 35.015205,
+      "lon": 135.673583,
       "photos": []
     },
     {
@@ -710,8 +710,8 @@
       "tier": "",
       "a": "Fushimi",
       "d": "One of Japan's great sake towns, its soft spring water lining a canal quarter of white-walled breweries you can tour and taste; Gekkeikan's Okura museum tells the whole story. Glide the willow-lined waterway by little Jikkokubune boat: an easy, atmospheric afternoon south of the centre.",
-      "lat": 34.928879,
-      "lon": 135.761629,
+      "lat": 34.9325,
+      "lon": 135.760556,
       "photos": []
     },
     {
@@ -730,8 +730,8 @@
       "tier": "",
       "a": "Nara (day trip)",
       "d": "Japan's first permanent capital, an easy 45 minutes away, where 1,200 free-roaming sacred deer bow for crackers and Todai-ji's great hall shelters the world's largest bronze Buddha. Add the lantern-lined path to Kasuga Taisha; flat, walkable and endlessly charming for children.",
-      "lat": 34.958424,
-      "lon": 135.814879,
+      "lat": 34.685,
+      "lon": 135.843,
       "photos": []
     },
     {
@@ -750,8 +750,8 @@
       "tier": "",
       "a": "Ohara (day trip)",
       "d": "A pastoral valley an hour north where the moss gardens and Amida hall of Sanzen-in feel a world away from central Kyoto. Deeply seasonal: hydrangeas in June, maples in November, and blissfully quiet; a soft, rural day for travellers who have already ticked the icons.",
-      "lat": 35.073154,
-      "lon": 135.764441,
+      "lat": 35.119726,
+      "lon": 135.834406,
       "photos": []
     },
     {

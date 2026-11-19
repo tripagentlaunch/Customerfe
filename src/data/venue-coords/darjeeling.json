@@ -140,8 +140,8 @@
       "tier": "",
       "a": "Darjeeling to Ghum",
       "d": "The little blue steam engine of 1881 pulls you up through the town's rooftops, around the spiralling Batasia Loop and up to Ghum, India's highest station, at a walking pace that lets you lean out and be handed marigolds. It is pure Raj-era romance, and a joy that spans generations from a five-year-old to a grandfather who rode it as a boy.",
-      "lat": 26.733508,
-      "lon": 88.407759,
+      "lat": 27.04,
+      "lon": 88.263,
       "photos": []
     },
     {
@@ -340,8 +340,8 @@
       "tier": "",
       "a": "Kalimpong",
       "d": "The hill town's temperate slopes are one of India's great centres for orchids, gladioli, cacti and gerbera, and the terraced nurseries are a riot of colour and scent you can wander through freely. A gentle, unexpectedly captivating side of the eastern Himalayas.",
-      "lat": 27.043995,
-      "lon": 88.265426,
+      "lat": 27.06,
+      "lon": 88.47,
       "photos": []
     },
     {
@@ -350,8 +350,8 @@
       "tier": "",
       "a": "Kalimpong",
       "d": "One of Asia's finest private collections of cacti and succulents, more than fifteen hundred varieties bristling under glass on Atisha Road. A quirky, memorable stop that surprises everyone who thinks they don't care about plants.",
-      "lat": 27.043995,
-      "lon": 88.265426,
+      "lat": 27.061912,
+      "lon": 88.456609,
       "photos": []
     },
     {
@@ -370,8 +370,8 @@
       "tier": "",
       "a": "Durpin, Kalimpong",
       "d": "A 1930s English country mansion, once a jute baron's home and now a heritage bungalow wrapped in pine and rhododendron, thick with Raj-era atmosphere and mist. Worth the visit for its faded colonial romance and the grounds alone.",
-      "lat": 27.049184,
-      "lon": 88.262163,
+      "lat": 27.045368,
+      "lon": 88.460434,
       "photos": []
     },
     {
@@ -380,8 +380,8 @@
       "tier": "",
       "a": "Deolo, Kalimpong",
       "d": "A sprawling 1900 school campus of stone Scottish-mission buildings and a beautiful chapel spread across the hillside, a serene and storied slice of Kalimpong's missionary heritage. A quiet, atmospheric walk through living history.",
-      "lat": 27.040813,
-      "lon": 88.266848,
+      "lat": 27.06,
+      "lon": 88.478,
       "photos": []
     },
     {
@@ -400,8 +400,8 @@
       "tier": "",
       "a": "Kurseong",
       "d": "The quieter tea town on the toy-train line, its Eagle's Craig viewpoint looking down over the plains and the Cochrane Place heritage bungalow serving a fine tea. A restful, uncommercialised base deep in the tea country.",
-      "lat": 26.881827,
-      "lon": 88.278364,
+      "lat": 26.872238,
+      "lon": 88.274109,
       "photos": []
     },
     {
@@ -420,8 +420,8 @@
       "tier": "",
       "a": "Pelling, West Sikkim",
       "d": "One of Sikkim's oldest and most important Nyingma monasteries, founded in the 1700s, keeping an extraordinary seven-tiered wooden model of the Buddhist heavens carved by a single monk. A profound, beautifully sited stop with Kanchenjunga as backdrop.",
-      "lat": 27.050264,
-      "lon": 88.269954,
+      "lat": 27.305,
+      "lon": 88.252,
       "photos": []
     },
     {
@@ -450,8 +450,8 @@
       "tier": "",
       "a": "West Sikkim",
       "d": "The sleepy first capital of Sikkim, where the coronation throne of the first Chogyal still stands under the pines and the great Kanchenjunga treks begin. A gentle, history-laden village at the foot of the high mountains.",
-      "lat": 27.037755,
-      "lon": 88.263176,
+      "lat": 27.372,
+      "lon": 88.223,
       "photos": []
     },
     {
@@ -540,8 +540,8 @@
       "tier": "Landmark bars",
       "a": "Observatory Hill (Windamere Hotel)",
       "d": "A single-room Raj-era bar unchanged since 1939: wood, sofas, old photographs and a whisky by the fire in the oldest heritage hotel in the Himalayas.",
-      "lat": 26.685413,
-      "lon": 88.325358,
+      "lat": 27.045,
+      "lon": 88.266,
       "photos": []
     },
     {
@@ -560,8 +560,8 @@
       "tier": "Cocktail bars",
       "a": "Nehru Road (Glenary's)",
       "d": "The basement bar of the town's grand old caf\u00e9: the go-to for a drink and live music beneath the famous 1880s bakery.",
-      "lat": 26.699063,
-      "lon": 88.316546,
+      "lat": 27.043,
+      "lon": 88.2655,
       "photos": []
     }
   ]

@@ -100,8 +100,8 @@
       "tier": "Destination",
       "a": "Kallithea (Stavros Niarchos Foundation)",
       "d": "Athens' only two-star table: a modern-Greek tasting menu inside the Renzo Piano-designed Stavros Niarchos cultural centre, cooking that reads the whole country through one seasonal lens.",
-      "lat": 37.98069,
-      "lon": 23.725833,
+      "lat": 37.94,
+      "lon": 23.692,
       "photos": []
     },
     {
@@ -120,8 +120,8 @@
       "tier": "Destination",
       "a": "Kallithea (Onassis Stegi)",
       "d": "Imaginative, Greek-ingredient tasting menus perched above the Onassis Stegi cultural centre, under young chef Yiorgos Felemegas: cerebral cooking with a rooftop bar to match.",
-      "lat": 37.958007,
-      "lon": 23.718964,
+      "lat": 37.981544,
+      "lon": 23.752909,
       "photos": []
     },
     {
@@ -150,8 +150,8 @@
       "tier": "Fine",
       "a": "Pangrati",
       "d": "Chef Tasos Mantis' farm-to-table kitchen fusing Greek produce with Nordic technique: a serious, sustainability-led one-star with a Green Star to prove it.",
-      "lat": 37.995548,
-      "lon": 23.608835,
+      "lat": 37.966958,
+      "lon": 23.743067,
       "photos": []
     },
     {
@@ -160,8 +160,8 @@
       "tier": "Fine",
       "a": "Thiseio (opposite the Ancient Agora)",
       "d": "A one-star newcomer set opposite the Agora ruins, where chef Petros Dimas plates Greece's regional heritage with real technique: history on the plate and out the window.",
-      "lat": 38.015107,
-      "lon": 23.735525,
+      "lat": 37.976757,
+      "lon": 23.722883,
       "photos": []
     },
     {
@@ -430,8 +430,8 @@
       "tier": "",
       "a": "Kolonaki",
       "d": "A private collection in a neoclassical mansion opposite the National Garden, sweeping across Greek civilisation from prehistory through Byzantium to the War of Independence, with dazzling gold, icons and folk art. Elegant, manageable in an hour or two, with a rooftop cafe overlooking the greenery.",
-      "lat": 37.974474,
-      "lon": 23.708603,
+      "lat": 37.975952,
+      "lon": 23.740446,
       "photos": []
     },
     {
@@ -480,8 +480,8 @@
       "tier": "",
       "a": "Cape Sounion (day trip)",
       "d": "A Doric temple to the sea-god on a cliff at the tip of Attica, its white columns catching the last light over the Aegean. The 70km coastal drive down the Athens Riviera is half the pleasure; time the private car to arrive for sunset, with dinner at a seafront taverna on the way back.",
-      "lat": 37.656393,
-      "lon": 24.013872,
+      "lat": 37.6503,
+      "lon": 24.0246,
       "photos": []
     },
     {
@@ -570,8 +570,8 @@
       "tier": "",
       "a": "Delphi (day trip)",
       "d": "The 'navel of the world', where the ancient Greeks came to consult the Oracle of Apollo, set on the dramatic slopes of Mount Parnassus above a sea of olive trees. The Sanctuary, theatre, stadium and a superb museum (the bronze Charioteer) reward a full day; roughly three hours each way, best done with a private car and guide.",
-      "lat": 37.984544,
-      "lon": 23.72442,
+      "lat": 38.4824,
+      "lon": 22.501,
       "photos": []
     },
     {
@@ -590,8 +590,8 @@
       "tier": "",
       "a": "Saronic Gulf (day trip)",
       "d": "A car-free island roughly two hours by fast ferry, where stone captains' mansions rise in an amphitheatre above a perfect harbour and the only traffic is donkeys and water taxis. Long an artists' and celebrities' bolt-hole, it is chic, timeless and utterly calm: a magical day away from the mainland.",
-      "lat": 38.056943,
-      "lon": 23.803977,
+      "lat": 37.968724,
+      "lon": 23.726067,
       "photos": []
     },
     {
@@ -600,8 +600,8 @@
       "tier": "",
       "a": "Saronic Gulf (day trip)",
       "d": "The nearest island escape: about 40 minutes by hydrofoil from Piraeus, known for its pistachios, fishing harbour and the beautifully preserved hilltop Temple of Aphaia, part of a 'sacred triangle' with the Parthenon and Sounion. An easy, relaxed day trip when time is short.",
-      "lat": 37.724369,
-      "lon": 23.493811,
+      "lat": 37.746,
+      "lon": 23.429,
       "photos": []
     },
     {
@@ -620,8 +620,8 @@
       "tier": "",
       "a": "Acropolis (west)",
       "d": "Two low rock outcrops beside the Acropolis heavy with history: the Areopagus where the ancient council met and St Paul preached, and the Pnyx where the citizens' assembly invented democratic debate. Both are free, open and give lovely Acropolis and city views; the Areopagus is a popular, if slippery, sunset perch.",
-      "lat": 37.968533,
-      "lon": 23.728471,
+      "lat": 37.972365,
+      "lon": 23.723232,
       "photos": []
     },
     {
@@ -650,8 +650,8 @@
       "tier": "",
       "a": "Acropolis (south)",
       "d": "The grand pedestrian boulevard that curves around the base of the Acropolis, linking the Acropolis Museum, Herodes Atticus theatre and Thissio: marble-paved, tree-lined and closed to cars. The single loveliest walk in the city, especially in the early evening with street musicians and the rock lit above.",
-      "lat": 37.969673,
-      "lon": 23.731386,
+      "lat": 37.969637,
+      "lon": 23.726898,
       "photos": []
     },
     {
@@ -680,8 +680,8 @@
       "tier": "",
       "a": "Thessaly (far / overnight)",
       "d": "Byzantine monasteries perched impossibly atop sheer sandstone pillars rising from the Thessalian plain, one of the most surreal landscapes in Greece. It is genuinely far: around four to five hours each way, so it is best as an overnight or a private-plane/train excursion rather than a same-day trip from Athens.",
-      "lat": 37.975565,
-      "lon": 23.734832,
+      "lat": 39.7217,
+      "lon": 21.6306,
       "photos": []
     },
     {
@@ -760,8 +760,8 @@
       "tier": "Rooftops",
       "a": "Syntagma (Electra Metropolis)",
       "d": "The 10th-floor rooftop of the Electra Metropolis: a pool, Mediterranean plates and signature cocktails against a full-frame Acropolis, the most polished hotel rooftop in the centre.",
-      "lat": 37.97777,
-      "lon": 23.723455,
+      "lat": 37.975029,
+      "lon": 23.732012,
       "photos": []
     },
     {
@@ -770,8 +770,8 @@
       "tier": "Landmark bars",
       "a": "Syntagma (Hotel Grande Bretagne)",
       "d": "A wood-panelled, hushed hotel bar named for its 18th-century tapestry of Alexander the Great: deep spirits, live piano, the old-world Athens nightcap.",
-      "lat": 37.985399,
-      "lon": 23.719336,
+      "lat": 37.9765,
+      "lon": 23.735,
       "photos": []
     }
   ]
