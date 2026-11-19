@@ -1070,3 +1070,22 @@
     width: 100%;
   }
 }
+
+/* Desktop: the page fits one screen, and grows (and scrolls) when the card needs more room, e.g. with
+   the "already approved, please sign in" note above the form (2026-11-19, direct request: the form's
+   buttons ran into the contact line under them). The form no longer shrinks below its content. */
+.desk {
+  height: auto;
+  min-height: 100svh;
+  overflow: visible;
+}
+.desk .raWrap {
+  height: auto;
+  min-height: 100svh;
+}
+.desk .card {
+  max-height: none;
+}
+.desk .form {
+  flex: none;
+}

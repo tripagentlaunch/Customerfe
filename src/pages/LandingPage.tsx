@@ -42,7 +42,7 @@ const COPY = {
 const STATS = [
   { value: 300000, suffix: "+", label: "Hotels & villas" },
   { value: 190, suffix: "+", label: "Countries" },
-  { value: 110, suffix: "", label: "Cities, planned day by day" },
+  { value: 110, suffix: "+", label: "Cities, planned day by day" },
   { value: 24, suffix: "/7", label: "Your advisor, on call" },
 ];
 
@@ -64,6 +64,11 @@ export default function LandingPage() {
 
   return (
     <main className={styles.home} data-landing>
+      {/* Always on screen (2026-11-19, direct request): whatever a visitor is reading, the way in is one
+          click away. Fixed to the top-right corner, above every section. */}
+      <Link className={ctaStyles.stickyCta} to="/request-access">
+        Request an invitation <span aria-hidden="true">→</span>
+      </Link>
       {/* HERO — dark panel, copy left, one framed photo flush right (no
           carousel), after the reference the user supplied. The one button
           goes to the real form; nothing else on this page is reachable yet. */}

@@ -396,3 +396,41 @@
     padding: 40px 28px;
   }
 }
+
+/* "Request an invitation", fixed on screen for the whole page (2026-11-19, direct request). Ink on paper
+   with a hairline edge and a soft shadow, so it reads over the dark hero and the light sections alike. */
+.stickyCta {
+  position: fixed;
+  top: 24px;
+  right: 28px;
+  z-index: 400;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 13px 22px;
+  background: var(--paper, #fff);
+  color: var(--ink, #1a1714);
+  border: 1px solid rgba(26, 23, 20, 0.14);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.18);
+  font-family: var(--fr);
+  font-weight: 600;
+  font-size: 11.5px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+.stickyCta:hover,
+.stickyCta:focus-visible {
+  background: var(--ink, #1a1714);
+  color: var(--paper, #fff);
+}
+@media (max-width: 640px) {
+  .stickyCta {
+    top: auto;
+    right: 16px;
+    left: 16px;
+    bottom: calc(16px + env(safe-area-inset-bottom, 0px));
+    justify-content: center;
+  }
+}
