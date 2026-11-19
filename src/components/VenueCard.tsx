@@ -175,11 +175,15 @@ export default function VenueCard({ venue, map, mapContainerEl, onClose, isLoadi
     let nextHalign = halign;
 
     if (!valignFlippedRef.current) {
-      if (valign === "above" && cardRect.top < mapRect.top + EDGE_PAD) {
-        nextValign = "below";
-        valignFlippedRef.current = true;
-      } else if (valign === "below" && cardRect.bottom > mapRect.bottom - EDGE_PAD) {
-        nextValign = "above";
+      // Room on each side of the pin: the card goes where it fits whole, else where there is more room
+      // (the pan below then brings the rest into view).
+      const h = cardRect.height;
+      const pinY = valign === "above" ? cardRect.bottom + GAP : cardRect.top - GAP;
+      const roomAbove = pinY - GAP - (mapRect.top + EDGE_PAD);
+      const roomBelow = mapRect.bottom - EDGE_PAD - (pinY + GAP);
+      const best: VAlign = h <= roomAbove ? "above" : h <= roomBelow ? "below" : roomBelow > roomAbove ? "below" : "above";
+      if (best !== valign) {
+        nextValign = best;
         valignFlippedRef.current = true;
       }
     }
@@ -218,6 +222,78 @@ export default function VenueCard({ venue, map, mapContainerEl, onClose, isLoadi
           : 0;
     if ((dx || dy) && map) panMapBy(map, dx, dy, reducedMotion);
   }, [valign, halign, isMobile, mapContainerEl, map, reducedMotion, venue.n, measureTick]);
+
+  // The card can change size after it is placed: its photo arrives after the text (a live lookup), or the
+  // image loads in. It used to keep the side it chose for the smaller card and grow up past the map's top
+  // edge, cutting the photo off (2026-11-19, direct request). Any change of size places it again.
+  useEffect(() => {
+    const el = cardRef.current;
+    if (!el || isMobile || typeof ResizeObserver === "undefined") return;
+    // The map itself can change size too: it grows to the screen's height as a place opens from the guide,
+    // which moves the pin under the card.
+    const sizes = new Map<Element, string>();
+    const ro = new ResizeObserver((entries) => {
+      let changed = false;
+      for (const e of entries) {
+        const r = e.target.getBoundingClientRect();
+        const key = `${Math.round(r.width)}x${Math.round(r.height)}`;
+        if (sizes.has(e.target) && sizes.get(e.target) !== key) changed = true;
+        sizes.set(e.target, key);
+      }
+      if (!changed) return;
+      settledRef.current = false;
+      valignFlippedRef.current = false;
+      halignFlippedRef.current = false;
+      setMeasureTick((t) => t + 1);
+    });
+    ro.observe(el);
+    if (mapContainerEl) ro.observe(mapContainerEl);
+    return () => ro.disconnect();
+  }, [isMobile, venue.n, hasPhotos, mapContainerEl]);
+
+  // The map pans to the place as the card opens (and the page may still be scrolling to the map), so the
+  // pin moves under a card that was placed for where it was. For the first few seconds, once the pin has
+  // come to rest somewhere new, the card is placed again; and on the map's own "idle" after a move.
+  useEffect(() => {
+    const el = cardRef.current;
+    if (!el || isMobile || !mapContainerEl) return;
+    const pinAt = () => {
+      const a = (el.parentElement ?? el).getBoundingClientRect();
+      const m = mapContainerEl.getBoundingClientRect();
+      return { x: Math.round(a.left - m.left), y: Math.round(a.top - m.top) };
+    };
+    const replace = () => {
+      settledRef.current = false;
+      valignFlippedRef.current = false;
+      halignFlippedRef.current = false;
+      setMeasureTick((t) => t + 1);
+    };
+    let placedAt = pinAt();
+    let last = placedAt;
+    let still = 0;
+    const started = Date.now();
+    const timer = window.setInterval(() => {
+      const now = pinAt();
+      still = now.x === last.x && now.y === last.y ? still + 1 : 0;
+      last = now;
+      if (still >= 2 && (Math.abs(now.x - placedAt.x) > 2 || Math.abs(now.y - placedAt.y) > 2)) {
+        placedAt = now;
+        replace();
+      }
+      if (Date.now() - started > 4000) window.clearInterval(timer);
+    }, 90);
+    const idle = map?.addListener?.("idle", () => {
+      const now = pinAt();
+      if (Math.abs(now.x - placedAt.x) > 2 || Math.abs(now.y - placedAt.y) > 2) {
+        placedAt = now;
+        replace();
+      }
+    });
+    return () => {
+      window.clearInterval(timer);
+      idle?.remove();
+    };
+  }, [isMobile, mapContainerEl, map, venue.n, venue.lat, venue.lon]);
 
   // Prevent swipe/drag/scroll on the card from panning or zooming the map —
   // required on both the desktop (in-pane) card and the mobile portaled one.
