@@ -21,6 +21,11 @@ export default function ConciergePage() {
 
   useEffect(() => {
     if (loading) return; // wait for the session, so a signed-in member arrives signed in
+    // Not a member yet: ask for an invitation, not a code screen they can't pass (2026-11-21).
+    if (!code) {
+      window.location.replace("/request-access?from=%2Fconcierge");
+      return;
+    }
     // A one-time ticket, never the access code, in the link (2026-11-21, P0 privacy fix).
     let live = true;
     void signInTicket(code).then((ticket) => {

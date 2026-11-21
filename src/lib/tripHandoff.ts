@@ -57,6 +57,11 @@ export function tripHandoffPayload(range: TripRange | null) {
 
 /** Opens Tara on the trip. `fallback` is today's hand-off link, used when Tara can't be reached. */
 export async function handTripToTara(range: TripRange | null, memberCode: string | null | undefined, fallback: string): Promise<void> {
+  // Not a member yet: the trip stays saved in this browser and they go to ask for an invitation (2026-11-21).
+  if (!memberCode) {
+    window.location.assign("/request-access?from=%2Ftrip");
+    return;
+  }
   const api = taraApiUrl();
   const body = tripHandoffPayload(range);
   // Open the tab inside the click, so no pop-up blocker stops it, then point it at Tara once the

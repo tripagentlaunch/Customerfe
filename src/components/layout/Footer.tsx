@@ -180,6 +180,12 @@ export function Footer() {
           <p className="fdesc" style={{ fontSize: 13, maxWidth: "30ch" }}>
             A private travel maison. Flights, hotels and visas: handled, completely.
           </p>
+          {/* Contact, always visible (2026-11-21, website flow review: no email or phone on the home page). */}
+          <p className="fcontact">
+            <a href={`mailto:${COMPANY.email}`}>{COMPANY.email}</a>
+            <a href={COMPANY.phoneHref}>{COMPANY.phone}</a>
+            <span>{COMPANY.shortAddress}</span>
+          </p>
         </div>
         {columns.map((col) => (
           <FooterCol col={col} wide={wide} key={col.title} />

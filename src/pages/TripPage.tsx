@@ -228,7 +228,7 @@ export default function TripPage() {
                   if (handing) return;
                   setHanding(true);
                   const code = signedIn ? member?.invitation_code : null;
-                  handTripToTara(range, code, `${taraChatUrl()}#${new URLSearchParams({ ...(code ? { code } : {}), from: window.location.href }).toString()}`).finally(() => setHanding(false));
+                  handTripToTara(range, code, `${taraChatUrl()}#${new URLSearchParams({ from: window.location.href }).toString()}`).finally(() => setHanding(false));
                 }}
               >
                 {handing ? "Handing over…" : "Send to advisor"}

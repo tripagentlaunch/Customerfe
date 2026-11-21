@@ -56,6 +56,12 @@ export async function signInTicket(memberCode?: string | null): Promise<string |
 }
 
 export function openTaraChat(memberCode?: string | null): void {
+  // A visitor without a membership has no way into the chat: they go to ask for an invitation instead of
+  // a code screen they can't pass (2026-11-21, website flow review: every CTA dead-ended at a login wall).
+  if (!memberCode) {
+    window.location.assign(`/request-access?from=${encodeURIComponent(window.location.pathname)}`);
+    return;
+  }
   // The tab opens inside the click (no pop-up blocker), then goes to the chat once the ticket is back.
   const tab = window.open("about:blank", "_blank");
   if (tab) tab.opener = null;
