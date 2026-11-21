@@ -8,7 +8,7 @@
 // the member's code for the shared sign-in. A visitor who isn't signed in signs in on Tara's side
 // and the trip is waiting. If Tara can't be reached, the old hand-off (WhatsApp / enquiry) is used.
 import { getTrip, titleCase } from "./tripState";
-import { taraChatUrl } from "./taraChat";
+import { signInTicket, taraChatUrl } from "./taraChat";
 import type { TripRange } from "./tripRange";
 import { ORIGINS, readOrigin } from "./origin";
 
@@ -80,7 +80,8 @@ export async function handTripToTara(range: TripRange | null, memberCode: string
     clearTimeout(timer);
     if (!res.ok) throw new Error(`handoff ${res.status}`);
     const { token } = (await res.json()) as { token: string };
-    const hash = new URLSearchParams({ handoff: token, ...(memberCode ? { code: memberCode } : {}), from: window.location.href });
+    const ticket = await signInTicket(memberCode);  // one-time sign-in; never the access code itself
+    const hash = new URLSearchParams({ handoff: token, ...(ticket ? { ticket } : {}), from: window.location.href });
     go(`${taraChatUrl()}#${hash.toString()}`);
   } catch {
     go(fallback);

@@ -32,14 +32,40 @@ function isTaraCta(el: Element): boolean {
   return TARA_LABEL.test(label);
 }
 
-// One login across the site and the chatbot (2026-10-09): a signed-in
-// member's invite code rides in the #fragment — never sent to a server or
-// logged — and the chatbot's login page signs them in with it and clears it.
-// #from= is the page they are on, for Tara's "Back to …" button (2026-11-19).
+// One login across the site and the chatbot. The member's access code no longer rides in the link
+// (2026-11-21, P0 privacy fix: a code is a reusable credential): the site asks Tara for a one-time ticket
+// (valid once, for two minutes) and only that goes in the #fragment. #from= is the page they are on, for
+// Tara's "Back to …" button.
+export async function signInTicket(memberCode?: string | null): Promise<string | null> {
+  const api = (await import("./tripHandoff")).taraApiUrl();
+  if (!memberCode || !api) return null;
+  try {
+    const ctrl = new AbortController();
+    const timer = setTimeout(() => ctrl.abort(), 12000);   // the dev backend can be waking up
+    const res = await fetch(`${api}/api/session/ticket`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ code: memberCode }),
+      signal: ctrl.signal,
+    });
+    clearTimeout(timer);
+    return res.ok ? ((await res.json()) as { ticket: string }).ticket : null;
+  } catch {
+    return null;
+  }
+}
+
 export function openTaraChat(memberCode?: string | null): void {
-  const hash = new URLSearchParams({ ...(memberCode ? { code: memberCode } : {}), from: window.location.href });
-  const url = `${taraChatUrl()}#${hash.toString()}`;
-  window.open(url, "_blank", "noopener");
+  // The tab opens inside the click (no pop-up blocker), then goes to the chat once the ticket is back.
+  const tab = window.open("about:blank", "_blank");
+  if (tab) tab.opener = null;
+  const from = window.location.href;
+  void signInTicket(memberCode).then((ticket) => {
+    const hash = new URLSearchParams({ ...(ticket ? { ticket } : {}), from });
+    const url = `${taraChatUrl()}#${hash.toString()}`;
+    if (tab) tab.location.href = url;
+    else window.open(url, "_blank", "noopener");
+  });
 }
 
 export function useTaraChatLinks(memberCode?: string | null): void {
