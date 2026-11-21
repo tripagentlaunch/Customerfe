@@ -2,7 +2,7 @@ import { useEffect, useRef } from "react";
 import climateData from "../data/climate.generated.json";
 import type { CityData } from "../types/city";
 import styles from "./CalendarSection.module.css";
-import WeatherIcon, { WEATHER_LABEL, type WeatherKind } from "./WeatherIcon";
+import WeatherIcon, { WEATHER_KINDS, WEATHER_LABEL, type WeatherKind } from "./WeatherIcon";
 
 type WhenToGo = CityData["whenToGo"];
 
@@ -24,6 +24,32 @@ type Climate = { hi: number; lo: number; rainDays: number; snowDays: number; rai
 const CLIMATE = climateData as unknown as Record<string, Climate[]>;
 function useClimate(slug: string): Climate[] | null {
   return CLIMATE[slug] ?? null;
+}
+// The previous figures, kept only for a city whose real averages are not saved yet (2026-11-21, direct
+// request: never a blank). Real data replaces them city by city (tools/build-climate.mjs).
+const NYC_MOCK: { weather: WeatherKind; tempC: number }[] = [
+  { weather: "freezing", tempC: 0 }, { weather: "snow", tempC: 1 }, { weather: "sleet", tempC: 5 },
+  { weather: "sun-showers", tempC: 11 }, { weather: "partly-cloudy", tempC: 17 }, { weather: "sunny", tempC: 22 },
+  { weather: "humid", tempC: 25 }, { weather: "storm", tempC: 24 }, { weather: "sunny", tempC: 20 },
+  { weather: "cloudy", tempC: 14 }, { weather: "drizzle", tempC: 8 }, { weather: "cold-clear", tempC: 3 },
+];
+// Mock weather follows the month's rating so a Best month never shows a tornado: Best months get fair weather, Good
+// months a mix, Avoid months the harsh kinds.
+const MOCK_BY_TIER: Record<string, WeatherKind[]> = {
+  wm2: ["sunny", "partly-cloudy", "sun-showers", "sunny", "hot", "humid"],
+  wm1: ["partly-cloudy", "cloudy", "rain", "drizzle", "windy", "haze", "fog", "sun-showers"],
+  wm0: ["freezing", "snow", "sleet", "hail", "storm", "heavy-rain", "monsoon", "sandstorm", "cold-clear", "fog", "hot"],
+};
+function mockWeather(slug: string, i: number, tier: string): { weather: WeatherKind; tempC: number } {
+  if (slug === "new-york") return NYC_MOCK[i];
+  let h = 0;
+  for (const c of slug) h = (h * 31 + c.charCodeAt(0)) >>> 0;
+  const base = 8 + (h % 18);
+  const swing = 4 + (h % 9);
+  return {
+    weather: (MOCK_BY_TIER[tier] ?? WEATHER_KINDS)[(h + i * 7) % (MOCK_BY_TIER[tier] ?? WEATHER_KINDS).length],
+    tempC: Math.round(base + swing * Math.sin(((i - 3) / 12) * 2 * Math.PI)),
+  };
 }
 // const MONTH_CODES = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
@@ -56,8 +82,9 @@ export default function CalendarSection({ whenToGo, slug = "", climate }: { when
             {whenToGo.months.map((m, i) => {
               const code = m.code ?? "";
               const real = climate12?.[i];
-              const kind = real?.kind ?? null;
-              const tempC = real ? real.hi : null;
+              const prev = real ? null : mockWeather(slug, i, m.tier);
+              const kind = real?.kind ?? prev?.weather ?? null;
+              const tempC = real ? real.hi : prev?.tempC ?? null;
               const isBest = m.tier === "wm2";
               return (
                 <li key={i} className={styles.wtgItem}>
